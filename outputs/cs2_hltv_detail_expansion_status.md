@@ -4,10 +4,12 @@ Date: 2026-06-09
 
 ## Result Coverage
 
-- HLTV result matches: 12,198
-- Match-date range: 2025-05-30 to 2026-06-08
+- HLTV result matches: 16,495
+- Match-date range: 2024-12-28 to 2026-06-08
+- Target 2025-01-01 onward window is covered; the final HLTV page also included 14 rows from December 2024.
 - One-year FlareSolverr results crawl: 11,999 compact result rows
-- Teams known after crawl: 1,196
+- Additional January 2025 backfill crawl: 4,300 compact result rows
+- Teams known after crawl: 1,292
 
 ## Detail Coverage
 

@@ -6,15 +6,15 @@ Date: 2026-06-09
 
 - FlareSolverr is now reachable through Docker's mapped host port `http://localhost:55000/v1`.
 - A FlareSolverr fetch of `https://www.hltv.org/results` returned a full HLTV page with about 6.2 MB of HTML.
-- The paginated FlareSolverr results collector fetched HLTV result pages through offset `12100`, stopped around the June 2025 cutoff, and loaded 11,999 compact result rows from the one-year crawl.
+- The paginated FlareSolverr results collector fetched HLTV result pages through offset `16400`, covering the target `2025-01-01` onward window. The final page also included 14 rows from December 2024.
 - The FlareSolverr match-detail collector now parses match pages into maps, vetoes, lineups, and visible match-page player stats.
 - Two high-profile detail batches completed with 155 total stat-covered matches and no FlareSolverr failures in the latest 100-match batch.
 - `SocksPls/hltv-api` is the first third-party HLTV wrapper that returned real data from this environment.
 - The working function was `get_results()`.
 - Latest run returned 112 HLTV result rows.
-- Current warehouse result coverage is 12,198 HLTV result matches.
+- Current warehouse result coverage is 16,495 HLTV result matches.
 - Current detail coverage is 990 matches with map rows, 5,943 veto rows, 8,590 lineup-player rows, and 5,475 player-stat rows.
-- The refreshed model dataset now has 12,197 match rows, with low/medium-integrity validation still restricted to 756 rows.
+- The refreshed model dataset now has 16,494 match rows, with low/medium-integrity validation still restricted to 756 rows.
 - The benchmark now covers 133 holdout matches across IEM Cologne Major 2026, PGL Astana 2026, and IEM Atlanta 2026.
 
 ## Current Benchmark After Ingest
@@ -54,11 +54,11 @@ Current working command:
 ```bash
 python3 -m work.cs2_predictor.collect_hltv_flaresolverr_results_pages \
   --flaresolverr-url http://localhost:55000/v1 \
-  --start-offset 200 \
+  --start-offset 12200 \
   --pages 200 \
-  --until-date 2025-06-01 \
+  --until-date 2025-01-01 \
   --delay-seconds 4 \
-  --out work/data/raw/hltv/flaresolverr_results_pages_from_200_until_2025_06_01.json
+  --out work/data/raw/hltv/flaresolverr_results_pages_from_12200_until_2025_01_01.json
 ```
 
 Current working detail command:

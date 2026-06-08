@@ -13,7 +13,7 @@ Date: 2026-06-08
 
 ## Best Current Benchmarks
 
-- Best pure pre-match readout: `pre_event_frozen` + `logistic`.
+- Best pure pre-match readout: `rolling_in_event` + `logistic`.
 - Best post-veto/map-known readout: `rolling_in_event` + `post_veto_map`.
 - The post-veto result is not a fair substitute for predictions made before map vetoes are known.
 
@@ -21,9 +21,9 @@ Date: 2026-06-08
 
 | Event | Rows | Correct | Accuracy |
 |---|---:|---:|---:|
-| cologne_major_2026 | 62 | 42 | 0.677 |
+| cologne_major_2026 | 62 | 40 | 0.645 |
 | iem_atlanta_2026 | 30 | 18 | 0.600 |
-| pgl_astana_2026 | 41 | 29 | 0.707 |
+| pgl_astana_2026 | 41 | 31 | 0.756 |
 | **Overall** | **133** | **89** | **0.669** |
 
 ### Post-Veto / Map Known
@@ -39,12 +39,12 @@ Date: 2026-06-08
 
 | Product | Min confidence | Rows | Coverage | Accuracy |
 |---|---:|---:|---:|---:|
-| pure_pre_match | 0.55 | 112 | 0.842 | 0.688 |
-| pure_pre_match | 0.60 | 92 | 0.692 | 0.707 |
-| pure_pre_match | 0.65 | 69 | 0.519 | 0.739 |
-| pure_pre_match | 0.70 | 47 | 0.353 | 0.766 |
-| pure_pre_match | 0.75 | 29 | 0.218 | 0.793 |
-| pure_pre_match | 0.80 | 20 | 0.150 | 0.850 |
+| pure_pre_match | 0.55 | 110 | 0.827 | 0.682 |
+| pure_pre_match | 0.60 | 86 | 0.647 | 0.733 |
+| pure_pre_match | 0.65 | 60 | 0.451 | 0.750 |
+| pure_pre_match | 0.70 | 42 | 0.316 | 0.810 |
+| pure_pre_match | 0.75 | 28 | 0.211 | 0.786 |
+| pure_pre_match | 0.80 | 16 | 0.120 | 0.875 |
 | post_veto_map_known | 0.55 | 118 | 0.887 | 0.737 |
 | post_veto_map_known | 0.60 | 95 | 0.714 | 0.758 |
 | post_veto_map_known | 0.65 | 85 | 0.639 | 0.776 |
@@ -91,17 +91,17 @@ Readout: `rolling_in_event` + `post_veto_map`.
 | pre_event_frozen | elo | 133 | 86 | 0.647 |
 | pre_event_frozen | rank | 133 | 86 | 0.647 |
 | pre_event_frozen | form | 133 | 70 | 0.526 |
-| pre_event_frozen | logistic | 133 | 89 | 0.669 |
-| pre_event_frozen | blend | 133 | 89 | 0.669 |
+| pre_event_frozen | logistic | 133 | 88 | 0.662 |
+| pre_event_frozen | blend | 133 | 87 | 0.654 |
 | pre_event_frozen | phase_selector | 133 | 86 | 0.647 |
 | pre_event_frozen | post_veto_map | 133 | 88 | 0.662 |
 | pre_event_frozen | phase_map_selector | 133 | 88 | 0.662 |
-| rolling_in_event | elo | 133 | 83 | 0.624 |
+| rolling_in_event | elo | 133 | 86 | 0.647 |
 | rolling_in_event | rank | 133 | 86 | 0.647 |
 | rolling_in_event | form | 133 | 73 | 0.549 |
 | rolling_in_event | logistic | 133 | 89 | 0.669 |
 | rolling_in_event | blend | 133 | 88 | 0.662 |
-| rolling_in_event | phase_selector | 133 | 83 | 0.624 |
+| rolling_in_event | phase_selector | 133 | 86 | 0.647 |
 | rolling_in_event | post_veto_map | 133 | 97 | 0.729 |
 | rolling_in_event | phase_map_selector | 133 | 88 | 0.662 |
 
