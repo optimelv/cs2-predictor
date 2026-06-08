@@ -132,6 +132,7 @@ def ingest_row(connection, row: dict[str, Any]) -> bool:
         team2_score,
         winner_team_key,
         row.get("format"),
+        parse_int(row.get("stars")),
         raw_json,
         match_id,
     )
@@ -152,6 +153,7 @@ def ingest_row(connection, row: dict[str, Any]) -> bool:
                 team2_score = COALESCE(team2_score, ?),
                 winner_team_key = COALESCE(winner_team_key, ?),
                 format = COALESCE(format, ?),
+                stars = COALESCE(stars, ?),
                 source = CASE
                     WHEN source IS NULL OR source = '' THEN 'hltv_flaresolverr_results'
                     WHEN instr(source, 'hltv_flaresolverr_results') = 0 THEN source || ';hltv_flaresolverr_results'
@@ -168,10 +170,10 @@ def ingest_row(connection, row: dict[str, Any]) -> bool:
             INSERT INTO hltv_result_matches(
                 match_id, match_url, match_date, match_timestamp, event_name,
                 team1_key, team1_name, team2_key, team2_name,
-                team1_score, team2_score, winner_team_key, format,
+                team1_score, team2_score, winner_team_key, format, stars,
                 source, raw_json
             )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
             """,
             (
                 match_id,
@@ -187,6 +189,7 @@ def ingest_row(connection, row: dict[str, Any]) -> bool:
                 team2_score,
                 winner_team_key,
                 row.get("format"),
+                parse_int(row.get("stars")),
                 "hltv_flaresolverr_results",
                 raw_json,
             ),

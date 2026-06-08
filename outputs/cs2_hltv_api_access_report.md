@@ -1,24 +1,27 @@
 # CS2 HLTV API Access Report
 
-Date: 2026-06-08
+Date: 2026-06-09
 
 ## What Worked
 
 - FlareSolverr is now reachable through Docker's mapped host port `http://localhost:55000/v1`.
 - A FlareSolverr fetch of `https://www.hltv.org/results` returned a full HLTV page with about 6.2 MB of HTML.
-- The new paginated FlareSolverr results collector fetched offsets `0` and `100`, parsed 200 compact HLTV result rows, and loaded them into the warehouse.
+- The paginated FlareSolverr results collector fetched HLTV result pages through offset `12100`, stopped around the June 2025 cutoff, and loaded 11,999 compact result rows from the one-year crawl.
+- The FlareSolverr match-detail collector now parses match pages into maps, vetoes, lineups, and visible match-page player stats.
+- Two high-profile detail batches completed with 155 total stat-covered matches and no FlareSolverr failures in the latest 100-match batch.
 - `SocksPls/hltv-api` is the first third-party HLTV wrapper that returned real data from this environment.
 - The working function was `get_results()`.
 - Latest run returned 112 HLTV result rows.
-- Current warehouse result coverage is 973 HLTV result matches.
-- The refreshed model dataset now has 970 match rows.
+- Current warehouse result coverage is 12,198 HLTV result matches.
+- Current detail coverage is 990 matches with map rows, 5,943 veto rows, 8,590 lineup-player rows, and 5,475 player-stat rows.
+- The refreshed model dataset now has 12,197 match rows, with low/medium-integrity validation still restricted to 756 rows.
 - The benchmark now covers 133 holdout matches across IEM Cologne Major 2026, PGL Astana 2026, and IEM Atlanta 2026.
 
 ## Current Benchmark After Ingest
 
-- Best pure pre-event prediction: 88 / 133 = 66.2%.
-- Best post-veto/map-known prediction: 99 / 133 = 74.4%.
-- High-confidence post-veto/map-known predictions remain the stronger product path.
+- Best pure pre-event prediction: 89 / 133 = 66.9%.
+- Best post-veto/map-known prediction: 97 / 133 = 72.9%.
+- Post-veto/map-known remains the stronger product path, but the selector needs re-tuning after the new map-detail expansion.
 - Cologne Stage 2 is still partially live/current in the warehouse: 29 of 30 local Stage 2 rows are scored.
 
 ## Wrapper Review
@@ -40,9 +43,9 @@ Most public “HLTV APIs” are wrappers, not official stable feeds. They still 
 
 ## FlareSolverr Plan
 
-I added `work/cs2_predictor/collect_hltv_flaresolverr.py`, `work/cs2_predictor/collect_hltv_flaresolverr_results_pages.py`, and `work/cs2_predictor/ingest_hltv_flaresolverr_results.py`.
+I added `work/cs2_predictor/collect_hltv_flaresolverr.py`, `work/cs2_predictor/collect_hltv_flaresolverr_results_pages.py`, `work/cs2_predictor/collect_hltv_flaresolverr_match_details.py`, `work/cs2_predictor/ingest_hltv_flaresolverr_results.py`, and `work/cs2_predictor/ingest_hltv_flaresolverr_match_details.py`.
 
-They post to a running FlareSolverr service, parse HLTV result cards, and save compact match rows for ingestion.
+They post to a running FlareSolverr service, parse HLTV result cards and match pages, and save compact rows for ingestion.
 
 Current probe result: working through `http://localhost:55000/v1`.
 
@@ -51,10 +54,22 @@ Current working command:
 ```bash
 python3 -m work.cs2_predictor.collect_hltv_flaresolverr_results_pages \
   --flaresolverr-url http://localhost:55000/v1 \
-  --start-offset 0 \
-  --pages 2 \
-  --delay-seconds 5 \
-  --out work/data/raw/hltv/flaresolverr_results_pages_0_100.json
+  --start-offset 200 \
+  --pages 200 \
+  --until-date 2025-06-01 \
+  --delay-seconds 4 \
+  --out work/data/raw/hltv/flaresolverr_results_pages_from_200_until_2025_06_01.json
+```
+
+Current working detail command:
+
+```bash
+python3 -m work.cs2_predictor.collect_hltv_flaresolverr_match_details \
+  --queue work/data/raw/hltv/flaresolverr_match_detail_queue_next100.json \
+  --flaresolverr-url http://localhost:55000/v1 \
+  --limit 100 \
+  --delay-seconds 4 \
+  --out work/data/raw/hltv/flaresolverr_match_details_next100.json
 ```
 
 If you want a fixed host port instead of Docker's random `55000` mapping, recreate the container with:

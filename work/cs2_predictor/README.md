@@ -25,9 +25,12 @@ Included:
 - `collect_hltv_sockspls_results.py`: slow but working latest-results collector through `SocksPls/hltv-api`
 - `collect_hltv_flaresolverr.py`: probe/fetch bridge for a running FlareSolverr service
 - `collect_hltv_flaresolverr_results_pages.py`: paginated FlareSolverr HLTV results collector that stores compact parsed rows
+- `collect_hltv_flaresolverr_match_details.py`: FlareSolverr match-page collector for maps, vetoes, lineups, and visible player stats
+- `build_hltv_detail_queue.py`: prioritized match-detail queue builder for high-profile/starred matches
 - `build_hltv_collection_queues.py`: exports missing match-detail, map-stat, and player-stat queues
 - `ingest_hltv_results.py`: merges HLTV result chunks into the warehouse without overwriting richer context
 - `ingest_hltv_flaresolverr_results.py`: parses/loads FlareSolverr HLTV results HTML or compact result-row payloads
+- `ingest_hltv_flaresolverr_match_details.py`: loads parsed FlareSolverr match-page detail rows into maps/vetoes/lineups/player stats
 - `ingest_hltv_sockspls_results.py`: merges SocksPls latest-results rows into the warehouse
 - `ingest_hltv_match_stats.py`: loads per-map player stat lines and round histories
 - `ingest_hltv_player_stats.py`: loads rolling player-stat windows

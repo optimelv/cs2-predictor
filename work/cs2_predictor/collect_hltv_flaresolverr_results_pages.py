@@ -4,7 +4,7 @@ import argparse
 import json
 import os
 import time
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -27,6 +27,44 @@ def compact_row(row: dict[str, Any]) -> dict[str, Any]:
     return {key: value for key, value in row.items() if key != "raw_html"}
 
 
+def parse_iso_date(value: str | None) -> date | None:
+    if not value:
+        return None
+    try:
+        return date.fromisoformat(value)
+    except ValueError:
+        return None
+
+
+def build_payload(
+    flaresolverr_url: str,
+    start_offset: int,
+    pages: int,
+    step: int,
+    page_results: list[dict[str, Any]],
+    rows_by_match_id: dict[int, dict[str, Any]],
+    status: str,
+    stopped_reason: str | None,
+) -> dict[str, Any]:
+    return {
+        "source": "FlareSolverr:hltv-results-pages",
+        "status": status,
+        "fetched_at_utc": utc_now(),
+        "flaresolverr_url": flaresolverr_url,
+        "start_offset": start_offset,
+        "pages": pages,
+        "step": step,
+        "page_results": page_results,
+        "rows": sorted(
+            rows_by_match_id.values(),
+            key=lambda row: (row.get("match_timestamp") or 0, row.get("match_id") or 0),
+            reverse=True,
+        ),
+        "row_count": len(rows_by_match_id),
+        "stopped_reason": stopped_reason,
+    }
+
+
 def collect_pages(
     flaresolverr_url: str,
     start_offset: int,
@@ -35,9 +73,13 @@ def collect_pages(
     delay_seconds: float,
     timeout_seconds: int,
     max_timeout_ms: int,
+    until_date: str | None = None,
+    progress_path: Path | None = None,
 ) -> dict[str, Any]:
     page_results: list[dict[str, Any]] = []
     rows_by_match_id: dict[int, dict[str, Any]] = {}
+    cutoff_date = parse_iso_date(until_date)
+    stopped_reason = None
     for page_index in range(pages):
         offset = start_offset + page_index * step
         url = result_url(offset)
@@ -49,6 +91,8 @@ def collect_pages(
         )
         status = payload.get("status")
         parsed_rows = parse_result_blocks(payload.get("html") or "") if status == "ok" else []
+        parsed_dates = [parse_iso_date(row.get("match_date")) for row in parsed_rows]
+        parsed_dates = [value for value in parsed_dates if value is not None]
         for row in parsed_rows:
             match_id = row.get("match_id")
             if match_id is not None:
@@ -62,22 +106,39 @@ def collect_pages(
                 "rows_parsed": len(parsed_rows),
                 "error": payload.get("error"),
                 "message": payload.get("message"),
+                "min_match_date": min(parsed_dates).isoformat() if parsed_dates else None,
+                "max_match_date": max(parsed_dates).isoformat() if parsed_dates else None,
             }
         )
+        if progress_path:
+            progress_payload = build_payload(
+                flaresolverr_url=flaresolverr_url,
+                start_offset=start_offset,
+                pages=pages,
+                step=step,
+                page_results=page_results,
+                rows_by_match_id=rows_by_match_id,
+                status="partial",
+                stopped_reason=stopped_reason,
+            )
+            progress_path.parent.mkdir(parents=True, exist_ok=True)
+            progress_path.write_text(json.dumps(progress_payload, indent=2, sort_keys=True), encoding="utf-8")
+        if cutoff_date and parsed_dates and min(parsed_dates) <= cutoff_date:
+            stopped_reason = f"Reached until_date {cutoff_date.isoformat()} at offset {offset}"
+            break
         if page_index < pages - 1 and delay_seconds > 0:
             time.sleep(delay_seconds)
-    return {
-        "source": "FlareSolverr:hltv-results-pages",
-        "status": "ok" if all(page.get("status") == "ok" for page in page_results) else "partial",
-        "fetched_at_utc": utc_now(),
-        "flaresolverr_url": flaresolverr_url,
-        "start_offset": start_offset,
-        "pages": pages,
-        "step": step,
-        "page_results": page_results,
-        "rows": sorted(rows_by_match_id.values(), key=lambda row: (row.get("match_timestamp") or 0, row.get("match_id") or 0), reverse=True),
-        "row_count": len(rows_by_match_id),
-    }
+    status_value = "ok" if page_results and all(page.get("status") == "ok" for page in page_results) else "partial"
+    return build_payload(
+        flaresolverr_url=flaresolverr_url,
+        start_offset=start_offset,
+        pages=pages,
+        step=step,
+        page_results=page_results,
+        rows_by_match_id=rows_by_match_id,
+        status=status_value,
+        stopped_reason=stopped_reason,
+    )
 
 
 def main() -> None:
@@ -89,6 +150,7 @@ def main() -> None:
     parser.add_argument("--delay-seconds", type=float, default=8.0)
     parser.add_argument("--timeout-seconds", type=int, default=120)
     parser.add_argument("--max-timeout-ms", type=int, default=90000)
+    parser.add_argument("--until-date", help="Stop after collecting a page whose oldest parsed match date is on/before YYYY-MM-DD.")
     parser.add_argument("--out", default=str(RAW_ROOT / "hltv" / "flaresolverr_results_pages.json"))
     args = parser.parse_args()
 
@@ -102,6 +164,8 @@ def main() -> None:
         delay_seconds=args.delay_seconds,
         timeout_seconds=args.timeout_seconds,
         max_timeout_ms=args.max_timeout_ms,
+        until_date=args.until_date,
+        progress_path=output_path,
     )
     output_path.write_text(json.dumps(payload, indent=2, sort_keys=True), encoding="utf-8")
     print(
