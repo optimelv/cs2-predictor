@@ -64,6 +64,15 @@ python3 -m work.cs2_predictor.collect_hltv_flaresolverr --hltv-url https://www.h
 
 The provided Apify actor is `paco_nassa/hltv-org-live-and-upcoming-matches`.
 
+Test result:
+
+- Authentication worked with the provided token.
+- The actor ID `J40GPeE23znOF83ep` resolves to `paco_nassa/hltv-org-live-and-upcoming-matches`.
+- A small synchronous run with `maxMatches = 5` completed successfully.
+- The returned dataset shape was one item containing `matches`.
+- The returned `matches` array was empty, so this actor is not yet proven useful for live match coverage.
+- I added `work/cs2_predictor/collect_hltv_apify.py` for future runs without hardcoding the token.
+
 What I need from you:
 
 - `APIFY_API_TOKEN`.

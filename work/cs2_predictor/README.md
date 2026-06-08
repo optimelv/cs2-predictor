@@ -21,6 +21,7 @@ Included:
 - `collect_hltv_results.js`: slow/resumable HLTV result collector using `gigobyte/HLTV`
 - `collect_hltv_match_stats.js`: slow/resumable HLTV map-stat collector using map `stats_id` queues
 - `collect_hltv_player_stats.js`: slow/resumable HLTV player-stat-window collector
+- `collect_hltv_apify.py`: Apify actor collector for HLTV live/upcoming/completed feed probes
 - `collect_hltv_sockspls_results.py`: slow but working latest-results collector through `SocksPls/hltv-api`
 - `collect_hltv_flaresolverr.py`: probe/fetch bridge for a running FlareSolverr service
 - `build_hltv_collection_queues.py`: exports missing match-detail, map-stat, and player-stat queues
