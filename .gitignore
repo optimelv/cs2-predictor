@@ -1,0 +1,17 @@
+# Local runtime/cache artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+*.log
+
+# Python/node dependency folders installed during scraping experiments
+work/.python_packages/
+node_modules/
+
+# Large/generated data snapshots and SQLite warehouse files
+work/data/
+work/api_tests/
+
+# Keep user-facing reports and project code trackable
+!outputs/
+!work/cs2_predictor/
