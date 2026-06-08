@@ -4,19 +4,22 @@ Date: 2026-06-08
 
 ## What Worked
 
+- FlareSolverr is now reachable through Docker's mapped host port `http://localhost:55000/v1`.
+- A FlareSolverr fetch of `https://www.hltv.org/results` returned a full HLTV page with about 6.2 MB of HTML.
+- The new paginated FlareSolverr results collector fetched offsets `0` and `100`, parsed 200 compact HLTV result rows, and loaded them into the warehouse.
 - `SocksPls/hltv-api` is the first third-party HLTV wrapper that returned real data from this environment.
 - The working function was `get_results()`.
 - Latest run returned 112 HLTV result rows.
-- Ingestion loaded those rows into the SQLite warehouse and increased `hltv_result_matches` from 835 to 903.
-- The refreshed model dataset now has 899 match rows.
-- The benchmark now covers 132 holdout matches across IEM Cologne Major 2026, PGL Astana 2026, and IEM Atlanta 2026.
+- Current warehouse result coverage is 973 HLTV result matches.
+- The refreshed model dataset now has 970 match rows.
+- The benchmark now covers 133 holdout matches across IEM Cologne Major 2026, PGL Astana 2026, and IEM Atlanta 2026.
 
 ## Current Benchmark After Ingest
 
-- Best pure pre-event prediction: 87 / 132 = 65.9%.
-- Best post-veto/map-known prediction: 98 / 132 = 74.2%.
+- Best pure pre-event prediction: 88 / 133 = 66.2%.
+- Best post-veto/map-known prediction: 99 / 133 = 74.4%.
 - High-confidence post-veto/map-known predictions remain the stronger product path.
-- Cologne Stage 2 is still partially live/current in the warehouse: 28 of 30 local Stage 2 rows are scored.
+- Cologne Stage 2 is still partially live/current in the warehouse: 29 of 30 local Stage 2 rows are scored.
 
 ## Wrapper Review
 
@@ -37,27 +40,33 @@ Most public “HLTV APIs” are wrappers, not official stable feeds. They still 
 
 ## FlareSolverr Plan
 
-I added `work/cs2_predictor/collect_hltv_flaresolverr.py`.
+I added `work/cs2_predictor/collect_hltv_flaresolverr.py`, `work/cs2_predictor/collect_hltv_flaresolverr_results_pages.py`, and `work/cs2_predictor/ingest_hltv_flaresolverr_results.py`.
 
-It posts to a running FlareSolverr service and saves the returned HLTV HTML/cookies into `work/data/raw/hltv/flaresolverr_probe.json`.
+They post to a running FlareSolverr service, parse HLTV result cards, and save compact match rows for ingestion.
 
-Current probe result: connection refused, because no FlareSolverr service is running at `http://localhost:8191/v1`.
+Current probe result: working through `http://localhost:55000/v1`.
 
-What I need from you:
+Current working command:
 
-- Best option: run FlareSolverr locally with Docker Desktop.
-- Command if Docker is available on your machine:
+```bash
+python3 -m work.cs2_predictor.collect_hltv_flaresolverr_results_pages \
+  --flaresolverr-url http://localhost:55000/v1 \
+  --start-offset 0 \
+  --pages 2 \
+  --delay-seconds 5 \
+  --out work/data/raw/hltv/flaresolverr_results_pages_0_100.json
+```
+
+If you want a fixed host port instead of Docker's random `55000` mapping, recreate the container with:
 
 ```bash
 docker run -d --name flaresolverr -p 8191:8191 ghcr.io/flaresolverr/flaresolverr:latest
 ```
 
-- Alternative: give me a reachable FlareSolverr URL, for example `http://localhost:8191/v1` or a private remote endpoint.
-
-After that, I can run:
+Then the collector can use:
 
 ```bash
-python3 -m work.cs2_predictor.collect_hltv_flaresolverr --hltv-url https://www.hltv.org/results
+--flaresolverr-url http://localhost:8191/v1
 ```
 
 ## Apify Plan

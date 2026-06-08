@@ -21,36 +21,36 @@ Date: 2026-06-08
 
 | Event | Rows | Correct | Accuracy |
 |---|---:|---:|---:|
-| cologne_major_2026 | 61 | 39 | 0.639 |
+| cologne_major_2026 | 62 | 40 | 0.645 |
 | iem_atlanta_2026 | 30 | 18 | 0.600 |
 | pgl_astana_2026 | 41 | 30 | 0.732 |
-| **Overall** | **132** | **87** | **0.659** |
+| **Overall** | **133** | **88** | **0.662** |
 
 ### Post-Veto / Map Known
 
 | Event | Rows | Correct | Accuracy |
 |---|---:|---:|---:|
-| cologne_major_2026 | 61 | 48 | 0.787 |
+| cologne_major_2026 | 62 | 49 | 0.790 |
 | iem_atlanta_2026 | 30 | 21 | 0.700 |
 | pgl_astana_2026 | 41 | 29 | 0.707 |
-| **Overall** | **132** | **98** | **0.742** |
+| **Overall** | **133** | **99** | **0.744** |
 
 ## Confidence Thresholds
 
 | Product | Min confidence | Rows | Coverage | Accuracy |
 |---|---:|---:|---:|---:|
-| pure_pre_match | 0.55 | 100 | 0.758 | 0.660 |
-| pure_pre_match | 0.60 | 69 | 0.523 | 0.710 |
-| pure_pre_match | 0.65 | 51 | 0.386 | 0.706 |
-| pure_pre_match | 0.70 | 36 | 0.273 | 0.778 |
-| pure_pre_match | 0.75 | 21 | 0.159 | 0.810 |
+| pure_pre_match | 0.55 | 101 | 0.759 | 0.663 |
+| pure_pre_match | 0.60 | 70 | 0.526 | 0.714 |
+| pure_pre_match | 0.65 | 52 | 0.391 | 0.712 |
+| pure_pre_match | 0.70 | 36 | 0.271 | 0.778 |
+| pure_pre_match | 0.75 | 21 | 0.158 | 0.810 |
 | pure_pre_match | 0.80 | 9 | 0.068 | 0.889 |
-| post_veto_map_known | 0.55 | 113 | 0.856 | 0.761 |
-| post_veto_map_known | 0.60 | 96 | 0.727 | 0.781 |
-| post_veto_map_known | 0.65 | 82 | 0.621 | 0.780 |
-| post_veto_map_known | 0.70 | 71 | 0.538 | 0.789 |
-| post_veto_map_known | 0.75 | 61 | 0.462 | 0.820 |
-| post_veto_map_known | 0.80 | 48 | 0.364 | 0.854 |
+| post_veto_map_known | 0.55 | 114 | 0.857 | 0.763 |
+| post_veto_map_known | 0.60 | 97 | 0.729 | 0.784 |
+| post_veto_map_known | 0.65 | 83 | 0.624 | 0.783 |
+| post_veto_map_known | 0.70 | 72 | 0.541 | 0.792 |
+| post_veto_map_known | 0.75 | 62 | 0.466 | 0.823 |
+| post_veto_map_known | 0.80 | 48 | 0.361 | 0.854 |
 
 ## Stage / Phase Accuracy
 
@@ -62,7 +62,7 @@ Readout: `rolling_in_event` + `post_veto_map`.
 | cologne_major_2026 | IEM Cologne Major 2026 Stage 1 | swiss_low | 9 | 9 | 1.000 |
 | cologne_major_2026 | IEM Cologne Major 2026 Stage 1 | swiss_mid | 4 | 4 | 1.000 |
 | cologne_major_2026 | IEM Cologne Major 2026 Stage 1 | swiss_round | 11 | 7 | 0.636 |
-| cologne_major_2026 | IEM Cologne Major 2026 Stage 2 | swiss_high | 8 | 7 | 0.875 |
+| cologne_major_2026 | IEM Cologne Major 2026 Stage 2 | swiss_high | 9 | 8 | 0.889 |
 | cologne_major_2026 | IEM Cologne Major 2026 Stage 2 | swiss_low | 8 | 4 | 0.500 |
 | cologne_major_2026 | IEM Cologne Major 2026 Stage 2 | swiss_mid | 4 | 2 | 0.500 |
 | cologne_major_2026 | IEM Cologne Major 2026 Stage 2 | swiss_round | 8 | 6 | 0.750 |
@@ -78,7 +78,7 @@ Readout: `rolling_in_event` + `post_veto_map`.
 
 | Event | Playoff flag | Rows | Correct | Accuracy |
 |---|---:|---:|---:|---:|
-| cologne_major_2026 | 0 | 61 | 48 | 0.787 |
+| cologne_major_2026 | 0 | 62 | 49 | 0.790 |
 | iem_atlanta_2026 | 0 | 24 | 16 | 0.667 |
 | iem_atlanta_2026 | 1 | 6 | 5 | 0.833 |
 | pgl_astana_2026 | 0 | 33 | 24 | 0.727 |
@@ -88,22 +88,22 @@ Readout: `rolling_in_event` + `post_veto_map`.
 
 | Mode | Model | Rows | Correct | Accuracy |
 |---|---|---:|---:|---:|
-| pre_event_frozen | elo | 132 | 75 | 0.568 |
-| pre_event_frozen | rank | 132 | 85 | 0.644 |
-| pre_event_frozen | form | 132 | 75 | 0.568 |
-| pre_event_frozen | logistic | 132 | 84 | 0.636 |
-| pre_event_frozen | blend | 132 | 87 | 0.659 |
-| pre_event_frozen | phase_selector | 132 | 76 | 0.576 |
-| pre_event_frozen | post_veto_map | 132 | 83 | 0.629 |
-| pre_event_frozen | phase_map_selector | 132 | 87 | 0.659 |
-| rolling_in_event | elo | 132 | 77 | 0.583 |
-| rolling_in_event | rank | 132 | 85 | 0.644 |
-| rolling_in_event | form | 132 | 80 | 0.606 |
-| rolling_in_event | logistic | 132 | 84 | 0.636 |
-| rolling_in_event | blend | 132 | 87 | 0.659 |
-| rolling_in_event | phase_selector | 132 | 77 | 0.583 |
-| rolling_in_event | post_veto_map | 132 | 98 | 0.742 |
-| rolling_in_event | phase_map_selector | 132 | 87 | 0.659 |
+| pre_event_frozen | elo | 133 | 76 | 0.571 |
+| pre_event_frozen | rank | 133 | 86 | 0.647 |
+| pre_event_frozen | form | 133 | 76 | 0.571 |
+| pre_event_frozen | logistic | 133 | 85 | 0.639 |
+| pre_event_frozen | blend | 133 | 88 | 0.662 |
+| pre_event_frozen | phase_selector | 133 | 77 | 0.579 |
+| pre_event_frozen | post_veto_map | 133 | 84 | 0.632 |
+| pre_event_frozen | phase_map_selector | 133 | 88 | 0.662 |
+| rolling_in_event | elo | 133 | 78 | 0.586 |
+| rolling_in_event | rank | 133 | 86 | 0.647 |
+| rolling_in_event | form | 133 | 80 | 0.602 |
+| rolling_in_event | logistic | 133 | 85 | 0.639 |
+| rolling_in_event | blend | 133 | 88 | 0.662 |
+| rolling_in_event | phase_selector | 133 | 78 | 0.586 |
+| rolling_in_event | post_veto_map | 133 | 99 | 0.744 |
+| rolling_in_event | phase_map_selector | 133 | 88 | 0.662 |
 
 ## Notes
 
