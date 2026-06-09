@@ -13,7 +13,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-06-09T16:06:41Z",
+  "generated_at_utc": "2026-06-09T19:29:49Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -6979,7 +6979,7 @@
     }
   ],
   "updater": {
-    "detail": "Generated from the local SQLite warehouse and benchmark CSV.",
-    "status": "warehouse_refresh"
+    "detail": "SQLite warehouse was unavailable, so the updater reused the published model snapshot.",
+    "status": "snapshot_refresh"
   }
 }
