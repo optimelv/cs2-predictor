@@ -1,0 +1,17 @@
+[build]
+  command = "npm run check"
+  publish = "docs"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/api/predictions"
+  to = "/.netlify/functions/predictions"
+  status = 200
+
+[[redirects]]
+  from = "/api/refresh"
+  to = "/.netlify/functions/refresh-background"
+  status = 200

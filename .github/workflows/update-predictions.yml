@@ -1,0 +1,50 @@
+name: Refresh predictor data
+
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install runtime dependency
+        run: python -m pip install numpy
+
+      - name: Fetch HLTV live feed through Apify
+        env:
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+        run: |
+          if [ -n "$APIFY_API_TOKEN" ]; then
+            python -m work.cs2_predictor.collect_hltv_apify \
+              --max-matches 80 \
+              --out work/data/raw/hltv/apify_live_upcoming_matches.json
+          else
+            echo "APIFY_API_TOKEN is not set; using the published model snapshot."
+          fi
+
+      - name: Refresh public prediction JSON
+        run: >
+          python -m work.cs2_predictor.export_site_predictions
+          --allow-missing-db
+          --apify-feed work/data/raw/hltv/apify_live_upcoming_matches.json
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/predictions.json docs/data/predictions.js
+          git diff --cached --quiet || git commit -m "Refresh predictor site data"
+          git push

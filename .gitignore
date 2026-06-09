@@ -7,6 +7,7 @@ __pycache__/
 # Python/node dependency folders installed during scraping experiments
 work/.python_packages/
 node_modules/
+.netlify/
 
 # Large/generated data snapshots and SQLite warehouse files
 work/data/

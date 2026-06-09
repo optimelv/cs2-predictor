@@ -1,0 +1,19 @@
+{
+  "name": "strikesignal-cs2-predictor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node --check docs/app.js",
+    "dev": "netlify dev",
+    "check": "node --check docs/app.js"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^9.1.0",
+    "@netlify/functions": "^4.2.5"
+  },
+  "devDependencies": {
+    "netlify-cli": "^23.10.1",
+    "typescript": "^5.9.3"
+  }
+}
