@@ -13,7 +13,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-06-11T13:45:02Z",
+  "generated_at_utc": "2026-06-11T17:27:21Z",
   "major_projection": {
     "buckets": {
       "advance": [
