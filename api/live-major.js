@@ -48,6 +48,31 @@ function normalizeTeam(value) {
   return TEAM_ALIASES[key] || raw;
 }
 
+function knownTeam(value) {
+  const raw = String(scalar(value) ?? "").trim();
+  if (!raw) return "";
+  const key = raw.toLowerCase().replace(/[^a-z0-9]+/g, "");
+  return TEAM_ALIASES[key] || "";
+}
+
+function collectKnownTeams(value, output = [], depth = 0) {
+  if (value === null || value === undefined || depth > 4) return output;
+  if (typeof value === "string" || typeof value === "number") {
+    const team = knownTeam(value);
+    if (team && !output.includes(team)) output.push(team);
+    return output;
+  }
+  if (Array.isArray(value)) {
+    value.forEach((item) => collectKnownTeams(item, output, depth + 1));
+    return output;
+  }
+  if (typeof value === "object") {
+    Object.keys(value).forEach((key) => collectKnownTeams(key, output, depth + 1));
+    Object.values(value).forEach((item) => collectKnownTeams(item, output, depth + 1));
+  }
+  return output;
+}
+
 function firstValue(object, keys) {
   for (const key of keys) {
     if (object?.[key] !== undefined && object[key] !== null && object[key] !== "") return object[key];
@@ -74,8 +99,10 @@ function teamPair(object) {
   if (direct1 !== null && direct2 !== null) return [normalizeTeam(direct1), normalizeTeam(direct2)];
 
   const sides = firstArray(object, ["teams", "participants", "opponents", "competitors", "sides"]);
-  if (!sides) return ["", ""];
-  return [normalizeTeam(sides[0]), normalizeTeam(sides[1])];
+  if (sides) return [normalizeTeam(sides[0]), normalizeTeam(sides[1])];
+
+  const inferred = collectKnownTeams(object);
+  return inferred.length >= 2 ? inferred.slice(0, 2) : ["", ""];
 }
 
 function scorePair(object) {
@@ -84,8 +111,26 @@ function scorePair(object) {
   if (direct1 !== null || direct2 !== null) return [direct1, direct2];
 
   const scores = firstArray(object, ["score", "scores", "result", "results"]);
-  if (!scores) return [null, null];
-  return [numeric(scores[0]), numeric(scores[1])];
+  if (scores) return [numeric(scores[0]), numeric(scores[1])];
+
+  if (Array.isArray(object)) {
+    for (const value of object) {
+      if (!Array.isArray(value) || value.length !== 2) continue;
+      const pair = value.map(numeric);
+      if (pair.every((score) => score !== null && score >= 0 && score <= 3)) return pair;
+    }
+    if (object.length === 2) {
+      const pair = object.map(numeric);
+      if (pair.every((score) => score !== null && score >= 0 && score <= 3)) return pair;
+    }
+  }
+
+  const teamKeys = Object.keys(object || {}).filter((key) => knownTeam(key));
+  if (teamKeys.length >= 2) {
+    const pair = teamKeys.slice(0, 2).map((key) => numeric(object[key]));
+    if (pair.some((score) => score !== null)) return pair;
+  }
+  return [null, null];
 }
 
 function mapsFromValue(value, output = new Set(), depth = 0) {
@@ -153,7 +198,7 @@ function normalizeMatches(matchPayload, scorePayload) {
 
   const matches = [];
   const seenPairs = new Set();
-  walk(matchPayload, (object, path) => {
+  const collectMatch = (object, path) => {
     const candidate = candidateFromObject(object, path);
     if (!candidate.team1 || !candidate.team2 || candidate.team1 === candidate.team2) return;
     const pairKey = [candidate.team1, candidate.team2].sort().join(":");
@@ -165,14 +210,22 @@ function normalizeMatches(matchPayload, scorePayload) {
       status: candidate.status || score?.status || "",
       maps: [...new Set([...(candidate.maps || []), ...(score?.maps || [])])],
     };
-    if (seenPairs.has(`${candidate.id}:${pairKey}`)) return;
-    seenPairs.add(`${candidate.id}:${pairKey}`);
+    if (seenPairs.has(pairKey)) return;
+    seenPairs.add(pairKey);
     if (row.score1 !== null && row.score2 !== null && row.score1 !== row.score2) {
       row.winner = row.score1 > row.score2 ? row.team1 : row.team2;
     }
     matches.push(row);
-  });
+  };
+  walk(matchPayload, collectMatch);
+  walk(scorePayload, collectMatch);
   return matches;
+}
+
+function payloadShape(value) {
+  if (Array.isArray(value)) return { type: "array", length: value.length };
+  if (value && typeof value === "object") return { type: "object", keys: Object.keys(value).slice(0, 12) };
+  return { type: typeof value };
 }
 
 export default async function handler(request, response) {
@@ -187,7 +240,16 @@ export default async function handler(request, response) {
     }
     const [matchPayload, scorePayload] = await Promise.all([matchesResponse.json(), scoresResponse.json()]);
     const matches = normalizeMatches(matchPayload, scorePayload);
-    if (!matches.length) throw new Error("Live source parsed no matches");
+    if (!matches.length) {
+      return response.status(502).json({
+        ok: false,
+        error: "Live source parsed no matches",
+        source_shapes: {
+          matches: payloadShape(matchPayload),
+          scores: payloadShape(scorePayload),
+        },
+      });
+    }
     return response.status(200).json({
       ok: true,
       event: "IEM Cologne Major 2026",
