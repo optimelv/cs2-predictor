@@ -16,3 +16,5 @@ work/api_tests/
 # Keep user-facing reports and project code trackable
 !outputs/
 !work/cs2_predictor/
+.vercel
+.env*

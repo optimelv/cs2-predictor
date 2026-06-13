@@ -7,7 +7,7 @@ import math
 import re
 import sqlite3
 from collections import defaultdict
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -25,67 +25,84 @@ BEST_PRE_MODEL = ("rolling_in_event", "logistic")
 BEST_POST_VETO_MODEL = ("rolling_in_event", "post_veto_map_tuned")
 STATE_POLICY = "ranked_top120"
 MAP_STATE_POLICY = "clean_only"
-LIVE_MATCH_DETAILS_PATH = DATA_ROOT / "raw" / "hltv" / "flaresolverr_match_details_stage2_deciders_2026_06_09.json"
+LEGACY_MATCH_DETAILS_PATH = DATA_ROOT / "raw" / "hltv" / "flaresolverr_match_details_stage2_deciders_2026_06_09.json"
 MANUAL_TEAM_MAP_BANS = {
     "pain": {"Ancient"},
     "pain gaming": {"Ancient"},
 }
 TEAM_LOGO_URLS = {
-    "9z": "https://liquipedia.net/commons/images/thumb/9/9b/9z_Team_2024_darkmode.png/600px-9z_Team_2024_darkmode.png",
-    "Astralis": "https://liquipedia.net/commons/images/thumb/3/3d/Astralis_2020_allmode.png/41px-Astralis_2020_allmode.png",
-    "Aurora": "https://liquipedia.net/commons/images/thumb/3/32/Aurora_Gaming_2025_full_allmode.png/600px-Aurora_Gaming_2025_full_allmode.png",
-    "B8": "https://liquipedia.net/commons/images/thumb/a/a6/B8_darkmode.png/600px-B8_darkmode.png",
-    "BIG": "https://liquipedia.net/commons/images/thumb/6/69/BIG_2020_darkmode.png/35px-BIG_2020_darkmode.png",
-    "BetBoom": "https://liquipedia.net/commons/images/thumb/5/5b/BetBoom_Team_2024_allmode.png/56px-BetBoom_Team_2024_allmode.png",
-    "FURIA": "https://liquipedia.net/commons/images/thumb/a/aa/FURIA_Esports_allmode.png/51px-FURIA_Esports_allmode.png",
-    "FUT": "https://liquipedia.net/commons/images/thumb/0/08/Futbolist_2021_darkmode.png/600px-Futbolist_2021_darkmode.png",
-    "Falcons": "https://liquipedia.net/commons/images/thumb/8/83/Team_Falcons_2022_allmode.png/41px-Team_Falcons_2022_allmode.png",
-    "FlyQuest": "https://liquipedia.net/commons/images/thumb/b/b2/FlyQuest_2021_allmode.png/51px-FlyQuest_2021_allmode.png",
-    "G2": "https://liquipedia.net/commons/images/thumb/4/4b/G2_Esports_2020_lightmode.png/43px-G2_Esports_2020_lightmode.png",
-    "GamerLegion": "https://liquipedia.net/commons/images/thumb/2/21/GamerLegion_2026_allmode.png/600px-GamerLegion_2026_allmode.png",
-    "Legacy": "https://liquipedia.net/commons/images/thumb/3/34/Legacy_allmode.png/49px-Legacy_allmode.png",
-    "M80": "https://liquipedia.net/commons/images/thumb/5/55/M80_2023_allmode.png/600px-M80_2023_allmode.png",
-    "MIBR": "https://liquipedia.net/commons/images/thumb/7/72/MIBR_2018_darkmode.png/600px-MIBR_2018_darkmode.png",
-    "MOUZ": "https://liquipedia.net/commons/images/thumb/c/c2/MOUZ_2021_allmode.png/47px-MOUZ_2021_allmode.png",
-    "Monte": "https://liquipedia.net/commons/images/thumb/2/22/Monte_2022_allmode.png/600px-Monte_2022_allmode.png",
-    "NAVI": "https://liquipedia.net/commons/images/thumb/9/95/Natus_Vincere_2021_allmode.png/57px-Natus_Vincere_2021_allmode.png",
-    "Natus Vincere": "https://liquipedia.net/commons/images/thumb/9/95/Natus_Vincere_2021_allmode.png/57px-Natus_Vincere_2021_allmode.png",
-    "PARIVISION": "https://liquipedia.net/commons/images/thumb/9/9d/PARIVISION_allmode.png/600px-PARIVISION_allmode.png",
-    "Spirit": "https://liquipedia.net/commons/images/thumb/8/80/Team_Spirit_2022_darkmode.png/43px-Team_Spirit_2022_darkmode.png",
-    "TYLOO": "https://liquipedia.net/commons/images/thumb/5/5f/TyLoo_2016_allmode.png/600px-TyLoo_2016_allmode.png",
-    "The MongolZ": "https://liquipedia.net/commons/images/thumb/2/2b/The_MongolZ_2024_03_allmode.png/600px-The_MongolZ_2024_03_allmode.png",
-    "Vitality": "https://liquipedia.net/commons/images/thumb/9/96/Team_Vitality_2023_darkmode.png/41px-Team_Vitality_2023_darkmode.png",
-    "paiN": "https://liquipedia.net/commons/images/d/d3/PaiN_Gaming_2023_darkmode.png",
+    "9z": "./assets/logos/9z.png",
+    "Astralis": "./assets/logos/astralis.png",
+    "Aurora": "https://img-cdn.hltv.org/teamlogo/yJzPNOeXlyiniNxanYJCrv.png?ixlib=java-2.1.0&w=100&s=f23524510b9d49ea59166e6e2efee1ac",
+    "B8": "./assets/logos/b8.png",
+    "BIG": "./assets/logos/big.png",
+    "BetBoom": "./assets/logos/betboom.png",
+    "FURIA": "./assets/logos/furia.png",
+    "FUT": "./assets/logos/fut.png",
+    "Falcons": "./assets/logos/falcons.png",
+    "FlyQuest": "./assets/logos/flyquest.png",
+    "G2": "./assets/logos/g2.png",
+    "GamerLegion": "./assets/logos/gamerlegion.png",
+    "Legacy": "./assets/logos/legacy.png",
+    "M80": "./assets/logos/m80.png",
+    "MIBR": "./assets/logos/mibr.png",
+    "MOUZ": "./assets/logos/mouz.png",
+    "Monte": "./assets/logos/monte.png",
+    "NAVI": "./assets/logos/navi.png",
+    "Natus Vincere": "./assets/logos/natus_vincere.png",
+    "PARIVISION": "./assets/logos/parivision.png",
+    "Spirit": "./assets/logos/spirit.png",
+    "TYLOO": "./assets/logos/tyloo.png",
+    "The MongolZ": "./assets/logos/the_mongolz.png",
+    "Vitality": "./assets/logos/vitality.png",
+    "paiN": "./assets/logos/pain.png",
 }
 COLOGNE_STAGE3_SOURCE_URLS = {
-    "hltv_stage2": "https://www.hltv.org/events/9029/iem-cologne-major-2026-stage-2",
     "hltv_stage3": "https://www.hltv.org/events/8301/iem-cologne-major-2026",
     "liquipedia_stage3": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3",
 }
-COLOGNE_STAGE3_LOCKED_SEEDS = [
+COLOGNE_STAGE3_SEEDS = [
     (1, "Vitality"),
-    (2, "Spirit"),
+    (2, "NAVI"),
     (3, "Falcons"),
-    (4, "NAVI"),
-    (5, "MOUZ"),
-    (7, "The MongolZ"),
-    (8, "FUT"),
-    (9, "Aurora"),
-    (10, "FURIA"),
+    (4, "The MongolZ"),
+    (5, "PARIVISION"),
+    (6, "Aurora"),
+    (7, "FURIA"),
+    (8, "MOUZ"),
+    (9, "FUT"),
+    (10, "Spirit"),
     (11, "G2"),
+    (12, "BetBoom"),
     (13, "9z"),
-    (15, "BetBoom"),
-    (16, "PARIVISION"),
+    (14, "Monte"),
+    (15, "B8"),
+    (16, "Legacy"),
 ]
-COLOGNE_STAGE2_DECIDERS = [
-    {"match_id": 2394895, "seed": 12, "team1": "Monte", "team2": "paiN", "starts_at": "2026-06-09T14:00:00+02:00"},
-    {"match_id": 2394896, "seed": 6, "team1": "Legacy", "team2": "TYLOO", "starts_at": "2026-06-09T16:30:00+02:00"},
-    {"match_id": 2394897, "seed": 14, "team1": "B8", "team2": "BIG", "starts_at": "2026-06-09T19:00:00+02:00"},
+COLOGNE_STAGE3_CURRENT_MATCHES = [
+    {"round": 1, "record": "0-0", "team1": "Vitality", "team2": "FUT", "score": "2:1", "winner": "Vitality"},
+    {"round": 1, "record": "0-0", "team1": "NAVI", "team2": "Spirit", "score": "0:2", "winner": "Spirit"},
+    {"round": 1, "record": "0-0", "team1": "Falcons", "team2": "G2", "score": "2:1", "winner": "Falcons"},
+    {"round": 1, "record": "0-0", "team1": "The MongolZ", "team2": "BetBoom", "score": "1:2", "winner": "BetBoom"},
+    {"round": 1, "record": "0-0", "team1": "PARIVISION", "team2": "9z", "score": "1:2", "winner": "9z"},
+    {"round": 1, "record": "0-0", "team1": "Aurora", "team2": "Monte", "score": "2:0", "winner": "Aurora"},
+    {"round": 1, "record": "0-0", "team1": "FURIA", "team2": "B8", "score": "2:0", "winner": "FURIA"},
+    {"round": 1, "record": "0-0", "team1": "MOUZ", "team2": "Legacy", "score": "2:0", "winner": "MOUZ"},
+    {"round": 2, "record": "1-0", "team1": "Vitality", "team2": "9z"},
+    {"round": 2, "record": "1-0", "team1": "Falcons", "team2": "BetBoom"},
+    {"round": 2, "record": "1-0", "team1": "Aurora", "team2": "Spirit"},
+    {"round": 2, "record": "1-0", "team1": "FURIA", "team2": "MOUZ", "score": "2:1", "winner": "FURIA"},
+    {"round": 2, "record": "0-1", "team1": "NAVI", "team2": "Legacy"},
+    {"round": 2, "record": "0-1", "team1": "The MongolZ", "team2": "B8", "score": "2:0", "winner": "The MongolZ"},
+    {"round": 2, "record": "0-1", "team1": "PARIVISION", "team2": "Monte"},
+    {"round": 2, "record": "0-1", "team1": "FUT", "team2": "G2"},
 ]
+_APIFY_LIVE_DETAILS: dict[int, dict[str, Any]] = {}
+
 
 
 def utc_now() -> str:
-    return datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
+    return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
 def round_prob(value: float) -> float:
@@ -430,6 +447,7 @@ def projection_team(name: str, model_state: dict[str, Any]) -> dict[str, Any]:
         "vrs_rank": safe_int(team.get("vrs_rank"), None),
         "vrs_points": safe_float(team.get("vrs_points"), 0.0),
         "recent_win_rate_10": safe_float(team.get("recent_win_rate_10"), 0.5),
+        "has_state": bool(team),
     }
 
 
@@ -446,10 +464,15 @@ def projection_probability(team1_name: str, team2_name: str, model_state: dict[s
     team1 = projection_team(team1_name, model_state)
     team2 = projection_team(team2_name, model_state)
     elo_logit = logit_probability(elo_probability(team1["elo"] - team2["elo"]))
-    vrs_rank_advantage = (team2["vrs_rank"] or 400) - (team1["vrs_rank"] or 400)
-    vrs_points_diff = team1["vrs_points"] - team2["vrs_points"]
-    recent_diff = team1["recent_win_rate_10"] - team2["recent_win_rate_10"]
-    return sigmoid(elo_logit + 0.0115 * vrs_rank_advantage + 0.00045 * vrs_points_diff + 0.35 * recent_diff)
+    rank1 = team1["vrs_rank"]
+    rank2 = team2["vrs_rank"]
+    vrs_rank_advantage = max(-40, min(40, rank2 - rank1)) if rank1 and rank2 else 0
+    vrs_points_diff = max(-650.0, min(650.0, team1["vrs_points"] - team2["vrs_points"]))
+    recent_diff = max(-0.5, min(0.5, team1["recent_win_rate_10"] - team2["recent_win_rate_10"]))
+    probability = sigmoid(elo_logit + 0.009 * vrs_rank_advantage + 0.00035 * vrs_points_diff + 0.3 * recent_diff)
+    if not team1["has_state"] or not team2["has_state"]:
+        probability = 0.5 + (probability - 0.5) * 0.45
+    return max(0.08, min(0.92, probability))
 
 
 def logit(value: float) -> float:
@@ -501,19 +524,207 @@ def rate_with_prior(profile: dict[str, Any], prior: float = 4.0) -> float:
 
 
 def live_match_details() -> dict[int, dict[str, Any]]:
-    if not LIVE_MATCH_DETAILS_PATH.exists():
-        return {}
-    try:
-        payload = json.loads(LIVE_MATCH_DETAILS_PATH.read_text(encoding="utf-8"))
-    except json.JSONDecodeError:
-        return {}
-    details = payload.get("details") if isinstance(payload, dict) else payload
     output = {}
-    for detail in details or []:
-        match_id = safe_int(detail.get("match_id"), None)
-        if match_id is not None:
-            output[match_id] = detail
+    if LEGACY_MATCH_DETAILS_PATH.exists():
+        try:
+            payload = json.loads(LEGACY_MATCH_DETAILS_PATH.read_text(encoding="utf-8"))
+            details = payload.get("details") if isinstance(payload, dict) else payload
+            for detail in details or []:
+                match_id = safe_int(detail.get("match_id"), None)
+                if match_id is not None:
+                    output[match_id] = detail
+        except Exception:
+            pass
+    # Merge dynamically loaded/parsed Apify feed details
+    output.update(_APIFY_LIVE_DETAILS)
     return output
+
+
+def parse_apify_detail(item: dict[str, Any]) -> dict[str, Any]:
+    # Extract maps
+    raw_maps = item.get("maps") or []
+    maps = []
+    if isinstance(raw_maps, list):
+        for m in raw_maps:
+            if not isinstance(m, dict):
+                continue
+            map_name = m.get("map_name") or m.get("mapName") or m.get("name") or m.get("map")
+            if map_name:
+                maps.append({
+                    "map_name": str(map_name),
+                    "team1_score": safe_int(m.get("team1_score") or m.get("team1Score"), None),
+                    "team2_score": safe_int(m.get("team2_score") or m.get("team2Score"), None),
+                })
+
+    # Extract vetoes
+    raw_vetoes = item.get("vetoes") or []
+    vetoes = []
+    if isinstance(raw_vetoes, list):
+        for v in raw_vetoes:
+            if not isinstance(v, dict):
+                continue
+            map_name = v.get("map_name") or v.get("mapName") or v.get("name") or v.get("map")
+            action = v.get("action")
+            if action:
+                action = str(action).lower()
+                if "pick" in action:
+                    action = "picked"
+                elif "left" in action or "decider" in action:
+                    action = "leftover"
+                elif "remove" in action or "ban" in action:
+                    action = "removed"
+            if map_name and action:
+                vetoes.append({
+                    "map_name": str(map_name),
+                    "action": action,
+                })
+    return {
+        "match_id": safe_int(item.get("match_id") or item.get("matchId") or item.get("id"), None),
+        "maps": maps,
+        "vetoes": vetoes,
+    }
+
+
+def canonical_map_name(name: str) -> str:
+    normalized = normalize_team_name(name).replace(" ", "")
+    aliases = {
+        "dustii": "Dust2",
+        "dust2": "Dust2",
+        "de_dust2": "Dust2",
+    }
+    if normalized in aliases:
+        return aliases[normalized]
+    return str(name).strip().title().replace(" ", "")
+
+
+def oriented_api_scores(item: dict[str, Any], team1_name: str) -> tuple[int | None, int | None]:
+    score1 = safe_int(item.get("team1_score") or item.get("team1Score"), None)
+    score2 = safe_int(item.get("team2_score") or item.get("team2Score"), None)
+    api_team1 = team_name_from_api_item(item, 1)
+    if api_team1 and normalize_team_name(api_team1) != normalize_team_name(team1_name):
+        return score2, score1
+    return score1, score2
+
+
+def live_map_read_from_snapshot(
+    match: dict[str, Any],
+    feed_item: dict[str, Any],
+    model_state: dict[str, Any],
+) -> dict[str, Any] | None:
+    detail = parse_apify_detail(feed_item)
+    known_maps = [canonical_map_name(row["map_name"]) for row in detail.get("maps", []) if row.get("map_name")]
+    if not known_maps:
+        known_maps = [
+            canonical_map_name(row["map_name"])
+            for row in detail.get("vetoes", [])
+            if row.get("map_name") and row.get("action") in {"picked", "leftover"}
+        ]
+    known_maps = [name for index, name in enumerate(known_maps) if name and name not in known_maps[:index]]
+    if not known_maps:
+        return None
+
+    team1 = str(match.get("team1_name") or "")
+    team2 = str(match.get("team2_name") or "")
+    base_probability = safe_float(match.get("prob_team1"), 0.5)
+    profiles = model_state.get("map_profiles", {})
+    profile1 = profiles.get(normalize_team_name(team1), {})
+    profile2 = profiles.get(normalize_team_name(team2), {})
+    maps = []
+    for map_name in known_maps[:3]:
+        row1 = profile1.get(map_name, {})
+        row2 = profile2.get(map_name, {})
+        rate1 = rate_with_prior(row1)
+        rate2 = rate_with_prior(row2)
+        evidence = (safe_int(row1.get("matches"), 0) or 0) + (safe_int(row2.get("matches"), 0) or 0)
+        weight = min(1.0, evidence / 28.0)
+        probability = sigmoid(logit(base_probability) + weight * 1.85 * (rate1 - rate2))
+        maps.append(
+            {
+                "map_name": map_name,
+                "source": "known_veto",
+                "prob_team1": round_prob(probability),
+                "predicted_winner": team1 if probability >= 0.5 else team2,
+                "confidence": round_prob(max(probability, 1.0 - probability)),
+                "team1_map_win_rate": round_prob(rate1),
+                "team2_map_win_rate": round_prob(rate2),
+                "evidence_maps": evidence,
+            }
+        )
+    probability = sum(row["prob_team1"] for row in maps) / len(maps)
+    return {
+        "status": "known_veto",
+        "base_prob_team1": round_prob(base_probability),
+        "map_adjusted_prob_team1": round_prob(probability),
+        "map_adjusted_predicted_winner": team1 if probability >= 0.5 else team2,
+        "map_adjusted_confidence": round_prob(max(probability, 1.0 - probability)),
+        "maps": maps,
+        "excluded_maps": match.get("map_read", {}).get("excluded_maps", {}),
+        "note": "Official veto loaded. The series probability now uses the selected maps.",
+    }
+
+
+def update_major_projection_from_apify(payload: dict[str, Any], apify_feed_path: Path) -> None:
+    apify_items = api_items_from_feed(apify_feed_path)
+    if not apify_items:
+        return
+
+    apify_lookup = {}
+    for item in apify_items:
+        t1 = team_name_from_api_item(item, 1)
+        t2 = team_name_from_api_item(item, 2)
+        if t1 and t2:
+            key1 = (normalize_team_name(t1), normalize_team_name(t2))
+            key2 = (normalize_team_name(t2), normalize_team_name(t1))
+            apify_lookup[key1] = item
+            apify_lookup[key2] = item
+
+    major = payload.get("major_projection", {})
+    if not major:
+        return
+
+    # Update current Stage 3 board.
+    board = major.get("current_stage_board", {})
+    for round_obj in board.get("rounds", []):
+        for group in round_obj.get("groups", []):
+            for match in group.get("matches", []):
+                if match.get("status") == "locked":
+                    continue
+                t1 = match.get("team1_name")
+                t2 = match.get("team2_name")
+                if not (t1 and t2):
+                    continue
+                key = (normalize_team_name(t1), normalize_team_name(t2))
+                feed_item = apify_lookup.get(key)
+                if feed_item:
+                    status = str(feed_item.get("status") or "Scheduled").lower()
+                    t1_score, t2_score = oriented_api_scores(feed_item, t1)
+
+                    if "live" in status or "playing" in status:
+                        match["status"] = "live"
+                        match["score_label"] = f"{t1_score or 0}:{t2_score or 0}"
+                    elif "completed" in status or "finished" in status or t1_score is not None or t2_score is not None:
+                        match["status"] = "locked"
+                        if t1_score is not None and t2_score is not None:
+                            match["score_label"] = f"{t1_score}:{t2_score}"
+                            match["winner_name"] = t1 if t1_score > t2_score else t2
+
+    for prediction in payload.get("upcoming_predictions", []):
+        team1 = prediction.get("team1_name")
+        team2 = prediction.get("team2_name")
+        if not (team1 and team2):
+            continue
+        feed_item = apify_lookup.get((normalize_team_name(team1), normalize_team_name(team2)))
+        if not feed_item:
+            continue
+        status = str(feed_item.get("status") or "scheduled").lower()
+        score1, score2 = oriented_api_scores(feed_item, team1)
+        prediction["status"] = "live" if "live" in status or "playing" in status else status
+        if score1 is not None and score2 is not None:
+            prediction["score_label"] = f"{score1}:{score2}"
+        live_map_read = live_map_read_from_snapshot(prediction, feed_item, payload.get("model_state", {}))
+        if live_map_read:
+            prediction["map_read"] = live_map_read
+
 
 
 def likely_banned_maps(team_name: str, pool: list[str], profile: dict[str, dict[str, Any]]) -> set[str]:
@@ -741,90 +952,59 @@ def board_match_payload(
     }
 
 
-def current_stage2_board(connection: sqlite3.Connection, model_state: dict[str, Any]) -> dict[str, Any]:
-    rows = connection.execute(
-        """
-        SELECT match_id, match_date, match_timestamp, team1_name, team2_name, team1_score, team2_score,
-               liquipedia_round_name, liquipedia_stage_name, match_phase
-        FROM hltv_result_matches
-        WHERE event_name='IEM Cologne Major 2026 Stage 2'
-          AND team1_score IS NOT NULL
-          AND team2_score IS NOT NULL
-        ORDER BY match_timestamp, match_id
-        """
-    ).fetchall()
-    map_scores = fetch_map_scores(connection, [int(row["match_id"]) for row in rows])
-    records: defaultdict[str, list[int]] = defaultdict(lambda: [0, 0])
-    projected_teams = set()
+def current_stage3_snapshot(
+    connection: sqlite3.Connection,
+    model_state: dict[str, Any],
+) -> tuple[dict[str, Any], list[dict[str, Any]]]:
     rounds: dict[int, dict[str, list[dict[str, Any]]]] = defaultdict(lambda: defaultdict(list))
-
-    for row in rows:
-        round_number = round_number_from_label(row["liquipedia_round_name"]) or 1
-        team1 = str(row["team1_name"])
-        team2 = str(row["team2_name"])
-        record_before = f"{records[team1][0]}-{records[team1][1]}"
-        team1_score = safe_int(row["team1_score"], 0) or 0
-        team2_score = safe_int(row["team2_score"], 0) or 0
-        winner = team1 if team1_score > team2_score else team2
-        loser = team2 if winner == team1 else team1
-        rounds[round_number][record_before].append(
-            board_match_payload(
-                round_number=round_number,
-                record_before=record_before,
-                team1_name=team1,
-                team2_name=team2,
-                score_label=compact_score_label(row, map_scores.get(int(row["match_id"]), [])),
-                winner_name=winner,
-                status="locked",
+    upcoming = []
+    for index, match in enumerate(COLOGNE_STAGE3_CURRENT_MATCHES, start=1):
+        team1 = str(match["team1"])
+        team2 = str(match["team2"])
+        round_number = int(match["round"])
+        record = str(match["record"])
+        winner = match.get("winner")
+        if winner:
+            rounds[round_number][record].append(
+                board_match_payload(
+                    round_number=round_number,
+                    record_before=record,
+                    team1_name=team1,
+                    team2_name=team2,
+                    score_label=str(match.get("score") or "final"),
+                    winner_name=str(winner),
+                    status="locked",
+                )
             )
-        )
-        records[winner][0] += 1
-        records[loser][1] += 1
+            continue
 
-    for match in COLOGNE_STAGE2_DECIDERS:
-        payload = projection_match_payload(
-            match["team1"],
-            match["team2"],
+        prediction = projection_match_payload(
+            team1,
+            team2,
             model_state,
-            round_name="Stage 2 final decider",
-            starts_at=match["starts_at"],
+            round_name=f"Stage 3 round {round_number}",
             connection=connection,
-            match_id=match.get("match_id"),
         )
-        team1 = match["team1"]
-        team2 = match["team2"]
-        winner = payload["predicted_winner"]
-        loser = team2 if winner == team1 else team1
-        confidence = payload["confidence"]
-        projected_teams.update({team1, team2})
-        rounds[5]["2-2"].append(
-            board_match_payload(
-                round_number=5,
-                record_before="2-2",
-                team1_name=team1,
-                team2_name=team2,
-                score_label=f"{round(confidence * 100)}%",
-                winner_name=winner,
-                status="projected",
-                confidence=confidence,
-                starts_at=match["starts_at"],
-            )
-        )
-        records[winner][0] += 1
-        records[loser][1] += 1
-
-    final_groups: dict[str, list[dict[str, Any]]] = defaultdict(list)
-    for team, record in records.items():
-        label = f"{record[0]}-{record[1]}"
-        final_groups[label].append(
+        prediction.update(
             {
-                "team_name": team,
-                "record": label,
-                "status": "projected" if team in projected_teams else "locked",
+                "seed": index,
+                "source": "current_stage3_schedule",
+                "status": "scheduled",
             }
         )
-    for teams in final_groups.values():
-        teams.sort(key=lambda item: (item["status"] == "projected", item["team_name"]))
+        upcoming.append(prediction)
+        rounds[round_number][record].append(
+            board_match_payload(
+                round_number=round_number,
+                record_before=record,
+                team1_name=team1,
+                team2_name=team2,
+                score_label=f"{round(prediction['confidence'] * 100)}%",
+                winner_name=str(prediction["predicted_winner"]),
+                status="projected",
+                confidence=float(prediction["confidence"]),
+            )
+        )
 
     round_order = {
         1: ["0-0"],
@@ -833,8 +1013,8 @@ def current_stage2_board(connection: sqlite3.Connection, model_state: dict[str, 
         4: ["2-1", "1-2"],
         5: ["2-2"],
     }
-    return {
-        "stage": "IEM Cologne Major 2026 Stage 2",
+    board = {
+        "stage": "IEM Cologne Major 2026 Stage 3",
         "view": "current_major_board",
         "legend": {
             "locked": "Known result",
@@ -850,44 +1030,16 @@ def current_stage2_board(connection: sqlite3.Connection, model_state: dict[str, 
             }
             for round_number, records_for_round in round_order.items()
         ],
-        "final_groups": [
-            {"record": record, "teams": final_groups.get(record, [])}
-            for record in ["3-0", "3-1", "3-2", "2-3", "1-3", "0-3"]
-        ],
+        "final_groups": [],
     }
+    return board, upcoming
 
 
-def stage3_seed_list(
-    model_state: dict[str, Any],
-    connection: sqlite3.Connection | None = None,
-) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
-    stage2_deciders = []
-    projected_slots = []
-    for match in COLOGNE_STAGE2_DECIDERS:
-        payload = projection_match_payload(
-            match["team1"],
-            match["team2"],
-            model_state,
-            round_name="Stage 2 final decider",
-            starts_at=match["starts_at"],
-            connection=connection,
-            match_id=match.get("match_id"),
-        )
-        payload["seed"] = match["seed"]
-        payload["source"] = "projected_stage2_slot"
-        stage2_deciders.append(payload)
-        projected_slots.append((match["seed"], payload["predicted_winner"]))
-
-    seeds = [
+def stage3_seed_list() -> list[dict[str, Any]]:
+    return [
         {"seed": seed, "team_name": team, "slot_status": "locked"}
-        for seed, team in COLOGNE_STAGE3_LOCKED_SEEDS
+        for seed, team in COLOGNE_STAGE3_SEEDS
     ]
-    seeds.extend(
-        {"seed": seed, "team_name": team, "slot_status": "projected_from_stage2"}
-        for seed, team in projected_slots
-    )
-    seeds.sort(key=lambda row: row["seed"])
-    return seeds, stage2_deciders
 
 
 def pair_swiss_group(names: list[str], seeds: dict[str, int], played: dict[str, set[str]]) -> list[tuple[str, str]]:
@@ -908,7 +1060,7 @@ def pair_swiss_group(names: list[str], seeds: dict[str, int], played: dict[str, 
 
 
 def simulate_stage3_swiss(model_state: dict[str, Any], connection: sqlite3.Connection | None = None) -> dict[str, Any]:
-    seed_rows, stage2_deciders = stage3_seed_list(model_state, connection)
+    seed_rows = stage3_seed_list()
     seeds = {row["team_name"]: int(row["seed"]) for row in seed_rows}
     records = {row["team_name"]: [0, 0] for row in seed_rows}
     played = {row["team_name"]: set() for row in seed_rows}
@@ -960,11 +1112,10 @@ def simulate_stage3_swiss(model_state: dict[str, Any], connection: sqlite3.Conne
     final_records.sort(key=lambda row: (-row["wins"], row["losses"], row["seed"]))
     return {
         "stage": "IEM Cologne Major 2026 Stage 3",
-        "generated_from": "current_stage2_state_plus_model_projected_deciders",
+        "generated_from": "current_stage3_state_plus_model_projection",
         "format": "16-team Swiss, all BO3, top eight advance",
         "source_urls": COLOGNE_STAGE3_SOURCE_URLS,
         "seed_rows": seed_rows,
-        "stage2_deciders": stage2_deciders,
         "rounds": rounds,
         "final_records": final_records,
         "buckets": {
@@ -1056,19 +1207,13 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
     team2 = team_name_from_api_item(item, 2)
     if not team1 or not team2:
         return None
-    teams = {
-        normalize_team_name(team["team_name"]): team
-        for team in model_state.get("teams", [])
-        if isinstance(team, dict) and team.get("team_name")
-    }
-    state1 = teams.get(normalize_team_name(team1), {})
-    state2 = teams.get(normalize_team_name(team2), {})
-    elo1 = safe_float(state1.get("elo"), 1500.0)
-    elo2 = safe_float(state2.get("elo"), 1500.0)
-    probability = elo_probability(elo1 - elo2)
+    lookup = team_lookup(model_state)
+    state1 = lookup.get(normalize_team_name(team1), {})
+    state2 = lookup.get(normalize_team_name(team2), {})
+    probability = projection_probability(team1, team2, model_state)
     predicted_winner = team1 if probability >= 0.5 else team2
     timestamp = timestamp_from_api_item(item)
-    match_date = datetime.fromtimestamp(timestamp, tz=UTC).date().isoformat() if timestamp else ""
+    match_date = datetime.fromtimestamp(timestamp, tz=timezone.utc).date().isoformat() if timestamp else ""
     return {
         "match_id": item.get("match_id") or item.get("matchId") or item.get("id") or "",
         "match_date": match_date,
@@ -1090,8 +1235,9 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
         "confidence": round_prob(max(probability, 1.0 - probability)),
         "confidence_label": confidence_label(probability),
         "predicted_winner": predicted_winner,
-        "model": "live_snapshot_elo",
+        "model": "live_snapshot_power_bounded",
         "mode": "api_feed_snapshot_state",
+        "data_quality": "full" if state1 and state2 else "partial",
         "source": "apify_hltv_feed",
     }
 
@@ -1102,27 +1248,60 @@ def fallback_payload_from_existing(output_path: Path, apify_feed_path: Path | No
         raise FileNotFoundError(
             "No SQLite warehouse and no existing site JSON found. Generate docs/data/predictions.json locally first."
         )
-    payload["generated_at_utc"] = utc_now()
     payload.setdefault("updater", {})
-    payload["updater"].update(
-        {
-            "status": "snapshot_refresh",
-            "detail": "SQLite warehouse was unavailable, so the updater reused the published model snapshot.",
-        }
-    )
-    if apify_feed_path:
+    if apify_feed_path and apify_feed_path.exists():
+        apify_items = api_items_from_feed(apify_feed_path)
+        if not apify_items:
+            return payload
+        payload["generated_at_utc"] = utc_now()
+        payload["updater"].update(
+            {
+                "status": "live_feed_refresh",
+                "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
+            }
+        )
+        for item in apify_items:
+            detail_item = parse_apify_detail(item)
+            match_id = detail_item.get("match_id")
+            if match_id:
+                _APIFY_LIVE_DETAILS[match_id] = item
+
+        update_major_projection_from_apify(payload, apify_feed_path)
+
         predictions = [
             prediction
             for prediction in (
                 prediction_from_snapshot_match(item, payload.get("model_state", {}))
-                for item in api_items_from_feed(apify_feed_path)
+                for item in apify_items
             )
             if prediction is not None
         ]
         if predictions:
-            payload["upcoming_predictions"] = predictions
+            existing_pairs = {
+                frozenset(
+                    {
+                        normalize_team_name(str(row.get("team1_name") or "")),
+                        normalize_team_name(str(row.get("team2_name") or "")),
+                    }
+                )
+                for row in payload.get("upcoming_predictions", [])
+            }
+            extras = [
+                row
+                for row in predictions
+                if frozenset(
+                    {
+                        normalize_team_name(str(row.get("team1_name") or "")),
+                        normalize_team_name(str(row.get("team2_name") or "")),
+                    }
+                )
+                not in existing_pairs
+                and str(row.get("status") or "").casefold() not in {"completed", "finished"}
+            ]
+            payload["upcoming_predictions"] = [*payload.get("upcoming_predictions", []), *extras[:9]]
             payload["updater"]["apify_feed_items"] = len(predictions)
     return payload
+
 
 
 def database_summary(connection: sqlite3.Connection) -> dict[str, Any]:
@@ -1195,14 +1374,30 @@ def load_team_tier_rows() -> list[dict[str, Any]]:
     return output
 
 
-def build_payload(db_path: Path) -> dict[str, Any]:
+def build_payload(db_path: Path, apify_feed_path: Path | None = None) -> dict[str, Any]:
     benchmark_rows = read_csv_rows(BENCHMARK_PREDICTIONS_CSV)
     connection = connect(db_path)
     connection.row_factory = sqlite3.Row
+
+    # Load Apify feed first to populate map/veto overrides
+    if apify_feed_path and apify_feed_path.exists():
+        apify_items = api_items_from_feed(apify_feed_path)
+        for item in apify_items:
+            detail_item = parse_apify_detail(item)
+            match_id = detail_item.get("match_id")
+            if match_id:
+                _APIFY_LIVE_DETAILS[match_id] = item
+
     model_state = model_state_snapshot(connection)
+    model_state["map_pool"] = active_map_pool(connection)
+    model_state["map_profiles"] = {
+        normalize_team_name(team_name): team_map_profile(connection, team_name)
+        for _, team_name in COLOGNE_STAGE3_SEEDS
+    }
     major_projection = simulate_stage3_swiss(model_state, connection)
-    major_projection["current_stage_board"] = current_stage2_board(connection, model_state)
-    return {
+    current_board, current_upcoming = current_stage3_snapshot(connection, model_state)
+    major_projection["current_stage_board"] = current_board
+    payload = {
         "generated_at_utc": utc_now(),
         "product": "CS2 Predictor",
         "team_assets": team_assets_payload(),
@@ -1226,11 +1421,11 @@ def build_payload(db_path: Path) -> dict[str, Any]:
         },
         "major_projection": major_projection,
         "event_coverage": upcoming_event_coverage(connection),
-        "upcoming_predictions": major_projection["stage2_deciders"],
+        "upcoming_predictions": current_upcoming,
         "model_state": model_state,
         "notices": [
             "Post-veto accuracy uses known maps and should not be treated as a pre-veto number.",
-            "Stage 3 projections use deterministic Swiss pairing logic and model-projected winners for unfilled Stage 2 slots.",
+            "Stage 3 projections lock completed results before simulating unresolved matches.",
             "GitHub Pages serves generated JSON; API secrets stay in scheduled update jobs.",
         ],
         "updater": {
@@ -1238,6 +1433,13 @@ def build_payload(db_path: Path) -> dict[str, Any]:
             "detail": "Generated from the local SQLite warehouse and benchmark CSV.",
         },
     }
+
+    # Apply major projection updates from the feed
+    if apify_feed_path and apify_feed_path.exists():
+        update_major_projection_from_apify(payload, apify_feed_path)
+
+    return payload
+
 
 
 def main() -> None:
@@ -1252,7 +1454,7 @@ def main() -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
     db_path = Path(args.db_path)
     if db_path.exists():
-        payload = build_payload(db_path)
+        payload = build_payload(db_path, Path(args.apify_feed) if args.apify_feed else None)
     elif args.allow_missing_db:
         payload = fallback_payload_from_existing(
             output_path,

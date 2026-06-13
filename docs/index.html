@@ -4,252 +4,155 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="dark">
-    <title>StrikeSignal | CS2 Match & Event Predictor</title>
+    <title>StrikeSignal | CS2 Match &amp; Event Predictions</title>
     <meta
       name="description"
-      content="A CS2 prediction dashboard for match win probabilities, veto-aware reads, event simulations, and live tournament coverage."
+      content="Live CS2 win probabilities, veto-aware map reads, Pick'Em simulations, and tournament paths for top-level Counter-Strike."
     >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <a class="skip-link" href="#featured">Skip to featured event</a>
+    <a class="skip-link" href="#featured">Skip to live predictions</a>
+    <div class="page-signal" aria-hidden="true"></div>
 
     <header class="site-header">
       <a class="brand" href="#top" aria-label="StrikeSignal home">
-        <span class="brand-mark" aria-hidden="true">
-          <span></span>
-          <span></span>
-        </span>
-        <span>
-          <strong>StrikeSignal</strong>
-          <small>CS2 prediction intelligence</small>
-        </span>
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span></span>
+        <span><strong>StrikeSignal</strong><small>CS2 probability desk</small></span>
       </a>
       <nav class="top-nav" aria-label="Page sections">
-        <a href="#featured">Featured</a>
-        <a href="#events">Events</a>
+        <a href="#featured">Live board</a>
         <a href="#matches">Matches</a>
+        <a href="#events">Calendar</a>
         <a href="#model">Model</a>
-        <a href="#updater">Updater</a>
       </nav>
+      <a class="header-cta" href="#featured"><span class="live-dot"></span> Open live board</a>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="section-label">CS2 match and event predictor</p>
-          <h1 id="hero-title">Win probabilities for every serious CS2 slate.</h1>
-          <p>
-            StrikeSignal is built for pre-match edges, post-veto reads, Swiss event simulations, and live event coverage
-            across elite Counter-Strike. Cologne is simply the featured live module in the current snapshot.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#featured">Open featured event</a>
-            <a class="button secondary" href="#events">View coverage queue</a>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <span class="hero-kicker">Counter-Strike probability engine</span>
+            <h1 id="hero-title"><span>Read the match.</span><strong>Before it breaks.</strong></h1>
+            <p class="hero-lede">
+              Win probabilities built around the parts of CS2 that decide series: player level, team form, map depth, veto behavior, and the exact matchup in front of you.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#featured">Explore live predictions</a>
+              <a class="button secondary" href="#model">See how it works</a>
+            </div>
           </div>
+
+          <aside class="hero-instrument" aria-label="How a match probability develops">
+            <div class="instrument-head">
+              <span>Prediction lifecycle</span>
+              <strong>One model, sharper context</strong>
+            </div>
+            <div class="probability-orbit" aria-hidden="true">
+              <span class="orbit-value">67<small>%</small></span>
+              <span class="orbit-ring ring-one"></span>
+              <span class="orbit-ring ring-two"></span>
+            </div>
+            <ol class="model-steps">
+              <li><span>01</span><div><strong>Pre-veto</strong><small>Strength, form, roster</small></div></li>
+              <li><span>02</span><div><strong>Veto read</strong><small>Likely picks and bans</small></div></li>
+              <li class="is-active"><span>03</span><div><strong>Post-veto</strong><small>Map-specific outcome</small></div></li>
+            </ol>
+          </aside>
         </div>
 
-        <aside class="hero-panel" aria-label="Current model headline">
-          <div class="panel-status">
-            <span class="live-dot"></span>
-            <span id="freshnessLabel">Loading projection</span>
-          </div>
-          <div class="hero-picks">
-            <article>
-              <span>3-0 candidates</span>
-              <strong id="heroThreeZero">--</strong>
-            </article>
-            <article>
-              <span>0-3 risk</span>
-              <strong id="heroZeroThree">--</strong>
-            </article>
-          </div>
-          <p id="heroCaveat">Featured-event readout updates from the generated prediction snapshot.</p>
-        </aside>
-      </section>
-
-      <section class="signal-strip" aria-label="Model summary">
-        <article>
-          <strong id="preAccuracy">--</strong>
-          <span>pre-veto win model</span>
-        </article>
-        <article>
-          <strong id="postAccuracy">--</strong>
-          <span>map-aware win model</span>
-        </article>
-        <article>
-          <strong id="eventMode">Swiss</strong>
-          <span>event engine active</span>
-        </article>
-        <article>
-          <strong id="readoutMode">Live</strong>
-          <span>snapshot readout</span>
-        </article>
+        <div class="capability-rail" aria-label="Model inputs">
+          <span>Player strength</span>
+          <span>Roster continuity</span>
+          <span>Map pool and veto</span>
+          <span>Opponent-adjusted form</span>
+        </div>
       </section>
 
       <section id="featured" class="section-shell projection-shell" aria-labelledby="projection-title">
-        <div class="section-heading">
-          <div>
-            <span class="section-label">Featured event module</span>
-            <h2 id="projection-title">Cologne Major live simulation.</h2>
-          </div>
-          <p>
-            The same engine can power any Swiss, group, or playoff event. For Cologne, it shows the locked Major board,
-            projected final deciders, and the Stage 3 qualification call.
-          </p>
+        <div class="section-heading event-heading">
+          <span class="section-eyebrow"><span class="live-dot"></span> IEM Cologne 2026 / Stage 3 <b id="freshnessLabel">Loading live state</b></span>
+          <h2 id="projection-title">Every route through Cologne.</h2>
+          <p>Change any unresolved result and the full Swiss path, Pick'Em probability, and projected playoff bracket recalculate around your call.</p>
         </div>
 
-        <div class="outcome-board" aria-live="polite">
-          <article class="outcome-card prime">
-            <div>
-              <span>Perfect run</span>
-              <h3>3-0</h3>
-            </div>
-            <div id="threeZeroList" class="team-stack"></div>
-          </article>
-          <article class="outcome-card">
-            <div>
-              <span>Advance</span>
-              <h3>3-1 / 3-2</h3>
-            </div>
-            <div id="advanceList" class="team-stack dense"></div>
-          </article>
-          <article class="outcome-card danger">
-            <div>
-              <span>Eliminated early</span>
-              <h3>0-3</h3>
-            </div>
-            <div id="zeroThreeList" class="team-stack"></div>
-          </article>
+        <div class="pickem-header" aria-live="polite">
+          <div>
+            <span class="micro-label">Current Pick'Em</span>
+            <h3>The model's most likely card.</h3>
+            <p id="pickemSummary">Using the model's most likely outcome.</p>
+          </div>
+          <div class="pickem-score"><span>Chance of 5+ correct</span><strong id="pickemChance">--</strong></div>
+          <button id="resetPicks" class="ghost-action" type="button">Reset custom picks</button>
         </div>
 
         <div class="route-panel">
           <div class="route-header">
             <div>
-              <span class="section-label">Current Major board</span>
-              <h3>Stage 2 now, Stage 3 projected.</h3>
+              <span class="micro-label">Interactive tournament path</span>
+              <h3 id="boardStageTitle">Stage 3, round by round.</h3>
             </div>
             <div class="route-copy">
-              <p>Green rows are locked results. Blue rows are model projections. Click unresolved matches to test your own Pick'Em path.</p>
-              <nav class="board-jump-nav" aria-label="Current Major board views">
-                <button class="board-jump is-active" type="button" data-board-jump="stage2">Stage 2 board</button>
-                <button class="board-jump" type="button" data-board-jump="stage3">Stage 3 projection</button>
+              <p>Completed matches are fixed. Blue probabilities are projected. Select either logo in an unresolved match to rewrite the route.</p>
+              <nav class="board-jump-nav" aria-label="Major board views">
+                <button id="currentStageTab" class="board-jump is-active" type="button" data-board-jump="stage3">Stage 3</button>
                 <button class="board-jump" type="button" data-board-jump="playoffs">Projected playoffs</button>
               </nav>
             </div>
-          </div>
-          <div class="pickem-meter" aria-live="polite">
-            <div>
-              <span>Pick'Em success chance</span>
-              <strong id="pickemChance">--</strong>
-            </div>
-            <p id="pickemSummary">Using the model's most likely outcome.</p>
-            <button id="resetPicks" class="ghost-action" type="button">Reset to model picks</button>
           </div>
           <div id="swissBoard" class="swiss-board" aria-label="Major Swiss projection board"></div>
           <div id="playoffPanel" class="playoff-panel" hidden></div>
         </div>
       </section>
 
-      <section id="events" class="section-shell" aria-labelledby="events-title">
-        <div class="section-heading">
-          <div>
-            <span class="section-label">Event coverage</span>
-            <h2 id="events-title">Upcoming and active events.</h2>
-          </div>
-          <p>
-            Event modules are generated from the warehouse and updater feed. As more schedules arrive, this becomes the
-            launchpad for every supported tournament, not just Majors.
-          </p>
-        </div>
-        <div id="eventsGrid" class="events-grid"></div>
-      </section>
-
       <section id="matches" class="section-shell" aria-labelledby="deciders-title">
         <div class="section-heading">
           <div>
-            <span class="section-label">Featured matches</span>
-            <h2 id="deciders-title">Next matches requiring a call.</h2>
+            <h2 id="deciders-title">Upcoming calls.</h2>
           </div>
-          <p>
-            Current cards show the unresolved Cologne deciders. Once the updater has a broader HLTV feed, this section
-            becomes the cross-event match slate.
-          </p>
+          <p>Open a series for likely maps, veto exclusions, and the probability shift once official picks arrive.</p>
         </div>
         <div id="deciderGrid" class="match-grid"></div>
+      </section>
+
+      <section id="events" class="section-shell" aria-labelledby="events-title">
+        <div class="section-heading">
+          <div>
+            <h2 id="events-title">Next on the circuit.</h2>
+          </div>
+          <p>Verified schedules move into the model with current rosters, rankings, form, and map context.</p>
+        </div>
+        <div id="eventsGrid" class="events-grid"></div>
       </section>
 
       <section id="model" class="section-shell model-shell" aria-labelledby="model-title">
         <div class="section-heading">
           <div>
-            <span class="section-label">Model trust</span>
-            <h2 id="model-title">Fast read, clean benchmark.</h2>
+            <h2 id="model-title">Two reads. One moving probability.</h2>
           </div>
-          <p>
-            The public page keeps the benchmark understandable: pre-veto for early calls, post-veto once maps are known.
-            Raw data counters stay out of the customer-facing view.
-          </p>
+          <p>The model changes modes instead of pretending a pre-veto guess and an official three-map series are the same problem.</p>
         </div>
-        <div class="model-cards">
-          <article>
-            <span>Before veto</span>
-            <strong id="modelPre">--</strong>
-            <p>Use this before maps are announced. It blends team strength, current ranking signal, and recent form.</p>
-          </article>
-          <article>
-            <span>After veto</span>
-            <strong id="modelPost">--</strong>
-            <p>Use this after the map pool is known. It should not be marketed as a pre-match number.</p>
-          </article>
-          <article>
-            <span>Benchmark set</span>
-            <strong>Held-out events</strong>
-            <p>Cologne, PGL Astana, and IEM Atlanta are replayed outside training for the headline quality check.</p>
-          </article>
+        <div class="model-evidence">
+          <div class="model-metrics">
+            <article><span>Before veto</span><strong id="modelPre">--</strong><p>Team power, roster level, form, ranking strength, and matchup history.</p></article>
+            <article><span>After veto</span><strong id="modelPost">--</strong><p>Official picks, map depth, permabans, order, evidence, and series format.</p></article>
+          </div>
         </div>
       </section>
 
-      <section id="updater" class="section-shell updater-shell" aria-labelledby="updater-title">
-        <div>
-          <span class="section-label">Live updater</span>
-          <h2 id="updater-title">Private refresh, public predictions.</h2>
-          <p>
-            GitHub Actions can fetch HLTV/Apify data with repository secrets, regenerate the public prediction snapshot,
-            and publish the site without exposing API tokens in the browser.
-          </p>
-        </div>
-        <dl class="updater-card">
-          <div>
-            <dt>Last generated</dt>
-            <dd id="generatedAt">--</dd>
-          </div>
-          <div>
-            <dt>Status</dt>
-            <dd id="updaterStatus">--</dd>
-          </div>
-          <div>
-            <dt>Mode</dt>
-            <dd id="projectionMode">Stage 3 Swiss simulation</dd>
-          </div>
-        </dl>
-      </section>
     </main>
 
-    <template id="teamPillTemplate">
-      <div class="team-pill">
-        <div class="team-logo-slot"></div>
-        <div>
-          <span></span>
-          <strong></strong>
-        </div>
-      </div>
-    </template>
+    <footer class="site-footer">
+      <div><strong>StrikeSignal</strong><span>Live CS2 match and event probabilities.</span></div>
+      <a href="#top">Back to top</a>
+    </footer>
 
     <template id="emptyTemplate">
-      <div class="empty-state">
-        <h3>Projection unavailable.</h3>
-        <p>The local prediction snapshot did not load.</p>
-      </div>
+      <div class="empty-state"><h3>Nothing to show yet.</h3><p>The next verified prediction will appear here.</p></div>
     </template>
 
     <script src="./data/predictions.js"></script>

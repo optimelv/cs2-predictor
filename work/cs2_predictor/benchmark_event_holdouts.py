@@ -6,7 +6,7 @@ import csv
 import json
 import sqlite3
 from collections import defaultdict
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -1144,7 +1144,7 @@ def write_report(rows: list[dict[str, Any]], meta: dict[str, Any], path: Path = 
     lines = [
         "# CS2 Event Holdout Benchmark",
         "",
-        f"Date: {datetime.now(UTC).date().isoformat()}",
+        f"Date: {datetime.now(timezone.utc).date().isoformat()}",
         "",
         "## Benchmark Setup",
         "",

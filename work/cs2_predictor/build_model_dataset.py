@@ -7,7 +7,7 @@ import math
 import sqlite3
 from collections import defaultdict
 from dataclasses import dataclass, field
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Iterable
 
@@ -501,7 +501,7 @@ def evaluate_rows(rows: list[dict[str, Any]], *, tiers: set[str], risk_levels: s
     if len(filtered) < 180:
         return {"rows": len(filtered), "error": "not enough rows for time validation"}
 
-    timestamps = [datetime.fromtimestamp(int(row["match_timestamp"]), tz=UTC) for row in filtered]
+    timestamps = [datetime.fromtimestamp(int(row["match_timestamp"]), tz=timezone.utc) for row in filtered]
     try:
         folds = make_purged_time_folds(timestamps, n_splits=5, purge_days=7, min_train_size=100)
     except ValueError as exc:
@@ -580,7 +580,7 @@ def write_report(rows: list[dict[str, Any]], evaluation: dict[str, Any], path: P
     lines = [
         "# CS2 Model-Ready Dataset Status",
         "",
-        f"Date: {datetime.now(UTC).date().isoformat()}",
+        f"Date: {datetime.now(timezone.utc).date().isoformat()}",
         "",
         "## Dataset",
         "",

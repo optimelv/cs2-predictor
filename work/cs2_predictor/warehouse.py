@@ -3,7 +3,7 @@ from __future__ import annotations
 import csv
 import re
 import sqlite3
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
 
@@ -469,7 +469,7 @@ CREATE INDEX IF NOT EXISTS idx_team_map_win_rates_team ON team_map_win_rates(tea
 
 
 def utc_now() -> str:
-    return datetime.now(UTC).isoformat(timespec="seconds").replace("+00:00", "Z")
+    return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
 
 def slugify(value: str) -> str:
@@ -1383,7 +1383,7 @@ def load_all_bronze(connection: sqlite3.Connection, *, as_of_date: Optional[str]
         "hltv_match_maps": load_hltv_match_maps(connection),
         "hltv_match_vetoes": load_hltv_match_vetoes(connection),
     }
-    effective_as_of_date = as_of_date or datetime.now(UTC).date().isoformat()
+    effective_as_of_date = as_of_date or datetime.now(timezone.utc).date().isoformat()
     rebuild_team_map_win_rates(
         connection,
         as_of_date=effective_as_of_date,

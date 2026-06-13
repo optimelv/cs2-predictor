@@ -2,8 +2,12 @@ name: Refresh predictor data
 
 on:
   schedule:
-    - cron: "17,47 * * * *"
+    - cron: "17 */6 * * *"
   workflow_dispatch:
+
+concurrency:
+  group: refresh-predictor-data
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -27,21 +31,43 @@ jobs:
         env:
           APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
         run: |
-          if [ -n "$APIFY_API_TOKEN" ]; then
-            python -m work.cs2_predictor.collect_hltv_apify \
-              --max-matches 80 \
-              --out work/data/raw/hltv/apify_live_upcoming_matches.json
-          else
-            echo "APIFY_API_TOKEN is not set; using the published model snapshot."
+          if [ -z "$APIFY_API_TOKEN" ]; then
+            echo "APIFY_API_TOKEN is not set; leaving the published snapshot untouched."
+            exit 0
           fi
+          python -m work.cs2_predictor.collect_hltv_apify \
+            --max-matches 80 \
+            --include-details \
+            --out work/data/raw/hltv/apify_live_upcoming_matches.json
+
+      - name: Validate live feed
+        env:
+          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+        run: |
+          if [ -z "$APIFY_API_TOKEN" ]; then
+            echo "refresh=false" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("work/data/raw/hltv/apify_live_upcoming_matches.json")
+          payload = json.loads(path.read_text())
+          if payload.get("status") != "ok" or not payload.get("items"):
+              raise SystemExit("HLTV feed returned no usable matches; refusing to publish fake freshness.")
+          PY
+          echo "refresh=true" >> "$GITHUB_ENV"
 
       - name: Refresh public prediction JSON
+        if: env.refresh == 'true'
         run: >
           python -m work.cs2_predictor.export_site_predictions
           --allow-missing-db
           --apify-feed work/data/raw/hltv/apify_live_upcoming_matches.json
 
       - name: Commit refreshed data
+        if: env.refresh == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
