@@ -228,6 +228,11 @@ function payloadShape(value) {
   return { type: typeof value };
 }
 
+function payloadSample(value) {
+  const serialized = JSON.stringify(value);
+  return serialized.length > 1600 ? `${serialized.slice(0, 1600)}...` : serialized;
+}
+
 export default async function handler(request, response) {
   response.setHeader("Cache-Control", "public, s-maxage=30, stale-while-revalidate=90");
   try {
@@ -248,6 +253,10 @@ export default async function handler(request, response) {
           matches: payloadShape(matchPayload),
           scores: payloadShape(scorePayload),
         },
+        source_samples: request.query?.debug === "1" ? {
+          matches: payloadSample(matchPayload),
+          scores: payloadSample(scorePayload),
+        } : undefined,
       });
     }
     return response.status(200).json({
