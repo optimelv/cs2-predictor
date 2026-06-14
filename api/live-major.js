@@ -28,6 +28,33 @@ const TEAM_ALIASES = {
   b8: "B8",
   lega: "Legacy",
   legacy: "Legacy",
+  tdu: "Thunder dUnder",
+  thunderdownunder: "Thunder dUnder",
+  tylo: "TYLOO",
+  tyloo: "TYLOO",
+  gg: "Gaimin Gladiators",
+  gaimingladiators: "Gaimin Gladiators",
+  liqu: "Liquid",
+  liquid: "Liquid",
+  big: "BIG",
+  hero: "HEROIC",
+  heroic: "HEROIC",
+  gl: "GamerLegion",
+  gamerlegion: "GamerLegion",
+  fly: "FlyQuest",
+  flyquest: "FlyQuest",
+  nrg: "NRG",
+  lvg: "Lynn Vision",
+  lynnvision: "Lynn Vision",
+  shks: "Sharks",
+  sharks: "Sharks",
+  mibr: "MIBR",
+  m80: "M80",
+  sinn: "SINNERS",
+  sinners: "SINNERS",
+  astr: "Astralis",
+  astralis: "Astralis",
+  pain: "paiN",
 };
 
 function scalar(value) {
@@ -93,13 +120,33 @@ function firstArray(object, keys) {
   return null;
 }
 
-function teamPair(object) {
+function matchupKey(path) {
+  return [...path].reverse().find((part) => /^[a-z0-9]+-[a-z0-9]+$/i.test(part)) || "";
+}
+
+function teamPairFromLink(object) {
+  const link = String(firstValue(object, ["link", "url", "href"]) ?? "");
+  const match = link.match(/\/match\/\d+\/(.+?)-vs-(.+?)-iem-cologne-major-2026(?:-|$)/i);
+  if (!match) return ["", ""];
+  return [normalizeTeam(match[1]), normalizeTeam(match[2])];
+}
+
+function teamPair(object, path) {
   const direct1 = firstValue(object, ["team1", "teamA", "team_a", "home", "left", "firstTeam", "teamOne", "opponent1", "t1", "a"]);
   const direct2 = firstValue(object, ["team2", "teamB", "team_b", "away", "right", "secondTeam", "teamTwo", "opponent2", "t2", "b"]);
   if (direct1 !== null && direct2 !== null) return [normalizeTeam(direct1), normalizeTeam(direct2)];
 
   const sides = firstArray(object, ["teams", "participants", "opponents", "competitors", "sides"]);
   if (sides) return [normalizeTeam(sides[0]), normalizeTeam(sides[1])];
+
+  const key = matchupKey(path);
+  if (key) {
+    const pair = key.split("-").map(knownTeam);
+    if (pair.every(Boolean)) return pair;
+  }
+
+  const linked = teamPairFromLink(object);
+  if (linked.every(Boolean)) return linked;
 
   const inferred = collectKnownTeams(object);
   return inferred.length >= 2 ? inferred.slice(0, 2) : ["", ""];
@@ -111,9 +158,19 @@ function scorePair(object) {
   if (direct1 !== null || direct2 !== null) return [direct1, direct2];
 
   const scores = firstArray(object, ["score", "scores", "result", "results"]);
-  if (scores) return [numeric(scores[0]), numeric(scores[1])];
+  if (scores) return scorePair(scores);
 
   if (Array.isArray(object)) {
+    const mapScores = object
+      .filter((value) => Array.isArray(value) && value.length === 2)
+      .map((value) => value.map(numeric))
+      .filter((pair) => pair.every((score) => score !== null && score >= 0));
+    if (mapScores.length === object.length && mapScores.every(([left, right]) => left !== right)) {
+      return mapScores.reduce(
+        ([leftWins, rightWins], [left, right]) => [leftWins + Number(left > right), rightWins + Number(right > left)],
+        [0, 0],
+      );
+    }
     for (const value of object) {
       if (!Array.isArray(value) || value.length !== 2) continue;
       const pair = value.map(numeric);
@@ -175,13 +232,15 @@ function walk(value, visit, path = [], seen = new Set()) {
 }
 
 function candidateFromObject(object, path) {
-  const [team1, team2] = teamPair(object);
-  const pathId = [...path].reverse().find((part) => /\d/.test(part)) || path.at(-1) || path.join(":");
-  const id = String(firstValue(object, ["matchId", "match_id", "id", "uid", "key"]) ?? pathId);
+  const [team1, team2] = teamPair(object, path);
+  const key = matchupKey(path);
+  const pathId = key || path.at(-1) || path.join(":");
+  const id = String(firstValue(object, ["hltvMatchId", "matchId", "match_id", "id", "uid", "key"]) ?? pathId);
   const [score1, score2] = scorePair(object);
   const status = String(firstValue(object, ["status", "state", "phase", "matchStatus"]) ?? "");
   const round = numeric(firstValue(object, ["round", "roundNumber", "round_number"]));
-  return { id, team1, team2, score1, score2, status, round, maps: extractMaps(object) };
+  const stage = /^\d+$/.test(path[0] || "") ? Number(path[0]) : null;
+  return { id, key, stage, team1, team2, score1, score2, status, round, maps: extractMaps(object) };
 }
 
 function normalizeMatches(matchPayload, scorePayload) {
@@ -192,7 +251,7 @@ function normalizeMatches(matchPayload, scorePayload) {
     if (candidate.score1 === null && candidate.score2 === null) return;
     scoreById.set(candidate.id, candidate);
     if (candidate.team1 && candidate.team2) {
-      scoreByPair.set([candidate.team1, candidate.team2].sort().join(":"), candidate);
+      scoreByPair.set(`${candidate.stage}:${[candidate.team1, candidate.team2].sort().join(":")}`, candidate);
     }
   });
 
@@ -202,17 +261,22 @@ function normalizeMatches(matchPayload, scorePayload) {
     const candidate = candidateFromObject(object, path);
     if (!candidate.team1 || !candidate.team2 || candidate.team1 === candidate.team2) return;
     const pairKey = [candidate.team1, candidate.team2].sort().join(":");
-    const score = scoreById.get(candidate.id) || scoreByPair.get(pairKey);
+    const score = scoreById.get(candidate.id) || scoreByPair.get(`${candidate.stage}:${pairKey}`);
+    const scoreReversed = score && score.team1 === candidate.team2 && score.team2 === candidate.team1;
+    const score1 = scoreReversed ? score?.score2 : score?.score1;
+    const score2 = scoreReversed ? score?.score1 : score?.score2;
     const row = {
       ...candidate,
-      score1: candidate.score1 ?? score?.score1 ?? null,
-      score2: candidate.score2 ?? score?.score2 ?? null,
+      score1: candidate.score1 ?? score1 ?? null,
+      score2: candidate.score2 ?? score2 ?? null,
       status: candidate.status || score?.status || "",
       maps: [...new Set([...(candidate.maps || []), ...(score?.maps || [])])],
     };
-    if (seenPairs.has(pairKey)) return;
-    seenPairs.add(pairKey);
-    if (row.score1 !== null && row.score2 !== null && row.score1 !== row.score2) {
+    const matchKey = `${candidate.stage}:${pairKey}`;
+    if (seenPairs.has(matchKey)) return;
+    seenPairs.add(matchKey);
+    if (row.score1 !== null && row.score2 !== null && Math.max(row.score1, row.score2) >= 2) {
+      row.status = "completed";
       row.winner = row.score1 > row.score2 ? row.team1 : row.team2;
     }
     matches.push(row);
@@ -226,11 +290,6 @@ function payloadShape(value) {
   if (Array.isArray(value)) return { type: "array", length: value.length };
   if (value && typeof value === "object") return { type: "object", keys: Object.keys(value).slice(0, 12) };
   return { type: typeof value };
-}
-
-function payloadSample(value) {
-  const serialized = JSON.stringify(value);
-  return serialized.length > 1600 ? `${serialized.slice(0, 1600)}...` : serialized;
 }
 
 export default async function handler(request, response) {
@@ -253,10 +312,6 @@ export default async function handler(request, response) {
           matches: payloadShape(matchPayload),
           scores: payloadShape(scorePayload),
         },
-        source_samples: request.query?.debug === "1" ? {
-          matches: payloadSample(matchPayload),
-          scores: payloadSample(scorePayload),
-        } : undefined,
       });
     }
     return response.status(200).json({
@@ -269,3 +324,5 @@ export default async function handler(request, response) {
     return response.status(502).json({ ok: false, error: error.message });
   }
 }
+
+export { normalizeMatches };
