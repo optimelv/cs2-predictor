@@ -959,6 +959,7 @@ function applyLiveMajorSnapshot(live) {
   const boardMatches = (appData.major_projection.current_stage_board.rounds || [])
     .flatMap((round) => (round.groups || []).flatMap((group) => group.matches || []));
   for (const liveMatch of live.matches) {
+    if (Number(liveMatch.stage) !== 2) continue;
     const boardMatch = boardMatches.find((match) => sameMatch(match, liveMatch.team1, liveMatch.team2));
     if (!boardMatch) continue;
     const score1 = Number(liveMatch.score1);
