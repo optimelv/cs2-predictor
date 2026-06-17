@@ -88,14 +88,55 @@ COLOGNE_STAGE3_CURRENT_MATCHES = [
     {"round": 1, "record": "0-0", "team1": "Aurora", "team2": "Monte", "score": "2:0", "winner": "Aurora"},
     {"round": 1, "record": "0-0", "team1": "FURIA", "team2": "B8", "score": "2:0", "winner": "FURIA"},
     {"round": 1, "record": "0-0", "team1": "MOUZ", "team2": "Legacy", "score": "2:0", "winner": "MOUZ"},
-    {"round": 2, "record": "1-0", "team1": "Vitality", "team2": "9z"},
-    {"round": 2, "record": "1-0", "team1": "Falcons", "team2": "BetBoom"},
-    {"round": 2, "record": "1-0", "team1": "Aurora", "team2": "Spirit"},
+    {"round": 2, "record": "1-0", "team1": "Vitality", "team2": "9z", "score": "1:2", "winner": "9z"},
+    {"round": 2, "record": "1-0", "team1": "Falcons", "team2": "BetBoom", "score": "0:2", "winner": "BetBoom"},
+    {"round": 2, "record": "1-0", "team1": "Aurora", "team2": "Spirit", "score": "1:2", "winner": "Spirit"},
     {"round": 2, "record": "1-0", "team1": "FURIA", "team2": "MOUZ", "score": "2:1", "winner": "FURIA"},
-    {"round": 2, "record": "0-1", "team1": "NAVI", "team2": "Legacy"},
+    {"round": 2, "record": "0-1", "team1": "NAVI", "team2": "Legacy", "score": "2:0", "winner": "NAVI"},
     {"round": 2, "record": "0-1", "team1": "The MongolZ", "team2": "B8", "score": "2:0", "winner": "The MongolZ"},
-    {"round": 2, "record": "0-1", "team1": "PARIVISION", "team2": "Monte"},
-    {"round": 2, "record": "0-1", "team1": "FUT", "team2": "G2"},
+    {"round": 2, "record": "0-1", "team1": "PARIVISION", "team2": "Monte", "score": "1:2", "winner": "Monte"},
+    {"round": 2, "record": "0-1", "team1": "FUT", "team2": "G2", "score": "1:2", "winner": "G2"},
+    {"round": 3, "record": "2-0", "team1": "BetBoom", "team2": "FURIA", "score": "0:2", "winner": "FURIA"},
+    {"round": 3, "record": "2-0", "team1": "Spirit", "team2": "9z", "score": "2:1", "winner": "Spirit"},
+    {"round": 3, "record": "1-1", "team1": "NAVI", "team2": "The MongolZ", "score": "2:1", "winner": "NAVI"},
+    {"round": 3, "record": "1-1", "team1": "Falcons", "team2": "Monte", "score": "2:1", "winner": "Falcons"},
+    {"round": 3, "record": "1-1", "team1": "Aurora", "team2": "G2", "score": "2:0", "winner": "Aurora"},
+    {"round": 3, "record": "1-1", "team1": "Vitality", "team2": "MOUZ", "score": "2:1", "winner": "Vitality"},
+    {"round": 3, "record": "0-2", "team1": "B8", "team2": "FUT", "score": "1:2", "winner": "FUT"},
+    {"round": 3, "record": "0-2", "team1": "PARIVISION", "team2": "Legacy", "score": "0:2", "winner": "Legacy"},
+    {"round": 4, "record": "2-1", "team1": "BetBoom", "team2": "Vitality", "score": "0:2", "winner": "Vitality"},
+    {"round": 4, "record": "2-1", "team1": "Aurora", "team2": "9z", "score": "2:0", "winner": "Aurora"},
+    {"round": 4, "record": "2-1", "team1": "NAVI", "team2": "Falcons", "score": "1:2", "winner": "Falcons"},
+    {"round": 4, "record": "1-2", "team1": "MOUZ", "team2": "FUT", "score": "1:2", "winner": "FUT"},
+    {"round": 4, "record": "1-2", "team1": "The MongolZ", "team2": "Monte", "score": "2:1", "winner": "The MongolZ"},
+    {"round": 4, "record": "1-2", "team1": "G2", "team2": "Legacy", "score": "2:0", "winner": "G2"},
+    {"round": 5, "record": "2-2", "team1": "9z", "team2": "The MongolZ", "score": "2:0", "winner": "9z"},
+    {"round": 5, "record": "2-2", "team1": "BetBoom", "team2": "FUT", "score": "2:0", "winner": "BetBoom"},
+    {"round": 5, "record": "2-2", "team1": "NAVI", "team2": "G2", "score": "1:2", "winner": "G2"},
+]
+COLOGNE_STAGE3_FINAL_RECORDS = [
+    {"team_name": "Spirit", "seed": 1, "record": "3-0", "wins": 3, "losses": 0, "playoff_seed": 1},
+    {"team_name": "FURIA", "seed": 2, "record": "3-0", "wins": 3, "losses": 0, "playoff_seed": 2},
+    {"team_name": "Aurora", "seed": 3, "record": "3-1", "wins": 3, "losses": 1, "playoff_seed": 3},
+    {"team_name": "Vitality", "seed": 4, "record": "3-1", "wins": 3, "losses": 1, "playoff_seed": 4},
+    {"team_name": "Falcons", "seed": 5, "record": "3-1", "wins": 3, "losses": 1, "playoff_seed": 5},
+    {"team_name": "BetBoom", "seed": 6, "record": "3-2", "wins": 3, "losses": 2, "playoff_seed": 6},
+    {"team_name": "9z", "seed": 7, "record": "3-2", "wins": 3, "losses": 2, "playoff_seed": 7},
+    {"team_name": "G2", "seed": 8, "record": "3-2", "wins": 3, "losses": 2, "playoff_seed": 8},
+    {"team_name": "NAVI", "seed": 9, "record": "2-3", "wins": 2, "losses": 3},
+    {"team_name": "FUT", "seed": 10, "record": "2-3", "wins": 2, "losses": 3},
+    {"team_name": "The MongolZ", "seed": 11, "record": "2-3", "wins": 2, "losses": 3},
+    {"team_name": "MOUZ", "seed": 12, "record": "1-3", "wins": 1, "losses": 3},
+    {"team_name": "Monte", "seed": 13, "record": "1-3", "wins": 1, "losses": 3},
+    {"team_name": "Legacy", "seed": 14, "record": "1-3", "wins": 1, "losses": 3},
+    {"team_name": "B8", "seed": 15, "record": "0-3", "wins": 0, "losses": 3},
+    {"team_name": "PARIVISION", "seed": 16, "record": "0-3", "wins": 0, "losses": 3},
+]
+COLOGNE_PLAYOFF_QUARTERFINALS = [
+    {"round": "Quarterfinal", "team1_name": "Aurora", "team2_name": "BetBoom", "starts_at": "2026-06-18T14:00:00+02:00"},
+    {"round": "Quarterfinal", "team1_name": "9z", "team2_name": "FURIA", "starts_at": "2026-06-18T17:00:00+02:00"},
+    {"round": "Quarterfinal", "team1_name": "G2", "team2_name": "Spirit", "starts_at": "2026-06-19T14:00:00+02:00"},
+    {"round": "Quarterfinal", "team1_name": "Falcons", "team2_name": "Vitality", "starts_at": "2026-06-19T17:00:00+02:00"},
 ]
 _APIFY_LIVE_DETAILS: dict[int, dict[str, Any]] = {}
 
@@ -1015,6 +1056,8 @@ def current_stage3_snapshot(
     }
     board = {
         "stage": "IEM Cologne Major 2026 Stage 3",
+        "status": "complete",
+        "format": "16-team Swiss, all BO3, top eight advanced",
         "view": "current_major_board",
         "legend": {
             "locked": "Known result",
@@ -1032,6 +1075,26 @@ def current_stage3_snapshot(
         ],
         "final_groups": [],
     }
+    if not upcoming:
+        for index, match in enumerate(COLOGNE_PLAYOFF_QUARTERFINALS, start=1):
+            prediction = projection_match_payload(
+                str(match["team1_name"]),
+                str(match["team2_name"]),
+                model_state,
+                round_name="Playoffs quarterfinal",
+                starts_at=str(match["starts_at"]),
+                connection=connection,
+            )
+            prediction.update(
+                {
+                    "stage_name": "IEM Cologne Major 2026 Playoffs",
+                    "event_name": "Intel Extreme Masters Cologne Major 2026",
+                    "seed": index,
+                    "source": "official_playoff_bracket",
+                    "status": "scheduled",
+                }
+            )
+            upcoming.append(prediction)
     return board, upcoming
 
 
@@ -1397,6 +1460,29 @@ def build_payload(db_path: Path, apify_feed_path: Path | None = None) -> dict[st
     major_projection = simulate_stage3_swiss(model_state, connection)
     current_board, current_upcoming = current_stage3_snapshot(connection, model_state)
     major_projection["current_stage_board"] = current_board
+    if current_board.get("status") == "complete":
+        final_records = [dict(row) for row in COLOGNE_STAGE3_FINAL_RECORDS]
+        major_projection.update(
+            {
+                "stage": "IEM Cologne Major 2026 Playoffs",
+                "format": "Stage 3 locked; eight-team single-elimination playoff bracket",
+                "stage_status": "stage3_complete_playoffs_pending",
+                "generated_from": "verified_stage3_results",
+                "final_records": final_records,
+                "buckets": {
+                    "three_zero": [row for row in final_records if row["record"] == "3-0"],
+                    "advance": [row for row in final_records if row["record"] in {"3-1", "3-2"}],
+                    "zero_three": [row for row in final_records if row["record"] == "0-3"],
+                    "eliminated": [row for row in final_records if row["losses"] == 3],
+                },
+                "playoff_bracket": {
+                    "stage": "IEM Cologne Major 2026 Playoffs",
+                    "status": "scheduled",
+                    "quarterfinals": [dict(row) for row in COLOGNE_PLAYOFF_QUARTERFINALS],
+                    "source": "verified_official_bracket",
+                },
+            }
+        )
     payload = {
         "generated_at_utc": utc_now(),
         "product": "CS2 Predictor",

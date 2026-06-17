@@ -234,6 +234,9 @@ button.team-row { cursor: pointer; }
 .playoff-round { padding: 13px; border-top: 2px solid var(--line-strong); background: var(--surface); }
 .playoff-round h4 { margin: 0 0 10px; color: var(--muted-strong); font: 9px var(--font-mono); text-transform: uppercase; }
 .playoff-match { margin-bottom: 8px; padding: 5px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; border: 1px solid var(--line); background: var(--surface-2); }
+.playoff-match-center { min-width: 58px; display: grid; justify-items: center; gap: 4px; }
+.playoff-match-center > span { color: var(--muted); font: 7px var(--font-mono); text-transform: uppercase; white-space: nowrap; }
+.stage-complete .pickem-header { background: linear-gradient(100deg, rgba(43,207,123,.1), rgba(39,136,255,.035) 48%, transparent); }
 
 .match-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; align-items: start; }
 .match-card { position: relative; min-width: 0; align-self: start; padding: 20px; border: 1px solid var(--line); background: linear-gradient(145deg, #111923, #0b1017 70%); box-shadow: 0 18px 45px rgba(0,0,0,.18); transition: border-color 180ms cubic-bezier(.22,1,.36,1), transform 180ms cubic-bezier(.22,1,.36,1), box-shadow 180ms cubic-bezier(.22,1,.36,1); }

@@ -4,11 +4,20 @@ const els = {
   freshnessLabel: document.querySelector("#freshnessLabel"),
   swissBoard: document.querySelector("#swissBoard"),
   playoffPanel: document.querySelector("#playoffPanel"),
+  projectionTitle: document.querySelector("#projection-title"),
+  projectionIntro: document.querySelector(".event-heading p"),
+  eventEyebrow: document.querySelector(".section-eyebrow"),
+  eventPhaseLabel: document.querySelector("#eventPhaseLabel"),
+  pickemLabel: document.querySelector(".pickem-header .micro-label"),
+  pickemTitle: document.querySelector(".pickem-header h3"),
+  pickemScoreLabel: document.querySelector(".pickem-score span"),
   pickemChance: document.querySelector("#pickemChance"),
   pickemSummary: document.querySelector("#pickemSummary"),
   resetPicks: document.querySelector("#resetPicks"),
   boardStageTitle: document.querySelector("#boardStageTitle"),
   currentStageTab: document.querySelector("#currentStageTab"),
+  playoffTab: document.querySelector('[data-board-jump="playoffs"]'),
+  routeIntro: document.querySelector(".route-copy p"),
   boardJumpButtons: document.querySelectorAll("[data-board-jump]"),
   eventsGrid: document.querySelector("#eventsGrid"),
   deciderGrid: document.querySelector("#deciderGrid"),
@@ -20,6 +29,7 @@ const els = {
 let teamAssets = {};
 let appData = null;
 let currentBoardView = "stage3";
+let boardViewUserSelected = false;
 const pickOverrides = new Map();
 let teamLookupMap = {};
 let probabilityCache = {};
@@ -292,11 +302,47 @@ function outcomePanel(label, records, grouped, variant) {
   return panel;
 }
 
-function jumpMajorBoard(target) {
-  currentBoardView = target || "stage3";
+function stage3IsComplete(stage3) {
+  const matches = (stage3?.rounds || []).flatMap((round) => round.matches || []);
+  return matches.length >= 30 && matches.every((match) => match.status === "locked");
+}
+
+function listTeams(rows) {
+  return rows.map((row) => row.team_name).join(", ");
+}
+
+function setActiveBoardButtons() {
   els.boardJumpButtons.forEach((button) => {
     button.classList.toggle("is-active", button.dataset.boardJump === currentBoardView);
   });
+}
+
+function syncMajorCopy(stage3) {
+  const complete = stage3IsComplete(stage3);
+  document.body.classList.toggle("stage-complete", complete);
+  setText(els.currentStageTab, complete ? "Stage 3 results" : "Stage 3");
+  setText(els.playoffTab, complete ? "Playoff bracket" : "Projected playoffs");
+
+  if (!complete) {
+    setText(els.eventPhaseLabel, "IEM Cologne 2026 / Stage 3");
+    setText(els.projectionTitle, "Every route through Cologne.");
+    setText(els.projectionIntro, "Change any unresolved result and the full Swiss path, Pick'Em probability, and projected playoff bracket recalculate around your call.");
+    setText(els.boardStageTitle, "Stage 3, round by round.");
+    setText(els.routeIntro, "Completed matches are fixed. Blue probabilities are projected. Select either logo in an unresolved match to rewrite the route.");
+    return;
+  }
+
+  setText(els.projectionTitle, "Cologne playoff desk.");
+  setText(els.eventPhaseLabel, "IEM Cologne 2026 / Playoffs");
+  setText(els.projectionIntro, "Stage 3 is locked. The board now follows the official playoff bracket, with model reads on every quarterfinal path.");
+  setText(els.boardStageTitle, currentBoardView === "playoffs" ? "Official playoff bracket." : "Stage 3, verified result board.");
+  setText(els.routeIntro, "The Swiss results are fixed. Use the Stage 3 tab to review how teams qualified, or stay on the bracket for the current title path.");
+}
+
+function jumpMajorBoard(target) {
+  boardViewUserSelected = true;
+  currentBoardView = target || "stage3";
+  setActiveBoardButtons();
   renderDynamicMajor();
   const activePanel = currentBoardView === "playoffs" ? els.playoffPanel : els.swissBoard;
   activePanel?.scrollIntoView({ block: "nearest", behavior: "smooth" });
@@ -317,6 +363,11 @@ function renderDynamicMajor() {
   }
 
   const stage3 = simulateStage3();
+  if (stage3IsComplete(stage3) && !boardViewUserSelected && currentBoardView === "stage3") {
+    currentBoardView = "playoffs";
+  }
+  setActiveBoardButtons();
+  syncMajorCopy(stage3);
   const playoff = simulatePlayoffs(stage3.final_records);
   updatePickemMeter(stage3);
   renderDeciders(activeMajorCalls());
@@ -657,7 +708,7 @@ function simulateStage3() {
       .flatMap(([, teams]) => pairSwissGroup(teams, seeds, played));
   }
 
-  const finalRecords = Object.entries(records)
+  let finalRecords = Object.entries(records)
     .map(([teamName, record]) => ({
       team_name: teamName,
       seed: seeds[teamName],
@@ -666,6 +717,18 @@ function simulateStage3() {
       losses: record[1],
     }))
     .sort((a, b) => b.wins - a.wins || a.losses - b.losses || a.seed - b.seed);
+
+  const officialRecords = appData?.major_projection?.final_records || [];
+  if (officialRecords.length === finalRecords.length) {
+    const computedByTeam = Object.fromEntries(finalRecords.map((row) => [row.team_name, row]));
+    const compatible = officialRecords.every((row) => {
+      const computed = computedByTeam[row.team_name];
+      return computed && computed.wins === row.wins && computed.losses === row.losses;
+    });
+    if (compatible) {
+      finalRecords = officialRecords.map((row) => ({ ...computedByTeam[row.team_name], ...row }));
+    }
+  }
 
   return {
     rounds,
@@ -715,10 +778,13 @@ function stage3Board(stage3) {
 
 function simulatePlayoffs(finalRecords) {
   const topEight = finalRecords.filter((row) => row.wins === 3).slice(0, 8);
-  const pairs = [[0, 7], [3, 4], [1, 6], [2, 5]]
-    .map(([a, b]) => [topEight[a], topEight[b]])
-    .filter(([a, b]) => a && b);
-  const quarters = pairs.map(([a, b]) => playoffMatch(a.team_name, b.team_name, "Quarterfinal"));
+  const officialQuarterfinals = appData?.major_projection?.playoff_bracket?.quarterfinals;
+  const quarters = Array.isArray(officialQuarterfinals) && officialQuarterfinals.length
+    ? officialQuarterfinals.map((match) => playoffMatch(match.team1_name, match.team2_name, match.round || "Quarterfinal", match.starts_at))
+    : [[0, 7], [3, 4], [1, 6], [2, 5]]
+      .map(([a, b]) => [topEight[a], topEight[b]])
+      .filter(([a, b]) => a && b)
+      .map(([a, b]) => playoffMatch(a.team_name, b.team_name, "Quarterfinal"));
   const semis = [
     playoffMatch(quarters[0]?.winner_name, quarters[1]?.winner_name, "Semifinal"),
     playoffMatch(quarters[2]?.winner_name, quarters[3]?.winner_name, "Semifinal"),
@@ -727,15 +793,23 @@ function simulatePlayoffs(finalRecords) {
   return { topEight, rounds: [{ label: "Quarterfinals", matches: quarters }, { label: "Semifinals", matches: semis }, { label: "Grand final", matches: final }] };
 }
 
-function playoffMatch(team1Name, team2Name, round) {
+function playoffMatch(team1Name, team2Name, round, startsAt = null) {
+  if (!team1Name || !team2Name) return { round, team1_name: team1Name, team2_name: team2Name, winner_name: "", confidence: 0.5, prob_team1: 0.5 };
   const pick = matchPick(team1Name, team2Name, makeOverrideKey("playoff", round, team1Name, team2Name));
+  const liveState = (appData?.upcoming_predictions || []).find((match) => sameMatch(match, team1Name, team2Name));
+  const liveStatus = String(liveState?.status || "").toLowerCase();
+  const isLocked = liveState?.winner_name && ["locked", "completed", "finished"].includes(liveStatus);
+  const winnerName = isLocked ? liveState.winner_name : pick.pickedWinner;
   return {
     round,
     team1_name: team1Name,
     team2_name: team2Name,
-    winner_name: pick.pickedWinner,
+    winner_name: winnerName,
     confidence: roundProb(pick.confidence),
     prob_team1: roundProb(pick.probability),
+    score_label: liveState?.score_label || formatPercent(pick.confidence),
+    starts_at: startsAt || liveState?.starts_at || null,
+    status: isLocked ? "locked" : liveState?.status || pick.status,
   };
 }
 
@@ -752,7 +826,10 @@ function renderPlayoffPanel(playoff) {
           ${round.matches.map((match) => `
             <article class="playoff-match">
               ${teamRow(match.team1_name, match.winner_name === match.team1_name, "projected")}
-              <div class="score-chip">${formatPercent(match.confidence)}</div>
+              <div class="playoff-match-center">
+                <div class="score-chip">${escapeHtml(match.score_label || formatPercent(match.confidence))}</div>
+                <span>${escapeHtml(match.starts_at ? formatDate(match.starts_at) : match.status || "projected")}</span>
+              </div>
               ${teamRow(match.team2_name, match.winner_name === match.team2_name, "projected")}
             </article>
           `).join("")}
@@ -763,6 +840,23 @@ function renderPlayoffPanel(playoff) {
 }
 
 function updatePickemMeter(stage3) {
+  if (stage3IsComplete(stage3)) {
+    if (els.resetPicks) els.resetPicks.hidden = true;
+    setText(els.pickemLabel, "Stage 3 result");
+    setText(els.pickemTitle, "The Swiss card is locked.");
+    setText(els.pickemScoreLabel, "Stage state");
+    setText(els.pickemChance, "Locked");
+    setText(
+      els.pickemSummary,
+      `3-0: ${listTeams(stage3.buckets.three_zero)}. 0-3: ${listTeams(stage3.buckets.zero_three)}. The active read is now the playoff bracket.`,
+    );
+    return;
+  }
+
+  if (els.resetPicks) els.resetPicks.hidden = false;
+  setText(els.pickemLabel, "Current Pick'Em");
+  setText(els.pickemTitle, "The model's most likely card.");
+  setText(els.pickemScoreLabel, "Chance of 5+ correct");
   const chance = runPickemMonteCarlo(stage3);
   setText(els.pickemChance, formatPercent(chance));
   const overrides = pickOverrides.size;
@@ -959,13 +1053,24 @@ function applyLiveMajorSnapshot(live) {
   const boardMatches = (appData.major_projection.current_stage_board.rounds || [])
     .flatMap((round) => (round.groups || []).flatMap((group) => group.matches || []));
   for (const liveMatch of live.matches) {
-    if (Number(liveMatch.stage) !== 2) continue;
-    const boardMatch = boardMatches.find((match) => sameMatch(match, liveMatch.team1, liveMatch.team2));
-    if (!boardMatch) continue;
     const score1 = Number(liveMatch.score1);
     const score2 = Number(liveMatch.score2);
     const hasScore = Number.isFinite(score1) && Number.isFinite(score2);
     const finished = liveMatchIsFinished(liveMatch);
+
+    const upcoming = (appData.upcoming_predictions || []).find((match) => sameMatch(match, liveMatch.team1, liveMatch.team2));
+    if (upcoming) {
+      upcoming.status = finished ? "locked" : liveMatch.status || upcoming.status;
+      if (finished && liveMatch.winner) upcoming.winner_name = liveMatch.winner;
+      if (hasScore) upcoming.score_label = `${score1}:${score2}`;
+      const liveMapRead = knownVetoMapRead(upcoming, liveMatch.maps);
+      if (liveMapRead) upcoming.map_read = liveMapRead;
+      changed = true;
+    }
+
+    if (Number(liveMatch.stage) !== 2) continue;
+    const boardMatch = boardMatches.find((match) => sameMatch(match, liveMatch.team1, liveMatch.team2));
+    if (!boardMatch) continue;
     if (hasScore) boardMatch.score_label = `${score1}:${score2}`;
     if (finished && liveMatch.winner) {
       boardMatch.status = "locked";
@@ -973,13 +1078,7 @@ function applyLiveMajorSnapshot(live) {
     } else if (/live|playing|in.progress/.test(String(liveMatch.status || "").toLowerCase())) {
       boardMatch.status = "live";
     }
-    const upcoming = (appData.upcoming_predictions || []).find((match) => sameMatch(match, liveMatch.team1, liveMatch.team2));
-    if (upcoming) {
-      upcoming.status = finished ? "locked" : boardMatch.status;
-      if (hasScore) upcoming.score_label = `${score1}:${score2}`;
-      const liveMapRead = knownVetoMapRead(upcoming, liveMatch.maps);
-      if (liveMapRead) upcoming.map_read = liveMapRead;
-    } else if (liveMatch.maps?.length) {
+    if (!upcoming && liveMatch.maps?.length) {
       const liveMapRead = knownVetoMapRead({
         team1_name: boardMatch.team1_name,
         team2_name: boardMatch.team2_name,

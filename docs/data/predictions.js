@@ -13,50 +13,56 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-06-14T14:32:02Z",
+  "generated_at_utc": "2026-06-17T01:14:37Z",
   "major_projection": {
     "buckets": {
       "advance": [
         {
           "losses": 1,
+          "playoff_seed": 3,
           "record": "3-1",
-          "seed": 2,
-          "team_name": "NAVI",
+          "seed": 3,
+          "team_name": "Aurora",
           "wins": 3
         },
         {
           "losses": 1,
+          "playoff_seed": 4,
           "record": "3-1",
-          "seed": 8,
-          "team_name": "MOUZ",
+          "seed": 4,
+          "team_name": "Vitality",
           "wins": 3
         },
         {
           "losses": 1,
+          "playoff_seed": 5,
           "record": "3-1",
-          "seed": 10,
-          "team_name": "Spirit",
+          "seed": 5,
+          "team_name": "Falcons",
           "wins": 3
         },
         {
           "losses": 2,
+          "playoff_seed": 6,
           "record": "3-2",
-          "seed": 12,
+          "seed": 6,
           "team_name": "BetBoom",
           "wins": 3
         },
         {
           "losses": 2,
+          "playoff_seed": 7,
           "record": "3-2",
-          "seed": 13,
+          "seed": 7,
           "team_name": "9z",
           "wins": 3
         },
         {
           "losses": 2,
+          "playoff_seed": 8,
           "record": "3-2",
-          "seed": 16,
-          "team_name": "Legacy",
+          "seed": 8,
+          "team_name": "G2",
           "wins": 3
         }
       ],
@@ -64,14 +70,14 @@ window.__STRIKESIGNAL_DATA__ = {
         {
           "losses": 3,
           "record": "2-3",
-          "seed": 7,
-          "team_name": "FURIA",
+          "seed": 9,
+          "team_name": "NAVI",
           "wins": 2
         },
         {
           "losses": 3,
           "record": "2-3",
-          "seed": 9,
+          "seed": 10,
           "team_name": "FUT",
           "wins": 2
         },
@@ -79,36 +85,29 @@ window.__STRIKESIGNAL_DATA__ = {
           "losses": 3,
           "record": "2-3",
           "seed": 11,
-          "team_name": "G2",
+          "team_name": "The MongolZ",
           "wins": 2
         },
         {
           "losses": 3,
           "record": "1-3",
-          "seed": 4,
-          "team_name": "The MongolZ",
+          "seed": 12,
+          "team_name": "MOUZ",
           "wins": 1
         },
         {
           "losses": 3,
           "record": "1-3",
-          "seed": 5,
-          "team_name": "PARIVISION",
-          "wins": 1
-        },
-        {
-          "losses": 3,
-          "record": "1-3",
-          "seed": 6,
-          "team_name": "Aurora",
-          "wins": 1
-        },
-        {
-          "losses": 3,
-          "record": "0-3",
-          "seed": 14,
+          "seed": 13,
           "team_name": "Monte",
-          "wins": 0
+          "wins": 1
+        },
+        {
+          "losses": 3,
+          "record": "1-3",
+          "seed": 14,
+          "team_name": "Legacy",
+          "wins": 1
         },
         {
           "losses": 3,
@@ -116,21 +115,30 @@ window.__STRIKESIGNAL_DATA__ = {
           "seed": 15,
           "team_name": "B8",
           "wins": 0
+        },
+        {
+          "losses": 3,
+          "record": "0-3",
+          "seed": 16,
+          "team_name": "PARIVISION",
+          "wins": 0
         }
       ],
       "three_zero": [
         {
           "losses": 0,
+          "playoff_seed": 1,
           "record": "3-0",
           "seed": 1,
-          "team_name": "Vitality",
+          "team_name": "Spirit",
           "wins": 3
         },
         {
           "losses": 0,
+          "playoff_seed": 2,
           "record": "3-0",
-          "seed": 3,
-          "team_name": "Falcons",
+          "seed": 2,
+          "team_name": "FURIA",
           "wins": 3
         }
       ],
@@ -138,113 +146,117 @@ window.__STRIKESIGNAL_DATA__ = {
         {
           "losses": 3,
           "record": "0-3",
-          "seed": 14,
-          "team_name": "Monte",
+          "seed": 15,
+          "team_name": "B8",
           "wins": 0
         },
         {
           "losses": 3,
           "record": "0-3",
-          "seed": 15,
-          "team_name": "B8",
+          "seed": 16,
+          "team_name": "PARIVISION",
           "wins": 0
         }
       ]
     },
     "current_stage_board": {
-      "final_groups": [],
-      "legend": {
-        "locked": "Known result",
-        "projected": "Model projection"
-      },
+      "format": "16-team Swiss, all BO3, top eight advanced",
       "rounds": [
         {
           "groups": [
             {
               "matches": [
                 {
-                  "confidence": null,
-                  "record_before": "0-0",
-                  "round": 1,
+                  "confidence": 0.8218,
+                  "predicted_winner": "Vitality",
+                  "prob_team1": 0.8218,
+                  "round": "Swiss round 1",
                   "score_label": "2:1",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "Vitality",
                   "team2_name": "FUT",
                   "winner_name": "Vitality"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "0-0",
-                  "round": 1,
+                  "confidence": 0.6082,
+                  "predicted_winner": "Spirit",
+                  "prob_team1": 0.3918,
+                  "round": "Swiss round 1",
                   "score_label": "0:2",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "NAVI",
                   "team2_name": "Spirit",
                   "winner_name": "Spirit"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "0-0",
-                  "round": 1,
+                  "confidence": 0.7208,
+                  "predicted_winner": "Falcons",
+                  "prob_team1": 0.7208,
+                  "round": "Swiss round 1",
                   "score_label": "2:1",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "Falcons",
                   "team2_name": "G2",
                   "winner_name": "Falcons"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "0-0",
-                  "round": 1,
+                  "confidence": 0.5507,
+                  "predicted_winner": "BetBoom",
+                  "prob_team1": 0.4493,
+                  "round": "Swiss round 1",
                   "score_label": "1:2",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "The MongolZ",
                   "team2_name": "BetBoom",
                   "winner_name": "BetBoom"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "0-0",
-                  "round": 1,
+                  "confidence": 0.6404,
+                  "predicted_winner": "9z",
+                  "prob_team1": 0.3596,
+                  "round": "Swiss round 1",
                   "score_label": "1:2",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "PARIVISION",
                   "team2_name": "9z",
                   "winner_name": "9z"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "0-0",
-                  "round": 1,
+                  "confidence": 0.5984,
+                  "predicted_winner": "Aurora",
+                  "prob_team1": 0.5984,
+                  "round": "Swiss round 1",
                   "score_label": "2:0",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "Aurora",
                   "team2_name": "Monte",
                   "winner_name": "Aurora"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "0-0",
-                  "round": 1,
+                  "confidence": 0.6191,
+                  "predicted_winner": "FURIA",
+                  "prob_team1": 0.6191,
+                  "round": "Swiss round 1",
                   "score_label": "2:0",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "FURIA",
                   "team2_name": "B8",
                   "winner_name": "FURIA"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "0-0",
-                  "round": 1,
+                  "confidence": 0.6065,
+                  "predicted_winner": "MOUZ",
+                  "prob_team1": 0.6065,
+                  "round": "Swiss round 1",
                   "score_label": "2:0",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "MOUZ",
                   "team2_name": "Legacy",
@@ -261,44 +273,48 @@ window.__STRIKESIGNAL_DATA__ = {
             {
               "matches": [
                 {
-                  "confidence": null,
-                  "record_before": "1-0",
-                  "round": 2,
+                  "confidence": 0.8109,
+                  "predicted_winner": "Vitality",
+                  "prob_team1": 0.8109,
+                  "round": "Swiss round 2",
                   "score_label": "1:2",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "Vitality",
                   "team2_name": "9z",
                   "winner_name": "9z"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "1-0",
-                  "round": 2,
+                  "confidence": 0.6594,
+                  "predicted_winner": "Falcons",
+                  "prob_team1": 0.6594,
+                  "round": "Swiss round 2",
                   "score_label": "0:2",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "Falcons",
                   "team2_name": "BetBoom",
                   "winner_name": "BetBoom"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "1-0",
-                  "round": 2,
+                  "confidence": 0.8007,
+                  "predicted_winner": "Spirit",
+                  "prob_team1": 0.1993,
+                  "round": "Swiss round 2",
                   "score_label": "1:2",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "Aurora",
                   "team2_name": "Spirit",
                   "winner_name": "Spirit"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "1-0",
-                  "round": 2,
+                  "confidence": 0.6119,
+                  "predicted_winner": "MOUZ",
+                  "prob_team1": 0.3881,
+                  "round": "Swiss round 2",
                   "score_label": "2:1",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "FURIA",
                   "team2_name": "MOUZ",
@@ -310,44 +326,48 @@ window.__STRIKESIGNAL_DATA__ = {
             {
               "matches": [
                 {
-                  "confidence": null,
-                  "record_before": "0-1",
-                  "round": 2,
+                  "confidence": 0.6805,
+                  "predicted_winner": "NAVI",
+                  "prob_team1": 0.6805,
+                  "round": "Swiss round 2",
                   "score_label": "2:0",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "NAVI",
                   "team2_name": "Legacy",
                   "winner_name": "NAVI"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "0-1",
-                  "round": 2,
+                  "confidence": 0.6165,
+                  "predicted_winner": "The MongolZ",
+                  "prob_team1": 0.6165,
+                  "round": "Swiss round 2",
                   "score_label": "2:0",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "The MongolZ",
                   "team2_name": "B8",
                   "winner_name": "The MongolZ"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "0-1",
-                  "round": 2,
+                  "confidence": 0.5301,
+                  "predicted_winner": "PARIVISION",
+                  "prob_team1": 0.5301,
+                  "round": "Swiss round 2",
                   "score_label": "1:2",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "PARIVISION",
                   "team2_name": "Monte",
                   "winner_name": "Monte"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "0-1",
-                  "round": 2,
+                  "confidence": 0.5373,
+                  "predicted_winner": "FUT",
+                  "prob_team1": 0.5373,
+                  "round": "Swiss round 2",
                   "score_label": "1:2",
-                  "starts_at": null,
+                  "source": "verified_stage3_result",
                   "status": "locked",
                   "team1_name": "FUT",
                   "team2_name": "G2",
@@ -364,26 +384,28 @@ window.__STRIKESIGNAL_DATA__ = {
             {
               "matches": [
                 {
-                  "confidence": null,
-                  "record_before": "2-0",
-                  "round": 3,
-                  "score_label": "vs",
-                  "starts_at": null,
-                  "status": "projected",
+                  "confidence": 0.548,
+                  "predicted_winner": "BetBoom",
+                  "prob_team1": 0.548,
+                  "round": "Swiss round 3",
+                  "score_label": "0:2",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "BetBoom",
+                  "team2_name": "FURIA",
+                  "winner_name": "FURIA"
+                },
+                {
+                  "confidence": 0.7488,
+                  "predicted_winner": "Spirit",
+                  "prob_team1": 0.7488,
+                  "round": "Swiss round 3",
+                  "score_label": "2:1",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
                   "team1_name": "Spirit",
                   "team2_name": "9z",
                   "winner_name": "Spirit"
-                },
-                {
-                  "confidence": null,
-                  "record_before": "2-0",
-                  "round": 3,
-                  "score_label": "vs",
-                  "starts_at": null,
-                  "status": "projected",
-                  "team1_name": "BetBoom",
-                  "team2_name": "FURIA",
-                  "winner_name": "BetBoom"
                 }
               ],
               "record": "2-0"
@@ -391,48 +413,52 @@ window.__STRIKESIGNAL_DATA__ = {
             {
               "matches": [
                 {
-                  "confidence": null,
-                  "record_before": "1-1",
-                  "round": 3,
-                  "score_label": "vs",
-                  "starts_at": null,
-                  "status": "projected",
+                  "confidence": 0.6877,
+                  "predicted_winner": "NAVI",
+                  "prob_team1": 0.6877,
+                  "round": "Swiss round 3",
+                  "score_label": "2:1",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "NAVI",
+                  "team2_name": "The MongolZ",
+                  "winner_name": "NAVI"
+                },
+                {
+                  "confidence": 0.806,
+                  "predicted_winner": "Falcons",
+                  "prob_team1": 0.806,
+                  "round": "Swiss round 3",
+                  "score_label": "2:1",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
                   "team1_name": "Falcons",
                   "team2_name": "Monte",
                   "winner_name": "Falcons"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "1-1",
-                  "round": 3,
-                  "score_label": "vs",
-                  "starts_at": null,
-                  "status": "projected",
+                  "confidence": 0.5192,
+                  "predicted_winner": "G2",
+                  "prob_team1": 0.4808,
+                  "round": "Swiss round 3",
+                  "score_label": "2:0",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
                   "team1_name": "Aurora",
                   "team2_name": "G2",
                   "winner_name": "Aurora"
                 },
                 {
-                  "confidence": null,
-                  "record_before": "1-1",
-                  "round": 3,
-                  "score_label": "vs",
-                  "starts_at": null,
-                  "status": "projected",
+                  "confidence": 0.7553,
+                  "predicted_winner": "Vitality",
+                  "prob_team1": 0.7553,
+                  "round": "Swiss round 3",
+                  "score_label": "2:1",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
                   "team1_name": "Vitality",
                   "team2_name": "MOUZ",
                   "winner_name": "Vitality"
-                },
-                {
-                  "confidence": null,
-                  "record_before": "1-1",
-                  "round": 3,
-                  "score_label": "vs",
-                  "starts_at": null,
-                  "status": "projected",
-                  "team1_name": "NAVI",
-                  "team2_name": "The MongolZ",
-                  "winner_name": "NAVI"
                 }
               ],
               "record": "1-1"
@@ -440,26 +466,28 @@ window.__STRIKESIGNAL_DATA__ = {
             {
               "matches": [
                 {
-                  "confidence": null,
-                  "record_before": "0-2",
-                  "round": 3,
-                  "score_label": "vs",
-                  "starts_at": null,
-                  "status": "projected",
-                  "team1_name": "PARIVISION",
-                  "team2_name": "Legacy",
-                  "winner_name": "PARIVISION"
-                },
-                {
-                  "confidence": null,
-                  "record_before": "0-2",
-                  "round": 3,
-                  "score_label": "vs",
-                  "starts_at": null,
-                  "status": "projected",
+                  "confidence": 0.6317,
+                  "predicted_winner": "FUT",
+                  "prob_team1": 0.3683,
+                  "round": "Swiss round 3",
+                  "score_label": "1:2",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
                   "team1_name": "B8",
                   "team2_name": "FUT",
                   "winner_name": "FUT"
+                },
+                {
+                  "confidence": 0.6162,
+                  "predicted_winner": "Legacy",
+                  "prob_team1": 0.3838,
+                  "round": "Swiss round 3",
+                  "score_label": "0:2",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "PARIVISION",
+                  "team2_name": "Legacy",
+                  "winner_name": "Legacy"
                 }
               ],
               "record": "0-2"
@@ -470,11 +498,85 @@ window.__STRIKESIGNAL_DATA__ = {
         {
           "groups": [
             {
-              "matches": [],
+              "matches": [
+                {
+                  "confidence": 0.8005,
+                  "predicted_winner": "Vitality",
+                  "prob_team1": 0.1995,
+                  "round": "Swiss round 4",
+                  "score_label": "0:2",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "BetBoom",
+                  "team2_name": "Vitality",
+                  "winner_name": "Vitality"
+                },
+                {
+                  "confidence": 0.5741,
+                  "predicted_winner": "9z",
+                  "prob_team1": 0.4259,
+                  "round": "Swiss round 4",
+                  "score_label": "2:0",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "Aurora",
+                  "team2_name": "9z",
+                  "winner_name": "Aurora"
+                },
+                {
+                  "confidence": 0.5186,
+                  "predicted_winner": "Falcons",
+                  "prob_team1": 0.4814,
+                  "round": "Swiss round 4",
+                  "score_label": "1:2",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "NAVI",
+                  "team2_name": "Falcons",
+                  "winner_name": "Falcons"
+                }
+              ],
               "record": "2-1"
             },
             {
-              "matches": [],
+              "matches": [
+                {
+                  "confidence": 0.599,
+                  "predicted_winner": "MOUZ",
+                  "prob_team1": 0.599,
+                  "round": "Swiss round 4",
+                  "score_label": "1:2",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "MOUZ",
+                  "team2_name": "FUT",
+                  "winner_name": "FUT"
+                },
+                {
+                  "confidence": 0.6365,
+                  "predicted_winner": "The MongolZ",
+                  "prob_team1": 0.6365,
+                  "round": "Swiss round 4",
+                  "score_label": "2:1",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "The MongolZ",
+                  "team2_name": "Monte",
+                  "winner_name": "The MongolZ"
+                },
+                {
+                  "confidence": 0.5295,
+                  "predicted_winner": "Legacy",
+                  "prob_team1": 0.4705,
+                  "round": "Swiss round 4",
+                  "score_label": "2:0",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "G2",
+                  "team2_name": "Legacy",
+                  "winner_name": "G2"
+                }
+              ],
               "record": "1-2"
             }
           ],
@@ -483,7 +585,44 @@ window.__STRIKESIGNAL_DATA__ = {
         {
           "groups": [
             {
-              "matches": [],
+              "matches": [
+                {
+                  "confidence": 0.5342,
+                  "predicted_winner": "9z",
+                  "prob_team1": 0.5342,
+                  "round": "Swiss round 5",
+                  "score_label": "2:0",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "9z",
+                  "team2_name": "The MongolZ",
+                  "winner_name": "9z"
+                },
+                {
+                  "confidence": 0.5347,
+                  "predicted_winner": "BetBoom",
+                  "prob_team1": 0.5347,
+                  "round": "Swiss round 5",
+                  "score_label": "2:0",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "BetBoom",
+                  "team2_name": "FUT",
+                  "winner_name": "BetBoom"
+                },
+                {
+                  "confidence": 0.7056,
+                  "predicted_winner": "NAVI",
+                  "prob_team1": 0.7056,
+                  "round": "Swiss round 5",
+                  "score_label": "1:2",
+                  "source": "verified_stage3_result",
+                  "status": "locked",
+                  "team1_name": "NAVI",
+                  "team2_name": "G2",
+                  "winner_name": "G2"
+                }
+              ],
               "record": "2-2"
             }
           ],
@@ -491,76 +630,84 @@ window.__STRIKESIGNAL_DATA__ = {
         }
       ],
       "stage": "IEM Cologne Major 2026 Stage 3",
-      "view": "current_major_board"
+      "status": "complete"
     },
     "final_records": [
       {
         "losses": 0,
+        "playoff_seed": 1,
         "record": "3-0",
         "seed": 1,
-        "team_name": "Vitality",
-        "wins": 3
-      },
-      {
-        "losses": 0,
-        "record": "3-0",
-        "seed": 3,
-        "team_name": "Falcons",
-        "wins": 3
-      },
-      {
-        "losses": 1,
-        "record": "3-1",
-        "seed": 2,
-        "team_name": "NAVI",
-        "wins": 3
-      },
-      {
-        "losses": 1,
-        "record": "3-1",
-        "seed": 8,
-        "team_name": "MOUZ",
-        "wins": 3
-      },
-      {
-        "losses": 1,
-        "record": "3-1",
-        "seed": 10,
         "team_name": "Spirit",
         "wins": 3
       },
       {
+        "losses": 0,
+        "playoff_seed": 2,
+        "record": "3-0",
+        "seed": 2,
+        "team_name": "FURIA",
+        "wins": 3
+      },
+      {
+        "losses": 1,
+        "playoff_seed": 3,
+        "record": "3-1",
+        "seed": 3,
+        "team_name": "Aurora",
+        "wins": 3
+      },
+      {
+        "losses": 1,
+        "playoff_seed": 4,
+        "record": "3-1",
+        "seed": 4,
+        "team_name": "Vitality",
+        "wins": 3
+      },
+      {
+        "losses": 1,
+        "playoff_seed": 5,
+        "record": "3-1",
+        "seed": 5,
+        "team_name": "Falcons",
+        "wins": 3
+      },
+      {
         "losses": 2,
+        "playoff_seed": 6,
         "record": "3-2",
-        "seed": 12,
+        "seed": 6,
         "team_name": "BetBoom",
         "wins": 3
       },
       {
         "losses": 2,
+        "playoff_seed": 7,
         "record": "3-2",
-        "seed": 13,
+        "seed": 7,
         "team_name": "9z",
         "wins": 3
       },
       {
         "losses": 2,
+        "playoff_seed": 8,
         "record": "3-2",
-        "seed": 16,
-        "team_name": "Legacy",
+        "seed": 8,
+        "team_name": "G2",
         "wins": 3
       },
       {
         "losses": 3,
         "record": "2-3",
-        "seed": 7,
-        "team_name": "FURIA",
+        "seed": 9,
+        "team_name": "NAVI",
         "wins": 2
       },
       {
         "losses": 3,
         "record": "2-3",
-        "seed": 9,
+        "seed": 10,
         "team_name": "FUT",
         "wins": 2
       },
@@ -568,36 +715,29 @@ window.__STRIKESIGNAL_DATA__ = {
         "losses": 3,
         "record": "2-3",
         "seed": 11,
-        "team_name": "G2",
+        "team_name": "The MongolZ",
         "wins": 2
       },
       {
         "losses": 3,
         "record": "1-3",
-        "seed": 4,
-        "team_name": "The MongolZ",
+        "seed": 12,
+        "team_name": "MOUZ",
         "wins": 1
       },
       {
         "losses": 3,
         "record": "1-3",
-        "seed": 5,
-        "team_name": "PARIVISION",
-        "wins": 1
-      },
-      {
-        "losses": 3,
-        "record": "1-3",
-        "seed": 6,
-        "team_name": "Aurora",
-        "wins": 1
-      },
-      {
-        "losses": 3,
-        "record": "0-3",
-        "seed": 14,
+        "seed": 13,
         "team_name": "Monte",
-        "wins": 0
+        "wins": 1
+      },
+      {
+        "losses": 3,
+        "record": "1-3",
+        "seed": 14,
+        "team_name": "Legacy",
+        "wins": 1
       },
       {
         "losses": 3,
@@ -605,2007 +745,511 @@ window.__STRIKESIGNAL_DATA__ = {
         "seed": 15,
         "team_name": "B8",
         "wins": 0
+      },
+      {
+        "losses": 3,
+        "record": "0-3",
+        "seed": 16,
+        "team_name": "PARIVISION",
+        "wins": 0
       }
     ],
-    "format": "16-team Swiss, all BO3, top eight advance",
-    "generated_from": "current_stage3_state_plus_model_projection",
+    "format": "Stage 3 locked; eight-team single-elimination playoff bracket",
+    "generated_from": "verified_stage3_results",
+    "playoff_bracket": {
+      "quarterfinals": [
+        {
+          "round": "Quarterfinal",
+          "starts_at": "2026-06-18T14:00:00+02:00",
+          "team1_name": "Aurora",
+          "team2_name": "BetBoom"
+        },
+        {
+          "round": "Quarterfinal",
+          "starts_at": "2026-06-18T17:00:00+02:00",
+          "team1_name": "9z",
+          "team2_name": "FURIA"
+        },
+        {
+          "round": "Quarterfinal",
+          "starts_at": "2026-06-19T14:00:00+02:00",
+          "team1_name": "G2",
+          "team2_name": "Spirit"
+        },
+        {
+          "round": "Quarterfinal",
+          "starts_at": "2026-06-19T17:00:00+02:00",
+          "team1_name": "Falcons",
+          "team2_name": "Vitality"
+        }
+      ],
+      "source": "verified_official_bracket",
+      "stage": "IEM Cologne Major 2026 Playoffs",
+      "status": "scheduled"
+    },
     "rounds": [
       {
-        "matches": [
+        "groups": [
           {
-            "confidence": 0.8263,
-            "confidence_label": "strong",
-            "loser_record_after": "0-1",
-            "map_read": {
-              "base_prob_team1": 0.8263,
-              "excluded_maps": {
-                "Legacy": [
-                  "Anubis",
-                  "Overpass"
-                ],
-                "Vitality": [
-                  "Ancient",
-                  "Anubis"
-                ]
+            "matches": [
+              {
+                "confidence": 0.8218,
+                "predicted_winner": "Vitality",
+                "prob_team1": 0.8218,
+                "round": "Swiss round 1",
+                "score_label": "2:1",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Vitality",
+                "team2_name": "FUT",
+                "winner_name": "Vitality"
               },
-              "map_adjusted_confidence": 0.8486,
-              "map_adjusted_predicted_winner": "Vitality",
-              "map_adjusted_prob_team1": 0.8486,
-              "maps": [
-                {
-                  "confidence": 0.8831,
-                  "evidence_maps": 82,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Vitality",
-                  "prob_team1": 0.8831,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.75,
-                  "team2_map_win_rate": 0.5
-                },
-                {
-                  "confidence": 0.8307,
-                  "evidence_maps": 72,
-                  "map_name": "Nuke",
-                  "predicted_winner": "Vitality",
-                  "prob_team1": 0.8307,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5319,
-                  "team2_map_win_rate": 0.5152
-                },
-                {
-                  "confidence": 0.8321,
-                  "evidence_maps": 85,
-                  "map_name": "Inferno",
-                  "predicted_winner": "Vitality",
-                  "prob_team1": 0.8321,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5472,
-                  "team2_map_win_rate": 0.525
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Vitality",
-            "prob_team1": 0.8263,
-            "round": "Swiss round 1",
-            "starts_at": null,
-            "team1_name": "Vitality",
-            "team2_name": "Legacy",
-            "winner_record_after": "1-0"
-          },
-          {
-            "confidence": 0.7798,
-            "confidence_label": "strong",
-            "loser_record_after": "0-1",
-            "map_read": {
-              "base_prob_team1": 0.7798,
-              "excluded_maps": {
-                "B8": [
-                  "Anubis"
-                ],
-                "NAVI": []
+              {
+                "confidence": 0.6082,
+                "predicted_winner": "Spirit",
+                "prob_team1": 0.3918,
+                "round": "Swiss round 1",
+                "score_label": "0:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "NAVI",
+                "team2_name": "Spirit",
+                "winner_name": "Spirit"
               },
-              "map_adjusted_confidence": 0.795,
-              "map_adjusted_predicted_winner": "NAVI",
-              "map_adjusted_prob_team1": 0.795,
-              "maps": [
-                {
-                  "confidence": 0.8202,
-                  "evidence_maps": 23,
-                  "map_name": "Inferno",
-                  "predicted_winner": "NAVI",
-                  "prob_team1": 0.8202,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.3333
-                },
-                {
-                  "confidence": 0.7708,
-                  "evidence_maps": 32,
-                  "map_name": "Ancient",
-                  "predicted_winner": "NAVI",
-                  "prob_team1": 0.7708,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.5278
-                },
-                {
-                  "confidence": 0.7939,
-                  "evidence_maps": 40,
-                  "map_name": "Mirage",
-                  "predicted_winner": "NAVI",
-                  "prob_team1": 0.7939,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.4545
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "NAVI",
-            "prob_team1": 0.7798,
-            "round": "Swiss round 1",
-            "starts_at": null,
-            "team1_name": "NAVI",
-            "team2_name": "B8",
-            "winner_record_after": "1-0"
-          },
-          {
-            "confidence": 0.806,
-            "confidence_label": "strong",
-            "loser_record_after": "0-1",
-            "map_read": {
-              "base_prob_team1": 0.806,
-              "excluded_maps": {
-                "Falcons": [
-                  "Overpass"
-                ],
-                "Monte": [
-                  "Anubis",
-                  "Overpass"
-                ]
+              {
+                "confidence": 0.7208,
+                "predicted_winner": "Falcons",
+                "prob_team1": 0.7208,
+                "round": "Swiss round 1",
+                "score_label": "2:1",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Falcons",
+                "team2_name": "G2",
+                "winner_name": "Falcons"
               },
-              "map_adjusted_confidence": 0.8204,
-              "map_adjusted_predicted_winner": "Falcons",
-              "map_adjusted_prob_team1": 0.8204,
-              "maps": [
-                {
-                  "confidence": 0.8368,
-                  "evidence_maps": 44,
-                  "map_name": "Ancient",
-                  "predicted_winner": "Falcons",
-                  "prob_team1": 0.8368,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5581,
-                  "team2_map_win_rate": 0.4444
-                },
-                {
-                  "confidence": 0.8106,
-                  "evidence_maps": 35,
-                  "map_name": "Inferno",
-                  "predicted_winner": "Falcons",
-                  "prob_team1": 0.8106,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4444,
-                  "team2_map_win_rate": 0.4286
-                },
-                {
-                  "confidence": 0.8139,
-                  "evidence_maps": 51,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Falcons",
-                  "prob_team1": 0.8139,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4651,
-                  "team2_map_win_rate": 0.4375
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Falcons",
-            "prob_team1": 0.806,
-            "round": "Swiss round 1",
-            "starts_at": null,
-            "team1_name": "Falcons",
-            "team2_name": "Monte",
-            "winner_record_after": "1-0"
-          },
-          {
-            "confidence": 0.5342,
-            "confidence_label": "thin",
-            "loser_record_after": "0-1",
-            "map_read": {
-              "base_prob_team1": 0.4658,
-              "excluded_maps": {
-                "9z": [
-                  "Anubis"
-                ],
-                "The MongolZ": []
+              {
+                "confidence": 0.5507,
+                "predicted_winner": "BetBoom",
+                "prob_team1": 0.4493,
+                "round": "Swiss round 1",
+                "score_label": "1:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "The MongolZ",
+                "team2_name": "BetBoom",
+                "winner_name": "BetBoom"
               },
-              "map_adjusted_confidence": 0.5342,
-              "map_adjusted_predicted_winner": "9z",
-              "map_adjusted_prob_team1": 0.4658,
-              "maps": [
-                {
-                  "confidence": 0.5107,
-                  "evidence_maps": 10,
-                  "map_name": "Dust2",
-                  "predicted_winner": "9z",
-                  "prob_team1": 0.4893,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.3571
-                },
-                {
-                  "confidence": 0.5576,
-                  "evidence_maps": 10,
-                  "map_name": "Nuke",
-                  "predicted_winner": "9z",
-                  "prob_team1": 0.4424,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.6429
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "9z",
-            "prob_team1": 0.4658,
-            "round": "Swiss round 1",
-            "starts_at": null,
-            "team1_name": "The MongolZ",
-            "team2_name": "9z",
-            "winner_record_after": "1-0"
-          },
-          {
-            "confidence": 0.6555,
-            "confidence_label": "watch",
-            "loser_record_after": "0-1",
-            "map_read": {
-              "base_prob_team1": 0.3445,
-              "excluded_maps": {
-                "BetBoom": [
-                  "Inferno",
-                  "Overpass"
-                ],
-                "PARIVISION": [
-                  "Nuke"
-                ]
+              {
+                "confidence": 0.6404,
+                "predicted_winner": "9z",
+                "prob_team1": 0.3596,
+                "round": "Swiss round 1",
+                "score_label": "1:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "PARIVISION",
+                "team2_name": "9z",
+                "winner_name": "9z"
               },
-              "map_adjusted_confidence": 0.6444,
-              "map_adjusted_predicted_winner": "BetBoom",
-              "map_adjusted_prob_team1": 0.3556,
-              "maps": [
-                {
-                  "confidence": 0.5787,
-                  "evidence_maps": 39,
-                  "map_name": "Mirage",
-                  "predicted_winner": "BetBoom",
-                  "prob_team1": 0.4213,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3429,
-                  "team2_map_win_rate": 0.1667
-                },
-                {
-                  "confidence": 0.702,
-                  "evidence_maps": 15,
-                  "map_name": "Anubis",
-                  "predicted_winner": "BetBoom",
-                  "prob_team1": 0.298,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3846,
-                  "team2_map_win_rate": 0.6
-                },
-                {
-                  "confidence": 0.6524,
-                  "evidence_maps": 48,
-                  "map_name": "Dust2",
-                  "predicted_winner": "BetBoom",
-                  "prob_team1": 0.3476,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5909,
-                  "team2_map_win_rate": 0.5833
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "BetBoom",
-            "prob_team1": 0.3445,
-            "round": "Swiss round 1",
-            "starts_at": null,
-            "team1_name": "PARIVISION",
-            "team2_name": "BetBoom",
-            "winner_record_after": "1-0"
-          },
-          {
-            "confidence": 0.5192,
-            "confidence_label": "thin",
-            "loser_record_after": "0-1",
-            "map_read": {
-              "base_prob_team1": 0.4808,
-              "excluded_maps": {
-                "Aurora": [
-                  "Ancient"
-                ],
-                "G2": [
-                  "Nuke"
-                ]
+              {
+                "confidence": 0.5984,
+                "predicted_winner": "Aurora",
+                "prob_team1": 0.5984,
+                "round": "Swiss round 1",
+                "score_label": "2:0",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Aurora",
+                "team2_name": "Monte",
+                "winner_name": "Aurora"
               },
-              "map_adjusted_confidence": 0.5169,
-              "map_adjusted_predicted_winner": "Aurora",
-              "map_adjusted_prob_team1": 0.5169,
-              "maps": [
-                {
-                  "confidence": 0.5872,
-                  "evidence_maps": 21,
-                  "map_name": "Anubis",
-                  "predicted_winner": "Aurora",
-                  "prob_team1": 0.5872,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.6667,
-                  "team2_map_win_rate": 0.3571
-                },
-                {
-                  "confidence": 0.548,
-                  "evidence_maps": 80,
-                  "map_name": "Inferno",
-                  "predicted_winner": "G2",
-                  "prob_team1": 0.452,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.375,
-                  "team2_map_win_rate": 0.4375
-                },
-                {
-                  "confidence": 0.5114,
-                  "evidence_maps": 100,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Aurora",
-                  "prob_team1": 0.5114,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.48,
-                  "team2_map_win_rate": 0.4138
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "G2",
-            "prob_team1": 0.4808,
-            "round": "Swiss round 1",
-            "starts_at": null,
-            "team1_name": "Aurora",
-            "team2_name": "G2",
-            "winner_record_after": "1-0"
-          },
-          {
-            "confidence": 0.7718,
-            "confidence_label": "strong",
-            "loser_record_after": "0-1",
-            "map_read": {
-              "base_prob_team1": 0.2282,
-              "excluded_maps": {
-                "FURIA": [
-                  "Ancient",
-                  "Anubis"
-                ],
-                "Spirit": [
-                  "Inferno"
-                ]
+              {
+                "confidence": 0.6191,
+                "predicted_winner": "FURIA",
+                "prob_team1": 0.6191,
+                "round": "Swiss round 1",
+                "score_label": "2:0",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "FURIA",
+                "team2_name": "B8",
+                "winner_name": "FURIA"
               },
-              "map_adjusted_confidence": 0.7701,
-              "map_adjusted_predicted_winner": "Spirit",
-              "map_adjusted_prob_team1": 0.2299,
-              "maps": [
-                {
-                  "confidence": 0.7218,
-                  "evidence_maps": 53,
-                  "map_name": "Overpass",
-                  "predicted_winner": "Spirit",
-                  "prob_team1": 0.2782,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5833,
-                  "team2_map_win_rate": 0.44
-                },
-                {
-                  "confidence": 0.8111,
-                  "evidence_maps": 104,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Spirit",
-                  "prob_team1": 0.1889,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4746,
-                  "team2_map_win_rate": 0.6038
-                },
-                {
-                  "confidence": 0.7774,
-                  "evidence_maps": 108,
-                  "map_name": "Mirage",
-                  "predicted_winner": "Spirit",
-                  "prob_team1": 0.2226,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4921,
-                  "team2_map_win_rate": 0.5094
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Spirit",
-            "prob_team1": 0.2282,
-            "round": "Swiss round 1",
-            "starts_at": null,
-            "team1_name": "FURIA",
-            "team2_name": "Spirit",
-            "winner_record_after": "1-0"
-          },
-          {
-            "confidence": 0.599,
-            "confidence_label": "lean",
-            "loser_record_after": "0-1",
-            "map_read": {
-              "base_prob_team1": 0.599,
-              "excluded_maps": {
-                "FUT": [
-                  "Inferno"
-                ],
-                "MOUZ": [
-                  "Anubis"
-                ]
-              },
-              "map_adjusted_confidence": 0.5882,
-              "map_adjusted_predicted_winner": "MOUZ",
-              "map_adjusted_prob_team1": 0.5882,
-              "maps": [
-                {
-                  "confidence": 0.6513,
-                  "evidence_maps": 43,
-                  "map_name": "Overpass",
-                  "predicted_winner": "MOUZ",
-                  "prob_team1": 0.6513,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.6207,
-                  "team2_map_win_rate": 0.5
-                },
-                {
-                  "confidence": 0.5427,
-                  "evidence_maps": 49,
-                  "map_name": "Ancient",
-                  "predicted_winner": "MOUZ",
-                  "prob_team1": 0.5427,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3929,
-                  "team2_map_win_rate": 0.5172
-                },
-                {
-                  "confidence": 0.5706,
-                  "evidence_maps": 81,
-                  "map_name": "Mirage",
-                  "predicted_winner": "MOUZ",
-                  "prob_team1": 0.5706,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4821,
-                  "team2_map_win_rate": 0.5455
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "MOUZ",
-            "prob_team1": 0.599,
-            "round": "Swiss round 1",
-            "starts_at": null,
-            "team1_name": "MOUZ",
-            "team2_name": "FUT",
-            "winner_record_after": "1-0"
+              {
+                "confidence": 0.6065,
+                "predicted_winner": "MOUZ",
+                "prob_team1": 0.6065,
+                "round": "Swiss round 1",
+                "score_label": "2:0",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "MOUZ",
+                "team2_name": "Legacy",
+                "winner_name": "MOUZ"
+              }
+            ],
+            "record": "0-0"
           }
         ],
         "round": 1
       },
       {
-        "matches": [
+        "groups": [
           {
-            "confidence": 0.8109,
-            "confidence_label": "strong",
-            "loser_record_after": "1-1",
-            "map_read": {
-              "base_prob_team1": 0.8109,
-              "excluded_maps": {
-                "9z": [
-                  "Anubis"
-                ],
-                "Vitality": [
-                  "Ancient",
-                  "Anubis"
-                ]
+            "matches": [
+              {
+                "confidence": 0.8109,
+                "predicted_winner": "Vitality",
+                "prob_team1": 0.8109,
+                "round": "Swiss round 2",
+                "score_label": "1:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Vitality",
+                "team2_name": "9z",
+                "winner_name": "9z"
               },
-              "map_adjusted_confidence": 0.8292,
-              "map_adjusted_predicted_winner": "Vitality",
-              "map_adjusted_prob_team1": 0.8292,
-              "maps": [
-                {
-                  "confidence": 0.8987,
-                  "evidence_maps": 58,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Vitality",
-                  "prob_team1": 0.8987,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.75,
-                  "team2_map_win_rate": 0.3571
-                },
-                {
-                  "confidence": 0.7774,
-                  "evidence_maps": 53,
-                  "map_name": "Nuke",
-                  "predicted_winner": "Vitality",
-                  "prob_team1": 0.7774,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5319,
-                  "team2_map_win_rate": 0.6429
-                },
-                {
-                  "confidence": 0.8114,
-                  "evidence_maps": 56,
-                  "map_name": "Inferno",
-                  "predicted_winner": "Vitality",
-                  "prob_team1": 0.8114,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5472,
-                  "team2_map_win_rate": 0.5455
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Vitality",
-            "prob_team1": 0.8109,
-            "round": "Swiss round 2",
-            "starts_at": null,
-            "team1_name": "Vitality",
-            "team2_name": "9z",
-            "winner_record_after": "2-0"
+              {
+                "confidence": 0.6594,
+                "predicted_winner": "Falcons",
+                "prob_team1": 0.6594,
+                "round": "Swiss round 2",
+                "score_label": "0:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Falcons",
+                "team2_name": "BetBoom",
+                "winner_name": "BetBoom"
+              },
+              {
+                "confidence": 0.8007,
+                "predicted_winner": "Spirit",
+                "prob_team1": 0.1993,
+                "round": "Swiss round 2",
+                "score_label": "1:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Aurora",
+                "team2_name": "Spirit",
+                "winner_name": "Spirit"
+              },
+              {
+                "confidence": 0.6119,
+                "predicted_winner": "MOUZ",
+                "prob_team1": 0.3881,
+                "round": "Swiss round 2",
+                "score_label": "2:1",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "FURIA",
+                "team2_name": "MOUZ",
+                "winner_name": "FURIA"
+              }
+            ],
+            "record": "1-0"
           },
           {
-            "confidence": 0.6424,
-            "confidence_label": "lean",
-            "loser_record_after": "1-1",
-            "map_read": {
-              "base_prob_team1": 0.6424,
-              "excluded_maps": {
-                "BetBoom": [
-                  "Inferno",
-                  "Overpass"
-                ],
-                "NAVI": []
+            "matches": [
+              {
+                "confidence": 0.6805,
+                "predicted_winner": "NAVI",
+                "prob_team1": 0.6805,
+                "round": "Swiss round 2",
+                "score_label": "2:0",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "NAVI",
+                "team2_name": "Legacy",
+                "winner_name": "NAVI"
               },
-              "map_adjusted_confidence": 0.654,
-              "map_adjusted_predicted_winner": "NAVI",
-              "map_adjusted_prob_team1": 0.654,
-              "maps": [
-                {
-                  "confidence": 0.6818,
-                  "evidence_maps": 8,
-                  "map_name": "Mirage",
-                  "predicted_winner": "NAVI",
-                  "prob_team1": 0.6818,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.1667
-                },
-                {
-                  "confidence": 0.6323,
-                  "evidence_maps": 8,
-                  "map_name": "Dust2",
-                  "predicted_winner": "NAVI",
-                  "prob_team1": 0.6323,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.5833
-                },
-                {
-                  "confidence": 0.648,
-                  "evidence_maps": 11,
-                  "map_name": "Nuke",
-                  "predicted_winner": "NAVI",
-                  "prob_team1": 0.648,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.4667
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "NAVI",
-            "prob_team1": 0.6424,
-            "round": "Swiss round 2",
-            "starts_at": null,
-            "team1_name": "NAVI",
-            "team2_name": "BetBoom",
-            "winner_record_after": "2-0"
-          },
-          {
-            "confidence": 0.7208,
-            "confidence_label": "watch",
-            "loser_record_after": "1-1",
-            "map_read": {
-              "base_prob_team1": 0.7208,
-              "excluded_maps": {
-                "Falcons": [
-                  "Overpass"
-                ],
-                "G2": [
-                  "Nuke"
-                ]
+              {
+                "confidence": 0.6165,
+                "predicted_winner": "The MongolZ",
+                "prob_team1": 0.6165,
+                "round": "Swiss round 2",
+                "score_label": "2:0",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "The MongolZ",
+                "team2_name": "B8",
+                "winner_name": "The MongolZ"
               },
-              "map_adjusted_confidence": 0.7449,
-              "map_adjusted_predicted_winner": "Falcons",
-              "map_adjusted_prob_team1": 0.7449,
-              "maps": [
-                {
-                  "confidence": 0.7717,
-                  "evidence_maps": 89,
-                  "map_name": "Mirage",
-                  "predicted_winner": "Falcons",
-                  "prob_team1": 0.7717,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5111,
-                  "team2_map_win_rate": 0.3654
-                },
-                {
-                  "confidence": 0.7234,
-                  "evidence_maps": 76,
-                  "map_name": "Inferno",
-                  "predicted_winner": "Falcons",
-                  "prob_team1": 0.7234,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4444,
-                  "team2_map_win_rate": 0.4375
-                },
-                {
-                  "confidence": 0.7395,
-                  "evidence_maps": 93,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Falcons",
-                  "prob_team1": 0.7395,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4651,
-                  "team2_map_win_rate": 0.4138
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Falcons",
-            "prob_team1": 0.7208,
-            "round": "Swiss round 2",
-            "starts_at": null,
-            "team1_name": "Falcons",
-            "team2_name": "G2",
-            "winner_record_after": "2-0"
-          },
-          {
-            "confidence": 0.6821,
-            "confidence_label": "watch",
-            "loser_record_after": "1-1",
-            "map_read": {
-              "base_prob_team1": 0.3179,
-              "excluded_maps": {
-                "MOUZ": [
-                  "Anubis"
-                ],
-                "Spirit": [
-                  "Inferno"
-                ]
+              {
+                "confidence": 0.5301,
+                "predicted_winner": "PARIVISION",
+                "prob_team1": 0.5301,
+                "round": "Swiss round 2",
+                "score_label": "1:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "PARIVISION",
+                "team2_name": "Monte",
+                "winner_name": "Monte"
               },
-              "map_adjusted_confidence": 0.694,
-              "map_adjusted_predicted_winner": "Spirit",
-              "map_adjusted_prob_team1": 0.306,
-              "maps": [
-                {
-                  "confidence": 0.6056,
-                  "evidence_maps": 46,
-                  "map_name": "Overpass",
-                  "predicted_winner": "Spirit",
-                  "prob_team1": 0.3944,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.6207,
-                  "team2_map_win_rate": 0.44
-                },
-                {
-                  "confidence": 0.7835,
-                  "evidence_maps": 57,
-                  "map_name": "Ancient",
-                  "predicted_winner": "Spirit",
-                  "prob_team1": 0.2165,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3929,
-                  "team2_map_win_rate": 0.6757
-                },
-                {
-                  "confidence": 0.6929,
-                  "evidence_maps": 101,
-                  "map_name": "Mirage",
-                  "predicted_winner": "Spirit",
-                  "prob_team1": 0.3071,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4821,
-                  "team2_map_win_rate": 0.5094
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Spirit",
-            "prob_team1": 0.3179,
-            "round": "Swiss round 2",
-            "starts_at": null,
-            "team1_name": "MOUZ",
-            "team2_name": "Spirit",
-            "winner_record_after": "2-0"
-          },
-          {
-            "confidence": 0.5083,
-            "confidence_label": "thin",
-            "loser_record_after": "0-2",
-            "map_read": {
-              "base_prob_team1": 0.4917,
-              "excluded_maps": {
-                "Legacy": [
-                  "Anubis",
-                  "Overpass"
-                ],
-                "The MongolZ": []
-              },
-              "map_adjusted_confidence": 0.5236,
-              "map_adjusted_predicted_winner": "The MongolZ",
-              "map_adjusted_prob_team1": 0.5236,
-              "maps": [
-                {
-                  "confidence": 0.5991,
-                  "evidence_maps": 30,
-                  "map_name": "Ancient",
-                  "predicted_winner": "The MongolZ",
-                  "prob_team1": 0.5991,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.2647
-                },
-                {
-                  "confidence": 0.5199,
-                  "evidence_maps": 36,
-                  "map_name": "Inferno",
-                  "predicted_winner": "Legacy",
-                  "prob_team1": 0.4801,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.525
-                },
-                {
-                  "confidence": 0.5083,
-                  "evidence_maps": 34,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Legacy",
-                  "prob_team1": 0.4917,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.5
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Legacy",
-            "prob_team1": 0.4917,
-            "round": "Swiss round 2",
-            "starts_at": null,
-            "team1_name": "The MongolZ",
-            "team2_name": "Legacy",
-            "winner_record_after": "1-1"
-          },
-          {
-            "confidence": 0.5088,
-            "confidence_label": "thin",
-            "loser_record_after": "0-2",
-            "map_read": {
-              "base_prob_team1": 0.5088,
-              "excluded_maps": {
-                "B8": [
-                  "Anubis"
-                ],
-                "PARIVISION": [
-                  "Nuke"
-                ]
-              },
-              "map_adjusted_confidence": 0.5205,
-              "map_adjusted_predicted_winner": "PARIVISION",
-              "map_adjusted_prob_team1": 0.5205,
-              "maps": [
-                {
-                  "confidence": 0.6085,
-                  "evidence_maps": 71,
-                  "map_name": "Dust2",
-                  "predicted_winner": "PARIVISION",
-                  "prob_team1": 0.6085,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5909,
-                  "team2_map_win_rate": 0.3714
-                },
-                {
-                  "confidence": 0.5428,
-                  "evidence_maps": 71,
-                  "map_name": "Mirage",
-                  "predicted_winner": "B8",
-                  "prob_team1": 0.4572,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3429,
-                  "team2_map_win_rate": 0.4545
-                },
-                {
-                  "confidence": 0.5041,
-                  "evidence_maps": 58,
-                  "map_name": "Ancient",
-                  "predicted_winner": "B8",
-                  "prob_team1": 0.4959,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.5278
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "PARIVISION",
-            "prob_team1": 0.5088,
-            "round": "Swiss round 2",
-            "starts_at": null,
-            "team1_name": "PARIVISION",
-            "team2_name": "B8",
-            "winner_record_after": "1-1"
-          },
-          {
-            "confidence": 0.5984,
-            "confidence_label": "lean",
-            "loser_record_after": "0-2",
-            "map_read": {
-              "base_prob_team1": 0.5984,
-              "excluded_maps": {
-                "Aurora": [
-                  "Ancient"
-                ],
-                "Monte": [
-                  "Anubis",
-                  "Overpass"
-                ]
-              },
-              "map_adjusted_confidence": 0.5787,
-              "map_adjusted_predicted_winner": "Aurora",
-              "map_adjusted_prob_team1": 0.5787,
-              "maps": [
-                {
-                  "confidence": 0.6171,
-                  "evidence_maps": 58,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Aurora",
-                  "prob_team1": 0.6171,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.48,
-                  "team2_map_win_rate": 0.4375
-                },
-                {
-                  "confidence": 0.5294,
-                  "evidence_maps": 38,
-                  "map_name": "Nuke",
-                  "predicted_winner": "Aurora",
-                  "prob_team1": 0.5294,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.2647,
-                  "team2_map_win_rate": 0.4167
-                },
-                {
-                  "confidence": 0.5897,
-                  "evidence_maps": 50,
-                  "map_name": "Mirage",
-                  "predicted_winner": "Aurora",
-                  "prob_team1": 0.5897,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4091,
-                  "team2_map_win_rate": 0.4286
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Aurora",
-            "prob_team1": 0.5984,
-            "round": "Swiss round 2",
-            "starts_at": null,
-            "team1_name": "Aurora",
-            "team2_name": "Monte",
-            "winner_record_after": "1-1"
-          },
-          {
-            "confidence": 0.5135,
-            "confidence_label": "thin",
-            "loser_record_after": "0-2",
-            "map_read": {
-              "base_prob_team1": 0.4865,
-              "excluded_maps": {
-                "FURIA": [
-                  "Ancient",
-                  "Anubis"
-                ],
-                "FUT": [
-                  "Inferno"
-                ]
-              },
-              "map_adjusted_confidence": 0.5033,
-              "map_adjusted_predicted_winner": "FUT",
-              "map_adjusted_prob_team1": 0.4967,
-              "maps": [
-                {
-                  "confidence": 0.5442,
-                  "evidence_maps": 52,
-                  "map_name": "Nuke",
-                  "predicted_winner": "FURIA",
-                  "prob_team1": 0.5442,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.375
-                },
-                {
-                  "confidence": 0.5381,
-                  "evidence_maps": 88,
-                  "map_name": "Mirage",
-                  "predicted_winner": "FUT",
-                  "prob_team1": 0.4619,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4921,
-                  "team2_map_win_rate": 0.5455
-                },
-                {
-                  "confidence": 0.516,
-                  "evidence_maps": 76,
-                  "map_name": "Dust2",
-                  "predicted_winner": "FUT",
-                  "prob_team1": 0.484,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4746,
-                  "team2_map_win_rate": 0.48
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "FUT",
-            "prob_team1": 0.4865,
-            "round": "Swiss round 2",
-            "starts_at": null,
-            "team1_name": "FURIA",
-            "team2_name": "FUT",
-            "winner_record_after": "1-1"
+              {
+                "confidence": 0.5373,
+                "predicted_winner": "FUT",
+                "prob_team1": 0.5373,
+                "round": "Swiss round 2",
+                "score_label": "1:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "FUT",
+                "team2_name": "G2",
+                "winner_name": "G2"
+              }
+            ],
+            "record": "0-1"
           }
         ],
         "round": 2
       },
       {
-        "matches": [
+        "groups": [
           {
-            "confidence": 0.59,
-            "confidence_label": "lean",
-            "loser_record_after": "2-1",
-            "map_read": {
-              "base_prob_team1": 0.59,
-              "excluded_maps": {
-                "Spirit": [
-                  "Inferno"
-                ],
-                "Vitality": [
-                  "Ancient",
-                  "Anubis"
-                ]
+            "matches": [
+              {
+                "confidence": 0.548,
+                "predicted_winner": "BetBoom",
+                "prob_team1": 0.548,
+                "round": "Swiss round 3",
+                "score_label": "0:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "BetBoom",
+                "team2_name": "FURIA",
+                "winner_name": "FURIA"
               },
-              "map_adjusted_confidence": 0.6371,
-              "map_adjusted_predicted_winner": "Vitality",
-              "map_adjusted_prob_team1": 0.6371,
-              "maps": [
-                {
-                  "confidence": 0.6637,
-                  "evidence_maps": 75,
-                  "map_name": "Nuke",
-                  "predicted_winner": "Vitality",
-                  "prob_team1": 0.6637,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5319,
-                  "team2_map_win_rate": 0.3611
-                },
-                {
-                  "confidence": 0.594,
-                  "evidence_maps": 99,
-                  "map_name": "Mirage",
-                  "predicted_winner": "Vitality",
-                  "prob_team1": 0.594,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5185,
-                  "team2_map_win_rate": 0.5094
-                },
-                {
-                  "confidence": 0.6535,
-                  "evidence_maps": 97,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Vitality",
-                  "prob_team1": 0.6535,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.75,
-                  "team2_map_win_rate": 0.6038
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Vitality",
-            "prob_team1": 0.59,
-            "round": "Swiss round 3",
-            "starts_at": null,
-            "team1_name": "Vitality",
-            "team2_name": "Spirit",
-            "winner_record_after": "3-0"
+              {
+                "confidence": 0.7488,
+                "predicted_winner": "Spirit",
+                "prob_team1": 0.7488,
+                "round": "Swiss round 3",
+                "score_label": "2:1",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Spirit",
+                "team2_name": "9z",
+                "winner_name": "Spirit"
+              }
+            ],
+            "record": "2-0"
           },
           {
-            "confidence": 0.5186,
-            "confidence_label": "thin",
-            "loser_record_after": "2-1",
-            "map_read": {
-              "base_prob_team1": 0.4814,
-              "excluded_maps": {
-                "Falcons": [
-                  "Overpass"
-                ],
-                "NAVI": []
+            "matches": [
+              {
+                "confidence": 0.6877,
+                "predicted_winner": "NAVI",
+                "prob_team1": 0.6877,
+                "round": "Swiss round 3",
+                "score_label": "2:1",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "NAVI",
+                "team2_name": "The MongolZ",
+                "winner_name": "NAVI"
               },
-              "map_adjusted_confidence": 0.5232,
-              "map_adjusted_predicted_winner": "Falcons",
-              "map_adjusted_prob_team1": 0.4768,
-              "maps": [
-                {
-                  "confidence": 0.5004,
-                  "evidence_maps": 11,
-                  "map_name": "Anubis",
-                  "predicted_winner": "Falcons",
-                  "prob_team1": 0.4996,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.4
-                },
-                {
-                  "confidence": 0.5454,
-                  "evidence_maps": 39,
-                  "map_name": "Ancient",
-                  "predicted_winner": "Falcons",
-                  "prob_team1": 0.4546,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.5581
-                },
-                {
-                  "confidence": 0.5237,
-                  "evidence_maps": 41,
-                  "map_name": "Mirage",
-                  "predicted_winner": "Falcons",
-                  "prob_team1": 0.4763,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.5111
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Falcons",
-            "prob_team1": 0.4814,
-            "round": "Swiss round 3",
-            "starts_at": null,
-            "team1_name": "NAVI",
-            "team2_name": "Falcons",
-            "winner_record_after": "3-0"
+              {
+                "confidence": 0.806,
+                "predicted_winner": "Falcons",
+                "prob_team1": 0.806,
+                "round": "Swiss round 3",
+                "score_label": "2:1",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Falcons",
+                "team2_name": "Monte",
+                "winner_name": "Falcons"
+              },
+              {
+                "confidence": 0.5192,
+                "predicted_winner": "G2",
+                "prob_team1": 0.4808,
+                "round": "Swiss round 3",
+                "score_label": "2:0",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Aurora",
+                "team2_name": "G2",
+                "winner_name": "Aurora"
+              },
+              {
+                "confidence": 0.7553,
+                "predicted_winner": "Vitality",
+                "prob_team1": 0.7553,
+                "round": "Swiss round 3",
+                "score_label": "2:1",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Vitality",
+                "team2_name": "MOUZ",
+                "winner_name": "Vitality"
+              }
+            ],
+            "record": "1-1"
           },
           {
-            "confidence": 0.6162,
-            "confidence_label": "lean",
-            "loser_record_after": "1-2",
-            "map_read": {
-              "base_prob_team1": 0.3838,
-              "excluded_maps": {
-                "Legacy": [
-                  "Anubis",
-                  "Overpass"
-                ],
-                "PARIVISION": [
-                  "Nuke"
-                ]
+            "matches": [
+              {
+                "confidence": 0.6317,
+                "predicted_winner": "FUT",
+                "prob_team1": 0.3683,
+                "round": "Swiss round 3",
+                "score_label": "1:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "B8",
+                "team2_name": "FUT",
+                "winner_name": "FUT"
               },
-              "map_adjusted_confidence": 0.5866,
-              "map_adjusted_predicted_winner": "Legacy",
-              "map_adjusted_prob_team1": 0.4134,
-              "maps": [
-                {
-                  "confidence": 0.5095,
-                  "evidence_maps": 56,
-                  "map_name": "Ancient",
-                  "predicted_winner": "Legacy",
-                  "prob_team1": 0.4905,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.2647
-                },
-                {
-                  "confidence": 0.6745,
-                  "evidence_maps": 63,
-                  "map_name": "Inferno",
-                  "predicted_winner": "Legacy",
-                  "prob_team1": 0.3255,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3871,
-                  "team2_map_win_rate": 0.525
-                },
-                {
-                  "confidence": 0.5757,
-                  "evidence_maps": 74,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Legacy",
-                  "prob_team1": 0.4243,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5909,
-                  "team2_map_win_rate": 0.5
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Legacy",
-            "prob_team1": 0.3838,
-            "round": "Swiss round 3",
-            "starts_at": null,
-            "team1_name": "PARIVISION",
-            "team2_name": "Legacy",
-            "winner_record_after": "2-1"
-          },
-          {
-            "confidence": 0.5741,
-            "confidence_label": "thin",
-            "loser_record_after": "1-2",
-            "map_read": {
-              "base_prob_team1": 0.4259,
-              "excluded_maps": {
-                "9z": [
-                  "Anubis"
-                ],
-                "Aurora": [
-                  "Ancient"
-                ]
-              },
-              "map_adjusted_confidence": 0.5884,
-              "map_adjusted_predicted_winner": "9z",
-              "map_adjusted_prob_team1": 0.4116,
-              "maps": [
-                {
-                  "confidence": 0.5168,
-                  "evidence_maps": 28,
-                  "map_name": "Overpass",
-                  "predicted_winner": "9z",
-                  "prob_team1": 0.4832,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.375
-                },
-                {
-                  "confidence": 0.7307,
-                  "evidence_maps": 40,
-                  "map_name": "Nuke",
-                  "predicted_winner": "9z",
-                  "prob_team1": 0.2693,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.2647,
-                  "team2_map_win_rate": 0.6429
-                },
-                {
-                  "confidence": 0.5178,
-                  "evidence_maps": 56,
-                  "map_name": "Dust2",
-                  "predicted_winner": "9z",
-                  "prob_team1": 0.4822,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.48,
-                  "team2_map_win_rate": 0.3571
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "9z",
-            "prob_team1": 0.4259,
-            "round": "Swiss round 3",
-            "starts_at": null,
-            "team1_name": "Aurora",
-            "team2_name": "9z",
-            "winner_record_after": "2-1"
-          },
-          {
-            "confidence": 0.5653,
-            "confidence_label": "thin",
-            "loser_record_after": "1-2",
-            "map_read": {
-              "base_prob_team1": 0.5653,
-              "excluded_maps": {
-                "BetBoom": [
-                  "Inferno",
-                  "Overpass"
-                ],
-                "MOUZ": [
-                  "Anubis"
-                ]
-              },
-              "map_adjusted_confidence": 0.556,
-              "map_adjusted_predicted_winner": "MOUZ",
-              "map_adjusted_prob_team1": 0.556,
-              "maps": [
-                {
-                  "confidence": 0.6998,
-                  "evidence_maps": 60,
-                  "map_name": "Mirage",
-                  "predicted_winner": "MOUZ",
-                  "prob_team1": 0.6998,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4821,
-                  "team2_map_win_rate": 0.1667
-                },
-                {
-                  "confidence": 0.5287,
-                  "evidence_maps": 33,
-                  "map_name": "Dust2",
-                  "predicted_winner": "BetBoom",
-                  "prob_team1": 0.4713,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3793,
-                  "team2_map_win_rate": 0.5833
-                },
-                {
-                  "confidence": 0.503,
-                  "evidence_maps": 51,
-                  "map_name": "Nuke",
-                  "predicted_winner": "BetBoom",
-                  "prob_team1": 0.497,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3182,
-                  "team2_map_win_rate": 0.4667
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "MOUZ",
-            "prob_team1": 0.5653,
-            "round": "Swiss round 3",
-            "starts_at": null,
-            "team1_name": "MOUZ",
-            "team2_name": "BetBoom",
-            "winner_record_after": "2-1"
-          },
-          {
-            "confidence": 0.5373,
-            "confidence_label": "thin",
-            "loser_record_after": "1-2",
-            "map_read": {
-              "base_prob_team1": 0.5373,
-              "excluded_maps": {
-                "FUT": [
-                  "Inferno"
-                ],
-                "G2": [
-                  "Nuke"
-                ]
-              },
-              "map_adjusted_confidence": 0.5772,
-              "map_adjusted_predicted_winner": "FUT",
-              "map_adjusted_prob_team1": 0.5772,
-              "maps": [
-                {
-                  "confidence": 0.6183,
-                  "evidence_maps": 77,
-                  "map_name": "Mirage",
-                  "predicted_winner": "FUT",
-                  "prob_team1": 0.6183,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5455,
-                  "team2_map_win_rate": 0.3654
-                },
-                {
-                  "confidence": 0.5458,
-                  "evidence_maps": 19,
-                  "map_name": "Anubis",
-                  "predicted_winner": "FUT",
-                  "prob_team1": 0.5458,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3846,
-                  "team2_map_win_rate": 0.3571
-                },
-                {
-                  "confidence": 0.5675,
-                  "evidence_maps": 75,
-                  "map_name": "Dust2",
-                  "predicted_winner": "FUT",
-                  "prob_team1": 0.5675,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.48,
-                  "team2_map_win_rate": 0.4138
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "FUT",
-            "prob_team1": 0.5373,
-            "round": "Swiss round 3",
-            "starts_at": null,
-            "team1_name": "FUT",
-            "team2_name": "G2",
-            "winner_record_after": "2-1"
-          },
-          {
-            "confidence": 0.6165,
-            "confidence_label": "lean",
-            "loser_record_after": "0-3",
-            "map_read": {
-              "base_prob_team1": 0.6165,
-              "excluded_maps": {
-                "B8": [
-                  "Anubis"
-                ],
-                "The MongolZ": []
-              },
-              "map_adjusted_confidence": 0.6383,
-              "map_adjusted_predicted_winner": "The MongolZ",
-              "map_adjusted_prob_team1": 0.6383,
-              "maps": [
-                {
-                  "confidence": 0.6744,
-                  "evidence_maps": 23,
-                  "map_name": "Inferno",
-                  "predicted_winner": "The MongolZ",
-                  "prob_team1": 0.6744,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.3333
-                },
-                {
-                  "confidence": 0.6043,
-                  "evidence_maps": 32,
-                  "map_name": "Ancient",
-                  "predicted_winner": "The MongolZ",
-                  "prob_team1": 0.6043,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.5278
-                },
-                {
-                  "confidence": 0.6362,
-                  "evidence_maps": 40,
-                  "map_name": "Mirage",
-                  "predicted_winner": "The MongolZ",
-                  "prob_team1": 0.6362,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.4545
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "The MongolZ",
-            "prob_team1": 0.6165,
-            "round": "Swiss round 3",
-            "starts_at": null,
-            "team1_name": "The MongolZ",
-            "team2_name": "B8",
-            "winner_record_after": "1-2"
-          },
-          {
-            "confidence": 0.6391,
-            "confidence_label": "lean",
-            "loser_record_after": "0-3",
-            "map_read": {
-              "base_prob_team1": 0.6391,
-              "excluded_maps": {
-                "FURIA": [
-                  "Ancient",
-                  "Anubis"
-                ],
-                "Monte": [
-                  "Anubis",
-                  "Overpass"
-                ]
-              },
-              "map_adjusted_confidence": 0.6667,
-              "map_adjusted_predicted_winner": "FURIA",
-              "map_adjusted_prob_team1": 0.6667,
-              "maps": [
-                {
-                  "confidence": 0.6796,
-                  "evidence_maps": 56,
-                  "map_name": "Inferno",
-                  "predicted_winner": "FURIA",
-                  "prob_team1": 0.6796,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5263,
-                  "team2_map_win_rate": 0.4286
-                },
-                {
-                  "confidence": 0.6547,
-                  "evidence_maps": 67,
-                  "map_name": "Dust2",
-                  "predicted_winner": "FURIA",
-                  "prob_team1": 0.6547,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4746,
-                  "team2_map_win_rate": 0.4375
-                },
-                {
-                  "confidence": 0.6657,
-                  "evidence_maps": 69,
-                  "map_name": "Mirage",
-                  "predicted_winner": "FURIA",
-                  "prob_team1": 0.6657,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4921,
-                  "team2_map_win_rate": 0.4286
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "FURIA",
-            "prob_team1": 0.6391,
-            "round": "Swiss round 3",
-            "starts_at": null,
-            "team1_name": "FURIA",
-            "team2_name": "Monte",
-            "winner_record_after": "1-2"
+              {
+                "confidence": 0.6162,
+                "predicted_winner": "Legacy",
+                "prob_team1": 0.3838,
+                "round": "Swiss round 3",
+                "score_label": "0:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "PARIVISION",
+                "team2_name": "Legacy",
+                "winner_name": "Legacy"
+              }
+            ],
+            "record": "0-2"
           }
         ],
         "round": 3
       },
       {
-        "matches": [
+        "groups": [
           {
-            "confidence": 0.6805,
-            "confidence_label": "watch",
-            "loser_record_after": "2-2",
-            "map_read": {
-              "base_prob_team1": 0.6805,
-              "excluded_maps": {
-                "Legacy": [
-                  "Anubis",
-                  "Overpass"
-                ],
-                "NAVI": []
+            "matches": [
+              {
+                "confidence": 0.8005,
+                "predicted_winner": "Vitality",
+                "prob_team1": 0.1995,
+                "round": "Swiss round 4",
+                "score_label": "0:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "BetBoom",
+                "team2_name": "Vitality",
+                "winner_name": "Vitality"
               },
-              "map_adjusted_confidence": 0.706,
-              "map_adjusted_predicted_winner": "NAVI",
-              "map_adjusted_prob_team1": 0.706,
-              "maps": [
-                {
-                  "confidence": 0.767,
-                  "evidence_maps": 30,
-                  "map_name": "Ancient",
-                  "predicted_winner": "NAVI",
-                  "prob_team1": 0.767,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.2647
-                },
-                {
-                  "confidence": 0.6704,
-                  "evidence_maps": 36,
-                  "map_name": "Inferno",
-                  "predicted_winner": "NAVI",
-                  "prob_team1": 0.6704,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.525
-                },
-                {
-                  "confidence": 0.6805,
-                  "evidence_maps": 34,
-                  "map_name": "Dust2",
-                  "predicted_winner": "NAVI",
-                  "prob_team1": 0.6805,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.5
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "NAVI",
-            "prob_team1": 0.6805,
-            "round": "Swiss round 4",
-            "starts_at": null,
-            "team1_name": "NAVI",
-            "team2_name": "Legacy",
-            "winner_record_after": "3-1"
+              {
+                "confidence": 0.5741,
+                "predicted_winner": "9z",
+                "prob_team1": 0.4259,
+                "round": "Swiss round 4",
+                "score_label": "2:0",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "Aurora",
+                "team2_name": "9z",
+                "winner_name": "Aurora"
+              },
+              {
+                "confidence": 0.5186,
+                "predicted_winner": "Falcons",
+                "prob_team1": 0.4814,
+                "round": "Swiss round 4",
+                "score_label": "1:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "NAVI",
+                "team2_name": "Falcons",
+                "winner_name": "Falcons"
+              }
+            ],
+            "record": "2-1"
           },
           {
-            "confidence": 0.5815,
-            "confidence_label": "lean",
-            "loser_record_after": "2-2",
-            "map_read": {
-              "base_prob_team1": 0.5815,
-              "excluded_maps": {
-                "9z": [
-                  "Anubis"
-                ],
-                "MOUZ": [
-                  "Anubis"
-                ]
+            "matches": [
+              {
+                "confidence": 0.599,
+                "predicted_winner": "MOUZ",
+                "prob_team1": 0.599,
+                "round": "Swiss round 4",
+                "score_label": "1:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "MOUZ",
+                "team2_name": "FUT",
+                "winner_name": "FUT"
               },
-              "map_adjusted_confidence": 0.5826,
-              "map_adjusted_predicted_winner": "MOUZ",
-              "map_adjusted_prob_team1": 0.5826,
-              "maps": [
-                {
-                  "confidence": 0.6865,
-                  "evidence_maps": 29,
-                  "map_name": "Overpass",
-                  "predicted_winner": "MOUZ",
-                  "prob_team1": 0.6865,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.6207,
-                  "team2_map_win_rate": 0.375
-                },
-                {
-                  "confidence": 0.5675,
-                  "evidence_maps": 50,
-                  "map_name": "Nuke",
-                  "predicted_winner": "9z",
-                  "prob_team1": 0.4325,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3182,
-                  "team2_map_win_rate": 0.6429
-                },
-                {
-                  "confidence": 0.6288,
-                  "evidence_maps": 56,
-                  "map_name": "Mirage",
-                  "predicted_winner": "MOUZ",
-                  "prob_team1": 0.6288,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4821,
-                  "team2_map_win_rate": 0.375
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "MOUZ",
-            "prob_team1": 0.5815,
-            "round": "Swiss round 4",
-            "starts_at": null,
-            "team1_name": "MOUZ",
-            "team2_name": "9z",
-            "winner_record_after": "3-1"
-          },
-          {
-            "confidence": 0.7622,
-            "confidence_label": "strong",
-            "loser_record_after": "2-2",
-            "map_read": {
-              "base_prob_team1": 0.2378,
-              "excluded_maps": {
-                "FUT": [
-                  "Inferno"
-                ],
-                "Spirit": [
-                  "Inferno"
-                ]
+              {
+                "confidence": 0.6365,
+                "predicted_winner": "The MongolZ",
+                "prob_team1": 0.6365,
+                "round": "Swiss round 4",
+                "score_label": "2:1",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "The MongolZ",
+                "team2_name": "Monte",
+                "winner_name": "The MongolZ"
               },
-              "map_adjusted_confidence": 0.7675,
-              "map_adjusted_predicted_winner": "Spirit",
-              "map_adjusted_prob_team1": 0.2325,
-              "maps": [
-                {
-                  "confidence": 0.7415,
-                  "evidence_maps": 39,
-                  "map_name": "Overpass",
-                  "predicted_winner": "Spirit",
-                  "prob_team1": 0.2585,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.44
-                },
-                {
-                  "confidence": 0.8112,
-                  "evidence_maps": 58,
-                  "map_name": "Ancient",
-                  "predicted_winner": "Spirit",
-                  "prob_team1": 0.1888,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5172,
-                  "team2_map_win_rate": 0.6757
-                },
-                {
-                  "confidence": 0.7499,
-                  "evidence_maps": 78,
-                  "map_name": "Mirage",
-                  "predicted_winner": "Spirit",
-                  "prob_team1": 0.2501,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5455,
-                  "team2_map_win_rate": 0.5094
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Spirit",
-            "prob_team1": 0.2378,
-            "round": "Swiss round 4",
-            "starts_at": null,
-            "team1_name": "FUT",
-            "team2_name": "Spirit",
-            "winner_record_after": "3-1"
-          },
-          {
-            "confidence": 0.5507,
-            "confidence_label": "thin",
-            "loser_record_after": "1-3",
-            "map_read": {
-              "base_prob_team1": 0.4493,
-              "excluded_maps": {
-                "BetBoom": [
-                  "Inferno",
-                  "Overpass"
-                ],
-                "The MongolZ": []
-              },
-              "map_adjusted_confidence": 0.5377,
-              "map_adjusted_predicted_winner": "BetBoom",
-              "map_adjusted_prob_team1": 0.4623,
-              "maps": [
-                {
-                  "confidence": 0.5068,
-                  "evidence_maps": 8,
-                  "map_name": "Mirage",
-                  "predicted_winner": "BetBoom",
-                  "prob_team1": 0.4932,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.1667
-                },
-                {
-                  "confidence": 0.5616,
-                  "evidence_maps": 8,
-                  "map_name": "Dust2",
-                  "predicted_winner": "BetBoom",
-                  "prob_team1": 0.4384,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.5833
-                },
-                {
-                  "confidence": 0.5447,
-                  "evidence_maps": 11,
-                  "map_name": "Nuke",
-                  "predicted_winner": "BetBoom",
-                  "prob_team1": 0.4553,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5,
-                  "team2_map_win_rate": 0.4667
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "BetBoom",
-            "prob_team1": 0.4493,
-            "round": "Swiss round 4",
-            "starts_at": null,
-            "team1_name": "The MongolZ",
-            "team2_name": "BetBoom",
-            "winner_record_after": "2-2"
-          },
-          {
-            "confidence": 0.5879,
-            "confidence_label": "lean",
-            "loser_record_after": "1-3",
-            "map_read": {
-              "base_prob_team1": 0.4121,
-              "excluded_maps": {
-                "G2": [
-                  "Nuke"
-                ],
-                "PARIVISION": [
-                  "Nuke"
-                ]
-              },
-              "map_adjusted_confidence": 0.5765,
-              "map_adjusted_predicted_winner": "G2",
-              "map_adjusted_prob_team1": 0.4235,
-              "maps": [
-                {
-                  "confidence": 0.5069,
-                  "evidence_maps": 94,
-                  "map_name": "Dust2",
-                  "predicted_winner": "G2",
-                  "prob_team1": 0.4931,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5909,
-                  "team2_map_win_rate": 0.4138
-                },
-                {
-                  "confidence": 0.6247,
-                  "evidence_maps": 31,
-                  "map_name": "Overpass",
-                  "predicted_winner": "G2",
-                  "prob_team1": 0.3753,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3333,
-                  "team2_map_win_rate": 0.4167
-                },
-                {
-                  "confidence": 0.598,
-                  "evidence_maps": 79,
-                  "map_name": "Mirage",
-                  "predicted_winner": "G2",
-                  "prob_team1": 0.402,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3429,
-                  "team2_map_win_rate": 0.3654
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "G2",
-            "prob_team1": 0.4121,
-            "round": "Swiss round 4",
-            "starts_at": null,
-            "team1_name": "PARIVISION",
-            "team2_name": "G2",
-            "winner_record_after": "2-2"
-          },
-          {
-            "confidence": 0.543,
-            "confidence_label": "thin",
-            "loser_record_after": "1-3",
-            "map_read": {
-              "base_prob_team1": 0.457,
-              "excluded_maps": {
-                "Aurora": [
-                  "Ancient"
-                ],
-                "FURIA": [
-                  "Ancient",
-                  "Anubis"
-                ]
-              },
-              "map_adjusted_confidence": 0.5896,
-              "map_adjusted_predicted_winner": "FURIA",
-              "map_adjusted_prob_team1": 0.4104,
-              "maps": [
-                {
-                  "confidence": 0.5405,
-                  "evidence_maps": 101,
-                  "map_name": "Dust2",
-                  "predicted_winner": "FURIA",
-                  "prob_team1": 0.4595,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.48,
-                  "team2_map_win_rate": 0.4746
-                },
-                {
-                  "confidence": 0.6474,
-                  "evidence_maps": 70,
-                  "map_name": "Nuke",
-                  "predicted_winner": "FURIA",
-                  "prob_team1": 0.3526,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.2647,
-                  "team2_map_win_rate": 0.5
-                },
-                {
-                  "confidence": 0.5808,
-                  "evidence_maps": 99,
-                  "map_name": "Mirage",
-                  "predicted_winner": "FURIA",
-                  "prob_team1": 0.4192,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4091,
-                  "team2_map_win_rate": 0.4921
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "FURIA",
-            "prob_team1": 0.457,
-            "round": "Swiss round 4",
-            "starts_at": null,
-            "team1_name": "Aurora",
-            "team2_name": "FURIA",
-            "winner_record_after": "2-2"
+              {
+                "confidence": 0.5295,
+                "predicted_winner": "Legacy",
+                "prob_team1": 0.4705,
+                "round": "Swiss round 4",
+                "score_label": "2:0",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "G2",
+                "team2_name": "Legacy",
+                "winner_name": "G2"
+              }
+            ],
+            "record": "1-2"
           }
         ],
         "round": 4
       },
       {
-        "matches": [
+        "groups": [
           {
-            "confidence": 0.5056,
-            "confidence_label": "thin",
-            "loser_record_after": "2-3",
-            "map_read": {
-              "base_prob_team1": 0.4944,
-              "excluded_maps": {
-                "FURIA": [
-                  "Ancient",
-                  "Anubis"
-                ],
-                "Legacy": [
-                  "Anubis",
-                  "Overpass"
-                ]
+            "matches": [
+              {
+                "confidence": 0.5342,
+                "predicted_winner": "9z",
+                "prob_team1": 0.5342,
+                "round": "Swiss round 5",
+                "score_label": "2:0",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "9z",
+                "team2_name": "The MongolZ",
+                "winner_name": "9z"
               },
-              "map_adjusted_confidence": 0.5063,
-              "map_adjusted_predicted_winner": "Legacy",
-              "map_adjusted_prob_team1": 0.4937,
-              "maps": [
-                {
-                  "confidence": 0.5036,
-                  "evidence_maps": 91,
-                  "map_name": "Mirage",
-                  "predicted_winner": "FURIA",
-                  "prob_team1": 0.5036,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4921,
-                  "team2_map_win_rate": 0.4722
-                },
-                {
-                  "confidence": 0.5174,
-                  "evidence_maps": 89,
-                  "map_name": "Dust2",
-                  "predicted_winner": "Legacy",
-                  "prob_team1": 0.4826,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4746,
-                  "team2_map_win_rate": 0.5
-                },
-                {
-                  "confidence": 0.505,
-                  "evidence_maps": 89,
-                  "map_name": "Inferno",
-                  "predicted_winner": "Legacy",
-                  "prob_team1": 0.495,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5263,
-                  "team2_map_win_rate": 0.525
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "Legacy",
-            "prob_team1": 0.4944,
-            "round": "Swiss round 5",
-            "starts_at": null,
-            "team1_name": "FURIA",
-            "team2_name": "Legacy",
-            "winner_record_after": "3-2"
-          },
-          {
-            "confidence": 0.5181,
-            "confidence_label": "thin",
-            "loser_record_after": "2-3",
-            "map_read": {
-              "base_prob_team1": 0.4819,
-              "excluded_maps": {
-                "9z": [
-                  "Anubis"
-                ],
-                "FUT": [
-                  "Inferno"
-                ]
+              {
+                "confidence": 0.5347,
+                "predicted_winner": "BetBoom",
+                "prob_team1": 0.5347,
+                "round": "Swiss round 5",
+                "score_label": "2:0",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "BetBoom",
+                "team2_name": "FUT",
+                "winner_name": "BetBoom"
               },
-              "map_adjusted_confidence": 0.5047,
-              "map_adjusted_predicted_winner": "9z",
-              "map_adjusted_prob_team1": 0.4953,
-              "maps": [
-                {
-                  "confidence": 0.5605,
-                  "evidence_maps": 33,
-                  "map_name": "Mirage",
-                  "predicted_winner": "FUT",
-                  "prob_team1": 0.5605,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.5455,
-                  "team2_map_win_rate": 0.375
-                },
-                {
-                  "confidence": 0.6134,
-                  "evidence_maps": 22,
-                  "map_name": "Nuke",
-                  "predicted_winner": "9z",
-                  "prob_team1": 0.3866,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.375,
-                  "team2_map_win_rate": 0.6429
-                },
-                {
-                  "confidence": 0.5387,
-                  "evidence_maps": 31,
-                  "map_name": "Dust2",
-                  "predicted_winner": "FUT",
-                  "prob_team1": 0.5387,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.48,
-                  "team2_map_win_rate": 0.3571
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "9z",
-            "prob_team1": 0.4819,
-            "round": "Swiss round 5",
-            "starts_at": null,
-            "team1_name": "FUT",
-            "team2_name": "9z",
-            "winner_record_after": "3-2"
-          },
-          {
-            "confidence": 0.5715,
-            "confidence_label": "thin",
-            "loser_record_after": "2-3",
-            "map_read": {
-              "base_prob_team1": 0.4285,
-              "excluded_maps": {
-                "BetBoom": [
-                  "Inferno",
-                  "Overpass"
-                ],
-                "G2": [
-                  "Nuke"
-                ]
-              },
-              "map_adjusted_confidence": 0.5864,
-              "map_adjusted_predicted_winner": "BetBoom",
-              "map_adjusted_prob_team1": 0.4136,
-              "maps": [
-                {
-                  "confidence": 0.5199,
-                  "evidence_maps": 56,
-                  "map_name": "Mirage",
-                  "predicted_winner": "G2",
-                  "prob_team1": 0.5199,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3654,
-                  "team2_map_win_rate": 0.1667
-                },
-                {
-                  "confidence": 0.633,
-                  "evidence_maps": 16,
-                  "map_name": "Anubis",
-                  "predicted_winner": "BetBoom",
-                  "prob_team1": 0.367,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.3571,
-                  "team2_map_win_rate": 0.6
-                },
-                {
-                  "confidence": 0.6461,
-                  "evidence_maps": 62,
-                  "map_name": "Dust2",
-                  "predicted_winner": "BetBoom",
-                  "prob_team1": 0.3539,
-                  "source": "projected_veto",
-                  "team1_map_win_rate": 0.4138,
-                  "team2_map_win_rate": 0.5833
-                }
-              ],
-              "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-              "status": "projected_veto"
-            },
-            "predicted_winner": "BetBoom",
-            "prob_team1": 0.4285,
-            "round": "Swiss round 5",
-            "starts_at": null,
-            "team1_name": "G2",
-            "team2_name": "BetBoom",
-            "winner_record_after": "3-2"
+              {
+                "confidence": 0.7056,
+                "predicted_winner": "NAVI",
+                "prob_team1": 0.7056,
+                "round": "Swiss round 5",
+                "score_label": "1:2",
+                "source": "verified_stage3_result",
+                "status": "locked",
+                "team1_name": "NAVI",
+                "team2_name": "G2",
+                "winner_name": "G2"
+              }
+            ],
+            "record": "2-2"
           }
         ],
         "round": 5
@@ -2695,9 +1339,12 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "source_urls": {
       "hltv_stage3": "https://www.hltv.org/events/8301/iem-cologne-major-2026",
-      "liquipedia_stage3": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3"
+      "liquipedia_stage3": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3",
+      "majors_im": "https://majors.im/2026/cologne",
+      "wikipedia_stage3": "https://en.wikipedia.org/wiki/IEM_Cologne_Major_2026#Stage_3"
     },
-    "stage": "IEM Cologne Major 2026 Stage 3"
+    "stage": "IEM Cologne Major 2026 Playoffs",
+    "stage_status": "stage3_complete_playoffs_pending"
   },
   "model": {
     "best_post_veto": {
@@ -6966,9 +5613,9 @@ window.__STRIKESIGNAL_DATA__ = {
     ]
   },
   "notices": [
-    "Post-veto accuracy uses known maps and should not be treated as a pre-veto number.",
-    "Stage 3 projections lock completed results before simulating unresolved matches.",
-    "GitHub Pages serves generated JSON; API secrets stay in scheduled update jobs."
+    "Stage 3 is locked from verified results; the live view now defaults to playoffs.",
+    "Quarterfinal map reads are projected until official vetoes arrive.",
+    "The Apify refresh is manual-only to protect free-plan credits; live Major state uses the public event feed."
   ],
   "product": "CS2 Predictor",
   "team_assets": {
@@ -7100,376 +5747,265 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.8109,
-      "confidence_label": "strong",
+      "confidence": 0.5903,
+      "confidence_label": "lean",
+      "event_name": "Intel Extreme Masters Cologne Major 2026",
       "map_read": {
-        "base_prob_team1": 0.8109,
+        "base_prob_team1": 0.4097,
+        "excluded_maps": {
+          "Aurora": [
+            "Ancient"
+          ],
+          "BetBoom": [
+            "Inferno",
+            "Overpass"
+          ]
+        },
+        "map_adjusted_confidence": 0.5972,
+        "map_adjusted_predicted_winner": "BetBoom",
+        "map_adjusted_prob_team1": 0.4028,
+        "maps": [
+          {
+            "confidence": 0.5208,
+            "evidence_maps": 48,
+            "map_name": "Mirage",
+            "predicted_winner": "Aurora",
+            "prob_team1": 0.5208,
+            "source": "projected_veto",
+            "team1_map_win_rate": 0.4091,
+            "team2_map_win_rate": 0.1667
+          },
+          {
+            "confidence": 0.6767,
+            "evidence_maps": 41,
+            "map_name": "Nuke",
+            "predicted_winner": "BetBoom",
+            "prob_team1": 0.3233,
+            "source": "projected_veto",
+            "team1_map_win_rate": 0.2647,
+            "team2_map_win_rate": 0.4667
+          },
+          {
+            "confidence": 0.6356,
+            "evidence_maps": 54,
+            "map_name": "Dust2",
+            "predicted_winner": "BetBoom",
+            "prob_team1": 0.3644,
+            "source": "projected_veto",
+            "team1_map_win_rate": 0.48,
+            "team2_map_win_rate": 0.5833
+          }
+        ],
+        "note": "Projected maps exclude likely permabans. Official vetoes will replace this read once live map data is available.",
+        "status": "projected_veto"
+      },
+      "predicted_winner": "BetBoom",
+      "prob_team1": 0.4097,
+      "round": "Playoffs quarterfinal",
+      "seed": 1,
+      "source": "official_playoff_bracket",
+      "stage_name": "IEM Cologne Major 2026 Playoffs",
+      "starts_at": "2026-06-18T14:00:00+02:00",
+      "status": "scheduled",
+      "team1_name": "Aurora",
+      "team2_name": "BetBoom"
+    },
+    {
+      "confidence": 0.5315,
+      "confidence_label": "thin",
+      "event_name": "Intel Extreme Masters Cologne Major 2026",
+      "map_read": {
+        "base_prob_team1": 0.5315,
         "excluded_maps": {
           "9z": [
             "Anubis"
+          ],
+          "FURIA": [
+            "Ancient",
+            "Anubis"
+          ]
+        },
+        "map_adjusted_confidence": 0.503,
+        "map_adjusted_predicted_winner": "9z",
+        "map_adjusted_prob_team1": 0.503,
+        "maps": [
+          {
+            "confidence": 0.5964,
+            "evidence_maps": 50,
+            "map_name": "Nuke",
+            "predicted_winner": "9z",
+            "prob_team1": 0.5964,
+            "source": "projected_veto",
+            "team1_map_win_rate": 0.6429,
+            "team2_map_win_rate": 0.5
+          },
+          {
+            "confidence": 0.5645,
+            "evidence_maps": 36,
+            "map_name": "Overpass",
+            "predicted_winner": "FURIA",
+            "prob_team1": 0.4355,
+            "source": "projected_veto",
+            "team1_map_win_rate": 0.375,
+            "team2_map_win_rate": 0.5833
+          },
+          {
+            "confidence": 0.5228,
+            "evidence_maps": 65,
+            "map_name": "Dust2",
+            "predicted_winner": "FURIA",
+            "prob_team1": 0.4772,
+            "source": "projected_veto",
+            "team1_map_win_rate": 0.3571,
+            "team2_map_win_rate": 0.4746
+          }
+        ],
+        "note": "Projected maps exclude likely permabans. Official vetoes will replace this read once live map data is available.",
+        "status": "projected_veto"
+      },
+      "predicted_winner": "9z",
+      "prob_team1": 0.5315,
+      "round": "Playoffs quarterfinal",
+      "seed": 2,
+      "source": "official_playoff_bracket",
+      "stage_name": "IEM Cologne Major 2026 Playoffs",
+      "starts_at": "2026-06-18T17:00:00+02:00",
+      "status": "scheduled",
+      "team1_name": "9z",
+      "team2_name": "FURIA"
+    },
+    {
+      "confidence": 0.7882,
+      "confidence_label": "strong",
+      "event_name": "Intel Extreme Masters Cologne Major 2026",
+      "map_read": {
+        "base_prob_team1": 0.2118,
+        "excluded_maps": {
+          "G2": [
+            "Nuke"
+          ],
+          "Spirit": [
+            "Inferno"
+          ]
+        },
+        "map_adjusted_confidence": 0.8276,
+        "map_adjusted_predicted_winner": "Spirit",
+        "map_adjusted_prob_team1": 0.1724,
+        "maps": [
+          {
+            "confidence": 0.7953,
+            "evidence_maps": 41,
+            "map_name": "Overpass",
+            "predicted_winner": "Spirit",
+            "prob_team1": 0.2047,
+            "source": "projected_veto",
+            "team1_map_win_rate": 0.4167,
+            "team2_map_win_rate": 0.44
+          },
+          {
+            "confidence": 0.8464,
+            "evidence_maps": 70,
+            "map_name": "Ancient",
+            "predicted_winner": "Spirit",
+            "prob_team1": 0.1536,
+            "source": "projected_veto",
+            "team1_map_win_rate": 0.4634,
+            "team2_map_win_rate": 0.6757
+          },
+          {
+            "confidence": 0.841,
+            "evidence_maps": 103,
+            "map_name": "Dust2",
+            "predicted_winner": "Spirit",
+            "prob_team1": 0.159,
+            "source": "projected_veto",
+            "team1_map_win_rate": 0.4138,
+            "team2_map_win_rate": 0.6038
+          }
+        ],
+        "note": "Projected maps exclude likely permabans. Official vetoes will replace this read once live map data is available.",
+        "status": "projected_veto"
+      },
+      "predicted_winner": "Spirit",
+      "prob_team1": 0.2118,
+      "round": "Playoffs quarterfinal",
+      "seed": 3,
+      "source": "official_playoff_bracket",
+      "stage_name": "IEM Cologne Major 2026 Playoffs",
+      "starts_at": "2026-06-19T14:00:00+02:00",
+      "status": "scheduled",
+      "team1_name": "G2",
+      "team2_name": "Spirit"
+    },
+    {
+      "confidence": 0.6746,
+      "confidence_label": "watch",
+      "event_name": "Intel Extreme Masters Cologne Major 2026",
+      "map_read": {
+        "base_prob_team1": 0.3254,
+        "excluded_maps": {
+          "Falcons": [
+            "Overpass"
           ],
           "Vitality": [
             "Ancient",
             "Anubis"
           ]
         },
-        "map_adjusted_confidence": 0.8292,
+        "map_adjusted_confidence": 0.7145,
         "map_adjusted_predicted_winner": "Vitality",
-        "map_adjusted_prob_team1": 0.8292,
+        "map_adjusted_prob_team1": 0.2855,
         "maps": [
           {
-            "confidence": 0.8987,
-            "evidence_maps": 58,
+            "confidence": 0.6776,
+            "evidence_maps": 91,
+            "map_name": "Mirage",
+            "predicted_winner": "Vitality",
+            "prob_team1": 0.3224,
+            "source": "projected_veto",
+            "team1_map_win_rate": 0.5111,
+            "team2_map_win_rate": 0.5185
+          },
+          {
+            "confidence": 0.7784,
+            "evidence_maps": 87,
             "map_name": "Dust2",
             "predicted_winner": "Vitality",
-            "prob_team1": 0.8987,
+            "prob_team1": 0.2216,
             "source": "projected_veto",
-            "team1_map_win_rate": 0.75,
-            "team2_map_win_rate": 0.3571
+            "team1_map_win_rate": 0.4651,
+            "team2_map_win_rate": 0.75
           },
           {
-            "confidence": 0.7774,
-            "evidence_maps": 53,
+            "confidence": 0.6875,
+            "evidence_maps": 83,
             "map_name": "Nuke",
             "predicted_winner": "Vitality",
-            "prob_team1": 0.7774,
+            "prob_team1": 0.3125,
             "source": "projected_veto",
-            "team1_map_win_rate": 0.5319,
-            "team2_map_win_rate": 0.6429
-          },
-          {
-            "confidence": 0.8114,
-            "evidence_maps": 56,
-            "map_name": "Inferno",
-            "predicted_winner": "Vitality",
-            "prob_team1": 0.8114,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.5472,
-            "team2_map_win_rate": 0.5455
+            "team1_map_win_rate": 0.5,
+            "team2_map_win_rate": 0.5319
           }
         ],
-        "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
+        "note": "Projected maps exclude likely permabans. Official vetoes will replace this read once live map data is available.",
         "status": "projected_veto"
       },
       "predicted_winner": "Vitality",
-      "prob_team1": 0.8109,
-      "round": "Stage 3 round 2",
-      "seed": 9,
-      "source": "current_stage3_schedule",
-      "starts_at": null,
-      "status": "scheduled",
-      "team1_name": "Vitality",
-      "team2_name": "9z"
-    },
-    {
-      "confidence": 0.6594,
-      "confidence_label": "watch",
-      "map_read": {
-        "base_prob_team1": 0.6594,
-        "excluded_maps": {
-          "BetBoom": [
-            "Inferno",
-            "Overpass"
-          ],
-          "Falcons": [
-            "Overpass"
-          ]
-        },
-        "map_adjusted_confidence": 0.6886,
-        "map_adjusted_predicted_winner": "Falcons",
-        "map_adjusted_prob_team1": 0.6886,
-        "maps": [
-          {
-            "confidence": 0.7854,
-            "evidence_maps": 49,
-            "map_name": "Mirage",
-            "predicted_winner": "Falcons",
-            "prob_team1": 0.7854,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.5111,
-            "team2_map_win_rate": 0.1667
-          },
-          {
-            "confidence": 0.6072,
-            "evidence_maps": 17,
-            "map_name": "Anubis",
-            "predicted_winner": "Falcons",
-            "prob_team1": 0.6072,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.4,
-            "team2_map_win_rate": 0.6
-          },
-          {
-            "confidence": 0.6731,
-            "evidence_maps": 51,
-            "map_name": "Nuke",
-            "predicted_winner": "Falcons",
-            "prob_team1": 0.6731,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.5,
-            "team2_map_win_rate": 0.4667
-          }
-        ],
-        "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-        "status": "projected_veto"
-      },
-      "predicted_winner": "Falcons",
-      "prob_team1": 0.6594,
-      "round": "Stage 3 round 2",
-      "seed": 10,
-      "source": "current_stage3_schedule",
-      "starts_at": null,
+      "prob_team1": 0.3254,
+      "round": "Playoffs quarterfinal",
+      "seed": 4,
+      "source": "official_playoff_bracket",
+      "stage_name": "IEM Cologne Major 2026 Playoffs",
+      "starts_at": "2026-06-19T17:00:00+02:00",
       "status": "scheduled",
       "team1_name": "Falcons",
-      "team2_name": "BetBoom"
-    },
-    {
-      "confidence": 0.8007,
-      "confidence_label": "strong",
-      "map_read": {
-        "base_prob_team1": 0.1993,
-        "excluded_maps": {
-          "Aurora": [
-            "Ancient"
-          ],
-          "Spirit": [
-            "Inferno"
-          ]
-        },
-        "map_adjusted_confidence": 0.8096,
-        "map_adjusted_predicted_winner": "Spirit",
-        "map_adjusted_prob_team1": 0.1904,
-        "maps": [
-          {
-            "confidence": 0.7653,
-            "evidence_maps": 19,
-            "map_name": "Anubis",
-            "predicted_winner": "Spirit",
-            "prob_team1": 0.2347,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.6667,
-            "team2_map_win_rate": 0.5
-          },
-          {
-            "confidence": 0.8348,
-            "evidence_maps": 95,
-            "map_name": "Dust2",
-            "predicted_winner": "Spirit",
-            "prob_team1": 0.1652,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.48,
-            "team2_map_win_rate": 0.6038
-          },
-          {
-            "confidence": 0.8287,
-            "evidence_maps": 89,
-            "map_name": "Mirage",
-            "predicted_winner": "Spirit",
-            "prob_team1": 0.1713,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.4091,
-            "team2_map_win_rate": 0.5094
-          }
-        ],
-        "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-        "status": "projected_veto"
-      },
-      "predicted_winner": "Spirit",
-      "prob_team1": 0.1993,
-      "round": "Stage 3 round 2",
-      "seed": 11,
-      "source": "current_stage3_schedule",
-      "starts_at": null,
-      "status": "scheduled",
-      "team1_name": "Aurora",
-      "team2_name": "Spirit"
-    },
-    {
-      "confidence": 0.6805,
-      "confidence_label": "watch",
-      "map_read": {
-        "base_prob_team1": 0.6805,
-        "excluded_maps": {
-          "Legacy": [
-            "Anubis",
-            "Overpass"
-          ],
-          "NAVI": []
-        },
-        "map_adjusted_confidence": 0.706,
-        "map_adjusted_predicted_winner": "NAVI",
-        "map_adjusted_prob_team1": 0.706,
-        "maps": [
-          {
-            "confidence": 0.767,
-            "evidence_maps": 30,
-            "map_name": "Ancient",
-            "predicted_winner": "NAVI",
-            "prob_team1": 0.767,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.5,
-            "team2_map_win_rate": 0.2647
-          },
-          {
-            "confidence": 0.6704,
-            "evidence_maps": 36,
-            "map_name": "Inferno",
-            "predicted_winner": "NAVI",
-            "prob_team1": 0.6704,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.5,
-            "team2_map_win_rate": 0.525
-          },
-          {
-            "confidence": 0.6805,
-            "evidence_maps": 34,
-            "map_name": "Dust2",
-            "predicted_winner": "NAVI",
-            "prob_team1": 0.6805,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.5,
-            "team2_map_win_rate": 0.5
-          }
-        ],
-        "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-        "status": "projected_veto"
-      },
-      "predicted_winner": "NAVI",
-      "prob_team1": 0.6805,
-      "round": "Stage 3 round 2",
-      "seed": 13,
-      "source": "current_stage3_schedule",
-      "starts_at": null,
-      "status": "scheduled",
-      "team1_name": "NAVI",
-      "team2_name": "Legacy"
-    },
-    {
-      "confidence": 0.5301,
-      "confidence_label": "thin",
-      "map_read": {
-        "base_prob_team1": 0.5301,
-        "excluded_maps": {
-          "Monte": [
-            "Anubis",
-            "Overpass"
-          ],
-          "PARIVISION": [
-            "Nuke"
-          ]
-        },
-        "map_adjusted_confidence": 0.5486,
-        "map_adjusted_predicted_winner": "PARIVISION",
-        "map_adjusted_prob_team1": 0.5486,
-        "maps": [
-          {
-            "confidence": 0.5997,
-            "evidence_maps": 52,
-            "map_name": "Dust2",
-            "predicted_winner": "PARIVISION",
-            "prob_team1": 0.5997,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.5909,
-            "team2_map_win_rate": 0.4375
-          },
-          {
-            "confidence": 0.5095,
-            "evidence_maps": 41,
-            "map_name": "Mirage",
-            "predicted_winner": "Monte",
-            "prob_team1": 0.4905,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.3429,
-            "team2_map_win_rate": 0.4286
-          },
-          {
-            "confidence": 0.5556,
-            "evidence_maps": 31,
-            "map_name": "Ancient",
-            "predicted_winner": "PARIVISION",
-            "prob_team1": 0.5556,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.5,
-            "team2_map_win_rate": 0.4444
-          }
-        ],
-        "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-        "status": "projected_veto"
-      },
-      "predicted_winner": "PARIVISION",
-      "prob_team1": 0.5301,
-      "round": "Stage 3 round 2",
-      "seed": 15,
-      "source": "current_stage3_schedule",
-      "starts_at": null,
-      "status": "scheduled",
-      "team1_name": "PARIVISION",
-      "team2_name": "Monte"
-    },
-    {
-      "confidence": 0.5373,
-      "confidence_label": "thin",
-      "map_read": {
-        "base_prob_team1": 0.5373,
-        "excluded_maps": {
-          "FUT": [
-            "Inferno"
-          ],
-          "G2": [
-            "Nuke"
-          ]
-        },
-        "map_adjusted_confidence": 0.5772,
-        "map_adjusted_predicted_winner": "FUT",
-        "map_adjusted_prob_team1": 0.5772,
-        "maps": [
-          {
-            "confidence": 0.6183,
-            "evidence_maps": 77,
-            "map_name": "Mirage",
-            "predicted_winner": "FUT",
-            "prob_team1": 0.6183,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.5455,
-            "team2_map_win_rate": 0.3654
-          },
-          {
-            "confidence": 0.5458,
-            "evidence_maps": 19,
-            "map_name": "Anubis",
-            "predicted_winner": "FUT",
-            "prob_team1": 0.5458,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.3846,
-            "team2_map_win_rate": 0.3571
-          },
-          {
-            "confidence": 0.5675,
-            "evidence_maps": 75,
-            "map_name": "Dust2",
-            "predicted_winner": "FUT",
-            "prob_team1": 0.5675,
-            "source": "projected_veto",
-            "team1_map_win_rate": 0.48,
-            "team2_map_win_rate": 0.4138
-          }
-        ],
-        "note": "Known maps are used when HLTV data is available. Projected maps exclude likely permabans.",
-        "status": "projected_veto"
-      },
-      "predicted_winner": "FUT",
-      "prob_team1": 0.5373,
-      "round": "Stage 3 round 2",
-      "seed": 16,
-      "source": "current_stage3_schedule",
-      "starts_at": null,
-      "status": "scheduled",
-      "team1_name": "FUT",
-      "team2_name": "G2"
+      "team2_name": "Vitality"
     }
   ],
   "updater": {
-    "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "status": "live_feed_refresh"
+    "detail": "Stage 3 final records and official quarterfinal bracket were applied after the Swiss stage completed.",
+    "stage3_complete": true,
+    "status": "manual_stage3_lock"
   }
-};
+}
+;
