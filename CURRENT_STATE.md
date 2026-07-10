@@ -33,4 +33,6 @@ Ship StrikeSignal as a populated, universal CS2 prediction product rather than a
 - Mobile at 390px: passed with no horizontal overflow.
 - Browser console: no errors or warnings.
 - Event switching and Cologne archive: passed.
-- Static checks, GitHub push, and production deployment: in progress.
+- Static checks: passed.
+- GitHub `main`: pushed.
+- Vercel production: live at `https://cs2-predictor-ebon.vercel.app`.
