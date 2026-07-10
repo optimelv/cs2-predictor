@@ -1,0 +1,8 @@
+*
+!api/
+!api/**
+!docs/
+!docs/**
+!package.json
+!package-lock.json
+!vercel.json
