@@ -4,10 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="color-scheme" content="dark">
-    <title>StrikeSignal | CS2 Match &amp; Event Predictions</title>
+    <title>StrikeSignal | CS2 Match and Event Forecasts</title>
     <meta
       name="description"
-      content="Live CS2 win probabilities, veto-aware map reads, Pick'Em simulations, and tournament paths for top-level Counter-Strike."
+      content="CS2 match probabilities, veto-aware map forecasts, tournament outlooks, and Valve Regional Standings in one live desk."
     >
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +15,7 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <a class="skip-link" href="#featured">Skip to live predictions</a>
-    <div class="page-signal" aria-hidden="true"></div>
+    <a class="skip-link" href="#dashboard">Skip to predictions</a>
 
     <header class="site-header">
       <a class="brand" href="#top" aria-label="StrikeSignal home">
@@ -24,138 +23,182 @@
         <span><strong>StrikeSignal</strong><small>CS2 probability desk</small></span>
       </a>
       <nav class="top-nav" aria-label="Page sections">
-        <a href="#featured">Live board</a>
+        <a href="#dashboard">Dashboard</a>
         <a href="#matches">Matches</a>
-        <a href="#events">Calendar</a>
+        <a href="#events">Events</a>
+        <a href="#rankings">Rankings</a>
         <a href="#model">Model</a>
       </nav>
-      <a class="header-cta" href="#featured"><span class="live-dot"></span> Open live board</a>
+      <a class="header-cta" href="#matches"><span class="live-dot"></span> Open match desk</a>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-layout">
-          <div class="hero-copy">
-            <span class="hero-kicker">Counter-Strike probability engine</span>
-            <h1 id="hero-title"><span>Read the match.</span><strong>Before it breaks.</strong></h1>
-            <p class="hero-lede">
-              Win probabilities built around the parts of CS2 that decide series: player level, team form, map depth, veto behavior, and the exact matchup in front of you.
-            </p>
-            <div class="hero-actions">
-              <a class="button primary" href="#featured">Explore live predictions</a>
-              <a class="button secondary" href="#model">See how it works</a>
-            </div>
+        <div class="hero-copy">
+          <span class="hero-kicker">Counter-Strike probability, properly contextualized</span>
+          <h1 id="hero-title">Every series.<br><strong>Read in full.</strong></h1>
+          <p class="hero-lede">
+            StrikeSignal turns team strength, player form, map depth, and veto behavior into one clear match forecast. Start before the veto, sharpen the call when maps lock.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#matches">See the next calls</a>
+            <a class="button secondary" href="#events">Browse the circuit</a>
           </div>
-
-          <aside class="hero-instrument" aria-label="How a match probability develops">
-            <div class="instrument-head">
-              <span>Prediction lifecycle</span>
-              <strong>One model, sharper context</strong>
-            </div>
-            <div class="probability-orbit" aria-hidden="true">
-              <span class="orbit-value">67<small>%</small></span>
-              <span class="orbit-ring ring-one"></span>
-              <span class="orbit-ring ring-two"></span>
-            </div>
-            <ol class="model-steps">
-              <li><span>01</span><div><strong>Pre-veto</strong><small>Strength, form, roster</small></div></li>
-              <li><span>02</span><div><strong>Veto read</strong><small>Likely picks and bans</small></div></li>
-              <li class="is-active"><span>03</span><div><strong>Post-veto</strong><small>Map-specific outcome</small></div></li>
-            </ol>
-          </aside>
         </div>
 
-        <div class="capability-rail" aria-label="Model inputs">
-          <span>Player strength</span>
-          <span>Roster continuity</span>
-          <span>Map pool and veto</span>
-          <span>Opponent-adjusted form</span>
+        <aside class="signal-machine" aria-label="StrikeSignal model flow">
+          <header><span>Series read</span><strong>Context compounds</strong></header>
+          <div class="signal-flow" aria-hidden="true">
+            <div class="signal-input input-roster"><span>01</span><strong>Roster</strong><i></i></div>
+            <div class="signal-input input-form"><span>02</span><strong>Form</strong><i></i></div>
+            <div class="signal-input input-maps"><span>03</span><strong>Map pool</strong><i></i></div>
+            <div class="signal-node"><span>MODEL</span><b></b></div>
+            <div class="signal-output"><small>Pre-veto</small><strong>67.2%</strong><span>Post-veto <b>73.9%</b></span></div>
+          </div>
+          <footer><span>Pre-match</span><i></i><span>Veto</span><i></i><span>Series</span></footer>
+        </aside>
+      </section>
+
+      <section id="dashboard" class="desk-strip" aria-label="Current coverage summary">
+        <article><span class="live-dot"></span><div><small>Coverage</small><strong id="freshnessLabel">Loading current slate</strong></div></article>
+        <article><small>Match desk</small><strong id="slateCount">6 verified series</strong></article>
+        <article><small>Official ranking</small><strong id="rankingSnapshot">VRS · Jul 7</strong></article>
+        <article><small>Model modes</small><strong>Pre-veto + map-aware</strong></article>
+      </section>
+
+      <section id="matches" class="section-shell matches-shell" aria-labelledby="matches-title">
+        <div class="section-heading split-heading">
+          <div>
+            <span class="section-index">01 / Match desk</span>
+            <h2 id="matches-title">Next on server.</h2>
+          </div>
+          <p>Verified fixtures for the next 24 hours. Open a series for the map outlook when enough veto and map-pool evidence is available.</p>
         </div>
+        <div id="deciderGrid" class="match-grid"></div>
+      </section>
+
+      <section id="events" class="section-shell events-shell" aria-labelledby="events-title">
+        <div class="section-heading split-heading">
+          <div>
+            <span class="section-index">02 / Event calendar</span>
+            <h2 id="events-title">The circuit ahead.</h2>
+          </div>
+          <p>Ongoing events first, then the ranked international calendar. Select any tournament to open its format, field, contender forecast, and published match slate.</p>
+        </div>
+        <div class="event-filter" role="group" aria-label="Filter events">
+          <button class="is-active" type="button" data-event-filter="active">Active and upcoming</button>
+          <button type="button" data-event-filter="all">All events</button>
+          <span id="eventCount">Loading events</span>
+        </div>
+        <div id="eventsGrid" class="events-grid"></div>
       </section>
 
       <section id="featured" class="section-shell projection-shell" aria-labelledby="projection-title">
-        <div class="section-heading event-heading">
-          <span class="section-eyebrow"><span class="live-dot"></span> <span id="eventPhaseLabel">IEM Cologne 2026 / Stage 3</span> <b id="freshnessLabel">Loading live state</b></span>
-          <h2 id="projection-title">Every route through Cologne.</h2>
-          <p>Change any unresolved result and the full Swiss path, Pick'Em probability, and projected playoff bracket recalculate around your call.</p>
+        <div class="section-heading event-heading split-heading">
+          <div>
+            <span class="section-index"><span class="live-dot"></span> <span id="eventPhaseLabel">Event room</span></span>
+            <h2 id="projection-title">Tournament outlook.</h2>
+          </div>
+          <p id="projection-intro">Open a tournament to see the field through the format it will actually play.</p>
+        </div>
+
+        <div class="event-selector-bar">
+          <div>
+            <span class="micro-label">Selected event</span>
+            <strong id="selected-event-name">Loading event coverage</strong>
+            <span id="selected-event-meta">Current schedule and model state</span>
+          </div>
+          <label class="event-select-label" for="eventSelector">
+            <span>Switch event</span>
+            <select id="eventSelector" aria-label="Choose an event"></select>
+          </label>
         </div>
 
         <div class="pickem-header" aria-live="polite">
           <div>
-            <span class="micro-label">Current Pick'Em</span>
-            <h3>The model's most likely card.</h3>
-            <p id="pickemSummary">Using the model's most likely outcome.</p>
+            <span class="micro-label">Field forecast</span>
+            <h3>Current title picture.</h3>
+            <p id="pickemSummary">Calculating from the confirmed field and current team strength.</p>
           </div>
-          <div class="pickem-score"><span>Chance of 5+ correct</span><strong id="pickemChance">--</strong></div>
+          <div class="pickem-score"><span>Model favorite</span><strong id="pickemChance">--</strong></div>
           <button id="resetPicks" class="ghost-action" type="button">Reset custom picks</button>
         </div>
 
         <div class="route-panel">
           <div class="route-header">
             <div>
-              <span class="micro-label">Interactive tournament path</span>
-              <h3 id="boardStageTitle">Stage 3, round by round.</h3>
+              <span class="micro-label">Format-aware forecast</span>
+              <h3 id="boardStageTitle">Choose a covered event.</h3>
             </div>
             <div class="route-copy">
-              <p>Completed matches are fixed. Blue probabilities are projected. Select either logo in an unresolved match to rewrite the route.</p>
-              <nav class="board-jump-nav" aria-label="Major board views">
-                <button id="currentStageTab" class="board-jump is-active" type="button" data-board-jump="stage3">Stage 3</button>
+              <p id="routeIntro">Published fixtures are shown first. Early forecasts use the confirmed field and current ranking strength.</p>
+              <nav class="board-jump-nav" aria-label="Event board views">
+                <button id="currentStageTab" class="board-jump is-active" type="button" data-board-jump="stage3">Event outlook</button>
                 <button class="board-jump" type="button" data-board-jump="playoffs">Projected playoffs</button>
               </nav>
             </div>
           </div>
-          <div id="swissBoard" class="swiss-board" aria-label="Major Swiss projection board"></div>
+          <div id="swissBoard" class="swiss-board" aria-label="Selected tournament forecast"></div>
           <div id="playoffPanel" class="playoff-panel" hidden></div>
         </div>
       </section>
 
-      <section id="matches" class="section-shell" aria-labelledby="deciders-title">
-        <div class="section-heading">
+      <section id="rankings" class="section-shell rankings-shell" aria-labelledby="rankings-title">
+        <div class="section-heading split-heading">
           <div>
-            <h2 id="deciders-title">Upcoming calls.</h2>
+            <span class="section-index">03 / Global order</span>
+            <h2 id="rankings-title">VRS, with movement.</h2>
           </div>
-          <p>Open a series for likely maps, veto exclusions, and the probability shift once official picks arrive.</p>
+          <p>Valve's official order stays untouched. The movement column adds a separate form-adjusted estimate for the next update, never a replacement for the published ranking.</p>
         </div>
-        <div id="deciderGrid" class="match-grid"></div>
-      </section>
-
-      <section id="events" class="section-shell" aria-labelledby="events-title">
-        <div class="section-heading">
-          <div>
-            <h2 id="events-title">Next on the circuit.</h2>
-          </div>
-          <p>Verified schedules move into the model with current rosters, rankings, form, and map context.</p>
+        <div class="ranking-summary-bar">
+          <div><span>Official source</span><strong id="rankingsSource">Loading VRS</strong></div>
+          <div><span>Snapshot</span><strong id="rankingsUpdated">--</strong></div>
+          <div><span>Teams shown</span><strong>Global top 30</strong></div>
+          <a id="rankingsSourceLink" href="https://www.hltv.org/valve-ranking/teams/2026/july/7" target="_blank" rel="noreferrer">View official ranking</a>
         </div>
-        <div id="eventsGrid" class="events-grid"></div>
+        <div id="rankingsGrid" class="rankings-table" role="table" aria-label="Valve global ranking and StrikeSignal movement forecast"></div>
       </section>
 
       <section id="model" class="section-shell model-shell" aria-labelledby="model-title">
-        <div class="section-heading">
+        <div class="section-heading split-heading">
           <div>
-            <h2 id="model-title">Two reads. One moving probability.</h2>
+            <span class="section-index">04 / The read</span>
+            <h2 id="model-title">One series, two moments.</h2>
           </div>
-          <p>The model changes modes instead of pretending a pre-veto guess and an official three-map series are the same problem.</p>
+          <p>A match before the veto and the same match after official map picks are different prediction problems. StrikeSignal treats them that way.</p>
         </div>
         <div class="model-evidence">
-          <div class="model-metrics">
-            <article><span>Before veto</span><strong id="modelPre">--</strong><p>Team power, roster level, form, ranking strength, and matchup history.</p></article>
-            <article><span>After veto</span><strong id="modelPost">--</strong><p>Official picks, map depth, permabans, order, evidence, and series format.</p></article>
-          </div>
+          <article class="model-mode">
+            <span>Before veto</span><strong id="modelPre">--</strong>
+            <h3>Who is stronger today?</h3>
+            <p>Team power, player level, roster continuity, recent form, opponent quality, event tier, and series format.</p>
+          </article>
+          <article class="model-mode is-map-aware">
+            <span>After veto</span><strong id="modelPost">--</strong>
+            <h3>Who is stronger on these maps?</h3>
+            <p>Official picks and bans, permabans, map order, side tendencies, map-specific evidence, and the remaining matchup.</p>
+          </article>
+          <aside class="model-note">
+            <span>Calibration rule</span>
+            <p>No 100% calls. Sparse teams, roster changes, and uncertain maps pull forecasts toward the middle instead of producing false certainty.</p>
+          </aside>
         </div>
       </section>
-
     </main>
 
     <footer class="site-footer">
-      <div><strong>StrikeSignal</strong><span>Live CS2 match and event probabilities.</span></div>
+      <div><strong>StrikeSignal</strong><span>CS2 match, map, tournament, and ranking forecasts.</span></div>
+      <div class="footer-status"><span class="live-dot"></span><span>Verified fallback always on</span></div>
       <a href="#top">Back to top</a>
     </footer>
 
     <template id="emptyTemplate">
-      <div class="empty-state"><h3>Nothing to show yet.</h3><p>The next verified prediction will appear here.</p></div>
+      <div class="empty-state"><h3>Coverage is being verified.</h3><p>The last confirmed snapshot remains available while the next slate is checked.</p></div>
     </template>
 
     <script src="./data/predictions.js"></script>
+    <script src="./data/coverage.js"></script>
     <script src="./app.js" type="module"></script>
   </body>
 </html>

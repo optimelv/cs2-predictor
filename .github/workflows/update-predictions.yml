@@ -67,8 +67,9 @@ jobs:
       - name: Commit refreshed data
         if: env.refresh == 'true'
         run: |
+          node -e "const fs=require('fs'); const data=fs.readFileSync('docs/data/coverage.json','utf8'); fs.writeFileSync('docs/data/coverage.js','window.__STRIKESIGNAL_COVERAGE__ = '+data+';\\n');"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/predictions.json docs/data/predictions.js
+          git add docs/data/predictions.json docs/data/predictions.js docs/data/coverage.json docs/data/coverage.js
           git diff --cached --quiet || git commit -m "Refresh predictor site data"
           git push

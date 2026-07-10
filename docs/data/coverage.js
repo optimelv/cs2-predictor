@@ -1,0 +1,377 @@
+window.__STRIKESIGNAL_COVERAGE__ = {
+  "contract_version": "2026-07-10",
+  "last_verified_utc": "2026-07-10T08:00:00Z",
+  "sources": [
+    {
+      "name": "HLTV events calendar",
+      "url": "https://www.hltv.org/events",
+      "role": "schedule"
+    },
+    {
+      "name": "HLTV Valve global ranking",
+      "url": "https://www.hltv.org/valve-ranking/teams/2026/july/7",
+      "role": "official_vrs"
+    },
+    {
+      "name": "ValveSoftware regional standings repository",
+      "url": "https://github.com/ValveSoftware/counter-strike_regional_standings/tree/main/live",
+      "role": "vrs_method_and_archive"
+    },
+    {
+      "name": "Liquipedia Counter-Strike tournament pages",
+      "url": "https://liquipedia.net/counterstrike/Main_Page",
+      "role": "format_cross_check"
+    }
+  ],
+  "daily_matches": [
+    {
+      "event_id": "thunderpick-sa-s2-2026",
+      "event_name": "Thunderpick World Championship SA Series 2",
+      "stage_name": "Group B decider",
+      "starts_at": "2026-07-10T23:00:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "Yawara",
+      "team2_name": "MIBR Academy",
+      "status": "scheduled",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "circuit-x-porto-na-2026",
+      "event_name": "Circuit X BLAST Open Porto NA Rising",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-07-11T00:30:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "M80",
+      "team2_name": "LAG",
+      "status": "scheduled",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "ggmedia-challenger-1-2026",
+      "event_name": "GGMEDIA Challenger Series 1",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-07-11T08:30:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "The Huns",
+      "team2_name": "TYLOO",
+      "status": "scheduled",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "xse-pro-league-2026",
+      "event_name": "XSE Pro League 2026",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-07-11T10:00:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "9z",
+      "team2_name": "Alliance",
+      "status": "scheduled",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "xse-pro-league-2026",
+      "event_name": "XSE Pro League 2026",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-07-11T13:00:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "PARIVISION",
+      "team2_name": "FaZe",
+      "status": "scheduled",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "res-showdown-eu-2026",
+      "event_name": "RES Showdown 4 Europe",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-07-11T20:00:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "Virtus.pro",
+      "team2_name": "Inner Circle",
+      "status": "scheduled",
+      "source_url": "https://www.hltv.org/matches"
+    }
+  ],
+  "events": [
+    {
+      "id": "iem-cologne-major-2026",
+      "name": "IEM Cologne Major 2026",
+      "status": "finished",
+      "start_date": "2026-06-02",
+      "end_date": "2026-06-21",
+      "location": "Cologne, Germany",
+      "event_type": "LAN",
+      "tier": "Major",
+      "teams": 32,
+      "archive": true,
+      "format": {
+        "type": "swiss",
+        "label": "Three-stage Swiss + playoffs",
+        "confidence": "format_confirmed"
+      },
+      "source_url": "https://www.hltv.org/events"
+    },
+    {
+      "id": "xse-pro-league-2026",
+      "name": "XSE Pro League 2026",
+      "status": "ongoing",
+      "start_date": "2026-07-01",
+      "end_date": "2026-07-12",
+      "location": "Guangzhou, China",
+      "event_type": "LAN",
+      "tier": "A-Tier",
+      "teams": 16,
+      "current_stage": "Semifinals",
+      "participants": ["9z", "Alliance", "PARIVISION", "FaZe"],
+      "map_pool": ["Cache", "Dust2", "Mirage", "Inferno", "Nuke", "Ancient", "Anubis"],
+      "format": {
+        "type": "mixed",
+        "label": "Group stage + playoffs",
+        "confidence": "format_confirmed"
+      },
+      "source_url": "https://www.hltv.org/events",
+      "matches": [
+        {"stage_name":"Semifinal","starts_at":"2026-07-11T10:00:00+02:00","series_format":"bo3","team1_name":"9z","team2_name":"Alliance","status":"scheduled"},
+        {"stage_name":"Semifinal","starts_at":"2026-07-11T13:00:00+02:00","series_format":"bo3","team1_name":"PARIVISION","team2_name":"FaZe","status":"scheduled"}
+      ]
+    },
+    {
+      "id": "epl-series-8-2026",
+      "name": "European Pro League Series 8",
+      "status": "ongoing",
+      "start_date": "2026-07-06",
+      "end_date": "2026-07-24",
+      "location": "Europe, Online",
+      "event_type": "Online",
+      "tier": "C-Tier",
+      "teams": null,
+      "format": {
+        "type": "mixed",
+        "label": "League / bracket stages",
+        "confidence": "schedule_confirmed_format_detail_pending"
+      },
+      "source_url": "https://www.hltv.org/events"
+    },
+    {
+      "id": "blast-bounty-s2-europe-2026",
+      "name": "BLAST Bounty 2026 Season 2 Europe",
+      "status": "upcoming",
+      "start_date": "2026-07-21",
+      "end_date": "2026-07-26",
+      "location": "Europe, Online",
+      "event_type": "Online",
+      "tier": "A-Tier",
+      "teams": 32,
+      "participants": ["Falcons", "Vitality", "Spirit", "FURIA", "Aurora", "G2", "MOUZ", "The MongolZ", "FUT", "GamerLegion", "Astralis", "magic", "paiN", "FaZe", "Liquid", "M80", "Ninjas in Pyjamas", "Alliance", "3DMAX", "EYEBALLERS", "HEROIC", "Sharks", "Nemesis", "Gentle Mates", "Wildcard", "SINNERS", "FOKUS", "Nuclear TigeRES", "HOTU", "100 Thieves", "OG", "Nemiga"],
+      "map_pool": ["Cache", "Dust2", "Mirage", "Inferno", "Nuke", "Ancient", "Anubis"],
+      "format": {
+        "type": "single_elimination",
+        "label": "32-team single elimination, best of three",
+        "confidence": "format_confirmed"
+      },
+      "source_url": "https://www.hltv.org/events/9154/blast-bounty-2026-season-2"
+    },
+    {
+      "id": "blast-bounty-s2-finals-2026",
+      "name": "BLAST Bounty 2026 Season 2 Finals",
+      "status": "upcoming",
+      "start_date": "2026-07-30",
+      "end_date": "2026-08-02",
+      "location": "Malta",
+      "event_type": "LAN",
+      "tier": "S-Tier",
+      "teams": 8,
+      "format": {
+        "type": "single_elimination",
+        "label": "Single elimination",
+        "confidence": "format_confirmed"
+      },
+      "source_url": "https://www.hltv.org/events"
+    },
+    {
+      "id": "esports-world-cup-2026",
+      "name": "Esports World Cup 2026",
+      "status": "upcoming",
+      "start_date": "2026-08-12",
+      "end_date": "2026-08-23",
+      "location": "Paris, France",
+      "event_type": "LAN",
+      "tier": "S-Tier",
+      "teams": 32,
+      "prize_pool": "$2,000,000",
+      "format": {
+        "type": "mixed",
+        "label": "Opening stage + playoffs",
+        "confidence": "schedule_confirmed_format_detail_pending"
+      },
+      "source_url": "https://www.hltv.org/events"
+    },
+    {
+      "id": "blast-open-porto-2026",
+      "name": "BLAST Open Porto 2026",
+      "status": "upcoming",
+      "start_date": "2026-08-24",
+      "end_date": "2026-09-06",
+      "location": "Copenhagen / Porto",
+      "event_type": "LAN",
+      "tier": "S-Tier",
+      "teams": 16,
+      "prize_pool": "$1,100,000",
+      "format": {
+        "type": "mixed",
+        "label": "Group stage + playoffs",
+        "confidence": "schedule_confirmed_format_detail_pending"
+      },
+      "source_url": "https://www.hltv.org/events"
+    },
+    {
+      "id": "fissure-playground-5-2026",
+      "name": "FISSURE Playground 5",
+      "status": "upcoming",
+      "start_date": "2026-09-07",
+      "end_date": "2026-09-13",
+      "location": "Shenzhen, China",
+      "event_type": "LAN",
+      "tier": "S-Tier",
+      "teams": 16,
+      "prize_pool": "$1,000,000",
+      "format": {
+        "type": "mixed",
+        "label": "Group stage + playoffs",
+        "confidence": "schedule_confirmed_format_detail_pending"
+      },
+      "source_url": "https://www.hltv.org/events"
+    },
+    {
+      "id": "esl-pro-league-24-2026",
+      "name": "ESL Pro League Season 24",
+      "status": "upcoming",
+      "start_date": "2026-10-03",
+      "end_date": "2026-10-11",
+      "location": "Katowice, Poland",
+      "event_type": "LAN",
+      "tier": "S-Tier",
+      "teams": 16,
+      "prize_pool": "$1,000,000",
+      "format": {
+        "type": "mixed",
+        "label": "Group stage + playoffs",
+        "confidence": "schedule_confirmed_format_detail_pending"
+      },
+      "source_url": "https://www.hltv.org/events"
+    },
+    {
+      "id": "pgl-masters-bucharest-2026",
+      "name": "PGL Masters Bucharest 2026",
+      "status": "upcoming",
+      "start_date": "2026-10-24",
+      "end_date": "2026-10-31",
+      "location": "Bucharest, Romania",
+      "event_type": "LAN",
+      "tier": "S-Tier",
+      "teams": 16,
+      "prize_pool": "$1,250,000",
+      "format": {
+        "type": "mixed",
+        "label": "Stage structure to be confirmed",
+        "confidence": "schedule_confirmed_format_pending"
+      },
+      "source_url": "https://www.hltv.org/events"
+    },
+    {
+      "id": "iem-beijing-2026",
+      "name": "IEM Beijing 2026",
+      "status": "upcoming",
+      "start_date": "2026-11-02",
+      "end_date": "2026-11-08",
+      "location": "Beijing, China",
+      "event_type": "LAN",
+      "tier": "S-Tier",
+      "teams": 16,
+      "prize_pool": "$1,250,000",
+      "format": {
+        "type": "gsl",
+        "label": "GSL groups + playoffs",
+        "confidence": "format_family_inferred"
+      },
+      "source_url": "https://www.hltv.org/events"
+    },
+    {
+      "id": "blast-rivals-s2-2026",
+      "name": "BLAST Rivals 2026 Season 2",
+      "status": "upcoming",
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-15",
+      "location": "Chek Lap Kok, Hong Kong",
+      "event_type": "LAN",
+      "tier": "S-Tier",
+      "teams": 8,
+      "prize_pool": "$1,000,000",
+      "format": {
+        "type": "gsl",
+        "label": "GSL group stage + playoffs",
+        "confidence": "format_family_inferred"
+      },
+      "source_url": "https://www.hltv.org/events"
+    },
+    {
+      "id": "pgl-singapore-major-2026",
+      "name": "PGL Singapore Major 2026",
+      "status": "upcoming",
+      "start_date": "2026-11-24",
+      "end_date": "2026-12-13",
+      "location": "Singapore",
+      "event_type": "LAN",
+      "tier": "Major",
+      "teams": 32,
+      "prize_pool": "$1,250,000",
+      "format": {
+        "type": "swiss",
+        "label": "Three-stage Swiss + playoffs",
+        "confidence": "format_confirmed"
+      },
+      "source_url": "https://www.hltv.org/events"
+    }
+  ],
+  "default_event_id": "xse-pro-league-2026",
+  "vrs": {
+    "source": "Valve Regional Standings",
+    "scope": "global",
+    "as_of": "2026-07-07",
+    "status": "official_snapshot",
+    "source_url": "https://www.hltv.org/valve-ranking/teams/2026/july/7",
+    "method_note": "Valve ranking points and ranks are official as of the source date. StrikeSignal projections below are not official Valve standings.",
+    "teams": [
+      {"rank":1,"team_name":"Spirit","points":2014,"region":"EU","players":["sh1ro","magixx","tN1R","zont1x","donk"]},
+      {"rank":2,"team_name":"Falcons","points":2003,"region":"EU","players":["karrigan","NiKo","TeSeS","m0NESY","kyousuke"]},
+      {"rank":3,"team_name":"Vitality","points":1927,"region":"EU","players":["apEX","ropz","ZywOo","flameZ","mezii"]},
+      {"rank":4,"team_name":"NAVI","points":1857,"region":"EU","players":["Aleksib","iM","b1t","w0nderful","makazze"]},
+      {"rank":5,"team_name":"FURIA","points":1823,"region":"AM","players":["FalleN","yuurih","YEKINDAR","KSCERATO","molodoy"]},
+      {"rank":6,"team_name":"Legacy","points":1788,"region":"AM","players":["arT","dumau","latto","n1ssim","saadzin"]},
+      {"rank":7,"team_name":"MOUZ","points":1782,"region":"EU","players":["torzsi","Spinx","jL","xertioN","xelex"]},
+      {"rank":8,"team_name":"BetBoom","points":1770,"region":"EU","players":["Boombl4","zorte","d1Ledez","FL4MUS","Magnojez"]},
+      {"rank":9,"team_name":"Aurora","points":1751,"region":"EU","players":["MAJ3R","XANTARES","woxic","soulfly","Wicadia"]},
+      {"rank":10,"team_name":"G2","points":1740,"region":"EU","players":["huNter-","NertZ","SunPayus","HeavyGod","MATYS"]},
+      {"rank":11,"team_name":"FUT","points":1718,"region":"EU","players":["dem0n","lauNX","Krabeni","cmtry","dziugss"]},
+      {"rank":12,"team_name":"9z","points":1710,"region":"AM","players":["max","dgt","meyern","luchov","HUASOPEEK"]},
+      {"rank":13,"team_name":"The MongolZ","points":1672,"region":"AS","players":["bLitz","Techno","mzinho","910","cobrazera"]},
+      {"rank":14,"team_name":"PARIVISION","points":1612,"region":"EU","players":["Jame","BELCHONOKK","xiELO","nota","zweih"]},
+      {"rank":15,"team_name":"MIBR","points":1596,"region":"AM","players":["LNZ","nqz","brnz4n","insani","venomzera"]},
+      {"rank":16,"team_name":"Astralis","points":1573,"region":"EU","players":["HooXi","phzy","jabbi","Staehr","ryu"]},
+      {"rank":17,"team_name":"B8","points":1572,"region":"EU","players":["alex666","npl","kensizor","esenthial","s1zzi"]},
+      {"rank":18,"team_name":"TYLOO","points":1559,"region":"AS","players":["JamYoung","Jee","Mercury","Moseyuh","Zero"]},
+      {"rank":19,"team_name":"GamerLegion","points":1554,"region":"EU","players":["Snax","REZ","Tauson","PR","hypex"]},
+      {"rank":20,"team_name":"FaZe","points":1513,"region":"EU","players":["frozen","Twistzz","Neityu","jcobbb","JBOEN"]},
+      {"rank":21,"team_name":"Alliance","points":1503,"region":"EU","players":["twist","eraa","bobeksde","upE","avid"]},
+      {"rank":22,"team_name":"BIG","points":1499,"region":"EU","players":["tabseN","JDC","faveN","blameF","gr1ks"]},
+      {"rank":23,"team_name":"Luminosity","points":1494,"region":"EU","players":["Rainwaker","Bymas","afro","Gizmy","AZUWU"]},
+      {"rank":24,"team_name":"magic","points":1475,"region":"EU","players":["MaSvAl","sFade8","AW","mo0N","tenzy"]},
+      {"rank":25,"team_name":"paiN","points":1472,"region":"AM","players":["vsm","biguzera","piriajr","saffee","snow"]},
+      {"rank":26,"team_name":"Lynn Vision","points":1408,"region":"AS","players":["Westmelon","z4KR","Starry","EmiliaQAQ","C4LLM3SU3"]},
+      {"rank":27,"team_name":"M80","points":1407,"region":"AM","players":["slaxz-","Swisher","s1n","JBa","Lake"]},
+      {"rank":28,"team_name":"Nemesis","points":1405,"region":"EU","players":["SELLTER","r3salt","mag1k3Y","tex1y","Sdaim"]},
+      {"rank":29,"team_name":"Ninjas in Pyjamas","points":1396,"region":"EU","players":["Snappi","stavn","sjuush","xKacpersky","cairne"]},
+      {"rank":30,"team_name":"Inner Circle","points":1389,"region":"EU","players":["cptkurtka023","headtr1ck","zeRRoFIX","onic","Dawy"]}
+    ]
+  }
+}
+;

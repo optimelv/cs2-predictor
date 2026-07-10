@@ -1,13 +1,20 @@
 const DATA_URL = "./data/predictions.json";
+const SUPPLEMENTAL_TEAM_ASSETS = {
+  faze: { logo_url: "https://img-cdn.hltv.org/teamlogo/OKLwq88GXjl5GQ48Y5SrvW.png?ixlib=java-2.1.0&s=0a0d65eeb1b0e82ada20c42c038552fa&w=50" },
+  alliance: { logo_url: "https://img-cdn.hltv.org/teamlogo/xsWK0BtR26rN776qdnWFC1.png?ixlib=java-2.1.0&s=4aaf659c3855ebf08c78c157a0653352&w=50" },
+};
 
 const els = {
   freshnessLabel: document.querySelector("#freshnessLabel"),
   swissBoard: document.querySelector("#swissBoard"),
   playoffPanel: document.querySelector("#playoffPanel"),
   projectionTitle: document.querySelector("#projection-title"),
-  projectionIntro: document.querySelector(".event-heading p"),
+  projectionIntro: document.querySelector("#projection-intro"),
   eventEyebrow: document.querySelector(".section-eyebrow"),
   eventPhaseLabel: document.querySelector("#eventPhaseLabel"),
+  eventSelector: document.querySelector("#eventSelector"),
+  selectedEventName: document.querySelector("#selected-event-name"),
+  selectedEventMeta: document.querySelector("#selected-event-meta"),
   pickemLabel: document.querySelector(".pickem-header .micro-label"),
   pickemTitle: document.querySelector(".pickem-header h3"),
   pickemScoreLabel: document.querySelector(".pickem-score span"),
@@ -23,6 +30,14 @@ const els = {
   deciderGrid: document.querySelector("#deciderGrid"),
   modelPre: document.querySelector("#modelPre"),
   modelPost: document.querySelector("#modelPost"),
+  rankingsGrid: document.querySelector("#rankingsGrid"),
+  rankingsSource: document.querySelector("#rankingsSource"),
+  rankingsUpdated: document.querySelector("#rankingsUpdated"),
+  rankingsSourceLink: document.querySelector("#rankingsSourceLink"),
+  slateCount: document.querySelector("#slateCount"),
+  rankingSnapshot: document.querySelector("#rankingSnapshot"),
+  eventCount: document.querySelector("#eventCount"),
+  eventFilterButtons: document.querySelectorAll("[data-event-filter]"),
   emptyTemplate: document.querySelector("#emptyTemplate"),
 };
 
@@ -30,6 +45,9 @@ let teamAssets = {};
 let appData = null;
 let currentBoardView = "stage3";
 let boardViewUserSelected = false;
+let activeEventId = null;
+let coverage = null;
+let currentEventFilter = "active";
 const pickOverrides = new Map();
 let teamLookupMap = {};
 let probabilityCache = {};
@@ -45,6 +63,11 @@ const dateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
   hour: "2-digit",
   minute: "2-digit",
+});
+
+const dateOnlyFormatter = new Intl.DateTimeFormat("en-US", {
+  month: "short",
+  day: "numeric",
 });
 
 function formatPercent(value) {
@@ -73,9 +96,52 @@ function matchConfidence(match) {
   return Math.max(0, Math.min(1, winnerProbability));
 }
 
+function enrichMatch(match) {
+  const suppliedProbability = Number(match?.prob_team1);
+  const probability = Number.isFinite(suppliedProbability)
+    ? Math.max(0.08, Math.min(0.92, suppliedProbability))
+    : pairProbability(match.team1_name, match.team2_name);
+  return {
+    ...match,
+    prob_team1: probability,
+    predicted_winner: match.predicted_winner || (probability >= 0.5 ? match.team1_name : match.team2_name),
+    confidence: Math.max(probability, 1 - probability),
+    round: match.round || `${match.stage_name || "Scheduled series"} · ${String(match.series_format || "bo3").toUpperCase()}`,
+  };
+}
+
+function dailyMatchCalls() {
+  const live = (appData?.upcoming_predictions || []).filter((match) => {
+    const startsAt = new Date(match.starts_at || 0).getTime();
+    return startsAt > Date.now() - 3_600_000;
+  });
+  const verified = appData?.coverage?.daily_matches || [];
+  const merged = new Map();
+  [...verified, ...live].forEach((match) => {
+    if (!match?.team1_name || !match?.team2_name) return;
+    const key = [normalizeName(match.team1_name), normalizeName(match.team2_name)].sort().join(":");
+    merged.set(key, { ...(merged.get(key) || {}), ...match });
+  });
+  return [...merged.values()]
+    .map(enrichMatch)
+    .sort((a, b) => matchSignalScore(b) - matchSignalScore(a) || new Date(a.starts_at || 0) - new Date(b.starts_at || 0))
+    .slice(0, 6);
+}
+
+function matchSignalScore(match) {
+  return [match.team1_name, match.team2_name].reduce((score, teamName) => {
+    const rank = Number(teamModel(teamName).vrs_rank);
+    return score + (Number.isFinite(rank) && rank > 0 ? 220 - rank : 0);
+  }, 0);
+}
+
 function renderDeciders(matches) {
   els.deciderGrid.innerHTML = "";
-  matches.forEach((match, index) => {
+  if (!matches?.length) {
+    els.deciderGrid.append(emptyNode("No verified fixtures yet.", "The updater will add match calls after the event feed confirms teams, stage, and start time."));
+    return;
+  }
+  matches.map(enrichMatch).forEach((match, index) => {
     const confidence = matchConfidence(match);
     const rawTeam1Probability = Number(match.prob_team1);
     const team1Probability = Number.isFinite(rawTeam1Probability)
@@ -317,26 +383,90 @@ function setActiveBoardButtons() {
   });
 }
 
-function syncMajorCopy(stage3) {
+function availableEvents(data = appData) {
+  const merged = new Map();
+  const addEvent = (event) => {
+    if (!event) return;
+    const name = event.name || event.event_name || event.source_title || "Unnamed event";
+    const id = event.id || `event-${normalizeName(name).replaceAll(" ", "-")}`;
+    const normalized = {
+      ...event,
+      id,
+      name,
+      tier: event.tier || event.publisher_tier || event.event_tier || "Tier pending",
+      format: event.format || { type: "mixed", label: "Organizer format pending", confidence: "feed_detail_pending" },
+    };
+    const normalizedName = normalizeName(name);
+    const key = normalizedName.includes("cologne") && normalizedName.includes("2026")
+      ? "cologne major 2026"
+      : normalizedName;
+    const existing = merged.get(key);
+    const value = existing ? { ...event, ...normalized, ...existing } : normalized;
+    merged.set(key, value);
+  };
+  (data?.coverage?.events || []).forEach(addEvent);
+  (data?.event_coverage || []).forEach(addEvent);
+  return [...merged.values()];
+}
+
+function activeEvent() {
+  const events = availableEvents();
+  return events.find((event) => event.id === activeEventId) || events[0] || null;
+}
+
+function eventHasMajorBoard(event) {
+  return Boolean(event?.id === "iem-cologne-major-2026" && appData?.major_projection);
+}
+
+function eventDateRange(event) {
+  if (!event) return "Schedule pending";
+  if (!event.start_date) return "Dates TBA";
+  const start = new Date(`${event.start_date}T12:00:00`);
+  const end = event.end_date ? new Date(`${event.end_date}T12:00:00`) : null;
+  if (Number.isNaN(start.getTime())) return event.start_date;
+  const startLabel = dateOnlyFormatter.format(start);
+  const endLabel = end && !Number.isNaN(end.getTime()) ? dateOnlyFormatter.format(end) : "TBA";
+  return event.start_date === event.end_date ? startLabel : `${startLabel} - ${endLabel}`;
+}
+
+function syncMajorCopy(stage3, event = activeEvent()) {
+  if (!eventHasMajorBoard(event)) {
+    document.body.classList.remove("stage-complete");
+    if (els.playoffTab) els.playoffTab.hidden = true;
+    setText(els.eventPhaseLabel, event?.name || "Event desk");
+    setText(els.projectionTitle, event ? `${event.name} outlook.` : "Choose an event.");
+    setText(els.projectionIntro, event
+      ? `${event.format?.label || "Tournament format"}, current field strength, published fixtures, and the model's early title picture.`
+      : "Choose a covered event to open its forecast.");
+    setText(els.boardStageTitle, event ? `${event.current_stage || (event.status === "upcoming" ? "Pre-event" : "Current stage")} forecast.` : "Choose a covered event.");
+    setText(els.routeIntro, event
+      ? "Confirmed information is shown as fact. Early title shares remain projections and recalculate when the field or bracket changes."
+      : "Select an event from the calendar.");
+    setText(els.currentStageTab, "Event outlook");
+    setText(els.playoffTab, "Bracket forecast");
+    return;
+  }
+
   const complete = stage3IsComplete(stage3);
+  if (els.playoffTab) els.playoffTab.hidden = false;
   document.body.classList.toggle("stage-complete", complete);
-  setText(els.currentStageTab, complete ? "Stage 3 results" : "Stage 3");
+  setText(els.currentStageTab, complete ? "Swiss results" : "Current stage");
   setText(els.playoffTab, complete ? "Playoff bracket" : "Projected playoffs");
 
   if (!complete) {
-    setText(els.eventPhaseLabel, "IEM Cologne 2026 / Stage 3");
-    setText(els.projectionTitle, "Every route through Cologne.");
-    setText(els.projectionIntro, "Change any unresolved result and the full Swiss path, Pick'Em probability, and projected playoff bracket recalculate around your call.");
-    setText(els.boardStageTitle, "Stage 3, round by round.");
+    setText(els.eventPhaseLabel, `${event.name} / Current stage`);
+    setText(els.projectionTitle, `Every route through ${event.name}.`);
+    setText(els.projectionIntro, "Change any unresolved result and the complete Swiss path, Pick'Em probability, and projected playoff bracket recalculate around your call.");
+    setText(els.boardStageTitle, "Swiss stage, round by round.");
     setText(els.routeIntro, "Completed matches are fixed. Blue probabilities are projected. Select either logo in an unresolved match to rewrite the route.");
     return;
   }
 
-  setText(els.projectionTitle, "Cologne playoff desk.");
-  setText(els.eventPhaseLabel, "IEM Cologne 2026 / Playoffs");
-  setText(els.projectionIntro, "Stage 3 is locked. The board now follows the official playoff bracket, with model reads on every quarterfinal path.");
-  setText(els.boardStageTitle, currentBoardView === "playoffs" ? "Official playoff bracket." : "Stage 3, verified result board.");
-  setText(els.routeIntro, "The Swiss results are fixed. Use the Stage 3 tab to review how teams qualified, or stay on the bracket for the current title path.");
+  setText(els.projectionTitle, `${event.name} playoff desk.`);
+  setText(els.eventPhaseLabel, `${event.name} / Playoffs`);
+  setText(els.projectionIntro, "The Swiss stage is locked. The board follows the official playoff bracket, with model reads on every remaining series.");
+  setText(els.boardStageTitle, currentBoardView === "playoffs" ? "Projected playoff bracket." : "Swiss results, verified.");
+  setText(els.routeIntro, "The Swiss results are fixed. Review the qualified field or stay on the bracket for the current title path.");
 }
 
 function jumpMajorBoard(target) {
@@ -349,6 +479,18 @@ function jumpMajorBoard(target) {
 }
 
 function renderDynamicMajor() {
+  const event = activeEvent();
+  if (!eventHasMajorBoard(event)) {
+    currentBoardView = "stage3";
+    setActiveBoardButtons();
+    syncMajorCopy(null, event);
+    els.swissBoard.hidden = false;
+    els.playoffPanel.hidden = true;
+    renderGenericEventBoard(event);
+    updateGenericPickem(event);
+    return;
+  }
+
   if (!appData?.major_projection) return;
 
   // Record focused element selector before rendering
@@ -370,7 +512,6 @@ function renderDynamicMajor() {
   syncMajorCopy(stage3);
   const playoff = simulatePlayoffs(stage3.final_records);
   updatePickemMeter(stage3);
-  renderDeciders(activeMajorCalls());
 
   if (currentBoardView === "playoffs") {
     els.swissBoard.hidden = true;
@@ -389,6 +530,100 @@ function renderDynamicMajor() {
       elToFocus.focus();
     }
   }
+}
+
+function renderGenericEventBoard(event) {
+  if (!els.swissBoard) return;
+  if (!event) {
+    els.swissBoard.replaceChildren(emptyNode("Choose a tournament.", "The current circuit remains available in the event calendar above."));
+    return;
+  }
+  const contenders = eventContenders(event);
+  const matches = activeEventCalls(event);
+  const confirmedField = event.participants?.length || 0;
+  const fieldLabel = confirmedField ? `${confirmedField} confirmed` : "Early benchmark";
+  els.swissBoard.innerHTML = `
+    <div class="generic-board">
+      <div class="event-brief">
+        <div>
+          <span class="micro-label">${escapeHtml(event.status || "scheduled")} / ${escapeHtml(event.tier || "event")}</span>
+          <h4>${escapeHtml(event.name)}</h4>
+          <p>${escapeHtml(event.format?.label || "Format pending organizer confirmation")}. Forecasts recalculate as fixtures, vetoes, and results enter the event.</p>
+        </div>
+        <div class="event-facts">
+          <div><span>Dates</span><strong>${escapeHtml(eventDateRange(event))}</strong></div>
+          <div><span>Setting</span><strong>${escapeHtml(`${event.event_type || "TBA"} · ${event.location || "Location TBA"}`)}</strong></div>
+          <div><span>Field</span><strong>${escapeHtml(event.teams ? `${event.teams} teams` : fieldLabel)}</strong></div>
+          <div><span>Current stage</span><strong>${escapeHtml(event.current_stage || (event.status === "upcoming" ? "Pre-event" : "In progress"))}</strong></div>
+        </div>
+      </div>
+      <div class="event-forecast">
+        <div class="forecast-head">
+          <div><span class="micro-label">Title picture</span><h4>${escapeHtml(fieldLabel)}</h4></div>
+          <p>${confirmedField ? "Shares are normalized across the confirmed field." : "Early benchmark uses current VRS leaders until the field is announced."}</p>
+        </div>
+        <div class="contender-list">
+          ${contenders.map((row, index) => `
+            <article class="contender-row" style="--share:${Math.max(16, Math.round(row.probability * 250))}%">
+              ${teamLogoHtml(row.team_name)}
+              <strong>${escapeHtml(row.team_name)}</strong>
+              <span>#${row.vrs_rank || "--"} VRS · ${Math.round(row.recent * 100)}% recent</span>
+              <b>${formatPercent(row.probability)}</b>
+            </article>
+          `).join("")}
+        </div>
+        ${matches.length ? `
+          <div class="forecast-head"><div><span class="micro-label">Published slate</span><h4>${matches.length} series</h4></div></div>
+          <div class="event-slate">
+            ${matches.map((match) => {
+              const call = enrichMatch(match);
+              return `<article><span>${escapeHtml(`${formatDate(call.starts_at)} · ${call.series_format || "bo3"}`)}</span><strong>${escapeHtml(call.team1_name)} vs ${escapeHtml(call.team2_name)} · ${escapeHtml(call.predicted_winner)} ${formatPercent(call.confidence)}</strong></article>`;
+            }).join("")}
+          </div>` : ""}
+        ${event.map_pool?.length ? `<div class="map-pool">${event.map_pool.map((map) => `<span>${escapeHtml(map)}</span>`).join("")}</div>` : ""}
+      </div>
+    </div>
+  `;
+}
+
+function eventContenders(event) {
+  const official = appData?.coverage?.vrs?.teams || [];
+  const officialByName = new Map(official.map((row) => [normalizeName(row.team_name), row]));
+  const names = event?.participants?.length
+    ? event.participants
+    : official.slice(0, Math.min(8, Number(event?.teams) || 8)).map((row) => row.team_name);
+  const scored = names.map((teamName) => {
+    const officialRow = officialByName.get(normalizeName(teamName)) || {};
+    const model = teamModel(teamName);
+    const recent = Number.isFinite(Number(model.recent_win_rate_10)) ? Number(model.recent_win_rate_10) : 0.5;
+    const points = Number(officialRow.points || model.vrs_points || 1200);
+    const elo = Number(model.elo || 1500);
+    return {
+      team_name: officialRow.team_name || teamName,
+      vrs_rank: officialRow.rank || model.vrs_rank,
+      recent,
+      score: points + (elo - 1500) * 0.34 + (recent - 0.5) * 120,
+    };
+  });
+  const maxScore = Math.max(...scored.map((row) => row.score), 0);
+  const weighted = scored.map((row) => ({ ...row, weight: Math.exp((row.score - maxScore) / 175) }));
+  const total = weighted.reduce((sum, row) => sum + row.weight, 0) || 1;
+  return weighted
+    .map((row) => ({ ...row, probability: row.weight / total }))
+    .sort((a, b) => b.probability - a.probability)
+    .slice(0, 6);
+}
+
+function updateGenericPickem(event) {
+  if (els.resetPicks) els.resetPicks.hidden = true;
+  const favorite = eventContenders(event)[0];
+  setText(els.pickemLabel, "Field forecast");
+  setText(els.pickemTitle, favorite ? `${favorite.team_name} leads the current title picture.` : "Select an event to begin.");
+  setText(els.pickemScoreLabel, "Title share");
+  setText(els.pickemChance, favorite ? formatPercent(favorite.probability) : "--");
+  setText(els.pickemSummary, event?.participants?.length
+    ? `${event.participants.length} confirmed teams are included. The forecast moves with form, ranking strength, results, and the published bracket.`
+    : "The confirmed field is not complete, so this is an early VRS benchmark rather than a final event forecast.");
 }
 
 function activeMajorCalls() {
@@ -420,6 +655,24 @@ function activeMajorCalls() {
       team2_name: match.team2_name,
     };
   });
+}
+
+function activeEventCalls(event = activeEvent()) {
+  if (!event) return [];
+  if (eventHasMajorBoard(event)) return activeMajorCalls();
+  const eventKey = normalizeName(event.name || event.event_name);
+  const embedded = event.matches || [];
+  const coverageMatches = (appData?.coverage?.daily_matches || []).filter((match) => match.event_id === event.id);
+  const generated = (appData?.upcoming_predictions || []).filter((match) => {
+    const matchKey = normalizeName(match.event_name || match.stage_name || "");
+    return matchKey && (matchKey === eventKey || matchKey.includes(eventKey) || eventKey.includes(matchKey));
+  });
+  const merged = new Map();
+  [...embedded, ...coverageMatches, ...generated].forEach((match) => {
+    const key = [normalizeName(match.team1_name), normalizeName(match.team2_name)].sort().join(":");
+    merged.set(key, { ...(merged.get(key) || {}), ...match });
+  });
+  return [...merged.values()];
 }
 
 function makeOverrideKey(prefix, roundOrStage, team1, team2) {
@@ -464,6 +717,17 @@ function buildTeamLookupMap() {
   };
   for (const [alias, target] of Object.entries(aliases)) {
     if (teamLookupMap[target]) teamLookupMap[alias] = teamLookupMap[target];
+  }
+
+  // Overlay the dated official VRS snapshot on model state so current ranking
+  // strength drives calls without mutating the historical training features.
+  for (const row of appData?.coverage?.vrs?.teams || []) {
+    const nameKey = normalizeName(row.team_name);
+    const existing = teamLookupMap[nameKey] || { elo: 1500, recent_win_rate_10: 0.5, hasState: false };
+    const merged = { ...existing, vrs_rank: row.rank, vrs_points: row.points, vrs_as_of: appData.coverage.vrs.as_of };
+    teamLookupMap[nameKey] = merged;
+    if (nameKey === "navi") teamLookupMap["natus vincere"] = merged;
+    if (nameKey === "the mongolz") teamLookupMap.mongolz = merged;
   }
 }
 
@@ -883,29 +1147,107 @@ function renderEvents(events) {
     els.eventsGrid.append(emptyNode("No event coverage queued.", "Supported events appear when verified schedules reach the feed."));
     return;
   }
-  events.forEach((event) => {
+  const statusOrder = { ongoing: 0, upcoming: 1, finished: 2 };
+  const visibleEvents = events
+    .filter((event) => currentEventFilter === "all" || event.status !== "finished")
+    .sort((a, b) => (statusOrder[a.status] ?? 1) - (statusOrder[b.status] ?? 1) || new Date(a.start_date || 0) - new Date(b.start_date || 0));
+  setText(els.eventCount, `${visibleEvents.length} tournaments`);
+  visibleEvents.forEach((event) => {
     const url = event.hltv_url || event.event_url || event.source_url;
-    const card = document.createElement(url ? "a" : "article");
+    const card = document.createElement("article");
     card.className = "event-card";
-    if (url) {
-      card.href = url;
-      card.target = "_blank";
-      card.rel = "noreferrer";
-    }
-    const range = event.start_date === event.end_date ? event.start_date : `${event.start_date} - ${event.end_date}`;
+    card.tabIndex = 0;
+    card.dataset.eventId = event.id || "";
+    card.dataset.status = event.status || "upcoming";
+    const range = eventDateRange(event);
     card.innerHTML = `
-      <div>
-        <span>${escapeHtml(event.series || event.organizer || "Event")}</span>
-        <h3>${escapeHtml(event.event_name || event.source_title || "Unnamed event")}</h3>
+      <div class="event-card-main">
+        <span>${escapeHtml(event.status || event.series || event.organizer || "Event")}</span>
+        <h3>${escapeHtml(event.name || event.event_name || event.source_title || "Unnamed event")}</h3>
+        <p>${escapeHtml(event.format?.label || "Organizer format pending")} · ${escapeHtml(event.location || "Location TBA")}</p>
       </div>
       <dl>
         <div><dt>Date</dt><dd>${escapeHtml(range || "TBA")}</dd></div>
         <div><dt>Type</dt><dd>${escapeHtml(event.event_type || "Unknown")}</dd></div>
-        <div><dt>Tier</dt><dd>${escapeHtml(event.publisher_tier || event.event_tier || "TBA")}</dd></div>
+        <div><dt>Tier</dt><dd>${escapeHtml(event.tier || event.publisher_tier || event.event_tier || "TBA")}</dd></div>
       </dl>
+      <div class="event-card-actions">
+        <button type="button" data-event-open="${escapeHtml(event.id || "")}">Open forecast</button>
+        ${url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">HLTV source</a>` : ""}
+      </div>
     `;
+    const openEvent = () => selectEvent(event.id);
+    card.addEventListener("click", (clickEvent) => {
+      if (clickEvent.target.closest("a")) return;
+      openEvent();
+    });
+    card.addEventListener("keydown", (keyEvent) => {
+      if (keyEvent.key === "Enter" || keyEvent.key === " ") {
+        keyEvent.preventDefault();
+        openEvent();
+      }
+    });
     els.eventsGrid.append(card);
   });
+}
+
+function renderEventSelector(events) {
+  if (!els.eventSelector) return;
+  els.eventSelector.innerHTML = events.map((event) => `
+    <option value="${escapeHtml(event.id || "")}">${escapeHtml(event.name || event.event_name || "Unnamed event")} · ${escapeHtml(event.status || "scheduled")}</option>
+  `).join("");
+  els.eventSelector.value = activeEventId || events[0]?.id || "";
+}
+
+function selectEvent(eventId) {
+  if (!eventId || !availableEvents().some((event) => event.id === eventId)) return;
+  activeEventId = eventId;
+  boardViewUserSelected = false;
+  currentBoardView = eventHasMajorBoard(activeEvent()) && stage3IsComplete(simulateStage3()) ? "playoffs" : "stage3";
+  if (els.eventSelector) els.eventSelector.value = eventId;
+  const event = activeEvent();
+  setText(els.selectedEventName, event?.name || "Event desk");
+  setText(els.selectedEventMeta, `${eventDateRange(event)} · ${event?.format?.label || "Organizer format pending"}`);
+  renderDynamicMajor();
+  document.querySelector("#featured")?.scrollIntoView({ block: "start", behavior: "smooth" });
+}
+
+function rankingProjection(row) {
+  const model = teamModel(row.team_name);
+  const recent = Number.isFinite(Number(model.recent_win_rate_10)) ? Number(model.recent_win_rate_10) : 0.5;
+  const elo = Number(model.elo);
+  const formSignal = Math.max(-72, Math.min(72, (recent - 0.5) * 180));
+  const skillSignal = Number.isFinite(elo) ? Math.max(-24, Math.min(24, (elo - 1600) * 0.06)) : 0;
+  const projectedPoints = Number(row.points) + formSignal + skillSignal;
+  return { ...row, projectedPoints, recent, formSignal, skillSignal };
+}
+
+function renderRankings(vrs) {
+  if (!els.rankingsGrid) return;
+  const projected = (vrs?.teams || []).map(rankingProjection).sort((a, b) => b.projectedPoints - a.projectedPoints);
+  const projectedRanks = new Map(projected.map((row, index) => [normalizeName(row.team_name), index + 1]));
+  const rows = (vrs?.teams || []).map(rankingProjection).sort((a, b) => Number(a.rank) - Number(b.rank));
+  setText(els.rankingsSource, vrs?.source || "Valve Regional Standings");
+  setText(els.rankingsUpdated, vrs?.as_of || "--");
+  if (els.rankingsSourceLink && vrs?.source_url) els.rankingsSourceLink.href = vrs.source_url;
+  els.rankingsGrid.innerHTML = `
+    <div class="ranking-row ranking-head" role="row">
+      <span>Official</span><span>Team / roster</span><span>VRS points</span><span>Signal</span><span>Next order</span>
+    </div>
+    ${rows.map((row) => {
+      const projectedRank = projectedRanks.get(normalizeName(row.team_name));
+      const delta = row.rank - projectedRank;
+      const deltaLabel = delta > 0 ? `+${delta}` : delta < 0 ? `${delta}` : "=";
+      const deltaClass = delta > 0 ? "is-up" : delta < 0 ? "is-down" : "is-flat";
+      return `<div class="ranking-row" role="row">
+        <span class="ranking-rank"><b>#${row.rank}</b><em class="${deltaClass}">${deltaLabel}</em></span>
+        <span class="ranking-team">${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong><small>${escapeHtml(row.players?.join(" · ") || "Roster pending")}</small></span>
+        <span class="ranking-points">${row.points}<small>official</small></span>
+        <span class="ranking-signal"><i style="width:${Math.round(Math.max(8, Math.min(100, 50 + row.formSignal / 2)))}%"></i><small>${row.recent === 0.5 ? "neutral" : `${Math.round(row.recent * 100)}% recent wins`}</small></span>
+        <span class="ranking-projected"><b>#${projectedRank}</b><small>unofficial projection</small></span>
+      </div>`;
+    }).join("")}
+  `;
 }
 
 function compactStageName(value, fallback) {
@@ -956,24 +1298,31 @@ function normalizeName(teamName) {
 }
 
 function updateSummary(data) {
-  const projection = data.major_projection;
-  const currentStage = compactStageName(projection.current_stage_board?.stage, "Current stage");
+  const event = activeEvent();
   const generatedAt = new Date(data.generated_at_utc);
   const ageHours = Number.isNaN(generatedAt.getTime()) ? Infinity : (Date.now() - generatedAt.getTime()) / 3600000;
   const isFresh = ageHours <= 12;
 
   setText(els.modelPre, formatPercent(data.model?.best_pre_match?.accuracy));
   setText(els.modelPost, formatPercent(data.model?.best_post_veto?.accuracy));
-  setText(els.freshnessLabel, `Updated ${formatDate(data.generated_at_utc)}`);
-  setText(els.boardStageTitle, `${currentStage} live state and projected route.`);
-  setText(els.currentStageTab, currentStage);
+  setText(els.freshnessLabel, `Coverage ${data.coverage?.last_verified_utc ? formatDate(data.coverage.last_verified_utc) : formatDate(data.generated_at_utc)}`);
+  setText(els.slateCount, `${dailyMatchCalls().length} verified series`);
+  setText(els.rankingSnapshot, `VRS · ${data.coverage?.vrs?.as_of ? dateOnlyFormatter.format(new Date(`${data.coverage.vrs.as_of}T12:00:00`)) : "pending"}`);
+  setText(els.selectedEventName, event?.name || "Event desk");
+  setText(els.selectedEventMeta, `${eventDateRange(event)} · ${event?.format?.label || "Organizer format pending"}`);
   document.body.classList.toggle("snapshot-stale", !isFresh);
 }
 
 function renderProjection(data) {
   appData = data;
+  coverage = data.coverage || null;
+  const events = availableEvents(data);
+  activeEventId = activeEventId || data.coverage?.default_event_id || events.find((event) => event.status === "ongoing")?.id || events[0]?.id || null;
   buildTeamLookupMap();
-  renderEvents(data.event_coverage || []);
+  renderEventSelector(events);
+  renderEvents(events);
+  renderRankings(data.coverage?.vrs);
+  renderDeciders(dailyMatchCalls());
   renderDynamicMajor();
 }
 
@@ -1121,13 +1470,15 @@ function startLiveMajorUpdater() {
 
 async function boot() {
   try {
-    const data = window.location.protocol === "file:"
+    const baseData = window.location.protocol === "file:"
       ? window.__STRIKESIGNAL_DATA__
       : await fetchPredictionData();
-    if (!data.major_projection) throw new Error("Major projection is missing from the snapshot.");
-    teamAssets = data.team_assets || {};
-    updateSummary(data);
+    const coverageData = window.__STRIKESIGNAL_COVERAGE__ || await fetchCoverageData();
+    const data = { ...baseData, coverage: coverageData || baseData.coverage || null };
+    if (!data || typeof data !== "object") throw new Error("Prediction snapshot is empty.");
+    teamAssets = { ...SUPPLEMENTAL_TEAM_ASSETS, ...(data.team_assets || {}) };
     renderProjection(data);
+    updateSummary(data);
     if (window.location.protocol !== "file:") startLiveMajorUpdater();
   } catch (error) {
     document.body.classList.add("data-error");
@@ -1153,6 +1504,18 @@ els.boardJumpButtons.forEach((button) => {
   button.addEventListener("click", () => jumpMajorBoard(button.dataset.boardJump || "stage3"));
 });
 
+els.eventSelector?.addEventListener("change", (event) => {
+  selectEvent(event.target.value);
+});
+
+els.eventFilterButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    currentEventFilter = button.dataset.eventFilter || "active";
+    els.eventFilterButtons.forEach((candidate) => candidate.classList.toggle("is-active", candidate === button));
+    renderEvents(availableEvents());
+  });
+});
+
 els.resetPicks?.addEventListener("click", () => {
   pickOverrides.clear();
   renderDynamicMajor();
@@ -1161,6 +1524,12 @@ els.resetPicks?.addEventListener("click", () => {
 async function fetchPredictionData() {
   const response = await fetch(DATA_URL, { cache: "no-store" });
   if (!response.ok) throw new Error(`Prediction snapshot failed with ${response.status}`);
+  return response.json();
+}
+
+async function fetchCoverageData() {
+  const response = await fetch("./data/coverage.json", { cache: "no-store" });
+  if (!response.ok) throw new Error(`Coverage snapshot failed with ${response.status}`);
   return response.json();
 }
 

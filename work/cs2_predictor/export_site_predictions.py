@@ -19,6 +19,7 @@ from .warehouse import WAREHOUSE_PATH, connect
 
 SITE_DATA_PATH = Path("docs") / "data" / "predictions.json"
 SITE_DATA_JS_PATH = Path("docs") / "data" / "predictions.js"
+SITE_COVERAGE_PATH = Path("docs") / "data" / "coverage.json"
 BENCHMARK_PREDICTIONS_CSV = DATA_ROOT / "model" / "event_holdout_predictions.csv"
 TEAM_TIERS_CSV = Path("outputs") / "cs2_team_tier_assignments.csv"
 BEST_PRE_MODEL = ("rolling_in_event", "logistic")
@@ -187,6 +188,12 @@ def read_json(path: Path) -> dict[str, Any]:
     if not path.exists():
         return {}
     return json.loads(path.read_text(encoding="utf-8"))
+
+
+def coverage_snapshot() -> dict[str, Any]:
+    """Keep the event calendar and VRS contract in every generated site snapshot."""
+    payload = read_json(SITE_COVERAGE_PATH)
+    return payload if isinstance(payload, dict) else {}
 
 
 def summarize_prediction_rows(rows: list[dict[str, str]], *, mode: str, model: str) -> dict[str, Any]:
@@ -1312,6 +1319,7 @@ def fallback_payload_from_existing(output_path: Path, apify_feed_path: Path | No
             "No SQLite warehouse and no existing site JSON found. Generate docs/data/predictions.json locally first."
         )
     payload.setdefault("updater", {})
+    payload.setdefault("coverage", coverage_snapshot())
     if apify_feed_path and apify_feed_path.exists():
         apify_items = api_items_from_feed(apify_feed_path)
         if not apify_items:
@@ -1486,6 +1494,7 @@ def build_payload(db_path: Path, apify_feed_path: Path | None = None) -> dict[st
     payload = {
         "generated_at_utc": utc_now(),
         "product": "CS2 Predictor",
+        "coverage": coverage_snapshot(),
         "team_assets": team_assets_payload(),
         "model": {
             "state_policy": STATE_POLICY,
