@@ -36,7 +36,8 @@ Ship StrikeSignal as a populated, universal CS2 prediction product with a premiu
 - Ranking disclosure: 13 visible rows collapsed, 31 visible rows expanded.
 - JavaScript syntax, JSON parse, and whitespace checks: passed.
 
-## Remaining
+## Deployment
 
-- Commit and push the release.
-- Confirm the Vercel production deployment.
+- GitHub `main`: `b3833dc` published.
+- Vercel production: verified at `https://cs2-predictor-ebon.vercel.app/`.
+- Production QA: 12 events, 13 collapsed ranking rows, zero broken images, and no desktop overflow.
