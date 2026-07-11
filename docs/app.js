@@ -2,6 +2,12 @@ const DATA_URL = "./data/predictions.json";
 const SUPPLEMENTAL_TEAM_ASSETS = {
   faze: { logo_url: "https://img-cdn.hltv.org/teamlogo/OKLwq88GXjl5GQ48Y5SrvW.png?ixlib=java-2.1.0&s=0a0d65eeb1b0e82ada20c42c038552fa&w=50" },
   alliance: { logo_url: "https://img-cdn.hltv.org/teamlogo/xsWK0BtR26rN776qdnWFC1.png?ixlib=java-2.1.0&s=4aaf659c3855ebf08c78c157a0653352&w=50" },
+  "3dmax": { logo_url: "./assets/logos/3dmax.png" },
+  "ninjas in pyjamas": { logo_url: "./assets/logos/ninjas_in_pyjamas.png" },
+  nemesis: { logo_url: "./assets/logos/nemesis.png" },
+  eyeballers: { logo_url: "./assets/logos/eyeballers.png" },
+  sinners: { logo_url: "./assets/logos/sinners.svg" },
+  "lynn vision": { logo_url: "./assets/logos/lynn_vision.png" },
 };
 
 const els = {
@@ -34,6 +40,7 @@ const els = {
   rankingsSource: document.querySelector("#rankingsSource"),
   rankingsUpdated: document.querySelector("#rankingsUpdated"),
   rankingsSourceLink: document.querySelector("#rankingsSourceLink"),
+  rankingToggle: document.querySelector("#rankingToggle"),
   slateCount: document.querySelector("#slateCount"),
   rankingSnapshot: document.querySelector("#rankingSnapshot"),
   eventCount: document.querySelector("#eventCount"),
@@ -48,6 +55,7 @@ let boardViewUserSelected = false;
 let activeEventId = null;
 let coverage = null;
 let currentEventFilter = "active";
+let rankingsExpanded = false;
 const pickOverrides = new Map();
 let teamLookupMap = {};
 let probabilityCache = {};
@@ -124,6 +132,11 @@ function dailyMatchCalls() {
   });
   return [...merged.values()]
     .map(enrichMatch)
+    .filter((match) => {
+      const startsAt = new Date(match.starts_at || 0).getTime();
+      const status = String(match.status || "").toLowerCase();
+      return /live|playing|in.progress/.test(status) || startsAt > Date.now() - 3_600_000;
+    })
     .sort((a, b) => matchSignalScore(b) - matchSignalScore(a) || new Date(a.starts_at || 0) - new Date(b.starts_at || 0))
     .slice(0, 6);
 }
@@ -429,6 +442,29 @@ function eventDateRange(event) {
   return event.start_date === event.end_date ? startLabel : `${startLabel} - ${endLabel}`;
 }
 
+function eventDateParts(event) {
+  const date = new Date(`${event?.start_date || ""}T12:00:00`);
+  if (Number.isNaN(date.getTime())) return { month: "TBA", day: "--" };
+  return {
+    month: new Intl.DateTimeFormat("en-US", { month: "short" }).format(date),
+    day: new Intl.DateTimeFormat("en-US", { day: "2-digit" }).format(date),
+  };
+}
+
+function eventFormatStages(event) {
+  const type = String(event?.format?.type || "mixed");
+  if (type === "swiss") return ["Swiss", "Playoffs", "Final"];
+  if (type === "gsl") return ["GSL groups", "Playoffs", "Final"];
+  if (type === "single_elimination") return ["Round of 32", "Round of 16", "Playoffs"];
+  return ["Opening stage", "Playoffs", "Final"];
+}
+
+function formatPathHtml(event) {
+  return eventFormatStages(event).map((stage, index, stages) => `
+    <span>${escapeHtml(stage)}</span>${index < stages.length - 1 ? "<i></i>" : ""}
+  `).join("");
+}
+
 function syncMajorCopy(stage3, event = activeEvent()) {
   if (!eventHasMajorBoard(event)) {
     document.body.classList.remove("stage-complete");
@@ -436,11 +472,11 @@ function syncMajorCopy(stage3, event = activeEvent()) {
     setText(els.eventPhaseLabel, event?.name || "Event desk");
     setText(els.projectionTitle, event ? `${event.name} outlook.` : "Choose an event.");
     setText(els.projectionIntro, event
-      ? `${event.format?.label || "Tournament format"}, current field strength, published fixtures, and the model's early title picture.`
+      ? `${eventDateRange(event)} · ${event.location || "Location TBA"} · ${event.format?.label || "Format pending"}`
       : "Choose a covered event to open its forecast.");
     setText(els.boardStageTitle, event ? `${event.current_stage || (event.status === "upcoming" ? "Pre-event" : "Current stage")} forecast.` : "Choose a covered event.");
     setText(els.routeIntro, event
-      ? "Confirmed information is shown as fact. Early title shares remain projections and recalculate when the field or bracket changes."
+      ? `${event.participants?.length || 0} teams announced · ${activeEventCalls(event).length} published series`
       : "Select an event from the calendar.");
     setText(els.currentStageTab, "Event outlook");
     setText(els.playoffTab, "Bracket forecast");
@@ -540,15 +576,16 @@ function renderGenericEventBoard(event) {
   }
   const contenders = eventContenders(event);
   const matches = activeEventCalls(event);
+  const participants = event.participants || [];
   const confirmedField = event.participants?.length || 0;
-  const fieldLabel = confirmedField ? `${confirmedField} confirmed` : "Early benchmark";
+  const fieldLabel = confirmedField ? `${confirmedField} teams` : "Field pending";
   els.swissBoard.innerHTML = `
     <div class="generic-board">
       <div class="event-brief">
         <div>
           <span class="micro-label">${escapeHtml(event.status || "scheduled")} / ${escapeHtml(event.tier || "event")}</span>
           <h4>${escapeHtml(event.name)}</h4>
-          <p>${escapeHtml(event.format?.label || "Format pending organizer confirmation")}. Forecasts recalculate as fixtures, vetoes, and results enter the event.</p>
+          <p>${escapeHtml(event.format?.label || "Format pending")}.</p>
         </div>
         <div class="event-facts">
           <div><span>Dates</span><strong>${escapeHtml(eventDateRange(event))}</strong></div>
@@ -560,7 +597,7 @@ function renderGenericEventBoard(event) {
       <div class="event-forecast">
         <div class="forecast-head">
           <div><span class="micro-label">Title picture</span><h4>${escapeHtml(fieldLabel)}</h4></div>
-          <p>${confirmedField ? "Shares are normalized across the confirmed field." : "Early benchmark uses current VRS leaders until the field is announced."}</p>
+          <p>${escapeHtml(event.current_stage || (event.status === "upcoming" ? "Pre-event" : "In progress"))}</p>
         </div>
         <div class="contender-list">
           ${contenders.map((row, index) => `
@@ -572,15 +609,27 @@ function renderGenericEventBoard(event) {
             </article>
           `).join("")}
         </div>
-        ${matches.length ? `
-          <div class="forecast-head"><div><span class="micro-label">Published slate</span><h4>${matches.length} series</h4></div></div>
-          <div class="event-slate">
-            ${matches.map((match) => {
-              const call = enrichMatch(match);
-              return `<article><span>${escapeHtml(`${formatDate(call.starts_at)} · ${call.series_format || "bo3"}`)}</span><strong>${escapeHtml(call.team1_name)} vs ${escapeHtml(call.team2_name)} · ${escapeHtml(call.predicted_winner)} ${formatPercent(call.confidence)}</strong></article>`;
-            }).join("")}
-          </div>` : ""}
         ${event.map_pool?.length ? `<div class="map-pool">${event.map_pool.map((map) => `<span>${escapeHtml(map)}</span>`).join("")}</div>` : ""}
+      </div>
+      <div class="event-drawers">
+        <details class="event-drawer" open>
+          <summary>Teams <span>${confirmedField ? `${confirmedField} announced` : "Not announced"}</span></summary>
+          <div class="event-drawer-content">
+            ${participants.length ? `<div class="team-field-grid">${participants.map((teamName) => `
+              <article class="field-team" title="${escapeHtml(teamName)}">${teamLogoHtml(teamName)}<strong>${escapeHtml(teamName)}</strong></article>
+            `).join("")}</div>` : `<p class="field-empty">The organizer has not announced the full field.</p>`}
+          </div>
+        </details>
+        <details class="event-drawer" ${matches.length ? "open" : ""}>
+          <summary>Schedule &amp; bracket <span>${matches.length ? `${matches.length} series live` : event.format?.type?.replaceAll("_", " ") || "Format"}</span></summary>
+          <div class="event-drawer-content">
+            <div class="format-path">${formatPathHtml(event)}</div>
+            ${matches.length ? `<div class="event-slate">${matches.map((match) => {
+              const call = enrichMatch(match);
+              return `<article><span>${escapeHtml(`${formatDate(call.starts_at)} · ${(call.series_format || "bo3").toUpperCase()}`)}</span><strong>${escapeHtml(call.team1_name)} vs ${escapeHtml(call.team2_name)} · ${escapeHtml(call.predicted_winner)} ${formatPercent(call.confidence)}</strong></article>`;
+            }).join("")}</div>` : `<p class="field-empty">Pairings will appear here when the bracket is published.</p>`}
+          </div>
+        </details>
       </div>
     </div>
   `;
@@ -622,8 +671,8 @@ function updateGenericPickem(event) {
   setText(els.pickemScoreLabel, "Title share");
   setText(els.pickemChance, favorite ? formatPercent(favorite.probability) : "--");
   setText(els.pickemSummary, event?.participants?.length
-    ? `${event.participants.length} confirmed teams are included. The forecast moves with form, ranking strength, results, and the published bracket.`
-    : "The confirmed field is not complete, so this is an early VRS benchmark rather than a final event forecast.");
+    ? `${event.participants.length} announced teams · ${event.current_stage || event.format?.label || "event forecast"}`
+    : "Field pending · early strength read");
 }
 
 function activeMajorCalls() {
@@ -1153,28 +1202,29 @@ function renderEvents(events) {
     .sort((a, b) => (statusOrder[a.status] ?? 1) - (statusOrder[b.status] ?? 1) || new Date(a.start_date || 0) - new Date(b.start_date || 0));
   setText(els.eventCount, `${visibleEvents.length} tournaments`);
   visibleEvents.forEach((event) => {
-    const url = event.hltv_url || event.event_url || event.source_url;
     const card = document.createElement("article");
     card.className = "event-card";
     card.tabIndex = 0;
     card.dataset.eventId = event.id || "";
     card.dataset.status = event.status || "upcoming";
     const range = eventDateRange(event);
+    const date = eventDateParts(event);
+    const teams = event.participants || [];
+    const teamTotal = Number(event.teams) || teams.length;
     card.innerHTML = `
+      <div class="event-date-block"><span>${escapeHtml(date.month)}</span><strong>${escapeHtml(date.day)}</strong><small>${escapeHtml(range)}</small></div>
+      <div class="event-spine" aria-hidden="true"><i></i></div>
       <div class="event-card-main">
         <span>${escapeHtml(event.status || event.series || event.organizer || "Event")}</span>
         <h3>${escapeHtml(event.name || event.event_name || event.source_title || "Unnamed event")}</h3>
         <p>${escapeHtml(event.format?.label || "Organizer format pending")} · ${escapeHtml(event.location || "Location TBA")}</p>
       </div>
-      <dl>
-        <div><dt>Date</dt><dd>${escapeHtml(range || "TBA")}</dd></div>
-        <div><dt>Type</dt><dd>${escapeHtml(event.event_type || "Unknown")}</dd></div>
-        <div><dt>Tier</dt><dd>${escapeHtml(event.tier || event.publisher_tier || event.event_tier || "TBA")}</dd></div>
-      </dl>
-      <div class="event-card-actions">
-        <button type="button" data-event-open="${escapeHtml(event.id || "")}">Open forecast</button>
-        ${url ? `<a href="${escapeHtml(url)}" target="_blank" rel="noreferrer">HLTV source</a>` : ""}
+      <div class="event-team-stack">${teams.length
+        ? `${teams.slice(0, 5).map((teamName) => teamLogoHtml(teamName)).join("")}<span>${teamTotal > 5 ? `+${teamTotal - 5}` : `${teamTotal} teams`}</span>`
+        : `<span class="event-field-status">${teamTotal ? `${teamTotal} team field` : "Field pending"}</span>`}
       </div>
+      <div class="event-card-meta"><strong>${escapeHtml(`${event.event_type || "TBA"} · ${event.tier || event.event_tier || "TBA"}`)}</strong><span>${escapeHtml(event.current_stage || (event.status === "upcoming" ? "Starts soon" : "In progress"))}</span></div>
+      <button class="event-open" type="button" data-event-open="${escapeHtml(event.id || "")}" aria-label="Open ${escapeHtml(event.name || "event")}">↗</button>
     `;
     const openEvent = () => selectEvent(event.id);
     card.addEventListener("click", (clickEvent) => {
@@ -1239,7 +1289,7 @@ function renderRankings(vrs) {
       const delta = row.rank - projectedRank;
       const deltaLabel = delta > 0 ? `+${delta}` : delta < 0 ? `${delta}` : "=";
       const deltaClass = delta > 0 ? "is-up" : delta < 0 ? "is-down" : "is-flat";
-      return `<div class="ranking-row" role="row">
+      return `<div class="ranking-row" role="row" style="animation-delay:${Math.min(420, row.rank * 24)}ms">
         <span class="ranking-rank"><b>#${row.rank}</b><em class="${deltaClass}">${deltaLabel}</em></span>
         <span class="ranking-team">${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong><small>${escapeHtml(row.players?.join(" · ") || "Roster pending")}</small></span>
         <span class="ranking-points">${row.points}<small>official</small></span>
@@ -1248,6 +1298,11 @@ function renderRankings(vrs) {
       </div>`;
     }).join("")}
   `;
+  els.rankingsGrid.classList.toggle("is-expanded", rankingsExpanded);
+  if (els.rankingToggle) {
+    els.rankingToggle.setAttribute("aria-expanded", String(rankingsExpanded));
+    els.rankingToggle.textContent = rankingsExpanded ? "Show top 12" : "Show full top 30";
+  }
 }
 
 function compactStageName(value, fallback) {
@@ -1268,6 +1323,7 @@ function teamLogo(teamName) {
   const asset = teamAssets[normalizeName(teamName)];
   const fallback = document.createElement("span");
   fallback.className = "team-logo-fallback";
+  fallback.dataset.label = abbrev(teamName);
   fallback.setAttribute("aria-hidden", "true");
   if (!asset?.logo_url) return fallback;
 
@@ -1275,6 +1331,8 @@ function teamLogo(teamName) {
   image.className = "team-logo";
   image.src = asset.logo_url;
   image.alt = "";
+  image.title = teamName;
+  image.dataset.team = teamName;
   image.loading = "lazy";
   image.decoding = "async";
   image.referrerPolicy = "no-referrer";
@@ -1285,9 +1343,9 @@ function teamLogo(teamName) {
 function teamLogoHtml(teamName) {
   const asset = teamAssets[normalizeName(teamName)];
   if (!asset?.logo_url) {
-    return '<span class="team-logo-fallback" aria-hidden="true"></span>';
+    return `<span class="team-logo-fallback" data-label="${escapeHtml(abbrev(teamName))}" aria-hidden="true"></span>`;
   }
-  return `<img class="team-logo" src="${escapeHtml(asset.logo_url)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
+  return `<img class="team-logo" src="${escapeHtml(asset.logo_url)}" alt="" title="${escapeHtml(teamName)}" data-team="${escapeHtml(teamName)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
 }
 
 function normalizeName(teamName) {
@@ -1494,6 +1552,7 @@ document.addEventListener(
     if (!(target instanceof HTMLImageElement) || !target.classList.contains("team-logo")) return;
     const fallback = document.createElement("span");
     fallback.className = "team-logo-fallback";
+    fallback.dataset.label = abbrev(target.dataset.team || target.title || "Team");
     fallback.setAttribute("aria-hidden", "true");
     target.replaceWith(fallback);
   },
@@ -1519,6 +1578,11 @@ els.eventFilterButtons.forEach((button) => {
 els.resetPicks?.addEventListener("click", () => {
   pickOverrides.clear();
   renderDynamicMajor();
+});
+
+els.rankingToggle?.addEventListener("click", () => {
+  rankingsExpanded = !rankingsExpanded;
+  renderRankings(appData?.coverage?.vrs);
 });
 
 async function fetchPredictionData() {

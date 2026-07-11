@@ -1,6 +1,6 @@
 {
   "contract_version": "2026-07-10",
-  "last_verified_utc": "2026-07-10T08:00:00Z",
+  "last_verified_utc": "2026-07-11T01:13:42Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -121,14 +121,14 @@
       "tier": "A-Tier",
       "teams": 16,
       "current_stage": "Semifinals",
-      "participants": ["9z", "Alliance", "PARIVISION", "FaZe"],
-      "map_pool": ["Cache", "Dust2", "Mirage", "Inferno", "Nuke", "Ancient", "Anubis"],
+      "participants": ["PARIVISION", "3DMAX", "B8", "Monte", "9z", "BetBoom", "FaZe", "BIG", "Alliance", "Ninjas in Pyjamas", "MIBR", "Nemesis", "EYEBALLERS", "SINNERS", "TYLOO", "Lynn Vision"],
+      "map_pool": ["Ancient", "Anubis", "Dust2", "Inferno", "Mirage", "Nuke", "Overpass"],
       "format": {
-        "type": "mixed",
-        "label": "Group stage + playoffs",
+        "type": "swiss",
+        "label": "16-team Swiss + single-elimination playoffs",
         "confidence": "format_confirmed"
       },
-      "source_url": "https://www.hltv.org/events",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026",
       "matches": [
         {"stage_name":"Semifinal","starts_at":"2026-07-11T10:00:00+02:00","series_format":"bo3","team1_name":"9z","team2_name":"Alliance","status":"scheduled"},
         {"stage_name":"Semifinal","starts_at":"2026-07-11T13:00:00+02:00","series_format":"bo3","team1_name":"PARIVISION","team2_name":"FaZe","status":"scheduled"}
@@ -143,13 +143,14 @@
       "location": "Europe, Online",
       "event_type": "Online",
       "tier": "C-Tier",
-      "teams": null,
+      "teams": 24,
+      "map_pool": ["Ancient", "Anubis", "Cache", "Dust2", "Inferno", "Mirage", "Nuke"],
       "format": {
-        "type": "mixed",
-        "label": "League / bracket stages",
-        "confidence": "schedule_confirmed_format_detail_pending"
+        "type": "gsl",
+        "label": "Four GSL groups + single-elimination playoffs",
+        "confidence": "format_confirmed"
       },
-      "source_url": "https://www.hltv.org/events"
+      "source_url": "https://liquipedia.net/counterstrike/European_Pro_League/Series_8"
     },
     {
       "id": "blast-bounty-s2-europe-2026",

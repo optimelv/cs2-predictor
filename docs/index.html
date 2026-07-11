@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css?v=20260711">
   </head>
   <body>
     <a class="skip-link" href="#dashboard">Skip to predictions</a>
@@ -35,10 +35,10 @@
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <span class="hero-kicker">Counter-Strike probability, properly contextualized</span>
+          <span class="hero-kicker">Live CS2 match intelligence</span>
           <h1 id="hero-title">Every series.<br><strong>Read in full.</strong></h1>
           <p class="hero-lede">
-            StrikeSignal turns team strength, player form, map depth, and veto behavior into one clear match forecast. Start before the veto, sharpen the call when maps lock.
+            Team strength, player form, map depth, and the veto in one forecast that moves with the match.
           </p>
           <div class="hero-actions">
             <a class="button primary" href="#matches">See the next calls</a>
@@ -47,13 +47,26 @@
         </div>
 
         <aside class="signal-machine" aria-label="StrikeSignal model flow">
-          <header><span>Series read</span><strong>Context compounds</strong></header>
+          <header><span>Signal engine</span><strong>Forecast in motion</strong></header>
           <div class="signal-flow" aria-hidden="true">
-            <div class="signal-input input-roster"><span>01</span><strong>Roster</strong><i></i></div>
-            <div class="signal-input input-form"><span>02</span><strong>Form</strong><i></i></div>
-            <div class="signal-input input-maps"><span>03</span><strong>Map pool</strong><i></i></div>
-            <div class="signal-node"><span>MODEL</span><b></b></div>
-            <div class="signal-output"><small>Pre-veto</small><strong>67.2%</strong><span>Post-veto <b>73.9%</b></span></div>
+            <svg class="signal-paths" viewBox="0 0 640 330" preserveAspectRatio="none">
+              <defs>
+                <linearGradient id="signalGradient" x1="0" x2="1">
+                  <stop offset="0" stop-color="#278dff" stop-opacity="0"/>
+                  <stop offset=".48" stop-color="#73c6ff"/>
+                  <stop offset="1" stop-color="#278dff" stop-opacity=".18"/>
+                </linearGradient>
+              </defs>
+              <path class="signal-path signal-path-a" d="M151 55 C250 55 224 132 315 147"/>
+              <path class="signal-path signal-path-b" d="M151 148 C230 148 250 148 315 148"/>
+              <path class="signal-path signal-path-c" d="M151 241 C250 241 224 164 315 149"/>
+              <path class="signal-path signal-path-out" d="M403 148 C470 148 472 148 521 148"/>
+            </svg>
+            <div class="signal-input input-roster"><span>01</span><strong>Roster</strong><small>continuity</small></div>
+            <div class="signal-input input-form"><span>02</span><strong>Form</strong><small>opponent adjusted</small></div>
+            <div class="signal-input input-maps"><span>03</span><strong>Map pool</strong><small>veto aware</small></div>
+            <div class="signal-node"><span>MODEL</span><b></b><i></i></div>
+            <div class="signal-output"><small>Pre-veto</small><strong>67.2%</strong><span>Maps lock <b>73.9%</b></span></div>
           </div>
           <footer><span>Pre-match</span><i></i><span>Veto</span><i></i><span>Series</span></footer>
         </aside>
@@ -69,10 +82,10 @@
       <section id="matches" class="section-shell matches-shell" aria-labelledby="matches-title">
         <div class="section-heading split-heading">
           <div>
-            <span class="section-index">01 / Match desk</span>
+            <span class="section-index">Match desk</span>
             <h2 id="matches-title">Next on server.</h2>
           </div>
-          <p>Verified fixtures for the next 24 hours. Open a series for the map outlook when enough veto and map-pool evidence is available.</p>
+          <p>Open any series for the map-by-map read.</p>
         </div>
         <div id="deciderGrid" class="match-grid"></div>
       </section>
@@ -80,10 +93,10 @@
       <section id="events" class="section-shell events-shell" aria-labelledby="events-title">
         <div class="section-heading split-heading">
           <div>
-            <span class="section-index">02 / Event calendar</span>
+            <span class="section-index">Event calendar</span>
             <h2 id="events-title">The circuit ahead.</h2>
           </div>
-          <p>Ongoing events first, then the ranked international calendar. Select any tournament to open its format, field, contender forecast, and published match slate.</p>
+          <p>Follow the season in order. Open an event for its teams, format, and forecast.</p>
         </div>
         <div class="event-filter" role="group" aria-label="Filter events">
           <button class="is-active" type="button" data-event-filter="active">Active and upcoming</button>
@@ -146,42 +159,43 @@
       <section id="rankings" class="section-shell rankings-shell" aria-labelledby="rankings-title">
         <div class="section-heading split-heading">
           <div>
-            <span class="section-index">03 / Global order</span>
-            <h2 id="rankings-title">VRS, with movement.</h2>
+            <span class="section-index">Valve world ranking</span>
+            <h2 id="rankings-title">World order.</h2>
           </div>
-          <p>Valve's official order stays untouched. The movement column adds a separate form-adjusted estimate for the next update, never a replacement for the published ranking.</p>
+          <p>Official rank now. StrikeSignal movement next.</p>
         </div>
         <div class="ranking-summary-bar">
           <div><span>Official source</span><strong id="rankingsSource">Loading VRS</strong></div>
           <div><span>Snapshot</span><strong id="rankingsUpdated">--</strong></div>
-          <div><span>Teams shown</span><strong>Global top 30</strong></div>
+          <div><span>Field</span><strong>Global top 30</strong></div>
           <a id="rankingsSourceLink" href="https://www.hltv.org/valve-ranking/teams/2026/july/7" target="_blank" rel="noreferrer">View official ranking</a>
         </div>
         <div id="rankingsGrid" class="rankings-table" role="table" aria-label="Valve global ranking and StrikeSignal movement forecast"></div>
+        <button id="rankingToggle" class="ranking-toggle" type="button" aria-expanded="false">Show full top 30</button>
       </section>
 
       <section id="model" class="section-shell model-shell" aria-labelledby="model-title">
         <div class="section-heading split-heading">
           <div>
-            <span class="section-index">04 / The read</span>
+            <span class="section-index">Model modes</span>
             <h2 id="model-title">One series, two moments.</h2>
           </div>
-          <p>A match before the veto and the same match after official map picks are different prediction problems. StrikeSignal treats them that way.</p>
+          <p>The veto changes the question. The forecast changes with it.</p>
         </div>
         <div class="model-evidence">
           <article class="model-mode">
             <span>Before veto</span><strong id="modelPre">--</strong>
             <h3>Who is stronger today?</h3>
-            <p>Team power, player level, roster continuity, recent form, opponent quality, event tier, and series format.</p>
+            <p>Team strength, player level, form, opponent quality, and series format.</p>
           </article>
           <article class="model-mode is-map-aware">
             <span>After veto</span><strong id="modelPost">--</strong>
             <h3>Who is stronger on these maps?</h3>
-            <p>Official picks and bans, permabans, map order, side tendencies, map-specific evidence, and the remaining matchup.</p>
+            <p>Official picks, bans, permabans, map order, and map-specific form.</p>
           </article>
           <aside class="model-note">
-            <span>Calibration rule</span>
-            <p>No 100% calls. Sparse teams, roster changes, and uncertain maps pull forecasts toward the middle instead of producing false certainty.</p>
+            <span>Uncertainty</span>
+            <p>Thin data and roster changes pull the number back toward 50%.</p>
           </aside>
         </div>
       </section>
@@ -199,6 +213,6 @@
 
     <script src="./data/predictions.js"></script>
     <script src="./data/coverage.js"></script>
-    <script src="./app.js" type="module"></script>
+    <script src="./app.js?v=20260711" type="module"></script>
   </body>
 </html>

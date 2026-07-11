@@ -2,37 +2,41 @@
 
 ## Objective
 
-Ship StrikeSignal as a populated, universal CS2 prediction product rather than a single-event Major page.
+Ship StrikeSignal as a populated, universal CS2 prediction product with a premium broadcast-desk interface and purposeful high-motion storytelling.
 
-## Acceptance criteria
+## Acceptance Criteria
 
-- Current matches, active events, and upcoming tournaments are populated.
-- Tournament rooms adapt to the selected event and known format.
-- July VRS rankings and projected movement are visible.
-- Existing detailed Cologne playoff data remains available as an archive.
-- Desktop and mobile layouts remain polished and usable.
-- Refresh tooling does not spend Apify free-plan credits automatically.
+- Current matches and the tournament calendar are populated.
+- Every event opens into a format-aware room with teams, schedule, and forecast.
+- July VRS top 30 and projected movement are visible.
+- Team crests resolve without remote hotlink failures.
+- Desktop and mobile remain polished and usable.
+- Updated snapshots revalidate immediately after deployment.
 
 ## Decisions
 
-- Preserve the StrikeSignal mark, electric-blue accent, and condensed display typography.
-- Use a dense editorial broadcast-desk direction instead of generic SaaS cards.
-- Use the bundled coverage snapshot as the reliable public fallback.
-- Keep the credit-consuming Apify workflow manual-only until a hosted FlareSolverr worker exists.
+- Preserve the StrikeSignal mark, electric-blue accent, and condensed display type.
+- Favor an editorial esports product over generic SaaS cards or explanatory copy.
+- Keep motion prominent, continuous, and connected to model signals.
+- Keep Apify manual-only until a hosted scraping worker exists.
 
 ## Completed
 
-- Rebuilt the page around live match calls, an event calendar, tournament rooms, rankings, and model context.
-- Added six current match calls, thirteen events, the XSE semifinals, the full BLAST Bounty field, and VRS top 30.
-- Added format-aware event views, matchup probabilities, map context, ranking movement projections, and responsive motion.
-- Verified event switching, completed-event playoff rendering, ranking order, and mobile behavior.
+- Rebuilt the hero as a continuously animated model signal engine.
+- Reworked tournaments into a chronological event rail with complete event rooms.
+- Added the full 16-team XSE field, corrected event formats and map pools, and bundled six missing official crests.
+- Added top-12/top-30 ranking disclosure and release-safe data cache headers.
+- Removed verbose methodology and disclaimer copy from the product surface.
 
 ## Verification
 
-- Desktop at 1280px: passed.
-- Mobile at 390px: passed with no horizontal overflow.
-- Browser console: no errors or warnings.
-- Event switching and Cologne archive: passed.
-- Static checks: passed.
-- GitHub `main`: pushed.
-- Vercel production: live at `https://cs2-predictor-ebon.vercel.app`.
+- Desktop browser QA at 1440px: passed with no horizontal overflow.
+- Mobile layout QA at 390px: passed in the preceding responsive pass.
+- XSE field: 16 teams, 16 resolved crest images, zero fallbacks.
+- Ranking disclosure: 13 visible rows collapsed, 31 visible rows expanded.
+- JavaScript syntax, JSON parse, and whitespace checks: passed.
+
+## Remaining
+
+- Commit and push the release.
+- Confirm the Vercel production deployment.

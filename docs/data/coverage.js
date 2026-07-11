@@ -1,6 +1,6 @@
 window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "2026-07-10",
-  "last_verified_utc": "2026-07-10T08:00:00Z",
+  "last_verified_utc": "2026-07-11T01:13:42Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -121,17 +121,56 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "tier": "A-Tier",
       "teams": 16,
       "current_stage": "Semifinals",
-      "participants": ["9z", "Alliance", "PARIVISION", "FaZe"],
-      "map_pool": ["Cache", "Dust2", "Mirage", "Inferno", "Nuke", "Ancient", "Anubis"],
+      "participants": [
+        "PARIVISION",
+        "3DMAX",
+        "B8",
+        "Monte",
+        "9z",
+        "BetBoom",
+        "FaZe",
+        "BIG",
+        "Alliance",
+        "Ninjas in Pyjamas",
+        "MIBR",
+        "Nemesis",
+        "EYEBALLERS",
+        "SINNERS",
+        "TYLOO",
+        "Lynn Vision"
+      ],
+      "map_pool": [
+        "Ancient",
+        "Anubis",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke",
+        "Overpass"
+      ],
       "format": {
-        "type": "mixed",
-        "label": "Group stage + playoffs",
+        "type": "swiss",
+        "label": "16-team Swiss + single-elimination playoffs",
         "confidence": "format_confirmed"
       },
-      "source_url": "https://www.hltv.org/events",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026",
       "matches": [
-        {"stage_name":"Semifinal","starts_at":"2026-07-11T10:00:00+02:00","series_format":"bo3","team1_name":"9z","team2_name":"Alliance","status":"scheduled"},
-        {"stage_name":"Semifinal","starts_at":"2026-07-11T13:00:00+02:00","series_format":"bo3","team1_name":"PARIVISION","team2_name":"FaZe","status":"scheduled"}
+        {
+          "stage_name": "Semifinal",
+          "starts_at": "2026-07-11T10:00:00+02:00",
+          "series_format": "bo3",
+          "team1_name": "9z",
+          "team2_name": "Alliance",
+          "status": "scheduled"
+        },
+        {
+          "stage_name": "Semifinal",
+          "starts_at": "2026-07-11T13:00:00+02:00",
+          "series_format": "bo3",
+          "team1_name": "PARIVISION",
+          "team2_name": "FaZe",
+          "status": "scheduled"
+        }
       ]
     },
     {
@@ -143,13 +182,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "location": "Europe, Online",
       "event_type": "Online",
       "tier": "C-Tier",
-      "teams": null,
+      "teams": 24,
+      "map_pool": [
+        "Ancient",
+        "Anubis",
+        "Cache",
+        "Dust2",
+        "Inferno",
+        "Mirage",
+        "Nuke"
+      ],
       "format": {
-        "type": "mixed",
-        "label": "League / bracket stages",
-        "confidence": "schedule_confirmed_format_detail_pending"
+        "type": "gsl",
+        "label": "Four GSL groups + single-elimination playoffs",
+        "confidence": "format_confirmed"
       },
-      "source_url": "https://www.hltv.org/events"
+      "source_url": "https://liquipedia.net/counterstrike/European_Pro_League/Series_8"
     },
     {
       "id": "blast-bounty-s2-europe-2026",
@@ -161,8 +209,49 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "event_type": "Online",
       "tier": "A-Tier",
       "teams": 32,
-      "participants": ["Falcons", "Vitality", "Spirit", "FURIA", "Aurora", "G2", "MOUZ", "The MongolZ", "FUT", "GamerLegion", "Astralis", "magic", "paiN", "FaZe", "Liquid", "M80", "Ninjas in Pyjamas", "Alliance", "3DMAX", "EYEBALLERS", "HEROIC", "Sharks", "Nemesis", "Gentle Mates", "Wildcard", "SINNERS", "FOKUS", "Nuclear TigeRES", "HOTU", "100 Thieves", "OG", "Nemiga"],
-      "map_pool": ["Cache", "Dust2", "Mirage", "Inferno", "Nuke", "Ancient", "Anubis"],
+      "participants": [
+        "Falcons",
+        "Vitality",
+        "Spirit",
+        "FURIA",
+        "Aurora",
+        "G2",
+        "MOUZ",
+        "The MongolZ",
+        "FUT",
+        "GamerLegion",
+        "Astralis",
+        "magic",
+        "paiN",
+        "FaZe",
+        "Liquid",
+        "M80",
+        "Ninjas in Pyjamas",
+        "Alliance",
+        "3DMAX",
+        "EYEBALLERS",
+        "HEROIC",
+        "Sharks",
+        "Nemesis",
+        "Gentle Mates",
+        "Wildcard",
+        "SINNERS",
+        "FOKUS",
+        "Nuclear TigeRES",
+        "HOTU",
+        "100 Thieves",
+        "OG",
+        "Nemiga"
+      ],
+      "map_pool": [
+        "Cache",
+        "Dust2",
+        "Mirage",
+        "Inferno",
+        "Nuke",
+        "Ancient",
+        "Anubis"
+      ],
       "format": {
         "type": "single_elimination",
         "label": "32-team single elimination, best of three",
@@ -341,37 +430,396 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     "source_url": "https://www.hltv.org/valve-ranking/teams/2026/july/7",
     "method_note": "Valve ranking points and ranks are official as of the source date. StrikeSignal projections below are not official Valve standings.",
     "teams": [
-      {"rank":1,"team_name":"Spirit","points":2014,"region":"EU","players":["sh1ro","magixx","tN1R","zont1x","donk"]},
-      {"rank":2,"team_name":"Falcons","points":2003,"region":"EU","players":["karrigan","NiKo","TeSeS","m0NESY","kyousuke"]},
-      {"rank":3,"team_name":"Vitality","points":1927,"region":"EU","players":["apEX","ropz","ZywOo","flameZ","mezii"]},
-      {"rank":4,"team_name":"NAVI","points":1857,"region":"EU","players":["Aleksib","iM","b1t","w0nderful","makazze"]},
-      {"rank":5,"team_name":"FURIA","points":1823,"region":"AM","players":["FalleN","yuurih","YEKINDAR","KSCERATO","molodoy"]},
-      {"rank":6,"team_name":"Legacy","points":1788,"region":"AM","players":["arT","dumau","latto","n1ssim","saadzin"]},
-      {"rank":7,"team_name":"MOUZ","points":1782,"region":"EU","players":["torzsi","Spinx","jL","xertioN","xelex"]},
-      {"rank":8,"team_name":"BetBoom","points":1770,"region":"EU","players":["Boombl4","zorte","d1Ledez","FL4MUS","Magnojez"]},
-      {"rank":9,"team_name":"Aurora","points":1751,"region":"EU","players":["MAJ3R","XANTARES","woxic","soulfly","Wicadia"]},
-      {"rank":10,"team_name":"G2","points":1740,"region":"EU","players":["huNter-","NertZ","SunPayus","HeavyGod","MATYS"]},
-      {"rank":11,"team_name":"FUT","points":1718,"region":"EU","players":["dem0n","lauNX","Krabeni","cmtry","dziugss"]},
-      {"rank":12,"team_name":"9z","points":1710,"region":"AM","players":["max","dgt","meyern","luchov","HUASOPEEK"]},
-      {"rank":13,"team_name":"The MongolZ","points":1672,"region":"AS","players":["bLitz","Techno","mzinho","910","cobrazera"]},
-      {"rank":14,"team_name":"PARIVISION","points":1612,"region":"EU","players":["Jame","BELCHONOKK","xiELO","nota","zweih"]},
-      {"rank":15,"team_name":"MIBR","points":1596,"region":"AM","players":["LNZ","nqz","brnz4n","insani","venomzera"]},
-      {"rank":16,"team_name":"Astralis","points":1573,"region":"EU","players":["HooXi","phzy","jabbi","Staehr","ryu"]},
-      {"rank":17,"team_name":"B8","points":1572,"region":"EU","players":["alex666","npl","kensizor","esenthial","s1zzi"]},
-      {"rank":18,"team_name":"TYLOO","points":1559,"region":"AS","players":["JamYoung","Jee","Mercury","Moseyuh","Zero"]},
-      {"rank":19,"team_name":"GamerLegion","points":1554,"region":"EU","players":["Snax","REZ","Tauson","PR","hypex"]},
-      {"rank":20,"team_name":"FaZe","points":1513,"region":"EU","players":["frozen","Twistzz","Neityu","jcobbb","JBOEN"]},
-      {"rank":21,"team_name":"Alliance","points":1503,"region":"EU","players":["twist","eraa","bobeksde","upE","avid"]},
-      {"rank":22,"team_name":"BIG","points":1499,"region":"EU","players":["tabseN","JDC","faveN","blameF","gr1ks"]},
-      {"rank":23,"team_name":"Luminosity","points":1494,"region":"EU","players":["Rainwaker","Bymas","afro","Gizmy","AZUWU"]},
-      {"rank":24,"team_name":"magic","points":1475,"region":"EU","players":["MaSvAl","sFade8","AW","mo0N","tenzy"]},
-      {"rank":25,"team_name":"paiN","points":1472,"region":"AM","players":["vsm","biguzera","piriajr","saffee","snow"]},
-      {"rank":26,"team_name":"Lynn Vision","points":1408,"region":"AS","players":["Westmelon","z4KR","Starry","EmiliaQAQ","C4LLM3SU3"]},
-      {"rank":27,"team_name":"M80","points":1407,"region":"AM","players":["slaxz-","Swisher","s1n","JBa","Lake"]},
-      {"rank":28,"team_name":"Nemesis","points":1405,"region":"EU","players":["SELLTER","r3salt","mag1k3Y","tex1y","Sdaim"]},
-      {"rank":29,"team_name":"Ninjas in Pyjamas","points":1396,"region":"EU","players":["Snappi","stavn","sjuush","xKacpersky","cairne"]},
-      {"rank":30,"team_name":"Inner Circle","points":1389,"region":"EU","players":["cptkurtka023","headtr1ck","zeRRoFIX","onic","Dawy"]}
+      {
+        "rank": 1,
+        "team_name": "Spirit",
+        "points": 2014,
+        "region": "EU",
+        "players": [
+          "sh1ro",
+          "magixx",
+          "tN1R",
+          "zont1x",
+          "donk"
+        ]
+      },
+      {
+        "rank": 2,
+        "team_name": "Falcons",
+        "points": 2003,
+        "region": "EU",
+        "players": [
+          "karrigan",
+          "NiKo",
+          "TeSeS",
+          "m0NESY",
+          "kyousuke"
+        ]
+      },
+      {
+        "rank": 3,
+        "team_name": "Vitality",
+        "points": 1927,
+        "region": "EU",
+        "players": [
+          "apEX",
+          "ropz",
+          "ZywOo",
+          "flameZ",
+          "mezii"
+        ]
+      },
+      {
+        "rank": 4,
+        "team_name": "NAVI",
+        "points": 1857,
+        "region": "EU",
+        "players": [
+          "Aleksib",
+          "iM",
+          "b1t",
+          "w0nderful",
+          "makazze"
+        ]
+      },
+      {
+        "rank": 5,
+        "team_name": "FURIA",
+        "points": 1823,
+        "region": "AM",
+        "players": [
+          "FalleN",
+          "yuurih",
+          "YEKINDAR",
+          "KSCERATO",
+          "molodoy"
+        ]
+      },
+      {
+        "rank": 6,
+        "team_name": "Legacy",
+        "points": 1788,
+        "region": "AM",
+        "players": [
+          "arT",
+          "dumau",
+          "latto",
+          "n1ssim",
+          "saadzin"
+        ]
+      },
+      {
+        "rank": 7,
+        "team_name": "MOUZ",
+        "points": 1782,
+        "region": "EU",
+        "players": [
+          "torzsi",
+          "Spinx",
+          "jL",
+          "xertioN",
+          "xelex"
+        ]
+      },
+      {
+        "rank": 8,
+        "team_name": "BetBoom",
+        "points": 1770,
+        "region": "EU",
+        "players": [
+          "Boombl4",
+          "zorte",
+          "d1Ledez",
+          "FL4MUS",
+          "Magnojez"
+        ]
+      },
+      {
+        "rank": 9,
+        "team_name": "Aurora",
+        "points": 1751,
+        "region": "EU",
+        "players": [
+          "MAJ3R",
+          "XANTARES",
+          "woxic",
+          "soulfly",
+          "Wicadia"
+        ]
+      },
+      {
+        "rank": 10,
+        "team_name": "G2",
+        "points": 1740,
+        "region": "EU",
+        "players": [
+          "huNter-",
+          "NertZ",
+          "SunPayus",
+          "HeavyGod",
+          "MATYS"
+        ]
+      },
+      {
+        "rank": 11,
+        "team_name": "FUT",
+        "points": 1718,
+        "region": "EU",
+        "players": [
+          "dem0n",
+          "lauNX",
+          "Krabeni",
+          "cmtry",
+          "dziugss"
+        ]
+      },
+      {
+        "rank": 12,
+        "team_name": "9z",
+        "points": 1710,
+        "region": "AM",
+        "players": [
+          "max",
+          "dgt",
+          "meyern",
+          "luchov",
+          "HUASOPEEK"
+        ]
+      },
+      {
+        "rank": 13,
+        "team_name": "The MongolZ",
+        "points": 1672,
+        "region": "AS",
+        "players": [
+          "bLitz",
+          "Techno",
+          "mzinho",
+          "910",
+          "cobrazera"
+        ]
+      },
+      {
+        "rank": 14,
+        "team_name": "PARIVISION",
+        "points": 1612,
+        "region": "EU",
+        "players": [
+          "Jame",
+          "BELCHONOKK",
+          "xiELO",
+          "nota",
+          "zweih"
+        ]
+      },
+      {
+        "rank": 15,
+        "team_name": "MIBR",
+        "points": 1596,
+        "region": "AM",
+        "players": [
+          "LNZ",
+          "nqz",
+          "brnz4n",
+          "insani",
+          "venomzera"
+        ]
+      },
+      {
+        "rank": 16,
+        "team_name": "Astralis",
+        "points": 1573,
+        "region": "EU",
+        "players": [
+          "HooXi",
+          "phzy",
+          "jabbi",
+          "Staehr",
+          "ryu"
+        ]
+      },
+      {
+        "rank": 17,
+        "team_name": "B8",
+        "points": 1572,
+        "region": "EU",
+        "players": [
+          "alex666",
+          "npl",
+          "kensizor",
+          "esenthial",
+          "s1zzi"
+        ]
+      },
+      {
+        "rank": 18,
+        "team_name": "TYLOO",
+        "points": 1559,
+        "region": "AS",
+        "players": [
+          "JamYoung",
+          "Jee",
+          "Mercury",
+          "Moseyuh",
+          "Zero"
+        ]
+      },
+      {
+        "rank": 19,
+        "team_name": "GamerLegion",
+        "points": 1554,
+        "region": "EU",
+        "players": [
+          "Snax",
+          "REZ",
+          "Tauson",
+          "PR",
+          "hypex"
+        ]
+      },
+      {
+        "rank": 20,
+        "team_name": "FaZe",
+        "points": 1513,
+        "region": "EU",
+        "players": [
+          "frozen",
+          "Twistzz",
+          "Neityu",
+          "jcobbb",
+          "JBOEN"
+        ]
+      },
+      {
+        "rank": 21,
+        "team_name": "Alliance",
+        "points": 1503,
+        "region": "EU",
+        "players": [
+          "twist",
+          "eraa",
+          "bobeksde",
+          "upE",
+          "avid"
+        ]
+      },
+      {
+        "rank": 22,
+        "team_name": "BIG",
+        "points": 1499,
+        "region": "EU",
+        "players": [
+          "tabseN",
+          "JDC",
+          "faveN",
+          "blameF",
+          "gr1ks"
+        ]
+      },
+      {
+        "rank": 23,
+        "team_name": "Luminosity",
+        "points": 1494,
+        "region": "EU",
+        "players": [
+          "Rainwaker",
+          "Bymas",
+          "afro",
+          "Gizmy",
+          "AZUWU"
+        ]
+      },
+      {
+        "rank": 24,
+        "team_name": "magic",
+        "points": 1475,
+        "region": "EU",
+        "players": [
+          "MaSvAl",
+          "sFade8",
+          "AW",
+          "mo0N",
+          "tenzy"
+        ]
+      },
+      {
+        "rank": 25,
+        "team_name": "paiN",
+        "points": 1472,
+        "region": "AM",
+        "players": [
+          "vsm",
+          "biguzera",
+          "piriajr",
+          "saffee",
+          "snow"
+        ]
+      },
+      {
+        "rank": 26,
+        "team_name": "Lynn Vision",
+        "points": 1408,
+        "region": "AS",
+        "players": [
+          "Westmelon",
+          "z4KR",
+          "Starry",
+          "EmiliaQAQ",
+          "C4LLM3SU3"
+        ]
+      },
+      {
+        "rank": 27,
+        "team_name": "M80",
+        "points": 1407,
+        "region": "AM",
+        "players": [
+          "slaxz-",
+          "Swisher",
+          "s1n",
+          "JBa",
+          "Lake"
+        ]
+      },
+      {
+        "rank": 28,
+        "team_name": "Nemesis",
+        "points": 1405,
+        "region": "EU",
+        "players": [
+          "SELLTER",
+          "r3salt",
+          "mag1k3Y",
+          "tex1y",
+          "Sdaim"
+        ]
+      },
+      {
+        "rank": 29,
+        "team_name": "Ninjas in Pyjamas",
+        "points": 1396,
+        "region": "EU",
+        "players": [
+          "Snappi",
+          "stavn",
+          "sjuush",
+          "xKacpersky",
+          "cairne"
+        ]
+      },
+      {
+        "rank": 30,
+        "team_name": "Inner Circle",
+        "points": 1389,
+        "region": "EU",
+        "players": [
+          "cptkurtka023",
+          "headtr1ck",
+          "zeRRoFIX",
+          "onic",
+          "Dawy"
+        ]
+      }
     ]
   }
-}
-;
+};
