@@ -2,42 +2,41 @@
 
 ## Objective
 
-Ship StrikeSignal as a populated, universal CS2 prediction product with a premium broadcast-desk interface and purposeful high-motion storytelling.
+Ship a populated, premium CS2 intelligence product whose frontend scales to new events and data sources without event-specific rewrites.
 
 ## Acceptance Criteria
 
-- Current matches and the tournament calendar are populated.
-- Every event opens into a format-aware room with teams, schedule, and forecast.
-- July VRS top 30 and projected movement are visible.
-- Team crests resolve without remote hotlink failures.
-- Desktop and mobile remain polished and usable.
-- Updated snapshots revalidate immediately after deployment.
+- Current matches, rankings, and the tournament calendar are populated.
+- Every event opens into matches, format, field, and forecast views.
+- New formats and source updates enter through a versioned data boundary.
+- Official crests resolve where HLTV publishes one; honest initials remain for source placeholders.
+- Desktop and 390px mobile layouts have no overflow, broken images, or console errors.
 
 ## Decisions
 
-- Preserve the StrikeSignal mark, electric-blue accent, and condensed display type.
-- Favor an editorial esports product over generic SaaS cards or explanatory copy.
-- Keep motion prominent, continuous, and connected to model signals.
-- Keep Apify manual-only until a hosted scraping worker exists.
+- Preserve the StrikeSignal mark, electric-blue broadcast palette, and condensed editorial type.
+- Keep motion tied to model flow, live state, or bracket movement rather than decoration.
+- Use stable IDs and normalized snapshots as the collector/frontend boundary.
+- Keep the scraping worker external to Vercel; the frontend probes a generic live endpoint and stops polling when it is unavailable.
 
 ## Completed
 
-- Rebuilt the hero as a continuously animated model signal engine.
-- Reworked tournaments into a chronological event rail with complete event rooms.
-- Added the full 16-team XSE field, corrected event formats and map pools, and bundled six missing official crests.
-- Added top-12/top-30 ranking disclosure and release-safe data cache headers.
-- Removed verbose methodology and disclaimer copy from the product surface.
+- Built a dense match desk with date, status, event, series, probability, signal, and veto views.
+- Built reusable Swiss, GSL, knockout, double-elimination, round-robin, and custom-stage renderers.
+- Added event-level overview, match, format, and team workspaces plus partial-field safeguards.
+- Added 17 events, 11 current series, July VRS top 30, XSE results, EPL groups, and the full BLAST 32-team field.
+- Added a standalone 39-crest registry sourced from official HLTV assets.
+- Added contract normalization, live upserts, stable fallback IDs, schema documentation, and build-time data validation.
 
 ## Verification
 
-- Desktop browser QA at 1440px: passed with no horizontal overflow.
-- Mobile layout QA at 390px: passed in the preceding responsive pass.
-- XSE field: 16 teams, 16 resolved crest images, zero fallbacks.
-- Ranking disclosure: 13 visible rows collapsed, 31 visible rows expanded.
-- JavaScript syntax, JSON parse, and whitespace checks: passed.
+- Desktop: zero overflow, zero broken images, zero console warnings or errors.
+- Mobile 390x844: landing, match desk, event overview, and GSL format passed with zero overflow.
+- Event engines: XSE 7 results, BLAST 16 pairings, EPL 4 groups and 8 invites, FRAG partial-field fallback passed.
+- BLAST field: 32 teams, 32 resolved crests. EPL field: 24 teams, 20 official crests and 4 HLTV placeholders.
+- `npm run build` and `git diff --check`: passing.
 
-## Deployment
+## Remaining
 
-- GitHub `main`: `b3833dc` published.
-- Vercel production: verified at `https://cs2-predictor-ebon.vercel.app/`.
-- Production QA: 12 events, 13 collapsed ranking rows, zero broken images, and no desktop overflow.
+- Commit and publish this release.
+- Implement the hosted `/api/live-snapshot` collector later; no frontend changes are required.

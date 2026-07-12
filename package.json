@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node --check docs/app.js",
+    "build": "node --check docs/app.js && node scripts/validate-site-data.mjs",
     "dev": "netlify dev",
-    "check": "node --check docs/app.js"
+    "check": "node --check docs/app.js && node scripts/validate-site-data.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^9.1.0",

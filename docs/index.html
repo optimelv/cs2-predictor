@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css?v=20260711">
+    <link rel="stylesheet" href="./styles.css?v=20260712.2">
   </head>
   <body>
     <a class="skip-link" href="#dashboard">Skip to predictions</a>
@@ -74,7 +74,7 @@
 
       <section id="dashboard" class="desk-strip" aria-label="Current coverage summary">
         <article><span class="live-dot"></span><div><small>Coverage</small><strong id="freshnessLabel">Loading current slate</strong></div></article>
-        <article><small>Match desk</small><strong id="slateCount">6 verified series</strong></article>
+        <article><small>Match desk</small><strong id="slateCount">Loading series</strong></article>
         <article><small>Official ranking</small><strong id="rankingSnapshot">VRS · Jul 7</strong></article>
         <article><small>Model modes</small><strong>Pre-veto + map-aware</strong></article>
       </section>
@@ -82,12 +82,13 @@
       <section id="matches" class="section-shell matches-shell" aria-labelledby="matches-title">
         <div class="section-heading split-heading">
           <div>
-            <span class="section-index">Match desk</span>
-            <h2 id="matches-title">Next on server.</h2>
+            <span class="section-index">Series control</span>
+            <h2 id="matches-title">The match desk.</h2>
           </div>
-          <p>Open any series for the map-by-map read.</p>
+          <p>Live score, pre-veto edge, map outlook, and model coverage for every series.</p>
         </div>
-        <div id="deciderGrid" class="match-grid"></div>
+        <div id="matchToolbar" class="match-toolbar" aria-label="Match desk controls"></div>
+        <div id="deciderGrid" class="match-center"></div>
       </section>
 
       <section id="events" class="section-shell events-shell" aria-labelledby="events-title">
@@ -96,7 +97,7 @@
             <span class="section-index">Event calendar</span>
             <h2 id="events-title">The circuit ahead.</h2>
           </div>
-          <p>Follow the season in order. Open an event for its teams, format, and forecast.</p>
+          <p>Every event opens into its matches, competitive structure, field, and projected title path.</p>
         </div>
         <div class="event-filter" role="group" aria-label="Filter events">
           <button class="is-active" type="button" data-event-filter="active">Active and upcoming</button>
@@ -203,16 +204,17 @@
 
     <footer class="site-footer">
       <div><strong>StrikeSignal</strong><span>CS2 match, map, tournament, and ranking forecasts.</span></div>
-      <div class="footer-status"><span class="live-dot"></span><span>Verified fallback always on</span></div>
+      <div class="footer-status"><span class="live-dot"></span><span>Current circuit loaded</span></div>
       <a href="#top">Back to top</a>
     </footer>
 
     <template id="emptyTemplate">
-      <div class="empty-state"><h3>Coverage is being verified.</h3><p>The last confirmed snapshot remains available while the next slate is checked.</p></div>
+      <div class="empty-state"><h3>No new call yet.</h3><p>The latest complete slate stays on screen.</p></div>
     </template>
 
-    <script src="./data/predictions.js"></script>
-    <script src="./data/coverage.js"></script>
-    <script src="./app.js?v=20260711" type="module"></script>
+    <script src="./data/predictions.js?v=20260712.2"></script>
+    <script src="./data/coverage.js?v=20260712.2"></script>
+    <script src="./data/team-assets.js?v=20260712.2"></script>
+    <script src="./app.js?v=20260712.2" type="module"></script>
   </body>
 </html>

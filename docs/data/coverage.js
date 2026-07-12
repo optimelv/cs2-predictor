@@ -1,6 +1,6 @@
 window.__STRIKESIGNAL_COVERAGE__ = {
-  "contract_version": "2026-07-10",
-  "last_verified_utc": "2026-07-11T01:13:42Z",
+  "contract_version": "1.0",
+  "last_verified_utc": "2026-07-12T18:25:00Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -26,67 +26,122 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "daily_matches": [
     {
       "event_id": "thunderpick-sa-s2-2026",
-      "event_name": "Thunderpick World Championship SA Series 2",
-      "stage_name": "Group B decider",
-      "starts_at": "2026-07-10T23:00:00+02:00",
-      "series_format": "bo3",
-      "team1_name": "Yawara",
-      "team2_name": "MIBR Academy",
-      "status": "scheduled",
-      "source_url": "https://www.hltv.org/matches"
-    },
-    {
-      "event_id": "circuit-x-porto-na-2026",
-      "event_name": "Circuit X BLAST Open Porto NA Rising",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-07-11T00:30:00+02:00",
-      "series_format": "bo3",
-      "team1_name": "M80",
-      "team2_name": "LAG",
-      "status": "scheduled",
-      "source_url": "https://www.hltv.org/matches"
-    },
-    {
-      "event_id": "ggmedia-challenger-1-2026",
-      "event_name": "GGMEDIA Challenger Series 1",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-07-11T08:30:00+02:00",
-      "series_format": "bo3",
-      "team1_name": "The Huns",
-      "team2_name": "TYLOO",
-      "status": "scheduled",
-      "source_url": "https://www.hltv.org/matches"
-    },
-    {
-      "event_id": "xse-pro-league-2026",
-      "event_name": "XSE Pro League 2026",
+      "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "stage_name": "Semifinal",
-      "starts_at": "2026-07-11T10:00:00+02:00",
+      "starts_at": "2026-07-12T19:00:00+02:00",
       "series_format": "bo3",
-      "team1_name": "9z",
-      "team2_name": "Alliance",
-      "status": "scheduled",
+      "team1_name": "BESTIA",
+      "team2_name": "Keyd Stars",
+      "status": "live",
       "source_url": "https://www.hltv.org/matches"
     },
     {
-      "event_id": "xse-pro-league-2026",
-      "event_name": "XSE Pro League 2026",
+      "event_id": "frag-st-clair-2026",
+      "event_name": "FRAG St. Clair 2026",
       "stage_name": "Semifinal",
-      "starts_at": "2026-07-11T13:00:00+02:00",
+      "starts_at": "2026-07-12T19:00:00+02:00",
       "series_format": "bo3",
-      "team1_name": "PARIVISION",
-      "team2_name": "FaZe",
+      "team1_name": "Villainous",
+      "team2_name": "SportsBetExpert",
+      "status": "live",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "esl-challenger-52-eu-cup-1",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 1",
+      "stage_name": "Opening matches",
+      "starts_at": "2026-07-12T19:00:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "GenOne",
+      "team2_name": "Just Players",
+      "status": "live",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "esl-challenger-52-eu-cup-1",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 1",
+      "stage_name": "Opening matches",
+      "starts_at": "2026-07-12T19:00:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "SPARTA",
+      "team2_name": "Bushido Wildcats",
+      "status": "live",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "esl-challenger-52-eu-cup-1",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 1",
+      "stage_name": "Opening matches",
+      "starts_at": "2026-07-12T19:00:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "Entropy",
+      "team2_name": "Atreides",
+      "status": "live",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "esl-challenger-52-eu-cup-1",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 1",
+      "stage_name": "Opening matches",
+      "starts_at": "2026-07-12T19:00:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "MOUZ NXT",
+      "team2_name": "Noir Verse",
+      "status": "live",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "esl-challenger-52-eu-cup-1",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 1",
+      "stage_name": "Opening matches",
+      "starts_at": "2026-07-12T19:00:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "The Last Resort",
+      "team2_name": "fnatic",
+      "status": "live",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "esl-challenger-52-eu-cup-1",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 1",
+      "stage_name": "Opening matches",
+      "starts_at": "2026-07-12T19:00:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "HOTU",
+      "team2_name": "BRUTE",
+      "status": "live",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "cct-contenders-eu-s6-2026",
+      "event_name": "CCT 2026 Contenders Europe Series 6",
+      "stage_name": "Grand Final",
+      "starts_at": "2026-07-12T20:25:00+02:00",
+      "series_format": "bo3",
+      "team1_name": "LPH",
+      "team2_name": "mellren",
+      "status": "live",
+      "source_url": "https://www.hltv.org/matches"
+    },
+    {
+      "event_id": "frag-st-clair-2026",
+      "event_name": "FRAG St. Clair 2026",
+      "stage_name": "Grand Final",
+      "starts_at": "2026-07-12T22:00:00+02:00",
+      "series_format": "bo5",
+      "team1_name": "NRG",
+      "team2_name": "Semifinal winner",
       "status": "scheduled",
       "source_url": "https://www.hltv.org/matches"
     },
     {
-      "event_id": "res-showdown-eu-2026",
-      "event_name": "RES Showdown 4 Europe",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-07-11T20:00:00+02:00",
+      "event_id": "thunderpick-sa-s2-2026",
+      "event_name": "Thunderpick World Championship 2026 South America Series 2",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-07-12T23:00:00+02:00",
       "series_format": "bo3",
-      "team1_name": "Virtus.pro",
-      "team2_name": "Inner Circle",
+      "team1_name": "LP",
+      "team2_name": "Imperial",
       "status": "scheduled",
       "source_url": "https://www.hltv.org/matches"
     }
@@ -111,43 +166,76 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/events"
     },
     {
+      "id": "thunderpick-sa-s2-2026",
+      "name": "Thunderpick World Championship 2026 South America Series 2",
+      "status": "ongoing",
+      "start_date": "2026-07-08",
+      "end_date": "2026-07-12",
+      "location": "South America, Online",
+      "event_type": "Online",
+      "tier": "B-Tier",
+      "teams": 4,
+      "current_stage": "Semifinals",
+      "format": {"type":"single_elimination","label":"Single-elimination playoffs","confidence":"format_confirmed"},
+      "source_url": "https://www.hltv.org/events/9274/thunderpick-world-championship-2026-south-america-series-2"
+    },
+    {
+      "id": "cct-contenders-eu-s6-2026",
+      "name": "CCT 2026 Contenders Europe Series 6",
+      "status": "ongoing",
+      "start_date": "2026-07-09",
+      "end_date": "2026-07-12",
+      "location": "Europe, Online",
+      "event_type": "Online",
+      "tier": "B-Tier",
+      "teams": 24,
+      "current_stage": "Grand Final",
+      "format": {"type":"mixed","label":"Group stage + single-elimination playoffs","confidence":"format_confirmed"},
+      "source_url": "https://www.hltv.org/events/9249/cct-2026-contenders-europe-series-6"
+    },
+    {
+      "id": "esl-challenger-52-eu-cup-1",
+      "name": "ESL Challenger League Season 52 Europe Cup 1",
+      "status": "ongoing",
+      "start_date": "2026-07-12",
+      "end_date": "2026-07-14",
+      "location": "Europe, Online",
+      "event_type": "Online",
+      "tier": "B-Tier",
+      "teams": 16,
+      "current_stage": "Opening matches",
+      "format": {"type":"single_elimination","label":"16-team knockout cup","confidence":"format_confirmed"},
+      "source_url": "https://www.hltv.org/events/9259/esl-challenger-league-season-52-europe-cup-1"
+    },
+    {
+      "id": "frag-st-clair-2026",
+      "name": "FRAG St. Clair 2026",
+      "status": "ongoing",
+      "start_date": "2026-07-12",
+      "end_date": "2026-07-12",
+      "location": "Windsor, Canada",
+      "event_type": "LAN",
+      "tier": "C-Tier",
+      "teams": 4,
+      "current_stage": "Finals day",
+      "format": {"type":"double_elimination","label":"Four-team finals bracket with third-place decider","confidence":"format_confirmed"},
+      "source_url": "https://www.hltv.org/events/9264/frag-st-clair-2026"
+    },
+    {
       "id": "xse-pro-league-2026",
       "name": "XSE Pro League 2026",
-      "status": "ongoing",
+      "status": "finished",
       "start_date": "2026-07-01",
       "end_date": "2026-07-12",
       "location": "Guangzhou, China",
       "event_type": "LAN",
       "tier": "A-Tier",
       "teams": 16,
-      "current_stage": "Semifinals",
-      "participants": [
-        "PARIVISION",
-        "3DMAX",
-        "B8",
-        "Monte",
-        "9z",
-        "BetBoom",
-        "FaZe",
-        "BIG",
-        "Alliance",
-        "Ninjas in Pyjamas",
-        "MIBR",
-        "Nemesis",
-        "EYEBALLERS",
-        "SINNERS",
-        "TYLOO",
-        "Lynn Vision"
-      ],
-      "map_pool": [
-        "Ancient",
-        "Anubis",
-        "Dust2",
-        "Inferno",
-        "Mirage",
-        "Nuke",
-        "Overpass"
-      ],
+      "current_stage": "Complete",
+      "champion": "9z",
+      "runner_up": "PARIVISION",
+      "participants": ["PARIVISION", "3DMAX", "B8", "Monte", "9z", "BetBoom", "FaZe", "BIG", "Alliance", "Ninjas in Pyjamas", "MIBR", "Nemesis", "EYEBALLERS", "SINNERS", "TYLOO", "Lynn Vision"],
+      "map_pool": ["Ancient", "Anubis", "Cache", "Dust2", "Inferno", "Mirage", "Nuke"],
       "format": {
         "type": "swiss",
         "label": "16-team Swiss + single-elimination playoffs",
@@ -155,22 +243,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026",
       "matches": [
-        {
-          "stage_name": "Semifinal",
-          "starts_at": "2026-07-11T10:00:00+02:00",
-          "series_format": "bo3",
-          "team1_name": "9z",
-          "team2_name": "Alliance",
-          "status": "scheduled"
-        },
-        {
-          "stage_name": "Semifinal",
-          "starts_at": "2026-07-11T13:00:00+02:00",
-          "series_format": "bo3",
-          "team1_name": "PARIVISION",
-          "team2_name": "FaZe",
-          "status": "scheduled"
-        }
+        {"stage_name":"Quarterfinal","starts_at":"2026-07-09T10:00:00+02:00","series_format":"bo3","team1_name":"TYLOO","team2_name":"9z","status":"finished","score1":1,"score2":2},
+        {"stage_name":"Quarterfinal","starts_at":"2026-07-09T13:00:00+02:00","series_format":"bo3","team1_name":"Nemesis","team2_name":"Alliance","status":"finished","score1":1,"score2":2},
+        {"stage_name":"Quarterfinal","starts_at":"2026-07-10T10:00:00+02:00","series_format":"bo3","team1_name":"PARIVISION","team2_name":"BIG","status":"finished","score1":2,"score2":1},
+        {"stage_name":"Quarterfinal","starts_at":"2026-07-10T13:00:00+02:00","series_format":"bo3","team1_name":"FaZe","team2_name":"BetBoom","status":"finished","score1":2,"score2":0},
+        {"stage_name":"Semifinal","starts_at":"2026-07-11T10:00:00+02:00","series_format":"bo3","team1_name":"9z","team2_name":"Alliance","status":"finished","score1":2,"score2":1},
+        {"stage_name":"Semifinal","starts_at":"2026-07-11T13:00:00+02:00","series_format":"bo3","team1_name":"PARIVISION","team2_name":"FaZe","status":"finished","score1":2,"score2":1},
+        {"stage_name":"Grand Final","starts_at":"2026-07-12T11:00:00+02:00","series_format":"bo5","team1_name":"9z","team2_name":"PARIVISION","status":"finished","score1":3,"score2":0}
       ]
     },
     {
@@ -183,15 +262,16 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "event_type": "Online",
       "tier": "C-Tier",
       "teams": 24,
-      "map_pool": [
-        "Ancient",
-        "Anubis",
-        "Cache",
-        "Dust2",
-        "Inferno",
-        "Mirage",
-        "Nuke"
+      "current_stage": "Group Stage",
+      "participants": ["Nuclear TigeRES", "Walczaki", "BASEMENT BOYS", "GenOne", "1win", "Eternal Fire", "CYBERSHOKE", "ARCRED", "Just Players", "Lavked", "SPARTA", "WW", "Enjoy", "BET-M", "BRUTE", "PsychoFace", "The Last Resort", "Honvéd", "ex-RUSTEC", "ENCE", "eternal premium", "WBT", "illwill", "Atreides"],
+      "playoff_invites": ["Nuclear TigeRES", "Walczaki", "1win", "Eternal Fire", "CYBERSHOKE", "ARCRED", "WW", "BET-M"],
+      "groups": [
+        {"name":"Group A","teams":["Lavked","Just Players","illwill","WBT"]},
+        {"name":"Group B","teams":["BASEMENT BOYS","The Last Resort","PsychoFace","Enjoy"]},
+        {"name":"Group C","teams":["Atreides","eternal premium","SPARTA","ENCE"]},
+        {"name":"Group D","teams":["GenOne","BRUTE","ex-RUSTEC","Honvéd"]}
       ],
+      "map_pool": ["Ancient", "Anubis", "Cache", "Dust2", "Inferno", "Mirage", "Nuke"],
       "format": {
         "type": "gsl",
         "label": "Four GSL groups + single-elimination playoffs",
@@ -209,49 +289,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "event_type": "Online",
       "tier": "A-Tier",
       "teams": 32,
-      "participants": [
-        "Falcons",
-        "Vitality",
-        "Spirit",
-        "FURIA",
-        "Aurora",
-        "G2",
-        "MOUZ",
-        "The MongolZ",
-        "FUT",
-        "GamerLegion",
-        "Astralis",
-        "magic",
-        "paiN",
-        "FaZe",
-        "Liquid",
-        "M80",
-        "Ninjas in Pyjamas",
-        "Alliance",
-        "3DMAX",
-        "EYEBALLERS",
-        "HEROIC",
-        "Sharks",
-        "Nemesis",
-        "Gentle Mates",
-        "Wildcard",
-        "SINNERS",
-        "FOKUS",
-        "Nuclear TigeRES",
-        "HOTU",
-        "100 Thieves",
-        "OG",
-        "Nemiga"
-      ],
-      "map_pool": [
-        "Cache",
-        "Dust2",
-        "Mirage",
-        "Inferno",
-        "Nuke",
-        "Ancient",
-        "Anubis"
-      ],
+      "participants": ["Falcons", "Vitality", "Spirit", "FURIA", "Aurora", "G2", "MOUZ", "The MongolZ", "FUT", "GamerLegion", "Astralis", "magic", "paiN", "FaZe", "Liquid", "M80", "Ninjas in Pyjamas", "Alliance", "3DMAX", "EYEBALLERS", "HEROIC", "Sharks", "Nemesis", "Gentle Mates", "Wildcard", "SINNERS", "FOKUS", "Nuclear TigeRES", "HOTU", "100 Thieves", "OG", "Nemiga"],
+      "map_pool": ["Cache", "Dust2", "Mirage", "Inferno", "Nuke", "Ancient", "Anubis"],
       "format": {
         "type": "single_elimination",
         "label": "32-team single elimination, best of three",
@@ -421,7 +460,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/events"
     }
   ],
-  "default_event_id": "xse-pro-league-2026",
+  "default_event_id": "epl-series-8-2026",
   "vrs": {
     "source": "Valve Regional Standings",
     "scope": "global",
@@ -430,396 +469,36 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     "source_url": "https://www.hltv.org/valve-ranking/teams/2026/july/7",
     "method_note": "Valve ranking points and ranks are official as of the source date. StrikeSignal projections below are not official Valve standings.",
     "teams": [
-      {
-        "rank": 1,
-        "team_name": "Spirit",
-        "points": 2014,
-        "region": "EU",
-        "players": [
-          "sh1ro",
-          "magixx",
-          "tN1R",
-          "zont1x",
-          "donk"
-        ]
-      },
-      {
-        "rank": 2,
-        "team_name": "Falcons",
-        "points": 2003,
-        "region": "EU",
-        "players": [
-          "karrigan",
-          "NiKo",
-          "TeSeS",
-          "m0NESY",
-          "kyousuke"
-        ]
-      },
-      {
-        "rank": 3,
-        "team_name": "Vitality",
-        "points": 1927,
-        "region": "EU",
-        "players": [
-          "apEX",
-          "ropz",
-          "ZywOo",
-          "flameZ",
-          "mezii"
-        ]
-      },
-      {
-        "rank": 4,
-        "team_name": "NAVI",
-        "points": 1857,
-        "region": "EU",
-        "players": [
-          "Aleksib",
-          "iM",
-          "b1t",
-          "w0nderful",
-          "makazze"
-        ]
-      },
-      {
-        "rank": 5,
-        "team_name": "FURIA",
-        "points": 1823,
-        "region": "AM",
-        "players": [
-          "FalleN",
-          "yuurih",
-          "YEKINDAR",
-          "KSCERATO",
-          "molodoy"
-        ]
-      },
-      {
-        "rank": 6,
-        "team_name": "Legacy",
-        "points": 1788,
-        "region": "AM",
-        "players": [
-          "arT",
-          "dumau",
-          "latto",
-          "n1ssim",
-          "saadzin"
-        ]
-      },
-      {
-        "rank": 7,
-        "team_name": "MOUZ",
-        "points": 1782,
-        "region": "EU",
-        "players": [
-          "torzsi",
-          "Spinx",
-          "jL",
-          "xertioN",
-          "xelex"
-        ]
-      },
-      {
-        "rank": 8,
-        "team_name": "BetBoom",
-        "points": 1770,
-        "region": "EU",
-        "players": [
-          "Boombl4",
-          "zorte",
-          "d1Ledez",
-          "FL4MUS",
-          "Magnojez"
-        ]
-      },
-      {
-        "rank": 9,
-        "team_name": "Aurora",
-        "points": 1751,
-        "region": "EU",
-        "players": [
-          "MAJ3R",
-          "XANTARES",
-          "woxic",
-          "soulfly",
-          "Wicadia"
-        ]
-      },
-      {
-        "rank": 10,
-        "team_name": "G2",
-        "points": 1740,
-        "region": "EU",
-        "players": [
-          "huNter-",
-          "NertZ",
-          "SunPayus",
-          "HeavyGod",
-          "MATYS"
-        ]
-      },
-      {
-        "rank": 11,
-        "team_name": "FUT",
-        "points": 1718,
-        "region": "EU",
-        "players": [
-          "dem0n",
-          "lauNX",
-          "Krabeni",
-          "cmtry",
-          "dziugss"
-        ]
-      },
-      {
-        "rank": 12,
-        "team_name": "9z",
-        "points": 1710,
-        "region": "AM",
-        "players": [
-          "max",
-          "dgt",
-          "meyern",
-          "luchov",
-          "HUASOPEEK"
-        ]
-      },
-      {
-        "rank": 13,
-        "team_name": "The MongolZ",
-        "points": 1672,
-        "region": "AS",
-        "players": [
-          "bLitz",
-          "Techno",
-          "mzinho",
-          "910",
-          "cobrazera"
-        ]
-      },
-      {
-        "rank": 14,
-        "team_name": "PARIVISION",
-        "points": 1612,
-        "region": "EU",
-        "players": [
-          "Jame",
-          "BELCHONOKK",
-          "xiELO",
-          "nota",
-          "zweih"
-        ]
-      },
-      {
-        "rank": 15,
-        "team_name": "MIBR",
-        "points": 1596,
-        "region": "AM",
-        "players": [
-          "LNZ",
-          "nqz",
-          "brnz4n",
-          "insani",
-          "venomzera"
-        ]
-      },
-      {
-        "rank": 16,
-        "team_name": "Astralis",
-        "points": 1573,
-        "region": "EU",
-        "players": [
-          "HooXi",
-          "phzy",
-          "jabbi",
-          "Staehr",
-          "ryu"
-        ]
-      },
-      {
-        "rank": 17,
-        "team_name": "B8",
-        "points": 1572,
-        "region": "EU",
-        "players": [
-          "alex666",
-          "npl",
-          "kensizor",
-          "esenthial",
-          "s1zzi"
-        ]
-      },
-      {
-        "rank": 18,
-        "team_name": "TYLOO",
-        "points": 1559,
-        "region": "AS",
-        "players": [
-          "JamYoung",
-          "Jee",
-          "Mercury",
-          "Moseyuh",
-          "Zero"
-        ]
-      },
-      {
-        "rank": 19,
-        "team_name": "GamerLegion",
-        "points": 1554,
-        "region": "EU",
-        "players": [
-          "Snax",
-          "REZ",
-          "Tauson",
-          "PR",
-          "hypex"
-        ]
-      },
-      {
-        "rank": 20,
-        "team_name": "FaZe",
-        "points": 1513,
-        "region": "EU",
-        "players": [
-          "frozen",
-          "Twistzz",
-          "Neityu",
-          "jcobbb",
-          "JBOEN"
-        ]
-      },
-      {
-        "rank": 21,
-        "team_name": "Alliance",
-        "points": 1503,
-        "region": "EU",
-        "players": [
-          "twist",
-          "eraa",
-          "bobeksde",
-          "upE",
-          "avid"
-        ]
-      },
-      {
-        "rank": 22,
-        "team_name": "BIG",
-        "points": 1499,
-        "region": "EU",
-        "players": [
-          "tabseN",
-          "JDC",
-          "faveN",
-          "blameF",
-          "gr1ks"
-        ]
-      },
-      {
-        "rank": 23,
-        "team_name": "Luminosity",
-        "points": 1494,
-        "region": "EU",
-        "players": [
-          "Rainwaker",
-          "Bymas",
-          "afro",
-          "Gizmy",
-          "AZUWU"
-        ]
-      },
-      {
-        "rank": 24,
-        "team_name": "magic",
-        "points": 1475,
-        "region": "EU",
-        "players": [
-          "MaSvAl",
-          "sFade8",
-          "AW",
-          "mo0N",
-          "tenzy"
-        ]
-      },
-      {
-        "rank": 25,
-        "team_name": "paiN",
-        "points": 1472,
-        "region": "AM",
-        "players": [
-          "vsm",
-          "biguzera",
-          "piriajr",
-          "saffee",
-          "snow"
-        ]
-      },
-      {
-        "rank": 26,
-        "team_name": "Lynn Vision",
-        "points": 1408,
-        "region": "AS",
-        "players": [
-          "Westmelon",
-          "z4KR",
-          "Starry",
-          "EmiliaQAQ",
-          "C4LLM3SU3"
-        ]
-      },
-      {
-        "rank": 27,
-        "team_name": "M80",
-        "points": 1407,
-        "region": "AM",
-        "players": [
-          "slaxz-",
-          "Swisher",
-          "s1n",
-          "JBa",
-          "Lake"
-        ]
-      },
-      {
-        "rank": 28,
-        "team_name": "Nemesis",
-        "points": 1405,
-        "region": "EU",
-        "players": [
-          "SELLTER",
-          "r3salt",
-          "mag1k3Y",
-          "tex1y",
-          "Sdaim"
-        ]
-      },
-      {
-        "rank": 29,
-        "team_name": "Ninjas in Pyjamas",
-        "points": 1396,
-        "region": "EU",
-        "players": [
-          "Snappi",
-          "stavn",
-          "sjuush",
-          "xKacpersky",
-          "cairne"
-        ]
-      },
-      {
-        "rank": 30,
-        "team_name": "Inner Circle",
-        "points": 1389,
-        "region": "EU",
-        "players": [
-          "cptkurtka023",
-          "headtr1ck",
-          "zeRRoFIX",
-          "onic",
-          "Dawy"
-        ]
-      }
+      {"rank":1,"team_name":"Spirit","points":2014,"region":"EU","players":["sh1ro","magixx","tN1R","zont1x","donk"]},
+      {"rank":2,"team_name":"Falcons","points":2003,"region":"EU","players":["karrigan","NiKo","TeSeS","m0NESY","kyousuke"]},
+      {"rank":3,"team_name":"Vitality","points":1927,"region":"EU","players":["apEX","ropz","ZywOo","flameZ","mezii"]},
+      {"rank":4,"team_name":"NAVI","points":1857,"region":"EU","players":["Aleksib","iM","b1t","w0nderful","makazze"]},
+      {"rank":5,"team_name":"FURIA","points":1823,"region":"AM","players":["FalleN","yuurih","YEKINDAR","KSCERATO","molodoy"]},
+      {"rank":6,"team_name":"Legacy","points":1788,"region":"AM","players":["arT","dumau","latto","n1ssim","saadzin"]},
+      {"rank":7,"team_name":"MOUZ","points":1782,"region":"EU","players":["torzsi","Spinx","jL","xertioN","xelex"]},
+      {"rank":8,"team_name":"BetBoom","points":1770,"region":"EU","players":["Boombl4","zorte","d1Ledez","FL4MUS","Magnojez"]},
+      {"rank":9,"team_name":"Aurora","points":1751,"region":"EU","players":["MAJ3R","XANTARES","woxic","soulfly","Wicadia"]},
+      {"rank":10,"team_name":"G2","points":1740,"region":"EU","players":["huNter-","NertZ","SunPayus","HeavyGod","MATYS"]},
+      {"rank":11,"team_name":"FUT","points":1718,"region":"EU","players":["dem0n","lauNX","Krabeni","cmtry","dziugss"]},
+      {"rank":12,"team_name":"9z","points":1710,"region":"AM","players":["max","dgt","meyern","luchov","HUASOPEEK"]},
+      {"rank":13,"team_name":"The MongolZ","points":1672,"region":"AS","players":["bLitz","Techno","mzinho","910","cobrazera"]},
+      {"rank":14,"team_name":"PARIVISION","points":1612,"region":"EU","players":["Jame","BELCHONOKK","xiELO","nota","zweih"]},
+      {"rank":15,"team_name":"MIBR","points":1596,"region":"AM","players":["LNZ","nqz","brnz4n","insani","venomzera"]},
+      {"rank":16,"team_name":"Astralis","points":1573,"region":"EU","players":["HooXi","phzy","jabbi","Staehr","ryu"]},
+      {"rank":17,"team_name":"B8","points":1572,"region":"EU","players":["alex666","npl","kensizor","esenthial","s1zzi"]},
+      {"rank":18,"team_name":"TYLOO","points":1559,"region":"AS","players":["JamYoung","Jee","Mercury","Moseyuh","Zero"]},
+      {"rank":19,"team_name":"GamerLegion","points":1554,"region":"EU","players":["Snax","REZ","Tauson","PR","hypex"]},
+      {"rank":20,"team_name":"FaZe","points":1513,"region":"EU","players":["frozen","Twistzz","Neityu","jcobbb","JBOEN"]},
+      {"rank":21,"team_name":"Alliance","points":1503,"region":"EU","players":["twist","eraa","bobeksde","upE","avid"]},
+      {"rank":22,"team_name":"BIG","points":1499,"region":"EU","players":["tabseN","JDC","faveN","blameF","gr1ks"]},
+      {"rank":23,"team_name":"Luminosity","points":1494,"region":"EU","players":["Rainwaker","Bymas","afro","Gizmy","AZUWU"]},
+      {"rank":24,"team_name":"magic","points":1475,"region":"EU","players":["MaSvAl","sFade8","AW","mo0N","tenzy"]},
+      {"rank":25,"team_name":"paiN","points":1472,"region":"AM","players":["vsm","biguzera","piriajr","saffee","snow"]},
+      {"rank":26,"team_name":"Lynn Vision","points":1408,"region":"AS","players":["Westmelon","z4KR","Starry","EmiliaQAQ","C4LLM3SU3"]},
+      {"rank":27,"team_name":"M80","points":1407,"region":"AM","players":["slaxz-","Swisher","s1n","JBa","Lake"]},
+      {"rank":28,"team_name":"Nemesis","points":1405,"region":"EU","players":["SELLTER","r3salt","mag1k3Y","tex1y","Sdaim"]},
+      {"rank":29,"team_name":"Ninjas in Pyjamas","points":1396,"region":"EU","players":["Snappi","stavn","sjuush","xKacpersky","cairne"]},
+      {"rank":30,"team_name":"Inner Circle","points":1389,"region":"EU","players":["cptkurtka023","headtr1ck","zeRRoFIX","onic","Dawy"]}
     ]
   }
 };

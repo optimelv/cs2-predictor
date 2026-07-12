@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://strikesignal.dev/contracts/live-snapshot.schema.json",
+  "title": "StrikeSignal live snapshot",
+  "type": "object",
+  "required": ["ok", "contract_version", "fetched_at_utc"],
+  "properties": {
+    "ok": { "const": true },
+    "contract_version": { "type": "string", "pattern": "^1\\." },
+    "fetched_at_utc": { "type": "string", "format": "date-time" },
+    "poll_after_ms": { "type": "integer", "minimum": 60000 },
+    "events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/event" }
+    },
+    "matches": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/match" }
+    },
+    "rankings": { "$ref": "#/$defs/rankings" }
+  },
+  "additionalProperties": true,
+  "$defs": {
+    "teamRef": {
+      "type": "object",
+      "required": ["team_name"],
+      "properties": {
+        "team_id": { "type": "string" },
+        "team_name": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": true
+    },
+    "format": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "enum": ["swiss", "gsl", "single_elimination", "double_elimination", "round_robin", "mixed"]
+        },
+        "label": { "type": "string" },
+        "settings": { "type": "object" },
+        "stages": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              { "type": "string" },
+              {
+                "type": "object",
+                "required": ["id", "name"],
+                "properties": {
+                  "id": { "type": "string" },
+                  "name": { "type": "string" },
+                  "order": { "type": "integer", "minimum": 1 }
+                },
+                "additionalProperties": true
+              }
+            ]
+          }
+        }
+      },
+      "additionalProperties": true
+    },
+    "event": {
+      "type": "object",
+      "required": ["id", "name"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "name": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["upcoming", "ongoing", "finished", "cancelled"] },
+        "start_date": { "type": "string", "format": "date" },
+        "end_date": { "type": "string", "format": "date" },
+        "participants": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              { "type": "string", "minLength": 1 },
+              { "$ref": "#/$defs/teamRef" }
+            ]
+          }
+        },
+        "format": { "$ref": "#/$defs/format" }
+      },
+      "additionalProperties": true
+    },
+    "match": {
+      "type": "object",
+      "required": ["match_id", "team1_name", "team2_name"],
+      "properties": {
+        "match_id": { "type": "string", "minLength": 1 },
+        "event_id": { "type": "string" },
+        "event_name": { "type": "string" },
+        "team1_id": { "type": "string" },
+        "team1_name": { "type": "string", "minLength": 1 },
+        "team2_id": { "type": "string" },
+        "team2_name": { "type": "string", "minLength": 1 },
+        "starts_at": { "type": ["string", "null"], "format": "date-time" },
+        "status": { "enum": ["upcoming", "live", "finished", "cancelled", "postponed"] },
+        "series_format": { "type": "string", "pattern": "^bo[1-9]$" },
+        "score1": { "type": ["number", "null"] },
+        "score2": { "type": ["number", "null"] },
+        "winner_name": { "type": "string" },
+        "maps": { "type": "array", "items": { "type": "string" } }
+      },
+      "additionalProperties": true
+    },
+    "rankings": {
+      "type": ["object", "null"],
+      "properties": {
+        "system": { "type": "string" },
+        "as_of": { "type": "string", "format": "date" },
+        "teams": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["team_name", "rank"],
+            "properties": {
+              "team_id": { "type": "string" },
+              "team_name": { "type": "string" },
+              "rank": { "type": "integer", "minimum": 1 },
+              "points": { "type": "number" }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  }
+}
