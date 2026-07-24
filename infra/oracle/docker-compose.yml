@@ -1,0 +1,43 @@
+services:
+  flaresolverr:
+    image: ghcr.io/flaresolverr/flaresolverr:latest
+    restart: unless-stopped
+    environment:
+      LOG_LEVEL: info
+      LOG_HTML: "false"
+      CAPTCHA_SOLVER: none
+    shm_size: 512mb
+    mem_limit: 4g
+
+  worker:
+    build:
+      context: ./worker
+    restart: unless-stopped
+    depends_on:
+      - flaresolverr
+    environment:
+      FLARESOLVERR_URL: http://flaresolverr:8191/v1
+      HLTV_MATCHES_URL: https://www.hltv.org/matches
+      POLL_SECONDS: "300"
+      REQUEST_TIMEOUT_SECONDS: "90"
+      SNAPSHOT_PATH: /data/last-good-snapshot.json
+    volumes:
+      - worker_data:/data
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      - worker
+    command: ["caddy", "reverse-proxy", "--from", "https://${WORKER_HOST}", "--to", "worker:8080"]
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  worker_data:
+  caddy_data:
+  caddy_config:

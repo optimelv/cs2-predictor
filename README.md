@@ -16,6 +16,8 @@ The frontend consumes a normalized, versioned snapshot and does not depend on an
 
 The future hosted collector only needs to implement `GET /api/live-snapshot`. The current product already handles event, match, veto, score, ranking, and field updates from that endpoint.
 
+The Oracle deployment under `infra/oracle/` provisions only the Frankfurt Always Free A1 shape with a hard limit of 1 OCPU, 6 GB memory, and a 50 GB boot volume. A scheduled GitHub Action retries capacity safely, keeps FlareSolverr private, and publishes the worker endpoint only after the VM is running.
+
 ## Development
 
 ```bash
