@@ -18,6 +18,7 @@ const filtered = filterProductLiveSnapshot({
 
 assert.deepEqual(filtered.events.map((event) => event.id), ["major", "cct"]);
 assert.deepEqual(filtered.matches.map((match) => match.match_id), ["1", "2"]);
+assert.deepEqual(filtered.matches.map((match) => match.product_tier), ["tier_1", "tier_2"]);
 assert.deepEqual(filtered.players.map((player) => player.player_id), ["hltv:1", "hltv:2"]);
 assert.deepEqual(filtered.product_filter.eligible_tiers, ["tier_1", "tier_2"]);
 console.log("live feed product filter tests ok");

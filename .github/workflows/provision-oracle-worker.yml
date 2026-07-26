@@ -3,7 +3,7 @@ name: Provision Oracle Always Free worker
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17,47 * * * *"
+    - cron: "17 */2 * * *"
 
 concurrency:
   group: provision-oracle-always-free

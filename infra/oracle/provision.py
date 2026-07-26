@@ -230,6 +230,9 @@ def launch(compute, identity, network, compartment_id: str, subnet_id: str):
             return instance, public_ip_for_instance(compute, network, instance), "created"
         except oci.exceptions.ServiceError as error:
             message = f"{error.code}: {error.message}"
+            if error.status == 429 or str(error.code).casefold() == "toomanyrequests":
+                print(json.dumps({"status": "rate_limited", "error": message}, indent=2))
+                return None, "", "rate_limited"
             if "capacity" not in message.lower() and "out of host" not in message.lower():
                 raise
             capacity_errors.append({"availability_domain": ad.name, "error": message})

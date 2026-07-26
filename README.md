@@ -23,6 +23,8 @@ The frontend consumes a normalized, versioned snapshot and does not depend on an
 
 The hosted collector implements `GET /api/live-snapshot`. Snapshot contract `1.1` carries event stages, schedule and result rows, series scores, map order, map results, veto text, players, and match lineups. The browser merges those updates without replacing richer tournament fields, player profiles, or format definitions.
 
+When Oracle Always Free capacity is unavailable, the same endpoint serves `docs/data/live-snapshot.json`, the last verified Tier 1/2 snapshot promoted by the scheduled GitHub Actions collector. It never exposes an unfiltered lower-tier feed and keeps the product operational without pretending the persistent worker is healthy.
+
 The historical explorer lazy-loads `docs/data/history.json`, a compact contract generated from the normalized warehouse with `npm run build:history`. It contains only Tier 1/2 product rows; verified completed live matches are appended during the same refresh that updates predictions, players, and event state. The same contract powers searchable event archives, historical result ledgers, participant records, and reconstructed playoff brackets.
 
 Player contract `1.3` adds verified Tier 1/2 series timelines, map-by-map rating/ADR/K-D splits, event form, and roster-era summaries. The browser exposes these as Overview, Maps, and Career views while the live promotion path preserves and incrementally extends the same history.

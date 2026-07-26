@@ -70,6 +70,8 @@ Implemented:
 - Prefer the Oracle Always Free worker when capacity is available
 - Fall back to a pinned ephemeral FlareSolverr worker on the free GitHub Actions runner
 - Refresh every three hours and preserve the last verified release on any source or validation failure
+- Serve the last verified Tier 1/2 live contract from `/api/live-snapshot` while Oracle capacity is unavailable
+- Back off Oracle provisioning attempts on API rate limits instead of reporting expected capacity pressure as a broken release
 
 Next reliability depth:
 

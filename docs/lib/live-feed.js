@@ -5,6 +5,10 @@ const matchEventKey = (match = {}) => String(match.event_id || slugify(match.eve
 export function filterProductLiveSnapshot(snapshot = {}) {
   const events = (snapshot.events || []).filter(eventIsProductEligible);
   const eligibleEventIds = new Set(events.flatMap((event) => [String(event.id || event.event_id || ""), slugify(event.name || event.event_name || "")]).filter(Boolean));
+  const eventTiers = new Map(events.flatMap((event) => {
+    const tier = productTierForEvent(event);
+    return [String(event.id || event.event_id || ""), slugify(event.name || event.event_name || "")].filter(Boolean).map((key) => [key, tier]);
+  }));
   const matches = (snapshot.matches || []).filter((match) => {
     const eventKey = matchEventKey(match);
     if (eligibleEventIds.has(eventKey) || eligibleEventIds.has(slugify(match.event_name || ""))) return true;
@@ -13,6 +17,12 @@ export function filterProductLiveSnapshot(snapshot = {}) {
       product_tier: match.product_tier,
       tier: match.event_tier,
     });
+  }).map((match) => {
+    const eventKey = matchEventKey(match);
+    const productTier = eventTiers.get(eventKey)
+      || eventTiers.get(slugify(match.event_name || ""))
+      || productTierForEvent({ name: match.event_name, product_tier: match.product_tier, tier: match.event_tier });
+    return { ...match, product_tier: productTier };
   });
 
   const eligibleMatchIds = new Set(matches.map((match) => String(match.match_id || match.hltv_match_id || "")).filter(Boolean));
