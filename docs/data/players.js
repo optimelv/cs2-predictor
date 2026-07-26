@@ -8173,7 +8173,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "form_timeline": []
     }
   ],
-  "lineups_updated_at_utc": "2026-07-26T22:04:39Z",
+  "lineups_updated_at_utc": "2026-07-26T22:14:44Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-05-24",
   "history_profile_count": 50

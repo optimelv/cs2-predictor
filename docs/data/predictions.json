@@ -1052,8 +1052,8 @@
         "map_results": [
           {
             "map_name": "Nuke",
-            "score1": 7,
-            "score2": 5,
+            "score1": 16,
+            "score2": 14,
             "status": "finished"
           },
           {
@@ -2661,8 +2661,8 @@
             "map_results": [
               {
                 "map_name": "Nuke",
-                "score1": 7,
-                "score2": 5,
+                "score1": 16,
+                "score2": 14,
                 "status": "finished"
               },
               {
@@ -3712,7 +3712,7 @@
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-07-26T22:04:39Z",
+    "last_verified_utc": "2026-07-26T22:14:44Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -4150,7 +4150,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-07-26T22:04:58Z",
+  "generated_at_utc": "2026-07-26T22:15:04Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -5563,7 +5563,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-07-26T22:04:58Z",
+    "generated_at_utc": "2026-07-26T22:15:04Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -15360,8 +15360,8 @@
       "map_results": [
         {
           "map_name": "Nuke",
-          "score1": 7,
-          "score2": 5,
+          "score1": 16,
+          "score2": 14,
           "status": "finished"
         },
         {

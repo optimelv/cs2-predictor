@@ -1051,8 +1051,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "map_results": [
         {
           "map_name": "Nuke",
-          "score1": 7,
-          "score2": 5,
+          "score1": 16,
+          "score2": 14,
           "status": "finished"
         },
         {
@@ -2660,8 +2660,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "map_results": [
             {
               "map_name": "Nuke",
-              "score1": 7,
-              "score2": 5,
+              "score1": 16,
+              "score2": 14,
               "status": "finished"
             },
             {
@@ -3711,7 +3711,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-07-26T22:04:39Z",
+  "last_verified_utc": "2026-07-26T22:14:44Z",
   "sources": [
     {
       "name": "HLTV events calendar",
