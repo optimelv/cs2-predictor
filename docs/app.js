@@ -161,6 +161,13 @@ function formatDate(value) {
   return dateFormatter.format(parsed);
 }
 
+function formatDateOnly(value) {
+  if (!value) return "TBA";
+  const parsed = new Date(String(value).length === 10 ? `${value}T12:00:00` : value);
+  if (Number.isNaN(parsed.getTime())) return String(value);
+  return dateOnlyFormatter.format(parsed);
+}
+
 function setText(element, value) {
   if (element) element.textContent = value;
 }
@@ -2721,7 +2728,7 @@ function renderPlayers() {
     updateProductUrl({ playerId: selectedPlayerId, eventId: "", view: "", teamName: "", hash: "players" });
     renderPlayers();
   }));
-  setText(els.playerSnapshotMeta, `${(playerSnapshot?.players || []).length} profiles · stats through ${formatDate(playerSnapshot?.history_through_date || playerSnapshot?.generated_at_utc)}`);
+  setText(els.playerSnapshotMeta, `${(playerSnapshot?.players || []).length} profiles · stats through ${formatDateOnly(playerSnapshot?.history_through_date || playerSnapshot?.generated_at_utc)}`);
 }
 
 function allKnownMatches() {
