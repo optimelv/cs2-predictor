@@ -41,7 +41,10 @@ players.lineups_updated_at_utc = live.fetched_at_utc;
 await writeFile(playersPath, `${JSON.stringify(players, null, 2)}\n`);
 await writeFile("docs/data/players.js", `window.__STRIKESIGNAL_PLAYERS__ = ${JSON.stringify(players, null, 2)};\n`);
 
-const coverage = await parse("docs/data/coverage.json");
+const predictions = await parse("docs/data/predictions.json");
+const coverage = predictions.coverage || await parse("docs/data/coverage.json");
+coverage.last_verified_utc = live.fetched_at_utc;
+await writeFile("docs/data/coverage.json", `${JSON.stringify(coverage, null, 2)}\n`);
 await writeFile("docs/data/coverage.js", `window.__STRIKESIGNAL_COVERAGE__ = ${JSON.stringify(coverage, null, 2)};\n`);
 
 console.log(JSON.stringify({ players: players.players.length, updated_at: live.fetched_at_utc }, null, 2));

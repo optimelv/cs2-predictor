@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css?v=20260726.2">
+    <link rel="stylesheet" href="./styles.css?v=20260726.4">
   </head>
   <body>
     <a class="skip-link" href="#dashboard">Skip to predictions</a>
@@ -78,7 +78,7 @@
             <div class="signal-input input-form"><span>02</span><strong>Form</strong><small>opponent adjusted</small></div>
             <div class="signal-input input-maps"><span>03</span><strong>Map pool</strong><small>veto aware</small></div>
             <div class="signal-node"><span>MODEL</span><b></b><i></i></div>
-            <div class="signal-output"><small>Pre-veto</small><strong>67.2%</strong><span>Maps lock <b>73.9%</b></span></div>
+            <div class="signal-output"><small>Pre-veto</small><strong id="heroPre">--</strong><span>Maps lock <b id="heroPost">--</b></span></div>
           </div>
           <footer><span>Pre-match</span><i></i><span>Veto</span><i></i><span>Series</span></footer>
         </aside>
@@ -264,10 +264,10 @@
       <div class="empty-state"><h3>No new call yet.</h3><p>The latest complete slate stays on screen.</p></div>
     </template>
 
-    <script src="./data/predictions.js?v=20260725.1"></script>
-    <script src="./data/coverage.js?v=20260725.1"></script>
+    <script src="./data/predictions.js?v=20260726.1"></script>
+    <script src="./data/coverage.js?v=20260726.1"></script>
     <script src="./data/team-assets.js?v=20260725.1"></script>
-    <script src="./data/players.js?v=20260725.2"></script>
-    <script src="./app.js?v=20260726.2" type="module"></script>
+    <script src="./data/players.js?v=20260726.1"></script>
+    <script src="./app.js?v=20260726.4" type="module"></script>
   </body>
 </html>

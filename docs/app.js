@@ -1,4 +1,5 @@
 import { eventIsProductEligible, normalizeEvent, normalizeMatch, normalizePlatformSnapshot, productTierForEvent } from "./lib/snapshot.js?v=20260726.1";
+import { buildDoubleEliminationTree } from "./lib/brackets.js?v=20260726.1";
 
 const DATA_URL = "./data/predictions.json";
 const SUPPLEMENTAL_TEAM_ASSETS = window.__STRIKESIGNAL_TEAM_ASSETS__ || {};
@@ -31,6 +32,8 @@ const els = {
   deciderGrid: document.querySelector("#deciderGrid"),
   modelPre: document.querySelector("#modelPre"),
   modelPost: document.querySelector("#modelPost"),
+  heroPre: document.querySelector("#heroPre"),
+  heroPost: document.querySelector("#heroPost"),
   rankingsGrid: document.querySelector("#rankingsGrid"),
   rankingsSource: document.querySelector("#rankingsSource"),
   rankingsUpdated: document.querySelector("#rankingsUpdated"),
@@ -70,6 +73,7 @@ let selectedMatchDateKey = null;
 let selectedMatchKey = null;
 let activeEventView = "overview";
 let selectedEventMatchKey = null;
+let renderedEventMatches = [];
 let rankingsExpanded = false;
 let playerSnapshot = STATIC_PLAYER_SNAPSHOT;
 let playerSearchTerm = "";
@@ -77,6 +81,8 @@ let playerTeamFilter = "all";
 let selectedPlayerId = null;
 let selectedTeamName = null;
 const pickOverrides = new Map();
+const SAVED_PICKS_KEY = "strikesignal.saved-picks.v1";
+let savedPicks = loadSavedPicks();
 let teamLookupMap = {};
 let probabilityCache = {};
 const pickemChanceCache = new Map();
@@ -139,7 +145,7 @@ function enrichMatch(match) {
   const suppliedProbability = Number(match?.prob_team1);
   const probability = Number.isFinite(suppliedProbability)
     ? Math.max(0.08, Math.min(0.92, suppliedProbability))
-    : pairProbability(match.team1_name, match.team2_name);
+    : pairProbability(match.team1_name, match.team2_name, match);
   return {
     ...match,
     prob_team1: probability,
@@ -150,7 +156,75 @@ function enrichMatch(match) {
 }
 
 function matchKeyOf(match) {
+  if (match?.match_id || match?.hltv_match_id) return String(match.match_id || match.hltv_match_id);
   return [normalizeName(match.team1_name), normalizeName(match.team2_name), String(match.starts_at || match.stage_name || "")].join(":");
+}
+
+function loadSavedPicks() {
+  try {
+    const value = JSON.parse(window.localStorage.getItem(SAVED_PICKS_KEY) || "{}");
+    return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+  } catch {
+    return {};
+  }
+}
+
+function persistSavedPicks() {
+  try {
+    window.localStorage.setItem(SAVED_PICKS_KEY, JSON.stringify(savedPicks));
+  } catch {
+    // The desk still works when storage is unavailable in a locked-down browser.
+  }
+}
+
+function savedPickFor(match) {
+  return savedPicks[matchKeyOf(match)] || null;
+}
+
+function resolvedMatchWinner(match) {
+  if (!match || matchStatusGroup(match) !== "results") return null;
+  if (match.winner_name || match.winner) return match.winner_name || match.winner;
+  const score1 = Number(match.score1);
+  const score2 = Number(match.score2);
+  if (!Number.isFinite(score1) || !Number.isFinite(score2) || score1 === score2) return null;
+  return score1 > score2 ? match.team1_name : match.team2_name;
+}
+
+function savedPickState(match) {
+  const pick = savedPickFor(match);
+  if (!pick) return "none";
+  const winner = resolvedMatchWinner(match);
+  if (!winner) return "pending";
+  return normalizeName(winner) === normalizeName(pick.team_name) ? "won" : "lost";
+}
+
+function saveMatchPick(match, teamName) {
+  const call = enrichMatch(match);
+  const probability = normalizeName(teamName) === normalizeName(call.team1_name)
+    ? Number(call.prob_team1)
+    : 1 - Number(call.prob_team1);
+  savedPicks[matchKeyOf(call)] = {
+    match_id: call.match_id || call.hltv_match_id || "",
+    team_name: teamName,
+    opponent_name: normalizeName(teamName) === normalizeName(call.team1_name) ? call.team2_name : call.team1_name,
+    event_name: call.event_name || "CS2 circuit",
+    starts_at: call.starts_at || null,
+    probability: roundProb(probability),
+    saved_at: new Date().toISOString(),
+  };
+  persistSavedPicks();
+}
+
+function bindMatchPickActions(container, match, rerender) {
+  container?.querySelectorAll("[data-save-match-pick]").forEach((button) => button.addEventListener("click", () => {
+    saveMatchPick(match, button.dataset.saveMatchPick);
+    rerender();
+  }));
+  container?.querySelector("[data-remove-match-pick]")?.addEventListener("click", () => {
+    delete savedPicks[matchKeyOf(match)];
+    persistSavedPicks();
+    rerender();
+  });
 }
 
 function matchStatusGroup(match) {
@@ -302,6 +376,8 @@ function matchInsightHtml(match) {
   const depth2 = mapDepth(call.team2_name, pool);
   const lineup1 = call.lineups?.team1?.length ? call.lineups.team1 : playersForTeam(call.team1_name);
   const lineup2 = call.lineups?.team2?.length ? call.lineups.team2 : playersForTeam(call.team2_name);
+  const savedPick = savedPickFor(call);
+  const savedState = savedPickState(call);
   const lineupHtml = (players, teamName) => `<div><span>${escapeHtml(teamName)}</span><section>${players.slice(0, 5).map((player) => {
     const nickname = player.nickname || player.player_name || player.name;
     const playerId = player.player_id || (player.hltv_player_id ? `hltv:${player.hltv_player_id}` : "");
@@ -319,6 +395,15 @@ function matchInsightHtml(match) {
     <div class="insight-call">
       <span>${coverage === "full" ? "Model edge" : coverage === "partial" ? "Low-data edge" : "Awaiting data"}</span>
       <strong>${coverage === "limited" ? "Pending team state" : `${escapeHtml(call.predicted_winner)} ${formatPercent(matchConfidence(call))}`}</strong>
+    </div>
+    <div class="pick-console is-${escapeHtml(savedState)}">
+      <div><span>Your call</span><strong>${savedPick ? `${escapeHtml(savedPick.team_name)} · ${formatPercent(savedPick.probability)}` : "Choose a side"}</strong></div>
+      <section>
+        <button type="button" class="${normalizeName(savedPick?.team_name) === normalizeName(call.team1_name) ? "is-active" : ""}" data-save-match-pick="${escapeHtml(call.team1_name)}">${escapeHtml(call.team1_name)}</button>
+        <button type="button" class="${normalizeName(savedPick?.team_name) === normalizeName(call.team2_name) ? "is-active" : ""}" data-save-match-pick="${escapeHtml(call.team2_name)}">${escapeHtml(call.team2_name)}</button>
+        ${savedPick ? `<button type="button" class="pick-remove" data-remove-match-pick aria-label="Remove saved pick">×</button>` : ""}
+      </section>
+      ${savedPick ? `<small>${savedState === "won" ? "Correct call" : savedState === "lost" ? "Missed call" : `Saved ${formatDate(savedPick.saved_at)}`}</small>` : `<small>Stored on this device and scored when the result arrives.</small>`}
     </div>
     <div class="series-signals">
       ${signalRow("Rating", call.team1_name, call.team2_name, rankScore1, rankScore2, (value) => Math.round(value).toString())}
@@ -342,6 +427,8 @@ function matchRowHtml(match, rowIndex = 0) {
   const status = matchStatusGroup(call);
   const coverage = matchCoverage(call);
   const isSelected = key === selectedMatchKey;
+  const pick = savedPickFor(call);
+  const pickState = savedPickState(call);
   const timeLabel = status === "live" ? "LIVE" : call.starts_at ? new Intl.DateTimeFormat("en-US", { hour: "2-digit", minute: "2-digit" }).format(new Date(call.starts_at)) : "TBA";
   return `
     <button class="match-row ${isSelected ? "is-selected" : ""}" style="--row-index:${rowIndex}" type="button" data-match-key="${escapeHtml(key)}" aria-pressed="${String(isSelected)}">
@@ -352,7 +439,7 @@ function matchRowHtml(match, rowIndex = 0) {
         <i>${coverage === "limited" ? "vs" : formatPercent(probability)}</i>
         <span><strong>${escapeHtml(call.team2_name)}</strong>${teamLogoHtml(call.team2_name)}</span>
       </span>
-      <span class="match-row-call"><small>${coverage === "full" ? "model pick" : coverage === "partial" ? "low data" : "rating pending"}</small><strong>${coverage === "limited" ? "Open series" : escapeHtml(call.predicted_winner)}</strong></span>
+      <span class="match-row-call"><small>${pick ? `your pick · ${pickState}` : coverage === "full" ? "model pick" : coverage === "partial" ? "low data" : "rating pending"}</small><strong>${pick ? escapeHtml(pick.team_name) : coverage === "limited" ? "Open series" : escapeHtml(call.predicted_winner)}</strong></span>
       <span class="match-open" aria-hidden="true">↗</span>
     </button>
   `;
@@ -370,7 +457,7 @@ function renderMatchToolbar(matches) {
       }).join("")}
     </div>
     <div class="match-status-filters" role="group" aria-label="Match status">
-      ${["all", "live", "upcoming", "results"].map((filter) => `<button type="button" class="${currentMatchFilter === filter ? "is-active" : ""}" data-match-filter="${filter}">${filter === "all" ? "All series" : filter}</button>`).join("")}
+      ${["all", "live", "upcoming", "results", "picks"].map((filter) => `<button type="button" class="${currentMatchFilter === filter ? "is-active" : ""}" data-match-filter="${filter}">${filter === "all" ? "All series" : filter === "picks" ? `My picks ${Object.keys(savedPicks).length || ""}` : filter}</button>`).join("")}
     </div>
     <label class="match-event-select"><span>Event</span><select id="matchEventSelect"><option value="all">All events</option>${events.map((eventName) => `<option value="${escapeHtml(eventName)}" ${currentMatchEvent === eventName ? "selected" : ""}>${escapeHtml(eventName)}</option>`).join("")}</select></label>
   `;
@@ -397,8 +484,9 @@ function renderDeciders(matches) {
   const targetDate = selectedMatchDateKey;
   const visible = rows.filter((match) => {
     const status = matchStatusGroup(match);
-    const dateMatches = localDateKey(match.starts_at) === targetDate;
-    const statusMatches = currentMatchFilter === "all" || status === currentMatchFilter;
+    const dateMatches = currentMatchFilter === "picks" || localDateKey(match.starts_at) === targetDate;
+    const statusMatches = currentMatchFilter === "all"
+      || (currentMatchFilter === "picks" ? Boolean(savedPickFor(match)) : status === currentMatchFilter);
     const eventMatches = currentMatchEvent === "all" || match.event_name === currentMatchEvent;
     return dateMatches && statusMatches && eventMatches;
   });
@@ -411,7 +499,7 @@ function renderDeciders(matches) {
   const selected = visible.find((match) => matchKeyOf(match) === selectedMatchKey) || visible[0];
   els.deciderGrid.innerHTML = `
     <div class="match-list-pane">
-      <header><span>${visible.length} series</span><strong>${escapeHtml(new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" }).format(dateFromKey(targetDate)))}</strong></header>
+      <header><span>${visible.length} ${currentMatchFilter === "picks" ? "saved calls" : "series"}</span><strong>${currentMatchFilter === "picks" ? "Personal prediction ledger" : escapeHtml(new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" }).format(dateFromKey(targetDate)))}</strong></header>
       <div class="match-row-list">${visible.map(matchRowHtml).join("")}</div>
     </div>
     <aside class="match-insight" aria-live="polite">${matchInsightHtml(selected)}</aside>
@@ -420,6 +508,7 @@ function renderDeciders(matches) {
     selectedMatchKey = button.dataset.matchKey;
     renderDeciders(dailyMatchCalls());
   }));
+  bindMatchPickActions(els.deciderGrid, selected, () => renderDeciders(dailyMatchCalls()));
 }
 
 function mapRow(map, match) {
@@ -826,6 +915,8 @@ function renderGenericEventBoard(event) {
     updateProductUrl({ eventId: event.id, view: activeEventView, playerId: "", teamName: "", hash: "featured" });
     renderGenericEventBoard(event);
   }));
+  const selectedEventMatch = renderedEventMatches.find((match) => matchKeyOf(match) === selectedEventMatchKey);
+  if (selectedEventMatch) bindMatchPickActions(els.swissBoard, selectedEventMatch, () => renderGenericEventBoard(event));
 }
 
 function teamStrengthScore(teamName) {
@@ -863,7 +954,19 @@ function projectedOpeningMatches(event) {
 }
 
 function projectedEventMatches(event) {
-  if (["single_elimination", "double_elimination"].includes(event?.format?.type)) {
+  if (event?.format?.type === "double_elimination") {
+    const tree = buildDoubleEliminationBracket(event);
+    return [...tree.upperRounds, ...tree.lowerRounds, ...(tree.grandFinal ? [{ name: "Grand final", matches: [tree.grandFinal] }] : [])]
+      .flatMap((round) => round.matches.map((match) => ({
+        ...match,
+        event_id: event.id,
+        event_name: event.name,
+        stage_name: match.round_name || round.name,
+        series_format: match.series_format || "bo3",
+        starts_at: match.starts_at || null,
+      })));
+  }
+  if (event?.format?.type === "single_elimination") {
     return buildTournamentBracket(event).rounds.flatMap((round) => round.matches.map((match) => ({
       ...match,
       event_id: event.id,
@@ -926,9 +1029,18 @@ function bracketRoundName(size) {
   return `Round of ${size}`;
 }
 
-function publishedBracketMatch(event, team1, team2) {
+function publishedBracketMatch(event, team1, team2, roundName = "") {
   if (!team1 || !team2) return null;
-  return activeEventCalls(event).map(enrichMatch).find((match) => sameMatch(match, team1, team2)) || null;
+  const candidates = activeEventCalls(event).map(enrichMatch).filter((match) => sameMatch(match, team1, team2));
+  if (!candidates.length) return null;
+  const roundKey = normalizeName(roundName);
+  return candidates.sort((a, b) => {
+    const aRound = normalizeName(a.round_name || a.stage_name || a.round || "");
+    const bRound = normalizeName(b.round_name || b.stage_name || b.round || "");
+    const aMatch = roundKey && (aRound === roundKey || aRound.includes(roundKey) || roundKey.includes(aRound)) ? 1 : 0;
+    const bMatch = roundKey && (bRound === roundKey || bRound.includes(roundKey) || roundKey.includes(bRound)) ? 1 : 0;
+    return bMatch - aMatch || Number(liveMatchIsFinished(b)) - Number(liveMatchIsFinished(a));
+  })[0];
 }
 
 function resolveBracketMatch(event, team1, team2, roundName, matchIndex) {
@@ -937,7 +1049,7 @@ function resolveBracketMatch(event, team1, team2, roundName, matchIndex) {
     const winner = team1 || team2;
     return { team1_name: winner, team2_name: "BYE", winner_name: winner, status: "bye", prob_team1: team1 ? 1 : 0, round_name: roundName, match_index: matchIndex };
   }
-  const published = publishedBracketMatch(event, team1, team2);
+  const published = publishedBracketMatch(event, team1, team2, roundName);
   if (published) {
     const winner = published.winner_name || (liveMatchIsFinished(published) ? (Number(published.score1) > Number(published.score2) ? team1 : team2) : published.predicted_winner);
     return { ...published, winner_name: winner, round_name: published.stage_name || roundName, match_index: matchIndex, status: liveMatchIsFinished(published) ? "finished" : published.status || "projected" };
@@ -1019,6 +1131,46 @@ function buildTournamentBracket(event) {
   return { field, rounds, champion: current[0] || null, source: "simulated" };
 }
 
+function declaredBracketRounds(event, lane) {
+  return (event?.bracket?.rounds || [])
+    .filter((round) => (round.bracket || "main") === lane && (round.matches || []).length)
+    .sort((a, b) => Number(a.order) - Number(b.order));
+}
+
+function buildDoubleEliminationBracket(event) {
+  const field = bracketField(event);
+  const declaredUpper = declaredBracketRounds(event, "upper");
+  const declaredLower = declaredBracketRounds(event, "lower");
+  const declaredMain = declaredBracketRounds(event, "main");
+  const openingDeclared = declaredUpper[0]?.matches || [];
+  const openingPairs = openingDeclared.length
+    ? (() => {
+      const pairs = openingDeclared.map((match) => [match.team1_name, match.team2_name]);
+      const used = new Set(pairs.flat().map(normalizeName));
+      const remaining = field.filter((team) => !used.has(normalizeName(team)));
+      while (remaining.length >= 2) pairs.push([remaining.shift(), remaining.pop()]);
+      if (remaining.length) pairs.push([remaining.shift(), null]);
+      return pairs;
+    })()
+    : (() => {
+      const size = nextBracketSize(Math.max(2, field.length));
+      const slots = Array.from({ length: size }, (_, index) => field[index] || null);
+      return Array.from({ length: size / 2 }, (_, index) => [slots[index], slots[size - 1 - index]]);
+    })();
+  const declaredFinal = declaredMain.find((round) => /grand final|final/i.test(round.name)) || declaredMain.at(-1);
+  return {
+    ...buildDoubleEliminationTree({
+      field,
+      openingPairs,
+      upperRoundNames: declaredUpper.map((round) => round.name),
+      lowerRoundNames: declaredLower.map((round) => round.name),
+      grandFinalName: declaredFinal?.name || "Grand final",
+      resolveMatch: (team1, team2, roundName, matchIndex) => resolveBracketMatch(event, team1, team2, roundName, matchIndex),
+    }),
+    source: event?.bracket?.rounds?.length ? "published" : "simulated",
+  };
+}
+
 function bracketTeamHtml(teamName, match, side) {
   const probability = side === 1 ? Number(match.prob_team1) : 1 - Number(match.prob_team1);
   const isWinner = teamName && match.winner_name === teamName;
@@ -1034,7 +1186,48 @@ function bracketTeamHtml(teamName, match, side) {
   </div>`;
 }
 
+function doubleBracketMatchHtml(match) {
+  const status = match.status || "projected";
+  const state = status === "finished" ? "FINAL" : status === "live" ? "LIVE" : status === "bye" ? "BYE" : "MODEL";
+  return `<button type="button" class="tree-match double-tree-match is-${escapeHtml(status)}" data-event-match="${escapeHtml(matchKeyOf(match))}" aria-label="Open ${escapeHtml(match.team1_name)} versus ${escapeHtml(match.team2_name)}">
+    <span class="tree-match-state">${state}</span>
+    ${bracketTeamHtml(match.team1_name, match, 1)}
+    ${bracketTeamHtml(match.team2_name, match, 2)}
+  </button>`;
+}
+
+function doubleBracketLaneHtml(label, subtitle, rounds, lane) {
+  return `<section class="double-tree-lane is-${lane}">
+    <header><div><span>${escapeHtml(label)}</span><strong>${escapeHtml(subtitle)}</strong></div><small>${rounds.reduce((total, round) => total + round.matches.length, 0)} series</small></header>
+    <div class="double-lane-rounds" style="--lane-rounds:${Math.max(1, rounds.length)}">
+      ${rounds.map((round, roundIndex) => `<article style="--lane-round:${roundIndex}"><header><span>${String(roundIndex + 1).padStart(2, "0")}</span><strong>${escapeHtml(round.name)}</strong></header><div>${round.matches.map(doubleBracketMatchHtml).join("")}</div></article>`).join("")}
+    </div>
+  </section>`;
+}
+
+function doubleEliminationBracketHtml(event) {
+  const tree = buildDoubleEliminationBracket(event);
+  if (!tree.field.length) return `<div class="event-view-empty"><span>BRACKET INTAKE</span><h4>The field is not published.</h4><p>The upper and lower paths will populate from the event feed.</p></div>`;
+  return `<div class="event-bracket-view double-event-bracket">
+    <header class="bracket-view-head">
+      <div><span>Double-elimination tree</span><h4>${escapeHtml(event.name)}</h4></div>
+      <div class="bracket-legend"><span><i class="is-official"></i> Official</span><span><i class="is-live"></i> Live</span><span><i></i> Projected</span><strong>${tree.source === "published" ? "Published structure" : "Projected structure"}</strong></div>
+    </header>
+    <div class="double-tournament-tree">
+      ${doubleBracketLaneHtml("Upper bracket", "Unbeaten route", tree.upperRounds, "upper")}
+      <div class="double-drop-rail" aria-hidden="true"><span>First loss drops to the lower bracket</span><i></i></div>
+      ${doubleBracketLaneHtml("Lower bracket", "Elimination route", tree.lowerRounds, "lower")}
+      <aside class="double-grand-final">
+        <span>Grand final</span>
+        ${tree.grandFinal ? doubleBracketMatchHtml(tree.grandFinal) : `<strong>Finalists pending</strong>`}
+        <div>${tree.champion ? `${teamLogoHtml(tree.champion)}<strong>${escapeHtml(tree.champion)}</strong><small>Highest-probability champion</small>` : ""}</div>
+      </aside>
+    </div>
+  </div>`;
+}
+
 function eventBracketHtml(event) {
+  if (event?.format?.type === "double_elimination" || event?.bracket?.type === "double_elimination") return doubleEliminationBracketHtml(event);
   const tree = buildTournamentBracket(event);
   if (!tree.field.length) return `<div class="event-view-empty"><span>BRACKET INTAKE</span><h4>The field is not published.</h4><p>The tree will populate from the event feed.</p></div>`;
   return `
@@ -1103,14 +1296,16 @@ function eventMiniMatchHtml(match) {
 
 function eventMatchesHtml(event) {
   const published = activeEventCalls(event).map((match) => ({ ...match, event_id: event.id, event_name: event.name }));
-  const matches = published.length ? published : projectedEventMatches(event);
+  const projected = projectedEventMatches(event);
+  const matches = published.length ? published : projected;
+  renderedEventMatches = matches;
   if (!matches.length) return `<div class="event-view-empty"><span>BRACKET INTAKE</span><h4>Pairings are not published.</h4><p>The room is ready for the event feed.</p></div>`;
   if (!selectedEventMatchKey || !matches.some((match) => matchKeyOf(match) === selectedEventMatchKey)) selectedEventMatchKey = matchKeyOf(matches[0]);
   const selected = matches.find((match) => matchKeyOf(match) === selectedEventMatchKey) || matches[0];
   return `
     <div class="event-match-desk">
       <div class="event-match-list">
-        <header><span>${published.length ? "Published schedule" : "Projected opening round"}</span><strong>${matches.length} series</strong></header>
+        <header><span>${published.length ? "Official match schedule" : "Projected opening path"}</span><strong>${matches.length} series</strong></header>
         ${matches.map((match) => {
           const call = enrichMatch(match);
           const key = matchKeyOf(call);
@@ -1373,7 +1568,10 @@ function activeEventCalls(event = activeEvent()) {
   if (!event) return [];
   if (eventHasMajorBoard(event)) return activeMajorCalls();
   const eventKey = normalizeName(event.name || event.event_name);
-  const embedded = event.matches || [];
+  const embedded = [
+    ...(event.matches || []),
+    ...(event.bracket?.rounds || []).flatMap((round) => round.matches || []),
+  ];
   const coverageMatches = (appData?.coverage?.daily_matches || []).filter((match) => match.event_id === event.id);
   const generated = (appData?.upcoming_predictions || []).filter((match) => {
     const matchKey = normalizeName(match.event_name || match.stage_name || "");
@@ -1381,7 +1579,8 @@ function activeEventCalls(event = activeEvent()) {
   });
   const merged = new Map();
   [...embedded, ...coverageMatches, ...generated].forEach((match) => {
-    const key = [normalizeName(match.team1_name), normalizeName(match.team2_name)].sort().join(":");
+    const pair = [normalizeName(match.team1_name), normalizeName(match.team2_name)].sort().join(":");
+    const key = String(match.match_id || `${pair}:${normalizeName(match.stage_name || match.round_name || "")}:${match.starts_at || ""}`);
     merged.set(key, { ...(merged.get(key) || {}), ...match });
   });
   return [...merged.values()];
@@ -1574,7 +1773,39 @@ function runPickemMonteCarlo(stage3) {
   return chance;
 }
 
-function pairProbability(team1Name, team2Name) {
+function portableProductionProbability(champion, features, baseline) {
+  if (!champion || !champion.kind || champion.kind === "heuristic") return baseline;
+  let modelProbability = baseline;
+  if (champion.kind === "portable_logistic_blend") {
+    const selected = champion.features || [];
+    if ((champion.weights || []).length !== selected.length + 1) return baseline;
+    let value = Number(champion.weights[0]) || 0;
+    selected.forEach((feature, index) => {
+      const scale = Number(champion.std?.[index]) || 1;
+      const normalized = Math.max(-8, Math.min(8, ((Number(features[feature]) || 0) - (Number(champion.mean?.[index]) || 0)) / scale));
+      value += (Number(champion.weights[index + 1]) || 0) * normalized;
+    });
+    modelProbability = 1 / (1 + Math.exp(-Math.max(-35, Math.min(35, value))));
+  } else if (champion.kind === "portable_gbdt_blend") {
+    const values = (champion.features || []).map((feature) => Number(features[feature]) || 0);
+    let raw = Number(champion.initial_log_odds) || 0;
+    for (const tree of champion.trees || []) {
+      let node = 0;
+      while (Number(tree.children_left?.[node]) !== -1) {
+        const featureIndex = Number(tree.feature?.[node]);
+        if (!Number.isInteger(featureIndex) || featureIndex < 0 || featureIndex >= values.length) return baseline;
+        node = values[featureIndex] <= Number(tree.threshold?.[node]) ? Number(tree.children_left[node]) : Number(tree.children_right[node]);
+        if (!Number.isInteger(node) || node < 0) return baseline;
+      }
+      raw += (Number(champion.learning_rate) || 0) * (Number(tree.value?.[node]) || 0);
+    }
+    modelProbability = 1 / (1 + Math.exp(-Math.max(-35, Math.min(35, raw))));
+  }
+  const blendWeight = Math.max(0, Math.min(1, Number(champion.blend_weight) || 1));
+  return blendWeight * modelProbability + (1 - blendWeight) * baseline;
+}
+
+function pairProbability(team1Name, team2Name, context = {}) {
   const team1 = teamModel(team1Name);
   const team2 = teamModel(team2Name);
   const eloProbability = 1 / (1 + Math.pow(10, -((Number(team1.elo) - Number(team2.elo)) / 400)));
@@ -1586,7 +1817,28 @@ function pairProbability(team1Name, team2Name) {
     : 0;
   const pointsDiff = Math.max(-650, Math.min(650, (Number(team1.vrs_points) || 0) - (Number(team2.vrs_points) || 0)));
   const recentDiff = Math.max(-0.5, Math.min(0.5, (Number(team1.recent_win_rate_10) || 0.5) - (Number(team2.recent_win_rate_10) || 0.5)));
-  let probability = 1 / (1 + Math.exp(-(eloLogit + 0.009 * rankAdvantage + 0.00035 * pointsDiff + 0.3 * recentDiff)));
+  const baseline = 1 / (1 + Math.exp(-(eloLogit + 0.009 * rankAdvantage + 0.00035 * pointsDiff + 0.3 * recentDiff)));
+  const stage = String(context.stage_name || context.round_name || context.round || "").toLowerCase();
+  const seriesFormat = String(context.series_format || context.format || "bo3").toLowerCase();
+  const bestOf = Number(seriesFormat.replace(/[^0-9]/g, "")) || 3;
+  const isPlayoff = Number(["playoff", "round of", "quarter", "semi", "final"].some((token) => stage.includes(token)));
+  const isElimination = Number(["lower", "elimination", "decider", "final"].some((token) => stage.includes(token)));
+  const phaseOrder = stage.includes("grand final") ? 100 : stage.includes("final") ? 95 : stage.includes("semi") ? 85 : stage.includes("quarter") ? 75 : stage.includes("round of 16") ? 65 : stage.includes("round of 32") ? 55 : stage.includes("playoff") ? 50 : stage.includes("swiss") ? 25 : stage.includes("group") ? 20 : 1;
+  const features = {
+    baseline_logit: Math.log(Math.max(1e-6, baseline) / Math.max(1e-6, 1 - baseline)),
+    elo_diff: Number(team1.elo) - Number(team2.elo),
+    elo_prob_team1: eloProbability,
+    vrs_rank_advantage: rankAdvantage,
+    vrs_points_diff: pointsDiff,
+    recent_win_rate_10_diff: recentDiff,
+    best_of: bestOf,
+    phase_order: phaseOrder,
+    is_lan: Number(String(context.event_type || "").toLowerCase() === "lan"),
+    is_playoff: isPlayoff,
+    is_elimination_match: isElimination,
+  };
+  const champion = appData?.model_registry?.champion || appData?.model_state?.portable_model || appData?.model?.production;
+  let probability = portableProductionProbability(champion, features, baseline);
   if (!team1.hasState || !team2.hasState) probability = 0.5 + (probability - 0.5) * 0.45;
   return Math.max(0.08, Math.min(0.92, probability));
 }
@@ -2287,12 +2539,20 @@ function updateSummary(data) {
   const generatedAt = new Date(verifiedAt);
   const ageHours = Number.isNaN(generatedAt.getTime()) ? Infinity : (Date.now() - generatedAt.getTime()) / 3600000;
   const isFresh = ageHours <= 12;
-  const slates = matchSlateDays(dailyMatchCalls());
+  const calls = dailyMatchCalls();
+  const todayKey = localDateKey(new Date());
+  const currentCalls = calls.filter((match) => localDateKey(match.starts_at) >= todayKey);
+  const latestKey = matchSlateDays(calls).at(-1);
+  const summaryCalls = currentCalls.length ? currentCalls : calls.filter((match) => localDateKey(match.starts_at) === latestKey);
 
-  setText(els.modelPre, formatPercent(data.model?.best_pre_match?.accuracy));
-  setText(els.modelPost, formatPercent(data.model?.best_post_veto?.accuracy));
+  const productionAccuracy = data.model?.production?.metrics?.accuracy ?? data.model?.best_pre_match?.accuracy;
+  const postVetoAccuracy = data.model?.best_post_veto?.accuracy;
+  setText(els.modelPre, formatPercent(productionAccuracy));
+  setText(els.modelPost, formatPercent(postVetoAccuracy));
+  setText(els.heroPre, formatPercent(productionAccuracy));
+  setText(els.heroPost, formatPercent(postVetoAccuracy));
   setText(els.freshnessLabel, `${isFresh ? "Live check" : "Last check"} · ${formatDate(verifiedAt)}`);
-  setText(els.slateCount, `${dailyMatchCalls().length} series · ${slates.length} slates`);
+  setText(els.slateCount, `${summaryCalls.length} series · ${currentCalls.length ? "current slate" : "latest archive"}`);
   setText(els.rankingSnapshot, `VRS · ${data.coverage?.vrs?.as_of ? dateOnlyFormatter.format(new Date(`${data.coverage.vrs.as_of}T12:00:00`)) : "pending"}`);
   setText(els.selectedEventName, event?.name || "Event desk");
   setText(els.selectedEventMeta, `${eventDateRange(event)} · ${event?.format?.label || "Organizer format pending"}`);

@@ -3,6 +3,7 @@ import { eventIsProductEligible, normalizeEvent, productTierForEvent } from "../
 
 assert.equal(productTierForEvent({ name: "CCT Europe 8", tier: "B-Tier" }), "tier_2");
 assert.equal(productTierForEvent({ name: "European Pro League", tier: "C-Tier" }), "excluded");
+assert.equal(productTierForEvent({ name: "European Pro League Season 31" }), "pending");
 assert.equal(eventIsProductEligible({ name: "IEM Beijing 2026" }), true);
 
 const event = normalizeEvent({

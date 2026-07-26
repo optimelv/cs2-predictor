@@ -6,6 +6,7 @@ const base = await parse("../docs/data/predictions.json");
 const coverage = await parse("../docs/data/coverage.json");
 const teamAssets = await parse("../docs/data/team-assets.json");
 const playerSnapshot = await parse("../docs/data/players.json");
+const modelRegistry = await parse("../docs/data/model-registry.json");
 await parse("../contracts/live-snapshot.schema.json");
 const snapshot = normalizePlatformSnapshot(base, coverage);
 
@@ -55,6 +56,19 @@ for (const player of playerSnapshot.players || []) {
   invariant(Number(player.signal_index) >= 0 && Number(player.signal_index) <= 100, `Invalid player signal index: ${player.player_id}`);
   playerIds.add(player.player_id);
 }
+
+invariant(String(modelRegistry.contract_version).startsWith("1."), "Unsupported model registry contract.");
+invariant(modelRegistry.champion?.version && modelRegistry.champion?.metrics, "The production model needs a version and metrics.");
+for (const metric of ["accuracy", "log_loss", "brier", "ece"]) {
+  invariant(Number.isFinite(Number(modelRegistry.champion.metrics[metric])), `Missing champion metric: ${metric}`);
+}
+if (modelRegistry.champion.kind === "portable_logistic_blend") {
+  invariant(modelRegistry.champion.weights.length === modelRegistry.champion.features.length + 1, "Portable logistic artifact is malformed.");
+}
+if (modelRegistry.champion.kind === "portable_gbdt_blend") {
+  invariant(modelRegistry.champion.trees?.length === modelRegistry.champion.n_estimators, "Portable GBDT artifact is malformed.");
+}
+invariant(base.model_registry?.champion?.version === modelRegistry.champion.version, "Published predictions do not embed the production champion.");
 
 invariant(productEventCount > 0, "The public Tier 1/2 circuit cannot be empty.");
 console.log(`site data ok: ${productEventCount}/${eventIds.size} public Tier 1/2 events, ${matchIds.size} current matches, ${rankingNames.size} VRS teams, ${playerIds.size} players, ${Object.keys(teamAssets).length} supplemental crests`);

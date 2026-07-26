@@ -24,7 +24,7 @@ const STATUS_ALIASES = new Map([
   ["final", "finished"],
 ]);
 
-const TIER_TWO_EVENT_PATTERN = /\b(?:cct|roman imperium|esl challenger|thunderpick world championship|european pro league)\b/i;
+const TIER_TWO_EVENT_PATTERN = /\b(?:cct|roman imperium|esl challenger|thunderpick world championship)\b/i;
 const TIER_ONE_EVENT_PATTERN = /\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b/i;
 
 export function productTierForEvent(event = {}) {

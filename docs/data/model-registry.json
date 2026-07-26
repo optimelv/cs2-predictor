@@ -1,0 +1,61 @@
+{
+  "baseline": {
+    "folds": 3,
+    "kind": "heuristic",
+    "metrics": {
+      "accuracy": 0.667546,
+      "brier": 0.207981,
+      "ece": 0.041042,
+      "log_loss": 0.602255
+    },
+    "rows": 757,
+    "test_rows": 379
+  },
+  "challenger": {
+    "blend_weight": 0.5,
+    "family": "logistic",
+    "features": [
+      "baseline_logit"
+    ],
+    "folds": 3,
+    "l2": 0.005,
+    "metrics": {
+      "accuracy": 0.667546,
+      "brier": 0.210813,
+      "ece": 0.059631,
+      "log_loss": 0.610076
+    },
+    "promotion_passed": false,
+    "rows": 379
+  },
+  "champion": {
+    "folds": 3,
+    "kind": "heuristic",
+    "metrics": {
+      "accuracy": 0.667546,
+      "brier": 0.207981,
+      "ece": 0.041042,
+      "log_loss": 0.602255
+    },
+    "rows": 757,
+    "test_rows": 379,
+    "trained_through": "2026-06-08",
+    "version": "bounded-elo-vrs-v1"
+  },
+  "contract_version": "1.0",
+  "generated_at_utc": "2026-07-26T00:29:17Z",
+  "history": [],
+  "promotion_gates": {
+    "maximum_accuracy_regression": 0.005,
+    "maximum_brier_regression": 0.001,
+    "maximum_ece_regression": 0.015,
+    "minimum_folds": 3,
+    "minimum_log_loss_improvement": 0.002,
+    "minimum_test_rows": 350
+  },
+  "training": {
+    "new_rows": 0,
+    "online_rows": 0,
+    "seed_rows": 757
+  }
+}

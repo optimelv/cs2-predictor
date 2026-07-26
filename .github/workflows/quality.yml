@@ -34,10 +34,10 @@ jobs:
           python-version: "3.12"
 
       - name: Install model and worker test dependencies
-        run: python -m pip install --disable-pip-version-check numpy -r infra/oracle/worker/requirements.txt
+        run: python -m pip install --disable-pip-version-check numpy scikit-learn -r infra/oracle/worker/requirements.txt
 
       - name: Test live promotion
-        run: python -m unittest work.cs2_predictor.test_live_promotion
+        run: python -m unittest work.cs2_predictor.test_live_promotion work.cs2_predictor.test_portable_model
 
       - name: Test Oracle source adapters
         working-directory: infra/oracle/worker

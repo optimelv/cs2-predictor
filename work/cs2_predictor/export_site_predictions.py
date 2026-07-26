@@ -20,6 +20,7 @@ from .warehouse import WAREHOUSE_PATH, connect
 SITE_DATA_PATH = Path("docs") / "data" / "predictions.json"
 SITE_DATA_JS_PATH = Path("docs") / "data" / "predictions.js"
 SITE_COVERAGE_PATH = Path("docs") / "data" / "coverage.json"
+MODEL_REGISTRY_PATH = Path("docs") / "data" / "model-registry.json"
 BENCHMARK_PREDICTIONS_CSV = DATA_ROOT / "model" / "event_holdout_predictions.csv"
 TEAM_TIERS_CSV = Path("outputs") / "cs2_team_tier_assignments.csv"
 BEST_PRE_MODEL = ("rolling_in_event", "logistic")
@@ -194,6 +195,16 @@ def coverage_snapshot() -> dict[str, Any]:
     """Keep the event calendar and VRS contract in every generated site snapshot."""
     payload = read_json(SITE_COVERAGE_PATH)
     return payload if isinstance(payload, dict) else {}
+
+
+def attach_model_registry(payload: dict[str, Any]) -> None:
+    registry = read_json(MODEL_REGISTRY_PATH)
+    if not registry:
+        return
+    champion = registry.get("champion") or {}
+    payload["model_registry"] = registry
+    payload.setdefault("model", {})["production"] = champion
+    payload.setdefault("model_state", {})["portable_model"] = champion
 
 
 def summarize_prediction_rows(rows: list[dict[str, str]], *, mode: str, model: str) -> dict[str, Any]:
@@ -508,16 +519,95 @@ def sigmoid(value: float) -> float:
     return 1.0 / (1.0 + math.exp(-max(-35.0, min(35.0, value))))
 
 
-def projection_probability(team1_name: str, team2_name: str, model_state: dict[str, Any]) -> float:
+def portable_model_probability(
+    champion: dict[str, Any],
+    features: dict[str, float],
+    baseline: float,
+) -> float:
+    kind = champion.get("kind")
+    if kind == "portable_logistic_blend":
+        selected = champion.get("features") or []
+        mean = champion.get("mean") or []
+        std = champion.get("std") or []
+        weights = champion.get("weights") or []
+        if len(weights) != len(selected) + 1 or len(mean) != len(selected) or len(std) != len(selected):
+            return baseline
+        logit_value = safe_float(weights[0])
+        for index, feature in enumerate(selected):
+            scale = safe_float(std[index], 1.0) or 1.0
+            normalized = max(-8.0, min(8.0, (safe_float(features.get(feature)) - safe_float(mean[index])) / scale))
+            logit_value += safe_float(weights[index + 1]) * normalized
+        model_probability = sigmoid(logit_value)
+    elif kind == "portable_gbdt_blend":
+        selected = champion.get("features") or []
+        values = [safe_float(features.get(feature)) for feature in selected]
+        raw = safe_float(champion.get("initial_log_odds"))
+        for tree in champion.get("trees") or []:
+            node = 0
+            children_left = tree.get("children_left") or []
+            children_right = tree.get("children_right") or []
+            feature_indices = tree.get("feature") or []
+            thresholds = tree.get("threshold") or []
+            leaf_values = tree.get("value") or []
+            while node < len(children_left) and safe_int(children_left[node], -1) != -1:
+                feature_index = safe_int(feature_indices[node], -1)
+                if feature_index is None or feature_index < 0 or feature_index >= len(values):
+                    return baseline
+                node = safe_int(children_left[node], -1) if values[feature_index] <= safe_float(thresholds[node]) else safe_int(children_right[node], -1)
+                if node is None or node < 0:
+                    return baseline
+            if node >= len(leaf_values):
+                return baseline
+            raw += safe_float(champion.get("learning_rate")) * safe_float(leaf_values[node])
+        model_probability = sigmoid(raw)
+    else:
+        return baseline
+    blend_weight = max(0.0, min(1.0, safe_float(champion.get("blend_weight"), 1.0)))
+    return blend_weight * model_probability + (1.0 - blend_weight) * baseline
+
+
+def projection_probability(
+    team1_name: str,
+    team2_name: str,
+    model_state: dict[str, Any],
+    context: dict[str, Any] | None = None,
+) -> float:
     team1 = projection_team(team1_name, model_state)
     team2 = projection_team(team2_name, model_state)
-    elo_logit = logit_probability(elo_probability(team1["elo"] - team2["elo"]))
+    elo_diff = team1["elo"] - team2["elo"]
+    elo_probability_value = elo_probability(elo_diff)
+    elo_logit = logit_probability(elo_probability_value)
     rank1 = team1["vrs_rank"]
     rank2 = team2["vrs_rank"]
     vrs_rank_advantage = max(-40, min(40, rank2 - rank1)) if rank1 and rank2 else 0
     vrs_points_diff = max(-650.0, min(650.0, team1["vrs_points"] - team2["vrs_points"]))
     recent_diff = max(-0.5, min(0.5, team1["recent_win_rate_10"] - team2["recent_win_rate_10"]))
-    probability = sigmoid(elo_logit + 0.009 * vrs_rank_advantage + 0.00035 * vrs_points_diff + 0.3 * recent_diff)
+    baseline = sigmoid(elo_logit + 0.009 * vrs_rank_advantage + 0.00035 * vrs_points_diff + 0.3 * recent_diff)
+    context = context or {}
+    stage = str(context.get("stage_name") or context.get("round_name") or "").casefold()
+    series_format = str(context.get("series_format") or context.get("format") or "bo3").casefold()
+    best_of = safe_int(re.sub(r"[^0-9]", "", series_format), 3) or 3
+    is_playoff = int(any(token in stage for token in ("playoff", "round of", "quarter", "semi", "final")))
+    is_elimination = int(any(token in stage for token in ("lower", "elimination", "decider", "final")))
+    phase_order = (
+        100 if "grand final" in stage else 95 if "final" in stage else 85 if "semi" in stage
+        else 75 if "quarter" in stage else 65 if "round of 16" in stage else 55 if "round of 32" in stage
+        else 50 if "playoff" in stage else 25 if "swiss" in stage else 20 if "group" in stage else 1
+    )
+    features = {
+        "baseline_logit": logit_probability(baseline),
+        "elo_diff": elo_diff,
+        "elo_prob_team1": elo_probability_value,
+        "vrs_rank_advantage": vrs_rank_advantage,
+        "vrs_points_diff": vrs_points_diff,
+        "recent_win_rate_10_diff": recent_diff,
+        "best_of": best_of,
+        "phase_order": phase_order,
+        "is_lan": int(str(context.get("event_type") or "").casefold() == "lan"),
+        "is_playoff": is_playoff,
+        "is_elimination_match": is_elimination,
+    }
+    probability = portable_model_probability(model_state.get("portable_model") or {}, features, baseline)
     if not team1["has_state"] or not team2["has_state"]:
         probability = 0.5 + (probability - 0.5) * 0.45
     return max(0.08, min(0.92, probability))
@@ -1294,7 +1384,7 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
     lookup = team_lookup(model_state)
     state1 = lookup.get(normalize_team_name(team1), {})
     state2 = lookup.get(normalize_team_name(team2), {})
-    probability = projection_probability(team1, team2, model_state)
+    probability = projection_probability(team1, team2, model_state, context=item)
     predicted_winner = team1 if probability >= 0.5 else team2
     timestamp = timestamp_from_api_item(item)
     match_date = datetime.fromtimestamp(timestamp, tz=timezone.utc).date().isoformat() if timestamp else ""
@@ -1302,6 +1392,8 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
         "match_id": item.get("match_id") or item.get("matchId") or item.get("id") or "",
         "match_date": match_date,
         "match_timestamp": timestamp,
+        "starts_at": item.get("starts_at") or item.get("startsAt") or item.get("date"),
+        "event_id": item.get("event_id") or item.get("eventId") or "",
         "event_name": event_name_from_api_item(item),
         "stage_name": str(item.get("stage") or item.get("stage_name") or ""),
         "round_name": str(item.get("round") or item.get("round_name") or ""),
@@ -1309,6 +1401,7 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
         "team1_name": team1,
         "team2_name": team2,
         "format": str(item.get("format") or item.get("series_format") or item.get("matchFormat") or ""),
+        "series_format": str(item.get("series_format") or item.get("format") or item.get("matchFormat") or ""),
         "status": str(item.get("status") or "Scheduled"),
         "team1_hltv_rank": item.get("team1_rank") or item.get("team1Rank"),
         "team2_hltv_rank": item.get("team2_rank") or item.get("team2Rank"),
@@ -1323,6 +1416,10 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
         "mode": "api_feed_snapshot_state",
         "data_quality": "full" if state1 and state2 else "partial",
         "source": str(item.get("source") or "hltv_live_snapshot"),
+        "source_url": item.get("source_url") or item.get("url") or "",
+        "maps": item.get("maps") or [],
+        "map_results": item.get("map_results") or [],
+        "lineups": item.get("lineups") or {},
     }
 
 
@@ -1335,7 +1432,7 @@ def product_tier_from_feed(item: dict[str, Any]) -> str:
         return "tier_2"
     if re.fullmatch(r"(?:c-tier|c tier|tier[_ -]?3|d-tier|d tier|excluded)", declared):
         return "excluded"
-    if re.search(r"\b(?:cct|roman imperium|esl challenger|thunderpick world championship|european pro league)\b", event_name, re.I):
+    if re.search(r"\b(?:cct|roman imperium|esl challenger|thunderpick world championship)\b", event_name, re.I):
         return "tier_2"
     if re.search(r"\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b", event_name, re.I):
         return "tier_1"
@@ -1449,6 +1546,7 @@ def fallback_payload_from_existing(output_path: Path, apify_feed_path: Path | No
         )
     payload.setdefault("updater", {})
     payload.setdefault("coverage", coverage_snapshot())
+    attach_model_registry(payload)
     if apify_feed_path and apify_feed_path.exists():
         apify_items = api_items_from_feed(apify_feed_path)
         if not apify_items:
@@ -1479,28 +1577,11 @@ def fallback_payload_from_existing(output_path: Path, apify_feed_path: Path | No
             if prediction is not None
         ]
         if predictions:
-            existing_pairs = {
-                frozenset(
-                    {
-                        normalize_team_name(str(row.get("team1_name") or "")),
-                        normalize_team_name(str(row.get("team2_name") or "")),
-                    }
-                )
-                for row in payload.get("upcoming_predictions", [])
-            }
-            extras = [
+            payload["upcoming_predictions"] = [
                 row
                 for row in predictions
-                if frozenset(
-                    {
-                        normalize_team_name(str(row.get("team1_name") or "")),
-                        normalize_team_name(str(row.get("team2_name") or "")),
-                    }
-                )
-                not in existing_pairs
-                and str(row.get("status") or "").casefold() not in {"completed", "finished"}
-            ]
-            payload["upcoming_predictions"] = [*payload.get("upcoming_predictions", []), *extras[:9]]
+                if str(row.get("status") or "").casefold() not in {"completed", "finished", "final", "ended"}
+            ][:24]
             payload["updater"]["live_feed_items"] = len(predictions)
             payload["updater"]["online_results_applied"] = updated_results
     return payload
@@ -1660,6 +1741,7 @@ def build_payload(db_path: Path, apify_feed_path: Path | None = None) -> dict[st
             "detail": "Generated from the local SQLite warehouse and benchmark CSV.",
         },
     }
+    attach_model_registry(payload)
 
     # Apply major projection updates from the feed
     if apify_feed_path and apify_feed_path.exists():
@@ -1705,6 +1787,15 @@ def main() -> None:
     js_output_path.write_text(
         "window.__STRIKESIGNAL_DATA__ = "
         + json.dumps(payload, indent=2, sort_keys=True)
+        + ";\n",
+        encoding="utf-8",
+    )
+    coverage_output_path = output_path.with_name("coverage.json")
+    coverage_js_output_path = output_path.with_name("coverage.js")
+    coverage_output_path.write_text(json.dumps(payload.get("coverage") or {}, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    coverage_js_output_path.write_text(
+        "window.__STRIKESIGNAL_COVERAGE__ = "
+        + json.dumps(payload.get("coverage") or {}, indent=2, sort_keys=True)
         + ";\n",
         encoding="utf-8",
     )

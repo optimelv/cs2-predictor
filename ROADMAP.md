@@ -16,11 +16,12 @@ Status: implemented in the current product branch.
 
 ## Release 1.1: Personal Match Desk
 
-Priority: next.
+Status: browser-local foundation implemented; account sync and alerts remain next.
 
+- Saved match picks with frozen probability, automatic win/loss resolution, and a personal ledger
 - Team, player, and event watchlists stored per account
 - Notifications for published vetoes, changed probabilities, roster substitutions, and match starts
-- Saved picks with closing probability, result, and calibration history
+- Account-synced closing probability and calibration history
 - Shareable event brackets and Pick'Em routes
 
 ## Release 1.2: Veto Lab
@@ -34,7 +35,7 @@ Priority: high.
 
 ## Release 1.3: Transparent Model
 
-Priority: high.
+Status: champion/challenger registry and promotion gates implemented; public diagnostics remain next.
 
 - Public rolling accuracy, log loss, Brier score, and calibration charts by event tier and series format
 - Champion/challenger registry with automatic promotion only after a purged chronological holdout win
