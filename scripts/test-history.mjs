@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { historyMatchesForTeam, historyOpponents, mergeHistoryMatches, summarizeHeadToHead } from "../docs/lib/history.js";
+import { historyEvents, historyMatchesForTeam, historyOpponents, mergeHistoryMatches, summarizeHeadToHead } from "../docs/lib/history.js";
 
 const fixture = {
   contract_version: "1.0",
@@ -25,3 +25,38 @@ assert.equal(merged.through_date, "2026-07-01");
 assert.equal(merged.scope.matches, 4);
 
 console.log("historical explorer contract tests ok");
+
+const events = historyEvents({ matches: [
+  { match_id: "qf1", match_date: "2026-06-01", tier: "tier_1", event_name: "Archive Cup", team1_name: "Alpha", team2_name: "Beta", winner_name: "Alpha", score1: 2, score2: 0, best_of: 3, phase: "playoffs", is_playoff: true, maps: [] },
+  { match_id: "qf2", match_date: "2026-06-01", tier: "tier_1", event_name: "Archive Cup", team1_name: "Gamma", team2_name: "Delta", winner_name: "Gamma", score1: 2, score2: 1, best_of: 3, phase: "playoffs", is_playoff: true, maps: [] },
+  { match_id: "f", match_date: "2026-06-02", tier: "tier_1", event_name: "Archive Cup", team1_name: "Alpha", team2_name: "Gamma", winner_name: "Alpha", score1: 3, score2: 1, best_of: 5, phase: "grand_final", is_playoff: true, maps: [] },
+] });
+assert.equal(events.length, 1);
+assert.equal(events[0].champion_name, "Alpha");
+assert.equal(events[0].participants.length, 4);
+assert.equal(events[0].bracket.rounds.length, 2);
+assert.equal(events[0].matches.at(-1).series_format, "bo5");
+
+console.log("historical event compiler tests ok");
+
+const archiveMatch = (overrides) => ({
+  tier: "tier_1",
+  event_name: "Inferred Cup",
+  best_of: 3,
+  maps: [],
+  ...overrides,
+});
+
+const inferred = historyEvents({
+  matches: [
+    archiveMatch({ match_id: "iq1", match_date: "2026-03-01", team1_name: "Alpha", team2_name: "Delta", winner_name: "Alpha", score1: 2, score2: 0, is_playoff: true, phase: "playoffs" }),
+    archiveMatch({ match_id: "iq2", match_date: "2026-03-01", team1_name: "Bravo", team2_name: "Echo", winner_name: "Bravo", score1: 2, score2: 1, is_playoff: true, phase: "playoffs" }),
+    archiveMatch({ match_id: "is1", match_date: "2026-03-02", team1_name: "Alpha", team2_name: "Bravo", winner_name: "Alpha", score1: 2, score2: 1, is_playoff: true, phase: "playoffs" }),
+    archiveMatch({ match_id: "if1", match_date: "2026-03-03", team1_name: "Alpha", team2_name: "Foxtrot", winner_name: "Alpha", score1: 3, score2: 1, best_of: 5, is_playoff: true, phase: "playoffs" }),
+    archiveMatch({ match_id: "ip3", match_date: "2026-03-03", team1_name: "Bravo", team2_name: "Echo", winner_name: "Bravo", score1: 2, score2: 0, is_playoff: true, phase: "playoffs" }),
+  ],
+})[0];
+assert.equal(inferred.champion_name, "Alpha");
+assert.deepEqual(inferred.bracket.rounds.map((round) => round.name).slice(-3), ["Semifinals", "Third place", "Grand final"]);
+assert.equal(inferred.bracket.rounds.find((round) => round.name === "Grand final").matches[0].best_of, 5);
+console.log("historical playoff inference tests ok");

@@ -89,19 +89,20 @@ Priority: after the consumer desk proves repeat use.
 
 Implemented foundation:
 
-- Compact public history contract generated from 987 Tier 1/2 and Tier 1.5 warehouse matches
+- Compact public history contract generated from 1,031 verified Tier 1/2 warehouse matches
 - Team head-to-head explorer with opponent switching, current-lineup-era splits, recent meetings, and comparative map matrices
+- Searchable archive with 48 historical event rooms, result ledgers, event-only team records, map footprints, and inferred playoff brackets
 - Lazy browser loading so the historical dataset does not slow the initial match desk
 - Automatic append path for newly completed eligible matches in every verified live refresh
 
-Next platform depth: move the same contract to the durable Always Free worker, add event archive routes, and expose player-by-map and roster-era query endpoints.
+Next platform depth: move the same contract to the durable Always Free worker and expose player-by-map and roster-era query endpoints.
 
 ## Product Order After Live Ingest
 
 1. Player timelines: initial series-rating, ADR, K/D, opponent, and event history is implemented; role, roster, and map-performance movement remain next.
 2. Accounts and alerts: browser-local picks and watchlists are live; cross-device sync, veto notifications, and closing probability history remain next.
 3. Match explanation engine: implemented with ranked positive signals, the strongest counter-signal, and one prioritized uncertainty flag for every call.
-4. Historical explorer: head-to-head, lineup-era splits, and map matchup matrices are implemented inside team profiles; the standalone event archive remains next.
+4. Historical explorer: head-to-head, lineup-era splits, map matchup matrices, and standalone event archives are implemented.
 5. Public API and embeds after data freshness and repeat usage are proven.
 
 ## Promotion Rules

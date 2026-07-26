@@ -2,7 +2,7 @@ import { eventIsProductEligible, normalizeEvent, normalizeMatch, normalizePlatfo
 import { buildDoubleEliminationTree } from "./lib/brackets.js?v=20260726.1";
 import { tournamentBlueprint, tournamentPlayoffField, tournamentStageLabels } from "./lib/tournaments.js?v=20260726.1";
 import { explainMatch } from "./lib/explanations.js?v=20260726.1";
-import { historyOpponents, summarizeHeadToHead } from "./lib/history.js?v=20260726.1";
+import { historyEvents, historyOpponents, summarizeHeadToHead } from "./lib/history.js?v=20260727.2";
 import { normalizeWatchlist, toggleWatchlist, watchlistCount, watchlistHas } from "./lib/watchlist.js?v=20260726.1";
 import {
   applyVetoMap,
@@ -61,6 +61,8 @@ const els = {
   slateCount: document.querySelector("#slateCount"),
   rankingSnapshot: document.querySelector("#rankingSnapshot"),
   eventCount: document.querySelector("#eventCount"),
+  archiveSearchWrap: document.querySelector("#archiveSearchWrap"),
+  archiveSearch: document.querySelector("#archiveSearch"),
   playerSearch: document.querySelector("#playerSearch"),
   playerTeamFilter: document.querySelector("#playerTeamFilter"),
   playerSnapshotMeta: document.querySelector("#playerSnapshotMeta"),
@@ -96,6 +98,8 @@ let boardViewUserSelected = false;
 let activeEventId = null;
 let coverage = null;
 let currentEventFilter = "active";
+let archiveSearchTerm = "";
+let archiveEvents = [];
 let currentMatchFilter = "all";
 let currentMatchEvent = "all";
 let selectedMatchDateKey = null;
@@ -935,15 +939,18 @@ function availableEvents(data = appData) {
       format: event.format || { type: "mixed", label: "Organizer format pending", confidence: "feed_detail_pending" },
     };
     const normalizedName = normalizeName(name);
-    const key = normalizedName.includes("cologne") && normalizedName.includes("2026")
-      ? "cologne major 2026"
-      : normalizedName;
+    const key = event.archived
+      ? `archive:${normalizedName}`
+      : normalizedName.includes("cologne") && normalizedName.includes("2026")
+        ? "cologne major 2026"
+        : normalizedName;
     const existing = merged.get(key);
     const value = existing ? { ...event, ...normalized, ...existing } : normalized;
     merged.set(key, value);
   };
   const sourceEvents = data?.coverage?.events?.length ? data.coverage.events : data?.event_coverage || [];
   sourceEvents.forEach(addEvent);
+  archiveEvents.forEach(addEvent);
   const statusOrder = { ongoing: 0, upcoming: 1, finished: 2, cancelled: 3 };
   return [...merged.values()].filter(eventIsProductEligible).sort((a, b) => {
     const statusDelta = (statusOrder[a.status] ?? 4) - (statusOrder[b.status] ?? 4);
@@ -1116,7 +1123,7 @@ function renderGenericEventBoard(event) {
     els.swissBoard.replaceChildren(emptyNode("Choose a tournament.", "The current circuit remains available in the event calendar above."));
     return;
   }
-  const contenders = eventContenders(event);
+  const contenders = event.archived ? [] : eventContenders(event);
   const favorite = contenders[0];
   els.swissBoard.innerHTML = `
     <div class="event-room">
@@ -1130,7 +1137,7 @@ function renderGenericEventBoard(event) {
           <div><span>Dates</span><strong>${escapeHtml(eventDateRange(event))}</strong></div>
           <div><span>Location</span><strong>${escapeHtml(event.location || "TBA")}</strong></div>
           <div><span>Field</span><strong>${escapeHtml(`${event.teams || event.participants?.length || "TBA"} teams`)}</strong></div>
-          <div><span>Favorite</span><strong>${favorite ? `${escapeHtml(favorite.team_name)} ${formatPercent(favorite.probability)}` : "Pending"}</strong></div>
+          <div><span>${event.archived ? (event.champion_name ? "Champion" : "Result") : "Favorite"}</span><strong>${event.archived ? escapeHtml(event.champion_name || "Stage complete") : favorite ? `${escapeHtml(favorite.team_name)} ${formatPercent(favorite.probability)}` : "Pending"}</strong></div>
         </div>
       </header>
       <nav class="event-room-tabs" aria-label="Tournament views">
@@ -1497,6 +1504,7 @@ function eventBracketHtml(event) {
 }
 
 function eventOverviewHtml(event) {
+  if (event.archived) return archiveEventOverviewHtml(event);
   const contenders = eventContenders(event);
   const matches = activeEventCalls(event);
   return `
@@ -1525,6 +1533,41 @@ function eventOverviewHtml(event) {
   `;
 }
 
+function archiveEventOverviewHtml(event) {
+  const stageCount = (stage) => (event.matches || []).filter((match) => {
+    const label = normalizeName(`${match.phase || ""} ${match.stage_name || ""} ${match.round_name || ""}`);
+    if (stage.type === "single_elimination") return match.is_playoff || /playoff|quarter|semi|final/.test(label);
+    if (stage.type === "swiss") return !match.is_playoff && !/group/.test(label) && /swiss|round [1-5]|low|mid|high/.test(label);
+    if (stage.type === "gsl") return !match.is_playoff && /group/.test(label);
+    return true;
+  }).length;
+  const phases = (event.format?.stages || []).map((stage) => ({ name: stage.name, count: stageCount(stage) })).filter((stage) => stage.count);
+  if (!phases.length) phases.push({ name: "Event series", count: event.matches?.length || 0 });
+  const maps = new Map();
+  for (const match of event.matches || []) for (const map of match.maps || []) maps.set(map.map_name, (maps.get(map.map_name) || 0) + 1);
+  const topMaps = [...maps.entries()].sort((a, b) => b[1] - a[1]).slice(0, 7);
+  const finalMatch = event.final_match;
+  const archiveResultLabel = event.champion_name ? "Official winner" : "Completed stage";
+  const archiveResultTitle = event.champion_name || `${event.participants?.length || 0} teams recorded`;
+  const archiveResultMeta = finalMatch
+    ? `${finalMatch.team1_name} ${finalMatch.score1}-${finalMatch.score2} ${finalMatch.team2_name}`
+    : eventDateRange(event);
+  return `<div class="archive-event-overview">
+    <section class="archive-champion-card">
+      <div><span>${archiveResultLabel}</span><h4>${escapeHtml(archiveResultTitle)}</h4><small>${escapeHtml(archiveResultMeta)}</small></div>
+      ${event.champion_name ? teamLogoHtml(event.champion_name) : ""}
+    </section>
+    <section class="archive-event-kpis">
+      <div><span>Series</span><strong>${event.matches?.length || 0}</strong></div>
+      <div><span>Teams</span><strong>${event.participants?.length || 0}</strong></div>
+      <div><span>Maps</span><strong>${[...maps.values()].reduce((sum, count) => sum + count, 0)}</strong></div>
+      <div><span>Format</span><strong>${escapeHtml(String(event.format?.type || "mixed").replaceAll("_", " "))}</strong></div>
+    </section>
+    <section class="archive-stage-ledger"><header><span>Event path</span><strong>${phases.length} recorded phases</strong></header><div>${phases.map((phase, index) => `<article style="--phase-index:${index}"><span>${String(index + 1).padStart(2, "0")}</span><strong>${escapeHtml(phase.name)}</strong><b>${phase.count} series</b></article>`).join("")}</div></section>
+    <section class="archive-map-bank"><header><span>Map footprint</span><strong>${topMaps.length} tracked maps</strong></header><div>${topMaps.map(([map, count]) => `<article><strong>${escapeHtml(map)}</strong><i><b style="width:${Math.max(12, Math.round(count / Math.max(1, topMaps[0][1]) * 100))}%"></b></i><span>${count}</span></article>`).join("") || `<p>Map detail is still building.</p>`}</div></section>
+  </div>`;
+}
+
 function eventMiniMatchHtml(match) {
   const probability = Number(match.prob_team1);
   return `
@@ -1536,6 +1579,7 @@ function eventMiniMatchHtml(match) {
 }
 
 function eventMatchesHtml(event) {
+  if (event.archived) return archiveEventMatchesHtml(event);
   const published = activeEventCalls(event).map((match) => ({ ...match, event_id: event.id, event_name: event.name }));
   const projected = projectedEventMatches(event);
   const matches = published.length ? published : projected;
@@ -1556,6 +1600,15 @@ function eventMatchesHtml(event) {
       <aside class="match-insight event-match-insight">${matchInsightHtml(selected)}</aside>
     </div>
   `;
+}
+
+function archiveEventMatchesHtml(event) {
+  const rows = [...(event.matches || [])].sort((a, b) => String(b.match_date || "").localeCompare(String(a.match_date || "")) || String(b.match_id).localeCompare(String(a.match_id)));
+  return `<div class="archive-match-ledger"><header><span>Verified result ledger</span><strong>${rows.length} series</strong></header><div>${rows.map((match) => {
+    const winner1 = normalizeName(match.winner_name) === normalizeName(match.team1_name);
+    const winner2 = normalizeName(match.winner_name) === normalizeName(match.team2_name);
+    return `<article><div><span>${escapeHtml(match.match_date)}</span><small>${escapeHtml(match.stage_name || match.phase || `BO${match.best_of || 3}`)}</small></div><strong class="${winner1 ? "is-winner" : ""}">${teamLogoHtml(match.team1_name)}<span>${escapeHtml(match.team1_name)}</span><b>${match.score1 ?? "-"}</b></strong><i>:</i><strong class="${winner2 ? "is-winner" : ""}"><b>${match.score2 ?? "-"}</b><span>${escapeHtml(match.team2_name)}</span>${teamLogoHtml(match.team2_name)}</strong></article>`;
+  }).join("")}</div></div>`;
 }
 
 function teamBadgeHtml(teamName, extra = "") {
@@ -1716,6 +1769,7 @@ function eventFormatHtml(event) {
 }
 
 function eventTeamsHtml(event) {
+  if (event.archived) return archiveEventTeamsHtml(event);
   const teams = event.participants || [];
   if (!teams.length) return `<div class="event-view-empty"><span>FIELD INTAKE</span><h4>Teams are not announced.</h4><p>The room will rank the field as soon as invitations publish.</p></div>`;
   const meta = new Map((event.participant_meta || []).map((row) => [normalizeName(row.team_name), row]));
@@ -1732,6 +1786,20 @@ function eventTeamsHtml(event) {
       }).join("")}</div>
     </div>
   `;
+}
+
+function archiveEventTeamsHtml(event) {
+  const records = new Map((event.participants || []).map((teamName) => [normalizeName(teamName), { team_name: teamName, wins: 0, losses: 0, maps: 0 }]));
+  for (const match of event.matches || []) {
+    const team1 = records.get(normalizeName(match.team1_name));
+    const team2 = records.get(normalizeName(match.team2_name));
+    if (team1) normalizeName(match.winner_name) === normalizeName(match.team1_name) ? team1.wins++ : team1.losses++;
+    if (team2) normalizeName(match.winner_name) === normalizeName(match.team2_name) ? team2.wins++ : team2.losses++;
+    if (team1) team1.maps += (match.maps || []).length;
+    if (team2) team2.maps += (match.maps || []).length;
+  }
+  const rows = [...records.values()].sort((a, b) => b.wins - a.wins || a.losses - b.losses || a.team_name.localeCompare(b.team_name));
+  return `<div class="archive-team-table"><header><div><span>Event field</span><h4>${rows.length} participants</h4></div><strong>Series record at this event</strong></header><div>${rows.map((row, index) => `<article data-open-team="${escapeHtml(row.team_name)}" role="button" tabindex="0"><b>${index + 1}</b>${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong><span>${row.wins}-${row.losses}</span><small>${row.maps} mapped</small></article>`).join("")}</div></div>`;
 }
 
 function eventContenders(event) {
@@ -1764,6 +1832,14 @@ function eventContenders(event) {
 
 function updateGenericPickem(event) {
   if (els.resetPicks) els.resetPicks.hidden = true;
+  if (event?.archived) {
+    setText(els.pickemLabel, "Archive result");
+    setText(els.pickemTitle, event.champion_name ? `${event.champion_name} won ${event.name}.` : `${event.name} is complete.`);
+    setText(els.pickemScoreLabel, "Official result");
+    setText(els.pickemChance, "Final");
+    setText(els.pickemSummary, `${event.matches?.length || 0} verified series · ${event.participants?.length || 0} teams · ${eventDateRange(event)}`);
+    return;
+  }
   const favorite = eventContenders(event)[0];
   setText(els.pickemLabel, "Field forecast");
   setText(els.pickemTitle, favorite ? `${favorite.team_name} leads the current title picture.` : "Select an event to begin.");
@@ -2353,9 +2429,14 @@ function renderEvents(events) {
     return;
   }
   const statusOrder = { ongoing: 0, upcoming: 1, finished: 2 };
+  if (els.archiveSearchWrap) els.archiveSearchWrap.hidden = currentEventFilter !== "archive";
+  const archiveQuery = normalizeName(archiveSearchTerm);
   const visibleEvents = events
-    .filter((event) => currentEventFilter === "all" || event.status !== "finished")
-    .sort((a, b) => (statusOrder[a.status] ?? 1) - (statusOrder[b.status] ?? 1) || new Date(a.start_date || 0) - new Date(b.start_date || 0));
+    .filter((event) => currentEventFilter === "archive" ? event.archived : currentEventFilter === "all" ? true : !event.archived && event.status !== "finished")
+    .filter((event) => currentEventFilter !== "archive" || !archiveQuery || normalizeName(`${event.name} ${(event.participants || []).join(" ")}`).includes(archiveQuery))
+    .sort((a, b) => currentEventFilter === "archive"
+      ? String(b.end_date || "").localeCompare(String(a.end_date || "")) || Number(b.matches?.length || 0) - Number(a.matches?.length || 0)
+      : (statusOrder[a.status] ?? 1) - (statusOrder[b.status] ?? 1) || new Date(a.start_date || 0) - new Date(b.start_date || 0));
   setText(els.eventCount, `${visibleEvents.length} tournaments`);
   visibleEvents.forEach((event, eventIndex) => {
     const card = document.createElement("article");
@@ -2363,6 +2444,7 @@ function renderEvents(events) {
     card.tabIndex = 0;
     card.dataset.eventId = event.id || "";
     card.dataset.status = event.status || "upcoming";
+    if (event.archived) card.dataset.archive = "true";
     card.style.setProperty("--event-index", eventIndex);
     const range = eventDateRange(event);
     const date = eventDateParts(event);
@@ -2372,15 +2454,15 @@ function renderEvents(events) {
       <div class="event-date-block"><span>${escapeHtml(date.month)}</span><strong>${escapeHtml(date.day)}</strong><small>${escapeHtml(range)}</small></div>
       <div class="event-spine" aria-hidden="true"><i></i></div>
       <div class="event-card-main">
-        <span>${escapeHtml(event.status === "ongoing" ? "Live now" : event.status === "upcoming" ? "Upcoming" : event.status || event.series || event.organizer || "Event")}</span>
+        <span>${escapeHtml(event.archived ? "Verified archive" : event.status === "ongoing" ? "Live now" : event.status === "upcoming" ? "Upcoming" : event.status || event.series || event.organizer || "Event")}</span>
         <h3>${escapeHtml(event.name || event.event_name || event.source_title || "Unnamed event")}</h3>
-        <p>${escapeHtml(event.format?.label || "Organizer format pending")} · ${escapeHtml(event.location || "Location TBA")}</p>
+        <p>${escapeHtml(event.format?.label || "Organizer format pending")} · ${escapeHtml(event.archived ? `${event.matches?.length || 0} verified series` : event.location || "Location TBA")}</p>
       </div>
       <div class="event-team-stack">${teams.length
         ? `${teams.slice(0, 5).map((teamName) => teamLogoHtml(teamName)).join("")}<span>${teamTotal > 5 ? `+${teamTotal - 5}` : `${teamTotal} teams`}</span>`
         : `<span class="event-field-status">${teamTotal ? `${teamTotal} team field` : "Field pending"}</span>`}
       </div>
-      <div class="event-card-meta"><strong>${escapeHtml(`${event.event_type || "TBA"} · ${event.tier || event.event_tier || "TBA"}`)}</strong><span>${escapeHtml(event.current_stage || (event.status === "upcoming" ? "Starts soon" : "In progress"))}</span></div>
+      <div class="event-card-meta"><strong>${escapeHtml(`${event.event_type || "TBA"} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"}`)}</strong><span>${escapeHtml(event.archived && event.champion_name ? `${event.champion_name} won` : event.current_stage || (event.status === "upcoming" ? "Starts soon" : "In progress"))}</span></div>
       <button class="event-open" type="button" data-event-open="${escapeHtml(event.id || "")}" aria-label="Open ${escapeHtml(event.name || "event")}"><span aria-hidden="true"></span></button>
     `;
     const openEvent = () => selectEvent(event.id);
@@ -2632,6 +2714,27 @@ function teamVetoRead(teamName) {
   return appData?.model_state?.veto_profiles?.[normalizeName(teamName)] || { maps: {}, sample_matches: 0 };
 }
 
+function loadHistorySnapshot() {
+  if (historySnapshot) return Promise.resolve(historySnapshot);
+  const historyVersion = encodeURIComponent(appData?.generated_at_utc || appData?.coverage?.last_verified_utc || "current");
+  historyLoadPromise ||= fetch(`./data/history.json?v=${historyVersion}`, { cache: "no-cache" })
+    .then((response) => {
+      if (!response.ok) throw new Error(`History snapshot returned ${response.status}`);
+      return response.json();
+    })
+    .then((snapshot) => {
+      historySnapshot = snapshot;
+      archiveEvents = historyEvents(snapshot);
+      return snapshot;
+    })
+    .catch(() => {
+      historySnapshot = { contract_version: "1.0", scope: {}, matches: [], load_error: true };
+      archiveEvents = [];
+      return historySnapshot;
+    });
+  return historyLoadPromise;
+}
+
 function teamHistoryHtml(teamName) {
   if (!historySnapshot) return `<section class="team-profile-section team-history-section is-loading"><header><span>Matchup archive</span><strong>Loading history</strong></header><div class="history-loading"><i></i><span>Building opponent and map reads</span></div></section>`;
   const opponents = historyOpponents(historySnapshot, teamName);
@@ -2793,15 +2896,7 @@ function openTeamProfile(teamName, { updateUrl = true } = {}) {
   if (updateUrl) updateProductUrl({ teamName, playerId: "" });
   els.teamDrawerClose?.focus({ preventScroll: true });
   if (!historySnapshot) {
-    const historyVersion = encodeURIComponent(appData?.generated_at_utc || appData?.coverage?.last_verified_utc || "current");
-    historyLoadPromise ||= fetch(`./data/history.json?v=${historyVersion}`, { cache: "no-cache" })
-      .then((response) => {
-        if (!response.ok) throw new Error(`History snapshot returned ${response.status}`);
-        return response.json();
-      })
-      .then((snapshot) => { historySnapshot = snapshot; })
-      .catch(() => { historySnapshot = { contract_version: "1.0", scope: {}, matches: [], load_error: true }; });
-    historyLoadPromise.then(() => {
+    loadHistorySnapshot().then(() => {
       if (selectedTeamName !== teamName || els.teamDrawerLayer?.hidden) return;
       const scrollTop = els.teamDrawerContent.scrollTop;
       els.teamDrawerContent.innerHTML = teamProfileHtml(teamName);
@@ -3400,6 +3495,19 @@ async function boot() {
     if (!data || typeof data !== "object") throw new Error("Prediction snapshot is empty.");
     teamAssets = { ...SUPPLEMENTAL_TEAM_ASSETS, ...(data.team_assets || {}) };
     renderProjection(data);
+    const requestedArchiveEvent = new URLSearchParams(window.location.search).get("event");
+    if (requestedArchiveEvent?.startsWith("archive:")) {
+      await loadHistorySnapshot();
+      const archiveEvent = availableEvents().find((event) => event.id === requestedArchiveEvent);
+      if (archiveEvent) {
+        activeEventId = archiveEvent.id;
+        currentEventFilter = "archive";
+        els.eventFilterButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.eventFilter === "archive"));
+        renderEventSelector(availableEvents());
+        renderEvents(availableEvents());
+        renderDynamicMajor();
+      }
+    }
     renderPlayerFilters();
     renderPlayers();
     updateSummary(data);
@@ -3682,11 +3790,22 @@ document.addEventListener("keydown", (event) => {
 });
 
 els.eventFilterButtons.forEach((button) => {
-  button.addEventListener("click", () => {
+  button.addEventListener("click", async () => {
     currentEventFilter = button.dataset.eventFilter || "active";
     els.eventFilterButtons.forEach((candidate) => candidate.classList.toggle("is-active", candidate === button));
+    if (currentEventFilter === "archive" && !historySnapshot) {
+      setText(els.eventCount, "Loading verified archive");
+      els.eventsGrid.replaceChildren(emptyNode("Opening the event archive.", "Compiling fields, formats, and result ledgers from the Tier 1/2 warehouse."));
+      await loadHistorySnapshot();
+      renderEventSelector(availableEvents());
+    }
     renderEvents(availableEvents());
   });
+});
+
+els.archiveSearch?.addEventListener("input", () => {
+  archiveSearchTerm = els.archiveSearch.value;
+  if (currentEventFilter === "archive") renderEvents(availableEvents());
 });
 
 els.resetPicks?.addEventListener("click", () => {

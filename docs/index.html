@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css?v=20260726.10">
+    <link rel="stylesheet" href="./styles.css?v=20260727.3">
   </head>
   <body>
     <a class="skip-link" href="#dashboard">Skip to predictions</a>
@@ -113,6 +113,8 @@
         <div class="event-filter" role="group" aria-label="Filter events">
           <button class="is-active" type="button" data-event-filter="active">Active and upcoming</button>
           <button type="button" data-event-filter="all">All events</button>
+          <button type="button" data-event-filter="archive">Archive</button>
+          <label id="archiveSearchWrap" class="event-archive-search" hidden><span class="sr-only">Search archived events</span><input id="archiveSearch" type="search" placeholder="Search archive" autocomplete="off"></label>
           <span id="eventCount">Loading events</span>
         </div>
         <div id="eventsGrid" class="events-grid"></div>
@@ -292,6 +294,6 @@
     <script src="./data/coverage.js?v=20260726.1"></script>
     <script src="./data/team-assets.js?v=20260725.1"></script>
     <script src="./data/players.js?v=20260726.1"></script>
-    <script src="./app.js?v=20260726.10" type="module"></script>
+    <script src="./app.js?v=20260727.3" type="module"></script>
   </body>
 </html>

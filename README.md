@@ -23,7 +23,7 @@ The frontend consumes a normalized, versioned snapshot and does not depend on an
 
 The hosted collector implements `GET /api/live-snapshot`. Snapshot contract `1.1` carries event stages, schedule and result rows, series scores, map order, map results, veto text, players, and match lineups. The browser merges those updates without replacing richer tournament fields, player profiles, or format definitions.
 
-The historical explorer lazy-loads `docs/data/history.json`, a compact contract generated from the normalized warehouse with `npm run build:history`. It contains only Tier 1/2 product rows; verified completed live matches are appended during the same refresh that updates predictions, players, and event state.
+The historical explorer lazy-loads `docs/data/history.json`, a compact contract generated from the normalized warehouse with `npm run build:history`. It contains only Tier 1/2 product rows; verified completed live matches are appended during the same refresh that updates predictions, players, and event state. The same contract powers searchable event archives, historical result ledgers, participant records, and reconstructed playoff brackets.
 
 The portable model registry evaluates challengers on purged chronological folds. A challenger is promoted only when log loss improves without material Brier, accuracy, or calibration regression; otherwise the last verified champion remains active in both Python exports and the browser runtime.
 
