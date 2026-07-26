@@ -2793,7 +2793,8 @@ function openTeamProfile(teamName, { updateUrl = true } = {}) {
   if (updateUrl) updateProductUrl({ teamName, playerId: "" });
   els.teamDrawerClose?.focus({ preventScroll: true });
   if (!historySnapshot) {
-    historyLoadPromise ||= fetch("./data/history.json", { cache: "force-cache" })
+    const historyVersion = encodeURIComponent(appData?.generated_at_utc || appData?.coverage?.last_verified_utc || "current");
+    historyLoadPromise ||= fetch(`./data/history.json?v=${historyVersion}`, { cache: "no-cache" })
       .then((response) => {
         if (!response.ok) throw new Error(`History snapshot returned ${response.status}`);
         return response.json();
