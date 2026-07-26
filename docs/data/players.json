@@ -6,7 +6,7 @@
   "players": [
     {
       "player_id": "hltv:21167",
-      "hltv_player_id": 21167,
+      "hltv_player_id": "21167",
       "nickname": "donk",
       "real_name": "Danil Kryshkovets",
       "team_name": "Spirit",
@@ -47,7 +47,7 @@
           "won": true,
           "kills": 17,
           "deaths": 17,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 81.7,
           "kast": 65.2,
           "rating": 1.32
@@ -73,8 +73,8 @@
           "won": true,
           "kills": 30,
           "deaths": 10,
-          "kd_ratio": 3.0,
-          "adr": 127.0,
+          "kd_ratio": 3,
+          "adr": 127,
           "kast": 95.7,
           "rating": 2.32
         },
@@ -88,7 +88,7 @@
           "deaths": 20,
           "kd_ratio": 0.85,
           "adr": 82.5,
-          "kast": 72.0,
+          "kast": 72,
           "rating": 1.1
         },
         {
@@ -114,7 +114,7 @@
           "deaths": 19,
           "kd_ratio": 0.47,
           "adr": 61.8,
-          "kast": 55.0,
+          "kast": 55,
           "rating": 0.76
         }
       ],
@@ -158,7 +158,7 @@
           "deaths": 13,
           "kd_ratio": 0.69,
           "adr": 53.2,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 0.96
         },
         {
@@ -171,7 +171,7 @@
           "deaths": 42,
           "kd_ratio": 1.29,
           "adr": 86.9,
-          "kast": 81.0,
+          "kast": 81,
           "rating": 1.49
         },
         {
@@ -209,7 +209,7 @@
           "kills": 18,
           "deaths": 14,
           "kd_ratio": 1.29,
-          "adr": 90.0,
+          "adr": 90,
           "kast": 77.3,
           "rating": 1.59
         },
@@ -223,7 +223,7 @@
           "deaths": 20,
           "kd_ratio": 1.5,
           "adr": 90.1,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 1.36
         },
         {
@@ -235,7 +235,7 @@
           "kills": 30,
           "deaths": 27,
           "kd_ratio": 1.11,
-          "adr": 80.0,
+          "adr": 80,
           "kast": 74.4,
           "rating": 1.31
         },
@@ -332,7 +332,7 @@
           "deaths": 38,
           "kd_ratio": 1.13,
           "adr": 91.4,
-          "kast": 64.0,
+          "kast": 64,
           "rating": 1.38
         },
         {
@@ -345,7 +345,7 @@
           "deaths": 6,
           "kd_ratio": 1.17,
           "adr": 74.3,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.29
         },
         {
@@ -358,7 +358,7 @@
           "deaths": 16,
           "kd_ratio": 1.44,
           "adr": 79.3,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.26
         },
         {
@@ -371,7 +371,7 @@
           "deaths": 15,
           "kd_ratio": 0.87,
           "adr": 54.5,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.14
         },
         {
@@ -395,7 +395,7 @@
           "won": false,
           "kills": 30,
           "deaths": 30,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 68.3,
           "kast": 62.8,
           "rating": 1.06
@@ -493,7 +493,7 @@
           "deaths": 23,
           "kd_ratio": 1.09,
           "adr": 91.7,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.23
         },
         {
@@ -519,7 +519,7 @@
           "deaths": 22,
           "kd_ratio": 1.05,
           "adr": 84.1,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.2
         },
         {
@@ -544,8 +544,8 @@
           "kills": 19,
           "deaths": 18,
           "kd_ratio": 1.06,
-          "adr": 75.0,
-          "kast": 75.0,
+          "adr": 75,
+          "kast": 75,
           "rating": 1.27
         },
         {
@@ -557,7 +557,7 @@
           "kills": 26,
           "deaths": 16,
           "kd_ratio": 1.62,
-          "adr": 111.0,
+          "adr": 111,
           "kast": 78.3,
           "rating": 1.74
         },
@@ -627,7 +627,7 @@
           "kills": 6,
           "deaths": 20,
           "kd_ratio": 0.3,
-          "adr": 41.0,
+          "adr": 41,
           "kast": 47.6,
           "rating": 0.4
         },
@@ -693,7 +693,7 @@
           "deaths": 5,
           "kd_ratio": 0.4,
           "adr": 31.9,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.52
         },
         {
@@ -852,9 +852,9 @@
           "won": true,
           "kills": 15,
           "deaths": 15,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 89.2,
-          "kast": 80.0,
+          "kast": 80,
           "rating": 1.01
         },
         {
@@ -865,9 +865,9 @@
           "won": true,
           "kills": 18,
           "deaths": 9,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 89.6,
-          "kast": 87.0,
+          "kast": 87,
           "rating": 1.43
         },
         {
@@ -905,7 +905,7 @@
           "kills": 25,
           "deaths": 21,
           "kd_ratio": 1.19,
-          "adr": 92.0,
+          "adr": 92,
           "kast": 76.7,
           "rating": 1.45
         },
@@ -1040,7 +1040,7 @@
           "kills": 13,
           "deaths": 10,
           "kd_ratio": 1.3,
-          "adr": 93.0,
+          "adr": 93,
           "kast": 76.5,
           "rating": 1.8
         },
@@ -1189,7 +1189,7 @@
           "deaths": 15,
           "kd_ratio": 0.53,
           "adr": 55.9,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 0.93
         },
         {
@@ -1214,7 +1214,7 @@
           "kills": 20,
           "deaths": 28,
           "kd_ratio": 0.71,
-          "adr": 69.0,
+          "adr": 69,
           "kast": 66.7,
           "rating": 0.92
         },
@@ -1278,7 +1278,7 @@
           "won": true,
           "kills": 11,
           "deaths": 11,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 67.8,
           "kast": 88.2,
           "rating": 1.56
@@ -1376,7 +1376,7 @@
           "deaths": 13,
           "kd_ratio": 1.46,
           "adr": 82.5,
-          "kast": 90.0,
+          "kast": 90,
           "rating": 1.58
         },
         {
@@ -1427,8 +1427,8 @@
           "kills": 23,
           "deaths": 18,
           "kd_ratio": 1.28,
-          "adr": 81.0,
-          "kast": 80.0,
+          "adr": 81,
+          "kast": 80,
           "rating": 1.35
         },
         {
@@ -1440,7 +1440,7 @@
           "kills": 14,
           "deaths": 19,
           "kd_ratio": 0.74,
-          "adr": 71.0,
+          "adr": 71,
           "kast": 63.6,
           "rating": 0.82
         },
@@ -1523,8 +1523,8 @@
           "kills": 10,
           "deaths": 11,
           "kd_ratio": 0.91,
-          "adr": 47.0,
-          "kast": 70.0,
+          "adr": 47,
+          "kast": 70,
           "rating": 1.11
         },
         {
@@ -1551,7 +1551,7 @@
           "kd_ratio": 0.73,
           "adr": 61.8,
           "kast": 66.7,
-          "rating": 1.0
+          "rating": 1
         },
         {
           "match_id": "hltv:2387547",
@@ -1589,7 +1589,7 @@
           "deaths": 22,
           "kd_ratio": 1.05,
           "adr": 84.3,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 1.02
         },
         {
@@ -1696,7 +1696,7 @@
           "won": true,
           "kills": 15,
           "deaths": 15,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 50.7,
           "kast": 77.8,
           "rating": 0.88
@@ -1724,7 +1724,7 @@
           "deaths": 19,
           "kd_ratio": 1.26,
           "adr": 78.2,
-          "kast": 80.0,
+          "kast": 80,
           "rating": 1.27
         },
         {
@@ -1787,7 +1787,7 @@
           "won": true,
           "kills": 26,
           "deaths": 13,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 98.4,
           "kast": 78.3,
           "rating": 1.89
@@ -1885,7 +1885,7 @@
           "deaths": 45,
           "kd_ratio": 0.49,
           "adr": 61.9,
-          "kast": 64.0,
+          "kast": 64,
           "rating": 0.77
         },
         {
@@ -1898,7 +1898,7 @@
           "deaths": 7,
           "kd_ratio": 1.57,
           "adr": 75.8,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.52
         },
         {
@@ -1909,7 +1909,7 @@
           "won": true,
           "kills": 21,
           "deaths": 21,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 81.2,
           "kast": 78.6,
           "rating": 1.25
@@ -1923,8 +1923,8 @@
           "kills": 17,
           "deaths": 15,
           "kd_ratio": 1.13,
-          "adr": 82.0,
-          "kast": 65.0,
+          "adr": 82,
+          "kast": 65,
           "rating": 1.33
         },
         {
@@ -1935,8 +1935,8 @@
           "won": true,
           "kills": 21,
           "deaths": 21,
-          "kd_ratio": 1.0,
-          "adr": 75.0,
+          "kd_ratio": 1,
+          "adr": 75,
           "kast": 67.7,
           "rating": 1.15
         },
@@ -2006,7 +2006,7 @@
           "kills": 13,
           "deaths": 22,
           "kd_ratio": 0.59,
-          "adr": 48.0,
+          "adr": 48,
           "kast": 71.9,
           "rating": 0.65
         },
@@ -2057,7 +2057,7 @@
           "won": false,
           "kills": 23,
           "deaths": 23,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 77.4,
           "kast": 75.8,
           "rating": 1.26
@@ -2071,7 +2071,7 @@
           "kills": 18,
           "deaths": 22,
           "kd_ratio": 0.82,
-          "adr": 60.0,
+          "adr": 60,
           "kast": 63.3,
           "rating": 0.84
         },
@@ -2123,8 +2123,8 @@
           "kills": 20,
           "deaths": 22,
           "kd_ratio": 0.91,
-          "adr": 77.0,
-          "kast": 69.0,
+          "adr": 77,
+          "kast": 69,
           "rating": 1.13
         },
         {
@@ -2136,7 +2136,7 @@
           "kills": 23,
           "deaths": 14,
           "kd_ratio": 1.64,
-          "adr": 104.0,
+          "adr": 104,
           "kast": 71.4,
           "rating": 1.67
         }
@@ -2275,7 +2275,7 @@
       "player_id": "hltv:21243",
       "hltv_player_id": 21243,
       "nickname": "Wicadia",
-      "real_name": "Ali Haydar Yal\u00e7\u0131n",
+      "real_name": "Ali Haydar Yalçın",
       "team_name": "Aurora",
       "source_team_name": "Aurora",
       "source_team_rank": 6,
@@ -2379,7 +2379,7 @@
           "won": false,
           "kills": 18,
           "deaths": 18,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 76.6,
           "kast": 58.3,
           "rating": 1.16
@@ -2407,7 +2407,7 @@
           "deaths": 14,
           "kd_ratio": 1.29,
           "adr": 91.8,
-          "kast": 87.0,
+          "kast": 87,
           "rating": 1.39
         },
         {
@@ -2460,7 +2460,7 @@
     },
     {
       "player_id": "hltv:16920",
-      "hltv_player_id": 16920,
+      "hltv_player_id": "16920",
       "nickname": "sh1ro",
       "real_name": "Dmitry Sokolov",
       "team_name": "Spirit",
@@ -2541,8 +2541,8 @@
           "kills": 20,
           "deaths": 16,
           "kd_ratio": 1.25,
-          "adr": 67.0,
-          "kast": 72.0,
+          "adr": 67,
+          "kast": 72,
           "rating": 1.14
         },
         {
@@ -2568,7 +2568,7 @@
           "deaths": 15,
           "kd_ratio": 0.6,
           "adr": 52.1,
-          "kast": 65.0,
+          "kast": 65,
           "rating": 0.62
         }
       ],
@@ -2582,7 +2582,7 @@
     },
     {
       "player_id": "hltv:21809",
-      "hltv_player_id": 21809,
+      "hltv_player_id": "21809",
       "nickname": "910",
       "real_name": "Usukhbayar Banzragch",
       "team_name": "The MongolZ",
@@ -2610,7 +2610,7 @@
           "won": false,
           "kills": 15,
           "deaths": 15,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 84.8,
           "kast": 73.7,
           "rating": 1.25
@@ -2637,7 +2637,7 @@
           "kills": 17,
           "deaths": 16,
           "kd_ratio": 1.06,
-          "adr": 73.0,
+          "adr": 73,
           "kast": 68.2,
           "rating": 1.23
         },
@@ -2651,7 +2651,7 @@
           "deaths": 20,
           "kd_ratio": 0.55,
           "adr": 48.5,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.6
         },
         {
@@ -2676,8 +2676,8 @@
           "kills": 13,
           "deaths": 19,
           "kd_ratio": 0.68,
-          "adr": 53.0,
-          "kast": 50.0,
+          "adr": 53,
+          "kast": 50,
           "rating": 0.73
         },
         {
@@ -2688,9 +2688,9 @@
           "won": true,
           "kills": 6,
           "deaths": 0,
-          "kd_ratio": 6.0,
-          "adr": 140.0,
-          "kast": 100.0,
+          "kd_ratio": 6,
+          "adr": 140,
+          "kast": 100,
           "rating": 2.81
         },
         {
@@ -2715,7 +2715,7 @@
           "kills": 20,
           "deaths": 22,
           "kd_ratio": 0.91,
-          "adr": 64.0,
+          "adr": 64,
           "kast": 58.8,
           "rating": 1.01
         },
@@ -2749,7 +2749,7 @@
       "form_summary": {
         "series": 11,
         "average_rating": 1.31,
-        "average_adr": 77.0,
+        "average_adr": 77,
         "recent_rating": 1.36,
         "rating_delta": -0.23
       }
@@ -2785,7 +2785,7 @@
           "kills": 22,
           "deaths": 17,
           "kd_ratio": 1.29,
-          "adr": 78.0,
+          "adr": 78,
           "kast": 79.3,
           "rating": 1.4
         },
@@ -2798,7 +2798,7 @@
           "kills": 18,
           "deaths": 21,
           "kd_ratio": 0.86,
-          "adr": 63.0,
+          "adr": 63,
           "kast": 71.4,
           "rating": 0.96
         },
@@ -2888,9 +2888,9 @@
           "won": true,
           "kills": 15,
           "deaths": 15,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 71.4,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.12
         },
         {
@@ -2987,7 +2987,7 @@
           "kd_ratio": 0.71,
           "adr": 66.1,
           "kast": 67.6,
-          "rating": 1.0
+          "rating": 1
         },
         {
           "match_id": "hltv:2387342",
@@ -3011,7 +3011,7 @@
           "kills": 23,
           "deaths": 25,
           "kd_ratio": 0.92,
-          "adr": 83.0,
+          "adr": 83,
           "kast": 67.7,
           "rating": 1.17
         },
@@ -3025,7 +3025,7 @@
           "deaths": 14,
           "kd_ratio": 0.21,
           "adr": 32.8,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.49
         },
         {
@@ -3050,9 +3050,9 @@
           "kills": 10,
           "deaths": 14,
           "kd_ratio": 0.71,
-          "adr": 71.0,
+          "adr": 71,
           "kast": 70.6,
-          "rating": 1.0
+          "rating": 1
         },
         {
           "match_id": "hltv:2393347",
@@ -3076,14 +3076,14 @@
           "kills": 15,
           "deaths": 21,
           "kd_ratio": 0.71,
-          "adr": 70.0,
+          "adr": 70,
           "kast": 51.9,
           "rating": 0.94
         }
       ],
       "form_summary": {
         "series": 9,
-        "average_rating": 1.0,
+        "average_rating": 1,
         "average_adr": 67.2,
         "recent_rating": 1.18,
         "rating_delta": 0.35
@@ -3120,7 +3120,7 @@
           "kills": 16,
           "deaths": 21,
           "kd_ratio": 0.76,
-          "adr": 67.0,
+          "adr": 67,
           "kast": 72.4,
           "rating": 0.96
         },
@@ -3171,7 +3171,7 @@
           "won": true,
           "kills": 18,
           "deaths": 18,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 67.6,
           "kast": 73.3,
           "rating": 1.11
@@ -3225,7 +3225,7 @@
           "deaths": 14,
           "kd_ratio": 1.57,
           "adr": 91.7,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.46
         },
         {
@@ -3321,7 +3321,7 @@
           "deaths": 16,
           "kd_ratio": 1.25,
           "adr": 83.3,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.48
         },
         {
@@ -3332,7 +3332,7 @@
           "won": false,
           "kills": 14,
           "deaths": 14,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 64.8,
           "kast": 79.2,
           "rating": 1.28
@@ -3347,7 +3347,7 @@
           "deaths": 18,
           "kd_ratio": 1.17,
           "adr": 68.4,
-          "kast": 73.0,
+          "kast": 73,
           "rating": 1.16
         },
         {
@@ -3358,7 +3358,7 @@
           "won": false,
           "kills": 14,
           "deaths": 14,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 87.6,
           "kast": 72.2,
           "rating": 1.22
@@ -3399,7 +3399,7 @@
           "deaths": 12,
           "kd_ratio": 1.08,
           "adr": 74.2,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.37
         },
         {
@@ -3467,7 +3467,7 @@
           "won": true,
           "kills": 14,
           "deaths": 14,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 62.3,
           "kast": 65.2,
           "rating": 0.98
@@ -3494,8 +3494,8 @@
           "kills": 17,
           "deaths": 8,
           "kd_ratio": 2.12,
-          "adr": 89.0,
-          "kast": 80.0,
+          "adr": 89,
+          "kast": 80,
           "rating": 1.41
         },
         {
@@ -3508,7 +3508,7 @@
           "deaths": 10,
           "kd_ratio": 2.4,
           "adr": 103.5,
-          "kast": 87.0,
+          "kast": 87,
           "rating": 1.83
         },
         {
@@ -3613,7 +3613,7 @@
     },
     {
       "player_id": "hltv:19808",
-      "hltv_player_id": 19808,
+      "hltv_player_id": "19808",
       "nickname": "tN1R",
       "real_name": "Andrey Tatarinovich",
       "team_name": "Spirit",
@@ -3695,7 +3695,7 @@
           "deaths": 19,
           "kd_ratio": 0.58,
           "adr": 53.9,
-          "kast": 56.0,
+          "kast": 56,
           "rating": 0.76
         },
         {
@@ -3707,7 +3707,7 @@
           "kills": 10,
           "deaths": 17,
           "kd_ratio": 0.59,
-          "adr": 54.0,
+          "adr": 54,
           "kast": 71.4,
           "rating": 0.79
         },
@@ -3720,8 +3720,8 @@
           "kills": 10,
           "deaths": 13,
           "kd_ratio": 0.77,
-          "adr": 57.0,
-          "kast": 55.0,
+          "adr": 57,
+          "kast": 55,
           "rating": 0.82
         }
       ],
@@ -3737,7 +3737,7 @@
       "player_id": "hltv:7938",
       "hltv_player_id": 7938,
       "nickname": "XANTARES",
-      "real_name": "Ismailcan D\u00f6rtkarde\u015f",
+      "real_name": "Ismailcan Dörtkardeş",
       "team_name": "Aurora",
       "source_team_name": "Aurora",
       "source_team_rank": 6,
@@ -3802,7 +3802,7 @@
           "won": true,
           "kills": 16,
           "deaths": 8,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 132.9,
           "kast": 92.9,
           "rating": 2.28
@@ -3817,7 +3817,7 @@
           "deaths": 45,
           "kd_ratio": 0.93,
           "adr": 85.9,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.21
         },
         {
@@ -3855,7 +3855,7 @@
           "kills": 19,
           "deaths": 13,
           "kd_ratio": 1.46,
-          "adr": 95.0,
+          "adr": 95,
           "kast": 81.8,
           "rating": 1.84
         },
@@ -3882,7 +3882,7 @@
           "deaths": 20,
           "kd_ratio": 0.95,
           "adr": 70.6,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 1.1
         },
         {
@@ -3908,7 +3908,7 @@
           "deaths": 33,
           "kd_ratio": 0.61,
           "adr": 64.1,
-          "kast": 61.0,
+          "kast": 61,
           "rating": 0.73
         }
       ],
@@ -3924,7 +3924,7 @@
       "player_id": "hltv:8574",
       "hltv_player_id": 8574,
       "nickname": "woxic",
-      "real_name": "\u00d6zg\u00fcr Eker",
+      "real_name": "Özgür Eker",
       "team_name": "Aurora",
       "source_team_name": "Aurora",
       "source_team_rank": 6,
@@ -3989,7 +3989,7 @@
           "won": true,
           "kills": 12,
           "deaths": 6,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 77.6,
           "kast": 78.6,
           "rating": 1.51
@@ -4004,7 +4004,7 @@
           "deaths": 39,
           "kd_ratio": 0.79,
           "adr": 49.4,
-          "kast": 55.0,
+          "kast": 55,
           "rating": 0.85
         },
         {
@@ -4111,7 +4111,7 @@
       "player_id": "hltv:13915",
       "hltv_player_id": 13915,
       "nickname": "YEKINDAR",
-      "real_name": "Mareks Ga\u013cinskis",
+      "real_name": "Mareks Gaļinskis",
       "team_name": "FURIA",
       "source_team_name": "FURIA",
       "source_team_rank": 5,
@@ -4242,7 +4242,7 @@
           "kills": 9,
           "deaths": 12,
           "kd_ratio": 0.75,
-          "adr": 52.0,
+          "adr": 52,
           "kast": 78.9,
           "rating": 1.11
         },
@@ -4281,7 +4281,7 @@
           "kills": 10,
           "deaths": 17,
           "kd_ratio": 0.59,
-          "adr": 63.0,
+          "adr": 63,
           "kast": 57.1,
           "rating": 0.84
         }
@@ -4289,7 +4289,7 @@
       "form_summary": {
         "series": 12,
         "average_rating": 1.09,
-        "average_adr": 70.0,
+        "average_adr": 70,
         "recent_rating": 0.95,
         "rating_delta": -0.13
       }
@@ -4298,7 +4298,7 @@
       "player_id": "hltv:3741",
       "hltv_player_id": 3741,
       "nickname": "NiKo",
-      "real_name": "Nikola Kova\u010d",
+      "real_name": "Nikola Kovač",
       "team_name": "Falcons",
       "source_team_name": "Falcons",
       "source_team_rank": 4,
@@ -4352,7 +4352,7 @@
           "deaths": 42,
           "kd_ratio": 0.48,
           "adr": 44.9,
-          "kast": 54.0,
+          "kast": 54,
           "rating": 0.68
         },
         {
@@ -4365,7 +4365,7 @@
           "deaths": 5,
           "kd_ratio": 0.8,
           "adr": 32.4,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.01
         },
         {
@@ -4376,7 +4376,7 @@
           "won": true,
           "kills": 19,
           "deaths": 19,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 75.3,
           "kast": 78.6,
           "rating": 1.22
@@ -4391,7 +4391,7 @@
           "deaths": 16,
           "kd_ratio": 0.69,
           "adr": 69.8,
-          "kast": 60.0,
+          "kast": 60,
           "rating": 0.82
         },
         {
@@ -4433,7 +4433,7 @@
       "player_id": "hltv:22279",
       "hltv_player_id": 22279,
       "nickname": "PR",
-      "real_name": "Old\u0159ich Nov\u00fd",
+      "real_name": "Oldřich Nový",
       "team_name": "GamerLegion",
       "source_team_name": "GamerLegion",
       "source_team_rank": 10,
@@ -4461,7 +4461,7 @@
           "deaths": 9,
           "kd_ratio": 0.89,
           "adr": 71.7,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.1
         },
         {
@@ -4486,7 +4486,7 @@
           "kills": 22,
           "deaths": 12,
           "kd_ratio": 1.83,
-          "adr": 105.0,
+          "adr": 105,
           "kast": 86.4,
           "rating": 1.9
         },
@@ -4621,7 +4621,7 @@
           "kills": 17,
           "deaths": 25,
           "kd_ratio": 0.68,
-          "adr": 71.0,
+          "adr": 71,
           "kast": 66.7,
           "rating": 0.88
         },
@@ -4685,9 +4685,9 @@
           "won": true,
           "kills": 10,
           "deaths": 1,
-          "kd_ratio": 10.0,
+          "kd_ratio": 10,
           "adr": 232.8,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 4.17
         },
         {
@@ -4711,7 +4711,7 @@
           "won": true,
           "kills": 24,
           "deaths": 24,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 76.3,
           "kast": 61.8,
           "rating": 1.18
@@ -4783,7 +4783,7 @@
           "deaths": 12,
           "kd_ratio": 0.92,
           "adr": 64.3,
-          "kast": 60.0,
+          "kast": 60,
           "rating": 1.14
         },
         {
@@ -4887,7 +4887,7 @@
           "deaths": 24,
           "kd_ratio": 1.04,
           "adr": 63.2,
-          "kast": 73.0,
+          "kast": 73,
           "rating": 1.03
         }
       ],
@@ -4903,7 +4903,7 @@
       "player_id": "hltv:12018",
       "hltv_player_id": 12018,
       "nickname": "TeSeS",
-      "real_name": "Ren\u00e9 Madsen",
+      "real_name": "René Madsen",
       "team_name": "Falcons",
       "source_team_name": "Falcons",
       "source_team_rank": 4,
@@ -4929,7 +4929,7 @@
           "won": true,
           "kills": 17,
           "deaths": 17,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 60.7,
           "kast": 70.4,
           "rating": 1.03
@@ -4957,7 +4957,7 @@
           "deaths": 38,
           "kd_ratio": 0.74,
           "adr": 59.8,
-          "kast": 60.0,
+          "kast": 60,
           "rating": 0.86
         },
         {
@@ -4996,7 +4996,7 @@
           "deaths": 12,
           "kd_ratio": 1.25,
           "adr": 78.4,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.46
         },
         {
@@ -5009,7 +5009,7 @@
           "deaths": 20,
           "kd_ratio": 0.75,
           "adr": 63.9,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 1.02
         },
         {
@@ -5105,7 +5105,7 @@
           "deaths": 8,
           "kd_ratio": 2.38,
           "adr": 100.2,
-          "kast": 90.0,
+          "kast": 90,
           "rating": 1.68
         },
         {
@@ -5157,7 +5157,7 @@
           "deaths": 17,
           "kd_ratio": 1.24,
           "adr": 77.4,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.13
         },
         {
@@ -5169,7 +5169,7 @@
           "kills": 17,
           "deaths": 16,
           "kd_ratio": 1.06,
-          "adr": 64.0,
+          "adr": 64,
           "kast": 63.6,
           "rating": 1.06
         },
@@ -5209,7 +5209,7 @@
           "deaths": 29,
           "kd_ratio": 0.52,
           "adr": 59.3,
-          "kast": 61.0,
+          "kast": 61,
           "rating": 0.93
         }
       ],
@@ -5292,7 +5292,7 @@
           "deaths": 22,
           "kd_ratio": 0.95,
           "adr": 60.8,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 0.95
         },
         {
@@ -5415,7 +5415,7 @@
           "kd_ratio": 0.76,
           "adr": 59.6,
           "kast": 65.4,
-          "rating": 1.0
+          "rating": 1
         },
         {
           "match_id": "hltv:2391113",
@@ -5452,7 +5452,7 @@
           "kills": 17,
           "deaths": 29,
           "kd_ratio": 0.59,
-          "adr": 60.0,
+          "adr": 60,
           "kast": 69.4,
           "rating": 0.88
         },
@@ -5465,8 +5465,8 @@
           "kills": 5,
           "deaths": 4,
           "kd_ratio": 1.25,
-          "adr": 75.0,
-          "kast": 75.0,
+          "adr": 75,
+          "kast": 75,
           "rating": 1.26
         },
         {
@@ -5544,7 +5544,7 @@
           "deaths": 8,
           "kd_ratio": 1.5,
           "adr": 76.4,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 1.44
         }
       ],
@@ -5558,7 +5558,7 @@
     },
     {
       "player_id": "hltv:18317",
-      "hltv_player_id": 18317,
+      "hltv_player_id": "18317",
       "nickname": "magixx",
       "real_name": "Boris Vorobiev",
       "team_name": "Spirit",
@@ -5601,7 +5601,7 @@
           "deaths": 19,
           "kd_ratio": 0.58,
           "adr": 59.9,
-          "kast": 64.0,
+          "kast": 64,
           "rating": 0.77
         },
         {
@@ -5627,7 +5627,7 @@
           "deaths": 16,
           "kd_ratio": 0.5,
           "adr": 41.1,
-          "kast": 55.0,
+          "kast": 55,
           "rating": 0.61
         }
       ],
@@ -5670,7 +5670,7 @@
           "kills": 21,
           "deaths": 23,
           "kd_ratio": 0.91,
-          "adr": 79.0,
+          "adr": 79,
           "kast": 66.7,
           "rating": 1.2
         },
@@ -5734,9 +5734,9 @@
           "won": true,
           "kills": 0,
           "deaths": 3,
-          "kd_ratio": 0.0,
+          "kd_ratio": 0,
           "adr": 21.8,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.29
         },
         {
@@ -5774,7 +5774,7 @@
           "kills": 11,
           "deaths": 12,
           "kd_ratio": 0.92,
-          "adr": 82.0,
+          "adr": 82,
           "kast": 70.6,
           "rating": 1.2
         },
@@ -5788,7 +5788,7 @@
           "deaths": 27,
           "kd_ratio": 0.67,
           "adr": 68.1,
-          "kast": 60.0,
+          "kast": 60,
           "rating": 1.01
         }
       ],
@@ -5845,7 +5845,7 @@
           "deaths": 20,
           "kd_ratio": 0.9,
           "adr": 75.7,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.25
         },
         {
@@ -5883,7 +5883,7 @@
           "kills": 12,
           "deaths": 21,
           "kd_ratio": 0.57,
-          "adr": 49.0,
+          "adr": 49,
           "kast": 67.7,
           "rating": 0.69
         },
@@ -5926,7 +5926,7 @@
       "player_id": "hltv:18072",
       "hltv_player_id": 18072,
       "nickname": "torzsi",
-      "real_name": "\u00c1d\u00e1m Torzs\u00e1s",
+      "real_name": "Ádám Torzsás",
       "team_name": "MOUZ",
       "source_team_name": "MOUZ",
       "source_team_rank": 8,
@@ -5991,7 +5991,7 @@
           "won": true,
           "kills": 15,
           "deaths": 5,
-          "kd_ratio": 3.0,
+          "kd_ratio": 3,
           "adr": 92.4,
           "kast": 78.6,
           "rating": 2.19
@@ -6019,7 +6019,7 @@
           "deaths": 4,
           "kd_ratio": 0.75,
           "adr": 44.1,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 0.82
         },
         {
@@ -6097,7 +6097,7 @@
           "deaths": 5,
           "kd_ratio": 1.8,
           "adr": 70.4,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 1.54
         }
       ],
@@ -6140,8 +6140,8 @@
           "kills": 12,
           "deaths": 13,
           "kd_ratio": 0.92,
-          "adr": 79.0,
-          "kast": 80.0,
+          "adr": 79,
+          "kast": 80,
           "rating": 1.43
         },
         {
@@ -6193,7 +6193,7 @@
           "deaths": 17,
           "kd_ratio": 0.29,
           "adr": 32.7,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.5
         },
         {
@@ -6219,7 +6219,7 @@
           "deaths": 30,
           "kd_ratio": 0.53,
           "adr": 57.7,
-          "kast": 59.0,
+          "kast": 59,
           "rating": 0.9
         },
         {
@@ -6288,7 +6288,7 @@
           "kills": 7,
           "deaths": 11,
           "kd_ratio": 0.64,
-          "adr": 79.0,
+          "adr": 79,
           "kast": 66.7,
           "rating": 0.71
         },
@@ -6314,7 +6314,7 @@
           "kills": 17,
           "deaths": 15,
           "kd_ratio": 1.13,
-          "adr": 76.0,
+          "adr": 76,
           "kast": 72.7,
           "rating": 1.2
         },
@@ -6462,7 +6462,7 @@
           "kills": 19,
           "deaths": 26,
           "kd_ratio": 0.73,
-          "adr": 66.0,
+          "adr": 66,
           "kast": 73.7,
           "rating": 0.92
         },
@@ -6586,7 +6586,7 @@
       ],
       "form_summary": {
         "series": 12,
-        "average_rating": 1.0,
+        "average_rating": 1,
         "average_adr": 65.9,
         "recent_rating": 0.73,
         "rating_delta": -0.47
@@ -6663,7 +6663,7 @@
           "deaths": 10,
           "kd_ratio": 1.3,
           "adr": 69.3,
-          "kast": 95.0,
+          "kast": 95,
           "rating": 1.21
         },
         {
@@ -6675,7 +6675,7 @@
           "kills": 6,
           "deaths": 15,
           "kd_ratio": 0.4,
-          "adr": 48.0,
+          "adr": 48,
           "kast": 69.6,
           "rating": 0.64
         },
@@ -6700,7 +6700,7 @@
           "won": true,
           "kills": 7,
           "deaths": 7,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 74.7,
           "kast": 72.7,
           "rating": 0.88
@@ -6715,7 +6715,7 @@
           "deaths": 21,
           "kd_ratio": 0.95,
           "adr": 74.9,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.06
         },
         {
@@ -6781,7 +6781,7 @@
     },
     {
       "player_id": "hltv:20194",
-      "hltv_player_id": 20194,
+      "hltv_player_id": "20194",
       "nickname": "bLitz",
       "real_name": "Garidmagnai Byambasuren",
       "team_name": "The MongolZ",
@@ -6862,7 +6862,7 @@
           "kills": 19,
           "deaths": 24,
           "kd_ratio": 0.79,
-          "adr": 61.0,
+          "adr": 61,
           "kast": 68.6,
           "rating": 0.99
         },
@@ -6887,9 +6887,9 @@
           "won": true,
           "kills": 4,
           "deaths": 2,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 66.8,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 1.18
         },
         {
@@ -6901,7 +6901,7 @@
           "kills": 12,
           "deaths": 29,
           "kd_ratio": 0.41,
-          "adr": 45.0,
+          "adr": 45,
           "kast": 55.9,
           "rating": 0.58
         },
@@ -6955,7 +6955,7 @@
     },
     {
       "player_id": "hltv:20423",
-      "hltv_player_id": 20423,
+      "hltv_player_id": "20423",
       "nickname": "zont1x",
       "real_name": "Myroslav Plakhotia",
       "team_name": "Spirit",
@@ -6998,7 +6998,7 @@
           "deaths": 16,
           "kd_ratio": 0.94,
           "adr": 60.8,
-          "kast": 68.0,
+          "kast": 68,
           "rating": 1.13
         },
         {
@@ -7024,7 +7024,7 @@
           "deaths": 15,
           "kd_ratio": 0.67,
           "adr": 52.5,
-          "kast": 45.0,
+          "kast": 45,
           "rating": 0.73
         }
       ],
@@ -7038,7 +7038,7 @@
     },
     {
       "player_id": "hltv:20275",
-      "hltv_player_id": 20275,
+      "hltv_player_id": "20275",
       "nickname": "Techno",
       "real_name": "Sodbayar Munkhbold",
       "team_name": "The MongolZ",
@@ -7144,9 +7144,9 @@
           "won": true,
           "kills": 0,
           "deaths": 3,
-          "kd_ratio": 0.0,
+          "kd_ratio": 0,
           "adr": 33.5,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 0.62
         },
         {
@@ -7214,7 +7214,7 @@
       "player_id": "hltv:150",
       "hltv_player_id": 150,
       "nickname": "MAJ3R",
-      "real_name": "Engin K\u00fcpeli",
+      "real_name": "Engin Küpeli",
       "team_name": "Aurora",
       "source_team_name": "Aurora",
       "source_team_rank": 6,
@@ -7279,7 +7279,7 @@
           "won": true,
           "kills": 12,
           "deaths": 6,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 82.3,
           "kast": 85.7,
           "rating": 1.47
@@ -7319,8 +7319,8 @@
           "kills": 11,
           "deaths": 15,
           "kd_ratio": 0.73,
-          "adr": 72.0,
-          "kast": 75.0,
+          "adr": 72,
+          "kast": 75,
           "rating": 0.96
         },
         {
@@ -7359,7 +7359,7 @@
           "deaths": 18,
           "kd_ratio": 1.17,
           "adr": 70.1,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 1.32
         },
         {
@@ -7371,7 +7371,7 @@
           "kills": 23,
           "deaths": 18,
           "kd_ratio": 1.28,
-          "adr": 72.0,
+          "adr": 72,
           "kast": 72.2,
           "rating": 1.2
         },
@@ -7392,7 +7392,7 @@
       "form_summary": {
         "series": 12,
         "average_rating": 1.03,
-        "average_adr": 65.0,
+        "average_adr": 65,
         "recent_rating": 1.15,
         "rating_delta": 0.22
       }
@@ -7480,7 +7480,7 @@
           "kills": 19,
           "deaths": 46,
           "kd_ratio": 0.41,
-          "adr": 45.0,
+          "adr": 45,
           "kast": 59.6,
           "rating": 0.63
         },
@@ -7493,7 +7493,7 @@
           "kills": 19,
           "deaths": 23,
           "kd_ratio": 0.83,
-          "adr": 57.0,
+          "adr": 57,
           "kast": 60.6,
           "rating": 1.03
         },
@@ -7546,7 +7546,7 @@
           "deaths": 23,
           "kd_ratio": 0.7,
           "adr": 54.9,
-          "kast": 69.0,
+          "kast": 69,
           "rating": 0.95
         },
         {
@@ -7557,7 +7557,7 @@
           "won": false,
           "kills": 19,
           "deaths": 19,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 64.4,
           "kast": 58.6,
           "rating": 0.96
@@ -7640,7 +7640,7 @@
           "won": true,
           "kills": 17,
           "deaths": 17,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 67.6,
           "kast": 70.4,
           "rating": 1.05
@@ -7693,7 +7693,7 @@
           "kills": 13,
           "deaths": 19,
           "kd_ratio": 0.68,
-          "adr": 54.0,
+          "adr": 54,
           "kast": 66.7,
           "rating": 0.89
         },
@@ -7706,7 +7706,7 @@
           "kills": 19,
           "deaths": 32,
           "kd_ratio": 0.59,
-          "adr": 49.0,
+          "adr": 49,
           "kast": 67.4,
           "rating": 0.68
         },
@@ -7720,7 +7720,7 @@
           "deaths": 16,
           "kd_ratio": 0.69,
           "adr": 62.6,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 0.72
         },
         {
@@ -7731,7 +7731,7 @@
           "won": true,
           "kills": 14,
           "deaths": 14,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 75.2,
           "kast": 78.3,
           "rating": 1.08
@@ -7746,7 +7746,7 @@
           "deaths": 8,
           "kd_ratio": 1.5,
           "adr": 61.9,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 1.29
         },
         {
@@ -7840,7 +7840,7 @@
           "won": false,
           "kills": 21,
           "deaths": 21,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 84.7,
           "kast": 55.6,
           "rating": 1.1
@@ -7885,7 +7885,7 @@
           "kills": 13,
           "deaths": 20,
           "kd_ratio": 0.65,
-          "adr": 61.0,
+          "adr": 61,
           "kast": 62.5,
           "rating": 0.84
         },
@@ -7899,7 +7899,7 @@
           "deaths": 24,
           "kd_ratio": 0.92,
           "adr": 70.6,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.16
         },
         {
@@ -7924,7 +7924,7 @@
           "kills": 16,
           "deaths": 33,
           "kd_ratio": 0.48,
-          "adr": 51.0,
+          "adr": 51,
           "kast": 46.3,
           "rating": 0.66
         },
@@ -7950,7 +7950,7 @@
           "kills": 15,
           "deaths": 27,
           "kd_ratio": 0.56,
-          "adr": 50.0,
+          "adr": 50,
           "kast": 45.2,
           "rating": 0.64
         },
@@ -7964,7 +7964,7 @@
           "deaths": 10,
           "kd_ratio": 0.5,
           "adr": 64.8,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 0.78
         },
         {
@@ -7990,7 +7990,7 @@
           "deaths": 15,
           "kd_ratio": 0.67,
           "adr": 62.6,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 0.9
         },
         {
@@ -8023,13 +8023,157 @@
       "form_summary": {
         "series": 11,
         "average_rating": 0.74,
-        "average_adr": 53.0,
+        "average_adr": 53,
         "recent_rating": 0.68,
         "rating_delta": -0.02
       }
+    },
+    {
+      "player_id": "hltv:7592",
+      "nickname": "device",
+      "team_name": "100 Thieves",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "7592",
+      "source_url": "https://www.hltv.org/player/7592/device",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:8183",
+      "nickname": "rain",
+      "team_name": "100 Thieves",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "8183",
+      "source_url": "https://www.hltv.org/player/8183/rain",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:21816",
+      "nickname": "Gizmy",
+      "team_name": "100 Thieves",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "21816",
+      "source_url": "https://www.hltv.org/player/21816/gizmy",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:23397",
+      "nickname": "poiii",
+      "team_name": "100 Thieves",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "23397",
+      "source_url": "https://www.hltv.org/player/23397/poiii",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:22695",
+      "nickname": "sirah",
+      "team_name": "100 Thieves",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "22695",
+      "source_url": "https://www.hltv.org/player/22695/sirah",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:17353",
+      "nickname": "Cxzi",
+      "team_name": "Wildcard",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "17353",
+      "source_url": "https://www.hltv.org/player/17353/cxzi",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:17378",
+      "nickname": "reck",
+      "team_name": "Wildcard",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "17378",
+      "source_url": "https://www.hltv.org/player/17378/reck",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:18838",
+      "nickname": "HexT",
+      "team_name": "Wildcard",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "18838",
+      "source_url": "https://www.hltv.org/player/18838/hext",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:8311",
+      "nickname": "nEMANHA",
+      "team_name": "Wildcard",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "8311",
+      "source_url": "https://www.hltv.org/player/8311/nemanha",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:16847",
+      "nickname": "mhL",
+      "team_name": "Wildcard",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "16847",
+      "source_url": "https://www.hltv.org/player/16847/mhl",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:26013",
+      "nickname": "DarkMeister",
+      "team_name": "The MongolZ",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26013",
+      "source_url": "https://www.hltv.org/player/26013/darkmeister",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:25510",
+      "nickname": "tikuak",
+      "team_name": "The MongolZ",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "25510",
+      "source_url": "https://www.hltv.org/player/25510/tikuak",
+      "form_timeline": []
     }
   ],
-  "lineups_updated_at_utc": "2026-07-26T00:45:00Z",
+  "lineups_updated_at_utc": "2026-07-26T21:29:58Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-05-24",
   "history_profile_count": 50
