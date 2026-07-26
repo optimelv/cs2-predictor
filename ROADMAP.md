@@ -18,10 +18,12 @@ Status: implemented in the current product branch.
 
 ## Release 1.1: Personal Match Desk
 
-Status: browser-local foundation implemented; account sync and alerts remain next.
+Status: browser-local personal desk implemented; account sync and alerts remain next.
 
 - Saved match picks with frozen probability, automatic win/loss resolution, and a personal ledger
-- Team, player, and event watchlists stored per account
+- Team, player, and event watchlists stored on the current device
+- Personal match feed assembled from followed teams and tournaments
+- Direct navigation from the personal desk into series, team, player, and event intelligence
 - Notifications for published vetoes, changed probabilities, roster substitutions, and match starts
 - Account-synced closing probability and calibration history
 - Shareable event brackets and Pick'Em routes
@@ -81,7 +83,7 @@ Priority: after the consumer desk proves repeat use.
 ## Product Order After Live Ingest
 
 1. Player timelines: initial series-rating, ADR, K/D, opponent, and event history is implemented; role, roster, and map-performance movement remain next.
-2. Accounts and alerts: synced picks, watchlists, veto notifications, and closing probability history.
+2. Accounts and alerts: browser-local picks and watchlists are live; cross-device sync, veto notifications, and closing probability history remain next.
 3. Match explanation engine: implemented with ranked positive signals, the strongest counter-signal, and one prioritized uncertainty flag for every call.
 4. Historical explorer: head-to-head, lineup-era splits, map matchup matrices, and event archive.
 5. Public API and embeds after data freshness and repeat usage are proven.

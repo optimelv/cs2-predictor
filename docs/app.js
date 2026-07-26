@@ -2,6 +2,7 @@ import { eventIsProductEligible, normalizeEvent, normalizeMatch, normalizePlatfo
 import { buildDoubleEliminationTree } from "./lib/brackets.js?v=20260726.1";
 import { tournamentBlueprint, tournamentPlayoffField, tournamentStageLabels } from "./lib/tournaments.js?v=20260726.1";
 import { explainMatch } from "./lib/explanations.js?v=20260726.1";
+import { normalizeWatchlist, toggleWatchlist, watchlistCount, watchlistHas } from "./lib/watchlist.js?v=20260726.1";
 import {
   applyVetoMap,
   buildRecommendedVeto,
@@ -67,10 +68,16 @@ const els = {
   teamDrawerClose: document.querySelector("#teamDrawerClose"),
   teamDrawerContent: document.querySelector("#teamDrawerContent"),
   openSearch: document.querySelector("#openSearch"),
+  openMyDesk: document.querySelector("#openMyDesk"),
+  watchCount: document.querySelector("#watchCount"),
   searchLayer: document.querySelector("#searchLayer"),
   searchBackdrop: document.querySelector("#searchBackdrop"),
   productSearch: document.querySelector("#productSearch"),
   searchResults: document.querySelector("#searchResults"),
+  myDeskLayer: document.querySelector("#myDeskLayer"),
+  myDeskBackdrop: document.querySelector("#myDeskBackdrop"),
+  myDeskClose: document.querySelector("#myDeskClose"),
+  myDeskContent: document.querySelector("#myDeskContent"),
   vetoLabLayer: document.querySelector("#vetoLabLayer"),
   vetoLabBackdrop: document.querySelector("#vetoLabBackdrop"),
   vetoLabClose: document.querySelector("#vetoLabClose"),
@@ -101,9 +108,12 @@ let selectedPlayerId = null;
 let selectedTeamName = null;
 let activeVetoMatch = null;
 let vetoLabState = null;
+let myDeskReturnFocus = null;
 const pickOverrides = new Map();
 const SAVED_PICKS_KEY = "strikesignal.saved-picks.v1";
 let savedPicks = loadSavedPicks();
+const WATCHLIST_KEY = "strikesignal.watchlist.v1";
+let watchlist = loadWatchlist();
 let teamLookupMap = {};
 let probabilityCache = {};
 const pickemChanceCache = new Map();
@@ -196,6 +206,45 @@ function persistSavedPicks() {
   } catch {
     // The desk still works when storage is unavailable in a locked-down browser.
   }
+  syncWatchControls();
+  if (els.myDeskLayer && !els.myDeskLayer.hidden) renderMyDesk();
+}
+
+function loadWatchlist() {
+  try {
+    return normalizeWatchlist(JSON.parse(window.localStorage.getItem(WATCHLIST_KEY) || "{}"));
+  } catch {
+    return normalizeWatchlist();
+  }
+}
+
+function persistWatchlist() {
+  try {
+    window.localStorage.setItem(WATCHLIST_KEY, JSON.stringify(watchlist));
+  } catch {
+    // Following remains usable for the current session when storage is locked down.
+  }
+}
+
+function watchButtonHtml(type, id, name, className = "") {
+  const active = watchlistHas(watchlist, type, id);
+  return `<button type="button" class="follow-control ${className} ${active ? "is-active" : ""}" data-watch-type="${escapeHtml(type)}" data-watch-id="${escapeHtml(id)}" data-watch-name="${escapeHtml(name)}" aria-pressed="${String(active)}"><i aria-hidden="true">${active ? "✓" : "+"}</i><span>${active ? "Following" : "Follow"}</span></button>`;
+}
+
+function syncWatchControls() {
+  document.querySelectorAll("[data-watch-type][data-watch-id]").forEach((button) => {
+    const active = watchlistHas(watchlist, button.dataset.watchType, button.dataset.watchId);
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
+    const icon = button.querySelector("i");
+    const label = button.querySelector("span");
+    if (icon) icon.textContent = active ? "✓" : "+";
+    if (label) label.textContent = active ? "Following" : "Follow";
+  });
+  const followedCount = watchlistCount(watchlist);
+  setText(els.watchCount, String(followedCount));
+  els.openMyDesk?.setAttribute("aria-label", `Open My Desk, ${followedCount} followed`);
+  els.openMyDesk?.classList.toggle("has-items", followedCount > 0 || Object.keys(savedPicks).length > 0);
 }
 
 function savedPickFor(match) {
@@ -1071,6 +1120,7 @@ function renderGenericEventBoard(event) {
         <div>
           <span>${escapeHtml(event.status || "scheduled")} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"} · ${escapeHtml(event.event_type || "TBA")}</span>
           <h4>${escapeHtml(event.name)}</h4>
+          ${watchButtonHtml("events", event.id, event.name, "event-follow")}
         </div>
         <div class="event-room-snapshot">
           <div><span>Dates</span><strong>${escapeHtml(eventDateRange(event))}</strong></div>
@@ -2496,6 +2546,7 @@ function playerDetailHtml(player) {
       <div><span>Signal index</span><strong>${Number(player.signal_index) || "--"}</strong></div>
       <div><span>Map sample</span><strong>${Number(player.maps_3m) || "--"}</strong></div>
     </div>
+    <div class="player-follow-row">${watchButtonHtml("players", player.player_id, player.nickname)}<span>Keep this profile in My Desk</span></div>
     ${playerFormTimelineHtml(player)}
     <div class="player-traits">${playerTraitHtml(player)}</div>
     <a class="player-source" href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">Open HLTV profile</a>
@@ -2586,7 +2637,7 @@ function teamPlayerProfileHtml(teamName, player) {
     <section class="team-player-nav"><button type="button" data-back-team><i aria-hidden="true">←</i><span>Back to ${escapeHtml(teamName)}</span></button><strong>Player intelligence</strong></section>
     <section class="team-player-hero">
       <div class="team-player-monogram" aria-hidden="true">${escapeHtml(String(player.nickname || "?").slice(0, 2).toUpperCase())}</div>
-      <div><span>${escapeHtml(playerRole(player))} · ${escapeHtml(teamName)}</span><h2>${escapeHtml(player.nickname)}</h2><p>${escapeHtml(player.real_name || "HLTV player profile")}</p></div>
+      <div><span>${escapeHtml(playerRole(player))} · ${escapeHtml(teamName)}</span><h2>${escapeHtml(player.nickname)}</h2><p>${escapeHtml(player.real_name || "HLTV player profile")}</p>${watchButtonHtml("players", player.player_id, player.nickname, "profile-follow")}</div>
       ${teamLogoHtml(teamName)}
     </section>
     <section class="team-profile-metrics team-player-metrics">
@@ -2632,7 +2683,7 @@ function teamProfileHtml(teamName) {
   return `
     <section class="team-profile-hero">
       ${teamLogoHtml(teamName)}
-      <div><span>${model.vrs_rank ? `#${model.vrs_rank} Valve world ranking` : "Team profile"}</span><h2 id="teamDrawerTitle">${escapeHtml(teamName)}</h2><p>${Number(model.matches) || 0} model-state matches</p></div>
+      <div><span>${model.vrs_rank ? `#${model.vrs_rank} Valve world ranking` : "Team profile"}</span><h2 id="teamDrawerTitle">${escapeHtml(teamName)}</h2><p>${Number(model.matches) || 0} model-state matches</p>${watchButtonHtml("teams", normalizeName(teamName), teamName, "profile-follow")}</div>
     </section>
     <section class="team-profile-metrics">
       <div><span>VRS points</span><strong>${Number(model.vrs_points) || "--"}</strong></div>
@@ -2795,6 +2846,90 @@ function closeProductSearch() {
   els.searchLayer.classList.remove("is-open");
   document.body.classList.remove("search-open");
   window.setTimeout(() => { if (!els.searchLayer.classList.contains("is-open")) els.searchLayer.hidden = true; }, 180);
+}
+
+function followedMatches() {
+  const teamIds = new Set(watchlist.teams.map((entry) => entry.id));
+  const eventIds = new Set(watchlist.events.map((entry) => entry.id));
+  return allKnownMatches()
+    .filter((match) => matchStatusGroup(match) !== "results")
+    .filter((match) => eventIds.has(String(match.event_id || "")) || [match.team1_name, match.team2_name].some((team) => teamIds.has(normalizeName(team))))
+    .sort((left, right) => new Date(left.starts_at || "9999-12-31") - new Date(right.starts_at || "9999-12-31"))
+    .slice(0, 8);
+}
+
+function myDeskMatchHtml(match) {
+  const call = enrichMatch(match);
+  const confidence = matchConfidence(call);
+  return `<button type="button" class="my-desk-match" data-desk-match="${escapeHtml(matchKeyOf(call))}">
+    <span class="my-desk-match-time"><b>${escapeHtml(call.starts_at ? formatDate(call.starts_at) : "TBA")}</b><small>${escapeHtml(call.event_name || "CS2 circuit")}</small></span>
+    <span class="my-desk-match-teams"><span>${teamLogoHtml(call.team1_name)}<b>${escapeHtml(call.team1_name)}</b></span><i>${formatPercent(call.prob_team1)}</i><span><b>${escapeHtml(call.team2_name)}</b>${teamLogoHtml(call.team2_name)}</span></span>
+    <span class="my-desk-match-call"><small>Model call</small><b>${escapeHtml(call.predicted_winner)}</b><i style="--desk-confidence:${Math.round(confidence * 100)}%"></i></span>
+  </button>`;
+}
+
+function myDeskEntityListsHtml() {
+  const teams = watchlist.teams.map((entry) => {
+    const model = teamModel(entry.name);
+    return `<article><button type="button" data-open-team="${escapeHtml(entry.name)}">${teamLogoHtml(entry.name)}<span><strong>${escapeHtml(entry.name)}</strong><small>${model.vrs_rank ? `#${model.vrs_rank} VRS` : "Team intelligence"}</small></span></button>${watchButtonHtml("teams", entry.id, entry.name, "is-icon-only")}</article>`;
+  }).join("");
+  const players = watchlist.players.map((entry) => {
+    const player = (playerSnapshot?.players || []).find((row) => row.player_id === entry.id);
+    return `<article><button type="button" data-open-player="${escapeHtml(entry.id)}"><i>${escapeHtml(String(player?.nickname || entry.name).slice(0, 2).toUpperCase())}</i><span><strong>${escapeHtml(player?.nickname || entry.name)}</strong><small>${escapeHtml(player ? `${player.team_name} · ${playerRole(player)}` : "Player profile")}</small></span></button>${watchButtonHtml("players", entry.id, player?.nickname || entry.name, "is-icon-only")}</article>`;
+  }).join("");
+  const events = watchlist.events.map((entry) => {
+    const event = availableEvents().find((row) => row.id === entry.id);
+    return `<article><button type="button" data-desk-event="${escapeHtml(entry.id)}"><i>${escapeHtml(event ? eventDateParts(event).day : "--")}</i><span><strong>${escapeHtml(event?.name || entry.name)}</strong><small>${escapeHtml(event ? `${eventDateRange(event)} · ${event.status}` : "Event profile")}</small></span></button>${watchButtonHtml("events", entry.id, event?.name || entry.name, "is-icon-only")}</article>`;
+  }).join("");
+  return `<div class="my-desk-entities"><section><header><span>Teams</span><strong>${watchlist.teams.length}</strong></header>${teams || `<p>No followed teams.</p>`}</section><section><header><span>Players</span><strong>${watchlist.players.length}</strong></header>${players || `<p>No followed players.</p>`}</section><section><header><span>Events</span><strong>${watchlist.events.length}</strong></header>${events || `<p>No followed events.</p>`}</section></div>`;
+}
+
+function myDeskPicksHtml() {
+  const matches = new Map(allKnownMatches().map((match) => [matchKeyOf(match), match]));
+  const rows = Object.entries(savedPicks).sort(([, left], [, right]) => String(right.saved_at).localeCompare(String(left.saved_at))).slice(0, 8);
+  if (!rows.length) return `<div class="my-desk-empty"><span>Pick ledger</span><strong>No saved calls yet.</strong><a href="#matches" data-close-desk>Open the match desk</a></div>`;
+  return `<div class="my-desk-picks">${rows.map(([key, pick]) => {
+    const match = matches.get(key);
+    const state = match ? savedPickState(match) : "pending";
+    return `<article class="is-${escapeHtml(state)}"><span>${escapeHtml(pick.event_name || "CS2 circuit")}<small>${escapeHtml(pick.starts_at ? formatDate(pick.starts_at) : "Series pending")}</small></span><strong>${escapeHtml(pick.team_name)}<small>vs ${escapeHtml(pick.opponent_name)}</small></strong><b>${formatPercent(pick.probability)}<small>${escapeHtml(state)}</small></b></article>`;
+  }).join("")}</div>`;
+}
+
+function renderMyDesk() {
+  if (!els.myDeskContent) return;
+  const matches = followedMatches();
+  const entityCount = watchlistCount(watchlist);
+  const pendingPicks = Object.keys(savedPicks).length;
+  els.myDeskContent.innerHTML = `<section class="my-desk-hero"><div><span>Personal circuit</span><h2>${entityCount || pendingPicks ? "Your CS2 desk." : "Build your desk."}</h2><p>${entityCount || pendingPicks ? "Followed teams, players, events, and saved calls in one view." : "Follow any team, player, or event to start a personal match feed."}</p></div><aside><div><span>Following</span><strong>${entityCount}</strong></div><div><span>Next series</span><strong>${matches.length}</strong></div><div><span>Saved picks</span><strong>${pendingPicks}</strong></div></aside></section>
+    <section class="my-desk-grid"><div class="my-desk-feed"><header><span>Next on server</span><strong>${matches.length ? `${matches.length} relevant series` : "No scheduled series"}</strong></header>${matches.length ? matches.map(myDeskMatchHtml).join("") : `<div class="my-desk-empty"><span>Match feed</span><strong>Follow a team or active event.</strong></div>`}</div><div class="my-desk-ledger"><header><span>Prediction ledger</span><strong>${pendingPicks} saved</strong></header>${myDeskPicksHtml()}</div></section>
+    ${myDeskEntityListsHtml()}`;
+  syncWatchControls();
+}
+
+function openMyDesk() {
+  if (!els.myDeskLayer) return;
+  myDeskReturnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  closeProductSearch();
+  if (els.vetoLabLayer && !els.vetoLabLayer.hidden) closeVetoLab();
+  if (els.teamDrawerLayer && !els.teamDrawerLayer.hidden) closeTeamProfile({ updateUrl: false });
+  renderMyDesk();
+  els.myDeskLayer.hidden = false;
+  document.body.classList.add("my-desk-open");
+  window.requestAnimationFrame(() => {
+    els.myDeskLayer.classList.add("is-open");
+    els.myDeskClose?.focus({ preventScroll: true });
+  });
+}
+
+function closeMyDesk() {
+  if (!els.myDeskLayer || els.myDeskLayer.hidden) return;
+  els.myDeskLayer.classList.remove("is-open");
+  document.body.classList.remove("my-desk-open");
+  window.setTimeout(() => {
+    if (!els.myDeskLayer.classList.contains("is-open")) els.myDeskLayer.hidden = true;
+    myDeskReturnFocus?.focus?.({ preventScroll: true });
+    myDeskReturnFocus = null;
+  }, 220);
 }
 
 function normalizeName(teamName) {
@@ -3191,6 +3326,7 @@ async function boot() {
     renderPlayerFilters();
     renderPlayers();
     updateSummary(data);
+    syncWatchControls();
     installViewportSignals();
     restoreProductLocation();
     if (selectedTeamName) openTeamProfile(selectedTeamName, { updateUrl: false });
@@ -3256,12 +3392,28 @@ document.addEventListener("keydown", (event) => {
 
 document.addEventListener("click", (event) => {
   if (!(event.target instanceof Element)) return;
+  const trigger = event.target.closest("[data-watch-type][data-watch-id]");
+  if (!trigger) return;
+  event.preventDefault();
+  event.stopPropagation();
+  watchlist = toggleWatchlist(watchlist, trigger.dataset.watchType, {
+    id: trigger.dataset.watchId,
+    name: trigger.dataset.watchName,
+  });
+  persistWatchlist();
+  syncWatchControls();
+  if (els.myDeskLayer && !els.myDeskLayer.hidden) renderMyDesk();
+}, true);
+
+document.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
   const trigger = event.target.closest("[data-open-player]");
   if (!trigger) return;
   event.preventDefault();
   event.stopPropagation();
   const playerId = trigger.dataset.openPlayer;
   if (!playerId) return;
+  if (els.myDeskContent?.contains(trigger)) closeMyDesk();
   closeTeamProfile({ updateUrl: false });
   selectedPlayerId = playerId;
   playerSearchTerm = "";
@@ -3279,6 +3431,7 @@ document.addEventListener("click", (event) => {
   if (!trigger) return;
   event.preventDefault();
   event.stopPropagation();
+  if (els.myDeskContent?.contains(trigger)) closeMyDesk();
   openTeamProfile(trigger.dataset.openTeam || trigger.dataset.team || trigger.title);
 }, true);
 
@@ -3354,6 +3507,34 @@ els.teamDrawerContent?.addEventListener("click", (event) => {
 });
 
 els.openSearch?.addEventListener("click", openProductSearch);
+els.openMyDesk?.addEventListener("click", openMyDesk);
+els.myDeskBackdrop?.addEventListener("click", closeMyDesk);
+els.myDeskClose?.addEventListener("click", closeMyDesk);
+els.myDeskContent?.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  if (event.target.closest("[data-close-desk]")) {
+    closeMyDesk();
+    return;
+  }
+  const eventId = event.target.closest("[data-desk-event]")?.dataset.deskEvent;
+  if (eventId) {
+    closeMyDesk();
+    selectEvent(eventId);
+    return;
+  }
+  const matchKey = event.target.closest("[data-desk-match]")?.dataset.deskMatch;
+  if (!matchKey) return;
+  const match = allKnownMatches().find((row) => matchKeyOf(row) === matchKey);
+  if (!match) return;
+  selectedMatchKey = matchKeyOf(match);
+  selectedMatchDateKey = localDateKey(match.starts_at);
+  currentMatchFilter = "all";
+  currentMatchEvent = "all";
+  closeMyDesk();
+  renderDeciders(dailyMatchCalls());
+  updateProductUrl({ eventId: "", view: "", playerId: "", teamName: "", hash: "matches" });
+  document.querySelector("#matches")?.scrollIntoView({ block: "start", behavior: "smooth" });
+});
 els.searchBackdrop?.addEventListener("click", closeProductSearch);
 els.productSearch?.addEventListener("input", (event) => renderProductSearch(event.target.value || ""));
 els.searchResults?.addEventListener("click", (event) => {
@@ -3398,6 +3579,21 @@ document.addEventListener("keydown", (event) => {
     return;
   }
   if (event.key === "Escape" && els.searchLayer && !els.searchLayer.hidden) closeProductSearch();
+  if (event.key === "Escape" && els.myDeskLayer && !els.myDeskLayer.hidden) closeMyDesk();
+  if (event.key === "Tab" && els.myDeskLayer?.classList.contains("is-open")) {
+    const focusable = [...els.myDeskLayer.querySelectorAll('button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])')]
+      .filter((element) => element instanceof HTMLElement && element.offsetParent !== null);
+    if (!focusable.length) return;
+    const first = focusable[0];
+    const last = focusable.at(-1);
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  }
 });
 
 els.eventFilterButtons.forEach((button) => {
