@@ -1,7 +1,8 @@
-import { normalizeEvent, normalizeMatch, normalizePlatformSnapshot } from "./lib/snapshot.js?v=20260712.2";
+import { eventIsProductEligible, normalizeEvent, normalizeMatch, normalizePlatformSnapshot, productTierForEvent } from "./lib/snapshot.js?v=20260726.1";
 
 const DATA_URL = "./data/predictions.json";
 const SUPPLEMENTAL_TEAM_ASSETS = window.__STRIKESIGNAL_TEAM_ASSETS__ || {};
+const STATIC_PLAYER_SNAPSHOT = window.__STRIKESIGNAL_PLAYERS__ || { players: [] };
 
 const els = {
   freshnessLabel: document.querySelector("#freshnessLabel"),
@@ -38,6 +39,20 @@ const els = {
   slateCount: document.querySelector("#slateCount"),
   rankingSnapshot: document.querySelector("#rankingSnapshot"),
   eventCount: document.querySelector("#eventCount"),
+  playerSearch: document.querySelector("#playerSearch"),
+  playerTeamFilter: document.querySelector("#playerTeamFilter"),
+  playerSnapshotMeta: document.querySelector("#playerSnapshotMeta"),
+  playerGrid: document.querySelector("#playerGrid"),
+  playerDetail: document.querySelector("#playerDetail"),
+  teamDrawerLayer: document.querySelector("#teamDrawerLayer"),
+  teamDrawerBackdrop: document.querySelector("#teamDrawerBackdrop"),
+  teamDrawerClose: document.querySelector("#teamDrawerClose"),
+  teamDrawerContent: document.querySelector("#teamDrawerContent"),
+  openSearch: document.querySelector("#openSearch"),
+  searchLayer: document.querySelector("#searchLayer"),
+  searchBackdrop: document.querySelector("#searchBackdrop"),
+  productSearch: document.querySelector("#productSearch"),
+  searchResults: document.querySelector("#searchResults"),
   eventFilterButtons: document.querySelectorAll("[data-event-filter]"),
   emptyTemplate: document.querySelector("#emptyTemplate"),
 };
@@ -51,11 +66,16 @@ let coverage = null;
 let currentEventFilter = "active";
 let currentMatchFilter = "all";
 let currentMatchEvent = "all";
-let matchDayOffset = 0;
+let selectedMatchDateKey = null;
 let selectedMatchKey = null;
 let activeEventView = "overview";
 let selectedEventMatchKey = null;
 let rankingsExpanded = false;
+let playerSnapshot = STATIC_PLAYER_SNAPSHOT;
+let playerSearchTerm = "";
+let playerTeamFilter = "all";
+let selectedPlayerId = null;
+let selectedTeamName = null;
 const pickOverrides = new Map();
 let teamLookupMap = {};
 let probabilityCache = {};
@@ -98,6 +118,17 @@ function setText(element, value) {
   if (element) element.textContent = value;
 }
 
+function updateProductUrl({ eventId, view, playerId, teamName, hash } = {}) {
+  if (window.location.protocol === "file:") return;
+  const url = new URL(window.location.href);
+  if (eventId !== undefined) eventId ? url.searchParams.set("event", eventId) : url.searchParams.delete("event");
+  if (view !== undefined) view ? url.searchParams.set("view", view) : url.searchParams.delete("view");
+  if (playerId !== undefined) playerId ? url.searchParams.set("player", playerId) : url.searchParams.delete("player");
+  if (teamName !== undefined) teamName ? url.searchParams.set("team", teamName) : url.searchParams.delete("team");
+  if (hash) url.hash = hash;
+  window.history.replaceState(null, "", url);
+}
+
 function matchConfidence(match) {
   const probability = Number(match.prob_team1);
   const winnerProbability = match.predicted_winner === match.team1_name ? probability : 1 - probability;
@@ -135,11 +166,9 @@ function localDateKey(value) {
   return [date.getFullYear(), String(date.getMonth() + 1).padStart(2, "0"), String(date.getDate()).padStart(2, "0")].join("-");
 }
 
-function dateAtOffset(offset) {
-  const date = new Date();
-  date.setHours(12, 0, 0, 0);
-  date.setDate(date.getDate() + offset);
-  return date;
+function dateFromKey(key) {
+  const date = new Date(`${key}T12:00:00`);
+  return Number.isNaN(date.getTime()) ? new Date() : date;
 }
 
 function dailyMatchCalls() {
@@ -151,15 +180,33 @@ function dailyMatchCalls() {
     const key = matchKeyOf(match);
     merged.set(key, { ...(merged.get(key) || {}), ...match });
   });
-  const oldest = dateAtOffset(-1).getTime();
-  const newest = dateAtOffset(2).getTime() + 43_200_000;
   return [...merged.values()]
     .map(enrichMatch)
     .filter((match) => {
-      const startsAt = new Date(match.starts_at || 0).getTime();
-      return Number.isFinite(startsAt) && startsAt >= oldest && startsAt <= newest;
+      const event = (appData?.coverage?.events || []).find((candidate) => candidate.id === match.event_id || normalizeName(candidate.name) === normalizeName(match.event_name));
+      return event ? eventIsProductEligible(event) : eventIsProductEligible({ name: match.event_name });
     })
+    .filter((match) => Number.isFinite(new Date(match.starts_at || 0).getTime()))
     .sort((a, b) => new Date(a.starts_at || 0) - new Date(b.starts_at || 0) || matchSignalScore(b) - matchSignalScore(a));
+}
+
+function matchSlateDays(matches) {
+  const today = localDateKey(new Date());
+  const keys = [...new Set(matches.map((match) => localDateKey(match.starts_at)).filter(Boolean))].sort();
+  if (!keys.length) return [];
+  if (!selectedMatchDateKey || !keys.includes(selectedMatchDateKey)) {
+    selectedMatchDateKey = keys.find((key) => key >= today) || keys[keys.length - 1];
+  }
+  const selectedIndex = keys.indexOf(selectedMatchDateKey);
+  const start = Math.max(0, Math.min(selectedIndex - 2, keys.length - 5));
+  return keys.slice(start, start + 5);
+}
+
+function slateDayLabel(key) {
+  const today = localDateKey(new Date());
+  if (key === today) return "Today";
+  if (key < today && key === selectedMatchDateKey) return "Latest";
+  return new Intl.DateTimeFormat("en-US", { weekday: "short" }).format(dateFromKey(key));
 }
 
 function matchSignalScore(match) {
@@ -253,14 +300,22 @@ function matchInsightHtml(match) {
   const form2 = Number(team2.recent_win_rate_10) || 0.5;
   const depth1 = mapDepth(call.team1_name, pool);
   const depth2 = mapDepth(call.team2_name, pool);
+  const lineup1 = call.lineups?.team1?.length ? call.lineups.team1 : playersForTeam(call.team1_name);
+  const lineup2 = call.lineups?.team2?.length ? call.lineups.team2 : playersForTeam(call.team2_name);
+  const lineupHtml = (players, teamName) => `<div><span>${escapeHtml(teamName)}</span><section>${players.slice(0, 5).map((player) => {
+    const nickname = player.nickname || player.player_name || player.name;
+    const playerId = player.player_id || (player.hltv_player_id ? `hltv:${player.hltv_player_id}` : "");
+    return `<button type="button" data-open-player="${escapeHtml(playerId)}" title="Open ${escapeHtml(nickname)}"><i>${escapeHtml(String(nickname || "?").slice(0, 2).toUpperCase())}</i><b>${escapeHtml(nickname || "TBD")}</b></button>`;
+  }).join("") || `<small>Lineup pending</small>`}</section></div>`;
   return `
     <div class="insight-status"><span class="status-token is-${matchStatusGroup(call)}">${escapeHtml(matchStatusGroup(call))}</span><span>${escapeHtml(call.series_format?.toUpperCase() || "BO3")} · ${escapeHtml(call.stage_name || "Scheduled series")}</span></div>
     <div class="insight-event">${escapeHtml(call.event_name || "CS2 circuit")}</div>
     <div class="insight-matchup">
-      <div>${teamLogoHtml(call.team1_name)}<strong>${escapeHtml(call.team1_name)}</strong><b>${coverage === "limited" ? "--" : formatPercent(probability)}</b></div>
+      <div data-open-team="${escapeHtml(call.team1_name)}" role="button" tabindex="0" aria-label="Open ${escapeHtml(call.team1_name)} team profile">${teamLogoHtml(call.team1_name)}<strong>${escapeHtml(call.team1_name)}</strong><b>${coverage === "limited" ? "--" : formatPercent(probability)}</b></div>
       <span>vs</span>
-      <div>${teamLogoHtml(call.team2_name)}<strong>${escapeHtml(call.team2_name)}</strong><b>${coverage === "limited" ? "--" : formatPercent(1 - probability)}</b></div>
+      <div data-open-team="${escapeHtml(call.team2_name)}" role="button" tabindex="0" aria-label="Open ${escapeHtml(call.team2_name)} team profile">${teamLogoHtml(call.team2_name)}<strong>${escapeHtml(call.team2_name)}</strong><b>${coverage === "limited" ? "--" : formatPercent(1 - probability)}</b></div>
     </div>
+    <div class="series-lineups">${lineupHtml(lineup1, call.team1_name)}${lineupHtml(lineup2, call.team2_name)}</div>
     <div class="insight-call">
       <span>${coverage === "full" ? "Model edge" : coverage === "partial" ? "Low-data edge" : "Awaiting data"}</span>
       <strong>${coverage === "limited" ? "Pending team state" : `${escapeHtml(call.predicted_winner)} ${formatPercent(matchConfidence(call))}`}</strong>
@@ -280,7 +335,7 @@ function matchInsightHtml(match) {
   `;
 }
 
-function matchRowHtml(match) {
+function matchRowHtml(match, rowIndex = 0) {
   const call = enrichMatch(match);
   const key = matchKeyOf(call);
   const probability = Number(call.prob_team1);
@@ -289,7 +344,7 @@ function matchRowHtml(match) {
   const isSelected = key === selectedMatchKey;
   const timeLabel = status === "live" ? "LIVE" : call.starts_at ? new Intl.DateTimeFormat("en-US", { hour: "2-digit", minute: "2-digit" }).format(new Date(call.starts_at)) : "TBA";
   return `
-    <button class="match-row ${isSelected ? "is-selected" : ""}" type="button" data-match-key="${escapeHtml(key)}" aria-pressed="${String(isSelected)}">
+    <button class="match-row ${isSelected ? "is-selected" : ""}" style="--row-index:${rowIndex}" type="button" data-match-key="${escapeHtml(key)}" aria-pressed="${String(isSelected)}">
       <span class="match-time is-${status}">${escapeHtml(timeLabel)}<small>${escapeHtml(call.series_format?.toUpperCase() || "BO3")}</small></span>
       <span class="match-event"><strong>${escapeHtml(call.event_name || "CS2 circuit")}</strong><small>${escapeHtml(call.stage_name || "Scheduled series")}</small></span>
       <span class="match-row-teams">
@@ -306,12 +361,12 @@ function matchRowHtml(match) {
 function renderMatchToolbar(matches) {
   if (!els.matchToolbar) return;
   const events = [...new Set(matches.map((match) => match.event_name).filter(Boolean))].sort();
+  const days = matchSlateDays(matches);
   els.matchToolbar.innerHTML = `
     <div class="match-days" role="group" aria-label="Match day">
-      ${[-1, 0, 1].map((offset) => {
-        const date = dateAtOffset(offset);
-        const label = offset === 0 ? "Today" : new Intl.DateTimeFormat("en-US", { weekday: "short" }).format(date);
-        return `<button type="button" class="${matchDayOffset === offset ? "is-active" : ""}" data-match-day="${offset}"><span>${label}</span><strong>${new Intl.DateTimeFormat("en-US", { month: "short", day: "2-digit" }).format(date)}</strong></button>`;
+      ${days.map((key) => {
+        const date = dateFromKey(key);
+        return `<button type="button" class="${selectedMatchDateKey === key ? "is-active" : ""}" data-match-day="${escapeHtml(key)}"><span>${escapeHtml(slateDayLabel(key))}</span><strong>${new Intl.DateTimeFormat("en-US", { month: "short", day: "2-digit" }).format(date)}</strong></button>`;
       }).join("")}
     </div>
     <div class="match-status-filters" role="group" aria-label="Match status">
@@ -320,7 +375,7 @@ function renderMatchToolbar(matches) {
     <label class="match-event-select"><span>Event</span><select id="matchEventSelect"><option value="all">All events</option>${events.map((eventName) => `<option value="${escapeHtml(eventName)}" ${currentMatchEvent === eventName ? "selected" : ""}>${escapeHtml(eventName)}</option>`).join("")}</select></label>
   `;
   els.matchToolbar.querySelectorAll("[data-match-day]").forEach((button) => button.addEventListener("click", () => {
-    matchDayOffset = Number(button.dataset.matchDay);
+    selectedMatchDateKey = button.dataset.matchDay;
     selectedMatchKey = null;
     renderDeciders(dailyMatchCalls());
   }));
@@ -339,7 +394,7 @@ function renderMatchToolbar(matches) {
 function renderDeciders(matches) {
   const rows = (matches || []).map(enrichMatch);
   renderMatchToolbar(rows);
-  const targetDate = localDateKey(dateAtOffset(matchDayOffset));
+  const targetDate = selectedMatchDateKey;
   const visible = rows.filter((match) => {
     const status = matchStatusGroup(match);
     const dateMatches = localDateKey(match.starts_at) === targetDate;
@@ -348,14 +403,15 @@ function renderDeciders(matches) {
     return dateMatches && statusMatches && eventMatches;
   });
   if (!visible.length) {
-    els.deciderGrid.innerHTML = `<div class="match-center-empty"><span>NO SERIES</span><h3>The selected desk is clear.</h3><p>Choose another date, status, or event.</p></div>`;
+    const hasAnyRows = rows.length > 0;
+    els.deciderGrid.innerHTML = `<div class="match-center-empty"><span>${hasAnyRows ? "FILTERED SLATE" : "FEED STANDBY"}</span><h3>${hasAnyRows ? "No series match these filters." : "The next slate is loading."}</h3><p>${hasAnyRows ? "Switch the status or event filter to reopen the desk." : "The last verified tournament data remains available below."}</p></div>`;
     return;
   }
   if (!selectedMatchKey || !visible.some((match) => matchKeyOf(match) === selectedMatchKey)) selectedMatchKey = matchKeyOf(visible[0]);
   const selected = visible.find((match) => matchKeyOf(match) === selectedMatchKey) || visible[0];
   els.deciderGrid.innerHTML = `
     <div class="match-list-pane">
-      <header><span>${visible.length} series</span><strong>${escapeHtml(new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" }).format(dateAtOffset(matchDayOffset)))}</strong></header>
+      <header><span>${visible.length} series</span><strong>${escapeHtml(new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" }).format(dateFromKey(targetDate)))}</strong></header>
       <div class="match-row-list">${visible.map(matchRowHtml).join("")}</div>
     </div>
     <aside class="match-insight" aria-live="polite">${matchInsightHtml(selected)}</aside>
@@ -493,7 +549,7 @@ function outcomePanel(label, records, grouped, variant) {
           <h5>${escapeHtml(record)}</h5>
           <div class="outcome-logos">
             ${(grouped[record] || []).map((team, teamIndex) => `
-              <div class="final-team ${team.status || "locked"}" style="--team-index:${teamIndex}" title="${escapeHtml(team.team_name)}" aria-label="${escapeHtml(team.team_name)}, ${escapeHtml(record)}">
+              <div class="final-team ${team.status || "locked"}" style="--team-index:${teamIndex}" title="${escapeHtml(team.team_name)}" data-open-team="${escapeHtml(team.team_name)}" role="button" tabindex="0" aria-label="Open ${escapeHtml(team.team_name)} team profile, ${escapeHtml(record)}">
                 ${teamLogoHtml(team.team_name)}
                 <span class="sr-only">${escapeHtml(team.team_name)}</span>
               </div>
@@ -544,7 +600,14 @@ function availableEvents(data = appData) {
   };
   const sourceEvents = data?.coverage?.events?.length ? data.coverage.events : data?.event_coverage || [];
   sourceEvents.forEach(addEvent);
-  return [...merged.values()];
+  const statusOrder = { ongoing: 0, upcoming: 1, finished: 2, cancelled: 3 };
+  return [...merged.values()].filter(eventIsProductEligible).sort((a, b) => {
+    const statusDelta = (statusOrder[a.status] ?? 4) - (statusOrder[b.status] ?? 4);
+    if (statusDelta) return statusDelta;
+    const timeA = new Date(`${a.start_date || "9999-12-31"}T12:00:00`).getTime();
+    const timeB = new Date(`${b.start_date || "9999-12-31"}T12:00:00`).getTime();
+    return a.status === "finished" ? timeB - timeA : timeA - timeB;
+  });
 }
 
 function activeEvent() {
@@ -580,7 +643,13 @@ function eventFormatStages(event) {
   const type = String(event?.format?.type || "mixed");
   const declaredStages = (event?.format?.stages || []).map((stage) => typeof stage === "string" ? stage : stage.name || stage.label).filter(Boolean);
   if (declaredStages.length) return declaredStages;
-  if (type === "swiss") return ["Swiss", "Playoffs", "Final"];
+  if (type === "swiss") {
+    const declaredCount = Number(event?.format?.settings?.swiss_stages);
+    const inferredCount = /three[- ]stage swiss/i.test(String(event?.format?.label || "")) ? 3 : 1;
+    const count = declaredCount || inferredCount;
+    if (count > 1) return [...Array.from({ length: count }, (_, index) => `Stage ${index + 1} Swiss`), "Playoffs", "Final"];
+    return ["Swiss", "Playoffs", "Final"];
+  }
   if (type === "gsl") return ["GSL groups", "Playoffs", "Final"];
   if (type === "single_elimination") {
     const fieldSize = Number(event?.participants?.length || event?.teams) || 8;
@@ -598,7 +667,7 @@ function eventFormatStages(event) {
 
 function formatPathHtml(event) {
   return eventFormatStages(event).map((stage, index, stages) => `
-    <span>${escapeHtml(stage)}</span>${index < stages.length - 1 ? "<i></i>" : ""}
+    <span>${escapeHtml(stage)}</span>${index < stages.length - 1 ? "<i aria-hidden=\"true\"></i>" : ""}
   `).join("");
 }
 
@@ -606,14 +675,14 @@ function syncMajorCopy(stage3, event = activeEvent()) {
   if (!eventHasMajorBoard(event)) {
     document.body.classList.remove("stage-complete");
     if (els.playoffTab) els.playoffTab.hidden = true;
-    setText(els.eventPhaseLabel, "Live event intelligence");
-    setText(els.projectionTitle, event ? "Tournament room." : "Choose an event.");
+    setText(els.eventPhaseLabel, event ? `${event.status || "scheduled"} · ${event.event_type || "CS2 event"}` : "Event room");
+    setText(els.projectionTitle, event ? event.name : "Choose an event.");
     setText(els.projectionIntro, event
       ? `${eventDateRange(event)} · ${event.location || "Location TBA"} · ${event.format?.label || "Format pending"}`
       : "Choose a covered event to open its forecast.");
-    setText(els.boardStageTitle, event ? `${event.current_stage || (event.status === "upcoming" ? "Pre-event" : "Current stage")} forecast.` : "Choose a covered event.");
+    setText(els.boardStageTitle, event ? event.current_stage || event.format?.label || "Event forecast" : "Choose a covered event.");
     setText(els.routeIntro, event
-      ? `${event.participants?.length || 0} teams announced · ${activeEventCalls(event).length} published series`
+      ? `${event.participants?.length || 0} teams · ${activeEventCalls(event).length} tracked series · ${(event.map_pool || []).length} maps`
       : "Select an event from the calendar.");
     setText(els.currentStageTab, "Event outlook");
     setText(els.playoffTab, "Bracket forecast");
@@ -721,7 +790,7 @@ function renderGenericEventBoard(event) {
     <div class="event-room">
       <header class="event-room-hero">
         <div>
-          <span>${escapeHtml(event.status || "scheduled")} · ${escapeHtml(event.tier || "event")} · ${escapeHtml(event.event_type || "TBA")}</span>
+          <span>${escapeHtml(event.status || "scheduled")} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"} · ${escapeHtml(event.event_type || "TBA")}</span>
           <h4>${escapeHtml(event.name)}</h4>
         </div>
         <div class="event-room-snapshot">
@@ -732,7 +801,7 @@ function renderGenericEventBoard(event) {
         </div>
       </header>
       <nav class="event-room-tabs" aria-label="Tournament views">
-        ${["overview", "matches", "format", "teams"].map((view) => {
+        ${["overview", "matches", "bracket", "format", "teams"].map((view) => {
           const matchCount = activeEventCalls(event).length;
           return `<button type="button" class="${activeEventView === view ? "is-active" : ""}" data-event-view="${view}"><span>${view}</span>${view === "matches" && matchCount ? `<b>${matchCount}</b>` : ""}</button>`;
         }).join("")}
@@ -742,15 +811,19 @@ function renderGenericEventBoard(event) {
   `;
   els.swissBoard.querySelectorAll("[data-event-view]").forEach((button) => button.addEventListener("click", () => {
     activeEventView = button.dataset.eventView || "overview";
+    updateProductUrl({ eventId: event.id, view: activeEventView, playerId: "", teamName: "", hash: "featured" });
     selectedEventMatchKey = null;
     renderGenericEventBoard(event);
   }));
   els.swissBoard.querySelectorAll("[data-event-view-jump]").forEach((button) => button.addEventListener("click", () => {
     activeEventView = button.dataset.eventViewJump || "overview";
+    updateProductUrl({ eventId: event.id, view: activeEventView, playerId: "", teamName: "", hash: "featured" });
     renderGenericEventBoard(event);
   }));
   els.swissBoard.querySelectorAll("[data-event-match]").forEach((button) => button.addEventListener("click", () => {
     selectedEventMatchKey = button.dataset.eventMatch;
+    activeEventView = "matches";
+    updateProductUrl({ eventId: event.id, view: activeEventView, playerId: "", teamName: "", hash: "featured" });
     renderGenericEventBoard(event);
   }));
 }
@@ -790,6 +863,16 @@ function projectedOpeningMatches(event) {
 }
 
 function projectedEventMatches(event) {
+  if (["single_elimination", "double_elimination"].includes(event?.format?.type)) {
+    return buildTournamentBracket(event).rounds.flatMap((round) => round.matches.map((match) => ({
+      ...match,
+      event_id: event.id,
+      event_name: event.name,
+      stage_name: match.round_name || round.name,
+      series_format: match.series_format || "bo3",
+      starts_at: match.starts_at || null,
+    })));
+  }
   if (event?.format?.type !== "gsl" || !event.groups?.length) return projectedOpeningMatches(event);
   return event.groups.flatMap((group) => {
     const teams = group.teams || [];
@@ -815,9 +898,168 @@ function projectedEventMatches(event) {
 
 function eventViewHtml(event, view) {
   if (view === "matches") return eventMatchesHtml(event);
+  if (view === "bracket") return eventBracketHtml(event);
   if (view === "format") return eventFormatHtml(event);
   if (view === "teams") return eventTeamsHtml(event);
   return eventOverviewHtml(event);
+}
+
+function bracketField(event) {
+  const type = String(event?.format?.type || "mixed");
+  const ordered = strengthSortedTeams(event);
+  if (type === "single_elimination" || type === "double_elimination") return ordered;
+  const declared = Number(event?.format?.settings?.playoff_teams || event?.playoff_teams);
+  const target = declared || Math.min(8, 2 ** Math.floor(Math.log2(Math.max(2, ordered.length))));
+  return ordered.slice(0, target);
+}
+
+function nextBracketSize(count) {
+  let size = 2;
+  while (size < count) size *= 2;
+  return size;
+}
+
+function bracketRoundName(size) {
+  if (size === 2) return "Grand final";
+  if (size === 4) return "Semifinals";
+  if (size === 8) return "Quarterfinals";
+  return `Round of ${size}`;
+}
+
+function publishedBracketMatch(event, team1, team2) {
+  if (!team1 || !team2) return null;
+  return activeEventCalls(event).map(enrichMatch).find((match) => sameMatch(match, team1, team2)) || null;
+}
+
+function resolveBracketMatch(event, team1, team2, roundName, matchIndex) {
+  if (!team1 && !team2) return { team1_name: "TBD", team2_name: "TBD", status: "pending", round_name: roundName, match_index: matchIndex };
+  if (!team1 || !team2) {
+    const winner = team1 || team2;
+    return { team1_name: winner, team2_name: "BYE", winner_name: winner, status: "bye", prob_team1: team1 ? 1 : 0, round_name: roundName, match_index: matchIndex };
+  }
+  const published = publishedBracketMatch(event, team1, team2);
+  if (published) {
+    const winner = published.winner_name || (liveMatchIsFinished(published) ? (Number(published.score1) > Number(published.score2) ? team1 : team2) : published.predicted_winner);
+    return { ...published, winner_name: winner, round_name: published.stage_name || roundName, match_index: matchIndex, status: liveMatchIsFinished(published) ? "finished" : published.status || "projected" };
+  }
+  const probability = pairProbability(team1, team2);
+  return {
+    team1_name: team1,
+    team2_name: team2,
+    winner_name: probability >= 0.5 ? team1 : team2,
+    predicted_winner: probability >= 0.5 ? team1 : team2,
+    prob_team1: probability,
+    confidence: Math.max(probability, 1 - probability),
+    status: "projected",
+    round_name: roundName,
+    match_index: matchIndex,
+  };
+}
+
+function declaredBracketTree(event) {
+  const declaredRounds = event?.bracket?.rounds || [];
+  if (!declaredRounds.length) return null;
+  const rounds = declaredRounds
+    .filter((round) => (round.matches || []).length)
+    .sort((a, b) => Number(a.order) - Number(b.order))
+    .map((round) => ({
+      name: round.name,
+      size: Math.max(2, (round.matches || []).length * 2),
+      bracket: round.bracket || "main",
+      matches: (round.matches || []).map((match, matchIndex) => {
+        const resolved = resolveBracketMatch(event, match.team1_name, match.team2_name, round.name, matchIndex);
+        return {
+          ...resolved,
+          ...match,
+          winner_name: match.winner_name || resolved.winner_name,
+          predicted_winner: match.predicted_winner || resolved.predicted_winner,
+          prob_team1: Number.isFinite(Number(match.prob_team1)) ? Number(match.prob_team1) : resolved.prob_team1,
+          status: liveMatchIsFinished(match) ? "finished" : match.status || resolved.status,
+          round_name: match.round_name || round.name,
+        };
+      }),
+    }));
+  if (!rounds.length) return null;
+
+  let latest = rounds[rounds.length - 1].matches.map((match) => match.winner_name || match.predicted_winner || null);
+  let roundSize = latest.length;
+  while (latest.length > 1) {
+    const roundName = bracketRoundName(roundSize);
+    const matches = [];
+    for (let index = 0; index < latest.length; index += 2) {
+      matches.push(resolveBracketMatch(event, latest[index], latest[index + 1], roundName, index / 2));
+    }
+    rounds.push({ name: roundName, size: roundSize, bracket: "main", matches });
+    latest = matches.map((match) => match.winner_name || match.predicted_winner || null);
+    roundSize = Math.max(2, Math.ceil(roundSize / 2));
+  }
+  const field = [...new Set(rounds[0].matches.flatMap((match) => [match.team1_name, match.team2_name]).filter((team) => team && !["TBD", "BYE"].includes(team)))];
+  return { field, rounds, champion: latest[0] || rounds.at(-1)?.matches[0]?.winner_name || null, source: "published" };
+}
+
+function buildTournamentBracket(event) {
+  const declared = declaredBracketTree(event);
+  if (declared) return declared;
+  const field = bracketField(event);
+  const size = nextBracketSize(Math.max(2, field.length));
+  const slots = Array.from({ length: size }, (_, index) => field[index] || null);
+  const seeded = [];
+  for (let index = 0; index < size / 2; index += 1) seeded.push(slots[index], slots[size - 1 - index]);
+  const rounds = [];
+  let current = seeded;
+  let roundSize = size;
+  while (current.length >= 2) {
+    const roundName = bracketRoundName(roundSize);
+    const matches = [];
+    for (let index = 0; index < current.length; index += 2) matches.push(resolveBracketMatch(event, current[index], current[index + 1], roundName, index / 2));
+    rounds.push({ name: roundName, size: roundSize, matches });
+    current = matches.map((match) => match.winner_name || match.predicted_winner || null);
+    roundSize = Math.max(2, roundSize / 2);
+  }
+  return { field, rounds, champion: current[0] || null, source: "simulated" };
+}
+
+function bracketTeamHtml(teamName, match, side) {
+  const probability = side === 1 ? Number(match.prob_team1) : 1 - Number(match.prob_team1);
+  const isWinner = teamName && match.winner_name === teamName;
+  const isKnown = teamName && !["TBD", "BYE"].includes(teamName);
+  const score = side === 1 ? Number(match.score1) : Number(match.score2);
+  const metric = match.status === "finished" && Number.isFinite(score)
+    ? String(score)
+    : isKnown && Number.isFinite(probability) ? formatPercent(probability) : "";
+  return `<div class="tree-team ${isWinner ? "is-winner" : ""} ${isKnown ? "" : "is-placeholder"}">
+    ${isKnown ? teamLogoHtml(teamName) : `<span class="tree-slot" aria-hidden="true"></span>`}
+    <strong>${escapeHtml(teamName || "TBD")}</strong>
+    <b>${escapeHtml(metric)}</b>
+  </div>`;
+}
+
+function eventBracketHtml(event) {
+  const tree = buildTournamentBracket(event);
+  if (!tree.field.length) return `<div class="event-view-empty"><span>BRACKET INTAKE</span><h4>The field is not published.</h4><p>The tree will populate from the event feed.</p></div>`;
+  return `
+    <div class="event-bracket-view">
+      <header class="bracket-view-head">
+        <div><span>Tournament tree</span><h4>${escapeHtml(event.name)}</h4></div>
+        <div class="bracket-legend"><span><i class="is-official"></i> Official</span><span><i class="is-live"></i> Live</span><span><i></i> Projected</span><strong>${tree.source === "published" ? "Published structure" : "Projected structure"}</strong></div>
+      </header>
+      <div class="tournament-tree" style="--round-count:${tree.rounds.length + 1}">
+        ${tree.rounds.map((round, roundIndex) => {
+          const gap = Math.min(230, 8 * (2 ** roundIndex));
+          const pad = Math.min(120, gap / 2);
+          return `<section class="tree-round" style="--round-index:${roundIndex};--match-gap:${gap}px;--round-pad:${pad}px">
+            <header><span>${String(roundIndex + 1).padStart(2, "0")}</span><strong>${escapeHtml(round.name)}</strong><small>${round.matches.length} series</small></header>
+            <div class="tree-round-matches">${round.matches.map((match) => `<button type="button" class="tree-match is-${escapeHtml(match.status || "projected")}" data-event-match="${escapeHtml(matchKeyOf(match))}" aria-label="Open ${escapeHtml(match.team1_name)} versus ${escapeHtml(match.team2_name)}">
+              <span class="tree-match-state">${match.status === "finished" ? "FINAL" : match.status === "live" ? "LIVE" : "MODEL"}</span>
+              ${bracketTeamHtml(match.team1_name, match, 1)}
+              ${bracketTeamHtml(match.team2_name, match, 2)}
+            </button>`).join("")}</div>
+          </section>`;
+        }).join("")}
+        <section class="tree-champion"><span>Champion</span>${tree.champion ? teamLogoHtml(tree.champion) : ""}<strong>${escapeHtml(tree.champion || "TBD")}</strong><small>${tree.rounds.every((round) => round.matches.every((match) => match.status === "finished")) ? "Official winner" : "Highest-probability route"}</small></section>
+      </div>
+    </div>
+  `;
 }
 
 function eventOverviewHtml(event) {
@@ -828,7 +1070,7 @@ function eventOverviewHtml(event) {
       <section class="title-race">
         <header><span>Title race</span><strong>${escapeHtml(event.current_stage || (event.status === "upcoming" ? "Pre-event" : "In progress"))}</strong></header>
         <div class="contender-list">${contenders.map((row) => `
-          <article class="contender-row" style="--share:${Math.max(16, Math.round(row.probability * 250))}%">
+          <article class="contender-row" style="--share:${Math.max(16, Math.round(row.probability * 250))}%" data-open-team="${escapeHtml(row.team_name)}" role="button" tabindex="0" aria-label="Open ${escapeHtml(row.team_name)} team profile">
             ${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong><span>#${row.vrs_rank || "--"} VRS · ${Math.round(row.recent * 100)}% form</span><b>${formatPercent(row.probability)}</b>
           </article>
         `).join("")}</div>
@@ -881,7 +1123,7 @@ function eventMatchesHtml(event) {
 }
 
 function teamBadgeHtml(teamName, extra = "") {
-  return `<span class="format-team" title="${escapeHtml(teamName)}">${teamLogoHtml(teamName)}<strong>${escapeHtml(teamName)}</strong>${extra}</span>`;
+  return `<span class="format-team" title="${escapeHtml(teamName)}" data-open-team="${escapeHtml(teamName)}" role="button" tabindex="0">${teamLogoHtml(teamName)}<strong>${escapeHtml(teamName)}</strong>${extra}</span>`;
 }
 
 function miniFormatMatch(team1, team2) {
@@ -893,9 +1135,27 @@ function miniFormatMatch(team1, team2) {
 function swissFormatHtml(event) {
   const teams = strengthSortedTeams(event);
   const settings = event.format?.settings || {};
+  const stageCount = Number(settings.swiss_stages) || (/three[- ]stage swiss/i.test(String(event.format?.label || "")) ? 3 : 1);
   const winsToAdvance = Number(settings.wins_to_advance) || 3;
   const lossesToEliminate = Number(settings.losses_to_eliminate) || 3;
   const qualifyingTeams = Number(settings.qualifying_teams) || Math.max(2, Math.floor((teams.length || event.teams || 16) / 2));
+  if (stageCount > 1) {
+    const activeField = Number(settings.stage_team_count) || 16;
+    const advanceCount = Number(settings.advance_per_stage) || Math.floor(activeField / 2);
+    return `
+      <div class="format-stage-head"><div><span>Multi-stage Swiss</span><h4>${stageCount} Swiss fields feed one playoff bracket.</h4></div><strong>${event.teams || teams.length || "TBA"} teams</strong></div>
+      <div class="multi-swiss-path" style="--swiss-stages:${stageCount}">
+        ${Array.from({ length: stageCount }, (_, index) => `<article style="--stage:${index}">
+          <header><span>Stage ${index + 1}</span><strong>${activeField}-team Swiss</strong></header>
+          <div><b>3 wins</b><small>${advanceCount} advance</small></div>
+          <div><b>3 losses</b><small>${advanceCount} eliminated</small></div>
+          ${index < stageCount - 1 ? `<footer><span>${advanceCount} survivors</span><i></i><span>${advanceCount} new seeds</span></footer>` : `<footer><span>${advanceCount} qualifiers</span><i></i><span>Playoffs</span></footer>`}
+        </article>`).join("")}
+        <article class="multi-swiss-playoffs"><span>Playoffs</span><strong>${advanceCount}</strong><small>single elimination</small></article>
+      </div>
+      <div class="major-stage-rule"><span>Per Swiss stage</span><strong>Five rounds maximum · BO3 advancement and elimination series</strong></div>
+    `;
+  }
   const buckets = { perfect: teams.slice(0, 2), advance: teams.slice(2, qualifyingTeams), danger: teams.slice(-Math.max(2, Math.min(3, lossesToEliminate))) };
   const standardColumns = [
     ["Round 1", "0-0", "8 BO1 series"],
@@ -950,10 +1210,18 @@ function knockoutFormatHtml(event) {
 }
 
 function mixedFormatHtml(event) {
-  const stages = eventFormatStages(event);
+  const fallbackStages = eventFormatStages(event);
+  const stages = event.format?.stages?.length
+    ? event.format.stages.map((stage, index) => typeof stage === "string" ? { name: stage, type: "mixed", status: "pending", order: index + 1 } : stage)
+    : fallbackStages.map((name, index) => ({
+      name,
+      type: index === fallbackStages.length - 1 ? "single_elimination" : "mixed",
+      status: "pending",
+      order: index + 1,
+    }));
   return `
     <div class="format-stage-head"><div><span>Event architecture</span><h4>${escapeHtml(event.format?.label || "Multi-stage tournament")}</h4></div><strong>${event.teams || event.participants?.length || "TBA"} teams</strong></div>
-    <div class="mixed-stage-map" style="--stage-count:${stages.length}">${stages.map((stage, index) => `<article style="--stage:${index}"><span>0${index + 1}</span><strong>${escapeHtml(stage)}</strong><small>${index === stages.length - 1 ? "Title decided" : "Field narrows"}</small><i></i></article>`).join("")}</div>
+    <div class="mixed-stage-map" style="--stage-count:${stages.length}">${stages.map((stage, index) => `<article class="is-${escapeHtml(stage.status || "pending")}" style="--stage:${index}"><span>0${index + 1} · ${escapeHtml(String(stage.type || "stage").replaceAll("_", " "))}</span><strong>${escapeHtml(stage.name || stage.label || `Stage ${index + 1}`)}</strong><small>${stage.status === "finished" ? "Complete" : index === stages.length - 1 ? "Title decided" : "Field narrows"}</small>${index < stages.length - 1 ? "<i></i>" : ""}</article>`).join("")}</div>
   `;
 }
 
@@ -1023,7 +1291,8 @@ function eventTeamsHtml(event) {
         const row = meta.get(normalizeName(teamName)) || {};
         const rank = row.vrs_rank || model.vrs_rank;
         const form = Number(model.recent_win_rate_10);
-        return `<article>${teamLogoHtml(teamName)}<div><strong>${escapeHtml(teamName)}</strong><span>${escapeHtml(row.entry || (rank ? `#${rank} VRS` : "Invited field"))}</span></div><b>${Number.isFinite(form) ? `${Math.round(form * 100)}%` : "--"}<small>form</small></b></article>`;
+        const roster = playersForTeam(teamName).map((player) => player.nickname).slice(0, 5);
+        return `<article data-open-team="${escapeHtml(teamName)}" role="button" tabindex="0" aria-label="Open ${escapeHtml(teamName)} team profile">${teamLogoHtml(teamName)}<div><strong>${escapeHtml(teamName)}</strong><span>${escapeHtml(roster.join(" · ") || row.entry || (rank ? `#${rank} VRS` : "Invited field"))}</span></div><b>${Number.isFinite(form) ? `${Math.round(form * 100)}%` : "--"}<small>form</small></b></article>`;
       }).join("")}</div>
     </div>
   `;
@@ -1595,12 +1864,13 @@ function renderEvents(events) {
     .filter((event) => currentEventFilter === "all" || event.status !== "finished")
     .sort((a, b) => (statusOrder[a.status] ?? 1) - (statusOrder[b.status] ?? 1) || new Date(a.start_date || 0) - new Date(b.start_date || 0));
   setText(els.eventCount, `${visibleEvents.length} tournaments`);
-  visibleEvents.forEach((event) => {
+  visibleEvents.forEach((event, eventIndex) => {
     const card = document.createElement("article");
     card.className = "event-card";
     card.tabIndex = 0;
     card.dataset.eventId = event.id || "";
     card.dataset.status = event.status || "upcoming";
+    card.style.setProperty("--event-index", eventIndex);
     const range = eventDateRange(event);
     const date = eventDateParts(event);
     const teams = event.participants || [];
@@ -1609,7 +1879,7 @@ function renderEvents(events) {
       <div class="event-date-block"><span>${escapeHtml(date.month)}</span><strong>${escapeHtml(date.day)}</strong><small>${escapeHtml(range)}</small></div>
       <div class="event-spine" aria-hidden="true"><i></i></div>
       <div class="event-card-main">
-        <span>${escapeHtml(event.status || event.series || event.organizer || "Event")}</span>
+        <span>${escapeHtml(event.status === "ongoing" ? "Live now" : event.status === "upcoming" ? "Upcoming" : event.status || event.series || event.organizer || "Event")}</span>
         <h3>${escapeHtml(event.name || event.event_name || event.source_title || "Unnamed event")}</h3>
         <p>${escapeHtml(event.format?.label || "Organizer format pending")} · ${escapeHtml(event.location || "Location TBA")}</p>
       </div>
@@ -1618,7 +1888,7 @@ function renderEvents(events) {
         : `<span class="event-field-status">${teamTotal ? `${teamTotal} team field` : "Field pending"}</span>`}
       </div>
       <div class="event-card-meta"><strong>${escapeHtml(`${event.event_type || "TBA"} · ${event.tier || event.event_tier || "TBA"}`)}</strong><span>${escapeHtml(event.current_stage || (event.status === "upcoming" ? "Starts soon" : "In progress"))}</span></div>
-      <button class="event-open" type="button" data-event-open="${escapeHtml(event.id || "")}" aria-label="Open ${escapeHtml(event.name || "event")}">↗</button>
+      <button class="event-open" type="button" data-event-open="${escapeHtml(event.id || "")}" aria-label="Open ${escapeHtml(event.name || "event")}"><span aria-hidden="true"></span></button>
     `;
     const openEvent = () => selectEvent(event.id);
     card.addEventListener("click", (clickEvent) => {
@@ -1655,6 +1925,7 @@ function selectEvent(eventId) {
   setText(els.selectedEventName, event?.name || "Event desk");
   setText(els.selectedEventMeta, `${eventDateRange(event)} · ${event?.format?.label || "Organizer format pending"}`);
   renderDynamicMajor();
+  updateProductUrl({ eventId, view: activeEventView, playerId: "", teamName: "", hash: "featured" });
   document.querySelector("#featured")?.scrollIntoView({ block: "start", behavior: "smooth" });
 }
 
@@ -1687,7 +1958,7 @@ function renderRankings(vrs) {
       const deltaClass = delta > 0 ? "is-up" : delta < 0 ? "is-down" : "is-flat";
       return `<div class="ranking-row" role="row" style="animation-delay:${Math.min(420, row.rank * 24)}ms">
         <span class="ranking-rank"><b>#${row.rank}</b><em class="${deltaClass}">${deltaLabel}</em></span>
-        <span class="ranking-team">${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong><small>${escapeHtml(row.players?.join(" · ") || "Roster pending")}</small></span>
+        <span class="ranking-team" data-open-team="${escapeHtml(row.team_name)}" role="button" tabindex="0" aria-label="Open ${escapeHtml(row.team_name)} team profile">${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong><small>${escapeHtml(row.players?.join(" · ") || playersForTeam(row.team_name).map((player) => player.nickname).join(" · ") || "Roster pending")}</small></span>
         <span class="ranking-points">${row.points}<small>official</small></span>
         <span class="ranking-signal"><i style="width:${Math.round(Math.max(8, Math.min(100, 50 + row.formSignal / 2)))}%"></i><small>${row.recent === 0.5 ? "neutral" : `${Math.round(row.recent * 100)}% recent wins`}</small></span>
         <span class="ranking-projected"><b>#${projectedRank}</b><small>unofficial projection</small></span>
@@ -1701,6 +1972,200 @@ function renderRankings(vrs) {
   }
 }
 
+function playersForTeam(teamName) {
+  const key = normalizeName(teamName);
+  return (playerSnapshot?.players || []).filter((player) => normalizeName(player.team_name) === key || normalizeName(player.source_team_name) === key);
+}
+
+function rosterForTeam(teamName) {
+  const profiles = playersForTeam(teamName);
+  const known = new Set(profiles.map((player) => normalizeName(player.nickname)));
+  const ranking = (appData?.coverage?.vrs?.teams || []).find((row) => normalizeName(row.team_name) === normalizeName(teamName));
+  const placeholders = (ranking?.players || [])
+    .filter((nickname) => nickname && !known.has(normalizeName(nickname)))
+    .map((nickname) => ({ nickname, team_name: teamName, roster_only: true }));
+  return [...profiles, ...placeholders].slice(0, 5);
+}
+
+function playerRole(player) {
+  const traits = player.traits || {};
+  if (Number(traits.sniping) >= 62) return "AWPer";
+  if (Number(traits.entrying) >= 62 || Number(traits.opening) >= 68) return "Entry";
+  if (Number(traits.utility) >= 72) return "Support";
+  if (Number(traits.clutching) >= 68) return "Closer";
+  return "Rifler";
+}
+
+function playerTraitHtml(player) {
+  const labels = {
+    firepower: "Firepower",
+    entrying: "Entry",
+    trading: "Trading",
+    opening: "Opening",
+    clutching: "Clutch",
+    sniping: "Sniping",
+    utility: "Utility",
+  };
+  return Object.entries(labels).map(([key, label]) => {
+    const value = Number(player.traits?.[key]);
+    const score = Number.isFinite(value) ? value : 0;
+    return `<div class="player-trait"><span>${label}</span><i><b style="width:${score}%"></b></i><strong>${Number.isFinite(value) ? score : "--"}</strong></div>`;
+  }).join("");
+}
+
+function playerDetailHtml(player) {
+  if (!player) return `<div class="player-empty"><span>PLAYER INDEX</span><h3>Select a profile.</h3></div>`;
+  const rating = Number(player.rating_3_0);
+  return `
+    <header class="player-detail-head">
+      <div class="player-monogram" aria-hidden="true">${escapeHtml(String(player.nickname || "?").slice(0, 2).toUpperCase())}</div>
+      <div><span>${escapeHtml(playerRole(player))} · ${escapeHtml(player.team_name)}</span><h3>${escapeHtml(player.nickname)}</h3><p>${escapeHtml(player.real_name || "HLTV player profile")}</p></div>
+      ${teamLogoHtml(player.team_name)}
+    </header>
+    <div class="player-primary-stats">
+      <div><span>Rating 3.0</span><strong>${Number.isFinite(rating) ? rating.toFixed(2) : "--"}</strong></div>
+      <div><span>Signal index</span><strong>${Number(player.signal_index) || "--"}</strong></div>
+      <div><span>Map sample</span><strong>${Number(player.maps_3m) || "--"}</strong></div>
+    </div>
+    <div class="player-traits">${playerTraitHtml(player)}</div>
+    <a class="player-source" href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">Open HLTV profile</a>
+  `;
+}
+
+function renderPlayerFilters() {
+  if (!els.playerTeamFilter) return;
+  const teams = [...new Set((playerSnapshot?.players || []).map((player) => player.team_name).filter(Boolean))].sort();
+  els.playerTeamFilter.innerHTML = `<option value="all">All teams</option>${teams.map((team) => `<option value="${escapeHtml(normalizeName(team))}">${escapeHtml(team)}</option>`).join("")}`;
+  els.playerTeamFilter.value = playerTeamFilter;
+}
+
+function renderPlayers() {
+  if (!els.playerGrid || !els.playerDetail) return;
+  const query = normalizeName(playerSearchTerm);
+  const visible = (playerSnapshot?.players || []).filter((player) => {
+    const matchesTeam = playerTeamFilter === "all" || normalizeName(player.team_name) === playerTeamFilter;
+    const haystack = normalizeName(`${player.nickname} ${player.real_name} ${player.team_name}`);
+    return matchesTeam && (!query || haystack.includes(query));
+  });
+  if (!selectedPlayerId || !visible.some((player) => player.player_id === selectedPlayerId)) selectedPlayerId = visible[0]?.player_id || null;
+  const selected = visible.find((player) => player.player_id === selectedPlayerId) || null;
+  els.playerGrid.innerHTML = visible.length ? visible.map((player, index) => `
+    <button class="player-row ${player.player_id === selectedPlayerId ? "is-selected" : ""}" type="button" role="listitem" data-player-id="${escapeHtml(player.player_id)}" style="--player-index:${index}">
+      <span class="player-rank">${String(index + 1).padStart(2, "0")}</span>
+      <span class="player-row-name"><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(player.real_name || playerRole(player))}</small></span>
+      <span class="player-row-team">${teamLogoHtml(player.team_name)}<b>${escapeHtml(player.team_name)}</b></span>
+      <span class="player-row-rating"><b>${Number.isFinite(Number(player.rating_3_0)) && Number(player.rating_3_0) > 0 ? Number(player.rating_3_0).toFixed(2) : "--"}</b><small>rating</small></span>
+      <span class="player-row-signal"><i><b style="width:${Number(player.signal_index) || 0}%"></b></i><small>${Number(player.signal_index) || "--"}</small></span>
+    </button>
+  `).join("") : `<div class="player-empty"><span>NO MATCH</span><h3>No player matches this filter.</h3></div>`;
+  els.playerDetail.innerHTML = playerDetailHtml(selected);
+  els.playerGrid.querySelectorAll("[data-player-id]").forEach((button) => button.addEventListener("click", () => {
+    selectedPlayerId = button.dataset.playerId;
+    updateProductUrl({ playerId: selectedPlayerId, eventId: "", view: "", teamName: "", hash: "players" });
+    renderPlayers();
+  }));
+  setText(els.playerSnapshotMeta, `${(playerSnapshot?.players || []).length} profiles · ${formatDate(playerSnapshot?.generated_at_utc)}`);
+}
+
+function allKnownMatches() {
+  const rows = [
+    ...(appData?.coverage?.daily_matches || []),
+    ...(appData?.upcoming_predictions || []),
+    ...availableEvents().flatMap((event) => event.matches || []),
+    ...(appData?.major_projection?.current_stage_board?.rounds || []).flatMap((round) => (round.groups || []).flatMap((group) => group.matches || [])),
+  ];
+  const unique = new Map();
+  rows.filter((match) => match?.team1_name && match?.team2_name).forEach((match) => unique.set(matchKeyOf(match), enrichMatch(match)));
+  return [...unique.values()];
+}
+
+function matchesForTeam(teamName) {
+  const key = normalizeName(teamName);
+  const now = Date.now();
+  const rows = allKnownMatches().filter((match) => [match.team1_name, match.team2_name].some((name) => normalizeName(name) === key));
+  const future = rows.filter((match) => new Date(match.starts_at || 0).getTime() >= now).sort((a, b) => new Date(a.starts_at || 0) - new Date(b.starts_at || 0));
+  const past = rows.filter((match) => new Date(match.starts_at || 0).getTime() < now).sort((a, b) => new Date(b.starts_at || 0) - new Date(a.starts_at || 0));
+  return [...future, ...past].slice(0, 8);
+}
+
+function teamMapRows(teamName) {
+  const profile = appData?.model_state?.map_profiles?.[normalizeName(teamName)] || {};
+  return Object.entries(profile)
+    .map(([mapName, row]) => ({ mapName, matches: Number(row.matches) || 0, winRate: mapRateWithPrior(row), roundDiff: Number(row.avg_round_diff) || 0 }))
+    .sort((a, b) => b.matches - a.matches || b.winRate - a.winRate);
+}
+
+function teamProfileHtml(teamName) {
+  const model = teamModel(teamName);
+  const roster = rosterForTeam(teamName);
+  const maps = teamMapRows(teamName);
+  const matches = matchesForTeam(teamName);
+  const events = availableEvents().filter((event) => (event.participants || []).some((name) => normalizeName(name) === normalizeName(teamName))).slice(0, 6);
+  const form = Number(model.recent_win_rate_10);
+  const matchRow = (match) => {
+    const isTeam1 = normalizeName(match.team1_name) === normalizeName(teamName);
+    const opponent = isTeam1 ? match.team2_name : match.team1_name;
+    const probability = isTeam1 ? Number(match.prob_team1) : 1 - Number(match.prob_team1);
+    const won = match.winner_name && normalizeName(match.winner_name) === normalizeName(teamName);
+    return `<button type="button" class="team-profile-match" data-open-match-key="${escapeHtml(matchKeyOf(match))}">
+      <span>${escapeHtml(match.starts_at ? formatDate(match.starts_at) : match.status || "TBA")}</span>
+      <strong>${teamLogoHtml(opponent)}${escapeHtml(opponent)}</strong>
+      <b class="${matchStatusGroup(match) === "results" ? (won ? "is-win" : "is-loss") : ""}">${matchStatusGroup(match) === "results" ? (won ? "W" : "L") : formatPercent(probability)}</b>
+    </button>`;
+  };
+  return `
+    <section class="team-profile-hero">
+      ${teamLogoHtml(teamName)}
+      <div><span>${model.vrs_rank ? `#${model.vrs_rank} Valve world ranking` : "Team profile"}</span><h2 id="teamDrawerTitle">${escapeHtml(teamName)}</h2><p>${Number(model.matches) || 0} model-state matches</p></div>
+    </section>
+    <section class="team-profile-metrics">
+      <div><span>VRS points</span><strong>${Number(model.vrs_points) || "--"}</strong></div>
+      <div><span>Rating</span><strong>${Number(model.elo) ? Math.round(Number(model.elo)) : "--"}</strong></div>
+      <div><span>Last 10</span><strong>${Number.isFinite(form) ? `${Math.round(form * 100)}%` : "--"}</strong></div>
+    </section>
+    <section class="team-profile-section">
+      <header><span>Current five</span><strong>${roster.length ? `${roster.length} profiles` : "Lineup pending"}</strong></header>
+      <div class="team-roster-list">${roster.map((player) => {
+        const rating = Number(player.rating_3_0);
+        if (player.roster_only) return `<div><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>Active VRS roster</small></span><em>Roster</em></div>`;
+        return `<button type="button" data-open-player="${escapeHtml(player.player_id)}"><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(playerRole(player))} · ${Number.isFinite(rating) && rating > 0 ? rating.toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`;
+      }).join("") || `<p>No verified player profiles in the current snapshot.</p>`}</div>
+    </section>
+    <section class="team-profile-section">
+      <header><span>Map pool</span><strong>${maps.length} tracked</strong></header>
+      <div class="team-map-list">${maps.map((map) => `<div><span>${escapeHtml(map.mapName)}<small>${map.matches} maps</small></span><i><b style="width:${Math.round(map.winRate * 100)}%"></b></i><strong>${formatPercent(map.winRate)}</strong></div>`).join("") || `<p>Map profile pending.</p>`}</div>
+    </section>
+    <section class="team-profile-section">
+      <header><span>Series desk</span><strong>${matches.length} shown</strong></header>
+      <div class="team-match-list">${matches.map(matchRow).join("") || `<p>No current series in the snapshot.</p>`}</div>
+    </section>
+    <section class="team-profile-section">
+      <header><span>On the circuit</span><strong>${events.length} events</strong></header>
+      <div class="team-event-list">${events.map((event) => `<button type="button" data-open-event="${escapeHtml(event.id)}"><span>${escapeHtml(event.status || "scheduled")}</span><strong>${escapeHtml(event.name)}</strong></button>`).join("") || `<p>No active Tier 1/2 event found.</p>`}</div>
+    </section>
+  `;
+}
+
+function openTeamProfile(teamName, { updateUrl = true } = {}) {
+  if (!teamName || !els.teamDrawerLayer || !els.teamDrawerContent) return;
+  selectedTeamName = teamName;
+  els.teamDrawerContent.innerHTML = teamProfileHtml(teamName);
+  els.teamDrawerLayer.hidden = false;
+  document.body.classList.add("team-drawer-open");
+  window.requestAnimationFrame(() => els.teamDrawerLayer.classList.add("is-open"));
+  if (updateUrl) updateProductUrl({ teamName, playerId: "" });
+  els.teamDrawerClose?.focus({ preventScroll: true });
+}
+
+function closeTeamProfile({ updateUrl = true } = {}) {
+  if (!els.teamDrawerLayer || els.teamDrawerLayer.hidden) return;
+  els.teamDrawerLayer.classList.remove("is-open");
+  document.body.classList.remove("team-drawer-open");
+  selectedTeamName = null;
+  if (updateUrl) updateProductUrl({ teamName: "" });
+  window.setTimeout(() => { if (!els.teamDrawerLayer.classList.contains("is-open")) els.teamDrawerLayer.hidden = true; }, 220);
+}
+
 function compactStageName(value, fallback) {
   const match = String(value || "").match(/Stage\s+\d+/i);
   return match?.[0] || fallback;
@@ -1708,7 +2173,7 @@ function compactStageName(value, fallback) {
 
 function teamIdentity(teamName) {
   return `
-    <div class="team-identity">
+    <div class="team-identity" data-open-team="${escapeHtml(teamName)}" role="button" tabindex="0" aria-label="Open ${escapeHtml(teamName)} team profile">
       ${teamLogoHtml(teamName)}
       <strong>${escapeHtml(teamName)}</strong>
     </div>
@@ -1744,6 +2209,69 @@ function teamLogoHtml(teamName) {
   return `<img class="team-logo" src="${escapeHtml(asset.logo_url)}" alt="" title="${escapeHtml(teamName)}" data-team="${escapeHtml(teamName)}" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
 }
 
+function passiveTeamLogoHtml(teamName) {
+  const asset = teamAssets[normalizeName(teamName)];
+  if (!asset?.logo_url) return `<span class="team-logo-fallback" data-label="${escapeHtml(abbrev(teamName))}" aria-hidden="true"></span>`;
+  return `<img class="team-logo" src="${escapeHtml(asset.logo_url)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer">`;
+}
+
+function productSearchResults(query = "") {
+  const needle = normalizeName(query);
+  const teamNames = [...new Set([
+    ...(appData?.model_state?.teams || []).map((team) => team.team_name),
+    ...(appData?.coverage?.vrs?.teams || []).map((team) => team.team_name),
+    ...availableEvents().flatMap((event) => event.participants || []),
+  ].filter(Boolean))];
+  const teams = teamNames
+    .filter((name) => !needle || normalizeName(name).includes(needle))
+    .sort((a, b) => (Number(teamModel(a).vrs_rank) || 999) - (Number(teamModel(b).vrs_rank) || 999))
+    .slice(0, needle ? 7 : 5);
+  const players = (playerSnapshot?.players || [])
+    .filter((player) => !needle || normalizeName(`${player.nickname} ${player.real_name} ${player.team_name}`).includes(needle))
+    .sort((a, b) => Number(b.rating_3_0) - Number(a.rating_3_0))
+    .slice(0, needle ? 6 : 4);
+  const events = availableEvents()
+    .filter((event) => !needle || normalizeName(event.name).includes(needle))
+    .slice(0, needle ? 5 : 3);
+  return { teams, players, events };
+}
+
+function renderProductSearch(query = "") {
+  if (!els.searchResults || !appData) return;
+  const results = productSearchResults(query);
+  const count = results.teams.length + results.players.length + results.events.length;
+  if (!count) {
+    els.searchResults.innerHTML = `<div class="search-empty"><span>No result</span><strong>Try a team, player, or tournament name.</strong></div>`;
+    return;
+  }
+  const groups = [];
+  if (results.teams.length) groups.push(`<section><header><span>Teams</span><strong>${results.teams.length}</strong></header>${results.teams.map((teamName) => {
+    const model = teamModel(teamName);
+    return `<button type="button" data-search-team="${escapeHtml(teamName)}">${passiveTeamLogoHtml(teamName)}<span><b>${escapeHtml(teamName)}</b><small>${model.vrs_rank ? `#${model.vrs_rank} VRS` : "Team intelligence"}</small></span><em>Team</em></button>`;
+  }).join("")}</section>`);
+  if (results.players.length) groups.push(`<section><header><span>Players</span><strong>${results.players.length}</strong></header>${results.players.map((player) => `<button type="button" data-search-player="${escapeHtml(player.player_id)}"><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(player.team_name)} · ${escapeHtml(playerRole(player))}</small></span><em>${Number.isFinite(Number(player.rating_3_0)) ? Number(player.rating_3_0).toFixed(2) : "--"}</em></button>`).join("")}</section>`);
+  if (results.events.length) groups.push(`<section><header><span>Events</span><strong>${results.events.length}</strong></header>${results.events.map((event) => `<button type="button" data-search-event="${escapeHtml(event.id)}"><i>${escapeHtml(eventDateParts(event).day)}</i><span><b>${escapeHtml(event.name)}</b><small>${escapeHtml(eventDateRange(event))} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"}</small></span><em>${escapeHtml(event.status || "event")}</em></button>`).join("")}</section>`);
+  els.searchResults.innerHTML = groups.join("");
+}
+
+function openProductSearch() {
+  if (!els.searchLayer) return;
+  renderProductSearch(els.productSearch?.value || "");
+  els.searchLayer.hidden = false;
+  document.body.classList.add("search-open");
+  window.requestAnimationFrame(() => {
+    els.searchLayer.classList.add("is-open");
+    els.productSearch?.focus({ preventScroll: true });
+  });
+}
+
+function closeProductSearch() {
+  if (!els.searchLayer || els.searchLayer.hidden) return;
+  els.searchLayer.classList.remove("is-open");
+  document.body.classList.remove("search-open");
+  window.setTimeout(() => { if (!els.searchLayer.classList.contains("is-open")) els.searchLayer.hidden = true; }, 180);
+}
+
 function normalizeName(teamName) {
   return String(teamName || "")
     .normalize("NFKD")
@@ -1755,25 +2283,82 @@ function normalizeName(teamName) {
 
 function updateSummary(data) {
   const event = activeEvent();
-  const generatedAt = new Date(data.generated_at_utc);
+  const verifiedAt = data.coverage?.last_verified_utc || data.generated_at_utc;
+  const generatedAt = new Date(verifiedAt);
   const ageHours = Number.isNaN(generatedAt.getTime()) ? Infinity : (Date.now() - generatedAt.getTime()) / 3600000;
   const isFresh = ageHours <= 12;
+  const slates = matchSlateDays(dailyMatchCalls());
 
   setText(els.modelPre, formatPercent(data.model?.best_pre_match?.accuracy));
   setText(els.modelPost, formatPercent(data.model?.best_post_veto?.accuracy));
-  setText(els.freshnessLabel, `Coverage ${data.coverage?.last_verified_utc ? formatDate(data.coverage.last_verified_utc) : formatDate(data.generated_at_utc)}`);
-  setText(els.slateCount, `${dailyMatchCalls().length} series loaded`);
+  setText(els.freshnessLabel, `${isFresh ? "Live check" : "Last check"} · ${formatDate(verifiedAt)}`);
+  setText(els.slateCount, `${dailyMatchCalls().length} series · ${slates.length} slates`);
   setText(els.rankingSnapshot, `VRS · ${data.coverage?.vrs?.as_of ? dateOnlyFormatter.format(new Date(`${data.coverage.vrs.as_of}T12:00:00`)) : "pending"}`);
   setText(els.selectedEventName, event?.name || "Event desk");
   setText(els.selectedEventMeta, `${eventDateRange(event)} · ${event?.format?.label || "Organizer format pending"}`);
   document.body.classList.toggle("snapshot-stale", !isFresh);
 }
 
+function installViewportSignals() {
+  const sections = [...document.querySelectorAll("main > section[id]")];
+  const navLinks = [...document.querySelectorAll('.top-nav a[href^="#"], .mobile-dock a[href^="#"]')];
+  if (!("IntersectionObserver" in window)) return;
+
+  const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-entered");
+      sectionObserver.unobserve(entry.target);
+    });
+  }, { threshold: 0.08, rootMargin: "0px 0px -12%" });
+  sections.forEach((section) => sectionObserver.observe(section));
+
+  let framePending = false;
+  const syncNavigation = () => {
+    framePending = false;
+    const active = sections.reduce((current, section) => section.getBoundingClientRect().top <= 180 ? section : current, sections[0]);
+    navLinks.forEach((link) => link.toggleAttribute("aria-current", link.getAttribute("href") === `#${active.id}`));
+  };
+  window.addEventListener("scroll", () => {
+    if (framePending) return;
+    framePending = true;
+    window.requestAnimationFrame(syncNavigation);
+  }, { passive: true });
+  navLinks.forEach((link) => link.addEventListener("click", () => {
+    navLinks.forEach((candidate) => candidate.toggleAttribute("aria-current", candidate === link));
+  }));
+  syncNavigation();
+}
+
+function restoreProductLocation() {
+  const targetId = window.location.hash.replace(/^#/, "");
+  if (!targetId || !["dashboard", "matches", "events", "featured", "rankings", "players", "model"].includes(targetId)) return;
+  window.requestAnimationFrame(() => window.requestAnimationFrame(() => {
+    const root = document.documentElement;
+    const previousBehavior = root.style.scrollBehavior;
+    root.style.scrollBehavior = "auto";
+    document.getElementById(targetId)?.scrollIntoView({ block: "start", behavior: "auto" });
+    window.requestAnimationFrame(() => { root.style.scrollBehavior = previousBehavior; });
+  }));
+}
+
 function renderProjection(data) {
   appData = data;
   coverage = data.coverage || null;
   const events = availableEvents(data);
-  activeEventId = activeEventId || data.coverage?.default_event_id || events.find((event) => event.status === "ongoing")?.id || events[0]?.id || null;
+  const locationParams = new URLSearchParams(window.location.search);
+  const requestedEventId = locationParams.get("event");
+  const requestedView = locationParams.get("view");
+  if (requestedEventId && events.some((event) => event.id === requestedEventId)) activeEventId = requestedEventId;
+  if (["overview", "matches", "bracket", "format", "teams"].includes(requestedView)) activeEventView = requestedView;
+  selectedPlayerId = locationParams.get("player") || selectedPlayerId;
+  selectedTeamName = locationParams.get("team") || selectedTeamName;
+  const preferredEvent = events.find((event) => event.status === "ongoing")
+    || events.find((event) => event.status === "upcoming")
+    || events[0];
+  activeEventId = activeEventId && events.some((event) => event.id === activeEventId)
+    ? activeEventId
+    : preferredEvent?.id || null;
   buildTeamLookupMap();
   renderEventSelector(events);
   renderEvents(events);
@@ -1894,6 +2479,9 @@ function mergeLiveSeries(target, incoming) {
     const mapRead = knownVetoMapRead({ ...target, prob_team1: Number(target.prob_team1) || pairProbability(target.team1_name, target.team2_name) }, incoming.maps);
     if (mapRead) target.map_read = mapRead;
   }
+  if (incoming.lineups) target.lineups = incoming.lineups;
+  if (incoming.map_results?.length) target.map_results = incoming.map_results;
+  if (incoming.veto_text) target.veto_text = incoming.veto_text;
   return target;
 }
 
@@ -1915,15 +2503,62 @@ function mergeLiveEvents(events) {
     if (!incoming?.id && !incoming?.name) return;
     const normalized = normalizeEvent(incoming);
     const existing = appData.coverage.events.find((event) => event.id === normalized.id || normalizeName(event.name) === normalizeName(normalized.name));
-    if (existing) Object.assign(existing, normalized);
-    else appData.coverage.events.push(normalized);
+    if (!existing) {
+      appData.coverage.events.push(normalized);
+      return;
+    }
+    const participants = [...new Set([...(existing.participants || []), ...(normalized.participants || [])])];
+    const matches = [...(existing.matches || [])];
+    (normalized.matches || []).forEach((match) => upsertLiveSeries(matches, match));
+    const existingFormatIsRich = existing.format && !/pending|event schedule/i.test(String(existing.format.label || ""));
+    const format = existingFormatIsRich ? {
+      ...(normalized.format || {}),
+      ...existing.format,
+      stages: normalized.format?.stages?.length ? normalized.format.stages : existing.format.stages || [],
+      settings: { ...(normalized.format?.settings || {}), ...(existing.format.settings || {}) },
+    } : normalized.format || existing.format;
+    Object.assign(existing, normalized, {
+      participants,
+      teams: Math.max(Number(existing.teams) || 0, Number(normalized.teams) || 0, participants.length),
+      matches,
+      format,
+      start_date: normalized.start_date || existing.start_date,
+      end_date: normalized.end_date || existing.end_date,
+      location: normalized.location || existing.location,
+    });
   });
   return events.length > 0;
+}
+
+function mergeLivePlayers(players) {
+  if (!Array.isArray(players) || !players.length) return false;
+  playerSnapshot ||= { contract_version: "1.1", generated_at_utc: new Date().toISOString(), players: [] };
+  playerSnapshot.players ||= [];
+  players.forEach((incoming) => {
+    const playerId = String(incoming.player_id || (incoming.hltv_player_id ? `hltv:${incoming.hltv_player_id}` : ""));
+    if (!playerId || !incoming.nickname) return;
+    const existing = playerSnapshot.players.find((player) => player.player_id === playerId);
+    if (!existing) {
+      playerSnapshot.players.push({ traits: {}, signal_index: 50, maps_3m: 0, rating_3_0: null, ...incoming, player_id: playerId });
+      return;
+    }
+    Object.assign(existing, incoming, {
+      player_id: playerId,
+      traits: { ...(existing.traits || {}), ...(incoming.traits || {}) },
+      rating_3_0: incoming.rating_3_0 ?? existing.rating_3_0,
+      maps_3m: incoming.maps_3m ?? existing.maps_3m,
+      signal_index: incoming.signal_index ?? existing.signal_index,
+    });
+  });
+  playerSnapshot.lineups_updated_at_utc = new Date().toISOString();
+  return true;
 }
 
 function applyLiveSnapshot(live) {
   if (!live?.ok || !appData) return false;
   let changed = mergeLiveEvents(live.events);
+  const playersChanged = mergeLivePlayers(live.players);
+  changed = changed || playersChanged;
   if (live.rankings?.teams?.length) {
     appData.coverage.vrs = live.rankings;
     changed = true;
@@ -1957,6 +2592,10 @@ function applyLiveSnapshot(live) {
   renderEventSelector(availableEvents());
   renderEvents(availableEvents());
   renderRankings(appData.coverage.vrs);
+  if (playersChanged) {
+    renderPlayerFilters();
+    renderPlayers();
+  }
   renderDeciders(dailyMatchCalls());
   renderDynamicMajor();
   updateSummary(appData);
@@ -2010,7 +2649,13 @@ async function boot() {
     if (!data || typeof data !== "object") throw new Error("Prediction snapshot is empty.");
     teamAssets = { ...SUPPLEMENTAL_TEAM_ASSETS, ...(data.team_assets || {}) };
     renderProjection(data);
+    renderPlayerFilters();
+    renderPlayers();
     updateSummary(data);
+    installViewportSignals();
+    restoreProductLocation();
+    if (selectedTeamName) openTeamProfile(selectedTeamName, { updateUrl: false });
+    document.body.classList.add("product-ready");
     if (window.location.protocol !== "file:") startLiveUpdater();
   } catch (error) {
     document.body.classList.add("data-error");
@@ -2026,7 +2671,8 @@ document.addEventListener(
     if (!(target instanceof HTMLImageElement) || !target.classList.contains("team-logo")) return;
     const fallback = document.createElement("span");
     fallback.className = "team-logo-fallback";
-    fallback.dataset.label = abbrev(target.dataset.team || target.title || "Team");
+    const teamName = target.dataset.team || target.title || "Team";
+    fallback.dataset.label = abbrev(teamName);
     fallback.setAttribute("aria-hidden", "true");
     target.replaceWith(fallback);
   },
@@ -2039,6 +2685,132 @@ els.boardJumpButtons.forEach((button) => {
 
 els.eventSelector?.addEventListener("change", (event) => {
   selectEvent(event.target.value);
+});
+
+els.playerSearch?.addEventListener("input", (event) => {
+  playerSearchTerm = event.target.value || "";
+  renderPlayers();
+});
+
+els.playerTeamFilter?.addEventListener("change", (event) => {
+  playerTeamFilter = event.target.value || "all";
+  selectedPlayerId = null;
+  renderPlayers();
+});
+
+document.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  const trigger = event.target.closest("[data-open-player]");
+  if (!trigger) return;
+  event.preventDefault();
+  event.stopPropagation();
+  const playerId = trigger.dataset.openPlayer;
+  if (!playerId) return;
+  closeTeamProfile({ updateUrl: false });
+  selectedPlayerId = playerId;
+  playerSearchTerm = "";
+  playerTeamFilter = "all";
+  if (els.playerSearch) els.playerSearch.value = "";
+  renderPlayerFilters();
+  renderPlayers();
+  updateProductUrl({ playerId, eventId: "", view: "", teamName: "", hash: "players" });
+  document.querySelector("#players")?.scrollIntoView({ block: "start", behavior: "smooth" });
+});
+
+document.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  const trigger = event.target.closest("[data-open-team]");
+  if (!trigger) return;
+  event.preventDefault();
+  event.stopPropagation();
+  openTeamProfile(trigger.dataset.openTeam || trigger.dataset.team || trigger.title);
+}, true);
+
+document.addEventListener("keydown", (event) => {
+  if (!(event.target instanceof Element)) return;
+  const trigger = event.target.closest("[data-open-team]");
+  if (!trigger || !["Enter", " "].includes(event.key)) return;
+  event.preventDefault();
+  event.stopPropagation();
+  openTeamProfile(trigger.dataset.openTeam || trigger.dataset.team || trigger.title);
+}, true);
+
+els.teamDrawerClose?.addEventListener("click", () => closeTeamProfile());
+els.teamDrawerBackdrop?.addEventListener("click", () => closeTeamProfile());
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && els.teamDrawerLayer && !els.teamDrawerLayer.hidden) closeTeamProfile();
+});
+
+els.teamDrawerContent?.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  const eventTrigger = event.target.closest("[data-open-event]");
+  if (eventTrigger?.dataset.openEvent) {
+    event.preventDefault();
+    closeTeamProfile({ updateUrl: false });
+    selectEvent(eventTrigger.dataset.openEvent);
+    return;
+  }
+  const matchTrigger = event.target.closest("[data-open-match-key]");
+  if (!matchTrigger?.dataset.openMatchKey) return;
+  const match = allKnownMatches().find((row) => matchKeyOf(row) === matchTrigger.dataset.openMatchKey);
+  if (!match) return;
+  event.preventDefault();
+  selectedMatchKey = matchKeyOf(match);
+  selectedMatchDateKey = localDateKey(match.starts_at);
+  currentMatchFilter = "all";
+  currentMatchEvent = "all";
+  closeTeamProfile({ updateUrl: false });
+  renderDeciders(dailyMatchCalls());
+  updateProductUrl({ teamName: "", playerId: "", eventId: "", view: "", hash: "matches" });
+  document.querySelector("#matches")?.scrollIntoView({ block: "start", behavior: "smooth" });
+});
+
+els.openSearch?.addEventListener("click", openProductSearch);
+els.searchBackdrop?.addEventListener("click", closeProductSearch);
+els.productSearch?.addEventListener("input", (event) => renderProductSearch(event.target.value || ""));
+els.searchResults?.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  const team = event.target.closest("[data-search-team]")?.dataset.searchTeam;
+  const playerId = event.target.closest("[data-search-player]")?.dataset.searchPlayer;
+  const eventId = event.target.closest("[data-search-event]")?.dataset.searchEvent;
+  if (team) {
+    closeProductSearch();
+    openTeamProfile(team);
+    return;
+  }
+  if (playerId) {
+    closeProductSearch();
+    selectedPlayerId = playerId;
+    playerSearchTerm = "";
+    playerTeamFilter = "all";
+    if (els.playerSearch) els.playerSearch.value = "";
+    renderPlayerFilters();
+    renderPlayers();
+    updateProductUrl({ playerId, teamName: "", eventId: "", view: "", hash: "players" });
+    document.querySelector("#players")?.scrollIntoView({ block: "start", behavior: "smooth" });
+    return;
+  }
+  if (eventId) {
+    closeProductSearch();
+    selectEvent(eventId);
+  }
+});
+
+document.addEventListener("keydown", (event) => {
+  const target = event.target;
+  const isTyping = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement;
+  if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+    event.preventDefault();
+    els.searchLayer?.classList.contains("is-open") ? closeProductSearch() : openProductSearch();
+    return;
+  }
+  if (event.key === "/" && !isTyping && els.searchLayer?.hidden) {
+    event.preventDefault();
+    openProductSearch();
+    return;
+  }
+  if (event.key === "Escape" && els.searchLayer && !els.searchLayer.hidden) closeProductSearch();
 });
 
 els.eventFilterButtons.forEach((button) => {

@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css?v=20260712.2">
+    <link rel="stylesheet" href="./styles.css?v=20260726.2">
   </head>
   <body>
     <a class="skip-link" href="#dashboard">Skip to predictions</a>
@@ -27,10 +27,22 @@
         <a href="#matches">Matches</a>
         <a href="#events">Events</a>
         <a href="#rankings">Rankings</a>
+        <a href="#players">Players</a>
         <a href="#model">Model</a>
       </nav>
-      <a class="header-cta" href="#matches"><span class="live-dot"></span> Open match desk</a>
+      <div class="header-actions">
+        <button id="openSearch" class="header-search" type="button"><span>Search</span><kbd>⌘ K</kbd></button>
+        <a class="header-cta" href="#matches"><span class="live-dot"></span> Open match desk</a>
+      </div>
     </header>
+
+    <nav class="mobile-dock" aria-label="Mobile sections">
+      <a href="#dashboard"><span>01</span>Desk</a>
+      <a href="#matches"><span>02</span>Matches</a>
+      <a href="#events"><span>03</span>Events</a>
+      <a href="#rankings"><span>04</span>Ranks</a>
+      <a href="#players"><span>05</span>Players</a>
+    </nav>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
@@ -80,24 +92,22 @@
       </section>
 
       <section id="matches" class="section-shell matches-shell" aria-labelledby="matches-title">
-        <div class="section-heading split-heading">
+        <div class="section-heading">
           <div>
             <span class="section-index">Series control</span>
             <h2 id="matches-title">The match desk.</h2>
           </div>
-          <p>Live score, pre-veto edge, map outlook, and model coverage for every series.</p>
         </div>
         <div id="matchToolbar" class="match-toolbar" aria-label="Match desk controls"></div>
         <div id="deciderGrid" class="match-center"></div>
       </section>
 
       <section id="events" class="section-shell events-shell" aria-labelledby="events-title">
-        <div class="section-heading split-heading">
+        <div class="section-heading">
           <div>
             <span class="section-index">Event calendar</span>
             <h2 id="events-title">The circuit ahead.</h2>
           </div>
-          <p>Every event opens into its matches, competitive structure, field, and projected title path.</p>
         </div>
         <div class="event-filter" role="group" aria-label="Filter events">
           <button class="is-active" type="button" data-event-filter="active">Active and upcoming</button>
@@ -158,12 +168,11 @@
       </section>
 
       <section id="rankings" class="section-shell rankings-shell" aria-labelledby="rankings-title">
-        <div class="section-heading split-heading">
+        <div class="section-heading">
           <div>
             <span class="section-index">Valve world ranking</span>
             <h2 id="rankings-title">World order.</h2>
           </div>
-          <p>Official rank now. StrikeSignal movement next.</p>
         </div>
         <div class="ranking-summary-bar">
           <div><span>Official source</span><strong id="rankingsSource">Loading VRS</strong></div>
@@ -175,13 +184,30 @@
         <button id="rankingToggle" class="ranking-toggle" type="button" aria-expanded="false">Show full top 30</button>
       </section>
 
+      <section id="players" class="section-shell players-shell" aria-labelledby="players-title">
+        <div class="section-heading">
+          <div>
+            <span class="section-index">Player index</span>
+            <h2 id="players-title">Inside the server.</h2>
+          </div>
+        </div>
+        <div class="player-toolbar">
+          <label for="playerSearch"><span>Find player</span><input id="playerSearch" type="search" placeholder="Nickname or real name" autocomplete="off"></label>
+          <label for="playerTeamFilter"><span>Team</span><select id="playerTeamFilter"><option value="all">All teams</option></select></label>
+          <div><span>Profile window</span><strong id="playerSnapshotMeta">Loading player data</strong></div>
+        </div>
+        <div class="player-explorer">
+          <div id="playerGrid" class="player-grid" role="list" aria-label="Player profiles"></div>
+          <aside id="playerDetail" class="player-detail" aria-live="polite"></aside>
+        </div>
+      </section>
+
       <section id="model" class="section-shell model-shell" aria-labelledby="model-title">
-        <div class="section-heading split-heading">
+        <div class="section-heading">
           <div>
             <span class="section-index">Model modes</span>
             <h2 id="model-title">One series, two moments.</h2>
           </div>
-          <p>The veto changes the question. The forecast changes with it.</p>
         </div>
         <div class="model-evidence">
           <article class="model-mode">
@@ -208,13 +234,40 @@
       <a href="#top">Back to top</a>
     </footer>
 
+    <div id="teamDrawerLayer" class="team-drawer-layer" hidden>
+      <button id="teamDrawerBackdrop" class="team-drawer-backdrop" type="button" aria-label="Close team profile"></button>
+      <aside class="team-drawer" role="dialog" aria-modal="true" aria-labelledby="teamDrawerTitle">
+        <header class="team-drawer-bar">
+          <span>Team intelligence</span>
+          <button id="teamDrawerClose" type="button" aria-label="Close team profile"><i></i></button>
+        </header>
+        <div id="teamDrawerContent" class="team-drawer-content"></div>
+      </aside>
+    </div>
+
+    <div id="searchLayer" class="search-layer" hidden>
+      <button id="searchBackdrop" class="search-backdrop" type="button" aria-label="Close search"></button>
+      <section class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
+        <header>
+          <span id="searchTitle">Search StrikeSignal</span>
+          <kbd>ESC</kbd>
+        </header>
+        <label class="search-input-wrap">
+          <span class="sr-only">Search teams, players, and events</span>
+          <input id="productSearch" type="search" autocomplete="off" placeholder="Team, player, or tournament">
+        </label>
+        <div id="searchResults" class="search-results"></div>
+      </section>
+    </div>
+
     <template id="emptyTemplate">
       <div class="empty-state"><h3>No new call yet.</h3><p>The latest complete slate stays on screen.</p></div>
     </template>
 
-    <script src="./data/predictions.js?v=20260712.2"></script>
-    <script src="./data/coverage.js?v=20260712.2"></script>
-    <script src="./data/team-assets.js?v=20260712.2"></script>
-    <script src="./app.js?v=20260712.2" type="module"></script>
+    <script src="./data/predictions.js?v=20260725.1"></script>
+    <script src="./data/coverage.js?v=20260725.1"></script>
+    <script src="./data/team-assets.js?v=20260725.1"></script>
+    <script src="./data/players.js?v=20260725.2"></script>
+    <script src="./app.js?v=20260726.2" type="module"></script>
   </body>
 </html>

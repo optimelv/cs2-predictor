@@ -4,9 +4,10 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node --check docs/app.js && node scripts/validate-site-data.mjs",
+    "build": "node --check docs/app.js && node --check docs/lib/snapshot.js && node --check api/live-snapshot.js && node --check scripts/promote-live-snapshot.mjs && node --check docs/data/players.js && node scripts/test-snapshot.mjs && node scripts/validate-site-data.mjs",
+    "build:players": "node scripts/build-player-snapshot.mjs",
     "dev": "netlify dev",
-    "check": "node --check docs/app.js && node scripts/validate-site-data.mjs"
+    "check": "node --check docs/app.js && node --check docs/lib/snapshot.js && node --check api/live-snapshot.js && node --check scripts/promote-live-snapshot.mjs && node --check docs/data/players.js && node scripts/test-snapshot.mjs && node scripts/validate-site-data.mjs"
   },
   "dependencies": {
     "@netlify/blobs": "^9.1.0",

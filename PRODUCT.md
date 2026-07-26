@@ -6,11 +6,11 @@ product
 
 ## Users
 
-CS2 esports analysts, bettors, and model builders who want a fast read on upcoming match probabilities, confidence, tier quality, and model caveats. They use the app before matches, around veto time, and after data refreshes to decide where the model has a usable signal.
+CS2 esports fans, Pick'Em players, analysts, and model builders who want one place for match probabilities, veto context, player form, tournament paths, and VRS movement. They use the app before matches, during live event stages, and after data refreshes.
 
 ## Product Purpose
 
-Expose the CS2 predictor as a static GitHub Pages web app backed by generated JSON data. Success means a user can see the current benchmark quality, inspect upcoming or benchmark match predictions, understand pre-match versus post-veto confidence, and know when the data was last refreshed.
+Ship a navigable CS2 intelligence product backed by a versioned live snapshot. Success means a user can move from the circuit calendar into an event tree, open any series, inspect its veto and lineups, continue into player profiles, and distinguish official results from model projections without losing context.
 
 ## Brand Personality
 

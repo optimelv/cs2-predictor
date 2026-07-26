@@ -1,4 +1,4 @@
-export const SNAPSHOT_CONTRACT_VERSION = "1.0";
+export const SNAPSHOT_CONTRACT_VERSION = "1.1";
 
 const FORMAT_ALIASES = new Map([
   ["single elimination", "single_elimination"],
@@ -23,6 +23,24 @@ const STATUS_ALIASES = new Map([
   ["ended", "finished"],
   ["final", "finished"],
 ]);
+
+const TIER_TWO_EVENT_PATTERN = /\b(?:cct|roman imperium|esl challenger|thunderpick world championship|european pro league)\b/i;
+const TIER_ONE_EVENT_PATTERN = /\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b/i;
+
+export function productTierForEvent(event = {}) {
+  const declared = String(event.product_tier || event.tier || event.publisher_tier || event.event_tier || "").trim().toLowerCase();
+  const name = String(event.name || event.event_name || event.source_title || "");
+  if (["tier_1", "tier 1", "major", "s-tier", "s tier", "a-tier", "a tier"].includes(declared)) return "tier_1";
+  if (["tier_2", "tier 2", "b-tier", "b tier"].includes(declared)) return "tier_2";
+  if (/^(?:c-tier|c tier|tier[_ -]?3|d-tier|d tier|excluded)$/.test(declared)) return "excluded";
+  if (TIER_TWO_EVENT_PATTERN.test(name)) return "tier_2";
+  if (TIER_ONE_EVENT_PATTERN.test(name)) return "tier_1";
+  return "pending";
+}
+
+export function eventIsProductEligible(event = {}) {
+  return ["tier_1", "tier_2"].includes(productTierForEvent(event));
+}
 
 export function slugify(value) {
   return String(value || "")
@@ -65,13 +83,33 @@ function finiteNumber(value) {
 
 function inferredStatus(status, startDate, endDate) {
   const normalized = String(status || "").trim().toLowerCase().replace(/[_-]+/g, " ");
-  if (normalized) return STATUS_ALIASES.get(normalized) || normalized.replace(/\s+/g, "_");
+  const declared = STATUS_ALIASES.get(normalized) || normalized.replace(/\s+/g, "_");
+  if (declared === "cancelled") return declared;
   const now = Date.now();
-  const start = new Date(startDate || 0).getTime();
-  const end = new Date(endDate || startDate || 0).getTime();
+  const start = new Date(startDate ? `${String(startDate).slice(0, 10)}T00:00:00` : 0).getTime();
+  const end = new Date((endDate || startDate) ? `${String(endDate || startDate).slice(0, 10)}T23:59:59` : 0).getTime();
   if (start && now < start) return "upcoming";
-  if (end && now > end + 86_400_000) return "finished";
-  return start ? "ongoing" : "upcoming";
+  if (end && now > end) return "finished";
+  if (start && now >= start && (!end || now <= end)) return "ongoing";
+  return declared || "upcoming";
+}
+
+function normalizeStage(stage, index) {
+  const source = typeof stage === "string" ? { name: stage } : { ...(stage || {}) };
+  const name = source.name || source.label || `Stage ${index + 1}`;
+  const rawType = String(source.type || source.kind || name).toLowerCase().replace(/[_-]+/g, " ").trim();
+  const type = FORMAT_ALIASES.get(rawType)
+    || [...FORMAT_ALIASES].find(([alias]) => rawType.includes(alias))?.[1]
+    || "mixed";
+  return {
+    ...source,
+    id: source.id || slugify(name),
+    name,
+    type,
+    order: finiteNumber(source.order) || index + 1,
+    status: source.status || "pending",
+    settings: { ...(source.settings || {}) },
+  };
 }
 
 function normalizeFormat(rawFormat, event = {}) {
@@ -84,12 +122,7 @@ function normalizeFormat(rawFormat, event = {}) {
     || [...FORMAT_ALIASES].find(([alias]) => rawType.includes(alias))?.[1]
     || "mixed";
   const stages = (source.stages || event.stages || [])
-    .map((stage, index) => typeof stage === "string" ? { id: slugify(stage), name: stage, order: index + 1 } : {
-      ...stage,
-      id: stage.id || slugify(stage.name || stage.label || `stage-${index + 1}`),
-      name: stage.name || stage.label || `Stage ${index + 1}`,
-      order: finiteNumber(stage.order) || index + 1,
-    })
+    .map(normalizeStage)
     .sort((a, b) => a.order - b.order);
   return {
     ...source,
@@ -97,6 +130,37 @@ function normalizeFormat(rawFormat, event = {}) {
     label: source.label || source.name || type.replaceAll("_", " "),
     stages,
     settings: { ...(source.settings || {}) },
+  };
+}
+
+function normalizeBracket(rawBracket, context) {
+  if (!rawBracket || typeof rawBracket !== "object") return null;
+  const rounds = (rawBracket.rounds || []).map((round, roundIndex) => {
+    const source = typeof round === "string" ? { name: round } : { ...(round || {}) };
+    const name = source.name || source.label || `Round ${roundIndex + 1}`;
+    const matches = (source.matches || [])
+      .map((match) => normalizeMatch(match, { eventId: context.id, eventName: context.name }))
+      .filter(Boolean)
+      .map((match, matchIndex) => ({
+        ...match,
+        slot_id: String(match.slot_id || `${slugify(name)}-${matchIndex + 1}`),
+        round_name: match.round_name || name,
+        feeds_from: Array.isArray(match.feeds_from) ? match.feeds_from.map(String) : [],
+      }));
+    return {
+      ...source,
+      id: String(source.id || slugify(name)),
+      name,
+      order: finiteNumber(source.order) || roundIndex + 1,
+      bracket: source.bracket || "main",
+      matches,
+    };
+  }).filter((round) => round.matches.length).sort((a, b) => a.order - b.order);
+  if (!rounds.length) return null;
+  return {
+    ...rawBracket,
+    type: rawBracket.type || "single_elimination",
+    rounds,
   };
 }
 
@@ -159,7 +223,7 @@ export function normalizeEvent(event, index = 0) {
   const matches = (Array.isArray(event.matches) ? event.matches : [])
     .map((match) => normalizeMatch(match, { eventId: id, eventName: name }))
     .filter(Boolean);
-  return {
+  const normalizedEvent = {
     ...event,
     id,
     name,
@@ -171,7 +235,10 @@ export function normalizeEvent(event, index = 0) {
     matches,
     map_pool: uniqueStrings(event.map_pool || event.maps || []),
     format: normalizeFormat(event.format || event.event_format, event),
+    product_tier: productTierForEvent(event),
   };
+  normalizedEvent.bracket = normalizeBracket(event.bracket, normalizedEvent);
+  return normalizedEvent;
 }
 
 function mergeEvents(primary, secondary) {

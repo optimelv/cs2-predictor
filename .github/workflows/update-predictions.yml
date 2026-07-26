@@ -2,6 +2,8 @@ name: Refresh predictor data
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "17 */3 * * *"
 
 concurrency:
   group: refresh-predictor-data
@@ -13,6 +15,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -22,54 +25,67 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install runtime dependency
-        run: python -m pip install numpy
+      - name: Install model runtime
+        run: python -m pip install --disable-pip-version-check numpy
 
-      - name: Fetch HLTV live feed through Apify
-        env:
-          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+      - name: Resolve the Always Free live worker
+        id: worker
+        shell: bash
         run: |
-          if [ -z "$APIFY_API_TOKEN" ]; then
-            echo "APIFY_API_TOKEN is not set; leaving the published snapshot untouched."
+          worker_url=$(node -e "import('./config/oracle-worker.js').then(({ORACLE_WORKER_URL}) => process.stdout.write(ORACLE_WORKER_URL || ''))")
+          if [ -z "$worker_url" ]; then
+            echo "Oracle capacity is not connected yet; preserving the last verified release."
+            echo "available=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          python -m work.cs2_predictor.collect_hltv_apify \
-            --max-matches 80 \
-            --include-details \
-            --out work/data/raw/hltv/apify_live_upcoming_matches.json
+          echo "available=true" >> "$GITHUB_OUTPUT"
+          echo "url=$worker_url" >> "$GITHUB_OUTPUT"
 
-      - name: Validate live feed
-        env:
-          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+      - name: Fetch the provider-neutral live snapshot
+        if: steps.worker.outputs.available == 'true'
+        run: >
+          curl --fail --silent --show-error --retry 2 --retry-delay 5
+          "${{ steps.worker.outputs.url }}/snapshot"
+          --output "$RUNNER_TEMP/live-snapshot.json"
+
+      - name: Validate freshness and source health
+        if: steps.worker.outputs.available == 'true'
         run: |
-          if [ -z "$APIFY_API_TOKEN" ]; then
-            echo "refresh=false" >> "$GITHUB_ENV"
-            exit 0
-          fi
-          python - <<'PY'
+          python - "$RUNNER_TEMP/live-snapshot.json" <<'PY'
           import json
+          import sys
+          from datetime import datetime, timezone
           from pathlib import Path
 
-          path = Path("work/data/raw/hltv/apify_live_upcoming_matches.json")
-          payload = json.loads(path.read_text())
-          if payload.get("status") != "ok" or not payload.get("items"):
-              raise SystemExit("HLTV feed returned no usable matches; refusing to publish fake freshness.")
+          payload = json.loads(Path(sys.argv[1]).read_text())
+          if not payload.get("ok") or not str(payload.get("contract_version", "")).startswith("1."):
+              raise SystemExit("Live snapshot contract is invalid; refusing promotion.")
+          if not payload.get("matches"):
+              raise SystemExit("Live snapshot has no matches; refusing promotion.")
+          fetched = datetime.fromisoformat(payload["fetched_at_utc"].replace("Z", "+00:00"))
+          age_hours = (datetime.now(timezone.utc) - fetched).total_seconds() / 3600
+          if age_hours > 12:
+              raise SystemExit(f"Snapshot is {age_hours:.1f} hours old; refusing fake freshness.")
           PY
-          echo "refresh=true" >> "$GITHUB_ENV"
 
-      - name: Refresh public prediction JSON
-        if: env.refresh == 'true'
+      - name: Refresh predictions and online team state
+        if: steps.worker.outputs.available == 'true'
         run: >
           python -m work.cs2_predictor.export_site_predictions
           --allow-missing-db
-          --apify-feed work/data/raw/hltv/apify_live_upcoming_matches.json
+          --live-feed "$RUNNER_TEMP/live-snapshot.json"
 
-      - name: Commit refreshed data
-        if: env.refresh == 'true'
+      - name: Promote lineups and validate the release
+        if: steps.worker.outputs.available == 'true'
         run: |
-          node -e "const fs=require('fs'); const data=fs.readFileSync('docs/data/coverage.json','utf8'); fs.writeFileSync('docs/data/coverage.js','window.__STRIKESIGNAL_COVERAGE__ = '+data+';\\n');"
+          node scripts/promote-live-snapshot.mjs "$RUNNER_TEMP/live-snapshot.json"
+          npm run check
+
+      - name: Commit verified Tier 1/2 data
+        if: steps.worker.outputs.available == 'true'
+        run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/data/predictions.json docs/data/predictions.js docs/data/coverage.json docs/data/coverage.js
-          git diff --cached --quiet || git commit -m "Refresh predictor site data"
+          git add docs/data/predictions.json docs/data/predictions.js docs/data/coverage.json docs/data/coverage.js docs/data/players.json docs/data/players.js
+          git diff --cached --quiet || git commit -m "Refresh verified CS2 results and projections"
           git push

@@ -18,7 +18,7 @@ export default async function handler(_request, response) {
       throw new Error(`Worker returned HTTP ${upstream.status}`);
     }
     const payload = await upstream.json();
-    if (!payload?.ok || payload.contract_version !== "1.0") {
+    if (!payload?.ok || !String(payload.contract_version || "").startsWith("1.")) {
       throw new Error("Worker returned an invalid snapshot contract.");
     }
     response.setHeader("Cache-Control", "no-store, max-age=0");

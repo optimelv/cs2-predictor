@@ -594,6 +594,9 @@ def parse_apify_detail(item: dict[str, Any]) -> dict[str, Any]:
     maps = []
     if isinstance(raw_maps, list):
         for m in raw_maps:
+            if isinstance(m, str):
+                maps.append({"map_name": m, "team1_score": None, "team2_score": None})
+                continue
             if not isinstance(m, dict):
                 continue
             map_name = m.get("map_name") or m.get("mapName") or m.get("name") or m.get("map")
@@ -603,6 +606,16 @@ def parse_apify_detail(item: dict[str, Any]) -> dict[str, Any]:
                     "team1_score": safe_int(m.get("team1_score") or m.get("team1Score"), None),
                     "team2_score": safe_int(m.get("team2_score") or m.get("team2Score"), None),
                 })
+    for m in item.get("map_results") or []:
+        if not isinstance(m, dict):
+            continue
+        map_name = m.get("map_name") or m.get("name")
+        if map_name and not any(row["map_name"] == map_name for row in maps):
+            maps.append({
+                "map_name": str(map_name),
+                "team1_score": safe_int(m.get("score1") or m.get("team1_score"), None),
+                "team2_score": safe_int(m.get("score2") or m.get("team2_score"), None),
+            })
 
     # Extract vetoes
     raw_vetoes = item.get("vetoes") or []
@@ -627,7 +640,7 @@ def parse_apify_detail(item: dict[str, Any]) -> dict[str, Any]:
                     "action": action,
                 })
     return {
-        "match_id": safe_int(item.get("match_id") or item.get("matchId") or item.get("id"), None),
+        "match_id": safe_int(str(item.get("match_id") or item.get("matchId") or item.get("id") or "").replace("hltv:", ""), None),
         "maps": maps,
         "vetoes": vetoes,
     }
@@ -646,8 +659,8 @@ def canonical_map_name(name: str) -> str:
 
 
 def oriented_api_scores(item: dict[str, Any], team1_name: str) -> tuple[int | None, int | None]:
-    score1 = safe_int(item.get("team1_score") or item.get("team1Score"), None)
-    score2 = safe_int(item.get("team2_score") or item.get("team2Score"), None)
+    score1 = safe_int(item.get("score1") if item.get("score1") is not None else item.get("team1_score") or item.get("team1Score"), None)
+    score2 = safe_int(item.get("score2") if item.get("score2") is not None else item.get("team2_score") or item.get("team2Score"), None)
     api_team1 = team_name_from_api_item(item, 1)
     if api_team1 and normalize_team_name(api_team1) != normalize_team_name(team1_name):
         return score2, score1
@@ -1236,7 +1249,7 @@ def timestamp_from_api_item(item: dict[str, Any]) -> int | None:
         parsed = safe_int(value, None)
         if parsed:
             return parsed // 1000 if parsed > 10_000_000_000 else parsed
-    for key in ("date", "matchDate", "startsAt"):
+    for key in ("date", "matchDate", "startsAt", "starts_at"):
         value = item.get(key)
         if not value:
             continue
@@ -1252,6 +1265,7 @@ def event_name_from_api_item(item: dict[str, Any]) -> str:
     value = value_from_paths(
         item,
         [
+            ("name",),
             ("event_name",),
             ("eventName",),
             ("event", "name"),
@@ -1266,7 +1280,7 @@ def api_items_from_feed(path: Path) -> list[dict[str, Any]]:
     if not path.exists():
         return []
     data = read_json(path)
-    items = data.get("items") if isinstance(data, dict) else data
+    items = (data.get("items") or data.get("matches")) if isinstance(data, dict) else data
     if not isinstance(items, list):
         return []
     return [item for item in items if isinstance(item, dict)]
@@ -1294,7 +1308,7 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
         "match_phase": str(item.get("match_phase") or item.get("phase") or "scheduled"),
         "team1_name": team1,
         "team2_name": team2,
-        "format": str(item.get("format") or item.get("matchFormat") or ""),
+        "format": str(item.get("format") or item.get("series_format") or item.get("matchFormat") or ""),
         "status": str(item.get("status") or "Scheduled"),
         "team1_hltv_rank": item.get("team1_rank") or item.get("team1Rank"),
         "team2_hltv_rank": item.get("team2_rank") or item.get("team2Rank"),
@@ -1308,8 +1322,123 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
         "model": "live_snapshot_power_bounded",
         "mode": "api_feed_snapshot_state",
         "data_quality": "full" if state1 and state2 else "partial",
-        "source": "apify_hltv_feed",
+        "source": str(item.get("source") or "hltv_live_snapshot"),
     }
+
+
+def product_tier_from_feed(item: dict[str, Any]) -> str:
+    declared = str(item.get("product_tier") or item.get("tier") or "").strip().casefold()
+    event_name = event_name_from_api_item(item)
+    if declared in {"tier_1", "tier 1", "major", "s-tier", "s tier", "a-tier", "a tier"}:
+        return "tier_1"
+    if declared in {"tier_2", "tier 2", "b-tier", "b tier"}:
+        return "tier_2"
+    if re.fullmatch(r"(?:c-tier|c tier|tier[_ -]?3|d-tier|d tier|excluded)", declared):
+        return "excluded"
+    if re.search(r"\b(?:cct|roman imperium|esl challenger|thunderpick world championship|european pro league)\b", event_name, re.I):
+        return "tier_2"
+    if re.search(r"\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b", event_name, re.I):
+        return "tier_1"
+    return "pending"
+
+
+def result_identity(item: dict[str, Any]) -> str:
+    value = item.get("match_id") or item.get("matchId") or item.get("id")
+    if value:
+        return str(value)
+    return "|".join(
+        [
+            event_name_from_api_item(item),
+            team_name_from_api_item(item, 1),
+            team_name_from_api_item(item, 2),
+            str(timestamp_from_api_item(item) or ""),
+        ]
+    )
+
+
+def refresh_model_state_from_feed(payload: dict[str, Any], items: list[dict[str, Any]]) -> int:
+    model_state = payload.setdefault("model_state", {})
+    teams = model_state.setdefault("teams", [])
+    by_name = {normalize_team_name(str(row.get("team_name") or row.get("team_key") or "")): row for row in teams}
+    applied = list(model_state.get("applied_result_ids") or [])
+    applied_set = set(applied)
+    loaded = 0
+    finished_items = sorted(items, key=lambda item: timestamp_from_api_item(item) or 0)
+    for item in finished_items:
+        status = str(item.get("status") or "").casefold()
+        score1, score2 = oriented_api_scores(item, team_name_from_api_item(item, 1))
+        if status not in {"finished", "completed", "final", "ended"} and (score1 is None or score2 is None):
+            continue
+        if score1 is None or score2 is None or score1 == score2 or product_tier_from_feed(item) not in {"tier_1", "tier_2"}:
+            continue
+        identity = result_identity(item)
+        if identity in applied_set:
+            continue
+        team1_name = team_name_from_api_item(item, 1)
+        team2_name = team_name_from_api_item(item, 2)
+        if not team1_name or not team2_name:
+            continue
+        rows = []
+        for team_name in (team1_name, team2_name):
+            key = normalize_team_name(team_name)
+            row = by_name.get(key)
+            if row is None:
+                row = {
+                    "team_key": key,
+                    "team_name": team_name,
+                    "elo": 1500.0,
+                    "matches": 0,
+                    "recent_win_rate_10": 0.5,
+                    "vrs_points": 0,
+                    "vrs_rank": None,
+                }
+                teams.append(row)
+                by_name[key] = row
+            rows.append(row)
+        row1, row2 = rows
+        elo1 = safe_float(row1.get("elo"), 1500.0)
+        elo2 = safe_float(row2.get("elo"), 1500.0)
+        expected1 = 1.0 / (1.0 + 10.0 ** ((elo2 - elo1) / 400.0))
+        actual1 = 1.0 if score1 > score2 else 0.0
+        series_margin = min(1.35, 1.0 + 0.12 * abs(score1 - score2))
+        delta = 22.0 * series_margin * (actual1 - expected1)
+        row1["elo"] = round(elo1 + delta, 2)
+        row2["elo"] = round(elo2 - delta, 2)
+        for row, result in ((row1, actual1), (row2, 1.0 - actual1)):
+            recent = safe_float(row.get("recent_win_rate_10"), 0.5)
+            row["recent_win_rate_10"] = round(recent + (2.0 / 11.0) * (result - recent), 4)
+            row["matches"] = (safe_int(row.get("matches"), 0) or 0) + 1
+            row["last_result_utc"] = item.get("starts_at") or item.get("startsAt") or utc_now()
+        applied.append(identity)
+        applied_set.add(identity)
+        loaded += 1
+    model_state["applied_result_ids"] = applied[-1500:]
+    model_state["team_count"] = len(teams)
+    if loaded:
+        model_state["last_online_update_utc"] = utc_now()
+    return loaded
+
+
+def merge_live_snapshot_coverage(payload: dict[str, Any], feed_path: Path, items: list[dict[str, Any]]) -> None:
+    raw = read_json(feed_path)
+    coverage = payload.setdefault("coverage", coverage_snapshot())
+    existing_events = {str(event.get("id") or normalize_team_name(str(event.get("name") or ""))): event for event in coverage.get("events") or []}
+    for event in raw.get("events") or []:
+        if not isinstance(event, dict) or product_tier_from_feed(event) not in {"tier_1", "tier_2"}:
+            continue
+        key = str(event.get("id") or normalize_team_name(str(event.get("name") or "")))
+        existing_events[key] = {**existing_events.get(key, {}), **event, "product_tier": product_tier_from_feed(event)}
+    coverage["events"] = list(existing_events.values())
+
+    eligible_event_ids = {str(event.get("id")) for event in coverage["events"] if product_tier_from_feed(event) in {"tier_1", "tier_2"}}
+    existing_matches = {str(match.get("match_id") or result_identity(match)): match for match in coverage.get("daily_matches") or []}
+    for item in items:
+        if str(item.get("event_id") or "") not in eligible_event_ids and product_tier_from_feed(item) not in {"tier_1", "tier_2"}:
+            continue
+        key = str(item.get("match_id") or result_identity(item))
+        existing_matches[key] = {**existing_matches.get(key, {}), **item}
+    coverage["daily_matches"] = sorted(existing_matches.values(), key=lambda item: timestamp_from_api_item(item) or 0)[-180:]
+    coverage["last_verified_utc"] = raw.get("fetched_at_utc") or utc_now()
 
 
 def fallback_payload_from_existing(output_path: Path, apify_feed_path: Path | None) -> dict[str, Any]:
@@ -1324,6 +1453,8 @@ def fallback_payload_from_existing(output_path: Path, apify_feed_path: Path | No
         apify_items = api_items_from_feed(apify_feed_path)
         if not apify_items:
             return payload
+        updated_results = refresh_model_state_from_feed(payload, apify_items)
+        merge_live_snapshot_coverage(payload, apify_feed_path, apify_items)
         payload["generated_at_utc"] = utc_now()
         payload["updater"].update(
             {
@@ -1370,7 +1501,8 @@ def fallback_payload_from_existing(output_path: Path, apify_feed_path: Path | No
                 and str(row.get("status") or "").casefold() not in {"completed", "finished"}
             ]
             payload["upcoming_predictions"] = [*payload.get("upcoming_predictions", []), *extras[:9]]
-            payload["updater"]["apify_feed_items"] = len(predictions)
+            payload["updater"]["live_feed_items"] = len(predictions)
+            payload["updater"]["online_results_applied"] = updated_results
     return payload
 
 
@@ -1531,6 +1663,15 @@ def build_payload(db_path: Path, apify_feed_path: Path | None = None) -> dict[st
 
     # Apply major projection updates from the feed
     if apify_feed_path and apify_feed_path.exists():
+        apify_items = api_items_from_feed(apify_feed_path)
+        payload["updater"]["online_results_applied"] = refresh_model_state_from_feed(payload, apify_items)
+        merge_live_snapshot_coverage(payload, apify_feed_path, apify_items)
+        live_predictions = [
+            row for row in (prediction_from_snapshot_match(item, payload["model_state"]) for item in apify_items)
+            if row is not None and str(row.get("status") or "").casefold() not in {"finished", "completed", "final", "ended"}
+        ]
+        if live_predictions:
+            payload["upcoming_predictions"] = live_predictions
         update_major_projection_from_apify(payload, apify_feed_path)
 
     return payload
@@ -1543,17 +1684,19 @@ def main() -> None:
     parser.add_argument("--out", default=str(SITE_DATA_PATH))
     parser.add_argument("--allow-missing-db", action="store_true")
     parser.add_argument("--apify-feed", default=None)
+    parser.add_argument("--live-feed", default=None, help="Provider-neutral live snapshot; supersedes --apify-feed.")
     args = parser.parse_args()
+    live_feed = args.live_feed or args.apify_feed
 
     output_path = Path(args.out)
     output_path.parent.mkdir(parents=True, exist_ok=True)
     db_path = Path(args.db_path)
     if db_path.exists():
-        payload = build_payload(db_path, Path(args.apify_feed) if args.apify_feed else None)
+        payload = build_payload(db_path, Path(live_feed) if live_feed else None)
     elif args.allow_missing_db:
         payload = fallback_payload_from_existing(
             output_path,
-            Path(args.apify_feed) if args.apify_feed else None,
+            Path(live_feed) if live_feed else None,
         )
     else:
         raise FileNotFoundError(f"SQLite warehouse not found: {db_path}")
