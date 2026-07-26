@@ -6,6 +6,7 @@ const base = await parse("../docs/data/predictions.json");
 const coverage = await parse("../docs/data/coverage.json");
 const teamAssets = await parse("../docs/data/team-assets.json");
 const playerSnapshot = await parse("../docs/data/players.json");
+const historySnapshot = await parse("../docs/data/history.json");
 const modelRegistry = await parse("../docs/data/model-registry.json");
 await parse("../contracts/live-snapshot.schema.json");
 const snapshot = normalizePlatformSnapshot(base, coverage);
@@ -74,6 +75,16 @@ invariant(String(playerSnapshot.contract_version).startsWith("1."), "Unsupported
 invariant(playerTimelineCount >= 40, "Player timeline coverage regressed below 40 profiles.");
 invariant(playerSnapshot.history_through_date, "Player history needs a verified through-date.");
 
+invariant(String(historySnapshot.contract_version).startsWith("1."), "Unsupported history snapshot contract.");
+invariant((historySnapshot.matches || []).length >= 900, "Tier 1/2 history coverage regressed below 900 matches.");
+const historyIds = new Set();
+for (const match of historySnapshot.matches || []) {
+  invariant(["tier_1", "tier_2"].includes(match.tier), `History leaked an ineligible tier: ${match.match_id}`);
+  invariant(match.match_id && match.match_date && match.team1_name && match.team2_name && match.winner_name, `Malformed history match: ${match.match_id}`);
+  invariant(!historyIds.has(match.match_id), `Duplicate history match: ${match.match_id}`);
+  historyIds.add(match.match_id);
+}
+
 invariant(String(modelRegistry.contract_version).startsWith("1."), "Unsupported model registry contract.");
 invariant(modelRegistry.champion?.version && modelRegistry.champion?.metrics, "The production model needs a version and metrics.");
 for (const metric of ["accuracy", "log_loss", "brier", "ece"]) {
@@ -97,4 +108,4 @@ for (const [teamKey, profile] of Object.entries(vetoProfiles)) {
 }
 
 invariant(productEventCount > 0, "The public Tier 1/2 circuit cannot be empty.");
-console.log(`site data ok: ${productEventCount}/${eventIds.size} public Tier 1/2 events, ${matchIds.size} current matches, ${rankingNames.size} VRS teams, ${playerIds.size} players, ${playerTimelineCount} timelines, ${Object.keys(mapProfiles).length} map profiles, ${Object.keys(vetoProfiles).length} veto profiles`);
+console.log(`site data ok: ${productEventCount}/${eventIds.size} public Tier 1/2 events, ${matchIds.size} current matches, ${historyIds.size} historical matches, ${rankingNames.size} VRS teams, ${playerIds.size} players, ${playerTimelineCount} timelines, ${Object.keys(mapProfiles).length} map profiles, ${Object.keys(vetoProfiles).length} veto profiles`);

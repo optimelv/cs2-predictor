@@ -2,6 +2,7 @@ import { eventIsProductEligible, normalizeEvent, normalizeMatch, normalizePlatfo
 import { buildDoubleEliminationTree } from "./lib/brackets.js?v=20260726.1";
 import { tournamentBlueprint, tournamentPlayoffField, tournamentStageLabels } from "./lib/tournaments.js?v=20260726.1";
 import { explainMatch } from "./lib/explanations.js?v=20260726.1";
+import { historyOpponents, summarizeHeadToHead } from "./lib/history.js?v=20260726.1";
 import { normalizeWatchlist, toggleWatchlist, watchlistCount, watchlistHas } from "./lib/watchlist.js?v=20260726.1";
 import {
   applyVetoMap,
@@ -17,6 +18,8 @@ import {
 const DATA_URL = "./data/predictions.json";
 const SUPPLEMENTAL_TEAM_ASSETS = window.__STRIKESIGNAL_TEAM_ASSETS__ || {};
 const STATIC_PLAYER_SNAPSHOT = window.__STRIKESIGNAL_PLAYERS__ || { players: [] };
+let historySnapshot = null;
+let historyLoadPromise = null;
 
 const els = {
   freshnessLabel: document.querySelector("#freshnessLabel"),
@@ -106,6 +109,7 @@ let playerSearchTerm = "";
 let playerTeamFilter = "all";
 let selectedPlayerId = null;
 let selectedTeamName = null;
+const selectedHistoryOpponents = new Map();
 let activeVetoMatch = null;
 let vetoLabState = null;
 let myDeskReturnFocus = null;
@@ -2628,6 +2632,62 @@ function teamVetoRead(teamName) {
   return appData?.model_state?.veto_profiles?.[normalizeName(teamName)] || { maps: {}, sample_matches: 0 };
 }
 
+function teamHistoryHtml(teamName) {
+  if (!historySnapshot) return `<section class="team-profile-section team-history-section is-loading"><header><span>Matchup archive</span><strong>Loading history</strong></header><div class="history-loading"><i></i><span>Building opponent and map reads</span></div></section>`;
+  const opponents = historyOpponents(historySnapshot, teamName);
+  if (!opponents.length) return `<section class="team-profile-section team-history-section is-empty"><header><span>Matchup archive</span><strong>History building</strong></header><p>No eligible Tier 1/2 history is available for this team yet.</p></section>`;
+  const storedOpponent = selectedHistoryOpponents.get(normalizeName(teamName));
+  const opponentName = opponents.find((row) => normalizeName(row.team_name) === normalizeName(storedOpponent))?.team_name || opponents[0].team_name;
+  selectedHistoryOpponents.set(normalizeName(teamName), opponentName);
+  const rosterNames = rosterForTeam(teamName).map((player) => player.nickname).filter(Boolean);
+  const summary = summarizeHeadToHead(historySnapshot, teamName, opponentName, rosterNames);
+  const currentMaps = new Map(teamMapRows(teamName).map((row) => [normalizeName(row.mapName), row]));
+  const opponentMaps = new Map(teamMapRows(opponentName).map((row) => [normalizeName(row.mapName), row]));
+  const h2hMaps = new Map(summary.maps.map((row) => [normalizeName(row.map_name), row]));
+  const mapNames = [...new Set([
+    ...summary.maps.map((row) => row.map_name),
+    ...teamMapRows(teamName).map((row) => row.mapName),
+    ...teamMapRows(opponentName).map((row) => row.mapName),
+  ])].slice(0, 7);
+  const latest = summary.matches.slice(0, 4);
+  return `<section class="team-profile-section team-history-section">
+    <header><span>Matchup archive</span><strong>${historySnapshot.scope?.matches || 0} eligible series</strong></header>
+    <label class="history-opponent-select"><span>Compare with</span><select data-history-opponent aria-label="Choose a historical opponent for ${escapeHtml(teamName)}">${opponents.map((row) => `<option value="${escapeHtml(row.team_name)}" ${normalizeName(row.team_name) === normalizeName(opponentName) ? "selected" : ""}>${escapeHtml(row.team_name)} · ${row.matches}</option>`).join("")}</select></label>
+    <div class="history-scoreboard">
+      <div class="history-team is-primary">${teamLogoHtml(teamName)}<span><small>${escapeHtml(teamName)}</small><strong>${summary.wins}</strong><b>wins</b></span></div>
+      <div class="history-series-total"><span>${summary.matches.length} series</span><strong>${formatPercent(summary.win_rate)}</strong><small>all eligible meetings</small></div>
+      <div class="history-team">${teamLogoHtml(opponentName)}<span><small>${escapeHtml(opponentName)}</small><strong>${summary.losses}</strong><b>wins</b></span></div>
+    </div>
+    <div class="history-era-strip">
+      <span>Current lineup era</span>
+      <strong>${summary.current_era_matches ? `${summary.current_era_wins}-${summary.current_era_matches - summary.current_era_wins}` : "No shared era yet"}</strong>
+      <small>${summary.current_era_matches ? `${formatPercent(summary.current_era_win_rate)} across ${summary.current_era_matches} meetings with 3+ current players` : "Requires three current players in the historical lineup"}</small>
+    </div>
+    <div class="history-map-matrix">
+      <header><span>${escapeHtml(teamName)}</span><b>Map matchup</b><span>${escapeHtml(opponentName)}</span></header>
+      ${mapNames.map((mapName) => {
+        const teamMap = currentMaps.get(normalizeName(mapName));
+        const opponentMap = opponentMaps.get(normalizeName(mapName));
+        const h2h = h2hMaps.get(normalizeName(mapName));
+        const teamRate = teamMap?.winRate;
+        const opponentRate = opponentMap?.winRate;
+        return `<div class="history-map-row">
+          <div class="history-map-rate is-left"><strong>${formatPercent(teamRate)}</strong><i><b style="width:${Math.round((teamRate ?? .5) * 100)}%"></b></i><small>${teamMap?.matches || 0} maps</small></div>
+          <span><strong>${escapeHtml(mapName)}</strong><small>${h2h?.maps ? `${h2h.wins}-${h2h.losses} H2H` : "No direct map"}</small></span>
+          <div class="history-map-rate is-right"><strong>${formatPercent(opponentRate)}</strong><i><b style="width:${Math.round((opponentRate ?? .5) * 100)}%"></b></i><small>${opponentMap?.matches || 0} maps</small></div>
+        </div>`;
+      }).join("") || `<p>Map samples are still building for this matchup.</p>`}
+    </div>
+    <div class="history-latest-series">${latest.map((match) => {
+      const won = normalizeName(match.winner_name) === normalizeName(teamName);
+      const isTeam1 = normalizeName(match.team1_name) === normalizeName(teamName);
+      const teamScore = isTeam1 ? match.score1 : match.score2;
+      const opponentScore = isTeam1 ? match.score2 : match.score1;
+      return `<article><span>${escapeHtml(match.match_date)} · ${escapeHtml(match.event_name)}</span><strong class="${won ? "is-win" : "is-loss"}">${won ? "W" : "L"} ${teamScore}-${opponentScore}</strong><small>${escapeHtml(match.phase || `BO${match.best_of || 3}`)}</small></article>`;
+    }).join("")}</div>
+  </section>`;
+}
+
 function teamPlayerProfileHtml(teamName, player) {
   const rating = Number(player.rating_3_0);
   const maps = Number(player.maps_3m) || 0;
@@ -2707,6 +2767,7 @@ function teamProfileHtml(teamName) {
         <article><span>Best map</span><strong>${escapeHtml(bestMap?.mapName || "Pending")}</strong><small>${bestMap ? `${formatPercent(bestMap.winRate)} · ${bestMap.matches} maps` : "Sample pending"}</small></article>
       </div>
     </section>
+    ${teamHistoryHtml(teamName)}
     <section class="team-profile-section">
       <header><span>Map pool</span><strong>${maps.length} tracked</strong></header>
       <div class="team-map-list">${maps.map((map) => `<div><span>${escapeHtml(map.mapName)}<small>${map.matches} maps</small></span><i><b style="width:${Math.round(map.winRate * 100)}%"></b></i><strong>${formatPercent(map.winRate)}</strong></div>`).join("") || `<p>Map profile pending.</p>`}</div>
@@ -2731,6 +2792,21 @@ function openTeamProfile(teamName, { updateUrl = true } = {}) {
   window.requestAnimationFrame(() => els.teamDrawerLayer.classList.add("is-open"));
   if (updateUrl) updateProductUrl({ teamName, playerId: "" });
   els.teamDrawerClose?.focus({ preventScroll: true });
+  if (!historySnapshot) {
+    historyLoadPromise ||= fetch("./data/history.json", { cache: "force-cache" })
+      .then((response) => {
+        if (!response.ok) throw new Error(`History snapshot returned ${response.status}`);
+        return response.json();
+      })
+      .then((snapshot) => { historySnapshot = snapshot; })
+      .catch(() => { historySnapshot = { contract_version: "1.0", scope: {}, matches: [], load_error: true }; });
+    historyLoadPromise.then(() => {
+      if (selectedTeamName !== teamName || els.teamDrawerLayer?.hidden) return;
+      const scrollTop = els.teamDrawerContent.scrollTop;
+      els.teamDrawerContent.innerHTML = teamProfileHtml(teamName);
+      window.requestAnimationFrame(() => { els.teamDrawerContent.scrollTop = scrollTop; });
+    });
+  }
 }
 
 function closeTeamProfile({ updateUrl = true } = {}) {
@@ -3504,6 +3580,14 @@ els.teamDrawerContent?.addEventListener("click", (event) => {
   renderDeciders(dailyMatchCalls());
   updateProductUrl({ teamName: "", playerId: "", eventId: "", view: "", hash: "matches" });
   document.querySelector("#matches")?.scrollIntoView({ block: "start", behavior: "smooth" });
+});
+
+els.teamDrawerContent?.addEventListener("change", (event) => {
+  if (!(event.target instanceof HTMLSelectElement) || !event.target.matches("[data-history-opponent]") || !selectedTeamName) return;
+  const scrollTop = els.teamDrawerContent.scrollTop;
+  selectedHistoryOpponents.set(normalizeName(selectedTeamName), event.target.value);
+  els.teamDrawerContent.innerHTML = teamProfileHtml(selectedTeamName);
+  window.requestAnimationFrame(() => { els.teamDrawerContent.scrollTop = scrollTop; });
 });
 
 els.openSearch?.addEventListener("click", openProductSearch);

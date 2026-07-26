@@ -12,6 +12,7 @@ StrikeSignal is a CS2 match and tournament intelligence product. It combines pre
 - Complete tournament fields, official team crests, title shares, and projected opening paths
 - Player explorer with team rosters, HLTV Rating 3.0, map sample, and seven skill dimensions
 - Clickable team intelligence profiles and universal team/player/event search
+- Historical matchup explorer with lineup-era splits, recent meetings, and map-by-map comparisons
 - Official VRS table with a separate movement forecast
 
 The implemented release scope and next product bets are tracked in [`ROADMAP.md`](ROADMAP.md).
@@ -21,6 +22,8 @@ The implemented release scope and next product bets are tracked in [`ROADMAP.md`
 The frontend consumes a normalized, versioned snapshot and does not depend on any collector implementation. Stable event and match IDs, source normalization, format settings, live upserts, and build-time validation are documented in [`contracts/README.md`](contracts/README.md).
 
 The hosted collector implements `GET /api/live-snapshot`. Snapshot contract `1.1` carries event stages, schedule and result rows, series scores, map order, map results, veto text, players, and match lineups. The browser merges those updates without replacing richer tournament fields, player profiles, or format definitions.
+
+The historical explorer lazy-loads `docs/data/history.json`, a compact contract generated from the normalized warehouse with `npm run build:history`. It contains only Tier 1/2 product rows; verified completed live matches are appended during the same refresh that updates predictions, players, and event state.
 
 The portable model registry evaluates challengers on purged chronological folds. A challenger is promoted only when log loss improves without material Brier, accuracy, or calibration regression; otherwise the last verified champion remains active in both Python exports and the browser runtime.
 
