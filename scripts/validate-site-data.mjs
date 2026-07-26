@@ -49,13 +49,30 @@ for (const [teamName, asset] of Object.entries(teamAssets)) {
 }
 
 const playerIds = new Set();
+let playerTimelineCount = 0;
 for (const player of playerSnapshot.players || []) {
   invariant(player.player_id && player.nickname && player.team_name, "Every player needs a stable id, nickname, and team.");
   invariant(!playerIds.has(player.player_id), `Duplicate player id: ${player.player_id}`);
   invariant(player.rating_3_0 === null || Number(player.rating_3_0) > 0, `Invalid player rating: ${player.player_id}`);
   invariant(Number(player.signal_index) >= 0 && Number(player.signal_index) <= 100, `Invalid player signal index: ${player.player_id}`);
+  const timeline = player.form_timeline || [];
+  invariant(Array.isArray(timeline) && timeline.length <= 12, `Invalid player timeline length: ${player.player_id}`);
+  if (timeline.length) playerTimelineCount += 1;
+  const timelineIds = new Set();
+  let previousDate = "";
+  for (const row of timeline) {
+    invariant(row.match_id && row.date && row.opponent_name, `Malformed player timeline row: ${player.player_id}`);
+    invariant(!timelineIds.has(row.match_id), `Duplicate player timeline match: ${player.player_id} ${row.match_id}`);
+    invariant(!previousDate || row.date >= previousDate, `Player timeline is not chronological: ${player.player_id}`);
+    invariant(Number(row.rating) > 0 && Number(row.adr) >= 0 && Number(row.kd_ratio) >= 0, `Invalid player timeline metric: ${player.player_id}`);
+    timelineIds.add(row.match_id);
+    previousDate = row.date;
+  }
   playerIds.add(player.player_id);
 }
+invariant(String(playerSnapshot.contract_version).startsWith("1."), "Unsupported player snapshot contract.");
+invariant(playerTimelineCount >= 40, "Player timeline coverage regressed below 40 profiles.");
+invariant(playerSnapshot.history_through_date, "Player history needs a verified through-date.");
 
 invariant(String(modelRegistry.contract_version).startsWith("1."), "Unsupported model registry contract.");
 invariant(modelRegistry.champion?.version && modelRegistry.champion?.metrics, "The production model needs a version and metrics.");
@@ -80,4 +97,4 @@ for (const [teamKey, profile] of Object.entries(vetoProfiles)) {
 }
 
 invariant(productEventCount > 0, "The public Tier 1/2 circuit cannot be empty.");
-console.log(`site data ok: ${productEventCount}/${eventIds.size} public Tier 1/2 events, ${matchIds.size} current matches, ${rankingNames.size} VRS teams, ${playerIds.size} players, ${Object.keys(mapProfiles).length} map profiles, ${Object.keys(vetoProfiles).length} veto profiles`);
+console.log(`site data ok: ${productEventCount}/${eventIds.size} public Tier 1/2 events, ${matchIds.size} current matches, ${rankingNames.size} VRS teams, ${playerIds.size} players, ${playerTimelineCount} timelines, ${Object.keys(mapProfiles).length} map profiles, ${Object.keys(vetoProfiles).length} veto profiles`);

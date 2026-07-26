@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { mergePlayerTimeline, summarizePlayerTimeline } from "../docs/lib/player-history.js";
 
 const snapshotPath = process.argv[2];
 if (!snapshotPath) throw new Error("Usage: node scripts/promote-live-snapshot.mjs <snapshot.json>");
@@ -25,6 +26,8 @@ for (const incoming of live.players || []) {
     signal_index: 50,
     traits: {},
   };
+  const incomingTimeline = incoming.form_timeline || (incoming.timeline_entry ? [incoming.timeline_entry] : []);
+  const mergedTimeline = mergePlayerTimeline(existing.form_timeline, incomingTimeline);
   byId.set(playerId, {
     ...existing,
     ...incoming,
@@ -33,11 +36,15 @@ for (const incoming of live.players || []) {
     maps_3m: incoming.maps_3m ?? existing.maps_3m,
     signal_index: incoming.signal_index ?? existing.signal_index,
     traits: { ...(existing.traits || {}), ...(incoming.traits || {}) },
+    form_timeline: mergedTimeline,
+    form_summary: incoming.form_summary || (incomingTimeline.length ? summarizePlayerTimeline(mergedTimeline) : existing.form_summary),
   });
 }
 
 players.players = [...byId.values()];
 players.lineups_updated_at_utc = live.fetched_at_utc;
+const latestIncomingHistory = (live.players || []).flatMap((player) => player.form_timeline || (player.timeline_entry ? [player.timeline_entry] : [])).map((row) => row.date).filter(Boolean).sort().at(-1);
+if (live.player_history_through_date || latestIncomingHistory) players.history_through_date = live.player_history_through_date || latestIncomingHistory;
 await writeFile(playersPath, `${JSON.stringify(players, null, 2)}\n`);
 await writeFile("docs/data/players.js", `window.__STRIKESIGNAL_PLAYERS__ = ${JSON.stringify(players, null, 2)};\n`);
 

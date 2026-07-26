@@ -2434,6 +2434,36 @@ function playerTraitHtml(player) {
   }).join("");
 }
 
+function playerFormTimelineHtml(player, { compact = false } = {}) {
+  const timeline = (player?.form_timeline || []).filter((row) => Number.isFinite(Number(row.rating)));
+  if (timeline.length < 2) return `<section class="player-form-panel is-empty"><header><span>Series form</span><strong>History building</strong></header><p>Verified match-level ratings will appear as the result feed grows.</p></section>`;
+  const width = 520;
+  const height = compact ? 116 : 132;
+  const padX = 16;
+  const padY = 17;
+  const minRating = Math.max(0.45, Math.min(...timeline.map((row) => Number(row.rating))) - 0.12);
+  const maxRating = Math.min(2.6, Math.max(...timeline.map((row) => Number(row.rating))) + 0.12);
+  const range = Math.max(0.25, maxRating - minRating);
+  const points = timeline.map((row, index) => ({
+    ...row,
+    x: padX + (index / Math.max(1, timeline.length - 1)) * (width - padX * 2),
+    y: padY + ((maxRating - Number(row.rating)) / range) * (height - padY * 2),
+  }));
+  const linePath = points.map((point, index) => `${index ? "L" : "M"}${point.x.toFixed(1)},${point.y.toFixed(1)}`).join(" ");
+  const areaPath = `${linePath} L${points.at(-1).x.toFixed(1)},${height - padY} L${points[0].x.toFixed(1)},${height - padY} Z`;
+  const baselineY = Math.max(padY, Math.min(height - padY, padY + ((maxRating - 1) / range) * (height - padY * 2)));
+  const summary = player.form_summary || {};
+  const delta = Number(summary.rating_delta);
+  const trend = Number.isFinite(delta) ? (delta > 0.04 ? "Up in sample" : delta < -0.04 ? "Down in sample" : "Stable sample") : "Tracked sample";
+  const recent = [...timeline].slice(-3).reverse();
+  return `<section class="player-form-panel ${compact ? "is-compact" : ""}">
+    <header><div><span>Series form</span><strong>${escapeHtml(trend)}</strong></div><small>Through ${escapeHtml(timeline.at(-1).date)}</small></header>
+    <div class="player-form-kpis"><div><span>Tracked avg</span><strong>${Number(summary.average_rating) ? Number(summary.average_rating).toFixed(2) : "--"}</strong></div><div><span>Recent 3</span><strong>${Number(summary.recent_rating) ? Number(summary.recent_rating).toFixed(2) : "--"}</strong></div><div><span>ADR</span><strong>${Number(summary.average_adr) ? Number(summary.average_adr).toFixed(1) : "--"}</strong></div></div>
+    <div class="player-form-chart"><svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(player.nickname)} rating trend across ${timeline.length} tracked series"><path class="form-area" d="${areaPath}"></path><path class="form-line" pathLength="1" d="${linePath}"></path><line class="form-baseline" x1="${padX}" x2="${width - padX}" y1="${baselineY.toFixed(1)}" y2="${baselineY.toFixed(1)}"></line>${points.map((point) => `<circle class="${Number(point.rating) >= 1 ? "is-positive" : ""}" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="3"><title>${escapeHtml(point.date)} vs ${escapeHtml(point.opponent_name)}: ${Number(point.rating).toFixed(2)}</title></circle>`).join("")}</svg><div><span>${escapeHtml(timeline[0].date)}</span><b>1.00 baseline</b><span>${escapeHtml(timeline.at(-1).date)}</span></div></div>
+    <div class="player-recent-series">${recent.map((row) => `<article><span>${escapeHtml(row.date)} · ${escapeHtml(row.event_name)}</span><strong>vs ${escapeHtml(row.opponent_name)}</strong><b class="${Number(row.rating) >= 1 ? "is-positive" : ""}">${Number(row.rating).toFixed(2)}</b><small>${Number(row.adr).toFixed(1)} ADR · ${Number(row.kd_ratio).toFixed(2)} K/D</small></article>`).join("")}</div>
+  </section>`;
+}
+
 function playerDetailHtml(player) {
   if (!player) return `<div class="player-empty"><span>PLAYER INDEX</span><h3>Select a profile.</h3></div>`;
   const rating = Number(player.rating_3_0);
@@ -2448,6 +2478,7 @@ function playerDetailHtml(player) {
       <div><span>Signal index</span><strong>${Number(player.signal_index) || "--"}</strong></div>
       <div><span>Map sample</span><strong>${Number(player.maps_3m) || "--"}</strong></div>
     </div>
+    ${playerFormTimelineHtml(player)}
     <div class="player-traits">${playerTraitHtml(player)}</div>
     <a class="player-source" href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">Open HLTV profile</a>
   `;
@@ -2546,6 +2577,7 @@ function teamPlayerProfileHtml(teamName, player) {
       <div><span>Map sample</span><strong>${maps || "--"}</strong></div>
       <div><span>Role</span><strong class="is-role">${escapeHtml(playerRole(player))}</strong></div>
     </section>
+    ${playerFormTimelineHtml(player, { compact: true })}
     <section class="team-profile-section team-player-traits">
       <header><span>Skill fingerprint</span><strong>Current profile</strong></header>
       <div class="player-traits">${playerTraitHtml(player)}</div>
