@@ -1,18 +1,1054 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-26T21:51:17Z",
-  "through_date": "2026-06-08",
+  "generated_at_utc": "2026-07-26T22:04:39Z",
+  "through_date": "2026-07-26",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 987,
-    "maps": 2662,
-    "lineup_rows": 8590,
+    "matches": 1031,
+    "maps": 2668,
+    "lineup_rows": 8610,
     "source_match_ids": 987
   },
   "matches": [
+    {
+      "match_id": "hltv:2396014",
+      "match_date": "2026-07-26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "team1_name": "100 Thieves",
+      "team2_name": "Spirit",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "Spirit",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 4,
+          "winner_name": "100 Thieves",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 0,
+          "score2": 13,
+          "winner_name": "Spirit",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "device",
+          "rain",
+          "Gizmy",
+          "poiii",
+          "sirah"
+        ],
+        "team2": [
+          "magixx",
+          "tN1R",
+          "sh1ro",
+          "donk",
+          "zont1x"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2396008",
+      "match_date": "2026-07-26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "team1_name": "Wildcard",
+      "team2_name": "The MongolZ",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "The MongolZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 7,
+          "score2": 13,
+          "winner_name": "The MongolZ",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 9,
+          "score2": 13,
+          "winner_name": "The MongolZ",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "winner_name": "The MongolZ",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Cxzi",
+          "reck",
+          "HexT",
+          "nEMANHA",
+          "mhL"
+        ],
+        "team2": [
+          "DarkMeister",
+          "bLitz",
+          "Techno",
+          "tikuak",
+          "910"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2396009",
+      "match_date": "2026-07-26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "team1_name": "3DMAX",
+      "team2_name": "FUT",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "3DMAX",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396007",
+      "match_date": "2026-07-26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "team1_name": "Ninjas in Pyjamas",
+      "team2_name": "paiN",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "paiN",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396011",
+      "match_date": "2026-07-26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "team1_name": "FOKUS",
+      "team2_name": "MOUZ",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396010",
+      "match_date": "2026-07-26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "team1_name": "HOTU",
+      "team2_name": "Astralis",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Astralis",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396013",
+      "match_date": "2026-07-26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "team1_name": "Liquid",
+      "team2_name": "G2",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Liquid",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396012",
+      "match_date": "2026-07-26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "team1_name": "DENDELE",
+      "team2_name": "FaZe",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "FaZe",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395778",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 South America Series 4",
+      "team1_name": "Fluxo",
+      "team2_name": "Isurus",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Isurus",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395946",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "EAC",
+      "team2_name": "Atreides",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "EAC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396104",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
+      "team1_name": "Honvéd",
+      "team2_name": "Privateer",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Honvéd",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396166",
+      "match_date": "2026-07-26",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "los kogutos",
+      "team2_name": "megoshort",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "megoshort",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395945",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "INOX Division",
+      "team2_name": "G2 Ares",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "INOX Division",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395777",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 South America Series 4",
+      "team1_name": "LP",
+      "team2_name": "ODDIK",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ODDIK",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396165",
+      "match_date": "2026-07-26",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "STATE",
+      "team2_name": "Lazer Cats",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Lazer Cats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396103",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
+      "team1_name": "QUAZAR",
+      "team2_name": "NEW VISION",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NEW VISION",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395944",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "Butterfly",
+      "team2_name": "SAW Youngsters",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396164",
+      "match_date": "2026-07-26",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "NEW VISION",
+      "team2_name": "ex-MANA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-MANA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396102",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
+      "team1_name": "Misa",
+      "team2_name": "Mai Tai",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Mai Tai",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395943",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "SPARTA",
+      "team2_name": "benched gods",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396163",
+      "match_date": "2026-07-26",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "Fortress",
+      "team2_name": "Inner Circle Academy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Fortress",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396101",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
+      "team1_name": "Entropy",
+      "team2_name": "Enjoy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Enjoy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395776",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 South America Series 4",
+      "team1_name": "Isurus",
+      "team2_name": "BESTIA Academy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Isurus",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395775",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 South America Series 4",
+      "team1_name": "Fluxo",
+      "team2_name": "Keyd Stars",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Fluxo",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396100",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
+      "team1_name": "Privateer",
+      "team2_name": "ROUNDS",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Privateer",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395942",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Rune Eaters",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396162",
+      "match_date": "2026-07-26",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "ex-MANA",
+      "team2_name": "megoshort",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "megoshort",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395774",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 South America Series 4",
+      "team1_name": "LP",
+      "team2_name": "UNO MILLE",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "LP",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396098",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
+      "team1_name": "SAW Youngsters",
+      "team2_name": "Enjoy",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Enjoy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395773",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 South America Series 4",
+      "team1_name": "BORRACHEIROS",
+      "team2_name": "ODDIK",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ODDIK",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396161",
+      "match_date": "2026-07-26",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "los kogutos",
+      "team2_name": "NEW VISION",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "los kogutos",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395941",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "Black Phoenix",
+      "team2_name": "Just Players",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Just Players",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395940",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "los kogutos",
+      "team2_name": "Entropy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Entropy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396099",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
+      "team1_name": "NEW VISION",
+      "team2_name": "benched gods",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "NEW VISION",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396160",
+      "match_date": "2026-07-26",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "Lazer Cats",
+      "team2_name": "Inner Circle Academy",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "Lazer Cats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396159",
+      "match_date": "2026-07-26",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "STATE",
+      "team2_name": "Fortress",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "STATE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395939",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "CYBERSHOKE Prospects",
+      "team2_name": "Endless Journey",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "CYBERSHOKE Prospects",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395772",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 South America Series 4",
+      "team1_name": "LP",
+      "team2_name": "MAGICOS",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "LP",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396001",
+      "match_date": "2026-07-26",
+      "event_name": "BLAST Bounty 2026 Season 2",
+      "team1_name": "DENDELE",
+      "team2_name": "FURIA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "DENDELE",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395771",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 South America Series 4",
+      "team1_name": "Keyd Stars",
+      "team2_name": "ALKA",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Keyd Stars",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396097",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
+      "team1_name": "Mai Tai",
+      "team2_name": "eternal premium",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "Mai Tai",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395938",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "Butterfly",
+      "team2_name": "G2 Ares",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "G2 Ares",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396096",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
+      "team1_name": "Privateer",
+      "team2_name": "Misa",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Misa",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395770",
+      "match_date": "2026-07-26",
+      "event_name": "CCT 2026 South America Series 4",
+      "team1_name": "Bounty Hunters",
+      "team2_name": "ODDIK",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ODDIK",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
     {
       "match_id": "hltv:2394894",
       "match_date": "2026-06-08",
@@ -20507,7 +21543,7 @@
     {
       "match_id": "hltv:2389666",
       "match_date": "2026-02-08",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "FURIA",
       "team2_name": "Vitality",
       "score1": 1,
@@ -20577,7 +21613,7 @@
     {
       "match_id": "hltv:2389665",
       "match_date": "2026-02-08",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Spirit",
       "team2_name": "MOUZ",
       "score1": 2,
@@ -20633,7 +21669,7 @@
     {
       "match_id": "hltv:2389664",
       "match_date": "2026-02-07",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Vitality",
       "team2_name": "MOUZ",
       "score1": 2,
@@ -20689,7 +21725,7 @@
     {
       "match_id": "hltv:2389663",
       "match_date": "2026-02-07",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Spirit",
       "team2_name": "FURIA",
       "score1": 1,
@@ -20745,7 +21781,7 @@
     {
       "match_id": "hltv:2389662",
       "match_date": "2026-02-06",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "G2",
       "team2_name": "MOUZ",
       "score1": 0,
@@ -20801,7 +21837,7 @@
     {
       "match_id": "hltv:2389661",
       "match_date": "2026-02-06",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "FURIA",
       "team2_name": "Aurora",
       "score1": 2,
@@ -20857,7 +21893,7 @@
     {
       "match_id": "hltv:2389660",
       "match_date": "2026-02-03",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Falcons",
       "team2_name": "MOUZ",
       "score1": 0,
@@ -20913,7 +21949,7 @@
     {
       "match_id": "hltv:2389659",
       "match_date": "2026-02-03",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "G2",
       "team2_name": "Spirit",
       "score1": 1,
@@ -20969,7 +22005,7 @@
     {
       "match_id": "hltv:2389658",
       "match_date": "2026-02-03",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Vitality",
       "team2_name": "Aurora",
       "score1": 2,
@@ -21025,7 +22061,7 @@
     {
       "match_id": "hltv:2389657",
       "match_date": "2026-02-03",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Astralis",
       "team2_name": "FURIA",
       "score1": 1,
@@ -21081,7 +22117,7 @@
     {
       "match_id": "hltv:2389656",
       "match_date": "2026-02-03",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "3DMAX",
       "team2_name": "Falcons",
       "score1": 0,
@@ -21137,7 +22173,7 @@
     {
       "match_id": "hltv:2389655",
       "match_date": "2026-02-03",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "MOUZ",
       "team2_name": "FaZe",
       "score1": 2,
@@ -21193,7 +22229,7 @@
     {
       "match_id": "hltv:2389654",
       "match_date": "2026-02-02",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "FUT",
       "team2_name": "Astralis",
       "score1": 1,
@@ -21249,7 +22285,7 @@
     {
       "match_id": "hltv:2389653",
       "match_date": "2026-02-02",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "FURIA",
       "team2_name": "Natus Vincere",
       "score1": 2,
@@ -21305,7 +22341,7 @@
     {
       "match_id": "hltv:2389652",
       "match_date": "2026-02-02",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "NRG",
       "team2_name": "Falcons",
       "score1": 1,
@@ -21361,7 +22397,7 @@
     {
       "match_id": "hltv:2389651",
       "match_date": "2026-02-02",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "MOUZ",
       "team2_name": "Aurora",
       "score1": 0,
@@ -21417,7 +22453,7 @@
     {
       "match_id": "hltv:2389650",
       "match_date": "2026-02-02",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "FaZe",
       "team2_name": "BC.Game",
       "score1": 2,
@@ -21473,7 +22509,7 @@
     {
       "match_id": "hltv:2389649",
       "match_date": "2026-02-02",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "3DMAX",
       "team2_name": "Vitality",
       "score1": 0,
@@ -21529,7 +22565,7 @@
     {
       "match_id": "hltv:2389648",
       "match_date": "2026-02-01",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "PARIVISION",
       "team2_name": "Astralis",
       "score1": 1,
@@ -21585,7 +22621,7 @@
     {
       "match_id": "hltv:2389647",
       "match_date": "2026-02-01",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Natus Vincere",
       "team2_name": "Spirit",
       "score1": 0,
@@ -21641,7 +22677,7 @@
     {
       "match_id": "hltv:2389646",
       "match_date": "2026-02-01",
-      "event_name": "Intel Extreme Masters Krak\u00f3w 2026",
+      "event_name": "Intel Extreme Masters Kraków 2026",
       "team1_name": "FURIA",
       "team2_name": "The MongolZ",
       "score1": 2,
@@ -21685,7 +22721,7 @@
     {
       "match_id": "hltv:2389645",
       "match_date": "2026-02-01",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "G2",
       "team2_name": "FUT",
       "score1": 2,
@@ -21741,7 +22777,7 @@
     {
       "match_id": "hltv:2389644",
       "match_date": "2026-02-01",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Falcons",
       "team2_name": "Aurora",
       "score1": 1,
@@ -21797,7 +22833,7 @@
     {
       "match_id": "hltv:2389643",
       "match_date": "2026-02-01",
-      "event_name": "Intel Extreme Masters Krak\u00f3w 2026",
+      "event_name": "Intel Extreme Masters Kraków 2026",
       "team1_name": "MOUZ",
       "team2_name": "NRG",
       "score1": 2,
@@ -21841,7 +22877,7 @@
     {
       "match_id": "hltv:2389642",
       "match_date": "2026-01-31",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "FaZe",
       "team2_name": "3DMAX",
       "score1": 0,
@@ -21897,7 +22933,7 @@
     {
       "match_id": "hltv:2389641",
       "match_date": "2026-01-31",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Vitality",
       "team2_name": "BC.Game",
       "score1": 2,
@@ -21953,7 +22989,7 @@
     {
       "match_id": "hltv:2389640",
       "match_date": "2026-01-31",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Spirit",
       "team2_name": "Astralis",
       "score1": 2,
@@ -22009,7 +23045,7 @@
     {
       "match_id": "hltv:2389639",
       "match_date": "2026-01-31",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "Natus Vincere",
       "team2_name": "PARIVISION",
       "score1": 2,
@@ -22065,7 +23101,7 @@
     {
       "match_id": "hltv:2389638",
       "match_date": "2026-01-31",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "The MongolZ",
       "team2_name": "G2",
       "score1": 0,
@@ -22121,7 +23157,7 @@
     {
       "match_id": "hltv:2389637",
       "match_date": "2026-01-31",
-      "event_name": "IEM Krak\u00f3w 2026",
+      "event_name": "IEM Kraków 2026",
       "team1_name": "FURIA",
       "team2_name": "FUT",
       "score1": 0,
@@ -22177,7 +23213,7 @@
     {
       "match_id": "hltv:2389636",
       "match_date": "2026-01-30",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "paiN",
       "team2_name": "Aurora",
       "score1": 0,
@@ -22233,7 +23269,7 @@
     {
       "match_id": "hltv:2389635",
       "match_date": "2026-01-30",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "FUT",
       "team2_name": "Liquid",
       "score1": 2,
@@ -22289,7 +23325,7 @@
     {
       "match_id": "hltv:2389634",
       "match_date": "2026-01-30",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "BC.Game",
       "team2_name": "Ninjas in Pyjamas",
       "score1": 2,
@@ -22345,7 +23381,7 @@
     {
       "match_id": "hltv:2389633",
       "match_date": "2026-01-30",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "GamerLegion",
       "team2_name": "Astralis",
       "score1": 0,
@@ -22401,7 +23437,7 @@
     {
       "match_id": "hltv:2389629",
       "match_date": "2026-01-30",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "GamerLegion",
       "team2_name": "HEROIC",
       "score1": 2,
@@ -22457,7 +23493,7 @@
     {
       "match_id": "hltv:2389628",
       "match_date": "2026-01-30",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "Astralis",
       "team2_name": "NRG",
       "score1": 1,
@@ -22513,7 +23549,7 @@
     {
       "match_id": "hltv:2389632",
       "match_date": "2026-01-29",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "paiN",
       "team2_name": "B8",
       "score1": 2,
@@ -22569,7 +23605,7 @@
     {
       "match_id": "hltv:2389631",
       "match_date": "2026-01-29",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "Legacy",
       "team2_name": "FUT",
       "score1": 0,
@@ -22625,7 +23661,7 @@
     {
       "match_id": "hltv:2389630",
       "match_date": "2026-01-29",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "Ninjas in Pyjamas",
       "team2_name": "Passion UA",
       "score1": 2,
@@ -22681,7 +23717,7 @@
     {
       "match_id": "hltv:2389627",
       "match_date": "2026-01-29",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "BC.Game",
       "team2_name": "3DMAX",
       "score1": 0,
@@ -22737,7 +23773,7 @@
     {
       "match_id": "hltv:2389626",
       "match_date": "2026-01-29",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "Liquid",
       "team2_name": "G2",
       "score1": 1,
@@ -22793,7 +23829,7 @@
     {
       "match_id": "hltv:2389625",
       "match_date": "2026-01-29",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "Aurora",
       "team2_name": "PARIVISION",
       "score1": 1,
@@ -22849,7 +23885,7 @@
     {
       "match_id": "hltv:2389476",
       "match_date": "2026-01-28",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "NRG",
       "team2_name": "B8",
       "score1": 2,
@@ -22905,7 +23941,7 @@
     {
       "match_id": "hltv:2389475",
       "match_date": "2026-01-28",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "Astralis",
       "team2_name": "paiN",
       "score1": 2,
@@ -22961,7 +23997,7 @@
     {
       "match_id": "hltv:2389474",
       "match_date": "2026-01-28",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "FUT",
       "team2_name": "3DMAX",
       "score1": 1,
@@ -23017,7 +24053,7 @@
     {
       "match_id": "hltv:2389473",
       "match_date": "2026-01-28",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "Legacy",
       "team2_name": "BC.Game",
       "score1": 0,
@@ -23073,7 +24109,7 @@
     {
       "match_id": "hltv:2389472",
       "match_date": "2026-01-28",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "Passion UA",
       "team2_name": "G2",
       "score1": 1,
@@ -23129,7 +24165,7 @@
     {
       "match_id": "hltv:2389471",
       "match_date": "2026-01-28",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "Liquid",
       "team2_name": "Ninjas in Pyjamas",
       "score1": 2,
@@ -23185,7 +24221,7 @@
     {
       "match_id": "hltv:2389470",
       "match_date": "2026-01-28",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "HEROIC",
       "team2_name": "PARIVISION",
       "score1": 1,
@@ -23241,7 +24277,7 @@
     {
       "match_id": "hltv:2389469",
       "match_date": "2026-01-28",
-      "event_name": "IEM Krak\u00f3w 2026 Stage 1",
+      "event_name": "IEM Kraków 2026 Stage 1",
       "team1_name": "Aurora",
       "team2_name": "GamerLegion",
       "score1": 2,

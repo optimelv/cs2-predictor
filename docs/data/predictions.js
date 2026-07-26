@@ -3712,7 +3712,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-07-26T21:43:24Z",
+    "last_verified_utc": "2026-07-26T22:04:39Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -4150,7 +4150,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-07-26T21:43:43Z",
+  "generated_at_utc": "2026-07-26T22:04:58Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -5563,7 +5563,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-07-26T21:43:43Z",
+    "generated_at_utc": "2026-07-26T22:04:58Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
