@@ -57,7 +57,7 @@ for (const player of playerSnapshot.players || []) {
   invariant(player.rating_3_0 === null || Number(player.rating_3_0) > 0, `Invalid player rating: ${player.player_id}`);
   invariant(Number(player.signal_index) >= 0 && Number(player.signal_index) <= 100, `Invalid player signal index: ${player.player_id}`);
   const timeline = player.form_timeline || [];
-  invariant(Array.isArray(timeline) && timeline.length <= 12, `Invalid player timeline length: ${player.player_id}`);
+  invariant(Array.isArray(timeline) && timeline.length <= 18, `Invalid player timeline length: ${player.player_id}`);
   if (timeline.length) playerTimelineCount += 1;
   const timelineIds = new Set();
   let previousDate = "";
@@ -69,11 +69,23 @@ for (const player of playerSnapshot.players || []) {
     timelineIds.add(row.match_id);
     previousDate = row.date;
   }
+  const mapProfile = player.map_profile || [];
+  invariant(Array.isArray(mapProfile) && mapProfile.length <= 9, `Invalid player map profile: ${player.player_id}`);
+  const mapNames = new Set();
+  for (const row of mapProfile) {
+    invariant(row.map_name && !mapNames.has(row.map_name), `Duplicate player map row: ${player.player_id} ${row.map_name}`);
+    invariant(Number(row.maps) > 0 && Number(row.wins) >= 0 && Number(row.losses) >= 0, `Invalid player map sample: ${player.player_id} ${row.map_name}`);
+    invariant((row.average_rating === null || Number(row.average_rating) > 0) && (row.average_adr === null || Number(row.average_adr) >= 0) && Number(row.kd_ratio) >= 0, `Invalid player map metric: ${player.player_id} ${row.map_name}`);
+    mapNames.add(row.map_name);
+  }
+  invariant(Array.isArray(player.roster_eras || []), `Invalid roster eras: ${player.player_id}`);
   playerIds.add(player.player_id);
 }
 invariant(String(playerSnapshot.contract_version).startsWith("1."), "Unsupported player snapshot contract.");
 invariant(playerTimelineCount >= 40, "Player timeline coverage regressed below 40 profiles.");
 invariant(playerSnapshot.history_through_date, "Player history needs a verified through-date.");
+invariant(Number(playerSnapshot.map_profile_count) >= 40, "Player map coverage regressed below 40 profiles.");
+invariant(playerSnapshot.map_history_through_date, "Player map history needs a verified through-date.");
 
 invariant(String(historySnapshot.contract_version).startsWith("1."), "Unsupported history snapshot contract.");
 invariant((historySnapshot.matches || []).length >= 900, "Tier 1/2 history coverage regressed below 900 matches.");

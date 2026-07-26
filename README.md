@@ -25,6 +25,8 @@ The hosted collector implements `GET /api/live-snapshot`. Snapshot contract `1.1
 
 The historical explorer lazy-loads `docs/data/history.json`, a compact contract generated from the normalized warehouse with `npm run build:history`. It contains only Tier 1/2 product rows; verified completed live matches are appended during the same refresh that updates predictions, players, and event state. The same contract powers searchable event archives, historical result ledgers, participant records, and reconstructed playoff brackets.
 
+Player contract `1.3` adds verified Tier 1/2 series timelines, map-by-map rating/ADR/K-D splits, event form, and roster-era summaries. The browser exposes these as Overview, Maps, and Career views while the live promotion path preserves and incrementally extends the same history.
+
 The portable model registry evaluates challengers on purged chronological folds. A challenger is promoted only when log loss improves without material Brier, accuracy, or calibration regression; otherwise the last verified champion remains active in both Python exports and the browser runtime.
 
 The refresh pipeline runs every three hours. It prefers the persistent Oracle Always Free worker, but automatically starts a pinned, short-lived FlareSolverr `v3.5.0` service inside the GitHub Actions runner when Oracle is unavailable. Both paths produce the same provider-neutral snapshot, enforce the Tier 1/2 boundary before training, and preserve the last verified release whenever acquisition, freshness, model, or validation gates fail. The optional Oracle deployment under `infra/oracle/` is still constrained to the Frankfurt Always Free A1 shape with 1 OCPU, 6 GB memory, and a 50 GB boot volume.

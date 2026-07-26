@@ -1,6 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { mergeHistoryMatches } from "../docs/lib/history.js";
-import { mergePlayerTimeline, summarizePlayerTimeline } from "../docs/lib/player-history.js";
+import { mergePlayerTimeline, summarizePlayerRosterEras, summarizePlayerTimeline } from "../docs/lib/player-history.js";
 
 const snapshotPath = process.argv[2];
 if (!snapshotPath) throw new Error("Usage: node scripts/promote-live-snapshot.mjs <snapshot.json>");
@@ -77,6 +77,8 @@ for (const incoming of live.players || []) {
     traits: { ...(existing.traits || {}), ...(incoming.traits || {}) },
     form_timeline: mergedTimeline,
     form_summary: incoming.form_summary || (incomingTimeline.length ? summarizePlayerTimeline(mergedTimeline) : existing.form_summary),
+    map_profile: incoming.map_profile || existing.map_profile || [],
+    roster_eras: incoming.roster_eras || (incomingTimeline.length ? summarizePlayerRosterEras(mergedTimeline) : existing.roster_eras || []),
   });
 }
 

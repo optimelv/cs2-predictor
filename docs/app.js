@@ -3,6 +3,7 @@ import { buildDoubleEliminationTree } from "./lib/brackets.js?v=20260726.1";
 import { tournamentBlueprint, tournamentPlayoffField, tournamentStageLabels } from "./lib/tournaments.js?v=20260726.1";
 import { explainMatch } from "./lib/explanations.js?v=20260726.1";
 import { historyEvents, historyOpponents, summarizeHeadToHead } from "./lib/history.js?v=20260727.2";
+import { summarizePlayerEvents, summarizePlayerMaps, summarizePlayerRosterEras } from "./lib/player-history.js?v=20260727.1";
 import { normalizeWatchlist, toggleWatchlist, watchlistCount, watchlistHas } from "./lib/watchlist.js?v=20260726.1";
 import {
   applyVetoMap,
@@ -112,6 +113,7 @@ let playerSnapshot = STATIC_PLAYER_SNAPSHOT;
 let playerSearchTerm = "";
 let playerTeamFilter = "all";
 let selectedPlayerId = null;
+let playerDetailView = "overview";
 let selectedTeamName = null;
 const selectedHistoryOpponents = new Map();
 let activeVetoMatch = null;
@@ -2618,6 +2620,46 @@ function playerFormTimelineHtml(player, { compact = false } = {}) {
   </section>`;
 }
 
+function playerMapProfileHtml(player) {
+  const rows = (player.map_profile || []).filter((row) => row?.map_name && Number(row.maps) > 0);
+  if (!rows.length) return `<section class="player-intel-empty"><span>MAP INTELLIGENCE</span><h4>Map sample building.</h4><p>This view unlocks after verified Tier 1/2 map statistics reach the player profile.</p></section>`;
+  const summary = summarizePlayerMaps(rows);
+  const topRating = Math.max(1, ...rows.map((row) => Number(row.average_rating) || 0));
+  return `<section class="player-map-intel">
+    <header><div><span>Map identity</span><h4>${escapeHtml(summary.best_map || "Tracked pool")}</h4></div><strong>${summary.best_rating ? `${summary.best_rating.toFixed(2)} best rating` : `${summary.maps} maps`}</strong></header>
+    <div class="player-map-kpis"><div><span>Tracked maps</span><strong>${summary.maps}</strong></div><div><span>Active pool</span><strong>${summary.map_count}</strong></div><div><span>Through</span><strong>${escapeHtml(rows.map((row) => row.last_date || "").sort().at(-1) || "--")}</strong></div></div>
+    <div class="player-map-table">
+      <header><span>Map</span><span>Rating</span><span>ADR</span><span>K/D</span><span>Record</span></header>
+      ${rows.map((row) => `<article style="--map-form:${Math.max(8, Math.round((Number(row.average_rating) || 0) / topRating * 100))}%">
+        <div><strong>${escapeHtml(row.map_name)}</strong><small>${row.maps} maps</small></div>
+        <b class="${Number(row.average_rating) >= 1 ? "is-positive" : ""}">${Number.isFinite(Number(row.average_rating)) ? Number(row.average_rating).toFixed(2) : "--"}</b>
+        <span>${Number.isFinite(Number(row.average_adr)) ? Number(row.average_adr).toFixed(1) : "--"}</span>
+        <span>${Number.isFinite(Number(row.kd_ratio)) ? Number(row.kd_ratio).toFixed(2) : "--"}</span>
+        <div class="player-map-record"><strong>${row.wins}-${row.losses}</strong><small>${formatPercent(row.win_rate)}</small></div>
+        <i><b></b></i>
+      </article>`).join("")}
+    </div>
+  </section>`;
+}
+
+function playerCareerHtml(player) {
+  const timeline = player.form_timeline || [];
+  const events = summarizePlayerEvents(timeline);
+  const eras = player.roster_eras?.length ? player.roster_eras : summarizePlayerRosterEras(timeline);
+  if (!timeline.length) return `<section class="player-intel-empty"><span>CAREER INTELLIGENCE</span><h4>History building.</h4><p>Verified Tier 1/2 series will appear here as the result feed grows.</p></section>`;
+  return `<section class="player-career-intel">
+    <div class="player-era-list"><header><span>Roster eras</span><strong>${eras.length}</strong></header>${eras.map((era) => `<article>${teamLogoHtml(era.team_name)}<div><strong>${escapeHtml(era.team_name)}</strong><small>${escapeHtml(era.from_date)} → ${escapeHtml(era.through_date)}</small></div><b>${Number.isFinite(Number(era.average_rating)) ? Number(era.average_rating).toFixed(2) : "--"}</b><span>${era.wins}-${era.losses}</span></article>`).join("")}</div>
+    <div class="player-event-form"><header><span>Event form</span><strong>${events.length} tracked</strong></header>${events.slice(0, 7).map((event) => `<article><div><strong>${escapeHtml(event.event_name)}</strong><small>Through ${escapeHtml(event.through_date)}</small></div><b class="${Number(event.average_rating) >= 1 ? "is-positive" : ""}">${Number.isFinite(Number(event.average_rating)) ? Number(event.average_rating).toFixed(2) : "--"}</b><span>${event.wins}-${event.losses}</span><small>${event.series} series</small></article>`).join("")}</div>
+    <div class="player-series-ledger"><header><span>Series ledger</span><strong>${timeline.length} most recent</strong></header>${[...timeline].reverse().map((row) => `<article><span>${escapeHtml(row.date)}</span><div><strong>vs ${escapeHtml(row.opponent_name)}</strong><small>${escapeHtml(row.event_name)}</small></div><b class="${Number(row.rating) >= 1 ? "is-positive" : ""}">${Number.isFinite(Number(row.rating)) ? Number(row.rating).toFixed(2) : "--"}</b><small>${Number.isFinite(Number(row.adr)) ? `${Number(row.adr).toFixed(1)} ADR` : "ADR pending"}</small></article>`).join("")}</div>
+  </section>`;
+}
+
+function playerDetailViewHtml(player) {
+  if (playerDetailView === "maps") return playerMapProfileHtml(player);
+  if (playerDetailView === "career") return playerCareerHtml(player);
+  return `${playerFormTimelineHtml(player)}<div class="player-traits">${playerTraitHtml(player)}</div>`;
+}
+
 function playerDetailHtml(player) {
   if (!player) return `<div class="player-empty"><span>PLAYER INDEX</span><h3>Select a profile.</h3></div>`;
   const rating = Number(player.rating_3_0);
@@ -2633,8 +2675,8 @@ function playerDetailHtml(player) {
       <div><span>Map sample</span><strong>${Number(player.maps_3m) || "--"}</strong></div>
     </div>
     <div class="player-follow-row">${watchButtonHtml("players", player.player_id, player.nickname)}<span>Keep this profile in My Desk</span></div>
-    ${playerFormTimelineHtml(player)}
-    <div class="player-traits">${playerTraitHtml(player)}</div>
+    <nav class="player-detail-tabs" aria-label="Player intelligence views">${[["overview", "Overview"], ["maps", "Maps"], ["career", "Career"]].map(([view, label]) => `<button type="button" class="${playerDetailView === view ? "is-active" : ""}" data-player-detail-view="${view}">${label}</button>`).join("")}</nav>
+    <div class="player-detail-view" data-player-view="${escapeHtml(playerDetailView)}">${playerDetailViewHtml(player)}</div>
     <a class="player-source" href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">Open HLTV profile</a>
   `;
 }
@@ -2654,7 +2696,10 @@ function renderPlayers() {
     const haystack = normalizeName(`${player.nickname} ${player.real_name} ${player.team_name}`);
     return matchesTeam && (!query || haystack.includes(query));
   });
-  if (!selectedPlayerId || !visible.some((player) => player.player_id === selectedPlayerId)) selectedPlayerId = visible[0]?.player_id || null;
+  if (!selectedPlayerId || !visible.some((player) => player.player_id === selectedPlayerId)) {
+    selectedPlayerId = visible[0]?.player_id || null;
+    playerDetailView = "overview";
+  }
   const selected = visible.find((player) => player.player_id === selectedPlayerId) || null;
   els.playerGrid.innerHTML = visible.length ? visible.map((player, index) => `
     <button class="player-row ${player.player_id === selectedPlayerId ? "is-selected" : ""}" type="button" role="listitem" data-player-id="${escapeHtml(player.player_id)}" style="--player-index:${index}">
@@ -2666,12 +2711,17 @@ function renderPlayers() {
     </button>
   `).join("") : `<div class="player-empty"><span>NO MATCH</span><h3>No player matches this filter.</h3></div>`;
   els.playerDetail.innerHTML = playerDetailHtml(selected);
+  els.playerDetail.querySelectorAll("[data-player-detail-view]").forEach((button) => button.addEventListener("click", () => {
+    playerDetailView = button.dataset.playerDetailView || "overview";
+    renderPlayers();
+  }));
   els.playerGrid.querySelectorAll("[data-player-id]").forEach((button) => button.addEventListener("click", () => {
+    if (selectedPlayerId !== button.dataset.playerId) playerDetailView = "overview";
     selectedPlayerId = button.dataset.playerId;
     updateProductUrl({ playerId: selectedPlayerId, eventId: "", view: "", teamName: "", hash: "players" });
     renderPlayers();
   }));
-  setText(els.playerSnapshotMeta, `${(playerSnapshot?.players || []).length} profiles · ${formatDate(playerSnapshot?.generated_at_utc)}`);
+  setText(els.playerSnapshotMeta, `${(playerSnapshot?.players || []).length} profiles · stats through ${formatDate(playerSnapshot?.history_through_date || playerSnapshot?.generated_at_utc)}`);
 }
 
 function allKnownMatches() {
@@ -2796,6 +2846,10 @@ function teamPlayerProfileHtml(teamName, player) {
   const maps = Number(player.maps_3m) || 0;
   const lineup = teamLineupRead(teamName);
   const teammates = lineup.roster.filter((row) => row.player_id && row.player_id !== player.player_id);
+  const playerMaps = [...(player.map_profile || [])]
+    .filter((row) => Number(row.maps) > 0)
+    .sort((left, right) => Number(right.maps) - Number(left.maps) || Number(right.average_rating || 0) - Number(left.average_rating || 0))
+    .slice(0, 4);
   return `
     <section class="team-player-nav"><button type="button" data-back-team><i aria-hidden="true">←</i><span>Back to ${escapeHtml(teamName)}</span></button><strong>Player intelligence</strong></section>
     <section class="team-player-hero">
@@ -2810,6 +2864,10 @@ function teamPlayerProfileHtml(teamName, player) {
       <div><span>Role</span><strong class="is-role">${escapeHtml(playerRole(player))}</strong></div>
     </section>
     ${playerFormTimelineHtml(player, { compact: true })}
+    <section class="team-profile-section team-player-map-snapshot">
+      <header><span>Server identity</span><strong>${playerMaps.length ? `${playerMaps.reduce((sum, row) => sum + Number(row.maps), 0)} tracked maps` : "Sample building"}</strong></header>
+      <div>${playerMaps.map((row) => `<article><span><strong>${escapeHtml(row.map_name)}</strong><small>${row.maps} maps · ${row.wins}-${row.losses}</small></span><b class="${Number(row.average_rating) >= 1 ? "is-positive" : ""}">${Number.isFinite(Number(row.average_rating)) ? Number(row.average_rating).toFixed(2) : "--"}</b><i><b style="width:${Math.max(8, Math.min(100, Math.round((Number(row.average_rating) || 0) / 1.6 * 100)))}%"></b></i></article>`).join("") || `<p>Verified map statistics are not available for this player yet.</p>`}</div>
+    </section>
     <section class="team-profile-section team-player-traits">
       <header><span>Skill fingerprint</span><strong>Current profile</strong></header>
       <div class="player-traits">${playerTraitHtml(player)}</div>
