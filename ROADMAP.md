@@ -82,7 +82,7 @@ Priority: after the consumer desk proves repeat use.
 
 1. Player timelines: initial series-rating, ADR, K/D, opponent, and event history is implemented; role, roster, and map-performance movement remain next.
 2. Accounts and alerts: synced picks, watchlists, veto notifications, and closing probability history.
-3. Match explanation engine: strongest positive, negative, and uncertainty signals for every call.
+3. Match explanation engine: implemented with ranked positive signals, the strongest counter-signal, and one prioritized uncertainty flag for every call.
 4. Historical explorer: head-to-head, lineup-era splits, map matchup matrices, and event archive.
 5. Public API and embeds after data freshness and repeat usage are proven.
 

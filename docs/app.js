@@ -1,6 +1,7 @@
 import { eventIsProductEligible, normalizeEvent, normalizeMatch, normalizePlatformSnapshot, productTierForEvent } from "./lib/snapshot.js?v=20260726.1";
 import { buildDoubleEliminationTree } from "./lib/brackets.js?v=20260726.1";
 import { tournamentBlueprint, tournamentPlayoffField, tournamentStageLabels } from "./lib/tournaments.js?v=20260726.1";
+import { explainMatch } from "./lib/explanations.js?v=20260726.1";
 import {
   applyVetoMap,
   buildRecommendedVeto,
@@ -374,15 +375,14 @@ function projectedMapRead(match) {
   };
 }
 
-function signalRow(label, team1Name, team2Name, team1Value, team2Value, formatValue) {
-  const total = Math.max(0.0001, team1Value + team2Value);
-  const share = Math.max(8, Math.min(92, (team1Value / total) * 100));
-  return `
-    <div class="series-signal">
-      <div><span>${escapeHtml(team1Name)} ${escapeHtml(formatValue(team1Value))}</span><b>${escapeHtml(label)}</b><span>${escapeHtml(formatValue(team2Value))} ${escapeHtml(team2Name)}</span></div>
-      <i><span style="width:${share}%"></span></i>
-    </div>
-  `;
+function matchExplanationHtml(read) {
+  const driverHtml = (row, kind) => `<article class="is-${kind}" style="--driver-strength:${Math.max(12, Math.round(Math.abs(row.directional_score) * 100))}%"><span>${kind === "support" ? "Supports" : "Pushes back"}</span><strong>${escapeHtml(row.label)}</strong><small>${escapeHtml(row.detail)}</small><i><b></b></i></article>`;
+  const supportRows = read.supports.slice(0, 2);
+  return `<section class="match-explanation">
+    <header><div><span>Model read</span><strong>Why ${escapeHtml(read.favorite)}</strong></div><b>${read.signal_count} active signals</b></header>
+    <div class="match-driver-grid">${supportRows.map((row) => driverHtml(row, "support")).join("")}${read.counter ? driverHtml(read.counter, "counter") : `<article class="is-neutral"><span>Counter-signal</span><strong>None material</strong><small>Primary indicators point the same way</small></article>`}</div>
+    <aside class="match-risk is-${escapeHtml(read.risk.severity)}"><span>Watch</span><strong>${escapeHtml(read.risk.label)}</strong><small>${escapeHtml(read.risk.detail)}</small></aside>
+  </section>`;
 }
 
 function matchInsightHtml(match) {
@@ -401,6 +401,28 @@ function matchInsightHtml(match) {
   const depth2 = mapDepth(call.team2_name, pool);
   const lineup1 = call.lineups?.team1?.length ? call.lineups.team1 : playersForTeam(call.team1_name);
   const lineup2 = call.lineups?.team2?.length ? call.lineups.team2 : playersForTeam(call.team2_name);
+  const veto1 = teamVetoRead(call.team1_name);
+  const veto2 = teamVetoRead(call.team2_name);
+  const explanation = explainMatch({
+    team1_name: call.team1_name,
+    team2_name: call.team2_name,
+    prob_team1: probability,
+    rating1: rankScore1,
+    rating2: rankScore2,
+    form1,
+    form2,
+    map_depth1: depth1,
+    map_depth2: depth2,
+    vrs_rank1: team1.vrs_rank,
+    vrs_rank2: team2.vrs_rank,
+    lineup1_count: lineup1.length,
+    lineup2_count: lineup2.length,
+    veto1_sample: veto1.sample_matches,
+    veto2_sample: veto2.sample_matches,
+    map_adjusted_prob_team1: mapRead?.map_adjusted_prob_team1,
+    veto_known: mapRead?.status === "known_veto",
+    map_evidence: (mapRead?.maps || []).reduce((sum, row) => sum + (Number(row.evidence_maps) || 0), 0),
+  });
   const savedPick = savedPickFor(call);
   const savedState = savedPickState(call);
   const lineupHtml = (players, teamName) => `<div><span>${escapeHtml(teamName)}</span><section>${players.slice(0, 5).map((player) => {
@@ -430,11 +452,7 @@ function matchInsightHtml(match) {
       </section>
       ${savedPick ? `<small>${savedState === "won" ? "Correct call" : savedState === "lost" ? "Missed call" : `Saved ${formatDate(savedPick.saved_at)}`}</small>` : `<small>Stored on this device and scored when the result arrives.</small>`}
     </div>
-    <div class="series-signals">
-      ${signalRow("Rating", call.team1_name, call.team2_name, rankScore1, rankScore2, (value) => Math.round(value).toString())}
-      ${signalRow("Form", call.team1_name, call.team2_name, form1, form2, (value) => `${Math.round(value * 100)}%`)}
-      ${signalRow("Map depth", call.team1_name, call.team2_name, depth1, depth2, (value) => `${Math.round(value * 100)}%`)}
-    </div>
+    ${matchExplanationHtml(explanation)}
     <div class="veto-console">
       <div class="veto-console-head"><span>Veto desk</span><strong>${mapRead ? (mapRead.status === "known_veto" ? "Maps locked" : "Projected") : "Build the map path"}</strong></div>
       ${mapRead ? `
