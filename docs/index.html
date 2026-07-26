@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css?v=20260726.4">
+    <link rel="stylesheet" href="./styles.css?v=20260726.5">
   </head>
   <body>
     <a class="skip-link" href="#dashboard">Skip to predictions</a>
@@ -205,24 +205,25 @@
       <section id="model" class="section-shell model-shell" aria-labelledby="model-title">
         <div class="section-heading">
           <div>
-            <span class="section-index">Model modes</span>
-            <h2 id="model-title">One series, two moments.</h2>
+            <span class="section-index">Model form</span>
+            <h2 id="model-title">Every call keeps a score.</h2>
           </div>
         </div>
         <div class="model-evidence">
           <article class="model-mode">
-            <span>Before veto</span><strong id="modelPre">--</strong>
-            <h3>Who is stronger today?</h3>
-            <p>Team strength, player level, form, opponent quality, and series format.</p>
+            <span>Pre-veto accuracy</span><strong id="modelPre">--</strong>
+            <h3>The opening number</h3>
+            <p>Built before the first ban from team strength, lineups, form, opponents, and series length.</p>
           </article>
           <article class="model-mode is-map-aware">
-            <span>After veto</span><strong id="modelPost">--</strong>
-            <h3>Who is stronger on these maps?</h3>
-            <p>Official picks, bans, permabans, map order, and map-specific form.</p>
+            <span>Post-veto accuracy</span><strong id="modelPost">--</strong>
+            <h3>The sharper read</h3>
+            <p>Repriced from official picks, bans, map order, and each lineup's map history.</p>
           </article>
-          <aside class="model-note">
-            <span>Uncertainty</span>
-            <p>Thin data and roster changes pull the number back toward 50%.</p>
+          <aside class="model-scorecard">
+            <div><span>Calibration gap</span><strong id="modelCalibration">--</strong><small>Lower is better</small></div>
+            <div><span>Holdout series</span><strong id="modelSample">--</strong><small>Chronological test</small></div>
+            <footer><i></i><span id="modelVersion">Production model</span></footer>
           </aside>
         </div>
       </section>
@@ -260,14 +261,25 @@
       </section>
     </div>
 
+    <div id="vetoLabLayer" class="veto-lab-layer" hidden>
+      <button id="vetoLabBackdrop" class="veto-lab-backdrop" type="button" aria-label="Close Veto Lab"></button>
+      <section class="veto-lab" role="dialog" aria-modal="true" aria-labelledby="vetoLabTitle">
+        <header class="veto-lab-bar">
+          <div><span>StrikeSignal</span><strong>Veto Lab</strong></div>
+          <button id="vetoLabClose" type="button" aria-label="Close Veto Lab"><i></i></button>
+        </header>
+        <div id="vetoLabContent" class="veto-lab-content"></div>
+      </section>
+    </div>
+
     <template id="emptyTemplate">
       <div class="empty-state"><h3>No new call yet.</h3><p>The latest complete slate stays on screen.</p></div>
     </template>
 
-    <script src="./data/predictions.js?v=20260726.1"></script>
+    <script src="./data/predictions.js?v=20260726.2"></script>
     <script src="./data/coverage.js?v=20260726.1"></script>
     <script src="./data/team-assets.js?v=20260725.1"></script>
     <script src="./data/players.js?v=20260726.1"></script>
-    <script src="./app.js?v=20260726.4" type="module"></script>
+    <script src="./app.js?v=20260726.5" type="module"></script>
   </body>
 </html>

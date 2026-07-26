@@ -655,6 +655,91 @@ def team_map_profile(connection: sqlite3.Connection, team_name: str) -> dict[str
     }
 
 
+def map_profiles_snapshot(connection: sqlite3.Connection, minimum_total_maps: int = 12) -> dict[str, dict[str, dict[str, Any]]]:
+    rows = connection.execute(
+        """
+        SELECT team_name, map_name, matches, wins, win_rate, avg_round_diff,
+               SUM(matches) OVER (PARTITION BY team_key) AS total_maps
+        FROM team_map_win_rates
+        WHERE source='hltv'
+          AND opponent_filter='all'
+          AND as_of_date=(SELECT MAX(as_of_date) FROM team_map_win_rates WHERE source='hltv')
+        ORDER BY team_name, map_name
+        """
+    ).fetchall()
+    profiles: dict[str, dict[str, dict[str, Any]]] = {}
+    for row in rows:
+        if (safe_int(row["total_maps"], 0) or 0) < minimum_total_maps:
+            continue
+        team_key = normalize_team_name(str(row["team_name"]))
+        profiles.setdefault(team_key, {})[str(row["map_name"])] = {
+            "matches": safe_int(row["matches"], 0) or 0,
+            "wins": safe_int(row["wins"], 0) or 0,
+            "win_rate": safe_float(row["win_rate"], 0.5),
+            "avg_round_diff": safe_float(row["avg_round_diff"], 0.0),
+        }
+    return profiles
+
+
+def veto_profiles_snapshot(connection: sqlite3.Connection, map_pool: list[str], minimum_matches: int = 5) -> dict[str, dict[str, Any]]:
+    pool = {str(map_name) for map_name in map_pool}
+    rows = connection.execute(
+        """
+        SELECT v.match_id, v.team_name, v.map_name, LOWER(REPLACE(v.action, ' ', '_')) AS action,
+               m.match_date
+        FROM hltv_match_vetoes v
+        LEFT JOIN hltv_result_matches m ON m.match_id=v.match_id
+        WHERE v.team_name IS NOT NULL
+          AND v.map_name IS NOT NULL
+          AND COALESCE(m.match_date, '9999-12-31') >= '2025-01-01'
+        ORDER BY m.match_date, v.match_id, v.veto_index
+        """
+    ).fetchall()
+    profiles: dict[str, dict[str, Any]] = {}
+    match_ids: dict[str, set[str]] = {}
+    for row in rows:
+        map_name = str(row["map_name"])
+        if map_name not in pool:
+            continue
+        team_name = str(row["team_name"])
+        team_key = normalize_team_name(team_name)
+        profile = profiles.setdefault(team_key, {
+            "team_name": team_name,
+            "sample_matches": 0,
+            "sample_start_date": None,
+            "sample_end_date": None,
+            "maps": {},
+        })
+        match_ids.setdefault(team_key, set()).add(str(row["match_id"]))
+        match_date = str(row["match_date"] or "")
+        if match_date:
+            profile["sample_start_date"] = min(profile["sample_start_date"] or match_date, match_date)
+            profile["sample_end_date"] = max(profile["sample_end_date"] or match_date, match_date)
+        action = str(row["action"] or "")
+        bucket = "bans" if action == "removed" else "picks" if action == "picked" else "deciders" if action in {"leftover", "left_over"} else None
+        if not bucket:
+            continue
+        map_row = profile["maps"].setdefault(map_name, {"bans": 0, "picks": 0, "deciders": 0})
+        map_row[bucket] += 1
+
+    output: dict[str, dict[str, Any]] = {}
+    for team_key, profile in profiles.items():
+        profile["sample_matches"] = len(match_ids.get(team_key, set()))
+        if profile["sample_matches"] < minimum_matches:
+            continue
+        total_bans = sum(row["bans"] for row in profile["maps"].values())
+        total_picks = sum(row["picks"] for row in profile["maps"].values())
+        for row in profile["maps"].values():
+            row["ban_share"] = round(row["bans"] / total_bans, 4) if total_bans else 0.0
+            row["pick_share"] = round(row["picks"] / total_picks, 4) if total_picks else 0.0
+        ranked_bans = sorted(profile["maps"].items(), key=lambda item: (-item[1]["ban_share"], -item[1]["bans"], item[0]))
+        ranked_picks = sorted(profile["maps"].items(), key=lambda item: (-item[1]["pick_share"], -item[1]["picks"], item[0]))
+        profile["perma_ban"] = ranked_bans[0][0] if ranked_bans and ranked_bans[0][1]["bans"] >= 5 and ranked_bans[0][1]["ban_share"] >= 0.3 else None
+        profile["first_pick"] = ranked_picks[0][0] if ranked_picks and ranked_picks[0][1]["picks"] >= 3 else None
+        output[team_key] = profile
+    return output
+
+
 def rate_with_prior(profile: dict[str, Any], prior: float = 4.0) -> float:
     matches = safe_float(profile.get("matches"), 0.0)
     wins = safe_float(profile.get("wins"), 0.0)
@@ -1674,10 +1759,8 @@ def build_payload(db_path: Path, apify_feed_path: Path | None = None) -> dict[st
 
     model_state = model_state_snapshot(connection)
     model_state["map_pool"] = active_map_pool(connection)
-    model_state["map_profiles"] = {
-        normalize_team_name(team_name): team_map_profile(connection, team_name)
-        for _, team_name in COLOGNE_STAGE3_SEEDS
-    }
+    model_state["map_profiles"] = map_profiles_snapshot(connection)
+    model_state["veto_profiles"] = veto_profiles_snapshot(connection, model_state["map_pool"])
     major_projection = simulate_stage3_swiss(model_state, connection)
     current_board, current_upcoming = current_stage3_snapshot(connection, model_state)
     major_projection["current_stage_board"] = current_board

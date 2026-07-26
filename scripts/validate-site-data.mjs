@@ -70,5 +70,14 @@ if (modelRegistry.champion.kind === "portable_gbdt_blend") {
 }
 invariant(base.model_registry?.champion?.version === modelRegistry.champion.version, "Published predictions do not embed the production champion.");
 
+const mapProfiles = base.model_state?.map_profiles || {};
+const vetoProfiles = base.model_state?.veto_profiles || {};
+invariant(Object.keys(mapProfiles).length >= 40, "Map strategy coverage regressed below 40 teams.");
+invariant(Object.keys(vetoProfiles).length >= 40, "Veto strategy coverage regressed below 40 teams.");
+for (const [teamKey, profile] of Object.entries(vetoProfiles)) {
+  invariant(Number(profile.sample_matches) >= 5, `Veto profile has insufficient sample: ${teamKey}`);
+  invariant(profile.maps && Object.keys(profile.maps).length > 0, `Veto profile has no map actions: ${teamKey}`);
+}
+
 invariant(productEventCount > 0, "The public Tier 1/2 circuit cannot be empty.");
-console.log(`site data ok: ${productEventCount}/${eventIds.size} public Tier 1/2 events, ${matchIds.size} current matches, ${rankingNames.size} VRS teams, ${playerIds.size} players, ${Object.keys(teamAssets).length} supplemental crests`);
+console.log(`site data ok: ${productEventCount}/${eventIds.size} public Tier 1/2 events, ${matchIds.size} current matches, ${rankingNames.size} VRS teams, ${playerIds.size} players, ${Object.keys(mapProfiles).length} map profiles, ${Object.keys(vetoProfiles).length} veto profiles`);

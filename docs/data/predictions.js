@@ -2594,6 +2594,50 @@ window.__STRIKESIGNAL_DATA__ = {
       "Overpass"
     ],
     "map_profiles": {
+      "3dmax": {
+        "Ancient": {
+          "avg_round_diff": -1.3928571428571428,
+          "matches": 37,
+          "win_rate": 0.32432432432432434,
+          "wins": 12
+        },
+        "Anubis": {
+          "avg_round_diff": 0.5714285714285714,
+          "matches": 11,
+          "win_rate": 0.36363636363636365,
+          "wins": 4
+        },
+        "Dust2": {
+          "avg_round_diff": -1.135135135135135,
+          "matches": 43,
+          "win_rate": 0.3488372093023256,
+          "wins": 15
+        },
+        "Inferno": {
+          "avg_round_diff": 0.2857142857142857,
+          "matches": 46,
+          "win_rate": 0.4782608695652174,
+          "wins": 22
+        },
+        "Nuke": {
+          "avg_round_diff": -0.03125,
+          "matches": 47,
+          "win_rate": 0.3404255319148936,
+          "wins": 16
+        },
+        "Overpass": {
+          "avg_round_diff": -2.1818181818181817,
+          "matches": 12,
+          "win_rate": 0.3333333333333333,
+          "wins": 4
+        },
+        "Train": {
+          "avg_round_diff": 1.4545454545454546,
+          "matches": 11,
+          "win_rate": 0.5454545454545454,
+          "wins": 6
+        }
+      },
       "9z": {
         "Ancient": {
           "avg_round_diff": 5.4,
@@ -2630,6 +2674,50 @@ window.__STRIKESIGNAL_DATA__ = {
           "matches": 4,
           "win_rate": 0.25,
           "wins": 1
+        }
+      },
+      "astralis": {
+        "Ancient": {
+          "avg_round_diff": 3.740740740740741,
+          "matches": 39,
+          "win_rate": 0.5128205128205128,
+          "wins": 20
+        },
+        "Dust2": {
+          "avg_round_diff": -3.04,
+          "matches": 25,
+          "win_rate": 0.28,
+          "wins": 7
+        },
+        "Inferno": {
+          "avg_round_diff": 0.391304347826087,
+          "matches": 37,
+          "win_rate": 0.32432432432432434,
+          "wins": 12
+        },
+        "Mirage": {
+          "avg_round_diff": -0.9090909090909091,
+          "matches": 37,
+          "win_rate": 0.3783783783783784,
+          "wins": 14
+        },
+        "Nuke": {
+          "avg_round_diff": 0.6923076923076923,
+          "matches": 51,
+          "win_rate": 0.43137254901960786,
+          "wins": 22
+        },
+        "Overpass": {
+          "avg_round_diff": 0.43333333333333335,
+          "matches": 36,
+          "win_rate": 0.4722222222222222,
+          "wins": 17
+        },
+        "Train": {
+          "avg_round_diff": -1.5,
+          "matches": 7,
+          "win_rate": 0.2857142857142857,
+          "wins": 2
         }
       },
       "aurora": {
@@ -2732,6 +2820,50 @@ window.__STRIKESIGNAL_DATA__ = {
           "wins": 1
         }
       },
+      "bc game": {
+        "Ancient": {
+          "avg_round_diff": -6.0,
+          "matches": 5,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Anubis": {
+          "avg_round_diff": -7.0,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": -3.375,
+          "matches": 12,
+          "win_rate": 0.08333333333333333,
+          "wins": 1
+        },
+        "Inferno": {
+          "avg_round_diff": 12.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        },
+        "Mirage": {
+          "avg_round_diff": -4.0,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Nuke": {
+          "avg_round_diff": 6.666666666666667,
+          "matches": 4,
+          "win_rate": 0.75,
+          "wins": 3
+        },
+        "Overpass": {
+          "avg_round_diff": -3.2857142857142856,
+          "matches": 8,
+          "win_rate": 0.375,
+          "wins": 3
+        }
+      },
       "betboom": {
         "Ancient": {
           "avg_round_diff": -2.3333333333333335,
@@ -2776,6 +2908,220 @@ window.__STRIKESIGNAL_DATA__ = {
           "wins": 1
         }
       },
+      "big": {
+        "Ancient": {
+          "avg_round_diff": 0.0,
+          "matches": 3,
+          "win_rate": 0.3333333333333333,
+          "wins": 1
+        },
+        "Dust2": {
+          "avg_round_diff": 1.5,
+          "matches": 3,
+          "win_rate": 0.3333333333333333,
+          "wins": 1
+        },
+        "Inferno": {
+          "avg_round_diff": -1.6,
+          "matches": 5,
+          "win_rate": 0.4,
+          "wins": 2
+        },
+        "Mirage": {
+          "avg_round_diff": -0.5,
+          "matches": 4,
+          "win_rate": 0.25,
+          "wins": 1
+        },
+        "Nuke": {
+          "avg_round_diff": -1.25,
+          "matches": 4,
+          "win_rate": 0.25,
+          "wins": 1
+        },
+        "Overpass": {
+          "avg_round_diff": 1.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        }
+      },
+      "complexity": {
+        "Ancient": {
+          "avg_round_diff": -6.333333333333333,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Anubis": {
+          "avg_round_diff": 0.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": 0.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Inferno": {
+          "avg_round_diff": -3.8,
+          "matches": 5,
+          "win_rate": 0.2,
+          "wins": 1
+        },
+        "Nuke": {
+          "avg_round_diff": -3.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Overpass": {
+          "avg_round_diff": 0.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": -1.5,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        }
+      },
+      "ecstatic": {
+        "Ancient": {
+          "avg_round_diff": -4.5,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": -13.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Inferno": {
+          "avg_round_diff": -7.0,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Mirage": {
+          "avg_round_diff": -4.5,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Nuke": {
+          "avg_round_diff": 0.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Overpass": {
+          "avg_round_diff": 3.0,
+          "matches": 1,
+          "win_rate": 1.0,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": -2.0,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        }
+      },
+      "ence": {
+        "Ancient": {
+          "avg_round_diff": -1.25,
+          "matches": 4,
+          "win_rate": 0.25,
+          "wins": 1
+        },
+        "Anubis": {
+          "avg_round_diff": -2.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": 0.0,
+          "matches": 6,
+          "win_rate": 0.5,
+          "wins": 3
+        },
+        "Mirage": {
+          "avg_round_diff": -3.5,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Nuke": {
+          "avg_round_diff": -1.6666666666666667,
+          "matches": 3,
+          "win_rate": 0.3333333333333333,
+          "wins": 1
+        },
+        "Overpass": {
+          "avg_round_diff": -1.3333333333333333,
+          "matches": 3,
+          "win_rate": 0.3333333333333333,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": -8.0,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        }
+      },
+      "eyeballers": {
+        "Ancient": {
+          "avg_round_diff": -4.5,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Anubis": {
+          "avg_round_diff": -3.5,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": 4.0,
+          "matches": 1,
+          "win_rate": 1.0,
+          "wins": 1
+        },
+        "Inferno": {
+          "avg_round_diff": -0.6666666666666666,
+          "matches": 4,
+          "win_rate": 0.5,
+          "wins": 2
+        },
+        "Mirage": {
+          "avg_round_diff": 1.8,
+          "matches": 6,
+          "win_rate": 0.5,
+          "wins": 3
+        },
+        "Nuke": {
+          "avg_round_diff": -3.0,
+          "matches": 3,
+          "win_rate": 0.3333333333333333,
+          "wins": 1
+        },
+        "Overpass": {
+          "avg_round_diff": -5.5,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        }
+      },
       "falcons": {
         "Ancient": {
           "avg_round_diff": 3.433333333333333,
@@ -2818,6 +3164,220 @@ window.__STRIKESIGNAL_DATA__ = {
           "matches": 9,
           "win_rate": 0.3333333333333333,
           "wins": 3
+        }
+      },
+      "faze": {
+        "Ancient": {
+          "avg_round_diff": 0.3,
+          "matches": 35,
+          "win_rate": 0.45714285714285713,
+          "wins": 16
+        },
+        "Anubis": {
+          "avg_round_diff": 0.6666666666666666,
+          "matches": 12,
+          "win_rate": 0.3333333333333333,
+          "wins": 4
+        },
+        "Dust2": {
+          "avg_round_diff": 0.06666666666666667,
+          "matches": 35,
+          "win_rate": 0.45714285714285713,
+          "wins": 16
+        },
+        "Inferno": {
+          "avg_round_diff": -0.4074074074074074,
+          "matches": 29,
+          "win_rate": 0.3793103448275862,
+          "wins": 11
+        },
+        "Mirage": {
+          "avg_round_diff": -0.23333333333333334,
+          "matches": 40,
+          "win_rate": 0.375,
+          "wins": 15
+        },
+        "Nuke": {
+          "avg_round_diff": 0.4074074074074074,
+          "matches": 39,
+          "win_rate": 0.38461538461538464,
+          "wins": 15
+        },
+        "Overpass": {
+          "avg_round_diff": -1.4545454545454546,
+          "matches": 11,
+          "win_rate": 0.36363636363636365,
+          "wins": 4
+        },
+        "Train": {
+          "avg_round_diff": -7.5,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        }
+      },
+      "fluxo": {
+        "Ancient": {
+          "avg_round_diff": -0.3333333333333333,
+          "matches": 3,
+          "win_rate": 0.6666666666666666,
+          "wins": 2
+        },
+        "Inferno": {
+          "avg_round_diff": -5.5,
+          "matches": 6,
+          "win_rate": 0.16666666666666666,
+          "wins": 1
+        },
+        "Mirage": {
+          "avg_round_diff": -5.4,
+          "matches": 6,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Nuke": {
+          "avg_round_diff": -2.6666666666666665,
+          "matches": 7,
+          "win_rate": 0.42857142857142855,
+          "wins": 3
+        },
+        "Overpass": {
+          "avg_round_diff": -12.0,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Train": {
+          "avg_round_diff": -0.6666666666666666,
+          "matches": 4,
+          "win_rate": 0.5,
+          "wins": 2
+        }
+      },
+      "flyquest": {
+        "Ancient": {
+          "avg_round_diff": -2.1666666666666665,
+          "matches": 7,
+          "win_rate": 0.2857142857142857,
+          "wins": 2
+        },
+        "Anubis": {
+          "avg_round_diff": 0.6,
+          "matches": 6,
+          "win_rate": 0.5,
+          "wins": 3
+        },
+        "Dust2": {
+          "avg_round_diff": -0.5,
+          "matches": 9,
+          "win_rate": 0.3333333333333333,
+          "wins": 3
+        },
+        "Inferno": {
+          "avg_round_diff": 1.9166666666666667,
+          "matches": 13,
+          "win_rate": 0.5384615384615384,
+          "wins": 7
+        },
+        "Mirage": {
+          "avg_round_diff": -3.9,
+          "matches": 11,
+          "win_rate": 0.18181818181818182,
+          "wins": 2
+        },
+        "Nuke": {
+          "avg_round_diff": -7.75,
+          "matches": 5,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Overpass": {
+          "avg_round_diff": 5.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": -4.0,
+          "matches": 3,
+          "win_rate": 0.3333333333333333,
+          "wins": 1
+        }
+      },
+      "fnatic": {
+        "Ancient": {
+          "avg_round_diff": -2.5714285714285716,
+          "matches": 7,
+          "win_rate": 0.42857142857142855,
+          "wins": 3
+        },
+        "Dust2": {
+          "avg_round_diff": 0.5,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        },
+        "Inferno": {
+          "avg_round_diff": 1.75,
+          "matches": 5,
+          "win_rate": 0.6,
+          "wins": 3
+        },
+        "Mirage": {
+          "avg_round_diff": -1.8,
+          "matches": 7,
+          "win_rate": 0.2857142857142857,
+          "wins": 2
+        },
+        "Overpass": {
+          "avg_round_diff": -2.0,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Train": {
+          "avg_round_diff": 0.6,
+          "matches": 6,
+          "win_rate": 0.3333333333333333,
+          "wins": 2
+        }
+      },
+      "fokus": {
+        "Ancient": {
+          "avg_round_diff": 8.5,
+          "matches": 3,
+          "win_rate": 0.6666666666666666,
+          "wins": 2
+        },
+        "Dust2": {
+          "avg_round_diff": -4.0,
+          "matches": 4,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Inferno": {
+          "avg_round_diff": -0.25,
+          "matches": 4,
+          "win_rate": 0.25,
+          "wins": 1
+        },
+        "Mirage": {
+          "avg_round_diff": -6.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Nuke": {
+          "avg_round_diff": 9.5,
+          "matches": 2,
+          "win_rate": 1.0,
+          "wins": 2
+        },
+        "Overpass": {
+          "avg_round_diff": 3.0,
+          "matches": 1,
+          "win_rate": 1.0,
+          "wins": 1
         }
       },
       "furia": {
@@ -2964,6 +3524,290 @@ window.__STRIKESIGNAL_DATA__ = {
           "wins": 6
         }
       },
+      "gaimin gladiators": {
+        "Ancient": {
+          "avg_round_diff": 3.0,
+          "matches": 3,
+          "win_rate": 0.3333333333333333,
+          "wins": 1
+        },
+        "Dust2": {
+          "avg_round_diff": -4.6,
+          "matches": 5,
+          "win_rate": 0.2,
+          "wins": 1
+        },
+        "Inferno": {
+          "avg_round_diff": -5.0,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Nuke": {
+          "avg_round_diff": -7.666666666666667,
+          "matches": 4,
+          "win_rate": 0.0,
+          "wins": 0
+        }
+      },
+      "gamerlegion": {
+        "Ancient": {
+          "avg_round_diff": -1.7058823529411764,
+          "matches": 21,
+          "win_rate": 0.38095238095238093,
+          "wins": 8
+        },
+        "Anubis": {
+          "avg_round_diff": -4.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": -1.9285714285714286,
+          "matches": 18,
+          "win_rate": 0.2777777777777778,
+          "wins": 5
+        },
+        "Inferno": {
+          "avg_round_diff": 0.15384615384615385,
+          "matches": 32,
+          "win_rate": 0.46875,
+          "wins": 15
+        },
+        "Mirage": {
+          "avg_round_diff": -0.42857142857142855,
+          "matches": 17,
+          "win_rate": 0.4117647058823529,
+          "wins": 7
+        },
+        "Nuke": {
+          "avg_round_diff": -0.47368421052631576,
+          "matches": 26,
+          "win_rate": 0.3076923076923077,
+          "wins": 8
+        },
+        "Overpass": {
+          "avg_round_diff": -1.1,
+          "matches": 23,
+          "win_rate": 0.391304347826087,
+          "wins": 9
+        },
+        "Train": {
+          "avg_round_diff": -0.6,
+          "matches": 9,
+          "win_rate": 0.2222222222222222,
+          "wins": 2
+        }
+      },
+      "gentle mates": {
+        "Ancient": {
+          "avg_round_diff": 0.2222222222222222,
+          "matches": 12,
+          "win_rate": 0.4166666666666667,
+          "wins": 5
+        },
+        "Inferno": {
+          "avg_round_diff": -1.5454545454545454,
+          "matches": 11,
+          "win_rate": 0.36363636363636365,
+          "wins": 4
+        },
+        "Mirage": {
+          "avg_round_diff": 0.0,
+          "matches": 15,
+          "win_rate": 0.3333333333333333,
+          "wins": 5
+        },
+        "Nuke": {
+          "avg_round_diff": -0.375,
+          "matches": 13,
+          "win_rate": 0.3076923076923077,
+          "wins": 4
+        },
+        "Overpass": {
+          "avg_round_diff": -3.5,
+          "matches": 6,
+          "win_rate": 0.16666666666666666,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": -3.0,
+          "matches": 3,
+          "win_rate": 0.3333333333333333,
+          "wins": 1
+        }
+      },
+      "heroic": {
+        "Ancient": {
+          "avg_round_diff": -1.4444444444444444,
+          "matches": 22,
+          "win_rate": 0.2727272727272727,
+          "wins": 6
+        },
+        "Anubis": {
+          "avg_round_diff": 2.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        },
+        "Dust2": {
+          "avg_round_diff": -0.375,
+          "matches": 29,
+          "win_rate": 0.3448275862068966,
+          "wins": 10
+        },
+        "Inferno": {
+          "avg_round_diff": -1.4666666666666666,
+          "matches": 18,
+          "win_rate": 0.3333333333333333,
+          "wins": 6
+        },
+        "Mirage": {
+          "avg_round_diff": -0.7391304347826086,
+          "matches": 29,
+          "win_rate": 0.3448275862068966,
+          "wins": 10
+        },
+        "Nuke": {
+          "avg_round_diff": -1.0,
+          "matches": 28,
+          "win_rate": 0.2857142857142857,
+          "wins": 8
+        },
+        "Overpass": {
+          "avg_round_diff": 0.16666666666666666,
+          "matches": 12,
+          "win_rate": 0.5833333333333334,
+          "wins": 7
+        },
+        "Train": {
+          "avg_round_diff": -0.25,
+          "matches": 5,
+          "win_rate": 0.4,
+          "wins": 2
+        }
+      },
+      "hotu": {
+        "Ancient": {
+          "avg_round_diff": 2.0,
+          "matches": 6,
+          "win_rate": 0.6666666666666666,
+          "wins": 4
+        },
+        "Anubis": {
+          "avg_round_diff": 0.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": -0.7142857142857143,
+          "matches": 7,
+          "win_rate": 0.42857142857142855,
+          "wins": 3
+        },
+        "Mirage": {
+          "avg_round_diff": -3.75,
+          "matches": 8,
+          "win_rate": 0.125,
+          "wins": 1
+        },
+        "Nuke": {
+          "avg_round_diff": 3.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        },
+        "Overpass": {
+          "avg_round_diff": -2.5,
+          "matches": 6,
+          "win_rate": 0.3333333333333333,
+          "wins": 2
+        },
+        "Train": {
+          "avg_round_diff": -4.0,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        }
+      },
+      "imperial": {
+        "Dust2": {
+          "avg_round_diff": -0.4444444444444444,
+          "matches": 11,
+          "win_rate": 0.45454545454545453,
+          "wins": 5
+        },
+        "Inferno": {
+          "avg_round_diff": -6.25,
+          "matches": 4,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Mirage": {
+          "avg_round_diff": -4.5,
+          "matches": 7,
+          "win_rate": 0.2857142857142857,
+          "wins": 2
+        },
+        "Nuke": {
+          "avg_round_diff": 2.0,
+          "matches": 6,
+          "win_rate": 0.6666666666666666,
+          "wins": 4
+        },
+        "Overpass": {
+          "avg_round_diff": 11.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": 0.0,
+          "matches": 5,
+          "win_rate": 0.6,
+          "wins": 3
+        }
+      },
+      "inner circle": {
+        "Ancient": {
+          "avg_round_diff": -1.6666666666666667,
+          "matches": 10,
+          "win_rate": 0.4,
+          "wins": 4
+        },
+        "Dust2": {
+          "avg_round_diff": 2.8333333333333335,
+          "matches": 7,
+          "win_rate": 0.5714285714285714,
+          "wins": 4
+        },
+        "Mirage": {
+          "avg_round_diff": -2.75,
+          "matches": 10,
+          "win_rate": 0.3,
+          "wins": 3
+        },
+        "Nuke": {
+          "avg_round_diff": -0.5714285714285714,
+          "matches": 9,
+          "win_rate": 0.3333333333333333,
+          "wins": 3
+        },
+        "Overpass": {
+          "avg_round_diff": -6.5,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Train": {
+          "avg_round_diff": 9.0,
+          "matches": 1,
+          "win_rate": 1.0,
+          "wins": 1
+        }
+      },
       "legacy": {
         "Ancient": {
           "avg_round_diff": -0.9090909090909091,
@@ -3012,6 +3856,214 @@ window.__STRIKESIGNAL_DATA__ = {
           "matches": 5,
           "win_rate": 0.2,
           "wins": 1
+        }
+      },
+      "liquid": {
+        "Ancient": {
+          "avg_round_diff": -1.4736842105263157,
+          "matches": 22,
+          "win_rate": 0.36363636363636365,
+          "wins": 8
+        },
+        "Anubis": {
+          "avg_round_diff": -1.0,
+          "matches": 5,
+          "win_rate": 0.2,
+          "wins": 1
+        },
+        "Dust2": {
+          "avg_round_diff": -3.037037037037037,
+          "matches": 31,
+          "win_rate": 0.22580645161290322,
+          "wins": 7
+        },
+        "Inferno": {
+          "avg_round_diff": -0.5,
+          "matches": 27,
+          "win_rate": 0.4074074074074074,
+          "wins": 11
+        },
+        "Mirage": {
+          "avg_round_diff": -0.8620689655172413,
+          "matches": 33,
+          "win_rate": 0.3939393939393939,
+          "wins": 13
+        },
+        "Nuke": {
+          "avg_round_diff": 0.13043478260869565,
+          "matches": 31,
+          "win_rate": 0.3870967741935484,
+          "wins": 12
+        },
+        "Train": {
+          "avg_round_diff": -1.9090909090909092,
+          "matches": 12,
+          "win_rate": 0.25,
+          "wins": 3
+        }
+      },
+      "lynn vision": {
+        "Ancient": {
+          "avg_round_diff": -4.833333333333333,
+          "matches": 7,
+          "win_rate": 0.14285714285714285,
+          "wins": 1
+        },
+        "Anubis": {
+          "avg_round_diff": 4.8,
+          "matches": 7,
+          "win_rate": 0.5714285714285714,
+          "wins": 4
+        },
+        "Dust2": {
+          "avg_round_diff": 0.5294117647058824,
+          "matches": 17,
+          "win_rate": 0.5294117647058824,
+          "wins": 9
+        },
+        "Inferno": {
+          "avg_round_diff": -4.142857142857143,
+          "matches": 9,
+          "win_rate": 0.2222222222222222,
+          "wins": 2
+        },
+        "Nuke": {
+          "avg_round_diff": -5.7272727272727275,
+          "matches": 14,
+          "win_rate": 0.07142857142857142,
+          "wins": 1
+        },
+        "Overpass": {
+          "avg_round_diff": -1.5,
+          "matches": 4,
+          "win_rate": 0.25,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": -4.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        }
+      },
+      "m80": {
+        "Ancient": {
+          "avg_round_diff": -0.6666666666666666,
+          "matches": 14,
+          "win_rate": 0.35714285714285715,
+          "wins": 5
+        },
+        "Anubis": {
+          "avg_round_diff": 1.0,
+          "matches": 3,
+          "win_rate": 0.6666666666666666,
+          "wins": 2
+        },
+        "Dust2": {
+          "avg_round_diff": -1.6428571428571428,
+          "matches": 15,
+          "win_rate": 0.3333333333333333,
+          "wins": 5
+        },
+        "Inferno": {
+          "avg_round_diff": -1.2,
+          "matches": 16,
+          "win_rate": 0.375,
+          "wins": 6
+        },
+        "Mirage": {
+          "avg_round_diff": 0.3888888888888889,
+          "matches": 22,
+          "win_rate": 0.5,
+          "wins": 11
+        },
+        "Overpass": {
+          "avg_round_diff": -4.666666666666667,
+          "matches": 7,
+          "win_rate": 0.14285714285714285,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": -2.1666666666666665,
+          "matches": 8,
+          "win_rate": 0.25,
+          "wins": 2
+        }
+      },
+      "magic": {
+        "Ancient": {
+          "avg_round_diff": -2.0,
+          "matches": 6,
+          "win_rate": 0.16666666666666666,
+          "wins": 1
+        },
+        "Dust2": {
+          "avg_round_diff": -4.75,
+          "matches": 4,
+          "win_rate": 0.25,
+          "wins": 1
+        },
+        "Inferno": {
+          "avg_round_diff": -1.25,
+          "matches": 6,
+          "win_rate": 0.3333333333333333,
+          "wins": 2
+        },
+        "Mirage": {
+          "avg_round_diff": -1.1666666666666667,
+          "matches": 6,
+          "win_rate": 0.5,
+          "wins": 3
+        },
+        "Overpass": {
+          "avg_round_diff": 3.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        }
+      },
+      "mibr": {
+        "Ancient": {
+          "avg_round_diff": -3.0,
+          "matches": 13,
+          "win_rate": 0.23076923076923078,
+          "wins": 3
+        },
+        "Anubis": {
+          "avg_round_diff": 2.0,
+          "matches": 7,
+          "win_rate": 0.7142857142857143,
+          "wins": 5
+        },
+        "Inferno": {
+          "avg_round_diff": 0.4444444444444444,
+          "matches": 11,
+          "win_rate": 0.45454545454545453,
+          "wins": 5
+        },
+        "Mirage": {
+          "avg_round_diff": -1.5833333333333333,
+          "matches": 15,
+          "win_rate": 0.26666666666666666,
+          "wins": 4
+        },
+        "Nuke": {
+          "avg_round_diff": -0.8888888888888888,
+          "matches": 16,
+          "win_rate": 0.25,
+          "wins": 4
+        },
+        "Overpass": {
+          "avg_round_diff": -5.75,
+          "matches": 4,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Train": {
+          "avg_round_diff": -2.2,
+          "matches": 5,
+          "win_rate": 0.4,
+          "wins": 2
         }
       },
       "monte": {
@@ -3102,7 +4154,270 @@ window.__STRIKESIGNAL_DATA__ = {
           "wins": 10
         }
       },
-      "navi": {},
+      "natus vincere": {
+        "Ancient": {
+          "avg_round_diff": 2.4516129032258065,
+          "matches": 36,
+          "win_rate": 0.5833333333333334,
+          "wins": 21
+        },
+        "Anubis": {
+          "avg_round_diff": 0.6666666666666666,
+          "matches": 13,
+          "win_rate": 0.46153846153846156,
+          "wins": 6
+        },
+        "Dust2": {
+          "avg_round_diff": 0.14285714285714285,
+          "matches": 35,
+          "win_rate": 0.45714285714285713,
+          "wins": 16
+        },
+        "Inferno": {
+          "avg_round_diff": 0.2903225806451613,
+          "matches": 41,
+          "win_rate": 0.34146341463414637,
+          "wins": 14
+        },
+        "Mirage": {
+          "avg_round_diff": 1.1891891891891893,
+          "matches": 44,
+          "win_rate": 0.4772727272727273,
+          "wins": 21
+        },
+        "Nuke": {
+          "avg_round_diff": -0.2,
+          "matches": 28,
+          "win_rate": 0.42857142857142855,
+          "wins": 12
+        },
+        "Train": {
+          "avg_round_diff": 2.4615384615384617,
+          "matches": 16,
+          "win_rate": 0.625,
+          "wins": 10
+        }
+      },
+      "nemiga": {
+        "Ancient": {
+          "avg_round_diff": 2.4,
+          "matches": 5,
+          "win_rate": 0.8,
+          "wins": 4
+        },
+        "Anubis": {
+          "avg_round_diff": -5.0,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": -0.42857142857142855,
+          "matches": 8,
+          "win_rate": 0.375,
+          "wins": 3
+        },
+        "Inferno": {
+          "avg_round_diff": 2.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        },
+        "Mirage": {
+          "avg_round_diff": 0.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": -2.6666666666666665,
+          "matches": 4,
+          "win_rate": 0.25,
+          "wins": 1
+        }
+      },
+      "ninjas in pyjamas": {
+        "Ancient": {
+          "avg_round_diff": -3.1,
+          "matches": 14,
+          "win_rate": 0.14285714285714285,
+          "wins": 2
+        },
+        "Anubis": {
+          "avg_round_diff": -1.75,
+          "matches": 5,
+          "win_rate": 0.4,
+          "wins": 2
+        },
+        "Dust2": {
+          "avg_round_diff": -2.0,
+          "matches": 8,
+          "win_rate": 0.25,
+          "wins": 2
+        },
+        "Inferno": {
+          "avg_round_diff": -7.0,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Mirage": {
+          "avg_round_diff": 2.8,
+          "matches": 5,
+          "win_rate": 0.6,
+          "wins": 3
+        },
+        "Nuke": {
+          "avg_round_diff": 1.9333333333333333,
+          "matches": 16,
+          "win_rate": 0.5625,
+          "wins": 9
+        },
+        "Overpass": {
+          "avg_round_diff": -1.2,
+          "matches": 9,
+          "win_rate": 0.2222222222222222,
+          "wins": 2
+        },
+        "Train": {
+          "avg_round_diff": 1.8571428571428572,
+          "matches": 7,
+          "win_rate": 0.42857142857142855,
+          "wins": 3
+        }
+      },
+      "nrg": {
+        "Ancient": {
+          "avg_round_diff": -2.6,
+          "matches": 11,
+          "win_rate": 0.36363636363636365,
+          "wins": 4
+        },
+        "Anubis": {
+          "avg_round_diff": 0.6666666666666666,
+          "matches": 5,
+          "win_rate": 0.2,
+          "wins": 1
+        },
+        "Dust2": {
+          "avg_round_diff": -5.5,
+          "matches": 15,
+          "win_rate": 0.06666666666666667,
+          "wins": 1
+        },
+        "Inferno": {
+          "avg_round_diff": 0.0,
+          "matches": 14,
+          "win_rate": 0.35714285714285715,
+          "wins": 5
+        },
+        "Mirage": {
+          "avg_round_diff": 0.13333333333333333,
+          "matches": 23,
+          "win_rate": 0.34782608695652173,
+          "wins": 8
+        },
+        "Nuke": {
+          "avg_round_diff": -3.142857142857143,
+          "matches": 16,
+          "win_rate": 0.1875,
+          "wins": 3
+        },
+        "Overpass": {
+          "avg_round_diff": -2.5,
+          "matches": 4,
+          "win_rate": 0.25,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": -4.0,
+          "matches": 5,
+          "win_rate": 0.0,
+          "wins": 0
+        }
+      },
+      "og": {
+        "Ancient": {
+          "avg_round_diff": 3.5,
+          "matches": 4,
+          "win_rate": 0.5,
+          "wins": 2
+        },
+        "Dust2": {
+          "avg_round_diff": 2.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
+        },
+        "Inferno": {
+          "avg_round_diff": -9.0,
+          "matches": 4,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Mirage": {
+          "avg_round_diff": -2.75,
+          "matches": 4,
+          "win_rate": 0.25,
+          "wins": 1
+        },
+        "Nuke": {
+          "avg_round_diff": 3.6666666666666665,
+          "matches": 3,
+          "win_rate": 0.6666666666666666,
+          "wins": 2
+        }
+      },
+      "pain": {
+        "Ancient": {
+          "avg_round_diff": -2.6363636363636362,
+          "matches": 13,
+          "win_rate": 0.23076923076923078,
+          "wins": 3
+        },
+        "Anubis": {
+          "avg_round_diff": -0.3333333333333333,
+          "matches": 11,
+          "win_rate": 0.45454545454545453,
+          "wins": 5
+        },
+        "Dust2": {
+          "avg_round_diff": -1.25,
+          "matches": 36,
+          "win_rate": 0.3333333333333333,
+          "wins": 12
+        },
+        "Inferno": {
+          "avg_round_diff": -1.2777777777777777,
+          "matches": 27,
+          "win_rate": 0.3333333333333333,
+          "wins": 9
+        },
+        "Mirage": {
+          "avg_round_diff": -0.6666666666666666,
+          "matches": 31,
+          "win_rate": 0.3225806451612903,
+          "wins": 10
+        },
+        "Nuke": {
+          "avg_round_diff": 0.59375,
+          "matches": 37,
+          "win_rate": 0.4864864864864865,
+          "wins": 18
+        },
+        "Overpass": {
+          "avg_round_diff": -2.1666666666666665,
+          "matches": 13,
+          "win_rate": 0.23076923076923078,
+          "wins": 3
+        },
+        "Train": {
+          "avg_round_diff": 0.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        }
+      },
       "parivision": {
         "Ancient": {
           "avg_round_diff": 0.5714285714285714,
@@ -3144,6 +4459,132 @@ window.__STRIKESIGNAL_DATA__ = {
           "avg_round_diff": 4.0,
           "matches": 1,
           "win_rate": 1.0,
+          "wins": 1
+        }
+      },
+      "passion ua": {
+        "Ancient": {
+          "avg_round_diff": -9.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Anubis": {
+          "avg_round_diff": -4.0,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": 1.625,
+          "matches": 12,
+          "win_rate": 0.4166666666666667,
+          "wins": 5
+        },
+        "Inferno": {
+          "avg_round_diff": 0.0,
+          "matches": 8,
+          "win_rate": 0.375,
+          "wins": 3
+        },
+        "Mirage": {
+          "avg_round_diff": -4.333333333333333,
+          "matches": 17,
+          "win_rate": 0.17647058823529413,
+          "wins": 3
+        },
+        "Nuke": {
+          "avg_round_diff": -5.4,
+          "matches": 6,
+          "win_rate": 0.16666666666666666,
+          "wins": 1
+        },
+        "Overpass": {
+          "avg_round_diff": -0.25,
+          "matches": 9,
+          "win_rate": 0.4444444444444444,
+          "wins": 4
+        },
+        "Train": {
+          "avg_round_diff": -0.6666666666666666,
+          "matches": 3,
+          "win_rate": 0.6666666666666666,
+          "wins": 2
+        }
+      },
+      "red canids": {
+        "Ancient": {
+          "avg_round_diff": -5.333333333333333,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Inferno": {
+          "avg_round_diff": -8.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Mirage": {
+          "avg_round_diff": 5.0,
+          "matches": 4,
+          "win_rate": 0.75,
+          "wins": 3
+        },
+        "Nuke": {
+          "avg_round_diff": -6.0,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Overpass": {
+          "avg_round_diff": -5.0,
+          "matches": 3,
+          "win_rate": 0.3333333333333333,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": 7.0,
+          "matches": 1,
+          "win_rate": 1.0,
+          "wins": 1
+        }
+      },
+      "sinners": {
+        "Ancient": {
+          "avg_round_diff": -2.0,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": -5.0,
+          "matches": 2,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Inferno": {
+          "avg_round_diff": -4.0,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Mirage": {
+          "avg_round_diff": 0.75,
+          "matches": 5,
+          "win_rate": 0.4,
+          "wins": 2
+        },
+        "Nuke": {
+          "avg_round_diff": -6.666666666666667,
+          "matches": 3,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Overpass": {
+          "avg_round_diff": 5.0,
+          "matches": 2,
+          "win_rate": 0.5,
           "wins": 1
         }
       },
@@ -3191,7 +4632,170 @@ window.__STRIKESIGNAL_DATA__ = {
           "wins": 2
         }
       },
-      "the mongolz": {},
+      "the huns": {
+        "Ancient": {
+          "avg_round_diff": -2.0,
+          "matches": 3,
+          "win_rate": 0.3333333333333333,
+          "wins": 1
+        },
+        "Dust2": {
+          "avg_round_diff": -2.25,
+          "matches": 5,
+          "win_rate": 0.4,
+          "wins": 2
+        },
+        "Inferno": {
+          "avg_round_diff": 7.0,
+          "matches": 1,
+          "win_rate": 1.0,
+          "wins": 1
+        },
+        "Mirage": {
+          "avg_round_diff": -4.333333333333333,
+          "matches": 6,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Nuke": {
+          "avg_round_diff": -5.0,
+          "matches": 5,
+          "win_rate": 0.2,
+          "wins": 1
+        }
+      },
+      "the mongolz": {
+        "Ancient": {
+          "avg_round_diff": 1.542857142857143,
+          "matches": 45,
+          "win_rate": 0.4444444444444444,
+          "wins": 20
+        },
+        "Anubis": {
+          "avg_round_diff": 0.3333333333333333,
+          "matches": 3,
+          "win_rate": 0.6666666666666666,
+          "wins": 2
+        },
+        "Dust2": {
+          "avg_round_diff": -0.3125,
+          "matches": 36,
+          "win_rate": 0.4444444444444444,
+          "wins": 16
+        },
+        "Inferno": {
+          "avg_round_diff": 0.6785714285714286,
+          "matches": 41,
+          "win_rate": 0.36585365853658536,
+          "wins": 15
+        },
+        "Mirage": {
+          "avg_round_diff": 0.3541666666666667,
+          "matches": 56,
+          "win_rate": 0.5,
+          "wins": 28
+        },
+        "Nuke": {
+          "avg_round_diff": 0.7777777777777778,
+          "matches": 37,
+          "win_rate": 0.43243243243243246,
+          "wins": 16
+        },
+        "Overpass": {
+          "avg_round_diff": 0.45454545454545453,
+          "matches": 14,
+          "win_rate": 0.35714285714285715,
+          "wins": 5
+        }
+      },
+      "tyloo": {
+        "Ancient": {
+          "avg_round_diff": -1.6428571428571428,
+          "matches": 14,
+          "win_rate": 0.42857142857142855,
+          "wins": 6
+        },
+        "Anubis": {
+          "avg_round_diff": -2.2,
+          "matches": 6,
+          "win_rate": 0.3333333333333333,
+          "wins": 2
+        },
+        "Inferno": {
+          "avg_round_diff": 0.2631578947368421,
+          "matches": 20,
+          "win_rate": 0.45,
+          "wins": 9
+        },
+        "Mirage": {
+          "avg_round_diff": -0.7142857142857143,
+          "matches": 19,
+          "win_rate": 0.3157894736842105,
+          "wins": 6
+        },
+        "Nuke": {
+          "avg_round_diff": -1.25,
+          "matches": 10,
+          "win_rate": 0.3,
+          "wins": 3
+        },
+        "Overpass": {
+          "avg_round_diff": -2.3333333333333335,
+          "matches": 12,
+          "win_rate": 0.16666666666666666,
+          "wins": 2
+        },
+        "Train": {
+          "avg_round_diff": -0.3333333333333333,
+          "matches": 6,
+          "win_rate": 0.5,
+          "wins": 3
+        }
+      },
+      "virtus pro": {
+        "Ancient": {
+          "avg_round_diff": -4.0,
+          "matches": 10,
+          "win_rate": 0.1,
+          "wins": 1
+        },
+        "Anubis": {
+          "avg_round_diff": 0.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": -4.083333333333333,
+          "matches": 15,
+          "win_rate": 0.2,
+          "wins": 3
+        },
+        "Inferno": {
+          "avg_round_diff": 2.727272727272727,
+          "matches": 14,
+          "win_rate": 0.5,
+          "wins": 7
+        },
+        "Mirage": {
+          "avg_round_diff": -3.5,
+          "matches": 15,
+          "win_rate": 0.26666666666666666,
+          "wins": 4
+        },
+        "Overpass": {
+          "avg_round_diff": 0.4166666666666667,
+          "matches": 12,
+          "win_rate": 0.5833333333333334,
+          "wins": 7
+        },
+        "Train": {
+          "avg_round_diff": -1.75,
+          "matches": 9,
+          "win_rate": 0.3333333333333333,
+          "wins": 3
+        }
+      },
       "vitality": {
         "Ancient": {
           "avg_round_diff": 1.3333333333333333,
@@ -3240,6 +4844,50 @@ window.__STRIKESIGNAL_DATA__ = {
           "matches": 17,
           "win_rate": 0.47058823529411764,
           "wins": 8
+        }
+      },
+      "wildcard": {
+        "Ancient": {
+          "avg_round_diff": 0.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Anubis": {
+          "avg_round_diff": -2.0,
+          "matches": 1,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Dust2": {
+          "avg_round_diff": -3.6666666666666665,
+          "matches": 4,
+          "win_rate": 0.0,
+          "wins": 0
+        },
+        "Inferno": {
+          "avg_round_diff": 0.0,
+          "matches": 5,
+          "win_rate": 0.4,
+          "wins": 2
+        },
+        "Mirage": {
+          "avg_round_diff": 0.3333333333333333,
+          "matches": 4,
+          "win_rate": 0.25,
+          "wins": 1
+        },
+        "Nuke": {
+          "avg_round_diff": -4.833333333333333,
+          "matches": 6,
+          "win_rate": 0.16666666666666666,
+          "wins": 1
+        },
+        "Train": {
+          "avg_round_diff": 2.0,
+          "matches": 2,
+          "win_rate": 0.5,
+          "wins": 1
         }
       }
     },
@@ -6843,7 +8491,2882 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_points": null,
         "vrs_rank": null
       }
-    ]
+    ],
+    "veto_profiles": {
+      "3dmax": {
+        "first_pick": "Inferno",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.128,
+            "bans": 16,
+            "deciders": 0,
+            "pick_share": 0.125,
+            "picks": 6
+          },
+          "Anubis": {
+            "ban_share": 0.048,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0833,
+            "picks": 4
+          },
+          "Dust2": {
+            "ban_share": 0.08,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.2083,
+            "picks": 10
+          },
+          "Inferno": {
+            "ban_share": 0.016,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.375,
+            "picks": 18
+          },
+          "Mirage": {
+            "ban_share": 0.496,
+            "bans": 62,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.032,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.1875,
+            "picks": 9
+          },
+          "Overpass": {
+            "ban_share": 0.2,
+            "bans": 25,
+            "deciders": 0,
+            "pick_share": 0.0208,
+            "picks": 1
+          }
+        },
+        "perma_ban": "Mirage",
+        "sample_end_date": "2026-05-21",
+        "sample_matches": 62,
+        "sample_start_date": "2025-06-07",
+        "team_name": "3DMAX"
+      },
+      "9z": {
+        "first_pick": "Nuke",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1034,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.3793,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.069,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.1538,
+            "picks": 2
+          },
+          "Inferno": {
+            "ban_share": 0.1034,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.1538,
+            "picks": 2
+          },
+          "Mirage": {
+            "ban_share": 0.2069,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.4615,
+            "picks": 6
+          },
+          "Overpass": {
+            "ban_share": 0.1379,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.2308,
+            "picks": 3
+          }
+        },
+        "perma_ban": "Anubis",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 14,
+        "sample_start_date": "2026-03-19",
+        "team_name": "9z"
+      },
+      "astralis": {
+        "first_pick": "Nuke",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.027,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.2456,
+            "picks": 14
+          },
+          "Anubis": {
+            "ban_share": 0.2793,
+            "bans": 31,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.2793,
+            "bans": 31,
+            "deciders": 0,
+            "pick_share": 0.0175,
+            "picks": 1
+          },
+          "Inferno": {
+            "ban_share": 0.0631,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.1053,
+            "picks": 6
+          },
+          "Mirage": {
+            "ban_share": 0.2432,
+            "bans": 27,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.045,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.3333,
+            "picks": 19
+          },
+          "Overpass": {
+            "ban_share": 0.0631,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.2982,
+            "picks": 17
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 62,
+        "sample_start_date": "2025-07-15",
+        "team_name": "Astralis"
+      },
+      "aurora": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.4655,
+            "bans": 54,
+            "deciders": 0,
+            "pick_share": 0.0204,
+            "picks": 1
+          },
+          "Anubis": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.1224,
+            "picks": 6
+          },
+          "Dust2": {
+            "ban_share": 0.0431,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.4694,
+            "picks": 23
+          },
+          "Inferno": {
+            "ban_share": 0.0948,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.2041,
+            "picks": 10
+          },
+          "Mirage": {
+            "ban_share": 0.1293,
+            "bans": 15,
+            "deciders": 0,
+            "pick_share": 0.0204,
+            "picks": 1
+          },
+          "Nuke": {
+            "ban_share": 0.1983,
+            "bans": 23,
+            "deciders": 0,
+            "pick_share": 0.0408,
+            "picks": 2
+          },
+          "Overpass": {
+            "ban_share": 0.069,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.1224,
+            "picks": 6
+          }
+        },
+        "perma_ban": "Ancient",
+        "sample_end_date": "2026-05-15",
+        "sample_matches": 59,
+        "sample_start_date": "2025-06-12",
+        "team_name": "Aurora"
+      },
+      "b8": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0265,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.3243,
+            "picks": 12
+          },
+          "Anubis": {
+            "ban_share": 0.2212,
+            "bans": 25,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.1062,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.0811,
+            "picks": 3
+          },
+          "Inferno": {
+            "ban_share": 0.1593,
+            "bans": 18,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.0088,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.5946,
+            "picks": 22
+          },
+          "Nuke": {
+            "ban_share": 0.3363,
+            "bans": 38,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.1416,
+            "bans": 16,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Nuke",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 55,
+        "sample_start_date": "2025-06-03",
+        "team_name": "B8"
+      },
+      "bc game": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.2105,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.1579,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.5,
+            "picks": 4
+          },
+          "Inferno": {
+            "ban_share": 0.2105,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.2632,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.125,
+            "picks": 1
+          },
+          "Nuke": {
+            "ban_share": 0.1579,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.375,
+            "picks": 3
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-05-21",
+        "sample_matches": 9,
+        "sample_start_date": "2026-01-28",
+        "team_name": "BC.Game"
+      },
+      "betboom": {
+        "first_pick": "Nuke",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.234,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.0426,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.2222,
+            "picks": 2
+          },
+          "Dust2": {
+            "ban_share": 0.1489,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.1111,
+            "picks": 1
+          },
+          "Inferno": {
+            "ban_share": 0.3617,
+            "bans": 17,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.0851,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.2222,
+            "picks": 2
+          },
+          "Nuke": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.4444,
+            "picks": 4
+          },
+          "Overpass": {
+            "ban_share": 0.1277,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Inferno",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 19,
+        "sample_start_date": "2025-06-03",
+        "team_name": "BetBoom"
+      },
+      "big": {
+        "first_pick": null,
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.037,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.2,
+            "picks": 1
+          },
+          "Anubis": {
+            "ban_share": 0.2222,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.2222,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.2,
+            "picks": 1
+          },
+          "Inferno": {
+            "ban_share": 0.1481,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.4,
+            "picks": 2
+          },
+          "Nuke": {
+            "ban_share": 0.2593,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.1111,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.2,
+            "picks": 1
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 11,
+        "sample_start_date": "2025-07-23",
+        "team_name": "BIG"
+      },
+      "complexity": {
+        "first_pick": null,
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0625,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.25,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.5,
+            "picks": 1
+          },
+          "Mirage": {
+            "ban_share": 0.4375,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.25,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.5,
+            "picks": 1
+          }
+        },
+        "perma_ban": "Mirage",
+        "sample_end_date": "2025-08-08",
+        "sample_matches": 7,
+        "sample_start_date": "2025-06-03",
+        "team_name": "Complexity"
+      },
+      "ence": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0909,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.2857,
+            "picks": 2
+          },
+          "Anubis": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.1429,
+            "picks": 1
+          },
+          "Dust2": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.4286,
+            "picks": 3
+          },
+          "Inferno": {
+            "ban_share": 0.6364,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.2727,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.1429,
+            "picks": 1
+          }
+        },
+        "perma_ban": "Inferno",
+        "sample_end_date": "2026-01-16",
+        "sample_matches": 7,
+        "sample_start_date": "2025-08-08",
+        "team_name": "ENCE"
+      },
+      "falcons": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0531,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.2909,
+            "picks": 16
+          },
+          "Anubis": {
+            "ban_share": 0.0708,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.0182,
+            "picks": 1
+          },
+          "Dust2": {
+            "ban_share": 0.0796,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.1636,
+            "picks": 9
+          },
+          "Inferno": {
+            "ban_share": 0.1947,
+            "bans": 22,
+            "deciders": 0,
+            "pick_share": 0.0364,
+            "picks": 2
+          },
+          "Mirage": {
+            "ban_share": 0.0796,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.3636,
+            "picks": 20
+          },
+          "Nuke": {
+            "ban_share": 0.0354,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.1273,
+            "picks": 7
+          },
+          "Overpass": {
+            "ban_share": 0.4867,
+            "bans": 55,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Overpass",
+        "sample_end_date": "2026-05-24",
+        "sample_matches": 60,
+        "sample_start_date": "2025-06-07",
+        "team_name": "Falcons"
+      },
+      "faze": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.098,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.1852,
+            "picks": 10
+          },
+          "Anubis": {
+            "ban_share": 0.0686,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.0556,
+            "picks": 3
+          },
+          "Dust2": {
+            "ban_share": 0.1275,
+            "bans": 13,
+            "deciders": 0,
+            "pick_share": 0.2593,
+            "picks": 14
+          },
+          "Inferno": {
+            "ban_share": 0.2451,
+            "bans": 25,
+            "deciders": 0,
+            "pick_share": 0.0741,
+            "picks": 4
+          },
+          "Mirage": {
+            "ban_share": 0.1078,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.1667,
+            "picks": 9
+          },
+          "Nuke": {
+            "ban_share": 0.1275,
+            "bans": 13,
+            "deciders": 0,
+            "pick_share": 0.2407,
+            "picks": 13
+          },
+          "Overpass": {
+            "ban_share": 0.2255,
+            "bans": 23,
+            "deciders": 0,
+            "pick_share": 0.0185,
+            "picks": 1
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-05-13",
+        "sample_matches": 66,
+        "sample_start_date": "2025-06-07",
+        "team_name": "FaZe"
+      },
+      "fluxo": {
+        "first_pick": null,
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.2308,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.1429,
+            "picks": 1
+          },
+          "Anubis": {
+            "ban_share": 0.1154,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.3846,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.0385,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.1429,
+            "picks": 1
+          },
+          "Mirage": {
+            "ban_share": 0.0769,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.2857,
+            "picks": 2
+          },
+          "Nuke": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.2857,
+            "picks": 2
+          },
+          "Overpass": {
+            "ban_share": 0.1538,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.1429,
+            "picks": 1
+          }
+        },
+        "perma_ban": "Dust2",
+        "sample_end_date": "2025-11-27",
+        "sample_matches": 12,
+        "sample_start_date": "2025-06-03",
+        "team_name": "Fluxo"
+      },
+      "flyquest": {
+        "first_pick": "Inferno",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1837,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.0667,
+            "picks": 1
+          },
+          "Anubis": {
+            "ban_share": 0.0204,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.2,
+            "picks": 3
+          },
+          "Dust2": {
+            "ban_share": 0.0204,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.1333,
+            "picks": 2
+          },
+          "Inferno": {
+            "ban_share": 0.0408,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.2667,
+            "picks": 4
+          },
+          "Mirage": {
+            "ban_share": 0.1633,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.2667,
+            "picks": 4
+          },
+          "Nuke": {
+            "ban_share": 0.3265,
+            "bans": 16,
+            "deciders": 0,
+            "pick_share": 0.0667,
+            "picks": 1
+          },
+          "Overpass": {
+            "ban_share": 0.2449,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Nuke",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 26,
+        "sample_start_date": "2025-06-03",
+        "team_name": "FlyQuest"
+      },
+      "fnatic": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0294,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.2,
+            "picks": 1
+          },
+          "Dust2": {
+            "ban_share": 0.1176,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.1176,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.2,
+            "picks": 1
+          },
+          "Mirage": {
+            "ban_share": 0.0882,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.6,
+            "picks": 3
+          },
+          "Nuke": {
+            "ban_share": 0.3824,
+            "bans": 13,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.2647,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Nuke",
+        "sample_end_date": "2026-01-13",
+        "sample_matches": 14,
+        "sample_start_date": "2025-08-07",
+        "team_name": "fnatic"
+      },
+      "furia": {
+        "first_pick": "Overpass",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.457,
+            "bans": 69,
+            "deciders": 0,
+            "pick_share": 0.0303,
+            "picks": 2
+          },
+          "Anubis": {
+            "ban_share": 0.1192,
+            "bans": 18,
+            "deciders": 0,
+            "pick_share": 0.0152,
+            "picks": 1
+          },
+          "Dust2": {
+            "ban_share": 0.0927,
+            "bans": 14,
+            "deciders": 0,
+            "pick_share": 0.2576,
+            "picks": 17
+          },
+          "Inferno": {
+            "ban_share": 0.0795,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.1667,
+            "picks": 11
+          },
+          "Mirage": {
+            "ban_share": 0.0993,
+            "bans": 15,
+            "deciders": 0,
+            "pick_share": 0.1667,
+            "picks": 11
+          },
+          "Nuke": {
+            "ban_share": 0.0993,
+            "bans": 15,
+            "deciders": 0,
+            "pick_share": 0.0758,
+            "picks": 5
+          },
+          "Overpass": {
+            "ban_share": 0.053,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.2879,
+            "picks": 19
+          }
+        },
+        "perma_ban": "Ancient",
+        "sample_end_date": "2026-05-15",
+        "sample_matches": 76,
+        "sample_start_date": "2025-06-07",
+        "team_name": "FURIA"
+      },
+      "fut": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0702,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.1923,
+            "picks": 5
+          },
+          "Anubis": {
+            "ban_share": 0.1053,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.1154,
+            "picks": 3
+          },
+          "Dust2": {
+            "ban_share": 0.0877,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.1154,
+            "picks": 3
+          },
+          "Inferno": {
+            "ban_share": 0.4737,
+            "bans": 27,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.0351,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.4615,
+            "picks": 12
+          },
+          "Nuke": {
+            "ban_share": 0.1228,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.1053,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.1154,
+            "picks": 3
+          }
+        },
+        "perma_ban": "Inferno",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 28,
+        "sample_start_date": "2025-08-05",
+        "team_name": "FUT"
+      },
+      "g2": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0385,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.1379,
+            "picks": 8
+          },
+          "Anubis": {
+            "ban_share": 0.1385,
+            "bans": 18,
+            "deciders": 0,
+            "pick_share": 0.0345,
+            "picks": 2
+          },
+          "Dust2": {
+            "ban_share": 0.0308,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.2931,
+            "picks": 17
+          },
+          "Inferno": {
+            "ban_share": 0.0231,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.2931,
+            "picks": 17
+          },
+          "Mirage": {
+            "ban_share": 0.0923,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.2241,
+            "picks": 13
+          },
+          "Nuke": {
+            "ban_share": 0.4923,
+            "bans": 64,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.1846,
+            "bans": 24,
+            "deciders": 0,
+            "pick_share": 0.0172,
+            "picks": 1
+          }
+        },
+        "perma_ban": "Nuke",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 69,
+        "sample_start_date": "2025-06-12",
+        "team_name": "G2"
+      },
+      "gaimin gladiators": {
+        "first_pick": null,
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1429,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.2857,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.5,
+            "picks": 2
+          },
+          "Inferno": {
+            "ban_share": 0.1429,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.25,
+            "picks": 1
+          },
+          "Mirage": {
+            "ban_share": 0.3571,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.0714,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.25,
+            "picks": 1
+          }
+        },
+        "perma_ban": "Mirage",
+        "sample_end_date": "2026-06-03",
+        "sample_matches": 6,
+        "sample_start_date": "2026-03-01",
+        "team_name": "Gaimin Gladiators"
+      },
+      "gamerlegion": {
+        "first_pick": "Overpass",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0947,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.175,
+            "picks": 7
+          },
+          "Anubis": {
+            "ban_share": 0.1579,
+            "bans": 15,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.2632,
+            "bans": 25,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.1158,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.275,
+            "picks": 11
+          },
+          "Mirage": {
+            "ban_share": 0.2316,
+            "bans": 22,
+            "deciders": 0,
+            "pick_share": 0.125,
+            "picks": 5
+          },
+          "Nuke": {
+            "ban_share": 0.0316,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.125,
+            "picks": 5
+          },
+          "Overpass": {
+            "ban_share": 0.1053,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.3,
+            "picks": 12
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 48,
+        "sample_start_date": "2025-07-23",
+        "team_name": "GamerLegion"
+      },
+      "gentle mates": {
+        "first_pick": "Inferno",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0303,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.2222,
+            "picks": 4
+          },
+          "Anubis": {
+            "ban_share": 0.0909,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.5455,
+            "bans": 18,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.0606,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.4444,
+            "picks": 8
+          },
+          "Mirage": {
+            "ban_share": 0.1212,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.3333,
+            "picks": 6
+          },
+          "Overpass": {
+            "ban_share": 0.1515,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Dust2",
+        "sample_end_date": "2026-05-12",
+        "sample_matches": 18,
+        "sample_start_date": "2025-09-29",
+        "team_name": "Gentle Mates"
+      },
+      "heroic": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1163,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.1351,
+            "picks": 5
+          },
+          "Anubis": {
+            "ban_share": 0.2209,
+            "bans": 19,
+            "deciders": 0,
+            "pick_share": 0.027,
+            "picks": 1
+          },
+          "Dust2": {
+            "ban_share": 0.0814,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.2162,
+            "picks": 8
+          },
+          "Inferno": {
+            "ban_share": 0.2209,
+            "bans": 19,
+            "deciders": 0,
+            "pick_share": 0.0541,
+            "picks": 2
+          },
+          "Mirage": {
+            "ban_share": 0.0814,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.2973,
+            "picks": 11
+          },
+          "Nuke": {
+            "ban_share": 0.1047,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.1622,
+            "picks": 6
+          },
+          "Overpass": {
+            "ban_share": 0.1744,
+            "bans": 15,
+            "deciders": 0,
+            "pick_share": 0.1081,
+            "picks": 4
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-06-04",
+        "sample_matches": 45,
+        "sample_start_date": "2025-06-03",
+        "team_name": "HEROIC"
+      },
+      "hotu": {
+        "first_pick": "Overpass",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0476,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0909,
+            "picks": 1
+          },
+          "Anubis": {
+            "ban_share": 0.0476,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0476,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.2727,
+            "picks": 3
+          },
+          "Inferno": {
+            "ban_share": 0.4286,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.1818,
+            "picks": 2
+          },
+          "Nuke": {
+            "ban_share": 0.2857,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.1429,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.4545,
+            "picks": 5
+          }
+        },
+        "perma_ban": "Inferno",
+        "sample_end_date": "2026-04-15",
+        "sample_matches": 11,
+        "sample_start_date": "2025-09-28",
+        "team_name": "HOTU"
+      },
+      "imperial": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.4091,
+            "bans": 18,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.0455,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0682,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.625,
+            "picks": 5
+          },
+          "Inferno": {
+            "ban_share": 0.2727,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.1364,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.125,
+            "picks": 1
+          },
+          "Nuke": {
+            "ban_share": 0.0682,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.125,
+            "picks": 1
+          },
+          "Overpass": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.125,
+            "picks": 1
+          }
+        },
+        "perma_ban": "Ancient",
+        "sample_end_date": "2025-12-06",
+        "sample_matches": 19,
+        "sample_start_date": "2025-06-03",
+        "team_name": "Imperial"
+      },
+      "inner circle": {
+        "first_pick": "Ancient",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.6667,
+            "picks": 6
+          },
+          "Anubis": {
+            "ban_share": 0.0588,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0588,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.1111,
+            "picks": 1
+          },
+          "Inferno": {
+            "ban_share": 0.4118,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.2222,
+            "picks": 2
+          },
+          "Nuke": {
+            "ban_share": 0.1176,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.3529,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Inferno",
+        "sample_end_date": "2026-01-18",
+        "sample_matches": 9,
+        "sample_start_date": "2025-09-28",
+        "team_name": "Inner Circle"
+      },
+      "legacy": {
+        "first_pick": "Inferno",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1415,
+            "bans": 15,
+            "deciders": 0,
+            "pick_share": 0.0909,
+            "picks": 4
+          },
+          "Anubis": {
+            "ban_share": 0.2642,
+            "bans": 28,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.1038,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.2045,
+            "picks": 9
+          },
+          "Inferno": {
+            "ban_share": 0.0472,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.4091,
+            "picks": 18
+          },
+          "Mirage": {
+            "ban_share": 0.1321,
+            "bans": 14,
+            "deciders": 0,
+            "pick_share": 0.2273,
+            "picks": 10
+          },
+          "Nuke": {
+            "ban_share": 0.1132,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.0682,
+            "picks": 3
+          },
+          "Overpass": {
+            "ban_share": 0.1981,
+            "bans": 21,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 57,
+        "sample_start_date": "2025-06-03",
+        "team_name": "Legacy"
+      },
+      "liquid": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.156,
+            "bans": 17,
+            "deciders": 0,
+            "pick_share": 0.1026,
+            "picks": 4
+          },
+          "Anubis": {
+            "ban_share": 0.0734,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0734,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.1795,
+            "picks": 7
+          },
+          "Inferno": {
+            "ban_share": 0.1193,
+            "bans": 13,
+            "deciders": 0,
+            "pick_share": 0.1026,
+            "picks": 4
+          },
+          "Mirage": {
+            "ban_share": 0.0275,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.4872,
+            "picks": 19
+          },
+          "Nuke": {
+            "ban_share": 0.0917,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.1282,
+            "picks": 5
+          },
+          "Overpass": {
+            "ban_share": 0.4587,
+            "bans": 50,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Overpass",
+        "sample_end_date": "2026-06-05",
+        "sample_matches": 53,
+        "sample_start_date": "2025-06-12",
+        "team_name": "Liquid"
+      },
+      "lynn vision": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1471,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.0667,
+            "picks": 1
+          },
+          "Anubis": {
+            "ban_share": 0.1029,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0147,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.8,
+            "picks": 12
+          },
+          "Inferno": {
+            "ban_share": 0.1765,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.0667,
+            "picks": 1
+          },
+          "Mirage": {
+            "ban_share": 0.4118,
+            "bans": 28,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.0882,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0667,
+            "picks": 1
+          },
+          "Overpass": {
+            "ban_share": 0.0588,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Mirage",
+        "sample_end_date": "2026-06-05",
+        "sample_matches": 30,
+        "sample_start_date": "2025-06-03",
+        "team_name": "Lynn Vision"
+      },
+      "m80": {
+        "first_pick": "Inferno",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1059,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.1304,
+            "picks": 3
+          },
+          "Anubis": {
+            "ban_share": 0.0706,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.1304,
+            "picks": 3
+          },
+          "Dust2": {
+            "ban_share": 0.1176,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.0941,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.2609,
+            "picks": 6
+          },
+          "Mirage": {
+            "ban_share": 0.0588,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.2174,
+            "picks": 5
+          },
+          "Nuke": {
+            "ban_share": 0.4,
+            "bans": 34,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.1529,
+            "bans": 13,
+            "deciders": 0,
+            "pick_share": 0.2609,
+            "picks": 6
+          }
+        },
+        "perma_ban": "Nuke",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 37,
+        "sample_start_date": "2025-06-07",
+        "team_name": "M80"
+      },
+      "magic": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0833,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.1667,
+            "picks": 1
+          },
+          "Anubis": {
+            "ban_share": 0.0833,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.25,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.8333,
+            "picks": 5
+          },
+          "Nuke": {
+            "ban_share": 0.5,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.0833,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Nuke",
+        "sample_end_date": "2026-05-17",
+        "sample_matches": 6,
+        "sample_start_date": "2026-05-09",
+        "team_name": "magic"
+      },
+      "mibr": {
+        "first_pick": "Anubis",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0167,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.1818,
+            "picks": 2
+          },
+          "Anubis": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.2727,
+            "picks": 3
+          },
+          "Dust2": {
+            "ban_share": 0.4333,
+            "bans": 26,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.15,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.2727,
+            "picks": 3
+          },
+          "Mirage": {
+            "ban_share": 0.1333,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.1818,
+            "picks": 2
+          },
+          "Nuke": {
+            "ban_share": 0.1,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0909,
+            "picks": 1
+          },
+          "Overpass": {
+            "ban_share": 0.1667,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Dust2",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 26,
+        "sample_start_date": "2025-06-07",
+        "team_name": "MIBR"
+      },
+      "monte": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.2286,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.1143,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.6154,
+            "picks": 8
+          },
+          "Inferno": {
+            "ban_share": 0.2857,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.1143,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0769,
+            "picks": 1
+          },
+          "Nuke": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.3077,
+            "picks": 4
+          },
+          "Overpass": {
+            "ban_share": 0.2571,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 16,
+        "sample_start_date": "2026-01-14",
+        "team_name": "Monte"
+      },
+      "mouz": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1418,
+            "bans": 19,
+            "deciders": 0,
+            "pick_share": 0.0169,
+            "picks": 1
+          },
+          "Anubis": {
+            "ban_share": 0.2761,
+            "bans": 37,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.2836,
+            "bans": 38,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.0746,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.3051,
+            "picks": 18
+          },
+          "Mirage": {
+            "ban_share": 0.0746,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.3898,
+            "picks": 23
+          },
+          "Nuke": {
+            "ban_share": 0.0597,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.1525,
+            "picks": 9
+          },
+          "Overpass": {
+            "ban_share": 0.0896,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.1356,
+            "picks": 8
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-05-24",
+        "sample_matches": 69,
+        "sample_start_date": "2025-06-12",
+        "team_name": "MOUZ"
+      },
+      "natus vincere": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0441,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.2456,
+            "picks": 14
+          },
+          "Anubis": {
+            "ban_share": 0.0588,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.0877,
+            "picks": 5
+          },
+          "Dust2": {
+            "ban_share": 0.1838,
+            "bans": 25,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.0956,
+            "bans": 13,
+            "deciders": 0,
+            "pick_share": 0.1754,
+            "picks": 10
+          },
+          "Mirage": {
+            "ban_share": 0.0441,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.386,
+            "picks": 22
+          },
+          "Nuke": {
+            "ban_share": 0.1397,
+            "bans": 19,
+            "deciders": 0,
+            "pick_share": 0.1053,
+            "picks": 6
+          },
+          "Overpass": {
+            "ban_share": 0.4338,
+            "bans": 59,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Overpass",
+        "sample_end_date": "2026-05-17",
+        "sample_matches": 67,
+        "sample_start_date": "2025-06-12",
+        "team_name": "Natus Vincere"
+      },
+      "nemiga": {
+        "first_pick": "Ancient",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.6,
+            "picks": 3
+          },
+          "Anubis": {
+            "ban_share": 0.2727,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.4,
+            "picks": 2
+          },
+          "Inferno": {
+            "ban_share": 0.1515,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.2121,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.3636,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Nuke",
+        "sample_end_date": "2025-08-05",
+        "sample_matches": 13,
+        "sample_start_date": "2025-06-03",
+        "team_name": "Nemiga"
+      },
+      "ninjas in pyjamas": {
+        "first_pick": "Nuke",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0702,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.2778,
+            "picks": 5
+          },
+          "Anubis": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.0556,
+            "picks": 1
+          },
+          "Dust2": {
+            "ban_share": 0.193,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.386,
+            "bans": 22,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.2281,
+            "bans": 13,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.6667,
+            "picks": 12
+          },
+          "Overpass": {
+            "ban_share": 0.1228,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Inferno",
+        "sample_end_date": "2026-05-20",
+        "sample_matches": 26,
+        "sample_start_date": "2025-07-23",
+        "team_name": "Ninjas in Pyjamas"
+      },
+      "nrg": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.2394,
+            "bans": 17,
+            "deciders": 0,
+            "pick_share": 0.25,
+            "picks": 5
+          },
+          "Anubis": {
+            "ban_share": 0.0986,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.05,
+            "picks": 1
+          },
+          "Dust2": {
+            "ban_share": 0.1549,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.1,
+            "picks": 2
+          },
+          "Inferno": {
+            "ban_share": 0.0845,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.2,
+            "picks": 4
+          },
+          "Mirage": {
+            "ban_share": 0.0845,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.35,
+            "picks": 7
+          },
+          "Nuke": {
+            "ban_share": 0.1831,
+            "bans": 13,
+            "deciders": 0,
+            "pick_share": 0.05,
+            "picks": 1
+          },
+          "Overpass": {
+            "ban_share": 0.1549,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-06-05",
+        "sample_matches": 32,
+        "sample_start_date": "2025-06-03",
+        "team_name": "NRG"
+      },
+      "og": {
+        "first_pick": "Nuke",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.25,
+            "picks": 1
+          },
+          "Anubis": {
+            "ban_share": 0.1333,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.3333,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.2,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.2667,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.0667,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.75,
+            "picks": 3
+          }
+        },
+        "perma_ban": "Dust2",
+        "sample_end_date": "2026-01-13",
+        "sample_matches": 9,
+        "sample_start_date": "2025-06-03",
+        "team_name": "OG"
+      },
+      "pain": {
+        "first_pick": "Nuke",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.3696,
+            "bans": 34,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.087,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.0909,
+            "picks": 4
+          },
+          "Dust2": {
+            "ban_share": 0.0652,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.1591,
+            "picks": 7
+          },
+          "Inferno": {
+            "ban_share": 0.1848,
+            "bans": 17,
+            "deciders": 0,
+            "pick_share": 0.0682,
+            "picks": 3
+          },
+          "Mirage": {
+            "ban_share": 0.1196,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.1136,
+            "picks": 5
+          },
+          "Nuke": {
+            "ban_share": 0.0217,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.5682,
+            "picks": 25
+          },
+          "Overpass": {
+            "ban_share": 0.1522,
+            "bans": 14,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Ancient",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 54,
+        "sample_start_date": "2025-06-07",
+        "team_name": "paiN"
+      },
+      "parivision": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0641,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.2903,
+            "picks": 9
+          },
+          "Anubis": {
+            "ban_share": 0.1026,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0128,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.5161,
+            "picks": 16
+          },
+          "Inferno": {
+            "ban_share": 0.1667,
+            "bans": 13,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.0769,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.129,
+            "picks": 4
+          },
+          "Nuke": {
+            "ban_share": 0.5,
+            "bans": 39,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.0769,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0645,
+            "picks": 2
+          }
+        },
+        "perma_ban": "Nuke",
+        "sample_end_date": "2026-05-22",
+        "sample_matches": 39,
+        "sample_start_date": "2025-11-24",
+        "team_name": "PARIVISION"
+      },
+      "passion ua": {
+        "first_pick": "Overpass",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.4082,
+            "bans": 20,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.0408,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.1176,
+            "picks": 2
+          },
+          "Dust2": {
+            "ban_share": 0.102,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.1765,
+            "picks": 3
+          },
+          "Inferno": {
+            "ban_share": 0.1224,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.1765,
+            "picks": 3
+          },
+          "Mirage": {
+            "ban_share": 0.0816,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0588,
+            "picks": 1
+          },
+          "Nuke": {
+            "ban_share": 0.2245,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.0588,
+            "picks": 1
+          },
+          "Overpass": {
+            "ban_share": 0.0204,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.4118,
+            "picks": 7
+          }
+        },
+        "perma_ban": "Ancient",
+        "sample_end_date": "2026-05-12",
+        "sample_matches": 23,
+        "sample_start_date": "2025-08-06",
+        "team_name": "Passion UA"
+      },
+      "red canids": {
+        "first_pick": null,
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0625,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.375,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.25,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.5,
+            "picks": 2
+          },
+          "Nuke": {
+            "ban_share": 0.125,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.5,
+            "picks": 2
+          },
+          "Overpass": {
+            "ban_share": 0.1875,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Dust2",
+        "sample_end_date": "2026-04-15",
+        "sample_matches": 7,
+        "sample_start_date": "2025-11-24",
+        "team_name": "RED Canids"
+      },
+      "sinners": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1875,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.2,
+            "picks": 1
+          },
+          "Anubis": {
+            "ban_share": 0.375,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0625,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.1875,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.6,
+            "picks": 3
+          },
+          "Nuke": {
+            "ban_share": 0.125,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.2,
+            "picks": 1
+          },
+          "Overpass": {
+            "ban_share": 0.0625,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Anubis",
+        "sample_end_date": "2026-06-03",
+        "sample_matches": 7,
+        "sample_start_date": "2026-01-16",
+        "team_name": "SINNERS"
+      },
+      "spirit": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0744,
+            "bans": 9,
+            "deciders": 0,
+            "pick_share": 0.1538,
+            "picks": 10
+          },
+          "Anubis": {
+            "ban_share": 0.0992,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.0615,
+            "picks": 4
+          },
+          "Dust2": {
+            "ban_share": 0.0083,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.4615,
+            "picks": 30
+          },
+          "Inferno": {
+            "ban_share": 0.5537,
+            "bans": 67,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.0579,
+            "bans": 7,
+            "deciders": 0,
+            "pick_share": 0.1385,
+            "picks": 9
+          },
+          "Nuke": {
+            "ban_share": 0.1157,
+            "bans": 14,
+            "deciders": 0,
+            "pick_share": 0.1231,
+            "picks": 8
+          },
+          "Overpass": {
+            "ban_share": 0.0909,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.0615,
+            "picks": 4
+          }
+        },
+        "perma_ban": "Inferno",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 67,
+        "sample_start_date": "2025-06-12",
+        "team_name": "Spirit"
+      },
+      "the huns": {
+        "first_pick": "Nuke",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1429,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.3333,
+            "picks": 2
+          },
+          "Anubis": {
+            "ban_share": 0.2857,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0714,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.0714,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.1667,
+            "picks": 1
+          },
+          "Mirage": {
+            "ban_share": 0.0714,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.5,
+            "picks": 3
+          },
+          "Overpass": {
+            "ban_share": 0.3571,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": "Overpass",
+        "sample_end_date": "2026-05-12",
+        "sample_matches": 8,
+        "sample_start_date": "2025-11-24",
+        "team_name": "The Huns"
+      },
+      "the mongolz": {
+        "first_pick": "Mirage",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.2941,
+            "picks": 15
+          },
+          "Anubis": {
+            "ban_share": 0.2716,
+            "bans": 22,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.2222,
+            "bans": 18,
+            "deciders": 0,
+            "pick_share": 0.0196,
+            "picks": 1
+          },
+          "Inferno": {
+            "ban_share": 0.0494,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.1569,
+            "picks": 8
+          },
+          "Mirage": {
+            "ban_share": 0.0247,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.451,
+            "picks": 23
+          },
+          "Nuke": {
+            "ban_share": 0.1358,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.0784,
+            "picks": 4
+          },
+          "Overpass": {
+            "ban_share": 0.2963,
+            "bans": 24,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2026-05-22",
+        "sample_matches": 56,
+        "sample_start_date": "2025-06-12",
+        "team_name": "The MongolZ"
+      },
+      "tyloo": {
+        "first_pick": "Inferno",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1951,
+            "bans": 16,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.0976,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.4146,
+            "bans": 34,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Inferno": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.7368,
+            "picks": 14
+          },
+          "Mirage": {
+            "ban_share": 0.0488,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.2105,
+            "picks": 4
+          },
+          "Nuke": {
+            "ban_share": 0.1707,
+            "bans": 14,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.0732,
+            "bans": 6,
+            "deciders": 0,
+            "pick_share": 0.0526,
+            "picks": 1
+          }
+        },
+        "perma_ban": "Dust2",
+        "sample_end_date": "2026-06-07",
+        "sample_matches": 35,
+        "sample_start_date": "2025-06-03",
+        "team_name": "TYLOO"
+      },
+      "virtus pro": {
+        "first_pick": "Overpass",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.2444,
+            "bans": 11,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.0889,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.2632,
+            "picks": 5
+          },
+          "Inferno": {
+            "ban_share": 0.0667,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.1053,
+            "picks": 2
+          },
+          "Mirage": {
+            "ban_share": 0.1111,
+            "bans": 5,
+            "deciders": 0,
+            "pick_share": 0.1053,
+            "picks": 2
+          },
+          "Nuke": {
+            "ban_share": 0.4889,
+            "bans": 22,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Overpass": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 0.5263,
+            "picks": 10
+          }
+        },
+        "perma_ban": "Nuke",
+        "sample_end_date": "2026-01-14",
+        "sample_matches": 23,
+        "sample_start_date": "2025-06-07",
+        "team_name": "Virtus.pro"
+      },
+      "vitality": {
+        "first_pick": "Dust2",
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.5286,
+            "bans": 74,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.1143,
+            "bans": 16,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.0214,
+            "bans": 3,
+            "deciders": 0,
+            "pick_share": 0.36,
+            "picks": 27
+          },
+          "Inferno": {
+            "ban_share": 0.0857,
+            "bans": 12,
+            "deciders": 0,
+            "pick_share": 0.24,
+            "picks": 18
+          },
+          "Mirage": {
+            "ban_share": 0.1214,
+            "bans": 17,
+            "deciders": 0,
+            "pick_share": 0.04,
+            "picks": 3
+          },
+          "Nuke": {
+            "ban_share": 0.0714,
+            "bans": 10,
+            "deciders": 0,
+            "pick_share": 0.1733,
+            "picks": 13
+          },
+          "Overpass": {
+            "ban_share": 0.0571,
+            "bans": 8,
+            "deciders": 0,
+            "pick_share": 0.1867,
+            "picks": 14
+          }
+        },
+        "perma_ban": "Ancient",
+        "sample_end_date": "2026-05-15",
+        "sample_matches": 77,
+        "sample_start_date": "2025-06-12",
+        "team_name": "Vitality"
+      },
+      "wildcard": {
+        "first_pick": null,
+        "maps": {
+          "Ancient": {
+            "ban_share": 0.1818,
+            "bans": 2,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Anubis": {
+            "ban_share": 0.0909,
+            "bans": 1,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Dust2": {
+            "ban_share": 0.3636,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Mirage": {
+            "ban_share": 0.3636,
+            "bans": 4,
+            "deciders": 0,
+            "pick_share": 0.0,
+            "picks": 0
+          },
+          "Nuke": {
+            "ban_share": 0.0,
+            "bans": 0,
+            "deciders": 0,
+            "pick_share": 1.0,
+            "picks": 2
+          }
+        },
+        "perma_ban": null,
+        "sample_end_date": "2025-06-06",
+        "sample_matches": 5,
+        "sample_start_date": "2025-06-03",
+        "team_name": "Wildcard"
+      }
+    }
   },
   "notices": [
     "Stage 3 is locked from verified results; the live view now defaults to playoffs.",

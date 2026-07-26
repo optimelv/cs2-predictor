@@ -1,5 +1,15 @@
 import { eventIsProductEligible, normalizeEvent, normalizeMatch, normalizePlatformSnapshot, productTierForEvent } from "./lib/snapshot.js?v=20260726.1";
 import { buildDoubleEliminationTree } from "./lib/brackets.js?v=20260726.1";
+import {
+  applyVetoMap,
+  buildRecommendedVeto,
+  createVetoState,
+  mapWinProbability,
+  recommendedMap,
+  replayVeto,
+  vetoSeriesRead,
+  vetoTeamKey,
+} from "./lib/veto.js?v=20260726.1";
 
 const DATA_URL = "./data/predictions.json";
 const SUPPLEMENTAL_TEAM_ASSETS = window.__STRIKESIGNAL_TEAM_ASSETS__ || {};
@@ -32,6 +42,9 @@ const els = {
   deciderGrid: document.querySelector("#deciderGrid"),
   modelPre: document.querySelector("#modelPre"),
   modelPost: document.querySelector("#modelPost"),
+  modelCalibration: document.querySelector("#modelCalibration"),
+  modelSample: document.querySelector("#modelSample"),
+  modelVersion: document.querySelector("#modelVersion"),
   heroPre: document.querySelector("#heroPre"),
   heroPost: document.querySelector("#heroPost"),
   rankingsGrid: document.querySelector("#rankingsGrid"),
@@ -56,6 +69,10 @@ const els = {
   searchBackdrop: document.querySelector("#searchBackdrop"),
   productSearch: document.querySelector("#productSearch"),
   searchResults: document.querySelector("#searchResults"),
+  vetoLabLayer: document.querySelector("#vetoLabLayer"),
+  vetoLabBackdrop: document.querySelector("#vetoLabBackdrop"),
+  vetoLabClose: document.querySelector("#vetoLabClose"),
+  vetoLabContent: document.querySelector("#vetoLabContent"),
   eventFilterButtons: document.querySelectorAll("[data-event-filter]"),
   emptyTemplate: document.querySelector("#emptyTemplate"),
 };
@@ -80,6 +97,8 @@ let playerSearchTerm = "";
 let playerTeamFilter = "all";
 let selectedPlayerId = null;
 let selectedTeamName = null;
+let activeVetoMatch = null;
+let vetoLabState = null;
 const pickOverrides = new Map();
 const SAVED_PICKS_KEY = "strikesignal.saved-picks.v1";
 let savedPicks = loadSavedPicks();
@@ -316,8 +335,13 @@ function projectedMapRead(match) {
   const eventPool = eventForMatch(match)?.map_pool || appData?.model_state?.map_pool || [];
   const common = eventPool.filter((mapName) => profile1[mapName]?.matches && profile2[mapName]?.matches);
   if (common.length < 2) return null;
-  const ban1 = [...common].sort((a, b) => Number(profile1[a]?.matches || 0) - Number(profile1[b]?.matches || 0))[0];
-  const ban2 = [...common].sort((a, b) => Number(profile2[a]?.matches || 0) - Number(profile2[b]?.matches || 0))[0];
+  const projectedBan = (teamName, pool, profile) => {
+    const historicalBan = appData?.model_state?.veto_profiles?.[normalizeName(teamName)]?.perma_ban;
+    if (historicalBan && pool.includes(historicalBan)) return historicalBan;
+    return [...pool].sort((a, b) => Number(profile[a]?.matches || 0) - Number(profile[b]?.matches || 0))[0];
+  };
+  const ban1 = projectedBan(match.team1_name, eventPool, profile1);
+  const ban2 = projectedBan(match.team2_name, eventPool.filter((mapName) => mapName !== ban1), profile2);
   const baseProbability = Number(match.prob_team1) || pairProbability(match.team1_name, match.team2_name);
   const baseLogit = Math.log(baseProbability / (1 - baseProbability));
   const candidates = common
@@ -411,11 +435,12 @@ function matchInsightHtml(match) {
       ${signalRow("Map depth", call.team1_name, call.team2_name, depth1, depth2, (value) => `${Math.round(value * 100)}%`)}
     </div>
     <div class="veto-console">
-      <div class="veto-console-head"><span>Veto desk</span><strong>${mapRead ? (mapRead.status === "known_veto" ? "Maps locked" : "Projected") : "Awaiting profiles"}</strong></div>
+      <div class="veto-console-head"><span>Veto desk</span><strong>${mapRead ? (mapRead.status === "known_veto" ? "Maps locked" : "Projected") : "Build the map path"}</strong></div>
       ${mapRead ? `
         <div class="veto-map-strip">${mapRead.maps.map((map) => `<article><span>${escapeHtml(map.map_name)}</span><strong>${escapeHtml(map.predicted_winner)}</strong><b>${formatPercent(map.confidence)}</b></article>`).join("")}</div>
         <div class="ban-read">${Object.entries(mapRead.excluded_maps || {}).map(([teamName, maps]) => `<span>${escapeHtml(teamName)} ban · ${escapeHtml((maps || []).join(", "))}</span>`).join("")}</div>
-      ` : `<div class="veto-empty"><i></i><span>Map probabilities unlock when both team profiles reach the feed.</span></div>`}
+      ` : `<div class="veto-empty"><i></i><span>Use the Veto Lab to inspect available evidence and test the map order.</span></div>`}
+      <button class="open-veto-lab" type="button" data-open-veto="${escapeHtml(matchKeyOf(call))}"><span>Open Veto Lab</span><b>Ban · pick · recalculate</b><i aria-hidden="true">↗</i></button>
     </div>
   `;
 }
@@ -509,6 +534,164 @@ function renderDeciders(matches) {
     renderDeciders(dailyMatchCalls());
   }));
   bindMatchPickActions(els.deciderGrid, selected, () => renderDeciders(dailyMatchCalls()));
+}
+
+function vetoProfiles() {
+  return {
+    maps: appData?.model_state?.map_profiles || {},
+    vetoes: appData?.model_state?.veto_profiles || {},
+  };
+}
+
+function matchBestOf(match) {
+  const value = Number(String(match?.series_format || match?.format || "bo3").replace(/[^0-9]/g, ""));
+  return [1, 3, 5].includes(value) ? value : 3;
+}
+
+function matchForVetoKey(key) {
+  return [...dailyMatchCalls(), ...renderedEventMatches, ...activeEventCalls()].find((match) => matchKeyOf(match) === key) || null;
+}
+
+function vetoActionLabel(action) {
+  if (!action) return "Complete";
+  if (action.action === "decider") return "Decider";
+  return `${action.actor} ${action.action === "ban" ? "bans" : "picks"}`;
+}
+
+function vetoProfileFor(teamName) {
+  return appData?.model_state?.veto_profiles?.[vetoTeamKey(teamName)] || { maps: {}, sample_matches: 0 };
+}
+
+function vetoMapCardHtml(mapName, state, recommendation) {
+  const match = activeVetoMatch;
+  const profiles = vetoProfiles();
+  const action = state.actions.find((row) => row.map_name === mapName);
+  const firstMap = profiles.maps[vetoTeamKey(match.team1_name)]?.[mapName] || {};
+  const secondMap = profiles.maps[vetoTeamKey(match.team2_name)]?.[mapName] || {};
+  const firstVeto = profiles.vetoes[vetoTeamKey(match.team1_name)]?.maps?.[mapName] || {};
+  const secondVeto = profiles.vetoes[vetoTeamKey(match.team2_name)]?.maps?.[mapName] || {};
+  const firstRate = mapRateWithPrior(firstMap);
+  const secondRate = mapRateWithPrior(secondMap);
+  const evidence = (Number(firstMap.matches) || 0) + (Number(secondMap.matches) || 0);
+  const available = state.available.includes(mapName);
+  const selectable = available && !state.complete;
+  const stateLabel = action ? (action.action === "ban" ? "Banned" : action.action === "pick" ? `Pick ${state.actions.filter((row) => row.action === "pick").indexOf(action) + 1}` : "Decider") : recommendation === mapName ? "Recommended" : "Available";
+  return `<button type="button" class="veto-map-card ${action ? `is-${action.action}` : ""} ${recommendation === mapName && !action ? "is-recommended" : ""}" ${selectable ? `data-veto-map="${escapeHtml(mapName)}"` : "disabled"}>
+    <header><span>${escapeHtml(stateLabel)}</span><strong>${escapeHtml(mapName)}</strong></header>
+    <div><span>${escapeHtml(match.team1_name)}<b>${firstMap.matches ? formatPercent(firstRate) : "--"}</b></span><i></i><span><b>${secondMap.matches ? formatPercent(secondRate) : "--"}</b>${escapeHtml(match.team2_name)}</span></div>
+    <footer><span>${formatPercent(Number(firstVeto.ban_share) || 0)} ban</span><small>${evidence || 0} maps</small><span>${formatPercent(Number(secondVeto.ban_share) || 0)} ban</span></footer>
+  </button>`;
+}
+
+function vetoLabHtml(match, state) {
+  const profiles = vetoProfiles();
+  const baseProbability = Number(enrichMatch(match).prob_team1);
+  const read = vetoSeriesRead(state, { baseProbability, mapProfiles: profiles.maps });
+  const next = state.steps[state.actions.length] || null;
+  const recommendation = recommendedMap(state, profiles.maps, profiles.vetoes);
+  const firstVeto = vetoProfileFor(match.team1_name);
+  const secondVeto = vetoProfileFor(match.team2_name);
+  const preVetoWinner = baseProbability >= 0.5 ? match.team1_name : match.team2_name;
+  const preVetoConfidence = Math.max(baseProbability, 1 - baseProbability);
+  const pickedWinner = read.prob_team1 >= 0.5 ? match.team1_name : match.team2_name;
+  const officialMaps = (match.maps || match.map_read?.maps?.map((row) => row.map_name) || []).filter(Boolean);
+  return `
+    <section class="veto-lab-hero">
+      <div class="veto-lab-match">
+        <span>${escapeHtml(match.event_name || "CS2 circuit")} · ${escapeHtml(String(match.series_format || "bo3").toUpperCase())}</span>
+        <div><strong>${teamLogoHtml(match.team1_name)}${escapeHtml(match.team1_name)}</strong><i>vs</i><strong>${escapeHtml(match.team2_name)}${teamLogoHtml(match.team2_name)}</strong></div>
+      </div>
+      <div class="veto-lab-output">
+        <div><span>Pre-veto</span><strong>${formatPercent(preVetoConfidence)}</strong><small>${escapeHtml(preVetoWinner)}</small></div>
+        <i><b style="--veto-shift:${Math.round(read.prob_team1 * 100)}%"></b></i>
+        <div><span>${state.complete ? "Final map read" : `${state.actions.length}/${state.steps.length} actions`}</span><strong>${formatPercent(Math.max(read.prob_team1, 1 - read.prob_team1))}</strong><small>${escapeHtml(pickedWinner)}</small></div>
+      </div>
+    </section>
+    ${officialMaps.length ? `<div class="veto-official-strip"><span>Official maps detected</span><strong>${officialMaps.map(escapeHtml).join(" · ")}</strong><small>The live post-veto call remains authoritative.</small></div>` : ""}
+    <section class="veto-workbench">
+      <div class="veto-sequence-panel">
+        <header><div><span>Veto sequence</span><strong>${escapeHtml(vetoActionLabel(next))}</strong></div><small>${escapeHtml(state.firstTeam)} acts first</small></header>
+        <div class="veto-sequence">
+          ${state.steps.map((step, index) => {
+            const action = state.actions[index];
+            return `<article class="${action ? `is-${action.action}` : index === state.actions.length ? "is-current" : ""}"><span>${String(index + 1).padStart(2, "0")}</span><strong>${escapeHtml(action?.map_name || (step.action === "decider" ? "Decider" : step.action))}</strong><small>${escapeHtml(action ? vetoActionLabel(action) : step.actor)}</small></article>`;
+          }).join("")}
+        </div>
+        <div class="veto-controls">
+          <button type="button" data-veto-auto>Run model veto</button>
+          <button type="button" data-veto-first>First: ${escapeHtml(state.firstTeam)}</button>
+          <button type="button" data-veto-undo ${state.actions.filter((row) => !row.automatic).length ? "" : "disabled"}>Undo</button>
+          <button type="button" data-veto-reset>Reset</button>
+        </div>
+      </div>
+      <aside class="veto-evidence-panel">
+        <header><span>Veto identity</span><strong>Last 12 months</strong></header>
+        <div><section>${teamLogoHtml(match.team1_name)}<span><b>${escapeHtml(match.team1_name)}</b><small>${firstVeto.sample_matches || 0} vetoes</small></span><strong>${escapeHtml(firstVeto.perma_ban || "No stable ban")}</strong></section><section>${teamLogoHtml(match.team2_name)}<span><b>${escapeHtml(match.team2_name)}</b><small>${secondVeto.sample_matches || 0} vetoes</small></span><strong>${escapeHtml(secondVeto.perma_ban || "No stable ban")}</strong></section></div>
+        <footer>${Math.min(Number(firstVeto.sample_matches) || 0, Number(secondVeto.sample_matches) || 0) >= 10 ? "Veto history is strong enough for an automated path." : "Low sample: the recommendation stays close to the pre-veto call."}</footer>
+      </aside>
+    </section>
+    <section class="veto-map-matrix">
+      <header><div><span>Map pool</span><strong>${next ? `Choose ${next.action} for ${next.actor}` : "Veto complete"}</strong></div><small>Map win rate · historical ban share · combined sample</small></header>
+      <div>${state.pool.map((mapName) => vetoMapCardHtml(mapName, state, recommendation)).join("")}</div>
+    </section>
+    <section class="veto-map-outlook">
+      <header><span>Series map order</span><strong>${state.complete ? `${escapeHtml(pickedWinner)} ${formatPercent(Math.max(read.prob_team1, 1 - read.prob_team1))}` : "Updates with every action"}</strong></header>
+      <div>${read.maps.map((row, index) => `<article><span>Map ${index + 1}</span><strong>${escapeHtml(row.map_name)}</strong><div><b>${escapeHtml(match.team1_name)} ${formatPercent(row.prob_team1)}</b><i style="--map-share:${Math.round(row.prob_team1 * 100)}%"></i><b>${formatPercent(1 - row.prob_team1)} ${escapeHtml(match.team2_name)}</b></div><small>${row.evidence_maps} historical maps · ${row.evidence} evidence</small></article>`).join("") || `<div class="veto-outlook-empty">Picks appear here as the veto develops.</div>`}</div>
+    </section>`;
+}
+
+function renderVetoLab() {
+  if (!activeVetoMatch || !vetoLabState || !els.vetoLabContent) return;
+  els.vetoLabContent.innerHTML = vetoLabHtml(activeVetoMatch, vetoLabState);
+  els.vetoLabContent.querySelectorAll("[data-veto-map]").forEach((button) => button.addEventListener("click", () => {
+    vetoLabState = applyVetoMap(vetoLabState, button.dataset.vetoMap);
+    renderVetoLab();
+  }));
+  els.vetoLabContent.querySelector("[data-veto-auto]")?.addEventListener("click", () => {
+    const profiles = vetoProfiles();
+    vetoLabState = buildRecommendedVeto(vetoLabState, profiles.maps, profiles.vetoes);
+    renderVetoLab();
+  });
+  els.vetoLabContent.querySelector("[data-veto-undo]")?.addEventListener("click", () => {
+    const actions = vetoLabState.actions.filter((row) => !row.automatic).slice(0, -1);
+    vetoLabState = replayVeto(vetoLabState, actions);
+    renderVetoLab();
+  });
+  els.vetoLabContent.querySelector("[data-veto-reset]")?.addEventListener("click", () => {
+    vetoLabState = createVetoState(vetoLabState);
+    renderVetoLab();
+  });
+  els.vetoLabContent.querySelector("[data-veto-first]")?.addEventListener("click", () => {
+    const firstTeam = vetoLabState.firstTeam === vetoLabState.team1 ? vetoLabState.team2 : vetoLabState.team1;
+    vetoLabState = createVetoState({ ...vetoLabState, firstTeam });
+    renderVetoLab();
+  });
+}
+
+function openVetoLab(match) {
+  if (!match || !els.vetoLabLayer) return;
+  const pool = eventForMatch(match)?.map_pool || appData?.model_state?.map_pool || [];
+  if (pool.length < 7) return;
+  activeVetoMatch = enrichMatch(match);
+  vetoLabState = createVetoState({
+    pool: pool.slice(0, 7),
+    team1: activeVetoMatch.team1_name,
+    team2: activeVetoMatch.team2_name,
+    bestOf: matchBestOf(activeVetoMatch),
+  });
+  els.vetoLabLayer.hidden = false;
+  document.body.classList.add("veto-lab-open");
+  window.requestAnimationFrame(() => els.vetoLabLayer.classList.add("is-open"));
+  renderVetoLab();
+}
+
+function closeVetoLab() {
+  if (!els.vetoLabLayer || els.vetoLabLayer.hidden) return;
+  els.vetoLabLayer.classList.remove("is-open");
+  document.body.classList.remove("veto-lab-open");
+  window.setTimeout(() => {
+    if (!els.vetoLabLayer.classList.contains("is-open")) els.vetoLabLayer.hidden = true;
+  }, 220);
 }
 
 function mapRow(map, match) {
@@ -2547,8 +2730,14 @@ function updateSummary(data) {
 
   const productionAccuracy = data.model?.production?.metrics?.accuracy ?? data.model?.best_pre_match?.accuracy;
   const postVetoAccuracy = data.model?.best_post_veto?.accuracy;
+  const productionModel = data.model_registry?.champion || data.model?.production || {};
+  const calibrationError = productionModel.metrics?.ece;
+  const holdoutRows = Number(productionModel.test_rows || 0);
   setText(els.modelPre, formatPercent(productionAccuracy));
   setText(els.modelPost, formatPercent(postVetoAccuracy));
+  setText(els.modelCalibration, Number.isFinite(Number(calibrationError)) ? `${(Number(calibrationError) * 100).toFixed(1)} pts` : "--");
+  setText(els.modelSample, holdoutRows ? holdoutRows.toLocaleString("en-US") : "--");
+  setText(els.modelVersion, productionModel.version ? String(productionModel.version).replaceAll("-", " ") : "Production model");
   setText(els.heroPre, formatPercent(productionAccuracy));
   setText(els.heroPost, formatPercent(postVetoAccuracy));
   setText(els.freshnessLabel, `${isFresh ? "Live check" : "Last check"} · ${formatDate(verifiedAt)}`);
@@ -2956,6 +3145,23 @@ els.playerTeamFilter?.addEventListener("change", (event) => {
   playerTeamFilter = event.target.value || "all";
   selectedPlayerId = null;
   renderPlayers();
+});
+
+document.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  const trigger = event.target.closest("[data-open-veto]");
+  if (!trigger) return;
+  event.preventDefault();
+  event.stopPropagation();
+  const match = matchForVetoKey(trigger.dataset.openVeto);
+  if (match) openVetoLab(match);
+}, true);
+
+els.vetoLabClose?.addEventListener("click", closeVetoLab);
+els.vetoLabBackdrop?.addEventListener("click", closeVetoLab);
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && els.vetoLabLayer && !els.vetoLabLayer.hidden) closeVetoLab();
 });
 
 document.addEventListener("click", (event) => {
