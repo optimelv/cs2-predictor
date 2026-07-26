@@ -330,7 +330,7 @@ function dailyMatchCalls() {
       const event = (appData?.coverage?.events || []).find((candidate) => candidate.id === match.event_id || normalizeName(candidate.name) === normalizeName(match.event_name));
       return event ? eventIsProductEligible(event) : eventIsProductEligible({ name: match.event_name });
     })
-    .filter((match) => Number.isFinite(new Date(match.starts_at || 0).getTime()))
+    .filter((match) => match.starts_at && Number.isFinite(new Date(match.starts_at).getTime()))
     .sort((a, b) => new Date(a.starts_at || 0) - new Date(b.starts_at || 0) || matchSignalScore(b) - matchSignalScore(a));
 }
 
