@@ -15,7 +15,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 15
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -28,28 +28,72 @@ jobs:
       - name: Install model runtime
         run: python -m pip install --disable-pip-version-check numpy scikit-learn
 
-      - name: Resolve the Always Free live worker
-        id: worker
+      - name: Acquire a provider-neutral live snapshot
+        id: snapshot
         shell: bash
         run: |
+          snapshot_path="$RUNNER_TEMP/live-snapshot.json"
           worker_url=$(node -e "import('./config/oracle-worker.js').then(({ORACLE_WORKER_URL}) => process.stdout.write(ORACLE_WORKER_URL || ''))")
-          if [ -z "$worker_url" ]; then
-            echo "Oracle capacity is not connected yet; preserving the last verified release."
+          if [ -n "$worker_url" ]; then
+            echo "Trying the persistent Always Free worker."
+            if curl --fail --silent --show-error --retry 2 --retry-delay 5 \
+              "$worker_url/snapshot" --output "$snapshot_path"; then
+              echo "available=true" >> "$GITHUB_OUTPUT"
+              echo "source=oracle" >> "$GITHUB_OUTPUT"
+              echo "ephemeral=false" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "The persistent worker is unhealthy; falling back to an ephemeral runner."
+          fi
+
+          echo "ephemeral=true" >> "$GITHUB_OUTPUT"
+          if ! python -m pip install --disable-pip-version-check -r infra/oracle/worker/requirements.txt; then
+            echo "Worker dependencies failed to install; preserving the last verified release."
             echo "available=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          echo "available=true" >> "$GITHUB_OUTPUT"
-          echo "url=$worker_url" >> "$GITHUB_OUTPUT"
+          if ! docker run -d --name strikesignal-flaresolverr \
+            --shm-size=1g \
+            -e LOG_LEVEL=info \
+            -e LOG_HTML=false \
+            -e CAPTCHA_SOLVER=none \
+            -p 8191:8191 \
+            ghcr.io/flaresolverr/flaresolverr:v3.5.0; then
+            echo "FlareSolverr failed to start; preserving the last verified release."
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
 
-      - name: Fetch the provider-neutral live snapshot
-        if: steps.worker.outputs.available == 'true'
-        run: >
-          curl --fail --silent --show-error --retry 2 --retry-delay 5
-          "${{ steps.worker.outputs.url }}/snapshot"
-          --output "$RUNNER_TEMP/live-snapshot.json"
+          ready=false
+          for attempt in {1..45}; do
+            if curl --fail --silent http://127.0.0.1:8191/ >/dev/null; then
+              ready=true
+              break
+            fi
+            sleep 2
+          done
+          if [ "$ready" != "true" ]; then
+            echo "FlareSolverr did not become ready; preserving the last verified release."
+            docker logs --tail 120 strikesignal-flaresolverr || true
+            echo "available=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          if FLARESOLVERR_URL=http://127.0.0.1:8191/v1 \
+            SOURCE_LABEL="HLTV via GitHub Actions FlareSolverr" \
+            REQUEST_TIMEOUT_SECONDS=75 \
+            MAX_DETAIL_MATCHES=4 \
+            python infra/oracle/worker/server.py --once --output "$snapshot_path"; then
+            echo "available=true" >> "$GITHUB_OUTPUT"
+            echo "source=github-actions" >> "$GITHUB_OUTPUT"
+          else
+            echo "HLTV acquisition failed; preserving the last verified release."
+            docker logs --tail 120 strikesignal-flaresolverr || true
+            echo "available=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Validate freshness and source health
-        if: steps.worker.outputs.available == 'true'
+        if: steps.snapshot.outputs.available == 'true'
         run: |
           python - "$RUNNER_TEMP/live-snapshot.json" <<'PY'
           import json
@@ -69,33 +113,39 @@ jobs:
           PY
 
       - name: Enforce the Tier 1/2 product boundary
-        if: steps.worker.outputs.available == 'true'
+        if: steps.snapshot.outputs.available == 'true'
         run: node scripts/filter-live-snapshot.mjs "$RUNNER_TEMP/live-snapshot.json"
 
       - name: Evaluate and safely promote the production model
-        if: steps.worker.outputs.available == 'true'
+        if: steps.snapshot.outputs.available == 'true'
         run: >
           python -m work.cs2_predictor.promote_portable_model
           --live-feed "$RUNNER_TEMP/live-snapshot.json"
 
       - name: Refresh predictions and online team state
-        if: steps.worker.outputs.available == 'true'
+        if: steps.snapshot.outputs.available == 'true'
         run: >
           python -m work.cs2_predictor.export_site_predictions
           --allow-missing-db
           --live-feed "$RUNNER_TEMP/live-snapshot.json"
 
       - name: Promote lineups and validate the release
-        if: steps.worker.outputs.available == 'true'
+        if: steps.snapshot.outputs.available == 'true'
         run: |
           node scripts/promote-live-snapshot.mjs "$RUNNER_TEMP/live-snapshot.json"
           npm run check
 
       - name: Commit verified Tier 1/2 data
-        if: steps.worker.outputs.available == 'true'
+        if: steps.snapshot.outputs.available == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data/predictions.json docs/data/predictions.js docs/data/coverage.json docs/data/coverage.js docs/data/players.json docs/data/players.js docs/data/model-registry.json models/portable-online-training.jsonl
           git diff --cached --quiet || git commit -m "Refresh verified CS2 results and projections"
           git push
+
+      - name: Stop the ephemeral source worker
+        if: always() && steps.snapshot.outputs.ephemeral == 'true'
+        run: |
+          docker logs --tail 80 strikesignal-flaresolverr || true
+          docker rm -f strikesignal-flaresolverr || true

@@ -24,7 +24,7 @@ The hosted collector implements `GET /api/live-snapshot`. Snapshot contract `1.1
 
 The portable model registry evaluates challengers on purged chronological folds. A challenger is promoted only when log loss improves without material Brier, accuracy, or calibration regression; otherwise the last verified champion remains active in both Python exports and the browser runtime.
 
-The Oracle deployment under `infra/oracle/` provisions only the Frankfurt Always Free A1 shape with a hard limit of 1 OCPU, 6 GB memory, and a 50 GB boot volume. A scheduled GitHub Action retries capacity safely, keeps FlareSolverr private, and publishes the worker endpoint only after the VM is running. The worker keeps a last-good snapshot and limits detail-page requests to live or near-start series.
+The refresh pipeline runs every three hours. It prefers the persistent Oracle Always Free worker, but automatically starts a pinned, short-lived FlareSolverr `v3.5.0` service inside the GitHub Actions runner when Oracle is unavailable. Both paths produce the same provider-neutral snapshot, enforce the Tier 1/2 boundary before training, and preserve the last verified release whenever acquisition, freshness, model, or validation gates fail. The optional Oracle deployment under `infra/oracle/` is still constrained to the Frankfurt Always Free A1 shape with 1 OCPU, 6 GB memory, and a 50 GB boot volume.
 
 ## Development
 

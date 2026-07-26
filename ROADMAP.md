@@ -63,9 +63,16 @@ Next: ingest organizer-native seeds, bracket slot dependencies, and best-of rule
 
 ## Release 1.5: Reliable Live Circuit
 
-Priority: current infrastructure milestone.
+Status: scheduled dual-path refresh implemented; production source success is monitored by GitHub Actions.
 
-- Provision the Oracle Always Free worker and attach its stable public URL
+Implemented:
+
+- Prefer the Oracle Always Free worker when capacity is available
+- Fall back to a pinned ephemeral FlareSolverr worker on the free GitHub Actions runner
+- Refresh every three hours and preserve the last verified release on any source or validation failure
+
+Next reliability depth:
+
 - Cache HLTV responses, use incremental cursors, and back off automatically on source pressure
 - Refresh active matches frequently and future event fields less often
 - Update lineups on every eligible Tier 1/2 match detail and refresh full player profiles on a slower rotation

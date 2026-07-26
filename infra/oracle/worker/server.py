@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+import argparse
 import json
 import os
 import re
@@ -19,6 +20,7 @@ POLL_SECONDS = max(180, int(os.environ.get("POLL_SECONDS", "300")))
 REQUEST_TIMEOUT_SECONDS = int(os.environ.get("REQUEST_TIMEOUT_SECONDS", "90"))
 MAX_DETAIL_MATCHES = max(0, min(8, int(os.environ.get("MAX_DETAIL_MATCHES", "6"))))
 SNAPSHOT_PATH = Path(os.environ.get("SNAPSHOT_PATH", "/data/last-good-snapshot.json"))
+SOURCE_LABEL = os.environ.get("SOURCE_LABEL", "HLTV via FlareSolverr")
 TIER_TWO_EVENT_PATTERN = re.compile(r"\b(?:cct|roman imperium|esl challenger|thunderpick world championship)\b", re.I)
 TIER_ONE_EVENT_PATTERN = re.compile(r"\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b", re.I)
 
@@ -392,7 +394,7 @@ async def fetch_snapshot() -> dict[str, Any]:
         schedule_html = await fetch_url(session, HLTV_MATCHES_URL)
         results_html = await fetch_url(session, HLTV_RESULTS_URL)
         scheduled = parse_matches(schedule_html)
-        results = parse_results(results_html)[:40]
+        results = parse_results(results_html)[:80]
         by_id = {match["match_id"]: match for match in [*results, *scheduled]}
         matches = list(by_id.values())
 
@@ -423,7 +425,7 @@ async def fetch_snapshot() -> dict[str, Any]:
         "matches": matches,
         "players": players_from_matches(matches),
         "rankings": None,
-        "source": "HLTV via private FlareSolverr",
+        "source": SOURCE_LABEL,
         "source_health": {
             "scheduled_matches": len(scheduled),
             "recent_results": len(results),
@@ -433,11 +435,11 @@ async def fetch_snapshot() -> dict[str, Any]:
     }
 
 
-def save_snapshot(snapshot: dict[str, Any]) -> None:
-    SNAPSHOT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    temporary = SNAPSHOT_PATH.with_suffix(".tmp")
+def save_snapshot(snapshot: dict[str, Any], path: Path = SNAPSHOT_PATH) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(f"{path.suffix}.tmp")
     temporary.write_text(json.dumps(snapshot, indent=2, sort_keys=True), encoding="utf-8")
-    temporary.replace(SNAPSHOT_PATH)
+    temporary.replace(path)
 
 
 def load_snapshot() -> dict[str, Any] | None:
@@ -495,13 +497,34 @@ async def snapshot(_: web.Request) -> web.Response:
     return web.json_response(state["snapshot"], headers={"Cache-Control": "no-store"})
 
 
-def main() -> None:
+def serve() -> None:
     app = web.Application()
     app.router.add_get("/healthz", health)
     app.router.add_get("/snapshot", snapshot)
     app.on_startup.append(on_startup)
     app.on_cleanup.append(on_cleanup)
     web.run_app(app, host="0.0.0.0", port=8080)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser(description="Build or serve the provider-neutral StrikeSignal live snapshot.")
+    parser.add_argument("--once", action="store_true", help="Fetch one snapshot, write it, and exit.")
+    parser.add_argument("--output", default=str(SNAPSHOT_PATH), help="Snapshot path used by --once.")
+    args = parser.parse_args()
+    if args.once:
+        snapshot = asyncio.run(fetch_snapshot())
+        output = Path(args.output)
+        save_snapshot(snapshot, output)
+        print(json.dumps({
+            "ok": True,
+            "output": str(output),
+            "matches": len(snapshot.get("matches") or []),
+            "events": len(snapshot.get("events") or []),
+            "source": snapshot.get("source"),
+            "source_health": snapshot.get("source_health"),
+        }, indent=2, sort_keys=True))
+        return
+    serve()
 
 
 if __name__ == "__main__":

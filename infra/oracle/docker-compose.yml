@@ -1,6 +1,6 @@
 services:
   flaresolverr:
-    image: ghcr.io/flaresolverr/flaresolverr:latest
+    image: ghcr.io/flaresolverr/flaresolverr:v3.5.0
     restart: unless-stopped
     environment:
       LOG_LEVEL: info

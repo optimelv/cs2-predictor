@@ -1,9 +1,20 @@
 import unittest
+import json
+import tempfile
+from pathlib import Path
 
-from server import events_from_matches, merge_match_detail, parse_match_detail, parse_matches, parse_results
+from server import events_from_matches, merge_match_detail, parse_match_detail, parse_matches, parse_results, save_snapshot
 
 
 class WorkerParserTests(unittest.TestCase):
+    def test_snapshot_write_is_atomic_and_reusable(self):
+        with tempfile.TemporaryDirectory() as directory:
+            output = Path(directory) / "live-snapshot.json"
+            payload = {"ok": True, "contract_version": "1.1", "matches": [{"match_id": "hltv:1"}]}
+            save_snapshot(payload, output)
+            self.assertEqual(json.loads(output.read_text()), payload)
+            self.assertFalse(output.with_suffix(".json.tmp").exists())
+
     def test_schedule_card_keeps_source_ids_and_format(self):
         html = """
         <a class="upcomingMatch" href="/matches/2389999/example">
