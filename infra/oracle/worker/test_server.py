@@ -31,6 +31,50 @@ class WorkerParserTests(unittest.TestCase):
         self.assertEqual(rows[0]["event_id"], "hltv:9999")
         self.assertEqual(rows[0]["series_format"], "bo3")
 
+    def test_current_hltv_match_markup_keeps_schedule_and_stage(self):
+        html = """
+        <div class="match-wrapper" data-match-wrapper data-match-id="2396253" data-event-id="9309" live="false">
+          <div class="match">
+            <a href="/matches/2396253/cybershoke-vs-comanche" class="match-top">
+              <div class="match-event" data-event-headline="CCT 2026 Europe Series 6" data-event-id="9309">
+                <div class="match-stage">Quarter-final</div>
+              </div>
+            </a>
+            <div class="match-bottom">
+              <a href="/matches/2396253/cybershoke-vs-comanche" class="match-info">
+                <div class="match-time" data-unix="1785132000000">08:00</div>
+                <div class="match-meta">bo3</div>
+              </a>
+              <div class="match-teamname">CYBERSHOKE</div>
+              <div class="match-teamname">Comanche</div>
+            </div>
+          </div>
+        </div>
+        """
+        rows = parse_matches(html)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["match_id"], "hltv:2396253")
+        self.assertEqual(rows[0]["event_id"], "hltv:9309")
+        self.assertEqual(rows[0]["event_name"], "CCT 2026 Europe Series 6")
+        self.assertEqual(rows[0]["stage_name"], "Quarter-final")
+        self.assertEqual(rows[0]["status"], "upcoming")
+        self.assertEqual(rows[0]["starts_at"], "2026-07-27T06:00:00Z")
+
+    def test_current_hltv_live_markup_is_detected(self):
+        html = """
+        <div class="match-wrapper" data-match-wrapper data-match-id="2395779" data-event-id="9282" live="true">
+          <div class="match">
+            <a href="/matches/2395779/oddik-vs-isurus"><div class="match-event" data-event-headline="CCT 2026 South America Series 4" data-event-id="9282"></div></a>
+            <div class="match-meta match-meta-live">Live</div><div class="match-meta">bo3</div>
+            <div class="match-teamname">ODDIK</div><div class="match-teamname">Isurus</div>
+          </div>
+        </div>
+        """
+        rows = parse_matches(html)
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(rows[0]["status"], "live")
+        self.assertEqual(rows[0]["event_id"], "hltv:9282")
+
     def test_result_card_extracts_score_and_winner(self):
         html = """
         <a class="result-con" href="/matches/2389000/result">

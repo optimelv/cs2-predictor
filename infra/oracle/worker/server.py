@@ -92,13 +92,21 @@ def event_reference(node, fallback_name: str) -> tuple[str, str | None]:
     link = node.select_one('a[href*="/events/"]')
     href = link.get("href", "") if link else ""
     event_match = re.search(r"/events/(\d+)/", href)
-    event_id = f"hltv:{event_match.group(1)}" if event_match else f"hltv:{slugify(fallback_name)}"
+    event_node = node if node.get("data-event-id") else node.select_one("[data-event-id]")
+    data_event_id = str(event_node.get("data-event-id", "")).strip() if event_node else ""
+    event_id = (
+        f"hltv:{event_match.group(1)}"
+        if event_match
+        else f"hltv:{data_event_id}"
+        if data_event_id.isdigit()
+        else f"hltv:{slugify(fallback_name)}"
+    )
     return event_id, f"https://www.hltv.org{href}" if href.startswith("/") else href or None
 
 
 def parse_matches(html: str) -> list[dict[str, Any]]:
     soup = BeautifulSoup(html, "html.parser")
-    cards = soup.select(".upcomingMatch, .liveMatch, a.match.a-reset")
+    cards = soup.select(".upcomingMatch, .liveMatch, a.match.a-reset, .match-wrapper > .match")
     matches: list[dict[str, Any]] = []
     seen: set[str] = set()
 
@@ -113,11 +121,22 @@ def parse_matches(html: str) -> list[dict[str, Any]]:
         if len(teams) < 2 or teams[0] == teams[1]:
             continue
         seen.add(id_match.group(1))
-        event_name = text(card, (".matchEventName", ".match-event-name", ".event-name")) or "HLTV schedule"
+        event_node = card.select_one(".match-event")
+        event_name = (
+            str(event_node.get("data-event-headline", "")).strip()
+            if event_node
+            else ""
+        ) or text(card, (".matchEventName", ".match-event-name", ".event-name", ".match-event")) or "HLTV schedule"
         event_id, event_url = event_reference(card, event_name)
         classes = " ".join(card.get("class", []))
-        live = "live" in classes.casefold() or bool(card.select_one(".matchLive, .match-live"))
+        wrapper = card.find_parent(attrs={"data-match-wrapper": True})
+        live = (
+            "live" in classes.casefold()
+            or bool(card.select_one(".matchLive, .match-live, .match-meta-live"))
+            or bool(wrapper and str(wrapper.get("live", "")).casefold() == "true")
+        )
         series_format = clean_series_format(text(card, (".matchMeta", ".match-meta")) or "bo3")
+        stage_name = text(card, (".match-stage", ".matchStage")) or "Scheduled series"
         matches.append({
             "match_id": f"hltv:{id_match.group(1)}",
             "hltv_match_id": id_match.group(1),
@@ -129,7 +148,7 @@ def parse_matches(html: str) -> list[dict[str, Any]]:
             "team1_name": teams[0],
             "team2_name": teams[1],
             "starts_at": starts_at(card),
-            "stage_name": "Scheduled series",
+            "stage_name": stage_name,
             "series_format": series_format,
             "status": "live" if live else "upcoming",
             "maps": [],
