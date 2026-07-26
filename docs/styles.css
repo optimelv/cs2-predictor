@@ -1405,11 +1405,12 @@ body.team-drawer-open { overflow: hidden; }
 .team-profile-hero span { color: var(--blue-bright); font: 7px var(--mono); text-transform: uppercase; }
 .team-profile-hero h2 { margin: 7px 0 0; overflow-wrap: anywhere; font: 780 clamp(42px,5vw,64px)/.84 var(--display); letter-spacing: -.045em; }
 .team-profile-hero p { margin: 12px 0 0; color: var(--muted); font: 8px var(--mono); text-transform: uppercase; }
-.team-profile-metrics { display: grid; grid-template-columns: repeat(3,1fr); border-bottom: 1px solid var(--line); background: rgba(255,255,255,.012); }
+.team-profile-metrics { display: grid; grid-template-columns: repeat(4,1fr); border-bottom: 1px solid var(--line); background: rgba(255,255,255,.012); }
 .team-profile-metrics > div { min-height: 88px; padding: 15px 18px; display: grid; align-content: space-between; border-right: 1px solid var(--line); }
 .team-profile-metrics > div:last-child { border-right: 0; }
 .team-profile-metrics span, .team-profile-section > header span { color: var(--muted); font: 7px var(--mono); text-transform: uppercase; }
 .team-profile-metrics strong { font: 700 29px var(--display); letter-spacing: -.03em; }
+.team-profile-metrics strong.is-role { overflow: hidden; font-size: 17px; text-overflow: ellipsis; }
 .team-profile-section { padding: 24px 26px; border-bottom: 1px solid var(--line); }
 .team-profile-section > header { margin-bottom: 14px; display: flex; align-items: baseline; justify-content: space-between; gap: 16px; }
 .team-profile-section > header strong { color: var(--muted-strong); font: 7px var(--mono); text-transform: uppercase; }
@@ -1445,6 +1446,29 @@ body.team-drawer-open { overflow: hidden; }
 .team-event-list button { display: grid; grid-template-columns: 80px minmax(0,1fr); align-items: center; gap: 10px; text-align: left; }
 .team-event-list span { color: var(--blue-bright); font: 6px var(--mono); text-transform: uppercase; }
 .team-event-list strong { overflow: hidden; font-size: 9px; text-overflow: ellipsis; white-space: nowrap; }
+.team-veto-cards { display: grid; grid-template-columns: repeat(3,1fr); gap: 1px; background: var(--line); }
+.team-veto-cards article { min-height: 94px; padding: 14px 12px; display: flex; flex-direction: column; justify-content: flex-end; background: linear-gradient(145deg, rgba(39,141,255,.07), #0d141d 58%); }
+.team-veto-cards span { color: var(--muted); font: 6px var(--mono); text-transform: uppercase; }
+.team-veto-cards strong { margin-top: 8px; overflow: hidden; font: 700 19px/.9 var(--display); text-overflow: ellipsis; text-transform: uppercase; }
+.team-veto-cards small { margin-top: 7px; color: var(--muted); font: 6px var(--mono); line-height: 1.4; }
+.team-player-nav { min-height: 54px; padding: 0 22px; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid var(--line); background: rgba(39,141,255,.035); }
+.team-player-nav button { display: flex; align-items: center; gap: 9px; border: 0; color: var(--ink); background: transparent; cursor: pointer; }
+.team-player-nav button i { color: var(--blue-bright); font-style: normal; transition: transform 150ms var(--ease-out); }
+.team-player-nav button:hover i { transform: translateX(-3px); }
+.team-player-nav span, .team-player-nav strong { font: 7px var(--mono); text-transform: uppercase; }
+.team-player-nav strong { color: var(--muted); }
+.team-player-hero { min-height: 196px; padding: 32px 26px; display: grid; grid-template-columns: 74px minmax(0,1fr) 44px; align-items: center; gap: 17px; border-bottom: 1px solid var(--line); background: radial-gradient(circle at 22% 22%, rgba(39,141,255,.13), transparent 42%); }
+.team-player-monogram { width: 72px; height: 82px; display: grid; place-items: center; border: 1px solid rgba(115,198,255,.25); color: var(--blue-bright); background: rgba(39,141,255,.08); font: 700 22px var(--display); }
+.team-player-hero > div:nth-child(2) { min-width: 0; }
+.team-player-hero span { color: var(--blue-bright); font: 7px var(--mono); text-transform: uppercase; }
+.team-player-hero h2 { margin: 6px 0 0; overflow: hidden; font: 800 54px/.84 var(--display); letter-spacing: -.04em; text-overflow: ellipsis; }
+.team-player-hero p { margin: 10px 0 0; color: var(--muted); font-size: 9px; }
+.team-player-hero > .team-logo, .team-player-hero > .team-logo-fallback { width: 42px; height: 42px; }
+.team-player-traits .player-traits { margin-top: 4px; }
+.team-player-actions { padding: 22px 26px 32px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.team-player-actions button, .team-player-actions a { min-height: 44px; display: grid; place-items: center; border: 1px solid var(--line); color: var(--ink); background: #0d141d; font: 7px var(--mono); text-decoration: none; text-transform: uppercase; cursor: pointer; transition: border-color 150ms ease, background 150ms ease, transform 140ms var(--ease-out); }
+.team-player-actions button:hover, .team-player-actions a:hover { border-color: rgba(115,198,255,.38); background: rgba(39,141,255,.08); }
+.team-player-actions button:active, .team-player-actions a:active { transform: scale(.98); }
 
 body.search-open { overflow: hidden; }
 .search-layer { position: fixed; inset: 0; z-index: 140; display: grid; place-items: start center; padding: min(12vh,110px) 18px 28px; pointer-events: none; }
@@ -1671,6 +1695,13 @@ body.snapshot-stale .desk-strip article:first-child .live-dot { background: var(
   .team-profile-hero { grid-template-columns: 72px minmax(0,1fr); padding-inline: 18px; }
   .team-profile-hero > .team-logo, .team-profile-hero > .team-logo-fallback { width: 68px; height: 68px; }
   .team-profile-section { padding-inline: 18px; }
+  .team-profile-metrics { grid-template-columns: repeat(2,1fr); }
+  .team-veto-cards { grid-template-columns: 1fr; }
+  .team-veto-cards article { min-height: 78px; }
+  .team-player-hero { grid-template-columns: 58px minmax(0,1fr) 34px; padding-inline: 18px; }
+  .team-player-monogram { width: 56px; height: 66px; }
+  .team-player-hero h2 { font-size: 42px; }
+  .team-player-actions { padding-inline: 18px; grid-template-columns: 1fr; }
   .team-profile-match { grid-template-columns: 82px minmax(0,1fr) 34px; }
   .search-layer { padding: 58px 10px 10px; }
   .search-dialog { max-height: calc(100dvh - 78px); }

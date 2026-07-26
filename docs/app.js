@@ -1,5 +1,6 @@
 import { eventIsProductEligible, normalizeEvent, normalizeMatch, normalizePlatformSnapshot, productTierForEvent } from "./lib/snapshot.js?v=20260726.1";
 import { buildDoubleEliminationTree } from "./lib/brackets.js?v=20260726.1";
+import { tournamentBlueprint, tournamentPlayoffField, tournamentStageLabels } from "./lib/tournaments.js?v=20260726.1";
 import {
   applyVetoMap,
   buildRecommendedVeto,
@@ -913,16 +914,6 @@ function eventDateParts(event) {
 
 function eventFormatStages(event) {
   const type = String(event?.format?.type || "mixed");
-  const declaredStages = (event?.format?.stages || []).map((stage) => typeof stage === "string" ? stage : stage.name || stage.label).filter(Boolean);
-  if (declaredStages.length) return declaredStages;
-  if (type === "swiss") {
-    const declaredCount = Number(event?.format?.settings?.swiss_stages);
-    const inferredCount = /three[- ]stage swiss/i.test(String(event?.format?.label || "")) ? 3 : 1;
-    const count = declaredCount || inferredCount;
-    if (count > 1) return [...Array.from({ length: count }, (_, index) => `Stage ${index + 1} Swiss`), "Playoffs", "Final"];
-    return ["Swiss", "Playoffs", "Final"];
-  }
-  if (type === "gsl") return ["GSL groups", "Playoffs", "Final"];
   if (type === "single_elimination") {
     const fieldSize = Number(event?.participants?.length || event?.teams) || 8;
     const openingRound = fieldSize > 8 ? `Round of ${fieldSize}` : "Quarterfinals";
@@ -932,9 +923,7 @@ function eventFormatStages(event) {
         ? [openingRound, "Quarterfinals", "Semifinals", "Final"]
         : [openingRound, "Semifinals", "Final"];
   }
-  if (type === "double_elimination") return ["Opening round", "Upper bracket", "Lower bracket", "Grand final"];
-  if (type === "round_robin") return ["League table", "Tiebreakers", "Playoffs"];
-  return ["Opening stage", "Playoffs", "Final"];
+  return tournamentStageLabels(event);
 }
 
 function formatPathHtml(event) {
@@ -1191,12 +1180,8 @@ function eventViewHtml(event, view) {
 }
 
 function bracketField(event) {
-  const type = String(event?.format?.type || "mixed");
   const ordered = strengthSortedTeams(event);
-  if (type === "single_elimination" || type === "double_elimination") return ordered;
-  const declared = Number(event?.format?.settings?.playoff_teams || event?.playoff_teams);
-  const target = declared || Math.min(8, 2 ** Math.floor(Math.log2(Math.max(2, ordered.length))));
-  return ordered.slice(0, target);
+  return tournamentPlayoffField(event, ordered);
 }
 
 function nextBracketSize(count) {
@@ -1410,7 +1395,8 @@ function doubleEliminationBracketHtml(event) {
 }
 
 function eventBracketHtml(event) {
-  if (event?.format?.type === "double_elimination" || event?.bracket?.type === "double_elimination") return doubleEliminationBracketHtml(event);
+  const blueprint = tournamentBlueprint(event);
+  if (blueprint.playoff_type === "double_elimination" || event?.bracket?.type === "double_elimination") return doubleEliminationBracketHtml(event);
   const tree = buildTournamentBracket(event);
   if (!tree.field.length) return `<div class="event-view-empty"><span>BRACKET INTAKE</span><h4>The field is not published.</h4><p>The tree will populate from the event feed.</p></div>`;
   return `
@@ -2530,10 +2516,55 @@ function teamMapRows(teamName) {
     .sort((a, b) => b.matches - a.matches || b.winRate - a.winRate);
 }
 
+function teamLineupRead(teamName) {
+  const roster = rosterForTeam(teamName);
+  const rated = roster.filter((player) => Number(player.rating_3_0) > 0);
+  const averageRating = rated.length ? rated.reduce((sum, player) => sum + Number(player.rating_3_0), 0) / rated.length : null;
+  const firepower = rated.length ? rated.reduce((sum, player) => sum + (Number(player.traits?.firepower) || 0), 0) / rated.length : null;
+  return { roster, averageRating, firepower, profiled: rated.length };
+}
+
+function teamVetoRead(teamName) {
+  return appData?.model_state?.veto_profiles?.[normalizeName(teamName)] || { maps: {}, sample_matches: 0 };
+}
+
+function teamPlayerProfileHtml(teamName, player) {
+  const rating = Number(player.rating_3_0);
+  const maps = Number(player.maps_3m) || 0;
+  const lineup = teamLineupRead(teamName);
+  const teammates = lineup.roster.filter((row) => row.player_id && row.player_id !== player.player_id);
+  return `
+    <section class="team-player-nav"><button type="button" data-back-team><i aria-hidden="true">←</i><span>Back to ${escapeHtml(teamName)}</span></button><strong>Player intelligence</strong></section>
+    <section class="team-player-hero">
+      <div class="team-player-monogram" aria-hidden="true">${escapeHtml(String(player.nickname || "?").slice(0, 2).toUpperCase())}</div>
+      <div><span>${escapeHtml(playerRole(player))} · ${escapeHtml(teamName)}</span><h2>${escapeHtml(player.nickname)}</h2><p>${escapeHtml(player.real_name || "HLTV player profile")}</p></div>
+      ${teamLogoHtml(teamName)}
+    </section>
+    <section class="team-profile-metrics team-player-metrics">
+      <div><span>Rating 3.0</span><strong>${Number.isFinite(rating) && rating > 0 ? rating.toFixed(2) : "--"}</strong></div>
+      <div><span>Signal</span><strong>${Number(player.signal_index) || "--"}</strong></div>
+      <div><span>Map sample</span><strong>${maps || "--"}</strong></div>
+      <div><span>Role</span><strong class="is-role">${escapeHtml(playerRole(player))}</strong></div>
+    </section>
+    <section class="team-profile-section team-player-traits">
+      <header><span>Skill fingerprint</span><strong>Current profile</strong></header>
+      <div class="player-traits">${playerTraitHtml(player)}</div>
+    </section>
+    <section class="team-profile-section">
+      <header><span>Lineup context</span><strong>${teammates.length} teammates</strong></header>
+      <div class="team-roster-list">${teammates.map((teammate) => `<button type="button" data-team-player="${escapeHtml(teammate.player_id)}"><i>${escapeHtml(String(teammate.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(teammate.nickname)}</b><small>${escapeHtml(playerRole(teammate))} · ${Number(teammate.rating_3_0) > 0 ? Number(teammate.rating_3_0).toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`).join("") || `<p>Lineup profiles pending.</p>`}</div>
+    </section>
+    <section class="team-player-actions"><button type="button" data-open-full-player="${escapeHtml(player.player_id)}">Open in player index</button><a href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">View HLTV profile</a></section>
+  `;
+}
+
 function teamProfileHtml(teamName) {
   const model = teamModel(teamName);
-  const roster = rosterForTeam(teamName);
+  const lineup = teamLineupRead(teamName);
+  const roster = lineup.roster;
   const maps = teamMapRows(teamName);
+  const veto = teamVetoRead(teamName);
+  const bestMap = maps.filter((map) => map.matches >= 5).sort((a, b) => b.winRate - a.winRate)[0];
   const matches = matchesForTeam(teamName);
   const events = availableEvents().filter((event) => (event.participants || []).some((name) => normalizeName(name) === normalizeName(teamName))).slice(0, 6);
   const form = Number(model.recent_win_rate_10);
@@ -2557,14 +2588,23 @@ function teamProfileHtml(teamName) {
       <div><span>VRS points</span><strong>${Number(model.vrs_points) || "--"}</strong></div>
       <div><span>Rating</span><strong>${Number(model.elo) ? Math.round(Number(model.elo)) : "--"}</strong></div>
       <div><span>Last 10</span><strong>${Number.isFinite(form) ? `${Math.round(form * 100)}%` : "--"}</strong></div>
+      <div><span>Lineup level</span><strong>${Number.isFinite(lineup.averageRating) ? lineup.averageRating.toFixed(2) : "--"}</strong></div>
     </section>
     <section class="team-profile-section">
       <header><span>Current five</span><strong>${roster.length ? `${roster.length} profiles` : "Lineup pending"}</strong></header>
       <div class="team-roster-list">${roster.map((player) => {
         const rating = Number(player.rating_3_0);
         if (player.roster_only) return `<div><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>Active VRS roster</small></span><em>Roster</em></div>`;
-        return `<button type="button" data-open-player="${escapeHtml(player.player_id)}"><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(playerRole(player))} · ${Number.isFinite(rating) && rating > 0 ? rating.toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`;
+        return `<button type="button" data-team-player="${escapeHtml(player.player_id)}"><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(playerRole(player))} · ${Number.isFinite(rating) && rating > 0 ? rating.toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`;
       }).join("") || `<p>No verified player profiles in the current snapshot.</p>`}</div>
+    </section>
+    <section class="team-profile-section team-veto-identity">
+      <header><span>Veto identity</span><strong>${veto.sample_matches || 0} tracked vetoes</strong></header>
+      <div class="team-veto-cards">
+        <article><span>Perma ban</span><strong>${escapeHtml(veto.perma_ban || "Pending")}</strong><small>First removal tendency</small></article>
+        <article><span>First pick</span><strong>${escapeHtml(veto.first_pick || "Pending")}</strong><small>Preferred opening map</small></article>
+        <article><span>Best map</span><strong>${escapeHtml(bestMap?.mapName || "Pending")}</strong><small>${bestMap ? `${formatPercent(bestMap.winRate)} · ${bestMap.matches} maps` : "Sample pending"}</small></article>
+      </div>
     </section>
     <section class="team-profile-section">
       <header><span>Map pool</span><strong>${maps.length} tracked</strong></header>
@@ -3210,6 +3250,37 @@ document.addEventListener("keydown", (event) => {
 
 els.teamDrawerContent?.addEventListener("click", (event) => {
   if (!(event.target instanceof Element)) return;
+  const teamPlayerTrigger = event.target.closest("[data-team-player]");
+  if (teamPlayerTrigger?.dataset.teamPlayer && selectedTeamName) {
+    event.preventDefault();
+    const player = (playerSnapshot?.players || []).find((row) => row.player_id === teamPlayerTrigger.dataset.teamPlayer);
+    if (player) {
+      els.teamDrawerContent.innerHTML = teamPlayerProfileHtml(selectedTeamName, player);
+      els.teamDrawerContent.scrollTo({ top: 0, behavior: "smooth" });
+    }
+    return;
+  }
+  if (event.target.closest("[data-back-team]") && selectedTeamName) {
+    event.preventDefault();
+    els.teamDrawerContent.innerHTML = teamProfileHtml(selectedTeamName);
+    els.teamDrawerContent.scrollTo({ top: 0, behavior: "smooth" });
+    return;
+  }
+  const fullPlayerTrigger = event.target.closest("[data-open-full-player]");
+  if (fullPlayerTrigger?.dataset.openFullPlayer) {
+    event.preventDefault();
+    const playerId = fullPlayerTrigger.dataset.openFullPlayer;
+    closeTeamProfile({ updateUrl: false });
+    selectedPlayerId = playerId;
+    playerSearchTerm = "";
+    playerTeamFilter = "all";
+    if (els.playerSearch) els.playerSearch.value = "";
+    renderPlayerFilters();
+    renderPlayers();
+    updateProductUrl({ playerId, eventId: "", view: "", teamName: "", hash: "players" });
+    document.querySelector("#players")?.scrollIntoView({ block: "start", behavior: "smooth" });
+    return;
+  }
   const eventTrigger = event.target.closest("[data-open-event]");
   if (eventTrigger?.dataset.openEvent) {
     event.preventDefault();

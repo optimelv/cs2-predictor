@@ -68,6 +68,10 @@ jobs:
               raise SystemExit(f"Snapshot is {age_hours:.1f} hours old; refusing fake freshness.")
           PY
 
+      - name: Enforce the Tier 1/2 product boundary
+        if: steps.worker.outputs.available == 'true'
+        run: node scripts/filter-live-snapshot.mjs "$RUNNER_TEMP/live-snapshot.json"
+
       - name: Evaluate and safely promote the production model
         if: steps.worker.outputs.available == 'true'
         run: >
