@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-27T15:15:10Z",
+  "generated_at_utc": "2026-07-27T17:13:02Z",
   "through_date": "2026-07-27",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1037,
+    "matches": 1040,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1078,6 +1078,72 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "Just Players",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396169",
+      "match_date": "2026-07-27",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "Black Phoenix",
+      "team2_name": "Misa",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Misa",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396107",
+      "match_date": "2026-07-27",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Inner Circle Academy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Inner Circle Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395948",
+      "match_date": "2026-07-27",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "Rune Eaters",
+      "team2_name": "SAW Youngsters",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Rune Eaters",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
