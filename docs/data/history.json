@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-27T17:13:02Z",
+  "generated_at_utc": "2026-07-27T19:56:46Z",
   "through_date": "2026-07-27",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1040,
-    "maps": 2662,
-    "lineup_rows": 8590,
+    "matches": 1043,
+    "maps": 2668,
+    "lineup_rows": 8610,
     "source_match_ids": 987
   },
   "matches": [
@@ -24,15 +24,49 @@
       "winner_name": "Spirit",
       "tier": "tier_1",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "Spirit",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 4,
+          "winner_name": "100 Thieves",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 0,
+          "score2": 13,
+          "winner_name": "Spirit",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "device",
+          "rain",
+          "Gizmy",
+          "poiii",
+          "sirah"
+        ],
+        "team2": [
+          "magixx",
+          "tN1R",
+          "sh1ro",
+          "donk",
+          "zont1x"
+        ]
       }
     },
     {
@@ -46,15 +80,49 @@
       "winner_name": "The MongolZ",
       "tier": "tier_1",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 7,
+          "score2": 13,
+          "winner_name": "The MongolZ",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 9,
+          "score2": 13,
+          "winner_name": "The MongolZ",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "winner_name": "The MongolZ",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Cxzi",
+          "reck",
+          "HexT",
+          "nEMANHA",
+          "mhL"
+        ],
+        "team2": [
+          "DarkMeister",
+          "bLitz",
+          "Techno",
+          "tikuak",
+          "910"
+        ]
       }
     },
     {
@@ -1144,6 +1212,72 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Rune Eaters",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396108",
+      "match_date": "2026-07-27",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "Atreides",
+      "team2_name": "Mai Tai",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Mai Tai",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396170",
+      "match_date": "2026-07-27",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "Bebop",
+      "team2_name": "Falcons Force",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Falcons Force",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395949",
+      "match_date": "2026-07-27",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "CYBERSHOKE Prospects",
+      "team2_name": "Entropy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Entropy",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
