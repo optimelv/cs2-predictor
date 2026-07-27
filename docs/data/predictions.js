@@ -43,7 +43,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:blast-bounty-2026-season-2",
         "event_name": "BLAST Bounty 2026 Season 2",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396008",
         "lineups": {
           "team1": [
@@ -141,18 +141,14 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Dust2",
-          "Inferno",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2396008",
         "product_tier": "tier_1",
         "score1": 0,
         "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396008/wildcard-vs-the-mongolz-blast-bounty-2026-season-2",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
         "status": "finished",
         "team1_name": "Wildcard",
@@ -163,7 +159,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:blast-bounty-2026-season-2",
         "event_name": "BLAST Bounty 2026 Season 2",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396014",
         "lineups": {
           "team1": [
@@ -261,18 +257,14 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "finished"
           }
         ],
-        "maps": [
-          "Anubis",
-          "Mirage",
-          "Dust2"
-        ],
+        "maps": [],
         "match_id": "hltv:2396014",
         "product_tier": "tier_1",
         "score1": 1,
         "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396014/100-thieves-vs-spirit-blast-bounty-2026-season-2",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
         "status": "finished",
         "team1_name": "100 Thieves",
@@ -1043,7 +1035,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:cct-2026-south-america-series-4",
         "event_name": "CCT 2026 South America Series 4",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2395779",
         "lineups": {
           "team1": [],
@@ -1069,21 +1061,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Nuke",
-          "Dust2",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2395779",
         "product_tier": "tier_2",
+        "score1": 1,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2395779/oddik-vs-isurus-cct-2026-south-america-series-4",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "ODDIK",
         "team2_name": "Isurus",
-        "veto_text": "Best of 3 (Online)\n\n* Grand final"
+        "veto_text": "Best of 3 (Online)\n\n* Grand final",
+        "winner_name": "Isurus"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -1207,10 +1198,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9298",
+        "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396105",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396105",
         "product_tier": "tier_2",
@@ -1220,7 +1215,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-07-27T08:00:00Z",
         "status": "upcoming",
         "team1_name": "Just Players",
-        "team2_name": "ex-Young Ninjas"
+        "team2_name": "ex-Young Ninjas",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
       },
       {
         "event_id": "hltv:9296",
@@ -2073,241 +2069,39 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:blast-bounty-2026-season-2",
             "event_name": "BLAST Bounty 2026 Season 2",
-            "event_url": "https://www.hltv.org/events/archive",
+            "event_url": null,
             "hltv_match_id": "2396014",
-            "lineups": {
-              "team1": [
-                {
-                  "hltv_player_id": "7592",
-                  "nickname": "device",
-                  "player_id": "hltv:7592",
-                  "source_url": "https://www.hltv.org/player/7592/device",
-                  "team_name": "100 Thieves"
-                },
-                {
-                  "hltv_player_id": "8183",
-                  "nickname": "rain",
-                  "player_id": "hltv:8183",
-                  "source_url": "https://www.hltv.org/player/8183/rain",
-                  "team_name": "100 Thieves"
-                },
-                {
-                  "hltv_player_id": "21816",
-                  "nickname": "Gizmy",
-                  "player_id": "hltv:21816",
-                  "source_url": "https://www.hltv.org/player/21816/gizmy",
-                  "team_name": "100 Thieves"
-                },
-                {
-                  "hltv_player_id": "23397",
-                  "nickname": "poiii",
-                  "player_id": "hltv:23397",
-                  "source_url": "https://www.hltv.org/player/23397/poiii",
-                  "team_name": "100 Thieves"
-                },
-                {
-                  "hltv_player_id": "22695",
-                  "nickname": "sirah",
-                  "player_id": "hltv:22695",
-                  "source_url": "https://www.hltv.org/player/22695/sirah",
-                  "team_name": "100 Thieves"
-                }
-              ],
-              "team2": [
-                {
-                  "hltv_player_id": "18317",
-                  "nickname": "magixx",
-                  "player_id": "hltv:18317",
-                  "source_url": "https://www.hltv.org/player/18317/magixx",
-                  "team_name": "Spirit"
-                },
-                {
-                  "hltv_player_id": "19808",
-                  "nickname": "tN1R",
-                  "player_id": "hltv:19808",
-                  "source_url": "https://www.hltv.org/player/19808/tn1r",
-                  "team_name": "Spirit"
-                },
-                {
-                  "hltv_player_id": "16920",
-                  "nickname": "sh1ro",
-                  "player_id": "hltv:16920",
-                  "source_url": "https://www.hltv.org/player/16920/sh1ro",
-                  "team_name": "Spirit"
-                },
-                {
-                  "hltv_player_id": "21167",
-                  "nickname": "donk",
-                  "player_id": "hltv:21167",
-                  "source_url": "https://www.hltv.org/player/21167/donk",
-                  "team_name": "Spirit"
-                },
-                {
-                  "hltv_player_id": "20423",
-                  "nickname": "zont1x",
-                  "player_id": "hltv:20423",
-                  "source_url": "https://www.hltv.org/player/20423/zont1x",
-                  "team_name": "Spirit"
-                }
-              ]
-            },
-            "map_results": [
-              {
-                "map_name": "Anubis",
-                "score1": 11,
-                "score2": 13,
-                "status": "finished"
-              },
-              {
-                "map_name": "Mirage",
-                "score1": 13,
-                "score2": 4,
-                "status": "finished"
-              },
-              {
-                "map_name": "Dust2",
-                "score1": 0,
-                "score2": 13,
-                "status": "finished"
-              }
-            ],
-            "maps": [
-              "Anubis",
-              "Mirage",
-              "Dust2"
-            ],
+            "maps": [],
             "match_id": "hltv:2396014",
             "product_tier": "tier_1",
             "score1": 1,
             "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2396014/100-thieves-vs-spirit-blast-bounty-2026-season-2",
-            "stage_name": "Scheduled series",
+            "stage_name": "Completed series",
             "starts_at": null,
             "status": "finished",
             "team1_name": "100 Thieves",
             "team2_name": "Spirit",
-            "veto_text": "Best of 3 (Online)\n\n* Stage 2 round of 16. Winner qualifies for LAN Finals.\n\n** 100 Thieves (seed 31) face Spirit (seed 2) by default as there are no other teams to select.",
             "winner_name": "Spirit"
           },
           {
             "event_id": "hltv:blast-bounty-2026-season-2",
             "event_name": "BLAST Bounty 2026 Season 2",
-            "event_url": "https://www.hltv.org/events/archive",
+            "event_url": null,
             "hltv_match_id": "2396008",
-            "lineups": {
-              "team1": [
-                {
-                  "hltv_player_id": "17353",
-                  "nickname": "Cxzi",
-                  "player_id": "hltv:17353",
-                  "source_url": "https://www.hltv.org/player/17353/cxzi",
-                  "team_name": "Wildcard"
-                },
-                {
-                  "hltv_player_id": "17378",
-                  "nickname": "reck",
-                  "player_id": "hltv:17378",
-                  "source_url": "https://www.hltv.org/player/17378/reck",
-                  "team_name": "Wildcard"
-                },
-                {
-                  "hltv_player_id": "18838",
-                  "nickname": "HexT",
-                  "player_id": "hltv:18838",
-                  "source_url": "https://www.hltv.org/player/18838/hext",
-                  "team_name": "Wildcard"
-                },
-                {
-                  "hltv_player_id": "8311",
-                  "nickname": "nEMANHA",
-                  "player_id": "hltv:8311",
-                  "source_url": "https://www.hltv.org/player/8311/nemanha",
-                  "team_name": "Wildcard"
-                },
-                {
-                  "hltv_player_id": "16847",
-                  "nickname": "mhL",
-                  "player_id": "hltv:16847",
-                  "source_url": "https://www.hltv.org/player/16847/mhl",
-                  "team_name": "Wildcard"
-                }
-              ],
-              "team2": [
-                {
-                  "hltv_player_id": "26013",
-                  "nickname": "DarkMeister",
-                  "player_id": "hltv:26013",
-                  "source_url": "https://www.hltv.org/player/26013/darkmeister",
-                  "team_name": "The MongolZ"
-                },
-                {
-                  "hltv_player_id": "20194",
-                  "nickname": "bLitz",
-                  "player_id": "hltv:20194",
-                  "source_url": "https://www.hltv.org/player/20194/blitz",
-                  "team_name": "The MongolZ"
-                },
-                {
-                  "hltv_player_id": "20275",
-                  "nickname": "Techno",
-                  "player_id": "hltv:20275",
-                  "source_url": "https://www.hltv.org/player/20275/techno",
-                  "team_name": "The MongolZ"
-                },
-                {
-                  "hltv_player_id": "25510",
-                  "nickname": "tikuak",
-                  "player_id": "hltv:25510",
-                  "source_url": "https://www.hltv.org/player/25510/tikuak",
-                  "team_name": "The MongolZ"
-                },
-                {
-                  "hltv_player_id": "21809",
-                  "nickname": "910",
-                  "player_id": "hltv:21809",
-                  "source_url": "https://www.hltv.org/player/21809/910",
-                  "team_name": "The MongolZ"
-                }
-              ]
-            },
-            "map_results": [
-              {
-                "map_name": "Dust2",
-                "score1": 7,
-                "score2": 13,
-                "status": "finished"
-              },
-              {
-                "map_name": "Inferno",
-                "score1": 9,
-                "score2": 13,
-                "status": "finished"
-              },
-              {
-                "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Dust2",
-              "Inferno",
-              "Mirage"
-            ],
+            "maps": [],
             "match_id": "hltv:2396008",
             "product_tier": "tier_1",
             "score1": 0,
             "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2396008/wildcard-vs-the-mongolz-blast-bounty-2026-season-2",
-            "stage_name": "Scheduled series",
+            "stage_name": "Completed series",
             "starts_at": null,
             "status": "finished",
             "team1_name": "Wildcard",
             "team2_name": "The MongolZ",
-            "veto_text": "Best of 3 (Online)\n\n* Stage 2 round of 16. Winner qualifies for LAN Finals.\n\n** Wildcard (seed 16) have selected The MongolZ (seed 5).",
             "winner_name": "The MongolZ"
           },
           {
@@ -2465,7 +2259,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "FURIA"
         ],
         "product_tier": "tier_1",
-        "source_url": "https://www.hltv.org/events/archive",
+        "source_url": null,
         "status": "finished"
       },
       {
@@ -2478,6 +2272,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-south-america-series-4",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-south-america-series-4",
+            "event_name": "CCT 2026 South America Series 4",
+            "event_url": null,
+            "hltv_match_id": "2395779",
+            "maps": [],
+            "match_id": "hltv:2395779",
+            "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2395779/oddik-vs-isurus-cct-2026-south-america-series-4",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "ODDIK",
+            "team2_name": "Isurus",
+            "winner_name": "Isurus"
+          },
           {
             "event_id": "hltv:cct-2026-south-america-series-4",
             "event_name": "CCT 2026 South America Series 4",
@@ -2629,89 +2442,24 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Keyd Stars",
             "team2_name": "ALKA",
             "winner_name": "Keyd Stars"
-          },
-          {
-            "event_id": "hltv:cct-2026-south-america-series-4",
-            "event_name": "CCT 2026 South America Series 4",
-            "event_url": null,
-            "hltv_match_id": "2395770",
-            "maps": [],
-            "match_id": "hltv:2395770",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2395770/bounty-hunters-vs-oddik-cct-2026-south-america-series-4",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Bounty Hunters",
-            "team2_name": "ODDIK",
-            "winner_name": "ODDIK"
-          },
-          {
-            "event_id": "hltv:cct-2026-south-america-series-4",
-            "event_name": "CCT 2026 South America Series 4",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2395779",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Nuke",
-                "score1": 16,
-                "score2": 14,
-                "status": "finished"
-              },
-              {
-                "map_name": "Dust2",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Nuke",
-              "Dust2",
-              "Mirage"
-            ],
-            "match_id": "hltv:2395779",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2395779/oddik-vs-isurus-cct-2026-south-america-series-4",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "ODDIK",
-            "team2_name": "Isurus",
-            "veto_text": "Best of 3 (Online)\n\n* Grand final"
           }
         ],
         "name": "CCT 2026 South America Series 4",
         "participants": [
-          "Fluxo",
-          "Isurus",
-          "LP",
           "ODDIK",
+          "Isurus",
+          "Fluxo",
+          "LP",
           "BESTIA Academy",
           "Keyd Stars",
           "UNO MILLE",
           "BORRACHEIROS",
           "MAGICOS",
-          "ALKA",
-          "Bounty Hunters"
+          "ALKA"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "finished"
       },
       {
         "current_stage": "Schedule",
@@ -3311,22 +3059,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9298",
             "event_name": "CCT 2026 Europe Series 6",
             "event_url": null,
-            "hltv_match_id": "2396105",
-            "maps": [],
-            "match_id": "hltv:2396105",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396105/just-players-vs-ex-young-ninjas-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-07-27T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Just Players",
-            "team2_name": "ex-Young Ninjas"
-          },
-          {
-            "event_id": "hltv:9298",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
             "hltv_match_id": "2396106",
             "maps": [],
             "match_id": "hltv:2396106",
@@ -3438,8 +3170,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
-          "Just Players",
-          "ex-Young Ninjas",
           "SPARTA",
           "Honv\u00e9d",
           "ex-RUSTEC",
@@ -3710,9 +3440,50 @@ window.__STRIKESIGNAL_DATA__ = {
         "product_tier": "tier_2",
         "source_url": null,
         "status": "upcoming"
+      },
+      {
+        "current_stage": "Schedule",
+        "format": {
+          "label": "Event schedule",
+          "settings": {},
+          "stages": [],
+          "type": "mixed"
+        },
+        "id": "hltv:cct-2026-europe-series-6",
+        "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396105",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396105",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396105/just-players-vs-ex-young-ninjas-cct-2026-europe-series-6",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-07-27T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Just Players",
+            "team2_name": "ex-Young Ninjas",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          }
+        ],
+        "name": "CCT 2026 Europe Series 6",
+        "participants": [
+          "Just Players",
+          "ex-Young Ninjas"
+        ],
+        "product_tier": "tier_2",
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-07-26T22:14:44Z",
+    "last_verified_utc": "2026-07-27T04:03:56Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -4150,7 +3921,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-07-26T22:15:04Z",
+  "generated_at_utc": "2026-07-27T04:04:09Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -5520,13 +5291,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.639252,
-        "brier": 0.218584,
-        "ece": 0.033387,
-        "log_loss": 0.625634
+        "accuracy": 0.63806,
+        "brier": 0.219163,
+        "ece": 0.034681,
+        "log_loss": 0.62689
       },
-      "rows": 801,
-      "test_rows": 535
+      "rows": 802,
+      "test_rows": 536
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -5540,13 +5311,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.642991,
-        "brier": 0.219444,
-        "ece": 0.041236,
-        "log_loss": 0.628592
+        "accuracy": 0.643657,
+        "brier": 0.219615,
+        "ece": 0.04204,
+        "log_loss": 0.628935
       },
       "promotion_passed": false,
-      "rows": 535
+      "rows": 536
     },
     "champion": {
       "folds": 3,
@@ -5563,7 +5334,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-07-26T22:15:04Z",
+    "generated_at_utc": "2026-07-27T04:04:09Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -5574,8 +5345,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 0,
-      "online_rows": 44,
+      "new_rows": 1,
+      "online_rows": 45,
       "seed_rows": 757
     }
   },
@@ -5624,9 +5395,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396097",
       "hltv:2395938",
       "hltv:2396096",
-      "hltv:2395770"
+      "hltv:2395770",
+      "hltv:2395779"
     ],
-    "last_online_update_utc": "2026-07-26T21:30:18Z",
+    "last_online_update_utc": "2026-07-27T04:04:09Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -9013,10 +8785,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 127
       },
       {
-        "elo": 1523.14,
-        "last_result_utc": "2026-07-26T21:30:18Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.6653,
+        "elo": 1533.93,
+        "last_result_utc": "2026-07-27T04:04:09Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.7262,
         "team_key": "isurus",
         "team_name": "Isurus",
         "vrs_points": 944.0,
@@ -11007,10 +10779,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1479.68,
-        "last_result_utc": "2026-07-26T21:30:18Z",
-        "matches": 82,
-        "recent_win_rate_10": 0.5619,
+        "elo": 1468.89,
+        "last_result_utc": "2026-07-27T04:04:09Z",
+        "matches": 83,
+        "recent_win_rate_10": 0.4597,
         "team_key": "oddik",
         "team_name": "oddik",
         "vrs_points": null,
@@ -14690,10 +14462,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "partial",
       "elo_prob_team1": 0.5372,
-      "event_id": "hltv:9298",
+      "event_id": "hltv:cct-2026-europe-series-6",
       "event_name": "CCT 2026 Europe Series 6",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-07-27",
@@ -15344,71 +15119,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "los kogutos",
       "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.6245,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.3755,
-      "event_id": "hltv:cct-2026-south-america-series-4",
-      "event_name": "CCT 2026 South America Series 4",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Nuke",
-          "score1": 16,
-          "score2": 14,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Nuke",
-        "Dust2",
-        "Mirage"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2395779",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Isurus",
-      "prob_team1": 0.3755,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2395779/oddik-vs-isurus-cct-2026-south-america-series-4",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "ODDIK",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Isurus",
-      "team2_vrs_rank": 129
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 65,
-    "online_results_applied": 0,
+    "live_feed_items": 64,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

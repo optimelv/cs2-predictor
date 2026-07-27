@@ -49,7 +49,7 @@
           "won": true,
           "kills": 17,
           "deaths": 17,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 81.7,
           "kast": 65.2,
           "rating": 1.32
@@ -77,8 +77,8 @@
           "won": true,
           "kills": 30,
           "deaths": 10,
-          "kd_ratio": 3.0,
-          "adr": 127.0,
+          "kd_ratio": 3,
+          "adr": 127,
           "kast": 95.7,
           "rating": 2.32
         },
@@ -93,7 +93,7 @@
           "deaths": 20,
           "kd_ratio": 0.85,
           "adr": 82.5,
-          "kast": 72.0,
+          "kast": 72,
           "rating": 1.1
         },
         {
@@ -121,7 +121,7 @@
           "deaths": 19,
           "kd_ratio": 0.47,
           "adr": 61.8,
-          "kast": 55.0,
+          "kast": 55,
           "rating": 0.76
         }
       ],
@@ -171,7 +171,7 @@
           "deaths": 24,
           "kd_ratio": 0.67,
           "average_rating": 0.98,
-          "average_adr": 62.0,
+          "average_adr": 62,
           "average_kast": 65.4,
           "last_date": "2026-03-13"
         },
@@ -194,7 +194,7 @@
           "maps": 2,
           "wins": 2,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 9,
           "deaths": 17,
           "kd_ratio": 0.53,
@@ -208,13 +208,13 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 16,
           "deaths": 4,
-          "kd_ratio": 4.0,
+          "kd_ratio": 4,
           "average_rating": 2.08,
           "average_adr": 114.9,
-          "average_kast": 100.0,
+          "average_kast": 100,
           "last_date": "2026-03-06"
         }
       ],
@@ -265,7 +265,7 @@
           "deaths": 13,
           "kd_ratio": 0.69,
           "adr": 53.2,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 0.96
         },
         {
@@ -279,7 +279,7 @@
           "deaths": 42,
           "kd_ratio": 1.29,
           "adr": 86.9,
-          "kast": 81.0,
+          "kast": 81,
           "rating": 1.49
         },
         {
@@ -320,7 +320,7 @@
           "kills": 18,
           "deaths": 14,
           "kd_ratio": 1.29,
-          "adr": 90.0,
+          "adr": 90,
           "kast": 77.3,
           "rating": 1.59
         },
@@ -335,7 +335,7 @@
           "deaths": 20,
           "kd_ratio": 1.5,
           "adr": 90.1,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 1.36
         },
         {
@@ -348,7 +348,7 @@
           "kills": 30,
           "deaths": 27,
           "kd_ratio": 1.11,
-          "adr": 80.0,
+          "adr": 80,
           "kast": 74.4,
           "rating": 1.31
         },
@@ -414,7 +414,7 @@
           "kd_ratio": 1.46,
           "average_rating": 1.57,
           "average_adr": 90.4,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2026-05-03"
         },
         {
@@ -427,7 +427,7 @@
           "deaths": 54,
           "kd_ratio": 0.78,
           "average_rating": 1.15,
-          "average_adr": 83.0,
+          "average_adr": 83,
           "average_kast": 59.4,
           "last_date": "2026-05-03"
         },
@@ -464,7 +464,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 8,
           "deaths": 9,
           "kd_ratio": 0.89,
@@ -478,7 +478,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 7,
           "deaths": 11,
           "kd_ratio": 0.64,
@@ -563,7 +563,7 @@
           "deaths": 38,
           "kd_ratio": 1.13,
           "adr": 91.4,
-          "kast": 64.0,
+          "kast": 64,
           "rating": 1.38
         },
         {
@@ -577,7 +577,7 @@
           "deaths": 6,
           "kd_ratio": 1.17,
           "adr": 74.3,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.29
         },
         {
@@ -591,7 +591,7 @@
           "deaths": 16,
           "kd_ratio": 1.44,
           "adr": 79.3,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.26
         },
         {
@@ -605,7 +605,7 @@
           "deaths": 15,
           "kd_ratio": 0.87,
           "adr": 54.5,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.14
         },
         {
@@ -631,7 +631,7 @@
           "won": false,
           "kills": 30,
           "deaths": 30,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 68.3,
           "kast": 62.8,
           "rating": 1.06
@@ -720,7 +720,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 10,
           "deaths": 12,
           "kd_ratio": 0.83,
@@ -833,7 +833,7 @@
           "deaths": 23,
           "kd_ratio": 1.09,
           "adr": 91.7,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.23
         },
         {
@@ -861,7 +861,7 @@
           "deaths": 22,
           "kd_ratio": 1.05,
           "adr": 84.1,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.2
         },
         {
@@ -888,8 +888,8 @@
           "kills": 19,
           "deaths": 18,
           "kd_ratio": 1.06,
-          "adr": 75.0,
-          "kast": 75.0,
+          "adr": 75,
+          "kast": 75,
           "rating": 1.27
         },
         {
@@ -902,7 +902,7 @@
           "kills": 26,
           "deaths": 16,
           "kd_ratio": 1.62,
-          "adr": 111.0,
+          "adr": 111,
           "kast": 78.3,
           "rating": 1.74
         },
@@ -982,7 +982,7 @@
           "kd_ratio": 1.35,
           "average_rating": 1.45,
           "average_adr": 98.8,
-          "average_kast": 72.0,
+          "average_kast": 72,
           "last_date": "2026-05-02"
         },
         {
@@ -990,7 +990,7 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 29,
           "deaths": 25,
           "kd_ratio": 1.16,
@@ -1074,7 +1074,7 @@
           "kills": 6,
           "deaths": 20,
           "kd_ratio": 0.3,
-          "adr": 41.0,
+          "adr": 41,
           "kast": 47.6,
           "rating": 0.4
         },
@@ -1145,7 +1145,7 @@
           "deaths": 5,
           "kd_ratio": 0.4,
           "adr": 31.9,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.52
         },
         {
@@ -1274,7 +1274,7 @@
           "maps": 5,
           "wins": 5,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 25,
           "deaths": 46,
           "kd_ratio": 0.54,
@@ -1387,7 +1387,7 @@
           "deaths": 11,
           "kd_ratio": 1.55,
           "adr": 86.4,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.42
         },
         {
@@ -1413,7 +1413,7 @@
           "won": true,
           "kills": 26,
           "deaths": 26,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 75.3,
           "kast": 74.3,
           "rating": 1.14
@@ -1497,9 +1497,9 @@
           "won": true,
           "kills": 15,
           "deaths": 15,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 89.2,
-          "kast": 80.0,
+          "kast": 80,
           "rating": 1.01
         },
         {
@@ -1511,9 +1511,9 @@
           "won": true,
           "kills": 18,
           "deaths": 9,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 89.6,
-          "kast": 87.0,
+          "kast": 87,
           "rating": 1.43
         },
         {
@@ -1554,7 +1554,7 @@
           "kills": 25,
           "deaths": 21,
           "kd_ratio": 1.19,
-          "adr": 92.0,
+          "adr": 92,
           "kast": 76.7,
           "rating": 1.45
         },
@@ -1712,7 +1712,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 12,
           "deaths": 16,
           "kd_ratio": 0.75,
@@ -1810,7 +1810,7 @@
           "kills": 13,
           "deaths": 10,
           "kd_ratio": 1.3,
-          "adr": 93.0,
+          "adr": 93,
           "kast": 76.5,
           "rating": 1.8
         },
@@ -1959,7 +1959,7 @@
           "deaths": 48,
           "kd_ratio": 0.77,
           "average_rating": 1.07,
-          "average_adr": 73.0,
+          "average_adr": 73,
           "average_kast": 70.6,
           "last_date": "2026-04-29"
         },
@@ -2002,7 +2002,7 @@
           "kd_ratio": 0.72,
           "average_rating": 0.81,
           "average_adr": 55.6,
-          "average_kast": 61.0,
+          "average_kast": 61,
           "last_date": "2026-04-30"
         },
         {
@@ -2010,7 +2010,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 13,
           "deaths": 15,
           "kd_ratio": 0.87,
@@ -2067,7 +2067,7 @@
           "deaths": 15,
           "kd_ratio": 0.53,
           "adr": 55.9,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 0.93
         },
         {
@@ -2094,7 +2094,7 @@
           "kills": 20,
           "deaths": 28,
           "kd_ratio": 0.71,
-          "adr": 69.0,
+          "adr": 69,
           "kast": 66.7,
           "rating": 0.92
         },
@@ -2163,7 +2163,7 @@
           "won": true,
           "kills": 11,
           "deaths": 11,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 67.8,
           "kast": 88.2,
           "rating": 1.56
@@ -2201,7 +2201,7 @@
           "deaths": 40,
           "kd_ratio": 0.75,
           "average_rating": 1.09,
-          "average_adr": 68.0,
+          "average_adr": 68,
           "average_kast": 77.7,
           "last_date": "2026-05-02"
         },
@@ -2228,7 +2228,7 @@
           "kills": 39,
           "deaths": 52,
           "kd_ratio": 0.75,
-          "average_rating": 1.0,
+          "average_rating": 1,
           "average_adr": 57.2,
           "average_kast": 61.2,
           "last_date": "2026-05-03"
@@ -2266,10 +2266,10 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 8,
           "deaths": 8,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "average_rating": 1.23,
           "average_adr": 85.8,
           "average_kast": 83.3,
@@ -2280,12 +2280,12 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 6,
           "deaths": 9,
           "kd_ratio": 0.67,
           "average_rating": 0.81,
-          "average_adr": 59.0,
+          "average_adr": 59,
           "average_kast": 58.3,
           "last_date": "2026-05-03"
         }
@@ -2350,8 +2350,8 @@
           "kills": 16,
           "deaths": 11,
           "kd_ratio": 1.45,
-          "adr": 83.0,
-          "kast": 70.0,
+          "adr": 83,
+          "kast": 70,
           "rating": 1.37
         },
         {
@@ -2463,7 +2463,7 @@
           "deaths": 13,
           "kd_ratio": 1.46,
           "adr": 82.5,
-          "kast": 90.0,
+          "kast": 90,
           "rating": 1.58
         },
         {
@@ -2518,8 +2518,8 @@
           "kills": 23,
           "deaths": 18,
           "kd_ratio": 1.28,
-          "adr": 81.0,
-          "kast": 80.0,
+          "adr": 81,
+          "kast": 80,
           "rating": 1.35
         },
         {
@@ -2532,7 +2532,7 @@
           "kills": 14,
           "deaths": 19,
           "kd_ratio": 0.74,
-          "adr": 71.0,
+          "adr": 71,
           "kast": 63.6,
           "rating": 0.82
         },
@@ -2676,7 +2676,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 16,
           "deaths": 12,
           "kd_ratio": 1.33,
@@ -2732,8 +2732,8 @@
           "kills": 10,
           "deaths": 11,
           "kd_ratio": 0.91,
-          "adr": 47.0,
-          "kast": 70.0,
+          "adr": 47,
+          "kast": 70,
           "rating": 1.11
         },
         {
@@ -2762,7 +2762,7 @@
           "kd_ratio": 0.73,
           "adr": 61.8,
           "kast": 66.7,
-          "rating": 1.0
+          "rating": 1
         },
         {
           "match_id": "hltv:2387547",
@@ -2803,7 +2803,7 @@
           "deaths": 22,
           "kd_ratio": 1.05,
           "adr": 84.3,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 1.02
         },
         {
@@ -2932,7 +2932,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 10,
           "deaths": 9,
           "kd_ratio": 1.11,
@@ -2946,10 +2946,10 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 8,
           "deaths": 8,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "average_rating": 1.2,
           "average_adr": 69.8,
           "average_kast": 66.7,
@@ -3029,7 +3029,7 @@
           "won": true,
           "kills": 15,
           "deaths": 15,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 50.7,
           "kast": 77.8,
           "rating": 0.88
@@ -3059,7 +3059,7 @@
           "deaths": 19,
           "kd_ratio": 1.26,
           "adr": 78.2,
-          "kast": 80.0,
+          "kast": 80,
           "rating": 1.27
         },
         {
@@ -3127,7 +3127,7 @@
           "won": true,
           "kills": 26,
           "deaths": 13,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 98.4,
           "kast": 78.3,
           "rating": 1.89
@@ -3222,7 +3222,7 @@
           "kd_ratio": 1.72,
           "average_rating": 1.4,
           "average_adr": 76.9,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2026-05-03"
         },
         {
@@ -3230,7 +3230,7 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 26,
           "deaths": 17,
           "kd_ratio": 1.53,
@@ -3329,7 +3329,7 @@
           "deaths": 45,
           "kd_ratio": 0.49,
           "adr": 61.9,
-          "kast": 64.0,
+          "kast": 64,
           "rating": 0.77
         },
         {
@@ -3343,7 +3343,7 @@
           "deaths": 7,
           "kd_ratio": 1.57,
           "adr": 75.8,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.52
         },
         {
@@ -3355,7 +3355,7 @@
           "won": true,
           "kills": 21,
           "deaths": 21,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 81.2,
           "kast": 78.6,
           "rating": 1.25
@@ -3370,8 +3370,8 @@
           "kills": 17,
           "deaths": 15,
           "kd_ratio": 1.13,
-          "adr": 82.0,
-          "kast": 65.0,
+          "adr": 82,
+          "kast": 65,
           "rating": 1.33
         },
         {
@@ -3383,8 +3383,8 @@
           "won": true,
           "kills": 21,
           "deaths": 21,
-          "kd_ratio": 1.0,
-          "adr": 75.0,
+          "kd_ratio": 1,
+          "adr": 75,
           "kast": 67.7,
           "rating": 1.15
         },
@@ -3486,7 +3486,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 9,
           "deaths": 14,
           "kd_ratio": 0.64,
@@ -3556,7 +3556,7 @@
           "kills": 13,
           "deaths": 22,
           "kd_ratio": 0.59,
-          "adr": 48.0,
+          "adr": 48,
           "kast": 71.9,
           "rating": 0.65
         },
@@ -3611,7 +3611,7 @@
           "won": false,
           "kills": 23,
           "deaths": 23,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 77.4,
           "kast": 75.8,
           "rating": 1.26
@@ -3626,7 +3626,7 @@
           "kills": 18,
           "deaths": 22,
           "kd_ratio": 0.82,
-          "adr": 60.0,
+          "adr": 60,
           "kast": 63.3,
           "rating": 0.84
         },
@@ -3682,8 +3682,8 @@
           "kills": 20,
           "deaths": 22,
           "kd_ratio": 0.91,
-          "adr": 77.0,
-          "kast": 69.0,
+          "adr": 77,
+          "kast": 69,
           "rating": 1.13
         },
         {
@@ -3696,7 +3696,7 @@
           "kills": 23,
           "deaths": 14,
           "kd_ratio": 1.64,
-          "adr": 104.0,
+          "adr": 104,
           "kast": 71.4,
           "rating": 1.67
         }
@@ -3747,7 +3747,7 @@
           "deaths": 48,
           "kd_ratio": 1.04,
           "average_rating": 1.28,
-          "average_adr": 89.0,
+          "average_adr": 89,
           "average_kast": 70.3,
           "last_date": "2026-04-30"
         },
@@ -3784,7 +3784,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 15,
           "deaths": 11,
           "kd_ratio": 1.36,
@@ -3942,7 +3942,7 @@
           "maps": 4,
           "wins": 4,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 40,
           "deaths": 22,
           "kd_ratio": 1.82,
@@ -3970,12 +3970,12 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 20,
           "deaths": 30,
           "kd_ratio": 0.67,
           "average_rating": 1.11,
-          "average_adr": 87.0,
+          "average_adr": 87,
           "average_kast": 64.4,
           "last_date": "2026-05-24"
         },
@@ -4001,7 +4001,7 @@
           "win_rate": 0.5,
           "kills": 12,
           "deaths": 12,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "average_rating": 1.06,
           "average_adr": 56.2,
           "average_kast": 68.8,
@@ -4012,7 +4012,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 2,
           "deaths": 7,
           "kd_ratio": 0.29,
@@ -4040,7 +4040,7 @@
       "player_id": "hltv:21243",
       "hltv_player_id": 21243,
       "nickname": "Wicadia",
-      "real_name": "Ali Haydar Yal\u00e7\u0131n",
+      "real_name": "Ali Haydar Yalçın",
       "team_name": "Aurora",
       "source_team_name": "Aurora",
       "source_team_rank": 6,
@@ -4151,7 +4151,7 @@
           "won": false,
           "kills": 18,
           "deaths": 18,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 76.6,
           "kast": 58.3,
           "rating": 1.16
@@ -4181,7 +4181,7 @@
           "deaths": 14,
           "kd_ratio": 1.29,
           "adr": 91.8,
-          "kast": 87.0,
+          "kast": 87,
           "rating": 1.39
         },
         {
@@ -4296,7 +4296,7 @@
           "maps": 4,
           "wins": 4,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 31,
           "deaths": 24,
           "kd_ratio": 1.29,
@@ -4310,10 +4310,10 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 33,
           "deaths": 33,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "average_rating": 1.52,
           "average_adr": 90.7,
           "average_kast": 67.6,
@@ -4436,8 +4436,8 @@
           "kills": 20,
           "deaths": 16,
           "kd_ratio": 1.25,
-          "adr": 67.0,
-          "kast": 72.0,
+          "adr": 67,
+          "kast": 72,
           "rating": 1.14
         },
         {
@@ -4465,7 +4465,7 @@
           "deaths": 15,
           "kd_ratio": 0.6,
           "adr": 52.1,
-          "kast": 65.0,
+          "kast": 65,
           "rating": 0.62
         }
       ],
@@ -4487,7 +4487,7 @@
           "deaths": 29,
           "kd_ratio": 1.28,
           "average_rating": 1.13,
-          "average_adr": 69.0,
+          "average_adr": 69,
           "average_kast": 77.9,
           "last_date": "2026-03-07"
         },
@@ -4524,7 +4524,7 @@
           "maps": 2,
           "wins": 2,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 18,
           "deaths": 13,
           "kd_ratio": 1.38,
@@ -4552,7 +4552,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 6,
           "deaths": 5,
           "kd_ratio": 1.2,
@@ -4607,7 +4607,7 @@
           "won": false,
           "kills": 15,
           "deaths": 15,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 84.8,
           "kast": 73.7,
           "rating": 1.25
@@ -4636,7 +4636,7 @@
           "kills": 17,
           "deaths": 16,
           "kd_ratio": 1.06,
-          "adr": 73.0,
+          "adr": 73,
           "kast": 68.2,
           "rating": 1.23
         },
@@ -4651,7 +4651,7 @@
           "deaths": 20,
           "kd_ratio": 0.55,
           "adr": 48.5,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.6
         },
         {
@@ -4678,8 +4678,8 @@
           "kills": 13,
           "deaths": 19,
           "kd_ratio": 0.68,
-          "adr": 53.0,
-          "kast": 50.0,
+          "adr": 53,
+          "kast": 50,
           "rating": 0.73
         },
         {
@@ -4691,9 +4691,9 @@
           "won": true,
           "kills": 6,
           "deaths": 0,
-          "kd_ratio": 6.0,
-          "adr": 140.0,
-          "kast": 100.0,
+          "kd_ratio": 6,
+          "adr": 140,
+          "kast": 100,
           "rating": 2.81
         },
         {
@@ -4720,7 +4720,7 @@
           "kills": 20,
           "deaths": 22,
           "kd_ratio": 0.91,
-          "adr": 64.0,
+          "adr": 64,
           "kast": 58.8,
           "rating": 1.01
         },
@@ -4756,7 +4756,7 @@
       "form_summary": {
         "series": 11,
         "average_rating": 1.31,
-        "average_adr": 77.0,
+        "average_adr": 77,
         "recent_rating": 1.36,
         "rating_delta": -0.23
       },
@@ -4836,10 +4836,10 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 0,
           "deaths": 0,
-          "kd_ratio": 0.0,
+          "kd_ratio": 0,
           "average_rating": null,
           "average_adr": null,
           "average_kast": null,
@@ -4856,7 +4856,7 @@
           "losses": 5,
           "win_rate": 0.545,
           "average_rating": 1.31,
-          "average_adr": 77.0
+          "average_adr": 77
         }
       ]
     },
@@ -4892,7 +4892,7 @@
           "kills": 22,
           "deaths": 17,
           "kd_ratio": 1.29,
-          "adr": 78.0,
+          "adr": 78,
           "kast": 79.3,
           "rating": 1.4
         },
@@ -4906,7 +4906,7 @@
           "kills": 18,
           "deaths": 21,
           "kd_ratio": 0.86,
-          "adr": 63.0,
+          "adr": 63,
           "kast": 71.4,
           "rating": 0.96
         },
@@ -5003,9 +5003,9 @@
           "won": true,
           "kills": 15,
           "deaths": 15,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 71.4,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.12
         },
         {
@@ -5111,7 +5111,7 @@
           "deaths": 23,
           "kd_ratio": 1.26,
           "average_rating": 1.33,
-          "average_adr": 80.0,
+          "average_adr": 80,
           "average_kast": 80.6,
           "last_date": "2026-05-03"
         },
@@ -5120,13 +5120,13 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 18,
           "deaths": 21,
           "kd_ratio": 0.86,
           "average_rating": 1.11,
-          "average_adr": 58.0,
-          "average_kast": 75.0,
+          "average_adr": 58,
+          "average_kast": 75,
           "last_date": "2026-03-10"
         },
         {
@@ -5206,7 +5206,7 @@
           "kd_ratio": 0.71,
           "adr": 66.1,
           "kast": 67.6,
-          "rating": 1.0
+          "rating": 1
         },
         {
           "match_id": "hltv:2387342",
@@ -5232,7 +5232,7 @@
           "kills": 23,
           "deaths": 25,
           "kd_ratio": 0.92,
-          "adr": 83.0,
+          "adr": 83,
           "kast": 67.7,
           "rating": 1.17
         },
@@ -5247,7 +5247,7 @@
           "deaths": 14,
           "kd_ratio": 0.21,
           "adr": 32.8,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.49
         },
         {
@@ -5274,9 +5274,9 @@
           "kills": 10,
           "deaths": 14,
           "kd_ratio": 0.71,
-          "adr": 71.0,
+          "adr": 71,
           "kast": 70.6,
-          "rating": 1.0
+          "rating": 1
         },
         {
           "match_id": "hltv:2393347",
@@ -5302,14 +5302,14 @@
           "kills": 15,
           "deaths": 21,
           "kd_ratio": 0.71,
-          "adr": 70.0,
+          "adr": 70,
           "kast": 51.9,
           "rating": 0.94
         }
       ],
       "form_summary": {
         "series": 9,
-        "average_rating": 1.0,
+        "average_rating": 1,
         "average_adr": 67.2,
         "recent_rating": 1.18,
         "rating_delta": 0.35
@@ -5325,7 +5325,7 @@
           "deaths": 39,
           "kd_ratio": 0.85,
           "average_rating": 1.26,
-          "average_adr": 75.0,
+          "average_adr": 75,
           "average_kast": 75.6,
           "last_date": "2026-05-02"
         },
@@ -5404,7 +5404,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 11,
           "deaths": 8,
           "kd_ratio": 1.38,
@@ -5423,7 +5423,7 @@
           "wins": 4,
           "losses": 5,
           "win_rate": 0.444,
-          "average_rating": 1.0,
+          "average_rating": 1,
           "average_adr": 67.2
         }
       ]
@@ -5460,7 +5460,7 @@
           "kills": 16,
           "deaths": 21,
           "kd_ratio": 0.76,
-          "adr": 67.0,
+          "adr": 67,
           "kast": 72.4,
           "rating": 0.96
         },
@@ -5515,7 +5515,7 @@
           "won": true,
           "kills": 18,
           "deaths": 18,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 67.6,
           "kast": 73.3,
           "rating": 1.11
@@ -5573,7 +5573,7 @@
           "deaths": 14,
           "kd_ratio": 1.57,
           "adr": 91.7,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.46
         },
         {
@@ -5638,7 +5638,7 @@
           "kd_ratio": 1.12,
           "average_rating": 1.21,
           "average_adr": 73.7,
-          "average_kast": 81.0,
+          "average_kast": 81,
           "last_date": "2026-05-02"
         },
         {
@@ -5694,7 +5694,7 @@
           "kd_ratio": 1.04,
           "average_rating": 1.15,
           "average_adr": 77.6,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2026-05-03"
         },
         {
@@ -5773,7 +5773,7 @@
           "deaths": 16,
           "kd_ratio": 1.25,
           "adr": 83.3,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.48
         },
         {
@@ -5785,7 +5785,7 @@
           "won": false,
           "kills": 14,
           "deaths": 14,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 64.8,
           "kast": 79.2,
           "rating": 1.28
@@ -5801,7 +5801,7 @@
           "deaths": 18,
           "kd_ratio": 1.17,
           "adr": 68.4,
-          "kast": 73.0,
+          "kast": 73,
           "rating": 1.16
         },
         {
@@ -5813,7 +5813,7 @@
           "won": false,
           "kills": 14,
           "deaths": 14,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 87.6,
           "kast": 72.2,
           "rating": 1.22
@@ -5857,7 +5857,7 @@
           "deaths": 12,
           "kd_ratio": 1.08,
           "adr": 74.2,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.37
         },
         {
@@ -5894,7 +5894,7 @@
           "kd_ratio": 1.35,
           "average_rating": 1.43,
           "average_adr": 81.1,
-          "average_kast": 74.0,
+          "average_kast": 74,
           "last_date": "2026-05-22"
         },
         {
@@ -5916,10 +5916,10 @@
           "maps": 3,
           "wins": 0,
           "losses": 3,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 18,
           "deaths": 18,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "average_rating": 1.19,
           "average_adr": 81.9,
           "average_kast": 72.2,
@@ -5935,7 +5935,7 @@
           "deaths": 16,
           "kd_ratio": 0.81,
           "average_rating": 1.08,
-          "average_adr": 74.0,
+          "average_adr": 74,
           "average_kast": 66.7,
           "last_date": "2026-05-21"
         }
@@ -5999,9 +5999,9 @@
           "won": true,
           "kills": 28,
           "deaths": 4,
-          "kd_ratio": 7.0,
+          "kd_ratio": 7,
           "adr": 128.6,
-          "kast": 95.0,
+          "kast": 95,
           "rating": 2.57
         },
         {
@@ -6083,7 +6083,7 @@
           "won": true,
           "kills": 14,
           "deaths": 14,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 62.3,
           "kast": 65.2,
           "rating": 0.98
@@ -6112,8 +6112,8 @@
           "kills": 17,
           "deaths": 8,
           "kd_ratio": 2.12,
-          "adr": 89.0,
-          "kast": 80.0,
+          "adr": 89,
+          "kast": 80,
           "rating": 1.41
         },
         {
@@ -6127,7 +6127,7 @@
           "deaths": 10,
           "kd_ratio": 2.4,
           "adr": 103.5,
-          "kast": 87.0,
+          "kast": 87,
           "rating": 1.83
         },
         {
@@ -6232,7 +6232,7 @@
       "form_summary": {
         "series": 18,
         "average_rating": 1.13,
-        "average_adr": 66.0,
+        "average_adr": 66,
         "recent_rating": 0.91,
         "rating_delta": -0.12
       },
@@ -6261,7 +6261,7 @@
           "deaths": 59,
           "kd_ratio": 1.29,
           "average_rating": 1.23,
-          "average_adr": 76.0,
+          "average_adr": 76,
           "average_kast": 69.5,
           "last_date": "2026-05-24"
         },
@@ -6304,7 +6304,7 @@
           "kd_ratio": 0.85,
           "average_rating": 1.02,
           "average_adr": 58.7,
-          "average_kast": 70.0,
+          "average_kast": 70,
           "last_date": "2026-05-24"
         },
         {
@@ -6317,7 +6317,7 @@
           "deaths": 22,
           "kd_ratio": 1.23,
           "average_rating": 1.08,
-          "average_adr": 56.0,
+          "average_adr": 56,
           "average_kast": 82.8,
           "last_date": "2026-05-20"
         },
@@ -6326,7 +6326,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 7,
           "deaths": 13,
           "kd_ratio": 0.54,
@@ -6346,7 +6346,7 @@
           "losses": 5,
           "win_rate": 0.722,
           "average_rating": 1.13,
-          "average_adr": 66.0
+          "average_adr": 66
         }
       ]
     },
@@ -6439,7 +6439,7 @@
           "deaths": 19,
           "kd_ratio": 0.58,
           "adr": 53.9,
-          "kast": 56.0,
+          "kast": 56,
           "rating": 0.76
         },
         {
@@ -6452,7 +6452,7 @@
           "kills": 10,
           "deaths": 17,
           "kd_ratio": 0.59,
-          "adr": 54.0,
+          "adr": 54,
           "kast": 71.4,
           "rating": 0.79
         },
@@ -6466,8 +6466,8 @@
           "kills": 10,
           "deaths": 13,
           "kd_ratio": 0.77,
-          "adr": 57.0,
-          "kast": 55.0,
+          "adr": 57,
+          "kast": 55,
           "rating": 0.82
         }
       ],
@@ -6503,8 +6503,8 @@
           "deaths": 37,
           "kd_ratio": 0.73,
           "average_rating": 0.8,
-          "average_adr": 62.0,
-          "average_kast": 57.0,
+          "average_adr": 62,
+          "average_kast": 57,
           "last_date": "2026-03-07"
         },
         {
@@ -6532,7 +6532,7 @@
           "kd_ratio": 0.33,
           "average_rating": 0.53,
           "average_adr": 30.9,
-          "average_kast": 45.0,
+          "average_kast": 45,
           "last_date": "2026-03-07"
         },
         {
@@ -6540,13 +6540,13 @@
           "maps": 2,
           "wins": 2,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 4,
           "deaths": 18,
           "kd_ratio": 0.22,
           "average_rating": 0.5,
           "average_adr": 37.2,
-          "average_kast": 63.0,
+          "average_kast": 63,
           "last_date": "2026-03-08"
         },
         {
@@ -6554,7 +6554,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 4,
           "deaths": 7,
           "kd_ratio": 0.57,
@@ -6582,7 +6582,7 @@
       "player_id": "hltv:7938",
       "hltv_player_id": 7938,
       "nickname": "XANTARES",
-      "real_name": "Ismailcan D\u00f6rtkarde\u015f",
+      "real_name": "Ismailcan Dörtkardeş",
       "team_name": "Aurora",
       "source_team_name": "Aurora",
       "source_team_rank": 6,
@@ -6651,7 +6651,7 @@
           "won": true,
           "kills": 16,
           "deaths": 8,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 132.9,
           "kast": 92.9,
           "rating": 2.28
@@ -6667,7 +6667,7 @@
           "deaths": 45,
           "kd_ratio": 0.93,
           "adr": 85.9,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.21
         },
         {
@@ -6708,7 +6708,7 @@
           "kills": 19,
           "deaths": 13,
           "kd_ratio": 1.46,
-          "adr": 95.0,
+          "adr": 95,
           "kast": 81.8,
           "rating": 1.84
         },
@@ -6737,7 +6737,7 @@
           "deaths": 20,
           "kd_ratio": 0.95,
           "adr": 70.6,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 1.1
         },
         {
@@ -6765,7 +6765,7 @@
           "deaths": 33,
           "kd_ratio": 0.61,
           "adr": 64.1,
-          "kast": 61.0,
+          "kast": 61,
           "rating": 0.73
         }
       ],
@@ -6838,7 +6838,7 @@
           "maps": 4,
           "wins": 4,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 33,
           "deaths": 25,
           "kd_ratio": 1.32,
@@ -6852,7 +6852,7 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 19,
           "deaths": 32,
           "kd_ratio": 0.59,
@@ -6894,7 +6894,7 @@
       "player_id": "hltv:8574",
       "hltv_player_id": 8574,
       "nickname": "woxic",
-      "real_name": "\u00d6zg\u00fcr Eker",
+      "real_name": "Özgür Eker",
       "team_name": "Aurora",
       "source_team_name": "Aurora",
       "source_team_rank": 6,
@@ -6963,7 +6963,7 @@
           "won": true,
           "kills": 12,
           "deaths": 6,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 77.6,
           "kast": 78.6,
           "rating": 1.51
@@ -6979,7 +6979,7 @@
           "deaths": 39,
           "kd_ratio": 0.79,
           "adr": 49.4,
-          "kast": 55.0,
+          "kast": 55,
           "rating": 0.85
         },
         {
@@ -7150,7 +7150,7 @@
           "maps": 4,
           "wins": 4,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 19,
           "deaths": 27,
           "kd_ratio": 0.7,
@@ -7164,7 +7164,7 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 33,
           "deaths": 28,
           "kd_ratio": 1.18,
@@ -7206,7 +7206,7 @@
       "player_id": "hltv:13915",
       "hltv_player_id": 13915,
       "nickname": "YEKINDAR",
-      "real_name": "Mareks Ga\u013cinskis",
+      "real_name": "Mareks Gaļinskis",
       "team_name": "FURIA",
       "source_team_name": "FURIA",
       "source_team_rank": 5,
@@ -7346,7 +7346,7 @@
           "kills": 9,
           "deaths": 12,
           "kd_ratio": 0.75,
-          "adr": 52.0,
+          "adr": 52,
           "kast": 78.9,
           "rating": 1.11
         },
@@ -7388,7 +7388,7 @@
           "kills": 10,
           "deaths": 17,
           "kd_ratio": 0.59,
-          "adr": 63.0,
+          "adr": 63,
           "kast": 57.1,
           "rating": 0.84
         }
@@ -7396,7 +7396,7 @@
       "form_summary": {
         "series": 12,
         "average_rating": 1.09,
-        "average_adr": 70.0,
+        "average_adr": 70,
         "recent_rating": 0.95,
         "rating_delta": -0.13
       },
@@ -7454,7 +7454,7 @@
           "kd_ratio": 0.78,
           "average_rating": 0.95,
           "average_adr": 68.4,
-          "average_kast": 67.0,
+          "average_kast": 67,
           "last_date": "2026-04-30"
         },
         {
@@ -7476,7 +7476,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 9,
           "deaths": 13,
           "kd_ratio": 0.69,
@@ -7496,7 +7496,7 @@
           "losses": 6,
           "win_rate": 0.5,
           "average_rating": 1.09,
-          "average_adr": 70.0
+          "average_adr": 70
         }
       ]
     },
@@ -7504,7 +7504,7 @@
       "player_id": "hltv:3741",
       "hltv_player_id": 3741,
       "nickname": "NiKo",
-      "real_name": "Nikola Kova\u010d",
+      "real_name": "Nikola Kovač",
       "team_name": "Falcons",
       "source_team_name": "Falcons",
       "source_team_rank": 4,
@@ -7561,7 +7561,7 @@
           "deaths": 42,
           "kd_ratio": 0.48,
           "adr": 44.9,
-          "kast": 54.0,
+          "kast": 54,
           "rating": 0.68
         },
         {
@@ -7575,7 +7575,7 @@
           "deaths": 5,
           "kd_ratio": 0.8,
           "adr": 32.4,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.01
         },
         {
@@ -7587,7 +7587,7 @@
           "won": true,
           "kills": 19,
           "deaths": 19,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 75.3,
           "kast": 78.6,
           "rating": 1.22
@@ -7603,7 +7603,7 @@
           "deaths": 16,
           "kd_ratio": 0.69,
           "adr": 69.8,
-          "kast": 60.0,
+          "kast": 60,
           "rating": 0.82
         },
         {
@@ -7666,9 +7666,9 @@
           "kills": 33,
           "deaths": 41,
           "kd_ratio": 0.8,
-          "average_rating": 1.0,
+          "average_rating": 1,
           "average_adr": 63.6,
-          "average_kast": 71.0,
+          "average_kast": 71,
           "last_date": "2026-05-24"
         },
         {
@@ -7718,13 +7718,13 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 11,
           "deaths": 13,
           "kd_ratio": 0.85,
           "average_rating": 1.09,
           "average_adr": 70.9,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2025-11-16"
         }
       ],
@@ -7746,7 +7746,7 @@
       "player_id": "hltv:22279",
       "hltv_player_id": 22279,
       "nickname": "PR",
-      "real_name": "Old\u0159ich Nov\u00fd",
+      "real_name": "Oldřich Nový",
       "team_name": "GamerLegion",
       "source_team_name": "GamerLegion",
       "source_team_rank": 10,
@@ -7775,7 +7775,7 @@
           "deaths": 9,
           "kd_ratio": 0.89,
           "adr": 71.7,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.1
         },
         {
@@ -7802,7 +7802,7 @@
           "kills": 22,
           "deaths": 12,
           "kd_ratio": 1.83,
-          "adr": 105.0,
+          "adr": 105,
           "kast": 86.4,
           "rating": 1.9
         },
@@ -7988,13 +7988,13 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 11,
           "deaths": 7,
           "kd_ratio": 1.57,
           "average_rating": 1.93,
-          "average_adr": 108.0,
-          "average_kast": 100.0,
+          "average_adr": 108,
+          "average_kast": 100,
           "last_date": "2025-10-30"
         }
       ],
@@ -8058,7 +8058,7 @@
           "kills": 17,
           "deaths": 25,
           "kd_ratio": 0.68,
-          "adr": 71.0,
+          "adr": 71,
           "kast": 66.7,
           "rating": 0.88
         },
@@ -8127,9 +8127,9 @@
           "won": true,
           "kills": 10,
           "deaths": 1,
-          "kd_ratio": 10.0,
+          "kd_ratio": 10,
           "adr": 232.8,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 4.17
         },
         {
@@ -8155,7 +8155,7 @@
           "won": true,
           "kills": 24,
           "deaths": 24,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 76.3,
           "kast": 61.8,
           "rating": 1.18
@@ -8222,7 +8222,7 @@
           "kd_ratio": 0.86,
           "average_rating": 1.39,
           "average_adr": 95.8,
-          "average_kast": 68.0,
+          "average_kast": 68,
           "last_date": "2026-05-20"
         },
         {
@@ -8263,8 +8263,8 @@
           "deaths": 21,
           "kd_ratio": 1.29,
           "average_rating": 1.44,
-          "average_adr": 77.0,
-          "average_kast": 75.0,
+          "average_adr": 77,
+          "average_kast": 75,
           "last_date": "2026-05-22"
         },
         {
@@ -8272,7 +8272,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 15,
           "deaths": 7,
           "kd_ratio": 2.14,
@@ -8329,7 +8329,7 @@
           "deaths": 12,
           "kd_ratio": 0.92,
           "adr": 64.3,
-          "kast": 60.0,
+          "kast": 60,
           "rating": 1.14
         },
         {
@@ -8441,7 +8441,7 @@
           "deaths": 24,
           "kd_ratio": 1.04,
           "adr": 63.2,
-          "kast": 73.0,
+          "kast": 73,
           "rating": 1.03
         }
       ],
@@ -8542,7 +8542,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 7,
           "deaths": 8,
           "kd_ratio": 0.88,
@@ -8570,7 +8570,7 @@
       "player_id": "hltv:12018",
       "hltv_player_id": 12018,
       "nickname": "TeSeS",
-      "real_name": "Ren\u00e9 Madsen",
+      "real_name": "René Madsen",
       "team_name": "Falcons",
       "source_team_name": "Falcons",
       "source_team_rank": 4,
@@ -8597,7 +8597,7 @@
           "won": true,
           "kills": 17,
           "deaths": 17,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 60.7,
           "kast": 70.4,
           "rating": 1.03
@@ -8627,7 +8627,7 @@
           "deaths": 38,
           "kd_ratio": 0.74,
           "adr": 59.8,
-          "kast": 60.0,
+          "kast": 60,
           "rating": 0.86
         },
         {
@@ -8669,7 +8669,7 @@
           "deaths": 12,
           "kd_ratio": 1.25,
           "adr": 78.4,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.46
         },
         {
@@ -8683,7 +8683,7 @@
           "deaths": 20,
           "kd_ratio": 0.75,
           "adr": 63.9,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 1.02
         },
         {
@@ -8784,13 +8784,13 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 12,
           "deaths": 11,
           "kd_ratio": 1.09,
           "average_rating": 1.28,
           "average_adr": 88.9,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2025-11-16"
         }
       ],
@@ -8840,7 +8840,7 @@
           "kills": 20,
           "deaths": 26,
           "kd_ratio": 0.77,
-          "adr": 73.0,
+          "adr": 73,
           "kast": 64.7,
           "rating": 0.99
         },
@@ -8855,7 +8855,7 @@
           "deaths": 14,
           "kd_ratio": 0.57,
           "adr": 49.5,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 0.8
         },
         {
@@ -8967,7 +8967,7 @@
           "deaths": 8,
           "kd_ratio": 2.38,
           "adr": 100.2,
-          "kast": 90.0,
+          "kast": 90,
           "rating": 1.68
         },
         {
@@ -9023,7 +9023,7 @@
           "deaths": 17,
           "kd_ratio": 1.24,
           "adr": 77.4,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.13
         },
         {
@@ -9036,7 +9036,7 @@
           "kills": 17,
           "deaths": 16,
           "kd_ratio": 1.06,
-          "adr": 64.0,
+          "adr": 64,
           "kast": 63.6,
           "rating": 1.06
         },
@@ -9079,14 +9079,14 @@
           "deaths": 29,
           "kd_ratio": 0.52,
           "adr": 59.3,
-          "kast": 61.0,
+          "kast": 61,
           "rating": 0.93
         }
       ],
       "form_summary": {
         "series": 18,
         "average_rating": 1.18,
-        "average_adr": 74.0,
+        "average_adr": 74,
         "recent_rating": 1.07,
         "rating_delta": -0.06
       },
@@ -9115,7 +9115,7 @@
           "deaths": 66,
           "kd_ratio": 1.36,
           "average_rating": 1.43,
-          "average_adr": 87.0,
+          "average_adr": 87,
           "average_kast": 75.5,
           "last_date": "2026-05-24"
         },
@@ -9180,7 +9180,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 10,
           "deaths": 13,
           "kd_ratio": 0.77,
@@ -9200,7 +9200,7 @@
           "losses": 5,
           "win_rate": 0.722,
           "average_rating": 1.18,
-          "average_adr": 74.0
+          "average_adr": 74
         }
       ]
     },
@@ -9279,7 +9279,7 @@
           "deaths": 22,
           "kd_ratio": 0.95,
           "adr": 60.8,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 0.95
         },
         {
@@ -9371,7 +9371,7 @@
           "deaths": 32,
           "kd_ratio": 0.56,
           "average_rating": 0.73,
-          "average_adr": 34.0,
+          "average_adr": 34,
           "average_kast": 66.2,
           "last_date": "2026-05-01"
         },
@@ -9442,7 +9442,7 @@
           "kd_ratio": 0.69,
           "average_rating": 0.79,
           "average_adr": 67.3,
-          "average_kast": 45.0,
+          "average_kast": 45,
           "last_date": "2026-04-30"
         },
         {
@@ -9450,7 +9450,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 11,
           "deaths": 5,
           "kd_ratio": 2.2,
@@ -9522,7 +9522,7 @@
           "kd_ratio": 0.76,
           "adr": 59.6,
           "kast": 65.4,
-          "rating": 1.0
+          "rating": 1
         },
         {
           "match_id": "hltv:2391113",
@@ -9562,7 +9562,7 @@
           "kills": 17,
           "deaths": 29,
           "kd_ratio": 0.59,
-          "adr": 60.0,
+          "adr": 60,
           "kast": 69.4,
           "rating": 0.88
         },
@@ -9576,8 +9576,8 @@
           "kills": 5,
           "deaths": 4,
           "kd_ratio": 1.25,
-          "adr": 75.0,
-          "kast": 75.0,
+          "adr": 75,
+          "kast": 75,
           "rating": 1.26
         },
         {
@@ -9661,7 +9661,7 @@
           "deaths": 8,
           "kd_ratio": 1.5,
           "adr": 76.4,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 1.44
         }
       ],
@@ -9706,7 +9706,7 @@
           "maps": 5,
           "wins": 5,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 39,
           "deaths": 40,
           "kd_ratio": 0.97,
@@ -9819,7 +9819,7 @@
           "deaths": 19,
           "kd_ratio": 0.58,
           "adr": 59.9,
-          "kast": 64.0,
+          "kast": 64,
           "rating": 0.77
         },
         {
@@ -9847,7 +9847,7 @@
           "deaths": 16,
           "kd_ratio": 0.5,
           "adr": 41.1,
-          "kast": 55.0,
+          "kast": 55,
           "rating": 0.61
         }
       ],
@@ -9869,7 +9869,7 @@
           "deaths": 12,
           "kd_ratio": 1.17,
           "average_rating": 1.4,
-          "average_adr": 88.0,
+          "average_adr": 88,
           "average_kast": 75.5,
           "last_date": "2026-03-08"
         },
@@ -9881,10 +9881,10 @@
           "win_rate": 0.5,
           "kills": 7,
           "deaths": 7,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "average_rating": 1.34,
           "average_adr": 67.2,
-          "average_kast": 70.0,
+          "average_kast": 70,
           "last_date": "2026-03-13"
         },
         {
@@ -9892,7 +9892,7 @@
           "maps": 2,
           "wins": 2,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 13,
           "deaths": 16,
           "kd_ratio": 0.81,
@@ -9909,7 +9909,7 @@
           "win_rate": 0.5,
           "kills": 6,
           "deaths": 6,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "average_rating": 0.97,
           "average_adr": 53.8,
           "average_kast": 66.7,
@@ -9920,13 +9920,13 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 0,
           "deaths": 4,
-          "kd_ratio": 0.0,
+          "kd_ratio": 0,
           "average_rating": 0.53,
           "average_adr": 22.6,
-          "average_kast": 60.0,
+          "average_kast": 60,
           "last_date": "2026-03-07"
         },
         {
@@ -9934,13 +9934,13 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 4,
           "deaths": 11,
           "kd_ratio": 0.36,
           "average_rating": 0.43,
           "average_adr": 40.8,
-          "average_kast": 50.0,
+          "average_kast": 50,
           "last_date": "2026-03-13"
         }
       ],
@@ -9990,7 +9990,7 @@
           "kills": 21,
           "deaths": 23,
           "kd_ratio": 0.91,
-          "adr": 79.0,
+          "adr": 79,
           "kast": 66.7,
           "rating": 1.2
         },
@@ -10059,9 +10059,9 @@
           "won": true,
           "kills": 0,
           "deaths": 3,
-          "kd_ratio": 0.0,
+          "kd_ratio": 0,
           "adr": 21.8,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.29
         },
         {
@@ -10102,7 +10102,7 @@
           "kills": 11,
           "deaths": 12,
           "kd_ratio": 0.92,
-          "adr": 82.0,
+          "adr": 82,
           "kast": 70.6,
           "rating": 1.2
         },
@@ -10117,7 +10117,7 @@
           "deaths": 27,
           "kd_ratio": 0.67,
           "adr": 68.1,
-          "kast": 60.0,
+          "kast": 60,
           "rating": 1.01
         }
       ],
@@ -10139,7 +10139,7 @@
           "deaths": 68,
           "kd_ratio": 0.76,
           "average_rating": 1.09,
-          "average_adr": 78.0,
+          "average_adr": 78,
           "average_kast": 66.9,
           "last_date": "2026-05-22"
         },
@@ -10176,7 +10176,7 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 20,
           "deaths": 16,
           "kd_ratio": 1.25,
@@ -10204,10 +10204,10 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 8,
           "deaths": 8,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "average_rating": 0.79,
           "average_adr": 70.3,
           "average_kast": 66.7,
@@ -10275,7 +10275,7 @@
           "deaths": 20,
           "kd_ratio": 0.9,
           "adr": 75.7,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.25
         },
         {
@@ -10316,7 +10316,7 @@
           "kills": 12,
           "deaths": 21,
           "kd_ratio": 0.57,
-          "adr": 49.0,
+          "adr": 49,
           "kast": 67.7,
           "rating": 0.69
         },
@@ -10404,7 +10404,7 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 18,
           "deaths": 28,
           "kd_ratio": 0.64,
@@ -10418,13 +10418,13 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 20,
           "deaths": 30,
           "kd_ratio": 0.67,
           "average_rating": 0.8,
           "average_adr": 66.5,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2026-03-13"
         },
         {
@@ -10460,7 +10460,7 @@
       "player_id": "hltv:18072",
       "hltv_player_id": 18072,
       "nickname": "torzsi",
-      "real_name": "\u00c1d\u00e1m Torzs\u00e1s",
+      "real_name": "Ádám Torzsás",
       "team_name": "MOUZ",
       "source_team_name": "MOUZ",
       "source_team_rank": 8,
@@ -10529,7 +10529,7 @@
           "won": true,
           "kills": 15,
           "deaths": 5,
-          "kd_ratio": 3.0,
+          "kd_ratio": 3,
           "adr": 92.4,
           "kast": 78.6,
           "rating": 2.19
@@ -10559,7 +10559,7 @@
           "deaths": 4,
           "kd_ratio": 0.75,
           "adr": 44.1,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 0.82
         },
         {
@@ -10643,7 +10643,7 @@
           "deaths": 5,
           "kd_ratio": 1.8,
           "adr": 70.4,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 1.54
         }
       ],
@@ -10680,7 +10680,7 @@
           "kd_ratio": 0.93,
           "average_rating": 0.93,
           "average_adr": 45.1,
-          "average_kast": 71.0,
+          "average_kast": 71,
           "last_date": "2026-05-23"
         },
         {
@@ -10688,7 +10688,7 @@
           "maps": 5,
           "wins": 5,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 27,
           "deaths": 37,
           "kd_ratio": 0.73,
@@ -10722,7 +10722,7 @@
           "kd_ratio": 1.26,
           "average_rating": 1.56,
           "average_adr": 86.3,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2026-05-23"
         },
         {
@@ -10735,7 +10735,7 @@
           "deaths": 21,
           "kd_ratio": 0.9,
           "average_rating": 0.78,
-          "average_adr": 64.0,
+          "average_adr": 64,
           "average_kast": 55.6,
           "last_date": "2026-05-23"
         }
@@ -10786,8 +10786,8 @@
           "kills": 12,
           "deaths": 13,
           "kd_ratio": 0.92,
-          "adr": 79.0,
-          "kast": 80.0,
+          "adr": 79,
+          "kast": 80,
           "rating": 1.43
         },
         {
@@ -10843,7 +10843,7 @@
           "deaths": 17,
           "kd_ratio": 0.29,
           "adr": 32.7,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.5
         },
         {
@@ -10871,7 +10871,7 @@
           "deaths": 30,
           "kd_ratio": 0.53,
           "adr": 57.7,
-          "kast": 59.0,
+          "kast": 59,
           "rating": 0.9
         },
         {
@@ -10936,7 +10936,7 @@
           "kd_ratio": 0.63,
           "average_rating": 0.82,
           "average_adr": 54.5,
-          "average_kast": 70.0,
+          "average_kast": 70,
           "last_date": "2026-05-03"
         },
         {
@@ -10963,7 +10963,7 @@
           "deaths": 38,
           "kd_ratio": 0.55,
           "average_rating": 0.76,
-          "average_adr": 50.0,
+          "average_adr": 50,
           "average_kast": 69.2,
           "last_date": "2026-05-02"
         },
@@ -10986,7 +10986,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 6,
           "deaths": 9,
           "kd_ratio": 0.67,
@@ -11000,7 +11000,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 6,
           "deaths": 10,
           "kd_ratio": 0.6,
@@ -11056,7 +11056,7 @@
           "kills": 7,
           "deaths": 11,
           "kd_ratio": 0.64,
-          "adr": 79.0,
+          "adr": 79,
           "kast": 66.7,
           "rating": 0.71
         },
@@ -11084,7 +11084,7 @@
           "kills": 17,
           "deaths": 15,
           "kd_ratio": 1.13,
-          "adr": 76.0,
+          "adr": 76,
           "kast": 72.7,
           "rating": 1.2
         },
@@ -11219,7 +11219,7 @@
           "deaths": 16,
           "kd_ratio": 1.38,
           "average_rating": 1.36,
-          "average_adr": 94.0,
+          "average_adr": 94,
           "average_kast": 77.3,
           "last_date": "2026-04-29"
         },
@@ -11270,7 +11270,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 7,
           "deaths": 8,
           "kd_ratio": 0.88,
@@ -11354,7 +11354,7 @@
           "kills": 19,
           "deaths": 26,
           "kd_ratio": 0.73,
-          "adr": 66.0,
+          "adr": 66,
           "kast": 73.7,
           "rating": 0.92
         },
@@ -11487,7 +11487,7 @@
       ],
       "form_summary": {
         "series": 12,
-        "average_rating": 1.0,
+        "average_rating": 1,
         "average_adr": 65.9,
         "recent_rating": 0.73,
         "rating_delta": -0.47
@@ -11545,7 +11545,7 @@
           "deaths": 50,
           "kd_ratio": 0.84,
           "average_rating": 1.01,
-          "average_adr": 70.0,
+          "average_adr": 70,
           "average_kast": 61.5,
           "last_date": "2026-04-30"
         },
@@ -11568,7 +11568,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 16,
           "deaths": 13,
           "kd_ratio": 1.23,
@@ -11587,7 +11587,7 @@
           "wins": 6,
           "losses": 6,
           "win_rate": 0.5,
-          "average_rating": 1.0,
+          "average_rating": 1,
           "average_adr": 65.9
         }
       ]
@@ -11681,7 +11681,7 @@
           "deaths": 10,
           "kd_ratio": 1.3,
           "adr": 69.3,
-          "kast": 95.0,
+          "kast": 95,
           "rating": 1.21
         },
         {
@@ -11694,7 +11694,7 @@
           "kills": 6,
           "deaths": 15,
           "kd_ratio": 0.4,
-          "adr": 48.0,
+          "adr": 48,
           "kast": 69.6,
           "rating": 0.64
         },
@@ -11721,7 +11721,7 @@
           "won": true,
           "kills": 7,
           "deaths": 7,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 74.7,
           "kast": 72.7,
           "rating": 0.88
@@ -11737,7 +11737,7 @@
           "deaths": 21,
           "kd_ratio": 0.95,
           "adr": 74.9,
-          "kast": 70.0,
+          "kast": 70,
           "rating": 1.06
         },
         {
@@ -11880,7 +11880,7 @@
           "maps": 4,
           "wins": 4,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 17,
           "deaths": 32,
           "kd_ratio": 0.53,
@@ -11992,7 +11992,7 @@
           "kills": 19,
           "deaths": 24,
           "kd_ratio": 0.79,
-          "adr": 61.0,
+          "adr": 61,
           "kast": 68.6,
           "rating": 0.99
         },
@@ -12019,9 +12019,9 @@
           "won": true,
           "kills": 4,
           "deaths": 2,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 66.8,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 1.18
         },
         {
@@ -12034,7 +12034,7 @@
           "kills": 12,
           "deaths": 29,
           "kd_ratio": 0.41,
-          "adr": 45.0,
+          "adr": 45,
           "kast": 55.9,
           "rating": 0.58
         },
@@ -12127,7 +12127,7 @@
           "deaths": 25,
           "kd_ratio": 0.6,
           "average_rating": 0.88,
-          "average_adr": 51.0,
+          "average_adr": 51,
           "average_kast": 77.2,
           "last_date": "2026-05-22"
         },
@@ -12164,13 +12164,13 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 6,
           "deaths": 8,
           "kd_ratio": 0.75,
           "average_rating": 1.14,
           "average_adr": 70.7,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2026-03-08"
         }
       ],
@@ -12235,7 +12235,7 @@
           "deaths": 16,
           "kd_ratio": 0.94,
           "adr": 60.8,
-          "kast": 68.0,
+          "kast": 68,
           "rating": 1.13
         },
         {
@@ -12263,7 +12263,7 @@
           "deaths": 15,
           "kd_ratio": 0.67,
           "adr": 52.5,
-          "kast": 45.0,
+          "kast": 45,
           "rating": 0.73
         }
       ],
@@ -12280,7 +12280,7 @@
           "maps": 2,
           "wins": 2,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 14,
           "deaths": 13,
           "kd_ratio": 1.08,
@@ -12294,7 +12294,7 @@
           "maps": 2,
           "wins": 2,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 16,
           "deaths": 14,
           "kd_ratio": 1.14,
@@ -12322,7 +12322,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 12,
           "deaths": 7,
           "kd_ratio": 1.71,
@@ -12336,13 +12336,13 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 6,
           "deaths": 9,
           "kd_ratio": 0.67,
           "average_rating": 0.76,
           "average_adr": 51.9,
-          "average_kast": 50.0,
+          "average_kast": 50,
           "last_date": "2026-03-13"
         },
         {
@@ -12350,13 +12350,13 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 0,
           "deaths": 3,
-          "kd_ratio": 0.0,
+          "kd_ratio": 0,
           "average_rating": 0.28,
           "average_adr": 1.8,
-          "average_kast": 40.0,
+          "average_kast": 40,
           "last_date": "2026-03-07"
         }
       ],
@@ -12489,9 +12489,9 @@
           "won": true,
           "kills": 0,
           "deaths": 3,
-          "kd_ratio": 0.0,
+          "kd_ratio": 0,
           "adr": 33.5,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 0.62
         },
         {
@@ -12569,8 +12569,8 @@
           "deaths": 69,
           "kd_ratio": 0.54,
           "average_rating": 0.83,
-          "average_adr": 53.0,
-          "average_kast": 59.0,
+          "average_adr": 53,
+          "average_kast": 59,
           "last_date": "2026-05-22"
         },
         {
@@ -12597,7 +12597,7 @@
           "deaths": 16,
           "kd_ratio": 0.94,
           "average_rating": 1.17,
-          "average_adr": 47.0,
+          "average_adr": 47,
           "average_kast": 88.1,
           "last_date": "2026-05-22"
         },
@@ -12626,7 +12626,7 @@
           "kd_ratio": 0.74,
           "average_rating": 0.98,
           "average_adr": 53.9,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2026-05-22"
         },
         {
@@ -12634,13 +12634,13 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 3,
           "deaths": 9,
           "kd_ratio": 0.33,
           "average_rating": 0.57,
           "average_adr": 30.8,
-          "average_kast": 50.0,
+          "average_kast": 50,
           "last_date": "2026-03-08"
         }
       ],
@@ -12662,7 +12662,7 @@
       "player_id": "hltv:150",
       "hltv_player_id": 150,
       "nickname": "MAJ3R",
-      "real_name": "Engin K\u00fcpeli",
+      "real_name": "Engin Küpeli",
       "team_name": "Aurora",
       "source_team_name": "Aurora",
       "source_team_rank": 6,
@@ -12731,7 +12731,7 @@
           "won": true,
           "kills": 12,
           "deaths": 6,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 82.3,
           "kast": 85.7,
           "rating": 1.47
@@ -12774,8 +12774,8 @@
           "kills": 11,
           "deaths": 15,
           "kd_ratio": 0.73,
-          "adr": 72.0,
-          "kast": 75.0,
+          "adr": 72,
+          "kast": 75,
           "rating": 0.96
         },
         {
@@ -12817,7 +12817,7 @@
           "deaths": 18,
           "kd_ratio": 1.17,
           "adr": 70.1,
-          "kast": 71.0,
+          "kast": 71,
           "rating": 1.32
         },
         {
@@ -12830,7 +12830,7 @@
           "kills": 23,
           "deaths": 18,
           "kd_ratio": 1.28,
-          "adr": 72.0,
+          "adr": 72,
           "kast": 72.2,
           "rating": 1.2
         },
@@ -12852,7 +12852,7 @@
       "form_summary": {
         "series": 12,
         "average_rating": 1.03,
-        "average_adr": 65.0,
+        "average_adr": 65,
         "recent_rating": 1.15,
         "rating_delta": 0.22
       },
@@ -12895,7 +12895,7 @@
           "deaths": 40,
           "kd_ratio": 0.7,
           "average_rating": 1.17,
-          "average_adr": 72.0,
+          "average_adr": 72,
           "average_kast": 72.4,
           "last_date": "2026-03-14"
         },
@@ -12918,7 +12918,7 @@
           "maps": 4,
           "wins": 4,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 15,
           "deaths": 16,
           "kd_ratio": 0.94,
@@ -12932,7 +12932,7 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 17,
           "deaths": 33,
           "kd_ratio": 0.52,
@@ -12952,7 +12952,7 @@
           "kd_ratio": 1.25,
           "average_rating": 1.61,
           "average_adr": 103.1,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2026-03-15"
         }
       ],
@@ -12966,7 +12966,7 @@
           "losses": 3,
           "win_rate": 0.75,
           "average_rating": 1.03,
-          "average_adr": 65.0
+          "average_adr": 65
         }
       ]
     },
@@ -13058,7 +13058,7 @@
           "kills": 19,
           "deaths": 46,
           "kd_ratio": 0.41,
-          "adr": 45.0,
+          "adr": 45,
           "kast": 59.6,
           "rating": 0.63
         },
@@ -13072,7 +13072,7 @@
           "kills": 19,
           "deaths": 23,
           "kd_ratio": 0.83,
-          "adr": 57.0,
+          "adr": 57,
           "kast": 60.6,
           "rating": 1.03
         },
@@ -13129,7 +13129,7 @@
           "deaths": 23,
           "kd_ratio": 0.7,
           "adr": 54.9,
-          "kast": 69.0,
+          "kast": 69,
           "rating": 0.95
         },
         {
@@ -13141,7 +13141,7 @@
           "won": false,
           "kills": 19,
           "deaths": 19,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 64.4,
           "kast": 58.6,
           "rating": 0.96
@@ -13194,7 +13194,7 @@
           "kd_ratio": 0.59,
           "average_rating": 0.78,
           "average_adr": 38.6,
-          "average_kast": 60.0,
+          "average_kast": 60,
           "last_date": "2026-04-29"
         },
         {
@@ -13222,7 +13222,7 @@
           "kd_ratio": 0.69,
           "average_rating": 0.86,
           "average_adr": 55.3,
-          "average_kast": 70.0,
+          "average_kast": 70,
           "last_date": "2026-03-08"
         },
         {
@@ -13235,7 +13235,7 @@
           "deaths": 54,
           "kd_ratio": 0.43,
           "average_rating": 0.64,
-          "average_adr": 35.0,
+          "average_adr": 35,
           "average_kast": 57.8,
           "last_date": "2026-04-30"
         },
@@ -13244,7 +13244,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 7,
           "deaths": 14,
           "kd_ratio": 0.5,
@@ -13327,7 +13327,7 @@
           "won": true,
           "kills": 17,
           "deaths": 17,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 67.6,
           "kast": 70.4,
           "rating": 1.05
@@ -13384,7 +13384,7 @@
           "kills": 13,
           "deaths": 19,
           "kd_ratio": 0.68,
-          "adr": 54.0,
+          "adr": 54,
           "kast": 66.7,
           "rating": 0.89
         },
@@ -13398,7 +13398,7 @@
           "kills": 19,
           "deaths": 32,
           "kd_ratio": 0.59,
-          "adr": 49.0,
+          "adr": 49,
           "kast": 67.4,
           "rating": 0.68
         },
@@ -13413,7 +13413,7 @@
           "deaths": 16,
           "kd_ratio": 0.69,
           "adr": 62.6,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 0.72
         },
         {
@@ -13425,7 +13425,7 @@
           "won": true,
           "kills": 14,
           "deaths": 14,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 75.2,
           "kast": 78.3,
           "rating": 1.08
@@ -13441,7 +13441,7 @@
           "deaths": 8,
           "kd_ratio": 1.5,
           "adr": 61.9,
-          "kast": 100.0,
+          "kast": 100,
           "rating": 1.29
         },
         {
@@ -13478,7 +13478,7 @@
           "kd_ratio": 0.93,
           "average_rating": 1.07,
           "average_adr": 60.6,
-          "average_kast": 74.0,
+          "average_kast": 74,
           "last_date": "2026-04-30"
         },
         {
@@ -13514,7 +13514,7 @@
           "maps": 3,
           "wins": 3,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 15,
           "deaths": 26,
           "kd_ratio": 0.58,
@@ -13639,7 +13639,7 @@
           "won": false,
           "kills": 21,
           "deaths": 21,
-          "kd_ratio": 1.0,
+          "kd_ratio": 1,
           "adr": 84.7,
           "kast": 55.6,
           "rating": 1.1
@@ -13692,7 +13692,7 @@
           "kd_ratio": 1.4,
           "average_rating": 1.58,
           "average_adr": 94.7,
-          "average_kast": 100.0,
+          "average_kast": 100,
           "last_date": "2026-05-02"
         },
         {
@@ -13700,13 +13700,13 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 2,
           "deaths": 5,
           "kd_ratio": 0.4,
           "average_rating": 0.62,
           "average_adr": 47.3,
-          "average_kast": 50.0,
+          "average_kast": 50,
           "last_date": "2026-04-29"
         },
         {
@@ -13714,10 +13714,10 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 0,
           "deaths": 0,
-          "kd_ratio": 0.0,
+          "kd_ratio": 0,
           "average_rating": null,
           "average_adr": null,
           "average_kast": null,
@@ -13770,7 +13770,7 @@
           "kills": 13,
           "deaths": 20,
           "kd_ratio": 0.65,
-          "adr": 61.0,
+          "adr": 61,
           "kast": 62.5,
           "rating": 0.84
         },
@@ -13785,7 +13785,7 @@
           "deaths": 24,
           "kd_ratio": 0.92,
           "adr": 70.6,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 1.16
         },
         {
@@ -13812,7 +13812,7 @@
           "kills": 16,
           "deaths": 33,
           "kd_ratio": 0.48,
-          "adr": 51.0,
+          "adr": 51,
           "kast": 46.3,
           "rating": 0.66
         },
@@ -13840,7 +13840,7 @@
           "kills": 15,
           "deaths": 27,
           "kd_ratio": 0.56,
-          "adr": 50.0,
+          "adr": 50,
           "kast": 45.2,
           "rating": 0.64
         },
@@ -13855,7 +13855,7 @@
           "deaths": 10,
           "kd_ratio": 0.5,
           "adr": 64.8,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 0.78
         },
         {
@@ -13883,7 +13883,7 @@
           "deaths": 15,
           "kd_ratio": 0.67,
           "adr": 62.6,
-          "kast": 75.0,
+          "kast": 75,
           "rating": 0.9
         },
         {
@@ -13918,7 +13918,7 @@
       "form_summary": {
         "series": 11,
         "average_rating": 0.74,
-        "average_adr": 53.0,
+        "average_adr": 53,
         "recent_rating": 0.68,
         "rating_delta": -0.02
       },
@@ -13948,7 +13948,7 @@
           "kd_ratio": 0.38,
           "average_rating": 0.54,
           "average_adr": 37.2,
-          "average_kast": 50.0,
+          "average_kast": 50,
           "last_date": "2026-05-24"
         },
         {
@@ -14055,7 +14055,7 @@
           "deaths": 14,
           "kd_ratio": 0.71,
           "adr": 52.8,
-          "kast": 65.0,
+          "kast": 65,
           "rating": 0.84
         },
         {
@@ -14067,7 +14067,7 @@
           "won": true,
           "kills": 16,
           "deaths": 8,
-          "kd_ratio": 2.0,
+          "kd_ratio": 2,
           "adr": 76.3,
           "kast": 68.4,
           "rating": 1.32
@@ -14148,7 +14148,7 @@
           "kd_ratio": 1.07,
           "average_rating": 1.04,
           "average_adr": 77.2,
-          "average_kast": 75.0,
+          "average_kast": 75,
           "last_date": "2025-10-29"
         },
         {
@@ -14170,10 +14170,10 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 8,
           "deaths": 2,
-          "kd_ratio": 4.0,
+          "kd_ratio": 4,
           "average_rating": 2.14,
           "average_adr": 120.1,
           "average_kast": 85.7,
@@ -14184,10 +14184,10 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 0,
           "deaths": 0,
-          "kd_ratio": 0.0,
+          "kd_ratio": 0,
           "average_rating": null,
           "average_adr": null,
           "average_kast": null,
@@ -14230,7 +14230,7 @@
           "deaths": 22,
           "kd_ratio": 0.36,
           "adr": 43.1,
-          "kast": 50.0,
+          "kast": 50,
           "rating": 0.6
         }
       ],
@@ -14247,13 +14247,13 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 6,
           "deaths": 16,
           "kd_ratio": 0.38,
           "average_rating": 0.63,
           "average_adr": 46.3,
-          "average_kast": 50.0,
+          "average_kast": 50,
           "last_date": "2025-09-05"
         },
         {
@@ -14261,13 +14261,13 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 2,
           "deaths": 6,
           "kd_ratio": 0.33,
           "average_rating": 0.49,
           "average_adr": 33.7,
-          "average_kast": 50.0,
+          "average_kast": 50,
           "last_date": "2025-09-05"
         }
       ],
@@ -14279,7 +14279,7 @@
           "series": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "average_rating": 0.6,
           "average_adr": 43.1
         }
@@ -14306,7 +14306,7 @@
           "kills": 18,
           "deaths": 21,
           "kd_ratio": 0.86,
-          "adr": 72.0,
+          "adr": 72,
           "kast": 60.7,
           "rating": 1.11
         },
@@ -14348,7 +14348,7 @@
           "kills": 12,
           "deaths": 28,
           "kd_ratio": 0.43,
-          "adr": 40.0,
+          "adr": 40,
           "kast": 57.5,
           "rating": 0.71
         },
@@ -14450,7 +14450,7 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 8,
           "deaths": 9,
           "kd_ratio": 0.89,
@@ -14464,7 +14464,7 @@
           "maps": 1,
           "wins": 1,
           "losses": 0,
-          "win_rate": 1.0,
+          "win_rate": 1,
           "kills": 4,
           "deaths": 10,
           "kd_ratio": 0.4,
@@ -14478,13 +14478,13 @@
           "maps": 1,
           "wins": 0,
           "losses": 1,
-          "win_rate": 0.0,
+          "win_rate": 0,
           "kills": 0,
           "deaths": 4,
-          "kd_ratio": 0.0,
+          "kd_ratio": 0,
           "average_rating": 0.21,
           "average_adr": 11.2,
-          "average_kast": 0.0,
+          "average_kast": 0,
           "last_date": "2026-03-01"
         }
       ],
@@ -14690,9 +14690,79 @@
       },
       "map_profile": [],
       "roster_eras": []
+    },
+    {
+      "player_id": "hltv:20430",
+      "nickname": "alpha",
+      "team_name": "CYBERSHOKE",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "20430",
+      "source_url": "https://www.hltv.org/player/20430/alpha",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:22803",
+      "nickname": "bl1x1",
+      "team_name": "CYBERSHOKE",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "22803",
+      "source_url": "https://www.hltv.org/player/22803/bl1x1",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:23600",
+      "nickname": "Alkaren",
+      "team_name": "CYBERSHOKE",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "23600",
+      "source_url": "https://www.hltv.org/player/23600/alkaren",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:24176",
+      "nickname": "Mokuj1n",
+      "team_name": "CYBERSHOKE",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "24176",
+      "source_url": "https://www.hltv.org/player/24176/mokuj1n",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:21688",
+      "nickname": "shoke",
+      "team_name": "CYBERSHOKE",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "21688",
+      "source_url": "https://www.hltv.org/player/21688/shoke",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-07-26T22:14:44Z",
+  "lineups_updated_at_utc": "2026-07-27T04:03:56Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-05-24",
   "history_profile_count": 53,

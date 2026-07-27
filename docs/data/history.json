@@ -1,21 +1,21 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-26T22:14:44Z",
-  "through_date": "2026-07-26",
+  "generated_at_utc": "2026-07-27T04:03:56Z",
+  "through_date": "2026-07-27",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1031,
-    "maps": 2668,
-    "lineup_rows": 8610,
+    "matches": 1032,
+    "maps": 2662,
+    "lineup_rows": 8590,
     "source_match_ids": 987
   },
   "matches": [
     {
       "match_id": "hltv:2396014",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
       "team1_name": "100 Thieves",
       "team2_name": "Spirit",
@@ -24,54 +24,20 @@
       "winner_name": "Spirit",
       "tier": "tier_1",
       "best_of": 3,
-      "phase": "Scheduled series",
-      "stage_name": "Scheduled series",
+      "phase": "Completed series",
+      "stage_name": "Completed series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [
-        {
-          "map_name": "Anubis",
-          "score1": 11,
-          "score2": 13,
-          "winner_name": "Spirit",
-          "picked_by": null
-        },
-        {
-          "map_name": "Mirage",
-          "score1": 13,
-          "score2": 4,
-          "winner_name": "100 Thieves",
-          "picked_by": null
-        },
-        {
-          "map_name": "Dust2",
-          "score1": 0,
-          "score2": 13,
-          "winner_name": "Spirit",
-          "picked_by": null
-        }
-      ],
+      "maps": [],
       "lineups": {
-        "team1": [
-          "device",
-          "rain",
-          "Gizmy",
-          "poiii",
-          "sirah"
-        ],
-        "team2": [
-          "magixx",
-          "tN1R",
-          "sh1ro",
-          "donk",
-          "zont1x"
-        ]
+        "team1": [],
+        "team2": []
       }
     },
     {
       "match_id": "hltv:2396008",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
       "team1_name": "Wildcard",
       "team2_name": "The MongolZ",
@@ -80,54 +46,20 @@
       "winner_name": "The MongolZ",
       "tier": "tier_1",
       "best_of": 3,
-      "phase": "Scheduled series",
-      "stage_name": "Scheduled series",
+      "phase": "Completed series",
+      "stage_name": "Completed series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [
-        {
-          "map_name": "Dust2",
-          "score1": 7,
-          "score2": 13,
-          "winner_name": "The MongolZ",
-          "picked_by": null
-        },
-        {
-          "map_name": "Inferno",
-          "score1": 9,
-          "score2": 13,
-          "winner_name": "The MongolZ",
-          "picked_by": null
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "winner_name": "The MongolZ",
-          "picked_by": null
-        }
-      ],
+      "maps": [],
       "lineups": {
-        "team1": [
-          "Cxzi",
-          "reck",
-          "HexT",
-          "nEMANHA",
-          "mhL"
-        ],
-        "team2": [
-          "DarkMeister",
-          "bLitz",
-          "Techno",
-          "tikuak",
-          "910"
-        ]
+        "team1": [],
+        "team2": []
       }
     },
     {
       "match_id": "hltv:2396009",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
       "team1_name": "3DMAX",
       "team2_name": "FUT",
@@ -149,7 +81,7 @@
     },
     {
       "match_id": "hltv:2396007",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
       "team1_name": "Ninjas in Pyjamas",
       "team2_name": "paiN",
@@ -171,7 +103,7 @@
     },
     {
       "match_id": "hltv:2396011",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
       "team1_name": "FOKUS",
       "team2_name": "MOUZ",
@@ -193,7 +125,7 @@
     },
     {
       "match_id": "hltv:2396010",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
       "team1_name": "HOTU",
       "team2_name": "Astralis",
@@ -215,7 +147,7 @@
     },
     {
       "match_id": "hltv:2396013",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
       "team1_name": "Liquid",
       "team2_name": "G2",
@@ -237,7 +169,7 @@
     },
     {
       "match_id": "hltv:2396012",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
       "team1_name": "DENDELE",
       "team2_name": "FaZe",
@@ -259,7 +191,7 @@
     },
     {
       "match_id": "hltv:2395778",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 South America Series 4",
       "team1_name": "Fluxo",
       "team2_name": "Isurus",
@@ -281,7 +213,7 @@
     },
     {
       "match_id": "hltv:2395946",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 5",
       "team1_name": "EAC",
       "team2_name": "Atreides",
@@ -303,7 +235,7 @@
     },
     {
       "match_id": "hltv:2396104",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
       "team1_name": "Honvéd",
       "team2_name": "Privateer",
@@ -325,7 +257,7 @@
     },
     {
       "match_id": "hltv:2396166",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "team1_name": "los kogutos",
       "team2_name": "megoshort",
@@ -347,7 +279,7 @@
     },
     {
       "match_id": "hltv:2395945",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 5",
       "team1_name": "INOX Division",
       "team2_name": "G2 Ares",
@@ -369,7 +301,7 @@
     },
     {
       "match_id": "hltv:2395777",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 South America Series 4",
       "team1_name": "LP",
       "team2_name": "ODDIK",
@@ -391,7 +323,7 @@
     },
     {
       "match_id": "hltv:2396165",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "team1_name": "STATE",
       "team2_name": "Lazer Cats",
@@ -413,7 +345,7 @@
     },
     {
       "match_id": "hltv:2396103",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
       "team1_name": "QUAZAR",
       "team2_name": "NEW VISION",
@@ -435,7 +367,7 @@
     },
     {
       "match_id": "hltv:2395944",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 5",
       "team1_name": "Butterfly",
       "team2_name": "SAW Youngsters",
@@ -457,7 +389,7 @@
     },
     {
       "match_id": "hltv:2396164",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "team1_name": "NEW VISION",
       "team2_name": "ex-MANA",
@@ -479,7 +411,7 @@
     },
     {
       "match_id": "hltv:2396102",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
       "team1_name": "Misa",
       "team2_name": "Mai Tai",
@@ -501,7 +433,7 @@
     },
     {
       "match_id": "hltv:2395943",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 5",
       "team1_name": "SPARTA",
       "team2_name": "benched gods",
@@ -523,7 +455,7 @@
     },
     {
       "match_id": "hltv:2396163",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "team1_name": "Fortress",
       "team2_name": "Inner Circle Academy",
@@ -545,7 +477,7 @@
     },
     {
       "match_id": "hltv:2396101",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
       "team1_name": "Entropy",
       "team2_name": "Enjoy",
@@ -567,7 +499,7 @@
     },
     {
       "match_id": "hltv:2395776",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 South America Series 4",
       "team1_name": "Isurus",
       "team2_name": "BESTIA Academy",
@@ -589,7 +521,7 @@
     },
     {
       "match_id": "hltv:2395775",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 South America Series 4",
       "team1_name": "Fluxo",
       "team2_name": "Keyd Stars",
@@ -611,7 +543,7 @@
     },
     {
       "match_id": "hltv:2396100",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
       "team1_name": "Privateer",
       "team2_name": "ROUNDS",
@@ -633,7 +565,7 @@
     },
     {
       "match_id": "hltv:2395942",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 5",
       "team1_name": "ex-RUSTEC",
       "team2_name": "Rune Eaters",
@@ -655,7 +587,7 @@
     },
     {
       "match_id": "hltv:2396162",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "team1_name": "ex-MANA",
       "team2_name": "megoshort",
@@ -677,7 +609,7 @@
     },
     {
       "match_id": "hltv:2395774",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 South America Series 4",
       "team1_name": "LP",
       "team2_name": "UNO MILLE",
@@ -699,7 +631,7 @@
     },
     {
       "match_id": "hltv:2396098",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
       "team1_name": "SAW Youngsters",
       "team2_name": "Enjoy",
@@ -721,7 +653,7 @@
     },
     {
       "match_id": "hltv:2395773",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 South America Series 4",
       "team1_name": "BORRACHEIROS",
       "team2_name": "ODDIK",
@@ -743,7 +675,7 @@
     },
     {
       "match_id": "hltv:2396161",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "team1_name": "los kogutos",
       "team2_name": "NEW VISION",
@@ -765,7 +697,7 @@
     },
     {
       "match_id": "hltv:2395941",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 5",
       "team1_name": "Black Phoenix",
       "team2_name": "Just Players",
@@ -787,7 +719,7 @@
     },
     {
       "match_id": "hltv:2395940",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 5",
       "team1_name": "los kogutos",
       "team2_name": "Entropy",
@@ -809,7 +741,7 @@
     },
     {
       "match_id": "hltv:2396099",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
       "team1_name": "NEW VISION",
       "team2_name": "benched gods",
@@ -831,7 +763,7 @@
     },
     {
       "match_id": "hltv:2396160",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "team1_name": "Lazer Cats",
       "team2_name": "Inner Circle Academy",
@@ -853,7 +785,7 @@
     },
     {
       "match_id": "hltv:2396159",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "team1_name": "STATE",
       "team2_name": "Fortress",
@@ -875,7 +807,7 @@
     },
     {
       "match_id": "hltv:2395939",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 5",
       "team1_name": "CYBERSHOKE Prospects",
       "team2_name": "Endless Journey",
@@ -897,7 +829,7 @@
     },
     {
       "match_id": "hltv:2395772",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 South America Series 4",
       "team1_name": "LP",
       "team2_name": "MAGICOS",
@@ -919,7 +851,7 @@
     },
     {
       "match_id": "hltv:2396001",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
       "team1_name": "DENDELE",
       "team2_name": "FURIA",
@@ -941,7 +873,7 @@
     },
     {
       "match_id": "hltv:2395771",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 South America Series 4",
       "team1_name": "Keyd Stars",
       "team2_name": "ALKA",
@@ -963,7 +895,7 @@
     },
     {
       "match_id": "hltv:2396097",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
       "team1_name": "Mai Tai",
       "team2_name": "eternal premium",
@@ -985,7 +917,7 @@
     },
     {
       "match_id": "hltv:2395938",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 5",
       "team1_name": "Butterfly",
       "team2_name": "G2 Ares",
@@ -1007,13 +939,35 @@
     },
     {
       "match_id": "hltv:2396096",
-      "match_date": "2026-07-26",
+      "match_date": "2026-07-27",
       "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
       "team1_name": "Privateer",
       "team2_name": "Misa",
       "score1": 0,
       "score2": 2,
       "winner_name": "Misa",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395779",
+      "match_date": "2026-07-27",
+      "event_name": "CCT 2026 South America Series 4",
+      "team1_name": "ODDIK",
+      "team2_name": "Isurus",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Isurus",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
