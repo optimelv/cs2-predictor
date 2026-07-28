@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-28T11:29:28Z",
+  "generated_at_utc": "2026-07-28T14:39:18Z",
   "through_date": "2026-07-28",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1045,
+    "matches": 1048,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -902,6 +902,72 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Entropy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396172",
+      "match_date": "2026-07-28",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "Black Phoenix",
+      "team2_name": "Bebop",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Bebop",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395950",
+      "match_date": "2026-07-28",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "Atreides",
+      "team2_name": "ex-RUSTEC",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396110",
+      "match_date": "2026-07-28",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "Rune Eaters",
+      "team2_name": "ex-MANA",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Rune Eaters",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
