@@ -9,24 +9,80 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:9298",
+      "id": "hltv:9290",
       "matches": [
         {
-          "event_id": "hltv:9298",
-          "event_name": "CCT 2026 Europe Series 6",
+          "event_id": "hltv:9290",
+          "event_name": "CCT 2026 Europe Series 5",
           "event_url": null,
-          "hltv_match_id": "2396109",
+          "hltv_match_id": "2395950",
           "maps": [],
-          "match_id": "hltv:2396109",
+          "match_id": "hltv:2395950",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396109/black-phoenix-vs-enjoy-cct-2026-europe-series-6",
+          "source_url": "https://www.hltv.org/matches/2395950/atreides-vs-ex-rustec-cct-2026-europe-series-5",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-07-28T08:00:00Z",
+          "starts_at": "2026-07-28T11:00:00Z",
           "status": "upcoming",
-          "team1_name": "Black Phoenix",
-          "team2_name": "Enjoy"
+          "team1_name": "Atreides",
+          "team2_name": "ex-RUSTEC"
         },
+        {
+          "event_id": "hltv:9290",
+          "event_name": "CCT 2026 Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2395951",
+          "maps": [],
+          "match_id": "hltv:2395951",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2395951/butterfly-vs-just-players-cct-2026-europe-series-5",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-07-28T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Butterfly",
+          "team2_name": "Just Players"
+        },
+        {
+          "event_id": "hltv:9290",
+          "event_name": "CCT 2026 Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2395952",
+          "maps": [],
+          "match_id": "hltv:2395952",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2395952/sparta-vs-g2-ares-cct-2026-europe-series-5",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-07-28T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "SPARTA",
+          "team2_name": "G2 Ares"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 5",
+      "participants": [
+        "Atreides",
+        "ex-RUSTEC",
+        "Butterfly",
+        "Just Players",
+        "SPARTA",
+        "G2 Ares"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9298",
+      "matches": [
         {
           "event_id": "hltv:9298",
           "event_name": "CCT 2026 Europe Series 6",
@@ -78,8 +134,6 @@
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
-        "Black Phoenix",
-        "Enjoy",
         "Rune Eaters",
         "ex-MANA",
         "GenOne",
@@ -101,22 +155,6 @@
       },
       "id": "hltv:9296",
       "matches": [
-        {
-          "event_id": "hltv:9296",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396171",
-          "maps": [],
-          "match_id": "hltv:2396171",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396171/entropy-vs-mai-tai-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-07-28T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Entropy",
-          "team2_name": "Mai Tai"
-        },
         {
           "event_id": "hltv:9296",
           "event_name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -196,12 +234,26 @@
           "status": "upcoming",
           "team1_name": "ex-MANA",
           "team2_name": "los kogutos"
+        },
+        {
+          "event_id": "hltv:9296",
+          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396171",
+          "maps": [],
+          "match_id": "hltv:2396171",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396171/entropy-vs-mai-tai-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Entropy",
+          "team2_name": "Mai Tai"
         }
       ],
       "name": "Thunderpick World Championship 2026 Europe Series 2",
       "participants": [
-        "Entropy",
-        "Mai Tai",
         "Black Phoenix",
         "Bebop",
         "ex-RUSTEC",
@@ -211,83 +263,13 @@
         "Fortress",
         "STATE",
         "ex-MANA",
-        "los kogutos"
+        "los kogutos",
+        "Entropy",
+        "Mai Tai"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:9290",
-      "matches": [
-        {
-          "event_id": "hltv:9290",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395950",
-          "maps": [],
-          "match_id": "hltv:2395950",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395950/atreides-vs-ex-rustec-cct-2026-europe-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-07-28T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Atreides",
-          "team2_name": "ex-RUSTEC"
-        },
-        {
-          "event_id": "hltv:9290",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395951",
-          "maps": [],
-          "match_id": "hltv:2395951",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395951/butterfly-vs-just-players-cct-2026-europe-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-07-28T14:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Butterfly",
-          "team2_name": "Just Players"
-        },
-        {
-          "event_id": "hltv:9290",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395952",
-          "maps": [],
-          "match_id": "hltv:2395952",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395952/sparta-vs-g2-ares-cct-2026-europe-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-07-28T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "SPARTA",
-          "team2_name": "G2 Ares"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 5",
-      "participants": [
-        "Atreides",
-        "ex-RUSTEC",
-        "Butterfly",
-        "Just Players",
-        "SPARTA",
-        "G2 Ares"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -374,6 +356,51 @@
           "team1_name": "Just Players",
           "team2_name": "ex-Young Ninjas",
           "winner_name": "Just Players"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-6",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396109",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Cache",
+              "score1": 13,
+              "score2": 9,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Cache",
+            "Dust2",
+            "Mirage"
+          ],
+          "match_id": "hltv:2396109",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396109/black-phoenix-vs-enjoy-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Black Phoenix",
+          "team2_name": "Enjoy",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
@@ -385,11 +412,13 @@
         "SPARTA",
         "Honvéd",
         "Just Players",
-        "ex-Young Ninjas"
+        "ex-Young Ninjas",
+        "Black Phoenix",
+        "Enjoy"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "finished"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -1205,40 +1234,8 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-07-28T03:37:17Z",
+  "fetched_at_utc": "2026-07-28T09:06:00Z",
   "matches": [
-    {
-      "event_id": "hltv:9298",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2396109",
-      "maps": [],
-      "match_id": "hltv:2396109",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396109/black-phoenix-vs-enjoy-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-07-28T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Black Phoenix",
-      "team2_name": "Enjoy"
-    },
-    {
-      "event_id": "hltv:9296",
-      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-      "event_url": null,
-      "hltv_match_id": "2396171",
-      "maps": [],
-      "match_id": "hltv:2396171",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396171/entropy-vs-mai-tai-thunderpick-world-championship-2026-europe-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-07-28T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Entropy",
-      "team2_name": "Mai Tai"
-    },
     {
       "event_id": "hltv:9290",
       "event_name": "CCT 2026 Europe Series 5",
@@ -2155,46 +2152,71 @@
       "team1_name": "SAW Youngsters",
       "team2_name": "Enjoy",
       "winner_name": "Enjoy"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-6",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396109",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 9,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Cache",
+        "Dust2",
+        "Mirage"
+      ],
+      "match_id": "hltv:2396109",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396109/black-phoenix-vs-enjoy-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Black Phoenix",
+      "team2_name": "Enjoy",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+    },
+    {
+      "event_id": "hltv:9296",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "event_url": null,
+      "hltv_match_id": "2396171",
+      "maps": [],
+      "match_id": "hltv:2396171",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396171/entropy-vs-mai-tai-thunderpick-world-championship-2026-europe-series-2",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Entropy",
+      "team2_name": "Mai Tai"
     }
   ],
   "ok": true,
-  "players": [
-    {
-      "hltv_player_id": "22460",
-      "nickname": "riskyb0b",
-      "player_id": "hltv:22460",
-      "source_url": "https://www.hltv.org/player/22460/riskyb0b",
-      "team_name": "Lavked"
-    },
-    {
-      "hltv_player_id": "19236",
-      "nickname": "KENSI",
-      "player_id": "hltv:19236",
-      "source_url": "https://www.hltv.org/player/19236/kensi",
-      "team_name": "Lavked"
-    },
-    {
-      "hltv_player_id": "20199",
-      "nickname": "sol",
-      "player_id": "hltv:20199",
-      "source_url": "https://www.hltv.org/player/20199/sol",
-      "team_name": "Lavked"
-    },
-    {
-      "hltv_player_id": "21369",
-      "nickname": "1NVISIBLEE",
-      "player_id": "hltv:21369",
-      "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
-      "team_name": "Lavked"
-    },
-    {
-      "hltv_player_id": "24114",
-      "nickname": "xm1nd",
-      "player_id": "hltv:24114",
-      "source_url": "https://www.hltv.org/player/24114/xm1nd",
-      "team_name": "Lavked"
-    }
-  ],
+  "players": [],
   "poll_after_ms": 300000,
   "rankings": null,
   "source": "HLTV via GitHub Actions FlareSolverr",
@@ -2211,11 +2233,11 @@
     ],
     "events_kept": 9,
     "matches_kept": 52,
-    "players_kept": 5,
+    "players_kept": 0,
     "event_tiers": {
+      "hltv:9290": "tier_2",
       "hltv:9298": "tier_2",
       "hltv:9296": "tier_2",
-      "hltv:9290": "tier_2",
       "hltv:cct-2026-europe-series-6": "tier_2",
       "hltv:thunderpick-world-championship-2026-europe-series-2": "tier_2",
       "hltv:cct-2026-europe-series-5": "tier_2",
@@ -2224,8 +2246,6 @@
       "hltv:cct-2026-europe-series-6-closed-qualifier": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2396109",
-      "hltv:2396171",
       "hltv:2395950",
       "hltv:2396110",
       "hltv:2396172",
@@ -2275,7 +2295,9 @@
       "hltv:2396162",
       "hltv:2395774",
       "hltv:2396010",
-      "hltv:2396098"
+      "hltv:2396098",
+      "hltv:2396109",
+      "hltv:2396171"
     ]
   }
 }
