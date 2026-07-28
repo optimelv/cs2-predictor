@@ -1740,6 +1740,79 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "ex-RUSTEC"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-5",
+        "event_name": "CCT 2026 Europe Series 5",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2395952",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Dust2",
+            "score1": 13,
+            "score2": 2,
+            "status": "finished"
+          },
+          {
+            "map_name": "Inferno",
+            "score1": 12,
+            "score2": 12,
+            "status": "finished"
+          }
+        ],
+        "maps": [
+          "Dust2",
+          "Inferno"
+        ],
+        "match_id": "hltv:2395952",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2395952/sparta-vs-g2-ares-cct-2026-europe-series-5",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "SPARTA",
+        "team2_name": "G2 Ares",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.\n\n** SPARTA forfeit the 2nd map (Mirage) as they are unable to field an eligible roster."
+      },
+      {
+        "event_id": "hltv:9298",
+        "event_name": "CCT 2026 Europe Series 6",
+        "event_url": null,
+        "hltv_match_id": "2396112",
+        "maps": [],
+        "match_id": "hltv:2396112",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396112/los-kogutos-vs-unity-cct-2026-europe-series-6",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "los kogutos",
+        "team2_name": "UNiTY"
+      },
+      {
+        "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+        "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+        "event_url": null,
+        "hltv_match_id": "2396174",
+        "maps": [],
+        "match_id": "hltv:2396174",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396174/misa-vs-falcons-force-thunderpick-world-championship-2026-europe-series-2",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Misa",
+        "team2_name": "Falcons Force",
+        "winner_name": "Falcons Force"
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -1861,54 +1934,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9290",
-        "event_name": "CCT 2026 Europe Series 5",
-        "event_url": null,
-        "hltv_match_id": "2395952",
-        "maps": [],
-        "match_id": "hltv:2395952",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2395952/sparta-vs-g2-ares-cct-2026-europe-series-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-07-28T17:00:00Z",
-        "status": "upcoming",
-        "team1_name": "SPARTA",
-        "team2_name": "G2 Ares"
-      },
-      {
-        "event_id": "hltv:9298",
-        "event_name": "CCT 2026 Europe Series 6",
-        "event_url": null,
-        "hltv_match_id": "2396112",
-        "maps": [],
-        "match_id": "hltv:2396112",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396112/los-kogutos-vs-unity-cct-2026-europe-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-07-28T17:00:00Z",
-        "status": "upcoming",
-        "team1_name": "los kogutos",
-        "team2_name": "UNiTY"
-      },
-      {
-        "event_id": "hltv:9296",
-        "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-        "event_url": null,
-        "hltv_match_id": "2396174",
-        "maps": [],
-        "match_id": "hltv:2396174",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396174/misa-vs-falcons-force-thunderpick-world-championship-2026-europe-series-2",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-07-28T17:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Misa",
-        "team2_name": "Falcons Force"
-      },
-      {
         "event_id": "hltv:9296",
         "event_name": "Thunderpick World Championship 2026 Europe Series 2",
         "event_url": null,
@@ -1955,6 +1980,22 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "Entropy",
         "team2_name": "UNiTY"
+      },
+      {
+        "event_id": "hltv:9296",
+        "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+        "event_url": null,
+        "hltv_match_id": "2396178",
+        "maps": [],
+        "match_id": "hltv:2396178",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396178/bebop-vs-misa-thunderpick-world-championship-2026-europe-series-2",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-07-29T17:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Bebop",
+        "team2_name": "Misa"
       }
     ],
     "default_event_id": "epl-series-8-2026",
@@ -2537,25 +2578,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Wildcard",
             "team2_name": "The MongolZ",
             "winner_name": "The MongolZ"
-          },
-          {
-            "event_id": "hltv:blast-bounty-2026-season-2",
-            "event_name": "BLAST Bounty 2026 Season 2",
-            "event_url": null,
-            "hltv_match_id": "2396009",
-            "maps": [],
-            "match_id": "hltv:2396009",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396009/3dmax-vs-fut-blast-bounty-2026-season-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "3DMAX",
-            "team2_name": "FUT",
-            "winner_name": "3DMAX"
           }
         ],
         "name": "BLAST Bounty 2026 Season 2",
@@ -2563,9 +2585,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "100 Thieves",
           "Spirit",
           "Wildcard",
-          "The MongolZ",
-          "3DMAX",
-          "FUT"
+          "The MongolZ"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -2796,21 +2816,40 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-5",
             "event_name": "CCT 2026 Europe Series 5",
-            "event_url": null,
-            "hltv_match_id": "2395944",
-            "maps": [],
-            "match_id": "hltv:2395944",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2395952",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Dust2",
+                "score1": 13,
+                "score2": 2,
+                "status": "finished"
+              },
+              {
+                "map_name": "Inferno",
+                "score1": 12,
+                "score2": 12,
+                "status": "finished"
+              }
+            ],
+            "maps": [
+              "Dust2",
+              "Inferno"
+            ],
+            "match_id": "hltv:2395952",
             "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2395944/butterfly-vs-saw-youngsters-cct-2026-europe-series-5",
-            "stage_name": "Completed series",
+            "source_url": "https://www.hltv.org/matches/2395952/sparta-vs-g2-ares-cct-2026-europe-series-5",
+            "stage_name": "Scheduled series",
             "starts_at": null,
-            "status": "finished",
-            "team1_name": "Butterfly",
-            "team2_name": "SAW Youngsters",
-            "winner_name": "Butterfly"
+            "status": "live",
+            "team1_name": "SPARTA",
+            "team2_name": "G2 Ares",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.\n\n** SPARTA forfeit the 2nd map (Mirage) as they are unable to field an eligible roster."
           }
         ],
         "name": "CCT 2026 Europe Series 5",
@@ -2827,11 +2866,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "benched gods",
           "EAC",
           "INOX Division",
-          "G2 Ares"
+          "G2 Ares",
+          "SPARTA"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "finished"
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -2861,33 +2901,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Honv\u00e9d",
             "team2_name": "Privateer",
             "winner_name": "Honv\u00e9d"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-6-closed-qualifier",
-            "event_name": "CCT 2026 Europe Series 6 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396103",
-            "maps": [],
-            "match_id": "hltv:2396103",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396103/quazar-vs-new-vision-cct-2026-europe-series-6-closed-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "QUAZAR",
-            "team2_name": "NEW VISION",
-            "winner_name": "NEW VISION"
           }
         ],
         "name": "CCT 2026 Europe Series 6 Closed Qualifier",
         "participants": [
           "Honv\u00e9d",
-          "Privateer",
-          "QUAZAR",
-          "NEW VISION"
+          "Privateer"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -2903,6 +2922,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:thunderpick-world-championship-2026-europe-series-2",
         "matches": [
+          {
+            "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+            "event_url": null,
+            "hltv_match_id": "2396174",
+            "maps": [],
+            "match_id": "hltv:2396174",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396174/misa-vs-falcons-force-thunderpick-world-championship-2026-europe-series-2",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Misa",
+            "team2_name": "Falcons Force",
+            "winner_name": "Falcons Force"
+          },
           {
             "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
             "event_name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -3073,43 +3111,22 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "STATE",
             "team2_name": "Lazer Cats",
             "winner_name": "Lazer Cats"
-          },
-          {
-            "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-            "event_url": null,
-            "hltv_match_id": "2396164",
-            "maps": [],
-            "match_id": "hltv:2396164",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396164/new-vision-vs-ex-mana-thunderpick-world-championship-2026-europe-series-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "NEW VISION",
-            "team2_name": "ex-MANA",
-            "winner_name": "ex-MANA"
           }
         ],
         "name": "Thunderpick World Championship 2026 Europe Series 2",
         "participants": [
+          "Misa",
+          "Falcons Force",
           "ex-RUSTEC",
           "UNiTY",
           "Black Phoenix",
           "Bebop",
           "Entropy",
           "Mai Tai",
-          "Falcons Force",
-          "Misa",
           "los kogutos",
           "megoshort",
           "STATE",
-          "Lazer Cats",
-          "NEW VISION",
-          "ex-MANA"
+          "Lazer Cats"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -3136,8 +3153,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2396112/los-kogutos-vs-unity-cct-2026-europe-series-6",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-07-28T17:00:00Z",
-            "status": "upcoming",
+            "starts_at": null,
+            "status": "live",
             "team1_name": "los kogutos",
             "team2_name": "UNiTY"
           }
@@ -3149,7 +3166,7 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "upcoming"
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -3161,22 +3178,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:9296",
         "matches": [
-          {
-            "event_id": "hltv:9296",
-            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-            "event_url": null,
-            "hltv_match_id": "2396174",
-            "maps": [],
-            "match_id": "hltv:2396174",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396174/misa-vs-falcons-force-thunderpick-world-championship-2026-europe-series-2",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-07-28T17:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Misa",
-            "team2_name": "Falcons Force"
-          },
           {
             "event_id": "hltv:9296",
             "event_name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -3224,18 +3225,34 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "Entropy",
             "team2_name": "UNiTY"
+          },
+          {
+            "event_id": "hltv:9296",
+            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+            "event_url": null,
+            "hltv_match_id": "2396178",
+            "maps": [],
+            "match_id": "hltv:2396178",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396178/bebop-vs-misa-thunderpick-world-championship-2026-europe-series-2",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-07-29T17:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Bebop",
+            "team2_name": "Misa"
           }
         ],
         "name": "Thunderpick World Championship 2026 Europe Series 2",
         "participants": [
-          "Misa",
-          "Falcons Force",
           "Fortress",
           "STATE",
           "ex-MANA",
           "los kogutos",
           "Entropy",
-          "UNiTY"
+          "UNiTY",
+          "Bebop",
+          "Misa"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -3443,7 +3460,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-07-28T16:52:33Z",
+    "last_verified_utc": "2026-07-28T19:54:43Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -3881,7 +3898,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-07-28T16:52:53Z",
+  "generated_at_utc": "2026-07-28T19:55:03Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -5251,13 +5268,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.637523,
-        "brier": 0.219971,
-        "ece": 0.035369,
-        "log_loss": 0.628664
+        "accuracy": 0.638686,
+        "brier": 0.219549,
+        "ece": 0.034208,
+        "log_loss": 0.627778
       },
-      "rows": 821,
-      "test_rows": 549
+      "rows": 822,
+      "test_rows": 548
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -5271,13 +5288,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.637523,
-        "brier": 0.219971,
-        "ece": 0.045343,
-        "log_loss": 0.629772
+        "accuracy": 0.636861,
+        "brier": 0.219679,
+        "ece": 0.044724,
+        "log_loss": 0.629183
       },
       "promotion_passed": false,
-      "rows": 549
+      "rows": 548
     },
     "champion": {
       "folds": 3,
@@ -5294,7 +5311,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-07-28T16:52:52Z",
+    "generated_at_utc": "2026-07-28T19:55:03Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -5305,8 +5322,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
-      "online_rows": 64,
+      "new_rows": 1,
+      "online_rows": 65,
       "seed_rows": 757
     }
   },
@@ -5375,9 +5392,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396110",
       "hltv:2396173",
       "hltv:2396111",
-      "hltv:2395951"
+      "hltv:2395951",
+      "hltv:2396174"
     ],
-    "last_online_update_utc": "2026-07-28T16:52:53Z",
+    "last_online_update_utc": "2026-07-28T19:55:03Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -8987,10 +9005,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 158
       },
       {
-        "elo": 1510.72,
-        "last_result_utc": "2026-07-27T19:57:03Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.5909,
+        "elo": 1524.44,
+        "last_result_utc": "2026-07-28T19:55:03Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.6653,
         "team_key": "falcons force",
         "team_name": "Falcons Force",
         "vrs_points": 859.0,
@@ -9171,10 +9189,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 181
       },
       {
-        "elo": 1512.74,
-        "last_result_utc": "2026-07-27T17:13:22Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.6044,
+        "elo": 1499.02,
+        "last_result_utc": "2026-07-28T19:55:03Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.4945,
         "team_key": "misa",
         "team_name": "Misa",
         "vrs_points": 786.0,
@@ -14451,105 +14469,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.6981,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.3019,
-      "event_id": "hltv:9290",
-      "event_name": "CCT 2026 Europe Series 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-07-28",
-      "match_id": "hltv:2395952",
-      "match_phase": "scheduled",
-      "match_timestamp": 1785258000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "G2 Ares",
-      "prob_team1": 0.3019,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2395952/sparta-vs-g2-ares-cct-2026-europe-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-07-28T17:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "SPARTA",
-      "team1_vrs_rank": 303,
-      "team2_hltv_rank": null,
-      "team2_name": "G2 Ares",
-      "team2_vrs_rank": 125
-    },
-    {
-      "confidence": 0.5172,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4828,
-      "event_id": "hltv:9298",
-      "event_name": "CCT 2026 Europe Series 6",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-07-28",
-      "match_id": "hltv:2396112",
-      "match_phase": "scheduled",
-      "match_timestamp": 1785258000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "UNiTY",
-      "prob_team1": 0.4828,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396112/los-kogutos-vs-unity-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-07-28T17:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "los kogutos",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "UNiTY",
-      "team2_vrs_rank": 144
-    },
-    {
-      "confidence": 0.554,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.446,
-      "event_id": "hltv:9296",
-      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-07-28",
-      "match_id": "hltv:2396174",
-      "match_phase": "scheduled",
-      "match_timestamp": 1785258000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Falcons Force",
-      "prob_team1": 0.446,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396174/misa-vs-falcons-force-thunderpick-world-championship-2026-europe-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-07-28T17:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Misa",
-      "team1_vrs_rank": 182,
-      "team2_hltv_rank": null,
-      "team2_name": "Falcons Force",
-      "team2_vrs_rank": 159
-    },
-    {
       "confidence": 0.5936,
       "confidence_label": "lean",
       "data_quality": "full",
@@ -14647,12 +14566,130 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "UNiTY",
       "team2_vrs_rank": 144
+    },
+    {
+      "confidence": 0.6633,
+      "confidence_label": "watch",
+      "data_quality": "full",
+      "elo_prob_team1": 0.3367,
+      "event_id": "hltv:9296",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-07-29",
+      "match_id": "hltv:2396178",
+      "match_phase": "scheduled",
+      "match_timestamp": 1785344400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Misa",
+      "prob_team1": 0.3367,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396178/bebop-vs-misa-thunderpick-world-championship-2026-europe-series-2",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-07-29T17:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Bebop",
+      "team1_vrs_rank": 255,
+      "team2_hltv_rank": null,
+      "team2_name": "Misa",
+      "team2_vrs_rank": 182
+    },
+    {
+      "confidence": 0.6981,
+      "confidence_label": "watch",
+      "data_quality": "full",
+      "elo_prob_team1": 0.3019,
+      "event_id": "hltv:cct-2026-europe-series-5",
+      "event_name": "CCT 2026 Europe Series 5",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 2,
+          "status": "finished"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 12,
+          "score2": 12,
+          "status": "finished"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Inferno"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2395952",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "G2 Ares",
+      "prob_team1": 0.3019,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2395952/sparta-vs-g2-ares-cct-2026-europe-series-5",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "SPARTA",
+      "team1_vrs_rank": 303,
+      "team2_hltv_rank": null,
+      "team2_name": "G2 Ares",
+      "team2_vrs_rank": 125
+    },
+    {
+      "confidence": 0.5172,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4828,
+      "event_id": "hltv:9298",
+      "event_name": "CCT 2026 Europe Series 6",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "",
+      "match_id": "hltv:2396112",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "UNiTY",
+      "prob_team1": 0.4828,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396112/los-kogutos-vs-unity-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "los kogutos",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "UNiTY",
+      "team2_vrs_rank": 144
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 39,
-    "online_results_applied": 3,
+    "live_feed_items": 36,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
