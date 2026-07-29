@@ -1818,7 +1818,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
         "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396175",
         "lineups": {
           "team1": [],
@@ -1844,26 +1844,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Nuke",
-          "Ancient",
-          "Cache"
-        ],
+        "maps": [],
         "match_id": "hltv:2396175",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396175/fortress-vs-state-thunderpick-world-championship-2026-europe-series-2",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Fortress",
         "team2_name": "STATE",
-        "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
+        "veto_text": "Best of 3 (Online)\n\n* Group A decider match",
+        "winner_name": "STATE"
       },
       {
         "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396113",
         "lineups": {
           "team1": [],
@@ -1889,21 +1888,129 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
+        "maps": [],
+        "match_id": "hltv:2396113",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396113/los-kogutos-vs-ex-mana-cct-2026-europe-series-6",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "los kogutos",
+        "team2_name": "ex-MANA",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)",
+        "winner_name": "los kogutos"
+      },
+      {
+        "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+        "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396176",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
         "maps": [
-          "Dust2",
+          "Mirage",
           "Nuke",
           "Ancient"
         ],
-        "match_id": "hltv:2396113",
+        "match_id": "hltv:2396176",
         "product_tier": "tier_2",
         "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396113/los-kogutos-vs-ex-mana-cct-2026-europe-series-6",
+        "source_url": "https://www.hltv.org/matches/2396176/ex-mana-vs-los-kogutos-thunderpick-world-championship-2026-europe-series-2",
         "stage_name": "Scheduled series",
         "starts_at": null,
         "status": "live",
-        "team1_name": "los kogutos",
-        "team2_name": "ex-MANA",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
+        "team1_name": "ex-MANA",
+        "team2_name": "los kogutos",
+        "veto_text": "Best of 3 (Online)\n\n* Group B decider match"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-5",
+        "event_name": "CCT 2026 Europe Series 5",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2395953",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Mirage",
+            "score1": 7,
+            "score2": 5,
+            "status": "finished"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Cache",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Mirage",
+          "Nuke",
+          "Cache"
+        ],
+        "match_id": "hltv:2395953",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2395953/black-phoenix-vs-entropy-cct-2026-europe-series-5",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Black Phoenix",
+        "team2_name": "Entropy",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-6",
+        "event_name": "CCT 2026 Europe Series 6",
+        "event_url": null,
+        "hltv_match_id": "2396114",
+        "maps": [],
+        "match_id": "hltv:2396114",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396114/atreides-vs-enjoy-cct-2026-europe-series-6",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Atreides",
+        "team2_name": "Enjoy",
+        "winner_name": "Enjoy"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -2025,54 +2132,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:9296",
-        "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-        "event_url": null,
-        "hltv_match_id": "2396176",
-        "maps": [],
-        "match_id": "hltv:2396176",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396176/ex-mana-vs-los-kogutos-thunderpick-world-championship-2026-europe-series-2",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-07-29T11:00:00Z",
-        "status": "upcoming",
-        "team1_name": "ex-MANA",
-        "team2_name": "los kogutos"
-      },
-      {
-        "event_id": "hltv:9290",
-        "event_name": "CCT 2026 Europe Series 5",
-        "event_url": null,
-        "hltv_match_id": "2395953",
-        "maps": [],
-        "match_id": "hltv:2395953",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2395953/black-phoenix-vs-entropy-cct-2026-europe-series-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-07-29T11:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Black Phoenix",
-        "team2_name": "Entropy"
-      },
-      {
-        "event_id": "hltv:9298",
-        "event_name": "CCT 2026 Europe Series 6",
-        "event_url": null,
-        "hltv_match_id": "2396114",
-        "maps": [],
-        "match_id": "hltv:2396114",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396114/atreides-vs-enjoy-cct-2026-europe-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-07-29T11:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Atreides",
-        "team2_name": "Enjoy"
       },
       {
         "event_id": "hltv:9296",
@@ -2867,32 +2926,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "ODDIK",
             "team2_name": "Isurus",
             "winner_name": "Isurus"
-          },
-          {
-            "event_id": "hltv:cct-2026-south-america-series-4",
-            "event_name": "CCT 2026 South America Series 4",
-            "event_url": null,
-            "hltv_match_id": "2395778",
-            "maps": [],
-            "match_id": "hltv:2395778",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2395778/fluxo-vs-isurus-cct-2026-south-america-series-4",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Fluxo",
-            "team2_name": "Isurus",
-            "winner_name": "Isurus"
           }
         ],
         "name": "CCT 2026 South America Series 4",
         "participants": [
           "ODDIK",
-          "Isurus",
-          "Fluxo"
+          "Isurus"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -3025,21 +3064,47 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-5",
             "event_name": "CCT 2026 Europe Series 5",
-            "event_url": null,
-            "hltv_match_id": "2395946",
-            "maps": [],
-            "match_id": "hltv:2395946",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2395953",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Mirage",
+                "score1": 7,
+                "score2": 5,
+                "status": "finished"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Cache",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Mirage",
+              "Nuke",
+              "Cache"
+            ],
+            "match_id": "hltv:2395953",
             "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2395946/eac-vs-atreides-cct-2026-europe-series-5",
-            "stage_name": "Completed series",
+            "source_url": "https://www.hltv.org/matches/2395953/black-phoenix-vs-entropy-cct-2026-europe-series-5",
+            "stage_name": "Scheduled series",
             "starts_at": null,
-            "status": "finished",
-            "team1_name": "EAC",
-            "team2_name": "Atreides",
-            "winner_name": "EAC"
+            "status": "live",
+            "team1_name": "Black Phoenix",
+            "team2_name": "Entropy",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
           }
         ],
         "name": "CCT 2026 Europe Series 5",
@@ -3055,12 +3120,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "Rune Eaters",
           "SAW Youngsters",
           "Black Phoenix",
-          "benched gods",
-          "EAC"
+          "benched gods"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "finished"
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -3111,6 +3175,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:thunderpick-world-championship-2026-europe-series-2",
         "matches": [
+          {
+            "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+            "event_url": null,
+            "hltv_match_id": "2396175",
+            "maps": [],
+            "match_id": "hltv:2396175",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396175/fortress-vs-state-thunderpick-world-championship-2026-europe-series-2",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Fortress",
+            "team2_name": "STATE",
+            "winner_name": "STATE"
+          },
           {
             "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
             "event_name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -3267,50 +3350,52 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
             "event_name": "Thunderpick World Championship 2026 Europe Series 2",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396175",
+            "hltv_match_id": "2396176",
             "lineups": {
               "team1": [],
               "team2": []
             },
             "map_results": [
               {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
                 "map_name": "Nuke",
-                "score1": 10,
-                "score2": 13,
-                "status": "finished"
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
               },
               {
                 "map_name": "Ancient",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
-              },
-              {
-                "map_name": "Cache",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
               }
             ],
             "maps": [
+              "Mirage",
               "Nuke",
-              "Ancient",
-              "Cache"
+              "Ancient"
             ],
-            "match_id": "hltv:2396175",
+            "match_id": "hltv:2396176",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396175/fortress-vs-state-thunderpick-world-championship-2026-europe-series-2",
+            "source_url": "https://www.hltv.org/matches/2396176/ex-mana-vs-los-kogutos-thunderpick-world-championship-2026-europe-series-2",
             "stage_name": "Scheduled series",
             "starts_at": null,
             "status": "live",
-            "team1_name": "Fortress",
-            "team2_name": "STATE",
-            "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
+            "team1_name": "ex-MANA",
+            "team2_name": "los kogutos",
+            "veto_text": "Best of 3 (Online)\n\n* Group B decider match"
           }
         ],
         "name": "Thunderpick World Championship 2026 Europe Series 2",
         "participants": [
+          "Fortress",
+          "STATE",
           "Misa",
           "Falcons Force",
           "ex-RUSTEC",
@@ -3319,8 +3404,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "Bebop",
           "Entropy",
           "Mai Tai",
-          "Fortress",
-          "STATE"
+          "ex-MANA",
+          "los kogutos"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -3336,22 +3421,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:9298",
         "matches": [
-          {
-            "event_id": "hltv:9298",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
-            "hltv_match_id": "2396114",
-            "maps": [],
-            "match_id": "hltv:2396114",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396114/atreides-vs-enjoy-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-07-29T11:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Atreides",
-            "team2_name": "Enjoy"
-          },
           {
             "event_id": "hltv:9298",
             "event_name": "CCT 2026 Europe Series 6",
@@ -3451,8 +3520,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
-          "Atreides",
-          "Enjoy",
           "ex-RUSTEC",
           "ex-Young Ninjas",
           "GenOne",
@@ -3480,22 +3547,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:9296",
         "matches": [
-          {
-            "event_id": "hltv:9296",
-            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-            "event_url": null,
-            "hltv_match_id": "2396176",
-            "maps": [],
-            "match_id": "hltv:2396176",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396176/ex-mana-vs-los-kogutos-thunderpick-world-championship-2026-europe-series-2",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-07-29T11:00:00Z",
-            "status": "upcoming",
-            "team1_name": "ex-MANA",
-            "team2_name": "los kogutos"
-          },
           {
             "event_id": "hltv:9296",
             "event_name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -3531,8 +3582,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "Thunderpick World Championship 2026 Europe Series 2",
         "participants": [
-          "ex-MANA",
-          "los kogutos",
           "Entropy",
           "UNiTY",
           "Bebop",
@@ -3552,22 +3601,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:9290",
         "matches": [
-          {
-            "event_id": "hltv:9290",
-            "event_name": "CCT 2026 Europe Series 5",
-            "event_url": null,
-            "hltv_match_id": "2395953",
-            "maps": [],
-            "match_id": "hltv:2395953",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2395953/black-phoenix-vs-entropy-cct-2026-europe-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-07-29T11:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Black Phoenix",
-            "team2_name": "Entropy"
-          },
           {
             "event_id": "hltv:9290",
             "event_name": "CCT 2026 Europe Series 5",
@@ -3603,8 +3636,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 5",
         "participants": [
-          "Black Phoenix",
-          "Entropy",
           "Atreides",
           "Rune Eaters",
           "Just Players",
@@ -3624,6 +3655,44 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-6",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": null,
+            "hltv_match_id": "2396114",
+            "maps": [],
+            "match_id": "hltv:2396114",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396114/atreides-vs-enjoy-cct-2026-europe-series-6",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Atreides",
+            "team2_name": "Enjoy",
+            "winner_name": "Enjoy"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": null,
+            "hltv_match_id": "2396113",
+            "maps": [],
+            "match_id": "hltv:2396113",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396113/los-kogutos-vs-ex-mana-cct-2026-europe-series-6",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "los kogutos",
+            "team2_name": "ex-MANA",
+            "winner_name": "los kogutos"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
@@ -3775,64 +3844,19 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Just Players",
             "team2_name": "ex-Young Ninjas",
             "winner_name": "Just Players"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-6",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396113",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Dust2",
-                "score1": 13,
-                "score2": 4,
-                "status": "finished"
-              },
-              {
-                "map_name": "Nuke",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Ancient",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Dust2",
-              "Nuke",
-              "Ancient"
-            ],
-            "match_id": "hltv:2396113",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396113/los-kogutos-vs-ex-mana-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "los kogutos",
-            "team2_name": "ex-MANA",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
+          "Atreides",
+          "Enjoy",
           "los kogutos",
+          "ex-MANA",
           "UNiTY",
           "GenOne",
           "NEW VISION",
           "Rune Eaters",
-          "ex-MANA",
           "Black Phoenix",
-          "Enjoy",
-          "Atreides",
           "Mai Tai",
           "ex-RUSTEC",
           "Inner Circle Academy",
@@ -3843,7 +3867,7 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "finished"
       },
       {
         "current_stage": "Schedule",
@@ -3900,7 +3924,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-07-29T09:10:23Z",
+    "last_verified_utc": "2026-07-29T11:35:13Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -4338,7 +4362,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-07-29T09:10:42Z",
+  "generated_at_utc": "2026-07-29T11:35:31Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -5708,13 +5732,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.636364,
-        "brier": 0.220123,
-        "ece": 0.036306,
-        "log_loss": 0.628975
+        "accuracy": 0.636528,
+        "brier": 0.220233,
+        "ece": 0.036352,
+        "log_loss": 0.629258
       },
-      "rows": 824,
-      "test_rows": 550
+      "rows": 827,
+      "test_rows": 553
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -5728,13 +5752,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.632727,
-        "brier": 0.22007,
-        "ece": 0.050772,
-        "log_loss": 0.630013
+        "accuracy": 0.636528,
+        "brier": 0.220166,
+        "ece": 0.046196,
+        "log_loss": 0.630234
       },
       "promotion_passed": false,
-      "rows": 550
+      "rows": 553
     },
     "champion": {
       "folds": 3,
@@ -5751,7 +5775,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-07-29T09:10:42Z",
+    "generated_at_utc": "2026-07-29T11:35:31Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -5762,8 +5786,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 0,
-      "online_rows": 67,
+      "new_rows": 3,
+      "online_rows": 70,
       "seed_rows": 757
     }
   },
@@ -5835,9 +5859,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2395951",
       "hltv:2396174",
       "hltv:2396112",
-      "hltv:2395952"
+      "hltv:2395952",
+      "hltv:2396114",
+      "hltv:2396175",
+      "hltv:2396113"
     ],
-    "last_online_update_utc": "2026-07-28T22:18:31Z",
+    "last_online_update_utc": "2026-07-29T11:35:31Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -9004,10 +9031,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 100
       },
       {
-        "elo": 1481.58,
-        "last_result_utc": "2026-07-26T21:30:18Z",
-        "matches": 15,
-        "recent_win_rate_10": 0.5165,
+        "elo": 1495.82,
+        "last_result_utc": "2026-07-29T11:35:31Z",
+        "matches": 16,
+        "recent_win_rate_10": 0.6044,
         "team_key": "state",
         "team_name": "STATE",
         "vrs_points": 1059.0,
@@ -9086,10 +9113,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 111
       },
       {
-        "elo": 1453.98,
-        "last_result_utc": "2026-07-28T14:39:37Z",
-        "matches": 6,
-        "recent_win_rate_10": 0.1825,
+        "elo": 1443.68,
+        "last_result_utc": "2026-07-29T11:35:31Z",
+        "matches": 7,
+        "recent_win_rate_10": 0.1493,
         "team_key": "atreides",
         "team_name": "Atreides",
         "vrs_points": 1017.0,
@@ -9493,10 +9520,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 164
       },
       {
-        "elo": 1511.34,
-        "last_result_utc": "2026-07-28T11:29:45Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.5443,
+        "elo": 1521.64,
+        "last_result_utc": "2026-07-29T11:35:31Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.6272,
         "team_key": "enjoy",
         "team_name": "Enjoy",
         "vrs_points": 842.0,
@@ -9669,10 +9696,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 185
       },
       {
-        "elo": 1496.88,
-        "last_result_utc": "2026-07-26T21:30:18Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.4835,
+        "elo": 1482.64,
+        "last_result_utc": "2026-07-29T11:35:31Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.3956,
         "team_key": "fortress",
         "team_name": "Fortress",
         "vrs_points": 782.0,
@@ -11349,10 +11376,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1426.72,
-        "last_result_utc": "2026-07-28T22:18:31Z",
-        "matches": 37,
-        "recent_win_rate_10": 0.2562,
+        "elo": 1442.63,
+        "last_result_utc": "2026-07-29T11:35:31Z",
+        "matches": 38,
+        "recent_win_rate_10": 0.3914,
         "team_key": "los kogutos",
         "team_name": "los kogutos",
         "vrs_points": null,
@@ -11840,10 +11867,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1485.18,
-        "last_result_utc": "2026-07-28T14:39:37Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.3956,
+        "elo": 1469.27,
+        "last_result_utc": "2026-07-29T11:35:31Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.3237,
         "team_key": "ex mana",
         "team_name": "ex-MANA",
         "vrs_points": 0,
@@ -14911,109 +14938,10 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.6101,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.3899,
-      "event_id": "hltv:9290",
-      "event_name": "CCT 2026 Europe Series 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-07-29",
-      "match_id": "hltv:2395953",
-      "match_phase": "scheduled",
-      "match_timestamp": 1785322800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Entropy",
-      "prob_team1": 0.3899,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2395953/black-phoenix-vs-entropy-cct-2026-europe-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-07-29T11:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Black Phoenix",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Entropy",
-      "team2_vrs_rank": 175
-    },
-    {
-      "confidence": 0.5044,
+      "confidence": 0.5404,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4956,
-      "event_id": "hltv:9298",
-      "event_name": "CCT 2026 Europe Series 6",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-07-29",
-      "match_id": "hltv:2396114",
-      "match_phase": "scheduled",
-      "match_timestamp": 1785322800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Enjoy",
-      "prob_team1": 0.4956,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396114/atreides-vs-enjoy-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-07-29T11:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Atreides",
-      "team1_vrs_rank": 112,
-      "team2_hltv_rank": null,
-      "team2_name": "Enjoy",
-      "team2_vrs_rank": 166
-    },
-    {
-      "confidence": 0.5935,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5935,
-      "event_id": "hltv:9296",
-      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-07-29",
-      "match_id": "hltv:2396176",
-      "match_phase": "scheduled",
-      "match_timestamp": 1785322800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "ex-MANA",
-      "prob_team1": 0.5935,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396176/ex-mana-vs-los-kogutos-thunderpick-world-championship-2026-europe-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-07-29T11:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "ex-MANA",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "los kogutos",
-      "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.5575,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5575,
+      "elo_prob_team1": 0.5404,
       "event_id": "hltv:9290",
       "event_name": "CCT 2026 Europe Series 5",
       "format": "bo3",
@@ -15027,7 +14955,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Atreides",
-      "prob_team1": 0.5575,
+      "prob_team1": 0.5404,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -15406,12 +15334,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": null
     },
     {
-      "confidence": 0.5935,
+      "confidence": 0.6101,
       "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.4065,
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
+      "elo_prob_team1": 0.3899,
+      "event_id": "hltv:cct-2026-europe-series-5",
+      "event_name": "CCT 2026 Europe Series 5",
       "format": "bo3",
       "lineups": {
         "team1": [],
@@ -15419,72 +15347,13 @@ window.__STRIKESIGNAL_DATA__ = {
       },
       "map_results": [
         {
-          "map_name": "Dust2",
-          "score1": 13,
-          "score2": 4,
+          "map_name": "Mirage",
+          "score1": 7,
+          "score2": 5,
           "status": "finished"
         },
         {
           "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Nuke",
-        "Ancient"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2396113",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "ex-MANA",
-      "prob_team1": 0.4065,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396113/los-kogutos-vs-ex-mana-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "los kogutos",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "ex-MANA",
-      "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.5936,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4064,
-      "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Nuke",
-          "score1": 10,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Ancient",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -15497,37 +15366,96 @@ window.__STRIKESIGNAL_DATA__ = {
         }
       ],
       "maps": [
+        "Mirage",
         "Nuke",
-        "Ancient",
         "Cache"
       ],
       "match_date": "",
-      "match_id": "hltv:2396175",
+      "match_id": "hltv:2395953",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
-      "predicted_winner": "STATE",
-      "prob_team1": 0.4064,
+      "predicted_winner": "Entropy",
+      "prob_team1": 0.3899,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396175/fortress-vs-state-thunderpick-world-championship-2026-europe-series-2",
+      "source_url": "https://www.hltv.org/matches/2395953/black-phoenix-vs-entropy-cct-2026-europe-series-5",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "Fortress",
-      "team1_vrs_rank": 186,
+      "team1_name": "Black Phoenix",
+      "team1_vrs_rank": null,
       "team2_hltv_rank": null,
-      "team2_name": "STATE",
-      "team2_vrs_rank": 101
+      "team2_name": "Entropy",
+      "team2_vrs_rank": 175
+    },
+    {
+      "confidence": 0.5332,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5332,
+      "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Nuke",
+        "Ancient"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2396176",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "ex-MANA",
+      "prob_team1": 0.5332,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396176/ex-mana-vs-los-kogutos-thunderpick-world-championship-2026-europe-series-2",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "ex-MANA",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "los kogutos",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 44,
-    "online_results_applied": 0,
+    "live_feed_items": 40,
+    "online_results_applied": 3,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

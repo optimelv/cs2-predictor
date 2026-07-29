@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-29T09:10:23Z",
+  "generated_at_utc": "2026-07-29T11:35:13Z",
   "through_date": "2026-07-29",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1054,
+    "matches": 1057,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -594,6 +594,72 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396114",
+      "match_date": "2026-07-29",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "Atreides",
+      "team2_name": "Enjoy",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Enjoy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396175",
+      "match_date": "2026-07-29",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "Fortress",
+      "team2_name": "STATE",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "STATE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396113",
+      "match_date": "2026-07-29",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "los kogutos",
+      "team2_name": "ex-MANA",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "los kogutos",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
