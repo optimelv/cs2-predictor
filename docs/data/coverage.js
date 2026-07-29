@@ -1815,6 +1815,96 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Falcons Force"
     },
     {
+      "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396175",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": 10,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Ancient",
+        "Cache"
+      ],
+      "match_id": "hltv:2396175",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396175/fortress-vs-state-thunderpick-world-championship-2026-europe-series-2",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Fortress",
+      "team2_name": "STATE",
+      "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-6",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396113",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 4,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Nuke",
+        "Ancient"
+      ],
+      "match_id": "hltv:2396113",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396113/los-kogutos-vs-ex-mana-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "los kogutos",
+      "team2_name": "ex-MANA",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -1934,48 +2024,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396175",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396175",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396175/fortress-vs-state-thunderpick-world-championship-2026-europe-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-07-29T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Fortress",
-      "team2_name": "STATE",
-      "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396113",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396113",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396113/los-kogutos-vs-ex-mana-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-07-29T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "los kogutos",
-      "team2_name": "ex-MANA",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
     },
     {
       "event_id": "hltv:9296",
@@ -2184,6 +2232,38 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "Just Players",
       "team2_name": "Inner Circle Academy"
+    },
+    {
+      "event_id": "hltv:9307",
+      "event_name": "CCT 2026 Contenders Europe Series 7",
+      "event_url": null,
+      "hltv_match_id": "2396322",
+      "maps": [],
+      "match_id": "hltv:2396322",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396322/aimclub-vs-spirit-academy-cct-2026-contenders-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-07-30T18:15:00Z",
+      "status": "upcoming",
+      "team1_name": "aimclub",
+      "team2_name": "Spirit Academy"
+    },
+    {
+      "event_id": "hltv:9307",
+      "event_name": "CCT 2026 Contenders Europe Series 7",
+      "event_url": null,
+      "hltv_match_id": "2396323",
+      "maps": [],
+      "match_id": "hltv:2396323",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396323/young-tigeres-vs-banda-chuya-cct-2026-contenders-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-07-30T18:15:00Z",
+      "status": "upcoming",
+      "team1_name": "Young TigeRES",
+      "team2_name": "Banda Chuya"
     }
   ],
   "default_event_id": "epl-series-8-2026",
@@ -3033,27 +3113,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
           "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396175",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396175",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396175/fortress-vs-state-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-07-29T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Fortress",
-          "team2_name": "STATE",
-          "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
           "event_url": null,
           "hltv_match_id": "2396174",
           "maps": [],
@@ -3202,12 +3261,55 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "ex-RUSTEC",
           "team2_name": "Entropy",
           "winner_name": "ex-RUSTEC"
+        },
+        {
+          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396175",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": 10,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Ancient",
+            "Cache"
+          ],
+          "match_id": "hltv:2396175",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396175/fortress-vs-state-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Fortress",
+          "team2_name": "STATE",
+          "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
         }
       ],
       "name": "Thunderpick World Championship 2026 Europe Series 2",
       "participants": [
-        "Fortress",
-        "STATE",
         "Misa",
         "Falcons Force",
         "ex-RUSTEC",
@@ -3215,11 +3317,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Black Phoenix",
         "Bebop",
         "Entropy",
-        "Mai Tai"
+        "Mai Tai",
+        "Fortress",
+        "STATE"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -3522,27 +3626,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-6",
           "event_name": "CCT 2026 Europe Series 6",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396113",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396113",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396113/los-kogutos-vs-ex-mana-cct-2026-europe-series-6",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-07-29T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "los kogutos",
-          "team2_name": "ex-MANA",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
           "event_url": null,
           "hltv_match_id": "2396112",
           "maps": [],
@@ -3691,16 +3774,61 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Just Players",
           "team2_name": "ex-Young Ninjas",
           "winner_name": "Just Players"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-6",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396113",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": 13,
+              "score2": 4,
+              "status": "finished"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Nuke",
+            "Ancient"
+          ],
+          "match_id": "hltv:2396113",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396113/los-kogutos-vs-ex-mana-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "los kogutos",
+          "team2_name": "ex-MANA",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
         "los kogutos",
-        "ex-MANA",
         "UNiTY",
         "GenOne",
         "NEW VISION",
         "Rune Eaters",
+        "ex-MANA",
         "Black Phoenix",
         "Enjoy",
         "Atreides",
@@ -3713,11 +3841,65 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "ex-Young Ninjas"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
+      "source_url": null,
+      "status": "ongoing"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9307",
+      "matches": [
+        {
+          "event_id": "hltv:9307",
+          "event_name": "CCT 2026 Contenders Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396322",
+          "maps": [],
+          "match_id": "hltv:2396322",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396322/aimclub-vs-spirit-academy-cct-2026-contenders-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-07-30T18:15:00Z",
+          "status": "upcoming",
+          "team1_name": "aimclub",
+          "team2_name": "Spirit Academy"
+        },
+        {
+          "event_id": "hltv:9307",
+          "event_name": "CCT 2026 Contenders Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396323",
+          "maps": [],
+          "match_id": "hltv:2396323",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396323/young-tigeres-vs-banda-chuya-cct-2026-contenders-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-07-30T18:15:00Z",
+          "status": "upcoming",
+          "team1_name": "Young TigeRES",
+          "team2_name": "Banda Chuya"
+        }
+      ],
+      "name": "CCT 2026 Contenders Europe Series 7",
+      "participants": [
+        "aimclub",
+        "Spirit Academy",
+        "Young TigeRES",
+        "Banda Chuya"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-07-29T03:42:38Z",
+  "last_verified_utc": "2026-07-29T09:10:23Z",
   "sources": [
     {
       "name": "HLTV events calendar",
