@@ -2011,25 +2011,28 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Enjoy"
       },
       {
-        "event_id": "hltv:9296",
+        "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
         "event_name": "Thunderpick World Championship 2026 Europe Series 2",
         "event_url": null,
         "hltv_match_id": "2396177",
         "maps": [],
         "match_id": "hltv:2396177",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396177/entropy-vs-unity-thunderpick-world-championship-2026-europe-series-2",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Entropy",
-        "team2_name": "UNiTY"
+        "team2_name": "UNiTY",
+        "winner_name": "Entropy"
       },
       {
         "event_id": "hltv:cct-2026-europe-series-5",
         "event_name": "CCT 2026 Europe Series 5",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2395954",
         "lineups": {
           "team1": [],
@@ -2055,26 +2058,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2395954",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2395954/atreides-vs-rune-eaters-cct-2026-europe-series-5",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Atreides",
         "team2_name": "Rune Eaters",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated.",
+        "winner_name": "Rune Eaters"
       },
       {
         "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396115",
         "lineups": {
           "team1": [],
@@ -2100,21 +2102,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Dust2",
-          "Nuke",
-          "Anubis"
-        ],
+        "maps": [],
         "match_id": "hltv:2396115",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396115/ex-rustec-vs-ex-young-ninjas-cct-2026-europe-series-6",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "ex-RUSTEC",
         "team2_name": "ex-Young Ninjas",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)",
+        "winner_name": "ex-Young Ninjas"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -3007,6 +3008,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-europe-series-5",
             "event_name": "CCT 2026 Europe Series 5",
             "event_url": null,
+            "hltv_match_id": "2395954",
+            "maps": [],
+            "match_id": "hltv:2395954",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2395954/atreides-vs-rune-eaters-cct-2026-europe-series-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Atreides",
+            "team2_name": "Rune Eaters",
+            "winner_name": "Rune Eaters"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-5",
+            "event_name": "CCT 2026 Europe Series 5",
+            "event_url": null,
             "hltv_match_id": "2395953",
             "maps": [],
             "match_id": "hltv:2395953",
@@ -3135,71 +3155,26 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Black Phoenix",
             "team2_name": "benched gods",
             "winner_name": "Black Phoenix"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-5",
-            "event_name": "CCT 2026 Europe Series 5",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2395954",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Ancient",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Anubis",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Ancient",
-              "Anubis",
-              "Mirage"
-            ],
-            "match_id": "hltv:2395954",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2395954/atreides-vs-rune-eaters-cct-2026-europe-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Atreides",
-            "team2_name": "Rune Eaters",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
           }
         ],
         "name": "CCT 2026 Europe Series 5",
         "participants": [
+          "Atreides",
+          "Rune Eaters",
           "Black Phoenix",
           "Entropy",
           "SPARTA",
           "G2 Ares",
           "Butterfly",
           "Just Players",
-          "Atreides",
           "ex-RUSTEC",
           "CYBERSHOKE Prospects",
-          "Rune Eaters",
           "SAW Youngsters",
           "benched gods"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "finished"
       },
       {
         "current_stage": "Schedule",
@@ -3250,6 +3225,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:thunderpick-world-championship-2026-europe-series-2",
         "matches": [
+          {
+            "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+            "event_url": null,
+            "hltv_match_id": "2396177",
+            "maps": [],
+            "match_id": "hltv:2396177",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396177/entropy-vs-unity-thunderpick-world-championship-2026-europe-series-2",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Entropy",
+            "team2_name": "UNiTY",
+            "winner_name": "Entropy"
+          },
           {
             "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
             "event_name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -3420,29 +3414,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "UNiTY",
             "team2_name": "Mai Tai",
             "winner_name": "UNiTY"
-          },
-          {
-            "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-            "event_url": null,
-            "hltv_match_id": "2396167",
-            "maps": [],
-            "match_id": "hltv:2396167",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396167/ex-rustec-vs-entropy-thunderpick-world-championship-2026-europe-series-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "ex-RUSTEC",
-            "team2_name": "Entropy",
-            "winner_name": "ex-RUSTEC"
           }
         ],
         "name": "Thunderpick World Championship 2026 Europe Series 2",
         "participants": [
+          "Entropy",
+          "UNiTY",
           "ex-MANA",
           "los kogutos",
           "Fortress",
@@ -3450,10 +3427,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "Misa",
           "Falcons Force",
           "ex-RUSTEC",
-          "UNiTY",
           "Black Phoenix",
           "Bebop",
-          "Entropy",
           "Mai Tai"
         ],
         "product_tier": "tier_2",
@@ -3593,34 +3568,16 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "Bebop",
             "team2_name": "Misa"
-          },
-          {
-            "event_id": "hltv:9296",
-            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-            "event_url": null,
-            "hltv_match_id": "2396177",
-            "maps": [],
-            "match_id": "hltv:2396177",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396177/entropy-vs-unity-thunderpick-world-championship-2026-europe-series-2",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Entropy",
-            "team2_name": "UNiTY"
           }
         ],
         "name": "Thunderpick World Championship 2026 Europe Series 2",
         "participants": [
           "Bebop",
-          "Misa",
-          "Entropy",
-          "UNiTY"
+          "Misa"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -3668,6 +3625,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-6",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": null,
+            "hltv_match_id": "2396115",
+            "maps": [],
+            "match_id": "hltv:2396115",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396115/ex-rustec-vs-ex-young-ninjas-cct-2026-europe-series-6",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "ex-RUSTEC",
+            "team2_name": "ex-Young Ninjas",
+            "winner_name": "ex-Young Ninjas"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
@@ -3857,55 +3833,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Just Players",
             "team2_name": "ex-Young Ninjas",
             "winner_name": "Just Players"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-6",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396115",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Dust2",
-                "score1": 4,
-                "score2": 8,
-                "status": "finished"
-              },
-              {
-                "map_name": "Nuke",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Anubis",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Dust2",
-              "Nuke",
-              "Anubis"
-            ],
-            "match_id": "hltv:2396115",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396115/ex-rustec-vs-ex-young-ninjas-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "ex-RUSTEC",
-            "team2_name": "ex-Young Ninjas",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
+          "ex-RUSTEC",
+          "ex-Young Ninjas",
           "Atreides",
           "Enjoy",
           "los kogutos",
@@ -3916,16 +3849,14 @@ window.__STRIKESIGNAL_DATA__ = {
           "Rune Eaters",
           "Black Phoenix",
           "Mai Tai",
-          "ex-RUSTEC",
           "Inner Circle Academy",
           "SPARTA",
           "Honv\u00e9d",
-          "Just Players",
-          "ex-Young Ninjas"
+          "Just Players"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "finished"
       },
       {
         "current_stage": "Schedule",
@@ -3982,7 +3913,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-07-29T14:35:03Z",
+    "last_verified_utc": "2026-07-29T16:43:02Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -4420,7 +4351,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-07-29T14:35:23Z",
+  "generated_at_utc": "2026-07-29T16:43:18Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -5790,13 +5721,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.636528,
-        "brier": 0.220233,
-        "ece": 0.036352,
-        "log_loss": 0.629258
+        "accuracy": 0.636691,
+        "brier": 0.220717,
+        "ece": 0.035616,
+        "log_loss": 0.630284
       },
-      "rows": 829,
-      "test_rows": 553
+      "rows": 832,
+      "test_rows": 556
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -5810,13 +5741,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.636528,
-        "brier": 0.220285,
-        "ece": 0.047282,
-        "log_loss": 0.630488
+        "accuracy": 0.634892,
+        "brier": 0.220735,
+        "ece": 0.048359,
+        "log_loss": 0.631473
       },
       "promotion_passed": false,
-      "rows": 553
+      "rows": 556
     },
     "champion": {
       "folds": 3,
@@ -5833,7 +5764,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-07-29T14:35:23Z",
+    "generated_at_utc": "2026-07-29T16:43:18Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -5844,8 +5775,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
-      "online_rows": 72,
+      "new_rows": 3,
+      "online_rows": 75,
       "seed_rows": 757
     }
   },
@@ -5922,9 +5853,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396175",
       "hltv:2396113",
       "hltv:2395953",
-      "hltv:2396176"
+      "hltv:2396176",
+      "hltv:2395954",
+      "hltv:2396177",
+      "hltv:2396115"
     ],
-    "last_online_update_utc": "2026-07-29T14:35:23Z",
+    "last_online_update_utc": "2026-07-29T16:43:18Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -9173,10 +9107,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 111
       },
       {
-        "elo": 1443.68,
-        "last_result_utc": "2026-07-29T11:35:31Z",
-        "matches": 7,
-        "recent_win_rate_10": 0.1493,
+        "elo": 1431.24,
+        "last_result_utc": "2026-07-29T16:43:18Z",
+        "matches": 8,
+        "recent_win_rate_10": 0.1222,
         "team_key": "atreides",
         "team_name": "Atreides",
         "vrs_points": 1017.0,
@@ -9412,10 +9346,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 143
       },
       {
-        "elo": 1427.19,
-        "last_result_utc": "2026-07-28T22:18:31Z",
-        "matches": 41,
-        "recent_win_rate_10": 0.4131,
+        "elo": 1416.34,
+        "last_result_utc": "2026-07-29T16:43:18Z",
+        "matches": 42,
+        "recent_win_rate_10": 0.338,
         "team_key": "unity",
         "team_name": "UNiTY",
         "vrs_points": 905.0,
@@ -9654,10 +9588,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 174
       },
       {
-        "elo": 1499.35,
-        "last_result_utc": "2026-07-29T14:35:23Z",
-        "matches": 6,
-        "recent_win_rate_10": 0.502,
+        "elo": 1510.2,
+        "last_result_utc": "2026-07-29T16:43:18Z",
+        "matches": 7,
+        "recent_win_rate_10": 0.5925,
         "team_key": "entropy",
         "team_name": "Entropy",
         "vrs_points": 807.0,
@@ -9737,10 +9671,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 183
       },
       {
-        "elo": 1474.31,
-        "last_result_utc": "2026-07-28T14:39:37Z",
-        "matches": 14,
-        "recent_win_rate_10": 0.4949,
+        "elo": 1486.75,
+        "last_result_utc": "2026-07-29T16:43:18Z",
+        "matches": 15,
+        "recent_win_rate_10": 0.5867,
         "team_key": "rune eaters",
         "team_name": "Rune Eaters",
         "vrs_points": 783.0,
@@ -11947,10 +11881,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1528.14,
-        "last_result_utc": "2026-07-28T16:52:53Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.695,
+        "elo": 1512.94,
+        "last_result_utc": "2026-07-29T16:43:18Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.5686,
         "team_key": "ex rustec",
         "team_name": "ex-RUSTEC",
         "vrs_points": 0,
@@ -11977,10 +11911,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1488.16,
-        "last_result_utc": "2026-07-27T15:15:30Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.4091,
+        "elo": 1503.36,
+        "last_result_utc": "2026-07-29T16:43:18Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.5165,
         "team_key": "ex young ninjas",
         "team_name": "ex-Young Ninjas",
         "vrs_points": 0,
@@ -15130,10 +15064,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": null
     },
     {
-      "confidence": 0.5267,
+      "confidence": 0.5193,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4733,
+      "elo_prob_team1": 0.5193,
       "event_id": "hltv:9298",
       "event_name": "CCT 2026 Europe Series 6",
       "format": "bo3",
@@ -15146,8 +15080,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "match_timestamp": 1785409200,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
-      "predicted_winner": "UNiTY",
-      "prob_team1": 0.4733,
+      "predicted_winner": "Rune Eaters",
+      "prob_team1": 0.5193,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -15293,163 +15227,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Banda Chuya",
       "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.5404,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5404,
-      "event_id": "hltv:cct-2026-europe-series-5",
-      "event_name": "CCT 2026 Europe Series 5",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Ancient",
-        "Anubis",
-        "Mirage"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2395954",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Atreides",
-      "prob_team1": 0.5404,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2395954/atreides-vs-rune-eaters-cct-2026-europe-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Atreides",
-      "team1_vrs_rank": 112,
-      "team2_hltv_rank": null,
-      "team2_name": "Rune Eaters",
-      "team2_vrs_rank": 184
-    },
-    {
-      "confidence": 0.5783,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5783,
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": 4,
-          "score2": 8,
-          "status": "finished"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Nuke",
-        "Anubis"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2396115",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "ex-RUSTEC",
-      "prob_team1": 0.5783,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396115/ex-rustec-vs-ex-young-ninjas-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "ex-RUSTEC",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "ex-Young Ninjas",
-      "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.5321,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5321,
-      "event_id": "hltv:9296",
-      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "",
-      "match_id": "hltv:2396177",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Entropy",
-      "prob_team1": 0.5321,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396177/entropy-vs-unity-thunderpick-world-championship-2026-europe-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Entropy",
-      "team1_vrs_rank": 175,
-      "team2_hltv_rank": null,
-      "team2_name": "UNiTY",
-      "team2_vrs_rank": 144
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 39,
-    "online_results_applied": 2,
+    "live_feed_items": 38,
+    "online_results_applied": 3,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
