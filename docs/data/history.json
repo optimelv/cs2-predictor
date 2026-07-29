@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-29T11:35:13Z",
+  "generated_at_utc": "2026-07-29T14:35:03Z",
   "through_date": "2026-07-29",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1057,
+    "matches": 1059,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -659,6 +659,50 @@
       "team2_name": "ex-MANA",
       "score1": 2,
       "score2": 0,
+      "winner_name": "los kogutos",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395953",
+      "match_date": "2026-07-29",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "Black Phoenix",
+      "team2_name": "Entropy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Black Phoenix",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396176",
+      "match_date": "2026-07-29",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "ex-MANA",
+      "team2_name": "los kogutos",
+      "score1": 0,
+      "score2": 2,
       "winner_name": "los kogutos",
       "tier": "tier_2",
       "best_of": 3,

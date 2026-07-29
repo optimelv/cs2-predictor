@@ -8,7 +8,7 @@
       "ece": 0.036352,
       "log_loss": 0.629258
     },
-    "rows": 827,
+    "rows": 829,
     "test_rows": 553
   },
   "challenger": {
@@ -24,9 +24,9 @@
     "l2": 0.005,
     "metrics": {
       "accuracy": 0.636528,
-      "brier": 0.220166,
-      "ece": 0.046196,
-      "log_loss": 0.630234
+      "brier": 0.220285,
+      "ece": 0.047282,
+      "log_loss": 0.630488
     },
     "promotion_passed": false,
     "rows": 553
@@ -46,7 +46,7 @@
     "version": "bounded-elo-vrs-v1"
   },
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-29T11:35:31Z",
+  "generated_at_utc": "2026-07-29T14:35:23Z",
   "history": [],
   "promotion_gates": {
     "maximum_accuracy_regression": 0.005,
@@ -57,8 +57,8 @@
     "minimum_test_rows": 350
   },
   "training": {
-    "new_rows": 3,
-    "online_rows": 70,
+    "new_rows": 2,
+    "online_rows": 72,
     "seed_rows": 757
   }
 }
