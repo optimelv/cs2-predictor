@@ -2371,7 +2371,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:blast-bounty-2026-season-2-finals",
         "event_name": "BLAST Bounty 2026 Season 2 Finals",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396018",
         "lineups": {
           "team1": [],
@@ -2397,53 +2397,58 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Dust2",
-          "Anubis",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2396018",
         "product_tier": "tier_1",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396018/liquid-vs-spirit-blast-bounty-2026-season-2-finals",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Liquid",
         "team2_name": "Spirit",
-        "veto_text": "Best of 3 (LAN)\n\n* Stage 1 quarter-final\n\n** Liquid (seed 30) face Spirit (seed 2) by default as there are no other teams to select."
+        "veto_text": "Best of 3 (LAN)\n\n* Stage 1 quarter-final\n\n** Liquid (seed 30) face Spirit (seed 2) by default as there are no other teams to select.",
+        "winner_name": "Spirit"
       },
       {
-        "event_id": "hltv:9298",
+        "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
         "event_url": null,
         "hltv_match_id": "2396119",
         "maps": [],
         "match_id": "hltv:2396119",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396119/sparta-vs-new-vision-cct-2026-europe-series-6",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "SPARTA",
-        "team2_name": "NEW VISION"
+        "team2_name": "NEW VISION",
+        "winner_name": "SPARTA"
       },
       {
-        "event_id": "hltv:9290",
+        "event_id": "hltv:cct-2026-europe-series-5",
         "event_name": "CCT 2026 Europe Series 5",
         "event_url": null,
         "hltv_match_id": "2395958",
         "maps": [],
         "match_id": "hltv:2395958",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2395958/walczaki-vs-ex-rustec-cct-2026-europe-series-5",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Walczaki",
-        "team2_name": "ex-RUSTEC"
+        "team2_name": "ex-RUSTEC",
+        "winner_name": "ex-RUSTEC"
       },
       {
         "event_id": "hltv:9296",
@@ -2460,6 +2465,51 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "live",
         "team1_name": "JiJieHao",
         "team2_name": "Entropy"
+      },
+      {
+        "event_id": "hltv:blast-bounty-2026-season-2-finals",
+        "event_name": "BLAST Bounty 2026 Season 2 Finals",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396017",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Dust2",
+            "score1": 13,
+            "score2": 10,
+            "status": "finished"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Inferno",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Dust2",
+          "Nuke",
+          "Inferno"
+        ],
+        "match_id": "hltv:2396017",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396017/3dmax-vs-mouz-blast-bounty-2026-season-2-finals",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "3DMAX",
+        "team2_name": "MOUZ",
+        "veto_text": "Best of 3 (LAN)\n\n* Stage 1 quarter-final\n\n** 3DMAX (seed 17) have selected MOUZ (seed 4)."
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -2581,22 +2631,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:8247",
-        "event_name": "BLAST Bounty 2026 Season 2 Finals",
-        "event_url": null,
-        "hltv_match_id": "2396017",
-        "maps": [],
-        "match_id": "hltv:2396017",
-        "product_tier": "tier_1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396017/3dmax-vs-mouz-blast-bounty-2026-season-2-finals",
-        "stage_name": "Quarterfinal",
-        "starts_at": "2026-07-30T16:00:00Z",
-        "status": "live",
-        "team1_name": "3DMAX",
-        "team2_name": "MOUZ"
       },
       {
         "event_id": "hltv:9298",
@@ -3464,6 +3498,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-europe-series-5",
             "event_name": "CCT 2026 Europe Series 5",
             "event_url": null,
+            "hltv_match_id": "2395958",
+            "maps": [],
+            "match_id": "hltv:2395958",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2395958/walczaki-vs-ex-rustec-cct-2026-europe-series-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Walczaki",
+            "team2_name": "ex-RUSTEC",
+            "winner_name": "ex-RUSTEC"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-5",
+            "event_name": "CCT 2026 Europe Series 5",
+            "event_url": null,
             "hltv_match_id": "2395957",
             "maps": [],
             "match_id": "hltv:2395957",
@@ -3615,6 +3668,8 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 5",
         "participants": [
+          "Walczaki",
+          "ex-RUSTEC",
           "1win",
           "Butterfly",
           "Nordic Partners",
@@ -3625,8 +3680,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Rune Eaters",
           "Black Phoenix",
           "Entropy",
-          "SPARTA",
-          "ex-RUSTEC"
+          "SPARTA"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -3870,25 +3924,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Entropy",
             "team2_name": "Mai Tai",
             "winner_name": "Entropy"
-          },
-          {
-            "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-            "event_url": null,
-            "hltv_match_id": "2396170",
-            "maps": [],
-            "match_id": "hltv:2396170",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396170/bebop-vs-falcons-force-thunderpick-world-championship-2026-europe-series-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Bebop",
-            "team2_name": "Falcons Force",
-            "winner_name": "Falcons Force"
           }
         ],
         "name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -3937,34 +3972,16 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "Just Players",
             "team2_name": "Inner Circle Academy"
-          },
-          {
-            "event_id": "hltv:9298",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
-            "hltv_match_id": "2396119",
-            "maps": [],
-            "match_id": "hltv:2396119",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396119/sparta-vs-new-vision-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "SPARTA",
-            "team2_name": "NEW VISION"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
           "Just Players",
-          "Inner Circle Academy",
-          "SPARTA",
-          "NEW VISION"
+          "Inner Circle Academy"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -4055,22 +4072,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "CYBERSHOKE",
             "team2_name": "STATE"
-          },
-          {
-            "event_id": "hltv:9296",
-            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-            "event_url": null,
-            "hltv_match_id": "2396181",
-            "maps": [],
-            "match_id": "hltv:2396181",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396181/jijiehao-vs-entropy-thunderpick-world-championship-2026-europe-series-2",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "JiJieHao",
-            "team2_name": "Entropy"
           }
         ],
         "name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -4084,13 +4085,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "Lavked",
           "megoshort",
           "CYBERSHOKE",
-          "STATE",
-          "JiJieHao",
-          "Entropy"
+          "STATE"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -4181,22 +4180,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "JiJieHao",
             "team2_name": "Black Phoenix"
-          },
-          {
-            "event_id": "hltv:9290",
-            "event_name": "CCT 2026 Europe Series 5",
-            "event_url": null,
-            "hltv_match_id": "2395958",
-            "maps": [],
-            "match_id": "hltv:2395958",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2395958/walczaki-vs-ex-rustec-cct-2026-europe-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Walczaki",
-            "team2_name": "ex-RUSTEC"
           }
         ],
         "name": "CCT 2026 Europe Series 5",
@@ -4210,13 +4193,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "K27",
           "Just Players",
           "JiJieHao",
-          "Black Phoenix",
-          "Walczaki",
-          "ex-RUSTEC"
+          "Black Phoenix"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -4228,6 +4209,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-6",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": null,
+            "hltv_match_id": "2396119",
+            "maps": [],
+            "match_id": "hltv:2396119",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396119/sparta-vs-new-vision-cct-2026-europe-series-6",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "SPARTA",
+            "team2_name": "NEW VISION",
+            "winner_name": "SPARTA"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
@@ -4417,29 +4417,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Black Phoenix",
             "team2_name": "Enjoy",
             "winner_name": "Black Phoenix"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-6",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
-            "hltv_match_id": "2396108",
-            "maps": [],
-            "match_id": "hltv:2396108",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396108/atreides-vs-mai-tai-cct-2026-europe-series-6",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Atreides",
-            "team2_name": "Mai Tai",
-            "winner_name": "Mai Tai"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
+          "SPARTA",
+          "NEW VISION",
           "Rune Eaters",
           "UNiTY",
           "Black Phoenix",
@@ -4451,8 +4434,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Atreides",
           "Enjoy",
           "los kogutos",
-          "ex-MANA",
-          "NEW VISION"
+          "ex-MANA"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -4638,8 +4620,27 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:blast-bounty-2026-season-2-finals",
             "event_name": "BLAST Bounty 2026 Season 2 Finals",
-            "event_url": "https://www.hltv.org/events/archive",
+            "event_url": null,
             "hltv_match_id": "2396018",
+            "maps": [],
+            "match_id": "hltv:2396018",
+            "product_tier": "tier_1",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396018/liquid-vs-spirit-blast-bounty-2026-season-2-finals",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Liquid",
+            "team2_name": "Spirit",
+            "winner_name": "Spirit"
+          },
+          {
+            "event_id": "hltv:blast-bounty-2026-season-2-finals",
+            "event_name": "BLAST Bounty 2026 Season 2 Finals",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396017",
             "lineups": {
               "team1": [],
               "team2": []
@@ -4647,18 +4648,18 @@ window.__STRIKESIGNAL_DATA__ = {
             "map_results": [
               {
                 "map_name": "Dust2",
-                "score1": 7,
-                "score2": 13,
+                "score1": 13,
+                "score2": 10,
                 "status": "finished"
               },
               {
-                "map_name": "Anubis",
-                "score1": 3,
-                "score2": 9,
-                "status": "finished"
+                "map_name": "Nuke",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
               },
               {
-                "map_name": "Mirage",
+                "map_name": "Inferno",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
@@ -4666,32 +4667,34 @@ window.__STRIKESIGNAL_DATA__ = {
             ],
             "maps": [
               "Dust2",
-              "Anubis",
-              "Mirage"
+              "Nuke",
+              "Inferno"
             ],
-            "match_id": "hltv:2396018",
+            "match_id": "hltv:2396017",
             "product_tier": "tier_1",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396018/liquid-vs-spirit-blast-bounty-2026-season-2-finals",
+            "source_url": "https://www.hltv.org/matches/2396017/3dmax-vs-mouz-blast-bounty-2026-season-2-finals",
             "stage_name": "Scheduled series",
             "starts_at": null,
             "status": "live",
-            "team1_name": "Liquid",
-            "team2_name": "Spirit",
-            "veto_text": "Best of 3 (LAN)\n\n* Stage 1 quarter-final\n\n** Liquid (seed 30) face Spirit (seed 2) by default as there are no other teams to select."
+            "team1_name": "3DMAX",
+            "team2_name": "MOUZ",
+            "veto_text": "Best of 3 (LAN)\n\n* Stage 1 quarter-final\n\n** 3DMAX (seed 17) have selected MOUZ (seed 4)."
           }
         ],
         "name": "BLAST Bounty 2026 Season 2 Finals",
         "participants": [
           "Liquid",
-          "Spirit"
+          "Spirit",
+          "3DMAX",
+          "MOUZ"
         ],
         "product_tier": "tier_1",
-        "source_url": "https://www.hltv.org/events/archive",
+        "source_url": null,
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-07-30T14:33:51Z",
+    "last_verified_utc": "2026-07-30T16:51:28Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -5129,7 +5132,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-07-30T14:34:08Z",
+  "generated_at_utc": "2026-07-30T16:51:45Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -6499,13 +6502,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.632799,
-        "brier": 0.222118,
-        "ece": 0.036913,
-        "log_loss": 0.633232
+        "accuracy": 0.634752,
+        "brier": 0.221594,
+        "ece": 0.03603,
+        "log_loss": 0.632166
       },
-      "rows": 841,
-      "test_rows": 561
+      "rows": 844,
+      "test_rows": 564
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -6519,13 +6522,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.625668,
-        "brier": 0.22166,
-        "ece": 0.050352,
-        "log_loss": 0.633356
+        "accuracy": 0.62766,
+        "brier": 0.221374,
+        "ece": 0.049733,
+        "log_loss": 0.632783
       },
       "promotion_passed": false,
-      "rows": 561
+      "rows": 564
     },
     "champion": {
       "folds": 3,
@@ -6542,7 +6545,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-07-30T14:34:08Z",
+    "generated_at_utc": "2026-07-30T16:51:45Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -6554,7 +6557,7 @@ window.__STRIKESIGNAL_DATA__ = {
     },
     "training": {
       "new_rows": 3,
-      "online_rows": 84,
+      "online_rows": 87,
       "seed_rows": 757
     }
   },
@@ -6643,9 +6646,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396117",
       "hltv:2395957",
       "hltv:2396118",
-      "hltv:2396180"
+      "hltv:2396180",
+      "hltv:2396018",
+      "hltv:2395958",
+      "hltv:2396119"
     ],
-    "last_online_update_utc": "2026-07-30T14:34:08Z",
+    "last_online_update_utc": "2026-07-30T16:51:45Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -8981,10 +8987,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 1
       },
       {
-        "elo": 1845.26,
-        "last_result_utc": "2026-07-26T21:30:18Z",
-        "matches": 97,
-        "recent_win_rate_10": 0.9182,
+        "elo": 1848.73,
+        "last_result_utc": "2026-07-30T16:51:45Z",
+        "matches": 98,
+        "recent_win_rate_10": 0.9331,
         "team_key": "spirit",
         "team_name": "Spirit",
         "vrs_points": 1990.0,
@@ -9363,19 +9369,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 44
       },
       {
-        "elo": 1510.41,
-        "last_result_utc": "2026-07-26T21:30:18Z",
-        "matches": 106,
-        "recent_win_rate_10": 0.5091,
+        "elo": 1506.94,
+        "last_result_utc": "2026-07-30T16:51:45Z",
+        "matches": 107,
+        "recent_win_rate_10": 0.4165,
         "team_key": "liquid",
         "team_name": "Liquid",
         "vrs_points": 1304.0,
         "vrs_rank": 45
       },
       {
-        "elo": 1562.75,
-        "matches": 21,
-        "recent_win_rate_10": 0.5,
+        "elo": 1546.54,
+        "last_result_utc": "2026-07-30T16:51:45Z",
+        "matches": 22,
+        "recent_win_rate_10": 0.4091,
         "team_key": "walczaki",
         "team_name": "Walczaki",
         "vrs_points": 1301.0,
@@ -10357,10 +10364,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 172
       },
       {
-        "elo": 1507.1,
-        "last_result_utc": "2026-07-28T16:52:53Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.5954,
+        "elo": 1492.52,
+        "last_result_utc": "2026-07-30T16:51:45Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.4871,
         "team_key": "new vision",
         "team_name": "NEW VISION",
         "vrs_points": 818.0,
@@ -11451,10 +11458,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 302
       },
       {
-        "elo": 1483.17,
-        "last_result_utc": "2026-07-28T22:18:31Z",
-        "matches": 97,
-        "recent_win_rate_10": 0.6166,
+        "elo": 1497.75,
+        "last_result_utc": "2026-07-30T16:51:45Z",
+        "matches": 98,
+        "recent_win_rate_10": 0.6863,
         "team_key": "sparta",
         "team_name": "SPARTA",
         "vrs_points": 547.0,
@@ -12669,10 +12676,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1496.39,
-        "last_result_utc": "2026-07-30T14:34:08Z",
-        "matches": 7,
-        "recent_win_rate_10": 0.4652,
+        "elo": 1512.6,
+        "last_result_utc": "2026-07-30T16:51:45Z",
+        "matches": 8,
+        "recent_win_rate_10": 0.5624,
         "team_key": "ex rustec",
         "team_name": "ex-RUSTEC",
         "vrs_points": 0,
@@ -15796,10 +15803,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 152
     },
     {
-      "confidence": 0.751,
-      "confidence_label": "strong",
+      "confidence": 0.7278,
+      "confidence_label": "watch",
       "data_quality": "full",
-      "elo_prob_team1": 0.751,
+      "elo_prob_team1": 0.7278,
       "event_id": "hltv:9296",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "format": "bo3",
@@ -15813,7 +15820,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Walczaki",
-      "prob_team1": 0.751,
+      "prob_team1": 0.7278,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -15895,10 +15902,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": null
     },
     {
-      "confidence": 0.5547,
+      "confidence": 0.5286,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5547,
+      "elo_prob_team1": 0.5286,
       "event_id": "hltv:9290",
       "event_name": "CCT 2026 Europe Series 5",
       "format": "bo3",
@@ -15912,7 +15919,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "INFINITE",
-      "prob_team1": 0.5547,
+      "prob_team1": 0.5286,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -16225,10 +16232,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 101
     },
     {
-      "confidence": 0.92,
+      "confidence": 0.8506,
       "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.08,
+      "elo_prob_team1": 0.1494,
       "event_id": "hltv:blast-bounty-2026-season-2-finals",
       "event_name": "BLAST Bounty 2026 Season 2 Finals",
       "format": "bo3",
@@ -16239,18 +16246,18 @@ window.__STRIKESIGNAL_DATA__ = {
       "map_results": [
         {
           "map_name": "Dust2",
-          "score1": 7,
-          "score2": 13,
+          "score1": 13,
+          "score2": 10,
           "status": "finished"
         },
         {
-          "map_name": "Anubis",
-          "score1": 3,
-          "score2": 9,
-          "status": "finished"
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
         },
         {
-          "map_name": "Mirage",
+          "map_name": "Inferno",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -16258,134 +16265,35 @@ window.__STRIKESIGNAL_DATA__ = {
       ],
       "maps": [
         "Dust2",
-        "Anubis",
-        "Mirage"
+        "Nuke",
+        "Inferno"
       ],
       "match_date": "",
-      "match_id": "hltv:2396018",
+      "match_id": "hltv:2396017",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Spirit",
-      "prob_team1": 0.08,
+      "predicted_winner": "MOUZ",
+      "prob_team1": 0.1494,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396018/liquid-vs-spirit-blast-bounty-2026-season-2-finals",
+      "source_url": "https://www.hltv.org/matches/2396017/3dmax-vs-mouz-blast-bounty-2026-season-2-finals",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "Liquid",
-      "team1_vrs_rank": 45,
+      "team1_name": "3DMAX",
+      "team1_vrs_rank": 26,
       "team2_hltv_rank": null,
-      "team2_name": "Spirit",
-      "team2_vrs_rank": 2
-    },
-    {
-      "confidence": 0.6502,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.6502,
-      "event_id": "hltv:9290",
-      "event_name": "CCT 2026 Europe Series 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "",
-      "match_id": "hltv:2395958",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Walczaki",
-      "prob_team1": 0.6502,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2395958/walczaki-vs-ex-rustec-cct-2026-europe-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Walczaki",
-      "team1_vrs_rank": 46,
-      "team2_hltv_rank": null,
-      "team2_name": "ex-RUSTEC",
-      "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.6425,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.3575,
-      "event_id": "hltv:9298",
-      "event_name": "CCT 2026 Europe Series 6",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "",
-      "match_id": "hltv:2396119",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "NEW VISION",
-      "prob_team1": 0.3575,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396119/sparta-vs-new-vision-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "SPARTA",
-      "team1_vrs_rank": 303,
-      "team2_hltv_rank": null,
-      "team2_name": "NEW VISION",
-      "team2_vrs_rank": 173
-    },
-    {
-      "confidence": 0.6711,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.6711,
-      "event_id": "hltv:9296",
-      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "",
-      "match_id": "hltv:2396181",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "JiJieHao",
-      "prob_team1": 0.6711,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396181/jijiehao-vs-entropy-thunderpick-world-championship-2026-europe-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "JiJieHao",
-      "team1_vrs_rank": 44,
-      "team2_hltv_rank": null,
-      "team2_name": "Entropy",
-      "team2_vrs_rank": 175
+      "team2_name": "MOUZ",
+      "team2_vrs_rank": 5
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 49,
+    "live_feed_items": 47,
     "online_results_applied": 3,
     "stage3_complete": true,
     "status": "live_feed_refresh"
