@@ -99,6 +99,150 @@
         "stages": [],
         "type": "mixed"
       },
+      "id": "hltv:9298",
+      "matches": [
+        {
+          "event_id": "hltv:9298",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
+          "hltv_match_id": "2396121",
+          "maps": [],
+          "match_id": "hltv:2396121",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396121/ex-rustec-vs-ex-mana-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-07-31T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-RUSTEC",
+          "team2_name": "ex-MANA"
+        },
+        {
+          "event_id": "hltv:9298",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
+          "hltv_match_id": "2396123",
+          "maps": [],
+          "match_id": "hltv:2396123",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396123/unity-vs-mai-tai-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-07-31T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "UNiTY",
+          "team2_name": "Mai Tai"
+        },
+        {
+          "event_id": "hltv:9298",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
+          "hltv_match_id": "2396124",
+          "maps": [],
+          "match_id": "hltv:2396124",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396124/ex-young-ninjas-vs-inner-circle-academy-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-07-31T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-Young Ninjas",
+          "team2_name": "Inner Circle Academy"
+        },
+        {
+          "event_id": "hltv:9298",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
+          "hltv_match_id": "2396125",
+          "maps": [],
+          "match_id": "hltv:2396125",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396125/genone-vs-enjoy-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-07-31T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "GenOne",
+          "team2_name": "Enjoy"
+        },
+        {
+          "event_id": "hltv:9298",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
+          "hltv_match_id": "2396126",
+          "maps": [],
+          "match_id": "hltv:2396126",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396126/los-kogutos-vs-new-vision-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-01T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "los kogutos",
+          "team2_name": "NEW VISION"
+        },
+        {
+          "event_id": "hltv:9298",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
+          "hltv_match_id": "2396127",
+          "maps": [],
+          "match_id": "hltv:2396127",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396127/sparta-vs-rune-eaters-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-01T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "SPARTA",
+          "team2_name": "Rune Eaters"
+        },
+        {
+          "event_id": "hltv:9298",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
+          "hltv_match_id": "2396128",
+          "maps": [],
+          "match_id": "hltv:2396128",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396128/black-phoenix-vs-just-players-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-01T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Black Phoenix",
+          "team2_name": "Just Players"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 6",
+      "participants": [
+        "ex-RUSTEC",
+        "ex-MANA",
+        "UNiTY",
+        "Mai Tai",
+        "ex-Young Ninjas",
+        "Inner Circle Academy",
+        "GenOne",
+        "Enjoy",
+        "los kogutos",
+        "NEW VISION",
+        "SPARTA",
+        "Rune Eaters",
+        "Black Phoenix",
+        "Just Players"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
       "id": "hltv:9296",
       "matches": [
         {
@@ -302,6 +446,42 @@
         "stages": [],
         "type": "mixed"
       },
+      "id": "hltv:9307",
+      "matches": [
+        {
+          "event_id": "hltv:9307",
+          "event_name": "CCT 2026 Contenders Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396326",
+          "maps": [],
+          "match_id": "hltv:2396326",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396326/young-tigeres-vs-aimclub-cct-2026-contenders-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-01T15:30:00Z",
+          "status": "upcoming",
+          "team1_name": "Young TigeRES",
+          "team2_name": "aimclub"
+        }
+      ],
+      "name": "CCT 2026 Contenders Europe Series 7",
+      "participants": [
+        "Young TigeRES",
+        "aimclub"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
       "id": "hltv:blast-bounty-2026-season-2-finals",
       "matches": [
         {
@@ -362,8 +542,87 @@
         "stages": [],
         "type": "mixed"
       },
+      "id": "hltv:cct-2026-contenders-europe-series-7",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-contenders-europe-series-7",
+          "event_name": "CCT 2026 Contenders Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396322",
+          "maps": [],
+          "match_id": "hltv:2396322",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396322/aimclub-vs-spirit-academy-cct-2026-contenders-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "aimclub",
+          "team2_name": "Spirit Academy",
+          "winner_name": "aimclub"
+        },
+        {
+          "event_id": "hltv:cct-2026-contenders-europe-series-7",
+          "event_name": "CCT 2026 Contenders Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396323",
+          "maps": [],
+          "match_id": "hltv:2396323",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396323/young-tigeres-vs-banda-chuya-cct-2026-contenders-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Young TigeRES",
+          "team2_name": "Banda Chuya",
+          "winner_name": "Young TigeRES"
+        }
+      ],
+      "name": "CCT 2026 Contenders Europe Series 7",
+      "participants": [
+        "aimclub",
+        "Spirit Academy",
+        "Young TigeRES",
+        "Banda Chuya"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
       "id": "hltv:cct-2026-europe-series-6",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-6",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
+          "hltv_match_id": "2396122",
+          "maps": [],
+          "match_id": "hltv:2396122",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396122/atreides-vs-honvd-cct-2026-europe-series-6",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Atreides",
+          "team2_name": "Honvéd",
+          "winner_name": "Honvéd"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-6",
           "event_name": "CCT 2026 Europe Series 6",
@@ -553,29 +812,12 @@
           "team1_name": "GenOne",
           "team2_name": "NEW VISION",
           "winner_name": "NEW VISION"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396110",
-          "maps": [],
-          "match_id": "hltv:2396110",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396110/rune-eaters-vs-ex-mana-cct-2026-europe-series-6",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Rune Eaters",
-          "team2_name": "ex-MANA",
-          "winner_name": "Rune Eaters"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
+        "Atreides",
+        "Honvéd",
         "Just Players",
         "Inner Circle Academy",
         "SPARTA",
@@ -585,10 +827,8 @@
         "Black Phoenix",
         "Mai Tai",
         "GenOne",
-        "Honvéd",
         "ex-RUSTEC",
         "ex-Young Ninjas",
-        "Atreides",
         "Enjoy",
         "los kogutos",
         "ex-MANA"
@@ -1061,121 +1301,9 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:cct-2026-contenders-europe-series-7",
-      "matches": [
-        {
-          "event_id": "hltv:cct-2026-contenders-europe-series-7",
-          "event_name": "CCT 2026 Contenders Europe Series 7",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396323",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Nuke",
-              "score1": 13,
-              "score2": 10,
-              "status": "finished"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": 6,
-              "score2": 6,
-              "status": "finished"
-            },
-            {
-              "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Nuke",
-            "Mirage",
-            "Ancient"
-          ],
-          "match_id": "hltv:2396323",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396323/young-tigeres-vs-banda-chuya-cct-2026-contenders-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Young TigeRES",
-          "team2_name": "Banda Chuya",
-          "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
-        },
-        {
-          "event_id": "hltv:cct-2026-contenders-europe-series-7",
-          "event_name": "CCT 2026 Contenders Europe Series 7",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396322",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Ancient",
-              "score1": 11,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Dust2",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Ancient",
-            "Mirage",
-            "Dust2"
-          ],
-          "match_id": "hltv:2396322",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396322/aimclub-vs-spirit-academy-cct-2026-contenders-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "aimclub",
-          "team2_name": "Spirit Academy",
-          "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
-        }
-      ],
-      "name": "CCT 2026 Contenders Europe Series 7",
-      "participants": [
-        "Young TigeRES",
-        "Banda Chuya",
-        "aimclub",
-        "Spirit Academy"
-      ],
-      "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "ongoing"
     }
   ],
-  "fetched_at_utc": "2026-07-30T19:53:53Z",
+  "fetched_at_utc": "2026-07-30T22:20:41Z",
   "matches": [
     {
       "event_id": "hltv:9290",
@@ -1192,6 +1320,22 @@
       "status": "upcoming",
       "team1_name": "INFINITE",
       "team2_name": "SPARTA"
+    },
+    {
+      "event_id": "hltv:9298",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396121",
+      "maps": [],
+      "match_id": "hltv:2396121",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396121/ex-rustec-vs-ex-mana-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-07-31T08:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "ex-MANA"
     },
     {
       "event_id": "hltv:9296",
@@ -1224,6 +1368,22 @@
       "status": "upcoming",
       "team1_name": "SINNERS",
       "team2_name": "Rune Eaters"
+    },
+    {
+      "event_id": "hltv:9298",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396123",
+      "maps": [],
+      "match_id": "hltv:2396123",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396123/unity-vs-mai-tai-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-07-31T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "UNiTY",
+      "team2_name": "Mai Tai"
     },
     {
       "event_id": "hltv:9296",
@@ -1274,6 +1434,22 @@
       "team2_name": "Just Players"
     },
     {
+      "event_id": "hltv:9298",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396124",
+      "maps": [],
+      "match_id": "hltv:2396124",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396124/ex-young-ninjas-vs-inner-circle-academy-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-07-31T14:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ex-Young Ninjas",
+      "team2_name": "Inner Circle Academy"
+    },
+    {
       "event_id": "hltv:9296",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "event_url": null,
@@ -1322,6 +1498,22 @@
       "team2_name": "Black Phoenix"
     },
     {
+      "event_id": "hltv:9298",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396125",
+      "maps": [],
+      "match_id": "hltv:2396125",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396125/genone-vs-enjoy-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-07-31T17:00:00Z",
+      "status": "upcoming",
+      "team1_name": "GenOne",
+      "team2_name": "Enjoy"
+    },
+    {
       "event_id": "hltv:9296",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
       "event_url": null,
@@ -1336,6 +1528,70 @@
       "status": "upcoming",
       "team1_name": "CYBERSHOKE",
       "team2_name": "STATE"
+    },
+    {
+      "event_id": "hltv:9298",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396126",
+      "maps": [],
+      "match_id": "hltv:2396126",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396126/los-kogutos-vs-new-vision-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-01T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "los kogutos",
+      "team2_name": "NEW VISION"
+    },
+    {
+      "event_id": "hltv:9298",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396127",
+      "maps": [],
+      "match_id": "hltv:2396127",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396127/sparta-vs-rune-eaters-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-01T14:00:00Z",
+      "status": "upcoming",
+      "team1_name": "SPARTA",
+      "team2_name": "Rune Eaters"
+    },
+    {
+      "event_id": "hltv:9307",
+      "event_name": "CCT 2026 Contenders Europe Series 7",
+      "event_url": null,
+      "hltv_match_id": "2396326",
+      "maps": [],
+      "match_id": "hltv:2396326",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396326/young-tigeres-vs-aimclub-cct-2026-contenders-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-01T15:30:00Z",
+      "status": "upcoming",
+      "team1_name": "Young TigeRES",
+      "team2_name": "aimclub"
+    },
+    {
+      "event_id": "hltv:9298",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396128",
+      "maps": [],
+      "match_id": "hltv:2396128",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396128/black-phoenix-vs-just-players-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-01T17:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Black Phoenix",
+      "team2_name": "Just Players"
     },
     {
       "event_id": "hltv:blast-bounty-2026-season-2-finals",
@@ -1374,6 +1630,63 @@
       "team1_name": "Liquid",
       "team2_name": "Spirit",
       "winner_name": "Spirit"
+    },
+    {
+      "event_id": "hltv:cct-2026-contenders-europe-series-7",
+      "event_name": "CCT 2026 Contenders Europe Series 7",
+      "event_url": null,
+      "hltv_match_id": "2396322",
+      "maps": [],
+      "match_id": "hltv:2396322",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396322/aimclub-vs-spirit-academy-cct-2026-contenders-europe-series-7",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "aimclub",
+      "team2_name": "Spirit Academy",
+      "winner_name": "aimclub"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-6",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396122",
+      "maps": [],
+      "match_id": "hltv:2396122",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396122/atreides-vs-honvd-cct-2026-europe-series-6",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Atreides",
+      "team2_name": "Honvéd",
+      "winner_name": "Honvéd"
+    },
+    {
+      "event_id": "hltv:cct-2026-contenders-europe-series-7",
+      "event_name": "CCT 2026 Contenders Europe Series 7",
+      "event_url": null,
+      "hltv_match_id": "2396323",
+      "maps": [],
+      "match_id": "hltv:2396323",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396323/young-tigeres-vs-banda-chuya-cct-2026-contenders-europe-series-7",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Young TigeRES",
+      "team2_name": "Banda Chuya",
+      "winner_name": "Young TigeRES"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-6",
@@ -1963,115 +2276,6 @@
       "team1_name": "Atreides",
       "team2_name": "ex-RUSTEC",
       "winner_name": "ex-RUSTEC"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2396110",
-      "maps": [],
-      "match_id": "hltv:2396110",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396110/rune-eaters-vs-ex-mana-cct-2026-europe-series-6",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Rune Eaters",
-      "team2_name": "ex-MANA",
-      "winner_name": "Rune Eaters"
-    },
-    {
-      "event_id": "hltv:cct-2026-contenders-europe-series-7",
-      "event_name": "CCT 2026 Contenders Europe Series 7",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396323",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Nuke",
-          "score1": 13,
-          "score2": 10,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": 6,
-          "score2": 6,
-          "status": "finished"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Nuke",
-        "Mirage",
-        "Ancient"
-      ],
-      "match_id": "hltv:2396323",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396323/young-tigeres-vs-banda-chuya-cct-2026-contenders-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_name": "Young TigeRES",
-      "team2_name": "Banda Chuya",
-      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
-    },
-    {
-      "event_id": "hltv:cct-2026-contenders-europe-series-7",
-      "event_name": "CCT 2026 Contenders Europe Series 7",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396322",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Ancient",
-          "score1": 11,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Ancient",
-        "Mirage",
-        "Dust2"
-      ],
-      "match_id": "hltv:2396322",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396322/aimclub-vs-spirit-academy-cct-2026-contenders-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_name": "aimclub",
-      "team2_name": "Spirit Academy",
-      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
     }
   ],
   "ok": true,
@@ -2083,39 +2287,52 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 41
+    "scheduled_matches": 45
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 8,
-    "matches_kept": 46,
+    "events_kept": 10,
+    "matches_kept": 54,
     "players_kept": 0,
     "event_tiers": {
       "hltv:9290": "tier_2",
+      "hltv:9298": "tier_2",
       "hltv:9296": "tier_2",
       "hltv:8247": "tier_1",
+      "hltv:9307": "tier_2",
       "hltv:blast-bounty-2026-season-2-finals": "tier_1",
+      "hltv:cct-2026-contenders-europe-series-7": "tier_2",
       "hltv:cct-2026-europe-series-6": "tier_2",
       "hltv:thunderpick-world-championship-2026-europe-series-2": "tier_2",
-      "hltv:cct-2026-europe-series-5": "tier_2",
-      "hltv:cct-2026-contenders-europe-series-7": "tier_2"
+      "hltv:cct-2026-europe-series-5": "tier_2"
     },
     "eligible_match_ids": [
       "hltv:2395960",
+      "hltv:2396121",
       "hltv:2396183",
       "hltv:2395961",
+      "hltv:2396123",
       "hltv:2396184",
       "hltv:2396016",
       "hltv:2395962",
+      "hltv:2396124",
       "hltv:2396185",
       "hltv:2396015",
       "hltv:2395963",
+      "hltv:2396125",
       "hltv:2396186",
+      "hltv:2396126",
+      "hltv:2396127",
+      "hltv:2396326",
+      "hltv:2396128",
       "hltv:2396017",
       "hltv:2396018",
+      "hltv:2396322",
+      "hltv:2396122",
+      "hltv:2396323",
       "hltv:2396120",
       "hltv:2396182",
       "hltv:2395959",
@@ -2146,10 +2363,7 @@
       "hltv:2396111",
       "hltv:2395951",
       "hltv:2396172",
-      "hltv:2395950",
-      "hltv:2396110",
-      "hltv:2396323",
-      "hltv:2396322"
+      "hltv:2395950"
     ]
   }
 }
