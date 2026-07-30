@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-30T08:52:01Z",
+  "generated_at_utc": "2026-07-30T11:22:24Z",
   "through_date": "2026-07-30",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1065,
+    "matches": 1068,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -616,6 +616,72 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "GenOne",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396179",
+      "match_date": "2026-07-30",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "1win",
+      "team2_name": "los kogutos",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "1win",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395956",
+      "match_date": "2026-07-30",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "Nordic Partners",
+      "team2_name": "INOX Division",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "INOX Division",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396117",
+      "match_date": "2026-07-30",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "Black Phoenix",
+      "team2_name": "Mai Tai",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Black Phoenix",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
