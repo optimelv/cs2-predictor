@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-30T16:51:28Z",
+  "generated_at_utc": "2026-07-30T19:53:53Z",
   "through_date": "2026-07-30",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1074,
+    "matches": 1079,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -814,6 +814,116 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396017",
+      "match_date": "2026-07-30",
+      "event_name": "BLAST Bounty 2026 Season 2 Finals",
+      "team1_name": "3DMAX",
+      "team2_name": "MOUZ",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396120",
+      "match_date": "2026-07-30",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "Just Players",
+      "team2_name": "Inner Circle Academy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Just Players",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396182",
+      "match_date": "2026-07-30",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "Walczaki",
+      "team2_name": "Bebop",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Walczaki",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395959",
+      "match_date": "2026-07-30",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "Sashi",
+      "team2_name": "EAC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Sashi",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396181",
+      "match_date": "2026-07-30",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "JiJieHao",
+      "team2_name": "Entropy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "JiJieHao",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
