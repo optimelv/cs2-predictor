@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-30T11:22:24Z",
+  "generated_at_utc": "2026-07-30T14:33:51Z",
   "through_date": "2026-07-30",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1068,
+    "matches": 1071,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -682,6 +682,72 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Black Phoenix",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395957",
+      "match_date": "2026-07-30",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "1win",
+      "team2_name": "Butterfly",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396118",
+      "match_date": "2026-07-30",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "Rune Eaters",
+      "team2_name": "UNiTY",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Rune Eaters",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396180",
+      "match_date": "2026-07-30",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "GenOne",
+      "team2_name": "ex-RUSTEC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "GenOne",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
