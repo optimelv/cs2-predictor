@@ -3,13 +3,13 @@
     "folds": 4,
     "kind": "heuristic",
     "metrics": {
-      "accuracy": 0.636998,
-      "brier": 0.221104,
-      "ece": 0.035005,
-      "log_loss": 0.631044
+      "accuracy": 0.637631,
+      "brier": 0.220784,
+      "ece": 0.035281,
+      "log_loss": 0.630319
     },
-    "rows": 857,
-    "test_rows": 573
+    "rows": 860,
+    "test_rows": 574
   },
   "challenger": {
     "blend_weight": 0.5,
@@ -18,18 +18,23 @@
       "elo_diff",
       "vrs_rank_advantage",
       "vrs_points_diff",
-      "recent_win_rate_10_diff"
+      "recent_win_rate_10_diff",
+      "best_of",
+      "phase_order",
+      "is_lan",
+      "is_playoff",
+      "is_elimination_match"
     ],
     "folds": 4,
     "l2": 0.005,
     "metrics": {
-      "accuracy": 0.633508,
-      "brier": 0.22096,
-      "ece": 0.039355,
-      "log_loss": 0.631873
+      "accuracy": 0.637631,
+      "brier": 0.221094,
+      "ece": 0.048022,
+      "log_loss": 0.632034
     },
     "promotion_passed": false,
-    "rows": 573
+    "rows": 574
   },
   "champion": {
     "folds": 3,
@@ -46,7 +51,7 @@
     "version": "bounded-elo-vrs-v1"
   },
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-31T14:36:55Z",
+  "generated_at_utc": "2026-07-31T16:58:43Z",
   "history": [],
   "promotion_gates": {
     "maximum_accuracy_regression": 0.005,
@@ -57,8 +62,8 @@
     "minimum_test_rows": 350
   },
   "training": {
-    "new_rows": 5,
-    "online_rows": 100,
+    "new_rows": 3,
+    "online_rows": 103,
     "seed_rows": 757
   }
 }
