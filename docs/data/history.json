@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-31T19:54:11Z",
+  "generated_at_utc": "2026-07-31T22:16:58Z",
   "through_date": "2026-07-31",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1095,
+    "matches": 1098,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1034,6 +1034,72 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "megoshort",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396015",
+      "match_date": "2026-07-31",
+      "event_name": "BLAST Bounty 2026 Season 2 Finals",
+      "team1_name": "paiN",
+      "team2_name": "Astralis",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Astralis",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396324",
+      "match_date": "2026-07-31",
+      "event_name": "CCT 2026 Contenders Europe Series 7",
+      "team1_name": "Spirit Academy",
+      "team2_name": "sleepers",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395963",
+      "match_date": "2026-07-31",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "JiJieHao",
+      "team2_name": "Black Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Black Phoenix",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
