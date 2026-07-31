@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-07-31T16:58:23Z",
+  "generated_at_utc": "2026-07-31T19:54:11Z",
   "through_date": "2026-07-31",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1090,
+    "matches": 1095,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -924,6 +924,116 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "INOX Division",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396125",
+      "match_date": "2026-07-31",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "GenOne",
+      "team2_name": "Enjoy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "GenOne",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396186",
+      "match_date": "2026-07-31",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "CYBERSHOKE",
+      "team2_name": "STATE",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "CYBERSHOKE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396325",
+      "match_date": "2026-07-31",
+      "event_name": "CCT 2026 Contenders Europe Series 7",
+      "team1_name": "Banda Chuya",
+      "team2_name": "mellren",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396124",
+      "match_date": "2026-07-31",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "ex-Young Ninjas",
+      "team2_name": "Inner Circle Academy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-Young Ninjas",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396185",
+      "match_date": "2026-07-31",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "Lavked",
+      "team2_name": "megoshort",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "megoshort",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
