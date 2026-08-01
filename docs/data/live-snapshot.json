@@ -996,25 +996,6 @@
           "team1_name": "Just Players",
           "team2_name": "G2 Ares",
           "winner_name": "Just Players"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395954",
-          "maps": [],
-          "match_id": "hltv:2395954",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395954/atreides-vs-rune-eaters-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Atreides",
-          "team2_name": "Rune Eaters",
-          "winner_name": "Rune Eaters"
         }
       ],
       "name": "CCT 2026 Europe Series 5",
@@ -1035,8 +1016,7 @@
         "Butterfly",
         "Nordic Partners",
         "INOX Division",
-        "G2 Ares",
-        "Atreides"
+        "G2 Ares"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -1241,25 +1221,6 @@
           "team1_name": "GenOne",
           "team2_name": "Honvéd",
           "winner_name": "GenOne"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396115",
-          "maps": [],
-          "match_id": "hltv:2396115",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396115/ex-rustec-vs-ex-young-ninjas-cct-2026-europe-series-6",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ex-RUSTEC",
-          "team2_name": "ex-Young Ninjas",
-          "winner_name": "ex-Young Ninjas"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
@@ -1464,25 +1425,6 @@
           "team1_name": "Bebop",
           "team2_name": "Misa",
           "winner_name": "Bebop"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396177",
-          "maps": [],
-          "match_id": "hltv:2396177",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396177/entropy-vs-unity-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Entropy",
-          "team2_name": "UNiTY",
-          "winner_name": "Entropy"
         }
       ],
       "name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -1503,15 +1445,14 @@
         "ex-RUSTEC",
         "1win",
         "los kogutos",
-        "Misa",
-        "UNiTY"
+        "Misa"
       ],
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-07-31T22:16:58Z",
+  "fetched_at_utc": "2026-08-01T03:51:59Z",
   "matches": [
     {
       "event_id": "hltv:9290",
@@ -2436,63 +2377,6 @@
       "team1_name": "GenOne",
       "team2_name": "Honvéd",
       "winner_name": "GenOne"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-5",
-      "event_name": "CCT 2026 Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2395954",
-      "maps": [],
-      "match_id": "hltv:2395954",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2395954/atreides-vs-rune-eaters-cct-2026-europe-series-5",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Atreides",
-      "team2_name": "Rune Eaters",
-      "winner_name": "Rune Eaters"
-    },
-    {
-      "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-      "event_url": null,
-      "hltv_match_id": "2396177",
-      "maps": [],
-      "match_id": "hltv:2396177",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396177/entropy-vs-unity-thunderpick-world-championship-2026-europe-series-2",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Entropy",
-      "team2_name": "UNiTY",
-      "winner_name": "Entropy"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2396115",
-      "maps": [],
-      "match_id": "hltv:2396115",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396115/ex-rustec-vs-ex-young-ninjas-cct-2026-europe-series-6",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "ex-RUSTEC",
-      "team2_name": "ex-Young Ninjas",
-      "winner_name": "ex-Young Ninjas"
     }
   ],
   "ok": true,
@@ -2504,7 +2388,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 40
+    "scheduled_matches": 39
   },
   "product_filter": {
     "eligible_tiers": [
@@ -2512,7 +2396,7 @@
       "tier_2"
     ],
     "events_kept": 10,
-    "matches_kept": 54,
+    "matches_kept": 51,
     "players_kept": 0,
     "event_tiers": {
       "hltv:9290": "tier_2",
@@ -2577,10 +2461,7 @@
       "hltv:2396117",
       "hltv:2396178",
       "hltv:2395955",
-      "hltv:2396116",
-      "hltv:2395954",
-      "hltv:2396177",
-      "hltv:2396115"
+      "hltv:2396116"
     ]
   }
 }
