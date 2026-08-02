@@ -3366,11 +3366,83 @@
     {
       "event_id": "hltv:blast-bounty-2026-season-2-finals",
       "event_name": "BLAST Bounty 2026 Season 2 Finals",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396019",
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          {
+            "hltv_player_id": "16726",
+            "nickname": "phzy",
+            "player_id": "hltv:16726",
+            "source_url": "https://www.hltv.org/player/16726/phzy",
+            "team_name": "Astralis"
+          },
+          {
+            "hltv_player_id": "10096",
+            "nickname": "HooXi",
+            "player_id": "hltv:10096",
+            "source_url": "https://www.hltv.org/player/10096/hooxi",
+            "team_name": "Astralis"
+          },
+          {
+            "hltv_player_id": "17956",
+            "nickname": "jabbi",
+            "player_id": "hltv:17956",
+            "source_url": "https://www.hltv.org/player/17956/jabbi",
+            "team_name": "Astralis"
+          },
+          {
+            "hltv_player_id": "20304",
+            "nickname": "Staehr",
+            "player_id": "hltv:20304",
+            "source_url": "https://www.hltv.org/player/20304/staehr",
+            "team_name": "Astralis"
+          },
+          {
+            "hltv_player_id": "21217",
+            "nickname": "ryu",
+            "player_id": "hltv:21217",
+            "source_url": "https://www.hltv.org/player/21217/ryu",
+            "team_name": "Astralis"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "24457",
+            "nickname": "xelex",
+            "player_id": "hltv:24457",
+            "source_url": "https://www.hltv.org/player/24457/xelex",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "18221",
+            "nickname": "Spinx",
+            "player_id": "hltv:18221",
+            "source_url": "https://www.hltv.org/player/18221/spinx",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "20312",
+            "nickname": "xertioN",
+            "player_id": "hltv:20312",
+            "source_url": "https://www.hltv.org/player/20312/xertion",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "18072",
+            "nickname": "torzsi",
+            "player_id": "hltv:18072",
+            "source_url": "https://www.hltv.org/player/18072/torzsi",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "22279",
+            "nickname": "PR",
+            "player_id": "hltv:22279",
+            "source_url": "https://www.hltv.org/player/22279/pr",
+            "team_name": "MOUZ"
+          }
+        ]
       },
       "map_results": [
         {
@@ -3387,19 +3459,23 @@
         },
         {
           "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 9,
+          "score2": 13,
+          "status": "finished"
         }
       ],
-      "maps": [],
+      "maps": [
+        "Ancient",
+        "Mirage",
+        "Dust2"
+      ],
       "match_id": "hltv:2396019",
       "product_tier": "tier_1",
       "score1": 1,
       "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396019/astralis-vs-mouz-blast-bounty-2026-season-2-finals",
-      "stage_name": "Completed series",
+      "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "finished",
       "team1_name": "Astralis",
@@ -5108,25 +5184,6 @@
           "team1_name": "BASEMENT BOYS",
           "team2_name": "Lazer Cats",
           "winner_name": "Lazer Cats"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396182",
-          "maps": [],
-          "match_id": "hltv:2396182",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396182/walczaki-vs-bebop-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Walczaki",
-          "team2_name": "Bebop",
-          "winner_name": "Walczaki"
         }
       ],
       "name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -5142,8 +5199,7 @@
         "STATE",
         "Lavked",
         "Falcons Force",
-        "BASEMENT BOYS",
-        "Bebop"
+        "BASEMENT BOYS"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -5860,20 +5916,121 @@
         {
           "event_id": "hltv:blast-bounty-2026-season-2-finals",
           "event_name": "BLAST Bounty 2026 Season 2 Finals",
-          "event_url": null,
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2396019",
-          "maps": [],
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "16726",
+                "nickname": "phzy",
+                "player_id": "hltv:16726",
+                "source_url": "https://www.hltv.org/player/16726/phzy",
+                "team_name": "Astralis"
+              },
+              {
+                "hltv_player_id": "10096",
+                "nickname": "HooXi",
+                "player_id": "hltv:10096",
+                "source_url": "https://www.hltv.org/player/10096/hooxi",
+                "team_name": "Astralis"
+              },
+              {
+                "hltv_player_id": "17956",
+                "nickname": "jabbi",
+                "player_id": "hltv:17956",
+                "source_url": "https://www.hltv.org/player/17956/jabbi",
+                "team_name": "Astralis"
+              },
+              {
+                "hltv_player_id": "20304",
+                "nickname": "Staehr",
+                "player_id": "hltv:20304",
+                "source_url": "https://www.hltv.org/player/20304/staehr",
+                "team_name": "Astralis"
+              },
+              {
+                "hltv_player_id": "21217",
+                "nickname": "ryu",
+                "player_id": "hltv:21217",
+                "source_url": "https://www.hltv.org/player/21217/ryu",
+                "team_name": "Astralis"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "24457",
+                "nickname": "xelex",
+                "player_id": "hltv:24457",
+                "source_url": "https://www.hltv.org/player/24457/xelex",
+                "team_name": "MOUZ"
+              },
+              {
+                "hltv_player_id": "18221",
+                "nickname": "Spinx",
+                "player_id": "hltv:18221",
+                "source_url": "https://www.hltv.org/player/18221/spinx",
+                "team_name": "MOUZ"
+              },
+              {
+                "hltv_player_id": "20312",
+                "nickname": "xertioN",
+                "player_id": "hltv:20312",
+                "source_url": "https://www.hltv.org/player/20312/xertion",
+                "team_name": "MOUZ"
+              },
+              {
+                "hltv_player_id": "18072",
+                "nickname": "torzsi",
+                "player_id": "hltv:18072",
+                "source_url": "https://www.hltv.org/player/18072/torzsi",
+                "team_name": "MOUZ"
+              },
+              {
+                "hltv_player_id": "22279",
+                "nickname": "PR",
+                "player_id": "hltv:22279",
+                "source_url": "https://www.hltv.org/player/22279/pr",
+                "team_name": "MOUZ"
+              }
+            ]
+          },
+          "map_results": [
+            {
+              "map_name": "Ancient",
+              "score1": 13,
+              "score2": 6,
+              "status": "finished"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": 9,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": 9,
+              "score2": 13,
+              "status": "finished"
+            }
+          ],
+          "maps": [
+            "Ancient",
+            "Mirage",
+            "Dust2"
+          ],
           "match_id": "hltv:2396019",
           "product_tier": "tier_1",
           "score1": 1,
           "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396019/astralis-vs-mouz-blast-bounty-2026-season-2-finals",
-          "stage_name": "Completed series",
+          "stage_name": "Scheduled series",
           "starts_at": null,
           "status": "finished",
           "team1_name": "Astralis",
           "team2_name": "MOUZ",
+          "veto_text": "Best of 3 (LAN)\n\n* Stage 2 semi-final\n\n** Astralis (seed 8) have selected MOUZ (seed 4).",
           "winner_name": "MOUZ"
         },
         {
@@ -6250,7 +6407,7 @@
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-08-01T22:12:37Z",
+  "last_verified_utc": "2026-08-02T03:54:47Z",
   "sources": [
     {
       "name": "HLTV events calendar",
