@@ -2,229 +2,409 @@
   "contract_version": "1.1",
   "events": [
     {
-      "bracket": {
-        "rounds": [
-          {
-            "bracket": "main",
-            "id": "main:semifinal",
-            "matches": [
-              {
-                "event_id": "hltv:9290",
-                "event_name": "CCT 2026 Europe Series 5",
-                "event_url": null,
-                "feeds_from": [],
-                "hltv_match_id": "2395968",
-                "maps": [],
-                "match_id": "hltv:2395968",
-                "product_tier": "tier_2",
-                "round_name": "Semifinal",
-                "series_format": "bo3",
-                "slot_id": "main:semifinal:1",
-                "source_url": "https://www.hltv.org/matches/2395968/sashi-vs-black-phoenix-cct-2026-europe-series-5",
-                "stage_name": "Semifinal",
-                "starts_at": "2026-08-02T10:00:00Z",
-                "status": "upcoming",
-                "team1_name": "Sashi",
-                "team2_name": "Black Phoenix"
-              },
-              {
-                "event_id": "hltv:9290",
-                "event_name": "CCT 2026 Europe Series 5",
-                "event_url": null,
-                "feeds_from": [],
-                "hltv_match_id": "2395969",
-                "maps": [],
-                "match_id": "hltv:2395969",
-                "product_tier": "tier_2",
-                "round_name": "Semifinal",
-                "series_format": "bo3",
-                "slot_id": "main:semifinal:2",
-                "source_url": "https://www.hltv.org/matches/2395969/sinners-vs-sparta-cct-2026-europe-series-5",
-                "stage_name": "Semifinal",
-                "starts_at": "2026-08-02T13:00:00Z",
-                "status": "upcoming",
-                "team1_name": "SINNERS",
-                "team2_name": "SPARTA"
-              }
-            ],
-            "name": "Semifinal",
-            "order": 1
-          }
-        ],
-        "type": "single_elimination"
-      },
-      "current_stage": "Semifinal",
+      "current_stage": "Schedule",
       "format": {
-        "label": "Semifinal",
+        "label": "Event schedule",
         "settings": {},
-        "stages": [
-          {
-            "id": "semifinal",
-            "name": "Semifinal",
-            "order": 1,
-            "status": "pending",
-            "type": "single_elimination"
-          }
-        ],
-        "type": "single_elimination"
+        "stages": [],
+        "type": "mixed"
       },
-      "id": "hltv:9290",
+      "id": "hltv:cct-2026-europe-series-5",
       "matches": [
         {
-          "event_id": "hltv:9290",
+          "event_id": "hltv:cct-2026-europe-series-5",
           "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2395968",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "maps": [],
           "match_id": "hltv:2395968",
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2395968/sashi-vs-black-phoenix-cct-2026-europe-series-5",
-          "stage_name": "Semifinal",
+          "stage_name": "Scheduled series",
           "starts_at": "2026-08-02T10:00:00Z",
           "status": "upcoming",
           "team1_name": "Sashi",
-          "team2_name": "Black Phoenix"
+          "team2_name": "Black Phoenix",
+          "veto_text": "Best of 3 (Online)\n\n* Semi-final"
         },
         {
-          "event_id": "hltv:9290",
+          "event_id": "hltv:cct-2026-europe-series-5",
           "event_name": "CCT 2026 Europe Series 5",
           "event_url": null,
-          "hltv_match_id": "2395969",
+          "hltv_match_id": "2395967",
           "maps": [],
-          "match_id": "hltv:2395969",
+          "match_id": "hltv:2395967",
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395969/sinners-vs-sparta-cct-2026-europe-series-5",
-          "stage_name": "Semifinal",
-          "starts_at": "2026-08-02T13:00:00Z",
-          "status": "upcoming",
+          "source_url": "https://www.hltv.org/matches/2395967/ex-rustec-vs-sparta-cct-2026-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ex-RUSTEC",
+          "team2_name": "SPARTA",
+          "winner_name": "SPARTA"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-5",
+          "event_name": "CCT 2026 Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2395966",
+          "maps": [],
+          "match_id": "hltv:2395966",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2395966/just-players-vs-sashi-cct-2026-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Just Players",
+          "team2_name": "Sashi",
+          "winner_name": "Sashi"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-5",
+          "event_name": "CCT 2026 Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2395965",
+          "maps": [],
+          "match_id": "hltv:2395965",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2395965/sinners-vs-inox-division-cct-2026-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "SINNERS",
-          "team2_name": "SPARTA"
+          "team2_name": "INOX Division",
+          "winner_name": "SINNERS"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-5",
+          "event_name": "CCT 2026 Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2395964",
+          "maps": [],
+          "match_id": "hltv:2395964",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2395964/black-phoenix-vs-butterfly-cct-2026-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Black Phoenix",
+          "team2_name": "Butterfly",
+          "winner_name": "Black Phoenix"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-5",
+          "event_name": "CCT 2026 Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2395963",
+          "maps": [],
+          "match_id": "hltv:2395963",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2395963/jijiehao-vs-black-phoenix-cct-2026-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "JiJieHao",
+          "team2_name": "Black Phoenix",
+          "winner_name": "Black Phoenix"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-5",
+          "event_name": "CCT 2026 Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2395962",
+          "maps": [],
+          "match_id": "hltv:2395962",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2395962/k27-vs-just-players-cct-2026-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "K27",
+          "team2_name": "Just Players",
+          "winner_name": "Just Players"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-5",
+          "event_name": "CCT 2026 Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2395961",
+          "maps": [],
+          "match_id": "hltv:2395961",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2395961/sinners-vs-rune-eaters-cct-2026-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "SINNERS",
+          "team2_name": "Rune Eaters",
+          "winner_name": "SINNERS"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-5",
+          "event_name": "CCT 2026 Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2395960",
+          "maps": [],
+          "match_id": "hltv:2395960",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2395960/infinite-vs-sparta-cct-2026-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "INFINITE",
+          "team2_name": "SPARTA",
+          "winner_name": "SPARTA"
         }
       ],
       "name": "CCT 2026 Europe Series 5",
       "participants": [
         "Sashi",
         "Black Phoenix",
+        "ex-RUSTEC",
+        "SPARTA",
+        "Just Players",
         "SINNERS",
-        "SPARTA"
+        "INOX Division",
+        "Butterfly",
+        "JiJieHao",
+        "K27",
+        "Rune Eaters",
+        "INFINITE"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
+      "source_url": "https://www.hltv.org/events/archive",
       "status": "upcoming"
     },
     {
-      "bracket": {
-        "rounds": [
-          {
-            "bracket": "main",
-            "id": "main:semifinal",
-            "matches": [
-              {
-                "event_id": "hltv:9296",
-                "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-                "event_url": null,
-                "feeds_from": [],
-                "hltv_match_id": "2396191",
-                "maps": [],
-                "match_id": "hltv:2396191",
-                "product_tier": "tier_2",
-                "round_name": "Semifinal",
-                "series_format": "bo3",
-                "slot_id": "main:semifinal:1",
-                "source_url": "https://www.hltv.org/matches/2396191/lazer-cats-vs-ex-1win-thunderpick-world-championship-2026-europe-series-2",
-                "stage_name": "Semifinal",
-                "starts_at": "2026-08-02T10:00:00Z",
-                "status": "upcoming",
-                "team1_name": "Lazer Cats",
-                "team2_name": "ex-1win"
-              },
-              {
-                "event_id": "hltv:9296",
-                "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-                "event_url": null,
-                "feeds_from": [],
-                "hltv_match_id": "2396192",
-                "maps": [],
-                "match_id": "hltv:2396192",
-                "product_tier": "tier_2",
-                "round_name": "Semifinal",
-                "series_format": "bo3",
-                "slot_id": "main:semifinal:2",
-                "source_url": "https://www.hltv.org/matches/2396192/genone-vs-cybershoke-thunderpick-world-championship-2026-europe-series-2",
-                "stage_name": "Semifinal",
-                "starts_at": "2026-08-02T13:00:00Z",
-                "status": "upcoming",
-                "team1_name": "GenOne",
-                "team2_name": "CYBERSHOKE"
-              }
-            ],
-            "name": "Semifinal",
-            "order": 1
-          }
-        ],
-        "type": "single_elimination"
-      },
-      "current_stage": "Semifinal",
+      "current_stage": "Schedule",
       "format": {
-        "label": "Semifinal",
+        "label": "Event schedule",
         "settings": {},
-        "stages": [
-          {
-            "id": "semifinal",
-            "name": "Semifinal",
-            "order": 1,
-            "status": "pending",
-            "type": "single_elimination"
-          }
-        ],
-        "type": "single_elimination"
+        "stages": [],
+        "type": "mixed"
       },
-      "id": "hltv:9296",
+      "id": "hltv:thunderpick-world-championship-2026-europe-series-2",
       "matches": [
         {
-          "event_id": "hltv:9296",
+          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
           "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2396191",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "maps": [],
           "match_id": "hltv:2396191",
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396191/lazer-cats-vs-ex-1win-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Semifinal",
+          "stage_name": "Scheduled series",
           "starts_at": "2026-08-02T10:00:00Z",
           "status": "upcoming",
           "team1_name": "Lazer Cats",
-          "team2_name": "ex-1win"
+          "team2_name": "ex-1win",
+          "veto_text": "Best of 3 (Online)\n\n* Semi-final"
         },
         {
-          "event_id": "hltv:9296",
+          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
           "event_name": "Thunderpick World Championship 2026 Europe Series 2",
           "event_url": null,
-          "hltv_match_id": "2396192",
+          "hltv_match_id": "2396190",
           "maps": [],
-          "match_id": "hltv:2396192",
+          "match_id": "hltv:2396190",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396192/genone-vs-cybershoke-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Semifinal",
-          "starts_at": "2026-08-02T13:00:00Z",
-          "status": "upcoming",
-          "team1_name": "GenOne",
-          "team2_name": "CYBERSHOKE"
+          "source_url": "https://www.hltv.org/matches/2396190/cybershoke-vs-megoshort-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "CYBERSHOKE",
+          "team2_name": "megoshort",
+          "winner_name": "CYBERSHOKE"
+        },
+        {
+          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396189",
+          "maps": [],
+          "match_id": "hltv:2396189",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396189/ex-1win-vs-inox-division-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ex-1win",
+          "team2_name": "INOX Division",
+          "winner_name": "ex-1win"
+        },
+        {
+          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396188",
+          "maps": [],
+          "match_id": "hltv:2396188",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396188/jijiehao-vs-genone-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "JiJieHao",
+          "team2_name": "GenOne",
+          "winner_name": "GenOne"
+        },
+        {
+          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396187",
+          "maps": [],
+          "match_id": "hltv:2396187",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396187/walczaki-vs-lazer-cats-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Walczaki",
+          "team2_name": "Lazer Cats",
+          "winner_name": "Lazer Cats"
+        },
+        {
+          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396186",
+          "maps": [],
+          "match_id": "hltv:2396186",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396186/cybershoke-vs-state-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "CYBERSHOKE",
+          "team2_name": "STATE",
+          "winner_name": "CYBERSHOKE"
+        },
+        {
+          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396185",
+          "maps": [],
+          "match_id": "hltv:2396185",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396185/lavked-vs-megoshort-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Lavked",
+          "team2_name": "megoshort",
+          "winner_name": "megoshort"
+        },
+        {
+          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396184",
+          "maps": [],
+          "match_id": "hltv:2396184",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396184/inox-division-vs-falcons-force-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "INOX Division",
+          "team2_name": "Falcons Force",
+          "winner_name": "INOX Division"
+        },
+        {
+          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
+          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396183",
+          "maps": [],
+          "match_id": "hltv:2396183",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396183/basement-boys-vs-lazer-cats-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "BASEMENT BOYS",
+          "team2_name": "Lazer Cats",
+          "winner_name": "Lazer Cats"
         }
       ],
       "name": "Thunderpick World Championship 2026 Europe Series 2",
       "participants": [
         "Lazer Cats",
         "ex-1win",
+        "CYBERSHOKE",
+        "megoshort",
+        "INOX Division",
+        "JiJieHao",
         "GenOne",
-        "CYBERSHOKE"
+        "Walczaki",
+        "STATE",
+        "Lavked",
+        "Falcons Force",
+        "BASEMENT BOYS"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
+      "source_url": "https://www.hltv.org/events/archive",
       "status": "upcoming"
     },
     {
@@ -248,7 +428,7 @@
           },
           "maps": [],
           "match_id": "hltv:2396021",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396021/spirit-vs-mouz-blast-bounty-2026-season-2-finals",
           "stage_name": "Scheduled series",
@@ -261,121 +441,20 @@
         {
           "event_id": "hltv:blast-bounty-2026-season-2-finals",
           "event_name": "BLAST Bounty 2026 Season 2 Finals",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2396019",
-          "lineups": {
-            "team1": [
-              {
-                "hltv_player_id": "16726",
-                "nickname": "phzy",
-                "player_id": "hltv:16726",
-                "source_url": "https://www.hltv.org/player/16726/phzy",
-                "team_name": "Astralis"
-              },
-              {
-                "hltv_player_id": "10096",
-                "nickname": "HooXi",
-                "player_id": "hltv:10096",
-                "source_url": "https://www.hltv.org/player/10096/hooxi",
-                "team_name": "Astralis"
-              },
-              {
-                "hltv_player_id": "17956",
-                "nickname": "jabbi",
-                "player_id": "hltv:17956",
-                "source_url": "https://www.hltv.org/player/17956/jabbi",
-                "team_name": "Astralis"
-              },
-              {
-                "hltv_player_id": "20304",
-                "nickname": "Staehr",
-                "player_id": "hltv:20304",
-                "source_url": "https://www.hltv.org/player/20304/staehr",
-                "team_name": "Astralis"
-              },
-              {
-                "hltv_player_id": "21217",
-                "nickname": "ryu",
-                "player_id": "hltv:21217",
-                "source_url": "https://www.hltv.org/player/21217/ryu",
-                "team_name": "Astralis"
-              }
-            ],
-            "team2": [
-              {
-                "hltv_player_id": "24457",
-                "nickname": "xelex",
-                "player_id": "hltv:24457",
-                "source_url": "https://www.hltv.org/player/24457/xelex",
-                "team_name": "MOUZ"
-              },
-              {
-                "hltv_player_id": "18221",
-                "nickname": "Spinx",
-                "player_id": "hltv:18221",
-                "source_url": "https://www.hltv.org/player/18221/spinx",
-                "team_name": "MOUZ"
-              },
-              {
-                "hltv_player_id": "20312",
-                "nickname": "xertioN",
-                "player_id": "hltv:20312",
-                "source_url": "https://www.hltv.org/player/20312/xertion",
-                "team_name": "MOUZ"
-              },
-              {
-                "hltv_player_id": "18072",
-                "nickname": "torzsi",
-                "player_id": "hltv:18072",
-                "source_url": "https://www.hltv.org/player/18072/torzsi",
-                "team_name": "MOUZ"
-              },
-              {
-                "hltv_player_id": "22279",
-                "nickname": "PR",
-                "player_id": "hltv:22279",
-                "source_url": "https://www.hltv.org/player/22279/pr",
-                "team_name": "MOUZ"
-              }
-            ]
-          },
-          "map_results": [
-            {
-              "map_name": "Ancient",
-              "score1": 13,
-              "score2": 6,
-              "status": "finished"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": 9,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Dust2",
-              "score1": 9,
-              "score2": 13,
-              "status": "finished"
-            }
-          ],
-          "maps": [
-            "Ancient",
-            "Mirage",
-            "Dust2"
-          ],
+          "maps": [],
           "match_id": "hltv:2396019",
           "product_tier": "tier_1",
           "score1": 1,
           "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396019/astralis-vs-mouz-blast-bounty-2026-season-2-finals",
-          "stage_name": "Scheduled series",
+          "stage_name": "Completed series",
           "starts_at": null,
           "status": "finished",
           "team1_name": "Astralis",
           "team2_name": "MOUZ",
-          "veto_text": "Best of 3 (LAN)\n\n* Stage 2 semi-final\n\n** Astralis (seed 8) have selected MOUZ (seed 4).",
           "winner_name": "MOUZ"
         },
         {
@@ -434,25 +513,6 @@
           "team1_name": "FaZe",
           "team2_name": "The MongolZ",
           "winner_name": "FaZe"
-        },
-        {
-          "event_id": "hltv:blast-bounty-2026-season-2-finals",
-          "event_name": "BLAST Bounty 2026 Season 2 Finals",
-          "event_url": null,
-          "hltv_match_id": "2396017",
-          "maps": [],
-          "match_id": "hltv:2396017",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396017/3dmax-vs-mouz-blast-bounty-2026-season-2-finals",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "3DMAX",
-          "team2_name": "MOUZ",
-          "winner_name": "MOUZ"
         }
       ],
       "name": "BLAST Bounty 2026 Season 2 Finals",
@@ -462,8 +522,7 @@
         "Astralis",
         "FaZe",
         "paiN",
-        "The MongolZ",
-        "3DMAX"
+        "The MongolZ"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -590,6 +649,158 @@
         "ex-Young Ninjas",
         "GenOne",
         "UNiTY"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:semifinal",
+            "matches": [
+              {
+                "event_id": "hltv:9290",
+                "event_name": "CCT 2026 Europe Series 5",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2395969",
+                "maps": [],
+                "match_id": "hltv:2395969",
+                "product_tier": "tier_2",
+                "round_name": "Semifinal",
+                "series_format": "bo3",
+                "slot_id": "main:semifinal:1",
+                "source_url": "https://www.hltv.org/matches/2395969/sinners-vs-sparta-cct-2026-europe-series-5",
+                "stage_name": "Semifinal",
+                "starts_at": "2026-08-02T13:00:00Z",
+                "status": "upcoming",
+                "team1_name": "SINNERS",
+                "team2_name": "SPARTA"
+              }
+            ],
+            "name": "Semifinal",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Semifinal",
+      "format": {
+        "label": "Semifinal",
+        "settings": {},
+        "stages": [
+          {
+            "id": "semifinal",
+            "name": "Semifinal",
+            "order": 1,
+            "status": "pending",
+            "type": "single_elimination"
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "id": "hltv:9290",
+      "matches": [
+        {
+          "event_id": "hltv:9290",
+          "event_name": "CCT 2026 Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2395969",
+          "maps": [],
+          "match_id": "hltv:2395969",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2395969/sinners-vs-sparta-cct-2026-europe-series-5",
+          "stage_name": "Semifinal",
+          "starts_at": "2026-08-02T13:00:00Z",
+          "status": "upcoming",
+          "team1_name": "SINNERS",
+          "team2_name": "SPARTA"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 5",
+      "participants": [
+        "SINNERS",
+        "SPARTA"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:semifinal",
+            "matches": [
+              {
+                "event_id": "hltv:9296",
+                "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2396192",
+                "maps": [],
+                "match_id": "hltv:2396192",
+                "product_tier": "tier_2",
+                "round_name": "Semifinal",
+                "series_format": "bo3",
+                "slot_id": "main:semifinal:1",
+                "source_url": "https://www.hltv.org/matches/2396192/genone-vs-cybershoke-thunderpick-world-championship-2026-europe-series-2",
+                "stage_name": "Semifinal",
+                "starts_at": "2026-08-02T13:00:00Z",
+                "status": "upcoming",
+                "team1_name": "GenOne",
+                "team2_name": "CYBERSHOKE"
+              }
+            ],
+            "name": "Semifinal",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Semifinal",
+      "format": {
+        "label": "Semifinal",
+        "settings": {},
+        "stages": [
+          {
+            "id": "semifinal",
+            "name": "Semifinal",
+            "order": 1,
+            "status": "pending",
+            "type": "single_elimination"
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "id": "hltv:9296",
+      "matches": [
+        {
+          "event_id": "hltv:9296",
+          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396192",
+          "maps": [],
+          "match_id": "hltv:2396192",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396192/genone-vs-cybershoke-thunderpick-world-championship-2026-europe-series-2",
+          "stage_name": "Semifinal",
+          "starts_at": "2026-08-02T13:00:00Z",
+          "status": "upcoming",
+          "team1_name": "GenOne",
+          "team2_name": "CYBERSHOKE"
+        }
+      ],
+      "name": "Thunderpick World Championship 2026 Europe Series 2",
+      "participants": [
+        "GenOne",
+        "CYBERSHOKE"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -929,370 +1140,6 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:cct-2026-europe-series-5",
-      "matches": [
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395967",
-          "maps": [],
-          "match_id": "hltv:2395967",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395967/ex-rustec-vs-sparta-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ex-RUSTEC",
-          "team2_name": "SPARTA",
-          "winner_name": "SPARTA"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395966",
-          "maps": [],
-          "match_id": "hltv:2395966",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395966/just-players-vs-sashi-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Just Players",
-          "team2_name": "Sashi",
-          "winner_name": "Sashi"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395965",
-          "maps": [],
-          "match_id": "hltv:2395965",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395965/sinners-vs-inox-division-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "SINNERS",
-          "team2_name": "INOX Division",
-          "winner_name": "SINNERS"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395964",
-          "maps": [],
-          "match_id": "hltv:2395964",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395964/black-phoenix-vs-butterfly-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Black Phoenix",
-          "team2_name": "Butterfly",
-          "winner_name": "Black Phoenix"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395963",
-          "maps": [],
-          "match_id": "hltv:2395963",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395963/jijiehao-vs-black-phoenix-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "JiJieHao",
-          "team2_name": "Black Phoenix",
-          "winner_name": "Black Phoenix"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395962",
-          "maps": [],
-          "match_id": "hltv:2395962",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395962/k27-vs-just-players-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "K27",
-          "team2_name": "Just Players",
-          "winner_name": "Just Players"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395961",
-          "maps": [],
-          "match_id": "hltv:2395961",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395961/sinners-vs-rune-eaters-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "SINNERS",
-          "team2_name": "Rune Eaters",
-          "winner_name": "SINNERS"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395960",
-          "maps": [],
-          "match_id": "hltv:2395960",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395960/infinite-vs-sparta-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "INFINITE",
-          "team2_name": "SPARTA",
-          "winner_name": "SPARTA"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 5",
-      "participants": [
-        "ex-RUSTEC",
-        "SPARTA",
-        "Just Players",
-        "Sashi",
-        "SINNERS",
-        "INOX Division",
-        "Black Phoenix",
-        "Butterfly",
-        "JiJieHao",
-        "K27",
-        "Rune Eaters",
-        "INFINITE"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-      "matches": [
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396190",
-          "maps": [],
-          "match_id": "hltv:2396190",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396190/cybershoke-vs-megoshort-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "CYBERSHOKE",
-          "team2_name": "megoshort",
-          "winner_name": "CYBERSHOKE"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396189",
-          "maps": [],
-          "match_id": "hltv:2396189",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396189/ex-1win-vs-inox-division-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ex-1win",
-          "team2_name": "INOX Division",
-          "winner_name": "ex-1win"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396188",
-          "maps": [],
-          "match_id": "hltv:2396188",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396188/jijiehao-vs-genone-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "JiJieHao",
-          "team2_name": "GenOne",
-          "winner_name": "GenOne"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396187",
-          "maps": [],
-          "match_id": "hltv:2396187",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396187/walczaki-vs-lazer-cats-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Walczaki",
-          "team2_name": "Lazer Cats",
-          "winner_name": "Lazer Cats"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396186",
-          "maps": [],
-          "match_id": "hltv:2396186",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396186/cybershoke-vs-state-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "CYBERSHOKE",
-          "team2_name": "STATE",
-          "winner_name": "CYBERSHOKE"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396185",
-          "maps": [],
-          "match_id": "hltv:2396185",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396185/lavked-vs-megoshort-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Lavked",
-          "team2_name": "megoshort",
-          "winner_name": "megoshort"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396184",
-          "maps": [],
-          "match_id": "hltv:2396184",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396184/inox-division-vs-falcons-force-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "INOX Division",
-          "team2_name": "Falcons Force",
-          "winner_name": "INOX Division"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396183",
-          "maps": [],
-          "match_id": "hltv:2396183",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396183/basement-boys-vs-lazer-cats-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "BASEMENT BOYS",
-          "team2_name": "Lazer Cats",
-          "winner_name": "Lazer Cats"
-        }
-      ],
-      "name": "Thunderpick World Championship 2026 Europe Series 2",
-      "participants": [
-        "CYBERSHOKE",
-        "megoshort",
-        "ex-1win",
-        "INOX Division",
-        "JiJieHao",
-        "GenOne",
-        "Walczaki",
-        "Lazer Cats",
-        "STATE",
-        "Lavked",
-        "Falcons Force",
-        "BASEMENT BOYS"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
       "id": "hltv:cct-2026-europe-series-6",
       "matches": [
         {
@@ -1491,39 +1338,49 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-02T03:54:47Z",
+  "fetched_at_utc": "2026-08-02T08:38:07Z",
   "matches": [
     {
-      "event_id": "hltv:9290",
+      "event_id": "hltv:cct-2026-europe-series-5",
       "event_name": "CCT 2026 Europe Series 5",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2395968",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2395968",
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2395968/sashi-vs-black-phoenix-cct-2026-europe-series-5",
-      "stage_name": "Semifinal",
+      "stage_name": "Scheduled series",
       "starts_at": "2026-08-02T10:00:00Z",
       "status": "upcoming",
       "team1_name": "Sashi",
-      "team2_name": "Black Phoenix"
+      "team2_name": "Black Phoenix",
+      "veto_text": "Best of 3 (Online)\n\n* Semi-final"
     },
     {
-      "event_id": "hltv:9296",
+      "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396191",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396191",
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396191/lazer-cats-vs-ex-1win-thunderpick-world-championship-2026-europe-series-2",
-      "stage_name": "Semifinal",
+      "stage_name": "Scheduled series",
       "starts_at": "2026-08-02T10:00:00Z",
       "status": "upcoming",
       "team1_name": "Lazer Cats",
-      "team2_name": "ex-1win"
+      "team2_name": "ex-1win",
+      "veto_text": "Best of 3 (Online)\n\n* Semi-final"
     },
     {
       "event_id": "hltv:blast-bounty-2026-season-2-finals",
@@ -1805,121 +1662,20 @@
     {
       "event_id": "hltv:blast-bounty-2026-season-2-finals",
       "event_name": "BLAST Bounty 2026 Season 2 Finals",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396019",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "16726",
-            "nickname": "phzy",
-            "player_id": "hltv:16726",
-            "source_url": "https://www.hltv.org/player/16726/phzy",
-            "team_name": "Astralis"
-          },
-          {
-            "hltv_player_id": "10096",
-            "nickname": "HooXi",
-            "player_id": "hltv:10096",
-            "source_url": "https://www.hltv.org/player/10096/hooxi",
-            "team_name": "Astralis"
-          },
-          {
-            "hltv_player_id": "17956",
-            "nickname": "jabbi",
-            "player_id": "hltv:17956",
-            "source_url": "https://www.hltv.org/player/17956/jabbi",
-            "team_name": "Astralis"
-          },
-          {
-            "hltv_player_id": "20304",
-            "nickname": "Staehr",
-            "player_id": "hltv:20304",
-            "source_url": "https://www.hltv.org/player/20304/staehr",
-            "team_name": "Astralis"
-          },
-          {
-            "hltv_player_id": "21217",
-            "nickname": "ryu",
-            "player_id": "hltv:21217",
-            "source_url": "https://www.hltv.org/player/21217/ryu",
-            "team_name": "Astralis"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "24457",
-            "nickname": "xelex",
-            "player_id": "hltv:24457",
-            "source_url": "https://www.hltv.org/player/24457/xelex",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "18221",
-            "nickname": "Spinx",
-            "player_id": "hltv:18221",
-            "source_url": "https://www.hltv.org/player/18221/spinx",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "20312",
-            "nickname": "xertioN",
-            "player_id": "hltv:20312",
-            "source_url": "https://www.hltv.org/player/20312/xertion",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "18072",
-            "nickname": "torzsi",
-            "player_id": "hltv:18072",
-            "source_url": "https://www.hltv.org/player/18072/torzsi",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "22279",
-            "nickname": "PR",
-            "player_id": "hltv:22279",
-            "source_url": "https://www.hltv.org/player/22279/pr",
-            "team_name": "MOUZ"
-          }
-        ]
-      },
-      "map_results": [
-        {
-          "map_name": "Ancient",
-          "score1": 13,
-          "score2": 6,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": 9,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": 9,
-          "score2": 13,
-          "status": "finished"
-        }
-      ],
-      "maps": [
-        "Ancient",
-        "Mirage",
-        "Dust2"
-      ],
+      "maps": [],
       "match_id": "hltv:2396019",
       "product_tier": "tier_1",
       "score1": 1,
       "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396019/astralis-vs-mouz-blast-bounty-2026-season-2-finals",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
       "status": "finished",
       "team1_name": "Astralis",
       "team2_name": "MOUZ",
-      "veto_text": "Best of 3 (LAN)\n\n* Stage 2 semi-final\n\n** Astralis (seed 8) have selected MOUZ (seed 4).",
       "winner_name": "MOUZ"
     },
     {
@@ -2567,100 +2323,10 @@
       "team1_name": "Just Players",
       "team2_name": "Inner Circle Academy",
       "winner_name": "Just Players"
-    },
-    {
-      "event_id": "hltv:blast-bounty-2026-season-2-finals",
-      "event_name": "BLAST Bounty 2026 Season 2 Finals",
-      "event_url": null,
-      "hltv_match_id": "2396017",
-      "maps": [],
-      "match_id": "hltv:2396017",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396017/3dmax-vs-mouz-blast-bounty-2026-season-2-finals",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "3DMAX",
-      "team2_name": "MOUZ",
-      "winner_name": "MOUZ"
     }
   ],
   "ok": true,
-  "players": [
-    {
-      "hltv_player_id": "16726",
-      "nickname": "phzy",
-      "player_id": "hltv:16726",
-      "source_url": "https://www.hltv.org/player/16726/phzy",
-      "team_name": "Astralis"
-    },
-    {
-      "hltv_player_id": "10096",
-      "nickname": "HooXi",
-      "player_id": "hltv:10096",
-      "source_url": "https://www.hltv.org/player/10096/hooxi",
-      "team_name": "Astralis"
-    },
-    {
-      "hltv_player_id": "17956",
-      "nickname": "jabbi",
-      "player_id": "hltv:17956",
-      "source_url": "https://www.hltv.org/player/17956/jabbi",
-      "team_name": "Astralis"
-    },
-    {
-      "hltv_player_id": "20304",
-      "nickname": "Staehr",
-      "player_id": "hltv:20304",
-      "source_url": "https://www.hltv.org/player/20304/staehr",
-      "team_name": "Astralis"
-    },
-    {
-      "hltv_player_id": "21217",
-      "nickname": "ryu",
-      "player_id": "hltv:21217",
-      "source_url": "https://www.hltv.org/player/21217/ryu",
-      "team_name": "Astralis"
-    },
-    {
-      "hltv_player_id": "24457",
-      "nickname": "xelex",
-      "player_id": "hltv:24457",
-      "source_url": "https://www.hltv.org/player/24457/xelex",
-      "team_name": "MOUZ"
-    },
-    {
-      "hltv_player_id": "18221",
-      "nickname": "Spinx",
-      "player_id": "hltv:18221",
-      "source_url": "https://www.hltv.org/player/18221/spinx",
-      "team_name": "MOUZ"
-    },
-    {
-      "hltv_player_id": "20312",
-      "nickname": "xertioN",
-      "player_id": "hltv:20312",
-      "source_url": "https://www.hltv.org/player/20312/xertion",
-      "team_name": "MOUZ"
-    },
-    {
-      "hltv_player_id": "18072",
-      "nickname": "torzsi",
-      "player_id": "hltv:18072",
-      "source_url": "https://www.hltv.org/player/18072/torzsi",
-      "team_name": "MOUZ"
-    },
-    {
-      "hltv_player_id": "22279",
-      "nickname": "PR",
-      "player_id": "hltv:22279",
-      "source_url": "https://www.hltv.org/player/22279/pr",
-      "team_name": "MOUZ"
-    }
-  ],
+  "players": [],
   "poll_after_ms": 300000,
   "rankings": null,
   "source": "HLTV via GitHub Actions FlareSolverr",
@@ -2668,7 +2334,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 47
+    "scheduled_matches": 46
   },
   "product_filter": {
     "eligible_tiers": [
@@ -2676,18 +2342,18 @@
       "tier_2"
     ],
     "events_kept": 10,
-    "matches_kept": 55,
-    "players_kept": 10,
+    "matches_kept": 54,
+    "players_kept": 0,
     "event_tiers": {
-      "hltv:9290": "tier_2",
-      "hltv:9296": "tier_2",
+      "hltv:cct-2026-europe-series-5": "tier_2",
+      "hltv:thunderpick-world-championship-2026-europe-series-2": "tier_2",
       "hltv:blast-bounty-2026-season-2-finals": "tier_1",
       "hltv:9298": "tier_2",
+      "hltv:9290": "tier_2",
+      "hltv:9296": "tier_2",
       "hltv:9260": "tier_2",
       "hltv:9307": "tier_2",
       "hltv:cct-2026-contenders-europe-series-7": "tier_2",
-      "hltv:cct-2026-europe-series-5": "tier_2",
-      "hltv:thunderpick-world-championship-2026-europe-series-2": "tier_2",
       "hltv:cct-2026-europe-series-6": "tier_2"
     },
     "eligible_match_ids": [
@@ -2744,8 +2410,7 @@
       "hltv:2396322",
       "hltv:2396122",
       "hltv:2396323",
-      "hltv:2396120",
-      "hltv:2396017"
+      "hltv:2396120"
     ]
   }
 }
