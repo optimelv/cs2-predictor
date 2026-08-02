@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-02T10:51:35Z",
+  "generated_at_utc": "2026-08-02T13:56:31Z",
   "through_date": "2026-08-02",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1113,
+    "matches": 1118,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -792,6 +792,116 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Black Phoenix",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396131",
+      "match_date": "2026-08-02",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "Mai Tai",
+      "team2_name": "Enjoy",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Enjoy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396191",
+      "match_date": "2026-08-02",
+      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
+      "team1_name": "Lazer Cats",
+      "team2_name": "ex-1win",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Lazer Cats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396426",
+      "match_date": "2026-08-02",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "DragonClaw",
+      "team2_name": "Fortress",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Fortress",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396129",
+      "match_date": "2026-08-02",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "Inner Circle Academy",
+      "team2_name": "NEW VISION",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NEW VISION",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2395968",
+      "match_date": "2026-08-02",
+      "event_name": "CCT 2026 Europe Series 5",
+      "team1_name": "Sashi",
+      "team2_name": "Black Phoenix",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Sashi",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
