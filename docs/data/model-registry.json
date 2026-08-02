@@ -3,38 +3,30 @@
     "folds": 4,
     "kind": "heuristic",
     "metrics": {
-      "accuracy": 0.636667,
-      "brier": 0.221509,
-      "ece": 0.035212,
-      "log_loss": 0.631911
+      "accuracy": 0.637417,
+      "brier": 0.221695,
+      "ece": 0.034239,
+      "log_loss": 0.632379
     },
-    "rows": 900,
-    "test_rows": 600
+    "rows": 906,
+    "test_rows": 604
   },
   "challenger": {
     "blend_weight": 0.5,
     "family": "logistic",
     "features": [
-      "elo_diff",
-      "vrs_rank_advantage",
-      "vrs_points_diff",
-      "recent_win_rate_10_diff",
-      "best_of",
-      "phase_order",
-      "is_lan",
-      "is_playoff",
-      "is_elimination_match"
+      "baseline_logit"
     ],
     "folds": 4,
     "l2": 0.005,
     "metrics": {
-      "accuracy": 0.64,
-      "brier": 0.221698,
-      "ece": 0.043792,
-      "log_loss": 0.633422
+      "accuracy": 0.63245,
+      "brier": 0.221958,
+      "ece": 0.036317,
+      "log_loss": 0.634043
     },
     "promotion_passed": false,
-    "rows": 600
+    "rows": 604
   },
   "champion": {
     "folds": 3,
@@ -51,7 +43,7 @@
     "version": "bounded-elo-vrs-v1"
   },
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-02T16:14:18Z",
+  "generated_at_utc": "2026-08-02T19:36:25Z",
   "history": [],
   "promotion_gates": {
     "maximum_accuracy_regression": 0.005,
@@ -62,8 +54,8 @@
     "minimum_test_rows": 350
   },
   "training": {
-    "new_rows": 12,
-    "online_rows": 143,
+    "new_rows": 6,
+    "online_rows": 149,
     "seed_rows": 757
   }
 }

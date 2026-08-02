@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-02T16:13:58Z",
+  "generated_at_utc": "2026-08-02T19:36:05Z",
   "through_date": "2026-08-02",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1130,
+    "matches": 1136,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1166,6 +1166,138 @@
       "score1": 0,
       "score2": 1,
       "winner_name": "Misa",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396412",
+      "match_date": "2026-08-02",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "Misa",
+      "team2_name": "WBT",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "WBT",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396407",
+      "match_date": "2026-08-02",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "Mai Tai",
+      "team2_name": "BASEMENT BOYS",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "BASEMENT BOYS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396408",
+      "match_date": "2026-08-02",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "Leo",
+      "team2_name": "ex-MANA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-MANA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396410",
+      "match_date": "2026-08-02",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "Fortress",
+      "team2_name": "los kogutos",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "los kogutos",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396328",
+      "match_date": "2026-08-02",
+      "event_name": "CCT 2026 Contenders Europe Series 7",
+      "team1_name": "Young TigeRES",
+      "team2_name": "Spirit Academy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396130",
+      "match_date": "2026-08-02",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Honvéd",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
