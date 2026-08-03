@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-03T19:59:38Z",
+  "generated_at_utc": "2026-08-03T22:19:07Z",
   "through_date": "2026-08-03",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1150,
+    "matches": 1152,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1144,6 +1144,50 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "BASEMENT BOYS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396419",
+      "match_date": "2026-08-03",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "WBT",
+      "team2_name": "Leo",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Leo",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396421",
+      "match_date": "2026-08-03",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "ex-MANA",
+      "team2_name": "MOUZ NXT",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-MANA",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
