@@ -4671,7 +4671,7 @@
       {
         "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
         "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396417",
         "lineups": {
           "team1": [],
@@ -4697,21 +4697,20 @@
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Dust2",
-          "Nuke",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2396417",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396417/mouz-nxt-vs-misa-esl-challenger-league-season-52-europe-cup-2",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "MOUZ NXT",
         "team2_name": "Misa",
-        "veto_text": "Best of 3 (Online)\n\n* Group D decider match"
+        "veto_text": "Best of 3 (Online)\n\n* Group D decider match",
+        "winner_name": "MOUZ NXT"
       },
       {
         "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
@@ -4735,7 +4734,7 @@
       {
         "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
         "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396415",
         "lineups": {
           "team1": [],
@@ -4761,37 +4760,177 @@
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Dust2",
-          "Nuke",
-          "Ancient"
-        ],
+        "maps": [],
         "match_id": "hltv:2396415",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396415/leo-vs-inner-circle-academy-esl-challenger-league-season-52-europe-cup-2",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Leo",
         "team2_name": "Inner Circle Academy",
-        "veto_text": "Best of 3 (Online)\n\n* Group B decider match"
+        "veto_text": "Best of 3 (Online)\n\n* Group B decider match",
+        "winner_name": "Leo"
       },
       {
-        "event_id": "hltv:9298",
+        "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
         "event_url": null,
         "hltv_match_id": "2396133",
         "maps": [],
         "match_id": "hltv:2396133",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396133/sparta-vs-ex-young-ninjas-cct-2026-europe-series-6",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "SPARTA",
+        "team2_name": "ex-Young Ninjas",
+        "winner_name": "SPARTA"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-6",
+        "event_name": "CCT 2026 Europe Series 6",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396134",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Inferno",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Nuke",
+          "Inferno"
+        ],
+        "match_id": "hltv:2396134",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396134/genone-vs-unity-cct-2026-europe-series-6",
         "stage_name": "Scheduled series",
         "starts_at": null,
         "status": "live",
-        "team1_name": "SPARTA",
-        "team2_name": "ex-Young Ninjas"
+        "team1_name": "GenOne",
+        "team2_name": "UNiTY",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396418",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Cache",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Nuke",
+          "Dust2",
+          "Cache"
+        ],
+        "match_id": "hltv:2396418",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396418/bushido-wildcats-vs-noir-verse-esl-challenger-league-season-52-europe-cup-2",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Bushido Wildcats",
+        "team2_name": "Noir Verse",
+        "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
+      },
+      {
+        "event_id": "hltv:9260",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+        "event_url": null,
+        "hltv_match_id": "2396419",
+        "maps": [],
+        "match_id": "hltv:2396419",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396419/wbt-vs-leo-esl-challenger-league-season-52-europe-cup-2",
+        "stage_name": "Quarterfinal",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "WBT",
+        "team2_name": "Leo"
+      },
+      {
+        "event_id": "hltv:9260",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+        "event_url": null,
+        "hltv_match_id": "2396421",
+        "maps": [],
+        "match_id": "hltv:2396421",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396421/ex-mana-vs-mouz-nxt-esl-challenger-league-season-52-europe-cup-2",
+        "stage_name": "Quarterfinal",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "ex-MANA",
+        "team2_name": "MOUZ NXT"
+      },
+      {
+        "event_id": "hltv:9260",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+        "event_url": null,
+        "hltv_match_id": "2396420",
+        "maps": [],
+        "match_id": "hltv:2396420",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396420/los-kogutos-vs-basement-boys-esl-challenger-league-season-52-europe-cup-2",
+        "stage_name": "Quarterfinal",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "los kogutos",
+        "team2_name": "BASEMENT BOYS"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -4913,38 +5052,6 @@
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:9298",
-        "event_name": "CCT 2026 Europe Series 6",
-        "event_url": null,
-        "hltv_match_id": "2396134",
-        "maps": [],
-        "match_id": "hltv:2396134",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396134/genone-vs-unity-cct-2026-europe-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-03T17:00:00Z",
-        "status": "upcoming",
-        "team1_name": "GenOne",
-        "team2_name": "UNiTY"
-      },
-      {
-        "event_id": "hltv:9260",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-        "event_url": null,
-        "hltv_match_id": "2396418",
-        "maps": [],
-        "match_id": "hltv:2396418",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396418/bushido-wildcats-vs-noir-verse-esl-challenger-league-season-52-europe-cup-2",
-        "stage_name": "Quarterfinal",
-        "starts_at": "2026-08-03T17:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Bushido Wildcats",
-        "team2_name": "Noir Verse"
       }
     ],
     "default_event_id": "epl-series-8-2026",
@@ -6095,6 +6202,25 @@
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
             "event_url": null,
+            "hltv_match_id": "2396133",
+            "maps": [],
+            "match_id": "hltv:2396133",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396133/sparta-vs-ex-young-ninjas-cct-2026-europe-series-6",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "SPARTA",
+            "team2_name": "ex-Young Ninjas",
+            "winner_name": "SPARTA"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": null,
             "hltv_match_id": "2396132",
             "maps": [],
             "match_id": "hltv:2396132",
@@ -6223,10 +6349,57 @@
             "team1_name": "los kogutos",
             "team2_name": "NEW VISION",
             "winner_name": "los kogutos"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396134",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Inferno",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Ancient",
+              "Nuke",
+              "Inferno"
+            ],
+            "match_id": "hltv:2396134",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396134/genone-vs-unity-cct-2026-europe-series-6",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "GenOne",
+            "team2_name": "UNiTY",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
+          "SPARTA",
+          "ex-Young Ninjas",
           "Just Players",
           "los kogutos",
           "ex-RUSTEC",
@@ -6236,12 +6409,13 @@
           "Inner Circle Academy",
           "NEW VISION",
           "Black Phoenix",
-          "SPARTA",
-          "Rune Eaters"
+          "Rune Eaters",
+          "GenOne",
+          "UNiTY"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "finished"
+        "status": "ongoing"
       },
       {
         "current_stage": "Playoffs",
@@ -6552,19 +6726,57 @@
                   "event_name": "ESL Challenger League Season 52 Europe Cup 2",
                   "event_url": null,
                   "feeds_from": [],
-                  "hltv_match_id": "2396418",
+                  "hltv_match_id": "2396419",
                   "maps": [],
-                  "match_id": "hltv:2396418",
+                  "match_id": "hltv:2396419",
                   "product_tier": "tier_2",
                   "round_name": "Quarterfinal",
                   "series_format": "bo3",
                   "slot_id": "main:quarterfinal:1",
-                  "source_url": "https://www.hltv.org/matches/2396418/bushido-wildcats-vs-noir-verse-esl-challenger-league-season-52-europe-cup-2",
+                  "source_url": "https://www.hltv.org/matches/2396419/wbt-vs-leo-esl-challenger-league-season-52-europe-cup-2",
                   "stage_name": "Quarterfinal",
-                  "starts_at": "2026-08-03T17:00:00Z",
-                  "status": "upcoming",
-                  "team1_name": "Bushido Wildcats",
-                  "team2_name": "Noir Verse"
+                  "starts_at": null,
+                  "status": "live",
+                  "team1_name": "WBT",
+                  "team2_name": "Leo"
+                },
+                {
+                  "event_id": "hltv:9260",
+                  "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2396421",
+                  "maps": [],
+                  "match_id": "hltv:2396421",
+                  "product_tier": "tier_2",
+                  "round_name": "Quarterfinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:quarterfinal:2",
+                  "source_url": "https://www.hltv.org/matches/2396421/ex-mana-vs-mouz-nxt-esl-challenger-league-season-52-europe-cup-2",
+                  "stage_name": "Quarterfinal",
+                  "starts_at": null,
+                  "status": "live",
+                  "team1_name": "ex-MANA",
+                  "team2_name": "MOUZ NXT"
+                },
+                {
+                  "event_id": "hltv:9260",
+                  "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2396420",
+                  "maps": [],
+                  "match_id": "hltv:2396420",
+                  "product_tier": "tier_2",
+                  "round_name": "Quarterfinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:quarterfinal:3",
+                  "source_url": "https://www.hltv.org/matches/2396420/los-kogutos-vs-basement-boys-esl-challenger-league-season-52-europe-cup-2",
+                  "stage_name": "Quarterfinal",
+                  "starts_at": null,
+                  "status": "live",
+                  "team1_name": "los kogutos",
+                  "team2_name": "BASEMENT BOYS"
                 }
               ],
               "name": "Quarterfinal",
@@ -6582,7 +6794,7 @@
               "id": "quarterfinal",
               "name": "Quarterfinal",
               "order": 1,
-              "status": "pending",
+              "status": "live",
               "type": "single_elimination"
             }
           ],
@@ -6594,27 +6806,63 @@
             "event_id": "hltv:9260",
             "event_name": "ESL Challenger League Season 52 Europe Cup 2",
             "event_url": null,
-            "hltv_match_id": "2396418",
+            "hltv_match_id": "2396419",
             "maps": [],
-            "match_id": "hltv:2396418",
+            "match_id": "hltv:2396419",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396418/bushido-wildcats-vs-noir-verse-esl-challenger-league-season-52-europe-cup-2",
+            "source_url": "https://www.hltv.org/matches/2396419/wbt-vs-leo-esl-challenger-league-season-52-europe-cup-2",
             "stage_name": "Quarterfinal",
-            "starts_at": "2026-08-03T17:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Bushido Wildcats",
-            "team2_name": "Noir Verse"
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "WBT",
+            "team2_name": "Leo"
+          },
+          {
+            "event_id": "hltv:9260",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+            "event_url": null,
+            "hltv_match_id": "2396421",
+            "maps": [],
+            "match_id": "hltv:2396421",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396421/ex-mana-vs-mouz-nxt-esl-challenger-league-season-52-europe-cup-2",
+            "stage_name": "Quarterfinal",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "ex-MANA",
+            "team2_name": "MOUZ NXT"
+          },
+          {
+            "event_id": "hltv:9260",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+            "event_url": null,
+            "hltv_match_id": "2396420",
+            "maps": [],
+            "match_id": "hltv:2396420",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396420/los-kogutos-vs-basement-boys-esl-challenger-league-season-52-europe-cup-2",
+            "stage_name": "Quarterfinal",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "los kogutos",
+            "team2_name": "BASEMENT BOYS"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 2",
         "participants": [
-          "Bushido Wildcats",
-          "Noir Verse"
+          "WBT",
+          "Leo",
+          "ex-MANA",
+          "MOUZ NXT",
+          "los kogutos",
+          "BASEMENT BOYS"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "upcoming"
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -6626,6 +6874,44 @@
         },
         "id": "hltv:esl-challenger-league-season-52-europe-cup-2",
         "matches": [
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+            "event_url": null,
+            "hltv_match_id": "2396417",
+            "maps": [],
+            "match_id": "hltv:2396417",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396417/mouz-nxt-vs-misa-esl-challenger-league-season-52-europe-cup-2",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "MOUZ NXT",
+            "team2_name": "Misa",
+            "winner_name": "MOUZ NXT"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+            "event_url": null,
+            "hltv_match_id": "2396415",
+            "maps": [],
+            "match_id": "hltv:2396415",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396415/leo-vs-inner-circle-academy-esl-challenger-league-season-52-europe-cup-2",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Leo",
+            "team2_name": "Inner Circle Academy",
+            "winner_name": "Leo"
+          },
           {
             "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
             "event_name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -6972,110 +7258,65 @@
             "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
             "event_name": "ESL Challenger League Season 52 Europe Cup 2",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396415",
+            "hltv_match_id": "2396418",
             "lineups": {
               "team1": [],
               "team2": []
             },
             "map_results": [
               {
-                "map_name": "Dust2",
-                "score1": 12,
-                "score2": 16,
-                "status": "finished"
-              },
-              {
                 "map_name": "Nuke",
-                "score1": 7,
-                "score2": 5,
-                "status": "finished"
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
               },
               {
-                "map_name": "Ancient",
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Cache",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
               }
             ],
             "maps": [
-              "Dust2",
               "Nuke",
-              "Ancient"
+              "Dust2",
+              "Cache"
             ],
-            "match_id": "hltv:2396415",
+            "match_id": "hltv:2396418",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396415/leo-vs-inner-circle-academy-esl-challenger-league-season-52-europe-cup-2",
+            "source_url": "https://www.hltv.org/matches/2396418/bushido-wildcats-vs-noir-verse-esl-challenger-league-season-52-europe-cup-2",
             "stage_name": "Scheduled series",
             "starts_at": null,
             "status": "live",
-            "team1_name": "Leo",
-            "team2_name": "Inner Circle Academy",
-            "veto_text": "Best of 3 (Online)\n\n* Group B decider match"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396417",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Dust2",
-                "score1": 13,
-                "score2": 11,
-                "status": "finished"
-              },
-              {
-                "map_name": "Nuke",
-                "score1": 13,
-                "score2": 16,
-                "status": "finished"
-              },
-              {
-                "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Dust2",
-              "Nuke",
-              "Mirage"
-            ],
-            "match_id": "hltv:2396417",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396417/mouz-nxt-vs-misa-esl-challenger-league-season-52-europe-cup-2",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "MOUZ NXT",
-            "team2_name": "Misa",
-            "veto_text": "Best of 3 (Online)\n\n* Group D decider match"
+            "team1_name": "Bushido Wildcats",
+            "team2_name": "Noir Verse",
+            "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 2",
         "participants": [
+          "MOUZ NXT",
+          "Misa",
+          "Leo",
+          "Inner Circle Academy",
           "BASEMENT BOYS",
           "Fire Flux",
           "Noir Verse",
           "Fortress",
           "Bushido Wildcats",
           "Vexar",
-          "Inner Circle Academy",
-          "Misa",
           "WBT",
           "Mai Tai",
-          "Leo",
           "ex-MANA",
           "los kogutos",
           "FAVBET",
-          "MOUZ NXT",
           "DragonClaw"
         ],
         "product_tier": "tier_2",
@@ -7083,7 +7324,7 @@
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-03T15:17:48Z",
+    "last_verified_utc": "2026-08-03T17:22:31Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -7521,7 +7762,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-03T15:18:06Z",
+  "generated_at_utc": "2026-08-03T17:22:49Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -8891,13 +9132,13 @@
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.637705,
-        "brier": 0.22138,
-        "ece": 0.033257,
-        "log_loss": 0.631725
+        "accuracy": 0.637847,
+        "brier": 0.221438,
+        "ece": 0.032526,
+        "log_loss": 0.63186
       },
-      "rows": 914,
-      "test_rows": 610
+      "rows": 917,
+      "test_rows": 613
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -8908,13 +9149,13 @@
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.632787,
-        "brier": 0.221926,
-        "ece": 0.031343,
-        "log_loss": 0.633994
+        "accuracy": 0.636215,
+        "brier": 0.222012,
+        "ece": 0.031468,
+        "log_loss": 0.634171
       },
       "promotion_passed": false,
-      "rows": 610
+      "rows": 613
     },
     "champion": {
       "folds": 3,
@@ -8931,7 +9172,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-03T15:18:06Z",
+    "generated_at_utc": "2026-08-03T17:22:49Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -8943,7 +9184,7 @@
     },
     "training": {
       "new_rows": 3,
-      "online_rows": 157,
+      "online_rows": 160,
       "seed_rows": 757
     }
   },
@@ -9105,9 +9346,12 @@
       "hltv:2396409",
       "hltv:2396414",
       "hltv:2396416",
-      "hltv:2396132"
+      "hltv:2396132",
+      "hltv:2396417",
+      "hltv:2396133",
+      "hltv:2396415"
     ],
-    "last_online_update_utc": "2026-08-03T15:18:06Z",
+    "last_online_update_utc": "2026-08-03T17:22:49Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -12330,10 +12574,10 @@
         "vrs_rank": 107
       },
       {
-        "elo": 1439.02,
-        "last_result_utc": "2026-08-02T16:14:18Z",
-        "matches": 62,
-        "recent_win_rate_10": 0.2827,
+        "elo": 1452.94,
+        "last_result_utc": "2026-08-03T17:22:49Z",
+        "matches": 63,
+        "recent_win_rate_10": 0.4131,
         "team_key": "mouz nxt",
         "team_name": "MOUZ NXT",
         "vrs_points": 1025.0,
@@ -12580,10 +12824,10 @@
         "vrs_rank": 140
       },
       {
-        "elo": 1438.31,
-        "last_result_utc": "2026-08-02T19:36:25Z",
-        "matches": 50,
-        "recent_win_rate_10": 0.2827,
+        "elo": 1451.23,
+        "last_result_utc": "2026-08-03T17:22:49Z",
+        "matches": 51,
+        "recent_win_rate_10": 0.4131,
         "team_key": "leo",
         "team_name": "Leo",
         "vrs_points": 909.0,
@@ -12665,10 +12909,10 @@
         "vrs_rank": 151
       },
       {
-        "elo": 1455.15,
-        "last_result_utc": "2026-08-02T22:12:17Z",
-        "matches": 8,
-        "recent_win_rate_10": 0.3488,
+        "elo": 1442.23,
+        "last_result_utc": "2026-08-03T17:22:49Z",
+        "matches": 9,
+        "recent_win_rate_10": 0.2854,
         "team_key": "inner circle academy",
         "team_name": "Inner Circle Academy",
         "vrs_points": 872.0,
@@ -12915,10 +13159,10 @@
         "vrs_rank": 181
       },
       {
-        "elo": 1484.28,
-        "last_result_utc": "2026-08-02T19:36:25Z",
-        "matches": 7,
-        "recent_win_rate_10": 0.4196,
+        "elo": 1470.36,
+        "last_result_utc": "2026-08-03T17:22:49Z",
+        "matches": 8,
+        "recent_win_rate_10": 0.3433,
         "team_key": "misa",
         "team_name": "Misa",
         "vrs_points": 786.0,
@@ -13929,10 +14173,10 @@
         "vrs_rank": 302
       },
       {
-        "elo": 1502.59,
-        "last_result_utc": "2026-08-02T16:14:18Z",
-        "matches": 102,
-        "recent_win_rate_10": 0.5559,
+        "elo": 1515.34,
+        "last_result_utc": "2026-08-03T17:22:49Z",
+        "matches": 103,
+        "recent_win_rate_10": 0.6366,
         "team_key": "sparta",
         "team_name": "SPARTA",
         "vrs_points": 547.0,
@@ -15179,10 +15423,10 @@
         "vrs_rank": null
       },
       {
-        "elo": 1514.81,
-        "last_result_utc": "2026-07-31T19:54:31Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.6044,
+        "elo": 1502.06,
+        "last_result_utc": "2026-08-03T17:22:49Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.4945,
         "team_key": "ex young ninjas",
         "team_name": "ex-Young Ninjas",
         "vrs_points": 0,
@@ -18284,16 +18528,42 @@
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.7446,
-      "event_id": "hltv:9298",
+      "event_id": "hltv:cct-2026-europe-series-6",
       "event_name": "CCT 2026 Europe Series 6",
       "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-03",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Nuke",
+        "Inferno"
+      ],
+      "match_date": "",
       "match_id": "hltv:2396134",
       "match_phase": "scheduled",
-      "match_timestamp": 1785776400,
+      "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "GenOne",
@@ -18303,8 +18573,8 @@
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396134/genone-vs-unity-cct-2026-europe-series-6",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-08-03T17:00:00Z",
-      "status": "upcoming",
+      "starts_at": null,
+      "status": "live",
       "team1_hltv_rank": null,
       "team1_name": "GenOne",
       "team1_vrs_rank": 99,
@@ -18317,16 +18587,42 @@
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.5834,
-      "event_id": "hltv:9260",
+      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
       "event_name": "ESL Challenger League Season 52 Europe Cup 2",
       "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-03",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Dust2",
+        "Cache"
+      ],
+      "match_date": "",
       "match_id": "hltv:2396418",
       "match_phase": "scheduled",
-      "match_timestamp": 1785776400,
+      "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Bushido Wildcats",
@@ -18335,9 +18631,9 @@
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396418/bushido-wildcats-vs-noir-verse-esl-challenger-league-season-52-europe-cup-2",
-      "stage_name": "Quarterfinal",
-      "starts_at": "2026-08-03T17:00:00Z",
-      "status": "upcoming",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
       "team1_hltv_rank": null,
       "team1_name": "Bushido Wildcats",
       "team1_vrs_rank": 239,
@@ -18346,160 +18642,108 @@
       "team2_vrs_rank": null
     },
     {
-      "confidence": 0.5012,
+      "confidence": 0.5659,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4988,
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
+      "elo_prob_team1": 0.5659,
+      "event_id": "hltv:9260",
       "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": 12,
-          "score2": 16,
-          "status": "finished"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": 7,
-          "score2": 5,
-          "status": "finished"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Nuke",
-        "Ancient"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2396415",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Inner Circle Academy",
-      "prob_team1": 0.4988,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396415/leo-vs-inner-circle-academy-esl-challenger-league-season-52-europe-cup-2",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Leo",
-      "team1_vrs_rank": 141,
-      "team2_hltv_rank": null,
-      "team2_name": "Inner Circle Academy",
-      "team2_vrs_rank": 152
-    },
-    {
-      "confidence": 0.5355,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5355,
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": 13,
-          "score2": 11,
-          "status": "finished"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": 13,
-          "score2": 16,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Nuke",
-        "Mirage"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2396417",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "MOUZ NXT",
-      "prob_team1": 0.5355,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396417/mouz-nxt-vs-misa-esl-challenger-league-season-52-europe-cup-2",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "MOUZ NXT",
-      "team1_vrs_rank": 108,
-      "team2_hltv_rank": null,
-      "team2_name": "Misa",
-      "team2_vrs_rank": 182
-    },
-    {
-      "confidence": 0.5266,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5266,
-      "event_id": "hltv:9298",
-      "event_name": "CCT 2026 Europe Series 6",
       "format": "bo3",
       "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "",
-      "match_id": "hltv:2396133",
+      "match_id": "hltv:2396419",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
-      "predicted_winner": "SPARTA",
-      "prob_team1": 0.5266,
+      "predicted_winner": "WBT",
+      "prob_team1": 0.5659,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396133/sparta-vs-ex-young-ninjas-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
+      "source_url": "https://www.hltv.org/matches/2396419/wbt-vs-leo-esl-challenger-league-season-52-europe-cup-2",
+      "stage_name": "Quarterfinal",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "SPARTA",
-      "team1_vrs_rank": 303,
+      "team1_name": "WBT",
+      "team1_vrs_rank": null,
       "team2_hltv_rank": null,
-      "team2_name": "ex-Young Ninjas",
-      "team2_vrs_rank": null
+      "team2_name": "Leo",
+      "team2_vrs_rank": 141
+    },
+    {
+      "confidence": 0.5285,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4715,
+      "event_id": "hltv:9260",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "",
+      "match_id": "hltv:2396421",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "MOUZ NXT",
+      "prob_team1": 0.4715,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396421/ex-mana-vs-mouz-nxt-esl-challenger-league-season-52-europe-cup-2",
+      "stage_name": "Quarterfinal",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "ex-MANA",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "MOUZ NXT",
+      "team2_vrs_rank": 108
+    },
+    {
+      "confidence": 0.5461,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5461,
+      "event_id": "hltv:9260",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "",
+      "match_id": "hltv:2396420",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "los kogutos",
+      "prob_team1": 0.5461,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396420/los-kogutos-vs-basement-boys-esl-challenger-league-season-52-europe-cup-2",
+      "stage_name": "Quarterfinal",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "los kogutos",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "BASEMENT BOYS",
+      "team2_vrs_rank": 93
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 49,
+    "live_feed_items": 52,
     "online_results_applied": 3,
     "stage3_complete": true,
     "status": "live_feed_refresh"

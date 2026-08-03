@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-03T15:17:48Z",
+  "generated_at_utc": "2026-08-03T17:22:31Z",
   "through_date": "2026-08-03",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1144,
+    "matches": 1147,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1012,6 +1012,72 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "los kogutos",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396417",
+      "match_date": "2026-08-03",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "MOUZ NXT",
+      "team2_name": "Misa",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "MOUZ NXT",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396133",
+      "match_date": "2026-08-03",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "SPARTA",
+      "team2_name": "ex-Young Ninjas",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396415",
+      "match_date": "2026-08-03",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "Leo",
+      "team2_name": "Inner Circle Academy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Leo",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
