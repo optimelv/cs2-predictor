@@ -3807,7 +3807,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:blast-bounty-2026-season-2-finals",
       "event_name": "BLAST Bounty 2026 Season 2 Finals",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396021",
       "lineups": {
         "team1": [
@@ -3917,20 +3917,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Dust2",
-        "Mirage",
-        "Ancient",
-        "Nuke",
-        "Cache"
-      ],
+      "maps": [],
       "match_id": "hltv:2396021",
       "product_tier": "tier_1",
       "score1": 1,
       "score2": 3,
-      "series_format": "bo3",
+      "series_format": "bo5",
       "source_url": "https://www.hltv.org/matches/2396021/spirit-vs-mouz-blast-bounty-2026-season-2-finals",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
       "status": "finished",
       "team1_name": "Spirit",
@@ -4522,7 +4516,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:cct-2026-contenders-europe-series-7",
       "event_name": "CCT 2026 Contenders Europe Series 7",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396329",
       "lineups": {
         "team1": [
@@ -4620,18 +4614,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Dust2",
-        "Ancient",
-        "Cache"
-      ],
+      "maps": [],
       "match_id": "hltv:2396329",
       "product_tier": "tier_2",
       "score1": 0,
       "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396329/aimclub-vs-spirit-academy-cct-2026-contenders-europe-series-7",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
       "status": "finished",
       "team1_name": "aimclub",
@@ -6341,135 +6331,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:blast-bounty-2026-season-2-finals",
           "event_name": "BLAST Bounty 2026 Season 2 Finals",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2396021",
-          "lineups": {
-            "team1": [
-              {
-                "hltv_player_id": "18317",
-                "nickname": "magixx",
-                "player_id": "hltv:18317",
-                "source_url": "https://www.hltv.org/player/18317/magixx",
-                "team_name": "Spirit"
-              },
-              {
-                "hltv_player_id": "19808",
-                "nickname": "tN1R",
-                "player_id": "hltv:19808",
-                "source_url": "https://www.hltv.org/player/19808/tn1r",
-                "team_name": "Spirit"
-              },
-              {
-                "hltv_player_id": "16920",
-                "nickname": "sh1ro",
-                "player_id": "hltv:16920",
-                "source_url": "https://www.hltv.org/player/16920/sh1ro",
-                "team_name": "Spirit"
-              },
-              {
-                "hltv_player_id": "21167",
-                "nickname": "donk",
-                "player_id": "hltv:21167",
-                "source_url": "https://www.hltv.org/player/21167/donk",
-                "team_name": "Spirit"
-              },
-              {
-                "hltv_player_id": "20423",
-                "nickname": "zont1x",
-                "player_id": "hltv:20423",
-                "source_url": "https://www.hltv.org/player/20423/zont1x",
-                "team_name": "Spirit"
-              }
-            ],
-            "team2": [
-              {
-                "hltv_player_id": "24457",
-                "nickname": "xelex",
-                "player_id": "hltv:24457",
-                "source_url": "https://www.hltv.org/player/24457/xelex",
-                "team_name": "MOUZ"
-              },
-              {
-                "hltv_player_id": "18221",
-                "nickname": "Spinx",
-                "player_id": "hltv:18221",
-                "source_url": "https://www.hltv.org/player/18221/spinx",
-                "team_name": "MOUZ"
-              },
-              {
-                "hltv_player_id": "20312",
-                "nickname": "xertioN",
-                "player_id": "hltv:20312",
-                "source_url": "https://www.hltv.org/player/20312/xertion",
-                "team_name": "MOUZ"
-              },
-              {
-                "hltv_player_id": "18072",
-                "nickname": "torzsi",
-                "player_id": "hltv:18072",
-                "source_url": "https://www.hltv.org/player/18072/torzsi",
-                "team_name": "MOUZ"
-              },
-              {
-                "hltv_player_id": "22279",
-                "nickname": "PR",
-                "player_id": "hltv:22279",
-                "source_url": "https://www.hltv.org/player/22279/pr",
-                "team_name": "MOUZ"
-              }
-            ]
-          },
-          "map_results": [
-            {
-              "map_name": "Dust2",
-              "score1": 8,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": 4,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Ancient",
-              "score1": 13,
-              "score2": 9,
-              "status": "finished"
-            },
-            {
-              "map_name": "Nuke",
-              "score1": 10,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Cache",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Dust2",
-            "Mirage",
-            "Ancient",
-            "Nuke",
-            "Cache"
-          ],
+          "maps": [],
           "match_id": "hltv:2396021",
           "product_tier": "tier_1",
           "score1": 1,
           "score2": 3,
-          "series_format": "bo3",
+          "series_format": "bo5",
           "source_url": "https://www.hltv.org/matches/2396021/spirit-vs-mouz-blast-bounty-2026-season-2-finals",
-          "stage_name": "Scheduled series",
+          "stage_name": "Completed series",
           "starts_at": null,
           "status": "finished",
           "team1_name": "Spirit",
           "team2_name": "MOUZ",
-          "veto_text": "Best of 5 (LAN)\n\n* Grand final",
           "winner_name": "MOUZ"
         },
         {
@@ -6509,25 +6384,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "FaZe",
           "team2_name": "Spirit",
           "winner_name": "Spirit"
-        },
-        {
-          "event_id": "hltv:blast-bounty-2026-season-2-finals",
-          "event_name": "BLAST Bounty 2026 Season 2 Finals",
-          "event_url": null,
-          "hltv_match_id": "2396015",
-          "maps": [],
-          "match_id": "hltv:2396015",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396015/pain-vs-astralis-blast-bounty-2026-season-2-finals",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "paiN",
-          "team2_name": "Astralis",
-          "winner_name": "Astralis"
         }
       ],
       "name": "BLAST Bounty 2026 Season 2 Finals",
@@ -6535,11 +6391,10 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Spirit",
         "MOUZ",
         "Astralis",
-        "FaZe",
-        "paiN"
+        "FaZe"
       ],
       "product_tier": "tier_1",
-      "source_url": "https://www.hltv.org/events/archive",
+      "source_url": null,
       "status": "finished"
     },
     {
@@ -6555,121 +6410,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-contenders-europe-series-7",
           "event_name": "CCT 2026 Contenders Europe Series 7",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2396329",
-          "lineups": {
-            "team1": [
-              {
-                "hltv_player_id": "16971",
-                "nickname": "zewts",
-                "player_id": "hltv:16971",
-                "source_url": "https://www.hltv.org/player/16971/zewts",
-                "team_name": "aimclub"
-              },
-              {
-                "hltv_player_id": "21213",
-                "nickname": "ERSIN",
-                "player_id": "hltv:21213",
-                "source_url": "https://www.hltv.org/player/21213/ersin",
-                "team_name": "aimclub"
-              },
-              {
-                "hltv_player_id": "17116",
-                "nickname": "ragga",
-                "player_id": "hltv:17116",
-                "source_url": "https://www.hltv.org/player/17116/ragga",
-                "team_name": "aimclub"
-              },
-              {
-                "hltv_player_id": "18294",
-                "nickname": "ADRON",
-                "player_id": "hltv:18294",
-                "source_url": "https://www.hltv.org/player/18294/adron",
-                "team_name": "aimclub"
-              },
-              {
-                "hltv_player_id": "21716",
-                "nickname": "waZz",
-                "player_id": "hltv:21716",
-                "source_url": "https://www.hltv.org/player/21716/wazz",
-                "team_name": "aimclub"
-              }
-            ],
-            "team2": [
-              {
-                "hltv_player_id": "23193",
-                "nickname": "VILBy",
-                "player_id": "hltv:23193",
-                "source_url": "https://www.hltv.org/player/23193/vilby",
-                "team_name": "Spirit Academy"
-              },
-              {
-                "hltv_player_id": "25390",
-                "nickname": "Kiryasoo",
-                "player_id": "hltv:25390",
-                "source_url": "https://www.hltv.org/player/25390/kiryasoo",
-                "team_name": "Spirit Academy"
-              },
-              {
-                "hltv_player_id": "25911",
-                "nickname": "s1nside",
-                "player_id": "hltv:25911",
-                "source_url": "https://www.hltv.org/player/25911/s1nside",
-                "team_name": "Spirit Academy"
-              },
-              {
-                "hltv_player_id": "26299",
-                "nickname": "k0gaSs",
-                "player_id": "hltv:26299",
-                "source_url": "https://www.hltv.org/player/26299/k0gass",
-                "team_name": "Spirit Academy"
-              },
-              {
-                "hltv_player_id": "25622",
-                "nickname": "Netrix",
-                "player_id": "hltv:25622",
-                "source_url": "https://www.hltv.org/player/25622/netrix",
-                "team_name": "Spirit Academy"
-              }
-            ]
-          },
-          "map_results": [
-            {
-              "map_name": "Dust2",
-              "score1": 11,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Ancient",
-              "score1": 10,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Cache",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Dust2",
-            "Ancient",
-            "Cache"
-          ],
+          "maps": [],
           "match_id": "hltv:2396329",
           "product_tier": "tier_2",
           "score1": 0,
           "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396329/aimclub-vs-spirit-academy-cct-2026-contenders-europe-series-7",
-          "stage_name": "Scheduled series",
+          "stage_name": "Completed series",
           "starts_at": null,
           "status": "finished",
           "team1_name": "aimclub",
           "team2_name": "Spirit Academy",
-          "veto_text": "Best of 3 (Online)\n\n* Grand final",
           "winner_name": "Spirit Academy"
         },
         {
@@ -6728,25 +6482,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Young TigeRES",
           "team2_name": "aimclub",
           "winner_name": "aimclub"
-        },
-        {
-          "event_id": "hltv:cct-2026-contenders-europe-series-7",
-          "event_name": "CCT 2026 Contenders Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396324",
-          "maps": [],
-          "match_id": "hltv:2396324",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396324/spirit-academy-vs-sleepers-cct-2026-contenders-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Spirit Academy",
-          "team2_name": "sleepers",
-          "winner_name": "Spirit Academy"
         }
       ],
       "name": "CCT 2026 Contenders Europe Series 7",
@@ -6754,11 +6489,10 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "aimclub",
         "Spirit Academy",
         "Young TigeRES",
-        "mellren",
-        "sleepers"
+        "mellren"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
+      "source_url": null,
       "status": "finished"
     },
     {
@@ -7190,7 +6924,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-02T22:11:59Z",
+  "last_verified_utc": "2026-08-03T03:56:28Z",
   "sources": [
     {
       "name": "HLTV events calendar",
