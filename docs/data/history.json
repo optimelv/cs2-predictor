@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-04T19:57:53Z",
+  "generated_at_utc": "2026-08-04T22:30:52Z",
   "through_date": "2026-08-04",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1158,
+    "matches": 1159,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1144,6 +1144,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "BASEMENT BOYS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396425",
+      "match_date": "2026-08-04",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "ex-MANA",
+      "team2_name": "Bushido Wildcats",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Bushido Wildcats",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
