@@ -609,6 +609,25 @@
           "event_id": "hltv:cct-2026-europe-series-6",
           "event_name": "CCT 2026 Europe Series 6",
           "event_url": null,
+          "hltv_match_id": "2396137",
+          "maps": [],
+          "match_id": "hltv:2396137",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396137/unity-vs-ex-young-ninjas-cct-2026-europe-series-6",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "UNiTY",
+          "team2_name": "ex-Young Ninjas",
+          "winner_name": "UNiTY"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-6",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
           "hltv_match_id": "2396136",
           "maps": [],
           "match_id": "hltv:2396136",
@@ -756,63 +775,18 @@
           "team1_name": "Inner Circle Academy",
           "team2_name": "NEW VISION",
           "winner_name": "NEW VISION"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396137",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Dust2",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Dust2",
-            "Ancient",
-            "Mirage"
-          ],
-          "match_id": "hltv:2396137",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396137/unity-vs-ex-young-ninjas-cct-2026-europe-series-6",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "UNiTY",
-          "team2_name": "ex-Young Ninjas",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
         }
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
+        "UNiTY",
+        "ex-Young Ninjas",
         "Just Players",
         "Enjoy",
         "ex-RUSTEC",
         "NEW VISION",
         "GenOne",
-        "UNiTY",
         "SPARTA",
-        "ex-Young Ninjas",
         "los kogutos",
         "Honvéd",
         "Mai Tai",
@@ -820,7 +794,7 @@
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -832,6 +806,25 @@
       },
       "id": "hltv:esl-challenger-league-season-52-europe-cup-2",
       "matches": [
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
+          "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+          "event_url": null,
+          "hltv_match_id": "2396424",
+          "maps": [],
+          "match_id": "hltv:2396424",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396424/basement-boys-vs-leo-esl-challenger-league-season-52-europe-cup-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "BASEMENT BOYS",
+          "team2_name": "Leo",
+          "winner_name": "BASEMENT BOYS"
+        },
         {
           "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
           "event_name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -1330,53 +1323,53 @@
           "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
           "event_name": "ESL Challenger League Season 52 Europe Cup 2",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396424",
+          "hltv_match_id": "2396425",
           "lineups": {
             "team1": [],
             "team2": []
           },
           "map_results": [
             {
-              "map_name": "Anubis",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "map_name": "Cache",
+              "score1": 13,
+              "score2": 9,
+              "status": "finished"
             },
             {
               "map_name": "Mirage",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 7,
+              "score2": 13,
+              "status": "finished"
             },
             {
-              "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "map_name": "Dust2",
+              "score1": 1,
+              "score2": 11,
+              "status": "finished"
             }
           ],
           "maps": [
-            "Anubis",
+            "Cache",
             "Mirage",
-            "Ancient"
+            "Dust2"
           ],
-          "match_id": "hltv:2396424",
+          "match_id": "hltv:2396425",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396424/basement-boys-vs-leo-esl-challenger-league-season-52-europe-cup-2",
+          "source_url": "https://www.hltv.org/matches/2396425/ex-mana-vs-bushido-wildcats-esl-challenger-league-season-52-europe-cup-2",
           "stage_name": "Scheduled series",
           "starts_at": null,
           "status": "live",
-          "team1_name": "BASEMENT BOYS",
-          "team2_name": "Leo",
-          "veto_text": "Best of 3 (Online)\n\n* 3rd place decider match"
+          "team1_name": "ex-MANA",
+          "team2_name": "Bushido Wildcats",
+          "veto_text": "Best of 3 (Online)\n\n* Grand final"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 2",
       "participants": [
-        "Bushido Wildcats",
-        "Leo",
         "BASEMENT BOYS",
+        "Leo",
+        "Bushido Wildcats",
         "ex-MANA",
         "WBT",
         "MOUZ NXT",
@@ -1650,85 +1643,9 @@
       "product_tier": "tier_1",
       "source_url": null,
       "status": "finished"
-    },
-    {
-      "bracket": {
-        "rounds": [
-          {
-            "bracket": "main",
-            "id": "main:grand-final",
-            "matches": [
-              {
-                "event_id": "hltv:9260",
-                "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-                "event_url": null,
-                "feeds_from": [],
-                "hltv_match_id": "2396425",
-                "maps": [],
-                "match_id": "hltv:2396425",
-                "product_tier": "tier_2",
-                "round_name": "Grand Final",
-                "series_format": "bo3",
-                "slot_id": "main:grand-final:1",
-                "source_url": "https://www.hltv.org/matches/2396425/ex-mana-vs-bushido-wildcats-esl-challenger-league-season-52-europe-cup-2",
-                "stage_name": "Grand Final",
-                "starts_at": null,
-                "status": "live",
-                "team1_name": "ex-MANA",
-                "team2_name": "Bushido Wildcats"
-              }
-            ],
-            "name": "Grand Final",
-            "order": 1
-          }
-        ],
-        "type": "single_elimination"
-      },
-      "current_stage": "Grand Final",
-      "format": {
-        "label": "Grand Final",
-        "settings": {},
-        "stages": [
-          {
-            "id": "grand-final",
-            "name": "Grand Final",
-            "order": 1,
-            "status": "live",
-            "type": "single_elimination"
-          }
-        ],
-        "type": "single_elimination"
-      },
-      "id": "hltv:9260",
-      "matches": [
-        {
-          "event_id": "hltv:9260",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-          "event_url": null,
-          "hltv_match_id": "2396425",
-          "maps": [],
-          "match_id": "hltv:2396425",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396425/ex-mana-vs-bushido-wildcats-esl-challenger-league-season-52-europe-cup-2",
-          "stage_name": "Grand Final",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "ex-MANA",
-          "team2_name": "Bushido Wildcats"
-        }
-      ],
-      "name": "ESL Challenger League Season 52 Europe Cup 2",
-      "participants": [
-        "ex-MANA",
-        "Bushido Wildcats"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "ongoing"
     }
   ],
-  "fetched_at_utc": "2026-08-04T17:05:02Z",
+  "fetched_at_utc": "2026-08-04T19:57:53Z",
   "matches": [
     {
       "event_id": "hltv:8762",
@@ -2241,6 +2158,44 @@
       "status": "upcoming",
       "team1_name": "Zeste",
       "team2_name": "JiJieHao"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-6",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396137",
+      "maps": [],
+      "match_id": "hltv:2396137",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396137/unity-vs-ex-young-ninjas-cct-2026-europe-series-6",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "UNiTY",
+      "team2_name": "ex-Young Ninjas",
+      "winner_name": "UNiTY"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "event_url": null,
+      "hltv_match_id": "2396424",
+      "maps": [],
+      "match_id": "hltv:2396424",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396424/basement-boys-vs-leo-esl-challenger-league-season-52-europe-cup-2",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "BASEMENT BOYS",
+      "team2_name": "Leo",
+      "winner_name": "BASEMENT BOYS"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-6",
@@ -3060,110 +3015,49 @@
       "winner_name": "Sashi"
     },
     {
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396137",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Ancient",
-        "Mirage"
-      ],
-      "match_id": "hltv:2396137",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396137/unity-vs-ex-young-ninjas-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_name": "UNiTY",
-      "team2_name": "ex-Young Ninjas",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
-    },
-    {
       "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
       "event_name": "ESL Challenger League Season 52 Europe Cup 2",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396424",
+      "hltv_match_id": "2396425",
       "lineups": {
         "team1": [],
         "team2": []
       },
       "map_results": [
         {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 9,
+          "status": "finished"
         },
         {
           "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 7,
+          "score2": 13,
+          "status": "finished"
         },
         {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "map_name": "Dust2",
+          "score1": 1,
+          "score2": 11,
+          "status": "finished"
         }
       ],
       "maps": [
-        "Anubis",
+        "Cache",
         "Mirage",
-        "Ancient"
+        "Dust2"
       ],
-      "match_id": "hltv:2396424",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396424/basement-boys-vs-leo-esl-challenger-league-season-52-europe-cup-2",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_name": "BASEMENT BOYS",
-      "team2_name": "Leo",
-      "veto_text": "Best of 3 (Online)\n\n* 3rd place decider match"
-    },
-    {
-      "event_id": "hltv:9260",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-      "event_url": null,
-      "hltv_match_id": "2396425",
-      "maps": [],
       "match_id": "hltv:2396425",
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396425/ex-mana-vs-bushido-wildcats-esl-challenger-league-season-52-europe-cup-2",
-      "stage_name": "Grand Final",
+      "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_name": "ex-MANA",
-      "team2_name": "Bushido Wildcats"
+      "team2_name": "Bushido Wildcats",
+      "veto_text": "Best of 3 (Online)\n\n* Grand final"
     }
   ],
   "ok": true,
@@ -3175,14 +3069,14 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 54
+    "scheduled_matches": 50
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 8,
+    "events_kept": 7,
     "matches_kept": 78,
     "players_kept": 0,
     "event_tiers": {
@@ -3192,8 +3086,7 @@
       "hltv:cct-2026-contenders-europe-series-7": "tier_2",
       "hltv:cct-2026-europe-series-5": "tier_2",
       "hltv:thunderpick-world-championship-2026-europe-series-2": "tier_2",
-      "hltv:blast-bounty-2026-season-2-finals": "tier_1",
-      "hltv:9260": "tier_2"
+      "hltv:blast-bounty-2026-season-2-finals": "tier_1"
     },
     "eligible_match_ids": [
       "hltv:2396451",
@@ -3228,6 +3121,8 @@
       "hltv:2396496",
       "hltv:2396497",
       "hltv:2396498",
+      "hltv:2396137",
+      "hltv:2396424",
       "hltv:2396136",
       "hltv:2396422",
       "hltv:2396423",
@@ -3271,8 +3166,6 @@
       "hltv:2396426",
       "hltv:2396129",
       "hltv:2395968",
-      "hltv:2396137",
-      "hltv:2396424",
       "hltv:2396425"
     ]
   }

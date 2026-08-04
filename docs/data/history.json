@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-04T17:05:02Z",
+  "generated_at_utc": "2026-08-04T19:57:53Z",
   "through_date": "2026-08-04",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1156,
+    "matches": 1158,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1100,6 +1100,50 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "ex-MANA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396137",
+      "match_date": "2026-08-04",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "UNiTY",
+      "team2_name": "ex-Young Ninjas",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396424",
+      "match_date": "2026-08-04",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
+      "team1_name": "BASEMENT BOYS",
+      "team2_name": "Leo",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BASEMENT BOYS",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
