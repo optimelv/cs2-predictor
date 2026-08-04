@@ -4970,6 +4970,51 @@
       "winner_name": "BASEMENT BOYS"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-6",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396135",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Nuke",
+        "Anubis"
+      ],
+      "match_id": "hltv:2396135",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396135/ex-rustec-vs-new-vision-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "NEW VISION",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -5089,22 +5134,6 @@
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:9298",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2396135",
-      "maps": [],
-      "match_id": "hltv:2396135",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396135/ex-rustec-vs-new-vision-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-04T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ex-RUSTEC",
-      "team2_name": "NEW VISION"
     },
     {
       "event_id": "hltv:9260",
@@ -5867,25 +5896,6 @@
           "team1_name": "ex-RUSTEC",
           "team2_name": "SPARTA",
           "winner_name": "SPARTA"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395966",
-          "maps": [],
-          "match_id": "hltv:2395966",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395966/just-players-vs-sashi-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Just Players",
-          "team2_name": "Sashi",
-          "winner_name": "Sashi"
         }
       ],
       "name": "CCT 2026 Europe Series 5",
@@ -5894,8 +5904,7 @@
         "SINNERS",
         "SPARTA",
         "Black Phoenix",
-        "ex-RUSTEC",
-        "Just Players"
+        "ex-RUSTEC"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -6025,25 +6034,6 @@
           "team1_name": "CYBERSHOKE",
           "team2_name": "megoshort",
           "winner_name": "CYBERSHOKE"
-        },
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396189",
-          "maps": [],
-          "match_id": "hltv:2396189",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396189/ex-1win-vs-inox-division-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ex-1win",
-          "team2_name": "INOX Division",
-          "winner_name": "ex-1win"
         }
       ],
       "name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -6052,8 +6042,7 @@
         "GenOne",
         "CYBERSHOKE",
         "ex-1win",
-        "megoshort",
-        "INOX Division"
+        "megoshort"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -6069,22 +6058,6 @@
       },
       "id": "hltv:9298",
       "matches": [
-        {
-          "event_id": "hltv:9298",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396135",
-          "maps": [],
-          "match_id": "hltv:2396135",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396135/ex-rustec-vs-new-vision-cct-2026-europe-series-6",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-04T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ex-RUSTEC",
-          "team2_name": "NEW VISION"
-        },
         {
           "event_id": "hltv:9298",
           "event_name": "CCT 2026 Europe Series 6",
@@ -6120,8 +6093,6 @@
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
-        "ex-RUSTEC",
-        "NEW VISION",
         "Just Players",
         "Enjoy",
         "UNiTY",
@@ -6425,6 +6396,51 @@
           "team1_name": "Black Phoenix",
           "team2_name": "Just Players",
           "winner_name": "Black Phoenix"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-6",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396135",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Nuke",
+            "Anubis"
+          ],
+          "match_id": "hltv:2396135",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396135/ex-rustec-vs-new-vision-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "ex-RUSTEC",
+          "team2_name": "NEW VISION",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
         }
       ],
       "name": "CCT 2026 Europe Series 6",
@@ -6445,7 +6461,7 @@
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "finished"
+      "status": "ongoing"
     },
     {
       "current_stage": "Playoffs",
@@ -7308,7 +7324,7 @@
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-04T09:09:36Z",
+  "last_verified_utc": "2026-08-04T11:34:52Z",
   "sources": [
     {
       "name": "HLTV events calendar",
