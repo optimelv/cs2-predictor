@@ -818,25 +818,6 @@
           "team1_name": "Black Phoenix",
           "team2_name": "Just Players",
           "winner_name": "Black Phoenix"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396127",
-          "maps": [],
-          "match_id": "hltv:2396127",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396127/sparta-vs-rune-eaters-cct-2026-europe-series-6",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "SPARTA",
-          "team2_name": "Rune Eaters",
-          "winner_name": "Rune Eaters"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
@@ -853,8 +834,7 @@
         "Enjoy",
         "Inner Circle Academy",
         "NEW VISION",
-        "Black Phoenix",
-        "Rune Eaters"
+        "Black Phoenix"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -1224,39 +1204,19 @@
           "team1_name": "Spirit",
           "team2_name": "MOUZ",
           "winner_name": "MOUZ"
-        },
-        {
-          "event_id": "hltv:blast-bounty-2026-season-2-finals",
-          "event_name": "BLAST Bounty 2026 Season 2 Finals",
-          "event_url": null,
-          "hltv_match_id": "2396019",
-          "maps": [],
-          "match_id": "hltv:2396019",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396019/astralis-vs-mouz-blast-bounty-2026-season-2-finals",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Astralis",
-          "team2_name": "MOUZ",
-          "winner_name": "MOUZ"
         }
       ],
       "name": "BLAST Bounty 2026 Season 2 Finals",
       "participants": [
         "Spirit",
-        "MOUZ",
-        "Astralis"
+        "MOUZ"
       ],
       "product_tier": "tier_1",
       "source_url": null,
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-03T22:19:07Z",
+  "fetched_at_utc": "2026-08-04T03:38:35Z",
   "matches": [
     {
       "event_id": "hltv:9298",
@@ -2211,119 +2171,10 @@
       "team1_name": "ex-1win",
       "team2_name": "INOX Division",
       "winner_name": "ex-1win"
-    },
-    {
-      "event_id": "hltv:blast-bounty-2026-season-2-finals",
-      "event_name": "BLAST Bounty 2026 Season 2 Finals",
-      "event_url": null,
-      "hltv_match_id": "2396019",
-      "maps": [],
-      "match_id": "hltv:2396019",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396019/astralis-vs-mouz-blast-bounty-2026-season-2-finals",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Astralis",
-      "team2_name": "MOUZ",
-      "winner_name": "MOUZ"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2396127",
-      "maps": [],
-      "match_id": "hltv:2396127",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396127/sparta-vs-rune-eaters-cct-2026-europe-series-6",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "SPARTA",
-      "team2_name": "Rune Eaters",
-      "winner_name": "Rune Eaters"
     }
   ],
   "ok": true,
-  "players": [
-    {
-      "hltv_player_id": "20183",
-      "nickname": "decenty",
-      "player_id": "hltv:20183",
-      "source_url": "https://www.hltv.org/player/20183/decenty",
-      "team_name": "Imperial"
-    },
-    {
-      "hltv_player_id": "12822",
-      "nickname": "VINI",
-      "player_id": "hltv:12822",
-      "source_url": "https://www.hltv.org/player/12822/vini",
-      "team_name": "Imperial"
-    },
-    {
-      "hltv_player_id": "10566",
-      "nickname": "chelo",
-      "player_id": "hltv:10566",
-      "source_url": "https://www.hltv.org/player/10566/chelo",
-      "team_name": "Imperial"
-    },
-    {
-      "hltv_player_id": "22564",
-      "nickname": "noway",
-      "player_id": "hltv:22564",
-      "source_url": "https://www.hltv.org/player/22564/noway",
-      "team_name": "Imperial"
-    },
-    {
-      "hltv_player_id": "22965",
-      "nickname": "saadzin",
-      "player_id": "hltv:22965",
-      "source_url": "https://www.hltv.org/player/22965/saadzin",
-      "team_name": "Imperial"
-    },
-    {
-      "hltv_player_id": "17997",
-      "nickname": "lenci",
-      "player_id": "hltv:17997",
-      "source_url": "https://www.hltv.org/player/17997/lenci",
-      "team_name": "Procyon"
-    },
-    {
-      "hltv_player_id": "19086",
-      "nickname": "pavv",
-      "player_id": "hltv:19086",
-      "source_url": "https://www.hltv.org/player/19086/pavv",
-      "team_name": "Procyon"
-    },
-    {
-      "hltv_player_id": "18549",
-      "nickname": "laser",
-      "player_id": "hltv:18549",
-      "source_url": "https://www.hltv.org/player/18549/laser",
-      "team_name": "Procyon"
-    },
-    {
-      "hltv_player_id": "23549",
-      "nickname": "MaxOff",
-      "player_id": "hltv:23549",
-      "source_url": "https://www.hltv.org/player/23549/maxoff",
-      "team_name": "Procyon"
-    },
-    {
-      "hltv_player_id": "25106",
-      "nickname": "next",
-      "player_id": "hltv:25106",
-      "source_url": "https://www.hltv.org/player/25106/next",
-      "team_name": "Procyon"
-    }
-  ],
+  "players": [],
   "poll_after_ms": 300000,
   "rankings": null,
   "source": "HLTV via GitHub Actions FlareSolverr",
@@ -2331,7 +2182,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 32
+    "scheduled_matches": 30
   },
   "product_filter": {
     "eligible_tiers": [
@@ -2339,8 +2190,8 @@
       "tier_2"
     ],
     "events_kept": 8,
-    "matches_kept": 53,
-    "players_kept": 10,
+    "matches_kept": 51,
+    "players_kept": 0,
     "event_tiers": {
       "hltv:9298": "tier_2",
       "hltv:9260": "tier_2",
@@ -2402,9 +2253,7 @@
       "hltv:2396128",
       "hltv:2396326",
       "hltv:2395966",
-      "hltv:2396189",
-      "hltv:2396019",
-      "hltv:2396127"
+      "hltv:2396189"
     ]
   }
 }

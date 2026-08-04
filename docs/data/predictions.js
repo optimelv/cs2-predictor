@@ -6426,25 +6426,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Black Phoenix",
             "team2_name": "Just Players",
             "winner_name": "Black Phoenix"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-6",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
-            "hltv_match_id": "2396127",
-            "maps": [],
-            "match_id": "hltv:2396127",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396127/sparta-vs-rune-eaters-cct-2026-europe-series-6",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "SPARTA",
-            "team2_name": "Rune Eaters",
-            "winner_name": "Rune Eaters"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
@@ -6461,8 +6442,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Enjoy",
           "Inner Circle Academy",
           "NEW VISION",
-          "Black Phoenix",
-          "Rune Eaters"
+          "Black Phoenix"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -6616,32 +6596,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Spirit",
             "team2_name": "MOUZ",
             "winner_name": "MOUZ"
-          },
-          {
-            "event_id": "hltv:blast-bounty-2026-season-2-finals",
-            "event_name": "BLAST Bounty 2026 Season 2 Finals",
-            "event_url": null,
-            "hltv_match_id": "2396019",
-            "maps": [],
-            "match_id": "hltv:2396019",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396019/astralis-vs-mouz-blast-bounty-2026-season-2-finals",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Astralis",
-            "team2_name": "MOUZ",
-            "winner_name": "MOUZ"
           }
         ],
         "name": "BLAST Bounty 2026 Season 2 Finals",
         "participants": [
           "Spirit",
-          "MOUZ",
-          "Astralis"
+          "MOUZ"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -7349,7 +7309,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-08-03T22:19:07Z",
+    "last_verified_utc": "2026-08-04T03:38:35Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -7787,7 +7747,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-03T22:19:19Z",
+  "generated_at_utc": "2026-08-04T03:38:56Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9197,7 +9157,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-03T22:19:19Z",
+    "generated_at_utc": "2026-08-04T03:38:55Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -9208,7 +9168,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
+      "new_rows": 0,
       "online_rows": 165,
       "seed_rows": 757
     }
@@ -18721,8 +18681,8 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 53,
-    "online_results_applied": 2,
+    "live_feed_items": 51,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

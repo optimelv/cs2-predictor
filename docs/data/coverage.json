@@ -6425,25 +6425,6 @@
           "team1_name": "Black Phoenix",
           "team2_name": "Just Players",
           "winner_name": "Black Phoenix"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396127",
-          "maps": [],
-          "match_id": "hltv:2396127",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396127/sparta-vs-rune-eaters-cct-2026-europe-series-6",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "SPARTA",
-          "team2_name": "Rune Eaters",
-          "winner_name": "Rune Eaters"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
@@ -6460,8 +6441,7 @@
         "Enjoy",
         "Inner Circle Academy",
         "NEW VISION",
-        "Black Phoenix",
-        "Rune Eaters"
+        "Black Phoenix"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -6615,32 +6595,12 @@
           "team1_name": "Spirit",
           "team2_name": "MOUZ",
           "winner_name": "MOUZ"
-        },
-        {
-          "event_id": "hltv:blast-bounty-2026-season-2-finals",
-          "event_name": "BLAST Bounty 2026 Season 2 Finals",
-          "event_url": null,
-          "hltv_match_id": "2396019",
-          "maps": [],
-          "match_id": "hltv:2396019",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396019/astralis-vs-mouz-blast-bounty-2026-season-2-finals",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Astralis",
-          "team2_name": "MOUZ",
-          "winner_name": "MOUZ"
         }
       ],
       "name": "BLAST Bounty 2026 Season 2 Finals",
       "participants": [
         "Spirit",
-        "MOUZ",
-        "Astralis"
+        "MOUZ"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -7348,7 +7308,7 @@
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-03T22:19:07Z",
+  "last_verified_utc": "2026-08-04T03:38:35Z",
   "sources": [
     {
       "name": "HLTV events calendar",
