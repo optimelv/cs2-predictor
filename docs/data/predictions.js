@@ -4383,10 +4383,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9298",
+        "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396138",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396138",
         "product_tier": "tier_2",
@@ -4396,7 +4400,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-05T08:00:00Z",
         "status": "upcoming",
         "team1_name": "ARCRED",
-        "team2_name": "Just Players"
+        "team2_name": "Just Players",
+        "veto_text": "Best of 3 (Online)\n\n* Round of 16"
       },
       {
         "event_id": "hltv:9298",
@@ -5779,33 +5784,13 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "GenOne",
             "team2_name": "CYBERSHOKE",
             "winner_name": "GenOne"
-          },
-          {
-            "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-            "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-            "event_url": null,
-            "hltv_match_id": "2396191",
-            "maps": [],
-            "match_id": "hltv:2396191",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396191/lazer-cats-vs-ex-1win-thunderpick-world-championship-2026-europe-series-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Lazer Cats",
-            "team2_name": "ex-1win",
-            "winner_name": "Lazer Cats"
           }
         ],
         "name": "Thunderpick World Championship 2026 Europe Series 2",
         "participants": [
           "Lazer Cats",
           "GenOne",
-          "CYBERSHOKE",
-          "ex-1win"
+          "CYBERSHOKE"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -5821,22 +5806,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:9298",
         "matches": [
-          {
-            "event_id": "hltv:9298",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
-            "hltv_match_id": "2396138",
-            "maps": [],
-            "match_id": "hltv:2396138",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396138/arcred-vs-just-players-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-05T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "ARCRED",
-            "team2_name": "Just Players"
-          },
           {
             "event_id": "hltv:9298",
             "event_name": "CCT 2026 Europe Series 6",
@@ -5952,8 +5921,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
-          "ARCRED",
-          "Just Players",
           "Butterfly",
           "Rune Eaters",
           "Nordic Partners",
@@ -6138,6 +6105,27 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396138",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396138",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396138/arcred-vs-just-players-cct-2026-europe-series-6",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-05T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "ARCRED",
+            "team2_name": "Just Players",
+            "veto_text": "Best of 3 (Online)\n\n* Round of 16"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
             "event_url": null,
             "hltv_match_id": "2396137",
             "maps": [],
@@ -6286,32 +6274,14 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Mai Tai",
             "team2_name": "Enjoy",
             "winner_name": "Enjoy"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-6",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
-            "hltv_match_id": "2396129",
-            "maps": [],
-            "match_id": "hltv:2396129",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396129/inner-circle-academy-vs-new-vision-cct-2026-europe-series-6",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Inner Circle Academy",
-            "team2_name": "NEW VISION",
-            "winner_name": "NEW VISION"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
+          "ARCRED",
+          "Just Players",
           "UNiTY",
           "ex-Young Ninjas",
-          "Just Players",
           "Enjoy",
           "ex-RUSTEC",
           "NEW VISION",
@@ -6319,12 +6289,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "SPARTA",
           "los kogutos",
           "Honv\u00e9d",
-          "Mai Tai",
-          "Inner Circle Academy"
+          "Mai Tai"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       },
       {
         "current_stage": "Playoffs",
@@ -7142,25 +7111,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "FAVBET",
             "team2_name": "Misa",
             "winner_name": "Misa"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-            "event_url": null,
-            "hltv_match_id": "2396426",
-            "maps": [],
-            "match_id": "hltv:2396426",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396426/dragonclaw-vs-fortress-esl-challenger-league-season-52-europe-cup-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "DragonClaw",
-            "team2_name": "Fortress",
-            "winner_name": "Fortress"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -7781,7 +7731,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-04T22:30:52Z",
+    "last_verified_utc": "2026-08-05T03:34:38Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8219,7 +8169,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-04T22:31:13Z",
+  "generated_at_utc": "2026-08-05T03:34:57Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9629,7 +9579,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-04T22:31:12Z",
+    "generated_at_utc": "2026-08-05T03:34:56Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -9640,7 +9590,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
+      "new_rows": 0,
       "online_rows": 172,
       "seed_rows": 757
     }
@@ -18997,10 +18947,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.6536,
-      "event_id": "hltv:9298",
+      "event_id": "hltv:cct-2026-europe-series-6",
       "event_name": "CCT 2026 Europe Series 6",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-05",
@@ -19787,8 +19740,8 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 85,
-    "online_results_applied": 1,
+    "live_feed_items": 82,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
