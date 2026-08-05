@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-05T14:35:24Z",
+  "generated_at_utc": "2026-08-05T16:54:14Z",
   "through_date": "2026-08-05",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1161,
+    "matches": 1162,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -968,6 +968,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396140",
+      "match_date": "2026-08-05",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "Nordic Partners",
+      "team2_name": "GenOne",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "GenOne",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
