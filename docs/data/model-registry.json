@@ -43,7 +43,7 @@
     "version": "bounded-elo-vrs-v1"
   },
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-05T03:34:56Z",
+  "generated_at_utc": "2026-08-05T09:07:13Z",
   "history": [],
   "promotion_gates": {
     "maximum_accuracy_regression": 0.005,

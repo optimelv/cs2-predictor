@@ -4261,6 +4261,51 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Bushido Wildcats"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-6",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396138",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 7,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Ancient",
+        "Mirage"
+      ],
+      "match_id": "hltv:2396138",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396138/arcred-vs-just-players-cct-2026-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "ARCRED",
+      "team2_name": "Just Players",
+      "veto_text": "Best of 3 (Online)\n\n* Round of 16"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4380,27 +4425,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396138",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396138",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396138/arcred-vs-just-players-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-05T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ARCRED",
-      "team2_name": "Just Players",
-      "veto_text": "Best of 3 (Online)\n\n* Round of 16"
     },
     {
       "event_id": "hltv:9298",
@@ -6104,27 +6128,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-6",
           "event_name": "CCT 2026 Europe Series 6",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396138",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396138",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396138/arcred-vs-just-players-cct-2026-europe-series-6",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-05T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ARCRED",
-          "team2_name": "Just Players",
-          "veto_text": "Best of 3 (Online)\n\n* Round of 16"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
           "event_url": null,
           "hltv_match_id": "2396137",
           "maps": [],
@@ -6273,14 +6276,58 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Mai Tai",
           "team2_name": "Enjoy",
           "winner_name": "Enjoy"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-6",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396138",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": 13,
+              "score2": 7,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Ancient",
+            "Mirage"
+          ],
+          "match_id": "hltv:2396138",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396138/arcred-vs-just-players-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "ARCRED",
+          "team2_name": "Just Players",
+          "veto_text": "Best of 3 (Online)\n\n* Round of 16"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
-        "ARCRED",
-        "Just Players",
         "UNiTY",
         "ex-Young Ninjas",
+        "Just Players",
         "Enjoy",
         "ex-RUSTEC",
         "NEW VISION",
@@ -6288,11 +6335,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "SPARTA",
         "los kogutos",
         "Honvéd",
-        "Mai Tai"
+        "Mai Tai",
+        "ARCRED"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Playoffs",
@@ -7730,7 +7778,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-05T03:34:38Z",
+  "last_verified_utc": "2026-08-05T09:06:54Z",
   "sources": [
     {
       "name": "HLTV events calendar",
