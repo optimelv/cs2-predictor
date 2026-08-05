@@ -4368,6 +4368,50 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "GenOne"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-6",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396141",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [],
+      "match_id": "hltv:2396141",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396141/cybershoke-vs-los-kogutos-cct-2026-europe-series-6",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "CYBERSHOKE",
+      "team2_name": "los kogutos",
+      "veto_text": "Best of 3 (Online)\n\n* Round of 16",
+      "winner_name": "CYBERSHOKE"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4487,51 +4531,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396141",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Ancient",
-        "Nuke",
-        "Mirage"
-      ],
-      "match_id": "hltv:2396141",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396141/cybershoke-vs-los-kogutos-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-05T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "CYBERSHOKE",
-      "team2_name": "los kogutos",
-      "veto_text": "Best of 3 (Online)\n\n* Round of 16"
     },
     {
       "event_id": "hltv:9298",
@@ -5749,32 +5748,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Sashi",
           "team2_name": "SINNERS",
           "winner_name": "Sashi"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-5",
-          "event_name": "CCT 2026 Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2395969",
-          "maps": [],
-          "match_id": "hltv:2395969",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2395969/sinners-vs-sparta-cct-2026-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "SINNERS",
-          "team2_name": "SPARTA",
-          "winner_name": "SINNERS"
         }
       ],
       "name": "CCT 2026 Europe Series 5",
       "participants": [
         "Sashi",
-        "SINNERS",
-        "SPARTA"
+        "SINNERS"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -6113,47 +6092,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-6",
           "event_name": "CCT 2026 Europe Series 6",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2396141",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Nuke",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Ancient",
-            "Nuke",
-            "Mirage"
-          ],
+          "maps": [],
           "match_id": "hltv:2396141",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396141/cybershoke-vs-los-kogutos-cct-2026-europe-series-6",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-05T17:00:00Z",
-          "status": "upcoming",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "CYBERSHOKE",
           "team2_name": "los kogutos",
-          "veto_text": "Best of 3 (Online)\n\n* Round of 16"
+          "winner_name": "CYBERSHOKE"
         },
         {
           "event_id": "hltv:cct-2026-europe-series-6",
@@ -6325,25 +6278,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Just Players",
           "team2_name": "los kogutos",
           "winner_name": "los kogutos"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396130",
-          "maps": [],
-          "match_id": "hltv:2396130",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396130/ex-rustec-vs-honvd-cct-2026-europe-series-6",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ex-RUSTEC",
-          "team2_name": "Honvéd",
-          "winner_name": "ex-RUSTEC"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
@@ -6361,12 +6295,11 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Enjoy",
         "ex-RUSTEC",
         "NEW VISION",
-        "SPARTA",
-        "Honvéd"
+        "SPARTA"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Playoffs",
@@ -7013,44 +6946,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Fortress",
           "team2_name": "los kogutos",
           "winner_name": "los kogutos"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-          "event_url": null,
-          "hltv_match_id": "2396413",
-          "maps": [],
-          "match_id": "hltv:2396413",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396413/favbet-vs-mouz-nxt-esl-challenger-league-season-52-europe-cup-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "FAVBET",
-          "team2_name": "MOUZ NXT",
-          "winner_name": "MOUZ NXT"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-          "event_url": null,
-          "hltv_match_id": "2396404",
-          "maps": [],
-          "match_id": "hltv:2396404",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396404/mouz-nxt-vs-wbt-esl-challenger-league-season-52-europe-cup-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "MOUZ NXT",
-          "team2_name": "WBT",
-          "winner_name": "WBT"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -7068,8 +6963,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Fire Flux",
         "Fortress",
         "Vexar",
-        "Mai Tai",
-        "FAVBET"
+        "Mai Tai"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -7670,7 +7564,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-05T16:54:14Z",
+  "last_verified_utc": "2026-08-05T19:56:31Z",
   "sources": [
     {
       "name": "HLTV events calendar",
