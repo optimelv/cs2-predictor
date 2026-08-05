@@ -4949,10 +4949,14 @@
       "team2_name": "Eternal Fire"
     },
     {
-      "event_id": "hltv:8762",
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396489",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396489",
       "product_tier": "tier_1",
@@ -4962,7 +4966,8 @@
       "starts_at": "2026-08-07T16:00:00Z",
       "status": "live",
       "team1_name": "Liquid",
-      "team2_name": "Dhala"
+      "team2_name": "Dhala",
+      "veto_text": "Best of 3 (LAN)\n\n* Group 12 opening match\n\n** Starting time is approximate and will depend on the previous matches."
     },
     {
       "event_id": "hltv:8762",
@@ -6488,32 +6493,12 @@
           "team1_name": "aimclub",
           "team2_name": "Spirit Academy",
           "winner_name": "Spirit Academy"
-        },
-        {
-          "event_id": "hltv:cct-2026-contenders-europe-series-7",
-          "event_name": "CCT 2026 Contenders Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396328",
-          "maps": [],
-          "match_id": "hltv:2396328",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396328/young-tigeres-vs-spirit-academy-cct-2026-contenders-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Young TigeRES",
-          "team2_name": "Spirit Academy",
-          "winner_name": "Spirit Academy"
         }
       ],
       "name": "CCT 2026 Contenders Europe Series 7",
       "participants": [
         "aimclub",
-        "Spirit Academy",
-        "Young TigeRES"
+        "Spirit Academy"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -6927,25 +6912,6 @@
           "team1_name": "Leo",
           "team2_name": "ex-MANA",
           "winner_name": "ex-MANA"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-          "event_url": null,
-          "hltv_match_id": "2396410",
-          "maps": [],
-          "match_id": "hltv:2396410",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396410/fortress-vs-los-kogutos-esl-challenger-league-season-52-europe-cup-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Fortress",
-          "team2_name": "los kogutos",
-          "winner_name": "los kogutos"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -7335,22 +7301,6 @@
           "event_id": "hltv:8762",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396489",
-          "maps": [],
-          "match_id": "hltv:2396489",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T16:00:00Z",
-          "status": "live",
-          "team1_name": "Liquid",
-          "team2_name": "Dhala"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2396490",
           "maps": [],
           "match_id": "hltv:2396490",
@@ -7538,8 +7488,6 @@
         "SadFamous",
         "NADE",
         "Eternal Fire",
-        "Liquid",
-        "Dhala",
         "Prestige",
         "Metizport",
         "FOKUS",
@@ -7561,10 +7509,51 @@
       ],
       "product_tier": "tier_1",
       "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:esports-world-cup-2026-open-qualifier",
+      "matches": [
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396489",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396489",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-07T16:00:00Z",
+          "status": "live",
+          "team1_name": "Liquid",
+          "team2_name": "Dhala",
+          "veto_text": "Best of 3 (LAN)\n\n* Group 12 opening match\n\n** Starting time is approximate and will depend on the previous matches."
+        }
+      ],
+      "name": "Esports World Cup 2026 Open Qualifier",
+      "participants": [
+        "Liquid",
+        "Dhala"
+      ],
+      "product_tier": "tier_1",
+      "source_url": "https://www.hltv.org/events/archive",
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-05T19:56:31Z",
+  "last_verified_utc": "2026-08-05T22:22:35Z",
   "sources": [
     {
       "name": "HLTV events calendar",

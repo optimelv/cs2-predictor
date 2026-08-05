@@ -457,22 +457,6 @@
           "event_id": "hltv:8762",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396489",
-          "maps": [],
-          "match_id": "hltv:2396489",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T16:00:00Z",
-          "status": "live",
-          "team1_name": "Liquid",
-          "team2_name": "Dhala"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2396490",
           "maps": [],
           "match_id": "hltv:2396490",
@@ -660,8 +644,6 @@
         "SadFamous",
         "NADE",
         "Eternal Fire",
-        "Liquid",
-        "Dhala",
         "Prestige",
         "Metizport",
         "FOKUS",
@@ -683,6 +665,47 @@
       ],
       "product_tier": "tier_1",
       "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:esports-world-cup-2026-open-qualifier",
+      "matches": [
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396489",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396489",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-07T16:00:00Z",
+          "status": "live",
+          "team1_name": "Liquid",
+          "team2_name": "Dhala",
+          "veto_text": "Best of 3 (LAN)\n\n* Group 12 opening match\n\n** Starting time is approximate and will depend on the previous matches."
+        }
+      ],
+      "name": "Esports World Cup 2026 Open Qualifier",
+      "participants": [
+        "Liquid",
+        "Dhala"
+      ],
+      "product_tier": "tier_1",
+      "source_url": "https://www.hltv.org/events/archive",
       "status": "ongoing"
     },
     {
@@ -1239,25 +1262,6 @@
           "team1_name": "Leo",
           "team2_name": "ex-MANA",
           "winner_name": "ex-MANA"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-          "event_url": null,
-          "hltv_match_id": "2396410",
-          "maps": [],
-          "match_id": "hltv:2396410",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396410/fortress-vs-los-kogutos-esl-challenger-league-season-52-europe-cup-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Fortress",
-          "team2_name": "los kogutos",
-          "winner_name": "los kogutos"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -1309,32 +1313,12 @@
           "team1_name": "aimclub",
           "team2_name": "Spirit Academy",
           "winner_name": "Spirit Academy"
-        },
-        {
-          "event_id": "hltv:cct-2026-contenders-europe-series-7",
-          "event_name": "CCT 2026 Contenders Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396328",
-          "maps": [],
-          "match_id": "hltv:2396328",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396328/young-tigeres-vs-spirit-academy-cct-2026-contenders-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Young TigeRES",
-          "team2_name": "Spirit Academy",
-          "winner_name": "Spirit Academy"
         }
       ],
       "name": "CCT 2026 Contenders Europe Series 7",
       "participants": [
         "aimclub",
-        "Spirit Academy",
-        "Young TigeRES"
+        "Spirit Academy"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -1419,7 +1403,7 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-05T19:56:31Z",
+  "fetched_at_utc": "2026-08-05T22:22:35Z",
   "matches": [
     {
       "event_id": "hltv:9298",
@@ -1838,10 +1822,14 @@
       "team2_name": "Eternal Fire"
     },
     {
-      "event_id": "hltv:8762",
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396489",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396489",
       "product_tier": "tier_1",
@@ -1851,7 +1839,8 @@
       "starts_at": "2026-08-07T16:00:00Z",
       "status": "live",
       "team1_name": "Liquid",
-      "team2_name": "Dhala"
+      "team2_name": "Dhala",
+      "veto_text": "Best of 3 (LAN)\n\n* Group 12 opening match\n\n** Starting time is approximate and will depend on the previous matches."
     },
     {
       "event_id": "hltv:8762",
@@ -2566,48 +2555,81 @@
       "team1_name": "Leo",
       "team2_name": "ex-MANA",
       "winner_name": "ex-MANA"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-      "event_url": null,
-      "hltv_match_id": "2396410",
-      "maps": [],
-      "match_id": "hltv:2396410",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396410/fortress-vs-los-kogutos-esl-challenger-league-season-52-europe-cup-2",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Fortress",
-      "team2_name": "los kogutos",
-      "winner_name": "los kogutos"
-    },
-    {
-      "event_id": "hltv:cct-2026-contenders-europe-series-7",
-      "event_name": "CCT 2026 Contenders Europe Series 7",
-      "event_url": null,
-      "hltv_match_id": "2396328",
-      "maps": [],
-      "match_id": "hltv:2396328",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396328/young-tigeres-vs-spirit-academy-cct-2026-contenders-europe-series-7",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Young TigeRES",
-      "team2_name": "Spirit Academy",
-      "winner_name": "Spirit Academy"
     }
   ],
   "ok": true,
-  "players": [],
+  "players": [
+    {
+      "hltv_player_id": "19297",
+      "nickname": "Brilliance",
+      "player_id": "hltv:19297",
+      "source_url": "https://www.hltv.org/player/19297/brilliance",
+      "team_name": "ex-RUSTEC"
+    },
+    {
+      "hltv_player_id": "19673",
+      "nickname": "Patsi",
+      "player_id": "hltv:19673",
+      "source_url": "https://www.hltv.org/player/19673/patsi",
+      "team_name": "ex-RUSTEC"
+    },
+    {
+      "hltv_player_id": "24190",
+      "nickname": "youka",
+      "player_id": "hltv:24190",
+      "source_url": "https://www.hltv.org/player/24190/youka",
+      "team_name": "ex-RUSTEC"
+    },
+    {
+      "hltv_player_id": "24485",
+      "nickname": "yiksrezo",
+      "player_id": "hltv:24485",
+      "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+      "team_name": "ex-RUSTEC"
+    },
+    {
+      "hltv_player_id": "24817",
+      "nickname": "jakekeS",
+      "player_id": "hltv:24817",
+      "source_url": "https://www.hltv.org/player/24817/jakekes",
+      "team_name": "ex-RUSTEC"
+    },
+    {
+      "hltv_player_id": "25608",
+      "nickname": "ayano",
+      "player_id": "hltv:25608",
+      "source_url": "https://www.hltv.org/player/25608/ayano",
+      "team_name": "Butterfly"
+    },
+    {
+      "hltv_player_id": "20621",
+      "nickname": "nitzie",
+      "player_id": "hltv:20621",
+      "source_url": "https://www.hltv.org/player/20621/nitzie",
+      "team_name": "Butterfly"
+    },
+    {
+      "hltv_player_id": "21192",
+      "nickname": "Kurama",
+      "player_id": "hltv:21192",
+      "source_url": "https://www.hltv.org/player/21192/kurama",
+      "team_name": "Butterfly"
+    },
+    {
+      "hltv_player_id": "21365",
+      "nickname": "k1ssly",
+      "player_id": "hltv:21365",
+      "source_url": "https://www.hltv.org/player/21365/k1ssly",
+      "team_name": "Butterfly"
+    },
+    {
+      "hltv_player_id": "13982",
+      "nickname": "Forester",
+      "player_id": "hltv:13982",
+      "source_url": "https://www.hltv.org/player/13982/forester",
+      "team_name": "Butterfly"
+    }
+  ],
   "poll_after_ms": 300000,
   "rankings": null,
   "source": "HLTV via GitHub Actions FlareSolverr",
@@ -2615,19 +2637,20 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 53
+    "scheduled_matches": 51
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 7,
-    "matches_kept": 68,
-    "players_kept": 0,
+    "events_kept": 8,
+    "matches_kept": 66,
+    "players_kept": 10,
     "event_tiers": {
       "hltv:9298": "tier_2",
       "hltv:8762": "tier_1",
+      "hltv:esports-world-cup-2026-open-qualifier": "tier_1",
       "hltv:cct-2026-europe-series-6": "tier_2",
       "hltv:esl-challenger-league-season-52-europe-cup-2": "tier_2",
       "hltv:cct-2026-contenders-europe-series-7": "tier_2",
@@ -2700,9 +2723,7 @@
       "hltv:2396409",
       "hltv:2396412",
       "hltv:2396407",
-      "hltv:2396408",
-      "hltv:2396410",
-      "hltv:2396328"
+      "hltv:2396408"
     ]
   }
 }
