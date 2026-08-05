@@ -4308,7 +4308,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396139",
         "lineups": {
           "team1": [],
@@ -4334,21 +4334,36 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Ancient",
-          "Dust2",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2396139",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396139/butterfly-vs-rune-eaters-cct-2026-europe-series-6",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Butterfly",
+        "team2_name": "Rune Eaters",
+        "veto_text": "Best of 3 (Online)\n\n* Round of 16",
+        "winner_name": "Butterfly"
+      },
+      {
+        "event_id": "hltv:9298",
+        "event_name": "CCT 2026 Europe Series 6",
+        "event_url": null,
+        "hltv_match_id": "2396140",
+        "maps": [],
+        "match_id": "hltv:2396140",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396140/nordic-partners-vs-genone-cct-2026-europe-series-6",
         "stage_name": "Scheduled series",
         "starts_at": null,
         "status": "live",
-        "team1_name": "Butterfly",
-        "team2_name": "Rune Eaters",
-        "veto_text": "Best of 3 (Online)\n\n* Round of 16"
+        "team1_name": "Nordic Partners",
+        "team2_name": "GenOne"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -4470,22 +4485,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:9298",
-        "event_name": "CCT 2026 Europe Series 6",
-        "event_url": null,
-        "hltv_match_id": "2396140",
-        "maps": [],
-        "match_id": "hltv:2396140",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396140/nordic-partners-vs-genone-cct-2026-europe-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-05T14:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Nordic Partners",
-        "team2_name": "GenOne"
       },
       {
         "event_id": "hltv:9298",
@@ -5862,22 +5861,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9298",
             "event_name": "CCT 2026 Europe Series 6",
             "event_url": null,
-            "hltv_match_id": "2396140",
-            "maps": [],
-            "match_id": "hltv:2396140",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396140/nordic-partners-vs-genone-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-05T14:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Nordic Partners",
-            "team2_name": "GenOne"
-          },
-          {
-            "event_id": "hltv:9298",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
             "hltv_match_id": "2396141",
             "maps": [],
             "match_id": "hltv:2396141",
@@ -5953,12 +5936,26 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "WW",
             "team2_name": "ex-RUSTEC"
+          },
+          {
+            "event_id": "hltv:9298",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": null,
+            "hltv_match_id": "2396140",
+            "maps": [],
+            "match_id": "hltv:2396140",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396140/nordic-partners-vs-genone-cct-2026-europe-series-6",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "Nordic Partners",
+            "team2_name": "GenOne"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
-          "Nordic Partners",
-          "GenOne",
           "CYBERSHOKE",
           "los kogutos",
           "Lavked",
@@ -5968,11 +5965,13 @@ window.__STRIKESIGNAL_DATA__ = {
           "Walczaki",
           "UNiTY",
           "WW",
-          "ex-RUSTEC"
+          "ex-RUSTEC",
+          "Nordic Partners",
+          "GenOne"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "upcoming"
+        "status": "ongoing"
       },
       {
         "bracket": {
@@ -6140,6 +6139,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
             "event_url": null,
+            "hltv_match_id": "2396139",
+            "maps": [],
+            "match_id": "hltv:2396139",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396139/butterfly-vs-rune-eaters-cct-2026-europe-series-6",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Butterfly",
+            "team2_name": "Rune Eaters",
+            "winner_name": "Butterfly"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": null,
             "hltv_match_id": "2396138",
             "maps": [],
             "match_id": "hltv:2396138",
@@ -6287,55 +6305,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "ex-RUSTEC",
             "team2_name": "Honv\u00e9d",
             "winner_name": "ex-RUSTEC"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-6",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396139",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Ancient",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Dust2",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Ancient",
-              "Dust2",
-              "Mirage"
-            ],
-            "match_id": "hltv:2396139",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396139/butterfly-vs-rune-eaters-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Butterfly",
-            "team2_name": "Rune Eaters",
-            "veto_text": "Best of 3 (Online)\n\n* Round of 16"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
+          "Butterfly",
+          "Rune Eaters",
           "ARCRED",
           "Just Players",
           "UNiTY",
@@ -6346,13 +6321,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "GenOne",
           "SPARTA",
           "los kogutos",
-          "Honv\u00e9d",
-          "Butterfly",
-          "Rune Eaters"
+          "Honv\u00e9d"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "finished"
       },
       {
         "current_stage": "Playoffs",
@@ -7094,63 +7067,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "los kogutos",
             "team2_name": "Noir Verse",
             "winner_name": "los kogutos"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-            "event_url": null,
-            "hltv_match_id": "2396399",
-            "maps": [],
-            "match_id": "hltv:2396399",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396399/basement-boys-vs-fire-flux-esl-challenger-league-season-52-europe-cup-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "BASEMENT BOYS",
-            "team2_name": "Fire Flux",
-            "winner_name": "Fire Flux"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-            "event_url": null,
-            "hltv_match_id": "2396400",
-            "maps": [],
-            "match_id": "hltv:2396400",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396400/bushido-wildcats-vs-mai-tai-esl-challenger-league-season-52-europe-cup-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Bushido Wildcats",
-            "team2_name": "Mai Tai",
-            "winner_name": "Bushido Wildcats"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-            "event_url": null,
-            "hltv_match_id": "2396401",
-            "maps": [],
-            "match_id": "hltv:2396401",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396401/leo-vs-vexar-esl-challenger-league-season-52-europe-cup-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Leo",
-            "team2_name": "Vexar",
-            "winner_name": "Leo"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -7771,7 +7687,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-05T11:31:04Z",
+    "last_verified_utc": "2026-08-05T14:35:24Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8209,7 +8125,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-05T11:31:25Z",
+  "generated_at_utc": "2026-08-05T14:35:39Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9579,13 +9495,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.637097,
-        "brier": 0.221234,
-        "ece": 0.033318,
-        "log_loss": 0.631442
+        "accuracy": 0.637681,
+        "brier": 0.220917,
+        "ece": 0.033518,
+        "log_loss": 0.630701
       },
-      "rows": 930,
-      "test_rows": 620
+      "rows": 931,
+      "test_rows": 621
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -9596,13 +9512,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.637097,
-        "brier": 0.221933,
-        "ece": 0.03387,
-        "log_loss": 0.633986
+        "accuracy": 0.637681,
+        "brier": 0.221721,
+        "ece": 0.034674,
+        "log_loss": 0.633536
       },
       "promotion_passed": false,
-      "rows": 620
+      "rows": 621
     },
     "champion": {
       "folds": 3,
@@ -9619,7 +9535,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-05T11:31:25Z",
+    "generated_at_utc": "2026-08-05T14:35:39Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -9631,7 +9547,7 @@ window.__STRIKESIGNAL_DATA__ = {
     },
     "training": {
       "new_rows": 1,
-      "online_rows": 173,
+      "online_rows": 174,
       "seed_rows": 757
     }
   },
@@ -9809,9 +9725,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396137",
       "hltv:2396424",
       "hltv:2396425",
-      "hltv:2396138"
+      "hltv:2396138",
+      "hltv:2396139"
     ],
-    "last_online_update_utc": "2026-08-05T11:31:25Z",
+    "last_online_update_utc": "2026-08-05T14:35:39Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -13639,10 +13556,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 183
       },
       {
-        "elo": 1498.21,
-        "last_result_utc": "2026-08-01T19:36:14Z",
-        "matches": 18,
-        "recent_win_rate_10": 0.6249,
+        "elo": 1485.25,
+        "last_result_utc": "2026-08-05T14:35:39Z",
+        "matches": 19,
+        "recent_win_rate_10": 0.5113,
         "team_key": "rune eaters",
         "team_name": "Rune Eaters",
         "vrs_points": 783.0,
@@ -15814,10 +15731,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1515.59,
-        "last_result_utc": "2026-08-01T13:57:43Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.5353,
+        "elo": 1528.55,
+        "last_result_utc": "2026-08-05T14:35:39Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.6198,
         "team_key": "butterfly",
         "team_name": "Butterfly",
         "vrs_points": 0,
@@ -18985,39 +18902,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.6381,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.3619,
-      "event_id": "hltv:9298",
-      "event_name": "CCT 2026 Europe Series 6",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-05",
-      "match_id": "hltv:2396140",
-      "match_phase": "scheduled",
-      "match_timestamp": 1785938400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "GenOne",
-      "prob_team1": 0.3619,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396140/nordic-partners-vs-genone-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-05T14:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Nordic Partners",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "GenOne",
-      "team2_vrs_rank": 99
-    },
-    {
       "confidence": 0.6597,
       "confidence_label": "watch",
       "data_quality": "full",
@@ -19775,11 +19659,44 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "OG",
       "team2_vrs_rank": 57
+    },
+    {
+      "confidence": 0.5774,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5774,
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-07",
+      "match_id": "hltv:2396485",
+      "match_phase": "scheduled",
+      "match_timestamp": 1786118400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "EYEBALLERS",
+      "prob_team1": 0.5774,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396485/eyeballers-vs-revenix-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-07T16:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "EYEBALLERS",
+      "team1_vrs_rank": 36,
+      "team2_hltv_rank": null,
+      "team2_name": "REVENIX",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 80,
+    "live_feed_items": 76,
     "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
