@@ -4264,7 +4264,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396138",
         "lineups": {
           "team1": [],
@@ -4290,20 +4290,64 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Dust2",
-          "Ancient",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2396138",
         "product_tier": "tier_2",
+        "score1": 1,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396138/arcred-vs-just-players-cct-2026-europe-series-6",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "ARCRED",
+        "team2_name": "Just Players",
+        "veto_text": "Best of 3 (Online)\n\n* Round of 16",
+        "winner_name": "Just Players"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-6",
+        "event_name": "CCT 2026 Europe Series 6",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396139",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Mirage"
+        ],
+        "match_id": "hltv:2396139",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396139/butterfly-vs-rune-eaters-cct-2026-europe-series-6",
         "stage_name": "Scheduled series",
         "starts_at": null,
         "status": "live",
-        "team1_name": "ARCRED",
-        "team2_name": "Just Players",
+        "team1_name": "Butterfly",
+        "team2_name": "Rune Eaters",
         "veto_text": "Best of 3 (Online)\n\n* Round of 16"
       },
       {
@@ -4426,22 +4470,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:9298",
-        "event_name": "CCT 2026 Europe Series 6",
-        "event_url": null,
-        "hltv_match_id": "2396139",
-        "maps": [],
-        "match_id": "hltv:2396139",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396139/butterfly-vs-rune-eaters-cct-2026-europe-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-05T11:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Butterfly",
-        "team2_name": "Rune Eaters"
       },
       {
         "event_id": "hltv:9298",
@@ -5834,22 +5862,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9298",
             "event_name": "CCT 2026 Europe Series 6",
             "event_url": null,
-            "hltv_match_id": "2396139",
-            "maps": [],
-            "match_id": "hltv:2396139",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396139/butterfly-vs-rune-eaters-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-05T11:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Butterfly",
-            "team2_name": "Rune Eaters"
-          },
-          {
-            "event_id": "hltv:9298",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
             "hltv_match_id": "2396140",
             "maps": [],
             "match_id": "hltv:2396140",
@@ -5945,8 +5957,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
-          "Butterfly",
-          "Rune Eaters",
           "Nordic Partners",
           "GenOne",
           "CYBERSHOKE",
@@ -6130,6 +6140,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
             "event_url": null,
+            "hltv_match_id": "2396138",
+            "maps": [],
+            "match_id": "hltv:2396138",
+            "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396138/arcred-vs-just-players-cct-2026-europe-series-6",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "ARCRED",
+            "team2_name": "Just Players",
+            "winner_name": "Just Players"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": null,
             "hltv_match_id": "2396137",
             "maps": [],
             "match_id": "hltv:2396137",
@@ -6262,40 +6291,21 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
-            "hltv_match_id": "2396131",
-            "maps": [],
-            "match_id": "hltv:2396131",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396131/mai-tai-vs-enjoy-cct-2026-europe-series-6",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Mai Tai",
-            "team2_name": "Enjoy",
-            "winner_name": "Enjoy"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-6",
-            "event_name": "CCT 2026 Europe Series 6",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396138",
+            "hltv_match_id": "2396139",
             "lineups": {
               "team1": [],
               "team2": []
             },
             "map_results": [
               {
-                "map_name": "Dust2",
-                "score1": 13,
-                "score2": 7,
-                "status": "finished"
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
               },
               {
-                "map_name": "Ancient",
+                "map_name": "Dust2",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
@@ -6308,27 +6318,28 @@ window.__STRIKESIGNAL_DATA__ = {
               }
             ],
             "maps": [
-              "Dust2",
               "Ancient",
+              "Dust2",
               "Mirage"
             ],
-            "match_id": "hltv:2396138",
+            "match_id": "hltv:2396139",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396138/arcred-vs-just-players-cct-2026-europe-series-6",
+            "source_url": "https://www.hltv.org/matches/2396139/butterfly-vs-rune-eaters-cct-2026-europe-series-6",
             "stage_name": "Scheduled series",
             "starts_at": null,
             "status": "live",
-            "team1_name": "ARCRED",
-            "team2_name": "Just Players",
+            "team1_name": "Butterfly",
+            "team2_name": "Rune Eaters",
             "veto_text": "Best of 3 (Online)\n\n* Round of 16"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
+          "ARCRED",
+          "Just Players",
           "UNiTY",
           "ex-Young Ninjas",
-          "Just Players",
           "Enjoy",
           "ex-RUSTEC",
           "NEW VISION",
@@ -6336,8 +6347,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "SPARTA",
           "los kogutos",
           "Honv\u00e9d",
-          "Mai Tai",
-          "ARCRED"
+          "Butterfly",
+          "Rune Eaters"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7140,25 +7151,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Leo",
             "team2_name": "Vexar",
             "winner_name": "Leo"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-            "event_url": null,
-            "hltv_match_id": "2396405",
-            "maps": [],
-            "match_id": "hltv:2396405",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396405/favbet-vs-misa-esl-challenger-league-season-52-europe-cup-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "FAVBET",
-            "team2_name": "Misa",
-            "winner_name": "Misa"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -7779,7 +7771,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-05T09:06:54Z",
+    "last_verified_utc": "2026-08-05T11:31:04Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8217,7 +8209,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-05T09:07:13Z",
+  "generated_at_utc": "2026-08-05T11:31:25Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9587,13 +9579,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.637681,
-        "brier": 0.220917,
-        "ece": 0.033518,
-        "log_loss": 0.630701
+        "accuracy": 0.637097,
+        "brier": 0.221234,
+        "ece": 0.033318,
+        "log_loss": 0.631442
       },
-      "rows": 929,
-      "test_rows": 621
+      "rows": 930,
+      "test_rows": 620
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -9604,13 +9596,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.637681,
-        "brier": 0.221577,
-        "ece": 0.035362,
-        "log_loss": 0.633193
+        "accuracy": 0.637097,
+        "brier": 0.221933,
+        "ece": 0.03387,
+        "log_loss": 0.633986
       },
       "promotion_passed": false,
-      "rows": 621
+      "rows": 620
     },
     "champion": {
       "folds": 3,
@@ -9627,7 +9619,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-05T09:07:13Z",
+    "generated_at_utc": "2026-08-05T11:31:25Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -9638,8 +9630,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 0,
-      "online_rows": 172,
+      "new_rows": 1,
+      "online_rows": 173,
       "seed_rows": 757
     }
   },
@@ -9816,9 +9808,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396423",
       "hltv:2396137",
       "hltv:2396424",
-      "hltv:2396425"
+      "hltv:2396425",
+      "hltv:2396138"
     ],
-    "last_online_update_utc": "2026-08-04T22:31:13Z",
+    "last_online_update_utc": "2026-08-05T11:31:25Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -12633,9 +12626,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 55
       },
       {
-        "elo": 1550.09,
-        "matches": 109,
-        "recent_win_rate_10": 0.6,
+        "elo": 1536.76,
+        "last_result_utc": "2026-08-05T11:31:25Z",
+        "matches": 110,
+        "recent_win_rate_10": 0.4909,
         "team_key": "arcred",
         "team_name": "ARCRED",
         "vrs_points": 1228.0,
@@ -13161,10 +13155,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 121
       },
       {
-        "elo": 1521.41,
-        "last_result_utc": "2026-08-04T17:05:23Z",
-        "matches": 10,
-        "recent_win_rate_10": 0.5182,
+        "elo": 1534.74,
+        "last_result_utc": "2026-08-05T11:31:25Z",
+        "matches": 11,
+        "recent_win_rate_10": 0.6058,
         "team_key": "just players",
         "team_name": "Just Players",
         "vrs_points": 985.0,
@@ -18991,39 +18985,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5385,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4615,
-      "event_id": "hltv:9298",
-      "event_name": "CCT 2026 Europe Series 6",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-05",
-      "match_id": "hltv:2396139",
-      "match_phase": "scheduled",
-      "match_timestamp": 1785927600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Rune Eaters",
-      "prob_team1": 0.4615,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396139/butterfly-vs-rune-eaters-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-05T11:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Butterfly",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Rune Eaters",
-      "team2_vrs_rank": 184
-    },
-    {
       "confidence": 0.6381,
       "confidence_label": "lean",
       "data_quality": "full",
@@ -19781,12 +19742,45 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Passion Chicha",
       "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.5253,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.4747,
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-07",
+      "match_id": "hltv:2396484",
+      "match_phase": "scheduled",
+      "match_timestamp": 1786118400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "OG",
+      "prob_team1": 0.4747,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396484/vael-vs-og-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-07T16:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Vael",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "OG",
+      "team2_vrs_rank": 57
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 82,
-    "online_results_applied": 0,
+    "live_feed_items": 80,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

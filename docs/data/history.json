@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-05T09:06:54Z",
+  "generated_at_utc": "2026-08-05T11:31:04Z",
   "through_date": "2026-08-05",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1159,
+    "matches": 1160,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -924,6 +924,28 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "Bushido Wildcats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396138",
+      "match_date": "2026-08-05",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "ARCRED",
+      "team2_name": "Just Players",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Just Players",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
