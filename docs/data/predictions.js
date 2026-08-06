@@ -4534,10 +4534,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9298",
+        "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396142",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396142",
         "product_tier": "tier_2",
@@ -4547,7 +4551,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-06T08:00:00Z",
         "status": "upcoming",
         "team1_name": "Lavked",
-        "team2_name": "Black Phoenix"
+        "team2_name": "Black Phoenix",
+        "veto_text": "Best of 3 (Online)\n\n* Round of 16"
       },
       {
         "event_id": "hltv:9298",
@@ -5857,22 +5862,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9298",
             "event_name": "CCT 2026 Europe Series 6",
             "event_url": null,
-            "hltv_match_id": "2396142",
-            "maps": [],
-            "match_id": "hltv:2396142",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-06T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Lavked",
-            "team2_name": "Black Phoenix"
-          },
-          {
-            "event_id": "hltv:9298",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
             "hltv_match_id": "2396143",
             "maps": [],
             "match_id": "hltv:2396143",
@@ -5920,8 +5909,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
-          "Lavked",
-          "Black Phoenix",
           "BET-M",
           "SPARTA",
           "Walczaki",
@@ -6095,6 +6082,27 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-6",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396142",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396142",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-06T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Lavked",
+            "team2_name": "Black Phoenix",
+            "veto_text": "Best of 3 (Online)\n\n* Round of 16"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
@@ -6288,6 +6296,8 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
+          "Lavked",
+          "Black Phoenix",
           "CYBERSHOKE",
           "los kogutos",
           "Nordic Partners",
@@ -6304,8 +6314,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "SPARTA"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       },
       {
         "current_stage": "Playoffs",
@@ -6875,44 +6885,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Misa",
             "team2_name": "WBT",
             "winner_name": "WBT"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-            "event_url": null,
-            "hltv_match_id": "2396407",
-            "maps": [],
-            "match_id": "hltv:2396407",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396407/mai-tai-vs-basement-boys-esl-challenger-league-season-52-europe-cup-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Mai Tai",
-            "team2_name": "BASEMENT BOYS",
-            "winner_name": "BASEMENT BOYS"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-            "event_url": null,
-            "hltv_match_id": "2396408",
-            "maps": [],
-            "match_id": "hltv:2396408",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396408/leo-vs-ex-mana-esl-challenger-league-season-52-europe-cup-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Leo",
-            "team2_name": "ex-MANA",
-            "winner_name": "ex-MANA"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -6929,8 +6901,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Inner Circle Academy",
           "Fire Flux",
           "Fortress",
-          "Vexar",
-          "Mai Tai"
+          "Vexar"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7554,7 +7525,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-05T22:22:35Z",
+    "last_verified_utc": "2026-08-06T03:39:18Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -7992,7 +7963,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-05T22:22:47Z",
+  "generated_at_utc": "2026-08-06T03:39:39Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9402,7 +9373,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-05T22:22:47Z",
+    "generated_at_utc": "2026-08-06T03:39:39Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -18775,10 +18746,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.43,
-      "event_id": "hltv:9298",
+      "event_id": "hltv:cct-2026-europe-series-6",
       "event_name": "CCT 2026 Europe Series 6",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-06",
@@ -19565,7 +19539,7 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 66,
+    "live_feed_items": 64,
     "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
