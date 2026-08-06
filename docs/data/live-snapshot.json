@@ -15,22 +15,6 @@
           "event_id": "hltv:9298",
           "event_name": "CCT 2026 Europe Series 6",
           "event_url": null,
-          "hltv_match_id": "2396143",
-          "maps": [],
-          "match_id": "hltv:2396143",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396143/bet-m-vs-sparta-cct-2026-europe-series-6",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-06T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "BET-M",
-          "team2_name": "SPARTA"
-        },
-        {
-          "event_id": "hltv:9298",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
           "hltv_match_id": "2396144",
           "maps": [],
           "match_id": "hltv:2396144",
@@ -62,8 +46,6 @@
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
-        "BET-M",
-        "SPARTA",
         "Walczaki",
         "UNiTY",
         "WW",
@@ -681,6 +663,25 @@
           "event_id": "hltv:cct-2026-europe-series-6",
           "event_name": "CCT 2026 Europe Series 6",
           "event_url": null,
+          "hltv_match_id": "2396142",
+          "maps": [],
+          "match_id": "hltv:2396142",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Lavked",
+          "team2_name": "Black Phoenix",
+          "winner_name": "Black Phoenix"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-6",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
           "hltv_match_id": "2396141",
           "maps": [],
           "match_id": "hltv:2396141",
@@ -871,20 +872,20 @@
           "event_id": "hltv:cct-2026-europe-series-6",
           "event_name": "CCT 2026 Europe Series 6",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396142",
+          "hltv_match_id": "2396143",
           "lineups": {
             "team1": [],
             "team2": []
           },
           "map_results": [
             {
-              "map_name": "Dust2",
-              "score1": 6,
-              "score2": 13,
-              "status": "finished"
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
             },
             {
-              "map_name": "Anubis",
+              "map_name": "Dust2",
               "score1": null,
               "score2": null,
               "status": "upcoming"
@@ -897,24 +898,26 @@
             }
           ],
           "maps": [
+            "Nuke",
             "Dust2",
-            "Anubis",
             "Mirage"
           ],
-          "match_id": "hltv:2396142",
+          "match_id": "hltv:2396143",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
+          "source_url": "https://www.hltv.org/matches/2396143/bet-m-vs-sparta-cct-2026-europe-series-6",
           "stage_name": "Scheduled series",
           "starts_at": null,
           "status": "live",
-          "team1_name": "Lavked",
-          "team2_name": "Black Phoenix",
+          "team1_name": "BET-M",
+          "team2_name": "SPARTA",
           "veto_text": "Best of 3 (Online)\n\n* Round of 16"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
+        "Lavked",
+        "Black Phoenix",
         "CYBERSHOKE",
         "los kogutos",
         "Nordic Partners",
@@ -929,8 +932,7 @@
         "ex-RUSTEC",
         "NEW VISION",
         "SPARTA",
-        "Lavked",
-        "Black Phoenix"
+        "BET-M"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -1192,44 +1194,6 @@
           "team1_name": "Bushido Wildcats",
           "team2_name": "Fire Flux",
           "winner_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-          "event_url": null,
-          "hltv_match_id": "2396409",
-          "maps": [],
-          "match_id": "hltv:2396409",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396409/vexar-vs-inner-circle-academy-esl-challenger-league-season-52-europe-cup-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Vexar",
-          "team2_name": "Inner Circle Academy",
-          "winner_name": "Inner Circle Academy"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-          "event_url": null,
-          "hltv_match_id": "2396412",
-          "maps": [],
-          "match_id": "hltv:2396412",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396412/misa-vs-wbt-esl-challenger-league-season-52-europe-cup-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Misa",
-          "team2_name": "WBT",
-          "winner_name": "WBT"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -1245,8 +1209,7 @@
         "Misa",
         "Inner Circle Academy",
         "Fire Flux",
-        "Fortress",
-        "Vexar"
+        "Fortress"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -1329,65 +1292,10 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-      "matches": [
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-          "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396193",
-          "maps": [],
-          "match_id": "hltv:2396193",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396193/lazer-cats-vs-genone-thunderpick-world-championship-2026-europe-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Lazer Cats",
-          "team2_name": "GenOne",
-          "winner_name": "GenOne"
-        }
-      ],
-      "name": "Thunderpick World Championship 2026 Europe Series 2",
-      "participants": [
-        "Lazer Cats",
-        "GenOne"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-06T09:07:34Z",
+  "fetched_at_utc": "2026-08-06T11:34:14Z",
   "matches": [
-    {
-      "event_id": "hltv:9298",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2396143",
-      "maps": [],
-      "match_id": "hltv:2396143",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396143/bet-m-vs-sparta-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-06T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "BET-M",
-      "team2_name": "SPARTA"
-    },
     {
       "event_id": "hltv:9298",
       "event_name": "CCT 2026 Europe Series 6",
@@ -1936,6 +1844,25 @@
       "event_id": "hltv:cct-2026-europe-series-6",
       "event_name": "CCT 2026 Europe Series 6",
       "event_url": null,
+      "hltv_match_id": "2396142",
+      "maps": [],
+      "match_id": "hltv:2396142",
+      "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Lavked",
+      "team2_name": "Black Phoenix",
+      "winner_name": "Black Phoenix"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-6",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
       "hltv_match_id": "2396141",
       "maps": [],
       "match_id": "hltv:2396141",
@@ -2408,80 +2335,23 @@
       "winner_name": "Sashi"
     },
     {
-      "event_id": "hltv:thunderpick-world-championship-2026-europe-series-2",
-      "event_name": "Thunderpick World Championship 2026 Europe Series 2",
-      "event_url": null,
-      "hltv_match_id": "2396193",
-      "maps": [],
-      "match_id": "hltv:2396193",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396193/lazer-cats-vs-genone-thunderpick-world-championship-2026-europe-series-2",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Lazer Cats",
-      "team2_name": "GenOne",
-      "winner_name": "GenOne"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-      "event_url": null,
-      "hltv_match_id": "2396409",
-      "maps": [],
-      "match_id": "hltv:2396409",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396409/vexar-vs-inner-circle-academy-esl-challenger-league-season-52-europe-cup-2",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Vexar",
-      "team2_name": "Inner Circle Academy",
-      "winner_name": "Inner Circle Academy"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-      "event_url": null,
-      "hltv_match_id": "2396412",
-      "maps": [],
-      "match_id": "hltv:2396412",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396412/misa-vs-wbt-esl-challenger-league-season-52-europe-cup-2",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Misa",
-      "team2_name": "WBT",
-      "winner_name": "WBT"
-    },
-    {
       "event_id": "hltv:cct-2026-europe-series-6",
       "event_name": "CCT 2026 Europe Series 6",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396142",
+      "hltv_match_id": "2396143",
       "lineups": {
         "team1": [],
         "team2": []
       },
       "map_results": [
         {
-          "map_name": "Dust2",
-          "score1": 6,
-          "score2": 13,
-          "status": "finished"
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
         },
         {
-          "map_name": "Anubis",
+          "map_name": "Dust2",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -2494,19 +2364,19 @@
         }
       ],
       "maps": [
+        "Nuke",
         "Dust2",
-        "Anubis",
         "Mirage"
       ],
-      "match_id": "hltv:2396142",
+      "match_id": "hltv:2396143",
       "product_tier": "tier_2",
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
+      "source_url": "https://www.hltv.org/matches/2396143/bet-m-vs-sparta-cct-2026-europe-series-6",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "Lavked",
-      "team2_name": "Black Phoenix",
+      "team1_name": "BET-M",
+      "team2_name": "SPARTA",
       "veto_text": "Best of 3 (Online)\n\n* Round of 16"
     }
   ],
@@ -2519,15 +2389,15 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 49
+    "scheduled_matches": 46
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 7,
-    "matches_kept": 64,
+    "events_kept": 6,
+    "matches_kept": 61,
     "players_kept": 0,
     "event_tiers": {
       "hltv:9298": "tier_2",
@@ -2535,11 +2405,9 @@
       "hltv:cct-2026-europe-series-6": "tier_2",
       "hltv:esl-challenger-league-season-52-europe-cup-2": "tier_2",
       "hltv:cct-2026-contenders-europe-series-7": "tier_2",
-      "hltv:cct-2026-europe-series-5": "tier_2",
-      "hltv:thunderpick-world-championship-2026-europe-series-2": "tier_2"
+      "hltv:cct-2026-europe-series-5": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2396143",
       "hltv:2396144",
       "hltv:2396145",
       "hltv:2396451",
@@ -2574,6 +2442,7 @@
       "hltv:2396496",
       "hltv:2396497",
       "hltv:2396498",
+      "hltv:2396142",
       "hltv:2396141",
       "hltv:2396140",
       "hltv:2396139",
@@ -2599,10 +2468,7 @@
       "hltv:2396329",
       "hltv:2396406",
       "hltv:2395970",
-      "hltv:2396193",
-      "hltv:2396409",
-      "hltv:2396412",
-      "hltv:2396142"
+      "hltv:2396143"
     ]
   }
 }
