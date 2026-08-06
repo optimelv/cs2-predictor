@@ -4459,7 +4459,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396143",
         "lineups": {
           "team1": [],
@@ -4485,20 +4485,64 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Nuke",
-          "Dust2",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2396143",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396143/bet-m-vs-sparta-cct-2026-europe-series-6",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "BET-M",
+        "team2_name": "SPARTA",
+        "veto_text": "Best of 3 (Online)\n\n* Round of 16",
+        "winner_name": "BET-M"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-6",
+        "event_name": "CCT 2026 Europe Series 6",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396144",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Cache",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Cache",
+          "Anubis",
+          "Ancient"
+        ],
+        "match_id": "hltv:2396144",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396144/walczaki-vs-unity-cct-2026-europe-series-6",
         "stage_name": "Scheduled series",
         "starts_at": null,
         "status": "live",
-        "team1_name": "BET-M",
-        "team2_name": "SPARTA",
+        "team1_name": "Walczaki",
+        "team2_name": "UNiTY",
         "veto_text": "Best of 3 (Online)\n\n* Round of 16"
       },
       {
@@ -4621,22 +4665,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:9298",
-        "event_name": "CCT 2026 Europe Series 6",
-        "event_url": null,
-        "hltv_match_id": "2396144",
-        "maps": [],
-        "match_id": "hltv:2396144",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396144/walczaki-vs-unity-cct-2026-europe-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-06T14:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Walczaki",
-        "team2_name": "UNiTY"
       },
       {
         "event_id": "hltv:9298",
@@ -5914,22 +5942,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9298",
             "event_name": "CCT 2026 Europe Series 6",
             "event_url": null,
-            "hltv_match_id": "2396144",
-            "maps": [],
-            "match_id": "hltv:2396144",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396144/walczaki-vs-unity-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-06T14:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Walczaki",
-            "team2_name": "UNiTY"
-          },
-          {
-            "event_id": "hltv:9298",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
             "hltv_match_id": "2396145",
             "maps": [],
             "match_id": "hltv:2396145",
@@ -5945,8 +5957,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
-          "Walczaki",
-          "UNiTY",
           "WW",
           "ex-RUSTEC"
         ],
@@ -6116,6 +6126,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-6",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": null,
+            "hltv_match_id": "2396143",
+            "maps": [],
+            "match_id": "hltv:2396143",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396143/bet-m-vs-sparta-cct-2026-europe-series-6",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "BET-M",
+            "team2_name": "SPARTA",
+            "winner_name": "BET-M"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
@@ -6329,50 +6358,52 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396143",
+            "hltv_match_id": "2396144",
             "lineups": {
               "team1": [],
               "team2": []
             },
             "map_results": [
               {
-                "map_name": "Nuke",
+                "map_name": "Cache",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
               },
               {
-                "map_name": "Dust2",
+                "map_name": "Anubis",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
               },
               {
-                "map_name": "Mirage",
+                "map_name": "Ancient",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
               }
             ],
             "maps": [
-              "Nuke",
-              "Dust2",
-              "Mirage"
+              "Cache",
+              "Anubis",
+              "Ancient"
             ],
-            "match_id": "hltv:2396143",
+            "match_id": "hltv:2396144",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396143/bet-m-vs-sparta-cct-2026-europe-series-6",
+            "source_url": "https://www.hltv.org/matches/2396144/walczaki-vs-unity-cct-2026-europe-series-6",
             "stage_name": "Scheduled series",
             "starts_at": null,
             "status": "live",
-            "team1_name": "BET-M",
-            "team2_name": "SPARTA",
+            "team1_name": "Walczaki",
+            "team2_name": "UNiTY",
             "veto_text": "Best of 3 (Online)\n\n* Round of 16"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
+          "BET-M",
+          "SPARTA",
           "Lavked",
           "Black Phoenix",
           "CYBERSHOKE",
@@ -6388,8 +6419,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Enjoy",
           "ex-RUSTEC",
           "NEW VISION",
-          "SPARTA",
-          "BET-M"
+          "Walczaki"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -6906,25 +6936,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Noir Verse",
             "team2_name": "Fortress",
             "winner_name": "Noir Verse"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-2",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 2",
-            "event_url": null,
-            "hltv_match_id": "2396406",
-            "maps": [],
-            "match_id": "hltv:2396406",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396406/bushido-wildcats-vs-fire-flux-esl-challenger-league-season-52-europe-cup-2",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Bushido Wildcats",
-            "team2_name": "Fire Flux",
-            "winner_name": "Bushido Wildcats"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -7582,7 +7593,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-06T11:34:14Z",
+    "last_verified_utc": "2026-08-06T14:40:59Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8020,7 +8031,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-06T11:34:32Z",
+  "generated_at_utc": "2026-08-06T14:41:19Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9390,13 +9401,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.637821,
-        "brier": 0.220851,
-        "ece": 0.032896,
-        "log_loss": 0.630579
+        "accuracy": 0.6384,
+        "brier": 0.220574,
+        "ece": 0.032494,
+        "log_loss": 0.629964
       },
-      "rows": 934,
-      "test_rows": 624
+      "rows": 935,
+      "test_rows": 625
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -9407,13 +9418,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.637821,
-        "brier": 0.221554,
-        "ece": 0.035985,
-        "log_loss": 0.633191
+        "accuracy": 0.6384,
+        "brier": 0.221258,
+        "ece": 0.036042,
+        "log_loss": 0.632524
       },
       "promotion_passed": false,
-      "rows": 624
+      "rows": 625
     },
     "champion": {
       "folds": 3,
@@ -9430,7 +9441,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-06T11:34:32Z",
+    "generated_at_utc": "2026-08-06T14:41:19Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -9442,7 +9453,7 @@ window.__STRIKESIGNAL_DATA__ = {
     },
     "training": {
       "new_rows": 1,
-      "online_rows": 177,
+      "online_rows": 178,
       "seed_rows": 757
     }
   },
@@ -9624,9 +9635,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396139",
       "hltv:2396140",
       "hltv:2396141",
-      "hltv:2396142"
+      "hltv:2396142",
+      "hltv:2396143"
     ],
-    "last_online_update_utc": "2026-08-06T11:34:32Z",
+    "last_online_update_utc": "2026-08-06T14:41:19Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -12580,9 +12592,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 73
       },
       {
-        "elo": 1476.09,
-        "matches": 25,
-        "recent_win_rate_10": 0.3,
+        "elo": 1489.8,
+        "last_result_utc": "2026-08-06T14:41:19Z",
+        "matches": 26,
+        "recent_win_rate_10": 0.4273,
         "team_key": "bet-m",
         "team_name": "BET-M",
         "vrs_points": 1139.0,
@@ -14449,10 +14462,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 302
       },
       {
-        "elo": 1515.34,
-        "last_result_utc": "2026-08-03T17:22:49Z",
-        "matches": 103,
-        "recent_win_rate_10": 0.6366,
+        "elo": 1501.63,
+        "last_result_utc": "2026-08-06T14:41:19Z",
+        "matches": 104,
+        "recent_win_rate_10": 0.5209,
         "team_key": "sparta",
         "team_name": "SPARTA",
         "vrs_points": 547.0,
@@ -18800,39 +18813,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.7579,
-      "confidence_label": "strong",
-      "data_quality": "full",
-      "elo_prob_team1": 0.7579,
-      "event_id": "hltv:9298",
-      "event_name": "CCT 2026 Europe Series 6",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-06",
-      "match_id": "hltv:2396144",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786024800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Walczaki",
-      "prob_team1": 0.7579,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396144/walczaki-vs-unity-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-06T14:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Walczaki",
-      "team1_vrs_rank": 46,
-      "team2_hltv_rank": null,
-      "team2_name": "UNiTY",
-      "team2_vrs_rank": 144
-    },
-    {
       "confidence": 0.5635,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -19590,11 +19570,44 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Eternal Fire",
       "team2_vrs_rank": 261
+    },
+    {
+      "confidence": 0.5271,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5271,
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-07",
+      "match_id": "hltv:2396489",
+      "match_phase": "scheduled",
+      "match_timestamp": 1786118400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Liquid",
+      "prob_team1": 0.5271,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-07T16:00:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Liquid",
+      "team1_vrs_rank": 45,
+      "team2_hltv_rank": null,
+      "team2_name": "Dhala",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 61,
+    "live_feed_items": 58,
     "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
