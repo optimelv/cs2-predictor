@@ -4413,6 +4413,51 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "CYBERSHOKE"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-6",
+        "event_name": "CCT 2026 Europe Series 6",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396142",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Dust2",
+            "score1": 6,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Dust2",
+          "Anubis",
+          "Mirage"
+        ],
+        "match_id": "hltv:2396142",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Lavked",
+        "team2_name": "Black Phoenix",
+        "veto_text": "Best of 3 (Online)\n\n* Round of 16"
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4532,27 +4577,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-6",
-        "event_name": "CCT 2026 Europe Series 6",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396142",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396142",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-06T08:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Lavked",
-        "team2_name": "Black Phoenix",
-        "veto_text": "Best of 3 (Online)\n\n* Round of 16"
       },
       {
         "event_id": "hltv:9298",
@@ -4955,9 +4979,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Eternal Fire"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+        "event_id": "hltv:8762",
         "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396489",
         "lineups": {
           "team1": [],
@@ -6085,27 +6109,6 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-6",
             "event_name": "CCT 2026 Europe Series 6",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396142",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396142",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-06T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Lavked",
-            "team2_name": "Black Phoenix",
-            "veto_text": "Best of 3 (Online)\n\n* Round of 16"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-6",
-            "event_name": "CCT 2026 Europe Series 6",
             "event_url": null,
             "hltv_match_id": "2396141",
             "maps": [],
@@ -6292,12 +6295,55 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Just Players",
             "team2_name": "los kogutos",
             "winner_name": "los kogutos"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-6",
+            "event_name": "CCT 2026 Europe Series 6",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396142",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Dust2",
+                "score1": 6,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Dust2",
+              "Anubis",
+              "Mirage"
+            ],
+            "match_id": "hltv:2396142",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "Lavked",
+            "team2_name": "Black Phoenix",
+            "veto_text": "Best of 3 (Online)\n\n* Round of 16"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
         "participants": [
-          "Lavked",
-          "Black Phoenix",
           "CYBERSHOKE",
           "los kogutos",
           "Nordic Partners",
@@ -6311,11 +6357,13 @@ window.__STRIKESIGNAL_DATA__ = {
           "Enjoy",
           "ex-RUSTEC",
           "NEW VISION",
-          "SPARTA"
+          "SPARTA",
+          "Lavked",
+          "Black Phoenix"
         ],
         "product_tier": "tier_2",
-        "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "source_url": null,
+        "status": "ongoing"
       },
       {
         "current_stage": "Playoffs",
@@ -7273,6 +7321,22 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:8762",
             "event_name": "Esports World Cup 2026 Open Qualifier",
             "event_url": null,
+            "hltv_match_id": "2396489",
+            "maps": [],
+            "match_id": "hltv:2396489",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396489/liquid-vs-dhala-esports-world-cup-2026-open-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-07T16:00:00Z",
+            "status": "live",
+            "team1_name": "Liquid",
+            "team2_name": "Dhala"
+          },
+          {
+            "event_id": "hltv:8762",
+            "event_name": "Esports World Cup 2026 Open Qualifier",
+            "event_url": null,
             "hltv_match_id": "2396490",
             "maps": [],
             "match_id": "hltv:2396490",
@@ -7460,6 +7524,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "SadFamous",
           "NADE",
           "Eternal Fire",
+          "Liquid",
+          "Dhala",
           "Prestige",
           "Metizport",
           "FOKUS",
@@ -7481,7 +7547,7 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "product_tier": "tier_1",
         "source_url": null,
-        "status": "upcoming"
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -7525,7 +7591,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-06T03:39:18Z",
+    "last_verified_utc": "2026-08-06T09:07:34Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -7963,7 +8029,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-06T03:39:39Z",
+  "generated_at_utc": "2026-08-06T09:07:52Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9373,7 +9439,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-06T03:39:39Z",
+    "generated_at_utc": "2026-08-06T09:07:51Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -18742,42 +18808,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.57,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.43,
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-06",
-      "match_id": "hltv:2396142",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786003200,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Black Phoenix",
-      "prob_team1": 0.43,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-06T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Lavked",
-      "team1_vrs_rank": 78,
-      "team2_hltv_rank": null,
-      "team2_name": "Black Phoenix",
-      "team2_vrs_rank": null
-    },
-    {
       "confidence": 0.5598,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -19535,6 +19565,39 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Phantom",
       "team2_vrs_rank": 116
+    },
+    {
+      "confidence": 0.5478,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5478,
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-07",
+      "match_id": "hltv:2396487",
+      "match_phase": "scheduled",
+      "match_timestamp": 1786118400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "100 Thieves",
+      "prob_team1": 0.5478,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396487/100-thieves-vs-sadfamous-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-07T16:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "100 Thieves",
+      "team1_vrs_rank": 47,
+      "team2_hltv_rank": null,
+      "team2_name": "SadFamous",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
