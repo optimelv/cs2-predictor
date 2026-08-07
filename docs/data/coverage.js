@@ -4558,20 +4558,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9298",
+      "event_id": "hltv:cct-2026-europe-series-6",
       "event_name": "CCT 2026 Europe Series 6",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396146",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396146",
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396146/just-players-vs-butterfly-cct-2026-europe-series-6",
-      "stage_name": "Quarterfinal",
+      "stage_name": "Scheduled series",
       "starts_at": "2026-08-07T08:00:00Z",
       "status": "upcoming",
       "team1_name": "Just Players",
-      "team2_name": "Butterfly"
+      "team2_name": "Butterfly",
+      "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
     },
     {
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
@@ -4631,10 +4636,50 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Group 1 opening match"
     },
     {
-      "event_id": "hltv:8762",
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396452",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "24704",
+            "nickname": "Neqy",
+            "player_id": "hltv:24704",
+            "source_url": "https://www.hltv.org/player/24704/neqy",
+            "team_name": "Kreazion"
+          },
+          {
+            "hltv_player_id": "24997",
+            "nickname": "meowpop",
+            "player_id": "hltv:24997",
+            "source_url": "https://www.hltv.org/player/24997/meowpop",
+            "team_name": "Kreazion"
+          },
+          {
+            "hltv_player_id": "23545",
+            "nickname": "RaY5ive",
+            "player_id": "hltv:23545",
+            "source_url": "https://www.hltv.org/player/23545/ray5ive",
+            "team_name": "Kreazion"
+          },
+          {
+            "hltv_player_id": "19725",
+            "nickname": "gxx-",
+            "player_id": "hltv:19725",
+            "source_url": "https://www.hltv.org/player/19725/gxx",
+            "team_name": "Kreazion"
+          },
+          {
+            "hltv_player_id": "22008",
+            "nickname": "swiz",
+            "player_id": "hltv:22008",
+            "source_url": "https://www.hltv.org/player/22008/swiz",
+            "team_name": "Kreazion"
+          }
+        ],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396452",
       "product_tier": "tier_1",
@@ -4644,12 +4689,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-07T09:00:00Z",
       "status": "upcoming",
       "team1_name": "Kreazion",
-      "team2_name": "ASTRAL"
+      "team2_name": "ASTRAL",
+      "veto_text": "Best of 3 (LAN)\n\n* Group 1 opening match"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_id": "hltv:8762",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396453",
       "lineups": {
         "team1": [],
@@ -5930,32 +5976,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "event_name": "CCT 2026 Europe Series 6",
                 "event_url": null,
                 "feeds_from": [],
-                "hltv_match_id": "2396146",
-                "maps": [],
-                "match_id": "hltv:2396146",
-                "product_tier": "tier_2",
-                "round_name": "Quarterfinal",
-                "series_format": "bo3",
-                "slot_id": "main:quarterfinal:1",
-                "source_url": "https://www.hltv.org/matches/2396146/just-players-vs-butterfly-cct-2026-europe-series-6",
-                "stage_name": "Quarterfinal",
-                "starts_at": "2026-08-07T08:00:00Z",
-                "status": "upcoming",
-                "team1_name": "Just Players",
-                "team2_name": "Butterfly"
-              },
-              {
-                "event_id": "hltv:9298",
-                "event_name": "CCT 2026 Europe Series 6",
-                "event_url": null,
-                "feeds_from": [],
                 "hltv_match_id": "2396147",
                 "maps": [],
                 "match_id": "hltv:2396147",
                 "product_tier": "tier_2",
                 "round_name": "Quarterfinal",
                 "series_format": "bo3",
-                "slot_id": "main:quarterfinal:2",
+                "slot_id": "main:quarterfinal:1",
                 "source_url": "https://www.hltv.org/matches/2396147/walczaki-vs-black-phoenix-cct-2026-europe-series-6",
                 "stage_name": "Quarterfinal",
                 "starts_at": "2026-08-07T11:00:00Z",
@@ -5974,7 +6001,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "product_tier": "tier_2",
                 "round_name": "Quarterfinal",
                 "series_format": "bo3",
-                "slot_id": "main:quarterfinal:3",
+                "slot_id": "main:quarterfinal:2",
                 "source_url": "https://www.hltv.org/matches/2396148/bet-m-vs-ex-rustec-cct-2026-europe-series-6",
                 "stage_name": "Quarterfinal",
                 "starts_at": "2026-08-07T14:00:00Z",
@@ -5993,7 +6020,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "product_tier": "tier_2",
                 "round_name": "Quarterfinal",
                 "series_format": "bo3",
-                "slot_id": "main:quarterfinal:4",
+                "slot_id": "main:quarterfinal:3",
                 "source_url": "https://www.hltv.org/matches/2396149/cybershoke-vs-genone-cct-2026-europe-series-6",
                 "stage_name": "Quarterfinal",
                 "starts_at": "2026-08-07T17:00:00Z",
@@ -6025,22 +6052,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:9298",
       "matches": [
-        {
-          "event_id": "hltv:9298",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396146",
-          "maps": [],
-          "match_id": "hltv:2396146",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396146/just-players-vs-butterfly-cct-2026-europe-series-6",
-          "stage_name": "Quarterfinal",
-          "starts_at": "2026-08-07T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Just Players",
-          "team2_name": "Butterfly"
-        },
         {
           "event_id": "hltv:9298",
           "event_name": "CCT 2026 Europe Series 6",
@@ -6092,8 +6103,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
-        "Just Players",
-        "Butterfly",
         "Walczaki",
         "Black Phoenix",
         "BET-M",
@@ -6267,6 +6276,27 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-europe-series-6",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-6",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396146",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396146",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396146/just-players-vs-butterfly-cct-2026-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-07T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Just Players",
+          "team2_name": "Butterfly",
+          "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-6",
           "event_name": "CCT 2026 Europe Series 6",
@@ -6517,6 +6547,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
+        "Just Players",
+        "Butterfly",
         "WW",
         "ex-RUSTEC",
         "Walczaki",
@@ -6529,17 +6561,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "los kogutos",
         "Nordic Partners",
         "GenOne",
-        "Butterfly",
         "Rune Eaters",
         "ARCRED",
-        "Just Players",
         "ex-Young Ninjas",
         "Enjoy",
         "NEW VISION"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     },
     {
       "current_stage": "Playoffs",
@@ -7087,17 +7117,17 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:8762",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396452",
+          "hltv_match_id": "2396453",
           "maps": [],
-          "match_id": "hltv:2396452",
+          "match_id": "hltv:2396453",
           "product_tier": "tier_1",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396452/kreazion-vs-astral-esports-world-cup-2026-open-qualifier",
+          "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-08-07T09:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Kreazion",
-          "team2_name": "ASTRAL"
+          "status": "live",
+          "team1_name": "BIG",
+          "team2_name": "z to forward"
         },
         {
           "event_id": "hltv:8762",
@@ -7550,8 +7580,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
       "participants": [
-        "Kreazion",
-        "ASTRAL",
+        "BIG",
+        "z to forward",
         "DUSTY",
         "Fluxo",
         "DENDELE",
@@ -7684,22 +7714,58 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:esports-world-cup-2026-open-qualifier",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396453",
+          "hltv_match_id": "2396452",
           "lineups": {
-            "team1": [],
+            "team1": [
+              {
+                "hltv_player_id": "24704",
+                "nickname": "Neqy",
+                "player_id": "hltv:24704",
+                "source_url": "https://www.hltv.org/player/24704/neqy",
+                "team_name": "Kreazion"
+              },
+              {
+                "hltv_player_id": "24997",
+                "nickname": "meowpop",
+                "player_id": "hltv:24997",
+                "source_url": "https://www.hltv.org/player/24997/meowpop",
+                "team_name": "Kreazion"
+              },
+              {
+                "hltv_player_id": "23545",
+                "nickname": "RaY5ive",
+                "player_id": "hltv:23545",
+                "source_url": "https://www.hltv.org/player/23545/ray5ive",
+                "team_name": "Kreazion"
+              },
+              {
+                "hltv_player_id": "19725",
+                "nickname": "gxx-",
+                "player_id": "hltv:19725",
+                "source_url": "https://www.hltv.org/player/19725/gxx",
+                "team_name": "Kreazion"
+              },
+              {
+                "hltv_player_id": "22008",
+                "nickname": "swiz",
+                "player_id": "hltv:22008",
+                "source_url": "https://www.hltv.org/player/22008/swiz",
+                "team_name": "Kreazion"
+              }
+            ],
             "team2": []
           },
           "maps": [],
-          "match_id": "hltv:2396453",
+          "match_id": "hltv:2396452",
           "product_tier": "tier_1",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+          "source_url": "https://www.hltv.org/matches/2396452/kreazion-vs-astral-esports-world-cup-2026-open-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "BIG",
-          "team2_name": "z to forward",
-          "veto_text": "Best of 3 (LAN)\n\n* Group 2 opening match"
+          "status": "upcoming",
+          "team1_name": "Kreazion",
+          "team2_name": "ASTRAL",
+          "veto_text": "Best of 3 (LAN)\n\n* Group 1 opening match"
         },
         {
           "event_id": "hltv:esports-world-cup-2026-open-qualifier",
@@ -7727,8 +7793,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "participants": [
         "Inner Circle",
         "NIO",
-        "BIG",
-        "z to forward",
+        "Kreazion",
+        "ASTRAL",
         "Spirit HU",
         "NRG"
       ],
@@ -7737,7 +7803,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-07T00:17:17Z",
+  "last_verified_utc": "2026-08-07T03:20:40Z",
   "sources": [
     {
       "name": "HLTV events calendar",
