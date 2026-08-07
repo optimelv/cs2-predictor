@@ -4752,10 +4752,14 @@
         "team2_name": "levelONE"
       },
       {
-        "event_id": "hltv:8762",
+        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
         "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396503",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396503",
         "product_tier": "tier_1",
@@ -4765,7 +4769,8 @@
         "starts_at": "2026-08-08T09:00:00Z",
         "status": "live",
         "team1_name": "100 Thieves",
-        "team2_name": "NADE"
+        "team2_name": "NADE",
+        "veto_text": "Best of 3 (LAN)\n\n* Group 11 winners' match"
       },
       {
         "event_id": "hltv:8762",
@@ -6697,22 +6702,6 @@
             "event_id": "hltv:8762",
             "event_name": "Esports World Cup 2026 Open Qualifier",
             "event_url": null,
-            "hltv_match_id": "2396503",
-            "maps": [],
-            "match_id": "hltv:2396503",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396503/100-thieves-vs-nade-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-08T09:00:00Z",
-            "status": "live",
-            "team1_name": "100 Thieves",
-            "team2_name": "NADE"
-          },
-          {
-            "event_id": "hltv:8762",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
             "hltv_match_id": "2396504",
             "maps": [],
             "match_id": "hltv:2396504",
@@ -7020,8 +7009,6 @@
           "Vael",
           "REVENIX",
           "levelONE",
-          "100 Thieves",
-          "NADE",
           "SadFamous",
           "Eternal Fire",
           "Liquid",
@@ -7116,6 +7103,27 @@
             "team1_name": "EYEBALLERS",
             "team2_name": "Phantom",
             "veto_text": "Best of 3 (LAN)\n\n* Group 10 winners' match"
+          },
+          {
+            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+            "event_name": "Esports World Cup 2026 Open Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396503",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396503",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396503/100-thieves-vs-nade-esports-world-cup-2026-open-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-08T09:00:00Z",
+            "status": "live",
+            "team1_name": "100 Thieves",
+            "team2_name": "NADE",
+            "veto_text": "Best of 3 (LAN)\n\n* Group 11 winners' match"
           },
           {
             "event_id": "hltv:esports-world-cup-2026-open-qualifier",
@@ -8036,6 +8044,7 @@
           "OG",
           "EYEBALLERS",
           "Phantom",
+          "100 Thieves",
           "NADE",
           "Eternal Fire",
           "FOKUS",
@@ -8058,7 +8067,6 @@
           "Passion Chicha",
           "Zeste",
           "JiJieHao",
-          "100 Thieves",
           "SadFamous",
           "MANGANESE",
           "SINNERS",
@@ -8102,7 +8110,7 @@
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-07T19:16:40Z",
+    "last_verified_utc": "2026-08-07T21:57:11Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8540,7 +8548,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-07T19:16:59Z",
+  "generated_at_utc": "2026-08-07T21:57:29Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9950,7 +9958,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-07T19:16:58Z",
+    "generated_at_utc": "2026-08-07T21:57:29Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -9961,7 +9969,7 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 18,
+      "new_rows": 0,
       "online_rows": 232,
       "seed_rows": 757
     }
@@ -19820,10 +19828,13 @@
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.6105,
-      "event_id": "hltv:8762",
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-08",
@@ -20479,7 +20490,7 @@
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 82,
-    "online_results_applied": 18,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
