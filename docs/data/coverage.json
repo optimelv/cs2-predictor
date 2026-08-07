@@ -4437,6 +4437,481 @@
       "winner_name": "ex-RUSTEC"
     },
     {
+      "event_id": "hltv:9298",
+      "event_name": "CCT 2026 Europe Series 6",
+      "event_url": null,
+      "hltv_match_id": "2396146",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2396146",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396146/just-players-vs-butterfly-cct-2026-europe-series-6",
+      "stage_name": "Quarterfinal",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Just Players",
+      "team2_name": "Butterfly",
+      "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396451",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "24168",
+            "nickname": "onic",
+            "player_id": "hltv:24168",
+            "source_url": "https://www.hltv.org/player/24168/onic",
+            "team_name": "Inner Circle"
+          },
+          {
+            "hltv_player_id": "24282",
+            "nickname": "Dawy",
+            "player_id": "hltv:24282",
+            "source_url": "https://www.hltv.org/player/24282/dawy",
+            "team_name": "Inner Circle"
+          },
+          {
+            "hltv_player_id": "23415",
+            "nickname": "zeRRoFIX",
+            "player_id": "hltv:23415",
+            "source_url": "https://www.hltv.org/player/23415/zerrofix",
+            "team_name": "Inner Circle"
+          },
+          {
+            "hltv_player_id": "19592",
+            "nickname": "headtr1ck",
+            "player_id": "hltv:19592",
+            "source_url": "https://www.hltv.org/player/19592/headtr1ck",
+            "team_name": "Inner Circle"
+          },
+          {
+            "hltv_player_id": "16147",
+            "nickname": "cptkurtka023",
+            "player_id": "hltv:16147",
+            "source_url": "https://www.hltv.org/player/16147/cptkurtka023",
+            "team_name": "Inner Circle"
+          }
+        ],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2396451",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Inner Circle",
+      "team2_name": "NIO",
+      "veto_text": "Best of 3 (LAN)\n\n* Group 1 opening match"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396452",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "24704",
+            "nickname": "Neqy",
+            "player_id": "hltv:24704",
+            "source_url": "https://www.hltv.org/player/24704/neqy",
+            "team_name": "Kreazion"
+          },
+          {
+            "hltv_player_id": "24997",
+            "nickname": "meowpop",
+            "player_id": "hltv:24997",
+            "source_url": "https://www.hltv.org/player/24997/meowpop",
+            "team_name": "Kreazion"
+          },
+          {
+            "hltv_player_id": "23545",
+            "nickname": "RaY5ive",
+            "player_id": "hltv:23545",
+            "source_url": "https://www.hltv.org/player/23545/ray5ive",
+            "team_name": "Kreazion"
+          },
+          {
+            "hltv_player_id": "19725",
+            "nickname": "gxx-",
+            "player_id": "hltv:19725",
+            "source_url": "https://www.hltv.org/player/19725/gxx",
+            "team_name": "Kreazion"
+          },
+          {
+            "hltv_player_id": "22008",
+            "nickname": "swiz",
+            "player_id": "hltv:22008",
+            "source_url": "https://www.hltv.org/player/22008/swiz",
+            "team_name": "Kreazion"
+          }
+        ],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2396452",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396452/kreazion-vs-astral-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Kreazion",
+      "team2_name": "ASTRAL",
+      "veto_text": "Best of 3 (LAN)\n\n* Group 1 opening match"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396453",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Ancient",
+        "Cache"
+      ],
+      "match_id": "hltv:2396453",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "BIG",
+      "team2_name": "z to forward",
+      "veto_text": "Best of 3 (LAN)\n\n* Group 2 opening match"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396454",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Nuke",
+        "Inferno"
+      ],
+      "match_id": "hltv:2396454",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396454/dusty-vs-fluxo-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "DUSTY",
+      "team2_name": "Fluxo",
+      "veto_text": "Best of 3 (LAN)\n\n* Group 2 opening match"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396455",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Cache",
+        "Anubis",
+        "Ancient"
+      ],
+      "match_id": "hltv:2396455",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396455/dendele-vs-queenconso-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "DENDELE",
+      "team2_name": "QueenConso",
+      "veto_text": "Best of 3 (LAN)\n\n* Group 3 opening match"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396456",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Cache",
+        "Nuke"
+      ],
+      "match_id": "hltv:2396456",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396456/saw-vs-eac-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "SAW",
+      "team2_name": "EAC",
+      "veto_text": "Best of 3 (LAN)\n\n* Group 3 opening match"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396457",
+      "maps": [],
+      "match_id": "hltv:2396457",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396457/hotu-vs-galactik-rebels-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "HOTU",
+      "team2_name": "Galactik rebels"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396458",
+      "maps": [],
+      "match_id": "hltv:2396458",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396458/genone-vs-lafox-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "GenOne",
+      "team2_name": "lafox"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396459",
+      "maps": [],
+      "match_id": "hltv:2396459",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396459/infinite-vs-aogiri-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "INFINITE",
+      "team2_name": "Aogiri"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396460",
+      "maps": [],
+      "match_id": "hltv:2396460",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396460/giant-pandas-vs-betclic-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Giant Pandas",
+      "team2_name": "Betclic"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396461",
+      "maps": [],
+      "match_id": "hltv:2396461",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396461/1win-vs-citron-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "1win",
+      "team2_name": "Citron"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396462",
+      "maps": [],
+      "match_id": "hltv:2396462",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "BC.Game",
+      "team2_name": "BASEMENT BOYS"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396463",
+      "maps": [],
+      "match_id": "hltv:2396463",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396463/heroic-vs-rem-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "HEROIC",
+      "team2_name": "REM"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396464",
+      "maps": [],
+      "match_id": "hltv:2396464",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396464/abt-vs-9ine-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "ABT",
+      "team2_name": "9INE"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396465",
+      "maps": [],
+      "match_id": "hltv:2396465",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396465/iberian-soul-vs-6666-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Iberian Soul",
+      "team2_name": "6666"
+    },
+    {
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396466",
+      "maps": [],
+      "match_id": "hltv:2396466",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396466/fkomar-vs-fnatic-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "FKOMAR",
+      "team2_name": "fnatic"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4556,370 +5031,6 @@
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396146",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396146",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396146/just-players-vs-butterfly-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Just Players",
-      "team2_name": "Butterfly",
-      "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396451",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "24168",
-            "nickname": "onic",
-            "player_id": "hltv:24168",
-            "source_url": "https://www.hltv.org/player/24168/onic",
-            "team_name": "Inner Circle"
-          },
-          {
-            "hltv_player_id": "24282",
-            "nickname": "Dawy",
-            "player_id": "hltv:24282",
-            "source_url": "https://www.hltv.org/player/24282/dawy",
-            "team_name": "Inner Circle"
-          },
-          {
-            "hltv_player_id": "23415",
-            "nickname": "zeRRoFIX",
-            "player_id": "hltv:23415",
-            "source_url": "https://www.hltv.org/player/23415/zerrofix",
-            "team_name": "Inner Circle"
-          },
-          {
-            "hltv_player_id": "19592",
-            "nickname": "headtr1ck",
-            "player_id": "hltv:19592",
-            "source_url": "https://www.hltv.org/player/19592/headtr1ck",
-            "team_name": "Inner Circle"
-          },
-          {
-            "hltv_player_id": "16147",
-            "nickname": "cptkurtka023",
-            "player_id": "hltv:16147",
-            "source_url": "https://www.hltv.org/player/16147/cptkurtka023",
-            "team_name": "Inner Circle"
-          }
-        ],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396451",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "Inner Circle",
-      "team2_name": "NIO",
-      "veto_text": "Best of 3 (LAN)\n\n* Group 1 opening match"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396452",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "24704",
-            "nickname": "Neqy",
-            "player_id": "hltv:24704",
-            "source_url": "https://www.hltv.org/player/24704/neqy",
-            "team_name": "Kreazion"
-          },
-          {
-            "hltv_player_id": "24997",
-            "nickname": "meowpop",
-            "player_id": "hltv:24997",
-            "source_url": "https://www.hltv.org/player/24997/meowpop",
-            "team_name": "Kreazion"
-          },
-          {
-            "hltv_player_id": "23545",
-            "nickname": "RaY5ive",
-            "player_id": "hltv:23545",
-            "source_url": "https://www.hltv.org/player/23545/ray5ive",
-            "team_name": "Kreazion"
-          },
-          {
-            "hltv_player_id": "19725",
-            "nickname": "gxx-",
-            "player_id": "hltv:19725",
-            "source_url": "https://www.hltv.org/player/19725/gxx",
-            "team_name": "Kreazion"
-          },
-          {
-            "hltv_player_id": "22008",
-            "nickname": "swiz",
-            "player_id": "hltv:22008",
-            "source_url": "https://www.hltv.org/player/22008/swiz",
-            "team_name": "Kreazion"
-          }
-        ],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396452",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396452/kreazion-vs-astral-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Kreazion",
-      "team2_name": "ASTRAL",
-      "veto_text": "Best of 3 (LAN)\n\n* Group 1 opening match"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396453",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396453",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "BIG",
-      "team2_name": "z to forward",
-      "veto_text": "Best of 3 (LAN)\n\n* Group 2 opening match"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396454",
-      "maps": [],
-      "match_id": "hltv:2396454",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396454/dusty-vs-fluxo-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "DUSTY",
-      "team2_name": "Fluxo"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396455",
-      "maps": [],
-      "match_id": "hltv:2396455",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396455/dendele-vs-queenconso-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "DENDELE",
-      "team2_name": "QueenConso"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396456",
-      "maps": [],
-      "match_id": "hltv:2396456",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396456/saw-vs-eac-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "SAW",
-      "team2_name": "EAC"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396457",
-      "maps": [],
-      "match_id": "hltv:2396457",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396457/hotu-vs-galactik-rebels-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "HOTU",
-      "team2_name": "Galactik rebels"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396458",
-      "maps": [],
-      "match_id": "hltv:2396458",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396458/genone-vs-lafox-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "upcoming",
-      "team1_name": "GenOne",
-      "team2_name": "lafox"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396459",
-      "maps": [],
-      "match_id": "hltv:2396459",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396459/infinite-vs-aogiri-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "INFINITE",
-      "team2_name": "Aogiri"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396460",
-      "maps": [],
-      "match_id": "hltv:2396460",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396460/giant-pandas-vs-betclic-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "Giant Pandas",
-      "team2_name": "Betclic"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396461",
-      "maps": [],
-      "match_id": "hltv:2396461",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396461/1win-vs-citron-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "1win",
-      "team2_name": "Citron"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396462",
-      "maps": [],
-      "match_id": "hltv:2396462",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "BC.Game",
-      "team2_name": "BASEMENT BOYS"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396463",
-      "maps": [],
-      "match_id": "hltv:2396463",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396463/heroic-vs-rem-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "HEROIC",
-      "team2_name": "REM"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396464",
-      "maps": [],
-      "match_id": "hltv:2396464",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396464/abt-vs-9ine-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "ABT",
-      "team2_name": "9INE"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396465",
-      "maps": [],
-      "match_id": "hltv:2396465",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396465/iberian-soul-vs-6666-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "Iberian Soul",
-      "team2_name": "6666"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396466",
-      "maps": [],
-      "match_id": "hltv:2396466",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396466/fkomar-vs-fnatic-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-07T09:00:00Z",
-      "status": "live",
-      "team1_name": "FKOMAR",
-      "team2_name": "fnatic"
     },
     {
       "event_id": "hltv:9298",
@@ -6027,6 +6138,25 @@
                 "status": "upcoming",
                 "team1_name": "CYBERSHOKE",
                 "team2_name": "GenOne"
+              },
+              {
+                "event_id": "hltv:9298",
+                "event_name": "CCT 2026 Europe Series 6",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2396146",
+                "maps": [],
+                "match_id": "hltv:2396146",
+                "product_tier": "tier_2",
+                "round_name": "Quarterfinal",
+                "series_format": "bo3",
+                "slot_id": "main:quarterfinal:4",
+                "source_url": "https://www.hltv.org/matches/2396146/just-players-vs-butterfly-cct-2026-europe-series-6",
+                "stage_name": "Quarterfinal",
+                "starts_at": null,
+                "status": "live",
+                "team1_name": "Just Players",
+                "team2_name": "Butterfly"
               }
             ],
             "name": "Quarterfinal",
@@ -6099,6 +6229,22 @@
           "status": "upcoming",
           "team1_name": "CYBERSHOKE",
           "team2_name": "GenOne"
+        },
+        {
+          "event_id": "hltv:9298",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
+          "hltv_match_id": "2396146",
+          "maps": [],
+          "match_id": "hltv:2396146",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396146/just-players-vs-butterfly-cct-2026-europe-series-6",
+          "stage_name": "Quarterfinal",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Just Players",
+          "team2_name": "Butterfly"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
@@ -6108,11 +6254,13 @@
         "BET-M",
         "ex-RUSTEC",
         "CYBERSHOKE",
-        "GenOne"
+        "GenOne",
+        "Just Players",
+        "Butterfly"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "bracket": {
@@ -6276,27 +6424,6 @@
       },
       "id": "hltv:cct-2026-europe-series-6",
       "matches": [
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396146",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396146",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396146/just-players-vs-butterfly-cct-2026-europe-series-6",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Just Players",
-          "team2_name": "Butterfly",
-          "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
-        },
         {
           "event_id": "hltv:cct-2026-europe-series-6",
           "event_name": "CCT 2026 Europe Series 6",
@@ -6547,8 +6674,6 @@
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
-        "Just Players",
-        "Butterfly",
         "WW",
         "ex-RUSTEC",
         "Walczaki",
@@ -6561,15 +6686,17 @@
         "los kogutos",
         "Nordic Partners",
         "GenOne",
+        "Butterfly",
         "Rune Eaters",
         "ARCRED",
+        "Just Players",
         "ex-Young Ninjas",
         "Enjoy",
         "NEW VISION"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Playoffs",
@@ -7117,230 +7244,6 @@
           "event_id": "hltv:8762",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396453",
-          "maps": [],
-          "match_id": "hltv:2396453",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "BIG",
-          "team2_name": "z to forward"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396454",
-          "maps": [],
-          "match_id": "hltv:2396454",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396454/dusty-vs-fluxo-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "DUSTY",
-          "team2_name": "Fluxo"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396455",
-          "maps": [],
-          "match_id": "hltv:2396455",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396455/dendele-vs-queenconso-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "DENDELE",
-          "team2_name": "QueenConso"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396456",
-          "maps": [],
-          "match_id": "hltv:2396456",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396456/saw-vs-eac-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "SAW",
-          "team2_name": "EAC"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396457",
-          "maps": [],
-          "match_id": "hltv:2396457",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396457/hotu-vs-galactik-rebels-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "HOTU",
-          "team2_name": "Galactik rebels"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396458",
-          "maps": [],
-          "match_id": "hltv:2396458",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396458/genone-vs-lafox-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "upcoming",
-          "team1_name": "GenOne",
-          "team2_name": "lafox"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396459",
-          "maps": [],
-          "match_id": "hltv:2396459",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396459/infinite-vs-aogiri-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "INFINITE",
-          "team2_name": "Aogiri"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396460",
-          "maps": [],
-          "match_id": "hltv:2396460",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396460/giant-pandas-vs-betclic-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "Giant Pandas",
-          "team2_name": "Betclic"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396461",
-          "maps": [],
-          "match_id": "hltv:2396461",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396461/1win-vs-citron-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "1win",
-          "team2_name": "Citron"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396462",
-          "maps": [],
-          "match_id": "hltv:2396462",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "BC.Game",
-          "team2_name": "BASEMENT BOYS"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396463",
-          "maps": [],
-          "match_id": "hltv:2396463",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396463/heroic-vs-rem-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "HEROIC",
-          "team2_name": "REM"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396464",
-          "maps": [],
-          "match_id": "hltv:2396464",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396464/abt-vs-9ine-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "ABT",
-          "team2_name": "9INE"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396465",
-          "maps": [],
-          "match_id": "hltv:2396465",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396465/iberian-soul-vs-6666-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "Iberian Soul",
-          "team2_name": "6666"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396466",
-          "maps": [],
-          "match_id": "hltv:2396466",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396466/fkomar-vs-fnatic-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "FKOMAR",
-          "team2_name": "fnatic"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2396483",
           "maps": [],
           "match_id": "hltv:2396483",
@@ -7576,38 +7479,202 @@
           "status": "upcoming",
           "team1_name": "Zeste",
           "team2_name": "JiJieHao"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396457",
+          "maps": [],
+          "match_id": "hltv:2396457",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396457/hotu-vs-galactik-rebels-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "HOTU",
+          "team2_name": "Galactik rebels"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396459",
+          "maps": [],
+          "match_id": "hltv:2396459",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396459/infinite-vs-aogiri-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "INFINITE",
+          "team2_name": "Aogiri"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396460",
+          "maps": [],
+          "match_id": "hltv:2396460",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396460/giant-pandas-vs-betclic-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Giant Pandas",
+          "team2_name": "Betclic"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396461",
+          "maps": [],
+          "match_id": "hltv:2396461",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396461/1win-vs-citron-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "1win",
+          "team2_name": "Citron"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396462",
+          "maps": [],
+          "match_id": "hltv:2396462",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396462/bcgame-vs-basement-boys-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "BC.Game",
+          "team2_name": "BASEMENT BOYS"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396463",
+          "maps": [],
+          "match_id": "hltv:2396463",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396463/heroic-vs-rem-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "HEROIC",
+          "team2_name": "REM"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396464",
+          "maps": [],
+          "match_id": "hltv:2396464",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396464/abt-vs-9ine-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "ABT",
+          "team2_name": "9INE"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396465",
+          "maps": [],
+          "match_id": "hltv:2396465",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396465/iberian-soul-vs-6666-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Iberian Soul",
+          "team2_name": "6666"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396466",
+          "maps": [],
+          "match_id": "hltv:2396466",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396466/fkomar-vs-fnatic-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "FKOMAR",
+          "team2_name": "fnatic"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396451",
+          "maps": [],
+          "match_id": "hltv:2396451",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Inner Circle",
+          "team2_name": "NIO"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396452",
+          "maps": [],
+          "match_id": "hltv:2396452",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396452/kreazion-vs-astral-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Kreazion",
+          "team2_name": "ASTRAL"
+        },
+        {
+          "event_id": "hltv:8762",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396458",
+          "maps": [],
+          "match_id": "hltv:2396458",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396458/genone-vs-lafox-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "GenOne",
+          "team2_name": "lafox"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
       "participants": [
-        "BIG",
-        "z to forward",
-        "DUSTY",
-        "Fluxo",
-        "DENDELE",
-        "QueenConso",
-        "SAW",
-        "EAC",
-        "HOTU",
-        "Galactik rebels",
-        "GenOne",
-        "lafox",
-        "INFINITE",
-        "Aogiri",
-        "Giant Pandas",
-        "Betclic",
-        "1win",
-        "Citron",
-        "BC.Game",
-        "BASEMENT BOYS",
-        "HEROIC",
-        "REM",
-        "ABT",
-        "9INE",
-        "Iberian Soul",
-        "6666",
-        "FKOMAR",
-        "fnatic",
         "Echo",
         "Passion Chicha",
         "Vael",
@@ -7637,7 +7704,31 @@
         "Virtus.pro",
         "Sangal",
         "Zeste",
-        "JiJieHao"
+        "JiJieHao",
+        "HOTU",
+        "Galactik rebels",
+        "INFINITE",
+        "Aogiri",
+        "Giant Pandas",
+        "Betclic",
+        "1win",
+        "Citron",
+        "BC.Game",
+        "BASEMENT BOYS",
+        "HEROIC",
+        "REM",
+        "ABT",
+        "9INE",
+        "Iberian Soul",
+        "6666",
+        "FKOMAR",
+        "fnatic",
+        "Inner Circle",
+        "NIO",
+        "Kreazion",
+        "ASTRAL",
+        "GenOne",
+        "lafox"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -7657,153 +7748,200 @@
           "event_id": "hltv:esports-world-cup-2026-open-qualifier",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396451",
-          "lineups": {
-            "team1": [
-              {
-                "hltv_player_id": "24168",
-                "nickname": "onic",
-                "player_id": "hltv:24168",
-                "source_url": "https://www.hltv.org/player/24168/onic",
-                "team_name": "Inner Circle"
-              },
-              {
-                "hltv_player_id": "24282",
-                "nickname": "Dawy",
-                "player_id": "hltv:24282",
-                "source_url": "https://www.hltv.org/player/24282/dawy",
-                "team_name": "Inner Circle"
-              },
-              {
-                "hltv_player_id": "23415",
-                "nickname": "zeRRoFIX",
-                "player_id": "hltv:23415",
-                "source_url": "https://www.hltv.org/player/23415/zerrofix",
-                "team_name": "Inner Circle"
-              },
-              {
-                "hltv_player_id": "19592",
-                "nickname": "headtr1ck",
-                "player_id": "hltv:19592",
-                "source_url": "https://www.hltv.org/player/19592/headtr1ck",
-                "team_name": "Inner Circle"
-              },
-              {
-                "hltv_player_id": "16147",
-                "nickname": "cptkurtka023",
-                "player_id": "hltv:16147",
-                "source_url": "https://www.hltv.org/player/16147/cptkurtka023",
-                "team_name": "Inner Circle"
-              }
-            ],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396451",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396451/inner-circle-vs-nio-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "live",
-          "team1_name": "Inner Circle",
-          "team2_name": "NIO",
-          "veto_text": "Best of 3 (LAN)\n\n* Group 1 opening match"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396452",
-          "lineups": {
-            "team1": [
-              {
-                "hltv_player_id": "24704",
-                "nickname": "Neqy",
-                "player_id": "hltv:24704",
-                "source_url": "https://www.hltv.org/player/24704/neqy",
-                "team_name": "Kreazion"
-              },
-              {
-                "hltv_player_id": "24997",
-                "nickname": "meowpop",
-                "player_id": "hltv:24997",
-                "source_url": "https://www.hltv.org/player/24997/meowpop",
-                "team_name": "Kreazion"
-              },
-              {
-                "hltv_player_id": "23545",
-                "nickname": "RaY5ive",
-                "player_id": "hltv:23545",
-                "source_url": "https://www.hltv.org/player/23545/ray5ive",
-                "team_name": "Kreazion"
-              },
-              {
-                "hltv_player_id": "19725",
-                "nickname": "gxx-",
-                "player_id": "hltv:19725",
-                "source_url": "https://www.hltv.org/player/19725/gxx",
-                "team_name": "Kreazion"
-              },
-              {
-                "hltv_player_id": "22008",
-                "nickname": "swiz",
-                "player_id": "hltv:22008",
-                "source_url": "https://www.hltv.org/player/22008/swiz",
-                "team_name": "Kreazion"
-              }
-            ],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396452",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396452/kreazion-vs-astral-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T09:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Kreazion",
-          "team2_name": "ASTRAL",
-          "veto_text": "Best of 3 (LAN)\n\n* Group 1 opening match"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396494",
+          "hltv_match_id": "2396453",
           "lineups": {
             "team1": [],
             "team2": []
           },
-          "maps": [],
-          "match_id": "hltv:2396494",
-          "product_tier": "pending",
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Ancient",
+            "Cache"
+          ],
+          "match_id": "hltv:2396453",
+          "product_tier": "tier_1",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396494/spirit-hu-vs-nrg-esports-world-cup-2026-open-qualifier",
+          "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-07T16:00:00Z",
+          "starts_at": null,
           "status": "live",
-          "team1_name": "Spirit HU",
-          "team2_name": "NRG",
-          "veto_text": "Best of 3 (LAN)\n\n* Group 14 opening match\n\n** Starting time is approximate and will depend on the previous matches."
+          "team1_name": "BIG",
+          "team2_name": "z to forward",
+          "veto_text": "Best of 3 (LAN)\n\n* Group 2 opening match"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396454",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Mirage",
+            "Nuke",
+            "Inferno"
+          ],
+          "match_id": "hltv:2396454",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396454/dusty-vs-fluxo-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "DUSTY",
+          "team2_name": "Fluxo",
+          "veto_text": "Best of 3 (LAN)\n\n* Group 2 opening match"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396455",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Cache",
+            "Anubis",
+            "Ancient"
+          ],
+          "match_id": "hltv:2396455",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396455/dendele-vs-queenconso-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "DENDELE",
+          "team2_name": "QueenConso",
+          "veto_text": "Best of 3 (LAN)\n\n* Group 3 opening match"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396456",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Cache",
+            "Nuke"
+          ],
+          "match_id": "hltv:2396456",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396456/saw-vs-eac-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "SAW",
+          "team2_name": "EAC",
+          "veto_text": "Best of 3 (LAN)\n\n* Group 3 opening match"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
       "participants": [
-        "Inner Circle",
-        "NIO",
-        "Kreazion",
-        "ASTRAL",
-        "Spirit HU",
-        "NRG"
+        "BIG",
+        "z to forward",
+        "DUSTY",
+        "Fluxo",
+        "DENDELE",
+        "QueenConso",
+        "SAW",
+        "EAC"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-07T07:43:09Z",
+  "last_verified_utc": "2026-08-07T10:11:39Z",
   "sources": [
     {
       "name": "HLTV events calendar",
