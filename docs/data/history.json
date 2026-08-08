@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-08T13:13:44Z",
+  "generated_at_utc": "2026-08-08T15:47:42Z",
   "through_date": "2026-08-08",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1240,
+    "matches": 1246,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1694,6 +1694,138 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Sangal",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396527",
+      "match_date": "2026-08-08",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "team1_name": "INFINITE",
+      "team2_name": "Giant Pandas",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "INFINITE",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396522",
+      "match_date": "2026-08-08",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "team1_name": "Sangal",
+      "team2_name": "JiJieHao",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "JiJieHao",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396515",
+      "match_date": "2026-08-08",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "team1_name": "Vael",
+      "team2_name": "OG",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "OG",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396516",
+      "match_date": "2026-08-08",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "team1_name": "levelONE",
+      "team2_name": "Phantom",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phantom",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396518",
+      "match_date": "2026-08-08",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "team1_name": "Prestige",
+      "team2_name": "Metizport",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Prestige",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396520",
+      "match_date": "2026-08-08",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "team1_name": "Spirit HU",
+      "team2_name": "Acend",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Acend",
       "tier": "tier_1",
       "best_of": 3,
       "phase": "Completed series",
