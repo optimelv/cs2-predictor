@@ -4852,10 +4852,14 @@
       "team2_name": "Orion Wanderers"
     },
     {
-      "event_id": "hltv:8762",
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396509",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396509",
       "product_tier": "tier_1",
@@ -4865,7 +4869,8 @@
       "starts_at": "2026-08-08T09:00:00Z",
       "status": "live",
       "team1_name": "Acend",
-      "team2_name": "NRG"
+      "team2_name": "NRG",
+      "veto_text": "Best of 3 (LAN)\n\n* Group 14 winners' match"
     },
     {
       "event_id": "hltv:8762",
@@ -6781,22 +6786,6 @@
           "event_id": "hltv:8762",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396509",
-          "maps": [],
-          "match_id": "hltv:2396509",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-08T09:00:00Z",
-          "status": "live",
-          "team1_name": "Acend",
-          "team2_name": "NRG"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2396510",
           "maps": [],
           "match_id": "hltv:2396510",
@@ -7018,8 +7007,6 @@
         "Sashi",
         "Partizan",
         "Orion Wanderers",
-        "Acend",
-        "NRG",
         "Vandulken",
         "Spirit HU",
         "K27",
@@ -7061,6 +7048,27 @@
       },
       "id": "hltv:esports-world-cup-2026-open-qualifier",
       "matches": [
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396509",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396509",
+          "product_tier": "pending",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-08T09:00:00Z",
+          "status": "live",
+          "team1_name": "Acend",
+          "team2_name": "NRG",
+          "veto_text": "Best of 3 (LAN)\n\n* Group 14 winners' match"
+        },
         {
           "event_id": "hltv:esports-world-cup-2026-open-qualifier",
           "event_name": "Esports World Cup 2026 Open Qualifier",
@@ -8039,6 +8047,8 @@
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
       "participants": [
+        "Acend",
+        "NRG",
         "Echo",
         "OG",
         "EYEBALLERS",
@@ -8056,8 +8066,6 @@
         "Sangal",
         "Vael",
         "Spirit HU",
-        "NRG",
-        "Acend",
         "Vandulken",
         "levelONE",
         "Liquid",
@@ -8109,7 +8117,7 @@
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-07T21:57:11Z",
+  "last_verified_utc": "2026-08-08T02:23:06Z",
   "sources": [
     {
       "name": "HLTV events calendar",
