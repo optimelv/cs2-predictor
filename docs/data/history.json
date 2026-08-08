@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-08T04:29:46Z",
+  "generated_at_utc": "2026-08-08T07:16:48Z",
   "through_date": "2026-08-08",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1219,
+    "matches": 1220,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1233,6 +1233,28 @@
       "score2": 0,
       "winner_name": "BET-M",
       "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396523",
+      "match_date": "2026-08-08",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "team1_name": "ASTRAL",
+      "team2_name": "Kreazion",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "ASTRAL",
+      "tier": "tier_1",
       "best_of": 3,
       "phase": "Completed series",
       "stage_name": "Completed series",

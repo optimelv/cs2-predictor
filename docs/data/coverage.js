@@ -4556,6 +4556,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "CYBERSHOKE"
     },
     {
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396523",
+      "maps": [],
+      "match_id": "hltv:2396523",
+      "product_tier": "tier_1",
+      "score1": 1,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "ASTRAL",
+      "team2_name": "Kreazion",
+      "winner_name": "ASTRAL"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -5020,22 +5039,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "GenOne",
       "team2_name": "Galactik rebels"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396523",
-      "maps": [],
-      "match_id": "hltv:2396523",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-08T15:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ASTRAL",
-      "team2_name": "Kreazion"
     },
     {
       "event_id": "hltv:8762",
@@ -6253,25 +6256,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "BET-M",
           "team2_name": "SPARTA",
           "winner_name": "BET-M"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396142",
-          "maps": [],
-          "match_id": "hltv:2396142",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Lavked",
-          "team2_name": "Black Phoenix",
-          "winner_name": "Black Phoenix"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
@@ -6286,8 +6270,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Butterfly",
         "WW",
         "UNiTY",
-        "SPARTA",
-        "Lavked"
+        "SPARTA"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -6871,22 +6854,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:8762",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396523",
-          "maps": [],
-          "match_id": "hltv:2396523",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-08T15:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ASTRAL",
-          "team2_name": "Kreazion"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2396524",
           "maps": [],
           "match_id": "hltv:2396524",
@@ -7022,8 +6989,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "JiJieHao",
         "Sangal",
         "Zeste",
-        "ASTRAL",
-        "Kreazion",
         "Fluxo",
         "DUSTY",
         "EAC",
@@ -7136,6 +7101,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "EYEBALLERS",
           "team2_name": "Phantom",
           "veto_text": "Best of 3 (LAN)\n\n* Group 10 winners' match"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396523",
+          "maps": [],
+          "match_id": "hltv:2396523",
+          "product_tier": "tier_1",
+          "score1": 1,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ASTRAL",
+          "team2_name": "Kreazion",
+          "winner_name": "ASTRAL"
         },
         {
           "event_id": "hltv:esports-world-cup-2026-open-qualifier",
@@ -8060,6 +8044,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Vael",
         "EYEBALLERS",
         "Phantom",
+        "ASTRAL",
+        "Kreazion",
         "NADE",
         "Eternal Fire",
         "FOKUS",
@@ -8099,7 +8085,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "REM",
         "ABT",
         "NIO",
-        "Kreazion",
         "Giant Pandas",
         "Aogiri",
         "QueenConso",
@@ -8113,7 +8098,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "HOTU",
         "GenOne",
         "Inner Circle",
-        "ASTRAL",
         "z to forward",
         "DUSTY"
       ],
@@ -8122,7 +8106,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-08T04:29:46Z",
+  "last_verified_utc": "2026-08-08T07:16:48Z",
   "sources": [
     {
       "name": "HLTV events calendar",

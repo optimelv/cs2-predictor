@@ -99,6 +99,25 @@
           "event_id": "hltv:esports-world-cup-2026-open-qualifier",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": null,
+          "hltv_match_id": "2396523",
+          "maps": [],
+          "match_id": "hltv:2396523",
+          "product_tier": "tier_1",
+          "score1": 1,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ASTRAL",
+          "team2_name": "Kreazion",
+          "winner_name": "ASTRAL"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
           "hltv_match_id": "2396488",
           "maps": [],
           "match_id": "hltv:2396488",
@@ -1018,6 +1037,8 @@
         "Vael",
         "EYEBALLERS",
         "Phantom",
+        "ASTRAL",
+        "Kreazion",
         "NADE",
         "Eternal Fire",
         "FOKUS",
@@ -1057,7 +1078,6 @@
         "REM",
         "ABT",
         "NIO",
-        "Kreazion",
         "Giant Pandas",
         "Aogiri",
         "QueenConso",
@@ -1071,7 +1091,6 @@
         "HOTU",
         "GenOne",
         "Inner Circle",
-        "ASTRAL",
         "z to forward",
         "DUSTY"
       ],
@@ -1285,22 +1304,6 @@
           "event_id": "hltv:8762",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396523",
-          "maps": [],
-          "match_id": "hltv:2396523",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-08T15:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ASTRAL",
-          "team2_name": "Kreazion"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2396524",
           "maps": [],
           "match_id": "hltv:2396524",
@@ -1436,8 +1439,6 @@
         "JiJieHao",
         "Sangal",
         "Zeste",
-        "ASTRAL",
-        "Kreazion",
         "Fluxo",
         "DUSTY",
         "EAC",
@@ -1712,25 +1713,6 @@
           "team1_name": "BET-M",
           "team2_name": "SPARTA",
           "winner_name": "BET-M"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396142",
-          "maps": [],
-          "match_id": "hltv:2396142",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Lavked",
-          "team2_name": "Black Phoenix",
-          "winner_name": "Black Phoenix"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
@@ -1745,15 +1727,14 @@
         "Butterfly",
         "WW",
         "UNiTY",
-        "SPARTA",
-        "Lavked"
+        "SPARTA"
       ],
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-08T04:29:46Z",
+  "fetched_at_utc": "2026-08-08T07:16:48Z",
   "matches": [
     {
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
@@ -2067,22 +2048,6 @@
       "event_id": "hltv:8762",
       "event_name": "Esports World Cup 2026 Open Qualifier",
       "event_url": null,
-      "hltv_match_id": "2396523",
-      "maps": [],
-      "match_id": "hltv:2396523",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-08T15:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ASTRAL",
-      "team2_name": "Kreazion"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
       "hltv_match_id": "2396524",
       "maps": [],
       "match_id": "hltv:2396524",
@@ -2190,6 +2155,25 @@
       "status": "live",
       "team1_name": "Iberian Soul",
       "team2_name": "6666"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396523",
+      "maps": [],
+      "match_id": "hltv:2396523",
+      "product_tier": "tier_1",
+      "score1": 1,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "ASTRAL",
+      "team2_name": "Kreazion",
+      "winner_name": "ASTRAL"
     },
     {
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
@@ -3235,25 +3219,6 @@
       "team1_name": "BET-M",
       "team2_name": "SPARTA",
       "winner_name": "BET-M"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2396142",
-      "maps": [],
-      "match_id": "hltv:2396142",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Lavked",
-      "team2_name": "Black Phoenix",
-      "winner_name": "Black Phoenix"
     }
   ],
   "ok": true,
@@ -3265,7 +3230,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 34
+    "scheduled_matches": 33
   },
   "product_filter": {
     "eligible_tiers": [
@@ -3273,7 +3238,7 @@
       "tier_2"
     ],
     "events_kept": 4,
-    "matches_kept": 82,
+    "matches_kept": 81,
     "players_kept": 0,
     "event_tiers": {
       "hltv:esports-world-cup-2026-open-qualifier": "tier_1",
@@ -3300,7 +3265,6 @@
       "hltv:2396514",
       "hltv:2396150",
       "hltv:2396151",
-      "hltv:2396523",
       "hltv:2396524",
       "hltv:2396525",
       "hltv:2396526",
@@ -3308,6 +3272,7 @@
       "hltv:2396528",
       "hltv:2396529",
       "hltv:2396530",
+      "hltv:2396523",
       "hltv:2396488",
       "hltv:2396149",
       "hltv:2396491",
@@ -3362,8 +3327,7 @@
       "hltv:2396451",
       "hltv:2396145",
       "hltv:2396144",
-      "hltv:2396143",
-      "hltv:2396142"
+      "hltv:2396143"
     ]
   }
 }

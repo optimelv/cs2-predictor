@@ -4557,6 +4557,25 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "CYBERSHOKE"
       },
       {
+        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+        "event_name": "Esports World Cup 2026 Open Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2396523",
+        "maps": [],
+        "match_id": "hltv:2396523",
+        "product_tier": "tier_1",
+        "score1": 1,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "ASTRAL",
+        "team2_name": "Kreazion",
+        "winner_name": "ASTRAL"
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -5021,22 +5040,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "GenOne",
         "team2_name": "Galactik rebels"
-      },
-      {
-        "event_id": "hltv:8762",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396523",
-        "maps": [],
-        "match_id": "hltv:2396523",
-        "product_tier": "tier_1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-08T15:00:00Z",
-        "status": "upcoming",
-        "team1_name": "ASTRAL",
-        "team2_name": "Kreazion"
       },
       {
         "event_id": "hltv:8762",
@@ -6254,25 +6257,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "BET-M",
             "team2_name": "SPARTA",
             "winner_name": "BET-M"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-6",
-            "event_name": "CCT 2026 Europe Series 6",
-            "event_url": null,
-            "hltv_match_id": "2396142",
-            "maps": [],
-            "match_id": "hltv:2396142",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396142/lavked-vs-black-phoenix-cct-2026-europe-series-6",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Lavked",
-            "team2_name": "Black Phoenix",
-            "winner_name": "Black Phoenix"
           }
         ],
         "name": "CCT 2026 Europe Series 6",
@@ -6287,8 +6271,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Butterfly",
           "WW",
           "UNiTY",
-          "SPARTA",
-          "Lavked"
+          "SPARTA"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -6872,22 +6855,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:8762",
             "event_name": "Esports World Cup 2026 Open Qualifier",
             "event_url": null,
-            "hltv_match_id": "2396523",
-            "maps": [],
-            "match_id": "hltv:2396523",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-08T15:00:00Z",
-            "status": "upcoming",
-            "team1_name": "ASTRAL",
-            "team2_name": "Kreazion"
-          },
-          {
-            "event_id": "hltv:8762",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
             "hltv_match_id": "2396524",
             "maps": [],
             "match_id": "hltv:2396524",
@@ -7023,8 +6990,6 @@ window.__STRIKESIGNAL_DATA__ = {
           "JiJieHao",
           "Sangal",
           "Zeste",
-          "ASTRAL",
-          "Kreazion",
           "Fluxo",
           "DUSTY",
           "EAC",
@@ -7137,6 +7102,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "EYEBALLERS",
             "team2_name": "Phantom",
             "veto_text": "Best of 3 (LAN)\n\n* Group 10 winners' match"
+          },
+          {
+            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+            "event_name": "Esports World Cup 2026 Open Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2396523",
+            "maps": [],
+            "match_id": "hltv:2396523",
+            "product_tier": "tier_1",
+            "score1": 1,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "ASTRAL",
+            "team2_name": "Kreazion",
+            "winner_name": "ASTRAL"
           },
           {
             "event_id": "hltv:esports-world-cup-2026-open-qualifier",
@@ -8061,6 +8045,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "Vael",
           "EYEBALLERS",
           "Phantom",
+          "ASTRAL",
+          "Kreazion",
           "NADE",
           "Eternal Fire",
           "FOKUS",
@@ -8100,7 +8086,6 @@ window.__STRIKESIGNAL_DATA__ = {
           "REM",
           "ABT",
           "NIO",
-          "Kreazion",
           "Giant Pandas",
           "Aogiri",
           "QueenConso",
@@ -8114,7 +8099,6 @@ window.__STRIKESIGNAL_DATA__ = {
           "HOTU",
           "GenOne",
           "Inner Circle",
-          "ASTRAL",
           "z to forward",
           "DUSTY"
         ],
@@ -8123,7 +8107,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-08T04:29:46Z",
+    "last_verified_utc": "2026-08-08T07:16:48Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8561,7 +8545,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-08T04:30:04Z",
+  "generated_at_utc": "2026-08-08T07:17:00Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9931,30 +9915,33 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.635401,
-        "brier": 0.221087,
-        "ece": 0.036178,
-        "log_loss": 0.63107
+        "accuracy": 0.634848,
+        "brier": 0.221119,
+        "ece": 0.03691,
+        "log_loss": 0.631128
       },
-      "rows": 989,
-      "test_rows": 661
+      "rows": 990,
+      "test_rows": 660
     },
     "challenger": {
       "blend_weight": 0.5,
       "family": "logistic",
       "features": [
-        "baseline_logit"
+        "elo_diff",
+        "vrs_rank_advantage",
+        "vrs_points_diff",
+        "recent_win_rate_10_diff"
       ],
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.635401,
-        "brier": 0.221726,
-        "ece": 0.032875,
-        "log_loss": 0.633395
+        "accuracy": 0.640909,
+        "brier": 0.221622,
+        "ece": 0.039131,
+        "log_loss": 0.633306
       },
       "promotion_passed": false,
-      "rows": 661
+      "rows": 660
     },
     "champion": {
       "folds": 3,
@@ -9971,7 +9958,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-08T04:30:04Z",
+    "generated_at_utc": "2026-08-08T07:17:00Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -9982,8 +9969,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 0,
-      "online_rows": 232,
+      "new_rows": 1,
+      "online_rows": 233,
       "seed_rows": 757
     }
   },
@@ -10220,9 +10207,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396487",
       "hltv:2396496",
       "hltv:2396495",
-      "hltv:2396148"
+      "hltv:2396148",
+      "hltv:2396523"
     ],
-    "last_online_update_utc": "2026-08-07T19:16:59Z",
+    "last_online_update_utc": "2026-08-08T07:17:00Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -13592,10 +13580,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 122
       },
       {
-        "elo": 1433.76,
-        "last_result_utc": "2026-08-07T13:41:23Z",
-        "matches": 28,
-        "recent_win_rate_10": 0.3827,
+        "elo": 1448.25,
+        "last_result_utc": "2026-08-08T07:17:00Z",
+        "matches": 29,
+        "recent_win_rate_10": 0.4949,
         "team_key": "astral",
         "team_name": "ASTRAL",
         "vrs_points": 980.0,
@@ -16508,10 +16496,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1495.64,
-        "last_result_utc": "2026-08-07T16:10:30Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.5165,
+        "elo": 1481.15,
+        "last_result_utc": "2026-08-08T07:17:00Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.4226,
         "team_key": "kreazion",
         "team_name": "Kreazion",
         "vrs_points": 0,
@@ -20305,39 +20293,6 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 67
     },
     {
-      "confidence": 0.5421,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4579,
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-08",
-      "match_id": "hltv:2396523",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786201200,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Kreazion",
-      "prob_team1": 0.4579,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396523/astral-vs-kreazion-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-08T15:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "ASTRAL",
-      "team1_vrs_rank": 123,
-      "team2_hltv_rank": null,
-      "team2_name": "Kreazion",
-      "team2_vrs_rank": null
-    },
-    {
       "confidence": 0.5215,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -20501,12 +20456,45 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "BASEMENT BOYS",
       "team2_vrs_rank": 93
+    },
+    {
+      "confidence": 0.543,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.457,
+      "event_id": "hltv:8762",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-08",
+      "match_id": "hltv:2396529",
+      "match_phase": "scheduled",
+      "match_timestamp": 1786201200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "9INE",
+      "prob_team1": 0.457,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396529/abt-vs-9ine-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-08T15:00:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "ABT",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "9INE",
+      "team2_vrs_rank": 118
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 82,
-    "online_results_applied": 0,
+    "live_feed_items": 81,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
