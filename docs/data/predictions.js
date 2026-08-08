@@ -4699,10 +4699,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Group 9 winners' match"
       },
       {
-        "event_id": "hltv:8762",
+        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
         "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396500",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396500",
         "product_tier": "tier_1",
@@ -4712,7 +4716,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-08T09:00:00Z",
         "status": "upcoming",
         "team1_name": "Passion Chicha",
-        "team2_name": "Vael"
+        "team2_name": "Vael",
+        "veto_text": "Best of 3 (LAN)\n\n* Group 9 elimination match"
       },
       {
         "event_id": "hltv:esports-world-cup-2026-open-qualifier",
@@ -4752,9 +4757,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "levelONE"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+        "event_id": "hltv:8762",
         "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396503",
         "lineups": {
           "team1": [],
@@ -6675,22 +6680,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:8762",
             "event_name": "Esports World Cup 2026 Open Qualifier",
             "event_url": null,
-            "hltv_match_id": "2396500",
-            "maps": [],
-            "match_id": "hltv:2396500",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396500/passion-chicha-vs-vael-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-08T09:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Passion Chicha",
-            "team2_name": "Vael"
-          },
-          {
-            "event_id": "hltv:8762",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
             "hltv_match_id": "2396502",
             "maps": [],
             "match_id": "hltv:2396502",
@@ -6702,6 +6691,22 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "REVENIX",
             "team2_name": "levelONE"
+          },
+          {
+            "event_id": "hltv:8762",
+            "event_name": "Esports World Cup 2026 Open Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2396503",
+            "maps": [],
+            "match_id": "hltv:2396503",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396503/100-thieves-vs-nade-esports-world-cup-2026-open-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-08T09:00:00Z",
+            "status": "live",
+            "team1_name": "100 Thieves",
+            "team2_name": "NADE"
           },
           {
             "event_id": "hltv:8762",
@@ -6994,10 +6999,10 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "Esports World Cup 2026 Open Qualifier",
         "participants": [
-          "Passion Chicha",
-          "Vael",
           "REVENIX",
           "levelONE",
+          "100 Thieves",
+          "NADE",
           "SadFamous",
           "Eternal Fire",
           "Liquid",
@@ -7095,6 +7100,27 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:esports-world-cup-2026-open-qualifier",
             "event_name": "Esports World Cup 2026 Open Qualifier",
             "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396500",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396500",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396500/passion-chicha-vs-vael-esports-world-cup-2026-open-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-08T09:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Passion Chicha",
+            "team2_name": "Vael",
+            "veto_text": "Best of 3 (LAN)\n\n* Group 9 elimination match"
+          },
+          {
+            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+            "event_name": "Esports World Cup 2026 Open Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2396501",
             "lineups": {
               "team1": [],
@@ -7111,27 +7137,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "EYEBALLERS",
             "team2_name": "Phantom",
             "veto_text": "Best of 3 (LAN)\n\n* Group 10 winners' match"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396503",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396503",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396503/100-thieves-vs-nade-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-08T09:00:00Z",
-            "status": "live",
-            "team1_name": "100 Thieves",
-            "team2_name": "NADE",
-            "veto_text": "Best of 3 (LAN)\n\n* Group 11 winners' match"
           },
           {
             "event_id": "hltv:esports-world-cup-2026-open-qualifier",
@@ -8052,9 +8057,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "NRG",
           "Echo",
           "OG",
+          "Passion Chicha",
+          "Vael",
           "EYEBALLERS",
           "Phantom",
-          "100 Thieves",
           "NADE",
           "Eternal Fire",
           "FOKUS",
@@ -8065,16 +8071,15 @@ window.__STRIKESIGNAL_DATA__ = {
           "Sashi",
           "Virtus.pro",
           "Sangal",
-          "Vael",
           "Spirit HU",
           "Vandulken",
           "levelONE",
           "Liquid",
           "Dhala",
           "REVENIX",
-          "Passion Chicha",
           "Zeste",
           "JiJieHao",
+          "100 Thieves",
           "SadFamous",
           "MANGANESE",
           "SINNERS",
@@ -8118,7 +8123,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-08T02:23:06Z",
+    "last_verified_utc": "2026-08-08T04:29:46Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8556,7 +8561,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-08T02:23:27Z",
+  "generated_at_utc": "2026-08-08T04:30:04Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9966,7 +9971,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-08T02:23:27Z",
+    "generated_at_utc": "2026-08-08T04:30:04Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -19770,10 +19775,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4997,
-      "event_id": "hltv:8762",
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-08",
@@ -19872,13 +19880,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.6105,
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_id": "hltv:8762",
       "event_name": "Esports World Cup 2026 Open Qualifier",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-08",
