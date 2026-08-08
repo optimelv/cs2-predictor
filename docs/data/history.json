@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-08T19:00:12Z",
+  "generated_at_utc": "2026-08-08T21:47:23Z",
   "through_date": "2026-08-08",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1253,
+    "matches": 1254,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1976,6 +1976,28 @@
       "match_date": "2026-08-08",
       "event_name": "CCT 2026 Europe Series 6",
       "team1_name": "Black Phoenix",
+      "team2_name": "CYBERSHOKE",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "CYBERSHOKE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396152",
+      "match_date": "2026-08-08",
+      "event_name": "CCT 2026 Europe Series 6",
+      "team1_name": "Butterfly",
       "team2_name": "CYBERSHOKE",
       "score1": 1,
       "score2": 2,

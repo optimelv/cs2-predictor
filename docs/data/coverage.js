@@ -4745,7 +4745,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:cct-2026-europe-series-6",
       "event_name": "CCT 2026 Europe Series 6",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396152",
       "lineups": {
         "team1": [],
@@ -4771,21 +4771,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Mirage",
-        "Ancient",
-        "Dust2"
-      ],
+      "maps": [],
       "match_id": "hltv:2396152",
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396152/butterfly-vs-cybershoke-cct-2026-europe-series-6",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "Butterfly",
       "team2_name": "CYBERSHOKE",
-      "veto_text": "Best of 3 (Online)\n\n* Grand final"
+      "veto_text": "Best of 3 (Online)\n\n* Grand final",
+      "winner_name": "CYBERSHOKE"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -4930,10 +4929,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
     },
     {
-      "event_id": "hltv:8762",
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396532",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396532",
       "product_tier": "tier_1",
@@ -4943,13 +4946,18 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-09T09:00:00Z",
       "status": "live",
       "team1_name": "SINNERS",
-      "team2_name": "EYEBALLERS"
+      "team2_name": "EYEBALLERS",
+      "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
     },
     {
-      "event_id": "hltv:8762",
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396533",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396533",
       "product_tier": "tier_1",
@@ -4959,7 +4967,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-09T09:00:00Z",
       "status": "live",
       "team1_name": "HEROIC",
-      "team2_name": "ASTRAL"
+      "team2_name": "ASTRAL",
+      "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
     },
     {
       "event_id": "hltv:8762",
@@ -6140,6 +6149,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:cct-2026-europe-series-6",
           "event_name": "CCT 2026 Europe Series 6",
           "event_url": null,
+          "hltv_match_id": "2396152",
+          "maps": [],
+          "match_id": "hltv:2396152",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396152/butterfly-vs-cybershoke-cct-2026-europe-series-6",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Butterfly",
+          "team2_name": "CYBERSHOKE",
+          "winner_name": "CYBERSHOKE"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-6",
+          "event_name": "CCT 2026 Europe Series 6",
+          "event_url": null,
           "hltv_match_id": "2396151",
           "maps": [],
           "match_id": "hltv:2396151",
@@ -6230,58 +6258,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Walczaki",
           "team2_name": "Black Phoenix",
           "winner_name": "Black Phoenix"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396152",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Mirage",
-              "score1": 13,
-              "score2": 3,
-              "status": "finished"
-            },
-            {
-              "map_name": "Ancient",
-              "score1": 8,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Dust2",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Mirage",
-            "Ancient",
-            "Dust2"
-          ],
-          "match_id": "hltv:2396152",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396152/butterfly-vs-cybershoke-cct-2026-europe-series-6",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Butterfly",
-          "team2_name": "CYBERSHOKE",
-          "veto_text": "Best of 3 (Online)\n\n* Grand final"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
       "participants": [
-        "Black Phoenix",
-        "CYBERSHOKE",
         "Butterfly",
+        "CYBERSHOKE",
+        "Black Phoenix",
         "BET-M",
         "GenOne",
         "ex-RUSTEC",
@@ -6289,7 +6272,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "finished"
     },
     {
       "current_stage": "Playoffs",
@@ -6677,38 +6660,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:8762",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396532",
-          "maps": [],
-          "match_id": "hltv:2396532",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396532/sinners-vs-eyeballers-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-09T09:00:00Z",
-          "status": "live",
-          "team1_name": "SINNERS",
-          "team2_name": "EYEBALLERS"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396533",
-          "maps": [],
-          "match_id": "hltv:2396533",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-09T09:00:00Z",
-          "status": "live",
-          "team1_name": "HEROIC",
-          "team2_name": "ASTRAL"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2396534",
           "maps": [],
           "match_id": "hltv:2396534",
@@ -6916,10 +6867,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
       "participants": [
-        "SINNERS",
-        "EYEBALLERS",
-        "HEROIC",
-        "ASTRAL",
         "Fluxo",
         "fnatic",
         "Virtus.pro",
@@ -6980,6 +6927,48 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "live",
           "team1_name": "K27",
           "team2_name": "SAW",
+          "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396532",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396532",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396532/sinners-vs-eyeballers-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-09T09:00:00Z",
+          "status": "live",
+          "team1_name": "SINNERS",
+          "team2_name": "EYEBALLERS",
+          "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396533",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396533",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396533/heroic-vs-astral-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-09T09:00:00Z",
+          "status": "live",
+          "team1_name": "HEROIC",
+          "team2_name": "ASTRAL",
           "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
         },
         {
@@ -8083,50 +8072,16 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "QueenConso",
           "team2_name": "EAC",
           "winner_name": "EAC"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396475",
-          "maps": [],
-          "match_id": "hltv:2396475",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396475/betclic-vs-infinite-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Betclic",
-          "team2_name": "INFINITE",
-          "winner_name": "Betclic"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396469",
-          "maps": [],
-          "match_id": "hltv:2396469",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396469/big-vs-fluxo-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "BIG",
-          "team2_name": "Fluxo",
-          "winner_name": "BIG"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
       "participants": [
         "K27",
         "SAW",
+        "SINNERS",
+        "EYEBALLERS",
+        "HEROIC",
+        "ASTRAL",
         "Iberian Soul",
         "6666",
         "1win",
@@ -8154,9 +8109,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Sashi",
         "Eternal Fire",
         "NADE",
-        "EYEBALLERS",
         "Dark Tigre",
-        "SINNERS",
         "Echo",
         "NRG",
         "FOKUS",
@@ -8171,9 +8124,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Vandulken",
         "Zeste",
         "SadFamous",
-        "ASTRAL",
         "Kreazion",
-        "HEROIC",
         "fnatic",
         "BC.Game",
         "DENDELE",
@@ -8182,16 +8133,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "REM",
         "NIO",
         "Aogiri",
-        "QueenConso",
-        "Betclic",
-        "BIG"
+        "QueenConso"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-08T19:00:12Z",
+  "last_verified_utc": "2026-08-08T21:47:23Z",
   "sources": [
     {
       "name": "HLTV events calendar",
