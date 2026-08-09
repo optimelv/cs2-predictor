@@ -4914,80 +4914,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396531",
         "lineups": {
-          "team1": [
-            {
-              "hltv_player_id": "22886",
-              "nickname": "xeedo",
-              "player_id": "hltv:22886",
-              "source_url": "https://www.hltv.org/player/22886/xeedo",
-              "team_name": "K27"
-            },
-            {
-              "hltv_player_id": "24725",
-              "nickname": "qw1nk1",
-              "player_id": "hltv:24725",
-              "source_url": "https://www.hltv.org/player/24725/qw1nk1",
-              "team_name": "K27"
-            },
-            {
-              "hltv_player_id": "23686",
-              "nickname": "kashl1d",
-              "player_id": "hltv:23686",
-              "source_url": "https://www.hltv.org/player/23686/kashl1d",
-              "team_name": "K27"
-            },
-            {
-              "hltv_player_id": "19575",
-              "nickname": "X5G7V",
-              "player_id": "hltv:19575",
-              "source_url": "https://www.hltv.org/player/19575/x5g7v",
-              "team_name": "K27"
-            },
-            {
-              "hltv_player_id": "12004",
-              "nickname": "clax",
-              "player_id": "hltv:12004",
-              "source_url": "https://www.hltv.org/player/12004/clax",
-              "team_name": "K27"
-            }
-          ],
-          "team2": [
-            {
-              "hltv_player_id": "630",
-              "nickname": "MUTiRiS",
-              "player_id": "hltv:630",
-              "source_url": "https://www.hltv.org/player/630/mutiris",
-              "team_name": "SAW"
-            },
-            {
-              "hltv_player_id": "16102",
-              "nickname": "NOPEEj",
-              "player_id": "hltv:16102",
-              "source_url": "https://www.hltv.org/player/16102/nopeej",
-              "team_name": "SAW"
-            },
-            {
-              "hltv_player_id": "20462",
-              "nickname": "story",
-              "player_id": "hltv:20462",
-              "source_url": "https://www.hltv.org/player/20462/story",
-              "team_name": "SAW"
-            },
-            {
-              "hltv_player_id": "20464",
-              "nickname": "ewjerkz",
-              "player_id": "hltv:20464",
-              "source_url": "https://www.hltv.org/player/20464/ewjerkz",
-              "team_name": "SAW"
-            },
-            {
-              "hltv_player_id": "23140",
-              "nickname": "krazy",
-              "player_id": "hltv:23140",
-              "source_url": "https://www.hltv.org/player/23140/krazy",
-              "team_name": "SAW"
-            }
-          ]
+          "team1": [],
+          "team2": []
         },
         "maps": [],
         "match_id": "hltv:2396531",
@@ -6995,80 +6923,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2396531",
             "lineups": {
-              "team1": [
-                {
-                  "hltv_player_id": "22886",
-                  "nickname": "xeedo",
-                  "player_id": "hltv:22886",
-                  "source_url": "https://www.hltv.org/player/22886/xeedo",
-                  "team_name": "K27"
-                },
-                {
-                  "hltv_player_id": "24725",
-                  "nickname": "qw1nk1",
-                  "player_id": "hltv:24725",
-                  "source_url": "https://www.hltv.org/player/24725/qw1nk1",
-                  "team_name": "K27"
-                },
-                {
-                  "hltv_player_id": "23686",
-                  "nickname": "kashl1d",
-                  "player_id": "hltv:23686",
-                  "source_url": "https://www.hltv.org/player/23686/kashl1d",
-                  "team_name": "K27"
-                },
-                {
-                  "hltv_player_id": "19575",
-                  "nickname": "X5G7V",
-                  "player_id": "hltv:19575",
-                  "source_url": "https://www.hltv.org/player/19575/x5g7v",
-                  "team_name": "K27"
-                },
-                {
-                  "hltv_player_id": "12004",
-                  "nickname": "clax",
-                  "player_id": "hltv:12004",
-                  "source_url": "https://www.hltv.org/player/12004/clax",
-                  "team_name": "K27"
-                }
-              ],
-              "team2": [
-                {
-                  "hltv_player_id": "630",
-                  "nickname": "MUTiRiS",
-                  "player_id": "hltv:630",
-                  "source_url": "https://www.hltv.org/player/630/mutiris",
-                  "team_name": "SAW"
-                },
-                {
-                  "hltv_player_id": "16102",
-                  "nickname": "NOPEEj",
-                  "player_id": "hltv:16102",
-                  "source_url": "https://www.hltv.org/player/16102/nopeej",
-                  "team_name": "SAW"
-                },
-                {
-                  "hltv_player_id": "20462",
-                  "nickname": "story",
-                  "player_id": "hltv:20462",
-                  "source_url": "https://www.hltv.org/player/20462/story",
-                  "team_name": "SAW"
-                },
-                {
-                  "hltv_player_id": "20464",
-                  "nickname": "ewjerkz",
-                  "player_id": "hltv:20464",
-                  "source_url": "https://www.hltv.org/player/20464/ewjerkz",
-                  "team_name": "SAW"
-                },
-                {
-                  "hltv_player_id": "23140",
-                  "nickname": "krazy",
-                  "player_id": "hltv:23140",
-                  "source_url": "https://www.hltv.org/player/23140/krazy",
-                  "team_name": "SAW"
-                }
-              ]
+              "team1": [],
+              "team2": []
             },
             "maps": [],
             "match_id": "hltv:2396531",
@@ -8273,7 +8129,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-09T04:38:04Z",
+    "last_verified_utc": "2026-08-09T07:18:06Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8711,7 +8567,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-09T04:38:23Z",
+  "generated_at_utc": "2026-08-09T07:18:21Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10124,7 +9980,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-09T04:38:23Z",
+    "generated_at_utc": "2026-08-09T07:18:21Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -19931,80 +19787,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "event_name": "Esports World Cup 2026 Open Qualifier",
       "format": "bo3",
       "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "22886",
-            "nickname": "xeedo",
-            "player_id": "hltv:22886",
-            "source_url": "https://www.hltv.org/player/22886/xeedo",
-            "team_name": "K27"
-          },
-          {
-            "hltv_player_id": "24725",
-            "nickname": "qw1nk1",
-            "player_id": "hltv:24725",
-            "source_url": "https://www.hltv.org/player/24725/qw1nk1",
-            "team_name": "K27"
-          },
-          {
-            "hltv_player_id": "23686",
-            "nickname": "kashl1d",
-            "player_id": "hltv:23686",
-            "source_url": "https://www.hltv.org/player/23686/kashl1d",
-            "team_name": "K27"
-          },
-          {
-            "hltv_player_id": "19575",
-            "nickname": "X5G7V",
-            "player_id": "hltv:19575",
-            "source_url": "https://www.hltv.org/player/19575/x5g7v",
-            "team_name": "K27"
-          },
-          {
-            "hltv_player_id": "12004",
-            "nickname": "clax",
-            "player_id": "hltv:12004",
-            "source_url": "https://www.hltv.org/player/12004/clax",
-            "team_name": "K27"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "630",
-            "nickname": "MUTiRiS",
-            "player_id": "hltv:630",
-            "source_url": "https://www.hltv.org/player/630/mutiris",
-            "team_name": "SAW"
-          },
-          {
-            "hltv_player_id": "16102",
-            "nickname": "NOPEEj",
-            "player_id": "hltv:16102",
-            "source_url": "https://www.hltv.org/player/16102/nopeej",
-            "team_name": "SAW"
-          },
-          {
-            "hltv_player_id": "20462",
-            "nickname": "story",
-            "player_id": "hltv:20462",
-            "source_url": "https://www.hltv.org/player/20462/story",
-            "team_name": "SAW"
-          },
-          {
-            "hltv_player_id": "20464",
-            "nickname": "ewjerkz",
-            "player_id": "hltv:20464",
-            "source_url": "https://www.hltv.org/player/20464/ewjerkz",
-            "team_name": "SAW"
-          },
-          {
-            "hltv_player_id": "23140",
-            "nickname": "krazy",
-            "player_id": "hltv:23140",
-            "source_url": "https://www.hltv.org/player/23140/krazy",
-            "team_name": "SAW"
-          }
-        ]
+        "team1": [],
+        "team2": []
       },
       "map_results": [],
       "maps": [],
