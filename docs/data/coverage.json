@@ -5051,10 +5051,14 @@
       "team2_name": "BIG"
     },
     {
-      "event_id": "hltv:8762",
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396539",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396539",
       "product_tier": "tier_1",
@@ -5064,7 +5068,8 @@
       "starts_at": "2026-08-09T09:00:00Z",
       "status": "live",
       "team1_name": "NRG",
-      "team2_name": "Phantom"
+      "team2_name": "Phantom",
+      "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
     },
     {
       "event_id": "hltv:8762",
@@ -6740,22 +6745,6 @@
           "event_id": "hltv:8762",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396539",
-          "maps": [],
-          "match_id": "hltv:2396539",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-09T09:00:00Z",
-          "status": "live",
-          "team1_name": "NRG",
-          "team2_name": "Phantom"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2396540",
           "maps": [],
           "match_id": "hltv:2396540",
@@ -6877,8 +6866,6 @@
         "GenOne",
         "Eternal Fire",
         "BIG",
-        "NRG",
-        "Phantom",
         "JiJieHao",
         "DENDELE",
         "Inner Circle",
@@ -6908,6 +6895,27 @@
       },
       "id": "hltv:esports-world-cup-2026-open-qualifier",
       "matches": [
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396539",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396539",
+          "product_tier": "pending",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-09T09:00:00Z",
+          "status": "live",
+          "team1_name": "NRG",
+          "team2_name": "Phantom",
+          "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
+        },
         {
           "event_id": "hltv:esports-world-cup-2026-open-qualifier",
           "event_name": "Esports World Cup 2026 Open Qualifier",
@@ -8053,29 +8061,12 @@
           "team1_name": "Giant Pandas",
           "team2_name": "Aogiri",
           "winner_name": "Giant Pandas"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396472",
-          "maps": [],
-          "match_id": "hltv:2396472",
-          "product_tier": "tier_1",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396472/queenconso-vs-eac-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "QueenConso",
-          "team2_name": "EAC",
-          "winner_name": "EAC"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
       "participants": [
+        "NRG",
+        "Phantom",
         "K27",
         "SAW",
         "SINNERS",
@@ -8100,7 +8091,6 @@
         "Vael",
         "OG",
         "levelONE",
-        "Phantom",
         "Prestige",
         "Metizport",
         "Spirit HU",
@@ -8111,7 +8101,6 @@
         "NADE",
         "Dark Tigre",
         "Echo",
-        "NRG",
         "FOKUS",
         "Orion Wanderers",
         "Liquid",
@@ -8132,15 +8121,14 @@
         "Citron",
         "REM",
         "NIO",
-        "Aogiri",
-        "QueenConso"
+        "Aogiri"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-08T21:47:23Z",
+  "last_verified_utc": "2026-08-09T02:30:04Z",
   "sources": [
     {
       "name": "HLTV events calendar",

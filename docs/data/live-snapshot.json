@@ -15,6 +15,27 @@
           "event_id": "hltv:esports-world-cup-2026-open-qualifier",
           "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396539",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396539",
+          "product_tier": "pending",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-09T09:00:00Z",
+          "status": "live",
+          "team1_name": "NRG",
+          "team2_name": "Phantom",
+          "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2396531",
           "lineups": {
             "team1": [],
@@ -1156,29 +1177,12 @@
           "team1_name": "Giant Pandas",
           "team2_name": "Aogiri",
           "winner_name": "Giant Pandas"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396472",
-          "maps": [],
-          "match_id": "hltv:2396472",
-          "product_tier": "tier_1",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396472/queenconso-vs-eac-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "QueenConso",
-          "team2_name": "EAC",
-          "winner_name": "EAC"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
       "participants": [
+        "NRG",
+        "Phantom",
         "K27",
         "SAW",
         "SINNERS",
@@ -1203,7 +1207,6 @@
         "Vael",
         "OG",
         "levelONE",
-        "Phantom",
         "Prestige",
         "Metizport",
         "Spirit HU",
@@ -1214,7 +1217,6 @@
         "NADE",
         "Dark Tigre",
         "Echo",
-        "NRG",
         "FOKUS",
         "Orion Wanderers",
         "Liquid",
@@ -1235,8 +1237,7 @@
         "Citron",
         "REM",
         "NIO",
-        "Aogiri",
-        "QueenConso"
+        "Aogiri"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -1331,22 +1332,6 @@
           "status": "live",
           "team1_name": "Eternal Fire",
           "team2_name": "BIG"
-        },
-        {
-          "event_id": "hltv:8762",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396539",
-          "maps": [],
-          "match_id": "hltv:2396539",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-09T09:00:00Z",
-          "status": "live",
-          "team1_name": "NRG",
-          "team2_name": "Phantom"
         },
         {
           "event_id": "hltv:8762",
@@ -1473,8 +1458,6 @@
         "GenOne",
         "Eternal Fire",
         "BIG",
-        "NRG",
-        "Phantom",
         "JiJieHao",
         "DENDELE",
         "Inner Circle",
@@ -1634,8 +1617,29 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-08T21:47:23Z",
+  "fetched_at_utc": "2026-08-09T02:30:04Z",
   "matches": [
+    {
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396539",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2396539",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-09T09:00:00Z",
+      "status": "live",
+      "team1_name": "NRG",
+      "team2_name": "Phantom",
+      "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
+    },
     {
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
@@ -1778,22 +1782,6 @@
       "status": "live",
       "team1_name": "Eternal Fire",
       "team2_name": "BIG"
-    },
-    {
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396539",
-      "maps": [],
-      "match_id": "hltv:2396539",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-09T09:00:00Z",
-      "status": "live",
-      "team1_name": "NRG",
-      "team2_name": "Phantom"
     },
     {
       "event_id": "hltv:8762",
@@ -3103,25 +3091,6 @@
       "team1_name": "Giant Pandas",
       "team2_name": "Aogiri",
       "winner_name": "Giant Pandas"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396472",
-      "maps": [],
-      "match_id": "hltv:2396472",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396472/queenconso-vs-eac-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "QueenConso",
-      "team2_name": "EAC",
-      "winner_name": "EAC"
     }
   ],
   "ok": true,
@@ -3133,7 +3102,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 20
+    "scheduled_matches": 25
   },
   "product_filter": {
     "eligible_tiers": [
@@ -3141,7 +3110,7 @@
       "tier_2"
     ],
     "events_kept": 3,
-    "matches_kept": 80,
+    "matches_kept": 79,
     "players_kept": 0,
     "event_tiers": {
       "hltv:esports-world-cup-2026-open-qualifier": "tier_1",
@@ -3149,6 +3118,7 @@
       "hltv:cct-2026-europe-series-6": "tier_2"
     },
     "eligible_match_ids": [
+      "hltv:2396539",
       "hltv:2396531",
       "hltv:2396532",
       "hltv:2396533",
@@ -3157,7 +3127,6 @@
       "hltv:2396536",
       "hltv:2396537",
       "hltv:2396538",
-      "hltv:2396539",
       "hltv:2396540",
       "hltv:2396541",
       "hltv:2396542",
@@ -3227,8 +3196,7 @@
       "hltv:2396478",
       "hltv:2396480",
       "hltv:2396468",
-      "hltv:2396476",
-      "hltv:2396472"
+      "hltv:2396476"
     ]
   }
 }

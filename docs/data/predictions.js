@@ -5052,10 +5052,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "BIG"
       },
       {
-        "event_id": "hltv:8762",
+        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
         "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396539",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396539",
         "product_tier": "tier_1",
@@ -5065,7 +5069,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-09T09:00:00Z",
         "status": "live",
         "team1_name": "NRG",
-        "team2_name": "Phantom"
+        "team2_name": "Phantom",
+        "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
       },
       {
         "event_id": "hltv:8762",
@@ -6741,22 +6746,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:8762",
             "event_name": "Esports World Cup 2026 Open Qualifier",
             "event_url": null,
-            "hltv_match_id": "2396539",
-            "maps": [],
-            "match_id": "hltv:2396539",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-09T09:00:00Z",
-            "status": "live",
-            "team1_name": "NRG",
-            "team2_name": "Phantom"
-          },
-          {
-            "event_id": "hltv:8762",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
             "hltv_match_id": "2396540",
             "maps": [],
             "match_id": "hltv:2396540",
@@ -6878,8 +6867,6 @@ window.__STRIKESIGNAL_DATA__ = {
           "GenOne",
           "Eternal Fire",
           "BIG",
-          "NRG",
-          "Phantom",
           "JiJieHao",
           "DENDELE",
           "Inner Circle",
@@ -6909,6 +6896,27 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:esports-world-cup-2026-open-qualifier",
         "matches": [
+          {
+            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+            "event_name": "Esports World Cup 2026 Open Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396539",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396539",
+            "product_tier": "pending",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-09T09:00:00Z",
+            "status": "live",
+            "team1_name": "NRG",
+            "team2_name": "Phantom",
+            "veto_text": "Best of 3 (LAN)\n\n* Round of 32"
+          },
           {
             "event_id": "hltv:esports-world-cup-2026-open-qualifier",
             "event_name": "Esports World Cup 2026 Open Qualifier",
@@ -8054,29 +8062,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Giant Pandas",
             "team2_name": "Aogiri",
             "winner_name": "Giant Pandas"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396472",
-            "maps": [],
-            "match_id": "hltv:2396472",
-            "product_tier": "tier_1",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396472/queenconso-vs-eac-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "QueenConso",
-            "team2_name": "EAC",
-            "winner_name": "EAC"
           }
         ],
         "name": "Esports World Cup 2026 Open Qualifier",
         "participants": [
+          "NRG",
+          "Phantom",
           "K27",
           "SAW",
           "SINNERS",
@@ -8101,7 +8092,6 @@ window.__STRIKESIGNAL_DATA__ = {
           "Vael",
           "OG",
           "levelONE",
-          "Phantom",
           "Prestige",
           "Metizport",
           "Spirit HU",
@@ -8112,7 +8102,6 @@ window.__STRIKESIGNAL_DATA__ = {
           "NADE",
           "Dark Tigre",
           "Echo",
-          "NRG",
           "FOKUS",
           "Orion Wanderers",
           "Liquid",
@@ -8133,15 +8122,14 @@ window.__STRIKESIGNAL_DATA__ = {
           "Citron",
           "REM",
           "NIO",
-          "Aogiri",
-          "QueenConso"
+          "Aogiri"
         ],
         "product_tier": "tier_1",
         "source_url": "https://www.hltv.org/events/archive",
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-08T21:47:23Z",
+    "last_verified_utc": "2026-08-09T02:30:04Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8579,7 +8567,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-08T21:47:44Z",
+  "generated_at_utc": "2026-08-09T02:30:22Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9992,7 +9980,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-08T21:47:44Z",
+    "generated_at_utc": "2026-08-09T02:30:21Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -10003,7 +9991,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
+      "new_rows": 0,
       "online_rows": 267,
       "seed_rows": 757
     }
@@ -19755,6 +19743,42 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
+      "confidence": 0.6337,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.6337,
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-09",
+      "match_id": "hltv:2396539",
+      "match_phase": "scheduled",
+      "match_timestamp": 1786266000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "NRG",
+      "prob_team1": 0.6337,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-09T09:00:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "NRG",
+      "team1_vrs_rank": 52,
+      "team2_hltv_rank": null,
+      "team2_name": "Phantom",
+      "team2_vrs_rank": 116
+    },
+    {
       "confidence": 0.7105,
       "confidence_label": "watch",
       "data_quality": "full",
@@ -20028,39 +20052,6 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 28
     },
     {
-      "confidence": 0.6337,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.6337,
-      "event_id": "hltv:8762",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-09",
-      "match_id": "hltv:2396539",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786266000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "NRG",
-      "prob_team1": 0.6337,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-09T09:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "NRG",
-      "team1_vrs_rank": 52,
-      "team2_hltv_rank": null,
-      "team2_name": "Phantom",
-      "team2_vrs_rank": 116
-    },
-    {
       "confidence": 0.5447,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -20294,8 +20285,8 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 80,
-    "online_results_applied": 1,
+    "live_feed_items": 79,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
