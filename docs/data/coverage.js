@@ -2,50 +2,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:cct-2026-contenders-europe-series-7",
-      "event_name": "CCT 2026 Contenders Europe Series 7",
-      "event_url": null,
-      "hltv_match_id": "2396327",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Ancient",
-          "score1": 6,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396327",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396327/mellren-vs-spirit-academy-cct-2026-contenders-europe-series-7",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "mellren",
-      "team2_name": "Spirit Academy",
-      "veto_text": "Best of 3 (Online)\n\n* Lower bracket final",
-      "winner_name": "Spirit Academy"
-    },
-    {
       "event_id": "hltv:cct-2026-europe-series-5",
       "event_name": "CCT 2026 Europe Series 5",
       "event_url": null,
@@ -4979,20 +4935,23 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "1win"
     },
     {
-      "event_id": "hltv:8762",
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
       "event_url": null,
       "hltv_match_id": "2396551",
       "maps": [],
       "match_id": "hltv:2396551",
       "product_tier": "tier_1",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396551/phantom-vs-jijiehao-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "Phantom",
-      "team2_name": "JiJieHao"
+      "team2_name": "JiJieHao",
+      "winner_name": "JiJieHao"
     },
     {
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
@@ -5016,7 +4975,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396556",
       "lineups": {
         "team1": [],
@@ -5042,26 +5001,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Cache",
-        "Inferno",
-        "Ancient"
-      ],
+      "maps": [],
       "match_id": "hltv:2396556",
       "product_tier": "tier_1",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "Sashi",
       "team2_name": "BIG",
-      "veto_text": "Best of 3 (LAN)\n\n* Quarter-final. WInner qualifies for Esports World Cup 2026."
+      "veto_text": "Best of 3 (LAN)\n\n* Quarter-final. WInner qualifies for Esports World Cup 2026.",
+      "winner_name": "BIG"
     },
     {
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396555",
       "lineups": {
         "team1": [],
@@ -5087,26 +5045,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Ancient",
-        "Mirage",
-        "Cache"
-      ],
+      "maps": [],
       "match_id": "hltv:2396555",
       "product_tier": "tier_1",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396555/fnatic-vs-k27-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "fnatic",
       "team2_name": "K27",
-      "veto_text": "Best of 3 (LAN)\n\n* Quarter-final. WInner qualifies for Esports World Cup 2026."
+      "veto_text": "Best of 3 (LAN)\n\n* Quarter-final. WInner qualifies for Esports World Cup 2026.",
+      "winner_name": "K27"
     },
     {
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396558",
       "lineups": {
         "team1": [],
@@ -5132,20 +5089,64 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Ancient",
-        "Anubis",
-        "Dust2"
-      ],
+      "maps": [],
       "match_id": "hltv:2396558",
       "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396558/100-thieves-vs-1win-esports-world-cup-2026-open-qualifier",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "100 Thieves",
+      "team2_name": "1win",
+      "veto_text": "Best of 3 (LAN)\n\n* Quarter-final. WInner qualifies for Esports World Cup 2026.",
+      "winner_name": "100 Thieves"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+      "event_name": "Esports World Cup 2026 Open Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396557",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 7,
+          "status": "finished"
+        },
+        {
+          "map_name": "Cache",
+          "score1": 9,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 6,
+          "score2": 6,
+          "status": "finished"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Cache",
+        "Dust2"
+      ],
+      "match_id": "hltv:2396557",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396557/hotu-vs-jijiehao-esports-world-cup-2026-open-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "100 Thieves",
-      "team2_name": "1win",
+      "team1_name": "HOTU",
+      "team2_name": "JiJieHao",
       "veto_text": "Best of 3 (LAN)\n\n* Quarter-final. WInner qualifies for Esports World Cup 2026."
     },
     {
@@ -6292,25 +6293,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Butterfly",
           "team2_name": "BET-M",
           "winner_name": "Butterfly"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396149",
-          "maps": [],
-          "match_id": "hltv:2396149",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396149/cybershoke-vs-genone-cct-2026-europe-series-6",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "CYBERSHOKE",
-          "team2_name": "GenOne",
-          "winner_name": "CYBERSHOKE"
         }
       ],
       "name": "CCT 2026 Europe Series 6",
@@ -6318,8 +6300,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Butterfly",
         "CYBERSHOKE",
         "Black Phoenix",
-        "BET-M",
-        "GenOne"
+        "BET-M"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -6797,6 +6778,82 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:esports-world-cup-2026-open-qualifier",
       "matches": [
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396555",
+          "maps": [],
+          "match_id": "hltv:2396555",
+          "product_tier": "tier_1",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396555/fnatic-vs-k27-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "fnatic",
+          "team2_name": "K27",
+          "winner_name": "K27"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396556",
+          "maps": [],
+          "match_id": "hltv:2396556",
+          "product_tier": "tier_1",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Sashi",
+          "team2_name": "BIG",
+          "winner_name": "BIG"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396558",
+          "maps": [],
+          "match_id": "hltv:2396558",
+          "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396558/100-thieves-vs-1win-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "100 Thieves",
+          "team2_name": "1win",
+          "winner_name": "100 Thieves"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
+          "event_name": "Esports World Cup 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396551",
+          "maps": [],
+          "match_id": "hltv:2396551",
+          "product_tier": "tier_1",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396551/phantom-vs-jijiehao-esports-world-cup-2026-open-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Phantom",
+          "team2_name": "JiJieHao",
+          "winner_name": "JiJieHao"
+        },
         {
           "event_id": "hltv:esports-world-cup-2026-open-qualifier",
           "event_name": "Esports World Cup 2026 Open Qualifier",
@@ -7845,202 +7902,74 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:esports-world-cup-2026-open-qualifier",
           "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396488",
-          "maps": [],
-          "match_id": "hltv:2396488",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396488/nade-vs-eternal-fire-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "NADE",
-          "team2_name": "Eternal Fire",
-          "winner_name": "NADE"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396491",
-          "maps": [],
-          "match_id": "hltv:2396491",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396491/fokus-vs-partizan-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "FOKUS",
-          "team2_name": "Partizan",
-          "winner_name": "FOKUS"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396556",
+          "hltv_match_id": "2396557",
           "lineups": {
             "team1": [],
             "team2": []
           },
           "map_results": [
             {
-              "map_name": "Cache",
-              "score1": 1,
-              "score2": 11,
+              "map_name": "Mirage",
+              "score1": 13,
+              "score2": 7,
               "status": "finished"
             },
             {
-              "map_name": "Inferno",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Cache",
-            "Inferno",
-            "Ancient"
-          ],
-          "match_id": "hltv:2396556",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396556/sashi-vs-big-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Sashi",
-          "team2_name": "BIG",
-          "veto_text": "Best of 3 (LAN)\n\n* Quarter-final. WInner qualifies for Esports World Cup 2026."
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396555",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
               "map_name": "Cache",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Ancient",
-            "Mirage",
-            "Cache"
-          ],
-          "match_id": "hltv:2396555",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396555/fnatic-vs-k27-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "fnatic",
-          "team2_name": "K27",
-          "veto_text": "Best of 3 (LAN)\n\n* Quarter-final. WInner qualifies for Esports World Cup 2026."
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396558",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Anubis",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 9,
+              "score2": 13,
+              "status": "finished"
             },
             {
               "map_name": "Dust2",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 6,
+              "score2": 6,
+              "status": "finished"
             }
           ],
           "maps": [
-            "Ancient",
-            "Anubis",
+            "Mirage",
+            "Cache",
             "Dust2"
           ],
-          "match_id": "hltv:2396558",
+          "match_id": "hltv:2396557",
           "product_tier": "tier_1",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396558/100-thieves-vs-1win-esports-world-cup-2026-open-qualifier",
+          "source_url": "https://www.hltv.org/matches/2396557/hotu-vs-jijiehao-esports-world-cup-2026-open-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": null,
           "status": "live",
-          "team1_name": "100 Thieves",
-          "team2_name": "1win",
+          "team1_name": "HOTU",
+          "team2_name": "JiJieHao",
           "veto_text": "Best of 3 (LAN)\n\n* Quarter-final. WInner qualifies for Esports World Cup 2026."
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
       "participants": [
+        "fnatic",
+        "K27",
+        "Sashi",
+        "BIG",
+        "100 Thieves",
         "1win",
+        "Phantom",
+        "JiJieHao",
         "Acend",
         "HOTU",
         "Inner Circle",
-        "100 Thieves",
         "BC.Game",
         "EYEBALLERS",
-        "K27",
-        "BIG",
         "GenOne",
         "Betclic",
-        "Sashi",
         "HEROIC",
-        "fnatic",
         "SAW",
-        "JiJieHao",
         "DENDELE",
         "SINNERS",
         "Echo",
         "FOKUS",
         "Iberian Soul",
         "NRG",
-        "Phantom",
         "Virtus.pro",
         "Liquid",
         "9INE",
@@ -8080,7 +8009,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-09T15:48:25Z",
+  "last_verified_utc": "2026-08-09T19:02:26Z",
   "sources": [
     {
       "name": "HLTV events calendar",
