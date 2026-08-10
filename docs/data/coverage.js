@@ -4818,52 +4818,67 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final\n\n** Match date and starting time are provisional and will be confirmed at a later time."
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396560",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396560",
       "product_tier": "tier_1",
-      "series_format": "bo1",
+      "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-12T10:00:00Z",
       "status": "live",
       "team1_name": "Luminosity",
-      "team2_name": "GamerLegion"
+      "team2_name": "GamerLegion",
+      "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final\n\n** Match date and starting time are provisional and will be confirmed at a later time."
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396561",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396561",
       "product_tier": "tier_1",
-      "series_format": "bo1",
+      "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396561/g2-vs-m80-esports-world-cup-2026",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-12T10:00:00Z",
       "status": "live",
       "team1_name": "G2",
-      "team2_name": "M80"
+      "team2_name": "M80",
+      "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final\n\n** Match date and starting time are provisional and will be confirmed at a later time."
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396562",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396562",
       "product_tier": "tier_1",
-      "series_format": "bo1",
+      "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-12T10:00:00Z",
       "status": "live",
       "team1_name": "BIG",
-      "team2_name": "Aurora"
+      "team2_name": "Aurora",
+      "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final\n\n** Match date and starting time are provisional and will be confirmed at a later time."
     },
     {
       "event_id": "hltv:8261",
@@ -7609,63 +7624,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "100 Thieves",
           "team2_name": "NADE",
           "winner_name": "100 Thieves"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396506",
-          "maps": [],
-          "match_id": "hltv:2396506",
-          "product_tier": "tier_1",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396506/dhala-vs-prestige-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Dhala",
-          "team2_name": "Prestige",
-          "winner_name": "Prestige"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396510",
-          "maps": [],
-          "match_id": "hltv:2396510",
-          "product_tier": "tier_1",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396510/vandulken-vs-spirit-hu-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Vandulken",
-          "team2_name": "Spirit HU",
-          "winner_name": "Spirit HU"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396514",
-          "maps": [],
-          "match_id": "hltv:2396514",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396514/sangal-vs-zeste-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Sangal",
-          "team2_name": "Zeste",
-          "winner_name": "Sangal"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
@@ -7720,10 +7678,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Orion Wanderers",
         "REVENIX",
         "Passion Chicha",
-        "MANGANESE",
-        "Dhala",
-        "Vandulken",
-        "Zeste"
+        "MANGANESE"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -7759,12 +7714,81 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Spirit",
           "team2_name": "JiJieHao",
           "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final\n\n** Match date and starting time are provisional and will be confirmed at a later time."
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396560",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396560",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-12T10:00:00Z",
+          "status": "live",
+          "team1_name": "Luminosity",
+          "team2_name": "GamerLegion",
+          "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final\n\n** Match date and starting time are provisional and will be confirmed at a later time."
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396561",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396561",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396561/g2-vs-m80-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-12T10:00:00Z",
+          "status": "live",
+          "team1_name": "G2",
+          "team2_name": "M80",
+          "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final\n\n** Match date and starting time are provisional and will be confirmed at a later time."
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396562",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396562",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-12T10:00:00Z",
+          "status": "live",
+          "team1_name": "BIG",
+          "team2_name": "Aurora",
+          "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final\n\n** Match date and starting time are provisional and will be confirmed at a later time."
         }
       ],
       "name": "Esports World Cup 2026",
       "participants": [
         "Spirit",
-        "JiJieHao"
+        "JiJieHao",
+        "Luminosity",
+        "GamerLegion",
+        "G2",
+        "M80",
+        "BIG",
+        "Aurora"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -7780,54 +7804,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:8261",
       "matches": [
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396560",
-          "maps": [],
-          "match_id": "hltv:2396560",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-12T10:00:00Z",
-          "status": "live",
-          "team1_name": "Luminosity",
-          "team2_name": "GamerLegion"
-        },
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396561",
-          "maps": [],
-          "match_id": "hltv:2396561",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2396561/g2-vs-m80-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-12T10:00:00Z",
-          "status": "live",
-          "team1_name": "G2",
-          "team2_name": "M80"
-        },
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396562",
-          "maps": [],
-          "match_id": "hltv:2396562",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-12T10:00:00Z",
-          "status": "live",
-          "team1_name": "BIG",
-          "team2_name": "Aurora"
-        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -8023,12 +7999,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "Luminosity",
-        "GamerLegion",
-        "G2",
-        "M80",
-        "BIG",
-        "Aurora",
         "Falcons",
         "K27",
         "MIBR",
@@ -8059,7 +8029,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-09T21:49:26Z",
+  "last_verified_utc": "2026-08-10T02:35:53Z",
   "sources": [
     {
       "name": "HLTV events calendar",
