@@ -4839,9 +4839,9 @@
       "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396559",
       "lineups": {
         "team1": [],
@@ -4850,14 +4850,14 @@
       "maps": [],
       "match_id": "hltv:2396559",
       "product_tier": "tier_1",
-      "series_format": "bo1",
+      "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-12T12:10:00Z",
       "status": "live",
       "team1_name": "Spirit",
       "team2_name": "JiJieHao",
-      "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final\n\n** Match date and starting time are provisional and will be confirmed at a later time."
+      "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
     },
     {
       "event_id": "hltv:8261",
@@ -7586,44 +7586,6 @@
           "team1_name": "K27",
           "team2_name": "SINNERS",
           "winner_name": "K27"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396512",
-          "maps": [],
-          "match_id": "hltv:2396512",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396512/dark-tigre-vs-manganese-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Dark Tigre",
-          "team2_name": "MANGANESE",
-          "winner_name": "Dark Tigre"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396503",
-          "maps": [],
-          "match_id": "hltv:2396503",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396503/100-thieves-vs-nade-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "100 Thieves",
-          "team2_name": "NADE",
-          "winner_name": "100 Thieves"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
@@ -7677,8 +7639,7 @@
         "Dark Tigre",
         "Orion Wanderers",
         "REVENIX",
-        "Passion Chicha",
-        "MANGANESE"
+        "Passion Chicha"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -7735,6 +7696,27 @@
           "team1_name": "BIG",
           "team2_name": "Aurora",
           "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396559",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396559",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-12T12:10:00Z",
+          "status": "live",
+          "team1_name": "Spirit",
+          "team2_name": "JiJieHao",
+          "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
         }
       ],
       "name": "Esports World Cup 2026",
@@ -7742,7 +7724,9 @@
         "Luminosity",
         "GamerLegion",
         "BIG",
-        "Aurora"
+        "Aurora",
+        "Spirit",
+        "JiJieHao"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -7758,22 +7742,6 @@
       },
       "id": "hltv:8261",
       "matches": [
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396559",
-          "maps": [],
-          "match_id": "hltv:2396559",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-12T12:10:00Z",
-          "status": "live",
-          "team1_name": "Spirit",
-          "team2_name": "JiJieHao"
-        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -7985,8 +7953,6 @@
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "Spirit",
-        "JiJieHao",
         "FUT",
         "TYLOO",
         "G2",
@@ -8019,7 +7985,7 @@
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-10T10:37:43Z",
+  "last_verified_utc": "2026-08-10T13:46:23Z",
   "sources": [
     {
       "name": "HLTV events calendar",
