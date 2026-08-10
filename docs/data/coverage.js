@@ -4839,9 +4839,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396559",
       "lineups": {
         "team1": [],
@@ -4850,7 +4850,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "maps": [],
       "match_id": "hltv:2396559",
       "product_tier": "tier_1",
-      "series_format": "bo3",
+      "series_format": "bo1",
       "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-12T12:10:00Z",
@@ -7696,27 +7696,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "BIG",
           "team2_name": "Aurora",
           "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396559",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396559",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-12T12:10:00Z",
-          "status": "live",
-          "team1_name": "Spirit",
-          "team2_name": "JiJieHao",
-          "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
         }
       ],
       "name": "Esports World Cup 2026",
@@ -7724,9 +7703,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Luminosity",
         "GamerLegion",
         "BIG",
-        "Aurora",
-        "Spirit",
-        "JiJieHao"
+        "Aurora"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -7742,6 +7719,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:8261",
       "matches": [
+        {
+          "event_id": "hltv:8261",
+          "event_name": "Esports World Cup 2026",
+          "event_url": null,
+          "hltv_match_id": "2396559",
+          "maps": [],
+          "match_id": "hltv:2396559",
+          "product_tier": "tier_1",
+          "series_format": "bo1",
+          "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-12T12:10:00Z",
+          "status": "live",
+          "team1_name": "Spirit",
+          "team2_name": "JiJieHao"
+        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -7953,6 +7946,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026",
       "participants": [
+        "Spirit",
+        "JiJieHao",
         "FUT",
         "TYLOO",
         "G2",
@@ -7985,7 +7980,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-10T13:46:23Z",
+  "last_verified_utc": "2026-08-10T16:10:51Z",
   "sources": [
     {
       "name": "HLTV events calendar",
