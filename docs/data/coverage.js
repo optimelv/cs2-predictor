@@ -4818,9 +4818,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396562",
       "lineups": {
         "team1": [],
@@ -4829,7 +4829,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "maps": [],
       "match_id": "hltv:2396562",
       "product_tier": "tier_1",
-      "series_format": "bo1",
+      "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-12T11:00:00Z",
@@ -7567,25 +7567,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Passion Chicha",
           "team2_name": "Vael",
           "winner_name": "Vael"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396511",
-          "maps": [],
-          "match_id": "hltv:2396511",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396511/k27-vs-sinners-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "K27",
-          "team2_name": "SINNERS",
-          "winner_name": "K27"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
@@ -7675,12 +7656,35 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Luminosity",
           "team2_name": "GamerLegion",
           "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396562",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396562",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-12T11:00:00Z",
+          "status": "live",
+          "team1_name": "BIG",
+          "team2_name": "Aurora",
+          "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
         }
       ],
       "name": "Esports World Cup 2026",
       "participants": [
         "Luminosity",
-        "GamerLegion"
+        "GamerLegion",
+        "BIG",
+        "Aurora"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -7696,22 +7700,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:8261",
       "matches": [
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396562",
-          "maps": [],
-          "match_id": "hltv:2396562",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-12T11:00:00Z",
-          "status": "live",
-          "team1_name": "BIG",
-          "team2_name": "Aurora"
-        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -7939,8 +7927,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "BIG",
-        "Aurora",
         "Spirit",
         "JiJieHao",
         "FUT",
@@ -7975,7 +7961,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-10T19:19:02Z",
+  "last_verified_utc": "2026-08-10T21:59:38Z",
   "sources": [
     {
       "name": "HLTV events calendar",
