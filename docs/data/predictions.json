@@ -4819,9 +4819,9 @@
         "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396562",
         "lineups": {
           "team1": [],
@@ -4830,7 +4830,7 @@
         "maps": [],
         "match_id": "hltv:2396562",
         "product_tier": "tier_1",
-        "series_format": "bo3",
+        "series_format": "bo1",
         "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
         "stage_name": "Scheduled series",
         "starts_at": "2026-08-12T11:00:00Z",
@@ -7676,35 +7676,12 @@
             "team1_name": "Luminosity",
             "team2_name": "GamerLegion",
             "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396562",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396562",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-12T11:00:00Z",
-            "status": "live",
-            "team1_name": "BIG",
-            "team2_name": "Aurora",
-            "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
           }
         ],
         "name": "Esports World Cup 2026",
         "participants": [
           "Luminosity",
-          "GamerLegion",
-          "BIG",
-          "Aurora"
+          "GamerLegion"
         ],
         "product_tier": "tier_1",
         "source_url": "https://www.hltv.org/events/archive",
@@ -7720,6 +7697,22 @@
         },
         "id": "hltv:8261",
         "matches": [
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396562",
+            "maps": [],
+            "match_id": "hltv:2396562",
+            "product_tier": "tier_1",
+            "series_format": "bo1",
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-12T11:00:00Z",
+            "status": "live",
+            "team1_name": "BIG",
+            "team2_name": "Aurora"
+          },
           {
             "event_id": "hltv:8261",
             "event_name": "Esports World Cup 2026",
@@ -7947,6 +7940,8 @@
         ],
         "name": "Esports World Cup 2026",
         "participants": [
+          "BIG",
+          "Aurora",
           "Spirit",
           "JiJieHao",
           "FUT",
@@ -7981,7 +7976,7 @@
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-10T16:10:51Z",
+    "last_verified_utc": "2026-08-10T19:19:02Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8419,7 +8414,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-10T16:11:13Z",
+  "generated_at_utc": "2026-08-10T19:19:19Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9832,7 +9827,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-10T16:11:12Z",
+    "generated_at_utc": "2026-08-10T19:19:18Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -19663,13 +19658,10 @@
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.4083,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "format": "bo1",
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-12",
@@ -19681,7 +19673,7 @@
       "predicted_winner": "Aurora",
       "prob_team1": 0.4083,
       "round_name": "",
-      "series_format": "bo3",
+      "series_format": "bo1",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
       "stage_name": "Scheduled series",
