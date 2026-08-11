@@ -4840,9 +4840,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
       },
       {
-        "event_id": "hltv:8261",
+        "event_id": "hltv:esports-world-cup-2026",
         "event_name": "Esports World Cup 2026",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396559",
         "lineups": {
           "team1": [],
@@ -4851,7 +4851,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "maps": [],
         "match_id": "hltv:2396559",
         "product_tier": "tier_1",
-        "series_format": "bo1",
+        "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
         "stage_name": "Scheduled series",
         "starts_at": "2026-08-12T12:10:00Z",
@@ -4861,20 +4861,25 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
       },
       {
-        "event_id": "hltv:8261",
+        "event_id": "hltv:esports-world-cup-2026",
         "event_name": "Esports World Cup 2026",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396569",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396569",
         "product_tier": "tier_1",
-        "series_format": "bo1",
+        "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
         "stage_name": "Scheduled series",
         "starts_at": "2026-08-12T12:10:00Z",
         "status": "live",
         "team1_name": "FUT",
-        "team2_name": "TYLOO"
+        "team2_name": "TYLOO",
+        "veto_text": "Best of 1 (LAN)\n\n* Group C upper bracket quarter-final"
       },
       {
         "event_id": "hltv:8261",
@@ -7530,44 +7535,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Virtus.pro",
             "team2_name": "JiJieHao",
             "winner_name": "Virtus.pro"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396502",
-            "maps": [],
-            "match_id": "hltv:2396502",
-            "product_tier": "tier_1",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396502/revenix-vs-levelone-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "REVENIX",
-            "team2_name": "levelONE",
-            "winner_name": "levelONE"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396500",
-            "maps": [],
-            "match_id": "hltv:2396500",
-            "product_tier": "tier_1",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396500/passion-chicha-vs-vael-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Passion Chicha",
-            "team2_name": "Vael",
-            "winner_name": "Vael"
           }
         ],
         "name": "Esports World Cup 2026 Open Qualifier",
@@ -7619,9 +7586,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Partizan",
           "NADE",
           "Dark Tigre",
-          "Orion Wanderers",
-          "REVENIX",
-          "Passion Chicha"
+          "Orion Wanderers"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -7678,6 +7643,48 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "BIG",
             "team2_name": "Aurora",
             "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
+          },
+          {
+            "event_id": "hltv:esports-world-cup-2026",
+            "event_name": "Esports World Cup 2026",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396559",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396559",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-12T12:10:00Z",
+            "status": "live",
+            "team1_name": "Spirit",
+            "team2_name": "JiJieHao",
+            "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
+          },
+          {
+            "event_id": "hltv:esports-world-cup-2026",
+            "event_name": "Esports World Cup 2026",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396569",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396569",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-12T12:10:00Z",
+            "status": "live",
+            "team1_name": "FUT",
+            "team2_name": "TYLOO",
+            "veto_text": "Best of 1 (LAN)\n\n* Group C upper bracket quarter-final"
           }
         ],
         "name": "Esports World Cup 2026",
@@ -7685,7 +7692,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "Luminosity",
           "GamerLegion",
           "BIG",
-          "Aurora"
+          "Aurora",
+          "Spirit",
+          "JiJieHao",
+          "FUT",
+          "TYLOO"
         ],
         "product_tier": "tier_1",
         "source_url": "https://www.hltv.org/events/archive",
@@ -7701,38 +7712,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:8261",
         "matches": [
-          {
-            "event_id": "hltv:8261",
-            "event_name": "Esports World Cup 2026",
-            "event_url": null,
-            "hltv_match_id": "2396559",
-            "maps": [],
-            "match_id": "hltv:2396559",
-            "product_tier": "tier_1",
-            "series_format": "bo1",
-            "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-12T12:10:00Z",
-            "status": "live",
-            "team1_name": "Spirit",
-            "team2_name": "JiJieHao"
-          },
-          {
-            "event_id": "hltv:8261",
-            "event_name": "Esports World Cup 2026",
-            "event_url": null,
-            "hltv_match_id": "2396569",
-            "maps": [],
-            "match_id": "hltv:2396569",
-            "product_tier": "tier_1",
-            "series_format": "bo1",
-            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-12T12:10:00Z",
-            "status": "live",
-            "team1_name": "FUT",
-            "team2_name": "TYLOO"
-          },
           {
             "event_id": "hltv:8261",
             "event_name": "Esports World Cup 2026",
@@ -7928,10 +7907,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "Esports World Cup 2026",
         "participants": [
-          "Spirit",
-          "JiJieHao",
-          "FUT",
-          "TYLOO",
           "G2",
           "M80",
           "magic",
@@ -7962,7 +7937,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-10T21:59:38Z",
+    "last_verified_utc": "2026-08-11T02:29:21Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8400,7 +8375,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-10T22:00:00Z",
+  "generated_at_utc": "2026-08-11T02:29:42Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9813,7 +9788,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-10T22:00:00Z",
+    "generated_at_utc": "2026-08-11T02:29:42Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -19680,10 +19655,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "strong",
       "data_quality": "full",
       "elo_prob_team1": 0.8927,
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "format": "bo1",
-      "lineups": {},
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-12",
@@ -19695,7 +19673,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "predicted_winner": "Spirit",
       "prob_team1": 0.8927,
       "round_name": "",
-      "series_format": "bo1",
+      "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
       "stage_name": "Scheduled series",
@@ -19713,10 +19691,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.6817,
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "format": "bo1",
-      "lineups": {},
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-12",
@@ -19728,7 +19709,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "predicted_winner": "FUT",
       "prob_team1": 0.6817,
       "round_name": "",
-      "series_format": "bo1",
+      "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
       "stage_name": "Scheduled series",
@@ -20140,7 +20121,7 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 71,
+    "live_feed_items": 69,
     "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
