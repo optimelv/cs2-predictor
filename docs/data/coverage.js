@@ -7926,7 +7926,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-11T04:41:22Z",
+  "last_verified_utc": "2026-08-11T07:38:55Z",
   "sources": [
     {
       "name": "HLTV events calendar",
