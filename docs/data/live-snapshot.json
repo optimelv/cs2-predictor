@@ -214,6 +214,48 @@
           "team1_name": "BIG",
           "team2_name": "Aurora",
           "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396559",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396559",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-12T10:30:00Z",
+          "status": "live",
+          "team1_name": "Spirit",
+          "team2_name": "JiJieHao",
+          "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396569",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396569",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-12T10:30:00Z",
+          "status": "live",
+          "team1_name": "FUT",
+          "team2_name": "TYLOO",
+          "veto_text": "Best of 1 (LAN)\n\n* Group C upper bracket quarter-final"
         }
       ],
       "name": "Esports World Cup 2026",
@@ -221,7 +263,11 @@
         "Luminosity",
         "GamerLegion",
         "BIG",
-        "Aurora"
+        "Aurora",
+        "Spirit",
+        "JiJieHao",
+        "FUT",
+        "TYLOO"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -237,38 +283,6 @@
       },
       "id": "hltv:8261",
       "matches": [
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396559",
-          "maps": [],
-          "match_id": "hltv:2396559",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-12T10:30:00Z",
-          "status": "live",
-          "team1_name": "Spirit",
-          "team2_name": "JiJieHao"
-        },
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396569",
-          "maps": [],
-          "match_id": "hltv:2396569",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-12T10:30:00Z",
-          "status": "live",
-          "team1_name": "FUT",
-          "team2_name": "TYLOO"
-        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -464,10 +478,6 @@
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "Spirit",
-        "JiJieHao",
-        "FUT",
-        "TYLOO",
         "G2",
         "M80",
         "magic",
@@ -1418,44 +1428,6 @@
           "team1_name": "Partizan",
           "team2_name": "Orion Wanderers",
           "winner_name": "Partizan"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396505",
-          "maps": [],
-          "match_id": "hltv:2396505",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Liquid",
-          "team2_name": "Metizport",
-          "winner_name": "Liquid"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396513",
-          "maps": [],
-          "match_id": "hltv:2396513",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396513/virtuspro-vs-jijiehao-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Virtus.pro",
-          "team2_name": "JiJieHao",
-          "winner_name": "Virtus.pro"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
@@ -1593,7 +1565,7 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-11T10:12:16Z",
+  "fetched_at_utc": "2026-08-11T13:44:27Z",
   "matches": [
     {
       "event_id": "hltv:9323",
@@ -1654,36 +1626,46 @@
       "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396559",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396559",
       "product_tier": "tier_1",
-      "series_format": "bo1",
+      "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-12T10:30:00Z",
       "status": "live",
       "team1_name": "Spirit",
-      "team2_name": "JiJieHao"
+      "team2_name": "JiJieHao",
+      "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396569",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396569",
       "product_tier": "tier_1",
-      "series_format": "bo1",
+      "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-12T10:30:00Z",
       "status": "live",
       "team1_name": "FUT",
-      "team2_name": "TYLOO"
+      "team2_name": "TYLOO",
+      "veto_text": "Best of 1 (LAN)\n\n* Group C upper bracket quarter-final"
     },
     {
       "event_id": "hltv:9323",
@@ -2957,44 +2939,6 @@
       "team1_name": "Partizan",
       "team2_name": "Orion Wanderers",
       "winner_name": "Partizan"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396505",
-      "maps": [],
-      "match_id": "hltv:2396505",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396505/liquid-vs-metizport-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Liquid",
-      "team2_name": "Metizport",
-      "winner_name": "Liquid"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396513",
-      "maps": [],
-      "match_id": "hltv:2396513",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396513/virtuspro-vs-jijiehao-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Virtus.pro",
-      "team2_name": "JiJieHao",
-      "winner_name": "Virtus.pro"
     }
   ],
   "ok": true,
@@ -3006,7 +2950,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 30
+    "scheduled_matches": 29
   },
   "product_filter": {
     "eligible_tiers": [
@@ -3014,7 +2958,7 @@
       "tier_2"
     ],
     "events_kept": 5,
-    "matches_kept": 77,
+    "matches_kept": 75,
     "players_kept": 0,
     "event_tiers": {
       "hltv:9323": "tier_2",
@@ -3098,9 +3042,7 @@
       "hltv:2396499",
       "hltv:2396509",
       "hltv:2396507",
-      "hltv:2396508",
-      "hltv:2396505",
-      "hltv:2396513"
+      "hltv:2396508"
     ]
   }
 }
