@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-12T10:21:01Z",
+  "generated_at_utc": "2026-08-12T13:48:56Z",
   "through_date": "2026-08-12",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1284,
+    "matches": 1289,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1167,6 +1167,116 @@
       "score2": 13,
       "winner_name": "GamerLegion",
       "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396561",
+      "match_date": "2026-08-12",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "G2",
+      "team2_name": "M80",
+      "score1": 13,
+      "score2": 11,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396572",
+      "match_date": "2026-08-12",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "magic",
+      "team2_name": "The MongolZ",
+      "score1": 7,
+      "score2": 13,
+      "winner_name": "The MongolZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396559",
+      "match_date": "2026-08-12",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "Spirit",
+      "team2_name": "JiJieHao",
+      "score1": 10,
+      "score2": 13,
+      "winner_name": "JiJieHao",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396569",
+      "match_date": "2026-08-12",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "FUT",
+      "team2_name": "TYLOO",
+      "score1": 13,
+      "score2": 10,
+      "winner_name": "FUT",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396619",
+      "match_date": "2026-08-12",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "team1_name": "Bushido Wildcats",
+      "team2_name": "ex-MANA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Bushido Wildcats",
+      "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
       "stage_name": "Completed series",
