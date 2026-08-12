@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-12T13:48:56Z",
+  "generated_at_utc": "2026-08-12T16:10:28Z",
   "through_date": "2026-08-12",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1289,
+    "matches": 1294,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1276,6 +1276,116 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "Bushido Wildcats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396565",
+      "match_date": "2026-08-12",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "BetBoom",
+      "team2_name": "FaZe",
+      "score1": 11,
+      "score2": 13,
+      "winner_name": "FaZe",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396568",
+      "match_date": "2026-08-12",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "PARIVISION",
+      "team2_name": "B8",
+      "score1": 11,
+      "score2": 13,
+      "winner_name": "B8",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396563",
+      "match_date": "2026-08-12",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "Falcons",
+      "team2_name": "K27",
+      "score1": 13,
+      "score2": 6,
+      "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396566",
+      "match_date": "2026-08-12",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "Ninjas in Pyjamas",
+      "team2_name": "Legacy",
+      "score1": 5,
+      "score2": 13,
+      "winner_name": "Legacy",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396620",
+      "match_date": "2026-08-12",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "SAW Youngsters",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
