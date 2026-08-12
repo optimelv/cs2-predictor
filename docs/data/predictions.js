@@ -4475,6 +4475,99 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "JiJieHao"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+        "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396619",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Dust2",
+            "score1": 10,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": 13,
+            "score2": 8,
+            "status": "finished"
+          },
+          {
+            "map_name": "Cache",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Cache"
+        ],
+        "match_id": "hltv:2396619",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396619/bushido-wildcats-vs-ex-mana-cct-2026-europe-series-7-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Bushido Wildcats",
+        "team2_name": "ex-MANA",
+        "veto_text": "Best of 3 (Online)\n\n* Group A opening match"
+      },
+      {
+        "event_id": "hltv:esports-world-cup-2026",
+        "event_name": "Esports World Cup 2026",
+        "event_url": null,
+        "hltv_match_id": "2396560",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "maps": [],
+        "match_id": "hltv:2396560",
+        "product_tier": "tier_1",
+        "score1": 3,
+        "score2": 13,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Luminosity",
+        "team2_name": "GamerLegion",
+        "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final",
+        "winner_name": "GamerLegion"
+      },
+      {
+        "event_id": "hltv:esports-world-cup-2026",
+        "event_name": "Esports World Cup 2026",
+        "event_url": null,
+        "hltv_match_id": "2396562",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "maps": [],
+        "match_id": "hltv:2396562",
+        "product_tier": "tier_1",
+        "score1": 13,
+        "score2": 9,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "BIG",
+        "team2_name": "Aurora",
+        "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final",
+        "winner_name": "BIG"
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4596,91 +4689,25 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-        "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396619",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Dust2",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Mirage",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Cache",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [
-          "Dust2",
-          "Mirage",
-          "Cache"
-        ],
-        "match_id": "hltv:2396619",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396619/bushido-wildcats-vs-ex-mana-cct-2026-europe-series-7-closed-qualifier",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-12T08:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Bushido Wildcats",
-        "team2_name": "ex-MANA",
-        "veto_text": "Best of 3 (Online)\n\n* Group A opening match"
-      },
-      {
         "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
         "event_url": null,
-        "hltv_match_id": "2396560",
+        "hltv_match_id": "2396569",
         "lineups": {
           "team1": [],
           "team2": []
         },
         "maps": [],
-        "match_id": "hltv:2396560",
+        "match_id": "hltv:2396569",
         "product_tier": "tier_1",
         "series_format": "bo1",
-        "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+        "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-08-12T09:00:00Z",
+        "starts_at": "2026-08-12T10:25:00Z",
         "status": "live",
-        "team1_name": "Luminosity",
-        "team2_name": "GamerLegion",
-        "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
-      },
-      {
-        "event_id": "hltv:8261",
-        "event_name": "Esports World Cup 2026",
-        "event_url": null,
-        "hltv_match_id": "2396562",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396562",
-        "product_tier": "tier_1",
-        "series_format": "bo1",
-        "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-12T09:00:00Z",
-        "status": "live",
-        "team1_name": "BIG",
-        "team2_name": "Aurora",
-        "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
+        "team1_name": "FUT",
+        "team2_name": "TYLOO",
+        "veto_text": "Best of 1 (LAN)\n\n* Group C upper bracket quarter-final"
       },
       {
         "event_id": "hltv:8261",
@@ -4697,32 +4724,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "series_format": "bo1",
         "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-08-12T10:30:00Z",
+        "starts_at": "2026-08-12T10:35:00Z",
         "status": "live",
         "team1_name": "Spirit",
         "team2_name": "JiJieHao",
         "veto_text": "Best of 1 (LAN)\n\n* Group A upper bracket quarter-final"
-      },
-      {
-        "event_id": "hltv:8261",
-        "event_name": "Esports World Cup 2026",
-        "event_url": null,
-        "hltv_match_id": "2396569",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396569",
-        "product_tier": "tier_1",
-        "series_format": "bo1",
-        "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-12T10:30:00Z",
-        "status": "live",
-        "team1_name": "FUT",
-        "team2_name": "TYLOO",
-        "veto_text": "Best of 1 (LAN)\n\n* Group C upper bracket quarter-final"
       },
       {
         "event_id": "hltv:9323",
@@ -7400,63 +7406,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Echo",
             "team2_name": "OG",
             "winner_name": "Echo"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396509",
-            "maps": [],
-            "match_id": "hltv:2396509",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396509/acend-vs-nrg-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Acend",
-            "team2_name": "NRG",
-            "winner_name": "NRG"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396507",
-            "maps": [],
-            "match_id": "hltv:2396507",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396507/fokus-vs-sashi-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "FOKUS",
-            "team2_name": "Sashi",
-            "winner_name": "FOKUS"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396508",
-            "maps": [],
-            "match_id": "hltv:2396508",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396508/partizan-vs-orion-wanderers-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Partizan",
-            "team2_name": "Orion Wanderers",
-            "winner_name": "Partizan"
           }
         ],
         "name": "Esports World Cup 2026 Open Qualifier",
@@ -7507,8 +7456,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Spirit HU",
           "Partizan",
           "NADE",
-          "Dark Tigre",
-          "Orion Wanderers"
+          "Dark Tigre"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -7565,6 +7513,44 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Wildcard",
             "team2_name": "FURIA",
             "veto_text": "Best of 1 (LAN)\n\n* Group D upper bracket quarter-final"
+          },
+          {
+            "event_id": "hltv:esports-world-cup-2026",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396562",
+            "maps": [],
+            "match_id": "hltv:2396562",
+            "product_tier": "tier_1",
+            "score1": 13,
+            "score2": 9,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "BIG",
+            "team2_name": "Aurora",
+            "winner_name": "BIG"
+          },
+          {
+            "event_id": "hltv:esports-world-cup-2026",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396560",
+            "maps": [],
+            "match_id": "hltv:2396560",
+            "product_tier": "tier_1",
+            "score1": 3,
+            "score2": 13,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Luminosity",
+            "team2_name": "GamerLegion",
+            "winner_name": "GamerLegion"
           }
         ],
         "name": "Esports World Cup 2026",
@@ -7572,7 +7558,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "G2",
           "M80",
           "Wildcard",
-          "FURIA"
+          "FURIA",
+          "BIG",
+          "Aurora",
+          "Luminosity",
+          "GamerLegion"
         ],
         "product_tier": "tier_1",
         "source_url": "https://www.hltv.org/events/archive",
@@ -7592,33 +7582,17 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:8261",
             "event_name": "Esports World Cup 2026",
             "event_url": null,
-            "hltv_match_id": "2396560",
+            "hltv_match_id": "2396569",
             "maps": [],
-            "match_id": "hltv:2396560",
+            "match_id": "hltv:2396569",
             "product_tier": "tier_1",
             "series_format": "bo1",
-            "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-08-12T09:00:00Z",
+            "starts_at": "2026-08-12T10:25:00Z",
             "status": "live",
-            "team1_name": "Luminosity",
-            "team2_name": "GamerLegion"
-          },
-          {
-            "event_id": "hltv:8261",
-            "event_name": "Esports World Cup 2026",
-            "event_url": null,
-            "hltv_match_id": "2396562",
-            "maps": [],
-            "match_id": "hltv:2396562",
-            "product_tier": "tier_1",
-            "series_format": "bo1",
-            "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-12T09:00:00Z",
-            "status": "live",
-            "team1_name": "BIG",
-            "team2_name": "Aurora"
+            "team1_name": "FUT",
+            "team2_name": "TYLOO"
           },
           {
             "event_id": "hltv:8261",
@@ -7631,26 +7605,10 @@ window.__STRIKESIGNAL_DATA__ = {
             "series_format": "bo1",
             "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-08-12T10:30:00Z",
+            "starts_at": "2026-08-12T10:35:00Z",
             "status": "live",
             "team1_name": "Spirit",
             "team2_name": "JiJieHao"
-          },
-          {
-            "event_id": "hltv:8261",
-            "event_name": "Esports World Cup 2026",
-            "event_url": null,
-            "hltv_match_id": "2396569",
-            "maps": [],
-            "match_id": "hltv:2396569",
-            "product_tier": "tier_1",
-            "series_format": "bo1",
-            "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-12T10:30:00Z",
-            "status": "live",
-            "team1_name": "FUT",
-            "team2_name": "TYLOO"
           },
           {
             "event_id": "hltv:8261",
@@ -7815,14 +7773,10 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "Esports World Cup 2026",
         "participants": [
-          "Luminosity",
-          "GamerLegion",
-          "BIG",
-          "Aurora",
-          "Spirit",
-          "JiJieHao",
           "FUT",
           "TYLOO",
+          "Spirit",
+          "JiJieHao",
           "magic",
           "The MongolZ",
           "Falcons",
@@ -8014,15 +7968,15 @@ window.__STRIKESIGNAL_DATA__ = {
             "map_results": [
               {
                 "map_name": "Dust2",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
+                "score1": 10,
+                "score2": 13,
+                "status": "finished"
               },
               {
                 "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
+                "score1": 13,
+                "score2": 8,
+                "status": "finished"
               },
               {
                 "map_name": "Cache",
@@ -8041,8 +7995,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2396619/bushido-wildcats-vs-ex-mana-cct-2026-europe-series-7-closed-qualifier",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-08-12T08:00:00Z",
-            "status": "upcoming",
+            "starts_at": null,
+            "status": "live",
             "team1_name": "Bushido Wildcats",
             "team2_name": "ex-MANA",
             "veto_text": "Best of 3 (Online)\n\n* Group A opening match"
@@ -8055,10 +8009,10 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "product_tier": "tier_2",
         "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-12T07:54:13Z",
+    "last_verified_utc": "2026-08-12T10:21:01Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8496,7 +8450,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-12T07:54:27Z",
+  "generated_at_utc": "2026-08-12T10:21:15Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9866,13 +9820,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.623932,
-        "brier": 0.22497,
-        "ece": 0.04859,
-        "log_loss": 0.639398
+        "accuracy": 0.625,
+        "brier": 0.224771,
+        "ece": 0.048411,
+        "log_loss": 0.639002
       },
-      "rows": 1052,
-      "test_rows": 702
+      "rows": 1054,
+      "test_rows": 704
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -9886,13 +9840,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.628205,
-        "brier": 0.224294,
-        "ece": 0.026395,
-        "log_loss": 0.638933
+        "accuracy": 0.633523,
+        "brier": 0.224109,
+        "ece": 0.029176,
+        "log_loss": 0.638564
       },
       "promotion_passed": false,
-      "rows": 702
+      "rows": 704
     },
     "champion": {
       "folds": 3,
@@ -9909,7 +9863,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-12T07:54:27Z",
+    "generated_at_utc": "2026-08-12T10:21:15Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -9920,8 +9874,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 0,
-      "online_rows": 295,
+      "new_rows": 2,
+      "online_rows": 297,
       "seed_rows": 757
     }
   },
@@ -10221,9 +10175,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396556",
       "hltv:2396558",
       "hltv:2396551",
-      "hltv:2396557"
+      "hltv:2396557",
+      "hltv:2396562",
+      "hltv:2396560"
     ],
-    "last_online_update_utc": "2026-08-09T21:49:45Z",
+    "last_online_update_utc": "2026-08-12T10:21:15Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -12547,7 +12503,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "state_policy": "ranked_top120",
-    "team_count": 444,
+    "team_count": 445,
     "teams": [
       {
         "elo": 1906.35,
@@ -12616,18 +12572,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 7
       },
       {
-        "elo": 1645.31,
-        "matches": 134,
-        "recent_win_rate_10": 0.5,
+        "elo": 1629.1,
+        "last_result_utc": "2026-08-12T10:21:15Z",
+        "matches": 135,
+        "recent_win_rate_10": 0.4091,
         "team_key": "aurora",
         "team_name": "Aurora",
         "vrs_points": 1741.0,
         "vrs_rank": 8
       },
       {
-        "elo": 1620.32,
-        "matches": 104,
-        "recent_win_rate_10": 0.5,
+        "elo": 1630.22,
+        "last_result_utc": "2026-08-12T10:21:15Z",
+        "matches": 105,
+        "recent_win_rate_10": 0.5909,
         "team_key": "gamerlegion",
         "team_name": "GamerLegion",
         "vrs_points": 1724.0,
@@ -12806,10 +12764,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 27
       },
       {
-        "elo": 1613.47,
-        "last_result_utc": "2026-08-09T19:02:47Z",
-        "matches": 103,
-        "recent_win_rate_10": 0.8533,
+        "elo": 1629.68,
+        "last_result_utc": "2026-08-12T10:21:15Z",
+        "matches": 104,
+        "recent_win_rate_10": 0.88,
         "team_key": "big",
         "team_name": "BIG",
         "vrs_points": 1416.0,
@@ -16687,6 +16645,16 @@ window.__STRIKESIGNAL_DATA__ = {
         "team_name": "Dark Tigre",
         "vrs_points": 0,
         "vrs_rank": null
+      },
+      {
+        "elo": 1490.1,
+        "last_result_utc": "2026-08-12T10:21:15Z",
+        "matches": 1,
+        "recent_win_rate_10": 0.4091,
+        "team_key": "luminosity",
+        "team_name": "Luminosity",
+        "vrs_points": 0,
+        "vrs_rank": null
       }
     ],
     "veto_profiles": {
@@ -19700,69 +19668,10 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.6756,
+      "confidence": 0.6817,
       "confidence_label": "watch",
       "data_quality": "full",
-      "elo_prob_team1": 0.6756,
-      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Cache",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Mirage",
-        "Cache"
-      ],
-      "match_date": "2026-08-12",
-      "match_id": "hltv:2396619",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786521600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Bushido Wildcats",
-      "prob_team1": 0.6756,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396619/bushido-wildcats-vs-ex-mana-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-12T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Bushido Wildcats",
-      "team1_vrs_rank": 239,
-      "team2_hltv_rank": null,
-      "team2_name": "ex-MANA",
-      "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.5968,
-      "confidence_label": "lean",
-      "data_quality": "partial",
-      "elo_prob_team1": 0.4032,
+      "elo_prob_team1": 0.6817,
       "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo1",
@@ -19770,59 +19679,26 @@ window.__STRIKESIGNAL_DATA__ = {
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-12",
-      "match_id": "hltv:2396560",
+      "match_id": "hltv:2396569",
       "match_phase": "scheduled",
-      "match_timestamp": 1786525200,
+      "match_timestamp": 1786530300,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
-      "predicted_winner": "GamerLegion",
-      "prob_team1": 0.4032,
+      "predicted_winner": "FUT",
+      "prob_team1": 0.6817,
       "round_name": "",
       "series_format": "bo1",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396560/luminosity-vs-gamerlegion-esports-world-cup-2026",
+      "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-08-12T09:00:00Z",
+      "starts_at": "2026-08-12T10:25:00Z",
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "Luminosity",
-      "team1_vrs_rank": null,
+      "team1_name": "FUT",
+      "team1_vrs_rank": 12,
       "team2_hltv_rank": null,
-      "team2_name": "GamerLegion",
-      "team2_vrs_rank": 9
-    },
-    {
-      "confidence": 0.5917,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4083,
-      "event_id": "hltv:8261",
-      "event_name": "Esports World Cup 2026",
-      "format": "bo1",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-12",
-      "match_id": "hltv:2396562",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786525200,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Aurora",
-      "prob_team1": 0.4083,
-      "round_name": "",
-      "series_format": "bo1",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396562/big-vs-aurora-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-12T09:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "BIG",
-      "team1_vrs_rank": 28,
-      "team2_hltv_rank": null,
-      "team2_name": "Aurora",
-      "team2_vrs_rank": 8
+      "team2_name": "TYLOO",
+      "team2_vrs_rank": 32
     },
     {
       "confidence": 0.8927,
@@ -19838,7 +19714,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "match_date": "2026-08-12",
       "match_id": "hltv:2396559",
       "match_phase": "scheduled",
-      "match_timestamp": 1786530600,
+      "match_timestamp": 1786530900,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Spirit",
@@ -19848,7 +19724,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396559/spirit-vs-jijiehao-esports-world-cup-2026",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-08-12T10:30:00Z",
+      "starts_at": "2026-08-12T10:35:00Z",
       "status": "live",
       "team1_hltv_rank": null,
       "team1_name": "Spirit",
@@ -19856,39 +19732,6 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "JiJieHao",
       "team2_vrs_rank": 44
-    },
-    {
-      "confidence": 0.6817,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.6817,
-      "event_id": "hltv:8261",
-      "event_name": "Esports World Cup 2026",
-      "format": "bo1",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-12",
-      "match_id": "hltv:2396569",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786530600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "FUT",
-      "prob_team1": 0.6817,
-      "round_name": "",
-      "series_format": "bo1",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-12T10:30:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "FUT",
-      "team1_vrs_rank": 12,
-      "team2_hltv_rank": null,
-      "team2_name": "TYLOO",
-      "team2_vrs_rank": 32
     },
     {
       "confidence": 0.6217,
@@ -20522,12 +20365,71 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Noir Verse",
       "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.6756,
+      "confidence_label": "watch",
+      "data_quality": "full",
+      "elo_prob_team1": 0.6756,
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": 10,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 8,
+          "status": "finished"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Mirage",
+        "Cache"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2396619",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Bushido Wildcats",
+      "prob_team1": 0.6756,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396619/bushido-wildcats-vs-ex-mana-cct-2026-europe-series-7-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Bushido Wildcats",
+      "team1_vrs_rank": 239,
+      "team2_hltv_rank": null,
+      "team2_name": "ex-MANA",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 75,
-    "online_results_applied": 0,
+    "live_feed_items": 72,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

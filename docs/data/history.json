@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-12T07:54:13Z",
+  "generated_at_utc": "2026-08-12T10:21:01Z",
   "through_date": "2026-08-12",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1282,
+    "matches": 1284,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1122,6 +1122,50 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "JiJieHao",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396562",
+      "match_date": "2026-08-12",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "BIG",
+      "team2_name": "Aurora",
+      "score1": 13,
+      "score2": 9,
+      "winner_name": "BIG",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396560",
+      "match_date": "2026-08-12",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "Luminosity",
+      "team2_name": "GamerLegion",
+      "score1": 3,
+      "score2": 13,
+      "winner_name": "GamerLegion",
       "tier": "tier_1",
       "best_of": 3,
       "phase": "Completed series",
