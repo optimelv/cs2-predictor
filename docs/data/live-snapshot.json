@@ -15,27 +15,6 @@
           "event_id": "hltv:esports-world-cup-2026",
           "event_name": "Esports World Cup 2026",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396575",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396575",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396575/gamerlegion-vs-jijiehao-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-13T11:00:00Z",
-          "status": "live",
-          "team1_name": "GamerLegion",
-          "team2_name": "JiJieHao",
-          "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket semi-final. Winner advances to the playoffs."
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2396578",
           "lineups": {
             "team1": [],
@@ -52,6 +31,44 @@
           "team1_name": "Aurora",
           "team2_name": "M80",
           "veto_text": "Best of 3 (LAN)\n\n* Group A lower bracket round 1"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": null,
+          "hltv_match_id": "2396577",
+          "maps": [],
+          "match_id": "hltv:2396577",
+          "product_tier": "tier_1",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Luminosity",
+          "team2_name": "Spirit",
+          "winner_name": "Spirit"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": null,
+          "hltv_match_id": "2396575",
+          "maps": [],
+          "match_id": "hltv:2396575",
+          "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396575/gamerlegion-vs-jijiehao-esports-world-cup-2026",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "GamerLegion",
+          "team2_name": "JiJieHao",
+          "winner_name": "GamerLegion"
         },
         {
           "event_id": "hltv:esports-world-cup-2026",
@@ -356,14 +373,61 @@
           "team1_name": "Luminosity",
           "team2_name": "GamerLegion",
           "winner_name": "GamerLegion"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396576",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Cache",
+            "Ancient",
+            "Inferno"
+          ],
+          "match_id": "hltv:2396576",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "BIG",
+          "team2_name": "G2",
+          "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket semi-final. Winner advances to the playoffs."
         }
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "GamerLegion",
-        "JiJieHao",
         "Aurora",
         "M80",
+        "Luminosity",
+        "Spirit",
+        "GamerLegion",
+        "JiJieHao",
         "9z",
         "paiN",
         "Lynn Vision",
@@ -387,11 +451,9 @@
         "G2",
         "magic",
         "The MongolZ",
-        "Spirit",
         "FUT",
         "TYLOO",
-        "BIG",
-        "Luminosity"
+        "BIG"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -405,40 +467,193 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:8261",
+      "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "matches": [
         {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396577",
-          "maps": [],
-          "match_id": "hltv:2396577",
-          "product_tier": "tier_1",
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396625",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Dust2",
+            "Cache"
+          ],
+          "match_id": "hltv:2396625",
+          "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+          "source_url": "https://www.hltv.org/matches/2396625/bushido-wildcats-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-13T11:00:00Z",
-          "status": "live",
-          "team1_name": "Luminosity",
-          "team2_name": "Spirit"
+          "starts_at": "2026-08-13T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Bushido Wildcats",
+          "team2_name": "ex-RUSTEC",
+          "veto_text": "Best of 3 (Online)\n\n* Group A winners' match"
         },
         {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396576",
+          "hltv_match_id": "2396624",
           "maps": [],
-          "match_id": "hltv:2396576",
-          "product_tier": "tier_1",
+          "match_id": "hltv:2396624",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 0,
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-13T13:55:00Z",
-          "status": "live",
-          "team1_name": "BIG",
-          "team2_name": "G2"
+          "source_url": "https://www.hltv.org/matches/2396624/berg-vs-endless-journey-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "BERG",
+          "team2_name": "Endless Journey",
+          "winner_name": "BERG"
         },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396623",
+          "maps": [],
+          "match_id": "hltv:2396623",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396623/ex-mana-vs-saw-youngsters-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ex-MANA",
+          "team2_name": "SAW Youngsters",
+          "winner_name": "ex-MANA"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396622",
+          "maps": [],
+          "match_id": "hltv:2396622",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396622/endless-journey-vs-havu-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Endless Journey",
+          "team2_name": "HAVU",
+          "winner_name": "HAVU"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396621",
+          "maps": [],
+          "match_id": "hltv:2396621",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396621/los-kogutos-vs-berg-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "los kogutos",
+          "team2_name": "BERG",
+          "winner_name": "los kogutos"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396620",
+          "maps": [],
+          "match_id": "hltv:2396620",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396620/ex-rustec-vs-saw-youngsters-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ex-RUSTEC",
+          "team2_name": "SAW Youngsters",
+          "winner_name": "ex-RUSTEC"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396619",
+          "maps": [],
+          "match_id": "hltv:2396619",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396619/bushido-wildcats-vs-ex-mana-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Bushido Wildcats",
+          "team2_name": "ex-MANA",
+          "winner_name": "Bushido Wildcats"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "participants": [
+        "Bushido Wildcats",
+        "ex-RUSTEC",
+        "BERG",
+        "Endless Journey",
+        "ex-MANA",
+        "SAW Youngsters",
+        "HAVU",
+        "los kogutos"
+      ],
+      "product_tier": "tier_2",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:8261",
+      "matches": [
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -634,10 +849,6 @@
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "Luminosity",
-        "Spirit",
-        "BIG",
-        "G2",
         "Falcons",
         "Astralis",
         "Legacy",
@@ -677,38 +888,6 @@
       },
       "id": "hltv:9323",
       "matches": [
-        {
-          "event_id": "hltv:9323",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396624",
-          "maps": [],
-          "match_id": "hltv:2396624",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396624/berg-vs-endless-journey-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-13T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "BERG",
-          "team2_name": "Endless Journey"
-        },
-        {
-          "event_id": "hltv:9323",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396625",
-          "maps": [],
-          "match_id": "hltv:2396625",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396625/bushido-wildcats-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-13T14:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Bushido Wildcats",
-          "team2_name": "ex-RUSTEC"
-        },
         {
           "event_id": "hltv:9323",
           "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -792,10 +971,6 @@
       ],
       "name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "participants": [
-        "BERG",
-        "Endless Journey",
-        "Bushido Wildcats",
-        "ex-RUSTEC",
         "Permitta",
         "HAVU",
         "Enjoy",
@@ -1008,153 +1183,6 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-      "matches": [
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396622",
-          "maps": [],
-          "match_id": "hltv:2396622",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396622/endless-journey-vs-havu-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Endless Journey",
-          "team2_name": "HAVU",
-          "winner_name": "HAVU"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396621",
-          "maps": [],
-          "match_id": "hltv:2396621",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396621/los-kogutos-vs-berg-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "los kogutos",
-          "team2_name": "BERG",
-          "winner_name": "los kogutos"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396620",
-          "maps": [],
-          "match_id": "hltv:2396620",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396620/ex-rustec-vs-saw-youngsters-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ex-RUSTEC",
-          "team2_name": "SAW Youngsters",
-          "winner_name": "ex-RUSTEC"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396619",
-          "maps": [],
-          "match_id": "hltv:2396619",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396619/bushido-wildcats-vs-ex-mana-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Bushido Wildcats",
-          "team2_name": "ex-MANA",
-          "winner_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396623",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Mirage",
-              "score1": 13,
-              "score2": 6,
-              "status": "finished"
-            },
-            {
-              "map_name": "Dust2",
-              "score1": 7,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Mirage",
-            "Dust2",
-            "Ancient"
-          ],
-          "match_id": "hltv:2396623",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396623/ex-mana-vs-saw-youngsters-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "ex-MANA",
-          "team2_name": "SAW Youngsters",
-          "veto_text": "Best of 3 (Online)\n\n* Group A elimination match"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "participants": [
-        "Endless Journey",
-        "HAVU",
-        "los kogutos",
-        "BERG",
-        "ex-RUSTEC",
-        "SAW Youngsters",
-        "Bushido Wildcats",
-        "ex-MANA"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -1678,44 +1706,6 @@
           "team1_name": "HEROIC",
           "team2_name": "ASTRAL",
           "winner_name": "HEROIC"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396536",
-          "maps": [],
-          "match_id": "hltv:2396536",
-          "product_tier": "tier_1",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396536/prestige-vs-betclic-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Prestige",
-          "team2_name": "Betclic",
-          "winner_name": "Betclic"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396530",
-          "maps": [],
-          "match_id": "hltv:2396530",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396530/iberian-soul-vs-6666-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Iberian Soul",
-          "team2_name": "6666",
-          "winner_name": "Iberian Soul"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
@@ -1750,109 +1740,15 @@
         "Fluxo",
         "OG",
         "INFINITE",
-        "ASTRAL",
-        "Prestige",
-        "6666"
+        "ASTRAL"
       ],
       "product_tier": "tier_1",
-      "source_url": null,
-      "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:cct-2026-europe-series-6",
-      "matches": [
-        {
-          "event_id": "hltv:cct-2026-europe-series-6",
-          "event_name": "CCT 2026 Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2396152",
-          "maps": [],
-          "match_id": "hltv:2396152",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396152/butterfly-vs-cybershoke-cct-2026-europe-series-6",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Butterfly",
-          "team2_name": "CYBERSHOKE",
-          "winner_name": "CYBERSHOKE"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 6",
-      "participants": [
-        "Butterfly",
-        "CYBERSHOKE"
-      ],
-      "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-13T10:29:15Z",
+  "fetched_at_utc": "2026-08-13T13:49:39Z",
   "matches": [
-    {
-      "event_id": "hltv:esports-world-cup-2026",
-      "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396575",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396575",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396575/gamerlegion-vs-jijiehao-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-13T11:00:00Z",
-      "status": "live",
-      "team1_name": "GamerLegion",
-      "team2_name": "JiJieHao",
-      "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket semi-final. Winner advances to the playoffs."
-    },
-    {
-      "event_id": "hltv:8261",
-      "event_name": "Esports World Cup 2026",
-      "event_url": null,
-      "hltv_match_id": "2396577",
-      "maps": [],
-      "match_id": "hltv:2396577",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-13T11:00:00Z",
-      "status": "live",
-      "team1_name": "Luminosity",
-      "team2_name": "Spirit"
-    },
-    {
-      "event_id": "hltv:9323",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396624",
-      "maps": [],
-      "match_id": "hltv:2396624",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396624/berg-vs-endless-journey-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-13T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "BERG",
-      "team2_name": "Endless Journey"
-    },
     {
       "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
@@ -1875,27 +1771,39 @@
       "veto_text": "Best of 3 (LAN)\n\n* Group A lower bracket round 1"
     },
     {
-      "event_id": "hltv:8261",
-      "event_name": "Esports World Cup 2026",
-      "event_url": null,
-      "hltv_match_id": "2396576",
-      "maps": [],
-      "match_id": "hltv:2396576",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-13T13:55:00Z",
-      "status": "live",
-      "team1_name": "BIG",
-      "team2_name": "G2"
-    },
-    {
-      "event_id": "hltv:9323",
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396625",
-      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Dust2",
+        "Cache"
+      ],
       "match_id": "hltv:2396625",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -1904,7 +1812,8 @@
       "starts_at": "2026-08-13T14:00:00Z",
       "status": "upcoming",
       "team1_name": "Bushido Wildcats",
-      "team2_name": "ex-RUSTEC"
+      "team2_name": "ex-RUSTEC",
+      "veto_text": "Best of 3 (Online)\n\n* Group A winners' match"
     },
     {
       "event_id": "hltv:8261",
@@ -2326,6 +2235,44 @@
       "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
       "event_url": null,
+      "hltv_match_id": "2396577",
+      "maps": [],
+      "match_id": "hltv:2396577",
+      "product_tier": "tier_1",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396577/luminosity-vs-spirit-esports-world-cup-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Luminosity",
+      "team2_name": "Spirit",
+      "winner_name": "Spirit"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026",
+      "event_name": "Esports World Cup 2026",
+      "event_url": null,
+      "hltv_match_id": "2396575",
+      "maps": [],
+      "match_id": "hltv:2396575",
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396575/gamerlegion-vs-jijiehao-esports-world-cup-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "GamerLegion",
+      "team2_name": "JiJieHao",
+      "winner_name": "GamerLegion"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026",
+      "event_name": "Esports World Cup 2026",
+      "event_url": null,
       "hltv_match_id": "2396573",
       "maps": [],
       "match_id": "hltv:2396573",
@@ -2625,6 +2572,44 @@
       "team1_name": "Luminosity",
       "team2_name": "GamerLegion",
       "winner_name": "GamerLegion"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396624",
+      "maps": [],
+      "match_id": "hltv:2396624",
+      "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396624/berg-vs-endless-journey-cct-2026-europe-series-7-closed-qualifier",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "BERG",
+      "team2_name": "Endless Journey",
+      "winner_name": "BERG"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396623",
+      "maps": [],
+      "match_id": "hltv:2396623",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396623/ex-mana-vs-saw-youngsters-cct-2026-europe-series-7-closed-qualifier",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "ex-MANA",
+      "team2_name": "SAW Youngsters",
+      "winner_name": "ex-MANA"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
@@ -3216,106 +3201,49 @@
       "winner_name": "HEROIC"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396536",
-      "maps": [],
-      "match_id": "hltv:2396536",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396536/prestige-vs-betclic-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Prestige",
-      "team2_name": "Betclic",
-      "winner_name": "Betclic"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-6",
-      "event_name": "CCT 2026 Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2396152",
-      "maps": [],
-      "match_id": "hltv:2396152",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396152/butterfly-vs-cybershoke-cct-2026-europe-series-6",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Butterfly",
-      "team2_name": "CYBERSHOKE",
-      "winner_name": "CYBERSHOKE"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396530",
-      "maps": [],
-      "match_id": "hltv:2396530",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396530/iberian-soul-vs-6666-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Iberian Soul",
-      "team2_name": "6666",
-      "winner_name": "Iberian Soul"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "event_id": "hltv:esports-world-cup-2026",
+      "event_name": "Esports World Cup 2026",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396623",
+      "hltv_match_id": "2396576",
       "lineups": {
         "team1": [],
         "team2": []
       },
       "map_results": [
         {
-          "map_name": "Mirage",
-          "score1": 13,
-          "score2": 6,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": 7,
-          "score2": 13,
-          "status": "finished"
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
         },
         {
           "map_name": "Ancient",
           "score1": null,
           "score2": null,
           "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
         }
       ],
       "maps": [
-        "Mirage",
-        "Dust2",
-        "Ancient"
+        "Cache",
+        "Ancient",
+        "Inferno"
       ],
-      "match_id": "hltv:2396623",
-      "product_tier": "tier_2",
+      "match_id": "hltv:2396576",
+      "product_tier": "tier_1",
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396623/ex-mana-vs-saw-youngsters-cct-2026-europe-series-7-closed-qualifier",
+      "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "ex-MANA",
-      "team2_name": "SAW Youngsters",
-      "veto_text": "Best of 3 (Online)\n\n* Group A elimination match"
+      "team1_name": "BIG",
+      "team2_name": "G2",
+      "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket semi-final. Winner advances to the playoffs."
     }
   ],
   "ok": true,
@@ -3327,32 +3255,27 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 46
+    "scheduled_matches": 40
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 8,
-    "matches_kept": 83,
+    "events_kept": 7,
+    "matches_kept": 80,
     "players_kept": 0,
     "event_tiers": {
       "hltv:esports-world-cup-2026": "tier_1",
+      "hltv:cct-2026-europe-series-7-closed-qualifier": "tier_2",
       "hltv:8261": "tier_1",
       "hltv:9323": "tier_2",
       "hltv:9313": "tier_2",
       "hltv:9261": "tier_2",
-      "hltv:cct-2026-europe-series-7-closed-qualifier": "tier_2",
-      "hltv:esports-world-cup-2026-open-qualifier": "tier_1",
-      "hltv:cct-2026-europe-series-6": "tier_2"
+      "hltv:esports-world-cup-2026-open-qualifier": "tier_1"
     },
     "eligible_match_ids": [
-      "hltv:2396575",
-      "hltv:2396577",
-      "hltv:2396624",
       "hltv:2396578",
-      "hltv:2396576",
       "hltv:2396625",
       "hltv:2396579",
       "hltv:2396580",
@@ -3380,6 +3303,8 @@
       "hltv:2396588",
       "hltv:2396589",
       "hltv:2396590",
+      "hltv:2396577",
+      "hltv:2396575",
       "hltv:2396573",
       "hltv:2396570",
       "hltv:2396567",
@@ -3396,6 +3321,8 @@
       "hltv:2396569",
       "hltv:2396562",
       "hltv:2396560",
+      "hltv:2396624",
+      "hltv:2396623",
       "hltv:2396622",
       "hltv:2396621",
       "hltv:2396620",
@@ -3427,10 +3354,7 @@
       "hltv:2396545",
       "hltv:2396546",
       "hltv:2396533",
-      "hltv:2396536",
-      "hltv:2396152",
-      "hltv:2396530",
-      "hltv:2396623"
+      "hltv:2396576"
     ]
   }
 }

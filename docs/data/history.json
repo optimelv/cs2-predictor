@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-13T10:29:15Z",
+  "generated_at_utc": "2026-08-13T13:49:39Z",
   "through_date": "2026-08-13",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1302,
+    "matches": 1306,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1144,6 +1144,94 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "HAVU",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396577",
+      "match_date": "2026-08-13",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "Luminosity",
+      "team2_name": "Spirit",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396575",
+      "match_date": "2026-08-13",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "GamerLegion",
+      "team2_name": "JiJieHao",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "GamerLegion",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396624",
+      "match_date": "2026-08-13",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "team1_name": "BERG",
+      "team2_name": "Endless Journey",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "BERG",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396623",
+      "match_date": "2026-08-13",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "team1_name": "ex-MANA",
+      "team2_name": "SAW Youngsters",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-MANA",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
