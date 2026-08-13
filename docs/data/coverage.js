@@ -5,66 +5,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
       "event_url": null,
-      "hltv_match_id": "2396452",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "24704",
-            "nickname": "Neqy",
-            "player_id": "hltv:24704",
-            "source_url": "https://www.hltv.org/player/24704/neqy",
-            "team_name": "Kreazion"
-          },
-          {
-            "hltv_player_id": "24997",
-            "nickname": "meowpop",
-            "player_id": "hltv:24997",
-            "source_url": "https://www.hltv.org/player/24997/meowpop",
-            "team_name": "Kreazion"
-          },
-          {
-            "hltv_player_id": "23545",
-            "nickname": "RaY5ive",
-            "player_id": "hltv:23545",
-            "source_url": "https://www.hltv.org/player/23545/ray5ive",
-            "team_name": "Kreazion"
-          },
-          {
-            "hltv_player_id": "19725",
-            "nickname": "gxx-",
-            "player_id": "hltv:19725",
-            "source_url": "https://www.hltv.org/player/19725/gxx",
-            "team_name": "Kreazion"
-          },
-          {
-            "hltv_player_id": "22008",
-            "nickname": "swiz",
-            "player_id": "hltv:22008",
-            "source_url": "https://www.hltv.org/player/22008/swiz",
-            "team_name": "Kreazion"
-          }
-        ],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396452",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396452/kreazion-vs-astral-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Kreazion",
-      "team2_name": "ASTRAL",
-      "veto_text": "Best of 3 (LAN)\n\n* Group 1 opening match",
-      "winner_name": "ASTRAL"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
       "hltv_match_id": "2396453",
       "lineups": {
         "team1": [],
@@ -4072,7 +4012,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396626",
       "lineups": {
         "team1": [],
@@ -4098,21 +4038,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Ancient",
-        "Nuke",
-        "Cache"
-      ],
+      "maps": [],
       "match_id": "hltv:2396626",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396626/permitta-vs-havu-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "Permitta",
       "team2_name": "HAVU",
-      "veto_text": "Best of 3 (Online)\n\n* Group B winners' match"
+      "veto_text": "Best of 3 (Online)\n\n* Group B winners' match",
+      "winner_name": "Permitta"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -4236,10 +4175,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9313",
+      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
       "event_name": "CCT 2026 Challengers South America Series 2",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396800",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396800",
       "product_tier": "tier_2",
@@ -4249,13 +4192,18 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-13T23:45:00Z",
       "status": "upcoming",
       "team1_name": "Pugdesonesto",
-      "team2_name": "ALKA"
+      "team2_name": "ALKA",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
     },
     {
-      "event_id": "hltv:9313",
+      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
       "event_name": "CCT 2026 Challengers South America Series 2",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396801",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396801",
       "product_tier": "tier_2",
@@ -4265,7 +4213,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-13T23:45:00Z",
       "status": "upcoming",
       "team1_name": "METANOIA Wolves",
-      "team2_name": "paiN Academy"
+      "team2_name": "paiN Academy",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
     },
     {
       "event_id": "hltv:9323",
@@ -4650,6 +4599,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "ex-MANA",
       "team2_name": "ex-RUSTEC"
+    },
+    {
+      "event_id": "hltv:9323",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396636",
+      "maps": [],
+      "match_id": "hltv:2396636",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396636/berg-vs-havu-cct-2026-europe-series-7-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-16T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "BERG",
+      "team2_name": "HAVU"
     }
   ],
   "default_event_id": "epl-series-8-2026",
@@ -6441,44 +6406,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "FOKUS",
           "team2_name": "Acend",
           "winner_name": "Acend"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396541",
-          "maps": [],
-          "match_id": "hltv:2396541",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396541/inner-circle-vs-iberian-soul-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Inner Circle",
-          "team2_name": "Iberian Soul",
-          "winner_name": "Inner Circle"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-          "event_name": "Esports World Cup 2026 Open Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396539",
-          "maps": [],
-          "match_id": "hltv:2396539",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396539/nrg-vs-phantom-esports-world-cup-2026-open-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "NRG",
-          "team2_name": "Phantom",
-          "winner_name": "Phantom"
         }
       ],
       "name": "Esports World Cup 2026 Open Qualifier",
@@ -6503,9 +6430,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "DENDELE",
         "SINNERS",
         "Echo",
-        "FOKUS",
-        "Iberian Soul",
-        "NRG"
+        "FOKUS"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -7302,6 +7227,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "ex-MANA",
           "team2_name": "ex-RUSTEC"
+        },
+        {
+          "event_id": "hltv:9323",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396636",
+          "maps": [],
+          "match_id": "hltv:2396636",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396636/berg-vs-havu-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-16T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "BERG",
+          "team2_name": "HAVU"
         }
       ],
       "name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7315,7 +7256,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Mai Tai",
         "UNiTY",
         "ex-MANA",
-        "ex-RUSTEC"
+        "ex-RUSTEC",
+        "BERG",
+        "HAVU"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -7331,6 +7274,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396626",
+          "maps": [],
+          "match_id": "hltv:2396626",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396626/permitta-vs-havu-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Permitta",
+          "team2_name": "HAVU",
+          "winner_name": "Permitta"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
           "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7463,68 +7425,23 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Bushido Wildcats",
           "team2_name": "ex-MANA",
           "winner_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396626",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Ancient",
-              "score1": 13,
-              "score2": 11,
-              "status": "finished"
-            },
-            {
-              "map_name": "Nuke",
-              "score1": 15,
-              "score2": 15,
-              "status": "finished"
-            },
-            {
-              "map_name": "Cache",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Ancient",
-            "Nuke",
-            "Cache"
-          ],
-          "match_id": "hltv:2396626",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396626/permitta-vs-havu-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Permitta",
-          "team2_name": "HAVU",
-          "veto_text": "Best of 3 (Online)\n\n* Group B winners' match"
         }
       ],
       "name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "participants": [
+        "Permitta",
+        "HAVU",
         "Bushido Wildcats",
         "ex-RUSTEC",
         "BERG",
         "Endless Journey",
         "ex-MANA",
         "SAW Youngsters",
-        "HAVU",
-        "los kogutos",
-        "Permitta"
+        "los kogutos"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -7723,9 +7640,73 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "product_tier": "tier_2",
       "source_url": null,
       "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:cct-2026-challengers-south-america-series-2",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+          "event_name": "CCT 2026 Challengers South America Series 2",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396800",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396800",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396800/pugdesonesto-vs-alka-cct-2026-challengers-south-america-series-2",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-13T23:45:00Z",
+          "status": "upcoming",
+          "team1_name": "Pugdesonesto",
+          "team2_name": "ALKA",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+          "event_name": "CCT 2026 Challengers South America Series 2",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396801",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396801",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396801/metanoia-wolves-vs-pain-academy-cct-2026-challengers-south-america-series-2",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-13T23:45:00Z",
+          "status": "upcoming",
+          "team1_name": "METANOIA Wolves",
+          "team2_name": "paiN Academy",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
+        }
+      ],
+      "name": "CCT 2026 Challengers South America Series 2",
+      "participants": [
+        "Pugdesonesto",
+        "ALKA",
+        "METANOIA Wolves",
+        "paiN Academy"
+      ],
+      "product_tier": "tier_2",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-08-13T19:22:38Z",
+  "last_verified_utc": "2026-08-13T22:04:46Z",
   "sources": [
     {
       "name": "HLTV events calendar",
