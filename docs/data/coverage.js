@@ -4319,7 +4319,31 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "team1": [],
         "team2": []
       },
-      "maps": [],
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Dust2",
+        "Ancient"
+      ],
       "match_id": "hltv:2396623",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -7677,7 +7701,31 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             "team1": [],
             "team2": []
           },
-          "maps": [],
+          "map_results": [
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Mirage",
+            "Dust2",
+            "Ancient"
+          ],
           "match_id": "hltv:2396623",
           "product_tier": "tier_2",
           "series_format": "bo3",
@@ -7836,7 +7884,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-08-13T05:06:46Z",
+  "last_verified_utc": "2026-08-13T07:55:16Z",
   "sources": [
     {
       "name": "HLTV events calendar",

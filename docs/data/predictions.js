@@ -4320,7 +4320,31 @@ window.__STRIKESIGNAL_DATA__ = {
           "team1": [],
           "team2": []
         },
-        "maps": [],
+        "map_results": [
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Mirage",
+          "Dust2",
+          "Ancient"
+        ],
         "match_id": "hltv:2396623",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -7678,7 +7702,31 @@ window.__STRIKESIGNAL_DATA__ = {
               "team1": [],
               "team2": []
             },
-            "maps": [],
+            "map_results": [
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Mirage",
+              "Dust2",
+              "Ancient"
+            ],
             "match_id": "hltv:2396623",
             "product_tier": "tier_2",
             "series_format": "bo3",
@@ -7837,7 +7885,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-08-13T05:06:46Z",
+    "last_verified_utc": "2026-08-13T07:55:16Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8275,7 +8323,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-13T05:07:08Z",
+  "generated_at_utc": "2026-08-13T07:55:35Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9688,7 +9736,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-13T05:07:08Z",
+    "generated_at_utc": "2026-08-13T07:55:35Z",
     "history": [],
     "promotion_gates": {
       "maximum_accuracy_regression": 0.005,
@@ -19546,8 +19594,31 @@ window.__STRIKESIGNAL_DATA__ = {
         "team1": [],
         "team2": []
       },
-      "map_results": [],
-      "maps": [],
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Dust2",
+        "Ancient"
+      ],
       "match_date": "2026-08-13",
       "match_id": "hltv:2396623",
       "match_phase": "scheduled",
