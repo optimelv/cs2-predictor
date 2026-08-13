@@ -4332,9 +4332,9 @@
       "veto_text": "Best of 3 (Online)\n\n* Group A elimination match"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396575",
       "lineups": {
         "team1": [],
@@ -6865,27 +6865,6 @@
           "event_id": "hltv:esports-world-cup-2026",
           "event_name": "Esports World Cup 2026",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396575",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396575",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396575/gamerlegion-vs-jijiehao-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-13T11:00:00Z",
-          "status": "live",
-          "team1_name": "GamerLegion",
-          "team2_name": "JiJieHao",
-          "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket semi-final. Winner advances to the playoffs."
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2396578",
           "lineups": {
             "team1": [],
@@ -7210,8 +7189,6 @@
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "GamerLegion",
-        "JiJieHao",
         "Aurora",
         "M80",
         "9z",
@@ -7238,10 +7215,12 @@
         "magic",
         "The MongolZ",
         "Spirit",
+        "JiJieHao",
         "FUT",
         "TYLOO",
         "BIG",
-        "Luminosity"
+        "Luminosity",
+        "GamerLegion"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -7257,6 +7236,22 @@
       },
       "id": "hltv:8261",
       "matches": [
+        {
+          "event_id": "hltv:8261",
+          "event_name": "Esports World Cup 2026",
+          "event_url": null,
+          "hltv_match_id": "2396575",
+          "maps": [],
+          "match_id": "hltv:2396575",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396575/gamerlegion-vs-jijiehao-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-13T11:00:00Z",
+          "status": "live",
+          "team1_name": "GamerLegion",
+          "team2_name": "JiJieHao"
+        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -7484,6 +7479,8 @@
       ],
       "name": "Esports World Cup 2026",
       "participants": [
+        "GamerLegion",
+        "JiJieHao",
         "Luminosity",
         "Spirit",
         "BIG",
@@ -7839,7 +7836,7 @@
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-08-13T02:48:50Z",
+  "last_verified_utc": "2026-08-13T05:06:46Z",
   "sources": [
     {
       "name": "HLTV events calendar",
