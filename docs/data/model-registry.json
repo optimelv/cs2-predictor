@@ -3,13 +3,13 @@
     "folds": 4,
     "kind": "heuristic",
     "metrics": {
-      "accuracy": 0.622222,
-      "brier": 0.226459,
-      "ece": 0.043873,
-      "log_loss": 0.642828
+      "accuracy": 0.621359,
+      "brier": 0.226777,
+      "ece": 0.042876,
+      "log_loss": 0.643495
     },
-    "rows": 1078,
-    "test_rows": 720
+    "rows": 1081,
+    "test_rows": 721
   },
   "challenger": {
     "blend_weight": 0.5,
@@ -23,31 +23,101 @@
     "folds": 4,
     "l2": 0.005,
     "metrics": {
-      "accuracy": 0.625,
-      "brier": 0.225381,
-      "ece": 0.019449,
-      "log_loss": 0.641216
+      "accuracy": 0.624133,
+      "brier": 0.225518,
+      "ece": 0.021801,
+      "log_loss": 0.641489
     },
-    "promotion_passed": false,
-    "rows": 720
+    "promotion_passed": true,
+    "rows": 721
   },
   "champion": {
-    "folds": 3,
-    "kind": "heuristic",
+    "blend_weight": 0.5,
+    "features": [
+      "elo_diff",
+      "vrs_rank_advantage",
+      "vrs_points_diff",
+      "recent_win_rate_10_diff"
+    ],
+    "kind": "portable_logistic_blend",
+    "l2": 0.005,
+    "mean": [
+      8.17429212,
+      9.70490287,
+      80.7853839,
+      0.00465617
+    ],
     "metrics": {
-      "accuracy": 0.667546,
-      "brier": 0.207981,
-      "ece": 0.041042,
-      "log_loss": 0.602255
+      "accuracy": 0.624133,
+      "brier": 0.225518,
+      "ece": 0.021801,
+      "log_loss": 0.641489
     },
-    "rows": 757,
-    "test_rows": 379,
+    "std": [
+      93.29628808,
+      54.05601357,
+      443.32099472,
+      0.20752671
+    ],
+    "tier_policy": "T1 + T1.5 + verified T2; low/medium integrity risk",
     "trained_through": "2026-06-08",
-    "version": "bounded-elo-vrs-v1"
+    "training_rows": 1081,
+    "version": "portable-20260813192253",
+    "weights": [
+      0.11126804,
+      0.41048404,
+      -0.12992676,
+      0.50027355,
+      -0.08233339
+    ]
   },
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-13T16:11:11Z",
-  "history": [],
+  "generated_at_utc": "2026-08-13T19:22:53Z",
+  "history": [
+    {
+      "champion": {
+        "blend_weight": 0.5,
+        "features": [
+          "elo_diff",
+          "vrs_rank_advantage",
+          "vrs_points_diff",
+          "recent_win_rate_10_diff"
+        ],
+        "kind": "portable_logistic_blend",
+        "l2": 0.005,
+        "mean": [
+          8.17429212,
+          9.70490287,
+          80.7853839,
+          0.00465617
+        ],
+        "metrics": {
+          "accuracy": 0.624133,
+          "brier": 0.225518,
+          "ece": 0.021801,
+          "log_loss": 0.641489
+        },
+        "std": [
+          93.29628808,
+          54.05601357,
+          443.32099472,
+          0.20752671
+        ],
+        "tier_policy": "T1 + T1.5 + verified T2; low/medium integrity risk",
+        "trained_through": "2026-06-08",
+        "training_rows": 1081,
+        "version": "portable-20260813192253",
+        "weights": [
+          0.11126804,
+          0.41048404,
+          -0.12992676,
+          0.50027355,
+          -0.08233339
+        ]
+      },
+      "promoted_at_utc": "2026-08-13T19:22:53Z"
+    }
+  ],
   "promotion_gates": {
     "maximum_accuracy_regression": 0.005,
     "maximum_brier_regression": 0.001,
@@ -57,8 +127,8 @@
     "minimum_test_rows": 350
   },
   "training": {
-    "new_rows": 2,
-    "online_rows": 321,
+    "new_rows": 3,
+    "online_rows": 324,
     "seed_rows": 757
   }
 }
