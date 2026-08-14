@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-14T07:52:27Z",
+  "generated_at_utc": "2026-08-14T10:18:34Z",
   "through_date": "2026-08-14",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1314,
+    "matches": 1315,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1012,6 +1012,28 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "paiN Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396627",
+      "match_date": "2026-08-14",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "team1_name": "Enjoy",
+      "team2_name": "Misa",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Enjoy",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
