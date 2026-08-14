@@ -6,138 +6,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "event_id": "hltv:esports-world-cup-2026-open-qualifier",
         "event_name": "Esports World Cup 2026 Open Qualifier",
         "event_url": null,
-        "hltv_match_id": "2396453",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Nuke",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Ancient",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Cache",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2396453",
-        "product_tier": "tier_1",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396453/big-vs-z-to-forward-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "BIG",
-        "team2_name": "z to forward",
-        "veto_text": "Best of 3 (LAN)\n\n* Group 2 opening match",
-        "winner_name": "BIG"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396454",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Mirage",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Nuke",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Inferno",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2396454",
-        "product_tier": "tier_1",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396454/dusty-vs-fluxo-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "DUSTY",
-        "team2_name": "Fluxo",
-        "veto_text": "Best of 3 (LAN)\n\n* Group 2 opening match",
-        "winner_name": "Fluxo"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396455",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Cache",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Anubis",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Ancient",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2396455",
-        "product_tier": "tier_1",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396455/dendele-vs-queenconso-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "DENDELE",
-        "team2_name": "QueenConso",
-        "veto_text": "Best of 3 (LAN)\n\n* Group 3 opening match",
-        "winner_name": "DENDELE"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
         "hltv_match_id": "2396456",
         "lineups": {
           "team1": [],
@@ -4055,6 +3923,54 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Permitta"
       },
       {
+        "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+        "event_name": "CCT 2026 Challengers South America Series 2",
+        "event_url": null,
+        "hltv_match_id": "2396800",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "maps": [],
+        "match_id": "hltv:2396800",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396800/pugdesonesto-vs-alka-cct-2026-challengers-south-america-series-2",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Pugdesonesto",
+        "team2_name": "ALKA",
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final",
+        "winner_name": "ALKA"
+      },
+      {
+        "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+        "event_name": "CCT 2026 Challengers South America Series 2",
+        "event_url": null,
+        "hltv_match_id": "2396801",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "maps": [],
+        "match_id": "hltv:2396801",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396801/metanoia-wolves-vs-pain-academy-cct-2026-challengers-south-america-series-2",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "METANOIA Wolves",
+        "team2_name": "paiN Academy",
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final",
+        "winner_name": "paiN Academy"
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4176,52 +4092,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-        "event_name": "CCT 2026 Challengers South America Series 2",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396800",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396800",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396800/pugdesonesto-vs-alka-cct-2026-challengers-south-america-series-2",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-13T23:45:00Z",
-        "status": "upcoming",
-        "team1_name": "Pugdesonesto",
-        "team2_name": "ALKA",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
-      },
-      {
-        "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-        "event_name": "CCT 2026 Challengers South America Series 2",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396801",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396801",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396801/metanoia-wolves-vs-pain-academy-cct-2026-challengers-south-america-series-2",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-13T23:45:00Z",
-        "status": "upcoming",
-        "team1_name": "METANOIA Wolves",
-        "team2_name": "paiN Academy",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
-      },
-      {
-        "event_id": "hltv:9323",
+        "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
         "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396627",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396627",
         "product_tier": "tier_2",
@@ -4231,7 +4109,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-14T08:00:00Z",
         "status": "upcoming",
         "team1_name": "Enjoy",
-        "team2_name": "Misa"
+        "team2_name": "Misa",
+        "veto_text": "Best of 3 (Online)\n\n* Group C opening match"
       },
       {
         "event_id": "hltv:9323",
@@ -4250,10 +4129,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Noir Verse"
       },
       {
-        "event_id": "hltv:8261",
+        "event_id": "hltv:esports-world-cup-2026",
         "event_name": "Esports World Cup 2026",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396582",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396582",
         "product_tier": "tier_1",
@@ -4263,13 +4146,18 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-14T11:00:00Z",
         "status": "live",
         "team1_name": "Ninjas in Pyjamas",
-        "team2_name": "BetBoom"
+        "team2_name": "BetBoom",
+        "veto_text": "Best of 3 (LAN)\n\n* Group B lower bracket round 1"
       },
       {
-        "event_id": "hltv:8261",
+        "event_id": "hltv:esports-world-cup-2026",
         "event_name": "Esports World Cup 2026",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396586",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396586",
         "product_tier": "tier_1",
@@ -4279,7 +4167,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-14T11:00:00Z",
         "status": "live",
         "team1_name": "TYLOO",
-        "team2_name": "Lynn Vision"
+        "team2_name": "Lynn Vision",
+        "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket round 1"
       },
       {
         "event_id": "hltv:9261",
@@ -4490,6 +4379,38 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "UNiTY"
       },
       {
+        "event_id": "hltv:9313",
+        "event_name": "CCT 2026 Challengers South America Series 2",
+        "event_url": null,
+        "hltv_match_id": "2396803",
+        "maps": [],
+        "match_id": "hltv:2396803",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396803/pugdesonesto-vs-quintessncia-cct-2026-challengers-south-america-series-2",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-14T21:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Pugdesonesto",
+        "team2_name": "QUINTESS\u00caNCIA"
+      },
+      {
+        "event_id": "hltv:9313",
+        "event_name": "CCT 2026 Challengers South America Series 2",
+        "event_url": null,
+        "hltv_match_id": "2396804",
+        "maps": [],
+        "match_id": "hltv:2396804",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396804/metanoia-wolves-vs-meia-noite-cct-2026-challengers-south-america-series-2",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-14T23:45:00Z",
+        "status": "upcoming",
+        "team1_name": "METANOIA Wolves",
+        "team2_name": "MEIA NOITE"
+      },
+      {
         "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
         "event_url": null,
@@ -4584,6 +4505,22 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "live",
         "team1_name": "JiJieHao",
         "team2_name": "Aurora"
+      },
+      {
+        "event_id": "hltv:9313",
+        "event_name": "CCT 2026 Challengers South America Series 2",
+        "event_url": null,
+        "hltv_match_id": "2396805",
+        "maps": [],
+        "match_id": "hltv:2396805",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396805/pain-academy-vs-alka-cct-2026-challengers-south-america-series-2",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-15T21:00:00Z",
+        "status": "upcoming",
+        "team1_name": "paiN Academy",
+        "team2_name": "ALKA"
       },
       {
         "event_id": "hltv:9323",
@@ -6350,63 +6287,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "JiJieHao",
             "team2_name": "DENDELE",
             "winner_name": "JiJieHao"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396532",
-            "maps": [],
-            "match_id": "hltv:2396532",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396532/sinners-vs-eyeballers-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "SINNERS",
-            "team2_name": "EYEBALLERS",
-            "winner_name": "EYEBALLERS"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396537",
-            "maps": [],
-            "match_id": "hltv:2396537",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396537/echo-vs-genone-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Echo",
-            "team2_name": "GenOne",
-            "winner_name": "GenOne"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-            "event_name": "Esports World Cup 2026 Open Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396543",
-            "maps": [],
-            "match_id": "hltv:2396543",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396543/fokus-vs-acend-esports-world-cup-2026-open-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "FOKUS",
-            "team2_name": "Acend",
-            "winner_name": "Acend"
           }
         ],
         "name": "Esports World Cup 2026 Open Qualifier",
@@ -6428,10 +6308,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Betclic",
           "HEROIC",
           "SAW",
-          "DENDELE",
-          "SINNERS",
-          "Echo",
-          "FOKUS"
+          "DENDELE"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -6447,6 +6324,48 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:esports-world-cup-2026",
         "matches": [
+          {
+            "event_id": "hltv:esports-world-cup-2026",
+            "event_name": "Esports World Cup 2026",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396582",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396582",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-14T11:00:00Z",
+            "status": "live",
+            "team1_name": "Ninjas in Pyjamas",
+            "team2_name": "BetBoom",
+            "veto_text": "Best of 3 (LAN)\n\n* Group B lower bracket round 1"
+          },
+          {
+            "event_id": "hltv:esports-world-cup-2026",
+            "event_name": "Esports World Cup 2026",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396586",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396586",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-14T11:00:00Z",
+            "status": "live",
+            "team1_name": "TYLOO",
+            "team2_name": "Lynn Vision",
+            "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket round 1"
+          },
           {
             "event_id": "hltv:esports-world-cup-2026",
             "event_name": "Esports World Cup 2026",
@@ -6868,6 +6787,10 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "Esports World Cup 2026",
         "participants": [
+          "Ninjas in Pyjamas",
+          "BetBoom",
+          "TYLOO",
+          "Lynn Vision",
           "Legacy",
           "FaZe",
           "Falcons",
@@ -6882,7 +6805,6 @@ window.__STRIKESIGNAL_DATA__ = {
           "JiJieHao",
           "9z",
           "paiN",
-          "Lynn Vision",
           "MOUZ",
           "Vitality",
           "100 Thieves",
@@ -6891,19 +6813,16 @@ window.__STRIKESIGNAL_DATA__ = {
           "Natus Vincere",
           "3DMAX",
           "MIBR",
-          "BetBoom",
           "PARIVISION",
           "B8",
           "K27",
-          "Ninjas in Pyjamas",
           "magic",
           "The MongolZ",
-          "FUT",
-          "TYLOO"
+          "FUT"
         ],
         "product_tier": "tier_1",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -6915,38 +6834,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:8261",
         "matches": [
-          {
-            "event_id": "hltv:8261",
-            "event_name": "Esports World Cup 2026",
-            "event_url": null,
-            "hltv_match_id": "2396582",
-            "maps": [],
-            "match_id": "hltv:2396582",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396582/ninjas-in-pyjamas-vs-betboom-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-14T11:00:00Z",
-            "status": "live",
-            "team1_name": "Ninjas in Pyjamas",
-            "team2_name": "BetBoom"
-          },
-          {
-            "event_id": "hltv:8261",
-            "event_name": "Esports World Cup 2026",
-            "event_url": null,
-            "hltv_match_id": "2396586",
-            "maps": [],
-            "match_id": "hltv:2396586",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396586/tyloo-vs-lynn-vision-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-14T11:00:00Z",
-            "status": "live",
-            "team1_name": "TYLOO",
-            "team2_name": "Lynn Vision"
-          },
           {
             "event_id": "hltv:8261",
             "event_name": "Esports World Cup 2026",
@@ -7110,10 +6997,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "Esports World Cup 2026",
         "participants": [
-          "Ninjas in Pyjamas",
-          "BetBoom",
-          "TYLOO",
-          "Lynn Vision",
           "B8",
           "Vitality",
           "FUT",
@@ -7149,22 +7032,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:9323",
         "matches": [
-          {
-            "event_id": "hltv:9323",
-            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396627",
-            "maps": [],
-            "match_id": "hltv:2396627",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396627/enjoy-vs-misa-cct-2026-europe-series-7-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-14T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Enjoy",
-            "team2_name": "Misa"
-          },
           {
             "event_id": "hltv:9323",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7248,8 +7115,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "participants": [
-          "Enjoy",
-          "Misa",
           "Honv\u00e9d",
           "Noir Verse",
           "Inner Circle Academy",
@@ -7275,6 +7140,27 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396627",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396627",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396627/enjoy-vs-misa-cct-2026-europe-series-7-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-14T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Enjoy",
+            "team2_name": "Misa",
+            "veto_text": "Best of 3 (Online)\n\n* Group C opening match"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7430,6 +7316,8 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "participants": [
+          "Enjoy",
+          "Misa",
           "Permitta",
           "HAVU",
           "Bushido Wildcats",
@@ -7441,8 +7329,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "los kogutos"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -7458,41 +7346,59 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9313",
             "event_name": "CCT 2026 Challengers South America Series 2",
             "event_url": null,
-            "hltv_match_id": "2396800",
+            "hltv_match_id": "2396803",
             "maps": [],
-            "match_id": "hltv:2396800",
+            "match_id": "hltv:2396803",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396800/pugdesonesto-vs-alka-cct-2026-challengers-south-america-series-2",
+            "source_url": "https://www.hltv.org/matches/2396803/pugdesonesto-vs-quintessncia-cct-2026-challengers-south-america-series-2",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-08-13T23:45:00Z",
+            "starts_at": "2026-08-14T21:00:00Z",
             "status": "upcoming",
             "team1_name": "Pugdesonesto",
-            "team2_name": "ALKA"
+            "team2_name": "QUINTESS\u00caNCIA"
           },
           {
             "event_id": "hltv:9313",
             "event_name": "CCT 2026 Challengers South America Series 2",
             "event_url": null,
-            "hltv_match_id": "2396801",
+            "hltv_match_id": "2396804",
             "maps": [],
-            "match_id": "hltv:2396801",
+            "match_id": "hltv:2396804",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396801/metanoia-wolves-vs-pain-academy-cct-2026-challengers-south-america-series-2",
+            "source_url": "https://www.hltv.org/matches/2396804/metanoia-wolves-vs-meia-noite-cct-2026-challengers-south-america-series-2",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-08-13T23:45:00Z",
+            "starts_at": "2026-08-14T23:45:00Z",
             "status": "upcoming",
             "team1_name": "METANOIA Wolves",
-            "team2_name": "paiN Academy"
+            "team2_name": "MEIA NOITE"
+          },
+          {
+            "event_id": "hltv:9313",
+            "event_name": "CCT 2026 Challengers South America Series 2",
+            "event_url": null,
+            "hltv_match_id": "2396805",
+            "maps": [],
+            "match_id": "hltv:2396805",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396805/pain-academy-vs-alka-cct-2026-challengers-south-america-series-2",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-15T21:00:00Z",
+            "status": "upcoming",
+            "team1_name": "paiN Academy",
+            "team2_name": "ALKA"
           }
         ],
         "name": "CCT 2026 Challengers South America Series 2",
         "participants": [
           "Pugdesonesto",
-          "ALKA",
+          "QUINTESS\u00caNCIA",
           "METANOIA Wolves",
-          "paiN Academy"
+          "MEIA NOITE",
+          "paiN Academy",
+          "ALKA"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7655,44 +7561,40 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-challengers-south-america-series-2",
             "event_name": "CCT 2026 Challengers South America Series 2",
-            "event_url": "https://www.hltv.org/events/archive",
+            "event_url": null,
             "hltv_match_id": "2396800",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
             "maps": [],
             "match_id": "hltv:2396800",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2396800/pugdesonesto-vs-alka-cct-2026-challengers-south-america-series-2",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-13T23:45:00Z",
-            "status": "upcoming",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
             "team1_name": "Pugdesonesto",
             "team2_name": "ALKA",
-            "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
+            "winner_name": "ALKA"
           },
           {
             "event_id": "hltv:cct-2026-challengers-south-america-series-2",
             "event_name": "CCT 2026 Challengers South America Series 2",
-            "event_url": "https://www.hltv.org/events/archive",
+            "event_url": null,
             "hltv_match_id": "2396801",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
             "maps": [],
             "match_id": "hltv:2396801",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2396801/metanoia-wolves-vs-pain-academy-cct-2026-challengers-south-america-series-2",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-13T23:45:00Z",
-            "status": "upcoming",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
             "team1_name": "METANOIA Wolves",
             "team2_name": "paiN Academy",
-            "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
+            "winner_name": "paiN Academy"
           }
         ],
         "name": "CCT 2026 Challengers South America Series 2",
@@ -7703,11 +7605,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "paiN Academy"
         ],
         "product_tier": "tier_2",
-        "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "source_url": null,
+        "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-08-13T22:04:46Z",
+    "last_verified_utc": "2026-08-14T02:47:45Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8145,7 +8047,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-13T22:05:06Z",
+  "generated_at_utc": "2026-08-14T02:48:08Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9541,13 +9443,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.620499,
-        "brier": 0.227109,
-        "ece": 0.041871,
-        "log_loss": 0.644195
+        "accuracy": 0.620166,
+        "brier": 0.22735,
+        "ece": 0.040232,
+        "log_loss": 0.644702
       },
-      "rows": 1082,
-      "test_rows": 722
+      "rows": 1084,
+      "test_rows": 724
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -9561,13 +9463,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.624654,
-        "brier": 0.225797,
-        "ece": 0.022153,
-        "log_loss": 0.642084
+        "accuracy": 0.621547,
+        "brier": 0.225874,
+        "ece": 0.027403,
+        "log_loss": 0.642164
       },
       "promotion_passed": false,
-      "rows": 722
+      "rows": 724
     },
     "champion": {
       "blend_weight": 0.5,
@@ -9610,7 +9512,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-13T22:05:06Z",
+    "generated_at_utc": "2026-08-14T02:48:07Z",
     "history": [
       {
         "champion": {
@@ -9665,8 +9567,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
-      "online_rows": 325,
+      "new_rows": 2,
+      "online_rows": 327,
       "seed_rows": 757
     }
   },
@@ -9996,9 +9898,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396580",
       "hltv:2396579",
       "hltv:2396625",
-      "hltv:2396626"
+      "hltv:2396626",
+      "hltv:2396800",
+      "hltv:2396801"
     ],
-    "last_online_update_utc": "2026-08-13T22:05:06Z",
+    "last_online_update_utc": "2026-08-14T02:48:08Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -13848,9 +13752,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 179
       },
       {
-        "elo": 1500.0,
-        "matches": 0,
-        "recent_win_rate_10": 0.5,
+        "elo": 1486.36,
+        "last_result_utc": "2026-08-14T02:48:08Z",
+        "matches": 1,
+        "recent_win_rate_10": 0.4091,
         "team_key": "metanoia wolves",
         "team_name": "METANOIA Wolves",
         "vrs_points": 795.0,
@@ -13876,9 +13781,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 182
       },
       {
-        "elo": 1500.0,
-        "matches": 0,
-        "recent_win_rate_10": 0.5,
+        "elo": 1513.64,
+        "last_result_utc": "2026-08-14T02:48:08Z",
+        "matches": 1,
+        "recent_win_rate_10": 0.5909,
         "team_key": "pain academy",
         "team_name": "paiN Academy",
         "vrs_points": 783.0,
@@ -14235,10 +14141,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 227
       },
       {
-        "elo": 1484.88,
-        "last_result_utc": "2026-07-26T21:30:18Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.4091,
+        "elo": 1499.11,
+        "last_result_utc": "2026-08-14T02:48:08Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.5165,
         "team_key": "alka",
         "team_name": "ALKA",
         "vrs_points": 693.0,
@@ -15093,9 +14999,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 327
       },
       {
-        "elo": 1500.0,
-        "matches": 0,
-        "recent_win_rate_10": 0.5,
+        "elo": 1485.77,
+        "last_result_utc": "2026-08-14T02:48:08Z",
+        "matches": 1,
+        "recent_win_rate_10": 0.4091,
         "team_key": "pugdesonesto",
         "team_name": "Pugdesonesto",
         "vrs_points": 506.0,
@@ -19538,86 +19445,17 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.548,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.452,
-      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-      "event_name": "CCT 2026 Challengers South America Series 2",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-13",
-      "match_id": "hltv:2396800",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786664700,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "ALKA",
-      "prob_team1": 0.452,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396800/pugdesonesto-vs-alka-cct-2026-challengers-south-america-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-13T23:45:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Pugdesonesto",
-      "team1_vrs_rank": 328,
-      "team2_hltv_rank": null,
-      "team2_name": "ALKA",
-      "team2_vrs_rank": 228
-    },
-    {
-      "confidence": 0.5059,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5059,
-      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-      "event_name": "CCT 2026 Challengers South America Series 2",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-13",
-      "match_id": "hltv:2396801",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786664700,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "METANOIA Wolves",
-      "prob_team1": 0.5059,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396801/metanoia-wolves-vs-pain-academy-cct-2026-challengers-south-america-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-13T23:45:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "METANOIA Wolves",
-      "team1_vrs_rank": 180,
-      "team2_hltv_rank": null,
-      "team2_name": "paiN Academy",
-      "team2_vrs_rank": 183
-    },
-    {
       "confidence": 0.5632,
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.5632,
-      "event_id": "hltv:9323",
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-14",
@@ -19647,10 +19485,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.2536,
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-14",
@@ -19680,10 +19521,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.5314,
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-14",
@@ -20171,6 +20015,72 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 144
     },
     {
+      "confidence": 0.5342,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5342,
+      "event_id": "hltv:9313",
+      "event_name": "CCT 2026 Challengers South America Series 2",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-14",
+      "match_id": "hltv:2396803",
+      "match_phase": "scheduled",
+      "match_timestamp": 1786741200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Pugdesonesto",
+      "prob_team1": 0.5342,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396803/pugdesonesto-vs-quintessncia-cct-2026-challengers-south-america-series-2",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-14T21:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Pugdesonesto",
+      "team1_vrs_rank": 328,
+      "team2_hltv_rank": null,
+      "team2_name": "QUINTESS\u00caNCIA",
+      "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.5456,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5456,
+      "event_id": "hltv:9313",
+      "event_name": "CCT 2026 Challengers South America Series 2",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-14",
+      "match_id": "hltv:2396804",
+      "match_phase": "scheduled",
+      "match_timestamp": 1786751100,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "METANOIA Wolves",
+      "prob_team1": 0.5456,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396804/metanoia-wolves-vs-meia-noite-cct-2026-challengers-south-america-series-2",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-14T23:45:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "METANOIA Wolves",
+      "team1_vrs_rank": 180,
+      "team2_hltv_rank": null,
+      "team2_name": "MEIA NOITE",
+      "team2_vrs_rank": null
+    },
+    {
       "confidence": 0.6631,
       "confidence_label": "watch",
       "data_quality": "full",
@@ -20339,7 +20249,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 74,
-    "online_results_applied": 1,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
