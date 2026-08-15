@@ -3980,7 +3980,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:cct-2026-challengers-south-america-series-2",
       "event_name": "CCT 2026 Challengers South America Series 2",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396803",
       "lineups": {
         "team1": [],
@@ -4006,21 +4006,84 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Cache",
-        "Inferno",
-        "Dust2"
-      ],
+      "maps": [],
       "match_id": "hltv:2396803",
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396803/pugdesonesto-vs-quintessncia-cct-2026-challengers-south-america-series-2",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Pugdesonesto",
+      "team2_name": "QUINTESSÊNCIA",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final",
+      "winner_name": "QUINTESSÊNCIA"
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+      "event_name": "CCT 2026 Challengers South America Series 2",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396804",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 7,
+          "status": "finished"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 15,
+          "score2": 15,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Mirage",
+        "Ancient"
+      ],
+      "match_id": "hltv:2396804",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396804/metanoia-wolves-vs-meia-noite-cct-2026-challengers-south-america-series-2",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "Pugdesonesto",
-      "team2_name": "QUINTESSÊNCIA",
+      "team1_name": "METANOIA Wolves",
+      "team2_name": "MEIA NOITE",
       "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396844",
+      "maps": [],
+      "match_id": "hltv:2396844",
+      "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396844/noir-verse-vs-entropy-cct-2026-challengers-europe-series-5",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Noir Verse",
+      "team2_name": "Entropy",
+      "winner_name": "Noir Verse"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -4144,27 +4207,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-      "event_name": "CCT 2026 Challengers South America Series 2",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396804",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396804",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396804/metanoia-wolves-vs-meia-noite-cct-2026-challengers-south-america-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-14T23:45:00Z",
-      "status": "upcoming",
-      "team1_name": "METANOIA Wolves",
-      "team2_name": "MEIA NOITE",
-      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
-    },
-    {
       "event_id": "hltv:9323",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "event_url": null,
@@ -4202,10 +4244,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Group D upper bracket semi-final. Winner advances to the playoffs."
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396590",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396590",
       "product_tier": "tier_1",
@@ -4215,7 +4261,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-15T11:00:00Z",
       "status": "live",
       "team1_name": "Wildcard",
-      "team2_name": "paiN"
+      "team2_name": "paiN",
+      "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket round 1"
     },
     {
       "event_id": "hltv:9321",
@@ -4234,22 +4281,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "LPH"
     },
     {
-      "event_id": "hltv:9321",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396844",
-      "maps": [],
-      "match_id": "hltv:2396844",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396844/noir-verse-vs-entropy-cct-2026-challengers-europe-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-15T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Noir Verse",
-      "team2_name": "Entropy"
-    },
-    {
       "event_id": "hltv:9323",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "event_url": null,
@@ -4264,6 +4295,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "Honvéd",
       "team2_name": "Inner Circle Academy"
+    },
+    {
+      "event_id": "hltv:9321",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396846",
+      "maps": [],
+      "match_id": "hltv:2396846",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396846/ex-mana-vs-misa-cct-2026-challengers-europe-series-5",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-15T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ex-MANA",
+      "team2_name": "Misa"
     },
     {
       "event_id": "hltv:9261",
@@ -4344,22 +4391,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "ex-Sashi Academy",
       "team2_name": "SAW Youngsters"
-    },
-    {
-      "event_id": "hltv:9321",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396846",
-      "maps": [],
-      "match_id": "hltv:2396846",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396846/ex-mana-vs-misa-cct-2026-challengers-europe-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-15T13:45:00Z",
-      "status": "upcoming",
-      "team1_name": "ex-MANA",
-      "team2_name": "Misa"
     },
     {
       "event_id": "hltv:8261",
@@ -6207,6 +6238,27 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:esports-world-cup-2026",
           "event_name": "Esports World Cup 2026",
           "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396590",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396590",
+          "product_tier": "pending",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396590/wildcard-vs-pain-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-15T11:00:00Z",
+          "status": "live",
+          "team1_name": "Wildcard",
+          "team2_name": "paiN",
+          "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket round 1"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2396587",
           "lineups": {
             "team1": [],
@@ -6698,29 +6750,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Spirit",
           "team2_name": "JiJieHao",
           "winner_name": "JiJieHao"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396569",
-          "maps": [],
-          "match_id": "hltv:2396569",
-          "product_tier": "tier_1",
-          "score1": 13,
-          "score2": 10,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396569/fut-vs-tyloo-esports-world-cup-2026",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "FUT",
-          "team2_name": "TYLOO",
-          "winner_name": "FUT"
         }
       ],
       "name": "Esports World Cup 2026",
       "participants": [
+        "Wildcard",
+        "paiN",
         "The MongolZ",
         "Natus Vincere",
         "PARIVISION",
@@ -6748,8 +6783,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "GamerLegion",
         "JiJieHao",
         "9z",
-        "paiN",
-        "Wildcard",
         "FURIA",
         "3DMAX",
         "magic"
@@ -6768,22 +6801,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:8261",
       "matches": [
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396590",
-          "maps": [],
-          "match_id": "hltv:2396590",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396590/wildcard-vs-pain-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-15T11:00:00Z",
-          "status": "live",
-          "team1_name": "Wildcard",
-          "team2_name": "paiN"
-        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -6915,8 +6932,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "Wildcard",
-        "paiN",
         "FURIA",
         "9z",
         "magic",
@@ -7282,25 +7297,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "ex-RUSTEC",
           "team2_name": "SAW Youngsters",
           "winner_name": "ex-RUSTEC"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396619",
-          "maps": [],
-          "match_id": "hltv:2396619",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396619/bushido-wildcats-vs-ex-mana-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Bushido Wildcats",
-          "team2_name": "ex-MANA",
-          "winner_name": "Bushido Wildcats"
         }
       ],
       "name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7466,23 +7462,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-challengers-south-america-series-2",
           "event_name": "CCT 2026 Challengers South America Series 2",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396804",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
+          "event_url": null,
+          "hltv_match_id": "2396803",
           "maps": [],
-          "match_id": "hltv:2396804",
+          "match_id": "hltv:2396803",
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396804/metanoia-wolves-vs-meia-noite-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-14T23:45:00Z",
-          "status": "upcoming",
-          "team1_name": "METANOIA Wolves",
-          "team2_name": "MEIA NOITE",
-          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+          "source_url": "https://www.hltv.org/matches/2396803/pugdesonesto-vs-quintessncia-cct-2026-challengers-south-america-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Pugdesonesto",
+          "team2_name": "QUINTESSÊNCIA",
+          "winner_name": "QUINTESSÊNCIA"
         },
         {
           "event_id": "hltv:cct-2026-challengers-south-america-series-2",
@@ -7526,59 +7520,59 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:cct-2026-challengers-south-america-series-2",
           "event_name": "CCT 2026 Challengers South America Series 2",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396803",
+          "hltv_match_id": "2396804",
           "lineups": {
             "team1": [],
             "team2": []
           },
           "map_results": [
             {
-              "map_name": "Cache",
-              "score1": 5,
+              "map_name": "Dust2",
+              "score1": 13,
               "score2": 7,
               "status": "finished"
             },
             {
-              "map_name": "Inferno",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "map_name": "Mirage",
+              "score1": 15,
+              "score2": 15,
+              "status": "finished"
             },
             {
-              "map_name": "Dust2",
+              "map_name": "Ancient",
               "score1": null,
               "score2": null,
               "status": "upcoming"
             }
           ],
           "maps": [
-            "Cache",
-            "Inferno",
-            "Dust2"
+            "Dust2",
+            "Mirage",
+            "Ancient"
           ],
-          "match_id": "hltv:2396803",
+          "match_id": "hltv:2396804",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396803/pugdesonesto-vs-quintessncia-cct-2026-challengers-south-america-series-2",
+          "source_url": "https://www.hltv.org/matches/2396804/metanoia-wolves-vs-meia-noite-cct-2026-challengers-south-america-series-2",
           "stage_name": "Scheduled series",
           "starts_at": null,
           "status": "live",
-          "team1_name": "Pugdesonesto",
-          "team2_name": "QUINTESSÊNCIA",
+          "team1_name": "METANOIA Wolves",
+          "team2_name": "MEIA NOITE",
           "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
         }
       ],
       "name": "CCT 2026 Challengers South America Series 2",
       "participants": [
-        "METANOIA Wolves",
-        "MEIA NOITE",
         "Pugdesonesto",
+        "QUINTESSÊNCIA",
         "ALKA",
+        "METANOIA Wolves",
         "paiN Academy",
-        "QUINTESSÊNCIA"
+        "MEIA NOITE"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
+      "source_url": null,
       "status": "ongoing"
     },
     {
@@ -7611,17 +7605,17 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9321",
           "event_name": "CCT 2026 Challengers Europe Series 5",
           "event_url": null,
-          "hltv_match_id": "2396844",
+          "hltv_match_id": "2396846",
           "maps": [],
-          "match_id": "hltv:2396844",
+          "match_id": "hltv:2396846",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396844/noir-verse-vs-entropy-cct-2026-challengers-europe-series-5",
+          "source_url": "https://www.hltv.org/matches/2396846/ex-mana-vs-misa-cct-2026-challengers-europe-series-5",
           "stage_name": "Scheduled series",
           "starts_at": "2026-08-15T11:00:00Z",
           "status": "upcoming",
-          "team1_name": "Noir Verse",
-          "team2_name": "Entropy"
+          "team1_name": "ex-MANA",
+          "team2_name": "Misa"
         },
         {
           "event_id": "hltv:9321",
@@ -7638,22 +7632,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "ex-Sashi Academy",
           "team2_name": "SAW Youngsters"
-        },
-        {
-          "event_id": "hltv:9321",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396846",
-          "maps": [],
-          "match_id": "hltv:2396846",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396846/ex-mana-vs-misa-cct-2026-challengers-europe-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-15T13:45:00Z",
-          "status": "upcoming",
-          "team1_name": "ex-MANA",
-          "team2_name": "Misa"
         },
         {
           "event_id": "hltv:9321",
@@ -7724,12 +7702,10 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "participants": [
         "Atreides",
         "LPH",
-        "Noir Verse",
-        "Entropy",
-        "ex-Sashi Academy",
-        "SAW Youngsters",
         "ex-MANA",
         "Misa",
+        "ex-Sashi Academy",
+        "SAW Youngsters",
         "ENCE",
         "WBT",
         "Bushido Wildcats",
@@ -8080,9 +8056,48 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:cct-2026-challengers-europe-series-5",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-5",
+          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396844",
+          "maps": [],
+          "match_id": "hltv:2396844",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396844/noir-verse-vs-entropy-cct-2026-challengers-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Noir Verse",
+          "team2_name": "Entropy",
+          "winner_name": "Noir Verse"
+        }
+      ],
+      "name": "CCT 2026 Challengers Europe Series 5",
+      "participants": [
+        "Noir Verse",
+        "Entropy"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-14T21:42:32Z",
+  "last_verified_utc": "2026-08-15T01:50:50Z",
   "sources": [
     {
       "name": "HLTV events calendar",
