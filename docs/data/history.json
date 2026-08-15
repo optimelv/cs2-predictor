@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-15T18:49:12Z",
+  "generated_at_utc": "2026-08-15T21:36:04Z",
   "through_date": "2026-08-15",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1359,
+    "matches": 1364,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1606,6 +1606,116 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "SAW Youngsters",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396591",
+      "match_date": "2026-08-15",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "Spirit",
+      "team2_name": "BIG",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396830",
+      "match_date": "2026-08-15",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+      "team1_name": "EAC",
+      "team2_name": "ex-MANA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "EAC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396828",
+      "match_date": "2026-08-15",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+      "team1_name": "INOX Division",
+      "team2_name": "Misa",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "INOX Division",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396829",
+      "match_date": "2026-08-15",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+      "team1_name": "BAKS",
+      "team2_name": "BASEMENT BOYS",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "BASEMENT BOYS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396831",
+      "match_date": "2026-08-15",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+      "team1_name": "Lavked",
+      "team2_name": "OG",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Lavked",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
