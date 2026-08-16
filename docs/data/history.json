@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-16T13:03:04Z",
+  "generated_at_utc": "2026-08-16T15:36:26Z",
   "through_date": "2026-08-16",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1371,
+    "matches": 1375,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1364,6 +1364,94 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396595",
+      "match_date": "2026-08-16",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "MOUZ",
+      "team2_name": "PARIVISION",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396849",
+      "match_date": "2026-08-16",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "Mai Tai",
+      "team2_name": "BERG",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Mai Tai",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396833",
+      "match_date": "2026-08-16",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+      "team1_name": "EAC",
+      "team2_name": "Lavked",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "EAC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396847",
+      "match_date": "2026-08-16",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "ENCE",
+      "team2_name": "WBT",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "WBT",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",

@@ -9,47 +9,91 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:9321",
+      "id": "hltv:9323",
       "matches": [
         {
-          "event_id": "hltv:9321",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_id": "hltv:9323",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396849",
+          "hltv_match_id": "2396638",
           "maps": [],
-          "match_id": "hltv:2396849",
+          "match_id": "hltv:2396638",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396849/mai-tai-vs-berg-cct-2026-challengers-europe-series-5",
+          "source_url": "https://www.hltv.org/matches/2396638/ex-sashi-academy-vs-inner-circle-academy-cct-2026-europe-series-7-closed-qualifier",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T13:45:00Z",
+          "starts_at": "2026-08-16T17:00:00Z",
           "status": "upcoming",
-          "team1_name": "Mai Tai",
-          "team2_name": "BERG"
+          "team1_name": "ex-Sashi Academy",
+          "team2_name": "Inner Circle Academy"
         },
         {
-          "event_id": "hltv:9321",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_id": "hltv:9323",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
           "event_url": null,
-          "hltv_match_id": "2396850",
+          "hltv_match_id": "2396637",
           "maps": [],
-          "match_id": "hltv:2396850",
+          "match_id": "hltv:2396637",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396850/honvd-vs-mellren-cct-2026-challengers-europe-series-5",
+          "source_url": "https://www.hltv.org/matches/2396637/unity-vs-misa-cct-2026-europe-series-7-closed-qualifier",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T13:45:00Z",
-          "status": "upcoming",
-          "team1_name": "Honvéd",
-          "team2_name": "mellren"
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "UNiTY",
+          "team2_name": "Misa"
         }
       ],
-      "name": "CCT 2026 Challengers Europe Series 5",
+      "name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "participants": [
-        "Mai Tai",
-        "BERG",
-        "Honvéd",
-        "mellren"
+        "ex-Sashi Academy",
+        "Inner Circle Academy",
+        "UNiTY",
+        "Misa"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "ongoing"
+    },
+    {
+      "current_stage": "Playoffs",
+      "format": {
+        "label": "Playoffs",
+        "settings": {},
+        "stages": [
+          {
+            "id": "playoffs",
+            "name": "Playoffs",
+            "order": 1,
+            "status": "pending",
+            "type": "single_elimination"
+          }
+        ],
+        "type": "mixed"
+      },
+      "id": "hltv:9313",
+      "matches": [
+        {
+          "event_id": "hltv:9313",
+          "event_name": "CCT 2026 Challengers South America Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396807",
+          "maps": [],
+          "match_id": "hltv:2396807",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396807/pain-academy-vs-quintessncia-cct-2026-challengers-south-america-series-2",
+          "stage_name": "Playoffs",
+          "starts_at": "2026-08-16T21:00:00Z",
+          "status": "upcoming",
+          "team1_name": "paiN Academy",
+          "team2_name": "QUINTESSÊNCIA"
+        }
+      ],
+      "name": "CCT 2026 Challengers South America Series 2",
+      "participants": [
+        "paiN Academy",
+        "QUINTESSÊNCIA"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -68,44 +112,21 @@
         {
           "event_id": "hltv:esports-world-cup-2026",
           "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2396595",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
           "maps": [],
           "match_id": "hltv:2396595",
-          "product_tier": "pending",
+          "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396595/mouz-vs-parivision-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T13:55:00Z",
-          "status": "live",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "MOUZ",
           "team2_name": "PARIVISION",
-          "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396597",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396597",
-          "product_tier": "pending",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396597/magic-vs-9z-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T13:55:00Z",
-          "status": "live",
-          "team1_name": "magic",
-          "team2_name": "9z",
-          "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
+          "winner_name": "MOUZ"
         },
         {
           "event_id": "hltv:esports-world-cup-2026",
@@ -372,14 +393,57 @@
           "team1_name": "Ninjas in Pyjamas",
           "team2_name": "BetBoom",
           "winner_name": "Ninjas in Pyjamas"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396597",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Ancient",
+              "score1": 19,
+              "score2": 17,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Ancient",
+            "Dust2",
+            "Inferno"
+          ],
+          "match_id": "hltv:2396597",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396597/magic-vs-9z-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "magic",
+          "team2_name": "9z",
+          "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
         }
       ],
       "name": "Esports World Cup 2026",
       "participants": [
         "MOUZ",
         "PARIVISION",
-        "magic",
-        "9z",
         "The MongolZ",
         "paiN",
         "Lynn Vision",
@@ -389,6 +453,8 @@
         "JiJieHao",
         "Aurora",
         "FURIA",
+        "9z",
+        "magic",
         "3DMAX",
         "Wildcard",
         "Natus Vincere",
@@ -402,380 +468,8 @@
         "BetBoom"
       ],
       "product_tier": "tier_1",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "ongoing"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:9323",
-      "matches": [
-        {
-          "event_id": "hltv:9323",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396637",
-          "maps": [],
-          "match_id": "hltv:2396637",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396637/unity-vs-misa-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T14:00:00Z",
-          "status": "upcoming",
-          "team1_name": "UNiTY",
-          "team2_name": "Misa"
-        },
-        {
-          "event_id": "hltv:9323",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396638",
-          "maps": [],
-          "match_id": "hltv:2396638",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396638/ex-sashi-academy-vs-inner-circle-academy-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ex-Sashi Academy",
-          "team2_name": "Inner Circle Academy"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "participants": [
-        "UNiTY",
-        "Misa",
-        "ex-Sashi Academy",
-        "Inner Circle Academy"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:8261",
-      "matches": [
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396593",
-          "maps": [],
-          "match_id": "hltv:2396593",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396593/legacy-vs-mibr-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T16:50:00Z",
-          "status": "live",
-          "team1_name": "Legacy",
-          "team2_name": "MIBR"
-        },
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396594",
-          "maps": [],
-          "match_id": "hltv:2396594",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396594/astralis-vs-ninjas-in-pyjamas-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T16:50:00Z",
-          "status": "live",
-          "team1_name": "Astralis",
-          "team2_name": "Ninjas in Pyjamas"
-        }
-      ],
-      "name": "Esports World Cup 2026",
-      "participants": [
-        "Legacy",
-        "MIBR",
-        "Astralis",
-        "Ninjas in Pyjamas"
-      ],
-      "product_tier": "tier_1",
       "source_url": null,
       "status": "ongoing"
-    },
-    {
-      "current_stage": "Playoffs",
-      "format": {
-        "label": "Playoffs",
-        "settings": {},
-        "stages": [
-          {
-            "id": "playoffs",
-            "name": "Playoffs",
-            "order": 1,
-            "status": "pending",
-            "type": "single_elimination"
-          }
-        ],
-        "type": "mixed"
-      },
-      "id": "hltv:9313",
-      "matches": [
-        {
-          "event_id": "hltv:9313",
-          "event_name": "CCT 2026 Challengers South America Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396807",
-          "maps": [],
-          "match_id": "hltv:2396807",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396807/pain-academy-vs-quintessncia-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Playoffs",
-          "starts_at": "2026-08-16T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "paiN Academy",
-          "team2_name": "QUINTESSÊNCIA"
-        }
-      ],
-      "name": "CCT 2026 Challengers South America Series 2",
-      "participants": [
-        "paiN Academy",
-        "QUINTESSÊNCIA"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-      "matches": [
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396636",
-          "maps": [],
-          "match_id": "hltv:2396636",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396636/berg-vs-havu-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "BERG",
-          "team2_name": "HAVU",
-          "winner_name": "HAVU"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396635",
-          "maps": [],
-          "match_id": "hltv:2396635",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396635/ex-mana-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ex-MANA",
-          "team2_name": "ex-RUSTEC",
-          "winner_name": "ex-RUSTEC"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396634",
-          "maps": [],
-          "match_id": "hltv:2396634",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396634/noir-verse-vs-ex-sashi-academy-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Noir Verse",
-          "team2_name": "ex-Sashi Academy",
-          "winner_name": "Noir Verse"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396633",
-          "maps": [],
-          "match_id": "hltv:2396633",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396633/enjoy-vs-unity-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Enjoy",
-          "team2_name": "UNiTY",
-          "winner_name": "Enjoy"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396632",
-          "maps": [],
-          "match_id": "hltv:2396632",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396632/honvd-vs-inner-circle-academy-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Honvéd",
-          "team2_name": "Inner Circle Academy",
-          "winner_name": "Inner Circle Academy"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396631",
-          "maps": [],
-          "match_id": "hltv:2396631",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396631/misa-vs-mai-tai-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Misa",
-          "team2_name": "Mai Tai",
-          "winner_name": "Misa"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396628",
-          "maps": [],
-          "match_id": "hltv:2396628",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396628/mai-tai-vs-unity-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Mai Tai",
-          "team2_name": "UNiTY",
-          "winner_name": "UNiTY"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396629",
-          "maps": [],
-          "match_id": "hltv:2396629",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396629/inner-circle-academy-vs-ex-sashi-academy-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Inner Circle Academy",
-          "team2_name": "ex-Sashi Academy",
-          "winner_name": "ex-Sashi Academy"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396630",
-          "maps": [],
-          "match_id": "hltv:2396630",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396630/honvd-vs-noir-verse-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Honvéd",
-          "team2_name": "Noir Verse",
-          "winner_name": "Noir Verse"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396627",
-          "maps": [],
-          "match_id": "hltv:2396627",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396627/enjoy-vs-misa-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Enjoy",
-          "team2_name": "Misa",
-          "winner_name": "Enjoy"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "participants": [
-        "BERG",
-        "HAVU",
-        "ex-MANA",
-        "ex-RUSTEC",
-        "Noir Verse",
-        "ex-Sashi Academy",
-        "Enjoy",
-        "UNiTY",
-        "Honvéd",
-        "Inner Circle Academy",
-        "Misa",
-        "Mai Tai"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -787,6 +481,44 @@
       },
       "id": "hltv:cct-2026-challengers-europe-series-5",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-5",
+          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396849",
+          "maps": [],
+          "match_id": "hltv:2396849",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396849/mai-tai-vs-berg-cct-2026-challengers-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Mai Tai",
+          "team2_name": "BERG",
+          "winner_name": "Mai Tai"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-5",
+          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396847",
+          "maps": [],
+          "match_id": "hltv:2396847",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396847/ence-vs-wbt-cct-2026-challengers-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ENCE",
+          "team2_name": "WBT",
+          "winner_name": "WBT"
+        },
         {
           "event_id": "hltv:cct-2026-challengers-europe-series-5",
           "event_name": "CCT 2026 Challengers Europe Series 5",
@@ -881,10 +613,59 @@
           "team1_name": "Noir Verse",
           "team2_name": "Entropy",
           "winner_name": "Noir Verse"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-5",
+          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396850",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": 11,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": 5,
+              "score2": 7,
+              "status": "finished"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Dust2",
+            "Mirage"
+          ],
+          "match_id": "hltv:2396850",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396850/honvd-vs-mellren-cct-2026-challengers-europe-series-5",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Honvéd",
+          "team2_name": "mellren",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 5",
       "participants": [
+        "Mai Tai",
+        "BERG",
+        "ENCE",
+        "WBT",
         "Bushido Wildcats",
         "Fortress",
         "ex-Sashi Academy",
@@ -894,130 +675,13 @@
         "ex-MANA",
         "Misa",
         "Noir Verse",
-        "Entropy"
+        "Entropy",
+        "Honvéd",
+        "mellren"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:cct-2026-challengers-south-america-series-2",
-      "matches": [
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-          "event_name": "CCT 2026 Challengers South America Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396806",
-          "maps": [],
-          "match_id": "hltv:2396806",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396806/quintessncia-vs-metanoia-wolves-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "QUINTESSÊNCIA",
-          "team2_name": "METANOIA Wolves",
-          "winner_name": "QUINTESSÊNCIA"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-          "event_name": "CCT 2026 Challengers South America Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396805",
-          "maps": [],
-          "match_id": "hltv:2396805",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396805/pain-academy-vs-alka-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "paiN Academy",
-          "team2_name": "ALKA",
-          "winner_name": "ALKA"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-          "event_name": "CCT 2026 Challengers South America Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396804",
-          "maps": [],
-          "match_id": "hltv:2396804",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396804/metanoia-wolves-vs-meia-noite-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "METANOIA Wolves",
-          "team2_name": "MEIA NOITE",
-          "winner_name": "METANOIA Wolves"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-          "event_name": "CCT 2026 Challengers South America Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396803",
-          "maps": [],
-          "match_id": "hltv:2396803",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396803/pugdesonesto-vs-quintessncia-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Pugdesonesto",
-          "team2_name": "QUINTESSÊNCIA",
-          "winner_name": "QUINTESSÊNCIA"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-          "event_name": "CCT 2026 Challengers South America Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396800",
-          "maps": [],
-          "match_id": "hltv:2396800",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396800/pugdesonesto-vs-alka-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Pugdesonesto",
-          "team2_name": "ALKA",
-          "winner_name": "ALKA"
-        }
-      ],
-      "name": "CCT 2026 Challengers South America Series 2",
-      "participants": [
-        "QUINTESSÊNCIA",
-        "METANOIA Wolves",
-        "paiN Academy",
-        "ALKA",
-        "MEIA NOITE",
-        "Pugdesonesto"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -1029,6 +693,25 @@
       },
       "id": "hltv:esl-challenger-league-season-52-europe-cup-3",
       "matches": [
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
+          "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+          "event_url": null,
+          "hltv_match_id": "2396833",
+          "maps": [],
+          "match_id": "hltv:2396833",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396833/eac-vs-lavked-esl-challenger-league-season-52-europe-cup-3",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "EAC",
+          "team2_name": "Lavked",
+          "winner_name": "EAC"
+        },
         {
           "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
           "event_name": "ESL Challenger League Season 52 Europe Cup 3",
@@ -1484,83 +1167,17 @@
           "team1_name": "OG",
           "team2_name": "Privateer",
           "winner_name": "OG"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396832",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396832",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396832/inox-division-vs-basement-boys-esl-challenger-league-season-52-europe-cup-3",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "INOX Division",
-          "team2_name": "BASEMENT BOYS",
-          "veto_text": "Best of 3 (Online)\n\n* Semi-final"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396833",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Nuke",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Ancient",
-            "Mirage",
-            "Nuke"
-          ],
-          "match_id": "hltv:2396833",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396833/eac-vs-lavked-esl-challenger-league-season-52-europe-cup-3",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "EAC",
-          "team2_name": "Lavked",
-          "veto_text": "Best of 3 (Online)\n\n* Semi-final"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 3",
       "participants": [
         "EAC",
+        "Lavked",
         "ex-MANA",
         "INOX Division",
         "Misa",
         "BAKS",
         "BASEMENT BOYS",
-        "Lavked",
         "OG",
         "MOUZ NXT",
         "Leo",
@@ -1573,133 +1190,388 @@
       ],
       "product_tier": "tier_2",
       "source_url": null,
+      "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396636",
+          "maps": [],
+          "match_id": "hltv:2396636",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396636/berg-vs-havu-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "BERG",
+          "team2_name": "HAVU",
+          "winner_name": "HAVU"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396635",
+          "maps": [],
+          "match_id": "hltv:2396635",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396635/ex-mana-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ex-MANA",
+          "team2_name": "ex-RUSTEC",
+          "winner_name": "ex-RUSTEC"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396634",
+          "maps": [],
+          "match_id": "hltv:2396634",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396634/noir-verse-vs-ex-sashi-academy-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Noir Verse",
+          "team2_name": "ex-Sashi Academy",
+          "winner_name": "Noir Verse"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396633",
+          "maps": [],
+          "match_id": "hltv:2396633",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396633/enjoy-vs-unity-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Enjoy",
+          "team2_name": "UNiTY",
+          "winner_name": "Enjoy"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396632",
+          "maps": [],
+          "match_id": "hltv:2396632",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396632/honvd-vs-inner-circle-academy-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Honvéd",
+          "team2_name": "Inner Circle Academy",
+          "winner_name": "Inner Circle Academy"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396631",
+          "maps": [],
+          "match_id": "hltv:2396631",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396631/misa-vs-mai-tai-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Misa",
+          "team2_name": "Mai Tai",
+          "winner_name": "Misa"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396628",
+          "maps": [],
+          "match_id": "hltv:2396628",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396628/mai-tai-vs-unity-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Mai Tai",
+          "team2_name": "UNiTY",
+          "winner_name": "UNiTY"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396629",
+          "maps": [],
+          "match_id": "hltv:2396629",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396629/inner-circle-academy-vs-ex-sashi-academy-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Inner Circle Academy",
+          "team2_name": "ex-Sashi Academy",
+          "winner_name": "ex-Sashi Academy"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2396630",
+          "maps": [],
+          "match_id": "hltv:2396630",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396630/honvd-vs-noir-verse-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Honvéd",
+          "team2_name": "Noir Verse",
+          "winner_name": "Noir Verse"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "participants": [
+        "BERG",
+        "HAVU",
+        "ex-MANA",
+        "ex-RUSTEC",
+        "Noir Verse",
+        "ex-Sashi Academy",
+        "Enjoy",
+        "UNiTY",
+        "Honvéd",
+        "Inner Circle Academy",
+        "Misa",
+        "Mai Tai"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:cct-2026-challengers-south-america-series-2",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+          "event_name": "CCT 2026 Challengers South America Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396806",
+          "maps": [],
+          "match_id": "hltv:2396806",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396806/quintessncia-vs-metanoia-wolves-cct-2026-challengers-south-america-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "QUINTESSÊNCIA",
+          "team2_name": "METANOIA Wolves",
+          "winner_name": "QUINTESSÊNCIA"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+          "event_name": "CCT 2026 Challengers South America Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396805",
+          "maps": [],
+          "match_id": "hltv:2396805",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396805/pain-academy-vs-alka-cct-2026-challengers-south-america-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "paiN Academy",
+          "team2_name": "ALKA",
+          "winner_name": "ALKA"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+          "event_name": "CCT 2026 Challengers South America Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396804",
+          "maps": [],
+          "match_id": "hltv:2396804",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396804/metanoia-wolves-vs-meia-noite-cct-2026-challengers-south-america-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "METANOIA Wolves",
+          "team2_name": "MEIA NOITE",
+          "winner_name": "METANOIA Wolves"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+          "event_name": "CCT 2026 Challengers South America Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396803",
+          "maps": [],
+          "match_id": "hltv:2396803",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396803/pugdesonesto-vs-quintessncia-cct-2026-challengers-south-america-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Pugdesonesto",
+          "team2_name": "QUINTESSÊNCIA",
+          "winner_name": "QUINTESSÊNCIA"
+        }
+      ],
+      "name": "CCT 2026 Challengers South America Series 2",
+      "participants": [
+        "QUINTESSÊNCIA",
+        "METANOIA Wolves",
+        "paiN Academy",
+        "ALKA",
+        "MEIA NOITE",
+        "Pugdesonesto"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "finished"
+    },
+    {
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:semifinal",
+            "matches": [
+              {
+                "event_id": "hltv:9261",
+                "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2396832",
+                "maps": [],
+                "match_id": "hltv:2396832",
+                "product_tier": "tier_2",
+                "round_name": "Semifinal",
+                "series_format": "bo3",
+                "slot_id": "main:semifinal:1",
+                "source_url": "https://www.hltv.org/matches/2396832/inox-division-vs-basement-boys-esl-challenger-league-season-52-europe-cup-3",
+                "stage_name": "Semifinal",
+                "starts_at": null,
+                "status": "live",
+                "team1_name": "INOX Division",
+                "team2_name": "BASEMENT BOYS"
+              }
+            ],
+            "name": "Semifinal",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Semifinal",
+      "format": {
+        "label": "Semifinal",
+        "settings": {},
+        "stages": [
+          {
+            "id": "semifinal",
+            "name": "Semifinal",
+            "order": 1,
+            "status": "live",
+            "type": "single_elimination"
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "id": "hltv:9261",
+      "matches": [
+        {
+          "event_id": "hltv:9261",
+          "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+          "event_url": null,
+          "hltv_match_id": "2396832",
+          "maps": [],
+          "match_id": "hltv:2396832",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396832/inox-division-vs-basement-boys-esl-challenger-league-season-52-europe-cup-3",
+          "stage_name": "Semifinal",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "INOX Division",
+          "team2_name": "BASEMENT BOYS"
+        }
+      ],
+      "name": "ESL Challenger League Season 52 Europe Cup 3",
+      "participants": [
+        "INOX Division",
+        "BASEMENT BOYS"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
       "status": "ongoing"
     }
   ],
-  "fetched_at_utc": "2026-08-16T13:03:04Z",
+  "fetched_at_utc": "2026-08-16T15:36:26Z",
   "matches": [
-    {
-      "event_id": "hltv:9321",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396849",
-      "maps": [],
-      "match_id": "hltv:2396849",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396849/mai-tai-vs-berg-cct-2026-challengers-europe-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-16T13:45:00Z",
-      "status": "upcoming",
-      "team1_name": "Mai Tai",
-      "team2_name": "BERG"
-    },
-    {
-      "event_id": "hltv:9321",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396850",
-      "maps": [],
-      "match_id": "hltv:2396850",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396850/honvd-vs-mellren-cct-2026-challengers-europe-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-16T13:45:00Z",
-      "status": "upcoming",
-      "team1_name": "Honvéd",
-      "team2_name": "mellren"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026",
-      "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396595",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396595",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396595/mouz-vs-parivision-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-16T13:55:00Z",
-      "status": "live",
-      "team1_name": "MOUZ",
-      "team2_name": "PARIVISION",
-      "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026",
-      "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396597",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396597",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396597/magic-vs-9z-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-16T13:55:00Z",
-      "status": "live",
-      "team1_name": "magic",
-      "team2_name": "9z",
-      "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
-    },
-    {
-      "event_id": "hltv:9323",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396637",
-      "maps": [],
-      "match_id": "hltv:2396637",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396637/unity-vs-misa-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-16T14:00:00Z",
-      "status": "upcoming",
-      "team1_name": "UNiTY",
-      "team2_name": "Misa"
-    },
-    {
-      "event_id": "hltv:8261",
-      "event_name": "Esports World Cup 2026",
-      "event_url": null,
-      "hltv_match_id": "2396593",
-      "maps": [],
-      "match_id": "hltv:2396593",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396593/legacy-vs-mibr-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-16T16:50:00Z",
-      "status": "live",
-      "team1_name": "Legacy",
-      "team2_name": "MIBR"
-    },
-    {
-      "event_id": "hltv:8261",
-      "event_name": "Esports World Cup 2026",
-      "event_url": null,
-      "hltv_match_id": "2396594",
-      "maps": [],
-      "match_id": "hltv:2396594",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396594/astralis-vs-ninjas-in-pyjamas-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-16T16:50:00Z",
-      "status": "live",
-      "team1_name": "Astralis",
-      "team2_name": "Ninjas in Pyjamas"
-    },
     {
       "event_id": "hltv:9323",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -1731,6 +1603,25 @@
       "status": "upcoming",
       "team1_name": "paiN Academy",
       "team2_name": "QUINTESSÊNCIA"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026",
+      "event_name": "Esports World Cup 2026",
+      "event_url": null,
+      "hltv_match_id": "2396595",
+      "maps": [],
+      "match_id": "hltv:2396595",
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396595/mouz-vs-parivision-esports-world-cup-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "MOUZ",
+      "team2_name": "PARIVISION",
+      "winner_name": "MOUZ"
     },
     {
       "event_id": "hltv:esports-world-cup-2026",
@@ -1883,6 +1774,63 @@
       "team1_name": "The MongolZ",
       "team2_name": "Natus Vincere",
       "winner_name": "Natus Vincere"
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396849",
+      "maps": [],
+      "match_id": "hltv:2396849",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396849/mai-tai-vs-berg-cct-2026-challengers-europe-series-5",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Mai Tai",
+      "team2_name": "BERG",
+      "winner_name": "Mai Tai"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+      "event_url": null,
+      "hltv_match_id": "2396833",
+      "maps": [],
+      "match_id": "hltv:2396833",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396833/eac-vs-lavked-esl-challenger-league-season-52-europe-cup-3",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "EAC",
+      "team2_name": "Lavked",
+      "winner_name": "EAC"
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396847",
+      "maps": [],
+      "match_id": "hltv:2396847",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396847/ence-vs-wbt-cct-2026-challengers-europe-series-5",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "ENCE",
+      "team2_name": "WBT",
+      "winner_name": "WBT"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
@@ -2797,69 +2745,10 @@
       "winner_name": "Ninjas in Pyjamas"
     },
     {
-      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396627",
-      "maps": [],
-      "match_id": "hltv:2396627",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396627/enjoy-vs-misa-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Enjoy",
-      "team2_name": "Misa",
-      "winner_name": "Enjoy"
-    },
-    {
-      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-      "event_name": "CCT 2026 Challengers South America Series 2",
-      "event_url": null,
-      "hltv_match_id": "2396800",
-      "maps": [],
-      "match_id": "hltv:2396800",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396800/pugdesonesto-vs-alka-cct-2026-challengers-south-america-series-2",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Pugdesonesto",
-      "team2_name": "ALKA",
-      "winner_name": "ALKA"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+      "event_id": "hltv:esports-world-cup-2026",
+      "event_name": "Esports World Cup 2026",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396832",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396832",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396832/inox-division-vs-basement-boys-esl-challenger-league-season-52-europe-cup-3",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_name": "INOX Division",
-      "team2_name": "BASEMENT BOYS",
-      "veto_text": "Best of 3 (Online)\n\n* Semi-final"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396833",
+      "hltv_match_id": "2396597",
       "lineups": {
         "team1": [],
         "team2": []
@@ -2867,18 +2756,18 @@
       "map_results": [
         {
           "map_name": "Ancient",
+          "score1": 19,
+          "score2": 17,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
           "score1": null,
           "score2": null,
           "status": "upcoming"
         },
         {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Nuke",
+          "map_name": "Inferno",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -2886,19 +2775,96 @@
       ],
       "maps": [
         "Ancient",
-        "Mirage",
-        "Nuke"
+        "Dust2",
+        "Inferno"
       ],
-      "match_id": "hltv:2396833",
-      "product_tier": "tier_2",
+      "match_id": "hltv:2396597",
+      "product_tier": "tier_1",
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396833/eac-vs-lavked-esl-challenger-league-season-52-europe-cup-3",
+      "source_url": "https://www.hltv.org/matches/2396597/magic-vs-9z-esports-world-cup-2026",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "EAC",
-      "team2_name": "Lavked",
-      "veto_text": "Best of 3 (Online)\n\n* Semi-final"
+      "team1_name": "magic",
+      "team2_name": "9z",
+      "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396850",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": 11,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 5,
+          "score2": 7,
+          "status": "finished"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Dust2",
+        "Mirage"
+      ],
+      "match_id": "hltv:2396850",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396850/honvd-vs-mellren-cct-2026-challengers-europe-series-5",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Honvéd",
+      "team2_name": "mellren",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+    },
+    {
+      "event_id": "hltv:9261",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+      "event_url": null,
+      "hltv_match_id": "2396832",
+      "maps": [],
+      "match_id": "hltv:2396832",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396832/inox-division-vs-basement-boys-esl-challenger-league-season-52-europe-cup-3",
+      "stage_name": "Semifinal",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "INOX Division",
+      "team2_name": "BASEMENT BOYS"
+    },
+    {
+      "event_id": "hltv:9323",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2396637",
+      "maps": [],
+      "match_id": "hltv:2396637",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396637/unity-vs-misa-cct-2026-europe-series-7-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "UNiTY",
+      "team2_name": "Misa"
     }
   ],
   "ok": true,
@@ -2910,37 +2876,30 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 14
+    "scheduled_matches": 12
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 9,
-    "matches_kept": 69,
+    "events_kept": 8,
+    "matches_kept": 66,
     "players_kept": 0,
     "event_tiers": {
-      "hltv:9321": "tier_2",
-      "hltv:esports-world-cup-2026": "tier_1",
       "hltv:9323": "tier_2",
-      "hltv:8261": "tier_1",
       "hltv:9313": "tier_2",
-      "hltv:cct-2026-europe-series-7-closed-qualifier": "tier_2",
+      "hltv:esports-world-cup-2026": "tier_1",
       "hltv:cct-2026-challengers-europe-series-5": "tier_2",
+      "hltv:esl-challenger-league-season-52-europe-cup-3": "tier_2",
+      "hltv:cct-2026-europe-series-7-closed-qualifier": "tier_2",
       "hltv:cct-2026-challengers-south-america-series-2": "tier_2",
-      "hltv:esl-challenger-league-season-52-europe-cup-3": "tier_2"
+      "hltv:9261": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2396849",
-      "hltv:2396850",
-      "hltv:2396595",
-      "hltv:2396597",
-      "hltv:2396637",
-      "hltv:2396593",
-      "hltv:2396594",
       "hltv:2396638",
       "hltv:2396807",
+      "hltv:2396595",
       "hltv:2396598",
       "hltv:2396596",
       "hltv:2396591",
@@ -2949,6 +2908,9 @@
       "hltv:2396589",
       "hltv:2396590",
       "hltv:2396587",
+      "hltv:2396849",
+      "hltv:2396833",
+      "hltv:2396847",
       "hltv:2396636",
       "hltv:2396848",
       "hltv:2396635",
@@ -2997,10 +2959,10 @@
       "hltv:2396630",
       "hltv:2396586",
       "hltv:2396582",
-      "hltv:2396627",
-      "hltv:2396800",
+      "hltv:2396597",
+      "hltv:2396850",
       "hltv:2396832",
-      "hltv:2396833"
+      "hltv:2396637"
     ]
   }
 }
