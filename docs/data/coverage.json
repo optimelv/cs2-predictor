@@ -4507,10 +4507,14 @@
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9323",
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396635",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396635",
       "product_tier": "tier_2",
@@ -4520,7 +4524,8 @@
       "starts_at": "2026-08-16T08:00:00Z",
       "status": "upcoming",
       "team1_name": "ex-MANA",
-      "team2_name": "ex-RUSTEC"
+      "team2_name": "ex-RUSTEC",
+      "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
     },
     {
       "event_id": "hltv:9323",
@@ -4592,9 +4597,9 @@
       "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396598",
       "lineups": {
         "team1": [],
@@ -4677,9 +4682,9 @@
       "team2_name": "mellren"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396595",
       "lineups": {
         "team1": [],
@@ -4698,9 +4703,9 @@
       "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396597",
       "lineups": {
         "team1": [],
@@ -6392,69 +6397,6 @@
         {
           "event_id": "hltv:esports-world-cup-2026",
           "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396598",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396598",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396598/the-mongolz-vs-pain-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T11:00:00Z",
-          "status": "live",
-          "team1_name": "The MongolZ",
-          "team2_name": "paiN",
-          "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396595",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396595",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396595/mouz-vs-parivision-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T13:55:00Z",
-          "status": "live",
-          "team1_name": "MOUZ",
-          "team2_name": "PARIVISION",
-          "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396597",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396597",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396597/magic-vs-9z-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T13:55:00Z",
-          "status": "live",
-          "team1_name": "magic",
-          "team2_name": "9z",
-          "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
           "event_url": null,
           "hltv_match_id": "2396591",
           "maps": [],
@@ -6723,25 +6665,25 @@
       "participants": [
         "Lynn Vision",
         "Vitality",
-        "The MongolZ",
-        "paiN",
-        "MOUZ",
-        "PARIVISION",
-        "magic",
-        "9z",
         "Spirit",
         "BIG",
         "JiJieHao",
         "Aurora",
         "FURIA",
+        "9z",
+        "magic",
         "3DMAX",
         "Wildcard",
+        "paiN",
+        "The MongolZ",
         "Natus Vincere",
+        "PARIVISION",
         "100 Thieves",
         "K27",
         "MIBR",
         "B8",
         "FUT",
+        "MOUZ",
         "TYLOO",
         "Ninjas in Pyjamas",
         "BetBoom",
@@ -6764,6 +6706,54 @@
       },
       "id": "hltv:8261",
       "matches": [
+        {
+          "event_id": "hltv:8261",
+          "event_name": "Esports World Cup 2026",
+          "event_url": null,
+          "hltv_match_id": "2396598",
+          "maps": [],
+          "match_id": "hltv:2396598",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396598/the-mongolz-vs-pain-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-16T11:00:00Z",
+          "status": "live",
+          "team1_name": "The MongolZ",
+          "team2_name": "paiN"
+        },
+        {
+          "event_id": "hltv:8261",
+          "event_name": "Esports World Cup 2026",
+          "event_url": null,
+          "hltv_match_id": "2396595",
+          "maps": [],
+          "match_id": "hltv:2396595",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396595/mouz-vs-parivision-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-16T13:55:00Z",
+          "status": "live",
+          "team1_name": "MOUZ",
+          "team2_name": "PARIVISION"
+        },
+        {
+          "event_id": "hltv:8261",
+          "event_name": "Esports World Cup 2026",
+          "event_url": null,
+          "hltv_match_id": "2396597",
+          "maps": [],
+          "match_id": "hltv:2396597",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396597/magic-vs-9z-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-16T13:55:00Z",
+          "status": "live",
+          "team1_name": "magic",
+          "team2_name": "9z"
+        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -6799,6 +6789,12 @@
       ],
       "name": "Esports World Cup 2026",
       "participants": [
+        "The MongolZ",
+        "paiN",
+        "MOUZ",
+        "PARIVISION",
+        "magic",
+        "9z",
         "Legacy",
         "MIBR",
         "Astralis",
@@ -6818,22 +6814,6 @@
       },
       "id": "hltv:9323",
       "matches": [
-        {
-          "event_id": "hltv:9323",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396635",
-          "maps": [],
-          "match_id": "hltv:2396635",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396635/ex-mana-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ex-MANA",
-          "team2_name": "ex-RUSTEC"
-        },
         {
           "event_id": "hltv:9323",
           "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -6885,8 +6865,6 @@
       ],
       "name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "participants": [
-        "ex-MANA",
-        "ex-RUSTEC",
         "BERG",
         "HAVU",
         "UNiTY",
@@ -6908,6 +6886,27 @@
       },
       "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396635",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396635",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396635/ex-mana-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-16T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-MANA",
+          "team2_name": "ex-RUSTEC",
+          "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
           "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7082,6 +7081,8 @@
       ],
       "name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "participants": [
+        "ex-MANA",
+        "ex-RUSTEC",
         "Noir Verse",
         "ex-Sashi Academy",
         "Enjoy",
@@ -7094,8 +7095,8 @@
         "HAVU"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     },
     {
       "current_stage": "Playoffs",
@@ -8075,7 +8076,7 @@
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-16T01:58:31Z",
+  "last_verified_utc": "2026-08-16T04:00:41Z",
   "sources": [
     {
       "name": "HLTV events calendar",

@@ -4508,10 +4508,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9323",
+        "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
         "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396635",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396635",
         "product_tier": "tier_2",
@@ -4521,7 +4525,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-16T08:00:00Z",
         "status": "upcoming",
         "team1_name": "ex-MANA",
-        "team2_name": "ex-RUSTEC"
+        "team2_name": "ex-RUSTEC",
+        "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
       },
       {
         "event_id": "hltv:9323",
@@ -4593,9 +4598,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396598",
         "lineups": {
           "team1": [],
@@ -4678,9 +4683,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "mellren"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396595",
         "lineups": {
           "team1": [],
@@ -4699,9 +4704,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396597",
         "lineups": {
           "team1": [],
@@ -6393,69 +6398,6 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:esports-world-cup-2026",
             "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396598",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396598",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396598/the-mongolz-vs-pain-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-16T11:00:00Z",
-            "status": "live",
-            "team1_name": "The MongolZ",
-            "team2_name": "paiN",
-            "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396595",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396595",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396595/mouz-vs-parivision-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-16T13:55:00Z",
-            "status": "live",
-            "team1_name": "MOUZ",
-            "team2_name": "PARIVISION",
-            "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396597",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396597",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396597/magic-vs-9z-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-16T13:55:00Z",
-            "status": "live",
-            "team1_name": "magic",
-            "team2_name": "9z",
-            "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
             "event_url": null,
             "hltv_match_id": "2396591",
             "maps": [],
@@ -6724,25 +6666,25 @@ window.__STRIKESIGNAL_DATA__ = {
         "participants": [
           "Lynn Vision",
           "Vitality",
-          "The MongolZ",
-          "paiN",
-          "MOUZ",
-          "PARIVISION",
-          "magic",
-          "9z",
           "Spirit",
           "BIG",
           "JiJieHao",
           "Aurora",
           "FURIA",
+          "9z",
+          "magic",
           "3DMAX",
           "Wildcard",
+          "paiN",
+          "The MongolZ",
           "Natus Vincere",
+          "PARIVISION",
           "100 Thieves",
           "K27",
           "MIBR",
           "B8",
           "FUT",
+          "MOUZ",
           "TYLOO",
           "Ninjas in Pyjamas",
           "BetBoom",
@@ -6765,6 +6707,54 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:8261",
         "matches": [
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396598",
+            "maps": [],
+            "match_id": "hltv:2396598",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396598/the-mongolz-vs-pain-esports-world-cup-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-16T11:00:00Z",
+            "status": "live",
+            "team1_name": "The MongolZ",
+            "team2_name": "paiN"
+          },
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396595",
+            "maps": [],
+            "match_id": "hltv:2396595",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396595/mouz-vs-parivision-esports-world-cup-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-16T13:55:00Z",
+            "status": "live",
+            "team1_name": "MOUZ",
+            "team2_name": "PARIVISION"
+          },
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396597",
+            "maps": [],
+            "match_id": "hltv:2396597",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396597/magic-vs-9z-esports-world-cup-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-16T13:55:00Z",
+            "status": "live",
+            "team1_name": "magic",
+            "team2_name": "9z"
+          },
           {
             "event_id": "hltv:8261",
             "event_name": "Esports World Cup 2026",
@@ -6800,6 +6790,12 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "Esports World Cup 2026",
         "participants": [
+          "The MongolZ",
+          "paiN",
+          "MOUZ",
+          "PARIVISION",
+          "magic",
+          "9z",
           "Legacy",
           "MIBR",
           "Astralis",
@@ -6819,22 +6815,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:9323",
         "matches": [
-          {
-            "event_id": "hltv:9323",
-            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396635",
-            "maps": [],
-            "match_id": "hltv:2396635",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396635/ex-mana-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-16T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "ex-MANA",
-            "team2_name": "ex-RUSTEC"
-          },
           {
             "event_id": "hltv:9323",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -6886,8 +6866,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "participants": [
-          "ex-MANA",
-          "ex-RUSTEC",
           "BERG",
           "HAVU",
           "UNiTY",
@@ -6909,6 +6887,27 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396635",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396635",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396635/ex-mana-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-16T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "ex-MANA",
+            "team2_name": "ex-RUSTEC",
+            "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7083,6 +7082,8 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "participants": [
+          "ex-MANA",
+          "ex-RUSTEC",
           "Noir Verse",
           "ex-Sashi Academy",
           "Enjoy",
@@ -7095,8 +7096,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "HAVU"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       },
       {
         "current_stage": "Playoffs",
@@ -8076,7 +8077,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-08-16T01:58:31Z",
+    "last_verified_utc": "2026-08-16T04:00:41Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8514,7 +8515,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-16T01:58:50Z",
+  "generated_at_utc": "2026-08-16T04:00:59Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -9979,7 +9980,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-16T01:58:50Z",
+    "generated_at_utc": "2026-08-16T04:00:58Z",
     "history": [
       {
         "champion": {
@@ -10034,7 +10035,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
+      "new_rows": 0,
       "online_rows": 379,
       "seed_rows": 757
     }
@@ -20020,10 +20021,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4328,
-      "event_id": "hltv:9323",
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-16",
@@ -20089,13 +20093,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.6754,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-16",
@@ -20356,13 +20357,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.7086,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-16",
@@ -20392,13 +20390,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.3663,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-16",
@@ -20592,7 +20587,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 74,
-    "online_results_applied": 2,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
