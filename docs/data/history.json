@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-16T09:43:31Z",
+  "generated_at_utc": "2026-08-16T13:03:04Z",
   "through_date": "2026-08-16",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1366,
+    "matches": 1371,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1254,6 +1254,116 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "ALKA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396598",
+      "match_date": "2026-08-16",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "The MongolZ",
+      "team2_name": "paiN",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "The MongolZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396596",
+      "match_date": "2026-08-16",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "Lynn Vision",
+      "team2_name": "Vitality",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Vitality",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396636",
+      "match_date": "2026-08-16",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "team1_name": "BERG",
+      "team2_name": "HAVU",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "HAVU",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396848",
+      "match_date": "2026-08-16",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "Bushido Wildcats",
+      "team2_name": "Fortress",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Bushido Wildcats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396635",
+      "match_date": "2026-08-16",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "team1_name": "ex-MANA",
+      "team2_name": "ex-RUSTEC",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-RUSTEC",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
