@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-16T18:47:59Z",
+  "generated_at_utc": "2026-08-16T21:35:43Z",
   "through_date": "2026-08-16",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1381,
+    "matches": 1383,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1584,6 +1584,50 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396593",
+      "match_date": "2026-08-16",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "Legacy",
+      "team2_name": "MIBR",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Legacy",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396835",
+      "match_date": "2026-08-16",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
+      "team1_name": "EAC",
+      "team2_name": "BASEMENT BOYS",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "EAC",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
