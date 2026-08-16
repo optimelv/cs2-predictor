@@ -5,25 +5,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
       "event_url": null,
-      "hltv_match_id": "2396496",
-      "maps": [],
-      "match_id": "hltv:2396496",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396496/manganese-vs-sinners-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "MANGANESE",
-      "team2_name": "SINNERS",
-      "winner_name": "SINNERS"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
       "hltv_match_id": "2396497",
       "maps": [],
       "match_id": "hltv:2396497",
@@ -4339,7 +4320,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:cct-2026-challengers-south-america-series-2",
       "event_name": "CCT 2026 Challengers South America Series 2",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396805",
       "lineups": {
         "team1": [],
@@ -4365,21 +4346,44 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Cache",
-        "Dust2",
-        "Mirage"
-      ],
+      "maps": [],
       "match_id": "hltv:2396805",
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396805/pain-academy-vs-alka-cct-2026-challengers-south-america-series-2",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "paiN Academy",
       "team2_name": "ALKA",
-      "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket final",
+      "winner_name": "ALKA"
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+      "event_name": "CCT 2026 Challengers South America Series 2",
+      "event_url": null,
+      "hltv_match_id": "2396806",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2396806",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396806/quintessncia-vs-metanoia-wolves-cct-2026-challengers-south-america-series-2",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "QUINTESSÊNCIA",
+      "team2_name": "METANOIA Wolves",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket final",
+      "winner_name": "QUINTESSÊNCIA"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -4503,27 +4507,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-      "event_name": "CCT 2026 Challengers South America Series 2",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396806",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396806",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396806/quintessncia-vs-metanoia-wolves-cct-2026-challengers-south-america-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-15T23:45:00Z",
-      "status": "upcoming",
-      "team1_name": "QUINTESSÊNCIA",
-      "team2_name": "METANOIA Wolves",
-      "veto_text": "Best of 3 (Online)\n\n* Lower bracket final"
-    },
-    {
       "event_id": "hltv:9323",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "event_url": null,
@@ -4609,10 +4592,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396598",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396598",
       "product_tier": "tier_1",
@@ -4622,7 +4609,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-16T11:00:00Z",
       "status": "live",
       "team1_name": "The MongolZ",
-      "team2_name": "paiN"
+      "team2_name": "paiN",
+      "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
     },
     {
       "event_id": "hltv:9261",
@@ -4689,10 +4677,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "mellren"
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396595",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396595",
       "product_tier": "tier_1",
@@ -4702,13 +4694,18 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-16T13:55:00Z",
       "status": "live",
       "team1_name": "MOUZ",
-      "team2_name": "PARIVISION"
+      "team2_name": "PARIVISION",
+      "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396597",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396597",
       "product_tier": "tier_1",
@@ -4718,7 +4715,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-16T13:55:00Z",
       "status": "live",
       "team1_name": "magic",
-      "team2_name": "9z"
+      "team2_name": "9z",
+      "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
     },
     {
       "event_id": "hltv:9323",
@@ -4783,6 +4781,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "ex-Sashi Academy",
       "team2_name": "Inner Circle Academy"
+    },
+    {
+      "event_id": "hltv:9313",
+      "event_name": "CCT 2026 Challengers South America Series 2",
+      "event_url": null,
+      "hltv_match_id": "2396807",
+      "maps": [],
+      "match_id": "hltv:2396807",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396807/pain-academy-vs-quintessncia-cct-2026-challengers-south-america-series-2",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-08-16T21:00:00Z",
+      "status": "upcoming",
+      "team1_name": "paiN Academy",
+      "team2_name": "QUINTESSÊNCIA"
     }
   ],
   "default_event_id": "epl-series-8-2026",
@@ -6378,6 +6392,69 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:esports-world-cup-2026",
           "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396598",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396598",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396598/the-mongolz-vs-pain-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-16T11:00:00Z",
+          "status": "live",
+          "team1_name": "The MongolZ",
+          "team2_name": "paiN",
+          "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396595",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396595",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396595/mouz-vs-parivision-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-16T13:55:00Z",
+          "status": "live",
+          "team1_name": "MOUZ",
+          "team2_name": "PARIVISION",
+          "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396597",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396597",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396597/magic-vs-9z-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-16T13:55:00Z",
+          "status": "live",
+          "team1_name": "magic",
+          "team2_name": "9z",
+          "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
           "event_url": null,
           "hltv_match_id": "2396591",
           "maps": [],
@@ -6640,58 +6717,38 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Falcons",
           "team2_name": "Astralis",
           "winner_name": "Falcons"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396576",
-          "maps": [],
-          "match_id": "hltv:2396576",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396576/big-vs-g2-esports-world-cup-2026",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "BIG",
-          "team2_name": "G2",
-          "winner_name": "G2"
         }
       ],
       "name": "Esports World Cup 2026",
       "participants": [
         "Lynn Vision",
         "Vitality",
+        "The MongolZ",
+        "paiN",
+        "MOUZ",
+        "PARIVISION",
+        "magic",
+        "9z",
         "Spirit",
         "BIG",
         "JiJieHao",
         "Aurora",
         "FURIA",
-        "9z",
-        "magic",
         "3DMAX",
         "Wildcard",
-        "paiN",
-        "The MongolZ",
         "Natus Vincere",
-        "PARIVISION",
         "100 Thieves",
         "K27",
         "MIBR",
         "B8",
         "FUT",
-        "MOUZ",
         "TYLOO",
         "Ninjas in Pyjamas",
         "BetBoom",
         "Legacy",
         "FaZe",
         "Falcons",
-        "Astralis",
-        "G2"
+        "Astralis"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -6707,54 +6764,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:8261",
       "matches": [
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396598",
-          "maps": [],
-          "match_id": "hltv:2396598",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396598/the-mongolz-vs-pain-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T11:00:00Z",
-          "status": "live",
-          "team1_name": "The MongolZ",
-          "team2_name": "paiN"
-        },
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396595",
-          "maps": [],
-          "match_id": "hltv:2396595",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396595/mouz-vs-parivision-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T13:55:00Z",
-          "status": "live",
-          "team1_name": "MOUZ",
-          "team2_name": "PARIVISION"
-        },
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396597",
-          "maps": [],
-          "match_id": "hltv:2396597",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396597/magic-vs-9z-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T13:55:00Z",
-          "status": "live",
-          "team1_name": "magic",
-          "team2_name": "9z"
-        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -6790,12 +6799,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "The MongolZ",
-        "paiN",
-        "MOUZ",
-        "PARIVISION",
-        "magic",
-        "9z",
         "Legacy",
         "MIBR",
         "Astralis",
@@ -7075,25 +7078,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Permitta",
           "team2_name": "HAVU",
           "winner_name": "Permitta"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396625",
-          "maps": [],
-          "match_id": "hltv:2396625",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396625/bushido-wildcats-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Bushido Wildcats",
-          "team2_name": "ex-RUSTEC",
-          "winner_name": "Bushido Wildcats"
         }
       ],
       "name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7107,20 +7091,26 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Misa",
         "Mai Tai",
         "Permitta",
-        "HAVU",
-        "Bushido Wildcats",
-        "ex-RUSTEC"
+        "HAVU"
       ],
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
     },
     {
-      "current_stage": "Schedule",
+      "current_stage": "Playoffs",
       "format": {
-        "label": "Event schedule",
+        "label": "Playoffs",
         "settings": {},
-        "stages": [],
+        "stages": [
+          {
+            "id": "playoffs",
+            "name": "Playoffs",
+            "order": 1,
+            "status": "pending",
+            "type": "single_elimination"
+          }
+        ],
         "type": "mixed"
       },
       "id": "hltv:9313",
@@ -7129,41 +7119,23 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9313",
           "event_name": "CCT 2026 Challengers South America Series 2",
           "event_url": null,
-          "hltv_match_id": "2396805",
+          "hltv_match_id": "2396807",
           "maps": [],
-          "match_id": "hltv:2396805",
+          "match_id": "hltv:2396807",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396805/pain-academy-vs-alka-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-15T21:00:00Z",
+          "source_url": "https://www.hltv.org/matches/2396807/pain-academy-vs-quintessncia-cct-2026-challengers-south-america-series-2",
+          "stage_name": "Playoffs",
+          "starts_at": "2026-08-16T21:00:00Z",
           "status": "upcoming",
           "team1_name": "paiN Academy",
-          "team2_name": "ALKA"
-        },
-        {
-          "event_id": "hltv:9313",
-          "event_name": "CCT 2026 Challengers South America Series 2",
-          "event_url": null,
-          "hltv_match_id": "2396806",
-          "maps": [],
-          "match_id": "hltv:2396806",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396806/quintessncia-vs-metanoia-wolves-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-15T23:45:00Z",
-          "status": "upcoming",
-          "team1_name": "QUINTESSÊNCIA",
-          "team2_name": "METANOIA Wolves"
+          "team2_name": "QUINTESSÊNCIA"
         }
       ],
       "name": "CCT 2026 Challengers South America Series 2",
       "participants": [
         "paiN Academy",
-        "ALKA",
-        "QUINTESSÊNCIA",
-        "METANOIA Wolves"
+        "QUINTESSÊNCIA"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -7295,23 +7267,40 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-challengers-south-america-series-2",
           "event_name": "CCT 2026 Challengers South America Series 2",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2396806",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
           "maps": [],
           "match_id": "hltv:2396806",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396806/quintessncia-vs-metanoia-wolves-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-15T23:45:00Z",
-          "status": "upcoming",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "QUINTESSÊNCIA",
           "team2_name": "METANOIA Wolves",
-          "veto_text": "Best of 3 (Online)\n\n* Lower bracket final"
+          "winner_name": "QUINTESSÊNCIA"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+          "event_name": "CCT 2026 Challengers South America Series 2",
+          "event_url": null,
+          "hltv_match_id": "2396805",
+          "maps": [],
+          "match_id": "hltv:2396805",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396805/pain-academy-vs-alka-cct-2026-challengers-south-america-series-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "paiN Academy",
+          "team2_name": "ALKA",
+          "winner_name": "ALKA"
         },
         {
           "event_id": "hltv:cct-2026-challengers-south-america-series-2",
@@ -7388,65 +7377,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "METANOIA Wolves",
           "team2_name": "paiN Academy",
           "winner_name": "paiN Academy"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-          "event_name": "CCT 2026 Challengers South America Series 2",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396805",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Cache",
-              "score1": 2,
-              "score2": 10,
-              "status": "finished"
-            },
-            {
-              "map_name": "Dust2",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Cache",
-            "Dust2",
-            "Mirage"
-          ],
-          "match_id": "hltv:2396805",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396805/pain-academy-vs-alka-cct-2026-challengers-south-america-series-2",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "paiN Academy",
-          "team2_name": "ALKA",
-          "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
         }
       ],
       "name": "CCT 2026 Challengers South America Series 2",
       "participants": [
         "QUINTESSÊNCIA",
         "METANOIA Wolves",
-        "MEIA NOITE",
-        "Pugdesonesto",
+        "paiN Academy",
         "ALKA",
-        "paiN Academy"
+        "MEIA NOITE",
+        "Pugdesonesto"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "ongoing"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -8131,7 +8075,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-15T21:36:04Z",
+  "last_verified_utc": "2026-08-16T01:58:31Z",
   "sources": [
     {
       "name": "HLTV events calendar",
