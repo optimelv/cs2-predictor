@@ -4386,6 +4386,51 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "QUINTESSÊNCIA"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396635",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 8,
+          "status": "finished"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 5,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Anubis",
+        "Mirage",
+        "Inferno"
+      ],
+      "match_id": "hltv:2396635",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396635/ex-mana-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "ex-MANA",
+      "team2_name": "ex-RUSTEC",
+      "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4507,27 +4552,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396635",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396635",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396635/ex-mana-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-16T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ex-MANA",
-      "team2_name": "ex-RUSTEC",
-      "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
-    },
-    {
       "event_id": "hltv:9323",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "event_url": null,
@@ -4597,9 +4621,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396598",
       "lineups": {
         "team1": [],
@@ -6384,7 +6408,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           },
           "maps": [],
           "match_id": "hltv:2396596",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396596/lynn-vision-vs-vitality-esports-world-cup-2026",
           "stage_name": "Scheduled series",
@@ -6393,6 +6417,27 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Lynn Vision",
           "team2_name": "Vitality",
           "veto_text": "Best of 3 (LAN)\n\n* Group C lower bracket semi-final. Winner advances to the playoffs."
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396598",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396598",
+          "product_tier": "pending",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396598/the-mongolz-vs-pain-esports-world-cup-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-16T11:00:00Z",
+          "status": "live",
+          "team1_name": "The MongolZ",
+          "team2_name": "paiN",
+          "veto_text": "Best of 3 (LAN)\n\n* Group D lower bracket semi-final. Winner advances to the playoffs."
         },
         {
           "event_id": "hltv:esports-world-cup-2026",
@@ -6665,6 +6710,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "participants": [
         "Lynn Vision",
         "Vitality",
+        "The MongolZ",
+        "paiN",
         "Spirit",
         "BIG",
         "JiJieHao",
@@ -6674,8 +6721,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "magic",
         "3DMAX",
         "Wildcard",
-        "paiN",
-        "The MongolZ",
         "Natus Vincere",
         "PARIVISION",
         "100 Thieves",
@@ -6706,22 +6751,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:8261",
       "matches": [
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396598",
-          "maps": [],
-          "match_id": "hltv:2396598",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396598/the-mongolz-vs-pain-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T11:00:00Z",
-          "status": "live",
-          "team1_name": "The MongolZ",
-          "team2_name": "paiN"
-        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -6789,8 +6818,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "The MongolZ",
-        "paiN",
         "MOUZ",
         "PARIVISION",
         "magic",
@@ -6886,27 +6913,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "matches": [
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396635",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396635",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396635/ex-mana-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-16T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ex-MANA",
-          "team2_name": "ex-RUSTEC",
-          "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
-        },
         {
           "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
           "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7077,12 +7083,55 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Permitta",
           "team2_name": "HAVU",
           "winner_name": "Permitta"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396635",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Anubis",
+              "score1": 13,
+              "score2": 8,
+              "status": "finished"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": 5,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Anubis",
+            "Mirage",
+            "Inferno"
+          ],
+          "match_id": "hltv:2396635",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396635/ex-mana-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "ex-MANA",
+          "team2_name": "ex-RUSTEC",
+          "veto_text": "Best of 3 (Online)\n\n* Group A decider match"
         }
       ],
       "name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "participants": [
-        "ex-MANA",
-        "ex-RUSTEC",
         "Noir Verse",
         "ex-Sashi Academy",
         "Enjoy",
@@ -7092,11 +7141,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Misa",
         "Mai Tai",
         "Permitta",
-        "HAVU"
+        "HAVU",
+        "ex-MANA",
+        "ex-RUSTEC"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Playoffs",
@@ -8076,7 +8127,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-16T07:00:30Z",
+  "last_verified_utc": "2026-08-16T09:43:31Z",
   "sources": [
     {
       "name": "HLTV events calendar",
