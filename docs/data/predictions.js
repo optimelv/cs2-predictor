@@ -6,258 +6,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "event_id": "hltv:cct-2026-europe-series-6",
         "event_name": "CCT 2026 Europe Series 6",
         "event_url": null,
-        "hltv_match_id": "2396151",
-        "maps": [],
-        "match_id": "hltv:2396151",
-        "product_tier": "tier_2",
-        "score1": 1,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396151/black-phoenix-vs-cybershoke-cct-2026-europe-series-6",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Black Phoenix",
-        "team2_name": "CYBERSHOKE",
-        "winner_name": "CYBERSHOKE"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396526",
-        "maps": [],
-        "match_id": "hltv:2396526",
-        "product_tier": "tier_1",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396526/genone-vs-galactik-rebels-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "GenOne",
-        "team2_name": "Galactik rebels",
-        "winner_name": "GenOne"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396524",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Dust2",
-            "score1": 13,
-            "score2": 7,
-            "status": "finished"
-          },
-          {
-            "map_name": "Inferno",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Mirage",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2396524",
-        "product_tier": "tier_1",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396524/fluxo-vs-dusty-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Fluxo",
-        "team2_name": "DUSTY",
-        "veto_text": "Best of 3 (LAN)\n\n* Group 2 decider match",
-        "winner_name": "Fluxo"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396525",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Inferno",
-            "score1": 9,
-            "score2": 13,
-            "status": "finished"
-          },
-          {
-            "map_name": "Anubis",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Cache",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2396525",
-        "product_tier": "tier_1",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396525/eac-vs-saw-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "EAC",
-        "team2_name": "SAW",
-        "veto_text": "Best of 3 (LAN)\n\n* Group 3 decider match",
-        "winner_name": "SAW"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396527",
-        "maps": [],
-        "match_id": "hltv:2396527",
-        "product_tier": "tier_1",
-        "score1": 1,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396527/infinite-vs-giant-pandas-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "INFINITE",
-        "team2_name": "Giant Pandas",
-        "winner_name": "INFINITE"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396530",
-        "maps": [],
-        "match_id": "hltv:2396530",
-        "product_tier": "tier_1",
-        "score1": 2,
-        "score2": 1,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396530/iberian-soul-vs-6666-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Iberian Soul",
-        "team2_name": "6666",
-        "winner_name": "Iberian Soul"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396528",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Ancient",
-            "score1": 13,
-            "score2": 10,
-            "status": "finished"
-          },
-          {
-            "map_name": "Dust2",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Mirage",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2396528",
-        "product_tier": "tier_1",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396528/1win-vs-basement-boys-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "1win",
-        "team2_name": "BASEMENT BOYS",
-        "veto_text": "Best of 3 (LAN)\n\n* Group 6 decider match",
-        "winner_name": "1win"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-        "event_name": "Esports World Cup 2026 Open Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396529",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Ancient",
-            "score1": 10,
-            "score2": 13,
-            "status": "finished"
-          },
-          {
-            "map_name": "Nuke",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Anubis",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2396529",
-        "product_tier": "tier_1",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396529/abt-vs-9ine-esports-world-cup-2026-open-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "ABT",
-        "team2_name": "9INE",
-        "veto_text": "Best of 3 (LAN)\n\n* Group 7 decider match",
-        "winner_name": "9INE"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-6",
-        "event_name": "CCT 2026 Europe Series 6",
-        "event_url": null,
         "hltv_match_id": "2396152",
         "lineups": {
           "team1": [],
@@ -4254,7 +4002,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
         "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396640",
         "lineups": {
           "team1": [],
@@ -4280,21 +4028,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Cache",
-          "Dust2",
-          "Anubis"
-        ],
+        "maps": [],
         "match_id": "hltv:2396640",
         "product_tier": "tier_2",
+        "score1": 1,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396640/noir-verse-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Noir Verse",
         "team2_name": "ex-RUSTEC",
-        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
+        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7.",
+        "winner_name": "ex-RUSTEC"
       },
       {
         "event_id": "hltv:cct-2026-challengers-europe-series-5",
@@ -4343,6 +4090,120 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "BERG",
         "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1",
         "winner_name": "ENCE"
+      },
+      {
+        "event_id": "hltv:cct-2026-challengers-europe-series-5",
+        "event_name": "CCT 2026 Challengers Europe Series 5",
+        "event_url": null,
+        "hltv_match_id": "2396853",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "maps": [],
+        "match_id": "hltv:2396853",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396853/lph-vs-saw-youngsters-cct-2026-challengers-europe-series-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "LPH",
+        "team2_name": "SAW Youngsters",
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final",
+        "winner_name": "LPH"
+      },
+      {
+        "event_id": "hltv:cct-2026-challengers-europe-series-5",
+        "event_name": "CCT 2026 Challengers Europe Series 5",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396854",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Anubis",
+          "Ancient",
+          "Dust2"
+        ],
+        "match_id": "hltv:2396854",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396854/mellren-vs-noir-verse-cct-2026-challengers-europe-series-5",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "mellren",
+        "team2_name": "Noir Verse",
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final\n\n** k1n substitutes fostar."
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+        "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396641",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Mirage",
+          "Anubis",
+          "Dust2"
+        ],
+        "match_id": "hltv:2396641",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396641/bushido-wildcats-vs-inner-circle-academy-cct-2026-europe-series-7-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Bushido Wildcats",
+        "team2_name": "Inner Circle Academy",
+        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -4464,59 +4325,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:cct-2026-challengers-europe-series-5",
-        "event_name": "CCT 2026 Challengers Europe Series 5",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396853",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396853",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396853/lph-vs-saw-youngsters-cct-2026-challengers-europe-series-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-17T13:45:00Z",
-        "status": "upcoming",
-        "team1_name": "LPH",
-        "team2_name": "SAW Youngsters",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
-      },
-      {
-        "event_id": "hltv:9321",
-        "event_name": "CCT 2026 Challengers Europe Series 5",
-        "event_url": null,
-        "hltv_match_id": "2396854",
-        "maps": [],
-        "match_id": "hltv:2396854",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396854/mellren-vs-noir-verse-cct-2026-challengers-europe-series-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-17T13:45:00Z",
-        "status": "upcoming",
-        "team1_name": "mellren",
-        "team2_name": "Noir Verse"
-      },
-      {
-        "event_id": "hltv:9323",
-        "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2396641",
-        "maps": [],
-        "match_id": "hltv:2396641",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396641/bushido-wildcats-vs-inner-circle-academy-cct-2026-europe-series-7-closed-qualifier",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-17T14:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Bushido Wildcats",
-        "team2_name": "Inner Circle Academy"
       },
       {
         "event_id": "hltv:9323",
@@ -4863,6 +4671,134 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "live",
         "team1_name": "B8",
         "team2_name": "Spirit"
+      },
+      {
+        "event_id": "hltv:8249",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
+        "hltv_match_id": "2396923",
+        "maps": [],
+        "match_id": "hltv:2396923",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-26T09:00:00Z",
+        "status": "live",
+        "team1_name": "Aurora",
+        "team2_name": "G2"
+      },
+      {
+        "event_id": "hltv:8249",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
+        "hltv_match_id": "2396924",
+        "maps": [],
+        "match_id": "hltv:2396924",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396924/spirit-vs-dendele-blast-open-porto-2026",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-26T11:30:00Z",
+        "status": "live",
+        "team1_name": "Spirit",
+        "team2_name": "DENDELE"
+      },
+      {
+        "event_id": "hltv:8249",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
+        "hltv_match_id": "2396925",
+        "maps": [],
+        "match_id": "hltv:2396925",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-26T14:00:00Z",
+        "status": "live",
+        "team1_name": "Natus Vincere",
+        "team2_name": "M80"
+      },
+      {
+        "event_id": "hltv:8249",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
+        "hltv_match_id": "2396926",
+        "maps": [],
+        "match_id": "hltv:2396926",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396926/furia-vs-pain-blast-open-porto-2026",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-26T15:30:00Z",
+        "status": "live",
+        "team1_name": "FURIA",
+        "team2_name": "paiN"
+      },
+      {
+        "event_id": "hltv:8249",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
+        "hltv_match_id": "2396927",
+        "maps": [],
+        "match_id": "hltv:2396927",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-27T09:00:00Z",
+        "status": "live",
+        "team1_name": "Vitality",
+        "team2_name": "Inner Circle"
+      },
+      {
+        "event_id": "hltv:8249",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
+        "hltv_match_id": "2396928",
+        "maps": [],
+        "match_id": "hltv:2396928",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396928/mouz-vs-9z-blast-open-porto-2026",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-27T11:30:00Z",
+        "status": "live",
+        "team1_name": "MOUZ",
+        "team2_name": "9z"
+      },
+      {
+        "event_id": "hltv:8249",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
+        "hltv_match_id": "2396929",
+        "maps": [],
+        "match_id": "hltv:2396929",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-27T14:00:00Z",
+        "status": "live",
+        "team1_name": "Legacy",
+        "team2_name": "FUT"
+      },
+      {
+        "event_id": "hltv:8249",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
+        "hltv_match_id": "2396930",
+        "maps": [],
+        "match_id": "hltv:2396930",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-27T15:30:00Z",
+        "status": "live",
+        "team1_name": "Falcons",
+        "team2_name": "Lynn Vision"
       }
     ],
     "default_event_id": "epl-series-8-2026",
@@ -6874,22 +6810,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9323",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
             "event_url": null,
-            "hltv_match_id": "2396641",
-            "maps": [],
-            "match_id": "hltv:2396641",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396641/bushido-wildcats-vs-inner-circle-academy-cct-2026-europe-series-7-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-17T14:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Bushido Wildcats",
-            "team2_name": "Inner Circle Academy"
-          },
-          {
-            "event_id": "hltv:9323",
-            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-            "event_url": null,
             "hltv_match_id": "2396642",
             "maps": [],
             "match_id": "hltv:2396642",
@@ -6905,8 +6825,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "participants": [
-          "Bushido Wildcats",
-          "Inner Circle Academy",
           "Enjoy",
           "HAVU"
         ],
@@ -6924,6 +6842,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2396640",
+            "maps": [],
+            "match_id": "hltv:2396640",
+            "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396640/noir-verse-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Noir Verse",
+            "team2_name": "ex-RUSTEC",
+            "winner_name": "ex-RUSTEC"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7118,20 +7055,14 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396640",
+            "hltv_match_id": "2396641",
             "lineups": {
               "team1": [],
               "team2": []
             },
             "map_results": [
               {
-                "map_name": "Cache",
-                "score1": 4,
-                "score2": 8,
-                "status": "finished"
-              },
-              {
-                "map_name": "Dust2",
+                "map_name": "Mirage",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
@@ -7141,27 +7072,35 @@ window.__STRIKESIGNAL_DATA__ = {
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
               }
             ],
             "maps": [
-              "Cache",
-              "Dust2",
-              "Anubis"
+              "Mirage",
+              "Anubis",
+              "Dust2"
             ],
-            "match_id": "hltv:2396640",
+            "match_id": "hltv:2396641",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396640/noir-verse-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
+            "source_url": "https://www.hltv.org/matches/2396641/bushido-wildcats-vs-inner-circle-academy-cct-2026-europe-series-7-closed-qualifier",
             "stage_name": "Scheduled series",
             "starts_at": null,
             "status": "live",
-            "team1_name": "Noir Verse",
-            "team2_name": "ex-RUSTEC",
+            "team1_name": "Bushido Wildcats",
+            "team2_name": "Inner Circle Academy",
             "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
           }
         ],
         "name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "participants": [
+          "Noir Verse",
+          "ex-RUSTEC",
           "Permitta",
           "UNiTY",
           "ex-Sashi Academy",
@@ -7170,11 +7109,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "BERG",
           "HAVU",
           "ex-MANA",
-          "ex-RUSTEC",
-          "Noir Verse",
           "Enjoy",
           "Honv\u00e9d",
-          "Mai Tai"
+          "Mai Tai",
+          "Bushido Wildcats"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7452,22 +7390,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9321",
             "event_name": "CCT 2026 Challengers Europe Series 5",
             "event_url": null,
-            "hltv_match_id": "2396854",
-            "maps": [],
-            "match_id": "hltv:2396854",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396854/mellren-vs-noir-verse-cct-2026-challengers-europe-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-17T13:45:00Z",
-            "status": "upcoming",
-            "team1_name": "mellren",
-            "team2_name": "Noir Verse"
-          },
-          {
-            "event_id": "hltv:9321",
-            "event_name": "CCT 2026 Challengers Europe Series 5",
-            "event_url": null,
             "hltv_match_id": "2396855",
             "maps": [],
             "match_id": "hltv:2396855",
@@ -7531,8 +7453,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Challengers Europe Series 5",
         "participants": [
-          "mellren",
-          "Noir Verse",
           "Honv\u00e9d",
           "Entropy",
           "Fortress",
@@ -7840,44 +7760,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Leo",
             "team2_name": "benched gods",
             "winner_name": "Leo"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-            "event_url": null,
-            "hltv_match_id": "2396822",
-            "maps": [],
-            "match_id": "hltv:2396822",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396822/og-vs-baks-esl-challenger-league-season-52-europe-cup-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "OG",
-            "team2_name": "BAKS",
-            "winner_name": "BAKS"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-            "event_url": null,
-            "hltv_match_id": "2396816",
-            "maps": [],
-            "match_id": "hltv:2396816",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396816/inox-division-vs-mouz-nxt-esl-challenger-league-season-52-europe-cup-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "INOX Division",
-            "team2_name": "MOUZ NXT",
-            "winner_name": "INOX Division"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 3",
@@ -7914,23 +7796,21 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-challengers-europe-series-5",
             "event_name": "CCT 2026 Challengers Europe Series 5",
-            "event_url": "https://www.hltv.org/events/archive",
+            "event_url": null,
             "hltv_match_id": "2396853",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
             "maps": [],
             "match_id": "hltv:2396853",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2396853/lph-vs-saw-youngsters-cct-2026-challengers-europe-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-17T13:45:00Z",
-            "status": "upcoming",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
             "team1_name": "LPH",
             "team2_name": "SAW Youngsters",
-            "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
+            "winner_name": "LPH"
           },
           {
             "event_id": "hltv:cct-2026-challengers-europe-series-5",
@@ -8121,6 +8001,51 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Noir Verse",
             "team2_name": "Entropy",
             "winner_name": "Noir Verse"
+          },
+          {
+            "event_id": "hltv:cct-2026-challengers-europe-series-5",
+            "event_name": "CCT 2026 Challengers Europe Series 5",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396854",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Anubis",
+              "Ancient",
+              "Dust2"
+            ],
+            "match_id": "hltv:2396854",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396854/mellren-vs-noir-verse-cct-2026-challengers-europe-series-5",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "mellren",
+            "team2_name": "Noir Verse",
+            "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final\n\n** k1n substitutes fostar."
           }
         ],
         "name": "CCT 2026 Challengers Europe Series 5",
@@ -8143,8 +8068,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "Entropy"
         ],
         "product_tier": "tier_2",
-        "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "source_url": null,
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -8307,9 +8232,171 @@ window.__STRIKESIGNAL_DATA__ = {
         "product_tier": "tier_2",
         "source_url": null,
         "status": "upcoming"
+      },
+      {
+        "current_stage": "Schedule",
+        "format": {
+          "label": "Event schedule",
+          "settings": {},
+          "stages": [],
+          "type": "mixed"
+        },
+        "id": "hltv:8249",
+        "matches": [
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396923",
+            "maps": [],
+            "match_id": "hltv:2396923",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-26T09:00:00Z",
+            "status": "live",
+            "team1_name": "Aurora",
+            "team2_name": "G2"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396924",
+            "maps": [],
+            "match_id": "hltv:2396924",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396924/spirit-vs-dendele-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-26T11:30:00Z",
+            "status": "live",
+            "team1_name": "Spirit",
+            "team2_name": "DENDELE"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396925",
+            "maps": [],
+            "match_id": "hltv:2396925",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-26T14:00:00Z",
+            "status": "live",
+            "team1_name": "Natus Vincere",
+            "team2_name": "M80"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396926",
+            "maps": [],
+            "match_id": "hltv:2396926",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396926/furia-vs-pain-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-26T15:30:00Z",
+            "status": "live",
+            "team1_name": "FURIA",
+            "team2_name": "paiN"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396927",
+            "maps": [],
+            "match_id": "hltv:2396927",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-27T09:00:00Z",
+            "status": "live",
+            "team1_name": "Vitality",
+            "team2_name": "Inner Circle"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396928",
+            "maps": [],
+            "match_id": "hltv:2396928",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396928/mouz-vs-9z-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-27T11:30:00Z",
+            "status": "live",
+            "team1_name": "MOUZ",
+            "team2_name": "9z"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396929",
+            "maps": [],
+            "match_id": "hltv:2396929",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-27T14:00:00Z",
+            "status": "live",
+            "team1_name": "Legacy",
+            "team2_name": "FUT"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396930",
+            "maps": [],
+            "match_id": "hltv:2396930",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-27T15:30:00Z",
+            "status": "live",
+            "team1_name": "Falcons",
+            "team2_name": "Lynn Vision"
+          }
+        ],
+        "name": "BLAST Open Porto 2026",
+        "participants": [
+          "Aurora",
+          "G2",
+          "Spirit",
+          "DENDELE",
+          "Natus Vincere",
+          "M80",
+          "FURIA",
+          "paiN",
+          "Vitality",
+          "Inner Circle",
+          "MOUZ",
+          "9z",
+          "Legacy",
+          "FUT",
+          "Falcons",
+          "Lynn Vision"
+        ],
+        "product_tier": "tier_1",
+        "source_url": null,
+        "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-17T13:07:17Z",
+    "last_verified_utc": "2026-08-17T15:41:41Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8747,7 +8834,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-17T13:07:34Z",
+  "generated_at_utc": "2026-08-17T15:41:58Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10143,13 +10230,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 3,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.639655,
-        "brier": 0.220612,
-        "ece": 0.034075,
-        "log_loss": 0.630017
+        "accuracy": 0.637457,
+        "brier": 0.221364,
+        "ece": 0.036181,
+        "log_loss": 0.631747
       },
-      "rows": 1159,
-      "test_rows": 580
+      "rows": 1161,
+      "test_rows": 582
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -10163,13 +10250,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 3,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.639655,
-        "brier": 0.220639,
-        "ece": 0.017542,
-        "log_loss": 0.630833
+        "accuracy": 0.639175,
+        "brier": 0.221278,
+        "ece": 0.016932,
+        "log_loss": 0.63223
       },
       "promotion_passed": false,
-      "rows": 580
+      "rows": 582
     },
     "champion": {
       "blend_weight": 0.5,
@@ -10212,7 +10299,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-17T13:07:34Z",
+    "generated_at_utc": "2026-08-17T15:41:57Z",
     "history": [
       {
         "champion": {
@@ -10267,8 +10354,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
-      "online_rows": 402,
+      "new_rows": 2,
+      "online_rows": 404,
       "seed_rows": 757
     }
   },
@@ -10675,9 +10762,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396808",
       "hltv:2396852",
       "hltv:2396639",
-      "hltv:2396851"
+      "hltv:2396851",
+      "hltv:2396853",
+      "hltv:2396640"
     ],
-    "last_online_update_utc": "2026-08-17T13:07:34Z",
+    "last_online_update_utc": "2026-08-17T15:41:58Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -16762,10 +16851,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1455.82,
-        "last_result_utc": "2026-08-15T18:49:35Z",
-        "matches": 6,
-        "recent_win_rate_10": 0.3318,
+        "elo": 1444.27,
+        "last_result_utc": "2026-08-17T15:41:58Z",
+        "matches": 7,
+        "recent_win_rate_10": 0.2715,
         "team_key": "saw youngsters",
         "team_name": "SAW Youngsters",
         "vrs_points": 0,
@@ -16792,10 +16881,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1538.09,
-        "last_result_utc": "2026-08-16T13:03:16Z",
-        "matches": 17,
-        "recent_win_rate_10": 0.6352,
+        "elo": 1550.23,
+        "last_result_utc": "2026-08-17T15:41:58Z",
+        "matches": 18,
+        "recent_win_rate_10": 0.7015,
         "team_key": "ex rustec",
         "team_name": "ex-RUSTEC",
         "vrs_points": 0,
@@ -16902,10 +16991,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1532.95,
-        "last_result_utc": "2026-08-15T18:49:35Z",
-        "matches": 7,
-        "recent_win_rate_10": 0.711,
+        "elo": 1520.81,
+        "last_result_utc": "2026-08-17T15:41:58Z",
+        "matches": 8,
+        "recent_win_rate_10": 0.5817,
         "team_key": "noir verse",
         "team_name": "Noir Verse",
         "vrs_points": 0,
@@ -17252,10 +17341,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1509.55,
-        "last_result_utc": "2026-08-15T15:36:39Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.5909,
+        "elo": 1521.1,
+        "last_result_utc": "2026-08-17T15:41:58Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.6653,
         "team_key": "lph",
         "team_name": "LPH",
         "vrs_points": 0,
@@ -20273,108 +20362,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5656,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5656,
-      "event_id": "hltv:cct-2026-challengers-europe-series-5",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-17",
-      "match_id": "hltv:2396853",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786974300,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "LPH",
-      "prob_team1": 0.5656,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396853/lph-vs-saw-youngsters-cct-2026-challengers-europe-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-17T13:45:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "LPH",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "SAW Youngsters",
-      "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.5239,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4761,
-      "event_id": "hltv:9321",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-17",
-      "match_id": "hltv:2396854",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786974300,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Noir Verse",
-      "prob_team1": 0.4761,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396854/mellren-vs-noir-verse-cct-2026-challengers-europe-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-17T13:45:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "mellren",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Noir Verse",
-      "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.5894,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5894,
-      "event_id": "hltv:9323",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-17",
-      "match_id": "hltv:2396641",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786975200,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Bushido Wildcats",
-      "prob_team1": 0.5894,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396641/bushido-wildcats-vs-inner-circle-academy-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-17T14:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Bushido Wildcats",
-      "team1_vrs_rank": 239,
-      "team2_hltv_rank": null,
-      "team2_name": "Inner Circle Academy",
-      "team2_vrs_rank": 152
-    },
-    {
       "confidence": 0.5559,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -21066,12 +21053,111 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Spirit",
       "team2_vrs_rank": 2
+    },
+    {
+      "confidence": 0.5031,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4969,
+      "event_id": "hltv:8249",
+      "event_name": "BLAST Open Porto 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-26",
+      "match_id": "hltv:2396923",
+      "match_phase": "scheduled",
+      "match_timestamp": 1787734800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "G2",
+      "prob_team1": 0.4969,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-26T09:00:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Aurora",
+      "team1_vrs_rank": 8,
+      "team2_hltv_rank": null,
+      "team2_name": "G2",
+      "team2_vrs_rank": 13
+    },
+    {
+      "confidence": 0.88,
+      "confidence_label": "strong",
+      "data_quality": "full",
+      "elo_prob_team1": 0.88,
+      "event_id": "hltv:8249",
+      "event_name": "BLAST Open Porto 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-26",
+      "match_id": "hltv:2396924",
+      "match_phase": "scheduled",
+      "match_timestamp": 1787743800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Spirit",
+      "prob_team1": 0.88,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396924/spirit-vs-dendele-blast-open-porto-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-26T11:30:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Spirit",
+      "team1_vrs_rank": 2,
+      "team2_hltv_rank": null,
+      "team2_name": "DENDELE",
+      "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.8475,
+      "confidence_label": "strong",
+      "data_quality": "full",
+      "elo_prob_team1": 0.8475,
+      "event_id": "hltv:8249",
+      "event_name": "BLAST Open Porto 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-26",
+      "match_id": "hltv:2396925",
+      "match_phase": "scheduled",
+      "match_timestamp": 1787752800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Natus Vincere",
+      "prob_team1": 0.8475,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-26T14:00:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Natus Vincere",
+      "team1_vrs_rank": 4,
+      "team2_hltv_rank": null,
+      "team2_name": "M80",
+      "team2_vrs_rank": 33
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 80,
-    "online_results_applied": 3,
+    "live_feed_items": 86,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
