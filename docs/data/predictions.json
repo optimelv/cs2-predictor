@@ -4460,6 +4460,51 @@
         "winner_name": "ALKA"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+        "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396639",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": 16,
+            "score2": 19,
+            "status": "finished"
+          },
+          {
+            "map_name": "Cache",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Cache",
+          "Anubis"
+        ],
+        "match_id": "hltv:2396639",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396639/permitta-vs-unity-cct-2026-europe-series-7-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Permitta",
+        "team2_name": "UNiTY",
+        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4584,27 +4629,6 @@
         "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
         "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396639",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396639",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396639/permitta-vs-unity-cct-2026-europe-series-7-closed-qualifier",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-17T08:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Permitta",
-        "team2_name": "UNiTY",
-        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-        "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396640",
         "lineups": {
           "team1": [],
@@ -4644,9 +4668,9 @@
         "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1"
       },
       {
-        "event_id": "hltv:cct-2026-challengers-europe-series-5",
+        "event_id": "hltv:9321",
         "event_name": "CCT 2026 Challengers Europe Series 5",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396852",
         "lineups": {
           "team1": [],
@@ -7034,27 +7058,6 @@
             "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396639",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396639",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396639/permitta-vs-unity-cct-2026-europe-series-7-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-17T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Permitta",
-            "team2_name": "UNiTY",
-            "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2396640",
             "lineups": {
               "team1": [],
@@ -7246,42 +7249,68 @@
           {
             "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396629",
-            "maps": [],
-            "match_id": "hltv:2396629",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396639",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Ancient",
+                "score1": 16,
+                "score2": 19,
+                "status": "finished"
+              },
+              {
+                "map_name": "Cache",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Ancient",
+              "Cache",
+              "Anubis"
+            ],
+            "match_id": "hltv:2396639",
             "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396629/inner-circle-academy-vs-ex-sashi-academy-cct-2026-europe-series-7-closed-qualifier",
-            "stage_name": "Completed series",
+            "source_url": "https://www.hltv.org/matches/2396639/permitta-vs-unity-cct-2026-europe-series-7-closed-qualifier",
+            "stage_name": "Scheduled series",
             "starts_at": null,
-            "status": "finished",
-            "team1_name": "Inner Circle Academy",
-            "team2_name": "ex-Sashi Academy",
-            "winner_name": "ex-Sashi Academy"
+            "status": "live",
+            "team1_name": "Permitta",
+            "team2_name": "UNiTY",
+            "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
           }
         ],
         "name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "participants": [
-          "Permitta",
-          "UNiTY",
           "Noir Verse",
           "ex-RUSTEC",
           "ex-Sashi Academy",
           "Inner Circle Academy",
+          "UNiTY",
           "Misa",
           "BERG",
           "HAVU",
           "ex-MANA",
           "Enjoy",
           "Honv\u00e9d",
-          "Mai Tai"
+          "Mai Tai",
+          "Permitta"
         ],
         "product_tier": "tier_2",
         "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       {
         "current_stage": "Playoffs",
@@ -7555,6 +7584,22 @@
             "event_id": "hltv:9321",
             "event_name": "CCT 2026 Challengers Europe Series 5",
             "event_url": null,
+            "hltv_match_id": "2396852",
+            "maps": [],
+            "match_id": "hltv:2396852",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396852/ence-vs-berg-cct-2026-challengers-europe-series-5",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-17T11:00:00Z",
+            "status": "upcoming",
+            "team1_name": "ENCE",
+            "team2_name": "BERG"
+          },
+          {
+            "event_id": "hltv:9321",
+            "event_name": "CCT 2026 Challengers Europe Series 5",
+            "event_url": null,
             "hltv_match_id": "2396853",
             "maps": [],
             "match_id": "hltv:2396853",
@@ -7650,6 +7695,8 @@
         ],
         "name": "CCT 2026 Challengers Europe Series 5",
         "participants": [
+          "ENCE",
+          "BERG",
           "LPH",
           "SAW Youngsters",
           "mellren",
@@ -8115,27 +8162,6 @@
           {
             "event_id": "hltv:cct-2026-challengers-europe-series-5",
             "event_name": "CCT 2026 Challengers Europe Series 5",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396852",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396852",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396852/ence-vs-berg-cct-2026-challengers-europe-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-17T11:00:00Z",
-            "status": "upcoming",
-            "team1_name": "ENCE",
-            "team2_name": "BERG",
-            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1"
-          },
-          {
-            "event_id": "hltv:cct-2026-challengers-europe-series-5",
-            "event_name": "CCT 2026 Challengers Europe Series 5",
             "event_url": null,
             "hltv_match_id": "2396850",
             "maps": [],
@@ -8290,11 +8316,11 @@
         "participants": [
           "Atreides",
           "ex-Sashi Academy",
-          "ENCE",
-          "BERG",
           "Honv\u00e9d",
           "mellren",
           "Mai Tai",
+          "BERG",
+          "ENCE",
           "WBT",
           "Bushido Wildcats",
           "Fortress",
@@ -8310,7 +8336,7 @@
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-08-17T07:17:36Z",
+    "last_verified_utc": "2026-08-17T09:59:07Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8748,7 +8774,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-17T07:17:55Z",
+  "generated_at_utc": "2026-08-17T09:59:26Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10213,7 +10239,7 @@
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-17T07:17:55Z",
+    "generated_at_utc": "2026-08-17T09:59:25Z",
     "history": [
       {
         "champion": {
@@ -20271,42 +20297,6 @@
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5282,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4718,
-      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-17",
-      "match_id": "hltv:2396639",
-      "match_phase": "scheduled",
-      "match_timestamp": 1786953600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "UNiTY",
-      "prob_team1": 0.4718,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396639/permitta-vs-unity-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-17T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Permitta",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "UNiTY",
-      "team2_vrs_rank": 144
-    },
-    {
       "confidence": 0.5063,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -20383,13 +20373,10 @@
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.6172,
-      "event_id": "hltv:cct-2026-challengers-europe-series-5",
+      "event_id": "hltv:9321",
       "event_name": "CCT 2026 Challengers Europe Series 5",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-17",
@@ -20941,11 +20928,70 @@
       "team2_hltv_rank": null,
       "team2_name": "Spirit",
       "team2_vrs_rank": 2
+    },
+    {
+      "confidence": 0.5282,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4718,
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": 16,
+          "score2": 19,
+          "status": "finished"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Cache",
+        "Anubis"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2396639",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "UNiTY",
+      "prob_team1": 0.4718,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396639/permitta-vs-unity-cct-2026-europe-series-7-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Permitta",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "UNiTY",
+      "team2_vrs_rank": 144
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 78,
+    "live_feed_items": 77,
     "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
