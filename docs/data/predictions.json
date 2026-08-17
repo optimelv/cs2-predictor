@@ -4602,10 +4602,14 @@
         "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
       },
       {
-        "event_id": "hltv:9323",
+        "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
         "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396640",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396640",
         "product_tier": "tier_2",
@@ -4615,13 +4619,18 @@
         "starts_at": "2026-08-17T11:00:00Z",
         "status": "upcoming",
         "team1_name": "Noir Verse",
-        "team2_name": "ex-RUSTEC"
+        "team2_name": "ex-RUSTEC",
+        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
       },
       {
-        "event_id": "hltv:9321",
+        "event_id": "hltv:cct-2026-challengers-europe-series-5",
         "event_name": "CCT 2026 Challengers Europe Series 5",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396851",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396851",
         "product_tier": "tier_2",
@@ -4631,13 +4640,18 @@
         "starts_at": "2026-08-17T11:00:00Z",
         "status": "upcoming",
         "team1_name": "Atreides",
-        "team2_name": "ex-Sashi Academy"
+        "team2_name": "ex-Sashi Academy",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1"
       },
       {
-        "event_id": "hltv:9321",
+        "event_id": "hltv:cct-2026-challengers-europe-series-5",
         "event_name": "CCT 2026 Challengers Europe Series 5",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396852",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396852",
         "product_tier": "tier_2",
@@ -4647,7 +4661,8 @@
         "starts_at": "2026-08-17T11:00:00Z",
         "status": "upcoming",
         "team1_name": "ENCE",
-        "team2_name": "BERG"
+        "team2_name": "BERG",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1"
       },
       {
         "event_id": "hltv:9321",
@@ -4778,9 +4793,9 @@
         "team2_name": "Misa"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396599",
         "lineups": {
           "team1": [],
@@ -4791,7 +4806,7 @@
         "product_tier": "tier_1",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396599/g2-vs-astralis-esports-world-cup-2026",
-        "stage_name": "Scheduled series",
+        "stage_name": "Playoffs",
         "starts_at": "2026-08-19T14:00:00Z",
         "status": "live",
         "team1_name": "G2",
@@ -4799,9 +4814,9 @@
         "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396601",
         "lineups": {
           "team1": [],
@@ -4812,7 +4827,7 @@
         "product_tier": "tier_1",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
-        "stage_name": "Scheduled series",
+        "stage_name": "Playoffs",
         "starts_at": "2026-08-19T14:00:00Z",
         "status": "live",
         "team1_name": "FUT",
@@ -6488,48 +6503,6 @@
           {
             "event_id": "hltv:esports-world-cup-2026",
             "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396599",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396599",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396599/g2-vs-astralis-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-19T14:00:00Z",
-            "status": "live",
-            "team1_name": "G2",
-            "team2_name": "Astralis",
-            "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396601",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396601",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-19T14:00:00Z",
-            "status": "live",
-            "team1_name": "FUT",
-            "team2_name": "magic",
-            "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
             "event_url": null,
             "hltv_match_id": "2396593",
             "maps": [],
@@ -6796,13 +6769,11 @@
         ],
         "name": "Esports World Cup 2026",
         "participants": [
-          "G2",
-          "Astralis",
-          "FUT",
-          "magic",
           "Legacy",
           "MIBR",
+          "Astralis",
           "Ninjas in Pyjamas",
+          "magic",
           "9z",
           "MOUZ",
           "PARIVISION",
@@ -6822,8 +6793,8 @@
           "K27"
         ],
         "product_tier": "tier_1",
-        "source_url": "https://www.hltv.org/events/archive",
-        "status": "ongoing"
+        "source_url": null,
+        "status": "finished"
       },
       {
         "current_stage": "Playoffs",
@@ -6843,6 +6814,38 @@
         },
         "id": "hltv:8261",
         "matches": [
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396599",
+            "maps": [],
+            "match_id": "hltv:2396599",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396599/g2-vs-astralis-esports-world-cup-2026",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-08-19T14:00:00Z",
+            "status": "live",
+            "team1_name": "G2",
+            "team2_name": "Astralis"
+          },
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396601",
+            "maps": [],
+            "match_id": "hltv:2396601",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-08-19T14:00:00Z",
+            "status": "live",
+            "team1_name": "FUT",
+            "team2_name": "magic"
+          },
           {
             "event_id": "hltv:8261",
             "event_name": "Esports World Cup 2026",
@@ -6942,6 +6945,10 @@
         ],
         "name": "Esports World Cup 2026",
         "participants": [
+          "G2",
+          "Astralis",
+          "FUT",
+          "magic",
           "FURIA",
           "Aurora",
           "GamerLegion",
@@ -6969,22 +6976,6 @@
         },
         "id": "hltv:9323",
         "matches": [
-          {
-            "event_id": "hltv:9323",
-            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2396640",
-            "maps": [],
-            "match_id": "hltv:2396640",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396640/noir-verse-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-17T11:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Noir Verse",
-            "team2_name": "ex-RUSTEC"
-          },
           {
             "event_id": "hltv:9323",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7020,8 +7011,6 @@
         ],
         "name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "participants": [
-          "Noir Verse",
-          "ex-RUSTEC",
           "Bushido Wildcats",
           "Inner Circle Academy",
           "Enjoy",
@@ -7060,6 +7049,27 @@
             "status": "upcoming",
             "team1_name": "Permitta",
             "team2_name": "UNiTY",
+            "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396640",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396640",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396640/noir-verse-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-17T11:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Noir Verse",
+            "team2_name": "ex-RUSTEC",
             "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
           },
           {
@@ -7257,14 +7267,14 @@
         "participants": [
           "Permitta",
           "UNiTY",
+          "Noir Verse",
+          "ex-RUSTEC",
           "ex-Sashi Academy",
           "Inner Circle Academy",
           "Misa",
           "BERG",
           "HAVU",
           "ex-MANA",
-          "ex-RUSTEC",
-          "Noir Verse",
           "Enjoy",
           "Honv\u00e9d",
           "Mai Tai"
@@ -7545,38 +7555,6 @@
             "event_id": "hltv:9321",
             "event_name": "CCT 2026 Challengers Europe Series 5",
             "event_url": null,
-            "hltv_match_id": "2396851",
-            "maps": [],
-            "match_id": "hltv:2396851",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396851/atreides-vs-ex-sashi-academy-cct-2026-challengers-europe-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-17T11:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Atreides",
-            "team2_name": "ex-Sashi Academy"
-          },
-          {
-            "event_id": "hltv:9321",
-            "event_name": "CCT 2026 Challengers Europe Series 5",
-            "event_url": null,
-            "hltv_match_id": "2396852",
-            "maps": [],
-            "match_id": "hltv:2396852",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396852/ence-vs-berg-cct-2026-challengers-europe-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-17T11:00:00Z",
-            "status": "upcoming",
-            "team1_name": "ENCE",
-            "team2_name": "BERG"
-          },
-          {
-            "event_id": "hltv:9321",
-            "event_name": "CCT 2026 Challengers Europe Series 5",
-            "event_url": null,
             "hltv_match_id": "2396853",
             "maps": [],
             "match_id": "hltv:2396853",
@@ -7672,10 +7650,6 @@
         ],
         "name": "CCT 2026 Challengers Europe Series 5",
         "participants": [
-          "Atreides",
-          "ex-Sashi Academy",
-          "ENCE",
-          "BERG",
           "LPH",
           "SAW Youngsters",
           "mellren",
@@ -8120,6 +8094,48 @@
           {
             "event_id": "hltv:cct-2026-challengers-europe-series-5",
             "event_name": "CCT 2026 Challengers Europe Series 5",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396851",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396851",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396851/atreides-vs-ex-sashi-academy-cct-2026-challengers-europe-series-5",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-17T11:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Atreides",
+            "team2_name": "ex-Sashi Academy",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1"
+          },
+          {
+            "event_id": "hltv:cct-2026-challengers-europe-series-5",
+            "event_name": "CCT 2026 Challengers Europe Series 5",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396852",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396852",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396852/ence-vs-berg-cct-2026-challengers-europe-series-5",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-17T11:00:00Z",
+            "status": "upcoming",
+            "team1_name": "ENCE",
+            "team2_name": "BERG",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1"
+          },
+          {
+            "event_id": "hltv:cct-2026-challengers-europe-series-5",
+            "event_name": "CCT 2026 Challengers Europe Series 5",
             "event_url": null,
             "hltv_match_id": "2396850",
             "maps": [],
@@ -8272,17 +8288,17 @@
         ],
         "name": "CCT 2026 Challengers Europe Series 5",
         "participants": [
+          "Atreides",
+          "ex-Sashi Academy",
+          "ENCE",
+          "BERG",
           "Honv\u00e9d",
           "mellren",
           "Mai Tai",
-          "BERG",
-          "ENCE",
           "WBT",
           "Bushido Wildcats",
           "Fortress",
-          "ex-Sashi Academy",
           "SAW Youngsters",
-          "Atreides",
           "LPH",
           "ex-MANA",
           "Misa",
@@ -8290,11 +8306,11 @@
           "Entropy"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-08-17T04:04:06Z",
+    "last_verified_utc": "2026-08-17T07:17:36Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8732,7 +8748,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-17T04:04:25Z",
+  "generated_at_utc": "2026-08-17T07:17:55Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10197,7 +10213,7 @@
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-17T04:04:25Z",
+    "generated_at_utc": "2026-08-17T07:17:55Z",
     "history": [
       {
         "champion": {
@@ -10252,7 +10268,7 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
+      "new_rows": 0,
       "online_rows": 399,
       "seed_rows": 757
     }
@@ -20295,10 +20311,13 @@
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4937,
-      "event_id": "hltv:9323",
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-17",
@@ -20328,10 +20347,13 @@
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.5505,
-      "event_id": "hltv:9321",
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
       "event_name": "CCT 2026 Challengers Europe Series 5",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-17",
@@ -20361,10 +20383,13 @@
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.6172,
-      "event_id": "hltv:9321",
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
       "event_name": "CCT 2026 Challengers Europe Series 5",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-17",
@@ -20658,13 +20683,10 @@
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.5255,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-19",
@@ -20679,7 +20701,7 @@
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396599/g2-vs-astralis-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Playoffs",
       "starts_at": "2026-08-19T14:00:00Z",
       "status": "live",
       "team1_hltv_rank": null,
@@ -20694,13 +20716,10 @@
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.6315,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-19",
@@ -20715,7 +20734,7 @@
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Playoffs",
       "starts_at": "2026-08-19T14:00:00Z",
       "status": "live",
       "team1_hltv_rank": null,
@@ -20927,7 +20946,7 @@
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 78,
-    "online_results_applied": 1,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
