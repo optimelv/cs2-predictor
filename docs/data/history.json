@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-17T09:59:07Z",
+  "generated_at_utc": "2026-08-17T13:07:17Z",
   "through_date": "2026-08-17",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1386,
+    "matches": 1389,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1298,6 +1298,72 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "ALKA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396852",
+      "match_date": "2026-08-17",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "ENCE",
+      "team2_name": "BERG",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ENCE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396639",
+      "match_date": "2026-08-17",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "team1_name": "Permitta",
+      "team2_name": "UNiTY",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396851",
+      "match_date": "2026-08-17",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "Atreides",
+      "team2_name": "ex-Sashi Academy",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "ex-Sashi Academy",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
