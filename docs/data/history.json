@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-17T15:41:41Z",
+  "generated_at_utc": "2026-08-17T18:59:27Z",
   "through_date": "2026-08-17",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1391,
+    "matches": 1393,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1408,6 +1408,50 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396641",
+      "match_date": "2026-08-17",
+      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+      "team1_name": "Bushido Wildcats",
+      "team2_name": "Inner Circle Academy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Bushido Wildcats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396854",
+      "match_date": "2026-08-17",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "mellren",
+      "team2_name": "Noir Verse",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "mellren",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
