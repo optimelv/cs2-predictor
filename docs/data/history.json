@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-17T01:56:38Z",
+  "generated_at_utc": "2026-08-17T04:04:06Z",
   "through_date": "2026-08-17",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1385,
+    "matches": 1386,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1276,6 +1276,28 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "Lavked",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396808",
+      "match_date": "2026-08-17",
+      "event_name": "CCT 2026 Challengers South America Series 2",
+      "team1_name": "ALKA",
+      "team2_name": "QUINTESSÊNCIA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ALKA",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",

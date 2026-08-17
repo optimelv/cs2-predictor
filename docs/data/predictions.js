@@ -4418,7 +4418,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:cct-2026-challengers-south-america-series-2",
         "event_name": "CCT 2026 Challengers South America Series 2",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396808",
         "lineups": {
           "team1": [],
@@ -4444,21 +4444,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Cache",
-          "Ancient",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2396808",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396808/alka-vs-quintessncia-cct-2026-challengers-south-america-series-2",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "ALKA",
         "team2_name": "QUINTESS\u00caNCIA",
-        "veto_text": "Best of 3 (Online)\n\n* Grand final"
+        "veto_text": "Best of 3 (Online)\n\n* Grand final",
+        "winner_name": "ALKA"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -4582,10 +4581,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9323",
+        "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
         "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396639",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396639",
         "product_tier": "tier_2",
@@ -4595,7 +4598,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-17T08:00:00Z",
         "status": "upcoming",
         "team1_name": "Permitta",
-        "team2_name": "UNiTY"
+        "team2_name": "UNiTY",
+        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
       },
       {
         "event_id": "hltv:9323",
@@ -6788,25 +6792,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "K27",
             "team2_name": "MIBR",
             "winner_name": "MIBR"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
-            "event_url": null,
-            "hltv_match_id": "2396583",
-            "maps": [],
-            "match_id": "hltv:2396583",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396583/b8-vs-vitality-esports-world-cup-2026",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "B8",
-            "team2_name": "Vitality",
-            "winner_name": "B8"
           }
         ],
         "name": "Esports World Cup 2026",
@@ -6834,8 +6819,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Wildcard",
           "Natus Vincere",
           "100 Thieves",
-          "K27",
-          "B8"
+          "K27"
         ],
         "product_tier": "tier_1",
         "source_url": "https://www.hltv.org/events/archive",
@@ -6989,22 +6973,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9323",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
             "event_url": null,
-            "hltv_match_id": "2396639",
-            "maps": [],
-            "match_id": "hltv:2396639",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396639/permitta-vs-unity-cct-2026-europe-series-7-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-17T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Permitta",
-            "team2_name": "UNiTY"
-          },
-          {
-            "event_id": "hltv:9323",
-            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-            "event_url": null,
             "hltv_match_id": "2396640",
             "maps": [],
             "match_id": "hltv:2396640",
@@ -7052,8 +7020,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "participants": [
-          "Permitta",
-          "UNiTY",
           "Noir Verse",
           "ex-RUSTEC",
           "Bushido Wildcats",
@@ -7075,6 +7041,27 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-7-closed-qualifier",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
+            "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396639",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396639",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396639/permitta-vs-unity-cct-2026-europe-series-7-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-17T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Permitta",
+            "team2_name": "UNiTY",
+            "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7."
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7268,9 +7255,10 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 7 Closed Qualifier",
         "participants": [
+          "Permitta",
+          "UNiTY",
           "ex-Sashi Academy",
           "Inner Circle Academy",
-          "UNiTY",
           "Misa",
           "BERG",
           "HAVU",
@@ -7282,8 +7270,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "Mai Tai"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       },
       {
         "current_stage": "Playoffs",
@@ -7419,6 +7407,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-challengers-south-america-series-2",
             "event_name": "CCT 2026 Challengers South America Series 2",
             "event_url": null,
+            "hltv_match_id": "2396808",
+            "maps": [],
+            "match_id": "hltv:2396808",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396808/alka-vs-quintessncia-cct-2026-challengers-south-america-series-2",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "ALKA",
+            "team2_name": "QUINTESS\u00caNCIA",
+            "winner_name": "ALKA"
+          },
+          {
+            "event_id": "hltv:cct-2026-challengers-south-america-series-2",
+            "event_name": "CCT 2026 Challengers South America Series 2",
+            "event_url": null,
             "hltv_match_id": "2396807",
             "maps": [],
             "match_id": "hltv:2396807",
@@ -7509,65 +7516,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Pugdesonesto",
             "team2_name": "QUINTESS\u00caNCIA",
             "winner_name": "QUINTESS\u00caNCIA"
-          },
-          {
-            "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-            "event_name": "CCT 2026 Challengers South America Series 2",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396808",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Cache",
-                "score1": 11,
-                "score2": 13,
-                "status": "finished"
-              },
-              {
-                "map_name": "Ancient",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Cache",
-              "Ancient",
-              "Mirage"
-            ],
-            "match_id": "hltv:2396808",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396808/alka-vs-quintessncia-cct-2026-challengers-south-america-series-2",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "ALKA",
-            "team2_name": "QUINTESS\u00caNCIA",
-            "veto_text": "Best of 3 (Online)\n\n* Grand final"
           }
         ],
         "name": "CCT 2026 Challengers South America Series 2",
         "participants": [
-          "paiN Academy",
-          "QUINTESS\u00caNCIA",
-          "METANOIA Wolves",
           "ALKA",
+          "QUINTESS\u00caNCIA",
+          "paiN Academy",
+          "METANOIA Wolves",
           "MEIA NOITE",
           "Pugdesonesto"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "finished"
       },
       {
         "current_stage": "Schedule",
@@ -8332,7 +8294,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-08-17T01:56:38Z",
+    "last_verified_utc": "2026-08-17T04:04:06Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8770,7 +8732,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-17T01:56:57Z",
+  "generated_at_utc": "2026-08-17T04:04:25Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10166,13 +10128,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 3,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.639033,
-        "brier": 0.220769,
-        "ece": 0.034755,
-        "log_loss": 0.630336
+        "accuracy": 0.639655,
+        "brier": 0.220612,
+        "ece": 0.034075,
+        "log_loss": 0.630017
       },
-      "rows": 1155,
-      "test_rows": 579
+      "rows": 1156,
+      "test_rows": 580
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -10186,13 +10148,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 3,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.637306,
-        "brier": 0.220746,
-        "ece": 0.016207,
-        "log_loss": 0.631056
+        "accuracy": 0.641379,
+        "brier": 0.220633,
+        "ece": 0.019298,
+        "log_loss": 0.630827
       },
       "promotion_passed": false,
-      "rows": 579
+      "rows": 580
     },
     "champion": {
       "blend_weight": 0.5,
@@ -10235,7 +10197,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-17T01:56:57Z",
+    "generated_at_utc": "2026-08-17T04:04:25Z",
     "history": [
       {
         "champion": {
@@ -10290,8 +10252,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
-      "online_rows": 398,
+      "new_rows": 1,
+      "online_rows": 399,
       "seed_rows": 757
     }
   },
@@ -10694,9 +10656,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2396593",
       "hltv:2396835",
       "hltv:2396807",
-      "hltv:2396834"
+      "hltv:2396834",
+      "hltv:2396808"
     ],
-    "last_online_update_utc": "2026-08-17T01:56:57Z",
+    "last_online_update_utc": "2026-08-17T04:04:25Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -14936,10 +14899,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 227
       },
       {
-        "elo": 1513.32,
-        "last_result_utc": "2026-08-16T01:58:50Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.6044,
+        "elo": 1526.5,
+        "last_result_utc": "2026-08-17T04:04:25Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.6763,
         "team_key": "alka",
         "team_name": "ALKA",
         "vrs_points": 693.0,
@@ -17251,10 +17214,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1537.54,
-        "last_result_utc": "2026-08-17T01:56:57Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.7262,
+        "elo": 1524.36,
+        "last_result_utc": "2026-08-17T04:04:25Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.5942,
         "team_key": "quintess ncia",
         "team_name": "QUINTESS\u00caNCIA",
         "vrs_points": 0,
@@ -20296,10 +20259,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4718,
-      "event_id": "hltv:9323",
+      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-17",
@@ -20956,71 +20922,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Spirit",
       "team2_vrs_rank": 2
-    },
-    {
-      "confidence": 0.5888,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5888,
-      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-      "event_name": "CCT 2026 Challengers South America Series 2",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Cache",
-          "score1": 11,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Cache",
-        "Ancient",
-        "Mirage"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2396808",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "ALKA",
-      "prob_team1": 0.5888,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396808/alka-vs-quintessncia-cct-2026-challengers-south-america-series-2",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "ALKA",
-      "team1_vrs_rank": 228,
-      "team2_hltv_rank": null,
-      "team2_name": "QUINTESS\u00caNCIA",
-      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 79,
-    "online_results_applied": 2,
+    "live_feed_items": 78,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
