@@ -3971,6 +3971,51 @@
         "winner_name": "HAVU"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-7",
+        "event_name": "CCT 2026 Europe Series 7",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396643",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Mirage",
+            "score1": 6,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": 3,
+            "score2": 9,
+            "status": "finished"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Mirage",
+          "Dust2",
+          "Anubis"
+        ],
+        "match_id": "hltv:2396643",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396643/pcific-vs-just-players-cct-2026-europe-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "PCIFIC",
+        "team2_name": "Just Players",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4090,27 +4135,6 @@
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-7",
-        "event_name": "CCT 2026 Europe Series 7",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396643",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396643",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396643/pcific-vs-just-players-cct-2026-europe-series-7",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-18T08:00:00Z",
-        "status": "upcoming",
-        "team1_name": "PCIFIC",
-        "team2_name": "Just Players",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
       },
       {
         "event_id": "hltv:9321",
@@ -8301,27 +8325,6 @@
             "event_id": "hltv:cct-2026-europe-series-7",
             "event_name": "CCT 2026 Europe Series 7",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396643",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396643",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396643/pcific-vs-just-players-cct-2026-europe-series-7",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-18T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "PCIFIC",
-            "team2_name": "Just Players",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-7",
-            "event_name": "CCT 2026 Europe Series 7",
-            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2396644",
             "lineups": {
               "team1": [],
@@ -8338,21 +8341,66 @@
             "team1_name": "MASONIC",
             "team2_name": "Bebop",
             "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-7",
+            "event_name": "CCT 2026 Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396643",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Mirage",
+                "score1": 6,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": 3,
+                "score2": 9,
+                "status": "finished"
+              },
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Mirage",
+              "Dust2",
+              "Anubis"
+            ],
+            "match_id": "hltv:2396643",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396643/pcific-vs-just-players-cct-2026-europe-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "PCIFIC",
+            "team2_name": "Just Players",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
           }
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
-          "PCIFIC",
-          "Just Players",
           "MASONIC",
-          "Bebop"
+          "Bebop",
+          "PCIFIC",
+          "Just Players"
         ],
         "product_tier": "tier_2",
         "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-18T07:05:40Z",
+    "last_verified_utc": "2026-08-18T09:50:31Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8790,7 +8838,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-18T07:05:57Z",
+  "generated_at_utc": "2026-08-18T09:50:43Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10255,7 +10303,7 @@
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-18T07:05:57Z",
+    "generated_at_utc": "2026-08-18T09:50:42Z",
     "history": [
       {
         "champion": {
@@ -20321,42 +20369,6 @@
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5636,
-      "confidence_label": "thin",
-      "data_quality": "partial",
-      "elo_prob_team1": 0.4364,
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-18",
-      "match_id": "hltv:2396643",
-      "match_phase": "scheduled",
-      "match_timestamp": 1787040000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Just Players",
-      "prob_team1": 0.4364,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396643/pcific-vs-just-players-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-18T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "PCIFIC",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Just Players",
-      "team2_vrs_rank": 122
-    },
-    {
       "confidence": 0.6168,
       "confidence_label": "lean",
       "data_quality": "full",
@@ -21117,6 +21129,39 @@
       "team2_hltv_rank": null,
       "team2_name": "HYPERSPIRIT",
       "team2_vrs_rank": 130
+    },
+    {
+      "confidence": 0.6734,
+      "confidence_label": "watch",
+      "data_quality": "full",
+      "elo_prob_team1": 0.6734,
+      "event_id": "hltv:8261",
+      "event_name": "Esports World Cup 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-20",
+      "match_id": "hltv:2396603",
+      "match_phase": "scheduled",
+      "match_timestamp": 1787223600,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Natus Vincere",
+      "prob_team1": 0.6734,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-08-20T11:00:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Natus Vincere",
+      "team1_vrs_rank": 4,
+      "team2_hltv_rank": null,
+      "team2_name": "Legacy",
+      "team2_vrs_rank": 6
     }
   ],
   "updater": {
