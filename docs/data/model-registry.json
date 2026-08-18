@@ -3,13 +3,13 @@
     "folds": 3,
     "kind": "heuristic",
     "metrics": {
-      "accuracy": 0.63575,
-      "brier": 0.221832,
-      "ece": 0.032263,
-      "log_loss": 0.63275
+      "accuracy": 0.636364,
+      "brier": 0.221618,
+      "ece": 0.032728,
+      "log_loss": 0.632305
     },
-    "rows": 1181,
-    "test_rows": 593
+    "rows": 1188,
+    "test_rows": 594
   },
   "challenger": {
     "blend_weight": 0.5,
@@ -23,13 +23,13 @@
     "folds": 3,
     "l2": 0.005,
     "metrics": {
-      "accuracy": 0.640809,
-      "brier": 0.221656,
-      "ece": 0.019387,
-      "log_loss": 0.632955
+      "accuracy": 0.638047,
+      "brier": 0.221418,
+      "ece": 0.016492,
+      "log_loss": 0.632475
     },
     "promotion_passed": false,
-    "rows": 593
+    "rows": 594
   },
   "champion": {
     "blend_weight": 0.5,
@@ -72,7 +72,7 @@
     ]
   },
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-18T18:58:15Z",
+  "generated_at_utc": "2026-08-18T21:40:16Z",
   "history": [
     {
       "champion": {
@@ -127,8 +127,8 @@
     "minimum_test_rows": 350
   },
   "training": {
-    "new_rows": 8,
-    "online_rows": 424,
+    "new_rows": 7,
+    "online_rows": 431,
     "seed_rows": 757
   }
 }
