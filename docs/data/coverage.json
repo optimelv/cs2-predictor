@@ -5,189 +5,6 @@
       "event_id": "hltv:esports-world-cup-2026-open-qualifier",
       "event_name": "Esports World Cup 2026 Open Qualifier",
       "event_url": null,
-      "hltv_match_id": "2396542",
-      "maps": [],
-      "match_id": "hltv:2396542",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396542/9ine-vs-hotu-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "9INE",
-      "team2_name": "HOTU",
-      "winner_name": "HOTU"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396543",
-      "maps": [],
-      "match_id": "hltv:2396543",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396543/fokus-vs-acend-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "FOKUS",
-      "team2_name": "Acend",
-      "winner_name": "Acend"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396544",
-      "maps": [],
-      "match_id": "hltv:2396544",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396544/1win-vs-liquid-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "1win",
-      "team2_name": "Liquid",
-      "winner_name": "1win"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396545",
-      "maps": [],
-      "match_id": "hltv:2396545",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396545/bcgame-vs-og-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "BC.Game",
-      "team2_name": "OG",
-      "winner_name": "BC.Game"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396546",
-      "maps": [],
-      "match_id": "hltv:2396546",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396546/infinite-vs-100-thieves-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "INFINITE",
-      "team2_name": "100 Thieves",
-      "winner_name": "100 Thieves"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396548",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Ancient",
-          "score1": 9,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Inferno",
-          "score1": 4,
-          "score2": 8,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396548",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396548/heroic-vs-fnatic-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "HEROIC",
-      "team2_name": "fnatic",
-      "veto_text": "Best of 3 (LAN)\n\n* Round of 16",
-      "winner_name": "fnatic"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396554",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Inferno",
-          "score1": 7,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396554",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396554/100-thieves-vs-bcgame-esports-world-cup-2026-open-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "100 Thieves",
-      "team2_name": "BC.Game",
-      "veto_text": "Best of 3 (LAN)\n\n* Round of 16",
-      "winner_name": "100 Thieves"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026-open-qualifier",
-      "event_name": "Esports World Cup 2026 Open Qualifier",
-      "event_url": null,
       "hltv_match_id": "2396549",
       "lineups": {
         "team1": [],
@@ -4041,7 +3858,7 @@
     {
       "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
       "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396898",
       "lineups": {
         "team1": [],
@@ -4067,21 +3884,20 @@
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Anubis",
-        "Nuke",
-        "Inferno"
-      ],
+      "maps": [],
       "match_id": "hltv:2396898",
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396898/strael-bora-vs-the-last-resort-esl-challenger-league-season-52-europe-cup-4",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "Strael Bora",
       "team2_name": "The Last Resort",
-      "veto_text": "Best of 3 (Online)\n\n* Group B opening match"
+      "veto_text": "Best of 3 (Online)\n\n* Group B opening match",
+      "winner_name": "The Last Resort"
     },
     {
       "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
@@ -4130,7 +3946,7 @@
     {
       "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
       "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396900",
       "lineups": {
         "team1": [],
@@ -4156,21 +3972,20 @@
           "status": "finished"
         }
       ],
-      "maps": [
-        "Ancient",
-        "Dust2",
-        "Nuke"
-      ],
+      "maps": [],
       "match_id": "hltv:2396900",
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396900/mouz-nxt-vs-sparta-esl-challenger-league-season-52-europe-cup-4",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "MOUZ NXT",
       "team2_name": "SPARTA",
-      "veto_text": "Best of 3 (Online)\n\n* Group C opening match"
+      "veto_text": "Best of 3 (Online)\n\n* Group C opening match",
+      "winner_name": "SPARTA"
     },
     {
       "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
@@ -4194,7 +4009,7 @@
     {
       "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
       "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396902",
       "lineups": {
         "team1": [],
@@ -4220,21 +4035,20 @@
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Nuke",
-        "Dust2",
-        "Ancient"
-      ],
+      "maps": [],
       "match_id": "hltv:2396902",
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396902/permitta-vs-og-esl-challenger-league-season-52-europe-cup-4",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "Permitta",
       "team2_name": "OG",
-      "veto_text": "Best of 3 (Online)\n\n* Group D opening match"
+      "veto_text": "Best of 3 (Online)\n\n* Group D opening match",
+      "winner_name": "OG"
     },
     {
       "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
@@ -4275,41 +4089,47 @@
       "winner_name": "Color"
     },
     {
-      "event_id": "hltv:9321",
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
       "event_name": "CCT 2026 Challengers Europe Series 5",
       "event_url": null,
       "hltv_match_id": "2396857",
       "maps": [],
       "match_id": "hltv:2396857",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396857/wbt-vs-mai-tai-cct-2026-challengers-europe-series-5",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "WBT",
-      "team2_name": "Mai Tai"
+      "team2_name": "Mai Tai",
+      "winner_name": "WBT"
     },
     {
-      "event_id": "hltv:9321",
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
       "event_name": "CCT 2026 Challengers Europe Series 5",
       "event_url": null,
       "hltv_match_id": "2396858",
       "maps": [],
       "match_id": "hltv:2396858",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396858/bushido-wildcats-vs-misa-cct-2026-challengers-europe-series-5",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "Bushido Wildcats",
-      "team2_name": "Misa"
+      "team2_name": "Misa",
+      "winner_name": "Bushido Wildcats"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396645",
       "lineups": {
         "team1": [],
@@ -4335,21 +4155,286 @@
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Nuke",
-        "Dust2",
-        "Anubis"
-      ],
+      "maps": [],
       "match_id": "hltv:2396645",
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396645/leo-vs-ex-rustec-cct-2026-europe-series-7",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Leo",
+      "team2_name": "ex-RUSTEC",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+      "winner_name": "ex-RUSTEC"
+    },
+    {
+      "event_id": "hltv:9324",
+      "event_name": "CCT 2026 Europe Series 7",
+      "event_url": null,
+      "hltv_match_id": "2396646",
+      "maps": [],
+      "match_id": "hltv:2396646",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396646/lavked-vs-havu-cct-2026-europe-series-7",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "Leo",
-      "team2_name": "ex-RUSTEC",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+      "team1_name": "Lavked",
+      "team2_name": "HAVU"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396903",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Cache",
+          "score1": 10,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 5,
+          "score2": 7,
+          "status": "finished"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Cache",
+        "Dust2",
+        "Inferno"
+      ],
+      "match_id": "hltv:2396903",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396903/fire-flux-vs-pcific-esl-challenger-league-season-52-europe-cup-4",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Fire Flux",
+      "team2_name": "PCIFIC",
+      "veto_text": "Best of 3 (Online)\n\n* Group A winners' match"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396904",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": 11,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 7,
+          "score2": 5,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Dust2",
+        "Ancient"
+      ],
+      "match_id": "hltv:2396904",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396904/omega-vs-entropy-esl-challenger-league-season-52-europe-cup-4",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Omega",
+      "team2_name": "Entropy",
+      "veto_text": "Best of 3 (Online)\n\n* Group A elimination match\n\n** tevsii substitutes L00m1 on the 2nd map."
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396905",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": 16,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Dust2",
+        "Cache"
+      ],
+      "match_id": "hltv:2396905",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396905/color-vs-the-last-resort-esl-challenger-league-season-52-europe-cup-4",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Color",
+      "team2_name": "The Last Resort",
+      "veto_text": "Best of 3 (Online)\n\n* Group B winners' match"
+    },
+    {
+      "event_id": "hltv:9262",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "event_url": null,
+      "hltv_match_id": "2396906",
+      "maps": [],
+      "match_id": "hltv:2396906",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396906/misa-vs-strael-bora-esl-challenger-league-season-52-europe-cup-4",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Misa",
+      "team2_name": "Strael Bora"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "event_url": null,
+      "hltv_match_id": "2396909",
+      "maps": [],
+      "match_id": "hltv:2396909",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396909/eac-vs-og-esl-challenger-league-season-52-europe-cup-4",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "EAC",
+      "team2_name": "OG",
+      "winner_name": "OG"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "event_url": null,
+      "hltv_match_id": "2396910",
+      "maps": [],
+      "match_id": "hltv:2396910",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396910/fortress-vs-permitta-esl-challenger-league-season-52-europe-cup-4",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Fortress",
+      "team2_name": "Permitta",
+      "winner_name": "Permitta"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396907",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 10,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Nuke",
+        "Inferno"
+      ],
+      "match_id": "hltv:2396907",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396907/metizport-vs-sparta-esl-challenger-league-season-52-europe-cup-4",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Metizport",
+      "team2_name": "SPARTA",
+      "veto_text": "Best of 3 (Online)\n\n* Group C winners' match"
+    },
+    {
+      "event_id": "hltv:9262",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "event_url": null,
+      "hltv_match_id": "2396908",
+      "maps": [],
+      "match_id": "hltv:2396908",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396908/donstu-vs-mouz-nxt-esl-challenger-league-season-52-europe-cup-4",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "DONSTU",
+      "team2_name": "MOUZ NXT"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -4476,86 +4561,6 @@
       "event_id": "hltv:9324",
       "event_name": "CCT 2026 Europe Series 7",
       "event_url": null,
-      "hltv_match_id": "2396646",
-      "maps": [],
-      "match_id": "hltv:2396646",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396646/lavked-vs-havu-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-18T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Lavked",
-      "team2_name": "HAVU"
-    },
-    {
-      "event_id": "hltv:9262",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-      "event_url": null,
-      "hltv_match_id": "2396903",
-      "maps": [],
-      "match_id": "hltv:2396903",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396903/fire-flux-vs-pcific-esl-challenger-league-season-52-europe-cup-4",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-18T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Fire Flux",
-      "team2_name": "PCIFIC"
-    },
-    {
-      "event_id": "hltv:9262",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-      "event_url": null,
-      "hltv_match_id": "2396904",
-      "maps": [],
-      "match_id": "hltv:2396904",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396904/omega-vs-entropy-esl-challenger-league-season-52-europe-cup-4",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-18T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Omega",
-      "team2_name": "Entropy"
-    },
-    {
-      "event_id": "hltv:9262",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-      "event_url": null,
-      "hltv_match_id": "2396905",
-      "maps": [],
-      "match_id": "hltv:2396905",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396905/color-vs-the-last-resort-esl-challenger-league-season-52-europe-cup-4",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-18T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Color",
-      "team2_name": "The Last Resort"
-    },
-    {
-      "event_id": "hltv:9262",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-      "event_url": null,
-      "hltv_match_id": "2396906",
-      "maps": [],
-      "match_id": "hltv:2396906",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396906/misa-vs-strael-bora-esl-challenger-league-season-52-europe-cup-4",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-18T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Misa",
-      "team2_name": "Strael Bora"
-    },
-    {
-      "event_id": "hltv:9324",
-      "event_name": "CCT 2026 Europe Series 7",
-      "event_url": null,
       "hltv_match_id": "2396647",
       "maps": [],
       "match_id": "hltv:2396647",
@@ -4583,6 +4588,22 @@
       "status": "upcoming",
       "team1_name": "G2 Ares",
       "team2_name": "ex-Zero Tenacity"
+    },
+    {
+      "event_id": "hltv:9262",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "event_url": null,
+      "hltv_match_id": "2396914",
+      "maps": [],
+      "match_id": "hltv:2396914",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396914/permitta-vs-eac-esl-challenger-league-season-52-europe-cup-4",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-19T13:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Permitta",
+      "team2_name": "EAC"
     },
     {
       "event_id": "hltv:8261",
@@ -4731,6 +4752,38 @@
       "status": "live",
       "team1_name": "Falcons",
       "team2_name": "The MongolZ"
+    },
+    {
+      "event_id": "hltv:9321",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396865",
+      "maps": [],
+      "match_id": "hltv:2396865",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396865/lph-vs-wbt-cct-2026-challengers-europe-series-5",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-08-20T13:45:00Z",
+      "status": "upcoming",
+      "team1_name": "LPH",
+      "team2_name": "WBT"
+    },
+    {
+      "event_id": "hltv:9321",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396866",
+      "maps": [],
+      "match_id": "hltv:2396866",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396866/mellren-vs-bushido-wildcats-cct-2026-challengers-europe-series-5",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-08-20T13:45:00Z",
+      "status": "upcoming",
+      "team1_name": "mellren",
+      "team2_name": "Bushido Wildcats"
     },
     {
       "event_id": "hltv:8261",
@@ -6594,63 +6647,6 @@
           "team1_name": "Spirit",
           "team2_name": "BIG",
           "winner_name": "Spirit"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396592",
-          "maps": [],
-          "match_id": "hltv:2396592",
-          "product_tier": "tier_1",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396592/jijiehao-vs-aurora-esports-world-cup-2026",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "JiJieHao",
-          "team2_name": "Aurora",
-          "winner_name": "Aurora"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396588",
-          "maps": [],
-          "match_id": "hltv:2396588",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396588/furia-vs-9z-esports-world-cup-2026",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "FURIA",
-          "team2_name": "9z",
-          "winner_name": "FURIA"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396589",
-          "maps": [],
-          "match_id": "hltv:2396589",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396589/magic-vs-3dmax-esports-world-cup-2026",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "magic",
-          "team2_name": "3DMAX",
-          "winner_name": "magic"
         }
       ],
       "name": "Esports World Cup 2026",
@@ -6668,11 +6664,7 @@
         "Lynn Vision",
         "Vitality",
         "Spirit",
-        "BIG",
-        "JiJieHao",
-        "Aurora",
-        "FURIA",
-        "3DMAX"
+        "BIG"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -7064,25 +7056,6 @@
           "team1_name": "Noir Verse",
           "team2_name": "ex-Sashi Academy",
           "winner_name": "Noir Verse"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2396633",
-          "maps": [],
-          "match_id": "hltv:2396633",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396633/enjoy-vs-unity-cct-2026-europe-series-7-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Enjoy",
-          "team2_name": "UNiTY",
-          "winner_name": "Enjoy"
         }
       ],
       "name": "CCT 2026 Europe Series 7 Closed Qualifier",
@@ -7323,11 +7296,19 @@
       "status": "finished"
     },
     {
-      "current_stage": "Schedule",
+      "current_stage": "Playoffs",
       "format": {
-        "label": "Event schedule",
+        "label": "Playoffs",
         "settings": {},
-        "stages": [],
+        "stages": [
+          {
+            "id": "playoffs",
+            "name": "Playoffs",
+            "order": 1,
+            "status": "pending",
+            "type": "single_elimination"
+          }
+        ],
         "type": "mixed"
       },
       "id": "hltv:9321",
@@ -7336,45 +7317,45 @@
           "event_id": "hltv:9321",
           "event_name": "CCT 2026 Challengers Europe Series 5",
           "event_url": null,
-          "hltv_match_id": "2396857",
+          "hltv_match_id": "2396865",
           "maps": [],
-          "match_id": "hltv:2396857",
+          "match_id": "hltv:2396865",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396857/wbt-vs-mai-tai-cct-2026-challengers-europe-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "WBT",
-          "team2_name": "Mai Tai"
+          "source_url": "https://www.hltv.org/matches/2396865/lph-vs-wbt-cct-2026-challengers-europe-series-5",
+          "stage_name": "Playoffs",
+          "starts_at": "2026-08-20T13:45:00Z",
+          "status": "upcoming",
+          "team1_name": "LPH",
+          "team2_name": "WBT"
         },
         {
           "event_id": "hltv:9321",
           "event_name": "CCT 2026 Challengers Europe Series 5",
           "event_url": null,
-          "hltv_match_id": "2396858",
+          "hltv_match_id": "2396866",
           "maps": [],
-          "match_id": "hltv:2396858",
+          "match_id": "hltv:2396866",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396858/bushido-wildcats-vs-misa-cct-2026-challengers-europe-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Bushido Wildcats",
-          "team2_name": "Misa"
+          "source_url": "https://www.hltv.org/matches/2396866/mellren-vs-bushido-wildcats-cct-2026-challengers-europe-series-5",
+          "stage_name": "Playoffs",
+          "starts_at": "2026-08-20T13:45:00Z",
+          "status": "upcoming",
+          "team1_name": "mellren",
+          "team2_name": "Bushido Wildcats"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 5",
       "participants": [
+        "LPH",
         "WBT",
-        "Mai Tai",
-        "Bushido Wildcats",
-        "Misa"
+        "mellren",
+        "Bushido Wildcats"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -7537,82 +7518,6 @@
           "team1_name": "Lavked",
           "team2_name": "OG",
           "winner_name": "Lavked"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2396824",
-          "maps": [],
-          "match_id": "hltv:2396824",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396824/mouz-nxt-vs-ex-mana-esl-challenger-league-season-52-europe-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "MOUZ NXT",
-          "team2_name": "ex-MANA",
-          "winner_name": "ex-MANA"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2396826",
-          "maps": [],
-          "match_id": "hltv:2396826",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396826/leo-vs-misa-esl-challenger-league-season-52-europe-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Leo",
-          "team2_name": "Misa",
-          "winner_name": "Misa"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2396827",
-          "maps": [],
-          "match_id": "hltv:2396827",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396827/fire-flux-vs-og-esl-challenger-league-season-52-europe-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Fire Flux",
-          "team2_name": "OG",
-          "winner_name": "OG"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2396825",
-          "maps": [],
-          "match_id": "hltv:2396825",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396825/sinqu-vs-basement-boys-esl-challenger-league-season-52-europe-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "SINQU",
-          "team2_name": "BASEMENT BOYS",
-          "winner_name": "BASEMENT BOYS"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 3",
@@ -7624,11 +7529,7 @@
         "ex-MANA",
         "Misa",
         "BAKS",
-        "OG",
-        "MOUZ NXT",
-        "Leo",
-        "Fire Flux",
-        "SINQU"
+        "OG"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -7644,6 +7545,44 @@
       },
       "id": "hltv:cct-2026-challengers-europe-series-5",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-5",
+          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396858",
+          "maps": [],
+          "match_id": "hltv:2396858",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396858/bushido-wildcats-vs-misa-cct-2026-challengers-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Bushido Wildcats",
+          "team2_name": "Misa",
+          "winner_name": "Bushido Wildcats"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-5",
+          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396857",
+          "maps": [],
+          "match_id": "hltv:2396857",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396857/wbt-vs-mai-tai-cct-2026-challengers-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "WBT",
+          "team2_name": "Mai Tai",
+          "winner_name": "WBT"
+        },
         {
           "event_id": "hltv:cct-2026-challengers-europe-series-5",
           "event_name": "CCT 2026 Challengers Europe Series 5",
@@ -7833,29 +7772,14 @@
           "team1_name": "Bushido Wildcats",
           "team2_name": "Fortress",
           "winner_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-europe-series-5",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396845",
-          "maps": [],
-          "match_id": "hltv:2396845",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396845/ex-sashi-academy-vs-saw-youngsters-cct-2026-challengers-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ex-Sashi Academy",
-          "team2_name": "SAW Youngsters",
-          "winner_name": "SAW Youngsters"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 5",
       "participants": [
+        "Bushido Wildcats",
+        "Misa",
+        "WBT",
+        "Mai Tai",
         "Honvéd",
         "Entropy",
         "Fortress",
@@ -7867,10 +7791,7 @@
         "ENCE",
         "BERG",
         "Atreides",
-        "ex-Sashi Academy",
-        "Mai Tai",
-        "WBT",
-        "Bushido Wildcats"
+        "ex-Sashi Academy"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -7890,49 +7811,33 @@
           "event_id": "hltv:9262",
           "event_name": "ESL Challenger League Season 52 Europe Cup 4",
           "event_url": null,
-          "hltv_match_id": "2396903",
+          "hltv_match_id": "2396914",
           "maps": [],
-          "match_id": "hltv:2396903",
+          "match_id": "hltv:2396914",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396903/fire-flux-vs-pcific-esl-challenger-league-season-52-europe-cup-4",
+          "source_url": "https://www.hltv.org/matches/2396914/permitta-vs-eac-esl-challenger-league-season-52-europe-cup-4",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-18T17:00:00Z",
+          "starts_at": "2026-08-19T13:00:00Z",
           "status": "upcoming",
-          "team1_name": "Fire Flux",
-          "team2_name": "PCIFIC"
+          "team1_name": "Permitta",
+          "team2_name": "EAC"
         },
         {
           "event_id": "hltv:9262",
           "event_name": "ESL Challenger League Season 52 Europe Cup 4",
           "event_url": null,
-          "hltv_match_id": "2396904",
+          "hltv_match_id": "2396908",
           "maps": [],
-          "match_id": "hltv:2396904",
+          "match_id": "hltv:2396908",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396904/omega-vs-entropy-esl-challenger-league-season-52-europe-cup-4",
+          "source_url": "https://www.hltv.org/matches/2396908/donstu-vs-mouz-nxt-esl-challenger-league-season-52-europe-cup-4",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-18T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Omega",
-          "team2_name": "Entropy"
-        },
-        {
-          "event_id": "hltv:9262",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-          "event_url": null,
-          "hltv_match_id": "2396905",
-          "maps": [],
-          "match_id": "hltv:2396905",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396905/color-vs-the-last-resort-esl-challenger-league-season-52-europe-cup-4",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-18T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Color",
-          "team2_name": "The Last Resort"
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "DONSTU",
+          "team2_name": "MOUZ NXT"
         },
         {
           "event_id": "hltv:9262",
@@ -7945,26 +7850,24 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396906/misa-vs-strael-bora-esl-challenger-league-season-52-europe-cup-4",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-18T17:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "Misa",
           "team2_name": "Strael Bora"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 4",
       "participants": [
-        "Fire Flux",
-        "PCIFIC",
-        "Omega",
-        "Entropy",
-        "Color",
-        "The Last Resort",
+        "Permitta",
+        "EAC",
+        "DONSTU",
+        "MOUZ NXT",
         "Misa",
         "Strael Bora"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8142,22 +8045,6 @@
           "event_id": "hltv:9324",
           "event_name": "CCT 2026 Europe Series 7",
           "event_url": null,
-          "hltv_match_id": "2396646",
-          "maps": [],
-          "match_id": "hltv:2396646",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396646/lavked-vs-havu-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-18T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Lavked",
-          "team2_name": "HAVU"
-        },
-        {
-          "event_id": "hltv:9324",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
           "hltv_match_id": "2396647",
           "maps": [],
           "match_id": "hltv:2396647",
@@ -8217,12 +8104,26 @@
           "status": "upcoming",
           "team1_name": "Drip Too Hard",
           "team2_name": "HYPERSPIRIT"
+        },
+        {
+          "event_id": "hltv:9324",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396646",
+          "maps": [],
+          "match_id": "hltv:2396646",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396646/lavked-vs-havu-cct-2026-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Lavked",
+          "team2_name": "HAVU"
         }
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
-        "Lavked",
-        "HAVU",
         "GenOne",
         "UNiTY",
         "G2 Ares",
@@ -8230,11 +8131,13 @@
         "Black Phoenix",
         "Bushido Wildcats",
         "Drip Too Hard",
-        "HYPERSPIRIT"
+        "HYPERSPIRIT",
+        "Lavked",
+        "HAVU"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8246,6 +8149,25 @@
       },
       "id": "hltv:cct-2026-europe-series-7",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396645",
+          "maps": [],
+          "match_id": "hltv:2396645",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396645/leo-vs-ex-rustec-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Leo",
+          "team2_name": "ex-RUSTEC",
+          "winner_name": "ex-RUSTEC"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-7",
           "event_name": "CCT 2026 Europe Series 7",
@@ -8283,65 +8205,20 @@
           "team1_name": "PCIFIC",
           "team2_name": "Just Players",
           "winner_name": "Just Players"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396645",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Nuke",
-              "score1": 13,
-              "score2": 6,
-              "status": "finished"
-            },
-            {
-              "map_name": "Dust2",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Anubis",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Nuke",
-            "Dust2",
-            "Anubis"
-          ],
-          "match_id": "hltv:2396645",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396645/leo-vs-ex-rustec-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Leo",
-          "team2_name": "ex-RUSTEC",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
         }
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
+        "Leo",
+        "ex-RUSTEC",
         "MASONIC",
         "Bebop",
         "PCIFIC",
-        "Just Players",
-        "Leo",
-        "ex-RUSTEC"
+        "Just Players"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -8353,6 +8230,101 @@
       },
       "id": "hltv:esl-challenger-league-season-52-europe-cup-4",
       "matches": [
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+          "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+          "event_url": null,
+          "hltv_match_id": "2396909",
+          "maps": [],
+          "match_id": "hltv:2396909",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396909/eac-vs-og-esl-challenger-league-season-52-europe-cup-4",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "EAC",
+          "team2_name": "OG",
+          "winner_name": "OG"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+          "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+          "event_url": null,
+          "hltv_match_id": "2396910",
+          "maps": [],
+          "match_id": "hltv:2396910",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396910/fortress-vs-permitta-esl-challenger-league-season-52-europe-cup-4",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Fortress",
+          "team2_name": "Permitta",
+          "winner_name": "Permitta"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+          "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+          "event_url": null,
+          "hltv_match_id": "2396902",
+          "maps": [],
+          "match_id": "hltv:2396902",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396902/permitta-vs-og-esl-challenger-league-season-52-europe-cup-4",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Permitta",
+          "team2_name": "OG",
+          "winner_name": "OG"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+          "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+          "event_url": null,
+          "hltv_match_id": "2396900",
+          "maps": [],
+          "match_id": "hltv:2396900",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396900/mouz-nxt-vs-sparta-esl-challenger-league-season-52-europe-cup-4",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "MOUZ NXT",
+          "team2_name": "SPARTA",
+          "winner_name": "SPARTA"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+          "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+          "event_url": null,
+          "hltv_match_id": "2396898",
+          "maps": [],
+          "match_id": "hltv:2396898",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396898/strael-bora-vs-the-last-resort-esl-challenger-league-season-52-europe-cup-4",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Strael Bora",
+          "team2_name": "The Last Resort",
+          "winner_name": "The Last Resort"
+        },
         {
           "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
           "event_name": "ESL Challenger League Season 52 Europe Cup 4",
@@ -8452,67 +8424,67 @@
           "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
           "event_name": "ESL Challenger League Season 52 Europe Cup 4",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396900",
+          "hltv_match_id": "2396903",
           "lineups": {
             "team1": [],
             "team2": []
           },
           "map_results": [
             {
-              "map_name": "Ancient",
-              "score1": 13,
-              "score2": 7,
-              "status": "finished"
-            },
-            {
-              "map_name": "Dust2",
+              "map_name": "Cache",
               "score1": 10,
               "score2": 13,
               "status": "finished"
             },
             {
-              "map_name": "Nuke",
+              "map_name": "Dust2",
               "score1": 5,
               "score2": 7,
               "status": "finished"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
             }
           ],
           "maps": [
-            "Ancient",
+            "Cache",
             "Dust2",
-            "Nuke"
+            "Inferno"
           ],
-          "match_id": "hltv:2396900",
+          "match_id": "hltv:2396903",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396900/mouz-nxt-vs-sparta-esl-challenger-league-season-52-europe-cup-4",
+          "source_url": "https://www.hltv.org/matches/2396903/fire-flux-vs-pcific-esl-challenger-league-season-52-europe-cup-4",
           "stage_name": "Scheduled series",
           "starts_at": null,
           "status": "live",
-          "team1_name": "MOUZ NXT",
-          "team2_name": "SPARTA",
-          "veto_text": "Best of 3 (Online)\n\n* Group C opening match"
+          "team1_name": "Fire Flux",
+          "team2_name": "PCIFIC",
+          "veto_text": "Best of 3 (Online)\n\n* Group A winners' match"
         },
         {
           "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
           "event_name": "ESL Challenger League Season 52 Europe Cup 4",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396902",
+          "hltv_match_id": "2396904",
           "lineups": {
             "team1": [],
             "team2": []
           },
           "map_results": [
             {
-              "map_name": "Nuke",
-              "score1": 13,
-              "score2": 8,
+              "map_name": "Mirage",
+              "score1": 11,
+              "score2": 13,
               "status": "finished"
             },
             {
               "map_name": "Dust2",
-              "score1": 11,
-              "score2": 13,
+              "score1": 7,
+              "score2": 5,
               "status": "finished"
             },
             {
@@ -8523,45 +8495,137 @@
             }
           ],
           "maps": [
-            "Nuke",
+            "Mirage",
             "Dust2",
             "Ancient"
           ],
-          "match_id": "hltv:2396902",
+          "match_id": "hltv:2396904",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396902/permitta-vs-og-esl-challenger-league-season-52-europe-cup-4",
+          "source_url": "https://www.hltv.org/matches/2396904/omega-vs-entropy-esl-challenger-league-season-52-europe-cup-4",
           "stage_name": "Scheduled series",
           "starts_at": null,
           "status": "live",
-          "team1_name": "Permitta",
-          "team2_name": "OG",
-          "veto_text": "Best of 3 (Online)\n\n* Group D opening match"
+          "team1_name": "Omega",
+          "team2_name": "Entropy",
+          "veto_text": "Best of 3 (Online)\n\n* Group A elimination match\n\n** tevsii substitutes L00m1 on the 2nd map."
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+          "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396905",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Ancient",
+              "score1": 16,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Ancient",
+            "Dust2",
+            "Cache"
+          ],
+          "match_id": "hltv:2396905",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396905/color-vs-the-last-resort-esl-challenger-league-season-52-europe-cup-4",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Color",
+          "team2_name": "The Last Resort",
+          "veto_text": "Best of 3 (Online)\n\n* Group B winners' match"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
+          "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396907",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Mirage",
+              "score1": 13,
+              "score2": 10,
+              "status": "finished"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Mirage",
+            "Nuke",
+            "Inferno"
+          ],
+          "match_id": "hltv:2396907",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396907/metizport-vs-sparta-esl-challenger-league-season-52-europe-cup-4",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Metizport",
+          "team2_name": "SPARTA",
+          "veto_text": "Best of 3 (Online)\n\n* Group C winners' match"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 4",
       "participants": [
+        "EAC",
+        "OG",
+        "Fortress",
+        "Permitta",
+        "MOUZ NXT",
+        "SPARTA",
+        "Strael Bora",
+        "The Last Resort",
         "Entropy",
         "PCIFIC",
         "Omega",
         "Fire Flux",
         "Metizport",
         "DONSTU",
-        "EAC",
-        "Fortress",
         "Color",
-        "Misa",
-        "MOUZ NXT",
-        "SPARTA",
-        "Permitta",
-        "OG"
+        "Misa"
       ],
       "product_tier": "tier_2",
       "source_url": null,
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-18T15:47:29Z",
+  "last_verified_utc": "2026-08-18T18:57:58Z",
   "sources": [
     {
       "name": "HLTV events calendar",

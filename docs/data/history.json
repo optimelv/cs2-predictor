@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-18T15:47:29Z",
+  "generated_at_utc": "2026-08-18T18:57:58Z",
   "through_date": "2026-08-18",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1403,
+    "matches": 1411,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1364,6 +1364,182 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "Honvéd",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396909",
+      "match_date": "2026-08-18",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "team1_name": "EAC",
+      "team2_name": "OG",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "OG",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396910",
+      "match_date": "2026-08-18",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "team1_name": "Fortress",
+      "team2_name": "Permitta",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Permitta",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396858",
+      "match_date": "2026-08-18",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "Bushido Wildcats",
+      "team2_name": "Misa",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Bushido Wildcats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396645",
+      "match_date": "2026-08-18",
+      "event_name": "CCT 2026 Europe Series 7",
+      "team1_name": "Leo",
+      "team2_name": "ex-RUSTEC",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396857",
+      "match_date": "2026-08-18",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "WBT",
+      "team2_name": "Mai Tai",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "WBT",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396902",
+      "match_date": "2026-08-18",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "team1_name": "Permitta",
+      "team2_name": "OG",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "OG",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396900",
+      "match_date": "2026-08-18",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "team1_name": "MOUZ NXT",
+      "team2_name": "SPARTA",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396898",
+      "match_date": "2026-08-18",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "team1_name": "Strael Bora",
+      "team2_name": "The Last Resort",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "The Last Resort",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
