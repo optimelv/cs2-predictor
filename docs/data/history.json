@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-19T18:54:57Z",
+  "generated_at_utc": "2026-08-19T21:43:01Z",
   "through_date": "2026-08-19",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1432,
+    "matches": 1438,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1518,6 +1518,138 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "Fire Flux",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396602",
+      "match_date": "2026-08-19",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "GamerLegion",
+      "team2_name": "MOUZ",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396600",
+      "match_date": "2026-08-19",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "FURIA",
+      "team2_name": "Aurora",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396918",
+      "match_date": "2026-08-19",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "team1_name": "EAC",
+      "team2_name": "Color",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Color",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396915",
+      "match_date": "2026-08-19",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "team1_name": "PCIFIC",
+      "team2_name": "SPARTA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396650",
+      "match_date": "2026-08-19",
+      "event_name": "CCT 2026 Europe Series 7",
+      "team1_name": "Drip Too Hard",
+      "team2_name": "HYPERSPIRIT",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "HYPERSPIRIT",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396916",
+      "match_date": "2026-08-19",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "team1_name": "The Last Resort",
+      "team2_name": "OG",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "OG",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
