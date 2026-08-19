@@ -4376,10 +4376,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
     },
     {
-      "event_id": "hltv:9324",
+      "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396648",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396648",
       "product_tier": "tier_2",
@@ -4389,7 +4393,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-19T11:00:00Z",
       "status": "upcoming",
       "team1_name": "G2 Ares",
-      "team2_name": "ex-Zero Tenacity"
+      "team2_name": "ex-Zero Tenacity",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
     },
     {
       "event_id": "hltv:9321",
@@ -4520,9 +4525,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "ENCE"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396599",
       "lineups": {
         "team1": [],
@@ -4533,7 +4538,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "product_tier": "tier_1",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396599/g2-vs-astralis-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Playoffs",
       "starts_at": "2026-08-19T14:00:00Z",
       "status": "live",
       "team1_name": "G2",
@@ -6432,27 +6437,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:esports-world-cup-2026",
           "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396599",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396599",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396599/g2-vs-astralis-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-19T14:00:00Z",
-          "status": "live",
-          "team1_name": "G2",
-          "team2_name": "Astralis",
-          "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
           "event_url": null,
           "hltv_match_id": "2396593",
           "maps": [],
@@ -6586,10 +6570,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "G2",
-        "Astralis",
         "Legacy",
         "MIBR",
+        "Astralis",
         "Ninjas in Pyjamas",
         "magic",
         "9z",
@@ -6603,8 +6586,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "BIG"
       ],
       "product_tier": "tier_1",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "ongoing"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Playoffs",
@@ -6624,6 +6607,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:8261",
       "matches": [
+        {
+          "event_id": "hltv:8261",
+          "event_name": "Esports World Cup 2026",
+          "event_url": null,
+          "hltv_match_id": "2396599",
+          "maps": [],
+          "match_id": "hltv:2396599",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396599/g2-vs-astralis-esports-world-cup-2026",
+          "stage_name": "Playoffs",
+          "starts_at": "2026-08-19T14:00:00Z",
+          "status": "live",
+          "team1_name": "G2",
+          "team2_name": "Astralis"
+        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -6739,6 +6738,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026",
       "participants": [
+        "G2",
+        "Astralis",
         "FUT",
         "magic",
         "FURIA",
@@ -7954,22 +7955,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9324",
           "event_name": "CCT 2026 Europe Series 7",
           "event_url": null,
-          "hltv_match_id": "2396648",
-          "maps": [],
-          "match_id": "hltv:2396648",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396648/g2-ares-vs-ex-zero-tenacity-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-19T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "G2 Ares",
-          "team2_name": "ex-Zero Tenacity"
-        },
-        {
-          "event_id": "hltv:9324",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
           "hltv_match_id": "2396649",
           "maps": [],
           "match_id": "hltv:2396649",
@@ -8001,8 +7986,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
-        "G2 Ares",
-        "ex-Zero Tenacity",
         "Black Phoenix",
         "Bushido Wildcats",
         "Drip Too Hard",
@@ -8041,6 +8024,27 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "GenOne",
           "team2_name": "UNiTY",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396648",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396648",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396648/g2-ares-vs-ex-zero-tenacity-cct-2026-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-19T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "G2 Ares",
+          "team2_name": "ex-Zero Tenacity",
           "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
         },
         {
@@ -8124,6 +8128,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "participants": [
         "GenOne",
         "UNiTY",
+        "G2 Ares",
+        "ex-Zero Tenacity",
         "Lavked",
         "HAVU",
         "Leo",
@@ -8476,7 +8482,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-19T04:00:33Z",
+  "last_verified_utc": "2026-08-19T07:06:40Z",
   "sources": [
     {
       "name": "HLTV events calendar",
