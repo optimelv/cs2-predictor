@@ -4356,10 +4356,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9324",
+        "event_id": "hltv:cct-2026-europe-series-7",
         "event_name": "CCT 2026 Europe Series 7",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396647",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396647",
         "product_tier": "tier_2",
@@ -4369,7 +4373,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-19T08:00:00Z",
         "status": "upcoming",
         "team1_name": "GenOne",
-        "team2_name": "UNiTY"
+        "team2_name": "UNiTY",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
       },
       {
         "event_id": "hltv:9324",
@@ -4537,9 +4542,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396601",
         "lineups": {
           "team1": [],
@@ -4550,7 +4555,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "product_tier": "tier_1",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
-        "stage_name": "Scheduled series",
+        "stage_name": "Playoffs",
         "starts_at": "2026-08-19T14:00:00Z",
         "status": "live",
         "team1_name": "FUT",
@@ -4574,9 +4579,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Bushido Wildcats"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396600",
         "lineups": {
           "team1": [],
@@ -4587,7 +4592,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "product_tier": "tier_1",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-        "stage_name": "Scheduled series",
+        "stage_name": "Playoffs",
         "starts_at": "2026-08-19T16:55:00Z",
         "status": "live",
         "team1_name": "FURIA",
@@ -4595,9 +4600,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396602",
         "lineups": {
           "team1": [],
@@ -4608,7 +4613,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "product_tier": "tier_1",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396602/gamerlegion-vs-mouz-esports-world-cup-2026",
-        "stage_name": "Scheduled series",
+        "stage_name": "Playoffs",
         "starts_at": "2026-08-19T16:55:00Z",
         "status": "live",
         "team1_name": "GamerLegion",
@@ -6449,69 +6454,6 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:esports-world-cup-2026",
             "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396601",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396601",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-19T14:00:00Z",
-            "status": "live",
-            "team1_name": "FUT",
-            "team2_name": "magic",
-            "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396600",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396600",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-19T16:55:00Z",
-            "status": "live",
-            "team1_name": "FURIA",
-            "team2_name": "Aurora",
-            "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396602",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396602",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396602/gamerlegion-vs-mouz-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-19T16:55:00Z",
-            "status": "live",
-            "team1_name": "GamerLegion",
-            "team2_name": "MOUZ",
-            "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
             "event_url": null,
             "hltv_match_id": "2396593",
             "maps": [],
@@ -6647,16 +6589,12 @@ window.__STRIKESIGNAL_DATA__ = {
         "participants": [
           "G2",
           "Astralis",
-          "FUT",
-          "magic",
-          "FURIA",
-          "Aurora",
-          "GamerLegion",
-          "MOUZ",
           "Legacy",
           "MIBR",
           "Ninjas in Pyjamas",
+          "magic",
           "9z",
+          "MOUZ",
           "PARIVISION",
           "The MongolZ",
           "paiN",
@@ -6687,6 +6625,54 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:8261",
         "matches": [
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396601",
+            "maps": [],
+            "match_id": "hltv:2396601",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-08-19T14:00:00Z",
+            "status": "live",
+            "team1_name": "FUT",
+            "team2_name": "magic"
+          },
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396600",
+            "maps": [],
+            "match_id": "hltv:2396600",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-08-19T16:55:00Z",
+            "status": "live",
+            "team1_name": "FURIA",
+            "team2_name": "Aurora"
+          },
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396602",
+            "maps": [],
+            "match_id": "hltv:2396602",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396602/gamerlegion-vs-mouz-esports-world-cup-2026",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-08-19T16:55:00Z",
+            "status": "live",
+            "team1_name": "GamerLegion",
+            "team2_name": "MOUZ"
+          },
           {
             "event_id": "hltv:8261",
             "event_name": "Esports World Cup 2026",
@@ -6754,6 +6740,12 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "Esports World Cup 2026",
         "participants": [
+          "FUT",
+          "magic",
+          "FURIA",
+          "Aurora",
+          "GamerLegion",
+          "MOUZ",
           "Natus Vincere",
           "Legacy",
           "Falcons",
@@ -7963,22 +7955,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9324",
             "event_name": "CCT 2026 Europe Series 7",
             "event_url": null,
-            "hltv_match_id": "2396647",
-            "maps": [],
-            "match_id": "hltv:2396647",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396647/genone-vs-unity-cct-2026-europe-series-7",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-19T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "GenOne",
-            "team2_name": "UNiTY"
-          },
-          {
-            "event_id": "hltv:9324",
-            "event_name": "CCT 2026 Europe Series 7",
-            "event_url": null,
             "hltv_match_id": "2396648",
             "maps": [],
             "match_id": "hltv:2396648",
@@ -8026,8 +8002,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
-          "GenOne",
-          "UNiTY",
           "G2 Ares",
           "ex-Zero Tenacity",
           "Black Phoenix",
@@ -8049,6 +8023,27 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-7",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-7",
+            "event_name": "CCT 2026 Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396647",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396647",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396647/genone-vs-unity-cct-2026-europe-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-19T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "GenOne",
+            "team2_name": "UNiTY",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-7",
             "event_name": "CCT 2026 Europe Series 7",
@@ -8128,6 +8123,8 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
+          "GenOne",
+          "UNiTY",
           "Lavked",
           "HAVU",
           "Leo",
@@ -8138,8 +8135,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "Just Players"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -8480,7 +8477,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-08-19T01:54:17Z",
+    "last_verified_utc": "2026-08-19T04:00:33Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8918,7 +8915,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-19T01:54:34Z",
+  "generated_at_utc": "2026-08-19T04:00:53Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10383,7 +10380,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-19T01:54:34Z",
+    "generated_at_utc": "2026-08-19T04:00:52Z",
     "history": [
       {
         "champion": {
@@ -20502,10 +20499,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.6622,
-      "event_id": "hltv:9324",
+      "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-19",
@@ -20868,13 +20868,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.6315,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-19",
@@ -20889,7 +20886,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Playoffs",
       "starts_at": "2026-08-19T14:00:00Z",
       "status": "live",
       "team1_hltv_rank": null,
@@ -20937,13 +20934,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.543,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-19",
@@ -20958,7 +20952,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396600/furia-vs-aurora-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Playoffs",
       "starts_at": "2026-08-19T16:55:00Z",
       "status": "live",
       "team1_hltv_rank": null,
@@ -20973,13 +20967,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.3224,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-19",
@@ -20994,7 +20985,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396602/gamerlegion-vs-mouz-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Playoffs",
       "starts_at": "2026-08-19T16:55:00Z",
       "status": "live",
       "team1_hltv_rank": null,
