@@ -4235,6 +4235,51 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "MOUZ NXT"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-7",
+        "event_name": "CCT 2026 Europe Series 7",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396647",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Nuke",
+            "score1": 13,
+            "score2": 5,
+            "status": "finished"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": 12,
+            "score2": 12,
+            "status": "finished"
+          },
+          {
+            "map_name": "Inferno",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Nuke",
+          "Ancient",
+          "Inferno"
+        ],
+        "match_id": "hltv:2396647",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396647/genone-vs-unity-cct-2026-europe-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "GenOne",
+        "team2_name": "UNiTY",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4354,27 +4399,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-7",
-        "event_name": "CCT 2026 Europe Series 7",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396647",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396647",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396647/genone-vs-unity-cct-2026-europe-series-7",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-19T08:00:00Z",
-        "status": "upcoming",
-        "team1_name": "GenOne",
-        "team2_name": "UNiTY",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
       },
       {
         "event_id": "hltv:cct-2026-europe-series-7",
@@ -8010,27 +8034,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-europe-series-7",
             "event_name": "CCT 2026 Europe Series 7",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396647",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396647",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396647/genone-vs-unity-cct-2026-europe-series-7",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-19T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "GenOne",
-            "team2_name": "UNiTY",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-7",
-            "event_name": "CCT 2026 Europe Series 7",
-            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2396648",
             "lineups": {
               "team1": [],
@@ -8123,12 +8126,55 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "PCIFIC",
             "team2_name": "Just Players",
             "winner_name": "Just Players"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-7",
+            "event_name": "CCT 2026 Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396647",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Nuke",
+                "score1": 13,
+                "score2": 5,
+                "status": "finished"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": 12,
+                "score2": 12,
+                "status": "finished"
+              },
+              {
+                "map_name": "Inferno",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Nuke",
+              "Ancient",
+              "Inferno"
+            ],
+            "match_id": "hltv:2396647",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396647/genone-vs-unity-cct-2026-europe-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "GenOne",
+            "team2_name": "UNiTY",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
           }
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
-          "GenOne",
-          "UNiTY",
           "G2 Ares",
           "ex-Zero Tenacity",
           "Lavked",
@@ -8138,11 +8184,13 @@ window.__STRIKESIGNAL_DATA__ = {
           "MASONIC",
           "Bebop",
           "PCIFIC",
-          "Just Players"
+          "Just Players",
+          "GenOne",
+          "UNiTY"
         ],
         "product_tier": "tier_2",
         "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -8483,7 +8531,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-08-19T07:06:40Z",
+    "last_verified_utc": "2026-08-19T09:50:18Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8921,7 +8969,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-19T07:06:53Z",
+  "generated_at_utc": "2026-08-19T09:50:38Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10386,7 +10434,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-19T07:06:53Z",
+    "generated_at_utc": "2026-08-19T09:50:37Z",
     "history": [
       {
         "champion": {
@@ -20501,42 +20549,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.6622,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.6622,
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-19",
-      "match_id": "hltv:2396647",
-      "match_phase": "scheduled",
-      "match_timestamp": 1787126400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "GenOne",
-      "prob_team1": 0.6622,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396647/genone-vs-unity-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-19T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "GenOne",
-      "team1_vrs_rank": 99,
-      "team2_hltv_rank": null,
-      "team2_name": "UNiTY",
-      "team2_vrs_rank": 144
-    },
-    {
       "confidence": 0.5325,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -21297,6 +21309,39 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "DENDELE",
       "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.8475,
+      "confidence_label": "strong",
+      "data_quality": "full",
+      "elo_prob_team1": 0.8475,
+      "event_id": "hltv:8249",
+      "event_name": "BLAST Open Porto 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-26",
+      "match_id": "hltv:2396925",
+      "match_phase": "scheduled",
+      "match_timestamp": 1787752800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Natus Vincere",
+      "prob_team1": 0.8475,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-26T14:00:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Natus Vincere",
+      "team1_vrs_rank": 4,
+      "team2_hltv_rank": null,
+      "team2_name": "M80",
+      "team2_vrs_rank": 33
     }
   ],
   "updater": {
