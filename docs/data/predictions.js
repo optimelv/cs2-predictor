@@ -8480,7 +8480,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-08-18T21:39:57Z",
+    "last_verified_utc": "2026-08-19T01:54:17Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8918,7 +8918,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-18T21:40:17Z",
+  "generated_at_utc": "2026-08-19T01:54:34Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10383,7 +10383,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-18T21:40:16Z",
+    "generated_at_utc": "2026-08-19T01:54:34Z",
     "history": [
       {
         "champion": {
@@ -10438,7 +10438,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 7,
+      "new_rows": 0,
       "online_rows": 431,
       "seed_rows": 757
     }
@@ -21305,7 +21305,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 85,
-    "online_results_applied": 7,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

@@ -8479,7 +8479,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-18T21:39:57Z",
+  "last_verified_utc": "2026-08-19T01:54:17Z",
   "sources": [
     {
       "name": "HLTV events calendar",
