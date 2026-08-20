@@ -4329,6 +4329,51 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "OG"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-7",
+      "event_name": "CCT 2026 Europe Series 7",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396651",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": 19,
+          "score2": 15,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Dust2",
+        "Mirage"
+      ],
+      "match_id": "hltv:2396651",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396651/g2-ares-vs-bebop-cct-2026-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "G2 Ares",
+      "team2_name": "Bebop",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4448,27 +4493,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396651",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396651",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396651/g2-ares-vs-bebop-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-20T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "G2 Ares",
-      "team2_name": "Bebop",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
     },
     {
       "event_id": "hltv:esports-world-cup-2026",
@@ -6503,7 +6527,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           },
           "maps": [],
           "match_id": "hltv:2396603",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396603/natus-vincere-vs-legacy-esports-world-cup-2026",
           "stage_name": "Scheduled series",
@@ -6524,7 +6548,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           },
           "maps": [],
           "match_id": "hltv:2396604",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396604/falcons-vs-the-mongolz-esports-world-cup-2026",
           "stage_name": "Scheduled series",
@@ -7975,27 +7999,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-7",
           "event_name": "CCT 2026 Europe Series 7",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396651",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396651",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396651/g2-ares-vs-bebop-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-20T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "G2 Ares",
-          "team2_name": "Bebop",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
           "event_url": null,
           "hltv_match_id": "2396650",
           "maps": [],
@@ -8144,16 +8147,60 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "PCIFIC",
           "team2_name": "Just Players",
           "winner_name": "Just Players"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396651",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": 19,
+              "score2": 15,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Dust2",
+            "Mirage"
+          ],
+          "match_id": "hltv:2396651",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396651/g2-ares-vs-bebop-cct-2026-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "G2 Ares",
+          "team2_name": "Bebop",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
         }
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
-        "G2 Ares",
-        "Bebop",
         "Drip Too Hard",
         "HYPERSPIRIT",
         "Black Phoenix",
         "Bushido Wildcats",
+        "G2 Ares",
         "ex-Zero Tenacity",
         "GenOne",
         "UNiTY",
@@ -8162,12 +8209,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Leo",
         "ex-RUSTEC",
         "MASONIC",
+        "Bebop",
         "PCIFIC",
         "Just Players"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8660,7 +8708,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-20T07:07:50Z",
+  "last_verified_utc": "2026-08-20T09:51:36Z",
   "sources": [
     {
       "name": "HLTV events calendar",
