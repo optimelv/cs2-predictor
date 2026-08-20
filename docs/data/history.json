@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-20T15:50:16Z",
+  "generated_at_utc": "2026-08-20T19:00:22Z",
   "through_date": "2026-08-20",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1446,
+    "matches": 1452,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1430,6 +1430,138 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "Honvéd",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396607",
+      "match_date": "2026-08-20",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "G2",
+      "team2_name": "FURIA",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396866",
+      "match_date": "2026-08-20",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "mellren",
+      "team2_name": "Bushido Wildcats",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396920",
+      "match_date": "2026-08-20",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "team1_name": "Metizport",
+      "team2_name": "Color",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Metizport",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396653",
+      "match_date": "2026-08-20",
+      "event_name": "CCT 2026 Europe Series 7",
+      "team1_name": "PCIFIC",
+      "team2_name": "Drip Too Hard",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Drip Too Hard",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396919",
+      "match_date": "2026-08-20",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 4",
+      "team1_name": "OG",
+      "team2_name": "SPARTA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "OG",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396865",
+      "match_date": "2026-08-20",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "LPH",
+      "team2_name": "WBT",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "WBT",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
