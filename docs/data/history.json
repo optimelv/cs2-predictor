@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-20T13:12:58Z",
+  "generated_at_utc": "2026-08-20T15:50:16Z",
   "through_date": "2026-08-20",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1443,
+    "matches": 1446,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1364,6 +1364,72 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "G2 Ares",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396606",
+      "match_date": "2026-08-20",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "B8",
+      "team2_name": "Spirit",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396605",
+      "match_date": "2026-08-20",
+      "event_name": "Esports World Cup 2026",
+      "team1_name": "FaZe",
+      "team2_name": "Vitality",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Vitality",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396864",
+      "match_date": "2026-08-20",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "team1_name": "Honvéd",
+      "team2_name": "SAW Youngsters",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Honvéd",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
