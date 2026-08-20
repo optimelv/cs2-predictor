@@ -4451,10 +4451,14 @@
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9324",
+        "event_id": "hltv:cct-2026-europe-series-7",
         "event_name": "CCT 2026 Europe Series 7",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396651",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396651",
         "product_tier": "tier_2",
@@ -4464,7 +4468,8 @@
         "starts_at": "2026-08-20T08:00:00Z",
         "status": "upcoming",
         "team1_name": "G2 Ares",
-        "team2_name": "Bebop"
+        "team2_name": "Bebop",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
       },
       {
         "event_id": "hltv:esports-world-cup-2026",
@@ -4621,9 +4626,9 @@
         "team2_name": "Bushido Wildcats"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396605",
         "lineups": {
           "team1": [],
@@ -4634,7 +4639,7 @@
         "product_tier": "tier_1",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
-        "stage_name": "Scheduled series",
+        "stage_name": "Playoffs",
         "starts_at": "2026-08-20T13:55:00Z",
         "status": "live",
         "team1_name": "FaZe",
@@ -4642,9 +4647,9 @@
         "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
       },
       {
-        "event_id": "hltv:esports-world-cup-2026",
+        "event_id": "hltv:8261",
         "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396606",
         "lineups": {
           "team1": [],
@@ -4655,7 +4660,7 @@
         "product_tier": "tier_1",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396606/b8-vs-spirit-esports-world-cup-2026",
-        "stage_name": "Scheduled series",
+        "stage_name": "Playoffs",
         "starts_at": "2026-08-20T13:55:00Z",
         "status": "live",
         "team1_name": "B8",
@@ -6533,48 +6538,6 @@
           {
             "event_id": "hltv:esports-world-cup-2026",
             "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396605",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396605",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-20T13:55:00Z",
-            "status": "live",
-            "team1_name": "FaZe",
-            "team2_name": "Vitality",
-            "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396606",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396606",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396606/b8-vs-spirit-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-20T13:55:00Z",
-            "status": "live",
-            "team1_name": "B8",
-            "team2_name": "Spirit",
-            "veto_text": "Best of 3 (LAN)\n\n* Round of 16"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
             "event_url": null,
             "hltv_match_id": "2396602",
             "maps": [],
@@ -6674,10 +6637,6 @@
           "Legacy",
           "Falcons",
           "The MongolZ",
-          "FaZe",
-          "Vitality",
-          "B8",
-          "Spirit",
           "GamerLegion",
           "MOUZ",
           "FURIA",
@@ -6744,15 +6703,22 @@
           ],
           "type": "single_elimination"
         },
-        "current_stage": "Quarterfinal",
+        "current_stage": "Playoffs",
         "format": {
-          "label": "Quarterfinal",
+          "label": "Playoffs + Quarterfinal",
           "settings": {},
           "stages": [
             {
+              "id": "playoffs",
+              "name": "Playoffs",
+              "order": 1,
+              "status": "live",
+              "type": "single_elimination"
+            },
+            {
               "id": "quarterfinal",
               "name": "Quarterfinal",
-              "order": 1,
+              "order": 2,
               "status": "live",
               "type": "single_elimination"
             }
@@ -6761,6 +6727,38 @@
         },
         "id": "hltv:8261",
         "matches": [
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396605",
+            "maps": [],
+            "match_id": "hltv:2396605",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-08-20T13:55:00Z",
+            "status": "live",
+            "team1_name": "FaZe",
+            "team2_name": "Vitality"
+          },
+          {
+            "event_id": "hltv:8261",
+            "event_name": "Esports World Cup 2026",
+            "event_url": null,
+            "hltv_match_id": "2396606",
+            "maps": [],
+            "match_id": "hltv:2396606",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396606/b8-vs-spirit-esports-world-cup-2026",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-08-20T13:55:00Z",
+            "status": "live",
+            "team1_name": "B8",
+            "team2_name": "Spirit"
+          },
           {
             "event_id": "hltv:8261",
             "event_name": "Esports World Cup 2026",
@@ -6796,6 +6794,10 @@
         ],
         "name": "Esports World Cup 2026",
         "participants": [
+          "FaZe",
+          "Vitality",
+          "B8",
+          "Spirit",
           "G2",
           "FURIA",
           "FUT",
@@ -7831,22 +7833,6 @@
             "event_id": "hltv:9324",
             "event_name": "CCT 2026 Europe Series 7",
             "event_url": null,
-            "hltv_match_id": "2396651",
-            "maps": [],
-            "match_id": "hltv:2396651",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396651/g2-ares-vs-bebop-cct-2026-europe-series-7",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-20T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "G2 Ares",
-            "team2_name": "Bebop"
-          },
-          {
-            "event_id": "hltv:9324",
-            "event_name": "CCT 2026 Europe Series 7",
-            "event_url": null,
             "hltv_match_id": "2396652",
             "maps": [],
             "match_id": "hltv:2396652",
@@ -7958,8 +7944,6 @@
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
-          "G2 Ares",
-          "Bebop",
           "Lavked",
           "UNiTY",
           "PCIFIC",
@@ -7989,6 +7973,27 @@
         },
         "id": "hltv:cct-2026-europe-series-7",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-7",
+            "event_name": "CCT 2026 Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396651",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396651",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396651/g2-ares-vs-bebop-cct-2026-europe-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-20T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "G2 Ares",
+            "team2_name": "Bebop",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-7",
             "event_name": "CCT 2026 Europe Series 7",
@@ -8144,11 +8149,12 @@
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
+          "G2 Ares",
+          "Bebop",
           "Drip Too Hard",
           "HYPERSPIRIT",
           "Black Phoenix",
           "Bushido Wildcats",
-          "G2 Ares",
           "ex-Zero Tenacity",
           "GenOne",
           "UNiTY",
@@ -8157,13 +8163,12 @@
           "Leo",
           "ex-RUSTEC",
           "MASONIC",
-          "Bebop",
           "PCIFIC",
           "Just Players"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -8656,7 +8661,7 @@
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-08-20T01:53:04Z",
+    "last_verified_utc": "2026-08-20T04:00:13Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9094,7 +9099,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-20T01:53:23Z",
+  "generated_at_utc": "2026-08-20T04:00:32Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10559,7 +10564,7 @@
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-20T01:53:23Z",
+    "generated_at_utc": "2026-08-20T04:00:31Z",
     "history": [
       {
         "champion": {
@@ -20710,10 +20715,13 @@
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.6146,
-      "event_id": "hltv:9324",
+      "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-20",
@@ -21046,13 +21054,10 @@
       "confidence_label": "strong",
       "data_quality": "full",
       "elo_prob_team1": 0.1082,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-20",
@@ -21067,7 +21072,7 @@
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396605/faze-vs-vitality-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Playoffs",
       "starts_at": "2026-08-20T13:55:00Z",
       "status": "live",
       "team1_hltv_rank": null,
@@ -21082,13 +21087,10 @@
       "confidence_label": "strong",
       "data_quality": "full",
       "elo_prob_team1": 0.2239,
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-20",
@@ -21103,7 +21105,7 @@
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2396606/b8-vs-spirit-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Playoffs",
       "starts_at": "2026-08-20T13:55:00Z",
       "status": "live",
       "team1_hltv_rank": null,
