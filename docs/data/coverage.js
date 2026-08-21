@@ -2,25 +2,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396630",
-      "maps": [],
-      "match_id": "hltv:2396630",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396630/honvd-vs-noir-verse-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Honvéd",
-      "team2_name": "Noir Verse",
-      "winner_name": "Noir Verse"
-    },
-    {
       "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
       "event_url": null,
@@ -4364,7 +4345,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396655",
       "lineups": {
         "team1": [],
@@ -4390,21 +4371,108 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Anubis",
-        "Inferno",
-        "Nuke"
-      ],
+      "maps": [],
       "match_id": "hltv:2396655",
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Black Phoenix",
+      "team2_name": "ex-RUSTEC",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)",
+      "winner_name": "ex-RUSTEC"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026",
+      "event_name": "Esports World Cup 2026",
+      "event_url": null,
+      "hltv_match_id": "2396608",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2396608",
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "FUT",
+      "team2_name": "MOUZ",
+      "veto_text": "Best of 3 (LAN)\n\n* Quarter-final",
+      "winner_name": "FUT"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-7",
+      "event_name": "CCT 2026 Europe Series 7",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396656",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": 10,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 6,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Dust2",
+        "Ancient"
+      ],
+      "match_id": "hltv:2396656",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396656/genone-vs-havu-cct-2026-europe-series-7",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "Black Phoenix",
-      "team2_name": "ex-RUSTEC",
+      "team1_name": "GenOne",
+      "team2_name": "HAVU",
       "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396867",
+      "maps": [],
+      "match_id": "hltv:2396867",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396867/noir-verse-vs-lph-cct-2026-challengers-europe-series-5",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Noir Verse",
+      "team2_name": "LPH",
+      "winner_name": "Noir Verse"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -4528,78 +4596,30 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
-      "event_name": "Esports World Cup 2026",
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396608",
+      "hltv_match_id": "2396868",
       "lineups": {
         "team1": [],
         "team2": []
       },
       "maps": [],
-      "match_id": "hltv:2396608",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-21T11:00:00Z",
-      "status": "live",
-      "team1_name": "FUT",
-      "team2_name": "MOUZ",
-      "veto_text": "Best of 3 (LAN)\n\n* Quarter-final"
-    },
-    {
-      "event_id": "hltv:9324",
-      "event_name": "CCT 2026 Europe Series 7",
-      "event_url": null,
-      "hltv_match_id": "2396656",
-      "maps": [],
-      "match_id": "hltv:2396656",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396656/genone-vs-havu-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-21T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "GenOne",
-      "team2_name": "HAVU"
-    },
-    {
-      "event_id": "hltv:9321",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396867",
-      "maps": [],
-      "match_id": "hltv:2396867",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396867/noir-verse-vs-lph-cct-2026-challengers-europe-series-5",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-08-21T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Noir Verse",
-      "team2_name": "LPH"
-    },
-    {
-      "event_id": "hltv:9321",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396868",
-      "maps": [],
       "match_id": "hltv:2396868",
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396868/honvd-vs-bushido-wildcats-cct-2026-challengers-europe-series-5",
-      "stage_name": "Playoffs",
+      "stage_name": "Scheduled series",
       "starts_at": "2026-08-21T13:45:00Z",
       "status": "upcoming",
       "team1_name": "Honvéd",
-      "team2_name": "Bushido Wildcats"
+      "team2_name": "Bushido Wildcats",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
     },
     {
-      "event_id": "hltv:8261",
+      "event_id": "hltv:esports-world-cup-2026",
       "event_name": "Esports World Cup 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396609",
       "lineups": {
         "team1": [],
@@ -4610,7 +4630,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "product_tier": "tier_1",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396609/legacy-vs-falcons-esports-world-cup-2026",
-      "stage_name": "Quarterfinal",
+      "stage_name": "Scheduled series",
       "starts_at": "2026-08-21T13:55:00Z",
       "status": "live",
       "team1_name": "Legacy",
@@ -4618,10 +4638,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Quarter-final"
     },
     {
-      "event_id": "hltv:9324",
+      "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396657",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396657",
       "product_tier": "tier_2",
@@ -4631,7 +4655,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-21T14:00:00Z",
       "status": "upcoming",
       "team1_name": "MASONIC",
-      "team2_name": "ex-Zero Tenacity"
+      "team2_name": "ex-Zero Tenacity",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
     },
     {
       "event_id": "hltv:8261",
@@ -4685,6 +4710,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "WBT",
       "team2_name": "mellren"
+    },
+    {
+      "event_id": "hltv:8261",
+      "event_name": "Esports World Cup 2026",
+      "event_url": null,
+      "hltv_match_id": "2396611",
+      "maps": [],
+      "match_id": "hltv:2396611",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-08-22T14:00:00Z",
+      "status": "live",
+      "team1_name": "FURIA",
+      "team2_name": "FUT"
     },
     {
       "event_id": "hltv:9320",
@@ -6537,22 +6578,41 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:esports-world-cup-2026",
           "event_name": "Esports World Cup 2026",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396608",
+          "hltv_match_id": "2396609",
           "lineups": {
             "team1": [],
             "team2": []
           },
           "maps": [],
-          "match_id": "hltv:2396608",
+          "match_id": "hltv:2396609",
           "product_tier": "pending",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+          "source_url": "https://www.hltv.org/matches/2396609/legacy-vs-falcons-esports-world-cup-2026",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-21T11:00:00Z",
+          "starts_at": "2026-08-21T13:55:00Z",
           "status": "live",
+          "team1_name": "Legacy",
+          "team2_name": "Falcons",
+          "veto_text": "Best of 3 (LAN)\n\n* Quarter-final"
+        },
+        {
+          "event_id": "hltv:esports-world-cup-2026",
+          "event_name": "Esports World Cup 2026",
+          "event_url": null,
+          "hltv_match_id": "2396608",
+          "maps": [],
+          "match_id": "hltv:2396608",
+          "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "FUT",
           "team2_name": "MOUZ",
-          "veto_text": "Best of 3 (LAN)\n\n* Quarter-final"
+          "winner_name": "FUT"
         },
         {
           "event_id": "hltv:esports-world-cup-2026",
@@ -6728,6 +6788,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "Esports World Cup 2026",
       "participants": [
+        "Legacy",
+        "Falcons",
         "FUT",
         "MOUZ",
         "G2",
@@ -6737,8 +6799,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "FaZe",
         "Vitality",
         "Natus Vincere",
-        "Legacy",
-        "Falcons",
         "The MongolZ",
         "GamerLegion",
         "Aurora",
@@ -6761,32 +6821,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "event_name": "Esports World Cup 2026",
                 "event_url": null,
                 "feeds_from": [],
-                "hltv_match_id": "2396609",
-                "maps": [],
-                "match_id": "hltv:2396609",
-                "product_tier": "tier_1",
-                "round_name": "Quarterfinal",
-                "series_format": "bo3",
-                "slot_id": "main:quarterfinal:1",
-                "source_url": "https://www.hltv.org/matches/2396609/legacy-vs-falcons-esports-world-cup-2026",
-                "stage_name": "Quarterfinal",
-                "starts_at": "2026-08-21T13:55:00Z",
-                "status": "live",
-                "team1_name": "Legacy",
-                "team2_name": "Falcons"
-              },
-              {
-                "event_id": "hltv:8261",
-                "event_name": "Esports World Cup 2026",
-                "event_url": null,
-                "feeds_from": [],
                 "hltv_match_id": "2396610",
                 "maps": [],
                 "match_id": "hltv:2396610",
                 "product_tier": "tier_1",
                 "round_name": "Quarterfinal",
                 "series_format": "bo3",
-                "slot_id": "main:quarterfinal:2",
+                "slot_id": "main:quarterfinal:1",
                 "source_url": "https://www.hltv.org/matches/2396610/vitality-vs-spirit-esports-world-cup-2026",
                 "stage_name": "Quarterfinal",
                 "starts_at": "2026-08-21T16:50:00Z",
@@ -6797,13 +6838,40 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             ],
             "name": "Quarterfinal",
             "order": 1
+          },
+          {
+            "bracket": "main",
+            "id": "main:semifinal",
+            "matches": [
+              {
+                "event_id": "hltv:8261",
+                "event_name": "Esports World Cup 2026",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2396611",
+                "maps": [],
+                "match_id": "hltv:2396611",
+                "product_tier": "tier_1",
+                "round_name": "Semifinal",
+                "series_format": "bo3",
+                "slot_id": "main:semifinal:1",
+                "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+                "stage_name": "Semifinal",
+                "starts_at": "2026-08-22T14:00:00Z",
+                "status": "live",
+                "team1_name": "FURIA",
+                "team2_name": "FUT"
+              }
+            ],
+            "name": "Semifinal",
+            "order": 2
           }
         ],
         "type": "single_elimination"
       },
       "current_stage": "Quarterfinal",
       "format": {
-        "label": "Quarterfinal",
+        "label": "Quarterfinal + Semifinal",
         "settings": {},
         "stages": [
           {
@@ -6812,28 +6880,19 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             "order": 1,
             "status": "live",
             "type": "single_elimination"
+          },
+          {
+            "id": "semifinal",
+            "name": "Semifinal",
+            "order": 2,
+            "status": "live",
+            "type": "single_elimination"
           }
         ],
         "type": "single_elimination"
       },
       "id": "hltv:8261",
       "matches": [
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396609",
-          "maps": [],
-          "match_id": "hltv:2396609",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396609/legacy-vs-falcons-esports-world-cup-2026",
-          "stage_name": "Quarterfinal",
-          "starts_at": "2026-08-21T13:55:00Z",
-          "status": "live",
-          "team1_name": "Legacy",
-          "team2_name": "Falcons"
-        },
         {
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
@@ -6849,14 +6908,30 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "live",
           "team1_name": "Vitality",
           "team2_name": "Spirit"
+        },
+        {
+          "event_id": "hltv:8261",
+          "event_name": "Esports World Cup 2026",
+          "event_url": null,
+          "hltv_match_id": "2396611",
+          "maps": [],
+          "match_id": "hltv:2396611",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+          "stage_name": "Semifinal",
+          "starts_at": "2026-08-22T14:00:00Z",
+          "status": "live",
+          "team1_name": "FURIA",
+          "team2_name": "FUT"
         }
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "Legacy",
-        "Falcons",
         "Vitality",
-        "Spirit"
+        "Spirit",
+        "FURIA",
+        "FUT"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -7159,38 +7234,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9321",
           "event_name": "CCT 2026 Challengers Europe Series 5",
           "event_url": null,
-          "hltv_match_id": "2396867",
-          "maps": [],
-          "match_id": "hltv:2396867",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396867/noir-verse-vs-lph-cct-2026-challengers-europe-series-5",
-          "stage_name": "Playoffs",
-          "starts_at": "2026-08-21T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Noir Verse",
-          "team2_name": "LPH"
-        },
-        {
-          "event_id": "hltv:9321",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396868",
-          "maps": [],
-          "match_id": "hltv:2396868",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396868/honvd-vs-bushido-wildcats-cct-2026-challengers-europe-series-5",
-          "stage_name": "Playoffs",
-          "starts_at": "2026-08-21T13:45:00Z",
-          "status": "upcoming",
-          "team1_name": "Honvéd",
-          "team2_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:9321",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
-          "event_url": null,
           "hltv_match_id": "2396869",
           "maps": [],
           "match_id": "hltv:2396869",
@@ -7206,10 +7249,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Challengers Europe Series 5",
       "participants": [
-        "Noir Verse",
-        "LPH",
-        "Honvéd",
-        "Bushido Wildcats",
         "WBT",
         "mellren"
       ],
@@ -7287,6 +7326,46 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-challengers-europe-series-5",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-5",
+          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396868",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396868",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396868/honvd-vs-bushido-wildcats-cct-2026-challengers-europe-series-5",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-21T13:45:00Z",
+          "status": "upcoming",
+          "team1_name": "Honvéd",
+          "team2_name": "Bushido Wildcats",
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-5",
+          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396867",
+          "maps": [],
+          "match_id": "hltv:2396867",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396867/noir-verse-vs-lph-cct-2026-challengers-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Noir Verse",
+          "team2_name": "LPH",
+          "winner_name": "Noir Verse"
+        },
         {
           "event_id": "hltv:cct-2026-challengers-europe-series-5",
           "event_name": "CCT 2026 Challengers Europe Series 5",
@@ -7476,66 +7555,26 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "WBT",
           "team2_name": "Mai Tai",
           "winner_name": "WBT"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-europe-series-5",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396855",
-          "maps": [],
-          "match_id": "hltv:2396855",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396855/honvd-vs-entropy-cct-2026-challengers-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Honvéd",
-          "team2_name": "Entropy",
-          "winner_name": "Honvéd"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-europe-series-5",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396856",
-          "maps": [],
-          "match_id": "hltv:2396856",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396856/fortress-vs-ex-mana-cct-2026-challengers-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Fortress",
-          "team2_name": "ex-MANA",
-          "winner_name": "ex-MANA"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 5",
       "participants": [
-        "mellren",
-        "Bushido Wildcats",
-        "LPH",
-        "WBT",
         "Honvéd",
+        "Bushido Wildcats",
+        "Noir Verse",
+        "LPH",
+        "mellren",
+        "WBT",
         "SAW Youngsters",
         "ex-Sashi Academy",
-        "Noir Verse",
         "ENCE",
         "Misa",
         "ex-MANA",
-        "Mai Tai",
-        "Entropy",
-        "Fortress"
+        "Mai Tai"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     },
     {
       "bracket": {
@@ -7807,38 +7846,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9324",
           "event_name": "CCT 2026 Europe Series 7",
           "event_url": null,
-          "hltv_match_id": "2396656",
-          "maps": [],
-          "match_id": "hltv:2396656",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396656/genone-vs-havu-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-21T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "GenOne",
-          "team2_name": "HAVU"
-        },
-        {
-          "event_id": "hltv:9324",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396657",
-          "maps": [],
-          "match_id": "hltv:2396657",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396657/masonic-vs-ex-zero-tenacity-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-21T14:00:00Z",
-          "status": "upcoming",
-          "team1_name": "MASONIC",
-          "team2_name": "ex-Zero Tenacity"
-        },
-        {
-          "event_id": "hltv:9324",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
           "hltv_match_id": "2396658",
           "maps": [],
           "match_id": "hltv:2396658",
@@ -7854,10 +7861,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
-        "GenOne",
-        "HAVU",
-        "MASONIC",
-        "ex-Zero Tenacity",
         "HYPERSPIRIT",
         "Just Players"
       ],
@@ -7875,6 +7878,46 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-europe-series-7",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396657",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396657",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396657/masonic-vs-ex-zero-tenacity-cct-2026-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-21T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "MASONIC",
+          "team2_name": "ex-Zero Tenacity",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396655",
+          "maps": [],
+          "match_id": "hltv:2396655",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Black Phoenix",
+          "team2_name": "ex-RUSTEC",
+          "winner_name": "ex-RUSTEC"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-7",
           "event_name": "CCT 2026 Europe Series 7",
@@ -8068,70 +8111,55 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-7",
           "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396644",
-          "maps": [],
-          "match_id": "hltv:2396644",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396644/masonic-vs-bebop-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "MASONIC",
-          "team2_name": "Bebop",
-          "winner_name": "MASONIC"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396655",
+          "hltv_match_id": "2396656",
           "lineups": {
             "team1": [],
             "team2": []
           },
           "map_results": [
             {
-              "map_name": "Anubis",
-              "score1": 8,
+              "map_name": "Nuke",
+              "score1": 10,
               "score2": 13,
               "status": "finished"
             },
             {
-              "map_name": "Inferno",
-              "score1": 4,
-              "score2": 8,
+              "map_name": "Dust2",
+              "score1": 13,
+              "score2": 6,
               "status": "finished"
             },
             {
-              "map_name": "Nuke",
+              "map_name": "Ancient",
               "score1": null,
               "score2": null,
               "status": "upcoming"
             }
           ],
           "maps": [
-            "Anubis",
-            "Inferno",
-            "Nuke"
+            "Nuke",
+            "Dust2",
+            "Ancient"
           ],
-          "match_id": "hltv:2396655",
+          "match_id": "hltv:2396656",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
+          "source_url": "https://www.hltv.org/matches/2396656/genone-vs-havu-cct-2026-europe-series-7",
           "stage_name": "Scheduled series",
           "starts_at": null,
           "status": "live",
-          "team1_name": "Black Phoenix",
-          "team2_name": "ex-RUSTEC",
+          "team1_name": "GenOne",
+          "team2_name": "HAVU",
           "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
         }
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
+        "MASONIC",
+        "ex-Zero Tenacity",
+        "Black Phoenix",
+        "ex-RUSTEC",
         "Leo",
         "Bushido Wildcats",
         "PCIFIC",
@@ -8141,15 +8169,11 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "G2 Ares",
         "Bebop",
         "HYPERSPIRIT",
-        "Black Phoenix",
-        "ex-Zero Tenacity",
         "GenOne",
-        "HAVU",
-        "ex-RUSTEC",
-        "MASONIC"
+        "HAVU"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
+      "source_url": "https://www.hltv.org/events/archive",
       "status": "ongoing"
     },
     {
@@ -8655,44 +8679,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Metizport",
           "team2_name": "DONSTU",
           "winner_name": "Metizport"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-          "event_url": null,
-          "hltv_match_id": "2396901",
-          "maps": [],
-          "match_id": "hltv:2396901",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396901/eac-vs-fortress-esl-challenger-league-season-52-europe-cup-4",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "EAC",
-          "team2_name": "Fortress",
-          "winner_name": "EAC"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-          "event_url": null,
-          "hltv_match_id": "2396897",
-          "maps": [],
-          "match_id": "hltv:2396897",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396897/color-vs-misa-esl-challenger-league-season-52-europe-cup-4",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Color",
-          "team2_name": "Misa",
-          "winner_name": "Color"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 4",
@@ -9018,7 +9004,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-21T09:53:44Z",
+  "last_verified_utc": "2026-08-21T13:13:06Z",
   "sources": [
     {
       "name": "HLTV events calendar",
