@@ -4483,10 +4483,14 @@
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9324",
+      "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396655",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396655",
       "product_tier": "tier_2",
@@ -4496,7 +4500,8 @@
       "starts_at": "2026-08-21T08:00:00Z",
       "status": "upcoming",
       "team1_name": "Black Phoenix",
-      "team2_name": "ex-RUSTEC"
+      "team2_name": "ex-RUSTEC",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
     },
     {
       "event_id": "hltv:esports-world-cup-2026",
@@ -4568,9 +4573,9 @@
       "team2_name": "Bushido Wildcats"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396609",
       "lineups": {
         "team1": [],
@@ -4581,7 +4586,7 @@
       "product_tier": "tier_1",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396609/legacy-vs-falcons-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Quarterfinal",
       "starts_at": "2026-08-21T13:55:00Z",
       "status": "live",
       "team1_name": "Legacy",
@@ -4605,9 +4610,9 @@
       "team2_name": "ex-Zero Tenacity"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396610",
       "lineups": {
         "team1": [],
@@ -4618,7 +4623,7 @@
       "product_tier": "tier_1",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396610/vitality-vs-spirit-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Quarterfinal",
       "starts_at": "2026-08-21T16:50:00Z",
       "status": "live",
       "team1_name": "Vitality",
@@ -4738,9 +4743,9 @@
       "team2_name": "Pugdesonesto"
     },
     {
-      "event_id": "hltv:blast-open-porto-2026",
+      "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396923",
       "lineups": {
         "team1": [],
@@ -6528,48 +6533,6 @@
         {
           "event_id": "hltv:esports-world-cup-2026",
           "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396609",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396609",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396609/legacy-vs-falcons-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-21T13:55:00Z",
-          "status": "live",
-          "team1_name": "Legacy",
-          "team2_name": "Falcons",
-          "veto_text": "Best of 3 (LAN)\n\n* Quarter-final"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396610",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396610",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396610/vitality-vs-spirit-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-21T16:50:00Z",
-          "status": "live",
-          "team1_name": "Vitality",
-          "team2_name": "Spirit",
-          "veto_text": "Best of 3 (LAN)\n\n* Quarter-final"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
           "event_url": null,
           "hltv_match_id": "2396607",
           "maps": [],
@@ -6743,15 +6706,15 @@
       "participants": [
         "FUT",
         "MOUZ",
-        "Legacy",
-        "Falcons",
-        "Vitality",
-        "Spirit",
         "G2",
         "FURIA",
         "B8",
+        "Spirit",
         "FaZe",
+        "Vitality",
         "Natus Vincere",
+        "Legacy",
+        "Falcons",
         "The MongolZ",
         "GamerLegion",
         "Aurora",
@@ -6774,32 +6737,13 @@
                 "event_name": "Esports World Cup 2026",
                 "event_url": null,
                 "feeds_from": [],
-                "hltv_match_id": "2396608",
-                "maps": [],
-                "match_id": "hltv:2396608",
-                "product_tier": "tier_1",
-                "round_name": "Quarterfinal",
-                "series_format": "bo3",
-                "slot_id": "main:quarterfinal:1",
-                "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
-                "stage_name": "Quarterfinal",
-                "starts_at": "2026-08-21T11:00:00Z",
-                "status": "live",
-                "team1_name": "FUT",
-                "team2_name": "MOUZ"
-              },
-              {
-                "event_id": "hltv:8261",
-                "event_name": "Esports World Cup 2026",
-                "event_url": null,
-                "feeds_from": [],
                 "hltv_match_id": "2396609",
                 "maps": [],
                 "match_id": "hltv:2396609",
                 "product_tier": "tier_1",
                 "round_name": "Quarterfinal",
                 "series_format": "bo3",
-                "slot_id": "main:quarterfinal:2",
+                "slot_id": "main:quarterfinal:1",
                 "source_url": "https://www.hltv.org/matches/2396609/legacy-vs-falcons-esports-world-cup-2026",
                 "stage_name": "Quarterfinal",
                 "starts_at": "2026-08-21T13:55:00Z",
@@ -6818,7 +6762,7 @@
                 "product_tier": "tier_1",
                 "round_name": "Quarterfinal",
                 "series_format": "bo3",
-                "slot_id": "main:quarterfinal:3",
+                "slot_id": "main:quarterfinal:2",
                 "source_url": "https://www.hltv.org/matches/2396610/vitality-vs-spirit-esports-world-cup-2026",
                 "stage_name": "Quarterfinal",
                 "starts_at": "2026-08-21T16:50:00Z",
@@ -6854,22 +6798,6 @@
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
           "event_url": null,
-          "hltv_match_id": "2396608",
-          "maps": [],
-          "match_id": "hltv:2396608",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
-          "stage_name": "Quarterfinal",
-          "starts_at": "2026-08-21T11:00:00Z",
-          "status": "live",
-          "team1_name": "FUT",
-          "team2_name": "MOUZ"
-        },
-        {
-          "event_id": "hltv:8261",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
           "hltv_match_id": "2396609",
           "maps": [],
           "match_id": "hltv:2396609",
@@ -6901,8 +6829,6 @@
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "FUT",
-        "MOUZ",
         "Legacy",
         "Falcons",
         "Vitality",
@@ -7695,6 +7621,22 @@
           "event_id": "hltv:8249",
           "event_name": "BLAST Open Porto 2026",
           "event_url": null,
+          "hltv_match_id": "2396923",
+          "maps": [],
+          "match_id": "hltv:2396923",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-26T09:00:00Z",
+          "status": "live",
+          "team1_name": "Aurora",
+          "team2_name": "G2"
+        },
+        {
+          "event_id": "hltv:8249",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": null,
           "hltv_match_id": "2396924",
           "maps": [],
           "match_id": "hltv:2396924",
@@ -7806,6 +7748,8 @@
       ],
       "name": "BLAST Open Porto 2026",
       "participants": [
+        "Aurora",
+        "G2",
         "Spirit",
         "DENDELE",
         "Natus Vincere",
@@ -7835,22 +7779,6 @@
       },
       "id": "hltv:9324",
       "matches": [
-        {
-          "event_id": "hltv:9324",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396655",
-          "maps": [],
-          "match_id": "hltv:2396655",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-21T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Black Phoenix",
-          "team2_name": "ex-RUSTEC"
-        },
         {
           "event_id": "hltv:9324",
           "event_name": "CCT 2026 Europe Series 7",
@@ -7902,8 +7830,6 @@
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
-        "Black Phoenix",
-        "ex-RUSTEC",
         "GenOne",
         "HAVU",
         "MASONIC",
@@ -7925,6 +7851,27 @@
       },
       "id": "hltv:cct-2026-europe-series-7",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396655",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396655",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-21T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Black Phoenix",
+          "team2_name": "ex-RUSTEC",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-7",
           "event_name": "CCT 2026 Europe Series 7",
@@ -8137,6 +8084,8 @@
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
+        "Black Phoenix",
+        "ex-RUSTEC",
         "Leo",
         "Bushido Wildcats",
         "PCIFIC",
@@ -8146,16 +8095,14 @@
         "G2 Ares",
         "Bebop",
         "HYPERSPIRIT",
-        "Black Phoenix",
         "ex-Zero Tenacity",
         "GenOne",
         "HAVU",
-        "ex-RUSTEC",
         "MASONIC"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -9023,7 +8970,7 @@
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-21T01:59:04Z",
+  "last_verified_utc": "2026-08-21T04:03:18Z",
   "sources": [
     {
       "name": "HLTV events calendar",
