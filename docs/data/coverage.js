@@ -9023,7 +9023,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-20T21:45:04Z",
+  "last_verified_utc": "2026-08-21T01:59:04Z",
   "sources": [
     {
       "name": "HLTV events calendar",
