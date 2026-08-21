@@ -4362,6 +4362,51 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Metizport"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-7",
+      "event_name": "CCT 2026 Europe Series 7",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396655",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Anubis",
+          "score1": 8,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 4,
+          "score2": 8,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Anubis",
+        "Inferno",
+        "Nuke"
+      ],
+      "match_id": "hltv:2396655",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Black Phoenix",
+      "team2_name": "ex-RUSTEC",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4481,27 +4526,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396655",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396655",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-21T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Black Phoenix",
-      "team2_name": "ex-RUSTEC",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
     },
     {
       "event_id": "hltv:esports-world-cup-2026",
@@ -6520,7 +6544,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           },
           "maps": [],
           "match_id": "hltv:2396608",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
           "stage_name": "Scheduled series",
@@ -7854,27 +7878,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-7",
           "event_name": "CCT 2026 Europe Series 7",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396655",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396655",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-21T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Black Phoenix",
-          "team2_name": "ex-RUSTEC",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
           "event_url": null,
           "hltv_match_id": "2396654",
           "maps": [],
@@ -8080,12 +8083,55 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "MASONIC",
           "team2_name": "Bebop",
           "winner_name": "MASONIC"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396655",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Anubis",
+              "score1": 8,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": 4,
+              "score2": 8,
+              "status": "finished"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Anubis",
+            "Inferno",
+            "Nuke"
+          ],
+          "match_id": "hltv:2396655",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Black Phoenix",
+          "team2_name": "ex-RUSTEC",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
         }
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
-        "Black Phoenix",
-        "ex-RUSTEC",
         "Leo",
         "Bushido Wildcats",
         "PCIFIC",
@@ -8095,14 +8141,16 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "G2 Ares",
         "Bebop",
         "HYPERSPIRIT",
+        "Black Phoenix",
         "ex-Zero Tenacity",
         "GenOne",
         "HAVU",
+        "ex-RUSTEC",
         "MASONIC"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8970,7 +9018,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-21T07:09:17Z",
+  "last_verified_utc": "2026-08-21T09:53:44Z",
   "sources": [
     {
       "name": "HLTV events calendar",

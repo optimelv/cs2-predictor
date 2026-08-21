@@ -4363,6 +4363,51 @@
         "winner_name": "Metizport"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-7",
+        "event_name": "CCT 2026 Europe Series 7",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396655",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Anubis",
+            "score1": 8,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Inferno",
+            "score1": 4,
+            "score2": 8,
+            "status": "finished"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Nuke"
+        ],
+        "match_id": "hltv:2396655",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Black Phoenix",
+        "team2_name": "ex-RUSTEC",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4482,27 +4527,6 @@
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-7",
-        "event_name": "CCT 2026 Europe Series 7",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396655",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396655",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-21T08:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Black Phoenix",
-        "team2_name": "ex-RUSTEC",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
       },
       {
         "event_id": "hltv:esports-world-cup-2026",
@@ -6521,7 +6545,7 @@
             },
             "maps": [],
             "match_id": "hltv:2396608",
-            "product_tier": "tier_1",
+            "product_tier": "pending",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2396608/fut-vs-mouz-esports-world-cup-2026",
             "stage_name": "Scheduled series",
@@ -7855,27 +7879,6 @@
           {
             "event_id": "hltv:cct-2026-europe-series-7",
             "event_name": "CCT 2026 Europe Series 7",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396655",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396655",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-21T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Black Phoenix",
-            "team2_name": "ex-RUSTEC",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-7",
-            "event_name": "CCT 2026 Europe Series 7",
             "event_url": null,
             "hltv_match_id": "2396654",
             "maps": [],
@@ -8081,12 +8084,55 @@
             "team1_name": "MASONIC",
             "team2_name": "Bebop",
             "winner_name": "MASONIC"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-7",
+            "event_name": "CCT 2026 Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396655",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Anubis",
+                "score1": 8,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Inferno",
+                "score1": 4,
+                "score2": 8,
+                "status": "finished"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Anubis",
+              "Inferno",
+              "Nuke"
+            ],
+            "match_id": "hltv:2396655",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "Black Phoenix",
+            "team2_name": "ex-RUSTEC",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
           }
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
-          "Black Phoenix",
-          "ex-RUSTEC",
           "Leo",
           "Bushido Wildcats",
           "PCIFIC",
@@ -8096,14 +8142,16 @@
           "G2 Ares",
           "Bebop",
           "HYPERSPIRIT",
+          "Black Phoenix",
           "ex-Zero Tenacity",
           "GenOne",
           "HAVU",
+          "ex-RUSTEC",
           "MASONIC"
         ],
         "product_tier": "tier_2",
-        "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "source_url": null,
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -8971,7 +9019,7 @@
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-21T07:09:17Z",
+    "last_verified_utc": "2026-08-21T09:53:44Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9409,7 +9457,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-21T07:09:36Z",
+  "generated_at_utc": "2026-08-21T09:54:03Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10874,7 +10922,7 @@
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-21T07:09:36Z",
+    "generated_at_utc": "2026-08-21T09:54:03Z",
     "history": [
       {
         "champion": {
@@ -21062,42 +21110,6 @@
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5099,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5099,
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-21",
-      "match_id": "hltv:2396655",
-      "match_phase": "scheduled",
-      "match_timestamp": 1787299200,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Black Phoenix",
-      "prob_team1": 0.5099,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396655/black-phoenix-vs-ex-rustec-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-21T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Black Phoenix",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "ex-RUSTEC",
-      "team2_vrs_rank": null
-    },
-    {
       "confidence": 0.6232,
       "confidence_label": "lean",
       "data_quality": "full",
@@ -21858,6 +21870,39 @@
       "team2_hltv_rank": null,
       "team2_name": "Inner Circle",
       "team2_vrs_rank": 43
+    },
+    {
+      "confidence": 0.665,
+      "confidence_label": "watch",
+      "data_quality": "full",
+      "elo_prob_team1": 0.665,
+      "event_id": "hltv:8249",
+      "event_name": "BLAST Open Porto 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-27",
+      "match_id": "hltv:2396928",
+      "match_phase": "scheduled",
+      "match_timestamp": 1787830200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "MOUZ",
+      "prob_team1": 0.665,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396928/mouz-vs-9z-blast-open-porto-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-27T11:30:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "MOUZ",
+      "team1_vrs_rank": 5,
+      "team2_hltv_rank": null,
+      "team2_name": "9z",
+      "team2_vrs_rank": 15
     }
   ],
   "updater": {
