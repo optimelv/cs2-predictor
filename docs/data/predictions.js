@@ -4453,6 +4453,51 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "IMHOWeRGOAT"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-7",
+        "event_name": "CCT 2026 Europe Series 7",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396659",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Nuke",
+            "score1": 13,
+            "score2": 10,
+            "status": "finished"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": 8,
+            "score2": 4,
+            "status": "finished"
+          },
+          {
+            "map_name": "Cache",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Nuke",
+          "Dust2",
+          "Cache"
+        ],
+        "match_id": "hltv:2396659",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396659/pcific-vs-bebop-cct-2026-europe-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "PCIFIC",
+        "team2_name": "Bebop",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated."
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4572,27 +4617,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-7",
-        "event_name": "CCT 2026 Europe Series 7",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396659",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396659",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396659/pcific-vs-bebop-cct-2026-europe-series-7",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-22T08:00:00Z",
-        "status": "upcoming",
-        "team1_name": "PCIFIC",
-        "team2_name": "Bebop",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated."
       },
       {
         "event_id": "hltv:9321",
@@ -8006,27 +8030,6 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-7",
             "event_name": "CCT 2026 Europe Series 7",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396659",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396659",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396659/pcific-vs-bebop-cct-2026-europe-series-7",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-22T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "PCIFIC",
-            "team2_name": "Bebop",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated."
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-7",
-            "event_name": "CCT 2026 Europe Series 7",
             "event_url": null,
             "hltv_match_id": "2396658",
             "maps": [],
@@ -8251,12 +8254,55 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "GenOne",
             "team2_name": "UNiTY",
             "winner_name": "GenOne"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-7",
+            "event_name": "CCT 2026 Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396659",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Nuke",
+                "score1": 13,
+                "score2": 10,
+                "status": "finished"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": 8,
+                "score2": 4,
+                "status": "finished"
+              },
+              {
+                "map_name": "Cache",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Nuke",
+              "Dust2",
+              "Cache"
+            ],
+            "match_id": "hltv:2396659",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396659/pcific-vs-bebop-cct-2026-europe-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "PCIFIC",
+            "team2_name": "Bebop",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated."
           }
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
-          "PCIFIC",
-          "Bebop",
           "HYPERSPIRIT",
           "Just Players",
           "MASONIC",
@@ -8267,14 +8313,16 @@ window.__STRIKESIGNAL_DATA__ = {
           "ex-RUSTEC",
           "Leo",
           "Bushido Wildcats",
+          "PCIFIC",
           "Drip Too Hard",
           "Lavked",
           "UNiTY",
-          "G2 Ares"
+          "G2 Ares",
+          "Bebop"
         ],
         "product_tier": "tier_2",
-        "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "source_url": null,
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -8589,44 +8637,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "DONSTU",
             "team2_name": "MOUZ NXT",
             "winner_name": "MOUZ NXT"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-            "event_url": null,
-            "hltv_match_id": "2396905",
-            "maps": [],
-            "match_id": "hltv:2396905",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396905/color-vs-the-last-resort-esl-challenger-league-season-52-europe-cup-4",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Color",
-            "team2_name": "The Last Resort",
-            "winner_name": "Color"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-            "event_url": null,
-            "hltv_match_id": "2396906",
-            "maps": [],
-            "match_id": "hltv:2396906",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396906/misa-vs-strael-bora-esl-challenger-league-season-52-europe-cup-4",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Misa",
-            "team2_name": "Strael Bora",
-            "winner_name": "Misa"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 4",
@@ -8644,8 +8654,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Permitta",
           "Misa",
           "Omega",
-          "DONSTU",
-          "Strael Bora"
+          "DONSTU"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -9010,7 +9019,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-22T07:01:13Z",
+    "last_verified_utc": "2026-08-22T09:44:20Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9448,7 +9457,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-22T07:01:27Z",
+  "generated_at_utc": "2026-08-22T09:44:39Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10910,7 +10919,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-22T07:01:26Z",
+    "generated_at_utc": "2026-08-22T09:44:39Z",
     "history": [
       {
         "champion": {
@@ -21130,42 +21139,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5576,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4424,
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-22",
-      "match_id": "hltv:2396659",
-      "match_phase": "scheduled",
-      "match_timestamp": 1787385600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Bebop",
-      "prob_team1": 0.4424,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396659/pcific-vs-bebop-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-22T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "PCIFIC",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Bebop",
-      "team2_vrs_rank": 255
-    },
-    {
       "confidence": 0.5056,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -21923,11 +21896,44 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Sementes do Mal",
       "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.9077,
+      "confidence_label": "strong",
+      "data_quality": "full",
+      "elo_prob_team1": 0.9077,
+      "event_id": "hltv:8249",
+      "event_name": "BLAST Open Porto 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-27",
+      "match_id": "hltv:2396927",
+      "match_phase": "scheduled",
+      "match_timestamp": 1787821200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Vitality",
+      "prob_team1": 0.9077,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-27T09:00:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Vitality",
+      "team1_vrs_rank": 1,
+      "team2_hltv_rank": null,
+      "team2_name": "Inner Circle",
+      "team2_vrs_rank": 43
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 85,
+    "live_feed_items": 83,
     "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
