@@ -4840,9 +4840,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Pugdesonesto"
       },
       {
-        "event_id": "hltv:blast-open-porto-2026",
+        "event_id": "hltv:8249",
         "event_name": "BLAST Open Porto 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396923",
         "lineups": {
           "team1": [],
@@ -7701,6 +7701,22 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:8249",
             "event_name": "BLAST Open Porto 2026",
             "event_url": null,
+            "hltv_match_id": "2396923",
+            "maps": [],
+            "match_id": "hltv:2396923",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-26T09:00:00Z",
+            "status": "live",
+            "team1_name": "Aurora",
+            "team2_name": "G2"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
             "hltv_match_id": "2396924",
             "maps": [],
             "match_id": "hltv:2396924",
@@ -7812,6 +7828,8 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "BLAST Open Porto 2026",
         "participants": [
+          "Aurora",
+          "G2",
           "Spirit",
           "DENDELE",
           "Natus Vincere",
@@ -9008,7 +9026,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-21T21:40:26Z",
+    "last_verified_utc": "2026-08-22T01:51:51Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9446,7 +9464,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-21T21:40:43Z",
+  "generated_at_utc": "2026-08-22T01:52:11Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10908,7 +10926,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-21T21:40:43Z",
+    "generated_at_utc": "2026-08-22T01:52:11Z",
     "history": [
       {
         "champion": {
@@ -10963,7 +10981,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
+      "new_rows": 0,
       "online_rows": 482,
       "seed_rows": 757
     }
@@ -21666,13 +21684,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4837,
-      "event_id": "hltv:blast-open-porto-2026",
+      "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-26",
@@ -21932,7 +21947,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 86,
-    "online_results_applied": 3,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

@@ -4839,9 +4839,9 @@
       "team2_name": "Pugdesonesto"
     },
     {
-      "event_id": "hltv:blast-open-porto-2026",
+      "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396923",
       "lineups": {
         "team1": [],
@@ -7700,6 +7700,22 @@
           "event_id": "hltv:8249",
           "event_name": "BLAST Open Porto 2026",
           "event_url": null,
+          "hltv_match_id": "2396923",
+          "maps": [],
+          "match_id": "hltv:2396923",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-26T09:00:00Z",
+          "status": "live",
+          "team1_name": "Aurora",
+          "team2_name": "G2"
+        },
+        {
+          "event_id": "hltv:8249",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": null,
           "hltv_match_id": "2396924",
           "maps": [],
           "match_id": "hltv:2396924",
@@ -7811,6 +7827,8 @@
       ],
       "name": "BLAST Open Porto 2026",
       "participants": [
+        "Aurora",
+        "G2",
         "Spirit",
         "DENDELE",
         "Natus Vincere",
@@ -9007,7 +9025,7 @@
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-21T21:40:26Z",
+  "last_verified_utc": "2026-08-22T01:51:51Z",
   "sources": [
     {
       "name": "HLTV events calendar",
