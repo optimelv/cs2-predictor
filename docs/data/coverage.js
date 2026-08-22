@@ -8250,25 +8250,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "GenOne",
           "team2_name": "UNiTY",
           "winner_name": "GenOne"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396646",
-          "maps": [],
-          "match_id": "hltv:2396646",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396646/lavked-vs-havu-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Lavked",
-          "team2_name": "HAVU",
-          "winner_name": "HAVU"
         }
       ],
       "name": "CCT 2026 Europe Series 7",
@@ -9028,7 +9009,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-22T03:58:08Z",
+  "last_verified_utc": "2026-08-22T07:01:13Z",
   "sources": [
     {
       "name": "HLTV events calendar",

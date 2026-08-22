@@ -259,25 +259,6 @@
           "team1_name": "GenOne",
           "team2_name": "UNiTY",
           "winner_name": "GenOne"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396646",
-          "maps": [],
-          "match_id": "hltv:2396646",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396646/lavked-vs-havu-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Lavked",
-          "team2_name": "HAVU",
-          "winner_name": "HAVU"
         }
       ],
       "name": "CCT 2026 Europe Series 7",
@@ -1923,7 +1904,7 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-22T03:58:08Z",
+  "fetched_at_utc": "2026-08-22T07:01:13Z",
   "matches": [
     {
       "event_id": "hltv:cct-2026-europe-series-7",
@@ -3460,25 +3441,6 @@
       "team1_name": "Misa",
       "team2_name": "Strael Bora",
       "winner_name": "Misa"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "event_url": null,
-      "hltv_match_id": "2396646",
-      "maps": [],
-      "match_id": "hltv:2396646",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396646/lavked-vs-havu-cct-2026-europe-series-7",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Lavked",
-      "team2_name": "HAVU",
-      "winner_name": "HAVU"
     }
   ],
   "ok": true,
@@ -3490,7 +3452,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 50
+    "scheduled_matches": 49
   },
   "product_filter": {
     "eligible_tiers": [
@@ -3498,7 +3460,7 @@
       "tier_2"
     ],
     "events_kept": 10,
-    "matches_kept": 86,
+    "matches_kept": 85,
     "players_kept": 0,
     "event_tiers": {
       "hltv:cct-2026-europe-series-7": "tier_2",
@@ -3597,8 +3559,7 @@
       "hltv:2396904",
       "hltv:2396908",
       "hltv:2396905",
-      "hltv:2396906",
-      "hltv:2396646"
+      "hltv:2396906"
     ]
   }
 }
