@@ -4698,6 +4698,96 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Younglings"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-7",
+        "event_name": "CCT 2026 Europe Series 7",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396663",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Mirage",
+            "score1": 11,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": 7,
+            "score2": 5,
+            "status": "finished"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Mirage",
+          "Dust2",
+          "Ancient"
+        ],
+        "match_id": "hltv:2396663",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396663/g2-ares-vs-hyperspirit-cct-2026-europe-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "G2 Ares",
+        "team2_name": "HYPERSPIRIT",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
+      },
+      {
+        "event_id": "hltv:esports-world-cup-2026",
+        "event_name": "Esports World Cup 2026",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396613",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": 13,
+            "score2": 9,
+            "status": "finished"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Nuke",
+          "Dust2"
+        ],
+        "match_id": "hltv:2396613",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396613/furia-vs-legacy-esports-world-cup-2026",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "FURIA",
+        "team2_name": "Legacy",
+        "veto_text": "Best of 3 (LAN)\n\n* 3rd place decider match"
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4817,48 +4907,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-7",
-        "event_name": "CCT 2026 Europe Series 7",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396663",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396663",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396663/g2-ares-vs-hyperspirit-cct-2026-europe-series-7",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-23T08:00:00Z",
-        "status": "upcoming",
-        "team1_name": "G2 Ares",
-        "team2_name": "HYPERSPIRIT",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
-      },
-      {
-        "event_id": "hltv:esports-world-cup-2026",
-        "event_name": "Esports World Cup 2026",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396613",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396613",
-        "product_tier": "tier_1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396613/furia-vs-legacy-esports-world-cup-2026",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-23T08:00:00Z",
-        "status": "live",
-        "team1_name": "FURIA",
-        "team2_name": "Legacy",
-        "veto_text": "Best of 3 (LAN)\n\n* 3rd place decider match"
       },
       {
         "event_id": "hltv:9324",
@@ -6779,27 +6827,6 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:esports-world-cup-2026",
             "event_name": "Esports World Cup 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396613",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396613",
-            "product_tier": "pending",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396613/furia-vs-legacy-esports-world-cup-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-23T08:00:00Z",
-            "status": "live",
-            "team1_name": "FURIA",
-            "team2_name": "Legacy",
-            "veto_text": "Best of 3 (LAN)\n\n* 3rd place decider match"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
             "event_url": null,
             "hltv_match_id": "2396612",
             "maps": [],
@@ -7024,13 +7051,58 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "FURIA",
             "team2_name": "Aurora",
             "winner_name": "FURIA"
+          },
+          {
+            "event_id": "hltv:esports-world-cup-2026",
+            "event_name": "Esports World Cup 2026",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396613",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Ancient",
+                "score1": 13,
+                "score2": 9,
+                "status": "finished"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Ancient",
+              "Nuke",
+              "Dust2"
+            ],
+            "match_id": "hltv:2396613",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396613/furia-vs-legacy-esports-world-cup-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "FURIA",
+            "team2_name": "Legacy",
+            "veto_text": "Best of 3 (LAN)\n\n* 3rd place decider match"
           }
         ],
         "name": "Esports World Cup 2026",
         "participants": [
-          "FURIA",
           "Legacy",
           "Spirit",
+          "FURIA",
           "FUT",
           "Vitality",
           "Falcons",
@@ -7044,7 +7116,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Aurora"
         ],
         "product_tier": "tier_1",
-        "source_url": "https://www.hltv.org/events/archive",
+        "source_url": null,
         "status": "ongoing"
       },
       {
@@ -8021,27 +8093,6 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-7",
             "event_name": "CCT 2026 Europe Series 7",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396663",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396663",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396663/g2-ares-vs-hyperspirit-cct-2026-europe-series-7",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-23T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "G2 Ares",
-            "team2_name": "HYPERSPIRIT",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-7",
-            "event_name": "CCT 2026 Europe Series 7",
             "event_url": null,
             "hltv_match_id": "2396662",
             "maps": [],
@@ -8270,27 +8321,51 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-7",
             "event_name": "CCT 2026 Europe Series 7",
-            "event_url": null,
-            "hltv_match_id": "2396650",
-            "maps": [],
-            "match_id": "hltv:2396650",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396663",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Mirage",
+                "score1": 11,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": 7,
+                "score2": 5,
+                "status": "finished"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Mirage",
+              "Dust2",
+              "Ancient"
+            ],
+            "match_id": "hltv:2396663",
             "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396650/drip-too-hard-vs-hyperspirit-cct-2026-europe-series-7",
-            "stage_name": "Completed series",
+            "source_url": "https://www.hltv.org/matches/2396663/g2-ares-vs-hyperspirit-cct-2026-europe-series-7",
+            "stage_name": "Scheduled series",
             "starts_at": null,
-            "status": "finished",
-            "team1_name": "Drip Too Hard",
+            "status": "live",
+            "team1_name": "G2 Ares",
             "team2_name": "HYPERSPIRIT",
-            "winner_name": "HYPERSPIRIT"
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
           }
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
-          "G2 Ares",
-          "HYPERSPIRIT",
           "Black Phoenix",
           "UNiTY",
           "Leo",
@@ -8299,16 +8374,18 @@ window.__STRIKESIGNAL_DATA__ = {
           "Bushido Wildcats",
           "PCIFIC",
           "Bebop",
+          "HYPERSPIRIT",
           "Just Players",
           "MASONIC",
           "ex-Zero Tenacity",
           "GenOne",
           "ex-RUSTEC",
-          "Drip Too Hard"
+          "Drip Too Hard",
+          "G2 Ares"
         ],
         "product_tier": "tier_2",
-        "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "source_url": null,
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -8414,63 +8491,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "EAC",
             "team2_name": "Color",
             "winner_name": "Color"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-            "event_url": null,
-            "hltv_match_id": "2396915",
-            "maps": [],
-            "match_id": "hltv:2396915",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396915/pcific-vs-sparta-esl-challenger-league-season-52-europe-cup-4",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "PCIFIC",
-            "team2_name": "SPARTA",
-            "winner_name": "SPARTA"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-            "event_url": null,
-            "hltv_match_id": "2396916",
-            "maps": [],
-            "match_id": "hltv:2396916",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396916/the-last-resort-vs-og-esl-challenger-league-season-52-europe-cup-4",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "The Last Resort",
-            "team2_name": "OG",
-            "winner_name": "OG"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-4",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 4",
-            "event_url": null,
-            "hltv_match_id": "2396917",
-            "maps": [],
-            "match_id": "hltv:2396917",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396917/metizport-vs-fire-flux-esl-challenger-league-season-52-europe-cup-4",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Metizport",
-            "team2_name": "Fire Flux",
-            "winner_name": "Metizport"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 4",
@@ -8479,10 +8499,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Metizport",
           "SPARTA",
           "Color",
-          "EAC",
-          "PCIFIC",
-          "The Last Resort",
-          "Fire Flux"
+          "EAC"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -8866,7 +8883,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-23T07:02:21Z",
+    "last_verified_utc": "2026-08-23T09:44:31Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9304,7 +9321,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-23T07:02:41Z",
+  "generated_at_utc": "2026-08-23T09:44:51Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10766,7 +10783,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-23T07:02:41Z",
+    "generated_at_utc": "2026-08-23T09:44:51Z",
     "history": [
       {
         "champion": {
@@ -20995,78 +21012,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5142,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4858,
-      "event_id": "hltv:esports-world-cup-2026",
-      "event_name": "Esports World Cup 2026",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-23",
-      "match_id": "hltv:2396613",
-      "match_phase": "scheduled",
-      "match_timestamp": 1787472000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Legacy",
-      "prob_team1": 0.4858,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396613/furia-vs-legacy-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-23T08:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "FURIA",
-      "team1_vrs_rank": 11,
-      "team2_hltv_rank": null,
-      "team2_name": "Legacy",
-      "team2_vrs_rank": 6
-    },
-    {
-      "confidence": 0.5136,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5136,
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-23",
-      "match_id": "hltv:2396663",
-      "match_phase": "scheduled",
-      "match_timestamp": 1787472000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "G2 Ares",
-      "prob_team1": 0.5136,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396663/g2-ares-vs-hyperspirit-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-23T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "G2 Ares",
-      "team1_vrs_rank": 125,
-      "team2_hltv_rank": null,
-      "team2_name": "HYPERSPIRIT",
-      "team2_vrs_rank": 130
-    },
-    {
       "confidence": 0.6158,
       "confidence_label": "lean",
       "data_quality": "full",
@@ -21131,39 +21076,6 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Noir Verse",
       "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.6986,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.3014,
-      "event_id": "hltv:8261",
-      "event_name": "Esports World Cup 2026",
-      "format": "bo5",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-23",
-      "match_id": "hltv:2396614",
-      "match_phase": "scheduled",
-      "match_timestamp": 1787484600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Spirit",
-      "prob_team1": 0.3014,
-      "round_name": "",
-      "series_format": "bo5",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
-      "stage_name": "Grand Final",
-      "starts_at": "2026-08-23T11:30:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "FUT",
-      "team1_vrs_rank": 12,
-      "team2_hltv_rank": null,
-      "team2_name": "Spirit",
-      "team2_vrs_rank": 2
     },
     {
       "confidence": 0.6012,
@@ -21758,11 +21670,129 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Lynn Vision",
       "team2_vrs_rank": 24
+    },
+    {
+      "confidence": 0.5142,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4858,
+      "event_id": "hltv:esports-world-cup-2026",
+      "event_name": "Esports World Cup 2026",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 9,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Nuke",
+        "Dust2"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2396613",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Legacy",
+      "prob_team1": 0.4858,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396613/furia-vs-legacy-esports-world-cup-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "FURIA",
+      "team1_vrs_rank": 11,
+      "team2_hltv_rank": null,
+      "team2_name": "Legacy",
+      "team2_vrs_rank": 6
+    },
+    {
+      "confidence": 0.5136,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5136,
+      "event_id": "hltv:cct-2026-europe-series-7",
+      "event_name": "CCT 2026 Europe Series 7",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": 11,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 7,
+          "score2": 5,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Dust2",
+        "Ancient"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2396663",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "G2 Ares",
+      "prob_team1": 0.5136,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396663/g2-ares-vs-hyperspirit-cct-2026-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "G2 Ares",
+      "team1_vrs_rank": 125,
+      "team2_hltv_rank": null,
+      "team2_name": "HYPERSPIRIT",
+      "team2_vrs_rank": 130
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 70,
+    "live_feed_items": 65,
     "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
