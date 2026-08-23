@@ -6786,7 +6786,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           },
           "maps": [],
           "match_id": "hltv:2396613",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396613/furia-vs-legacy-esports-world-cup-2026",
           "stage_name": "Scheduled series",
@@ -7023,25 +7023,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "FURIA",
           "team2_name": "Aurora",
           "winner_name": "FURIA"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396601",
-          "maps": [],
-          "match_id": "hltv:2396601",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "FUT",
-          "team2_name": "magic",
-          "winner_name": "FUT"
         }
       ],
       "name": "Esports World Cup 2026",
@@ -7059,8 +7040,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Natus Vincere",
         "The MongolZ",
         "GamerLegion",
-        "Aurora",
-        "magic"
+        "Aurora"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -8885,7 +8865,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-23T04:02:10Z",
+  "last_verified_utc": "2026-08-23T07:02:21Z",
   "sources": [
     {
       "name": "HLTV events calendar",

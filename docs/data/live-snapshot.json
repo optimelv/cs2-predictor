@@ -22,7 +22,7 @@
           },
           "maps": [],
           "match_id": "hltv:2396613",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396613/furia-vs-legacy-esports-world-cup-2026",
           "stage_name": "Scheduled series",
@@ -259,25 +259,6 @@
           "team1_name": "FURIA",
           "team2_name": "Aurora",
           "winner_name": "FURIA"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396601",
-          "maps": [],
-          "match_id": "hltv:2396601",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "FUT",
-          "team2_name": "magic",
-          "winner_name": "FUT"
         }
       ],
       "name": "Esports World Cup 2026",
@@ -295,8 +276,7 @@
         "Natus Vincere",
         "The MongolZ",
         "GamerLegion",
-        "Aurora",
-        "magic"
+        "Aurora"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -1615,7 +1595,7 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-23T04:02:10Z",
+  "fetched_at_utc": "2026-08-23T07:02:21Z",
   "matches": [
     {
       "event_id": "hltv:esports-world-cup-2026",
@@ -2887,25 +2867,6 @@
       "team1_name": "Metizport",
       "team2_name": "Fire Flux",
       "winner_name": "Metizport"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026",
-      "event_name": "Esports World Cup 2026",
-      "event_url": null,
-      "hltv_match_id": "2396601",
-      "maps": [],
-      "match_id": "hltv:2396601",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "FUT",
-      "team2_name": "magic",
-      "winner_name": "FUT"
     }
   ],
   "ok": true,
@@ -2917,7 +2878,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 42
+    "scheduled_matches": 41
   },
   "product_filter": {
     "eligible_tiers": [
@@ -2925,7 +2886,7 @@
       "tier_2"
     ],
     "events_kept": 10,
-    "matches_kept": 71,
+    "matches_kept": 70,
     "players_kept": 0,
     "event_tiers": {
       "hltv:esports-world-cup-2026": "tier_1",
@@ -3009,8 +2970,7 @@
       "hltv:2396915",
       "hltv:2396650",
       "hltv:2396916",
-      "hltv:2396917",
-      "hltv:2396601"
+      "hltv:2396917"
     ]
   }
 }

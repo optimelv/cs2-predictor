@@ -6787,7 +6787,7 @@ window.__STRIKESIGNAL_DATA__ = {
             },
             "maps": [],
             "match_id": "hltv:2396613",
-            "product_tier": "tier_1",
+            "product_tier": "pending",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2396613/furia-vs-legacy-esports-world-cup-2026",
             "stage_name": "Scheduled series",
@@ -7024,25 +7024,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "FURIA",
             "team2_name": "Aurora",
             "winner_name": "FURIA"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
-            "event_url": null,
-            "hltv_match_id": "2396601",
-            "maps": [],
-            "match_id": "hltv:2396601",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396601/fut-vs-magic-esports-world-cup-2026",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "FUT",
-            "team2_name": "magic",
-            "winner_name": "FUT"
           }
         ],
         "name": "Esports World Cup 2026",
@@ -7060,8 +7041,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Natus Vincere",
           "The MongolZ",
           "GamerLegion",
-          "Aurora",
-          "magic"
+          "Aurora"
         ],
         "product_tier": "tier_1",
         "source_url": "https://www.hltv.org/events/archive",
@@ -8886,7 +8866,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-23T04:02:10Z",
+    "last_verified_utc": "2026-08-23T07:02:21Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9324,7 +9304,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-23T04:02:23Z",
+  "generated_at_utc": "2026-08-23T07:02:41Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10786,7 +10766,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-23T04:02:23Z",
+    "generated_at_utc": "2026-08-23T07:02:41Z",
     "history": [
       {
         "champion": {
@@ -21782,7 +21762,7 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 71,
+    "live_feed_items": 70,
     "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
