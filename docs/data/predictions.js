@@ -8886,7 +8886,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-08-23T02:01:36Z",
+    "last_verified_utc": "2026-08-23T04:02:10Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9324,7 +9324,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-23T02:01:54Z",
+  "generated_at_utc": "2026-08-23T04:02:23Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10786,7 +10786,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-23T02:01:54Z",
+    "generated_at_utc": "2026-08-23T04:02:23Z",
     "history": [
       {
         "champion": {
