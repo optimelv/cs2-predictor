@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-23T18:50:12Z",
+  "generated_at_utc": "2026-08-23T21:37:26Z",
   "through_date": "2026-08-23",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1486,
+    "matches": 1488,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1232,6 +1232,50 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "GenOne",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396666",
+      "match_date": "2026-08-23",
+      "event_name": "CCT 2026 Europe Series 7",
+      "team1_name": "Just Players",
+      "team2_name": "ex-Zero Tenacity",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-Zero Tenacity",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397083",
+      "match_date": "2026-08-23",
+      "event_name": "CCT 2026 Contenders Europe Series 8",
+      "team1_name": "MAYBE",
+      "team2_name": "FORZE Reload",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FORZE Reload",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
