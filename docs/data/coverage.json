@@ -5,176 +5,6 @@
       "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
       "event_name": "ESL Challenger League Season 52 Europe Cup 3",
       "event_url": null,
-      "hltv_match_id": "2396816",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Cache",
-          "score1": 16,
-          "score2": 14,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": 4,
-          "score2": 8,
-          "status": "finished"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396816",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396816/inox-division-vs-mouz-nxt-esl-challenger-league-season-52-europe-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "INOX Division",
-      "team2_name": "MOUZ NXT",
-      "veto_text": "Best of 3 (Online)\n\n* Group A winners' match",
-      "winner_name": "INOX Division"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2396817",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Inferno",
-          "score1": 13,
-          "score2": 4,
-          "status": "finished"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": 11,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396817",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396817/ex-mana-vs-lazer-cats-esl-challenger-league-season-52-europe-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "ex-MANA",
-      "team2_name": "Lazer Cats",
-      "veto_text": "Best of 3 (Online)\n\n* Group A elimination match",
-      "winner_name": "ex-MANA"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2396820",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Anubis",
-          "score1": 8,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Cache",
-          "score1": 12,
-          "score2": 12,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396820",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396820/eac-vs-misa-esl-challenger-league-season-52-europe-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "EAC",
-      "team2_name": "Misa",
-      "veto_text": "Best of 3 (Online)\n\n* Group C winners' match",
-      "winner_name": "EAC"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2396822",
-      "maps": [],
-      "match_id": "hltv:2396822",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396822/og-vs-baks-esl-challenger-league-season-52-europe-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "OG",
-      "team2_name": "BAKS",
-      "winner_name": "BAKS"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2396823",
-      "maps": [],
-      "match_id": "hltv:2396823",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396823/privateer-vs-fire-flux-esl-challenger-league-season-52-europe-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Privateer",
-      "team2_name": "Fire Flux",
-      "winner_name": "Fire Flux"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-3",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 3",
-      "event_url": null,
       "hltv_match_id": "2396818",
       "maps": [],
       "match_id": "hltv:2396818",
@@ -4804,20 +4634,23 @@
       "winner_name": "Drip Too Hard"
     },
     {
-      "event_id": "hltv:9321",
+      "event_id": "hltv:cct-2026-challengers-europe-series-5",
       "event_name": "CCT 2026 Challengers Europe Series 5",
       "event_url": null,
       "hltv_match_id": "2396871",
       "maps": [],
       "match_id": "hltv:2396871",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396871/wbt-vs-noir-verse-cct-2026-challengers-europe-series-5",
-      "stage_name": "Playoffs",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "WBT",
-      "team2_name": "Noir Verse"
+      "team2_name": "Noir Verse",
+      "winner_name": "WBT"
     },
     {
       "event_id": "hltv:esports-world-cup-2026",
@@ -4831,21 +4664,21 @@
       "map_results": [
         {
           "map_name": "Cache",
-          "score1": 6,
-          "score2": 6,
+          "score1": 13,
+          "score2": 10,
           "status": "finished"
         },
         {
           "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 13,
+          "score2": 16,
+          "status": "finished"
         },
         {
           "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 6,
+          "score2": 6,
+          "status": "finished"
         },
         {
           "map_name": "Nuke",
@@ -4877,6 +4710,38 @@
       "team1_name": "FUT",
       "team2_name": "Spirit",
       "veto_text": "Best of 5 (LAN)\n\n* Grand final"
+    },
+    {
+      "event_id": "hltv:9324",
+      "event_name": "CCT 2026 Europe Series 7",
+      "event_url": null,
+      "hltv_match_id": "2396665",
+      "maps": [],
+      "match_id": "hltv:2396665",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396665/genone-vs-ex-rustec-cct-2026-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "GenOne",
+      "team2_name": "ex-RUSTEC"
+    },
+    {
+      "event_id": "hltv:9321",
+      "event_name": "CCT 2026 Challengers Europe Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396872",
+      "maps": [],
+      "match_id": "hltv:2396872",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396872/mellren-vs-wbt-cct-2026-challengers-europe-series-5",
+      "stage_name": "Grand Final",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "mellren",
+      "team2_name": "WBT"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -5003,22 +4868,6 @@
       "event_id": "hltv:9324",
       "event_name": "CCT 2026 Europe Series 7",
       "event_url": null,
-      "hltv_match_id": "2396665",
-      "maps": [],
-      "match_id": "hltv:2396665",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396665/genone-vs-ex-rustec-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-23T14:00:00Z",
-      "status": "upcoming",
-      "team1_name": "GenOne",
-      "team2_name": "ex-RUSTEC"
-    },
-    {
-      "event_id": "hltv:9324",
-      "event_name": "CCT 2026 Europe Series 7",
-      "event_url": null,
       "hltv_match_id": "2396666",
       "maps": [],
       "match_id": "hltv:2396666",
@@ -5030,6 +4879,70 @@
       "status": "upcoming",
       "team1_name": "Just Players",
       "team2_name": "ex-Zero Tenacity"
+    },
+    {
+      "event_id": "hltv:9350",
+      "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397066",
+      "maps": [],
+      "match_id": "hltv:2397066",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397066/the-huns-vs-nas-iem-beijing-2026-asia-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-24T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "The Huns",
+      "team2_name": "Nas"
+    },
+    {
+      "event_id": "hltv:9350",
+      "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397067",
+      "maps": [],
+      "match_id": "hltv:2397067",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397067/nexvoid-vs-chinggis-warriors-iem-beijing-2026-asia-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-24T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "NEXVOID",
+      "team2_name": "Chinggis Warriors"
+    },
+    {
+      "event_id": "hltv:9350",
+      "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397068",
+      "maps": [],
+      "match_id": "hltv:2397068",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397068/5star-vs-kaleido-iem-beijing-2026-asia-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-24T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "5star",
+      "team2_name": "Kaleido"
+    },
+    {
+      "event_id": "hltv:9350",
+      "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397069",
+      "maps": [],
+      "match_id": "hltv:2397069",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397069/morningstar-vs-rare-atom-iem-beijing-2026-asia-open-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-24T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Morningstar",
+      "team2_name": "Rare Atom"
     },
     {
       "event_id": "hltv:9340",
@@ -7083,21 +6996,21 @@
           "map_results": [
             {
               "map_name": "Cache",
-              "score1": 6,
-              "score2": 6,
+              "score1": 13,
+              "score2": 10,
               "status": "finished"
             },
             {
               "map_name": "Anubis",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 13,
+              "score2": 16,
+              "status": "finished"
             },
             {
               "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 6,
+              "score2": 6,
+              "status": "finished"
             },
             {
               "map_name": "Nuke",
@@ -7502,20 +7415,52 @@
       "status": "finished"
     },
     {
-      "current_stage": "Playoffs",
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:grand-final",
+            "matches": [
+              {
+                "event_id": "hltv:9321",
+                "event_name": "CCT 2026 Challengers Europe Series 5",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2396872",
+                "maps": [],
+                "match_id": "hltv:2396872",
+                "product_tier": "tier_2",
+                "round_name": "Grand Final",
+                "series_format": "bo3",
+                "slot_id": "main:grand-final:1",
+                "source_url": "https://www.hltv.org/matches/2396872/mellren-vs-wbt-cct-2026-challengers-europe-series-5",
+                "stage_name": "Grand Final",
+                "starts_at": null,
+                "status": "live",
+                "team1_name": "mellren",
+                "team2_name": "WBT"
+              }
+            ],
+            "name": "Grand Final",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Grand Final",
       "format": {
-        "label": "Playoffs",
+        "label": "Grand Final",
         "settings": {},
         "stages": [
           {
-            "id": "playoffs",
-            "name": "Playoffs",
+            "id": "grand-final",
+            "name": "Grand Final",
             "order": 1,
             "status": "live",
             "type": "single_elimination"
           }
         ],
-        "type": "mixed"
+        "type": "single_elimination"
       },
       "id": "hltv:9321",
       "matches": [
@@ -7523,23 +7468,23 @@
           "event_id": "hltv:9321",
           "event_name": "CCT 2026 Challengers Europe Series 5",
           "event_url": null,
-          "hltv_match_id": "2396871",
+          "hltv_match_id": "2396872",
           "maps": [],
-          "match_id": "hltv:2396871",
+          "match_id": "hltv:2396872",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396871/wbt-vs-noir-verse-cct-2026-challengers-europe-series-5",
-          "stage_name": "Playoffs",
+          "source_url": "https://www.hltv.org/matches/2396872/mellren-vs-wbt-cct-2026-challengers-europe-series-5",
+          "stage_name": "Grand Final",
           "starts_at": null,
           "status": "live",
-          "team1_name": "WBT",
-          "team2_name": "Noir Verse"
+          "team1_name": "mellren",
+          "team2_name": "WBT"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 5",
       "participants": [
-        "WBT",
-        "Noir Verse"
+        "mellren",
+        "WBT"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -7615,6 +7560,25 @@
       },
       "id": "hltv:cct-2026-challengers-europe-series-5",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-5",
+          "event_name": "CCT 2026 Challengers Europe Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396871",
+          "maps": [],
+          "match_id": "hltv:2396871",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396871/wbt-vs-noir-verse-cct-2026-challengers-europe-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "WBT",
+          "team2_name": "Noir Verse",
+          "winner_name": "WBT"
+        },
         {
           "event_id": "hltv:cct-2026-challengers-europe-series-5",
           "event_name": "CCT 2026 Challengers Europe Series 5",
@@ -7747,37 +7711,17 @@
           "team1_name": "Honvéd",
           "team2_name": "SAW Youngsters",
           "winner_name": "Honvéd"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-europe-series-5",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396863",
-          "maps": [],
-          "match_id": "hltv:2396863",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396863/ex-sashi-academy-vs-noir-verse-cct-2026-challengers-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ex-Sashi Academy",
-          "team2_name": "Noir Verse",
-          "winner_name": "Noir Verse"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 5",
       "participants": [
+        "WBT",
         "Noir Verse",
         "Bushido Wildcats",
-        "WBT",
         "mellren",
         "Honvéd",
         "LPH",
-        "SAW Youngsters",
-        "ex-Sashi Academy"
+        "SAW Youngsters"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -8053,22 +7997,6 @@
           "event_id": "hltv:9324",
           "event_name": "CCT 2026 Europe Series 7",
           "event_url": null,
-          "hltv_match_id": "2396665",
-          "maps": [],
-          "match_id": "hltv:2396665",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396665/genone-vs-ex-rustec-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-23T14:00:00Z",
-          "status": "upcoming",
-          "team1_name": "GenOne",
-          "team2_name": "ex-RUSTEC"
-        },
-        {
-          "event_id": "hltv:9324",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
           "hltv_match_id": "2396666",
           "maps": [],
           "match_id": "hltv:2396666",
@@ -8080,18 +8008,34 @@
           "status": "upcoming",
           "team1_name": "Just Players",
           "team2_name": "ex-Zero Tenacity"
+        },
+        {
+          "event_id": "hltv:9324",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396665",
+          "maps": [],
+          "match_id": "hltv:2396665",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396665/genone-vs-ex-rustec-cct-2026-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "GenOne",
+          "team2_name": "ex-RUSTEC"
         }
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
-        "GenOne",
-        "ex-RUSTEC",
         "Just Players",
-        "ex-Zero Tenacity"
+        "ex-Zero Tenacity",
+        "GenOne",
+        "ex-RUSTEC"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8330,44 +8274,6 @@
           "team1_name": "PCIFIC",
           "team2_name": "Drip Too Hard",
           "winner_name": "Drip Too Hard"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396652",
-          "maps": [],
-          "match_id": "hltv:2396652",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396652/lavked-vs-unity-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Lavked",
-          "team2_name": "UNiTY",
-          "winner_name": "UNiTY"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396651",
-          "maps": [],
-          "match_id": "hltv:2396651",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396651/g2-ares-vs-bebop-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "G2 Ares",
-          "team2_name": "Bebop",
-          "winner_name": "G2 Ares"
         }
       ],
       "name": "CCT 2026 Europe Series 7",
@@ -8867,9 +8773,99 @@
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
       "status": "ongoing"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9350",
+      "matches": [
+        {
+          "event_id": "hltv:9350",
+          "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397066",
+          "maps": [],
+          "match_id": "hltv:2397066",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397066/the-huns-vs-nas-iem-beijing-2026-asia-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-24T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "The Huns",
+          "team2_name": "Nas"
+        },
+        {
+          "event_id": "hltv:9350",
+          "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397067",
+          "maps": [],
+          "match_id": "hltv:2397067",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397067/nexvoid-vs-chinggis-warriors-iem-beijing-2026-asia-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-24T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "NEXVOID",
+          "team2_name": "Chinggis Warriors"
+        },
+        {
+          "event_id": "hltv:9350",
+          "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397068",
+          "maps": [],
+          "match_id": "hltv:2397068",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397068/5star-vs-kaleido-iem-beijing-2026-asia-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-24T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "5star",
+          "team2_name": "Kaleido"
+        },
+        {
+          "event_id": "hltv:9350",
+          "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397069",
+          "maps": [],
+          "match_id": "hltv:2397069",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397069/morningstar-vs-rare-atom-iem-beijing-2026-asia-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-24T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Morningstar",
+          "team2_name": "Rare Atom"
+        }
+      ],
+      "name": "IEM Beijing 2026 Asia Open Qualifier",
+      "participants": [
+        "The Huns",
+        "Nas",
+        "NEXVOID",
+        "Chinggis Warriors",
+        "5star",
+        "Kaleido",
+        "Morningstar",
+        "Rare Atom"
+      ],
+      "product_tier": "tier_1",
+      "source_url": null,
+      "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-08-23T13:03:34Z",
+  "last_verified_utc": "2026-08-23T15:37:44Z",
   "sources": [
     {
       "name": "HLTV events calendar",
