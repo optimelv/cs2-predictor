@@ -4818,10 +4818,14 @@
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9324",
+      "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396663",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2396663",
       "product_tier": "tier_2",
@@ -4831,7 +4835,8 @@
       "starts_at": "2026-08-23T08:00:00Z",
       "status": "upcoming",
       "team1_name": "G2 Ares",
-      "team2_name": "HYPERSPIRIT"
+      "team2_name": "HYPERSPIRIT",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
     },
     {
       "event_id": "hltv:esports-world-cup-2026",
@@ -4887,9 +4892,9 @@
       "team2_name": "Noir Verse"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
+      "event_id": "hltv:8261",
       "event_name": "Esports World Cup 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396614",
       "lineups": {
         "team1": [],
@@ -4898,9 +4903,9 @@
       "maps": [],
       "match_id": "hltv:2396614",
       "product_tier": "tier_1",
-      "series_format": "bo3",
+      "series_format": "bo5",
       "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Grand Final",
       "starts_at": "2026-08-23T11:30:00Z",
       "status": "live",
       "team1_name": "FUT",
@@ -5004,9 +5009,9 @@
       "team2_name": "Pugdesonesto"
     },
     {
-      "event_id": "hltv:blast-open-porto-2026",
+      "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396923",
       "lineups": {
         "team1": [],
@@ -6794,27 +6799,6 @@
         {
           "event_id": "hltv:esports-world-cup-2026",
           "event_name": "Esports World Cup 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396614",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396614",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-23T11:30:00Z",
-          "status": "live",
-          "team1_name": "FUT",
-          "team2_name": "Spirit",
-          "veto_text": "Best of 5 (LAN)\n\n* Grand final"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
           "event_url": null,
           "hltv_match_id": "2396612",
           "maps": [],
@@ -7064,8 +7048,8 @@
       "participants": [
         "FURIA",
         "Legacy",
-        "FUT",
         "Spirit",
+        "FUT",
         "Vitality",
         "Falcons",
         "MOUZ",
@@ -7087,42 +7071,42 @@
         "rounds": [
           {
             "bracket": "main",
-            "id": "main:semifinal",
+            "id": "main:grand-final",
             "matches": [
               {
                 "event_id": "hltv:8261",
                 "event_name": "Esports World Cup 2026",
                 "event_url": null,
                 "feeds_from": [],
-                "hltv_match_id": "2396612",
+                "hltv_match_id": "2396614",
                 "maps": [],
-                "match_id": "hltv:2396612",
+                "match_id": "hltv:2396614",
                 "product_tier": "tier_1",
-                "round_name": "Semifinal",
-                "series_format": "bo3",
-                "slot_id": "main:semifinal:1",
-                "source_url": "https://www.hltv.org/matches/2396612/legacy-vs-spirit-esports-world-cup-2026",
-                "stage_name": "Semifinal",
-                "starts_at": "2026-08-22T16:55:00Z",
+                "round_name": "Grand Final",
+                "series_format": "bo5",
+                "slot_id": "main:grand-final:1",
+                "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+                "stage_name": "Grand Final",
+                "starts_at": "2026-08-23T11:30:00Z",
                 "status": "live",
-                "team1_name": "Legacy",
+                "team1_name": "FUT",
                 "team2_name": "Spirit"
               }
             ],
-            "name": "Semifinal",
+            "name": "Grand Final",
             "order": 1
           }
         ],
         "type": "single_elimination"
       },
-      "current_stage": "Semifinal",
+      "current_stage": "Grand Final",
       "format": {
-        "label": "Semifinal",
+        "label": "Grand Final",
         "settings": {},
         "stages": [
           {
-            "id": "semifinal",
-            "name": "Semifinal",
+            "id": "grand-final",
+            "name": "Grand Final",
             "order": 1,
             "status": "live",
             "type": "single_elimination"
@@ -7136,22 +7120,22 @@
           "event_id": "hltv:8261",
           "event_name": "Esports World Cup 2026",
           "event_url": null,
-          "hltv_match_id": "2396612",
+          "hltv_match_id": "2396614",
           "maps": [],
-          "match_id": "hltv:2396612",
+          "match_id": "hltv:2396614",
           "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396612/legacy-vs-spirit-esports-world-cup-2026",
-          "stage_name": "Semifinal",
-          "starts_at": "2026-08-22T16:55:00Z",
+          "series_format": "bo5",
+          "source_url": "https://www.hltv.org/matches/2396614/fut-vs-spirit-esports-world-cup-2026",
+          "stage_name": "Grand Final",
+          "starts_at": "2026-08-23T11:30:00Z",
           "status": "live",
-          "team1_name": "Legacy",
+          "team1_name": "FUT",
           "team2_name": "Spirit"
         }
       ],
       "name": "Esports World Cup 2026",
       "participants": [
-        "Legacy",
+        "FUT",
         "Spirit"
       ],
       "product_tier": "tier_1",
@@ -7823,6 +7807,22 @@
           "event_id": "hltv:8249",
           "event_name": "BLAST Open Porto 2026",
           "event_url": null,
+          "hltv_match_id": "2396923",
+          "maps": [],
+          "match_id": "hltv:2396923",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-26T09:00:00Z",
+          "status": "live",
+          "team1_name": "Aurora",
+          "team2_name": "G2"
+        },
+        {
+          "event_id": "hltv:8249",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": null,
           "hltv_match_id": "2396924",
           "maps": [],
           "match_id": "hltv:2396924",
@@ -7934,6 +7934,8 @@
       ],
       "name": "BLAST Open Porto 2026",
       "participants": [
+        "Aurora",
+        "G2",
         "Spirit",
         "DENDELE",
         "Natus Vincere",
@@ -7963,22 +7965,6 @@
       },
       "id": "hltv:9324",
       "matches": [
-        {
-          "event_id": "hltv:9324",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396663",
-          "maps": [],
-          "match_id": "hltv:2396663",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396663/g2-ares-vs-hyperspirit-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-23T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "G2 Ares",
-          "team2_name": "HYPERSPIRIT"
-        },
         {
           "event_id": "hltv:9324",
           "event_name": "CCT 2026 Europe Series 7",
@@ -8030,8 +8016,6 @@
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
-        "G2 Ares",
-        "HYPERSPIRIT",
         "Drip Too Hard",
         "MASONIC",
         "GenOne",
@@ -8053,6 +8037,27 @@
       },
       "id": "hltv:cct-2026-europe-series-7",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396663",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2396663",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396663/g2-ares-vs-hyperspirit-cct-2026-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-23T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "G2 Ares",
+          "team2_name": "HYPERSPIRIT",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-7",
           "event_name": "CCT 2026 Europe Series 7",
@@ -8303,6 +8308,8 @@
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
+        "G2 Ares",
+        "HYPERSPIRIT",
         "Black Phoenix",
         "UNiTY",
         "Leo",
@@ -8311,18 +8318,16 @@
         "Bushido Wildcats",
         "PCIFIC",
         "Bebop",
-        "HYPERSPIRIT",
         "Just Players",
         "MASONIC",
         "ex-Zero Tenacity",
         "GenOne",
         "ex-RUSTEC",
-        "Drip Too Hard",
-        "G2 Ares"
+        "Drip Too Hard"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -8880,7 +8885,7 @@
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-22T21:37:15Z",
+  "last_verified_utc": "2026-08-23T02:01:36Z",
   "sources": [
     {
       "name": "HLTV events calendar",
