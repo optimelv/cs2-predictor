@@ -3743,25 +3743,28 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "EAC"
       },
       {
-        "event_id": "hltv:9324",
+        "event_id": "hltv:cct-2026-europe-series-7",
         "event_name": "CCT 2026 Europe Series 7",
         "event_url": null,
         "hltv_match_id": "2396669",
         "maps": [],
         "match_id": "hltv:2396669",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396669/black-phoenix-vs-havu-cct-2026-europe-series-7",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Black Phoenix",
-        "team2_name": "HAVU"
+        "team2_name": "HAVU",
+        "winner_name": "Black Phoenix"
       },
       {
         "event_id": "hltv:iem-beijing-2026-open-qualifier",
         "event_name": "IEM Beijing 2026 Open Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397081",
         "lineups": {
           "team1": [],
@@ -3787,26 +3790,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2397081",
         "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397081/color-vs-eac-iem-beijing-2026-open-qualifier",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Color",
         "team2_name": "EAC",
-        "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
+        "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier.",
+        "winner_name": "Color"
       },
       {
         "event_id": "hltv:iem-beijing-2026-open-qualifier",
         "event_name": "IEM Beijing 2026 Open Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397078",
         "lineups": {
           "team1": [],
@@ -3832,26 +3834,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Ancient",
-          "Dust2",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2397078",
         "product_tier": "tier_1",
+        "score1": 1,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "100 Thieves",
         "team2_name": "Eternal Fire",
-        "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
+        "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier.",
+        "winner_name": "Eternal Fire"
       },
       {
         "event_id": "hltv:iem-beijing-2026-open-qualifier",
         "event_name": "IEM Beijing 2026 Open Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397080",
         "lineups": {
           "team1": [],
@@ -3877,26 +3878,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Ancient",
-          "Anubis",
-          "Nuke"
-        ],
+        "maps": [],
         "match_id": "hltv:2397080",
         "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Nuclear TigeRES",
         "team2_name": "CYBERSHOKE",
-        "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
+        "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier.",
+        "winner_name": "Nuclear TigeRES"
       },
       {
         "event_id": "hltv:iem-beijing-2026-open-qualifier",
         "event_name": "IEM Beijing 2026 Open Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397079",
         "lineups": {
           "team1": [],
@@ -3922,21 +3922,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Anubis",
-          "Dust2",
-          "Ancient"
-        ],
+        "maps": [],
         "match_id": "hltv:2397079",
         "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Nemiga",
         "team2_name": "Acend",
-        "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
+        "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier.",
+        "winner_name": "Nemiga"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -4556,9 +4555,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Chicken Coop"
       },
       {
-        "event_id": "hltv:8249",
+        "event_id": "hltv:blast-open-porto-2026",
         "event_name": "BLAST Open Porto 2026",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396923",
         "lineups": {
           "team1": [],
@@ -4625,9 +4624,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Ground Zero"
       },
       {
-        "event_id": "hltv:8249",
+        "event_id": "hltv:blast-open-porto-2026",
         "event_name": "BLAST Open Porto 2026",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396924",
         "lineups": {
           "team1": [],
@@ -4662,10 +4661,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "ODDIK"
       },
       {
-        "event_id": "hltv:8249",
+        "event_id": "hltv:blast-open-porto-2026",
         "event_name": "BLAST Open Porto 2026",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396925",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396925",
         "product_tier": "tier_1",
@@ -4675,13 +4678,18 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-26T14:00:00Z",
         "status": "live",
         "team1_name": "Natus Vincere",
-        "team2_name": "M80"
+        "team2_name": "M80",
+        "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
       },
       {
-        "event_id": "hltv:8249",
+        "event_id": "hltv:blast-open-porto-2026",
         "event_name": "BLAST Open Porto 2026",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2396926",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2396926",
         "product_tier": "tier_1",
@@ -4691,7 +4699,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-08-26T15:30:00Z",
         "status": "live",
         "team1_name": "FURIA",
-        "team2_name": "paiN"
+        "team2_name": "paiN",
+        "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
       },
       {
         "event_id": "hltv:9340",
@@ -6450,25 +6459,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "FURIA",
             "team2_name": "FUT",
             "winner_name": "FUT"
-          },
-          {
-            "event_id": "hltv:esports-world-cup-2026",
-            "event_name": "Esports World Cup 2026",
-            "event_url": null,
-            "hltv_match_id": "2396610",
-            "maps": [],
-            "match_id": "hltv:2396610",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396610/vitality-vs-spirit-esports-world-cup-2026",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Vitality",
-            "team2_name": "Spirit",
-            "winner_name": "Spirit"
           }
         ],
         "name": "Esports World Cup 2026",
@@ -6476,8 +6466,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "FUT",
           "Spirit",
           "FURIA",
-          "Legacy",
-          "Vitality"
+          "Legacy"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -7176,70 +7165,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:8249",
             "event_name": "BLAST Open Porto 2026",
             "event_url": null,
-            "hltv_match_id": "2396923",
-            "maps": [],
-            "match_id": "hltv:2396923",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-26T09:00:00Z",
-            "status": "live",
-            "team1_name": "Aurora",
-            "team2_name": "G2"
-          },
-          {
-            "event_id": "hltv:8249",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
-            "hltv_match_id": "2396924",
-            "maps": [],
-            "match_id": "hltv:2396924",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396924/spirit-vs-dendele-blast-open-porto-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-26T11:30:00Z",
-            "status": "live",
-            "team1_name": "Spirit",
-            "team2_name": "DENDELE"
-          },
-          {
-            "event_id": "hltv:8249",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
-            "hltv_match_id": "2396925",
-            "maps": [],
-            "match_id": "hltv:2396925",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-26T14:00:00Z",
-            "status": "live",
-            "team1_name": "Natus Vincere",
-            "team2_name": "M80"
-          },
-          {
-            "event_id": "hltv:8249",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
-            "hltv_match_id": "2396926",
-            "maps": [],
-            "match_id": "hltv:2396926",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396926/furia-vs-pain-blast-open-porto-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-26T15:30:00Z",
-            "status": "live",
-            "team1_name": "FURIA",
-            "team2_name": "paiN"
-          },
-          {
-            "event_id": "hltv:8249",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
             "hltv_match_id": "2396927",
             "maps": [],
             "match_id": "hltv:2396927",
@@ -7303,14 +7228,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "BLAST Open Porto 2026",
         "participants": [
-          "Aurora",
-          "G2",
-          "Spirit",
-          "DENDELE",
-          "Natus Vincere",
-          "M80",
-          "FURIA",
-          "paiN",
           "Vitality",
           "Inner Circle",
           "MOUZ",
@@ -7381,22 +7298,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "Drip Too Hard",
             "team2_name": "Just Players"
-          },
-          {
-            "event_id": "hltv:9324",
-            "event_name": "CCT 2026 Europe Series 7",
-            "event_url": null,
-            "hltv_match_id": "2396669",
-            "maps": [],
-            "match_id": "hltv:2396669",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396669/black-phoenix-vs-havu-cct-2026-europe-series-7",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Black Phoenix",
-            "team2_name": "HAVU"
           }
         ],
         "name": "CCT 2026 Europe Series 7",
@@ -7406,13 +7307,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "G2 Ares",
           "ex-RUSTEC",
           "Drip Too Hard",
-          "Just Players",
-          "Black Phoenix",
-          "HAVU"
+          "Just Players"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -7424,6 +7323,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-7",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-7",
+            "event_name": "CCT 2026 Europe Series 7",
+            "event_url": null,
+            "hltv_match_id": "2396669",
+            "maps": [],
+            "match_id": "hltv:2396669",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396669/black-phoenix-vs-havu-cct-2026-europe-series-7",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Black Phoenix",
+            "team2_name": "HAVU",
+            "winner_name": "Black Phoenix"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-7",
             "event_name": "CCT 2026 Europe Series 7",
@@ -7613,29 +7531,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "PCIFIC",
             "team2_name": "Bebop",
             "winner_name": "PCIFIC"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-7",
-            "event_name": "CCT 2026 Europe Series 7",
-            "event_url": null,
-            "hltv_match_id": "2396658",
-            "maps": [],
-            "match_id": "hltv:2396658",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396658/hyperspirit-vs-just-players-cct-2026-europe-series-7",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "HYPERSPIRIT",
-            "team2_name": "Just Players",
-            "winner_name": "Just Players"
           }
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
+          "Black Phoenix",
+          "HAVU",
           "PCIFIC",
           "Bushido Wildcats",
           "MASONIC",
@@ -7646,10 +7547,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "ex-RUSTEC",
           "Drip Too Hard",
           "G2 Ares",
-          "Black Phoenix",
           "UNiTY",
           "Leo",
-          "HAVU",
           "Lavked",
           "Bebop"
         ],
@@ -7819,25 +7718,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "IMHOWeRGOAT",
             "team2_name": "Younglings",
             "winner_name": "Younglings"
-          },
-          {
-            "event_id": "hltv:cct-2026-contenders-europe-series-8",
-            "event_name": "CCT 2026 Contenders Europe Series 8",
-            "event_url": null,
-            "hltv_match_id": "2397064",
-            "maps": [],
-            "match_id": "hltv:2397064",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397064/nordic-valor-vs-imhowergoat-cct-2026-contenders-europe-series-8",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Nordic Valor",
-            "team2_name": "IMHOWeRGOAT",
-            "winner_name": "IMHOWeRGOAT"
           }
         ],
         "name": "CCT 2026 Contenders Europe Series 8",
@@ -7845,8 +7725,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "MAYBE",
           "FORZE Reload",
           "Younglings",
-          "IMHOWeRGOAT",
-          "Nordic Valor"
+          "IMHOWeRGOAT"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -8065,6 +7944,48 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Spirit",
             "team2_name": "DENDELE",
             "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
+          },
+          {
+            "event_id": "hltv:blast-open-porto-2026",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396925",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396925",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-26T14:00:00Z",
+            "status": "live",
+            "team1_name": "Natus Vincere",
+            "team2_name": "M80",
+            "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
+          },
+          {
+            "event_id": "hltv:blast-open-porto-2026",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2396926",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2396926",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396926/furia-vs-pain-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-26T15:30:00Z",
+            "status": "live",
+            "team1_name": "FURIA",
+            "team2_name": "paiN",
+            "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
           }
         ],
         "name": "BLAST Open Porto 2026",
@@ -8072,7 +7993,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "Aurora",
           "G2",
           "Spirit",
-          "DENDELE"
+          "DENDELE",
+          "Natus Vincere",
+          "M80",
+          "FURIA",
+          "paiN"
         ],
         "product_tier": "tier_1",
         "source_url": "https://www.hltv.org/events/archive",
@@ -8142,6 +8067,82 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:iem-beijing-2026-open-qualifier",
         "matches": [
+          {
+            "event_id": "hltv:iem-beijing-2026-open-qualifier",
+            "event_name": "IEM Beijing 2026 Open Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397081",
+            "maps": [],
+            "match_id": "hltv:2397081",
+            "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397081/color-vs-eac-iem-beijing-2026-open-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Color",
+            "team2_name": "EAC",
+            "winner_name": "Color"
+          },
+          {
+            "event_id": "hltv:iem-beijing-2026-open-qualifier",
+            "event_name": "IEM Beijing 2026 Open Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397078",
+            "maps": [],
+            "match_id": "hltv:2397078",
+            "product_tier": "tier_1",
+            "score1": 1,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "100 Thieves",
+            "team2_name": "Eternal Fire",
+            "winner_name": "Eternal Fire"
+          },
+          {
+            "event_id": "hltv:iem-beijing-2026-open-qualifier",
+            "event_name": "IEM Beijing 2026 Open Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397079",
+            "maps": [],
+            "match_id": "hltv:2397079",
+            "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Nemiga",
+            "team2_name": "Acend",
+            "winner_name": "Nemiga"
+          },
+          {
+            "event_id": "hltv:iem-beijing-2026-open-qualifier",
+            "event_name": "IEM Beijing 2026 Open Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397080",
+            "maps": [],
+            "match_id": "hltv:2397080",
+            "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Nuclear TigeRES",
+            "team2_name": "CYBERSHOKE",
+            "winner_name": "Nuclear TigeRES"
+          },
           {
             "event_id": "hltv:iem-beijing-2026-open-qualifier",
             "event_name": "IEM Beijing 2026 Open Qualifier",
@@ -8293,210 +8294,30 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "BAKS",
             "team2_name": "Color",
             "winner_name": "Color"
-          },
-          {
-            "event_id": "hltv:iem-beijing-2026-open-qualifier",
-            "event_name": "IEM Beijing 2026 Open Qualifier",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397081",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Ancient",
-                "score1": 13,
-                "score2": 8,
-                "status": "finished"
-              },
-              {
-                "map_name": "Anubis",
-                "score1": 12,
-                "score2": 12,
-                "status": "finished"
-              },
-              {
-                "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Ancient",
-              "Anubis",
-              "Mirage"
-            ],
-            "match_id": "hltv:2397081",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397081/color-vs-eac-iem-beijing-2026-open-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Color",
-            "team2_name": "EAC",
-            "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
-          },
-          {
-            "event_id": "hltv:iem-beijing-2026-open-qualifier",
-            "event_name": "IEM Beijing 2026 Open Qualifier",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397078",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Ancient",
-                "score1": 9,
-                "score2": 13,
-                "status": "finished"
-              },
-              {
-                "map_name": "Dust2",
-                "score1": 7,
-                "score2": 5,
-                "status": "finished"
-              },
-              {
-                "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Ancient",
-              "Dust2",
-              "Mirage"
-            ],
-            "match_id": "hltv:2397078",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397078/100-thieves-vs-eternal-fire-iem-beijing-2026-open-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "100 Thieves",
-            "team2_name": "Eternal Fire",
-            "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
-          },
-          {
-            "event_id": "hltv:iem-beijing-2026-open-qualifier",
-            "event_name": "IEM Beijing 2026 Open Qualifier",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397080",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Ancient",
-                "score1": 13,
-                "score2": 8,
-                "status": "finished"
-              },
-              {
-                "map_name": "Anubis",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Nuke",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Ancient",
-              "Anubis",
-              "Nuke"
-            ],
-            "match_id": "hltv:2397080",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397080/nuclear-tigeres-vs-cybershoke-iem-beijing-2026-open-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Nuclear TigeRES",
-            "team2_name": "CYBERSHOKE",
-            "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
-          },
-          {
-            "event_id": "hltv:iem-beijing-2026-open-qualifier",
-            "event_name": "IEM Beijing 2026 Open Qualifier",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397079",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Anubis",
-                "score1": 13,
-                "score2": 5,
-                "status": "finished"
-              },
-              {
-                "map_name": "Dust2",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Ancient",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Anubis",
-              "Dust2",
-              "Ancient"
-            ],
-            "match_id": "hltv:2397079",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397079/nemiga-vs-acend-iem-beijing-2026-open-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Nemiga",
-            "team2_name": "Acend",
-            "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
           }
         ],
         "name": "IEM Beijing 2026 Open Qualifier",
         "participants": [
-          "Acend",
-          "Phantom",
-          "Echo",
-          "CYBERSHOKE",
-          "Eternal Fire",
-          "ex-RUBY",
-          "QUAZAR",
-          "Nemiga",
-          "Nuclear TigeRES",
-          "Spirit Academy",
-          "Insiders",
+          "Color",
           "EAC",
           "100 Thieves",
+          "Eternal Fire",
+          "Nemiga",
+          "Acend",
+          "Nuclear TigeRES",
+          "CYBERSHOKE",
+          "Phantom",
+          "Echo",
+          "ex-RUBY",
+          "QUAZAR",
+          "Spirit Academy",
+          "Insiders",
           "INOX Division",
-          "BAKS",
-          "Color"
+          "BAKS"
         ],
         "product_tier": "tier_1",
         "source_url": null,
-        "status": "ongoing"
+        "status": "finished"
       },
       {
         "current_stage": "Schedule",
@@ -9285,7 +9106,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-08-24T19:00:46Z",
+    "last_verified_utc": "2026-08-24T21:45:48Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9723,7 +9544,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-24T19:01:05Z",
+  "generated_at_utc": "2026-08-24T21:46:06Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -11119,13 +10940,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 3,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.636792,
-        "brier": 0.220727,
-        "ece": 0.032619,
-        "log_loss": 0.630269
+        "accuracy": 0.636505,
+        "brier": 0.22087,
+        "ece": 0.032917,
+        "log_loss": 0.630624
       },
-      "rows": 1272,
-      "test_rows": 636
+      "rows": 1277,
+      "test_rows": 641
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -11139,13 +10960,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 3,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.633648,
-        "brier": 0.220611,
-        "ece": 0.023365,
-        "log_loss": 0.630716
+        "accuracy": 0.634945,
+        "brier": 0.220812,
+        "ece": 0.020662,
+        "log_loss": 0.631152
       },
       "promotion_passed": false,
-      "rows": 636
+      "rows": 641
     },
     "champion": {
       "blend_weight": 0.5,
@@ -11188,7 +11009,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-24T19:01:05Z",
+    "generated_at_utc": "2026-08-24T21:46:06Z",
     "history": [
       {
         "champion": {
@@ -11243,8 +11064,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 9,
-      "online_rows": 515,
+      "new_rows": 5,
+      "online_rows": 520,
       "seed_rows": 757
     }
   },
@@ -11764,9 +11585,14 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2397077",
       "hltv:2397070",
       "hltv:2397076",
-      "hltv:2396668"
+      "hltv:2396668",
+      "hltv:2397081",
+      "hltv:2397078",
+      "hltv:2397079",
+      "hltv:2397080",
+      "hltv:2396669"
     ],
-    "last_online_update_utc": "2026-08-24T19:01:05Z",
+    "last_online_update_utc": "2026-08-24T21:46:06Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -14475,20 +14301,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 38
       },
       {
-        "elo": 1653.44,
-        "last_result_utc": "2026-08-24T19:01:05Z",
-        "matches": 97,
-        "recent_win_rate_10": 0.8364,
+        "elo": 1665.95,
+        "last_result_utc": "2026-08-24T21:46:06Z",
+        "matches": 98,
+        "recent_win_rate_10": 0.8661,
         "team_key": "nuclear tigeres",
         "team_name": "Nuclear TigeRES",
         "vrs_points": 1333.0,
         "vrs_rank": 39
       },
       {
-        "elo": 1630.03,
-        "last_result_utc": "2026-08-24T19:01:05Z",
-        "matches": 159,
-        "recent_win_rate_10": 0.6727,
+        "elo": 1640.56,
+        "last_result_utc": "2026-08-24T21:46:06Z",
+        "matches": 160,
+        "recent_win_rate_10": 0.7322,
         "team_key": "nemiga",
         "team_name": "Nemiga",
         "vrs_points": 1329.0,
@@ -14555,10 +14381,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 46
       },
       {
-        "elo": 1590.16,
-        "last_result_utc": "2026-08-24T19:01:05Z",
-        "matches": 30,
-        "recent_win_rate_10": 0.6273,
+        "elo": 1572.93,
+        "last_result_utc": "2026-08-24T21:46:06Z",
+        "matches": 31,
+        "recent_win_rate_10": 0.5132,
         "team_key": "100 thieves",
         "team_name": "100 Thieves",
         "vrs_points": 1275.0,
@@ -14659,10 +14485,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 59
       },
       {
-        "elo": 1549.28,
-        "last_result_utc": "2026-08-24T19:01:05Z",
-        "matches": 45,
-        "recent_win_rate_10": 0.5898,
+        "elo": 1538.75,
+        "last_result_utc": "2026-08-24T21:46:06Z",
+        "matches": 46,
+        "recent_win_rate_10": 0.4826,
         "team_key": "acend",
         "team_name": "Acend",
         "vrs_points": 1200.0,
@@ -14718,10 +14544,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 66
       },
       {
-        "elo": 1624.71,
-        "last_result_utc": "2026-08-24T19:01:05Z",
-        "matches": 170,
-        "recent_win_rate_10": 0.833,
+        "elo": 1612.2,
+        "last_result_utc": "2026-08-24T21:46:06Z",
+        "matches": 171,
+        "recent_win_rate_10": 0.6815,
         "team_key": "cybershoke",
         "team_name": "CYBERSHOKE",
         "vrs_points": 1171.0,
@@ -14995,10 +14821,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 99
       },
       {
-        "elo": 1551.35,
-        "last_result_utc": "2026-08-24T19:01:05Z",
-        "matches": 15,
-        "recent_win_rate_10": 0.6728,
+        "elo": 1538.94,
+        "last_result_utc": "2026-08-24T21:46:06Z",
+        "matches": 16,
+        "recent_win_rate_10": 0.5505,
         "team_key": "eac",
         "team_name": "EAC",
         "vrs_points": 1060.0,
@@ -15292,10 +15118,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 138
       },
       {
-        "elo": 1457.82,
-        "last_result_utc": "2026-08-22T18:50:48Z",
-        "matches": 26,
-        "recent_win_rate_10": 0.4064,
+        "elo": 1447.18,
+        "last_result_utc": "2026-08-24T21:46:06Z",
+        "matches": 27,
+        "recent_win_rate_10": 0.3325,
         "team_key": "havu",
         "team_name": "HAVU",
         "vrs_points": 911.0,
@@ -16328,10 +16154,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 260
       },
       {
-        "elo": 1443.71,
-        "last_result_utc": "2026-08-24T19:01:05Z",
-        "matches": 98,
-        "recent_win_rate_10": 0.5131,
+        "elo": 1460.94,
+        "last_result_utc": "2026-08-24T21:46:06Z",
+        "matches": 99,
+        "recent_win_rate_10": 0.6016,
         "team_key": "eternal fire",
         "team_name": "Eternal Fire",
         "vrs_points": 629.0,
@@ -17921,10 +17747,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1535.42,
-        "last_result_utc": "2026-08-22T21:37:35Z",
-        "matches": 17,
-        "recent_win_rate_10": 0.4642,
+        "elo": 1546.06,
+        "last_result_utc": "2026-08-24T21:46:06Z",
+        "matches": 18,
+        "recent_win_rate_10": 0.5616,
         "team_key": "black phoenix",
         "team_name": "Black Phoenix",
         "vrs_points": 0,
@@ -18381,10 +18207,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1548.69,
-        "last_result_utc": "2026-08-24T19:01:05Z",
-        "matches": 6,
-        "recent_win_rate_10": 0.7284,
+        "elo": 1561.1,
+        "last_result_utc": "2026-08-24T21:46:06Z",
+        "matches": 7,
+        "recent_win_rate_10": 0.7778,
         "team_key": "color",
         "team_name": "Color",
         "vrs_points": 0,
@@ -22256,8 +22082,8 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 87,
-    "online_results_applied": 9,
+    "live_feed_items": 84,
+    "online_results_applied": 5,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
