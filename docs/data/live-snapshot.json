@@ -247,12 +247,35 @@
           "team1_name": "100 Thieves",
           "team2_name": "INOX Division",
           "veto_text": "Best of 1 (Online)\n\n* Round of 16"
+        },
+        {
+          "event_id": "hltv:iem-beijing-2026-open-qualifier",
+          "event_name": "IEM Beijing 2026 Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397074",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2397074",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397074/echo-vs-cybershoke-iem-beijing-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-24T16:00:00Z",
+          "status": "live",
+          "team1_name": "Echo",
+          "team2_name": "CYBERSHOKE",
+          "veto_text": "Best of 1 (Online)\n\n* Round of 16"
         }
       ],
       "name": "IEM Beijing 2026 Open Qualifier",
       "participants": [
         "100 Thieves",
-        "INOX Division"
+        "INOX Division",
+        "Echo",
+        "CYBERSHOKE"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -320,22 +343,6 @@
           "event_id": "hltv:9294",
           "event_name": "IEM Beijing 2026 Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2397074",
-          "maps": [],
-          "match_id": "hltv:2397074",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2397074/echo-vs-cybershoke-iem-beijing-2026-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-24T16:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Echo",
-          "team2_name": "CYBERSHOKE"
-        },
-        {
-          "event_id": "hltv:9294",
-          "event_name": "IEM Beijing 2026 Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2397075",
           "maps": [],
           "match_id": "hltv:2397075",
@@ -389,8 +396,6 @@
         "Phantom",
         "QUAZAR",
         "Nemiga",
-        "Echo",
-        "CYBERSHOKE",
         "Nuclear TigeRES",
         "Spirit Academy",
         "BAKS",
@@ -572,17 +577,13 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:blast-open-porto-2026",
+      "id": "hltv:8249",
       "matches": [
         {
-          "event_id": "hltv:blast-open-porto-2026",
+          "event_id": "hltv:8249",
           "event_name": "BLAST Open Porto 2026",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2396923",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
           "maps": [],
           "match_id": "hltv:2396923",
           "product_tier": "tier_1",
@@ -592,18 +593,13 @@
           "starts_at": "2026-08-26T09:00:00Z",
           "status": "live",
           "team1_name": "Aurora",
-          "team2_name": "G2",
-          "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
+          "team2_name": "G2"
         },
         {
-          "event_id": "hltv:blast-open-porto-2026",
+          "event_id": "hltv:8249",
           "event_name": "BLAST Open Porto 2026",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2396924",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
           "maps": [],
           "match_id": "hltv:2396924",
           "product_tier": "tier_1",
@@ -613,31 +609,8 @@
           "starts_at": "2026-08-26T11:30:00Z",
           "status": "live",
           "team1_name": "Spirit",
-          "team2_name": "DENDELE",
-          "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
-        }
-      ],
-      "name": "BLAST Open Porto 2026",
-      "participants": [
-        "Aurora",
-        "G2",
-        "Spirit",
-        "DENDELE"
-      ],
-      "product_tier": "tier_1",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "ongoing"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:8249",
-      "matches": [
+          "team2_name": "DENDELE"
+        },
         {
           "event_id": "hltv:8249",
           "event_name": "BLAST Open Porto 2026",
@@ -737,6 +710,10 @@
       ],
       "name": "BLAST Open Porto 2026",
       "participants": [
+        "Aurora",
+        "G2",
+        "Spirit",
+        "DENDELE",
         "Natus Vincere",
         "M80",
         "FURIA",
@@ -1512,25 +1489,6 @@
           "team1_name": "Noir Verse",
           "team2_name": "LPH",
           "winner_name": "Noir Verse"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-europe-series-5",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396866",
-          "maps": [],
-          "match_id": "hltv:2396866",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396866/mellren-vs-bushido-wildcats-cct-2026-challengers-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "mellren",
-          "team2_name": "Bushido Wildcats",
-          "winner_name": "mellren"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 5",
@@ -1607,7 +1565,7 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-23T21:37:26Z",
+  "fetched_at_utc": "2026-08-24T01:59:04Z",
   "matches": [
     {
       "event_id": "hltv:9350",
@@ -1775,20 +1733,25 @@
       "team2_name": "Nemiga"
     },
     {
-      "event_id": "hltv:9294",
+      "event_id": "hltv:iem-beijing-2026-open-qualifier",
       "event_name": "IEM Beijing 2026 Open Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397074",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397074",
       "product_tier": "tier_1",
-      "series_format": "bo1",
+      "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397074/echo-vs-cybershoke-iem-beijing-2026-open-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-24T16:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Echo",
-      "team2_name": "CYBERSHOKE"
+      "team2_name": "CYBERSHOKE",
+      "veto_text": "Best of 1 (Online)\n\n* Round of 16"
     },
     {
       "event_id": "hltv:9294",
@@ -1967,14 +1930,10 @@
       "team2_name": "Pugdesonesto"
     },
     {
-      "event_id": "hltv:blast-open-porto-2026",
+      "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396923",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
       "maps": [],
       "match_id": "hltv:2396923",
       "product_tier": "tier_1",
@@ -1984,18 +1943,13 @@
       "starts_at": "2026-08-26T09:00:00Z",
       "status": "live",
       "team1_name": "Aurora",
-      "team2_name": "G2",
-      "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
+      "team2_name": "G2"
     },
     {
-      "event_id": "hltv:blast-open-porto-2026",
+      "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396924",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
       "maps": [],
       "match_id": "hltv:2396924",
       "product_tier": "tier_1",
@@ -2005,8 +1959,7 @@
       "starts_at": "2026-08-26T11:30:00Z",
       "status": "live",
       "team1_name": "Spirit",
-      "team2_name": "DENDELE",
-      "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
+      "team2_name": "DENDELE"
     },
     {
       "event_id": "hltv:9340",
@@ -2207,44 +2160,6 @@
       "winner_name": "Legacy"
     },
     {
-      "event_id": "hltv:esports-world-cup-2026",
-      "event_name": "Esports World Cup 2026",
-      "event_url": null,
-      "hltv_match_id": "2396612",
-      "maps": [],
-      "match_id": "hltv:2396612",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396612/legacy-vs-spirit-esports-world-cup-2026",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Legacy",
-      "team2_name": "Spirit",
-      "winner_name": "Spirit"
-    },
-    {
-      "event_id": "hltv:esports-world-cup-2026",
-      "event_name": "Esports World Cup 2026",
-      "event_url": null,
-      "hltv_match_id": "2396611",
-      "maps": [],
-      "match_id": "hltv:2396611",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "FURIA",
-      "team2_name": "FUT",
-      "winner_name": "FUT"
-    },
-    {
       "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
       "event_url": null,
@@ -2435,6 +2350,25 @@
       "winner_name": "UNiTY"
     },
     {
+      "event_id": "hltv:esports-world-cup-2026",
+      "event_name": "Esports World Cup 2026",
+      "event_url": null,
+      "hltv_match_id": "2396612",
+      "maps": [],
+      "match_id": "hltv:2396612",
+      "product_tier": "tier_1",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396612/legacy-vs-spirit-esports-world-cup-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Legacy",
+      "team2_name": "Spirit",
+      "winner_name": "Spirit"
+    },
+    {
       "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
       "event_url": null,
@@ -2452,6 +2386,25 @@
       "team1_name": "Leo",
       "team2_name": "HAVU",
       "winner_name": "Leo"
+    },
+    {
+      "event_id": "hltv:esports-world-cup-2026",
+      "event_name": "Esports World Cup 2026",
+      "event_url": null,
+      "hltv_match_id": "2396611",
+      "maps": [],
+      "match_id": "hltv:2396611",
+      "product_tier": "tier_1",
+      "score1": 1,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396611/furia-vs-fut-esports-world-cup-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "FURIA",
+      "team2_name": "FUT",
+      "winner_name": "FUT"
     },
     {
       "event_id": "hltv:cct-2026-challengers-europe-series-5",
@@ -2870,25 +2823,6 @@
       "team1_name": "G2",
       "team2_name": "FURIA",
       "winner_name": "FURIA"
-    },
-    {
-      "event_id": "hltv:cct-2026-challengers-europe-series-5",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396866",
-      "maps": [],
-      "match_id": "hltv:2396866",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396866/mellren-vs-bushido-wildcats-cct-2026-challengers-europe-series-5",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "mellren",
-      "team2_name": "Bushido Wildcats",
-      "winner_name": "mellren"
     }
   ],
   "ok": true,
@@ -2900,15 +2834,15 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 46
+    "scheduled_matches": 53
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 12,
-    "matches_kept": 72,
+    "events_kept": 11,
+    "matches_kept": 71,
     "players_kept": 0,
     "event_tiers": {
       "hltv:9350": "tier_1",
@@ -2916,7 +2850,6 @@
       "hltv:iem-beijing-2026-open-qualifier": "tier_1",
       "hltv:9294": "tier_1",
       "hltv:9340": "tier_2",
-      "hltv:blast-open-porto-2026": "tier_1",
       "hltv:8249": "tier_1",
       "hltv:esports-world-cup-2026": "tier_1",
       "hltv:cct-2026-europe-series-7": "tier_2",
@@ -2961,8 +2894,6 @@
       "hltv:2396930",
       "hltv:2396614",
       "hltv:2396613",
-      "hltv:2396612",
-      "hltv:2396611",
       "hltv:2396666",
       "hltv:2397083",
       "hltv:2397082",
@@ -2973,7 +2904,9 @@
       "hltv:2396663",
       "hltv:2397065",
       "hltv:2396662",
+      "hltv:2396612",
       "hltv:2396661",
+      "hltv:2396611",
       "hltv:2396870",
       "hltv:2396660",
       "hltv:2396869",
@@ -2995,8 +2928,7 @@
       "hltv:2396962",
       "hltv:2396961",
       "hltv:2396654",
-      "hltv:2396607",
-      "hltv:2396866"
+      "hltv:2396607"
     ]
   }
 }

@@ -69,7 +69,7 @@
     ]
   },
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-23T21:37:46Z",
+  "generated_at_utc": "2026-08-24T01:59:22Z",
   "history": [
     {
       "champion": {
@@ -124,7 +124,7 @@
     "minimum_test_rows": 350
   },
   "training": {
-    "new_rows": 2,
+    "new_rows": 0,
     "online_rows": 501,
     "seed_rows": 757
   }
