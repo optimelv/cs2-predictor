@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-24T10:05:50Z",
+  "generated_at_utc": "2026-08-24T13:14:32Z",
   "through_date": "2026-08-24",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1488,
+    "matches": 1493,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -815,6 +815,116 @@
       "score2": 2,
       "winner_name": "FORZE Reload",
       "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396667",
+      "match_date": "2026-08-24",
+      "event_name": "CCT 2026 Europe Series 7",
+      "team1_name": "MASONIC",
+      "team2_name": "HYPERSPIRIT",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "HYPERSPIRIT",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397069",
+      "match_date": "2026-08-24",
+      "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+      "team1_name": "Morningstar",
+      "team2_name": "Rare Atom",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Rare Atom",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397066",
+      "match_date": "2026-08-24",
+      "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+      "team1_name": "The Huns",
+      "team2_name": "Nas",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "The Huns",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397068",
+      "match_date": "2026-08-24",
+      "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+      "team1_name": "5star",
+      "team2_name": "Kaleido",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Kaleido",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397067",
+      "match_date": "2026-08-24",
+      "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+      "team1_name": "NEXVOID",
+      "team2_name": "Chinggis Warriors",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "NEXVOID",
+      "tier": "tier_1",
       "best_of": 3,
       "phase": "Completed series",
       "stage_name": "Completed series",

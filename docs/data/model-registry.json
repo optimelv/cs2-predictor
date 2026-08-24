@@ -3,30 +3,33 @@
     "folds": 3,
     "kind": "heuristic",
     "metrics": {
-      "accuracy": 0.637084,
-      "brier": 0.220534,
-      "ece": 0.033797,
-      "log_loss": 0.629839
+      "accuracy": 0.636651,
+      "brier": 0.220764,
+      "ece": 0.032044,
+      "log_loss": 0.630333
     },
-    "rows": 1258,
-    "test_rows": 631
+    "rows": 1263,
+    "test_rows": 633
   },
   "challenger": {
     "blend_weight": 0.5,
     "family": "logistic",
     "features": [
-      "baseline_logit"
+      "elo_diff",
+      "vrs_rank_advantage",
+      "vrs_points_diff",
+      "recent_win_rate_10_diff"
     ],
     "folds": 3,
     "l2": 0.005,
     "metrics": {
-      "accuracy": 0.638669,
-      "brier": 0.220662,
-      "ece": 0.024184,
-      "log_loss": 0.630715
+      "accuracy": 0.635071,
+      "brier": 0.22071,
+      "ece": 0.018901,
+      "log_loss": 0.63094
     },
     "promotion_passed": false,
-    "rows": 631
+    "rows": 633
   },
   "champion": {
     "blend_weight": 0.5,
@@ -69,7 +72,7 @@
     ]
   },
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-24T10:06:09Z",
+  "generated_at_utc": "2026-08-24T13:14:50Z",
   "history": [
     {
       "champion": {
@@ -124,8 +127,8 @@
     "minimum_test_rows": 350
   },
   "training": {
-    "new_rows": 0,
-    "online_rows": 501,
+    "new_rows": 5,
+    "online_rows": 506,
     "seed_rows": 757
   }
 }
