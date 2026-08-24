@@ -4497,10 +4497,14 @@
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9350",
+        "event_id": "hltv:iem-beijing-2026-asia-open-qualifier",
         "event_name": "IEM Beijing 2026 Asia Open Qualifier",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2397066",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2397066",
         "product_tier": "tier_1",
@@ -4510,7 +4514,8 @@
         "starts_at": "2026-08-24T10:00:00Z",
         "status": "upcoming",
         "team1_name": "The Huns",
-        "team2_name": "Nas"
+        "team2_name": "Nas",
+        "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
       },
       {
         "event_id": "hltv:9350",
@@ -4593,9 +4598,9 @@
         "team2_name": "Bushido Wildcats"
       },
       {
-        "event_id": "hltv:iem-beijing-2026-open-qualifier",
+        "event_id": "hltv:9294",
         "event_name": "IEM Beijing 2026 Open Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397070",
         "lineups": {
           "team1": [],
@@ -4604,7 +4609,7 @@
         "maps": [],
         "match_id": "hltv:2397070",
         "product_tier": "tier_1",
-        "series_format": "bo3",
+        "series_format": "bo1",
         "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
         "stage_name": "Scheduled series",
         "starts_at": "2026-08-24T16:00:00Z",
@@ -4662,9 +4667,9 @@
         "team2_name": "Nemiga"
       },
       {
-        "event_id": "hltv:iem-beijing-2026-open-qualifier",
+        "event_id": "hltv:9294",
         "event_name": "IEM Beijing 2026 Open Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397074",
         "lineups": {
           "team1": [],
@@ -4673,7 +4678,7 @@
         "maps": [],
         "match_id": "hltv:2397074",
         "product_tier": "tier_1",
-        "series_format": "bo3",
+        "series_format": "bo1",
         "source_url": "https://www.hltv.org/matches/2397074/echo-vs-cybershoke-iem-beijing-2026-open-qualifier",
         "stage_name": "Scheduled series",
         "starts_at": "2026-08-24T16:00:00Z",
@@ -8598,22 +8603,6 @@
             "event_id": "hltv:9350",
             "event_name": "IEM Beijing 2026 Asia Open Qualifier",
             "event_url": null,
-            "hltv_match_id": "2397066",
-            "maps": [],
-            "match_id": "hltv:2397066",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397066/the-huns-vs-nas-iem-beijing-2026-asia-open-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-24T10:00:00Z",
-            "status": "upcoming",
-            "team1_name": "The Huns",
-            "team2_name": "Nas"
-          },
-          {
-            "event_id": "hltv:9350",
-            "event_name": "IEM Beijing 2026 Asia Open Qualifier",
-            "event_url": null,
             "hltv_match_id": "2397067",
             "maps": [],
             "match_id": "hltv:2397067",
@@ -8661,8 +8650,6 @@
         ],
         "name": "IEM Beijing 2026 Asia Open Qualifier",
         "participants": [
-          "The Huns",
-          "Nas",
           "NEXVOID",
           "Chinggis Warriors",
           "5star",
@@ -8752,6 +8739,22 @@
             "event_id": "hltv:9294",
             "event_name": "IEM Beijing 2026 Open Qualifier",
             "event_url": null,
+            "hltv_match_id": "2397070",
+            "maps": [],
+            "match_id": "hltv:2397070",
+            "product_tier": "tier_1",
+            "series_format": "bo1",
+            "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-24T16:00:00Z",
+            "status": "live",
+            "team1_name": "100 Thieves",
+            "team2_name": "INOX Division"
+          },
+          {
+            "event_id": "hltv:9294",
+            "event_name": "IEM Beijing 2026 Open Qualifier",
+            "event_url": null,
             "hltv_match_id": "2397071",
             "maps": [],
             "match_id": "hltv:2397071",
@@ -8795,6 +8798,22 @@
             "status": "upcoming",
             "team1_name": "QUAZAR",
             "team2_name": "Nemiga"
+          },
+          {
+            "event_id": "hltv:9294",
+            "event_name": "IEM Beijing 2026 Open Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397074",
+            "maps": [],
+            "match_id": "hltv:2397074",
+            "product_tier": "tier_1",
+            "series_format": "bo1",
+            "source_url": "https://www.hltv.org/matches/2397074/echo-vs-cybershoke-iem-beijing-2026-open-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-24T16:00:00Z",
+            "status": "live",
+            "team1_name": "Echo",
+            "team2_name": "CYBERSHOKE"
           },
           {
             "event_id": "hltv:9294",
@@ -8847,12 +8866,16 @@
         ],
         "name": "IEM Beijing 2026 Open Qualifier",
         "participants": [
+          "100 Thieves",
+          "INOX Division",
           "Eternal Fire",
           "ex-RUBY",
           "Acend",
           "Phantom",
           "QUAZAR",
           "Nemiga",
+          "Echo",
+          "CYBERSHOKE",
           "Nuclear TigeRES",
           "Spirit Academy",
           "BAKS",
@@ -8862,10 +8885,51 @@
         ],
         "product_tier": "tier_1",
         "source_url": null,
+        "status": "ongoing"
+      },
+      {
+        "current_stage": "Schedule",
+        "format": {
+          "label": "Event schedule",
+          "settings": {},
+          "stages": [],
+          "type": "mixed"
+        },
+        "id": "hltv:iem-beijing-2026-asia-open-qualifier",
+        "matches": [
+          {
+            "event_id": "hltv:iem-beijing-2026-asia-open-qualifier",
+            "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2397066",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2397066",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397066/the-huns-vs-nas-iem-beijing-2026-asia-open-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-24T10:00:00Z",
+            "status": "upcoming",
+            "team1_name": "The Huns",
+            "team2_name": "Nas",
+            "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
+          }
+        ],
+        "name": "IEM Beijing 2026 Asia Open Qualifier",
+        "participants": [
+          "The Huns",
+          "Nas"
+        ],
+        "product_tier": "tier_1",
+        "source_url": "https://www.hltv.org/events/archive",
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-08-24T01:59:04Z",
+    "last_verified_utc": "2026-08-24T04:07:18Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9303,7 +9367,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-24T01:59:22Z",
+  "generated_at_utc": "2026-08-24T04:07:36Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10765,7 +10829,7 @@
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-24T01:59:22Z",
+    "generated_at_utc": "2026-08-24T04:07:36Z",
     "history": [
       {
         "champion": {
@@ -21008,10 +21072,13 @@
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.5845,
-      "event_id": "hltv:9350",
+      "event_id": "hltv:iem-beijing-2026-asia-open-qualifier",
       "event_name": "IEM Beijing 2026 Asia Open Qualifier",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-24",
@@ -21206,13 +21273,10 @@
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.6117,
-      "event_id": "hltv:iem-beijing-2026-open-qualifier",
+      "event_id": "hltv:9294",
       "event_name": "IEM Beijing 2026 Open Qualifier",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "format": "bo1",
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-24",
@@ -21224,7 +21288,7 @@
       "predicted_winner": "100 Thieves",
       "prob_team1": 0.6117,
       "round_name": "",
-      "series_format": "bo3",
+      "series_format": "bo1",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
       "stage_name": "Scheduled series",
@@ -21341,13 +21405,10 @@
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.2752,
-      "event_id": "hltv:iem-beijing-2026-open-qualifier",
+      "event_id": "hltv:9294",
       "event_name": "IEM Beijing 2026 Open Qualifier",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "format": "bo1",
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-08-24",
@@ -21359,7 +21420,7 @@
       "predicted_winner": "CYBERSHOKE",
       "prob_team1": 0.2752,
       "round_name": "",
-      "series_format": "bo3",
+      "series_format": "bo1",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2397074/echo-vs-cybershoke-iem-beijing-2026-open-qualifier",
       "stage_name": "Scheduled series",

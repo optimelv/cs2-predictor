@@ -4496,10 +4496,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9350",
+      "event_id": "hltv:iem-beijing-2026-asia-open-qualifier",
       "event_name": "IEM Beijing 2026 Asia Open Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397066",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397066",
       "product_tier": "tier_1",
@@ -4509,7 +4513,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-24T10:00:00Z",
       "status": "upcoming",
       "team1_name": "The Huns",
-      "team2_name": "Nas"
+      "team2_name": "Nas",
+      "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
     },
     {
       "event_id": "hltv:9350",
@@ -4592,9 +4597,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Bushido Wildcats"
     },
     {
-      "event_id": "hltv:iem-beijing-2026-open-qualifier",
+      "event_id": "hltv:9294",
       "event_name": "IEM Beijing 2026 Open Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2397070",
       "lineups": {
         "team1": [],
@@ -4603,7 +4608,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "maps": [],
       "match_id": "hltv:2397070",
       "product_tier": "tier_1",
-      "series_format": "bo3",
+      "series_format": "bo1",
       "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-24T16:00:00Z",
@@ -4661,9 +4666,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Nemiga"
     },
     {
-      "event_id": "hltv:iem-beijing-2026-open-qualifier",
+      "event_id": "hltv:9294",
       "event_name": "IEM Beijing 2026 Open Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2397074",
       "lineups": {
         "team1": [],
@@ -4672,7 +4677,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "maps": [],
       "match_id": "hltv:2397074",
       "product_tier": "tier_1",
-      "series_format": "bo3",
+      "series_format": "bo1",
       "source_url": "https://www.hltv.org/matches/2397074/echo-vs-cybershoke-iem-beijing-2026-open-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-24T16:00:00Z",
@@ -8597,22 +8602,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9350",
           "event_name": "IEM Beijing 2026 Asia Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2397066",
-          "maps": [],
-          "match_id": "hltv:2397066",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397066/the-huns-vs-nas-iem-beijing-2026-asia-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-24T10:00:00Z",
-          "status": "upcoming",
-          "team1_name": "The Huns",
-          "team2_name": "Nas"
-        },
-        {
-          "event_id": "hltv:9350",
-          "event_name": "IEM Beijing 2026 Asia Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2397067",
           "maps": [],
           "match_id": "hltv:2397067",
@@ -8660,8 +8649,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "IEM Beijing 2026 Asia Open Qualifier",
       "participants": [
-        "The Huns",
-        "Nas",
         "NEXVOID",
         "Chinggis Warriors",
         "5star",
@@ -8751,6 +8738,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9294",
           "event_name": "IEM Beijing 2026 Open Qualifier",
           "event_url": null,
+          "hltv_match_id": "2397070",
+          "maps": [],
+          "match_id": "hltv:2397070",
+          "product_tier": "tier_1",
+          "series_format": "bo1",
+          "source_url": "https://www.hltv.org/matches/2397070/100-thieves-vs-inox-division-iem-beijing-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-24T16:00:00Z",
+          "status": "live",
+          "team1_name": "100 Thieves",
+          "team2_name": "INOX Division"
+        },
+        {
+          "event_id": "hltv:9294",
+          "event_name": "IEM Beijing 2026 Open Qualifier",
+          "event_url": null,
           "hltv_match_id": "2397071",
           "maps": [],
           "match_id": "hltv:2397071",
@@ -8794,6 +8797,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "QUAZAR",
           "team2_name": "Nemiga"
+        },
+        {
+          "event_id": "hltv:9294",
+          "event_name": "IEM Beijing 2026 Open Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397074",
+          "maps": [],
+          "match_id": "hltv:2397074",
+          "product_tier": "tier_1",
+          "series_format": "bo1",
+          "source_url": "https://www.hltv.org/matches/2397074/echo-vs-cybershoke-iem-beijing-2026-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-24T16:00:00Z",
+          "status": "live",
+          "team1_name": "Echo",
+          "team2_name": "CYBERSHOKE"
         },
         {
           "event_id": "hltv:9294",
@@ -8846,12 +8865,16 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "IEM Beijing 2026 Open Qualifier",
       "participants": [
+        "100 Thieves",
+        "INOX Division",
         "Eternal Fire",
         "ex-RUBY",
         "Acend",
         "Phantom",
         "QUAZAR",
         "Nemiga",
+        "Echo",
+        "CYBERSHOKE",
         "Nuclear TigeRES",
         "Spirit Academy",
         "BAKS",
@@ -8861,10 +8884,51 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "product_tier": "tier_1",
       "source_url": null,
+      "status": "ongoing"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:iem-beijing-2026-asia-open-qualifier",
+      "matches": [
+        {
+          "event_id": "hltv:iem-beijing-2026-asia-open-qualifier",
+          "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397066",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2397066",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397066/the-huns-vs-nas-iem-beijing-2026-asia-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-24T10:00:00Z",
+          "status": "upcoming",
+          "team1_name": "The Huns",
+          "team2_name": "Nas",
+          "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
+        }
+      ],
+      "name": "IEM Beijing 2026 Asia Open Qualifier",
+      "participants": [
+        "The Huns",
+        "Nas"
+      ],
+      "product_tier": "tier_1",
+      "source_url": "https://www.hltv.org/events/archive",
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-08-24T01:59:04Z",
+  "last_verified_utc": "2026-08-24T04:07:18Z",
   "sources": [
     {
       "name": "HLTV events calendar",
