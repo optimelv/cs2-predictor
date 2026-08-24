@@ -4510,27 +4510,56 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397066/the-huns-vs-nas-iem-beijing-2026-asia-open-qualifier",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-08-24T10:00:00Z",
+      "starts_at": "2026-08-24T10:10:00Z",
       "status": "upcoming",
       "team1_name": "The Huns",
       "team2_name": "Nas",
       "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
     },
     {
-      "event_id": "hltv:9350",
+      "event_id": "hltv:iem-beijing-2026-asia-open-qualifier",
       "event_name": "IEM Beijing 2026 Asia Open Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397067",
-      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Ancient",
+        "Nuke"
+      ],
       "match_id": "hltv:2397067",
       "product_tier": "tier_1",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397067/nexvoid-vs-chinggis-warriors-iem-beijing-2026-asia-open-qualifier",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-08-24T10:00:00Z",
+      "starts_at": "2026-08-24T10:10:00Z",
       "status": "upcoming",
       "team1_name": "NEXVOID",
-      "team2_name": "Chinggis Warriors"
+      "team2_name": "Chinggis Warriors",
+      "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
     },
     {
       "event_id": "hltv:9350",
@@ -4543,7 +4572,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397068/5star-vs-kaleido-iem-beijing-2026-asia-open-qualifier",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-08-24T10:00:00Z",
+      "starts_at": "2026-08-24T10:10:00Z",
       "status": "upcoming",
       "team1_name": "5star",
       "team2_name": "Kaleido"
@@ -4559,7 +4588,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397069/morningstar-vs-rare-atom-iem-beijing-2026-asia-open-qualifier",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-08-24T10:00:00Z",
+      "starts_at": "2026-08-24T10:10:00Z",
       "status": "upcoming",
       "team1_name": "Morningstar",
       "team2_name": "Rare Atom"
@@ -6766,25 +6795,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "FUT",
           "team2_name": "MOUZ",
           "winner_name": "FUT"
-        },
-        {
-          "event_id": "hltv:esports-world-cup-2026",
-          "event_name": "Esports World Cup 2026",
-          "event_url": null,
-          "hltv_match_id": "2396607",
-          "maps": [],
-          "match_id": "hltv:2396607",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396607/g2-vs-furia-esports-world-cup-2026",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "G2",
-          "team2_name": "FURIA",
-          "winner_name": "FURIA"
         }
       ],
       "name": "Esports World Cup 2026",
@@ -6795,8 +6805,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Legacy",
         "Vitality",
         "Falcons",
-        "MOUZ",
-        "G2"
+        "MOUZ"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -8602,22 +8611,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9350",
           "event_name": "IEM Beijing 2026 Asia Open Qualifier",
           "event_url": null,
-          "hltv_match_id": "2397067",
-          "maps": [],
-          "match_id": "hltv:2397067",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397067/nexvoid-vs-chinggis-warriors-iem-beijing-2026-asia-open-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-24T10:00:00Z",
-          "status": "upcoming",
-          "team1_name": "NEXVOID",
-          "team2_name": "Chinggis Warriors"
-        },
-        {
-          "event_id": "hltv:9350",
-          "event_name": "IEM Beijing 2026 Asia Open Qualifier",
-          "event_url": null,
           "hltv_match_id": "2397068",
           "maps": [],
           "match_id": "hltv:2397068",
@@ -8625,7 +8618,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397068/5star-vs-kaleido-iem-beijing-2026-asia-open-qualifier",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-24T10:00:00Z",
+          "starts_at": "2026-08-24T10:10:00Z",
           "status": "upcoming",
           "team1_name": "5star",
           "team2_name": "Kaleido"
@@ -8641,7 +8634,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397069/morningstar-vs-rare-atom-iem-beijing-2026-asia-open-qualifier",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-24T10:00:00Z",
+          "starts_at": "2026-08-24T10:10:00Z",
           "status": "upcoming",
           "team1_name": "Morningstar",
           "team2_name": "Rare Atom"
@@ -8649,8 +8642,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "IEM Beijing 2026 Asia Open Qualifier",
       "participants": [
-        "NEXVOID",
-        "Chinggis Warriors",
         "5star",
         "Kaleido",
         "Morningstar",
@@ -8911,24 +8902,71 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397066/the-huns-vs-nas-iem-beijing-2026-asia-open-qualifier",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-24T10:00:00Z",
+          "starts_at": "2026-08-24T10:10:00Z",
           "status": "upcoming",
           "team1_name": "The Huns",
           "team2_name": "Nas",
+          "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
+        },
+        {
+          "event_id": "hltv:iem-beijing-2026-asia-open-qualifier",
+          "event_name": "IEM Beijing 2026 Asia Open Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397067",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Ancient",
+            "Nuke"
+          ],
+          "match_id": "hltv:2397067",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397067/nexvoid-vs-chinggis-warriors-iem-beijing-2026-asia-open-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-24T10:10:00Z",
+          "status": "upcoming",
+          "team1_name": "NEXVOID",
+          "team2_name": "Chinggis Warriors",
           "veto_text": "Best of 3 (Online)\n\n* Quarter-final. Winner advances to the Closed Qualifier."
         }
       ],
       "name": "IEM Beijing 2026 Asia Open Qualifier",
       "participants": [
         "The Huns",
-        "Nas"
+        "Nas",
+        "NEXVOID",
+        "Chinggis Warriors"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-08-24T07:30:27Z",
+  "last_verified_utc": "2026-08-24T10:05:50Z",
   "sources": [
     {
       "name": "HLTV events calendar",
