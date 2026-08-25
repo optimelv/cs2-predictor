@@ -15,14 +15,14 @@
           "event_id": "hltv:cct-2026-south-america-series-5",
           "event_name": "CCT 2026 South America Series 5",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396964",
+          "hltv_match_id": "2396965",
           "lineups": {
             "team1": [],
             "team2": []
           },
           "map_results": [
             {
-              "map_name": "Dust2",
+              "map_name": "Inferno",
               "score1": null,
               "score2": null,
               "status": "upcoming"
@@ -34,27 +34,46 @@
               "status": "upcoming"
             },
             {
-              "map_name": "Nuke",
+              "map_name": "Ancient",
               "score1": null,
               "score2": null,
               "status": "upcoming"
             }
           ],
           "maps": [
-            "Dust2",
+            "Inferno",
             "Mirage",
-            "Nuke"
+            "Ancient"
           ],
-          "match_id": "hltv:2396964",
+          "match_id": "hltv:2396965",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396964/pain-academy-vs-peladona-cct-2026-south-america-series-5",
+          "source_url": "https://www.hltv.org/matches/2396965/procyon-vs-manso-maromba-cct-2026-south-america-series-5",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T16:00:00Z",
+          "starts_at": "2026-08-25T19:00:00Z",
           "status": "upcoming",
+          "team1_name": "Procyon",
+          "team2_name": "Mansão Maromba",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+        },
+        {
+          "event_id": "hltv:cct-2026-south-america-series-5",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396964",
+          "maps": [],
+          "match_id": "hltv:2396964",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396964/pain-academy-vs-peladona-cct-2026-south-america-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "paiN Academy",
           "team2_name": "Peladona",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          "winner_name": "Peladona"
         },
         {
           "event_id": "hltv:cct-2026-south-america-series-5",
@@ -97,6 +116,8 @@
       ],
       "name": "CCT 2026 South America Series 5",
       "participants": [
+        "Procyon",
+        "Mansão Maromba",
         "paiN Academy",
         "Peladona",
         "BORRACHEIROS",
@@ -106,338 +127,6 @@
       ],
       "product_tier": "tier_2",
       "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:cct-2026-europe-series-7",
-      "matches": [
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396672",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396672",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Drip Too Hard",
-          "team2_name": "Just Players",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396671",
-          "maps": [],
-          "match_id": "hltv:2396671",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396671/g2-ares-vs-ex-rustec-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "G2 Ares",
-          "team2_name": "ex-RUSTEC",
-          "winner_name": "ex-RUSTEC"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396670",
-          "maps": [],
-          "match_id": "hltv:2396670",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396670/leo-vs-unity-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Leo",
-          "team2_name": "UNiTY",
-          "winner_name": "Leo"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396669",
-          "maps": [],
-          "match_id": "hltv:2396669",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396669/black-phoenix-vs-havu-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Black Phoenix",
-          "team2_name": "HAVU",
-          "winner_name": "Black Phoenix"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396668",
-          "maps": [],
-          "match_id": "hltv:2396668",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396668/pcific-vs-bushido-wildcats-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "PCIFIC",
-          "team2_name": "Bushido Wildcats",
-          "winner_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396667",
-          "maps": [],
-          "match_id": "hltv:2396667",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396667/masonic-vs-hyperspirit-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "MASONIC",
-          "team2_name": "HYPERSPIRIT",
-          "winner_name": "HYPERSPIRIT"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396666",
-          "maps": [],
-          "match_id": "hltv:2396666",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396666/just-players-vs-ex-zero-tenacity-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Just Players",
-          "team2_name": "ex-Zero Tenacity",
-          "winner_name": "ex-Zero Tenacity"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396665",
-          "maps": [],
-          "match_id": "hltv:2396665",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396665/genone-vs-ex-rustec-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "GenOne",
-          "team2_name": "ex-RUSTEC",
-          "winner_name": "GenOne"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396664",
-          "maps": [],
-          "match_id": "hltv:2396664",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396664/drip-too-hard-vs-masonic-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Drip Too Hard",
-          "team2_name": "MASONIC",
-          "winner_name": "Drip Too Hard"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396663",
-          "maps": [],
-          "match_id": "hltv:2396663",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396663/g2-ares-vs-hyperspirit-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "G2 Ares",
-          "team2_name": "HYPERSPIRIT",
-          "winner_name": "G2 Ares"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 7",
-      "participants": [
-        "Drip Too Hard",
-        "Just Players",
-        "G2 Ares",
-        "ex-RUSTEC",
-        "Leo",
-        "UNiTY",
-        "Black Phoenix",
-        "HAVU",
-        "PCIFIC",
-        "Bushido Wildcats",
-        "MASONIC",
-        "HYPERSPIRIT",
-        "ex-Zero Tenacity",
-        "GenOne"
-      ],
-      "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:9340",
-      "matches": [
-        {
-          "event_id": "hltv:9340",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396965",
-          "maps": [],
-          "match_id": "hltv:2396965",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396965/procyon-vs-manso-maromba-cct-2026-south-america-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T19:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Procyon",
-          "team2_name": "Mansão Maromba"
-        },
-        {
-          "event_id": "hltv:9340",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396967",
-          "maps": [],
-          "match_id": "hltv:2396967",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396967/meia-noite-vs-oddik-cct-2026-south-america-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T13:00:00Z",
-          "status": "upcoming",
-          "team1_name": "MEIA NOITE",
-          "team2_name": "ODDIK"
-        },
-        {
-          "event_id": "hltv:9340",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396966",
-          "maps": [],
-          "match_id": "hltv:2396966",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396966/alka-vs-pugdesonesto-cct-2026-south-america-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T16:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ALKA",
-          "team2_name": "Pugdesonesto"
-        },
-        {
-          "event_id": "hltv:9340",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396969",
-          "maps": [],
-          "match_id": "hltv:2396969",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396969/bestia-academy-vs-zetta-cct-2026-south-america-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T19:00:00Z",
-          "status": "upcoming",
-          "team1_name": "BESTIA Academy",
-          "team2_name": "Zetta"
-        },
-        {
-          "event_id": "hltv:9340",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396970",
-          "maps": [],
-          "match_id": "hltv:2396970",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396970/grmio-vs-sementes-do-mal-cct-2026-south-america-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T22:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Grêmio",
-          "team2_name": "Sementes do Mal"
-        }
-      ],
-      "name": "CCT 2026 South America Series 5",
-      "participants": [
-        "Procyon",
-        "Mansão Maromba",
-        "MEIA NOITE",
-        "ODDIK",
-        "ALKA",
-        "Pugdesonesto",
-        "BESTIA Academy",
-        "Zetta",
-        "Grêmio",
-        "Sementes do Mal"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
       "status": "upcoming"
     },
     {
@@ -1006,6 +695,96 @@
         "stages": [],
         "type": "mixed"
       },
+      "id": "hltv:9340",
+      "matches": [
+        {
+          "event_id": "hltv:9340",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396967",
+          "maps": [],
+          "match_id": "hltv:2396967",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396967/meia-noite-vs-oddik-cct-2026-south-america-series-5",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-26T13:00:00Z",
+          "status": "upcoming",
+          "team1_name": "MEIA NOITE",
+          "team2_name": "ODDIK"
+        },
+        {
+          "event_id": "hltv:9340",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396966",
+          "maps": [],
+          "match_id": "hltv:2396966",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396966/alka-vs-pugdesonesto-cct-2026-south-america-series-5",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-26T16:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ALKA",
+          "team2_name": "Pugdesonesto"
+        },
+        {
+          "event_id": "hltv:9340",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396969",
+          "maps": [],
+          "match_id": "hltv:2396969",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396969/bestia-academy-vs-zetta-cct-2026-south-america-series-5",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-26T19:00:00Z",
+          "status": "upcoming",
+          "team1_name": "BESTIA Academy",
+          "team2_name": "Zetta"
+        },
+        {
+          "event_id": "hltv:9340",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396970",
+          "maps": [],
+          "match_id": "hltv:2396970",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396970/grmio-vs-sementes-do-mal-cct-2026-south-america-series-5",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-26T22:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Grêmio",
+          "team2_name": "Sementes do Mal"
+        }
+      ],
+      "name": "CCT 2026 South America Series 5",
+      "participants": [
+        "MEIA NOITE",
+        "ODDIK",
+        "ALKA",
+        "Pugdesonesto",
+        "BESTIA Academy",
+        "Zetta",
+        "Grêmio",
+        "Sementes do Mal"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
       "id": "hltv:9329",
       "matches": [
         {
@@ -1321,6 +1100,254 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:cct-2026-europe-series-7",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396671",
+          "maps": [],
+          "match_id": "hltv:2396671",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396671/g2-ares-vs-ex-rustec-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "G2 Ares",
+          "team2_name": "ex-RUSTEC",
+          "winner_name": "ex-RUSTEC"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396670",
+          "maps": [],
+          "match_id": "hltv:2396670",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396670/leo-vs-unity-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Leo",
+          "team2_name": "UNiTY",
+          "winner_name": "Leo"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396669",
+          "maps": [],
+          "match_id": "hltv:2396669",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396669/black-phoenix-vs-havu-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Black Phoenix",
+          "team2_name": "HAVU",
+          "winner_name": "Black Phoenix"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396668",
+          "maps": [],
+          "match_id": "hltv:2396668",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396668/pcific-vs-bushido-wildcats-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "PCIFIC",
+          "team2_name": "Bushido Wildcats",
+          "winner_name": "Bushido Wildcats"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396667",
+          "maps": [],
+          "match_id": "hltv:2396667",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396667/masonic-vs-hyperspirit-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "MASONIC",
+          "team2_name": "HYPERSPIRIT",
+          "winner_name": "HYPERSPIRIT"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396666",
+          "maps": [],
+          "match_id": "hltv:2396666",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396666/just-players-vs-ex-zero-tenacity-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Just Players",
+          "team2_name": "ex-Zero Tenacity",
+          "winner_name": "ex-Zero Tenacity"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396665",
+          "maps": [],
+          "match_id": "hltv:2396665",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396665/genone-vs-ex-rustec-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "GenOne",
+          "team2_name": "ex-RUSTEC",
+          "winner_name": "GenOne"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396664",
+          "maps": [],
+          "match_id": "hltv:2396664",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396664/drip-too-hard-vs-masonic-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Drip Too Hard",
+          "team2_name": "MASONIC",
+          "winner_name": "Drip Too Hard"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396663",
+          "maps": [],
+          "match_id": "hltv:2396663",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396663/g2-ares-vs-hyperspirit-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "G2 Ares",
+          "team2_name": "HYPERSPIRIT",
+          "winner_name": "G2 Ares"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396672",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": 13,
+              "score2": 9,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": 5,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Ancient",
+            "Cache"
+          ],
+          "match_id": "hltv:2396672",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Drip Too Hard",
+          "team2_name": "Just Players",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
+        }
+      ],
+      "name": "CCT 2026 Europe Series 7",
+      "participants": [
+        "G2 Ares",
+        "ex-RUSTEC",
+        "Leo",
+        "UNiTY",
+        "Black Phoenix",
+        "HAVU",
+        "PCIFIC",
+        "Bushido Wildcats",
+        "MASONIC",
+        "HYPERSPIRIT",
+        "Just Players",
+        "ex-Zero Tenacity",
+        "GenOne",
+        "Drip Too Hard"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -2051,20 +2078,20 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-25T16:01:44Z",
+  "fetched_at_utc": "2026-08-25T18:58:18Z",
   "matches": [
     {
       "event_id": "hltv:cct-2026-south-america-series-5",
       "event_name": "CCT 2026 South America Series 5",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396964",
+      "hltv_match_id": "2396965",
       "lineups": {
         "team1": [],
         "team2": []
       },
       "map_results": [
         {
-          "map_name": "Dust2",
+          "map_name": "Inferno",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -2076,55 +2103,17 @@
           "status": "upcoming"
         },
         {
-          "map_name": "Nuke",
+          "map_name": "Ancient",
           "score1": null,
           "score2": null,
           "status": "upcoming"
         }
       ],
       "maps": [
-        "Dust2",
+        "Inferno",
         "Mirage",
-        "Nuke"
+        "Ancient"
       ],
-      "match_id": "hltv:2396964",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396964/pain-academy-vs-peladona-cct-2026-south-america-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T16:00:00Z",
-      "status": "upcoming",
-      "team1_name": "paiN Academy",
-      "team2_name": "Peladona",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396672",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396672",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Drip Too Hard",
-      "team2_name": "Just Players",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
-    },
-    {
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396965",
-      "maps": [],
       "match_id": "hltv:2396965",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -2133,7 +2122,8 @@
       "starts_at": "2026-08-25T19:00:00Z",
       "status": "upcoming",
       "team1_name": "Procyon",
-      "team2_name": "Mansão Maromba"
+      "team2_name": "Mansão Maromba",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
     },
     {
       "event_id": "hltv:9330",
@@ -2886,6 +2876,25 @@
       "status": "upcoming",
       "team1_name": "Honvéd",
       "team2_name": "Noir Verse"
+    },
+    {
+      "event_id": "hltv:cct-2026-south-america-series-5",
+      "event_name": "CCT 2026 South America Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396964",
+      "maps": [],
+      "match_id": "hltv:2396964",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396964/pain-academy-vs-peladona-cct-2026-south-america-series-5",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "paiN Academy",
+      "team2_name": "Peladona",
+      "winner_name": "Peladona"
     },
     {
       "event_id": "hltv:cct-2026-south-america-series-5",
@@ -3665,6 +3674,51 @@
       "team1_name": "G2 Ares",
       "team2_name": "HYPERSPIRIT",
       "winner_name": "G2 Ares"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-7",
+      "event_name": "CCT 2026 Europe Series 7",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396672",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 9,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 5,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Ancient",
+        "Cache"
+      ],
+      "match_id": "hltv:2396672",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Drip Too Hard",
+      "team2_name": "Just Players",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
     }
   ],
   "ok": true,
@@ -3676,7 +3730,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 66
+    "scheduled_matches": 64
   },
   "product_filter": {
     "eligible_tiers": [
@@ -3688,14 +3742,14 @@
     "players_kept": 0,
     "event_tiers": {
       "hltv:cct-2026-south-america-series-5": "tier_2",
-      "hltv:cct-2026-europe-series-7": "tier_2",
-      "hltv:9340": "tier_2",
       "hltv:9330": "tier_2",
       "hltv:9331": "tier_2",
       "hltv:8249": "tier_1",
       "hltv:9328": "tier_2",
+      "hltv:9340": "tier_2",
       "hltv:9329": "tier_2",
       "hltv:9351": "tier_2",
+      "hltv:cct-2026-europe-series-7": "tier_2",
       "hltv:esl-challenger-league-season-52-asia-pacific-cup-1": "tier_2",
       "hltv:iem-beijing-2026-open-qualifier": "tier_1",
       "hltv:iem-beijing-2026-asia-open-qualifier": "tier_1",
@@ -3704,8 +3758,6 @@
       "hltv:esports-world-cup-2026": "tier_1"
     },
     "eligible_match_ids": [
-      "hltv:2396964",
-      "hltv:2396672",
       "hltv:2396965",
       "hltv:2397126",
       "hltv:2397127",
@@ -3754,6 +3806,7 @@
       "hltv:2397230",
       "hltv:2397231",
       "hltv:2397232",
+      "hltv:2396964",
       "hltv:2396963",
       "hltv:2396671",
       "hltv:2397096",
@@ -3794,7 +3847,8 @@
       "hltv:2396871",
       "hltv:2396664",
       "hltv:2396613",
-      "hltv:2396663"
+      "hltv:2396663",
+      "hltv:2396672"
     ]
   }
 }

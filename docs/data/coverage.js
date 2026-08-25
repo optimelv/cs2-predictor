@@ -3671,6 +3671,95 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "ex-RUSTEC"
     },
     {
+      "event_id": "hltv:cct-2026-south-america-series-5",
+      "event_name": "CCT 2026 South America Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396964",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [],
+      "match_id": "hltv:2396964",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396964/pain-academy-vs-peladona-cct-2026-south-america-series-5",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "paiN Academy",
+      "team2_name": "Peladona",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+      "winner_name": "Peladona"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-7",
+      "event_name": "CCT 2026 Europe Series 7",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396672",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 9,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 5,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Ancient",
+        "Cache"
+      ],
+      "match_id": "hltv:2396672",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Drip Too Hard",
+      "team2_name": "Just Players",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -3795,14 +3884,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "event_id": "hltv:cct-2026-south-america-series-5",
       "event_name": "CCT 2026 South America Series 5",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396964",
+      "hltv_match_id": "2396965",
       "lineups": {
         "team1": [],
         "team2": []
       },
       "map_results": [
         {
-          "map_name": "Dust2",
+          "map_name": "Inferno",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -3814,55 +3903,17 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         },
         {
-          "map_name": "Nuke",
+          "map_name": "Ancient",
           "score1": null,
           "score2": null,
           "status": "upcoming"
         }
       ],
       "maps": [
-        "Dust2",
+        "Inferno",
         "Mirage",
-        "Nuke"
+        "Ancient"
       ],
-      "match_id": "hltv:2396964",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396964/pain-academy-vs-peladona-cct-2026-south-america-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T16:00:00Z",
-      "status": "upcoming",
-      "team1_name": "paiN Academy",
-      "team2_name": "Peladona",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396672",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396672",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Drip Too Hard",
-      "team2_name": "Just Players",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
-    },
-    {
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396965",
-      "maps": [],
       "match_id": "hltv:2396965",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -3871,7 +3922,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-08-25T19:00:00Z",
       "status": "upcoming",
       "team1_name": "Procyon",
-      "team2_name": "Mansão Maromba"
+      "team2_name": "Mansão Maromba",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
     },
     {
       "event_id": "hltv:9330",
@@ -7134,27 +7186,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-7",
           "event_name": "CCT 2026 Europe Series 7",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396672",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396672",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Drip Too Hard",
-          "team2_name": "Just Players",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
           "event_url": null,
           "hltv_match_id": "2396671",
           "maps": [],
@@ -7322,12 +7353,55 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "G2 Ares",
           "team2_name": "HYPERSPIRIT",
           "winner_name": "G2 Ares"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396672",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": 13,
+              "score2": 9,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": 5,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Ancient",
+            "Cache"
+          ],
+          "match_id": "hltv:2396672",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Drip Too Hard",
+          "team2_name": "Just Players",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
         }
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
-        "Drip Too Hard",
-        "Just Players",
         "G2 Ares",
         "ex-RUSTEC",
         "Leo",
@@ -7338,12 +7412,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Bushido Wildcats",
         "MASONIC",
         "HYPERSPIRIT",
+        "Just Players",
         "ex-Zero Tenacity",
-        "GenOne"
+        "GenOne",
+        "Drip Too Hard"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -7514,22 +7590,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9340",
           "event_name": "CCT 2026 South America Series 5",
           "event_url": null,
-          "hltv_match_id": "2396965",
-          "maps": [],
-          "match_id": "hltv:2396965",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396965/procyon-vs-manso-maromba-cct-2026-south-america-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T19:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Procyon",
-          "team2_name": "Mansão Maromba"
-        },
-        {
-          "event_id": "hltv:9340",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
           "hltv_match_id": "2396967",
           "maps": [],
           "match_id": "hltv:2396967",
@@ -7593,8 +7653,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 South America Series 5",
       "participants": [
-        "Procyon",
-        "Mansão Maromba",
         "MEIA NOITE",
         "ODDIK",
         "ALKA",
@@ -8765,14 +8823,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:cct-2026-south-america-series-5",
           "event_name": "CCT 2026 South America Series 5",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396964",
+          "hltv_match_id": "2396965",
           "lineups": {
             "team1": [],
             "team2": []
           },
           "map_results": [
             {
-              "map_name": "Dust2",
+              "map_name": "Inferno",
               "score1": null,
               "score2": null,
               "status": "upcoming"
@@ -8784,27 +8842,46 @@ window.__STRIKESIGNAL_COVERAGE__ = {
               "status": "upcoming"
             },
             {
-              "map_name": "Nuke",
+              "map_name": "Ancient",
               "score1": null,
               "score2": null,
               "status": "upcoming"
             }
           ],
           "maps": [
-            "Dust2",
+            "Inferno",
             "Mirage",
-            "Nuke"
+            "Ancient"
           ],
-          "match_id": "hltv:2396964",
+          "match_id": "hltv:2396965",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396964/pain-academy-vs-peladona-cct-2026-south-america-series-5",
+          "source_url": "https://www.hltv.org/matches/2396965/procyon-vs-manso-maromba-cct-2026-south-america-series-5",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T16:00:00Z",
+          "starts_at": "2026-08-25T19:00:00Z",
           "status": "upcoming",
+          "team1_name": "Procyon",
+          "team2_name": "Mansão Maromba",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+        },
+        {
+          "event_id": "hltv:cct-2026-south-america-series-5",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396964",
+          "maps": [],
+          "match_id": "hltv:2396964",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396964/pain-academy-vs-peladona-cct-2026-south-america-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "paiN Academy",
           "team2_name": "Peladona",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          "winner_name": "Peladona"
         },
         {
           "event_id": "hltv:cct-2026-south-america-series-5",
@@ -8847,6 +8924,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 South America Series 5",
       "participants": [
+        "Procyon",
+        "Mansão Maromba",
         "paiN Academy",
         "Peladona",
         "BORRACHEIROS",
@@ -9207,7 +9286,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-08-25T16:01:44Z",
+  "last_verified_utc": "2026-08-25T18:58:18Z",
   "sources": [
     {
       "name": "HLTV events calendar",
