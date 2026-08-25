@@ -2,298 +2,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-      "event_name": "CCT 2026 Challengers South America Series 2",
-      "event_url": null,
-      "hltv_match_id": "2396807",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Cache",
-          "score1": 4,
-          "score2": 8,
-          "status": "finished"
-        },
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396807",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396807/pain-academy-vs-quintessncia-cct-2026-challengers-south-america-series-2",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "paiN Academy",
-      "team2_name": "QUINTESSÊNCIA",
-      "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
-      "winner_name": "QUINTESSÊNCIA"
-    },
-    {
-      "event_id": "hltv:cct-2026-challengers-south-america-series-2",
-      "event_name": "CCT 2026 Challengers South America Series 2",
-      "event_url": null,
-      "hltv_match_id": "2396808",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Cache",
-          "score1": 11,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396808",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396808/alka-vs-quintessncia-cct-2026-challengers-south-america-series-2",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "ALKA",
-      "team2_name": "QUINTESSÊNCIA",
-      "veto_text": "Best of 3 (Online)\n\n* Grand final",
-      "winner_name": "ALKA"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396639",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Ancient",
-          "score1": 16,
-          "score2": 19,
-          "status": "finished"
-        },
-        {
-          "map_name": "Cache",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396639",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396639/permitta-vs-unity-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Permitta",
-      "team2_name": "UNiTY",
-      "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7.",
-      "winner_name": "UNiTY"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2396640",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Cache",
-          "score1": 4,
-          "score2": 8,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396640",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396640/noir-verse-vs-ex-rustec-cct-2026-europe-series-7-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Noir Verse",
-      "team2_name": "ex-RUSTEC",
-      "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 7.",
-      "winner_name": "ex-RUSTEC"
-    },
-    {
-      "event_id": "hltv:cct-2026-challengers-europe-series-5",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396851",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396851",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396851/atreides-vs-ex-sashi-academy-cct-2026-challengers-europe-series-5",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Atreides",
-      "team2_name": "ex-Sashi Academy",
-      "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1",
-      "winner_name": "ex-Sashi Academy"
-    },
-    {
-      "event_id": "hltv:cct-2026-challengers-europe-series-5",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396852",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396852",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396852/ence-vs-berg-cct-2026-challengers-europe-series-5",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "ENCE",
-      "team2_name": "BERG",
-      "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1",
-      "winner_name": "ENCE"
-    },
-    {
-      "event_id": "hltv:cct-2026-challengers-europe-series-5",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396853",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396853",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396853/lph-vs-saw-youngsters-cct-2026-challengers-europe-series-5",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "LPH",
-      "team2_name": "SAW Youngsters",
-      "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final",
-      "winner_name": "LPH"
-    },
-    {
-      "event_id": "hltv:cct-2026-challengers-europe-series-5",
-      "event_name": "CCT 2026 Challengers Europe Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396854",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2396854",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396854/mellren-vs-noir-verse-cct-2026-challengers-europe-series-5",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "mellren",
-      "team2_name": "Noir Verse",
-      "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final\n\n** k1n substitutes fostar.",
-      "winner_name": "mellren"
-    },
-    {
       "event_id": "hltv:cct-2026-europe-series-7-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 7 Closed Qualifier",
       "event_url": null,
@@ -3956,6 +3664,221 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Blitzkrieg"
     },
     {
+      "event_id": "hltv:9340",
+      "event_name": "CCT 2026 South America Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396963",
+      "maps": [],
+      "match_id": "hltv:2396963",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396963/borracheiros-vs-damajuana-cct-2026-south-america-series-5",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "BORRACHEIROS",
+      "team2_name": "DAMAJUANA"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397096",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Nuke",
+        "Dust2"
+      ],
+      "match_id": "hltv:2397096",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397096/the-huns-vs-nas-esl-challenger-league-season-52-asia-pacific-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "The Huns",
+      "team2_name": "Nas",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397097",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Anubis",
+        "Ancient",
+        "Nuke"
+      ],
+      "match_id": "hltv:2397097",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397097/vitalem-aerem-vs-banzai-esl-challenger-league-season-52-asia-pacific-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Vitalem Aerem",
+      "team2_name": "Banzai",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397098",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Cache",
+        "Inferno",
+        "Anubis"
+      ],
+      "match_id": "hltv:2397098",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397098/kaleido-vs-just-swing-esl-challenger-league-season-52-asia-pacific-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Kaleido",
+      "team2_name": "Just Swing",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+    },
+    {
+      "event_id": "hltv:9329",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397099",
+      "maps": [],
+      "match_id": "hltv:2397099",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397099/legam-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "LEGAM",
+      "team2_name": "Rare Atom"
+    },
+    {
+      "event_id": "hltv:9329",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397101",
+      "maps": [],
+      "match_id": "hltv:2397101",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397101/quantumx-vs-alter-ego-esl-challenger-league-season-52-asia-pacific-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "QuantumX",
+      "team2_name": "Alter Ego"
+    },
+    {
+      "event_id": "hltv:9329",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397102",
+      "maps": [],
+      "match_id": "hltv:2397102",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397102/chinggis-warriors-vs-haunted-house-esl-challenger-league-season-52-asia-pacific-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Chinggis Warriors",
+      "team2_name": "Haunted House"
+    },
+    {
+      "event_id": "hltv:9329",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397103",
+      "maps": [],
+      "match_id": "hltv:2397103",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397103/xdm-vs-5star-esl-challenger-league-season-52-asia-pacific-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "XDM",
+      "team2_name": "5star"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4098,86 +4021,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
     },
     {
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396963",
-      "maps": [],
-      "match_id": "hltv:2396963",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396963/borracheiros-vs-damajuana-cct-2026-south-america-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "BORRACHEIROS",
-      "team2_name": "DAMAJUANA"
-    },
-    {
-      "event_id": "hltv:9329",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397096",
-      "maps": [],
-      "match_id": "hltv:2397096",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397096/the-huns-vs-nas-esl-challenger-league-season-52-asia-pacific-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "The Huns",
-      "team2_name": "Nas"
-    },
-    {
-      "event_id": "hltv:9329",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397097",
-      "maps": [],
-      "match_id": "hltv:2397097",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397097/vitalem-aerem-vs-banzai-esl-challenger-league-season-52-asia-pacific-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Vitalem Aerem",
-      "team2_name": "Banzai"
-    },
-    {
-      "event_id": "hltv:9329",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397098",
-      "maps": [],
-      "match_id": "hltv:2397098",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397098/kaleido-vs-just-swing-esl-challenger-league-season-52-asia-pacific-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Kaleido",
-      "team2_name": "Just Swing"
-    },
-    {
-      "event_id": "hltv:9329",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397099",
-      "maps": [],
-      "match_id": "hltv:2397099",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397099/legam-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "LEGAM",
-      "team2_name": "Rare Atom"
-    },
-    {
       "event_id": "hltv:9329",
       "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
       "event_url": null,
@@ -4188,58 +4031,10 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397100/nexvoid-vs-nsn-esl-challenger-league-season-52-asia-pacific-cup-1",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T13:00:00Z",
+      "starts_at": "2026-08-25T13:15:00Z",
       "status": "upcoming",
       "team1_name": "NEXVOID",
       "team2_name": "NSN"
-    },
-    {
-      "event_id": "hltv:9329",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397101",
-      "maps": [],
-      "match_id": "hltv:2397101",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397101/quantumx-vs-alter-ego-esl-challenger-league-season-52-asia-pacific-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "QuantumX",
-      "team2_name": "Alter Ego"
-    },
-    {
-      "event_id": "hltv:9329",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397102",
-      "maps": [],
-      "match_id": "hltv:2397102",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397102/chinggis-warriors-vs-haunted-house-esl-challenger-league-season-52-asia-pacific-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Chinggis Warriors",
-      "team2_name": "Haunted House"
-    },
-    {
-      "event_id": "hltv:9329",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397103",
-      "maps": [],
-      "match_id": "hltv:2397103",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397103/xdm-vs-5star-esl-challenger-league-season-52-asia-pacific-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "XDM",
-      "team2_name": "5star"
     },
     {
       "event_id": "hltv:9324",
@@ -4758,6 +4553,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Sementes do Mal"
     },
     {
+      "event_id": "hltv:9351",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397221",
+      "maps": [],
+      "match_id": "hltv:2397221",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397221/ex-zero-tenacity-vs-wbt-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-27T08:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ex-Zero Tenacity",
+      "team2_name": "WBT"
+    },
+    {
       "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
       "event_url": null,
@@ -4772,6 +4583,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "live",
       "team1_name": "Vitality",
       "team2_name": "Inner Circle"
+    },
+    {
+      "event_id": "hltv:9351",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397222",
+      "maps": [],
+      "match_id": "hltv:2397222",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397222/endless-journey-vs-havu-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-27T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Endless Journey",
+      "team2_name": "HAVU"
     },
     {
       "event_id": "hltv:8249",
@@ -4806,6 +4633,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "FUT"
     },
     {
+      "event_id": "hltv:9351",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397223",
+      "maps": [],
+      "match_id": "hltv:2397223",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397223/permitta-vs-misa-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-27T14:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Permitta",
+      "team2_name": "Misa"
+    },
+    {
       "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
       "event_url": null,
@@ -4820,6 +4663,86 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "live",
       "team1_name": "Falcons",
       "team2_name": "Lynn Vision"
+    },
+    {
+      "event_id": "hltv:9351",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397224",
+      "maps": [],
+      "match_id": "hltv:2397224",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397224/mai-tai-vs-ex-mana-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-27T17:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Mai Tai",
+      "team2_name": "ex-MANA"
+    },
+    {
+      "event_id": "hltv:9351",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397229",
+      "maps": [],
+      "match_id": "hltv:2397229",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397229/ex-rustec-vs-entropy-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-29T08:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Entropy"
+    },
+    {
+      "event_id": "hltv:9351",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397230",
+      "maps": [],
+      "match_id": "hltv:2397230",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397230/bushido-wildcats-vs-unity-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-29T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Bushido Wildcats",
+      "team2_name": "UNiTY"
+    },
+    {
+      "event_id": "hltv:9351",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397231",
+      "maps": [],
+      "match_id": "hltv:2397231",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397231/atreides-vs-saw-youngsters-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-29T14:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Atreides",
+      "team2_name": "SAW Youngsters"
+    },
+    {
+      "event_id": "hltv:9351",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397232",
+      "maps": [],
+      "match_id": "hltv:2397232",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397232/honvd-vs-noir-verse-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-29T17:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Honvéd",
+      "team2_name": "Noir Verse"
     }
   ],
   "default_event_id": "epl-series-8-2026",
@@ -7032,25 +6955,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Noir Verse",
           "team2_name": "Bushido Wildcats",
           "winner_name": "Noir Verse"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-europe-series-5",
-          "event_name": "CCT 2026 Challengers Europe Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396869",
-          "maps": [],
-          "match_id": "hltv:2396869",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396869/wbt-vs-mellren-cct-2026-challengers-europe-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "WBT",
-          "team2_name": "mellren",
-          "winner_name": "mellren"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 5",
@@ -7387,27 +7291,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-7",
           "event_name": "CCT 2026 Europe Series 7",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396670",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396670",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396670/leo-vs-unity-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Leo",
-          "team2_name": "UNiTY",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
           "event_url": null,
           "hltv_match_id": "2396669",
           "maps": [],
@@ -7598,8 +7481,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
-        "Leo",
-        "UNiTY",
         "Black Phoenix",
         "HAVU",
         "PCIFIC",
@@ -7612,11 +7493,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "ex-RUSTEC",
         "Drip Too Hard",
         "G2 Ares",
+        "UNiTY",
+        "Leo",
         "Lavked"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -7807,22 +7690,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9340",
           "event_name": "CCT 2026 South America Series 5",
           "event_url": null,
-          "hltv_match_id": "2396963",
-          "maps": [],
-          "match_id": "hltv:2396963",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396963/borracheiros-vs-damajuana-cct-2026-south-america-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T13:00:00Z",
-          "status": "upcoming",
-          "team1_name": "BORRACHEIROS",
-          "team2_name": "DAMAJUANA"
-        },
-        {
-          "event_id": "hltv:9340",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
           "hltv_match_id": "2396964",
           "maps": [],
           "match_id": "hltv:2396964",
@@ -7914,12 +7781,26 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "Grêmio",
           "team2_name": "Sementes do Mal"
+        },
+        {
+          "event_id": "hltv:9340",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396963",
+          "maps": [],
+          "match_id": "hltv:2396963",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396963/borracheiros-vs-damajuana-cct-2026-south-america-series-5",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "BORRACHEIROS",
+          "team2_name": "DAMAJUANA"
         }
       ],
       "name": "CCT 2026 South America Series 5",
       "participants": [
-        "BORRACHEIROS",
-        "DAMAJUANA",
         "paiN Academy",
         "Peladona",
         "Procyon",
@@ -7931,11 +7812,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "BESTIA Academy",
         "Zetta",
         "Grêmio",
-        "Sementes do Mal"
+        "Sementes do Mal",
+        "BORRACHEIROS",
+        "DAMAJUANA"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8536,49 +8419,17 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9329",
           "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
           "event_url": null,
-          "hltv_match_id": "2397096",
+          "hltv_match_id": "2397100",
           "maps": [],
-          "match_id": "hltv:2397096",
+          "match_id": "hltv:2397100",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397096/the-huns-vs-nas-esl-challenger-league-season-52-asia-pacific-cup-1",
+          "source_url": "https://www.hltv.org/matches/2397100/nexvoid-vs-nsn-esl-challenger-league-season-52-asia-pacific-cup-1",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T13:00:00Z",
+          "starts_at": "2026-08-25T13:15:00Z",
           "status": "upcoming",
-          "team1_name": "The Huns",
-          "team2_name": "Nas"
-        },
-        {
-          "event_id": "hltv:9329",
-          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397097",
-          "maps": [],
-          "match_id": "hltv:2397097",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397097/vitalem-aerem-vs-banzai-esl-challenger-league-season-52-asia-pacific-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T13:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Vitalem Aerem",
-          "team2_name": "Banzai"
-        },
-        {
-          "event_id": "hltv:9329",
-          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397098",
-          "maps": [],
-          "match_id": "hltv:2397098",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397098/kaleido-vs-just-swing-esl-challenger-league-season-52-asia-pacific-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T13:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Kaleido",
-          "team2_name": "Just Swing"
+          "team1_name": "NEXVOID",
+          "team2_name": "NSN"
         },
         {
           "event_id": "hltv:9329",
@@ -8591,26 +8442,10 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397099/legam-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T13:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "LEGAM",
           "team2_name": "Rare Atom"
-        },
-        {
-          "event_id": "hltv:9329",
-          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397100",
-          "maps": [],
-          "match_id": "hltv:2397100",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397100/nexvoid-vs-nsn-esl-challenger-league-season-52-asia-pacific-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T13:00:00Z",
-          "status": "upcoming",
-          "team1_name": "NEXVOID",
-          "team2_name": "NSN"
         },
         {
           "event_id": "hltv:9329",
@@ -8623,8 +8458,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397101/quantumx-vs-alter-ego-esl-challenger-league-season-52-asia-pacific-cup-1",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T13:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "QuantumX",
           "team2_name": "Alter Ego"
         },
@@ -8639,8 +8474,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397102/chinggis-warriors-vs-haunted-house-esl-challenger-league-season-52-asia-pacific-cup-1",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T13:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "Chinggis Warriors",
           "team2_name": "Haunted House"
         },
@@ -8655,24 +8490,18 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397103/xdm-vs-5star-esl-challenger-league-season-52-asia-pacific-cup-1",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T13:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "XDM",
           "team2_name": "5star"
         }
       ],
       "name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
       "participants": [
-        "The Huns",
-        "Nas",
-        "Vitalem Aerem",
-        "Banzai",
-        "Kaleido",
-        "Just Swing",
-        "LEGAM",
-        "Rare Atom",
         "NEXVOID",
         "NSN",
+        "LEGAM",
+        "Rare Atom",
         "QuantumX",
         "Alter Ego",
         "Chinggis Warriors",
@@ -8682,7 +8511,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -9118,9 +8947,330 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9351",
+      "matches": [
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397221",
+          "maps": [],
+          "match_id": "hltv:2397221",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397221/ex-zero-tenacity-vs-wbt-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-27T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-Zero Tenacity",
+          "team2_name": "WBT"
+        },
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397222",
+          "maps": [],
+          "match_id": "hltv:2397222",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397222/endless-journey-vs-havu-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-27T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Endless Journey",
+          "team2_name": "HAVU"
+        },
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397223",
+          "maps": [],
+          "match_id": "hltv:2397223",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397223/permitta-vs-misa-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-27T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Permitta",
+          "team2_name": "Misa"
+        },
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397224",
+          "maps": [],
+          "match_id": "hltv:2397224",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397224/mai-tai-vs-ex-mana-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-27T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Mai Tai",
+          "team2_name": "ex-MANA"
+        },
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397229",
+          "maps": [],
+          "match_id": "hltv:2397229",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397229/ex-rustec-vs-entropy-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-29T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-RUSTEC",
+          "team2_name": "Entropy"
+        },
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397230",
+          "maps": [],
+          "match_id": "hltv:2397230",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397230/bushido-wildcats-vs-unity-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-29T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Bushido Wildcats",
+          "team2_name": "UNiTY"
+        },
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397231",
+          "maps": [],
+          "match_id": "hltv:2397231",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397231/atreides-vs-saw-youngsters-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-29T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Atreides",
+          "team2_name": "SAW Youngsters"
+        },
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397232",
+          "maps": [],
+          "match_id": "hltv:2397232",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397232/honvd-vs-noir-verse-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-29T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Honvéd",
+          "team2_name": "Noir Verse"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "participants": [
+        "ex-Zero Tenacity",
+        "WBT",
+        "Endless Journey",
+        "HAVU",
+        "Permitta",
+        "Misa",
+        "Mai Tai",
+        "ex-MANA",
+        "ex-RUSTEC",
+        "Entropy",
+        "Bushido Wildcats",
+        "UNiTY",
+        "Atreides",
+        "SAW Youngsters",
+        "Honvéd",
+        "Noir Verse"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+      "matches": [
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397096",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Ancient",
+            "Nuke",
+            "Dust2"
+          ],
+          "match_id": "hltv:2397096",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397096/the-huns-vs-nas-esl-challenger-league-season-52-asia-pacific-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "The Huns",
+          "team2_name": "Nas",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397097",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Anubis",
+            "Ancient",
+            "Nuke"
+          ],
+          "match_id": "hltv:2397097",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397097/vitalem-aerem-vs-banzai-esl-challenger-league-season-52-asia-pacific-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Vitalem Aerem",
+          "team2_name": "Banzai",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397098",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Cache",
+            "Inferno",
+            "Anubis"
+          ],
+          "match_id": "hltv:2397098",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397098/kaleido-vs-just-swing-esl-challenger-league-season-52-asia-pacific-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Kaleido",
+          "team2_name": "Just Swing",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+        }
+      ],
+      "name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+      "participants": [
+        "The Huns",
+        "Nas",
+        "Vitalem Aerem",
+        "Banzai",
+        "Kaleido",
+        "Just Swing"
+      ],
+      "product_tier": "tier_2",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-25T09:52:46Z",
+  "last_verified_utc": "2026-08-25T13:12:47Z",
   "sources": [
     {
       "name": "HLTV events calendar",
