@@ -4624,9 +4624,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Ground Zero"
       },
       {
-        "event_id": "hltv:blast-open-porto-2026",
+        "event_id": "hltv:8249",
         "event_name": "BLAST Open Porto 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396924",
         "lineups": {
           "team1": [],
@@ -4661,9 +4661,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "ODDIK"
       },
       {
-        "event_id": "hltv:blast-open-porto-2026",
+        "event_id": "hltv:8249",
         "event_name": "BLAST Open Porto 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396925",
         "lineups": {
           "team1": [],
@@ -4682,9 +4682,9 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
       },
       {
-        "event_id": "hltv:blast-open-porto-2026",
+        "event_id": "hltv:8249",
         "event_name": "BLAST Open Porto 2026",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396926",
         "lineups": {
           "team1": [],
@@ -7165,6 +7165,54 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:8249",
             "event_name": "BLAST Open Porto 2026",
             "event_url": null,
+            "hltv_match_id": "2396924",
+            "maps": [],
+            "match_id": "hltv:2396924",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396924/spirit-vs-dendele-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-26T11:30:00Z",
+            "status": "live",
+            "team1_name": "Spirit",
+            "team2_name": "DENDELE"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396925",
+            "maps": [],
+            "match_id": "hltv:2396925",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-26T14:00:00Z",
+            "status": "live",
+            "team1_name": "Natus Vincere",
+            "team2_name": "M80"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396926",
+            "maps": [],
+            "match_id": "hltv:2396926",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396926/furia-vs-pain-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-26T15:30:00Z",
+            "status": "live",
+            "team1_name": "FURIA",
+            "team2_name": "paiN"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
             "hltv_match_id": "2396927",
             "maps": [],
             "match_id": "hltv:2396927",
@@ -7228,6 +7276,12 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "BLAST Open Porto 2026",
         "participants": [
+          "Spirit",
+          "DENDELE",
+          "Natus Vincere",
+          "M80",
+          "FURIA",
+          "paiN",
           "Vitality",
           "Inner Circle",
           "MOUZ",
@@ -7923,81 +7977,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Aurora",
             "team2_name": "G2",
             "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
-          },
-          {
-            "event_id": "hltv:blast-open-porto-2026",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396924",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396924",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396924/spirit-vs-dendele-blast-open-porto-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-26T11:30:00Z",
-            "status": "live",
-            "team1_name": "Spirit",
-            "team2_name": "DENDELE",
-            "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
-          },
-          {
-            "event_id": "hltv:blast-open-porto-2026",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396925",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396925",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-26T14:00:00Z",
-            "status": "live",
-            "team1_name": "Natus Vincere",
-            "team2_name": "M80",
-            "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
-          },
-          {
-            "event_id": "hltv:blast-open-porto-2026",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396926",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2396926",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396926/furia-vs-pain-blast-open-porto-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-26T15:30:00Z",
-            "status": "live",
-            "team1_name": "FURIA",
-            "team2_name": "paiN",
-            "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
           }
         ],
         "name": "BLAST Open Porto 2026",
         "participants": [
           "Aurora",
-          "G2",
-          "Spirit",
-          "DENDELE",
-          "Natus Vincere",
-          "M80",
-          "FURIA",
-          "paiN"
+          "G2"
         ],
         "product_tier": "tier_1",
         "source_url": "https://www.hltv.org/events/archive",
@@ -9106,7 +9091,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-08-25T01:53:55Z",
+    "last_verified_utc": "2026-08-25T04:01:39Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9544,7 +9529,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-25T01:54:14Z",
+  "generated_at_utc": "2026-08-25T04:01:52Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -11009,7 +10994,7 @@ window.__STRIKESIGNAL_DATA__ = {
       ]
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-25T01:54:13Z",
+    "generated_at_utc": "2026-08-25T04:01:52Z",
     "history": [
       {
         "champion": {
