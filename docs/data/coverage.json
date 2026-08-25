@@ -3717,7 +3717,7 @@
     {
       "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396672",
       "lineups": {
         "team1": [],
@@ -3743,21 +3743,308 @@
           "status": "upcoming"
         }
       ],
-      "maps": [
-        "Nuke",
-        "Ancient",
-        "Cache"
-      ],
+      "maps": [],
       "match_id": "hltv:2396672",
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Drip Too Hard",
+      "team2_name": "Just Players",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
+      "winner_name": "Just Players"
+    },
+    {
+      "event_id": "hltv:cct-2026-south-america-series-5",
+      "event_name": "CCT 2026 South America Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396965",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [],
+      "match_id": "hltv:2396965",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396965/procyon-vs-manso-maromba-cct-2026-south-america-series-5",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Procyon",
+      "team2_name": "Mansão Maromba",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+      "winner_name": "Procyon"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397126",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": 8,
+          "score2": 4,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Nuke",
+        "Mirage"
+      ],
+      "match_id": "hltv:2397126",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397126/fluxo-vs-peak-esl-challenger-league-season-52-south-america-cup-1",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "Drip Too Hard",
-      "team2_name": "Just Players",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
+      "team1_name": "Fluxo",
+      "team2_name": "PEAK",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397127",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": 7,
+          "score2": 5,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Ancient",
+        "Mirage"
+      ],
+      "match_id": "hltv:2397127",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397127/yawara-vs-keyd-stars-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Yawara",
+      "team2_name": "Keyd Stars",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397128",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": 8,
+          "score2": 4,
+          "status": "finished"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Cache",
+        "Ancient"
+      ],
+      "match_id": "hltv:2397128",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397128/bounty-hunters-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Bounty Hunters",
+      "team2_name": "MEIA NOITE",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397129",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Anubis",
+        "Ancient",
+        "Nuke"
+      ],
+      "match_id": "hltv:2397129",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397129/borracheiros-vs-galorys-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "BORRACHEIROS",
+      "team2_name": "Galorys",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+    },
+    {
+      "event_id": "hltv:9330",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397130",
+      "maps": [],
+      "match_id": "hltv:2397130",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "ShindeN",
+      "team2_name": "ALKA"
+    },
+    {
+      "event_id": "hltv:9330",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397131",
+      "maps": [],
+      "match_id": "hltv:2397131",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397131/ex-mibr-academy-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "ex-MIBR Academy",
+      "team2_name": "Turma do Pagode"
+    },
+    {
+      "event_id": "hltv:9330",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397132",
+      "maps": [],
+      "match_id": "hltv:2397132",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397132/isurus-vs-oddik-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Isurus",
+      "team2_name": "ODDIK"
+    },
+    {
+      "event_id": "hltv:9330",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397133",
+      "maps": [],
+      "match_id": "hltv:2397133",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397133/pain-academy-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "paiN Academy",
+      "team2_name": "Imperial"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -3878,179 +4165,6 @@
       "starts_at": "2026-07-12T23:00:00+02:00",
       "status": "scheduled",
       "team1_name": "LP",
-      "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:cct-2026-south-america-series-5",
-      "event_name": "CCT 2026 South America Series 5",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396965",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Inferno",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Inferno",
-        "Mirage",
-        "Ancient"
-      ],
-      "match_id": "hltv:2396965",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396965/procyon-vs-manso-maromba-cct-2026-south-america-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T19:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Procyon",
-      "team2_name": "Mansão Maromba",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
-    },
-    {
-      "event_id": "hltv:9330",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397126",
-      "maps": [],
-      "match_id": "hltv:2397126",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397126/fluxo-vs-peak-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Fluxo",
-      "team2_name": "PEAK"
-    },
-    {
-      "event_id": "hltv:9330",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397127",
-      "maps": [],
-      "match_id": "hltv:2397127",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397127/yawara-vs-keyd-stars-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Yawara",
-      "team2_name": "Keyd Stars"
-    },
-    {
-      "event_id": "hltv:9330",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397128",
-      "maps": [],
-      "match_id": "hltv:2397128",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397128/bounty-hunters-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Bounty Hunters",
-      "team2_name": "MEIA NOITE"
-    },
-    {
-      "event_id": "hltv:9330",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397129",
-      "maps": [],
-      "match_id": "hltv:2397129",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397129/borracheiros-vs-galorys-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "BORRACHEIROS",
-      "team2_name": "Galorys"
-    },
-    {
-      "event_id": "hltv:9330",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397130",
-      "maps": [],
-      "match_id": "hltv:2397130",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ShindeN",
-      "team2_name": "ALKA"
-    },
-    {
-      "event_id": "hltv:9330",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397131",
-      "maps": [],
-      "match_id": "hltv:2397131",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397131/ex-mibr-academy-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ex-MIBR Academy",
-      "team2_name": "Turma do Pagode"
-    },
-    {
-      "event_id": "hltv:9330",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397132",
-      "maps": [],
-      "match_id": "hltv:2397132",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397132/isurus-vs-oddik-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Isurus",
-      "team2_name": "ODDIK"
-    },
-    {
-      "event_id": "hltv:9330",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397133",
-      "maps": [],
-      "match_id": "hltv:2397133",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397133/pain-academy-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "paiN Academy",
       "team2_name": "Imperial"
     },
     {
@@ -7187,6 +7301,25 @@
           "event_id": "hltv:cct-2026-europe-series-7",
           "event_name": "CCT 2026 Europe Series 7",
           "event_url": null,
+          "hltv_match_id": "2396672",
+          "maps": [],
+          "match_id": "hltv:2396672",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Drip Too Hard",
+          "team2_name": "Just Players",
+          "winner_name": "Just Players"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-7",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
           "hltv_match_id": "2396671",
           "maps": [],
           "match_id": "hltv:2396671",
@@ -7353,55 +7486,12 @@
           "team1_name": "G2 Ares",
           "team2_name": "HYPERSPIRIT",
           "winner_name": "G2 Ares"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396672",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Nuke",
-              "score1": 13,
-              "score2": 9,
-              "status": "finished"
-            },
-            {
-              "map_name": "Ancient",
-              "score1": 5,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Cache",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Nuke",
-            "Ancient",
-            "Cache"
-          ],
-          "match_id": "hltv:2396672",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396672/drip-too-hard-vs-just-players-cct-2026-europe-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Drip Too Hard",
-          "team2_name": "Just Players",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
         }
       ],
       "name": "CCT 2026 Europe Series 7",
       "participants": [
+        "Drip Too Hard",
+        "Just Players",
         "G2 Ares",
         "ex-RUSTEC",
         "Leo",
@@ -7412,14 +7502,12 @@
         "Bushido Wildcats",
         "MASONIC",
         "HYPERSPIRIT",
-        "Just Players",
         "ex-Zero Tenacity",
-        "GenOne",
-        "Drip Too Hard"
+        "GenOne"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -8427,70 +8515,6 @@
           "event_id": "hltv:9330",
           "event_name": "ESL Challenger League Season 52 South America Cup 1",
           "event_url": null,
-          "hltv_match_id": "2397126",
-          "maps": [],
-          "match_id": "hltv:2397126",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397126/fluxo-vs-peak-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Fluxo",
-          "team2_name": "PEAK"
-        },
-        {
-          "event_id": "hltv:9330",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397127",
-          "maps": [],
-          "match_id": "hltv:2397127",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397127/yawara-vs-keyd-stars-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Yawara",
-          "team2_name": "Keyd Stars"
-        },
-        {
-          "event_id": "hltv:9330",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397128",
-          "maps": [],
-          "match_id": "hltv:2397128",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397128/bounty-hunters-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Bounty Hunters",
-          "team2_name": "MEIA NOITE"
-        },
-        {
-          "event_id": "hltv:9330",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397129",
-          "maps": [],
-          "match_id": "hltv:2397129",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397129/borracheiros-vs-galorys-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "BORRACHEIROS",
-          "team2_name": "Galorys"
-        },
-        {
-          "event_id": "hltv:9330",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": null,
           "hltv_match_id": "2397130",
           "maps": [],
           "match_id": "hltv:2397130",
@@ -8498,8 +8522,8 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T21:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "ShindeN",
           "team2_name": "ALKA"
         },
@@ -8514,8 +8538,8 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397131/ex-mibr-academy-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-1",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T21:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "ex-MIBR Academy",
           "team2_name": "Turma do Pagode"
         },
@@ -8530,8 +8554,8 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397132/isurus-vs-oddik-esl-challenger-league-season-52-south-america-cup-1",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T21:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "Isurus",
           "team2_name": "ODDIK"
         },
@@ -8546,22 +8570,14 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397133/pain-academy-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T21:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "paiN Academy",
           "team2_name": "Imperial"
         }
       ],
       "name": "ESL Challenger League Season 52 South America Cup 1",
       "participants": [
-        "Fluxo",
-        "PEAK",
-        "Yawara",
-        "Keyd Stars",
-        "Bounty Hunters",
-        "MEIA NOITE",
-        "BORRACHEIROS",
-        "Galorys",
         "ShindeN",
         "ALKA",
         "ex-MIBR Academy",
@@ -8573,7 +8589,7 @@
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8822,47 +8838,21 @@
         {
           "event_id": "hltv:cct-2026-south-america-series-5",
           "event_name": "CCT 2026 South America Series 5",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2396965",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Inferno",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Inferno",
-            "Mirage",
-            "Ancient"
-          ],
+          "maps": [],
           "match_id": "hltv:2396965",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396965/procyon-vs-manso-maromba-cct-2026-south-america-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T19:00:00Z",
-          "status": "upcoming",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "Procyon",
           "team2_name": "Mansão Maromba",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          "winner_name": "Procyon"
         },
         {
           "event_id": "hltv:cct-2026-south-america-series-5",
@@ -8934,8 +8924,8 @@
         "Blitzkrieg"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -9284,9 +9274,215 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+      "matches": [
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397126",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": 8,
+              "score2": 4,
+              "status": "finished"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Nuke",
+            "Mirage"
+          ],
+          "match_id": "hltv:2397126",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397126/fluxo-vs-peak-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Fluxo",
+          "team2_name": "PEAK",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397127",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": 7,
+              "score2": 5,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Ancient",
+            "Mirage"
+          ],
+          "match_id": "hltv:2397127",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397127/yawara-vs-keyd-stars-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Yawara",
+          "team2_name": "Keyd Stars",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397128",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Mirage",
+              "score1": 8,
+              "score2": 4,
+              "status": "finished"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Mirage",
+            "Cache",
+            "Ancient"
+          ],
+          "match_id": "hltv:2397128",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397128/bounty-hunters-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Bounty Hunters",
+          "team2_name": "MEIA NOITE",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397129",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Anubis",
+            "Ancient",
+            "Nuke"
+          ],
+          "match_id": "hltv:2397129",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397129/borracheiros-vs-galorys-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "BORRACHEIROS",
+          "team2_name": "Galorys",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
+        }
+      ],
+      "name": "ESL Challenger League Season 52 South America Cup 1",
+      "participants": [
+        "Fluxo",
+        "PEAK",
+        "Yawara",
+        "Keyd Stars",
+        "Bounty Hunters",
+        "MEIA NOITE",
+        "BORRACHEIROS",
+        "Galorys"
+      ],
+      "product_tier": "tier_2",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-08-25T18:58:18Z",
+  "last_verified_utc": "2026-08-25T21:45:19Z",
   "sources": [
     {
       "name": "HLTV events calendar",
