@@ -221,25 +221,6 @@
           "team1_name": "Lavked",
           "team2_name": "Bushido Wildcats",
           "winner_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-7",
-          "event_name": "CCT 2026 Europe Series 7",
-          "event_url": null,
-          "hltv_match_id": "2396659",
-          "maps": [],
-          "match_id": "hltv:2396659",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396659/pcific-vs-bebop-cct-2026-europe-series-7",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "PCIFIC",
-          "team2_name": "Bebop",
-          "winner_name": "PCIFIC"
         }
       ],
       "name": "CCT 2026 Europe Series 7",
@@ -258,8 +239,7 @@
         "ex-RUSTEC",
         "Drip Too Hard",
         "G2 Ares",
-        "Lavked",
-        "Bebop"
+        "Lavked"
       ],
       "product_tier": "tier_2",
       "source_url": "https://www.hltv.org/events/archive",
@@ -327,22 +307,6 @@
           "event_id": "hltv:9340",
           "event_name": "CCT 2026 South America Series 5",
           "event_url": null,
-          "hltv_match_id": "2396966",
-          "maps": [],
-          "match_id": "hltv:2396966",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396966/alka-vs-pugdesonesto-cct-2026-south-america-series-5",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-25T22:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ALKA",
-          "team2_name": "Pugdesonesto"
-        },
-        {
-          "event_id": "hltv:9340",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
           "hltv_match_id": "2396967",
           "maps": [],
           "match_id": "hltv:2396967",
@@ -359,17 +323,17 @@
           "event_id": "hltv:9340",
           "event_name": "CCT 2026 South America Series 5",
           "event_url": null,
-          "hltv_match_id": "2396968",
+          "hltv_match_id": "2396966",
           "maps": [],
-          "match_id": "hltv:2396968",
+          "match_id": "hltv:2396966",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396968/ex-guara-vs-blitzkrieg-cct-2026-south-america-series-5",
+          "source_url": "https://www.hltv.org/matches/2396966/alka-vs-pugdesonesto-cct-2026-south-america-series-5",
           "stage_name": "Scheduled series",
           "starts_at": "2026-08-26T16:00:00Z",
           "status": "upcoming",
-          "team1_name": "ex-GUARA",
-          "team2_name": "Blitzkrieg"
+          "team1_name": "ALKA",
+          "team2_name": "Pugdesonesto"
         },
         {
           "event_id": "hltv:9340",
@@ -412,12 +376,10 @@
         "Peladona",
         "Procyon",
         "Mansão Maromba",
-        "ALKA",
-        "Pugdesonesto",
         "MEIA NOITE",
         "ODDIK",
-        "ex-GUARA",
-        "Blitzkrieg",
+        "ALKA",
+        "Pugdesonesto",
         "BESTIA Academy",
         "Zetta",
         "Grêmio",
@@ -1209,6 +1171,45 @@
         "stages": [],
         "type": "mixed"
       },
+      "id": "hltv:cct-2026-south-america-series-5",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-south-america-series-5",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2396968",
+          "maps": [],
+          "match_id": "hltv:2396968",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396968/ex-guara-vs-blitzkrieg-cct-2026-south-america-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ex-GUARA",
+          "team2_name": "Blitzkrieg",
+          "winner_name": "Blitzkrieg"
+        }
+      ],
+      "name": "CCT 2026 South America Series 5",
+      "participants": [
+        "ex-GUARA",
+        "Blitzkrieg"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
       "id": "hltv:iem-beijing-2026-open-qualifier",
       "matches": [
         {
@@ -1841,7 +1842,7 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-25T07:09:56Z",
+  "fetched_at_utc": "2026-08-25T09:52:46Z",
   "matches": [
     {
       "event_id": "hltv:cct-2026-europe-series-7",
@@ -2201,22 +2202,6 @@
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396966",
-      "maps": [],
-      "match_id": "hltv:2396966",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396966/alka-vs-pugdesonesto-cct-2026-south-america-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-25T22:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ALKA",
-      "team2_name": "Pugdesonesto"
-    },
-    {
       "event_id": "hltv:9331",
       "event_name": "ESL Challenger League Season 52 North America Cup 1",
       "event_url": null,
@@ -2476,17 +2461,17 @@
       "event_id": "hltv:9340",
       "event_name": "CCT 2026 South America Series 5",
       "event_url": null,
-      "hltv_match_id": "2396968",
+      "hltv_match_id": "2396966",
       "maps": [],
-      "match_id": "hltv:2396968",
+      "match_id": "hltv:2396966",
       "product_tier": "tier_2",
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396968/ex-guara-vs-blitzkrieg-cct-2026-south-america-series-5",
+      "source_url": "https://www.hltv.org/matches/2396966/alka-vs-pugdesonesto-cct-2026-south-america-series-5",
       "stage_name": "Scheduled series",
       "starts_at": "2026-08-26T16:00:00Z",
       "status": "upcoming",
-      "team1_name": "ex-GUARA",
-      "team2_name": "Blitzkrieg"
+      "team1_name": "ALKA",
+      "team2_name": "Pugdesonesto"
     },
     {
       "event_id": "hltv:9340",
@@ -2583,6 +2568,25 @@
       "status": "live",
       "team1_name": "Falcons",
       "team2_name": "Lynn Vision"
+    },
+    {
+      "event_id": "hltv:cct-2026-south-america-series-5",
+      "event_name": "CCT 2026 South America Series 5",
+      "event_url": null,
+      "hltv_match_id": "2396968",
+      "maps": [],
+      "match_id": "hltv:2396968",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396968/ex-guara-vs-blitzkrieg-cct-2026-south-america-series-5",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "ex-GUARA",
+      "team2_name": "Blitzkrieg",
+      "winner_name": "Blitzkrieg"
     },
     {
       "event_id": "hltv:iem-beijing-2026-open-qualifier",
@@ -3286,25 +3290,6 @@
       "team1_name": "WBT",
       "team2_name": "mellren",
       "winner_name": "mellren"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-7",
-      "event_name": "CCT 2026 Europe Series 7",
-      "event_url": null,
-      "hltv_match_id": "2396659",
-      "maps": [],
-      "match_id": "hltv:2396659",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396659/pcific-vs-bebop-cct-2026-europe-series-7",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "PCIFIC",
-      "team2_name": "Bebop",
-      "winner_name": "PCIFIC"
     }
   ],
   "ok": true,
@@ -3316,15 +3301,15 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 63
+    "scheduled_matches": 69
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 13,
-    "matches_kept": 84,
+    "events_kept": 14,
+    "matches_kept": 83,
     "players_kept": 0,
     "event_tiers": {
       "hltv:cct-2026-europe-series-7": "tier_2",
@@ -3335,6 +3320,7 @@
       "hltv:9331": "tier_2",
       "hltv:8249": "tier_1",
       "hltv:9328": "tier_2",
+      "hltv:cct-2026-south-america-series-5": "tier_2",
       "hltv:iem-beijing-2026-open-qualifier": "tier_1",
       "hltv:iem-beijing-2026-asia-open-qualifier": "tier_1",
       "hltv:cct-2026-contenders-europe-series-8": "tier_2",
@@ -3364,7 +3350,6 @@
       "hltv:2397131",
       "hltv:2397132",
       "hltv:2397133",
-      "hltv:2396966",
       "hltv:2397156",
       "hltv:2397157",
       "hltv:2397158",
@@ -3381,13 +3366,14 @@
       "hltv:2396967",
       "hltv:2396925",
       "hltv:2396926",
-      "hltv:2396968",
+      "hltv:2396966",
       "hltv:2396969",
       "hltv:2396970",
       "hltv:2396927",
       "hltv:2396928",
       "hltv:2396929",
       "hltv:2396930",
+      "hltv:2396968",
       "hltv:2397081",
       "hltv:2397078",
       "hltv:2397079",
@@ -3424,8 +3410,7 @@
       "hltv:2396611",
       "hltv:2396870",
       "hltv:2396660",
-      "hltv:2396869",
-      "hltv:2396659"
+      "hltv:2396869"
     ]
   }
 }
