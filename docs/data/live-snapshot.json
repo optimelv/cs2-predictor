@@ -9,142 +9,6 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:blast-open-porto-2026",
-      "matches": [
-        {
-          "event_id": "hltv:blast-open-porto-2026",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396923",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396923",
-          "product_tier": "pending",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T09:00:00Z",
-          "status": "live",
-          "team1_name": "Aurora",
-          "team2_name": "G2",
-          "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
-        },
-        {
-          "event_id": "hltv:blast-open-porto-2026",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396925",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396925",
-          "product_tier": "pending",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T14:00:00Z",
-          "status": "live",
-          "team1_name": "Natus Vincere",
-          "team2_name": "M80",
-          "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
-        }
-      ],
-      "name": "BLAST Open Porto 2026",
-      "participants": [
-        "Aurora",
-        "G2",
-        "Natus Vincere",
-        "M80"
-      ],
-      "product_tier": "tier_1",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "ongoing"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:9328",
-      "matches": [
-        {
-          "event_id": "hltv:9328",
-          "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397084",
-          "maps": [],
-          "match_id": "hltv:2397084",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397084/arcade-vs-mindfreak-esl-challenger-league-season-52-oceania-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T09:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Arcade",
-          "team2_name": "Mindfreak"
-        },
-        {
-          "event_id": "hltv:9328",
-          "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397085",
-          "maps": [],
-          "match_id": "hltv:2397085",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397085/rooster-vs-markandlarry-esl-challenger-league-season-52-oceania-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T09:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Rooster",
-          "team2_name": "MARKandLARRY"
-        },
-        {
-          "event_id": "hltv:9328",
-          "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397086",
-          "maps": [],
-          "match_id": "hltv:2397086",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397086/lfo-8-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T09:00:00Z",
-          "status": "upcoming",
-          "team1_name": "LFO 8",
-          "team2_name": "Ground Zero"
-        }
-      ],
-      "name": "ESL Challenger League Season 52 Oceania Cup 1",
-      "participants": [
-        "Arcade",
-        "Mindfreak",
-        "Rooster",
-        "MARKandLARRY",
-        "LFO 8",
-        "Ground Zero"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
       "id": "hltv:9324",
       "matches": [
         {
@@ -208,132 +72,6 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:8249",
-      "matches": [
-        {
-          "event_id": "hltv:8249",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": null,
-          "hltv_match_id": "2396924",
-          "maps": [],
-          "match_id": "hltv:2396924",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396924/spirit-vs-dendele-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T11:30:00Z",
-          "status": "live",
-          "team1_name": "Spirit",
-          "team2_name": "DENDELE"
-        },
-        {
-          "event_id": "hltv:8249",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": null,
-          "hltv_match_id": "2396926",
-          "maps": [],
-          "match_id": "hltv:2396926",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396926/furia-vs-pain-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-26T15:30:00Z",
-          "status": "live",
-          "team1_name": "FURIA",
-          "team2_name": "paiN"
-        },
-        {
-          "event_id": "hltv:8249",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": null,
-          "hltv_match_id": "2396927",
-          "maps": [],
-          "match_id": "hltv:2396927",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-27T09:00:00Z",
-          "status": "live",
-          "team1_name": "Vitality",
-          "team2_name": "Inner Circle"
-        },
-        {
-          "event_id": "hltv:8249",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": null,
-          "hltv_match_id": "2396928",
-          "maps": [],
-          "match_id": "hltv:2396928",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396928/mouz-vs-9z-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-27T11:30:00Z",
-          "status": "live",
-          "team1_name": "MOUZ",
-          "team2_name": "9z"
-        },
-        {
-          "event_id": "hltv:8249",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": null,
-          "hltv_match_id": "2396929",
-          "maps": [],
-          "match_id": "hltv:2396929",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-27T14:00:00Z",
-          "status": "live",
-          "team1_name": "Legacy",
-          "team2_name": "FUT"
-        },
-        {
-          "event_id": "hltv:8249",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": null,
-          "hltv_match_id": "2396930",
-          "maps": [],
-          "match_id": "hltv:2396930",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-27T15:30:00Z",
-          "status": "live",
-          "team1_name": "Falcons",
-          "team2_name": "Lynn Vision"
-        }
-      ],
-      "name": "BLAST Open Porto 2026",
-      "participants": [
-        "Spirit",
-        "DENDELE",
-        "FURIA",
-        "paiN",
-        "Vitality",
-        "Inner Circle",
-        "MOUZ",
-        "9z",
-        "Legacy",
-        "FUT",
-        "Falcons",
-        "Lynn Vision"
-      ],
-      "product_tier": "tier_1",
-      "source_url": null,
-      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -586,6 +324,114 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:8249",
+      "matches": [
+        {
+          "event_id": "hltv:8249",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": null,
+          "hltv_match_id": "2396926",
+          "maps": [],
+          "match_id": "hltv:2396926",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396926/furia-vs-pain-blast-open-porto-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-26T15:30:00Z",
+          "status": "live",
+          "team1_name": "FURIA",
+          "team2_name": "paiN"
+        },
+        {
+          "event_id": "hltv:8249",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": null,
+          "hltv_match_id": "2396927",
+          "maps": [],
+          "match_id": "hltv:2396927",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396927/vitality-vs-inner-circle-blast-open-porto-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-27T09:00:00Z",
+          "status": "live",
+          "team1_name": "Vitality",
+          "team2_name": "Inner Circle"
+        },
+        {
+          "event_id": "hltv:8249",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": null,
+          "hltv_match_id": "2396928",
+          "maps": [],
+          "match_id": "hltv:2396928",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396928/mouz-vs-9z-blast-open-porto-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-27T11:30:00Z",
+          "status": "live",
+          "team1_name": "MOUZ",
+          "team2_name": "9z"
+        },
+        {
+          "event_id": "hltv:8249",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": null,
+          "hltv_match_id": "2396929",
+          "maps": [],
+          "match_id": "hltv:2396929",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-27T14:00:00Z",
+          "status": "live",
+          "team1_name": "Legacy",
+          "team2_name": "FUT"
+        },
+        {
+          "event_id": "hltv:8249",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": null,
+          "hltv_match_id": "2396930",
+          "maps": [],
+          "match_id": "hltv:2396930",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396930/falcons-vs-lynn-vision-blast-open-porto-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-27T15:30:00Z",
+          "status": "live",
+          "team1_name": "Falcons",
+          "team2_name": "Lynn Vision"
+        }
+      ],
+      "name": "BLAST Open Porto 2026",
+      "participants": [
+        "FURIA",
+        "paiN",
+        "Vitality",
+        "Inner Circle",
+        "MOUZ",
+        "9z",
+        "Legacy",
+        "FUT",
+        "Falcons",
+        "Lynn Vision"
+      ],
+      "product_tier": "tier_1",
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -2299,79 +2145,234 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:blast-open-porto-2026",
+      "matches": [
+        {
+          "event_id": "hltv:blast-open-porto-2026",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396923",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": 5,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Anubis",
+            "Mirage"
+          ],
+          "match_id": "hltv:2396923",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Aurora",
+          "team2_name": "G2",
+          "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
+        }
+      ],
+      "name": "BLAST Open Porto 2026",
+      "participants": [
+        "Aurora",
+        "G2"
+      ],
+      "product_tier": "tier_1",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "ongoing"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
+      "matches": [
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397084",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": 5,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Inferno",
+            "Mirage"
+          ],
+          "match_id": "hltv:2397084",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397084/arcade-vs-mindfreak-esl-challenger-league-season-52-oceania-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Arcade",
+          "team2_name": "Mindfreak",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397085",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": 13,
+              "score2": 2,
+              "status": "finished"
+            },
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Anubis",
+            "Mirage"
+          ],
+          "match_id": "hltv:2397085",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397085/rooster-vs-markandlarry-esl-challenger-league-season-52-oceania-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Rooster",
+          "team2_name": "MARKandLARRY",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397086",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Ancient",
+              "score1": 9,
+              "score2": 3,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Ancient",
+            "Dust2",
+            "Nuke"
+          ],
+          "match_id": "hltv:2397086",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397086/lfo-8-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "LFO 8",
+          "team2_name": "Ground Zero",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
+        }
+      ],
+      "name": "ESL Challenger League Season 52 Oceania Cup 1",
+      "participants": [
+        "Arcade",
+        "Mindfreak",
+        "Rooster",
+        "MARKandLARRY",
+        "LFO 8",
+        "Ground Zero"
+      ],
+      "product_tier": "tier_2",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "ongoing"
     }
   ],
-  "fetched_at_utc": "2026-08-26T07:10:21Z",
+  "fetched_at_utc": "2026-08-26T09:58:48Z",
   "matches": [
-    {
-      "event_id": "hltv:blast-open-porto-2026",
-      "event_name": "BLAST Open Porto 2026",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396923",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396923",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-26T09:00:00Z",
-      "status": "live",
-      "team1_name": "Aurora",
-      "team2_name": "G2",
-      "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
-    },
-    {
-      "event_id": "hltv:9328",
-      "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397084",
-      "maps": [],
-      "match_id": "hltv:2397084",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397084/arcade-vs-mindfreak-esl-challenger-league-season-52-oceania-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-26T09:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Arcade",
-      "team2_name": "Mindfreak"
-    },
-    {
-      "event_id": "hltv:9328",
-      "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397085",
-      "maps": [],
-      "match_id": "hltv:2397085",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397085/rooster-vs-markandlarry-esl-challenger-league-season-52-oceania-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-26T09:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Rooster",
-      "team2_name": "MARKandLARRY"
-    },
-    {
-      "event_id": "hltv:9328",
-      "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
-      "event_url": null,
-      "hltv_match_id": "2397086",
-      "maps": [],
-      "match_id": "hltv:2397086",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397086/lfo-8-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-26T09:00:00Z",
-      "status": "upcoming",
-      "team1_name": "LFO 8",
-      "team2_name": "Ground Zero"
-    },
     {
       "event_id": "hltv:9324",
       "event_name": "CCT 2026 Europe Series 7",
@@ -2387,22 +2388,6 @@
       "status": "upcoming",
       "team1_name": "G2 Ares",
       "team2_name": "Bushido Wildcats"
-    },
-    {
-      "event_id": "hltv:8249",
-      "event_name": "BLAST Open Porto 2026",
-      "event_url": null,
-      "hltv_match_id": "2396924",
-      "maps": [],
-      "match_id": "hltv:2396924",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396924/spirit-vs-dendele-blast-open-porto-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-26T11:30:00Z",
-      "status": "live",
-      "team1_name": "Spirit",
-      "team2_name": "DENDELE"
     },
     {
       "event_id": "hltv:9340",
@@ -2547,27 +2532,6 @@
       "status": "upcoming",
       "team1_name": "Haunted House",
       "team2_name": "5star"
-    },
-    {
-      "event_id": "hltv:blast-open-porto-2026",
-      "event_name": "BLAST Open Porto 2026",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396925",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2396925",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396925/natus-vincere-vs-m80-blast-open-porto-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-26T14:00:00Z",
-      "status": "live",
-      "team1_name": "Natus Vincere",
-      "team2_name": "M80",
-      "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
     },
     {
       "event_id": "hltv:9324",
@@ -4100,6 +4064,186 @@
       "team1_name": "MAYBE",
       "team2_name": "FORZE Reload",
       "winner_name": "FORZE Reload"
+    },
+    {
+      "event_id": "hltv:blast-open-porto-2026",
+      "event_name": "BLAST Open Porto 2026",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2396923",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": 5,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Anubis",
+        "Mirage"
+      ],
+      "match_id": "hltv:2396923",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Aurora",
+      "team2_name": "G2",
+      "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397084",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": 5,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Inferno",
+        "Mirage"
+      ],
+      "match_id": "hltv:2397084",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397084/arcade-vs-mindfreak-esl-challenger-league-season-52-oceania-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Arcade",
+      "team2_name": "Mindfreak",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397085",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 2,
+          "status": "finished"
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Anubis",
+        "Mirage"
+      ],
+      "match_id": "hltv:2397085",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397085/rooster-vs-markandlarry-esl-challenger-league-season-52-oceania-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Rooster",
+      "team2_name": "MARKandLARRY",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397086",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": 9,
+          "score2": 3,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Dust2",
+        "Nuke"
+      ],
+      "match_id": "hltv:2397086",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397086/lfo-8-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "LFO 8",
+      "team2_name": "Ground Zero",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
     }
   ],
   "ok": true,
@@ -4111,7 +4255,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 69
+    "scheduled_matches": 68
   },
   "product_filter": {
     "eligible_tiers": [
@@ -4119,15 +4263,13 @@
       "tier_2"
     ],
     "events_kept": 17,
-    "matches_kept": 102,
+    "matches_kept": 100,
     "players_kept": 0,
     "event_tiers": {
-      "hltv:blast-open-porto-2026": "tier_1",
-      "hltv:9328": "tier_2",
       "hltv:9324": "tier_2",
-      "hltv:8249": "tier_1",
       "hltv:9340": "tier_2",
       "hltv:9329": "tier_2",
+      "hltv:8249": "tier_1",
       "hltv:9330": "tier_2",
       "hltv:9331": "tier_2",
       "hltv:9351": "tier_2",
@@ -4138,15 +4280,12 @@
       "hltv:esl-challenger-league-season-52-asia-pacific-cup-1": "tier_2",
       "hltv:iem-beijing-2026-open-qualifier": "tier_1",
       "hltv:iem-beijing-2026-asia-open-qualifier": "tier_1",
-      "hltv:cct-2026-contenders-europe-series-8": "tier_2"
+      "hltv:cct-2026-contenders-europe-series-8": "tier_2",
+      "hltv:blast-open-porto-2026": "tier_1",
+      "hltv:esl-challenger-league-season-52-oceania-cup-1": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2396923",
-      "hltv:2397084",
-      "hltv:2397085",
-      "hltv:2397086",
       "hltv:2396673",
-      "hltv:2396924",
       "hltv:2396967",
       "hltv:2397104",
       "hltv:2397105",
@@ -4156,7 +4295,6 @@
       "hltv:2397109",
       "hltv:2397110",
       "hltv:2397111",
-      "hltv:2396925",
       "hltv:2396674",
       "hltv:2396926",
       "hltv:2396966",
@@ -4242,7 +4380,11 @@
       "hltv:2397068",
       "hltv:2397067",
       "hltv:2396666",
-      "hltv:2397083"
+      "hltv:2397083",
+      "hltv:2396923",
+      "hltv:2397084",
+      "hltv:2397085",
+      "hltv:2397086"
     ]
   }
 }
