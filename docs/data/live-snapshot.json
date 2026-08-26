@@ -22,7 +22,7 @@
           },
           "maps": [],
           "match_id": "hltv:2396923",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
           "stage_name": "Scheduled series",
@@ -763,6 +763,22 @@
           "event_id": "hltv:9331",
           "event_name": "ESL Challenger League Season 52 North America Cup 1",
           "event_url": null,
+          "hltv_match_id": "2397164",
+          "maps": [],
+          "match_id": "hltv:2397164",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397164/voca-vs-farmville-esl-challenger-league-season-52-north-america-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-27T01:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Voca",
+          "team2_name": "FarmVille"
+        },
+        {
+          "event_id": "hltv:9331",
+          "event_name": "ESL Challenger League Season 52 North America Cup 1",
+          "event_url": null,
           "hltv_match_id": "2397165",
           "maps": [],
           "match_id": "hltv:2397165",
@@ -806,6 +822,22 @@
           "status": "upcoming",
           "team1_name": "Chicken Coop",
           "team2_name": "EMPIRE"
+        },
+        {
+          "event_id": "hltv:9331",
+          "event_name": "ESL Challenger League Season 52 North America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397168",
+          "maps": [],
+          "match_id": "hltv:2397168",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397168/new-legends-vs-club-333-esl-challenger-league-season-52-north-america-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-08-27T01:00:00Z",
+          "status": "upcoming",
+          "team1_name": "New Legends",
+          "team2_name": "Club 333"
         },
         {
           "event_id": "hltv:9331",
@@ -858,12 +890,16 @@
       ],
       "name": "ESL Challenger League Season 52 North America Cup 1",
       "participants": [
+        "Voca",
+        "FarmVille",
         "NuTorious",
         "Overtake Sector",
         "Iowa Stormboar",
         "Marsborne",
         "Chicken Coop",
         "EMPIRE",
+        "New Legends",
+        "Club 333",
         "DETONATE",
         "Villainous",
         "Shimmer",
@@ -1051,6 +1087,25 @@
           "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
           "event_name": "ESL Challenger League Season 52 North America Cup 1",
           "event_url": null,
+          "hltv_match_id": "2397157",
+          "maps": [],
+          "match_id": "hltv:2397157",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397157/farmville-vs-club-333-esl-challenger-league-season-52-north-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "FarmVille",
+          "team2_name": "Club 333",
+          "winner_name": "FarmVille"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 North America Cup 1",
+          "event_url": null,
           "hltv_match_id": "2397158",
           "maps": [],
           "match_id": "hltv:2397158",
@@ -1179,55 +1234,12 @@
           "team1_name": "Incognito",
           "team2_name": "Chicken Coop",
           "winner_name": "Chicken Coop"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 North America Cup 1",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397157",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Dust2",
-              "score1": 13,
-              "score2": 11,
-              "status": "finished"
-            },
-            {
-              "map_name": "Inferno",
-              "score1": 5,
-              "score2": 13,
-              "status": "finished"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": 7,
-              "score2": 5,
-              "status": "finished"
-            }
-          ],
-          "maps": [
-            "Dust2",
-            "Inferno",
-            "Mirage"
-          ],
-          "match_id": "hltv:2397157",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397157/farmville-vs-club-333-esl-challenger-league-season-52-north-america-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "FarmVille",
-          "team2_name": "Club 333",
-          "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
         }
       ],
       "name": "ESL Challenger League Season 52 North America Cup 1",
       "participants": [
+        "FarmVille",
+        "Club 333",
         "Villainous",
         "Overtake Sector",
         "Zomblers",
@@ -1241,13 +1253,11 @@
         "Voca",
         "New Legends",
         "Incognito",
-        "Chicken Coop",
-        "FarmVille",
-        "Club 333"
+        "Chicken Coop"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -2279,39 +2289,19 @@
           "team1_name": "MAYBE",
           "team2_name": "FORZE Reload",
           "winner_name": "FORZE Reload"
-        },
-        {
-          "event_id": "hltv:cct-2026-contenders-europe-series-8",
-          "event_name": "CCT 2026 Contenders Europe Series 8",
-          "event_url": null,
-          "hltv_match_id": "2397082",
-          "maps": [],
-          "match_id": "hltv:2397082",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397082/forze-reload-vs-younglings-cct-2026-contenders-europe-series-8",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "FORZE Reload",
-          "team2_name": "Younglings",
-          "winner_name": "FORZE Reload"
         }
       ],
       "name": "CCT 2026 Contenders Europe Series 8",
       "participants": [
         "MAYBE",
-        "FORZE Reload",
-        "Younglings"
+        "FORZE Reload"
       ],
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-08-26T04:05:07Z",
+  "fetched_at_utc": "2026-08-26T07:10:21Z",
   "matches": [
     {
       "event_id": "hltv:blast-open-porto-2026",
@@ -2807,6 +2797,22 @@
       "event_id": "hltv:9331",
       "event_name": "ESL Challenger League Season 52 North America Cup 1",
       "event_url": null,
+      "hltv_match_id": "2397164",
+      "maps": [],
+      "match_id": "hltv:2397164",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397164/voca-vs-farmville-esl-challenger-league-season-52-north-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-27T01:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Voca",
+      "team2_name": "FarmVille"
+    },
+    {
+      "event_id": "hltv:9331",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "event_url": null,
       "hltv_match_id": "2397165",
       "maps": [],
       "match_id": "hltv:2397165",
@@ -2850,6 +2856,22 @@
       "status": "upcoming",
       "team1_name": "Chicken Coop",
       "team2_name": "EMPIRE"
+    },
+    {
+      "event_id": "hltv:9331",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397168",
+      "maps": [],
+      "match_id": "hltv:2397168",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397168/new-legends-vs-club-333-esl-challenger-league-season-52-north-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-27T01:00:00Z",
+      "status": "upcoming",
+      "team1_name": "New Legends",
+      "team2_name": "Club 333"
     },
     {
       "event_id": "hltv:9331",
@@ -3090,6 +3112,25 @@
       "status": "upcoming",
       "team1_name": "Honvéd",
       "team2_name": "Noir Verse"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397157",
+      "maps": [],
+      "match_id": "hltv:2397157",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397157/farmville-vs-club-333-esl-challenger-league-season-52-north-america-cup-1",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "FarmVille",
+      "team2_name": "Club 333",
+      "winner_name": "FarmVille"
     },
     {
       "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
@@ -4059,70 +4100,6 @@
       "team1_name": "MAYBE",
       "team2_name": "FORZE Reload",
       "winner_name": "FORZE Reload"
-    },
-    {
-      "event_id": "hltv:cct-2026-contenders-europe-series-8",
-      "event_name": "CCT 2026 Contenders Europe Series 8",
-      "event_url": null,
-      "hltv_match_id": "2397082",
-      "maps": [],
-      "match_id": "hltv:2397082",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397082/forze-reload-vs-younglings-cct-2026-contenders-europe-series-8",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "FORZE Reload",
-      "team2_name": "Younglings",
-      "winner_name": "FORZE Reload"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-      "event_name": "ESL Challenger League Season 52 North America Cup 1",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397157",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": 13,
-          "score2": 11,
-          "status": "finished"
-        },
-        {
-          "map_name": "Inferno",
-          "score1": 5,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": 7,
-          "score2": 5,
-          "status": "finished"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Inferno",
-        "Mirage"
-      ],
-      "match_id": "hltv:2397157",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397157/farmville-vs-club-333-esl-challenger-league-season-52-north-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_name": "FarmVille",
-      "team2_name": "Club 333",
-      "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
     }
   ],
   "ok": true,
@@ -4134,7 +4111,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 68
+    "scheduled_matches": 69
   },
   "product_filter": {
     "eligible_tiers": [
@@ -4142,7 +4119,7 @@
       "tier_2"
     ],
     "events_kept": 17,
-    "matches_kept": 101,
+    "matches_kept": 102,
     "players_kept": 0,
     "event_tiers": {
       "hltv:blast-open-porto-2026": "tier_1",
@@ -4194,9 +4171,11 @@
       "hltv:2397140",
       "hltv:2397141",
       "hltv:2396970",
+      "hltv:2397164",
       "hltv:2397165",
       "hltv:2397166",
       "hltv:2397167",
+      "hltv:2397168",
       "hltv:2397169",
       "hltv:2397170",
       "hltv:2397171",
@@ -4212,6 +4191,7 @@
       "hltv:2397230",
       "hltv:2397231",
       "hltv:2397232",
+      "hltv:2397157",
       "hltv:2397158",
       "hltv:2397162",
       "hltv:2397160",
@@ -4262,9 +4242,7 @@
       "hltv:2397068",
       "hltv:2397067",
       "hltv:2396666",
-      "hltv:2397083",
-      "hltv:2397082",
-      "hltv:2397157"
+      "hltv:2397083"
     ]
   }
 }
