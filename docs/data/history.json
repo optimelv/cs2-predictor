@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-26T16:35:10Z",
+  "generated_at_utc": "2026-08-26T20:04:15Z",
   "through_date": "2026-08-26",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1553,
+    "matches": 1559,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1562,6 +1562,138 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "Rare Atom",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396926",
+      "match_date": "2026-08-26",
+      "event_name": "BLAST Open Porto 2026",
+      "team1_name": "FURIA",
+      "team2_name": "paiN",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396925",
+      "match_date": "2026-08-26",
+      "event_name": "BLAST Open Porto 2026",
+      "team1_name": "Natus Vincere",
+      "team2_name": "M80",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "M80",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396675",
+      "match_date": "2026-08-26",
+      "event_name": "CCT 2026 Europe Series 7",
+      "team1_name": "Drip Too Hard",
+      "team2_name": "UNiTY",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396966",
+      "match_date": "2026-08-26",
+      "event_name": "CCT 2026 South America Series 5",
+      "team1_name": "ALKA",
+      "team2_name": "Pugdesonesto",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ALKA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396969",
+      "match_date": "2026-08-26",
+      "event_name": "CCT 2026 South America Series 5",
+      "team1_name": "BESTIA Academy",
+      "team2_name": "Zetta",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "BESTIA Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396674",
+      "match_date": "2026-08-26",
+      "event_name": "CCT 2026 Europe Series 7",
+      "team1_name": "Black Phoenix",
+      "team2_name": "HYPERSPIRIT",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Black Phoenix",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
