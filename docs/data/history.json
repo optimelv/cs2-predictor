@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-26T02:00:21Z",
+  "generated_at_utc": "2026-08-26T04:05:07Z",
   "through_date": "2026-08-26",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1531,
+    "matches": 1537,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1078,6 +1078,138 @@
       "score1": 0,
       "score2": 1,
       "winner_name": "Chicken Coop",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397158",
+      "match_date": "2026-08-26",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "team1_name": "Villainous",
+      "team2_name": "Overtake Sector",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Overtake Sector",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397162",
+      "match_date": "2026-08-26",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "team1_name": "Zomblers",
+      "team2_name": "EMPIRE",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "EMPIRE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397160",
+      "match_date": "2026-08-26",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "team1_name": "Marsborne",
+      "team2_name": "Elusive",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Marsborne",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397159",
+      "match_date": "2026-08-26",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "team1_name": "DETONATE",
+      "team2_name": "NuTorious",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NuTorious",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397161",
+      "match_date": "2026-08-26",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "team1_name": "Shimmer",
+      "team2_name": "Iowa Stormboar",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Iowa Stormboar",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397156",
+      "match_date": "2026-08-26",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "team1_name": "Voca",
+      "team2_name": "New Legends",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Voca",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
