@@ -9,150 +9,6 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-      "matches": [
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397150",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397150",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397150/fluxo-vs-ex-mibr-academy-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-29T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Fluxo",
-          "team2_name": "ex-MIBR Academy",
-          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397151",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397151",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-08-29T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ShindeN",
-          "team2_name": "Isurus",
-          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397148",
-          "maps": [],
-          "match_id": "hltv:2397148",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397148/oddik-vs-ex-mibr-academy-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ODDIK",
-          "team2_name": "ex-MIBR Academy",
-          "winner_name": "ex-MIBR Academy"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397149",
-          "maps": [],
-          "match_id": "hltv:2397149",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397149/turma-do-pagode-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Turma do Pagode",
-          "team2_name": "Isurus",
-          "winner_name": "Isurus"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397146",
-          "maps": [],
-          "match_id": "hltv:2397146",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397146/fluxo-vs-galorys-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Fluxo",
-          "team2_name": "Galorys",
-          "winner_name": "Galorys"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397147",
-          "maps": [],
-          "match_id": "hltv:2397147",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ShindeN",
-          "team2_name": "Imperial",
-          "winner_name": "Imperial"
-        }
-      ],
-      "name": "ESL Challenger League Season 52 South America Cup 1",
-      "participants": [
-        "Fluxo",
-        "ex-MIBR Academy",
-        "ShindeN",
-        "Isurus",
-        "ODDIK",
-        "Turma do Pagode",
-        "Galorys",
-        "Imperial"
-      ],
-      "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
       "id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
       "matches": [
         {
@@ -166,7 +22,7 @@
           },
           "maps": [],
           "match_id": "hltv:2397180",
-          "product_tier": "tier_2",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397180/empire-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-1",
           "stage_name": "Scheduled series",
@@ -187,7 +43,7 @@
           },
           "maps": [],
           "match_id": "hltv:2397181",
-          "product_tier": "tier_2",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397181/zomblers-vs-chicken-coop-esl-challenger-league-season-52-north-america-cup-1",
           "stage_name": "Scheduled series",
@@ -590,6 +446,119 @@
         "Ground Zero",
         "Arcade",
         "Rooster"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:semifinal",
+            "matches": [
+              {
+                "event_id": "hltv:9324",
+                "event_name": "CCT 2026 Europe Series 7",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2396688",
+                "maps": [],
+                "match_id": "hltv:2396688",
+                "product_tier": "tier_2",
+                "round_name": "Semifinal",
+                "series_format": "bo3",
+                "slot_id": "main:semifinal:1",
+                "source_url": "https://www.hltv.org/matches/2396688/genone-vs-inox-division-cct-2026-europe-series-7",
+                "stage_name": "Semifinal",
+                "starts_at": "2026-08-30T10:00:00Z",
+                "status": "upcoming",
+                "team1_name": "GenOne",
+                "team2_name": "INOX Division"
+              },
+              {
+                "event_id": "hltv:9324",
+                "event_name": "CCT 2026 Europe Series 7",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2396689",
+                "maps": [],
+                "match_id": "hltv:2396689",
+                "product_tier": "tier_2",
+                "round_name": "Semifinal",
+                "series_format": "bo3",
+                "slot_id": "main:semifinal:2",
+                "source_url": "https://www.hltv.org/matches/2396689/ex-zero-tenacity-vs-phantom-cct-2026-europe-series-7",
+                "stage_name": "Semifinal",
+                "starts_at": "2026-08-30T13:00:00Z",
+                "status": "upcoming",
+                "team1_name": "ex-Zero Tenacity",
+                "team2_name": "Phantom"
+              }
+            ],
+            "name": "Semifinal",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Semifinal",
+      "format": {
+        "label": "Semifinal",
+        "settings": {},
+        "stages": [
+          {
+            "id": "semifinal",
+            "name": "Semifinal",
+            "order": 1,
+            "status": "pending",
+            "type": "single_elimination"
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "id": "hltv:9324",
+      "matches": [
+        {
+          "event_id": "hltv:9324",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396688",
+          "maps": [],
+          "match_id": "hltv:2396688",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396688/genone-vs-inox-division-cct-2026-europe-series-7",
+          "stage_name": "Semifinal",
+          "starts_at": "2026-08-30T10:00:00Z",
+          "status": "upcoming",
+          "team1_name": "GenOne",
+          "team2_name": "INOX Division"
+        },
+        {
+          "event_id": "hltv:9324",
+          "event_name": "CCT 2026 Europe Series 7",
+          "event_url": null,
+          "hltv_match_id": "2396689",
+          "maps": [],
+          "match_id": "hltv:2396689",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396689/ex-zero-tenacity-vs-phantom-cct-2026-europe-series-7",
+          "stage_name": "Semifinal",
+          "starts_at": "2026-08-30T13:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-Zero Tenacity",
+          "team2_name": "Phantom"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 7",
+      "participants": [
+        "GenOne",
+        "INOX Division",
+        "ex-Zero Tenacity",
+        "Phantom"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -1933,52 +1902,202 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+      "matches": [
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397148",
+          "maps": [],
+          "match_id": "hltv:2397148",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397148/oddik-vs-ex-mibr-academy-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ODDIK",
+          "team2_name": "ex-MIBR Academy",
+          "winner_name": "ex-MIBR Academy"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397149",
+          "maps": [],
+          "match_id": "hltv:2397149",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397149/turma-do-pagode-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Turma do Pagode",
+          "team2_name": "Isurus",
+          "winner_name": "Isurus"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397146",
+          "maps": [],
+          "match_id": "hltv:2397146",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397146/fluxo-vs-galorys-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Fluxo",
+          "team2_name": "Galorys",
+          "winner_name": "Galorys"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397147",
+          "maps": [],
+          "match_id": "hltv:2397147",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "ShindeN",
+          "team2_name": "Imperial",
+          "winner_name": "Imperial"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397150",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Mirage",
+              "score1": 9,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": 13,
+              "score2": 5,
+              "status": "finished"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Mirage",
+            "Dust2",
+            "Nuke"
+          ],
+          "match_id": "hltv:2397150",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397150/fluxo-vs-ex-mibr-academy-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Fluxo",
+          "team2_name": "ex-MIBR Academy",
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397151",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": 13,
+              "score2": 11,
+              "status": "finished"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": 15,
+              "score2": 15,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Nuke",
+            "Dust2"
+          ],
+          "match_id": "hltv:2397151",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "ShindeN",
+          "team2_name": "Isurus",
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+        }
+      ],
+      "name": "ESL Challenger League Season 52 South America Cup 1",
+      "participants": [
+        "ODDIK",
+        "ex-MIBR Academy",
+        "Turma do Pagode",
+        "Isurus",
+        "Fluxo",
+        "Galorys",
+        "ShindeN",
+        "Imperial"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "ongoing"
     }
   ],
-  "fetched_at_utc": "2026-08-29T20:56:49Z",
+  "fetched_at_utc": "2026-08-29T23:21:53Z",
   "matches": [
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397150",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397150",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397150/fluxo-vs-ex-mibr-academy-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-29T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Fluxo",
-      "team2_name": "ex-MIBR Academy",
-      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397151",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397151",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-29T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ShindeN",
-      "team2_name": "Isurus",
-      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
-    },
     {
       "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
       "event_name": "ESL Challenger League Season 52 North America Cup 1",
@@ -2086,6 +2205,22 @@
       "team2_name": "Rooster"
     },
     {
+      "event_id": "hltv:9324",
+      "event_name": "CCT 2026 Europe Series 7",
+      "event_url": null,
+      "hltv_match_id": "2396688",
+      "maps": [],
+      "match_id": "hltv:2396688",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396688/genone-vs-inox-division-cct-2026-europe-series-7",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-08-30T10:00:00Z",
+      "status": "upcoming",
+      "team1_name": "GenOne",
+      "team2_name": "INOX Division"
+    },
+    {
       "event_id": "hltv:9351",
       "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
       "event_url": null,
@@ -2116,6 +2251,22 @@
       "status": "live",
       "team1_name": "Aurora",
       "team2_name": "M80"
+    },
+    {
+      "event_id": "hltv:9324",
+      "event_name": "CCT 2026 Europe Series 7",
+      "event_url": null,
+      "hltv_match_id": "2396689",
+      "maps": [],
+      "match_id": "hltv:2396689",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396689/ex-zero-tenacity-vs-phantom-cct-2026-europe-series-7",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-08-30T13:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ex-Zero Tenacity",
+      "team2_name": "Phantom"
     },
     {
       "event_id": "hltv:9340",
@@ -2576,82 +2727,6 @@
       "team1_name": "Vitality",
       "team2_name": "9z",
       "winner_name": "Vitality"
-    },
-    {
-      "event_id": "hltv:blast-open-porto-2026",
-      "event_name": "BLAST Open Porto 2026",
-      "event_url": null,
-      "hltv_match_id": "2396934",
-      "maps": [],
-      "match_id": "hltv:2396934",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396934/m80-vs-furia-blast-open-porto-2026",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "M80",
-      "team2_name": "FURIA",
-      "winner_name": "FURIA"
-    },
-    {
-      "event_id": "hltv:blast-open-porto-2026",
-      "event_name": "BLAST Open Porto 2026",
-      "event_url": null,
-      "hltv_match_id": "2396933",
-      "maps": [],
-      "match_id": "hltv:2396933",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Natus Vincere",
-      "team2_name": "paiN",
-      "winner_name": "Natus Vincere"
-    },
-    {
-      "event_id": "hltv:blast-open-porto-2026",
-      "event_name": "BLAST Open Porto 2026",
-      "event_url": null,
-      "hltv_match_id": "2396932",
-      "maps": [],
-      "match_id": "hltv:2396932",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396932/g2-vs-spirit-blast-open-porto-2026",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "G2",
-      "team2_name": "Spirit",
-      "winner_name": "Spirit"
-    },
-    {
-      "event_id": "hltv:blast-open-porto-2026",
-      "event_name": "BLAST Open Porto 2026",
-      "event_url": null,
-      "hltv_match_id": "2396931",
-      "maps": [],
-      "match_id": "hltv:2396931",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Aurora",
-      "team2_name": "DENDELE",
-      "winner_name": "Aurora"
     },
     {
       "event_id": "hltv:cct-2026-south-america-series-5",
@@ -3186,6 +3261,25 @@
       "winner_name": "SINNERS"
     },
     {
+      "event_id": "hltv:blast-open-porto-2026",
+      "event_name": "BLAST Open Porto 2026",
+      "event_url": null,
+      "hltv_match_id": "2396934",
+      "maps": [],
+      "match_id": "hltv:2396934",
+      "product_tier": "tier_1",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396934/m80-vs-furia-blast-open-porto-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "M80",
+      "team2_name": "FURIA",
+      "winner_name": "FURIA"
+    },
+    {
       "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
       "event_url": null,
@@ -3241,6 +3335,25 @@
       "team1_name": "Phantom",
       "team2_name": "Leo",
       "winner_name": "Phantom"
+    },
+    {
+      "event_id": "hltv:blast-open-porto-2026",
+      "event_name": "BLAST Open Porto 2026",
+      "event_url": null,
+      "hltv_match_id": "2396933",
+      "maps": [],
+      "match_id": "hltv:2396933",
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396933/natus-vincere-vs-pain-blast-open-porto-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Natus Vincere",
+      "team2_name": "paiN",
+      "winner_name": "Natus Vincere"
     },
     {
       "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
@@ -3357,6 +3470,25 @@
       "winner_name": "ODDIK"
     },
     {
+      "event_id": "hltv:blast-open-porto-2026",
+      "event_name": "BLAST Open Porto 2026",
+      "event_url": null,
+      "hltv_match_id": "2396932",
+      "maps": [],
+      "match_id": "hltv:2396932",
+      "product_tier": "tier_1",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396932/g2-vs-spirit-blast-open-porto-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "G2",
+      "team2_name": "Spirit",
+      "winner_name": "Spirit"
+    },
+    {
       "event_id": "hltv:cct-2026-europe-series-7",
       "event_name": "CCT 2026 Europe Series 7",
       "event_url": null,
@@ -3395,6 +3527,25 @@
       "winner_name": "Ground Zero"
     },
     {
+      "event_id": "hltv:blast-open-porto-2026",
+      "event_name": "BLAST Open Porto 2026",
+      "event_url": null,
+      "hltv_match_id": "2396931",
+      "maps": [],
+      "match_id": "hltv:2396931",
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396931/aurora-vs-dendele-blast-open-porto-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Aurora",
+      "team2_name": "DENDELE",
+      "winner_name": "Aurora"
+    },
+    {
       "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
       "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
       "event_url": null,
@@ -3412,6 +3563,96 @@
       "team1_name": "THUNDER dOWNUNDER",
       "team2_name": "Mindfreak",
       "winner_name": "THUNDER dOWNUNDER"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397150",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": 9,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 5,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Dust2",
+        "Nuke"
+      ],
+      "match_id": "hltv:2397150",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397150/fluxo-vs-ex-mibr-academy-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Fluxo",
+      "team2_name": "ex-MIBR Academy",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397151",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 11,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": 15,
+          "score2": 15,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Nuke",
+        "Dust2"
+      ],
+      "match_id": "hltv:2397151",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397151/shinden-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "ShindeN",
+      "team2_name": "Isurus",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
     }
   ],
   "ok": true,
@@ -3423,22 +3664,22 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 45
+    "scheduled_matches": 54
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 16,
-    "matches_kept": 82,
+    "events_kept": 17,
+    "matches_kept": 84,
     "players_kept": 0,
     "event_tiers": {
-      "hltv:esl-challenger-league-season-52-south-america-cup-1": "tier_2",
       "hltv:esl-challenger-league-season-52-north-america-cup-1": "tier_2",
       "hltv:9351": "tier_2",
       "hltv:8249": "tier_1",
       "hltv:9328": "tier_2",
+      "hltv:9324": "tier_2",
       "hltv:9340": "tier_2",
       "hltv:9329": "tier_2",
       "hltv:9263": "tier_2",
@@ -3449,19 +3690,20 @@
       "hltv:cct-2026-europe-series-7": "tier_2",
       "hltv:cct-2026-europe-series-8-closed-qualifier": "tier_2",
       "hltv:esl-challenger-league-season-52-asia-pacific-cup-1": "tier_2",
-      "hltv:esl-challenger-league-season-52-oceania-cup-1": "tier_2"
+      "hltv:esl-challenger-league-season-52-oceania-cup-1": "tier_2",
+      "hltv:esl-challenger-league-season-52-south-america-cup-1": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2397150",
-      "hltv:2397151",
       "hltv:2397180",
       "hltv:2397181",
       "hltv:2397233",
       "hltv:2396940",
       "hltv:2397092",
       "hltv:2397093",
+      "hltv:2396688",
       "hltv:2397234",
       "hltv:2396939",
+      "hltv:2396689",
       "hltv:2396983",
       "hltv:2397122",
       "hltv:2397123",
@@ -3490,10 +3732,6 @@
       "hltv:2396937",
       "hltv:2396936",
       "hltv:2396935",
-      "hltv:2396934",
-      "hltv:2396933",
-      "hltv:2396932",
-      "hltv:2396931",
       "hltv:2396981",
       "hltv:2396687",
       "hltv:2397232",
@@ -3522,18 +3760,24 @@
       "hltv:2396977",
       "hltv:2397228",
       "hltv:2396683",
+      "hltv:2396934",
       "hltv:2397227",
       "hltv:2397116",
       "hltv:2396682",
+      "hltv:2396933",
       "hltv:2397117",
       "hltv:2396976",
       "hltv:2397119",
       "hltv:2397226",
       "hltv:2397118",
       "hltv:2396975",
+      "hltv:2396932",
       "hltv:2396680",
       "hltv:2397088",
-      "hltv:2397087"
+      "hltv:2396931",
+      "hltv:2397087",
+      "hltv:2397150",
+      "hltv:2397151"
     ]
   }
 }
