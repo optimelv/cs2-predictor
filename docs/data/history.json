@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-29T01:46:13Z",
+  "generated_at_utc": "2026-08-29T10:06:43Z",
   "through_date": "2026-08-29",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1632,
+    "matches": 1638,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1144,6 +1144,138 @@
       "score1": 1,
       "score2": 0,
       "winner_name": "Grêmio",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396684",
+      "match_date": "2026-08-29",
+      "event_name": "CCT 2026 Europe Series 7",
+      "team1_name": "SINNERS",
+      "team2_name": "ex-Zero Tenacity",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-Zero Tenacity",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397176",
+      "match_date": "2026-08-29",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "team1_name": "Voca",
+      "team2_name": "Overtake Sector",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Voca",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397178",
+      "match_date": "2026-08-29",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "team1_name": "EMPIRE",
+      "team2_name": "Iowa Stormboar",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "EMPIRE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397177",
+      "match_date": "2026-08-29",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "team1_name": "Marsborne",
+      "team2_name": "Chicken Coop",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Marsborne",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396982",
+      "match_date": "2026-08-29",
+      "event_name": "CCT 2026 South America Series 5",
+      "team1_name": "Mansão Maromba",
+      "team2_name": "ex-GUARA",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "Mansão Maromba",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396979",
+      "match_date": "2026-08-29",
+      "event_name": "CCT 2026 South America Series 5",
+      "team1_name": "Pugdesonesto",
+      "team2_name": "Sementes do Mal",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Sementes do Mal",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
