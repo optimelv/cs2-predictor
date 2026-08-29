@@ -16554,7 +16554,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-08-29T16:44:43Z",
+  "lineups_updated_at_utc": "2026-08-29T20:56:49Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-05-24",
   "history_profile_count": 53,
