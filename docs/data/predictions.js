@@ -3127,7 +3127,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:cct-2026-south-america-series-5",
         "event_name": "CCT 2026 South America Series 5",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2396985",
         "lineups": {
           "team1": [],
@@ -3153,26 +3153,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Dust2",
-          "Mirage",
-          "Inferno"
-        ],
+        "maps": [],
         "match_id": "hltv:2396985",
         "product_tier": "tier_2",
+        "score1": 1,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396985/borracheiros-vs-peladona-cct-2026-south-america-series-5",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "BORRACHEIROS",
         "team2_name": "Peladona",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 2-0 record). Winner advances to playoffs."
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 2-0 record). Winner advances to playoffs.",
+        "winner_name": "Peladona"
       },
       {
         "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
         "event_name": "ESL Challenger League Season 52 South America Cup 1",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397152",
         "lineups": {
           "team1": [],
@@ -3198,21 +3197,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Anubis",
-          "Inferno",
-          "Cache"
-        ],
+        "maps": [],
         "match_id": "hltv:2397152",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397152/galorys-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Galorys",
         "team2_name": "Imperial",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket final",
+        "winner_name": "Galorys"
       },
       {
         "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
@@ -3226,15 +3224,15 @@ window.__STRIKESIGNAL_DATA__ = {
         "map_results": [
           {
             "map_name": "Inferno",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
+            "score1": 13,
+            "score2": 5,
+            "status": "finished"
           },
           {
             "map_name": "Dust2",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
+            "score1": 1,
+            "score2": 13,
+            "status": "finished"
           },
           {
             "map_name": "Cache",
@@ -3296,6 +3294,51 @@ window.__STRIKESIGNAL_DATA__ = {
         "team1_name": "MOUZ NXT",
         "team2_name": "BAKS",
         "winner_name": "BAKS"
+      },
+      {
+        "event_id": "hltv:cct-2026-south-america-series-5",
+        "event_name": "CCT 2026 South America Series 5",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2396986",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": 13,
+            "score2": 9,
+            "status": "finished"
+          },
+          {
+            "map_name": "Cache",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Cache",
+          "Dust2"
+        ],
+        "match_id": "hltv:2396986",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396986/oddik-vs-grmio-cct-2026-south-america-series-5",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "ODDIK",
+        "team2_name": "Gr\u00eamio",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 2-0 record). Winner advances to playoffs."
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -3419,36 +3462,25 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9340",
-        "event_name": "CCT 2026 South America Series 5",
-        "event_url": null,
-        "hltv_match_id": "2396986",
-        "maps": [],
-        "match_id": "hltv:2396986",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396986/oddik-vs-grmio-cct-2026-south-america-series-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T22:00:00Z",
-        "status": "upcoming",
-        "team1_name": "ODDIK",
-        "team2_name": "Gr\u00eamio"
-      },
-      {
-        "event_id": "hltv:9331",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
         "event_name": "ESL Challenger League Season 52 North America Cup 1",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2397182",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2397182",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397182/voca-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
-        "stage_name": "Playoffs",
+        "stage_name": "Scheduled series",
         "starts_at": "2026-08-31T01:00:00Z",
         "status": "upcoming",
         "team1_name": "Voca",
-        "team2_name": "Marsborne"
+        "team2_name": "Marsborne",
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
       },
       {
         "event_id": "hltv:9331",
@@ -6474,82 +6506,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "G2",
             "team2_name": "Natus Vincere",
             "winner_name": "G2"
-          },
-          {
-            "event_id": "hltv:blast-open-porto-2026",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
-            "hltv_match_id": "2396938",
-            "maps": [],
-            "match_id": "hltv:2396938",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396938/legacy-vs-falcons-blast-open-porto-2026",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Legacy",
-            "team2_name": "Falcons",
-            "winner_name": "Falcons"
-          },
-          {
-            "event_id": "hltv:blast-open-porto-2026",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
-            "hltv_match_id": "2396937",
-            "maps": [],
-            "match_id": "hltv:2396937",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396937/fut-vs-lynn-vision-blast-open-porto-2026",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "FUT",
-            "team2_name": "Lynn Vision",
-            "winner_name": "FUT"
-          },
-          {
-            "event_id": "hltv:blast-open-porto-2026",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
-            "hltv_match_id": "2396936",
-            "maps": [],
-            "match_id": "hltv:2396936",
-            "product_tier": "tier_1",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396936/inner-circle-vs-mouz-blast-open-porto-2026",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Inner Circle",
-            "team2_name": "MOUZ",
-            "winner_name": "MOUZ"
-          },
-          {
-            "event_id": "hltv:blast-open-porto-2026",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
-            "hltv_match_id": "2396935",
-            "maps": [],
-            "match_id": "hltv:2396935",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396935/vitality-vs-9z-blast-open-porto-2026",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Vitality",
-            "team2_name": "9z",
-            "winner_name": "Vitality"
           }
         ],
         "name": "BLAST Open Porto 2026",
@@ -6561,11 +6517,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Aurora",
           "M80",
           "G2",
-          "Natus Vincere",
-          "Falcons",
-          "Lynn Vision",
-          "MOUZ",
-          "9z"
+          "Natus Vincere"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -7160,6 +7112,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-south-america-series-5",
             "event_name": "CCT 2026 South America Series 5",
             "event_url": null,
+            "hltv_match_id": "2396985",
+            "maps": [],
+            "match_id": "hltv:2396985",
+            "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396985/borracheiros-vs-peladona-cct-2026-south-america-series-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "BORRACHEIROS",
+            "team2_name": "Peladona",
+            "winner_name": "Peladona"
+          },
+          {
+            "event_id": "hltv:cct-2026-south-america-series-5",
+            "event_name": "CCT 2026 South America Series 5",
+            "event_url": null,
             "hltv_match_id": "2396984",
             "maps": [],
             "match_id": "hltv:2396984",
@@ -7217,58 +7188,60 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-south-america-series-5",
             "event_name": "CCT 2026 South America Series 5",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2396985",
+            "hltv_match_id": "2396986",
             "lineups": {
               "team1": [],
               "team2": []
             },
             "map_results": [
               {
-                "map_name": "Dust2",
-                "score1": 10,
-                "score2": 13,
-                "status": "finished"
-              },
-              {
-                "map_name": "Mirage",
+                "map_name": "Ancient",
                 "score1": 13,
                 "score2": 9,
                 "status": "finished"
               },
               {
-                "map_name": "Inferno",
+                "map_name": "Cache",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Dust2",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
               }
             ],
             "maps": [
-              "Dust2",
-              "Mirage",
-              "Inferno"
+              "Ancient",
+              "Cache",
+              "Dust2"
             ],
-            "match_id": "hltv:2396985",
+            "match_id": "hltv:2396986",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396985/borracheiros-vs-peladona-cct-2026-south-america-series-5",
+            "source_url": "https://www.hltv.org/matches/2396986/oddik-vs-grmio-cct-2026-south-america-series-5",
             "stage_name": "Scheduled series",
             "starts_at": null,
             "status": "live",
-            "team1_name": "BORRACHEIROS",
-            "team2_name": "Peladona",
+            "team1_name": "ODDIK",
+            "team2_name": "Gr\u00eamio",
             "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 2-0 record). Winner advances to playoffs."
           }
         ],
         "name": "CCT 2026 South America Series 5",
         "participants": [
+          "BORRACHEIROS",
+          "Peladona",
           "paiN Academy",
           "DAMAJUANA",
           "BESTIA Academy",
           "ALKA",
           "Procyon",
           "Zetta",
-          "BORRACHEIROS",
-          "Peladona"
+          "ODDIK",
+          "Gr\u00eamio"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7438,6 +7411,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
             "event_name": "ESL Challenger League Season 52 South America Cup 1",
             "event_url": null,
+            "hltv_match_id": "2397152",
+            "maps": [],
+            "match_id": "hltv:2397152",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397152/galorys-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Galorys",
+            "team2_name": "Imperial",
+            "winner_name": "Galorys"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+            "event_name": "ESL Challenger League Season 52 South America Cup 1",
+            "event_url": null,
             "hltv_match_id": "2397150",
             "maps": [],
             "match_id": "hltv:2397150",
@@ -7476,51 +7468,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
             "event_name": "ESL Challenger League Season 52 South America Cup 1",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397152",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Anubis",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Inferno",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Cache",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Anubis",
-              "Inferno",
-              "Cache"
-            ],
-            "match_id": "hltv:2397152",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397152/galorys-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Galorys",
-            "team2_name": "Imperial",
-            "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-            "event_name": "ESL Challenger League Season 52 South America Cup 1",
-            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2397153",
             "lineups": {
               "team1": [],
@@ -7529,15 +7476,15 @@ window.__STRIKESIGNAL_DATA__ = {
             "map_results": [
               {
                 "map_name": "Inferno",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
+                "score1": 13,
+                "score2": 5,
+                "status": "finished"
               },
               {
                 "map_name": "Dust2",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
+                "score1": 1,
+                "score2": 13,
+                "status": "finished"
               },
               {
                 "map_name": "Cache",
@@ -7565,12 +7512,12 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "ESL Challenger League Season 52 South America Cup 1",
         "participants": [
+          "Galorys",
+          "Imperial",
           "Fluxo",
           "ex-MIBR Academy",
           "ShindeN",
-          "Isurus",
-          "Galorys",
-          "Imperial"
+          "Isurus"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7586,6 +7533,27 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
         "matches": [
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
+            "event_name": "ESL Challenger League Season 52 North America Cup 1",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2397182",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2397182",
+            "product_tier": "pending",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397182/voca-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-31T01:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Voca",
+            "team2_name": "Marsborne",
+            "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
+          },
           {
             "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
             "event_name": "ESL Challenger League Season 52 North America Cup 1",
@@ -7627,14 +7595,16 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "ESL Challenger League Season 52 North America Cup 1",
         "participants": [
+          "Voca",
+          "Marsborne",
           "EMPIRE",
           "Overtake Sector",
           "Zomblers",
           "Chicken Coop"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -8317,7 +8287,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-08-30T21:07:47Z",
+    "last_verified_utc": "2026-08-30T23:31:30Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8755,7 +8725,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-30T21:08:08Z",
+  "generated_at_utc": "2026-08-30T23:31:51Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -11218,13 +11188,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 3,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.619372,
-        "brier": 0.227225,
-        "ece": 0.042239,
-        "log_loss": 0.64443
+        "accuracy": 0.618852,
+        "brier": 0.227381,
+        "ece": 0.041836,
+        "log_loss": 0.644749
       },
-      "rows": 1462,
-      "test_rows": 733
+      "rows": 1464,
+      "test_rows": 732
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -11239,15 +11209,15 @@ window.__STRIKESIGNAL_DATA__ = {
       "learning_rate": 0.04,
       "max_depth": 1,
       "metrics": {
-        "accuracy": 0.634379,
-        "brier": 0.226491,
-        "ece": 0.030072,
-        "log_loss": 0.644234
+        "accuracy": 0.632514,
+        "brier": 0.226521,
+        "ece": 0.023479,
+        "log_loss": 0.644294
       },
       "min_samples_leaf": 24,
       "n_estimators": 40,
       "promotion_passed": false,
-      "rows": 733
+      "rows": 732
     },
     "champion": {
       "blend_weight": 0.5,
@@ -12357,7 +12327,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-30T21:08:08Z",
+    "generated_at_utc": "2026-08-30T23:31:51Z",
     "history": [
       {
         "champion": {
@@ -13522,8 +13492,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 12,
-      "online_rows": 705,
+      "new_rows": 2,
+      "online_rows": 707,
       "seed_rows": 757
     }
   },
@@ -14233,9 +14203,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2397353",
       "hltv:2396690",
       "hltv:2396984",
-      "hltv:2397346"
+      "hltv:2397346",
+      "hltv:2397152",
+      "hltv:2396985"
     ],
-    "last_online_update_utc": "2026-08-30T21:08:08Z",
+    "last_online_update_utc": "2026-08-30T23:31:51Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -18305,10 +18277,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 71
       },
       {
-        "elo": 1536.49,
-        "last_result_utc": "2026-08-29T01:46:27Z",
-        "matches": 101,
-        "recent_win_rate_10": 0.7262,
+        "elo": 1521.26,
+        "last_result_utc": "2026-08-30T23:31:51Z",
+        "matches": 102,
+        "recent_win_rate_10": 0.5942,
         "team_key": "imperial",
         "team_name": "Imperial",
         "vrs_points": 1149.0,
@@ -18372,10 +18344,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 79
       },
       {
-        "elo": 1495.89,
-        "last_result_utc": "2026-08-29T01:46:27Z",
-        "matches": 38,
-        "recent_win_rate_10": 0.7809,
+        "elo": 1511.12,
+        "last_result_utc": "2026-08-30T23:31:51Z",
+        "matches": 39,
+        "recent_win_rate_10": 0.8207,
         "team_key": "galorys",
         "team_name": "Galorys",
         "vrs_points": 1120.0,
@@ -21477,10 +21449,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1483.71,
-        "last_result_utc": "2026-08-29T01:46:27Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.4647,
+        "elo": 1472.91,
+        "last_result_utc": "2026-08-30T23:31:51Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.3802,
         "team_key": "borracheiros",
         "team_name": "BORRACHEIROS",
         "vrs_points": 0,
@@ -22067,10 +22039,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1526.83,
-        "last_result_utc": "2026-08-29T01:46:27Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.6653,
+        "elo": 1537.63,
+        "last_result_utc": "2026-08-30T23:31:51Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.7262,
         "team_key": "peladona",
         "team_name": "Peladona",
         "vrs_points": 0,
@@ -25218,37 +25190,40 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5148,
-      "confidence_label": "thin",
+      "confidence": 0.6067,
+      "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.4852,
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
+      "elo_prob_team1": 0.6067,
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2396986",
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2397182",
       "match_phase": "scheduled",
-      "match_timestamp": 1788127200,
+      "match_timestamp": 1788138000,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Gr\u00eamio",
-      "prob_team1": 0.4852,
+      "predicted_winner": "Voca",
+      "prob_team1": 0.6067,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396986/oddik-vs-grmio-cct-2026-south-america-series-5",
+      "source_url": "https://www.hltv.org/matches/2397182/voca-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T22:00:00Z",
+      "starts_at": "2026-08-31T01:00:00Z",
       "status": "upcoming",
       "team1_hltv_rank": null,
-      "team1_name": "ODDIK",
-      "team1_vrs_rank": null,
+      "team1_name": "Voca",
+      "team1_vrs_rank": 54,
       "team2_hltv_rank": null,
-      "team2_name": "Gr\u00eamio",
-      "team2_vrs_rank": null
+      "team2_name": "Marsborne",
+      "team2_vrs_rank": 115
     },
     {
       "confidence": 0.5172,
@@ -25845,65 +25820,6 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 205
     },
     {
-      "confidence": 0.5327,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4673,
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Inferno",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Cache",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Anubis",
-        "Inferno",
-        "Cache"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2397152",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Imperial",
-      "prob_team1": 0.4673,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397152/galorys-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Galorys",
-      "team1_vrs_rank": 80,
-      "team2_hltv_rank": null,
-      "team2_name": "Imperial",
-      "team2_vrs_rank": 73
-    },
-    {
       "confidence": 0.6115,
       "confidence_label": "lean",
       "data_quality": "full",
@@ -25918,15 +25834,15 @@ window.__STRIKESIGNAL_DATA__ = {
       "map_results": [
         {
           "map_name": "Inferno",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 13,
+          "score2": 5,
+          "status": "finished"
         },
         {
           "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 1,
+          "score2": 13,
+          "status": "finished"
         },
         {
           "map_name": "Cache",
@@ -25963,10 +25879,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 59
     },
     {
-      "confidence": 0.5361,
+      "confidence": 0.5148,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4639,
+      "elo_prob_team1": 0.4852,
       "event_id": "hltv:cct-2026-south-america-series-5",
       "event_name": "CCT 2026 South America Series 5",
       "format": "bo3",
@@ -25976,56 +25892,56 @@ window.__STRIKESIGNAL_DATA__ = {
       },
       "map_results": [
         {
-          "map_name": "Dust2",
-          "score1": 10,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
+          "map_name": "Ancient",
           "score1": 13,
           "score2": 9,
           "status": "finished"
         },
         {
-          "map_name": "Inferno",
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Dust2",
           "score1": null,
           "score2": null,
           "status": "upcoming"
         }
       ],
       "maps": [
-        "Dust2",
-        "Mirage",
-        "Inferno"
+        "Ancient",
+        "Cache",
+        "Dust2"
       ],
       "match_date": "",
-      "match_id": "hltv:2396985",
+      "match_id": "hltv:2396986",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Peladona",
-      "prob_team1": 0.4639,
+      "predicted_winner": "Gr\u00eamio",
+      "prob_team1": 0.4852,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396985/borracheiros-vs-peladona-cct-2026-south-america-series-5",
+      "source_url": "https://www.hltv.org/matches/2396986/oddik-vs-grmio-cct-2026-south-america-series-5",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "BORRACHEIROS",
+      "team1_name": "ODDIK",
       "team1_vrs_rank": null,
       "team2_hltv_rank": null,
-      "team2_name": "Peladona",
+      "team2_name": "Gr\u00eamio",
       "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 64,
-    "online_results_applied": 12,
+    "live_feed_items": 61,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
