@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-30T05:26:04Z",
+  "generated_at_utc": "2026-08-30T11:56:48Z",
   "through_date": "2026-08-30",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1659,
+    "matches": 1662,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -946,6 +946,72 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "ShindeN",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396940",
+      "match_date": "2026-08-30",
+      "event_name": "BLAST Open Porto 2026",
+      "team1_name": "G2",
+      "team2_name": "Natus Vincere",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397093",
+      "match_date": "2026-08-30",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+      "team1_name": "Arcade",
+      "team2_name": "Rooster",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Arcade",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397233",
+      "match_date": "2026-08-30",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "team1_name": "Entropy",
+      "team2_name": "Bushido Wildcats",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Bushido Wildcats",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
