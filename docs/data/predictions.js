@@ -3,466 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 South America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397128",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Mirage",
-            "score1": 8,
-            "score2": 4,
-            "status": "finished"
-          },
-          {
-            "map_name": "Cache",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Ancient",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2397128",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397128/bounty-hunters-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Bounty Hunters",
-        "team2_name": "MEIA NOITE",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16",
-        "winner_name": "Bounty Hunters"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 South America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397129",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Anubis",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Ancient",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Nuke",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2397129",
-        "product_tier": "tier_2",
-        "score1": 1,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397129/borracheiros-vs-galorys-esl-challenger-league-season-52-south-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "BORRACHEIROS",
-        "team2_name": "Galorys",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16",
-        "winner_name": "Galorys"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 South America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397130",
-        "maps": [],
-        "match_id": "hltv:2397130",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397130/shinden-vs-alka-esl-challenger-league-season-52-south-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "ShindeN",
-        "team2_name": "ALKA",
-        "winner_name": "ShindeN"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 South America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397131",
-        "maps": [],
-        "match_id": "hltv:2397131",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397131/ex-mibr-academy-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "ex-MIBR Academy",
-        "team2_name": "Turma do Pagode",
-        "winner_name": "ex-MIBR Academy"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 South America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397132",
-        "maps": [],
-        "match_id": "hltv:2397132",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397132/isurus-vs-oddik-esl-challenger-league-season-52-south-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Isurus",
-        "team2_name": "ODDIK",
-        "winner_name": "ODDIK"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 South America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397133",
-        "maps": [],
-        "match_id": "hltv:2397133",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397133/pain-academy-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "paiN Academy",
-        "team2_name": "Imperial",
-        "winner_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 North America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397156",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Dust2",
-            "score1": 13,
-            "score2": 4,
-            "status": "finished"
-          },
-          {
-            "map_name": "Ancient",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Nuke",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2397156",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397156/voca-vs-new-legends-esl-challenger-league-season-52-north-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Voca",
-        "team2_name": "New Legends",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16",
-        "winner_name": "Voca"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 North America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397157",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Dust2",
-            "score1": 13,
-            "score2": 11,
-            "status": "finished"
-          },
-          {
-            "map_name": "Inferno",
-            "score1": 5,
-            "score2": 13,
-            "status": "finished"
-          },
-          {
-            "map_name": "Mirage",
-            "score1": 7,
-            "score2": 5,
-            "status": "finished"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2397157",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 1,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397157/farmville-vs-club-333-esl-challenger-league-season-52-north-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "FarmVille",
-        "team2_name": "Club 333",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16",
-        "winner_name": "FarmVille"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 North America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397158",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Mirage",
-            "score1": 7,
-            "score2": 5,
-            "status": "finished"
-          },
-          {
-            "map_name": "Anubis",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Inferno",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2397158",
-        "product_tier": "tier_2",
-        "score1": 1,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397158/villainous-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Villainous",
-        "team2_name": "Overtake Sector",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16",
-        "winner_name": "Overtake Sector"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 North America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397159",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Inferno",
-            "score1": 10,
-            "score2": 13,
-            "status": "finished"
-          },
-          {
-            "map_name": "Mirage",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Cache",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2397159",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397159/detonate-vs-nutorious-esl-challenger-league-season-52-north-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "DETONATE",
-        "team2_name": "NuTorious",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16",
-        "winner_name": "NuTorious"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 North America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397160",
-        "maps": [],
-        "match_id": "hltv:2397160",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397160/marsborne-vs-elusive-esl-challenger-league-season-52-north-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Marsborne",
-        "team2_name": "Elusive",
-        "winner_name": "Marsborne"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 North America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397161",
-        "maps": [],
-        "match_id": "hltv:2397161",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397161/shimmer-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Shimmer",
-        "team2_name": "Iowa Stormboar",
-        "winner_name": "Iowa Stormboar"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 North America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397162",
-        "maps": [],
-        "match_id": "hltv:2397162",
-        "product_tier": "tier_2",
-        "score1": 1,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397162/zomblers-vs-empire-esl-challenger-league-season-52-north-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Zomblers",
-        "team2_name": "EMPIRE",
-        "winner_name": "EMPIRE"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-        "event_name": "ESL Challenger League Season 52 North America Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397163",
-        "maps": [],
-        "match_id": "hltv:2397163",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 1,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397163/incognito-vs-chicken-coop-esl-challenger-league-season-52-north-america-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Incognito",
-        "team2_name": "Chicken Coop",
-        "winner_name": "Chicken Coop"
-      },
-      {
-        "event_id": "hltv:blast-open-porto-2026",
-        "event_name": "BLAST Open Porto 2026",
-        "event_url": null,
-        "hltv_match_id": "2396923",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Inferno",
-            "score1": 5,
-            "score2": 13,
-            "status": "finished"
-          },
-          {
-            "map_name": "Anubis",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Mirage",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2396923",
-        "product_tier": "tier_1",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396923/aurora-vs-g2-blast-open-porto-2026",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Aurora",
-        "team2_name": "G2",
-        "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final",
-        "winner_name": "G2"
-      },
-      {
         "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
         "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
         "event_url": null,
@@ -3287,20 +2827,23 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Bushido Wildcats"
       },
       {
-        "event_id": "hltv:9328",
+        "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
         "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
         "event_url": null,
         "hltv_match_id": "2397092",
         "maps": [],
         "match_id": "hltv:2397092",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397092/thunder-downunder-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-1",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "THUNDER dOWNUNDER",
-        "team2_name": "Ground Zero"
+        "team2_name": "Ground Zero",
+        "winner_name": "THUNDER dOWNUNDER"
       },
       {
         "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
@@ -3341,25 +2884,28 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "G2"
       },
       {
-        "event_id": "hltv:9324",
+        "event_id": "hltv:cct-2026-europe-series-7",
         "event_name": "CCT 2026 Europe Series 7",
         "event_url": null,
         "hltv_match_id": "2396688",
         "maps": [],
         "match_id": "hltv:2396688",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2396688/genone-vs-inox-division-cct-2026-europe-series-7",
-        "stage_name": "Semifinal",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "GenOne",
-        "team2_name": "INOX Division"
+        "team2_name": "INOX Division",
+        "winner_name": "INOX Division"
       },
       {
         "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
         "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397234",
         "lineups": {
           "team1": [],
@@ -3385,21 +2931,358 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Dust2",
-          "Ancient",
-          "Mirage"
-        ],
+        "maps": [],
         "match_id": "hltv:2397234",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397234/atreides-vs-honvd-cct-2026-europe-series-8-closed-qualifier",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Atreides",
+        "team2_name": "Honv\u00e9d",
+        "veto_text": "Best of 3 (Online)\n\n* Group D elimination match",
+        "winner_name": "Honv\u00e9d"
+      },
+      {
+        "event_id": "hltv:blast-open-porto-2026",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
+        "hltv_match_id": "2396939",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "maps": [],
+        "match_id": "hltv:2396939",
+        "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Aurora",
+        "team2_name": "M80",
+        "veto_text": "Best of 3 (LAN)\n\n* Group A lower bracket semi-final",
+        "winner_name": "Aurora"
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+        "event_url": null,
+        "hltv_match_id": "2397122",
+        "maps": [],
+        "match_id": "hltv:2397122",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397122/nexvoid-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "NEXVOID",
+        "team2_name": "Rare Atom",
+        "winner_name": "NEXVOID"
+      },
+      {
+        "event_id": "hltv:cct-2026-south-america-series-5",
+        "event_name": "CCT 2026 South America Series 5",
+        "event_url": null,
+        "hltv_match_id": "2396983",
+        "maps": [],
+        "match_id": "hltv:2396983",
+        "product_tier": "tier_2",
+        "score1": 1,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396983/bestia-academy-vs-alka-cct-2026-south-america-series-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "BESTIA Academy",
+        "team2_name": "ALKA",
+        "winner_name": "ALKA"
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+        "event_url": null,
+        "hltv_match_id": "2397123",
+        "maps": [],
+        "match_id": "hltv:2397123",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397123/just-swing-vs-alter-ego-esl-challenger-league-season-52-asia-pacific-cup-1",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Just Swing",
+        "team2_name": "Alter Ego",
+        "winner_name": "Just Swing"
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397344",
+        "maps": [],
+        "match_id": "hltv:2397344",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397344/virtuspro-vs-fire-flux-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Virtus.pro",
+        "team2_name": "Fire Flux",
+        "winner_name": "Virtus.pro"
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397345",
+        "maps": [],
+        "match_id": "hltv:2397345",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397345/inner-circle-academy-vs-strael-bora-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Inner Circle Academy",
+        "team2_name": "Strael Bora",
+        "winner_name": "Inner Circle Academy"
+      },
+      {
+        "event_id": "hltv:9263",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397346",
+        "maps": [],
+        "match_id": "hltv:2397346",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397346/baks-vs-misa-esl-challenger-league-season-52-europe-cup-5",
         "stage_name": "Scheduled series",
         "starts_at": null,
         "status": "live",
-        "team1_name": "Atreides",
-        "team2_name": "Honv\u00e9d",
-        "veto_text": "Best of 3 (Online)\n\n* Group D elimination match"
+        "team1_name": "BAKS",
+        "team2_name": "Misa"
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397347",
+        "maps": [],
+        "match_id": "hltv:2397347",
+        "product_tier": "tier_2",
+        "score1": 1,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397347/mouz-nxt-vs-entropy-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "MOUZ NXT",
+        "team2_name": "Entropy",
+        "winner_name": "Entropy"
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397348",
+        "maps": [],
+        "match_id": "hltv:2397348",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397348/pcific-vs-fortress-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "PCIFIC",
+        "team2_name": "Fortress",
+        "winner_name": "Fortress"
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397349",
+        "maps": [],
+        "match_id": "hltv:2397349",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397349/noir-verse-vs-atreides-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Noir Verse",
+        "team2_name": "Atreides",
+        "winner_name": "Noir Verse"
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397350",
+        "maps": [],
+        "match_id": "hltv:2397350",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397350/azuolas-vs-permitta-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Azuolas",
+        "team2_name": "Permitta",
+        "winner_name": "Permitta"
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397351",
+        "maps": [],
+        "match_id": "hltv:2397351",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397351/wbt-vs-berg-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "WBT",
+        "team2_name": "BERG",
+        "winner_name": "WBT"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-7",
+        "event_name": "CCT 2026 Europe Series 7",
+        "event_url": null,
+        "hltv_match_id": "2396689",
+        "maps": [],
+        "match_id": "hltv:2396689",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396689/ex-zero-tenacity-vs-phantom-cct-2026-europe-series-7",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "ex-Zero Tenacity",
+        "team2_name": "Phantom",
+        "winner_name": "ex-Zero Tenacity"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
+        "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2397235",
+        "maps": [],
+        "match_id": "hltv:2397235",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397235/ex-rustec-vs-unity-cct-2026-europe-series-8-closed-qualifier",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "ex-RUSTEC",
+        "team2_name": "UNiTY",
+        "winner_name": "UNiTY"
+      },
+      {
+        "event_id": "hltv:blast-open-porto-2026",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
+        "hltv_match_id": "2396942",
+        "maps": [],
+        "match_id": "hltv:2396942",
+        "product_tier": "tier_1",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Inner Circle",
+        "team2_name": "FUT",
+        "winner_name": "FUT"
+      },
+      {
+        "event_id": "hltv:9340",
+        "event_name": "CCT 2026 South America Series 5",
+        "event_url": null,
+        "hltv_match_id": "2396984",
+        "maps": [],
+        "match_id": "hltv:2396984",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396984/pain-academy-vs-damajuana-cct-2026-south-america-series-5",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "paiN Academy",
+        "team2_name": "DAMAJUANA"
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397356",
+        "maps": [],
+        "match_id": "hltv:2397356",
+        "product_tier": "tier_2",
+        "score1": 1,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397356/fortress-vs-noir-verse-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Fortress",
+        "team2_name": "Noir Verse",
+        "winner_name": "Fortress"
+      },
+      {
+        "event_id": "hltv:9324",
+        "event_name": "CCT 2026 Europe Series 7",
+        "event_url": null,
+        "hltv_match_id": "2396690",
+        "maps": [],
+        "match_id": "hltv:2396690",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396690/inox-division-vs-ex-zero-tenacity-cct-2026-europe-series-7",
+        "stage_name": "Grand Final",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "INOX Division",
+        "team2_name": "ex-Zero Tenacity"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -3523,267 +3406,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:blast-open-porto-2026",
-        "event_name": "BLAST Open Porto 2026",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2396939",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2396939",
-        "product_tier": "tier_1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T11:30:00Z",
-        "status": "live",
-        "team1_name": "Aurora",
-        "team2_name": "M80",
-        "veto_text": "Best of 3 (LAN)\n\n* Group A lower bracket semi-final"
-      },
-      {
-        "event_id": "hltv:9329",
-        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397122",
-        "maps": [],
-        "match_id": "hltv:2397122",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397122/nexvoid-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
-        "stage_name": "Playoffs",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "NEXVOID",
-        "team2_name": "Rare Atom"
-      },
-      {
-        "event_id": "hltv:9340",
-        "event_name": "CCT 2026 South America Series 5",
-        "event_url": null,
-        "hltv_match_id": "2396983",
-        "maps": [],
-        "match_id": "hltv:2396983",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396983/bestia-academy-vs-alka-cct-2026-south-america-series-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "BESTIA Academy",
-        "team2_name": "ALKA"
-      },
-      {
-        "event_id": "hltv:9329",
-        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397123",
-        "maps": [],
-        "match_id": "hltv:2397123",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397123/just-swing-vs-alter-ego-esl-challenger-league-season-52-asia-pacific-cup-1",
-        "stage_name": "Playoffs",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Just Swing",
-        "team2_name": "Alter Ego"
-      },
-      {
-        "event_id": "hltv:9263",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-        "event_url": null,
-        "hltv_match_id": "2397344",
-        "maps": [],
-        "match_id": "hltv:2397344",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397344/virtuspro-vs-fire-flux-esl-challenger-league-season-52-europe-cup-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Virtus.pro",
-        "team2_name": "Fire Flux"
-      },
-      {
-        "event_id": "hltv:9263",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-        "event_url": null,
-        "hltv_match_id": "2397345",
-        "maps": [],
-        "match_id": "hltv:2397345",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397345/inner-circle-academy-vs-strael-bora-esl-challenger-league-season-52-europe-cup-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Inner Circle Academy",
-        "team2_name": "Strael Bora"
-      },
-      {
-        "event_id": "hltv:9263",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-        "event_url": null,
-        "hltv_match_id": "2397346",
-        "maps": [],
-        "match_id": "hltv:2397346",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397346/baks-vs-misa-esl-challenger-league-season-52-europe-cup-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "BAKS",
-        "team2_name": "Misa"
-      },
-      {
-        "event_id": "hltv:9263",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-        "event_url": null,
-        "hltv_match_id": "2397347",
-        "maps": [],
-        "match_id": "hltv:2397347",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397347/mouz-nxt-vs-entropy-esl-challenger-league-season-52-europe-cup-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "MOUZ NXT",
-        "team2_name": "Entropy"
-      },
-      {
-        "event_id": "hltv:9263",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-        "event_url": null,
-        "hltv_match_id": "2397348",
-        "maps": [],
-        "match_id": "hltv:2397348",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397348/pcific-vs-fortress-esl-challenger-league-season-52-europe-cup-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "PCIFIC",
-        "team2_name": "Fortress"
-      },
-      {
-        "event_id": "hltv:9263",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-        "event_url": null,
-        "hltv_match_id": "2397349",
-        "maps": [],
-        "match_id": "hltv:2397349",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397349/noir-verse-vs-atreides-esl-challenger-league-season-52-europe-cup-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Noir Verse",
-        "team2_name": "Atreides"
-      },
-      {
-        "event_id": "hltv:9263",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-        "event_url": null,
-        "hltv_match_id": "2397350",
-        "maps": [],
-        "match_id": "hltv:2397350",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397350/azuolas-vs-permitta-esl-challenger-league-season-52-europe-cup-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Azuolas",
-        "team2_name": "Permitta"
-      },
-      {
-        "event_id": "hltv:9263",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-        "event_url": null,
-        "hltv_match_id": "2397351",
-        "maps": [],
-        "match_id": "hltv:2397351",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397351/wbt-vs-berg-esl-challenger-league-season-52-europe-cup-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "WBT",
-        "team2_name": "BERG"
-      },
-      {
-        "event_id": "hltv:9324",
-        "event_name": "CCT 2026 Europe Series 7",
-        "event_url": null,
-        "hltv_match_id": "2396689",
-        "maps": [],
-        "match_id": "hltv:2396689",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396689/ex-zero-tenacity-vs-phantom-cct-2026-europe-series-7",
-        "stage_name": "Semifinal",
-        "starts_at": "2026-08-30T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "ex-Zero Tenacity",
-        "team2_name": "Phantom"
-      },
-      {
-        "event_id": "hltv:9351",
-        "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2397235",
-        "maps": [],
-        "match_id": "hltv:2397235",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397235/ex-rustec-vs-unity-cct-2026-europe-series-8-closed-qualifier",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T14:00:00Z",
-        "status": "upcoming",
-        "team1_name": "ex-RUSTEC",
-        "team2_name": "UNiTY"
-      },
-      {
-        "event_id": "hltv:8249",
-        "event_name": "BLAST Open Porto 2026",
-        "event_url": null,
-        "hltv_match_id": "2396942",
-        "maps": [],
-        "match_id": "hltv:2396942",
-        "product_tier": "tier_1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T14:00:00Z",
-        "status": "live",
-        "team1_name": "Inner Circle",
-        "team2_name": "FUT"
-      },
-      {
-        "event_id": "hltv:9340",
-        "event_name": "CCT 2026 South America Series 5",
-        "event_url": null,
-        "hltv_match_id": "2396984",
-        "maps": [],
-        "match_id": "hltv:2396984",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396984/pain-academy-vs-damajuana-cct-2026-south-america-series-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-08-30T16:00:00Z",
-        "status": "upcoming",
-        "team1_name": "paiN Academy",
-        "team2_name": "DAMAJUANA"
-      },
-      {
         "event_id": "hltv:8249",
         "event_name": "BLAST Open Porto 2026",
         "event_url": null,
@@ -3814,6 +3436,86 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "SAW Youngsters",
         "team2_name": "Noir Verse"
+      },
+      {
+        "event_id": "hltv:9263",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397352",
+        "maps": [],
+        "match_id": "hltv:2397352",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397352/inner-circle-academy-vs-virtuspro-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-30T17:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Inner Circle Academy",
+        "team2_name": "Virtus.pro"
+      },
+      {
+        "event_id": "hltv:9263",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397353",
+        "maps": [],
+        "match_id": "hltv:2397353",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397353/strael-bora-vs-fire-flux-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-30T17:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Strael Bora",
+        "team2_name": "Fire Flux"
+      },
+      {
+        "event_id": "hltv:9263",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397357",
+        "maps": [],
+        "match_id": "hltv:2397357",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397357/pcific-vs-atreides-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-30T17:00:00Z",
+        "status": "upcoming",
+        "team1_name": "PCIFIC",
+        "team2_name": "Atreides"
+      },
+      {
+        "event_id": "hltv:9263",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397358",
+        "maps": [],
+        "match_id": "hltv:2397358",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397358/permitta-vs-wbt-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-30T17:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Permitta",
+        "team2_name": "WBT"
+      },
+      {
+        "event_id": "hltv:9263",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397359",
+        "maps": [],
+        "match_id": "hltv:2397359",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397359/azuolas-vs-berg-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-30T17:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Azuolas",
+        "team2_name": "BERG"
       },
       {
         "event_id": "hltv:9340",
@@ -3912,6 +3614,38 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Chicken Coop"
       },
       {
+        "event_id": "hltv:9333",
+        "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2397398",
+        "maps": [],
+        "match_id": "hltv:2397398",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397398/the-huns-vs-staqued-fissure-playground-3-asia-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-31T05:00:00Z",
+        "status": "upcoming",
+        "team1_name": "The Huns",
+        "team2_name": "Staqued"
+      },
+      {
+        "event_id": "hltv:9333",
+        "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2397399",
+        "maps": [],
+        "match_id": "hltv:2397399",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397399/nexvoid-vs-just-swing-fissure-playground-3-asia-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-31T07:30:00Z",
+        "status": "upcoming",
+        "team1_name": "NEXVOID",
+        "team2_name": "Just Swing"
+      },
+      {
         "event_id": "hltv:9351",
         "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
         "event_url": null,
@@ -3944,6 +3678,38 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "FURIA"
       },
       {
+        "event_id": "hltv:9328",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+        "event_url": null,
+        "hltv_match_id": "2397094",
+        "maps": [],
+        "match_id": "hltv:2397094",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397094/arcade-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-1",
+        "stage_name": "Playoffs",
+        "starts_at": "2026-08-31T09:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Arcade",
+        "team2_name": "Ground Zero"
+      },
+      {
+        "event_id": "hltv:9333",
+        "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2397400",
+        "maps": [],
+        "match_id": "hltv:2397400",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397400/rare-atom-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-31T10:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Rare Atom",
+        "team2_name": "Kaleido"
+      },
+      {
         "event_id": "hltv:9351",
         "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
         "event_url": null,
@@ -3963,6 +3729,54 @@ window.__STRIKESIGNAL_DATA__ = {
         "event_id": "hltv:8249",
         "event_name": "BLAST Open Porto 2026",
         "event_url": null,
+        "hltv_match_id": "2396944",
+        "maps": [],
+        "match_id": "hltv:2396944",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-31T11:30:00Z",
+        "status": "live",
+        "team1_name": "G2",
+        "team2_name": "Aurora"
+      },
+      {
+        "event_id": "hltv:9333",
+        "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2397401",
+        "maps": [],
+        "match_id": "hltv:2397401",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397401/5star-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-31T12:30:00Z",
+        "status": "upcoming",
+        "team1_name": "5star",
+        "team2_name": "Chinggis Warriors"
+      },
+      {
+        "event_id": "hltv:9329",
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+        "event_url": null,
+        "hltv_match_id": "2397124",
+        "maps": [],
+        "match_id": "hltv:2397124",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397124/rare-atom-vs-just-swing-esl-challenger-league-season-52-asia-pacific-cup-1",
+        "stage_name": "Playoffs",
+        "starts_at": "2026-08-31T13:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Rare Atom",
+        "team2_name": "Just Swing"
+      },
+      {
+        "event_id": "hltv:8249",
+        "event_name": "BLAST Open Porto 2026",
+        "event_url": null,
         "hltv_match_id": "2396945",
         "maps": [],
         "match_id": "hltv:2396945",
@@ -3974,6 +3788,22 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "live",
         "team1_name": "MOUZ",
         "team2_name": "Falcons"
+      },
+      {
+        "event_id": "hltv:9351",
+        "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2397239",
+        "maps": [],
+        "match_id": "hltv:2397239",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397239/bushido-wildcats-vs-ex-rustec-cct-2026-europe-series-8-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-08-31T14:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Bushido Wildcats",
+        "team2_name": "ex-RUSTEC"
       }
     ],
     "default_event_id": "epl-series-8-2026",
@@ -6208,22 +6038,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:8249",
             "event_name": "BLAST Open Porto 2026",
             "event_url": null,
-            "hltv_match_id": "2396941",
-            "maps": [],
-            "match_id": "hltv:2396941",
-            "product_tier": "tier_1",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396941/vitality-vs-legacy-blast-open-porto-2026",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T16:30:00Z",
-            "status": "live",
-            "team1_name": "Vitality",
-            "team2_name": "Legacy"
-          },
-          {
-            "event_id": "hltv:8249",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
             "hltv_match_id": "2396943",
             "maps": [],
             "match_id": "hltv:2396943",
@@ -6235,6 +6049,22 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "live",
             "team1_name": "Spirit",
             "team2_name": "FURIA"
+          },
+          {
+            "event_id": "hltv:8249",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396944",
+            "maps": [],
+            "match_id": "hltv:2396944",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-31T11:30:00Z",
+            "status": "live",
+            "team1_name": "G2",
+            "team2_name": "Aurora"
           },
           {
             "event_id": "hltv:8249",
@@ -6255,10 +6085,10 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "BLAST Open Porto 2026",
         "participants": [
-          "Vitality",
-          "Legacy",
           "Spirit",
           "FURIA",
+          "G2",
+          "Aurora",
           "MOUZ",
           "Falcons"
         ],
@@ -6271,63 +6101,44 @@ window.__STRIKESIGNAL_DATA__ = {
           "rounds": [
             {
               "bracket": "main",
-              "id": "main:semifinal",
+              "id": "main:grand-final",
               "matches": [
                 {
                   "event_id": "hltv:9324",
                   "event_name": "CCT 2026 Europe Series 7",
                   "event_url": null,
                   "feeds_from": [],
-                  "hltv_match_id": "2396689",
+                  "hltv_match_id": "2396690",
                   "maps": [],
-                  "match_id": "hltv:2396689",
+                  "match_id": "hltv:2396690",
                   "product_tier": "tier_2",
-                  "round_name": "Semifinal",
+                  "round_name": "Grand Final",
                   "series_format": "bo3",
-                  "slot_id": "main:semifinal:1",
-                  "source_url": "https://www.hltv.org/matches/2396689/ex-zero-tenacity-vs-phantom-cct-2026-europe-series-7",
-                  "stage_name": "Semifinal",
-                  "starts_at": "2026-08-30T13:00:00Z",
-                  "status": "upcoming",
-                  "team1_name": "ex-Zero Tenacity",
-                  "team2_name": "Phantom"
-                },
-                {
-                  "event_id": "hltv:9324",
-                  "event_name": "CCT 2026 Europe Series 7",
-                  "event_url": null,
-                  "feeds_from": [],
-                  "hltv_match_id": "2396688",
-                  "maps": [],
-                  "match_id": "hltv:2396688",
-                  "product_tier": "tier_2",
-                  "round_name": "Semifinal",
-                  "series_format": "bo3",
-                  "slot_id": "main:semifinal:2",
-                  "source_url": "https://www.hltv.org/matches/2396688/genone-vs-inox-division-cct-2026-europe-series-7",
-                  "stage_name": "Semifinal",
+                  "slot_id": "main:grand-final:1",
+                  "source_url": "https://www.hltv.org/matches/2396690/inox-division-vs-ex-zero-tenacity-cct-2026-europe-series-7",
+                  "stage_name": "Grand Final",
                   "starts_at": null,
                   "status": "live",
-                  "team1_name": "GenOne",
-                  "team2_name": "INOX Division"
+                  "team1_name": "INOX Division",
+                  "team2_name": "ex-Zero Tenacity"
                 }
               ],
-              "name": "Semifinal",
+              "name": "Grand Final",
               "order": 1
             }
           ],
           "type": "single_elimination"
         },
-        "current_stage": "Semifinal",
+        "current_stage": "Grand Final",
         "format": {
-          "label": "Semifinal",
+          "label": "Grand Final",
           "settings": {},
           "stages": [
             {
-              "id": "semifinal",
-              "name": "Semifinal",
+              "id": "grand-final",
+              "name": "Grand Final",
               "order": 1,
-              "status": "pending",
+              "status": "live",
               "type": "single_elimination"
             }
           ],
@@ -6339,41 +6150,23 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9324",
             "event_name": "CCT 2026 Europe Series 7",
             "event_url": null,
-            "hltv_match_id": "2396689",
+            "hltv_match_id": "2396690",
             "maps": [],
-            "match_id": "hltv:2396689",
+            "match_id": "hltv:2396690",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396689/ex-zero-tenacity-vs-phantom-cct-2026-europe-series-7",
-            "stage_name": "Semifinal",
-            "starts_at": "2026-08-30T13:00:00Z",
-            "status": "upcoming",
-            "team1_name": "ex-Zero Tenacity",
-            "team2_name": "Phantom"
-          },
-          {
-            "event_id": "hltv:9324",
-            "event_name": "CCT 2026 Europe Series 7",
-            "event_url": null,
-            "hltv_match_id": "2396688",
-            "maps": [],
-            "match_id": "hltv:2396688",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396688/genone-vs-inox-division-cct-2026-europe-series-7",
-            "stage_name": "Semifinal",
+            "source_url": "https://www.hltv.org/matches/2396690/inox-division-vs-ex-zero-tenacity-cct-2026-europe-series-7",
+            "stage_name": "Grand Final",
             "starts_at": null,
             "status": "live",
-            "team1_name": "GenOne",
-            "team2_name": "INOX Division"
+            "team1_name": "INOX Division",
+            "team2_name": "ex-Zero Tenacity"
           }
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
-          "ex-Zero Tenacity",
-          "Phantom",
-          "GenOne",
-          "INOX Division"
+          "INOX Division",
+          "ex-Zero Tenacity"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -6389,6 +6182,44 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-7",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-7",
+            "event_name": "CCT 2026 Europe Series 7",
+            "event_url": null,
+            "hltv_match_id": "2396689",
+            "maps": [],
+            "match_id": "hltv:2396689",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396689/ex-zero-tenacity-vs-phantom-cct-2026-europe-series-7",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "ex-Zero Tenacity",
+            "team2_name": "Phantom",
+            "winner_name": "ex-Zero Tenacity"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-7",
+            "event_name": "CCT 2026 Europe Series 7",
+            "event_url": null,
+            "hltv_match_id": "2396688",
+            "maps": [],
+            "match_id": "hltv:2396688",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396688/genone-vs-inox-division-cct-2026-europe-series-7",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "GenOne",
+            "team2_name": "INOX Division",
+            "winner_name": "INOX Division"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-7",
             "event_name": "CCT 2026 Europe Series 7",
@@ -6445,57 +6276,17 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "ex-RUSTEC",
             "team2_name": "INOX Division",
             "winner_name": "INOX Division"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-7",
-            "event_name": "CCT 2026 Europe Series 7",
-            "event_url": null,
-            "hltv_match_id": "2396684",
-            "maps": [],
-            "match_id": "hltv:2396684",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396684/sinners-vs-ex-zero-tenacity-cct-2026-europe-series-7",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "SINNERS",
-            "team2_name": "ex-Zero Tenacity",
-            "winner_name": "ex-Zero Tenacity"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-7",
-            "event_name": "CCT 2026 Europe Series 7",
-            "event_url": null,
-            "hltv_match_id": "2396683",
-            "maps": [],
-            "match_id": "hltv:2396683",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396683/sinners-vs-bushido-wildcats-cct-2026-europe-series-7",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "SINNERS",
-            "team2_name": "Bushido Wildcats",
-            "winner_name": "SINNERS"
           }
         ],
         "name": "CCT 2026 Europe Series 7",
         "participants": [
-          "Nemiga",
-          "Phantom",
-          "Acend",
-          "GenOne",
-          "ex-RUSTEC",
-          "INOX Division",
-          "SINNERS",
           "ex-Zero Tenacity",
-          "Bushido Wildcats"
+          "Phantom",
+          "GenOne",
+          "INOX Division",
+          "Nemiga",
+          "Acend",
+          "ex-RUSTEC"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -6650,38 +6441,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9340",
             "event_name": "CCT 2026 South America Series 5",
             "event_url": null,
-            "hltv_match_id": "2396983",
-            "maps": [],
-            "match_id": "hltv:2396983",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396983/bestia-academy-vs-alka-cct-2026-south-america-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T13:00:00Z",
-            "status": "upcoming",
-            "team1_name": "BESTIA Academy",
-            "team2_name": "ALKA"
-          },
-          {
-            "event_id": "hltv:9340",
-            "event_name": "CCT 2026 South America Series 5",
-            "event_url": null,
-            "hltv_match_id": "2396984",
-            "maps": [],
-            "match_id": "hltv:2396984",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396984/pain-academy-vs-damajuana-cct-2026-south-america-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T16:00:00Z",
-            "status": "upcoming",
-            "team1_name": "paiN Academy",
-            "team2_name": "DAMAJUANA"
-          },
-          {
-            "event_id": "hltv:9340",
-            "event_name": "CCT 2026 South America Series 5",
-            "event_url": null,
             "hltv_match_id": "2396985",
             "maps": [],
             "match_id": "hltv:2396985",
@@ -6709,22 +6468,36 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "ODDIK",
             "team2_name": "Gr\u00eamio"
+          },
+          {
+            "event_id": "hltv:9340",
+            "event_name": "CCT 2026 South America Series 5",
+            "event_url": null,
+            "hltv_match_id": "2396984",
+            "maps": [],
+            "match_id": "hltv:2396984",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396984/pain-academy-vs-damajuana-cct-2026-south-america-series-5",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "paiN Academy",
+            "team2_name": "DAMAJUANA"
           }
         ],
         "name": "CCT 2026 South America Series 5",
         "participants": [
-          "BESTIA Academy",
-          "ALKA",
-          "paiN Academy",
-          "DAMAJUANA",
           "BORRACHEIROS",
           "Peladona",
           "ODDIK",
-          "Gr\u00eamio"
+          "Gr\u00eamio",
+          "paiN Academy",
+          "DAMAJUANA"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "upcoming"
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -6736,6 +6509,44 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:blast-open-porto-2026",
         "matches": [
+          {
+            "event_id": "hltv:blast-open-porto-2026",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396942",
+            "maps": [],
+            "match_id": "hltv:2396942",
+            "product_tier": "tier_1",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Inner Circle",
+            "team2_name": "FUT",
+            "winner_name": "FUT"
+          },
+          {
+            "event_id": "hltv:blast-open-porto-2026",
+            "event_name": "BLAST Open Porto 2026",
+            "event_url": null,
+            "hltv_match_id": "2396939",
+            "maps": [],
+            "match_id": "hltv:2396939",
+            "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396939/aurora-vs-m80-blast-open-porto-2026",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Aurora",
+            "team2_name": "M80",
+            "winner_name": "Aurora"
+          },
           {
             "event_id": "hltv:blast-open-porto-2026",
             "event_name": "BLAST Open Porto 2026",
@@ -6830,41 +6641,22 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Vitality",
             "team2_name": "9z",
             "winner_name": "Vitality"
-          },
-          {
-            "event_id": "hltv:blast-open-porto-2026",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
-            "hltv_match_id": "2396934",
-            "maps": [],
-            "match_id": "hltv:2396934",
-            "product_tier": "tier_1",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396934/m80-vs-furia-blast-open-porto-2026",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "M80",
-            "team2_name": "FURIA",
-            "winner_name": "FURIA"
           }
         ],
         "name": "BLAST Open Porto 2026",
         "participants": [
+          "Inner Circle",
+          "FUT",
+          "Aurora",
+          "M80",
           "G2",
           "Natus Vincere",
           "Legacy",
           "Falcons",
-          "FUT",
           "Lynn Vision",
-          "Inner Circle",
           "MOUZ",
           "Vitality",
-          "9z",
-          "M80",
-          "FURIA"
+          "9z"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -7255,41 +7047,23 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9329",
             "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
             "event_url": null,
-            "hltv_match_id": "2397122",
+            "hltv_match_id": "2397124",
             "maps": [],
-            "match_id": "hltv:2397122",
+            "match_id": "hltv:2397124",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397122/nexvoid-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
+            "source_url": "https://www.hltv.org/matches/2397124/rare-atom-vs-just-swing-esl-challenger-league-season-52-asia-pacific-cup-1",
             "stage_name": "Playoffs",
-            "starts_at": "2026-08-30T13:00:00Z",
+            "starts_at": "2026-08-31T13:00:00Z",
             "status": "upcoming",
-            "team1_name": "NEXVOID",
-            "team2_name": "Rare Atom"
-          },
-          {
-            "event_id": "hltv:9329",
-            "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-            "event_url": null,
-            "hltv_match_id": "2397123",
-            "maps": [],
-            "match_id": "hltv:2397123",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397123/just-swing-vs-alter-ego-esl-challenger-league-season-52-asia-pacific-cup-1",
-            "stage_name": "Playoffs",
-            "starts_at": "2026-08-30T13:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Just Swing",
-            "team2_name": "Alter Ego"
+            "team1_name": "Rare Atom",
+            "team2_name": "Just Swing"
           }
         ],
         "name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
         "participants": [
-          "NEXVOID",
           "Rare Atom",
-          "Just Swing",
-          "Alter Ego"
+          "Just Swing"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7420,11 +7194,19 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       },
       {
-        "current_stage": "Schedule",
+        "current_stage": "Playoffs",
         "format": {
-          "label": "Event schedule",
+          "label": "Playoffs",
           "settings": {},
-          "stages": [],
+          "stages": [
+            {
+              "id": "playoffs",
+              "name": "Playoffs",
+              "order": 1,
+              "status": "pending",
+              "type": "single_elimination"
+            }
+          ],
           "type": "mixed"
         },
         "id": "hltv:9328",
@@ -7433,27 +7215,27 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9328",
             "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
             "event_url": null,
-            "hltv_match_id": "2397092",
+            "hltv_match_id": "2397094",
             "maps": [],
-            "match_id": "hltv:2397092",
+            "match_id": "hltv:2397094",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397092/thunder-downunder-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-1",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "THUNDER dOWNUNDER",
+            "source_url": "https://www.hltv.org/matches/2397094/arcade-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-1",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-08-31T09:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Arcade",
             "team2_name": "Ground Zero"
           }
         ],
         "name": "ESL Challenger League Season 52 Oceania Cup 1",
         "participants": [
-          "THUNDER dOWNUNDER",
+          "Arcade",
           "Ground Zero"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -7465,6 +7247,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-south-america-series-5",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-south-america-series-5",
+            "event_name": "CCT 2026 South America Series 5",
+            "event_url": null,
+            "hltv_match_id": "2396983",
+            "maps": [],
+            "match_id": "hltv:2396983",
+            "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396983/bestia-academy-vs-alka-cct-2026-south-america-series-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "BESTIA Academy",
+            "team2_name": "ALKA",
+            "winner_name": "ALKA"
+          },
           {
             "event_id": "hltv:cct-2026-south-america-series-5",
             "event_name": "CCT 2026 South America Series 5",
@@ -7502,97 +7303,16 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "MEIA NOITE",
             "team2_name": "Blitzkrieg",
             "winner_name": "MEIA NOITE"
-          },
-          {
-            "event_id": "hltv:cct-2026-south-america-series-5",
-            "event_name": "CCT 2026 South America Series 5",
-            "event_url": null,
-            "hltv_match_id": "2396982",
-            "maps": [],
-            "match_id": "hltv:2396982",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396982/manso-maromba-vs-ex-guara-cct-2026-south-america-series-5",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Mans\u00e3o Maromba",
-            "team2_name": "ex-GUARA",
-            "winner_name": "Mans\u00e3o Maromba"
-          },
-          {
-            "event_id": "hltv:cct-2026-south-america-series-5",
-            "event_name": "CCT 2026 South America Series 5",
-            "event_url": null,
-            "hltv_match_id": "2396979",
-            "maps": [],
-            "match_id": "hltv:2396979",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396979/pugdesonesto-vs-sementes-do-mal-cct-2026-south-america-series-5",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Pugdesonesto",
-            "team2_name": "Sementes do Mal",
-            "winner_name": "Sementes do Mal"
-          },
-          {
-            "event_id": "hltv:cct-2026-south-america-series-5",
-            "event_name": "CCT 2026 South America Series 5",
-            "event_url": null,
-            "hltv_match_id": "2396978",
-            "maps": [],
-            "match_id": "hltv:2396978",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396978/borracheiros-vs-bestia-academy-cct-2026-south-america-series-5",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "BORRACHEIROS",
-            "team2_name": "BESTIA Academy",
-            "winner_name": "BORRACHEIROS"
-          },
-          {
-            "event_id": "hltv:cct-2026-south-america-series-5",
-            "event_name": "CCT 2026 South America Series 5",
-            "event_url": null,
-            "hltv_match_id": "2396977",
-            "maps": [],
-            "match_id": "hltv:2396977",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396977/peladona-vs-procyon-cct-2026-south-america-series-5",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Peladona",
-            "team2_name": "Procyon",
-            "winner_name": "Peladona"
           }
         ],
         "name": "CCT 2026 South America Series 5",
         "participants": [
+          "BESTIA Academy",
+          "ALKA",
           "Procyon",
           "Zetta",
           "MEIA NOITE",
-          "Blitzkrieg",
-          "Mans\u00e3o Maromba",
-          "ex-GUARA",
-          "Pugdesonesto",
-          "Sementes do Mal",
-          "BORRACHEIROS",
-          "BESTIA Academy",
-          "Peladona"
+          "Blitzkrieg"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7608,22 +7328,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:9351",
         "matches": [
-          {
-            "event_id": "hltv:9351",
-            "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2397235",
-            "maps": [],
-            "match_id": "hltv:2397235",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397235/ex-rustec-vs-unity-cct-2026-europe-series-8-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T14:00:00Z",
-            "status": "upcoming",
-            "team1_name": "ex-RUSTEC",
-            "team2_name": "UNiTY"
-          },
           {
             "event_id": "hltv:9351",
             "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
@@ -7671,18 +7375,34 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "Misa",
             "team2_name": "Mai Tai"
+          },
+          {
+            "event_id": "hltv:9351",
+            "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397239",
+            "maps": [],
+            "match_id": "hltv:2397239",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397239/bushido-wildcats-vs-ex-rustec-cct-2026-europe-series-8-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-31T14:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Bushido Wildcats",
+            "team2_name": "ex-RUSTEC"
           }
         ],
         "name": "CCT 2026 Europe Series 8 Closed Qualifier",
         "participants": [
-          "ex-RUSTEC",
-          "UNiTY",
           "SAW Youngsters",
           "Noir Verse",
           "HAVU",
           "Endless Journey",
           "Misa",
-          "Mai Tai"
+          "Mai Tai",
+          "Bushido Wildcats",
+          "ex-RUSTEC"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7698,6 +7418,44 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
         "matches": [
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+            "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+            "event_url": null,
+            "hltv_match_id": "2397123",
+            "maps": [],
+            "match_id": "hltv:2397123",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397123/just-swing-vs-alter-ego-esl-challenger-league-season-52-asia-pacific-cup-1",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Just Swing",
+            "team2_name": "Alter Ego",
+            "winner_name": "Just Swing"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+            "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+            "event_url": null,
+            "hltv_match_id": "2397122",
+            "maps": [],
+            "match_id": "hltv:2397122",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397122/nexvoid-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "NEXVOID",
+            "team2_name": "Rare Atom",
+            "winner_name": "NEXVOID"
+          },
           {
             "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
             "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
@@ -7739,9 +7497,11 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
         "participants": [
-          "Alter Ego",
-          "The Huns",
           "Just Swing",
+          "Alter Ego",
+          "NEXVOID",
+          "Rare Atom",
+          "The Huns",
           "Chinggis Warriors"
         ],
         "product_tier": "tier_2",
@@ -7795,82 +7555,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "ShindeN",
             "team2_name": "Isurus",
             "winner_name": "ShindeN"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-            "event_name": "ESL Challenger League Season 52 South America Cup 1",
-            "event_url": null,
-            "hltv_match_id": "2397148",
-            "maps": [],
-            "match_id": "hltv:2397148",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397148/oddik-vs-ex-mibr-academy-esl-challenger-league-season-52-south-america-cup-1",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "ODDIK",
-            "team2_name": "ex-MIBR Academy",
-            "winner_name": "ex-MIBR Academy"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-            "event_name": "ESL Challenger League Season 52 South America Cup 1",
-            "event_url": null,
-            "hltv_match_id": "2397149",
-            "maps": [],
-            "match_id": "hltv:2397149",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397149/turma-do-pagode-vs-isurus-esl-challenger-league-season-52-south-america-cup-1",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Turma do Pagode",
-            "team2_name": "Isurus",
-            "winner_name": "Isurus"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-            "event_name": "ESL Challenger League Season 52 South America Cup 1",
-            "event_url": null,
-            "hltv_match_id": "2397146",
-            "maps": [],
-            "match_id": "hltv:2397146",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397146/fluxo-vs-galorys-esl-challenger-league-season-52-south-america-cup-1",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Fluxo",
-            "team2_name": "Galorys",
-            "winner_name": "Galorys"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-            "event_name": "ESL Challenger League Season 52 South America Cup 1",
-            "event_url": null,
-            "hltv_match_id": "2397147",
-            "maps": [],
-            "match_id": "hltv:2397147",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397147/shinden-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "ShindeN",
-            "team2_name": "Imperial",
-            "winner_name": "Imperial"
           }
         ],
         "name": "ESL Challenger League Season 52 South America Cup 1",
@@ -7878,11 +7562,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Fluxo",
           "ex-MIBR Academy",
           "ShindeN",
-          "Isurus",
-          "ODDIK",
-          "Turma do Pagode",
-          "Galorys",
-          "Imperial"
+          "Isurus"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7935,82 +7615,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Zomblers",
             "team2_name": "Chicken Coop",
             "winner_name": "Chicken Coop"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-            "event_name": "ESL Challenger League Season 52 North America Cup 1",
-            "event_url": null,
-            "hltv_match_id": "2397176",
-            "maps": [],
-            "match_id": "hltv:2397176",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397176/voca-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-1",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Voca",
-            "team2_name": "Overtake Sector",
-            "winner_name": "Voca"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-            "event_name": "ESL Challenger League Season 52 North America Cup 1",
-            "event_url": null,
-            "hltv_match_id": "2397178",
-            "maps": [],
-            "match_id": "hltv:2397178",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397178/empire-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-1",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "EMPIRE",
-            "team2_name": "Iowa Stormboar",
-            "winner_name": "EMPIRE"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-            "event_name": "ESL Challenger League Season 52 North America Cup 1",
-            "event_url": null,
-            "hltv_match_id": "2397177",
-            "maps": [],
-            "match_id": "hltv:2397177",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397177/marsborne-vs-chicken-coop-esl-challenger-league-season-52-north-america-cup-1",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Marsborne",
-            "team2_name": "Chicken Coop",
-            "winner_name": "Marsborne"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-            "event_name": "ESL Challenger League Season 52 North America Cup 1",
-            "event_url": null,
-            "hltv_match_id": "2397179",
-            "maps": [],
-            "match_id": "hltv:2397179",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397179/elusive-vs-zomblers-esl-challenger-league-season-52-north-america-cup-1",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Elusive",
-            "team2_name": "Zomblers",
-            "winner_name": "Zomblers"
           }
         ],
         "name": "ESL Challenger League Season 52 North America Cup 1",
@@ -8018,11 +7622,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "EMPIRE",
           "Overtake Sector",
           "Zomblers",
-          "Chicken Coop",
-          "Voca",
-          "Iowa Stormboar",
-          "Marsborne",
-          "Elusive"
+          "Chicken Coop"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -8038,6 +7638,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
         "matches": [
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
+            "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+            "event_url": null,
+            "hltv_match_id": "2397092",
+            "maps": [],
+            "match_id": "hltv:2397092",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397092/thunder-downunder-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-1",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "THUNDER dOWNUNDER",
+            "team2_name": "Ground Zero",
+            "winner_name": "THUNDER dOWNUNDER"
+          },
           {
             "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-1",
             "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
@@ -8098,6 +7717,8 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "ESL Challenger League Season 52 Oceania Cup 1",
         "participants": [
+          "THUNDER dOWNUNDER",
+          "Ground Zero",
           "Arcade",
           "Rooster",
           "MARKandLARRY",
@@ -8117,6 +7738,44 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-8-closed-qualifier",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
+            "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397235",
+            "maps": [],
+            "match_id": "hltv:2397235",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397235/ex-rustec-vs-unity-cct-2026-europe-series-8-closed-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "ex-RUSTEC",
+            "team2_name": "UNiTY",
+            "winner_name": "UNiTY"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
+            "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397234",
+            "maps": [],
+            "match_id": "hltv:2397234",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397234/atreides-vs-honvd-cct-2026-europe-series-8-closed-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Atreides",
+            "team2_name": "Honv\u00e9d",
+            "winner_name": "Honv\u00e9d"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
@@ -8192,128 +7851,22 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Atreides",
             "team2_name": "SAW Youngsters",
             "winner_name": "SAW Youngsters"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
-            "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2397229",
-            "maps": [],
-            "match_id": "hltv:2397229",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397229/ex-rustec-vs-entropy-cct-2026-europe-series-8-closed-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "ex-RUSTEC",
-            "team2_name": "Entropy",
-            "winner_name": "ex-RUSTEC"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
-            "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2397228",
-            "maps": [],
-            "match_id": "hltv:2397228",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397228/permitta-vs-mai-tai-cct-2026-europe-series-8-closed-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Permitta",
-            "team2_name": "Mai Tai",
-            "winner_name": "Permitta"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
-            "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2397227",
-            "maps": [],
-            "match_id": "hltv:2397227",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397227/ex-zero-tenacity-vs-havu-cct-2026-europe-series-8-closed-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "ex-Zero Tenacity",
-            "team2_name": "HAVU",
-            "winner_name": "ex-Zero Tenacity"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
-            "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397234",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Dust2",
-                "score1": 5,
-                "score2": 13,
-                "status": "finished"
-              },
-              {
-                "map_name": "Ancient",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Dust2",
-              "Ancient",
-              "Mirage"
-            ],
-            "match_id": "hltv:2397234",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397234/atreides-vs-honvd-cct-2026-europe-series-8-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Atreides",
-            "team2_name": "Honv\u00e9d",
-            "veto_text": "Best of 3 (Online)\n\n* Group D elimination match"
           }
         ],
         "name": "CCT 2026 Europe Series 8 Closed Qualifier",
         "participants": [
-          "Entropy",
-          "Bushido Wildcats",
-          "Honv\u00e9d",
-          "Noir Verse",
+          "ex-RUSTEC",
           "UNiTY",
           "Atreides",
-          "SAW Youngsters",
-          "ex-RUSTEC",
-          "Permitta",
-          "Mai Tai",
-          "ex-Zero Tenacity",
-          "HAVU"
+          "Honv\u00e9d",
+          "Entropy",
+          "Bushido Wildcats",
+          "Noir Verse",
+          "SAW Youngsters"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "finished"
       },
       {
         "current_stage": "Schedule",
@@ -8329,33 +7882,81 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9263",
             "event_name": "ESL Challenger League Season 52 Europe Cup 5",
             "event_url": null,
-            "hltv_match_id": "2397344",
+            "hltv_match_id": "2397352",
             "maps": [],
-            "match_id": "hltv:2397344",
+            "match_id": "hltv:2397352",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397344/virtuspro-vs-fire-flux-esl-challenger-league-season-52-europe-cup-5",
+            "source_url": "https://www.hltv.org/matches/2397352/inner-circle-academy-vs-virtuspro-esl-challenger-league-season-52-europe-cup-5",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T13:00:00Z",
+            "starts_at": "2026-08-30T17:00:00Z",
             "status": "upcoming",
-            "team1_name": "Virtus.pro",
+            "team1_name": "Inner Circle Academy",
+            "team2_name": "Virtus.pro"
+          },
+          {
+            "event_id": "hltv:9263",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397353",
+            "maps": [],
+            "match_id": "hltv:2397353",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397353/strael-bora-vs-fire-flux-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-30T17:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Strael Bora",
             "team2_name": "Fire Flux"
           },
           {
             "event_id": "hltv:9263",
             "event_name": "ESL Challenger League Season 52 Europe Cup 5",
             "event_url": null,
-            "hltv_match_id": "2397345",
+            "hltv_match_id": "2397357",
             "maps": [],
-            "match_id": "hltv:2397345",
+            "match_id": "hltv:2397357",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397345/inner-circle-academy-vs-strael-bora-esl-challenger-league-season-52-europe-cup-5",
+            "source_url": "https://www.hltv.org/matches/2397357/pcific-vs-atreides-esl-challenger-league-season-52-europe-cup-5",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T13:00:00Z",
+            "starts_at": "2026-08-30T17:00:00Z",
             "status": "upcoming",
-            "team1_name": "Inner Circle Academy",
-            "team2_name": "Strael Bora"
+            "team1_name": "PCIFIC",
+            "team2_name": "Atreides"
+          },
+          {
+            "event_id": "hltv:9263",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397358",
+            "maps": [],
+            "match_id": "hltv:2397358",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397358/permitta-vs-wbt-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-30T17:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Permitta",
+            "team2_name": "WBT"
+          },
+          {
+            "event_id": "hltv:9263",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397359",
+            "maps": [],
+            "match_id": "hltv:2397359",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397359/azuolas-vs-berg-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-30T17:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Azuolas",
+            "team2_name": "BERG"
           },
           {
             "event_id": "hltv:9263",
@@ -8368,117 +7969,307 @@ window.__STRIKESIGNAL_DATA__ = {
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2397346/baks-vs-misa-esl-challenger-league-season-52-europe-cup-5",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T13:00:00Z",
-            "status": "upcoming",
+            "starts_at": null,
+            "status": "live",
             "team1_name": "BAKS",
             "team2_name": "Misa"
+          }
+        ],
+        "name": "ESL Challenger League Season 52 Europe Cup 5",
+        "participants": [
+          "Inner Circle Academy",
+          "Virtus.pro",
+          "Strael Bora",
+          "Fire Flux",
+          "PCIFIC",
+          "Atreides",
+          "Permitta",
+          "WBT",
+          "Azuolas",
+          "BERG",
+          "BAKS",
+          "Misa"
+        ],
+        "product_tier": "tier_2",
+        "source_url": null,
+        "status": "ongoing"
+      },
+      {
+        "current_stage": "Schedule",
+        "format": {
+          "label": "Event schedule",
+          "settings": {},
+          "stages": [],
+          "type": "mixed"
+        },
+        "id": "hltv:9333",
+        "matches": [
+          {
+            "event_id": "hltv:9333",
+            "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397398",
+            "maps": [],
+            "match_id": "hltv:2397398",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397398/the-huns-vs-staqued-fissure-playground-3-asia-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-31T05:00:00Z",
+            "status": "upcoming",
+            "team1_name": "The Huns",
+            "team2_name": "Staqued"
           },
           {
-            "event_id": "hltv:9263",
+            "event_id": "hltv:9333",
+            "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397399",
+            "maps": [],
+            "match_id": "hltv:2397399",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397399/nexvoid-vs-just-swing-fissure-playground-3-asia-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-31T07:30:00Z",
+            "status": "upcoming",
+            "team1_name": "NEXVOID",
+            "team2_name": "Just Swing"
+          },
+          {
+            "event_id": "hltv:9333",
+            "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397400",
+            "maps": [],
+            "match_id": "hltv:2397400",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397400/rare-atom-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-31T10:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Rare Atom",
+            "team2_name": "Kaleido"
+          },
+          {
+            "event_id": "hltv:9333",
+            "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397401",
+            "maps": [],
+            "match_id": "hltv:2397401",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397401/5star-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-08-31T12:30:00Z",
+            "status": "upcoming",
+            "team1_name": "5star",
+            "team2_name": "Chinggis Warriors"
+          }
+        ],
+        "name": "FISSURE Playground 3 Asia Closed Qualifier",
+        "participants": [
+          "The Huns",
+          "Staqued",
+          "NEXVOID",
+          "Just Swing",
+          "Rare Atom",
+          "Kaleido",
+          "5star",
+          "Chinggis Warriors"
+        ],
+        "product_tier": "tier_1",
+        "source_url": null,
+        "status": "upcoming"
+      },
+      {
+        "current_stage": "Schedule",
+        "format": {
+          "label": "Event schedule",
+          "settings": {},
+          "stages": [],
+          "type": "mixed"
+        },
+        "id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+        "matches": [
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397356",
+            "maps": [],
+            "match_id": "hltv:2397356",
+            "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397356/fortress-vs-noir-verse-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Fortress",
+            "team2_name": "Noir Verse",
+            "winner_name": "Fortress"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397344",
+            "maps": [],
+            "match_id": "hltv:2397344",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397344/virtuspro-vs-fire-flux-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Virtus.pro",
+            "team2_name": "Fire Flux",
+            "winner_name": "Virtus.pro"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
             "event_name": "ESL Challenger League Season 52 Europe Cup 5",
             "event_url": null,
             "hltv_match_id": "2397347",
             "maps": [],
             "match_id": "hltv:2397347",
             "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2397347/mouz-nxt-vs-entropy-esl-challenger-league-season-52-europe-cup-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T13:00:00Z",
-            "status": "upcoming",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
             "team1_name": "MOUZ NXT",
-            "team2_name": "Entropy"
+            "team2_name": "Entropy",
+            "winner_name": "Entropy"
           },
           {
-            "event_id": "hltv:9263",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-            "event_url": null,
-            "hltv_match_id": "2397348",
-            "maps": [],
-            "match_id": "hltv:2397348",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397348/pcific-vs-fortress-esl-challenger-league-season-52-europe-cup-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T13:00:00Z",
-            "status": "upcoming",
-            "team1_name": "PCIFIC",
-            "team2_name": "Fortress"
-          },
-          {
-            "event_id": "hltv:9263",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-            "event_url": null,
-            "hltv_match_id": "2397349",
-            "maps": [],
-            "match_id": "hltv:2397349",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397349/noir-verse-vs-atreides-esl-challenger-league-season-52-europe-cup-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T13:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Noir Verse",
-            "team2_name": "Atreides"
-          },
-          {
-            "event_id": "hltv:9263",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-            "event_url": null,
-            "hltv_match_id": "2397350",
-            "maps": [],
-            "match_id": "hltv:2397350",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397350/azuolas-vs-permitta-esl-challenger-league-season-52-europe-cup-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T13:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Azuolas",
-            "team2_name": "Permitta"
-          },
-          {
-            "event_id": "hltv:9263",
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
             "event_name": "ESL Challenger League Season 52 Europe Cup 5",
             "event_url": null,
             "hltv_match_id": "2397351",
             "maps": [],
             "match_id": "hltv:2397351",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2397351/wbt-vs-berg-esl-challenger-league-season-52-europe-cup-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-08-30T13:00:00Z",
-            "status": "upcoming",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
             "team1_name": "WBT",
-            "team2_name": "BERG"
+            "team2_name": "BERG",
+            "winner_name": "WBT"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397349",
+            "maps": [],
+            "match_id": "hltv:2397349",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397349/noir-verse-vs-atreides-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Noir Verse",
+            "team2_name": "Atreides",
+            "winner_name": "Noir Verse"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397350",
+            "maps": [],
+            "match_id": "hltv:2397350",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397350/azuolas-vs-permitta-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Azuolas",
+            "team2_name": "Permitta",
+            "winner_name": "Permitta"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397345",
+            "maps": [],
+            "match_id": "hltv:2397345",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397345/inner-circle-academy-vs-strael-bora-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Inner Circle Academy",
+            "team2_name": "Strael Bora",
+            "winner_name": "Inner Circle Academy"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397348",
+            "maps": [],
+            "match_id": "hltv:2397348",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397348/pcific-vs-fortress-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "PCIFIC",
+            "team2_name": "Fortress",
+            "winner_name": "Fortress"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 5",
         "participants": [
-          "Virtus.pro",
-          "Fire Flux",
-          "Inner Circle Academy",
-          "Strael Bora",
-          "BAKS",
-          "Misa",
-          "MOUZ NXT",
-          "Entropy",
-          "PCIFIC",
           "Fortress",
           "Noir Verse",
+          "Virtus.pro",
+          "Fire Flux",
+          "MOUZ NXT",
+          "Entropy",
+          "WBT",
+          "BERG",
           "Atreides",
           "Azuolas",
           "Permitta",
-          "WBT",
-          "BERG"
+          "Inner Circle Academy",
+          "Strael Bora",
+          "PCIFIC"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "upcoming"
+        "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-08-30T11:56:48Z",
+    "last_verified_utc": "2026-08-30T16:42:21Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -8916,7 +8707,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-08-30T11:57:01Z",
+  "generated_at_utc": "2026-08-30T16:42:42Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -10273,37 +10064,1104 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_points_diff",
         "recent_win_rate_10_diff"
       ],
-      "kind": "portable_logistic_blend",
-      "l2": 0.005,
-      "mean": [
-        8.17429212,
-        9.70490287,
-        80.7853839,
-        0.00465617
-      ],
+      "initial_log_odds": 0.09109743,
+      "kind": "portable_gbdt_blend",
+      "learning_rate": 0.04,
+      "max_depth": 1,
       "metrics": {
-        "accuracy": 0.624133,
-        "brier": 0.225518,
-        "ece": 0.021801,
-        "log_loss": 0.641489
+        "accuracy": 0.632737,
+        "brier": 0.226606,
+        "ece": 0.03031,
+        "log_loss": 0.644506
       },
-      "std": [
-        93.29628808,
-        54.05601357,
-        443.32099472,
-        0.20752671
-      ],
+      "min_samples_leaf": 24,
+      "n_estimators": 40,
       "tier_policy": "T1 + T1.5 + verified T2; low/medium integrity risk",
       "trained_through": "2026-06-08",
-      "training_rows": 1081,
-      "version": "portable-20260813192253",
-      "weights": [
-        0.11126804,
-        0.41048404,
-        -0.12992676,
-        0.50027355,
-        -0.08233339
-      ]
+      "training_rows": 1450,
+      "trees": [
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -63.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00137931,
+            -0.71607464,
+            0.36384778
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00204309,
+            -0.63643951,
+            0.36802561
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00307542,
+            -0.56366339,
+            0.32019364
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00090831,
+            -0.42965024,
+            0.44173934
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00166378,
+            -0.57234308,
+            0.31978683
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -63.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00286367,
+            -0.61104118,
+            0.29836276
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.0037578,
+            -0.40236025,
+            0.39214398
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -22.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00401162,
+            -0.4929319,
+            0.31931056
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00334418,
+            -0.39539767,
+            0.38044819
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            83.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00277109,
+            -0.36787093,
+            0.36869515
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00304297,
+            -0.48146756,
+            0.26747786
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            20.07537842,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00474757,
+            -0.27529175,
+            0.37221072
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00195153,
+            -0.34732661,
+            0.35874027
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.47264862,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00404637,
+            -0.17106472,
+            0.69175414
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00059272,
+            -0.44650208,
+            0.2614104
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            67.03751755,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00566596,
+            -0.17917751,
+            0.55330109
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00351402,
+            -0.35498898,
+            0.34667239
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.47264862,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00189048,
+            -0.15939016,
+            0.66378034
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -30.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00063847,
+            -0.40956171,
+            0.23061621
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.00793076,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00535634,
+            -0.11486605,
+            0.61366924
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -68.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.002883,
+            -0.40609515,
+            0.22124595
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00196336,
+            -0.38744267,
+            0.207183
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00297019,
+            -0.27272778,
+            0.26967961
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.00793076,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00013755,
+            -0.12442264,
+            0.56043811
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            1,
+            -2,
+            -2
+          ],
+          "threshold": [
+            5.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00015102,
+            -0.20780315,
+            0.3465629
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -41.6818409,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.0095937,
+            -0.36939921,
+            0.16647453
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            67.03751755,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00084055,
+            -0.13369726,
+            0.52471342
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -165.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00056933,
+            -0.47144478,
+            0.17110566
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00040782,
+            -0.24029078,
+            0.25700849
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            5.02492023,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00225981,
+            -0.2706918,
+            0.27069879
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -165.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00091094,
+            -0.37152809,
+            0.13350746
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            212.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00208628,
+            -0.17968966,
+            0.31221504
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -54.16992378,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00698228,
+            -0.44374114,
+            0.15417804
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.01884842,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00537776,
+            -0.08242606,
+            0.52015947
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            64.46572876,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00198064,
+            -0.12975611,
+            0.51646628
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.01884842,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00303483,
+            -0.08370564,
+            0.44933311
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.51255798,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00523638,
+            -0.122759,
+            0.48017143
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -110.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00787375,
+            -0.30378746,
+            0.18267421
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -41.64999962,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00132909,
+            -0.37383497,
+            0.1281132
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -165.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00076503,
+            -0.35231558,
+            0.12996642
+          ]
+        }
+      ],
+      "version": "portable-20260830164241"
     },
     "state_policy": "ranked_top120"
   },
@@ -10312,30 +11170,36 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 3,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.622563,
-        "brier": 0.226302,
-        "ece": 0.044399,
-        "log_loss": 0.642492
+        "accuracy": 0.620358,
+        "brier": 0.227171,
+        "ece": 0.039926,
+        "log_loss": 0.644309
       },
-      "rows": 1432,
-      "test_rows": 718
+      "rows": 1450,
+      "test_rows": 727
     },
     "challenger": {
       "blend_weight": 0.5,
-      "family": "logistic",
+      "family": "gradient_boosting",
       "features": [
-        "baseline_logit"
+        "elo_diff",
+        "vrs_rank_advantage",
+        "vrs_points_diff",
+        "recent_win_rate_10_diff"
       ],
       "folds": 3,
-      "l2": 0.015,
+      "learning_rate": 0.04,
+      "max_depth": 1,
       "metrics": {
-        "accuracy": 0.625348,
-        "brier": 0.226448,
-        "ece": 0.024103,
-        "log_loss": 0.643384
+        "accuracy": 0.632737,
+        "brier": 0.226606,
+        "ece": 0.03031,
+        "log_loss": 0.644506
       },
-      "promotion_passed": false,
-      "rows": 718
+      "min_samples_leaf": 24,
+      "n_estimators": 40,
+      "promotion_passed": true,
+      "rows": 727
     },
     "champion": {
       "blend_weight": 0.5,
@@ -10345,40 +11209,1107 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_points_diff",
         "recent_win_rate_10_diff"
       ],
-      "kind": "portable_logistic_blend",
-      "l2": 0.005,
-      "mean": [
-        8.17429212,
-        9.70490287,
-        80.7853839,
-        0.00465617
-      ],
+      "initial_log_odds": 0.09109743,
+      "kind": "portable_gbdt_blend",
+      "learning_rate": 0.04,
+      "max_depth": 1,
       "metrics": {
-        "accuracy": 0.624133,
-        "brier": 0.225518,
-        "ece": 0.021801,
-        "log_loss": 0.641489
+        "accuracy": 0.632737,
+        "brier": 0.226606,
+        "ece": 0.03031,
+        "log_loss": 0.644506
       },
-      "std": [
-        93.29628808,
-        54.05601357,
-        443.32099472,
-        0.20752671
-      ],
+      "min_samples_leaf": 24,
+      "n_estimators": 40,
       "tier_policy": "T1 + T1.5 + verified T2; low/medium integrity risk",
       "trained_through": "2026-06-08",
-      "training_rows": 1081,
-      "version": "portable-20260813192253",
-      "weights": [
-        0.11126804,
-        0.41048404,
-        -0.12992676,
-        0.50027355,
-        -0.08233339
-      ]
+      "training_rows": 1450,
+      "trees": [
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -63.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00137931,
+            -0.71607464,
+            0.36384778
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00204309,
+            -0.63643951,
+            0.36802561
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00307542,
+            -0.56366339,
+            0.32019364
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00090831,
+            -0.42965024,
+            0.44173934
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00166378,
+            -0.57234308,
+            0.31978683
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -63.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00286367,
+            -0.61104118,
+            0.29836276
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.0037578,
+            -0.40236025,
+            0.39214398
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -22.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00401162,
+            -0.4929319,
+            0.31931056
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00334418,
+            -0.39539767,
+            0.38044819
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            83.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00277109,
+            -0.36787093,
+            0.36869515
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00304297,
+            -0.48146756,
+            0.26747786
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            20.07537842,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00474757,
+            -0.27529175,
+            0.37221072
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00195153,
+            -0.34732661,
+            0.35874027
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.47264862,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00404637,
+            -0.17106472,
+            0.69175414
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00059272,
+            -0.44650208,
+            0.2614104
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            67.03751755,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00566596,
+            -0.17917751,
+            0.55330109
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00351402,
+            -0.35498898,
+            0.34667239
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.47264862,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00189048,
+            -0.15939016,
+            0.66378034
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -30.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00063847,
+            -0.40956171,
+            0.23061621
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.00793076,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00535634,
+            -0.11486605,
+            0.61366924
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -68.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.002883,
+            -0.40609515,
+            0.22124595
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00196336,
+            -0.38744267,
+            0.207183
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00297019,
+            -0.27272778,
+            0.26967961
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.00793076,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00013755,
+            -0.12442264,
+            0.56043811
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            1,
+            -2,
+            -2
+          ],
+          "threshold": [
+            5.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00015102,
+            -0.20780315,
+            0.3465629
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -41.6818409,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.0095937,
+            -0.36939921,
+            0.16647453
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            67.03751755,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00084055,
+            -0.13369726,
+            0.52471342
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -165.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00056933,
+            -0.47144478,
+            0.17110566
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00040782,
+            -0.24029078,
+            0.25700849
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            5.02492023,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00225981,
+            -0.2706918,
+            0.27069879
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -165.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00091094,
+            -0.37152809,
+            0.13350746
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            212.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00208628,
+            -0.17968966,
+            0.31221504
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -54.16992378,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00698228,
+            -0.44374114,
+            0.15417804
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.01884842,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00537776,
+            -0.08242606,
+            0.52015947
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            64.46572876,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00198064,
+            -0.12975611,
+            0.51646628
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.01884842,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00303483,
+            -0.08370564,
+            0.44933311
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.51255798,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00523638,
+            -0.122759,
+            0.48017143
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -110.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00787375,
+            -0.30378746,
+            0.18267421
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -41.64999962,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00132909,
+            -0.37383497,
+            0.1281132
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -165.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00076503,
+            -0.35231558,
+            0.12996642
+          ]
+        }
+      ],
+      "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-08-30T11:57:00Z",
+    "generated_at_utc": "2026-08-30T16:42:41Z",
     "history": [
       {
         "champion": {
@@ -10422,6 +12353,1116 @@ window.__STRIKESIGNAL_DATA__ = {
           ]
         },
         "promoted_at_utc": "2026-08-13T19:22:53Z"
+      },
+      {
+        "champion": {
+          "blend_weight": 0.5,
+          "features": [
+            "elo_diff",
+            "vrs_rank_advantage",
+            "vrs_points_diff",
+            "recent_win_rate_10_diff"
+          ],
+          "initial_log_odds": 0.09109743,
+          "kind": "portable_gbdt_blend",
+          "learning_rate": 0.04,
+          "max_depth": 1,
+          "metrics": {
+            "accuracy": 0.632737,
+            "brier": 0.226606,
+            "ece": 0.03031,
+            "log_loss": 0.644506
+          },
+          "min_samples_leaf": 24,
+          "n_estimators": 40,
+          "tier_policy": "T1 + T1.5 + verified T2; low/medium integrity risk",
+          "trained_through": "2026-06-08",
+          "training_rows": 1450,
+          "trees": [
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -63.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00137931,
+                -0.71607464,
+                0.36384778
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -31.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00204309,
+                -0.63643951,
+                0.36802561
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -31.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00307542,
+                -0.56366339,
+                0.32019364
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                77.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00090831,
+                -0.42965024,
+                0.44173934
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -31.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00166378,
+                -0.57234308,
+                0.31978683
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -63.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00286367,
+                -0.61104118,
+                0.29836276
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                77.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.0037578,
+                -0.40236025,
+                0.39214398
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -22.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00401162,
+                -0.4929319,
+                0.31931056
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                77.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00334418,
+                -0.39539767,
+                0.38044819
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                83.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00277109,
+                -0.36787093,
+                0.36869515
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -31.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00304297,
+                -0.48146756,
+                0.26747786
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                20.07537842,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00474757,
+                -0.27529175,
+                0.37221072
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                77.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00195153,
+                -0.34732661,
+                0.35874027
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                75.47264862,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00404637,
+                -0.17106472,
+                0.69175414
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -31.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00059272,
+                -0.44650208,
+                0.2614104
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                67.03751755,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00566596,
+                -0.17917751,
+                0.55330109
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                77.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00351402,
+                -0.35498898,
+                0.34667239
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                75.47264862,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00189048,
+                -0.15939016,
+                0.66378034
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -30.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00063847,
+                -0.40956171,
+                0.23061621
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                75.00793076,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00535634,
+                -0.11486605,
+                0.61366924
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -68.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.002883,
+                -0.40609515,
+                0.22124595
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -31.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00196336,
+                -0.38744267,
+                0.207183
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                77.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00297019,
+                -0.27272778,
+                0.26967961
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                75.00793076,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00013755,
+                -0.12442264,
+                0.56043811
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                1,
+                -2,
+                -2
+              ],
+              "threshold": [
+                5.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00015102,
+                -0.20780315,
+                0.3465629
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -41.6818409,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.0095937,
+                -0.36939921,
+                0.16647453
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                67.03751755,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00084055,
+                -0.13369726,
+                0.52471342
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -165.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00056933,
+                -0.47144478,
+                0.17110566
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                77.0,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00040782,
+                -0.24029078,
+                0.25700849
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                5.02492023,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00225981,
+                -0.2706918,
+                0.27069879
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -165.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00091094,
+                -0.37152809,
+                0.13350746
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                212.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00208628,
+                -0.17968966,
+                0.31221504
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -54.16992378,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00698228,
+                -0.44374114,
+                0.15417804
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                75.01884842,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00537776,
+                -0.08242606,
+                0.52015947
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                64.46572876,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00198064,
+                -0.12975611,
+                0.51646628
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                75.01884842,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00303483,
+                -0.08370564,
+                0.44933311
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                77.51255798,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                -0.00523638,
+                -0.122759,
+                0.48017143
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -110.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00787375,
+                -0.30378746,
+                0.18267421
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                0,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -41.64999962,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00132909,
+                -0.37383497,
+                0.1281132
+              ]
+            },
+            {
+              "children_left": [
+                1,
+                -1,
+                -1
+              ],
+              "children_right": [
+                2,
+                -1,
+                -1
+              ],
+              "feature": [
+                2,
+                -2,
+                -2
+              ],
+              "threshold": [
+                -165.5,
+                -2.0,
+                -2.0
+              ],
+              "value": [
+                0.00076503,
+                -0.35231558,
+                0.12996642
+              ]
+            }
+          ],
+          "version": "portable-20260830164241"
+        },
+        "promoted_at_utc": "2026-08-30T16:42:41Z"
       }
     ],
     "promotion_gates": {
@@ -10433,8 +13474,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
-      "online_rows": 675,
+      "new_rows": 18,
+      "online_rows": 693,
       "seed_rows": 757
     }
   },
@@ -11114,9 +14155,27 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2397151",
       "hltv:2396940",
       "hltv:2397093",
-      "hltv:2397233"
+      "hltv:2397233",
+      "hltv:2396942",
+      "hltv:2396939",
+      "hltv:2397356",
+      "hltv:2397123",
+      "hltv:2397344",
+      "hltv:2397347",
+      "hltv:2397351",
+      "hltv:2396983",
+      "hltv:2397122",
+      "hltv:2397349",
+      "hltv:2397350",
+      "hltv:2396689",
+      "hltv:2397345",
+      "hltv:2397348",
+      "hltv:2397235",
+      "hltv:2397234",
+      "hltv:2396688",
+      "hltv:2397092"
     ],
-    "last_online_update_utc": "2026-08-30T11:57:01Z",
+    "last_online_update_utc": "2026-08-30T16:42:42Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -13433,40 +16492,1107 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_points_diff",
         "recent_win_rate_10_diff"
       ],
-      "kind": "portable_logistic_blend",
-      "l2": 0.005,
-      "mean": [
-        8.17429212,
-        9.70490287,
-        80.7853839,
-        0.00465617
-      ],
+      "initial_log_odds": 0.09109743,
+      "kind": "portable_gbdt_blend",
+      "learning_rate": 0.04,
+      "max_depth": 1,
       "metrics": {
-        "accuracy": 0.624133,
-        "brier": 0.225518,
-        "ece": 0.021801,
-        "log_loss": 0.641489
+        "accuracy": 0.632737,
+        "brier": 0.226606,
+        "ece": 0.03031,
+        "log_loss": 0.644506
       },
-      "std": [
-        93.29628808,
-        54.05601357,
-        443.32099472,
-        0.20752671
-      ],
+      "min_samples_leaf": 24,
+      "n_estimators": 40,
       "tier_policy": "T1 + T1.5 + verified T2; low/medium integrity risk",
       "trained_through": "2026-06-08",
-      "training_rows": 1081,
-      "version": "portable-20260813192253",
-      "weights": [
-        0.11126804,
-        0.41048404,
-        -0.12992676,
-        0.50027355,
-        -0.08233339
-      ]
+      "training_rows": 1450,
+      "trees": [
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -63.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00137931,
+            -0.71607464,
+            0.36384778
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00204309,
+            -0.63643951,
+            0.36802561
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00307542,
+            -0.56366339,
+            0.32019364
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00090831,
+            -0.42965024,
+            0.44173934
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00166378,
+            -0.57234308,
+            0.31978683
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -63.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00286367,
+            -0.61104118,
+            0.29836276
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.0037578,
+            -0.40236025,
+            0.39214398
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -22.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00401162,
+            -0.4929319,
+            0.31931056
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00334418,
+            -0.39539767,
+            0.38044819
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            83.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00277109,
+            -0.36787093,
+            0.36869515
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00304297,
+            -0.48146756,
+            0.26747786
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            20.07537842,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00474757,
+            -0.27529175,
+            0.37221072
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00195153,
+            -0.34732661,
+            0.35874027
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.47264862,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00404637,
+            -0.17106472,
+            0.69175414
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00059272,
+            -0.44650208,
+            0.2614104
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            67.03751755,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00566596,
+            -0.17917751,
+            0.55330109
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00351402,
+            -0.35498898,
+            0.34667239
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.47264862,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00189048,
+            -0.15939016,
+            0.66378034
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -30.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00063847,
+            -0.40956171,
+            0.23061621
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.00793076,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00535634,
+            -0.11486605,
+            0.61366924
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -68.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.002883,
+            -0.40609515,
+            0.22124595
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -31.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00196336,
+            -0.38744267,
+            0.207183
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00297019,
+            -0.27272778,
+            0.26967961
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.00793076,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00013755,
+            -0.12442264,
+            0.56043811
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            1,
+            -2,
+            -2
+          ],
+          "threshold": [
+            5.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00015102,
+            -0.20780315,
+            0.3465629
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -41.6818409,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.0095937,
+            -0.36939921,
+            0.16647453
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            67.03751755,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00084055,
+            -0.13369726,
+            0.52471342
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -165.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00056933,
+            -0.47144478,
+            0.17110566
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.0,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00040782,
+            -0.24029078,
+            0.25700849
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            5.02492023,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00225981,
+            -0.2706918,
+            0.27069879
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -165.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00091094,
+            -0.37152809,
+            0.13350746
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            212.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00208628,
+            -0.17968966,
+            0.31221504
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -54.16992378,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00698228,
+            -0.44374114,
+            0.15417804
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.01884842,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00537776,
+            -0.08242606,
+            0.52015947
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            64.46572876,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00198064,
+            -0.12975611,
+            0.51646628
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            75.01884842,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00303483,
+            -0.08370564,
+            0.44933311
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            77.51255798,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            -0.00523638,
+            -0.122759,
+            0.48017143
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -110.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00787375,
+            -0.30378746,
+            0.18267421
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            0,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -41.64999962,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00132909,
+            -0.37383497,
+            0.1281132
+          ]
+        },
+        {
+          "children_left": [
+            1,
+            -1,
+            -1
+          ],
+          "children_right": [
+            2,
+            -1,
+            -1
+          ],
+          "feature": [
+            2,
+            -2,
+            -2
+          ],
+          "threshold": [
+            -165.5,
+            -2.0,
+            -2.0
+          ],
+          "value": [
+            0.00076503,
+            -0.35231558,
+            0.12996642
+          ]
+        }
+      ],
+      "version": "portable-20260830164241"
     },
     "state_policy": "ranked_top120",
-    "team_count": 477,
+    "team_count": 478,
     "teams": [
       {
         "elo": 1865.14,
@@ -13539,10 +17665,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 7
       },
       {
-        "elo": 1637.09,
-        "last_result_utc": "2026-08-28T15:24:46Z",
-        "matches": 140,
-        "recent_win_rate_10": 0.5129,
+        "elo": 1647.51,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 141,
+        "recent_win_rate_10": 0.6015,
         "team_key": "aurora",
         "team_name": "Aurora",
         "vrs_points": 1741.0,
@@ -13579,10 +17705,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 11
       },
       {
-        "elo": 1715.84,
-        "last_result_utc": "2026-08-29T16:45:04Z",
-        "matches": 69,
-        "recent_win_rate_10": 0.6273,
+        "elo": 1723.98,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 70,
+        "recent_win_rate_10": 0.6951,
         "team_key": "fut",
         "team_name": "FUT",
         "vrs_points": 1694.0,
@@ -13776,10 +17902,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 32
       },
       {
-        "elo": 1553.54,
-        "last_result_utc": "2026-08-29T01:46:27Z",
-        "matches": 111,
-        "recent_win_rate_10": 0.3728,
+        "elo": 1543.12,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 112,
+        "recent_win_rate_10": 0.305,
         "team_key": "m80",
         "team_name": "M80",
         "vrs_points": 1385.0,
@@ -13845,10 +17971,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 40
       },
       {
-        "elo": 1483.71,
-        "last_result_utc": "2026-08-09T13:17:18Z",
-        "matches": 68,
-        "recent_win_rate_10": 0.4348,
+        "elo": 1494.87,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 69,
+        "recent_win_rate_10": 0.5376,
         "team_key": "virtus.pro",
         "team_name": "Virtus.pro",
         "vrs_points": 1329.0,
@@ -13865,10 +17991,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 42
       },
       {
-        "elo": 1567.44,
-        "last_result_utc": "2026-08-29T16:45:04Z",
-        "matches": 54,
-        "recent_win_rate_10": 0.5765,
+        "elo": 1559.3,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 55,
+        "recent_win_rate_10": 0.4717,
         "team_key": "inner circle",
         "team_name": "Inner Circle",
         "vrs_points": 1316.0,
@@ -14041,10 +18167,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 63
       },
       {
-        "elo": 1494.07,
-        "last_result_utc": "2026-08-28T15:24:46Z",
-        "matches": 8,
-        "recent_win_rate_10": 0.4158,
+        "elo": 1507.48,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 9,
+        "recent_win_rate_10": 0.522,
         "team_key": "thunder downunder",
         "team_name": "THUNDER dOWNUNDER",
         "vrs_points": 1181.0,
@@ -14176,10 +18302,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 78
       },
       {
-        "elo": 1546.82,
-        "last_result_utc": "2026-08-29T16:45:04Z",
-        "matches": 24,
-        "recent_win_rate_10": 0.6014,
+        "elo": 1562.27,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 25,
+        "recent_win_rate_10": 0.6739,
         "team_key": "inox division",
         "team_name": "INOX Division",
         "vrs_points": 1121.0,
@@ -14206,10 +18332,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 81
       },
       {
-        "elo": 1546.25,
-        "last_result_utc": "2026-08-29T01:46:27Z",
-        "matches": 12,
-        "recent_win_rate_10": 0.776,
+        "elo": 1557.74,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 13,
+        "recent_win_rate_10": 0.8167,
         "team_key": "nexvoid",
         "team_name": "NEXVOID",
         "vrs_points": 1115.0,
@@ -14341,10 +18467,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 98
       },
       {
-        "elo": 1593.31,
-        "last_result_utc": "2026-08-29T16:45:04Z",
-        "matches": 80,
-        "recent_win_rate_10": 0.8557,
+        "elo": 1577.86,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 81,
+        "recent_win_rate_10": 0.7001,
         "team_key": "genone",
         "team_name": "GenOne",
         "vrs_points": 1061.0,
@@ -14390,10 +18516,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 105
       },
       {
-        "elo": 1490.99,
-        "last_result_utc": "2026-08-29T01:46:27Z",
-        "matches": 75,
-        "recent_win_rate_10": 0.6416,
+        "elo": 1479.5,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 76,
+        "recent_win_rate_10": 0.5249,
         "team_key": "rare atom",
         "team_name": "Rare Atom",
         "vrs_points": 1033.0,
@@ -14410,10 +18536,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 107
       },
       {
-        "elo": 1430.51,
-        "last_result_utc": "2026-08-19T15:48:02Z",
-        "matches": 70,
-        "recent_win_rate_10": 0.3169,
+        "elo": 1418.53,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 71,
+        "recent_win_rate_10": 0.2593,
         "team_key": "mouz nxt",
         "team_name": "MOUZ NXT",
         "vrs_points": 1025.0,
@@ -14448,10 +18574,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 111
       },
       {
-        "elo": 1390.05,
-        "last_result_utc": "2026-08-29T16:45:04Z",
-        "matches": 12,
-        "recent_win_rate_10": 0.0547,
+        "elo": 1371.13,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 14,
+        "recent_win_rate_10": 0.0367,
         "team_key": "atreides",
         "team_name": "Atreides",
         "vrs_points": 1017.0,
@@ -14487,10 +18613,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 115
       },
       {
-        "elo": 1521.06,
-        "last_result_utc": "2026-08-29T20:57:10Z",
-        "matches": 16,
-        "recent_win_rate_10": 0.5986,
+        "elo": 1510.03,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 17,
+        "recent_win_rate_10": 0.4898,
         "team_key": "phantom",
         "team_name": "Phantom",
         "vrs_points": 1004.0,
@@ -14585,10 +18711,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 126
       },
       {
-        "elo": 1536.56,
-        "last_result_utc": "2026-08-29T16:45:04Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.7171,
+        "elo": 1524.15,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.5867,
         "team_key": "alter ego",
         "team_name": "Alter Ego",
         "vrs_points": 961.0,
@@ -14615,10 +18741,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 130
       },
       {
-        "elo": 1525.03,
-        "last_result_utc": "2026-08-28T15:24:46Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.6653,
+        "elo": 1511.62,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.5443,
         "team_key": "ground zero",
         "team_name": "Ground Zero",
         "vrs_points": 936.0,
@@ -14701,10 +18827,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 143
       },
       {
-        "elo": 1479.91,
-        "last_result_utc": "2026-08-29T16:45:04Z",
-        "matches": 58,
-        "recent_win_rate_10": 0.5982,
+        "elo": 1495.54,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 59,
+        "recent_win_rate_10": 0.6713,
         "team_key": "unity",
         "team_name": "UNiTY",
         "vrs_points": 905.0,
@@ -14758,10 +18884,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 151
       },
       {
-        "elo": 1452.56,
-        "last_result_utc": "2026-08-17T18:59:46Z",
-        "matches": 13,
-        "recent_win_rate_10": 0.3984,
+        "elo": 1466.93,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 14,
+        "recent_win_rate_10": 0.5078,
         "team_key": "inner circle academy",
         "team_name": "Inner Circle Academy",
         "vrs_points": 872.0,
@@ -14852,10 +18978,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 162
       },
       {
-        "elo": 1588.37,
-        "last_result_utc": "2026-08-29T10:07:02Z",
-        "matches": 7,
-        "recent_win_rate_10": 0.8773,
+        "elo": 1599.4,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 8,
+        "recent_win_rate_10": 0.8996,
         "team_key": "ex-zero tenacity",
         "team_name": "ex-Zero Tenacity",
         "vrs_points": 848.0,
@@ -14939,20 +19065,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 173
       },
       {
-        "elo": 1534.05,
-        "last_result_utc": "2026-08-29T16:45:04Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.7171,
+        "elo": 1546.46,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.7685,
         "team_key": "just swing",
         "team_name": "Just Swing",
         "vrs_points": 816.0,
         "vrs_rank": 174
       },
       {
-        "elo": 1440.16,
-        "last_result_utc": "2026-08-30T11:57:01Z",
-        "matches": 15,
-        "recent_win_rate_10": 0.2185,
+        "elo": 1452.14,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 16,
+        "recent_win_rate_10": 0.3606,
         "team_key": "entropy",
         "team_name": "Entropy",
         "vrs_points": 807.0,
@@ -15054,10 +19180,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 185
       },
       {
-        "elo": 1423.87,
-        "last_result_utc": "2026-08-18T18:58:16Z",
-        "matches": 10,
-        "recent_win_rate_10": 0.1517,
+        "elo": 1456.06,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 12,
+        "recent_win_rate_10": 0.4321,
         "team_key": "fortress",
         "team_name": "Fortress",
         "vrs_points": 782.0,
@@ -15203,10 +19329,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 204
       },
       {
-        "elo": 1456.6,
-        "last_result_utc": "2026-08-29T20:57:10Z",
-        "matches": 13,
-        "recent_win_rate_10": 0.3859,
+        "elo": 1467.35,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 14,
+        "recent_win_rate_10": 0.4976,
         "team_key": "honv\u00e9d",
         "team_name": "Honv\u00e9d",
         "vrs_points": 742.0,
@@ -15269,10 +19395,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 213
       },
       {
-        "elo": 1486.19,
-        "last_result_utc": "2026-08-29T01:46:27Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.4226,
+        "elo": 1474.17,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.3458,
         "team_key": "bestia academy",
         "team_name": "BESTIA Academy",
         "vrs_points": 724.0,
@@ -15391,10 +19517,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 227
       },
       {
-        "elo": 1494.79,
-        "last_result_utc": "2026-08-28T15:24:46Z",
-        "matches": 8,
-        "recent_win_rate_10": 0.4247,
+        "elo": 1506.81,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 9,
+        "recent_win_rate_10": 0.5293,
         "team_key": "alka",
         "team_name": "ALKA",
         "vrs_points": 693.0,
@@ -15559,10 +19685,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 245
       },
       {
-        "elo": 1471.24,
-        "last_result_utc": "2026-08-18T21:40:17Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.3347,
+        "elo": 1456.87,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.2738,
         "team_key": "strael bora",
         "team_name": "Strael Bora",
         "vrs_points": 662.0,
@@ -16234,10 +20360,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 324
       },
       {
-        "elo": 1450.9,
-        "last_result_utc": "2026-08-19T18:55:16Z",
-        "matches": 91,
-        "recent_win_rate_10": 0.4585,
+        "elo": 1439.74,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 92,
+        "recent_win_rate_10": 0.3751,
         "team_key": "fire flux",
         "team_name": "Fire Flux",
         "vrs_points": 516.0,
@@ -17076,10 +21202,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1506.06,
-        "last_result_utc": "2026-08-29T01:46:27Z",
-        "matches": 13,
-        "recent_win_rate_10": 0.5893,
+        "elo": 1519.46,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 14,
+        "recent_win_rate_10": 0.664,
         "team_key": "permitta",
         "team_name": "permitta",
         "vrs_points": null,
@@ -17281,10 +21407,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1575.54,
-        "last_result_utc": "2026-08-29T16:45:04Z",
-        "matches": 25,
-        "recent_win_rate_10": 0.6965,
+        "elo": 1559.91,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 26,
+        "recent_win_rate_10": 0.5699,
         "team_key": "ex rustec",
         "team_name": "ex-RUSTEC",
         "vrs_points": 0,
@@ -17381,20 +21507,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1503.94,
-        "last_result_utc": "2026-08-28T15:24:46Z",
-        "matches": 11,
-        "recent_win_rate_10": 0.3747,
+        "elo": 1514.46,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 12,
+        "recent_win_rate_10": 0.4884,
         "team_key": "wbt",
         "team_name": "WBT",
         "vrs_points": 0,
         "vrs_rank": null
       },
       {
-        "elo": 1554.43,
-        "last_result_utc": "2026-08-29T20:57:10Z",
-        "matches": 15,
-        "recent_win_rate_10": 0.6941,
+        "elo": 1545.86,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 17,
+        "recent_win_rate_10": 0.6465,
         "team_key": "noir verse",
         "team_name": "Noir Verse",
         "vrs_points": 0,
@@ -17691,10 +21817,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1452.8,
-        "last_result_utc": "2026-08-17T13:07:34Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.2829,
+        "elo": 1442.28,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.2315,
         "team_key": "berg",
         "team_name": "BERG",
         "vrs_points": 0,
@@ -17751,10 +21877,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1487.02,
-        "last_result_utc": "2026-08-24T19:01:05Z",
-        "matches": 7,
-        "recent_win_rate_10": 0.4196,
+        "elo": 1471.57,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 8,
+        "recent_win_rate_10": 0.3433,
         "team_key": "pcific",
         "team_name": "PCIFIC",
         "vrs_points": 0,
@@ -18007,6 +22133,16 @@ window.__STRIKESIGNAL_DATA__ = {
         "recent_win_rate_10": 0.4557,
         "team_key": "sementes do mal",
         "team_name": "Sementes do Mal",
+        "vrs_points": 0,
+        "vrs_rank": null
+      },
+      {
+        "elo": 1486.6,
+        "last_result_utc": "2026-08-30T16:42:42Z",
+        "matches": 1,
+        "recent_win_rate_10": 0.4091,
+        "team_key": "azuolas",
+        "team_name": "Azuolas",
         "vrs_points": 0,
         "vrs_rank": null
       }
@@ -21022,505 +25158,10 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5214,
+      "confidence": 0.5706,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5214,
-      "event_id": "hltv:9324",
-      "event_name": "CCT 2026 Europe Series 7",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2396689",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "ex-Zero Tenacity",
-      "prob_team1": 0.5214,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396689/ex-zero-tenacity-vs-phantom-cct-2026-europe-series-7",
-      "stage_name": "Semifinal",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "ex-Zero Tenacity",
-      "team1_vrs_rank": 163,
-      "team2_hltv_rank": null,
-      "team2_name": "Phantom",
-      "team2_vrs_rank": 116
-    },
-    {
-      "confidence": 0.5075,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5075,
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2396983",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "BESTIA Academy",
-      "prob_team1": 0.5075,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396983/bestia-academy-vs-alka-cct-2026-south-america-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "BESTIA Academy",
-      "team1_vrs_rank": 214,
-      "team2_hltv_rank": null,
-      "team2_name": "ALKA",
-      "team2_vrs_rank": 228
-    },
-    {
-      "confidence": 0.6023,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.6023,
-      "event_id": "hltv:9329",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397122",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "NEXVOID",
-      "prob_team1": 0.6023,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397122/nexvoid-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "NEXVOID",
-      "team1_vrs_rank": 82,
-      "team2_hltv_rank": null,
-      "team2_name": "Rare Atom",
-      "team2_vrs_rank": 106
-    },
-    {
-      "confidence": 0.561,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.439,
-      "event_id": "hltv:9329",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397123",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Alter Ego",
-      "prob_team1": 0.439,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397123/just-swing-vs-alter-ego-esl-challenger-league-season-52-asia-pacific-cup-1",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Just Swing",
-      "team1_vrs_rank": 174,
-      "team2_hltv_rank": null,
-      "team2_name": "Alter Ego",
-      "team2_vrs_rank": 127
-    },
-    {
-      "confidence": 0.6867,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.6867,
-      "event_id": "hltv:9263",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397344",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Virtus.pro",
-      "prob_team1": 0.6867,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397344/virtuspro-vs-fire-flux-esl-challenger-league-season-52-europe-cup-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Virtus.pro",
-      "team1_vrs_rank": 41,
-      "team2_hltv_rank": null,
-      "team2_name": "Fire Flux",
-      "team2_vrs_rank": 325
-    },
-    {
-      "confidence": 0.548,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.548,
-      "event_id": "hltv:9263",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397345",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Inner Circle Academy",
-      "prob_team1": 0.548,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397345/inner-circle-academy-vs-strael-bora-esl-challenger-league-season-52-europe-cup-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Inner Circle Academy",
-      "team1_vrs_rank": 152,
-      "team2_hltv_rank": null,
-      "team2_name": "Strael Bora",
-      "team2_vrs_rank": 246
-    },
-    {
-      "confidence": 0.549,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.451,
-      "event_id": "hltv:9263",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397346",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Misa",
-      "prob_team1": 0.451,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397346/baks-vs-misa-esl-challenger-league-season-52-europe-cup-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "BAKS",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Misa",
-      "team2_vrs_rank": 182
-    },
-    {
-      "confidence": 0.5603,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5603,
-      "event_id": "hltv:9263",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397347",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "MOUZ NXT",
-      "prob_team1": 0.5603,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397347/mouz-nxt-vs-entropy-esl-challenger-league-season-52-europe-cup-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "MOUZ NXT",
-      "team1_vrs_rank": 108,
-      "team2_hltv_rank": null,
-      "team2_name": "Entropy",
-      "team2_vrs_rank": 175
-    },
-    {
-      "confidence": 0.5404,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4596,
-      "event_id": "hltv:9263",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397348",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Fortress",
-      "prob_team1": 0.4596,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397348/pcific-vs-fortress-esl-challenger-league-season-52-europe-cup-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "PCIFIC",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Fortress",
-      "team2_vrs_rank": 186
-    },
-    {
-      "confidence": 0.5774,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5774,
-      "event_id": "hltv:9263",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397349",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Noir Verse",
-      "prob_team1": 0.5774,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397349/noir-verse-vs-atreides-esl-challenger-league-season-52-europe-cup-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Noir Verse",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Atreides",
-      "team2_vrs_rank": 112
-    },
-    {
-      "confidence": 0.5025,
-      "confidence_label": "thin",
-      "data_quality": "partial",
-      "elo_prob_team1": 0.4975,
-      "event_id": "hltv:9263",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397350",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Permitta",
-      "prob_team1": 0.4975,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397350/azuolas-vs-permitta-esl-challenger-league-season-52-europe-cup-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Azuolas",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Permitta",
-      "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.5646,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5646,
-      "event_id": "hltv:9263",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397351",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788094800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "WBT",
-      "prob_team1": 0.5646,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397351/wbt-vs-berg-esl-challenger-league-season-52-europe-cup-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T13:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "WBT",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "BERG",
-      "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.5012,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5012,
-      "event_id": "hltv:9351",
-      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2397235",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788098400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "ex-RUSTEC",
-      "prob_team1": 0.5012,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397235/ex-rustec-vs-unity-cct-2026-europe-series-8-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T14:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "ex-RUSTEC",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "UNiTY",
-      "team2_vrs_rank": 144
-    },
-    {
-      "confidence": 0.5421,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5421,
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2396984",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788105600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "paiN Academy",
-      "prob_team1": 0.5421,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396984/pain-academy-vs-damajuana-cct-2026-south-america-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T16:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "paiN Academy",
-      "team1_vrs_rank": 183,
-      "team2_hltv_rank": null,
-      "team2_name": "DAMAJUANA",
-      "team2_vrs_rank": 326
-    },
-    {
-      "confidence": 0.721,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.721,
-      "event_id": "hltv:8249",
-      "event_name": "BLAST Open Porto 2026",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-08-30",
-      "match_id": "hltv:2396941",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788107400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Vitality",
-      "prob_team1": 0.721,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396941/vitality-vs-legacy-blast-open-porto-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-08-30T16:30:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Vitality",
-      "team1_vrs_rank": 1,
-      "team2_hltv_rank": null,
-      "team2_name": "Legacy",
-      "team2_vrs_rank": 6
-    },
-    {
-      "confidence": 0.6174,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.3826,
+      "elo_prob_team1": 0.4294,
       "event_id": "hltv:9351",
       "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
       "format": "bo3",
@@ -21534,7 +25175,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Noir Verse",
-      "prob_team1": 0.3826,
+      "prob_team1": 0.4294,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -21550,10 +25191,175 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": null
     },
     {
-      "confidence": 0.5508,
+      "confidence": 0.6301,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.3699,
+      "event_id": "hltv:9263",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-30",
+      "match_id": "hltv:2397352",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788109200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Virtus.pro",
+      "prob_team1": 0.3699,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397352/inner-circle-academy-vs-virtuspro-esl-challenger-league-season-52-europe-cup-5",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-30T17:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Inner Circle Academy",
+      "team1_vrs_rank": 152,
+      "team2_hltv_rank": null,
+      "team2_name": "Virtus.pro",
+      "team2_vrs_rank": 41
+    },
+    {
+      "confidence": 0.5994,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5994,
+      "event_id": "hltv:9263",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-30",
+      "match_id": "hltv:2397353",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788109200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Strael Bora",
+      "prob_team1": 0.5994,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397353/strael-bora-vs-fire-flux-esl-challenger-league-season-52-europe-cup-5",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-30T17:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Strael Bora",
+      "team1_vrs_rank": 246,
+      "team2_hltv_rank": null,
+      "team2_name": "Fire Flux",
+      "team2_vrs_rank": 325
+    },
+    {
+      "confidence": 0.5471,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4492,
+      "elo_prob_team1": 0.5471,
+      "event_id": "hltv:9263",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-30",
+      "match_id": "hltv:2397357",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788109200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "PCIFIC",
+      "prob_team1": 0.5471,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397357/pcific-vs-atreides-esl-challenger-league-season-52-europe-cup-5",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-30T17:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "PCIFIC",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Atreides",
+      "team2_vrs_rank": 112
+    },
+    {
+      "confidence": 0.5176,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5176,
+      "event_id": "hltv:9263",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-30",
+      "match_id": "hltv:2397358",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788109200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Permitta",
+      "prob_team1": 0.5176,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397358/permitta-vs-wbt-esl-challenger-league-season-52-europe-cup-5",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-30T17:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Permitta",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "WBT",
+      "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.5516,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5516,
+      "event_id": "hltv:9263",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-30",
+      "match_id": "hltv:2397359",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788109200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Azuolas",
+      "prob_team1": 0.5516,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397359/azuolas-vs-berg-esl-challenger-league-season-52-europe-cup-5",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-30T17:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Azuolas",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "BERG",
+      "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.5361,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4639,
       "event_id": "hltv:9340",
       "event_name": "CCT 2026 South America Series 5",
       "format": "bo3",
@@ -21567,7 +25373,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Peladona",
-      "prob_team1": 0.4492,
+      "prob_team1": 0.4639,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -21583,10 +25389,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": null
     },
     {
-      "confidence": 0.5618,
+      "confidence": 0.5327,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4382,
+      "elo_prob_team1": 0.4673,
       "event_id": "hltv:9330",
       "event_name": "ESL Challenger League Season 52 South America Cup 1",
       "format": "bo3",
@@ -21600,7 +25406,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Imperial",
-      "prob_team1": 0.4382,
+      "prob_team1": 0.4673,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -21616,10 +25422,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 73
     },
     {
-      "confidence": 0.5951,
+      "confidence": 0.6115,
       "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.4049,
+      "elo_prob_team1": 0.3885,
       "event_id": "hltv:9330",
       "event_name": "ESL Challenger League Season 52 South America Cup 1",
       "format": "bo3",
@@ -21633,7 +25439,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "ShindeN",
-      "prob_team1": 0.4049,
+      "prob_team1": 0.3885,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -21649,10 +25455,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 59
     },
     {
-      "confidence": 0.5295,
+      "confidence": 0.5148,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4705,
+      "elo_prob_team1": 0.4852,
       "event_id": "hltv:9340",
       "event_name": "CCT 2026 South America Series 5",
       "format": "bo3",
@@ -21666,7 +25472,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Gr\u00eamio",
-      "prob_team1": 0.4705,
+      "prob_team1": 0.4852,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -21682,10 +25488,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": null
     },
     {
-      "confidence": 0.5928,
+      "confidence": 0.6067,
       "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.5928,
+      "elo_prob_team1": 0.6067,
       "event_id": "hltv:9331",
       "event_name": "ESL Challenger League Season 52 North America Cup 1",
       "format": "bo3",
@@ -21699,7 +25505,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Voca",
-      "prob_team1": 0.5928,
+      "prob_team1": 0.6067,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -21715,10 +25521,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 115
     },
     {
-      "confidence": 0.6142,
-      "confidence_label": "lean",
+      "confidence": 0.5749,
+      "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.3858,
+      "elo_prob_team1": 0.4251,
       "event_id": "hltv:9331",
       "event_name": "ESL Challenger League Season 52 North America Cup 1",
       "format": "bo3",
@@ -21732,7 +25538,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Chicken Coop",
-      "prob_team1": 0.3858,
+      "prob_team1": 0.4251,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -21748,10 +25554,76 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 107
     },
     {
-      "confidence": 0.5612,
+      "confidence": 0.5172,
       "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5172,
+      "event_id": "hltv:9333",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2397398",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788152400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "The Huns",
+      "prob_team1": 0.5172,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397398/the-huns-vs-staqued-fissure-playground-3-asia-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-31T05:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "The Huns",
+      "team1_vrs_rank": 70,
+      "team2_hltv_rank": null,
+      "team2_name": "Staqued",
+      "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.6094,
+      "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.5612,
+      "elo_prob_team1": 0.6094,
+      "event_id": "hltv:9333",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2397399",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788161400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "NEXVOID",
+      "prob_team1": 0.6094,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397399/nexvoid-vs-just-swing-fissure-playground-3-asia-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-31T07:30:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "NEXVOID",
+      "team1_vrs_rank": 82,
+      "team2_hltv_rank": null,
+      "team2_name": "Just Swing",
+      "team2_vrs_rank": 174
+    },
+    {
+      "confidence": 0.5878,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5878,
       "event_id": "hltv:9351",
       "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
       "format": "bo3",
@@ -21765,7 +25637,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "HAVU",
-      "prob_team1": 0.5612,
+      "prob_team1": 0.5878,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -21781,10 +25653,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 227
     },
     {
-      "confidence": 0.7425,
+      "confidence": 0.714,
       "confidence_label": "watch",
       "data_quality": "full",
-      "elo_prob_team1": 0.7425,
+      "elo_prob_team1": 0.714,
       "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
       "format": "bo3",
@@ -21798,7 +25670,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Spirit",
-      "prob_team1": 0.7425,
+      "prob_team1": 0.714,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -21812,12 +25684,276 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "FURIA",
       "team2_vrs_rank": 11
+    },
+    {
+      "confidence": 0.5989,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4011,
+      "event_id": "hltv:9328",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2397094",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788166800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Ground Zero",
+      "prob_team1": 0.4011,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397094/arcade-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-1",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-08-31T09:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Arcade",
+      "team1_vrs_rank": 216,
+      "team2_hltv_rank": null,
+      "team2_name": "Ground Zero",
+      "team2_vrs_rank": 132
+    },
+    {
+      "confidence": 0.5447,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5447,
+      "event_id": "hltv:9333",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2397400",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788170400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Rare Atom",
+      "prob_team1": 0.5447,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397400/rare-atom-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-31T10:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Rare Atom",
+      "team1_vrs_rank": 106,
+      "team2_hltv_rank": null,
+      "team2_name": "Kaleido",
+      "team2_vrs_rank": 113
+    },
+    {
+      "confidence": 0.5952,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5952,
+      "event_id": "hltv:9351",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2397238",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788174000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Misa",
+      "prob_team1": 0.5952,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397238/misa-vs-mai-tai-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-31T11:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Misa",
+      "team1_vrs_rank": 182,
+      "team2_hltv_rank": null,
+      "team2_name": "Mai Tai",
+      "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.5046,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5046,
+      "event_id": "hltv:8249",
+      "event_name": "BLAST Open Porto 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2396944",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788175800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "G2",
+      "prob_team1": 0.5046,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396944/g2-vs-aurora-blast-open-porto-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-31T11:30:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "G2",
+      "team1_vrs_rank": 13,
+      "team2_hltv_rank": null,
+      "team2_name": "Aurora",
+      "team2_vrs_rank": 8
+    },
+    {
+      "confidence": 0.5444,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5444,
+      "event_id": "hltv:9333",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2397401",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788179400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "5star",
+      "prob_team1": 0.5444,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397401/5star-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-31T12:30:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "5star",
+      "team1_vrs_rank": 65,
+      "team2_hltv_rank": null,
+      "team2_name": "Chinggis Warriors",
+      "team2_vrs_rank": 84
+    },
+    {
+      "confidence": 0.5296,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5296,
+      "event_id": "hltv:9329",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2397124",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788181200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Rare Atom",
+      "prob_team1": 0.5296,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397124/rare-atom-vs-just-swing-esl-challenger-league-season-52-asia-pacific-cup-1",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-08-31T13:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Rare Atom",
+      "team1_vrs_rank": 106,
+      "team2_hltv_rank": null,
+      "team2_name": "Just Swing",
+      "team2_vrs_rank": 174
+    },
+    {
+      "confidence": 0.5661,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4339,
+      "event_id": "hltv:8249",
+      "event_name": "BLAST Open Porto 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2396945",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788184800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Falcons",
+      "prob_team1": 0.4339,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2396945/mouz-vs-falcons-blast-open-porto-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-31T14:00:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "MOUZ",
+      "team1_vrs_rank": 5,
+      "team2_hltv_rank": null,
+      "team2_name": "Falcons",
+      "team2_vrs_rank": 3
+    },
+    {
+      "confidence": 0.5685,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5685,
+      "event_id": "hltv:9351",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-08-31",
+      "match_id": "hltv:2397239",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788184800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Bushido Wildcats",
+      "prob_team1": 0.5685,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397239/bushido-wildcats-vs-ex-rustec-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-08-31T14:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Bushido Wildcats",
+      "team1_vrs_rank": 239,
+      "team2_hltv_rank": null,
+      "team2_name": "ex-RUSTEC",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 70,
-    "online_results_applied": 3,
+    "live_feed_items": 68,
+    "online_results_applied": 18,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
