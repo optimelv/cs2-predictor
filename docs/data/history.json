@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-08-31T05:37:54Z",
+  "generated_at_utc": "2026-08-31T13:53:22Z",
   "through_date": "2026-08-31",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1698,
+    "matches": 1706,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -925,6 +925,182 @@
       "score2": 0,
       "winner_name": "ODDIK",
       "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396943",
+      "match_date": "2026-08-31",
+      "event_name": "BLAST Open Porto 2026",
+      "team1_name": "Spirit",
+      "team2_name": "FURIA",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397400",
+      "match_date": "2026-08-31",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "team1_name": "Rare Atom",
+      "team2_name": "Kaleido",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Rare Atom",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397238",
+      "match_date": "2026-08-31",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "team1_name": "Misa",
+      "team2_name": "Mai Tai",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Misa",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397239",
+      "match_date": "2026-08-31",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "team1_name": "Bushido Wildcats",
+      "team2_name": "ex-RUSTEC",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "Bushido Wildcats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397399",
+      "match_date": "2026-08-31",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "team1_name": "NEXVOID",
+      "team2_name": "Just Swing",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "NEXVOID",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397094",
+      "match_date": "2026-08-31",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
+      "team1_name": "Arcade",
+      "team2_name": "Ground Zero",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Ground Zero",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397237",
+      "match_date": "2026-08-31",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "team1_name": "HAVU",
+      "team2_name": "Endless Journey",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "HAVU",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397398",
+      "match_date": "2026-08-31",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "team1_name": "The Huns",
+      "team2_name": "Staqued",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "The Huns",
+      "tier": "tier_1",
       "best_of": 3,
       "phase": "Completed series",
       "stage_name": "Completed series",
