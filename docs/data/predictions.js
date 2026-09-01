@@ -3,126 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
-        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
-        "event_url": null,
-        "hltv_match_id": "2397115",
-        "maps": [],
-        "match_id": "hltv:2397115",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397115/5star-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-1",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "5star",
-        "team2_name": "Vitalem Aerem",
-        "winner_name": "Vitalem Aerem"
-      },
-      {
-        "event_id": "hltv:cct-2026-south-america-series-5",
-        "event_name": "CCT 2026 South America Series 5",
-        "event_url": null,
-        "hltv_match_id": "2396971",
-        "maps": [],
-        "match_id": "hltv:2396971",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 1,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396971/manso-maromba-vs-damajuana-cct-2026-south-america-series-5",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Mans\u00e3o Maromba",
-        "team2_name": "DAMAJUANA",
-        "winner_name": "DAMAJUANA"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
-        "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2397223",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Cache",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Ancient",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Anubis",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2397223",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397223/permitta-vs-misa-cct-2026-europe-series-8-closed-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Permitta",
-        "team2_name": "Misa",
-        "veto_text": "Best of 3 (Online)\n\n* Group B opening match",
-        "winner_name": "Permitta"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-7",
-        "event_name": "CCT 2026 Europe Series 7",
-        "event_url": null,
-        "hltv_match_id": "2396678",
-        "maps": [],
-        "match_id": "hltv:2396678",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396678/acend-vs-unity-cct-2026-europe-series-7",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Acend",
-        "team2_name": "UNiTY",
-        "winner_name": "Acend"
-      },
-      {
-        "event_id": "hltv:blast-open-porto-2026",
-        "event_name": "BLAST Open Porto 2026",
-        "event_url": null,
-        "hltv_match_id": "2396929",
-        "maps": [],
-        "match_id": "hltv:2396929",
-        "product_tier": "tier_1",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396929/legacy-vs-fut-blast-open-porto-2026",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Legacy",
-        "team2_name": "FUT",
-        "winner_name": "Legacy"
-      },
-      {
         "event_id": "hltv:blast-open-porto-2026",
         "event_name": "BLAST Open Porto 2026",
         "event_url": null,
@@ -3321,20 +3201,23 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "THUNDER dOWNUNDER"
       },
       {
-        "event_id": "hltv:9333",
+        "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
         "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
         "event_url": null,
         "hltv_match_id": "2397403",
         "maps": [],
         "match_id": "hltv:2397403",
         "product_tier": "tier_1",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397403/just-swing-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Just Swing",
-        "team2_name": "Chinggis Warriors"
+        "team2_name": "Chinggis Warriors",
+        "winner_name": "Chinggis Warriors"
       },
       {
         "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
@@ -3375,25 +3258,28 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "5star"
       },
       {
-        "event_id": "hltv:9329",
+        "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
         "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
         "event_url": null,
         "hltv_match_id": "2397125",
         "maps": [],
         "match_id": "hltv:2397125",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397125/nexvoid-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
-        "stage_name": "Grand Final",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "NEXVOID",
-        "team2_name": "Rare Atom"
+        "team2_name": "Rare Atom",
+        "winner_name": "NEXVOID"
       },
       {
         "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
         "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397368",
         "lineups": {
           "team1": [],
@@ -3419,53 +3305,183 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Anubis",
-          "Dust2",
-          "Ancient"
-        ],
+        "maps": [],
         "match_id": "hltv:2397368",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397368/virtuspro-vs-wbt-esl-challenger-league-season-52-europe-cup-5",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Virtus.pro",
         "team2_name": "WBT",
-        "veto_text": "Best of 3 (Online)\n\n* Semi-final"
+        "veto_text": "Best of 3 (Online)\n\n* Semi-final",
+        "winner_name": "Virtus.pro"
       },
       {
-        "event_id": "hltv:9263",
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
         "event_name": "ESL Challenger League Season 52 Europe Cup 5",
         "event_url": null,
         "hltv_match_id": "2397369",
         "maps": [],
         "match_id": "hltv:2397369",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397369/inner-circle-academy-vs-entropy-esl-challenger-league-season-52-europe-cup-5",
-        "stage_name": "Semifinal",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Inner Circle Academy",
-        "team2_name": "Entropy"
+        "team2_name": "Entropy",
+        "winner_name": "Entropy"
       },
       {
-        "event_id": "hltv:9351",
+        "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
         "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
         "event_url": null,
         "hltv_match_id": "2397243",
         "maps": [],
         "match_id": "hltv:2397243",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397243/unity-vs-misa-cct-2026-europe-series-8-closed-qualifier",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "UNiTY",
+        "team2_name": "Misa",
+        "winner_name": "UNiTY"
+      },
+      {
+        "event_id": "hltv:cct-2026-south-america-series-5",
+        "event_name": "CCT 2026 South America Series 5",
+        "event_url": null,
+        "hltv_match_id": "2396990",
+        "maps": [],
+        "match_id": "hltv:2396990",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2396990/borracheiros-vs-alka-cct-2026-south-america-series-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "BORRACHEIROS",
+        "team2_name": "ALKA",
+        "winner_name": "ALKA"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
+        "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2397244",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Cache",
+            "score1": 9,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": 2,
+            "score2": 10,
+            "status": "finished"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Cache",
+          "Nuke",
+          "Mirage"
+        ],
+        "match_id": "hltv:2397244",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397244/noir-verse-vs-havu-cct-2026-europe-series-8-closed-qualifier",
         "stage_name": "Scheduled series",
         "starts_at": null,
         "status": "live",
-        "team1_name": "UNiTY",
-        "team2_name": "Misa"
+        "team1_name": "Noir Verse",
+        "team2_name": "HAVU",
+        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 8.\n\n** peku (coach) substitutes 8Juho8."
+      },
+      {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2397370",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": 5,
+            "score2": 7,
+            "status": "finished"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Nuke"
+        ],
+        "match_id": "hltv:2397370",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397370/inner-circle-academy-vs-wbt-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Inner Circle Academy",
+        "team2_name": "WBT",
+        "veto_text": "Best of 3 (Online)\n\n* 3rd place decider match"
+      },
+      {
+        "event_id": "hltv:9263",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+        "event_url": null,
+        "hltv_match_id": "2397371",
+        "maps": [],
+        "match_id": "hltv:2397371",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397371/entropy-vs-virtuspro-esl-challenger-league-season-52-europe-cup-5",
+        "stage_name": "Grand Final",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Entropy",
+        "team2_name": "Virtus.pro"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -3592,38 +3608,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "event_id": "hltv:9340",
         "event_name": "CCT 2026 South America Series 5",
         "event_url": null,
-        "hltv_match_id": "2396990",
-        "maps": [],
-        "match_id": "hltv:2396990",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2396990/borracheiros-vs-alka-cct-2026-south-america-series-5",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-01T16:00:00Z",
-        "status": "upcoming",
-        "team1_name": "BORRACHEIROS",
-        "team2_name": "ALKA"
-      },
-      {
-        "event_id": "hltv:9351",
-        "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2397244",
-        "maps": [],
-        "match_id": "hltv:2397244",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397244/noir-verse-vs-havu-cct-2026-europe-series-8-closed-qualifier",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-01T17:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Noir Verse",
-        "team2_name": "HAVU"
-      },
-      {
-        "event_id": "hltv:9340",
-        "event_name": "CCT 2026 South America Series 5",
-        "event_url": null,
         "hltv_match_id": "2396991",
         "maps": [],
         "match_id": "hltv:2396991",
@@ -3683,6 +3667,22 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "Voca",
         "team2_name": "Marsborne"
+      },
+      {
+        "event_id": "hltv:9333",
+        "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2397406",
+        "maps": [],
+        "match_id": "hltv:2397406",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397406/nexvoid-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-02T03:00:00Z",
+        "status": "upcoming",
+        "team1_name": "NEXVOID",
+        "team2_name": "Kaleido"
       },
       {
         "event_id": "hltv:9295",
@@ -3818,6 +3818,22 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "GamerLegion"
       },
       {
+        "event_id": "hltv:9333",
+        "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2397407",
+        "maps": [],
+        "match_id": "hltv:2397407",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397407/the-huns-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-02T09:00:00Z",
+        "status": "upcoming",
+        "team1_name": "The Huns",
+        "team2_name": "Chinggis Warriors"
+      },
+      {
         "event_id": "hltv:9293",
         "event_name": "IEM Beijing 2026 Closed Qualifier",
         "event_url": null,
@@ -3880,6 +3896,22 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "live",
         "team1_name": "Color",
         "team2_name": "B8"
+      },
+      {
+        "event_id": "hltv:9333",
+        "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2397408",
+        "maps": [],
+        "match_id": "hltv:2397408",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397408/rare-atom-vs-5star-fissure-playground-3-asia-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-02T12:30:00Z",
+        "status": "upcoming",
+        "team1_name": "Rare Atom",
+        "team2_name": "5star"
       },
       {
         "event_id": "hltv:8249",
@@ -6509,22 +6541,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9340",
             "event_name": "CCT 2026 South America Series 5",
             "event_url": null,
-            "hltv_match_id": "2396990",
-            "maps": [],
-            "match_id": "hltv:2396990",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396990/borracheiros-vs-alka-cct-2026-south-america-series-5",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-01T16:00:00Z",
-            "status": "upcoming",
-            "team1_name": "BORRACHEIROS",
-            "team2_name": "ALKA"
-          },
-          {
-            "event_id": "hltv:9340",
-            "event_name": "CCT 2026 South America Series 5",
-            "event_url": null,
             "hltv_match_id": "2396991",
             "maps": [],
             "match_id": "hltv:2396991",
@@ -6556,8 +6572,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 South America Series 5",
         "participants": [
-          "BORRACHEIROS",
-          "ALKA",
           "Procyon",
           "MEIA NOITE",
           "paiN Academy",
@@ -6671,25 +6685,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Vitality",
             "team2_name": "Legacy",
             "winner_name": "Vitality"
-          },
-          {
-            "event_id": "hltv:blast-open-porto-2026",
-            "event_name": "BLAST Open Porto 2026",
-            "event_url": null,
-            "hltv_match_id": "2396942",
-            "maps": [],
-            "match_id": "hltv:2396942",
-            "product_tier": "tier_1",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396942/inner-circle-vs-fut-blast-open-porto-2026",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Inner Circle",
-            "team2_name": "FUT",
-            "winner_name": "FUT"
           }
         ],
         "name": "BLAST Open Porto 2026",
@@ -6702,8 +6697,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Aurora",
           "Spirit",
           "FURIA",
-          "Legacy",
-          "Inner Circle"
+          "Legacy"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -7390,6 +7384,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-south-america-series-5",
             "event_name": "CCT 2026 South America Series 5",
             "event_url": null,
+            "hltv_match_id": "2396990",
+            "maps": [],
+            "match_id": "hltv:2396990",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2396990/borracheiros-vs-alka-cct-2026-south-america-series-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "BORRACHEIROS",
+            "team2_name": "ALKA",
+            "winner_name": "ALKA"
+          },
+          {
+            "event_id": "hltv:cct-2026-south-america-series-5",
+            "event_name": "CCT 2026 South America Series 5",
+            "event_url": null,
             "hltv_match_id": "2396989",
             "maps": [],
             "match_id": "hltv:2396989",
@@ -7480,29 +7493,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "BORRACHEIROS",
             "team2_name": "Peladona",
             "winner_name": "Peladona"
-          },
-          {
-            "event_id": "hltv:cct-2026-south-america-series-5",
-            "event_name": "CCT 2026 South America Series 5",
-            "event_url": null,
-            "hltv_match_id": "2396984",
-            "maps": [],
-            "match_id": "hltv:2396984",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2396984/pain-academy-vs-damajuana-cct-2026-south-america-series-5",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "paiN Academy",
-            "team2_name": "DAMAJUANA",
-            "winner_name": "paiN Academy"
           }
         ],
         "name": "CCT 2026 South America Series 5",
         "participants": [
+          "BORRACHEIROS",
+          "ALKA",
           "Mans\u00e3o Maromba",
           "Sementes do Mal",
           "DAMAJUANA",
@@ -7511,9 +7507,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Blitzkrieg",
           "ODDIK",
           "Gr\u00eamio",
-          "BORRACHEIROS",
-          "Peladona",
-          "paiN Academy"
+          "Peladona"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -7587,6 +7581,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
             "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
             "event_url": null,
+            "hltv_match_id": "2397125",
+            "maps": [],
+            "match_id": "hltv:2397125",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397125/nexvoid-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "NEXVOID",
+            "team2_name": "Rare Atom",
+            "winner_name": "NEXVOID"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-1",
+            "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+            "event_url": null,
             "hltv_match_id": "2397124",
             "maps": [],
             "match_id": "hltv:2397124",
@@ -7605,6 +7618,7 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
         "participants": [
+          "NEXVOID",
           "Rare Atom",
           "Just Swing"
         ],
@@ -7843,6 +7857,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
             "event_url": null,
+            "hltv_match_id": "2397243",
+            "maps": [],
+            "match_id": "hltv:2397243",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397243/unity-vs-misa-cct-2026-europe-series-8-closed-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "UNiTY",
+            "team2_name": "Misa",
+            "winner_name": "UNiTY"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
+            "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+            "event_url": null,
             "hltv_match_id": "2397242",
             "maps": [],
             "match_id": "hltv:2397242",
@@ -7971,16 +8004,62 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "SAW Youngsters",
             "team2_name": "Noir Verse",
             "winner_name": "Noir Verse"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
+            "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2397244",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Cache",
+                "score1": 9,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": 2,
+                "score2": 10,
+                "status": "finished"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Cache",
+              "Nuke",
+              "Mirage"
+            ],
+            "match_id": "hltv:2397244",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397244/noir-verse-vs-havu-cct-2026-europe-series-8-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "Noir Verse",
+            "team2_name": "HAVU",
+            "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 8.\n\n** peku (coach) substitutes 8Juho8."
           }
         ],
         "name": "CCT 2026 Europe Series 8 Closed Qualifier",
         "participants": [
+          "UNiTY",
+          "Misa",
           "ex-Zero Tenacity",
           "Honv\u00e9d",
           "Permitta",
           "Bushido Wildcats",
           "SAW Youngsters",
-          "Misa",
           "Mai Tai",
           "ex-RUSTEC",
           "HAVU",
@@ -7989,49 +8068,49 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "finished"
+        "status": "ongoing"
       },
       {
         "bracket": {
           "rounds": [
             {
               "bracket": "main",
-              "id": "main:semifinal",
+              "id": "main:grand-final",
               "matches": [
                 {
                   "event_id": "hltv:9263",
                   "event_name": "ESL Challenger League Season 52 Europe Cup 5",
                   "event_url": null,
                   "feeds_from": [],
-                  "hltv_match_id": "2397369",
+                  "hltv_match_id": "2397371",
                   "maps": [],
-                  "match_id": "hltv:2397369",
+                  "match_id": "hltv:2397371",
                   "product_tier": "tier_2",
-                  "round_name": "Semifinal",
+                  "round_name": "Grand Final",
                   "series_format": "bo3",
-                  "slot_id": "main:semifinal:1",
-                  "source_url": "https://www.hltv.org/matches/2397369/inner-circle-academy-vs-entropy-esl-challenger-league-season-52-europe-cup-5",
-                  "stage_name": "Semifinal",
+                  "slot_id": "main:grand-final:1",
+                  "source_url": "https://www.hltv.org/matches/2397371/entropy-vs-virtuspro-esl-challenger-league-season-52-europe-cup-5",
+                  "stage_name": "Grand Final",
                   "starts_at": null,
                   "status": "live",
-                  "team1_name": "Inner Circle Academy",
-                  "team2_name": "Entropy"
+                  "team1_name": "Entropy",
+                  "team2_name": "Virtus.pro"
                 }
               ],
-              "name": "Semifinal",
+              "name": "Grand Final",
               "order": 1
             }
           ],
           "type": "single_elimination"
         },
-        "current_stage": "Semifinal",
+        "current_stage": "Grand Final",
         "format": {
-          "label": "Semifinal",
+          "label": "Grand Final",
           "settings": {},
           "stages": [
             {
-              "id": "semifinal",
-              "name": "Semifinal",
+              "id": "grand-final",
+              "name": "Grand Final",
               "order": 1,
               "status": "live",
               "type": "single_elimination"
@@ -8045,23 +8124,23 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9263",
             "event_name": "ESL Challenger League Season 52 Europe Cup 5",
             "event_url": null,
-            "hltv_match_id": "2397369",
+            "hltv_match_id": "2397371",
             "maps": [],
-            "match_id": "hltv:2397369",
+            "match_id": "hltv:2397371",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397369/inner-circle-academy-vs-entropy-esl-challenger-league-season-52-europe-cup-5",
-            "stage_name": "Semifinal",
+            "source_url": "https://www.hltv.org/matches/2397371/entropy-vs-virtuspro-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Grand Final",
             "starts_at": null,
             "status": "live",
-            "team1_name": "Inner Circle Academy",
-            "team2_name": "Entropy"
+            "team1_name": "Entropy",
+            "team2_name": "Virtus.pro"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 5",
         "participants": [
-          "Inner Circle Academy",
-          "Entropy"
+          "Entropy",
+          "Virtus.pro"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -8081,27 +8160,63 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9333",
             "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
             "event_url": null,
-            "hltv_match_id": "2397403",
+            "hltv_match_id": "2397406",
             "maps": [],
-            "match_id": "hltv:2397403",
+            "match_id": "hltv:2397406",
             "product_tier": "tier_1",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397403/just-swing-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+            "source_url": "https://www.hltv.org/matches/2397406/nexvoid-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
             "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Just Swing",
+            "starts_at": "2026-09-02T03:00:00Z",
+            "status": "upcoming",
+            "team1_name": "NEXVOID",
+            "team2_name": "Kaleido"
+          },
+          {
+            "event_id": "hltv:9333",
+            "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397407",
+            "maps": [],
+            "match_id": "hltv:2397407",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397407/the-huns-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-02T09:00:00Z",
+            "status": "upcoming",
+            "team1_name": "The Huns",
             "team2_name": "Chinggis Warriors"
+          },
+          {
+            "event_id": "hltv:9333",
+            "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397408",
+            "maps": [],
+            "match_id": "hltv:2397408",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397408/rare-atom-vs-5star-fissure-playground-3-asia-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-02T12:30:00Z",
+            "status": "upcoming",
+            "team1_name": "Rare Atom",
+            "team2_name": "5star"
           }
         ],
         "name": "FISSURE Playground 3 Asia Closed Qualifier",
         "participants": [
-          "Just Swing",
-          "Chinggis Warriors"
+          "NEXVOID",
+          "Kaleido",
+          "The Huns",
+          "Chinggis Warriors",
+          "Rare Atom",
+          "5star"
         ],
         "product_tier": "tier_1",
         "source_url": null,
-        "status": "ongoing"
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -8113,6 +8228,44 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:esl-challenger-league-season-52-europe-cup-5",
         "matches": [
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397368",
+            "maps": [],
+            "match_id": "hltv:2397368",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397368/virtuspro-vs-wbt-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Virtus.pro",
+            "team2_name": "WBT",
+            "winner_name": "Virtus.pro"
+          },
+          {
+            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+            "event_url": null,
+            "hltv_match_id": "2397369",
+            "maps": [],
+            "match_id": "hltv:2397369",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397369/inner-circle-academy-vs-entropy-esl-challenger-league-season-52-europe-cup-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Inner Circle Academy",
+            "team2_name": "Entropy",
+            "winner_name": "Entropy"
+          },
           {
             "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
             "event_name": "ESL Challenger League Season 52 Europe Cup 5",
@@ -8401,55 +8554,17 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
             "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-            "event_url": null,
-            "hltv_match_id": "2397346",
-            "maps": [],
-            "match_id": "hltv:2397346",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397346/baks-vs-misa-esl-challenger-league-season-52-europe-cup-5",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "BAKS",
-            "team2_name": "Misa",
-            "winner_name": "Misa"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-            "event_url": null,
-            "hltv_match_id": "2397356",
-            "maps": [],
-            "match_id": "hltv:2397356",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397356/fortress-vs-noir-verse-esl-challenger-league-season-52-europe-cup-5",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Fortress",
-            "team2_name": "Noir Verse",
-            "winner_name": "Fortress"
-          },
-          {
-            "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
-            "event_name": "ESL Challenger League Season 52 Europe Cup 5",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397368",
+            "hltv_match_id": "2397370",
             "lineups": {
               "team1": [],
               "team2": []
             },
             "map_results": [
               {
-                "map_name": "Anubis",
-                "score1": 8,
-                "score2": 4,
+                "map_name": "Ancient",
+                "score1": 5,
+                "score2": 7,
                 "status": "finished"
               },
               {
@@ -8459,38 +8574,38 @@ window.__STRIKESIGNAL_DATA__ = {
                 "status": "upcoming"
               },
               {
-                "map_name": "Ancient",
+                "map_name": "Nuke",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
               }
             ],
             "maps": [
-              "Anubis",
+              "Ancient",
               "Dust2",
-              "Ancient"
+              "Nuke"
             ],
-            "match_id": "hltv:2397368",
+            "match_id": "hltv:2397370",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397368/virtuspro-vs-wbt-esl-challenger-league-season-52-europe-cup-5",
+            "source_url": "https://www.hltv.org/matches/2397370/inner-circle-academy-vs-wbt-esl-challenger-league-season-52-europe-cup-5",
             "stage_name": "Scheduled series",
             "starts_at": null,
             "status": "live",
-            "team1_name": "Virtus.pro",
+            "team1_name": "Inner Circle Academy",
             "team2_name": "WBT",
-            "veto_text": "Best of 3 (Online)\n\n* Semi-final"
+            "veto_text": "Best of 3 (Online)\n\n* 3rd place decider match"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 5",
         "participants": [
+          "Virtus.pro",
           "WBT",
-          "BAKS",
+          "Inner Circle Academy",
           "Entropy",
+          "BAKS",
           "Azuolas",
           "Fortress",
-          "Inner Circle Academy",
-          "Virtus.pro",
           "Atreides",
           "Fire Flux",
           "Misa",
@@ -8515,6 +8630,25 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:fissure-playground-3-asia-closed-qualifier",
         "matches": [
+          {
+            "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
+            "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397403",
+            "maps": [],
+            "match_id": "hltv:2397403",
+            "product_tier": "tier_1",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397403/just-swing-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Just Swing",
+            "team2_name": "Chinggis Warriors",
+            "winner_name": "Chinggis Warriors"
+          },
           {
             "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
             "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
@@ -8651,14 +8785,14 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "FISSURE Playground 3 Asia Closed Qualifier",
         "participants": [
+          "Just Swing",
+          "Chinggis Warriors",
           "NEXVOID",
           "5star",
           "The Huns",
           "Rare Atom",
           "Staqued",
-          "Kaleido",
-          "Chinggis Warriors",
-          "Just Swing"
+          "Kaleido"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -8958,7 +9092,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "ongoing"
       }
     ],
-    "last_verified_utc": "2026-09-01T14:10:16Z",
+    "last_verified_utc": "2026-09-01T18:32:38Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -9396,7 +9530,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-01T14:10:35Z",
+  "generated_at_utc": "2026-09-01T18:32:59Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -11859,13 +11993,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 3,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.61518,
-        "brier": 0.228377,
-        "ece": 0.040939,
-        "log_loss": 0.646788
+        "accuracy": 0.615385,
+        "brier": 0.228374,
+        "ece": 0.040478,
+        "log_loss": 0.646793
       },
-      "rows": 1501,
-      "test_rows": 751
+      "rows": 1507,
+      "test_rows": 754
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -11880,15 +12014,15 @@ window.__STRIKESIGNAL_DATA__ = {
       "learning_rate": 0.04,
       "max_depth": 1,
       "metrics": {
-        "accuracy": 0.616511,
-        "brier": 0.227518,
-        "ece": 0.031608,
-        "log_loss": 0.646329
+        "accuracy": 0.622016,
+        "brier": 0.227292,
+        "ece": 0.028748,
+        "log_loss": 0.645825
       },
       "min_samples_leaf": 24,
       "n_estimators": 40,
       "promotion_passed": false,
-      "rows": 751
+      "rows": 754
     },
     "champion": {
       "blend_weight": 0.5,
@@ -12998,7 +13132,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-01T14:10:35Z",
+    "generated_at_utc": "2026-09-01T18:32:58Z",
     "history": [
       {
         "champion": {
@@ -14163,8 +14297,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 5,
-      "online_rows": 744,
+      "new_rows": 6,
+      "online_rows": 750,
       "seed_rows": 757
     }
   },
@@ -14913,9 +15047,15 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2397095",
       "hltv:2397404",
       "hltv:2397242",
-      "hltv:2397241"
+      "hltv:2397241",
+      "hltv:2396990",
+      "hltv:2397368",
+      "hltv:2397125",
+      "hltv:2397243",
+      "hltv:2397403",
+      "hltv:2397369"
     ],
-    "last_online_update_utc": "2026-09-01T14:10:35Z",
+    "last_online_update_utc": "2026-09-01T18:32:58Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -18711,10 +18851,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 40
       },
       {
-        "elo": 1516.51,
-        "last_result_utc": "2026-08-31T20:51:39Z",
-        "matches": 71,
-        "recent_win_rate_10": 0.6905,
+        "elo": 1529.64,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 72,
+        "recent_win_rate_10": 0.7468,
         "team_key": "virtus.pro",
         "team_name": "Virtus.pro",
         "vrs_points": 1329.0,
@@ -19072,10 +19212,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 81
       },
       {
-        "elo": 1554.83,
-        "last_result_utc": "2026-09-01T14:10:35Z",
-        "matches": 15,
-        "recent_win_rate_10": 0.6955,
+        "elo": 1565.79,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 16,
+        "recent_win_rate_10": 0.7509,
         "team_key": "nexvoid",
         "team_name": "NEXVOID",
         "vrs_points": 1115.0,
@@ -19091,10 +19231,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 83
       },
       {
-        "elo": 1461.73,
-        "last_result_utc": "2026-08-31T20:51:39Z",
-        "matches": 65,
-        "recent_win_rate_10": 0.331,
+        "elo": 1477.66,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 66,
+        "recent_win_rate_10": 0.4526,
         "team_key": "chinggis warriors",
         "team_name": "Chinggis Warriors",
         "vrs_points": 1110.0,
@@ -19256,10 +19396,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 105
       },
       {
-        "elo": 1516.46,
-        "last_result_utc": "2026-09-01T14:10:35Z",
-        "matches": 79,
-        "recent_win_rate_10": 0.7398,
+        "elo": 1505.5,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 80,
+        "recent_win_rate_10": 0.6053,
         "team_key": "rare atom",
         "team_name": "Rare Atom",
         "vrs_points": 1033.0,
@@ -19567,10 +19707,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 143
       },
       {
-        "elo": 1495.54,
-        "last_result_utc": "2026-08-30T16:42:42Z",
-        "matches": 59,
-        "recent_win_rate_10": 0.6713,
+        "elo": 1507.25,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 60,
+        "recent_win_rate_10": 0.7311,
         "team_key": "unity",
         "team_name": "UNiTY",
         "vrs_points": 905.0,
@@ -19624,10 +19764,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 151
       },
       {
-        "elo": 1479.91,
-        "last_result_utc": "2026-08-31T20:51:39Z",
-        "matches": 17,
-        "recent_win_rate_10": 0.6087,
+        "elo": 1466.18,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 18,
+        "recent_win_rate_10": 0.498,
         "team_key": "inner circle academy",
         "team_name": "Inner Circle Academy",
         "vrs_points": 872.0,
@@ -19805,20 +19945,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 173
       },
       {
-        "elo": 1520.69,
-        "last_result_utc": "2026-08-31T20:51:39Z",
-        "matches": 8,
-        "recent_win_rate_10": 0.5145,
+        "elo": 1504.76,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 9,
+        "recent_win_rate_10": 0.421,
         "team_key": "just swing",
         "team_name": "Just Swing",
         "vrs_points": 816.0,
         "vrs_rank": 174
       },
       {
-        "elo": 1477.6,
-        "last_result_utc": "2026-08-31T20:51:39Z",
-        "matches": 18,
-        "recent_win_rate_10": 0.572,
+        "elo": 1491.33,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 19,
+        "recent_win_rate_10": 0.6498,
         "team_key": "entropy",
         "team_name": "Entropy",
         "vrs_points": 807.0,
@@ -19881,10 +20021,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 181
       },
       {
-        "elo": 1446.02,
-        "last_result_utc": "2026-08-31T20:51:39Z",
-        "matches": 27,
-        "recent_win_rate_10": 0.4354,
+        "elo": 1434.31,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 28,
+        "recent_win_rate_10": 0.3562,
         "team_key": "misa",
         "team_name": "Misa",
         "vrs_points": 786.0,
@@ -20257,10 +20397,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 227
       },
       {
-        "elo": 1506.81,
-        "last_result_utc": "2026-08-30T16:42:42Z",
-        "matches": 9,
-        "recent_win_rate_10": 0.5293,
+        "elo": 1519.12,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 10,
+        "recent_win_rate_10": 0.6149,
         "team_key": "alka",
         "team_name": "ALKA",
         "vrs_points": 693.0,
@@ -22157,10 +22297,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1472.91,
-        "last_result_utc": "2026-08-30T23:31:51Z",
-        "matches": 6,
-        "recent_win_rate_10": 0.3802,
+        "elo": 1460.6,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 7,
+        "recent_win_rate_10": 0.3111,
         "team_key": "borracheiros",
         "team_name": "BORRACHEIROS",
         "vrs_points": 0,
@@ -22247,10 +22387,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1539.35,
-        "last_result_utc": "2026-08-31T20:51:39Z",
-        "matches": 14,
-        "recent_win_rate_10": 0.6575,
+        "elo": 1526.22,
+        "last_result_utc": "2026-09-01T18:32:58Z",
+        "matches": 15,
+        "recent_win_rate_10": 0.538,
         "team_key": "wbt",
         "team_name": "WBT",
         "vrs_points": 0,
@@ -25908,72 +26048,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.6045,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.3955,
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-01",
-      "match_id": "hltv:2396990",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788278400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "ALKA",
-      "prob_team1": 0.3955,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2396990/borracheiros-vs-alka-cct-2026-south-america-series-5",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-01T16:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "BORRACHEIROS",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "ALKA",
-      "team2_vrs_rank": 228
-    },
-    {
-      "confidence": 0.5051,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4949,
-      "event_id": "hltv:9351",
-      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-01",
-      "match_id": "hltv:2397244",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788282000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "HAVU",
-      "prob_team1": 0.4949,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397244/noir-verse-vs-havu-cct-2026-europe-series-8-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-01T17:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Noir Verse",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "HAVU",
-      "team2_vrs_rank": 139
-    },
-    {
       "confidence": 0.5906,
       "confidence_label": "lean",
       "data_quality": "full",
@@ -26106,6 +26180,39 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 115
     },
     {
+      "confidence": 0.6919,
+      "confidence_label": "watch",
+      "data_quality": "full",
+      "elo_prob_team1": 0.6919,
+      "event_id": "hltv:9333",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-02",
+      "match_id": "hltv:2397406",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788318000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "NEXVOID",
+      "prob_team1": 0.6919,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397406/nexvoid-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-02T03:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "NEXVOID",
+      "team1_vrs_rank": 82,
+      "team2_hltv_rank": null,
+      "team2_name": "Kaleido",
+      "team2_vrs_rank": 113
+    },
+    {
       "confidence": 0.6943,
       "confidence_label": "watch",
       "data_quality": "full",
@@ -26172,10 +26279,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 114
     },
     {
-      "confidence": 0.5534,
+      "confidence": 0.5628,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4466,
+      "elo_prob_team1": 0.4372,
       "event_id": "hltv:9295",
       "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
       "format": "bo3",
@@ -26189,7 +26296,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "NEXVOID",
-      "prob_team1": 0.4466,
+      "prob_team1": 0.4372,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -26205,10 +26312,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 82
     },
     {
-      "confidence": 0.6031,
+      "confidence": 0.6152,
       "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.3969,
+      "elo_prob_team1": 0.3848,
       "event_id": "hltv:9295",
       "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
       "format": "bo3",
@@ -26222,7 +26329,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Lynn Vision",
-      "prob_team1": 0.3969,
+      "prob_team1": 0.3848,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -26370,6 +26477,39 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 9
     },
     {
+      "confidence": 0.5213,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5213,
+      "event_id": "hltv:9333",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-02",
+      "match_id": "hltv:2397407",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788339600,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "The Huns",
+      "prob_team1": 0.5213,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397407/the-huns-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-02T09:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "The Huns",
+      "team1_vrs_rank": 70,
+      "team2_hltv_rank": null,
+      "team2_name": "Chinggis Warriors",
+      "team2_vrs_rank": 84
+    },
+    {
       "confidence": 0.538,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -26502,6 +26642,39 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 16
     },
     {
+      "confidence": 0.5949,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4051,
+      "event_id": "hltv:9333",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-02",
+      "match_id": "hltv:2397408",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788352200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "5star",
+      "prob_team1": 0.4051,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397408/rare-atom-vs-5star-fissure-playground-3-asia-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-02T12:30:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Rare Atom",
+      "team1_vrs_rank": 106,
+      "team2_hltv_rank": null,
+      "team2_name": "5star",
+      "team2_vrs_rank": 65
+    },
+    {
       "confidence": 0.6645,
       "confidence_label": "watch",
       "data_quality": "full",
@@ -26568,10 +26741,69 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 1
     },
     {
-      "confidence": 0.5509,
+      "confidence": 0.5051,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5509,
+      "elo_prob_team1": 0.4949,
+      "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Cache",
+          "score1": 9,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": 2,
+          "score2": 10,
+          "status": "finished"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Cache",
+        "Nuke",
+        "Mirage"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2397244",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "HAVU",
+      "prob_team1": 0.4949,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397244/noir-verse-vs-havu-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Noir Verse",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "HAVU",
+      "team2_vrs_rank": 139
+    },
+    {
+      "confidence": 0.5134,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5134,
       "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
       "event_name": "ESL Challenger League Season 52 Europe Cup 5",
       "format": "bo3",
@@ -26581,9 +26813,9 @@ window.__STRIKESIGNAL_DATA__ = {
       },
       "map_results": [
         {
-          "map_name": "Anubis",
-          "score1": 8,
-          "score2": 4,
+          "map_name": "Ancient",
+          "score1": 5,
+          "score2": 7,
           "status": "finished"
         },
         {
@@ -26593,143 +26825,77 @@ window.__STRIKESIGNAL_DATA__ = {
           "status": "upcoming"
         },
         {
-          "map_name": "Ancient",
+          "map_name": "Nuke",
           "score1": null,
           "score2": null,
           "status": "upcoming"
         }
       ],
       "maps": [
-        "Anubis",
+        "Ancient",
         "Dust2",
-        "Ancient"
+        "Nuke"
       ],
       "match_date": "",
-      "match_id": "hltv:2397368",
+      "match_id": "hltv:2397370",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Virtus.pro",
-      "prob_team1": 0.5509,
+      "predicted_winner": "Inner Circle Academy",
+      "prob_team1": 0.5134,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397368/virtuspro-vs-wbt-esl-challenger-league-season-52-europe-cup-5",
+      "source_url": "https://www.hltv.org/matches/2397370/inner-circle-academy-vs-wbt-esl-challenger-league-season-52-europe-cup-5",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "Virtus.pro",
-      "team1_vrs_rank": 41,
+      "team1_name": "Inner Circle Academy",
+      "team1_vrs_rank": 152,
       "team2_hltv_rank": null,
       "team2_name": "WBT",
       "team2_vrs_rank": null
     },
     {
-      "confidence": 0.5499,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4501,
-      "event_id": "hltv:9333",
-      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "",
-      "match_id": "hltv:2397403",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Chinggis Warriors",
-      "prob_team1": 0.4501,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397403/just-swing-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Just Swing",
-      "team1_vrs_rank": 174,
-      "team2_hltv_rank": null,
-      "team2_name": "Chinggis Warriors",
-      "team2_vrs_rank": 84
-    },
-    {
-      "confidence": 0.5958,
+      "confidence": 0.6413,
       "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.5958,
-      "event_id": "hltv:9329",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 1",
+      "elo_prob_team1": 0.3587,
+      "event_id": "hltv:9263",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
       "format": "bo3",
       "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "",
-      "match_id": "hltv:2397125",
+      "match_id": "hltv:2397371",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
-      "predicted_winner": "NEXVOID",
-      "prob_team1": 0.5958,
+      "predicted_winner": "Virtus.pro",
+      "prob_team1": 0.3587,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397125/nexvoid-vs-rare-atom-esl-challenger-league-season-52-asia-pacific-cup-1",
+      "source_url": "https://www.hltv.org/matches/2397371/entropy-vs-virtuspro-esl-challenger-league-season-52-europe-cup-5",
       "stage_name": "Grand Final",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "NEXVOID",
-      "team1_vrs_rank": 82,
+      "team1_name": "Entropy",
+      "team1_vrs_rank": 175,
       "team2_hltv_rank": null,
-      "team2_name": "Rare Atom",
-      "team2_vrs_rank": 106
-    },
-    {
-      "confidence": 0.6322,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.6322,
-      "event_id": "hltv:9351",
-      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "",
-      "match_id": "hltv:2397243",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "UNiTY",
-      "prob_team1": 0.6322,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397243/unity-vs-misa-cct-2026-europe-series-8-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "UNiTY",
-      "team1_vrs_rank": 144,
-      "team2_hltv_rank": null,
-      "team2_name": "Misa",
-      "team2_vrs_rank": 182
+      "team2_name": "Virtus.pro",
+      "team2_vrs_rank": 41
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 78,
-    "online_results_applied": 5,
+    "online_results_applied": 6,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
