@@ -2,372 +2,6 @@
   "contract_version": "1.1",
   "events": [
     {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-      "matches": [
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 North America Cup 1",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397184",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397184",
-          "product_tier": "pending",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397184/overtake-sector-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-01T01:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Overtake Sector",
-          "team2_name": "Marsborne",
-          "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 North America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397182",
-          "maps": [],
-          "match_id": "hltv:2397182",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397182/voca-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Voca",
-          "team2_name": "Marsborne",
-          "winner_name": "Voca"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 North America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397183",
-          "maps": [],
-          "match_id": "hltv:2397183",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397183/overtake-sector-vs-chicken-coop-esl-challenger-league-season-52-north-america-cup-1",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Overtake Sector",
-          "team2_name": "Chicken Coop",
-          "winner_name": "Overtake Sector"
-        }
-      ],
-      "name": "ESL Challenger League Season 52 North America Cup 1",
-      "participants": [
-        "Overtake Sector",
-        "Marsborne",
-        "Voca",
-        "Chicken Coop"
-      ],
-      "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:fissure-playground-3-asia-closed-qualifier",
-      "matches": [
-        {
-          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
-          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397402",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397402",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397402/staqued-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-01T05:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Staqued",
-          "team2_name": "Kaleido",
-          "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1\n\nChinese stream: live.bilibili.com/34"
-        },
-        {
-          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
-          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397401",
-          "maps": [],
-          "match_id": "hltv:2397401",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397401/5star-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "5star",
-          "team2_name": "Chinggis Warriors",
-          "winner_name": "5star"
-        },
-        {
-          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
-          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397400",
-          "maps": [],
-          "match_id": "hltv:2397400",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397400/rare-atom-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Rare Atom",
-          "team2_name": "Kaleido",
-          "winner_name": "Rare Atom"
-        },
-        {
-          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
-          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397399",
-          "maps": [],
-          "match_id": "hltv:2397399",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397399/nexvoid-vs-just-swing-fissure-playground-3-asia-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "NEXVOID",
-          "team2_name": "Just Swing",
-          "winner_name": "NEXVOID"
-        },
-        {
-          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
-          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397398",
-          "maps": [],
-          "match_id": "hltv:2397398",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397398/the-huns-vs-staqued-fissure-playground-3-asia-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "The Huns",
-          "team2_name": "Staqued",
-          "winner_name": "The Huns"
-        }
-      ],
-      "name": "FISSURE Playground 3 Asia Closed Qualifier",
-      "participants": [
-        "Staqued",
-        "Kaleido",
-        "5star",
-        "Chinggis Warriors",
-        "Rare Atom",
-        "NEXVOID",
-        "Just Swing",
-        "The Huns"
-      ],
-      "product_tier": "tier_1",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:9333",
-      "matches": [
-        {
-          "event_id": "hltv:9333",
-          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397404",
-          "maps": [],
-          "match_id": "hltv:2397404",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397404/the-huns-vs-rare-atom-fissure-playground-3-asia-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-01T07:30:00Z",
-          "status": "upcoming",
-          "team1_name": "The Huns",
-          "team2_name": "Rare Atom"
-        },
-        {
-          "event_id": "hltv:9333",
-          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397403",
-          "maps": [],
-          "match_id": "hltv:2397403",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397403/just-swing-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-01T10:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Just Swing",
-          "team2_name": "Chinggis Warriors"
-        },
-        {
-          "event_id": "hltv:9333",
-          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397405",
-          "maps": [],
-          "match_id": "hltv:2397405",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397405/nexvoid-vs-5star-fissure-playground-3-asia-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-01T12:30:00Z",
-          "status": "upcoming",
-          "team1_name": "NEXVOID",
-          "team2_name": "5star"
-        }
-      ],
-      "name": "FISSURE Playground 3 Asia Closed Qualifier",
-      "participants": [
-        "The Huns",
-        "Rare Atom",
-        "Just Swing",
-        "Chinggis Warriors",
-        "NEXVOID",
-        "5star"
-      ],
-      "product_tier": "tier_1",
-      "source_url": null,
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:9351",
-      "matches": [
-        {
-          "event_id": "hltv:9351",
-          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397241",
-          "maps": [],
-          "match_id": "hltv:2397241",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397241/permitta-vs-bushido-wildcats-cct-2026-europe-series-8-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-01T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Permitta",
-          "team2_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:9351",
-          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397242",
-          "maps": [],
-          "match_id": "hltv:2397242",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397242/ex-zero-tenacity-vs-honvd-cct-2026-europe-series-8-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-01T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ex-Zero Tenacity",
-          "team2_name": "Honvéd"
-        },
-        {
-          "event_id": "hltv:9351",
-          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397243",
-          "maps": [],
-          "match_id": "hltv:2397243",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397243/unity-vs-misa-cct-2026-europe-series-8-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-01T14:00:00Z",
-          "status": "upcoming",
-          "team1_name": "UNiTY",
-          "team2_name": "Misa"
-        },
-        {
-          "event_id": "hltv:9351",
-          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397244",
-          "maps": [],
-          "match_id": "hltv:2397244",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397244/noir-verse-vs-havu-cct-2026-europe-series-8-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-01T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Noir Verse",
-          "team2_name": "HAVU"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 8 Closed Qualifier",
-      "participants": [
-        "Permitta",
-        "Bushido Wildcats",
-        "ex-Zero Tenacity",
-        "Honvéd",
-        "UNiTY",
-        "Misa",
-        "Noir Verse",
-        "HAVU"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "upcoming"
-    },
-    {
       "bracket": {
         "rounds": [
           {
@@ -438,6 +72,132 @@
       "participants": [
         "THUNDER dOWNUNDER",
         "Ground Zero"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9333",
+      "matches": [
+        {
+          "event_id": "hltv:9333",
+          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397403",
+          "maps": [],
+          "match_id": "hltv:2397403",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397403/just-swing-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-01T10:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Just Swing",
+          "team2_name": "Chinggis Warriors"
+        },
+        {
+          "event_id": "hltv:9333",
+          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397405",
+          "maps": [],
+          "match_id": "hltv:2397405",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397405/nexvoid-vs-5star-fissure-playground-3-asia-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-01T12:30:00Z",
+          "status": "upcoming",
+          "team1_name": "NEXVOID",
+          "team2_name": "5star"
+        }
+      ],
+      "name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "participants": [
+        "Just Swing",
+        "Chinggis Warriors",
+        "NEXVOID",
+        "5star"
+      ],
+      "product_tier": "tier_1",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9351",
+      "matches": [
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397242",
+          "maps": [],
+          "match_id": "hltv:2397242",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397242/ex-zero-tenacity-vs-honvd-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-01T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-Zero Tenacity",
+          "team2_name": "Honvéd"
+        },
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397243",
+          "maps": [],
+          "match_id": "hltv:2397243",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397243/unity-vs-misa-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-01T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "UNiTY",
+          "team2_name": "Misa"
+        },
+        {
+          "event_id": "hltv:9351",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397244",
+          "maps": [],
+          "match_id": "hltv:2397244",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397244/noir-verse-vs-havu-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-01T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Noir Verse",
+          "team2_name": "HAVU"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "participants": [
+        "ex-Zero Tenacity",
+        "Honvéd",
+        "UNiTY",
+        "Misa",
+        "Noir Verse",
+        "HAVU"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -699,6 +459,158 @@
         "MEIA NOITE",
         "paiN Academy",
         "Grêmio"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:grand-final",
+            "matches": [
+              {
+                "event_id": "hltv:9330",
+                "event_name": "ESL Challenger League Season 52 South America Cup 1",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2397155",
+                "maps": [],
+                "match_id": "hltv:2397155",
+                "product_tier": "tier_2",
+                "round_name": "Grand Final",
+                "series_format": "bo3",
+                "slot_id": "main:grand-final:1",
+                "source_url": "https://www.hltv.org/matches/2397155/galorys-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+                "stage_name": "Grand Final",
+                "starts_at": "2026-09-01T21:00:00Z",
+                "status": "upcoming",
+                "team1_name": "Galorys",
+                "team2_name": "Imperial"
+              }
+            ],
+            "name": "Grand Final",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Grand Final",
+      "format": {
+        "label": "Grand Final",
+        "settings": {},
+        "stages": [
+          {
+            "id": "grand-final",
+            "name": "Grand Final",
+            "order": 1,
+            "status": "pending",
+            "type": "single_elimination"
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "id": "hltv:9330",
+      "matches": [
+        {
+          "event_id": "hltv:9330",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397155",
+          "maps": [],
+          "match_id": "hltv:2397155",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397155/galorys-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Grand Final",
+          "starts_at": "2026-09-01T21:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Galorys",
+          "team2_name": "Imperial"
+        }
+      ],
+      "name": "ESL Challenger League Season 52 South America Cup 1",
+      "participants": [
+        "Galorys",
+        "Imperial"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:grand-final",
+            "matches": [
+              {
+                "event_id": "hltv:9331",
+                "event_name": "ESL Challenger League Season 52 North America Cup 1",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2397185",
+                "maps": [],
+                "match_id": "hltv:2397185",
+                "product_tier": "tier_2",
+                "round_name": "Grand Final",
+                "series_format": "bo3",
+                "slot_id": "main:grand-final:1",
+                "source_url": "https://www.hltv.org/matches/2397185/voca-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
+                "stage_name": "Grand Final",
+                "starts_at": "2026-09-02T01:00:00Z",
+                "status": "upcoming",
+                "team1_name": "Voca",
+                "team2_name": "Marsborne"
+              }
+            ],
+            "name": "Grand Final",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Grand Final",
+      "format": {
+        "label": "Grand Final",
+        "settings": {},
+        "stages": [
+          {
+            "id": "grand-final",
+            "name": "Grand Final",
+            "order": 1,
+            "status": "pending",
+            "type": "single_elimination"
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "id": "hltv:9331",
+      "matches": [
+        {
+          "event_id": "hltv:9331",
+          "event_name": "ESL Challenger League Season 52 North America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397185",
+          "maps": [],
+          "match_id": "hltv:2397185",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397185/voca-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
+          "stage_name": "Grand Final",
+          "starts_at": "2026-09-02T01:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Voca",
+          "team2_name": "Marsborne"
+        }
+      ],
+      "name": "ESL Challenger League Season 52 North America Cup 1",
+      "participants": [
+        "Voca",
+        "Marsborne"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -1219,6 +1131,330 @@
         "stages": [],
         "type": "mixed"
       },
+      "id": "hltv:fissure-playground-3-asia-closed-qualifier",
+      "matches": [
+        {
+          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
+          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397402",
+          "maps": [],
+          "match_id": "hltv:2397402",
+          "product_tier": "tier_1",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397402/staqued-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Staqued",
+          "team2_name": "Kaleido",
+          "winner_name": "Kaleido"
+        },
+        {
+          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
+          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397401",
+          "maps": [],
+          "match_id": "hltv:2397401",
+          "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397401/5star-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "5star",
+          "team2_name": "Chinggis Warriors",
+          "winner_name": "5star"
+        },
+        {
+          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
+          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397400",
+          "maps": [],
+          "match_id": "hltv:2397400",
+          "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397400/rare-atom-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Rare Atom",
+          "team2_name": "Kaleido",
+          "winner_name": "Rare Atom"
+        },
+        {
+          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
+          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397399",
+          "maps": [],
+          "match_id": "hltv:2397399",
+          "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397399/nexvoid-vs-just-swing-fissure-playground-3-asia-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "NEXVOID",
+          "team2_name": "Just Swing",
+          "winner_name": "NEXVOID"
+        },
+        {
+          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
+          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397398",
+          "maps": [],
+          "match_id": "hltv:2397398",
+          "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397398/the-huns-vs-staqued-fissure-playground-3-asia-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "The Huns",
+          "team2_name": "Staqued",
+          "winner_name": "The Huns"
+        },
+        {
+          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
+          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397404",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": 7,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Inferno",
+            "Mirage"
+          ],
+          "match_id": "hltv:2397404",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397404/the-huns-vs-rare-atom-fissure-playground-3-asia-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "The Huns",
+          "team2_name": "Rare Atom",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final\n\nChinese stream: live.bilibili.com/34"
+        }
+      ],
+      "name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "participants": [
+        "Staqued",
+        "Kaleido",
+        "5star",
+        "Chinggis Warriors",
+        "Rare Atom",
+        "NEXVOID",
+        "Just Swing",
+        "The Huns"
+      ],
+      "product_tier": "tier_1",
+      "source_url": null,
+      "status": "ongoing"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
+      "matches": [
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 North America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397184",
+          "maps": [],
+          "match_id": "hltv:2397184",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397184/overtake-sector-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Overtake Sector",
+          "team2_name": "Marsborne",
+          "winner_name": "Marsborne"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 North America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397182",
+          "maps": [],
+          "match_id": "hltv:2397182",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397182/voca-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Voca",
+          "team2_name": "Marsborne",
+          "winner_name": "Voca"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 North America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397183",
+          "maps": [],
+          "match_id": "hltv:2397183",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397183/overtake-sector-vs-chicken-coop-esl-challenger-league-season-52-north-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Overtake Sector",
+          "team2_name": "Chicken Coop",
+          "winner_name": "Overtake Sector"
+        }
+      ],
+      "name": "ESL Challenger League Season 52 North America Cup 1",
+      "participants": [
+        "Overtake Sector",
+        "Marsborne",
+        "Voca",
+        "Chicken Coop"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+      "matches": [
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397154",
+          "maps": [],
+          "match_id": "hltv:2397154",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Imperial",
+          "team2_name": "ShindeN",
+          "winner_name": "Imperial"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397153",
+          "maps": [],
+          "match_id": "hltv:2397153",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Fluxo",
+          "team2_name": "ShindeN",
+          "winner_name": "ShindeN"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+          "event_name": "ESL Challenger League Season 52 South America Cup 1",
+          "event_url": null,
+          "hltv_match_id": "2397152",
+          "maps": [],
+          "match_id": "hltv:2397152",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397152/galorys-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Galorys",
+          "team2_name": "Imperial",
+          "winner_name": "Galorys"
+        }
+      ],
+      "name": "ESL Challenger League Season 52 South America Cup 1",
+      "participants": [
+        "Imperial",
+        "ShindeN",
+        "Fluxo",
+        "Galorys"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
       "id": "hltv:cct-2026-south-america-series-5",
       "matches": [
         {
@@ -1478,6 +1714,51 @@
           "team1_name": "SAW Youngsters",
           "team2_name": "Noir Verse",
           "winner_name": "Noir Verse"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397241",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": 0,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Nuke",
+            "Mirage"
+          ],
+          "match_id": "hltv:2397241",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397241/permitta-vs-bushido-wildcats-cct-2026-europe-series-8-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Permitta",
+          "team2_name": "Bushido Wildcats",
+          "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 8."
         }
       ],
       "name": "CCT 2026 Europe Series 8 Closed Qualifier",
@@ -1490,11 +1771,12 @@
         "ex-RUSTEC",
         "HAVU",
         "Endless Journey",
-        "Noir Verse"
+        "Noir Verse",
+        "Permitta"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "finished"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -1885,44 +2167,6 @@
           "team1_name": "WBT",
           "team2_name": "BERG",
           "winner_name": "WBT"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-          "event_url": null,
-          "hltv_match_id": "2397349",
-          "maps": [],
-          "match_id": "hltv:2397349",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397349/noir-verse-vs-atreides-esl-challenger-league-season-52-europe-cup-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Noir Verse",
-          "team2_name": "Atreides",
-          "winner_name": "Noir Verse"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
-          "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-          "event_url": null,
-          "hltv_match_id": "2397350",
-          "maps": [],
-          "match_id": "hltv:2397350",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397350/azuolas-vs-permitta-esl-challenger-league-season-52-europe-cup-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Azuolas",
-          "team2_name": "Permitta",
-          "winner_name": "Permitta"
         }
       ],
       "name": "ESL Challenger League Season 52 Europe Cup 5",
@@ -2074,111 +2318,6 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-      "matches": [
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397153",
-          "maps": [],
-          "match_id": "hltv:2397153",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397153/fluxo-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Fluxo",
-          "team2_name": "ShindeN",
-          "winner_name": "ShindeN"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": null,
-          "hltv_match_id": "2397152",
-          "maps": [],
-          "match_id": "hltv:2397152",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397152/galorys-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Galorys",
-          "team2_name": "Imperial",
-          "winner_name": "Galorys"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-          "event_name": "ESL Challenger League Season 52 South America Cup 1",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397154",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Dust2",
-              "score1": 13,
-              "score2": 9,
-              "status": "finished"
-            },
-            {
-              "map_name": "Cache",
-              "score1": 16,
-              "score2": 19,
-              "status": "finished"
-            },
-            {
-              "map_name": "Inferno",
-              "score1": 6,
-              "score2": 6,
-              "status": "finished"
-            }
-          ],
-          "maps": [
-            "Dust2",
-            "Cache",
-            "Inferno"
-          ],
-          "match_id": "hltv:2397154",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Imperial",
-          "team2_name": "ShindeN",
-          "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
-        }
-      ],
-      "name": "ESL Challenger League Season 52 South America Cup 1",
-      "participants": [
-        "Fluxo",
-        "ShindeN",
-        "Galorys",
-        "Imperial"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "ongoing"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
       "id": "hltv:cct-2026-europe-series-7",
       "matches": [
         {
@@ -2211,82 +2350,8 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-01T00:38:35Z",
+  "fetched_at_utc": "2026-09-01T08:41:06Z",
   "matches": [
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
-      "event_name": "ESL Challenger League Season 52 North America Cup 1",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397184",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397184",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397184/overtake-sector-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-01T01:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Overtake Sector",
-      "team2_name": "Marsborne",
-      "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
-    },
-    {
-      "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
-      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397402",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397402",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397402/staqued-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-01T05:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Staqued",
-      "team2_name": "Kaleido",
-      "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1\n\nChinese stream: live.bilibili.com/34"
-    },
-    {
-      "event_id": "hltv:9333",
-      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397404",
-      "maps": [],
-      "match_id": "hltv:2397404",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397404/the-huns-vs-rare-atom-fissure-playground-3-asia-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-01T07:30:00Z",
-      "status": "upcoming",
-      "team1_name": "The Huns",
-      "team2_name": "Rare Atom"
-    },
-    {
-      "event_id": "hltv:9351",
-      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397241",
-      "maps": [],
-      "match_id": "hltv:2397241",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397241/permitta-vs-bushido-wildcats-cct-2026-europe-series-8-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-01T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Permitta",
-      "team2_name": "Bushido Wildcats"
-    },
     {
       "event_id": "hltv:9328",
       "event_name": "ESL Challenger League Season 52 Oceania Cup 1",
@@ -2464,6 +2529,22 @@
       "team2_name": "MEIA NOITE"
     },
     {
+      "event_id": "hltv:9330",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397155",
+      "maps": [],
+      "match_id": "hltv:2397155",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397155/galorys-vs-imperial-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Grand Final",
+      "starts_at": "2026-09-01T21:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Galorys",
+      "team2_name": "Imperial"
+    },
+    {
       "event_id": "hltv:9340",
       "event_name": "CCT 2026 South America Series 5",
       "event_url": null,
@@ -2478,6 +2559,22 @@
       "status": "upcoming",
       "team1_name": "paiN Academy",
       "team2_name": "Grêmio"
+    },
+    {
+      "event_id": "hltv:9331",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397185",
+      "maps": [],
+      "match_id": "hltv:2397185",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397185/voca-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
+      "stage_name": "Grand Final",
+      "starts_at": "2026-09-02T01:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Voca",
+      "team2_name": "Marsborne"
     },
     {
       "event_id": "hltv:9295",
@@ -2778,6 +2875,63 @@
       "team1_name": "Spirit",
       "team2_name": "FURIA",
       "winner_name": "Spirit"
+    },
+    {
+      "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397402",
+      "maps": [],
+      "match_id": "hltv:2397402",
+      "product_tier": "tier_1",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397402/staqued-vs-kaleido-fissure-playground-3-asia-closed-qualifier",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Staqued",
+      "team2_name": "Kaleido",
+      "winner_name": "Kaleido"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-1",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397184",
+      "maps": [],
+      "match_id": "hltv:2397184",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397184/overtake-sector-vs-marsborne-esl-challenger-league-season-52-north-america-cup-1",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Overtake Sector",
+      "team2_name": "Marsborne",
+      "winner_name": "Marsborne"
+    },
+    {
+      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_url": null,
+      "hltv_match_id": "2397154",
+      "maps": [],
+      "match_id": "hltv:2397154",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Imperial",
+      "team2_name": "ShindeN",
+      "winner_name": "Imperial"
     },
     {
       "event_id": "hltv:cct-2026-south-america-series-5",
@@ -3673,48 +3827,10 @@
       "winner_name": "NEXVOID"
     },
     {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-      "event_url": null,
-      "hltv_match_id": "2397349",
-      "maps": [],
-      "match_id": "hltv:2397349",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397349/noir-verse-vs-atreides-esl-challenger-league-season-52-europe-cup-5",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Noir Verse",
-      "team2_name": "Atreides",
-      "winner_name": "Noir Verse"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-5",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
-      "event_url": null,
-      "hltv_match_id": "2397350",
-      "maps": [],
-      "match_id": "hltv:2397350",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397350/azuolas-vs-permitta-esl-challenger-league-season-52-europe-cup-5",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Azuolas",
-      "team2_name": "Permitta",
-      "winner_name": "Permitta"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-1",
-      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397154",
+      "hltv_match_id": "2397404",
       "lineups": {
         "team1": [],
         "team2": []
@@ -3722,38 +3838,83 @@
       "map_results": [
         {
           "map_name": "Dust2",
-          "score1": 13,
-          "score2": 9,
-          "status": "finished"
-        },
-        {
-          "map_name": "Cache",
-          "score1": 16,
-          "score2": 19,
+          "score1": 7,
+          "score2": 13,
           "status": "finished"
         },
         {
           "map_name": "Inferno",
-          "score1": 6,
-          "score2": 6,
-          "status": "finished"
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
         }
       ],
       "maps": [
         "Dust2",
-        "Cache",
-        "Inferno"
+        "Inferno",
+        "Mirage"
       ],
-      "match_id": "hltv:2397154",
-      "product_tier": "tier_2",
+      "match_id": "hltv:2397404",
+      "product_tier": "tier_1",
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397154/imperial-vs-shinden-esl-challenger-league-season-52-south-america-cup-1",
+      "source_url": "https://www.hltv.org/matches/2397404/the-huns-vs-rare-atom-fissure-playground-3-asia-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "Imperial",
-      "team2_name": "ShindeN",
-      "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+      "team1_name": "The Huns",
+      "team2_name": "Rare Atom",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final\n\nChinese stream: live.bilibili.com/34"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-8-closed-qualifier",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397241",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": 0,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Nuke",
+        "Mirage"
+      ],
+      "match_id": "hltv:2397241",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397241/permitta-vs-bushido-wildcats-cct-2026-europe-series-8-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Permitta",
+      "team2_name": "Bushido Wildcats",
+      "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 8."
     }
   ],
   "ok": true,
@@ -3765,42 +3926,40 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 47
+    "scheduled_matches": 46
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 19,
+    "events_kept": 21,
     "matches_kept": 84,
     "players_kept": 0,
     "event_tiers": {
-      "hltv:esl-challenger-league-season-52-north-america-cup-1": "tier_2",
-      "hltv:fissure-playground-3-asia-closed-qualifier": "tier_1",
+      "hltv:9328": "tier_2",
       "hltv:9333": "tier_1",
       "hltv:9351": "tier_2",
-      "hltv:9328": "tier_2",
       "hltv:9329": "tier_2",
       "hltv:9263": "tier_2",
       "hltv:9340": "tier_2",
+      "hltv:9330": "tier_2",
+      "hltv:9331": "tier_2",
       "hltv:9295": "tier_1",
       "hltv:9293": "tier_1",
       "hltv:8249": "tier_1",
       "hltv:blast-open-porto-2026": "tier_1",
+      "hltv:fissure-playground-3-asia-closed-qualifier": "tier_1",
+      "hltv:esl-challenger-league-season-52-north-america-cup-1": "tier_2",
+      "hltv:esl-challenger-league-season-52-south-america-cup-1": "tier_2",
       "hltv:cct-2026-south-america-series-5": "tier_2",
       "hltv:cct-2026-europe-series-8-closed-qualifier": "tier_2",
       "hltv:esl-challenger-league-season-52-europe-cup-5": "tier_2",
       "hltv:esl-challenger-league-season-52-asia-pacific-cup-1": "tier_2",
       "hltv:esl-challenger-league-season-52-oceania-cup-1": "tier_2",
-      "hltv:esl-challenger-league-season-52-south-america-cup-1": "tier_2",
       "hltv:cct-2026-europe-series-7": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2397184",
-      "hltv:2397402",
-      "hltv:2397404",
-      "hltv:2397241",
       "hltv:2397095",
       "hltv:2397403",
       "hltv:2397242",
@@ -3812,7 +3971,9 @@
       "hltv:2396990",
       "hltv:2397244",
       "hltv:2396991",
+      "hltv:2397155",
       "hltv:2396992",
+      "hltv:2397185",
       "hltv:2397293",
       "hltv:2397294",
       "hltv:2397295",
@@ -3831,6 +3992,9 @@
       "hltv:2396945",
       "hltv:2396944",
       "hltv:2396943",
+      "hltv:2397402",
+      "hltv:2397184",
+      "hltv:2397154",
       "hltv:2396989",
       "hltv:2396988",
       "hltv:2397240",
@@ -3878,9 +4042,8 @@
       "hltv:2397351",
       "hltv:2396983",
       "hltv:2397122",
-      "hltv:2397349",
-      "hltv:2397350",
-      "hltv:2397154"
+      "hltv:2397404",
+      "hltv:2397241"
     ]
   }
 }

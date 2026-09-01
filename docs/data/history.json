@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-01T00:38:35Z",
+  "generated_at_utc": "2026-09-01T08:41:06Z",
   "through_date": "2026-09-01",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1723,
+    "matches": 1726,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1166,6 +1166,72 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Mansão Maromba",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397402",
+      "match_date": "2026-09-01",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "team1_name": "Staqued",
+      "team2_name": "Kaleido",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Kaleido",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397184",
+      "match_date": "2026-09-01",
+      "event_name": "ESL Challenger League Season 52 North America Cup 1",
+      "team1_name": "Overtake Sector",
+      "team2_name": "Marsborne",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Marsborne",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397154",
+      "match_date": "2026-09-01",
+      "event_name": "ESL Challenger League Season 52 South America Cup 1",
+      "team1_name": "Imperial",
+      "team2_name": "ShindeN",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Imperial",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
