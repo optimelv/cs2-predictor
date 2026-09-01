@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-01T18:32:38Z",
+  "generated_at_utc": "2026-09-01T23:19:38Z",
   "through_date": "2026-09-01",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1737,
+    "matches": 1741,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1474,6 +1474,94 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "Entropy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396991",
+      "match_date": "2026-09-01",
+      "event_name": "CCT 2026 South America Series 5",
+      "team1_name": "Procyon",
+      "team2_name": "MEIA NOITE",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Procyon",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397370",
+      "match_date": "2026-09-01",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+      "team1_name": "Inner Circle Academy",
+      "team2_name": "WBT",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Inner Circle Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397371",
+      "match_date": "2026-09-01",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 5",
+      "team1_name": "Entropy",
+      "team2_name": "Virtus.pro",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Entropy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397244",
+      "match_date": "2026-09-01",
+      "event_name": "CCT 2026 Europe Series 8 Closed Qualifier",
+      "team1_name": "Noir Verse",
+      "team2_name": "HAVU",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "HAVU",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
