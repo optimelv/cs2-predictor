@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-02T21:05:22Z",
+  "generated_at_utc": "2026-09-02T23:20:46Z",
   "through_date": "2026-09-02",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1775,
+    "matches": 1778,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1892,6 +1892,72 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "K27",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396995",
+      "match_date": "2026-09-02",
+      "event_name": "CCT 2026 South America Series 5",
+      "team1_name": "BORRACHEIROS",
+      "team2_name": "Mansão Maromba",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "BORRACHEIROS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396994",
+      "match_date": "2026-09-02",
+      "event_name": "CCT 2026 South America Series 5",
+      "team1_name": "BESTIA Academy",
+      "team2_name": "DAMAJUANA",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BESTIA Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397321",
+      "match_date": "2026-09-02",
+      "event_name": "IEM Beijing 2026 Closed Qualifier",
+      "team1_name": "paiN",
+      "team2_name": "BIG",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "BIG",
       "tier": "tier_1",
       "best_of": 3,
       "phase": "Completed series",
