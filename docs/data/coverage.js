@@ -3793,10 +3793,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9333",
+      "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
       "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397409",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397409",
       "product_tier": "tier_1",
@@ -3806,13 +3810,18 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-09-03T06:00:00Z",
       "status": "upcoming",
       "team1_name": "NEXVOID",
-      "team2_name": "Chinggis Warriors"
+      "team2_name": "Chinggis Warriors",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket final\n\nChinese stream: live.bilibili.com/34"
     },
     {
-      "event_id": "hltv:9295",
+      "event_id": "hltv:iem-beijing-2026-asia-closed-qualifier",
       "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397301",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397301",
       "product_tier": "tier_1",
@@ -3820,15 +3829,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397301/kaleido-vs-flyquest-iem-beijing-2026-asia-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-03T06:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Kaleido",
-      "team2_name": "FlyQuest"
+      "team2_name": "FlyQuest",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
     },
     {
-      "event_id": "hltv:9295",
+      "event_id": "hltv:iem-beijing-2026-asia-closed-qualifier",
       "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397302",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397302",
       "product_tier": "tier_1",
@@ -3836,9 +3850,10 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-03T06:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Lynn Vision",
-      "team2_name": "DEPO"
+      "team2_name": "DEPO",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
     },
     {
       "event_id": "hltv:9352",
@@ -3868,7 +3883,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397303/tyloo-vs-rare-atom-iem-beijing-2026-asia-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-03T09:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "TYLOO",
       "team2_name": "Rare Atom"
     },
@@ -3900,7 +3915,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397323/mibr-vs-eyeballers-iem-beijing-2026-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-03T12:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "MIBR",
       "team2_name": "EYEBALLERS"
     },
@@ -3916,7 +3931,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397324/k27-vs-nemiga-iem-beijing-2026-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-03T12:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "K27",
       "team2_name": "Nemiga"
     },
@@ -3932,14 +3947,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397326/heroic-vs-color-iem-beijing-2026-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-03T12:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "HEROIC",
       "team2_name": "Color"
     },
     {
-      "event_id": "hltv:iem-beijing-2026-closed-qualifier",
+      "event_id": "hltv:9293",
       "event_name": "IEM Beijing 2026 Closed Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2397325",
       "lineups": {
         "team1": [],
@@ -4006,9 +4021,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Eternal Fire"
     },
     {
-      "event_id": "hltv:iem-beijing-2026-closed-qualifier",
+      "event_id": "hltv:9293",
       "event_name": "IEM Beijing 2026 Closed Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2397328",
       "lineups": {
         "team1": [],
@@ -4107,9 +4122,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Peladona"
     },
     {
-      "event_id": "hltv:blast-open-porto-2026",
+      "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396947",
       "lineups": {
         "team1": [],
@@ -4120,7 +4135,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "product_tier": "tier_1",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396947/falcons-vs-g2-blast-open-porto-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Quarterfinal",
       "starts_at": "2026-09-04T14:00:00Z",
       "status": "live",
       "team1_name": "Falcons",
@@ -4144,9 +4159,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "ODDIK"
     },
     {
-      "event_id": "hltv:blast-open-porto-2026",
+      "event_id": "hltv:8249",
       "event_name": "BLAST Open Porto 2026",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2396948",
       "lineups": {
         "team1": [],
@@ -4157,7 +4172,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "product_tier": "tier_1",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396948/furia-vs-vitality-blast-open-porto-2026",
-      "stage_name": "Scheduled series",
+      "stage_name": "Quarterfinal",
       "starts_at": "2026-09-04T17:30:00Z",
       "status": "live",
       "team1_name": "FURIA",
@@ -6953,48 +6968,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:blast-open-porto-2026",
           "event_name": "BLAST Open Porto 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396947",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396947",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396947/falcons-vs-g2-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-04T14:00:00Z",
-          "status": "live",
-          "team1_name": "Falcons",
-          "team2_name": "G2",
-          "veto_text": "Best of 3 (LAN)\n\n* Quarter-final"
-        },
-        {
-          "event_id": "hltv:blast-open-porto-2026",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396948",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2396948",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396948/furia-vs-vitality-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-04T17:30:00Z",
-          "status": "live",
-          "team1_name": "FURIA",
-          "team2_name": "Vitality",
-          "veto_text": "Best of 3 (LAN)\n\n* Quarter-final"
-        },
-        {
-          "event_id": "hltv:blast-open-porto-2026",
-          "event_name": "BLAST Open Porto 2026",
           "event_url": null,
           "hltv_match_id": "2396946",
           "maps": [],
@@ -7014,15 +6987,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "BLAST Open Porto 2026",
       "participants": [
-        "Falcons",
-        "G2",
-        "FURIA",
-        "Vitality",
-        "FUT"
+        "FUT",
+        "Vitality"
       ],
       "product_tier": "tier_1",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "ongoing"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -8487,6 +8457,27 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
           "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397409",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2397409",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397409/nexvoid-vs-chinggis-warriors-fissure-playground-3-asia-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-03T06:00:00Z",
+          "status": "upcoming",
+          "team1_name": "NEXVOID",
+          "team2_name": "Chinggis Warriors",
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket final\n\nChinese stream: live.bilibili.com/34"
+        },
+        {
+          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
+          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
           "event_url": null,
           "hltv_match_id": "2397407",
           "maps": [],
@@ -8620,18 +8611,18 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "FISSURE Playground 3 Asia Closed Qualifier",
       "participants": [
-        "The Huns",
+        "NEXVOID",
         "Chinggis Warriors",
+        "The Huns",
         "Rare Atom",
         "5star",
-        "NEXVOID",
         "Kaleido",
         "Just Swing",
         "Staqued"
       ],
       "product_tier": "tier_1",
-      "source_url": null,
-      "status": "finished"
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -8647,38 +8638,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9295",
           "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
           "event_url": null,
-          "hltv_match_id": "2397301",
-          "maps": [],
-          "match_id": "hltv:2397301",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397301/kaleido-vs-flyquest-iem-beijing-2026-asia-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-03T06:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Kaleido",
-          "team2_name": "FlyQuest"
-        },
-        {
-          "event_id": "hltv:9295",
-          "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397302",
-          "maps": [],
-          "match_id": "hltv:2397302",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-03T06:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Lynn Vision",
-          "team2_name": "DEPO"
-        },
-        {
-          "event_id": "hltv:9295",
-          "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
-          "event_url": null,
           "hltv_match_id": "2397303",
           "maps": [],
           "match_id": "hltv:2397303",
@@ -8687,23 +8646,19 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397303/tyloo-vs-rare-atom-iem-beijing-2026-asia-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-03T09:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "TYLOO",
           "team2_name": "Rare Atom"
         }
       ],
       "name": "IEM Beijing 2026 Asia Closed Qualifier",
       "participants": [
-        "Kaleido",
-        "FlyQuest",
-        "Lynn Vision",
-        "DEPO",
         "TYLOO",
         "Rare Atom"
       ],
       "product_tier": "tier_1",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8727,7 +8682,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397323/mibr-vs-eyeballers-iem-beijing-2026-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-03T12:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "MIBR",
           "team2_name": "EYEBALLERS"
         },
@@ -8743,9 +8698,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397324/k27-vs-nemiga-iem-beijing-2026-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-03T12:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "K27",
           "team2_name": "Nemiga"
+        },
+        {
+          "event_id": "hltv:9293",
+          "event_name": "IEM Beijing 2026 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397325",
+          "maps": [],
+          "match_id": "hltv:2397325",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-03T12:00:00Z",
+          "status": "live",
+          "team1_name": "magic",
+          "team2_name": "BIG"
         },
         {
           "event_id": "hltv:9293",
@@ -8759,7 +8730,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397326/heroic-vs-color-iem-beijing-2026-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-03T12:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "HEROIC",
           "team2_name": "Color"
         },
@@ -8778,6 +8749,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "Nuclear TigeRES",
           "team2_name": "Eternal Fire"
+        },
+        {
+          "event_id": "hltv:9293",
+          "event_name": "IEM Beijing 2026 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397328",
+          "maps": [],
+          "match_id": "hltv:2397328",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-03T15:00:00Z",
+          "status": "live",
+          "team1_name": "B8",
+          "team2_name": "HOTU"
         }
       ],
       "name": "IEM Beijing 2026 Closed Qualifier",
@@ -8786,14 +8773,18 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "EYEBALLERS",
         "K27",
         "Nemiga",
+        "magic",
+        "BIG",
         "HEROIC",
         "Color",
         "Nuclear TigeRES",
-        "Eternal Fire"
+        "Eternal Fire",
+        "B8",
+        "HOTU"
       ],
       "product_tier": "tier_1",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8805,48 +8796,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:iem-beijing-2026-closed-qualifier",
       "matches": [
-        {
-          "event_id": "hltv:iem-beijing-2026-closed-qualifier",
-          "event_name": "IEM Beijing 2026 Closed Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397325",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397325",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397325/magic-vs-big-iem-beijing-2026-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-03T12:00:00Z",
-          "status": "live",
-          "team1_name": "magic",
-          "team2_name": "BIG",
-          "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
-        },
-        {
-          "event_id": "hltv:iem-beijing-2026-closed-qualifier",
-          "event_name": "IEM Beijing 2026 Closed Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397328",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397328",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397328/b8-vs-hotu-iem-beijing-2026-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-03T15:00:00Z",
-          "status": "live",
-          "team1_name": "B8",
-          "team2_name": "HOTU",
-          "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
-        },
         {
           "event_id": "hltv:iem-beijing-2026-closed-qualifier",
           "event_name": "IEM Beijing 2026 Closed Qualifier",
@@ -9154,26 +9103,26 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "IEM Beijing 2026 Closed Qualifier",
       "participants": [
-        "magic",
-        "BIG",
-        "B8",
-        "HOTU",
         "paiN",
+        "BIG",
         "Color",
         "DENDELE",
+        "HOTU",
         "Nemiga",
+        "B8",
         "EYEBALLERS",
         "HEROIC",
         "Eternal Fire",
         "3DMAX",
         "MIBR",
         "Nuclear TigeRES",
+        "magic",
         "GamerLegion",
         "K27"
       ],
       "product_tier": "tier_1",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "ongoing"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -9275,6 +9224,48 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:iem-beijing-2026-asia-closed-qualifier",
       "matches": [
+        {
+          "event_id": "hltv:iem-beijing-2026-asia-closed-qualifier",
+          "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397301",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2397301",
+          "product_tier": "pending",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397301/kaleido-vs-flyquest-iem-beijing-2026-asia-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-03T06:00:00Z",
+          "status": "live",
+          "team1_name": "Kaleido",
+          "team2_name": "FlyQuest",
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+        },
+        {
+          "event_id": "hltv:iem-beijing-2026-asia-closed-qualifier",
+          "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397302",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2397302",
+          "product_tier": "pending",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397302/lynn-vision-vs-depo-iem-beijing-2026-asia-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-03T06:00:00Z",
+          "status": "live",
+          "team1_name": "Lynn Vision",
+          "team2_name": "DEPO",
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+        },
         {
           "event_id": "hltv:iem-beijing-2026-asia-closed-qualifier",
           "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
@@ -9430,18 +9421,18 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "IEM Beijing 2026 Asia Closed Qualifier",
       "participants": [
-        "Rare Atom",
-        "FlyQuest",
-        "TYLOO",
-        "DEPO",
-        "Lynn Vision",
-        "NEXVOID",
         "Kaleido",
+        "FlyQuest",
+        "Lynn Vision",
+        "DEPO",
+        "Rare Atom",
+        "TYLOO",
+        "NEXVOID",
         "The Huns"
       ],
       "product_tier": "tier_1",
-      "source_url": null,
-      "status": "finished"
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -9546,7 +9537,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-09-02T23:20:46Z",
+  "last_verified_utc": "2026-09-03T04:35:38Z",
   "sources": [
     {
       "name": "HLTV events calendar",
