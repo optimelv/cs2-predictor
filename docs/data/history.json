@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-03T21:03:51Z",
+  "generated_at_utc": "2026-09-03T23:18:29Z",
   "through_date": "2026-09-03",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1803,
+    "matches": 1804,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1871,6 +1871,28 @@
       "score2": 0,
       "winner_name": "K27",
       "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2396998",
+      "match_date": "2026-09-03",
+      "event_name": "CCT 2026 South America Series 5",
+      "team1_name": "Yawara",
+      "team2_name": "paiN Academy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Yawara",
+      "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
       "stage_name": "Completed series",
