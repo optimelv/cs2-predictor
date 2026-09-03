@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-03T04:35:38Z",
+  "generated_at_utc": "2026-09-03T11:16:33Z",
   "through_date": "2026-09-03",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1778,
+    "matches": 1782,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1320,6 +1320,94 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "BIG",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397302",
+      "match_date": "2026-09-03",
+      "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
+      "team1_name": "Lynn Vision",
+      "team2_name": "DEPO",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "DEPO",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397303",
+      "match_date": "2026-09-03",
+      "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
+      "team1_name": "TYLOO",
+      "team2_name": "Rare Atom",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "TYLOO",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397409",
+      "match_date": "2026-09-03",
+      "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
+      "team1_name": "NEXVOID",
+      "team2_name": "Chinggis Warriors",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Chinggis Warriors",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397301",
+      "match_date": "2026-09-03",
+      "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
+      "team1_name": "Kaleido",
+      "team2_name": "FlyQuest",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FlyQuest",
       "tier": "tier_1",
       "best_of": 3,
       "phase": "Completed series",
