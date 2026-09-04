@@ -3362,6 +3362,75 @@
       "winner_name": "Procyon"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-8",
+      "event_name": "CCT 2026 Europe Series 8",
+      "event_url": null,
+      "hltv_match_id": "2397253",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2397253",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397253/mouz-nxt-vs-bushido-wildcats-cct-2026-europe-series-8",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "MOUZ NXT",
+      "team2_name": "Bushido Wildcats",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)",
+      "winner_name": "MOUZ NXT"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-8",
+      "event_name": "CCT 2026 Europe Series 8",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397254",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Cache",
+        "Ancient"
+      ],
+      "match_id": "hltv:2397254",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397254/g2-ares-vs-the-last-resort-cct-2026-europe-series-8",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "G2 Ares",
+      "team2_name": "The Last Resort",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -3483,43 +3552,6 @@
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:cct-2026-europe-series-8",
-      "event_name": "CCT 2026 Europe Series 8",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397253",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397253",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397253/mouz-nxt-vs-bushido-wildcats-cct-2026-europe-series-8",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-04T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "MOUZ NXT",
-      "team2_name": "Bushido Wildcats",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
-    },
-    {
-      "event_id": "hltv:9352",
-      "event_name": "CCT 2026 Europe Series 8",
-      "event_url": null,
-      "hltv_match_id": "2397254",
-      "maps": [],
-      "match_id": "hltv:2397254",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397254/g2-ares-vs-the-last-resort-cct-2026-europe-series-8",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-04T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "G2 Ares",
-      "team2_name": "The Last Resort"
-    },
-    {
       "event_id": "hltv:9295",
       "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
       "event_url": null,
@@ -3552,9 +3584,9 @@
       "team2_name": "Peladona"
     },
     {
-      "event_id": "hltv:8249",
+      "event_id": "hltv:blast-open-porto-2026",
       "event_name": "BLAST Open Porto 2026",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2396947",
       "lineups": {
         "team1": [],
@@ -3565,7 +3597,7 @@
       "product_tier": "tier_1",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2396947/falcons-vs-g2-blast-open-porto-2026",
-      "stage_name": "Quarterfinal",
+      "stage_name": "Scheduled series",
       "starts_at": "2026-09-04T14:00:00Z",
       "status": "live",
       "team1_name": "Falcons",
@@ -6352,32 +6384,13 @@
                 "event_name": "BLAST Open Porto 2026",
                 "event_url": null,
                 "feeds_from": [],
-                "hltv_match_id": "2396947",
-                "maps": [],
-                "match_id": "hltv:2396947",
-                "product_tier": "tier_1",
-                "round_name": "Quarterfinal",
-                "series_format": "bo3",
-                "slot_id": "main:quarterfinal:1",
-                "source_url": "https://www.hltv.org/matches/2396947/falcons-vs-g2-blast-open-porto-2026",
-                "stage_name": "Quarterfinal",
-                "starts_at": "2026-09-04T14:00:00Z",
-                "status": "live",
-                "team1_name": "Falcons",
-                "team2_name": "G2"
-              },
-              {
-                "event_id": "hltv:8249",
-                "event_name": "BLAST Open Porto 2026",
-                "event_url": null,
-                "feeds_from": [],
                 "hltv_match_id": "2396948",
                 "maps": [],
                 "match_id": "hltv:2396948",
                 "product_tier": "tier_1",
                 "round_name": "Quarterfinal",
                 "series_format": "bo3",
-                "slot_id": "main:quarterfinal:2",
+                "slot_id": "main:quarterfinal:1",
                 "source_url": "https://www.hltv.org/matches/2396948/furia-vs-vitality-blast-open-porto-2026",
                 "stage_name": "Quarterfinal",
                 "starts_at": "2026-09-04T17:30:00Z",
@@ -6413,22 +6426,6 @@
           "event_id": "hltv:8249",
           "event_name": "BLAST Open Porto 2026",
           "event_url": null,
-          "hltv_match_id": "2396947",
-          "maps": [],
-          "match_id": "hltv:2396947",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396947/falcons-vs-g2-blast-open-porto-2026",
-          "stage_name": "Quarterfinal",
-          "starts_at": "2026-09-04T14:00:00Z",
-          "status": "live",
-          "team1_name": "Falcons",
-          "team2_name": "G2"
-        },
-        {
-          "event_id": "hltv:8249",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": null,
           "hltv_match_id": "2396948",
           "maps": [],
           "match_id": "hltv:2396948",
@@ -6444,8 +6441,6 @@
       ],
       "name": "BLAST Open Porto 2026",
       "participants": [
-        "Falcons",
-        "G2",
         "FURIA",
         "Vitality"
       ],
@@ -6788,31 +6783,33 @@
         {
           "event_id": "hltv:blast-open-porto-2026",
           "event_name": "BLAST Open Porto 2026",
-          "event_url": null,
-          "hltv_match_id": "2396946",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2396947",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "maps": [],
-          "match_id": "hltv:2396946",
-          "product_tier": "tier_1",
-          "score1": 0,
-          "score2": 2,
+          "match_id": "hltv:2396947",
+          "product_tier": "pending",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396946/fut-vs-vitality-blast-open-porto-2026",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "FUT",
-          "team2_name": "Vitality",
-          "winner_name": "Vitality"
+          "source_url": "https://www.hltv.org/matches/2396947/falcons-vs-g2-blast-open-porto-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-04T14:00:00Z",
+          "status": "live",
+          "team1_name": "Falcons",
+          "team2_name": "G2",
+          "veto_text": "Best of 3 (LAN)\n\n* Quarter-final"
         }
       ],
       "name": "BLAST Open Porto 2026",
       "participants": [
-        "FUT",
-        "Vitality"
+        "Falcons",
+        "G2"
       ],
       "product_tier": "tier_1",
-      "source_url": null,
-      "status": "finished"
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8189,25 +8186,6 @@
           "team1_name": "The Huns",
           "team2_name": "Chinggis Warriors",
           "winner_name": "Chinggis Warriors"
-        },
-        {
-          "event_id": "hltv:fissure-playground-3-asia-closed-qualifier",
-          "event_name": "FISSURE Playground 3 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397408",
-          "maps": [],
-          "match_id": "hltv:2397408",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397408/rare-atom-vs-5star-fissure-playground-3-asia-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Rare Atom",
-          "team2_name": "5star",
-          "winner_name": "5star"
         }
       ],
       "name": "FISSURE Playground 3 Asia Closed Qualifier",
@@ -8758,44 +8736,6 @@
           "team1_name": "MIBR",
           "team2_name": "Eternal Fire",
           "winner_name": "Eternal Fire"
-        },
-        {
-          "event_id": "hltv:iem-beijing-2026-closed-qualifier",
-          "event_name": "IEM Beijing 2026 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397308",
-          "maps": [],
-          "match_id": "hltv:2397308",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397308/3dmax-vs-heroic-iem-beijing-2026-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "3DMAX",
-          "team2_name": "HEROIC",
-          "winner_name": "HEROIC"
-        },
-        {
-          "event_id": "hltv:iem-beijing-2026-closed-qualifier",
-          "event_name": "IEM Beijing 2026 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397309",
-          "maps": [],
-          "match_id": "hltv:2397309",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397309/magic-vs-k27-iem-beijing-2026-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "magic",
-          "team2_name": "K27",
-          "winner_name": "magic"
         }
       ],
       "name": "IEM Beijing 2026 Closed Qualifier",
@@ -8831,22 +8771,6 @@
       },
       "id": "hltv:9352",
       "matches": [
-        {
-          "event_id": "hltv:9352",
-          "event_name": "CCT 2026 Europe Series 8",
-          "event_url": null,
-          "hltv_match_id": "2397254",
-          "maps": [],
-          "match_id": "hltv:2397254",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397254/g2-ares-vs-the-last-resort-cct-2026-europe-series-8",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-04T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "G2 Ares",
-          "team2_name": "The Last Resort"
-        },
         {
           "event_id": "hltv:9352",
           "event_name": "CCT 2026 Europe Series 8",
@@ -8946,8 +8870,6 @@
       ],
       "name": "CCT 2026 Europe Series 8",
       "participants": [
-        "G2 Ares",
-        "The Last Resort",
         "Black Phoenix",
         "UNiTY",
         "SPARTA",
@@ -9107,44 +9029,6 @@
           "team1_name": "TYLOO",
           "team2_name": "DEPO",
           "winner_name": "TYLOO"
-        },
-        {
-          "event_id": "hltv:iem-beijing-2026-asia-closed-qualifier",
-          "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397298",
-          "maps": [],
-          "match_id": "hltv:2397298",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397298/lynn-vision-vs-nexvoid-iem-beijing-2026-asia-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Lynn Vision",
-          "team2_name": "NEXVOID",
-          "winner_name": "Lynn Vision"
-        },
-        {
-          "event_id": "hltv:iem-beijing-2026-asia-closed-qualifier",
-          "event_name": "IEM Beijing 2026 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397297",
-          "maps": [],
-          "match_id": "hltv:2397297",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397297/kaleido-vs-the-huns-iem-beijing-2026-asia-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Kaleido",
-          "team2_name": "The Huns",
-          "winner_name": "Kaleido"
         }
       ],
       "name": "IEM Beijing 2026 Asia Closed Qualifier",
@@ -9154,9 +9038,7 @@
         "DEPO",
         "Lynn Vision",
         "TYLOO",
-        "Kaleido",
-        "NEXVOID",
-        "The Huns"
+        "Kaleido"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -9175,23 +9057,21 @@
         {
           "event_id": "hltv:cct-2026-europe-series-8",
           "event_name": "CCT 2026 Europe Series 8",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2397253",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
           "maps": [],
           "match_id": "hltv:2397253",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397253/mouz-nxt-vs-bushido-wildcats-cct-2026-europe-series-8",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-04T08:00:00Z",
-          "status": "upcoming",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "MOUZ NXT",
           "team2_name": "Bushido Wildcats",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
+          "winner_name": "MOUZ NXT"
         },
         {
           "event_id": "hltv:cct-2026-europe-series-8",
@@ -9325,6 +9205,51 @@
           "team1_name": "Black Phoenix",
           "team2_name": "ex-Zero Tenacity",
           "winner_name": "ex-Zero Tenacity"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-8",
+          "event_name": "CCT 2026 Europe Series 8",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397254",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Cache",
+            "Ancient"
+          ],
+          "match_id": "hltv:2397254",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397254/g2-ares-vs-the-last-resort-cct-2026-europe-series-8",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "G2 Ares",
+          "team2_name": "The Last Resort",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
         }
       ],
       "name": "CCT 2026 Europe Series 8",
@@ -9345,8 +9270,8 @@
         "ex-Zero Tenacity"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -9506,38 +9431,6 @@
           "event_id": "hltv:9367",
           "event_name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1",
           "event_url": null,
-          "hltv_match_id": "2397537",
-          "maps": [],
-          "match_id": "hltv:2397537",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2397537/fokus-vs-aimclub-pgl-masters-bucharest-2026-europe-open-qualifier-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-04T14:00:00Z",
-          "status": "live",
-          "team1_name": "FOKUS",
-          "team2_name": "aimclub"
-        },
-        {
-          "event_id": "hltv:9367",
-          "event_name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1",
-          "event_url": null,
-          "hltv_match_id": "2397538",
-          "maps": [],
-          "match_id": "hltv:2397538",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2397538/genone-vs-bcgame-pgl-masters-bucharest-2026-europe-open-qualifier-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-04T14:00:00Z",
-          "status": "live",
-          "team1_name": "GenOne",
-          "team2_name": "BC.Game"
-        },
-        {
-          "event_id": "hltv:9367",
-          "event_name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1",
-          "event_url": null,
           "hltv_match_id": "2397539",
           "maps": [],
           "match_id": "hltv:2397539",
@@ -9554,38 +9447,6 @@
           "event_id": "hltv:9367",
           "event_name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1",
           "event_url": null,
-          "hltv_match_id": "2397540",
-          "maps": [],
-          "match_id": "hltv:2397540",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2397540/jijiehao-vs-bet-m-pgl-masters-bucharest-2026-europe-open-qualifier-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-04T14:00:00Z",
-          "status": "live",
-          "team1_name": "JiJieHao",
-          "team2_name": "BET-M"
-        },
-        {
-          "event_id": "hltv:9367",
-          "event_name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1",
-          "event_url": null,
-          "hltv_match_id": "2397541",
-          "maps": [],
-          "match_id": "hltv:2397541",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2397541/1win-vs-bushido-wildcats-pgl-masters-bucharest-2026-europe-open-qualifier-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-04T14:00:00Z",
-          "status": "live",
-          "team1_name": "1win",
-          "team2_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:9367",
-          "event_name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1",
-          "event_url": null,
           "hltv_match_id": "2397542",
           "maps": [],
           "match_id": "hltv:2397542",
@@ -9597,62 +9458,18 @@
           "status": "upcoming",
           "team1_name": "DESEMPREGO",
           "team2_name": "BRUTE"
-        },
-        {
-          "event_id": "hltv:9367",
-          "event_name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1",
-          "event_url": null,
-          "hltv_match_id": "2397543",
-          "maps": [],
-          "match_id": "hltv:2397543",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2397543/nemiga-vs-betclic-pgl-masters-bucharest-2026-europe-open-qualifier-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-04T14:00:00Z",
-          "status": "live",
-          "team1_name": "Nemiga",
-          "team2_name": "Betclic"
-        },
-        {
-          "event_id": "hltv:9367",
-          "event_name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1",
-          "event_url": null,
-          "hltv_match_id": "2397544",
-          "maps": [],
-          "match_id": "hltv:2397544",
-          "product_tier": "tier_1",
-          "series_format": "bo1",
-          "source_url": "https://www.hltv.org/matches/2397544/fnatic-vs-astral-pgl-masters-bucharest-2026-europe-open-qualifier-1",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-04T14:00:00Z",
-          "status": "live",
-          "team1_name": "fnatic",
-          "team2_name": "ASTRAL"
         }
       ],
       "name": "PGL Masters Bucharest 2026 Europe Open Qualifier 1",
       "participants": [
-        "FOKUS",
-        "aimclub",
-        "GenOne",
-        "BC.Game",
         "Nice Try",
         "Nordic Partners",
-        "JiJieHao",
-        "BET-M",
-        "1win",
-        "Bushido Wildcats",
         "DESEMPREGO",
-        "BRUTE",
-        "Nemiga",
-        "Betclic",
-        "fnatic",
-        "ASTRAL"
+        "BRUTE"
       ],
       "product_tier": "tier_1",
       "source_url": null,
-      "status": "ongoing"
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -9835,7 +9652,7 @@
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-04T04:35:46Z",
+  "last_verified_utc": "2026-09-04T11:20:17Z",
   "sources": [
     {
       "name": "HLTV events calendar",
