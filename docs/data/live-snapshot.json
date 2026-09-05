@@ -13,57 +13,19 @@
                 "event_name": "CCT 2026 South America Series 5",
                 "event_url": null,
                 "feeds_from": [],
-                "hltv_match_id": "2397006",
-                "maps": [],
-                "match_id": "hltv:2397006",
-                "product_tier": "tier_2",
-                "round_name": "Quarterfinal",
-                "series_format": "bo3",
-                "slot_id": "main:quarterfinal:1",
-                "source_url": "https://www.hltv.org/matches/2397006/peladona-vs-imperial-cct-2026-south-america-series-5",
-                "stage_name": "Quarterfinal",
-                "starts_at": "2026-09-05T19:00:00Z",
-                "status": "upcoming",
-                "team1_name": "Peladona",
-                "team2_name": "Imperial"
-              },
-              {
-                "event_id": "hltv:9340",
-                "event_name": "CCT 2026 South America Series 5",
-                "event_url": null,
-                "feeds_from": [],
                 "hltv_match_id": "2397007",
                 "maps": [],
                 "match_id": "hltv:2397007",
                 "product_tier": "tier_2",
                 "round_name": "Quarterfinal",
                 "series_format": "bo3",
-                "slot_id": "main:quarterfinal:2",
+                "slot_id": "main:quarterfinal:1",
                 "source_url": "https://www.hltv.org/matches/2397007/galorys-vs-oddik-cct-2026-south-america-series-5",
                 "stage_name": "Quarterfinal",
                 "starts_at": "2026-09-05T22:00:00Z",
                 "status": "upcoming",
                 "team1_name": "Galorys",
                 "team2_name": "ODDIK"
-              },
-              {
-                "event_id": "hltv:9340",
-                "event_name": "CCT 2026 South America Series 5",
-                "event_url": null,
-                "feeds_from": [],
-                "hltv_match_id": "2397005",
-                "maps": [],
-                "match_id": "hltv:2397005",
-                "product_tier": "tier_2",
-                "round_name": "Quarterfinal",
-                "series_format": "bo3",
-                "slot_id": "main:quarterfinal:3",
-                "source_url": "https://www.hltv.org/matches/2397005/procyon-vs-alka-cct-2026-south-america-series-5",
-                "stage_name": "Quarterfinal",
-                "starts_at": null,
-                "status": "live",
-                "team1_name": "Procyon",
-                "team2_name": "ALKA"
               }
             ],
             "name": "Quarterfinal",
@@ -93,22 +55,6 @@
           "event_id": "hltv:9340",
           "event_name": "CCT 2026 South America Series 5",
           "event_url": null,
-          "hltv_match_id": "2397006",
-          "maps": [],
-          "match_id": "hltv:2397006",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397006/peladona-vs-imperial-cct-2026-south-america-series-5",
-          "stage_name": "Quarterfinal",
-          "starts_at": "2026-09-05T19:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Peladona",
-          "team2_name": "Imperial"
-        },
-        {
-          "event_id": "hltv:9340",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
           "hltv_match_id": "2397007",
           "maps": [],
           "match_id": "hltv:2397007",
@@ -120,36 +66,16 @@
           "status": "upcoming",
           "team1_name": "Galorys",
           "team2_name": "ODDIK"
-        },
-        {
-          "event_id": "hltv:9340",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2397005",
-          "maps": [],
-          "match_id": "hltv:2397005",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397005/procyon-vs-alka-cct-2026-south-america-series-5",
-          "stage_name": "Quarterfinal",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Procyon",
-          "team2_name": "ALKA"
         }
       ],
       "name": "CCT 2026 South America Series 5",
       "participants": [
-        "Peladona",
-        "Imperial",
         "Galorys",
-        "ODDIK",
-        "Procyon",
-        "ALKA"
+        "ODDIK"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -384,6 +310,82 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "upcoming"
+    },
+    {
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:grand-final",
+            "matches": [
+              {
+                "event_id": "hltv:8249",
+                "event_name": "BLAST Open Porto 2026",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2396951",
+                "maps": [],
+                "match_id": "hltv:2396951",
+                "product_tier": "tier_1",
+                "round_name": "Grand Final",
+                "series_format": "bo5",
+                "slot_id": "main:grand-final:1",
+                "source_url": "https://www.hltv.org/matches/2396951/spirit-vs-mouz-blast-open-porto-2026",
+                "stage_name": "Grand Final",
+                "starts_at": "2026-09-06T14:00:00Z",
+                "status": "live",
+                "team1_name": "Spirit",
+                "team2_name": "MOUZ"
+              }
+            ],
+            "name": "Grand Final",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Grand Final",
+      "format": {
+        "label": "Grand Final",
+        "settings": {},
+        "stages": [
+          {
+            "id": "grand-final",
+            "name": "Grand Final",
+            "order": 1,
+            "status": "live",
+            "type": "single_elimination"
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "id": "hltv:8249",
+      "matches": [
+        {
+          "event_id": "hltv:8249",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": null,
+          "hltv_match_id": "2396951",
+          "maps": [],
+          "match_id": "hltv:2396951",
+          "product_tier": "tier_1",
+          "series_format": "bo5",
+          "source_url": "https://www.hltv.org/matches/2396951/spirit-vs-mouz-blast-open-porto-2026",
+          "stage_name": "Grand Final",
+          "starts_at": "2026-09-06T14:00:00Z",
+          "status": "live",
+          "team1_name": "Spirit",
+          "team2_name": "MOUZ"
+        }
+      ],
+      "name": "BLAST Open Porto 2026",
+      "participants": [
+        "Spirit",
+        "MOUZ"
+      ],
+      "product_tier": "tier_1",
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -723,6 +725,25 @@
           "event_id": "hltv:blast-open-porto-2026",
           "event_name": "BLAST Open Porto 2026",
           "event_url": null,
+          "hltv_match_id": "2396950",
+          "maps": [],
+          "match_id": "hltv:2396950",
+          "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2396950/mouz-vs-vitality-blast-open-porto-2026",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "MOUZ",
+          "team2_name": "Vitality",
+          "winner_name": "MOUZ"
+        },
+        {
+          "event_id": "hltv:blast-open-porto-2026",
+          "event_name": "BLAST Open Porto 2026",
+          "event_url": null,
           "hltv_match_id": "2396949",
           "maps": [],
           "match_id": "hltv:2396949",
@@ -775,65 +796,20 @@
           "team1_name": "Falcons",
           "team2_name": "G2",
           "winner_name": "Falcons"
-        },
-        {
-          "event_id": "hltv:blast-open-porto-2026",
-          "event_name": "BLAST Open Porto 2026",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2396950",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Dust2",
-              "score1": 8,
-              "score2": 4,
-              "status": "finished"
-            },
-            {
-              "map_name": "Mirage",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Inferno",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Dust2",
-            "Mirage",
-            "Inferno"
-          ],
-          "match_id": "hltv:2396950",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396950/mouz-vs-vitality-blast-open-porto-2026",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "MOUZ",
-          "team2_name": "Vitality",
-          "veto_text": "Best of 3 (LAN)\n\n* Semi-final"
         }
       ],
       "name": "BLAST Open Porto 2026",
       "participants": [
+        "MOUZ",
+        "Vitality",
         "Spirit",
         "Falcons",
         "FURIA",
-        "Vitality",
-        "G2",
-        "MOUZ"
+        "G2"
       ],
       "product_tier": "tier_1",
       "source_url": null,
-      "status": "ongoing"
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -845,6 +821,25 @@
       },
       "id": "hltv:cct-2026-europe-series-8",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-8",
+          "event_name": "CCT 2026 Europe Series 8",
+          "event_url": null,
+          "hltv_match_id": "2397260",
+          "maps": [],
+          "match_id": "hltv:2397260",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397260/inox-division-vs-ex-zero-tenacity-cct-2026-europe-series-8",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "INOX Division",
+          "team2_name": "ex-Zero Tenacity",
+          "winner_name": "INOX Division"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-8",
           "event_name": "CCT 2026 Europe Series 8",
@@ -958,74 +953,12 @@
           "team1_name": "G2 Ares",
           "team2_name": "The Last Resort",
           "winner_name": "The Last Resort"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-8",
-          "event_name": "CCT 2026 Europe Series 8",
-          "event_url": null,
-          "hltv_match_id": "2397253",
-          "maps": [],
-          "match_id": "hltv:2397253",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397253/mouz-nxt-vs-bushido-wildcats-cct-2026-europe-series-8",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "MOUZ NXT",
-          "team2_name": "Bushido Wildcats",
-          "winner_name": "MOUZ NXT"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-8",
-          "event_name": "CCT 2026 Europe Series 8",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397260",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Nuke",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Cache",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Dust2",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Nuke",
-            "Cache",
-            "Dust2"
-          ],
-          "match_id": "hltv:2397260",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397260/inox-division-vs-ex-zero-tenacity-cct-2026-europe-series-8",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "INOX Division",
-          "team2_name": "ex-Zero Tenacity",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
         }
       ],
       "name": "CCT 2026 Europe Series 8",
       "participants": [
+        "INOX Division",
+        "ex-Zero Tenacity",
         "Lavked",
         "Just Players",
         "Leo",
@@ -1037,11 +970,175 @@
         "Black Phoenix",
         "UNiTY",
         "G2 Ares",
-        "The Last Resort",
-        "MOUZ NXT",
-        "Bushido Wildcats",
-        "INOX Division",
-        "ex-Zero Tenacity"
+        "The Last Resort"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:cct-2026-south-america-series-5",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-south-america-series-5",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2397005",
+          "maps": [],
+          "match_id": "hltv:2397005",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397005/procyon-vs-alka-cct-2026-south-america-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Procyon",
+          "team2_name": "ALKA",
+          "winner_name": "ALKA"
+        },
+        {
+          "event_id": "hltv:cct-2026-south-america-series-5",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2397004",
+          "maps": [],
+          "match_id": "hltv:2397004",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397004/bounty-hunters-vs-yawara-cct-2026-south-america-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Bounty Hunters",
+          "team2_name": "Yawara",
+          "winner_name": "Bounty Hunters"
+        },
+        {
+          "event_id": "hltv:cct-2026-south-america-series-5",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2397003",
+          "maps": [],
+          "match_id": "hltv:2397003",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397003/uno-mille-vs-alka-cct-2026-south-america-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "UNO MILLE",
+          "team2_name": "ALKA",
+          "winner_name": "ALKA"
+        },
+        {
+          "event_id": "hltv:cct-2026-south-america-series-5",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2397001",
+          "maps": [],
+          "match_id": "hltv:2397001",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397001/metanoia-wolves-vs-oddik-cct-2026-south-america-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "METANOIA Wolves",
+          "team2_name": "ODDIK",
+          "winner_name": "ODDIK"
+        },
+        {
+          "event_id": "hltv:cct-2026-south-america-series-5",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": null,
+          "hltv_match_id": "2397000",
+          "maps": [],
+          "match_id": "hltv:2397000",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397000/isurus-vs-peladona-cct-2026-south-america-series-5",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Isurus",
+          "team2_name": "Peladona",
+          "winner_name": "Peladona"
+        },
+        {
+          "event_id": "hltv:cct-2026-south-america-series-5",
+          "event_name": "CCT 2026 South America Series 5",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397006",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": 12,
+              "score2": 12,
+              "status": "finished"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Cache",
+            "Inferno"
+          ],
+          "match_id": "hltv:2397006",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397006/peladona-vs-imperial-cct-2026-south-america-series-5",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Peladona",
+          "team2_name": "Imperial",
+          "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
+        }
+      ],
+      "name": "CCT 2026 South America Series 5",
+      "participants": [
+        "Procyon",
+        "ALKA",
+        "Bounty Hunters",
+        "Yawara",
+        "UNO MILLE",
+        "METANOIA Wolves",
+        "ODDIK",
+        "Isurus",
+        "Peladona",
+        "Imperial"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -1144,129 +1241,6 @@
         "Phantom Academy",
         "ex-Zero Tenacity",
         "benched gods"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:cct-2026-south-america-series-5",
-      "matches": [
-        {
-          "event_id": "hltv:cct-2026-south-america-series-5",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2397004",
-          "maps": [],
-          "match_id": "hltv:2397004",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397004/bounty-hunters-vs-yawara-cct-2026-south-america-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Bounty Hunters",
-          "team2_name": "Yawara",
-          "winner_name": "Bounty Hunters"
-        },
-        {
-          "event_id": "hltv:cct-2026-south-america-series-5",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2397003",
-          "maps": [],
-          "match_id": "hltv:2397003",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397003/uno-mille-vs-alka-cct-2026-south-america-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "UNO MILLE",
-          "team2_name": "ALKA",
-          "winner_name": "ALKA"
-        },
-        {
-          "event_id": "hltv:cct-2026-south-america-series-5",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2397001",
-          "maps": [],
-          "match_id": "hltv:2397001",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397001/metanoia-wolves-vs-oddik-cct-2026-south-america-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "METANOIA Wolves",
-          "team2_name": "ODDIK",
-          "winner_name": "ODDIK"
-        },
-        {
-          "event_id": "hltv:cct-2026-south-america-series-5",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2397000",
-          "maps": [],
-          "match_id": "hltv:2397000",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397000/isurus-vs-peladona-cct-2026-south-america-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Isurus",
-          "team2_name": "Peladona",
-          "winner_name": "Peladona"
-        },
-        {
-          "event_id": "hltv:cct-2026-south-america-series-5",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2396996",
-          "maps": [],
-          "match_id": "hltv:2396996",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2396996/keyd-stars-vs-procyon-cct-2026-south-america-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Keyd Stars",
-          "team2_name": "Procyon",
-          "winner_name": "Procyon"
-        }
-      ],
-      "name": "CCT 2026 South America Series 5",
-      "participants": [
-        "Bounty Hunters",
-        "Yawara",
-        "UNO MILLE",
-        "ALKA",
-        "METANOIA Wolves",
-        "ODDIK",
-        "Isurus",
-        "Peladona",
-        "Keyd Stars",
-        "Procyon"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -1971,24 +1945,8 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-05T17:23:37Z",
+  "fetched_at_utc": "2026-09-05T20:22:36Z",
   "matches": [
-    {
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
-      "event_url": null,
-      "hltv_match_id": "2397006",
-      "maps": [],
-      "match_id": "hltv:2397006",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397006/peladona-vs-imperial-cct-2026-south-america-series-5",
-      "stage_name": "Quarterfinal",
-      "starts_at": "2026-09-05T19:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Peladona",
-      "team2_name": "Imperial"
-    },
     {
       "event_id": "hltv:9340",
       "event_name": "CCT 2026 South America Series 5",
@@ -2180,6 +2138,22 @@
       "status": "upcoming",
       "team1_name": "Noir Verse",
       "team2_name": "Fire Flux"
+    },
+    {
+      "event_id": "hltv:8249",
+      "event_name": "BLAST Open Porto 2026",
+      "event_url": null,
+      "hltv_match_id": "2396951",
+      "maps": [],
+      "match_id": "hltv:2396951",
+      "product_tier": "tier_1",
+      "series_format": "bo5",
+      "source_url": "https://www.hltv.org/matches/2396951/spirit-vs-mouz-blast-open-porto-2026",
+      "stage_name": "Grand Final",
+      "starts_at": "2026-09-06T14:00:00Z",
+      "status": "live",
+      "team1_name": "Spirit",
+      "team2_name": "MOUZ"
     },
     {
       "event_id": "hltv:9368",
@@ -2441,6 +2415,25 @@
       "event_id": "hltv:blast-open-porto-2026",
       "event_name": "BLAST Open Porto 2026",
       "event_url": null,
+      "hltv_match_id": "2396950",
+      "maps": [],
+      "match_id": "hltv:2396950",
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2396950/mouz-vs-vitality-blast-open-porto-2026",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "MOUZ",
+      "team2_name": "Vitality",
+      "winner_name": "MOUZ"
+    },
+    {
+      "event_id": "hltv:blast-open-porto-2026",
+      "event_name": "BLAST Open Porto 2026",
+      "event_url": null,
       "hltv_match_id": "2396949",
       "maps": [],
       "match_id": "hltv:2396949",
@@ -2493,6 +2486,44 @@
       "team1_name": "Falcons",
       "team2_name": "G2",
       "winner_name": "Falcons"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-8",
+      "event_name": "CCT 2026 Europe Series 8",
+      "event_url": null,
+      "hltv_match_id": "2397260",
+      "maps": [],
+      "match_id": "hltv:2397260",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397260/inox-division-vs-ex-zero-tenacity-cct-2026-europe-series-8",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "INOX Division",
+      "team2_name": "ex-Zero Tenacity",
+      "winner_name": "INOX Division"
+    },
+    {
+      "event_id": "hltv:cct-2026-south-america-series-5",
+      "event_name": "CCT 2026 South America Series 5",
+      "event_url": null,
+      "hltv_match_id": "2397005",
+      "maps": [],
+      "match_id": "hltv:2397005",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397005/procyon-vs-alka-cct-2026-south-america-series-5",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Procyon",
+      "team2_name": "ALKA",
+      "winner_name": "ALKA"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-8",
@@ -3331,48 +3362,10 @@
       "winner_name": "TYLOO"
     },
     {
-      "event_id": "hltv:cct-2026-europe-series-8",
-      "event_name": "CCT 2026 Europe Series 8",
-      "event_url": null,
-      "hltv_match_id": "2397253",
-      "maps": [],
-      "match_id": "hltv:2397253",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397253/mouz-nxt-vs-bushido-wildcats-cct-2026-europe-series-8",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "MOUZ NXT",
-      "team2_name": "Bushido Wildcats",
-      "winner_name": "MOUZ NXT"
-    },
-    {
       "event_id": "hltv:cct-2026-south-america-series-5",
       "event_name": "CCT 2026 South America Series 5",
-      "event_url": null,
-      "hltv_match_id": "2396996",
-      "maps": [],
-      "match_id": "hltv:2396996",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396996/keyd-stars-vs-procyon-cct-2026-south-america-series-5",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Keyd Stars",
-      "team2_name": "Procyon",
-      "winner_name": "Procyon"
-    },
-    {
-      "event_id": "hltv:blast-open-porto-2026",
-      "event_name": "BLAST Open Porto 2026",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2396950",
+      "hltv_match_id": "2397006",
       "lineups": {
         "team1": [],
         "team2": []
@@ -3380,12 +3373,12 @@
       "map_results": [
         {
           "map_name": "Dust2",
-          "score1": 8,
-          "score2": 4,
+          "score1": 12,
+          "score2": 12,
           "status": "finished"
         },
         {
-          "map_name": "Mirage",
+          "map_name": "Cache",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -3399,84 +3392,94 @@
       ],
       "maps": [
         "Dust2",
-        "Mirage",
+        "Cache",
         "Inferno"
       ],
-      "match_id": "hltv:2396950",
-      "product_tier": "tier_1",
+      "match_id": "hltv:2397006",
+      "product_tier": "tier_2",
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2396950/mouz-vs-vitality-blast-open-porto-2026",
+      "source_url": "https://www.hltv.org/matches/2397006/peladona-vs-imperial-cct-2026-south-america-series-5",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "MOUZ",
-      "team2_name": "Vitality",
-      "veto_text": "Best of 3 (LAN)\n\n* Semi-final"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-8",
-      "event_name": "CCT 2026 Europe Series 8",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397260",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Cache",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Nuke",
-        "Cache",
-        "Dust2"
-      ],
-      "match_id": "hltv:2397260",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397260/inox-division-vs-ex-zero-tenacity-cct-2026-europe-series-8",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_name": "INOX Division",
-      "team2_name": "ex-Zero Tenacity",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
-    },
-    {
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
-      "event_url": null,
-      "hltv_match_id": "2397005",
-      "maps": [],
-      "match_id": "hltv:2397005",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397005/procyon-vs-alka-cct-2026-south-america-series-5",
-      "stage_name": "Quarterfinal",
-      "starts_at": null,
-      "status": "live",
-      "team1_name": "Procyon",
-      "team2_name": "ALKA"
+      "team1_name": "Peladona",
+      "team2_name": "Imperial",
+      "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
     }
   ],
   "ok": true,
-  "players": [],
+  "players": [
+    {
+      "hltv_player_id": "21648",
+      "nickname": "svemyy",
+      "player_id": "hltv:21648",
+      "source_url": "https://www.hltv.org/player/21648/svemyy",
+      "team_name": "WBT Academy"
+    },
+    {
+      "hltv_player_id": "21650",
+      "nickname": "marat2k",
+      "player_id": "hltv:21650",
+      "source_url": "https://www.hltv.org/player/21650/marat2k",
+      "team_name": "WBT Academy"
+    },
+    {
+      "hltv_player_id": "19946",
+      "nickname": "fl1peR",
+      "player_id": "hltv:19946",
+      "source_url": "https://www.hltv.org/player/19946/fl1per",
+      "team_name": "WBT Academy"
+    },
+    {
+      "hltv_player_id": "25902",
+      "nickname": "tired73",
+      "player_id": "hltv:25902",
+      "source_url": "https://www.hltv.org/player/25902/tired73",
+      "team_name": "WBT Academy"
+    },
+    {
+      "hltv_player_id": "26422",
+      "nickname": "NxStep",
+      "player_id": "hltv:26422",
+      "source_url": "https://www.hltv.org/player/26422/nxstep",
+      "team_name": "WBT Academy"
+    },
+    {
+      "hltv_player_id": "15300",
+      "nickname": "ToM223",
+      "player_id": "hltv:15300",
+      "source_url": "https://www.hltv.org/player/15300/tom223",
+      "team_name": "OLDBOYS PL"
+    },
+    {
+      "hltv_player_id": "5388",
+      "nickname": "rallen",
+      "player_id": "hltv:5388",
+      "source_url": "https://www.hltv.org/player/5388/rallen",
+      "team_name": "OLDBOYS PL"
+    },
+    {
+      "hltv_player_id": "7356",
+      "nickname": "MICHU",
+      "player_id": "hltv:7356",
+      "source_url": "https://www.hltv.org/player/7356/michu",
+      "team_name": "OLDBOYS PL"
+    },
+    {
+      "hltv_player_id": "15428",
+      "nickname": "Goofy",
+      "player_id": "hltv:15428",
+      "source_url": "https://www.hltv.org/player/15428/goofy",
+      "team_name": "OLDBOYS PL"
+    },
+    {
+      "hltv_player_id": "16848",
+      "nickname": "hades",
+      "player_id": "hltv:16848",
+      "source_url": "https://www.hltv.org/player/16848/hades",
+      "team_name": "OLDBOYS PL"
+    }
+  ],
   "poll_after_ms": 300000,
   "rankings": null,
   "source": "HLTV via GitHub Actions FlareSolverr",
@@ -3484,26 +3487,27 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 49
+    "scheduled_matches": 51
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 14,
-    "matches_kept": 81,
-    "players_kept": 0,
+    "events_kept": 15,
+    "matches_kept": 80,
+    "players_kept": 10,
     "event_tiers": {
       "hltv:9340": "tier_2",
       "hltv:9373": "tier_2",
       "hltv:9337": "tier_2",
+      "hltv:8249": "tier_1",
       "hltv:9368": "tier_1",
       "hltv:8266": "tier_1",
       "hltv:blast-open-porto-2026": "tier_1",
       "hltv:cct-2026-europe-series-8": "tier_2",
-      "hltv:cct-2026-challengers-europe-series-6": "tier_2",
       "hltv:cct-2026-south-america-series-5": "tier_2",
+      "hltv:cct-2026-challengers-europe-series-6": "tier_2",
       "hltv:pgl-masters-bucharest-2026-north-america-open-qualifier-1": "tier_1",
       "hltv:pgl-masters-bucharest-2026-south-america-open-qualifier-1": "tier_1",
       "hltv:pgl-masters-bucharest-2026-europe-open-qualifier-1": "tier_1",
@@ -3511,7 +3515,6 @@
       "hltv:iem-beijing-2026-asia-closed-qualifier": "tier_1"
     },
     "eligible_match_ids": [
-      "hltv:2397006",
       "hltv:2397007",
       "hltv:2397511",
       "hltv:2397512",
@@ -3524,6 +3527,7 @@
       "hltv:2397574",
       "hltv:2397513",
       "hltv:2397514",
+      "hltv:2396951",
       "hltv:2397625",
       "hltv:2397626",
       "hltv:2397627",
@@ -3540,9 +3544,12 @@
       "hltv:2397601",
       "hltv:2397599",
       "hltv:2397602",
+      "hltv:2396950",
       "hltv:2396949",
       "hltv:2396948",
       "hltv:2396947",
+      "hltv:2397260",
+      "hltv:2397005",
       "hltv:2397259",
       "hltv:2397510",
       "hltv:2397004",
@@ -3587,11 +3594,7 @@
       "hltv:2397538",
       "hltv:2397254",
       "hltv:2397306",
-      "hltv:2397253",
-      "hltv:2396996",
-      "hltv:2396950",
-      "hltv:2397260",
-      "hltv:2397005"
+      "hltv:2397006"
     ]
   }
 }
