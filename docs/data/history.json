@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-05T10:38:38Z",
+  "generated_at_utc": "2026-09-05T15:15:52Z",
   "through_date": "2026-09-05",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1845,
+    "matches": 1850,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1123,6 +1123,116 @@
       "score2": 0,
       "winner_name": "Marsborne",
       "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397004",
+      "match_date": "2026-09-05",
+      "event_name": "CCT 2026 South America Series 5",
+      "team1_name": "Bounty Hunters",
+      "team2_name": "Yawara",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Bounty Hunters",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397258",
+      "match_date": "2026-09-05",
+      "event_name": "CCT 2026 Europe Series 8",
+      "team1_name": "Leo",
+      "team2_name": "PsychoFace",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Leo",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397507",
+      "match_date": "2026-09-05",
+      "event_name": "CCT 2026 Challengers Europe Series 6",
+      "team1_name": "Bushido Wildcats",
+      "team2_name": "Spirit Academy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Bushido Wildcats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397509",
+      "match_date": "2026-09-05",
+      "event_name": "CCT 2026 Challengers Europe Series 6",
+      "team1_name": "Entropy",
+      "team2_name": "Phantom Academy",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Phantom Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397508",
+      "match_date": "2026-09-05",
+      "event_name": "CCT 2026 Challengers Europe Series 6",
+      "team1_name": "ex-Zero Tenacity",
+      "team2_name": "benched gods",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "benched gods",
+      "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
       "stage_name": "Completed series",
