@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-05T04:31:33Z",
+  "generated_at_utc": "2026-09-05T10:38:38Z",
   "through_date": "2026-09-05",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1842,
+    "matches": 1845,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1056,6 +1056,72 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Imperial",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397257",
+      "match_date": "2026-09-05",
+      "event_name": "CCT 2026 Europe Series 8",
+      "team1_name": "EAC",
+      "team2_name": "PCIFIC",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "PCIFIC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397562",
+      "match_date": "2026-09-05",
+      "event_name": "PGL Masters Bucharest 2026 North America Open Qualifier 1",
+      "team1_name": "Without a Roof",
+      "team2_name": "EMPIRE",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Without a Roof",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397561",
+      "match_date": "2026-09-05",
+      "event_name": "PGL Masters Bucharest 2026 North America Open Qualifier 1",
+      "team1_name": "Marsborne",
+      "team2_name": "Incognito",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Marsborne",
       "tier": "tier_1",
       "best_of": 3,
       "phase": "Completed series",
