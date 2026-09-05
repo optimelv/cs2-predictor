@@ -3771,7 +3771,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:cct-2026-south-america-series-5",
         "event_name": "CCT 2026 South America Series 5",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397006",
         "lineups": {
           "team1": [],
@@ -3797,20 +3797,64 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Dust2",
-          "Cache",
-          "Inferno"
-        ],
+        "maps": [],
         "match_id": "hltv:2397006",
         "product_tier": "tier_2",
+        "score1": 1,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397006/peladona-vs-imperial-cct-2026-south-america-series-5",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Peladona",
+        "team2_name": "Imperial",
+        "veto_text": "Best of 3 (Online)\n\n* Quarter-final",
+        "winner_name": "Imperial"
+      },
+      {
+        "event_id": "hltv:cct-2026-south-america-series-5",
+        "event_name": "CCT 2026 South America Series 5",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2397007",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Nuke"
+        ],
+        "match_id": "hltv:2397007",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397007/galorys-vs-oddik-cct-2026-south-america-series-5",
         "stage_name": "Scheduled series",
         "starts_at": null,
         "status": "live",
-        "team1_name": "Peladona",
-        "team2_name": "Imperial",
+        "team1_name": "Galorys",
+        "team2_name": "ODDIK",
         "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
       },
       {
@@ -3933,22 +3977,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:9340",
-        "event_name": "CCT 2026 South America Series 5",
-        "event_url": null,
-        "hltv_match_id": "2397007",
-        "maps": [],
-        "match_id": "hltv:2397007",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397007/galorys-vs-oddik-cct-2026-south-america-series-5",
-        "stage_name": "Quarterfinal",
-        "starts_at": "2026-09-05T22:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Galorys",
-        "team2_name": "ODDIK"
       },
       {
         "event_id": "hltv:9373",
@@ -7800,6 +7828,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-south-america-series-5",
             "event_name": "CCT 2026 South America Series 5",
             "event_url": null,
+            "hltv_match_id": "2397006",
+            "maps": [],
+            "match_id": "hltv:2397006",
+            "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397006/peladona-vs-imperial-cct-2026-south-america-series-5",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Peladona",
+            "team2_name": "Imperial",
+            "winner_name": "Imperial"
+          },
+          {
+            "event_id": "hltv:cct-2026-south-america-series-5",
+            "event_name": "CCT 2026 South America Series 5",
+            "event_url": null,
             "hltv_match_id": "2397005",
             "maps": [],
             "match_id": "hltv:2397005",
@@ -7895,50 +7942,52 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-south-america-series-5",
             "event_name": "CCT 2026 South America Series 5",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397006",
+            "hltv_match_id": "2397007",
             "lineups": {
               "team1": [],
               "team2": []
             },
             "map_results": [
               {
-                "map_name": "Dust2",
-                "score1": 12,
-                "score2": 12,
-                "status": "finished"
-              },
-              {
-                "map_name": "Cache",
+                "map_name": "Ancient",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
               },
               {
-                "map_name": "Inferno",
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Nuke",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
               }
             ],
             "maps": [
+              "Ancient",
               "Dust2",
-              "Cache",
-              "Inferno"
+              "Nuke"
             ],
-            "match_id": "hltv:2397006",
+            "match_id": "hltv:2397007",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397006/peladona-vs-imperial-cct-2026-south-america-series-5",
+            "source_url": "https://www.hltv.org/matches/2397007/galorys-vs-oddik-cct-2026-south-america-series-5",
             "stage_name": "Scheduled series",
             "starts_at": null,
             "status": "live",
-            "team1_name": "Peladona",
-            "team2_name": "Imperial",
+            "team1_name": "Galorys",
+            "team2_name": "ODDIK",
             "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
           }
         ],
         "name": "CCT 2026 South America Series 5",
         "participants": [
+          "Peladona",
+          "Imperial",
           "Procyon",
           "ALKA",
           "Bounty Hunters",
@@ -7947,8 +7996,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "METANOIA Wolves",
           "ODDIK",
           "Isurus",
-          "Peladona",
-          "Imperial"
+          "Galorys"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -10373,7 +10421,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-09-05T20:22:36Z",
+    "last_verified_utc": "2026-09-05T22:56:09Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -10811,7 +10859,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-05T20:22:52Z",
+  "generated_at_utc": "2026-09-05T22:56:24Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -13274,13 +13322,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.636531,
-        "brier": 0.219497,
-        "ece": 0.036637,
-        "log_loss": 0.627532
+        "accuracy": 0.637201,
+        "brier": 0.219235,
+        "ece": 0.036058,
+        "log_loss": 0.626976
       },
-      "rows": 1626,
-      "test_rows": 542
+      "rows": 1627,
+      "test_rows": 543
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -13291,13 +13339,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.634686,
-        "brier": 0.220314,
-        "ece": 0.032408,
-        "log_loss": 0.62995
+        "accuracy": 0.635359,
+        "brier": 0.220059,
+        "ece": 0.03289,
+        "log_loss": 0.629414
       },
       "promotion_passed": false,
-      "rows": 542
+      "rows": 543
     },
     "champion": {
       "blend_weight": 0.5,
@@ -14407,7 +14455,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-05T20:22:52Z",
+    "generated_at_utc": "2026-09-05T22:56:24Z",
     "history": [
       {
         "champion": {
@@ -15572,8 +15620,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
-      "online_rows": 869,
+      "new_rows": 1,
+      "online_rows": 870,
       "seed_rows": 757
     }
   },
@@ -16447,9 +16495,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2397510",
       "hltv:2396950",
       "hltv:2397260",
-      "hltv:2397005"
+      "hltv:2397005",
+      "hltv:2397006"
     ],
-    "last_online_update_utc": "2026-09-05T20:22:52Z",
+    "last_online_update_utc": "2026-09-05T22:56:24Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -20519,10 +20568,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 71
       },
       {
-        "elo": 1579.8,
-        "last_result_utc": "2026-09-05T04:31:50Z",
-        "matches": 107,
-        "recent_win_rate_10": 0.8513,
+        "elo": 1591.06,
+        "last_result_utc": "2026-09-05T22:56:24Z",
+        "matches": 108,
+        "recent_win_rate_10": 0.8783,
         "team_key": "imperial",
         "team_name": "Imperial",
         "vrs_points": 1149.0,
@@ -24286,10 +24335,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1549.85,
-        "last_result_utc": "2026-09-04T16:23:31Z",
-        "matches": 4,
-        "recent_win_rate_10": 0.776,
+        "elo": 1538.59,
+        "last_result_utc": "2026-09-05T22:56:24Z",
+        "matches": 5,
+        "recent_win_rate_10": 0.6349,
         "team_key": "peladona",
         "team_name": "Peladona",
         "vrs_points": 0,
@@ -27517,39 +27566,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5542,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5542,
-      "event_id": "hltv:9340",
-      "event_name": "CCT 2026 South America Series 5",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-05",
-      "match_id": "hltv:2397007",
-      "match_phase": "scheduled",
-      "match_timestamp": 1788645600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Galorys",
-      "prob_team1": 0.5542,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397007/galorys-vs-oddik-cct-2026-south-america-series-5",
-      "stage_name": "Quarterfinal",
-      "starts_at": "2026-09-05T22:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Galorys",
-      "team1_vrs_rank": 80,
-      "team2_hltv_rank": null,
-      "team2_name": "ODDIK",
-      "team2_vrs_rank": null
-    },
-    {
       "confidence": 0.6651,
       "confidence_label": "watch",
       "data_quality": "full",
@@ -28307,12 +28323,45 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "MIBR",
       "team2_vrs_rank": 20
+    },
+    {
+      "confidence": 0.501,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.499,
+      "event_id": "hltv:8266",
+      "event_name": "FISSURE Playground 3",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-08",
+      "match_id": "hltv:2397598",
+      "match_phase": "scheduled",
+      "match_timestamp": 1788847200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Alliance",
+      "prob_team1": 0.499,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-08T06:00:00Z",
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "FaZe",
+      "team1_vrs_rank": 22,
+      "team2_hltv_rank": null,
+      "team2_name": "Alliance",
+      "team2_vrs_rank": 29
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 80,
-    "online_results_applied": 3,
+    "live_feed_items": 79,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
