@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-07T04:43:59Z",
+  "generated_at_utc": "2026-09-07T12:34:48Z",
   "through_date": "2026-09-07",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1907,
+    "matches": 1909,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1166,6 +1166,50 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Back to Back",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397265",
+      "match_date": "2026-09-07",
+      "event_name": "CCT 2026 Europe Series 8",
+      "team1_name": "MOUZ NXT",
+      "team2_name": "The Last Resort",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "The Last Resort",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397717",
+      "match_date": "2026-09-07",
+      "event_name": "PGL Masters Bucharest 2026 North America Open Qualifier 2",
+      "team1_name": "Celestial",
+      "team2_name": "antivalue",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "antivalue",
       "tier": "tier_1",
       "best_of": 3,
       "phase": "Completed series",

@@ -3676,7 +3676,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:pgl-masters-bucharest-2026-north-america-open-qualifier-2",
       "event_name": "PGL Masters Bucharest 2026 North America Open Qualifier 2",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2397717",
       "lineups": {
         "team1": [],
@@ -3702,21 +3702,150 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming"
         }
       ],
+      "maps": [],
+      "match_id": "hltv:2397717",
+      "product_tier": "tier_1",
+      "score1": 1,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397717/celestial-vs-antivalue-pgl-masters-bucharest-2026-north-america-open-qualifier-2",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Celestial",
+      "team2_name": "antivalue",
+      "veto_text": "Best of 3 (Online)\n\n* Semi-final. Winner advances to the Closed Qualifier.",
+      "winner_name": "antivalue"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-8",
+      "event_name": "CCT 2026 Europe Series 8",
+      "event_url": null,
+      "hltv_match_id": "2397265",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2397265",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397265/mouz-nxt-vs-the-last-resort-cct-2026-europe-series-8",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "MOUZ NXT",
+      "team2_name": "The Last Resort",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)",
+      "winner_name": "The Last Resort"
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-europe-series-6",
+      "event_name": "CCT 2026 Challengers Europe Series 6",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397515",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": 11,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
       "maps": [
-        "Anubis",
+        "Nuke",
         "Dust2",
         "Inferno"
       ],
-      "match_id": "hltv:2397717",
-      "product_tier": "tier_1",
+      "match_id": "hltv:2397515",
+      "product_tier": "tier_2",
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397717/celestial-vs-antivalue-pgl-masters-bucharest-2026-north-america-open-qualifier-2",
+      "source_url": "https://www.hltv.org/matches/2397515/strael-bora-vs-fire-flux-cct-2026-challengers-europe-series-6",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "Celestial",
-      "team2_name": "antivalue",
-      "veto_text": "Best of 3 (Online)\n\n* Semi-final. Winner advances to the Closed Qualifier."
+      "team1_name": "Strael Bora",
+      "team2_name": "Fire Flux",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1"
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-europe-series-6",
+      "event_name": "CCT 2026 Challengers Europe Series 6",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397516",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Cache",
+          "score1": 16,
+          "score2": 12,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Cache",
+        "Nuke",
+        "Anubis"
+      ],
+      "match_id": "hltv:2397516",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397516/spirit-academy-vs-mai-tai-cct-2026-challengers-europe-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Spirit Academy",
+      "team2_name": "Mai Tai",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1"
+    },
+    {
+      "event_id": "hltv:9352",
+      "event_name": "CCT 2026 Europe Series 8",
+      "event_url": null,
+      "hltv_match_id": "2397268",
+      "maps": [],
+      "match_id": "hltv:2397268",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397268/inox-division-vs-pcific-cct-2026-europe-series-8",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "INOX Division",
+      "team2_name": "PCIFIC"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -3838,75 +3967,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-8",
-      "event_name": "CCT 2026 Europe Series 8",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397265",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397265",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397265/mouz-nxt-vs-the-last-resort-cct-2026-europe-series-8",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-07T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "MOUZ NXT",
-      "team2_name": "The Last Resort",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
-    },
-    {
-      "event_id": "hltv:9373",
-      "event_name": "CCT 2026 Challengers Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2397515",
-      "maps": [],
-      "match_id": "hltv:2397515",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397515/strael-bora-vs-fire-flux-cct-2026-challengers-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-07T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Strael Bora",
-      "team2_name": "Fire Flux"
-    },
-    {
-      "event_id": "hltv:9373",
-      "event_name": "CCT 2026 Challengers Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2397516",
-      "maps": [],
-      "match_id": "hltv:2397516",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397516/spirit-academy-vs-mai-tai-cct-2026-challengers-europe-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-07T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Spirit Academy",
-      "team2_name": "Mai Tai"
-    },
-    {
-      "event_id": "hltv:9352",
-      "event_name": "CCT 2026 Europe Series 8",
-      "event_url": null,
-      "hltv_match_id": "2397268",
-      "maps": [],
-      "match_id": "hltv:2397268",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397268/inox-division-vs-pcific-cct-2026-europe-series-8",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-07T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "INOX Division",
-      "team2_name": "PCIFIC"
     },
     {
       "event_id": "hltv:9337",
@@ -7755,25 +7815,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Peladona",
           "team2_name": "Imperial",
           "winner_name": "Imperial"
-        },
-        {
-          "event_id": "hltv:cct-2026-south-america-series-5",
-          "event_name": "CCT 2026 South America Series 5",
-          "event_url": null,
-          "hltv_match_id": "2397005",
-          "maps": [],
-          "match_id": "hltv:2397005",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397005/procyon-vs-alka-cct-2026-south-america-series-5",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Procyon",
-          "team2_name": "ALKA",
-          "winner_name": "ALKA"
         }
       ],
       "name": "CCT 2026 South America Series 5",
@@ -7783,8 +7824,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "ALKA",
         "Imperial",
         "ODDIK",
-        "Peladona",
-        "Procyon"
+        "Peladona"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -8432,22 +8472,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9352",
           "event_name": "CCT 2026 Europe Series 8",
           "event_url": null,
-          "hltv_match_id": "2397268",
-          "maps": [],
-          "match_id": "hltv:2397268",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397268/inox-division-vs-pcific-cct-2026-europe-series-8",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-07T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "INOX Division",
-          "team2_name": "PCIFIC"
-        },
-        {
-          "event_id": "hltv:9352",
-          "event_name": "CCT 2026 Europe Series 8",
-          "event_url": null,
           "hltv_match_id": "2397267",
           "maps": [],
           "match_id": "hltv:2397267",
@@ -8475,20 +8499,36 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "EAC",
           "team2_name": "UNiTY"
+        },
+        {
+          "event_id": "hltv:9352",
+          "event_name": "CCT 2026 Europe Series 8",
+          "event_url": null,
+          "hltv_match_id": "2397268",
+          "maps": [],
+          "match_id": "hltv:2397268",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397268/inox-division-vs-pcific-cct-2026-europe-series-8",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "INOX Division",
+          "team2_name": "PCIFIC"
         }
       ],
       "name": "CCT 2026 Europe Series 8",
       "participants": [
-        "INOX Division",
-        "PCIFIC",
         "Lavked",
         "Leo",
         "EAC",
-        "UNiTY"
+        "UNiTY",
+        "INOX Division",
+        "PCIFIC"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -8542,23 +8582,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-8",
           "event_name": "CCT 2026 Europe Series 8",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2397265",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
           "maps": [],
           "match_id": "hltv:2397265",
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397265/mouz-nxt-vs-the-last-resort-cct-2026-europe-series-8",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-07T08:00:00Z",
-          "status": "upcoming",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "MOUZ NXT",
           "team2_name": "The Last Resort",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
+          "winner_name": "The Last Resort"
         },
         {
           "event_id": "hltv:cct-2026-europe-series-8",
@@ -8635,25 +8673,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "G2 Ares",
           "team2_name": "Bushido Wildcats",
           "winner_name": "G2 Ares"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-8",
-          "event_name": "CCT 2026 Europe Series 8",
-          "event_url": null,
-          "hltv_match_id": "2397260",
-          "maps": [],
-          "match_id": "hltv:2397260",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397260/inox-division-vs-ex-zero-tenacity-cct-2026-europe-series-8",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "INOX Division",
-          "team2_name": "ex-Zero Tenacity",
-          "winner_name": "INOX Division"
         }
       ],
       "name": "CCT 2026 Europe Series 8",
@@ -8667,12 +8686,11 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Black Phoenix",
         "HAVU",
         "G2 Ares",
-        "Bushido Wildcats",
-        "INOX Division"
+        "Bushido Wildcats"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -8684,38 +8702,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:9373",
       "matches": [
-        {
-          "event_id": "hltv:9373",
-          "event_name": "CCT 2026 Challengers Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2397515",
-          "maps": [],
-          "match_id": "hltv:2397515",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397515/strael-bora-vs-fire-flux-cct-2026-challengers-europe-series-6",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-07T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Strael Bora",
-          "team2_name": "Fire Flux"
-        },
-        {
-          "event_id": "hltv:9373",
-          "event_name": "CCT 2026 Challengers Europe Series 6",
-          "event_url": null,
-          "hltv_match_id": "2397516",
-          "maps": [],
-          "match_id": "hltv:2397516",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397516/spirit-academy-vs-mai-tai-cct-2026-challengers-europe-series-6",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-07T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Spirit Academy",
-          "team2_name": "Mai Tai"
-        },
         {
           "event_id": "hltv:9373",
           "event_name": "CCT 2026 Challengers Europe Series 6",
@@ -8799,10 +8785,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Challengers Europe Series 6",
       "participants": [
-        "Strael Bora",
-        "Fire Flux",
-        "Spirit Academy",
-        "Mai Tai",
         "megoshort",
         "Noir Verse",
         "Entropy",
@@ -9729,6 +9711,96 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Mai Tai",
           "team2_name": "NAVI Junior",
           "winner_name": "NAVI Junior"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-6",
+          "event_name": "CCT 2026 Challengers Europe Series 6",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397515",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": 11,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Dust2",
+            "Inferno"
+          ],
+          "match_id": "hltv:2397515",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397515/strael-bora-vs-fire-flux-cct-2026-challengers-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Strael Bora",
+          "team2_name": "Fire Flux",
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-6",
+          "event_name": "CCT 2026 Challengers Europe Series 6",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397516",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Cache",
+              "score1": 16,
+              "score2": 12,
+              "status": "finished"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Cache",
+            "Nuke",
+            "Anubis"
+          ],
+          "match_id": "hltv:2397516",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397516/spirit-academy-vs-mai-tai-cct-2026-challengers-europe-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Spirit Academy",
+          "team2_name": "Mai Tai",
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 1"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 6",
@@ -9740,11 +9812,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "SAW Youngsters",
         "Misa",
         "Mai Tai",
-        "NAVI Junior"
+        "NAVI Junior",
+        "Spirit Academy"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "finished"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -10862,6 +10935,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:pgl-masters-bucharest-2026-north-america-open-qualifier-2",
           "event_name": "PGL Masters Bucharest 2026 North America Open Qualifier 2",
           "event_url": null,
+          "hltv_match_id": "2397717",
+          "maps": [],
+          "match_id": "hltv:2397717",
+          "product_tier": "tier_1",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397717/celestial-vs-antivalue-pgl-masters-bucharest-2026-north-america-open-qualifier-2",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Celestial",
+          "team2_name": "antivalue",
+          "winner_name": "antivalue"
+        },
+        {
+          "event_id": "hltv:pgl-masters-bucharest-2026-north-america-open-qualifier-2",
+          "event_name": "PGL Masters Bucharest 2026 North America Open Qualifier 2",
+          "event_url": null,
           "hltv_match_id": "2397716",
           "maps": [],
           "match_id": "hltv:2397716",
@@ -10876,66 +10968,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Villainous",
           "team2_name": "Babag",
           "winner_name": "Villainous"
-        },
-        {
-          "event_id": "hltv:pgl-masters-bucharest-2026-north-america-open-qualifier-2",
-          "event_name": "PGL Masters Bucharest 2026 North America Open Qualifier 2",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397717",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Anubis",
-              "score1": 13,
-              "score2": 10,
-              "status": "finished"
-            },
-            {
-              "map_name": "Dust2",
-              "score1": 0,
-              "score2": 12,
-              "status": "finished"
-            },
-            {
-              "map_name": "Inferno",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Anubis",
-            "Dust2",
-            "Inferno"
-          ],
-          "match_id": "hltv:2397717",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397717/celestial-vs-antivalue-pgl-masters-bucharest-2026-north-america-open-qualifier-2",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Celestial",
-          "team2_name": "antivalue",
-          "veto_text": "Best of 3 (Online)\n\n* Semi-final. Winner advances to the Closed Qualifier."
         }
       ],
       "name": "PGL Masters Bucharest 2026 North America Open Qualifier 2",
       "participants": [
-        "Villainous",
-        "Babag",
         "Celestial",
-        "antivalue"
+        "antivalue",
+        "Villainous",
+        "Babag"
       ],
       "product_tier": "tier_1",
       "source_url": null,
-      "status": "ongoing"
+      "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-09-07T04:43:59Z",
+  "last_verified_utc": "2026-09-07T12:34:48Z",
   "sources": [
     {
       "name": "HLTV events calendar",
