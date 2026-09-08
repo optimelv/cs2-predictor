@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-08T16:39:53Z",
+  "generated_at_utc": "2026-09-08T21:11:14Z",
   "through_date": "2026-09-08",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1938,
+    "matches": 1943,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1628,6 +1628,116 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397599",
+      "match_date": "2026-09-08",
+      "event_name": "FISSURE Playground 3",
+      "team1_name": "G2",
+      "team2_name": "Astralis",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Astralis",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397271",
+      "match_date": "2026-09-08",
+      "event_name": "CCT 2026 Europe Series 8",
+      "team1_name": "Black Phoenix",
+      "team2_name": "PsychoFace",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Black Phoenix",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397594",
+      "match_date": "2026-09-08",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 6",
+      "team1_name": "MOUZ NXT",
+      "team2_name": "BASEMENT BOYS",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "BASEMENT BOYS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397593",
+      "match_date": "2026-09-08",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 6",
+      "team1_name": "Dark Moon",
+      "team2_name": "WBT Academy",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "WBT Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397270",
+      "match_date": "2026-09-08",
+      "event_name": "CCT 2026 Europe Series 8",
+      "team1_name": "G2 Ares",
+      "team2_name": "ex-Zero Tenacity",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-Zero Tenacity",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
