@@ -3496,6 +3496,96 @@
       "winner_name": "WBT Academy"
     },
     {
+      "event_id": "hltv:fissure-playground-3",
+      "event_name": "FISSURE Playground 3",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397595",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 3,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Cache",
+        "Nuke",
+        "Inferno"
+      ],
+      "match_id": "hltv:2397595",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397595/9z-vs-5star-fissure-playground-3",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "9z",
+      "team2_name": "5star",
+      "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
+    },
+    {
+      "event_id": "hltv:fissure-playground-3",
+      "event_name": "FISSURE Playground 3",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397596",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": 12,
+          "score2": 7,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Dust2",
+        "Mirage"
+      ],
+      "match_id": "hltv:2397596",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397596/legacy-vs-magic-fissure-playground-3",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Legacy",
+      "team2_name": "magic",
+      "veto_text": "Best of 3 (LAN)\n\n* Group B upper bracket quarter-final"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -3615,48 +3705,6 @@
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:fissure-playground-3",
-      "event_name": "FISSURE Playground 3",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397595",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397595",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397595/9z-vs-5star-fissure-playground-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-08T03:00:00Z",
-      "status": "live",
-      "team1_name": "9z",
-      "team2_name": "5star",
-      "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
-    },
-    {
-      "event_id": "hltv:fissure-playground-3",
-      "event_name": "FISSURE Playground 3",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397596",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397596",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397596/legacy-vs-magic-fissure-playground-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-08T03:00:00Z",
-      "status": "live",
-      "team1_name": "Legacy",
-      "team2_name": "magic",
-      "veto_text": "Best of 3 (LAN)\n\n* Group B upper bracket quarter-final"
     },
     {
       "event_id": "hltv:fissure-playground-3",
@@ -10902,48 +10950,6 @@
           "event_id": "hltv:fissure-playground-3",
           "event_name": "FISSURE Playground 3",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397595",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397595",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397595/9z-vs-5star-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-08T03:00:00Z",
-          "status": "live",
-          "team1_name": "9z",
-          "team2_name": "5star",
-          "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
-        },
-        {
-          "event_id": "hltv:fissure-playground-3",
-          "event_name": "FISSURE Playground 3",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397596",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397596",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397596/legacy-vs-magic-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-08T03:00:00Z",
-          "status": "live",
-          "team1_name": "Legacy",
-          "team2_name": "magic",
-          "veto_text": "Best of 3 (LAN)\n\n* Group B upper bracket quarter-final"
-        },
-        {
-          "event_id": "hltv:fissure-playground-3",
-          "event_name": "FISSURE Playground 3",
-          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2397597",
           "lineups": {
             "team1": [],
@@ -10951,7 +10957,7 @@
           },
           "maps": [],
           "match_id": "hltv:2397597",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397597/the-mongolz-vs-mibr-fissure-playground-3",
           "stage_name": "Scheduled series",
@@ -10972,7 +10978,7 @@
           },
           "maps": [],
           "match_id": "hltv:2397598",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397598/faze-vs-alliance-fissure-playground-3",
           "stage_name": "Scheduled series",
@@ -10981,18 +10987,108 @@
           "team1_name": "FaZe",
           "team2_name": "Alliance",
           "veto_text": "Best of 3 (LAN)\n\n* Group B upper bracket quarter-final"
+        },
+        {
+          "event_id": "hltv:fissure-playground-3",
+          "event_name": "FISSURE Playground 3",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397596",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Ancient",
+              "score1": 12,
+              "score2": 7,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Ancient",
+            "Dust2",
+            "Mirage"
+          ],
+          "match_id": "hltv:2397596",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397596/legacy-vs-magic-fissure-playground-3",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Legacy",
+          "team2_name": "magic",
+          "veto_text": "Best of 3 (LAN)\n\n* Group B upper bracket quarter-final"
+        },
+        {
+          "event_id": "hltv:fissure-playground-3",
+          "event_name": "FISSURE Playground 3",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397595",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Cache",
+              "score1": 13,
+              "score2": 3,
+              "status": "finished"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Cache",
+            "Nuke",
+            "Inferno"
+          ],
+          "match_id": "hltv:2397595",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397595/9z-vs-5star-fissure-playground-3",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "9z",
+          "team2_name": "5star",
+          "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket quarter-final"
         }
       ],
       "name": "FISSURE Playground 3",
       "participants": [
-        "9z",
-        "5star",
-        "Legacy",
-        "magic",
         "The MongolZ",
         "MIBR",
         "FaZe",
-        "Alliance"
+        "Alliance",
+        "Legacy",
+        "magic",
+        "9z",
+        "5star"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -11233,7 +11329,7 @@
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-07T23:31:10Z",
+  "last_verified_utc": "2026-09-08T04:38:18Z",
   "sources": [
     {
       "name": "HLTV events calendar",
