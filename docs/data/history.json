@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-08T04:38:18Z",
+  "generated_at_utc": "2026-09-08T11:21:08Z",
   "through_date": "2026-09-08",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 1924,
+    "matches": 1929,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1320,6 +1320,116 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "BASEMENT BOYS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397598",
+      "match_date": "2026-09-08",
+      "event_name": "FISSURE Playground 3",
+      "team1_name": "FaZe",
+      "team2_name": "Alliance",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Alliance",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397597",
+      "match_date": "2026-09-08",
+      "event_name": "FISSURE Playground 3",
+      "team1_name": "The MongolZ",
+      "team2_name": "MIBR",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MIBR",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397596",
+      "match_date": "2026-09-08",
+      "event_name": "FISSURE Playground 3",
+      "team1_name": "Legacy",
+      "team2_name": "magic",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Legacy",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397595",
+      "match_date": "2026-09-08",
+      "event_name": "FISSURE Playground 3",
+      "team1_name": "9z",
+      "team2_name": "5star",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397520",
+      "match_date": "2026-09-08",
+      "event_name": "CCT 2026 Challengers Europe Series 6",
+      "team1_name": "ex-Zero Tenacity",
+      "team2_name": "Privateer",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "ex-Zero Tenacity",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
