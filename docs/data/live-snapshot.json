@@ -77,27 +77,6 @@
         {
           "event_id": "hltv:fissure-playground-3",
           "event_name": "FISSURE Playground 3",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397608",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397608",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T06:00:00Z",
-          "status": "live",
-          "team1_name": "Legacy",
-          "team2_name": "Alliance",
-          "veto_text": "Best of 3 (LAN)\n\n* Group B upper bracket semi-final. Winner advances to the playoffs."
-        },
-        {
-          "event_id": "hltv:fissure-playground-3",
-          "event_name": "FISSURE Playground 3",
           "event_url": null,
           "hltv_match_id": "2397599",
           "maps": [],
@@ -256,8 +235,6 @@
         "FaZe",
         "9z",
         "MIBR",
-        "Legacy",
-        "Alliance",
         "G2",
         "Astralis",
         "FURIA",
@@ -265,7 +242,9 @@
         "PARIVISION",
         "TYLOO",
         "BETBOOM",
-        "BIG"
+        "BIG",
+        "Alliance",
+        "Legacy"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -279,13 +258,17 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:9370",
+      "id": "hltv:pgl-masters-bucharest-2026-east-asia-closed-qualifier",
       "matches": [
         {
-          "event_id": "hltv:9370",
+          "event_id": "hltv:pgl-masters-bucharest-2026-east-asia-closed-qualifier",
           "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
-          "event_url": null,
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2397719",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "maps": [],
           "match_id": "hltv:2397719",
           "product_tier": "tier_1",
@@ -295,35 +278,126 @@
           "starts_at": "2026-09-09T04:00:00Z",
           "status": "upcoming",
           "team1_name": "TYLOO",
-          "team2_name": "The Huns"
-        },
-        {
-          "event_id": "hltv:9370",
-          "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397718",
-          "maps": [],
-          "match_id": "hltv:2397718",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397718/5star-vs-nexvoid-pgl-masters-bucharest-2026-east-asia-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "5star",
-          "team2_name": "NEXVOID"
+          "team2_name": "The Huns",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
         }
       ],
       "name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
       "participants": [
         "TYLOO",
-        "The Huns",
-        "5star",
-        "NEXVOID"
+        "The Huns"
+      ],
+      "product_tier": "tier_1",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:8266",
+      "matches": [
+        {
+          "event_id": "hltv:8266",
+          "event_name": "FISSURE Playground 3",
+          "event_url": null,
+          "hltv_match_id": "2397608",
+          "maps": [],
+          "match_id": "hltv:2397608",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-09T06:00:00Z",
+          "status": "live",
+          "team1_name": "Legacy",
+          "team2_name": "Alliance"
+        },
+        {
+          "event_id": "hltv:8266",
+          "event_name": "FISSURE Playground 3",
+          "event_url": null,
+          "hltv_match_id": "2397605",
+          "maps": [],
+          "match_id": "hltv:2397605",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-09T09:00:00Z",
+          "status": "live",
+          "team1_name": "BIG",
+          "team2_name": "G2"
+        },
+        {
+          "event_id": "hltv:8266",
+          "event_name": "FISSURE Playground 3",
+          "event_url": null,
+          "hltv_match_id": "2397609",
+          "maps": [],
+          "match_id": "hltv:2397609",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397609/tyloo-vs-gamerlegion-fissure-playground-3",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-09T09:00:00Z",
+          "status": "live",
+          "team1_name": "TYLOO",
+          "team2_name": "GamerLegion"
+        },
+        {
+          "event_id": "hltv:8266",
+          "event_name": "FISSURE Playground 3",
+          "event_url": null,
+          "hltv_match_id": "2397606",
+          "maps": [],
+          "match_id": "hltv:2397606",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-09T12:00:00Z",
+          "status": "live",
+          "team1_name": "BETBOOM",
+          "team2_name": "Astralis"
+        },
+        {
+          "event_id": "hltv:8266",
+          "event_name": "FISSURE Playground 3",
+          "event_url": null,
+          "hltv_match_id": "2397610",
+          "maps": [],
+          "match_id": "hltv:2397610",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397610/parivision-vs-furia-fissure-playground-3",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-09T12:00:00Z",
+          "status": "live",
+          "team1_name": "PARIVISION",
+          "team2_name": "FURIA"
+        }
+      ],
+      "name": "FISSURE Playground 3",
+      "participants": [
+        "Legacy",
+        "Alliance",
+        "BIG",
+        "G2",
+        "TYLOO",
+        "GamerLegion",
+        "BETBOOM",
+        "Astralis",
+        "PARIVISION",
+        "FURIA"
       ],
       "product_tier": "tier_1",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -374,6 +448,42 @@
         "Finishers",
         "FlyQuest",
         "Devious"
+      ],
+      "product_tier": "tier_1",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9370",
+      "matches": [
+        {
+          "event_id": "hltv:9370",
+          "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397718",
+          "maps": [],
+          "match_id": "hltv:2397718",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397718/5star-vs-nexvoid-pgl-masters-bucharest-2026-east-asia-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-09T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "5star",
+          "team2_name": "NEXVOID"
+        }
+      ],
+      "name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
+      "participants": [
+        "5star",
+        "NEXVOID"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -772,96 +882,6 @@
         "INFINITE"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
-      "status": "ongoing"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:8266",
-      "matches": [
-        {
-          "event_id": "hltv:8266",
-          "event_name": "FISSURE Playground 3",
-          "event_url": null,
-          "hltv_match_id": "2397605",
-          "maps": [],
-          "match_id": "hltv:2397605",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397605/big-vs-g2-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T09:00:00Z",
-          "status": "live",
-          "team1_name": "BIG",
-          "team2_name": "G2"
-        },
-        {
-          "event_id": "hltv:8266",
-          "event_name": "FISSURE Playground 3",
-          "event_url": null,
-          "hltv_match_id": "2397609",
-          "maps": [],
-          "match_id": "hltv:2397609",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397609/tyloo-vs-gamerlegion-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T09:00:00Z",
-          "status": "live",
-          "team1_name": "TYLOO",
-          "team2_name": "GamerLegion"
-        },
-        {
-          "event_id": "hltv:8266",
-          "event_name": "FISSURE Playground 3",
-          "event_url": null,
-          "hltv_match_id": "2397606",
-          "maps": [],
-          "match_id": "hltv:2397606",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397606/betboom-vs-astralis-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T12:00:00Z",
-          "status": "live",
-          "team1_name": "BETBOOM",
-          "team2_name": "Astralis"
-        },
-        {
-          "event_id": "hltv:8266",
-          "event_name": "FISSURE Playground 3",
-          "event_url": null,
-          "hltv_match_id": "2397610",
-          "maps": [],
-          "match_id": "hltv:2397610",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397610/parivision-vs-furia-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T12:00:00Z",
-          "status": "live",
-          "team1_name": "PARIVISION",
-          "team2_name": "FURIA"
-        }
-      ],
-      "name": "FISSURE Playground 3",
-      "participants": [
-        "BIG",
-        "G2",
-        "TYLOO",
-        "GamerLegion",
-        "BETBOOM",
-        "Astralis",
-        "PARIVISION",
-        "FURIA"
-      ],
-      "product_tier": "tier_1",
       "source_url": null,
       "status": "ongoing"
     },
@@ -2333,7 +2353,7 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-08T21:11:14Z",
+  "fetched_at_utc": "2026-09-08T23:25:22Z",
   "matches": [
     {
       "event_id": "hltv:fissure-playground-3",
@@ -2378,10 +2398,14 @@
       "veto_text": "Best of 3 (LAN)\n\n* Group B lower bracket round 1"
     },
     {
-      "event_id": "hltv:9370",
+      "event_id": "hltv:pgl-masters-bucharest-2026-east-asia-closed-qualifier",
       "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397719",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397719",
       "product_tier": "tier_1",
@@ -2391,7 +2415,8 @@
       "starts_at": "2026-09-09T04:00:00Z",
       "status": "upcoming",
       "team1_name": "TYLOO",
-      "team2_name": "The Huns"
+      "team2_name": "The Huns",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
     },
     {
       "event_id": "hltv:fissure-playground-3",
@@ -2415,14 +2440,10 @@
       "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket semi-final. Winner advances to the playoffs."
     },
     {
-      "event_id": "hltv:fissure-playground-3",
+      "event_id": "hltv:8266",
       "event_name": "FISSURE Playground 3",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2397608",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
       "maps": [],
       "match_id": "hltv:2397608",
       "product_tier": "tier_1",
@@ -2432,8 +2453,7 @@
       "starts_at": "2026-09-09T06:00:00Z",
       "status": "live",
       "team1_name": "Legacy",
-      "team2_name": "Alliance",
-      "veto_text": "Best of 3 (LAN)\n\n* Group B upper bracket semi-final. Winner advances to the playoffs."
+      "team2_name": "Alliance"
     },
     {
       "event_id": "hltv:9371",
@@ -4156,24 +4176,25 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 72
+    "scheduled_matches": 74
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 19,
+    "events_kept": 20,
     "matches_kept": 102,
     "players_kept": 0,
     "event_tiers": {
       "hltv:fissure-playground-3": "tier_1",
-      "hltv:9370": "tier_1",
+      "hltv:pgl-masters-bucharest-2026-east-asia-closed-qualifier": "tier_1",
+      "hltv:8266": "tier_1",
       "hltv:9371": "tier_1",
+      "hltv:9370": "tier_1",
       "hltv:9241": "tier_1",
       "hltv:9403": "tier_2",
       "hltv:9308": "tier_2",
-      "hltv:8266": "tier_1",
       "hltv:9369": "tier_1",
       "hltv:9352": "tier_2",
       "hltv:9373": "tier_2",

@@ -3430,10 +3430,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Group B lower bracket round 1"
     },
     {
-      "event_id": "hltv:9370",
+      "event_id": "hltv:pgl-masters-bucharest-2026-east-asia-closed-qualifier",
       "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397719",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397719",
       "product_tier": "tier_1",
@@ -3443,7 +3447,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-09-09T04:00:00Z",
       "status": "upcoming",
       "team1_name": "TYLOO",
-      "team2_name": "The Huns"
+      "team2_name": "The Huns",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
     },
     {
       "event_id": "hltv:9371",
@@ -3499,9 +3504,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Group A upper bracket semi-final. Winner advances to the playoffs."
     },
     {
-      "event_id": "hltv:fissure-playground-3",
+      "event_id": "hltv:8266",
       "event_name": "FISSURE Playground 3",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2397608",
       "lineups": {
         "team1": [],
@@ -9175,6 +9180,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:8266",
           "event_name": "FISSURE Playground 3",
           "event_url": null,
+          "hltv_match_id": "2397608",
+          "maps": [],
+          "match_id": "hltv:2397608",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-09T06:00:00Z",
+          "status": "live",
+          "team1_name": "Legacy",
+          "team2_name": "Alliance"
+        },
+        {
+          "event_id": "hltv:8266",
+          "event_name": "FISSURE Playground 3",
+          "event_url": null,
           "hltv_match_id": "2397605",
           "maps": [],
           "match_id": "hltv:2397605",
@@ -9238,6 +9259,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "FISSURE Playground 3",
       "participants": [
+        "Legacy",
+        "Alliance",
         "BIG",
         "G2",
         "TYLOO",
@@ -10134,22 +10157,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9370",
           "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
           "event_url": null,
-          "hltv_match_id": "2397719",
-          "maps": [],
-          "match_id": "hltv:2397719",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397719/tyloo-vs-the-huns-pgl-masters-bucharest-2026-east-asia-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T04:00:00Z",
-          "status": "upcoming",
-          "team1_name": "TYLOO",
-          "team2_name": "The Huns"
-        },
-        {
-          "event_id": "hltv:9370",
-          "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
-          "event_url": null,
           "hltv_match_id": "2397718",
           "maps": [],
           "match_id": "hltv:2397718",
@@ -10165,8 +10172,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
       "participants": [
-        "TYLOO",
-        "The Huns",
         "5star",
         "NEXVOID"
       ],
@@ -10594,27 +10599,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:fissure-playground-3",
           "event_name": "FISSURE Playground 3",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397608",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397608",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T06:00:00Z",
-          "status": "live",
-          "team1_name": "Legacy",
-          "team2_name": "Alliance",
-          "veto_text": "Best of 3 (LAN)\n\n* Group B upper bracket semi-final. Winner advances to the playoffs."
-        },
-        {
-          "event_id": "hltv:fissure-playground-3",
-          "event_name": "FISSURE Playground 3",
           "event_url": null,
           "hltv_match_id": "2397599",
           "maps": [],
@@ -10773,8 +10757,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "FaZe",
         "9z",
         "MIBR",
-        "Legacy",
-        "Alliance",
         "G2",
         "Astralis",
         "FURIA",
@@ -10782,7 +10764,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "PARIVISION",
         "TYLOO",
         "BETBOOM",
-        "BIG"
+        "BIG",
+        "Alliance",
+        "Legacy"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -11327,9 +11311,50 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "product_tier": "tier_2",
       "source_url": null,
       "status": "ongoing"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:pgl-masters-bucharest-2026-east-asia-closed-qualifier",
+      "matches": [
+        {
+          "event_id": "hltv:pgl-masters-bucharest-2026-east-asia-closed-qualifier",
+          "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397719",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2397719",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397719/tyloo-vs-the-huns-pgl-masters-bucharest-2026-east-asia-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-09T04:00:00Z",
+          "status": "upcoming",
+          "team1_name": "TYLOO",
+          "team2_name": "The Huns",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
+        }
+      ],
+      "name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
+      "participants": [
+        "TYLOO",
+        "The Huns"
+      ],
+      "product_tier": "tier_1",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-08T21:11:14Z",
+  "last_verified_utc": "2026-09-08T23:25:22Z",
   "sources": [
     {
       "name": "HLTV events calendar",
