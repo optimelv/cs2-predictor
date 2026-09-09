@@ -3267,6 +3267,141 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "BASEMENT BOYS"
     },
     {
+      "event_id": "hltv:fissure-playground-3",
+      "event_name": "FISSURE Playground 3",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397603",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 9,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Nuke",
+        "Ancient"
+      ],
+      "match_id": "hltv:2397603",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397603/5star-vs-the-mongolz-fissure-playground-3",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "5star",
+      "team2_name": "The MongolZ",
+      "veto_text": "Best of 3 (LAN)\n\n* Group A lower bracket round 1\n\n** cobrazera substitutes Techno."
+    },
+    {
+      "event_id": "hltv:fissure-playground-3",
+      "event_name": "FISSURE Playground 3",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397607",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": 16,
+          "score2": 14,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Dust2",
+        "Cache"
+      ],
+      "match_id": "hltv:2397607",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "magic",
+      "team2_name": "FaZe",
+      "veto_text": "Best of 3 (LAN)\n\n* Group B lower bracket round 1"
+    },
+    {
+      "event_id": "hltv:pgl-masters-bucharest-2026-east-asia-closed-qualifier",
+      "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397719",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Mirage",
+        "Inferno"
+      ],
+      "match_id": "hltv:2397719",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397719/tyloo-vs-the-huns-pgl-masters-bucharest-2026-east-asia-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "TYLOO",
+      "team2_name": "The Huns",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -3388,69 +3523,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:fissure-playground-3",
-      "event_name": "FISSURE Playground 3",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397603",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397603",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397603/5star-vs-the-mongolz-fissure-playground-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-09T03:00:00Z",
-      "status": "live",
-      "team1_name": "5star",
-      "team2_name": "The MongolZ",
-      "veto_text": "Best of 3 (LAN)\n\n* Group A lower bracket round 1\n\n** cobrazera substitutes Techno."
-    },
-    {
-      "event_id": "hltv:fissure-playground-3",
-      "event_name": "FISSURE Playground 3",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397607",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397607",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-09T03:00:00Z",
-      "status": "live",
-      "team1_name": "magic",
-      "team2_name": "FaZe",
-      "veto_text": "Best of 3 (LAN)\n\n* Group B lower bracket round 1"
-    },
-    {
-      "event_id": "hltv:pgl-masters-bucharest-2026-east-asia-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397719",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397719",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397719/tyloo-vs-the-huns-pgl-masters-bucharest-2026-east-asia-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-09T04:00:00Z",
-      "status": "upcoming",
-      "team1_name": "TYLOO",
-      "team2_name": "The Huns",
-      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
-    },
-    {
       "event_id": "hltv:9371",
       "event_name": "PGL Masters Bucharest 2026 Oceania Closed Qualifier",
       "event_url": null,
@@ -3552,7 +3624,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-09T08:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Nuclear TigeRES",
       "team2_name": "1win"
     },
@@ -3600,7 +3672,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-09T08:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "K27",
       "team2_name": "Virtus.pro"
     },
@@ -3744,7 +3816,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397858/heroic-vs-bestia-thunderpick-world-championship-2026-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-09T11:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "HEROIC",
       "team2_name": "BESTIA"
     },
@@ -3856,7 +3928,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397722/ninjas-in-pyjamas-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-09T14:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Ninjas in Pyjamas",
       "team2_name": "SINNERS"
     },
@@ -3920,7 +3992,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397859/eyeballers-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-09T14:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "EYEBALLERS",
       "team2_name": "Nemesis"
     },
@@ -3936,7 +4008,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-09T14:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "100 Thieves",
       "team2_name": "BBL"
     },
@@ -4016,7 +4088,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397862/ninjas-in-pyjamas-vs-fokus-thunderpick-world-championship-2026-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-09T17:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Ninjas in Pyjamas",
       "team2_name": "FOKUS"
     },
@@ -4032,7 +4104,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-09T17:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "1win",
       "team2_name": "INFINITE"
     },
@@ -4096,7 +4168,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-09T23:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "NRG",
       "team2_name": "Without a Roof"
     },
@@ -9180,22 +9252,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:8266",
           "event_name": "FISSURE Playground 3",
           "event_url": null,
-          "hltv_match_id": "2397608",
-          "maps": [],
-          "match_id": "hltv:2397608",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397608/legacy-vs-alliance-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T06:00:00Z",
-          "status": "live",
-          "team1_name": "Legacy",
-          "team2_name": "Alliance"
-        },
-        {
-          "event_id": "hltv:8266",
-          "event_name": "FISSURE Playground 3",
-          "event_url": null,
           "hltv_match_id": "2397605",
           "maps": [],
           "match_id": "hltv:2397605",
@@ -9259,8 +9315,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "FISSURE Playground 3",
       "participants": [
-        "Legacy",
-        "Alliance",
         "BIG",
         "G2",
         "TYLOO",
@@ -10201,7 +10255,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397720/nuclear-tigeres-vs-1win-pgl-masters-bucharest-2026-europe-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-09T08:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "Nuclear TigeRES",
           "team2_name": "1win"
         },
@@ -10233,7 +10287,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397722/ninjas-in-pyjamas-vs-sinners-pgl-masters-bucharest-2026-europe-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-09T14:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "Ninjas in Pyjamas",
           "team2_name": "SINNERS"
         },
@@ -10537,48 +10591,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:fissure-playground-3",
           "event_name": "FISSURE Playground 3",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397603",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397603",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397603/5star-vs-the-mongolz-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T03:00:00Z",
-          "status": "live",
-          "team1_name": "5star",
-          "team2_name": "The MongolZ",
-          "veto_text": "Best of 3 (LAN)\n\n* Group A lower bracket round 1\n\n** cobrazera substitutes Techno."
-        },
-        {
-          "event_id": "hltv:fissure-playground-3",
-          "event_name": "FISSURE Playground 3",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397607",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397607",
-          "product_tier": "tier_1",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T03:00:00Z",
-          "status": "live",
-          "team1_name": "magic",
-          "team2_name": "FaZe",
-          "veto_text": "Best of 3 (LAN)\n\n* Group B lower bracket round 1"
-        },
-        {
-          "event_id": "hltv:fissure-playground-3",
-          "event_name": "FISSURE Playground 3",
-          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2397604",
           "lineups": {
             "team1": [],
@@ -10586,7 +10598,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           },
           "maps": [],
           "match_id": "hltv:2397604",
-          "product_tier": "tier_1",
+          "product_tier": "pending",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397604/9z-vs-mibr-fissure-playground-3",
           "stage_name": "Scheduled series",
@@ -10747,14 +10759,100 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "9z",
           "team2_name": "5star",
           "winner_name": "9z"
+        },
+        {
+          "event_id": "hltv:fissure-playground-3",
+          "event_name": "FISSURE Playground 3",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397607",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Ancient",
+              "score1": 16,
+              "score2": 14,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Ancient",
+            "Dust2",
+            "Cache"
+          ],
+          "match_id": "hltv:2397607",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397607/magic-vs-faze-fissure-playground-3",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "magic",
+          "team2_name": "FaZe",
+          "veto_text": "Best of 3 (LAN)\n\n* Group B lower bracket round 1"
+        },
+        {
+          "event_id": "hltv:fissure-playground-3",
+          "event_name": "FISSURE Playground 3",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397603",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": 13,
+              "score2": 9,
+              "status": "finished"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Nuke",
+            "Ancient"
+          ],
+          "match_id": "hltv:2397603",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397603/5star-vs-the-mongolz-fissure-playground-3",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "5star",
+          "team2_name": "The MongolZ",
+          "veto_text": "Best of 3 (LAN)\n\n* Group A lower bracket round 1\n\n** cobrazera substitutes Techno."
         }
       ],
       "name": "FISSURE Playground 3",
       "participants": [
-        "5star",
-        "The MongolZ",
-        "magic",
-        "FaZe",
         "9z",
         "MIBR",
         "G2",
@@ -10765,8 +10863,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "TYLOO",
         "BETBOOM",
         "BIG",
+        "FaZe",
         "Alliance",
-        "Legacy"
+        "The MongolZ",
+        "Legacy",
+        "magic",
+        "5star"
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
@@ -10900,7 +11002,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397733/nrg-vs-without-a-roof-pgl-masters-bucharest-2026-north-america-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-09T23:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "NRG",
           "team2_name": "Without a Roof"
         },
@@ -10950,7 +11052,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "product_tier": "tier_1",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -11164,22 +11266,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9308",
           "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
           "event_url": null,
-          "hltv_match_id": "2397856",
-          "maps": [],
-          "match_id": "hltv:2397856",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397856/hotu-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "HOTU",
-          "team2_name": "Wildcard"
-        },
-        {
-          "event_id": "hltv:9308",
-          "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-          "event_url": null,
           "hltv_match_id": "2397857",
           "maps": [],
           "match_id": "hltv:2397857",
@@ -11188,7 +11274,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397857/k27-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-09T08:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "K27",
           "team2_name": "Virtus.pro"
         },
@@ -11204,7 +11290,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397858/heroic-vs-bestia-thunderpick-world-championship-2026-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-09T11:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "HEROIC",
           "team2_name": "BESTIA"
         },
@@ -11236,7 +11322,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397859/eyeballers-vs-nemesis-thunderpick-world-championship-2026-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-09T14:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "EYEBALLERS",
           "team2_name": "Nemesis"
         },
@@ -11252,7 +11338,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397861/100-thieves-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-09T14:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "100 Thieves",
           "team2_name": "BBL"
         },
@@ -11268,7 +11354,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397862/ninjas-in-pyjamas-vs-fokus-thunderpick-world-championship-2026-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-09T17:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "Ninjas in Pyjamas",
           "team2_name": "FOKUS"
         },
@@ -11284,15 +11370,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2397863/1win-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-09T17:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "1win",
           "team2_name": "INFINITE"
         }
       ],
       "name": "Thunderpick World Championship 2026 Closed Qualifier",
       "participants": [
-        "HOTU",
-        "Wildcard",
         "K27",
         "Virtus.pro",
         "HEROIC",
@@ -11331,14 +11415,38 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             "team1": [],
             "team2": []
           },
-          "maps": [],
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Mirage",
+            "Inferno"
+          ],
           "match_id": "hltv:2397719",
           "product_tier": "tier_1",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397719/tyloo-vs-the-huns-pgl-masters-bucharest-2026-east-asia-closed-qualifier",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-09T04:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "TYLOO",
           "team2_name": "The Huns",
           "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final"
@@ -11351,10 +11459,10 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "product_tier": "tier_1",
       "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-09-08T23:25:22Z",
+  "last_verified_utc": "2026-09-09T04:44:26Z",
   "sources": [
     {
       "name": "HLTV events calendar",
