@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-11T04:42:39Z",
+  "generated_at_utc": "2026-09-11T11:23:00Z",
   "through_date": "2026-09-11",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 2040,
+    "matches": 2046,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1254,6 +1254,138 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "Without a Roof",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397620",
+      "match_date": "2026-09-11",
+      "event_name": "FISSURE Playground 3",
+      "team1_name": "MIBR",
+      "team2_name": "Alliance",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MIBR",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397792",
+      "match_date": "2026-09-11",
+      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+      "team1_name": "Bebop",
+      "team2_name": "Noir Verse",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Bebop",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397872",
+      "match_date": "2026-09-11",
+      "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
+      "team1_name": "K27",
+      "team2_name": "Virtus.pro",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Virtus.pro",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397772",
+      "match_date": "2026-09-11",
+      "event_name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
+      "team1_name": "Inner Circle",
+      "team2_name": "B8",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "B8",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397278",
+      "match_date": "2026-09-11",
+      "event_name": "CCT 2026 Europe Series 8",
+      "team1_name": "SINNERS",
+      "team2_name": "The Last Resort",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "SINNERS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397751",
+      "match_date": "2026-09-11",
+      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+      "team1_name": "Marsborne",
+      "team2_name": "Liquid",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Liquid",
       "tier": "tier_1",
       "best_of": 3,
       "phase": "Completed series",
