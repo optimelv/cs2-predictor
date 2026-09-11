@@ -3654,7 +3654,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
         "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397764",
         "lineups": {
           "team1": [],
@@ -3680,21 +3680,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Inferno",
-          "Nuke",
-          "Cache"
-        ],
+        "maps": [],
         "match_id": "hltv:2397764",
         "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397764/dendele-vs-imperial-pgl-masters-bucharest-2026-south-america-closed-qualifier",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "DENDELE",
         "team2_name": "Imperial",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket final",
+        "winner_name": "DENDELE"
       },
       {
         "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
@@ -3771,6 +3770,141 @@ window.__STRIKESIGNAL_DATA__ = {
         "team1_name": "M80",
         "team2_name": "6666",
         "winner_name": "M80"
+      },
+      {
+        "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2397753",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Anubis",
+          "Ancient",
+          "Nuke"
+        ],
+        "match_id": "hltv:2397753",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397753/antivalue-vs-voca-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "antivalue",
+        "team2_name": "Voca",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+      },
+      {
+        "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2397752",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Inferno",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Inferno",
+          "Dust2"
+        ],
+        "match_id": "hltv:2397752",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397752/without-a-roof-vs-marsborne-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Without a Roof",
+        "team2_name": "Marsborne",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+      },
+      {
+        "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
+        "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2397765",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Inferno",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Cache",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Mirage",
+          "Inferno",
+          "Cache"
+        ],
+        "match_id": "hltv:2397765",
+        "product_tier": "tier_1",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "Fluxo",
+        "team2_name": "ShindeN",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket final"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -3892,64 +4026,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-        "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2397753",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2397753",
-        "product_tier": "tier_1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397753/antivalue-vs-voca-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-11T23:00:00Z",
-        "status": "upcoming",
-        "team1_name": "antivalue",
-        "team2_name": "Voca",
-        "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
-      },
-      {
-        "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-        "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2397752",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2397752",
-        "product_tier": "tier_1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397752/without-a-roof-vs-marsborne-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-11T23:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Without a Roof",
-        "team2_name": "Marsborne",
-        "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
-      },
-      {
-        "event_id": "hltv:9242",
-        "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2397765",
-        "maps": [],
-        "match_id": "hltv:2397765",
-        "product_tier": "tier_1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-11T23:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Fluxo",
-        "team2_name": "ShindeN"
       },
       {
         "event_id": "hltv:9243",
@@ -8582,6 +8658,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "INOX Division",
             "team2_name": "Black Phoenix",
             "winner_name": "INOX Division"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-8",
+            "event_name": "CCT 2026 Europe Series 8",
+            "event_url": null,
+            "hltv_match_id": "2397276",
+            "maps": [],
+            "match_id": "hltv:2397276",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397276/eac-vs-ex-zero-tenacity-cct-2026-europe-series-8",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "EAC",
+            "team2_name": "ex-Zero Tenacity",
+            "winner_name": "ex-Zero Tenacity"
           }
         ],
         "name": "CCT 2026 Europe Series 8",
@@ -8594,7 +8689,8 @@ window.__STRIKESIGNAL_DATA__ = {
           "Lavked",
           "SINNERS",
           "The Last Resort",
-          "Black Phoenix"
+          "Black Phoenix",
+          "EAC"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -10123,158 +10219,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "MIBR",
             "team2_name": "Alliance",
             "winner_name": "MIBR"
-          },
-          {
-            "event_id": "hltv:fissure-playground-3",
-            "event_name": "FISSURE Playground 3",
-            "event_url": null,
-            "hltv_match_id": "2397614",
-            "maps": [],
-            "match_id": "hltv:2397614",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397614/g2-vs-5star-fissure-playground-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "G2",
-            "team2_name": "5star",
-            "winner_name": "G2"
-          },
-          {
-            "event_id": "hltv:fissure-playground-3",
-            "event_name": "FISSURE Playground 3",
-            "event_url": null,
-            "hltv_match_id": "2397618",
-            "maps": [],
-            "match_id": "hltv:2397618",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397618/alliance-vs-magic-fissure-playground-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Alliance",
-            "team2_name": "magic",
-            "winner_name": "Alliance"
-          },
-          {
-            "event_id": "hltv:fissure-playground-3",
-            "event_name": "FISSURE Playground 3",
-            "event_url": null,
-            "hltv_match_id": "2397613",
-            "maps": [],
-            "match_id": "hltv:2397613",
-            "product_tier": "tier_1",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397613/mibr-vs-betboom-fissure-playground-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "MIBR",
-            "team2_name": "BETBOOM",
-            "winner_name": "BETBOOM"
-          },
-          {
-            "event_id": "hltv:fissure-playground-3",
-            "event_name": "FISSURE Playground 3",
-            "event_url": null,
-            "hltv_match_id": "2397617",
-            "maps": [],
-            "match_id": "hltv:2397617",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397617/legacy-vs-furia-fissure-playground-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Legacy",
-            "team2_name": "FURIA",
-            "winner_name": "Legacy"
-          },
-          {
-            "event_id": "hltv:fissure-playground-3",
-            "event_name": "FISSURE Playground 3",
-            "event_url": null,
-            "hltv_match_id": "2397612",
-            "maps": [],
-            "match_id": "hltv:2397612",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397612/astralis-vs-5star-fissure-playground-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Astralis",
-            "team2_name": "5star",
-            "winner_name": "5star"
-          },
-          {
-            "event_id": "hltv:fissure-playground-3",
-            "event_name": "FISSURE Playground 3",
-            "event_url": null,
-            "hltv_match_id": "2397616",
-            "maps": [],
-            "match_id": "hltv:2397616",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397616/magic-vs-parivision-fissure-playground-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "magic",
-            "team2_name": "PARIVISION",
-            "winner_name": "magic"
-          },
-          {
-            "event_id": "hltv:fissure-playground-3",
-            "event_name": "FISSURE Playground 3",
-            "event_url": null,
-            "hltv_match_id": "2397611",
-            "maps": [],
-            "match_id": "hltv:2397611",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397611/9z-vs-g2-fissure-playground-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "9z",
-            "team2_name": "G2",
-            "winner_name": "G2"
-          },
-          {
-            "event_id": "hltv:fissure-playground-3",
-            "event_name": "FISSURE Playground 3",
-            "event_url": null,
-            "hltv_match_id": "2397615",
-            "maps": [],
-            "match_id": "hltv:2397615",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397615/alliance-vs-tyloo-fissure-playground-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Alliance",
-            "team2_name": "TYLOO",
-            "winner_name": "Alliance"
           }
         ],
         "name": "FISSURE Playground 3",
@@ -10282,15 +10226,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "FURIA",
           "G2",
           "MIBR",
-          "Alliance",
-          "5star",
-          "magic",
-          "BETBOOM",
-          "Legacy",
-          "Astralis",
-          "PARIVISION",
-          "9z",
-          "TYLOO"
+          "Alliance"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -10764,6 +10700,44 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Ninjas in Pyjamas",
             "team2_name": "INFINITE",
             "winner_name": "Ninjas in Pyjamas"
+          },
+          {
+            "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
+            "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397870",
+            "maps": [],
+            "match_id": "hltv:2397870",
+            "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397870/3dmax-vs-bbl-thunderpick-world-championship-2026-closed-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "3DMAX",
+            "team2_name": "BBL",
+            "winner_name": "BBL"
+          },
+          {
+            "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
+            "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397868",
+            "maps": [],
+            "match_id": "hltv:2397868",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397868/acend-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Acend",
+            "team2_name": "100 Thieves",
+            "winner_name": "100 Thieves"
           }
         ],
         "name": "Thunderpick World Championship 2026 Closed Qualifier",
@@ -10777,7 +10751,9 @@ window.__STRIKESIGNAL_DATA__ = {
           "K27",
           "Virtus.pro",
           "FOKUS",
-          "INFINITE"
+          "INFINITE",
+          "BBL",
+          "Acend"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -10946,6 +10922,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Spirit Academy",
             "team2_name": "Permitta",
             "winner_name": "Permitta"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
+            "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+            "event_url": null,
+            "hltv_match_id": "2397790",
+            "maps": [],
+            "match_id": "hltv:2397790",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397790/mellren-vs-falcons-force-cct-2026-europe-series-9-closed-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "mellren",
+            "team2_name": "Falcons Force",
+            "winner_name": "Falcons Force"
           }
         ],
         "name": "CCT 2026 Europe Series 9 Closed Qualifier",
@@ -10959,7 +10954,9 @@ window.__STRIKESIGNAL_DATA__ = {
           "Bebop",
           "Noir Verse",
           "Spirit Academy",
-          "Permitta"
+          "Permitta",
+          "mellren",
+          "Falcons Force"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -11157,6 +11154,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
             "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
             "event_url": null,
+            "hltv_match_id": "2397764",
+            "maps": [],
+            "match_id": "hltv:2397764",
+            "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397764/dendele-vs-imperial-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "DENDELE",
+            "team2_name": "Imperial",
+            "winner_name": "DENDELE"
+          },
+          {
+            "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
+            "event_url": null,
             "hltv_match_id": "2397763",
             "maps": [],
             "match_id": "hltv:2397763",
@@ -11271,20 +11287,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
             "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
             "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397764",
+            "hltv_match_id": "2397765",
             "lineups": {
               "team1": [],
               "team2": []
             },
             "map_results": [
               {
-                "map_name": "Inferno",
-                "score1": 13,
-                "score2": 3,
-                "status": "finished"
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
               },
               {
-                "map_name": "Nuke",
+                "map_name": "Inferno",
                 "score1": null,
                 "score2": null,
                 "status": "upcoming"
@@ -11297,30 +11313,30 @@ window.__STRIKESIGNAL_DATA__ = {
               }
             ],
             "maps": [
+              "Mirage",
               "Inferno",
-              "Nuke",
               "Cache"
             ],
-            "match_id": "hltv:2397764",
+            "match_id": "hltv:2397765",
             "product_tier": "tier_1",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397764/dendele-vs-imperial-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+            "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
             "stage_name": "Scheduled series",
             "starts_at": null,
             "status": "live",
-            "team1_name": "DENDELE",
-            "team2_name": "Imperial",
-            "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
+            "team1_name": "Fluxo",
+            "team2_name": "ShindeN",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket final"
           }
         ],
         "name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
         "participants": [
+          "DENDELE",
+          "Imperial",
           "ShindeN",
           "paiN",
           "Back to Back",
           "Fluxo",
-          "Imperial",
-          "DENDELE",
           "Galorys",
           "Turma do Pagode"
         ],
@@ -11338,48 +11354,6 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
         "matches": [
-          {
-            "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-            "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397752",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2397752",
-            "product_tier": "pending",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397752/without-a-roof-vs-marsborne-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-11T23:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Without a Roof",
-            "team2_name": "Marsborne",
-            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
-          },
-          {
-            "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-            "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397753",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "maps": [],
-            "match_id": "hltv:2397753",
-            "product_tier": "pending",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397753/antivalue-vs-voca-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-11T23:00:00Z",
-            "status": "upcoming",
-            "team1_name": "antivalue",
-            "team2_name": "Voca",
-            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
-          },
           {
             "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
             "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
@@ -11455,22 +11429,112 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Villainous",
             "team2_name": "Without a Roof",
             "winner_name": "Without a Roof"
+          },
+          {
+            "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2397752",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Inferno",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Ancient",
+              "Inferno",
+              "Dust2"
+            ],
+            "match_id": "hltv:2397752",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397752/without-a-roof-vs-marsborne-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "Without a Roof",
+            "team2_name": "Marsborne",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+          },
+          {
+            "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2397753",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Anubis",
+              "Ancient",
+              "Nuke"
+            ],
+            "match_id": "hltv:2397753",
+            "product_tier": "tier_1",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397753/antivalue-vs-voca-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": null,
+            "status": "live",
+            "team1_name": "antivalue",
+            "team2_name": "Voca",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
           }
         ],
         "name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
         "participants": [
-          "Without a Roof",
           "Marsborne",
-          "antivalue",
-          "Voca",
           "Liquid",
+          "Voca",
           "NRG",
           "Chicken Coop",
-          "Villainous"
+          "antivalue",
+          "Villainous",
+          "Without a Roof"
         ],
         "product_tier": "tier_1",
-        "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "source_url": null,
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -11765,7 +11829,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-09-11T20:59:34Z",
+    "last_verified_utc": "2026-09-11T23:17:19Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -12203,7 +12267,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-11T20:59:50Z",
+  "generated_at_utc": "2026-09-11T23:17:37Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -14666,13 +14730,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.635772,
-        "brier": 0.2216,
-        "ece": 0.034114,
-        "log_loss": 0.632198
+        "accuracy": 0.636364,
+        "brier": 0.221368,
+        "ece": 0.033602,
+        "log_loss": 0.631707
       },
-      "rows": 1839,
-      "test_rows": 615
+      "rows": 1840,
+      "test_rows": 616
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -14683,13 +14747,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.634146,
-        "brier": 0.22199,
-        "ece": 0.023382,
-        "log_loss": 0.633514
+        "accuracy": 0.636364,
+        "brier": 0.221781,
+        "ece": 0.023227,
+        "log_loss": 0.633081
       },
       "promotion_passed": false,
-      "rows": 615
+      "rows": 616
     },
     "champion": {
       "blend_weight": 0.5,
@@ -15799,7 +15863,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-11T20:59:50Z",
+    "generated_at_utc": "2026-09-11T23:17:36Z",
     "history": [
       {
         "champion": {
@@ -16964,8 +17028,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 11,
-      "online_rows": 1082,
+      "new_rows": 1,
+      "online_rows": 1083,
       "seed_rows": 757
     }
   },
@@ -18052,9 +18116,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2398087",
       "hltv:2397762",
       "hltv:2397281",
-      "hltv:2397280"
+      "hltv:2397280",
+      "hltv:2397764"
     ],
-    "last_online_update_utc": "2026-09-11T20:59:50Z",
+    "last_online_update_utc": "2026-09-11T23:17:37Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -22126,10 +22191,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 71
       },
       {
-        "elo": 1596.97,
-        "last_result_utc": "2026-09-11T04:42:56Z",
-        "matches": 111,
-        "recent_win_rate_10": 0.8117,
+        "elo": 1580.22,
+        "last_result_utc": "2026-09-11T23:17:37Z",
+        "matches": 112,
+        "recent_win_rate_10": 0.6641,
         "team_key": "imperial",
         "team_name": "Imperial",
         "vrs_points": 1149.0,
@@ -25240,10 +25305,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1516.23,
-        "last_result_utc": "2026-09-10T23:12:30Z",
-        "matches": 11,
-        "recent_win_rate_10": 0.4966,
+        "elo": 1532.98,
+        "last_result_utc": "2026-09-11T23:17:37Z",
+        "matches": 12,
+        "recent_win_rate_10": 0.5881,
         "team_key": "dendele",
         "team_name": "DENDELE",
         "vrs_points": 0,
@@ -29321,111 +29386,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5471,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4529,
-      "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-11",
-      "match_id": "hltv:2397752",
-      "match_phase": "scheduled",
-      "match_timestamp": 1789167600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Marsborne",
-      "prob_team1": 0.4529,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397752/without-a-roof-vs-marsborne-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-11T23:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Without a Roof",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Marsborne",
-      "team2_vrs_rank": 115
-    },
-    {
-      "confidence": 0.5776,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4224,
-      "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-11",
-      "match_id": "hltv:2397753",
-      "match_phase": "scheduled",
-      "match_timestamp": 1789167600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Voca",
-      "prob_team1": 0.4224,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397753/antivalue-vs-voca-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-11T23:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "antivalue",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Voca",
-      "team2_vrs_rank": 54
-    },
-    {
-      "confidence": 0.5914,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4086,
-      "event_id": "hltv:9242",
-      "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-11",
-      "match_id": "hltv:2397765",
-      "match_phase": "scheduled",
-      "match_timestamp": 1789167600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "ShindeN",
-      "prob_team1": 0.4086,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-11T23:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Fluxo",
-      "team1_vrs_rank": 88,
-      "team2_hltv_rank": null,
-      "team2_name": "ShindeN",
-      "team2_vrs_rank": 59
-    },
-    {
       "confidence": 0.6975,
       "confidence_label": "watch",
       "data_quality": "full",
@@ -30117,12 +30077,189 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Saint Sinners",
       "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.5914,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4086,
+      "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
+      "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Inferno",
+        "Cache"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2397765",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "ShindeN",
+      "prob_team1": 0.4086,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397765/fluxo-vs-shinden-pgl-masters-bucharest-2026-south-america-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Fluxo",
+      "team1_vrs_rank": 88,
+      "team2_hltv_rank": null,
+      "team2_name": "ShindeN",
+      "team2_vrs_rank": 59
+    },
+    {
+      "confidence": 0.5471,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4529,
+      "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Inferno",
+        "Dust2"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2397752",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Marsborne",
+      "prob_team1": 0.4529,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397752/without-a-roof-vs-marsborne-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Without a Roof",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Marsborne",
+      "team2_vrs_rank": 115
+    },
+    {
+      "confidence": 0.5776,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4224,
+      "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Anubis",
+        "Ancient",
+        "Nuke"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2397753",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "Voca",
+      "prob_team1": 0.4224,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397753/antivalue-vs-voca-pgl-masters-bucharest-2026-north-america-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "antivalue",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Voca",
+      "team2_vrs_rank": 54
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 77,
-    "online_results_applied": 11,
+    "live_feed_items": 73,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
