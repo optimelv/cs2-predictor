@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-12T04:36:49Z",
+  "generated_at_utc": "2026-09-12T10:48:40Z",
   "through_date": "2026-09-12",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 2075,
+    "matches": 2079,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -1013,6 +1013,94 @@
       "score2": 2,
       "winner_name": "Voca",
       "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397622",
+      "match_date": "2026-09-12",
+      "event_name": "FISSURE Playground 3",
+      "team1_name": "Legacy",
+      "team2_name": "MIBR",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Legacy",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397282",
+      "match_date": "2026-09-12",
+      "event_name": "CCT 2026 Europe Series 8",
+      "team1_name": "Sashi",
+      "team2_name": "PCIFIC",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Sashi",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397796",
+      "match_date": "2026-09-12",
+      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+      "team1_name": "Noir Verse",
+      "team2_name": "Phantom Academy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Noir Verse",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397798",
+      "match_date": "2026-09-12",
+      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+      "team1_name": "Bebop",
+      "team2_name": "benched gods",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "benched gods",
+      "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
       "stage_name": "Completed series",

@@ -2,25 +2,6 @@
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:cct-2026-challengers-europe-series-6",
-      "event_name": "CCT 2026 Challengers Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2397520",
-      "maps": [],
-      "match_id": "hltv:2397520",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397520/ex-zero-tenacity-vs-privateer-cct-2026-challengers-europe-series-6",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "ex-Zero Tenacity",
-      "team2_name": "Privateer",
-      "winner_name": "ex-Zero Tenacity"
-    },
-    {
       "event_id": "hltv:cct-2026-europe-series-8",
       "event_name": "CCT 2026 Europe Series 8",
       "event_url": null,
@@ -3853,6 +3834,238 @@
       "winner_name": "Voca"
     },
     {
+      "event_id": "hltv:fissure-playground-3",
+      "event_name": "FISSURE Playground 3",
+      "event_url": null,
+      "hltv_match_id": "2397622",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2397622",
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397622/legacy-vs-mibr-fissure-playground-3",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Legacy",
+      "team2_name": "MIBR",
+      "veto_text": "Best of 3 (LAN)\n\n* Semi-final",
+      "winner_name": "Legacy"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-8",
+      "event_name": "CCT 2026 Europe Series 8",
+      "event_url": null,
+      "hltv_match_id": "2397282",
+      "maps": [],
+      "match_id": "hltv:2397282",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Sashi",
+      "team2_name": "PCIFIC",
+      "winner_name": "Sashi"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
+      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397796",
+      "maps": [],
+      "match_id": "hltv:2397796",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397796/noir-verse-vs-phantom-academy-cct-2026-europe-series-9-closed-qualifier",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Noir Verse",
+      "team2_name": "Phantom Academy",
+      "winner_name": "Noir Verse"
+    },
+    {
+      "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
+      "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397876",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 11,
+          "status": "finished"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 10,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Cache",
+        "Mirage",
+        "Ancient"
+      ],
+      "match_id": "hltv:2397876",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397876/fokus-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "FOKUS",
+      "team2_name": "Virtus.pro",
+      "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
+    },
+    {
+      "event_id": "hltv:pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "event_name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397776",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": 5,
+          "score2": 7,
+          "status": "finished"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Mirage",
+        "Ancient"
+      ],
+      "match_id": "hltv:2397776",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "1win",
+      "team2_name": "B8",
+      "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+    },
+    {
+      "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
+      "event_name": "Radio Popular Roman Imperium Cup VIII",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397942",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 9,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Anubis",
+        "Dust2",
+        "Ancient"
+      ],
+      "match_id": "hltv:2397942",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397942/6666-vs-revenix-radio-popular-roman-imperium-cup-viii",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "6666",
+      "team2_name": "REVENIX",
+      "veto_text": "Best of 3 (LAN)\n\n* Lower bracket round 1"
+    },
+    {
+      "event_id": "hltv:9284",
+      "event_name": "Radio Popular Roman Imperium Cup VIII",
+      "event_url": null,
+      "hltv_match_id": "2397943",
+      "maps": [],
+      "match_id": "hltv:2397943",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397943/lp-vs-wbt-radio-popular-roman-imperium-cup-viii",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "LP",
+      "team2_name": "WBT"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
+      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397798",
+      "maps": [],
+      "match_id": "hltv:2397798",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397798/bebop-vs-benched-gods-cct-2026-europe-series-9-closed-qualifier",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Bebop",
+      "team2_name": "benched gods",
+      "winner_name": "benched gods"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -3974,75 +4187,6 @@
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:fissure-playground-3",
-      "event_name": "FISSURE Playground 3",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397622",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397622",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397622/legacy-vs-mibr-fissure-playground-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-12T06:00:00Z",
-      "status": "live",
-      "team1_name": "Legacy",
-      "team2_name": "MIBR",
-      "veto_text": "Best of 3 (LAN)\n\n* Semi-final"
-    },
-    {
-      "event_id": "hltv:9352",
-      "event_name": "CCT 2026 Europe Series 8",
-      "event_url": null,
-      "hltv_match_id": "2397282",
-      "maps": [],
-      "match_id": "hltv:2397282",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-12T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Sashi",
-      "team2_name": "PCIFIC"
-    },
-    {
-      "event_id": "hltv:9403",
-      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397796",
-      "maps": [],
-      "match_id": "hltv:2397796",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397796/noir-verse-vs-phantom-academy-cct-2026-europe-series-9-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-12T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Noir Verse",
-      "team2_name": "Phantom Academy"
-    },
-    {
-      "event_id": "hltv:9308",
-      "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397876",
-      "maps": [],
-      "match_id": "hltv:2397876",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397876/fokus-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-12T08:00:00Z",
-      "status": "live",
-      "team1_name": "FOKUS",
-      "team2_name": "Virtus.pro"
-    },
-    {
       "event_id": "hltv:8266",
       "event_name": "FISSURE Playground 3",
       "event_url": null,
@@ -4057,54 +4201,6 @@
       "status": "live",
       "team1_name": "BETBOOM",
       "team2_name": "G2"
-    },
-    {
-      "event_id": "hltv:9241",
-      "event_name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397776",
-      "maps": [],
-      "match_id": "hltv:2397776",
-      "product_tier": "tier_1",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-12T10:00:00Z",
-      "status": "live",
-      "team1_name": "1win",
-      "team2_name": "B8"
-    },
-    {
-      "event_id": "hltv:9284",
-      "event_name": "Radio Popular Roman Imperium Cup VIII",
-      "event_url": null,
-      "hltv_match_id": "2397942",
-      "maps": [],
-      "match_id": "hltv:2397942",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397942/6666-vs-revenix-radio-popular-roman-imperium-cup-viii",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-12T10:00:00Z",
-      "status": "upcoming",
-      "team1_name": "6666",
-      "team2_name": "REVENIX"
-    },
-    {
-      "event_id": "hltv:9284",
-      "event_name": "Radio Popular Roman Imperium Cup VIII",
-      "event_url": null,
-      "hltv_match_id": "2397943",
-      "maps": [],
-      "match_id": "hltv:2397943",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397943/lp-vs-wbt-radio-popular-roman-imperium-cup-viii",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-12T10:00:00Z",
-      "status": "upcoming",
-      "team1_name": "LP",
-      "team2_name": "WBT"
     },
     {
       "event_id": "hltv:9352",
@@ -4227,22 +4323,6 @@
       "status": "live",
       "team1_name": "FOKUS",
       "team2_name": "Leo"
-    },
-    {
-      "event_id": "hltv:9403",
-      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397798",
-      "maps": [],
-      "match_id": "hltv:2397798",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397798/bebop-vs-benched-gods-cct-2026-europe-series-9-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-12T14:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Bebop",
-      "team2_name": "benched gods"
     },
     {
       "event_id": "hltv:9308",
@@ -4371,6 +4451,22 @@
       "status": "upcoming",
       "team1_name": "Spirit Academy",
       "team2_name": "Saint Sinners"
+    },
+    {
+      "event_id": "hltv:9403",
+      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+      "event_url": null,
+      "hltv_match_id": "2397802",
+      "maps": [],
+      "match_id": "hltv:2397802",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397802/bebop-vs-noir-verse-cct-2026-europe-series-9-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-13T14:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Bebop",
+      "team2_name": "Noir Verse"
     }
   ],
   "default_event_id": "epl-series-8-2026",
@@ -8400,22 +8496,6 @@
           "event_id": "hltv:9352",
           "event_name": "CCT 2026 Europe Series 8",
           "event_url": null,
-          "hltv_match_id": "2397282",
-          "maps": [],
-          "match_id": "hltv:2397282",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-12T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Sashi",
-          "team2_name": "PCIFIC"
-        },
-        {
-          "event_id": "hltv:9352",
-          "event_name": "CCT 2026 Europe Series 8",
-          "event_url": null,
           "hltv_match_id": "2397283",
           "maps": [],
           "match_id": "hltv:2397283",
@@ -8463,8 +8543,6 @@
       ],
       "name": "CCT 2026 Europe Series 8",
       "participants": [
-        "Sashi",
-        "PCIFIC",
         "Color",
         "SPARTA",
         "FOKUS",
@@ -8525,6 +8603,25 @@
       },
       "id": "hltv:cct-2026-europe-series-8",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-8",
+          "event_name": "CCT 2026 Europe Series 8",
+          "event_url": null,
+          "hltv_match_id": "2397282",
+          "maps": [],
+          "match_id": "hltv:2397282",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397282/sashi-vs-pcific-cct-2026-europe-series-8",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Sashi",
+          "team2_name": "PCIFIC",
+          "winner_name": "Sashi"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-8",
           "event_name": "CCT 2026 Europe Series 8",
@@ -8600,29 +8697,12 @@
           "team1_name": "SINNERS",
           "team2_name": "The Last Resort",
           "winner_name": "SINNERS"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-8",
-          "event_name": "CCT 2026 Europe Series 8",
-          "event_url": null,
-          "hltv_match_id": "2397277",
-          "maps": [],
-          "match_id": "hltv:2397277",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397277/inox-division-vs-black-phoenix-cct-2026-europe-series-8",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "INOX Division",
-          "team2_name": "Black Phoenix",
-          "winner_name": "INOX Division"
         }
       ],
       "name": "CCT 2026 Europe Series 8",
       "participants": [
+        "Sashi",
+        "PCIFIC",
         "Walczaki",
         "ex-Zero Tenacity",
         "Acend",
@@ -8630,8 +8710,7 @@
         "Metizport",
         "Lavked",
         "SINNERS",
-        "The Last Resort",
-        "Black Phoenix"
+        "The Last Resort"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -10069,23 +10148,21 @@
         {
           "event_id": "hltv:fissure-playground-3",
           "event_name": "FISSURE Playground 3",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2397622",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
           "maps": [],
           "match_id": "hltv:2397622",
-          "product_tier": "pending",
+          "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397622/legacy-vs-mibr-fissure-playground-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-12T06:00:00Z",
-          "status": "live",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "Legacy",
           "team2_name": "MIBR",
-          "veto_text": "Best of 3 (LAN)\n\n* Semi-final"
+          "winner_name": "Legacy"
         },
         {
           "event_id": "hltv:fissure-playground-3",
@@ -10135,8 +10212,8 @@
         "Alliance"
       ],
       "product_tier": "tier_1",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "ongoing"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -10260,22 +10337,6 @@
           "event_id": "hltv:9403",
           "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
           "event_url": null,
-          "hltv_match_id": "2397796",
-          "maps": [],
-          "match_id": "hltv:2397796",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397796/noir-verse-vs-phantom-academy-cct-2026-europe-series-9-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-12T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Noir Verse",
-          "team2_name": "Phantom Academy"
-        },
-        {
-          "event_id": "hltv:9403",
-          "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-          "event_url": null,
           "hltv_match_id": "2397797",
           "maps": [],
           "match_id": "hltv:2397797",
@@ -10335,12 +10396,26 @@
           "status": "upcoming",
           "team1_name": "Spirit Academy",
           "team2_name": "Saint Sinners"
+        },
+        {
+          "event_id": "hltv:9403",
+          "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397802",
+          "maps": [],
+          "match_id": "hltv:2397802",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397802/bebop-vs-noir-verse-cct-2026-europe-series-9-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-13T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Bebop",
+          "team2_name": "Noir Verse"
         }
       ],
       "name": "CCT 2026 Europe Series 9 Closed Qualifier",
       "participants": [
-        "Noir Verse",
-        "Phantom Academy",
         "Privateer",
         "Entropy",
         "NAVI Junior",
@@ -10348,7 +10423,9 @@
         "Enjoy",
         "mellren",
         "Spirit Academy",
-        "Saint Sinners"
+        "Saint Sinners",
+        "Bebop",
+        "Noir Verse"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -10364,22 +10441,6 @@
       },
       "id": "hltv:9308",
       "matches": [
-        {
-          "event_id": "hltv:9308",
-          "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397876",
-          "maps": [],
-          "match_id": "hltv:2397876",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397876/fokus-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-12T08:00:00Z",
-          "status": "live",
-          "team1_name": "FOKUS",
-          "team2_name": "Virtus.pro"
-        },
         {
           "event_id": "hltv:9308",
           "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
@@ -10415,8 +10476,6 @@
       ],
       "name": "Thunderpick World Championship 2026 Closed Qualifier",
       "participants": [
-        "FOKUS",
-        "Virtus.pro",
         "HOTU",
         "100 Thieves",
         "HEROIC",
@@ -10475,27 +10534,6 @@
       },
       "id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
       "matches": [
-        {
-          "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
-          "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397877",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397877",
-          "product_tier": "pending",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397877/bbl-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-12T11:00:00Z",
-          "status": "live",
-          "team1_name": "BBL",
-          "team2_name": "Wildcard",
-          "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
-        },
         {
           "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
           "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
@@ -10575,38 +10613,63 @@
         {
           "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
           "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397871",
-          "maps": [],
-          "match_id": "hltv:2397871",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397876",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Cache",
+              "score1": 13,
+              "score2": 11,
+              "status": "finished"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": 10,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Cache",
+            "Mirage",
+            "Ancient"
+          ],
+          "match_id": "hltv:2397876",
           "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
-          "stage_name": "Completed series",
+          "source_url": "https://www.hltv.org/matches/2397876/fokus-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
+          "stage_name": "Scheduled series",
           "starts_at": null,
-          "status": "finished",
+          "status": "live",
           "team1_name": "FOKUS",
-          "team2_name": "1win",
-          "winner_name": "FOKUS"
+          "team2_name": "Virtus.pro",
+          "veto_text": "Best of 3 (Online)\n\n* Quarter-final"
         }
       ],
       "name": "Thunderpick World Championship 2026 Closed Qualifier",
       "participants": [
-        "BBL",
-        "Wildcard",
         "1win",
         "Ninjas in Pyjamas",
         "3DMAX",
         "100 Thieves",
         "Nemesis",
+        "Wildcard",
         "K27",
         "Virtus.pro",
         "FOKUS"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
+      "source_url": null,
       "status": "ongoing"
     },
     {
@@ -10678,6 +10741,44 @@
       },
       "id": "hltv:cct-2026-europe-series-9-closed-qualifier",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397796",
+          "maps": [],
+          "match_id": "hltv:2397796",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397796/noir-verse-vs-phantom-academy-cct-2026-europe-series-9-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Noir Verse",
+          "team2_name": "Phantom Academy",
+          "winner_name": "Noir Verse"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+          "event_url": null,
+          "hltv_match_id": "2397798",
+          "maps": [],
+          "match_id": "hltv:2397798",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397798/bebop-vs-benched-gods-cct-2026-europe-series-9-closed-qualifier",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Bebop",
+          "team2_name": "benched gods",
+          "winner_name": "benched gods"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
           "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
@@ -10757,14 +10858,14 @@
       ],
       "name": "CCT 2026 Europe Series 9 Closed Qualifier",
       "participants": [
+        "Noir Verse",
+        "Phantom Academy",
+        "Bebop",
+        "benched gods",
         "Bushido Wildcats",
         "Entropy",
         "Privateer",
-        "NAVI Junior",
-        "benched gods",
-        "Phantom Academy",
-        "Bebop",
-        "Noir Verse"
+        "NAVI Junior"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -10859,21 +10960,47 @@
         {
           "event_id": "hltv:pgl-masters-bucharest-2026-europe-closed-qualifier",
           "event_name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397771",
-          "maps": [],
-          "match_id": "hltv:2397771",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397776",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": 5,
+              "score2": 7,
+              "status": "finished"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Mirage",
+            "Ancient"
+          ],
+          "match_id": "hltv:2397776",
           "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397771/sinners-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-          "stage_name": "Completed series",
+          "source_url": "https://www.hltv.org/matches/2397776/1win-vs-b8-pgl-masters-bucharest-2026-europe-closed-qualifier",
+          "stage_name": "Scheduled series",
           "starts_at": null,
-          "status": "finished",
-          "team1_name": "SINNERS",
-          "team2_name": "Nemiga",
-          "winner_name": "Nemiga"
+          "status": "live",
+          "team1_name": "1win",
+          "team2_name": "B8",
+          "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
         }
       ],
       "name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
@@ -10887,7 +11014,7 @@
       ],
       "product_tier": "tier_1",
       "source_url": null,
-      "status": "finished"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -11071,25 +11198,6 @@
           "team1_name": "Fluxo",
           "team2_name": "DENDELE",
           "winner_name": "DENDELE"
-        },
-        {
-          "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
-          "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397759",
-          "maps": [],
-          "match_id": "hltv:2397759",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397759/galorys-vs-back-to-back-pgl-masters-bucharest-2026-south-america-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Galorys",
-          "team2_name": "Back to Back",
-          "winner_name": "Back to Back"
         }
       ],
       "name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
@@ -11099,8 +11207,7 @@
         "DENDELE",
         "Imperial",
         "paiN",
-        "Back to Back",
-        "Galorys"
+        "Back to Back"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -11298,22 +11405,6 @@
           "event_id": "hltv:9284",
           "event_name": "Radio Popular Roman Imperium Cup VIII",
           "event_url": null,
-          "hltv_match_id": "2397942",
-          "maps": [],
-          "match_id": "hltv:2397942",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397942/6666-vs-revenix-radio-popular-roman-imperium-cup-viii",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-12T10:00:00Z",
-          "status": "upcoming",
-          "team1_name": "6666",
-          "team2_name": "REVENIX"
-        },
-        {
-          "event_id": "hltv:9284",
-          "event_name": "Radio Popular Roman Imperium Cup VIII",
-          "event_url": null,
           "hltv_match_id": "2397943",
           "maps": [],
           "match_id": "hltv:2397943",
@@ -11321,36 +11412,16 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397943/lp-vs-wbt-radio-popular-roman-imperium-cup-viii",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-12T10:00:00Z",
-          "status": "upcoming",
+          "starts_at": null,
+          "status": "live",
           "team1_name": "LP",
           "team2_name": "WBT"
-        },
-        {
-          "event_id": "hltv:9284",
-          "event_name": "Radio Popular Roman Imperium Cup VIII",
-          "event_url": null,
-          "hltv_match_id": "2397945",
-          "maps": [],
-          "match_id": "hltv:2397945",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397945/luminosity-vs-saw-radio-popular-roman-imperium-cup-viii",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-12T13:30:00Z",
-          "status": "live",
-          "team1_name": "Luminosity",
-          "team2_name": "SAW"
         }
       ],
       "name": "Radio Popular Roman Imperium Cup VIII",
       "participants": [
-        "6666",
-        "REVENIX",
         "LP",
-        "WBT",
-        "Luminosity",
-        "SAW"
+        "WBT"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -11403,44 +11474,6 @@
           "team1_name": "gothboiclique",
           "team2_name": "The Golden Horde",
           "winner_name": "The Golden Horde"
-        },
-        {
-          "event_id": "hltv:cct-2026-contenders-europe-series-9",
-          "event_name": "CCT 2026 Contenders Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2398050",
-          "maps": [],
-          "match_id": "hltv:2398050",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398050/gothboiclique-vs-quintessence-cct-2026-contenders-europe-series-9",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "gothboiclique",
-          "team2_name": "Quintessence",
-          "winner_name": "Quintessence"
-        },
-        {
-          "event_id": "hltv:cct-2026-contenders-europe-series-9",
-          "event_name": "CCT 2026 Contenders Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2398051",
-          "maps": [],
-          "match_id": "hltv:2398051",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398051/titanflow-vs-bojong-cct-2026-contenders-europe-series-9",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "TitanFlow",
-          "team2_name": "BOJONG",
-          "winner_name": "TitanFlow"
         }
       ],
       "name": "CCT 2026 Contenders Europe Series 9",
@@ -11448,9 +11481,7 @@
         "BOJONG",
         "MADMAN",
         "gothboiclique",
-        "The Golden Horde",
-        "Quintessence",
-        "TitanFlow"
+        "The Golden Horde"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -11466,27 +11497,6 @@
       },
       "id": "hltv:radio-popular-roman-imperium-cup-viii",
       "matches": [
-        {
-          "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-          "event_name": "Radio Popular Roman Imperium Cup VIII",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397944",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397944",
-          "product_tier": "pending",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397944/m80-vs-iberian-soul-radio-popular-roman-imperium-cup-viii",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-12T13:30:00Z",
-          "status": "live",
-          "team1_name": "M80",
-          "team2_name": "Iberian Soul",
-          "veto_text": "Best of 3 (LAN)\n\n* Upper bracket semi-final"
-        },
         {
           "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
           "event_name": "Radio Popular Roman Imperium Cup VIII",
@@ -11562,25 +11572,70 @@
           "team1_name": "Iberian Soul",
           "team2_name": "REVENIX",
           "winner_name": "Iberian Soul"
+        },
+        {
+          "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
+          "event_name": "Radio Popular Roman Imperium Cup VIII",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397942",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Anubis",
+              "score1": 13,
+              "score2": 9,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Anubis",
+            "Dust2",
+            "Ancient"
+          ],
+          "match_id": "hltv:2397942",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397942/6666-vs-revenix-radio-popular-roman-imperium-cup-viii",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "6666",
+          "team2_name": "REVENIX",
+          "veto_text": "Best of 3 (LAN)\n\n* Lower bracket round 1"
         }
       ],
       "name": "Radio Popular Roman Imperium Cup VIII",
       "participants": [
-        "M80",
-        "Iberian Soul",
         "Luminosity",
         "LP",
+        "M80",
         "6666",
         "WBT",
         "SAW",
+        "Iberian Soul",
         "REVENIX"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
+      "source_url": null,
       "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-09-12T04:36:49Z",
+  "last_verified_utc": "2026-09-12T10:48:40Z",
   "sources": [
     {
       "name": "HLTV events calendar",
