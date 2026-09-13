@@ -379,33 +379,13 @@
           "team1_name": "BETBOOM",
           "team2_name": "G2",
           "winner_name": "G2"
-        },
-        {
-          "event_id": "hltv:fissure-playground-3",
-          "event_name": "FISSURE Playground 3",
-          "event_url": null,
-          "hltv_match_id": "2397622",
-          "maps": [],
-          "match_id": "hltv:2397622",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397622/legacy-vs-mibr-fissure-playground-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Legacy",
-          "team2_name": "MIBR",
-          "winner_name": "Legacy"
         }
       ],
       "name": "FISSURE Playground 3",
       "participants": [
         "Legacy",
         "G2",
-        "BETBOOM",
-        "MIBR"
+        "BETBOOM"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -1282,7 +1262,7 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-13T20:52:01Z",
+  "fetched_at_utc": "2026-09-13T23:11:35Z",
   "matches": [
     {
       "event_id": "hltv:9403",
@@ -1386,44 +1366,6 @@
       "status": "finished",
       "team1_name": "Legacy",
       "team2_name": "G2",
-      "winner_name": "Legacy"
-    },
-    {
-      "event_id": "hltv:fissure-playground-3",
-      "event_name": "FISSURE Playground 3",
-      "event_url": null,
-      "hltv_match_id": "2397621",
-      "maps": [],
-      "match_id": "hltv:2397621",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "BETBOOM",
-      "team2_name": "G2",
-      "winner_name": "G2"
-    },
-    {
-      "event_id": "hltv:fissure-playground-3",
-      "event_name": "FISSURE Playground 3",
-      "event_url": null,
-      "hltv_match_id": "2397622",
-      "maps": [],
-      "match_id": "hltv:2397622",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397622/legacy-vs-mibr-fissure-playground-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Legacy",
-      "team2_name": "MIBR",
       "winner_name": "Legacy"
     },
     {
@@ -2149,6 +2091,25 @@
       "winner_name": "FOKUS"
     },
     {
+      "event_id": "hltv:fissure-playground-3",
+      "event_name": "FISSURE Playground 3",
+      "event_url": null,
+      "hltv_match_id": "2397621",
+      "maps": [],
+      "match_id": "hltv:2397621",
+      "product_tier": "tier_1",
+      "score1": 1,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "BETBOOM",
+      "team2_name": "G2",
+      "winner_name": "G2"
+    },
+    {
       "event_id": "hltv:cct-2026-europe-series-8",
       "event_name": "CCT 2026 Europe Series 8",
       "event_url": null,
@@ -2234,7 +2195,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 88
+    "scheduled_matches": 96
   },
   "product_filter": {
     "eligible_tiers": [
@@ -2242,7 +2203,7 @@
       "tier_2"
     ],
     "events_kept": 13,
-    "matches_kept": 50,
+    "matches_kept": 49,
     "players_kept": 0,
     "event_tiers": {
       "hltv:9403": "tier_2",
@@ -2266,8 +2227,6 @@
       "hltv:2397806",
       "hltv:2397807",
       "hltv:2397623",
-      "hltv:2397621",
-      "hltv:2397622",
       "hltv:2398247",
       "hltv:2397289",
       "hltv:2397951",
@@ -2306,6 +2265,7 @@
       "hltv:2397878",
       "hltv:2397944",
       "hltv:2397284",
+      "hltv:2397621",
       "hltv:2397283",
       "hltv:2397797",
       "hltv:2397877",

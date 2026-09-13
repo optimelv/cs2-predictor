@@ -10489,33 +10489,13 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "BETBOOM",
             "team2_name": "G2",
             "winner_name": "G2"
-          },
-          {
-            "event_id": "hltv:fissure-playground-3",
-            "event_name": "FISSURE Playground 3",
-            "event_url": null,
-            "hltv_match_id": "2397622",
-            "maps": [],
-            "match_id": "hltv:2397622",
-            "product_tier": "tier_1",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397622/legacy-vs-mibr-fissure-playground-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Legacy",
-            "team2_name": "MIBR",
-            "winner_name": "Legacy"
           }
         ],
         "name": "FISSURE Playground 3",
         "participants": [
           "Legacy",
           "G2",
-          "BETBOOM",
-          "MIBR"
+          "BETBOOM"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -11820,7 +11800,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-09-13T20:52:01Z",
+    "last_verified_utc": "2026-09-13T23:11:35Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -12258,7 +12238,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-13T20:52:19Z",
+  "generated_at_utc": "2026-09-13T23:11:53Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -15854,7 +15834,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-13T20:52:18Z",
+    "generated_at_utc": "2026-09-13T23:11:52Z",
     "history": [
       {
         "champion": {
@@ -17019,7 +16999,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 9,
+      "new_rows": 0,
       "online_rows": 1140,
       "seed_rows": 757
     }
@@ -29604,8 +29584,8 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 50,
-    "online_results_applied": 9,
+    "live_feed_items": 49,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

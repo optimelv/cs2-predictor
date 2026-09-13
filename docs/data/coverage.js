@@ -10488,33 +10488,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "BETBOOM",
           "team2_name": "G2",
           "winner_name": "G2"
-        },
-        {
-          "event_id": "hltv:fissure-playground-3",
-          "event_name": "FISSURE Playground 3",
-          "event_url": null,
-          "hltv_match_id": "2397622",
-          "maps": [],
-          "match_id": "hltv:2397622",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397622/legacy-vs-mibr-fissure-playground-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Legacy",
-          "team2_name": "MIBR",
-          "winner_name": "Legacy"
         }
       ],
       "name": "FISSURE Playground 3",
       "participants": [
         "Legacy",
         "G2",
-        "BETBOOM",
-        "MIBR"
+        "BETBOOM"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -11819,7 +11799,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-09-13T20:52:01Z",
+  "last_verified_utc": "2026-09-13T23:11:35Z",
   "sources": [
     {
       "name": "HLTV events calendar",
