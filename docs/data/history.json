@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-14T12:50:05Z",
+  "generated_at_utc": "2026-09-14T19:51:48Z",
   "through_date": "2026-09-14",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 2129,
+    "matches": 2134,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -990,6 +990,116 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Bushido Wildcats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397807",
+      "match_date": "2026-09-14",
+      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+      "team1_name": "Permitta",
+      "team2_name": "Bebop",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Permitta",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397806",
+      "match_date": "2026-09-14",
+      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+      "team1_name": "Falcons Force",
+      "team2_name": "NAVI Junior",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "NAVI Junior",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397292",
+      "match_date": "2026-09-14",
+      "event_name": "CCT 2026 Europe Series 8",
+      "team1_name": "Nemiga",
+      "team2_name": "Color",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Color",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397291",
+      "match_date": "2026-09-14",
+      "event_name": "CCT 2026 Europe Series 8",
+      "team1_name": "Sashi",
+      "team2_name": "Color",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Color",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397805",
+      "match_date": "2026-09-14",
+      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+      "team1_name": "benched gods",
+      "team2_name": "Spirit Academy",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Spirit Academy",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
