@@ -4575,10 +4575,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9403",
+      "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397804",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397804",
       "product_tier": "tier_2",
@@ -4588,12 +4592,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-09-14T08:00:00Z",
       "status": "upcoming",
       "team1_name": "Bushido Wildcats",
-      "team2_name": "Enjoy"
+      "team2_name": "Enjoy",
+      "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 9."
     },
     {
-      "event_id": "hltv:cct-2026-europe-series-8",
+      "event_id": "hltv:9352",
       "event_name": "CCT 2026 Europe Series 8",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2397290",
       "lineups": {
         "team1": [],
@@ -4604,7 +4609,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397290/metizport-vs-nemiga-cct-2026-europe-series-8",
-      "stage_name": "Scheduled series",
+      "stage_name": "Semifinal",
       "starts_at": "2026-09-14T10:00:00Z",
       "status": "live",
       "team1_name": "Metizport",
@@ -8685,13 +8690,32 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "event_name": "CCT 2026 Europe Series 8",
                 "event_url": null,
                 "feeds_from": [],
+                "hltv_match_id": "2397290",
+                "maps": [],
+                "match_id": "hltv:2397290",
+                "product_tier": "tier_2",
+                "round_name": "Semifinal",
+                "series_format": "bo3",
+                "slot_id": "main:semifinal:1",
+                "source_url": "https://www.hltv.org/matches/2397290/metizport-vs-nemiga-cct-2026-europe-series-8",
+                "stage_name": "Semifinal",
+                "starts_at": "2026-09-14T10:00:00Z",
+                "status": "live",
+                "team1_name": "Metizport",
+                "team2_name": "Nemiga"
+              },
+              {
+                "event_id": "hltv:9352",
+                "event_name": "CCT 2026 Europe Series 8",
+                "event_url": null,
+                "feeds_from": [],
                 "hltv_match_id": "2397291",
                 "maps": [],
                 "match_id": "hltv:2397291",
                 "product_tier": "tier_2",
                 "round_name": "Semifinal",
                 "series_format": "bo3",
-                "slot_id": "main:semifinal:1",
+                "slot_id": "main:semifinal:2",
                 "source_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
                 "stage_name": "Semifinal",
                 "starts_at": "2026-09-14T13:00:00Z",
@@ -8727,6 +8751,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9352",
           "event_name": "CCT 2026 Europe Series 8",
           "event_url": null,
+          "hltv_match_id": "2397290",
+          "maps": [],
+          "match_id": "hltv:2397290",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397290/metizport-vs-nemiga-cct-2026-europe-series-8",
+          "stage_name": "Semifinal",
+          "starts_at": "2026-09-14T10:00:00Z",
+          "status": "live",
+          "team1_name": "Metizport",
+          "team2_name": "Nemiga"
+        },
+        {
+          "event_id": "hltv:9352",
+          "event_name": "CCT 2026 Europe Series 8",
+          "event_url": null,
           "hltv_match_id": "2397291",
           "maps": [],
           "match_id": "hltv:2397291",
@@ -8742,6 +8782,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 8",
       "participants": [
+        "Metizport",
+        "Nemiga",
         "Sashi",
         "Color"
       ],
@@ -8798,27 +8840,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-europe-series-8",
       "matches": [
-        {
-          "event_id": "hltv:cct-2026-europe-series-8",
-          "event_name": "CCT 2026 Europe Series 8",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397290",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397290",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397290/metizport-vs-nemiga-cct-2026-europe-series-8",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-14T10:00:00Z",
-          "status": "live",
-          "team1_name": "Metizport",
-          "team2_name": "Nemiga",
-          "veto_text": "Best of 3 (Online)\n\n* Semi-final"
-        },
         {
           "event_id": "hltv:cct-2026-europe-series-8",
           "event_name": "CCT 2026 Europe Series 8",
@@ -8955,12 +8976,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 8",
       "participants": [
-        "Metizport",
-        "Nemiga",
         "INOX Division",
         "Color",
         "ex-Zero Tenacity",
+        "Metizport",
         "SINNERS",
+        "Nemiga",
         "FOKUS",
         "Sashi",
         "Just Players",
@@ -8968,8 +8989,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "SPARTA"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "ongoing"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "bracket": {
@@ -10622,22 +10643,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9403",
           "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
           "event_url": null,
-          "hltv_match_id": "2397804",
-          "maps": [],
-          "match_id": "hltv:2397804",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397804/bushido-wildcats-vs-enjoy-cct-2026-europe-series-9-closed-qualifier",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-14T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Bushido Wildcats",
-          "team2_name": "Enjoy"
-        },
-        {
-          "event_id": "hltv:9403",
-          "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-          "event_url": null,
           "hltv_match_id": "2397806",
           "maps": [],
           "match_id": "hltv:2397806",
@@ -10669,8 +10674,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 9 Closed Qualifier",
       "participants": [
-        "Bushido Wildcats",
-        "Enjoy",
         "Falcons Force",
         "NAVI Junior",
         "Permitta",
@@ -10984,6 +10987,27 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
           "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397804",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2397804",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397804/bushido-wildcats-vs-enjoy-cct-2026-europe-series-9-closed-qualifier",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-14T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Bushido Wildcats",
+          "team2_name": "Enjoy",
+          "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 9."
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
+          "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
           "event_url": null,
           "hltv_match_id": "2397803",
           "maps": [],
@@ -11098,20 +11122,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 9 Closed Qualifier",
       "participants": [
+        "Bushido Wildcats",
+        "Enjoy",
         "Entropy",
         "NAVI Junior",
         "Bebop",
         "Noir Verse",
         "Spirit Academy",
         "Saint Sinners",
-        "Enjoy",
         "mellren",
-        "Bushido Wildcats",
         "Privateer"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -11632,25 +11656,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "M80",
           "team2_name": "Iberian Soul",
           "winner_name": "M80"
-        },
-        {
-          "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-          "event_name": "Radio Popular Roman Imperium Cup VIII",
-          "event_url": null,
-          "hltv_match_id": "2397943",
-          "maps": [],
-          "match_id": "hltv:2397943",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397943/lp-vs-wbt-radio-popular-roman-imperium-cup-viii",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "LP",
-          "team2_name": "WBT",
-          "winner_name": "LP"
         }
       ],
       "name": "Radio Popular Roman Imperium Cup VIII",
@@ -11660,8 +11665,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Iberian Soul",
         "6666",
         "SAW",
-        "LP",
-        "WBT"
+        "LP"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -11799,7 +11803,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-09-13T23:11:35Z",
+  "last_verified_utc": "2026-09-14T04:59:00Z",
   "sources": [
     {
       "name": "HLTV events calendar",
