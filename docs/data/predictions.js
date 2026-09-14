@@ -6,50 +6,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
         "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
         "event_url": null,
-        "hltv_match_id": "2397858",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Cache",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Ancient",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Dust2",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2397858",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397858/heroic-vs-bestia-thunderpick-world-championship-2026-closed-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "HEROIC",
-        "team2_name": "BESTIA",
-        "veto_text": "Best of 3 (Online)\n\n* Group A opening match",
-        "winner_name": "HEROIC"
-      },
-      {
-        "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
-        "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-        "event_url": null,
         "hltv_match_id": "2397860",
         "maps": [],
         "match_id": "hltv:2397860",
@@ -4455,6 +4411,99 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "M80"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
+        "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+        "event_url": null,
+        "hltv_match_id": "2397804",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "maps": [],
+        "match_id": "hltv:2397804",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397804/bushido-wildcats-vs-enjoy-cct-2026-europe-series-9-closed-qualifier",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Bushido Wildcats",
+        "team2_name": "Enjoy",
+        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 9.",
+        "winner_name": "Bushido Wildcats"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-8",
+        "event_name": "CCT 2026 Europe Series 8",
+        "event_url": null,
+        "hltv_match_id": "2397290",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "maps": [],
+        "match_id": "hltv:2397290",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397290/metizport-vs-nemiga-cct-2026-europe-series-8",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "Metizport",
+        "team2_name": "Nemiga",
+        "veto_text": "Best of 3 (Online)\n\n* Semi-final",
+        "winner_name": "Nemiga"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
+        "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2397805",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": 13,
+            "score2": 7,
+            "status": "finished"
+          },
+          {
+            "map_name": "Cache",
+            "score1": 9,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Cache",
+          "Mirage"
+        ],
+        "match_id": "hltv:2397805",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397805/benched-gods-vs-spirit-academy-cct-2026-europe-series-9-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": null,
+        "status": "live",
+        "team1_name": "benched gods",
+        "team2_name": "Spirit Academy",
+        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 9."
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4574,48 +4623,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
-        "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2397804",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2397804",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397804/bushido-wildcats-vs-enjoy-cct-2026-europe-series-9-closed-qualifier",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-14T08:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Bushido Wildcats",
-        "team2_name": "Enjoy",
-        "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 9."
-      },
-      {
-        "event_id": "hltv:9352",
-        "event_name": "CCT 2026 Europe Series 8",
-        "event_url": null,
-        "hltv_match_id": "2397290",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2397290",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397290/metizport-vs-nemiga-cct-2026-europe-series-8",
-        "stage_name": "Semifinal",
-        "starts_at": "2026-09-14T10:00:00Z",
-        "status": "live",
-        "team1_name": "Metizport",
-        "team2_name": "Nemiga",
-        "veto_text": "Best of 3 (Online)\n\n* Semi-final"
       },
       {
         "event_id": "hltv:9352",
@@ -8845,6 +8852,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:cct-2026-europe-series-8",
             "event_name": "CCT 2026 Europe Series 8",
             "event_url": null,
+            "hltv_match_id": "2397290",
+            "maps": [],
+            "match_id": "hltv:2397290",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397290/metizport-vs-nemiga-cct-2026-europe-series-8",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Metizport",
+            "team2_name": "Nemiga",
+            "winner_name": "Nemiga"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-8",
+            "event_name": "CCT 2026 Europe Series 8",
+            "event_url": null,
             "hltv_match_id": "2397289",
             "maps": [],
             "match_id": "hltv:2397289",
@@ -8935,59 +8961,19 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Nemiga",
             "team2_name": "Just Players",
             "winner_name": "Nemiga"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-8",
-            "event_name": "CCT 2026 Europe Series 8",
-            "event_url": null,
-            "hltv_match_id": "2397284",
-            "maps": [],
-            "match_id": "hltv:2397284",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397284/fokus-vs-leo-cct-2026-europe-series-8",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "FOKUS",
-            "team2_name": "Leo",
-            "winner_name": "FOKUS"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-8",
-            "event_name": "CCT 2026 Europe Series 8",
-            "event_url": null,
-            "hltv_match_id": "2397283",
-            "maps": [],
-            "match_id": "hltv:2397283",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397283/color-vs-sparta-cct-2026-europe-series-8",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Color",
-            "team2_name": "SPARTA",
-            "winner_name": "Color"
           }
         ],
         "name": "CCT 2026 Europe Series 8",
         "participants": [
+          "Metizport",
+          "Nemiga",
           "INOX Division",
           "Color",
           "ex-Zero Tenacity",
-          "Metizport",
           "SINNERS",
-          "Nemiga",
           "FOKUS",
           "Sashi",
-          "Just Players",
-          "Leo",
-          "SPARTA"
+          "Just Players"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -10491,32 +10477,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Legacy",
             "team2_name": "G2",
             "winner_name": "Legacy"
-          },
-          {
-            "event_id": "hltv:fissure-playground-3",
-            "event_name": "FISSURE Playground 3",
-            "event_url": null,
-            "hltv_match_id": "2397621",
-            "maps": [],
-            "match_id": "hltv:2397621",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397621/betboom-vs-g2-fissure-playground-3",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "BETBOOM",
-            "team2_name": "G2",
-            "winner_name": "G2"
           }
         ],
         "name": "FISSURE Playground 3",
         "participants": [
           "Legacy",
-          "G2",
-          "BETBOOM"
+          "G2"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -10862,44 +10828,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "HEROIC",
             "team2_name": "1win",
             "winner_name": "HEROIC"
-          },
-          {
-            "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
-            "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2397878",
-            "maps": [],
-            "match_id": "hltv:2397878",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397878/hotu-vs-100-thieves-thunderpick-world-championship-2026-closed-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "HOTU",
-            "team2_name": "100 Thieves",
-            "winner_name": "HOTU"
-          },
-          {
-            "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
-            "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2397877",
-            "maps": [],
-            "match_id": "hltv:2397877",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397877/bbl-vs-wildcard-thunderpick-world-championship-2026-closed-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "BBL",
-            "team2_name": "Wildcard",
-            "winner_name": "BBL"
           }
         ],
         "name": "Thunderpick World Championship 2026 Closed Qualifier",
@@ -10908,9 +10836,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Virtus.pro",
           "HEROIC",
           "BBL",
-          "1win",
-          "100 Thieves",
-          "Wildcard"
+          "1win"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -10988,23 +10914,21 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-            "event_url": "https://www.hltv.org/events/archive",
+            "event_url": null,
             "hltv_match_id": "2397804",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
             "maps": [],
             "match_id": "hltv:2397804",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2397804/bushido-wildcats-vs-enjoy-cct-2026-europe-series-9-closed-qualifier",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-14T08:00:00Z",
-            "status": "upcoming",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
             "team1_name": "Bushido Wildcats",
             "team2_name": "Enjoy",
-            "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 9."
+            "winner_name": "Bushido Wildcats"
           },
           {
             "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
@@ -11104,21 +11028,47 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
             "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2397797",
-            "maps": [],
-            "match_id": "hltv:2397797",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2397805",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Ancient",
+                "score1": 13,
+                "score2": 7,
+                "status": "finished"
+              },
+              {
+                "map_name": "Cache",
+                "score1": 9,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Ancient",
+              "Cache",
+              "Mirage"
+            ],
+            "match_id": "hltv:2397805",
             "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 1,
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397797/privateer-vs-entropy-cct-2026-europe-series-9-closed-qualifier",
-            "stage_name": "Completed series",
+            "source_url": "https://www.hltv.org/matches/2397805/benched-gods-vs-spirit-academy-cct-2026-europe-series-9-closed-qualifier",
+            "stage_name": "Scheduled series",
             "starts_at": null,
-            "status": "finished",
-            "team1_name": "Privateer",
-            "team2_name": "Entropy",
-            "winner_name": "Entropy"
+            "status": "live",
+            "team1_name": "benched gods",
+            "team2_name": "Spirit Academy",
+            "veto_text": "Best of 3 (Online)\n\n* Play-in. Winner qualifies for CCT 2026 Europe Series 9."
           }
         ],
         "name": "CCT 2026 Europe Series 9 Closed Qualifier",
@@ -11132,11 +11082,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "Spirit Academy",
           "Saint Sinners",
           "mellren",
-          "Privateer"
+          "benched gods"
         ],
         "product_tier": "tier_2",
-        "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "source_url": null,
+        "status": "ongoing"
       },
       {
         "current_stage": "Schedule",
@@ -11638,25 +11588,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Luminosity",
             "team2_name": "SAW",
             "winner_name": "Luminosity"
-          },
-          {
-            "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-            "event_name": "Radio Popular Roman Imperium Cup VIII",
-            "event_url": null,
-            "hltv_match_id": "2397944",
-            "maps": [],
-            "match_id": "hltv:2397944",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397944/m80-vs-iberian-soul-radio-popular-roman-imperium-cup-viii",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "M80",
-            "team2_name": "Iberian Soul",
-            "winner_name": "M80"
           }
         ],
         "name": "Radio Popular Roman Imperium Cup VIII",
@@ -11804,7 +11735,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-09-14T04:59:00Z",
+    "last_verified_utc": "2026-09-14T12:50:05Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -12242,7 +12173,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-14T04:59:14Z",
+  "generated_at_utc": "2026-09-14T12:50:23Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -14705,13 +14636,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.636651,
-        "brier": 0.220764,
-        "ece": 0.032044,
-        "log_loss": 0.630333
+        "accuracy": 0.63622,
+        "brier": 0.220754,
+        "ece": 0.03338,
+        "log_loss": 0.630318
       },
-      "rows": 1897,
-      "test_rows": 633
+      "rows": 1899,
+      "test_rows": 635
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -14722,13 +14653,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.63981,
-        "brier": 0.221211,
-        "ece": 0.019379,
-        "log_loss": 0.631844
+        "accuracy": 0.63937,
+        "brier": 0.221216,
+        "ece": 0.021736,
+        "log_loss": 0.631841
       },
       "promotion_passed": false,
-      "rows": 633
+      "rows": 635
     },
     "champion": {
       "blend_weight": 0.5,
@@ -15838,7 +15769,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-14T04:59:14Z",
+    "generated_at_utc": "2026-09-14T12:50:23Z",
     "history": [
       {
         "champion": {
@@ -17003,8 +16934,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 0,
-      "online_rows": 1140,
+      "new_rows": 2,
+      "online_rows": 1142,
       "seed_rows": 757
     }
   },
@@ -18149,9 +18080,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2398246",
       "hltv:2397288",
       "hltv:2397536",
-      "hltv:2397802"
+      "hltv:2397802",
+      "hltv:2397290",
+      "hltv:2397804"
     ],
-    "last_online_update_utc": "2026-09-13T20:52:19Z",
+    "last_online_update_utc": "2026-09-14T12:50:23Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -21938,10 +21871,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 39
       },
       {
-        "elo": 1707.61,
-        "last_result_utc": "2026-09-13T16:19:15Z",
-        "matches": 174,
-        "recent_win_rate_10": 0.9132,
+        "elo": 1714.44,
+        "last_result_utc": "2026-09-14T12:50:23Z",
+        "matches": 175,
+        "recent_win_rate_10": 0.929,
         "team_key": "nemiga",
         "team_name": "Nemiga",
         "vrs_points": 1329.0,
@@ -22436,10 +22369,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 94
       },
       {
-        "elo": 1517.18,
-        "last_result_utc": "2026-09-13T20:52:19Z",
-        "matches": 101,
-        "recent_win_rate_10": 0.8382,
+        "elo": 1510.35,
+        "last_result_utc": "2026-09-14T12:50:23Z",
+        "matches": 102,
+        "recent_win_rate_10": 0.6858,
         "team_key": "metizport",
         "team_name": "Metizport",
         "vrs_points": 1065.0,
@@ -22979,10 +22912,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 164
       },
       {
-        "elo": 1521.08,
-        "last_result_utc": "2026-09-13T11:54:57Z",
-        "matches": 13,
-        "recent_win_rate_10": 0.6264,
+        "elo": 1509.38,
+        "last_result_utc": "2026-09-14T12:50:23Z",
+        "matches": 14,
+        "recent_win_rate_10": 0.5125,
         "team_key": "enjoy",
         "team_name": "Enjoy",
         "vrs_points": 842.0,
@@ -23603,10 +23536,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 238
       },
       {
-        "elo": 1570.96,
-        "last_result_utc": "2026-09-13T20:52:19Z",
-        "matches": 35,
-        "recent_win_rate_10": 0.5735,
+        "elo": 1582.66,
+        "last_result_utc": "2026-09-14T12:50:23Z",
+        "matches": 36,
+        "recent_win_rate_10": 0.651,
         "team_key": "bushido wildcats",
         "team_name": "Bushido Wildcats",
         "vrs_points": 681.0,
@@ -29418,108 +29351,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5515,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4485,
-      "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-14",
-      "match_id": "hltv:2397804",
-      "match_phase": "scheduled",
-      "match_timestamp": 1789372800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Enjoy",
-      "prob_team1": 0.4485,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397804/bushido-wildcats-vs-enjoy-cct-2026-europe-series-9-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-14T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Bushido Wildcats",
-      "team1_vrs_rank": 239,
-      "team2_hltv_rank": null,
-      "team2_name": "Enjoy",
-      "team2_vrs_rank": 166
-    },
-    {
-      "confidence": 0.7189,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.2811,
-      "event_id": "hltv:9352",
-      "event_name": "CCT 2026 Europe Series 8",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-14",
-      "match_id": "hltv:2397290",
-      "match_phase": "scheduled",
-      "match_timestamp": 1789380000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Nemiga",
-      "prob_team1": 0.2811,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397290/metizport-vs-nemiga-cct-2026-europe-series-8",
-      "stage_name": "Semifinal",
-      "starts_at": "2026-09-14T10:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Metizport",
-      "team1_vrs_rank": 98,
-      "team2_hltv_rank": null,
-      "team2_name": "Nemiga",
-      "team2_vrs_rank": 40
-    },
-    {
-      "confidence": 0.5629,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5629,
-      "event_id": "hltv:9352",
-      "event_name": "CCT 2026 Europe Series 8",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-14",
-      "match_id": "hltv:2397291",
-      "match_phase": "scheduled",
-      "match_timestamp": 1789390800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Sashi",
-      "prob_team1": 0.5629,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397291/sashi-vs-color-cct-2026-europe-series-8",
-      "stage_name": "Semifinal",
-      "starts_at": "2026-09-14T13:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Sashi",
-      "team1_vrs_rank": 62,
-      "team2_hltv_rank": null,
-      "team2_name": "Color",
-      "team2_vrs_rank": null
-    },
-    {
       "confidence": 0.5065,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -29584,12 +29415,71 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Bebop",
       "team2_vrs_rank": 255
+    },
+    {
+      "confidence": 0.5172,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5172,
+      "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
+      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 7,
+          "status": "finished"
+        },
+        {
+          "map_name": "Cache",
+          "score1": 9,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Cache",
+        "Mirage"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2397805",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "benched gods",
+      "prob_team1": 0.5172,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2397805/benched-gods-vs-spirit-academy-cct-2026-europe-series-9-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "benched gods",
+      "team1_vrs_rank": 229,
+      "team2_hltv_rank": null,
+      "team2_name": "Spirit Academy",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 48,
-    "online_results_applied": 0,
+    "live_feed_items": 41,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
