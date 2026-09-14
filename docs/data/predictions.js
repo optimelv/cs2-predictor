@@ -11210,32 +11210,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "NRG",
             "team2_name": "Liquid",
             "winner_name": "Liquid"
-          },
-          {
-            "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-            "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2397756",
-            "maps": [],
-            "match_id": "hltv:2397756",
-            "product_tier": "tier_1",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Voca",
-            "team2_name": "Liquid",
-            "winner_name": "Liquid"
           }
         ],
         "name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
         "participants": [
           "NRG",
-          "Liquid",
-          "Voca"
+          "Liquid"
         ],
         "product_tier": "tier_1",
         "source_url": null,
@@ -11429,25 +11409,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Iberian Soul",
             "team2_name": "6666",
             "winner_name": "Iberian Soul"
-          },
-          {
-            "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-            "event_name": "Radio Popular Roman Imperium Cup VIII",
-            "event_url": null,
-            "hltv_match_id": "2397946",
-            "maps": [],
-            "match_id": "hltv:2397946",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397946/6666-vs-saw-radio-popular-roman-imperium-cup-viii",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "6666",
-            "team2_name": "SAW",
-            "winner_name": "6666"
           }
         ],
         "name": "Radio Popular Roman Imperium Cup VIII",
@@ -11455,8 +11416,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Luminosity",
           "M80",
           "Iberian Soul",
-          "6666",
-          "SAW"
+          "6666"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -11756,7 +11716,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-09-14T19:51:48Z",
+    "last_verified_utc": "2026-09-14T23:53:29Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -12194,7 +12154,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-14T19:52:06Z",
+  "generated_at_utc": "2026-09-14T23:53:47Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -15790,7 +15750,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-14T19:52:05Z",
+    "generated_at_utc": "2026-09-14T23:53:47Z",
     "history": [
       {
         "champion": {
@@ -16955,7 +16915,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 5,
+      "new_rows": 0,
       "online_rows": 1147,
       "seed_rows": 757
     }
@@ -29643,8 +29603,8 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 41,
-    "online_results_applied": 5,
+    "live_feed_items": 38,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

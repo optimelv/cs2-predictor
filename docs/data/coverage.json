@@ -11209,32 +11209,12 @@
           "team1_name": "NRG",
           "team2_name": "Liquid",
           "winner_name": "Liquid"
-        },
-        {
-          "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-          "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397756",
-          "maps": [],
-          "match_id": "hltv:2397756",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Voca",
-          "team2_name": "Liquid",
-          "winner_name": "Liquid"
         }
       ],
       "name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
       "participants": [
         "NRG",
-        "Liquid",
-        "Voca"
+        "Liquid"
       ],
       "product_tier": "tier_1",
       "source_url": null,
@@ -11428,25 +11408,6 @@
           "team1_name": "Iberian Soul",
           "team2_name": "6666",
           "winner_name": "Iberian Soul"
-        },
-        {
-          "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-          "event_name": "Radio Popular Roman Imperium Cup VIII",
-          "event_url": null,
-          "hltv_match_id": "2397946",
-          "maps": [],
-          "match_id": "hltv:2397946",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397946/6666-vs-saw-radio-popular-roman-imperium-cup-viii",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "6666",
-          "team2_name": "SAW",
-          "winner_name": "6666"
         }
       ],
       "name": "Radio Popular Roman Imperium Cup VIII",
@@ -11454,8 +11415,7 @@
         "Luminosity",
         "M80",
         "Iberian Soul",
-        "6666",
-        "SAW"
+        "6666"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -11755,7 +11715,7 @@
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-14T19:51:48Z",
+  "last_verified_utc": "2026-09-14T23:53:29Z",
   "sources": [
     {
       "name": "HLTV events calendar",

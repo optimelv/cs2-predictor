@@ -171,45 +171,6 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:fissure-playground-3",
-      "matches": [
-        {
-          "event_id": "hltv:fissure-playground-3",
-          "event_name": "FISSURE Playground 3",
-          "event_url": null,
-          "hltv_match_id": "2397623",
-          "maps": [],
-          "match_id": "hltv:2397623",
-          "product_tier": "tier_1",
-          "score1": 3,
-          "score2": 0,
-          "series_format": "bo5",
-          "source_url": "https://www.hltv.org/matches/2397623/legacy-vs-g2-fissure-playground-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Legacy",
-          "team2_name": "G2",
-          "winner_name": "Legacy"
-        }
-      ],
-      "name": "FISSURE Playground 3",
-      "participants": [
-        "Legacy",
-        "G2"
-      ],
-      "product_tier": "tier_1",
-      "source_url": null,
-      "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
       "id": "hltv:cct-2026-europe-series-9-closed-qualifier",
       "matches": [
         {
@@ -687,25 +648,6 @@
           "team1_name": "Iberian Soul",
           "team2_name": "6666",
           "winner_name": "Iberian Soul"
-        },
-        {
-          "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-          "event_name": "Radio Popular Roman Imperium Cup VIII",
-          "event_url": null,
-          "hltv_match_id": "2397946",
-          "maps": [],
-          "match_id": "hltv:2397946",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397946/6666-vs-saw-radio-popular-roman-imperium-cup-viii",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "6666",
-          "team2_name": "SAW",
-          "winner_name": "6666"
         }
       ],
       "name": "Radio Popular Roman Imperium Cup VIII",
@@ -713,8 +655,7 @@
         "Luminosity",
         "M80",
         "Iberian Soul",
-        "6666",
-        "SAW"
+        "6666"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -866,6 +807,45 @@
         "stages": [],
         "type": "mixed"
       },
+      "id": "hltv:fissure-playground-3",
+      "matches": [
+        {
+          "event_id": "hltv:fissure-playground-3",
+          "event_name": "FISSURE Playground 3",
+          "event_url": null,
+          "hltv_match_id": "2397623",
+          "maps": [],
+          "match_id": "hltv:2397623",
+          "product_tier": "tier_1",
+          "score1": 3,
+          "score2": 0,
+          "series_format": "bo5",
+          "source_url": "https://www.hltv.org/matches/2397623/legacy-vs-g2-fissure-playground-3",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Legacy",
+          "team2_name": "G2",
+          "winner_name": "Legacy"
+        }
+      ],
+      "name": "FISSURE Playground 3",
+      "participants": [
+        "Legacy",
+        "G2"
+      ],
+      "product_tier": "tier_1",
+      "source_url": null,
+      "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
       "id": "hltv:pgl-masters-bucharest-2026-asia-closed-qualifier",
       "matches": [
         {
@@ -945,78 +925,19 @@
           "team1_name": "NRG",
           "team2_name": "Liquid",
           "winner_name": "Liquid"
-        },
-        {
-          "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-          "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397756",
-          "maps": [],
-          "match_id": "hltv:2397756",
-          "product_tier": "tier_1",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Voca",
-          "team2_name": "Liquid",
-          "winner_name": "Liquid"
         }
       ],
       "name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
       "participants": [
         "NRG",
-        "Liquid",
-        "Voca"
-      ],
-      "product_tier": "tier_1",
-      "source_url": null,
-      "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
-      "matches": [
-        {
-          "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
-          "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397767",
-          "maps": [],
-          "match_id": "hltv:2397767",
-          "product_tier": "tier_1",
-          "score1": 3,
-          "score2": 1,
-          "series_format": "bo5",
-          "source_url": "https://www.hltv.org/matches/2397767/dendele-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "DENDELE",
-          "team2_name": "Fluxo",
-          "winner_name": "DENDELE"
-        }
-      ],
-      "name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
-      "participants": [
-        "DENDELE",
-        "Fluxo"
+        "Liquid"
       ],
       "product_tier": "tier_1",
       "source_url": null,
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-14T19:51:48Z",
+  "fetched_at_utc": "2026-09-14T23:53:29Z",
   "matches": [
     {
       "event_id": "hltv:9404",
@@ -1145,25 +1066,6 @@
       "status": "upcoming",
       "team1_name": "ex-RUSTEC",
       "team2_name": "Nexus"
-    },
-    {
-      "event_id": "hltv:fissure-playground-3",
-      "event_name": "FISSURE Playground 3",
-      "event_url": null,
-      "hltv_match_id": "2397623",
-      "maps": [],
-      "match_id": "hltv:2397623",
-      "product_tier": "tier_1",
-      "score1": 3,
-      "score2": 0,
-      "series_format": "bo5",
-      "source_url": "https://www.hltv.org/matches/2397623/legacy-vs-g2-fissure-playground-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Legacy",
-      "team2_name": "G2",
-      "winner_name": "Legacy"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
@@ -1584,6 +1486,25 @@
       "winner_name": "Bushido Wildcats"
     },
     {
+      "event_id": "hltv:fissure-playground-3",
+      "event_name": "FISSURE Playground 3",
+      "event_url": null,
+      "hltv_match_id": "2397623",
+      "maps": [],
+      "match_id": "hltv:2397623",
+      "product_tier": "tier_1",
+      "score1": 3,
+      "score2": 0,
+      "series_format": "bo5",
+      "source_url": "https://www.hltv.org/matches/2397623/legacy-vs-g2-fissure-playground-3",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Legacy",
+      "team2_name": "G2",
+      "winner_name": "Legacy"
+    },
+    {
       "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
       "event_name": "Radio Popular Roman Imperium Cup VIII",
       "event_url": null,
@@ -1715,63 +1636,6 @@
       "team1_name": "NRG",
       "team2_name": "Liquid",
       "winner_name": "Liquid"
-    },
-    {
-      "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397767",
-      "maps": [],
-      "match_id": "hltv:2397767",
-      "product_tier": "tier_1",
-      "score1": 3,
-      "score2": 1,
-      "series_format": "bo5",
-      "source_url": "https://www.hltv.org/matches/2397767/dendele-vs-fluxo-pgl-masters-bucharest-2026-south-america-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "DENDELE",
-      "team2_name": "Fluxo",
-      "winner_name": "DENDELE"
-    },
-    {
-      "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397756",
-      "maps": [],
-      "match_id": "hltv:2397756",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397756/voca-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Voca",
-      "team2_name": "Liquid",
-      "winner_name": "Liquid"
-    },
-    {
-      "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-      "event_name": "Radio Popular Roman Imperium Cup VIII",
-      "event_url": null,
-      "hltv_match_id": "2397946",
-      "maps": [],
-      "match_id": "hltv:2397946",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397946/6666-vs-saw-radio-popular-roman-imperium-cup-viii",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "6666",
-      "team2_name": "SAW",
-      "winner_name": "6666"
     }
   ],
   "ok": true,
@@ -1783,28 +1647,27 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 100
+    "scheduled_matches": 103
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 11,
-    "matches_kept": 41,
+    "events_kept": 10,
+    "matches_kept": 38,
     "players_kept": 0,
     "event_tiers": {
       "hltv:9404": "tier_2",
-      "hltv:fissure-playground-3": "tier_1",
       "hltv:cct-2026-europe-series-9-closed-qualifier": "tier_2",
       "hltv:cct-2026-europe-series-8": "tier_2",
       "hltv:cct-2026-contenders-europe-series-9": "tier_2",
       "hltv:radio-popular-roman-imperium-cup-viii": "tier_2",
       "hltv:thunderpick-world-championship-2026-closed-qualifier": "tier_2",
       "hltv:cct-2026-challengers-europe-series-6": "tier_2",
+      "hltv:fissure-playground-3": "tier_1",
       "hltv:pgl-masters-bucharest-2026-asia-closed-qualifier": "tier_1",
-      "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier": "tier_1",
-      "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier": "tier_1"
+      "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier": "tier_1"
     },
     "eligible_match_ids": [
       "hltv:2397808",
@@ -1815,7 +1678,6 @@
       "hltv:2397813",
       "hltv:2397814",
       "hltv:2397815",
-      "hltv:2397623",
       "hltv:2397807",
       "hltv:2397806",
       "hltv:2397292",
@@ -1838,16 +1700,14 @@
       "hltv:2397948",
       "hltv:2397801",
       "hltv:2397535",
+      "hltv:2397623",
       "hltv:2397949",
       "hltv:2397881",
       "hltv:2397286",
       "hltv:2398172",
       "hltv:2397800",
       "hltv:2398171",
-      "hltv:2397757",
-      "hltv:2397767",
-      "hltv:2397756",
-      "hltv:2397946"
+      "hltv:2397757"
     ]
   }
 }
