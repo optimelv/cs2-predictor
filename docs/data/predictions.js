@@ -4434,7 +4434,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:cct-2026-europe-series-9",
         "event_name": "CCT 2026 Europe Series 9",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2397809",
         "lineups": {
           "team1": [],
@@ -4460,21 +4460,39 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Dust2",
-          "Nuke",
-          "Cache"
-        ],
+        "maps": [],
         "match_id": "hltv:2397809",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Leo",
         "team2_name": "Bushido Wildcats",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+        "winner_name": "Leo"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-9",
+        "event_name": "CCT 2026 Europe Series 9",
+        "event_url": null,
+        "hltv_match_id": "2397810",
+        "maps": [],
+        "match_id": "hltv:2397810",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397810/baks-vs-spirit-academy-cct-2026-europe-series-9",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "BAKS",
+        "team2_name": "Spirit Academy",
+        "winner_name": "BAKS"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -4598,27 +4616,39 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9404",
+        "event_id": "hltv:cct-2026-europe-series-9",
         "event_name": "CCT 2026 Europe Series 9",
-        "event_url": null,
-        "hltv_match_id": "2397810",
-        "maps": [],
-        "match_id": "hltv:2397810",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397810/baks-vs-spirit-academy-cct-2026-europe-series-9",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-15T14:00:00Z",
-        "status": "upcoming",
-        "team1_name": "BAKS",
-        "team2_name": "Spirit Academy"
-      },
-      {
-        "event_id": "hltv:9404",
-        "event_name": "CCT 2026 Europe Series 9",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2397811",
-        "maps": [],
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Inferno",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Inferno",
+          "Mirage",
+          "Dust2"
+        ],
         "match_id": "hltv:2397811",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -4627,7 +4657,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-09-15T17:00:00Z",
         "status": "upcoming",
         "team1_name": "G2 Ares",
-        "team2_name": "Azuolas"
+        "team2_name": "Azuolas",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
       },
       {
         "event_id": "hltv:9404",
@@ -8963,44 +8994,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "ex-Zero Tenacity",
             "team2_name": "Metizport",
             "winner_name": "Metizport"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-8",
-            "event_name": "CCT 2026 Europe Series 8",
-            "event_url": null,
-            "hltv_match_id": "2397287",
-            "maps": [],
-            "match_id": "hltv:2397287",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397287/sinners-vs-nemiga-cct-2026-europe-series-8",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "SINNERS",
-            "team2_name": "Nemiga",
-            "winner_name": "Nemiga"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-8",
-            "event_name": "CCT 2026 Europe Series 8",
-            "event_url": null,
-            "hltv_match_id": "2397286",
-            "maps": [],
-            "match_id": "hltv:2397286",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397286/fokus-vs-sashi-cct-2026-europe-series-8",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "FOKUS",
-            "team2_name": "Sashi",
-            "winner_name": "Sashi"
           }
         ],
         "name": "CCT 2026 Europe Series 8",
@@ -9010,9 +9003,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Sashi",
           "Metizport",
           "INOX Division",
-          "ex-Zero Tenacity",
-          "SINNERS",
-          "FOKUS"
+          "ex-Zero Tenacity"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -9884,32 +9875,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Misa",
             "team2_name": "Bushido Wildcats",
             "winner_name": "Misa"
-          },
-          {
-            "event_id": "hltv:cct-2026-challengers-europe-series-6",
-            "event_name": "CCT 2026 Challengers Europe Series 6",
-            "event_url": null,
-            "hltv_match_id": "2397535",
-            "maps": [],
-            "match_id": "hltv:2397535",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397535/bushido-wildcats-vs-megoshort-cct-2026-challengers-europe-series-6",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Bushido Wildcats",
-            "team2_name": "megoshort",
-            "winner_name": "Bushido Wildcats"
           }
         ],
         "name": "CCT 2026 Challengers Europe Series 6",
         "participants": [
           "Misa",
-          "Bushido Wildcats",
-          "megoshort"
+          "Bushido Wildcats"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -10809,33 +10780,13 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Virtus.pro",
             "team2_name": "HEROIC",
             "winner_name": "Virtus.pro"
-          },
-          {
-            "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
-            "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2397881",
-            "maps": [],
-            "match_id": "hltv:2397881",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397881/bbl-vs-hotu-thunderpick-world-championship-2026-closed-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "BBL",
-            "team2_name": "HOTU",
-            "winner_name": "HOTU"
           }
         ],
         "name": "Thunderpick World Championship 2026 Closed Qualifier",
         "participants": [
           "HOTU",
           "Virtus.pro",
-          "HEROIC",
-          "BBL"
+          "HEROIC"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -11023,25 +10974,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Bebop",
             "team2_name": "Noir Verse",
             "winner_name": "Bebop"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
-            "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-            "event_url": null,
-            "hltv_match_id": "2397801",
-            "maps": [],
-            "match_id": "hltv:2397801",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397801/spirit-academy-vs-saint-sinners-cct-2026-europe-series-9-closed-qualifier",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Spirit Academy",
-            "team2_name": "Saint Sinners",
-            "winner_name": "Spirit Academy"
           }
         ],
         "name": "CCT 2026 Europe Series 9 Closed Qualifier",
@@ -11055,8 +10987,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Bushido Wildcats",
           "Enjoy",
           "Entropy",
-          "Noir Verse",
-          "Saint Sinners"
+          "Noir Verse"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -11388,52 +11319,13 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Iberian Soul",
             "team2_name": "M80",
             "winner_name": "M80"
-          },
-          {
-            "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-            "event_name": "Radio Popular Roman Imperium Cup VIII",
-            "event_url": null,
-            "hltv_match_id": "2397948",
-            "maps": [],
-            "match_id": "hltv:2397948",
-            "product_tier": "tier_2",
-            "score1": 1,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397948/m80-vs-luminosity-radio-popular-roman-imperium-cup-viii",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "M80",
-            "team2_name": "Luminosity",
-            "winner_name": "Luminosity"
-          },
-          {
-            "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-            "event_name": "Radio Popular Roman Imperium Cup VIII",
-            "event_url": null,
-            "hltv_match_id": "2397949",
-            "maps": [],
-            "match_id": "hltv:2397949",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397949/iberian-soul-vs-6666-radio-popular-roman-imperium-cup-viii",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Iberian Soul",
-            "team2_name": "6666",
-            "winner_name": "Iberian Soul"
           }
         ],
         "name": "Radio Popular Roman Imperium Cup VIII",
         "participants": [
           "Luminosity",
           "M80",
-          "Iberian Soul",
-          "6666"
+          "Iberian Soul"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -11584,38 +11476,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9404",
             "event_name": "CCT 2026 Europe Series 9",
             "event_url": null,
-            "hltv_match_id": "2397810",
-            "maps": [],
-            "match_id": "hltv:2397810",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397810/baks-vs-spirit-academy-cct-2026-europe-series-9",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-15T14:00:00Z",
-            "status": "upcoming",
-            "team1_name": "BAKS",
-            "team2_name": "Spirit Academy"
-          },
-          {
-            "event_id": "hltv:9404",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": null,
-            "hltv_match_id": "2397811",
-            "maps": [],
-            "match_id": "hltv:2397811",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397811/g2-ares-vs-azuolas-cct-2026-europe-series-9",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-15T17:00:00Z",
-            "status": "upcoming",
-            "team1_name": "G2 Ares",
-            "team2_name": "Azuolas"
-          },
-          {
-            "event_id": "hltv:9404",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": null,
             "hltv_match_id": "2397812",
             "maps": [],
             "match_id": "hltv:2397812",
@@ -11679,10 +11539,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 9",
         "participants": [
-          "BAKS",
-          "Spirit Academy",
-          "G2 Ares",
-          "Azuolas",
           "Black Phoenix",
           "ENCE",
           "Just Players",
@@ -11709,6 +11565,89 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-9",
             "event_name": "CCT 2026 Europe Series 9",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2397811",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Inferno",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Inferno",
+              "Mirage",
+              "Dust2"
+            ],
+            "match_id": "hltv:2397811",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397811/g2-ares-vs-azuolas-cct-2026-europe-series-9",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-15T17:00:00Z",
+            "status": "upcoming",
+            "team1_name": "G2 Ares",
+            "team2_name": "Azuolas",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-9",
+            "event_name": "CCT 2026 Europe Series 9",
+            "event_url": null,
+            "hltv_match_id": "2397810",
+            "maps": [],
+            "match_id": "hltv:2397810",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397810/baks-vs-spirit-academy-cct-2026-europe-series-9",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "BAKS",
+            "team2_name": "Spirit Academy",
+            "winner_name": "BAKS"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-9",
+            "event_name": "CCT 2026 Europe Series 9",
+            "event_url": null,
+            "hltv_match_id": "2397809",
+            "maps": [],
+            "match_id": "hltv:2397809",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Leo",
+            "team2_name": "Bushido Wildcats",
+            "winner_name": "Leo"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-9",
+            "event_name": "CCT 2026 Europe Series 9",
             "event_url": null,
             "hltv_match_id": "2397808",
             "maps": [],
@@ -11724,66 +11663,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "QUAZAR",
             "team2_name": "Permitta",
             "winner_name": "QUAZAR"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-9",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2397809",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Dust2",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Nuke",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              },
-              {
-                "map_name": "Cache",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Dust2",
-              "Nuke",
-              "Cache"
-            ],
-            "match_id": "hltv:2397809",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Leo",
-            "team2_name": "Bushido Wildcats",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
           }
         ],
         "name": "CCT 2026 Europe Series 9",
         "participants": [
-          "QUAZAR",
-          "Permitta",
+          "G2 Ares",
+          "Azuolas",
+          "BAKS",
+          "Spirit Academy",
           "Leo",
-          "Bushido Wildcats"
+          "Bushido Wildcats",
+          "QUAZAR",
+          "Permitta"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "ongoing"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-09-15T11:46:11Z",
+    "last_verified_utc": "2026-09-15T17:00:47Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -12221,7 +12119,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-15T11:46:29Z",
+  "generated_at_utc": "2026-09-15T17:01:05Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -14684,13 +14582,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.635793,
-        "brier": 0.22087,
-        "ece": 0.033444,
-        "log_loss": 0.630563
+        "accuracy": 0.636933,
+        "brier": 0.220413,
+        "ece": 0.032483,
+        "log_loss": 0.62959
       },
-      "rows": 1905,
-      "test_rows": 637
+      "rows": 1907,
+      "test_rows": 639
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -14701,13 +14599,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.638932,
-        "brier": 0.221359,
-        "ece": 0.021236,
-        "log_loss": 0.63215
+        "accuracy": 0.640063,
+        "brier": 0.220974,
+        "ece": 0.022478,
+        "log_loss": 0.63135
       },
       "promotion_passed": false,
-      "rows": 637
+      "rows": 639
     },
     "champion": {
       "blend_weight": 0.5,
@@ -15817,7 +15715,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-15T11:46:29Z",
+    "generated_at_utc": "2026-09-15T17:01:05Z",
     "history": [
       {
         "champion": {
@@ -16982,8 +16880,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
-      "online_rows": 1148,
+      "new_rows": 2,
+      "online_rows": 1150,
       "seed_rows": 757
     }
   },
@@ -18136,9 +18034,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2397292",
       "hltv:2397291",
       "hltv:2397805",
-      "hltv:2397808"
+      "hltv:2397808",
+      "hltv:2397810",
+      "hltv:2397809"
     ],
-    "last_online_update_utc": "2026-09-15T11:46:29Z",
+    "last_online_update_utc": "2026-09-15T17:01:05Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -22767,10 +22667,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 140
       },
       {
-        "elo": 1467.12,
-        "last_result_utc": "2026-09-12T20:35:18Z",
-        "matches": 68,
-        "recent_win_rate_10": 0.4453,
+        "elo": 1483.39,
+        "last_result_utc": "2026-09-15T17:01:05Z",
+        "matches": 69,
+        "recent_win_rate_10": 0.5462,
         "team_key": "leo",
         "team_name": "Leo",
         "vrs_points": 909.0,
@@ -23590,10 +23490,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 238
       },
       {
-        "elo": 1582.66,
-        "last_result_utc": "2026-09-14T12:50:23Z",
-        "matches": 36,
-        "recent_win_rate_10": 0.651,
+        "elo": 1566.39,
+        "last_result_utc": "2026-09-15T17:01:05Z",
+        "matches": 37,
+        "recent_win_rate_10": 0.5326,
         "team_key": "bushido wildcats",
         "team_name": "Bushido Wildcats",
         "vrs_points": 681.0,
@@ -24760,10 +24660,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1552.09,
-        "last_result_utc": "2026-09-14T19:52:06Z",
-        "matches": 85,
-        "recent_win_rate_10": 0.6263,
+        "elo": 1536.15,
+        "last_result_utc": "2026-09-15T17:01:05Z",
+        "matches": 86,
+        "recent_win_rate_10": 0.5124,
         "team_key": "spirit academy",
         "team_name": "spirit academy",
         "vrs_points": null,
@@ -25804,10 +25704,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1492.83,
-        "last_result_utc": "2026-08-31T20:51:39Z",
-        "matches": 8,
-        "recent_win_rate_10": 0.4809,
+        "elo": 1508.77,
+        "last_result_utc": "2026-09-15T17:01:05Z",
+        "matches": 9,
+        "recent_win_rate_10": 0.5753,
         "team_key": "baks",
         "team_name": "BAKS",
         "vrs_points": 0,
@@ -29405,49 +29305,42 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5483,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4517,
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-15",
-      "match_id": "hltv:2397810",
-      "match_phase": "scheduled",
-      "match_timestamp": 1789480800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Spirit Academy",
-      "prob_team1": 0.4517,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397810/baks-vs-spirit-academy-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-15T14:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "BAKS",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Spirit Academy",
-      "team2_vrs_rank": null
-    },
-    {
       "confidence": 0.5293,
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.5293,
-      "event_id": "hltv:9404",
+      "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
       "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Mirage",
+        "Dust2"
+      ],
       "match_date": "2026-09-15",
       "match_id": "hltv:2397811",
       "match_phase": "scheduled",
@@ -29601,71 +29494,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Nexus",
       "team2_vrs_rank": 185
-    },
-    {
-      "confidence": 0.5033,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4967,
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Cache",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Nuke",
-        "Cache"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2397809",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Bushido Wildcats",
-      "prob_team1": 0.4967,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Leo",
-      "team1_vrs_rank": 141,
-      "team2_hltv_rank": null,
-      "team2_name": "Bushido Wildcats",
-      "team2_vrs_rank": 239
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 34,
-    "online_results_applied": 1,
+    "live_feed_items": 26,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
