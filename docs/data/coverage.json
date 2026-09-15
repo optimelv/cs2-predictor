@@ -4528,10 +4528,14 @@
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9404",
+      "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397808",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397808",
       "product_tier": "tier_2",
@@ -4541,7 +4545,8 @@
       "starts_at": "2026-09-15T08:00:00Z",
       "status": "upcoming",
       "team1_name": "QUAZAR",
-      "team2_name": "Permitta"
+      "team2_name": "Permitta",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
     },
     {
       "event_id": "hltv:9404",
@@ -11566,22 +11571,6 @@
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
-          "hltv_match_id": "2397808",
-          "maps": [],
-          "match_id": "hltv:2397808",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-15T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "QUAZAR",
-          "team2_name": "Permitta"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
           "hltv_match_id": "2397809",
           "maps": [],
           "match_id": "hltv:2397809",
@@ -11693,8 +11682,6 @@
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "QUAZAR",
-        "Permitta",
         "Leo",
         "Bushido Wildcats",
         "BAKS",
@@ -11713,9 +11700,50 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:cct-2026-europe-series-9",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397808",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2397808",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-15T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "QUAZAR",
+          "team2_name": "Permitta",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 9",
+      "participants": [
+        "QUAZAR",
+        "Permitta"
+      ],
+      "product_tier": "tier_2",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-14T23:53:29Z",
+  "last_verified_utc": "2026-09-15T04:56:58Z",
   "sources": [
     {
       "name": "HLTV events calendar",

@@ -9,13 +9,17 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:9404",
+      "id": "hltv:cct-2026-europe-series-9",
       "matches": [
         {
-          "event_id": "hltv:9404",
+          "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2397808",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "maps": [],
           "match_id": "hltv:2397808",
           "product_tier": "tier_2",
@@ -25,8 +29,29 @@
           "starts_at": "2026-09-15T08:00:00Z",
           "status": "upcoming",
           "team1_name": "QUAZAR",
-          "team2_name": "Permitta"
-        },
+          "team2_name": "Permitta",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 9",
+      "participants": [
+        "QUAZAR",
+        "Permitta"
+      ],
+      "product_tier": "tier_2",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9404",
+      "matches": [
         {
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
@@ -142,8 +167,6 @@
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "QUAZAR",
-        "Permitta",
         "Leo",
         "Bushido Wildcats",
         "BAKS",
@@ -896,54 +919,19 @@
       "product_tier": "tier_1",
       "source_url": null,
       "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-      "matches": [
-        {
-          "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-          "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397757",
-          "maps": [],
-          "match_id": "hltv:2397757",
-          "product_tier": "tier_1",
-          "score1": 2,
-          "score2": 3,
-          "series_format": "bo5",
-          "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "NRG",
-          "team2_name": "Liquid",
-          "winner_name": "Liquid"
-        }
-      ],
-      "name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-      "participants": [
-        "NRG",
-        "Liquid"
-      ],
-      "product_tier": "tier_1",
-      "source_url": null,
-      "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-14T23:53:29Z",
+  "fetched_at_utc": "2026-09-15T04:56:58Z",
   "matches": [
     {
-      "event_id": "hltv:9404",
+      "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397808",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397808",
       "product_tier": "tier_2",
@@ -953,7 +941,8 @@
       "starts_at": "2026-09-15T08:00:00Z",
       "status": "upcoming",
       "team1_name": "QUAZAR",
-      "team2_name": "Permitta"
+      "team2_name": "Permitta",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
     },
     {
       "event_id": "hltv:9404",
@@ -1617,25 +1606,6 @@
       "team1_name": "FlyQuest",
       "team2_name": "DEPO",
       "winner_name": "DEPO"
-    },
-    {
-      "event_id": "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 North America Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397757",
-      "maps": [],
-      "match_id": "hltv:2397757",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 3,
-      "series_format": "bo5",
-      "source_url": "https://www.hltv.org/matches/2397757/nrg-vs-liquid-pgl-masters-bucharest-2026-north-america-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "NRG",
-      "team2_name": "Liquid",
-      "winner_name": "Liquid"
     }
   ],
   "ok": true,
@@ -1647,7 +1617,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 103
+    "scheduled_matches": 104
   },
   "product_filter": {
     "eligible_tiers": [
@@ -1655,9 +1625,10 @@
       "tier_2"
     ],
     "events_kept": 10,
-    "matches_kept": 38,
+    "matches_kept": 37,
     "players_kept": 0,
     "event_tiers": {
+      "hltv:cct-2026-europe-series-9": "tier_2",
       "hltv:9404": "tier_2",
       "hltv:cct-2026-europe-series-9-closed-qualifier": "tier_2",
       "hltv:cct-2026-europe-series-8": "tier_2",
@@ -1666,8 +1637,7 @@
       "hltv:thunderpick-world-championship-2026-closed-qualifier": "tier_2",
       "hltv:cct-2026-challengers-europe-series-6": "tier_2",
       "hltv:fissure-playground-3": "tier_1",
-      "hltv:pgl-masters-bucharest-2026-asia-closed-qualifier": "tier_1",
-      "hltv:pgl-masters-bucharest-2026-north-america-closed-qualifier": "tier_1"
+      "hltv:pgl-masters-bucharest-2026-asia-closed-qualifier": "tier_1"
     },
     "eligible_match_ids": [
       "hltv:2397808",
@@ -1706,8 +1676,7 @@
       "hltv:2397286",
       "hltv:2398172",
       "hltv:2397800",
-      "hltv:2398171",
-      "hltv:2397757"
+      "hltv:2398171"
     ]
   }
 }
