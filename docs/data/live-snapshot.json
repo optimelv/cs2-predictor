@@ -9,65 +9,8 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:cct-2026-europe-series-9",
-      "matches": [
-        {
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2397808",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "maps": [],
-          "match_id": "hltv:2397808",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-15T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "QUAZAR",
-          "team2_name": "Permitta",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 9",
-      "participants": [
-        "QUAZAR",
-        "Permitta"
-      ],
-      "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
       "id": "hltv:9404",
       "matches": [
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397809",
-          "maps": [],
-          "match_id": "hltv:2397809",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-15T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Leo",
-          "team2_name": "Bushido Wildcats"
-        },
         {
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
@@ -167,8 +110,6 @@
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "Leo",
-        "Bushido Wildcats",
         "BAKS",
         "Spirit Academy",
         "G2 Ares",
@@ -185,6 +126,92 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:cct-2026-europe-series-9",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397808",
+          "maps": [],
+          "match_id": "hltv:2397808",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "QUAZAR",
+          "team2_name": "Permitta",
+          "winner_name": "QUAZAR"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397809",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Nuke",
+            "Cache"
+          ],
+          "match_id": "hltv:2397809",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Leo",
+          "team2_name": "Bushido Wildcats",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 9",
+      "participants": [
+        "QUAZAR",
+        "Permitta",
+        "Leo",
+        "Bushido Wildcats"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -328,25 +355,6 @@
           "team1_name": "Spirit Academy",
           "team2_name": "Saint Sinners",
           "winner_name": "Spirit Academy"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397800",
-          "maps": [],
-          "match_id": "hltv:2397800",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397800/enjoy-vs-mellren-cct-2026-europe-series-9-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Enjoy",
-          "team2_name": "mellren",
-          "winner_name": "Enjoy"
         }
       ],
       "name": "CCT 2026 Europe Series 9 Closed Qualifier",
@@ -361,8 +369,7 @@
         "Enjoy",
         "Entropy",
         "Noir Verse",
-        "Saint Sinners",
-        "mellren"
+        "Saint Sinners"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -860,106 +867,10 @@
       "product_tier": "tier_1",
       "source_url": null,
       "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:pgl-masters-bucharest-2026-asia-closed-qualifier",
-      "matches": [
-        {
-          "event_id": "hltv:pgl-masters-bucharest-2026-asia-closed-qualifier",
-          "event_name": "PGL Masters Bucharest 2026 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2398172",
-          "maps": [],
-          "match_id": "hltv:2398172",
-          "product_tier": "tier_1",
-          "score1": 3,
-          "score2": 0,
-          "series_format": "bo5",
-          "source_url": "https://www.hltv.org/matches/2398172/tyloo-vs-depo-pgl-masters-bucharest-2026-asia-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "TYLOO",
-          "team2_name": "DEPO",
-          "winner_name": "TYLOO"
-        },
-        {
-          "event_id": "hltv:pgl-masters-bucharest-2026-asia-closed-qualifier",
-          "event_name": "PGL Masters Bucharest 2026 Asia Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2398171",
-          "maps": [],
-          "match_id": "hltv:2398171",
-          "product_tier": "tier_1",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398171/flyquest-vs-depo-pgl-masters-bucharest-2026-asia-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "FlyQuest",
-          "team2_name": "DEPO",
-          "winner_name": "DEPO"
-        }
-      ],
-      "name": "PGL Masters Bucharest 2026 Asia Closed Qualifier",
-      "participants": [
-        "TYLOO",
-        "DEPO",
-        "FlyQuest"
-      ],
-      "product_tier": "tier_1",
-      "source_url": null,
-      "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-15T04:56:58Z",
+  "fetched_at_utc": "2026-09-15T11:46:11Z",
   "matches": [
-    {
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397808",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397808",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-15T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "QUAZAR",
-      "team2_name": "Permitta",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
-    },
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397809",
-      "maps": [],
-      "match_id": "hltv:2397809",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-15T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Leo",
-      "team2_name": "Bushido Wildcats"
-    },
     {
       "event_id": "hltv:9404",
       "event_name": "CCT 2026 Europe Series 9",
@@ -1055,6 +966,25 @@
       "status": "upcoming",
       "team1_name": "ex-RUSTEC",
       "team2_name": "Nexus"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397808",
+      "maps": [],
+      "match_id": "hltv:2397808",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "QUAZAR",
+      "team2_name": "Permitta",
+      "winner_name": "QUAZAR"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
@@ -1551,61 +1481,49 @@
       "winner_name": "Sashi"
     },
     {
-      "event_id": "hltv:pgl-masters-bucharest-2026-asia-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 Asia Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2398172",
-      "maps": [],
-      "match_id": "hltv:2398172",
-      "product_tier": "tier_1",
-      "score1": 3,
-      "score2": 0,
-      "series_format": "bo5",
-      "source_url": "https://www.hltv.org/matches/2398172/tyloo-vs-depo-pgl-masters-bucharest-2026-asia-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "TYLOO",
-      "team2_name": "DEPO",
-      "winner_name": "TYLOO"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397800",
-      "maps": [],
-      "match_id": "hltv:2397800",
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397809",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Nuke",
+        "Cache"
+      ],
+      "match_id": "hltv:2397809",
       "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397800/enjoy-vs-mellren-cct-2026-europe-series-9-closed-qualifier",
-      "stage_name": "Completed series",
+      "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
       "starts_at": null,
-      "status": "finished",
-      "team1_name": "Enjoy",
-      "team2_name": "mellren",
-      "winner_name": "Enjoy"
-    },
-    {
-      "event_id": "hltv:pgl-masters-bucharest-2026-asia-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 Asia Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2398171",
-      "maps": [],
-      "match_id": "hltv:2398171",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398171/flyquest-vs-depo-pgl-masters-bucharest-2026-asia-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "FlyQuest",
-      "team2_name": "DEPO",
-      "winner_name": "DEPO"
+      "status": "live",
+      "team1_name": "Leo",
+      "team2_name": "Bushido Wildcats",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
     }
   ],
   "ok": true,
@@ -1617,37 +1535,35 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 104
+    "scheduled_matches": 102
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 10,
-    "matches_kept": 37,
+    "events_kept": 9,
+    "matches_kept": 34,
     "players_kept": 0,
     "event_tiers": {
-      "hltv:cct-2026-europe-series-9": "tier_2",
       "hltv:9404": "tier_2",
+      "hltv:cct-2026-europe-series-9": "tier_2",
       "hltv:cct-2026-europe-series-9-closed-qualifier": "tier_2",
       "hltv:cct-2026-europe-series-8": "tier_2",
       "hltv:cct-2026-contenders-europe-series-9": "tier_2",
       "hltv:radio-popular-roman-imperium-cup-viii": "tier_2",
       "hltv:thunderpick-world-championship-2026-closed-qualifier": "tier_2",
       "hltv:cct-2026-challengers-europe-series-6": "tier_2",
-      "hltv:fissure-playground-3": "tier_1",
-      "hltv:pgl-masters-bucharest-2026-asia-closed-qualifier": "tier_1"
+      "hltv:fissure-playground-3": "tier_1"
     },
     "eligible_match_ids": [
-      "hltv:2397808",
-      "hltv:2397809",
       "hltv:2397810",
       "hltv:2397811",
       "hltv:2397812",
       "hltv:2397813",
       "hltv:2397814",
       "hltv:2397815",
+      "hltv:2397808",
       "hltv:2397807",
       "hltv:2397806",
       "hltv:2397292",
@@ -1674,9 +1590,7 @@
       "hltv:2397949",
       "hltv:2397881",
       "hltv:2397286",
-      "hltv:2398172",
-      "hltv:2397800",
-      "hltv:2398171"
+      "hltv:2397809"
     ]
   }
 }

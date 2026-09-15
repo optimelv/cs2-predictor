@@ -4407,6 +4407,75 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Color"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397808",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2397808",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "QUAZAR",
+      "team2_name": "Permitta",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+      "winner_name": "QUAZAR"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397809",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Nuke",
+        "Cache"
+      ],
+      "match_id": "hltv:2397809",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Leo",
+      "team2_name": "Bushido Wildcats",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4526,43 +4595,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397808",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397808",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-15T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "QUAZAR",
-      "team2_name": "Permitta",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
-    },
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397809",
-      "maps": [],
-      "match_id": "hltv:2397809",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-15T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Leo",
-      "team2_name": "Bushido Wildcats"
     },
     {
       "event_id": "hltv:9404",
@@ -11009,25 +11041,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Spirit Academy",
           "team2_name": "Saint Sinners",
           "winner_name": "Spirit Academy"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
-          "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-          "event_url": null,
-          "hltv_match_id": "2397800",
-          "maps": [],
-          "match_id": "hltv:2397800",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397800/enjoy-vs-mellren-cct-2026-europe-series-9-closed-qualifier",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Enjoy",
-          "team2_name": "mellren",
-          "winner_name": "Enjoy"
         }
       ],
       "name": "CCT 2026 Europe Series 9 Closed Qualifier",
@@ -11042,8 +11055,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Enjoy",
         "Entropy",
         "Noir Verse",
-        "Saint Sinners",
-        "mellren"
+        "Saint Sinners"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -11571,22 +11583,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
-          "hltv_match_id": "2397809",
-          "maps": [],
-          "match_id": "hltv:2397809",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-15T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Leo",
-          "team2_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
           "hltv_match_id": "2397810",
           "maps": [],
           "match_id": "hltv:2397810",
@@ -11682,8 +11678,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "Leo",
-        "Bushido Wildcats",
         "BAKS",
         "Spirit Academy",
         "G2 Ares",
@@ -11714,36 +11708,81 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2397808",
+          "maps": [],
+          "match_id": "hltv:2397808",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "QUAZAR",
+          "team2_name": "Permitta",
+          "winner_name": "QUAZAR"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397809",
           "lineups": {
             "team1": [],
             "team2": []
           },
-          "maps": [],
-          "match_id": "hltv:2397808",
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Nuke",
+            "Cache"
+          ],
+          "match_id": "hltv:2397809",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
+          "source_url": "https://www.hltv.org/matches/2397809/leo-vs-bushido-wildcats-cct-2026-europe-series-9",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-15T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "QUAZAR",
-          "team2_name": "Permitta",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Leo",
+          "team2_name": "Bushido Wildcats",
           "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
         "QUAZAR",
-        "Permitta"
+        "Permitta",
+        "Leo",
+        "Bushido Wildcats"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "ongoing"
     }
   ],
-  "last_verified_utc": "2026-09-15T04:56:58Z",
+  "last_verified_utc": "2026-09-15T11:46:11Z",
   "sources": [
     {
       "name": "HLTV events calendar",

@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-15T04:56:58Z",
+  "generated_at_utc": "2026-09-15T11:46:11Z",
   "through_date": "2026-09-15",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 2134,
+    "matches": 2135,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -638,6 +638,28 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397808",
+      "match_date": "2026-09-15",
+      "event_name": "CCT 2026 Europe Series 9",
+      "team1_name": "QUAZAR",
+      "team2_name": "Permitta",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "QUAZAR",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
