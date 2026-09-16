@@ -9,13 +9,17 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:9404",
+      "id": "hltv:cct-2026-europe-series-9",
       "matches": [
         {
-          "event_id": "hltv:9404",
+          "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2397812",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "maps": [],
           "match_id": "hltv:2397812",
           "product_tier": "tier_2",
@@ -25,82 +29,9 @@
           "starts_at": "2026-09-16T08:00:00Z",
           "status": "upcoming",
           "team1_name": "Black Phoenix",
-          "team2_name": "ENCE"
+          "team2_name": "ENCE",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
         },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397813",
-          "maps": [],
-          "match_id": "hltv:2397813",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397813/just-players-vs-navi-junior-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-16T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Just Players",
-          "team2_name": "NAVI Junior"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397814",
-          "maps": [],
-          "match_id": "hltv:2397814",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397814/lavked-vs-honvd-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-16T14:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Lavked",
-          "team2_name": "Honvéd"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397815",
-          "maps": [],
-          "match_id": "hltv:2397815",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-16T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ex-RUSTEC",
-          "team2_name": "Nexus"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 9",
-      "participants": [
-        "Black Phoenix",
-        "ENCE",
-        "Just Players",
-        "NAVI Junior",
-        "Lavked",
-        "Honvéd",
-        "ex-RUSTEC",
-        "Nexus"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:cct-2026-europe-series-9",
-      "matches": [
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
@@ -180,6 +111,8 @@
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
+        "Black Phoenix",
+        "ENCE",
         "G2 Ares",
         "Azuolas",
         "BAKS",
@@ -190,8 +123,80 @@
         "Permitta"
       ],
       "product_tier": "tier_2",
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9404",
+      "matches": [
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397813",
+          "maps": [],
+          "match_id": "hltv:2397813",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397813/just-players-vs-navi-junior-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-16T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Just Players",
+          "team2_name": "NAVI Junior"
+        },
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397814",
+          "maps": [],
+          "match_id": "hltv:2397814",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397814/lavked-vs-honvd-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-16T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Lavked",
+          "team2_name": "Honvéd"
+        },
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397815",
+          "maps": [],
+          "match_id": "hltv:2397815",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-16T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-RUSTEC",
+          "team2_name": "Nexus"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 9",
+      "participants": [
+        "Just Players",
+        "NAVI Junior",
+        "Lavked",
+        "Honvéd",
+        "ex-RUSTEC",
+        "Nexus"
+      ],
+      "product_tier": "tier_2",
       "source_url": null,
-      "status": "finished"
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -541,32 +546,12 @@
           "team1_name": "Luminosity",
           "team2_name": "M80",
           "winner_name": "M80"
-        },
-        {
-          "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-          "event_name": "Radio Popular Roman Imperium Cup VIII",
-          "event_url": null,
-          "hltv_match_id": "2397950",
-          "maps": [],
-          "match_id": "hltv:2397950",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397950/iberian-soul-vs-m80-radio-popular-roman-imperium-cup-viii",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Iberian Soul",
-          "team2_name": "M80",
-          "winner_name": "M80"
         }
       ],
       "name": "Radio Popular Roman Imperium Cup VIII",
       "participants": [
         "Luminosity",
-        "M80",
-        "Iberian Soul"
+        "M80"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -651,13 +636,17 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-15T21:23:07Z",
+  "fetched_at_utc": "2026-09-16T04:51:22Z",
   "matches": [
     {
-      "event_id": "hltv:9404",
+      "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397812",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397812",
       "product_tier": "tier_2",
@@ -667,7 +656,8 @@
       "starts_at": "2026-09-16T08:00:00Z",
       "status": "upcoming",
       "team1_name": "Black Phoenix",
-      "team2_name": "ENCE"
+      "team2_name": "ENCE",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
     },
     {
       "event_id": "hltv:9404",
@@ -1096,65 +1086,10 @@
       "team1_name": "Bebop",
       "team2_name": "Noir Verse",
       "winner_name": "Bebop"
-    },
-    {
-      "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-      "event_name": "Radio Popular Roman Imperium Cup VIII",
-      "event_url": null,
-      "hltv_match_id": "2397950",
-      "maps": [],
-      "match_id": "hltv:2397950",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397950/iberian-soul-vs-m80-radio-popular-roman-imperium-cup-viii",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Iberian Soul",
-      "team2_name": "M80",
-      "winner_name": "M80"
     }
   ],
   "ok": true,
-  "players": [
-    {
-      "hltv_player_id": "26721",
-      "nickname": "awayy",
-      "player_id": "hltv:26721",
-      "source_url": "https://www.hltv.org/player/26721/awayy",
-      "team_name": "Olympus"
-    },
-    {
-      "hltv_player_id": "26722",
-      "nickname": "Sanzh1k33",
-      "player_id": "hltv:26722",
-      "source_url": "https://www.hltv.org/player/26722/sanzh1k33",
-      "team_name": "Olympus"
-    },
-    {
-      "hltv_player_id": "25999",
-      "nickname": "k6rdon",
-      "player_id": "hltv:25999",
-      "source_url": "https://www.hltv.org/player/25999/k6rdon",
-      "team_name": "Olympus"
-    },
-    {
-      "hltv_player_id": "24886",
-      "nickname": "relan",
-      "player_id": "hltv:24886",
-      "source_url": "https://www.hltv.org/player/24886/relan",
-      "team_name": "Olympus"
-    },
-    {
-      "hltv_player_id": "24888",
-      "nickname": "Bizarre666",
-      "player_id": "hltv:24888",
-      "source_url": "https://www.hltv.org/player/24888/bizarre666",
-      "team_name": "Olympus"
-    }
-  ],
+  "players": [],
   "poll_after_ms": 300000,
   "rankings": null,
   "source": "HLTV via GitHub Actions FlareSolverr",
@@ -1162,7 +1097,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 93
+    "scheduled_matches": 94
   },
   "product_filter": {
     "eligible_tiers": [
@@ -1170,11 +1105,11 @@
       "tier_2"
     ],
     "events_kept": 8,
-    "matches_kept": 25,
-    "players_kept": 5,
+    "matches_kept": 24,
+    "players_kept": 0,
     "event_tiers": {
-      "hltv:9404": "tier_2",
       "hltv:cct-2026-europe-series-9": "tier_2",
+      "hltv:9404": "tier_2",
       "hltv:cct-2026-europe-series-9-closed-qualifier": "tier_2",
       "hltv:cct-2026-europe-series-8": "tier_2",
       "hltv:cct-2026-contenders-europe-series-9": "tier_2",
@@ -1206,8 +1141,7 @@
       "hltv:2398246",
       "hltv:2397288",
       "hltv:2397536",
-      "hltv:2397802",
-      "hltv:2397950"
+      "hltv:2397802"
     ]
   }
 }

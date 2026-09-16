@@ -4660,10 +4660,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9404",
+        "event_id": "hltv:cct-2026-europe-series-9",
         "event_name": "CCT 2026 Europe Series 9",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2397812",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2397812",
         "product_tier": "tier_2",
@@ -4673,7 +4677,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-09-16T08:00:00Z",
         "status": "upcoming",
         "team1_name": "Black Phoenix",
-        "team2_name": "ENCE"
+        "team2_name": "ENCE",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
       },
       {
         "event_id": "hltv:9404",
@@ -11279,32 +11284,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Luminosity",
             "team2_name": "M80",
             "winner_name": "M80"
-          },
-          {
-            "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-            "event_name": "Radio Popular Roman Imperium Cup VIII",
-            "event_url": null,
-            "hltv_match_id": "2397950",
-            "maps": [],
-            "match_id": "hltv:2397950",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 2,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397950/iberian-soul-vs-m80-radio-popular-roman-imperium-cup-viii",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Iberian Soul",
-            "team2_name": "M80",
-            "winner_name": "M80"
           }
         ],
         "name": "Radio Popular Roman Imperium Cup VIII",
         "participants": [
           "Luminosity",
-          "M80",
-          "Iberian Soul"
+          "M80"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -11455,22 +11440,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9404",
             "event_name": "CCT 2026 Europe Series 9",
             "event_url": null,
-            "hltv_match_id": "2397812",
-            "maps": [],
-            "match_id": "hltv:2397812",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397812/black-phoenix-vs-ence-cct-2026-europe-series-9",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-16T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Black Phoenix",
-            "team2_name": "ENCE"
-          },
-          {
-            "event_id": "hltv:9404",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": null,
             "hltv_match_id": "2397813",
             "maps": [],
             "match_id": "hltv:2397813",
@@ -11518,8 +11487,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 9",
         "participants": [
-          "Black Phoenix",
-          "ENCE",
           "Just Players",
           "NAVI Junior",
           "Lavked",
@@ -11541,6 +11508,27 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-9",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-9",
+            "event_name": "CCT 2026 Europe Series 9",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2397812",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2397812",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397812/black-phoenix-vs-ence-cct-2026-europe-series-9",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-16T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Black Phoenix",
+            "team2_name": "ENCE",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-9",
             "event_name": "CCT 2026 Europe Series 9",
@@ -11620,6 +11608,8 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 9",
         "participants": [
+          "Black Phoenix",
+          "ENCE",
           "G2 Ares",
           "Azuolas",
           "BAKS",
@@ -11630,11 +11620,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "Permitta"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-09-15T21:23:07Z",
+    "last_verified_utc": "2026-09-16T04:51:22Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -12072,7 +12062,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-15T21:23:25Z",
+  "generated_at_utc": "2026-09-16T04:51:39Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -15668,7 +15658,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-15T21:23:25Z",
+    "generated_at_utc": "2026-09-16T04:51:39Z",
     "history": [
       {
         "champion": {
@@ -16833,7 +16823,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
+      "new_rows": 0,
       "online_rows": 1151,
       "seed_rows": 757
     }
@@ -29263,10 +29253,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4777,
-      "event_id": "hltv:9404",
+      "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-09-16",
@@ -29393,8 +29386,8 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 25,
-    "online_results_applied": 1,
+    "live_feed_items": 24,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
