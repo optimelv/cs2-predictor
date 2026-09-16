@@ -3,25 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:cct-2026-challengers-europe-series-6",
-        "event_name": "CCT 2026 Challengers Europe Series 6",
-        "event_url": null,
-        "hltv_match_id": "2397526",
-        "maps": [],
-        "match_id": "hltv:2397526",
-        "product_tier": "tier_2",
-        "score1": 1,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397526/navi-junior-vs-fire-flux-cct-2026-challengers-europe-series-6",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "NAVI Junior",
-        "team2_name": "Fire Flux",
-        "winner_name": "Fire Flux"
-      },
-      {
         "event_id": "hltv:pgl-masters-bucharest-2026-europe-closed-qualifier",
         "event_name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
         "event_url": null,
@@ -4626,6 +4607,30 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Lavked"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-9",
+        "event_name": "CCT 2026 Europe Series 9",
+        "event_url": null,
+        "hltv_match_id": "2397815",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "maps": [],
+        "match_id": "hltv:2397815",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "ex-RUSTEC",
+        "team2_name": "Nexus",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+        "winner_name": "ex-RUSTEC"
+      },
+      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -4747,25 +4752,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:cct-2026-europe-series-9",
+        "event_id": "hltv:9404",
         "event_name": "CCT 2026 Europe Series 9",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2397815",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
+        "event_url": null,
+        "hltv_match_id": "2397816",
         "maps": [],
-        "match_id": "hltv:2397815",
+        "match_id": "hltv:2397816",
         "product_tier": "tier_2",
         "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
+        "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-09-16T17:05:00Z",
+        "starts_at": "2026-09-17T08:00:00Z",
         "status": "upcoming",
-        "team1_name": "ex-RUSTEC",
-        "team2_name": "Nexus",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+        "team1_name": "Azuolas",
+        "team2_name": "Bushido Wildcats"
       }
     ],
     "default_event_id": "epl-series-8-2026",
@@ -11399,41 +11399,23 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9404",
             "event_name": "CCT 2026 Europe Series 9",
             "event_url": null,
-            "hltv_match_id": "2397814",
+            "hltv_match_id": "2397816",
             "maps": [],
-            "match_id": "hltv:2397814",
+            "match_id": "hltv:2397816",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397814/lavked-vs-honvd-cct-2026-europe-series-9",
+            "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-09-16T14:00:00Z",
+            "starts_at": "2026-09-17T08:00:00Z",
             "status": "upcoming",
-            "team1_name": "Lavked",
-            "team2_name": "Honv\u00e9d"
-          },
-          {
-            "event_id": "hltv:9404",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": null,
-            "hltv_match_id": "2397815",
-            "maps": [],
-            "match_id": "hltv:2397815",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-16T17:00:00Z",
-            "status": "upcoming",
-            "team1_name": "ex-RUSTEC",
-            "team2_name": "Nexus"
+            "team1_name": "Azuolas",
+            "team2_name": "Bushido Wildcats"
           }
         ],
         "name": "CCT 2026 Europe Series 9",
         "participants": [
-          "Lavked",
-          "Honv\u00e9d",
-          "ex-RUSTEC",
-          "Nexus"
+          "Azuolas",
+          "Bushido Wildcats"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -11452,23 +11434,21 @@ window.__STRIKESIGNAL_DATA__ = {
           {
             "event_id": "hltv:cct-2026-europe-series-9",
             "event_name": "CCT 2026 Europe Series 9",
-            "event_url": "https://www.hltv.org/events/archive",
+            "event_url": null,
             "hltv_match_id": "2397815",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
             "maps": [],
             "match_id": "hltv:2397815",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-16T17:05:00Z",
-            "status": "upcoming",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
             "team1_name": "ex-RUSTEC",
             "team2_name": "Nexus",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+            "winner_name": "ex-RUSTEC"
           },
           {
             "event_id": "hltv:cct-2026-europe-series-9",
@@ -11624,11 +11604,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "Permitta"
         ],
         "product_tier": "tier_2",
-        "source_url": "https://www.hltv.org/events/archive",
-        "status": "upcoming"
+        "source_url": null,
+        "status": "finished"
       }
     ],
-    "last_verified_utc": "2026-09-16T16:57:41Z",
+    "last_verified_utc": "2026-09-16T21:19:49Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -12066,7 +12046,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-16T16:57:54Z",
+  "generated_at_utc": "2026-09-16T21:20:06Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -14529,30 +14509,41 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.636933,
-        "brier": 0.220413,
-        "ece": 0.032483,
-        "log_loss": 0.62959
+        "accuracy": 0.6375,
+        "brier": 0.220331,
+        "ece": 0.031793,
+        "log_loss": 0.629429
       },
-      "rows": 1911,
-      "test_rows": 639
+      "rows": 1912,
+      "test_rows": 640
     },
     "challenger": {
       "blend_weight": 0.5,
-      "family": "logistic",
+      "family": "gradient_boosting",
       "features": [
-        "baseline_logit"
+        "elo_diff",
+        "vrs_rank_advantage",
+        "vrs_points_diff",
+        "recent_win_rate_10_diff",
+        "best_of",
+        "phase_order",
+        "is_lan",
+        "is_playoff",
+        "is_elimination_match"
       ],
       "folds": 2,
-      "l2": 0.005,
+      "learning_rate": 0.025,
+      "max_depth": 2,
       "metrics": {
-        "accuracy": 0.641628,
-        "brier": 0.22098,
-        "ece": 0.023527,
-        "log_loss": 0.631356
+        "accuracy": 0.648438,
+        "brier": 0.220459,
+        "ece": 0.029733,
+        "log_loss": 0.631241
       },
+      "min_samples_leaf": 24,
+      "n_estimators": 90,
       "promotion_passed": false,
-      "rows": 639
+      "rows": 640
     },
     "champion": {
       "blend_weight": 0.5,
@@ -15662,7 +15653,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-16T16:57:54Z",
+    "generated_at_utc": "2026-09-16T21:20:06Z",
     "history": [
       {
         "champion": {
@@ -16827,8 +16818,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
-      "online_rows": 1154,
+      "new_rows": 1,
+      "online_rows": 1155,
       "seed_rows": 757
     }
   },
@@ -17987,9 +17978,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2397811",
       "hltv:2397812",
       "hltv:2397814",
-      "hltv:2397813"
+      "hltv:2397813",
+      "hltv:2397815"
     ],
-    "last_online_update_utc": "2026-09-16T16:57:54Z",
+    "last_online_update_utc": "2026-09-16T21:20:06Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -22990,9 +22982,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 184
       },
       {
-        "elo": 1377.85,
-        "matches": 143,
-        "recent_win_rate_10": 0.3,
+        "elo": 1371.12,
+        "last_result_utc": "2026-09-16T21:20:06Z",
+        "matches": 144,
+        "recent_win_rate_10": 0.2455,
         "team_key": "nexus",
         "team_name": "Nexus",
         "vrs_points": 783.0,
@@ -25235,10 +25228,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1547.73,
-        "last_result_utc": "2026-08-31T13:53:42Z",
-        "matches": 27,
-        "recent_win_rate_10": 0.4663,
+        "elo": 1554.46,
+        "last_result_utc": "2026-09-16T21:20:06Z",
+        "matches": 28,
+        "recent_win_rate_10": 0.5633,
         "team_key": "ex rustec",
         "team_name": "ex-RUSTEC",
         "vrs_points": 0,
@@ -29256,46 +29249,43 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5876,
+      "confidence": 0.6432,
       "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.5876,
-      "event_id": "hltv:cct-2026-europe-series-9",
+      "elo_prob_team1": 0.3568,
+      "event_id": "hltv:9404",
       "event_name": "CCT 2026 Europe Series 9",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
-      "match_date": "2026-09-16",
-      "match_id": "hltv:2397815",
+      "match_date": "2026-09-17",
+      "match_id": "hltv:2397816",
       "match_phase": "scheduled",
-      "match_timestamp": 1789578300,
+      "match_timestamp": 1789632000,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
-      "predicted_winner": "ex-RUSTEC",
-      "prob_team1": 0.5876,
+      "predicted_winner": "Bushido Wildcats",
+      "prob_team1": 0.3568,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
+      "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-09-16T17:05:00Z",
+      "starts_at": "2026-09-17T08:00:00Z",
       "status": "upcoming",
       "team1_hltv_rank": null,
-      "team1_name": "ex-RUSTEC",
+      "team1_name": "Azuolas",
       "team1_vrs_rank": null,
       "team2_hltv_rank": null,
-      "team2_name": "Nexus",
-      "team2_vrs_rank": 185
+      "team2_name": "Bushido Wildcats",
+      "team2_vrs_rank": 239
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 15,
-    "online_results_applied": 2,
+    "live_feed_items": 16,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

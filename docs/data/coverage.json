@@ -2,25 +2,6 @@
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:cct-2026-challengers-europe-series-6",
-      "event_name": "CCT 2026 Challengers Europe Series 6",
-      "event_url": null,
-      "hltv_match_id": "2397526",
-      "maps": [],
-      "match_id": "hltv:2397526",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397526/navi-junior-vs-fire-flux-cct-2026-challengers-europe-series-6",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "NAVI Junior",
-      "team2_name": "Fire Flux",
-      "winner_name": "Fire Flux"
-    },
-    {
       "event_id": "hltv:pgl-masters-bucharest-2026-europe-closed-qualifier",
       "event_name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
       "event_url": null,
@@ -4625,6 +4606,30 @@
       "winner_name": "Lavked"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397815",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2397815",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Nexus",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+      "winner_name": "ex-RUSTEC"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4746,25 +4751,20 @@
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_id": "hltv:9404",
       "event_name": "CCT 2026 Europe Series 9",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397815",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "event_url": null,
+      "hltv_match_id": "2397816",
       "maps": [],
-      "match_id": "hltv:2397815",
+      "match_id": "hltv:2397816",
       "product_tier": "tier_2",
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
+      "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-09-16T17:05:00Z",
+      "starts_at": "2026-09-17T08:00:00Z",
       "status": "upcoming",
-      "team1_name": "ex-RUSTEC",
-      "team2_name": "Nexus",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+      "team1_name": "Azuolas",
+      "team2_name": "Bushido Wildcats"
     }
   ],
   "default_event_id": "epl-series-8-2026",
@@ -11398,41 +11398,23 @@
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
-          "hltv_match_id": "2397814",
+          "hltv_match_id": "2397816",
           "maps": [],
-          "match_id": "hltv:2397814",
+          "match_id": "hltv:2397816",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397814/lavked-vs-honvd-cct-2026-europe-series-9",
+          "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-16T14:00:00Z",
+          "starts_at": "2026-09-17T08:00:00Z",
           "status": "upcoming",
-          "team1_name": "Lavked",
-          "team2_name": "Honvéd"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397815",
-          "maps": [],
-          "match_id": "hltv:2397815",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-16T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ex-RUSTEC",
-          "team2_name": "Nexus"
+          "team1_name": "Azuolas",
+          "team2_name": "Bushido Wildcats"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "Lavked",
-        "Honvéd",
-        "ex-RUSTEC",
-        "Nexus"
+        "Azuolas",
+        "Bushido Wildcats"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -11451,23 +11433,21 @@
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2397815",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
           "maps": [],
           "match_id": "hltv:2397815",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-16T17:05:00Z",
-          "status": "upcoming",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "ex-RUSTEC",
           "team2_name": "Nexus",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          "winner_name": "ex-RUSTEC"
         },
         {
           "event_id": "hltv:cct-2026-europe-series-9",
@@ -11623,11 +11603,11 @@
         "Permitta"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-09-16T16:57:41Z",
+  "last_verified_utc": "2026-09-16T21:19:49Z",
   "sources": [
     {
       "name": "HLTV events calendar",

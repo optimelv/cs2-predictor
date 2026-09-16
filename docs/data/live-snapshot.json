@@ -9,28 +9,62 @@
         "stages": [],
         "type": "mixed"
       },
+      "id": "hltv:9404",
+      "matches": [
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397816",
+          "maps": [],
+          "match_id": "hltv:2397816",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-17T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Azuolas",
+          "team2_name": "Bushido Wildcats"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 9",
+      "participants": [
+        "Azuolas",
+        "Bushido Wildcats"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
       "id": "hltv:cct-2026-europe-series-9",
       "matches": [
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2397815",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
           "maps": [],
           "match_id": "hltv:2397815",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-16T17:05:00Z",
-          "status": "upcoming",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "ex-RUSTEC",
           "team2_name": "Nexus",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          "winner_name": "ex-RUSTEC"
         },
         {
           "event_id": "hltv:cct-2026-europe-series-9",
@@ -186,8 +220,8 @@
         "Permitta"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -371,28 +405,42 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-16T16:57:41Z",
+  "fetched_at_utc": "2026-09-16T21:19:49Z",
   "matches": [
+    {
+      "event_id": "hltv:9404",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397816",
+      "maps": [],
+      "match_id": "hltv:2397816",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-17T08:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Azuolas",
+      "team2_name": "Bushido Wildcats"
+    },
     {
       "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "hltv_match_id": "2397815",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
       "maps": [],
       "match_id": "hltv:2397815",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-16T17:05:00Z",
-      "status": "upcoming",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
       "team1_name": "ex-RUSTEC",
       "team2_name": "Nexus",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+      "winner_name": "ex-RUSTEC"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-9",
@@ -670,22 +718,24 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 85
+    "scheduled_matches": 83
   },
   "product_filter": {
     "eligible_tiers": [
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 3,
-    "matches_kept": 15,
+    "events_kept": 4,
+    "matches_kept": 16,
     "players_kept": 0,
     "event_tiers": {
+      "hltv:9404": "tier_2",
       "hltv:cct-2026-europe-series-9": "tier_2",
       "hltv:cct-2026-europe-series-9-closed-qualifier": "tier_2",
       "hltv:cct-2026-europe-series-8": "tier_2"
     },
     "eligible_match_ids": [
+      "hltv:2397816",
       "hltv:2397815",
       "hltv:2397814",
       "hltv:2397813",
