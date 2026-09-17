@@ -4422,6 +4422,41 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "ex-RUSTEC"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397816",
+      "maps": [],
+      "match_id": "hltv:2397816",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Azuolas",
+      "team2_name": "Bushido Wildcats",
+      "winner_name": "Azuolas"
+    },
+    {
+      "event_id": "hltv:9404",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397817",
+      "maps": [],
+      "match_id": "hltv:2397817",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397817/just-players-vs-permitta-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Just Players",
+      "team2_name": "Permitta"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4541,38 +4576,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397816",
-      "maps": [],
-      "match_id": "hltv:2397816",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-17T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Azuolas",
-      "team2_name": "Bushido Wildcats"
-    },
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397817",
-      "maps": [],
-      "match_id": "hltv:2397817",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397817/just-players-vs-permitta-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-17T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Just Players",
-      "team2_name": "Permitta"
     },
     {
       "event_id": "hltv:9404",
@@ -11240,38 +11243,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
-          "hltv_match_id": "2397816",
-          "maps": [],
-          "match_id": "hltv:2397816",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-17T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Azuolas",
-          "team2_name": "Bushido Wildcats"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397817",
-          "maps": [],
-          "match_id": "hltv:2397817",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397817/just-players-vs-permitta-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-17T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Just Players",
-          "team2_name": "Permitta"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
           "hltv_match_id": "2397818",
           "maps": [],
           "match_id": "hltv:2397818",
@@ -11363,14 +11334,26 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "BAKS",
           "team2_name": "ex-RUSTEC"
+        },
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397817",
+          "maps": [],
+          "match_id": "hltv:2397817",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397817/just-players-vs-permitta-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Just Players",
+          "team2_name": "Permitta"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "Azuolas",
-        "Bushido Wildcats",
-        "Just Players",
-        "Permitta",
         "Honvéd",
         "ENCE",
         "Nexus",
@@ -11382,11 +11365,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "QUAZAR",
         "NAVI Junior",
         "BAKS",
-        "ex-RUSTEC"
+        "ex-RUSTEC",
+        "Just Players",
+        "Permitta"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -11398,6 +11383,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-europe-series-9",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397816",
+          "maps": [],
+          "match_id": "hltv:2397816",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Azuolas",
+          "team2_name": "Bushido Wildcats",
+          "winner_name": "Azuolas"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
@@ -11553,6 +11557,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
+        "Azuolas",
+        "Bushido Wildcats",
         "ex-RUSTEC",
         "Nexus",
         "Lavked",
@@ -11562,11 +11568,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Black Phoenix",
         "ENCE",
         "G2 Ares",
-        "Azuolas",
         "BAKS",
         "Spirit Academy",
         "Leo",
-        "Bushido Wildcats",
         "QUAZAR",
         "Permitta"
       ],
@@ -11575,7 +11579,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "finished"
     }
   ],
-  "last_verified_utc": "2026-09-17T04:55:08Z",
+  "last_verified_utc": "2026-09-17T11:43:31Z",
   "sources": [
     {
       "name": "HLTV events calendar",
