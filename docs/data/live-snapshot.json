@@ -15,22 +15,6 @@
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
-          "hltv_match_id": "2397818",
-          "maps": [],
-          "match_id": "hltv:2397818",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397818/honvd-vs-ence-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-17T14:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Honvéd",
-          "team2_name": "ENCE"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
           "hltv_match_id": "2397819",
           "maps": [],
           "match_id": "hltv:2397819",
@@ -38,7 +22,7 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397819/nexus-vs-spirit-academy-cct-2026-europe-series-9",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-17T17:00:00Z",
+          "starts_at": "2026-09-17T17:15:00Z",
           "status": "upcoming",
           "team1_name": "Nexus",
           "team2_name": "Spirit Academy"
@@ -111,23 +95,21 @@
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
-          "hltv_match_id": "2397817",
+          "hltv_match_id": "2397818",
           "maps": [],
-          "match_id": "hltv:2397817",
+          "match_id": "hltv:2397818",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397817/just-players-vs-permitta-cct-2026-europe-series-9",
+          "source_url": "https://www.hltv.org/matches/2397818/honvd-vs-ence-cct-2026-europe-series-9",
           "stage_name": "Scheduled series",
           "starts_at": null,
           "status": "live",
-          "team1_name": "Just Players",
-          "team2_name": "Permitta"
+          "team1_name": "Honvéd",
+          "team2_name": "ENCE"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "Honvéd",
-        "ENCE",
         "Nexus",
         "Spirit Academy",
         "Leo",
@@ -138,8 +120,8 @@
         "NAVI Junior",
         "BAKS",
         "ex-RUSTEC",
-        "Just Players",
-        "Permitta"
+        "Honvéd",
+        "ENCE"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -155,6 +137,25 @@
       },
       "id": "hltv:cct-2026-europe-series-9",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397817",
+          "maps": [],
+          "match_id": "hltv:2397817",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397817/just-players-vs-permitta-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Just Players",
+          "team2_name": "Permitta",
+          "winner_name": "Just Players"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
@@ -306,69 +307,33 @@
           "team1_name": "Leo",
           "team2_name": "Bushido Wildcats",
           "winner_name": "Leo"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397808",
-          "maps": [],
-          "match_id": "hltv:2397808",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "QUAZAR",
-          "team2_name": "Permitta",
-          "winner_name": "QUAZAR"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
+        "Just Players",
+        "Permitta",
         "Azuolas",
         "Bushido Wildcats",
         "ex-RUSTEC",
         "Nexus",
         "Lavked",
         "Honvéd",
-        "Just Players",
         "NAVI Junior",
         "Black Phoenix",
         "ENCE",
         "G2 Ares",
         "BAKS",
         "Spirit Academy",
-        "Leo",
-        "QUAZAR",
-        "Permitta"
+        "Leo"
       ],
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-17T11:43:31Z",
+  "fetched_at_utc": "2026-09-17T17:01:46Z",
   "matches": [
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397818",
-      "maps": [],
-      "match_id": "hltv:2397818",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397818/honvd-vs-ence-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-17T14:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Honvéd",
-      "team2_name": "ENCE"
-    },
     {
       "event_id": "hltv:9404",
       "event_name": "CCT 2026 Europe Series 9",
@@ -380,7 +345,7 @@
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397819/nexus-vs-spirit-academy-cct-2026-europe-series-9",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-09-17T17:00:00Z",
+      "starts_at": "2026-09-17T17:15:00Z",
       "status": "upcoming",
       "team1_name": "Nexus",
       "team2_name": "Spirit Academy"
@@ -448,6 +413,25 @@
       "status": "upcoming",
       "team1_name": "BAKS",
       "team2_name": "ex-RUSTEC"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397817",
+      "maps": [],
+      "match_id": "hltv:2397817",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397817/just-players-vs-permitta-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Just Players",
+      "team2_name": "Permitta",
+      "winner_name": "Just Players"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-9",
@@ -602,39 +586,20 @@
       "winner_name": "Leo"
     },
     {
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397808",
-      "maps": [],
-      "match_id": "hltv:2397808",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397808/quazar-vs-permitta-cct-2026-europe-series-9",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "QUAZAR",
-      "team2_name": "Permitta",
-      "winner_name": "QUAZAR"
-    },
-    {
       "event_id": "hltv:9404",
       "event_name": "CCT 2026 Europe Series 9",
       "event_url": null,
-      "hltv_match_id": "2397817",
+      "hltv_match_id": "2397818",
       "maps": [],
-      "match_id": "hltv:2397817",
+      "match_id": "hltv:2397818",
       "product_tier": "tier_2",
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397817/just-players-vs-permitta-cct-2026-europe-series-9",
+      "source_url": "https://www.hltv.org/matches/2397818/honvd-vs-ence-cct-2026-europe-series-9",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "Just Players",
-      "team2_name": "Permitta"
+      "team1_name": "Honvéd",
+      "team2_name": "ENCE"
     }
   ],
   "ok": true,
@@ -646,7 +611,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 93
+    "scheduled_matches": 79
   },
   "product_filter": {
     "eligible_tiers": [
@@ -654,19 +619,19 @@
       "tier_2"
     ],
     "events_kept": 2,
-    "matches_kept": 16,
+    "matches_kept": 15,
     "players_kept": 0,
     "event_tiers": {
       "hltv:9404": "tier_2",
       "hltv:cct-2026-europe-series-9": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2397818",
       "hltv:2397819",
       "hltv:2397820",
       "hltv:2397821",
       "hltv:2397822",
       "hltv:2397823",
+      "hltv:2397817",
       "hltv:2397816",
       "hltv:2397815",
       "hltv:2397814",
@@ -675,8 +640,7 @@
       "hltv:2397811",
       "hltv:2397810",
       "hltv:2397809",
-      "hltv:2397808",
-      "hltv:2397817"
+      "hltv:2397818"
     ]
   }
 }

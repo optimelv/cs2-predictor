@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-17T11:43:31Z",
+  "generated_at_utc": "2026-09-17T17:01:46Z",
   "through_date": "2026-09-17",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 2143,
+    "matches": 2144,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -286,6 +286,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Azuolas",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397817",
+      "match_date": "2026-09-17",
+      "event_name": "CCT 2026 Europe Series 9",
+      "team1_name": "Just Players",
+      "team2_name": "Permitta",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Just Players",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
