@@ -4253,20 +4253,42 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "G2 Ares"
       },
       {
-        "event_id": "hltv:9404",
+        "event_id": "hltv:cct-2026-europe-series-9",
         "event_name": "CCT 2026 Europe Series 9",
         "event_url": null,
         "hltv_match_id": "2397821",
         "maps": [],
         "match_id": "hltv:2397821",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397821/black-phoenix-vs-lavked-cct-2026-europe-series-9",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "Black Phoenix",
-        "team2_name": "Lavked"
+        "team2_name": "Lavked",
+        "winner_name": "Black Phoenix"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-9",
+        "event_name": "CCT 2026 Europe Series 9",
+        "event_url": null,
+        "hltv_match_id": "2397822",
+        "maps": [],
+        "match_id": "hltv:2397822",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2397822/quazar-vs-navi-junior-cct-2026-europe-series-9",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "QUAZAR",
+        "team2_name": "NAVI Junior",
+        "winner_name": "QUAZAR"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -4388,22 +4410,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "scheduled",
         "team1_name": "LP",
         "team2_name": "Imperial"
-      },
-      {
-        "event_id": "hltv:9404",
-        "event_name": "CCT 2026 Europe Series 9",
-        "event_url": null,
-        "hltv_match_id": "2397822",
-        "maps": [],
-        "match_id": "hltv:2397822",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397822/quazar-vs-navi-junior-cct-2026-europe-series-9",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-18T14:00:00Z",
-        "status": "upcoming",
-        "team1_name": "QUAZAR",
-        "team2_name": "NAVI Junior"
       },
       {
         "event_id": "hltv:9404",
@@ -11151,22 +11157,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9404",
             "event_name": "CCT 2026 Europe Series 9",
             "event_url": null,
-            "hltv_match_id": "2397822",
-            "maps": [],
-            "match_id": "hltv:2397822",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397822/quazar-vs-navi-junior-cct-2026-europe-series-9",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-18T14:00:00Z",
-            "status": "upcoming",
-            "team1_name": "QUAZAR",
-            "team2_name": "NAVI Junior"
-          },
-          {
-            "event_id": "hltv:9404",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": null,
             "hltv_match_id": "2397823",
             "maps": [],
             "match_id": "hltv:2397823",
@@ -11178,36 +11168,16 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "BAKS",
             "team2_name": "ex-RUSTEC"
-          },
-          {
-            "event_id": "hltv:9404",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": null,
-            "hltv_match_id": "2397821",
-            "maps": [],
-            "match_id": "hltv:2397821",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397821/black-phoenix-vs-lavked-cct-2026-europe-series-9",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "Black Phoenix",
-            "team2_name": "Lavked"
           }
         ],
         "name": "CCT 2026 Europe Series 9",
         "participants": [
-          "QUAZAR",
-          "NAVI Junior",
           "BAKS",
-          "ex-RUSTEC",
-          "Black Phoenix",
-          "Lavked"
+          "ex-RUSTEC"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "upcoming"
       },
       {
         "current_stage": "Schedule",
@@ -11219,6 +11189,44 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-9",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-9",
+            "event_name": "CCT 2026 Europe Series 9",
+            "event_url": null,
+            "hltv_match_id": "2397822",
+            "maps": [],
+            "match_id": "hltv:2397822",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397822/quazar-vs-navi-junior-cct-2026-europe-series-9",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "QUAZAR",
+            "team2_name": "NAVI Junior",
+            "winner_name": "QUAZAR"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-9",
+            "event_name": "CCT 2026 Europe Series 9",
+            "event_url": null,
+            "hltv_match_id": "2397821",
+            "maps": [],
+            "match_id": "hltv:2397821",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397821/black-phoenix-vs-lavked-cct-2026-europe-series-9",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "Black Phoenix",
+            "team2_name": "Lavked",
+            "winner_name": "Black Phoenix"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-9",
             "event_name": "CCT 2026 Europe Series 9",
@@ -11294,48 +11302,14 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Just Players",
             "team2_name": "Permitta",
             "winner_name": "Just Players"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-9",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": null,
-            "hltv_match_id": "2397816",
-            "maps": [],
-            "match_id": "hltv:2397816",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 0,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Azuolas",
-            "team2_name": "Bushido Wildcats",
-            "winner_name": "Azuolas"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-9",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": null,
-            "hltv_match_id": "2397815",
-            "maps": [],
-            "match_id": "hltv:2397815",
-            "product_tier": "tier_2",
-            "score1": 2,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "ex-RUSTEC",
-            "team2_name": "Nexus",
-            "winner_name": "ex-RUSTEC"
           }
         ],
         "name": "CCT 2026 Europe Series 9",
         "participants": [
+          "QUAZAR",
+          "NAVI Junior",
+          "Black Phoenix",
+          "Lavked",
           "Leo",
           "G2 Ares",
           "Nexus",
@@ -11343,10 +11317,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Honv\u00e9d",
           "ENCE",
           "Just Players",
-          "Permitta",
-          "Azuolas",
-          "Bushido Wildcats",
-          "ex-RUSTEC"
+          "Permitta"
         ],
         "product_tier": "tier_2",
         "source_url": null,
@@ -11629,7 +11600,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-09-18T11:17:23Z",
+    "last_verified_utc": "2026-09-18T16:25:36Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -12067,7 +12038,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-18T11:17:41Z",
+  "generated_at_utc": "2026-09-18T16:25:54Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -14530,30 +14501,41 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.637636,
-        "brier": 0.220661,
-        "ece": 0.032602,
-        "log_loss": 0.6302
+        "accuracy": 0.636505,
+        "brier": 0.22087,
+        "ece": 0.032917,
+        "log_loss": 0.630624
       },
-      "rows": 1919,
-      "test_rows": 643
+      "rows": 1921,
+      "test_rows": 641
     },
     "challenger": {
       "blend_weight": 0.5,
-      "family": "logistic",
+      "family": "gradient_boosting",
       "features": [
-        "baseline_logit"
+        "elo_diff",
+        "vrs_rank_advantage",
+        "vrs_points_diff",
+        "recent_win_rate_10_diff",
+        "best_of",
+        "phase_order",
+        "is_lan",
+        "is_playoff",
+        "is_elimination_match"
       ],
       "folds": 2,
-      "l2": 0.005,
+      "learning_rate": 0.025,
+      "max_depth": 2,
       "metrics": {
-        "accuracy": 0.642302,
-        "brier": 0.221233,
-        "ece": 0.023539,
-        "log_loss": 0.631945
+        "accuracy": 0.648986,
+        "brier": 0.220898,
+        "ece": 0.03617,
+        "log_loss": 0.632208
       },
+      "min_samples_leaf": 24,
+      "n_estimators": 90,
       "promotion_passed": false,
-      "rows": 643
+      "rows": 641
     },
     "champion": {
       "blend_weight": 0.5,
@@ -15663,7 +15645,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-18T11:17:41Z",
+    "generated_at_utc": "2026-09-18T16:25:54Z",
     "history": [
       {
         "champion": {
@@ -16828,8 +16810,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
-      "online_rows": 1162,
+      "new_rows": 2,
+      "online_rows": 1164,
       "seed_rows": 757
     }
   },
@@ -17996,9 +17978,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2397818",
       "hltv:2398334",
       "hltv:2398335",
-      "hltv:2397820"
+      "hltv:2397820",
+      "hltv:2397822",
+      "hltv:2397821"
     ],
-    "last_online_update_utc": "2026-09-18T11:17:41Z",
+    "last_online_update_utc": "2026-09-18T16:25:54Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -22117,10 +22101,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 77
       },
       {
-        "elo": 1503.21,
-        "last_result_utc": "2026-09-16T16:57:54Z",
-        "matches": 42,
-        "recent_win_rate_10": 0.6017,
+        "elo": 1491.05,
+        "last_result_utc": "2026-09-18T16:25:54Z",
+        "matches": 43,
+        "recent_win_rate_10": 0.4923,
         "team_key": "lavked",
         "team_name": "Lavked",
         "vrs_points": 1122.0,
@@ -23394,10 +23378,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 232
       },
       {
-        "elo": 1491.85,
-        "last_result_utc": "2026-09-15T11:46:29Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.4557,
+        "elo": 1510.81,
+        "last_result_utc": "2026-09-18T16:25:54Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.5547,
         "team_key": "quazar",
         "team_name": "QUAZAR",
         "vrs_points": 690.0,
@@ -24641,10 +24625,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1635.03,
-        "last_result_utc": "2026-09-16T16:57:54Z",
-        "matches": 69,
-        "recent_win_rate_10": 0.7591,
+        "elo": 1616.07,
+        "last_result_utc": "2026-09-18T16:25:54Z",
+        "matches": 70,
+        "recent_win_rate_10": 0.6211,
         "team_key": "navi junior",
         "team_name": "navi junior",
         "vrs_points": null,
@@ -25265,10 +25249,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1541.09,
-        "last_result_utc": "2026-09-16T11:36:45Z",
-        "matches": 26,
-        "recent_win_rate_10": 0.5605,
+        "elo": 1553.25,
+        "last_result_utc": "2026-09-18T16:25:54Z",
+        "matches": 27,
+        "recent_win_rate_10": 0.6404,
         "team_key": "black phoenix",
         "team_name": "Black Phoenix",
         "vrs_points": 0,
@@ -29286,39 +29270,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.5531,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4469,
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-18",
-      "match_id": "hltv:2397822",
-      "match_phase": "scheduled",
-      "match_timestamp": 1789740000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "NAVI Junior",
-      "prob_team1": 0.4469,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397822/quazar-vs-navi-junior-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-18T14:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "QUAZAR",
-      "team1_vrs_rank": 233,
-      "team2_hltv_rank": null,
-      "team2_name": "NAVI Junior",
-      "team2_vrs_rank": null
-    },
-    {
       "confidence": 0.5301,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -29680,45 +29631,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Illyrians",
       "team2_vrs_rank": null
-    },
-    {
-      "confidence": 0.5441,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4559,
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "",
-      "match_id": "hltv:2397821",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "Lavked",
-      "prob_team1": 0.4559,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2397821/black-phoenix-vs-lavked-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Black Phoenix",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Lavked",
-      "team2_vrs_rank": 78
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 21,
-    "online_results_applied": 1,
+    "live_feed_items": 19,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

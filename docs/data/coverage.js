@@ -4252,20 +4252,42 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "G2 Ares"
     },
     {
-      "event_id": "hltv:9404",
+      "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
       "event_url": null,
       "hltv_match_id": "2397821",
       "maps": [],
       "match_id": "hltv:2397821",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397821/black-phoenix-vs-lavked-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "Black Phoenix",
-      "team2_name": "Lavked"
+      "team2_name": "Lavked",
+      "winner_name": "Black Phoenix"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397822",
+      "maps": [],
+      "match_id": "hltv:2397822",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397822/quazar-vs-navi-junior-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "QUAZAR",
+      "team2_name": "NAVI Junior",
+      "winner_name": "QUAZAR"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -4387,22 +4409,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397822",
-      "maps": [],
-      "match_id": "hltv:2397822",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397822/quazar-vs-navi-junior-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-18T14:00:00Z",
-      "status": "upcoming",
-      "team1_name": "QUAZAR",
-      "team2_name": "NAVI Junior"
     },
     {
       "event_id": "hltv:9404",
@@ -11150,22 +11156,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
-          "hltv_match_id": "2397822",
-          "maps": [],
-          "match_id": "hltv:2397822",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397822/quazar-vs-navi-junior-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-18T14:00:00Z",
-          "status": "upcoming",
-          "team1_name": "QUAZAR",
-          "team2_name": "NAVI Junior"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
           "hltv_match_id": "2397823",
           "maps": [],
           "match_id": "hltv:2397823",
@@ -11177,36 +11167,16 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "BAKS",
           "team2_name": "ex-RUSTEC"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397821",
-          "maps": [],
-          "match_id": "hltv:2397821",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397821/black-phoenix-vs-lavked-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Black Phoenix",
-          "team2_name": "Lavked"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "QUAZAR",
-        "NAVI Junior",
         "BAKS",
-        "ex-RUSTEC",
-        "Black Phoenix",
-        "Lavked"
+        "ex-RUSTEC"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -11218,6 +11188,44 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-europe-series-9",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397822",
+          "maps": [],
+          "match_id": "hltv:2397822",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397822/quazar-vs-navi-junior-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "QUAZAR",
+          "team2_name": "NAVI Junior",
+          "winner_name": "QUAZAR"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397821",
+          "maps": [],
+          "match_id": "hltv:2397821",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397821/black-phoenix-vs-lavked-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Black Phoenix",
+          "team2_name": "Lavked",
+          "winner_name": "Black Phoenix"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
@@ -11293,48 +11301,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Just Players",
           "team2_name": "Permitta",
           "winner_name": "Just Players"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397816",
-          "maps": [],
-          "match_id": "hltv:2397816",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397816/azuolas-vs-bushido-wildcats-cct-2026-europe-series-9",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Azuolas",
-          "team2_name": "Bushido Wildcats",
-          "winner_name": "Azuolas"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397815",
-          "maps": [],
-          "match_id": "hltv:2397815",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397815/ex-rustec-vs-nexus-cct-2026-europe-series-9",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "ex-RUSTEC",
-          "team2_name": "Nexus",
-          "winner_name": "ex-RUSTEC"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
+        "QUAZAR",
+        "NAVI Junior",
+        "Black Phoenix",
+        "Lavked",
         "Leo",
         "G2 Ares",
         "Nexus",
@@ -11342,10 +11316,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Honvéd",
         "ENCE",
         "Just Players",
-        "Permitta",
-        "Azuolas",
-        "Bushido Wildcats",
-        "ex-RUSTEC"
+        "Permitta"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -11628,7 +11599,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-18T11:17:23Z",
+  "last_verified_utc": "2026-09-18T16:25:36Z",
   "sources": [
     {
       "name": "HLTV events calendar",
