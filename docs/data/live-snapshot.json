@@ -9,42 +9,6 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:9404",
-      "matches": [
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397823",
-          "maps": [],
-          "match_id": "hltv:2397823",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397823/baks-vs-ex-rustec-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-18T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "BAKS",
-          "team2_name": "ex-RUSTEC"
-        }
-      ],
-      "name": "CCT 2026 Europe Series 9",
-      "participants": [
-        "BAKS",
-        "ex-RUSTEC"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
       "id": "hltv:9405",
       "matches": [
         {
@@ -104,6 +68,168 @@
         "QUINTESSÊNCIA",
         "your end",
         "RUSH"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9404",
+      "matches": [
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397824",
+          "maps": [],
+          "match_id": "hltv:2397824",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397824/nexus-vs-permitta-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-19T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Nexus",
+          "team2_name": "Permitta"
+        },
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397825",
+          "maps": [],
+          "match_id": "hltv:2397825",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397825/honvd-vs-bushido-wildcats-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-19T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Honvéd",
+          "team2_name": "Bushido Wildcats"
+        },
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397826",
+          "maps": [],
+          "match_id": "hltv:2397826",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397826/leo-vs-navi-junior-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-19T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Leo",
+          "team2_name": "NAVI Junior"
+        },
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397827",
+          "maps": [],
+          "match_id": "hltv:2397827",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397827/just-players-vs-spirit-academy-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-19T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Just Players",
+          "team2_name": "Spirit Academy"
+        },
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397828",
+          "maps": [],
+          "match_id": "hltv:2397828",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397828/ex-rustec-vs-azuolas-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-20T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-RUSTEC",
+          "team2_name": "Azuolas"
+        },
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397829",
+          "maps": [],
+          "match_id": "hltv:2397829",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397829/lavked-vs-ence-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-20T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Lavked",
+          "team2_name": "ENCE"
+        },
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397830",
+          "maps": [],
+          "match_id": "hltv:2397830",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397830/quazar-vs-g2-ares-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-20T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "QUAZAR",
+          "team2_name": "G2 Ares"
+        },
+        {
+          "event_id": "hltv:9404",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397831",
+          "maps": [],
+          "match_id": "hltv:2397831",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397831/baks-vs-black-phoenix-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-20T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "BAKS",
+          "team2_name": "Black Phoenix"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 9",
+      "participants": [
+        "Nexus",
+        "Permitta",
+        "Honvéd",
+        "Bushido Wildcats",
+        "Leo",
+        "NAVI Junior",
+        "Just Players",
+        "Spirit Academy",
+        "ex-RUSTEC",
+        "Azuolas",
+        "Lavked",
+        "ENCE",
+        "QUAZAR",
+        "G2 Ares",
+        "BAKS",
+        "Black Phoenix"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -267,6 +393,25 @@
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
+          "hltv_match_id": "2397823",
+          "maps": [],
+          "match_id": "hltv:2397823",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397823/baks-vs-ex-rustec-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "BAKS",
+          "team2_name": "ex-RUSTEC",
+          "winner_name": "BAKS"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
           "hltv_match_id": "2397822",
           "maps": [],
           "match_id": "hltv:2397822",
@@ -357,29 +502,12 @@
           "team1_name": "Honvéd",
           "team2_name": "ENCE",
           "winner_name": "ENCE"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397817",
-          "maps": [],
-          "match_id": "hltv:2397817",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397817/just-players-vs-permitta-cct-2026-europe-series-9",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Just Players",
-          "team2_name": "Permitta",
-          "winner_name": "Just Players"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
+        "BAKS",
+        "ex-RUSTEC",
         "QUAZAR",
         "NAVI Junior",
         "Black Phoenix",
@@ -389,9 +517,7 @@
         "Nexus",
         "Spirit Academy",
         "Honvéd",
-        "ENCE",
-        "Just Players",
-        "Permitta"
+        "ENCE"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -458,24 +584,8 @@
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-18T16:25:36Z",
+  "fetched_at_utc": "2026-09-18T20:56:11Z",
   "matches": [
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397823",
-      "maps": [],
-      "match_id": "hltv:2397823",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397823/baks-vs-ex-rustec-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-18T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "BAKS",
-      "team2_name": "ex-RUSTEC"
-    },
     {
       "event_id": "hltv:9405",
       "event_name": "CCT 2026 Challengers South America Series 3",
@@ -509,6 +619,70 @@
       "team2_name": "QUINTESSÊNCIA"
     },
     {
+      "event_id": "hltv:9404",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397824",
+      "maps": [],
+      "match_id": "hltv:2397824",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397824/nexus-vs-permitta-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-19T08:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Nexus",
+      "team2_name": "Permitta"
+    },
+    {
+      "event_id": "hltv:9404",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397825",
+      "maps": [],
+      "match_id": "hltv:2397825",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397825/honvd-vs-bushido-wildcats-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-19T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Honvéd",
+      "team2_name": "Bushido Wildcats"
+    },
+    {
+      "event_id": "hltv:9404",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397826",
+      "maps": [],
+      "match_id": "hltv:2397826",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397826/leo-vs-navi-junior-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-19T14:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Leo",
+      "team2_name": "NAVI Junior"
+    },
+    {
+      "event_id": "hltv:9404",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397827",
+      "maps": [],
+      "match_id": "hltv:2397827",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397827/just-players-vs-spirit-academy-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-19T17:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Just Players",
+      "team2_name": "Spirit Academy"
+    },
+    {
       "event_id": "hltv:9405",
       "event_name": "CCT 2026 Challengers South America Series 3",
       "event_url": null,
@@ -523,6 +697,70 @@
       "status": "upcoming",
       "team1_name": "your end",
       "team2_name": "RUSH"
+    },
+    {
+      "event_id": "hltv:9404",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397828",
+      "maps": [],
+      "match_id": "hltv:2397828",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397828/ex-rustec-vs-azuolas-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-20T08:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Azuolas"
+    },
+    {
+      "event_id": "hltv:9404",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397829",
+      "maps": [],
+      "match_id": "hltv:2397829",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397829/lavked-vs-ence-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-20T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Lavked",
+      "team2_name": "ENCE"
+    },
+    {
+      "event_id": "hltv:9404",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397830",
+      "maps": [],
+      "match_id": "hltv:2397830",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397830/quazar-vs-g2-ares-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-20T14:00:00Z",
+      "status": "upcoming",
+      "team1_name": "QUAZAR",
+      "team2_name": "G2 Ares"
+    },
+    {
+      "event_id": "hltv:9404",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397831",
+      "maps": [],
+      "match_id": "hltv:2397831",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397831/baks-vs-black-phoenix-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-20T17:00:00Z",
+      "status": "upcoming",
+      "team1_name": "BAKS",
+      "team2_name": "Black Phoenix"
     },
     {
       "event_id": "hltv:9419",
@@ -635,6 +873,25 @@
       "status": "upcoming",
       "team1_name": "Noir Verse",
       "team2_name": "Illyrians"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397823",
+      "maps": [],
+      "match_id": "hltv:2397823",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397823/baks-vs-ex-rustec-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "BAKS",
+      "team2_name": "ex-RUSTEC",
+      "winner_name": "BAKS"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-9",
@@ -768,93 +1025,10 @@
       "team1_name": "Honvéd",
       "team2_name": "ENCE",
       "winner_name": "ENCE"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397817",
-      "maps": [],
-      "match_id": "hltv:2397817",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397817/just-players-vs-permitta-cct-2026-europe-series-9",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Just Players",
-      "team2_name": "Permitta",
-      "winner_name": "Just Players"
     }
   ],
   "ok": true,
-  "players": [
-    {
-      "hltv_player_id": "21284",
-      "nickname": "happ",
-      "player_id": "hltv:21284",
-      "source_url": "https://www.hltv.org/player/21284/happ",
-      "team_name": "LP"
-    },
-    {
-      "hltv_player_id": "17132",
-      "nickname": "Leomonster",
-      "player_id": "hltv:17132",
-      "source_url": "https://www.hltv.org/player/17132/leomonster",
-      "team_name": "LP"
-    },
-    {
-      "hltv_player_id": "14010",
-      "nickname": "zmb",
-      "player_id": "hltv:14010",
-      "source_url": "https://www.hltv.org/player/14010/zmb",
-      "team_name": "LP"
-    },
-    {
-      "hltv_player_id": "23550",
-      "nickname": "divine",
-      "player_id": "hltv:23550",
-      "source_url": "https://www.hltv.org/player/23550/divine",
-      "team_name": "LP"
-    },
-    {
-      "hltv_player_id": "20521",
-      "nickname": "Alisson",
-      "player_id": "hltv:20521",
-      "source_url": "https://www.hltv.org/player/20521/alisson",
-      "team_name": "LP"
-    },
-    {
-      "hltv_player_id": "25188",
-      "nickname": "rickangel",
-      "player_id": "hltv:25188",
-      "source_url": "https://www.hltv.org/player/25188/rickangel",
-      "team_name": "GBC"
-    },
-    {
-      "hltv_player_id": "15164",
-      "nickname": "SEN1K",
-      "player_id": "hltv:15164",
-      "source_url": "https://www.hltv.org/player/15164/sen1k",
-      "team_name": "GBC"
-    },
-    {
-      "hltv_player_id": "24642",
-      "nickname": "coldpera",
-      "player_id": "hltv:24642",
-      "source_url": "https://www.hltv.org/player/24642/coldpera",
-      "team_name": "GBC"
-    },
-    {
-      "hltv_player_id": "24471",
-      "nickname": "oxygen",
-      "player_id": "hltv:24471",
-      "source_url": "https://www.hltv.org/player/24471/oxygen",
-      "team_name": "GBC"
-    }
-  ],
+  "players": [],
   "poll_after_ms": 300000,
   "rankings": null,
   "source": "HLTV via GitHub Actions FlareSolverr",
@@ -862,7 +1036,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 66
+    "scheduled_matches": 80
   },
   "product_filter": {
     "eligible_tiers": [
@@ -870,20 +1044,27 @@
       "tier_2"
     ],
     "events_kept": 5,
-    "matches_kept": 19,
-    "players_kept": 9,
+    "matches_kept": 26,
+    "players_kept": 0,
     "event_tiers": {
-      "hltv:9404": "tier_2",
       "hltv:9405": "tier_2",
+      "hltv:9404": "tier_2",
       "hltv:9419": "tier_2",
       "hltv:cct-2026-europe-series-9": "tier_2",
       "hltv:cct-2026-challengers-south-america-series-3": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2397823",
       "hltv:2398336",
       "hltv:2398337",
+      "hltv:2397824",
+      "hltv:2397825",
+      "hltv:2397826",
+      "hltv:2397827",
       "hltv:2398338",
+      "hltv:2397828",
+      "hltv:2397829",
+      "hltv:2397830",
+      "hltv:2397831",
       "hltv:2398342",
       "hltv:2398344",
       "hltv:2398345",
@@ -891,14 +1072,14 @@
       "hltv:2398351",
       "hltv:2398352",
       "hltv:2398353",
+      "hltv:2397823",
       "hltv:2397822",
       "hltv:2397821",
       "hltv:2397820",
       "hltv:2398334",
       "hltv:2398335",
       "hltv:2397819",
-      "hltv:2397818",
-      "hltv:2397817"
+      "hltv:2397818"
     ]
   }
 }
