@@ -4092,6 +4092,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "BAKS"
     },
     {
+      "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+      "event_name": "CCT 2026 Challengers South America Series 3",
+      "event_url": null,
+      "hltv_match_id": "2398336",
+      "maps": [],
+      "match_id": "hltv:2398336",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398336/underworld-vs-meia-noite-cct-2026-challengers-south-america-series-3",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Underworld",
+      "team2_name": "MEIA NOITE",
+      "winner_name": "MEIA NOITE"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4211,22 +4230,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:9405",
-      "event_name": "CCT 2026 Challengers South America Series 3",
-      "event_url": null,
-      "hltv_match_id": "2398336",
-      "maps": [],
-      "match_id": "hltv:2398336",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398336/underworld-vs-meia-noite-cct-2026-challengers-south-america-series-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-18T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Underworld",
-      "team2_name": "MEIA NOITE"
     },
     {
       "event_id": "hltv:9405",
@@ -11376,22 +11379,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9405",
           "event_name": "CCT 2026 Challengers South America Series 3",
           "event_url": null,
-          "hltv_match_id": "2398336",
-          "maps": [],
-          "match_id": "hltv:2398336",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398336/underworld-vs-meia-noite-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-18T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Underworld",
-          "team2_name": "MEIA NOITE"
-        },
-        {
-          "event_id": "hltv:9405",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
           "hltv_match_id": "2398337",
           "maps": [],
           "match_id": "hltv:2398337",
@@ -11423,8 +11410,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Challengers South America Series 3",
       "participants": [
-        "Underworld",
-        "MEIA NOITE",
         "Sementes do Mal",
         "QUINTESSÊNCIA",
         "your end",
@@ -11444,6 +11429,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-challengers-south-america-series-3",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+          "event_name": "CCT 2026 Challengers South America Series 3",
+          "event_url": null,
+          "hltv_match_id": "2398336",
+          "maps": [],
+          "match_id": "hltv:2398336",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398336/underworld-vs-meia-noite-cct-2026-challengers-south-america-series-3",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Underworld",
+          "team2_name": "MEIA NOITE",
+          "winner_name": "MEIA NOITE"
+        },
         {
           "event_id": "hltv:cct-2026-challengers-south-america-series-3",
           "event_name": "CCT 2026 Challengers South America Series 3",
@@ -11486,6 +11490,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "name": "CCT 2026 Challengers South America Series 3",
       "participants": [
         "Underworld",
+        "MEIA NOITE",
         "your end",
         "RUSH",
         "Sementes do Mal"
@@ -11639,7 +11644,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-18T20:56:11Z",
+  "last_verified_utc": "2026-09-18T23:20:03Z",
   "sources": [
     {
       "name": "HLTV events calendar",

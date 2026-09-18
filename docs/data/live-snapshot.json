@@ -15,22 +15,6 @@
           "event_id": "hltv:9405",
           "event_name": "CCT 2026 Challengers South America Series 3",
           "event_url": null,
-          "hltv_match_id": "2398336",
-          "maps": [],
-          "match_id": "hltv:2398336",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398336/underworld-vs-meia-noite-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-18T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Underworld",
-          "team2_name": "MEIA NOITE"
-        },
-        {
-          "event_id": "hltv:9405",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
           "hltv_match_id": "2398337",
           "maps": [],
           "match_id": "hltv:2398337",
@@ -62,8 +46,6 @@
       ],
       "name": "CCT 2026 Challengers South America Series 3",
       "participants": [
-        "Underworld",
-        "MEIA NOITE",
         "Sementes do Mal",
         "QUINTESSÊNCIA",
         "your end",
@@ -387,6 +369,86 @@
         "stages": [],
         "type": "mixed"
       },
+      "id": "hltv:cct-2026-challengers-south-america-series-3",
+      "matches": [
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+          "event_name": "CCT 2026 Challengers South America Series 3",
+          "event_url": null,
+          "hltv_match_id": "2398336",
+          "maps": [],
+          "match_id": "hltv:2398336",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398336/underworld-vs-meia-noite-cct-2026-challengers-south-america-series-3",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Underworld",
+          "team2_name": "MEIA NOITE",
+          "winner_name": "MEIA NOITE"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+          "event_name": "CCT 2026 Challengers South America Series 3",
+          "event_url": null,
+          "hltv_match_id": "2398334",
+          "maps": [],
+          "match_id": "hltv:2398334",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398334/underworld-vs-your-end-cct-2026-challengers-south-america-series-3",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Underworld",
+          "team2_name": "your end",
+          "winner_name": "your end"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+          "event_name": "CCT 2026 Challengers South America Series 3",
+          "event_url": null,
+          "hltv_match_id": "2398335",
+          "maps": [],
+          "match_id": "hltv:2398335",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398335/rush-vs-sementes-do-mal-cct-2026-challengers-south-america-series-3",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "RUSH",
+          "team2_name": "Sementes do Mal",
+          "winner_name": "RUSH"
+        }
+      ],
+      "name": "CCT 2026 Challengers South America Series 3",
+      "participants": [
+        "Underworld",
+        "MEIA NOITE",
+        "your end",
+        "RUSH",
+        "Sementes do Mal"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "finished"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
       "id": "hltv:cct-2026-europe-series-9",
       "matches": [
         {
@@ -522,86 +584,10 @@
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:cct-2026-challengers-south-america-series-3",
-      "matches": [
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
-          "hltv_match_id": "2398334",
-          "maps": [],
-          "match_id": "hltv:2398334",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398334/underworld-vs-your-end-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Underworld",
-          "team2_name": "your end",
-          "winner_name": "your end"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
-          "hltv_match_id": "2398335",
-          "maps": [],
-          "match_id": "hltv:2398335",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398335/rush-vs-sementes-do-mal-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "RUSH",
-          "team2_name": "Sementes do Mal",
-          "winner_name": "RUSH"
-        }
-      ],
-      "name": "CCT 2026 Challengers South America Series 3",
-      "participants": [
-        "Underworld",
-        "your end",
-        "RUSH",
-        "Sementes do Mal"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-18T20:56:11Z",
+  "fetched_at_utc": "2026-09-18T23:20:03Z",
   "matches": [
-    {
-      "event_id": "hltv:9405",
-      "event_name": "CCT 2026 Challengers South America Series 3",
-      "event_url": null,
-      "hltv_match_id": "2398336",
-      "maps": [],
-      "match_id": "hltv:2398336",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398336/underworld-vs-meia-noite-cct-2026-challengers-south-america-series-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-18T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Underworld",
-      "team2_name": "MEIA NOITE"
-    },
     {
       "event_id": "hltv:9405",
       "event_name": "CCT 2026 Challengers South America Series 3",
@@ -875,6 +861,25 @@
       "team2_name": "Illyrians"
     },
     {
+      "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+      "event_name": "CCT 2026 Challengers South America Series 3",
+      "event_url": null,
+      "hltv_match_id": "2398336",
+      "maps": [],
+      "match_id": "hltv:2398336",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398336/underworld-vs-meia-noite-cct-2026-challengers-south-america-series-3",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Underworld",
+      "team2_name": "MEIA NOITE",
+      "winner_name": "MEIA NOITE"
+    },
+    {
       "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
       "event_url": null,
@@ -1028,7 +1033,78 @@
     }
   ],
   "ok": true,
-  "players": [],
+  "players": [
+    {
+      "hltv_player_id": "23482",
+      "nickname": "tuxa",
+      "player_id": "hltv:23482",
+      "source_url": "https://www.hltv.org/player/23482/tuxa",
+      "team_name": "SAW Youngsters"
+    },
+    {
+      "hltv_player_id": "24634",
+      "nickname": "Jayy2s",
+      "player_id": "hltv:24634",
+      "source_url": "https://www.hltv.org/player/24634/jayy2s",
+      "team_name": "SAW Youngsters"
+    },
+    {
+      "hltv_player_id": "25208",
+      "nickname": "jERK0z",
+      "player_id": "hltv:25208",
+      "source_url": "https://www.hltv.org/player/25208/jerk0z",
+      "team_name": "SAW Youngsters"
+    },
+    {
+      "hltv_player_id": "23480",
+      "nickname": "M1KA",
+      "player_id": "hltv:23480",
+      "source_url": "https://www.hltv.org/player/23480/m1ka",
+      "team_name": "SAW Youngsters"
+    },
+    {
+      "hltv_player_id": "23559",
+      "nickname": "snowiee",
+      "player_id": "hltv:23559",
+      "source_url": "https://www.hltv.org/player/23559/snowiee",
+      "team_name": "SAW Youngsters"
+    },
+    {
+      "hltv_player_id": "26627",
+      "nickname": "f0rtuna",
+      "player_id": "hltv:26627",
+      "source_url": "https://www.hltv.org/player/26627/f0rtuna",
+      "team_name": "REVENIX"
+    },
+    {
+      "hltv_player_id": "26629",
+      "nickname": "petroWUR",
+      "player_id": "hltv:26629",
+      "source_url": "https://www.hltv.org/player/26629/petrowur",
+      "team_name": "REVENIX"
+    },
+    {
+      "hltv_player_id": "26630",
+      "nickname": "sickaf",
+      "player_id": "hltv:26630",
+      "source_url": "https://www.hltv.org/player/26630/sickaf",
+      "team_name": "REVENIX"
+    },
+    {
+      "hltv_player_id": "26735",
+      "nickname": "defleep",
+      "player_id": "hltv:26735",
+      "source_url": "https://www.hltv.org/player/26735/defleep",
+      "team_name": "REVENIX"
+    },
+    {
+      "hltv_player_id": "26734",
+      "nickname": "decaun",
+      "player_id": "hltv:26734",
+      "source_url": "https://www.hltv.org/player/26734/decaun",
+      "team_name": "REVENIX"
+    }
+  ],
   "poll_after_ms": 300000,
   "rankings": null,
   "source": "HLTV via GitHub Actions FlareSolverr",
@@ -1036,7 +1112,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 80
+    "scheduled_matches": 78
   },
   "product_filter": {
     "eligible_tiers": [
@@ -1045,16 +1121,15 @@
     ],
     "events_kept": 5,
     "matches_kept": 26,
-    "players_kept": 0,
+    "players_kept": 10,
     "event_tiers": {
       "hltv:9405": "tier_2",
       "hltv:9404": "tier_2",
       "hltv:9419": "tier_2",
-      "hltv:cct-2026-europe-series-9": "tier_2",
-      "hltv:cct-2026-challengers-south-america-series-3": "tier_2"
+      "hltv:cct-2026-challengers-south-america-series-3": "tier_2",
+      "hltv:cct-2026-europe-series-9": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2398336",
       "hltv:2398337",
       "hltv:2397824",
       "hltv:2397825",
@@ -1072,6 +1147,7 @@
       "hltv:2398351",
       "hltv:2398352",
       "hltv:2398353",
+      "hltv:2398336",
       "hltv:2397823",
       "hltv:2397822",
       "hltv:2397821",
