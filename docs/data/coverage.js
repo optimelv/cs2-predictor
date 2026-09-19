@@ -3548,20 +3548,42 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Bushido Wildcats"
     },
     {
-      "event_id": "hltv:9404",
+      "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
       "event_url": null,
       "hltv_match_id": "2397826",
       "maps": [],
       "match_id": "hltv:2397826",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397826/leo-vs-navi-junior-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "starts_at": null,
-      "status": "live",
+      "status": "finished",
       "team1_name": "Leo",
-      "team2_name": "NAVI Junior"
+      "team2_name": "NAVI Junior",
+      "winner_name": "Leo"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397827",
+      "maps": [],
+      "match_id": "hltv:2397827",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397827/just-players-vs-spirit-academy-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Just Players",
+      "team2_name": "Spirit Academy",
+      "winner_name": "Just Players"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -3683,22 +3705,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397827",
-      "maps": [],
-      "match_id": "hltv:2397827",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397827/just-players-vs-spirit-academy-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-19T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Just Players",
-      "team2_name": "Spirit Academy"
     },
     {
       "event_id": "hltv:9405",
@@ -10862,22 +10868,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
-          "hltv_match_id": "2397827",
-          "maps": [],
-          "match_id": "hltv:2397827",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397827/just-players-vs-spirit-academy-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-19T17:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Just Players",
-          "team2_name": "Spirit Academy"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
           "hltv_match_id": "2397828",
           "maps": [],
           "match_id": "hltv:2397828",
@@ -10937,28 +10927,10 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "BAKS",
           "team2_name": "Black Phoenix"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397826",
-          "maps": [],
-          "match_id": "hltv:2397826",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397826/leo-vs-navi-junior-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Leo",
-          "team2_name": "NAVI Junior"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "Just Players",
-        "Spirit Academy",
         "ex-RUSTEC",
         "Azuolas",
         "Lavked",
@@ -10966,13 +10938,11 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "QUAZAR",
         "G2 Ares",
         "BAKS",
-        "Black Phoenix",
-        "Leo",
-        "NAVI Junior"
+        "Black Phoenix"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -10984,6 +10954,44 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-europe-series-9",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397827",
+          "maps": [],
+          "match_id": "hltv:2397827",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397827/just-players-vs-spirit-academy-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Just Players",
+          "team2_name": "Spirit Academy",
+          "winner_name": "Just Players"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397826",
+          "maps": [],
+          "match_id": "hltv:2397826",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397826/leo-vs-navi-junior-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Leo",
+          "team2_name": "NAVI Junior",
+          "winner_name": "Leo"
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
@@ -11101,6 +11109,10 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
+        "Just Players",
+        "Spirit Academy",
+        "Leo",
+        "NAVI Junior",
         "Honvéd",
         "Bushido Wildcats",
         "Nexus",
@@ -11108,10 +11120,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "BAKS",
         "ex-RUSTEC",
         "QUAZAR",
-        "NAVI Junior",
         "Black Phoenix",
         "Lavked",
-        "Leo",
         "G2 Ares"
       ],
       "product_tier": "tier_2",
@@ -11219,44 +11229,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Underworld",
           "team2_name": "MEIA NOITE",
           "winner_name": "MEIA NOITE"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
-          "hltv_match_id": "2398334",
-          "maps": [],
-          "match_id": "hltv:2398334",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398334/underworld-vs-your-end-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Underworld",
-          "team2_name": "your end",
-          "winner_name": "your end"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
-          "hltv_match_id": "2398335",
-          "maps": [],
-          "match_id": "hltv:2398335",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398335/rush-vs-sementes-do-mal-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "RUSH",
-          "team2_name": "Sementes do Mal",
-          "winner_name": "RUSH"
         }
       ],
       "name": "CCT 2026 Challengers South America Series 3",
@@ -11264,9 +11236,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Sementes do Mal",
         "QUINTESSÊNCIA",
         "Underworld",
-        "MEIA NOITE",
-        "your end",
-        "RUSH"
+        "MEIA NOITE"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -11903,7 +11873,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-19T15:54:25Z",
+  "last_verified_utc": "2026-09-19T20:42:17Z",
   "sources": [
     {
       "name": "HLTV events calendar",

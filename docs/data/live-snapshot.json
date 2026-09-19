@@ -9,24 +9,62 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:9404",
+      "id": "hltv:9405",
       "matches": [
         {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
+          "event_id": "hltv:9405",
+          "event_name": "CCT 2026 Challengers South America Series 3",
           "event_url": null,
-          "hltv_match_id": "2397827",
+          "hltv_match_id": "2398338",
           "maps": [],
-          "match_id": "hltv:2397827",
+          "match_id": "hltv:2398338",
           "product_tier": "tier_2",
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397827/just-players-vs-spirit-academy-cct-2026-europe-series-9",
+          "source_url": "https://www.hltv.org/matches/2398338/your-end-vs-rush-cct-2026-challengers-south-america-series-3",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-19T17:00:00Z",
+          "starts_at": "2026-09-19T21:00:00Z",
           "status": "upcoming",
-          "team1_name": "Just Players",
-          "team2_name": "Spirit Academy"
+          "team1_name": "your end",
+          "team2_name": "RUSH"
         },
+        {
+          "event_id": "hltv:9405",
+          "event_name": "CCT 2026 Challengers South America Series 3",
+          "event_url": null,
+          "hltv_match_id": "2398339",
+          "maps": [],
+          "match_id": "hltv:2398339",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398339/meia-noite-vs-quintessncia-cct-2026-challengers-south-america-series-3",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-19T23:45:00Z",
+          "status": "upcoming",
+          "team1_name": "MEIA NOITE",
+          "team2_name": "QUINTESSÊNCIA"
+        }
+      ],
+      "name": "CCT 2026 Challengers South America Series 3",
+      "participants": [
+        "your end",
+        "RUSH",
+        "MEIA NOITE",
+        "QUINTESSÊNCIA"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9404",
+      "matches": [
         {
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
@@ -90,28 +128,10 @@
           "status": "upcoming",
           "team1_name": "BAKS",
           "team2_name": "Black Phoenix"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397826",
-          "maps": [],
-          "match_id": "hltv:2397826",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397826/leo-vs-navi-junior-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Leo",
-          "team2_name": "NAVI Junior"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "Just Players",
-        "Spirit Academy",
         "ex-RUSTEC",
         "Azuolas",
         "Lavked",
@@ -119,63 +139,7 @@
         "QUAZAR",
         "G2 Ares",
         "BAKS",
-        "Black Phoenix",
-        "Leo",
-        "NAVI Junior"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "ongoing"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:9405",
-      "matches": [
-        {
-          "event_id": "hltv:9405",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
-          "hltv_match_id": "2398338",
-          "maps": [],
-          "match_id": "hltv:2398338",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398338/your-end-vs-rush-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-19T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "your end",
-          "team2_name": "RUSH"
-        },
-        {
-          "event_id": "hltv:9405",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
-          "hltv_match_id": "2398339",
-          "maps": [],
-          "match_id": "hltv:2398339",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398339/meia-noite-vs-quintessncia-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-19T23:45:00Z",
-          "status": "upcoming",
-          "team1_name": "MEIA NOITE",
-          "team2_name": "QUINTESSÊNCIA"
-        }
-      ],
-      "name": "CCT 2026 Challengers South America Series 3",
-      "participants": [
-        "your end",
-        "RUSH",
-        "MEIA NOITE",
-        "QUINTESSÊNCIA"
+        "Black Phoenix"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -825,6 +789,44 @@
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
+          "hltv_match_id": "2397827",
+          "maps": [],
+          "match_id": "hltv:2397827",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397827/just-players-vs-spirit-academy-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Just Players",
+          "team2_name": "Spirit Academy",
+          "winner_name": "Just Players"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
+          "hltv_match_id": "2397826",
+          "maps": [],
+          "match_id": "hltv:2397826",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397826/leo-vs-navi-junior-cct-2026-europe-series-9",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Leo",
+          "team2_name": "NAVI Junior",
+          "winner_name": "Leo"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": null,
           "hltv_match_id": "2397825",
           "maps": [],
           "match_id": "hltv:2397825",
@@ -938,6 +940,10 @@
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
+        "Just Players",
+        "Spirit Academy",
+        "Leo",
+        "NAVI Junior",
         "Honvéd",
         "Bushido Wildcats",
         "Nexus",
@@ -945,10 +951,8 @@
         "BAKS",
         "ex-RUSTEC",
         "QUAZAR",
-        "NAVI Junior",
         "Black Phoenix",
         "Lavked",
-        "Leo",
         "G2 Ares"
       ],
       "product_tier": "tier_2",
@@ -1002,44 +1006,6 @@
           "team1_name": "Underworld",
           "team2_name": "MEIA NOITE",
           "winner_name": "MEIA NOITE"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
-          "hltv_match_id": "2398334",
-          "maps": [],
-          "match_id": "hltv:2398334",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398334/underworld-vs-your-end-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Underworld",
-          "team2_name": "your end",
-          "winner_name": "your end"
-        },
-        {
-          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
-          "hltv_match_id": "2398335",
-          "maps": [],
-          "match_id": "hltv:2398335",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398335/rush-vs-sementes-do-mal-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "RUSH",
-          "team2_name": "Sementes do Mal",
-          "winner_name": "RUSH"
         }
       ],
       "name": "CCT 2026 Challengers South America Series 3",
@@ -1047,33 +1013,15 @@
         "Sementes do Mal",
         "QUINTESSÊNCIA",
         "Underworld",
-        "MEIA NOITE",
-        "your end",
-        "RUSH"
+        "MEIA NOITE"
       ],
       "product_tier": "tier_2",
       "source_url": null,
       "status": "finished"
     }
   ],
-  "fetched_at_utc": "2026-09-19T15:54:25Z",
+  "fetched_at_utc": "2026-09-19T20:42:17Z",
   "matches": [
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397827",
-      "maps": [],
-      "match_id": "hltv:2397827",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397827/just-players-vs-spirit-academy-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-19T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Just Players",
-      "team2_name": "Spirit Academy"
-    },
     {
       "event_id": "hltv:9405",
       "event_name": "CCT 2026 Challengers South America Series 3",
@@ -1670,6 +1618,44 @@
       "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
       "event_url": null,
+      "hltv_match_id": "2397827",
+      "maps": [],
+      "match_id": "hltv:2397827",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397827/just-players-vs-spirit-academy-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Just Players",
+      "team2_name": "Spirit Academy",
+      "winner_name": "Just Players"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397826",
+      "maps": [],
+      "match_id": "hltv:2397826",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397826/leo-vs-navi-junior-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Leo",
+      "team2_name": "NAVI Junior",
+      "winner_name": "Leo"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
       "hltv_match_id": "2397825",
       "maps": [],
       "match_id": "hltv:2397825",
@@ -1817,60 +1803,6 @@
       "team1_name": "Leo",
       "team2_name": "G2 Ares",
       "winner_name": "G2 Ares"
-    },
-    {
-      "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-      "event_name": "CCT 2026 Challengers South America Series 3",
-      "event_url": null,
-      "hltv_match_id": "2398334",
-      "maps": [],
-      "match_id": "hltv:2398334",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398334/underworld-vs-your-end-cct-2026-challengers-south-america-series-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Underworld",
-      "team2_name": "your end",
-      "winner_name": "your end"
-    },
-    {
-      "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-      "event_name": "CCT 2026 Challengers South America Series 3",
-      "event_url": null,
-      "hltv_match_id": "2398335",
-      "maps": [],
-      "match_id": "hltv:2398335",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398335/rush-vs-sementes-do-mal-cct-2026-challengers-south-america-series-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "RUSH",
-      "team2_name": "Sementes do Mal",
-      "winner_name": "RUSH"
-    },
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397826",
-      "maps": [],
-      "match_id": "hltv:2397826",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397826/leo-vs-navi-junior-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_name": "Leo",
-      "team2_name": "NAVI Junior"
     }
   ],
   "ok": true,
@@ -1882,7 +1814,7 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 95
+    "scheduled_matches": 92
   },
   "product_filter": {
     "eligible_tiers": [
@@ -1890,11 +1822,11 @@
       "tier_2"
     ],
     "events_kept": 8,
-    "matches_kept": 49,
+    "matches_kept": 47,
     "players_kept": 0,
     "event_tiers": {
-      "hltv:9404": "tier_2",
       "hltv:9405": "tier_2",
+      "hltv:9404": "tier_2",
       "hltv:9419": "tier_2",
       "hltv:9354": "tier_2",
       "hltv:9355": "tier_2",
@@ -1903,7 +1835,6 @@
       "hltv:cct-2026-challengers-south-america-series-3": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2397827",
       "hltv:2398338",
       "hltv:2398339",
       "hltv:2397828",
@@ -1941,6 +1872,8 @@
       "hltv:2398351",
       "hltv:2398352",
       "hltv:2398353",
+      "hltv:2397827",
+      "hltv:2397826",
       "hltv:2397825",
       "hltv:2397824",
       "hltv:2398337",
@@ -1948,10 +1881,7 @@
       "hltv:2397823",
       "hltv:2397822",
       "hltv:2397821",
-      "hltv:2397820",
-      "hltv:2398334",
-      "hltv:2398335",
-      "hltv:2397826"
+      "hltv:2397820"
     ]
   }
 }
