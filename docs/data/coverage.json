@@ -3586,6 +3586,51 @@
       "winner_name": "Just Players"
     },
     {
+      "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+      "event_name": "CCT 2026 Challengers South America Series 3",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2398338",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 9,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 7,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Inferno",
+        "Dust2",
+        "Ancient"
+      ],
+      "match_id": "hltv:2398338",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398338/your-end-vs-rush-cct-2026-challengers-south-america-series-3",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "your end",
+      "team2_name": "RUSH",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -3705,22 +3750,6 @@
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:9405",
-      "event_name": "CCT 2026 Challengers South America Series 3",
-      "event_url": null,
-      "hltv_match_id": "2398338",
-      "maps": [],
-      "match_id": "hltv:2398338",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398338/your-end-vs-rush-cct-2026-challengers-south-america-series-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-19T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "your end",
-      "team2_name": "RUSH"
     },
     {
       "event_id": "hltv:9405",
@@ -11142,22 +11171,6 @@
           "event_id": "hltv:9405",
           "event_name": "CCT 2026 Challengers South America Series 3",
           "event_url": null,
-          "hltv_match_id": "2398338",
-          "maps": [],
-          "match_id": "hltv:2398338",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398338/your-end-vs-rush-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-19T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "your end",
-          "team2_name": "RUSH"
-        },
-        {
-          "event_id": "hltv:9405",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
           "hltv_match_id": "2398339",
           "maps": [],
           "match_id": "hltv:2398339",
@@ -11173,8 +11186,6 @@
       ],
       "name": "CCT 2026 Challengers South America Series 3",
       "participants": [
-        "your end",
-        "RUSH",
         "MEIA NOITE",
         "QUINTESSÊNCIA"
       ],
@@ -11229,6 +11240,51 @@
           "team1_name": "Underworld",
           "team2_name": "MEIA NOITE",
           "winner_name": "MEIA NOITE"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+          "event_name": "CCT 2026 Challengers South America Series 3",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2398338",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Inferno",
+              "score1": 13,
+              "score2": 9,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": 7,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Inferno",
+            "Dust2",
+            "Ancient"
+          ],
+          "match_id": "hltv:2398338",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398338/your-end-vs-rush-cct-2026-challengers-south-america-series-3",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "your end",
+          "team2_name": "RUSH",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
         }
       ],
       "name": "CCT 2026 Challengers South America Series 3",
@@ -11236,11 +11292,13 @@
         "Sementes do Mal",
         "QUINTESSÊNCIA",
         "Underworld",
-        "MEIA NOITE"
+        "MEIA NOITE",
+        "your end",
+        "RUSH"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "finished"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -11873,7 +11931,7 @@
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-19T20:42:17Z",
+  "last_verified_utc": "2026-09-19T23:07:19Z",
   "sources": [
     {
       "name": "HLTV events calendar",
