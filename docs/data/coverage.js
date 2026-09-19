@@ -5,25 +5,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
       "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
       "event_url": null,
-      "hltv_match_id": "2397864",
-      "maps": [],
-      "match_id": "hltv:2397864",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397864/bestia-vs-virtuspro-thunderpick-world-championship-2026-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "BESTIA",
-      "team2_name": "Virtus.pro",
-      "winner_name": "Virtus.pro"
-    },
-    {
-      "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
-      "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-      "event_url": null,
       "hltv_match_id": "2397866",
       "lineups": {
         "team1": [],
@@ -4111,6 +4092,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "MEIA NOITE"
     },
     {
+      "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+      "event_name": "CCT 2026 Challengers South America Series 3",
+      "event_url": null,
+      "hltv_match_id": "2398337",
+      "maps": [],
+      "match_id": "hltv:2398337",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398337/sementes-do-mal-vs-quintessncia-cct-2026-challengers-south-america-series-3",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "Sementes do Mal",
+      "team2_name": "QUINTESSÊNCIA",
+      "winner_name": "QUINTESSÊNCIA"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -4232,26 +4232,14 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Imperial"
     },
     {
-      "event_id": "hltv:9405",
-      "event_name": "CCT 2026 Challengers South America Series 3",
-      "event_url": null,
-      "hltv_match_id": "2398337",
-      "maps": [],
-      "match_id": "hltv:2398337",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398337/sementes-do-mal-vs-quintessncia-cct-2026-challengers-south-america-series-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-18T23:45:00Z",
-      "status": "upcoming",
-      "team1_name": "Sementes do Mal",
-      "team2_name": "QUINTESSÊNCIA"
-    },
-    {
-      "event_id": "hltv:9404",
+      "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397824",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "maps": [],
       "match_id": "hltv:2397824",
       "product_tier": "tier_2",
@@ -4261,7 +4249,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-09-19T08:00:00Z",
       "status": "upcoming",
       "team1_name": "Nexus",
-      "team2_name": "Permitta"
+      "team2_name": "Permitta",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated."
     },
     {
       "event_id": "hltv:9404",
@@ -4326,6 +4315,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "your end",
       "team2_name": "RUSH"
+    },
+    {
+      "event_id": "hltv:9405",
+      "event_name": "CCT 2026 Challengers South America Series 3",
+      "event_url": null,
+      "hltv_match_id": "2398339",
+      "maps": [],
+      "match_id": "hltv:2398339",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398339/meia-noite-vs-quintessncia-cct-2026-challengers-south-america-series-3",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-19T23:45:00Z",
+      "status": "upcoming",
+      "team1_name": "MEIA NOITE",
+      "team2_name": "QUINTESSÊNCIA"
     },
     {
       "event_id": "hltv:9404",
@@ -11073,22 +11078,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
-          "hltv_match_id": "2397824",
-          "maps": [],
-          "match_id": "hltv:2397824",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397824/nexus-vs-permitta-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-19T08:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Nexus",
-          "team2_name": "Permitta"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
           "hltv_match_id": "2397825",
           "maps": [],
           "match_id": "hltv:2397825",
@@ -11200,8 +11189,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "Nexus",
-        "Permitta",
         "Honvéd",
         "Bushido Wildcats",
         "Leo",
@@ -11231,6 +11218,27 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-europe-series-9",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397824",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "maps": [],
+          "match_id": "hltv:2397824",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397824/nexus-vs-permitta-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-19T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Nexus",
+          "team2_name": "Permitta",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated."
+        },
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
@@ -11325,29 +11333,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Nexus",
           "team2_name": "Spirit Academy",
           "winner_name": "Spirit Academy"
-        },
-        {
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397818",
-          "maps": [],
-          "match_id": "hltv:2397818",
-          "product_tier": "tier_2",
-          "score1": 1,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397818/honvd-vs-ence-cct-2026-europe-series-9",
-          "stage_name": "Completed series",
-          "starts_at": null,
-          "status": "finished",
-          "team1_name": "Honvéd",
-          "team2_name": "ENCE",
-          "winner_name": "ENCE"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
+        "Nexus",
+        "Permitta",
         "BAKS",
         "ex-RUSTEC",
         "QUAZAR",
@@ -11356,14 +11347,11 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Lavked",
         "Leo",
         "G2 Ares",
-        "Nexus",
-        "Spirit Academy",
-        "Honvéd",
-        "ENCE"
+        "Spirit Academy"
       ],
       "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
+      "source_url": "https://www.hltv.org/events/archive",
+      "status": "upcoming"
     },
     {
       "current_stage": "Schedule",
@@ -11379,22 +11367,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9405",
           "event_name": "CCT 2026 Challengers South America Series 3",
           "event_url": null,
-          "hltv_match_id": "2398337",
-          "maps": [],
-          "match_id": "hltv:2398337",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2398337/sementes-do-mal-vs-quintessncia-cct-2026-challengers-south-america-series-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-18T23:45:00Z",
-          "status": "upcoming",
-          "team1_name": "Sementes do Mal",
-          "team2_name": "QUINTESSÊNCIA"
-        },
-        {
-          "event_id": "hltv:9405",
-          "event_name": "CCT 2026 Challengers South America Series 3",
-          "event_url": null,
           "hltv_match_id": "2398338",
           "maps": [],
           "match_id": "hltv:2398338",
@@ -11406,14 +11378,30 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "your end",
           "team2_name": "RUSH"
+        },
+        {
+          "event_id": "hltv:9405",
+          "event_name": "CCT 2026 Challengers South America Series 3",
+          "event_url": null,
+          "hltv_match_id": "2398339",
+          "maps": [],
+          "match_id": "hltv:2398339",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398339/meia-noite-vs-quintessncia-cct-2026-challengers-south-america-series-3",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-19T23:45:00Z",
+          "status": "upcoming",
+          "team1_name": "MEIA NOITE",
+          "team2_name": "QUINTESSÊNCIA"
         }
       ],
       "name": "CCT 2026 Challengers South America Series 3",
       "participants": [
-        "Sementes do Mal",
-        "QUINTESSÊNCIA",
         "your end",
-        "RUSH"
+        "RUSH",
+        "MEIA NOITE",
+        "QUINTESSÊNCIA"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -11429,6 +11417,25 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       },
       "id": "hltv:cct-2026-challengers-south-america-series-3",
       "matches": [
+        {
+          "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+          "event_name": "CCT 2026 Challengers South America Series 3",
+          "event_url": null,
+          "hltv_match_id": "2398337",
+          "maps": [],
+          "match_id": "hltv:2398337",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398337/sementes-do-mal-vs-quintessncia-cct-2026-challengers-south-america-series-3",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
+          "team1_name": "Sementes do Mal",
+          "team2_name": "QUINTESSÊNCIA",
+          "winner_name": "QUINTESSÊNCIA"
+        },
         {
           "event_id": "hltv:cct-2026-challengers-south-america-series-3",
           "event_name": "CCT 2026 Challengers South America Series 3",
@@ -11489,11 +11496,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Challengers South America Series 3",
       "participants": [
+        "Sementes do Mal",
+        "QUINTESSÊNCIA",
         "Underworld",
         "MEIA NOITE",
         "your end",
-        "RUSH",
-        "Sementes do Mal"
+        "RUSH"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -11644,7 +11652,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-18T23:20:03Z",
+  "last_verified_utc": "2026-09-19T04:39:49Z",
   "sources": [
     {
       "name": "HLTV events calendar",
