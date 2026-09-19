@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-19T04:39:49Z",
+  "generated_at_utc": "2026-09-19T11:01:16Z",
   "through_date": "2026-09-19",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 2154,
+    "matches": 2155,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 987
@@ -198,6 +198,28 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "QUINTESSÊNCIA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397824",
+      "match_date": "2026-09-19",
+      "event_name": "CCT 2026 Europe Series 9",
+      "team1_name": "Nexus",
+      "team2_name": "Permitta",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Nexus",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
