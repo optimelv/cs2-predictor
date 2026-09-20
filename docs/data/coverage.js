@@ -2,280 +2,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:pgl-masters-bucharest-2026-europe-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397771",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Nuke",
-          "score1": 17,
-          "score2": 19,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": 13,
-          "score2": 11,
-          "status": "finished"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": 2,
-          "score2": 10,
-          "status": "finished"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2397771",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397771/sinners-vs-nemiga-pgl-masters-bucharest-2026-europe-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "SINNERS",
-      "team2_name": "Nemiga",
-      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final",
-      "winner_name": "Nemiga"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397791",
-      "maps": [],
-      "match_id": "hltv:2397791",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397791/spirit-academy-vs-permitta-cct-2026-europe-series-9-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Spirit Academy",
-      "team2_name": "Permitta",
-      "winner_name": "Permitta"
-    },
-    {
-      "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
-      "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397869",
-      "maps": [],
-      "match_id": "hltv:2397869",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397869/ninjas-in-pyjamas-vs-infinite-thunderpick-world-championship-2026-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Ninjas in Pyjamas",
-      "team2_name": "INFINITE",
-      "winner_name": "Ninjas in Pyjamas"
-    },
-    {
-      "event_id": "hltv:thunderpick-world-championship-2026-closed-qualifier",
-      "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397871",
-      "maps": [],
-      "match_id": "hltv:2397871",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397871/fokus-vs-1win-thunderpick-world-championship-2026-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "FOKUS",
-      "team2_name": "1win",
-      "winner_name": "FOKUS"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-8",
-      "event_name": "CCT 2026 Europe Series 8",
-      "event_url": null,
-      "hltv_match_id": "2397277",
-      "maps": [],
-      "match_id": "hltv:2397277",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397277/inox-division-vs-black-phoenix-cct-2026-europe-series-8",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "INOX Division",
-      "team2_name": "Black Phoenix",
-      "winner_name": "INOX Division"
-    },
-    {
-      "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397759",
-      "maps": [],
-      "match_id": "hltv:2397759",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397759/galorys-vs-back-to-back-pgl-masters-bucharest-2026-south-america-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Galorys",
-      "team2_name": "Back to Back",
-      "winner_name": "Back to Back"
-    },
-    {
-      "event_id": "hltv:pgl-masters-bucharest-2026-south-america-closed-qualifier",
-      "event_name": "PGL Masters Bucharest 2026 South America Closed Qualifier",
-      "event_url": null,
-      "hltv_match_id": "2397760",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "18865",
-            "nickname": "dav1deuS",
-            "player_id": "hltv:18865",
-            "source_url": "https://www.hltv.org/player/18865/dav1deus",
-            "team_name": "Fluxo"
-          },
-          {
-            "hltv_player_id": "11154",
-            "nickname": "exit",
-            "player_id": "hltv:11154",
-            "source_url": "https://www.hltv.org/player/11154/exit",
-            "team_name": "Fluxo"
-          },
-          {
-            "hltv_player_id": "19692",
-            "nickname": "zevy",
-            "player_id": "hltv:19692",
-            "source_url": "https://www.hltv.org/player/19692/zevy",
-            "team_name": "Fluxo"
-          },
-          {
-            "hltv_player_id": "20385",
-            "nickname": "kye",
-            "player_id": "hltv:20385",
-            "source_url": "https://www.hltv.org/player/20385/kye",
-            "team_name": "Fluxo"
-          },
-          {
-            "hltv_player_id": "23587",
-            "nickname": "Ltz",
-            "player_id": "hltv:23587",
-            "source_url": "https://www.hltv.org/player/23587/ltz",
-            "team_name": "Fluxo"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "20558",
-            "nickname": "gafolo",
-            "player_id": "hltv:20558",
-            "source_url": "https://www.hltv.org/player/20558/gafolo",
-            "team_name": "DENDELE"
-          },
-          {
-            "hltv_player_id": "21170",
-            "nickname": "koala",
-            "player_id": "hltv:21170",
-            "source_url": "https://www.hltv.org/player/21170/koala",
-            "team_name": "DENDELE"
-          },
-          {
-            "hltv_player_id": "21221",
-            "nickname": "maxxkor",
-            "player_id": "hltv:21221",
-            "source_url": "https://www.hltv.org/player/21221/maxxkor",
-            "team_name": "DENDELE"
-          },
-          {
-            "hltv_player_id": "21921",
-            "nickname": "rdnzao",
-            "player_id": "hltv:21921",
-            "source_url": "https://www.hltv.org/player/21921/rdnzao",
-            "team_name": "DENDELE"
-          },
-          {
-            "hltv_player_id": "22911",
-            "nickname": "doc",
-            "player_id": "hltv:22911",
-            "source_url": "https://www.hltv.org/player/22911/doc",
-            "team_name": "DENDELE"
-          }
-        ]
-      },
-      "map_results": [
-        {
-          "map_name": "Mirage",
-          "score1": 13,
-          "score2": 6,
-          "status": "finished"
-        },
-        {
-          "map_name": "Cache",
-          "score1": 5,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": 3,
-          "score2": 13,
-          "status": "finished"
-        }
-      ],
-      "maps": [],
-      "match_id": "hltv:2397760",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397760/fluxo-vs-dendele-pgl-masters-bucharest-2026-south-america-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Fluxo",
-      "team2_name": "DENDELE",
-      "veto_text": "Best of 3 (Online)\n\n* Upper bracket semi-final",
-      "winner_name": "DENDELE"
-    },
-    {
-      "event_id": "hltv:cct-2026-contenders-europe-series-9",
-      "event_name": "CCT 2026 Contenders Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2398051",
-      "maps": [],
-      "match_id": "hltv:2398051",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398051/titanflow-vs-bojong-cct-2026-contenders-europe-series-9",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "TitanFlow",
-      "team2_name": "BOJONG",
-      "winner_name": "TitanFlow"
-    },
-    {
       "event_id": "hltv:cct-2026-contenders-europe-series-9",
       "event_name": "CCT 2026 Contenders Europe Series 9",
       "event_url": null,
@@ -3630,6 +3356,75 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "QUINTESSÊNCIA"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": null,
+      "hltv_match_id": "2397828",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "maps": [],
+      "match_id": "hltv:2397828",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397828/ex-rustec-vs-azuolas-cct-2026-europe-series-9",
+      "stage_name": "Completed series",
+      "starts_at": null,
+      "status": "finished",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Azuolas",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)",
+      "winner_name": "ex-RUSTEC"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397829",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Inferno",
+        "Nuke"
+      ],
+      "match_id": "hltv:2397829",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397829/lavked-vs-ence-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Lavked",
+      "team2_name": "ENCE",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
+    },
+    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -3749,43 +3544,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "scheduled",
       "team1_name": "LP",
       "team2_name": "Imperial"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397828",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397828",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397828/ex-rustec-vs-azuolas-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-20T08:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ex-RUSTEC",
-      "team2_name": "Azuolas",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
-    },
-    {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397829",
-      "maps": [],
-      "match_id": "hltv:2397829",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397829/lavked-vs-ence-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-20T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Lavked",
-      "team2_name": "ENCE"
     },
     {
       "event_id": "hltv:9404",
@@ -3980,6 +3738,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "NEXVOID"
     },
     {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "event_url": null,
+      "hltv_match_id": "2398550",
+      "maps": [],
+      "match_id": "hltv:2398550",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398550/meia-noite-vs-mira-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-22T13:00:00Z",
+      "status": "upcoming",
+      "team1_name": "MEIA NOITE",
+      "team2_name": "Mira"
+    },
+    {
       "event_id": "hltv:9419",
       "event_name": "CCT 2026 Europe Series 10 Closed Qualifier",
       "event_url": null,
@@ -3996,6 +3770,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "mellren"
     },
     {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "event_url": null,
+      "hltv_match_id": "2398551",
+      "maps": [],
+      "match_id": "hltv:2398551",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398551/borracheiros-vs-damajuana-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-22T16:00:00Z",
+      "status": "upcoming",
+      "team1_name": "BORRACHEIROS",
+      "team2_name": "DAMAJUANA"
+    },
+    {
       "event_id": "hltv:9419",
       "event_name": "CCT 2026 Europe Series 10 Closed Qualifier",
       "event_url": null,
@@ -4010,6 +3800,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "Permitta",
       "team2_name": "megoshort"
+    },
+    {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "event_url": null,
+      "hltv_match_id": "2398552",
+      "maps": [],
+      "match_id": "hltv:2398552",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398552/mibr-fe-vs-quintessncia-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-22T19:00:00Z",
+      "status": "upcoming",
+      "team1_name": "MIBR fe",
+      "team2_name": "QUINTESSÊNCIA"
     },
     {
       "event_id": "hltv:9355",
@@ -4140,6 +3946,22 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Bounty Hunters"
     },
     {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "event_url": null,
+      "hltv_match_id": "2398553",
+      "maps": [],
+      "match_id": "hltv:2398553",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398553/bestia-academy-vs-zetta-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-22T22:00:00Z",
+      "status": "upcoming",
+      "team1_name": "BESTIA Academy",
+      "team2_name": "Zetta"
+    },
+    {
       "event_id": "hltv:9356",
       "event_name": "ESL Challenger League Season 52 North America Cup 2",
       "event_url": null,
@@ -4266,6 +4088,70 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "FlyQuest RED",
       "team2_name": "Marsborne"
+    },
+    {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "event_url": null,
+      "hltv_match_id": "2398554",
+      "maps": [],
+      "match_id": "hltv:2398554",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398554/alka-vs-grmio-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-23T13:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ALKA",
+      "team2_name": "Grêmio"
+    },
+    {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "event_url": null,
+      "hltv_match_id": "2398555",
+      "maps": [],
+      "match_id": "hltv:2398555",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398555/metanoia-wolves-vs-procyon-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-23T16:00:00Z",
+      "status": "upcoming",
+      "team1_name": "METANOIA Wolves",
+      "team2_name": "Procyon"
+    },
+    {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "event_url": null,
+      "hltv_match_id": "2398556",
+      "maps": [],
+      "match_id": "hltv:2398556",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398556/peladona-vs-your-end-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-23T19:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Peladona",
+      "team2_name": "your end"
+    },
+    {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "event_url": null,
+      "hltv_match_id": "2398557",
+      "maps": [],
+      "match_id": "hltv:2398557",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398557/pain-academy-vs-sementes-do-mal-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-23T22:00:00Z",
+      "status": "upcoming",
+      "team1_name": "paiN Academy",
+      "team2_name": "Sementes do Mal"
     },
     {
       "event_id": "hltv:9419",
@@ -10901,22 +10787,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": null,
-          "hltv_match_id": "2397829",
-          "maps": [],
-          "match_id": "hltv:2397829",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397829/lavked-vs-ence-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-20T11:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Lavked",
-          "team2_name": "ENCE"
-        },
-        {
-          "event_id": "hltv:9404",
-          "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
           "hltv_match_id": "2397830",
           "maps": [],
           "match_id": "hltv:2397830",
@@ -10948,8 +10818,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "name": "CCT 2026 Europe Series 9",
       "participants": [
-        "Lavked",
-        "ENCE",
         "QUAZAR",
         "G2 Ares",
         "BAKS",
@@ -10972,23 +10840,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2397828",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
           "maps": [],
           "match_id": "hltv:2397828",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397828/ex-rustec-vs-azuolas-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-09-20T08:00:00Z",
-          "status": "upcoming",
+          "stage_name": "Completed series",
+          "starts_at": null,
+          "status": "finished",
           "team1_name": "ex-RUSTEC",
           "team2_name": "Azuolas",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
+          "winner_name": "ex-RUSTEC"
         },
         {
           "event_id": "hltv:cct-2026-europe-series-9",
@@ -11107,21 +10973,47 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         {
           "event_id": "hltv:cct-2026-europe-series-9",
           "event_name": "CCT 2026 Europe Series 9",
-          "event_url": null,
-          "hltv_match_id": "2397821",
-          "maps": [],
-          "match_id": "hltv:2397821",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397829",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Inferno",
+            "Nuke"
+          ],
+          "match_id": "hltv:2397829",
           "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 0,
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2397821/black-phoenix-vs-lavked-cct-2026-europe-series-9",
-          "stage_name": "Completed series",
+          "source_url": "https://www.hltv.org/matches/2397829/lavked-vs-ence-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
           "starts_at": null,
-          "status": "finished",
-          "team1_name": "Black Phoenix",
-          "team2_name": "Lavked",
-          "winner_name": "Black Phoenix"
+          "status": "live",
+          "team1_name": "Lavked",
+          "team2_name": "ENCE",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
@@ -11138,12 +11030,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Permitta",
         "BAKS",
         "QUAZAR",
-        "Black Phoenix",
-        "Lavked"
+        "Lavked",
+        "ENCE"
       ],
       "product_tier": "tier_2",
-      "source_url": "https://www.hltv.org/events/archive",
-      "status": "upcoming"
+      "source_url": null,
+      "status": "ongoing"
     },
     {
       "current_stage": "Playoffs",
@@ -11918,9 +11810,171 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "product_tier": "tier_2",
       "source_url": null,
       "status": "upcoming"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9425",
+      "matches": [
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "event_url": null,
+          "hltv_match_id": "2398550",
+          "maps": [],
+          "match_id": "hltv:2398550",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398550/meia-noite-vs-mira-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-22T13:00:00Z",
+          "status": "upcoming",
+          "team1_name": "MEIA NOITE",
+          "team2_name": "Mira"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "event_url": null,
+          "hltv_match_id": "2398551",
+          "maps": [],
+          "match_id": "hltv:2398551",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398551/borracheiros-vs-damajuana-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-22T16:00:00Z",
+          "status": "upcoming",
+          "team1_name": "BORRACHEIROS",
+          "team2_name": "DAMAJUANA"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "event_url": null,
+          "hltv_match_id": "2398552",
+          "maps": [],
+          "match_id": "hltv:2398552",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398552/mibr-fe-vs-quintessncia-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-22T19:00:00Z",
+          "status": "upcoming",
+          "team1_name": "MIBR fe",
+          "team2_name": "QUINTESSÊNCIA"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "event_url": null,
+          "hltv_match_id": "2398553",
+          "maps": [],
+          "match_id": "hltv:2398553",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398553/bestia-academy-vs-zetta-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-22T22:00:00Z",
+          "status": "upcoming",
+          "team1_name": "BESTIA Academy",
+          "team2_name": "Zetta"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "event_url": null,
+          "hltv_match_id": "2398554",
+          "maps": [],
+          "match_id": "hltv:2398554",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398554/alka-vs-grmio-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-23T13:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ALKA",
+          "team2_name": "Grêmio"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "event_url": null,
+          "hltv_match_id": "2398555",
+          "maps": [],
+          "match_id": "hltv:2398555",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398555/metanoia-wolves-vs-procyon-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-23T16:00:00Z",
+          "status": "upcoming",
+          "team1_name": "METANOIA Wolves",
+          "team2_name": "Procyon"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "event_url": null,
+          "hltv_match_id": "2398556",
+          "maps": [],
+          "match_id": "hltv:2398556",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398556/peladona-vs-your-end-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-23T19:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Peladona",
+          "team2_name": "your end"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "event_url": null,
+          "hltv_match_id": "2398557",
+          "maps": [],
+          "match_id": "hltv:2398557",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398557/pain-academy-vs-sementes-do-mal-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-23T22:00:00Z",
+          "status": "upcoming",
+          "team1_name": "paiN Academy",
+          "team2_name": "Sementes do Mal"
+        }
+      ],
+      "name": "CCT 2026 South America Series 6",
+      "participants": [
+        "MEIA NOITE",
+        "Mira",
+        "BORRACHEIROS",
+        "DAMAJUANA",
+        "MIBR fe",
+        "QUINTESSÊNCIA",
+        "BESTIA Academy",
+        "Zetta",
+        "ALKA",
+        "Grêmio",
+        "METANOIA Wolves",
+        "Procyon",
+        "Peladona",
+        "your end",
+        "paiN Academy",
+        "Sementes do Mal"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "upcoming"
     }
   ],
-  "last_verified_utc": "2026-09-20T04:55:46Z",
+  "last_verified_utc": "2026-09-20T11:26:22Z",
   "sources": [
     {
       "name": "HLTV events calendar",
