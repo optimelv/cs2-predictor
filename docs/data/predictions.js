@@ -3,25 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:pgl-masters-bucharest-2026-east-asia-closed-qualifier",
-        "event_name": "PGL Masters Bucharest 2026 East Asia Closed Qualifier",
-        "event_url": null,
-        "hltv_match_id": "2397747",
-        "maps": [],
-        "match_id": "hltv:2397747",
-        "product_tier": "tier_1",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397747/tyloo-vs-nexvoid-pgl-masters-bucharest-2026-east-asia-closed-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "TYLOO",
-        "team2_name": "NEXVOID",
-        "winner_name": "TYLOO"
-      },
-      {
         "event_id": "hltv:pgl-masters-bucharest-2026-europe-closed-qualifier",
         "event_name": "PGL Masters Bucharest 2026 Europe Closed Qualifier",
         "event_url": null,
@@ -3589,7 +3570,7 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:cct-2026-challengers-south-america-series-3",
         "event_name": "CCT 2026 Challengers South America Series 3",
-        "event_url": "https://www.hltv.org/events/archive",
+        "event_url": null,
         "hltv_match_id": "2398338",
         "lineups": {
           "team1": [],
@@ -3615,21 +3596,39 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming"
           }
         ],
-        "maps": [
-          "Inferno",
-          "Dust2",
-          "Ancient"
-        ],
+        "maps": [],
         "match_id": "hltv:2398338",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398338/your-end-vs-rush-cct-2026-challengers-south-america-series-3",
-        "stage_name": "Scheduled series",
+        "stage_name": "Completed series",
         "starts_at": null,
-        "status": "live",
+        "status": "finished",
         "team1_name": "your end",
         "team2_name": "RUSH",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket final",
+        "winner_name": "your end"
+      },
+      {
+        "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+        "event_name": "CCT 2026 Challengers South America Series 3",
+        "event_url": null,
+        "hltv_match_id": "2398339",
+        "maps": [],
+        "match_id": "hltv:2398339",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398339/meia-noite-vs-quintessncia-cct-2026-challengers-south-america-series-3",
+        "stage_name": "Completed series",
+        "starts_at": null,
+        "status": "finished",
+        "team1_name": "MEIA NOITE",
+        "team2_name": "QUINTESS\u00caNCIA",
+        "winner_name": "QUINTESS\u00caNCIA"
       },
       {
         "event_id": "thunderpick-sa-s2-2026",
@@ -3753,26 +3752,14 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Imperial"
       },
       {
-        "event_id": "hltv:9405",
-        "event_name": "CCT 2026 Challengers South America Series 3",
-        "event_url": null,
-        "hltv_match_id": "2398339",
-        "maps": [],
-        "match_id": "hltv:2398339",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398339/meia-noite-vs-quintessncia-cct-2026-challengers-south-america-series-3",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-19T23:45:00Z",
-        "status": "upcoming",
-        "team1_name": "MEIA NOITE",
-        "team2_name": "QUINTESS\u00caNCIA"
-      },
-      {
-        "event_id": "hltv:9404",
+        "event_id": "hltv:cct-2026-europe-series-9",
         "event_name": "CCT 2026 Europe Series 9",
-        "event_url": null,
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2397828",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "maps": [],
         "match_id": "hltv:2397828",
         "product_tier": "tier_2",
@@ -3782,7 +3769,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-09-20T08:00:00Z",
         "status": "upcoming",
         "team1_name": "ex-RUSTEC",
-        "team2_name": "Azuolas"
+        "team2_name": "Azuolas",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
       },
       {
         "event_id": "hltv:9404",
@@ -3831,6 +3819,22 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "BAKS",
         "team2_name": "Black Phoenix"
+      },
+      {
+        "event_id": "hltv:9405",
+        "event_name": "CCT 2026 Challengers South America Series 3",
+        "event_url": null,
+        "hltv_match_id": "2398340",
+        "maps": [],
+        "match_id": "hltv:2398340",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398340/rush-vs-quintessncia-cct-2026-challengers-south-america-series-3",
+        "stage_name": "Playoffs",
+        "starts_at": "2026-09-20T21:00:00Z",
+        "status": "upcoming",
+        "team1_name": "RUSH",
+        "team2_name": "QUINTESS\u00caNCIA"
       },
       {
         "event_id": "hltv:9419",
@@ -10898,22 +10902,6 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9404",
             "event_name": "CCT 2026 Europe Series 9",
             "event_url": null,
-            "hltv_match_id": "2397828",
-            "maps": [],
-            "match_id": "hltv:2397828",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397828/ex-rustec-vs-azuolas-cct-2026-europe-series-9",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-20T08:00:00Z",
-            "status": "upcoming",
-            "team1_name": "ex-RUSTEC",
-            "team2_name": "Azuolas"
-          },
-          {
-            "event_id": "hltv:9404",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": null,
             "hltv_match_id": "2397829",
             "maps": [],
             "match_id": "hltv:2397829",
@@ -10961,8 +10949,6 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "name": "CCT 2026 Europe Series 9",
         "participants": [
-          "ex-RUSTEC",
-          "Azuolas",
           "Lavked",
           "ENCE",
           "QUAZAR",
@@ -10984,6 +10970,27 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-europe-series-9",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-europe-series-9",
+            "event_name": "CCT 2026 Europe Series 9",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2397828",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "maps": [],
+            "match_id": "hltv:2397828",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2397828/ex-rustec-vs-azuolas-cct-2026-europe-series-9",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-20T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "ex-RUSTEC",
+            "team2_name": "Azuolas",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
+          },
           {
             "event_id": "hltv:cct-2026-europe-series-9",
             "event_name": "CCT 2026 Europe Series 9",
@@ -11116,29 +11123,12 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Black Phoenix",
             "team2_name": "Lavked",
             "winner_name": "Black Phoenix"
-          },
-          {
-            "event_id": "hltv:cct-2026-europe-series-9",
-            "event_name": "CCT 2026 Europe Series 9",
-            "event_url": null,
-            "hltv_match_id": "2397820",
-            "maps": [],
-            "match_id": "hltv:2397820",
-            "product_tier": "tier_2",
-            "score1": 0,
-            "score2": 1,
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2397820/leo-vs-g2-ares-cct-2026-europe-series-9",
-            "stage_name": "Completed series",
-            "starts_at": null,
-            "status": "finished",
-            "team1_name": "Leo",
-            "team2_name": "G2 Ares",
-            "winner_name": "G2 Ares"
           }
         ],
         "name": "CCT 2026 Europe Series 9",
         "participants": [
+          "ex-RUSTEC",
+          "Azuolas",
           "Just Players",
           "Spirit Academy",
           "Leo",
@@ -11148,22 +11138,28 @@ window.__STRIKESIGNAL_DATA__ = {
           "Nexus",
           "Permitta",
           "BAKS",
-          "ex-RUSTEC",
           "QUAZAR",
           "Black Phoenix",
-          "Lavked",
-          "G2 Ares"
+          "Lavked"
         ],
         "product_tier": "tier_2",
-        "source_url": null,
-        "status": "finished"
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "upcoming"
       },
       {
-        "current_stage": "Schedule",
+        "current_stage": "Playoffs",
         "format": {
-          "label": "Event schedule",
+          "label": "Playoffs",
           "settings": {},
-          "stages": [],
+          "stages": [
+            {
+              "id": "playoffs",
+              "name": "Playoffs",
+              "order": 1,
+              "status": "pending",
+              "type": "single_elimination"
+            }
+          ],
           "type": "mixed"
         },
         "id": "hltv:9405",
@@ -11172,22 +11168,22 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_id": "hltv:9405",
             "event_name": "CCT 2026 Challengers South America Series 3",
             "event_url": null,
-            "hltv_match_id": "2398339",
+            "hltv_match_id": "2398340",
             "maps": [],
-            "match_id": "hltv:2398339",
+            "match_id": "hltv:2398340",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2398339/meia-noite-vs-quintessncia-cct-2026-challengers-south-america-series-3",
-            "stage_name": "Scheduled series",
-            "starts_at": "2026-09-19T23:45:00Z",
+            "source_url": "https://www.hltv.org/matches/2398340/rush-vs-quintessncia-cct-2026-challengers-south-america-series-3",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-09-20T21:00:00Z",
             "status": "upcoming",
-            "team1_name": "MEIA NOITE",
+            "team1_name": "RUSH",
             "team2_name": "QUINTESS\u00caNCIA"
           }
         ],
         "name": "CCT 2026 Challengers South America Series 3",
         "participants": [
-          "MEIA NOITE",
+          "RUSH",
           "QUINTESS\u00caNCIA"
         ],
         "product_tier": "tier_2",
@@ -11204,6 +11200,44 @@ window.__STRIKESIGNAL_DATA__ = {
         },
         "id": "hltv:cct-2026-challengers-south-america-series-3",
         "matches": [
+          {
+            "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+            "event_name": "CCT 2026 Challengers South America Series 3",
+            "event_url": null,
+            "hltv_match_id": "2398339",
+            "maps": [],
+            "match_id": "hltv:2398339",
+            "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398339/meia-noite-vs-quintessncia-cct-2026-challengers-south-america-series-3",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "MEIA NOITE",
+            "team2_name": "QUINTESS\u00caNCIA",
+            "winner_name": "QUINTESS\u00caNCIA"
+          },
+          {
+            "event_id": "hltv:cct-2026-challengers-south-america-series-3",
+            "event_name": "CCT 2026 Challengers South America Series 3",
+            "event_url": null,
+            "hltv_match_id": "2398338",
+            "maps": [],
+            "match_id": "hltv:2398338",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398338/your-end-vs-rush-cct-2026-challengers-south-america-series-3",
+            "stage_name": "Completed series",
+            "starts_at": null,
+            "status": "finished",
+            "team1_name": "your end",
+            "team2_name": "RUSH",
+            "winner_name": "your end"
+          },
           {
             "event_id": "hltv:cct-2026-challengers-south-america-series-3",
             "event_name": "CCT 2026 Challengers South America Series 3",
@@ -11241,65 +11275,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Underworld",
             "team2_name": "MEIA NOITE",
             "winner_name": "MEIA NOITE"
-          },
-          {
-            "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-            "event_name": "CCT 2026 Challengers South America Series 3",
-            "event_url": "https://www.hltv.org/events/archive",
-            "hltv_match_id": "2398338",
-            "lineups": {
-              "team1": [],
-              "team2": []
-            },
-            "map_results": [
-              {
-                "map_name": "Inferno",
-                "score1": 13,
-                "score2": 9,
-                "status": "finished"
-              },
-              {
-                "map_name": "Dust2",
-                "score1": 7,
-                "score2": 13,
-                "status": "finished"
-              },
-              {
-                "map_name": "Ancient",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
-              }
-            ],
-            "maps": [
-              "Inferno",
-              "Dust2",
-              "Ancient"
-            ],
-            "match_id": "hltv:2398338",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2398338/your-end-vs-rush-cct-2026-challengers-south-america-series-3",
-            "stage_name": "Scheduled series",
-            "starts_at": null,
-            "status": "live",
-            "team1_name": "your end",
-            "team2_name": "RUSH",
-            "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
           }
         ],
         "name": "CCT 2026 Challengers South America Series 3",
         "participants": [
-          "Sementes do Mal",
-          "QUINTESS\u00caNCIA",
-          "Underworld",
           "MEIA NOITE",
+          "QUINTESS\u00caNCIA",
           "your end",
-          "RUSH"
+          "RUSH",
+          "Sementes do Mal",
+          "Underworld"
         ],
         "product_tier": "tier_2",
         "source_url": null,
-        "status": "ongoing"
+        "status": "finished"
       },
       {
         "current_stage": "Schedule",
@@ -11932,7 +11921,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming"
       }
     ],
-    "last_verified_utc": "2026-09-19T23:07:19Z",
+    "last_verified_utc": "2026-09-20T04:55:46Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -12370,7 +12359,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-19T23:07:28Z",
+  "generated_at_utc": "2026-09-20T04:56:04Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -14833,41 +14822,30 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 2,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.636646,
-        "brier": 0.220883,
-        "ece": 0.031615,
-        "log_loss": 0.630657
+        "accuracy": 0.636223,
+        "brier": 0.220802,
+        "ece": 0.031853,
+        "log_loss": 0.630487
       },
-      "rows": 1928,
-      "test_rows": 644
+      "rows": 1930,
+      "test_rows": 646
     },
     "challenger": {
       "blend_weight": 0.5,
-      "family": "gradient_boosting",
+      "family": "logistic",
       "features": [
-        "elo_diff",
-        "vrs_rank_advantage",
-        "vrs_points_diff",
-        "recent_win_rate_10_diff",
-        "best_of",
-        "phase_order",
-        "is_lan",
-        "is_playoff",
-        "is_elimination_match"
+        "baseline_logit"
       ],
       "folds": 2,
-      "learning_rate": 0.035,
-      "max_depth": 2,
+      "l2": 0.005,
       "metrics": {
-        "accuracy": 0.639752,
-        "brier": 0.220962,
-        "ece": 0.026967,
-        "log_loss": 0.632308
+        "accuracy": 0.640867,
+        "brier": 0.221332,
+        "ece": 0.020979,
+        "log_loss": 0.632164
       },
-      "min_samples_leaf": 24,
-      "n_estimators": 60,
       "promotion_passed": false,
-      "rows": 644
+      "rows": 646
     },
     "champion": {
       "blend_weight": 0.5,
@@ -15977,7 +15955,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "portable-20260830164241"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-19T23:07:28Z",
+    "generated_at_utc": "2026-09-20T04:56:03Z",
     "history": [
       {
         "champion": {
@@ -17142,8 +17120,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 0,
-      "online_rows": 1171,
+      "new_rows": 2,
+      "online_rows": 1173,
       "seed_rows": 757
     }
   },
@@ -18319,9 +18297,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2397824",
       "hltv:2397825",
       "hltv:2397827",
-      "hltv:2397826"
+      "hltv:2397826",
+      "hltv:2398339",
+      "hltv:2398338"
     ],
-    "last_online_update_utc": "2026-09-19T20:42:33Z",
+    "last_online_update_utc": "2026-09-20T04:56:04Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -26008,20 +25988,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1520.25,
-        "last_result_utc": "2026-09-19T04:40:07Z",
-        "matches": 6,
-        "recent_win_rate_10": 0.5796,
+        "elo": 1532.51,
+        "last_result_utc": "2026-09-20T04:56:04Z",
+        "matches": 7,
+        "recent_win_rate_10": 0.656,
         "team_key": "quintess ncia",
         "team_name": "QUINTESS\u00caNCIA",
         "vrs_points": 0,
         "vrs_rank": null
       },
       {
-        "elo": 1484.99,
-        "last_result_utc": "2026-09-18T23:20:21Z",
-        "matches": 11,
-        "recent_win_rate_10": 0.5513,
+        "elo": 1472.73,
+        "last_result_utc": "2026-09-20T04:56:04Z",
+        "matches": 12,
+        "recent_win_rate_10": 0.4511,
         "team_key": "meia noite",
         "team_name": "MEIA NOITE",
         "vrs_points": 0,
@@ -26378,10 +26358,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1499.96,
-        "last_result_utc": "2026-09-18T04:46:00Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.5165,
+        "elo": 1512.72,
+        "last_result_utc": "2026-09-20T04:56:04Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.6044,
         "team_key": "your end",
         "team_name": "your end",
         "vrs_points": 0,
@@ -26588,10 +26568,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1512.45,
-        "last_result_utc": "2026-09-18T04:46:00Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.5909,
+        "elo": 1499.69,
+        "last_result_utc": "2026-09-20T04:56:04Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.4835,
         "team_key": "rush",
         "team_name": "RUSH",
         "vrs_points": 0,
@@ -29609,47 +29589,17 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "confidence": 0.519,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.481,
-      "event_id": "hltv:9405",
-      "event_name": "CCT 2026 Challengers South America Series 3",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-19",
-      "match_id": "hltv:2398339",
-      "match_phase": "scheduled",
-      "match_timestamp": 1789861500,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "predicted_winner": "QUINTESS\u00caNCIA",
-      "prob_team1": 0.481,
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398339/meia-noite-vs-quintessncia-cct-2026-challengers-south-america-series-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-19T23:45:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "MEIA NOITE",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "QUINTESS\u00caNCIA",
-      "team2_vrs_rank": null
-    },
-    {
       "confidence": 0.5396,
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.5396,
-      "event_id": "hltv:9404",
+      "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-09-20",
@@ -29771,6 +29721,39 @@ window.__STRIKESIGNAL_DATA__ = {
       "team1_vrs_rank": null,
       "team2_hltv_rank": null,
       "team2_name": "Black Phoenix",
+      "team2_vrs_rank": null
+    },
+    {
+      "confidence": 0.5226,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4774,
+      "event_id": "hltv:9405",
+      "event_name": "CCT 2026 Challengers South America Series 3",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-20",
+      "match_id": "hltv:2398340",
+      "match_phase": "scheduled",
+      "match_timestamp": 1789938000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "predicted_winner": "QUINTESS\u00caNCIA",
+      "prob_team1": 0.4774,
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398340/rush-vs-quintessncia-cct-2026-challengers-south-america-series-3",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-09-20T21:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "RUSH",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "QUINTESS\u00caNCIA",
       "team2_vrs_rank": null
     },
     {
@@ -30335,10 +30318,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 228
     },
     {
-      "confidence": 0.5728,
-      "confidence_label": "thin",
+      "confidence": 0.5883,
+      "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.5728,
+      "elo_prob_team1": 0.5883,
       "event_id": "hltv:9355",
       "event_name": "ESL Challenger League Season 52 South America Cup 2",
       "format": "bo3",
@@ -30352,7 +30335,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "predicted_winner": "Turma do Pagode",
-      "prob_team1": 0.5728,
+      "prob_team1": 0.5883,
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
@@ -30404,7 +30387,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 47,
-    "online_results_applied": 0,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
