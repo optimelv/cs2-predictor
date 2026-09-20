@@ -16,7 +16,11 @@ export function tournamentBlueprint(event = {}) {
   const settings = format.settings || {};
   const label = String(format.label || "");
   const type = String(format.type || "mixed");
-  const fieldSize = Number(event.participants?.length || event.teams || settings.team_count) || null;
+  const fieldSize = Math.max(
+    Number(event.participants?.length) || 0,
+    Number(event.teams) || 0,
+    Number(settings.team_count) || 0,
+  ) || null;
   const declaredStages = (format.stages || []).map((row, index) => {
     if (typeof row === "string") return stage(row, "mixed", null, null, "published");
     return stage(row.name || row.label || `Stage ${index + 1}`, row.type || "mixed", row.team_count, row.advance_count, "published");

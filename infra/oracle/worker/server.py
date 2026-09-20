@@ -65,11 +65,11 @@ def text(node, selectors: tuple[str, ...]) -> str:
 
 
 def starts_at(node) -> str | None:
-    timed = node if node.get("data-unix") else node.select_one("[data-unix]")
+    timed = node if node.get("data-unix") or node.get("data-zonedgrouping-entry-unix") else node.select_one("[data-unix], [data-zonedgrouping-entry-unix]")
     if not timed:
         return None
     try:
-        raw = int(timed.get("data-unix", "0"))
+        raw = int(timed.get("data-unix") or timed.get("data-zonedgrouping-entry-unix") or "0")
         if raw > 10_000_000_000:
             raw //= 1000
         return datetime.fromtimestamp(raw, tz=timezone.utc).isoformat().replace("+00:00", "Z")
@@ -86,6 +86,11 @@ def clean_series_format(value: str) -> str:
 def score_pair(value: str) -> tuple[int | None, int | None]:
     found = re.search(r"(\d+)\s*[-:]\s*(\d+)", value or "")
     return (int(found.group(1)), int(found.group(2))) if found else (None, None)
+
+
+def stat_float(value: str) -> float | None:
+    found = re.search(r"-?\d+(?:\.\d+)?", value or "")
+    return float(found.group(0)) if found else None
 
 
 def event_reference(node, fallback_name: str) -> tuple[str, str | None]:
@@ -235,6 +240,29 @@ def parse_match_detail(html: str) -> dict[str, Any]:
             })
         if players:
             lineup_groups.append(players[:5])
+    player_stats: list[dict[str, Any]] = []
+    all_stats = soup.select_one("#all-content")
+    if all_stats:
+        for team_side, table in enumerate(all_stats.select("table.totalstats")[:2], start=1):
+            for row in table.select('tr:has(a[href*="/player/"])'):
+                anchor = row.select_one('a[href*="/player/"]')
+                player_match = re.search(r"/player/(\d+)/", anchor.get("href", "") if anchor else "")
+                nickname = text(row, (".player-nick", ".smartphone-only.statsPlayerName", ".statsPlayerName"))
+                kills, deaths = score_pair(text(row, ("td.kd.traditional-data", "td.kd")))
+                if not player_match or not nickname:
+                    continue
+                player_stats.append({
+                    "player_id": f"hltv:{player_match.group(1)}",
+                    "hltv_player_id": player_match.group(1),
+                    "nickname": nickname,
+                    "source_url": f"https://www.hltv.org/player/{player_match.group(1)}/{slugify(nickname)}",
+                    "team_side": team_side,
+                    "kills": kills,
+                    "deaths": deaths,
+                    "adr": stat_float(text(row, ("td.adr.traditional-data", "td.adr"))),
+                    "kast": stat_float(text(row, ("td.kast.traditional-data", "td.kast"))),
+                    "rating": stat_float(text(row, ("td.rating",))),
+                })
     return {
         "event_id": event_id,
         "event_name": event_name,
@@ -250,7 +278,37 @@ def parse_match_detail(html: str) -> dict[str, Any]:
             "team1": lineup_groups[0] if lineup_groups else [],
             "team2": lineup_groups[1] if len(lineup_groups) > 1 else [],
         },
+        "player_stats": player_stats,
     }
+
+
+def anchored_result_date(value: Any) -> str | None:
+    """Return a UTC date only for a parseable timezone-aware source time."""
+    if not value:
+        return None
+    try:
+        parsed = datetime.fromisoformat(str(value).replace("Z", "+00:00"))
+    except (TypeError, ValueError):
+        return None
+    if parsed.tzinfo is None or parsed.utcoffset() is None:
+        return None
+    return parsed.astimezone(timezone.utc).date().isoformat()
+
+
+def has_terminal_result(match: dict[str, Any]) -> bool:
+    status = str(match.get("status") or "").casefold()
+    if status not in {"finished", "completed", "final", "ended"}:
+        return False
+    if str(match.get("winner_name") or "").strip():
+        return True
+    score1, score2 = match.get("score1"), match.get("score2")
+    if not isinstance(score1, int) or isinstance(score1, bool) or not isinstance(score2, int) or isinstance(score2, bool):
+        return False
+    if score1 < 0 or score2 < 0 or score1 == score2:
+        return False
+    series_format = str(match.get("series_format") or "bo3").casefold()
+    required = 1 if series_format == "bo1" else 3 if series_format == "bo5" else 2
+    return max(score1, score2) >= required
 
 
 def merge_match_detail(match: dict[str, Any], detail: dict[str, Any]) -> dict[str, Any]:
@@ -269,6 +327,41 @@ def merge_match_detail(match: dict[str, Any], detail: dict[str, Any]) -> dict[st
         if max(score1, score2) >= required:
             merged["status"] = "finished"
             merged["winner_name"] = merged["team1_name"] if score1 > score2 else merged["team2_name"]
+    for stat in merged.get("player_stats") or []:
+        side = "team1" if stat.get("team_side") == 1 else "team2"
+        opponent_side = "team2" if side == "team1" else "team1"
+        team_name = merged.get(f"{side}_name") or "Team pending"
+        opponent_name = merged.get(f"{opponent_side}_name") or "Opponent"
+        lineup = merged.setdefault("lineups", {}).setdefault(side, [])
+        player = next((row for row in lineup if row.get("player_id") == stat.get("player_id")), None)
+        if player is None:
+            player = {field: stat.get(field) for field in ("player_id", "hltv_player_id", "nickname", "source_url")}
+            lineup.append(player)
+        player["team_name"] = team_name
+        kills = int(stat.get("kills") or 0)
+        deaths = int(stat.get("deaths") or 0)
+        result_date = anchored_result_date(merged.get("starts_at"))
+        if result_date and has_terminal_result(merged):
+            player["timeline_entry"] = {
+                "match_id": merged.get("match_id") or "",
+                "date": result_date,
+                "event_name": merged.get("event_name") or "HLTV event",
+                "opponent_name": opponent_name,
+                "team_name": team_name,
+                "won": merged.get("winner_name") == team_name if merged.get("winner_name") else None,
+                "kills": kills,
+                "deaths": deaths,
+                "kd_ratio": round(kills / max(1, deaths), 2),
+                "adr": stat.get("adr"),
+                "kast": stat.get("kast"),
+                "rating": stat.get("rating"),
+                "maps": max(1, len(merged.get("map_results") or [])),
+            }
+        else:
+            # Keep the player identity and lineup context, but never create a
+            # synthetic historical observation for an unanchored or ongoing
+            # series.
+            player.pop("timeline_entry", None)
     return merged
 
 
@@ -375,7 +468,21 @@ def players_from_matches(matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
         for side in ("team1", "team2"):
             for player in (match.get("lineups") or {}).get(side, []):
                 if player.get("player_id"):
-                    players[player["player_id"]] = {**players.get(player["player_id"], {}), **player}
+                    existing = players.get(player["player_id"], {})
+                    timeline = {
+                        str(row.get("match_id") or f"{row.get('date')}:{row.get('opponent_name')}"): row
+                        for row in existing.get("form_timeline") or []
+                    }
+                    for row in [*(player.get("form_timeline") or []), *([player["timeline_entry"]] if player.get("timeline_entry") else [])]:
+                        timeline[str(row.get("match_id") or f"{row.get('date')}:{row.get('opponent_name')}")] = row
+                    merged = {**existing, **{key: value for key, value in player.items() if key not in {"timeline_entry", "form_timeline"}}}
+                    merged["form_timeline"] = sorted(timeline.values(), key=lambda row: (str(row.get("date") or ""), str(row.get("match_id") or "")))[-12:]
+                    rated = [float(row["rating"]) for row in merged["form_timeline"] if row.get("rating") is not None]
+                    if rated:
+                        merged["rating_3_0"] = round(sum(rated[-5:]) / len(rated[-5:]), 2)
+                        merged["signal_index"] = round(max(0, min(100, 50 + (merged["rating_3_0"] - 1.0) * 100)))
+                        merged["maps_3m"] = sum(int(row.get("maps") or 1) for row in merged["form_timeline"])
+                    players[player["player_id"]] = merged
     return list(players.values())
 
 
@@ -406,6 +513,13 @@ def wants_detail(match: dict[str, Any], now: datetime) -> bool:
     return now - timedelta(hours=2) <= start_time <= now + timedelta(hours=6)
 
 
+def select_detail_candidates(matches: list[dict[str, Any]], results: list[dict[str, Any]], now: datetime, limit: int) -> list[dict[str, Any]]:
+    live_matches = [match for match in matches if match.get("status") == "live"]
+    recent_results = [match for match in results if match.get("source_url")][:4]
+    upcoming_near = [match for match in matches if match.get("status") != "live" and wants_detail(match, now)]
+    return list({match["match_id"]: match for match in [*live_matches, *recent_results, *upcoming_near]}.values())[:limit]
+
+
 async def fetch_snapshot() -> dict[str, Any]:
     timeout = ClientTimeout(total=REQUEST_TIMEOUT_SECONDS + 15)
     detail_errors: list[str] = []
@@ -418,9 +532,7 @@ async def fetch_snapshot() -> dict[str, Any]:
         matches = list(by_id.values())
 
         now = datetime.now(timezone.utc)
-        near_start = [match for match in matches if wants_detail(match, now)]
-        recent_results = [match for match in results if match.get("source_url")][:2]
-        detail_candidates = list({match["match_id"]: match for match in [*near_start, *recent_results]}.values())[:MAX_DETAIL_MATCHES]
+        detail_candidates = select_detail_candidates(matches, results, now, MAX_DETAIL_MATCHES)
         for match in detail_candidates:
             try:
                 detail_html = await fetch_url(session, match["source_url"])

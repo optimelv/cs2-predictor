@@ -23,10 +23,6 @@ const DECIDER_URLS: Record<number, string> = {
 
 const MAPS = ["Ancient", "Anubis", "Dust2", "Inferno", "Mirage", "Nuke", "Overpass", "Train"];
 
-function roundProb(value: number): number {
-  return Math.round(Math.max(0, Math.min(1, value)) * 10000) / 10000;
-}
-
 function normalize(value: string): string {
   return value.toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
@@ -83,31 +79,18 @@ async function fetchHltvHtmlViaFlareSolverr(url: string): Promise<string | null>
 }
 
 function mapRow(mapName: string, match: Match, source: string): Record<string, unknown> {
-  const baseProbability = Number(match.map_read?.base_prob_team1 ?? match.map_read?.map_adjusted_prob_team1 ?? 0.5);
-  const winner = baseProbability >= 0.5 ? match.team1_name : match.team2_name;
-  return {
-    confidence: roundProb(Math.max(baseProbability, 1 - baseProbability)),
-    evidence_maps: 0,
-    map_name: mapName,
-    predicted_winner: winner,
-    prob_team1: roundProb(baseProbability),
-    source,
-    team1_map_win_rate: 0.5,
-    team2_map_win_rate: 0.5,
-  };
+  const existing = (match.map_read?.maps || []).find((row) => String(row.map_name || "").toLowerCase() === mapName.toLowerCase());
+  return existing ? { ...existing, map_name: mapName, source } : { map_name: mapName, source };
 }
 
 function applyMapRead(match: Match, maps: string[], status: string, note: string): void {
   if (!maps.length) return;
   const rows = maps.map((mapName) => mapRow(mapName, match, status));
-  const avg = rows.reduce((sum, row) => sum + Number(row.prob_team1), 0) / rows.length;
+  const { map_adjusted_prob_team1: _probability, map_adjusted_confidence: _confidence, map_adjusted_predicted_winner: _winner, ...existingRead } = match.map_read || {};
   match.map_read = {
-    ...(match.map_read || {}),
+    ...existingRead,
     status,
     maps: rows,
-    map_adjusted_prob_team1: roundProb(avg),
-    map_adjusted_confidence: roundProb(Math.max(avg, 1 - avg)),
-    map_adjusted_predicted_winner: avg >= 0.5 ? match.team1_name : match.team2_name,
     note,
   };
 }
@@ -118,6 +101,7 @@ function applyManualPermabans(snapshot: Record<string, unknown>): void {
     if (![match.team1_name, match.team2_name].some((name) => normalize(String(name || "")) === "pain")) continue;
     const maps = match.map_read?.maps || [];
     const filtered = maps.filter((row) => row.map_name !== "Ancient");
+    if (match.map_read?.status === "known_veto") continue;
     if (filtered.length !== maps.length) {
       match.map_read = {
         ...(match.map_read || {}),
@@ -145,7 +129,7 @@ export async function refreshSnapshot(req?: Request): Promise<Record<string, unk
         match,
         maps,
         vetoes.length ? "known_veto" : "known_maps",
-        "Updated from live HLTV match data through the remote FlareSolverr service.",
+        "Official live HLTV veto map names were refreshed; map performance probabilities remain from the validated model state.",
       );
     }
   }

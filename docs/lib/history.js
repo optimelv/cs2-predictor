@@ -102,7 +102,19 @@ export function mergeHistoryMatches(snapshot, incomingMatches = []) {
   const byId = new Map((base.matches || []).map((match) => [String(match.match_id), match]));
   for (const match of incomingMatches) {
     if (!match?.match_id || !["tier_1", "tier_2"].includes(match.tier)) continue;
-    byId.set(String(match.match_id), { ...(byId.get(String(match.match_id)) || {}), ...match });
+    const existing = byId.get(String(match.match_id)) || {};
+    const merged = { ...existing, ...match };
+    if (!(match.maps || []).length && (existing.maps || []).length) merged.maps = existing.maps;
+    const incomingLineups = match.lineups || {};
+    const existingLineups = existing.lineups || {};
+    merged.lineups = {
+      team1: (incomingLineups.team1 || []).length ? incomingLineups.team1 : existingLineups.team1 || [],
+      team2: (incomingLineups.team2 || []).length ? incomingLineups.team2 : existingLineups.team2 || [],
+    };
+    if (["", "Series", "Completed series"].includes(String(match.stage_name || "")) && existing.stage_name) merged.stage_name = existing.stage_name;
+    if (!match.round_name && existing.round_name) merged.round_name = existing.round_name;
+    if (["", "Series", "regular"].includes(String(match.phase || "")) && existing.phase) merged.phase = existing.phase;
+    byId.set(String(match.match_id), merged);
   }
   base.matches = [...byId.values()].sort((a, b) => matchDateValue(b) - matchDateValue(a));
   const dates = base.matches.map((match) => match.match_date).filter(Boolean).sort();

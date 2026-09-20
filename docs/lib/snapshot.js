@@ -180,7 +180,10 @@ export function normalizeMatch(match, context = {}) {
   const maps = (match.maps || match.map_names || [])
     .map((map) => typeof map === "string" ? map : map?.map_name || map?.name)
     .filter(Boolean);
-  const status = inferredStatus(match.status, startsAt, startsAt);
+  // A passed start time is not evidence that a match finished. Preserve the
+  // source's declared state, including on historical snapshots.
+  const declaredStatus = String(match.status || "upcoming").trim().toLowerCase().replace(/[_-]+/g, " ");
+  const status = STATUS_ALIASES.get(declaredStatus) || declaredStatus.replace(/\s+/g, "_");
   const identity = [eventId || slugify(eventName), startsAt || "tba", stageName, team1Name, team2Name].map(slugify).join("--");
   return {
     ...match,

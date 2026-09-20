@@ -26,15 +26,20 @@ export function filterProductLiveSnapshot(snapshot = {}) {
   });
 
   const eligibleMatchIds = new Set(matches.map((match) => String(match.match_id || match.hltv_match_id || "")).filter(Boolean));
-  const playerIds = new Set(matches.flatMap((match) => [
+  const lineupPlayers = matches.flatMap((match) => [
     ...(match.lineups?.team1 || []),
     ...(match.lineups?.team2 || []),
-  ]).map((player) => String(player.player_id || (player.hltv_player_id ? `hltv:${player.hltv_player_id}` : "")).trim()).filter(Boolean));
-  const players = (snapshot.players || []).filter((player) => {
-    if (!playerIds.size) return true;
+  ]).map((player) => {
     const playerId = String(player.player_id || (player.hltv_player_id ? `hltv:${player.hltv_player_id}` : "")).trim();
-    return playerIds.has(playerId);
-  });
+    return playerId ? { ...player, player_id: playerId } : null;
+  }).filter(Boolean);
+  const playerIds = new Set(lineupPlayers.map((player) => player.player_id));
+  const playersById = new Map((snapshot.players || []).flatMap((player) => {
+    const playerId = String(player.player_id || (player.hltv_player_id ? `hltv:${player.hltv_player_id}` : "")).trim();
+    return playerId && playerIds.has(playerId) ? [[playerId, { ...player, player_id: playerId }]] : [];
+  }));
+  lineupPlayers.forEach((player) => playersById.set(player.player_id, { ...(playersById.get(player.player_id) || {}), ...player }));
+  const players = [...playersById.values()];
 
   return {
     ...snapshot,

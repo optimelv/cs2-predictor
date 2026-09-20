@@ -8,6 +8,8 @@ const teamAssets = await parse("../docs/data/team-assets.json");
 const playerSnapshot = await parse("../docs/data/players.json");
 const historySnapshot = await parse("../docs/data/history.json");
 const modelRegistry = await parse("../docs/data/model-registry.json");
+const onlineTrainingRows = (await readFile(new URL("../models/portable-online-training.jsonl", import.meta.url), "utf8"))
+  .split(/\r?\n/).filter(Boolean).map(JSON.parse);
 await parse("../contracts/live-snapshot.schema.json");
 const snapshot = normalizePlatformSnapshot(base, coverage);
 
@@ -109,6 +111,32 @@ if (modelRegistry.champion.kind === "portable_gbdt_blend") {
   invariant(modelRegistry.champion.trees?.length === modelRegistry.champion.n_estimators, "Portable GBDT artifact is malformed.");
 }
 invariant(base.model_registry?.champion?.version === modelRegistry.champion.version, "Published predictions do not embed the production champion.");
+if (modelRegistry.champion.segment_calibration) {
+  invariant(modelRegistry.champion.segment_calibration.version, "Segment calibration requires a version.");
+  invariant(Number(modelRegistry.champion.segment_calibration.tier_2_shrink) > 0 && Number(modelRegistry.champion.segment_calibration.tier_2_shrink) <= 1, "Tier 2 calibration shrink is invalid.");
+}
+invariant(modelRegistry.monitoring?.window === "purged_chronological_cv", "Model monitoring must use purged chronological folds.");
+invariant(Number(modelRegistry.monitoring?.minimum_slice_rows) >= 30, "Model slice gate is too small.");
+for (const metric of ["accuracy", "log_loss", "brier", "ece"]) {
+  invariant(Number.isFinite(Number(modelRegistry.monitoring?.champion_metrics?.[metric])), `Missing rolling champion metric: ${metric}`);
+}
+const sliceKeys = new Set();
+for (const slice of modelRegistry.monitoring?.champion_slices || []) {
+  invariant(slice.key && !sliceKeys.has(slice.key), `Duplicate model monitoring slice: ${slice.key}`);
+  invariant(Number(slice.rows) >= 0 && typeof slice.eligible === "boolean", `Invalid monitoring slice: ${slice.key}`);
+  if (slice.rows) for (const metric of ["accuracy", "log_loss", "brier", "ece"]) invariant(Number.isFinite(Number(slice.metrics?.[metric])), `Missing ${slice.key} metric: ${metric}`);
+  sliceKeys.add(slice.key);
+}
+invariant(["tier_1", "tier_2", "bo1", "bo3", "bo5"].every((key) => sliceKeys.has(key)), "Required model monitoring slices are missing.");
+for (const row of onlineTrainingRows) {
+  invariant(row.match_id && row.match_date && Number(row.match_timestamp) > 0, `Online training row is not chronologically anchored: ${row.match_id}`);
+  invariant(["T1", "T1_5", "T2"].includes(row.model_tier), `Online training leaked an ineligible tier: ${row.match_id}`);
+}
+for (const row of base.upcoming_predictions || []) {
+  if (row.product_tier !== "tier_2") continue;
+  invariant(row.calibration_version === modelRegistry.champion.segment_calibration?.version, `Tier 2 prediction is not calibrated: ${row.match_id}`);
+  invariant(Number(row.calibration_shrink) === Number(modelRegistry.champion.segment_calibration?.tier_2_shrink), `Tier 2 calibration mismatch: ${row.match_id}`);
+}
 
 const mapProfiles = base.model_state?.map_profiles || {};
 const vetoProfiles = base.model_state?.veto_profiles || {};

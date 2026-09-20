@@ -1,3 +1,9 @@
+export function resolveMapPool(eventPool, modelPool) {
+  // An empty normalized event pool means unknown, not an empty official pool.
+  const pool = Array.isArray(eventPool) && eventPool.length ? eventPool : modelPool;
+  return Array.isArray(pool) ? [...new Set(pool.filter((map) => typeof map === "string" && map.trim()))] : [];
+}
+
 export function vetoTeamKey(value) {
   return String(value || "")
     .normalize("NFKD")

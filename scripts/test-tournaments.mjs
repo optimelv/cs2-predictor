@@ -5,6 +5,7 @@ const majorEvent = { teams: 32, format: { type: "swiss", label: "Three-stage Swi
 const major = tournamentBlueprint(majorEvent);
 assert.equal(major.stages.length, 4);
 assert.equal(major.playoff_size, 8);
+assert.equal(tournamentBlueprint({ ...majorEvent, participants: ["A", "B"] }).field_size, 32);
 assert.deepEqual(tournamentStageLabels(majorEvent), ["Stage 1 Swiss", "Stage 2 Swiss", "Stage 3 Swiss", "Playoffs"]);
 
 const gsl = tournamentBlueprint({ teams: 16, format: { type: "gsl", settings: { group_size: 4 } } });

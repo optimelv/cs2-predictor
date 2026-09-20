@@ -4,15 +4,14 @@ import { refreshSnapshot } from "./lib/live-refresh.mjs";
 
 function isAllowed(req: Request): boolean {
   const secret = env("REFRESH_SECRET");
-  if (!secret) return true;
-  const url = new URL(req.url);
-  return url.searchParams.get("secret") === secret || req.headers.get("x-refresh-secret") === secret;
+  if (!secret) return false;
+  return req.headers.get("x-refresh-secret") === secret;
 }
 
 export default async (req: Request, _context: Context) => {
   if (!isAllowed(req)) {
     console.warn("Rejected refresh without a valid REFRESH_SECRET.");
-    return;
+    return jsonResponse({ ok: false, error: "Unauthorized" }, { status: 401 });
   }
 
   const startedAt = Date.now();
@@ -27,7 +26,9 @@ export default async (req: Request, _context: Context) => {
     );
   } catch (error) {
     console.error("Prediction refresh failed", error);
+    return jsonResponse({ ok: false, error: "Refresh failed" }, { status: 502 });
   }
+  return jsonResponse({ ok: true }, { status: 200 });
 };
 
 export const config: Config = {

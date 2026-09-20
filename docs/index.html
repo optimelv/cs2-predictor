@@ -2,112 +2,84 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <script src="./theme.js?v=20260916.1"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="dark">
+    <meta name="color-scheme" content="dark light">
+    <meta name="theme-color" content="#181818">
+    <link rel="preload" href="./fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
     <title>StrikeSignal | CS2 Match and Event Forecasts</title>
     <meta
       name="description"
-      content="CS2 match probabilities, veto-aware map forecasts, tournament outlooks, and Valve Regional Standings in one live desk."
+      content="CS2 match probabilities, map-veto simulations, tournament views and Valve rankings with clear source timestamps."
     >
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&amp;family=DM+Mono:wght@400;500&amp;family=Manrope:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css?v=20260727.7">
+    <link rel="canonical" href="https://cs2-predictor-ebon.vercel.app/">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="StrikeSignal">
+    <meta property="og:title" content="StrikeSignal | CS2 Match and Event Forecasts">
+    <meta property="og:description" content="CS2 match probabilities, map-veto simulations, tournament views and Valve rankings with clear source timestamps.">
+    <meta property="og:url" content="https://cs2-predictor-ebon.vercel.app/">
+    <meta property="og:image" content="https://cs2-predictor-ebon.vercel.app/assets/strikesignal-og.png">
+    <meta property="og:image:alt" content="StrikeSignal CS2 match and event forecasts">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="StrikeSignal | CS2 Match and Event Forecasts">
+    <meta name="twitter:description" content="CS2 match probabilities, map-veto simulations, tournament views and Valve rankings with clear source timestamps.">
+    <meta name="twitter:image" content="https://cs2-predictor-ebon.vercel.app/assets/strikesignal-og.png">
+    <link rel="stylesheet" href="./styles.css?v=20260916.1">
+    <link rel="stylesheet" href="./product.css?v=20260916.1">
+    <link rel="stylesheet" href="./workspace.css?v=20260916.2">
+    <link rel="stylesheet" href="./consumer.css?v=20260920.1">
+    <link rel="stylesheet" href="./chart-interactions.css?v=20260920.1">
   </head>
   <body>
-    <a class="skip-link" href="#dashboard">Skip to predictions</a>
+    <a class="skip-link" href="#matches">Skip to matches</a>
 
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="StrikeSignal home">
+      <a class="brand" href="#matches" aria-label="StrikeSignal home">
         <span class="brand-mark" aria-hidden="true"><span></span><span></span></span>
-        <span><strong>StrikeSignal</strong><small>CS2 probability desk</small></span>
+        <span><strong>StrikeSignal<span class="brand-period">.</span></strong><small>Counter-Strike. Your call.</small></span>
       </a>
-      <nav class="top-nav" aria-label="Page sections">
-        <a href="#dashboard">Dashboard</a>
-        <a href="#matches">Matches</a>
-        <a href="#events">Events</a>
-        <a href="#rankings">Rankings</a>
-        <a href="#players">Players</a>
-        <a href="#model">Model</a>
+      <nav class="top-nav" aria-label="Main navigation">
+        <a href="#matches" data-page-link="matches">Matches</a>
+        <a href="#events" data-page-link="events">Events</a>
+        <a href="#rankings" data-page-link="teams">Teams & players</a>
+        <button id="openMyDesk" class="header-desk-button" type="button" data-page-link="picks" aria-label="Open My picks"><span>My picks</span><b id="watchCount">0</b><i id="signalCount" hidden>0</i></button>
       </nav>
       <div class="header-actions">
-        <button id="openMyDesk" class="header-desk-button" type="button" aria-label="Open My Desk, 0 followed"><span>Following</span><b id="watchCount">0</b></button>
-        <button id="openSearch" class="header-search" type="button"><span>Search</span><kbd>⌘ K</kbd></button>
-        <a class="header-cta" href="#matches"><span class="live-dot"></span> Open match desk</a>
+        <button id="openSearch" class="header-search" type="button" aria-label="Search teams, players, and events"><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><span>Search</span><kbd>⌘ K</kbd></button>
+        <label class="theme-control"><span class="sr-only">Appearance</span><select id="themePreference" aria-label="Appearance"><option value="dark">Dark</option><option value="light">Light</option><option value="system">System</option></select></label>
       </div>
     </header>
-
-    <nav class="mobile-dock" aria-label="Mobile sections">
-      <a href="#dashboard"><span>01</span>Desk</a>
-      <a href="#matches"><span>02</span>Matches</a>
-      <a href="#events"><span>03</span>Events</a>
-      <a href="#rankings"><span>04</span>Ranks</a>
-      <a href="#players"><span>05</span>Players</a>
+    <nav class="mobile-dock" aria-label="Mobile navigation">
+      <a href="#matches" data-page-link="matches"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 4 16 16M20 4 4 20M4 9V4h5m6 0h5v5M4 15v5h5m6 0h5v-5"/></svg>Matches</a>
+      <a href="#events" data-page-link="events"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v4m10-4v4M3 10h18"/><rect x="3" y="5" width="18" height="16" rx="3"/></svg>Events</a>
+      <a href="#rankings" data-page-link="teams"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="7" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 4a3 3 0 0 1 0 6m2 5a5 5 0 0 1 3 4v2"/></svg>Teams</a>
+      <button id="mobileMyDesk" data-page-link="picks" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18l-7-4-7 4zM9 9l2 2 4-4"/></svg>My picks</button>
     </nav>
-
     <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <span class="hero-kicker">Live CS2 match intelligence</span>
-          <h1 id="hero-title">Every series.<br><strong>Read in full.</strong></h1>
-          <p class="hero-lede">
-            Team strength, player form, map depth, and the veto in one forecast that moves with the match.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#matches">See the next calls</a>
-            <a class="button secondary" href="#events">Browse the circuit</a>
-          </div>
-        </div>
-
-        <aside class="signal-machine" aria-label="StrikeSignal model flow">
-          <header><span>Signal engine</span><strong>Forecast in motion</strong></header>
-          <div class="signal-flow" aria-hidden="true">
-            <svg class="signal-paths" viewBox="0 0 640 330" preserveAspectRatio="none">
-              <defs>
-                <linearGradient id="signalGradient" x1="0" x2="1">
-                  <stop offset="0" stop-color="#278dff" stop-opacity="0"/>
-                  <stop offset=".48" stop-color="#73c6ff"/>
-                  <stop offset="1" stop-color="#278dff" stop-opacity=".18"/>
-                </linearGradient>
-              </defs>
-              <path class="signal-path signal-path-a" d="M151 55 C250 55 224 132 315 147"/>
-              <path class="signal-path signal-path-b" d="M151 148 C230 148 250 148 315 148"/>
-              <path class="signal-path signal-path-c" d="M151 241 C250 241 224 164 315 149"/>
-              <path class="signal-path signal-path-out" d="M403 148 C470 148 472 148 521 148"/>
-            </svg>
-            <div class="signal-input input-roster"><span>01</span><strong>Roster</strong><small>continuity</small></div>
-            <div class="signal-input input-form"><span>02</span><strong>Form</strong><small>opponent adjusted</small></div>
-            <div class="signal-input input-maps"><span>03</span><strong>Map pool</strong><small>veto aware</small></div>
-            <div class="signal-node"><span>MODEL</span><b></b><i></i></div>
-            <div class="signal-output"><small>Pre-veto</small><strong id="heroPre">--</strong><span>Maps lock <b id="heroPost">--</b></span></div>
-          </div>
-          <footer><span>Pre-match</span><i></i><span>Veto</span><i></i><span>Series</span></footer>
-        </aside>
+      <section id="sourceStatus" class="source-status" data-state="unknown" aria-label="Data source status">
+        <details><summary><strong id="sourceStatusTitle">Checking the published snapshot</strong><span>Details & refresh</span></summary>
+          <div class="source-status-expanded"><div><p id="sourceStatusDetail">Source timestamps determine whether match data is current.</p><p id="matchDataNote" class="match-data-note"></p><p id="sourceRefreshResult" role="status"></p></div><button id="refreshSource" type="button">Check for updates</button></div>
+        </details>
       </section>
-
-      <section id="dashboard" class="desk-strip" aria-label="Current coverage summary">
-        <article><span class="live-dot"></span><div><small>Coverage</small><strong id="freshnessLabel">Loading current slate</strong></div></article>
-        <article><small>Match desk</small><strong id="slateCount">Loading series</strong></article>
-        <article><small>Official ranking</small><strong id="rankingSnapshot">VRS · Jul 7</strong></article>
-        <article><small>Model modes</small><strong>Pre-veto + map-aware</strong></article>
-      </section>
-
-      <section id="matches" class="section-shell matches-shell" aria-labelledby="matches-title">
+      <nav class="browse-tabs" data-product-page="teams" aria-label="Teams and players" hidden><a href="#rankings" data-browse-link="rankings">Team rankings</a><a href="#players" data-browse-link="players">Players</a></nav>
+      <section id="matches" data-product-page="matches" class="section-shell matches-shell" aria-labelledby="matches-title">
         <div class="section-heading">
           <div>
-            <span class="section-index">Series control</span>
-            <h2 id="matches-title">The match desk.</h2>
+            <span class="section-index">The match lineup</span>
+            <h1 id="matches-title">Matches</h1>
           </div>
         </div>
         <div id="matchToolbar" class="match-toolbar" aria-label="Match desk controls"></div>
         <div id="deciderGrid" class="match-center"></div>
       </section>
 
-      <section id="events" class="section-shell events-shell" aria-labelledby="events-title">
+      <section id="events" data-product-page="events" hidden class="section-shell events-shell" aria-labelledby="events-title">
         <div class="section-heading">
           <div>
             <span class="section-index">Event calendar</span>
-            <h2 id="events-title">The circuit ahead.</h2>
+            <h1 id="events-title">Events</h1>
           </div>
         </div>
         <div class="event-filter" role="group" aria-label="Filter events">
@@ -120,7 +92,8 @@
         <div id="eventsGrid" class="events-grid"></div>
       </section>
 
-      <section id="featured" class="section-shell projection-shell" aria-labelledby="projection-title">
+      <section id="featured" data-product-page="featured" hidden class="section-shell projection-shell" aria-labelledby="projection-title">
+        <a class="back-link" href="#events">← All events</a>
         <div class="section-heading event-heading split-heading">
           <div>
             <span class="section-index"><span class="live-dot"></span> <span id="eventPhaseLabel">Event room</span></span>
@@ -148,7 +121,10 @@
             <p id="pickemSummary">Calculating from the confirmed field and current team strength.</p>
           </div>
           <div class="pickem-score"><span>Model favorite</span><strong id="pickemChance">--</strong></div>
-          <button id="resetPicks" class="ghost-action" type="button">Reset custom picks</button>
+          <div class="pickem-actions">
+            <button id="sharePickem" class="ghost-action" type="button" hidden>Share card</button>
+            <button id="resetPicks" class="ghost-action" type="button">Reset custom picks</button>
+          </div>
         </div>
 
         <div class="route-panel">
@@ -170,11 +146,11 @@
         </div>
       </section>
 
-      <section id="rankings" class="section-shell rankings-shell" aria-labelledby="rankings-title">
+      <section id="rankings" data-product-page="rankings" hidden class="section-shell rankings-shell" aria-labelledby="rankings-title">
         <div class="section-heading">
           <div>
             <span class="section-index">Valve world ranking</span>
-            <h2 id="rankings-title">World order.</h2>
+            <h1 id="rankings-title">Team rankings</h1>
           </div>
         </div>
         <div class="ranking-summary-bar">
@@ -187,11 +163,11 @@
         <button id="rankingToggle" class="ranking-toggle" type="button" aria-expanded="false">Show full top 30</button>
       </section>
 
-      <section id="players" class="section-shell players-shell" aria-labelledby="players-title">
+      <section id="players" data-product-page="players" hidden class="section-shell players-shell" aria-labelledby="players-title">
         <div class="section-heading">
           <div>
             <span class="section-index">Player index</span>
-            <h2 id="players-title">Inside the server.</h2>
+            <h1 id="players-title">Players</h1>
           </div>
         </div>
         <div class="player-toolbar">
@@ -200,16 +176,16 @@
           <div><span>Profile window</span><strong id="playerSnapshotMeta">Loading player data</strong></div>
         </div>
         <div class="player-explorer">
-          <div id="playerGrid" class="player-grid" role="list" aria-label="Player profiles"></div>
+          <div id="playerGrid" class="player-grid" aria-label="Player profiles"></div>
           <aside id="playerDetail" class="player-detail" aria-live="polite"></aside>
         </div>
       </section>
 
-      <section id="model" class="section-shell model-shell" aria-labelledby="model-title">
+      <section id="model" data-product-page="model" hidden class="section-shell model-shell" aria-labelledby="model-title">
         <div class="section-heading">
           <div>
             <span class="section-index">Model form</span>
-            <h2 id="model-title">Every call keeps a score.</h2>
+            <h2 id="model-title">Model performance</h2>
           </div>
         </div>
         <div class="model-evidence">
@@ -219,9 +195,9 @@
             <p>Built before the first ban from team strength, lineups, form, opponents, and series length.</p>
           </article>
           <article class="model-mode is-map-aware">
-            <span>Post-veto accuracy</span><strong id="modelPost">--</strong>
-            <h3>The sharper read</h3>
-            <p>Repriced from official picks, bans, map order, and each lineup's map history.</p>
+            <span>Historical post-veto benchmark</span><strong id="modelPost">--</strong>
+            <h3>With the maps known</h3>
+            <p>Earlier event holdout: 134 series. Different test window from the current pre-match model; these figures are not a like-for-like uplift.</p>
           </article>
           <aside class="model-scorecard">
             <div><span>Calibration gap</span><strong id="modelCalibration">--</strong><small>Lower is better</small></div>
@@ -229,13 +205,18 @@
             <footer><i></i><span id="modelVersion">Production model</span></footer>
           </aside>
         </div>
+        <div id="modelSlices" class="model-slices"></div>
+      </section>
+      <section id="myDeskLayer" data-product-page="picks" class="section-shell personal-shell" aria-labelledby="myDeskTitle" hidden>
+        <div class="section-heading"><div><span class="section-index">Your corner of Counter-Strike</span><h1 id="myDeskTitle">My picks</h1></div><button id="myDeskClose" type="button" class="ghost-action">Back to matches</button></div>
+        <div id="myDeskContent" class="my-desk-content"></div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div><strong>StrikeSignal</strong><span>CS2 match, map, tournament, and ranking forecasts.</span></div>
-      <div class="footer-status"><span class="live-dot"></span><span>Current circuit loaded</span></div>
-      <a href="#top">Back to top</a>
+      <div><strong>StrikeSignal</strong><span>CS2 match predictions</span></div>
+      <div class="footer-status"><span id="footerDataStatus">Checking source status</span></div>
+      <a href="#model">How predictions work</a>
     </footer>
 
     <div id="teamDrawerLayer" class="team-drawer-layer" hidden>
@@ -249,29 +230,27 @@
       </aside>
     </div>
 
+    <div id="playerCompareLayer" class="player-compare-layer" hidden>
+      <button id="playerCompareBackdrop" class="player-compare-backdrop" type="button" aria-label="Close player comparison"></button>
+      <section class="player-compare-dialog" role="dialog" aria-modal="true" aria-labelledby="playerCompareTitle">
+        <header class="player-compare-bar"><div><span>Player intelligence</span><strong id="playerCompareTitle">Player compare</strong></div><button id="playerCompareClose" type="button" aria-label="Close player comparison"><i></i></button></header>
+        <div id="playerCompareContent" class="player-compare-content"></div>
+      </section>
+    </div>
+    <aside id="playerCompareTray" class="player-compare-tray" aria-live="polite" hidden></aside>
+
     <div id="searchLayer" class="search-layer" hidden>
       <button id="searchBackdrop" class="search-backdrop" type="button" aria-label="Close search"></button>
       <section class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
         <header>
           <span id="searchTitle">Search StrikeSignal</span>
-          <kbd>ESC</kbd>
+          <button id="searchClose" type="button" aria-label="Close search">Close <kbd>Esc</kbd></button>
         </header>
         <label class="search-input-wrap">
           <span class="sr-only">Search teams, players, and events</span>
           <input id="productSearch" type="search" autocomplete="off" placeholder="Team, player, or tournament">
         </label>
         <div id="searchResults" class="search-results"></div>
-      </section>
-    </div>
-
-    <div id="myDeskLayer" class="my-desk-layer" hidden>
-      <button id="myDeskBackdrop" class="my-desk-backdrop" type="button" aria-label="Close personal desk"></button>
-      <section class="my-desk" role="dialog" aria-modal="true" aria-labelledby="myDeskTitle">
-        <header class="my-desk-bar">
-          <div><span>StrikeSignal</span><strong id="myDeskTitle">My Desk</strong></div>
-          <button id="myDeskClose" type="button" aria-label="Close personal desk"><i></i></button>
-        </header>
-        <div id="myDeskContent" class="my-desk-content"></div>
       </section>
     </div>
 
@@ -287,13 +266,13 @@
     </div>
 
     <template id="emptyTemplate">
-      <div class="empty-state"><h3>No new call yet.</h3><p>The latest complete slate stays on screen.</p></div>
+      <div class="empty-state"><h3>No updated matches available</h3><p>The latest complete slate stays on screen.</p></div>
     </template>
 
     <script src="./data/predictions.js?v=20260726.2"></script>
     <script src="./data/coverage.js?v=20260726.1"></script>
     <script src="./data/team-assets.js?v=20260725.1"></script>
     <script src="./data/players.js?v=20260727.1"></script>
-    <script src="./app.js?v=20260727.7" type="module"></script>
+    <script src="./app.js?v=20260920.1" type="module"></script>
   </body>
 </html>

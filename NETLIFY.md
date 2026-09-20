@@ -13,12 +13,16 @@ This project can run as a Netlify-hosted static site with a small live updater.
 ## Required Netlify Environment Variables
 
 - `FLARESOLVERR_URL`: remote FlareSolverr endpoint, for example `https://your-flaresolverr-host.example.com/v1`.
+- `REFRESH_SECRET`: shared secret for the scheduled-to-background refresh request. The refresh function fails closed when it is missing.
 
 ## Optional Netlify Environment Variables
 
-- `REFRESH_SECRET`: protects `/api/refresh` from public/manual refresh calls.
 - `SITE_URL`: canonical deployed site URL if Netlify `URL` is not enough.
 - `FLARESOLVERR_TIMEOUT_MS`: defaults to `90000`.
+
+Manual refresh requests must send `x-refresh-secret`; URL query secrets are not accepted. Without `REFRESH_SECRET`, the scheduled function returns `503` and preserves the last stored snapshot.
+
+Live veto overlays only copy map names observed in the upstream page. They do not invent map win rates or replace validated model probabilities when the source does not publish map evidence.
 
 ## Do You Need Local Docker?
 

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">StrikeSignal CS2 match and event forecasts</title>
+  <desc id="desc">StrikeSignal match probabilities, veto context and tournament intelligence.</desc>
+  <rect width="1200" height="630" fill="#181818"/>
+  <circle cx="1030" cy="-20" r="360" fill="#2a211d"/>
+  <path d="M0 505h1200" stroke="#383837" stroke-width="2"/>
+  <rect x="88" y="102" width="84" height="84" rx="18" fill="#ff6b35"/>
+  <path d="M111 123h27v25l18-18h20l-27 27 30 24h-28l-13-12v12h-27z" fill="#181818"/>
+  <text x="210" y="161" fill="#f1f0ec" font-family="Arial, sans-serif" font-size="52" font-weight="700">StrikeSignal</text>
+  <text x="92" y="285" fill="#ff8c62" font-family="Arial, sans-serif" font-size="24" letter-spacing="4">CS2 INTELLIGENCE</text>
+  <text x="88" y="365" fill="#f1f0ec" font-family="Arial, sans-serif" font-size="60" font-weight="700">Your call.</text>
+  <text x="92" y="430" fill="#adaca6" font-family="Arial, sans-serif" font-size="26">Match probabilities · veto context · event paths</text>
+  <text x="92" y="559" fill="#65645f" font-family="Arial, sans-serif" font-size="20">strikesignal · source timestamps on every read</text>
+</svg>

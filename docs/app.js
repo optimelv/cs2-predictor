@@ -1,10 +1,27 @@
 import { eventIsProductEligible, normalizeEvent, normalizeMatch, normalizePlatformSnapshot, productTierForEvent } from "./lib/snapshot.js?v=20260726.1";
 import { buildDoubleEliminationTree } from "./lib/brackets.js?v=20260726.1";
-import { tournamentBlueprint, tournamentPlayoffField, tournamentStageLabels } from "./lib/tournaments.js?v=20260726.1";
+import { snapshotFreshness, snapshotTimestamp, canApplySnapshot, pickEligibility } from "./lib/freshness.js?v=20260916.1";
+import { installDialogFocus } from "./lib/dialog-focus.js?v=20260916.1";
+import { installInputMode, motionDuration, confirmVetoStep } from "./lib/motion.js?v=20260916.1";
+import { tournamentBlueprint, tournamentPlayoffField, tournamentStageLabels } from "./lib/tournaments.js?v=20260728.1";
+import { generateFormatLanes } from "./lib/bracket-generator.js?v=20260728.1";
 import { explainMatch } from "./lib/explanations.js?v=20260726.1";
 import { historyEvents, historyOpponents, summarizeHeadToHead } from "./lib/history.js?v=20260727.2";
+import { matchRosterRead, rosterSignal } from "./lib/rosters.js?v=20260728.2";
 import { summarizePlayerEvents, summarizePlayerMaps, summarizePlayerRosterEras } from "./lib/player-history.js?v=20260727.1";
+import { buildPlayerCompareUrl, comparePlayerProfiles, parsePlayerCompare } from "./lib/player-compare.js?v=20260728.1";
+import {
+  buildEventShareUrl,
+  buildMatchShareUrl,
+  buildPickemShareUrl,
+  eventOwnsProjection,
+  parsePickemOverrides,
+  serializePickemOverrides,
+  validOverrideWinner,
+} from "./lib/product-links.js?v=20260727.3";
+import { ingestMatchSignals, markSignalsRead, matchSignalRecord, normalizeSignalState, unreadSignalCount } from "./lib/signals.js?v=20260727.1";
 import { normalizeWatchlist, toggleWatchlist, watchlistCount, watchlistHas } from "./lib/watchlist.js?v=20260726.1";
+import { buildDeskShareUrl, mergeDeskState, parseDeskState } from "./lib/desk-links.js?v=20260728.1";
 import {
   applyVetoMap,
   buildRecommendedVeto,
@@ -12,9 +29,17 @@ import {
   mapWinProbability,
   recommendedMap,
   replayVeto,
+  resolveMapPool,
   vetoSeriesRead,
   vetoTeamKey,
 } from "./lib/veto.js?v=20260726.1";
+
+import { installProductNavigation } from "./lib/navigation.js?v=20260920.1";
+import { installChartInteractions, renderInteractiveLineChart } from "./lib/chart-interactions.js?v=20260920.1";
+
+let productNavigation = null;
+let pendingVetoMap = null;
+const draftPicks = new Map();
 
 const DATA_URL = "./data/predictions.json";
 const SUPPLEMENTAL_TEAM_ASSETS = window.__STRIKESIGNAL_TEAM_ASSETS__ || {};
@@ -39,6 +64,7 @@ const els = {
   pickemChance: document.querySelector("#pickemChance"),
   pickemSummary: document.querySelector("#pickemSummary"),
   resetPicks: document.querySelector("#resetPicks"),
+  sharePickem: document.querySelector("#sharePickem"),
   boardStageTitle: document.querySelector("#boardStageTitle"),
   currentStageTab: document.querySelector("#currentStageTab"),
   playoffTab: document.querySelector('[data-board-jump="playoffs"]'),
@@ -52,6 +78,7 @@ const els = {
   modelCalibration: document.querySelector("#modelCalibration"),
   modelSample: document.querySelector("#modelSample"),
   modelVersion: document.querySelector("#modelVersion"),
+  modelSlices: document.querySelector("#modelSlices"),
   heroPre: document.querySelector("#heroPre"),
   heroPost: document.querySelector("#heroPost"),
   rankingsGrid: document.querySelector("#rankingsGrid"),
@@ -69,6 +96,11 @@ const els = {
   playerSnapshotMeta: document.querySelector("#playerSnapshotMeta"),
   playerGrid: document.querySelector("#playerGrid"),
   playerDetail: document.querySelector("#playerDetail"),
+  playerCompareLayer: document.querySelector("#playerCompareLayer"),
+  playerCompareBackdrop: document.querySelector("#playerCompareBackdrop"),
+  playerCompareClose: document.querySelector("#playerCompareClose"),
+  playerCompareContent: document.querySelector("#playerCompareContent"),
+  playerCompareTray: document.querySelector("#playerCompareTray"),
   teamDrawerLayer: document.querySelector("#teamDrawerLayer"),
   teamDrawerBackdrop: document.querySelector("#teamDrawerBackdrop"),
   teamDrawerClose: document.querySelector("#teamDrawerClose"),
@@ -76,6 +108,7 @@ const els = {
   openSearch: document.querySelector("#openSearch"),
   openMyDesk: document.querySelector("#openMyDesk"),
   watchCount: document.querySelector("#watchCount"),
+  signalCount: document.querySelector("#signalCount"),
   searchLayer: document.querySelector("#searchLayer"),
   searchBackdrop: document.querySelector("#searchBackdrop"),
   productSearch: document.querySelector("#productSearch"),
@@ -106,6 +139,7 @@ let currentMatchEvent = "all";
 let selectedMatchDateKey = null;
 let selectedMatchKey = null;
 let activeEventView = "overview";
+let activeEventBracketLaneId = null;
 let selectedEventMatchKey = null;
 let renderedEventMatches = [];
 let rankingsExpanded = false;
@@ -114,9 +148,13 @@ let playerSearchTerm = "";
 let playerTeamFilter = "all";
 let selectedPlayerId = null;
 let playerDetailView = "overview";
+let playerCompareIds = parsePlayerCompare(new URLSearchParams(window.location.search).get("compare"), (STATIC_PLAYER_SNAPSHOT.players || []).map((player) => player.player_id));
+let playerCompareReturnFocus = null;
 let selectedTeamName = null;
+let teamReturnFocus = null;
 const selectedHistoryOpponents = new Map();
 let activeVetoMatch = null;
+let vetoReturnFocus = null;
 let vetoLabState = null;
 let myDeskReturnFocus = null;
 const pickOverrides = new Map();
@@ -124,6 +162,9 @@ const SAVED_PICKS_KEY = "strikesignal.saved-picks.v1";
 let savedPicks = loadSavedPicks();
 const WATCHLIST_KEY = "strikesignal.watchlist.v1";
 let watchlist = loadWatchlist();
+let pendingDeskImport = parseDeskState(new URLSearchParams(window.location.search).get("desk"));
+const SIGNAL_STATE_KEY = "strikesignal.signals.v1";
+let signalState = loadSignalState();
 let teamLookupMap = {};
 let probabilityCache = {};
 const pickemChanceCache = new Map();
@@ -172,15 +213,148 @@ function setText(element, value) {
   if (element) element.textContent = value;
 }
 
-function updateProductUrl({ eventId, view, playerId, teamName, hash } = {}) {
+function updateProductUrl({ eventId, view, playerId, teamName, matchKey, pickem, hash } = {}) {
   if (window.location.protocol === "file:") return;
   const url = new URL(window.location.href);
   if (eventId !== undefined) eventId ? url.searchParams.set("event", eventId) : url.searchParams.delete("event");
   if (view !== undefined) view ? url.searchParams.set("view", view) : url.searchParams.delete("view");
   if (playerId !== undefined) playerId ? url.searchParams.set("player", playerId) : url.searchParams.delete("player");
   if (teamName !== undefined) teamName ? url.searchParams.set("team", teamName) : url.searchParams.delete("team");
+  if (matchKey !== undefined) matchKey ? url.searchParams.set("match", matchKey) : url.searchParams.delete("match");
+  if (pickem !== undefined) pickem ? url.searchParams.set("pickem", pickem) : url.searchParams.delete("pickem");
+  if (eventId || playerId || teamName) url.searchParams.delete("match");
+  if (matchKey) for (const key of ["event", "view", "player", "team", "pickem"]) url.searchParams.delete(key);
   if (hash) url.hash = hash;
   window.history.replaceState(null, "", url);
+  if (hash) productNavigation?.show(hash);
+}
+
+async function writeClipboardText(value) {
+  if (navigator.clipboard?.writeText) return navigator.clipboard.writeText(value);
+  const input = document.createElement("textarea");
+  input.value = value;
+  input.style.position = "fixed";
+  input.style.opacity = "0";
+  document.body.append(input);
+  input.select();
+  const copied = document.execCommand("copy");
+  input.remove();
+  if (!copied) throw new Error("Copy failed");
+}
+
+async function copyMatchLink(matchKey, button) {
+  const shareUrl = buildMatchShareUrl(window.location.href, matchKey);
+  try {
+    await writeClipboardText(shareUrl);
+    button.classList.add("is-copied");
+    const label = button.querySelector("b");
+    if (label) label.textContent = "Copied";
+    window.setTimeout(() => {
+      button.classList.remove("is-copied");
+      if (label) label.textContent = "Share";
+    }, 1800);
+  } catch {
+    button.classList.add("is-failed");
+    const label = button.querySelector("b");
+    if (label) label.textContent = "Copy failed";
+  }
+}
+
+async function copyEventLink(eventId, view, button) {
+  const shareUrl = buildEventShareUrl(window.location.href, eventId, view);
+  try {
+    await writeClipboardText(shareUrl);
+    button.classList.add("is-copied");
+    const label = button.querySelector("b");
+    if (label) label.textContent = "Copied";
+    window.setTimeout(() => {
+      button.classList.remove("is-copied");
+      if (label) label.textContent = "Share event";
+    }, 1800);
+  } catch {
+    button.classList.add("is-failed");
+    const label = button.querySelector("b");
+    if (label) label.textContent = "Copy failed";
+  }
+}
+
+async function copyPickemLink(button) {
+  const shareUrl = buildPickemShareUrl(window.location.href, activeEventId, pickOverrides.entries());
+  try {
+    await writeClipboardText(shareUrl);
+    button.classList.add("is-copied");
+    button.textContent = "Copied";
+    window.setTimeout(() => {
+      button.classList.remove("is-copied");
+      button.textContent = "Share card";
+    }, 1800);
+  } catch {
+    button.classList.add("is-failed");
+    button.textContent = "Copy failed";
+  }
+}
+
+async function copyDeskLink(button) {
+  const shareUrl = buildDeskShareUrl(window.location.href, watchlist, savedPicks);
+  const label = button.querySelector("b");
+  if (!shareUrl) {
+    if (label) label.textContent = "Desk too large";
+    return;
+  }
+  try {
+    await writeClipboardText(shareUrl);
+    button.classList.add("is-copied");
+    if (label) label.textContent = "Link copied";
+    window.setTimeout(() => {
+      button.classList.remove("is-copied");
+      if (label) label.textContent = "Share desk";
+    }, 1800);
+  } catch {
+    button.classList.add("is-failed");
+    if (label) label.textContent = "Copy failed";
+  }
+}
+
+function clearDeskLinkParam() {
+  if (window.location.protocol === "file:") return;
+  const url = new URL(window.location.href);
+  url.searchParams.delete("desk");
+  window.history.replaceState(null, "", url);
+}
+
+function syncPlayerCompareUrl(enabled = true) {
+  if (window.location.protocol === "file:") return;
+  const url = new URL(buildPlayerCompareUrl(window.location.href, enabled ? playerCompareIds : []));
+  window.history.replaceState(null, "", url);
+}
+
+async function copyPlayerCompareLink(button) {
+  const url = buildPlayerCompareUrl(window.location.href, playerCompareIds);
+  const label = button.querySelector("b");
+  try {
+    await writeClipboardText(url);
+    button.classList.add("is-copied");
+    if (label) label.textContent = "Link copied";
+    window.setTimeout(() => {
+      button.classList.remove("is-copied");
+      if (label) label.textContent = "Share comparison";
+    }, 1800);
+  } catch {
+    button.classList.add("is-failed");
+    if (label) label.textContent = "Copy failed";
+  }
+}
+
+function syncPickemRoute() {
+  updateProductUrl({
+    eventId: activeEventId,
+    view: "",
+    playerId: "",
+    teamName: "",
+    matchKey: "",
+    pickem: pickOverrides.size ? serializePickemOverrides(pickOverrides.entries()) : "",
+    hash: "featured",
+  });
 }
 
 function matchConfidence(match) {
@@ -243,6 +417,42 @@ function persistWatchlist() {
   }
 }
 
+function loadSignalState() {
+  try {
+    return normalizeSignalState(JSON.parse(window.localStorage.getItem(SIGNAL_STATE_KEY) || "{}"));
+  } catch {
+    return normalizeSignalState();
+  }
+}
+
+function persistSignalState() {
+  try {
+    window.localStorage.setItem(SIGNAL_STATE_KEY, JSON.stringify(signalState));
+  } catch {
+    // Signal tracking remains available for the current session.
+  }
+}
+
+function signalMatchIsRelevant(match) {
+  if (savedPicks[matchKeyOf(match)]) return true;
+  const eventId = String(match.event_id || "");
+  const eventName = normalizeName(match.event_name || "");
+  if (watchlist.events.some((entry) => entry.id === eventId || normalizeName(entry.name) === eventName)) return true;
+  const teams = [normalizeName(match.team1_name), normalizeName(match.team2_name)];
+  return watchlist.teams.some((entry) => teams.includes(normalizeName(entry.id)) || teams.includes(normalizeName(entry.name)));
+}
+
+function recordMatchSignals(observedAt) {
+  const result = ingestMatchSignals(signalState, allKnownMatches(), {
+    observedAt: observedAt || new Date().toISOString(),
+    isRelevant: signalMatchIsRelevant,
+  });
+  signalState = result.state;
+  persistSignalState();
+  syncWatchControls();
+  return result.created;
+}
+
 function watchButtonHtml(type, id, name, className = "") {
   const active = watchlistHas(watchlist, type, id);
   return `<button type="button" class="follow-control ${className} ${active ? "is-active" : ""}" data-watch-type="${escapeHtml(type)}" data-watch-id="${escapeHtml(id)}" data-watch-name="${escapeHtml(name)}" aria-pressed="${String(active)}"><i aria-hidden="true">${active ? "✓" : "+"}</i><span>${active ? "Following" : "Follow"}</span></button>`;
@@ -259,9 +469,14 @@ function syncWatchControls() {
     if (label) label.textContent = active ? "Following" : "Follow";
   });
   const followedCount = watchlistCount(watchlist);
-  setText(els.watchCount, String(followedCount));
-  els.openMyDesk?.setAttribute("aria-label", `Open My Desk, ${followedCount} followed`);
-  els.openMyDesk?.classList.toggle("has-items", followedCount > 0 || Object.keys(savedPicks).length > 0);
+  const pickCount = Object.keys(savedPicks).length;
+  const unread = unreadSignalCount(signalState);
+  setText(els.watchCount, String(pickCount));
+  setText(els.signalCount, String(unread));
+  if (els.signalCount) els.signalCount.hidden = unread === 0;
+  els.openMyDesk?.setAttribute("aria-label", `Open My picks, ${pickCount} saved, ${followedCount} followed, ${unread} new signals`);
+  els.openMyDesk?.classList.toggle("has-items", followedCount > 0 || Object.keys(savedPicks).length > 0 || unread > 0);
+  els.openMyDesk?.classList.toggle("has-signals", unread > 0);
 }
 
 function savedPickFor(match) {
@@ -287,6 +502,8 @@ function savedPickState(match) {
 
 function saveMatchPick(match, teamName) {
   const call = enrichMatch(match);
+  if (!pickEligibility({ ...call, model_coverage: matchCoverage(call) }, snapshotFreshness(snapshotTimestamp(appData))).allowed) return;
+  if (![call.team1_name, call.team2_name].includes(teamName)) return;
   const probability = normalizeName(teamName) === normalizeName(call.team1_name)
     ? Number(call.prob_team1)
     : 1 - Number(call.prob_team1);
@@ -303,14 +520,24 @@ function saveMatchPick(match, teamName) {
 }
 
 function bindMatchPickActions(container, match, rerender) {
+  const key = matchKeyOf(match);
+  container?.querySelectorAll("[data-draft-match-pick]").forEach((button) => button.addEventListener("click", () => {
+    draftPicks.set(key, button.dataset.draftMatchPick);
+    rerender();
+    container.querySelector(`[data-draft-match-pick="${CSS.escape(button.dataset.draftMatchPick)}"]`)?.focus({ preventScroll: true });
+  }));
   container?.querySelectorAll("[data-save-match-pick]").forEach((button) => button.addEventListener("click", () => {
     saveMatchPick(match, button.dataset.saveMatchPick);
+    draftPicks.delete(key);
     rerender();
+    container.querySelector("[data-save-match-pick]")?.focus({ preventScroll: true });
   }));
   container?.querySelector("[data-remove-match-pick]")?.addEventListener("click", () => {
-    delete savedPicks[matchKeyOf(match)];
+    delete savedPicks[key];
+    draftPicks.delete(key);
     persistSavedPicks();
     rerender();
+    container.querySelector("[data-draft-match-pick]")?.focus({ preventScroll: true });
   });
 }
 
@@ -319,6 +546,46 @@ function matchStatusGroup(match) {
   if (/finished|completed|final|ended/.test(status)) return "results";
   if (/live|playing|in.progress/.test(status)) return "live";
   return "upcoming";
+}
+
+const UNRESOLVED_MATCH_GRACE_MS = 24 * 60 * 60 * 1000;
+
+function matchHasRecordedResult(match) {
+  if (String(match?.winner_name || match?.winner || "").trim()) return true;
+  const score1 = Number(match?.score1);
+  const score2 = Number(match?.score2);
+  if (!Number.isFinite(score1) || !Number.isFinite(score2) || score1 < 0 || score2 < 0 || score1 === score2) return false;
+  const bestOf = Number(String(match?.series_format || match?.best_of || "bo3").replace(/[^0-9]/g, ""));
+  const target = bestOf === 1 ? 1 : bestOf === 5 ? 3 : 2;
+  return Math.max(score1, score2) >= target;
+}
+
+function matchIsStaleUnresolved(match, now = Date.now()) {
+  if (matchHasRecordedResult(match)) return false;
+  const startsAt = Date.parse(match?.starts_at || match?.start_time || "");
+  return Number.isFinite(startsAt) && startsAt < now - UNRESOLVED_MATCH_GRACE_MS;
+}
+
+function matchIsCurrentCandidate(match, now = Date.now()) {
+  if (matchHasRecordedResult(match)) return false;
+  const startsAt = Date.parse(match?.starts_at || match?.start_time || "");
+  return Number.isFinite(startsAt) && startsAt >= now - UNRESOLVED_MATCH_GRACE_MS;
+}
+
+function eventDisplayStatus(event, now = Date.now()) {
+  const declared = String(event?.status || "upcoming").toLowerCase();
+  if (event?.archived || /finished|completed|cancelled|canceled/.test(declared)) return declared;
+  const start = Date.parse(`${event?.start_date || ""}T12:00:00`);
+  const end = Date.parse(`${event?.end_date || ""}T23:59:59`);
+  const eventMatches = Array.isArray(event?.matches) ? event.matches : [];
+  const hasCurrentMatch = eventMatches.some((match) => matchIsCurrentCandidate(match, now));
+  if (Number.isFinite(end) && end < now - UNRESOLVED_MATCH_GRACE_MS) return "historical";
+  if (Number.isFinite(start) && start < now - UNRESOLVED_MATCH_GRACE_MS && !hasCurrentMatch) return "historical";
+  if (!Number.isFinite(start) && !Number.isFinite(end)) {
+    if (hasCurrentMatch) return declared === "ongoing" || declared === "upcoming" ? declared : "upcoming";
+    return eventMatches.some(matchHasRecordedResult) ? "historical" : "unknown";
+  }
+  return declared === "ongoing" || declared === "upcoming" ? declared : "upcoming";
 }
 
 function localDateKey(value) {
@@ -348,6 +615,7 @@ function dailyMatchCalls() {
       return event ? eventIsProductEligible(event) : eventIsProductEligible({ name: match.event_name });
     })
     .filter((match) => match.starts_at && Number.isFinite(new Date(match.starts_at).getTime()))
+    .filter((match) => !matchIsStaleUnresolved(match))
     .sort((a, b) => new Date(a.starts_at || 0) - new Date(b.starts_at || 0) || matchSignalScore(b) - matchSignalScore(a));
 }
 
@@ -366,7 +634,6 @@ function matchSlateDays(matches) {
 function slateDayLabel(key) {
   const today = localDateKey(new Date());
   if (key === today) return "Today";
-  if (key < today && key === selectedMatchDateKey) return "Latest";
   return new Intl.DateTimeFormat("en-US", { weekday: "short" }).format(dateFromKey(key));
 }
 
@@ -400,7 +667,7 @@ function projectedMapRead(match) {
   if (match.map_read?.maps?.length) return match.map_read;
   const profile1 = appData?.model_state?.map_profiles?.[normalizeName(match.team1_name)] || {};
   const profile2 = appData?.model_state?.map_profiles?.[normalizeName(match.team2_name)] || {};
-  const eventPool = eventForMatch(match)?.map_pool || appData?.model_state?.map_pool || [];
+  const eventPool = resolveMapPool(eventForMatch(match)?.map_pool, appData?.model_state?.map_pool);
   const common = eventPool.filter((mapName) => profile1[mapName]?.matches && profile2[mapName]?.matches);
   if (common.length < 2) return null;
   const projectedBan = (teamName, pool, profile) => {
@@ -445,9 +712,39 @@ function matchExplanationHtml(read) {
   const driverHtml = (row, kind) => `<article class="is-${kind}" style="--driver-strength:${Math.max(12, Math.round(Math.abs(row.directional_score) * 100))}%"><span>${kind === "support" ? "Supports" : "Pushes back"}</span><strong>${escapeHtml(row.label)}</strong><small>${escapeHtml(row.detail)}</small><i><b></b></i></article>`;
   const supportRows = read.supports.slice(0, 2);
   return `<section class="match-explanation">
-    <header><div><span>Model read</span><strong>Why ${escapeHtml(read.favorite)}</strong></div><b>${read.signal_count} active signals</b></header>
-    <div class="match-driver-grid">${supportRows.map((row) => driverHtml(row, "support")).join("")}${read.counter ? driverHtml(read.counter, "counter") : `<article class="is-neutral"><span>Counter-signal</span><strong>None material</strong><small>Primary indicators point the same way</small></article>`}</div>
+    <header><div><strong>Model favors ${escapeHtml(read.favorite)}</strong></div></header>
+    <div class="match-driver-grid">${supportRows.map((row) => driverHtml(row, "support")).join("")}${read.counter ? driverHtml(read.counter, "counter") : ""}</div>
     <aside class="match-risk is-${escapeHtml(read.risk.severity)}"><span>Watch</span><strong>${escapeHtml(read.risk.label)}</strong><small>${escapeHtml(read.risk.detail)}</small></aside>
+  </section>`;
+}
+
+function rosterChangeHtml(read) {
+  const rows = [];
+  if (read.added_players?.length) rows.push(`<span class="is-in">+ ${escapeHtml(read.added_players.join(" · "))}</span>`);
+  if (read.removed_players?.length) rows.push(`<span class="is-out">− ${escapeHtml(read.removed_players.join(" · "))}</span>`);
+  return rows.length ? `<div class="roster-changes">${rows.join("")}</div>` : "";
+}
+
+function rosterSignalCardHtml(read) {
+  const score = Number(read.score);
+  const known = read.score !== null && read.score !== undefined && Number.isFinite(score);
+  const retained = read.shared_players?.length || 0;
+  return `<article class="roster-signal-card is-${escapeHtml(read.status)}" style="--roster-score:${known ? score : 0}%">
+    <header>${teamLogoHtml(read.team_name)}<div><strong>${escapeHtml(read.team_name)}</strong><span>${escapeHtml(read.label)}</span></div><b>${known ? score : "--"}<small>${known ? "/100" : ""}</small></b></header>
+    <i class="roster-score-track"><b></b></i>
+    <div class="roster-signal-meta"><span>${known ? `${retained}/5 retained` : "Lineup pending"}</span><span>${read.era_matches ? `${read.era_matches} series together` : "No active era"}</span></div>
+    ${rosterChangeHtml(read)}
+  </article>`;
+}
+
+function matchRosterPanelHtml(match, lineup1, lineup2) {
+  if (!historySnapshot) return `<section class="roster-intelligence is-loading"><header><span>Roster pulse</span><strong>Building lineup history</strong></header><div class="roster-loading"><i></i><i></i></div></section>`;
+  const read = matchRosterRead(historySnapshot, match, lineup1, lineup2);
+  if (read.team1.score == null && read.team2.score == null) return "";
+  const headline = read.leader ? `${read.leader} holds the steadier core` : "No material roster edge";
+  return `<section class="roster-intelligence">
+    <header><span>Roster pulse</span><strong>${escapeHtml(headline)}</strong></header>
+    <div class="roster-signal-grid">${rosterSignalCardHtml(read.team1)}${rosterSignalCardHtml(read.team2)}</div>
   </section>`;
 }
 
@@ -458,7 +755,7 @@ function matchInsightHtml(match) {
   const probability = Number(call.prob_team1);
   const mapRead = projectedMapRead(call);
   const coverage = matchCoverage(call);
-  const pool = eventForMatch(call)?.map_pool || appData?.model_state?.map_pool || [];
+  const pool = resolveMapPool(eventForMatch(call)?.map_pool, appData?.model_state?.map_pool);
   const rankScore1 = Number(team1.vrs_points) || Number(team1.elo) || 1500;
   const rankScore2 = Number(team2.vrs_points) || Number(team2.elo) || 1500;
   const form1 = Number(team1.recent_win_rate_10) || 0.5;
@@ -491,42 +788,49 @@ function matchInsightHtml(match) {
   });
   const savedPick = savedPickFor(call);
   const savedState = savedPickState(call);
+  const eligibility = pickEligibility({ ...call, model_coverage: coverage }, snapshotFreshness(snapshotTimestamp(appData)));
+  const disabledPick = eligibility.allowed ? "" : ' disabled';
+  const draft = draftPicks.get(matchKeyOf(call)) || savedPick?.team_name || "";
+  const unchanged = draft === savedPick?.team_name;
+  const resultLabel = matchStatusGroup(call) === "results" ? "Completed series" : call.stage_name || "Scheduled series";
   const lineupHtml = (players, teamName) => `<div><span>${escapeHtml(teamName)}</span><section>${players.slice(0, 5).map((player) => {
     const nickname = player.nickname || player.player_name || player.name;
     const playerId = player.player_id || (player.hltv_player_id ? `hltv:${player.hltv_player_id}` : "");
     return `<button type="button" data-open-player="${escapeHtml(playerId)}" title="Open ${escapeHtml(nickname)}"><i>${escapeHtml(String(nickname || "?").slice(0, 2).toUpperCase())}</i><b>${escapeHtml(nickname || "TBD")}</b></button>`;
   }).join("") || `<small>Lineup pending</small>`}</section></div>`;
+  const shareControl = dailyMatchCalls().some((candidate) => matchKeyOf(candidate) === matchKeyOf(call))
+    ? `<button type="button" data-copy-match-link="${escapeHtml(matchKeyOf(call))}" aria-label="Copy link to ${escapeHtml(call.team1_name)} versus ${escapeHtml(call.team2_name)}"><i aria-hidden="true"></i><b>Share</b></button>`
+    : "";
   return `
-    <div class="insight-status"><span class="status-token is-${matchStatusGroup(call)}">${escapeHtml(matchStatusGroup(call))}</span><span>${escapeHtml(call.series_format?.toUpperCase() || "BO3")} · ${escapeHtml(call.stage_name || "Scheduled series")}</span></div>
-    <div class="insight-event">${escapeHtml(call.event_name || "CS2 circuit")}</div>
-    <div class="insight-matchup">
-      <div data-open-team="${escapeHtml(call.team1_name)}" role="button" tabindex="0" aria-label="Open ${escapeHtml(call.team1_name)} team profile">${teamLogoHtml(call.team1_name)}<strong>${escapeHtml(call.team1_name)}</strong><b>${coverage === "limited" ? "--" : formatPercent(probability)}</b></div>
-      <span>vs</span>
-      <div data-open-team="${escapeHtml(call.team2_name)}" role="button" tabindex="0" aria-label="Open ${escapeHtml(call.team2_name)} team profile">${teamLogoHtml(call.team2_name)}<strong>${escapeHtml(call.team2_name)}</strong><b>${coverage === "limited" ? "--" : formatPercent(1 - probability)}</b></div>
-    </div>
-    <div class="series-lineups">${lineupHtml(lineup1, call.team1_name)}${lineupHtml(lineup2, call.team2_name)}</div>
-    <div class="insight-call">
-      <span>${coverage === "full" ? "Model edge" : coverage === "partial" ? "Low-data edge" : "Awaiting data"}</span>
-      <strong>${coverage === "limited" ? "Pending team state" : `${escapeHtml(call.predicted_winner)} ${formatPercent(matchConfidence(call))}`}</strong>
-    </div>
-    <div class="pick-console is-${escapeHtml(savedState)}">
-      <div><span>Your call</span><strong>${savedPick ? `${escapeHtml(savedPick.team_name)} · ${formatPercent(savedPick.probability)}` : "Choose a side"}</strong></div>
-      <section>
-        <button type="button" class="${normalizeName(savedPick?.team_name) === normalizeName(call.team1_name) ? "is-active" : ""}" data-save-match-pick="${escapeHtml(call.team1_name)}">${escapeHtml(call.team1_name)}</button>
-        <button type="button" class="${normalizeName(savedPick?.team_name) === normalizeName(call.team2_name) ? "is-active" : ""}" data-save-match-pick="${escapeHtml(call.team2_name)}">${escapeHtml(call.team2_name)}</button>
-        ${savedPick ? `<button type="button" class="pick-remove" data-remove-match-pick aria-label="Remove saved pick">×</button>` : ""}
-      </section>
-      ${savedPick ? `<small>${savedState === "won" ? "Correct call" : savedState === "lost" ? "Missed call" : `Saved ${formatDate(savedPick.saved_at)}`}</small>` : `<small>Stored on this device and scored when the result arrives.</small>`}
-    </div>
-    ${matchExplanationHtml(explanation)}
-    <div class="veto-console">
-      <div class="veto-console-head"><span>Veto desk</span><strong>${mapRead ? (mapRead.status === "known_veto" ? "Maps locked" : "Projected") : "Build the map path"}</strong></div>
-      ${mapRead ? `
-        <div class="veto-map-strip">${mapRead.maps.map((map) => `<article><span>${escapeHtml(map.map_name)}</span><strong>${escapeHtml(map.predicted_winner)}</strong><b>${formatPercent(map.confidence)}</b></article>`).join("")}</div>
-        <div class="ban-read">${Object.entries(mapRead.excluded_maps || {}).map(([teamName, maps]) => `<span>${escapeHtml(teamName)} ban · ${escapeHtml((maps || []).join(", "))}</span>`).join("")}</div>
-      ` : `<div class="veto-empty"><i></i><span>Use the Veto Lab to inspect available evidence and test the map order.</span></div>`}
-      <button class="open-veto-lab" type="button" data-open-veto="${escapeHtml(matchKeyOf(call))}"><span>Open Veto Lab</span><b>Ban · pick · recalculate</b><i aria-hidden="true">↗</i></button>
-    </div>
+    <article class="match-feature">
+      <div class="insight-status"><span class="status-token is-${matchStatusGroup(call)}">${snapshotFreshness(snapshotTimestamp(appData)).fresh ? "" : "Recorded · "}${escapeHtml(matchStatusGroup(call))}</span><div class="insight-tools"><span>${escapeHtml(call.series_format?.toUpperCase() || "BO3")} · ${escapeHtml(resultLabel)}</span>${shareControl}</div></div>
+      <div class="insight-event">${escapeHtml(call.event_name || "CS2 circuit")}<span>${escapeHtml(formatDate(call.starts_at))}</span></div>
+      <div class="insight-matchup">
+        <button type="button" data-open-team="${escapeHtml(call.team1_name)}" aria-label="Open ${escapeHtml(call.team1_name)} team profile">${teamLogoHtml(call.team1_name)}<strong>${escapeHtml(call.team1_name)}</strong><small>${team1.vrs_rank ? `#${team1.vrs_rank} world ranking` : "Team profile"}</small></button>
+        <span class="match-versus">${matchStatusGroup(call) === "results" && call.score1 != null && call.score2 != null && Number(call.score1) + Number(call.score2) > 0 ? `${escapeHtml(call.score1)} : ${escapeHtml(call.score2)}` : "VS"}<small>${escapeHtml(call.series_format?.toUpperCase() || "BO3")}</small></span>
+        <button type="button" data-open-team="${escapeHtml(call.team2_name)}" aria-label="Open ${escapeHtml(call.team2_name)} team profile">${teamLogoHtml(call.team2_name)}<strong>${escapeHtml(call.team2_name)}</strong><small>${team2.vrs_rank ? `#${team2.vrs_rank} world ranking` : "Team profile"}</small></button>
+      </div>
+      <div class="model-comparison"><div><span>${escapeHtml(call.team1_name)} <b>${coverage === "limited" ? "—" : formatPercent(probability)}</b></span><small>${coverage === "partial" ? "Limited-data estimate" : "Model win probability"}</small><span><b>${coverage === "limited" ? "—" : formatPercent(1 - probability)}</b> ${escapeHtml(call.team2_name)}</span></div><i aria-hidden="true"><b style="width:${coverage === "limited" ? 50 : Math.round(probability * 100)}%"></b></i></div>
+      <div class="pick-console is-${escapeHtml(savedState)} ${savedPick && unchanged ? "is-saved" : ""}">
+        <div><span>Your pick</span><strong>${savedPick && unchanged ? `✓ ${escapeHtml(savedPick.team_name)} saved` : "Who takes the series?"}</strong></div>
+        <section>
+          ${[call.team1_name, call.team2_name].map((name) => `<button type="button"${disabledPick} aria-pressed="${draft === name}" class="pick-side ${draft === name ? "is-active" : ""}" data-draft-match-pick="${escapeHtml(name)}">${teamLogoHtml(name)}<span>${escapeHtml(name)}</span><i aria-hidden="true">${draft === name ? "✓" : "+"}</i></button>`).join("")}
+        </section>
+        <div class="pick-save-row"><small role="status">${savedPick ? savedState === "won" ? "Correct call" : savedState === "lost" ? "Missed call" : `Saved on this device · ${formatDate(savedPick.saved_at)}` : escapeHtml(eligibility.reason)}</small><button class="save-pick" type="button" data-save-match-pick="${escapeHtml(draft)}" ${!eligibility.allowed || !draft || unchanged ? "disabled" : ""}>${savedPick && unchanged ? "✓ Saved" : "Save pick"}</button>${savedPick ? `<button type="button" class="pick-remove" data-remove-match-pick aria-label="Remove saved pick">Remove</button>` : ""}</div>
+        ${savedPick && !eligibility.allowed ? `<small>${escapeHtml(eligibility.reason)}</small>` : ""}
+      </div>
+    </article>
+    <aside class="match-insight" aria-label="Match insights">
+      <header class="insight-heading"><h2>Match analysis</h2></header>
+      ${matchExplanationHtml(explanation)}
+      <div class="veto-console">
+        <div class="veto-console-head"><span>The maps</span><strong>${mapRead ? (mapRead.status === "known_veto" ? "Published veto" : "Projected veto") : "Map veto"}</strong></div>
+        ${mapRead ? `<div class="veto-map-strip">${mapRead.maps.map((map) => `<article><span>${escapeHtml(map.map_name)}</span><strong>${escapeHtml(map.predicted_winner)}</strong><b>${formatPercent(map.confidence)}</b></article>`).join("")}</div>` : `<p class="veto-invitation">No map history available for this matchup. You can still simulate the bans and picks.</p>`}
+        <button class="open-veto-lab" type="button" ${pool.length < 7 ? "disabled" : ""} data-open-veto="${escapeHtml(matchKeyOf(call))}"><span>${pool.length < 7 ? "Veto unavailable" : "Simulate veto"}</span><b>${pool.length < 7 ? "A seven-map pool is required" : "Ban, pick and compare maps"}</b><i aria-hidden="true">↗</i></button>
+      </div>
+      <details class="match-lineup-details"><summary>Lineups & team form <span aria-hidden="true">+</span></summary><div class="series-lineups">${lineupHtml(lineup1, call.team1_name)}${lineupHtml(lineup2, call.team2_name)}</div>${matchRosterPanelHtml(call, lineup1, lineup2)}<div class="match-team-follows">${watchButtonHtml("teams", normalizeName(call.team1_name), call.team1_name)}${watchButtonHtml("teams", normalizeName(call.team2_name), call.team2_name)}</div></details>
+      <a class="insight-method-link" href="#model">How the model works <span aria-hidden="true">↗</span></a>
+    </aside>
   `;
 }
 
@@ -539,18 +843,18 @@ function matchRowHtml(match, rowIndex = 0) {
   const isSelected = key === selectedMatchKey;
   const pick = savedPickFor(call);
   const pickState = savedPickState(call);
-  const timeLabel = status === "live" ? "LIVE" : call.starts_at ? new Intl.DateTimeFormat("en-US", { hour: "2-digit", minute: "2-digit" }).format(new Date(call.starts_at)) : "TBA";
+  const timeLabel = status === "live" ? (snapshotFreshness(snapshotTimestamp(appData)).fresh ? "LIVE" : "Recorded") : call.starts_at ? new Intl.DateTimeFormat("en-US", { hour: "2-digit", minute: "2-digit" }).format(new Date(call.starts_at)) : "TBA";
   return `
     <button class="match-row ${isSelected ? "is-selected" : ""}" style="--row-index:${rowIndex}" type="button" data-match-key="${escapeHtml(key)}" aria-pressed="${String(isSelected)}">
       <span class="match-time is-${status}">${escapeHtml(timeLabel)}<small>${escapeHtml(call.series_format?.toUpperCase() || "BO3")}</small></span>
-      <span class="match-event"><strong>${escapeHtml(call.event_name || "CS2 circuit")}</strong><small>${escapeHtml(call.stage_name || "Scheduled series")}</small></span>
+      <span class="match-event"><strong>${escapeHtml(call.event_name || "CS2 circuit")}</strong><small>${escapeHtml(call.stage_name || (status === "results" ? "Completed series" : "Scheduled series"))}</small></span>
       <span class="match-row-teams">
         <span>${teamLogoHtml(call.team1_name)}<strong>${escapeHtml(call.team1_name)}</strong></span>
-        <i>${coverage === "limited" ? "vs" : formatPercent(probability)}</i>
+        <i>vs</i>
         <span><strong>${escapeHtml(call.team2_name)}</strong>${teamLogoHtml(call.team2_name)}</span>
       </span>
-      <span class="match-row-call"><small>${pick ? `your pick · ${pickState}` : coverage === "full" ? "model pick" : coverage === "partial" ? "low data" : "rating pending"}</small><strong>${pick ? escapeHtml(pick.team_name) : coverage === "limited" ? "Open series" : escapeHtml(call.predicted_winner)}</strong></span>
-      <span class="match-open" aria-hidden="true">↗</span>
+      <span class="match-row-call"><small>${pick ? `your pick · ${pickState}` : coverage === "full" ? "model pick" : coverage === "partial" ? "low data" : "rating pending"}</small><strong>${pick ? escapeHtml(pick.team_name) : coverage === "limited" ? "Pending" : `${escapeHtml(call.predicted_winner)} · ${formatPercent(matchConfidence(call))}`}</strong></span>
+      <span class="match-open" aria-hidden="true">${isSelected ? "Selected" : "View"}</span>
     </button>
   `;
 }
@@ -563,62 +867,92 @@ function renderMatchToolbar(matches) {
     <div class="match-days" role="group" aria-label="Match day">
       ${days.map((key) => {
         const date = dateFromKey(key);
-        return `<button type="button" class="${selectedMatchDateKey === key ? "is-active" : ""}" data-match-day="${escapeHtml(key)}"><span>${escapeHtml(slateDayLabel(key))}</span><strong>${new Intl.DateTimeFormat("en-US", { month: "short", day: "2-digit" }).format(date)}</strong></button>`;
+        return `<button type="button" aria-pressed="${selectedMatchDateKey === key}" class="${selectedMatchDateKey === key ? "is-active" : ""}" data-match-day="${escapeHtml(key)}"><span>${escapeHtml(slateDayLabel(key))}</span><strong>${new Intl.DateTimeFormat("en-US", { month: "short", day: "2-digit" }).format(date)}</strong></button>`;
       }).join("")}
     </div>
     <div class="match-status-filters" role="group" aria-label="Match status">
-      ${["all", "live", "upcoming", "results", "picks"].map((filter) => `<button type="button" class="${currentMatchFilter === filter ? "is-active" : ""}" data-match-filter="${filter}">${filter === "all" ? "All series" : filter === "picks" ? `My picks ${Object.keys(savedPicks).length || ""}` : filter}</button>`).join("")}
+      ${["all", "following", "live", "upcoming", "results", "picks"].map((filter) => `<button type="button" aria-pressed="${currentMatchFilter === filter}" class="${currentMatchFilter === filter ? "is-active" : ""}" data-match-filter="${filter}">${filter === "all" ? "All matches" : filter === "following" ? "Following" : filter === "picks" ? `My picks ${Object.keys(savedPicks).length || ""}` : filter}</button>`).join("")}
     </div>
-    <label class="match-event-select"><span>Event</span><select id="matchEventSelect"><option value="all">All events</option>${events.map((eventName) => `<option value="${escapeHtml(eventName)}" ${currentMatchEvent === eventName ? "selected" : ""}>${escapeHtml(eventName)}</option>`).join("")}</select></label>
+    <label class="match-event-select"><span>Event</span><select id="matchEventSelect" aria-label="Filter matches by event"><option value="all">All events</option>${events.map((eventName) => `<option value="${escapeHtml(eventName)}" ${currentMatchEvent === eventName ? "selected" : ""}>${escapeHtml(eventName)}</option>`).join("")}</select></label>
   `;
   els.matchToolbar.querySelectorAll("[data-match-day]").forEach((button) => button.addEventListener("click", () => {
     selectedMatchDateKey = button.dataset.matchDay;
     selectedMatchKey = null;
+    updateProductUrl({ matchKey: "" });
     renderDeciders(dailyMatchCalls());
   }));
   els.matchToolbar.querySelectorAll("[data-match-filter]").forEach((button) => button.addEventListener("click", () => {
     currentMatchFilter = button.dataset.matchFilter || "all";
     selectedMatchKey = null;
+    updateProductUrl({ matchKey: "" });
     renderDeciders(dailyMatchCalls());
   }));
   els.matchToolbar.querySelector("#matchEventSelect")?.addEventListener("change", (event) => {
     currentMatchEvent = event.target.value;
     selectedMatchKey = null;
+    updateProductUrl({ matchKey: "" });
     renderDeciders(dailyMatchCalls());
   });
 }
 
 function renderDeciders(matches) {
+  const focused = document.activeElement;
+  const focusSelector = focused?.dataset?.matchDay ? `[data-match-day="${CSS.escape(focused.dataset.matchDay)}"]`
+    : focused?.dataset?.matchFilter ? `[data-match-filter="${CSS.escape(focused.dataset.matchFilter)}"]`
+    : focused?.dataset?.matchKey ? `[data-match-key="${CSS.escape(focused.dataset.matchKey)}"]`
+    : focused?.id === "matchEventSelect" ? "#matchEventSelect" : null;
+  const restoreFocus = () => focusSelector && document.querySelector(focusSelector)?.focus({ preventScroll: true });
   const rows = (matches || []).map(enrichMatch);
   renderMatchToolbar(rows);
   const targetDate = selectedMatchDateKey;
   const visible = rows.filter((match) => {
     const status = matchStatusGroup(match);
-    const dateMatches = currentMatchFilter === "picks" || localDateKey(match.starts_at) === targetDate;
+    const dateMatches = ["picks", "following"].includes(currentMatchFilter) || localDateKey(match.starts_at) === targetDate;
     const statusMatches = currentMatchFilter === "all"
-      || (currentMatchFilter === "picks" ? Boolean(savedPickFor(match)) : status === currentMatchFilter);
+      || (currentMatchFilter === "picks" ? Boolean(savedPickFor(match)) : currentMatchFilter === "following" ? signalMatchIsRelevant(match) : status === currentMatchFilter);
     const eventMatches = currentMatchEvent === "all" || match.event_name === currentMatchEvent;
     return dateMatches && statusMatches && eventMatches;
   });
   if (!visible.length) {
     const hasAnyRows = rows.length > 0;
-    els.deciderGrid.innerHTML = `<div class="match-center-empty"><span>${hasAnyRows ? "FILTERED SLATE" : "FEED STANDBY"}</span><h3>${hasAnyRows ? "No series match these filters." : "The next slate is loading."}</h3><p>${hasAnyRows ? "Switch the status or event filter to reopen the desk." : "The last verified tournament data remains available below."}</p></div>`;
+    els.deciderGrid.innerHTML = `<div class="match-center-empty"><span>${hasAnyRows ? "FILTERED SLATE" : "NO PUBLISHED SERIES"}</span><h3>${hasAnyRows ? "No matches here yet." : "No match slate is available."}</h3><p>${hasAnyRows ? "Try another day or clear your filters to see more matches." : "Published tournament data remains available below."}</p>${hasAnyRows ? '<button class="button secondary" type="button" data-reset-match-filters>Clear filters</button>' : ""}</div>`;
+    els.deciderGrid.querySelector("[data-reset-match-filters]")?.addEventListener("click", () => {
+      currentMatchFilter = "all";
+      currentMatchEvent = "all";
+      renderDeciders(dailyMatchCalls());
+      els.matchToolbar.querySelector('[data-match-filter="all"]')?.focus();
+    });
+    restoreFocus();
     return;
   }
   if (!selectedMatchKey || !visible.some((match) => matchKeyOf(match) === selectedMatchKey)) selectedMatchKey = matchKeyOf(visible[0]);
   const selected = visible.find((match) => matchKeyOf(match) === selectedMatchKey) || visible[0];
   els.deciderGrid.innerHTML = `
+    ${matchInsightHtml(selected)}
     <div class="match-list-pane">
-      <header><span>${visible.length} ${currentMatchFilter === "picks" ? "saved calls" : "series"}</span><strong>${currentMatchFilter === "picks" ? "Personal prediction ledger" : escapeHtml(new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" }).format(dateFromKey(targetDate)))}</strong></header>
+      <header><span>${visible.length} ${currentMatchFilter === "picks" ? "saved picks" : "series"}</span><strong>${currentMatchFilter === "picks" ? "Your saved picks" : escapeHtml(new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" }).format(dateFromKey(targetDate)))}</strong></header>
       <div class="match-row-list">${visible.map(matchRowHtml).join("")}</div>
     </div>
-    <aside class="match-insight" aria-live="polite">${matchInsightHtml(selected)}</aside>
   `;
   els.deciderGrid.querySelectorAll("[data-match-key]").forEach((button) => button.addEventListener("click", () => {
     selectedMatchKey = button.dataset.matchKey;
+    updateProductUrl({ matchKey: selectedMatchKey, eventId: "", view: "", playerId: "", teamName: "", hash: "matches" });
     renderDeciders(dailyMatchCalls());
+    if (matchMedia("(max-width: 800px)").matches) {
+      const feature = els.deciderGrid.querySelector(".match-feature");
+      feature.tabIndex = -1;
+      feature.focus({ preventScroll: true });
+      feature.scrollIntoView({ block: "start", behavior: motionDuration(1) ? "smooth" : "instant" });
+    }
   }));
   bindMatchPickActions(els.deciderGrid, selected, () => renderDeciders(dailyMatchCalls()));
+  restoreFocus();
+  if (!historySnapshot && !historyLoadPromise) {
+    const matchKey = selectedMatchKey;
+    loadHistorySnapshot().then(() => {
+      if (selectedMatchKey === matchKey) renderDeciders(dailyMatchCalls());
+    });
+  }
 }
 
 function vetoProfiles() {
@@ -660,11 +994,13 @@ function vetoMapCardHtml(mapName, state, recommendation) {
   const evidence = (Number(firstMap.matches) || 0) + (Number(secondMap.matches) || 0);
   const available = state.available.includes(mapName);
   const selectable = available && !state.complete;
-  const stateLabel = action ? (action.action === "ban" ? "Banned" : action.action === "pick" ? `Pick ${state.actions.filter((row) => row.action === "pick").indexOf(action) + 1}` : "Decider") : recommendation === mapName ? "Recommended" : "Available";
-  return `<button type="button" class="veto-map-card ${action ? `is-${action.action}` : ""} ${recommendation === mapName && !action ? "is-recommended" : ""}" ${selectable ? `data-veto-map="${escapeHtml(mapName)}"` : "disabled"}>
+  const stateLabel = pendingVetoMap === mapName && !action ? "Selected" : action ? (action.action === "ban" ? "Banned" : action.action === "pick" ? `Pick ${state.actions.filter((row) => row.action === "pick").indexOf(action) + 1}` : "Decider") : recommendation === mapName ? "Recommended" : "Available";
+  return `<button type="button" aria-pressed="${pendingVetoMap === mapName}" class="veto-map-card ${pendingVetoMap === mapName ? "is-selected" : ""} ${action ? `is-${action.action}` : ""} ${recommendation === mapName && !action ? "is-recommended" : ""}" ${selectable ? `data-veto-map="${escapeHtml(mapName)}"` : "disabled"}>
     <header><span>${escapeHtml(stateLabel)}</span><strong>${escapeHtml(mapName)}</strong></header>
-    <div><span>${escapeHtml(match.team1_name)}<b>${firstMap.matches ? formatPercent(firstRate) : "--"}</b></span><i></i><span><b>${secondMap.matches ? formatPercent(secondRate) : "--"}</b>${escapeHtml(match.team2_name)}</span></div>
-    <footer><span>${formatPercent(Number(firstVeto.ban_share) || 0)} ban</span><small>${evidence || 0} maps</small><span>${formatPercent(Number(secondVeto.ban_share) || 0)} ban</span></footer>
+    ${!evidence && firstVeto.ban_share == null && secondVeto.ban_share == null
+      ? '<p class="map-no-history">No map or veto history</p>'
+      : `<div><span>${escapeHtml(match.team1_name)}<b>${firstMap.matches ? formatPercent(firstRate) : "--"}</b></span><i></i><span><b>${secondMap.matches ? formatPercent(secondRate) : "--"}</b>${escapeHtml(match.team2_name)}</span></div>
+    <footer><span>${firstVeto.ban_share != null ? `${formatPercent(Number(firstVeto.ban_share))} ban` : "No ban data"}</span><small>${evidence ? `${evidence} maps` : "No map history"}</small><span>${secondVeto.ban_share != null ? `${formatPercent(Number(secondVeto.ban_share))} ban` : "No ban data"}</span></footer>`}
   </button>`;
 }
 
@@ -673,7 +1009,12 @@ function vetoLabHtml(match, state) {
   const baseProbability = Number(enrichMatch(match).prob_team1);
   const read = vetoSeriesRead(state, { baseProbability, mapProfiles: profiles.maps });
   const next = state.steps[state.actions.length] || null;
-  const recommendation = recommendedMap(state, profiles.maps, profiles.vetoes);
+  const candidate = recommendedMap(state, profiles.maps, profiles.vetoes);
+  const candidateEvidence = [match.team1_name, match.team2_name].some((team) =>
+    Number(profiles.maps[vetoTeamKey(team)]?.[candidate]?.matches) > 0 ||
+    Number(profiles.vetoes[vetoTeamKey(team)]?.maps?.[candidate]?.bans) > 0 ||
+    Number(profiles.vetoes[vetoTeamKey(team)]?.maps?.[candidate]?.picks) > 0);
+  const recommendation = candidateEvidence ? candidate : null;
   const firstVeto = vetoProfileFor(match.team1_name);
   const secondVeto = vetoProfileFor(match.team2_name);
   const preVetoWinner = baseProbability >= 0.5 ? match.team1_name : match.team2_name;
@@ -687,15 +1028,16 @@ function vetoLabHtml(match, state) {
         <div><strong>${teamLogoHtml(match.team1_name)}${escapeHtml(match.team1_name)}</strong><i>vs</i><strong>${escapeHtml(match.team2_name)}${teamLogoHtml(match.team2_name)}</strong></div>
       </div>
       <div class="veto-lab-output">
-        <div><span>Pre-veto</span><strong>${formatPercent(preVetoConfidence)}</strong><small>${escapeHtml(preVetoWinner)}</small></div>
+        <div><span>Before veto</span><strong>${formatPercent(preVetoConfidence)}</strong><small>${escapeHtml(preVetoWinner)}</small></div>
         <i><b style="--veto-shift:${Math.round(read.prob_team1 * 100)}%"></b></i>
-        <div><span>${state.complete ? "Final map read" : `${state.actions.length}/${state.steps.length} actions`}</span><strong>${formatPercent(Math.max(read.prob_team1, 1 - read.prob_team1))}</strong><small>${escapeHtml(pickedWinner)}</small></div>
+        <div><span>${state.complete ? "Scenario result" : "Current scenario"}</span><strong>${formatPercent(Math.max(read.prob_team1, 1 - read.prob_team1))}</strong><small>${escapeHtml(pickedWinner)}</small></div>
       </div>
     </section>
-    ${officialMaps.length ? `<div class="veto-official-strip"><span>Official maps detected</span><strong>${officialMaps.map(escapeHtml).join(" · ")}</strong><small>The live post-veto call remains authoritative.</small></div>` : ""}
+    <p class="veto-source-note">${eventForMatch(match)?.map_pool?.length ? "Using the event's published map pool." : "Simulation uses the model snapshot's map pool; the event pool is unverified."} ${snapshotFreshness(snapshotTimestamp(appData)).fresh ? "" : "Historical data — this is not a live forecast."}</p>
+    ${officialMaps.length ? `<div class="veto-official-strip"><span>Published maps</span><strong>${officialMaps.map(escapeHtml).join(" · ")}</strong><small>Simulation choices do not change the published match.</small></div>` : ""}
     <section class="veto-workbench">
       <div class="veto-sequence-panel">
-        <header><div><span>Veto sequence</span><strong>${escapeHtml(vetoActionLabel(next))}</strong></div><small>${escapeHtml(state.firstTeam)} acts first</small></header>
+        <header><div><span>${state.complete ? "Scenario complete" : `Step ${state.actions.length + 1} of ${state.steps.length}`}</span><strong>${escapeHtml(vetoActionLabel(next))}</strong></div><small>${escapeHtml(state.firstTeam)} acts first</small></header>
         <div class="veto-sequence">
           ${state.steps.map((step, index) => {
             const action = state.actions[index];
@@ -703,50 +1045,69 @@ function vetoLabHtml(match, state) {
           }).join("")}
         </div>
         <div class="veto-controls">
-          <button type="button" data-veto-auto>Run model veto</button>
+          <button type="button" data-veto-auto>Auto-complete scenario</button>
           <button type="button" data-veto-first>First: ${escapeHtml(state.firstTeam)}</button>
           <button type="button" data-veto-undo ${state.actions.filter((row) => !row.automatic).length ? "" : "disabled"}>Undo</button>
           <button type="button" data-veto-reset>Reset</button>
         </div>
       </div>
       <aside class="veto-evidence-panel">
-        <header><span>Veto identity</span><strong>Last 12 months</strong></header>
+        <header><span>Veto history</span><strong>Snapshot sample</strong></header>
         <div><section>${teamLogoHtml(match.team1_name)}<span><b>${escapeHtml(match.team1_name)}</b><small>${firstVeto.sample_matches || 0} vetoes</small></span><strong>${escapeHtml(firstVeto.perma_ban || "No stable ban")}</strong></section><section>${teamLogoHtml(match.team2_name)}<span><b>${escapeHtml(match.team2_name)}</b><small>${secondVeto.sample_matches || 0} vetoes</small></span><strong>${escapeHtml(secondVeto.perma_ban || "No stable ban")}</strong></section></div>
-        <footer>${Math.min(Number(firstVeto.sample_matches) || 0, Number(secondVeto.sample_matches) || 0) >= 10 ? "Veto history is strong enough for an automated path." : "Low sample: the recommendation stays close to the pre-veto call."}</footer>
+        <footer>${Math.min(Number(firstVeto.sample_matches) || 0, Number(secondVeto.sample_matches) || 0) >= 10 ? "Veto history is strong enough for an automated path." : "Limited history: this scenario is exploratory, not a supported map recommendation."}</footer>
       </aside>
     </section>
     <section class="veto-map-matrix">
       <header><div><span>Map pool</span><strong>${next ? `Choose ${next.action} for ${next.actor}` : "Veto complete"}</strong></div><small>Map win rate · historical ban share · combined sample</small></header>
       <div>${state.pool.map((mapName) => vetoMapCardHtml(mapName, state, recommendation)).join("")}</div>
     </section>
+    <details class="veto-history-details"><summary>History behind this scenario</summary><p>${escapeHtml(match.team1_name)}: ${firstVeto.sample_matches || 0} tracked vetoes · ${escapeHtml(match.team2_name)}: ${secondVeto.sample_matches || 0} tracked vetoes.</p><p>${candidateEvidence ? "Suggestions use the available map and veto history. Small samples remain uncertain." : "No supported map recommendation is available. You can still explore choices; the scenario uses the available model priors."}</p></details>
     <section class="veto-map-outlook">
       <header><span>Series map order</span><strong>${state.complete ? `${escapeHtml(pickedWinner)} ${formatPercent(Math.max(read.prob_team1, 1 - read.prob_team1))}` : "Updates with every action"}</strong></header>
       <div>${read.maps.map((row, index) => `<article><span>Map ${index + 1}</span><strong>${escapeHtml(row.map_name)}</strong><div><b>${escapeHtml(match.team1_name)} ${formatPercent(row.prob_team1)}</b><i style="--map-share:${Math.round(row.prob_team1 * 100)}%"></i><b>${formatPercent(1 - row.prob_team1)} ${escapeHtml(match.team2_name)}</b></div><small>${row.evidence_maps} historical maps · ${row.evidence} evidence</small></article>`).join("") || `<div class="veto-outlook-empty">Picks appear here as the veto develops.</div>`}</div>
-    </section>`;
+    </section>
+    <div class="veto-commit-bar"><div><strong>${state.complete ? "Your map path is set." : pendingVetoMap ? `${escapeHtml(pendingVetoMap)} selected` : "Choose a map above"}</strong><small>${state.complete ? "Undo any step to try another route." : "A scenario only. The real match stays unchanged."}</small></div><button type="button" data-veto-commit ${!pendingVetoMap || state.complete ? "disabled" : ""}>${pendingVetoMap && next ? `${next.action === "ban" ? "Ban" : "Pick"} ${escapeHtml(pendingVetoMap)}` : state.complete ? "Complete" : "Select a map"}</button></div>`;
 }
 
 function renderVetoLab() {
   if (!activeVetoMatch || !vetoLabState || !els.vetoLabContent) return;
+  const previousFocus = document.activeElement;
+  const actionAttribute = previousFocus instanceof Element ? [...previousFocus.attributes].find((attribute) => attribute.name.startsWith("data-veto-")) : null;
   els.vetoLabContent.innerHTML = vetoLabHtml(activeVetoMatch, vetoLabState);
+  if (actionAttribute) {
+    const selector = `[${actionAttribute.name}="${CSS.escape(actionAttribute.value)}"]:not(:disabled)`;
+    (els.vetoLabContent.querySelector(selector) || els.vetoLabContent.querySelector("[data-veto-map]") || els.vetoLabContent.querySelector("[data-veto-reset]"))?.focus({ preventScroll: true });
+    confirmVetoStep(els.vetoLabContent.querySelector(`.veto-sequence article:nth-child(${Math.max(1, vetoLabState.actions.length)})`));
+  }
   els.vetoLabContent.querySelectorAll("[data-veto-map]").forEach((button) => button.addEventListener("click", () => {
-    vetoLabState = applyVetoMap(vetoLabState, button.dataset.vetoMap);
+    pendingVetoMap = button.dataset.vetoMap;
     renderVetoLab();
   }));
+  els.vetoLabContent.querySelector("[data-veto-commit]")?.addEventListener("click", () => {
+    if (!pendingVetoMap || !vetoLabState.available.includes(pendingVetoMap)) return;
+    vetoLabState = applyVetoMap(vetoLabState, pendingVetoMap);
+    pendingVetoMap = null;
+    renderVetoLab();
+  });
   els.vetoLabContent.querySelector("[data-veto-auto]")?.addEventListener("click", () => {
     const profiles = vetoProfiles();
+    pendingVetoMap = null;
     vetoLabState = buildRecommendedVeto(vetoLabState, profiles.maps, profiles.vetoes);
     renderVetoLab();
   });
   els.vetoLabContent.querySelector("[data-veto-undo]")?.addEventListener("click", () => {
+    pendingVetoMap = null;
     const actions = vetoLabState.actions.filter((row) => !row.automatic).slice(0, -1);
     vetoLabState = replayVeto(vetoLabState, actions);
     renderVetoLab();
   });
   els.vetoLabContent.querySelector("[data-veto-reset]")?.addEventListener("click", () => {
+    pendingVetoMap = null;
     vetoLabState = createVetoState(vetoLabState);
     renderVetoLab();
   });
   els.vetoLabContent.querySelector("[data-veto-first]")?.addEventListener("click", () => {
+    pendingVetoMap = null;
     const firstTeam = vetoLabState.firstTeam === vetoLabState.team1 ? vetoLabState.team2 : vetoLabState.team1;
     vetoLabState = createVetoState({ ...vetoLabState, firstTeam });
     renderVetoLab();
@@ -755,8 +1116,10 @@ function renderVetoLab() {
 
 function openVetoLab(match) {
   if (!match || !els.vetoLabLayer) return;
-  const pool = eventForMatch(match)?.map_pool || appData?.model_state?.map_pool || [];
+  const pool = resolveMapPool(eventForMatch(match)?.map_pool, appData?.model_state?.map_pool);
   if (pool.length < 7) return;
+  vetoReturnFocus = document.activeElement;
+  pendingVetoMap = null;
   activeVetoMatch = enrichMatch(match);
   vetoLabState = createVetoState({
     pool: pool.slice(0, 7),
@@ -775,8 +1138,11 @@ function closeVetoLab() {
   els.vetoLabLayer.classList.remove("is-open");
   document.body.classList.remove("veto-lab-open");
   window.setTimeout(() => {
-    if (!els.vetoLabLayer.classList.contains("is-open")) els.vetoLabLayer.hidden = true;
-  }, 220);
+    if (!els.vetoLabLayer.classList.contains("is-open")) {
+      els.vetoLabLayer.hidden = true;
+      if (vetoReturnFocus?.isConnected) vetoReturnFocus.focus({ preventScroll: true });
+    }
+  }, motionDuration(180));
 }
 
 function mapRow(map, match) {
@@ -861,6 +1227,7 @@ function swissMatch(match, matchIndex = 0) {
     button.addEventListener("click", () => {
       pickOverrides.set(match.pick_key, button.dataset.pickTeam);
       renderDynamicMajor();
+      syncPickemRoute();
     });
   });
   return node;
@@ -954,15 +1321,28 @@ function availableEvents(data = appData) {
         ? "cologne major 2026"
         : normalizedName;
     const existing = merged.get(key);
-    const value = existing ? { ...event, ...normalized, ...existing } : normalized;
+    const value = existing ? {
+      ...existing,
+      ...normalized,
+      // Same-name source records can use different IDs for qualifiers and
+      // the main event. Keep one navigable event while retaining every
+      // source match, so a date-less event can still become current when a
+      // fresh scheduled series is present in a later record.
+      id: existing.id || normalized.id,
+      start_date: existing.start_date || normalized.start_date,
+      end_date: existing.end_date || normalized.end_date,
+      participants: [...new Set([...(existing.participants || []), ...(normalized.participants || [])])],
+      matches: [...new Map([...(existing.matches || []), ...(normalized.matches || [])].map((match) => [matchKeyOf(match), match])).values()],
+    } : normalized;
+    value.display_status = eventDisplayStatus(value);
     merged.set(key, value);
   };
   const sourceEvents = data?.coverage?.events?.length ? data.coverage.events : data?.event_coverage || [];
   sourceEvents.forEach(addEvent);
   archiveEvents.forEach(addEvent);
-  const statusOrder = { ongoing: 0, upcoming: 1, finished: 2, cancelled: 3 };
+  const statusOrder = { ongoing: 0, upcoming: 1, unknown: 2, finished: 3, cancelled: 4, historical: 5 };
   return [...merged.values()].filter(eventIsProductEligible).sort((a, b) => {
-    const statusDelta = (statusOrder[a.status] ?? 4) - (statusOrder[b.status] ?? 4);
+    const statusDelta = (statusOrder[a.display_status || a.status] ?? 5) - (statusOrder[b.display_status || b.status] ?? 5);
     if (statusDelta) return statusDelta;
     const timeA = new Date(`${a.start_date || "9999-12-31"}T12:00:00`).getTime();
     const timeB = new Date(`${b.start_date || "9999-12-31"}T12:00:00`).getTime();
@@ -976,7 +1356,7 @@ function activeEvent() {
 }
 
 function eventHasMajorBoard(event) {
-  return Boolean(event?.id === "iem-cologne-major-2026" && appData?.major_projection);
+  return eventOwnsProjection(event, appData?.major_projection);
 }
 
 function eventDateRange(event) {
@@ -1023,7 +1403,7 @@ function syncMajorCopy(stage3, event = activeEvent()) {
   if (!eventHasMajorBoard(event)) {
     document.body.classList.remove("stage-complete");
     if (els.playoffTab) els.playoffTab.hidden = true;
-    setText(els.eventPhaseLabel, event ? `${event.status || "scheduled"} · ${event.event_type || "CS2 event"}` : "Event room");
+    setText(els.eventPhaseLabel, event ? `${event.display_status || event.status || "scheduled"} · ${event.event_type || "CS2 event"}` : "Event room");
     setText(els.projectionTitle, event ? event.name : "Choose an event.");
     setText(els.projectionIntro, event
       ? `${eventDateRange(event)} · ${event.location || "Location TBA"} · ${event.format?.label || "Format pending"}`
@@ -1048,7 +1428,7 @@ function syncMajorCopy(stage3, event = activeEvent()) {
     setText(els.projectionTitle, `Every route through ${event.name}.`);
     setText(els.projectionIntro, "Change any unresolved result and the complete Swiss path, Pick'Em probability, and projected playoff bracket recalculate around your call.");
     setText(els.boardStageTitle, "Swiss stage, round by round.");
-    setText(els.routeIntro, "Completed matches are fixed. Blue probabilities are projected. Select either logo in an unresolved match to rewrite the route.");
+    setText(els.routeIntro, "Completed matches are fixed. Probabilities are projected. Select either logo in an unresolved match to rewrite the route.");
     return;
   }
 
@@ -1065,7 +1445,7 @@ function jumpMajorBoard(target) {
   setActiveBoardButtons();
   renderDynamicMajor();
   const activePanel = currentBoardView === "playoffs" ? els.playoffPanel : els.swissBoard;
-  activePanel?.scrollIntoView({ block: "nearest", behavior: "smooth" });
+  activePanel?.scrollIntoView({ block: "nearest", behavior: motionDuration(1) ? "smooth" : "instant" });
 }
 
 function renderDynamicMajor() {
@@ -1138,9 +1518,12 @@ function renderGenericEventBoard(event) {
     <div class="event-room">
       <header class="event-room-hero">
         <div>
-          <span>${escapeHtml(event.status || "scheduled")} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"} · ${escapeHtml(event.event_type || "TBA")}</span>
+          <span>${escapeHtml(event.display_status || event.status || "scheduled")} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"} · ${escapeHtml(event.event_type || "TBA")}</span>
           <h4>${escapeHtml(event.name)}</h4>
-          ${watchButtonHtml("events", event.id, event.name, "event-follow")}
+          <div class="event-room-actions">
+            ${watchButtonHtml("events", event.id, event.name, "event-follow")}
+            <button type="button" class="event-share-action" data-copy-event-link="${escapeHtml(event.id)}" data-event-share-view="${escapeHtml(activeEventView)}"><i aria-hidden="true"></i><b>Share event</b></button>
+          </div>
         </div>
         <div class="event-room-snapshot">
           <div><span>Dates</span><strong>${escapeHtml(eventDateRange(event))}</strong></div>
@@ -1162,6 +1545,10 @@ function renderGenericEventBoard(event) {
     activeEventView = button.dataset.eventView || "overview";
     updateProductUrl({ eventId: event.id, view: activeEventView, playerId: "", teamName: "", hash: "featured" });
     selectedEventMatchKey = null;
+    renderGenericEventBoard(event);
+  }));
+  els.swissBoard.querySelectorAll("[data-bracket-lane]").forEach((button) => button.addEventListener("click", () => {
+    activeEventBracketLaneId = button.dataset.bracketLane || null;
     renderGenericEventBoard(event);
   }));
   els.swissBoard.querySelectorAll("[data-event-view-jump]").forEach((button) => button.addEventListener("click", () => {
@@ -1482,7 +1869,98 @@ function doubleEliminationBracketHtml(event) {
   </div>`;
 }
 
+function projectedFormatLanes(event) {
+  const blueprint = tournamentBlueprint(event);
+  const lanes = generateFormatLanes(event, activeEventCalls(event).map(enrichMatch), blueprint, strengthSortedTeams(event));
+  const slots = new Map();
+  const outcomeFrom = (source) => {
+    const match = slots.get(source?.slot_id);
+    if (!match) return "";
+    const winner = match.winner_name || match.predicted_winner || "";
+    if (source.outcome === "winner") return winner;
+    if (!winner) return "";
+    return normalizeName(winner) === normalizeName(match.team1_name) ? match.team2_name : match.team1_name;
+  };
+  return lanes.map((lane) => ({
+    ...lane,
+    rounds: lane.rounds.map((round) => {
+      const project = (match) => {
+        const team1 = !match.team1_name || match.team1_name === "TBD" ? outcomeFrom(match.team1_source) : match.team1_name;
+        const team2 = !match.team2_name || match.team2_name === "TBD" ? outcomeFrom(match.team2_source) : match.team2_name;
+        const known = team1 && team2 && ![team1, team2].includes("TBD");
+        const resolved = known ? resolveBracketMatch(event, team1, team2, round.label, 0) : match;
+        const output = {
+          ...match,
+          ...resolved,
+          match_id: String(match.match_id || "").startsWith("::slot:") && resolved.match_id ? resolved.match_id : match.match_id,
+          slot_id: match.slot_id,
+          feeds_from: match.feeds_from || [],
+          team1_source: match.team1_source,
+          team2_source: match.team2_source,
+          team1_name: team1 || "TBD",
+          team2_name: team2 || "TBD",
+        };
+        slots.set(output.slot_id, output);
+        return output;
+      };
+      const groups = (round.groups || []).map((group) => ({ ...group, matches: group.matches.map(project) }));
+      const matches = groups.length ? groups.flatMap((group) => group.matches) : (round.matches || []).map(project);
+      return { ...round, groups, matches };
+    }),
+  }));
+}
+
+function bracketSourceLabel(source) {
+  if (!source?.slot_id) return "TBD";
+  const matchNumber = source.slot_id.match(/:m(\d+)$/)?.[1] || "";
+  return `${source.outcome === "loser" ? "Loser" : "Winner"}${matchNumber ? ` · Match ${matchNumber}` : " · prior round"}`;
+}
+
+function formatBracketTeamHtml(match, side) {
+  const teamName = side === 1 ? match.team1_name : match.team2_name;
+  const source = side === 1 ? match.team1_source : match.team2_source;
+  if (!teamName || teamName === "TBD") return `<div class="tree-team is-placeholder"><span class="tree-slot" aria-hidden="true"></span><strong>${escapeHtml(bracketSourceLabel(source))}</strong><b></b></div>`;
+  return bracketTeamHtml(teamName, match, side);
+}
+
+function formatBracketMatchHtml(match) {
+  const synthetic = String(match.match_id || "").startsWith("::slot:");
+  const status = match.status || (match.predicted_winner ? "projected" : "upcoming");
+  const state = status === "finished" ? "FINAL" : status === "live" ? "LIVE" : status === "projected" ? "MODEL" : "SLOT";
+  const content = `<span class="tree-match-state">${state}</span>${formatBracketTeamHtml(match, 1)}${formatBracketTeamHtml(match, 2)}`;
+  return synthetic
+    ? `<article class="tree-match is-${escapeHtml(status)}">${content}</article>`
+    : `<button type="button" class="tree-match is-${escapeHtml(status)}" data-event-match="${escapeHtml(matchKeyOf(match))}" aria-label="Open ${escapeHtml(match.team1_name)} versus ${escapeHtml(match.team2_name)}">${content}</button>`;
+}
+
+function generatedEventBracketHtml(event, lanes) {
+  const selected = lanes.find((lane) => lane.id === activeEventBracketLaneId) || lanes[0];
+  activeEventBracketLaneId = selected?.id || null;
+  if (!selected) return "";
+  return `<div class="event-bracket-view generated-event-bracket">
+    <header class="bracket-view-head">
+      <div><span>Format engine</span><h4>${escapeHtml(event.name)}</h4></div>
+      <div class="bracket-legend"><span><i class="is-official"></i> Published</span><span><i class="is-live"></i> Live</span><span><i></i> Projected</span><strong>${lanes.length} paths</strong></div>
+    </header>
+    <nav class="generated-lane-tabs" aria-label="Tournament stages">${lanes.map((lane) => `<button type="button" class="${lane.id === selected.id ? "is-active" : ""}" data-bracket-lane="${escapeHtml(lane.id)}"><span>${escapeHtml(lane.label)}</span><b>${lane.rounds.length}</b></button>`).join("")}</nav>
+    <div class="tournament-tree generated-tournament-tree" style="--round-count:${selected.rounds.length}">
+      ${selected.rounds.map((round, roundIndex) => {
+        const groups = round.groups?.length ? round.groups : [{ label: "", matches: round.matches || [] }];
+        return `<section class="tree-round generated-tree-round" style="--round-index:${roundIndex}">
+          <header><span>${String(round.order || roundIndex + 1).padStart(2, "0")}</span><strong>${escapeHtml(round.label)}</strong><small>${round.matches.length} series</small></header>
+          <div class="tree-round-matches">${groups.map((group) => `<div class="generated-round-group">${group.label ? `<span>${escapeHtml(group.label)}</span>` : ""}${group.matches.map(formatBracketMatchHtml).join("")}</div>`).join("")}</div>
+        </section>`;
+      }).join("")}
+    </div>
+  </div>`;
+}
+
 function eventBracketHtml(event) {
+  const hasPublishedTree = Boolean(event?.bracket?.rounds?.length);
+  if (!hasPublishedTree) {
+    const lanes = projectedFormatLanes(event);
+    if (lanes.length) return generatedEventBracketHtml(event, lanes);
+  }
   const blueprint = tournamentBlueprint(event);
   if (blueprint.playoff_type === "double_elimination" || event?.bracket?.type === "double_elimination") return doubleEliminationBracketHtml(event);
   const tree = buildTournamentBracket(event);
@@ -1519,7 +1997,7 @@ function eventOverviewHtml(event) {
   return `
     <div class="event-overview-grid">
       <section class="title-race">
-        <header><span>Title race</span><strong>${escapeHtml(event.current_stage || (event.status === "upcoming" ? "Pre-event" : "In progress"))}</strong></header>
+        <header><span>Title race</span><strong>${escapeHtml(event.current_stage || ((event.display_status || event.status) === "upcoming" ? "Pre-event" : "In progress"))}</strong></header>
         <div class="contender-list">${contenders.map((row) => `
           <article class="contender-row" style="--share:${Math.max(16, Math.round(row.probability * 250))}%" data-open-team="${escapeHtml(row.team_name)}" role="button" tabindex="0" aria-label="Open ${escapeHtml(row.team_name)} team profile">
             ${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong><span>#${row.vrs_rank || "--"} VRS · ${Math.round(row.recent * 100)}% form</span><b>${formatPercent(row.probability)}</b>
@@ -1841,6 +2319,7 @@ function eventContenders(event) {
 
 function updateGenericPickem(event) {
   if (els.resetPicks) els.resetPicks.hidden = true;
+  if (els.sharePickem) els.sharePickem.hidden = true;
   if (event?.archived) {
     setText(els.pickemLabel, "Archive result");
     setText(els.pickemTitle, event.champion_name ? `${event.champion_name} won ${event.name}.` : `${event.name} is complete.`);
@@ -1909,7 +2388,10 @@ function activeEventCalls(event = activeEvent()) {
     const key = String(match.match_id || `${pair}:${normalizeName(match.stage_name || match.round_name || "")}:${match.starts_at || ""}`);
     merged.set(key, { ...(merged.get(key) || {}), ...match });
   });
-  return [...merged.values()];
+  const displayStatus = eventDisplayStatus(event);
+  return [...merged.values()].filter((match) => displayStatus === "ongoing" || displayStatus === "upcoming"
+    ? !matchIsStaleUnresolved(match)
+    : matchHasRecordedResult(match));
 }
 
 function makeOverrideKey(prefix, roundOrStage, team1, team2) {
@@ -2037,9 +2519,10 @@ function simulateSwissRun(seedRows, random) {
       const key = makeOverrideKey("stage3", roundNumber, team1, team2);
       const probability = getCachedProbability(team1, team2);
       const source = sourceMatches.find((match) => sameMatch(match, team1, team2));
+      const overrideWinner = validOverrideWinner(pickOverrides.get(key), team1, team2);
       const winner = source?.status === "locked" && source.winner_name
         ? source.winner_name
-        : pickOverrides.get(key) || (random() < probability ? team1 : team2);
+        : overrideWinner || (random() < probability ? team1 : team2);
       const loser = winner === team1 ? team2 : team1;
       records[winner][0] += 1;
       records[loser][1] += 1;
@@ -2100,7 +2583,7 @@ function runPickemMonteCarlo(stage3) {
 }
 
 function portableProductionProbability(champion, features, baseline) {
-  if (!champion || !champion.kind || champion.kind === "heuristic") return baseline;
+  if (!champion || !champion.kind) return baseline;
   let modelProbability = baseline;
   if (champion.kind === "portable_logistic_blend") {
     const selected = champion.features || [];
@@ -2127,8 +2610,12 @@ function portableProductionProbability(champion, features, baseline) {
     }
     modelProbability = 1 / (1 + Math.exp(-Math.max(-35, Math.min(35, raw))));
   }
+  const isPortable = ["portable_logistic_blend", "portable_gbdt_blend"].includes(champion.kind);
   const blendWeight = Math.max(0, Math.min(1, Number(champion.blend_weight) || 1));
-  return blendWeight * modelProbability + (1 - blendWeight) * baseline;
+  let probability = isPortable ? blendWeight * modelProbability + (1 - blendWeight) * baseline : baseline;
+  const shrink = Number(champion.segment_calibration?.tier_2_shrink);
+  if (features.is_tier2 === 1 && Number.isFinite(shrink)) probability = 0.5 + Math.max(0, Math.min(1, shrink)) * (probability - 0.5);
+  return probability;
 }
 
 function pairProbability(team1Name, team2Name, context = {}) {
@@ -2162,6 +2649,9 @@ function pairProbability(team1Name, team2Name, context = {}) {
     is_lan: Number(String(context.event_type || "").toLowerCase() === "lan"),
     is_playoff: isPlayoff,
     is_elimination_match: isElimination,
+    is_tier2: Number(["tier_2", "tier 2", "t2"].includes(String(context.product_tier || context.tier || "").toLowerCase())),
+    is_bo1: Number(bestOf === 1),
+    is_bo5: Number(bestOf === 5),
   };
   const champion = appData?.model_registry?.champion || appData?.model_state?.portable_model || appData?.model?.production;
   let probability = portableProductionProbability(champion, features, baseline);
@@ -2172,7 +2662,9 @@ function pairProbability(team1Name, team2Name, context = {}) {
 function matchPick(team1Name, team2Name, key) {
   const probability = pairProbability(team1Name, team2Name);
   const modelWinner = probability >= 0.5 ? team1Name : team2Name;
-  const pickedWinner = pickOverrides.get(key) || modelWinner;
+  const overrideWinner = validOverrideWinner(pickOverrides.get(key), team1Name, team2Name);
+  if (pickOverrides.has(key) && !overrideWinner) pickOverrides.delete(key);
+  const pickedWinner = overrideWinner || modelWinner;
   const pickedProbability = pickedWinner === team1Name ? probability : 1 - probability;
   return {
     key,
@@ -2181,7 +2673,7 @@ function matchPick(team1Name, team2Name, key) {
     modelWinner,
     pickedWinner,
     pickedProbability,
-    status: pickOverrides.has(key) ? "override" : "projected",
+    status: overrideWinner ? "override" : "projected",
   };
 }
 
@@ -2215,6 +2707,7 @@ function simulateStage3() {
   let pairings = seedRows.slice(0, seedRows.length / 2).map((row, index) => [row.team_name, seedRows[seedRows.length - 1 - index].team_name]);
   const rounds = [];
   const pathProbabilities = [];
+  const activeOverrideKeys = new Set();
 
   for (let roundNumber = 1; roundNumber <= 5; roundNumber += 1) {
     const sourceMatches = currentMatchesForRound(roundNumber);
@@ -2225,6 +2718,7 @@ function simulateStage3() {
       const pick = matchPick(team1, team2, key);
       const source = sourceMatches.find((match) => sameMatch(match, team1, team2));
       const isLocked = source?.status === "locked" && source.winner_name;
+      if (!isLocked) activeOverrideKeys.add(key);
       const winner = isLocked ? source.winner_name : pick.pickedWinner;
       const loser = winner === team1 ? team2 : team1;
       records[winner][0] += 1;
@@ -2260,6 +2754,10 @@ function simulateStage3() {
         return bw - aw || al - bl;
       })
       .flatMap(([, teams]) => pairSwissGroup(teams, seeds, played));
+  }
+
+  for (const key of pickOverrides.keys()) {
+    if (!activeOverrideKeys.has(key)) pickOverrides.delete(key);
   }
 
   let finalRecords = Object.entries(records)
@@ -2396,6 +2894,7 @@ function renderPlayoffPanel(playoff) {
 function updatePickemMeter(stage3) {
   if (stage3IsComplete(stage3)) {
     if (els.resetPicks) els.resetPicks.hidden = true;
+    if (els.sharePickem) els.sharePickem.hidden = true;
     setText(els.pickemLabel, "Stage 3 result");
     setText(els.pickemTitle, "The Swiss card is locked.");
     setText(els.pickemScoreLabel, "Stage state");
@@ -2408,6 +2907,7 @@ function updatePickemMeter(stage3) {
   }
 
   if (els.resetPicks) els.resetPicks.hidden = false;
+  if (els.sharePickem) els.sharePickem.hidden = false;
   setText(els.pickemLabel, "Current Pick'Em");
   setText(els.pickemTitle, "The model's most likely card.");
   setText(els.pickemScoreLabel, "Chance of 5+ correct");
@@ -2437,22 +2937,23 @@ function renderEvents(events) {
     els.eventsGrid.append(emptyNode("No event coverage queued.", "Supported events appear when verified schedules reach the feed."));
     return;
   }
-  const statusOrder = { ongoing: 0, upcoming: 1, finished: 2 };
+  const statusOrder = { ongoing: 0, upcoming: 1, unknown: 2, historical: 3, finished: 4 };
   if (els.archiveSearchWrap) els.archiveSearchWrap.hidden = currentEventFilter !== "archive";
   const archiveQuery = normalizeName(archiveSearchTerm);
   const visibleEvents = events
-    .filter((event) => currentEventFilter === "archive" ? event.archived : currentEventFilter === "all" ? true : !event.archived && event.status !== "finished")
+    .filter((event) => currentEventFilter === "archive" ? event.archived : currentEventFilter === "all" ? true : !event.archived && ["ongoing", "upcoming"].includes(event.display_status || event.status))
     .filter((event) => currentEventFilter !== "archive" || !archiveQuery || normalizeName(`${event.name} ${(event.participants || []).join(" ")}`).includes(archiveQuery))
     .sort((a, b) => currentEventFilter === "archive"
       ? String(b.end_date || "").localeCompare(String(a.end_date || "")) || Number(b.matches?.length || 0) - Number(a.matches?.length || 0)
-      : (statusOrder[a.status] ?? 1) - (statusOrder[b.status] ?? 1) || new Date(a.start_date || 0) - new Date(b.start_date || 0));
+      : (statusOrder[a.display_status || a.status] ?? 1) - (statusOrder[b.display_status || b.status] ?? 1) || new Date(a.start_date || 0) - new Date(b.start_date || 0));
   setText(els.eventCount, `${visibleEvents.length} tournaments`);
+  if (!visibleEvents.length) els.eventsGrid.append(emptyNode("No tournaments found.", "Try a different search or choose All events."));
   visibleEvents.forEach((event, eventIndex) => {
     const card = document.createElement("article");
     card.className = "event-card";
     card.tabIndex = 0;
     card.dataset.eventId = event.id || "";
-    card.dataset.status = event.status || "upcoming";
+    card.dataset.status = event.display_status || event.status || "upcoming";
     if (event.archived) card.dataset.archive = "true";
     card.style.setProperty("--event-index", eventIndex);
     const range = eventDateRange(event);
@@ -2463,7 +2964,7 @@ function renderEvents(events) {
       <div class="event-date-block"><span>${escapeHtml(date.month)}</span><strong>${escapeHtml(date.day)}</strong><small>${escapeHtml(range)}</small></div>
       <div class="event-spine" aria-hidden="true"><i></i></div>
       <div class="event-card-main">
-        <span>${escapeHtml(event.archived ? "Verified archive" : event.status === "ongoing" ? "Live now" : event.status === "upcoming" ? "Upcoming" : event.status || event.series || event.organizer || "Event")}</span>
+        <span>${escapeHtml(event.archived ? "Verified archive" : (event.display_status || event.status) === "ongoing" ? (snapshotFreshness(snapshotTimestamp(appData)).fresh ? "Live now" : "Ongoing at last update") : (event.display_status || event.status) === "upcoming" ? "Scheduled" : (event.display_status || event.status) === "historical" ? "Historical schedule" : "Schedule pending")}</span>
         <h3>${escapeHtml(event.name || event.event_name || event.source_title || "Unnamed event")}</h3>
         <p>${escapeHtml(event.format?.label || "Organizer format pending")} · ${escapeHtml(event.archived ? `${event.matches?.length || 0} verified series` : event.location || "Location TBA")}</p>
       </div>
@@ -2471,7 +2972,7 @@ function renderEvents(events) {
         ? `${teams.slice(0, 5).map((teamName) => teamLogoHtml(teamName)).join("")}<span>${teamTotal > 5 ? `+${teamTotal - 5}` : `${teamTotal} teams`}</span>`
         : `<span class="event-field-status">${teamTotal ? `${teamTotal} team field` : "Field pending"}</span>`}
       </div>
-      <div class="event-card-meta"><strong>${escapeHtml(`${event.event_type || "TBA"} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"}`)}</strong><span>${escapeHtml(event.archived && event.champion_name ? `${event.champion_name} won` : event.current_stage || (event.status === "upcoming" ? "Starts soon" : "In progress"))}</span></div>
+      <div class="event-card-meta"><strong>${escapeHtml(`${event.event_type || "TBA"} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"}`)}</strong><span>${escapeHtml(event.archived && event.champion_name ? `${event.champion_name} won` : event.display_status === "historical" ? "Schedule retained for browsing" : event.current_stage || (event.display_status === "upcoming" ? "Starts soon" : "In progress"))}</span></div>
       <button class="event-open" type="button" data-event-open="${escapeHtml(event.id || "")}" aria-label="Open ${escapeHtml(event.name || "event")}"><span aria-hidden="true"></span></button>
     `;
     const openEvent = () => selectEvent(event.id);
@@ -2492,7 +2993,7 @@ function renderEvents(events) {
 function renderEventSelector(events) {
   if (!els.eventSelector) return;
   els.eventSelector.innerHTML = events.map((event) => `
-    <option value="${escapeHtml(event.id || "")}">${escapeHtml(event.name || event.event_name || "Unnamed event")} · ${escapeHtml(event.status || "scheduled")}</option>
+    <option value="${escapeHtml(event.id || "")}">${escapeHtml(event.name || event.event_name || "Unnamed event")} · ${escapeHtml(event.display_status || event.status || "scheduled")}</option>
   `).join("");
   els.eventSelector.value = activeEventId || events[0]?.id || "";
 }
@@ -2500,7 +3001,9 @@ function renderEventSelector(events) {
 function selectEvent(eventId) {
   if (!eventId || !availableEvents().some((event) => event.id === eventId)) return;
   activeEventId = eventId;
+  pickOverrides.clear();
   activeEventView = "overview";
+  activeEventBracketLaneId = null;
   selectedEventMatchKey = null;
   boardViewUserSelected = false;
   currentBoardView = eventHasMajorBoard(activeEvent()) && stage3IsComplete(simulateStage3()) ? "playoffs" : "stage3";
@@ -2509,8 +3012,8 @@ function selectEvent(eventId) {
   setText(els.selectedEventName, event?.name || "Event desk");
   setText(els.selectedEventMeta, `${eventDateRange(event)} · ${event?.format?.label || "Organizer format pending"}`);
   renderDynamicMajor();
-  updateProductUrl({ eventId, view: activeEventView, playerId: "", teamName: "", hash: "featured" });
-  document.querySelector("#featured")?.scrollIntoView({ block: "start", behavior: "smooth" });
+  updateProductUrl({ eventId, view: activeEventView, playerId: "", teamName: "", pickem: "", hash: "featured" });
+  document.querySelector("#featured")?.scrollIntoView({ block: "start", behavior: motionDuration(1) ? "smooth" : "instant" });
 }
 
 function rankingProjection(row) {
@@ -2597,32 +3100,44 @@ function playerTraitHtml(player) {
   }).join("");
 }
 
+function chartValue(value, digits = 2, suffix = "") {
+  const number = Number(value);
+  return Number.isFinite(number) ? `${number.toFixed(digits)}${suffix}` : "Not available";
+}
+
 function playerFormTimelineHtml(player, { compact = false } = {}) {
   const timeline = (player?.form_timeline || []).filter((row) => Number.isFinite(Number(row.rating)));
   if (timeline.length < 2) return `<section class="player-form-panel is-empty"><header><span>Series form</span><strong>History building</strong></header><p>Verified match-level ratings will appear as the result feed grows.</p></section>`;
-  const width = 520;
-  const height = compact ? 116 : 132;
-  const padX = 16;
-  const padY = 17;
-  const minRating = Math.max(0.45, Math.min(...timeline.map((row) => Number(row.rating))) - 0.12);
-  const maxRating = Math.min(2.6, Math.max(...timeline.map((row) => Number(row.rating))) + 0.12);
-  const range = Math.max(0.25, maxRating - minRating);
-  const points = timeline.map((row, index) => ({
-    ...row,
-    x: padX + (index / Math.max(1, timeline.length - 1)) * (width - padX * 2),
-    y: padY + ((maxRating - Number(row.rating)) / range) * (height - padY * 2),
-  }));
-  const linePath = points.map((point, index) => `${index ? "L" : "M"}${point.x.toFixed(1)},${point.y.toFixed(1)}`).join(" ");
-  const areaPath = `${linePath} L${points.at(-1).x.toFixed(1)},${height - padY} L${points[0].x.toFixed(1)},${height - padY} Z`;
-  const baselineY = Math.max(padY, Math.min(height - padY, padY + ((maxRating - 1) / range) * (height - padY * 2)));
   const summary = player.form_summary || {};
   const delta = Number(summary.rating_delta);
   const trend = Number.isFinite(delta) ? (delta > 0.04 ? "Up in sample" : delta < -0.04 ? "Down in sample" : "Stable sample") : "Tracked sample";
   const recent = [...timeline].slice(-3).reverse();
+  const chart = renderInteractiveLineChart({
+    id: `player-form-${player.player_id || player.nickname}-${compact ? "compact" : "detail"}`,
+    title: `${player.nickname} rating trend`,
+    description: "Verified match-level ratings in recorded series order.",
+    metricLabel: "Rating 3.0",
+    baseline: 1,
+    decimals: 2,
+    series: [{
+      id: player.player_id || player.nickname,
+      label: player.nickname,
+      points: timeline.map((row, index) => ({
+        label: `${row.date || "Date unavailable"} · vs ${row.opponent_name || "opponent unavailable"}`,
+        value: Number(row.rating),
+        details: [
+          row.event_name || "Event unavailable",
+          `${chartValue(row.adr, 1)} ADR`,
+          `${chartValue(row.kd_ratio)} K/D`,
+          `Series ${index + 1} of ${timeline.length}`,
+        ],
+      })),
+    }],
+  });
   return `<section class="player-form-panel ${compact ? "is-compact" : ""}">
     <header><div><span>Series form</span><strong>${escapeHtml(trend)}</strong></div><small>Through ${escapeHtml(timeline.at(-1).date)}</small></header>
     <div class="player-form-kpis"><div><span>Tracked avg</span><strong>${Number(summary.average_rating) ? Number(summary.average_rating).toFixed(2) : "--"}</strong></div><div><span>Recent 3</span><strong>${Number(summary.recent_rating) ? Number(summary.recent_rating).toFixed(2) : "--"}</strong></div><div><span>ADR</span><strong>${Number(summary.average_adr) ? Number(summary.average_adr).toFixed(1) : "--"}</strong></div></div>
-    <div class="player-form-chart"><svg viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(player.nickname)} rating trend across ${timeline.length} tracked series"><path class="form-area" d="${areaPath}"></path><path class="form-line" pathLength="1" d="${linePath}"></path><line class="form-baseline" x1="${padX}" x2="${width - padX}" y1="${baselineY.toFixed(1)}" y2="${baselineY.toFixed(1)}"></line>${points.map((point) => `<circle class="${Number(point.rating) >= 1 ? "is-positive" : ""}" cx="${point.x.toFixed(1)}" cy="${point.y.toFixed(1)}" r="3"><title>${escapeHtml(point.date)} vs ${escapeHtml(point.opponent_name)}: ${Number(point.rating).toFixed(2)}</title></circle>`).join("")}</svg><div><span>${escapeHtml(timeline[0].date)}</span><b>1.00 baseline</b><span>${escapeHtml(timeline.at(-1).date)}</span></div></div>
+    <div class="player-form-chart">${chart}</div>
     <div class="player-recent-series">${recent.map((row) => `<article><span>${escapeHtml(row.date)} · ${escapeHtml(row.event_name)}</span><strong>vs ${escapeHtml(row.opponent_name)}</strong><b class="${Number(row.rating) >= 1 ? "is-positive" : ""}">${Number(row.rating).toFixed(2)}</b><small>${Number(row.adr).toFixed(1)} ADR · ${Number(row.kd_ratio).toFixed(2)} K/D</small></article>`).join("")}</div>
   </section>`;
 }
@@ -2669,7 +3184,7 @@ function playerDetailViewHtml(player) {
 
 function playerDetailHtml(player) {
   if (!player) return `<div class="player-empty"><span>PLAYER INDEX</span><h3>Select a profile.</h3></div>`;
-  const rating = Number(player.rating_3_0);
+  const rating = player.rating_3_0 == null ? Number.NaN : Number(player.rating_3_0);
   return `
     <header class="player-detail-head">
       <div class="player-monogram" aria-hidden="true">${escapeHtml(String(player.nickname || "?").slice(0, 2).toUpperCase())}</div>
@@ -2677,11 +3192,11 @@ function playerDetailHtml(player) {
       ${teamLogoHtml(player.team_name)}
     </header>
     <div class="player-primary-stats">
-      <div><span>Rating 3.0</span><strong>${Number.isFinite(rating) ? rating.toFixed(2) : "--"}</strong></div>
+      <div><span>Rating 3.0</span><strong>${Number.isFinite(rating) && rating > 0 ? rating.toFixed(2) : "--"}</strong></div>
       <div><span>Signal index</span><strong>${Number(player.signal_index) || "--"}</strong></div>
       <div><span>Map sample</span><strong>${Number(player.maps_3m) || "--"}</strong></div>
     </div>
-    <div class="player-follow-row">${watchButtonHtml("players", player.player_id, player.nickname)}<span>Keep this profile in My Desk</span></div>
+    <div class="player-follow-row">${watchButtonHtml("players", player.player_id, player.nickname)}<button type="button" class="player-compare-action ${playerCompareIds.includes(player.player_id) ? "is-active" : ""}" data-compare-player="${escapeHtml(player.player_id)}"><i aria-hidden="true"></i><span>${playerCompareIds.includes(player.player_id) ? "In comparison" : playerCompareIds.length === 1 ? `Compare with ${escapeHtml((playerSnapshot.players || []).find((row) => row.player_id === playerCompareIds[0])?.nickname || "selected")}` : "Compare player"}</span></button></div>
     <nav class="player-detail-tabs" aria-label="Player intelligence views">${[["overview", "Overview"], ["maps", "Maps"], ["career", "Career"]].map(([view, label]) => `<button type="button" class="${playerDetailView === view ? "is-active" : ""}" data-player-detail-view="${view}">${label}</button>`).join("")}</nav>
     <div class="player-detail-view" data-player-view="${escapeHtml(playerDetailView)}">${playerDetailViewHtml(player)}</div>
     <a class="player-source" href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">Open HLTV profile</a>
@@ -2709,7 +3224,7 @@ function renderPlayers() {
   }
   const selected = visible.find((player) => player.player_id === selectedPlayerId) || null;
   els.playerGrid.innerHTML = visible.length ? visible.map((player, index) => `
-    <button class="player-row ${player.player_id === selectedPlayerId ? "is-selected" : ""}" type="button" role="listitem" data-player-id="${escapeHtml(player.player_id)}" style="--player-index:${index}">
+    <button class="player-row ${player.player_id === selectedPlayerId ? "is-selected" : ""}" type="button" aria-label="Open ${escapeHtml(player.nickname)} player profile" data-player-id="${escapeHtml(player.player_id)}" style="--player-index:${index}">
       <span class="player-rank">${String(index + 1).padStart(2, "0")}</span>
       <span class="player-row-name"><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(player.real_name || playerRole(player))}</small></span>
       <span class="player-row-team">${teamLogoHtml(player.team_name)}<b>${escapeHtml(player.team_name)}</b></span>
@@ -2718,6 +3233,7 @@ function renderPlayers() {
     </button>
   `).join("") : `<div class="player-empty"><span>NO MATCH</span><h3>No player matches this filter.</h3></div>`;
   els.playerDetail.innerHTML = playerDetailHtml(selected);
+  installChartInteractions(document);
   els.playerDetail.querySelectorAll("[data-player-detail-view]").forEach((button) => button.addEventListener("click", () => {
     playerDetailView = button.dataset.playerDetailView || "overview";
     renderPlayers();
@@ -2729,6 +3245,142 @@ function renderPlayers() {
     renderPlayers();
   }));
   setText(els.playerSnapshotMeta, `${(playerSnapshot?.players || []).length} profiles · stats through ${formatDateOnly(playerSnapshot?.history_through_date || playerSnapshot?.generated_at_utc)}`);
+}
+
+function playerById(playerId) {
+  return (playerSnapshot?.players || []).find((player) => player.player_id === playerId) || null;
+}
+
+function compareValue(metric, side) {
+  const value = metric[side];
+  if (value === null) return "--";
+  return `${Number(value).toFixed(metric.digits)}${metric.suffix}`;
+}
+
+function compareBarWidth(metric, side) {
+  const value = metric[side];
+  if (value === null) return 0;
+  const ceilings = { rating: 1.65, recent: 1.65, adr: 110, signal: 100, maps: Math.max(metric.left || 0, metric.right || 0, 1) };
+  return Math.max(4, Math.min(100, value / (ceilings[metric.key] || 100) * 100));
+}
+
+function playerCompareMetricHtml(metric) {
+  const leftWins = metric.left !== null && metric.right !== null && metric.left > metric.right;
+  const rightWins = metric.left !== null && metric.right !== null && metric.right > metric.left;
+  return `<article class="compare-metric"><b class="${leftWins ? "is-leading" : ""}">${escapeHtml(compareValue(metric, "left"))}</b><i class="is-left"><span style="width:${compareBarWidth(metric, "left")}%"></span></i><strong>${escapeHtml(metric.label)}</strong><i class="is-right"><span style="width:${compareBarWidth(metric, "right")}%"></span></i><b class="${rightWins ? "is-leading" : ""}">${escapeHtml(compareValue(metric, "right"))}</b></article>`;
+}
+
+function playerCompareFormHtml(left, right) {
+  const leftRows = (left.form_timeline || []).filter((row) => Number.isFinite(Number(row.rating)));
+  const rightRows = (right.form_timeline || []).filter((row) => Number.isFinite(Number(row.rating)));
+  if (leftRows.length < 2 || rightRows.length < 2) return `<div class="compare-form-empty">Shared form chart unlocks when both players have two tracked series.</div>`;
+  const seriesFor = (player, rows) => ({
+    id: player.player_id || player.nickname,
+    label: player.nickname,
+    points: rows.map((row, index) => ({
+      label: `${row.date || "Date unavailable"} · vs ${row.opponent_name || "opponent unavailable"}`,
+      value: Number(row.rating),
+      details: [
+        row.event_name || "Event unavailable",
+        `${chartValue(row.adr, 1)} ADR`,
+        `${chartValue(row.kd_ratio)} K/D`,
+        `Series ${index + 1} of ${rows.length}`,
+      ],
+    })),
+  });
+  const chart = renderInteractiveLineChart({
+    id: `player-compare-${left.player_id || left.nickname}-${right.player_id || right.nickname}`,
+    title: `Rating trend for ${left.nickname} and ${right.nickname}`,
+    description: "Both players use the same rating scale; each line keeps its own recorded series order.",
+    metricLabel: "Rating 3.0",
+    baseline: 1,
+    decimals: 2,
+    xMode: "ordinal",
+    series: [seriesFor(left, leftRows), seriesFor(right, rightRows)],
+  });
+  return `<div class="compare-form-chart">${chart}</div>`;
+}
+
+function comparePlayerOptions(selectedId, otherId) {
+  return (playerSnapshot?.players || []).map((player) => `<option value="${escapeHtml(player.player_id)}" ${player.player_id === selectedId ? "selected" : ""} ${player.player_id === otherId ? "disabled" : ""}>${escapeHtml(player.nickname)} · ${escapeHtml(player.team_name)}</option>`).join("");
+}
+
+function playerCompareHtml() {
+  const left = playerById(playerCompareIds[0]);
+  const right = playerById(playerCompareIds[1]);
+  const comparison = comparePlayerProfiles(left, right);
+  if (!comparison) return `<div class="player-compare-empty"><span>Player compare</span><h2>Choose two profiles.</h2></div>`;
+  const mapRows = comparison.maps.slice(0, 8);
+  const traitLead = comparison.trait_lead.left === comparison.trait_lead.right
+    ? "Traits split evenly"
+    : `${comparison.trait_lead.left > comparison.trait_lead.right ? left.nickname : right.nickname} leads ${Math.max(comparison.trait_lead.left, comparison.trait_lead.right)}-${Math.min(comparison.trait_lead.left, comparison.trait_lead.right)} in tracked traits`;
+  return `<section class="player-compare-hero">
+      <article><div class="compare-monogram">${escapeHtml(left.nickname.slice(0, 2).toUpperCase())}</div><div><span>${escapeHtml(playerRole(left))} · ${escapeHtml(left.team_name)}</span><h2>${escapeHtml(left.nickname)}</h2><select data-compare-slot="0" aria-label="First player">${comparePlayerOptions(left.player_id, right.player_id)}</select></div>${teamLogoHtml(left.team_name)}</article>
+      <div><span>Head to head</span><strong>VS</strong><b>${escapeHtml(traitLead)}</b></div>
+      <article><div class="compare-monogram">${escapeHtml(right.nickname.slice(0, 2).toUpperCase())}</div><div><span>${escapeHtml(playerRole(right))} · ${escapeHtml(right.team_name)}</span><h2>${escapeHtml(right.nickname)}</h2><select data-compare-slot="1" aria-label="Second player">${comparePlayerOptions(right.player_id, left.player_id)}</select></div>${teamLogoHtml(right.team_name)}</article>
+    </section>
+    <section class="player-compare-body">
+      <div class="compare-section-head"><div><span>Current read</span><h3>Form and production</h3></div><button type="button" data-share-player-compare><i></i><b>Share comparison</b></button></div>
+      <div class="compare-metrics">${comparison.metrics.map(playerCompareMetricHtml).join("")}</div>
+      ${playerCompareFormHtml(left, right)}
+      <div class="compare-split"><section><header><span>Skill shape</span><strong>${escapeHtml(traitLead)}</strong></header><div class="compare-traits">${comparison.traits.map(playerCompareMetricHtml).join("")}</div></section><section><header><span>Map matrix</span><strong>${mapRows.length} maps compared</strong></header><div class="compare-maps"><div class="compare-map-head"><span>${escapeHtml(left.nickname)}</span><strong>Map</strong><span>${escapeHtml(right.nickname)}</span></div>${mapRows.map((row) => {
+        const leftRating = row.left?.rating;
+        const rightRating = row.right?.rating;
+        return `<article><span class="${leftRating != null && (rightRating == null || leftRating > rightRating) ? "is-leading" : ""}"><b>${leftRating == null ? "--" : leftRating.toFixed(2)}</b><small>${row.left?.maps || 0} maps</small></span><strong>${escapeHtml(row.map_name)}</strong><span class="${rightRating != null && (leftRating == null || rightRating > leftRating) ? "is-leading" : ""}"><b>${rightRating == null ? "--" : rightRating.toFixed(2)}</b><small>${row.right?.maps || 0} maps</small></span></article>`;
+      }).join("") || `<p>No shared map sample yet.</p>`}</div></section></div>
+    </section>`;
+}
+
+function renderPlayerCompareTray() {
+  if (!els.playerCompareTray) return;
+  const players = playerCompareIds.map(playerById).filter(Boolean);
+  els.playerCompareTray.hidden = players.length === 0;
+  if (!players.length) return;
+  els.playerCompareTray.innerHTML = `<div><span>Player compare</span><strong>${players.map((player) => escapeHtml(player.nickname)).join(" <i>vs</i> ")}${players.length === 1 ? " <small>Choose one more profile</small>" : ""}</strong></div><div>${players.length === 2 ? `<button type="button" data-open-player-compare>Open comparison</button>` : ""}<button type="button" data-clear-player-compare aria-label="Clear player comparison"><i></i></button></div>`;
+}
+
+function addPlayerToCompare(playerId) {
+  if (!playerById(playerId)) return;
+  if (playerCompareIds.includes(playerId)) playerCompareIds = playerCompareIds.filter((id) => id !== playerId);
+  else playerCompareIds = [...playerCompareIds, playerId].slice(-2);
+  renderPlayerCompareTray();
+  renderPlayers();
+  if (selectedTeamName && els.teamDrawerContent && !els.teamDrawerLayer.hidden) {
+    const player = playerById(playerId);
+    if (player) {
+      els.teamDrawerContent.innerHTML = teamPlayerProfileHtml(selectedTeamName, player);
+      installChartInteractions(document);
+    }
+  }
+  if (playerCompareIds.length === 2) openPlayerCompare();
+}
+
+function openPlayerCompare() {
+  if (!els.playerCompareLayer || playerCompareIds.length !== 2) return;
+  playerCompareReturnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
+  if (els.myDeskLayer && !els.myDeskLayer.hidden) closeMyDesk();
+  if (els.teamDrawerLayer && !els.teamDrawerLayer.hidden) closeTeamProfile({ updateUrl: false });
+  els.playerCompareContent.innerHTML = playerCompareHtml();
+  installChartInteractions(document);
+  els.playerCompareLayer.hidden = false;
+  document.body.classList.add("player-compare-open");
+  syncPlayerCompareUrl(true);
+  window.requestAnimationFrame(() => {
+    els.playerCompareLayer.classList.add("is-open");
+    els.playerCompareClose?.focus({ preventScroll: true });
+  });
+}
+
+function closePlayerCompare({ clearRoute = true } = {}) {
+  if (!els.playerCompareLayer || els.playerCompareLayer.hidden) return;
+  els.playerCompareLayer.classList.remove("is-open");
+  document.body.classList.remove("player-compare-open");
+  if (clearRoute) syncPlayerCompareUrl(false);
+  window.setTimeout(() => {
+    if (!els.playerCompareLayer.classList.contains("is-open")) els.playerCompareLayer.hidden = true;
+    playerCompareReturnFocus?.focus?.({ preventScroll: true });
+    playerCompareReturnFocus = null;
+  }, motionDuration(180));
 }
 
 function allKnownMatches() {
@@ -2765,6 +3417,19 @@ function teamLineupRead(teamName) {
   const averageRating = rated.length ? rated.reduce((sum, player) => sum + Number(player.rating_3_0), 0) / rated.length : null;
   const firepower = rated.length ? rated.reduce((sum, player) => sum + (Number(player.traits?.firepower) || 0), 0) / rated.length : null;
   return { roster, averageRating, firepower, profiled: rated.length };
+}
+
+function teamRosterPulseHtml(teamName, roster) {
+  if (!historySnapshot) return `<section class="team-profile-section team-roster-pulse is-loading"><header><span>Roster pulse</span><strong>Building history</strong></header><div class="roster-loading"><i></i><i></i></div></section>`;
+  const read = rosterSignal(historySnapshot, teamName, roster);
+  const eraLabel = read.era_start ? `Core active since ${formatDateOnly(read.era_start)}` : "Active era pending";
+  return `<section class="team-profile-section team-roster-pulse">
+    <header><span>Roster pulse</span><strong>${escapeHtml(read.label)}</strong></header>
+    <div class="team-roster-pulse-main">
+      <div class="roster-orbit is-${escapeHtml(read.status)}" style="--roster-score:${read.score == null ? 0 : Number(read.score)}%"><strong>${read.score == null ? "--" : read.score}</strong><span>stability</span></div>
+      <div><strong>${escapeHtml(eraLabel)}</strong><span>${read.era_matches ? `${read.era_matches} verified Tier 1/2 series with this core` : "The next verified lineup starts the clock"}</span>${rosterChangeHtml(read)}</div>
+    </div>
+  </section>`;
 }
 
 function teamVetoRead(teamName) {
@@ -2883,7 +3548,7 @@ function teamPlayerProfileHtml(teamName, player) {
       <header><span>Lineup context</span><strong>${teammates.length} teammates</strong></header>
       <div class="team-roster-list">${teammates.map((teammate) => `<button type="button" data-team-player="${escapeHtml(teammate.player_id)}"><i>${escapeHtml(String(teammate.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(teammate.nickname)}</b><small>${escapeHtml(playerRole(teammate))} · ${Number(teammate.rating_3_0) > 0 ? Number(teammate.rating_3_0).toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`).join("") || `<p>Lineup profiles pending.</p>`}</div>
     </section>
-    <section class="team-player-actions"><button type="button" data-open-full-player="${escapeHtml(player.player_id)}">Open in player index</button><a href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">View HLTV profile</a></section>
+    <section class="team-player-actions"><button type="button" data-open-full-player="${escapeHtml(player.player_id)}">Open in player index</button><button type="button" data-compare-player="${escapeHtml(player.player_id)}">${playerCompareIds.includes(player.player_id) ? "Remove from compare" : "Compare player"}</button><a href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">View HLTV profile</a></section>
   `;
 }
 
@@ -2927,6 +3592,7 @@ function teamProfileHtml(teamName) {
         return `<button type="button" data-team-player="${escapeHtml(player.player_id)}"><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(playerRole(player))} · ${Number.isFinite(rating) && rating > 0 ? rating.toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`;
       }).join("") || `<p>No verified player profiles in the current snapshot.</p>`}</div>
     </section>
+    ${teamRosterPulseHtml(teamName, roster)}
     <section class="team-profile-section team-veto-identity">
       <header><span>Veto identity</span><strong>${veto.sample_matches || 0} tracked vetoes</strong></header>
       <div class="team-veto-cards">
@@ -2946,13 +3612,14 @@ function teamProfileHtml(teamName) {
     </section>
     <section class="team-profile-section">
       <header><span>On the circuit</span><strong>${events.length} events</strong></header>
-      <div class="team-event-list">${events.map((event) => `<button type="button" data-open-event="${escapeHtml(event.id)}"><span>${escapeHtml(event.status || "scheduled")}</span><strong>${escapeHtml(event.name)}</strong></button>`).join("") || `<p>No active Tier 1/2 event found.</p>`}</div>
+      <div class="team-event-list">${events.map((event) => `<button type="button" data-open-event="${escapeHtml(event.id)}"><span>${escapeHtml(event.display_status || event.status || "scheduled")}</span><strong>${escapeHtml(event.name)}</strong></button>`).join("") || `<p>No active Tier 1/2 event found.</p>`}</div>
     </section>
   `;
 }
 
 function openTeamProfile(teamName, { updateUrl = true } = {}) {
   if (!teamName || !els.teamDrawerLayer || !els.teamDrawerContent) return;
+  if (els.teamDrawerLayer.hidden) teamReturnFocus = document.activeElement;
   selectedTeamName = teamName;
   els.teamDrawerContent.innerHTML = teamProfileHtml(teamName);
   els.teamDrawerLayer.hidden = false;
@@ -2976,7 +3643,13 @@ function closeTeamProfile({ updateUrl = true } = {}) {
   document.body.classList.remove("team-drawer-open");
   selectedTeamName = null;
   if (updateUrl) updateProductUrl({ teamName: "" });
-  window.setTimeout(() => { if (!els.teamDrawerLayer.classList.contains("is-open")) els.teamDrawerLayer.hidden = true; }, 220);
+  window.setTimeout(() => {
+    if (!els.teamDrawerLayer.classList.contains("is-open")) {
+      els.teamDrawerLayer.hidden = true;
+      const target = teamReturnFocus?.isConnected && teamReturnFocus.checkVisibility() ? teamReturnFocus : els.openSearch;
+      target?.focus({ preventScroll: true });
+    }
+  }, motionDuration(180));
 }
 
 function compactStageName(value, fallback) {
@@ -3062,8 +3735,8 @@ function renderProductSearch(query = "") {
     const model = teamModel(teamName);
     return `<button type="button" data-search-team="${escapeHtml(teamName)}">${passiveTeamLogoHtml(teamName)}<span><b>${escapeHtml(teamName)}</b><small>${model.vrs_rank ? `#${model.vrs_rank} VRS` : "Team intelligence"}</small></span><em>Team</em></button>`;
   }).join("")}</section>`);
-  if (results.players.length) groups.push(`<section><header><span>Players</span><strong>${results.players.length}</strong></header>${results.players.map((player) => `<button type="button" data-search-player="${escapeHtml(player.player_id)}"><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(player.team_name)} · ${escapeHtml(playerRole(player))}</small></span><em>${Number.isFinite(Number(player.rating_3_0)) ? Number(player.rating_3_0).toFixed(2) : "--"}</em></button>`).join("")}</section>`);
-  if (results.events.length) groups.push(`<section><header><span>Events</span><strong>${results.events.length}</strong></header>${results.events.map((event) => `<button type="button" data-search-event="${escapeHtml(event.id)}"><i>${escapeHtml(eventDateParts(event).day)}</i><span><b>${escapeHtml(event.name)}</b><small>${escapeHtml(eventDateRange(event))} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"}</small></span><em>${escapeHtml(event.status || "event")}</em></button>`).join("")}</section>`);
+  if (results.players.length) groups.push(`<section><header><span>Players</span><strong>${results.players.length}</strong></header>${results.players.map((player) => `<button type="button" data-search-player="${escapeHtml(player.player_id)}"><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(player.team_name)} · ${escapeHtml(playerRole(player))}</small></span><em>${Number(player.rating_3_0) > 0 ? Number(player.rating_3_0).toFixed(2) : "--"}</em></button>`).join("")}</section>`);
+  if (results.events.length) groups.push(`<section><header><span>Events</span><strong>${results.events.length}</strong></header>${results.events.map((event) => `<button type="button" data-search-event="${escapeHtml(event.id)}"><i>${escapeHtml(eventDateParts(event).day)}</i><span><b>${escapeHtml(event.name)}</b><small>${escapeHtml(eventDateRange(event))} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"}</small></span><em>${escapeHtml(event.display_status || event.status || "event")}</em></button>`).join("")}</section>`);
   els.searchResults.innerHTML = groups.join("");
 }
 
@@ -3072,17 +3745,19 @@ function openProductSearch() {
   renderProductSearch(els.productSearch?.value || "");
   els.searchLayer.hidden = false;
   document.body.classList.add("search-open");
-  window.requestAnimationFrame(() => {
-    els.searchLayer.classList.add("is-open");
-    els.productSearch?.focus({ preventScroll: true });
-  });
+  els.searchLayer.classList.add("is-open");
+  els.productSearch?.focus({ preventScroll: true });
 }
 
 function closeProductSearch() {
   if (!els.searchLayer || els.searchLayer.hidden) return;
   els.searchLayer.classList.remove("is-open");
   document.body.classList.remove("search-open");
-  window.setTimeout(() => { if (!els.searchLayer.classList.contains("is-open")) els.searchLayer.hidden = true; }, 180);
+  els.searchLayer.hidden = true;
+  queueMicrotask(() => {
+    const otherDialog = [...document.querySelectorAll('[role="dialog"]')].some((dialog) => dialog.parentElement !== els.searchLayer && !dialog.parentElement.hidden);
+    if (!otherDialog && els.searchLayer.hidden) els.openSearch?.focus({ preventScroll: true });
+  });
 }
 
 function followedMatches() {
@@ -3116,9 +3791,26 @@ function myDeskEntityListsHtml() {
   }).join("");
   const events = watchlist.events.map((entry) => {
     const event = availableEvents().find((row) => row.id === entry.id);
-    return `<article><button type="button" data-desk-event="${escapeHtml(entry.id)}"><i>${escapeHtml(event ? eventDateParts(event).day : "--")}</i><span><strong>${escapeHtml(event?.name || entry.name)}</strong><small>${escapeHtml(event ? `${eventDateRange(event)} · ${event.status}` : "Event profile")}</small></span></button>${watchButtonHtml("events", entry.id, event?.name || entry.name, "is-icon-only")}</article>`;
+    return `<article><button type="button" data-desk-event="${escapeHtml(entry.id)}"><i>${escapeHtml(event ? eventDateParts(event).day : "--")}</i><span><strong>${escapeHtml(event?.name || entry.name)}</strong><small>${escapeHtml(event ? `${eventDateRange(event)} · ${event.display_status || event.status}` : "Event profile")}</small></span></button>${watchButtonHtml("events", entry.id, event?.name || entry.name, "is-icon-only")}</article>`;
   }).join("");
   return `<div class="my-desk-entities"><section><header><span>Teams</span><strong>${watchlist.teams.length}</strong></header>${teams || `<p>No followed teams.</p>`}</section><section><header><span>Players</span><strong>${watchlist.players.length}</strong></header>${players || `<p>No followed players.</p>`}</section><section><header><span>Events</span><strong>${watchlist.events.length}</strong></header>${events || `<p>No followed events.</p>`}</section></div>`;
+}
+
+function pickLineRead(key, pick, match) {
+  const record = matchSignalRecord(signalState, key);
+  const latestTeam1 = record?.latest?.prob_team1;
+  const closingTeam1 = record?.closing_prob_team1;
+  const isTeam1 = normalizeName(pick.team_name) === normalizeName(record?.team1_name || match?.team1_name);
+  const sideProbability = (value) => value == null ? null : isTeam1 ? Number(value) : 1 - Number(value);
+  const closing = sideProbability(closingTeam1);
+  const current = sideProbability(latestTeam1 ?? match?.prob_team1);
+  const shown = closing ?? current ?? Number(pick.probability);
+  const delta = Number.isFinite(shown) ? shown - Number(pick.probability) : 0;
+  return {
+    probability: shown,
+    delta,
+    label: closing != null ? "close" : "current",
+  };
 }
 
 function myDeskPicksHtml() {
@@ -3128,8 +3820,28 @@ function myDeskPicksHtml() {
   return `<div class="my-desk-picks">${rows.map(([key, pick]) => {
     const match = matches.get(key);
     const state = match ? savedPickState(match) : "pending";
-    return `<article class="is-${escapeHtml(state)}"><span>${escapeHtml(pick.event_name || "CS2 circuit")}<small>${escapeHtml(pick.starts_at ? formatDate(pick.starts_at) : "Series pending")}</small></span><strong>${escapeHtml(pick.team_name)}<small>vs ${escapeHtml(pick.opponent_name)}</small></strong><b>${formatPercent(pick.probability)}<small>${escapeHtml(state)}</small></b></article>`;
+    const line = pickLineRead(key, pick, match);
+    const movement = Math.abs(line.delta) >= 0.005 ? `${line.delta > 0 ? "+" : ""}${Math.round(line.delta * 100)} pts` : "flat";
+    return `<article class="is-${escapeHtml(state)}"><span>${escapeHtml(pick.event_name || "CS2 circuit")}<small>${escapeHtml(pick.starts_at ? formatDate(pick.starts_at) : "Series pending")}</small></span><strong>${escapeHtml(pick.team_name)}<small>vs ${escapeHtml(pick.opponent_name)}</small></strong><b>${formatPercent(line.probability)}<small>open ${formatPercent(pick.probability)} · ${escapeHtml(line.label)} ${escapeHtml(movement)} · ${escapeHtml(state)}</small></b></article>`;
   }).join("")}</div>`;
+}
+
+function myDeskSignalsHtml() {
+  const notifications = signalState.notifications.slice(0, 10);
+  const labels = {
+    probability_shift: "Line move",
+    veto_published: "Veto live",
+    lineup_change: "Roster",
+    match_live: "Live",
+    match_final: "Final",
+  };
+  if (!notifications.length) return `<section class="my-desk-signals"><header><div><span>Signal center</span><h3>No movement yet.</h3></div><strong>Watching ${watchlistCount(watchlist)} entities</strong></header><div class="my-desk-signal-empty"><i></i><span>Probability, veto, lineup, live, and result changes will land here.</span></div></section>`;
+  return `<section class="my-desk-signals"><header><div><span>Signal center</span><h3>What changed.</h3></div><strong>${unreadSignalCount(signalState)} new · ${notifications.length} recent</strong></header><div class="my-desk-signal-list">${notifications.map((item) => {
+    const record = matchSignalRecord(signalState, item.match_key);
+    const latest = record?.latest?.prob_team1;
+    const delta = Number(item.delta) || 0;
+    return `<button type="button" class="my-desk-signal ${item.read ? "" : "is-unread"}" data-desk-match="${escapeHtml(item.match_key)}"><span><i>${escapeHtml(labels[item.type] || "Update")}</i><small>${escapeHtml(formatDate(item.created_at))}</small></span><strong>${escapeHtml(item.detail)}<small>${escapeHtml(item.team1_name)} vs ${escapeHtml(item.team2_name)} · ${escapeHtml(item.event_name)}</small></strong><b>${item.type === "probability_shift" && latest != null ? `${delta > 0 ? "+" : ""}${Math.round(delta * 100)}<small>points</small>` : "→"}</b></button>`;
+  }).join("")}</div></section>`;
 }
 
 function renderMyDesk() {
@@ -3137,36 +3849,28 @@ function renderMyDesk() {
   const matches = followedMatches();
   const entityCount = watchlistCount(watchlist);
   const pendingPicks = Object.keys(savedPicks).length;
-  els.myDeskContent.innerHTML = `<section class="my-desk-hero"><div><span>Personal circuit</span><h2>${entityCount || pendingPicks ? "Your CS2 desk." : "Build your desk."}</h2><p>${entityCount || pendingPicks ? "Followed teams, players, events, and saved calls in one view." : "Follow any team, player, or event to start a personal match feed."}</p></div><aside><div><span>Following</span><strong>${entityCount}</strong></div><div><span>Next series</span><strong>${matches.length}</strong></div><div><span>Saved picks</span><strong>${pendingPicks}</strong></div></aside></section>
-    <section class="my-desk-grid"><div class="my-desk-feed"><header><span>Next on server</span><strong>${matches.length ? `${matches.length} relevant series` : "No scheduled series"}</strong></header>${matches.length ? matches.map(myDeskMatchHtml).join("") : `<div class="my-desk-empty"><span>Match feed</span><strong>Follow a team or active event.</strong></div>`}</div><div class="my-desk-ledger"><header><span>Prediction ledger</span><strong>${pendingPicks} saved</strong></header>${myDeskPicksHtml()}</div></section>
+  const unread = unreadSignalCount(signalState);
+  const incomingCount = pendingDeskImport ? watchlistCount(pendingDeskImport.watchlist) : 0;
+  const incomingPicks = pendingDeskImport ? Object.keys(pendingDeskImport.savedPicks).length : 0;
+  const importBanner = pendingDeskImport ? `<section class="desk-import-banner"><div><span>Shared desk ready</span><strong>${incomingCount} follows · ${incomingPicks} saved ${incomingPicks === 1 ? "pick" : "picks"}</strong></div><div><button type="button" data-dismiss-desk-import>Not now</button><button type="button" data-import-desk>Import shared desk</button></div></section>` : "";
+  els.myDeskContent.innerHTML = `${importBanner}<section class="my-desk-hero"><div class="my-desk-hero-copy"><h2>${entityCount || pendingPicks ? "Following" : "Follow a team"}</h2><p>${entityCount || pendingPicks ? "Matches and updates from the teams, players and events you follow." : "Follow a favorite to find their matches here. Your picks stay on this device."}</p>${entityCount || pendingPicks ? '<button type="button" class="my-desk-share" data-share-desk><i aria-hidden="true"></i><b>Share picks & follows</b></button>' : `<div class="suggested-follows">${(appData?.coverage?.vrs?.rankings || appData?.coverage?.vrs?.teams || []).slice(0, 4).map(row => `<div>${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong>${watchButtonHtml("teams", normalizeName(row.team_name), row.team_name)}</div>`).join("") || `<a class="button primary" href="#rankings" data-close-desk>Find a team to follow →</a>`}</div>`}</div><aside><div><span>Following</span><strong>${entityCount}</strong></div><div><span>Next series</span><strong>${matches.length}</strong></div><div><span>Saved picks</span><strong>${pendingPicks}</strong></div><div><span>New signals</span><strong>${unread}</strong></div></aside></section>
+    <section class="my-desk-grid"><div class="my-desk-feed"><header><span>Next on server</span><strong>${matches.length ? `${matches.length} relevant series` : "No scheduled series"}</strong></header>${matches.length ? matches.map(myDeskMatchHtml).join("") : `<div class="my-desk-empty"><span>Match feed</span><strong>Follow a team or active event.</strong></div>`}</div><div class="my-desk-ledger"><header><span>Saved picks</span><strong>${pendingPicks} saved</strong></header>${myDeskPicksHtml()}</div></section>
+    ${myDeskSignalsHtml()}
     ${myDeskEntityListsHtml()}`;
   syncWatchControls();
 }
 
 function openMyDesk() {
-  if (!els.myDeskLayer) return;
-  myDeskReturnFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null;
   closeProductSearch();
   if (els.vetoLabLayer && !els.vetoLabLayer.hidden) closeVetoLab();
   if (els.teamDrawerLayer && !els.teamDrawerLayer.hidden) closeTeamProfile({ updateUrl: false });
-  renderMyDesk();
-  els.myDeskLayer.hidden = false;
-  document.body.classList.add("my-desk-open");
-  window.requestAnimationFrame(() => {
-    els.myDeskLayer.classList.add("is-open");
-    els.myDeskClose?.focus({ preventScroll: true });
-  });
+  updateProductUrl({ hash: "picks", matchKey: "", eventId: "", view: "", playerId: "", teamName: "" });
+  productNavigation?.show("picks", { scroll: true, focus: true });
 }
 
 function closeMyDesk() {
   if (!els.myDeskLayer || els.myDeskLayer.hidden) return;
-  els.myDeskLayer.classList.remove("is-open");
-  document.body.classList.remove("my-desk-open");
-  window.setTimeout(() => {
-    if (!els.myDeskLayer.classList.contains("is-open")) els.myDeskLayer.hidden = true;
-    myDeskReturnFocus?.focus?.({ preventScroll: true });
-    myDeskReturnFocus = null;
-  }, 220);
+  updateProductUrl({ hash: "matches" });
 }
 
 function normalizeName(teamName) {
@@ -3180,10 +3884,16 @@ function normalizeName(teamName) {
 
 function updateSummary(data) {
   const event = activeEvent();
-  const verifiedAt = data.coverage?.last_verified_utc || data.generated_at_utc;
-  const generatedAt = new Date(verifiedAt);
-  const ageHours = Number.isNaN(generatedAt.getTime()) ? Infinity : (Date.now() - generatedAt.getTime()) / 3600000;
-  const isFresh = ageHours <= 12;
+  const verifiedAt = snapshotTimestamp(data);
+  const freshness = snapshotFreshness(verifiedAt);
+  const isFresh = freshness.fresh;
+  const sourceDate = freshness.timestamp ? new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" }).format(new Date(verifiedAt)) + " UTC" : "Unverified source time";
+  const sourceStatus = document.querySelector("#sourceStatus");
+  if (sourceStatus) sourceStatus.dataset.state = freshness.state;
+  setText(document.querySelector("#sourceStatusTitle"), isFresh ? "Recent source snapshot" : freshness.state === "stale" ? "Historical matches · live updates unavailable" : "Source freshness is unverified");
+  setText(document.querySelector("#sourceStatusDetail"), `${sourceDate}. ${isFresh ? "Match states reflect this check; updates are not continuous." : "Schedules and match states may have changed. New match picks are paused."}`);
+  setText(document.querySelector("#matchDataNote"), isFresh ? `Source checked ${sourceDate}. Match times use your local timezone.` : `As recorded ${sourceDate}. This is a historical slate, not today's schedule. Match times use your local timezone.`);
+  setText(document.querySelector("#footerDataStatus"), isFresh ? "Recent snapshot loaded" : "Historical data · see source status");
   const calls = dailyMatchCalls();
   const todayKey = localDateKey(new Date());
   const currentCalls = calls.filter((match) => localDateKey(match.starts_at) >= todayKey);
@@ -3193,52 +3903,47 @@ function updateSummary(data) {
   const productionAccuracy = data.model?.production?.metrics?.accuracy ?? data.model?.best_pre_match?.accuracy;
   const postVetoAccuracy = data.model?.best_post_veto?.accuracy;
   const productionModel = data.model_registry?.champion || data.model?.production || {};
-  const calibrationError = productionModel.metrics?.ece;
-  const holdoutRows = Number(productionModel.test_rows || 0);
-  setText(els.modelPre, formatPercent(productionAccuracy));
+  const monitoring = data.model_registry?.monitoring || {};
+  const currentMetrics = monitoring.champion_metrics || productionModel.metrics || {};
+  const currentAccuracy = currentMetrics.accuracy ?? productionAccuracy;
+  const calibrationError = currentMetrics.ece;
+  const holdoutRows = Number(monitoring.champion_test_rows || productionModel.test_rows || 0);
+  setText(els.modelPre, formatPercent(currentAccuracy));
   setText(els.modelPost, formatPercent(postVetoAccuracy));
   setText(els.modelCalibration, Number.isFinite(Number(calibrationError)) ? `${(Number(calibrationError) * 100).toFixed(1)} pts` : "--");
   setText(els.modelSample, holdoutRows ? holdoutRows.toLocaleString("en-US") : "--");
   setText(els.modelVersion, productionModel.version ? String(productionModel.version).replaceAll("-", " ") : "Production model");
-  setText(els.heroPre, formatPercent(productionAccuracy));
+  setText(els.heroPre, formatPercent(currentAccuracy));
   setText(els.heroPost, formatPercent(postVetoAccuracy));
-  setText(els.freshnessLabel, `${isFresh ? "Live check" : "Last check"} · ${formatDate(verifiedAt)}`);
+  setText(document.querySelector("#heroSample"), holdoutRows ? `${holdoutRows.toLocaleString("en-US")} test series · chronological holdout` : "Test sample not published");
+  setText(els.freshnessLabel, `${isFresh ? "Source checked" : "Last source check"} · ${freshness.timestamp ? formatDate(verifiedAt) : "unknown"}`);
   setText(els.slateCount, `${summaryCalls.length} series · ${currentCalls.length ? "current slate" : "latest archive"}`);
   setText(els.rankingSnapshot, `VRS · ${data.coverage?.vrs?.as_of ? dateOnlyFormatter.format(new Date(`${data.coverage.vrs.as_of}T12:00:00`)) : "pending"}`);
   setText(els.selectedEventName, event?.name || "Event desk");
   setText(els.selectedEventMeta, `${eventDateRange(event)} · ${event?.format?.label || "Organizer format pending"}`);
+  if (els.modelSlices) {
+    const slices = monitoring.champion_slices || [];
+    els.modelSlices.innerHTML = slices.length ? `<header><div><span>Current model window</span><h3>Accuracy by match type</h3></div><strong>${holdoutRows} chronological test series</strong></header><div>${slices.map((slice) => {
+      const accuracy = Number(slice.metrics?.accuracy);
+      const ece = Number(slice.metrics?.ece);
+      const eligible = slice.eligible === true;
+      return `<article class="${eligible ? "is-monitored" : "is-pending"}" style="--slice-accuracy:${Number.isFinite(accuracy) ? Math.round(accuracy * 100) : 0}%"><span>${escapeHtml(slice.label)}</span><strong>${Number.isFinite(accuracy) ? formatPercent(accuracy) : "--"}</strong><i><b></b></i><div><b>${slice.rows} series</b><small>${eligible && Number.isFinite(ece) ? `${(ece * 100).toFixed(1)} pt calibration` : "Sample pending"}</small></div></article>`;
+    }).join("")}</div>` : "";
+  }
   document.body.classList.toggle("snapshot-stale", !isFresh);
 }
 
 function installViewportSignals() {
-  const sections = [...document.querySelectorAll("main > section[id]")];
-  const navLinks = [...document.querySelectorAll('.top-nav a[href^="#"], .mobile-dock a[href^="#"]')];
-  if (!("IntersectionObserver" in window)) return;
-
-  const sectionObserver = new IntersectionObserver((entries) => {
-    entries.forEach((entry) => {
-      if (!entry.isIntersecting) return;
-      entry.target.classList.add("is-entered");
-      sectionObserver.unobserve(entry.target);
-    });
-  }, { threshold: 0.08, rootMargin: "0px 0px -12%" });
-  sections.forEach((section) => sectionObserver.observe(section));
-
-  let framePending = false;
-  const syncNavigation = () => {
-    framePending = false;
-    const active = sections.reduce((current, section) => section.getBoundingClientRect().top <= 180 ? section : current, sections[0]);
-    navLinks.forEach((link) => link.toggleAttribute("aria-current", link.getAttribute("href") === `#${active.id}`));
-  };
-  window.addEventListener("scroll", () => {
-    if (framePending) return;
-    framePending = true;
-    window.requestAnimationFrame(syncNavigation);
-  }, { passive: true });
-  navLinks.forEach((link) => link.addEventListener("click", () => {
-    navLinks.forEach((candidate) => candidate.toggleAttribute("aria-current", candidate === link));
-  }));
-  syncNavigation();
+  productNavigation = installProductNavigation({ onShow: (page) => {
+    if (page === "picks") {
+      renderMyDesk();
+      if (unreadSignalCount(signalState)) {
+        signalState = markSignalsRead(signalState);
+        persistSignalState();
+        syncWatchControls();
+      }
+    }
+  } });
 }
 
 function restoreProductLocation() {
@@ -3264,18 +3969,35 @@ function renderProjection(data) {
   if (["overview", "matches", "bracket", "format", "teams"].includes(requestedView)) activeEventView = requestedView;
   selectedPlayerId = locationParams.get("player") || selectedPlayerId;
   selectedTeamName = locationParams.get("team") || selectedTeamName;
-  const preferredEvent = events.find((event) => event.status === "ongoing")
-    || events.find((event) => event.status === "upcoming")
+  const requestedMatchKey = locationParams.get("match");
+  if (requestedMatchKey) {
+    const requestedMatch = dailyMatchCalls().find((match) => matchKeyOf(match) === requestedMatchKey);
+    if (requestedMatch) {
+      selectedMatchKey = requestedMatchKey;
+      selectedMatchDateKey = localDateKey(requestedMatch.starts_at);
+      currentMatchFilter = "all";
+      currentMatchEvent = "all";
+    }
+  }
+  const preferredEvent = events.find((event) => event.display_status === "ongoing")
+    || events.find((event) => event.display_status === "upcoming")
     || events[0];
   activeEventId = activeEventId && events.some((event) => event.id === activeEventId)
     ? activeEventId
     : preferredEvent?.id || null;
+  pickOverrides.clear();
+  if (eventHasMajorBoard(activeEvent())) {
+    parsePickemOverrides(locationParams.get("pickem")).forEach(([key, winner]) => pickOverrides.set(key, winner));
+  }
   buildTeamLookupMap();
   renderEventSelector(events);
   renderEvents(events);
   renderRankings(data.coverage?.vrs);
   renderDeciders(dailyMatchCalls());
   renderDynamicMajor();
+  if (!Object.keys(signalState.matches).length) {
+    recordMatchSignals(data.generated_at_utc || data.coverage?.last_verified_utc || new Date().toISOString());
+  }
 }
 
 function emptyNode(title, body) {
@@ -3367,7 +4089,7 @@ function sameLiveSeries(candidate, incoming) {
 function mergeLiveSeries(target, incoming) {
   const score1 = Number(incoming.score1);
   const score2 = Number(incoming.score2);
-  const hasScore = Number.isFinite(score1) && Number.isFinite(score2);
+  const hasScore = incoming.score1 != null && incoming.score2 != null && Number.isFinite(score1) && Number.isFinite(score2);
   const finished = liveMatchIsFinished(incoming);
   Object.assign(target, {
     match_id: incoming.match_id || target.match_id,
@@ -3467,6 +4189,9 @@ function mergeLivePlayers(players) {
 
 function applyLiveSnapshot(live) {
   if (!live?.ok || !appData) return false;
+  if (!canApplySnapshot(live.fetched_at_utc, snapshotTimestamp(appData))) return false;
+  if (!Array.isArray(live.matches)) return false;
+  appData.coverage ||= {};
   let changed = mergeLiveEvents(live.events);
   const playersChanged = mergeLivePlayers(live.players);
   changed = changed || playersChanged;
@@ -3497,7 +4222,9 @@ function applyLiveSnapshot(live) {
   });
 
   if (!changed) return false;
-  const checkedAt = live.fetched_at_utc || new Date().toISOString();
+  const checkedAt = live.fetched_at_utc;
+  if (playersChanged) playerSnapshot.lineups_updated_at_utc = checkedAt;
+  recordMatchSignals(checkedAt);
   appData.coverage.last_verified_utc = checkedAt;
   buildTeamLookupMap();
   renderEventSelector(availableEvents());
@@ -3506,11 +4233,11 @@ function applyLiveSnapshot(live) {
   if (playersChanged) {
     renderPlayerFilters();
     renderPlayers();
+    renderPlayerCompareTray();
   }
   renderDeciders(dailyMatchCalls());
   renderDynamicMajor();
   updateSummary(appData);
-  setText(els.freshnessLabel, `Live desk checked ${formatDate(checkedAt)}`);
   return true;
 }
 
@@ -3518,14 +4245,14 @@ async function refreshLiveSnapshot() {
   if (refreshLiveSnapshot.pending) return { supported: true, pollAfterMs: 180_000 };
   refreshLiveSnapshot.pending = true;
   try {
-    const response = await fetch("/api/live-snapshot", { cache: "no-store" });
+    const response = await fetch("/api/live-snapshot", { cache: "no-store", signal: AbortSignal.timeout(15_000) });
     if (response.status === 404 || response.status === 501) return { supported: false };
     if (!response.ok) return { supported: true, pollAfterMs: 300_000 };
     const live = await response.json();
-    applyLiveSnapshot(live);
-    return { supported: true, pollAfterMs: Math.max(60_000, Number(live.poll_after_ms) || 180_000) };
+    const applied = applyLiveSnapshot(live);
+    return { supported: true, applied, pollAfterMs: Math.max(60_000, Number(live.poll_after_ms) || 180_000) };
   } catch {
-    return { supported: false };
+    return { supported: true, failed: true, pollAfterMs: 300_000 };
   } finally {
     refreshLiveSnapshot.pending = false;
   }
@@ -3535,6 +4262,7 @@ function startLiveUpdater() {
   let timerId;
   let stopped = false;
   const refresh = async () => {
+    timerId = null;
     if (stopped) return;
     const result = document.hidden ? { supported: true, pollAfterMs: 300_000 } : await refreshLiveSnapshot();
     if (!result.supported) return;
@@ -3548,6 +4276,9 @@ function startLiveUpdater() {
     stopped = true;
     window.clearTimeout(timerId);
   }, { once: true });
+  window.addEventListener("pageshow", (event) => {
+    if (event.persisted) { stopped = false; refresh(); }
+  });
 }
 
 async function boot() {
@@ -3581,10 +4312,16 @@ async function boot() {
     restoreProductLocation();
     if (selectedTeamName) openTeamProfile(selectedTeamName, { updateUrl: false });
     document.body.classList.add("product-ready");
+    if (pendingDeskImport) window.requestAnimationFrame(openMyDesk);
+    else if (playerCompareIds.length === 2) window.requestAnimationFrame(openPlayerCompare);
     if (window.location.protocol !== "file:") startLiveUpdater();
   } catch (error) {
     document.body.classList.add("data-error");
     setText(els.freshnessLabel, "Projection failed to load");
+    setText(document.querySelector("#sourceStatusTitle"), "Snapshot could not be loaded");
+    setText(document.querySelector("#sourceStatusDetail"), "Check your connection, then reload the page to try again.");
+    const retry = document.querySelector("#refreshSource");
+    if (retry) { retry.disabled = false; retry.textContent = "Reload page"; }
     els.swissBoard?.append(emptyNode("Projection unavailable.", error.message));
   }
 }
@@ -3622,6 +4359,24 @@ els.playerTeamFilter?.addEventListener("change", (event) => {
   selectedPlayerId = null;
   renderPlayers();
 });
+
+document.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  const shareTrigger = event.target.closest("[data-copy-match-link]");
+  if (!shareTrigger) return;
+  event.preventDefault();
+  event.stopPropagation();
+  copyMatchLink(shareTrigger.dataset.copyMatchLink, shareTrigger);
+}, true);
+
+document.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  const shareTrigger = event.target.closest("[data-copy-event-link]");
+  if (!shareTrigger) return;
+  event.preventDefault();
+  event.stopPropagation();
+  copyEventLink(shareTrigger.dataset.copyEventLink, shareTrigger.dataset.eventShareView, shareTrigger);
+}, true);
 
 document.addEventListener("click", (event) => {
   if (!(event.target instanceof Element)) return;
@@ -3672,7 +4427,7 @@ document.addEventListener("click", (event) => {
   renderPlayerFilters();
   renderPlayers();
   updateProductUrl({ playerId, eventId: "", view: "", teamName: "", hash: "players" });
-  document.querySelector("#players")?.scrollIntoView({ block: "start", behavior: "smooth" });
+  document.querySelector("#players")?.scrollIntoView({ block: "start", behavior: motionDuration(1) ? "smooth" : "instant" });
 });
 
 document.addEventListener("click", (event) => {
@@ -3701,6 +4456,48 @@ document.addEventListener("keydown", (event) => {
   if (event.key === "Escape" && els.teamDrawerLayer && !els.teamDrawerLayer.hidden) closeTeamProfile();
 });
 
+document.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  const trigger = event.target.closest("[data-compare-player]");
+  if (!trigger?.dataset.comparePlayer) return;
+  event.preventDefault();
+  event.stopPropagation();
+  addPlayerToCompare(trigger.dataset.comparePlayer);
+}, true);
+
+els.playerCompareBackdrop?.addEventListener("click", () => closePlayerCompare());
+els.playerCompareClose?.addEventListener("click", () => closePlayerCompare());
+els.playerCompareTray?.addEventListener("click", (event) => {
+  if (!(event.target instanceof Element)) return;
+  if (event.target.closest("[data-open-player-compare]")) openPlayerCompare();
+  if (event.target.closest("[data-clear-player-compare]")) {
+    playerCompareIds = [];
+    renderPlayerCompareTray();
+    renderPlayers();
+    closePlayerCompare();
+  }
+});
+els.playerCompareContent?.addEventListener("click", async (event) => {
+  if (!(event.target instanceof Element)) return;
+  const button = event.target.closest("[data-share-player-compare]");
+  if (button instanceof HTMLButtonElement) await copyPlayerCompareLink(button);
+});
+els.playerCompareContent?.addEventListener("change", (event) => {
+  if (!(event.target instanceof HTMLSelectElement) || !event.target.matches("[data-compare-slot]")) return;
+  const slot = Number(event.target.dataset.compareSlot);
+  if (![0, 1].includes(slot) || playerCompareIds.includes(event.target.value)) return;
+  playerCompareIds[slot] = event.target.value;
+  els.playerCompareContent.innerHTML = playerCompareHtml();
+  installChartInteractions(document);
+  renderPlayerCompareTray();
+  renderPlayers();
+  syncPlayerCompareUrl(true);
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && els.playerCompareLayer && !els.playerCompareLayer.hidden) closePlayerCompare();
+});
+
 els.teamDrawerContent?.addEventListener("click", (event) => {
   if (!(event.target instanceof Element)) return;
   const teamPlayerTrigger = event.target.closest("[data-team-player]");
@@ -3709,14 +4506,15 @@ els.teamDrawerContent?.addEventListener("click", (event) => {
     const player = (playerSnapshot?.players || []).find((row) => row.player_id === teamPlayerTrigger.dataset.teamPlayer);
     if (player) {
       els.teamDrawerContent.innerHTML = teamPlayerProfileHtml(selectedTeamName, player);
-      els.teamDrawerContent.scrollTo({ top: 0, behavior: "smooth" });
+      installChartInteractions(document);
+      els.teamDrawerContent.scrollTo({ top: 0, behavior: motionDuration(1) ? "smooth" : "instant" });
     }
     return;
   }
   if (event.target.closest("[data-back-team]") && selectedTeamName) {
     event.preventDefault();
     els.teamDrawerContent.innerHTML = teamProfileHtml(selectedTeamName);
-    els.teamDrawerContent.scrollTo({ top: 0, behavior: "smooth" });
+    els.teamDrawerContent.scrollTo({ top: 0, behavior: motionDuration(1) ? "smooth" : "instant" });
     return;
   }
   const fullPlayerTrigger = event.target.closest("[data-open-full-player]");
@@ -3731,7 +4529,7 @@ els.teamDrawerContent?.addEventListener("click", (event) => {
     renderPlayerFilters();
     renderPlayers();
     updateProductUrl({ playerId, eventId: "", view: "", teamName: "", hash: "players" });
-    document.querySelector("#players")?.scrollIntoView({ block: "start", behavior: "smooth" });
+    document.querySelector("#players")?.scrollIntoView({ block: "start", behavior: motionDuration(1) ? "smooth" : "instant" });
     return;
   }
   const eventTrigger = event.target.closest("[data-open-event]");
@@ -3752,8 +4550,8 @@ els.teamDrawerContent?.addEventListener("click", (event) => {
   currentMatchEvent = "all";
   closeTeamProfile({ updateUrl: false });
   renderDeciders(dailyMatchCalls());
-  updateProductUrl({ teamName: "", playerId: "", eventId: "", view: "", hash: "matches" });
-  document.querySelector("#matches")?.scrollIntoView({ block: "start", behavior: "smooth" });
+  updateProductUrl({ matchKey: selectedMatchKey, teamName: "", playerId: "", eventId: "", view: "", hash: "matches" });
+  document.querySelector("#matches")?.scrollIntoView({ block: "start", behavior: motionDuration(1) ? "smooth" : "instant" });
 });
 
 els.teamDrawerContent?.addEventListener("change", (event) => {
@@ -3768,8 +4566,30 @@ els.openSearch?.addEventListener("click", openProductSearch);
 els.openMyDesk?.addEventListener("click", openMyDesk);
 els.myDeskBackdrop?.addEventListener("click", closeMyDesk);
 els.myDeskClose?.addEventListener("click", closeMyDesk);
-els.myDeskContent?.addEventListener("click", (event) => {
+els.myDeskContent?.addEventListener("click", async (event) => {
   if (!(event.target instanceof Element)) return;
+  const shareDesk = event.target.closest("[data-share-desk]");
+  if (shareDesk instanceof HTMLButtonElement) {
+    await copyDeskLink(shareDesk);
+    return;
+  }
+  if (event.target.closest("[data-import-desk]") && pendingDeskImport) {
+    const merged = mergeDeskState(watchlist, savedPicks, pendingDeskImport);
+    watchlist = merged.watchlist;
+    savedPicks = merged.savedPicks;
+    pendingDeskImport = null;
+    clearDeskLinkParam();
+    persistWatchlist();
+    persistSavedPicks();
+    renderMyDesk();
+    return;
+  }
+  if (event.target.closest("[data-dismiss-desk-import]")) {
+    pendingDeskImport = null;
+    clearDeskLinkParam();
+    renderMyDesk();
+    return;
+  }
   if (event.target.closest("[data-close-desk]")) {
     closeMyDesk();
     return;
@@ -3790,10 +4610,12 @@ els.myDeskContent?.addEventListener("click", (event) => {
   currentMatchEvent = "all";
   closeMyDesk();
   renderDeciders(dailyMatchCalls());
-  updateProductUrl({ eventId: "", view: "", playerId: "", teamName: "", hash: "matches" });
-  document.querySelector("#matches")?.scrollIntoView({ block: "start", behavior: "smooth" });
+  updateProductUrl({ matchKey: selectedMatchKey, eventId: "", view: "", playerId: "", teamName: "", hash: "matches" });
+  document.querySelector("#matches")?.scrollIntoView({ block: "start", behavior: motionDuration(1) ? "smooth" : "instant" });
 });
 els.searchBackdrop?.addEventListener("click", closeProductSearch);
+document.querySelector("#searchClose")?.addEventListener("click", closeProductSearch);
+document.querySelector("#mobileMyDesk")?.addEventListener("click", openMyDesk);
 els.productSearch?.addEventListener("input", (event) => renderProductSearch(event.target.value || ""));
 els.searchResults?.addEventListener("click", (event) => {
   if (!(event.target instanceof Element)) return;
@@ -3814,7 +4636,7 @@ els.searchResults?.addEventListener("click", (event) => {
     renderPlayerFilters();
     renderPlayers();
     updateProductUrl({ playerId, teamName: "", eventId: "", view: "", hash: "players" });
-    document.querySelector("#players")?.scrollIntoView({ block: "start", behavior: "smooth" });
+    document.querySelector("#players")?.scrollIntoView({ block: "start", behavior: motionDuration(1) ? "smooth" : "instant" });
     return;
   }
   if (eventId) {
@@ -3825,7 +4647,7 @@ els.searchResults?.addEventListener("click", (event) => {
 
 document.addEventListener("keydown", (event) => {
   const target = event.target;
-  const isTyping = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement;
+  const isTyping = target instanceof HTMLInputElement || target instanceof HTMLTextAreaElement || target instanceof HTMLSelectElement || target?.isContentEditable;
   if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
     event.preventDefault();
     els.searchLayer?.classList.contains("is-open") ? closeProductSearch() : openProductSearch();
@@ -3838,21 +4660,33 @@ document.addEventListener("keydown", (event) => {
   }
   if (event.key === "Escape" && els.searchLayer && !els.searchLayer.hidden) closeProductSearch();
   if (event.key === "Escape" && els.myDeskLayer && !els.myDeskLayer.hidden) closeMyDesk();
-  if (event.key === "Tab" && els.myDeskLayer?.classList.contains("is-open")) {
-    const focusable = [...els.myDeskLayer.querySelectorAll('button:not([disabled]), a[href], input:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])')]
-      .filter((element) => element instanceof HTMLElement && element.offsetParent !== null);
-    if (!focusable.length) return;
-    const first = focusable[0];
-    const last = focusable.at(-1);
-    if (event.shiftKey && document.activeElement === first) {
-      event.preventDefault();
-      last.focus();
-    } else if (!event.shiftKey && document.activeElement === last) {
-      event.preventDefault();
-      first.focus();
-    }
-  }
 });
+
+els.searchLayer?.addEventListener("keydown", (event) => {
+  if (!["ArrowDown", "ArrowUp"].includes(event.key)) return;
+  const results = [...els.searchResults.querySelectorAll("button")];
+  if (!results.length) return;
+  event.preventDefault();
+  const index = results.indexOf(document.activeElement);
+  const next = index < 0 ? (event.key === "ArrowDown" ? 0 : results.length - 1) : (index + (event.key === "ArrowDown" ? 1 : -1) + results.length) % results.length;
+  results[next].focus();
+});
+
+document.querySelector("#refreshSource")?.addEventListener("click", async (event) => {
+  if (!appData) { window.location.reload(); return; }
+  const button = event.currentTarget;
+  button.disabled = true;
+  button.textContent = "Checking…";
+  const result = await refreshLiveSnapshot();
+  updateSummary(appData);
+  renderDeciders(dailyMatchCalls());
+  button.disabled = false;
+  button.textContent = "Check for updates";
+  setText(document.querySelector("#sourceRefreshResult"), result.applied ? "Published snapshot checked." : result.failed || !result.supported ? "Update service unavailable. The saved snapshot is still available." : "No newer verified snapshot is available.");
+});
+
+installInputMode(document);
+installDialogFocus(document);
 
 els.eventFilterButtons.forEach((button) => {
   button.addEventListener("click", async () => {
@@ -3875,8 +4709,11 @@ els.archiveSearch?.addEventListener("input", () => {
 
 els.resetPicks?.addEventListener("click", () => {
   pickOverrides.clear();
+  syncPickemRoute();
   renderDynamicMajor();
 });
+
+els.sharePickem?.addEventListener("click", () => copyPickemLink(els.sharePickem));
 
 els.rankingToggle?.addEventListener("click", () => {
   rankingsExpanded = !rankingsExpanded;
@@ -3884,9 +4721,14 @@ els.rankingToggle?.addEventListener("click", () => {
 });
 
 async function fetchPredictionData() {
-  const response = await fetch(DATA_URL, { cache: "no-store" });
-  if (!response.ok) throw new Error(`Prediction snapshot failed with ${response.status}`);
-  return response.json();
+  try {
+    const response = await fetch(DATA_URL, { cache: "no-store", signal: AbortSignal.timeout(15_000) });
+    if (!response.ok) throw new Error(`Prediction snapshot failed with ${response.status}`);
+    return await response.json();
+  } catch (error) {
+    if (window.__STRIKESIGNAL_DATA__) return window.__STRIKESIGNAL_DATA__;
+    throw error;
+  }
 }
 
 async function fetchCoverageData() {

@@ -1,0 +1,52 @@
+/* Compact surfaces use the same typography and fixed accent as the main app. */
+@font-face { font-family: Sora; font-style: normal; font-weight: 400 700; font-display: swap; src: url('../fonts/sora-latin.woff2') format('woff2'); }
+:root { color-scheme: light; --bg:#f4f3ef; --surface:#fff; --surface-2:#ecebe7; --line:#deddd7; --ink:#20201e; --muted:#65645f; --blue:#a33b12; --blue-2:#ff6b35; --green:#267356; --red:#b73551; --body:Sora,system-ui,sans-serif; --display:var(--body); --mono:var(--body); }
+:root[data-theme="dark"] { color-scheme:dark; --bg:#181818; --surface:#212121; --surface-2:#2b2b2a; --line:#383837; --ink:#f1f0ec; --muted:#adaca6; --blue:#ff8c62; --blue-2:#ff6b35; --green:#78cba4; --red:#f391a5; }
+body { font-variant-numeric:tabular-nums; }
+.embed-card,.bracket-embed { background:var(--bg); box-shadow:none; border-radius:10px; }
+.embed-card::before,.bracket-embed::before { display:none; }
+.brand { font-size:12px; }
+.brand i { background:var(--blue-2); transform:none; border-radius:3px; }
+header > span,.embed-head > span { border-color:var(--line); font-size:10px; text-transform:none; }
+.event-line { font-size:11px; text-transform:none; padding-block:12px; }
+.event-line span { color:var(--muted); white-space:normal; }
+.matchup article strong { font-weight:600; font-size:clamp(16px,3.5vw,26px); line-height:1.25; letter-spacing:normal; text-transform:none; white-space:normal; overflow-wrap:anywhere; }
+.matchup article > b { color:var(--ink); font-weight:600; }
+.matchup > div span,.matchup > div b { font-size:10px; text-transform:none; }
+.matchup > div strong { font-size:20px; line-height:1.25; font-weight:600; text-transform:none; }
+.team-fallback { color:var(--ink); background:var(--surface-2); border-radius:5px; font-size:11px; }
+.probability-track { background:var(--line); }
+.probability-track i { background:var(--muted); animation:none; }
+footer { padding-block:14px; font-size:10px; line-height:1.6; text-transform:none; }
+footer > span b { background:var(--surface-2); }
+footer a { display:inline-flex; align-items:center; min-height:44px; }
+footer i.is-live { box-shadow:none; }
+.event-head h1 { font:600 clamp(24px,4vw,36px)/1.2 var(--body); letter-spacing:normal; text-transform:none; text-wrap:balance; }
+.event-head span,.event-head p { font-size:11px; text-transform:none; line-height:1.6; }
+.event-head aside b,.event-head aside strong { font-size:23px; }
+.stage-rail article { background:var(--surface); }
+.stage-rail span,.stage-rail b { font-size:9px; text-transform:none; }
+.stage-rail strong { font-size:12px; }
+.stage-rail article.is-active::after { animation:none; transform:scaleX(1); }
+.lane-tabs { background:var(--surface); }
+.lane-tabs button { min-height:44px; font-size:11px; text-transform:none; border-radius:5px; }
+.lane-tabs button b { font-size:10px; }
+.lane-tabs button.is-active { background:var(--surface-2); border-color:var(--blue); }
+.bracket-round > header span,.bracket-round > header b,.round-group > span { font-size:9px; text-transform:none; }
+.bracket-round > header strong { font-size:11px; text-transform:none; }
+.bracket-match { border-radius:6px; transition:none; }
+a.bracket-match:hover { transform:none; border-color:var(--blue); }
+.match-state { font-size:8px; }
+.bracket-team { min-height:48px; border-color:var(--line); }
+.bracket-team strong { font-size:11px; }
+.bracket-team b { font-size:12px; }
+.bracket-team.is-winner { background:var(--surface-2); }
+.embed-loading span,.is-error span { font-size:12px; text-transform:none; }
+.is-error h1 { font:600 28px/1.2 var(--body); text-transform:none; }
+.is-error p { font-size:12px; line-height:1.6; }
+.is-error a { font-size:12px; min-height:44px; display:grid; place-items:center; }
+:focus-visible { outline:2px solid var(--blue); outline-offset:3px; }
+@media (max-width:520px) {
+  .matchup article,.matchup article:last-child { grid-template-columns:1fr; text-align:center; justify-items:center; gap:8px; }
+  .matchup article:last-child img,.matchup article:last-child .team-fallback,.matchup img,.team-fallback { grid-column:1; grid-row:1; }
+}

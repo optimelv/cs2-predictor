@@ -525,6 +525,7 @@ def portable_model_probability(
     baseline: float,
 ) -> float:
     kind = champion.get("kind")
+    probability = baseline
     if kind == "portable_logistic_blend":
         selected = champion.get("features") or []
         mean = champion.get("mean") or []
@@ -560,10 +561,13 @@ def portable_model_probability(
                 return baseline
             raw += safe_float(champion.get("learning_rate")) * safe_float(leaf_values[node])
         model_probability = sigmoid(raw)
-    else:
-        return baseline
-    blend_weight = max(0.0, min(1.0, safe_float(champion.get("blend_weight"), 1.0)))
-    return blend_weight * model_probability + (1.0 - blend_weight) * baseline
+    if kind in {"portable_logistic_blend", "portable_gbdt_blend"}:
+        blend_weight = max(0.0, min(1.0, safe_float(champion.get("blend_weight"), 1.0)))
+        probability = blend_weight * model_probability + (1.0 - blend_weight) * baseline
+    shrink = safe_float((champion.get("segment_calibration") or {}).get("tier_2_shrink"), 1.0)
+    if safe_float(features.get("is_tier2")) == 1.0:
+        probability = 0.5 + max(0.0, min(1.0, shrink)) * (probability - 0.5)
+    return probability
 
 
 def projection_probability(
@@ -606,6 +610,9 @@ def projection_probability(
         "is_lan": int(str(context.get("event_type") or "").casefold() == "lan"),
         "is_playoff": is_playoff,
         "is_elimination_match": is_elimination,
+        "is_tier2": int(str(context.get("product_tier") or context.get("tier") or "").casefold() in {"tier_2", "tier 2", "t2"}),
+        "is_bo1": int(best_of == 1),
+        "is_bo5": int(best_of == 5),
     }
     probability = portable_model_probability(model_state.get("portable_model") or {}, features, baseline)
     if not team1["has_state"] or not team2["has_state"]:
@@ -1369,6 +1376,8 @@ def simulate_stage3_swiss(model_state: dict[str, Any], connection: sqlite3.Conne
     ]
     final_records.sort(key=lambda row: (-row["wins"], row["losses"], row["seed"]))
     return {
+        "event_id": "iem-cologne-major-2026",
+        "event_name": "IEM Cologne Major 2026",
         "stage": "IEM Cologne Major 2026 Stage 3",
         "generated_from": "current_stage3_state_plus_model_projection",
         "format": "16-team Swiss, all BO3, top eight advance",
@@ -1473,6 +1482,8 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
     predicted_winner = team1 if probability >= 0.5 else team2
     timestamp = timestamp_from_api_item(item)
     match_date = datetime.fromtimestamp(timestamp, tz=timezone.utc).date().isoformat() if timestamp else ""
+    portable_model = model_state.get("portable_model") or {}
+    calibration = portable_model.get("segment_calibration") or {}
     return {
         "match_id": item.get("match_id") or item.get("matchId") or item.get("id") or "",
         "match_date": match_date,
@@ -1480,6 +1491,7 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
         "starts_at": item.get("starts_at") or item.get("startsAt") or item.get("date"),
         "event_id": item.get("event_id") or item.get("eventId") or "",
         "event_name": event_name_from_api_item(item),
+        "product_tier": product_tier_from_feed(item),
         "stage_name": str(item.get("stage") or item.get("stage_name") or ""),
         "round_name": str(item.get("round") or item.get("round_name") or ""),
         "match_phase": str(item.get("match_phase") or item.get("phase") or "scheduled"),
@@ -1498,6 +1510,9 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
         "confidence_label": confidence_label(probability),
         "predicted_winner": predicted_winner,
         "model": "live_snapshot_power_bounded",
+        "model_version": portable_model.get("version"),
+        "calibration_version": calibration.get("version"),
+        "calibration_shrink": calibration.get("tier_2_shrink") if product_tier_from_feed(item) == "tier_2" else None,
         "mode": "api_feed_snapshot_state",
         "data_quality": "full" if state1 and state2 else "partial",
         "source": str(item.get("source") or "hltv_live_snapshot"),
@@ -1545,11 +1560,21 @@ def refresh_model_state_from_feed(payload: dict[str, Any], items: list[dict[str,
     applied = list(model_state.get("applied_result_ids") or [])
     applied_set = set(applied)
     loaded = 0
-    finished_items = sorted(items, key=lambda item: timestamp_from_api_item(item) or 0)
-    for item in finished_items:
+    # A result without a source timestamp cannot be placed in the model's
+    # chronological state. Do not order it at Unix epoch or stamp it with
+    # export time: that would turn an unresolved/legacy row into a fresh
+    # online result. Keep the row available to the snapshot merge, but only
+    # apply model updates when the feed supplies a valid anchor.
+    timestamped_items = [
+        (item, timestamp)
+        for item in items
+        if (timestamp := timestamp_from_api_item(item)) and timestamp > 0
+    ]
+    finished_items = sorted(timestamped_items, key=lambda pair: pair[1])
+    for item, result_timestamp in finished_items:
         status = str(item.get("status") or "").casefold()
         score1, score2 = oriented_api_scores(item, team_name_from_api_item(item, 1))
-        if status not in {"finished", "completed", "final", "ended"} and (score1 is None or score2 is None):
+        if status not in {"finished", "completed", "final", "ended"}:
             continue
         if score1 is None or score2 is None or score1 == score2 or product_tier_from_feed(item) not in {"tier_1", "tier_2"}:
             continue
@@ -1586,11 +1611,15 @@ def refresh_model_state_from_feed(payload: dict[str, Any], items: list[dict[str,
         delta = 22.0 * series_margin * (actual1 - expected1)
         row1["elo"] = round(elo1 + delta, 2)
         row2["elo"] = round(elo2 - delta, 2)
+        result_time_text = next(
+            (item.get(key) for key in ("starts_at", "startsAt", "date", "matchDate") if item.get(key)),
+            datetime.fromtimestamp(result_timestamp, tz=timezone.utc).isoformat().replace("+00:00", "Z"),
+        )
         for row, result in ((row1, actual1), (row2, 1.0 - actual1)):
             recent = safe_float(row.get("recent_win_rate_10"), 0.5)
             row["recent_win_rate_10"] = round(recent + (2.0 / 11.0) * (result - recent), 4)
             row["matches"] = (safe_int(row.get("matches"), 0) or 0) + 1
-            row["last_result_utc"] = item.get("starts_at") or item.get("startsAt") or utc_now()
+            row["last_result_utc"] = result_time_text
         applied.append(identity)
         applied_set.add(identity)
         loaded += 1
@@ -1601,15 +1630,134 @@ def refresh_model_state_from_feed(payload: dict[str, Any], items: list[dict[str,
     return loaded
 
 
+def has_live_value(value: Any) -> bool:
+    return value not in (None, "", [], {})
+
+
+def merge_live_match(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    merged = dict(existing)
+    for key, value in incoming.items():
+        if has_live_value(value) or key in {"score1", "score2"} and value == 0:
+            merged[key] = value
+    generic_stage = str(incoming.get("stage_name") or "").casefold() in {"scheduled series", "completed series"}
+    if generic_stage and has_live_value(existing.get("stage_name")):
+        merged["stage_name"] = existing["stage_name"]
+    if not has_live_value(incoming.get("round_name")) and has_live_value(existing.get("round_name")):
+        merged["round_name"] = existing["round_name"]
+    return merged
+
+
+def format_quality(value: Any) -> int:
+    if not isinstance(value, dict):
+        return 0
+    format_type = str(value.get("type") or "").casefold()
+    label = str(value.get("label") or "").casefold()
+    score = 0
+    if format_type and format_type != "mixed":
+        score += 4
+    if value.get("stages"):
+        score += 3
+    if label and label not in {"event schedule", "format pending", "stage structure to be confirmed"}:
+        score += 2
+    if value.get("confidence"):
+        score += 1
+    return score
+
+
+def merge_event_bracket(existing: Any, incoming: Any) -> Any:
+    if not isinstance(incoming, dict) or not incoming.get("rounds"):
+        return existing
+    if not isinstance(existing, dict) or not existing.get("rounds"):
+        return incoming
+    rounds: dict[str, dict[str, Any]] = {}
+    order: list[str] = []
+    for source_round in [*(existing.get("rounds") or []), *(incoming.get("rounds") or [])]:
+        key = str(source_round.get("id") or f"{source_round.get('bracket', 'main')}:{source_round.get('name', '')}").casefold()
+        if key not in rounds:
+            rounds[key] = dict(source_round)
+            order.append(key)
+            continue
+        current = rounds[key]
+        matches = {str(row.get("match_id") or result_identity(row)): row for row in current.get("matches") or []}
+        for match in source_round.get("matches") or []:
+            match_key = str(match.get("match_id") or result_identity(match))
+            matches[match_key] = merge_live_match(matches.get(match_key, {}), match)
+        rounds[key] = {**current, **{field: value for field, value in source_round.items() if has_live_value(value)}, "matches": list(matches.values())}
+    return {
+        **existing,
+        **{field: value for field, value in incoming.items() if field != "rounds" and has_live_value(value)},
+        "rounds": [rounds[key] for key in order],
+    }
+
+
+def merge_event_snapshot(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    merged = dict(existing)
+    if not merged.get("id") and incoming.get("id"):
+        merged["id"] = incoming["id"]
+    for key, value in incoming.items():
+        if key not in {"participants", "matches", "format", "bracket", "status", "current_stage", "id"} and has_live_value(value):
+            merged[key] = value
+
+    participants = []
+    seen_participants: set[str] = set()
+    for team in [*(existing.get("participants") or []), *(incoming.get("participants") or [])]:
+        key = normalize_team_name(str(team))
+        if key and key not in seen_participants:
+            seen_participants.add(key)
+            participants.append(team)
+    if participants:
+        merged["participants"] = participants
+    merged["teams"] = max(safe_int(existing.get("teams"), 0) or 0, safe_int(incoming.get("teams"), 0) or 0, len(participants)) or None
+
+    existing_matches = {str(row.get("match_id") or result_identity(row)): row for row in existing.get("matches") or []}
+    for match in incoming.get("matches") or []:
+        key = str(match.get("match_id") or result_identity(match))
+        existing_matches[key] = merge_live_match(existing_matches.get(key, {}), match)
+    if existing_matches:
+        merged["matches"] = list(existing_matches.values())
+
+    existing_format = existing.get("format")
+    incoming_format = incoming.get("format")
+    merged["format"] = incoming_format if format_quality(incoming_format) >= format_quality(existing_format) else existing_format
+    merged["bracket"] = merge_event_bracket(existing.get("bracket"), incoming.get("bracket"))
+
+    old_status = str(existing.get("status") or "")
+    new_status = str(incoming.get("status") or "")
+    if new_status == "ongoing":
+        merged["status"] = "ongoing"
+    elif old_status in {"ongoing", "finished"}:
+        merged["status"] = old_status
+    elif new_status:
+        merged["status"] = new_status
+
+    incoming_stage = str(incoming.get("current_stage") or "")
+    if incoming_stage and incoming_stage.casefold() not in {"schedule", "scheduled series", "completed series"}:
+        merged["current_stage"] = incoming_stage
+    elif existing.get("current_stage"):
+        merged["current_stage"] = existing["current_stage"]
+    return merged
+
+
 def merge_live_snapshot_coverage(payload: dict[str, Any], feed_path: Path, items: list[dict[str, Any]]) -> None:
     raw = read_json(feed_path)
     coverage = payload.setdefault("coverage", coverage_snapshot())
-    existing_events = {str(event.get("id") or normalize_team_name(str(event.get("name") or ""))): event for event in coverage.get("events") or []}
+    existing_events: dict[str, dict[str, Any]] = {}
+    event_key_by_name: dict[str, str] = {}
+    for event in coverage.get("events") or []:
+        name_key = normalize_team_name(str(event.get("name") or ""))
+        key = event_key_by_name.get(name_key) or str(event.get("id") or name_key)
+        existing_events[key] = merge_event_snapshot(existing_events.get(key, {}), event)
+        if name_key:
+            event_key_by_name[name_key] = key
     for event in raw.get("events") or []:
         if not isinstance(event, dict) or product_tier_from_feed(event) not in {"tier_1", "tier_2"}:
             continue
-        key = str(event.get("id") or normalize_team_name(str(event.get("name") or "")))
-        existing_events[key] = {**existing_events.get(key, {}), **event, "product_tier": product_tier_from_feed(event)}
+        name_key = normalize_team_name(str(event.get("name") or ""))
+        key = event_key_by_name.get(name_key) or str(event.get("id") or name_key)
+        incoming = {**event, "product_tier": product_tier_from_feed(event)}
+        existing_events[key] = merge_event_snapshot(existing_events.get(key, {}), incoming)
+        if name_key:
+            event_key_by_name[name_key] = key
     coverage["events"] = list(existing_events.values())
 
     eligible_event_ids = {str(event.get("id")) for event in coverage["events"] if product_tier_from_feed(event) in {"tier_1", "tier_2"}}
@@ -1618,7 +1766,7 @@ def merge_live_snapshot_coverage(payload: dict[str, Any], feed_path: Path, items
         if str(item.get("event_id") or "") not in eligible_event_ids and product_tier_from_feed(item) not in {"tier_1", "tier_2"}:
             continue
         key = str(item.get("match_id") or result_identity(item))
-        existing_matches[key] = {**existing_matches.get(key, {}), **item}
+        existing_matches[key] = merge_live_match(existing_matches.get(key, {}), item)
     coverage["daily_matches"] = sorted(existing_matches.values(), key=lambda item: timestamp_from_api_item(item) or 0)[-180:]
     coverage["last_verified_utc"] = raw.get("fetched_at_utc") or utc_now()
 

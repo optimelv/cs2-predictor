@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import { snapshotFreshness, snapshotTimestamp, canApplySnapshot, pickEligibility, FRESH_WINDOW_MS } from '../docs/lib/freshness.js';
+const now = Date.parse('2026-09-16T12:00:00Z');
+const at = (offset) => new Date(now + offset).toISOString();
+for (const bad of [undefined, null, '', 'bad', 0, at(1)]) assert.equal(snapshotFreshness(bad, now).state, 'unknown');
+assert.equal(snapshotFreshness(at(-FRESH_WINDOW_MS), now).fresh, true);
+assert.equal(snapshotFreshness(at(-FRESH_WINDOW_MS - 1), now).state, 'stale');
+assert.equal(snapshotFreshness(at(0), now).fresh, true);
+assert.equal(snapshotTimestamp({ coverage: { last_verified_utc: '' }, generated_at_utc: at(0) }), '');
+assert.equal(canApplySnapshot(at(-10), at(0), now), false);
+assert.equal(canApplySnapshot(at(0), at(-10), now), true);
+assert.equal(canApplySnapshot(undefined, at(-10), now), false);
+const fresh = snapshotFreshness(at(0), now);
+const match = { status: 'upcoming', starts_at: at(3600000), prob_team1: 0.6 };
+assert.equal(pickEligibility(match, fresh, now).allowed, true);
+for (const change of [{ status: 'finished' }, { status: 'live' }, { starts_at: at(0) }, { starts_at: null }, { prob_team1: null }, { prob_team1: NaN }, { prob_team1: 1 }, { model_coverage: 'limited' }]) assert.equal(pickEligibility({ ...match, ...change }, fresh, now).allowed, false);
+assert.equal(pickEligibility(match, snapshotFreshness(at(-86400000), now), now).allowed, false);
+console.log('Freshness, monotonic snapshot and pick eligibility tests passed');

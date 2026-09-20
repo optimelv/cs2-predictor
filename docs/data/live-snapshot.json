@@ -87,13 +87,13 @@
           "starts_at": "2026-09-20T21:00:00Z",
           "status": "upcoming",
           "team1_name": "RUSH",
-          "team2_name": "QUINTESSÊNCIA"
+          "team2_name": "QUINTESS\u00caNCIA"
         }
       ],
       "name": "CCT 2026 Challengers South America Series 3",
       "participants": [
         "RUSH",
-        "QUINTESSÊNCIA"
+        "QUINTESS\u00caNCIA"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -461,7 +461,7 @@
           "starts_at": "2026-09-22T19:00:00Z",
           "status": "upcoming",
           "team1_name": "MIBR fe",
-          "team2_name": "QUINTESSÊNCIA"
+          "team2_name": "QUINTESS\u00caNCIA"
         },
         {
           "event_id": "hltv:9425",
@@ -493,7 +493,7 @@
           "starts_at": "2026-09-23T13:00:00Z",
           "status": "upcoming",
           "team1_name": "ALKA",
-          "team2_name": "Grêmio"
+          "team2_name": "Gr\u00eamio"
         },
         {
           "event_id": "hltv:9425",
@@ -551,11 +551,11 @@
         "BORRACHEIROS",
         "DAMAJUANA",
         "MIBR fe",
-        "QUINTESSÊNCIA",
+        "QUINTESS\u00caNCIA",
         "BESTIA Academy",
         "Zetta",
         "ALKA",
-        "Grêmio",
+        "Gr\u00eamio",
         "METANOIA Wolves",
         "Procyon",
         "Peladona",
@@ -638,7 +638,7 @@
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-22T21:00:00Z",
           "status": "upcoming",
-          "team1_name": "Grêmio",
+          "team1_name": "Gr\u00eamio",
           "team2_name": "Keyd Stars"
         },
         {
@@ -714,7 +714,7 @@
         "Yawara",
         "Isurus",
         "METANOIA Wolves",
-        "Grêmio",
+        "Gr\u00eamio",
         "Keyd Stars",
         "ODDIK",
         "Sementes do Mal",
@@ -973,7 +973,7 @@
           "stage_name": "Completed series",
           "starts_at": null,
           "status": "finished",
-          "team1_name": "Honvéd",
+          "team1_name": "Honv\u00e9d",
           "team2_name": "Bushido Wildcats",
           "winner_name": "Bushido Wildcats"
         },
@@ -1088,7 +1088,7 @@
         "Spirit Academy",
         "Leo",
         "NAVI Junior",
-        "Honvéd",
+        "Honv\u00e9d",
         "Bushido Wildcats",
         "Nexus",
         "Permitta",
@@ -1127,8 +1127,8 @@
           "starts_at": null,
           "status": "finished",
           "team1_name": "MEIA NOITE",
-          "team2_name": "QUINTESSÊNCIA",
-          "winner_name": "QUINTESSÊNCIA"
+          "team2_name": "QUINTESS\u00caNCIA",
+          "winner_name": "QUINTESS\u00caNCIA"
         },
         {
           "event_id": "hltv:cct-2026-challengers-south-america-series-3",
@@ -1165,8 +1165,8 @@
           "starts_at": null,
           "status": "finished",
           "team1_name": "Sementes do Mal",
-          "team2_name": "QUINTESSÊNCIA",
-          "winner_name": "QUINTESSÊNCIA"
+          "team2_name": "QUINTESS\u00caNCIA",
+          "winner_name": "QUINTESS\u00caNCIA"
         },
         {
           "event_id": "hltv:cct-2026-challengers-south-america-series-3",
@@ -1191,7 +1191,7 @@
       "name": "CCT 2026 Challengers South America Series 3",
       "participants": [
         "MEIA NOITE",
-        "QUINTESSÊNCIA",
+        "QUINTESS\u00caNCIA",
         "your end",
         "RUSH",
         "Sementes do Mal",
@@ -1250,7 +1250,7 @@
       "starts_at": "2026-09-20T21:00:00Z",
       "status": "upcoming",
       "team1_name": "RUSH",
-      "team2_name": "QUINTESSÊNCIA"
+      "team2_name": "QUINTESS\u00caNCIA"
     },
     {
       "event_id": "hltv:9419",
@@ -1474,7 +1474,7 @@
       "starts_at": "2026-09-22T19:00:00Z",
       "status": "upcoming",
       "team1_name": "MIBR fe",
-      "team2_name": "QUINTESSÊNCIA"
+      "team2_name": "QUINTESS\u00caNCIA"
     },
     {
       "event_id": "hltv:9355",
@@ -1537,7 +1537,7 @@
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-22T21:00:00Z",
       "status": "upcoming",
-      "team1_name": "Grêmio",
+      "team1_name": "Gr\u00eamio",
       "team2_name": "Keyd Stars"
     },
     {
@@ -1762,7 +1762,7 @@
       "starts_at": "2026-09-23T13:00:00Z",
       "status": "upcoming",
       "team1_name": "ALKA",
-      "team2_name": "Grêmio"
+      "team2_name": "Gr\u00eamio"
     },
     {
       "event_id": "hltv:9425",
@@ -1911,8 +1911,8 @@
       "starts_at": null,
       "status": "finished",
       "team1_name": "MEIA NOITE",
-      "team2_name": "QUINTESSÊNCIA",
-      "winner_name": "QUINTESSÊNCIA"
+      "team2_name": "QUINTESS\u00caNCIA",
+      "winner_name": "QUINTESS\u00caNCIA"
     },
     {
       "event_id": "hltv:cct-2026-challengers-south-america-series-3",
@@ -1986,7 +1986,7 @@
       "stage_name": "Completed series",
       "starts_at": null,
       "status": "finished",
-      "team1_name": "Honvéd",
+      "team1_name": "Honv\u00e9d",
       "team2_name": "Bushido Wildcats",
       "winner_name": "Bushido Wildcats"
     },
@@ -2025,8 +2025,8 @@
       "starts_at": null,
       "status": "finished",
       "team1_name": "Sementes do Mal",
-      "team2_name": "QUINTESSÊNCIA",
-      "winner_name": "QUINTESSÊNCIA"
+      "team2_name": "QUINTESS\u00caNCIA",
+      "winner_name": "QUINTESS\u00caNCIA"
     },
     {
       "event_id": "hltv:cct-2026-challengers-south-america-series-3",
@@ -2132,7 +2132,148 @@
     }
   ],
   "ok": true,
-  "players": [],
+  "players": [
+    {
+      "hltv_player_id": "17353",
+      "nickname": "Cxzi",
+      "player_id": "hltv:17353",
+      "source_url": "https://www.hltv.org/player/17353/cxzi",
+      "team_name": "Wildcard"
+    },
+    {
+      "hltv_player_id": "17378",
+      "nickname": "reck",
+      "player_id": "hltv:17378",
+      "source_url": "https://www.hltv.org/player/17378/reck",
+      "team_name": "Wildcard"
+    },
+    {
+      "hltv_player_id": "18838",
+      "nickname": "HexT",
+      "player_id": "hltv:18838",
+      "source_url": "https://www.hltv.org/player/18838/hext",
+      "team_name": "Wildcard"
+    },
+    {
+      "hltv_player_id": "8311",
+      "nickname": "nEMANHA",
+      "player_id": "hltv:8311",
+      "source_url": "https://www.hltv.org/player/8311/nemanha",
+      "team_name": "Wildcard"
+    },
+    {
+      "hltv_player_id": "16847",
+      "nickname": "mhL",
+      "player_id": "hltv:16847",
+      "source_url": "https://www.hltv.org/player/16847/mhl",
+      "team_name": "Wildcard"
+    },
+    {
+      "hltv_player_id": "26013",
+      "nickname": "DarkMeister",
+      "player_id": "hltv:26013",
+      "source_url": "https://www.hltv.org/player/26013/darkmeister",
+      "team_name": "The MongolZ"
+    },
+    {
+      "hltv_player_id": "20194",
+      "nickname": "bLitz",
+      "player_id": "hltv:20194",
+      "source_url": "https://www.hltv.org/player/20194/blitz",
+      "team_name": "The MongolZ"
+    },
+    {
+      "hltv_player_id": "20275",
+      "nickname": "Techno",
+      "player_id": "hltv:20275",
+      "source_url": "https://www.hltv.org/player/20275/techno",
+      "team_name": "The MongolZ"
+    },
+    {
+      "hltv_player_id": "25510",
+      "nickname": "tikuak",
+      "player_id": "hltv:25510",
+      "source_url": "https://www.hltv.org/player/25510/tikuak",
+      "team_name": "The MongolZ"
+    },
+    {
+      "hltv_player_id": "21809",
+      "nickname": "910",
+      "player_id": "hltv:21809",
+      "source_url": "https://www.hltv.org/player/21809/910",
+      "team_name": "The MongolZ"
+    },
+    {
+      "hltv_player_id": "7592",
+      "nickname": "device",
+      "player_id": "hltv:7592",
+      "source_url": "https://www.hltv.org/player/7592/device",
+      "team_name": "100 Thieves"
+    },
+    {
+      "hltv_player_id": "8183",
+      "nickname": "rain",
+      "player_id": "hltv:8183",
+      "source_url": "https://www.hltv.org/player/8183/rain",
+      "team_name": "100 Thieves"
+    },
+    {
+      "hltv_player_id": "21816",
+      "nickname": "Gizmy",
+      "player_id": "hltv:21816",
+      "source_url": "https://www.hltv.org/player/21816/gizmy",
+      "team_name": "100 Thieves"
+    },
+    {
+      "hltv_player_id": "23397",
+      "nickname": "poiii",
+      "player_id": "hltv:23397",
+      "source_url": "https://www.hltv.org/player/23397/poiii",
+      "team_name": "100 Thieves"
+    },
+    {
+      "hltv_player_id": "22695",
+      "nickname": "sirah",
+      "player_id": "hltv:22695",
+      "source_url": "https://www.hltv.org/player/22695/sirah",
+      "team_name": "100 Thieves"
+    },
+    {
+      "hltv_player_id": "18317",
+      "nickname": "magixx",
+      "player_id": "hltv:18317",
+      "source_url": "https://www.hltv.org/player/18317/magixx",
+      "team_name": "Spirit"
+    },
+    {
+      "hltv_player_id": "19808",
+      "nickname": "tN1R",
+      "player_id": "hltv:19808",
+      "source_url": "https://www.hltv.org/player/19808/tn1r",
+      "team_name": "Spirit"
+    },
+    {
+      "hltv_player_id": "16920",
+      "nickname": "sh1ro",
+      "player_id": "hltv:16920",
+      "source_url": "https://www.hltv.org/player/16920/sh1ro",
+      "team_name": "Spirit"
+    },
+    {
+      "hltv_player_id": "21167",
+      "nickname": "donk",
+      "player_id": "hltv:21167",
+      "source_url": "https://www.hltv.org/player/21167/donk",
+      "team_name": "Spirit"
+    },
+    {
+      "hltv_player_id": "20423",
+      "nickname": "zont1x",
+      "player_id": "hltv:20423",
+      "source_url": "https://www.hltv.org/player/20423/zont1x",
+      "team_name": "Spirit"
+    }
+  ],
   "poll_after_ms": 300000,
   "rankings": null,
   "source": "HLTV via GitHub Actions FlareSolverr",
@@ -2140,7 +2281,10 @@
     "detail_errors": [],
     "detail_matches": 4,
     "recent_results": 80,
-    "scheduled_matches": 92
+    "scheduled_matches": 92,
+    "delivery_mode": "published_last_good",
+    "player_registry": "retained_last_published_when_live_source_omitted_players",
+    "player_registry_updated_at_utc": "2026-09-20T04:55:46Z"
   },
   "product_filter": {
     "eligible_tiers": [

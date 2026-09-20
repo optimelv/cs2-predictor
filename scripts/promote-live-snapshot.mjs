@@ -1,21 +1,18 @@
 import { readFile, writeFile } from "node:fs/promises";
+import { pathToFileURL } from "node:url";
 import { mergeHistoryMatches } from "../docs/lib/history.js";
 import { mergePlayerTimeline, summarizePlayerRosterEras, summarizePlayerTimeline } from "../docs/lib/player-history.js";
 
-const snapshotPath = process.argv[2];
-if (!snapshotPath) throw new Error("Usage: node scripts/promote-live-snapshot.mjs <snapshot.json>");
+export const resultTimestamp = (match) => {
+  const value = Date.parse(String(match?.starts_at || ""));
+  return Number.isFinite(value) && value > 0 ? value : null;
+};
 
-const parse = async (path) => JSON.parse(await readFile(path, "utf8"));
-const live = await parse(snapshotPath);
-if (!live?.ok || !String(live.contract_version || "").startsWith("1.")) {
-  throw new Error("Live snapshot contract is invalid.");
-}
-
-const historyPath = "docs/data/history.json";
-const history = await parse(historyPath);
-const historyRows = (live.matches || [])
+export function historyRowsFromLive(live) {
+  return (live.matches || [])
   .filter((match) => /finished|completed|final|ended/i.test(String(match.status || "")))
   .filter((match) => ["tier_1", "tier_2"].includes(match.product_tier))
+  .filter((match) => resultTimestamp(match) !== null)
   .filter((match) => match.match_id && match.team1_name && match.team2_name && match.winner_name)
   .map((match) => ({
     match_id: match.match_id,
@@ -41,10 +38,25 @@ const historyRows = (live.matches || [])
       picked_by: map.picked_by || null,
     })),
     lineups: {
-      team1: (match.lineups?.team1 || []).map((player) => player.nickname).filter(Boolean),
-      team2: (match.lineups?.team2 || []).map((player) => player.nickname).filter(Boolean),
+      team1: (match.lineups?.team1 || []).map((player) => typeof player === "string" ? player : player.nickname).filter(Boolean),
+      team2: (match.lineups?.team2 || []).map((player) => typeof player === "string" ? player : player.nickname).filter(Boolean),
     },
   }));
+}
+
+async function main() {
+  const snapshotPath = process.argv[2];
+  if (!snapshotPath) throw new Error("Usage: node scripts/promote-live-snapshot.mjs <snapshot.json>");
+
+  const parse = async (path) => JSON.parse(await readFile(path, "utf8"));
+  const live = await parse(snapshotPath);
+  if (!live?.ok || !String(live.contract_version || "").startsWith("1.")) {
+    throw new Error("Live snapshot contract is invalid.");
+  }
+
+  const historyPath = "docs/data/history.json";
+  const history = await parse(historyPath);
+  const historyRows = historyRowsFromLive(live);
 const mergedHistory = mergeHistoryMatches(history, historyRows);
 mergedHistory.generated_at_utc = live.fetched_at_utc;
 await writeFile(historyPath, `${JSON.stringify(mergedHistory, null, 2)}\n`);
@@ -96,3 +108,6 @@ await writeFile("docs/data/coverage.json", `${JSON.stringify(coverage, null, 2)}
 await writeFile("docs/data/coverage.js", `window.__STRIKESIGNAL_COVERAGE__ = ${JSON.stringify(coverage, null, 2)};\n`);
 
 console.log(JSON.stringify({ players: players.players.length, history_matches: mergedHistory.matches.length, updated_at: live.fetched_at_utc }, null, 2));
+}
+
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) await main();

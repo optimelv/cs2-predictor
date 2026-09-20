@@ -1,0 +1,25 @@
+import assert from "node:assert/strict";
+import { mkdtemp, readFile, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { syncModelRegistry } from "./sync-model-registry.mjs";
+
+const directory = await mkdtemp(join(tmpdir(), "strikesignal-model-sync-"));
+const registryPath = join(directory, "registry.json");
+const predictionsPath = join(directory, "predictions.json");
+const predictionsJsPath = join(directory, "predictions.js");
+const registry = { champion: { version: "v2", metrics: { accuracy: 0.67 }, segment_calibration: { version: "tier2-shrink-v1", tier_2_shrink: 0.5 } }, monitoring: { champion_slices: [{ key: "tier_1" }] } };
+const original = { upcoming_predictions: [{ match_id: "m1", event_name: "CCT Europe", team1_name: "A", team2_name: "B", prob_team1: 0.8 }], model_state: { teams: [{ team_name: "Spirit" }] } };
+await writeFile(registryPath, JSON.stringify(registry));
+await writeFile(predictionsPath, JSON.stringify(original));
+const result = await syncModelRegistry({ registryPath, predictionsPath, predictionsJsPath });
+const synced = JSON.parse(await readFile(predictionsPath, "utf8"));
+assert.equal(synced.upcoming_predictions[0].prob_team1, 0.65);
+assert.equal(synced.upcoming_predictions[0].calibration_version, "tier2-shrink-v1");
+assert.equal(synced.upcoming_predictions[0].predicted_winner, "A");
+assert.deepEqual(synced.model_state.teams, original.model_state.teams);
+assert.equal(synced.model.production.version, "v2");
+assert.equal(synced.model_registry.monitoring.champion_slices.length, 1);
+assert.deepEqual(result, { champion: "v2", monitoring_slices: 1 });
+assert.match(await readFile(predictionsJsPath, "utf8"), /^window\.__STRIKESIGNAL_DATA__ = /);
+console.log("model registry sync tests ok");

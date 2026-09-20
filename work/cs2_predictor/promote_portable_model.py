@@ -27,6 +27,7 @@ CORE_FEATURES = [
     "recent_win_rate_10_diff",
 ]
 CALIBRATION_FEATURES = ["baseline_logit"]
+SEGMENT_CALIBRATION_FEATURES = ["baseline_logit", "is_tier2", "is_bo1", "is_bo5"]
 CONTEXT_FEATURES = [
     *CORE_FEATURES,
     "best_of",
@@ -54,6 +55,8 @@ DEFAULT_REGISTRY_PATH = Path("docs/data/model-registry.json")
 DEFAULT_SEED_PATH = Path("models/portable-training-seed.csv.gz")
 DEFAULT_ONLINE_PATH = Path("models/portable-online-training.jsonl")
 DEFAULT_PREDICTIONS_PATH = Path("docs/data/predictions.json")
+DEFAULT_HISTORY_PATH = Path("docs/data/history.json")
+MINIMUM_SLICE_ROWS = 40
 
 
 def utc_now() -> str:
@@ -143,6 +146,40 @@ def write_online_rows(path: Path, rows: list[dict[str, Any]]) -> None:
     path.write_text(body, encoding="utf-8")
 
 
+def repair_online_timestamps(rows: list[dict[str, Any]], history_path: Path) -> int:
+    """Only derive a missing display date from an existing timestamp.
+
+    A history date is not a source time. Never synthesize noon timestamps
+    from dates, even when an older history artifact offers a matching ID.
+    """
+    repaired = 0
+    for row in rows:
+        timestamp = safe_int(row.get("match_timestamp"), 0) or 0
+        if timestamp <= 0 or row.get("match_date"):
+            continue
+        try:
+            row["match_date"] = datetime.fromtimestamp(timestamp, tz=timezone.utc).date().isoformat()
+        except (ValueError, OverflowError, OSError):
+            continue
+        repaired += 1
+    return repaired
+
+
+def chronological_training_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Exclude unresolved legacy rows from chronological validation folds."""
+    return [row for row in rows if (safe_int(row.get("match_timestamp"), 0) or 0) > 0 and row.get("match_date")]
+
+
+def repair_online_integrity_risk(rows: list[dict[str, Any]]) -> int:
+    repaired = 0
+    for row in rows:
+        expected = "medium" if row.get("model_tier") == "T2" else "low"
+        if row.get("model_tier") in ELIGIBLE_TIERS and row.get("integrity_risk") != expected:
+            row["integrity_risk"] = expected
+            repaired += 1
+    return repaired
+
+
 def phase_features(item: dict[str, Any]) -> tuple[int, int, int]:
     stage = str(item.get("stage_name") or item.get("round_name") or "").casefold()
     is_playoff = int(any(token in stage for token in ("playoff", "round of", "quarter", "semi", "final")))
@@ -180,6 +217,7 @@ def append_live_training_rows(
     live_path: Path | None,
     predictions_path: Path,
     existing_rows: list[dict[str, Any]],
+    history_path: Path = DEFAULT_HISTORY_PATH,
 ) -> int:
     if not live_path or not live_path.exists() or not predictions_path.exists():
         return 0
@@ -203,8 +241,23 @@ def append_live_training_rows(
         score2 = safe_int(item.get("score2"), None)
         team1_name = str(item.get("team1_name") or "")
         team2_name = str(item.get("team2_name") or "")
+        status = str(item.get("status") or "").casefold()
         tier = live_product_tier(item)
+        if status not in {"finished", "completed", "final", "ended"}:
+            continue
         if not match_id or match_id in existing_ids or score1 is None or score2 is None or score1 == score2 or not team1_name or not team2_name or tier is None:
+            continue
+        # A finished score without a source match timestamp cannot be placed
+        # in chronological training data. Never substitute the envelope's
+        # fetched-at time for a missing result time.
+        starts_at = str(item.get("starts_at") or "")
+        if not starts_at:
+            continue
+        try:
+            match_timestamp = int(datetime.fromisoformat(starts_at.replace("Z", "+00:00")).timestamp())
+        except ValueError:
+            continue
+        if match_timestamp <= 0:
             continue
         team1 = team_state(team1_name)
         team2 = team_state(team2_name)
@@ -215,17 +268,17 @@ def append_live_training_rows(
         rank1 = safe_int(team1.get("vrs_rank"), None)
         rank2 = safe_int(team2.get("vrs_rank"), None)
         phase_order, is_playoff, is_elimination = phase_features(item)
-        starts_at = str(item.get("starts_at") or "")
+        match_date = starts_at[:10]
         row = {
             "match_id": match_id,
-            "match_date": starts_at[:10],
-            "match_timestamp": int(datetime.fromisoformat(starts_at.replace("Z", "+00:00")).timestamp()) if starts_at else 0,
+            "match_date": match_date,
+            "match_timestamp": match_timestamp,
             "event_name": item.get("event_name") or "HLTV live result",
             "team1_name": team1_name,
             "team2_name": team2_name,
             "target_team1_win": int(score1 > score2),
             "model_tier": tier,
-            "integrity_risk": "low",
+            "integrity_risk": "medium" if tier == "T2" else "low",
             "elo_diff": elo_diff,
             "elo_prob_team1": elo_probability,
             "vrs_rank_advantage": bounded(rank2 - rank1, -40, 40) if rank1 and rank2 else 0,
@@ -255,6 +308,12 @@ def matrix(rows: list[dict[str, Any]], features: list[str]) -> tuple[np.ndarray,
         if feature == "baseline_logit":
             probability = bounded(baseline_probability(row), 1e-6, 1.0 - 1e-6)
             return math.log(probability / (1.0 - probability))
+        if feature == "is_tier2":
+            return float(str(row.get("model_tier") or "").upper() == "T2")
+        if feature == "is_bo1":
+            return float(safe_int(row.get("best_of"), 3) == 1)
+        if feature == "is_bo5":
+            return float(safe_int(row.get("best_of"), 3) == 5)
         return safe_float(row.get(feature))
 
     x = np.array([[value(row, feature) for feature in features] for row in rows], dtype=float)
@@ -277,14 +336,59 @@ def summarize(y_true: list[int], probabilities: list[float]) -> dict[str, float]
     }
 
 
+def evaluation_slices(rows: list[dict[str, Any]], y_true: list[int], probabilities: list[float]) -> list[dict[str, Any]]:
+    definitions = [
+        ("tier", "tier_1", "Tier 1", lambda row: str(row.get("model_tier")) in {"T1", "T1_5"}),
+        ("tier", "tier_2", "Tier 2", lambda row: str(row.get("model_tier")) == "T2"),
+        ("series_format", "bo1", "BO1", lambda row: safe_int(row.get("best_of"), 3) == 1),
+        ("series_format", "bo3", "BO3", lambda row: safe_int(row.get("best_of"), 3) == 3),
+        ("series_format", "bo5", "BO5", lambda row: safe_int(row.get("best_of"), 3) == 5),
+    ]
+    result = []
+    for dimension, key, label, predicate in definitions:
+        indices = [index for index, row in enumerate(rows) if predicate(row)]
+        slice_y = [y_true[index] for index in indices]
+        slice_probabilities = [probabilities[index] for index in indices]
+        result.append({
+            "dimension": dimension,
+            "key": key,
+            "label": label,
+            "rows": len(indices),
+            "eligible": len(indices) >= MINIMUM_SLICE_ROWS,
+            "metrics": summarize(slice_y, slice_probabilities) if indices else None,
+        })
+    return result
+
+
+def slice_gate(candidate: dict[str, Any], comparison: dict[str, Any]) -> dict[str, Any]:
+    comparison_rows = {row["key"]: row for row in comparison.get("slices") or []}
+    checks = []
+    for candidate_slice in candidate.get("slices") or []:
+        benchmark = comparison_rows.get(candidate_slice["key"])
+        if not candidate_slice.get("eligible") or not benchmark or not benchmark.get("eligible"):
+            checks.append({"key": candidate_slice["key"], "rows": candidate_slice["rows"], "eligible": False, "passed": None})
+            continue
+        metrics = candidate_slice["metrics"]
+        previous = benchmark["metrics"]
+        passed = (
+            metrics["log_loss"] <= previous["log_loss"] + 0.025
+            and metrics["brier"] <= previous["brier"] + 0.015
+            and metrics["accuracy"] >= previous["accuracy"] - 0.03
+            and metrics["ece"] <= previous["ece"] + 0.03
+        )
+        checks.append({"key": candidate_slice["key"], "rows": candidate_slice["rows"], "eligible": True, "passed": passed})
+    eligible = [check for check in checks if check["eligible"]]
+    return {"passed": bool(eligible) and all(check["passed"] for check in eligible), "checks": checks}
+
+
 def candidate_configs() -> list[dict[str, Any]]:
     configs = []
-    for features in (CALIBRATION_FEATURES, CORE_FEATURES, CONTEXT_FEATURES):
+    for features in (CALIBRATION_FEATURES, SEGMENT_CALIBRATION_FEATURES, CORE_FEATURES, CONTEXT_FEATURES):
         for l2 in (0.005, 0.015, 0.04):
             for blend_weight in (0.5, 0.75, 1.0):
                 configs.append({"family": "logistic", "features": features, "l2": l2, "blend_weight": blend_weight})
     if GradientBoostingClassifier is not None:
-        for features in (CORE_FEATURES, CONTEXT_FEATURES):
+        for features in (SEGMENT_CALIBRATION_FEATURES, CORE_FEATURES, CONTEXT_FEATURES):
             for n_estimators, max_depth, learning_rate in ((40, 1, 0.04), (60, 2, 0.035), (90, 2, 0.025)):
                 for blend_weight in (0.5, 0.75, 1.0):
                     configs.append({
@@ -302,6 +406,7 @@ def candidate_configs() -> list[dict[str, Any]]:
 def evaluate_config(rows: list[dict[str, Any]], folds, config: dict[str, Any]) -> dict[str, Any]:
     y_all: list[int] = []
     probabilities: list[float] = []
+    evaluated_rows: list[dict[str, Any]] = []
     for fold in folds:
         train_rows = [rows[index] for index in fold.train_indices]
         test_rows = [rows[index] for index in fold.test_indices]
@@ -330,14 +435,84 @@ def evaluate_config(rows: list[dict[str, Any]], folds, config: dict[str, Any]) -
         blended = float(config["blend_weight"]) * model_probabilities + (1.0 - float(config["blend_weight"])) * baseline
         y_all.extend(int(value) for value in y_test.tolist())
         probabilities.extend(float(bounded(value, 0.08, 0.92)) for value in blended.tolist())
-    return {**config, "rows": len(y_all), "folds": len(folds), "metrics": summarize(y_all, probabilities)}
+        evaluated_rows.extend(test_rows)
+    return {**config, "rows": len(y_all), "folds": len(folds), "metrics": summarize(y_all, probabilities), "slices": evaluation_slices(evaluated_rows, y_all, probabilities), "_evaluated_rows": evaluated_rows, "_y_true": y_all, "_probabilities": probabilities}
 
 
 def evaluate_baseline(rows: list[dict[str, Any]], folds) -> dict[str, Any]:
     test_rows = [rows[index] for fold in folds for index in fold.test_indices]
     y_true = [safe_int(row.get("target_team1_win"), 0) or 0 for row in test_rows]
     probabilities = [baseline_probability(row) for row in test_rows]
-    return {"kind": "heuristic", "rows": len(rows), "test_rows": len(test_rows), "folds": len(folds), "metrics": summarize(y_true, probabilities)}
+    return {"kind": "heuristic", "rows": len(rows), "test_rows": len(test_rows), "folds": len(folds), "metrics": summarize(y_true, probabilities), "slices": evaluation_slices(test_rows, y_true, probabilities), "_evaluated_rows": test_rows, "_y_true": y_true, "_probabilities": probabilities}
+
+
+def public_evaluation(evaluation: dict[str, Any]) -> dict[str, Any]:
+    return {key: value for key, value in evaluation.items() if not key.startswith("_")}
+
+
+def apply_tier2_shrink(evaluation: dict[str, Any], shrink: float | None) -> dict[str, Any]:
+    if shrink is None:
+        return evaluation
+    rows = evaluation.get("_evaluated_rows") or []
+    y_true = evaluation.get("_y_true") or []
+    raw = evaluation.get("_probabilities") or []
+    probabilities = [
+        0.5 + shrink * (probability - 0.5) if str(row.get("model_tier")) == "T2" else probability
+        for row, probability in zip(rows, raw)
+    ]
+    return {
+        **evaluation,
+        "metrics": summarize(y_true, probabilities),
+        "slices": evaluation_slices(rows, y_true, probabilities),
+        "_probabilities": probabilities,
+    }
+
+
+def segment_calibration_decision(raw_evaluation: dict[str, Any], current: dict[str, Any] | None) -> dict[str, Any]:
+    current_shrink = safe_float((current or {}).get("tier_2_shrink"), 1.0)
+    benchmark = apply_tier2_shrink(raw_evaluation, current_shrink)
+    candidates = [apply_tier2_shrink(raw_evaluation, shrink) | {"_shrink": shrink} for shrink in (0.3, 0.35, 0.4, 0.45, 0.5, 0.6, 0.75)]
+
+    def tier2_metrics(evaluation: dict[str, Any]) -> dict[str, float]:
+        return next(row["metrics"] for row in evaluation["slices"] if row["key"] == "tier_2")
+
+    candidate = min(candidates, key=lambda item: (
+        tier2_metrics(item)["log_loss"] + tier2_metrics(item)["brier"] + 0.25 * tier2_metrics(item)["ece"],
+        item["_shrink"],
+    ))
+    before = tier2_metrics(benchmark)
+    after = tier2_metrics(candidate)
+    overall_before = benchmark["metrics"]
+    overall_after = candidate["metrics"]
+    tier2_rows = next(row["rows"] for row in candidate["slices"] if row["key"] == "tier_2")
+    passed = (
+        tier2_rows >= MINIMUM_SLICE_ROWS
+        and after["log_loss"] <= before["log_loss"] - 0.005
+        and after["brier"] <= before["brier"] - 0.002
+        and after["accuracy"] >= before["accuracy"] - 0.005
+        and after["ece"] <= before["ece"] + 0.005
+        and overall_after["log_loss"] <= overall_before["log_loss"]
+        and overall_after["brier"] <= overall_before["brier"] + 0.001
+        and overall_after["accuracy"] >= overall_before["accuracy"] - 0.005
+        and overall_after["ece"] <= overall_before["ece"] + 0.005
+    )
+    selected = candidate if passed else benchmark
+    selected_shrink = candidate["_shrink"] if passed else current_shrink if current else None
+    return {
+        "evaluation": selected,
+        "calibration": {"version": "tier2-shrink-v1", "tier_2_shrink": selected_shrink} if selected_shrink is not None else None,
+        "audit": {
+            "passed": passed,
+            "active": selected_shrink is not None,
+            "rows": tier2_rows,
+            "candidate_shrink": candidate["_shrink"],
+            "selected_shrink": selected_shrink,
+            "before": before,
+            "after": after,
+            "overall_before": overall_before,
+            "overall_after": overall_after,
+        },
+    }
 
 
 def fit_artifact(rows: list[dict[str, Any]], config: dict[str, Any], metrics: dict[str, Any]) -> dict[str, Any]:
@@ -407,6 +582,7 @@ def promotion_passes(candidate: dict[str, Any], comparison: dict[str, Any]) -> b
         and challenger["brier"] <= champion["brier"] + 0.001
         and challenger["accuracy"] >= champion["accuracy"] - 0.005
         and challenger["ece"] <= champion["ece"] + 0.015
+        and slice_gate(candidate, comparison)["passed"]
     )
 
 
@@ -417,10 +593,14 @@ def run(args) -> dict[str, Any]:
 
     seed_rows = load_seed(Path(args.training_seed))
     online_rows = load_online_rows(Path(args.online_rows))
-    appended = append_live_training_rows(Path(args.live_feed) if args.live_feed else None, Path(args.predictions), online_rows)
-    if appended:
+    repaired = repair_online_timestamps(online_rows, Path(args.history))
+    repaired_risk = repair_online_integrity_risk(online_rows)
+    appended = append_live_training_rows(Path(args.live_feed) if args.live_feed else None, Path(args.predictions), online_rows, Path(args.history))
+    if appended or repaired or repaired_risk:
         write_online_rows(Path(args.online_rows), online_rows)
-    rows = sorted([*seed_rows, *online_rows], key=lambda row: (safe_int(row.get("match_timestamp"), 0) or 0, str(row.get("match_id") or "")))
+    chronological_rows = chronological_training_rows([*seed_rows, *online_rows])
+    skipped_unanchored_rows = len(seed_rows) + len(online_rows) - len(chronological_rows)
+    rows = sorted(chronological_rows, key=lambda row: (safe_int(row.get("match_timestamp"), 0) or 0, str(row.get("match_id") or "")))
     timestamps = [datetime.fromtimestamp(safe_int(row.get("match_timestamp"), 0) or 0, tz=timezone.utc) for row in rows]
     folds = make_purged_time_folds(timestamps, n_splits=5, purge_days=7, min_train_size=220)
     baseline = evaluate_baseline(rows, folds)
@@ -430,7 +610,7 @@ def run(args) -> dict[str, Any]:
     registry_path = Path(args.registry)
     registry = json.loads(registry_path.read_text(encoding="utf-8")) if registry_path.exists() else {"history": []}
     previous = registry.get("champion")
-    comparison = baseline
+    raw_comparison = baseline
     if previous and previous.get("kind") in {"portable_logistic_blend", "portable_gbdt_blend"}:
         previous_config = {
             "family": "gradient_boosting" if previous["kind"] == "portable_gbdt_blend" else "logistic",
@@ -441,20 +621,27 @@ def run(args) -> dict[str, Any]:
             previous_config.update({key: previous[key] for key in ("n_estimators", "max_depth", "learning_rate", "min_samples_leaf")})
         else:
             previous_config["l2"] = previous["l2"]
-        comparison = evaluate_config(rows, folds, previous_config)
-    promoted = promotion_passes(challenger, comparison)
-    if previous is None and not promotion_passes(challenger, baseline):
+        raw_comparison = evaluate_config(rows, folds, previous_config)
+    segment = segment_calibration_decision(raw_comparison, (previous or {}).get("segment_calibration"))
+    comparison = segment["evaluation"]
+    selected_shrink = (segment.get("calibration") or {}).get("tier_2_shrink")
+    calibrated_challenger = apply_tier2_shrink(challenger, selected_shrink)
+    promoted = promotion_passes(calibrated_challenger, comparison)
+    challenger_slice_gate = slice_gate(calibrated_challenger, comparison)
+    if previous is None and not promotion_passes(calibrated_challenger, comparison):
         promoted = False
-    champion = fit_artifact(rows, challenger, challenger["metrics"]) if promoted else previous
+    champion = fit_artifact(rows, challenger, calibrated_challenger["metrics"]) if promoted else previous
     if champion is None:
-        champion = {**baseline, "version": "bounded-elo-vrs-v1", "trained_through": max(str(row.get("match_date") or "") for row in rows)}
+        champion = {**public_evaluation(baseline), "version": "bounded-elo-vrs-v1", "trained_through": max(str(row.get("match_date") or "") for row in rows)}
+    if segment.get("calibration"):
+        champion = {**champion, "segment_calibration": segment["calibration"]}
 
     registry.update({
         "contract_version": "1.0",
         "generated_at_utc": utc_now(),
         "champion": champion,
-        "challenger": {**challenger, "promotion_passed": promoted},
-        "baseline": baseline,
+        "challenger": {**public_evaluation(calibrated_challenger), "promotion_passed": promoted},
+        "baseline": public_evaluation(baseline),
         "promotion_gates": {
             "minimum_test_rows": 350,
             "minimum_folds": 3,
@@ -462,8 +649,24 @@ def run(args) -> dict[str, Any]:
             "maximum_brier_regression": 0.001,
             "maximum_accuracy_regression": 0.005,
             "maximum_ece_regression": 0.015,
+            "minimum_slice_rows": MINIMUM_SLICE_ROWS,
+            "maximum_slice_log_loss_regression": 0.025,
+            "maximum_slice_brier_regression": 0.015,
+            "maximum_slice_accuracy_regression": 0.03,
+            "maximum_slice_ece_regression": 0.03,
         },
-        "training": {"seed_rows": len(seed_rows), "online_rows": len(online_rows), "new_rows": appended},
+        "monitoring": {
+            "window": "purged_chronological_cv",
+            "minimum_slice_rows": MINIMUM_SLICE_ROWS,
+            "champion_metrics": comparison.get("metrics") or {},
+            "champion_test_rows": comparison.get("test_rows", comparison.get("rows", 0)),
+            "champion_slices": comparison.get("slices") or [],
+            "challenger_slices": challenger.get("slices") or [],
+            "baseline_slices": baseline.get("slices") or [],
+            "challenger_slice_gate": challenger_slice_gate,
+            "segment_calibration": segment["audit"],
+        },
+        "training": {"seed_rows": len(seed_rows), "online_rows": len(online_rows), "new_rows": appended, "repaired_timestamps": repaired, "repaired_integrity_risk": repaired_risk, "skipped_unanchored_rows": skipped_unanchored_rows},
     })
     if promoted:
         registry.setdefault("history", []).append({"promoted_at_utc": registry["generated_at_utc"], "champion": champion})
@@ -474,11 +677,14 @@ def run(args) -> dict[str, Any]:
         "registry": str(registry_path),
         "promoted": promoted,
         "champion": champion.get("version"),
-        "challenger_metrics": challenger["metrics"],
+        "challenger_metrics": calibrated_challenger["metrics"],
         "baseline_metrics": baseline["metrics"],
         "rows": len(rows),
         "folds": len(folds),
         "new_online_rows": appended,
+        "skipped_unanchored_rows": skipped_unanchored_rows,
+        "repaired_online_timestamps": repaired,
+        "repaired_online_integrity_risk": repaired_risk,
     }
 
 
@@ -490,6 +696,7 @@ def main() -> None:
     parser.add_argument("--online-rows", default=str(DEFAULT_ONLINE_PATH))
     parser.add_argument("--registry", default=str(DEFAULT_REGISTRY_PATH))
     parser.add_argument("--predictions", default=str(DEFAULT_PREDICTIONS_PATH))
+    parser.add_argument("--history", default=str(DEFAULT_HISTORY_PATH))
     parser.add_argument("--live-feed", default=None)
     args = parser.parse_args()
     print(json.dumps(run(args), indent=2, sort_keys=True))

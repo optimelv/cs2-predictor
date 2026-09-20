@@ -3,10 +3,16 @@ import {
   applyVetoMap,
   buildRecommendedVeto,
   createVetoState,
+  resolveMapPool,
   vetoSeriesRead,
 } from "../docs/lib/veto.js";
 
 const pool = ["Ancient", "Anubis", "Dust2", "Inferno", "Mirage", "Nuke", "Overpass"];
+assert.deepEqual(resolveMapPool([], pool), pool);
+assert.deepEqual(resolveMapPool(undefined, pool), pool);
+assert.deepEqual(resolveMapPool(["Nuke"], pool), ["Nuke"]);
+assert.deepEqual(resolveMapPool(null, null), []);
+assert.deepEqual(resolveMapPool(["Nuke", "Nuke", null, ""], pool), ["Nuke"]);
 const maps = {
   alpha: Object.fromEntries(pool.map((mapName, index) => [mapName, { matches: 20, wins: 7 + index }])),
   bravo: Object.fromEntries(pool.map((mapName, index) => [mapName, { matches: 20, wins: 13 - index }])),

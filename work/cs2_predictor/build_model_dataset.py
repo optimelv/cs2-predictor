@@ -67,6 +67,13 @@ NUMERIC_FEATURES = [
     "is_elimination_match",
 ]
 
+EXPERIMENTAL_ROSTER_FEATURES = [
+    "roster_continuity_diff",
+    "team1_roster_known",
+    "team2_roster_known",
+    "days_since_roster_change_diff",
+]
+
 
 def safe_int(value: Any, default: int | None = None) -> int | None:
     if value is None or value == "":
@@ -161,6 +168,8 @@ class TeamState:
     elimination_wins: int = 0
     last_timestamp: int | None = None
     recent_results: list[int] = field(default_factory=list)
+    last_lineup: set[str] = field(default_factory=set)
+    roster_changed_timestamp: int | None = None
 
     def recent_rate(self, n: int = 10) -> float:
         values = self.recent_results[-n:]
@@ -185,10 +194,23 @@ def match_target(row: sqlite3.Row) -> int:
     return 1 if int(row["team1_score"]) > int(row["team2_score"]) else 0
 
 
+def roster_context(current_lineup: set[str], state: TeamState, timestamp: int) -> tuple[float, int, float]:
+    if len(current_lineup) < 3 or len(state.last_lineup) < 3:
+        return 0.6, 0, 30.0
+    shared = len(current_lineup & state.last_lineup)
+    continuity = shared / max(5, len(current_lineup), len(state.last_lineup))
+    if current_lineup != state.last_lineup:
+        return continuity, 1, 0.0
+    changed_at = state.roster_changed_timestamp or state.last_timestamp or timestamp
+    days = min(180.0, max(0.0, (timestamp - changed_at) / 86400.0))
+    return continuity, 1, days
+
+
 def make_feature_row(
     row: sqlite3.Row,
     team_states: defaultdict[str, TeamState],
     h2h: dict[tuple[str, str], dict[str, int]],
+    lineups: dict[int, dict[int, set[str]]],
 ) -> dict[str, Any]:
     team1 = row["team1_name"]
     team2 = row["team2_name"]
@@ -216,6 +238,11 @@ def make_feature_row(
     is_playoff = safe_int(row["is_playoff"], 0) or 0
     is_elimination = safe_int(row["is_elimination_match"], 0) or 0
     elo_diff = state1.elo - state2.elo
+    match_lineups = lineups.get(int(row["match_id"]), {})
+    lineup1 = match_lineups.get(1, set())
+    lineup2 = match_lineups.get(2, set())
+    continuity1, roster_known1, roster_days1 = roster_context(lineup1, state1, timestamp)
+    continuity2, roster_known2, roster_days2 = roster_context(lineup2, state2, timestamp)
 
     return {
         "match_id": row["match_id"],
@@ -269,6 +296,14 @@ def make_feature_row(
         "team1_days_rest": days_rest1,
         "team2_days_rest": days_rest2,
         "days_rest_diff": days_rest1 - days_rest2,
+        "team1_roster_continuity": continuity1,
+        "team2_roster_continuity": continuity2,
+        "roster_continuity_diff": continuity1 - continuity2,
+        "team1_roster_known": roster_known1,
+        "team2_roster_known": roster_known2,
+        "team1_days_since_roster_change": roster_days1,
+        "team2_days_since_roster_change": roster_days2,
+        "days_since_roster_change_diff": roster_days1 - roster_days2,
         "best_of": parse_best_of(row["format"]),
         "phase_order": PHASE_ORDER.get((row["match_phase"] or "unknown").casefold(), 0),
         "is_lan": is_lan,
@@ -281,6 +316,7 @@ def update_state_from_feature_row(
     feature_row: dict[str, Any],
     team_states: defaultdict[str, TeamState],
     h2h: dict[tuple[str, str], dict[str, int]],
+    lineups: dict[int, dict[int, set[str]]],
 ) -> None:
     team1 = str(feature_row["team1_name"])
     team2 = str(feature_row["team2_name"])
@@ -316,6 +352,14 @@ def update_state_from_feature_row(
         state2.elimination_wins += 1 - target
     state1.last_timestamp = timestamp
     state2.last_timestamp = timestamp
+
+    match_lineups = lineups.get(int(feature_row["match_id"]), {})
+    for state, lineup in ((state1, match_lineups.get(1, set())), (state2, match_lineups.get(2, set()))):
+        if len(lineup) < 3:
+            continue
+        if not state.last_lineup or lineup != state.last_lineup:
+            state.roster_changed_timestamp = timestamp
+        state.last_lineup = set(lineup)
 
     pair_key = h2h_key(team1, team2)
     pair = h2h.setdefault(pair_key, {"total": 0})
@@ -405,19 +449,34 @@ def fetch_matches(connection: sqlite3.Connection) -> list[sqlite3.Row]:
     ).fetchall()
 
 
+def fetch_match_lineups(connection: sqlite3.Connection) -> dict[int, dict[int, set[str]]]:
+    lineups: dict[int, dict[int, set[str]]] = defaultdict(lambda: defaultdict(set))
+    for row in connection.execute(
+        """
+        SELECT match_id, team_side, player_key
+        FROM hltv_match_players
+        WHERE player_key IS NOT NULL
+        ORDER BY match_id, team_side, player_key
+        """
+    ):
+        lineups[int(row["match_id"])][int(row["team_side"])].add(str(row["player_key"]).casefold())
+    return {match_id: dict(sides) for match_id, sides in lineups.items()}
+
+
 def build_rows(connection: sqlite3.Connection) -> list[dict[str, Any]]:
     team_states: defaultdict[str, TeamState] = defaultdict(TeamState)
     h2h: dict[tuple[str, str], dict[str, int]] = {}
     output: list[dict[str, Any]] = []
+    lineups = fetch_match_lineups(connection)
 
     for row in fetch_matches(connection):
         team1 = row["team1_name"]
         team2 = row["team2_name"]
         if not team1 or not team2:
             continue
-        feature_row = make_feature_row(row, team_states, h2h)
+        feature_row = make_feature_row(row, team_states, h2h, lineups)
         output.append(feature_row)
-        update_state_from_feature_row(feature_row, team_states, h2h)
+        update_state_from_feature_row(feature_row, team_states, h2h, lineups)
 
     return output
 
@@ -442,7 +501,9 @@ def store_training_table(connection: sqlite3.Connection, rows: list[dict[str, An
         return 0
     fields = list(rows[0].keys())
     type_by_field = {
-        field: "REAL" if field in NUMERIC_FEATURES or field.startswith("team") and field.endswith("_rate") else "TEXT"
+        field: "REAL"
+        if field in NUMERIC_FEATURES or field in EXPERIMENTAL_ROSTER_FEATURES or field.startswith("team") and field.endswith("_rate")
+        else "TEXT"
         for field in fields
     }
     type_by_field.update(
@@ -475,24 +536,36 @@ def fit_logistic_regression(
     learning_rate: float = 0.04,
     l2: float = 0.01,
 ) -> np.ndarray:
+    x_train = np.clip(np.nan_to_num(x_train, nan=0.0, posinf=8.0, neginf=-8.0), -12.0, 12.0)
     x_aug = np.c_[np.ones(x_train.shape[0]), x_train]
     weights = np.zeros(x_aug.shape[1], dtype=float)
     for _ in range(epochs):
-        logits = np.clip(x_aug @ weights, -35.0, 35.0)
+        logits = np.clip(np.sum(x_aug * weights, axis=1), -35.0, 35.0)
         probs = 1.0 / (1.0 + np.exp(-logits))
-        gradient = (x_aug.T @ (probs - y_train)) / len(y_train)
+        gradient = np.mean(x_aug * (probs - y_train)[:, None], axis=0)
         gradient[1:] += l2 * weights[1:]
-        weights -= learning_rate * gradient
+        gradient = np.nan_to_num(gradient, nan=0.0, posinf=5.0, neginf=-5.0)
+        norm = float(np.linalg.norm(gradient))
+        if norm > 5.0:
+            gradient *= 5.0 / norm
+        weights = np.clip(weights - learning_rate * gradient, -20.0, 20.0)
     return weights
 
 
 def predict_logistic(weights: np.ndarray, x: np.ndarray) -> np.ndarray:
+    x = np.clip(np.nan_to_num(x, nan=0.0, posinf=8.0, neginf=-8.0), -12.0, 12.0)
     x_aug = np.c_[np.ones(x.shape[0]), x]
-    logits = np.clip(x_aug @ weights, -35.0, 35.0)
+    logits = np.clip(np.sum(x_aug * weights, axis=1), -35.0, 35.0)
     return 1.0 / (1.0 + np.exp(-logits))
 
 
-def evaluate_rows(rows: list[dict[str, Any]], *, tiers: set[str], risk_levels: set[str]) -> dict[str, Any]:
+def evaluate_rows(
+    rows: list[dict[str, Any]],
+    *,
+    tiers: set[str],
+    risk_levels: set[str],
+    features: list[str] | None = None,
+) -> dict[str, Any]:
     filtered = [
         row
         for row in rows
@@ -507,7 +580,8 @@ def evaluate_rows(rows: list[dict[str, Any]], *, tiers: set[str], risk_levels: s
     except ValueError as exc:
         return {"rows": len(filtered), "error": str(exc)}
 
-    x_all = np.array([[safe_float(row.get(feature)) for feature in NUMERIC_FEATURES] for row in filtered], dtype=float)
+    selected_features = features or NUMERIC_FEATURES
+    x_all = np.array([[safe_float(row.get(feature)) for feature in selected_features] for row in filtered], dtype=float)
     y_all = np.array([int(row["target_team1_win"]) for row in filtered], dtype=float)
     elo_probs = np.array([safe_float(row["elo_prob_team1"], 0.5) for row in filtered], dtype=float)
     fold_metrics = []
@@ -519,7 +593,7 @@ def evaluate_rows(rows: list[dict[str, Any]], *, tiers: set[str], risk_levels: s
 
         mean = x_train.mean(axis=0)
         std = x_train.std(axis=0)
-        std[std == 0] = 1.0
+        std[std < 1e-8] = 1.0
         x_train_scaled = (x_train - mean) / std
         x_test_scaled = (x_test - mean) / std
         weights = fit_logistic_regression(x_train_scaled, y_train)
@@ -567,12 +641,18 @@ def count_by(rows: Iterable[dict[str, Any]], field: str) -> dict[str, int]:
     return dict(sorted(counts.items()))
 
 
-def write_report(rows: list[dict[str, Any]], evaluation: dict[str, Any], path: Path = REPORT_PATH) -> None:
+def write_report(
+    rows: list[dict[str, Any]],
+    evaluation: dict[str, Any],
+    path: Path = REPORT_PATH,
+    roster_evaluation: dict[str, Any] | None = None,
+) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     tier_counts = count_by(rows, "model_tier")
     risk_counts = count_by(rows, "integrity_risk")
     phase_counts = count_by(rows, "match_phase")
     averages = evaluation.get("averages") or {}
+    roster_averages = (roster_evaluation or {}).get("averages") or {}
 
     def fmt(value: Any) -> str:
         return f"{float(value):.3f}" if isinstance(value, (float, int)) else "n/a"
@@ -622,6 +702,13 @@ def write_report(rows: list[dict[str, Any]], evaluation: dict[str, Any], path: P
             f"- Elo-only baseline log loss: {fmt(averages.get('elo_log_loss'))}",
             f"- Elo-only baseline Brier: {fmt(averages.get('elo_brier'))}",
             "",
+            "## Roster Feature Gate",
+            "",
+            f"- Candidate accuracy: {fmt(roster_averages.get('logistic_accuracy'))}",
+            f"- Candidate log loss: {fmt(roster_averages.get('logistic_log_loss'))}",
+            f"- Candidate Brier: {fmt(roster_averages.get('logistic_brier'))}",
+            f"- Promotion: {'pass' if roster_averages and roster_averages.get('logistic_log_loss', 1) <= averages.get('logistic_log_loss', 0) and roster_averages.get('logistic_brier', 1) <= averages.get('logistic_brier', 0) else 'hold'}",
+            "",
             "These metrics are sanity checks on the current seed data, not final model claims. The sample is still too small and too Tier-1-heavy for a serious 60%+ accuracy claim.",
             "",
             "## Largest Phase Buckets",
@@ -647,7 +734,13 @@ def main() -> None:
     write_training_csv(rows, Path(args.csv_path))
     store_training_table(connection, rows)
     evaluation = evaluate_rows(rows, tiers={"T1", "T1_5", "T2"}, risk_levels={"low", "medium"})
-    write_report(rows, evaluation, Path(args.report_path))
+    roster_evaluation = evaluate_rows(
+        rows,
+        tiers={"T1", "T1_5", "T2"},
+        risk_levels={"low", "medium"},
+        features=[*NUMERIC_FEATURES, *EXPERIMENTAL_ROSTER_FEATURES],
+    )
+    write_report(rows, evaluation, Path(args.report_path), roster_evaluation)
     print(
         json.dumps(
             {
@@ -657,6 +750,7 @@ def main() -> None:
                 "tier_counts": count_by(rows, "model_tier"),
                 "integrity_risk_counts": count_by(rows, "integrity_risk"),
                 "evaluation": evaluation,
+                "roster_feature_evaluation": roster_evaluation,
             },
             indent=2,
             sort_keys=True,

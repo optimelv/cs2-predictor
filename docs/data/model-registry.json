@@ -1,2319 +1,486 @@
 {
   "baseline": {
-    "folds": 2,
+    "folds": 4,
     "kind": "heuristic",
     "metrics": {
-      "accuracy": 0.636785,
-      "brier": 0.220668,
-      "ece": 0.031237,
-      "log_loss": 0.630218
+      "accuracy": 0.644161,
+      "brier": 0.219433,
+      "ece": 0.026287,
+      "log_loss": 0.627377
     },
-    "rows": 1931,
-    "test_rows": 647
+    "rows": 822,
+    "slices": [
+      {
+        "dimension": "tier",
+        "eligible": true,
+        "key": "tier_1",
+        "label": "Tier 1",
+        "metrics": {
+          "accuracy": 0.650628,
+          "brier": 0.21457,
+          "ece": 0.034297,
+          "log_loss": 0.616806
+        },
+        "rows": 478
+      },
+      {
+        "dimension": "tier",
+        "eligible": true,
+        "key": "tier_2",
+        "label": "Tier 2",
+        "metrics": {
+          "accuracy": 0.6,
+          "brier": 0.252636,
+          "ece": 0.133468,
+          "log_loss": 0.699563
+        },
+        "rows": 70
+      },
+      {
+        "dimension": "series_format",
+        "eligible": true,
+        "key": "bo1",
+        "label": "BO1",
+        "metrics": {
+          "accuracy": 0.65,
+          "brier": 0.227996,
+          "ece": 0.068812,
+          "log_loss": 0.648294
+        },
+        "rows": 100
+      },
+      {
+        "dimension": "series_format",
+        "eligible": true,
+        "key": "bo3",
+        "label": "BO3",
+        "metrics": {
+          "accuracy": 0.640732,
+          "brier": 0.218511,
+          "ece": 0.026654,
+          "log_loss": 0.624862
+        },
+        "rows": 437
+      },
+      {
+        "dimension": "series_format",
+        "eligible": false,
+        "key": "bo5",
+        "label": "BO5",
+        "metrics": {
+          "accuracy": 0.727273,
+          "brier": 0.178201,
+          "ece": 0.308826,
+          "log_loss": 0.53717
+        },
+        "rows": 11
+      }
+    ],
+    "test_rows": 548
   },
   "challenger": {
     "blend_weight": 0.5,
-    "family": "gradient_boosting",
-    "features": [
-      "elo_diff",
-      "vrs_rank_advantage",
-      "vrs_points_diff",
-      "recent_win_rate_10_diff",
-      "best_of",
-      "phase_order",
-      "is_lan",
-      "is_playoff",
-      "is_elimination_match"
-    ],
-    "folds": 2,
-    "learning_rate": 0.035,
-    "max_depth": 2,
-    "metrics": {
-      "accuracy": 0.639876,
-      "brier": 0.220738,
-      "ece": 0.03143,
-      "log_loss": 0.631857
-    },
-    "min_samples_leaf": 24,
-    "n_estimators": 60,
-    "promotion_passed": false,
-    "rows": 647
-  },
-  "champion": {
-    "blend_weight": 0.5,
+    "family": "logistic",
     "features": [
       "elo_diff",
       "vrs_rank_advantage",
       "vrs_points_diff",
       "recent_win_rate_10_diff"
     ],
-    "initial_log_odds": 0.09109743,
-    "kind": "portable_gbdt_blend",
-    "learning_rate": 0.04,
-    "max_depth": 1,
+    "folds": 4,
+    "l2": 0.005,
     "metrics": {
-      "accuracy": 0.632737,
-      "brier": 0.226606,
-      "ece": 0.03031,
-      "log_loss": 0.644506
+      "accuracy": 0.645985,
+      "brier": 0.22042,
+      "ece": 0.049614,
+      "log_loss": 0.630664
     },
-    "min_samples_leaf": 24,
-    "n_estimators": 40,
-    "tier_policy": "T1 + T1.5 + verified T2; low/medium integrity risk",
-    "trained_through": "2026-06-08",
-    "training_rows": 1450,
-    "trees": [
+    "promotion_passed": false,
+    "rows": 548,
+    "slices": [
       {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -63.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00137931,
-          -0.71607464,
-          0.36384778
-        ]
+        "dimension": "tier",
+        "eligible": true,
+        "key": "tier_1",
+        "label": "Tier 1",
+        "metrics": {
+          "accuracy": 0.654812,
+          "brier": 0.216495,
+          "ece": 0.059861,
+          "log_loss": 0.622323
+        },
+        "rows": 478
       },
       {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -31.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00204309,
-          -0.63643951,
-          0.36802561
-        ]
+        "dimension": "tier",
+        "eligible": true,
+        "key": "tier_2",
+        "label": "Tier 2",
+        "metrics": {
+          "accuracy": 0.585714,
+          "brier": 0.247219,
+          "ece": 0.043797,
+          "log_loss": 0.687618
+        },
+        "rows": 70
       },
       {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -31.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00307542,
-          -0.56366339,
-          0.32019364
-        ]
+        "dimension": "series_format",
+        "eligible": true,
+        "key": "bo1",
+        "label": "BO1",
+        "metrics": {
+          "accuracy": 0.65,
+          "brier": 0.230541,
+          "ece": 0.080223,
+          "log_loss": 0.652445
+        },
+        "rows": 100
       },
       {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          77.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00090831,
-          -0.42965024,
-          0.44173934
-        ]
+        "dimension": "series_format",
+        "eligible": true,
+        "key": "bo3",
+        "label": "BO3",
+        "metrics": {
+          "accuracy": 0.645309,
+          "brier": 0.218979,
+          "ece": 0.054956,
+          "log_loss": 0.62756
+        },
+        "rows": 437
       },
       {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -31.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00166378,
-          -0.57234308,
-          0.31978683
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -63.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00286367,
-          -0.61104118,
-          0.29836276
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          77.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.0037578,
-          -0.40236025,
-          0.39214398
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -22.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00401162,
-          -0.4929319,
-          0.31931056
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          77.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00334418,
-          -0.39539767,
-          0.38044819
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          83.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00277109,
-          -0.36787093,
-          0.36869515
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -31.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00304297,
-          -0.48146756,
-          0.26747786
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          20.07537842,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00474757,
-          -0.27529175,
-          0.37221072
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          77.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00195153,
-          -0.34732661,
-          0.35874027
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          75.47264862,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00404637,
-          -0.17106472,
-          0.69175414
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -31.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00059272,
-          -0.44650208,
-          0.2614104
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          67.03751755,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00566596,
-          -0.17917751,
-          0.55330109
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          77.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00351402,
-          -0.35498898,
-          0.34667239
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          75.47264862,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00189048,
-          -0.15939016,
-          0.66378034
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -30.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00063847,
-          -0.40956171,
-          0.23061621
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          75.00793076,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00535634,
-          -0.11486605,
-          0.61366924
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -68.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.002883,
-          -0.40609515,
-          0.22124595
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -31.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00196336,
-          -0.38744267,
-          0.207183
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          77.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00297019,
-          -0.27272778,
-          0.26967961
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          75.00793076,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00013755,
-          -0.12442264,
-          0.56043811
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          1,
-          -2,
-          -2
-        ],
-        "threshold": [
-          5.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00015102,
-          -0.20780315,
-          0.3465629
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -41.6818409,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.0095937,
-          -0.36939921,
-          0.16647453
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          67.03751755,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00084055,
-          -0.13369726,
-          0.52471342
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -165.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00056933,
-          -0.47144478,
-          0.17110566
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          77.0,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00040782,
-          -0.24029078,
-          0.25700849
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          5.02492023,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00225981,
-          -0.2706918,
-          0.27069879
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -165.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00091094,
-          -0.37152809,
-          0.13350746
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          212.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00208628,
-          -0.17968966,
-          0.31221504
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -54.16992378,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00698228,
-          -0.44374114,
-          0.15417804
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          75.01884842,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00537776,
-          -0.08242606,
-          0.52015947
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          64.46572876,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00198064,
-          -0.12975611,
-          0.51646628
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          75.01884842,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00303483,
-          -0.08370564,
-          0.44933311
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          77.51255798,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          -0.00523638,
-          -0.122759,
-          0.48017143
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -110.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00787375,
-          -0.30378746,
-          0.18267421
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          0,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -41.64999962,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00132909,
-          -0.37383497,
-          0.1281132
-        ]
-      },
-      {
-        "children_left": [
-          1,
-          -1,
-          -1
-        ],
-        "children_right": [
-          2,
-          -1,
-          -1
-        ],
-        "feature": [
-          2,
-          -2,
-          -2
-        ],
-        "threshold": [
-          -165.5,
-          -2.0,
-          -2.0
-        ],
-        "value": [
-          0.00076503,
-          -0.35231558,
-          0.12996642
-        ]
+        "dimension": "series_format",
+        "eligible": false,
+        "key": "bo5",
+        "label": "BO5",
+        "metrics": {
+          "accuracy": 0.636364,
+          "brier": 0.185645,
+          "ece": 0.323031,
+          "log_loss": 0.555952
+        },
+        "rows": 11
       }
-    ],
-    "version": "portable-20260830164241"
+    ]
+  },
+  "champion": {
+    "folds": 3,
+    "kind": "heuristic",
+    "metrics": {
+      "accuracy": 0.667546,
+      "brier": 0.207981,
+      "ece": 0.041042,
+      "log_loss": 0.602255
+    },
+    "rows": 757,
+    "segment_calibration": {
+      "tier_2_shrink": 0.5,
+      "version": "tier2-shrink-v1"
+    },
+    "test_rows": 379,
+    "trained_through": "2026-06-08",
+    "version": "bounded-elo-vrs-v1"
   },
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-20T11:26:40Z",
-  "history": [
-    {
-      "champion": {
-        "blend_weight": 0.5,
-        "features": [
-          "elo_diff",
-          "vrs_rank_advantage",
-          "vrs_points_diff",
-          "recent_win_rate_10_diff"
-        ],
-        "kind": "portable_logistic_blend",
-        "l2": 0.005,
-        "mean": [
-          8.17429212,
-          9.70490287,
-          80.7853839,
-          0.00465617
-        ],
+  "generated_at_utc": "2026-07-28T21:00:06Z",
+  "history": [],
+  "monitoring": {
+    "baseline_slices": [
+      {
+        "dimension": "tier",
+        "eligible": true,
+        "key": "tier_1",
+        "label": "Tier 1",
         "metrics": {
-          "accuracy": 0.624133,
-          "brier": 0.225518,
-          "ece": 0.021801,
-          "log_loss": 0.641489
+          "accuracy": 0.650628,
+          "brier": 0.21457,
+          "ece": 0.034297,
+          "log_loss": 0.616806
         },
-        "std": [
-          93.29628808,
-          54.05601357,
-          443.32099472,
-          0.20752671
-        ],
-        "tier_policy": "T1 + T1.5 + verified T2; low/medium integrity risk",
-        "trained_through": "2026-06-08",
-        "training_rows": 1081,
-        "version": "portable-20260813192253",
-        "weights": [
-          0.11126804,
-          0.41048404,
-          -0.12992676,
-          0.50027355,
-          -0.08233339
-        ]
+        "rows": 478
       },
-      "promoted_at_utc": "2026-08-13T19:22:53Z"
+      {
+        "dimension": "tier",
+        "eligible": true,
+        "key": "tier_2",
+        "label": "Tier 2",
+        "metrics": {
+          "accuracy": 0.6,
+          "brier": 0.252636,
+          "ece": 0.133468,
+          "log_loss": 0.699563
+        },
+        "rows": 70
+      },
+      {
+        "dimension": "series_format",
+        "eligible": true,
+        "key": "bo1",
+        "label": "BO1",
+        "metrics": {
+          "accuracy": 0.65,
+          "brier": 0.227996,
+          "ece": 0.068812,
+          "log_loss": 0.648294
+        },
+        "rows": 100
+      },
+      {
+        "dimension": "series_format",
+        "eligible": true,
+        "key": "bo3",
+        "label": "BO3",
+        "metrics": {
+          "accuracy": 0.640732,
+          "brier": 0.218511,
+          "ece": 0.026654,
+          "log_loss": 0.624862
+        },
+        "rows": 437
+      },
+      {
+        "dimension": "series_format",
+        "eligible": false,
+        "key": "bo5",
+        "label": "BO5",
+        "metrics": {
+          "accuracy": 0.727273,
+          "brier": 0.178201,
+          "ece": 0.308826,
+          "log_loss": 0.53717
+        },
+        "rows": 11
+      }
+    ],
+    "challenger_slice_gate": {
+      "checks": [
+        {
+          "eligible": true,
+          "key": "tier_1",
+          "passed": true,
+          "rows": 478
+        },
+        {
+          "eligible": true,
+          "key": "tier_2",
+          "passed": true,
+          "rows": 70
+        },
+        {
+          "eligible": true,
+          "key": "bo1",
+          "passed": true,
+          "rows": 100
+        },
+        {
+          "eligible": true,
+          "key": "bo3",
+          "passed": true,
+          "rows": 437
+        },
+        {
+          "eligible": false,
+          "key": "bo5",
+          "passed": null,
+          "rows": 11
+        }
+      ],
+      "passed": true
     },
-    {
-      "champion": {
-        "blend_weight": 0.5,
-        "features": [
-          "elo_diff",
-          "vrs_rank_advantage",
-          "vrs_points_diff",
-          "recent_win_rate_10_diff"
-        ],
-        "initial_log_odds": 0.09109743,
-        "kind": "portable_gbdt_blend",
-        "learning_rate": 0.04,
-        "max_depth": 1,
+    "challenger_slices": [
+      {
+        "dimension": "tier",
+        "eligible": true,
+        "key": "tier_1",
+        "label": "Tier 1",
         "metrics": {
-          "accuracy": 0.632737,
-          "brier": 0.226606,
-          "ece": 0.03031,
-          "log_loss": 0.644506
+          "accuracy": 0.654812,
+          "brier": 0.216495,
+          "ece": 0.059861,
+          "log_loss": 0.622323
         },
-        "min_samples_leaf": 24,
-        "n_estimators": 40,
-        "tier_policy": "T1 + T1.5 + verified T2; low/medium integrity risk",
-        "trained_through": "2026-06-08",
-        "training_rows": 1450,
-        "trees": [
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -63.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00137931,
-              -0.71607464,
-              0.36384778
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -31.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00204309,
-              -0.63643951,
-              0.36802561
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -31.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00307542,
-              -0.56366339,
-              0.32019364
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              77.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00090831,
-              -0.42965024,
-              0.44173934
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -31.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00166378,
-              -0.57234308,
-              0.31978683
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -63.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00286367,
-              -0.61104118,
-              0.29836276
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              77.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.0037578,
-              -0.40236025,
-              0.39214398
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -22.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00401162,
-              -0.4929319,
-              0.31931056
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              77.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00334418,
-              -0.39539767,
-              0.38044819
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              83.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00277109,
-              -0.36787093,
-              0.36869515
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -31.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00304297,
-              -0.48146756,
-              0.26747786
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              20.07537842,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00474757,
-              -0.27529175,
-              0.37221072
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              77.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00195153,
-              -0.34732661,
-              0.35874027
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              75.47264862,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00404637,
-              -0.17106472,
-              0.69175414
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -31.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00059272,
-              -0.44650208,
-              0.2614104
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              67.03751755,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00566596,
-              -0.17917751,
-              0.55330109
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              77.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00351402,
-              -0.35498898,
-              0.34667239
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              75.47264862,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00189048,
-              -0.15939016,
-              0.66378034
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -30.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00063847,
-              -0.40956171,
-              0.23061621
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              75.00793076,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00535634,
-              -0.11486605,
-              0.61366924
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -68.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.002883,
-              -0.40609515,
-              0.22124595
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -31.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00196336,
-              -0.38744267,
-              0.207183
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              77.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00297019,
-              -0.27272778,
-              0.26967961
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              75.00793076,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00013755,
-              -0.12442264,
-              0.56043811
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              1,
-              -2,
-              -2
-            ],
-            "threshold": [
-              5.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00015102,
-              -0.20780315,
-              0.3465629
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -41.6818409,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.0095937,
-              -0.36939921,
-              0.16647453
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              67.03751755,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00084055,
-              -0.13369726,
-              0.52471342
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -165.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00056933,
-              -0.47144478,
-              0.17110566
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              77.0,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00040782,
-              -0.24029078,
-              0.25700849
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              5.02492023,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00225981,
-              -0.2706918,
-              0.27069879
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -165.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00091094,
-              -0.37152809,
-              0.13350746
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              212.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00208628,
-              -0.17968966,
-              0.31221504
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -54.16992378,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00698228,
-              -0.44374114,
-              0.15417804
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              75.01884842,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00537776,
-              -0.08242606,
-              0.52015947
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              64.46572876,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00198064,
-              -0.12975611,
-              0.51646628
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              75.01884842,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00303483,
-              -0.08370564,
-              0.44933311
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              77.51255798,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              -0.00523638,
-              -0.122759,
-              0.48017143
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -110.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00787375,
-              -0.30378746,
-              0.18267421
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              0,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -41.64999962,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00132909,
-              -0.37383497,
-              0.1281132
-            ]
-          },
-          {
-            "children_left": [
-              1,
-              -1,
-              -1
-            ],
-            "children_right": [
-              2,
-              -1,
-              -1
-            ],
-            "feature": [
-              2,
-              -2,
-              -2
-            ],
-            "threshold": [
-              -165.5,
-              -2.0,
-              -2.0
-            ],
-            "value": [
-              0.00076503,
-              -0.35231558,
-              0.12996642
-            ]
-          }
-        ],
-        "version": "portable-20260830164241"
+        "rows": 478
       },
-      "promoted_at_utc": "2026-08-30T16:42:41Z"
-    }
-  ],
+      {
+        "dimension": "tier",
+        "eligible": true,
+        "key": "tier_2",
+        "label": "Tier 2",
+        "metrics": {
+          "accuracy": 0.585714,
+          "brier": 0.249104,
+          "ece": 0.091653,
+          "log_loss": 0.691984
+        },
+        "rows": 70
+      },
+      {
+        "dimension": "series_format",
+        "eligible": true,
+        "key": "bo1",
+        "label": "BO1",
+        "metrics": {
+          "accuracy": 0.65,
+          "brier": 0.228961,
+          "ece": 0.076261,
+          "log_loss": 0.649183
+        },
+        "rows": 100
+      },
+      {
+        "dimension": "series_format",
+        "eligible": true,
+        "key": "bo3",
+        "label": "BO3",
+        "metrics": {
+          "accuracy": 0.645309,
+          "brier": 0.219642,
+          "ece": 0.047945,
+          "log_loss": 0.629006
+        },
+        "rows": 437
+      },
+      {
+        "dimension": "series_format",
+        "eligible": false,
+        "key": "bo5",
+        "label": "BO5",
+        "metrics": {
+          "accuracy": 0.636364,
+          "brier": 0.185645,
+          "ece": 0.323031,
+          "log_loss": 0.555952
+        },
+        "rows": 11
+      }
+    ],
+    "champion_metrics": {
+      "accuracy": 0.644161,
+      "brier": 0.218923,
+      "ece": 0.027615,
+      "log_loss": 0.626221
+    },
+    "champion_slices": [
+      {
+        "dimension": "tier",
+        "eligible": true,
+        "key": "tier_1",
+        "label": "Tier 1",
+        "metrics": {
+          "accuracy": 0.650628,
+          "brier": 0.21457,
+          "ece": 0.034297,
+          "log_loss": 0.616806
+        },
+        "rows": 478
+      },
+      {
+        "dimension": "tier",
+        "eligible": true,
+        "key": "tier_2",
+        "label": "Tier 2",
+        "metrics": {
+          "accuracy": 0.6,
+          "brier": 0.248651,
+          "ece": 0.057491,
+          "log_loss": 0.690512
+        },
+        "rows": 70
+      },
+      {
+        "dimension": "series_format",
+        "eligible": true,
+        "key": "bo1",
+        "label": "BO1",
+        "metrics": {
+          "accuracy": 0.65,
+          "brier": 0.22961,
+          "ece": 0.08559,
+          "log_loss": 0.651694
+        },
+        "rows": 100
+      },
+      {
+        "dimension": "series_format",
+        "eligible": true,
+        "key": "bo3",
+        "label": "BO3",
+        "metrics": {
+          "accuracy": 0.640732,
+          "brier": 0.217503,
+          "ece": 0.040055,
+          "log_loss": 0.622634
+        },
+        "rows": 437
+      },
+      {
+        "dimension": "series_format",
+        "eligible": false,
+        "key": "bo5",
+        "label": "BO5",
+        "metrics": {
+          "accuracy": 0.727273,
+          "brier": 0.178201,
+          "ece": 0.308826,
+          "log_loss": 0.53717
+        },
+        "rows": 11
+      }
+    ],
+    "champion_test_rows": 548,
+    "minimum_slice_rows": 40,
+    "segment_calibration": {
+      "active": true,
+      "after": {
+        "accuracy": 0.6,
+        "brier": 0.248651,
+        "ece": 0.057491,
+        "log_loss": 0.690512
+      },
+      "before": {
+        "accuracy": 0.6,
+        "brier": 0.248651,
+        "ece": 0.057491,
+        "log_loss": 0.690512
+      },
+      "candidate_shrink": 0.5,
+      "overall_after": {
+        "accuracy": 0.644161,
+        "brier": 0.218923,
+        "ece": 0.027615,
+        "log_loss": 0.626221
+      },
+      "overall_before": {
+        "accuracy": 0.644161,
+        "brier": 0.218923,
+        "ece": 0.027615,
+        "log_loss": 0.626221
+      },
+      "passed": false,
+      "rows": 70,
+      "selected_shrink": 0.5
+    },
+    "window": "purged_chronological_cv"
+  },
   "promotion_gates": {
     "maximum_accuracy_regression": 0.005,
     "maximum_brier_regression": 0.001,
     "maximum_ece_regression": 0.015,
+    "maximum_slice_accuracy_regression": 0.03,
+    "maximum_slice_brier_regression": 0.015,
+    "maximum_slice_ece_regression": 0.03,
+    "maximum_slice_log_loss_regression": 0.025,
     "minimum_folds": 3,
     "minimum_log_loss_improvement": 0.002,
+    "minimum_slice_rows": 40,
     "minimum_test_rows": 350
   },
   "training": {
-    "new_rows": 1,
-    "online_rows": 1174,
+    "new_rows": 0,
+    "online_rows": 65,
+    "repaired_timestamps": 0,
     "seed_rows": 757
   }
 }

@@ -1,9 +1,10 @@
 import unittest
 import json
 import tempfile
+from datetime import datetime, timezone
 from pathlib import Path
 
-from server import events_from_matches, merge_match_detail, parse_match_detail, parse_matches, parse_results, save_snapshot
+from server import events_from_matches, merge_match_detail, parse_match_detail, parse_matches, parse_results, players_from_matches, save_snapshot, select_detail_candidates
 
 
 class WorkerParserTests(unittest.TestCase):
@@ -77,7 +78,7 @@ class WorkerParserTests(unittest.TestCase):
 
     def test_result_card_extracts_score_and_winner(self):
         html = """
-        <a class="result-con" href="/matches/2389000/result">
+        <a class="result-con" data-zonedgrouping-entry-unix="1784980800000" href="/matches/2389000/result">
           <div class="team">MOUZ</div><div class="team">NAVI</div>
           <div class="result-score">2 - 1</div>
           <div class="event-name">Finals</div>
@@ -87,6 +88,7 @@ class WorkerParserTests(unittest.TestCase):
         self.assertEqual((rows[0]["score1"], rows[0]["score2"]), (2, 1))
         self.assertEqual(rows[0]["winner_name"], "MOUZ")
         self.assertEqual(rows[0]["status"], "finished")
+        self.assertEqual(rows[0]["starts_at"], "2026-07-25T12:00:00Z")
 
     def test_detail_adds_veto_and_map_results(self):
         html = """
@@ -94,6 +96,10 @@ class WorkerParserTests(unittest.TestCase):
         <div class="veto-box">Spirit removed Ancient. Vitality picked Mirage.</div>
         <div class="lineup"><a href="/player/7998/s1mple">s1mple</a></div>
         <div class="lineup"><a href="/player/11816/ropz">ropz</a></div>
+        <div class="stats-content" id="all-content">
+          <table class="table totalstats"><tr><td class="players"><a href="/player/7998/s1mple"><span class="player-nick">s1mple</span></a></td><td class="kd text-center traditional-data">40-22</td><td class="adr text-center traditional-data">91.4</td><td class="kast text-center traditional-data">78.2%</td><td class="rating text-center">1.42</td></tr></table>
+          <table class="table totalstats"><tr><td class="players"><a href="/player/11816/ropz"><span class="player-nick">ropz</span></a></td><td class="kd text-center traditional-data">29-31</td><td class="adr text-center traditional-data">75.1</td><td class="kast text-center traditional-data">70.0%</td><td class="rating text-center">1.03</td></tr></table>
+        </div>
         <div class="mapholder">
           <div class="mapname">Mirage</div>
           <div class="results-left"><div class="results-team-score">13</div></div>
@@ -105,16 +111,66 @@ class WorkerParserTests(unittest.TestCase):
         self.assertEqual(detail["map_results"][0]["status"], "finished")
         self.assertIn("removed Ancient", detail["veto_text"])
         self.assertEqual(detail["lineups"]["team1"][0]["player_id"], "hltv:7998")
+        self.assertEqual(detail["player_stats"][0]["rating"], 1.42)
 
         merged = merge_match_detail({
+            "match_id": "hltv:detail-result",
             "team1_name": "Spirit",
             "team2_name": "Vitality",
             "series_format": "bo3",
             "status": "live",
+            "starts_at": "2026-07-28T12:00:00Z",
         }, {**detail, "score1": 2, "score2": 0})
         self.assertEqual(merged["status"], "finished")
         self.assertEqual(merged["winner_name"], "Spirit")
         self.assertEqual(merged["lineups"]["team1"][0]["team_name"], "Spirit")
+        self.assertEqual(merged["lineups"]["team1"][0]["timeline_entry"]["rating"], 1.42)
+        players = players_from_matches([merged])
+        self.assertEqual(len(players), 2)
+        self.assertEqual(next(player for player in players if player["player_id"] == "hltv:7998")["rating_3_0"], 1.42)
+
+    def test_detail_timeline_requires_anchored_terminal_result(self):
+        stat = {
+            "player_id": "hltv:7998",
+            "nickname": "s1mple",
+            "team_side": 1,
+            "kills": 40,
+            "deaths": 22,
+            "rating": 1.42,
+        }
+
+        def merged_with(**overrides):
+            match = {
+                "match_id": "hltv:timeline-check",
+                "team1_name": "Spirit",
+                "team2_name": "Vitality",
+                "series_format": "bo3",
+                "status": "finished",
+                "starts_at": "2026-09-20T12:00:00Z",
+                "score1": 2,
+                "score2": 0,
+                **overrides,
+            }
+            return merge_match_detail(match, {"player_stats": [dict(stat)]})
+
+        missing = merged_with(starts_at=None)
+        malformed = merged_with(starts_at="2026-09-20T12:00:00")
+        live_partial = merged_with(status="live", score1=1, score2=0)
+        valid = merged_with()
+
+        for candidate in (missing, malformed, live_partial):
+            player = candidate["lineups"]["team1"][0]
+            self.assertEqual(player["player_id"], "hltv:7998")
+            self.assertNotIn("timeline_entry", player)
+        self.assertEqual(valid["lineups"]["team1"][0]["timeline_entry"]["date"], "2026-09-20")
+
+    def test_detail_priority_keeps_live_and_recent_results_first(self):
+        now = datetime(2026, 7, 28, 12, tzinfo=timezone.utc)
+        live = {"match_id": "live", "status": "live", "source_url": "live"}
+        results = [{"match_id": f"result-{index}", "status": "finished", "source_url": "result"} for index in range(6)]
+        upcoming = {"match_id": "upcoming", "status": "upcoming", "source_url": "upcoming", "starts_at": "2026-07-28T13:00:00Z"}
+        selected = select_detail_candidates([live, upcoming, *results], results, now, 6)
+        self.assertEqual([row["match_id"] for row in selected], ["live", "result-0", "result-1", "result-2", "result-3", "upcoming"])
 
     def test_event_format_is_inferred_from_stages(self):
         event = events_from_matches([

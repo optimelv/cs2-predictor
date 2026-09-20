@@ -9,10 +9,16 @@ from .export_site_predictions import portable_model_probability
 from .promote_portable_model import (
     CORE_FEATURES,
     GradientBoostingClassifier,
+    append_live_training_rows,
     baseline_probability,
     fit_artifact,
     matrix,
     promotion_passes,
+    repair_online_integrity_risk,
+    repair_online_timestamps,
+    chronological_training_rows,
+    segment_calibration_decision,
+    slice_gate,
 )
 
 
@@ -67,13 +73,127 @@ class PortableModelTests(unittest.TestCase):
             self.assertAlmostEqual(actual, expected, places=6)
 
     def test_promotion_rejects_degraded_calibration(self) -> None:
-        comparison = {"metrics": {"accuracy": 0.68, "log_loss": 0.59, "brier": 0.20, "ece": 0.04}}
+        comparison = {"metrics": {"accuracy": 0.68, "log_loss": 0.59, "brier": 0.20, "ece": 0.04}, "slices": [{"key": "tier_1", "rows": 100, "eligible": True, "metrics": {"accuracy": 0.68, "log_loss": 0.59, "brier": 0.20, "ece": 0.04}}]}
         candidate = {
             "rows": 400,
             "folds": 4,
             "metrics": {"accuracy": 0.69, "log_loss": 0.58, "brier": 0.20, "ece": 0.08},
+            "slices": [{"key": "tier_1", "rows": 100, "eligible": True, "metrics": {"accuracy": 0.69, "log_loss": 0.58, "brier": 0.20, "ece": 0.08}}],
         }
         self.assertFalse(promotion_passes(candidate, comparison))
+
+    def test_slice_gate_rejects_local_regression(self) -> None:
+        comparison = {"slices": [{"key": "tier_2", "rows": 80, "eligible": True, "metrics": {"accuracy": 0.67, "log_loss": 0.60, "brier": 0.21, "ece": 0.04}}]}
+        candidate = {"slices": [{"key": "tier_2", "rows": 80, "eligible": True, "metrics": {"accuracy": 0.62, "log_loss": 0.64, "brier": 0.23, "ece": 0.08}}]}
+        self.assertFalse(slice_gate(candidate, comparison)["passed"])
+
+    def test_history_date_does_not_fabricate_online_timestamp(self) -> None:
+        import json
+        import tempfile
+        from pathlib import Path
+
+        rows = [{"match_id": "m1", "match_date": "", "match_timestamp": 0}]
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "history.json"
+            path.write_text(json.dumps({"matches": [{"match_id": "m1", "match_date": "2026-07-28"}]}), encoding="utf-8")
+            self.assertEqual(repair_online_timestamps(rows, path), 0)
+        self.assertEqual(rows[0]["match_date"], "")
+        self.assertEqual(rows[0]["match_timestamp"], 0)
+        self.assertEqual(chronological_training_rows(rows), [])
+
+    def test_chronological_training_excludes_unanchored_legacy_rows(self) -> None:
+        valid = {"match_id": "valid", "match_date": "2026-07-28", "match_timestamp": 1785232800}
+        rows = [valid, {"match_id": "missing", "match_date": "", "match_timestamp": 0}, {"match_id": "date-only", "match_date": "2026-07-28", "match_timestamp": 0}]
+        self.assertEqual(chronological_training_rows(rows), [valid])
+
+    def test_live_training_skips_finished_row_without_source_timestamp(self) -> None:
+        import json
+        import tempfile
+        from pathlib import Path
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            predictions = root / "predictions.json"
+            predictions.write_text(json.dumps({"model_state": {"teams": []}}), encoding="utf-8")
+            live = root / "live.json"
+            live.write_text(json.dumps({
+                "fetched_at_utc": "2026-09-20T04:55:46Z",
+                "matches": [{
+                    "match_id": "hltv:missing-time",
+                    "event_name": "CCT Europe Series 9",
+                    "team1_name": "Alpha",
+                    "team2_name": "Beta",
+                    "product_tier": "tier_2",
+                    "score1": 2,
+                    "score2": 0,
+                    "status": "finished",
+                    "starts_at": None,
+                }],
+            }), encoding="utf-8")
+            rows: list[dict] = []
+            self.assertEqual(append_live_training_rows(live, predictions, rows, root / "history.json"), 0)
+            self.assertEqual(rows, [])
+
+    def test_live_training_skips_partial_live_score(self) -> None:
+        import json
+        import tempfile
+        from pathlib import Path
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            predictions = root / "predictions.json"
+            predictions.write_text(json.dumps({"model_state": {"teams": []}}), encoding="utf-8")
+            live = root / "live.json"
+            live.write_text(json.dumps({
+                "fetched_at_utc": "2026-09-20T04:55:46Z",
+                "matches": [{
+                    "match_id": "hltv:live-partial",
+                    "event_name": "CCT Europe Series 9",
+                    "team1_name": "Alpha",
+                    "team2_name": "Beta",
+                    "product_tier": "tier_2",
+                    "score1": 1,
+                    "score2": 0,
+                    "status": "live",
+                    "starts_at": "2026-09-20T04:00:00Z",
+                }],
+            }), encoding="utf-8")
+            rows: list[dict] = []
+            self.assertEqual(append_live_training_rows(live, predictions, rows, root / "history.json"), 0)
+            self.assertEqual(rows, [])
+
+    def test_tier2_online_rows_keep_medium_integrity_risk(self) -> None:
+        rows = [
+            {"model_tier": "T2", "integrity_risk": "low"},
+            {"model_tier": "T1", "integrity_risk": "low"},
+        ]
+        self.assertEqual(repair_online_integrity_risk(rows), 1)
+        self.assertEqual(rows[0]["integrity_risk"], "medium")
+
+    def test_segment_features_are_derived_from_match_context(self) -> None:
+        rows = [{"target_team1_win": 1, "model_tier": "T2", "best_of": 1}]
+        values, _ = matrix(rows, ["is_tier2", "is_bo1", "is_bo5"])
+        self.assertEqual(values.tolist(), [[1.0, 1.0, 0.0]])
+
+    def test_tier2_segment_calibration_is_separately_gated(self) -> None:
+        rows = [{"model_tier": "T2", "best_of": 3} for _ in range(40)]
+        y_true = [1] * 24 + [0] * 16
+        probabilities = [0.8] * 40
+        raw = {
+            "metrics": {"accuracy": 0.6, "log_loss": 0.777661, "brier": 0.28, "ece": 0.2},
+            "slices": [],
+            "_evaluated_rows": rows,
+            "_y_true": y_true,
+            "_probabilities": probabilities,
+        }
+        decision = segment_calibration_decision(raw, None)
+        self.assertTrue(decision["audit"]["passed"])
+        self.assertLess(decision["audit"]["after"]["log_loss"], decision["audit"]["before"]["log_loss"])
+
+    def test_heuristic_runtime_applies_tier2_calibration(self) -> None:
+        champion = {"kind": "heuristic", "segment_calibration": {"tier_2_shrink": 0.4}}
+        actual = portable_model_probability(champion, {"is_tier2": 1.0}, 0.7)
+        self.assertAlmostEqual(actual, 0.58)
 
 
 if __name__ == "__main__":

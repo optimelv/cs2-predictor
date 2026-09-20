@@ -3,7 +3,7 @@ name: Refresh predictor data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */3 * * *"
+    - cron: "17 * * * *"
 
 concurrency:
   group: refresh-predictor-data
@@ -82,7 +82,7 @@ jobs:
           if FLARESOLVERR_URL=http://127.0.0.1:8191/v1 \
             SOURCE_LABEL="HLTV via GitHub Actions FlareSolverr" \
             REQUEST_TIMEOUT_SECONDS=75 \
-            MAX_DETAIL_MATCHES=4 \
+            MAX_DETAIL_MATCHES=6 \
             python infra/oracle/worker/server.py --once --output "$snapshot_path"; then
             echo "available=true" >> "$GITHUB_OUTPUT"
             echo "source=github-actions" >> "$GITHUB_OUTPUT"
@@ -98,7 +98,7 @@ jobs:
           python - "$RUNNER_TEMP/live-snapshot.json" <<'PY'
           import json
           import sys
-          from datetime import datetime, timezone
+          from datetime import datetime, timedelta, timezone
           from pathlib import Path
 
           payload = json.loads(Path(sys.argv[1]).read_text())
@@ -107,7 +107,10 @@ jobs:
           if not payload.get("matches"):
               raise SystemExit("Live snapshot has no matches; refusing promotion.")
           fetched = datetime.fromisoformat(payload["fetched_at_utc"].replace("Z", "+00:00"))
-          age_hours = (datetime.now(timezone.utc) - fetched).total_seconds() / 3600
+          now = datetime.now(timezone.utc)
+          if fetched > now + timedelta(minutes=5):
+              raise SystemExit("Snapshot timestamp is in the future; refusing promotion.")
+          age_hours = (now - fetched).total_seconds() / 3600
           if age_hours > 12:
               raise SystemExit(f"Snapshot is {age_hours:.1f} hours old; refusing fake freshness.")
           PY
@@ -144,6 +147,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data/predictions.json docs/data/predictions.js docs/data/coverage.json docs/data/coverage.js docs/data/players.json docs/data/players.js docs/data/history.json docs/data/live-snapshot.json docs/data/model-registry.json models/portable-online-training.jsonl
           git diff --cached --quiet || git commit -m "Refresh verified CS2 results and projections"
+          git pull --rebase
           git push
 
       - name: Stop the ephemeral source worker

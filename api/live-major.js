@@ -294,10 +294,12 @@ function payloadShape(value) {
 
 export default async function handler(request, response) {
   response.setHeader("Cache-Control", "public, s-maxage=30, stale-while-revalidate=90");
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 12_000);
   try {
     const [matchesResponse, scoresResponse] = await Promise.all([
-      fetch(MATCHES_URL, { headers: { Accept: "application/json" } }),
-      fetch(SCORES_URL, { headers: { Accept: "application/json" } }),
+      fetch(MATCHES_URL, { headers: { Accept: "application/json" }, signal: controller.signal }),
+      fetch(SCORES_URL, { headers: { Accept: "application/json" }, signal: controller.signal }),
     ]);
     if (!matchesResponse.ok || !scoresResponse.ok) {
       throw new Error(`Live source returned ${matchesResponse.status}/${scoresResponse.status}`);
@@ -322,6 +324,8 @@ export default async function handler(request, response) {
     });
   } catch (error) {
     return response.status(502).json({ ok: false, error: error.message });
+  } finally {
+    clearTimeout(timeout);
   }
 }
 

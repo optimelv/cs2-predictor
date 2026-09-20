@@ -1,12 +1,23 @@
 import { ORACLE_WORKER_URL } from "../config/oracle-worker.js";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
+import { filterProductLiveSnapshot } from "../docs/lib/live-feed.js";
+import { snapshotFreshness } from "../docs/lib/freshness.js";
+
+export function validateLiveSnapshot(payload, { filter = true } = {}) {
+  if (!payload?.ok || !String(payload.contract_version || "").startsWith("1.") || !Array.isArray(payload.matches)
+    || (payload.events != null && !Array.isArray(payload.events))
+    || (payload.players != null && !Array.isArray(payload.players))
+    || snapshotFreshness(payload.fetched_at_utc).state === "unknown") {
+    throw new Error("The live snapshot contract or source timestamp is invalid.");
+  }
+  return filter ? filterProductLiveSnapshot(payload) : payload;
+}
 
 export async function readPublishedSnapshot(path = join(process.cwd(), "docs", "data", "live-snapshot.json")) {
-  const payload = JSON.parse(await readFile(path, "utf8"));
-  if (!payload?.ok || !String(payload.contract_version || "").startsWith("1.") || !Array.isArray(payload.matches)) {
-    throw new Error("The published live snapshot contract is invalid.");
-  }
+  // Published artifacts also contain curated roster players beyond fixture lineups.
+  // Keep that local registry; untrusted worker responses use the product filter.
+  const payload = validateLiveSnapshot(JSON.parse(await readFile(path, "utf8")), { filter: false });
   return {
     ...payload,
     poll_after_ms: Math.max(900_000, Number(payload.poll_after_ms) || 0),
@@ -44,10 +55,7 @@ export default async function handler(_request, response) {
     if (!upstream.ok) {
       throw new Error(`Worker returned HTTP ${upstream.status}`);
     }
-    const payload = await upstream.json();
-    if (!payload?.ok || !String(payload.contract_version || "").startsWith("1.")) {
-      throw new Error("Worker returned an invalid snapshot contract.");
-    }
+    const payload = validateLiveSnapshot(await upstream.json());
     response.setHeader("Cache-Control", "no-store, max-age=0");
     return response.status(200).json(payload);
   } catch (error) {
