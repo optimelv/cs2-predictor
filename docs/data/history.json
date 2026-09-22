@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-22T18:35:37Z",
+  "generated_at_utc": "2026-09-22T18:56:57Z",
   "through_date": "2026-09-22",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 2185,
+    "matches": 2189,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -616,6 +616,94 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Revise",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398428",
+      "match_date": "2026-09-22",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 7",
+      "team1_name": "BERG",
+      "team2_name": "mellren",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398431",
+      "match_date": "2026-09-22",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 7",
+      "team1_name": "Noir Verse",
+      "team2_name": "Ryvex",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Noir Verse",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398425",
+      "match_date": "2026-09-22",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 7",
+      "team1_name": "Entropy",
+      "team2_name": "Misa",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Entropy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398426",
+      "match_date": "2026-09-22",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 7",
+      "team1_name": "eSuba",
+      "team2_name": "6666",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "6666",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
