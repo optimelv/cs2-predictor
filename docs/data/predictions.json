@@ -6,50 +6,6 @@
         "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
         "event_name": "Radio Popular Roman Imperium Cup VIII",
         "event_url": null,
-        "hltv_match_id": "2397942",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Anubis",
-            "score1": 13,
-            "score2": 9,
-            "status": "finished"
-          },
-          {
-            "map_name": "Dust2",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Ancient",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [],
-        "match_id": "hltv:2397942",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397942/6666-vs-revenix-radio-popular-roman-imperium-cup-viii",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "6666",
-        "team2_name": "REVENIX",
-        "veto_text": "Best of 3 (LAN)\n\n* Lower bracket round 1",
-        "winner_name": "6666"
-      },
-      {
-        "event_id": "hltv:radio-popular-roman-imperium-cup-viii",
-        "event_name": "Radio Popular Roman Imperium Cup VIII",
-        "event_url": null,
         "hltv_match_id": "2397943",
         "maps": [],
         "match_id": "hltv:2397943",
@@ -2132,244 +2088,6 @@
         "winner_name": "ex-RUSTEC"
       },
       {
-        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-7",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 7",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2398429",
-        "lineups": {
-          "team1": [
-            {
-              "hltv_player_id": "25902",
-              "nickname": "tired73",
-              "player_id": "hltv:25902",
-              "source_url": "https://www.hltv.org/player/25902/tired73",
-              "team_name": "WBT Academy"
-            },
-            {
-              "hltv_player_id": "21650",
-              "nickname": "marat2k",
-              "player_id": "hltv:21650",
-              "source_url": "https://www.hltv.org/player/21650/marat2k",
-              "team_name": "WBT Academy"
-            },
-            {
-              "hltv_player_id": "21648",
-              "nickname": "svemyy",
-              "player_id": "hltv:21648",
-              "source_url": "https://www.hltv.org/player/21648/svemyy",
-              "team_name": "WBT Academy"
-            },
-            {
-              "hltv_player_id": "26422",
-              "nickname": "NxStep",
-              "player_id": "hltv:26422",
-              "source_url": "https://www.hltv.org/player/26422/nxstep",
-              "team_name": "WBT Academy"
-            },
-            {
-              "hltv_player_id": "19946",
-              "nickname": "fl1peR",
-              "player_id": "hltv:19946",
-              "source_url": "https://www.hltv.org/player/19946/fl1per",
-              "team_name": "WBT Academy"
-            }
-          ],
-          "team2": [
-            {
-              "hltv_player_id": "22863",
-              "nickname": "KAD1M",
-              "player_id": "hltv:22863",
-              "source_url": "https://www.hltv.org/player/22863/kad1m",
-              "team_name": "LPH"
-            },
-            {
-              "hltv_player_id": "15114",
-              "nickname": "lojzo",
-              "player_id": "hltv:15114",
-              "source_url": "https://www.hltv.org/player/15114/lojzo",
-              "team_name": "LPH"
-            },
-            {
-              "hltv_player_id": "25063",
-              "nickname": "Fajr",
-              "player_id": "hltv:25063",
-              "source_url": "https://www.hltv.org/player/25063/fajr",
-              "team_name": "LPH"
-            },
-            {
-              "hltv_player_id": "24553",
-              "nickname": "N1KOLAJ",
-              "player_id": "hltv:24553",
-              "source_url": "https://www.hltv.org/player/24553/n1kolaj",
-              "team_name": "LPH"
-            },
-            {
-              "hltv_player_id": "24555",
-              "nickname": "d0mZ1k",
-              "player_id": "hltv:24555",
-              "source_url": "https://www.hltv.org/player/24555/d0mz1k",
-              "team_name": "LPH"
-            }
-          ]
-        },
-        "map_results": [
-          {
-            "map_name": "Nuke",
-            "score1": 10,
-            "score2": 13,
-            "status": "finished"
-          },
-          {
-            "map_name": "Anubis",
-            "score1": 13,
-            "score2": 8,
-            "status": "finished"
-          },
-          {
-            "map_name": "Ancient",
-            "score1": 7,
-            "score2": 5,
-            "status": "finished"
-          }
-        ],
-        "maps": [
-          "Nuke",
-          "Anubis",
-          "Ancient"
-        ],
-        "match_id": "hltv:2398429",
-        "player_stats": [
-          {
-            "adr": 82.4,
-            "deaths": 24,
-            "hltv_player_id": "25902",
-            "kast": 77.3,
-            "kills": 40,
-            "nickname": "tired73",
-            "player_id": "hltv:25902",
-            "rating": 1.28,
-            "source_url": "https://www.hltv.org/player/25902/tired73",
-            "team_side": 1
-          },
-          {
-            "adr": 87.4,
-            "deaths": 26,
-            "hltv_player_id": "21650",
-            "kast": 70.5,
-            "kills": 32,
-            "nickname": "marat2k",
-            "player_id": "hltv:21650",
-            "rating": 1.27,
-            "source_url": "https://www.hltv.org/player/21650/marat2k",
-            "team_side": 1
-          },
-          {
-            "adr": 70,
-            "deaths": 31,
-            "hltv_player_id": "21648",
-            "kast": 72.7,
-            "kills": 27,
-            "nickname": "svemyy",
-            "player_id": "hltv:21648",
-            "rating": 1.02,
-            "source_url": "https://www.hltv.org/player/21648/svemyy",
-            "team_side": 1
-          },
-          {
-            "adr": 61.1,
-            "deaths": 31,
-            "hltv_player_id": "26422",
-            "kast": 72.7,
-            "kills": 24,
-            "nickname": "NxStep",
-            "player_id": "hltv:26422",
-            "rating": 0.91,
-            "source_url": "https://www.hltv.org/player/26422/nxstep",
-            "team_side": 1
-          },
-          {
-            "adr": 66.9,
-            "deaths": 29,
-            "hltv_player_id": "19946",
-            "kast": 56.8,
-            "kills": 26,
-            "nickname": "fl1peR",
-            "player_id": "hltv:19946",
-            "rating": 0.88,
-            "source_url": "https://www.hltv.org/player/19946/fl1per",
-            "team_side": 1
-          },
-          {
-            "adr": 98.8,
-            "deaths": 28,
-            "hltv_player_id": "22863",
-            "kast": 75,
-            "kills": 38,
-            "nickname": "KAD1M",
-            "player_id": "hltv:22863",
-            "rating": 1.54,
-            "source_url": "https://www.hltv.org/player/22863/kad1m",
-            "team_side": 2
-          },
-          {
-            "adr": 61.7,
-            "deaths": 29,
-            "hltv_player_id": "15114",
-            "kast": 63.6,
-            "kills": 26,
-            "nickname": "lojzo",
-            "player_id": "hltv:15114",
-            "rating": 0.92,
-            "source_url": "https://www.hltv.org/player/15114/lojzo",
-            "team_side": 2
-          },
-          {
-            "adr": 69,
-            "deaths": 34,
-            "hltv_player_id": "25063",
-            "kast": 68.2,
-            "kills": 25,
-            "nickname": "Fajr",
-            "player_id": "hltv:25063",
-            "rating": 0.9,
-            "source_url": "https://www.hltv.org/player/25063/fajr",
-            "team_side": 2
-          },
-          {
-            "adr": 68.1,
-            "deaths": 29,
-            "hltv_player_id": "24553",
-            "kast": 68.2,
-            "kills": 27,
-            "nickname": "N1KOLAJ",
-            "player_id": "hltv:24553",
-            "rating": 0.88,
-            "source_url": "https://www.hltv.org/player/24553/n1kolaj",
-            "team_side": 2
-          },
-          {
-            "adr": 60.3,
-            "deaths": 29,
-            "hltv_player_id": "24555",
-            "kast": 68.2,
-            "kills": 24,
-            "nickname": "d0mZ1k",
-            "player_id": "hltv:24555",
-            "rating": 0.79,
-            "source_url": "https://www.hltv.org/player/24555/d0mz1k",
-            "team_side": 2
-          }
-        ],
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398429/wbt-academy-vs-lph-esl-challenger-league-season-52-europe-cup-7",
-        "stage_name": "Scheduled series",
-        "status": "live",
-        "team1_name": "WBT Academy",
-        "team2_name": "LPH",
-        "veto_text": "Best of 3 (Online)\n\n* Group C winners' match"
-      },
-      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -3773,9 +3491,9 @@
           },
           {
             "map_name": "Ancient",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
+            "score1": 3,
+            "score2": 9,
+            "status": "finished"
           },
           {
             "map_name": "Inferno",
@@ -4407,6 +4125,248 @@
         "winner_name": "KUUSAMO"
       },
       {
+        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-7",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 7",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2398429",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "25902",
+              "nickname": "tired73",
+              "player_id": "hltv:25902",
+              "source_url": "https://www.hltv.org/player/25902/tired73",
+              "team_name": "WBT Academy"
+            },
+            {
+              "hltv_player_id": "21650",
+              "nickname": "marat2k",
+              "player_id": "hltv:21650",
+              "source_url": "https://www.hltv.org/player/21650/marat2k",
+              "team_name": "WBT Academy"
+            },
+            {
+              "hltv_player_id": "21648",
+              "nickname": "svemyy",
+              "player_id": "hltv:21648",
+              "source_url": "https://www.hltv.org/player/21648/svemyy",
+              "team_name": "WBT Academy"
+            },
+            {
+              "hltv_player_id": "26422",
+              "nickname": "NxStep",
+              "player_id": "hltv:26422",
+              "source_url": "https://www.hltv.org/player/26422/nxstep",
+              "team_name": "WBT Academy"
+            },
+            {
+              "hltv_player_id": "19946",
+              "nickname": "fl1peR",
+              "player_id": "hltv:19946",
+              "source_url": "https://www.hltv.org/player/19946/fl1per",
+              "team_name": "WBT Academy"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "22863",
+              "nickname": "KAD1M",
+              "player_id": "hltv:22863",
+              "source_url": "https://www.hltv.org/player/22863/kad1m",
+              "team_name": "LPH"
+            },
+            {
+              "hltv_player_id": "15114",
+              "nickname": "lojzo",
+              "player_id": "hltv:15114",
+              "source_url": "https://www.hltv.org/player/15114/lojzo",
+              "team_name": "LPH"
+            },
+            {
+              "hltv_player_id": "25063",
+              "nickname": "Fajr",
+              "player_id": "hltv:25063",
+              "source_url": "https://www.hltv.org/player/25063/fajr",
+              "team_name": "LPH"
+            },
+            {
+              "hltv_player_id": "24553",
+              "nickname": "N1KOLAJ",
+              "player_id": "hltv:24553",
+              "source_url": "https://www.hltv.org/player/24553/n1kolaj",
+              "team_name": "LPH"
+            },
+            {
+              "hltv_player_id": "24555",
+              "nickname": "d0mZ1k",
+              "player_id": "hltv:24555",
+              "source_url": "https://www.hltv.org/player/24555/d0mz1k",
+              "team_name": "LPH"
+            }
+          ]
+        },
+        "map_results": [
+          {
+            "map_name": "Nuke",
+            "score1": 10,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": 13,
+            "score2": 8,
+            "status": "finished"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": 7,
+            "score2": 5,
+            "status": "finished"
+          }
+        ],
+        "maps": [
+          "Nuke",
+          "Anubis",
+          "Ancient"
+        ],
+        "match_id": "hltv:2398429",
+        "player_stats": [
+          {
+            "adr": 82.4,
+            "deaths": 24,
+            "hltv_player_id": "25902",
+            "kast": 77.3,
+            "kills": 40,
+            "nickname": "tired73",
+            "player_id": "hltv:25902",
+            "rating": 1.28,
+            "source_url": "https://www.hltv.org/player/25902/tired73",
+            "team_side": 1
+          },
+          {
+            "adr": 87.4,
+            "deaths": 26,
+            "hltv_player_id": "21650",
+            "kast": 70.5,
+            "kills": 32,
+            "nickname": "marat2k",
+            "player_id": "hltv:21650",
+            "rating": 1.27,
+            "source_url": "https://www.hltv.org/player/21650/marat2k",
+            "team_side": 1
+          },
+          {
+            "adr": 70,
+            "deaths": 31,
+            "hltv_player_id": "21648",
+            "kast": 72.7,
+            "kills": 27,
+            "nickname": "svemyy",
+            "player_id": "hltv:21648",
+            "rating": 1.02,
+            "source_url": "https://www.hltv.org/player/21648/svemyy",
+            "team_side": 1
+          },
+          {
+            "adr": 61.1,
+            "deaths": 31,
+            "hltv_player_id": "26422",
+            "kast": 72.7,
+            "kills": 24,
+            "nickname": "NxStep",
+            "player_id": "hltv:26422",
+            "rating": 0.91,
+            "source_url": "https://www.hltv.org/player/26422/nxstep",
+            "team_side": 1
+          },
+          {
+            "adr": 66.9,
+            "deaths": 29,
+            "hltv_player_id": "19946",
+            "kast": 56.8,
+            "kills": 26,
+            "nickname": "fl1peR",
+            "player_id": "hltv:19946",
+            "rating": 0.88,
+            "source_url": "https://www.hltv.org/player/19946/fl1per",
+            "team_side": 1
+          },
+          {
+            "adr": 98.8,
+            "deaths": 28,
+            "hltv_player_id": "22863",
+            "kast": 75,
+            "kills": 38,
+            "nickname": "KAD1M",
+            "player_id": "hltv:22863",
+            "rating": 1.54,
+            "source_url": "https://www.hltv.org/player/22863/kad1m",
+            "team_side": 2
+          },
+          {
+            "adr": 61.7,
+            "deaths": 29,
+            "hltv_player_id": "15114",
+            "kast": 63.6,
+            "kills": 26,
+            "nickname": "lojzo",
+            "player_id": "hltv:15114",
+            "rating": 0.92,
+            "source_url": "https://www.hltv.org/player/15114/lojzo",
+            "team_side": 2
+          },
+          {
+            "adr": 69,
+            "deaths": 34,
+            "hltv_player_id": "25063",
+            "kast": 68.2,
+            "kills": 25,
+            "nickname": "Fajr",
+            "player_id": "hltv:25063",
+            "rating": 0.9,
+            "source_url": "https://www.hltv.org/player/25063/fajr",
+            "team_side": 2
+          },
+          {
+            "adr": 68.1,
+            "deaths": 29,
+            "hltv_player_id": "24553",
+            "kast": 68.2,
+            "kills": 27,
+            "nickname": "N1KOLAJ",
+            "player_id": "hltv:24553",
+            "rating": 0.88,
+            "source_url": "https://www.hltv.org/player/24553/n1kolaj",
+            "team_side": 2
+          },
+          {
+            "adr": 60.3,
+            "deaths": 29,
+            "hltv_player_id": "24555",
+            "kast": 68.2,
+            "kills": 24,
+            "nickname": "d0mZ1k",
+            "player_id": "hltv:24555",
+            "rating": 0.79,
+            "source_url": "https://www.hltv.org/player/24555/d0mz1k",
+            "team_side": 2
+          }
+        ],
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398429/wbt-academy-vs-lph-esl-challenger-league-season-52-europe-cup-7",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-22T20:09:03Z",
+        "status": "finished",
+        "team1_name": "WBT Academy",
+        "team2_name": "LPH",
+        "veto_text": "Best of 3 (Online)\n\n* Group C winners' match",
+        "winner_name": "WBT Academy"
+      },
+      {
         "event_id": "hltv:9355",
         "event_name": "ESL Challenger League Season 52 South America Cup 2",
         "event_url": null,
@@ -4931,6 +4891,20 @@
         "status": "upcoming",
         "team1_name": "mellren",
         "team2_name": "Permitta"
+      },
+      {
+        "event_id": "hltv:9338",
+        "event_name": "ESL Challenger League Season 52 Europe Cup 7",
+        "hltv_match_id": "2398435",
+        "match_id": "hltv:2398435",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398435/revise-vs-lph-esl-challenger-league-season-52-europe-cup-7",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-23T13:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Revise",
+        "team2_name": "LPH"
       },
       {
         "event_id": "hltv:9419",
@@ -11217,9 +11191,9 @@
               },
               {
                 "map_name": "Ancient",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
+                "score1": 3,
+                "score2": 9,
+                "status": "finished"
               },
               {
                 "map_name": "Inferno",
@@ -12714,13 +12688,17 @@
               }
             ],
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398429/wbt-academy-vs-lph-esl-challenger-league-season-52-europe-cup-7",
             "stage_name": "Scheduled series",
-            "status": "live",
+            "starts_at": "2026-09-22T20:09:03Z",
+            "status": "finished",
             "team1_name": "WBT Academy",
             "team2_name": "LPH",
-            "veto_text": "Best of 3 (Online)\n\n* Group C winners' match"
+            "veto_text": "Best of 3 (Online)\n\n* Group C winners' match",
+            "winner_name": "WBT Academy"
           },
           {
             "event_id": "hltv:esl-challenger-league-season-52-europe-cup-7",
@@ -12797,6 +12775,20 @@
             "status": "upcoming",
             "team1_name": "mellren",
             "team2_name": "Permitta"
+          },
+          {
+            "event_id": "hltv:9338",
+            "event_name": "ESL Challenger League Season 52 Europe Cup 7",
+            "hltv_match_id": "2398435",
+            "match_id": "hltv:2398435",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398435/revise-vs-lph-esl-challenger-league-season-52-europe-cup-7",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-23T13:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Revise",
+            "team2_name": "LPH"
           }
         ],
         "name": "ESL Challenger League Season 52 Europe Cup 7",
@@ -12823,7 +12815,7 @@
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-09-22T20:05:02Z",
+    "last_verified_utc": "2026-09-22T20:31:53Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -13261,7 +13253,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-22T20:06:13Z",
+  "generated_at_utc": "2026-09-22T20:33:56Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -14634,15 +14626,15 @@
   },
   "model_registry": {
     "baseline": {
-      "folds": 4,
+      "folds": 3,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.64728,
-        "brier": 0.214974,
-        "ece": 0.037987,
-        "log_loss": 0.617526
+        "accuracy": 0.667546,
+        "brier": 0.207981,
+        "ece": 0.041042,
+        "log_loss": 0.602255
       },
-      "rows": 799,
+      "rows": 757,
       "slices": [
         {
           "dimension": "tier",
@@ -14650,25 +14642,25 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.651992,
-            "brier": 0.212285,
-            "ece": 0.033376,
-            "log_loss": 0.611552
+            "accuracy": 0.664879,
+            "brier": 0.208155,
+            "ece": 0.046885,
+            "log_loss": 0.602502
           },
-          "rows": 477
+          "rows": 373
         },
         {
           "dimension": "tier",
-          "eligible": true,
+          "eligible": false,
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.607143,
-            "brier": 0.237887,
-            "ece": 0.170621,
-            "log_loss": 0.668414
+            "accuracy": 0.833333,
+            "brier": 0.197177,
+            "ece": 0.322221,
+            "log_loss": 0.586853
           },
-          "rows": 56
+          "rows": 6
         },
         {
           "dimension": "series_format",
@@ -14676,12 +14668,12 @@
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.65,
-            "brier": 0.227996,
-            "ece": 0.068812,
-            "log_loss": 0.648294
+            "accuracy": 0.666667,
+            "brier": 0.214728,
+            "ece": 0.054409,
+            "log_loss": 0.617962
           },
-          "rows": 100
+          "rows": 60
         },
         {
           "dimension": "series_format",
@@ -14689,12 +14681,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.64455,
-            "brier": 0.212847,
-            "ece": 0.039738,
-            "log_loss": 0.612329
+            "accuracy": 0.664516,
+            "brier": 0.207993,
+            "ece": 0.055887,
+            "log_loss": 0.602086
           },
-          "rows": 422
+          "rows": 310
         },
         {
           "dimension": "series_format",
@@ -14702,15 +14694,15 @@
           "key": "bo5",
           "label": "BO5",
           "metrics": {
-            "accuracy": 0.727273,
-            "brier": 0.178201,
-            "ece": 0.308826,
-            "log_loss": 0.53717
+            "accuracy": 0.777778,
+            "brier": 0.162586,
+            "ece": 0.269437,
+            "log_loss": 0.503358
           },
-          "rows": 11
+          "rows": 9
         }
       ],
-      "test_rows": 533
+      "test_rows": 379
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -14718,16 +14710,16 @@
       "features": [
         "baseline_logit"
       ],
-      "folds": 4,
+      "folds": 3,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.649156,
-        "brier": 0.2174,
-        "ece": 0.065543,
-        "log_loss": 0.624131
+        "accuracy": 0.667546,
+        "brier": 0.21111,
+        "ece": 0.058778,
+        "log_loss": 0.610669
       },
       "promotion_passed": false,
-      "rows": 533,
+      "rows": 379,
       "slices": [
         {
           "dimension": "tier",
@@ -14735,25 +14727,25 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.649895,
-            "brier": 0.21448,
-            "ece": 0.058051,
-            "log_loss": 0.617853
+            "accuracy": 0.664879,
+            "brier": 0.210939,
+            "ece": 0.064049,
+            "log_loss": 0.610256
           },
-          "rows": 477
+          "rows": 373
         },
         {
           "dimension": "tier",
-          "eligible": true,
+          "eligible": false,
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.642857,
-            "brier": 0.242269,
-            "ece": 0.15867,
-            "log_loss": 0.677608
+            "accuracy": 0.833333,
+            "brier": 0.221701,
+            "ece": 0.268921,
+            "log_loss": 0.636381
           },
-          "rows": 56
+          "rows": 6
         },
         {
           "dimension": "series_format",
@@ -14761,12 +14753,12 @@
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.65,
-            "brier": 0.229548,
-            "ece": 0.08094,
-            "log_loss": 0.650604
+            "accuracy": 0.666667,
+            "brier": 0.218419,
+            "ece": 0.08205,
+            "log_loss": 0.626285
           },
-          "rows": 100
+          "rows": 60
         },
         {
           "dimension": "series_format",
@@ -14774,12 +14766,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.646919,
-            "brier": 0.215313,
-            "ece": 0.071569,
-            "log_loss": 0.619527
+            "accuracy": 0.664516,
+            "brier": 0.21078,
+            "ece": 0.076361,
+            "log_loss": 0.609914
           },
-          "rows": 422
+          "rows": 310
         },
         {
           "dimension": "series_format",
@@ -14787,12 +14779,12 @@
           "key": "bo5",
           "label": "BO5",
           "metrics": {
-            "accuracy": 0.727273,
-            "brier": 0.187036,
-            "ece": 0.327634,
-            "log_loss": 0.560111
+            "accuracy": 0.777778,
+            "brier": 0.173755,
+            "ece": 0.292408,
+            "log_loss": 0.532574
           },
-          "rows": 11
+          "rows": 9
         }
       ]
     },
@@ -14815,7 +14807,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-22T20:06:13Z",
+    "generated_at_utc": "2026-09-22T20:33:56Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -14825,25 +14817,25 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.651992,
-            "brier": 0.212285,
-            "ece": 0.033376,
-            "log_loss": 0.611552
+            "accuracy": 0.664879,
+            "brier": 0.208155,
+            "ece": 0.046885,
+            "log_loss": 0.602502
           },
-          "rows": 477
+          "rows": 373
         },
         {
           "dimension": "tier",
-          "eligible": true,
+          "eligible": false,
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.607143,
-            "brier": 0.237887,
-            "ece": 0.170621,
-            "log_loss": 0.668414
+            "accuracy": 0.833333,
+            "brier": 0.197177,
+            "ece": 0.322221,
+            "log_loss": 0.586853
           },
-          "rows": 56
+          "rows": 6
         },
         {
           "dimension": "series_format",
@@ -14851,12 +14843,12 @@
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.65,
-            "brier": 0.227996,
-            "ece": 0.068812,
-            "log_loss": 0.648294
+            "accuracy": 0.666667,
+            "brier": 0.214728,
+            "ece": 0.054409,
+            "log_loss": 0.617962
           },
-          "rows": 100
+          "rows": 60
         },
         {
           "dimension": "series_format",
@@ -14864,12 +14856,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.64455,
-            "brier": 0.212847,
-            "ece": 0.039738,
-            "log_loss": 0.612329
+            "accuracy": 0.664516,
+            "brier": 0.207993,
+            "ece": 0.055887,
+            "log_loss": 0.602086
           },
-          "rows": 422
+          "rows": 310
         },
         {
           "dimension": "series_format",
@@ -14877,12 +14869,12 @@
           "key": "bo5",
           "label": "BO5",
           "metrics": {
-            "accuracy": 0.727273,
-            "brier": 0.178201,
-            "ece": 0.308826,
-            "log_loss": 0.53717
+            "accuracy": 0.777778,
+            "brier": 0.162586,
+            "ece": 0.269437,
+            "log_loss": 0.503358
           },
-          "rows": 11
+          "rows": 9
         }
       ],
       "challenger_slice_gate": {
@@ -14891,34 +14883,34 @@
             "eligible": true,
             "key": "tier_1",
             "passed": true,
-            "rows": 477
+            "rows": 373
           },
           {
-            "eligible": true,
+            "eligible": false,
             "key": "tier_2",
-            "passed": true,
-            "rows": 56
+            "passed": null,
+            "rows": 6
           },
           {
             "eligible": true,
             "key": "bo1",
-            "passed": true,
-            "rows": 100
+            "passed": false,
+            "rows": 60
           },
           {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 422
+            "rows": 310
           },
           {
             "eligible": false,
             "key": "bo5",
             "passed": null,
-            "rows": 11
+            "rows": 9
           }
         ],
-        "passed": true
+        "passed": false
       },
       "challenger_slices": [
         {
@@ -14927,25 +14919,25 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.649895,
-            "brier": 0.21448,
-            "ece": 0.058051,
-            "log_loss": 0.617853
+            "accuracy": 0.664879,
+            "brier": 0.210939,
+            "ece": 0.064049,
+            "log_loss": 0.610256
           },
-          "rows": 477
+          "rows": 373
         },
         {
           "dimension": "tier",
-          "eligible": true,
+          "eligible": false,
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.642857,
-            "brier": 0.23792,
-            "ece": 0.1903,
-            "log_loss": 0.668637
+            "accuracy": 0.833333,
+            "brier": 0.202972,
+            "ece": 0.319823,
+            "log_loss": 0.598915
           },
-          "rows": 56
+          "rows": 6
         },
         {
           "dimension": "series_format",
@@ -14953,12 +14945,12 @@
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.65,
-            "brier": 0.228031,
-            "ece": 0.083634,
-            "log_loss": 0.647476
+            "accuracy": 0.666667,
+            "brier": 0.216658,
+            "ece": 0.080038,
+            "log_loss": 0.622705
           },
-          "rows": 100
+          "rows": 60
         },
         {
           "dimension": "series_format",
@@ -14966,12 +14958,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.646919,
-            "brier": 0.215095,
-            "ece": 0.071018,
-            "log_loss": 0.619077
+            "accuracy": 0.664516,
+            "brier": 0.210758,
+            "ece": 0.077015,
+            "log_loss": 0.609882
           },
-          "rows": 422
+          "rows": 310
         },
         {
           "dimension": "series_format",
@@ -14979,19 +14971,19 @@
           "key": "bo5",
           "label": "BO5",
           "metrics": {
-            "accuracy": 0.727273,
-            "brier": 0.187036,
-            "ece": 0.327634,
-            "log_loss": 0.560111
+            "accuracy": 0.777778,
+            "brier": 0.173755,
+            "ece": 0.292408,
+            "log_loss": 0.532574
           },
-          "rows": 11
+          "rows": 9
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.64728,
-        "brier": 0.21536,
-        "ece": 0.040848,
-        "log_loss": 0.618335
+        "accuracy": 0.667546,
+        "brier": 0.208298,
+        "ece": 0.044135,
+        "log_loss": 0.602893
       },
       "champion_slices": [
         {
@@ -15000,25 +14992,25 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.651992,
-            "brier": 0.212285,
-            "ece": 0.033376,
-            "log_loss": 0.611552
+            "accuracy": 0.664879,
+            "brier": 0.208155,
+            "ece": 0.046885,
+            "log_loss": 0.602502
           },
-          "rows": 477
+          "rows": 373
         },
         {
           "dimension": "tier",
-          "eligible": true,
+          "eligible": false,
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.607143,
-            "brier": 0.241551,
-            "ece": 0.165464,
-            "log_loss": 0.676119
+            "accuracy": 0.833333,
+            "brier": 0.217177,
+            "ece": 0.327777,
+            "log_loss": 0.627164
           },
-          "rows": 56
+          "rows": 6
         },
         {
           "dimension": "series_format",
@@ -15026,12 +15018,12 @@
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.65,
-            "brier": 0.22961,
-            "ece": 0.08559,
-            "log_loss": 0.651694
+            "accuracy": 0.666667,
+            "brier": 0.216676,
+            "ece": 0.047768,
+            "log_loss": 0.621942
           },
-          "rows": 100
+          "rows": 60
         },
         {
           "dimension": "series_format",
@@ -15039,12 +15031,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.64455,
-            "brier": 0.212951,
-            "ece": 0.044923,
-            "log_loss": 0.612546
+            "accuracy": 0.664516,
+            "brier": 0.208003,
+            "ece": 0.060108,
+            "log_loss": 0.602095
           },
-          "rows": 422
+          "rows": 310
         },
         {
           "dimension": "series_format",
@@ -15052,45 +15044,45 @@
           "key": "bo5",
           "label": "BO5",
           "metrics": {
-            "accuracy": 0.727273,
-            "brier": 0.178201,
-            "ece": 0.308826,
-            "log_loss": 0.53717
+            "accuracy": 0.777778,
+            "brier": 0.162586,
+            "ece": 0.269437,
+            "log_loss": 0.503358
           },
-          "rows": 11
+          "rows": 9
         }
       ],
-      "champion_test_rows": 533,
+      "champion_test_rows": 379,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.607143,
-          "brier": 0.239121,
-          "ece": 0.178554,
-          "log_loss": 0.67106
+          "accuracy": 0.833333,
+          "brier": 0.205574,
+          "ece": 0.324999,
+          "log_loss": 0.603571
         },
         "before": {
-          "accuracy": 0.607143,
-          "brier": 0.241551,
-          "ece": 0.165464,
-          "log_loss": 0.676119
+          "accuracy": 0.833333,
+          "brier": 0.217177,
+          "ece": 0.327777,
+          "log_loss": 0.627164
         },
         "candidate_shrink": 0.75,
         "overall_after": {
-          "accuracy": 0.64728,
-          "brier": 0.215104,
-          "ece": 0.040774,
-          "log_loss": 0.617804
+          "accuracy": 0.667546,
+          "brier": 0.208114,
+          "ece": 0.04445,
+          "log_loss": 0.602519
         },
         "overall_before": {
-          "accuracy": 0.64728,
-          "brier": 0.21536,
-          "ece": 0.040848,
-          "log_loss": 0.618335
+          "accuracy": 0.667546,
+          "brier": 0.208298,
+          "ece": 0.044135,
+          "log_loss": 0.602893
         },
         "passed": false,
-        "rows": 56,
+        "rows": 6,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -15109,12 +15101,13 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
-      "online_rows": 42,
+      "new_rows": 0,
+      "online_rows": 0,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
-      "skipped_unanchored_rows": 0
+      "skipped_unanchored_rows": 0,
+      "skipped_unverified_online_rows": 0
     }
   },
   "model_state": {
@@ -15225,9 +15218,10 @@
       "hltv:2398425",
       "hltv:2398426",
       "hltv:2397837",
-      "hltv:2398427"
+      "hltv:2398427",
+      "hltv:2398429"
     ],
-    "last_online_update_utc": "2026-09-22T20:06:13Z",
+    "last_online_update_utc": "2026-09-22T20:33:56Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -21428,10 +21422,10 @@
         "vrs_rank": null
       },
       {
-        "elo": 1513.52,
-        "last_result_utc": "2026-09-22T14:42:03Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.5909,
+        "elo": 1501.2,
+        "last_result_utc": "2026-09-22T20:09:03Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.4835,
         "team_key": "lph",
         "team_name": "LPH",
         "vrs_points": 0,
@@ -21468,10 +21462,10 @@
         "vrs_rank": null
       },
       {
-        "elo": 1513.64,
-        "last_result_utc": "2026-09-22T14:58:21Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.5909,
+        "elo": 1525.96,
+        "last_result_utc": "2026-09-22T20:09:03Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.6653,
         "team_key": "wbt academy",
         "team_name": "WBT Academy",
         "vrs_points": 0,
@@ -25459,8 +25453,8 @@
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 86,
-    "online_results_applied": 2,
+    "live_feed_items": 87,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
