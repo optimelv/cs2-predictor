@@ -173,6 +173,7 @@ class PortableModelTests(unittest.TestCase):
             predictions = root / "predictions.json"
             live = root / "live.json"
             prematch = root / "prematch.jsonl"
+            archive = root / "archive.jsonl"
             predictions.write_text(json.dumps({"generated_at_utc": "2026-09-22T09:55:00Z", "model_state": {"teams": [
                 {"team_name": "Alpha", "elo": 1600, "recent_win_rate_10": 0.6},
                 {"team_name": "Beta", "elo": 1400, "recent_win_rate_10": 0.4},
@@ -189,12 +190,13 @@ class PortableModelTests(unittest.TestCase):
             predictions.write_text(json.dumps({"generated_at_utc": "2026-09-22T12:30:00Z", "model_state": {"teams": [
                 {"team_name": "Alpha", "elo": 1300}, {"team_name": "Beta", "elo": 1800},
             ]}}), encoding="utf-8")
-            live.write_text(json.dumps({"fetched_at_utc": "2026-09-22T13:00:00Z", "matches": [{**match, "status": "finished", "score1": 2, "score2": 0}]}), encoding="utf-8")
-            self.assertEqual(append_live_training_rows(live, predictions, rows, prematch_path=prematch), 1)
+            live.write_text(json.dumps({"fetched_at_utc": "2026-09-22T13:00:00Z", "matches": []}), encoding="utf-8")
+            archive.write_text(json.dumps({**match, "status": "finished", "score1": 2, "score2": 0}) + "\n", encoding="utf-8")
+            self.assertEqual(append_live_training_rows(live, predictions, rows, prematch_path=prematch, result_archive_path=archive), 1)
             self.assertEqual(rows[0]["elo_diff"], 200)
             self.assertEqual(rows[0]["feature_observed_at_utc"], "2026-09-22T10:00:00Z")
             self.assertTrue(verified_online_row(rows[0]))
-            self.assertEqual(append_live_training_rows(live, predictions, rows, prematch_path=prematch), 0)
+            self.assertEqual(append_live_training_rows(live, predictions, rows, prematch_path=prematch, result_archive_path=archive), 0)
 
     def test_online_row_without_prematch_provenance_is_rejected(self) -> None:
         self.assertFalse(verified_online_row({"match_timestamp": 1789982400, "feature_source": "prematch_snapshot_v1"}))

@@ -233,6 +233,7 @@ def append_live_training_rows(
     existing_rows: list[dict[str, Any]],
     history_path: Path = DEFAULT_HISTORY_PATH,
     prematch_path: Path = DEFAULT_PREMATCH_PATH,
+    result_archive_path: Path | None = None,
 ) -> int:
     if not live_path or not live_path.exists() or not predictions_path.exists():
         return 0
@@ -314,8 +315,11 @@ def append_live_training_rows(
     if captured:
         write_online_rows(prematch_path, sorted(prematch.values(), key=lambda row: (row["match_timestamp"], row["match_id"])))
 
+    finished = {str(item.get("match_id") or item.get("id") or ""): item for item in matches if str(item.get("status") or "").casefold() in {"finished", "completed", "final", "ended"}}
+    if result_archive_path:
+        finished.update({str(item.get("match_id") or ""): item for item in load_online_rows(result_archive_path) if item.get("status") == "finished"})
     appended = 0
-    for item in matches:
+    for item in sorted(finished.values(), key=lambda row: str(row.get("starts_at") or "")):
         match_id = str(item.get("match_id") or item.get("id") or "")
         saved = prematch.get(match_id)
         score1 = safe_int(item.get("score1"), None)
@@ -630,7 +634,7 @@ def run(args) -> dict[str, Any]:
     online_rows = load_online_rows(Path(args.online_rows))
     repaired = repair_online_timestamps(online_rows, Path(args.history))
     repaired_risk = repair_online_integrity_risk(online_rows)
-    appended = append_live_training_rows(Path(args.live_feed) if args.live_feed else None, Path(args.predictions), online_rows, Path(args.history), Path(args.prematch_rows))
+    appended = append_live_training_rows(Path(args.live_feed) if args.live_feed else None, Path(args.predictions), online_rows, Path(args.history), Path(args.prematch_rows), Path(args.result_archive))
     if appended or repaired or repaired_risk:
         write_online_rows(Path(args.online_rows), online_rows)
     verified_rows = [row for row in online_rows if verified_online_row(row)]
@@ -733,6 +737,7 @@ def main() -> None:
     parser.add_argument("--training-seed", default=str(DEFAULT_SEED_PATH))
     parser.add_argument("--online-rows", default=str(DEFAULT_ONLINE_PATH))
     parser.add_argument("--prematch-rows", default=str(DEFAULT_PREMATCH_PATH))
+    parser.add_argument("--result-archive", default="models/observed-hltv-results.jsonl")
     parser.add_argument("--registry", default=str(DEFAULT_REGISTRY_PATH))
     parser.add_argument("--predictions", default=str(DEFAULT_PREDICTIONS_PATH))
     parser.add_argument("--history", default=str(DEFAULT_HISTORY_PATH))
