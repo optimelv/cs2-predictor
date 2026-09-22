@@ -1,0 +1,32 @@
+[Unit]
+Description=StrikeSignal verified match snapshot collector
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/opt/strikesignal
+Environment=PYTHONUNBUFFERED=1
+Environment=FETCH_BACKEND=scrapling-http
+Environment="SOURCE_LABEL=HLTV via Oracle Scrapling"
+Environment=POLL_SECONDS=300
+Environment=REQUEST_TIMEOUT_SECONDS=45
+Environment=MAX_DETAIL_MATCHES=6
+Environment=BIND_HOST=127.0.0.1
+Environment=SNAPSHOT_PATH=/var/lib/strikesignal/live-snapshot.json
+ExecStart=/home/ubuntu/strikesignal-venv/bin/python /opt/strikesignal/server.py
+Restart=always
+RestartSec=15
+TimeoutStopSec=20
+MemoryMax=640M
+MemorySwapMax=512M
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/var/lib/strikesignal
+
+[Install]
+WantedBy=multi-user.target

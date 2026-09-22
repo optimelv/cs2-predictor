@@ -30,6 +30,16 @@ assert.match(workflow, /fetched > now \+ timedelta\(minutes=5\)/);
 assert.match(workflow, /Snapshot timestamp is in the future/);
 assert.match(workflow, /steps\.snapshot\.outputs\.available == 'true'/);
 assert.match(workflow, /git pull --rebase\s+git push/);
+const publicationFiles = workflow.match(/git add ([^\n]+)/)?.[1].trim().split(/\s+/) || [];
+assert.ok(publicationFiles.length > 0);
+for (const file of publicationFiles) await access(file);
+const entryHtml = await readFile("docs/index.html", "utf8");
+for (const name of ["predictions", "coverage", "players"]) {
+  const bundle = [...entryHtml.matchAll(/src="\.\/([^"?]+)(?:\?[^"]*)?"/g)].find((match) => match[1].endsWith(`/${name}.js`))?.[1];
+  assert.ok(bundle, `Find the browser's ${name} bundle`);
+  assert.ok(publicationFiles.includes(`docs/${bundle}`), `Publish the browser's ${name} bundle`);
+}
+assert.match(workflow, /--connect-timeout 10 --max-time 30/);
 
 const freshness = position("Validate freshness and source health");
 const tierFilter = position("Enforce the Tier 1/2 product boundary");

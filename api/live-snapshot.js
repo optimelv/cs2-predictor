@@ -2,7 +2,7 @@ import { ORACLE_WORKER_URL } from "../config/oracle-worker.js";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { filterProductLiveSnapshot } from "../docs/lib/live-feed.js";
-import { snapshotFreshness } from "../docs/lib/freshness.js";
+import { canApplySnapshot, snapshotFreshness } from "../docs/lib/freshness.js";
 
 export function validateLiveSnapshot(payload, { filter = true } = {}) {
   if (!payload?.ok || !String(payload.contract_version || "").startsWith("1.") || !Array.isArray(payload.matches)
@@ -28,9 +28,9 @@ export async function readPublishedSnapshot(path = join(process.cwd(), "docs", "
   };
 }
 
-async function returnPublishedSnapshot(response, unavailableStatus, unavailableMessage) {
+async function returnPublishedSnapshot(response, unavailableStatus, unavailableMessage, readPublished) {
   try {
-    const payload = await readPublishedSnapshot();
+    const payload = await readPublished();
     response.setHeader("Cache-Control", "no-store, max-age=0");
     return response.status(200).json(payload);
   } catch {
@@ -39,28 +39,39 @@ async function returnPublishedSnapshot(response, unavailableStatus, unavailableM
   }
 }
 
-export default async function handler(_request, response) {
-  if (!ORACLE_WORKER_URL) {
-    return returnPublishedSnapshot(response, 501, "The live worker is waiting for Oracle capacity.");
-  }
-
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 12_000);
-  try {
-    const upstream = await fetch(`${ORACLE_WORKER_URL}/snapshot`, {
-      cache: "no-store",
-      headers: { Accept: "application/json" },
-      signal: controller.signal,
-    });
-    if (!upstream.ok) {
-      throw new Error(`Worker returned HTTP ${upstream.status}`);
+export function createLiveSnapshotHandler({ workerUrl = ORACLE_WORKER_URL, readPublished = readPublishedSnapshot, fetchUpstream = (...args) => fetch(...args) } = {}) {
+  return async function handler(request, response) {
+    if (request.method && request.method !== "GET") {
+      response.setHeader("Allow", "GET");
+      return response.status(405).json({ ok: false, error: "Method not allowed." });
     }
-    const payload = validateLiveSnapshot(await upstream.json());
-    response.setHeader("Cache-Control", "no-store, max-age=0");
-    return response.status(200).json(payload);
-  } catch (error) {
-    return returnPublishedSnapshot(response, 503, "The live worker is temporarily unavailable; the last published product data remains active.");
-  } finally {
-    clearTimeout(timeout);
-  }
+    if (!workerUrl) {
+      return returnPublishedSnapshot(response, 501, "The live worker is waiting for Oracle capacity.", readPublished);
+    }
+
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12_000);
+    try {
+      const upstream = await fetchUpstream(`${workerUrl}/snapshot`, {
+        cache: "no-store",
+        headers: { Accept: "application/json" },
+        signal: controller.signal,
+      });
+      if (!upstream.ok) {
+        throw new Error(`Worker returned HTTP ${upstream.status}`);
+      }
+      const payload = validateLiveSnapshot(await upstream.json());
+      // A reachable worker can still be serving an older persisted snapshot.
+      // Prefer the newer published release for first-time visitors as well.
+      const published = await readPublished().catch(() => null);
+      response.setHeader("Cache-Control", "no-store, max-age=0");
+      return response.status(200).json(published && !canApplySnapshot(payload.fetched_at_utc, published.fetched_at_utc) ? published : payload);
+    } catch (error) {
+      return returnPublishedSnapshot(response, 503, "The live worker is temporarily unavailable; the last published product data remains active.", readPublished);
+    } finally {
+      clearTimeout(timeout);
+    }
+  };
 }
+
+export default createLiveSnapshotHandler();

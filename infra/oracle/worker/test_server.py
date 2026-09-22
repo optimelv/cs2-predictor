@@ -1,13 +1,56 @@
 import unittest
 import json
 import tempfile
+import asyncio
+from unittest.mock import AsyncMock, patch
 from datetime import datetime, timezone
 from pathlib import Path
+from types import SimpleNamespace
 
-from server import events_from_matches, merge_match_detail, parse_match_detail, parse_matches, parse_results, players_from_matches, save_snapshot, select_detail_candidates
+from server import events_from_matches, merge_match_detail, parse_match_detail, parse_matches, parse_results, players_from_matches, save_snapshot, select_detail_candidates, wants_detail, on_startup, on_cleanup
+
+
+class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
+    async def test_health_rejects_stale_or_failed_collection(self):
+        from server import health
+        current = datetime.now(timezone.utc).isoformat()
+        for timestamp, error, status in [(current, None, 200), ("2020-01-01T00:00:00Z", None, 503), (current, "source blocked", 503)]:
+            with patch("server.state", {"snapshot": {"fetched_at_utc": timestamp}, "last_error": error, "last_attempt_utc": current}):
+                response = await health(None)
+                self.assertEqual(response.status, status)
+
+    async def test_scrapling_rejects_failed_source_responses(self):
+        from server import fetch_url
+        session = SimpleNamespace(fetch=AsyncMock(return_value=SimpleNamespace(status=403, body=b"blocked")))
+        with patch("server.FETCH_BACKEND", "scrapling"):
+            with self.assertRaisesRegex(RuntimeError, "HTTP 403"):
+                await fetch_url(session, "https://www.hltv.org/matches")
+            session.fetch.return_value = SimpleNamespace(status=200, body=b"<html>match data</html>")
+            self.assertEqual(await fetch_url(session, "https://www.hltv.org/matches"), "<html>match data</html>")
+
+    async def test_startup_serves_cached_data_without_waiting_for_collector(self):
+        app = {}
+        started = asyncio.Event()
+        blocked = asyncio.Event()
+
+        async def collect():
+            started.set()
+            await blocked.wait()
+
+        with patch("server.load_snapshot", return_value={"ok": True}), patch("server.refresh", new=AsyncMock(side_effect=collect)) as refresh:
+            try:
+                await asyncio.wait_for(on_startup(app), timeout=1)
+                await asyncio.wait_for(started.wait(), timeout=1)
+                self.assertEqual(refresh.await_count, 1)
+            finally:
+                await on_cleanup(app)
+            self.assertTrue(app["refresh_task"].done())
 
 
 class WorkerParserTests(unittest.TestCase):
+    def test_detail_selection_rejects_naive_timestamp(self):
+        self.assertFalse(wants_detail({"starts_at": "2026-07-28T13:00:00"}, datetime(2026, 7, 28, 12, tzinfo=timezone.utc)))
+
     def test_snapshot_write_is_atomic_and_reusable(self):
         with tempfile.TemporaryDirectory() as directory:
             output = Path(directory) / "live-snapshot.json"

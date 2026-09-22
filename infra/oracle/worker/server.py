@@ -5,6 +5,7 @@ import argparse
 import json
 import os
 import re
+from contextlib import asynccontextmanager
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -14,13 +15,16 @@ from bs4 import BeautifulSoup
 
 
 FLARESOLVERR_URL = os.environ.get("FLARESOLVERR_URL", "http://flaresolverr:8191/v1")
+FETCH_BACKEND = os.environ.get("FETCH_BACKEND", "flaresolverr").lower()
+if FETCH_BACKEND not in {"flaresolverr", "scrapling", "scrapling-http"}:
+    raise ValueError("FETCH_BACKEND must be flaresolverr, scrapling or scrapling-http")
 HLTV_MATCHES_URL = os.environ.get("HLTV_MATCHES_URL", "https://www.hltv.org/matches")
 HLTV_RESULTS_URL = os.environ.get("HLTV_RESULTS_URL", "https://www.hltv.org/results")
 POLL_SECONDS = max(180, int(os.environ.get("POLL_SECONDS", "300")))
 REQUEST_TIMEOUT_SECONDS = int(os.environ.get("REQUEST_TIMEOUT_SECONDS", "90"))
 MAX_DETAIL_MATCHES = max(0, min(8, int(os.environ.get("MAX_DETAIL_MATCHES", "6"))))
 SNAPSHOT_PATH = Path(os.environ.get("SNAPSHOT_PATH", "/data/last-good-snapshot.json"))
-SOURCE_LABEL = os.environ.get("SOURCE_LABEL", "HLTV via FlareSolverr")
+SOURCE_LABEL = os.environ.get("SOURCE_LABEL", f"HLTV via {FETCH_BACKEND}")
 TIER_TWO_EVENT_PATTERN = re.compile(r"\b(?:cct|roman imperium|esl challenger|thunderpick world championship)\b", re.I)
 TIER_ONE_EVENT_PATTERN = re.compile(r"\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b", re.I)
 
@@ -486,7 +490,33 @@ def players_from_matches(matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
     return list(players.values())
 
 
-async def fetch_url(session: ClientSession, url: str) -> str:
+@asynccontextmanager
+async def source_session():
+    if FETCH_BACKEND == "scrapling-http":
+        from scrapling.fetchers import AsyncFetcher
+        yield AsyncFetcher
+    elif FETCH_BACKEND == "scrapling":
+        from scrapling.fetchers import AsyncStealthySession
+
+        # One tab and one browser per collection, released between refreshes.
+        async with AsyncStealthySession(
+            headless=True, max_pages=1, timeout=REQUEST_TIMEOUT_SECONDS * 1000,
+            google_search=False, block_ads=True,
+        ) as session:
+            yield session
+    else:
+        timeout = ClientTimeout(total=REQUEST_TIMEOUT_SECONDS + 15)
+        async with ClientSession(timeout=timeout) as session:
+            yield session
+
+
+async def fetch_url(session, url: str) -> str:
+    if FETCH_BACKEND.startswith("scrapling"):
+        request = session.get(url, timeout=REQUEST_TIMEOUT_SECONDS, impersonate="chrome") if FETCH_BACKEND == "scrapling-http" else session.fetch(url)
+        response = await asyncio.wait_for(request, REQUEST_TIMEOUT_SECONDS + 15)
+        if response.status != 200:
+            raise RuntimeError(f"Scrapling source returned HTTP {response.status}")
+        return response.body.decode("utf-8", errors="replace")
     payload = {
         "cmd": "request.get",
         "url": url,
@@ -510,6 +540,8 @@ def wants_detail(match: dict[str, Any], now: datetime) -> bool:
         start_time = datetime.fromisoformat(str(starts).replace("Z", "+00:00"))
     except ValueError:
         return False
+    if start_time.tzinfo is None:
+        return False
     return now - timedelta(hours=2) <= start_time <= now + timedelta(hours=6)
 
 
@@ -521,9 +553,8 @@ def select_detail_candidates(matches: list[dict[str, Any]], results: list[dict[s
 
 
 async def fetch_snapshot() -> dict[str, Any]:
-    timeout = ClientTimeout(total=REQUEST_TIMEOUT_SECONDS + 15)
     detail_errors: list[str] = []
-    async with ClientSession(timeout=timeout) as session:
+    async with source_session() as session:
         schedule_html = await fetch_url(session, HLTV_MATCHES_URL)
         results_html = await fetch_url(session, HLTV_RESULTS_URL)
         scheduled = parse_matches(schedule_html)
@@ -602,7 +633,8 @@ async def refresh_loop(app: web.Application) -> None:
 
 async def on_startup(app: web.Application) -> None:
     state["snapshot"] = load_snapshot()
-    await refresh()
+    # Start serving the last good snapshot immediately. The loop performs the
+    # initial collection once, then waits between refreshes.
     app["refresh_task"] = asyncio.create_task(refresh_loop(app))
 
 
@@ -614,12 +646,21 @@ async def on_cleanup(app: web.Application) -> None:
 
 
 async def health(_: web.Request) -> web.Response:
+    last_good = (state["snapshot"] or {}).get("fetched_at_utc")
+    try:
+        stamp = datetime.fromisoformat(str(last_good).replace("Z", "+00:00"))
+        age = (datetime.now(timezone.utc) - stamp).total_seconds()
+        fresh = -300 <= age <= max(900, POLL_SECONDS * 3)
+    except (ValueError, TypeError):
+        fresh = False
+    healthy = fresh and state["last_error"] is None
     return web.json_response({
-        "ok": state["snapshot"] is not None,
+        "ok": healthy,
+        "backend": FETCH_BACKEND,
         "last_attempt_utc": state["last_attempt_utc"],
-        "last_good_utc": (state["snapshot"] or {}).get("fetched_at_utc"),
+        "last_good_utc": last_good,
         "last_error": state["last_error"],
-    }, status=200 if state["snapshot"] else 503)
+    }, status=200 if healthy else 503)
 
 
 async def snapshot(_: web.Request) -> web.Response:
@@ -634,7 +675,7 @@ def serve() -> None:
     app.router.add_get("/snapshot", snapshot)
     app.on_startup.append(on_startup)
     app.on_cleanup.append(on_cleanup)
-    web.run_app(app, host="0.0.0.0", port=8080)
+    web.run_app(app, host=os.environ.get("BIND_HOST", "0.0.0.0"), port=8080)
 
 
 def main() -> None:
