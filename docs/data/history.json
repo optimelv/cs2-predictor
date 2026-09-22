@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-22T20:31:53Z",
+  "generated_at_utc": "2026-09-22T22:06:07Z",
   "through_date": "2026-09-22",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 2392,
+    "matches": 2394,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -770,6 +770,50 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "WBT Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398552",
+      "match_date": "2026-09-22",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "MIBR fe",
+      "team2_name": "QUINTESSÊNCIA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "QUINTESSÊNCIA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398494",
+      "match_date": "2026-09-22",
+      "event_name": "ESL Challenger League Season 52 South America Cup 2",
+      "team1_name": "ODDIK",
+      "team2_name": "Sementes do Mal",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "ODDIK",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
