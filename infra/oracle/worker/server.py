@@ -27,7 +27,7 @@ REQUEST_TIMEOUT_SECONDS = int(os.environ.get("REQUEST_TIMEOUT_SECONDS", "90"))
 MAX_DETAIL_MATCHES = max(0, min(8, int(os.environ.get("MAX_DETAIL_MATCHES", "6"))))
 SNAPSHOT_PATH = Path(os.environ.get("SNAPSHOT_PATH", "/data/last-good-snapshot.json"))
 ARCHIVE_PATH = Path(os.environ.get("ARCHIVE_PATH", "/data/observed-results.sqlite3"))
-BACKFILL_FLOOR = os.environ.get("BACKFILL_FLOOR", "2026-06-09")
+BACKFILL_FLOOR = os.environ.get("BACKFILL_FLOOR", "2024-12-28")
 LIQUIPEDIA_ARCHIVE_PATH = Path(os.environ.get("LIQUIPEDIA_ARCHIVE_PATH", "/var/lib/strikesignal/liquipedia-observed-results.jsonl"))
 LIQUIPEDIA_STATE_PATH = Path(os.environ.get("LIQUIPEDIA_STATE_PATH", "/var/lib/strikesignal/liquipedia-gap-state.json"))
 LIQUIPEDIA_ASSETS_PATH = Path(os.environ.get("LIQUIPEDIA_ASSETS_PATH", "/var/lib/strikesignal/liquipedia-logo-candidates.json"))
@@ -693,6 +693,17 @@ def archive_payload(path: Path | None = None) -> dict[str, Any]:
     return {"ok": True, "source": "HLTV via Oracle Scrapling", "backfill_complete": meta.get("backfill_complete") == "true", "backfill_offset": int(meta.get("backfill_offset", "75")), "backfill_pages": pages, "matches": rows}
 
 
+def validate_backfill_page(rows: list[dict[str, Any]], offset: int) -> list[str]:
+    dated = [row["starts_at"] for row in rows if row.get("starts_at")]
+    if not rows or not dated:
+        raise RuntimeError(f"No dated HLTV results at offset {offset}; keeping archive cursor")
+    # HLTV serves 100 result cards per offset page. A partial parse must not
+    # advance the cursor and silently leave a permanent hole in the archive.
+    if len(rows) != 100 or any(archived_result(row) is None for row in rows):
+        raise RuntimeError(f"Incomplete HLTV result page at offset {offset}; keeping archive cursor")
+    return dated
+
+
 async def backfill_once() -> None:
     with archive_connection() as connection:
         meta = dict(connection.execute("SELECT key,value FROM archive_meta"))
@@ -704,9 +715,7 @@ async def backfill_once() -> None:
     async with source_session() as session:
         html = await fetch_url(session, f"{HLTV_RESULTS_URL}?offset={offset}", allow_browser=False)
     rows = parse_results(html)
-    dated = [row["starts_at"] for row in rows if row.get("starts_at")]
-    if not rows or not dated:
-        raise RuntimeError(f"No dated HLTV results at offset {offset}; keeping archive cursor")
+    dated = validate_backfill_page(rows, offset)
     with archive_connection() as connection:
         earlier_pages = connection.execute("SELECT COUNT(*) FROM backfill_pages WHERE offset < ?", (offset,)).fetchone()[0]
         overlap = connection.execute(

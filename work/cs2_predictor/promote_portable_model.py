@@ -54,9 +54,11 @@ ELIGIBLE_RISKS = {"low", "medium"}
 DEFAULT_REGISTRY_PATH = Path("docs/data/model-registry.json")
 DEFAULT_SEED_PATH = Path("models/portable-training-seed.csv.gz")
 DEFAULT_ONLINE_PATH = Path("models/portable-online-training.jsonl")
+DEFAULT_PREMATCH_PATH = Path("models/prematch-feature-observations.jsonl")
 DEFAULT_PREDICTIONS_PATH = Path("docs/data/predictions.json")
 DEFAULT_HISTORY_PATH = Path("docs/data/history.json")
 MINIMUM_SLICE_ROWS = 40
+PREMATCH_MIN_LEAD_SECONDS = 15 * 60
 
 
 def utc_now() -> str:
@@ -170,6 +172,18 @@ def chronological_training_rows(rows: list[dict[str, Any]]) -> list[dict[str, An
     return [row for row in rows if (safe_int(row.get("match_timestamp"), 0) or 0) > 0 and row.get("match_date")]
 
 
+def verified_online_row(row: dict[str, Any]) -> bool:
+    """Online features must have been observed before this match began."""
+    if row.get("feature_source") != "prematch_snapshot_v1":
+        return False
+    try:
+        observed = datetime.fromisoformat(str(row["feature_observed_at_utc"]).replace("Z", "+00:00"))
+        started = datetime.fromtimestamp(int(row["match_timestamp"]), tz=timezone.utc)
+    except (KeyError, TypeError, ValueError, OverflowError, OSError):
+        return False
+    return observed.tzinfo is not None and (started - observed).total_seconds() >= PREMATCH_MIN_LEAD_SECONDS
+
+
 def repair_online_integrity_risk(rows: list[dict[str, Any]]) -> int:
     repaired = 0
     for row in rows:
@@ -218,6 +232,7 @@ def append_live_training_rows(
     predictions_path: Path,
     existing_rows: list[dict[str, Any]],
     history_path: Path = DEFAULT_HISTORY_PATH,
+    prematch_path: Path = DEFAULT_PREMATCH_PATH,
 ) -> int:
     if not live_path or not live_path.exists() or not predictions_path.exists():
         return 0
@@ -225,8 +240,18 @@ def append_live_training_rows(
     product = json.loads(predictions_path.read_text(encoding="utf-8"))
     state_rows = product.get("model_state", {}).get("teams", [])
     state = {str(row.get("team_name") or row.get("team_key") or "").casefold(): dict(row) for row in state_rows}
+    already_applied = set(product.get("model_state", {}).get("applied_result_ids") or [])
     existing_ids = {str(row.get("match_id")) for row in existing_rows}
-    appended = 0
+    prematch = {str(row.get("match_id")): row for row in load_online_rows(prematch_path) if row.get("match_id")}
+
+    try:
+        observed = datetime.fromisoformat(str(live["fetched_at_utc"]).replace("Z", "+00:00"))
+        state_generated = datetime.fromisoformat(str(product["generated_at_utc"]).replace("Z", "+00:00"))
+        if observed.tzinfo is None or state_generated.tzinfo is None:
+            raise ValueError("snapshot or model state has no timezone")
+        feature_observed = max(observed, state_generated)
+    except (KeyError, ValueError, TypeError):
+        return 0
 
     def team_state(name: str) -> dict[str, Any]:
         key = name.casefold()
@@ -234,31 +259,10 @@ def append_live_training_rows(
             state[key] = {"team_name": name, "elo": 1500.0, "vrs_rank": None, "vrs_points": 0, "recent_win_rate_10": 0.5}
         return state[key]
 
-    matches = sorted(live.get("matches") or [], key=lambda item: str(item.get("starts_at") or ""))
-    for item in matches:
-        match_id = str(item.get("match_id") or item.get("id") or "")
-        score1 = safe_int(item.get("score1"), None)
-        score2 = safe_int(item.get("score2"), None)
+    def feature_row(item: dict[str, Any], match_id: str, started: datetime) -> dict[str, Any]:
         team1_name = str(item.get("team1_name") or "")
         team2_name = str(item.get("team2_name") or "")
-        status = str(item.get("status") or "").casefold()
         tier = live_product_tier(item)
-        if status not in {"finished", "completed", "final", "ended"}:
-            continue
-        if not match_id or match_id in existing_ids or score1 is None or score2 is None or score1 == score2 or not team1_name or not team2_name or tier is None:
-            continue
-        # A finished score without a source match timestamp cannot be placed
-        # in chronological training data. Never substitute the envelope's
-        # fetched-at time for a missing result time.
-        starts_at = str(item.get("starts_at") or "")
-        if not starts_at:
-            continue
-        try:
-            match_timestamp = int(datetime.fromisoformat(starts_at.replace("Z", "+00:00")).timestamp())
-        except ValueError:
-            continue
-        if match_timestamp <= 0:
-            continue
         team1 = team_state(team1_name)
         team2 = team_state(team2_name)
         elo1 = safe_float(team1.get("elo"), 1500.0)
@@ -268,15 +272,13 @@ def append_live_training_rows(
         rank1 = safe_int(team1.get("vrs_rank"), None)
         rank2 = safe_int(team2.get("vrs_rank"), None)
         phase_order, is_playoff, is_elimination = phase_features(item)
-        match_date = starts_at[:10]
-        row = {
+        return {
             "match_id": match_id,
-            "match_date": match_date,
-            "match_timestamp": match_timestamp,
+            "match_date": started.date().isoformat(),
+            "match_timestamp": int(started.timestamp()),
             "event_name": item.get("event_name") or "HLTV live result",
             "team1_name": team1_name,
             "team2_name": team2_name,
-            "target_team1_win": int(score1 > score2),
             "model_tier": tier,
             "integrity_risk": "medium" if tier == "T2" else "low",
             "elo_diff": elo_diff,
@@ -289,16 +291,49 @@ def append_live_training_rows(
             "is_lan": int(str(item.get("event_type") or "").casefold() == "lan"),
             "is_playoff": is_playoff,
             "is_elimination_match": is_elimination,
+            "feature_source": "prematch_snapshot_v1",
+            "feature_observed_at_utc": feature_observed.astimezone(timezone.utc).isoformat().replace("+00:00", "Z"),
         }
+
+    matches = sorted(live.get("matches") or [], key=lambda item: str(item.get("starts_at") or ""))
+    captured = 0
+    for item in matches:
+        match_id = str(item.get("match_id") or item.get("id") or "")
+        if (not match_id.startswith("hltv:") or match_id in prematch or match_id in already_applied
+                or str(item.get("status") or "").casefold() != "upcoming"
+                or not item.get("team1_name") or not item.get("team2_name") or live_product_tier(item) is None):
+            continue
+        try:
+            started = datetime.fromisoformat(str(item["starts_at"]).replace("Z", "+00:00"))
+        except (KeyError, ValueError, TypeError):
+            continue
+        if started.tzinfo is None or (started - feature_observed).total_seconds() < PREMATCH_MIN_LEAD_SECONDS:
+            continue
+        prematch[match_id] = feature_row(item, match_id, started)
+        captured += 1
+    if captured:
+        write_online_rows(prematch_path, sorted(prematch.values(), key=lambda row: (row["match_timestamp"], row["match_id"])))
+
+    appended = 0
+    for item in matches:
+        match_id = str(item.get("match_id") or item.get("id") or "")
+        saved = prematch.get(match_id)
+        score1 = safe_int(item.get("score1"), None)
+        score2 = safe_int(item.get("score2"), None)
+        if (not saved or match_id in existing_ids or str(item.get("status") or "").casefold() not in {"finished", "completed", "final", "ended"}
+                or score1 is None or score2 is None or score1 == score2
+                or saved["team1_name"].casefold() != str(item.get("team1_name") or "").casefold()
+                or saved["team2_name"].casefold() != str(item.get("team2_name") or "").casefold()):
+            continue
+        try:
+            started = datetime.fromisoformat(str(item["starts_at"]).replace("Z", "+00:00"))
+        except (KeyError, ValueError, TypeError):
+            continue
+        row = {**saved, "match_date": started.date().isoformat(), "match_timestamp": int(started.timestamp()), "target_team1_win": int(score1 > score2)}
+        if not verified_online_row(row):
+            continue
         existing_rows.append(row)
         existing_ids.add(match_id)
-        actual1 = float(row["target_team1_win"])
-        delta = 22.0 * min(1.35, 1.0 + 0.12 * abs(score1 - score2)) * (actual1 - elo_probability)
-        team1["elo"] = elo1 + delta
-        team2["elo"] = elo2 - delta
-        for team, result in ((team1, actual1), (team2, 1.0 - actual1)):
-            recent = safe_float(team.get("recent_win_rate_10"), 0.5)
-            team["recent_win_rate_10"] = recent + (2.0 / 11.0) * (result - recent)
         appended += 1
     return appended
 
@@ -595,11 +630,13 @@ def run(args) -> dict[str, Any]:
     online_rows = load_online_rows(Path(args.online_rows))
     repaired = repair_online_timestamps(online_rows, Path(args.history))
     repaired_risk = repair_online_integrity_risk(online_rows)
-    appended = append_live_training_rows(Path(args.live_feed) if args.live_feed else None, Path(args.predictions), online_rows, Path(args.history))
+    appended = append_live_training_rows(Path(args.live_feed) if args.live_feed else None, Path(args.predictions), online_rows, Path(args.history), Path(args.prematch_rows))
     if appended or repaired or repaired_risk:
         write_online_rows(Path(args.online_rows), online_rows)
-    chronological_rows = chronological_training_rows([*seed_rows, *online_rows])
-    skipped_unanchored_rows = len(seed_rows) + len(online_rows) - len(chronological_rows)
+    verified_rows = [row for row in online_rows if verified_online_row(row)]
+    chronological_rows = chronological_training_rows([*seed_rows, *verified_rows])
+    skipped_unanchored_rows = len(seed_rows) + len(verified_rows) - len(chronological_rows)
+    skipped_unverified_online_rows = len(online_rows) - len(verified_rows)
     rows = sorted(chronological_rows, key=lambda row: (safe_int(row.get("match_timestamp"), 0) or 0, str(row.get("match_id") or "")))
     timestamps = [datetime.fromtimestamp(safe_int(row.get("match_timestamp"), 0) or 0, tz=timezone.utc) for row in rows]
     folds = make_purged_time_folds(timestamps, n_splits=5, purge_days=7, min_train_size=220)
@@ -666,7 +703,7 @@ def run(args) -> dict[str, Any]:
             "challenger_slice_gate": challenger_slice_gate,
             "segment_calibration": segment["audit"],
         },
-        "training": {"seed_rows": len(seed_rows), "online_rows": len(online_rows), "new_rows": appended, "repaired_timestamps": repaired, "repaired_integrity_risk": repaired_risk, "skipped_unanchored_rows": skipped_unanchored_rows},
+        "training": {"seed_rows": len(seed_rows), "online_rows": len(verified_rows), "new_rows": appended, "repaired_timestamps": repaired, "repaired_integrity_risk": repaired_risk, "skipped_unanchored_rows": skipped_unanchored_rows, "skipped_unverified_online_rows": skipped_unverified_online_rows},
     })
     if promoted:
         registry.setdefault("history", []).append({"promoted_at_utc": registry["generated_at_utc"], "champion": champion})
@@ -683,6 +720,7 @@ def run(args) -> dict[str, Any]:
         "folds": len(folds),
         "new_online_rows": appended,
         "skipped_unanchored_rows": skipped_unanchored_rows,
+        "skipped_unverified_online_rows": skipped_unverified_online_rows,
         "repaired_online_timestamps": repaired,
         "repaired_online_integrity_risk": repaired_risk,
     }
@@ -694,6 +732,7 @@ def main() -> None:
     parser.add_argument("--source-csv", default="work/data/model/training_matches.csv")
     parser.add_argument("--training-seed", default=str(DEFAULT_SEED_PATH))
     parser.add_argument("--online-rows", default=str(DEFAULT_ONLINE_PATH))
+    parser.add_argument("--prematch-rows", default=str(DEFAULT_PREMATCH_PATH))
     parser.add_argument("--registry", default=str(DEFAULT_REGISTRY_PATH))
     parser.add_argument("--predictions", default=str(DEFAULT_PREDICTIONS_PATH))
     parser.add_argument("--history", default=str(DEFAULT_HISTORY_PATH))

@@ -62,6 +62,16 @@ class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
 
 
 class WorkerParserTests(unittest.TestCase):
+    def test_backfill_never_advances_past_partial_or_unusable_page(self):
+        from server import validate_backfill_page
+        rows = [{"match_id": f"hltv:{index}", "status": "finished", "starts_at": "2026-09-22T12:00:00Z",
+                 "team1_name": "A", "team2_name": "B", "score1": 2, "score2": 1} for index in range(100)]
+        self.assertEqual(len(validate_backfill_page(rows, 350)), 100)
+        with self.assertRaisesRegex(RuntimeError, "Incomplete HLTV result page"):
+            validate_backfill_page(rows[:-1], 350)
+        with self.assertRaisesRegex(RuntimeError, "Incomplete HLTV result page"):
+            validate_backfill_page([*rows[:-1], {**rows[-1], "score1": None}], 350)
+
     def test_archive_keeps_dated_terminal_results_and_rejects_unanchored_scores(self):
         from server import archive_payload, record_results
         with tempfile.TemporaryDirectory() as directory:

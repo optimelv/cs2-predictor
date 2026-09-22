@@ -19,6 +19,7 @@ from .promote_portable_model import (
     chronological_training_rows,
     segment_calibration_decision,
     slice_gate,
+    verified_online_row,
 )
 
 
@@ -161,6 +162,61 @@ class PortableModelTests(unittest.TestCase):
             rows: list[dict] = []
             self.assertEqual(append_live_training_rows(live, predictions, rows, root / "history.json"), 0)
             self.assertEqual(rows, [])
+
+    def test_live_training_uses_only_saved_prematch_features(self) -> None:
+        import json
+        import tempfile
+        from pathlib import Path
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            predictions = root / "predictions.json"
+            live = root / "live.json"
+            prematch = root / "prematch.jsonl"
+            predictions.write_text(json.dumps({"generated_at_utc": "2026-09-22T09:55:00Z", "model_state": {"teams": [
+                {"team_name": "Alpha", "elo": 1600, "recent_win_rate_10": 0.6},
+                {"team_name": "Beta", "elo": 1400, "recent_win_rate_10": 0.4},
+            ]}}), encoding="utf-8")
+            match = {"match_id": "hltv:prematch-test", "event_name": "CCT Europe Series 9",
+                     "team1_name": "Alpha", "team2_name": "Beta", "product_tier": "tier_2",
+                     "starts_at": "2026-09-22T12:00:00Z", "series_format": "bo3"}
+            live.write_text(json.dumps({"fetched_at_utc": "2026-09-22T10:00:00Z", "matches": [{**match, "status": "upcoming"}]}), encoding="utf-8")
+            rows: list[dict] = []
+            self.assertEqual(append_live_training_rows(live, predictions, rows, prematch_path=prematch), 0)
+            self.assertEqual(len(prematch.read_text().splitlines()), 1)
+
+            # A later team state must never replace features captured before kickoff.
+            predictions.write_text(json.dumps({"generated_at_utc": "2026-09-22T12:30:00Z", "model_state": {"teams": [
+                {"team_name": "Alpha", "elo": 1300}, {"team_name": "Beta", "elo": 1800},
+            ]}}), encoding="utf-8")
+            live.write_text(json.dumps({"fetched_at_utc": "2026-09-22T13:00:00Z", "matches": [{**match, "status": "finished", "score1": 2, "score2": 0}]}), encoding="utf-8")
+            self.assertEqual(append_live_training_rows(live, predictions, rows, prematch_path=prematch), 1)
+            self.assertEqual(rows[0]["elo_diff"], 200)
+            self.assertEqual(rows[0]["feature_observed_at_utc"], "2026-09-22T10:00:00Z")
+            self.assertTrue(verified_online_row(rows[0]))
+            self.assertEqual(append_live_training_rows(live, predictions, rows, prematch_path=prematch), 0)
+
+    def test_online_row_without_prematch_provenance_is_rejected(self) -> None:
+        self.assertFalse(verified_online_row({"match_timestamp": 1789982400, "feature_source": "prematch_snapshot_v1"}))
+        self.assertFalse(verified_online_row({"match_timestamp": 1789982400, "feature_source": "prematch_snapshot_v1", "feature_observed_at_utc": "2026-09-21T12:00:00Z"}))
+
+    def test_old_snapshot_cannot_hide_later_model_state(self) -> None:
+        import json
+        import tempfile
+        from pathlib import Path
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            predictions = root / "predictions.json"
+            live = root / "live.json"
+            prematch = root / "prematch.jsonl"
+            predictions.write_text(json.dumps({"generated_at_utc": "2026-09-22T12:10:00Z", "model_state": {"teams": []}}), encoding="utf-8")
+            live.write_text(json.dumps({"fetched_at_utc": "2026-09-22T10:00:00Z", "matches": [{
+                "match_id": "hltv:late-state", "event_name": "CCT Europe Series 9", "team1_name": "Alpha",
+                "team2_name": "Beta", "product_tier": "tier_2", "starts_at": "2026-09-22T12:00:00Z", "status": "upcoming",
+            }]}), encoding="utf-8")
+            self.assertEqual(append_live_training_rows(live, predictions, [], prematch_path=prematch), 0)
+            self.assertFalse(prematch.exists())
 
     def test_tier2_online_rows_keep_medium_integrity_risk(self) -> None:
         rows = [
