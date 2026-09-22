@@ -6,8 +6,8 @@ on:
     - cron: "17 * * * *"
 
 concurrency:
-  group: refresh-predictor-data
-  cancel-in-progress: true
+  group: strikesignal-data-publish
+  cancel-in-progress: false
 
 permissions:
   contents: write

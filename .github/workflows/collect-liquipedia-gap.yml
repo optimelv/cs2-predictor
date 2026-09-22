@@ -6,7 +6,7 @@ on:
     - cron: "43 * * * *"
 
 concurrency:
-  group: collect-liquipedia-gap
+  group: strikesignal-data-publish
   cancel-in-progress: false
 
 permissions:
