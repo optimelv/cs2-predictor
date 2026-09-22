@@ -1,0 +1,23 @@
+import assert from "node:assert/strict";
+import { mkdtemp, readFile, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { importEvidence } from "./import-liquipedia-evidence.mjs";
+
+const directory = await mkdtemp(join(tmpdir(), "strikesignal-liquipedia-import-"));
+const file = (name) => join(directory, name);
+const input = file("input.json");
+const archivePath = file("archive.jsonl");
+const statePath = file("state.json");
+const assetsPath = file("assets.json");
+const assetsJsPath = file("assets.js");
+await writeFile(archivePath, "");
+await writeFile(statePath, JSON.stringify({ next_index: 5 }));
+await writeFile(assetsPath, "{}");
+const row = { observation_id: "liquipedia:1", starts_at: "2026-09-19T15:25:00Z", source_url: "https://liquipedia.net/counterstrike/Test", score1: 2, score2: 1 };
+await writeFile(input, JSON.stringify({ ok: true, source: "Liquipedia MediaWiki API", state: { next_index: 10 }, matches: [row], assets: { vitality: { logo_url: "https://liquipedia.net/commons/images/v/vitality.png" } } }));
+assert.deepEqual(await importEvidence(input, { archivePath, statePath, assetsPath, assetsJsPath }), { added: 1, total: 1, new_logos: 1, next_index: 10 });
+assert.equal((await readFile(archivePath, "utf8")).trim().split("\n").length, 1);
+await writeFile(input, JSON.stringify({ ok: true, source: "Liquipedia MediaWiki API", state: { next_index: 5 }, matches: [], assets: {} }));
+await assert.rejects(() => importEvidence(input, { archivePath, statePath, assetsPath, assetsJsPath }), /cursor moved backwards/);
+console.log("Liquipedia evidence import tests ok");

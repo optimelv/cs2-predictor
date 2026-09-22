@@ -18,18 +18,15 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/setup-python@v6
-        with:
-          python-version: "3.12"
       - uses: actions/setup-node@v6
         with:
           node-version: "24"
-      - name: Install parser
-        run: python -m pip install --disable-pip-version-check 'lxml>=5,<7'
-      - name: Verify source mapping
-        run: python -m unittest work.cs2_predictor.test_liquipedia_gap
-      - name: Collect one official API batch
-        run: python -m work.cs2_predictor.collect_liquipedia_gap
+      - name: Import the Oracle collector's cached Liquipedia evidence
+        run: |
+          worker_url=$(node -e "import('./config/oracle-worker.js').then(({ORACLE_WORKER_URL}) => process.stdout.write(ORACLE_WORKER_URL || ''))")
+          curl --fail --silent --show-error --connect-timeout 10 --max-time 45 \
+            "$worker_url/liquipedia-evidence" --output "$RUNNER_TEMP/liquipedia-evidence.json"
+          node scripts/import-liquipedia-evidence.mjs "$RUNNER_TEMP/liquipedia-evidence.json"
       - name: Add independently verified results to the historical desk
         run: node scripts/promote-liquipedia-history.mjs
       - name: Validate published data

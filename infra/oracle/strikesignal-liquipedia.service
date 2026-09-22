@@ -1,0 +1,20 @@
+[Unit]
+Description=StrikeSignal Liquipedia gap evidence collector
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/strikesignal-repo
+Environment=PYTHONUNBUFFERED=1
+ExecStartPre=/usr/bin/git pull --ff-only
+ExecStart=/home/ubuntu/strikesignal-venv/bin/python -m work.cs2_predictor.collect_liquipedia_gap --queue models/liquipedia-gap-queue.json --state /var/lib/strikesignal/liquipedia-gap-state.json --archive /var/lib/strikesignal/liquipedia-observed-results.jsonl --assets /var/lib/strikesignal/liquipedia-logo-candidates.json --assets-js /var/lib/strikesignal/liquipedia-logo-candidates.js
+TimeoutStartSec=180
+MemoryMax=256M
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+ReadWritePaths=/var/lib/strikesignal /home/ubuntu/strikesignal-repo

@@ -18,6 +18,9 @@ Environment=BIND_HOST=127.0.0.1
 Environment=SNAPSHOT_PATH=/var/lib/strikesignal/live-snapshot.json
 Environment=ARCHIVE_PATH=/var/lib/strikesignal/observed-results.sqlite3
 Environment=BACKFILL_FLOOR=2026-06-09
+Environment=LIQUIPEDIA_ARCHIVE_PATH=/var/lib/strikesignal/liquipedia-observed-results.jsonl
+Environment=LIQUIPEDIA_STATE_PATH=/var/lib/strikesignal/liquipedia-gap-state.json
+Environment=LIQUIPEDIA_ASSETS_PATH=/var/lib/strikesignal/liquipedia-logo-candidates.json
 ExecStart=/home/ubuntu/strikesignal-venv/bin/python /opt/strikesignal/server.py
 Restart=always
 RestartSec=15

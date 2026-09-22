@@ -28,6 +28,9 @@ MAX_DETAIL_MATCHES = max(0, min(8, int(os.environ.get("MAX_DETAIL_MATCHES", "6")
 SNAPSHOT_PATH = Path(os.environ.get("SNAPSHOT_PATH", "/data/last-good-snapshot.json"))
 ARCHIVE_PATH = Path(os.environ.get("ARCHIVE_PATH", "/data/observed-results.sqlite3"))
 BACKFILL_FLOOR = os.environ.get("BACKFILL_FLOOR", "2026-06-09")
+LIQUIPEDIA_ARCHIVE_PATH = Path(os.environ.get("LIQUIPEDIA_ARCHIVE_PATH", "/var/lib/strikesignal/liquipedia-observed-results.jsonl"))
+LIQUIPEDIA_STATE_PATH = Path(os.environ.get("LIQUIPEDIA_STATE_PATH", "/var/lib/strikesignal/liquipedia-gap-state.json"))
+LIQUIPEDIA_ASSETS_PATH = Path(os.environ.get("LIQUIPEDIA_ASSETS_PATH", "/var/lib/strikesignal/liquipedia-logo-candidates.json"))
 SOURCE_LABEL = os.environ.get("SOURCE_LABEL", f"HLTV via {FETCH_BACKEND}")
 TIER_TWO_EVENT_PATTERN = re.compile(r"\b(?:cct|roman imperium|esl challenger|thunderpick world championship)\b", re.I)
 TIER_ONE_EVENT_PATTERN = re.compile(r"\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b", re.I)
@@ -723,6 +726,10 @@ async def backfill_once() -> None:
 async def backfill_loop() -> None:
     await asyncio.sleep(30)
     while True:
+        # The Micro VM is memory-constrained. Run the archive page only after
+        # the live collection, including any browser fallback, has finished.
+        while state.get("refresh_busy"):
+            await asyncio.sleep(10)
         try:
             await backfill_once()
             state["archive_error"] = None
@@ -733,6 +740,7 @@ async def backfill_loop() -> None:
 
 async def refresh() -> None:
     state["last_attempt_utc"] = utc_now()
+    state["refresh_busy"] = True
     try:
         snapshot = await fetch_snapshot()
         save_snapshot(snapshot)
@@ -744,6 +752,8 @@ async def refresh() -> None:
             state["archive_error"] = repr(exc)
     except Exception as exc:
         state["last_error"] = repr(exc)
+    finally:
+        state["refresh_busy"] = False
 
 
 async def refresh_loop(app: web.Application) -> None:
@@ -798,11 +808,23 @@ async def archive(_: web.Request) -> web.Response:
     return web.json_response(archive_payload(), headers={"Cache-Control": "no-store"})
 
 
+def liquipedia_payload() -> dict[str, Any]:
+    rows = [json.loads(line) for line in LIQUIPEDIA_ARCHIVE_PATH.read_text(encoding="utf-8").splitlines() if line.strip()] if LIQUIPEDIA_ARCHIVE_PATH.exists() else []
+    state = json.loads(LIQUIPEDIA_STATE_PATH.read_text(encoding="utf-8")) if LIQUIPEDIA_STATE_PATH.exists() else {"next_index": 0}
+    assets = json.loads(LIQUIPEDIA_ASSETS_PATH.read_text(encoding="utf-8")) if LIQUIPEDIA_ASSETS_PATH.exists() else {}
+    return {"ok": True, "source": "Liquipedia MediaWiki API", "state": state, "matches": rows, "assets": assets}
+
+
+async def liquipedia_evidence(_: web.Request) -> web.Response:
+    return web.json_response(liquipedia_payload(), headers={"Cache-Control": "no-store"})
+
+
 def serve() -> None:
     app = web.Application()
     app.router.add_get("/healthz", health)
     app.router.add_get("/snapshot", snapshot)
     app.router.add_get("/archive", archive)
+    app.router.add_get("/liquipedia-evidence", liquipedia_evidence)
     app.on_startup.append(on_startup)
     app.on_cleanup.append(on_cleanup)
     web.run_app(app, host=os.environ.get("BIND_HOST", "0.0.0.0"), port=8080)
