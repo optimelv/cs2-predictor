@@ -265,5 +265,45 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "Monte",
     "logo_url": "https://liquipedia.net/commons/images/thumb/2/22/Monte_2022_allmode.png/35px-Monte_2022_allmode.png",
     "source": "Liquipedia"
+  },
+  "mzp": {
+    "name": "MZP",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d9/Metizport_2025_allmode.png/50px-Metizport_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "nip": {
+    "name": "NIP",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f4/Ninjas_in_Pyjamas_2021_lightmode.png/50px-Ninjas_in_Pyjamas_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "mibr": {
+    "name": "MIBR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/85/MIBR_2018_lightmode.png/100px-MIBR_2018_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "5star": {
+    "name": "5star",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d1/5star_eSports_lightmode.png/56px-5star_eSports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "tyloo": {
+    "name": "TYLOO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5f/TyLoo_2016_allmode.png/56px-TyLoo_2016_allmode.png",
+    "source": "Liquipedia"
+  },
+  "echo": {
+    "name": "Echo",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ec/Echo_lightmode.png/49px-Echo_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "9ine": {
+    "name": "9INE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c9/9INE_2025_lightmode.png/50px-9INE_2025_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "acend": {
+    "name": "Acend",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7d/Acend_allmode.png/100px-Acend_allmode.png",
+    "source": "Liquipedia"
   }
 };
