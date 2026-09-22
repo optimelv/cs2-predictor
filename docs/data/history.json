@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-22T18:56:57Z",
+  "generated_at_utc": "2026-09-22T20:05:02Z",
   "through_date": "2026-09-22",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 2266,
+    "matches": 2268,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -704,6 +704,50 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "6666",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397837",
+      "match_date": "2026-09-22",
+      "event_name": "CCT 2026 Europe Series 9",
+      "team1_name": "Leo",
+      "team2_name": "ex-RUSTEC",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398427",
+      "match_date": "2026-09-22",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 7",
+      "team1_name": "Permitta",
+      "team2_name": "KUUSAMO",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "KUUSAMO",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
