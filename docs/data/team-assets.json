@@ -1,41 +1,269 @@
 {
-  "faze": { "logo_url": "https://img-cdn.hltv.org/teamlogo/OKLwq88GXjl5GQ48Y5SrvW.png?ixlib=java-2.1.0&s=0a0d65eeb1b0e82ada20c42c038552fa&w=50" },
-  "alliance": { "logo_url": "https://img-cdn.hltv.org/teamlogo/xsWK0BtR26rN776qdnWFC1.png?ixlib=java-2.1.0&s=4aaf659c3855ebf08c78c157a0653352&w=50" },
-  "3dmax": { "logo_url": "./assets/logos/3dmax.png" },
-  "ninjas in pyjamas": { "logo_url": "./assets/logos/ninjas_in_pyjamas.png" },
-  "nemesis": { "logo_url": "./assets/logos/nemesis.png" },
-  "eyeballers": { "logo_url": "./assets/logos/eyeballers.png" },
-  "sinners": { "logo_url": "./assets/logos/sinners.svg" },
-  "lynn vision": { "logo_url": "./assets/logos/lynn_vision.png" },
-  "magic": { "logo_url": "https://img-cdn.hltv.org/teamlogo/KYi27Dm-DVyEUj0WIG5Bdx.png?ixlib=java-2.1.0&w=200&s=caeaa3ed5d4176af7f6e9ca2fd1cec82" },
-  "liquid": { "logo_url": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62" },
-  "heroic": { "logo_url": "https://img-cdn.hltv.org/teamlogo/4S22uk_gnZTiQiI-hhH4yp.png?ixlib=java-2.1.0&w=200&s=f8e7b7825d7a6989479f1773574c9fd5" },
-  "sharks": { "logo_url": "https://img-cdn.hltv.org/teamlogo/xduTwTuydAWc0Dbt-eEjeH.png?ixlib=java-2.1.0&w=200&s=371937601de7d8abc292010c89b84757" },
-  "gentle mates": { "logo_url": "https://img-cdn.hltv.org/teamlogo/4vM_jGA-gAmOO3D19rxR1F.png?ixlib=java-2.1.0&w=200&s=d30d4f91bc226453512cfc4f07058129" },
-  "wildcard": { "logo_url": "https://img-cdn.hltv.org/teamlogo/G1K6vvihgsmN98BxRF8uJ7.png?ixlib=java-2.1.0&w=200&s=b56bc24ec1d34ca4c17e90cb4ee7dfea" },
-  "fokus": { "logo_url": "https://img-cdn.hltv.org/teamlogo/VFmCLfAOw0WUmb_2fDDX3o.png?ixlib=java-2.1.0&w=200&s=d87b535c02c9f83478eb8aa005d36214" },
-  "nuclear tigeres": { "logo_url": "https://img-cdn.hltv.org/teamlogo/_MgIfwkPlbZHTCa-R_s0r-.png?ixlib=java-2.1.0&w=200&s=54480109bd64f86ed4fc3b53678af628" },
-  "hotu": { "logo_url": "https://img-cdn.hltv.org/teamlogo/P4UciCspVz2jLkse8jAfCN.png?ixlib=java-2.1.0&w=200&s=804c8f6130114a51267ef17d8fd390e4" },
-  "100 thieves": { "logo_url": "https://img-cdn.hltv.org/teamlogo/8ypjXDe-cyvtUGWqzqhjce.png?ixlib=java-2.1.0&w=200&s=110fd990815b3d2f5ee382d7ffc98a23" },
-  "og": { "logo_url": "https://img-cdn.hltv.org/teamlogo/DfvLcyBWZPzMcRRqzxUfqL.png?ixlib=java-2.1.0&w=200&s=12dfdbac333ad79c674b16d2f6f1ae72" },
-  "nemiga": { "logo_url": "https://img-cdn.hltv.org/teamlogo/6ZPCm5r3XyGByXkFGiRnLh.png?ixlib=java-2.1.0&w=200&s=1a914d0f4164219aee64839b9002d22c" },
-  "walczaki": { "logo_url": "https://img-cdn.hltv.org/teamlogo/7J1EJEnAG7-_sekQrIc_8E.png?invert=true&ixlib=java-2.1.0&sat=-100&w=200&s=fed28a0fc91665de50595c2871d11028" },
-  "basement boys": { "logo_url": "https://img-cdn.hltv.org/teamlogo/IAgnK7oXGijw4nomIKEVIw.png?ixlib=java-2.1.0&w=200&s=4fd86b5bf8b82926d2d7a22aed7b63c1" },
-  "genone": { "logo_url": "https://img-cdn.hltv.org/teamlogo/DlMJrDmPA7qofO3HhP7Tbe.png?ixlib=java-2.1.0&w=200&s=25ac0ae5e4d7fa1ecee92c38588dcca9" },
-  "1win": { "logo_url": "https://img-cdn.hltv.org/teamlogo/zbmzI2IMFNwHUvTO4EHaTZ.png?ixlib=java-2.1.0&w=200&s=94f9e3c7ed2f8ccb4d4caa4c9037e65d" },
-  "eternal fire": { "logo_url": "https://img-cdn.hltv.org/teamlogo/Tafdq71X3B_-73b73bAixr.png?ixlib=java-2.1.0&w=200&s=9971096d8840611576c29d89b5985e7b" },
-  "cybershoke": { "logo_url": "https://img-cdn.hltv.org/teamlogo/gzn14uIQ6ENslja9hMqnkj.png?invert=true&ixlib=java-2.1.0&sat=-100&w=200&s=a91f89543a57eeb7906559813bab3321" },
-  "arcred": { "logo_url": "https://img-cdn.hltv.org/teamlogo/FkqmKLoI7VzD95HuCu36rp.png?invert=true&ixlib=java-2.1.0&sat=-100&w=200&s=fd8571f439979edd989938983c03a7ae" },
-  "sparta": { "logo_url": "https://img-cdn.hltv.org/teamlogo/4S4uiHHvhV2IFrEap8xG1H.png?ixlib=java-2.1.0&w=200&s=a6fa350e4e1d1d6b262893856f9bda4f" },
-  "ww": { "logo_url": "https://img-cdn.hltv.org/teamlogo/eCREd3vUcWijSsxUZ7GEoW.png?ixlib=java-2.1.0&w=200&s=6c9191caa3f0a7124c7c24f4786f1463" },
-  "enjoy": { "logo_url": "https://img-cdn.hltv.org/teamlogo/FXtaA3TkcW1-BMD3B-p1E7.png?ixlib=java-2.1.0&w=200&s=137db81ca8f2dd7b702c98311779f683" },
-  "bet m": { "logo_url": "https://img-cdn.hltv.org/teamlogo/V7kOhjpI4AiRCPnthLVvL6.png?ixlib=java-2.1.0&w=200&s=834e782bbc824e2eedba9c6f851fa054" },
-  "brute": { "logo_url": "https://img-cdn.hltv.org/teamlogo/Bh8oZnAYofBgma_vPu55I7.svg?invert=true&ixlib=java-2.1.0&sat=-100&s=29b9ea43a4a1f67726c18c16eae08f22" },
-  "the last resort": { "logo_url": "https://img-cdn.hltv.org/teamlogo/AI65hTB4kG_d6jJ8DiS4nZ.svg?ixlib=java-2.1.0&s=1bb2618494315b819daaf94547cca525" },
-  "honved": { "logo_url": "https://img-cdn.hltv.org/teamlogo/GRDCTjbpIWDj6cS-k5j69x.png?ixlib=java-2.1.0&w=200&s=ae2895162cb6d7c13d68ef416307b8bb" },
-  "ence": { "logo_url": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8" },
-  "eternal premium": { "logo_url": "https://img-cdn.hltv.org/teamlogo/4r6jgwV8ATIbwgyxjRtibq.png?invert=true&ixlib=java-2.1.0&sat=-100&w=200&s=fe14aec9ccdca11cdd5e5e1632d2f6f5" },
-  "wbt": { "logo_url": "https://img-cdn.hltv.org/teamlogo/_coqH_U02fBToVR-m_CKsU.png?ixlib=java-2.1.0&w=200&s=78f082e0591856a772eeeb54750ff35b" },
-  "illwill": { "logo_url": "https://img-cdn.hltv.org/teamlogo/WICkIpeOyXweG2ozrui4bi.png?ixlib=java-2.1.0&w=200&s=14b6f5e1174d0486b25e54c81e135e5c" },
-  "atreides": { "logo_url": "https://img-cdn.hltv.org/teamlogo/aUsDbFRUB5bFm9DLQh3Uhd.png?ixlib=java-2.1.0&w=200&s=907d0200e507dfcdc439496c180c6a11" }
+  "faze": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/OKLwq88GXjl5GQ48Y5SrvW.png?ixlib=java-2.1.0&s=0a0d65eeb1b0e82ada20c42c038552fa&w=50"
+  },
+  "alliance": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/xsWK0BtR26rN776qdnWFC1.png?ixlib=java-2.1.0&s=4aaf659c3855ebf08c78c157a0653352&w=50"
+  },
+  "3dmax": {
+    "logo_url": "./assets/logos/3dmax.png"
+  },
+  "ninjas in pyjamas": {
+    "logo_url": "./assets/logos/ninjas_in_pyjamas.png"
+  },
+  "nemesis": {
+    "logo_url": "./assets/logos/nemesis.png"
+  },
+  "eyeballers": {
+    "logo_url": "./assets/logos/eyeballers.png"
+  },
+  "sinners": {
+    "logo_url": "./assets/logos/sinners.svg"
+  },
+  "lynn vision": {
+    "logo_url": "./assets/logos/lynn_vision.png"
+  },
+  "magic": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/KYi27Dm-DVyEUj0WIG5Bdx.png?ixlib=java-2.1.0&w=200&s=caeaa3ed5d4176af7f6e9ca2fd1cec82"
+  },
+  "liquid": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/JMeLLbWKCIEJrmfPaqOz4O.svg?ixlib=java-2.1.0&s=c02caf90234d3a3ebac074c84ba1ea62"
+  },
+  "heroic": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/4S22uk_gnZTiQiI-hhH4yp.png?ixlib=java-2.1.0&w=200&s=f8e7b7825d7a6989479f1773574c9fd5"
+  },
+  "sharks": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/xduTwTuydAWc0Dbt-eEjeH.png?ixlib=java-2.1.0&w=200&s=371937601de7d8abc292010c89b84757"
+  },
+  "gentle mates": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/4vM_jGA-gAmOO3D19rxR1F.png?ixlib=java-2.1.0&w=200&s=d30d4f91bc226453512cfc4f07058129"
+  },
+  "wildcard": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/G1K6vvihgsmN98BxRF8uJ7.png?ixlib=java-2.1.0&w=200&s=b56bc24ec1d34ca4c17e90cb4ee7dfea"
+  },
+  "fokus": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/VFmCLfAOw0WUmb_2fDDX3o.png?ixlib=java-2.1.0&w=200&s=d87b535c02c9f83478eb8aa005d36214"
+  },
+  "nuclear tigeres": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/_MgIfwkPlbZHTCa-R_s0r-.png?ixlib=java-2.1.0&w=200&s=54480109bd64f86ed4fc3b53678af628"
+  },
+  "hotu": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/P4UciCspVz2jLkse8jAfCN.png?ixlib=java-2.1.0&w=200&s=804c8f6130114a51267ef17d8fd390e4"
+  },
+  "100 thieves": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/8ypjXDe-cyvtUGWqzqhjce.png?ixlib=java-2.1.0&w=200&s=110fd990815b3d2f5ee382d7ffc98a23"
+  },
+  "og": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/DfvLcyBWZPzMcRRqzxUfqL.png?ixlib=java-2.1.0&w=200&s=12dfdbac333ad79c674b16d2f6f1ae72"
+  },
+  "nemiga": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/6ZPCm5r3XyGByXkFGiRnLh.png?ixlib=java-2.1.0&w=200&s=1a914d0f4164219aee64839b9002d22c"
+  },
+  "walczaki": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/7J1EJEnAG7-_sekQrIc_8E.png?invert=true&ixlib=java-2.1.0&sat=-100&w=200&s=fed28a0fc91665de50595c2871d11028"
+  },
+  "basement boys": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/IAgnK7oXGijw4nomIKEVIw.png?ixlib=java-2.1.0&w=200&s=4fd86b5bf8b82926d2d7a22aed7b63c1"
+  },
+  "genone": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/DlMJrDmPA7qofO3HhP7Tbe.png?ixlib=java-2.1.0&w=200&s=25ac0ae5e4d7fa1ecee92c38588dcca9"
+  },
+  "1win": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/zbmzI2IMFNwHUvTO4EHaTZ.png?ixlib=java-2.1.0&w=200&s=94f9e3c7ed2f8ccb4d4caa4c9037e65d"
+  },
+  "eternal fire": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/Tafdq71X3B_-73b73bAixr.png?ixlib=java-2.1.0&w=200&s=9971096d8840611576c29d89b5985e7b"
+  },
+  "cybershoke": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/gzn14uIQ6ENslja9hMqnkj.png?invert=true&ixlib=java-2.1.0&sat=-100&w=200&s=a91f89543a57eeb7906559813bab3321"
+  },
+  "arcred": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/FkqmKLoI7VzD95HuCu36rp.png?invert=true&ixlib=java-2.1.0&sat=-100&w=200&s=fd8571f439979edd989938983c03a7ae"
+  },
+  "sparta": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/4S4uiHHvhV2IFrEap8xG1H.png?ixlib=java-2.1.0&w=200&s=a6fa350e4e1d1d6b262893856f9bda4f"
+  },
+  "ww": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/eCREd3vUcWijSsxUZ7GEoW.png?ixlib=java-2.1.0&w=200&s=6c9191caa3f0a7124c7c24f4786f1463"
+  },
+  "enjoy": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/FXtaA3TkcW1-BMD3B-p1E7.png?ixlib=java-2.1.0&w=200&s=137db81ca8f2dd7b702c98311779f683"
+  },
+  "bet m": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/V7kOhjpI4AiRCPnthLVvL6.png?ixlib=java-2.1.0&w=200&s=834e782bbc824e2eedba9c6f851fa054"
+  },
+  "brute": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/Bh8oZnAYofBgma_vPu55I7.svg?invert=true&ixlib=java-2.1.0&sat=-100&s=29b9ea43a4a1f67726c18c16eae08f22"
+  },
+  "the last resort": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/AI65hTB4kG_d6jJ8DiS4nZ.svg?ixlib=java-2.1.0&s=1bb2618494315b819daaf94547cca525"
+  },
+  "honved": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/GRDCTjbpIWDj6cS-k5j69x.png?ixlib=java-2.1.0&w=200&s=ae2895162cb6d7c13d68ef416307b8bb"
+  },
+  "ence": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/-X8NoyWC_1gYqUHvZqcpkc.svg?ixlib=java-2.1.0&s=85bb9daa6f846fa097c5942f2565fdb8"
+  },
+  "eternal premium": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/4r6jgwV8ATIbwgyxjRtibq.png?invert=true&ixlib=java-2.1.0&sat=-100&w=200&s=fe14aec9ccdca11cdd5e5e1632d2f6f5"
+  },
+  "wbt": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/_coqH_U02fBToVR-m_CKsU.png?ixlib=java-2.1.0&w=200&s=78f082e0591856a772eeeb54750ff35b"
+  },
+  "illwill": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/WICkIpeOyXweG2ozrui4bi.png?ixlib=java-2.1.0&w=200&s=14b6f5e1174d0486b25e54c81e135e5c"
+  },
+  "atreides": {
+    "logo_url": "https://img-cdn.hltv.org/teamlogo/aUsDbFRUB5bFm9DLQh3Uhd.png?ixlib=java-2.1.0&w=200&s=907d0200e507dfcdc439496c180c6a11"
+  },
+  "vitality": {
+    "name": "Vitality",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e4/Team_Vitality_2023_lightmode.png/41px-Team_Vitality_2023_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "aurora": {
+    "name": "Aurora",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/1c/Aurora_Gaming_2025_allmode.png/50px-Aurora_Gaming_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "mouz": {
+    "name": "MOUZ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c2/MOUZ_2021_allmode.png/47px-MOUZ_2021_allmode.png",
+    "source": "Liquipedia"
+  },
+  "furia": {
+    "name": "FURIA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/aa/FURIA_Esports_allmode.png/51px-FURIA_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "navi": {
+    "name": "NAVI",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3f/Natus_Vincere_2021_lightmode.png/57px-Natus_Vincere_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "nrg": {
+    "name": "NRG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/NRG_2024_lightmode.png/100px-NRG_2024_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "spirit": {
+    "name": "Spirit",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/66/Team_Spirit_2022_lightmode.png/43px-Team_Spirit_2022_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "falcons": {
+    "name": "Falcons",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/Team_Falcons_2022_allmode.png/41px-Team_Falcons_2022_allmode.png",
+    "source": "Liquipedia"
+  },
+  "g2": {
+    "name": "G2",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4b/G2_Esports_2020_lightmode.png/43px-G2_Esports_2020_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "fut": {
+    "name": "FUT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/90/Futbolist_2021_lightmode.png/26px-Futbolist_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "legacy": {
+    "name": "Legacy",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/34/Legacy_allmode.png/49px-Legacy_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ic": {
+    "name": "IC",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c6/Inner_Circle_2025_allmode.png/43px-Inner_Circle_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "9z": {
+    "name": "9z",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7f/9z_Team_2024_lightmode.png/60px-9z_Team_2024_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "pain": {
+    "name": "paiN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6f/PaiN_Gaming_2023_lightmode.png/75px-PaiN_Gaming_2023_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "lvg": {
+    "name": "LVG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e7/Lynn_Vision_Gaming_2024_allmode.png/74px-Lynn_Vision_Gaming_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "m80": {
+    "name": "M80",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/55/M80_2023_allmode.png/44px-M80_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "dendele": {
+    "name": "DENDELE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/87/DENDELE_CS_allmode.png/38px-DENDELE_CS_allmode.png",
+    "source": "Liquipedia"
+  },
+  "b8": {
+    "name": "B8",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c6/B8_lightmode.png/41px-B8_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "mongolz": {
+    "name": "MongolZ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/2b/The_MongolZ_2024_03_allmode.png/39px-The_MongolZ_2024_03_allmode.png",
+    "source": "Liquipedia"
+  },
+  "gl": {
+    "name": "GL",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/21/GamerLegion_2026_allmode.png/49px-GamerLegion_2026_allmode.png",
+    "source": "Liquipedia"
+  },
+  "pv": {
+    "name": "PV",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/9d/PARIVISION_allmode.png/56px-PARIVISION_allmode.png",
+    "source": "Liquipedia"
+  },
+  "big": {
+    "name": "BIG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4c/BIG_2020_lightmode.png/35px-BIG_2020_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "astralis": {
+    "name": "Astralis",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3d/Astralis_2020_allmode.png/41px-Astralis_2020_allmode.png",
+    "source": "Liquipedia"
+  },
+  "lg": {
+    "name": "LG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a2/Luminosity_Gaming_2018_allmode.png/50px-Luminosity_Gaming_2018_allmode.png",
+    "source": "Liquipedia"
+  },
+  "100t": {
+    "name": "100T",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c2/100_Thieves_lightmode.png/64px-100_Thieves_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "k27": {
+    "name": "K27",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c0/K27_allmode.png/100px-K27_allmode.png",
+    "source": "Liquipedia"
+  },
+  "jijiehao": {
+    "name": "JiJieHao",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/30/JiJieHao_International_allmode.png/58px-JiJieHao_International_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ntr": {
+    "name": "NTR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ef/Nuclear_TigeRES_lightmode.png/64px-Nuclear_TigeRES_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "bb": {
+    "name": "BB",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5b/BetBoom_Team_2024_allmode.png/56px-BetBoom_Team_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "monte": {
+    "name": "Monte",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/22/Monte_2022_allmode.png/35px-Monte_2022_allmode.png",
+    "source": "Liquipedia"
+  }
 }

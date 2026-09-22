@@ -5,6 +5,7 @@ import argparse
 import json
 import os
 import re
+import sqlite3
 from contextlib import asynccontextmanager
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -25,6 +26,8 @@ POLL_SECONDS = max(180, int(os.environ.get("POLL_SECONDS", "300")))
 REQUEST_TIMEOUT_SECONDS = int(os.environ.get("REQUEST_TIMEOUT_SECONDS", "90"))
 MAX_DETAIL_MATCHES = max(0, min(8, int(os.environ.get("MAX_DETAIL_MATCHES", "6"))))
 SNAPSHOT_PATH = Path(os.environ.get("SNAPSHOT_PATH", "/data/last-good-snapshot.json"))
+ARCHIVE_PATH = Path(os.environ.get("ARCHIVE_PATH", "/data/observed-results.sqlite3"))
+BACKFILL_FLOOR = os.environ.get("BACKFILL_FLOOR", "2026-06-09")
 SOURCE_LABEL = os.environ.get("SOURCE_LABEL", f"HLTV via {FETCH_BACKEND}")
 TIER_TWO_EVENT_PATTERN = re.compile(r"\b(?:cct|roman imperium|esl challenger|thunderpick world championship)\b", re.I)
 TIER_ONE_EVENT_PATTERN = re.compile(r"\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b", re.I)
@@ -523,13 +526,13 @@ async def fetch_browser_html(url: str) -> str:
         return response.body.decode("utf-8", errors="replace")
 
 
-async def fetch_url(session, url: str) -> str:
+async def fetch_url(session, url: str, *, allow_browser: bool = True) -> str:
     if FETCH_BACKEND.startswith("scrapling"):
         request = session.get(url, timeout=REQUEST_TIMEOUT_SECONDS, impersonate="chrome") if FETCH_BACKEND == "scrapling-http" else session.fetch(url)
         response = await asyncio.wait_for(request, REQUEST_TIMEOUT_SECONDS + 15)
         # Bound browser work on the free 1 GB VM to one blocked page per cycle.
         # Do not retry rate-limit responses or loop through identities/proxies.
-        if FETCH_BACKEND == "scrapling-http" and response.status == 403 and session.browser_fallbacks < 1:
+        if allow_browser and FETCH_BACKEND == "scrapling-http" and response.status == 403 and session.browser_fallbacks < 1:
             session.browser_fallbacks += 1
             return await asyncio.wait_for(fetch_browser_html(url), 90)
         if response.status != 200:
@@ -633,6 +636,101 @@ def load_snapshot() -> dict[str, Any] | None:
         return None
 
 
+def archive_connection(path: Path | None = None) -> sqlite3.Connection:
+    path = path or ARCHIVE_PATH
+    path.parent.mkdir(parents=True, exist_ok=True)
+    connection = sqlite3.connect(path)
+    connection.execute("CREATE TABLE IF NOT EXISTS observed_results (match_id TEXT PRIMARY KEY, starts_at TEXT NOT NULL, last_seen_utc TEXT NOT NULL, payload TEXT NOT NULL)")
+    connection.execute("CREATE INDEX IF NOT EXISTS observed_results_date ON observed_results(starts_at)")
+    connection.execute("CREATE TABLE IF NOT EXISTS archive_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL)")
+    connection.execute("CREATE TABLE IF NOT EXISTS backfill_pages (offset INTEGER PRIMARY KEY, oldest_utc TEXT NOT NULL, newest_utc TEXT NOT NULL, result_count INTEGER NOT NULL, collected_at_utc TEXT NOT NULL)")
+    return connection
+
+
+def archived_result(match: dict[str, Any]) -> dict[str, Any] | None:
+    if match.get("status") != "finished" or not str(match.get("match_id", "")).startswith("hltv:"):
+        return None
+    try:
+        stamp = datetime.fromisoformat(str(match.get("starts_at", "")).replace("Z", "+00:00"))
+        score1, score2 = int(match["score1"]), int(match["score2"])
+    except (ValueError, KeyError, TypeError):
+        return None
+    if stamp.tzinfo is None or stamp.year < 2024 or stamp > datetime.now(timezone.utc) + timedelta(minutes=5) or score1 == score2 or not match.get("team1_name") or not match.get("team2_name"):
+        return None
+    return {key: match.get(key) for key in ("match_id", "hltv_match_id", "source_url", "event_id", "event_name", "product_tier", "team1_name", "team2_name", "starts_at", "series_format", "status", "score1", "score2", "winner_name")}
+
+
+def record_results(matches: list[dict[str, Any]], path: Path | None = None) -> int:
+    inserted = 0
+    with archive_connection(path) as connection:
+        for match in matches:
+            item = archived_result(match)
+            if item is None:
+                continue
+            previous = connection.execute("SELECT payload FROM observed_results WHERE match_id=?", (item["match_id"],)).fetchone()
+            if previous:
+                old = json.loads(previous[0])
+                # Keep richer detail and never replace a verified timestamp with
+                # a later envelope timestamp or a partial source card.
+                item = {**old, **{key: value for key, value in item.items() if value is not None and value != ""}}
+            else:
+                inserted += 1
+            connection.execute(
+                "INSERT OR REPLACE INTO observed_results(match_id,starts_at,last_seen_utc,payload) VALUES (?,?,?,?)",
+                (item["match_id"], item["starts_at"], utc_now(), json.dumps(item, ensure_ascii=False, sort_keys=True)),
+            )
+    return inserted
+
+
+def archive_payload(path: Path | None = None) -> dict[str, Any]:
+    with archive_connection(path) as connection:
+        rows = [json.loads(row[0]) for row in connection.execute("SELECT payload FROM observed_results ORDER BY starts_at, match_id")]
+        meta = dict(connection.execute("SELECT key,value FROM archive_meta"))
+        pages = [dict(offset=row[0], oldest_utc=row[1], newest_utc=row[2], result_count=row[3]) for row in connection.execute("SELECT offset,oldest_utc,newest_utc,result_count FROM backfill_pages ORDER BY offset")]
+    return {"ok": True, "source": "HLTV via Oracle Scrapling", "backfill_complete": meta.get("backfill_complete") == "true", "backfill_offset": int(meta.get("backfill_offset", "75")), "backfill_pages": pages, "matches": rows}
+
+
+async def backfill_once() -> None:
+    with archive_connection() as connection:
+        meta = dict(connection.execute("SELECT key,value FROM archive_meta"))
+    if meta.get("backfill_complete") == "true":
+        return
+    offset = int(meta.get("backfill_offset", "75"))
+    if offset > 100000:
+        raise RuntimeError("HLTV backfill exceeded its bounded page budget")
+    async with source_session() as session:
+        html = await fetch_url(session, f"{HLTV_RESULTS_URL}?offset={offset}", allow_browser=False)
+    rows = parse_results(html)
+    dated = [row["starts_at"] for row in rows if row.get("starts_at")]
+    if not rows or not dated:
+        raise RuntimeError(f"No dated HLTV results at offset {offset}; keeping archive cursor")
+    with archive_connection() as connection:
+        earlier_pages = connection.execute("SELECT COUNT(*) FROM backfill_pages WHERE offset < ?", (offset,)).fetchone()[0]
+        overlap = connection.execute(
+            f"SELECT COUNT(*) FROM observed_results WHERE match_id IN ({','.join('?' for _ in rows)})",
+            [row["match_id"] for row in rows],
+        ).fetchone()[0]
+    if earlier_pages and overlap == 0:
+        raise RuntimeError(f"No overlap with earlier HLTV results at offset {offset}; keeping archive cursor")
+    record_results(rows)
+    with archive_connection() as connection:
+        connection.execute("INSERT OR REPLACE INTO backfill_pages(offset,oldest_utc,newest_utc,result_count,collected_at_utc) VALUES (?,?,?,?,?)", (offset, min(dated), max(dated), len(rows), utc_now()))
+        connection.execute("INSERT OR REPLACE INTO archive_meta(key,value) VALUES ('backfill_offset',?)", (str(offset + 50),))
+        if min(dated)[:10] <= BACKFILL_FLOOR:
+            connection.execute("INSERT OR REPLACE INTO archive_meta(key,value) VALUES ('backfill_complete','true')")
+
+
+async def backfill_loop() -> None:
+    await asyncio.sleep(30)
+    while True:
+        try:
+            await backfill_once()
+            state["archive_error"] = None
+        except Exception as exc:
+            state["archive_error"] = repr(exc)
+        await asyncio.sleep(POLL_SECONDS)
+
+
 async def refresh() -> None:
     state["last_attempt_utc"] = utc_now()
     try:
@@ -640,6 +738,10 @@ async def refresh() -> None:
         save_snapshot(snapshot)
         state["snapshot"] = snapshot
         state["last_error"] = None
+        try:
+            record_results(snapshot.get("matches") or [])
+        except Exception as exc:
+            state["archive_error"] = repr(exc)
     except Exception as exc:
         state["last_error"] = repr(exc)
 
@@ -652,16 +754,19 @@ async def refresh_loop(app: web.Application) -> None:
 
 async def on_startup(app: web.Application) -> None:
     state["snapshot"] = load_snapshot()
+    archive_connection().close()
     # Start serving the last good snapshot immediately. The loop performs the
     # initial collection once, then waits between refreshes.
     app["refresh_task"] = asyncio.create_task(refresh_loop(app))
+    app["archive_task"] = asyncio.create_task(backfill_loop())
 
 
 async def on_cleanup(app: web.Application) -> None:
-    task = app.get("refresh_task")
-    if task:
+    tasks = [app.get(name) for name in ("refresh_task", "archive_task") if app.get(name)]
+    for task in tasks:
         task.cancel()
-        await asyncio.gather(task, return_exceptions=True)
+    if tasks:
+        await asyncio.gather(*tasks, return_exceptions=True)
 
 
 async def health(_: web.Request) -> web.Response:
@@ -679,6 +784,7 @@ async def health(_: web.Request) -> web.Response:
         "last_attempt_utc": state["last_attempt_utc"],
         "last_good_utc": last_good,
         "last_error": state["last_error"],
+        "archive_error": state.get("archive_error"),
     }, status=200 if healthy else 503)
 
 
@@ -688,10 +794,15 @@ async def snapshot(_: web.Request) -> web.Response:
     return web.json_response(state["snapshot"], headers={"Cache-Control": "no-store"})
 
 
+async def archive(_: web.Request) -> web.Response:
+    return web.json_response(archive_payload(), headers={"Cache-Control": "no-store"})
+
+
 def serve() -> None:
     app = web.Application()
     app.router.add_get("/healthz", health)
     app.router.add_get("/snapshot", snapshot)
+    app.router.add_get("/archive", archive)
     app.on_startup.append(on_startup)
     app.on_cleanup.append(on_cleanup)
     web.run_app(app, host=os.environ.get("BIND_HOST", "0.0.0.0"), port=8080)

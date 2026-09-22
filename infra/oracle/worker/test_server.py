@@ -51,7 +51,7 @@ class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
             started.set()
             await blocked.wait()
 
-        with patch("server.load_snapshot", return_value={"ok": True}), patch("server.refresh", new=AsyncMock(side_effect=collect)) as refresh:
+        with patch("server.load_snapshot", return_value={"ok": True}), patch("server.archive_connection"), patch("server.refresh", new=AsyncMock(side_effect=collect)) as refresh:
             try:
                 await asyncio.wait_for(on_startup(app), timeout=1)
                 await asyncio.wait_for(started.wait(), timeout=1)
@@ -62,6 +62,17 @@ class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
 
 
 class WorkerParserTests(unittest.TestCase):
+    def test_archive_keeps_dated_terminal_results_and_rejects_unanchored_scores(self):
+        from server import archive_payload, record_results
+        with tempfile.TemporaryDirectory() as directory:
+            archive_path = Path(directory) / "results.sqlite3"
+            valid = {"match_id": "hltv:1", "status": "finished", "starts_at": "2026-09-22T12:00:00Z", "team1_name": "A", "team2_name": "B", "score1": 2, "score2": 1, "winner_name": "A"}
+            self.assertEqual(record_results([valid, {**valid, "match_id": "hltv:2", "starts_at": None}], archive_path), 1)
+            self.assertEqual(record_results([valid], archive_path), 0)
+            archived = archive_payload(archive_path)["matches"]
+            self.assertEqual(len(archived), 1)
+            self.assertEqual(archived[0]["match_id"], "hltv:1")
+
     def test_detail_selection_rejects_naive_timestamp(self):
         self.assertFalse(wants_detail({"starts_at": "2026-07-28T13:00:00"}, datetime(2026, 7, 28, 12, tzinfo=timezone.utc)))
 

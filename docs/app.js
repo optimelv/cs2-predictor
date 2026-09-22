@@ -3508,7 +3508,7 @@ function teamHistoryHtml(teamName) {
       const isTeam1 = normalizeName(match.team1_name) === normalizeName(teamName);
       const teamScore = isTeam1 ? match.score1 : match.score2;
       const opponentScore = isTeam1 ? match.score2 : match.score1;
-      return `<article><span>${escapeHtml(match.match_date)} · ${escapeHtml(match.event_name)}</span><strong class="${won ? "is-win" : "is-loss"}">${won ? "W" : "L"} ${teamScore}-${opponentScore}</strong><small>${escapeHtml(match.phase || `BO${match.best_of || 3}`)}</small></article>`;
+      return `<article><span>${escapeHtml(match.match_date)} · ${escapeHtml(match.event_name)}</span><strong class="${won ? "is-win" : "is-loss"}">${won ? "W" : "L"} ${teamScore}-${opponentScore}</strong><small>${escapeHtml(match.phase || `BO${match.best_of || 3}`)}</small>${match.source === "Liquipedia MediaWiki API" && match.source_url ? `<a href="${escapeHtml(match.source_url)}" target="_blank" rel="noreferrer">Liquipedia source</a>` : ""}</article>`;
     }).join("")}</div>
   </section>`;
 }

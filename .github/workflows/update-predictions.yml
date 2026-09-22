@@ -122,6 +122,15 @@ jobs:
               raise SystemExit(f"Snapshot is {age_hours:.1f} hours old; refusing fake freshness.")
           PY
 
+      - name: Preserve all observed HLTV results, including lower tiers
+        if: steps.snapshot.outputs.source == 'oracle'
+        continue-on-error: true
+        run: |
+          worker_url=$(node -e "import('./config/oracle-worker.js').then(({ORACLE_WORKER_URL}) => process.stdout.write(ORACLE_WORKER_URL || ''))")
+          curl --fail --silent --show-error --connect-timeout 10 --max-time 45 \
+            "$worker_url/archive" --output "$RUNNER_TEMP/observed-results.json"
+          node scripts/ingest-observed-results.mjs "$RUNNER_TEMP/observed-results.json"
+
       - name: Enforce the Tier 1/2 product boundary
         if: steps.snapshot.outputs.available == 'true'
         run: |
@@ -154,6 +163,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data/predictions.json docs/data/predictions.js docs/data/coverage.json docs/data/coverage.js docs/data/players.json docs/data/players.js docs/data/history.json docs/data/live-snapshot.json docs/data/model-registry.json models/portable-online-training.jsonl
+          if [ -f models/observed-hltv-results.jsonl ]; then git add models/observed-hltv-results.jsonl; fi
           git diff --cached --quiet || git commit -m "Refresh verified CS2 results and projections"
           git pull --rebase
           git push

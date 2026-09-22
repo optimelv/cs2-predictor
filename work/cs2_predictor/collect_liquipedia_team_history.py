@@ -21,7 +21,8 @@ from .warehouse import connect, load_liquipedia_matches, slugify, summarize
 
 
 LIQUIPEDIA_API_ROOT = "https://liquipedia.net/counterstrike/api.php"
-USER_AGENT = "CS2PredictorDataResearch/0.1 (local research; contact: none)"
+USER_AGENT = "StrikeSignalResearch/0.1 (https://cs2-predictor-ebon.vercel.app/)"
+MIN_PARSE_INTERVAL_SECONDS = 30.5
 
 
 def compact_whitespace(value: str) -> str:
@@ -36,6 +37,11 @@ def slugify(value: str) -> str:
 
 def strip_text(node: html.HtmlElement) -> str:
     return compact_whitespace(" ".join(node.itertext()))
+
+
+def commons_logo(node: html.HtmlElement) -> str:
+    images = node.xpath(".//img/@src")
+    return next((image for image in images if image.startswith("/commons/images/")), "")
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -277,14 +283,23 @@ def parse_team_history_html(
     row_nodes = document.xpath("//table[contains(@class, 'table2__table')]//tr[contains(@class, 'table2__row--body')]")
     for row_node in row_nodes:
         cells = row_node.xpath("./td")
-        if len(cells) < 12:
+        if len(cells) == 12:
+            team_name = strip_text(cells[6])
+            label_index, score_index, opponent_index, vod_index = 7, 8, 10, 11
+        elif len(cells) == 10 and len(requested_teams) == 1:
+            # Liquipedia omits the redundant team and opponent-logo columns
+            # when the table requests just one team.
+            team_name = requested_teams[0]
+            label_index, score_index, opponent_index, vod_index = 6, 7, 8, 9
+        else:
             continue
         timer_nodes = cells[0].xpath(".//*[@data-timestamp]")
-        result_label_nodes = cells[7].xpath(".//*[@data-label-type]")
+        result_label_nodes = cells[label_index].xpath(".//*[@data-label-type]")
         rows.append(
             {
                 "source": "liquipedia_match_history_query",
-                "team_name": strip_text(cells[6]),
+                "team_name": team_name,
+                "team_logo_url": commons_logo(cells[6]) if len(cells) == 12 else "",
                 "page_title": f"Team match history query/{batch_slug}",
                 "coverage_start": coverage_start,
                 "coverage_end": coverage_end,
@@ -297,10 +312,11 @@ def parse_team_history_html(
                 "tournament_name": strip_text(cells[5]),
                 "tournament_href": first_counterstrike_href(cells[5]),
                 "result_label": result_label_nodes[0].get("data-label-type", "") if result_label_nodes else "",
-                "score_text": strip_text(cells[8]).replace("\xa0", " "),
-                "opponent_name": strip_text(cells[10]),
-                "opponent_href": first_counterstrike_href(cells[10]),
-                "vod_count": str(len(cells[11].xpath(".//a"))),
+                "score_text": strip_text(cells[score_index]).replace("\xa0", " "),
+                "opponent_name": strip_text(cells[opponent_index]),
+                "opponent_logo_url": commons_logo(cells[opponent_index]),
+                "opponent_href": first_counterstrike_href(cells[opponent_index]),
+                "vod_count": str(len(cells[vod_index].xpath(".//a"))),
                 "requested_teams": ", ".join(requested_teams),
             }
         )
@@ -374,7 +390,7 @@ def main() -> None:
     parser.add_argument("--max-batches", type=int, default=0)
     parser.add_argument("--stop-after-errors", type=int, default=2)
     parser.add_argument("--only-missing-teams", action="store_true")
-    parser.add_argument("--sleep-seconds", type=float, default=2.5)
+    parser.add_argument("--sleep-seconds", type=float, default=MIN_PARSE_INTERVAL_SECONDS)
     parser.add_argument("--update-main", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--load-db", action=argparse.BooleanOptionalAction, default=True)
     args = parser.parse_args()
@@ -391,7 +407,7 @@ def main() -> None:
         if args.max_batches and batch_index > args.max_batches:
             break
         if batch_index > 1:
-            time.sleep(args.sleep_seconds)
+            time.sleep(max(MIN_PARSE_INTERVAL_SECONDS, args.sleep_seconds))
         try:
             batch_slug, page_html = fetch_team_history_batch(
                 team_batch,
@@ -415,6 +431,7 @@ def main() -> None:
     fields = [
         "source",
         "team_name",
+        "team_logo_url",
         "page_title",
         "coverage_start",
         "coverage_end",
@@ -429,6 +446,7 @@ def main() -> None:
         "result_label",
         "score_text",
         "opponent_name",
+        "opponent_logo_url",
         "opponent_href",
         "vod_count",
         "requested_teams",
