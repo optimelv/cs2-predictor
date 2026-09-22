@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 2319,
+    "matches": 2392,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -1092,6 +1092,50 @@
       "source_url": "https://liquipedia.net/counterstrike/StarLadder/StarSeries/2026/Fall#Results"
     },
     {
+      "match_id": "liquipedia:fbf279bfdc3194eb41ed",
+      "match_date": "2026-09-19",
+      "starts_at": "2026-09-19T10:00:00Z",
+      "event_name": "SL StarSeries Fall 2026",
+      "team1_name": "MIBR",
+      "team2_name": "NRG",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MIBR",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/StarLadder/StarSeries/2026/Fall#Results"
+    },
+    {
+      "match_id": "liquipedia:f735de279e063cff7d46",
+      "match_date": "2026-09-19",
+      "starts_at": "2026-09-19T18:30:00Z",
+      "event_name": "SL StarSeries Fall 2026",
+      "team1_name": "FURIA",
+      "team2_name": "MIBR",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/StarLadder/StarSeries/2026/Fall#Results"
+    },
+    {
       "match_id": "hltv:2397814",
       "match_date": "2026-09-18",
       "event_name": "CCT 2026 Europe Series 9",
@@ -1277,6 +1321,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Aurora",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/StarLadder/StarSeries/2026/Fall#Results"
+    },
+    {
+      "match_id": "liquipedia:26db1a4bdbf56ae68e14",
+      "match_date": "2026-09-18",
+      "starts_at": "2026-09-18T13:10:00Z",
+      "event_name": "SL StarSeries Fall 2026",
+      "team1_name": "magic",
+      "team2_name": "MIBR",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MIBR",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -1541,6 +1607,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Aurora",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/StarLadder/StarSeries/2026/Fall#Results"
+    },
+    {
+      "match_id": "liquipedia:b3720217f753ff564daf",
+      "match_date": "2026-09-17",
+      "starts_at": "2026-09-17T17:10:00Z",
+      "event_name": "SL StarSeries Fall 2026",
+      "team1_name": "FURIA",
+      "team2_name": "MIBR",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FURIA",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -3820,6 +3908,28 @@
       "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Playoffs"
     },
     {
+      "match_id": "liquipedia:a5a89cf89a49d5bd8fd4",
+      "match_date": "2026-09-12",
+      "starts_at": "2026-09-12T11:05:00Z",
+      "event_name": "FISSURE Playground #3 - Playoffs",
+      "team1_name": "BB",
+      "team2_name": "G2",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Playoffs"
+    },
+    {
       "match_id": "hltv:2397863",
       "match_date": "2026-09-11",
       "event_name": "Thunderpick World Championship 2026 Closed Qualifier",
@@ -4830,6 +4940,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:b5b06327579a25ed8df4",
+      "match_date": "2026-09-11",
+      "starts_at": "2026-09-11T06:00:00Z",
+      "event_name": "FISSURE Playground #3 - Playoffs",
+      "team1_name": "Alliance",
+      "team2_name": "MIBR",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MIBR",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:61cbabc21e64c79352ba",
+      "match_date": "2026-09-11",
+      "starts_at": "2026-09-11T09:15:00Z",
+      "event_name": "FISSURE Playground #3 - Playoffs",
+      "team1_name": "FURIA",
+      "team2_name": "G2",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Playoffs"
     },
     {
       "match_id": "hltv:2397592",
@@ -5908,6 +6062,116 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_B"
+    },
+    {
+      "match_id": "liquipedia:cd195ae84c8a9554fdf4",
+      "match_date": "2026-09-10",
+      "starts_at": "2026-09-10T03:45:00Z",
+      "event_name": "FISSURE Playground #3 - Group A",
+      "team1_name": "9z",
+      "team2_name": "G2",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_A"
+    },
+    {
+      "match_id": "liquipedia:0eeb1c4a01c18e4db67e",
+      "match_date": "2026-09-10",
+      "starts_at": "2026-09-10T06:00:00Z",
+      "event_name": "FISSURE Playground #3 - Group B",
+      "team1_name": "magic",
+      "team2_name": "PV",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "magic",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_B"
+    },
+    {
+      "match_id": "liquipedia:11a6c95a12c4fc83e446",
+      "match_date": "2026-09-10",
+      "starts_at": "2026-09-10T10:40:00Z",
+      "event_name": "FISSURE Playground #3 - Group A",
+      "team1_name": "BB",
+      "team2_name": "MIBR",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BB",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_A"
+    },
+    {
+      "match_id": "liquipedia:a4f388b11168629abe21",
+      "match_date": "2026-09-10",
+      "starts_at": "2026-09-10T12:10:00Z",
+      "event_name": "FISSURE Playground #3 - Group B",
+      "team1_name": "Alliance",
+      "team2_name": "magic",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Alliance",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_B"
+    },
+    {
+      "match_id": "liquipedia:9f69b239da9be04d022b",
+      "match_date": "2026-09-10",
+      "starts_at": "2026-09-10T13:30:00Z",
+      "event_name": "FISSURE Playground #3 - Group A",
+      "team1_name": "5star",
+      "team2_name": "G2",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_A"
     },
     {
       "match_id": "hltv:2397580",
@@ -7010,6 +7274,94 @@
       "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_A"
     },
     {
+      "match_id": "liquipedia:25510864c10def17ec21",
+      "match_date": "2026-09-09",
+      "starts_at": "2026-09-09T03:00:00Z",
+      "event_name": "FISSURE Playground #3 - Group B",
+      "team1_name": "FaZe",
+      "team2_name": "magic",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "magic",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_B"
+    },
+    {
+      "match_id": "liquipedia:8e8ae11039eabd828517",
+      "match_date": "2026-09-09",
+      "starts_at": "2026-09-09T05:50:00Z",
+      "event_name": "FISSURE Playground #3 - Group A",
+      "team1_name": "9z",
+      "team2_name": "MIBR",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MIBR",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_A"
+    },
+    {
+      "match_id": "liquipedia:65c7e74efc9df9df17f0",
+      "match_date": "2026-09-09",
+      "starts_at": "2026-09-09T08:10:00Z",
+      "event_name": "FISSURE Playground #3 - Group A",
+      "team1_name": "BIG",
+      "team2_name": "G2",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_A"
+    },
+    {
+      "match_id": "liquipedia:14933cf02d932661c659",
+      "match_date": "2026-09-09",
+      "starts_at": "2026-09-09T12:55:00Z",
+      "event_name": "FISSURE Playground #3 - Group B",
+      "team1_name": "FURIA",
+      "team2_name": "PV",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_B"
+    },
+    {
       "match_id": "hltv:2397626",
       "match_date": "2026-09-08",
       "event_name": "PGL Masters Bucharest 2026 Europe Open Qualifier 2",
@@ -7668,6 +8020,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_A"
+    },
+    {
+      "match_id": "liquipedia:877cf86ce0d2eb54b782",
+      "match_date": "2026-09-08",
+      "starts_at": "2026-09-08T03:00:00Z",
+      "event_name": "FISSURE Playground #3 - Group A",
+      "team1_name": "5star",
+      "team2_name": "9z",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_A"
+    },
+    {
+      "match_id": "liquipedia:bd0de2b95132a463220c",
+      "match_date": "2026-09-08",
+      "starts_at": "2026-09-08T09:25:00Z",
+      "event_name": "FISSURE Playground #3 - Group A",
+      "team1_name": "BB",
+      "team2_name": "BIG",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BB",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_A"
+    },
+    {
+      "match_id": "liquipedia:958bc62a14b6b711c900",
+      "match_date": "2026-09-08",
+      "starts_at": "2026-09-08T10:55:00Z",
+      "event_name": "FISSURE Playground #3 - Group B",
+      "team1_name": "PV",
+      "team2_name": "TYLOO",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "PV",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FISSURE/Playground/3#Group_B"
     },
     {
       "match_id": "hltv:2397260",
@@ -13390,6 +13808,28 @@
       "source_url": "https://liquipedia.net/counterstrike/BLAST/Open/2026/Fall#Group_A"
     },
     {
+      "match_id": "liquipedia:fab1aee855d0e110015d",
+      "match_date": "2026-08-30",
+      "starts_at": "2026-08-30T14:40:00Z",
+      "event_name": "BLAST Open Fall 2026 - Group B",
+      "team1_name": "FUT",
+      "team2_name": "IC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FUT",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Open/2026/Fall#Group_B"
+    },
+    {
       "match_id": "hltv:2396928",
       "match_date": "2026-08-29",
       "event_name": "BLAST Open Porto 2026",
@@ -14235,6 +14675,28 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Open/2026/Fall#Group_B"
+    },
+    {
+      "match_id": "liquipedia:49c8a647f5e94226a6f1",
+      "match_date": "2026-08-29",
+      "starts_at": "2026-08-29T13:30:00Z",
+      "event_name": "BLAST Open Fall 2026 - Group B",
+      "team1_name": "FUT",
+      "team2_name": "LVG",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FUT",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -15137,6 +15599,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Aurora",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Open/2026/Fall#Group_A"
+    },
+    {
+      "match_id": "liquipedia:872c600002bacc74b8d2",
+      "match_date": "2026-08-28",
+      "starts_at": "2026-08-28T17:10:00Z",
+      "event_name": "BLAST Open Fall 2026 - Group A",
+      "team1_name": "FURIA",
+      "team2_name": "M80",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FURIA",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -16611,6 +17095,28 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Open/2026/Fall#Group_A"
+    },
+    {
+      "match_id": "liquipedia:32457e4ba1debf809a02",
+      "match_date": "2026-08-26",
+      "starts_at": "2026-08-26T17:55:00Z",
+      "event_name": "BLAST Open Fall 2026 - Group A",
+      "team1_name": "FURIA",
+      "team2_name": "paiN",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FURIA",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -18252,6 +18758,28 @@
       "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Playoffs"
     },
     {
+      "match_id": "liquipedia:57b9e0e504b2271023a5",
+      "match_date": "2026-08-22",
+      "starts_at": "2026-08-22T14:00:00Z",
+      "event_name": "Esports World Cup 2026 - Playoffs",
+      "team1_name": "FURIA",
+      "team2_name": "FUT",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "FUT",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Playoffs"
+    },
+    {
       "match_id": "hltv:2396644",
       "match_date": "2026-08-21",
       "event_name": "CCT 2026 Europe Series 7",
@@ -19066,6 +19594,28 @@
       "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Playoffs"
     },
     {
+      "match_id": "liquipedia:5d0a32272f928af217f6",
+      "match_date": "2026-08-20",
+      "starts_at": "2026-08-20T16:20:00Z",
+      "event_name": "Esports World Cup 2026 - Playoffs",
+      "team1_name": "FURIA",
+      "team2_name": "G2",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Playoffs"
+    },
+    {
       "match_id": "hltv:2396591",
       "match_date": "2026-08-19",
       "event_name": "Esports World Cup 2026",
@@ -19515,6 +20065,28 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:2df29f70831fa0566f4b",
+      "match_date": "2026-08-19",
+      "starts_at": "2026-08-19T14:20:00Z",
+      "event_name": "Esports World Cup 2026 - Playoffs",
+      "team1_name": "FUT",
+      "team2_name": "magic",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FUT",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -20826,6 +21398,28 @@
       "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_B"
     },
     {
+      "match_id": "liquipedia:661342ef4b15b2ffb447",
+      "match_date": "2026-08-16",
+      "starts_at": "2026-08-16T13:25:00Z",
+      "event_name": "Esports World Cup 2026 - Group D",
+      "team1_name": "9z",
+      "team2_name": "magic",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "magic",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_D"
+    },
+    {
       "match_id": "hltv:2396561",
       "match_date": "2026-08-15",
       "event_name": "Esports World Cup 2026",
@@ -21398,6 +21992,72 @@
       "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_A"
     },
     {
+      "match_id": "liquipedia:0d7909a6a563a26e85e1",
+      "match_date": "2026-08-15",
+      "starts_at": "2026-08-15T11:00:00Z",
+      "event_name": "Esports World Cup 2026 - Group D",
+      "team1_name": "paiN",
+      "team2_name": "Wildcard",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "paiN",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_D"
+    },
+    {
+      "match_id": "liquipedia:1935101b130af02be31f",
+      "match_date": "2026-08-15",
+      "starts_at": "2026-08-15T14:20:00Z",
+      "event_name": "Esports World Cup 2026 - Group D",
+      "team1_name": "9z",
+      "team2_name": "FURIA",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_D"
+    },
+    {
+      "match_id": "liquipedia:ff82ebc95ad0e12d1501",
+      "match_date": "2026-08-15",
+      "starts_at": "2026-08-15T14:20:00Z",
+      "event_name": "Esports World Cup 2026 - Group D",
+      "team1_name": "3DMAX",
+      "team2_name": "magic",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "magic",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_D"
+    },
+    {
       "match_id": "hltv:2396531",
       "match_date": "2026-08-14",
       "event_name": "Esports World Cup 2026 Open Qualifier",
@@ -21836,6 +22496,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_C"
+    },
+    {
+      "match_id": "liquipedia:574945faff93c49a9017",
+      "match_date": "2026-08-14",
+      "starts_at": "2026-08-14T11:00:00Z",
+      "event_name": "Esports World Cup 2026 - Group B",
+      "team1_name": "BB",
+      "team2_name": "NIP",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NIP",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:24e1f8784e77a58d3204",
+      "match_date": "2026-08-14",
+      "starts_at": "2026-08-14T17:15:00Z",
+      "event_name": "Esports World Cup 2026 - Group C",
+      "team1_name": "100T",
+      "team2_name": "PV",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "PV",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_C"
+    },
+    {
+      "match_id": "liquipedia:2fce98091288ad50e74c",
+      "match_date": "2026-08-14",
+      "starts_at": "2026-08-14T17:15:00Z",
+      "event_name": "Esports World Cup 2026 - Group B",
+      "team1_name": "K27",
+      "team2_name": "MIBR",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MIBR",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_B"
     },
     {
       "match_id": "hltv:2396530",
@@ -22342,6 +23068,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:fc6bde2ed0cecd66cacf",
+      "match_date": "2026-08-13",
+      "starts_at": "2026-08-13T13:20:00Z",
+      "event_name": "Esports World Cup 2026 - Group A",
+      "team1_name": "BIG",
+      "team2_name": "G2",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026#Group_A"
     },
     {
       "match_id": "hltv:2396150",
@@ -28328,6 +29076,50 @@
       "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
     },
     {
+      "match_id": "liquipedia:7a4c48d219f5071ea038",
+      "match_date": "2026-07-26",
+      "starts_at": "2026-07-26T10:00:00Z",
+      "event_name": "BLAST Bounty Summer Qual",
+      "team1_name": "NIP",
+      "team2_name": "paiN",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "paiN",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
+    },
+    {
+      "match_id": "liquipedia:c8ab3dfe1341e40bfa5a",
+      "match_date": "2026-07-26",
+      "starts_at": "2026-07-26T12:15:00Z",
+      "event_name": "BLAST Bounty Summer Qual",
+      "team1_name": "3DMAX",
+      "team2_name": "FUT",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "3DMAX",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
+    },
+    {
       "match_id": "liquipedia:73a8d3b2d93b31a4723b",
       "match_date": "2026-07-25",
       "starts_at": "2026-07-25T17:30:00Z",
@@ -28359,6 +29151,28 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "Astralis",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
+    },
+    {
+      "match_id": "liquipedia:78dfd1c2d472d22b00a6",
+      "match_date": "2026-07-25",
+      "starts_at": "2026-07-25T12:50:00Z",
+      "event_name": "BLAST Bounty Summer Qual",
+      "team1_name": "G2",
+      "team2_name": "Liquid",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Liquid",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -28416,6 +29230,50 @@
       "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
     },
     {
+      "match_id": "liquipedia:e70916d98e067f69e77a",
+      "match_date": "2026-07-24",
+      "starts_at": "2026-07-24T09:00:00Z",
+      "event_name": "BLAST Bounty Summer Qual",
+      "team1_name": "3DMAX",
+      "team2_name": "magic",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "3DMAX",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
+    },
+    {
+      "match_id": "liquipedia:b1d79e3ab14f3fef9320",
+      "match_date": "2026-07-24",
+      "starts_at": "2026-07-24T18:00:00Z",
+      "event_name": "BLAST Bounty Summer Qual",
+      "team1_name": "DENDELE",
+      "team2_name": "FURIA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "DENDELE",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
+    },
+    {
       "match_id": "liquipedia:883e7c0be7ebd57e140b",
       "match_date": "2026-07-23",
       "starts_at": "2026-07-23T18:05:00Z",
@@ -28447,6 +29305,50 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "FOKUS",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
+    },
+    {
+      "match_id": "liquipedia:0f7ec28828b546407054",
+      "match_date": "2026-07-23",
+      "starts_at": "2026-07-23T13:00:00Z",
+      "event_name": "BLAST Bounty Summer Qual",
+      "team1_name": "FUT",
+      "team2_name": "SINNERS",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FUT",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
+    },
+    {
+      "match_id": "liquipedia:52557b8a8da503b5ed85",
+      "match_date": "2026-07-23",
+      "starts_at": "2026-07-23T15:50:00Z",
+      "event_name": "BLAST Bounty Summer Qual",
+      "team1_name": "M8",
+      "team2_name": "paiN",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "paiN",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -28504,6 +29406,28 @@
       "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
     },
     {
+      "match_id": "liquipedia:d24ca3e652183a2d0d47",
+      "match_date": "2026-07-22",
+      "starts_at": "2026-07-22T12:15:00Z",
+      "event_name": "BLAST Bounty Summer Qual",
+      "team1_name": "G2",
+      "team2_name": "Nemiga",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
+    },
+    {
       "match_id": "liquipedia:775682e591026cb87a45",
       "match_date": "2026-07-21",
       "starts_at": "2026-07-21T15:35:00Z",
@@ -28546,6 +29470,468 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
+    },
+    {
+      "match_id": "liquipedia:c74969df78feb799fb4d",
+      "match_date": "2026-07-16",
+      "starts_at": "2026-07-16T12:15:00Z",
+      "event_name": "Stake Ranked Episode 3",
+      "team1_name": "3DMAX",
+      "team2_name": "paiN",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "3DMAX",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_3#Results"
+    },
+    {
+      "match_id": "liquipedia:e34d0f58d19cfc13e79b",
+      "match_date": "2026-07-15",
+      "starts_at": "2026-07-15T17:45:00Z",
+      "event_name": "Stake Ranked Episode 3",
+      "team1_name": "paiN",
+      "team2_name": "Phantom",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phantom",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_3#Results"
+    },
+    {
+      "match_id": "liquipedia:04815eed6b6cdd028e36",
+      "match_date": "2026-07-12",
+      "starts_at": "2026-07-12T08:00:00Z",
+      "event_name": "XSE Pro League 2026 - Playoffs",
+      "team1_name": "9z",
+      "team2_name": "PV",
+      "score1": 3,
+      "score2": 0,
+      "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": 5,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:8fd089c22c1b080e79bc",
+      "match_date": "2026-07-11",
+      "starts_at": "2026-07-11T08:00:00Z",
+      "event_name": "XSE Pro League 2026 - Playoffs",
+      "team1_name": "9z",
+      "team2_name": "Alliance",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:eca7b0a95629ba1a2012",
+      "match_date": "2026-07-11",
+      "starts_at": "2026-07-11T12:45:00Z",
+      "event_name": "XSE Pro League 2026 - Playoffs",
+      "team1_name": "FaZe",
+      "team2_name": "PV",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "PV",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:1147407bced3e5d24588",
+      "match_date": "2026-07-11",
+      "starts_at": "2026-07-11T23:00:00Z",
+      "event_name": "RES Showdown SA Fall '26",
+      "team1_name": "paiN",
+      "team2_name": "Sharks",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Sharks",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/RLG/RES/Showdown/2026/Fall/South_America#Results"
+    },
+    {
+      "match_id": "liquipedia:988be2cf0c378e868c95",
+      "match_date": "2026-07-10",
+      "starts_at": "2026-07-10T08:00:00Z",
+      "event_name": "XSE Pro League 2026 - Playoffs",
+      "team1_name": "BIG",
+      "team2_name": "PV",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "PV",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:ba67b906e807dc12293c",
+      "match_date": "2026-07-10",
+      "starts_at": "2026-07-10T12:45:00Z",
+      "event_name": "XSE Pro League 2026 - Playoffs",
+      "team1_name": "BB",
+      "team2_name": "FaZe",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FaZe",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:0406eee9d3f6df253c62",
+      "match_date": "2026-07-10",
+      "starts_at": "2026-07-10T13:00:00Z",
+      "event_name": "RES Showdown EU Fall '26",
+      "team1_name": "B8",
+      "team2_name": "VP",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "VP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/RLG/RES/Showdown/2026/Fall/Europe#Results"
+    },
+    {
+      "match_id": "liquipedia:2dfdc1b0d9a52c7a54cb",
+      "match_date": "2026-07-10",
+      "starts_at": "2026-07-10T16:20:00Z",
+      "event_name": "RES Showdown EU Fall '26",
+      "team1_name": "IC",
+      "team2_name": "magic",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "IC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/RLG/RES/Showdown/2026/Fall/Europe#Results"
+    },
+    {
+      "match_id": "liquipedia:5cf93cfe903970223710",
+      "match_date": "2026-07-10",
+      "starts_at": "2026-07-10T20:00:00Z",
+      "event_name": "RES Showdown SA Fall '26",
+      "team1_name": "LyP",
+      "team2_name": "paiN",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "paiN",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/RLG/RES/Showdown/2026/Fall/South_America#Results"
+    },
+    {
+      "match_id": "liquipedia:29a22c214cf52a8bfddb",
+      "match_date": "2026-07-09",
+      "starts_at": "2026-07-09T08:05:00Z",
+      "event_name": "XSE Pro League 2026 - Playoffs",
+      "team1_name": "9z",
+      "team2_name": "TYLOO",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:a2acd5bccdd976f0dada",
+      "match_date": "2026-07-09",
+      "starts_at": "2026-07-09T09:40:00Z",
+      "event_name": "RES Showdown EU Fall '26",
+      "team1_name": "B8",
+      "team2_name": "SNGRJ",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "B8",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/RLG/RES/Showdown/2026/Fall/Europe#Results"
+    },
+    {
+      "match_id": "liquipedia:97792f183ed3222de2d0",
+      "match_date": "2026-07-09",
+      "starts_at": "2026-07-09T17:00:00Z",
+      "event_name": "RES Showdown SA Fall '26",
+      "team1_name": "Meta.W",
+      "team2_name": "paiN",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "paiN",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/RLG/RES/Showdown/2026/Fall/South_America#Results"
+    },
+    {
+      "match_id": "liquipedia:fee213162fe70a517e87",
+      "match_date": "2026-07-09",
+      "starts_at": "2026-07-09T18:20:00Z",
+      "event_name": "RES Showdown EU Fall '26",
+      "team1_name": "EAC",
+      "team2_name": "magic",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "magic",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/RLG/RES/Showdown/2026/Fall/Europe#Results"
+    },
+    {
+      "match_id": "liquipedia:0916bedeb7c0ff0e2c4d",
+      "match_date": "2026-07-05",
+      "starts_at": "2026-07-05T06:15:00Z",
+      "event_name": "XSE Pro League 2026 - Round 5",
+      "team1_name": "9z",
+      "team2_name": "MIBR",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Round_5"
+    },
+    {
+      "match_id": "liquipedia:08f7dab6756c5c410f36",
+      "match_date": "2026-07-05",
+      "starts_at": "2026-07-05T10:00:00Z",
+      "event_name": "XSE Pro League 2026 - Round 5",
+      "team1_name": "B8",
+      "team2_name": "BIG",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "BIG",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Round_5"
+    },
+    {
+      "match_id": "liquipedia:4188ebe3a30a6ac143df",
+      "match_date": "2026-07-04",
+      "starts_at": "2026-07-04T05:10:00Z",
+      "event_name": "XSE Pro League 2026 - Round 4",
+      "team1_name": "B8",
+      "team2_name": "LVG",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "B8",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Round_4"
+    },
+    {
+      "match_id": "liquipedia:d12a7678d5a59c66a870",
+      "match_date": "2026-07-04",
+      "starts_at": "2026-07-04T06:00:00Z",
+      "event_name": "XSE Pro League 2026 - Round 4",
+      "team1_name": "MIBR",
+      "team2_name": "PV",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "PV",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Round_4"
+    },
+    {
+      "match_id": "liquipedia:fa781c09959414cb17da",
+      "match_date": "2026-07-04",
+      "starts_at": "2026-07-04T10:35:00Z",
+      "event_name": "XSE Pro League 2026 - Round 4",
+      "team1_name": "9z",
+      "team2_name": "Alliance",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Alliance",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Round_4"
+    },
+    {
+      "match_id": "liquipedia:849d9e556c028d262ccc",
+      "match_date": "2026-07-03",
+      "starts_at": "2026-07-03T16:20:00Z",
+      "event_name": "XSE Pro League 2026 - Round 3",
+      "team1_name": "BB",
+      "team2_name": "Nemesis",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BB",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/XSE_Pro_League/2026#Round_3"
     },
     {
       "match_id": "liquipedia:ab8b583ea475f1b93d4b",
@@ -28724,6 +30110,28 @@
       "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Playoffs#Results"
     },
     {
+      "match_id": "liquipedia:ee5a755546fd15ad31ce",
+      "match_date": "2026-06-18",
+      "starts_at": "2026-06-18T17:00:00Z",
+      "event_name": "IEM Cologne Major 2026",
+      "team1_name": "9z",
+      "team2_name": "FURIA",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Playoffs#Results"
+    },
+    {
       "match_id": "liquipedia:ac44bb7d8d7a1646ba38",
       "match_date": "2026-06-15",
       "starts_at": "2026-06-15T17:00:00Z",
@@ -28755,6 +30163,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3#Round_5"
+    },
+    {
+      "match_id": "liquipedia:82e77a7db48dc70235af",
+      "match_date": "2026-06-15",
+      "starts_at": "2026-06-15T14:30:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 3 - Round 5",
+      "team1_name": "BB",
+      "team2_name": "FUT",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BB",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -29032,6 +30462,50 @@
       "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3#Round_3"
     },
     {
+      "match_id": "liquipedia:345dca91f198c8847b3d",
+      "match_date": "2026-06-13",
+      "starts_at": "2026-06-13T09:00:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 3 - Round 3",
+      "team1_name": "B8",
+      "team2_name": "FUT",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "FUT",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3#Round_3"
+    },
+    {
+      "match_id": "liquipedia:506ed100408dae2270a8",
+      "match_date": "2026-06-13",
+      "starts_at": "2026-06-13T17:40:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 3 - Round 3",
+      "team1_name": "BB",
+      "team2_name": "FURIA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3#Round_3"
+    },
+    {
       "match_id": "liquipedia:fc5c480aaa44c2238a26",
       "match_date": "2026-06-12",
       "starts_at": "2026-06-12T09:00:00Z",
@@ -29151,6 +30625,50 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "MongolZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3#Round_2"
+    },
+    {
+      "match_id": "liquipedia:5cdec22015d6d587fb87",
+      "match_date": "2026-06-12",
+      "starts_at": "2026-06-12T11:30:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 3 - Round 2",
+      "team1_name": "Monte",
+      "team2_name": "PV",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Monte",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3#Round_2"
+    },
+    {
+      "match_id": "liquipedia:f460d7eecb5fb563d02e",
+      "match_date": "2026-06-12",
+      "starts_at": "2026-06-12T12:10:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 3 - Round 2",
+      "team1_name": "FUT",
+      "team2_name": "G2",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "G2",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -29296,6 +30814,50 @@
       "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3#Round_1"
     },
     {
+      "match_id": "liquipedia:86c7ee78953b20624097",
+      "match_date": "2026-06-11",
+      "starts_at": "2026-06-11T09:00:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 3 - Round 1",
+      "team1_name": "9z",
+      "team2_name": "PV",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3#Round_1"
+    },
+    {
+      "match_id": "liquipedia:08091501ffdc1e9066ae",
+      "match_date": "2026-06-11",
+      "starts_at": "2026-06-11T14:10:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 3 - Round 1",
+      "team1_name": "B8",
+      "team2_name": "FURIA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_3#Round_1"
+    },
+    {
       "match_id": "liquipedia:7d1831d6e884fc738437",
       "match_date": "2026-06-09",
       "starts_at": "2026-06-09T14:30:00Z",
@@ -29305,6 +30867,50 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Legacy",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_2#Round_5"
+    },
+    {
+      "match_id": "liquipedia:3647e9185f9650597211",
+      "match_date": "2026-06-09",
+      "starts_at": "2026-06-09T12:00:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 2 - Round 5",
+      "team1_name": "Monte",
+      "team2_name": "paiN",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Monte",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_2#Round_5"
+    },
+    {
+      "match_id": "liquipedia:79a01dd24b04a13f2a25",
+      "match_date": "2026-06-09",
+      "starts_at": "2026-06-09T17:00:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 2 - Round 5",
+      "team1_name": "B8",
+      "team2_name": "BIG",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "B8",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
