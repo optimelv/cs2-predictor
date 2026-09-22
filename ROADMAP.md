@@ -1,5 +1,15 @@
 # StrikeSignal Product Roadmap
 
+## Desktop quality backlog — reported 2026-09-23
+
+These are recorded for a later polish pass; no UI implementation is part of the current privacy work. Verify at desktop width first, then check mobile for regressions.
+
+1. **Players view layout:** The lower part of the player list is covered by a large grey block, while the detail panel on the right is clipped. Reproduce with a selected player near the end of the list; fix the grid's height, overflow, and scroll ownership without hiding list rows or profile content.
+2. **My picks:** The tab can show a `0` count and an empty content area. Reproduce after saving a valid pick, refreshing, switching tabs, and revisiting on the same device. Check storage hydration, count, empty state, and saved-vs-draft behavior before changing copy.
+3. **Recent source snapshot:** The status strip can show only a generic “Recent source snapshot” label without useful freshness context. Reproduce fresh, stale, and failed source responses; ensure status, source timestamp, fallback state, and “Details & refresh” stay consistent.
+4. **Radar chart exploration:** Consider a player or team comparison radar using the [EvilCharts ECharts example](https://evilcharts.com/docs/echarts/radar-chart/static) as visual reference. Only compare metrics on an explicitly shared scale, show sample size and source date, provide a data table, and keep the existing visual language. Do not add a chart merely to decorate a profile.
+5. **Typography reference:** Review [Justice](https://justice.kitlangton.com/) for long editorial paragraphs only. It addresses paragraph justification, not the player-list clipping or pick-state defects; adopt it only if it improves readability without runtime or accessibility cost.
+
 ## Release 1: Circuit Intelligence
 
 Status: implemented in the current product branch.
