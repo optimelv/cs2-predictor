@@ -13,6 +13,22 @@ node_modules/
 work/data/
 work/api_tests/
 
+# Prevent new private databases and model artifacts from being committed.
+# Already tracked models/ files need a separate storage migration.
+models/
+*.db
+*.sqlite
+*.sqlite3
+*.db-*
+*.sqlite-*
+*.pkl
+*.pickle
+*.joblib
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
 # Keep user-facing reports and project code trackable
 !outputs/
 !work/cs2_predictor/
