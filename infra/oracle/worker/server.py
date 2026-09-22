@@ -8,6 +8,7 @@ import re
 from contextlib import asynccontextmanager
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from types import SimpleNamespace
 from typing import Any
 
 from aiohttp import ClientSession, ClientTimeout, web
@@ -494,7 +495,7 @@ def players_from_matches(matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
 async def source_session():
     if FETCH_BACKEND == "scrapling-http":
         from scrapling.fetchers import AsyncFetcher
-        yield AsyncFetcher
+        yield SimpleNamespace(get=AsyncFetcher.get, browser_fallbacks=0)
     elif FETCH_BACKEND == "scrapling":
         from scrapling.fetchers import AsyncStealthySession
 
@@ -510,10 +511,27 @@ async def source_session():
             yield session
 
 
+async def fetch_browser_html(url: str) -> str:
+    from scrapling.fetchers import AsyncStealthySession
+    async with AsyncStealthySession(
+        headless=True, max_pages=1, timeout=60000, google_search=False,
+        block_ads=True, solve_cloudflare=True,
+    ) as browser:
+        response = await browser.fetch(url)
+        if response.status != 200:
+            raise RuntimeError(f"Scrapling browser returned HTTP {response.status}")
+        return response.body.decode("utf-8", errors="replace")
+
+
 async def fetch_url(session, url: str) -> str:
     if FETCH_BACKEND.startswith("scrapling"):
         request = session.get(url, timeout=REQUEST_TIMEOUT_SECONDS, impersonate="chrome") if FETCH_BACKEND == "scrapling-http" else session.fetch(url)
         response = await asyncio.wait_for(request, REQUEST_TIMEOUT_SECONDS + 15)
+        # Bound browser work on the free 1 GB VM to one blocked page per cycle.
+        # Do not retry rate-limit responses or loop through identities/proxies.
+        if FETCH_BACKEND == "scrapling-http" and response.status == 403 and session.browser_fallbacks < 1:
+            session.browser_fallbacks += 1
+            return await asyncio.wait_for(fetch_browser_html(url), 90)
         if response.status != 200:
             raise RuntimeError(f"Scrapling source returned HTTP {response.status}")
         return response.body.decode("utf-8", errors="replace")
@@ -593,6 +611,7 @@ async def fetch_snapshot() -> dict[str, Any]:
             "recent_results": len(results),
             "detail_matches": len(detail_candidates),
             "detail_errors": detail_errors,
+            "browser_fallbacks": getattr(session, "browser_fallbacks", 0),
         },
     }
 

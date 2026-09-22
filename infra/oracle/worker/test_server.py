@@ -11,6 +11,20 @@ from server import events_from_matches, merge_match_detail, parse_match_detail, 
 
 
 class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
+    async def test_http_browser_fallback_is_bounded_and_does_not_retry_rate_limits(self):
+        from server import fetch_url
+        session = SimpleNamespace(get=AsyncMock(return_value=SimpleNamespace(status=403)), browser_fallbacks=0)
+        with patch("server.FETCH_BACKEND", "scrapling-http"), patch("server.fetch_browser_html", new=AsyncMock(return_value="<html>match</html>")) as browser:
+            self.assertEqual(await fetch_url(session, "https://www.hltv.org/matches"), "<html>match</html>")
+            with self.assertRaisesRegex(RuntimeError, "HTTP 403"):
+                await fetch_url(session, "https://www.hltv.org/results")
+            self.assertEqual(browser.await_count, 1)
+            session.browser_fallbacks = 0
+            session.get.return_value = SimpleNamespace(status=429)
+            with self.assertRaisesRegex(RuntimeError, "HTTP 429"):
+                await fetch_url(session, "https://www.hltv.org/results")
+            self.assertEqual(browser.await_count, 1)
+
     async def test_health_rejects_stale_or_failed_collection(self):
         from server import health
         current = datetime.now(timezone.utc).isoformat()
