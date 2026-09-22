@@ -4629,7 +4629,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Keyd Stars"
       },
       {
-        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-2",
+        "event_id": "hltv:9355",
         "event_name": "ESL Challenger League Season 52 South America Cup 2",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398495",
@@ -4913,7 +4913,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
       },
       {
-        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-2",
+        "event_id": "hltv:9355",
         "event_name": "ESL Challenger League Season 52 South America Cup 2",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398497",
@@ -11894,7 +11894,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "ODDIK"
           },
           {
-            "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-2",
+            "event_id": "hltv:9355",
             "event_name": "ESL Challenger League Season 52 South America Cup 2",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398495",
@@ -12178,7 +12178,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
           },
           {
-            "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-2",
+            "event_id": "hltv:9355",
             "event_name": "ESL Challenger League Season 52 South America Cup 2",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398497",
@@ -14378,7 +14378,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-09-22T22:06:07Z",
+    "last_verified_utc": "2026-09-22T22:12:06Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -14816,7 +14816,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-22T22:06:53Z",
+  "generated_at_utc": "2026-09-22T22:14:43Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -16373,7 +16373,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-22T22:06:53Z",
+    "generated_at_utc": "2026-09-22T22:14:42Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -16667,7 +16667,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
+      "new_rows": 0,
       "online_rows": 1,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
@@ -27042,7 +27042,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 87,
-    "online_results_applied": 2,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
