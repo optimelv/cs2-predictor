@@ -7,7 +7,21 @@ from datetime import datetime, timezone
 from pathlib import Path
 from types import SimpleNamespace
 
-from server import events_from_matches, merge_match_detail, parse_match_detail, parse_matches, parse_results, players_from_matches, save_snapshot, select_detail_candidates, wants_detail, on_startup, on_cleanup
+from server import archive, events_from_matches, liquipedia_evidence, merge_match_detail, parse_match_detail, parse_matches, parse_results, players_from_matches, save_snapshot, select_detail_candidates, wants_detail, on_startup, on_cleanup
+
+
+class PrivateArchiveTests(unittest.IsolatedAsyncioTestCase):
+    async def test_archive_and_liquipedia_require_configured_token(self):
+        from aiohttp import web
+        for handler, payload_name in ((archive, "archive_payload"), (liquipedia_evidence, "liquipedia_payload")):
+            with self.subTest(handler=handler.__name__), patch("server.os.environ", {}), patch(f"server.{payload_name}", return_value={"ok": True}):
+                with self.assertRaises(web.HTTPUnauthorized):
+                    await handler(SimpleNamespace(headers={"Authorization": "Bearer test"}))
+            with self.subTest(handler=handler.__name__), patch("server.os.environ", {"ARCHIVE_BEARER_TOKEN": "correct"}), patch(f"server.{payload_name}", return_value={"ok": True}):
+                with self.assertRaises(web.HTTPUnauthorized):
+                    await handler(SimpleNamespace(headers={"Authorization": "Bearer wrong"}))
+                response = await handler(SimpleNamespace(headers={"Authorization": "Bearer correct"}))
+                self.assertEqual(response.status, 200)
 
 
 class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):

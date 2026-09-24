@@ -8,7 +8,11 @@ const teamAssets = await parse("../docs/data/team-assets.json");
 const playerSnapshot = await parse("../docs/data/players.json");
 const historySnapshot = await parse("../docs/data/history.json");
 const modelRegistry = await parse("../docs/data/model-registry.json");
-const onlineTrainingRows = (await readFile(new URL("../models/portable-online-training.jsonl", import.meta.url), "utf8"))
+const onlineTrainingRows = (await readFile(new URL("../models/portable-online-training.jsonl", import.meta.url), "utf8")
+  .catch((error) => {
+    if (error.code === "ENOENT") return ""; // The public checkout omits private training rows.
+    throw error;
+  }))
   .split(/\r?\n/).filter(Boolean).map(JSON.parse);
 await parse("../contracts/live-snapshot.schema.json");
 const snapshot = normalizePlatformSnapshot(base, coverage);

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import asyncio
 import argparse
+import hmac
 import json
 import os
 import re
@@ -813,7 +814,15 @@ async def snapshot(_: web.Request) -> web.Response:
     return web.json_response(state["snapshot"], headers={"Cache-Control": "no-store"})
 
 
-async def archive(_: web.Request) -> web.Response:
+def require_archive_token(request: web.Request) -> None:
+    token = os.environ.get("ARCHIVE_BEARER_TOKEN", "")
+    supplied = request.headers.get("Authorization", "")
+    if not token or not hmac.compare_digest(supplied, f"Bearer {token}"):
+        raise web.HTTPUnauthorized(headers={"Cache-Control": "no-store"})
+
+
+async def archive(request: web.Request) -> web.Response:
+    require_archive_token(request)
     return web.json_response(archive_payload(), headers={"Cache-Control": "no-store"})
 
 
@@ -824,7 +833,8 @@ def liquipedia_payload() -> dict[str, Any]:
     return {"ok": True, "source": "Liquipedia MediaWiki API", "state": state, "matches": rows, "assets": assets}
 
 
-async def liquipedia_evidence(_: web.Request) -> web.Response:
+async def liquipedia_evidence(request: web.Request) -> web.Response:
+    require_archive_token(request)
     return web.json_response(liquipedia_payload(), headers={"Cache-Control": "no-store"})
 
 

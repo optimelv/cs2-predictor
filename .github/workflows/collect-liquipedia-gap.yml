@@ -18,13 +18,20 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
+      - name: Load private source observations
+        env:
+          PRIVATE_DATA_DEPLOY_KEY: ${{ secrets.PRIVATE_DATA_DEPLOY_KEY }}
+        run: bash scripts/private-data-sync.sh load
       - uses: actions/setup-node@v6
         with:
           node-version: "24"
       - name: Import the Oracle collector's cached Liquipedia evidence
+        env:
+          ORACLE_ARCHIVE_TOKEN: ${{ secrets.ORACLE_ARCHIVE_TOKEN }}
         run: |
           worker_url=$(node -e "import('./config/oracle-worker.js').then(({ORACLE_WORKER_URL}) => process.stdout.write(ORACLE_WORKER_URL || ''))")
           curl --fail --silent --show-error --connect-timeout 10 --max-time 45 \
+            --header "Authorization: Bearer $ORACLE_ARCHIVE_TOKEN" \
             "$worker_url/liquipedia-evidence" --output "$RUNNER_TEMP/liquipedia-evidence.json"
           node scripts/import-liquipedia-evidence.mjs "$RUNNER_TEMP/liquipedia-evidence.json"
       - name: Add independently verified results to the historical desk
@@ -33,11 +40,13 @@ jobs:
         run: |
           npm ci --no-audit --no-fund
           npm run check
+      - name: Save private Liquipedia evidence
+        run: bash scripts/private-data-sync.sh save-liquipedia
       - name: Publish source evidence and team assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add models/liquipedia-gap-queue.json models/liquipedia-gap-state.json models/liquipedia-observed-results.jsonl docs/data/team-assets.json docs/data/team-assets.js docs/data/history.json
+          git add docs/data/team-assets.json docs/data/team-assets.js docs/data/history.json
           git diff --cached --quiet || git commit -m "Collect Liquipedia match evidence and team assets"
           git pull --rebase
           git push
