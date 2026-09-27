@@ -4,6 +4,21 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "logo_url": "https://liquipedia.net/commons/images/thumb/5/5f/BET-M_33_allmode.png/47px-BET-M_33_allmode.png",
     "source": "Liquipedia"
   },
+  "333": {
+    "name": "333",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d7/Club_333_allmode.png/42px-Club_333_allmode.png",
+    "source": "Liquipedia"
+  },
+  "375": {
+    "name": "375",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "6666": {
+    "name": "6666",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/44/6666_Esports_allmode.png/65px-6666_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
   "faze": {
     "logo_url": "https://img-cdn.hltv.org/teamlogo/OKLwq88GXjl5GQ48Y5SrvW.png?ixlib=java-2.1.0&s=0a0d65eeb1b0e82ada20c42c038552fa&w=50"
   },
@@ -394,6 +409,1916 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
   "sngrj": {
     "name": "SNGRJ",
     "logo_url": "https://liquipedia.net/commons/images/thumb/3/3b/CSGO_default_lightmode.png/50px-CSGO_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "bbl": {
+    "name": "BBL",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4e/BBL_Esports_2022_lightmode.png/63px-BBL_Esports_2022_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "infinite": {
+    "name": "INFINITE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/12/Infinite_Gaming_allmode.png/100px-Infinite_Gaming_allmode.png",
+    "source": "Liquipedia"
+  },
+  "fnatic": {
+    "name": "Fnatic",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f9/Fnatic_2020_allmode.png/77px-Fnatic_2020_allmode.png",
+    "source": "Liquipedia"
+  },
+  "sangal": {
+    "name": "Sangal",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7a/Sangal_Esports_2020_allmode.png/43px-Sangal_Esports_2020_allmode.png",
+    "source": "Liquipedia"
+  },
+  "depo": {
+    "name": "DEPO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/63/Depo_2025_lightmode.png/47px-Depo_2025_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "nexv": {
+    "name": "NEXV",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/46/NEXVOID_allmode.png/78px-NEXVOID_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ra": {
+    "name": "RA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/cd/Rare_Atom_2024_allmode.png/55px-Rare_Atom_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "gz": {
+    "name": "GZ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/1c/Ground_Zero_Gaming_2019_allmode.png/50px-Ground_Zero_Gaming_2019_allmode.png",
+    "source": "Liquipedia"
+  },
+  "drama": {
+    "name": "Drama",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/26/Drama_Esports_allmode.png/74px-Drama_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "unity": {
+    "name": "UNiTY",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/1f/UNiTY_esports_allmode.png/76px-UNiTY_esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "butterfly": {
+    "name": "Butterfly",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7d/Butterfly_RU_allmode.png/78px-Butterfly_RU_allmode.png",
+    "source": "Liquipedia"
+  },
+  "tltbs": {
+    "name": "Tltbs",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "phtm ac": {
+    "name": "PHTM.Ac",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/cd/Phantom_Esports_lightmode.png/42px-Phantom_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ence p": {
+    "name": "ENCE.P",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/46/ENCE_Academy_dec_2023_allmode.png/50px-ENCE_Academy_dec_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "sashi": {
+    "name": "Sashi",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e3/Sashi_Esport_2023_allmode.png/37px-Sashi_Esport_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "gone": {
+    "name": "GOne",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/63/GenOne_lightmode.png/41px-GenOne_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "astral": {
+    "name": "ASTRAL",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e0/ASTRAL_Esports_lightmode.png/60px-ASTRAL_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "rem": {
+    "name": "REM",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ztf": {
+    "name": "ztf",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ex ruby": {
+    "name": "ex-RUBY",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "kolesie": {
+    "name": "KOLESIE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "nexus": {
+    "name": "Nexus",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/1e/Nexus_Gaming_2020_allmode.png/33px-Nexus_Gaming_2020_allmode.png",
+    "source": "Liquipedia"
+  },
+  "boys": {
+    "name": "BOYS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/87/BASEMENT_BOYS_lightmode.png/98px-BASEMENT_BOYS_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "saab": {
+    "name": "Saab",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/db/Saab_lightmode.png/50px-Saab_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "noir": {
+    "name": "Noir",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/13/Noir_Verse_allmode.png/55px-Noir_Verse_allmode.png",
+    "source": "Liquipedia"
+  },
+  "mouz nxt": {
+    "name": "MOUZ NXT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c2/MOUZ_2021_allmode.png/47px-MOUZ_2021_allmode.png",
+    "source": "Liquipedia"
+  },
+  "iber soul": {
+    "name": "Iber. Soul",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/bf/Iberian_Soul_allmode.png/37px-Iberian_Soul_allmode.png",
+    "source": "Liquipedia"
+  },
+  "leo": {
+    "name": "Leo",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/09/L%26G_2023_allmode.png/33px-L%26G_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "tlr": {
+    "name": "TLR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/8a/The_Last_Resort_lightmode.png/100px-The_Last_Resort_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "the huns": {
+    "name": "The Huns",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/35/The_Huns_Esports_2025_allmode.png/45px-The_Huns_Esports_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "cybshoke": {
+    "name": "CYBSHOKE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/97/CYBERSHOKE_Esports_2024_lightmode.png/43px-CYBERSHOKE_Esports_2024_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "bw": {
+    "name": "BW",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/35/Bushido_Wildcats_2026_allmode.png/53px-Bushido_Wildcats_2026_allmode.png",
+    "source": "Liquipedia"
+  },
+  "aimclub": {
+    "name": "Aimclub",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a5/Aimclub_%28Europe%29_allmode.png/49px-Aimclub_%28Europe%29_allmode.png",
+    "source": "Liquipedia"
+  },
+  "bc game": {
+    "name": "BC.Game",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f4/BC.Game_Esports_nov_2025_allmode.png/50px-BC.Game_Esports_nov_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "fly": {
+    "name": "FLY",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/b2/FlyQuest_2021_allmode.png/51px-FlyQuest_2021_allmode.png",
+    "source": "Liquipedia"
+  },
+  "quazar": {
+    "name": "QUAZAR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/46/QUAZAR.GG_allmode.png/50px-QUAZAR.GG_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ssins": {
+    "name": "SSins",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "nt": {
+    "name": "NT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a9/Nice_Try_CS_allmode.png/43px-Nice_Try_CS_allmode.png",
+    "source": "Liquipedia"
+  },
+  "kdg": {
+    "name": "KDG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/cf/Kaleido_Gaming_2025_allmode.png/65px-Kaleido_Gaming_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ex z10": {
+    "name": "ex-Z10",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "spirit a": {
+    "name": "Spirit.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/14/Team_Spirit_Academy_2021_lightmode.png/63px-Team_Spirit_Academy_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "baks": {
+    "name": "BAKS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/2a/BAKS_Esports_2025_lightmode.png/67px-BAKS_Esports_2025_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "monki": {
+    "name": "Monki",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "b line": {
+    "name": "B.LINE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "prestige": {
+    "name": "Prestige",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "fortress": {
+    "name": "Fortress",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/1a/Fortress_Esports_allmode.png/42px-Fortress_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "dts": {
+    "name": "DTS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "partizan": {
+    "name": "Partizan",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/08/Partizan_Esports_2024_lightmode.png/43px-Partizan_Esports_2024_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "rnx": {
+    "name": "RNX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "mgn": {
+    "name": "MGN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "inox": {
+    "name": "INOX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/86/INOX_Division_allmode.png/47px-INOX_Division_allmode.png",
+    "source": "Liquipedia"
+  },
+  "rune": {
+    "name": "Rune",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/be/Rune_Eaters_Esports_lightmode.png/39px-Rune_Eaters_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "voca": {
+    "name": "Voca",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/de/Team_Voca_lightmode.png/96px-Team_Voca_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "lag": {
+    "name": "LAG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/17/LAG_Gaming_US_lightmode.png/80px-LAG_Gaming_US_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "mongolz a": {
+    "name": "MongolZ.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/2b/The_MongolZ_2024_03_allmode.png/39px-The_MongolZ_2024_03_allmode.png",
+    "source": "Liquipedia"
+  },
+  "winners": {
+    "name": "WINNERS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "young27": {
+    "name": "Young27",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/b9/Young27_allmode.png/100px-Young27_allmode.png",
+    "source": "Liquipedia"
+  },
+  "phoenix": {
+    "name": "Phoenix",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/02/Black_Phoenix_2026_allmode.png/66px-Black_Phoenix_2026_allmode.png",
+    "source": "Liquipedia"
+  },
+  "drdm": {
+    "name": "DRDM",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "upgrade": {
+    "name": "UPGRADE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/1e/UPGRADE_Team_allmode.png/27px-UPGRADE_Team_allmode.png",
+    "source": "Liquipedia"
+  },
+  "justp": {
+    "name": "JustP",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c7/Just_Players_lightmode.png/43px-Just_Players_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "nordic": {
+    "name": "Nordic",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d0/Nordic_Partners_Gaming_lightmode.png/100px-Nordic_Partners_Gaming_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ttrick": {
+    "name": "TTrick",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/36/Team_Tricksters_allmode.png/48px-Team_Tricksters_allmode.png",
+    "source": "Liquipedia"
+  },
+  "apogee": {
+    "name": "Apogee",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6e/Betclic_Apogee_Esports_lightmode.png/53px-Betclic_Apogee_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "lle": {
+    "name": "LLE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/48/Linx_Legacy_2023_allmode.png/37px-Linx_Legacy_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "entropy": {
+    "name": "Entropy",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/cc/Entropy_Gaming_2020_lightmode.png/100px-Entropy_Gaming_2020_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "wbt ac": {
+    "name": "WBT Ac",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/0d/WBT_allmode.png/52px-WBT_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ic acad": {
+    "name": "IC.Acad",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c6/Inner_Circle_2025_allmode.png/43px-Inner_Circle_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "fire flux": {
+    "name": "Fire Flux",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fd/Fire_Flux_Esports_allmode.png/100px-Fire_Flux_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "forze rld": {
+    "name": "FORZE.Rld",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/05/FORZE_Reload_allmode.png/30px-FORZE_Reload_allmode.png",
+    "source": "Liquipedia"
+  },
+  "mai tai": {
+    "name": "Mai tai",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "saw": {
+    "name": "SAW",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fa/SAW_2021_allmode.png/60px-SAW_2021_allmode.png",
+    "source": "Liquipedia"
+  },
+  "queenconso": {
+    "name": "QueenConso",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "csh prosp": {
+    "name": "CSH.Prosp",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/ac/CYBERSHOKE_Prospects_lightmode.png/44px-CYBERSHOKE_Prospects_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "tdk": {
+    "name": "TDK",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/0c/TDK_allmode.png/49px-TDK_allmode.png",
+    "source": "Liquipedia"
+  },
+  "lavked": {
+    "name": "lavked",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "k28": {
+    "name": "K28",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "tokyosavage": {
+    "name": "TokyoSavage",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7d/TokyoSavage_allmode.png/51px-TokyoSavage_allmode.png",
+    "source": "Liquipedia"
+  },
+  "yawara": {
+    "name": "Yawara",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e9/Yawara_Esports_lightmode.png/100px-Yawara_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "arch": {
+    "name": "Arch",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/eb/Arch_Esports_lightmode.png/62px-Arch_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "lazer": {
+    "name": "Lazer",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5b/Lazer_Cats_allmode.png/40px-Lazer_Cats_allmode.png",
+    "source": "Liquipedia"
+  },
+  "lv": {
+    "name": "LV",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "shishka": {
+    "name": "SHISHKA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "psyface": {
+    "name": "PsyFace",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "brazyluz": {
+    "name": "brazyluz",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a9/Brazylijski_luz_allmode.png/40px-Brazylijski_luz_allmode.png",
+    "source": "Liquipedia"
+  },
+  "oxuji": {
+    "name": "Oxuji",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/90/Oxuji_allmode.png/50px-Oxuji_allmode.png",
+    "source": "Liquipedia"
+  },
+  "marsborne": {
+    "name": "Marsborne",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/1a/Marsborne_logo_allmode.png/42px-Marsborne_logo_allmode.png",
+    "source": "Liquipedia"
+  },
+  "antivalue": {
+    "name": "antivalue",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "revise": {
+    "name": "Revise",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "aristo": {
+    "name": "Aristo",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "x city": {
+    "name": "X-CITY",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/X-CITY_2026_allmode.png/47px-X-CITY_2026_allmode.png",
+    "source": "Liquipedia"
+  },
+  "stellsight": {
+    "name": "StellSight",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/0b/StellSight_eSport_lightmode.png/35px-StellSight_eSport_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "nade": {
+    "name": "Nade",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dhala": {
+    "name": "Dhala",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "sf": {
+    "name": "SF",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "zeste": {
+    "name": "Zeste",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "nio": {
+    "name": "NIO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e9/NIO_Esports_lightmode.png/90px-NIO_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ex rustec": {
+    "name": "ex-RUSTEC",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "atp t": {
+    "name": "atpūt",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/91/Atputies_allmode.png/50px-Atputies_allmode.png",
+    "source": "Liquipedia"
+  },
+  "bebop": {
+    "name": "Bebop",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "am": {
+    "name": "AM",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fd/Achieveminds_allmode.png/26px-Achieveminds_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ex oxuji": {
+    "name": "ex-Oxuji",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "g2 ares": {
+    "name": "G2 Ares",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4b/G2_Esports_2020_lightmode.png/43px-G2_Esports_2020_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "clansbr": {
+    "name": "ClansBR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "galorys": {
+    "name": "Galorys",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/35/Galorys_2023_allmode.png/27px-Galorys_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "war": {
+    "name": "WaR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/78/Without_a_Roof_lightmode.png/97px-Without_a_Roof_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "abt": {
+    "name": "ABT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fd/ABT_Esports_allmode.png/50px-ABT_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "locura": {
+    "name": "Locura",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "alka": {
+    "name": "Alka",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3f/Alka_Esports_allmode.png/41px-Alka_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "isurus": {
+    "name": "Isurus",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/09/Isurus_2025_allmode.png/65px-Isurus_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "citron": {
+    "name": "Citron",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "gr mio": {
+    "name": "Grêmio",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/9c/Gremio_Esports_allmode.png/42px-Gremio_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "sbe": {
+    "name": "SBE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/85/SportsBetExpert_allmode.png/40px-SportsBetExpert_allmode.png",
+    "source": "Liquipedia"
+  },
+  "kogutos": {
+    "name": "kogutos",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a7/Los_kogutos_2026_allmode.png/49px-Los_kogutos_2026_allmode.png",
+    "source": "Liquipedia"
+  },
+  "stormboar": {
+    "name": "Stormboar",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/54/Iowa_Stormboar_allmode.png/47px-Iowa_Stormboar_allmode.png",
+    "source": "Liquipedia"
+  },
+  "htx": {
+    "name": "HTX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "arc": {
+    "name": "ARC",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/b2/ARCRED_CS2_2025_allmode.png/49px-ARCRED_CS2_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "keyd": {
+    "name": "Keyd",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/cf/Keyd_Stars_2022_allmode.png/41px-Keyd_Stars_2022_allmode.png",
+    "source": "Liquipedia"
+  },
+  "nut": {
+    "name": "NuT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/13/NuTorious_lightmode.png/52px-NuTorious_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "eh": {
+    "name": "Eh",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "mibr a": {
+    "name": "MIBR.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fc/MIBR_Academy_lightmode.png/95px-MIBR_Academy_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ursa": {
+    "name": "Ursa",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a7/Ursa_CS_allmode.png/45px-Ursa_CS_allmode.png",
+    "source": "Liquipedia"
+  },
+  "y ninjas": {
+    "name": "Y.Ninjas",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f4/Ninjas_in_Pyjamas_2021_lightmode.png/50px-Ninjas_in_Pyjamas_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "rayray": {
+    "name": "RayRay",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dnk": {
+    "name": "DNK",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d2/DNK_2026_allmode.png/64px-DNK_2026_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ehisto base": {
+    "name": "Ehisto Base",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "villainous": {
+    "name": "Villainous",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6c/Villainous_%28American_organization%29_allmode.png/51px-Villainous_%28American_organization%29_allmode.png",
+    "source": "Liquipedia"
+  },
+  "overtake": {
+    "name": "Overtake",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6c/Overtake_lightmode.png/50px-Overtake_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "endless": {
+    "name": "Endless",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/50/Endless_Journey_allmode.png/73px-Endless_Journey_allmode.png",
+    "source": "Liquipedia"
+  },
+  "farmville": {
+    "name": "FarmVille",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ex mibr a": {
+    "name": "ex-MIBR.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "new legends": {
+    "name": "New Legends",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "wazabi": {
+    "name": "WAZABI",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a2/WAZABI_allmode.png/35px-WAZABI_allmode.png",
+    "source": "Liquipedia"
+  },
+  "permitta": {
+    "name": "Permitta",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3e/Permitta_Esports_lightmode.png/58px-Permitta_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "privateer": {
+    "name": "Privateer",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/cb/Privateer_Gaming_allmode.png/50px-Privateer_Gaming_allmode.png",
+    "source": "Liquipedia"
+  },
+  "vael": {
+    "name": "Vael",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "regain": {
+    "name": "regain",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5e/Regain_2025_lightmode.png/39px-Regain_2025_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "flacons": {
+    "name": "flacons",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "rush": {
+    "name": "RUSH",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f0/Rush_Gaming_BR_allmode.png/44px-Rush_Gaming_BR_allmode.png",
+    "source": "Liquipedia"
+  },
+  "bh": {
+    "name": "BH",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/97/Bounty_Hunters_Esports_lightmode.png/37px-Bounty_Hunters_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "gh": {
+    "name": "GH",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a8/Game_Hunters_allmode.png/55px-Game_Hunters_allmode.png",
+    "source": "Liquipedia"
+  },
+  "vasco": {
+    "name": "Vasco",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fc/Vasco_eSports_allmode.png/34px-Vasco_eSports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "icarus": {
+    "name": "ICARUS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "uno": {
+    "name": "UNO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dinero": {
+    "name": "DINERO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "4m": {
+    "name": "4M",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/15/Four_Magic_allmode.png/50px-Four_Magic_allmode.png",
+    "source": "Liquipedia"
+  },
+  "w pcf": {
+    "name": "W.PCF",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/99/WRAITH_PCIFIC_allmode.png/59px-WRAITH_PCIFIC_allmode.png",
+    "source": "Liquipedia"
+  },
+  "cw": {
+    "name": "CW",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/39/Chinggis_Warriors_allmode.png/50px-Chinggis_Warriors_allmode.png",
+    "source": "Liquipedia"
+  },
+  "vag": {
+    "name": "VAG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/24/Vitalem_Aerem_lightmode.png/76px-Vitalem_Aerem_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "vexar": {
+    "name": "Vexar",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/1e/Team_Vexar_logo_allmode.png/53px-Team_Vexar_logo_allmode.png",
+    "source": "Liquipedia"
+  },
+  "hauhou": {
+    "name": "HauHou",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "xdm": {
+    "name": "XDM",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/26/Team_XDM_2025_lightmode.png/53px-Team_XDM_2025_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "morvax": {
+    "name": "MORVAX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "anger": {
+    "name": "Anger",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ae": {
+    "name": "AE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f2/Alter_Ego_July2021_allmode.png/51px-Alter_Ego_July2021_allmode.png",
+    "source": "Liquipedia"
+  },
+  "dqzs": {
+    "name": "DQZS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f8/DQZS_allmode.png/38px-DQZS_allmode.png",
+    "source": "Liquipedia"
+  },
+  "m4": {
+    "name": "M4",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "vandulken": {
+    "name": "Vandulken",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "orion": {
+    "name": "Orion",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/27/Orion_Wanderers_lightmode.png/44px-Orion_Wanderers_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "hsp": {
+    "name": "HSP",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/67/HyperSpirit_2024_allmode.png/39px-HyperSpirit_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "lfo": {
+    "name": "LFO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "sub d": {
+    "name": "SUB D",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "your end": {
+    "name": "your end",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ni os": {
+    "name": "Niños",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dsmprg": {
+    "name": "Dsmprg",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "staqued": {
+    "name": "StaQued",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/76/StaQued_allmode.png/30px-StaQued_allmode.png",
+    "source": "Liquipedia"
+  },
+  "nas": {
+    "name": "NAS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e3/Nas_Esports_allmode.png/77px-Nas_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "eteprem": {
+    "name": "eteprem",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/Eternal_premium_lightmode.png/88px-Eternal_premium_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "overtime": {
+    "name": "overTIME",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "oasis": {
+    "name": "Oasis",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/b4/Oasis_Gaming_2021_allmode.png/28px-Oasis_Gaming_2021_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ntd": {
+    "name": "NTD",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "megoshort": {
+    "name": "megoshort",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "wopa": {
+    "name": "WOPA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/ce/WOPA_Esport_2026_lightmode.png/50px-WOPA_Esport_2026_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "tcmh": {
+    "name": "TCMH",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "novaq": {
+    "name": "NOVAQ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/02/Team_Novaq_allmode.png/44px-Team_Novaq_allmode.png",
+    "source": "Liquipedia"
+  },
+  "gamepoint": {
+    "name": "GamePoint",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ed/GamePoint_Esports_allmode.png/79px-GamePoint_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "js": {
+    "name": "JS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/ce/Johnny_Speeds_2025_allmode.png/58px-Johnny_Speeds_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "lilmix": {
+    "name": "Lilmix",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ea/Lilmix_lightmode.png/59px-Lilmix_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "esuba": {
+    "name": "eSuba",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/bf/ESuba_2021_lightmode.png/53px-ESuba_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "roams": {
+    "name": "roams",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "rethink": {
+    "name": "ReThink",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/55/ReThink_lightmode.png/66px-ReThink_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "train": {
+    "name": "train",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "venom": {
+    "name": "venom",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4c/Venom_%28swedish_team%29_lightmode.png/43px-Venom_%28swedish_team%29_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "heroic acd": {
+    "name": "HEROIC.Acd",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/0d/HEROIC_2024_allmode.png/57px-HEROIC_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "rustec": {
+    "name": "RUSTEC",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/85/Rustec_allmode.png/50px-Rustec_allmode.png",
+    "source": "Liquipedia"
+  },
+  "elem": {
+    "name": "Elem",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "honv d": {
+    "name": "Honvéd",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/af/Honv%C3%A9d_Esport_allmode.png/43px-Honv%C3%A9d_Esport_allmode.png",
+    "source": "Liquipedia"
+  },
+  "oddik": {
+    "name": "ODDIK",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/03/ODDIK_allmode.png/50px-ODDIK_allmode.png",
+    "source": "Liquipedia"
+  },
+  "borra": {
+    "name": "BORRA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "mixed": {
+    "name": "mixed",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "havu": {
+    "name": "HAVU",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/bb/HAVU_2025_allmode.png/25px-HAVU_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "dirs": {
+    "name": "DIRs",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "vit acad": {
+    "name": "VIT.Acad",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5d/Vitality_Academy_lightmode.png/53px-Vitality_Academy_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ic prosp": {
+    "name": "IC.Prosp",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c6/Inner_Circle_2025_allmode.png/43px-Inner_Circle_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "misa": {
+    "name": "Misa",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d7/Misa_Esports_2023_allmode.png/50px-Misa_Esports_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ex mana": {
+    "name": "ex-MANA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "sinqu": {
+    "name": "SINQU",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e9/SINQU_Esports_allmode.png/51px-SINQU_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "vp p": {
+    "name": "VP.P",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d0/VP.Prodigy_allmode.png/50px-VP.Prodigy_allmode.png",
+    "source": "Liquipedia"
+  },
+  "infur": {
+    "name": "INFUR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/0c/INFURITY_Gaming_2025_lightmode.png/67px-INFURITY_Gaming_2025_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "fkomar": {
+    "name": "FKOMAR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "meia noite": {
+    "name": "MEIA NOITE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ex 1w": {
+    "name": "ex-1w",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "flc force": {
+    "name": "FLC.Force",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/Team_Falcons_2022_allmode.png/41px-Team_Falcons_2022_allmode.png",
+    "source": "Liquipedia"
+  },
+  "fin": {
+    "name": "FIN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/df/FIN_E-SPORT_lightmode.png/54px-FIN_E-SPORT_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ukraine": {
+    "name": "Ukraine",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "b8a": {
+    "name": "B8A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c6/B8_lightmode.png/41px-B8_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "minkens": {
+    "name": "Minkens",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "finish": {
+    "name": "Finish",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/09/Finishers_allmode.png/85px-Finishers_allmode.png",
+    "source": "Liquipedia"
+  },
+  "orgless": {
+    "name": "Orgless",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "devious": {
+    "name": "Devious",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/68/Devious_Esports_2026_lightmode.png/100px-Devious_Esports_2026_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "mos": {
+    "name": "MOS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Morningstar_2026_July_allmode.png/46px-Morningstar_2026_July_allmode.png",
+    "source": "Liquipedia"
+  },
+  "needorc": {
+    "name": "NEEDORC",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "legam": {
+    "name": "LEGAM",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dne ph": {
+    "name": "DNE.Ph",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c4/Dynamo_Eclot_allmode.png/61px-Dynamo_Eclot_allmode.png",
+    "source": "Liquipedia"
+  },
+  "tkx": {
+    "name": "TKX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/9c/The_KnockoutX_allmode.png/50px-The_KnockoutX_allmode.png",
+    "source": "Liquipedia"
+  },
+  "imadei": {
+    "name": "IMADEI",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "kwak": {
+    "name": "Kwak",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c5/Team_Kwak.png/48px-Team_Kwak.png",
+    "source": "Liquipedia"
+  },
+  "donstu": {
+    "name": "DONSTU",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/21/Donstu_Esports_lightmode.png/73px-Donstu_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ryba67": {
+    "name": "ryba67",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "argos": {
+    "name": "ARGOS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "thunder": {
+    "name": "THUNDER",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/05/THUNDERdOWNUNDER_2026_allmode.png/50px-THUNDERdOWNUNDER_2026_allmode.png",
+    "source": "Liquipedia"
+  },
+  "mindfreak": {
+    "name": "Mindfreak",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/10/Mindfreak_allmode.png/37px-Mindfreak_allmode.png",
+    "source": "Liquipedia"
+  },
+  "wingman": {
+    "name": "Wingman",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/2f/Team_Wingman_lightmode.png/50px-Team_Wingman_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dxa": {
+    "name": "DXA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6b/DXA_Esports_Nov_2025_allmode.png/39px-DXA_Esports_Nov_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "zevs": {
+    "name": "ZevS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ns": {
+    "name": "NS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "hotu a": {
+    "name": "HOTU.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/17/HOTU_2022_lightmode.png/50px-HOTU_2022_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "boomerang": {
+    "name": "boomerang",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ecstatic": {
+    "name": "ECSTATIC",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/93/ECSTATIC_2023_allmode.png/50px-ECSTATIC_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "st0ny": {
+    "name": "st0ny",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3b/CSGO_default_lightmode.png/50px-CSGO_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "red a": {
+    "name": "RED.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3b/Red_Canids_allmode.png/57px-Red_Canids_allmode.png",
+    "source": "Liquipedia"
+  },
+  "bth": {
+    "name": "BTH",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/da/BTH_E-Sports_allmode.png/59px-BTH_E-Sports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "quintess": {
+    "name": "QUINTESS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "tsu": {
+    "name": "TSU",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "uwrld": {
+    "name": "Uwrld",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "berg": {
+    "name": "BERG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/94/Esport_BERG_2020_lightmode.png/71px-Esport_BERG_2020_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "saw y": {
+    "name": "SAW Y.",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fa/SAW_2021_allmode.png/60px-SAW_2021_allmode.png",
+    "source": "Liquipedia"
+  },
+  "gp": {
+    "name": "GP",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "mellren": {
+    "name": "mellren",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dm": {
+    "name": "DM",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "gotham": {
+    "name": "Gotham",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "lnxt": {
+    "name": "LNXT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/aa/LeeK_NXT_allmode.png/32px-LeeK_NXT_allmode.png",
+    "source": "Liquipedia"
+  },
+  "gr501": {
+    "name": "GR501",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/b9/Galactik_Rebels_501st_lightmode.png/78px-Galactik_Rebels_501st_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "lafox": {
+    "name": "lafox",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "nv": {
+    "name": "NV",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/04/NEW_VISION_allmode.png/53px-NEW_VISION_allmode.png",
+    "source": "Liquipedia"
+  },
+  "strael": {
+    "name": "Strael",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/46/Strael-Bora_allmode.png/38px-Strael-Bora_allmode.png",
+    "source": "Liquipedia"
+  },
+  "echo u": {
+    "name": "Echo.U",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ahbah": {
+    "name": "AHBAH",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "gbl": {
+    "name": "GBL",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "e9": {
+    "name": "E9",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/47/E9_esports_2023_allmode.png/64px-E9_esports_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "klg": {
+    "name": "KLG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4d/KLG_allmode.png/31px-KLG_allmode.png",
+    "source": "Liquipedia"
+  },
+  "pm": {
+    "name": "PM",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/8c/Pressure_Monsters_2025_September_lightmode.png/66px-Pressure_Monsters_2025_September_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "bp": {
+    "name": "BP",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/64/Boring_Players_2024_lightmode.png/46px-Boring_Players_2024_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "prally": {
+    "name": "PRally",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "insiders": {
+    "name": "Insiders",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/77/Insiders_Esport_lightmode.png/100px-Insiders_Esport_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "truppen": {
+    "name": "TRUPPEN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "legion": {
+    "name": "Legion",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/2e/Legion_Pakistani_2025_allmode.png/47px-Legion_Pakistani_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "zzzz": {
+    "name": "zzzz",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "bg": {
+    "name": "BG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/94/Benched_gods_lightmode.png/74px-Benched_gods_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "restart": {
+    "name": "Restart",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "trainwrecks": {
+    "name": "Trainwrecks",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f9/Trainwrecks_eSports_lightmode.png/36px-Trainwrecks_eSports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "xclan": {
+    "name": "XCLAN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/41/XCLAN_2026_lightmode.png/50px-XCLAN_2026_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "rounds": {
+    "name": "ROUNDS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/27/ROUNDS_2025_lightmode.png/44px-ROUNDS_2025_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "fdb": {
+    "name": "FdB",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "pain a": {
+    "name": "paiN.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/PaiN_Gaming_2017_lightmode.png/75px-PaiN_Gaming_2017_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ex vexa": {
+    "name": "ex-Vexa",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "xi": {
+    "name": "XI",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7a/XI_Esport_2026_lightmode.png/42px-XI_Esport_2026_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "banda": {
+    "name": "banda",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "gatorian": {
+    "name": "Gatorian",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/ac/Gatorian_lightmode.png/46px-Gatorian_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ccoop": {
+    "name": "CCoop",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/ab/Chicken_Coop_Esports_2024_allmode.png/46px-Chicken_Coop_Esports_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "slimyboog": {
+    "name": "SlimyBoog",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dmoon": {
+    "name": "DMoon",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "kuusamo": {
+    "name": "KUUSAMO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e9/KUUSAMO.gg_2026_allmode.png/45px-KUUSAMO.gg_2026_allmode.png",
+    "source": "Liquipedia"
+  },
+  "peak": {
+    "name": "PEAK",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "axial": {
+    "name": "Axial",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "olympus": {
+    "name": "Olympus",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "desi": {
+    "name": "Desi",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "zomblers": {
+    "name": "Zomblers",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f9/Zomblers_allmode.png/51px-Zomblers_allmode.png",
+    "source": "Liquipedia"
+  },
+  "empire": {
+    "name": "EMPIRE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/2d/EMPIRE_%28American_team%29_allmode.png/47px-EMPIRE_%28American_team%29_allmode.png",
+    "source": "Liquipedia"
+  },
+  "incognito": {
+    "name": "Incognito",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "team wh": {
+    "name": "team wh",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ex guar": {
+    "name": "ex-Guará",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "jam": {
+    "name": "JAM",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5c/JAM_allmode.png/50px-JAM_allmode.png",
+    "source": "Liquipedia"
+  },
+  "pure": {
+    "name": "PURE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ea/PURE_allmode.png/63px-PURE_allmode.png",
+    "source": "Liquipedia"
+  },
+  "navi jr": {
+    "name": "NAVI Jr.",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/df/Natus_Vincere_Junior_2021_lightmode.png/49px-Natus_Vincere_Junior_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "faze un": {
+    "name": "FaZe UN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/0b/FazeUpNext_allmode.png/51px-FazeUpNext_allmode.png",
+    "source": "Liquipedia"
+  },
+  "red feet": {
+    "name": "RED FEET",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/74/Red_Feet_2019.png/63px-Red_Feet_2019.png",
+    "source": "Liquipedia"
+  },
+  "blitzkrieg": {
+    "name": "Blitzkrieg",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dice": {
+    "name": "Dice",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "kodex": {
+    "name": "KODEX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/59/Kodex_Esports_lightmode.png/92px-Kodex_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "glitchtech": {
+    "name": "Glitchtech",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/ad/Glitchtech_Esports_allmode.png/54px-Glitchtech_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "revenge": {
+    "name": "Revenge",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "squid": {
+    "name": "Squid",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "oge": {
+    "name": "OGE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/26/OxinGame_lightmode.png/50px-OxinGame_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ego": {
+    "name": "EGO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a4/EGOISTO_Uzbek_team_allmode.png/56px-EGOISTO_Uzbek_team_allmode.png",
+    "source": "Liquipedia"
+  },
+  "homies": {
+    "name": "Homies",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "omen": {
+    "name": "Omen",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6e/Omen_Esports_%28American_organization%29_lightmode.png/45px-Omen_Esports_%28American_organization%29_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "omega": {
+    "name": "OMEGA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5a/OMEGA_team_lightmode.png/45px-OMEGA_team_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "totaldom": {
+    "name": "TotalDom",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "altay": {
+    "name": "Altay",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/30/Altay_Esports_allmode.png/49px-Altay_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "elusive": {
+    "name": "Elusive",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/8c/Elusive_allmode.png/50px-Elusive_allmode.png",
+    "source": "Liquipedia"
+  },
+  "qq": {
+    "name": "QQ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ex sashi a": {
+    "name": "ex-Sashi.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "lph": {
+    "name": "LPH",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/46/LPH_Gaming_allmode.png/38px-LPH_Gaming_allmode.png",
+    "source": "Liquipedia"
+  },
+  "nirun": {
+    "name": "NIRUN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "rebirth": {
+    "name": "Rebirth",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "bmg": {
+    "name": "BMG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "teamg": {
+    "name": "teamG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "lvlone": {
+    "name": "lvlONE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "unit": {
+    "name": "UNIT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3e/The_Unit_allmode.png/50px-The_Unit_allmode.png",
+    "source": "Liquipedia"
+  },
+  "zwaw": {
+    "name": "ZWAW",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3c/ZWAW_lightmode.png/60px-ZWAW_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "medz": {
+    "name": "medz",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "sdf": {
+    "name": "SDF",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "festina": {
+    "name": "Festina",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/af/Festina_Lente_allmode.png/42px-Festina_Lente_allmode.png",
+    "source": "Liquipedia"
+  },
+  "raisedbypixels": {
+    "name": "raisedbypixels",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "f5": {
+    "name": "F5",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f1/F5_Esports_NA_2025_allmode.png/73px-F5_Esports_NA_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "vp f": {
+    "name": "VP.F",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f3/VP.Future_allmode.png/50px-VP.Future_allmode.png",
+    "source": "Liquipedia"
+  },
+  "tsaw": {
+    "name": "TSAW",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/14/Team_Spirit_Academy_2021_lightmode.png/63px-Team_Spirit_Academy_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "aritmije": {
+    "name": "Aritmije",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dugge": {
+    "name": "Dugge",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "req": {
+    "name": "REQ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "grey": {
+    "name": "Grey",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dth": {
+    "name": "DTH",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ttg": {
+    "name": "TTG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "aurora yb": {
+    "name": "Aurora YB",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/48/Aurora_Young_Blud_2025_allmode.png/31px-Aurora_Young_Blud_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "msklan": {
+    "name": "mskLAN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "maybe": {
+    "name": "MAYBE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5c/MAYBE_%28Ukrainian_team%29_allmode.png/49px-MAYBE_%28Ukrainian_team%29_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ex yn": {
+    "name": "ex-YN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "orda": {
+    "name": "ORDA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/59/Team_Orda_allmode.png/42px-Team_Orda_allmode.png",
+    "source": "Liquipedia"
+  },
+  "aimss": {
+    "name": "AimSS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/56/AimAssassins_lightmode.png/50px-AimAssassins_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "wckds1ck": {
+    "name": "Wckds1ck",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "tpe": {
+    "name": "TPE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e8/TrafficPills_Esports_lightmode.png/59px-TrafficPills_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "champ": {
+    "name": "champ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "nemesis a": {
+    "name": "Nemesis.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ed/Team_Nem_lightmode.png/56px-Team_Nem_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "gsport": {
+    "name": "GSport",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/cf/GameSport_lightmode.png/31px-GameSport_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "y tigeres": {
+    "name": "Y.TigeRES",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/b2/Young_TigeRES_allmode.png/61px-Young_TigeRES_allmode.png",
+    "source": "Liquipedia"
+  },
+  "messiah": {
+    "name": "messiah",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "bbobs": {
+    "name": "BBobs",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/72/Basement_Bobs_allmode.png/50px-Basement_Bobs_allmode.png",
+    "source": "Liquipedia"
+  },
+  "nexora": {
+    "name": "NEXORA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/b2/NEXORA_lightmode.png/36px-NEXORA_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "hypewrld": {
+    "name": "hypewrld",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d7/Hypewrld_2025_allmode.png/42px-Hypewrld_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "jumbo": {
+    "name": "JUMBO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/34/JUMBO_TEAM_allmode.png/31px-JUMBO_TEAM_allmode.png",
+    "source": "Liquipedia"
+  },
+  "weclear": {
+    "name": "WeClear",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ea/WeClear_lightmode.png/43px-WeClear_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "aaa": {
+    "name": "aAa",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7a/Against_All_authority_allmode.png/74px-Against_All_authority_allmode.png",
+    "source": "Liquipedia"
+  },
+  "azuolas": {
+    "name": "Azuolas",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "luch": {
+    "name": "Luch",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/b1/Luch_allmode.png/50px-Luch_allmode.png",
+    "source": "Liquipedia"
+  },
+  "sunday": {
+    "name": "sunday",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "mglbros": {
+    "name": "MGLBROS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "bgns": {
+    "name": "BGNS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ymgd": {
+    "name": "YMGD",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c7/Young_Man_Go_Die_allmode.png/100px-Young_Man_Go_Die_allmode.png",
+    "source": "Liquipedia"
+  },
+  "dtn": {
+    "name": "DTN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/32/DETONATE_2024_allmode.png/49px-DETONATE_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "beyond": {
+    "name": "Beyond",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fd/Beyond_Limits_allmode.png/86px-Beyond_Limits_allmode.png",
+    "source": "Liquipedia"
+  },
+  "smokepoint": {
+    "name": "Smokepoint",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "famalic o": {
+    "name": "Famalicão",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/32/Team_FC_Famalicao_allmode.png/52px-Team_FC_Famalicao_allmode.png",
+    "source": "Liquipedia"
+  },
+  "for fun": {
+    "name": "For Fun",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "makeshift": {
+    "name": "makeSHIFT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "quantumx": {
+    "name": "QuantumX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ed/QuantumX_allmode.png/50px-QuantumX_allmode.png",
+    "source": "Liquipedia"
+  },
+  "rooster": {
+    "name": "Rooster",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3d/Rooster_allmode.png/40px-Rooster_allmode.png",
+    "source": "Liquipedia"
+  },
+  "lfo ua": {
+    "name": "LFO.UA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "hikari": {
+    "name": "HIKARI",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fb/HIKARI_CS2_allmode.png/71px-HIKARI_CS2_allmode.png",
+    "source": "Liquipedia"
+  },
+  "wxm": {
+    "name": "WXM",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/b3/Team_Wept_Xyloid_Melancholy_lightmode.png/12px-Team_Wept_Xyloid_Melancholy_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "kreazion": {
+    "name": "Kreazion",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "blblue": {
+    "name": "bLblue",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "sinqu r": {
+    "name": "SINQU.R",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/36/SINQU_Rehti_allmode.png/42px-SINQU_Rehti_allmode.png",
+    "source": "Liquipedia"
+  },
+  "udw": {
+    "name": "UDW",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "illyrians": {
+    "name": "ILLYRIANS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3b/CSGO_default_lightmode.png/50px-CSGO_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "kamui": {
+    "name": "KAMUI",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "wachos": {
+    "name": "wachos",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "pldn": {
+    "name": "Pldn",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "arcade": {
+    "name": "Arcade",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/86/Arcade_Esports_AU_allmode.png/36px-Arcade_Esports_AU_allmode.png",
+    "source": "Liquipedia"
+  },
+  "mason": {
+    "name": "MASON",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/56/MASONIC_2022_lightmode.png/70px-MASONIC_2022_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "abyssal": {
+    "name": "Abyssal",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ed/Team_Abyssal_lightmode.png/53px-Team_Abyssal_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "tw": {
+    "name": "TW",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/77/Time_Waves_lightmode.png/100px-Time_Waves_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "oddik a": {
+    "name": "ODDIK.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/03/ODDIK_allmode.png/50px-ODDIK_allmode.png",
+    "source": "Liquipedia"
+  },
+  "bjng": {
+    "name": "BJNG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/53/BOJONG_allmode.png/62px-BOJONG_allmode.png",
+    "source": "Liquipedia"
+  },
+  "bestia a": {
+    "name": "BESTIA.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/9c/BESTIA_lightmode.png/42px-BESTIA_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "pdaf": {
+    "name": "PdaF",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "doggon": {
+    "name": "doggon",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3b/CSGO_default_lightmode.png/50px-CSGO_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "qdam": {
+    "name": "Qdam",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "artyk": {
+    "name": "Artyk",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ea/Artyk_Gaming_2021_allmode.png/50px-Artyk_Gaming_2021_allmode.png",
+    "source": "Liquipedia"
+  },
+  "mnl": {
+    "name": "MnL",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ding": {
+    "name": "Ding",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "mr": {
+    "name": "MR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png/47px-Counter-Strike_2_default_lightmode.png",
     "source": "Liquipedia"
   }
 };
