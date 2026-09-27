@@ -14,7 +14,6 @@ work/data/
 work/api_tests/
 
 # Prevent new private databases and model artifacts from being committed.
-# Already tracked models/ files need a separate storage migration.
 models/
 *.db
 *.sqlite
@@ -31,6 +30,7 @@ models/
 
 # Keep user-facing reports and project code trackable
 !outputs/
+outputs/browser-check/
 !work/cs2_predictor/
 .vercel
 .env*
