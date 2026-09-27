@@ -104,6 +104,8 @@ try {
   const playerColumns = evaluate("(() => { const list = document.querySelector('#playerGrid'); const detail = document.querySelector('#playerDetail'); return { listHeight: list.clientHeight, detailHeight: detail.clientHeight, listScrollHeight: list.scrollHeight, detailScrollHeight: detail.scrollHeight }; })()");
   assert.ok(Math.abs(playerColumns.listHeight - playerColumns.detailHeight) <= 1, 'Player list and detail must share a desktop viewport');
   assert.ok(playerColumns.listScrollHeight > playerColumns.listHeight, 'The full player list must have its own scroll area');
+  assert.ok(playerColumns.detailScrollHeight > playerColumns.detailHeight, 'Player detail must retain its content in an independent scroll area');
+  assert.ok(evaluate("(() => { const detail = document.querySelector('#playerDetail'); detail.scrollTop = detail.scrollHeight; return detail.scrollTop > 0; })()"), 'Player detail must scroll to its lower content');
   click('#playerGrid [data-player-id]:last-child');
   wait("(() => { const list = document.querySelector('#playerGrid'); const last = list.querySelector('[data-player-id]:last-child'); return list.scrollTop > 0 && last.getBoundingClientRect().bottom <= list.getBoundingClientRect().bottom + 1; })()");
   assert.equal(evaluate("(() => { const list = document.querySelector('#playerGrid'); const last = list.querySelector('[data-player-id]:last-child'); return list.scrollTop > 0 && last.getBoundingClientRect().bottom <= list.getBoundingClientRect().bottom + 1; })()"), true, 'Last player must remain selectable inside the list');
