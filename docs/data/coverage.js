@@ -14870,7 +14870,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-09-27T13:21:28Z",
+  "last_verified_utc": "2026-09-27T13:25:34Z",
   "sources": [
     {
       "name": "HLTV events calendar",

@@ -14871,7 +14871,7 @@
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-09-27T13:21:28Z",
+    "last_verified_utc": "2026-09-27T13:25:34Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -15309,7 +15309,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-27T13:21:49Z",
+  "generated_at_utc": "2026-09-27T13:26:04Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -16863,7 +16863,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-27T13:21:49Z",
+    "generated_at_utc": "2026-09-27T13:26:04Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
