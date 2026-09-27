@@ -179,7 +179,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add docs/data/predictions.json docs/data/predictions.js docs/data/coverage.json docs/data/coverage.js docs/data/players.json docs/data/players.js docs/data/history.json docs/data/live-snapshot.json docs/data/model-registry.json
           git diff --cached --quiet || git commit -m "Refresh verified CS2 results and projections"
-          git pull --rebase
           git push
 
       - name: Stop the ephemeral source worker
