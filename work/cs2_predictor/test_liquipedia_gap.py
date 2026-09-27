@@ -27,6 +27,7 @@ class LiquipediaGapTests(unittest.TestCase):
             self.assertEqual(make_queue(predictions), ["New Team", "Ranked Team"])
             self.assertEqual(json.loads(queue.read_text()), ["New Team", "Ranked Team"])
             self.assertEqual(json.loads(state.read_text())["next_index"], 2)
+            self.assertEqual(json.loads(state.read_text())["cycle"], 1)
             self.assertEqual(result["new_observations"], 1)
             self.assertEqual(fetch.call_args.args[0], ["New Team", "Ranked Team"])
 

@@ -6,7 +6,11 @@ export async function importEvidence(inputPath, { archivePath = "models/liquiped
     throw new Error("Oracle Liquipedia evidence contract is invalid");
   }
   const currentState = JSON.parse(await readFile(statePath, "utf8"));
-  if (Number(data.state.next_index) < Number(currentState.next_index)) throw new Error("Oracle Liquipedia cursor moved backwards");
+  const currentCycle = Number(currentState.cycle ?? 0);
+  const incomingCycle = Number(data.state.cycle ?? 0);
+  const incomingIndex = Number(data.state.next_index);
+  if (![currentCycle, incomingCycle, incomingIndex].every(Number.isSafeInteger) || incomingCycle < 0 || incomingIndex < 0) throw new Error("Oracle Liquipedia cursor is invalid");
+  if (incomingCycle < currentCycle || (incomingCycle === currentCycle && incomingIndex < Number(currentState.next_index))) throw new Error("Oracle Liquipedia cursor moved backwards");
   const rows = new Map();
   for (const line of (await readFile(archivePath, "utf8")).split(/\r?\n/).filter(Boolean)) {
     const row = JSON.parse(line);

@@ -20,4 +20,8 @@ assert.deepEqual(await importEvidence(input, { archivePath, statePath, assetsPat
 assert.equal((await readFile(archivePath, "utf8")).trim().split("\n").length, 1);
 await writeFile(input, JSON.stringify({ ok: true, source: "Liquipedia MediaWiki API", state: { next_index: 5 }, matches: [], assets: {} }));
 await assert.rejects(() => importEvidence(input, { archivePath, statePath, assetsPath, assetsJsPath }), /cursor moved backwards/);
+await writeFile(input, JSON.stringify({ ok: true, source: "Liquipedia MediaWiki API", state: { cycle: 1, next_index: 5 }, matches: [row], assets: {} }));
+assert.equal((await importEvidence(input, { archivePath, statePath, assetsPath, assetsJsPath })).next_index, 5);
+await writeFile(input, JSON.stringify({ ok: true, source: "Liquipedia MediaWiki API", state: { cycle: 0, next_index: 120 }, matches: [], assets: {} }));
+await assert.rejects(() => importEvidence(input, { archivePath, statePath, assetsPath, assetsJsPath }), /cursor moved backwards/);
 console.log("Liquipedia evidence import tests ok");

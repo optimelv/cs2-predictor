@@ -116,6 +116,7 @@ def update_assets(path: Path, js_path: Path, rows: list[dict[str, str]]) -> int:
 def collect_once(queue_path: Path, state_path: Path, archive_path: Path, predictions_path: Path, *, since: str, until: str, batch_size: int = 5, assets_path: Path = DEFAULT_ASSETS, assets_js_path: Path = DEFAULT_ASSETS_JS) -> dict:
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"next_index": 0}
     index = int(state["next_index"])
+    cycle = int(state.get("cycle", 0))
     queue = json.loads(queue_path.read_text(encoding="utf-8")) if queue_path.exists() else []
     if index >= len(queue):
         # A finished queue must not leave the hourly timer doing no work forever.
@@ -124,6 +125,7 @@ def collect_once(queue_path: Path, state_path: Path, archive_path: Path, predict
         queue_path.parent.mkdir(parents=True, exist_ok=True)
         queue_path.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         index = 0
+        cycle += 1
     if not queue:
         return {"complete": True, "teams_covered": 0}
     teams = queue[index:index + batch_size]
@@ -136,8 +138,8 @@ def collect_once(queue_path: Path, state_path: Path, archive_path: Path, predict
         raise RuntimeError("Liquipedia returned no parseable rows; leaving the cursor unchanged")
     added, conflicts = merge_archive(archive_path, rows)
     logos = update_assets(assets_path, assets_js_path, rows)
-    state_path.write_text(json.dumps({"next_index": index + len(teams), "last_success_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "window": [since, until]}, indent=2) + "\n", encoding="utf-8")
-    return {"teams": teams, "rows": len(rows), "new_observations": added, "conflicts": conflicts, "new_logo_candidates": logos, "next_index": index + len(teams), "total_teams": len(queue)}
+    state_path.write_text(json.dumps({"cycle": cycle, "next_index": index + len(teams), "last_success_utc": datetime.now(timezone.utc).isoformat(timespec="seconds"), "window": [since, until]}, indent=2) + "\n", encoding="utf-8")
+    return {"teams": teams, "rows": len(rows), "new_observations": added, "conflicts": conflicts, "new_logo_candidates": logos, "cycle": cycle, "next_index": index + len(teams), "total_teams": len(queue)}
 
 
 def main() -> None:
