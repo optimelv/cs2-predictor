@@ -1,6 +1,6 @@
 import { eventIsProductEligible, normalizeEvent, normalizeMatch, normalizePlatformSnapshot, productTierForEvent } from "./lib/snapshot.js?v=20260726.1";
 import { buildDoubleEliminationTree } from "./lib/brackets.js?v=20260726.1";
-import { snapshotFreshness, snapshotTimestamp, canApplySnapshot, pickEligibility } from "./lib/freshness.js?v=20260916.1";
+import { snapshotFreshness, snapshotTimestamp, canApplySnapshot, pickEligibility } from "./lib/freshness.js?v=20260927.1";
 import { installDialogFocus } from "./lib/dialog-focus.js?v=20260916.1";
 import { installInputMode, motionDuration, confirmVetoStep } from "./lib/motion.js?v=20260916.1";
 import { tournamentBlueprint, tournamentPlayoffField, tournamentStageLabels } from "./lib/tournaments.js?v=20260728.1";
@@ -741,13 +741,26 @@ function projectedMapRead(match) {
   };
 }
 
-function matchExplanationHtml(read) {
-  const driverHtml = (row, kind) => `<article class="is-${kind}" style="--driver-strength:${Math.max(12, Math.round(Math.abs(row.directional_score) * 100))}%"><span>${kind === "support" ? "Supports" : "Pushes back"}</span><strong>${escapeHtml(row.label)}</strong><small>${escapeHtml(row.detail)}</small><i><b></b></i></article>`;
-  const supportRows = read.supports.slice(0, 2);
+function matchExplanationHtml(read, call, team1, team2, coverage) {
+  const known = (team, key) => team.hasState && team[key] != null && Number.isFinite(Number(team[key]));
+  const value = (team, key, format) => known(team, key) ? format(Number(team[key])) : "Unavailable";
+  const formValue = (team) => known(team, "recent_win_rate_10") ? `${(Number(team.recent_win_rate_10) * 100).toFixed(1)} / 100` : "Unavailable";
+  const bothRatings = known(team1, "elo") && known(team2, "elo");
+  const bothForm = known(team1, "recent_win_rate_10") && known(team2, "recent_win_rate_10");
+  const formGap = bothForm ? Number(team1.recent_win_rate_10) - Number(team2.recent_win_rate_10) : 0;
+  const ratingGap = bothRatings ? Number(team1.elo) - Number(team2.elo) : 0;
+  const leader = (gap) => gap >= 0 ? call.team1_name : call.team2_name;
+  const evidence = [
+    { label: "Team strength", values: [value(team1, "elo", Math.round), value(team2, "elo", Math.round)], detail: bothRatings ? `${Math.abs(Math.round(ratingGap))} Elo point${Math.abs(Math.round(ratingGap)) === 1 ? "" : "s"} separate the teams${Math.abs(ratingGap) < 15 ? "; little rating separation." : `, in ${leader(ratingGap)}'s favor.`}` : "A comparable Elo rating is missing for one or both teams." },
+    { label: "Recent form", values: [formValue(team1), formValue(team2)], detail: bothForm ? `${Math.abs(formGap) < 0.01 ? "Similar form indicators." : `${leader(formGap)} has the stronger form indicator.`} Smoothed model indicator, not an observed win percentage.` : "Recent form cannot be compared without history for both teams." },
+    { label: "World ranking", values: [team1.vrs_rank ? `#${team1.vrs_rank}` : "Not listed", team2.vrs_rank ? `#${team2.vrs_rank}` : "Not listed"], detail: "VRS position in the loaded snapshot. A lower number is a higher rank." },
+  ];
+  const headline = coverage === "limited" ? "Not enough history for a useful comparison" : read.confidence < 0.56 ? "Little separates these teams" : `${read.favorite} has the model edge`;
+  const meaning = coverage === "limited" ? "Neither team has model history. No win probability is shown." : coverage === "partial" ? "Only one team has model history. Treat this estimate cautiously; the missing side uses a baseline." : `${read.favorite} is estimated at ${formatPercent(read.confidence)}. That still leaves ${formatPercent(1 - read.confidence)} for ${read.underdog}.`;
   return `<section class="match-explanation">
-    <header><div><strong>Model favors ${escapeHtml(read.favorite)}</strong></div></header>
-    <div class="match-driver-grid">${supportRows.map((row) => driverHtml(row, "support")).join("")}${read.counter ? driverHtml(read.counter, "counter") : ""}</div>
-    <aside class="match-risk is-${escapeHtml(read.risk.severity)}"><span>Watch</span><strong>${escapeHtml(read.risk.label)}</strong><small>${escapeHtml(read.risk.detail)}</small></aside>
+    <header><strong>${escapeHtml(headline)}</strong><p>${escapeHtml(meaning)}</p></header>
+    <div class="match-evidence-table"><div class="match-evidence-columns"><span>Evidence</span><strong>${escapeHtml(call.team1_name)}</strong><strong>${escapeHtml(call.team2_name)}</strong></div>${evidence.map((row) => `<article><span>${row.label}</span><strong>${escapeHtml(row.values[0])}</strong><strong>${escapeHtml(row.values[1])}</strong><p>${escapeHtml(row.detail)}</p></article>`).join("")}</div>
+    <aside class="match-risk"><span>Keep in mind</span><strong>${escapeHtml(read.risk.label === "Balanced evidence" ? "No forecast is certain" : read.risk.label)}</strong><small>${escapeHtml(read.risk.label === "Balanced evidence" ? "These comparisons describe team history; they do not explain an exact share of the model probability." : read.risk.label === "Thin edge" ? "The estimate is close to 50–50; it does not identify a strong favorite." : read.risk.label === "Lineup gap" ? "The loaded player data does not contain a complete lineup for both teams." : read.risk.detail)}</small></aside>
   </section>`;
 }
 
@@ -789,10 +802,10 @@ function matchInsightHtml(match) {
   const mapRead = projectedMapRead(call);
   const coverage = matchCoverage(call);
   const pool = resolveMapPool(eventForMatch(call)?.map_pool, appData?.model_state?.map_pool);
-  const rankScore1 = Number(team1.vrs_points) || Number(team1.elo) || 1500;
-  const rankScore2 = Number(team2.vrs_points) || Number(team2.elo) || 1500;
-  const form1 = Number(team1.recent_win_rate_10) || 0.5;
-  const form2 = Number(team2.recent_win_rate_10) || 0.5;
+  const rankScore1 = Number(team1.elo) || 1500;
+  const rankScore2 = Number(team2.elo) || 1500;
+  const form1 = Number(team1.recent_win_rate_10 ?? 0.5);
+  const form2 = Number(team2.recent_win_rate_10 ?? 0.5);
   const depth1 = mapDepth(call.team1_name, pool);
   const depth2 = mapDepth(call.team2_name, pool);
   const lineup1 = call.lineups?.team1?.length ? call.lineups.team1 : playersForTeam(call.team1_name);
@@ -839,26 +852,28 @@ function matchInsightHtml(match) {
       <div class="insight-status"><span class="status-token is-${matchStatusGroup(call)}">${snapshotFreshness(snapshotTimestamp(appData)).fresh ? "" : "Recorded · "}${escapeHtml(matchStatusGroup(call))}</span><div class="insight-tools"><span>${escapeHtml(call.series_format?.toUpperCase() || "BO3")} · ${escapeHtml(resultLabel)}</span>${shareControl}</div></div>
       <div class="insight-event">${escapeHtml(call.event_name || "Event unavailable")}<span>${escapeHtml(formatDate(call.starts_at))}</span></div>
       <div class="insight-matchup">
-        <button type="button" data-open-team="${escapeHtml(call.team1_name)}" aria-label="Open ${escapeHtml(call.team1_name)} team profile">${teamLogoHtml(call.team1_name)}<strong>${escapeHtml(call.team1_name)}</strong><small>${team1.vrs_rank ? `#${team1.vrs_rank} world ranking` : "Team profile"}</small></button>
+        <button type="button" data-open-team="${escapeHtml(call.team1_name)}" aria-label="Open ${escapeHtml(call.team1_name)} team profile">${teamLogoHtml(call.team1_name)}<strong>${escapeHtml(call.team1_name)}</strong><small>${team1.vrs_rank ? `#${team1.vrs_rank} world ranking · Profile ↗` : "Team profile ↗"}</small></button>
         <span class="match-versus">${matchStatusGroup(call) === "results" && call.score1 != null && call.score2 != null && Number(call.score1) + Number(call.score2) > 0 ? `${escapeHtml(call.score1)} : ${escapeHtml(call.score2)}` : "VS"}<small>${escapeHtml(call.series_format?.toUpperCase() || "BO3")}</small></span>
-        <button type="button" data-open-team="${escapeHtml(call.team2_name)}" aria-label="Open ${escapeHtml(call.team2_name)} team profile">${teamLogoHtml(call.team2_name)}<strong>${escapeHtml(call.team2_name)}</strong><small>${team2.vrs_rank ? `#${team2.vrs_rank} world ranking` : "Team profile"}</small></button>
+        <button type="button" data-open-team="${escapeHtml(call.team2_name)}" aria-label="Open ${escapeHtml(call.team2_name)} team profile">${teamLogoHtml(call.team2_name)}<strong>${escapeHtml(call.team2_name)}</strong><small>${team2.vrs_rank ? `#${team2.vrs_rank} world ranking · Profile ↗` : "Team profile ↗"}</small></button>
       </div>
       <div class="model-comparison"><div><span>${escapeHtml(call.team1_name)} <b>${coverage === "limited" ? "—" : formatPercent(probability)}</b></span><small>${coverage === "partial" ? "Limited-data estimate" : "Model win probability"}</small><span><b>${coverage === "limited" ? "—" : formatPercent(1 - probability)}</b> ${escapeHtml(call.team2_name)}</span></div><i aria-hidden="true"><b style="width:${coverage === "limited" ? 50 : Math.round(probability * 100)}%"></b></i></div>
-      <div class="pick-console is-${escapeHtml(savedState)} ${savedPick && unchanged ? "is-saved" : ""}">
+      ${matchStatusGroup(call) === "results" ? '<p class="match-estimate-note">Completed series · Probabilities use the loaded model snapshot and are not a verified pre-match forecast.</p>' : ""}
+      ${!eligibility.allowed && !savedPick ? `<div class="match-picks-closed"><strong>Picks closed</strong><span>${escapeHtml(eligibility.reason)}</span></div>` : `<div class="pick-console is-${escapeHtml(savedState)} ${savedPick && unchanged ? "is-saved" : ""}">
         <div><span>Your pick</span><strong>${savedPick && unchanged ? `✓ ${escapeHtml(savedPick.team_name)} saved` : "Who takes the series?"}</strong></div>
         <section>
           ${[call.team1_name, call.team2_name].map((name) => `<button type="button"${disabledPick} aria-pressed="${draft === name}" class="pick-side ${draft === name ? "is-active" : ""}" data-draft-match-pick="${escapeHtml(name)}">${teamLogoHtml(name)}<span>${escapeHtml(name)}</span><i aria-hidden="true">${draft === name ? "✓" : "+"}</i></button>`).join("")}
         </section>
         <div class="pick-save-row"><small role="status">${savedPick ? savedState === "won" ? "Correct call" : savedState === "lost" ? "Missed call" : `Saved on this device · ${formatDate(savedPick.saved_at)}` : escapeHtml(eligibility.reason)}</small><button class="save-pick" type="button" data-save-match-pick="${escapeHtml(draft)}" ${!eligibility.allowed || !draft || unchanged ? "disabled" : ""}>${savedPick && unchanged ? "✓ Saved" : "Save pick"}</button>${savedPick ? `<button type="button" class="pick-remove" data-remove-match-pick aria-label="Remove saved pick">Remove</button>` : ""}</div>
         ${savedPick && !eligibility.allowed ? `<small>${escapeHtml(eligibility.reason)}</small>` : ""}
-      </div>
+      </div>`}
     </article>
     <aside class="match-insight" aria-label="Match insights">
       <header class="insight-heading"><h2>Match analysis</h2></header>
-      ${matchExplanationHtml(explanation)}
+      ${matchExplanationHtml(explanation, call, team1, team2, coverage)}
       <div class="veto-console">
         <div class="veto-console-head"><span>The maps</span><strong>${mapRead ? (mapRead.status === "known_veto" ? "Published veto" : "Projected veto") : "Map veto"}</strong></div>
-        ${mapRead ? `<div class="veto-map-strip">${mapRead.maps.map((map) => `<article><span>${escapeHtml(map.map_name)}</span><strong>${escapeHtml(map.predicted_winner)}</strong><b>${formatPercent(map.confidence)}</b></article>`).join("")}</div>` : `<p class="veto-invitation">No map history available for this matchup. You can still simulate the bans and picks.</p>`}
+        ${mapRead ? `<div class="veto-map-strip">${mapRead.maps.map((map) => `<article><span>${escapeHtml(map.map_name)}</span><strong>${escapeHtml(map.predicted_winner)}</strong><b>${formatPercent(map.confidence)}</b><small>${Number(map.evidence_maps) || 0} maps in history</small></article>`).join("")}</div>` : `<p class="veto-invitation">No map history available for this matchup. You can still simulate the bans and picks.</p>`}
+        ${mapRead ? `<p class="match-map-note">${mapRead.status === "known_veto" ? "Published map selection." : "An estimated map selection, not a confirmed veto."} Percentages are per-map model estimates.</p>` : ""}
         <button class="open-veto-lab" type="button" ${pool.length < 7 ? "disabled" : ""} data-open-veto="${escapeHtml(matchKeyOf(call))}"><span>${pool.length < 7 ? "Veto unavailable" : "Simulate veto"}</span><b>${pool.length < 7 ? "A seven-map pool is required" : "Ban, pick and compare maps"}</b><i aria-hidden="true">↗</i></button>
       </div>
       <details class="match-lineup-details"><summary>Lineups & team form <span aria-hidden="true">+</span></summary><div class="series-lineups">${lineupHtml(lineup1, call.team1_name)}${lineupHtml(lineup2, call.team2_name)}</div>${matchRosterPanelHtml(call, lineup1, lineup2)}<div class="match-team-follows">${watchButtonHtml("teams", normalizeName(call.team1_name), call.team1_name)}${watchButtonHtml("teams", normalizeName(call.team2_name), call.team2_name)}</div></details>
@@ -887,7 +902,7 @@ function matchRowHtml(match, rowIndex = 0) {
         <span><strong>${escapeHtml(call.team2_name)}</strong>${teamLogoHtml(call.team2_name)}</span>
       </span>
       <span class="match-row-call"><small>${pick ? `your pick · ${pickState}` : coverage === "full" ? "model pick" : coverage === "partial" ? "low data" : "rating pending"}</small><strong>${pick ? escapeHtml(pick.team_name) : coverage === "limited" ? "Pending" : `${escapeHtml(call.predicted_winner)} · ${formatPercent(matchConfidence(call))}`}</strong></span>
-      <span class="match-open" aria-hidden="true">${isSelected ? "Selected" : "View"}</span>
+      <span class="match-open" aria-hidden="true">${isSelected ? "Viewing" : "Analysis ↗"}</span>
     </button>
   `;
 }
@@ -928,6 +943,16 @@ function renderMatchToolbar(matches) {
   });
 }
 
+function revealSelectedMatch() {
+  const rowList = els.deciderGrid?.querySelector(".match-row-list");
+  const selectedRow = rowList?.querySelector(".match-row.is-selected");
+  if (!rowList?.clientHeight || !selectedRow) return;
+  const rowBounds = selectedRow.getBoundingClientRect();
+  const listBounds = rowList.getBoundingClientRect();
+  if (matchMedia("(max-width: 800px)").matches) rowList.scrollLeft += rowBounds.left - listBounds.left;
+  else rowList.scrollTop += rowBounds.top - listBounds.top;
+}
+
 function renderDeciders(matches) {
   const focused = document.activeElement;
   const focusSelector = focused?.dataset?.matchDay ? `[data-match-day="${CSS.escape(focused.dataset.matchDay)}"]`
@@ -958,15 +983,22 @@ function renderDeciders(matches) {
     restoreFocus();
     return;
   }
-  if (!selectedMatchKey || !visible.some((match) => matchKeyOf(match) === selectedMatchKey)) selectedMatchKey = matchKeyOf(visible[0]);
+  if (!selectedMatchKey || !visible.some((match) => matchKeyOf(match) === selectedMatchKey)) {
+    const nextSeries = visible.filter((match) => matchStatusGroup(match) === "upcoming" && Date.parse(match.starts_at) > Date.now())
+      .sort((left, right) => Date.parse(left.starts_at) - Date.parse(right.starts_at))[0];
+    const latestResult = visible.filter((match) => matchStatusGroup(match) === "results")
+      .sort((left, right) => Date.parse(right.starts_at) - Date.parse(left.starts_at))[0];
+    selectedMatchKey = matchKeyOf(nextSeries || visible.find((match) => matchStatusGroup(match) === "live") || latestResult || visible[0]);
+  }
   const selected = visible.find((match) => matchKeyOf(match) === selectedMatchKey) || visible[0];
   els.deciderGrid.innerHTML = `
-    ${matchInsightHtml(selected)}
+    <div class="match-detail-pane">${matchInsightHtml(selected)}</div>
     <div class="match-list-pane">
       <header><span>${visible.length} ${currentMatchFilter === "picks" ? "saved picks" : "series"}</span><strong>${currentMatchFilter === "picks" ? "Your saved picks" : escapeHtml(new Intl.DateTimeFormat("en-US", { weekday: "long", month: "long", day: "numeric" }).format(dateFromKey(targetDate)))}</strong></header>
       <div class="match-row-list">${visible.map(matchRowHtml).join("")}</div>
     </div>
   `;
+  revealSelectedMatch();
   els.deciderGrid.querySelectorAll("[data-match-key]").forEach((button) => button.addEventListener("click", () => {
     selectedMatchKey = button.dataset.matchKey;
     updateProductUrl({ matchKey: selectedMatchKey, eventId: "", view: "", playerId: "", teamName: "", hash: "matches" });
@@ -3621,7 +3653,7 @@ function teamProfileHtml(teamName) {
   return `
     <section class="team-profile-hero">
       ${teamLogoHtml(teamName)}
-      <div><span>${model.vrs_rank ? `#${model.vrs_rank} Valve world ranking` : "Team profile"}</span><h2 id="teamDrawerTitle">${escapeHtml(teamName)}</h2><p>${Number(model.matches) || 0} model-state matches</p>${watchButtonHtml("teams", normalizeName(teamName), teamName, "profile-follow")}</div>
+      <div><span>${model.vrs_rank ? `#${model.vrs_rank} Valve world ranking · Profile ↗` : "Team profile ↗"}</span><h2 id="teamDrawerTitle">${escapeHtml(teamName)}</h2><p>${Number(model.matches) || 0} model-state matches</p>${watchButtonHtml("teams", normalizeName(teamName), teamName, "profile-follow")}</div>
     </section>
     <section class="team-profile-metrics">
       <div><span>VRS points</span><strong>${Number(model.vrs_points) || "--"}</strong></div>
@@ -3936,15 +3968,14 @@ function updateSummary(data) {
   const verifiedAt = snapshotTimestamp(data);
   const freshness = snapshotFreshness(verifiedAt);
   const isFresh = freshness.fresh;
-  const sourceDate = freshness.timestamp ? new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" }).format(new Date(verifiedAt)) + " UTC" : "Unverified source time";
   const sourceTitleDate = freshness.timestamp ? new Intl.DateTimeFormat("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" }).format(new Date(verifiedAt)) : "";
   const sourceTitleTime = freshness.timestamp ? new Intl.DateTimeFormat("en-GB", { hour: "2-digit", minute: "2-digit", timeZone: "UTC" }).format(new Date(verifiedAt)) : "";
   const sourceStatus = document.querySelector("#sourceStatus");
   if (sourceStatus) sourceStatus.dataset.state = freshness.state;
-  setText(document.querySelector("#sourceStatusTitle"), isFresh ? `Snapshot checked ${sourceTitleDate}, ${sourceTitleTime} UTC` : freshness.state === "stale" ? `Historical snapshot · ${sourceTitleDate}` : "Source freshness is unverified");
-  setText(document.querySelector("#sourceStatusDetail"), `${sourceDate}. ${isFresh ? "Match states reflect this check; updates are not continuous." : "Schedules and match states may have changed. New match picks are paused."}`);
-  setText(document.querySelector("#matchDataNote"), isFresh ? `Source checked ${sourceDate}. Match times use your local timezone.` : `As recorded ${sourceDate}. This is a historical slate, not today's schedule. Match times use your local timezone.`);
-  setText(document.querySelector("#footerDataStatus"), isFresh ? "Recent snapshot loaded" : "Historical data · see source status");
+  setText(document.querySelector("#sourceStatusTitle"), isFresh ? `Data checked ${sourceTitleDate}, ${sourceTitleTime} UTC` : freshness.state === "stale" ? `Historical data · ${sourceTitleDate}` : "Data check unavailable");
+  setText(document.querySelector("#sourceStatusDetail"), isFresh ? "Match data can change between checks." : "Schedules and match states may have changed. New match picks are paused.");
+  setText(document.querySelector("#matchDataNote"), isFresh ? "Match times use your local timezone." : "This is a historical match list. Times use your local timezone.");
+  setText(document.querySelector("#footerDataStatus"), isFresh ? "Data checked recently" : "Historical data · see details above");
   const calls = dailyMatchCalls();
   const todayKey = localDateKey(new Date());
   const currentCalls = calls.filter((match) => localDateKey(match.starts_at) >= todayKey);
@@ -3986,6 +4017,7 @@ function updateSummary(data) {
 
 function installViewportSignals() {
   productNavigation = installProductNavigation({ onShow: (page) => {
+    if (page === "matches") requestAnimationFrame(revealSelectedMatch);
     if (page === "picks") {
       renderMyDesk();
       if (unreadSignalCount(signalState)) {
@@ -4371,7 +4403,7 @@ async function boot() {
   } catch (error) {
     document.body.classList.add("data-error");
     setText(els.freshnessLabel, "Projection failed to load");
-    setText(document.querySelector("#sourceStatusTitle"), "Snapshot could not be loaded");
+    setText(document.querySelector("#sourceStatusTitle"), "Match data could not be loaded");
     setText(document.querySelector("#sourceStatusDetail"), "Check your connection, then reload the page to try again.");
     const retry = document.querySelector("#refreshSource");
     if (retry) { retry.disabled = false; retry.textContent = "Reload page"; }
@@ -4735,7 +4767,7 @@ document.querySelector("#refreshSource")?.addEventListener("click", async (event
   renderDeciders(dailyMatchCalls());
   button.disabled = false;
   button.textContent = "Check for updates";
-  setText(document.querySelector("#sourceRefreshResult"), result.applied ? "Published snapshot checked." : result.failed || !result.supported ? "Update service unavailable. The saved snapshot is still available." : "No newer verified snapshot is available.");
+  setText(document.querySelector("#sourceRefreshResult"), result.applied ? "Match data checked." : result.failed || !result.supported ? "Update service unavailable. Saved match data is still available." : "No newer match data is available.");
 });
 
 document.querySelector("#home")?.addEventListener("click", (event) => {

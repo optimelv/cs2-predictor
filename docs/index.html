@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="./styles.css?v=20260916.1">
     <link rel="stylesheet" href="./product.css?v=20260916.1">
     <link rel="stylesheet" href="./workspace.css?v=20260916.2">
-    <link rel="stylesheet" href="./consumer.css?v=20260927.7">
+    <link rel="stylesheet" href="./consumer.css?v=20260927.8">
     <link rel="stylesheet" href="./chart-interactions.css?v=20260920.1">
   </head>
   <body>
@@ -61,15 +61,14 @@
       <button id="mobileMyDesk" data-page-link="picks" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18l-7-4-7 4zM9 9l2 2 4-4"/></svg>My picks</button>
     </nav>
     <main id="top">
-      <section id="sourceStatus" class="source-status" data-state="unknown" aria-label="Data source status">
-        <details><summary><strong id="sourceStatusTitle">Checking the published snapshot</strong><span>Details & refresh</span></summary>
-          <div class="source-status-expanded"><div><p id="sourceStatusDetail">Source timestamps determine whether match data is current.</p><p id="matchDataNote" class="match-data-note"></p><p id="sourceRefreshResult" role="status"></p></div><button id="refreshSource" type="button">Check for updates</button></div>
+      <section id="sourceStatus" class="source-status" data-state="unknown" aria-label="Match data status">
+        <details><summary><strong id="sourceStatusTitle">Checking match data</strong><span>Details</span></summary>
+          <div class="source-status-expanded"><div><p id="sourceStatusDetail">Checking when the match data was last verified.</p><p id="matchDataNote" class="match-data-note"></p><p id="sourceRefreshResult" role="status"></p></div><button id="refreshSource" type="button">Check for updates</button></div>
         </details>
       </section>
       <section id="home" data-product-page="home" class="home-shell" aria-labelledby="home-title">
         <div class="home-hero">
           <div class="home-intro">
-            <span class="home-kicker"><i aria-hidden="true"></i> CS2 match analysis</span>
             <h1 id="home-title">Before the<br><em>first round.</em></h1>
             <p>Match forecasts, team form and map context for upcoming CS2 series. Open a match to see the evidence behind the prediction.</p>
             <div class="home-actions"><a class="home-primary" href="#matches">Explore matches <span aria-hidden="true">↗</span></a><a class="home-secondary" href="#events">Browse events <span aria-hidden="true">↗</span></a></div>
@@ -296,6 +295,6 @@
     <script src="./data/coverage.js?v=20260726.1"></script>
     <script src="./data/team-assets.js?v=20260927.2"></script>
     <script src="./data/players.js?v=20260727.1"></script>
-    <script src="./app.js?v=20260927.5" type="module"></script>
+    <script src="./app.js?v=20260927.6" type="module"></script>
   </body>
 </html>

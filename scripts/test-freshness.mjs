@@ -14,5 +14,7 @@ const fresh = snapshotFreshness(at(0), now);
 const match = { status: 'upcoming', starts_at: at(3600000), prob_team1: 0.6 };
 assert.equal(pickEligibility(match, fresh, now).allowed, true);
 for (const change of [{ status: 'finished' }, { status: 'live' }, { starts_at: at(0) }, { starts_at: null }, { prob_team1: null }, { prob_team1: NaN }, { prob_team1: 1 }, { model_coverage: 'limited' }]) assert.equal(pickEligibility({ ...match, ...change }, fresh, now).allowed, false);
+assert.equal(pickEligibility({ ...match, starts_at: at(0) }, fresh, now).reason, 'Picks close when the series starts.');
+assert.equal(pickEligibility({ ...match, starts_at: null }, fresh, now).reason, 'A verified start time is required.');
 assert.equal(pickEligibility(match, snapshotFreshness(at(-86400000), now), now).allowed, false);
 console.log('Freshness, monotonic snapshot and pick eligibility tests passed');

@@ -19,10 +19,11 @@ export function canApplySnapshot(incomingTime, currentTime, now = Date.now()) {
 }
 
 export function pickEligibility(match, freshness, now = Date.now()) {
-  if (!freshness.fresh) return { allowed: false, reason: 'Picks are paused until the source is current.' };
+  if (!freshness.fresh) return { allowed: false, reason: 'Picks are paused until match data is current.' };
   if (!/^(upcoming|scheduled|pending)$/i.test(String(match?.status || 'upcoming'))) return { allowed: false, reason: 'Picks close when the series starts.' };
   const startsAt = Date.parse(match?.starts_at);
-  if (!Number.isFinite(startsAt) || startsAt <= now) return { allowed: false, reason: 'A verified future start time is required.' };
+  if (!Number.isFinite(startsAt)) return { allowed: false, reason: 'A verified start time is required.' };
+  if (startsAt <= now) return { allowed: false, reason: 'Picks close when the series starts.' };
   const probability = match?.prob_team1;
   if (probability == null || !Number.isFinite(Number(probability)) || Number(probability) <= 0 || Number(probability) >= 1 || match?.model_coverage === 'limited') return { allowed: false, reason: 'A verified forecast is required to save a pick.' };
   return { allowed: true, reason: 'Stored on this device. Picks lock at match start.' };

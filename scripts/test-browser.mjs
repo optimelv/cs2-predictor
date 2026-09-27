@@ -51,7 +51,7 @@ try {
   console.log('PASS: native dark/light/system modes, persistence, OS change and local Sora font');
   const sourceState = evaluate("document.querySelector('#sourceStatus').dataset.state");
   assert.ok(['fresh', 'stale'].includes(sourceState), 'The bundled snapshot needs a valid source timestamp');
-  assert.match(evaluate("document.querySelector('#sourceStatusTitle').textContent"), sourceState === 'stale' ? /Historical snapshot.*2026/ : /Snapshot checked.*2026/, 'Source strip must show a dated state without opening details');
+  assert.match(evaluate("document.querySelector('#sourceStatusTitle').textContent"), sourceState === 'stale' ? /Historical data.*2026/ : /Data checked.*2026/, 'Source strip must show a dated state without opening details');
   if (sourceState === 'stale') assert.equal(evaluate("[...document.querySelectorAll('[data-save-match-pick]')].every(button => button.disabled)"), true);
   assert.equal(evaluate("document.body.dataset.productPage"), 'home', 'The root URL must open the home page');
   assert.equal(evaluate("document.querySelector('#homeFeatured').textContent.trim().length > 0"), true, 'Home must render a real-data or explicit empty state');
@@ -59,6 +59,7 @@ try {
   screenshot('home');
   click('.home-primary');
   assert.equal(evaluate("document.body.dataset.productPage"), 'matches', 'Home CTA must open the match desk');
+  wait("(() => { const list = document.querySelector('#deciderGrid .match-row-list'); const row = list?.querySelector('.match-row.is-selected'); if (!row) return false; const outer = list.getBoundingClientRect(); const inner = row.getBoundingClientRect(); return inner.top >= outer.top - 2 && inner.top < outer.bottom; })()");
   click('.brand');
   if (evaluate("!!document.querySelector('#homeMatchList [data-home-match]')")) {
     click('#homeMatchList [data-home-match]');
@@ -69,6 +70,8 @@ try {
   const matchLayout = evaluate("(() => { const list = document.querySelector('#deciderGrid .match-row-list'); const insight = document.querySelector('#deciderGrid .match-insight'); const last = insight.lastElementChild; return { listHeight: list.clientHeight, listScrollHeight: list.scrollHeight, insightGap: Math.round(insight.getBoundingClientRect().bottom - last.getBoundingClientRect().bottom) }; })()");
   assert.ok(matchLayout.listScrollHeight > matchLayout.listHeight, 'A long match list must scroll inside its desktop pane');
   assert.ok(matchLayout.insightGap < 40, 'Match analysis must not stretch below its content');
+  assert.equal(evaluate("!!document.querySelector('#deciderGrid .match-detail-pane .match-evidence-table')"), true, 'Match analysis needs named, contextual evidence');
+  assert.equal(evaluate("document.querySelector('#deciderGrid .match-explanation').textContent.includes('not an observed win percentage')"), true, 'Model form must not masquerade as an observed win rate');
   click('#openMyDesk');
   assert.equal(evaluate("document.querySelector('#myDeskContent').textContent.includes('No saved picks yet.')"), true, 'Empty My picks needs a clear action');
   assert.equal(evaluate("document.querySelector('#myDeskContent .my-desk-grid') === null"), true, 'Empty My picks must not render a wall of empty panels');
