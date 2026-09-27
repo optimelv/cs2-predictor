@@ -31,6 +31,7 @@ jobs:
         run: |
           worker_url=$(node -e "import('./config/oracle-worker.js').then(({ORACLE_WORKER_URL}) => process.stdout.write(ORACLE_WORKER_URL || ''))")
           curl --fail --silent --show-error --connect-timeout 10 --max-time 45 \
+            --retry 3 --retry-delay 5 --retry-max-time 180 \
             --header "Authorization: Bearer $ORACLE_ARCHIVE_TOKEN" \
             "$worker_url/liquipedia-evidence" --output "$RUNNER_TEMP/liquipedia-evidence.json"
           node scripts/import-liquipedia-evidence.mjs "$RUNNER_TEMP/liquipedia-evidence.json"
