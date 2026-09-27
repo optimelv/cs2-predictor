@@ -1,14 +1,14 @@
 # StrikeSignal Product Roadmap
 
-## Desktop quality backlog — reported 2026-09-23
+## Desktop quality — reported 2026-09-23
 
 Desktop is the primary target. Recheck mobile after desktop changes.
 
-1. **Players view layout:** The reported grey area and clipped detail panel need continued desktop review. The current browser test can select the last player and scroll the detail panel independently; keep this regression check and investigate any width where the original screenshot still reproduces.
-2. **My picks:** A saved pick and its count survived a production reload in the browser check. The empty view now has a compact explanation and route back to upcoming matches; confirm the deployed version visually.
-3. **Recent source snapshot:** The status strip now shows the source timestamp and distinguishes an old snapshot. Confirm fresh, stale, and failed responses after deployment, including the details control.
-4. **Radar chart exploration:** Consider a player or team comparison radar using the [EvilCharts ECharts example](https://evilcharts.com/docs/echarts/radar-chart/static) as visual reference. Only compare metrics on an explicitly shared scale, show sample size and source date, provide a data table, and keep the existing visual language. Do not add a chart merely to decorate a profile.
-5. **Typography reference:** Review [Justice](https://justice.kitlangton.com/) for long editorial paragraphs only. It addresses paragraph justification, not the player-list clipping or pick-state defects; adopt it only if it improves readability without runtime or accessibility cost.
+- **Players view layout — fixed and checked:** The list and detail pane now share a bounded desktop height with independent scrolling. The production browser check selected the last player and scrolled the right pane across tested widths; retain the regression check.
+- **My picks — fixed and checked:** A saved pick and its count survived a production reload. The deployed empty view now explains the zero state and links back to upcoming matches; the production browser check covers it.
+- **Recent source snapshot — fixed and checked:** The deployed status strip shows the snapshot timestamp and distinguishes an old snapshot; the production browser check covers source-status behavior.
+- **Radar chart exploration — backlog:** Consider a player or team comparison radar using the [EvilCharts ECharts example](https://evilcharts.com/docs/echarts/radar-chart/static) as visual reference. Only compare metrics on an explicitly shared scale, show sample size and source date, provide a data table, and keep the existing visual language. Do not add a chart merely to decorate a profile.
+- **Typography reference — backlog:** Review [Justice](https://justice.kitlangton.com/) for long editorial paragraphs only. Adopt it only if it improves readability without runtime or accessibility cost.
 
 ## Visual asset coverage — measured 2026-09-27
 
