@@ -144,6 +144,11 @@ jobs:
           node scripts/filter-live-snapshot.mjs "$RUNNER_TEMP/live-snapshot.json"
           cp "$RUNNER_TEMP/live-snapshot.json" docs/data/live-snapshot.json
 
+      - name: Backfill one overlap-checked HLTV results page
+        if: steps.snapshot.outputs.source == 'github-actions'
+        continue-on-error: true
+        run: python -m work.cs2_predictor.backfill_runner_results
+
       - name: Evaluate and safely promote the production model
         if: steps.snapshot.outputs.available == 'true'
         run: >
