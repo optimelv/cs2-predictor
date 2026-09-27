@@ -30,7 +30,7 @@ def observed_result(row: dict[str, Any]) -> dict[str, Any]:
     event = str(row["event_name"]).strip()
     source_url = str(row["match_url"])
     if match_id <= 0 or timestamp <= 0 or min(score1, score2) < 0 or score1 == score2 or not all((team1, team2, event)) or not source_url.startswith(f"https://www.hltv.org/matches/{match_id}/"):
-        raise ValueError(f"Unusable HLTV result card: {match_id}")
+        raise ValueError(f"Unusable HLTV result card: {match_id} timestamp={timestamp} score={score1}:{score2} teams_present={bool(team1 and team2)} event_present={bool(event)} source_url_valid={source_url.startswith(f'https://www.hltv.org/matches/{match_id}/')}")
     starts_at = datetime.fromtimestamp(timestamp, timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
     event_slug = re.sub(r"[^a-z0-9]+", "-", event.casefold()).strip("-")
     series_format = str(row.get("format") or "").casefold()
