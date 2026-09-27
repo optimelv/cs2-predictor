@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-27T15:11:29Z",
+  "generated_at_utc": "2026-09-27T18:26:55Z",
   "through_date": "2026-09-27",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3009,
+    "matches": 3015,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -308,6 +308,138 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398805",
+      "match_date": "2026-09-27",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "Mai Tai",
+      "team2_name": "BIG Academy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "BIG Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398486",
+      "match_date": "2026-09-27",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
+      "team1_name": "Lynn Vision",
+      "team2_name": "NEXVOID",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Lynn Vision",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398364",
+      "match_date": "2026-09-27",
+      "event_name": "CCT 2026 Europe Series 10 Closed Qualifier",
+      "team1_name": "Spirit Academy",
+      "team2_name": "megoshort",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "megoshort",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398804",
+      "match_date": "2026-09-27",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "Phantom Academy",
+      "team2_name": "Illyrians",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Phantom Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2397855",
+      "match_date": "2026-09-27",
+      "event_name": "CCT 2026 Europe Series 9",
+      "team1_name": "Black Phoenix",
+      "team2_name": "ex-RUSTEC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Black Phoenix",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398571",
+      "match_date": "2026-09-27",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "METANOIA Wolves",
+      "team2_name": "MIBR fe",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "METANOIA Wolves",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
