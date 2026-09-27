@@ -4,7 +4,7 @@ import { mkdirSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 // Run `npm run dev` first. A separate browser session never changes your desk.
-const url = 'http://127.0.0.1:4173/';
+const url = process.env.BROWSER_TEST_URL || 'http://127.0.0.1:4173/';
 const session = `strikesignal-check-${process.pid}`;
 const output = resolve('outputs/browser-check');
 mkdirSync(output, { recursive: true });
@@ -43,10 +43,16 @@ try {
   wait("document.documentElement.dataset.theme === 'light'");
   run('select', '#themePreference', 'dark');
   console.log('PASS: native dark/light/system modes, persistence, OS change and local Sora font');
-  assert.equal(evaluate("document.querySelector('#sourceStatus').dataset.state"), 'stale', 'The bundled July snapshot must not be called live');
-  assert.equal(evaluate("[...document.querySelectorAll('[data-save-match-pick]')].every(button => button.disabled)"), true);
+  const sourceState = evaluate("document.querySelector('#sourceStatus').dataset.state");
+  assert.ok(['fresh', 'stale'].includes(sourceState), 'The bundled snapshot needs a valid source timestamp');
+  assert.match(evaluate("document.querySelector('#sourceStatusTitle').textContent"), sourceState === 'stale' ? /Historical snapshot.*2026/ : /Snapshot checked.*2026/, 'Source strip must show a dated state without opening details');
+  if (sourceState === 'stale') assert.equal(evaluate("[...document.querySelectorAll('[data-save-match-pick]')].every(button => button.disabled)"), true);
   noOverflow();
   screenshot('desktop');
+  click('#openMyDesk');
+  assert.equal(evaluate("document.querySelector('#myDeskContent').textContent.includes('No saved picks yet.')"), true, 'Empty My picks needs a clear action');
+  assert.equal(evaluate("document.querySelector('#myDeskContent .my-desk-grid') === null"), true, 'Empty My picks must not render a wall of empty panels');
+  click('#myDeskClose');
 
   click('[data-match-filter="picks"]');
   assert.equal(evaluate("!!document.querySelector('[data-reset-match-filters]')"), true);
@@ -57,8 +63,8 @@ try {
   click('#sourceStatus summary');
   click('#refreshSource');
   wait("!document.querySelector('#refreshSource').disabled");
-  assert.equal(evaluate("document.querySelector('#sourceStatus').dataset.state"), 'stale');
-  console.log('PASS: stale-source guard, retry, pick lock and filter recovery');
+  assert.equal(evaluate("document.querySelector('#sourceStatus').dataset.state"), sourceState);
+  console.log('PASS: source status, retry, pick state and filter recovery');
 
   click('#openSearch');
   run('fill', '#productSearch', 'Spirit');
@@ -95,6 +101,13 @@ try {
   click('#rankingToggle');
   assert.equal(evaluate("document.querySelector('#rankingToggle').getAttribute('aria-expanded')"), 'true');
   click('.browse-tabs [href="#players"]');
+  const playerColumns = evaluate("(() => { const list = document.querySelector('#playerGrid'); const detail = document.querySelector('#playerDetail'); return { listHeight: list.clientHeight, detailHeight: detail.clientHeight, listScrollHeight: list.scrollHeight, detailScrollHeight: detail.scrollHeight }; })()");
+  assert.ok(Math.abs(playerColumns.listHeight - playerColumns.detailHeight) <= 1, 'Player list and detail must share a desktop viewport');
+  assert.ok(playerColumns.listScrollHeight > playerColumns.listHeight, 'The full player list must have its own scroll area');
+  click('#playerGrid [data-player-id]:last-child');
+  wait("(() => { const list = document.querySelector('#playerGrid'); const last = list.querySelector('[data-player-id]:last-child'); return list.scrollTop > 0 && last.getBoundingClientRect().bottom <= list.getBoundingClientRect().bottom + 1; })()");
+  assert.equal(evaluate("(() => { const list = document.querySelector('#playerGrid'); const last = list.querySelector('[data-player-id]:last-child'); return list.scrollTop > 0 && last.getBoundingClientRect().bottom <= list.getBoundingClientRect().bottom + 1; })()"), true, 'Last player must remain selectable inside the list');
+  click('#playerGrid [data-player-id]:first-child');
   click('#playerDetail [data-watch-type="players"]');
   assert.equal(evaluate("document.querySelector('#openMyDesk').getAttribute('aria-label').includes('1 followed')"), true);
   click('#openMyDesk');
@@ -136,6 +149,9 @@ try {
   wait("document.querySelector('#vetoLabLayer').hidden");
   assert.equal(evaluate("document.querySelector('main').inert"), false);
   assert.equal(run('errors'), '', 'Browser must not report uncaught errors');
+  run('open', `${url}#picks`);
+  wait("document.body.classList.contains('product-ready')");
+  assert.ok(evaluate("document.querySelector('#myDeskContent').textContent.length") > 100, 'Direct My picks links must render their content after hydration');
   console.log('PASS: reduced-motion modal, keyboard dismissal, no uncaught browser errors');
   console.log(`Screenshots: ${output}`);
 } finally {

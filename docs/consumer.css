@@ -244,6 +244,8 @@ main { max-width: var(--content-width); margin: 0 auto; padding: 24px 36px 56px;
 .site-footer span, .site-footer a { font-size: var(--text-caption); color: var(--muted); }
 .personal-shell .my-desk-content { max-height: none; overflow: visible; padding: 0; }
 .personal-shell .my-desk-hero { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 28px; }
+.personal-shell .my-desk-hero.is-empty { min-height: 0; grid-template-columns: minmax(0, 1fr); }
+.my-desk-start { display: inline-flex; width: fit-content; margin-top: 18px; }
 .my-desk-hero h2 { font-size: 27px; }
 .my-desk-hero p { max-width: 46ch; font-size: 13px; }
 .my-desk-hero aside { gap: 12px; }

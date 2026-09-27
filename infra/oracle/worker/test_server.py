@@ -71,11 +71,12 @@ class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
             started.set()
             await blocked.wait()
 
-        with patch("server.load_snapshot", return_value={"ok": True}), patch("server.archive_connection"), patch("server.refresh", new=AsyncMock(side_effect=collect)) as refresh:
+        with patch("server.load_snapshot", return_value={"ok": True}), patch("server.archive_connection"), patch("server.ARCHIVE_BACKFILL_ENABLED", False), patch("server.refresh", new=AsyncMock(side_effect=collect)) as refresh:
             try:
                 await asyncio.wait_for(on_startup(app), timeout=1)
                 await asyncio.wait_for(started.wait(), timeout=1)
                 self.assertEqual(refresh.await_count, 1)
+                self.assertNotIn("archive_task", app)
             finally:
                 await on_cleanup(app)
             self.assertTrue(app["refresh_task"].done())

@@ -30,6 +30,7 @@ MAX_DETAIL_MATCHES = max(0, min(8, int(os.environ.get("MAX_DETAIL_MATCHES", "6")
 SNAPSHOT_PATH = Path(os.environ.get("SNAPSHOT_PATH", "/data/last-good-snapshot.json"))
 ARCHIVE_PATH = Path(os.environ.get("ARCHIVE_PATH", "/data/observed-results.sqlite3"))
 BACKFILL_FLOOR = os.environ.get("BACKFILL_FLOOR", "2024-12-28")
+ARCHIVE_BACKFILL_ENABLED = os.environ.get("ARCHIVE_BACKFILL_ENABLED", "true").lower() in {"1", "true", "yes"}
 LIQUIPEDIA_ARCHIVE_PATH = Path(os.environ.get("LIQUIPEDIA_ARCHIVE_PATH", "/var/lib/strikesignal/liquipedia-observed-results.jsonl"))
 LIQUIPEDIA_STATE_PATH = Path(os.environ.get("LIQUIPEDIA_STATE_PATH", "/var/lib/strikesignal/liquipedia-gap-state.json"))
 LIQUIPEDIA_ASSETS_PATH = Path(os.environ.get("LIQUIPEDIA_ASSETS_PATH", "/var/lib/strikesignal/liquipedia-logo-candidates.json"))
@@ -510,7 +511,7 @@ async def source_session():
         # One tab and one browser per collection, released between refreshes.
         async with AsyncStealthySession(
             headless=True, max_pages=1, timeout=REQUEST_TIMEOUT_SECONDS * 1000,
-            google_search=False, block_ads=True,
+            google_search=False, block_ads=True, solve_cloudflare=True,
         ) as session:
             yield session
     else:
@@ -784,7 +785,8 @@ async def on_startup(app: web.Application) -> None:
     # Start serving the last good snapshot immediately. The loop performs the
     # initial collection once, then waits between refreshes.
     app["refresh_task"] = asyncio.create_task(refresh_loop(app))
-    app["archive_task"] = asyncio.create_task(backfill_loop())
+    if ARCHIVE_BACKFILL_ENABLED:
+        app["archive_task"] = asyncio.create_task(backfill_loop())
 
 
 async def on_cleanup(app: web.Application) -> None:
