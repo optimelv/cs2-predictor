@@ -471,7 +471,7 @@ function syncWatchControls() {
   const followedCount = watchlistCount(watchlist);
   const pickCount = Object.keys(savedPicks).length;
   const unread = unreadSignalCount(signalState);
-  setText(els.watchCount, String(pickCount));
+  setText(els.watchCount, String(pickCount + followedCount));
   setText(els.signalCount, String(unread));
   if (els.signalCount) els.signalCount.hidden = unread === 0;
   els.openMyDesk?.setAttribute("aria-label", `Open My picks, ${pickCount} saved, ${followedCount} followed, ${unread} new signals`);

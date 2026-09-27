@@ -574,3 +574,15 @@ button, a, select { touch-action: manipulation; }
 
 html[data-palette-changing] *, html[data-palette-changing] *::before, html[data-palette-changing] *::after { transition: none !important; }
 .match-row { transition: none; }
+
+/* The player list and detail pane share a scroll height on desktop. */
+@media (min-width: 901px) {
+  .player-explorer { min-height: 0; height: clamp(560px, calc(100dvh - 170px), 780px); align-items: stretch; overflow: hidden; }
+  .player-grid, .player-detail { min-height: 0; height: 100%; max-height: none; }
+  .player-detail { scroll-margin-top: 84px; }
+}
+@media (max-width: 900px) {
+  .player-explorer { min-height: 0; height: auto; overflow: visible; }
+  .player-grid { height: auto; max-height: 680px; }
+  .player-detail { height: auto; max-height: none; }
+}
