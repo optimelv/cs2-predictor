@@ -12,7 +12,7 @@
     "dev": "node scripts/dev-server.mjs",
     "dev:netlify": "netlify dev",
     "test:browser": "node scripts/test-browser.mjs",
-    "test:reliability": "node scripts/test-freshness.mjs && node scripts/test-predictions-handler.mjs && node scripts/test-theme.mjs && node --check docs/lib/dialog-focus.js && node --check docs/lib/motion.js && node --check scripts/dev-server.mjs && node --check docs/lib/navigation.js",
+    "test:reliability": "node scripts/test-freshness.mjs && node scripts/test-predictions-handler.mjs && node scripts/test-theme.mjs && node --check docs/lib/dialog-focus.js && node --check docs/lib/motion.js && node --check scripts/dev-server.mjs && node --check docs/lib/navigation.js && node --check docs/home-art.js",
     "check": "npm run build && npm run test:reliability"
   },
   "dependencies": {

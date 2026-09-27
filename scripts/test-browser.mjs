@@ -29,12 +29,18 @@ try {
   run('open', url);
   wait("document.body.classList.contains('product-ready')");
   wait("document.fonts.check('14px Sora')");
+  const firstHomeArt = evaluate("document.documentElement.dataset.homeArt");
+  assert.ok(['0', '1', '2'].includes(firstHomeArt), 'Home needs one static map artwork per visit');
+  for (const asset of ['dust2-oil.webp', 'inferno-oil.webp', 'ancient-oil.webp']) {
+    assert.equal((await fetch(new URL(`assets/home/${asset}`, url))).ok, true, `${asset} must load from the site`);
+  }
   assert.equal(evaluate("document.documentElement.dataset.theme"), 'dark');
   assert.equal(evaluate("getComputedStyle(document.body).fontFamily.includes('Sora')"), true);
   run('select', '#themePreference', 'light');
   assert.equal(evaluate("getComputedStyle(document.documentElement).colorScheme"), 'light');
   run('reload');
   wait("document.body.classList.contains('product-ready')");
+  assert.notEqual(evaluate("document.documentElement.dataset.homeArt"), firstHomeArt, 'Map artwork should change on the next visit without animation');
   assert.equal(evaluate("document.documentElement.dataset.theme"), 'light');
   run('select', '#themePreference', 'system');
   run('set', 'media', 'dark');

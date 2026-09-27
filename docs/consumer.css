@@ -103,15 +103,20 @@ main { max-width: var(--content-width); margin: 0 auto; padding: 24px 36px 56px;
 .section-shell { margin-top: 0; scroll-margin-top: 106px; }
 .home-shell { scroll-margin-top: 106px; }
 .home-hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(340px, .75fr); min-height: 520px; border: 1px solid var(--color-border); background: var(--color-bg-surface); }
-.home-intro { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: clamp(36px, 5vw, 72px); min-width: 0; }
+.home-intro { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: clamp(36px, 5vw, 72px); min-width: 0; background-color: #171614; background-image: linear-gradient(90deg, rgba(14,14,13,.89) 0%, rgba(14,14,13,.77) 48%, rgba(14,14,13,.47) 100%), url("./assets/home/dust2-oil.webp"); background-position: center, 58% center; background-size: cover; }
+html[data-home-art="1"] .home-intro { background-image: linear-gradient(90deg, rgba(14,14,13,.89) 0%, rgba(14,14,13,.77) 48%, rgba(14,14,13,.47) 100%), url("./assets/home/inferno-oil.webp"); }
+html[data-home-art="2"] .home-intro { background-image: linear-gradient(90deg, rgba(14,14,13,.89) 0%, rgba(14,14,13,.77) 48%, rgba(14,14,13,.47) 100%), url("./assets/home/ancient-oil.webp"); }
 .home-kicker { display: inline-flex; align-items: center; gap: 10px; color: var(--color-accent); font: 700 11px/1.3 var(--body); letter-spacing: .13em; text-transform: uppercase; }
 .home-kicker i { width: 7px; height: 7px; border-radius: 50%; background: var(--color-accent-solid); }
-.home-intro h1 { max-width: 710px; margin: 27px 0 20px; color: var(--ink); font: 700 clamp(48px, 5.2vw, 78px)/1.03 var(--body); letter-spacing: -.065em; }
+.home-intro h1 { max-width: 710px; margin: 27px 0 20px; color: #f7f5f0; font: 700 clamp(48px, 5.2vw, 78px)/1.03 var(--body); letter-spacing: -.065em; }
 .home-intro h1 em { color: var(--color-accent-solid); font-style: normal; }
-.home-intro p { max-width: 520px; margin: 0; color: var(--muted); font: 400 16px/1.65 var(--body); }
+.home-intro p { max-width: 520px; margin: 0; color: #e1ddd5; font: 400 16px/1.65 var(--body); }
 .home-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 32px; }
 .home-actions a { display: inline-flex; align-items: center; justify-content: space-between; gap: 32px; min-height: 48px; padding: 12px 16px; border: 1px solid var(--color-border); border-radius: 4px; color: var(--ink); font: 700 13px var(--body); text-decoration: none; }
 .home-actions .home-primary { border-color: var(--color-accent-solid); background: var(--color-accent-solid); color: var(--color-on-accent); }
+.home-actions .home-secondary { border-color: rgba(255,255,255,.33); color: #f7f5f0; background: rgba(14,14,13,.38); }
+.home-art-caption { margin-top: 24px; color: #c7c2b9; font: 500 10px var(--body); letter-spacing: .04em; }
+.home-art-caption a { color: inherit; text-underline-offset: 2px; }
 .home-actions a:hover, .home-feature-link:hover, .home-match:hover, .home-paths a:hover { border-color: var(--color-accent-solid); }
 .home-featured { display: flex; flex-direction: column; min-width: 0; padding: 28px 30px 0; border-left: 1px solid var(--color-border); background: var(--surface-2); }
 .home-feature-top { display: flex; justify-content: space-between; gap: 16px; color: var(--color-accent); font: 700 11px var(--body); letter-spacing: .11em; text-transform: uppercase; }

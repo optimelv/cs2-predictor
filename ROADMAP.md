@@ -18,6 +18,7 @@ Desktop is the primary target. Recheck mobile after desktop changes.
 ## Home and page polish
 
 - **Home section implemented:** The root URL now opens a desktop-first home with a real upcoming series, source freshness, and direct paths into existing product views. It has an explicit empty state when the verified slate has no future match; no fabricated social proof or decorative statistics.
+- **Map artwork:** Three static hero backgrounds are painted edits of real Dust II, Inferno, and Ancient screenshots. The scene changes once per page visit without animation; source and non-commercial fan-art terms are documented in `docs/assets/home/SOURCES.md`.
 - Audit large empty areas and clipping in the existing pages at wide and compact desktop widths. Match and event match analyses should begin beside their lists, with long lists independently scrollable. Retain the mobile layout as a supported fallback.
 
 ## Release 1: Circuit Intelligence
