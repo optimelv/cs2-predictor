@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 2956,
+    "matches": 2975,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -716,6 +716,116 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:7b7875866fa12797abc7",
+      "match_date": "2026-09-26",
+      "starts_at": "2026-09-26T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Playoffs",
+      "team1_name": "Nemiga",
+      "team2_name": "Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:b43a9d767340398cc39c",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Playoffs",
+      "team1_name": "INOX",
+      "team2_name": "Nemiga",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nemiga",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:47257e6a894fa240b12b",
+      "match_date": "2026-09-24",
+      "starts_at": "2026-09-24T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Playoffs",
+      "team1_name": "JustP",
+      "team2_name": "Nemiga",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nemiga",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:b1ea773d505b61297db0",
+      "match_date": "2026-09-24",
+      "starts_at": "2026-09-24T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Playoffs",
+      "team1_name": "Iber. Soul",
+      "team2_name": "NAVI Jr.",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Iber. Soul",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:89e660d09297831433f2",
+      "match_date": "2026-09-23",
+      "starts_at": "2026-09-23T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 5",
+      "team1_name": "G2 Ares",
+      "team2_name": "NAVI Jr.",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "NAVI Jr.",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_5"
     },
     {
       "match_id": "hltv:2398342",
@@ -1620,6 +1730,28 @@
       }
     },
     {
+      "match_id": "liquipedia:dd2b3807de2e3afcb10b",
+      "match_date": "2026-09-21",
+      "starts_at": "2026-09-21T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 4",
+      "team1_name": "lavked",
+      "team2_name": "NAVI Jr.",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NAVI Jr.",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_4"
+    },
+    {
       "match_id": "hltv:2397829",
       "match_date": "2026-09-20",
       "event_name": "CCT 2026 Europe Series 9",
@@ -1950,6 +2082,50 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_3"
     },
     {
+      "match_id": "liquipedia:2922009162cfa59e9e75",
+      "match_date": "2026-09-19",
+      "starts_at": "2026-09-19T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 3",
+      "team1_name": "Nexus",
+      "team2_name": "Permitta",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_3"
+    },
+    {
+      "match_id": "liquipedia:53332af4682ff7cb330a",
+      "match_date": "2026-09-19",
+      "starts_at": "2026-09-19T14:15:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 3",
+      "team1_name": "Leo",
+      "team2_name": "NAVI Jr.",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Leo",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_3"
+    },
+    {
       "match_id": "hltv:2397814",
       "match_date": "2026-09-18",
       "event_name": "CCT 2026 Europe Series 9",
@@ -2234,6 +2410,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_2"
+    },
+    {
+      "match_id": "liquipedia:0c13ccec54d5e9fc65cb",
+      "match_date": "2026-09-18",
+      "starts_at": "2026-09-18T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 2",
+      "team1_name": "NAVI Jr.",
+      "team2_name": "QUAZAR",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "QUAZAR",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_2"
     },
     {
       "match_id": "hltv:2397807",
@@ -3334,6 +3532,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_1"
+    },
+    {
+      "match_id": "liquipedia:6a20181faf6e7692948f",
+      "match_date": "2026-09-15",
+      "starts_at": "2026-09-15T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 1",
+      "team1_name": "Permitta",
+      "team2_name": "QUAZAR",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "QUAZAR",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_1"
     },
     {
       "match_id": "hltv:2397621",
@@ -22982,6 +23202,28 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_1"
     },
     {
+      "match_id": "liquipedia:17c279a0bc73ea69202c",
+      "match_date": "2026-08-22",
+      "starts_at": "2026-08-22T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #7 - Round 3",
+      "team1_name": "Bebop",
+      "team2_name": "W.PCF",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "W.PCF",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_7#Round_3"
+    },
+    {
       "match_id": "hltv:2396644",
       "match_date": "2026-08-21",
       "event_name": "CCT 2026 Europe Series 7",
@@ -25037,6 +25279,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "HAVU",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_7#Round_1"
+    },
+    {
+      "match_id": "liquipedia:011d828aead2d935a3f7",
+      "match_date": "2026-08-18",
+      "starts_at": "2026-08-18T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #7 - Round 1",
+      "team1_name": "Bebop",
+      "team2_name": "MASON",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MASON",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -36270,6 +36534,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_5"
     },
     {
+      "match_id": "liquipedia:15ad890fafee1249e1b0",
+      "match_date": "2026-07-29",
+      "starts_at": "2026-07-29T17:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group D",
+      "team1_name": "Bebop",
+      "team2_name": "Misa",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Bebop",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_D"
+    },
+    {
       "match_id": "hltv:2396008",
       "match_date": "2026-07-28",
       "event_name": "BLAST Bounty 2026 Season 2",
@@ -36930,6 +37216,50 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_4"
     },
     {
+      "match_id": "liquipedia:478fdd92fdfe64e84a3d",
+      "match_date": "2026-07-28",
+      "starts_at": "2026-07-28T11:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group D",
+      "team1_name": "Bebop",
+      "team2_name": "Phoenix",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Bebop",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_D"
+    },
+    {
+      "match_id": "liquipedia:219d65249d83ce4ff0fd",
+      "match_date": "2026-07-28",
+      "starts_at": "2026-07-28T17:10:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group D",
+      "team1_name": "FLC.Force",
+      "team2_name": "Misa",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FLC.Force",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_D"
+    },
+    {
       "match_id": "hltv:2396013",
       "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
@@ -37434,6 +37764,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/10#Round_3"
+    },
+    {
+      "match_id": "liquipedia:5b10551a301d6bd3d853",
+      "match_date": "2026-07-27",
+      "starts_at": "2026-07-27T17:05:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group D",
+      "team1_name": "Bebop",
+      "team2_name": "FLC.Force",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "FLC.Force",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_D"
     },
     {
       "match_id": "hltv:2395770",
@@ -45229,6 +45581,28 @@
       }
     },
     {
+      "match_id": "liquipedia:b70ff32f892fd0899eab",
+      "match_date": "2026-06-04",
+      "starts_at": "2026-06-04T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #3 - Playoffs",
+      "team1_name": "BW",
+      "team2_name": "Nemiga",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BW",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
+    },
+    {
       "match_id": "hltv:2394855",
       "match_date": "2026-06-03",
       "event_name": "IEM Cologne Major 2026 Stage 1",
@@ -46291,6 +46665,50 @@
           "oSee"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:956381a490e4afe45e89",
+      "match_date": "2026-05-31",
+      "starts_at": "2026-05-31T13:30:00Z",
+      "event_name": "BC.Game Masters EU Series #2 - Playoffs",
+      "team1_name": "FOKUS",
+      "team2_name": "Nemiga",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FOKUS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BC.Game_Masters/Season_2/Europe/Series_2#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:80418f8bcb898c34a049",
+      "match_date": "2026-05-30",
+      "starts_at": "2026-05-30T12:30:00Z",
+      "event_name": "BC.Game Masters EU Series #2 - Playoffs",
+      "team1_name": "Nemiga",
+      "team2_name": "Tricked",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Nemiga",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/BC.Game_Masters/Season_2/Europe/Series_2#Playoffs"
     },
     {
       "match_id": "hltv:2394228",
