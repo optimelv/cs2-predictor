@@ -695,8 +695,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "map_results": [
           {
             "map_name": "Ancient",
-            "score1": 4,
-            "score2": 8,
+            "score1": 12,
+            "score2": 12,
             "status": "finished"
           },
           {
@@ -728,7 +728,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
       },
       {
-        "event_id": "hltv:cct-2026-south-america-series-6",
+        "event_id": "hltv:9425",
         "event_name": "CCT 2026 South America Series 6",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398570",
@@ -772,7 +772,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
       },
       {
-        "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-2",
+        "event_id": "hltv:9354",
         "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398487",
@@ -1003,7 +1003,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398487/rare-atom-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
-        "stage_name": "Scheduled series",
+        "stage_name": "Playoffs",
         "status": "live",
         "team1_name": "Rare Atom",
         "team2_name": "The Huns",
@@ -1015,15 +1015,87 @@ window.__STRIKESIGNAL_DATA__ = {
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2397854",
         "lineups": {
-          "team1": [],
-          "team2": []
+          "team1": [
+            {
+              "hltv_player_id": "21014",
+              "nickname": "Ag1l",
+              "player_id": "hltv:21014",
+              "source_url": "https://www.hltv.org/player/21014/ag1l",
+              "team_name": "Iberian Soul"
+            },
+            {
+              "hltv_player_id": "9254",
+              "nickname": "mopoz",
+              "player_id": "hltv:9254",
+              "source_url": "https://www.hltv.org/player/9254/mopoz",
+              "team_name": "Iberian Soul"
+            },
+            {
+              "hltv_player_id": "8371",
+              "nickname": "alex",
+              "player_id": "hltv:8371",
+              "source_url": "https://www.hltv.org/player/8371/alex",
+              "team_name": "Iberian Soul"
+            },
+            {
+              "hltv_player_id": "18749",
+              "nickname": "sausol",
+              "player_id": "hltv:18749",
+              "source_url": "https://www.hltv.org/player/18749/sausol",
+              "team_name": "Iberian Soul"
+            },
+            {
+              "hltv_player_id": "19509",
+              "nickname": "dav1g",
+              "player_id": "hltv:19509",
+              "source_url": "https://www.hltv.org/player/19509/dav1g",
+              "team_name": "Iberian Soul"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "24190",
+              "nickname": "youka",
+              "player_id": "hltv:24190",
+              "source_url": "https://www.hltv.org/player/24190/youka",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "17011",
+              "nickname": "shalfey",
+              "player_id": "hltv:17011",
+              "source_url": "https://www.hltv.org/player/17011/shalfey",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "24485",
+              "nickname": "yiksrezo",
+              "player_id": "hltv:24485",
+              "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "17508",
+              "nickname": "glowiing",
+              "player_id": "hltv:17508",
+              "source_url": "https://www.hltv.org/player/17508/glowiing",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "19297",
+              "nickname": "Brilliance",
+              "player_id": "hltv:19297",
+              "source_url": "https://www.hltv.org/player/19297/brilliance",
+              "team_name": "ex-RUSTEC"
+            }
+          ]
         },
         "map_results": [
           {
             "map_name": "Ancient",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
+            "score1": 5,
+            "score2": 13,
+            "status": "finished"
           },
           {
             "map_name": "Mirage",
@@ -1044,6 +1116,128 @@ window.__STRIKESIGNAL_DATA__ = {
           "Nuke"
         ],
         "match_id": "hltv:2397854",
+        "player_stats": [
+          {
+            "adr": 89.2,
+            "deaths": 12,
+            "hltv_player_id": "21014",
+            "kast": 66.7,
+            "kills": 17,
+            "nickname": "Ag1l",
+            "player_id": "hltv:21014",
+            "rating": 1.51,
+            "source_url": "https://www.hltv.org/player/21014/ag1l",
+            "team_side": 1
+          },
+          {
+            "adr": 89.3,
+            "deaths": 14,
+            "hltv_player_id": "9254",
+            "kast": 72.2,
+            "kills": 15,
+            "nickname": "mopoz",
+            "player_id": "hltv:9254",
+            "rating": 1.11,
+            "source_url": "https://www.hltv.org/player/9254/mopoz",
+            "team_side": 1
+          },
+          {
+            "adr": 62.3,
+            "deaths": 15,
+            "hltv_player_id": "8371",
+            "kast": 66.7,
+            "kills": 6,
+            "nickname": "alex",
+            "player_id": "hltv:8371",
+            "rating": 0.59,
+            "source_url": "https://www.hltv.org/player/8371/alex",
+            "team_side": 1
+          },
+          {
+            "adr": 57.9,
+            "deaths": 15,
+            "hltv_player_id": "18749",
+            "kast": 66.7,
+            "kills": 9,
+            "nickname": "sausol",
+            "player_id": "hltv:18749",
+            "rating": 0.59,
+            "source_url": "https://www.hltv.org/player/18749/sausol",
+            "team_side": 1
+          },
+          {
+            "adr": 44.1,
+            "deaths": 15,
+            "hltv_player_id": "19509",
+            "kast": 50,
+            "kills": 6,
+            "nickname": "dav1g",
+            "player_id": "hltv:19509",
+            "rating": 0.41,
+            "source_url": "https://www.hltv.org/player/19509/dav1g",
+            "team_side": 1
+          },
+          {
+            "adr": 114.9,
+            "deaths": 8,
+            "hltv_player_id": "24190",
+            "kast": 94.4,
+            "kills": 21,
+            "nickname": "youka",
+            "player_id": "hltv:24190",
+            "rating": 2.21,
+            "source_url": "https://www.hltv.org/player/24190/youka",
+            "team_side": 2
+          },
+          {
+            "adr": 88.3,
+            "deaths": 10,
+            "hltv_player_id": "17011",
+            "kast": 77.8,
+            "kills": 19,
+            "nickname": "shalfey",
+            "player_id": "hltv:17011",
+            "rating": 1.68,
+            "source_url": "https://www.hltv.org/player/17011/shalfey",
+            "team_side": 2
+          },
+          {
+            "adr": 97.4,
+            "deaths": 13,
+            "hltv_player_id": "24485",
+            "kast": 66.7,
+            "kills": 14,
+            "nickname": "yiksrezo",
+            "player_id": "hltv:24485",
+            "rating": 1.2,
+            "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+            "team_side": 2
+          },
+          {
+            "adr": 73.8,
+            "deaths": 9,
+            "hltv_player_id": "17508",
+            "kast": 77.8,
+            "kills": 10,
+            "nickname": "glowiing",
+            "player_id": "hltv:17508",
+            "rating": 1.02,
+            "source_url": "https://www.hltv.org/player/17508/glowiing",
+            "team_side": 2
+          },
+          {
+            "adr": 35.6,
+            "deaths": 14,
+            "hltv_player_id": "19297",
+            "kast": 50,
+            "kills": 6,
+            "nickname": "Brilliance",
+            "player_id": "hltv:19297",
+            "rating": 0.45,
+            "source_url": "https://www.hltv.org/player/19297/brilliance",
+            "team_side": 2
+          }
+        ],
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
@@ -5361,32 +5555,94 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Black Phoenix"
       },
       {
-        "event_id": "hltv:9433",
+        "event_id": "hltv:cct-2026-challengers-europe-series-7",
         "event_name": "CCT 2026 Challengers Europe Series 7",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398804",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Ancient"
+        ],
         "match_id": "hltv:2398804",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398804/phantom-academy-vs-illyrians-cct-2026-challengers-europe-series-7",
         "stage_name": "Scheduled series",
         "starts_at": "2026-09-27T13:45:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Phantom Academy",
-        "team2_name": "Illyrians"
+        "team2_name": "Illyrians",
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
       },
       {
-        "event_id": "hltv:9433",
+        "event_id": "hltv:cct-2026-challengers-europe-series-7",
         "event_name": "CCT 2026 Challengers Europe Series 7",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398805",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Mirage",
+          "Ancient",
+          "Dust2"
+        ],
         "match_id": "hltv:2398805",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398805/mai-tai-vs-big-academy-cct-2026-challengers-europe-series-7",
         "stage_name": "Scheduled series",
         "starts_at": "2026-09-27T13:45:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Mai Tai",
-        "team2_name": "BIG Academy"
+        "team2_name": "BIG Academy",
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
       },
       {
         "event_id": "hltv:9419",
@@ -5398,7 +5654,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "source_url": "https://www.hltv.org/matches/2398364/spirit-academy-vs-megoshort-cct-2026-europe-series-10-closed-qualifier",
         "stage_name": "Scheduled series",
         "starts_at": "2026-09-27T14:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Spirit Academy",
         "team2_name": "megoshort"
       },
@@ -10729,15 +10985,87 @@ window.__STRIKESIGNAL_DATA__ = {
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2397854",
             "lineups": {
-              "team1": [],
-              "team2": []
+              "team1": [
+                {
+                  "hltv_player_id": "21014",
+                  "nickname": "Ag1l",
+                  "player_id": "hltv:21014",
+                  "source_url": "https://www.hltv.org/player/21014/ag1l",
+                  "team_name": "Iberian Soul"
+                },
+                {
+                  "hltv_player_id": "9254",
+                  "nickname": "mopoz",
+                  "player_id": "hltv:9254",
+                  "source_url": "https://www.hltv.org/player/9254/mopoz",
+                  "team_name": "Iberian Soul"
+                },
+                {
+                  "hltv_player_id": "8371",
+                  "nickname": "alex",
+                  "player_id": "hltv:8371",
+                  "source_url": "https://www.hltv.org/player/8371/alex",
+                  "team_name": "Iberian Soul"
+                },
+                {
+                  "hltv_player_id": "18749",
+                  "nickname": "sausol",
+                  "player_id": "hltv:18749",
+                  "source_url": "https://www.hltv.org/player/18749/sausol",
+                  "team_name": "Iberian Soul"
+                },
+                {
+                  "hltv_player_id": "19509",
+                  "nickname": "dav1g",
+                  "player_id": "hltv:19509",
+                  "source_url": "https://www.hltv.org/player/19509/dav1g",
+                  "team_name": "Iberian Soul"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "24190",
+                  "nickname": "youka",
+                  "player_id": "hltv:24190",
+                  "source_url": "https://www.hltv.org/player/24190/youka",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "17011",
+                  "nickname": "shalfey",
+                  "player_id": "hltv:17011",
+                  "source_url": "https://www.hltv.org/player/17011/shalfey",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "24485",
+                  "nickname": "yiksrezo",
+                  "player_id": "hltv:24485",
+                  "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "17508",
+                  "nickname": "glowiing",
+                  "player_id": "hltv:17508",
+                  "source_url": "https://www.hltv.org/player/17508/glowiing",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "19297",
+                  "nickname": "Brilliance",
+                  "player_id": "hltv:19297",
+                  "source_url": "https://www.hltv.org/player/19297/brilliance",
+                  "team_name": "ex-RUSTEC"
+                }
+              ]
             },
             "map_results": [
               {
                 "map_name": "Ancient",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
+                "score1": 5,
+                "score2": 13,
+                "status": "finished"
               },
               {
                 "map_name": "Mirage",
@@ -10758,6 +11086,128 @@ window.__STRIKESIGNAL_DATA__ = {
               "Nuke"
             ],
             "match_id": "hltv:2397854",
+            "player_stats": [
+              {
+                "adr": 89.2,
+                "deaths": 12,
+                "hltv_player_id": "21014",
+                "kast": 66.7,
+                "kills": 17,
+                "nickname": "Ag1l",
+                "player_id": "hltv:21014",
+                "rating": 1.51,
+                "source_url": "https://www.hltv.org/player/21014/ag1l",
+                "team_side": 1
+              },
+              {
+                "adr": 89.3,
+                "deaths": 14,
+                "hltv_player_id": "9254",
+                "kast": 72.2,
+                "kills": 15,
+                "nickname": "mopoz",
+                "player_id": "hltv:9254",
+                "rating": 1.11,
+                "source_url": "https://www.hltv.org/player/9254/mopoz",
+                "team_side": 1
+              },
+              {
+                "adr": 62.3,
+                "deaths": 15,
+                "hltv_player_id": "8371",
+                "kast": 66.7,
+                "kills": 6,
+                "nickname": "alex",
+                "player_id": "hltv:8371",
+                "rating": 0.59,
+                "source_url": "https://www.hltv.org/player/8371/alex",
+                "team_side": 1
+              },
+              {
+                "adr": 57.9,
+                "deaths": 15,
+                "hltv_player_id": "18749",
+                "kast": 66.7,
+                "kills": 9,
+                "nickname": "sausol",
+                "player_id": "hltv:18749",
+                "rating": 0.59,
+                "source_url": "https://www.hltv.org/player/18749/sausol",
+                "team_side": 1
+              },
+              {
+                "adr": 44.1,
+                "deaths": 15,
+                "hltv_player_id": "19509",
+                "kast": 50,
+                "kills": 6,
+                "nickname": "dav1g",
+                "player_id": "hltv:19509",
+                "rating": 0.41,
+                "source_url": "https://www.hltv.org/player/19509/dav1g",
+                "team_side": 1
+              },
+              {
+                "adr": 114.9,
+                "deaths": 8,
+                "hltv_player_id": "24190",
+                "kast": 94.4,
+                "kills": 21,
+                "nickname": "youka",
+                "player_id": "hltv:24190",
+                "rating": 2.21,
+                "source_url": "https://www.hltv.org/player/24190/youka",
+                "team_side": 2
+              },
+              {
+                "adr": 88.3,
+                "deaths": 10,
+                "hltv_player_id": "17011",
+                "kast": 77.8,
+                "kills": 19,
+                "nickname": "shalfey",
+                "player_id": "hltv:17011",
+                "rating": 1.68,
+                "source_url": "https://www.hltv.org/player/17011/shalfey",
+                "team_side": 2
+              },
+              {
+                "adr": 97.4,
+                "deaths": 13,
+                "hltv_player_id": "24485",
+                "kast": 66.7,
+                "kills": 14,
+                "nickname": "yiksrezo",
+                "player_id": "hltv:24485",
+                "rating": 1.2,
+                "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+                "team_side": 2
+              },
+              {
+                "adr": 73.8,
+                "deaths": 9,
+                "hltv_player_id": "17508",
+                "kast": 77.8,
+                "kills": 10,
+                "nickname": "glowiing",
+                "player_id": "hltv:17508",
+                "rating": 1.02,
+                "source_url": "https://www.hltv.org/player/17508/glowiing",
+                "team_side": 2
+              },
+              {
+                "adr": 35.6,
+                "deaths": 14,
+                "hltv_player_id": "19297",
+                "kast": 50,
+                "kills": 6,
+                "nickname": "Brilliance",
+                "player_id": "hltv:19297",
+                "rating": 0.45,
+                "source_url": "https://www.hltv.org/player/19297/brilliance",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
@@ -11227,7 +11677,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "source_url": "https://www.hltv.org/matches/2398364/spirit-academy-vs-megoshort-cct-2026-europe-series-10-closed-qualifier",
             "stage_name": "Scheduled series",
             "starts_at": "2026-09-27T14:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Spirit Academy",
             "team2_name": "megoshort"
           },
@@ -11266,15 +11716,24 @@ window.__STRIKESIGNAL_DATA__ = {
           "Mai Tai"
         ],
         "product_tier": "tier_2",
-        "status": "finished",
+        "status": "ongoing",
         "teams": 16
       },
       {
         "bracket": null,
+        "current_stage": "Playoffs",
         "format": {
-          "label": "Event schedule",
+          "label": "Playoffs",
           "settings": {},
-          "stages": [],
+          "stages": [
+            {
+              "id": "playoffs",
+              "name": "Playoffs",
+              "order": 1,
+              "status": "live",
+              "type": "single_elimination"
+            }
+          ],
           "type": "mixed"
         },
         "id": "hltv:9354",
@@ -11573,8 +12032,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "map_results": [
               {
                 "map_name": "Ancient",
-                "score1": 4,
-                "score2": 8,
+                "score1": 12,
+                "score2": 12,
                 "status": "finished"
               },
               {
@@ -11606,7 +12065,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
           },
           {
-            "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-2",
+            "event_id": "hltv:9354",
             "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398487",
@@ -11837,7 +12296,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398487/rare-atom-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
-            "stage_name": "Scheduled series",
+            "stage_name": "Playoffs",
             "status": "live",
             "team1_name": "Rare Atom",
             "team2_name": "The Huns",
@@ -13514,7 +13973,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "MEIA NOITE"
           },
           {
-            "event_id": "hltv:cct-2026-south-america-series-6",
+            "event_id": "hltv:9425",
             "event_name": "CCT 2026 South America Series 6",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398570",
@@ -15207,32 +15666,94 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "benched gods"
           },
           {
-            "event_id": "hltv:9433",
+            "event_id": "hltv:cct-2026-challengers-europe-series-7",
             "event_name": "CCT 2026 Challengers Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398804",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Dust2",
+              "Mirage",
+              "Ancient"
+            ],
             "match_id": "hltv:2398804",
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398804/phantom-academy-vs-illyrians-cct-2026-challengers-europe-series-7",
             "stage_name": "Scheduled series",
             "starts_at": "2026-09-27T13:45:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Phantom Academy",
-            "team2_name": "Illyrians"
+            "team2_name": "Illyrians",
+            "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
           },
           {
-            "event_id": "hltv:9433",
+            "event_id": "hltv:cct-2026-challengers-europe-series-7",
             "event_name": "CCT 2026 Challengers Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398805",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Mirage",
+              "Ancient",
+              "Dust2"
+            ],
             "match_id": "hltv:2398805",
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398805/mai-tai-vs-big-academy-cct-2026-challengers-europe-series-7",
             "stage_name": "Scheduled series",
             "starts_at": "2026-09-27T13:45:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Mai Tai",
-            "team2_name": "BIG Academy"
+            "team2_name": "BIG Academy",
+            "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
           }
         ],
         "name": "CCT 2026 Challengers Europe Series 7",
@@ -15255,11 +15776,11 @@ window.__STRIKESIGNAL_DATA__ = {
           "BIG Academy"
         ],
         "product_tier": "tier_2",
-        "status": "finished",
+        "status": "ongoing",
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-09-27T13:44:48Z",
+    "last_verified_utc": "2026-09-27T14:06:26Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -15697,7 +16218,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-27T13:45:19Z",
+  "generated_at_utc": "2026-09-27T14:06:57Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -17251,7 +17772,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-27T13:45:19Z",
+    "generated_at_utc": "2026-09-27T14:06:56Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -27170,117 +27691,6 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5612,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5612,
-      "event_id": "hltv:9433",
-      "event_name": "CCT 2026 Challengers Europe Series 7",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-27",
-      "match_id": "hltv:2398804",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790516700,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Phantom Academy",
-      "prob_team1": 0.5612,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398804/phantom-academy-vs-illyrians-cct-2026-challengers-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-27T13:45:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Phantom Academy",
-      "team1_vrs_rank": 293,
-      "team2_hltv_rank": null,
-      "team2_name": "Illyrians",
-      "team2_vrs_rank": null
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5275,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4725,
-      "event_id": "hltv:9433",
-      "event_name": "CCT 2026 Challengers Europe Series 7",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-27",
-      "match_id": "hltv:2398805",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790516700,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "BIG Academy",
-      "prob_team1": 0.4725,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398805/mai-tai-vs-big-academy-cct-2026-challengers-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-27T13:45:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Mai Tai",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "BIG Academy",
-      "team2_vrs_rank": 177
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5313,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4687,
-      "event_id": "hltv:9419",
-      "event_name": "CCT 2026 Europe Series 10 Closed Qualifier",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-27",
-      "match_id": "hltv:2398364",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790517600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "megoshort",
-      "prob_team1": 0.4687,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398364/spirit-academy-vs-megoshort-cct-2026-europe-series-10-closed-qualifier",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-27T14:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Spirit Academy",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "megoshort",
-      "team2_vrs_rank": 333
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5275,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -27628,8 +28038,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "map_results": [
         {
           "map_name": "Ancient",
-          "score1": 4,
-          "score2": 8,
+          "score1": 12,
+          "score2": 12,
           "status": "finished"
         },
         {
@@ -27685,15 +28095,87 @@ window.__STRIKESIGNAL_DATA__ = {
       "event_name": "CCT 2026 Europe Series 9",
       "format": "bo3",
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          {
+            "hltv_player_id": "21014",
+            "nickname": "Ag1l",
+            "player_id": "hltv:21014",
+            "source_url": "https://www.hltv.org/player/21014/ag1l",
+            "team_name": "Iberian Soul"
+          },
+          {
+            "hltv_player_id": "9254",
+            "nickname": "mopoz",
+            "player_id": "hltv:9254",
+            "source_url": "https://www.hltv.org/player/9254/mopoz",
+            "team_name": "Iberian Soul"
+          },
+          {
+            "hltv_player_id": "8371",
+            "nickname": "alex",
+            "player_id": "hltv:8371",
+            "source_url": "https://www.hltv.org/player/8371/alex",
+            "team_name": "Iberian Soul"
+          },
+          {
+            "hltv_player_id": "18749",
+            "nickname": "sausol",
+            "player_id": "hltv:18749",
+            "source_url": "https://www.hltv.org/player/18749/sausol",
+            "team_name": "Iberian Soul"
+          },
+          {
+            "hltv_player_id": "19509",
+            "nickname": "dav1g",
+            "player_id": "hltv:19509",
+            "source_url": "https://www.hltv.org/player/19509/dav1g",
+            "team_name": "Iberian Soul"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "24190",
+            "nickname": "youka",
+            "player_id": "hltv:24190",
+            "source_url": "https://www.hltv.org/player/24190/youka",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "17011",
+            "nickname": "shalfey",
+            "player_id": "hltv:17011",
+            "source_url": "https://www.hltv.org/player/17011/shalfey",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "24485",
+            "nickname": "yiksrezo",
+            "player_id": "hltv:24485",
+            "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "17508",
+            "nickname": "glowiing",
+            "player_id": "hltv:17508",
+            "source_url": "https://www.hltv.org/player/17508/glowiing",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "19297",
+            "nickname": "Brilliance",
+            "player_id": "hltv:19297",
+            "source_url": "https://www.hltv.org/player/19297/brilliance",
+            "team_name": "ex-RUSTEC"
+          }
+        ]
       },
       "map_results": [
         {
           "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 5,
+          "score2": 13,
+          "status": "finished"
         },
         {
           "map_name": "Mirage",
@@ -27740,12 +28222,75 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5129,
+      "confidence": 0.5612,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5129,
-      "event_id": "hltv:cct-2026-south-america-series-6",
-      "event_name": "CCT 2026 South America Series 6",
+      "elo_prob_team1": 0.5612,
+      "event_id": "hltv:cct-2026-challengers-europe-series-7",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Mirage",
+        "Ancient"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2398804",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Phantom Academy",
+      "prob_team1": 0.5612,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398804/phantom-academy-vs-illyrians-cct-2026-challengers-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Phantom Academy",
+      "team1_vrs_rank": 293,
+      "team2_hltv_rank": null,
+      "team2_name": "Illyrians",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5275,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4725,
+      "event_id": "hltv:cct-2026-challengers-europe-series-7",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
       "format": "bo3",
       "lineups": {
         "team1": [],
@@ -27754,18 +28299,18 @@ window.__STRIKESIGNAL_DATA__ = {
       "map_results": [
         {
           "map_name": "Mirage",
-          "score1": 9,
-          "score2": 3,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
           "score1": null,
           "score2": null,
           "status": "upcoming"
         },
         {
-          "map_name": "Inferno",
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Dust2",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -27773,9 +28318,46 @@ window.__STRIKESIGNAL_DATA__ = {
       ],
       "maps": [
         "Mirage",
-        "Dust2",
-        "Inferno"
+        "Ancient",
+        "Dust2"
       ],
+      "match_date": "",
+      "match_id": "hltv:2398805",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "BIG Academy",
+      "prob_team1": 0.4725,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398805/mai-tai-vs-big-academy-cct-2026-challengers-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Mai Tai",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "BIG Academy",
+      "team2_vrs_rank": 177
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5129,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5129,
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
       "match_date": "",
       "match_id": "hltv:2398570",
       "match_phase": "scheduled",
@@ -27807,110 +28389,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4254,
-      "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-2",
+      "event_id": "hltv:9354",
       "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
       "format": "bo3",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "21825",
-            "nickname": "L1haNg",
-            "player_id": "hltv:21825",
-            "source_url": "https://www.hltv.org/player/21825/l1hang",
-            "team_name": "Rare Atom"
-          },
-          {
-            "hltv_player_id": "8950",
-            "nickname": "kaze",
-            "player_id": "hltv:8950",
-            "source_url": "https://www.hltv.org/player/8950/kaze",
-            "team_name": "Rare Atom"
-          },
-          {
-            "hltv_player_id": "19681",
-            "nickname": "ChildKing",
-            "player_id": "hltv:19681",
-            "source_url": "https://www.hltv.org/player/19681/childking",
-            "team_name": "Rare Atom"
-          },
-          {
-            "hltv_player_id": "7028",
-            "nickname": "Summer",
-            "player_id": "hltv:7028",
-            "source_url": "https://www.hltv.org/player/7028/summer",
-            "team_name": "Rare Atom"
-          },
-          {
-            "hltv_player_id": "24306",
-            "nickname": "3gl",
-            "player_id": "hltv:24306",
-            "source_url": "https://www.hltv.org/player/24306/3gl",
-            "team_name": "Rare Atom"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "21398",
-            "nickname": "controlez",
-            "player_id": "hltv:21398",
-            "source_url": "https://www.hltv.org/player/21398/controlez",
-            "team_name": "The Huns"
-          },
-          {
-            "hltv_player_id": "15072",
-            "nickname": "nin9",
-            "player_id": "hltv:15072",
-            "source_url": "https://www.hltv.org/player/15072/nin9",
-            "team_name": "The Huns"
-          },
-          {
-            "hltv_player_id": "18689",
-            "nickname": "Annihilation",
-            "player_id": "hltv:18689",
-            "source_url": "https://www.hltv.org/player/18689/annihilation",
-            "team_name": "The Huns"
-          },
-          {
-            "hltv_player_id": "19957",
-            "nickname": "Bart4k",
-            "player_id": "hltv:19957",
-            "source_url": "https://www.hltv.org/player/19957/bart4k",
-            "team_name": "The Huns"
-          },
-          {
-            "hltv_player_id": "24512",
-            "nickname": "Cozen",
-            "player_id": "hltv:24512",
-            "source_url": "https://www.hltv.org/player/24512/cozen",
-            "team_name": "The Huns"
-          }
-        ]
-      },
-      "map_results": [
-        {
-          "map_name": "Ancient",
-          "score1": 1,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Ancient",
-        "Dust2",
-        "Mirage"
-      ],
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
       "match_date": "",
       "match_id": "hltv:2398487",
       "match_phase": "scheduled",
@@ -27925,7 +28409,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2398487/rare-atom-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
-      "stage_name": "Scheduled series",
+      "stage_name": "Playoffs",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
@@ -27934,11 +28418,48 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "The Huns",
       "team2_vrs_rank": 70
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5313,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4687,
+      "event_id": "hltv:9419",
+      "event_name": "CCT 2026 Europe Series 10 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "",
+      "match_id": "hltv:2398364",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "megoshort",
+      "prob_team1": 0.4687,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398364/spirit-academy-vs-megoshort-cct-2026-europe-series-10-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Spirit Academy",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "megoshort",
+      "team2_vrs_rank": 333
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 48,
+    "live_feed_items": 47,
     "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
