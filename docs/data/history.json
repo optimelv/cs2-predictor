@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3147,
+    "matches": 3150,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -1202,6 +1202,28 @@
       "source_url": "https://liquipedia.net/counterstrike/IBUYPOWER/Masters/2026/Fl0m%27s_Mythical_LAN#Group_B"
     },
     {
+      "match_id": "liquipedia:8a3532135a6ae6f57171",
+      "match_date": "2026-09-26",
+      "starts_at": "2026-09-26T17:00:00Z",
+      "event_name": "iBUYPOWER Masters FML 2026 - Group A",
+      "team1_name": "NRG",
+      "team2_name": "Wildcard",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Wildcard",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/IBUYPOWER/Masters/2026/Fl0m%27s_Mythical_LAN#Group_A"
+    },
+    {
       "match_id": "liquipedia:b43a9d767340398cc39c",
       "match_date": "2026-09-25",
       "starts_at": "2026-09-25T08:00:00Z",
@@ -1464,6 +1486,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/IBUYPOWER/Masters/2026/Fl0m%27s_Mythical_LAN#Group_B"
+    },
+    {
+      "match_id": "liquipedia:35e8362e7295117a1424",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T17:20:00Z",
+      "event_name": "iBUYPOWER Masters FML 2026 - Group A",
+      "team1_name": "NRG",
+      "team2_name": "Wildcard",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "NRG",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/IBUYPOWER/Masters/2026/Fl0m%27s_Mythical_LAN#Group_A"
+    },
+    {
+      "match_id": "liquipedia:f2b8c90bd31c0c242db3",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T22:45:00Z",
+      "event_name": "iBUYPOWER Masters FML 2026 - Group A",
+      "team1_name": "Liquid",
+      "team2_name": "NRG",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Liquid",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/IBUYPOWER/Masters/2026/Fl0m%27s_Mythical_LAN#Group_A"
     },
     {
       "match_id": "liquipedia:47257e6a894fa240b12b",

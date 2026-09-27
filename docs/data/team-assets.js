@@ -1770,5 +1770,65 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "CTRL",
     "logo_url": "https://liquipedia.net/commons/images/thumb/0/03/CTRL_Esports_2026_lightmode.png/100px-CTRL_Esports_2026_lightmode.png",
     "source": "Liquipedia"
+  },
+  "wave": {
+    "name": "Wave",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/59/Wave_Esports_2020_allmode.png/46px-Wave_Esports_2020_allmode.png",
+    "source": "Liquipedia"
+  },
+  "eac r": {
+    "name": "EAC.R",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/51/Esport_Academy_Copenhagen_Rising_allmode.png/39px-Esport_Academy_Copenhagen_Rising_allmode.png",
+    "source": "Liquipedia"
+  },
+  "next up": {
+    "name": "Next UP",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f2/Next_UP_lightmode.png/100px-Next_UP_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "passion a": {
+    "name": "Passion.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/13/Passion_UA_Academy_2025_lightmode.png/38px-Passion_UA_Academy_2025_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dfts": {
+    "name": "DFTS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/67/DEFEATERS_lightmode.png/59px-DEFEATERS_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "millennium": {
+    "name": "Millennium",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/0e/Millennium_Esports_feb_2025_allmode.png/34px-Millennium_Esports_feb_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "masq": {
+    "name": "MASQ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/86/MASQ_allmode.png/37px-MASQ_allmode.png",
+    "source": "Liquipedia"
+  },
+  "3dmax a": {
+    "name": "3DMAX.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ee/3DMAX_2024_allmode.png/36px-3DMAX_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "horizon": {
+    "name": "Horizon",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/60/Horizon_Esports_%28Polish_organization%29_lightmode.png/50px-Horizon_Esports_%28Polish_organization%29_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "melilla": {
+    "name": "Melilla",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a6/Melilla_Titans_lightmode.png/55px-Melilla_Titans_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "voids": {
+    "name": "VoidS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/ff/Void_Sentinels_allmode.png/52px-Void_Sentinels_allmode.png",
+    "source": "Liquipedia"
+  },
+  "doxa": {
+    "name": "DOXA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/05/DOXA_Gaming_allmode.png/100px-DOXA_Gaming_allmode.png",
+    "source": "Liquipedia"
   }
 };
