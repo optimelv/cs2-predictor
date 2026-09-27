@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3015,
+    "matches": 3105,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -452,6 +452,72 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:9a6bede31420905e6606",
+      "match_date": "2026-09-27",
+      "starts_at": "2026-09-27T10:30:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Playoffs",
+      "team1_name": "Leo",
+      "team2_name": "Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:dcfdc3f01a69fa0347a3",
+      "match_date": "2026-09-27",
+      "starts_at": "2026-09-27T13:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 3",
+      "team1_name": "BORRA",
+      "team2_name": "SdM",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BORRA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_3"
+    },
+    {
+      "match_id": "liquipedia:ad96cc3bc82c6c719d2a",
+      "match_date": "2026-09-27",
+      "starts_at": "2026-09-27T13:15:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Playoffs",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Iber. Soul",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Playoffs"
     },
     {
       "match_id": "hltv:2398542",
@@ -982,6 +1048,28 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Playoffs"
     },
     {
+      "match_id": "liquipedia:da25e6a2d8439a15e478",
+      "match_date": "2026-09-26",
+      "starts_at": "2026-09-26T19:15:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 3",
+      "team1_name": "MEIA NOITE",
+      "team2_name": "QUINTESS",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MEIA NOITE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_3"
+    },
+    {
       "match_id": "liquipedia:b43a9d767340398cc39c",
       "match_date": "2026-09-25",
       "starts_at": "2026-09-25T08:00:00Z",
@@ -1048,6 +1136,138 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Playoffs"
     },
     {
+      "match_id": "liquipedia:abb263f3055b327085a0",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T11:10:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Playoffs",
+      "team1_name": "Acend",
+      "team2_name": "Phoenix",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Acend",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:a683f606c3e8efc01d84",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T13:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 2",
+      "team1_name": "Procyon",
+      "team2_name": "QUINTESS",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Procyon",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_2"
+    },
+    {
+      "match_id": "liquipedia:7039462272ae43f41a2d",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T14:40:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Playoffs",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "OMEGA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:78506bec41e2e9657379",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T16:10:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 2",
+      "team1_name": "Alka",
+      "team2_name": "BORRA",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Alka",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_2"
+    },
+    {
+      "match_id": "liquipedia:18894ae20a640a9d32b2",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #2",
+      "team1_name": "Alka",
+      "team2_name": "MEIA NOITE",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Alka",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
+    },
+    {
+      "match_id": "liquipedia:49c9ee31add64fdc198d",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T22:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 2",
+      "team1_name": "BESTIA.A",
+      "team2_name": "SdM",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BESTIA.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_2"
+    },
+    {
       "match_id": "liquipedia:47257e6a894fa240b12b",
       "match_date": "2026-09-24",
       "starts_at": "2026-09-24T08:00:00Z",
@@ -1092,6 +1312,72 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Playoffs"
     },
     {
+      "match_id": "liquipedia:21ac7e4ba936b968585a",
+      "match_date": "2026-09-24",
+      "starts_at": "2026-09-24T17:10:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Playoffs",
+      "team1_name": "INOX",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:59c689b68f95c1b00c65",
+      "match_date": "2026-09-24",
+      "starts_at": "2026-09-24T19:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 2",
+      "team1_name": "Grêmio",
+      "team2_name": "your end",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Grêmio",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_2"
+    },
+    {
+      "match_id": "liquipedia:62a2947603acb37ed88d",
+      "match_date": "2026-09-24",
+      "starts_at": "2026-09-24T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #2",
+      "team1_name": "LowC",
+      "team2_name": "MEIA NOITE",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MEIA NOITE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
+    },
+    {
       "match_id": "liquipedia:89e660d09297831433f2",
       "match_date": "2026-09-23",
       "starts_at": "2026-09-23T11:00:00Z",
@@ -1134,6 +1420,116 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_5"
+    },
+    {
+      "match_id": "liquipedia:33dbfbe06cab1be4d6e6",
+      "match_date": "2026-09-23",
+      "starts_at": "2026-09-23T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Round 5",
+      "team1_name": "G2 Ares",
+      "team2_name": "INOX",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "INOX",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_5"
+    },
+    {
+      "match_id": "liquipedia:c3f11ddaede772b94eb0",
+      "match_date": "2026-09-23",
+      "starts_at": "2026-09-23T11:00:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Round 5",
+      "team1_name": "JustP",
+      "team2_name": "SPARTA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_5"
+    },
+    {
+      "match_id": "liquipedia:1154b497dd7235a56fcc",
+      "match_date": "2026-09-23",
+      "starts_at": "2026-09-23T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Round 5",
+      "team1_name": "Drama",
+      "team2_name": "Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_5"
+    },
+    {
+      "match_id": "liquipedia:46bcc33f0d720888aaaa",
+      "match_date": "2026-09-23",
+      "starts_at": "2026-09-23T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 5",
+      "team1_name": "Leo",
+      "team2_name": "Spirit.A",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Leo",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_5"
+    },
+    {
+      "match_id": "liquipedia:3d4035087e5cb59d8531",
+      "match_date": "2026-09-23",
+      "starts_at": "2026-09-23T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #2",
+      "team1_name": "Alka",
+      "team2_name": "SdM",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Alka",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
     },
     {
       "match_id": "hltv:2398342",
@@ -1972,6 +2368,160 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_4"
     },
     {
+      "match_id": "liquipedia:b36f52bf779690d7c782",
+      "match_date": "2026-09-22",
+      "starts_at": "2026-09-22T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 4",
+      "team1_name": "ENCE",
+      "team2_name": "JustP",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ENCE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_4"
+    },
+    {
+      "match_id": "liquipedia:2caf1a6b6cc23ee3dee5",
+      "match_date": "2026-09-22",
+      "starts_at": "2026-09-22T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 4",
+      "team1_name": "G2 Ares",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_4"
+    },
+    {
+      "match_id": "liquipedia:fb87e7cf9f592a4bc325",
+      "match_date": "2026-09-22",
+      "starts_at": "2026-09-22T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Round 4",
+      "team1_name": "Drama",
+      "team2_name": "ex-RUSTEC",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Drama",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_4"
+    },
+    {
+      "match_id": "liquipedia:e398bee9f09311f90d6f",
+      "match_date": "2026-09-22",
+      "starts_at": "2026-09-22T16:10:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 1",
+      "team1_name": "BORRA",
+      "team2_name": "DAMAJ",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BORRA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_1"
+    },
+    {
+      "match_id": "liquipedia:223104cf7dd294ca21e1",
+      "match_date": "2026-09-22",
+      "starts_at": "2026-09-22T17:30:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Round 4",
+      "team1_name": "JustP",
+      "team2_name": "UPGRADE",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "UPGRADE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_4"
+    },
+    {
+      "match_id": "liquipedia:74bdc04e1c8ad0a9cf90",
+      "match_date": "2026-09-22",
+      "starts_at": "2026-09-22T19:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 1",
+      "team1_name": "MIBR Fe",
+      "team2_name": "QUINTESS",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "QUINTESS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_1"
+    },
+    {
+      "match_id": "liquipedia:2cdade711271360d0b70",
+      "match_date": "2026-09-22",
+      "starts_at": "2026-09-22T20:55:00Z",
+      "event_name": "ECL Season 52: SA Cup #2",
+      "team1_name": "MEIA NOITE",
+      "team2_name": "TDP",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "TDP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
+    },
+    {
       "match_id": "hltv:2398341",
       "match_date": "2026-09-21",
       "event_name": "CCT 2026 Challengers South America Series 3",
@@ -2126,6 +2676,50 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_4"
     },
     {
+      "match_id": "liquipedia:e68880be08bc44fd560b",
+      "match_date": "2026-09-21",
+      "starts_at": "2026-09-21T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 4",
+      "team1_name": "Azuolas",
+      "team2_name": "Spirit.A",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_4"
+    },
+    {
+      "match_id": "liquipedia:b6ff498bd56a296c92f7",
+      "match_date": "2026-09-21",
+      "starts_at": "2026-09-21T14:20:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Round 4",
+      "team1_name": "G2 Ares",
+      "team2_name": "Leo",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "G2 Ares",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_4"
+    },
+    {
       "match_id": "hltv:2397829",
       "match_date": "2026-09-20",
       "event_name": "CCT 2026 Europe Series 9",
@@ -2245,6 +2839,50 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "BAKS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_3"
+    },
+    {
+      "match_id": "liquipedia:1198bda976a774678095",
+      "match_date": "2026-09-20",
+      "starts_at": "2026-09-20T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Round 3",
+      "team1_name": "G2 Ares",
+      "team2_name": "Honvéd",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "G2 Ares",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_3"
+    },
+    {
+      "match_id": "liquipedia:f4c929d1b187c18063bf",
+      "match_date": "2026-09-20",
+      "starts_at": "2026-09-20T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 3",
+      "team1_name": "Azuolas",
+      "team2_name": "ex-RUSTEC",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-RUSTEC",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -2597,6 +3235,28 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_3"
+    },
+    {
+      "match_id": "liquipedia:a650b3dab604c62d50cf",
+      "match_date": "2026-09-19",
+      "starts_at": "2026-09-19T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Round 3",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "W.PCF",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-RUSTEC",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -3380,6 +4040,50 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_2"
     },
     {
+      "match_id": "liquipedia:1a82d37b49bf4f70ad94",
+      "match_date": "2026-09-17",
+      "starts_at": "2026-09-17T14:35:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Round 2",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_2"
+    },
+    {
+      "match_id": "liquipedia:2cf2b11d8c77370ce891",
+      "match_date": "2026-09-17",
+      "starts_at": "2026-09-17T17:20:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 2",
+      "team1_name": "Nexus",
+      "team2_name": "Spirit.A",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_2"
+    },
+    {
       "match_id": "hltv:2398247",
       "match_date": "2026-09-16",
       "event_name": "CCT 2026 Contenders Europe Series 9",
@@ -3774,6 +4478,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_1"
+    },
+    {
+      "match_id": "liquipedia:fccb0429cb38d20c83f6",
+      "match_date": "2026-09-16",
+      "starts_at": "2026-09-16T17:05:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Round 1",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Nexus",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Round_1"
     },
     {
       "match_id": "hltv:2397881",
@@ -12004,6 +12730,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Playoffs"
     },
     {
+      "match_id": "liquipedia:6631332088936fe67d2e",
+      "match_date": "2026-09-06",
+      "starts_at": "2026-09-06T11:25:00Z",
+      "event_name": "CCT EU 2026 Series #8 - Round 3",
+      "team1_name": "HAVU",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_8#Round_3"
+    },
+    {
       "match_id": "hltv:2397331",
       "match_date": "2026-09-05",
       "event_name": "IEM Beijing 2026 Closed Qualifier",
@@ -13630,6 +14378,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:5f8ab9b1cec2d5c7b63b",
+      "match_date": "2026-09-04",
+      "starts_at": "2026-09-04T14:10:00Z",
+      "event_name": "CCT EU 2026 Series #8 - Round 2",
+      "team1_name": "Phoenix",
+      "team2_name": "UNiTY",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_8#Round_2"
     },
     {
       "match_id": "hltv:2396946",
@@ -15260,6 +16030,72 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Playoffs"
     },
     {
+      "match_id": "liquipedia:972a7d28781aee8bf2c7",
+      "match_date": "2026-09-02",
+      "starts_at": "2026-09-02T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #8 - Round 1",
+      "team1_name": "ex-Z10",
+      "team2_name": "Phoenix",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-Z10",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_8#Round_1"
+    },
+    {
+      "match_id": "liquipedia:23b572e70643794414f4",
+      "match_date": "2026-09-02",
+      "starts_at": "2026-09-02T14:10:00Z",
+      "event_name": "NODWIN Clutch Series #11 - Playoffs",
+      "team1_name": "INFINITE",
+      "team2_name": "Phoenix",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "INFINITE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:5c9692bfd15eabbd94d6",
+      "match_date": "2026-09-02",
+      "starts_at": "2026-09-02T16:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 5",
+      "team1_name": "Grêmio",
+      "team2_name": "MEIA NOITE",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MEIA NOITE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_5"
+    },
+    {
       "match_id": "hltv:2396942",
       "match_date": "2026-09-01",
       "event_name": "BLAST Open Porto 2026",
@@ -15766,6 +16602,50 @@
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_1#Results"
     },
     {
+      "match_id": "liquipedia:ae467e6252e4027efaba",
+      "match_date": "2026-09-01",
+      "starts_at": "2026-09-01T16:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 4",
+      "team1_name": "Alka",
+      "team2_name": "BORRA",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Alka",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_4"
+    },
+    {
+      "match_id": "liquipedia:9efe31e2c86dd3cb6360",
+      "match_date": "2026-09-01",
+      "starts_at": "2026-09-01T19:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 4",
+      "team1_name": "MEIA NOITE",
+      "team2_name": "Procyon",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Procyon",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_4"
+    },
+    {
       "match_id": "hltv:2397180",
       "match_date": "2026-08-31",
       "event_name": "ESL Challenger League Season 52 North America Cup 1",
@@ -16270,6 +17150,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_1#Results"
+    },
+    {
+      "match_id": "liquipedia:7d6fb18efa001b2c434a",
+      "match_date": "2026-08-31",
+      "starts_at": "2026-08-31T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #11 - Playoffs",
+      "team1_name": "BBL",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:8119b35aa10b604fff6c",
+      "match_date": "2026-08-31",
+      "starts_at": "2026-08-31T22:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 4",
+      "team1_name": "MAROMBA",
+      "team2_name": "SdM",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MAROMBA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_4"
     },
     {
       "match_id": "hltv:2396934",
@@ -17394,6 +18318,28 @@
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_1#Results"
     },
     {
+      "match_id": "liquipedia:91a608c3fe4dd400cd0b",
+      "match_date": "2026-08-30",
+      "starts_at": "2026-08-30T19:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 3",
+      "team1_name": "BORRA",
+      "team2_name": "Pldn",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Pldn",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_3"
+    },
+    {
       "match_id": "hltv:2396928",
       "match_date": "2026-08-29",
       "event_name": "BLAST Open Porto 2026",
@@ -18492,6 +19438,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_1#Results"
+    },
+    {
+      "match_id": "liquipedia:618e17b308b5364fcb9f",
+      "match_date": "2026-08-29",
+      "starts_at": "2026-08-29T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #11 - Round 5",
+      "team1_name": "Honvéd",
+      "team2_name": "SPARTA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_5"
     },
     {
       "match_id": "hltv:2396673",
@@ -19682,6 +20650,50 @@
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_1#Results"
     },
     {
+      "match_id": "liquipedia:c277424f36a283a59a7c",
+      "match_date": "2026-08-28",
+      "starts_at": "2026-08-28T17:00:00Z",
+      "event_name": "NODWIN Clutch Series #11 - Round 4",
+      "team1_name": "Phoenix",
+      "team2_name": "UPGRADE",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_4"
+    },
+    {
+      "match_id": "liquipedia:25ee5416795eb0ae6625",
+      "match_date": "2026-08-28",
+      "starts_at": "2026-08-28T22:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 2",
+      "team1_name": "BESTIA.A",
+      "team2_name": "BORRA",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "BORRA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_2"
+    },
+    {
       "match_id": "hltv:2396963",
       "match_date": "2026-08-27",
       "event_name": "CCT 2026 South America Series 5",
@@ -20782,6 +21794,50 @@
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_1#Results"
     },
     {
+      "match_id": "liquipedia:a3bcb18552d19e16e453",
+      "match_date": "2026-08-27",
+      "starts_at": "2026-08-27T16:15:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 2",
+      "team1_name": "MEIA NOITE",
+      "team2_name": "SdM",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MEIA NOITE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_2"
+    },
+    {
+      "match_id": "liquipedia:9cd9384cacf97aed9e00",
+      "match_date": "2026-08-27",
+      "starts_at": "2026-08-27T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #1",
+      "team1_name": "ex-MIBR.A",
+      "team2_name": "MEIA NOITE",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-MIBR.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_1#Results"
+    },
+    {
       "match_id": "hltv:2396614",
       "match_date": "2026-08-26",
       "event_name": "Esports World Cup 2026",
@@ -21728,6 +22784,72 @@
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_1#Results"
     },
     {
+      "match_id": "liquipedia:e3fcf50164dd38434811",
+      "match_date": "2026-08-26",
+      "starts_at": "2026-08-26T13:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 1",
+      "team1_name": "MEIA NOITE",
+      "team2_name": "ODDIK",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ODDIK",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_1"
+    },
+    {
+      "match_id": "liquipedia:720cf2f097214ee14509",
+      "match_date": "2026-08-26",
+      "starts_at": "2026-08-26T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #1",
+      "team1_name": "BORRA",
+      "team2_name": "MEIA NOITE",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MEIA NOITE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_1#Results"
+    },
+    {
+      "match_id": "liquipedia:63478c4e8eb1f95a48f4",
+      "match_date": "2026-08-26",
+      "starts_at": "2026-08-26T22:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 1",
+      "team1_name": "Grêmio",
+      "team2_name": "SdM",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Grêmio",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_1"
+    },
+    {
       "match_id": "hltv:2396869",
       "match_date": "2026-08-25",
       "event_name": "CCT 2026 Challengers Europe Series 5",
@@ -22232,6 +23354,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_3"
+    },
+    {
+      "match_id": "liquipedia:4c86dc925a7bf1b5a110",
+      "match_date": "2026-08-25",
+      "starts_at": "2026-08-25T13:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 1",
+      "team1_name": "BORRA",
+      "team2_name": "DAMAJ",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BORRA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_1"
     },
     {
       "match_id": "hltv:2396607",
@@ -22771,6 +23915,28 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "BW",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_7#Round_4"
+    },
+    {
+      "match_id": "liquipedia:41b02d6562d2ad88a19e",
+      "match_date": "2026-08-24",
+      "starts_at": "2026-08-24T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #7 - Round 4",
+      "team1_name": "HAVU",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -23400,6 +24566,50 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_2"
     },
     {
+      "match_id": "liquipedia:ea8aad7095729f5bc4b6",
+      "match_date": "2026-08-23",
+      "starts_at": "2026-08-23T11:00:00Z",
+      "event_name": "NODWIN Clutch Series #11 - Round 2",
+      "team1_name": "Nordic",
+      "team2_name": "Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_2"
+    },
+    {
+      "match_id": "liquipedia:6fe3a6369bb5ca6ef723",
+      "match_date": "2026-08-23",
+      "starts_at": "2026-08-23T14:15:00Z",
+      "event_name": "NODWIN Clutch Series #11 - Round 2",
+      "team1_name": "Honvéd",
+      "team2_name": "IC.Acad",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "IC.Acad",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_2"
+    },
+    {
       "match_id": "hltv:2396903",
       "match_date": "2026-08-22",
       "event_name": "ESL Challenger League Season 52 Europe Cup 4",
@@ -23972,6 +25182,50 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_7#Round_3"
     },
     {
+      "match_id": "liquipedia:2e5db6dacf8e44065265",
+      "match_date": "2026-08-22",
+      "starts_at": "2026-08-22T11:00:00Z",
+      "event_name": "NODWIN Clutch Series #11 - Round 1",
+      "team1_name": "Butterfly",
+      "team2_name": "Phoenix",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_1"
+    },
+    {
+      "match_id": "liquipedia:3ffe4321206606e638c1",
+      "match_date": "2026-08-22",
+      "starts_at": "2026-08-22T17:30:00Z",
+      "event_name": "CCT EU 2026 Series #7 - Round 3",
+      "team1_name": "Phoenix",
+      "team2_name": "UNiTY",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_7#Round_3"
+    },
+    {
       "match_id": "hltv:2396644",
       "match_date": "2026-08-21",
       "event_name": "CCT 2026 Europe Series 7",
@@ -24454,6 +25708,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_1"
+    },
+    {
+      "match_id": "liquipedia:c0cd2e6e1f33e443c021",
+      "match_date": "2026-08-21",
+      "starts_at": "2026-08-21T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #7 - Round 2",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Phoenix",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_7#Round_2"
     },
     {
       "match_id": "hltv:2396593",
@@ -26115,6 +27391,28 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "MASON",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_7#Round_1"
+    },
+    {
+      "match_id": "liquipedia:32ee6daddadc9de45510",
+      "match_date": "2026-08-18",
+      "starts_at": "2026-08-18T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #7 - Round 1",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Leo",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -32882,6 +34180,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Playoffs"
     },
     {
+      "match_id": "liquipedia:b1541f07c253a16721d9",
+      "match_date": "2026-08-07",
+      "starts_at": "2026-08-07T14:55:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Playoffs",
+      "team1_name": "33",
+      "team2_name": "ex-RUSTEC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "33",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Playoffs"
+    },
+    {
       "match_id": "hltv:2396412",
       "match_date": "2026-08-06",
       "event_name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -33144,6 +34464,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/10#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:fa775dd3547b7f32a97d",
+      "match_date": "2026-08-06",
+      "starts_at": "2026-08-06T18:25:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Playoffs",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "WW",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Playoffs"
     },
     {
       "match_id": "hltv:2396131",
@@ -33740,6 +35082,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Playoffs"
     },
     {
+      "match_id": "liquipedia:830e3cfa6e281ce521bc",
+      "match_date": "2026-08-05",
+      "starts_at": "2026-08-05T18:15:00Z",
+      "event_name": "NODWIN Clutch Series #10 - Playoffs",
+      "team1_name": "Butterfly",
+      "team2_name": "ex-RUSTEC",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/10#Playoffs"
+    },
+    {
       "match_id": "hltv:2396326",
       "match_date": "2026-08-04",
       "event_name": "CCT 2026 Contenders Europe Series 7",
@@ -34178,6 +35542,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/10#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:4958c26c17f2b546fd0e",
+      "match_date": "2026-08-04",
+      "starts_at": "2026-08-04T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 5",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "NV",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_5"
     },
     {
       "match_id": "hltv:2396187",
@@ -35302,6 +36688,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Playoffs"
     },
     {
+      "match_id": "liquipedia:2ea626d160510c09a472",
+      "match_date": "2026-08-02",
+      "starts_at": "2026-08-02T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 4",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Honvéd",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_4"
+    },
+    {
       "match_id": "hltv:2396178",
       "match_date": "2026-08-01",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -35850,6 +37258,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_3"
+    },
+    {
+      "match_id": "liquipedia:bee02a6da3ed3b27abe4",
+      "match_date": "2026-08-01",
+      "starts_at": "2026-08-01T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Playoffs",
+      "team1_name": "Butterfly",
+      "team2_name": "Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:0186365d1b81b6ebdd04",
+      "match_date": "2026-08-01",
+      "starts_at": "2026-08-01T17:50:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Playoffs",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "SPARTA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Playoffs"
     },
     {
       "match_id": "hltv:2396173",
@@ -36490,6 +37942,50 @@
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Playoffs"
     },
     {
+      "match_id": "liquipedia:06f1574ad530213eacf6",
+      "match_date": "2026-07-31",
+      "starts_at": "2026-07-31T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 3",
+      "team1_name": "ex-MANA",
+      "team2_name": "ex-RUSTEC",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_3"
+    },
+    {
+      "match_id": "liquipedia:cf06b5525a75712dfad0",
+      "match_date": "2026-07-31",
+      "starts_at": "2026-07-31T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #10 - Round 5",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Vexar",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/10#Round_5"
+    },
+    {
       "match_id": "hltv:2396169",
       "match_date": "2026-07-30",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -37018,6 +38514,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Playoffs"
     },
     {
+      "match_id": "liquipedia:9df5cf954c93ee7c1a8b",
+      "match_date": "2026-07-30",
+      "starts_at": "2026-07-30T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 2",
+      "team1_name": "Mai tai",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_2"
+    },
+    {
       "match_id": "hltv:2396014",
       "match_date": "2026-07-29",
       "event_name": "BLAST Bounty 2026 Season 2",
@@ -37368,6 +38886,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_D"
+    },
+    {
+      "match_id": "liquipedia:321c53b25c43bb384c67",
+      "match_date": "2026-07-29",
+      "starts_at": "2026-07-29T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Round 5",
+      "team1_name": "Entropy",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_5"
+    },
+    {
+      "match_id": "liquipedia:9177f5df65918a38d07c",
+      "match_date": "2026-07-29",
+      "starts_at": "2026-07-29T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 2",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "ex-YN",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-YN",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_2"
     },
     {
       "match_id": "hltv:2396008",
@@ -38074,6 +39636,72 @@
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_D"
     },
     {
+      "match_id": "liquipedia:419c3202d464e2cc0c0b",
+      "match_date": "2026-07-28",
+      "starts_at": "2026-07-28T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 1",
+      "team1_name": "ENJOY",
+      "team2_name": "Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_1"
+    },
+    {
+      "match_id": "liquipedia:68b0c375d31ef92fe5fe",
+      "match_date": "2026-07-28",
+      "starts_at": "2026-07-28T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #10 - Round 3",
+      "team1_name": "33",
+      "team2_name": "Honvéd",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "33",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/10#Round_3"
+    },
+    {
+      "match_id": "liquipedia:328bcb4254ec29ee73bf",
+      "match_date": "2026-07-28",
+      "starts_at": "2026-07-28T14:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group C",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "UNiTY",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_C"
+    },
+    {
       "match_id": "hltv:2396013",
       "match_date": "2026-07-27",
       "event_name": "BLAST Bounty 2026 Season 2",
@@ -38602,6 +40230,116 @@
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_D"
     },
     {
+      "match_id": "liquipedia:91461b85cf59df01c906",
+      "match_date": "2026-07-27",
+      "starts_at": "2026-07-27T08:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group C",
+      "team1_name": "Entropy",
+      "team2_name": "ex-RUSTEC",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_C"
+    },
+    {
+      "match_id": "liquipedia:cc8030fa2008f36e2c59",
+      "match_date": "2026-07-27",
+      "starts_at": "2026-07-27T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 1",
+      "team1_name": "Honvéd",
+      "team2_name": "SPARTA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_1"
+    },
+    {
+      "match_id": "liquipedia:d2068af09329b87d3a96",
+      "match_date": "2026-07-27",
+      "starts_at": "2026-07-27T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Round 4",
+      "team1_name": "BG",
+      "team2_name": "Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_4"
+    },
+    {
+      "match_id": "liquipedia:3768f7c8a578aff13e30",
+      "match_date": "2026-07-27",
+      "starts_at": "2026-07-27T14:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group D",
+      "team1_name": "Misa",
+      "team2_name": "Phoenix",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Misa",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_D"
+    },
+    {
+      "match_id": "liquipedia:5026bab2de917b8a2065",
+      "match_date": "2026-07-27",
+      "starts_at": "2026-07-27T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 1",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "IC.Acad",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "IC.Acad",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_1"
+    },
+    {
       "match_id": "hltv:2395770",
       "match_date": "2026-07-26",
       "event_name": "CCT 2026 South America Series 4",
@@ -39084,6 +40822,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_4#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:2e6521a67a281b6b749b",
+      "match_date": "2026-07-25",
+      "starts_at": "2026-07-25T13:00:00Z",
+      "event_name": "CCT SA 2026 Series #4 - Playoffs",
+      "team1_name": "BORRA",
+      "team2_name": "ODDIK",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ODDIK",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_4#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:43e91ff5e56619a92df5",
+      "match_date": "2026-07-25",
+      "starts_at": "2026-07-25T17:00:00Z",
+      "event_name": "NODWIN Clutch Series #10 - Round 2",
+      "team1_name": "Honvéd",
+      "team2_name": "Vexar",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Vexar",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/10#Round_2"
+    },
+    {
+      "match_id": "liquipedia:f82aaaffab58adf4a4fd",
+      "match_date": "2026-07-25",
+      "starts_at": "2026-07-25T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Round 3",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Rune",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_3"
     },
     {
       "match_id": "liquipedia:a4a2d9c4f550ea4ca42a",
@@ -39702,6 +41506,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_1"
     },
     {
+      "match_id": "liquipedia:457acbe3fd758da4f9df",
+      "match_date": "2026-07-22",
+      "starts_at": "2026-07-22T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Round 1",
+      "team1_name": "Phoenix",
+      "team2_name": "Rune",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_1"
+    },
+    {
       "match_id": "liquipedia:775682e591026cb87a45",
       "match_date": "2026-07-21",
       "starts_at": "2026-07-21T15:35:00Z",
@@ -39876,6 +41702,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/BLAST/Bounty/2026/Summer/Qualifier#Results"
+    },
+    {
+      "match_id": "liquipedia:3fbb6d99c31570b53796",
+      "match_date": "2026-07-21",
+      "starts_at": "2026-07-21T22:00:00Z",
+      "event_name": "CCT SA 2026 Series #4 - Round 4",
+      "team1_name": "BESTIA.A",
+      "team2_name": "BORRA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "BORRA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_4#Round_4"
     },
     {
       "match_id": "liquipedia:ff04fd5b40b54e938d95",
@@ -40184,6 +42032,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_3#Results"
+    },
+    {
+      "match_id": "liquipedia:03998070bceb699189dd",
+      "match_date": "2026-07-15",
+      "starts_at": "2026-07-15T22:00:00Z",
+      "event_name": "CCT SA 2026 Series #4 - Round 1",
+      "team1_name": "Alka",
+      "team2_name": "BORRA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Alka",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_4#Round_1"
     },
     {
       "match_id": "liquipedia:66b939d9ee920ae007ba",
@@ -46081,6 +47951,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
     },
     {
+      "match_id": "liquipedia:e5aafce744a58a37f892",
+      "match_date": "2026-06-05",
+      "starts_at": "2026-06-05T12:00:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 1 - Round 5",
+      "team1_name": "LVG",
+      "team2_name": "TYLOO",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "TYLOO",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_1#Round_5"
+    },
+    {
       "match_id": "hltv:2394861",
       "match_date": "2026-06-04",
       "event_name": "IEM Cologne Major 2026 Stage 1",
@@ -46437,6 +48329,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:cf1c983b8b820c0bda2e",
+      "match_date": "2026-06-04",
+      "starts_at": "2026-06-04T15:05:00Z",
+      "event_name": "IEM Cologne Major 2026 Stage 1 - Round 4",
+      "team1_name": "LVG",
+      "team2_name": "MIBR",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MIBR",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_1#Round_4"
     },
     {
       "match_id": "hltv:2394855",
@@ -46829,6 +48743,28 @@
           "story"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:fd7469682225039814a5",
+      "match_date": "2026-06-03",
+      "starts_at": "2026-06-03T11:15:00Z",
+      "event_name": "CCT EU 2026 Series #3 - Playoffs",
+      "team1_name": "1w",
+      "team2_name": "lavked",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "1w",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
     },
     {
       "match_id": "hltv:2394847",
@@ -47501,6 +49437,50 @@
           "oSee"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:6a05f4976ea235c6c54f",
+      "match_date": "2026-06-02",
+      "starts_at": "2026-06-02T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #3 - Round 5",
+      "team1_name": "ASTRAL",
+      "team2_name": "lavked",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "lavked",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Round_5"
+    },
+    {
+      "match_id": "liquipedia:1dee26ed3df144617e44",
+      "match_date": "2026-06-01",
+      "starts_at": "2026-06-01T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #3 - Round 4",
+      "team1_name": "KOLESIE",
+      "team2_name": "lavked",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "KOLESIE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Round_4"
     },
     {
       "match_id": "liquipedia:956381a490e4afe45e89",

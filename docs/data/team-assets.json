@@ -1625,5 +1625,65 @@
     "name": "Spirit Academy",
     "logo_url": "https://liquipedia.net/commons/images/thumb/1/14/Team_Spirit_Academy_2021_lightmode.png/63px-Team_Spirit_Academy_2021_lightmode.png",
     "source": "Liquipedia"
+  },
+  "sparx": {
+    "name": "SPARX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c9/SPARX_lightmode.png/100px-SPARX_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "omemo": {
+    "name": "Omemo",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/91/Omemo_lightmode.png/57px-Omemo_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "dia": {
+    "name": "DIA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/18/Diamant_Esports_allmode.png/63px-Diamant_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "snatch": {
+    "name": "Snatch",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/9c/Snatch_RU_allmode.png/46px-Snatch_RU_allmode.png",
+    "source": "Liquipedia"
+  },
+  "mayak": {
+    "name": "MAYAK",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7f/MAYAK_ARENA_icon_lightmode.png/49px-MAYAK_ARENA_icon_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "zetta": {
+    "name": "Zetta",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e0/Zetta_Games_allmode.png/47px-Zetta_Games_allmode.png",
+    "source": "Liquipedia"
+  },
+  "eqole": {
+    "name": "Eqole",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/73/Eqole_Team_allmode.png/45px-Eqole_Team_allmode.png",
+    "source": "Liquipedia"
+  },
+  "procyon": {
+    "name": "Procyon",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/28/Procyon_Team_2025_allmode.png/50px-Procyon_Team_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "rush ac": {
+    "name": "RUSH.ac",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f0/Rush_Gaming_BR_allmode.png/44px-Rush_Gaming_BR_allmode.png",
+    "source": "Liquipedia"
+  },
+  "mibr fe": {
+    "name": "MIBR Fe",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/85/MIBR_2018_lightmode.png/100px-MIBR_2018_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ur": {
+    "name": "UR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5f/Unsettled_Resentment_2026_allmode.png/65px-Unsettled_Resentment_2026_allmode.png",
+    "source": "Liquipedia"
+  },
+  "secret": {
+    "name": "Secret",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/01/Secret_%28Chinese_team%29_2024_allmode.png/52px-Secret_%28Chinese_team%29_2024_allmode.png",
+    "source": "Liquipedia"
   }
 }
