@@ -9,6 +9,11 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "logo_url": "https://liquipedia.net/commons/images/thumb/d/d7/Club_333_allmode.png/42px-Club_333_allmode.png",
     "source": "Liquipedia"
   },
+  "1337": {
+    "name": "1337",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4a/1337HUANIA.png/46px-1337HUANIA.png",
+    "source": "Liquipedia"
+  },
   "6666": {
     "name": "6666",
     "logo_url": "https://liquipedia.net/commons/images/thumb/4/44/6666_Esports_allmode.png/65px-6666_Esports_allmode.png",
@@ -1684,6 +1689,86 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
   "secret": {
     "name": "Secret",
     "logo_url": "https://liquipedia.net/commons/images/thumb/0/01/Secret_%28Chinese_team%29_2024_allmode.png/52px-Secret_%28Chinese_team%29_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "wg": {
+    "name": "WG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6a/Wanted_Goons_2023_lightmode.png/80px-Wanted_Goons_2023_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "gg": {
+    "name": "GG",
+    "logo_url": "https://liquipedia.net/commons/images/0/0b/GoldenGlorylogo_std.png",
+    "source": "Liquipedia"
+  },
+  "celestial": {
+    "name": "Celestial",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/65/Celestial_Titan_lightmode.png/33px-Celestial_Titan_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "nxg": {
+    "name": "NXG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/be/NXG_Esports_NA_allmode.png/52px-NXG_Esports_NA_allmode.png",
+    "source": "Liquipedia"
+  },
+  "lsr": {
+    "name": "LSR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fb/Team_LEISURE_aug_2024_lightmode.png/45px-Team_LEISURE_aug_2024_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ducks": {
+    "name": "Ducks",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/2e/Playing_Ducks_2014_allmode.png/43px-Playing_Ducks_2014_allmode.png",
+    "source": "Liquipedia"
+  },
+  "pandaric": {
+    "name": "Pandaric",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/8c/Pandaric_eSports_2021_allmode.png/59px-Pandaric_eSports_2021_allmode.png",
+    "source": "Liquipedia"
+  },
+  "big a": {
+    "name": "BIG.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4c/BIG_2020_lightmode.png/35px-BIG_2020_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "vcgo": {
+    "name": "VCGO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/15/Vortex_CGO_2024_lightmode.png/48px-Vortex_CGO_2024_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "tnc": {
+    "name": "TNC",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f9/TNC_Esports_lightmode.png/79px-TNC_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "p91": {
+    "name": "P91",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6f/Project_91_Racing_Team_allmode.png/100px-Project_91_Racing_Team_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ryvex": {
+    "name": "Ryvex",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6d/Ryvex_allmode.png/84px-Ryvex_allmode.png",
+    "source": "Liquipedia"
+  },
+  "bee": {
+    "name": "BEE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/26/B%C3%A9k%C3%A9scsabai_E-Sport_Egyes%C3%BClet_lightmode.png/50px-B%C3%A9k%C3%A9scsabai_E-Sport_Egyes%C3%BClet_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "cspos": {
+    "name": "CSPOS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/09/CSGOPOSITIVE_allmode.png/35px-CSGOPOSITIVE_allmode.png",
+    "source": "Liquipedia"
+  },
+  "glitch uk": {
+    "name": "Glitch.UK",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/ad/Glitchtech_Esports_allmode.png/54px-Glitchtech_Esports_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ctrl": {
+    "name": "CTRL",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/03/CTRL_Esports_2026_lightmode.png/100px-CTRL_Esports_2026_lightmode.png",
     "source": "Liquipedia"
   }
 };
