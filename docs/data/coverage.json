@@ -688,14 +688,86 @@
       "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398486",
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          {
+            "hltv_player_id": "22922",
+            "nickname": "EmiliaQAQ",
+            "player_id": "hltv:22922",
+            "source_url": "https://www.hltv.org/player/22922/emiliaqaq",
+            "team_name": "Lynn Vision"
+          },
+          {
+            "hltv_player_id": "23100",
+            "nickname": "C4LLM3SU3",
+            "player_id": "hltv:23100",
+            "source_url": "https://www.hltv.org/player/23100/c4llm3su3",
+            "team_name": "Lynn Vision"
+          },
+          {
+            "hltv_player_id": "16551",
+            "nickname": "Westmelon",
+            "player_id": "hltv:16551",
+            "source_url": "https://www.hltv.org/player/16551/westmelon",
+            "team_name": "Lynn Vision"
+          },
+          {
+            "hltv_player_id": "18744",
+            "nickname": "z4KR",
+            "player_id": "hltv:18744",
+            "source_url": "https://www.hltv.org/player/18744/z4kr",
+            "team_name": "Lynn Vision"
+          },
+          {
+            "hltv_player_id": "20254",
+            "nickname": "Starry",
+            "player_id": "hltv:20254",
+            "source_url": "https://www.hltv.org/player/20254/starry",
+            "team_name": "Lynn Vision"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "20703",
+            "nickname": "xerolte",
+            "player_id": "hltv:20703",
+            "source_url": "https://www.hltv.org/player/20703/xerolte",
+            "team_name": "NEXVOID"
+          },
+          {
+            "hltv_player_id": "23457",
+            "nickname": "Zesta",
+            "player_id": "hltv:23457",
+            "source_url": "https://www.hltv.org/player/23457/zesta",
+            "team_name": "NEXVOID"
+          },
+          {
+            "hltv_player_id": "22415",
+            "nickname": "AccuracyTG",
+            "player_id": "hltv:22415",
+            "source_url": "https://www.hltv.org/player/22415/accuracytg",
+            "team_name": "NEXVOID"
+          },
+          {
+            "hltv_player_id": "11141",
+            "nickname": "erkaSt",
+            "player_id": "hltv:11141",
+            "source_url": "https://www.hltv.org/player/11141/erkast",
+            "team_name": "NEXVOID"
+          },
+          {
+            "hltv_player_id": "15681",
+            "nickname": "Diesen",
+            "player_id": "hltv:15681",
+            "source_url": "https://www.hltv.org/player/15681/diesen",
+            "team_name": "NEXVOID"
+          }
+        ]
       },
       "map_results": [
         {
           "map_name": "Ancient",
-          "score1": 12,
-          "score2": 12,
+          "score1": 16,
+          "score2": 14,
           "status": "finished"
         },
         {
@@ -717,6 +789,128 @@
         "Inferno"
       ],
       "match_id": "hltv:2398486",
+      "player_stats": [
+        {
+          "adr": 87.7,
+          "deaths": 18,
+          "hltv_player_id": "22922",
+          "kast": 73.3,
+          "kills": 30,
+          "nickname": "EmiliaQAQ",
+          "player_id": "hltv:22922",
+          "rating": 1.49,
+          "source_url": "https://www.hltv.org/player/22922/emiliaqaq",
+          "team_side": 1
+        },
+        {
+          "adr": 79.4,
+          "deaths": 17,
+          "hltv_player_id": "23100",
+          "kast": 80,
+          "kills": 21,
+          "nickname": "C4LLM3SU3",
+          "player_id": "hltv:23100",
+          "rating": 1.31,
+          "source_url": "https://www.hltv.org/player/23100/c4llm3su3",
+          "team_side": 1
+        },
+        {
+          "adr": 87,
+          "deaths": 19,
+          "hltv_player_id": "16551",
+          "kast": 83.3,
+          "kills": 19,
+          "nickname": "Westmelon",
+          "player_id": "hltv:16551",
+          "rating": 1.21,
+          "source_url": "https://www.hltv.org/player/16551/westmelon",
+          "team_side": 1
+        },
+        {
+          "adr": 58.9,
+          "deaths": 17,
+          "hltv_player_id": "18744",
+          "kast": 73.3,
+          "kills": 16,
+          "nickname": "z4KR",
+          "player_id": "hltv:18744",
+          "rating": 0.91,
+          "source_url": "https://www.hltv.org/player/18744/z4kr",
+          "team_side": 1
+        },
+        {
+          "adr": 68.2,
+          "deaths": 20,
+          "hltv_player_id": "20254",
+          "kast": 70,
+          "kills": 21,
+          "nickname": "Starry",
+          "player_id": "hltv:20254",
+          "rating": 0.9,
+          "source_url": "https://www.hltv.org/player/20254/starry",
+          "team_side": 1
+        },
+        {
+          "adr": 99.9,
+          "deaths": 22,
+          "hltv_player_id": "20703",
+          "kast": 66.7,
+          "kills": 31,
+          "nickname": "xerolte",
+          "player_id": "hltv:20703",
+          "rating": 1.59,
+          "source_url": "https://www.hltv.org/player/20703/xerolte",
+          "team_side": 2
+        },
+        {
+          "adr": 76.5,
+          "deaths": 18,
+          "hltv_player_id": "23457",
+          "kast": 83.3,
+          "kills": 24,
+          "nickname": "Zesta",
+          "player_id": "hltv:23457",
+          "rating": 1.19,
+          "source_url": "https://www.hltv.org/player/23457/zesta",
+          "team_side": 2
+        },
+        {
+          "adr": 60.5,
+          "deaths": 20,
+          "hltv_player_id": "22415",
+          "kast": 63.3,
+          "kills": 13,
+          "nickname": "AccuracyTG",
+          "player_id": "hltv:22415",
+          "rating": 0.81,
+          "source_url": "https://www.hltv.org/player/22415/accuracytg",
+          "team_side": 2
+        },
+        {
+          "adr": 46.3,
+          "deaths": 23,
+          "hltv_player_id": "11141",
+          "kast": 53.3,
+          "kills": 13,
+          "nickname": "erkaSt",
+          "player_id": "hltv:11141",
+          "rating": 0.62,
+          "source_url": "https://www.hltv.org/player/11141/erkast",
+          "team_side": 2
+        },
+        {
+          "adr": 56.3,
+          "deaths": 26,
+          "hltv_player_id": "15681",
+          "kast": 66.7,
+          "kills": 8,
+          "nickname": "Diesen",
+          "player_id": "hltv:15681",
+          "rating": 0.57,
+          "source_url": "https://www.hltv.org/player/15681/diesen",
+          "team_side": 2
+        }
+      ],
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
@@ -1009,7 +1203,7 @@
       "veto_text": "Best of 3 (Online)\n\n* Lower bracket final"
     },
     {
-      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_id": "hltv:9404",
       "event_name": "CCT 2026 Europe Series 9",
       "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2397854",
@@ -1240,7 +1434,7 @@
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
+      "stage_name": "Semifinal",
       "status": "live",
       "team1_name": "Iberian Soul",
       "team2_name": "ex-RUSTEC",
@@ -5554,7 +5748,7 @@
       "winner_name": "Black Phoenix"
     },
     {
-      "event_id": "hltv:cct-2026-challengers-europe-series-7",
+      "event_id": "hltv:9433",
       "event_name": "CCT 2026 Challengers Europe Series 7",
       "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398804",
@@ -5599,7 +5793,7 @@
       "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
     },
     {
-      "event_id": "hltv:cct-2026-challengers-europe-series-7",
+      "event_id": "hltv:9433",
       "event_name": "CCT 2026 Challengers Europe Series 7",
       "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398805",
@@ -10321,12 +10515,52 @@
       "teams": 3
     },
     {
-      "bracket": null,
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:semifinal",
+            "matches": [
+              {
+                "event_id": "hltv:9404",
+                "event_name": "CCT 2026 Europe Series 9",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2397854",
+                "maps": [],
+                "match_id": "hltv:2397854",
+                "product_tier": "tier_2",
+                "round_name": "Semifinal",
+                "series_format": "bo3",
+                "slot_id": "main:semifinal:1",
+                "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
+                "stage_name": "Semifinal",
+                "starts_at": null,
+                "status": "live",
+                "team1_name": "Iberian Soul",
+                "team2_name": "ex-RUSTEC"
+              }
+            ],
+            "name": "Semifinal",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Semifinal",
       "format": {
-        "label": "Event schedule",
+        "label": "Semifinal",
         "settings": {},
-        "stages": [],
-        "type": "mixed"
+        "stages": [
+          {
+            "id": "semifinal",
+            "name": "Semifinal",
+            "order": 1,
+            "status": "live",
+            "type": "single_elimination"
+          }
+        ],
+        "type": "single_elimination"
       },
       "id": "hltv:9404",
       "matches": [
@@ -10979,7 +11213,7 @@
           "winner_name": "Black Phoenix"
         },
         {
-          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_id": "hltv:9404",
           "event_name": "CCT 2026 Europe Series 9",
           "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2397854",
@@ -11210,7 +11444,7 @@
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
-          "stage_name": "Scheduled series",
+          "stage_name": "Semifinal",
           "status": "live",
           "team1_name": "Iberian Soul",
           "team2_name": "ex-RUSTEC",
@@ -12025,14 +12259,86 @@
           "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398486",
           "lineups": {
-            "team1": [],
-            "team2": []
+            "team1": [
+              {
+                "hltv_player_id": "22922",
+                "nickname": "EmiliaQAQ",
+                "player_id": "hltv:22922",
+                "source_url": "https://www.hltv.org/player/22922/emiliaqaq",
+                "team_name": "Lynn Vision"
+              },
+              {
+                "hltv_player_id": "23100",
+                "nickname": "C4LLM3SU3",
+                "player_id": "hltv:23100",
+                "source_url": "https://www.hltv.org/player/23100/c4llm3su3",
+                "team_name": "Lynn Vision"
+              },
+              {
+                "hltv_player_id": "16551",
+                "nickname": "Westmelon",
+                "player_id": "hltv:16551",
+                "source_url": "https://www.hltv.org/player/16551/westmelon",
+                "team_name": "Lynn Vision"
+              },
+              {
+                "hltv_player_id": "18744",
+                "nickname": "z4KR",
+                "player_id": "hltv:18744",
+                "source_url": "https://www.hltv.org/player/18744/z4kr",
+                "team_name": "Lynn Vision"
+              },
+              {
+                "hltv_player_id": "20254",
+                "nickname": "Starry",
+                "player_id": "hltv:20254",
+                "source_url": "https://www.hltv.org/player/20254/starry",
+                "team_name": "Lynn Vision"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "20703",
+                "nickname": "xerolte",
+                "player_id": "hltv:20703",
+                "source_url": "https://www.hltv.org/player/20703/xerolte",
+                "team_name": "NEXVOID"
+              },
+              {
+                "hltv_player_id": "23457",
+                "nickname": "Zesta",
+                "player_id": "hltv:23457",
+                "source_url": "https://www.hltv.org/player/23457/zesta",
+                "team_name": "NEXVOID"
+              },
+              {
+                "hltv_player_id": "22415",
+                "nickname": "AccuracyTG",
+                "player_id": "hltv:22415",
+                "source_url": "https://www.hltv.org/player/22415/accuracytg",
+                "team_name": "NEXVOID"
+              },
+              {
+                "hltv_player_id": "11141",
+                "nickname": "erkaSt",
+                "player_id": "hltv:11141",
+                "source_url": "https://www.hltv.org/player/11141/erkast",
+                "team_name": "NEXVOID"
+              },
+              {
+                "hltv_player_id": "15681",
+                "nickname": "Diesen",
+                "player_id": "hltv:15681",
+                "source_url": "https://www.hltv.org/player/15681/diesen",
+                "team_name": "NEXVOID"
+              }
+            ]
           },
           "map_results": [
             {
               "map_name": "Ancient",
-              "score1": 12,
-              "score2": 12,
+              "score1": 16,
+              "score2": 14,
               "status": "finished"
             },
             {
@@ -12054,6 +12360,128 @@
             "Inferno"
           ],
           "match_id": "hltv:2398486",
+          "player_stats": [
+            {
+              "adr": 87.7,
+              "deaths": 18,
+              "hltv_player_id": "22922",
+              "kast": 73.3,
+              "kills": 30,
+              "nickname": "EmiliaQAQ",
+              "player_id": "hltv:22922",
+              "rating": 1.49,
+              "source_url": "https://www.hltv.org/player/22922/emiliaqaq",
+              "team_side": 1
+            },
+            {
+              "adr": 79.4,
+              "deaths": 17,
+              "hltv_player_id": "23100",
+              "kast": 80,
+              "kills": 21,
+              "nickname": "C4LLM3SU3",
+              "player_id": "hltv:23100",
+              "rating": 1.31,
+              "source_url": "https://www.hltv.org/player/23100/c4llm3su3",
+              "team_side": 1
+            },
+            {
+              "adr": 87,
+              "deaths": 19,
+              "hltv_player_id": "16551",
+              "kast": 83.3,
+              "kills": 19,
+              "nickname": "Westmelon",
+              "player_id": "hltv:16551",
+              "rating": 1.21,
+              "source_url": "https://www.hltv.org/player/16551/westmelon",
+              "team_side": 1
+            },
+            {
+              "adr": 58.9,
+              "deaths": 17,
+              "hltv_player_id": "18744",
+              "kast": 73.3,
+              "kills": 16,
+              "nickname": "z4KR",
+              "player_id": "hltv:18744",
+              "rating": 0.91,
+              "source_url": "https://www.hltv.org/player/18744/z4kr",
+              "team_side": 1
+            },
+            {
+              "adr": 68.2,
+              "deaths": 20,
+              "hltv_player_id": "20254",
+              "kast": 70,
+              "kills": 21,
+              "nickname": "Starry",
+              "player_id": "hltv:20254",
+              "rating": 0.9,
+              "source_url": "https://www.hltv.org/player/20254/starry",
+              "team_side": 1
+            },
+            {
+              "adr": 99.9,
+              "deaths": 22,
+              "hltv_player_id": "20703",
+              "kast": 66.7,
+              "kills": 31,
+              "nickname": "xerolte",
+              "player_id": "hltv:20703",
+              "rating": 1.59,
+              "source_url": "https://www.hltv.org/player/20703/xerolte",
+              "team_side": 2
+            },
+            {
+              "adr": 76.5,
+              "deaths": 18,
+              "hltv_player_id": "23457",
+              "kast": 83.3,
+              "kills": 24,
+              "nickname": "Zesta",
+              "player_id": "hltv:23457",
+              "rating": 1.19,
+              "source_url": "https://www.hltv.org/player/23457/zesta",
+              "team_side": 2
+            },
+            {
+              "adr": 60.5,
+              "deaths": 20,
+              "hltv_player_id": "22415",
+              "kast": 63.3,
+              "kills": 13,
+              "nickname": "AccuracyTG",
+              "player_id": "hltv:22415",
+              "rating": 0.81,
+              "source_url": "https://www.hltv.org/player/22415/accuracytg",
+              "team_side": 2
+            },
+            {
+              "adr": 46.3,
+              "deaths": 23,
+              "hltv_player_id": "11141",
+              "kast": 53.3,
+              "kills": 13,
+              "nickname": "erkaSt",
+              "player_id": "hltv:11141",
+              "rating": 0.62,
+              "source_url": "https://www.hltv.org/player/11141/erkast",
+              "team_side": 2
+            },
+            {
+              "adr": 56.3,
+              "deaths": 26,
+              "hltv_player_id": "15681",
+              "kast": 66.7,
+              "kills": 8,
+              "nickname": "Diesen",
+              "player_id": "hltv:15681",
+              "rating": 0.57,
+              "source_url": "https://www.hltv.org/player/15681/diesen",
+              "team_side": 2
+            }
+          ],
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398486/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
@@ -15665,7 +16093,7 @@
           "winner_name": "benched gods"
         },
         {
-          "event_id": "hltv:cct-2026-challengers-europe-series-7",
+          "event_id": "hltv:9433",
           "event_name": "CCT 2026 Challengers Europe Series 7",
           "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398804",
@@ -15710,7 +16138,7 @@
           "veto_text": "Best of 3 (Online)\n\n* Upper bracket round of 16"
         },
         {
-          "event_id": "hltv:cct-2026-challengers-europe-series-7",
+          "event_id": "hltv:9433",
           "event_name": "CCT 2026 Challengers Europe Series 7",
           "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398805",
@@ -15779,7 +16207,7 @@
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-09-27T14:06:26Z",
+  "last_verified_utc": "2026-09-27T14:34:31Z",
   "sources": [
     {
       "name": "HLTV events calendar",
