@@ -2,18 +2,18 @@
 
 ## Desktop quality backlog — reported 2026-09-23
 
-These are recorded for a later polish pass; no UI implementation is part of the current privacy work. Verify at desktop width first, then check mobile for regressions.
+Desktop is the primary target. Recheck mobile after desktop changes.
 
-1. **Players view layout:** The lower part of the player list is covered by a large grey block, while the detail panel on the right is clipped. Reproduce with a selected player near the end of the list; fix the grid's height, overflow, and scroll ownership without hiding list rows or profile content.
-2. **My picks:** The tab can show a `0` count and an empty content area. Reproduce after saving a valid pick, refreshing, switching tabs, and revisiting on the same device. Check storage hydration, count, empty state, and saved-vs-draft behavior before changing copy.
-3. **Recent source snapshot:** The status strip can show only a generic “Recent source snapshot” label without useful freshness context. Reproduce fresh, stale, and failed source responses; ensure status, source timestamp, fallback state, and “Details & refresh” stay consistent.
+1. **Players view layout:** The reported grey area and clipped detail panel need continued desktop review. The current browser test can select the last player and scroll the detail panel independently; keep this regression check and investigate any width where the original screenshot still reproduces.
+2. **My picks:** A saved pick and its count survived a production reload in the browser check. The empty view now has a compact explanation and route back to upcoming matches; confirm the deployed version visually.
+3. **Recent source snapshot:** The status strip now shows the source timestamp and distinguishes an old snapshot. Confirm fresh, stale, and failed responses after deployment, including the details control.
 4. **Radar chart exploration:** Consider a player or team comparison radar using the [EvilCharts ECharts example](https://evilcharts.com/docs/echarts/radar-chart/static) as visual reference. Only compare metrics on an explicitly shared scale, show sample size and source date, provide a data table, and keep the existing visual language. Do not add a chart merely to decorate a profile.
 5. **Typography reference:** Review [Justice](https://justice.kitlangton.com/) for long editorial paragraphs only. It addresses paragraph justification, not the player-list clipping or pick-state defects; adopt it only if it improves readability without runtime or accessibility cost.
 
 ## Visual asset coverage — measured 2026-09-27
 
-- **Team logos first:** The current data contains 134 distinct teams in upcoming/current matches; 79 lack a genuine mapped logo after excluding generic Liquipedia placeholders. Prioritize logos for visible Tier 1/2 matches, verify that image URLs load in a browser, and retain the existing initials fallback. Some HLTV CDN URLs currently return 403, so a URL in the asset map is not proof of a working logo.
-- **Selective player portraits second:** The site currently has no portrait assets or rendering path. Add portraits for prominent Tier 1 players first; include Tier 2 only when a player is relevant to the visible match desk. Do not try to cover all 315 profiles. Require stable player identity and usable image rights, preserve a text/initials fallback, and never gate match collection or model updates on photos.
+- **Team logos first:** Liquipedia imports now add verified candidates incrementally; five additional visible-team aliases were mapped manually on 2026-09-27. Continue prioritizing logos for Tier 1/2 matches, verify browser loading, and retain the initials fallback. Some HLTV CDN URLs return 403, so a mapped URL alone is insufficient.
+- **Selective player portraits second:** The site currently has no portrait assets or rendering path. Add portraits for prominent Tier 1 players first; include Tier 2 only when a player is relevant to the visible match desk. Require stable identity and usable image rights, preserve a text/initials fallback, and never gate match collection or model updates on photos.
 
 ## Release 1: Circuit Intelligence
 

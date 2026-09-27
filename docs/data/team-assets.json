@@ -1600,5 +1600,30 @@
     "name": "EULTRA",
     "logo_url": "https://liquipedia.net/commons/images/thumb/c/cd/ENERGYULTRA_Lightmode.png/39px-ENERGYULTRA_Lightmode.png",
     "source": "Liquipedia"
+  },
+  "club 333": {
+    "name": "Club 333",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d7/Club_333_allmode.png/42px-Club_333_allmode.png",
+    "source": "Liquipedia"
+  },
+  "iberian soul": {
+    "name": "Iberian Soul",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/bf/Iberian_Soul_allmode.png/37px-Iberian_Soul_allmode.png",
+    "source": "Liquipedia"
+  },
+  "nexvoid": {
+    "name": "NEXVOID",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/46/NEXVOID_allmode.png/78px-NEXVOID_allmode.png",
+    "source": "Liquipedia"
+  },
+  "navi junior": {
+    "name": "NAVI Junior",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/df/Natus_Vincere_Junior_2021_lightmode.png/49px-Natus_Vincere_Junior_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "spirit academy": {
+    "name": "Spirit Academy",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/14/Team_Spirit_Academy_2021_lightmode.png/63px-Team_Spirit_Academy_2021_lightmode.png",
+    "source": "Liquipedia"
   }
 }
