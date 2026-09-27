@@ -21,6 +21,12 @@ def card(match_id):
 
 
 class RunnerBackfillTests(unittest.TestCase):
+    def test_tied_result_is_preserved_without_a_model_target(self):
+        tied = {**card(101), "team1_score": 12, "team2_score": 12}
+        result = observed_result(tied)
+        self.assertEqual((result["score1"], result["score2"]), (12, 12))
+        self.assertIsNone(result["winner_name"])
+
     def test_full_overlapping_page_advances_without_overwriting_existing_rows(self):
         with tempfile.TemporaryDirectory() as directory:
             archive = Path(directory) / "observed.jsonl"

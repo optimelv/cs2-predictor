@@ -9,8 +9,9 @@ export function validResult(match) {
     && /(?:Z|[+-]\d\d:\d\d)$/.test(String(match.starts_at || ""))
     && Number.isFinite(time) && time <= Date.now() + 5 * 60_000
     && match.score1 != null && match.score2 != null
-    && Number.isInteger(score1) && Number.isInteger(score2) && score1 !== score2
-    && match.team1_name && match.team2_name && match.winner_name;
+    && Number.isInteger(score1) && Number.isInteger(score2) && score1 >= 0 && score2 >= 0
+    && match.team1_name && match.team2_name
+    && (score1 === score2 ? !match.winner_name : Boolean(match.winner_name));
 }
 
 export async function ingest(inputPath, outputPath) {

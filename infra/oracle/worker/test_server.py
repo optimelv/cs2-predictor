@@ -188,6 +188,20 @@ class WorkerParserTests(unittest.TestCase):
         self.assertEqual(rows[0]["status"], "finished")
         self.assertEqual(rows[0]["starts_at"], "2026-07-25T12:00:00Z")
 
+    def test_tied_result_card_is_archived_without_a_winner(self):
+        from server import archived_result
+        html = """
+        <a class="result-con" data-zonedgrouping-entry-unix="1784980800000" href="/matches/2389001/result">
+          <div class="team">MOUZ</div><div class="team">NAVI</div>
+          <div class="result-score">12 - 12</div>
+          <div class="event-name">Finals</div>
+        </a>
+        """
+        row = parse_results(html)[0]
+        self.assertIsNone(row["winner_name"])
+        self.assertIsNone(archived_result({**row, "winner_name": "NAVI"}))
+        self.assertIsNone(archived_result(row)["winner_name"])
+
     def test_detail_adds_veto_and_map_results(self):
         html = """
         <div class="timeAndEvent"><div class="event"><a href="/events/9999/example">Example Cup</a></div></div>

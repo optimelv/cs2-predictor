@@ -209,7 +209,7 @@ def parse_results(html: str) -> list[dict[str, Any]]:
             "status": "finished",
             "score1": score1,
             "score2": score2,
-            "winner_name": teams[0] if score1 is not None and score2 is not None and score1 > score2 else teams[1] if score1 is not None and score2 is not None else "",
+            "winner_name": teams[0] if score1 is not None and score2 is not None and score1 > score2 else teams[1] if score1 is not None and score2 is not None and score2 > score1 else None,
             "maps": [],
         })
     return matches
@@ -660,7 +660,7 @@ def archived_result(match: dict[str, Any]) -> dict[str, Any] | None:
         score1, score2 = int(match["score1"]), int(match["score2"])
     except (ValueError, KeyError, TypeError):
         return None
-    if stamp.tzinfo is None or stamp.year < 2024 or stamp > datetime.now(timezone.utc) + timedelta(minutes=5) or score1 == score2 or not match.get("team1_name") or not match.get("team2_name"):
+    if stamp.tzinfo is None or stamp.year < 2024 or stamp > datetime.now(timezone.utc) + timedelta(minutes=5) or min(score1, score2) < 0 or not match.get("team1_name") or not match.get("team2_name") or (score1 == score2 and match.get("winner_name")):
         return None
     return {key: match.get(key) for key in ("match_id", "hltv_match_id", "source_url", "event_id", "event_name", "product_tier", "team1_name", "team2_name", "starts_at", "series_format", "status", "score1", "score2", "winner_name")}
 
