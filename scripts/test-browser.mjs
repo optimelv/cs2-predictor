@@ -47,8 +47,22 @@ try {
   assert.ok(['fresh', 'stale'].includes(sourceState), 'The bundled snapshot needs a valid source timestamp');
   assert.match(evaluate("document.querySelector('#sourceStatusTitle').textContent"), sourceState === 'stale' ? /Historical snapshot.*2026/ : /Snapshot checked.*2026/, 'Source strip must show a dated state without opening details');
   if (sourceState === 'stale') assert.equal(evaluate("[...document.querySelectorAll('[data-save-match-pick]')].every(button => button.disabled)"), true);
+  assert.equal(evaluate("document.body.dataset.productPage"), 'home', 'The root URL must open the home page');
+  assert.equal(evaluate("document.querySelector('#homeFeatured').textContent.trim().length > 0"), true, 'Home must render a real-data or explicit empty state');
   noOverflow();
+  screenshot('home');
+  click('.home-primary');
+  assert.equal(evaluate("document.body.dataset.productPage"), 'matches', 'Home CTA must open the match desk');
+  click('.brand');
+  if (evaluate("!!document.querySelector('#homeMatchList [data-home-match]')")) {
+    click('#homeMatchList [data-home-match]');
+    assert.equal(evaluate("document.body.dataset.productPage"), 'matches', 'A home match must open its analysis');
+    assert.equal(evaluate("!!document.querySelector('#deciderGrid .match-row.is-selected')"), true, 'The selected home match must be active in the desk');
+  } else click('.home-primary');
   screenshot('desktop');
+  const matchLayout = evaluate("(() => { const list = document.querySelector('#deciderGrid .match-row-list'); const insight = document.querySelector('#deciderGrid .match-insight'); const last = insight.lastElementChild; return { listHeight: list.clientHeight, listScrollHeight: list.scrollHeight, insightGap: Math.round(insight.getBoundingClientRect().bottom - last.getBoundingClientRect().bottom) }; })()");
+  assert.ok(matchLayout.listScrollHeight > matchLayout.listHeight, 'A long match list must scroll inside its desktop pane');
+  assert.ok(matchLayout.insightGap < 40, 'Match analysis must not stretch below its content');
   click('#openMyDesk');
   assert.equal(evaluate("document.querySelector('#myDeskContent').textContent.includes('No saved picks yet.')"), true, 'Empty My picks needs a clear action');
   assert.equal(evaluate("document.querySelector('#myDeskContent .my-desk-grid') === null"), true, 'Empty My picks must not render a wall of empty panels');
@@ -79,6 +93,7 @@ try {
   assert.equal(evaluate("document.querySelector('main').inert"), false);
   console.log('PASS: search arrows, focus containment, Escape and focus return');
 
+  at('#deciderGrid [data-open-veto]');
   click('#deciderGrid [data-open-veto]');
   dialogOpen('vetoLabLayer');
   assert.equal(evaluate("document.querySelectorAll('[data-veto-map]').length"), 7);
@@ -93,6 +108,13 @@ try {
 
   click('.top-nav [href="#events"]');
   click('#eventsGrid .event-card:first-child [data-event-open]');
+  click('[data-event-view="matches"]');
+  const eventLayout = evaluate("(() => { const desk = document.querySelector('.event-match-desk'); const list = desk?.querySelector('.event-match-list'); const feature = desk?.querySelector('.event-match-insight .match-feature'); return desk && list && feature ? { leftTop: list.getBoundingClientRect().top, rightTop: feature.getBoundingClientRect().top, height: desk.clientHeight, rows: list.querySelectorAll('.event-match-row').length, listHeight: list.clientHeight, listScrollHeight: list.scrollHeight } : null; })()");
+  if (eventLayout) {
+    assert.ok(Math.abs(eventLayout.rightTop - eventLayout.leftTop) < 36, 'Event match analysis must start beside the schedule');
+    assert.ok(eventLayout.height <= 900, 'Event match desk must not grow into a blank column');
+    if (eventLayout.rows > 8) assert.ok(eventLayout.listScrollHeight > eventLayout.listHeight, 'Long event schedules need their own scroll area');
+  }
   click('[data-event-view="bracket"]');
   assert.ok(evaluate("document.querySelector('#swissBoard').textContent.length") > 100);
   click('[data-event-view="format"]');
@@ -101,6 +123,11 @@ try {
   click('#rankingToggle');
   assert.equal(evaluate("document.querySelector('#rankingToggle').getAttribute('aria-expanded')"), 'true');
   click('.browse-tabs [href="#players"]');
+  wait("document.querySelector('#playerDetail .player-portrait')?.naturalWidth > 0");
+  assert.match(evaluate("document.querySelector('#playerDetail .player-photo-credit').textContent"), /Photo:.*CC BY/, 'Licensed portrait must show its credit');
+  click('#playerGrid [data-player-id="hltv:22673"]');
+  assert.equal(evaluate("document.querySelector('#playerDetail .player-portrait') === null"), true, 'Uncovered players keep the initials fallback');
+  click('#playerGrid [data-player-id="hltv:21167"]');
   const playerColumns = evaluate("(() => { const list = document.querySelector('#playerGrid'); const detail = document.querySelector('#playerDetail'); return { listHeight: list.clientHeight, detailHeight: detail.clientHeight, listScrollHeight: list.scrollHeight, detailScrollHeight: detail.scrollHeight }; })()");
   assert.ok(Math.abs(playerColumns.listHeight - playerColumns.detailHeight) <= 1, 'Player list and detail must share a desktop viewport');
   assert.ok(playerColumns.listScrollHeight > playerColumns.listHeight, 'The full player list must have its own scroll area');
@@ -136,6 +163,7 @@ try {
     if (width === 390) {
       screenshot('mobile-events');
       click('.mobile-dock [href="#matches"]'); screenshot('mobile-matches');
+      click('.mobile-dock [href="#home"]'); noOverflow(); screenshot('mobile-home');
       click('.mobile-dock [href="#events"]');
     }
   }

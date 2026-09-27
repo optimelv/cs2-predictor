@@ -13,7 +13,12 @@ Desktop is the primary target. Recheck mobile after desktop changes.
 ## Visual asset coverage — measured 2026-09-27
 
 - **Team logos first:** Liquipedia imports now add verified candidates incrementally; five additional visible-team aliases were mapped manually on 2026-09-27. Continue prioritizing logos for Tier 1/2 matches, verify browser loading, and retain the initials fallback. Some HLTV CDN URLs return 403, so a mapped URL alone is insufficient.
-- **Selective player portraits second:** The site currently has no portrait assets or rendering path. Add portraits for prominent Tier 1 players first; include Tier 2 only when a player is relevant to the visible match desk. Require stable identity and usable image rights, preserve a text/initials fallback, and never gate match collection or model updates on photos.
+- **Selective player portraits second:** Eight prominent Tier 1 players now have local, licensed portraits with source and license credits in their profiles and team rosters. Continue selectively for relevant Tier 1/2 players only after checking identity and image rights. Uncovered players retain the initials fallback; photo coverage never gates match collection or model updates.
+
+## Home and page polish
+
+- **Home section implemented:** The root URL now opens a desktop-first home with a real upcoming series, source freshness, and direct paths into existing product views. It has an explicit empty state when the verified slate has no future match; no fabricated social proof or decorative statistics.
+- Audit large empty areas and clipping in the existing pages at wide and compact desktop widths. Match and event match analyses should begin beside their lists, with long lists independently scrollable. Retain the mobile layout as a supported fallback.
 
 ## Release 1: Circuit Intelligence
 

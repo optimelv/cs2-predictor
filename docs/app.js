@@ -34,8 +34,9 @@ import {
   vetoTeamKey,
 } from "./lib/veto.js?v=20260726.1";
 
-import { installProductNavigation } from "./lib/navigation.js?v=20260920.1";
+import { installProductNavigation } from "./lib/navigation.js?v=20260927.1";
 import { installChartInteractions, renderInteractiveLineChart } from "./lib/chart-interactions.js?v=20260920.1";
+import { playerPortraitFor } from "./lib/player-portraits.js?v=20260927.1";
 
 let productNavigation = null;
 let pendingVetoMap = null;
@@ -44,6 +45,9 @@ const draftPicks = new Map();
 const DATA_URL = "./data/predictions.json";
 const SUPPLEMENTAL_TEAM_ASSETS = window.__STRIKESIGNAL_TEAM_ASSETS__ || {};
 const STATIC_PLAYER_SNAPSHOT = window.__STRIKESIGNAL_PLAYERS__ || { players: [] };
+document.addEventListener("error", (event) => {
+  if (event.target?.classList?.contains("player-portrait")) event.target.remove();
+}, true);
 let historySnapshot = null;
 let historyLoadPromise = null;
 
@@ -73,6 +77,8 @@ const els = {
   eventsGrid: document.querySelector("#eventsGrid"),
   matchToolbar: document.querySelector("#matchToolbar"),
   deciderGrid: document.querySelector("#deciderGrid"),
+  homeFeatured: document.querySelector("#homeFeatured"),
+  homeMatchList: document.querySelector("#homeMatchList"),
   modelPre: document.querySelector("#modelPre"),
   modelPost: document.querySelector("#modelPost"),
   modelCalibration: document.querySelector("#modelCalibration"),
@@ -617,6 +623,33 @@ function dailyMatchCalls() {
     .filter((match) => match.starts_at && Number.isFinite(new Date(match.starts_at).getTime()))
     .filter((match) => !matchIsStaleUnresolved(match))
     .sort((a, b) => new Date(a.starts_at || 0) - new Date(b.starts_at || 0) || matchSignalScore(b) - matchSignalScore(a));
+}
+
+function renderHome() {
+  if (!els.homeFeatured || !els.homeMatchList) return;
+  const now = Date.now();
+  const upcoming = dailyMatchCalls()
+    .filter((match) => matchStatusGroup(match) === "upcoming" && new Date(match.starts_at).getTime() >= now - 60_000)
+    .slice(0, 4);
+  const featured = upcoming[0];
+  if (!featured) {
+    els.homeFeatured.innerHTML = `<div class="home-feature-empty"><span>Current slate</span><strong>No upcoming series in the verified snapshot.</strong><p>Check the full match desk for recent results and the latest published schedule.</p><a href="#matches">Open the match desk ↗</a></div>`;
+    els.homeMatchList.innerHTML = `<p class="home-empty-slate">The next verified match slate will appear here after the source refresh. <a href="#events">Browse events ↗</a></p>`;
+    return;
+  }
+  const featureKey = matchKeyOf(featured);
+  const coverage = matchCoverage(featured);
+  const confidence = matchConfidence(featured);
+  const featureTime = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(new Date(featured.starts_at));
+  els.homeFeatured.innerHTML = `<div class="home-feature-top"><span>Next verified series</span><span>${escapeHtml(featured.series_format?.toUpperCase() || "BO3")}</span></div>
+    <div class="home-feature-event">${escapeHtml(featured.event_name || "CS2 circuit")}</div>
+    <div class="home-feature-teams"><div>${teamLogoHtml(featured.team1_name)}<strong>${escapeHtml(featured.team1_name)}</strong></div><span>vs</span><div>${teamLogoHtml(featured.team2_name)}<strong>${escapeHtml(featured.team2_name)}</strong></div></div>
+    <div class="home-feature-read"><span>Model read</span><strong>${coverage === "limited" ? "Rating pending" : `${escapeHtml(featured.predicted_winner)} · ${formatPercent(confidence)}`}</strong><small>${coverage === "full" ? "Both teams have model history" : coverage === "partial" ? "Limited team history" : "Not enough team history"}</small></div>
+    <a class="home-feature-link" href="#matches" data-home-match="${escapeHtml(featureKey)}"><span>${escapeHtml(featureTime)} · ${escapeHtml(featured.stage_name || "Series")}</span><strong>Open analysis ↗</strong></a>`;
+  els.homeMatchList.innerHTML = upcoming.slice(0, 3).map((match, index) => {
+    const date = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(new Date(match.starts_at));
+    return `<a href="#matches" class="home-match" data-home-match="${escapeHtml(matchKeyOf(match))}"><span class="home-match-index">0${index + 1}</span><span class="home-match-time">${escapeHtml(date)}<small>${escapeHtml(match.series_format?.toUpperCase() || "BO3")}</small></span><span class="home-match-teams">${escapeHtml(match.team1_name)} <i>vs</i> ${escapeHtml(match.team2_name)}</span><span class="home-match-event">${escapeHtml(match.event_name || "CS2 circuit")}</span><span class="home-match-arrow" aria-hidden="true">↗</span></a>`;
+  }).join("");
 }
 
 function matchSlateDays(matches) {
@@ -3182,13 +3215,25 @@ function playerDetailViewHtml(player) {
   return `${playerFormTimelineHtml(player)}<div class="player-traits">${playerTraitHtml(player)}</div>`;
 }
 
+function playerPortraitHtml(player, className) {
+  const portrait = playerPortraitFor(player?.player_id);
+  const initials = escapeHtml(String(player?.nickname || "?").slice(0, 2).toUpperCase());
+  return `<div class="${className}" aria-hidden="true"><span class="player-monogram-initials">${initials}</span>${portrait ? `<img class="player-portrait" src="${escapeHtml(portrait.src)}" alt="" loading="lazy" decoding="async"${portrait.position ? ` style="object-position:${escapeHtml(portrait.position)}"` : ""}>` : ""}</div>`;
+}
+
+function playerPortraitCreditHtml(player) {
+  const portrait = playerPortraitFor(player?.player_id);
+  if (!portrait) return "";
+  return `<small class="player-photo-credit">Photo: <a href="${escapeHtml(portrait.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(portrait.author)}</a> · <a href="${escapeHtml(portrait.licenseUrl)}" target="_blank" rel="noreferrer">${escapeHtml(portrait.license)}</a></small>`;
+}
+
 function playerDetailHtml(player) {
   if (!player) return `<div class="player-empty"><span>PLAYER INDEX</span><h3>Select a profile.</h3></div>`;
   const rating = player.rating_3_0 == null ? Number.NaN : Number(player.rating_3_0);
   return `
     <header class="player-detail-head">
-      <div class="player-monogram" aria-hidden="true">${escapeHtml(String(player.nickname || "?").slice(0, 2).toUpperCase())}</div>
-      <div><span>${escapeHtml(playerRole(player))} · ${escapeHtml(player.team_name)}</span><h3>${escapeHtml(player.nickname)}</h3><p>${escapeHtml(player.real_name || "HLTV player profile")}</p></div>
+      ${playerPortraitHtml(player, "player-monogram")}
+      <div><span>${escapeHtml(playerRole(player))} · ${escapeHtml(player.team_name)}</span><h3>${escapeHtml(player.nickname)}</h3><p>${escapeHtml(player.real_name || "HLTV player profile")}</p>${playerPortraitCreditHtml(player)}</div>
       ${teamLogoHtml(player.team_name)}
     </header>
     <div class="player-primary-stats">
@@ -3525,8 +3570,8 @@ function teamPlayerProfileHtml(teamName, player) {
   return `
     <section class="team-player-nav"><button type="button" data-back-team><i aria-hidden="true">←</i><span>Back to ${escapeHtml(teamName)}</span></button><strong>Player intelligence</strong></section>
     <section class="team-player-hero">
-      <div class="team-player-monogram" aria-hidden="true">${escapeHtml(String(player.nickname || "?").slice(0, 2).toUpperCase())}</div>
-      <div><span>${escapeHtml(playerRole(player))} · ${escapeHtml(teamName)}</span><h2>${escapeHtml(player.nickname)}</h2><p>${escapeHtml(player.real_name || "HLTV player profile")}</p>${watchButtonHtml("players", player.player_id, player.nickname, "profile-follow")}</div>
+      ${playerPortraitHtml(player, "team-player-monogram")}
+      <div><span>${escapeHtml(playerRole(player))} · ${escapeHtml(teamName)}</span><h2>${escapeHtml(player.nickname)}</h2><p>${escapeHtml(player.real_name || "HLTV player profile")}</p>${playerPortraitCreditHtml(player)}${watchButtonHtml("players", player.player_id, player.nickname, "profile-follow")}</div>
       ${teamLogoHtml(teamName)}
     </section>
     <section class="team-profile-metrics team-player-metrics">
@@ -3546,7 +3591,7 @@ function teamPlayerProfileHtml(teamName, player) {
     </section>
     <section class="team-profile-section">
       <header><span>Lineup context</span><strong>${teammates.length} teammates</strong></header>
-      <div class="team-roster-list">${teammates.map((teammate) => `<button type="button" data-team-player="${escapeHtml(teammate.player_id)}"><i>${escapeHtml(String(teammate.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(teammate.nickname)}</b><small>${escapeHtml(playerRole(teammate))} · ${Number(teammate.rating_3_0) > 0 ? Number(teammate.rating_3_0).toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`).join("") || `<p>Lineup profiles pending.</p>`}</div>
+      <div class="team-roster-list">${teammates.map((teammate) => `<button type="button" data-team-player="${escapeHtml(teammate.player_id)}">${playerPortraitHtml(teammate, "roster-player-avatar")}<span><b>${escapeHtml(teammate.nickname)}</b><small>${escapeHtml(playerRole(teammate))} · ${Number(teammate.rating_3_0) > 0 ? Number(teammate.rating_3_0).toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`).join("") || `<p>Lineup profiles pending.</p>`}</div>
     </section>
     <section class="team-player-actions"><button type="button" data-open-full-player="${escapeHtml(player.player_id)}">Open in player index</button><button type="button" data-compare-player="${escapeHtml(player.player_id)}">${playerCompareIds.includes(player.player_id) ? "Remove from compare" : "Compare player"}</button><a href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">View HLTV profile</a></section>
   `;
@@ -3588,8 +3633,8 @@ function teamProfileHtml(teamName) {
       <header><span>Current five</span><strong>${roster.length ? `${roster.length} profiles` : "Lineup pending"}</strong></header>
       <div class="team-roster-list">${roster.map((player) => {
         const rating = Number(player.rating_3_0);
-        if (player.roster_only) return `<div><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>Active VRS roster</small></span><em>Roster</em></div>`;
-        return `<button type="button" data-team-player="${escapeHtml(player.player_id)}"><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(playerRole(player))} · ${Number.isFinite(rating) && rating > 0 ? rating.toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`;
+        if (player.roster_only) return `<div>${playerPortraitHtml(player, "roster-player-avatar")}<span><b>${escapeHtml(player.nickname)}</b><small>Active VRS roster</small></span><em>Roster</em></div>`;
+        return `<button type="button" data-team-player="${escapeHtml(player.player_id)}">${playerPortraitHtml(player, "roster-player-avatar")}<span><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(playerRole(player))} · ${Number.isFinite(rating) && rating > 0 ? rating.toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`;
       }).join("") || `<p>No verified player profiles in the current snapshot.</p>`}</div>
     </section>
     ${teamRosterPulseHtml(teamName, roster)}
@@ -3954,7 +3999,7 @@ function installViewportSignals() {
 
 function restoreProductLocation() {
   const targetId = window.location.hash.replace(/^#/, "");
-  if (!targetId || !["dashboard", "matches", "events", "featured", "rankings", "players", "model"].includes(targetId)) return;
+  if (!targetId || !["dashboard", "home", "matches", "events", "featured", "rankings", "players", "model"].includes(targetId)) return;
   window.requestAnimationFrame(() => window.requestAnimationFrame(() => {
     const root = document.documentElement;
     const previousBehavior = root.style.scrollBehavior;
@@ -4000,6 +4045,7 @@ function renderProjection(data) {
   renderEvents(events);
   renderRankings(data.coverage?.vrs);
   renderDeciders(dailyMatchCalls());
+  renderHome();
   renderDynamicMajor();
   if (!Object.keys(signalState.matches).length) {
     recordMatchSignals(data.generated_at_utc || data.coverage?.last_verified_utc || new Date().toISOString());
@@ -4242,6 +4288,7 @@ function applyLiveSnapshot(live) {
     renderPlayerCompareTray();
   }
   renderDeciders(dailyMatchCalls());
+  renderHome();
   renderDynamicMajor();
   updateSummary(appData);
   return true;
@@ -4689,6 +4736,21 @@ document.querySelector("#refreshSource")?.addEventListener("click", async (event
   button.disabled = false;
   button.textContent = "Check for updates";
   setText(document.querySelector("#sourceRefreshResult"), result.applied ? "Published snapshot checked." : result.failed || !result.supported ? "Update service unavailable. The saved snapshot is still available." : "No newer verified snapshot is available.");
+});
+
+document.querySelector("#home")?.addEventListener("click", (event) => {
+  const link = event.target instanceof Element ? event.target.closest("[data-home-match]") : null;
+  if (!link) return;
+  const match = dailyMatchCalls().find((row) => matchKeyOf(row) === link.dataset.homeMatch);
+  if (!match) return;
+  event.preventDefault();
+  selectedMatchKey = matchKeyOf(match);
+  selectedMatchDateKey = localDateKey(match.starts_at);
+  currentMatchFilter = "all";
+  currentMatchEvent = "all";
+  renderDeciders(dailyMatchCalls());
+  updateProductUrl({ matchKey: selectedMatchKey, eventId: "", view: "", playerId: "", teamName: "", hash: "matches" });
+  document.querySelector("#matches")?.scrollIntoView({ block: "start", behavior: "instant" });
 });
 
 installInputMode(document);

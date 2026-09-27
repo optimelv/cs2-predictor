@@ -1,7 +1,7 @@
-const routes = new Set(['matches', 'events', 'featured', 'rankings', 'players', 'model', 'picks']);
+const routes = new Set(['home', 'matches', 'events', 'featured', 'rankings', 'players', 'model', 'picks']);
 export function pageForHash(hash = '') {
   const page = hash.replace(/^#/, '');
-  return page === 'myDeskLayer' ? 'picks' : routes.has(page) ? page : 'matches';
+  return page === 'myDeskLayer' ? 'picks' : routes.has(page) ? page : 'home';
 }
 
 export function installProductNavigation({ onShow } = {}) {

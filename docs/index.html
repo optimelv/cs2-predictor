@@ -29,18 +29,19 @@
     <link rel="stylesheet" href="./styles.css?v=20260916.1">
     <link rel="stylesheet" href="./product.css?v=20260916.1">
     <link rel="stylesheet" href="./workspace.css?v=20260916.2">
-    <link rel="stylesheet" href="./consumer.css?v=20260927.2">
+    <link rel="stylesheet" href="./consumer.css?v=20260927.5">
     <link rel="stylesheet" href="./chart-interactions.css?v=20260920.1">
   </head>
   <body>
-    <a class="skip-link" href="#matches">Skip to matches</a>
+    <a class="skip-link" href="#home">Skip to main content</a>
 
     <header class="site-header">
-      <a class="brand" href="#matches" aria-label="StrikeSignal home">
+      <a class="brand" href="#home" aria-label="StrikeSignal home">
         <span class="brand-mark" aria-hidden="true"><span></span><span></span></span>
         <span><strong>StrikeSignal<span class="brand-period">.</span></strong><small>Counter-Strike. Your call.</small></span>
       </a>
       <nav class="top-nav" aria-label="Main navigation">
+        <a href="#home" data-page-link="home">Home</a>
         <a href="#matches" data-page-link="matches">Matches</a>
         <a href="#events" data-page-link="events">Events</a>
         <a href="#rankings" data-page-link="teams">Teams & players</a>
@@ -52,6 +53,7 @@
       </div>
     </header>
     <nav class="mobile-dock" aria-label="Mobile navigation">
+      <a href="#home" data-page-link="home"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 10 9-7 9 7v10H3zM9 20v-7h6v7"/></svg>Home</a>
       <a href="#matches" data-page-link="matches"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 4 16 16M20 4 4 20M4 9V4h5m6 0h5v5M4 15v5h5m6 0h5v-5"/></svg>Matches</a>
       <a href="#events" data-page-link="events"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3v4m10-4v4M3 10h18"/><rect x="3" y="5" width="18" height="16" rx="3"/></svg>Events</a>
       <a href="#rankings" data-page-link="teams"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="7" r="3"/><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 4a3 3 0 0 1 0 6m2 5a5 5 0 0 1 3 4v2"/></svg>Teams</a>
@@ -62,6 +64,24 @@
         <details><summary><strong id="sourceStatusTitle">Checking the published snapshot</strong><span>Details & refresh</span></summary>
           <div class="source-status-expanded"><div><p id="sourceStatusDetail">Source timestamps determine whether match data is current.</p><p id="matchDataNote" class="match-data-note"></p><p id="sourceRefreshResult" role="status"></p></div><button id="refreshSource" type="button">Check for updates</button></div>
         </details>
+      </section>
+      <section id="home" data-product-page="home" class="home-shell" aria-labelledby="home-title">
+        <div class="home-hero">
+          <div class="home-intro">
+            <span class="home-kicker"><i aria-hidden="true"></i> Counter-Strike, with context</span>
+            <h1 id="home-title">See the match <em>before</em> it starts.</h1>
+            <p>Follow the CS2 circuit with match forecasts, roster context and map reads. Every call leads back to its data and the moment it was checked.</p>
+            <div class="home-actions"><a class="home-primary" href="#matches">Explore matches <span aria-hidden="true">↗</span></a><a class="home-secondary" href="#events">Browse events <span aria-hidden="true">↗</span></a></div>
+          </div>
+          <div id="homeFeatured" class="home-featured" aria-live="polite"></div>
+        </div>
+        <div class="home-section-heading"><div><span>On the desk</span><h2>Next in the circuit</h2></div><a href="#matches">Full match lineup <span aria-hidden="true">↗</span></a></div>
+        <div id="homeMatchList" class="home-match-list"></div>
+        <div class="home-paths" aria-label="Explore StrikeSignal">
+          <a href="#events"><span>01 / The circuit</span><strong>Find the next event.</strong><small>Schedules, fields, brackets and format context.</small><b aria-hidden="true">↗</b></a>
+          <a href="#rankings"><span>02 / The people</span><strong>Know the teams.</strong><small>Rosters, player form and team history.</small><b aria-hidden="true">↗</b></a>
+          <a href="#model"><span>03 / The method</span><strong>Read the evidence.</strong><small>How forecasts are built and checked.</small><b aria-hidden="true">↗</b></a>
+        </div>
       </section>
       <nav class="browse-tabs" data-product-page="teams" aria-label="Teams and players" hidden><a href="#rankings" data-browse-link="rankings">Team rankings</a><a href="#players" data-browse-link="players">Players</a></nav>
       <section id="matches" data-product-page="matches" class="section-shell matches-shell" aria-labelledby="matches-title">
@@ -273,6 +293,6 @@
     <script src="./data/coverage.js?v=20260726.1"></script>
     <script src="./data/team-assets.js?v=20260927.2"></script>
     <script src="./data/players.js?v=20260727.1"></script>
-    <script src="./app.js?v=20260927.2" type="module"></script>
+    <script src="./app.js?v=20260927.4" type="module"></script>
   </body>
 </html>
