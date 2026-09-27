@@ -633,22 +633,22 @@ function renderHome() {
     .slice(0, 4);
   const featured = upcoming[0];
   if (!featured) {
-    els.homeFeatured.innerHTML = `<div class="home-feature-empty"><span>Current slate</span><strong>No upcoming series in the verified snapshot.</strong><p>Check the full match desk for recent results and the latest published schedule.</p><a href="#matches">Open the match desk ↗</a></div>`;
-    els.homeMatchList.innerHTML = `<p class="home-empty-slate">The next verified match slate will appear here after the source refresh. <a href="#events">Browse events ↗</a></p>`;
+    els.homeFeatured.innerHTML = `<div class="home-feature-empty"><span>Upcoming matches</span><strong>No upcoming series listed</strong><p>See recent results and the latest published schedule in Matches.</p><a href="#matches">Browse matches ↗</a></div>`;
+    els.homeMatchList.innerHTML = `<p class="home-empty-slate">Upcoming series will appear here when the match data is updated. <a href="#events">Browse events ↗</a></p>`;
     return;
   }
   const featureKey = matchKeyOf(featured);
   const coverage = matchCoverage(featured);
   const confidence = matchConfidence(featured);
   const featureTime = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(new Date(featured.starts_at));
-  els.homeFeatured.innerHTML = `<div class="home-feature-top"><span>Next verified series</span><span>${escapeHtml(featured.series_format?.toUpperCase() || "BO3")}</span></div>
-    <div class="home-feature-event">${escapeHtml(featured.event_name || "CS2 circuit")}</div>
+  els.homeFeatured.innerHTML = `<div class="home-feature-top"><span>Next series</span><span>${escapeHtml(featured.series_format?.toUpperCase() || "BO3")}</span></div>
+    <div class="home-feature-event">${escapeHtml(featured.event_name || "Event unavailable")}</div>
     <div class="home-feature-teams"><div>${teamLogoHtml(featured.team1_name)}<strong>${escapeHtml(featured.team1_name)}</strong></div><span>vs</span><div>${teamLogoHtml(featured.team2_name)}<strong>${escapeHtml(featured.team2_name)}</strong></div></div>
-    <div class="home-feature-read"><span>Model read</span><strong>${coverage === "limited" ? "Rating pending" : `${escapeHtml(featured.predicted_winner)} · ${formatPercent(confidence)}`}</strong><small>${coverage === "full" ? "Both teams have model history" : coverage === "partial" ? "Limited team history" : "Not enough team history"}</small></div>
+    <div class="home-feature-read"><span>Model pick</span><strong>${coverage === "limited" ? "Rating pending" : `${escapeHtml(featured.predicted_winner)} · ${formatPercent(confidence)}`}</strong><small>${coverage === "full" ? "Both teams have model history" : coverage === "partial" ? "Limited team history" : "Not enough team history"}</small></div>
     <a class="home-feature-link" href="#matches" data-home-match="${escapeHtml(featureKey)}"><span>${escapeHtml(featureTime)} · ${escapeHtml(featured.stage_name || "Series")}</span><strong>Open analysis ↗</strong></a>`;
   els.homeMatchList.innerHTML = upcoming.slice(0, 3).map((match, index) => {
     const date = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "2-digit", minute: "2-digit" }).format(new Date(match.starts_at));
-    return `<a href="#matches" class="home-match" data-home-match="${escapeHtml(matchKeyOf(match))}"><span class="home-match-index">0${index + 1}</span><span class="home-match-time">${escapeHtml(date)}<small>${escapeHtml(match.series_format?.toUpperCase() || "BO3")}</small></span><span class="home-match-teams">${escapeHtml(match.team1_name)} <i>vs</i> ${escapeHtml(match.team2_name)}</span><span class="home-match-event">${escapeHtml(match.event_name || "CS2 circuit")}</span><span class="home-match-arrow" aria-hidden="true">↗</span></a>`;
+    return `<a href="#matches" class="home-match" data-home-match="${escapeHtml(matchKeyOf(match))}"><span class="home-match-index">0${index + 1}</span><span class="home-match-time">${escapeHtml(date)}<small>${escapeHtml(match.series_format?.toUpperCase() || "BO3")}</small></span><span class="home-match-teams">${escapeHtml(match.team1_name)} <i>vs</i> ${escapeHtml(match.team2_name)}</span><span class="home-match-event">${escapeHtml(match.event_name || "Event unavailable")}</span><span class="home-match-arrow" aria-hidden="true">↗</span></a>`;
   }).join("");
 }
 
@@ -771,12 +771,12 @@ function rosterSignalCardHtml(read) {
 }
 
 function matchRosterPanelHtml(match, lineup1, lineup2) {
-  if (!historySnapshot) return `<section class="roster-intelligence is-loading"><header><span>Roster pulse</span><strong>Building lineup history</strong></header><div class="roster-loading"><i></i><i></i></div></section>`;
+  if (!historySnapshot) return `<section class="roster-intelligence is-loading"><header><span>Lineup history</span><strong>Loading series history</strong></header><div class="roster-loading"><i></i><i></i></div></section>`;
   const read = matchRosterRead(historySnapshot, match, lineup1, lineup2);
   if (read.team1.score == null && read.team2.score == null) return "";
-  const headline = read.leader ? `${read.leader} holds the steadier core` : "No material roster edge";
+  const headline = read.leader ? `${read.leader} has the more stable lineup` : "No clear lineup difference";
   return `<section class="roster-intelligence">
-    <header><span>Roster pulse</span><strong>${escapeHtml(headline)}</strong></header>
+    <header><span>Lineup history</span><strong>${escapeHtml(headline)}</strong></header>
     <div class="roster-signal-grid">${rosterSignalCardHtml(read.team1)}${rosterSignalCardHtml(read.team2)}</div>
   </section>`;
 }
@@ -837,7 +837,7 @@ function matchInsightHtml(match) {
   return `
     <article class="match-feature">
       <div class="insight-status"><span class="status-token is-${matchStatusGroup(call)}">${snapshotFreshness(snapshotTimestamp(appData)).fresh ? "" : "Recorded · "}${escapeHtml(matchStatusGroup(call))}</span><div class="insight-tools"><span>${escapeHtml(call.series_format?.toUpperCase() || "BO3")} · ${escapeHtml(resultLabel)}</span>${shareControl}</div></div>
-      <div class="insight-event">${escapeHtml(call.event_name || "CS2 circuit")}<span>${escapeHtml(formatDate(call.starts_at))}</span></div>
+      <div class="insight-event">${escapeHtml(call.event_name || "Event unavailable")}<span>${escapeHtml(formatDate(call.starts_at))}</span></div>
       <div class="insight-matchup">
         <button type="button" data-open-team="${escapeHtml(call.team1_name)}" aria-label="Open ${escapeHtml(call.team1_name)} team profile">${teamLogoHtml(call.team1_name)}<strong>${escapeHtml(call.team1_name)}</strong><small>${team1.vrs_rank ? `#${team1.vrs_rank} world ranking` : "Team profile"}</small></button>
         <span class="match-versus">${matchStatusGroup(call) === "results" && call.score1 != null && call.score2 != null && Number(call.score1) + Number(call.score2) > 0 ? `${escapeHtml(call.score1)} : ${escapeHtml(call.score2)}` : "VS"}<small>${escapeHtml(call.series_format?.toUpperCase() || "BO3")}</small></span>
@@ -880,7 +880,7 @@ function matchRowHtml(match, rowIndex = 0) {
   return `
     <button class="match-row ${isSelected ? "is-selected" : ""}" style="--row-index:${rowIndex}" type="button" data-match-key="${escapeHtml(key)}" aria-pressed="${String(isSelected)}">
       <span class="match-time is-${status}">${escapeHtml(timeLabel)}<small>${escapeHtml(call.series_format?.toUpperCase() || "BO3")}</small></span>
-      <span class="match-event"><strong>${escapeHtml(call.event_name || "CS2 circuit")}</strong><small>${escapeHtml(call.stage_name || (status === "results" ? "Completed series" : "Scheduled series"))}</small></span>
+      <span class="match-event"><strong>${escapeHtml(call.event_name || "Event unavailable")}</strong><small>${escapeHtml(call.stage_name || (status === "results" ? "Completed series" : "Scheduled series"))}</small></span>
       <span class="match-row-teams">
         <span>${teamLogoHtml(call.team1_name)}<strong>${escapeHtml(call.team1_name)}</strong></span>
         <i>vs</i>
@@ -1436,7 +1436,7 @@ function syncMajorCopy(stage3, event = activeEvent()) {
   if (!eventHasMajorBoard(event)) {
     document.body.classList.remove("stage-complete");
     if (els.playoffTab) els.playoffTab.hidden = true;
-    setText(els.eventPhaseLabel, event ? `${event.display_status || event.status || "scheduled"} · ${event.event_type || "CS2 event"}` : "Event room");
+    setText(els.eventPhaseLabel, event ? `${event.display_status || event.status || "scheduled"} · ${event.event_type || "CS2 event"}` : "Event forecast");
     setText(els.projectionTitle, event ? event.name : "Choose an event.");
     setText(els.projectionIntro, event
       ? `${eventDateRange(event)} · ${event.location || "Location TBA"} · ${event.format?.label || "Format pending"}`
@@ -1458,18 +1458,18 @@ function syncMajorCopy(stage3, event = activeEvent()) {
 
   if (!complete) {
     setText(els.eventPhaseLabel, `${event.name} / Current stage`);
-    setText(els.projectionTitle, `Every route through ${event.name}.`);
-    setText(els.projectionIntro, "Change any unresolved result and the complete Swiss path, Pick'Em probability, and projected playoff bracket recalculate around your call.");
-    setText(els.boardStageTitle, "Swiss stage, round by round.");
-    setText(els.routeIntro, "Completed matches are fixed. Probabilities are projected. Select either logo in an unresolved match to rewrite the route.");
+    setText(els.projectionTitle, `${event.name} forecast`);
+    setText(els.projectionIntro, "Select a winner in an unresolved match to update the Swiss standings, qualification probabilities, and projected playoff bracket.");
+    setText(els.boardStageTitle, "Swiss stage by round");
+    setText(els.routeIntro, "Completed results stay fixed. Select a team in an unresolved match to change the forecast.");
     return;
   }
 
-  setText(els.projectionTitle, `${event.name} playoff desk.`);
+  setText(els.projectionTitle, `${event.name} playoffs`);
   setText(els.eventPhaseLabel, `${event.name} / Playoffs`);
-  setText(els.projectionIntro, "The Swiss stage is locked. The board follows the official playoff bracket, with model reads on every remaining series.");
-  setText(els.boardStageTitle, currentBoardView === "playoffs" ? "Projected playoff bracket." : "Swiss results, verified.");
-  setText(els.routeIntro, "The Swiss results are fixed. Review the qualified field or stay on the bracket for the current title path.");
+  setText(els.projectionIntro, "The Swiss results are final. The playoff bracket shows forecasts for the remaining series.");
+  setText(els.boardStageTitle, currentBoardView === "playoffs" ? "Projected playoff bracket" : "Swiss results");
+  setText(els.routeIntro, "Review the qualified teams and the projected playoff bracket.");
 }
 
 function jumpMajorBoard(target) {
@@ -1542,7 +1542,7 @@ function renderDynamicMajor() {
 function renderGenericEventBoard(event) {
   if (!els.swissBoard) return;
   if (!event) {
-    els.swissBoard.replaceChildren(emptyNode("Choose a tournament.", "The current circuit remains available in the event calendar above."));
+    els.swissBoard.replaceChildren(emptyNode("Choose a tournament", "Select an event from the calendar to see its forecast."));
     return;
   }
   const contenders = event.archived ? [] : eventContenders(event);
@@ -2038,15 +2038,15 @@ function eventOverviewHtml(event) {
         `).join("")}</div>
       </section>
       <section class="event-next-series">
-        <header><span>On the server</span><strong>${matches.length ? `${matches.length} published` : "Bracket pending"}</strong></header>
+        <header><span>Scheduled series</span><strong>${matches.length ? `${matches.length} published` : "Schedule pending"}</strong></header>
         ${matches.length ? matches.slice(0, 4).map((match) => eventMiniMatchHtml(enrichMatch(match))).join("") : `<button type="button" class="event-empty-action" data-event-view-jump="format"><span>Bracket structure</span><strong>Explore the format</strong></button>`}
       </section>
       <section class="event-route-preview">
-        <div><span>Competition path</span><strong>${escapeHtml(event.format?.label || "Format pending")}</strong></div>
+        <div><span>Tournament format</span><strong>${escapeHtml(event.format?.label || "Format pending")}</strong></div>
         <div class="format-path">${formatPathHtml(event)}</div>
       </section>
       <section class="event-map-bank">
-        <div><span>Map bank</span><strong>${event.map_pool?.length || 0} active maps</strong></div>
+        <div><span>Map pool</span><strong>${event.map_pool?.length || 0} active maps</strong></div>
         <div class="map-pool">${(event.map_pool || []).map((map) => `<span>${escapeHtml(map)}</span>`).join("") || `<span>Pool pending</span>`}</div>
       </section>
     </div>
@@ -2083,8 +2083,8 @@ function archiveEventOverviewHtml(event) {
       <div><span>Maps</span><strong>${[...maps.values()].reduce((sum, count) => sum + count, 0)}</strong></div>
       <div><span>Format</span><strong>${escapeHtml(String(event.format?.type || "mixed").replaceAll("_", " "))}</strong></div>
     </section>
-    <section class="archive-stage-ledger"><header><span>Event path</span><strong>${phases.length} recorded phases</strong></header><div>${phases.map((phase, index) => `<article style="--phase-index:${index}"><span>${String(index + 1).padStart(2, "0")}</span><strong>${escapeHtml(phase.name)}</strong><b>${phase.count} series</b></article>`).join("")}</div></section>
-    <section class="archive-map-bank"><header><span>Map footprint</span><strong>${topMaps.length} tracked maps</strong></header><div>${topMaps.map(([map, count]) => `<article><strong>${escapeHtml(map)}</strong><i><b style="width:${Math.max(12, Math.round(count / Math.max(1, topMaps[0][1]) * 100))}%"></b></i><span>${count}</span></article>`).join("") || `<p>Map detail is still building.</p>`}</div></section>
+    <section class="archive-stage-ledger"><header><span>Event stages</span><strong>${phases.length} recorded stages</strong></header><div>${phases.map((phase, index) => `<article style="--phase-index:${index}"><span>${String(index + 1).padStart(2, "0")}</span><strong>${escapeHtml(phase.name)}</strong><b>${phase.count} series</b></article>`).join("")}</div></section>
+    <section class="archive-map-bank"><header><span>Maps played</span><strong>${topMaps.length} maps</strong></header><div>${topMaps.map(([map, count]) => `<article><strong>${escapeHtml(map)}</strong><i><b style="width:${Math.max(12, Math.round(count / Math.max(1, topMaps[0][1]) * 100))}%"></b></i><span>${count}</span></article>`).join("") || `<p>No map data available.</p>`}</div></section>
   </div>`;
 }
 
@@ -2124,7 +2124,7 @@ function eventMatchesHtml(event) {
 
 function archiveEventMatchesHtml(event) {
   const rows = [...(event.matches || [])].sort((a, b) => String(b.match_date || "").localeCompare(String(a.match_date || "")) || String(b.match_id).localeCompare(String(a.match_id)));
-  return `<div class="archive-match-ledger"><header><span>Verified result ledger</span><strong>${rows.length} series</strong></header><div>${rows.map((match) => {
+  return `<div class="archive-match-ledger"><header><span>Recorded results</span><strong>${rows.length} series</strong></header><div>${rows.map((match) => {
     const winner1 = normalizeName(match.winner_name) === normalizeName(match.team1_name);
     const winner2 = normalizeName(match.winner_name) === normalizeName(match.team2_name);
     return `<article><div><span>${escapeHtml(match.match_date)}</span><small>${escapeHtml(match.stage_name || match.phase || `BO${match.best_of || 3}`)}</small></div><strong class="${winner1 ? "is-winner" : ""}">${teamLogoHtml(match.team1_name)}<span>${escapeHtml(match.team1_name)}</span><b>${match.score1 ?? "-"}</b></strong><i>:</i><strong class="${winner2 ? "is-winner" : ""}"><b>${match.score2 ?? "-"}</b><span>${escapeHtml(match.team2_name)}</span>${teamLogoHtml(match.team2_name)}</strong></article>`;
@@ -2363,7 +2363,7 @@ function updateGenericPickem(event) {
   }
   const favorite = eventContenders(event)[0];
   setText(els.pickemLabel, "Field forecast");
-  setText(els.pickemTitle, favorite ? `${favorite.team_name} leads the current title picture.` : "Select an event to begin.");
+  setText(els.pickemTitle, favorite ? `${favorite.team_name} has the highest title probability.` : "Select an event to begin.");
   setText(els.pickemScoreLabel, "Title share");
   setText(els.pickemChance, favorite ? formatPercent(favorite.probability) : "--");
   setText(els.pickemSummary, event?.participants?.length
@@ -3177,11 +3177,11 @@ function playerFormTimelineHtml(player, { compact = false } = {}) {
 
 function playerMapProfileHtml(player) {
   const rows = (player.map_profile || []).filter((row) => row?.map_name && Number(row.maps) > 0);
-  if (!rows.length) return `<section class="player-intel-empty"><span>MAP INTELLIGENCE</span><h4>Map sample building.</h4><p>This view unlocks after verified Tier 1/2 map statistics reach the player profile.</p></section>`;
+  if (!rows.length) return `<section class="player-intel-empty"><span>MAP STATS</span><h4>No map stats yet</h4><p>Verified Tier 1/2 map stats will appear here when available.</p></section>`;
   const summary = summarizePlayerMaps(rows);
   const topRating = Math.max(1, ...rows.map((row) => Number(row.average_rating) || 0));
   return `<section class="player-map-intel">
-    <header><div><span>Map identity</span><h4>${escapeHtml(summary.best_map || "Tracked pool")}</h4></div><strong>${summary.best_rating ? `${summary.best_rating.toFixed(2)} best rating` : `${summary.maps} maps`}</strong></header>
+    <header><div><span>Best recorded map</span><h4>${escapeHtml(summary.best_map || "Tracked maps")}</h4></div><strong>${summary.best_rating ? `${summary.best_rating.toFixed(2)} best rating` : `${summary.maps} maps`}</strong></header>
     <div class="player-map-kpis"><div><span>Tracked maps</span><strong>${summary.maps}</strong></div><div><span>Active pool</span><strong>${summary.map_count}</strong></div><div><span>Through</span><strong>${escapeHtml(rows.map((row) => row.last_date || "").sort().at(-1) || "--")}</strong></div></div>
     <div class="player-map-table">
       <header><span>Map</span><span>Rating</span><span>ADR</span><span>K/D</span><span>Record</span></header>
@@ -3201,11 +3201,11 @@ function playerCareerHtml(player) {
   const timeline = player.form_timeline || [];
   const events = summarizePlayerEvents(timeline);
   const eras = player.roster_eras?.length ? player.roster_eras : summarizePlayerRosterEras(timeline);
-  if (!timeline.length) return `<section class="player-intel-empty"><span>CAREER INTELLIGENCE</span><h4>History building.</h4><p>Verified Tier 1/2 series will appear here as the result feed grows.</p></section>`;
+  if (!timeline.length) return `<section class="player-intel-empty"><span>CAREER</span><h4>No series history yet</h4><p>Verified Tier 1/2 series will appear here when available.</p></section>`;
   return `<section class="player-career-intel">
     <div class="player-era-list"><header><span>Roster eras</span><strong>${eras.length}</strong></header>${eras.map((era) => `<article>${teamLogoHtml(era.team_name)}<div><strong>${escapeHtml(era.team_name)}</strong><small>${escapeHtml(era.from_date)} → ${escapeHtml(era.through_date)}</small></div><b>${Number.isFinite(Number(era.average_rating)) ? Number(era.average_rating).toFixed(2) : "--"}</b><span>${era.wins}-${era.losses}</span></article>`).join("")}</div>
     <div class="player-event-form"><header><span>Event form</span><strong>${events.length} tracked</strong></header>${events.slice(0, 7).map((event) => `<article><div><strong>${escapeHtml(event.event_name)}</strong><small>Through ${escapeHtml(event.through_date)}</small></div><b class="${Number(event.average_rating) >= 1 ? "is-positive" : ""}">${Number.isFinite(Number(event.average_rating)) ? Number(event.average_rating).toFixed(2) : "--"}</b><span>${event.wins}-${event.losses}</span><small>${event.series} series</small></article>`).join("")}</div>
-    <div class="player-series-ledger"><header><span>Series ledger</span><strong>${timeline.length} most recent</strong></header>${[...timeline].reverse().map((row) => `<article><span>${escapeHtml(row.date)}</span><div><strong>vs ${escapeHtml(row.opponent_name)}</strong><small>${escapeHtml(row.event_name)}</small></div><b class="${Number(row.rating) >= 1 ? "is-positive" : ""}">${Number.isFinite(Number(row.rating)) ? Number(row.rating).toFixed(2) : "--"}</b><small>${Number.isFinite(Number(row.adr)) ? `${Number(row.adr).toFixed(1)} ADR` : "ADR pending"}</small></article>`).join("")}</div>
+    <div class="player-series-ledger"><header><span>Series history</span><strong>${timeline.length} recent series</strong></header>${[...timeline].reverse().map((row) => `<article><span>${escapeHtml(row.date)}</span><div><strong>vs ${escapeHtml(row.opponent_name)}</strong><small>${escapeHtml(row.event_name)}</small></div><b class="${Number(row.rating) >= 1 ? "is-positive" : ""}">${Number.isFinite(Number(row.rating)) ? Number(row.rating).toFixed(2) : "--"}</b><small>${Number.isFinite(Number(row.adr)) ? `${Number(row.adr).toFixed(1)} ADR` : "ADR pending"}</small></article>`).join("")}</div>
   </section>`;
 }
 
@@ -3242,7 +3242,7 @@ function playerDetailHtml(player) {
       <div><span>Map sample</span><strong>${Number(player.maps_3m) || "--"}</strong></div>
     </div>
     <div class="player-follow-row">${watchButtonHtml("players", player.player_id, player.nickname)}<button type="button" class="player-compare-action ${playerCompareIds.includes(player.player_id) ? "is-active" : ""}" data-compare-player="${escapeHtml(player.player_id)}"><i aria-hidden="true"></i><span>${playerCompareIds.includes(player.player_id) ? "In comparison" : playerCompareIds.length === 1 ? `Compare with ${escapeHtml((playerSnapshot.players || []).find((row) => row.player_id === playerCompareIds[0])?.nickname || "selected")}` : "Compare player"}</span></button></div>
-    <nav class="player-detail-tabs" aria-label="Player intelligence views">${[["overview", "Overview"], ["maps", "Maps"], ["career", "Career"]].map(([view, label]) => `<button type="button" class="${playerDetailView === view ? "is-active" : ""}" data-player-detail-view="${view}">${label}</button>`).join("")}</nav>
+    <nav class="player-detail-tabs" aria-label="Player profile views">${[["overview", "Overview"], ["maps", "Maps"], ["career", "Career"]].map(([view, label]) => `<button type="button" class="${playerDetailView === view ? "is-active" : ""}" data-player-detail-view="${view}">${label}</button>`).join("")}</nav>
     <div class="player-detail-view" data-player-view="${escapeHtml(playerDetailView)}">${playerDetailViewHtml(player)}</div>
     <a class="player-source" href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">Open HLTV profile</a>
   `;
@@ -3465,14 +3465,14 @@ function teamLineupRead(teamName) {
 }
 
 function teamRosterPulseHtml(teamName, roster) {
-  if (!historySnapshot) return `<section class="team-profile-section team-roster-pulse is-loading"><header><span>Roster pulse</span><strong>Building history</strong></header><div class="roster-loading"><i></i><i></i></div></section>`;
+  if (!historySnapshot) return `<section class="team-profile-section team-roster-pulse is-loading"><header><span>Lineup history</span><strong>Loading series history</strong></header><div class="roster-loading"><i></i><i></i></div></section>`;
   const read = rosterSignal(historySnapshot, teamName, roster);
   const eraLabel = read.era_start ? `Core active since ${formatDateOnly(read.era_start)}` : "Active era pending";
   return `<section class="team-profile-section team-roster-pulse">
-    <header><span>Roster pulse</span><strong>${escapeHtml(read.label)}</strong></header>
+    <header><span>Lineup history</span><strong>${escapeHtml(read.label)}</strong></header>
     <div class="team-roster-pulse-main">
       <div class="roster-orbit is-${escapeHtml(read.status)}" style="--roster-score:${read.score == null ? 0 : Number(read.score)}%"><strong>${read.score == null ? "--" : read.score}</strong><span>stability</span></div>
-      <div><strong>${escapeHtml(eraLabel)}</strong><span>${read.era_matches ? `${read.era_matches} verified Tier 1/2 series with this core` : "The next verified lineup starts the clock"}</span>${rosterChangeHtml(read)}</div>
+      <div><strong>${escapeHtml(eraLabel)}</strong><span>${read.era_matches ? `${read.era_matches} verified Tier 1/2 series with this lineup` : "No verified series with this lineup yet"}</span>${rosterChangeHtml(read)}</div>
     </div>
   </section>`;
 }
@@ -3568,7 +3568,7 @@ function teamPlayerProfileHtml(teamName, player) {
     .sort((left, right) => Number(right.maps) - Number(left.maps) || Number(right.average_rating || 0) - Number(left.average_rating || 0))
     .slice(0, 4);
   return `
-    <section class="team-player-nav"><button type="button" data-back-team><i aria-hidden="true">←</i><span>Back to ${escapeHtml(teamName)}</span></button><strong>Player intelligence</strong></section>
+    <section class="team-player-nav"><button type="button" data-back-team><i aria-hidden="true">←</i><span>Back to ${escapeHtml(teamName)}</span></button><strong>Player profile</strong></section>
     <section class="team-player-hero">
       ${playerPortraitHtml(player, "team-player-monogram")}
       <div><span>${escapeHtml(playerRole(player))} · ${escapeHtml(teamName)}</span><h2>${escapeHtml(player.nickname)}</h2><p>${escapeHtml(player.real_name || "HLTV player profile")}</p>${playerPortraitCreditHtml(player)}${watchButtonHtml("players", player.player_id, player.nickname, "profile-follow")}</div>
@@ -3582,15 +3582,15 @@ function teamPlayerProfileHtml(teamName, player) {
     </section>
     ${playerFormTimelineHtml(player, { compact: true })}
     <section class="team-profile-section team-player-map-snapshot">
-      <header><span>Server identity</span><strong>${playerMaps.length ? `${playerMaps.reduce((sum, row) => sum + Number(row.maps), 0)} tracked maps` : "Sample building"}</strong></header>
+      <header><span>Map stats</span><strong>${playerMaps.length ? `${playerMaps.reduce((sum, row) => sum + Number(row.maps), 0)} tracked maps` : "No map sample yet"}</strong></header>
       <div>${playerMaps.map((row) => `<article><span><strong>${escapeHtml(row.map_name)}</strong><small>${row.maps} maps · ${row.wins}-${row.losses}</small></span><b class="${Number(row.average_rating) >= 1 ? "is-positive" : ""}">${Number.isFinite(Number(row.average_rating)) ? Number(row.average_rating).toFixed(2) : "--"}</b><i><b style="width:${Math.max(8, Math.min(100, Math.round((Number(row.average_rating) || 0) / 1.6 * 100)))}%"></b></i></article>`).join("") || `<p>Verified map statistics are not available for this player yet.</p>`}</div>
     </section>
     <section class="team-profile-section team-player-traits">
-      <header><span>Skill fingerprint</span><strong>Current profile</strong></header>
+      <header><span>Player stats</span><strong>Current profile</strong></header>
       <div class="player-traits">${playerTraitHtml(player)}</div>
     </section>
     <section class="team-profile-section">
-      <header><span>Lineup context</span><strong>${teammates.length} teammates</strong></header>
+      <header><span>Teammates</span><strong>${teammates.length} players</strong></header>
       <div class="team-roster-list">${teammates.map((teammate) => `<button type="button" data-team-player="${escapeHtml(teammate.player_id)}">${playerPortraitHtml(teammate, "roster-player-avatar")}<span><b>${escapeHtml(teammate.nickname)}</b><small>${escapeHtml(playerRole(teammate))} · ${Number(teammate.rating_3_0) > 0 ? Number(teammate.rating_3_0).toFixed(2) : "rating pending"}</small></span><em aria-hidden="true">Open</em></button>`).join("") || `<p>Lineup profiles pending.</p>`}</div>
     </section>
     <section class="team-player-actions"><button type="button" data-open-full-player="${escapeHtml(player.player_id)}">Open in player index</button><button type="button" data-compare-player="${escapeHtml(player.player_id)}">${playerCompareIds.includes(player.player_id) ? "Remove from compare" : "Compare player"}</button><a href="${escapeHtml(player.source_url || "#")}" target="_blank" rel="noreferrer">View HLTV profile</a></section>
@@ -3639,7 +3639,7 @@ function teamProfileHtml(teamName) {
     </section>
     ${teamRosterPulseHtml(teamName, roster)}
     <section class="team-profile-section team-veto-identity">
-      <header><span>Veto identity</span><strong>${veto.sample_matches || 0} tracked vetoes</strong></header>
+      <header><span>Veto history</span><strong>${veto.sample_matches || 0} tracked vetoes</strong></header>
       <div class="team-veto-cards">
         <article><span>Perma ban</span><strong>${escapeHtml(veto.perma_ban || "Pending")}</strong><small>First removal tendency</small></article>
         <article><span>First pick</span><strong>${escapeHtml(veto.first_pick || "Pending")}</strong><small>Preferred opening map</small></article>
@@ -3652,11 +3652,11 @@ function teamProfileHtml(teamName) {
       <div class="team-map-list">${maps.map((map) => `<div><span>${escapeHtml(map.mapName)}<small>${map.matches} maps</small></span><i><b style="width:${Math.round(map.winRate * 100)}%"></b></i><strong>${formatPercent(map.winRate)}</strong></div>`).join("") || `<p>Map profile pending.</p>`}</div>
     </section>
     <section class="team-profile-section">
-      <header><span>Series desk</span><strong>${matches.length} shown</strong></header>
+      <header><span>Recent series</span><strong>${matches.length} shown</strong></header>
       <div class="team-match-list">${matches.map(matchRow).join("") || `<p>No current series in the snapshot.</p>`}</div>
     </section>
     <section class="team-profile-section">
-      <header><span>On the circuit</span><strong>${events.length} events</strong></header>
+      <header><span>Events</span><strong>${events.length} listed</strong></header>
       <div class="team-event-list">${events.map((event) => `<button type="button" data-open-event="${escapeHtml(event.id)}"><span>${escapeHtml(event.display_status || event.status || "scheduled")}</span><strong>${escapeHtml(event.name)}</strong></button>`).join("") || `<p>No active Tier 1/2 event found.</p>`}</div>
     </section>
   `;
@@ -3778,7 +3778,7 @@ function renderProductSearch(query = "") {
   const groups = [];
   if (results.teams.length) groups.push(`<section><header><span>Teams</span><strong>${results.teams.length}</strong></header>${results.teams.map((teamName) => {
     const model = teamModel(teamName);
-    return `<button type="button" data-search-team="${escapeHtml(teamName)}">${passiveTeamLogoHtml(teamName)}<span><b>${escapeHtml(teamName)}</b><small>${model.vrs_rank ? `#${model.vrs_rank} VRS` : "Team intelligence"}</small></span><em>Team</em></button>`;
+    return `<button type="button" data-search-team="${escapeHtml(teamName)}">${passiveTeamLogoHtml(teamName)}<span><b>${escapeHtml(teamName)}</b><small>${model.vrs_rank ? `#${model.vrs_rank} VRS` : "Team profile"}</small></span><em>Team</em></button>`;
   }).join("")}</section>`);
   if (results.players.length) groups.push(`<section><header><span>Players</span><strong>${results.players.length}</strong></header>${results.players.map((player) => `<button type="button" data-search-player="${escapeHtml(player.player_id)}"><i>${escapeHtml(String(player.nickname).slice(0, 2).toUpperCase())}</i><span><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(player.team_name)} · ${escapeHtml(playerRole(player))}</small></span><em>${Number(player.rating_3_0) > 0 ? Number(player.rating_3_0).toFixed(2) : "--"}</em></button>`).join("")}</section>`);
   if (results.events.length) groups.push(`<section><header><span>Events</span><strong>${results.events.length}</strong></header>${results.events.map((event) => `<button type="button" data-search-event="${escapeHtml(event.id)}"><i>${escapeHtml(eventDateParts(event).day)}</i><span><b>${escapeHtml(event.name)}</b><small>${escapeHtml(eventDateRange(event))} · ${productTierForEvent(event) === "tier_1" ? "Tier 1" : "Tier 2"}</small></span><em>${escapeHtml(event.display_status || event.status || "event")}</em></button>`).join("")}</section>`);
@@ -3819,16 +3819,16 @@ function myDeskMatchHtml(match) {
   const call = enrichMatch(match);
   const confidence = matchConfidence(call);
   return `<button type="button" class="my-desk-match" data-desk-match="${escapeHtml(matchKeyOf(call))}">
-    <span class="my-desk-match-time"><b>${escapeHtml(call.starts_at ? formatDate(call.starts_at) : "TBA")}</b><small>${escapeHtml(call.event_name || "CS2 circuit")}</small></span>
+    <span class="my-desk-match-time"><b>${escapeHtml(call.starts_at ? formatDate(call.starts_at) : "TBA")}</b><small>${escapeHtml(call.event_name || "Event unavailable")}</small></span>
     <span class="my-desk-match-teams"><span>${teamLogoHtml(call.team1_name)}<b>${escapeHtml(call.team1_name)}</b></span><i>${formatPercent(call.prob_team1)}</i><span><b>${escapeHtml(call.team2_name)}</b>${teamLogoHtml(call.team2_name)}</span></span>
-    <span class="my-desk-match-call"><small>Model call</small><b>${escapeHtml(call.predicted_winner)}</b><i style="--desk-confidence:${Math.round(confidence * 100)}%"></i></span>
+    <span class="my-desk-match-call"><small>Model pick</small><b>${escapeHtml(call.predicted_winner)}</b><i style="--desk-confidence:${Math.round(confidence * 100)}%"></i></span>
   </button>`;
 }
 
 function myDeskEntityListsHtml() {
   const teams = watchlist.teams.map((entry) => {
     const model = teamModel(entry.name);
-    return `<article><button type="button" data-open-team="${escapeHtml(entry.name)}">${teamLogoHtml(entry.name)}<span><strong>${escapeHtml(entry.name)}</strong><small>${model.vrs_rank ? `#${model.vrs_rank} VRS` : "Team intelligence"}</small></span></button>${watchButtonHtml("teams", entry.id, entry.name, "is-icon-only")}</article>`;
+    return `<article><button type="button" data-open-team="${escapeHtml(entry.name)}">${teamLogoHtml(entry.name)}<span><strong>${escapeHtml(entry.name)}</strong><small>${model.vrs_rank ? `#${model.vrs_rank} VRS` : "Team profile"}</small></span></button>${watchButtonHtml("teams", entry.id, entry.name, "is-icon-only")}</article>`;
   }).join("");
   const players = watchlist.players.map((entry) => {
     const player = (playerSnapshot?.players || []).find((row) => row.player_id === entry.id);
@@ -3861,13 +3861,13 @@ function pickLineRead(key, pick, match) {
 function myDeskPicksHtml() {
   const matches = new Map(allKnownMatches().map((match) => [matchKeyOf(match), match]));
   const rows = Object.entries(savedPicks).sort(([, left], [, right]) => String(right.saved_at).localeCompare(String(left.saved_at))).slice(0, 8);
-  if (!rows.length) return `<div class="my-desk-empty"><span>Pick ledger</span><strong>No saved calls yet.</strong><a href="#matches" data-close-desk>Open the match desk</a></div>`;
+  if (!rows.length) return `<div class="my-desk-empty"><span>Saved picks</span><strong>No saved picks yet</strong><a href="#matches" data-close-desk>Browse matches</a></div>`;
   return `<div class="my-desk-picks">${rows.map(([key, pick]) => {
     const match = matches.get(key);
     const state = match ? savedPickState(match) : "pending";
     const line = pickLineRead(key, pick, match);
     const movement = Math.abs(line.delta) >= 0.005 ? `${line.delta > 0 ? "+" : ""}${Math.round(line.delta * 100)} pts` : "flat";
-    return `<article class="is-${escapeHtml(state)}"><span>${escapeHtml(pick.event_name || "CS2 circuit")}<small>${escapeHtml(pick.starts_at ? formatDate(pick.starts_at) : "Series pending")}</small></span><strong>${escapeHtml(pick.team_name)}<small>vs ${escapeHtml(pick.opponent_name)}</small></strong><b>${formatPercent(line.probability)}<small>open ${formatPercent(pick.probability)} · ${escapeHtml(line.label)} ${escapeHtml(movement)} · ${escapeHtml(state)}</small></b></article>`;
+    return `<article class="is-${escapeHtml(state)}"><span>${escapeHtml(pick.event_name || "Event unavailable")}<small>${escapeHtml(pick.starts_at ? formatDate(pick.starts_at) : "Series pending")}</small></span><strong>${escapeHtml(pick.team_name)}<small>vs ${escapeHtml(pick.opponent_name)}</small></strong><b>${formatPercent(line.probability)}<small>saved at ${formatPercent(pick.probability)} · ${escapeHtml(line.label)} ${escapeHtml(movement)} · ${escapeHtml(state)}</small></b></article>`;
   }).join("")}</div>`;
 }
 
@@ -3880,8 +3880,8 @@ function myDeskSignalsHtml() {
     match_live: "Live",
     match_final: "Final",
   };
-  if (!notifications.length) return `<section class="my-desk-signals"><header><div><span>Signal center</span><h3>No movement yet.</h3></div><strong>Watching ${watchlistCount(watchlist)} entities</strong></header><div class="my-desk-signal-empty"><i></i><span>Probability, veto, lineup, live, and result changes will land here.</span></div></section>`;
-  return `<section class="my-desk-signals"><header><div><span>Signal center</span><h3>What changed.</h3></div><strong>${unreadSignalCount(signalState)} new · ${notifications.length} recent</strong></header><div class="my-desk-signal-list">${notifications.map((item) => {
+  if (!notifications.length) return `<section class="my-desk-signals"><header><div><span>Match updates</span><h3>No updates yet</h3></div><strong>Following ${watchlistCount(watchlist)} teams, players, and events</strong></header><div class="my-desk-signal-empty"><i></i><span>Changes to probabilities, vetoes, lineups, match status, and results will appear here.</span></div></section>`;
+  return `<section class="my-desk-signals"><header><div><span>Match updates</span><h3>Recent changes</h3></div><strong>${unreadSignalCount(signalState)} new · ${notifications.length} recent</strong></header><div class="my-desk-signal-list">${notifications.map((item) => {
     const record = matchSignalRecord(signalState, item.match_key);
     const latest = record?.latest?.prob_team1;
     const delta = Number(item.delta) || 0;
@@ -3898,13 +3898,13 @@ function renderMyDesk() {
   const incomingCount = pendingDeskImport ? watchlistCount(pendingDeskImport.watchlist) : 0;
   const incomingPicks = pendingDeskImport ? Object.keys(pendingDeskImport.savedPicks).length : 0;
   const emptyDesk = !entityCount && !pendingPicks && !signalState.notifications.length;
-  const importBanner = pendingDeskImport ? `<section class="desk-import-banner"><div><span>Shared desk ready</span><strong>${incomingCount} follows · ${incomingPicks} saved ${incomingPicks === 1 ? "pick" : "picks"}</strong></div><div><button type="button" data-dismiss-desk-import>Not now</button><button type="button" data-import-desk>Import shared desk</button></div></section>` : "";
+  const importBanner = pendingDeskImport ? `<section class="desk-import-banner"><div><span>Shared picks and follows</span><strong>${incomingCount} follows · ${incomingPicks} saved ${incomingPicks === 1 ? "pick" : "picks"}</strong></div><div><button type="button" data-dismiss-desk-import>Not now</button><button type="button" data-import-desk>Import picks and follows</button></div></section>` : "";
   const suggestedFollows = `<div class="suggested-follows">${(appData?.coverage?.vrs?.rankings || appData?.coverage?.vrs?.teams || []).slice(0, 4).map(row => `<div>${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong>${watchButtonHtml("teams", normalizeName(row.team_name), row.team_name)}</div>`).join("") || `<a class="button primary" href="#rankings" data-close-desk>Find a team to follow →</a>`}</div>`;
   const heading = emptyDesk ? "No saved picks yet." : entityCount ? "Following" : "Saved picks";
   const intro = emptyDesk ? "Save a pick when a verified forecast is available, or follow a team to see its schedule here." : entityCount ? "Matches and updates from the teams, players and events you follow." : "Your saved calls stay on this device. Follow a team to see its next series here.";
   const heroAction = emptyDesk ? `<a class="button primary my-desk-start" href="#matches" data-close-desk>Browse upcoming matches →</a>${suggestedFollows}` : '<button type="button" class="my-desk-share" data-share-desk><i aria-hidden="true"></i><b>Share picks & follows</b></button>';
-  const summary = emptyDesk ? "" : `<aside><div><span>Following</span><strong>${entityCount}</strong></div><div><span>Next series</span><strong>${matches.length}</strong></div><div><span>Saved picks</span><strong>${pendingPicks}</strong></div><div><span>New signals</span><strong>${unread}</strong></div></aside>`;
-  const activity = emptyDesk ? "" : `<section class="my-desk-grid"><div class="my-desk-feed"><header><span>Next on server</span><strong>${matches.length ? `${matches.length} relevant series` : "No scheduled series"}</strong></header>${matches.length ? matches.map(myDeskMatchHtml).join("") : `<div class="my-desk-empty"><span>Match feed</span><strong>Follow a team or active event.</strong></div>`}</div><div class="my-desk-ledger"><header><span>Saved picks</span><strong>${pendingPicks} saved</strong></header>${myDeskPicksHtml()}</div></section>${myDeskSignalsHtml()}${myDeskEntityListsHtml()}`;
+  const summary = emptyDesk ? "" : `<aside><div><span>Following</span><strong>${entityCount}</strong></div><div><span>Next series</span><strong>${matches.length}</strong></div><div><span>Saved picks</span><strong>${pendingPicks}</strong></div><div><span>New updates</span><strong>${unread}</strong></div></aside>`;
+  const activity = emptyDesk ? "" : `<section class="my-desk-grid"><div class="my-desk-feed"><header><span>Upcoming series</span><strong>${matches.length ? `${matches.length} series` : "No scheduled series"}</strong></header>${matches.length ? matches.map(myDeskMatchHtml).join("") : `<div class="my-desk-empty"><span>Match schedule</span><strong>Follow a team or active event</strong></div>`}</div><div class="my-desk-ledger"><header><span>Saved picks</span><strong>${pendingPicks} saved</strong></header>${myDeskPicksHtml()}</div></section>${myDeskSignalsHtml()}${myDeskEntityListsHtml()}`;
   els.myDeskContent.innerHTML = `${importBanner}<section class="my-desk-hero${emptyDesk ? " is-empty" : ""}"><div class="my-desk-hero-copy"><h2>${heading}</h2><p>${intro}</p>${heroAction}</div>${summary}</section>${activity}`;
   syncWatchControls();
 }
@@ -4762,7 +4762,7 @@ els.eventFilterButtons.forEach((button) => {
     els.eventFilterButtons.forEach((candidate) => candidate.classList.toggle("is-active", candidate === button));
     if (currentEventFilter === "archive" && !historySnapshot) {
       setText(els.eventCount, "Loading verified archive");
-      els.eventsGrid.replaceChildren(emptyNode("Opening the event archive.", "Compiling fields, formats, and result ledgers from the Tier 1/2 warehouse."));
+      els.eventsGrid.replaceChildren(emptyNode("Loading archived events", "Loading teams, formats, and recorded results."));
       await loadHistorySnapshot();
       renderEventSelector(availableEvents());
     }

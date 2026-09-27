@@ -31,6 +31,7 @@ models/
 # Keep user-facing reports and project code trackable
 !outputs/
 outputs/browser-check/
+outputs/home-redesign/
 !work/cs2_predictor/
 .vercel
 .env*

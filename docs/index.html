@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="./styles.css?v=20260916.1">
     <link rel="stylesheet" href="./product.css?v=20260916.1">
     <link rel="stylesheet" href="./workspace.css?v=20260916.2">
-    <link rel="stylesheet" href="./consumer.css?v=20260927.6">
+    <link rel="stylesheet" href="./consumer.css?v=20260927.7">
     <link rel="stylesheet" href="./chart-interactions.css?v=20260920.1">
   </head>
   <body>
@@ -69,31 +69,32 @@
       <section id="home" data-product-page="home" class="home-shell" aria-labelledby="home-title">
         <div class="home-hero">
           <div class="home-intro">
-            <span class="home-kicker"><i aria-hidden="true"></i> Counter-Strike, with context</span>
-            <h1 id="home-title">See the match <em>before</em> it starts.</h1>
-            <p>Follow the CS2 circuit with match forecasts, roster context and map reads. Every call leads back to its data and the moment it was checked.</p>
+            <span class="home-kicker"><i aria-hidden="true"></i> CS2 match analysis</span>
+            <h1 id="home-title">Before the<br><em>first round.</em></h1>
+            <p>Match forecasts, team form and map context for upcoming CS2 series. Open a match to see the evidence behind the prediction.</p>
             <div class="home-actions"><a class="home-primary" href="#matches">Explore matches <span aria-hidden="true">↗</span></a><a class="home-secondary" href="#events">Browse events <span aria-hidden="true">↗</span></a></div>
-            <small class="home-art-caption">Painted from real CS2 map screenshots · <a href="https://github.com/ghostcap-gaming/cs2-map-images" target="_blank" rel="noreferrer">image sources</a></small>
           </div>
           <div id="homeFeatured" class="home-featured" aria-live="polite"></div>
         </div>
-        <div class="home-section-heading"><div><span>On the desk</span><h2>Next in the circuit</h2></div><a href="#matches">Full match lineup <span aria-hidden="true">↗</span></a></div>
-        <div id="homeMatchList" class="home-match-list"></div>
+        <div class="home-lineup">
+          <div class="home-section-heading"><div><span>The schedule</span><h2>Next matches</h2></div><a href="#matches">All matches <span aria-hidden="true">↗</span></a></div>
+          <div id="homeMatchList" class="home-match-list"></div>
+        </div>
         <div class="home-paths" aria-label="Explore StrikeSignal">
-          <a href="#events"><span>01 / The circuit</span><strong>Find the next event.</strong><small>Schedules, fields, brackets and format context.</small><b aria-hidden="true">↗</b></a>
-          <a href="#rankings"><span>02 / The people</span><strong>Know the teams.</strong><small>Rosters, player form and team history.</small><b aria-hidden="true">↗</b></a>
-          <a href="#model"><span>03 / The method</span><strong>Read the evidence.</strong><small>How forecasts are built and checked.</small><b aria-hidden="true">↗</b></a>
+          <a href="#events"><span>01 / Events</span><strong>Events and brackets.</strong><small>Schedules, teams, brackets and tournament formats.</small><b aria-hidden="true">↗</b></a>
+          <a href="#rankings"><span>02 / Teams</span><strong>Teams and players.</strong><small>Rosters, player form and team history.</small><b aria-hidden="true">↗</b></a>
+          <a href="#model"><span>03 / The model</span><strong>How predictions work.</strong><small>How forecasts are built and checked.</small><b aria-hidden="true">↗</b></a>
         </div>
       </section>
       <nav class="browse-tabs" data-product-page="teams" aria-label="Teams and players" hidden><a href="#rankings" data-browse-link="rankings">Team rankings</a><a href="#players" data-browse-link="players">Players</a></nav>
       <section id="matches" data-product-page="matches" class="section-shell matches-shell" aria-labelledby="matches-title">
         <div class="section-heading">
           <div>
-            <span class="section-index">The match lineup</span>
+            <span class="section-index">Schedule and results</span>
             <h1 id="matches-title">Matches</h1>
           </div>
         </div>
-        <div id="matchToolbar" class="match-toolbar" aria-label="Match desk controls"></div>
+        <div id="matchToolbar" class="match-toolbar" aria-label="Match filters"></div>
         <div id="deciderGrid" class="match-center"></div>
       </section>
 
@@ -118,10 +119,10 @@
         <a class="back-link" href="#events">← All events</a>
         <div class="section-heading event-heading split-heading">
           <div>
-            <span class="section-index"><span class="live-dot"></span> <span id="eventPhaseLabel">Event room</span></span>
-            <h2 id="projection-title">Tournament outlook.</h2>
+            <span class="section-index"><span class="live-dot"></span> <span id="eventPhaseLabel">Event forecast</span></span>
+            <h2 id="projection-title">Event forecast</h2>
           </div>
-          <p id="projection-intro">Open a tournament to see the field through the format it will actually play.</p>
+          <p id="projection-intro">Select an event to see its schedule, field, and forecast.</p>
         </div>
 
         <div class="event-selector-bar">
@@ -139,7 +140,7 @@
         <div class="pickem-header" aria-live="polite">
           <div>
             <span class="micro-label">Field forecast</span>
-            <h3>Current title picture.</h3>
+            <h3>Title forecast</h3>
             <p id="pickemSummary">Calculating from the confirmed field and current team strength.</p>
           </div>
           <div class="pickem-score"><span>Model favorite</span><strong id="pickemChance">--</strong></div>
@@ -152,8 +153,8 @@
         <div class="route-panel">
           <div class="route-header">
             <div>
-              <span class="micro-label">Format-aware forecast</span>
-              <h3 id="boardStageTitle">Choose a covered event.</h3>
+              <span class="micro-label">Event format</span>
+              <h3 id="boardStageTitle">Choose a covered event</h3>
             </div>
             <div class="route-copy">
               <p id="routeIntro">Published fixtures are shown first. Early forecasts use the confirmed field and current ranking strength.</p>
@@ -213,12 +214,12 @@
         <div class="model-evidence">
           <article class="model-mode">
             <span>Pre-veto accuracy</span><strong id="modelPre">--</strong>
-            <h3>The opening number</h3>
+            <h3>Before the veto</h3>
             <p>Built before the first ban from team strength, lineups, form, opponents, and series length.</p>
           </article>
           <article class="model-mode is-map-aware">
             <span>Historical post-veto benchmark</span><strong id="modelPost">--</strong>
-            <h3>With the maps known</h3>
+            <h3>After the veto</h3>
             <p>Earlier event holdout: 134 series. Different test window from the current pre-match model; these figures are not a like-for-like uplift.</p>
           </article>
           <aside class="model-scorecard">
@@ -230,7 +231,7 @@
         <div id="modelSlices" class="model-slices"></div>
       </section>
       <section id="myDeskLayer" data-product-page="picks" class="section-shell personal-shell" aria-labelledby="myDeskTitle" hidden>
-        <div class="section-heading"><div><span class="section-index">Your corner of Counter-Strike</span><h1 id="myDeskTitle">My picks</h1></div><button id="myDeskClose" type="button" class="ghost-action">Back to matches</button></div>
+        <div class="section-heading"><div><span class="section-index">Saved on this device</span><h1 id="myDeskTitle">My picks</h1></div><button id="myDeskClose" type="button" class="ghost-action">Back to matches</button></div>
         <div id="myDeskContent" class="my-desk-content"></div>
       </section>
     </main>
@@ -245,7 +246,7 @@
       <button id="teamDrawerBackdrop" class="team-drawer-backdrop" type="button" aria-label="Close team profile"></button>
       <aside class="team-drawer" role="dialog" aria-modal="true" aria-labelledby="teamDrawerTitle">
         <header class="team-drawer-bar">
-          <span>Team intelligence</span>
+          <span>Team profile</span>
           <button id="teamDrawerClose" type="button" aria-label="Close team profile"><i></i></button>
         </header>
         <div id="teamDrawerContent" class="team-drawer-content"></div>
@@ -255,7 +256,7 @@
     <div id="playerCompareLayer" class="player-compare-layer" hidden>
       <button id="playerCompareBackdrop" class="player-compare-backdrop" type="button" aria-label="Close player comparison"></button>
       <section class="player-compare-dialog" role="dialog" aria-modal="true" aria-labelledby="playerCompareTitle">
-        <header class="player-compare-bar"><div><span>Player intelligence</span><strong id="playerCompareTitle">Player compare</strong></div><button id="playerCompareClose" type="button" aria-label="Close player comparison"><i></i></button></header>
+        <header class="player-compare-bar"><div><span>Player comparison</span><strong id="playerCompareTitle">Compare players</strong></div><button id="playerCompareClose" type="button" aria-label="Close player comparison"><i></i></button></header>
         <div id="playerCompareContent" class="player-compare-content"></div>
       </section>
     </div>
@@ -295,6 +296,6 @@
     <script src="./data/coverage.js?v=20260726.1"></script>
     <script src="./data/team-assets.js?v=20260927.2"></script>
     <script src="./data/players.js?v=20260727.1"></script>
-    <script src="./app.js?v=20260927.4" type="module"></script>
+    <script src="./app.js?v=20260927.5" type="module"></script>
   </body>
 </html>
