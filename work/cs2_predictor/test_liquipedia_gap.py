@@ -2,12 +2,34 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
-from .collect_liquipedia_gap import merge_archive, observation, update_assets
+from .collect_liquipedia_gap import collect_once, make_queue, merge_archive, observation, update_assets
 from .collect_liquipedia_team_history import parse_team_history_html
 
 
 class LiquipediaGapTests(unittest.TestCase):
+    def test_exhausted_queue_restarts_with_current_match_teams(self):
+        with tempfile.TemporaryDirectory() as directory:
+            base = Path(directory)
+            predictions = base / "predictions.json"
+            predictions.write_text(json.dumps({
+                "coverage": {"daily_matches": [{"starts_at": "2026-09-27T14:00:00Z", "team1_name": "New Team", "team2_name": "Ranked Team"}]},
+                "model_state": {"teams": [{"team_name": "Ranked Team", "vrs_rank": 1}]},
+            }))
+            queue = base / "queue.json"
+            queue.write_text(json.dumps(["Stale Team"]))
+            state = base / "state.json"
+            state.write_text(json.dumps({"next_index": 1}))
+            row = {"team_name": "New Team", "opponent_name": "Ranked Team", "match_timestamp": "1789999200", "score_text": "2 : 1", "tournament_name": "Cup", "tier": "A-Tier"}
+            with patch("work.cs2_predictor.collect_liquipedia_gap.fetch_team_history_batch", return_value=("batch", "<html>")) as fetch, patch("work.cs2_predictor.collect_liquipedia_gap.parse_team_history_html", return_value=[row]):
+                result = collect_once(queue, state, base / "archive.jsonl", predictions, since="2026-05-30", until="2026-09-28", assets_path=base / "assets.json", assets_js_path=base / "assets.js")
+            self.assertEqual(make_queue(predictions), ["New Team", "Ranked Team"])
+            self.assertEqual(json.loads(queue.read_text()), ["New Team", "Ranked Team"])
+            self.assertEqual(json.loads(state.read_text())["next_index"], 2)
+            self.assertEqual(result["new_observations"], 1)
+            self.assertEqual(fetch.call_args.args[0], ["New Team", "Ranked Team"])
+
     def test_current_single_team_table_and_multi_team_table(self):
         def cells(count):
             values = ["<span data-timestamp='1789831500'>Sep 19</span>", "S-Tier", "Offline", "", "", "Cup", "", "", "", "", "", ""]

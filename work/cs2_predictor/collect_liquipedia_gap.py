@@ -10,7 +10,7 @@ import argparse
 import hashlib
 import json
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from .collect_liquipedia_team_history import fetch_team_history_batch, parse_team_history_html
@@ -23,11 +23,14 @@ DEFAULT_ASSETS = Path("docs/data/team-assets.json")
 DEFAULT_ASSETS_JS = Path("docs/data/team-assets.js")
 
 
-def make_queue(predictions_path: Path, limit: int = 120) -> list[str]:
+def make_queue(predictions_path: Path, limit: int = 160) -> list[str]:
     payload = json.loads(predictions_path.read_text(encoding="utf-8"))
+    current_matches = sorted(payload.get("coverage", {}).get("daily_matches", []), key=lambda match: str(match.get("starts_at") or ""))
+    current_teams = [name for match in current_matches for name in (match.get("team1_name"), match.get("team2_name")) if name]
     teams = payload.get("model_state", {}).get("teams", [])
     ordered = sorted(teams, key=lambda team: (team.get("vrs_rank") or 100000, -(team.get("matches") or 0), team.get("team_name") or ""))
-    return list(dict.fromkeys(str(team.get("team_name") or "").strip() for team in ordered if team.get("team_name")))[:limit]
+    names = [*current_teams, *(team.get("team_name") for team in ordered)]
+    return list(dict.fromkeys(str(name).strip() for name in names if name and str(name).strip()))[:limit]
 
 
 def observation(row: dict[str, str]) -> dict | None:
@@ -111,13 +114,18 @@ def update_assets(path: Path, js_path: Path, rows: list[dict[str, str]]) -> int:
 
 
 def collect_once(queue_path: Path, state_path: Path, archive_path: Path, predictions_path: Path, *, since: str, until: str, batch_size: int = 5, assets_path: Path = DEFAULT_ASSETS, assets_js_path: Path = DEFAULT_ASSETS_JS) -> dict:
-    if not queue_path.exists():
-        queue_path.write_text(json.dumps(make_queue(predictions_path), ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    queue = json.loads(queue_path.read_text(encoding="utf-8"))
     state = json.loads(state_path.read_text(encoding="utf-8")) if state_path.exists() else {"next_index": 0}
     index = int(state["next_index"])
+    queue = json.loads(queue_path.read_text(encoding="utf-8")) if queue_path.exists() else []
     if index >= len(queue):
-        return {"complete": True, "teams_covered": len(queue)}
+        # A finished queue must not leave the hourly timer doing no work forever.
+        # Rebuild from current matches so newly relevant teams get a turn first.
+        queue = make_queue(predictions_path)
+        queue_path.parent.mkdir(parents=True, exist_ok=True)
+        queue_path.write_text(json.dumps(queue, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        index = 0
+    if not queue:
+        return {"complete": True, "teams_covered": 0}
     teams = queue[index:index + batch_size]
     # The existing helper uses only the official MediaWiki API and saves raw
     # evidence in runner scratch space. One call per hourly workflow stays far
@@ -134,8 +142,9 @@ def collect_once(queue_path: Path, state_path: Path, archive_path: Path, predict
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--since", default="2026-06-09")
-    parser.add_argument("--until", default="2026-09-19")
+    today = datetime.now(timezone.utc).date()
+    parser.add_argument("--since", default=(today - timedelta(days=120)).isoformat())
+    parser.add_argument("--until", default=(today + timedelta(days=1)).isoformat())
     parser.add_argument("--queue", type=Path, default=DEFAULT_QUEUE)
     parser.add_argument("--state", type=Path, default=DEFAULT_STATE)
     parser.add_argument("--archive", type=Path, default=DEFAULT_ARCHIVE)
