@@ -1560,5 +1560,45 @@
     "name": "Tricked",
     "logo_url": "https://liquipedia.net/commons/images/thumb/2/2e/Tricked_Esport_2025_allmode.png/50px-Tricked_Esport_2025_allmode.png",
     "source": "Liquipedia"
+  },
+  "r4g": {
+    "name": "R4G",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/94/Regnum4Games_lightmode.png/52px-Regnum4Games_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "ef acd": {
+    "name": "EF.acd",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ec/Eternal_Fire_2023_allmode.png/95px-Eternal_Fire_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "eac ex": {
+    "name": "EAC.Ex",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/89/Esport_Academy_Copenhagen_Extra_allmode.png/39px-Esport_Academy_Copenhagen_Extra_allmode.png",
+    "source": "Liquipedia"
+  },
+  "v ster s": {
+    "name": "Västerås",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/ca/V%C3%A4ster%C3%A5s_Esport_allmode.png/57px-V%C3%A4ster%C3%A5s_Esport_allmode.png",
+    "source": "Liquipedia"
+  },
+  "tigers": {
+    "name": "Tigers",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/0b/Team_White_Tigers_lightmode.png/90px-Team_White_Tigers_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "yyhut": {
+    "name": "YYHuT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4d/YYHuT_allmode.png/55px-YYHuT_allmode.png",
+    "source": "Liquipedia"
+  },
+  "hermine": {
+    "name": "Hermine",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/32/Hermine_Esports_Club_allmode.png/33px-Hermine_Esports_Club_allmode.png",
+    "source": "Liquipedia"
+  },
+  "eultra": {
+    "name": "EULTRA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/cd/ENERGYULTRA_Lightmode.png/39px-ENERGYULTRA_Lightmode.png",
+    "source": "Liquipedia"
   }
 }
