@@ -347,6 +347,51 @@
           "team1_name": "Leo",
           "team2_name": "Black Phoenix",
           "winner_name": "Black Phoenix"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397854",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Ancient",
+            "Mirage",
+            "Nuke"
+          ],
+          "match_id": "hltv:2397854",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "Iberian Soul",
+          "team2_name": "ex-RUSTEC",
+          "veto_text": "Best of 3 (Online)\n\n* Semi-final"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
@@ -362,7 +407,7 @@
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "finished"
+      "status": "ongoing"
     },
     {
       "current_stage": "Schedule",
@@ -1297,7 +1342,7 @@
       "status": "upcoming"
     }
   ],
-  "fetched_at_utc": "2026-09-27T13:03:40Z",
+  "fetched_at_utc": "2026-09-27T13:21:28Z",
   "matches": [
     {
       "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
@@ -2145,6 +2190,51 @@
       "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397854",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_id": "hltv:2397854",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_name": "Iberian Soul",
+      "team2_name": "ex-RUSTEC",
+      "veto_text": "Best of 3 (Online)\n\n* Semi-final"
+    },
+    {
       "event_id": "hltv:cct-2026-south-america-series-6",
       "event_name": "CCT 2026 South America Series 6",
       "event_url": "https://www.hltv.org/events/archive",
@@ -2245,7 +2335,7 @@
     "detail_errors": [],
     "detail_matches": 6,
     "recent_results": 80,
-    "scheduled_matches": 60
+    "scheduled_matches": 59
   },
   "product_filter": {
     "eligible_tiers": [
@@ -2253,7 +2343,7 @@
       "tier_2"
     ],
     "events_kept": 14,
-    "matches_kept": 47,
+    "matches_kept": 48,
     "players_kept": 0,
     "event_tiers": {
       "hltv:esl-challenger-league-season-52-north-america-cup-2": "tier_2",
@@ -2317,6 +2407,7 @@
       "hltv:2398547",
       "hltv:2398642",
       "hltv:2398486",
+      "hltv:2397854",
       "hltv:2398570",
       "hltv:2398487"
     ]

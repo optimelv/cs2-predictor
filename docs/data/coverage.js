@@ -5,25 +5,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
       "event_url": null,
-      "hltv_match_id": "2397806",
-      "maps": [],
-      "match_id": "hltv:2397806",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397806/falcons-force-vs-navi-junior-cct-2026-europe-series-9-closed-qualifier",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Falcons Force",
-      "team2_name": "NAVI Junior",
-      "winner_name": "NAVI Junior"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-9-closed-qualifier",
-      "event_name": "CCT 2026 Europe Series 9 Closed Qualifier",
-      "event_url": null,
       "hltv_match_id": "2397807",
       "maps": [],
       "match_id": "hltv:2397807",
@@ -832,6 +813,50 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team1_name": "Rare Atom",
       "team2_name": "The Huns",
       "veto_text": "Best of 3 (Online)\n\n* Lower bracket final"
+    },
+    {
+      "event_id": "hltv:cct-2026-europe-series-9",
+      "event_name": "CCT 2026 Europe Series 9",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2397854",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Ancient",
+        "Mirage",
+        "Nuke"
+      ],
+      "match_id": "hltv:2397854",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
+      "stage_name": "Scheduled series",
+      "status": "live",
+      "team1_name": "Iberian Soul",
+      "team2_name": "ex-RUSTEC",
+      "veto_text": "Best of 3 (Online)\n\n* Semi-final"
     },
     {
       "event_id": "thunderpick-sa-s2-2026",
@@ -10502,6 +10527,50 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "Leo",
           "team2_name": "Black Phoenix",
           "winner_name": "Black Phoenix"
+        },
+        {
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2397854",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Ancient",
+            "Mirage",
+            "Nuke"
+          ],
+          "match_id": "hltv:2397854",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
+          "stage_name": "Scheduled series",
+          "status": "live",
+          "team1_name": "Iberian Soul",
+          "team2_name": "ex-RUSTEC",
+          "veto_text": "Best of 3 (Online)\n\n* Semi-final"
         }
       ],
       "name": "CCT 2026 Europe Series 9",
@@ -14801,7 +14870,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-09-27T13:03:40Z",
+  "last_verified_utc": "2026-09-27T13:21:28Z",
   "sources": [
     {
       "name": "HLTV events calendar",
