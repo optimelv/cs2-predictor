@@ -694,9 +694,9 @@
       "map_results": [
         {
           "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 4,
+          "score2": 8,
+          "status": "finished"
         },
         {
           "map_name": "Nuke",
@@ -738,9 +738,9 @@
       "map_results": [
         {
           "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 9,
+          "score2": 3,
+          "status": "finished"
         },
         {
           "map_name": "Dust2",
@@ -776,15 +776,87 @@
       "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398487",
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          {
+            "hltv_player_id": "21825",
+            "nickname": "L1haNg",
+            "player_id": "hltv:21825",
+            "source_url": "https://www.hltv.org/player/21825/l1hang",
+            "team_name": "Rare Atom"
+          },
+          {
+            "hltv_player_id": "8950",
+            "nickname": "kaze",
+            "player_id": "hltv:8950",
+            "source_url": "https://www.hltv.org/player/8950/kaze",
+            "team_name": "Rare Atom"
+          },
+          {
+            "hltv_player_id": "19681",
+            "nickname": "ChildKing",
+            "player_id": "hltv:19681",
+            "source_url": "https://www.hltv.org/player/19681/childking",
+            "team_name": "Rare Atom"
+          },
+          {
+            "hltv_player_id": "7028",
+            "nickname": "Summer",
+            "player_id": "hltv:7028",
+            "source_url": "https://www.hltv.org/player/7028/summer",
+            "team_name": "Rare Atom"
+          },
+          {
+            "hltv_player_id": "24306",
+            "nickname": "3gl",
+            "player_id": "hltv:24306",
+            "source_url": "https://www.hltv.org/player/24306/3gl",
+            "team_name": "Rare Atom"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "21398",
+            "nickname": "controlez",
+            "player_id": "hltv:21398",
+            "source_url": "https://www.hltv.org/player/21398/controlez",
+            "team_name": "The Huns"
+          },
+          {
+            "hltv_player_id": "15072",
+            "nickname": "nin9",
+            "player_id": "hltv:15072",
+            "source_url": "https://www.hltv.org/player/15072/nin9",
+            "team_name": "The Huns"
+          },
+          {
+            "hltv_player_id": "18689",
+            "nickname": "Annihilation",
+            "player_id": "hltv:18689",
+            "source_url": "https://www.hltv.org/player/18689/annihilation",
+            "team_name": "The Huns"
+          },
+          {
+            "hltv_player_id": "19957",
+            "nickname": "Bart4k",
+            "player_id": "hltv:19957",
+            "source_url": "https://www.hltv.org/player/19957/bart4k",
+            "team_name": "The Huns"
+          },
+          {
+            "hltv_player_id": "24512",
+            "nickname": "Cozen",
+            "player_id": "hltv:24512",
+            "source_url": "https://www.hltv.org/player/24512/cozen",
+            "team_name": "The Huns"
+          }
+        ]
       },
       "map_results": [
         {
           "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 1,
+          "score2": 13,
+          "status": "finished"
         },
         {
           "map_name": "Dust2",
@@ -805,6 +877,128 @@
         "Mirage"
       ],
       "match_id": "hltv:2398487",
+      "player_stats": [
+        {
+          "adr": 57.6,
+          "deaths": 11,
+          "hltv_player_id": "21825",
+          "kast": 64.3,
+          "kills": 7,
+          "nickname": "L1haNg",
+          "player_id": "hltv:21825",
+          "rating": 0.7,
+          "source_url": "https://www.hltv.org/player/21825/l1hang",
+          "team_side": 1
+        },
+        {
+          "adr": 60.8,
+          "deaths": 11,
+          "hltv_player_id": "8950",
+          "kast": 57.1,
+          "kills": 7,
+          "nickname": "kaze",
+          "player_id": "hltv:8950",
+          "rating": 0.58,
+          "source_url": "https://www.hltv.org/player/8950/kaze",
+          "team_side": 1
+        },
+        {
+          "adr": 59.7,
+          "deaths": 14,
+          "hltv_player_id": "19681",
+          "kast": 50,
+          "kills": 7,
+          "nickname": "ChildKing",
+          "player_id": "hltv:19681",
+          "rating": 0.56,
+          "source_url": "https://www.hltv.org/player/19681/childking",
+          "team_side": 1
+        },
+        {
+          "adr": 57,
+          "deaths": 12,
+          "hltv_player_id": "7028",
+          "kast": 57.1,
+          "kills": 7,
+          "nickname": "Summer",
+          "player_id": "hltv:7028",
+          "rating": 0.54,
+          "source_url": "https://www.hltv.org/player/7028/summer",
+          "team_side": 1
+        },
+        {
+          "adr": 61.4,
+          "deaths": 12,
+          "hltv_player_id": "24306",
+          "kast": 71.4,
+          "kills": 4,
+          "nickname": "3gl",
+          "player_id": "hltv:24306",
+          "rating": 0.42,
+          "source_url": "https://www.hltv.org/player/24306/3gl",
+          "team_side": 1
+        },
+        {
+          "adr": 164,
+          "deaths": 5,
+          "hltv_player_id": "21398",
+          "kast": 100,
+          "kills": 24,
+          "nickname": "controlez",
+          "player_id": "hltv:21398",
+          "rating": 3.16,
+          "source_url": "https://www.hltv.org/player/21398/controlez",
+          "team_side": 2
+        },
+        {
+          "adr": 78.4,
+          "deaths": 8,
+          "hltv_player_id": "15072",
+          "kast": 92.9,
+          "kills": 9,
+          "nickname": "nin9",
+          "player_id": "hltv:15072",
+          "rating": 1.46,
+          "source_url": "https://www.hltv.org/player/15072/nin9",
+          "team_side": 2
+        },
+        {
+          "adr": 57.1,
+          "deaths": 6,
+          "hltv_player_id": "18689",
+          "kast": 78.6,
+          "kills": 9,
+          "nickname": "Annihilation",
+          "player_id": "hltv:18689",
+          "rating": 1.37,
+          "source_url": "https://www.hltv.org/player/18689/annihilation",
+          "team_side": 2
+        },
+        {
+          "adr": 54.1,
+          "deaths": 7,
+          "hltv_player_id": "19957",
+          "kast": 85.7,
+          "kills": 8,
+          "nickname": "Bart4k",
+          "player_id": "hltv:19957",
+          "rating": 1.36,
+          "source_url": "https://www.hltv.org/player/19957/bart4k",
+          "team_side": 2
+        },
+        {
+          "adr": 82.6,
+          "deaths": 8,
+          "hltv_player_id": "24512",
+          "kast": 85.7,
+          "kills": 10,
+          "nickname": "Cozen",
+          "player_id": "hltv:24512",
+          "rating": 1.31,
+          "source_url": "https://www.hltv.org/player/24512/cozen",
+          "team_side": 2
+        }
+      ],
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398487/rare-atom-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
@@ -11378,9 +11572,9 @@
           "map_results": [
             {
               "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 4,
+              "score2": 8,
+              "status": "finished"
             },
             {
               "map_name": "Nuke",
@@ -11416,15 +11610,87 @@
           "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398487",
           "lineups": {
-            "team1": [],
-            "team2": []
+            "team1": [
+              {
+                "hltv_player_id": "21825",
+                "nickname": "L1haNg",
+                "player_id": "hltv:21825",
+                "source_url": "https://www.hltv.org/player/21825/l1hang",
+                "team_name": "Rare Atom"
+              },
+              {
+                "hltv_player_id": "8950",
+                "nickname": "kaze",
+                "player_id": "hltv:8950",
+                "source_url": "https://www.hltv.org/player/8950/kaze",
+                "team_name": "Rare Atom"
+              },
+              {
+                "hltv_player_id": "19681",
+                "nickname": "ChildKing",
+                "player_id": "hltv:19681",
+                "source_url": "https://www.hltv.org/player/19681/childking",
+                "team_name": "Rare Atom"
+              },
+              {
+                "hltv_player_id": "7028",
+                "nickname": "Summer",
+                "player_id": "hltv:7028",
+                "source_url": "https://www.hltv.org/player/7028/summer",
+                "team_name": "Rare Atom"
+              },
+              {
+                "hltv_player_id": "24306",
+                "nickname": "3gl",
+                "player_id": "hltv:24306",
+                "source_url": "https://www.hltv.org/player/24306/3gl",
+                "team_name": "Rare Atom"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "21398",
+                "nickname": "controlez",
+                "player_id": "hltv:21398",
+                "source_url": "https://www.hltv.org/player/21398/controlez",
+                "team_name": "The Huns"
+              },
+              {
+                "hltv_player_id": "15072",
+                "nickname": "nin9",
+                "player_id": "hltv:15072",
+                "source_url": "https://www.hltv.org/player/15072/nin9",
+                "team_name": "The Huns"
+              },
+              {
+                "hltv_player_id": "18689",
+                "nickname": "Annihilation",
+                "player_id": "hltv:18689",
+                "source_url": "https://www.hltv.org/player/18689/annihilation",
+                "team_name": "The Huns"
+              },
+              {
+                "hltv_player_id": "19957",
+                "nickname": "Bart4k",
+                "player_id": "hltv:19957",
+                "source_url": "https://www.hltv.org/player/19957/bart4k",
+                "team_name": "The Huns"
+              },
+              {
+                "hltv_player_id": "24512",
+                "nickname": "Cozen",
+                "player_id": "hltv:24512",
+                "source_url": "https://www.hltv.org/player/24512/cozen",
+                "team_name": "The Huns"
+              }
+            ]
           },
           "map_results": [
             {
               "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 1,
+              "score2": 13,
+              "status": "finished"
             },
             {
               "map_name": "Dust2",
@@ -11445,6 +11711,128 @@
             "Mirage"
           ],
           "match_id": "hltv:2398487",
+          "player_stats": [
+            {
+              "adr": 57.6,
+              "deaths": 11,
+              "hltv_player_id": "21825",
+              "kast": 64.3,
+              "kills": 7,
+              "nickname": "L1haNg",
+              "player_id": "hltv:21825",
+              "rating": 0.7,
+              "source_url": "https://www.hltv.org/player/21825/l1hang",
+              "team_side": 1
+            },
+            {
+              "adr": 60.8,
+              "deaths": 11,
+              "hltv_player_id": "8950",
+              "kast": 57.1,
+              "kills": 7,
+              "nickname": "kaze",
+              "player_id": "hltv:8950",
+              "rating": 0.58,
+              "source_url": "https://www.hltv.org/player/8950/kaze",
+              "team_side": 1
+            },
+            {
+              "adr": 59.7,
+              "deaths": 14,
+              "hltv_player_id": "19681",
+              "kast": 50,
+              "kills": 7,
+              "nickname": "ChildKing",
+              "player_id": "hltv:19681",
+              "rating": 0.56,
+              "source_url": "https://www.hltv.org/player/19681/childking",
+              "team_side": 1
+            },
+            {
+              "adr": 57,
+              "deaths": 12,
+              "hltv_player_id": "7028",
+              "kast": 57.1,
+              "kills": 7,
+              "nickname": "Summer",
+              "player_id": "hltv:7028",
+              "rating": 0.54,
+              "source_url": "https://www.hltv.org/player/7028/summer",
+              "team_side": 1
+            },
+            {
+              "adr": 61.4,
+              "deaths": 12,
+              "hltv_player_id": "24306",
+              "kast": 71.4,
+              "kills": 4,
+              "nickname": "3gl",
+              "player_id": "hltv:24306",
+              "rating": 0.42,
+              "source_url": "https://www.hltv.org/player/24306/3gl",
+              "team_side": 1
+            },
+            {
+              "adr": 164,
+              "deaths": 5,
+              "hltv_player_id": "21398",
+              "kast": 100,
+              "kills": 24,
+              "nickname": "controlez",
+              "player_id": "hltv:21398",
+              "rating": 3.16,
+              "source_url": "https://www.hltv.org/player/21398/controlez",
+              "team_side": 2
+            },
+            {
+              "adr": 78.4,
+              "deaths": 8,
+              "hltv_player_id": "15072",
+              "kast": 92.9,
+              "kills": 9,
+              "nickname": "nin9",
+              "player_id": "hltv:15072",
+              "rating": 1.46,
+              "source_url": "https://www.hltv.org/player/15072/nin9",
+              "team_side": 2
+            },
+            {
+              "adr": 57.1,
+              "deaths": 6,
+              "hltv_player_id": "18689",
+              "kast": 78.6,
+              "kills": 9,
+              "nickname": "Annihilation",
+              "player_id": "hltv:18689",
+              "rating": 1.37,
+              "source_url": "https://www.hltv.org/player/18689/annihilation",
+              "team_side": 2
+            },
+            {
+              "adr": 54.1,
+              "deaths": 7,
+              "hltv_player_id": "19957",
+              "kast": 85.7,
+              "kills": 8,
+              "nickname": "Bart4k",
+              "player_id": "hltv:19957",
+              "rating": 1.36,
+              "source_url": "https://www.hltv.org/player/19957/bart4k",
+              "team_side": 2
+            },
+            {
+              "adr": 82.6,
+              "deaths": 8,
+              "hltv_player_id": "24512",
+              "kast": 85.7,
+              "kills": 10,
+              "nickname": "Cozen",
+              "player_id": "hltv:24512",
+              "rating": 1.31,
+              "source_url": "https://www.hltv.org/player/24512/cozen",
+              "team_side": 2
+            }
+          ],
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398487/rare-atom-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
@@ -13136,9 +13524,9 @@
           "map_results": [
             {
               "map_name": "Mirage",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 9,
+              "score2": 3,
+              "status": "finished"
             },
             {
               "map_name": "Dust2",
@@ -14870,7 +15258,7 @@
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-09-27T13:25:34Z",
+  "last_verified_utc": "2026-09-27T13:36:57Z",
   "sources": [
     {
       "name": "HLTV events calendar",
