@@ -25,6 +25,12 @@ class PrivateArchiveTests(unittest.IsolatedAsyncioTestCase):
 
 
 class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
+    async def test_blocked_source_uses_longer_retry_delay(self):
+        from server import BLOCKED_RETRY_SECONDS, POLL_SECONDS, retry_delay
+        self.assertEqual(retry_delay("RuntimeError('Scrapling source returned HTTP 403')"), BLOCKED_RETRY_SECONDS)
+        self.assertEqual(retry_delay("TimeoutError()"), BLOCKED_RETRY_SECONDS)
+        self.assertEqual(retry_delay("RuntimeError('HTTP 500')"), POLL_SECONDS)
+
     async def test_http_browser_fallback_is_bounded_and_does_not_retry_rate_limits(self):
         from server import fetch_url
         session = SimpleNamespace(get=AsyncMock(return_value=SimpleNamespace(status=403)), browser_fallbacks=0)

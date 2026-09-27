@@ -24,6 +24,7 @@ if FETCH_BACKEND not in {"flaresolverr", "scrapling", "scrapling-http"}:
 HLTV_MATCHES_URL = os.environ.get("HLTV_MATCHES_URL", "https://www.hltv.org/matches")
 HLTV_RESULTS_URL = os.environ.get("HLTV_RESULTS_URL", "https://www.hltv.org/results")
 POLL_SECONDS = max(180, int(os.environ.get("POLL_SECONDS", "300")))
+BLOCKED_RETRY_SECONDS = max(POLL_SECONDS, 1800)
 REQUEST_TIMEOUT_SECONDS = int(os.environ.get("REQUEST_TIMEOUT_SECONDS", "90"))
 MAX_DETAIL_MATCHES = max(0, min(8, int(os.environ.get("MAX_DETAIL_MATCHES", "6"))))
 SNAPSHOT_PATH = Path(os.environ.get("SNAPSHOT_PATH", "/data/last-good-snapshot.json"))
@@ -733,6 +734,11 @@ async def backfill_once() -> None:
             connection.execute("INSERT OR REPLACE INTO archive_meta(key,value) VALUES ('backfill_complete','true')")
 
 
+def retry_delay(error: object) -> int:
+    detail = str(error or "")
+    return BLOCKED_RETRY_SECONDS if "HTTP 403" in detail or "TimeoutError" in detail else POLL_SECONDS
+
+
 async def backfill_loop() -> None:
     await asyncio.sleep(30)
     while True:
@@ -745,7 +751,7 @@ async def backfill_loop() -> None:
             state["archive_error"] = None
         except Exception as exc:
             state["archive_error"] = repr(exc)
-        await asyncio.sleep(POLL_SECONDS)
+        await asyncio.sleep(retry_delay(state.get("archive_error")))
 
 
 async def refresh() -> None:
@@ -769,7 +775,7 @@ async def refresh() -> None:
 async def refresh_loop(app: web.Application) -> None:
     while True:
         await refresh()
-        await asyncio.sleep(POLL_SECONDS)
+        await asyncio.sleep(retry_delay(state.get("last_error")))
 
 
 async def on_startup(app: web.Application) -> None:
