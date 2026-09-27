@@ -12,7 +12,7 @@ These are recorded for a later polish pass; no UI implementation is part of the 
 
 ## Visual asset coverage — measured 2026-09-27
 
-- **Team logos first:** The current published data contains 134 distinct teams in upcoming/current matches; 65 have no directly mapped logo after normalizing names. The Liquipedia evidence feed has added 441 logo URLs, but it does not cover every current team. Prioritize logos for visible Tier 1/2 matches, verify that image URLs load in a browser, and retain the existing initials fallback. Some HLTV CDN URLs currently return 403, so a URL in the asset map is not proof of a working logo.
+- **Team logos first:** The current data contains 134 distinct teams in upcoming/current matches; 79 lack a genuine mapped logo after excluding generic Liquipedia placeholders. Prioritize logos for visible Tier 1/2 matches, verify that image URLs load in a browser, and retain the existing initials fallback. Some HLTV CDN URLs currently return 403, so a URL in the asset map is not proof of a working logo.
 - **Selective player portraits second:** The site currently has no portrait assets or rendering path. Add portraits for prominent Tier 1 players first; include Tier 2 only when a player is relevant to the visible match desk. Do not try to cover all 315 profiles. Require stable player identity and usable image rights, preserve a text/initials fallback, and never gate match collection or model updates on photos.
 
 ## Release 1: Circuit Intelligence

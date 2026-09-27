@@ -28,17 +28,24 @@ export async function importEvidence(inputPath, { archivePath = "models/liquiped
   await writeFile(statePath, JSON.stringify(data.state, null, 2) + "\n");
 
   const assets = JSON.parse(await readFile(assetsPath, "utf8"));
+  const genericLogo = (url) => /(?:Counter-Strike_2|CSGO)_default_/i.test(String(url || ""));
+  let removedPlaceholders = 0;
+  for (const [key, asset] of Object.entries(assets)) {
+    if (!genericLogo(asset?.logo_url)) continue;
+    delete assets[key];
+    removedPlaceholders += 1;
+  }
   let logos = 0;
   for (const [key, asset] of Object.entries(data.assets)) {
-    if (assets[key] || !/^[a-z0-9 ]+$/.test(key) || !String(asset?.logo_url || "").startsWith("https://liquipedia.net/commons/images/")) continue;
+    if (assets[key] || !/^[a-z0-9 ]+$/.test(key) || !String(asset?.logo_url || "").startsWith("https://liquipedia.net/commons/images/") || genericLogo(asset.logo_url)) continue;
     assets[key] = asset;
     logos += 1;
   }
-  if (logos) {
+  if (logos || removedPlaceholders) {
     await writeFile(assetsPath, JSON.stringify(assets, null, 2) + "\n");
     await writeFile(assetsJsPath, "window.__STRIKESIGNAL_TEAM_ASSETS__ = " + JSON.stringify(assets, null, 2) + ";\n");
   }
-  return { added, total: ordered.length, new_logos: logos, next_index: data.state.next_index };
+  return { added, total: ordered.length, new_logos: logos, removed_placeholders: removedPlaceholders, next_index: data.state.next_index };
 }
 
 if (process.argv[1]?.endsWith("/import-liquipedia-evidence.mjs")) {

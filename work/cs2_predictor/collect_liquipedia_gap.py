@@ -103,7 +103,7 @@ def update_assets(path: Path, js_path: Path, rows: list[dict[str, str]]) -> int:
             name = row.get(name_key, "").strip()
             image = row.get(image_key, "")
             key = re.sub(r"[^a-z0-9]+", " ", name.casefold()).strip()
-            if not key or key in assets or not image.startswith("/commons/images/"):
+            if not key or key in assets or not image.startswith("/commons/images/") or re.search(r"(?:Counter-Strike_2|CSGO)_default_", image, re.IGNORECASE):
                 continue
             assets[key] = {"name": name, "logo_url": f"https://liquipedia.net{image}", "source": "Liquipedia"}
             added += 1

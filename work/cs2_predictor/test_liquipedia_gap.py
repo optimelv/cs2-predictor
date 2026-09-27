@@ -66,6 +66,8 @@ class LiquipediaGapTests(unittest.TestCase):
             saved = json.loads(assets.read_text())
             self.assertEqual(saved["vitality"]["logo_url"], "./existing.png")
             self.assertEqual(saved["aurora"]["logo_url"], "https://liquipedia.net/commons/images/a/aurora.png")
+            generic = {**first, "team_name": "Unknown", "team_logo_url": "/commons/images/thumb/5/57/Counter-Strike_2_default_lightmode.png"}
+            self.assertEqual(update_assets(assets, assets_js, [generic]), 0)
 
 
 if __name__ == "__main__":
