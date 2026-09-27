@@ -4,7 +4,7 @@ set -euo pipefail
 mode="${1:?expected load, save-refresh, or save-liquipedia}"
 runtime="${RUNNER_TEMP:-/tmp}/strikesignal-private-sync"
 checkout="$runtime/data"
-ssh_config="$runtime/ssh_config"
+ssh_command="ssh -i $runtime/deploy_key -o IdentitiesOnly=yes -o UserKnownHostsFile=$runtime/known_hosts -o StrictHostKeyChecking=yes"
 
 if [ "$mode" = load ]; then
   : "${PRIVATE_DATA_DEPLOY_KEY:?private data deploy key is required}"
@@ -14,16 +14,7 @@ if [ "$mode" = load ]; then
   cat > "$runtime/known_hosts" <<'EOF'
 github.com ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOMqqnkVzrm0SdG6UOoqKLsabgH5C9okWi0dh2l9GKJl
 EOF
-  cat > "$ssh_config" <<EOF
-Host github.com
-  HostName github.com
-  User git
-  IdentityFile $runtime/deploy_key
-  IdentitiesOnly yes
-  UserKnownHostsFile $runtime/known_hosts
-  StrictHostKeyChecking yes
-EOF
-  GIT_SSH_COMMAND="ssh -F $ssh_config" git clone --quiet --depth 1 \
+  GIT_SSH_COMMAND="$ssh_command" git clone --quiet --depth 1 \
     git@github.com:optimelv/cs2-predictor-private-data.git "$checkout"
   cp -a "$checkout/models/." models/
   cp "$checkout/model-registry.internal.json" docs/data/model-registry.json
@@ -31,7 +22,7 @@ EOF
   exit 0
 fi
 
-if [ ! -d "$checkout/.git" ] || [ ! -f "$ssh_config" ]; then
+if [ ! -d "$checkout/.git" ] || [ ! -s "$runtime/deploy_key" ]; then
   echo 'Private data checkout is missing.' >&2
   exit 1
 fi
@@ -58,6 +49,7 @@ fi
 git -C "$checkout" config user.name 'github-actions[bot]'
 git -C "$checkout" config user.email '41898282+github-actions[bot]@users.noreply.github.com'
 git -C "$checkout" commit --quiet -m "Update private StrikeSignal data ($mode)"
-GIT_SSH_COMMAND="ssh -F $ssh_config" git -C "$checkout" pull --rebase --quiet origin main
-GIT_SSH_COMMAND="ssh -F $ssh_config" git -C "$checkout" push --quiet origin main
+# The data publishers share one workflow concurrency group. A non-fast-forward
+# push must fail instead of rebasing a checkout with newly generated files.
+GIT_SSH_COMMAND="$ssh_command" git -C "$checkout" push --quiet origin main
 echo 'Private data saved.'
