@@ -10,6 +10,11 @@ These are recorded for a later polish pass; no UI implementation is part of the 
 4. **Radar chart exploration:** Consider a player or team comparison radar using the [EvilCharts ECharts example](https://evilcharts.com/docs/echarts/radar-chart/static) as visual reference. Only compare metrics on an explicitly shared scale, show sample size and source date, provide a data table, and keep the existing visual language. Do not add a chart merely to decorate a profile.
 5. **Typography reference:** Review [Justice](https://justice.kitlangton.com/) for long editorial paragraphs only. It addresses paragraph justification, not the player-list clipping or pick-state defects; adopt it only if it improves readability without runtime or accessibility cost.
 
+## Visual asset coverage — measured 2026-09-27
+
+- **Team logos first:** The current published data contains 134 distinct teams in upcoming/current matches; 65 have no directly mapped logo after normalizing names. The Liquipedia evidence feed has added 441 logo URLs, but it does not cover every current team. Prioritize logos for visible Tier 1/2 matches, verify that image URLs load in a browser, and retain the existing initials fallback. Some HLTV CDN URLs currently return 403, so a URL in the asset map is not proof of a working logo.
+- **Player portraits second:** All 315 player profiles currently lack an image field and the site has no portrait assets or rendering path. Source portraits only with stable player identity and usable image rights; preserve a text/initials fallback. Photos are presentation data and must not gate match collection or model updates.
+
 ## Release 1: Circuit Intelligence
 
 Status: implemented in the current product branch.
