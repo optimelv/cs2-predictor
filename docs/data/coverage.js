@@ -5,30 +5,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
       "event_url": null,
-      "hltv_match_id": "2397824",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397824",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397824/nexus-vs-permitta-cct-2026-europe-series-9",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Nexus",
-      "team2_name": "Permitta",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated.",
-      "winner_name": "Nexus"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
       "hltv_match_id": "2397825",
       "maps": [],
       "match_id": "hltv:2397825",
@@ -6049,88 +6025,550 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Marsborne"
     },
     {
-      "event_id": "hltv:9420",
+      "event_id": "hltv:cct-2026-europe-series-10",
       "event_name": "CCT 2026 Europe Series 10",
       "hltv_match_id": "2398366",
       "match_id": "hltv:2398366",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398366/pcific-vs-berg-cct-2026-europe-series-10",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-09-28T08:00:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-09-28T09:46:54Z",
+      "status": "finished",
       "team1_name": "PCIFIC",
-      "team2_name": "BERG"
+      "team2_name": "BERG",
+      "winner_name": "PCIFIC"
     },
     {
-      "event_id": "hltv:9353",
+      "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-2",
       "event_name": "ESL Challenger League Season 52 Oceania Cup 2",
       "hltv_match_id": "2398642",
       "match_id": "hltv:2398642",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398642/thunder-downunder-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-2",
       "stage_name": "Playoffs",
-      "starts_at": "2026-09-28T09:00:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-09-28T11:10:25Z",
+      "status": "finished",
       "team1_name": "THUNDER dOWNUNDER",
-      "team2_name": "Ground Zero"
+      "team2_name": "Ground Zero",
+      "winner_name": "THUNDER dOWNUNDER"
     },
     {
-      "event_id": "hltv:9420",
-      "event_name": "CCT 2026 Europe Series 10",
-      "hltv_match_id": "2398367",
-      "match_id": "hltv:2398367",
+      "event_id": "hltv:cct-2026-challengers-europe-series-7",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "hltv_match_id": "2398835",
+      "match_id": "hltv:2398835",
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 0,
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398367/black-phoenix-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+      "source_url": "https://www.hltv.org/matches/2398835/forze-reload-vs-megoshort-cct-2026-challengers-europe-series-7",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-09-28T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Black Phoenix",
-      "team2_name": "ex-Zero Tenacity"
+      "starts_at": "2026-09-28T12:58:02Z",
+      "status": "finished",
+      "team1_name": "FORZE Reload",
+      "team2_name": "megoshort",
+      "winner_name": "FORZE Reload"
     },
     {
-      "event_id": "hltv:9354",
+      "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-2",
       "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398488",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "19957",
+            "nickname": "Bart4k",
+            "player_id": "hltv:19957",
+            "source_url": "https://www.hltv.org/player/19957/bart4k",
+            "team_name": "The Huns"
+          },
+          {
+            "hltv_player_id": "18689",
+            "nickname": "Annihilation",
+            "player_id": "hltv:18689",
+            "source_url": "https://www.hltv.org/player/18689/annihilation",
+            "team_name": "The Huns"
+          },
+          {
+            "hltv_player_id": "24512",
+            "nickname": "Cozen",
+            "player_id": "hltv:24512",
+            "source_url": "https://www.hltv.org/player/24512/cozen",
+            "team_name": "The Huns"
+          },
+          {
+            "hltv_player_id": "15072",
+            "nickname": "nin9",
+            "player_id": "hltv:15072",
+            "source_url": "https://www.hltv.org/player/15072/nin9",
+            "team_name": "The Huns"
+          },
+          {
+            "hltv_player_id": "21398",
+            "nickname": "controlez",
+            "player_id": "hltv:21398",
+            "source_url": "https://www.hltv.org/player/21398/controlez",
+            "team_name": "The Huns"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "20703",
+            "nickname": "xerolte",
+            "player_id": "hltv:20703",
+            "source_url": "https://www.hltv.org/player/20703/xerolte",
+            "team_name": "NEXVOID"
+          },
+          {
+            "hltv_player_id": "11141",
+            "nickname": "erkaSt",
+            "player_id": "hltv:11141",
+            "source_url": "https://www.hltv.org/player/11141/erkast",
+            "team_name": "NEXVOID"
+          },
+          {
+            "hltv_player_id": "22415",
+            "nickname": "AccuracyTG",
+            "player_id": "hltv:22415",
+            "source_url": "https://www.hltv.org/player/22415/accuracytg",
+            "team_name": "NEXVOID"
+          },
+          {
+            "hltv_player_id": "22333",
+            "nickname": "MiQ",
+            "player_id": "hltv:22333",
+            "source_url": "https://www.hltv.org/player/22333/miq",
+            "team_name": "NEXVOID"
+          },
+          {
+            "hltv_player_id": "23457",
+            "nickname": "Zesta",
+            "player_id": "hltv:23457",
+            "source_url": "https://www.hltv.org/player/23457/zesta",
+            "team_name": "NEXVOID"
+          }
+        ]
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": 20,
+          "score2": 22,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 5,
+          "score2": 7,
+          "status": "finished"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Ancient",
+        "Inferno"
+      ],
       "match_id": "hltv:2398488",
+      "player_stats": [
+        {
+          "adr": 81,
+          "deaths": 28,
+          "hltv_player_id": "19957",
+          "kast": 64.3,
+          "kills": 35,
+          "nickname": "Bart4k",
+          "player_id": "hltv:19957",
+          "rating": 1.33,
+          "source_url": "https://www.hltv.org/player/19957/bart4k",
+          "team_side": 1
+        },
+        {
+          "adr": 72.7,
+          "deaths": 26,
+          "hltv_player_id": "18689",
+          "kast": 81,
+          "kills": 30,
+          "nickname": "Annihilation",
+          "player_id": "hltv:18689",
+          "rating": 1.09,
+          "source_url": "https://www.hltv.org/player/18689/annihilation",
+          "team_side": 1
+        },
+        {
+          "adr": 68.6,
+          "deaths": 29,
+          "hltv_player_id": "24512",
+          "kast": 78.6,
+          "kills": 26,
+          "nickname": "Cozen",
+          "player_id": "hltv:24512",
+          "rating": 1.08,
+          "source_url": "https://www.hltv.org/player/24512/cozen",
+          "team_side": 1
+        },
+        {
+          "adr": 76.4,
+          "deaths": 30,
+          "hltv_player_id": "15072",
+          "kast": 59.5,
+          "kills": 29,
+          "nickname": "nin9",
+          "player_id": "hltv:15072",
+          "rating": 1.03,
+          "source_url": "https://www.hltv.org/player/15072/nin9",
+          "team_side": 1
+        },
+        {
+          "adr": 67,
+          "deaths": 31,
+          "hltv_player_id": "21398",
+          "kast": 69,
+          "kills": 24,
+          "nickname": "controlez",
+          "player_id": "hltv:21398",
+          "rating": 0.84,
+          "source_url": "https://www.hltv.org/player/21398/controlez",
+          "team_side": 1
+        },
+        {
+          "adr": 95.2,
+          "deaths": 29,
+          "hltv_player_id": "20703",
+          "kast": 71.4,
+          "kills": 41,
+          "nickname": "xerolte",
+          "player_id": "hltv:20703",
+          "rating": 1.32,
+          "source_url": "https://www.hltv.org/player/20703/xerolte",
+          "team_side": 2
+        },
+        {
+          "adr": 98.2,
+          "deaths": 30,
+          "hltv_player_id": "11141",
+          "kast": 73.8,
+          "kills": 28,
+          "nickname": "erkaSt",
+          "player_id": "hltv:11141",
+          "rating": 1.3,
+          "source_url": "https://www.hltv.org/player/11141/erkast",
+          "team_side": 2
+        },
+        {
+          "adr": 63.5,
+          "deaths": 25,
+          "hltv_player_id": "22415",
+          "kast": 69,
+          "kills": 31,
+          "nickname": "AccuracyTG",
+          "player_id": "hltv:22415",
+          "rating": 1.05,
+          "source_url": "https://www.hltv.org/player/22415/accuracytg",
+          "team_side": 2
+        },
+        {
+          "adr": 66,
+          "deaths": 32,
+          "hltv_player_id": "22333",
+          "kast": 66.7,
+          "kills": 24,
+          "nickname": "MiQ",
+          "player_id": "hltv:22333",
+          "rating": 0.94,
+          "source_url": "https://www.hltv.org/player/22333/miq",
+          "team_side": 2
+        },
+        {
+          "adr": 61.9,
+          "deaths": 29,
+          "hltv_player_id": "23457",
+          "kast": 61.9,
+          "kills": 20,
+          "nickname": "Zesta",
+          "player_id": "hltv:23457",
+          "rating": 0.79,
+          "source_url": "https://www.hltv.org/player/23457/zesta",
+          "team_side": 2
+        }
+      ],
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398488/the-huns-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
       "stage_name": "Playoffs",
       "starts_at": "2026-09-28T13:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "The Huns",
-      "team2_name": "NEXVOID"
+      "team2_name": "NEXVOID",
+      "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
     },
     {
-      "event_id": "hltv:9433",
+      "event_id": "hltv:cct-2026-europe-series-10",
+      "event_name": "CCT 2026 Europe Series 10",
+      "hltv_match_id": "2398367",
+      "match_id": "hltv:2398367",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398367/black-phoenix-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-28T13:22:10Z",
+      "status": "finished",
+      "team1_name": "Black Phoenix",
+      "team2_name": "ex-Zero Tenacity",
+      "winner_name": "ex-Zero Tenacity"
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-europe-series-7",
       "event_name": "CCT 2026 Challengers Europe Series 7",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398834",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "25500",
+            "nickname": "xEternaLxx",
+            "player_id": "hltv:25500",
+            "source_url": "https://www.hltv.org/player/25500/xeternalxx",
+            "team_name": "Fire Flux"
+          },
+          {
+            "hltv_player_id": "25540",
+            "nickname": "zemix",
+            "player_id": "hltv:25540",
+            "source_url": "https://www.hltv.org/player/25540/zemix",
+            "team_name": "Fire Flux"
+          },
+          {
+            "hltv_player_id": "22806",
+            "nickname": "Quality",
+            "player_id": "hltv:22806",
+            "source_url": "https://www.hltv.org/player/22806/quality",
+            "team_name": "Fire Flux"
+          },
+          {
+            "hltv_player_id": "25109",
+            "nickname": "zer0UKY",
+            "player_id": "hltv:25109",
+            "source_url": "https://www.hltv.org/player/25109/zer0uky",
+            "team_name": "Fire Flux"
+          },
+          {
+            "hltv_player_id": "15732",
+            "nickname": "Cizzx",
+            "player_id": "hltv:15732",
+            "source_url": "https://www.hltv.org/player/15732/cizzx",
+            "team_name": "Fire Flux"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "25676",
+            "nickname": "Hrdina",
+            "player_id": "hltv:25676",
+            "source_url": "https://www.hltv.org/player/25676/hrdina",
+            "team_name": "BIG Academy"
+          },
+          {
+            "hltv_player_id": "25119",
+            "nickname": "aZe",
+            "player_id": "hltv:25119",
+            "source_url": "https://www.hltv.org/player/25119/aze",
+            "team_name": "BIG Academy"
+          },
+          {
+            "hltv_player_id": "24810",
+            "nickname": "doni",
+            "player_id": "hltv:24810",
+            "source_url": "https://www.hltv.org/player/24810/doni",
+            "team_name": "BIG Academy"
+          },
+          {
+            "hltv_player_id": "19284",
+            "nickname": "prosus",
+            "player_id": "hltv:19284",
+            "source_url": "https://www.hltv.org/player/19284/prosus",
+            "team_name": "BIG Academy"
+          },
+          {
+            "hltv_player_id": "24576",
+            "nickname": "sheezy",
+            "player_id": "hltv:24576",
+            "source_url": "https://www.hltv.org/player/24576/sheezy",
+            "team_name": "BIG Academy"
+          }
+        ]
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": 16,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Anubis",
+        "Cache"
+      ],
       "match_id": "hltv:2398834",
+      "player_stats": [
+        {
+          "adr": 88.8,
+          "deaths": 18,
+          "hltv_player_id": "25500",
+          "kast": 69,
+          "kills": 28,
+          "nickname": "xEternaLxx",
+          "player_id": "hltv:25500",
+          "rating": 1.4,
+          "source_url": "https://www.hltv.org/player/25500/xeternalxx",
+          "team_side": 1
+        },
+        {
+          "adr": 79.2,
+          "deaths": 20,
+          "hltv_player_id": "25540",
+          "kast": 79.3,
+          "kills": 19,
+          "nickname": "zemix",
+          "player_id": "hltv:25540",
+          "rating": 1.26,
+          "source_url": "https://www.hltv.org/player/25540/zemix",
+          "team_side": 1
+        },
+        {
+          "adr": 87.9,
+          "deaths": 22,
+          "hltv_player_id": "22806",
+          "kast": 75.9,
+          "kills": 17,
+          "nickname": "Quality",
+          "player_id": "hltv:22806",
+          "rating": 1.17,
+          "source_url": "https://www.hltv.org/player/22806/quality",
+          "team_side": 1
+        },
+        {
+          "adr": 57.2,
+          "deaths": 15,
+          "hltv_player_id": "25109",
+          "kast": 79.3,
+          "kills": 16,
+          "nickname": "zer0UKY",
+          "player_id": "hltv:25109",
+          "rating": 1.09,
+          "source_url": "https://www.hltv.org/player/25109/zer0uky",
+          "team_side": 1
+        },
+        {
+          "adr": 62.1,
+          "deaths": 21,
+          "hltv_player_id": "15732",
+          "kast": 62.1,
+          "kills": 19,
+          "nickname": "Cizzx",
+          "player_id": "hltv:15732",
+          "rating": 0.92,
+          "source_url": "https://www.hltv.org/player/15732/cizzx",
+          "team_side": 1
+        },
+        {
+          "adr": 90.8,
+          "deaths": 20,
+          "hltv_player_id": "25676",
+          "kast": 72.4,
+          "kills": 24,
+          "nickname": "Hrdina",
+          "player_id": "hltv:25676",
+          "rating": 1.24,
+          "source_url": "https://www.hltv.org/player/25676/hrdina",
+          "team_side": 2
+        },
+        {
+          "adr": 66.8,
+          "deaths": 14,
+          "hltv_player_id": "25119",
+          "kast": 79.3,
+          "kills": 21,
+          "nickname": "aZe",
+          "player_id": "hltv:25119",
+          "rating": 1.23,
+          "source_url": "https://www.hltv.org/player/25119/aze",
+          "team_side": 2
+        },
+        {
+          "adr": 73.1,
+          "deaths": 19,
+          "hltv_player_id": "24810",
+          "kast": 79.3,
+          "kills": 20,
+          "nickname": "doni",
+          "player_id": "hltv:24810",
+          "rating": 1.07,
+          "source_url": "https://www.hltv.org/player/24810/doni",
+          "team_side": 2
+        },
+        {
+          "adr": 80.9,
+          "deaths": 21,
+          "hltv_player_id": "19284",
+          "kast": 65.5,
+          "kills": 22,
+          "nickname": "prosus",
+          "player_id": "hltv:19284",
+          "rating": 0.97,
+          "source_url": "https://www.hltv.org/player/19284/prosus",
+          "team_side": 2
+        },
+        {
+          "adr": 50.1,
+          "deaths": 26,
+          "hltv_player_id": "24576",
+          "kast": 58.6,
+          "kills": 9,
+          "nickname": "sheezy",
+          "player_id": "hltv:24576",
+          "rating": 0.44,
+          "source_url": "https://www.hltv.org/player/24576/sheezy",
+          "team_side": 2
+        }
+      ],
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398834/fire-flux-vs-big-academy-cct-2026-challengers-europe-series-7",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-28T13:45:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Fire Flux",
-      "team2_name": "BIG Academy"
-    },
-    {
-      "event_id": "hltv:9433",
-      "event_name": "CCT 2026 Challengers Europe Series 7",
-      "hltv_match_id": "2398835",
-      "match_id": "hltv:2398835",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398835/forze-reload-vs-megoshort-cct-2026-challengers-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-28T13:45:00Z",
-      "status": "upcoming",
-      "team1_name": "FORZE Reload",
-      "team2_name": "megoshort"
+      "team2_name": "BIG Academy",
+      "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
     },
     {
       "event_id": "hltv:9420",
@@ -6142,7 +6580,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2398368/leo-vs-noir-verse-cct-2026-europe-series-10",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-28T14:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Leo",
       "team2_name": "Noir Verse"
     },
@@ -6229,6 +6667,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "Lavked",
       "team2_name": "Azuolas"
+    },
+    {
+      "event_id": "hltv:9353",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 2",
+      "hltv_match_id": "2398643",
+      "match_id": "hltv:2398643",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398643/flyquest-vs-thunder-downunder-esl-challenger-league-season-52-oceania-cup-2",
+      "stage_name": "Grand Final",
+      "starts_at": "2026-09-29T09:00:00Z",
+      "status": "upcoming",
+      "team1_name": "FlyQuest",
+      "team2_name": "THUNDER dOWNUNDER"
     },
     {
       "event_id": "hltv:9420",
@@ -13129,18 +13581,243 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "The Huns"
         },
         {
-          "event_id": "hltv:9354",
+          "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-2",
           "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398488",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "19957",
+                "nickname": "Bart4k",
+                "player_id": "hltv:19957",
+                "source_url": "https://www.hltv.org/player/19957/bart4k",
+                "team_name": "The Huns"
+              },
+              {
+                "hltv_player_id": "18689",
+                "nickname": "Annihilation",
+                "player_id": "hltv:18689",
+                "source_url": "https://www.hltv.org/player/18689/annihilation",
+                "team_name": "The Huns"
+              },
+              {
+                "hltv_player_id": "24512",
+                "nickname": "Cozen",
+                "player_id": "hltv:24512",
+                "source_url": "https://www.hltv.org/player/24512/cozen",
+                "team_name": "The Huns"
+              },
+              {
+                "hltv_player_id": "15072",
+                "nickname": "nin9",
+                "player_id": "hltv:15072",
+                "source_url": "https://www.hltv.org/player/15072/nin9",
+                "team_name": "The Huns"
+              },
+              {
+                "hltv_player_id": "21398",
+                "nickname": "controlez",
+                "player_id": "hltv:21398",
+                "source_url": "https://www.hltv.org/player/21398/controlez",
+                "team_name": "The Huns"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "20703",
+                "nickname": "xerolte",
+                "player_id": "hltv:20703",
+                "source_url": "https://www.hltv.org/player/20703/xerolte",
+                "team_name": "NEXVOID"
+              },
+              {
+                "hltv_player_id": "11141",
+                "nickname": "erkaSt",
+                "player_id": "hltv:11141",
+                "source_url": "https://www.hltv.org/player/11141/erkast",
+                "team_name": "NEXVOID"
+              },
+              {
+                "hltv_player_id": "22415",
+                "nickname": "AccuracyTG",
+                "player_id": "hltv:22415",
+                "source_url": "https://www.hltv.org/player/22415/accuracytg",
+                "team_name": "NEXVOID"
+              },
+              {
+                "hltv_player_id": "22333",
+                "nickname": "MiQ",
+                "player_id": "hltv:22333",
+                "source_url": "https://www.hltv.org/player/22333/miq",
+                "team_name": "NEXVOID"
+              },
+              {
+                "hltv_player_id": "23457",
+                "nickname": "Zesta",
+                "player_id": "hltv:23457",
+                "source_url": "https://www.hltv.org/player/23457/zesta",
+                "team_name": "NEXVOID"
+              }
+            ]
+          },
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": 20,
+              "score2": 22,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": 5,
+              "score2": 7,
+              "status": "finished"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Ancient",
+            "Inferno"
+          ],
           "match_id": "hltv:2398488",
+          "player_stats": [
+            {
+              "adr": 81,
+              "deaths": 28,
+              "hltv_player_id": "19957",
+              "kast": 64.3,
+              "kills": 35,
+              "nickname": "Bart4k",
+              "player_id": "hltv:19957",
+              "rating": 1.33,
+              "source_url": "https://www.hltv.org/player/19957/bart4k",
+              "team_side": 1
+            },
+            {
+              "adr": 72.7,
+              "deaths": 26,
+              "hltv_player_id": "18689",
+              "kast": 81,
+              "kills": 30,
+              "nickname": "Annihilation",
+              "player_id": "hltv:18689",
+              "rating": 1.09,
+              "source_url": "https://www.hltv.org/player/18689/annihilation",
+              "team_side": 1
+            },
+            {
+              "adr": 68.6,
+              "deaths": 29,
+              "hltv_player_id": "24512",
+              "kast": 78.6,
+              "kills": 26,
+              "nickname": "Cozen",
+              "player_id": "hltv:24512",
+              "rating": 1.08,
+              "source_url": "https://www.hltv.org/player/24512/cozen",
+              "team_side": 1
+            },
+            {
+              "adr": 76.4,
+              "deaths": 30,
+              "hltv_player_id": "15072",
+              "kast": 59.5,
+              "kills": 29,
+              "nickname": "nin9",
+              "player_id": "hltv:15072",
+              "rating": 1.03,
+              "source_url": "https://www.hltv.org/player/15072/nin9",
+              "team_side": 1
+            },
+            {
+              "adr": 67,
+              "deaths": 31,
+              "hltv_player_id": "21398",
+              "kast": 69,
+              "kills": 24,
+              "nickname": "controlez",
+              "player_id": "hltv:21398",
+              "rating": 0.84,
+              "source_url": "https://www.hltv.org/player/21398/controlez",
+              "team_side": 1
+            },
+            {
+              "adr": 95.2,
+              "deaths": 29,
+              "hltv_player_id": "20703",
+              "kast": 71.4,
+              "kills": 41,
+              "nickname": "xerolte",
+              "player_id": "hltv:20703",
+              "rating": 1.32,
+              "source_url": "https://www.hltv.org/player/20703/xerolte",
+              "team_side": 2
+            },
+            {
+              "adr": 98.2,
+              "deaths": 30,
+              "hltv_player_id": "11141",
+              "kast": 73.8,
+              "kills": 28,
+              "nickname": "erkaSt",
+              "player_id": "hltv:11141",
+              "rating": 1.3,
+              "source_url": "https://www.hltv.org/player/11141/erkast",
+              "team_side": 2
+            },
+            {
+              "adr": 63.5,
+              "deaths": 25,
+              "hltv_player_id": "22415",
+              "kast": 69,
+              "kills": 31,
+              "nickname": "AccuracyTG",
+              "player_id": "hltv:22415",
+              "rating": 1.05,
+              "source_url": "https://www.hltv.org/player/22415/accuracytg",
+              "team_side": 2
+            },
+            {
+              "adr": 66,
+              "deaths": 32,
+              "hltv_player_id": "22333",
+              "kast": 66.7,
+              "kills": 24,
+              "nickname": "MiQ",
+              "player_id": "hltv:22333",
+              "rating": 0.94,
+              "source_url": "https://www.hltv.org/player/22333/miq",
+              "team_side": 2
+            },
+            {
+              "adr": 61.9,
+              "deaths": 29,
+              "hltv_player_id": "23457",
+              "kast": 61.9,
+              "kills": 20,
+              "nickname": "Zesta",
+              "player_id": "hltv:23457",
+              "rating": 0.79,
+              "source_url": "https://www.hltv.org/player/23457/zesta",
+              "team_side": 2
+            }
+          ],
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398488/the-huns-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
           "stage_name": "Playoffs",
           "starts_at": "2026-09-28T13:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "The Huns",
-          "team2_name": "NEXVOID"
+          "team2_name": "NEXVOID",
+          "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
         }
       ],
       "name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
@@ -15544,21 +16221,52 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 16
     },
     {
-      "bracket": null,
-      "current_stage": "Playoffs",
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:grand-final",
+            "matches": [
+              {
+                "event_id": "hltv:9353",
+                "event_name": "ESL Challenger League Season 52 Oceania Cup 2",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2398643",
+                "maps": [],
+                "match_id": "hltv:2398643",
+                "product_tier": "tier_2",
+                "round_name": "Grand Final",
+                "series_format": "bo3",
+                "slot_id": "main:grand-final:1",
+                "source_url": "https://www.hltv.org/matches/2398643/flyquest-vs-thunder-downunder-esl-challenger-league-season-52-oceania-cup-2",
+                "stage_name": "Grand Final",
+                "starts_at": "2026-09-29T09:00:00Z",
+                "status": "upcoming",
+                "team1_name": "FlyQuest",
+                "team2_name": "THUNDER dOWNUNDER"
+              }
+            ],
+            "name": "Grand Final",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Grand Final",
       "format": {
-        "label": "Playoffs",
+        "label": "Grand Final",
         "settings": {},
         "stages": [
           {
-            "id": "playoffs",
-            "name": "Playoffs",
+            "id": "grand-final",
+            "name": "Grand Final",
             "order": 1,
             "status": "pending",
             "type": "single_elimination"
           }
         ],
-        "type": "mixed"
+        "type": "single_elimination"
       },
       "id": "hltv:esl-challenger-league-season-52-oceania-cup-2",
       "matches": [
@@ -15721,18 +16429,35 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Ground Zero"
         },
         {
-          "event_id": "hltv:9353",
+          "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-2",
           "event_name": "ESL Challenger League Season 52 Oceania Cup 2",
           "hltv_match_id": "2398642",
           "match_id": "hltv:2398642",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398642/thunder-downunder-vs-ground-zero-esl-challenger-league-season-52-oceania-cup-2",
           "stage_name": "Playoffs",
-          "starts_at": "2026-09-28T09:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-09-28T11:10:25Z",
+          "status": "finished",
           "team1_name": "THUNDER dOWNUNDER",
-          "team2_name": "Ground Zero"
+          "team2_name": "Ground Zero",
+          "winner_name": "THUNDER dOWNUNDER"
+        },
+        {
+          "event_id": "hltv:9353",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 2",
+          "hltv_match_id": "2398643",
+          "match_id": "hltv:2398643",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398643/flyquest-vs-thunder-downunder-esl-challenger-league-season-52-oceania-cup-2",
+          "stage_name": "Grand Final",
+          "starts_at": "2026-09-29T09:00:00Z",
+          "status": "upcoming",
+          "team1_name": "FlyQuest",
+          "team2_name": "THUNDER dOWNUNDER"
         }
       ],
       "name": "ESL Challenger League Season 52 Oceania Cup 2",
@@ -17257,32 +17982,260 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Banda Chuya"
         },
         {
-          "event_id": "hltv:9433",
+          "event_id": "hltv:cct-2026-challengers-europe-series-7",
           "event_name": "CCT 2026 Challengers Europe Series 7",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398834",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "25500",
+                "nickname": "xEternaLxx",
+                "player_id": "hltv:25500",
+                "source_url": "https://www.hltv.org/player/25500/xeternalxx",
+                "team_name": "Fire Flux"
+              },
+              {
+                "hltv_player_id": "25540",
+                "nickname": "zemix",
+                "player_id": "hltv:25540",
+                "source_url": "https://www.hltv.org/player/25540/zemix",
+                "team_name": "Fire Flux"
+              },
+              {
+                "hltv_player_id": "22806",
+                "nickname": "Quality",
+                "player_id": "hltv:22806",
+                "source_url": "https://www.hltv.org/player/22806/quality",
+                "team_name": "Fire Flux"
+              },
+              {
+                "hltv_player_id": "25109",
+                "nickname": "zer0UKY",
+                "player_id": "hltv:25109",
+                "source_url": "https://www.hltv.org/player/25109/zer0uky",
+                "team_name": "Fire Flux"
+              },
+              {
+                "hltv_player_id": "15732",
+                "nickname": "Cizzx",
+                "player_id": "hltv:15732",
+                "source_url": "https://www.hltv.org/player/15732/cizzx",
+                "team_name": "Fire Flux"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "25676",
+                "nickname": "Hrdina",
+                "player_id": "hltv:25676",
+                "source_url": "https://www.hltv.org/player/25676/hrdina",
+                "team_name": "BIG Academy"
+              },
+              {
+                "hltv_player_id": "25119",
+                "nickname": "aZe",
+                "player_id": "hltv:25119",
+                "source_url": "https://www.hltv.org/player/25119/aze",
+                "team_name": "BIG Academy"
+              },
+              {
+                "hltv_player_id": "24810",
+                "nickname": "doni",
+                "player_id": "hltv:24810",
+                "source_url": "https://www.hltv.org/player/24810/doni",
+                "team_name": "BIG Academy"
+              },
+              {
+                "hltv_player_id": "19284",
+                "nickname": "prosus",
+                "player_id": "hltv:19284",
+                "source_url": "https://www.hltv.org/player/19284/prosus",
+                "team_name": "BIG Academy"
+              },
+              {
+                "hltv_player_id": "24576",
+                "nickname": "sheezy",
+                "player_id": "hltv:24576",
+                "source_url": "https://www.hltv.org/player/24576/sheezy",
+                "team_name": "BIG Academy"
+              }
+            ]
+          },
+          "map_results": [
+            {
+              "map_name": "Mirage",
+              "score1": 16,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Mirage",
+            "Anubis",
+            "Cache"
+          ],
           "match_id": "hltv:2398834",
+          "player_stats": [
+            {
+              "adr": 88.8,
+              "deaths": 18,
+              "hltv_player_id": "25500",
+              "kast": 69,
+              "kills": 28,
+              "nickname": "xEternaLxx",
+              "player_id": "hltv:25500",
+              "rating": 1.4,
+              "source_url": "https://www.hltv.org/player/25500/xeternalxx",
+              "team_side": 1
+            },
+            {
+              "adr": 79.2,
+              "deaths": 20,
+              "hltv_player_id": "25540",
+              "kast": 79.3,
+              "kills": 19,
+              "nickname": "zemix",
+              "player_id": "hltv:25540",
+              "rating": 1.26,
+              "source_url": "https://www.hltv.org/player/25540/zemix",
+              "team_side": 1
+            },
+            {
+              "adr": 87.9,
+              "deaths": 22,
+              "hltv_player_id": "22806",
+              "kast": 75.9,
+              "kills": 17,
+              "nickname": "Quality",
+              "player_id": "hltv:22806",
+              "rating": 1.17,
+              "source_url": "https://www.hltv.org/player/22806/quality",
+              "team_side": 1
+            },
+            {
+              "adr": 57.2,
+              "deaths": 15,
+              "hltv_player_id": "25109",
+              "kast": 79.3,
+              "kills": 16,
+              "nickname": "zer0UKY",
+              "player_id": "hltv:25109",
+              "rating": 1.09,
+              "source_url": "https://www.hltv.org/player/25109/zer0uky",
+              "team_side": 1
+            },
+            {
+              "adr": 62.1,
+              "deaths": 21,
+              "hltv_player_id": "15732",
+              "kast": 62.1,
+              "kills": 19,
+              "nickname": "Cizzx",
+              "player_id": "hltv:15732",
+              "rating": 0.92,
+              "source_url": "https://www.hltv.org/player/15732/cizzx",
+              "team_side": 1
+            },
+            {
+              "adr": 90.8,
+              "deaths": 20,
+              "hltv_player_id": "25676",
+              "kast": 72.4,
+              "kills": 24,
+              "nickname": "Hrdina",
+              "player_id": "hltv:25676",
+              "rating": 1.24,
+              "source_url": "https://www.hltv.org/player/25676/hrdina",
+              "team_side": 2
+            },
+            {
+              "adr": 66.8,
+              "deaths": 14,
+              "hltv_player_id": "25119",
+              "kast": 79.3,
+              "kills": 21,
+              "nickname": "aZe",
+              "player_id": "hltv:25119",
+              "rating": 1.23,
+              "source_url": "https://www.hltv.org/player/25119/aze",
+              "team_side": 2
+            },
+            {
+              "adr": 73.1,
+              "deaths": 19,
+              "hltv_player_id": "24810",
+              "kast": 79.3,
+              "kills": 20,
+              "nickname": "doni",
+              "player_id": "hltv:24810",
+              "rating": 1.07,
+              "source_url": "https://www.hltv.org/player/24810/doni",
+              "team_side": 2
+            },
+            {
+              "adr": 80.9,
+              "deaths": 21,
+              "hltv_player_id": "19284",
+              "kast": 65.5,
+              "kills": 22,
+              "nickname": "prosus",
+              "player_id": "hltv:19284",
+              "rating": 0.97,
+              "source_url": "https://www.hltv.org/player/19284/prosus",
+              "team_side": 2
+            },
+            {
+              "adr": 50.1,
+              "deaths": 26,
+              "hltv_player_id": "24576",
+              "kast": 58.6,
+              "kills": 9,
+              "nickname": "sheezy",
+              "player_id": "hltv:24576",
+              "rating": 0.44,
+              "source_url": "https://www.hltv.org/player/24576/sheezy",
+              "team_side": 2
+            }
+          ],
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398834/fire-flux-vs-big-academy-cct-2026-challengers-europe-series-7",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-28T13:45:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "Fire Flux",
-          "team2_name": "BIG Academy"
+          "team2_name": "BIG Academy",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
         },
         {
-          "event_id": "hltv:9433",
+          "event_id": "hltv:cct-2026-challengers-europe-series-7",
           "event_name": "CCT 2026 Challengers Europe Series 7",
           "hltv_match_id": "2398835",
           "match_id": "hltv:2398835",
           "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398835/forze-reload-vs-megoshort-cct-2026-challengers-europe-series-7",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-28T13:45:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-09-28T12:58:02Z",
+          "status": "finished",
           "team1_name": "FORZE Reload",
-          "team2_name": "megoshort"
+          "team2_name": "megoshort",
+          "winner_name": "FORZE Reload"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 7",
@@ -17319,32 +18272,38 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "id": "hltv:9420",
       "matches": [
         {
-          "event_id": "hltv:9420",
+          "event_id": "hltv:cct-2026-europe-series-10",
           "event_name": "CCT 2026 Europe Series 10",
           "hltv_match_id": "2398366",
           "match_id": "hltv:2398366",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398366/pcific-vs-berg-cct-2026-europe-series-10",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-28T08:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-09-28T09:46:54Z",
+          "status": "finished",
           "team1_name": "PCIFIC",
-          "team2_name": "BERG"
+          "team2_name": "BERG",
+          "winner_name": "PCIFIC"
         },
         {
-          "event_id": "hltv:9420",
+          "event_id": "hltv:cct-2026-europe-series-10",
           "event_name": "CCT 2026 Europe Series 10",
           "hltv_match_id": "2398367",
           "match_id": "hltv:2398367",
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398367/black-phoenix-vs-ex-zero-tenacity-cct-2026-europe-series-10",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-28T11:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-09-28T13:22:10Z",
+          "status": "finished",
           "team1_name": "Black Phoenix",
-          "team2_name": "ex-Zero Tenacity"
+          "team2_name": "ex-Zero Tenacity",
+          "winner_name": "ex-Zero Tenacity"
         },
         {
           "event_id": "hltv:9420",
@@ -17356,7 +18315,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2398368/leo-vs-noir-verse-cct-2026-europe-series-10",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-28T14:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "Leo",
           "team2_name": "Noir Verse"
         },
@@ -17451,11 +18410,11 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Phantom Academy"
       ],
       "product_tier": "tier_2",
-      "status": "upcoming",
+      "status": "ongoing",
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-09-28T06:54:28Z",
+  "last_verified_utc": "2026-09-28T15:33:30Z",
   "sources": [
     {
       "name": "HLTV events calendar",

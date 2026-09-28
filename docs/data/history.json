@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-28T06:54:28Z",
+  "generated_at_utc": "2026-09-28T15:33:30Z",
   "through_date": "2026-09-28",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3289,
+    "matches": 3293,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -66,6 +66,94 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "Marsborne",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398366",
+      "match_date": "2026-09-28",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "PCIFIC",
+      "team2_name": "BERG",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "PCIFIC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398642",
+      "match_date": "2026-09-28",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 2",
+      "team1_name": "THUNDER dOWNUNDER",
+      "team2_name": "Ground Zero",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "THUNDER dOWNUNDER",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398835",
+      "match_date": "2026-09-28",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "FORZE Reload",
+      "team2_name": "megoshort",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "FORZE Reload",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398367",
+      "match_date": "2026-09-28",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Black Phoenix",
+      "team2_name": "ex-Zero Tenacity",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-Zero Tenacity",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
