@@ -1,128 +1,9 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-09-28T00:44:52Z",
+  "fetched_at_utc": "2026-09-28T06:54:28Z",
   "poll_after_ms": 180000,
   "events": [
-    {
-      "id": "hltv:cct-2026-europe-series-9",
-      "name": "CCT 2026 Europe Series 9",
-      "source_url": null,
-      "status": "finished",
-      "product_tier": "tier_2",
-      "participants": [
-        "Iberian Soul",
-        "Butterfly",
-        "Leo",
-        "BAKS",
-        "Black Phoenix",
-        "ex-RUSTEC"
-      ],
-      "matches": [
-        {
-          "match_id": "hltv:2397851",
-          "hltv_match_id": "2397851",
-          "source_url": "https://www.hltv.org/matches/2397851/iberian-soul-vs-butterfly-cct-2026-europe-series-9",
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Iberian Soul",
-          "team2_name": "Butterfly",
-          "starts_at": "2026-09-26T17:19:12Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 2,
-          "score2": 1,
-          "winner_name": "Iberian Soul",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2397852",
-          "hltv_match_id": "2397852",
-          "source_url": "https://www.hltv.org/matches/2397852/leo-vs-baks-cct-2026-europe-series-9",
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Leo",
-          "team2_name": "BAKS",
-          "starts_at": "2026-09-26T19:25:32Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 2,
-          "score2": 0,
-          "winner_name": "Leo",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2397853",
-          "hltv_match_id": "2397853",
-          "source_url": "https://www.hltv.org/matches/2397853/leo-vs-black-phoenix-cct-2026-europe-series-9",
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Leo",
-          "team2_name": "Black Phoenix",
-          "starts_at": "2026-09-27T12:58:55Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 1,
-          "score2": 2,
-          "winner_name": "Black Phoenix",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2397854",
-          "hltv_match_id": "2397854",
-          "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Iberian Soul",
-          "team2_name": "ex-RUSTEC",
-          "starts_at": "2026-09-27T15:01:12Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 0,
-          "score2": 2,
-          "winner_name": "ex-RUSTEC",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2397855",
-          "hltv_match_id": "2397855",
-          "source_url": "https://www.hltv.org/matches/2397855/black-phoenix-vs-ex-rustec-cct-2026-europe-series-9",
-          "event_id": "hltv:cct-2026-europe-series-9",
-          "event_name": "CCT 2026 Europe Series 9",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Black Phoenix",
-          "team2_name": "ex-RUSTEC",
-          "starts_at": "2026-09-27T17:43:08Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 2,
-          "score2": 0,
-          "winner_name": "Black Phoenix",
-          "maps": []
-        }
-      ],
-      "format": {
-        "type": "mixed",
-        "label": "Event schedule",
-        "stages": [],
-        "settings": {}
-      },
-      "current_stage": "Schedule"
-    },
     {
       "id": "hltv:cct-2026-europe-series-10-closed-qualifier",
       "name": "CCT 2026 Europe Series 10 Closed Qualifier",
@@ -410,6 +291,105 @@
       "current_stage": "Schedule"
     },
     {
+      "id": "hltv:cct-2026-europe-series-9",
+      "name": "CCT 2026 Europe Series 9",
+      "source_url": null,
+      "status": "finished",
+      "product_tier": "tier_2",
+      "participants": [
+        "Leo",
+        "BAKS",
+        "Black Phoenix",
+        "Iberian Soul",
+        "ex-RUSTEC"
+      ],
+      "matches": [
+        {
+          "match_id": "hltv:2397852",
+          "hltv_match_id": "2397852",
+          "source_url": "https://www.hltv.org/matches/2397852/leo-vs-baks-cct-2026-europe-series-9",
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Leo",
+          "team2_name": "BAKS",
+          "starts_at": "2026-09-26T19:25:32Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 2,
+          "score2": 0,
+          "winner_name": "Leo",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2397853",
+          "hltv_match_id": "2397853",
+          "source_url": "https://www.hltv.org/matches/2397853/leo-vs-black-phoenix-cct-2026-europe-series-9",
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Leo",
+          "team2_name": "Black Phoenix",
+          "starts_at": "2026-09-27T12:58:55Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 1,
+          "score2": 2,
+          "winner_name": "Black Phoenix",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2397854",
+          "hltv_match_id": "2397854",
+          "source_url": "https://www.hltv.org/matches/2397854/iberian-soul-vs-ex-rustec-cct-2026-europe-series-9",
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Iberian Soul",
+          "team2_name": "ex-RUSTEC",
+          "starts_at": "2026-09-27T15:01:12Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 0,
+          "score2": 2,
+          "winner_name": "ex-RUSTEC",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2397855",
+          "hltv_match_id": "2397855",
+          "source_url": "https://www.hltv.org/matches/2397855/black-phoenix-vs-ex-rustec-cct-2026-europe-series-9",
+          "event_id": "hltv:cct-2026-europe-series-9",
+          "event_name": "CCT 2026 Europe Series 9",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Black Phoenix",
+          "team2_name": "ex-RUSTEC",
+          "starts_at": "2026-09-27T17:43:08Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 2,
+          "score2": 0,
+          "winner_name": "Black Phoenix",
+          "maps": []
+        }
+      ],
+      "format": {
+        "type": "mixed",
+        "label": "Event schedule",
+        "stages": [],
+        "settings": {}
+      },
+      "current_stage": "Schedule"
+    },
+    {
       "id": "hltv:esl-challenger-league-season-52-south-america-cup-2",
       "name": "ESL Challenger League Season 52 South America Cup 2",
       "source_url": null,
@@ -519,7 +499,9 @@
         "Marsborne",
         "DETONATE",
         "Overtake Sector",
-        "FarmVille"
+        "FarmVille",
+        "regain",
+        "LAG"
       ],
       "matches": [
         {
@@ -558,6 +540,44 @@
           "score1": 0,
           "score2": 2,
           "winner_name": "FarmVille",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2398546",
+          "hltv_match_id": "2398546",
+          "source_url": "https://www.hltv.org/matches/2398546/regain-vs-lag-esl-challenger-league-season-52-north-america-cup-2",
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
+          "event_name": "ESL Challenger League Season 52 North America Cup 2",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "regain",
+          "team2_name": "LAG",
+          "starts_at": "2026-09-28T02:47:26Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 0,
+          "score2": 2,
+          "winner_name": "LAG",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2398547",
+          "hltv_match_id": "2398547",
+          "source_url": "https://www.hltv.org/matches/2398547/marsborne-vs-farmville-esl-challenger-league-season-52-north-america-cup-2",
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
+          "event_name": "ESL Challenger League Season 52 North America Cup 2",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Marsborne",
+          "team2_name": "FarmVille",
+          "starts_at": "2026-09-28T03:08:21Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 2,
+          "score2": 0,
+          "winner_name": "Marsborne",
           "maps": []
         }
       ],
@@ -830,68 +850,6 @@
         "settings": {}
       },
       "current_stage": "Schedule"
-    },
-    {
-      "id": "hltv:9356",
-      "name": "ESL Challenger League Season 52 North America Cup 2",
-      "source_url": null,
-      "status": "upcoming",
-      "product_tier": "tier_2",
-      "participants": [
-        "regain",
-        "LAG",
-        "Marsborne",
-        "FarmVille"
-      ],
-      "matches": [
-        {
-          "match_id": "hltv:2398546",
-          "hltv_match_id": "2398546",
-          "source_url": "https://www.hltv.org/matches/2398546/regain-vs-lag-esl-challenger-league-season-52-north-america-cup-2",
-          "event_id": "hltv:9356",
-          "event_name": "ESL Challenger League Season 52 North America Cup 2",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "regain",
-          "team2_name": "LAG",
-          "starts_at": "2026-09-28T01:00:00Z",
-          "stage_name": "Playoffs",
-          "series_format": "bo3",
-          "status": "upcoming",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2398547",
-          "hltv_match_id": "2398547",
-          "source_url": "https://www.hltv.org/matches/2398547/marsborne-vs-farmville-esl-challenger-league-season-52-north-america-cup-2",
-          "event_id": "hltv:9356",
-          "event_name": "ESL Challenger League Season 52 North America Cup 2",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Marsborne",
-          "team2_name": "FarmVille",
-          "starts_at": "2026-09-28T01:00:00Z",
-          "stage_name": "Playoffs",
-          "series_format": "bo3",
-          "status": "upcoming",
-          "maps": []
-        }
-      ],
-      "format": {
-        "type": "mixed",
-        "label": "Playoffs",
-        "stages": [
-          {
-            "id": "playoffs",
-            "name": "Playoffs",
-            "type": "single_elimination",
-            "status": "pending",
-            "order": 1
-          }
-        ],
-        "settings": {}
-      },
-      "current_stage": "Playoffs"
     },
     {
       "id": "hltv:9420",
@@ -1330,28 +1288,53 @@
         "settings": {}
       },
       "current_stage": "Playoffs"
+    },
+    {
+      "id": "hltv:9356",
+      "name": "ESL Challenger League Season 52 North America Cup 2",
+      "source_url": null,
+      "status": "upcoming",
+      "product_tier": "tier_2",
+      "participants": [
+        "regain",
+        "Marsborne"
+      ],
+      "matches": [
+        {
+          "match_id": "hltv:2398548",
+          "hltv_match_id": "2398548",
+          "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+          "event_id": "hltv:9356",
+          "event_name": "ESL Challenger League Season 52 North America Cup 2",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "regain",
+          "team2_name": "Marsborne",
+          "starts_at": "2026-09-29T01:00:00Z",
+          "stage_name": "Playoffs",
+          "series_format": "bo3",
+          "status": "upcoming",
+          "maps": []
+        }
+      ],
+      "format": {
+        "type": "mixed",
+        "label": "Playoffs",
+        "stages": [
+          {
+            "id": "playoffs",
+            "name": "Playoffs",
+            "type": "single_elimination",
+            "status": "pending",
+            "order": 1
+          }
+        ],
+        "settings": {}
+      },
+      "current_stage": "Playoffs"
     }
   ],
   "matches": [
-    {
-      "match_id": "hltv:2397851",
-      "hltv_match_id": "2397851",
-      "source_url": "https://www.hltv.org/matches/2397851/iberian-soul-vs-butterfly-cct-2026-europe-series-9",
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "product_tier": "tier_2",
-      "event_url": null,
-      "team1_name": "Iberian Soul",
-      "team2_name": "Butterfly",
-      "starts_at": "2026-09-26T17:19:12Z",
-      "stage_name": "Completed series",
-      "series_format": "bo3",
-      "status": "finished",
-      "score1": 2,
-      "score2": 1,
-      "winner_name": "Iberian Soul",
-      "maps": []
-    },
     {
       "match_id": "hltv:2398361",
       "hltv_match_id": "2398361",
@@ -1964,32 +1947,38 @@
       "match_id": "hltv:2398546",
       "hltv_match_id": "2398546",
       "source_url": "https://www.hltv.org/matches/2398546/regain-vs-lag-esl-challenger-league-season-52-north-america-cup-2",
-      "event_id": "hltv:9356",
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
       "event_name": "ESL Challenger League Season 52 North America Cup 2",
       "product_tier": "tier_2",
       "event_url": null,
       "team1_name": "regain",
       "team2_name": "LAG",
-      "starts_at": "2026-09-28T01:00:00Z",
-      "stage_name": "Playoffs",
+      "starts_at": "2026-09-28T02:47:26Z",
+      "stage_name": "Completed series",
       "series_format": "bo3",
-      "status": "upcoming",
+      "status": "finished",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "LAG",
       "maps": []
     },
     {
       "match_id": "hltv:2398547",
       "hltv_match_id": "2398547",
       "source_url": "https://www.hltv.org/matches/2398547/marsborne-vs-farmville-esl-challenger-league-season-52-north-america-cup-2",
-      "event_id": "hltv:9356",
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
       "event_name": "ESL Challenger League Season 52 North America Cup 2",
       "product_tier": "tier_2",
       "event_url": null,
       "team1_name": "Marsborne",
       "team2_name": "FarmVille",
-      "starts_at": "2026-09-28T01:00:00Z",
-      "stage_name": "Playoffs",
+      "starts_at": "2026-09-28T03:08:21Z",
+      "stage_name": "Completed series",
       "series_format": "bo3",
-      "status": "upcoming",
+      "status": "finished",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Marsborne",
       "maps": []
     },
     {
@@ -2153,6 +2142,22 @@
       "maps": []
     },
     {
+      "match_id": "hltv:2398548",
+      "hltv_match_id": "2398548",
+      "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+      "event_id": "hltv:9356",
+      "event_name": "ESL Challenger League Season 52 North America Cup 2",
+      "product_tier": "tier_2",
+      "event_url": null,
+      "team1_name": "regain",
+      "team2_name": "Marsborne",
+      "starts_at": "2026-09-29T01:00:00Z",
+      "stage_name": "Playoffs",
+      "series_format": "bo3",
+      "status": "upcoming",
+      "maps": []
+    },
+    {
       "match_id": "hltv:2398370",
       "hltv_match_id": "2398370",
       "source_url": "https://www.hltv.org/matches/2398370/lavked-vs-azuolas-cct-2026-europe-series-10",
@@ -2269,7 +2274,7 @@
   "rankings": null,
   "source": "HLTV via Oracle Scrapling",
   "source_health": {
-    "scheduled_matches": 52,
+    "scheduled_matches": 50,
     "recent_results": 80,
     "detail_matches": 4,
     "detail_errors": [],
@@ -2284,24 +2289,23 @@
     "matches_kept": 52,
     "players_kept": 0,
     "event_tiers": {
-      "hltv:cct-2026-europe-series-9": "tier_2",
       "hltv:cct-2026-europe-series-10-closed-qualifier": "tier_2",
       "hltv:cct-2026-south-america-series-6": "tier_2",
+      "hltv:cct-2026-europe-series-9": "tier_2",
       "hltv:esl-challenger-league-season-52-south-america-cup-2": "tier_2",
       "hltv:esl-challenger-league-season-52-north-america-cup-2": "tier_2",
       "hltv:esl-challenger-league-season-52-oceania-cup-2": "tier_2",
       "hltv:cct-2026-challengers-europe-series-7": "tier_2",
       "hltv:esl-challenger-league-season-52-asia-pacific-cup-2": "tier_2",
-      "hltv:9356": "tier_2",
       "hltv:9420": "tier_2",
       "hltv:9353": "tier_2",
       "hltv:9354": "tier_2",
       "hltv:9433": "tier_2",
       "hltv:9425": "tier_2",
-      "hltv:9355": "tier_2"
+      "hltv:9355": "tier_2",
+      "hltv:9356": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2397851",
       "hltv:2398361",
       "hltv:2398567",
       "hltv:2397852",
@@ -2346,6 +2350,7 @@
       "hltv:2398369",
       "hltv:2398575",
       "hltv:2398518",
+      "hltv:2398548",
       "hltv:2398370",
       "hltv:2398371",
       "hltv:2398372",

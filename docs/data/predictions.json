@@ -3,25 +3,6 @@
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-        "event_name": "CCT 2026 Challengers South America Series 3",
-        "event_url": null,
-        "hltv_match_id": "2398337",
-        "maps": [],
-        "match_id": "hltv:2398337",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398337/sementes-do-mal-vs-quintessncia-cct-2026-challengers-south-america-series-3",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "Sementes do Mal",
-        "team2_name": "QUINTESS\u00caNCIA",
-        "winner_name": "QUINTESS\u00caNCIA"
-      },
-      {
         "event_id": "hltv:cct-2026-europe-series-9",
         "event_name": "CCT 2026 Europe Series 9",
         "event_url": null,
@@ -6035,32 +6016,38 @@
         "winner_name": "QUINTESS\u00caNCIA"
       },
       {
-        "event_id": "hltv:9356",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
         "event_name": "ESL Challenger League Season 52 North America Cup 2",
         "hltv_match_id": "2398546",
         "match_id": "hltv:2398546",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398546/regain-vs-lag-esl-challenger-league-season-52-north-america-cup-2",
         "stage_name": "Playoffs",
-        "starts_at": "2026-09-28T01:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-09-28T02:47:26Z",
+        "status": "finished",
         "team1_name": "regain",
-        "team2_name": "LAG"
+        "team2_name": "LAG",
+        "winner_name": "LAG"
       },
       {
-        "event_id": "hltv:9356",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
         "event_name": "ESL Challenger League Season 52 North America Cup 2",
         "hltv_match_id": "2398547",
         "match_id": "hltv:2398547",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398547/marsborne-vs-farmville-esl-challenger-league-season-52-north-america-cup-2",
         "stage_name": "Playoffs",
-        "starts_at": "2026-09-28T01:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-09-28T03:08:21Z",
+        "status": "finished",
         "team1_name": "Marsborne",
-        "team2_name": "FarmVille"
+        "team2_name": "FarmVille",
+        "winner_name": "Marsborne"
       },
       {
         "event_id": "hltv:9420",
@@ -6215,6 +6202,20 @@
         "status": "upcoming",
         "team1_name": "Turma do Pagode",
         "team2_name": "Galorys"
+      },
+      {
+        "event_id": "hltv:9356",
+        "event_name": "ESL Challenger League Season 52 North America Cup 2",
+        "hltv_match_id": "2398548",
+        "match_id": "hltv:2398548",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+        "stage_name": "Playoffs",
+        "starts_at": "2026-09-29T01:00:00Z",
+        "status": "upcoming",
+        "team1_name": "regain",
+        "team2_name": "Marsborne"
       },
       {
         "event_id": "hltv:9420",
@@ -14793,32 +14794,52 @@
             "winner_name": "FarmVille"
           },
           {
-            "event_id": "hltv:9356",
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
             "event_name": "ESL Challenger League Season 52 North America Cup 2",
             "hltv_match_id": "2398546",
             "match_id": "hltv:2398546",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398546/regain-vs-lag-esl-challenger-league-season-52-north-america-cup-2",
             "stage_name": "Playoffs",
-            "starts_at": "2026-09-28T01:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-09-28T02:47:26Z",
+            "status": "finished",
             "team1_name": "regain",
-            "team2_name": "LAG"
+            "team2_name": "LAG",
+            "winner_name": "LAG"
           },
           {
-            "event_id": "hltv:9356",
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
             "event_name": "ESL Challenger League Season 52 North America Cup 2",
             "hltv_match_id": "2398547",
             "match_id": "hltv:2398547",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398547/marsborne-vs-farmville-esl-challenger-league-season-52-north-america-cup-2",
             "stage_name": "Playoffs",
-            "starts_at": "2026-09-28T01:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-09-28T03:08:21Z",
+            "status": "finished",
             "team1_name": "Marsborne",
-            "team2_name": "FarmVille"
+            "team2_name": "FarmVille",
+            "winner_name": "Marsborne"
+          },
+          {
+            "event_id": "hltv:9356",
+            "event_name": "ESL Challenger League Season 52 North America Cup 2",
+            "hltv_match_id": "2398548",
+            "match_id": "hltv:2398548",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-09-29T01:00:00Z",
+            "status": "upcoming",
+            "team1_name": "regain",
+            "team2_name": "Marsborne"
           }
         ],
         "name": "ESL Challenger League Season 52 North America Cup 2",
@@ -17435,7 +17456,7 @@
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-09-28T00:44:52Z",
+    "last_verified_utc": "2026-09-28T06:54:28Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -17873,7 +17894,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-28T00:54:31Z",
+  "generated_at_utc": "2026-09-28T07:00:47Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -19250,11 +19271,11 @@
       "kind": "heuristic",
       "metrics": {
         "accuracy": 0.635274,
-        "brier": 0.219566,
-        "ece": 0.017915,
-        "log_loss": 0.6275
+        "brier": 0.220073,
+        "ece": 0.016357,
+        "log_loss": 0.628622
       },
-      "rows": 874,
+      "rows": 876,
       "slices": [
         {
           "dimension": "tier",
@@ -19262,12 +19283,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.646799,
-            "brier": 0.21369,
-            "ece": 0.033449,
-            "log_loss": 0.61442
+            "accuracy": 0.645233,
+            "brier": 0.214372,
+            "ece": 0.034682,
+            "log_loss": 0.6159
           },
-          "rows": 453
+          "rows": 451
         },
         {
           "dimension": "tier",
@@ -19275,12 +19296,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.59542,
-            "brier": 0.239884,
-            "ece": 0.048192,
-            "log_loss": 0.672731
+            "accuracy": 0.601504,
+            "brier": 0.239404,
+            "ece": 0.04925,
+            "log_loss": 0.671761
           },
-          "rows": 131
+          "rows": 133
         },
         {
           "dimension": "series_format",
@@ -19302,9 +19323,9 @@
           "label": "BO3",
           "metrics": {
             "accuracy": 0.630802,
-            "brier": 0.218582,
-            "ece": 0.029577,
-            "log_loss": 0.624879
+            "brier": 0.219207,
+            "ece": 0.027658,
+            "log_loss": 0.626262
           },
           "rows": 474
         },
@@ -19336,10 +19357,10 @@
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.642123,
-        "brier": 0.221422,
-        "ece": 0.046108,
-        "log_loss": 0.632642
+        "accuracy": 0.640411,
+        "brier": 0.222107,
+        "ece": 0.04543,
+        "log_loss": 0.634101
       },
       "promotion_passed": false,
       "rows": 584,
@@ -19350,12 +19371,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.649007,
-            "brier": 0.215571,
-            "ece": 0.057445,
-            "log_loss": 0.619991
+            "accuracy": 0.64745,
+            "brier": 0.216347,
+            "ece": 0.056677,
+            "log_loss": 0.621638
           },
-          "rows": 453
+          "rows": 451
         },
         {
           "dimension": "tier",
@@ -19363,12 +19384,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.618321,
-            "brier": 0.241655,
-            "ece": 0.084342,
-            "log_loss": 0.67639
+            "accuracy": 0.616541,
+            "brier": 0.24164,
+            "ece": 0.082908,
+            "log_loss": 0.676362
           },
-          "rows": 131
+          "rows": 133
         },
         {
           "dimension": "series_format",
@@ -19377,9 +19398,9 @@
           "label": "BO1",
           "metrics": {
             "accuracy": 0.65,
-            "brier": 0.229519,
-            "ece": 0.075921,
-            "log_loss": 0.650326
+            "brier": 0.2297,
+            "ece": 0.075677,
+            "log_loss": 0.650801
           },
           "rows": 100
         },
@@ -19389,10 +19410,10 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.64135,
-            "brier": 0.220436,
-            "ece": 0.046389,
-            "log_loss": 0.63046
+            "accuracy": 0.639241,
+            "brier": 0.221242,
+            "ece": 0.04558,
+            "log_loss": 0.632156
           },
           "rows": 474
         },
@@ -19430,7 +19451,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-28T00:54:31Z",
+    "generated_at_utc": "2026-09-28T07:00:47Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -19440,12 +19461,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.646799,
-            "brier": 0.21369,
-            "ece": 0.033449,
-            "log_loss": 0.61442
+            "accuracy": 0.645233,
+            "brier": 0.214372,
+            "ece": 0.034682,
+            "log_loss": 0.6159
           },
-          "rows": 453
+          "rows": 451
         },
         {
           "dimension": "tier",
@@ -19453,12 +19474,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.59542,
-            "brier": 0.239884,
-            "ece": 0.048192,
-            "log_loss": 0.672731
+            "accuracy": 0.601504,
+            "brier": 0.239404,
+            "ece": 0.04925,
+            "log_loss": 0.671761
           },
-          "rows": 131
+          "rows": 133
         },
         {
           "dimension": "series_format",
@@ -19480,9 +19501,9 @@
           "label": "BO3",
           "metrics": {
             "accuracy": 0.630802,
-            "brier": 0.218582,
-            "ece": 0.029577,
-            "log_loss": 0.624879
+            "brier": 0.219207,
+            "ece": 0.027658,
+            "log_loss": 0.626262
           },
           "rows": 474
         },
@@ -19506,13 +19527,13 @@
             "eligible": true,
             "key": "tier_1",
             "passed": true,
-            "rows": 453
+            "rows": 451
           },
           {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 131
+            "rows": 133
           },
           {
             "eligible": true,
@@ -19542,12 +19563,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.649007,
-            "brier": 0.215571,
-            "ece": 0.057445,
-            "log_loss": 0.619991
+            "accuracy": 0.64745,
+            "brier": 0.216347,
+            "ece": 0.056677,
+            "log_loss": 0.621638
           },
-          "rows": 453
+          "rows": 451
         },
         {
           "dimension": "tier",
@@ -19555,12 +19576,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.618321,
-            "brier": 0.236609,
-            "ece": 0.050363,
-            "log_loss": 0.666003
+            "accuracy": 0.616541,
+            "brier": 0.236526,
+            "ece": 0.049274,
+            "log_loss": 0.665852
           },
-          "rows": 131
+          "rows": 133
         },
         {
           "dimension": "series_format",
@@ -19569,9 +19590,9 @@
           "label": "BO1",
           "metrics": {
             "accuracy": 0.65,
-            "brier": 0.228037,
-            "ece": 0.066473,
-            "log_loss": 0.647274
+            "brier": 0.228217,
+            "ece": 0.066229,
+            "log_loss": 0.64775
           },
           "rows": 100
         },
@@ -19581,10 +19602,10 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.64135,
-            "brier": 0.219354,
-            "ece": 0.053663,
-            "log_loss": 0.628233
+            "accuracy": 0.639241,
+            "brier": 0.22012,
+            "ece": 0.052787,
+            "log_loss": 0.629851
           },
           "rows": 474
         },
@@ -19604,9 +19625,9 @@
       ],
       "champion_metrics": {
         "accuracy": 0.635274,
-        "brier": 0.220197,
-        "ece": 0.020756,
-        "log_loss": 0.628785
+        "brier": 0.220772,
+        "ece": 0.021668,
+        "log_loss": 0.630047
       },
       "champion_slices": [
         {
@@ -19615,12 +19636,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.646799,
-            "brier": 0.21369,
-            "ece": 0.033449,
-            "log_loss": 0.61442
+            "accuracy": 0.645233,
+            "brier": 0.214372,
+            "ece": 0.034682,
+            "log_loss": 0.6159
           },
-          "rows": 453
+          "rows": 451
         },
         {
           "dimension": "tier",
@@ -19628,12 +19649,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.59542,
-            "brier": 0.242697,
-            "ece": 0.058337,
-            "log_loss": 0.678459
+            "accuracy": 0.601504,
+            "brier": 0.242475,
+            "ece": 0.064632,
+            "log_loss": 0.678016
           },
-          "rows": 131
+          "rows": 133
         },
         {
           "dimension": "series_format",
@@ -19655,9 +19676,9 @@
           "label": "BO3",
           "metrics": {
             "accuracy": 0.630802,
-            "brier": 0.219019,
-            "ece": 0.036258,
-            "log_loss": 0.625745
+            "brier": 0.219728,
+            "ece": 0.036346,
+            "log_loss": 0.627299
           },
           "rows": 474
         },
@@ -19680,32 +19701,32 @@
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.59542,
-          "brier": 0.241775,
-          "ece": 0.063259,
-          "log_loss": 0.676575
+          "accuracy": 0.601504,
+          "brier": 0.241505,
+          "ece": 0.069411,
+          "log_loss": 0.676034
         },
         "before": {
-          "accuracy": 0.59542,
-          "brier": 0.242697,
-          "ece": 0.058337,
-          "log_loss": 0.678459
+          "accuracy": 0.601504,
+          "brier": 0.242475,
+          "ece": 0.064632,
+          "log_loss": 0.678016
         },
         "candidate_shrink": 0.6,
         "overall_after": {
           "accuracy": 0.635274,
-          "brier": 0.21999,
-          "ece": 0.020324,
-          "log_loss": 0.628362
+          "brier": 0.220551,
+          "ece": 0.021251,
+          "log_loss": 0.629595
         },
         "overall_before": {
           "accuracy": 0.635274,
-          "brier": 0.220197,
-          "ece": 0.020756,
-          "log_loss": 0.628785
+          "brier": 0.220772,
+          "ece": 0.021668,
+          "log_loss": 0.630047
         },
         "passed": false,
-        "rows": 131,
+        "rows": 133,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -19724,8 +19745,8 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
-      "online_rows": 117,
+      "new_rows": 2,
+      "online_rows": 119,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -19893,9 +19914,11 @@
       "hltv:2398517",
       "hltv:2398573",
       "hltv:2398516",
-      "hltv:2398576"
+      "hltv:2398576",
+      "hltv:2398546",
+      "hltv:2398547"
     ],
-    "last_online_update_utc": "2026-09-28T00:54:31Z",
+    "last_online_update_utc": "2026-09-28T07:00:47Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -23188,10 +23211,10 @@
         "vrs_rank": 114
       },
       {
-        "elo": 1438.65,
-        "last_result_utc": "2026-09-27T02:20:34Z",
-        "matches": 77,
-        "recent_win_rate_10": 0.5091,
+        "elo": 1455.63,
+        "last_result_utc": "2026-09-28T03:08:21Z",
+        "matches": 78,
+        "recent_win_rate_10": 0.5984,
         "team_key": "marsborne",
         "team_name": "Marsborne",
         "vrs_points": 1010,
@@ -23282,9 +23305,10 @@
         "vrs_rank": 125
       },
       {
-        "elo": 1500,
-        "matches": 0,
-        "recent_win_rate_10": 0.5,
+        "elo": 1513.64,
+        "last_result_utc": "2026-09-28T02:47:26Z",
+        "matches": 1,
+        "recent_win_rate_10": 0.5909,
         "team_key": "lag",
         "team_name": "LAG",
         "vrs_points": 963,
@@ -23545,9 +23569,10 @@
         "vrs_rank": 161
       },
       {
-        "elo": 1500,
-        "matches": 0,
-        "recent_win_rate_10": 0.5,
+        "elo": 1486.36,
+        "last_result_utc": "2026-09-28T02:47:26Z",
+        "matches": 1,
+        "recent_win_rate_10": 0.4091,
         "team_key": "regain",
         "team_name": "regain",
         "vrs_points": 853,
@@ -24384,10 +24409,10 @@
         "vrs_rank": 259
       },
       {
-        "elo": 1525.48,
-        "last_result_utc": "2026-09-27T02:23:33Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.6653,
+        "elo": 1508.5,
+        "last_result_utc": "2026-09-28T03:08:21Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.5443,
         "team_key": "farmville",
         "team_name": "FarmVille",
         "vrs_points": 634,
@@ -29369,80 +29394,6 @@
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5448,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4552,
-      "event_id": "hltv:9356",
-      "event_name": "ESL Challenger League Season 52 North America Cup 2",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-28",
-      "match_id": "hltv:2398546",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790557200,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "LAG",
-      "prob_team1": 0.4552,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398546/regain-vs-lag-esl-challenger-league-season-52-north-america-cup-2",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-09-28T01:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "regain",
-      "team1_vrs_rank": 162,
-      "team2_hltv_rank": null,
-      "team2_name": "LAG",
-      "team2_vrs_rank": 126
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5069,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4931,
-      "event_id": "hltv:9356",
-      "event_name": "ESL Challenger League Season 52 North America Cup 2",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-28",
-      "match_id": "hltv:2398547",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790557200,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "FarmVille",
-      "prob_team1": 0.4931,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398547/marsborne-vs-farmville-esl-challenger-league-season-52-north-america-cup-2",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-09-28T01:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Marsborne",
-      "team1_vrs_rank": 115,
-      "team2_hltv_rank": null,
-      "team2_name": "FarmVille",
-      "team2_vrs_rank": 260
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5117,
       "confidence_label": "thin",
       "data_quality": "partial",
@@ -29813,6 +29764,43 @@
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5366,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4634,
+      "event_id": "hltv:9356",
+      "event_name": "ESL Challenger League Season 52 North America Cup 2",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-29",
+      "match_id": "hltv:2398548",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790643600,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Marsborne",
+      "prob_team1": 0.4634,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-09-29T01:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "regain",
+      "team1_vrs_rank": 162,
+      "team2_hltv_rank": null,
+      "team2_name": "Marsborne",
+      "team2_vrs_rank": 115
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5036,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -30073,7 +30061,7 @@
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 52,
-    "online_results_applied": 4,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

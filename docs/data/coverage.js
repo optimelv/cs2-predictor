@@ -2,25 +2,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-      "event_name": "CCT 2026 Challengers South America Series 3",
-      "event_url": null,
-      "hltv_match_id": "2398337",
-      "maps": [],
-      "match_id": "hltv:2398337",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398337/sementes-do-mal-vs-quintessncia-cct-2026-challengers-south-america-series-3",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "Sementes do Mal",
-      "team2_name": "QUINTESSÊNCIA",
-      "winner_name": "QUINTESSÊNCIA"
-    },
-    {
       "event_id": "hltv:cct-2026-europe-series-9",
       "event_name": "CCT 2026 Europe Series 9",
       "event_url": null,
@@ -6034,32 +6015,38 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "QUINTESSÊNCIA"
     },
     {
-      "event_id": "hltv:9356",
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
       "event_name": "ESL Challenger League Season 52 North America Cup 2",
       "hltv_match_id": "2398546",
       "match_id": "hltv:2398546",
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398546/regain-vs-lag-esl-challenger-league-season-52-north-america-cup-2",
       "stage_name": "Playoffs",
-      "starts_at": "2026-09-28T01:00:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-09-28T02:47:26Z",
+      "status": "finished",
       "team1_name": "regain",
-      "team2_name": "LAG"
+      "team2_name": "LAG",
+      "winner_name": "LAG"
     },
     {
-      "event_id": "hltv:9356",
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
       "event_name": "ESL Challenger League Season 52 North America Cup 2",
       "hltv_match_id": "2398547",
       "match_id": "hltv:2398547",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398547/marsborne-vs-farmville-esl-challenger-league-season-52-north-america-cup-2",
       "stage_name": "Playoffs",
-      "starts_at": "2026-09-28T01:00:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-09-28T03:08:21Z",
+      "status": "finished",
       "team1_name": "Marsborne",
-      "team2_name": "FarmVille"
+      "team2_name": "FarmVille",
+      "winner_name": "Marsborne"
     },
     {
       "event_id": "hltv:9420",
@@ -6214,6 +6201,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "Turma do Pagode",
       "team2_name": "Galorys"
+    },
+    {
+      "event_id": "hltv:9356",
+      "event_name": "ESL Challenger League Season 52 North America Cup 2",
+      "hltv_match_id": "2398548",
+      "match_id": "hltv:2398548",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-09-29T01:00:00Z",
+      "status": "upcoming",
+      "team1_name": "regain",
+      "team2_name": "Marsborne"
     },
     {
       "event_id": "hltv:9420",
@@ -14792,32 +14793,52 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "FarmVille"
         },
         {
-          "event_id": "hltv:9356",
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
           "event_name": "ESL Challenger League Season 52 North America Cup 2",
           "hltv_match_id": "2398546",
           "match_id": "hltv:2398546",
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398546/regain-vs-lag-esl-challenger-league-season-52-north-america-cup-2",
           "stage_name": "Playoffs",
-          "starts_at": "2026-09-28T01:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-09-28T02:47:26Z",
+          "status": "finished",
           "team1_name": "regain",
-          "team2_name": "LAG"
+          "team2_name": "LAG",
+          "winner_name": "LAG"
         },
         {
-          "event_id": "hltv:9356",
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
           "event_name": "ESL Challenger League Season 52 North America Cup 2",
           "hltv_match_id": "2398547",
           "match_id": "hltv:2398547",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398547/marsborne-vs-farmville-esl-challenger-league-season-52-north-america-cup-2",
           "stage_name": "Playoffs",
-          "starts_at": "2026-09-28T01:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-09-28T03:08:21Z",
+          "status": "finished",
           "team1_name": "Marsborne",
-          "team2_name": "FarmVille"
+          "team2_name": "FarmVille",
+          "winner_name": "Marsborne"
+        },
+        {
+          "event_id": "hltv:9356",
+          "event_name": "ESL Challenger League Season 52 North America Cup 2",
+          "hltv_match_id": "2398548",
+          "match_id": "hltv:2398548",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+          "stage_name": "Playoffs",
+          "starts_at": "2026-09-29T01:00:00Z",
+          "status": "upcoming",
+          "team1_name": "regain",
+          "team2_name": "Marsborne"
         }
       ],
       "name": "ESL Challenger League Season 52 North America Cup 2",
@@ -17434,7 +17455,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-09-28T00:44:52Z",
+  "last_verified_utc": "2026-09-28T06:54:28Z",
   "sources": [
     {
       "name": "HLTV events calendar",
