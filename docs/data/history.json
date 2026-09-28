@@ -1,18 +1,40 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-27T22:15:29Z",
-  "through_date": "2026-09-27",
+  "generated_at_utc": "2026-09-28T00:44:52Z",
+  "through_date": "2026-09-28",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3150,
+    "matches": 3154,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "hltv:2398576",
+      "match_date": "2026-09-28",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "QUINTESSÊNCIA",
+      "team2_name": "Peladona",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "QUINTESSÊNCIA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
     {
       "match_id": "hltv:2398515",
       "match_date": "2026-09-27",
@@ -594,6 +616,72 @@
       "score1": 1,
       "score2": 0,
       "winner_name": "Banda Chuya",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398517",
+      "match_date": "2026-09-27",
+      "event_name": "ESL Challenger League Season 52 South America Cup 2",
+      "team1_name": "Turma do Pagode",
+      "team2_name": "Yawara",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Turma do Pagode",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398573",
+      "match_date": "2026-09-27",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "ALKA",
+      "team2_name": "Mira",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Mira",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398516",
+      "match_date": "2026-09-27",
+      "event_name": "ESL Challenger League Season 52 South America Cup 2",
+      "team1_name": "Galorys",
+      "team2_name": "Procyon",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Procyon",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
