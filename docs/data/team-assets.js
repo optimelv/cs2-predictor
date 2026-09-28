@@ -1830,5 +1830,95 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "DOXA",
     "logo_url": "https://liquipedia.net/commons/images/thumb/0/05/DOXA_Gaming_allmode.png/100px-DOXA_Gaming_allmode.png",
     "source": "Liquipedia"
+  },
+  "100ra": {
+    "name": "100RA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/db/100RA_allmode.png/35px-100RA_allmode.png",
+    "source": "Liquipedia"
+  },
+  "nora": {
+    "name": "NORA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fa/Nora_Gaming_lightmode.png/51px-Nora_Gaming_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "octazone": {
+    "name": "OCTAZONE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/dc/OCTAZONE_lightmode.png/50px-OCTAZONE_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "vortex": {
+    "name": "Vortex",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7f/Vortex_Esports_CS2_allmode.png/71px-Vortex_Esports_CS2_allmode.png",
+    "source": "Liquipedia"
+  },
+  "coalesce": {
+    "name": "Coalesce",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/17/Coalesce_lightmode.png/58px-Coalesce_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "netti": {
+    "name": "Netti",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c8/Nettisankarit_allmode.png/50px-Nettisankarit_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ssp": {
+    "name": "SSP",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/88/Sissi_State_Punks_2024_allmode.png/42px-Sissi_State_Punks_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "trouble": {
+    "name": "Trouble",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/be/Troublemakers_lightmode.png/53px-Troublemakers_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "aab bulls": {
+    "name": "AaB Bulls",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/ab/AaB_esport_allmode.png/50px-AaB_esport_allmode.png",
+    "source": "Liquipedia"
+  },
+  "rhada": {
+    "name": "rhada",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/50/Rhadamanthys_lightmode.png/67px-Rhadamanthys_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "phx": {
+    "name": "PHX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7b/Valorant_Team_phoenix_allmode.png/37px-Valorant_Team_phoenix_allmode.png",
+    "source": "Liquipedia"
+  },
+  "t beast": {
+    "name": "T.Beast",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/T.Beast_2025_March_allmode.png/43px-T.Beast_2025_March_allmode.png",
+    "source": "Liquipedia"
+  },
+  "fxp": {
+    "name": "FXP",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/bb/FZXPENG_lightmode.png/100px-FZXPENG_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "flameh": {
+    "name": "FlameH",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/be/Flame_Hard_allmode.png/64px-Flame_Hard_allmode.png",
+    "source": "Liquipedia"
+  },
+  "nkg": {
+    "name": "NKG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a0/Nalakuvara_Gaming_2024_allmode.png/100px-Nalakuvara_Gaming_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "shpl": {
+    "name": "SHPL",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/11/SHPL_lightmode.png/49px-SHPL_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "adn": {
+    "name": "ADN",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/8e/Alpha_Dominion_Nation_allmode.png/52px-Alpha_Dominion_Nation_allmode.png",
+    "source": "Liquipedia"
+  },
+  "guar": {
+    "name": "Guará",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/15/Guar%C3%A1_eSports_allmode.png/47px-Guar%C3%A1_eSports_allmode.png",
+    "source": "Liquipedia"
   }
 };

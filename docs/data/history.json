@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3154,
+    "matches": 3172,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -1620,6 +1620,28 @@
       "source_url": "https://liquipedia.net/counterstrike/IBUYPOWER/Masters/2026/Fl0m%27s_Mythical_LAN#Group_A"
     },
     {
+      "match_id": "liquipedia:f2872010ee4e3c80e774",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #2",
+      "team1_name": "Galorys",
+      "team2_name": "Meta.W",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Galorys",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
+    },
+    {
       "match_id": "liquipedia:47257e6a894fa240b12b",
       "match_date": "2026-09-24",
       "starts_at": "2026-09-24T08:00:00Z",
@@ -1772,6 +1794,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
+    },
+    {
+      "match_id": "liquipedia:d4e38ab01b58c6c7ae67",
+      "match_date": "2026-09-24",
+      "starts_at": "2026-09-24T13:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 2",
+      "team1_name": "DAMAJ",
+      "team2_name": "MIBR Fe",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MIBR Fe",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_2"
     },
     {
       "match_id": "liquipedia:89e660d09297831433f2",
@@ -2025,6 +2069,28 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "Meta.W",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
+    },
+    {
+      "match_id": "liquipedia:fa37250bc765797fc731",
+      "match_date": "2026-09-23",
+      "starts_at": "2026-09-23T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #2",
+      "team1_name": "Galorys",
+      "team2_name": "LowC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Galorys",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -3037,6 +3103,50 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "Keyd",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
+    },
+    {
+      "match_id": "liquipedia:d21194d60c4871e1ed1e",
+      "match_date": "2026-09-22",
+      "starts_at": "2026-09-22T20:55:00Z",
+      "event_name": "ECL Season 52: SA Cup #2",
+      "team1_name": "BH",
+      "team2_name": "DAMAJ",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BH",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
+    },
+    {
+      "match_id": "liquipedia:1cf0b19895734d019f39",
+      "match_date": "2026-09-22",
+      "starts_at": "2026-09-22T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #2",
+      "team1_name": "EXODIA",
+      "team2_name": "Galorys",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Galorys",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -16734,6 +16844,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_5"
     },
     {
+      "match_id": "liquipedia:9d0817a06aa92c19dbf0",
+      "match_date": "2026-09-02",
+      "starts_at": "2026-09-02T19:25:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 5",
+      "team1_name": "BESTIA.A",
+      "team2_name": "DAMAJ",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BESTIA.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_5"
+    },
+    {
       "match_id": "hltv:2396942",
       "match_date": "2026-09-01",
       "event_name": "BLAST Open Porto 2026",
@@ -17854,6 +17986,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:18376e2aba4c8c781f19",
+      "match_date": "2026-08-31",
+      "starts_at": "2026-08-31T19:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 4",
+      "team1_name": "DAMAJ",
+      "team2_name": "Zetta",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "DAMAJ",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_4"
     },
     {
       "match_id": "hltv:2396934",
@@ -18987,6 +19141,28 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "Pldn",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Round_3"
+    },
+    {
+      "match_id": "liquipedia:eb1e8d073d82a3f866a7",
+      "match_date": "2026-08-30",
+      "starts_at": "2026-08-30T16:00:00Z",
+      "event_name": "CCT SA 2026 Series #5 - Round 3",
+      "team1_name": "DAMAJ",
+      "team2_name": "paiN.A",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "paiN.A",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -33652,6 +33828,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Playoffs"
     },
     {
+      "match_id": "liquipedia:221a58f23edccace8cb8",
+      "match_date": "2026-08-08",
+      "starts_at": "2026-08-08T14:30:00Z",
+      "event_name": "Esports World Cup 2026: LCQ - Group Stage - Group H",
+      "team1_name": "6666",
+      "team2_name": "Iber. Soul",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Iber. Soul",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026/Qualifier/Group_Stage#Group_H"
+    },
+    {
       "match_id": "hltv:2396414",
       "match_date": "2026-08-07",
       "event_name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -34970,6 +35168,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026/Qualifier/Group_Stage#Group_D"
+    },
+    {
+      "match_id": "liquipedia:ac10869a0d7310c68e1a",
+      "match_date": "2026-08-07",
+      "starts_at": "2026-08-07T09:45:00Z",
+      "event_name": "Esports World Cup 2026: LCQ - Group Stage - Group H",
+      "team1_name": "6666",
+      "team2_name": "Iber. Soul",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "6666",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026/Qualifier/Group_Stage#Group_H"
     },
     {
       "match_id": "hltv:2396412",
@@ -39768,6 +39988,28 @@
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_C"
     },
     {
+      "match_id": "liquipedia:91d9646c34814f12cf65",
+      "match_date": "2026-07-29",
+      "starts_at": "2026-07-29T08:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group A",
+      "team1_name": "Fortress",
+      "team2_name": "WOPA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "WOPA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_A"
+    },
+    {
       "match_id": "hltv:2396008",
       "match_date": "2026-07-28",
       "event_name": "BLAST Bounty 2026 Season 2",
@@ -41198,6 +41440,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_1"
     },
     {
+      "match_id": "liquipedia:9d567b9c83d0adf3aecf",
+      "match_date": "2026-07-27",
+      "starts_at": "2026-07-27T11:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group C",
+      "team1_name": "Mai tai",
+      "team2_name": "UNiTY",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_C"
+    },
+    {
       "match_id": "hltv:2395770",
       "match_date": "2026-07-26",
       "event_name": "CCT 2026 South America Series 4",
@@ -41482,6 +41746,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_4#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:4ee17d499804deef260d",
+      "match_date": "2026-07-26",
+      "starts_at": "2026-07-26T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Round 3",
+      "team1_name": "BG",
+      "team2_name": "SPARTA",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_3"
+    },
+    {
+      "match_id": "liquipedia:d666b2171d17a6335c19",
+      "match_date": "2026-07-26",
+      "starts_at": "2026-07-26T08:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group A",
+      "team1_name": "Fortress",
+      "team2_name": "IC.Acad",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Fortress",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_A"
+    },
+    {
+      "match_id": "liquipedia:f9ad0b8cfb69064db55a",
+      "match_date": "2026-07-26",
+      "starts_at": "2026-07-26T17:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group B",
+      "team1_name": "kogutos",
+      "team2_name": "megoshort",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "megoshort",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_B"
     },
     {
       "match_id": "liquipedia:73a8d3b2d93b31a4723b",
@@ -41790,6 +42120,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_4#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:a467d369a30b2d6eb7bf",
+      "match_date": "2026-07-25",
+      "starts_at": "2026-07-25T08:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group A",
+      "team1_name": "Fortress",
+      "team2_name": "WOPA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "WOPA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_A"
+    },
+    {
+      "match_id": "liquipedia:9f8857c5caf649fd4b4f",
+      "match_date": "2026-07-25",
+      "starts_at": "2026-07-25T17:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group B",
+      "team1_name": "ex-MANA",
+      "team2_name": "megoshort",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "megoshort",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_B"
     },
     {
       "match_id": "liquipedia:a4a2d9c4f550ea4ca42a",
@@ -42461,6 +42835,28 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_1"
+    },
+    {
+      "match_id": "liquipedia:1ae2b9731dc8fdc85bbe",
+      "match_date": "2026-07-22",
+      "starts_at": "2026-07-22T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Round 1",
+      "team1_name": "BG",
+      "team2_name": "Butterfly",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Butterfly",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
