@@ -1920,5 +1920,135 @@
     "name": "Guará",
     "logo_url": "https://liquipedia.net/commons/images/thumb/1/15/Guar%C3%A1_eSports_allmode.png/47px-Guar%C3%A1_eSports_allmode.png",
     "source": "Liquipedia"
+  },
+  "juventus": {
+    "name": "Juventus",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/39/Juventus_Gaming_allmode.png/50px-Juventus_Gaming_allmode.png",
+    "source": "Liquipedia"
+  },
+  "magicos": {
+    "name": "MAGICOS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/de/MAGICOS_allmode.png/53px-MAGICOS_allmode.png",
+    "source": "Liquipedia"
+  },
+  "hr": {
+    "name": "HR",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/97/Bounty_Hunters_Esports_lightmode.png/37px-Bounty_Hunters_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "tfg": {
+    "name": "TFG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/76/TFG_Logo_allmode.png/52px-TFG_Logo_allmode.png",
+    "source": "Liquipedia"
+  },
+  "martians": {
+    "name": "Martians",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/96/Martians_allmode.png/36px-Martians_allmode.png",
+    "source": "Liquipedia"
+  },
+  "urnm": {
+    "name": "UrNm",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6e/Unreal_Nightmare_2025_allmode.png/54px-Unreal_Nightmare_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "fly red": {
+    "name": "Fly RED",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c5/FlyQuest_RED_2023_allmode.png/51px-FlyQuest_RED_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ninefly": {
+    "name": "NineFly",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/9e/NineFly_Esports_lightmode.png/52px-NineFly_Esports_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "addice": {
+    "name": "Addice",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/3d/Addice_Inc._2022_lightmode.png/50px-Addice_Inc._2022_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "marca": {
+    "name": "Marca",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4e/MarcaRegistrada_2025_lightmode.png/39px-MarcaRegistrada_2025_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "arctic ace": {
+    "name": "Arctic Ace",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/92/Arctic_Ace_Esports_2026_lightmode.png/59px-Arctic_Ace_Esports_2026_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "lotus": {
+    "name": "Lotus",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e7/Lotus_CS2_allmode.png/57px-Lotus_CS2_allmode.png",
+    "source": "Liquipedia"
+  },
+  "shimmer": {
+    "name": "Shimmer",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5c/Shimmer_2023_allmode.png/76px-Shimmer_2023_allmode.png",
+    "source": "Liquipedia"
+  },
+  "4th qrt": {
+    "name": "4th Qrt",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f1/Fourth_Quarter_allmode.png/59px-Fourth_Quarter_allmode.png",
+    "source": "Liquipedia"
+  },
+  "fury": {
+    "name": "FURY",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/05/FURY_2020_allmode.png/68px-FURY_2020_allmode.png",
+    "source": "Liquipedia"
+  },
+  "dinq": {
+    "name": "DINQ",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/85/DINQ_allmode.png/83px-DINQ_allmode.png",
+    "source": "Liquipedia"
+  },
+  "platypus": {
+    "name": "Platypus",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/4/4e/House_Platypus_Esports_Club_allmode.png/50px-House_Platypus_Esports_Club_allmode.png",
+    "source": "Liquipedia"
+  },
+  "mlw": {
+    "name": "mLw",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f7/Madlikewizards_allmode.png/61px-Madlikewizards_allmode.png",
+    "source": "Liquipedia"
+  },
+  "huskies": {
+    "name": "Huskies",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c2/Huskies_eSport_J%C3%BClich_2024_allmode.png/41px-Huskies_eSport_J%C3%BClich_2024_allmode.png",
+    "source": "Liquipedia"
+  },
+  "bjays de": {
+    "name": "BJAYS.de",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/1e/BLUEJAYS_2015_allmode.png/57px-BLUEJAYS_2015_allmode.png",
+    "source": "Liquipedia"
+  },
+  "rebels": {
+    "name": "Rebels",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/ac/Rebels_Gaming_2021_allmode.png/77px-Rebels_Gaming_2021_allmode.png",
+    "source": "Liquipedia"
+  },
+  "ks": {
+    "name": "KS-",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/52/KS-_lightmode.png/42px-KS-_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "invicta": {
+    "name": "Invicta",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/0/04/Invicta_CS2_allmode.png/35px-Invicta_CS2_allmode.png",
+    "source": "Liquipedia"
+  },
+  "guess": {
+    "name": "GUESS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/13/GUESS_lightmode.png/49px-GUESS_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "fut turk": {
+    "name": "FUT Turk",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/90/Futbolist_2021_lightmode.png/26px-Futbolist_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "chaos": {
+    "name": "CHAOS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/30/CHAOS_NO_lightmode.png/50px-CHAOS_NO_lightmode.png",
+    "source": "Liquipedia"
   }
 }
