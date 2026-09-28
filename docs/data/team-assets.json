@@ -2050,5 +2050,10 @@
     "name": "CHAOS",
     "logo_url": "https://liquipedia.net/commons/images/thumb/3/30/CHAOS_NO_lightmode.png/50px-CHAOS_NO_lightmode.png",
     "source": "Liquipedia"
+  },
+  "gaimin": {
+    "name": "Gaimin",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/78/Gladiators_2022_allmode.png/30px-Gladiators_2022_allmode.png",
+    "source": "Liquipedia"
   }
 }
