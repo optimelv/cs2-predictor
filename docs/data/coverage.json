@@ -2,30 +2,6 @@
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397828",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "maps": [],
-      "match_id": "hltv:2397828",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397828/ex-rustec-vs-azuolas-cct-2026-europe-series-9",
-      "stage_name": "Completed series",
-      "starts_at": null,
-      "status": "finished",
-      "team1_name": "ex-RUSTEC",
-      "team2_name": "Azuolas",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)",
-      "winner_name": "ex-RUSTEC"
-    },
-    {
       "event_id": "thunderpick-sa-s2-2026",
       "event_name": "Thunderpick World Championship 2026 South America Series 2",
       "series_format": "bo3",
@@ -7027,28 +7003,62 @@
         }
       ],
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
       "stage_name": "Playoffs",
-      "starts_at": "2026-09-29T01:00:00Z",
-      "status": "live",
+      "starts_at": "2026-09-29T02:30:52Z",
+      "status": "finished",
       "team1_name": "regain",
       "team2_name": "Marsborne",
-      "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+      "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
+      "winner_name": "Marsborne"
     },
     {
-      "event_id": "hltv:9420",
+      "event_id": "hltv:cct-2026-europe-series-10",
       "event_name": "CCT 2026 Europe Series 10",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398370",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": 7,
+          "score2": 5,
+          "status": "finished"
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Anubis",
+        "Mirage"
+      ],
       "match_id": "hltv:2398370",
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398370/lavked-vs-azuolas-cct-2026-europe-series-10",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-29T08:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Lavked",
-      "team2_name": "Azuolas"
+      "team2_name": "Azuolas",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
     },
     {
       "event_id": "hltv:9353",
@@ -7217,6 +7227,20 @@
       "status": "upcoming",
       "team1_name": "MEIA NOITE",
       "team2_name": "ALKA"
+    },
+    {
+      "event_id": "hltv:9356",
+      "event_name": "ESL Challenger League Season 52 North America Cup 2",
+      "hltv_match_id": "2398549",
+      "match_id": "hltv:2398549",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+      "stage_name": "Grand Final",
+      "starts_at": "2026-09-30T01:00:00Z",
+      "status": "upcoming",
+      "team1_name": "LAG",
+      "team2_name": "Marsborne"
     }
   ],
   "default_event_id": "epl-series-8-2026",
@@ -15850,21 +15874,52 @@
       "teams": 16
     },
     {
-      "bracket": null,
-      "current_stage": "Playoffs",
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:grand-final",
+            "matches": [
+              {
+                "event_id": "hltv:9356",
+                "event_name": "ESL Challenger League Season 52 North America Cup 2",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2398549",
+                "maps": [],
+                "match_id": "hltv:2398549",
+                "product_tier": "tier_2",
+                "round_name": "Grand Final",
+                "series_format": "bo3",
+                "slot_id": "main:grand-final:1",
+                "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+                "stage_name": "Grand Final",
+                "starts_at": "2026-09-30T01:00:00Z",
+                "status": "upcoming",
+                "team1_name": "LAG",
+                "team2_name": "Marsborne"
+              }
+            ],
+            "name": "Grand Final",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Grand Final",
       "format": {
-        "label": "Playoffs",
+        "label": "Grand Final",
         "settings": {},
         "stages": [
           {
-            "id": "playoffs",
-            "name": "Playoffs",
+            "id": "grand-final",
+            "name": "Grand Final",
             "order": 1,
             "status": "pending",
             "type": "single_elimination"
           }
         ],
-        "type": "mixed"
+        "type": "single_elimination"
       },
       "id": "hltv:9356",
       "matches": [
@@ -16312,14 +16367,31 @@
             }
           ],
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
           "stage_name": "Playoffs",
-          "starts_at": "2026-09-29T01:00:00Z",
-          "status": "live",
+          "starts_at": "2026-09-29T02:30:52Z",
+          "status": "finished",
           "team1_name": "regain",
           "team2_name": "Marsborne",
-          "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+          "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
+          "winner_name": "Marsborne"
+        },
+        {
+          "event_id": "hltv:9356",
+          "event_name": "ESL Challenger League Season 52 North America Cup 2",
+          "hltv_match_id": "2398549",
+          "match_id": "hltv:2398549",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+          "stage_name": "Grand Final",
+          "starts_at": "2026-09-30T01:00:00Z",
+          "status": "upcoming",
+          "team1_name": "LAG",
+          "team2_name": "Marsborne"
         }
       ],
       "name": "ESL Challenger League Season 52 North America Cup 2",
@@ -19420,18 +19492,49 @@
           "winner_name": "EAC"
         },
         {
-          "event_id": "hltv:9420",
+          "event_id": "hltv:cct-2026-europe-series-10",
           "event_name": "CCT 2026 Europe Series 10",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398370",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": 7,
+              "score2": 5,
+              "status": "finished"
+            },
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Anubis",
+            "Mirage"
+          ],
           "match_id": "hltv:2398370",
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398370/lavked-vs-azuolas-cct-2026-europe-series-10",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-29T08:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "Lavked",
-          "team2_name": "Azuolas"
+          "team2_name": "Azuolas",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
         },
         {
           "event_id": "hltv:9420",
@@ -19500,7 +19603,7 @@
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-09-29T01:51:53Z",
+  "last_verified_utc": "2026-09-29T08:34:44Z",
   "sources": [
     {
       "name": "HLTV events calendar",

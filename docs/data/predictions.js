@@ -3,30 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:cct-2026-europe-series-9",
-        "event_name": "CCT 2026 Europe Series 9",
-        "event_url": null,
-        "hltv_match_id": "2397828",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "maps": [],
-        "match_id": "hltv:2397828",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 1,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397828/ex-rustec-vs-azuolas-cct-2026-europe-series-9",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "ex-RUSTEC",
-        "team2_name": "Azuolas",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)",
-        "winner_name": "ex-RUSTEC"
-      },
-      {
         "event_id": "thunderpick-sa-s2-2026",
         "event_name": "Thunderpick World Championship 2026 South America Series 2",
         "series_format": "bo3",
@@ -7028,28 +7004,62 @@ window.__STRIKESIGNAL_DATA__ = {
           }
         ],
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
         "stage_name": "Playoffs",
-        "starts_at": "2026-09-29T01:00:00Z",
-        "status": "live",
+        "starts_at": "2026-09-29T02:30:52Z",
+        "status": "finished",
         "team1_name": "regain",
         "team2_name": "Marsborne",
-        "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+        "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
+        "winner_name": "Marsborne"
       },
       {
-        "event_id": "hltv:9420",
+        "event_id": "hltv:cct-2026-europe-series-10",
         "event_name": "CCT 2026 Europe Series 10",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398370",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Nuke",
+            "score1": 7,
+            "score2": 5,
+            "status": "finished"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Nuke",
+          "Anubis",
+          "Mirage"
+        ],
         "match_id": "hltv:2398370",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398370/lavked-vs-azuolas-cct-2026-europe-series-10",
         "stage_name": "Scheduled series",
         "starts_at": "2026-09-29T08:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Lavked",
-        "team2_name": "Azuolas"
+        "team2_name": "Azuolas",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
       },
       {
         "event_id": "hltv:9353",
@@ -7218,6 +7228,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "MEIA NOITE",
         "team2_name": "ALKA"
+      },
+      {
+        "event_id": "hltv:9356",
+        "event_name": "ESL Challenger League Season 52 North America Cup 2",
+        "hltv_match_id": "2398549",
+        "match_id": "hltv:2398549",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+        "stage_name": "Grand Final",
+        "starts_at": "2026-09-30T01:00:00Z",
+        "status": "upcoming",
+        "team1_name": "LAG",
+        "team2_name": "Marsborne"
       }
     ],
     "default_event_id": "epl-series-8-2026",
@@ -15851,21 +15875,52 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       },
       {
-        "bracket": null,
-        "current_stage": "Playoffs",
+        "bracket": {
+          "rounds": [
+            {
+              "bracket": "main",
+              "id": "main:grand-final",
+              "matches": [
+                {
+                  "event_id": "hltv:9356",
+                  "event_name": "ESL Challenger League Season 52 North America Cup 2",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2398549",
+                  "maps": [],
+                  "match_id": "hltv:2398549",
+                  "product_tier": "tier_2",
+                  "round_name": "Grand Final",
+                  "series_format": "bo3",
+                  "slot_id": "main:grand-final:1",
+                  "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+                  "stage_name": "Grand Final",
+                  "starts_at": "2026-09-30T01:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "LAG",
+                  "team2_name": "Marsborne"
+                }
+              ],
+              "name": "Grand Final",
+              "order": 1
+            }
+          ],
+          "type": "single_elimination"
+        },
+        "current_stage": "Grand Final",
         "format": {
-          "label": "Playoffs",
+          "label": "Grand Final",
           "settings": {},
           "stages": [
             {
-              "id": "playoffs",
-              "name": "Playoffs",
+              "id": "grand-final",
+              "name": "Grand Final",
               "order": 1,
               "status": "pending",
               "type": "single_elimination"
             }
           ],
-          "type": "mixed"
+          "type": "single_elimination"
         },
         "id": "hltv:9356",
         "matches": [
@@ -16313,14 +16368,31 @@ window.__STRIKESIGNAL_DATA__ = {
               }
             ],
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
             "stage_name": "Playoffs",
-            "starts_at": "2026-09-29T01:00:00Z",
-            "status": "live",
+            "starts_at": "2026-09-29T02:30:52Z",
+            "status": "finished",
             "team1_name": "regain",
             "team2_name": "Marsborne",
-            "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+            "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
+            "winner_name": "Marsborne"
+          },
+          {
+            "event_id": "hltv:9356",
+            "event_name": "ESL Challenger League Season 52 North America Cup 2",
+            "hltv_match_id": "2398549",
+            "match_id": "hltv:2398549",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+            "stage_name": "Grand Final",
+            "starts_at": "2026-09-30T01:00:00Z",
+            "status": "upcoming",
+            "team1_name": "LAG",
+            "team2_name": "Marsborne"
           }
         ],
         "name": "ESL Challenger League Season 52 North America Cup 2",
@@ -19421,18 +19493,49 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "EAC"
           },
           {
-            "event_id": "hltv:9420",
+            "event_id": "hltv:cct-2026-europe-series-10",
             "event_name": "CCT 2026 Europe Series 10",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398370",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Nuke",
+                "score1": 7,
+                "score2": 5,
+                "status": "finished"
+              },
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Nuke",
+              "Anubis",
+              "Mirage"
+            ],
             "match_id": "hltv:2398370",
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398370/lavked-vs-azuolas-cct-2026-europe-series-10",
             "stage_name": "Scheduled series",
             "starts_at": "2026-09-29T08:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Lavked",
-            "team2_name": "Azuolas"
+            "team2_name": "Azuolas",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
           },
           {
             "event_id": "hltv:9420",
@@ -19501,7 +19604,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-09-29T01:51:53Z",
+    "last_verified_utc": "2026-09-29T08:34:44Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -19939,7 +20042,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-29T02:02:16Z",
+  "generated_at_utc": "2026-09-29T08:37:29Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -21315,12 +21418,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.634064,
-        "brier": 0.22127,
-        "ece": 0.014826,
-        "log_loss": 0.631346
+        "accuracy": 0.635135,
+        "brier": 0.221258,
+        "ece": 0.014611,
+        "log_loss": 0.631331
       },
-      "rows": 887,
+      "rows": 888,
       "slices": [
         {
           "dimension": "tier",
@@ -21328,12 +21431,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.643653,
-            "brier": 0.21519,
-            "ece": 0.035126,
-            "log_loss": 0.617839
+            "accuracy": 0.644295,
+            "brier": 0.215119,
+            "ece": 0.035924,
+            "log_loss": 0.617692
           },
-          "rows": 449
+          "rows": 447
         },
         {
           "dimension": "tier",
@@ -21341,12 +21444,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.604167,
-            "brier": 0.240227,
-            "ece": 0.058075,
-            "log_loss": 0.67346
+            "accuracy": 0.606897,
+            "brier": 0.240185,
+            "ece": 0.054337,
+            "log_loss": 0.673377
           },
-          "rows": 144
+          "rows": 145
         },
         {
           "dimension": "series_format",
@@ -21367,12 +21470,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.6294,
-            "brier": 0.220692,
-            "ece": 0.027507,
-            "log_loss": 0.62965
+            "accuracy": 0.630705,
+            "brier": 0.220677,
+            "ece": 0.028465,
+            "log_loss": 0.629628
           },
-          "rows": 483
+          "rows": 482
         },
         {
           "dimension": "series_format",
@@ -21388,7 +21491,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "test_rows": 593
+      "test_rows": 592
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -21402,13 +21505,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.640809,
-        "brier": 0.223184,
-        "ece": 0.047717,
-        "log_loss": 0.636437
+        "accuracy": 0.640203,
+        "brier": 0.223135,
+        "ece": 0.047435,
+        "log_loss": 0.636325
       },
       "promotion_passed": false,
-      "rows": 593,
+      "rows": 592,
       "slices": [
         {
           "dimension": "tier",
@@ -21416,12 +21519,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.648107,
-            "brier": 0.217057,
-            "ece": 0.055944,
-            "log_loss": 0.623214
+            "accuracy": 0.64877,
+            "brier": 0.216885,
+            "ece": 0.056798,
+            "log_loss": 0.622841
           },
-          "rows": 449
+          "rows": 447
         },
         {
           "dimension": "tier",
@@ -21429,12 +21532,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.618056,
-            "brier": 0.242288,
-            "ece": 0.08462,
-            "log_loss": 0.677668
+            "accuracy": 0.613793,
+            "brier": 0.242399,
+            "ece": 0.080531,
+            "log_loss": 0.67789
           },
-          "rows": 144
+          "rows": 145
         },
         {
           "dimension": "series_format",
@@ -21443,9 +21546,9 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO1",
           "metrics": {
             "accuracy": 0.66,
-            "brier": 0.229742,
-            "ece": 0.085825,
-            "log_loss": 0.650888
+            "brier": 0.230034,
+            "ece": 0.081907,
+            "log_loss": 0.651556
           },
           "rows": 100
         },
@@ -21455,12 +21558,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.637681,
-            "brier": 0.222572,
-            "ece": 0.049191,
-            "log_loss": 0.635044
+            "accuracy": 0.636929,
+            "brier": 0.222451,
+            "ece": 0.047086,
+            "log_loss": 0.634769
           },
-          "rows": 483
+          "rows": 482
         },
         {
           "dimension": "series_format",
@@ -21469,9 +21572,9 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO5",
           "metrics": {
             "accuracy": 0.6,
-            "brier": 0.187194,
-            "ece": 0.318425,
-            "log_loss": 0.559244
+            "brier": 0.187091,
+            "ece": 0.318356,
+            "log_loss": 0.559008
           },
           "rows": 10
         }
@@ -21496,7 +21599,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-29T02:02:15Z",
+    "generated_at_utc": "2026-09-29T08:37:28Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -21506,12 +21609,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.643653,
-            "brier": 0.21519,
-            "ece": 0.035126,
-            "log_loss": 0.617839
+            "accuracy": 0.644295,
+            "brier": 0.215119,
+            "ece": 0.035924,
+            "log_loss": 0.617692
           },
-          "rows": 449
+          "rows": 447
         },
         {
           "dimension": "tier",
@@ -21519,12 +21622,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.604167,
-            "brier": 0.240227,
-            "ece": 0.058075,
-            "log_loss": 0.67346
+            "accuracy": 0.606897,
+            "brier": 0.240185,
+            "ece": 0.054337,
+            "log_loss": 0.673377
           },
-          "rows": 144
+          "rows": 145
         },
         {
           "dimension": "series_format",
@@ -21545,12 +21648,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.6294,
-            "brier": 0.220692,
-            "ece": 0.027507,
-            "log_loss": 0.62965
+            "accuracy": 0.630705,
+            "brier": 0.220677,
+            "ece": 0.028465,
+            "log_loss": 0.629628
           },
-          "rows": 483
+          "rows": 482
         },
         {
           "dimension": "series_format",
@@ -21572,13 +21675,13 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_1",
             "passed": true,
-            "rows": 449
+            "rows": 447
           },
           {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 144
+            "rows": 145
           },
           {
             "eligible": true,
@@ -21590,7 +21693,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 483
+            "rows": 482
           },
           {
             "eligible": false,
@@ -21608,12 +21711,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.648107,
-            "brier": 0.217057,
-            "ece": 0.055944,
-            "log_loss": 0.623214
+            "accuracy": 0.64877,
+            "brier": 0.216885,
+            "ece": 0.056798,
+            "log_loss": 0.622841
           },
-          "rows": 449
+          "rows": 447
         },
         {
           "dimension": "tier",
@@ -21621,12 +21724,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.618056,
-            "brier": 0.237769,
-            "ece": 0.051185,
-            "log_loss": 0.668413
+            "accuracy": 0.613793,
+            "brier": 0.237969,
+            "ece": 0.047269,
+            "log_loss": 0.668815
           },
-          "rows": 144
+          "rows": 145
         },
         {
           "dimension": "series_format",
@@ -21635,9 +21738,9 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO1",
           "metrics": {
             "accuracy": 0.66,
-            "brier": 0.22826,
-            "ece": 0.076377,
-            "log_loss": 0.647836
+            "brier": 0.228551,
+            "ece": 0.072459,
+            "log_loss": 0.648504
           },
           "rows": 100
         },
@@ -21647,12 +21750,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.637681,
-            "brier": 0.221531,
-            "ece": 0.045796,
-            "log_loss": 0.632916
+            "accuracy": 0.636929,
+            "brier": 0.221426,
+            "ece": 0.043945,
+            "log_loss": 0.632672
           },
-          "rows": 483
+          "rows": 482
         },
         {
           "dimension": "series_format",
@@ -21661,18 +21764,18 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO5",
           "metrics": {
             "accuracy": 0.6,
-            "brier": 0.187194,
-            "ece": 0.318425,
-            "log_loss": 0.559244
+            "brier": 0.187091,
+            "ece": 0.318356,
+            "log_loss": 0.559008
           },
           "rows": 10
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.634064,
-        "brier": 0.221927,
-        "ece": 0.025984,
-        "log_loss": 0.632675
+        "accuracy": 0.635135,
+        "brier": 0.221929,
+        "ece": 0.02568,
+        "log_loss": 0.63269
       },
       "champion_slices": [
         {
@@ -21681,12 +21784,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.643653,
-            "brier": 0.21519,
-            "ece": 0.035126,
-            "log_loss": 0.617839
+            "accuracy": 0.644295,
+            "brier": 0.215119,
+            "ece": 0.035924,
+            "log_loss": 0.617692
           },
-          "rows": 449
+          "rows": 447
         },
         {
           "dimension": "tier",
@@ -21694,12 +21797,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.604167,
-            "brier": 0.24293,
-            "ece": 0.06788,
-            "log_loss": 0.678935
+            "accuracy": 0.606897,
+            "brier": 0.242924,
+            "ece": 0.070378,
+            "log_loss": 0.678922
           },
-          "rows": 144
+          "rows": 145
         },
         {
           "dimension": "series_format",
@@ -21720,12 +21823,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.6294,
-            "brier": 0.221164,
-            "ece": 0.040429,
-            "log_loss": 0.630578
+            "accuracy": 0.630705,
+            "brier": 0.221166,
+            "ece": 0.040086,
+            "log_loss": 0.630591
           },
-          "rows": 483
+          "rows": 482
         },
         {
           "dimension": "series_format",
@@ -21741,37 +21844,37 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "champion_test_rows": 593,
+      "champion_test_rows": 592,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.604167,
-          "brier": 0.24204,
-          "ece": 0.076015,
-          "log_loss": 0.67712
+          "accuracy": 0.606897,
+          "brier": 0.242029,
+          "ece": 0.074222,
+          "log_loss": 0.677098
         },
         "before": {
-          "accuracy": 0.604167,
-          "brier": 0.24293,
-          "ece": 0.06788,
-          "log_loss": 0.678935
+          "accuracy": 0.606897,
+          "brier": 0.242924,
+          "ece": 0.070378,
+          "log_loss": 0.678922
         },
         "candidate_shrink": 0.6,
         "overall_after": {
-          "accuracy": 0.634064,
+          "accuracy": 0.635135,
           "brier": 0.22171,
-          "ece": 0.025615,
-          "log_loss": 0.632235
+          "ece": 0.026381,
+          "log_loss": 0.632243
         },
         "overall_before": {
-          "accuracy": 0.634064,
-          "brier": 0.221927,
-          "ece": 0.025984,
-          "log_loss": 0.632675
+          "accuracy": 0.635135,
+          "brier": 0.221929,
+          "ece": 0.02568,
+          "log_loss": 0.63269
         },
         "passed": false,
-        "rows": 144,
+        "rows": 145,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -21790,8 +21893,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
-      "online_rows": 130,
+      "new_rows": 1,
+      "online_rows": 131,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -21972,9 +22075,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2398574",
       "hltv:2398369",
       "hltv:2398575",
-      "hltv:2398518"
+      "hltv:2398518",
+      "hltv:2398548"
     ],
-    "last_online_update_utc": "2026-09-29T02:02:16Z",
+    "last_online_update_utc": "2026-09-29T08:37:29Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -25267,10 +25371,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 114
       },
       {
-        "elo": 1455.63,
-        "last_result_utc": "2026-09-28T03:08:21Z",
-        "matches": 78,
-        "recent_win_rate_10": 0.5984,
+        "elo": 1470.47,
+        "last_result_utc": "2026-09-29T02:30:52Z",
+        "matches": 79,
+        "recent_win_rate_10": 0.6714,
         "team_key": "marsborne",
         "team_name": "Marsborne",
         "vrs_points": 1010,
@@ -25625,10 +25729,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 161
       },
       {
-        "elo": 1486.36,
-        "last_result_utc": "2026-09-28T02:47:26Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.4091,
+        "elo": 1471.52,
+        "last_result_utc": "2026-09-29T02:30:52Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.3347,
         "team_key": "regain",
         "team_name": "regain",
         "vrs_points": 853,
@@ -31460,43 +31564,6 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5036,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5036,
-      "event_id": "hltv:9420",
-      "event_name": "CCT 2026 Europe Series 10",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-29",
-      "match_id": "hltv:2398370",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790668800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Lavked",
-      "prob_team1": 0.5036,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398370/lavked-vs-azuolas-cct-2026-europe-series-10",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-29T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Lavked",
-      "team1_vrs_rank": 78,
-      "team2_hltv_rank": null,
-      "team2_name": "Azuolas",
-      "team2_vrs_rank": null
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5013,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -31941,94 +32008,59 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5366,
+      "confidence": 0.5136,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4634,
-      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
+      "elo_prob_team1": 0.5136,
+      "event_id": "hltv:9356",
       "event_name": "ESL Challenger League Season 52 North America Cup 2",
       "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-30",
+      "match_id": "hltv:2398549",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790730000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "LAG",
+      "prob_team1": 0.5136,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+      "stage_name": "Grand Final",
+      "starts_at": "2026-09-30T01:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "LAG",
+      "team1_vrs_rank": 126,
+      "team2_hltv_rank": null,
+      "team2_name": "Marsborne",
+      "team2_vrs_rank": 115
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5036,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5036,
+      "event_id": "hltv:cct-2026-europe-series-10",
+      "event_name": "CCT 2026 Europe Series 10",
+      "format": "bo3",
       "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "22789",
-            "nickname": "z0mb1e",
-            "player_id": "hltv:22789",
-            "source_url": "https://www.hltv.org/player/22789/z0mb1e",
-            "team_name": "regain"
-          },
-          {
-            "hltv_player_id": "24667",
-            "nickname": "fuzenko",
-            "player_id": "hltv:24667",
-            "source_url": "https://www.hltv.org/player/24667/fuzenko",
-            "team_name": "regain"
-          },
-          {
-            "hltv_player_id": "23136",
-            "nickname": "Zucar",
-            "player_id": "hltv:23136",
-            "source_url": "https://www.hltv.org/player/23136/zucar",
-            "team_name": "regain"
-          },
-          {
-            "hltv_player_id": "19707",
-            "nickname": "grape",
-            "player_id": "hltv:19707",
-            "source_url": "https://www.hltv.org/player/19707/grape",
-            "team_name": "regain"
-          },
-          {
-            "hltv_player_id": "23138",
-            "nickname": "sasha",
-            "player_id": "hltv:23138",
-            "source_url": "https://www.hltv.org/player/23138/sasha",
-            "team_name": "regain"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "22069",
-            "nickname": "Grizz",
-            "player_id": "hltv:22069",
-            "source_url": "https://www.hltv.org/player/22069/grizz",
-            "team_name": "Marsborne"
-          },
-          {
-            "hltv_player_id": "21620",
-            "nickname": "nicx",
-            "player_id": "hltv:21620",
-            "source_url": "https://www.hltv.org/player/21620/nicx",
-            "team_name": "Marsborne"
-          },
-          {
-            "hltv_player_id": "22967",
-            "nickname": "ogwizard",
-            "player_id": "hltv:22967",
-            "source_url": "https://www.hltv.org/player/22967/ogwizard",
-            "team_name": "Marsborne"
-          },
-          {
-            "hltv_player_id": "18706",
-            "nickname": "freshie",
-            "player_id": "hltv:18706",
-            "source_url": "https://www.hltv.org/player/18706/freshie",
-            "team_name": "Marsborne"
-          },
-          {
-            "hltv_player_id": "25524",
-            "nickname": "WUMBO",
-            "player_id": "hltv:25524",
-            "source_url": "https://www.hltv.org/player/25524/wumbo",
-            "team_name": "Marsborne"
-          }
-        ]
+        "team1": [],
+        "team2": []
       },
       "map_results": [
         {
-          "map_name": "Inferno",
-          "score1": 3,
-          "score2": 13,
+          "map_name": "Nuke",
+          "score1": 7,
+          "score2": 5,
           "status": "finished"
         },
         {
@@ -32038,46 +32070,46 @@ window.__STRIKESIGNAL_DATA__ = {
           "status": "upcoming"
         },
         {
-          "map_name": "Ancient",
+          "map_name": "Mirage",
           "score1": null,
           "score2": null,
           "status": "upcoming"
         }
       ],
       "maps": [
-        "Inferno",
+        "Nuke",
         "Anubis",
-        "Ancient"
+        "Mirage"
       ],
       "match_date": "",
-      "match_id": "hltv:2398548",
+      "match_id": "hltv:2398370",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Marsborne",
-      "prob_team1": 0.4634,
+      "predicted_winner": "Lavked",
+      "prob_team1": 0.5036,
       "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
+      "source_url": "https://www.hltv.org/matches/2398370/lavked-vs-azuolas-cct-2026-europe-series-10",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "regain",
-      "team1_vrs_rank": 162,
+      "team1_name": "Lavked",
+      "team1_vrs_rank": 78,
       "team2_hltv_rank": null,
-      "team2_name": "Marsborne",
-      "team2_vrs_rank": 115
+      "team2_name": "Azuolas",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 55,
-    "online_results_applied": 2,
+    "live_feed_items": 52,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
