@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-29T15:51:33Z",
+  "generated_at_utc": "2026-09-29T20:51:17Z",
   "through_date": "2026-09-29",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3350,
+    "matches": 3358,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -110,6 +110,182 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "MAYBE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398371",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "MASONIC",
+      "team2_name": "Enjoy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "MASONIC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398838",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "Spirit Academy",
+      "team2_name": "Phantom Academy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398489",
+      "match_date": "2026-09-29",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
+      "team1_name": "Lynn Vision",
+      "team2_name": "NEXVOID",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "NEXVOID",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398839",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "benched gods",
+      "team2_name": "mellren",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398577",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "BORRACHEIROS",
+      "team2_name": "METANOIA Wolves",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BORRACHEIROS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398372",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Nexus",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398373",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Butterfly",
+      "team2_name": "Phantom Academy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398578",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "Grêmio",
+      "team2_name": "Procyon",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Procyon",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
