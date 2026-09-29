@@ -2055,5 +2055,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "Gaimin",
     "logo_url": "https://liquipedia.net/commons/images/thumb/7/78/Gladiators_2022_allmode.png/30px-Gladiators_2022_allmode.png",
     "source": "Liquipedia"
+  },
+  "enforcers": {
+    "name": "Enforcers",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a8/Chaos_Enforcers_lightmode.png/52px-Chaos_Enforcers_lightmode.png",
+    "source": "Liquipedia"
   }
 };

@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3338,
+    "matches": 3340,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -320,6 +320,28 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:c000ae30a8742d6eaf0c",
+      "match_date": "2026-09-28",
+      "starts_at": "2026-09-28T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 1",
+      "team1_name": "Leo",
+      "team2_name": "Noir",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Noir",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_1"
     },
     {
       "match_id": "hltv:2398515",
@@ -1200,6 +1222,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/IBUYPOWER/Masters/2026/Fl0m%27s_Mythical_LAN#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:180a3d0b50a047adeff5",
+      "match_date": "2026-09-27",
+      "starts_at": "2026-09-27T16:00:00Z",
+      "event_name": "CCT EU 2026 Series #9 - Playoffs",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_9#Playoffs"
     },
     {
       "match_id": "hltv:2398542",
