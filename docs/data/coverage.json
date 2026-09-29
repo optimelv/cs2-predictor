@@ -7051,28 +7051,34 @@
       ],
       "match_id": "hltv:2398370",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398370/lavked-vs-azuolas-cct-2026-europe-series-10",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-09-29T08:00:00Z",
-      "status": "live",
+      "starts_at": "2026-09-29T09:34:38Z",
+      "status": "finished",
       "team1_name": "Lavked",
       "team2_name": "Azuolas",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+      "winner_name": "Lavked"
     },
     {
-      "event_id": "hltv:9353",
+      "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-2",
       "event_name": "ESL Challenger League Season 52 Oceania Cup 2",
       "hltv_match_id": "2398643",
       "match_id": "hltv:2398643",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398643/flyquest-vs-thunder-downunder-esl-challenger-league-season-52-oceania-cup-2",
       "stage_name": "Grand Final",
-      "starts_at": "2026-09-29T09:00:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-09-29T10:46:01Z",
+      "status": "finished",
       "team1_name": "FlyQuest",
-      "team2_name": "THUNDER dOWNUNDER"
+      "team2_name": "THUNDER dOWNUNDER",
+      "winner_name": "FlyQuest"
     },
     {
       "event_id": "hltv:9420",
@@ -7084,37 +7090,26 @@
       "source_url": "https://www.hltv.org/matches/2398371/masonic-vs-enjoy-cct-2026-europe-series-10",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-29T11:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "MASONIC",
       "team2_name": "Enjoy"
     },
     {
-      "event_id": "hltv:9433",
-      "event_name": "CCT 2026 Challengers Europe Series 7",
-      "hltv_match_id": "2398836",
-      "match_id": "hltv:2398836",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398836/maybe-vs-illyrians-cct-2026-challengers-europe-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-29T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "MAYBE",
-      "team2_name": "Illyrians"
-    },
-    {
-      "event_id": "hltv:9433",
+      "event_id": "hltv:cct-2026-challengers-europe-series-7",
       "event_name": "CCT 2026 Challengers Europe Series 7",
       "hltv_match_id": "2398837",
       "match_id": "hltv:2398837",
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 1,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398837/privateer-vs-eternal-premium-cct-2026-challengers-europe-series-7",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-09-29T11:00:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-09-29T11:18:46Z",
+      "status": "finished",
       "team1_name": "Privateer",
-      "team2_name": "eternal premium"
+      "team2_name": "eternal premium",
+      "winner_name": "eternal premium"
     },
     {
       "event_id": "hltv:9354",
@@ -7126,9 +7121,26 @@
       "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
       "stage_name": "Grand Final",
       "starts_at": "2026-09-29T13:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Lynn Vision",
       "team2_name": "NEXVOID"
+    },
+    {
+      "event_id": "hltv:cct-2026-challengers-europe-series-7",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "hltv_match_id": "2398836",
+      "match_id": "hltv:2398836",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398836/maybe-vs-illyrians-cct-2026-challengers-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-29T13:39:28Z",
+      "status": "finished",
+      "team1_name": "MAYBE",
+      "team2_name": "Illyrians",
+      "winner_name": "MAYBE"
     },
     {
       "event_id": "hltv:9433",
@@ -7140,7 +7152,7 @@
       "source_url": "https://www.hltv.org/matches/2398838/spirit-academy-vs-phantom-academy-cct-2026-challengers-europe-series-7",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-29T13:45:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Spirit Academy",
       "team2_name": "Phantom Academy"
     },
@@ -7153,7 +7165,7 @@
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398372/ex-rustec-vs-nexus-cct-2026-europe-series-10",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-09-29T14:00:00Z",
+      "starts_at": "2026-09-29T15:45:00Z",
       "status": "upcoming",
       "team1_name": "ex-RUSTEC",
       "team2_name": "Nexus"
@@ -13293,7 +13305,7 @@
                 "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
                 "stage_name": "Grand Final",
                 "starts_at": "2026-09-29T13:00:00Z",
-                "status": "upcoming",
+                "status": "live",
                 "team1_name": "Lynn Vision",
                 "team2_name": "NEXVOID"
               }
@@ -13313,7 +13325,7 @@
             "id": "grand-final",
             "name": "Grand Final",
             "order": 1,
-            "status": "pending",
+            "status": "live",
             "type": "single_elimination"
           }
         ],
@@ -14339,7 +14351,7 @@
           "source_url": "https://www.hltv.org/matches/2398489/lynn-vision-vs-nexvoid-esl-challenger-league-season-52-asia-pacific-cup-2",
           "stage_name": "Grand Final",
           "starts_at": "2026-09-29T13:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "Lynn Vision",
           "team2_name": "NEXVOID"
         }
@@ -17553,18 +17565,21 @@
           "winner_name": "THUNDER dOWNUNDER"
         },
         {
-          "event_id": "hltv:9353",
+          "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-2",
           "event_name": "ESL Challenger League Season 52 Oceania Cup 2",
           "hltv_match_id": "2398643",
           "match_id": "hltv:2398643",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398643/flyquest-vs-thunder-downunder-esl-challenger-league-season-52-oceania-cup-2",
           "stage_name": "Grand Final",
-          "starts_at": "2026-09-29T09:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-09-29T10:46:01Z",
+          "status": "finished",
           "team1_name": "FlyQuest",
-          "team2_name": "THUNDER dOWNUNDER"
+          "team2_name": "THUNDER dOWNUNDER",
+          "winner_name": "FlyQuest"
         }
       ],
       "name": "ESL Challenger League Season 52 Oceania Cup 2",
@@ -19348,32 +19363,38 @@
           "winner_name": "FORZE Reload"
         },
         {
-          "event_id": "hltv:9433",
+          "event_id": "hltv:cct-2026-challengers-europe-series-7",
           "event_name": "CCT 2026 Challengers Europe Series 7",
           "hltv_match_id": "2398836",
           "match_id": "hltv:2398836",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398836/maybe-vs-illyrians-cct-2026-challengers-europe-series-7",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-29T11:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-09-29T13:39:28Z",
+          "status": "finished",
           "team1_name": "MAYBE",
-          "team2_name": "Illyrians"
+          "team2_name": "Illyrians",
+          "winner_name": "MAYBE"
         },
         {
-          "event_id": "hltv:9433",
+          "event_id": "hltv:cct-2026-challengers-europe-series-7",
           "event_name": "CCT 2026 Challengers Europe Series 7",
           "hltv_match_id": "2398837",
           "match_id": "hltv:2398837",
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398837/privateer-vs-eternal-premium-cct-2026-challengers-europe-series-7",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-29T11:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-09-29T11:18:46Z",
+          "status": "finished",
           "team1_name": "Privateer",
-          "team2_name": "eternal premium"
+          "team2_name": "eternal premium",
+          "winner_name": "eternal premium"
         },
         {
           "event_id": "hltv:9433",
@@ -19385,9 +19406,247 @@
           "source_url": "https://www.hltv.org/matches/2398838/spirit-academy-vs-phantom-academy-cct-2026-challengers-europe-series-7",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-29T13:45:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "Spirit Academy",
           "team2_name": "Phantom Academy"
+        },
+        {
+          "event_id": "hltv:cct-2026-challengers-europe-series-7",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2398839",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "23773",
+                "nickname": "Wign",
+                "player_id": "hltv:23773",
+                "source_url": "https://www.hltv.org/player/23773/wign",
+                "team_name": "benched gods"
+              },
+              {
+                "hltv_player_id": "26059",
+                "nickname": "norescue",
+                "player_id": "hltv:26059",
+                "source_url": "https://www.hltv.org/player/26059/norescue",
+                "team_name": "benched gods"
+              },
+              {
+                "hltv_player_id": "24840",
+                "nickname": "K014NZ",
+                "player_id": "hltv:24840",
+                "source_url": "https://www.hltv.org/player/24840/k014nz",
+                "team_name": "benched gods"
+              },
+              {
+                "hltv_player_id": "26646",
+                "nickname": "yoyoS2",
+                "player_id": "hltv:26646",
+                "source_url": "https://www.hltv.org/player/26646/yoyos2",
+                "team_name": "benched gods"
+              },
+              {
+                "hltv_player_id": "24885",
+                "nickname": "facer",
+                "player_id": "hltv:24885",
+                "source_url": "https://www.hltv.org/player/24885/facer",
+                "team_name": "benched gods"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "26060",
+                "nickname": "Maksilvl",
+                "player_id": "hltv:26060",
+                "source_url": "https://www.hltv.org/player/26060/maksilvl",
+                "team_name": "mellren"
+              },
+              {
+                "hltv_player_id": "13980",
+                "nickname": "lollipop21k",
+                "player_id": "hltv:13980",
+                "source_url": "https://www.hltv.org/player/13980/lollipop21k",
+                "team_name": "mellren"
+              },
+              {
+                "hltv_player_id": "26058",
+                "nickname": "shootic",
+                "player_id": "hltv:26058",
+                "source_url": "https://www.hltv.org/player/26058/shootic",
+                "team_name": "mellren"
+              },
+              {
+                "hltv_player_id": "25495",
+                "nickname": "menddel",
+                "player_id": "hltv:25495",
+                "source_url": "https://www.hltv.org/player/25495/menddel",
+                "team_name": "mellren"
+              },
+              {
+                "hltv_player_id": "25735",
+                "nickname": "mdl",
+                "player_id": "hltv:25735",
+                "source_url": "https://www.hltv.org/player/25735/mdl",
+                "team_name": "mellren"
+              }
+            ]
+          },
+          "map_results": [
+            {
+              "map_name": "Anubis",
+              "score1": 19,
+              "score2": 15,
+              "status": "finished"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": 7,
+              "score2": 5,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Anubis",
+            "Mirage",
+            "Ancient"
+          ],
+          "match_id": "hltv:2398839",
+          "player_stats": [
+            {
+              "adr": 134,
+              "deaths": 25,
+              "hltv_player_id": "23773",
+              "kast": 73.5,
+              "kills": 46,
+              "nickname": "Wign",
+              "player_id": "hltv:23773",
+              "rating": 2.01,
+              "source_url": "https://www.hltv.org/player/23773/wign",
+              "team_side": 1
+            },
+            {
+              "adr": 82.1,
+              "deaths": 19,
+              "hltv_player_id": "26059",
+              "kast": 79.4,
+              "kills": 27,
+              "nickname": "norescue",
+              "player_id": "hltv:26059",
+              "rating": 1.3,
+              "source_url": "https://www.hltv.org/player/26059/norescue",
+              "team_side": 1
+            },
+            {
+              "adr": 62.8,
+              "deaths": 20,
+              "hltv_player_id": "24840",
+              "kast": 79.4,
+              "kills": 21,
+              "nickname": "K014NZ",
+              "player_id": "hltv:24840",
+              "rating": 1.04,
+              "source_url": "https://www.hltv.org/player/24840/k014nz",
+              "team_side": 1
+            },
+            {
+              "adr": 60.4,
+              "deaths": 24,
+              "hltv_player_id": "26646",
+              "kast": 61.8,
+              "kills": 21,
+              "nickname": "yoyoS2",
+              "player_id": "hltv:26646",
+              "rating": 0.77,
+              "source_url": "https://www.hltv.org/player/26646/yoyos2",
+              "team_side": 1
+            },
+            {
+              "adr": 61.3,
+              "deaths": 24,
+              "hltv_player_id": "24885",
+              "kast": 79.4,
+              "kills": 11,
+              "nickname": "facer",
+              "player_id": "hltv:24885",
+              "rating": 0.77,
+              "source_url": "https://www.hltv.org/player/24885/facer",
+              "team_side": 1
+            },
+            {
+              "adr": 99.7,
+              "deaths": 22,
+              "hltv_player_id": "26060",
+              "kast": 73.5,
+              "kills": 34,
+              "nickname": "Maksilvl",
+              "player_id": "hltv:26060",
+              "rating": 1.74,
+              "source_url": "https://www.hltv.org/player/26060/maksilvl",
+              "team_side": 2
+            },
+            {
+              "adr": 111.5,
+              "deaths": 25,
+              "hltv_player_id": "13980",
+              "kast": 73.5,
+              "kills": 33,
+              "nickname": "lollipop21k",
+              "player_id": "hltv:13980",
+              "rating": 1.41,
+              "source_url": "https://www.hltv.org/player/13980/lollipop21k",
+              "team_side": 2
+            },
+            {
+              "adr": 58.3,
+              "deaths": 28,
+              "hltv_player_id": "26058",
+              "kast": 61.8,
+              "kills": 18,
+              "nickname": "shootic",
+              "player_id": "hltv:26058",
+              "rating": 0.72,
+              "source_url": "https://www.hltv.org/player/26058/shootic",
+              "team_side": 2
+            },
+            {
+              "adr": 53.9,
+              "deaths": 29,
+              "hltv_player_id": "25495",
+              "kast": 64.7,
+              "kills": 15,
+              "nickname": "menddel",
+              "player_id": "hltv:25495",
+              "rating": 0.64,
+              "source_url": "https://www.hltv.org/player/25495/menddel",
+              "team_side": 2
+            },
+            {
+              "adr": 34.6,
+              "deaths": 22,
+              "hltv_player_id": "25735",
+              "kast": 55.9,
+              "kills": 11,
+              "nickname": "mdl",
+              "player_id": "hltv:25735",
+              "rating": 0.57,
+              "source_url": "https://www.hltv.org/player/25735/mdl",
+              "team_side": 2
+            }
+          ],
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398839/benched-gods-vs-mellren-cct-2026-challengers-europe-series-7",
+          "stage_name": "Scheduled series",
+          "status": "live",
+          "team1_name": "benched gods",
+          "team2_name": "mellren",
+          "veto_text": "Best of 3 (Online)\n\n* Upper bracket quarter-final"
         }
       ],
       "name": "CCT 2026 Challengers Europe Series 7",
@@ -19527,14 +19786,17 @@
           ],
           "match_id": "hltv:2398370",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398370/lavked-vs-azuolas-cct-2026-europe-series-10",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-29T08:00:00Z",
-          "status": "live",
+          "starts_at": "2026-09-29T09:34:38Z",
+          "status": "finished",
           "team1_name": "Lavked",
           "team2_name": "Azuolas",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+          "winner_name": "Lavked"
         },
         {
           "event_id": "hltv:9420",
@@ -19546,7 +19808,7 @@
           "source_url": "https://www.hltv.org/matches/2398371/masonic-vs-enjoy-cct-2026-europe-series-10",
           "stage_name": "Scheduled series",
           "starts_at": "2026-09-29T11:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "MASONIC",
           "team2_name": "Enjoy"
         },
@@ -19559,7 +19821,7 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398372/ex-rustec-vs-nexus-cct-2026-europe-series-10",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-09-29T14:00:00Z",
+          "starts_at": "2026-09-29T15:45:00Z",
           "status": "upcoming",
           "team1_name": "ex-RUSTEC",
           "team2_name": "Nexus"
@@ -19603,7 +19865,7 @@
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-09-29T08:34:44Z",
+  "last_verified_utc": "2026-09-29T15:51:33Z",
   "sources": [
     {
       "name": "HLTV events calendar",

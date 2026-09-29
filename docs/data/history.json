@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-29T08:34:44Z",
+  "generated_at_utc": "2026-09-29T15:51:33Z",
   "through_date": "2026-09-29",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3346,
+    "matches": 3350,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -22,6 +22,94 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "Marsborne",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398370",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Lavked",
+      "team2_name": "Azuolas",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Lavked",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398643",
+      "match_date": "2026-09-29",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 2",
+      "team1_name": "FlyQuest",
+      "team2_name": "THUNDER dOWNUNDER",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FlyQuest",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398837",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "Privateer",
+      "team2_name": "eternal premium",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "eternal premium",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398836",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "MAYBE",
+      "team2_name": "Illyrians",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "MAYBE",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
