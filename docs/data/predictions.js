@@ -3,25 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:cct-2026-challengers-south-america-series-3",
-        "event_name": "CCT 2026 Challengers South America Series 3",
-        "event_url": null,
-        "hltv_match_id": "2398339",
-        "maps": [],
-        "match_id": "hltv:2398339",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398339/meia-noite-vs-quintessncia-cct-2026-challengers-south-america-series-3",
-        "stage_name": "Completed series",
-        "starts_at": null,
-        "status": "finished",
-        "team1_name": "MEIA NOITE",
-        "team2_name": "QUINTESS\u00caNCIA",
-        "winner_name": "QUINTESS\u00caNCIA"
-      },
-      {
         "event_id": "hltv:cct-2026-europe-series-9",
         "event_name": "CCT 2026 Europe Series 9",
         "event_url": null,
@@ -6757,14 +6738,17 @@ window.__STRIKESIGNAL_DATA__ = {
           }
         ],
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398575/sementes-do-mal-vs-damajuana-cct-2026-south-america-series-6",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-09-28T19:00:00Z",
-        "status": "live",
+        "starts_at": "2026-09-28T22:00:03Z",
+        "status": "finished",
         "team1_name": "Sementes do Mal",
         "team2_name": "DAMAJUANA",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated.",
+        "winner_name": "Sementes do Mal"
       },
       {
         "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-2",
@@ -6802,28 +6786,256 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "match_id": "hltv:2398518",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398518/turma-do-pagode-vs-galorys-esl-challenger-league-season-52-south-america-cup-2",
         "stage_name": "Playoffs",
-        "starts_at": "2026-09-28T21:00:00Z",
-        "status": "live",
+        "starts_at": "2026-09-28T22:59:23Z",
+        "status": "finished",
         "team1_name": "Turma do Pagode",
         "team2_name": "Galorys",
-        "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+        "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
+        "winner_name": "Turma do Pagode"
       },
       {
-        "event_id": "hltv:9356",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
         "event_name": "ESL Challenger League Season 52 North America Cup 2",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398548",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "22789",
+              "nickname": "z0mb1e",
+              "player_id": "hltv:22789",
+              "source_url": "https://www.hltv.org/player/22789/z0mb1e",
+              "team_name": "regain"
+            },
+            {
+              "hltv_player_id": "24667",
+              "nickname": "fuzenko",
+              "player_id": "hltv:24667",
+              "source_url": "https://www.hltv.org/player/24667/fuzenko",
+              "team_name": "regain"
+            },
+            {
+              "hltv_player_id": "23136",
+              "nickname": "Zucar",
+              "player_id": "hltv:23136",
+              "source_url": "https://www.hltv.org/player/23136/zucar",
+              "team_name": "regain"
+            },
+            {
+              "hltv_player_id": "19707",
+              "nickname": "grape",
+              "player_id": "hltv:19707",
+              "source_url": "https://www.hltv.org/player/19707/grape",
+              "team_name": "regain"
+            },
+            {
+              "hltv_player_id": "23138",
+              "nickname": "sasha",
+              "player_id": "hltv:23138",
+              "source_url": "https://www.hltv.org/player/23138/sasha",
+              "team_name": "regain"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "22069",
+              "nickname": "Grizz",
+              "player_id": "hltv:22069",
+              "source_url": "https://www.hltv.org/player/22069/grizz",
+              "team_name": "Marsborne"
+            },
+            {
+              "hltv_player_id": "21620",
+              "nickname": "nicx",
+              "player_id": "hltv:21620",
+              "source_url": "https://www.hltv.org/player/21620/nicx",
+              "team_name": "Marsborne"
+            },
+            {
+              "hltv_player_id": "22967",
+              "nickname": "ogwizard",
+              "player_id": "hltv:22967",
+              "source_url": "https://www.hltv.org/player/22967/ogwizard",
+              "team_name": "Marsborne"
+            },
+            {
+              "hltv_player_id": "18706",
+              "nickname": "freshie",
+              "player_id": "hltv:18706",
+              "source_url": "https://www.hltv.org/player/18706/freshie",
+              "team_name": "Marsborne"
+            },
+            {
+              "hltv_player_id": "25524",
+              "nickname": "WUMBO",
+              "player_id": "hltv:25524",
+              "source_url": "https://www.hltv.org/player/25524/wumbo",
+              "team_name": "Marsborne"
+            }
+          ]
+        },
+        "map_results": [
+          {
+            "map_name": "Inferno",
+            "score1": 3,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Inferno",
+          "Anubis",
+          "Ancient"
+        ],
         "match_id": "hltv:2398548",
+        "player_stats": [
+          {
+            "adr": 102.1,
+            "deaths": 13,
+            "hltv_player_id": "22789",
+            "kast": 68.8,
+            "kills": 17,
+            "nickname": "z0mb1e",
+            "player_id": "hltv:22789",
+            "rating": 1.49,
+            "source_url": "https://www.hltv.org/player/22789/z0mb1e",
+            "team_side": 1
+          },
+          {
+            "adr": 55.2,
+            "deaths": 14,
+            "hltv_player_id": "24667",
+            "kast": 56.2,
+            "kills": 5,
+            "nickname": "fuzenko",
+            "player_id": "hltv:24667",
+            "rating": 0.67,
+            "source_url": "https://www.hltv.org/player/24667/fuzenko",
+            "team_side": 1
+          },
+          {
+            "adr": 64.1,
+            "deaths": 15,
+            "hltv_player_id": "23136",
+            "kast": 75,
+            "kills": 6,
+            "nickname": "Zucar",
+            "player_id": "hltv:23136",
+            "rating": 0.59,
+            "source_url": "https://www.hltv.org/player/23136/zucar",
+            "team_side": 1
+          },
+          {
+            "adr": 55.2,
+            "deaths": 14,
+            "hltv_player_id": "19707",
+            "kast": 62.5,
+            "kills": 8,
+            "nickname": "grape",
+            "player_id": "hltv:19707",
+            "rating": 0.59,
+            "source_url": "https://www.hltv.org/player/19707/grape",
+            "team_side": 1
+          },
+          {
+            "adr": 26.1,
+            "deaths": 15,
+            "hltv_player_id": "23138",
+            "kast": 62.5,
+            "kills": 4,
+            "nickname": "sasha",
+            "player_id": "hltv:23138",
+            "rating": 0.47,
+            "source_url": "https://www.hltv.org/player/23138/sasha",
+            "team_side": 1
+          },
+          {
+            "adr": 125.6,
+            "deaths": 8,
+            "hltv_player_id": "22069",
+            "kast": 87.5,
+            "kills": 18,
+            "nickname": "Grizz",
+            "player_id": "hltv:22069",
+            "rating": 1.95,
+            "source_url": "https://www.hltv.org/player/22069/grizz",
+            "team_side": 2
+          },
+          {
+            "adr": 85.5,
+            "deaths": 7,
+            "hltv_player_id": "21620",
+            "kast": 93.8,
+            "kills": 14,
+            "nickname": "nicx",
+            "player_id": "hltv:21620",
+            "rating": 1.66,
+            "source_url": "https://www.hltv.org/player/21620/nicx",
+            "team_side": 2
+          },
+          {
+            "adr": 93.8,
+            "deaths": 7,
+            "hltv_player_id": "22967",
+            "kast": 100,
+            "kills": 15,
+            "nickname": "ogwizard",
+            "player_id": "hltv:22967",
+            "rating": 1.53,
+            "source_url": "https://www.hltv.org/player/22967/ogwizard",
+            "team_side": 2
+          },
+          {
+            "adr": 74.8,
+            "deaths": 9,
+            "hltv_player_id": "18706",
+            "kast": 93.8,
+            "kills": 12,
+            "nickname": "freshie",
+            "player_id": "hltv:18706",
+            "rating": 1.27,
+            "source_url": "https://www.hltv.org/player/18706/freshie",
+            "team_side": 2
+          },
+          {
+            "adr": 63,
+            "deaths": 9,
+            "hltv_player_id": "25524",
+            "kast": 87.5,
+            "kills": 10,
+            "nickname": "WUMBO",
+            "player_id": "hltv:25524",
+            "rating": 1.14,
+            "source_url": "https://www.hltv.org/player/25524/wumbo",
+            "team_side": 2
+          }
+        ],
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
         "stage_name": "Playoffs",
         "starts_at": "2026-09-29T01:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "regain",
-        "team2_name": "Marsborne"
+        "team2_name": "Marsborne",
+        "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
       },
       {
         "event_id": "hltv:9420",
@@ -6978,6 +7190,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "Gr\u00eamio",
         "team2_name": "Procyon"
+      },
+      {
+        "event_id": "hltv:9355",
+        "event_name": "ESL Challenger League Season 52 South America Cup 2",
+        "hltv_match_id": "2398519",
+        "match_id": "hltv:2398519",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398519/procyon-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-2",
+        "stage_name": "Grand Final",
+        "starts_at": "2026-09-29T21:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Procyon",
+        "team2_name": "Turma do Pagode"
       },
       {
         "event_id": "hltv:9425",
@@ -14119,21 +14345,52 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       },
       {
-        "bracket": null,
-        "current_stage": "Playoffs",
+        "bracket": {
+          "rounds": [
+            {
+              "bracket": "main",
+              "id": "main:grand-final",
+              "matches": [
+                {
+                  "event_id": "hltv:9355",
+                  "event_name": "ESL Challenger League Season 52 South America Cup 2",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2398519",
+                  "maps": [],
+                  "match_id": "hltv:2398519",
+                  "product_tier": "tier_2",
+                  "round_name": "Grand Final",
+                  "series_format": "bo3",
+                  "slot_id": "main:grand-final:1",
+                  "source_url": "https://www.hltv.org/matches/2398519/procyon-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-2",
+                  "stage_name": "Grand Final",
+                  "starts_at": "2026-09-29T21:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "Procyon",
+                  "team2_name": "Turma do Pagode"
+                }
+              ],
+              "name": "Grand Final",
+              "order": 1
+            }
+          ],
+          "type": "single_elimination"
+        },
+        "current_stage": "Grand Final",
         "format": {
-          "label": "Playoffs",
+          "label": "Grand Final",
           "settings": {},
           "stages": [
             {
-              "id": "playoffs",
-              "name": "Playoffs",
+              "id": "grand-final",
+              "name": "Grand Final",
               "order": 1,
               "status": "pending",
               "type": "single_elimination"
             }
           ],
-          "type": "mixed"
+          "type": "single_elimination"
         },
         "id": "hltv:9355",
         "matches": [
@@ -15543,14 +15800,31 @@ window.__STRIKESIGNAL_DATA__ = {
             ],
             "match_id": "hltv:2398518",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398518/turma-do-pagode-vs-galorys-esl-challenger-league-season-52-south-america-cup-2",
             "stage_name": "Playoffs",
-            "starts_at": "2026-09-28T21:00:00Z",
-            "status": "live",
+            "starts_at": "2026-09-28T22:59:23Z",
+            "status": "finished",
             "team1_name": "Turma do Pagode",
             "team2_name": "Galorys",
-            "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+            "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
+            "winner_name": "Turma do Pagode"
+          },
+          {
+            "event_id": "hltv:9355",
+            "event_name": "ESL Challenger League Season 52 South America Cup 2",
+            "hltv_match_id": "2398519",
+            "match_id": "hltv:2398519",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398519/procyon-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-2",
+            "stage_name": "Grand Final",
+            "starts_at": "2026-09-29T21:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Procyon",
+            "team2_name": "Turma do Pagode"
           }
         ],
         "name": "ESL Challenger League Season 52 South America Cup 2",
@@ -15810,18 +16084,243 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Marsborne"
           },
           {
-            "event_id": "hltv:9356",
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
             "event_name": "ESL Challenger League Season 52 North America Cup 2",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398548",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "22789",
+                  "nickname": "z0mb1e",
+                  "player_id": "hltv:22789",
+                  "source_url": "https://www.hltv.org/player/22789/z0mb1e",
+                  "team_name": "regain"
+                },
+                {
+                  "hltv_player_id": "24667",
+                  "nickname": "fuzenko",
+                  "player_id": "hltv:24667",
+                  "source_url": "https://www.hltv.org/player/24667/fuzenko",
+                  "team_name": "regain"
+                },
+                {
+                  "hltv_player_id": "23136",
+                  "nickname": "Zucar",
+                  "player_id": "hltv:23136",
+                  "source_url": "https://www.hltv.org/player/23136/zucar",
+                  "team_name": "regain"
+                },
+                {
+                  "hltv_player_id": "19707",
+                  "nickname": "grape",
+                  "player_id": "hltv:19707",
+                  "source_url": "https://www.hltv.org/player/19707/grape",
+                  "team_name": "regain"
+                },
+                {
+                  "hltv_player_id": "23138",
+                  "nickname": "sasha",
+                  "player_id": "hltv:23138",
+                  "source_url": "https://www.hltv.org/player/23138/sasha",
+                  "team_name": "regain"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "22069",
+                  "nickname": "Grizz",
+                  "player_id": "hltv:22069",
+                  "source_url": "https://www.hltv.org/player/22069/grizz",
+                  "team_name": "Marsborne"
+                },
+                {
+                  "hltv_player_id": "21620",
+                  "nickname": "nicx",
+                  "player_id": "hltv:21620",
+                  "source_url": "https://www.hltv.org/player/21620/nicx",
+                  "team_name": "Marsborne"
+                },
+                {
+                  "hltv_player_id": "22967",
+                  "nickname": "ogwizard",
+                  "player_id": "hltv:22967",
+                  "source_url": "https://www.hltv.org/player/22967/ogwizard",
+                  "team_name": "Marsborne"
+                },
+                {
+                  "hltv_player_id": "18706",
+                  "nickname": "freshie",
+                  "player_id": "hltv:18706",
+                  "source_url": "https://www.hltv.org/player/18706/freshie",
+                  "team_name": "Marsborne"
+                },
+                {
+                  "hltv_player_id": "25524",
+                  "nickname": "WUMBO",
+                  "player_id": "hltv:25524",
+                  "source_url": "https://www.hltv.org/player/25524/wumbo",
+                  "team_name": "Marsborne"
+                }
+              ]
+            },
+            "map_results": [
+              {
+                "map_name": "Inferno",
+                "score1": 3,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Inferno",
+              "Anubis",
+              "Ancient"
+            ],
             "match_id": "hltv:2398548",
+            "player_stats": [
+              {
+                "adr": 102.1,
+                "deaths": 13,
+                "hltv_player_id": "22789",
+                "kast": 68.8,
+                "kills": 17,
+                "nickname": "z0mb1e",
+                "player_id": "hltv:22789",
+                "rating": 1.49,
+                "source_url": "https://www.hltv.org/player/22789/z0mb1e",
+                "team_side": 1
+              },
+              {
+                "adr": 55.2,
+                "deaths": 14,
+                "hltv_player_id": "24667",
+                "kast": 56.2,
+                "kills": 5,
+                "nickname": "fuzenko",
+                "player_id": "hltv:24667",
+                "rating": 0.67,
+                "source_url": "https://www.hltv.org/player/24667/fuzenko",
+                "team_side": 1
+              },
+              {
+                "adr": 64.1,
+                "deaths": 15,
+                "hltv_player_id": "23136",
+                "kast": 75,
+                "kills": 6,
+                "nickname": "Zucar",
+                "player_id": "hltv:23136",
+                "rating": 0.59,
+                "source_url": "https://www.hltv.org/player/23136/zucar",
+                "team_side": 1
+              },
+              {
+                "adr": 55.2,
+                "deaths": 14,
+                "hltv_player_id": "19707",
+                "kast": 62.5,
+                "kills": 8,
+                "nickname": "grape",
+                "player_id": "hltv:19707",
+                "rating": 0.59,
+                "source_url": "https://www.hltv.org/player/19707/grape",
+                "team_side": 1
+              },
+              {
+                "adr": 26.1,
+                "deaths": 15,
+                "hltv_player_id": "23138",
+                "kast": 62.5,
+                "kills": 4,
+                "nickname": "sasha",
+                "player_id": "hltv:23138",
+                "rating": 0.47,
+                "source_url": "https://www.hltv.org/player/23138/sasha",
+                "team_side": 1
+              },
+              {
+                "adr": 125.6,
+                "deaths": 8,
+                "hltv_player_id": "22069",
+                "kast": 87.5,
+                "kills": 18,
+                "nickname": "Grizz",
+                "player_id": "hltv:22069",
+                "rating": 1.95,
+                "source_url": "https://www.hltv.org/player/22069/grizz",
+                "team_side": 2
+              },
+              {
+                "adr": 85.5,
+                "deaths": 7,
+                "hltv_player_id": "21620",
+                "kast": 93.8,
+                "kills": 14,
+                "nickname": "nicx",
+                "player_id": "hltv:21620",
+                "rating": 1.66,
+                "source_url": "https://www.hltv.org/player/21620/nicx",
+                "team_side": 2
+              },
+              {
+                "adr": 93.8,
+                "deaths": 7,
+                "hltv_player_id": "22967",
+                "kast": 100,
+                "kills": 15,
+                "nickname": "ogwizard",
+                "player_id": "hltv:22967",
+                "rating": 1.53,
+                "source_url": "https://www.hltv.org/player/22967/ogwizard",
+                "team_side": 2
+              },
+              {
+                "adr": 74.8,
+                "deaths": 9,
+                "hltv_player_id": "18706",
+                "kast": 93.8,
+                "kills": 12,
+                "nickname": "freshie",
+                "player_id": "hltv:18706",
+                "rating": 1.27,
+                "source_url": "https://www.hltv.org/player/18706/freshie",
+                "team_side": 2
+              },
+              {
+                "adr": 63,
+                "deaths": 9,
+                "hltv_player_id": "25524",
+                "kast": 87.5,
+                "kills": 10,
+                "nickname": "WUMBO",
+                "player_id": "hltv:25524",
+                "rating": 1.14,
+                "source_url": "https://www.hltv.org/player/25524/wumbo",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
             "stage_name": "Playoffs",
             "starts_at": "2026-09-29T01:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "regain",
-            "team2_name": "Marsborne"
+            "team2_name": "Marsborne",
+            "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
           }
         ],
         "name": "ESL Challenger League Season 52 North America Cup 2",
@@ -15844,7 +16343,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "Marsborne"
         ],
         "product_tier": "tier_2",
-        "status": "finished",
+        "status": "ongoing",
         "teams": 16
       },
       {
@@ -16679,14 +17178,17 @@ window.__STRIKESIGNAL_DATA__ = {
               }
             ],
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398575/sementes-do-mal-vs-damajuana-cct-2026-south-america-series-6",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-09-28T19:00:00Z",
-            "status": "live",
+            "starts_at": "2026-09-28T22:00:03Z",
+            "status": "finished",
             "team1_name": "Sementes do Mal",
             "team2_name": "DAMAJUANA",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated.",
+            "winner_name": "Sementes do Mal"
           },
           {
             "event_id": "hltv:9425",
@@ -18999,7 +19501,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-09-28T22:02:05Z",
+    "last_verified_utc": "2026-09-29T01:51:53Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -19437,7 +19939,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-28T22:06:56Z",
+  "generated_at_utc": "2026-09-29T02:02:16Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -20813,12 +21315,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.634518,
-        "brier": 0.221208,
-        "ece": 0.013602,
-        "log_loss": 0.631211
+        "accuracy": 0.634064,
+        "brier": 0.22127,
+        "ece": 0.014826,
+        "log_loss": 0.631346
       },
-      "rows": 885,
+      "rows": 887,
       "slices": [
         {
           "dimension": "tier",
@@ -20839,12 +21341,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.605634,
-            "brier": 0.240236,
-            "ece": 0.057648,
-            "log_loss": 0.67349
+            "accuracy": 0.604167,
+            "brier": 0.240227,
+            "ece": 0.058075,
+            "log_loss": 0.67346
           },
-          "rows": 142
+          "rows": 144
         },
         {
           "dimension": "series_format",
@@ -20865,12 +21367,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.629938,
-            "brier": 0.220614,
-            "ece": 0.027254,
-            "log_loss": 0.629477
+            "accuracy": 0.6294,
+            "brier": 0.220692,
+            "ece": 0.027507,
+            "log_loss": 0.62965
           },
-          "rows": 481
+          "rows": 483
         },
         {
           "dimension": "series_format",
@@ -20886,7 +21388,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "test_rows": 591
+      "test_rows": 593
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -20900,13 +21402,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.641286,
-        "brier": 0.22307,
-        "ece": 0.048042,
-        "log_loss": 0.636197
+        "accuracy": 0.640809,
+        "brier": 0.223184,
+        "ece": 0.047717,
+        "log_loss": 0.636437
       },
       "promotion_passed": false,
-      "rows": 591,
+      "rows": 593,
       "slices": [
         {
           "dimension": "tier",
@@ -20927,12 +21429,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.619718,
-            "brier": 0.242081,
-            "ece": 0.086494,
-            "log_loss": 0.677251
+            "accuracy": 0.618056,
+            "brier": 0.242288,
+            "ece": 0.08462,
+            "log_loss": 0.677668
           },
-          "rows": 142
+          "rows": 144
         },
         {
           "dimension": "series_format",
@@ -20953,12 +21455,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.638254,
-            "brier": 0.222428,
-            "ece": 0.047298,
-            "log_loss": 0.634743
+            "accuracy": 0.637681,
+            "brier": 0.222572,
+            "ece": 0.049191,
+            "log_loss": 0.635044
           },
-          "rows": 481
+          "rows": 483
         },
         {
           "dimension": "series_format",
@@ -20994,7 +21496,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-28T22:06:56Z",
+    "generated_at_utc": "2026-09-29T02:02:15Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -21017,12 +21519,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.605634,
-            "brier": 0.240236,
-            "ece": 0.057648,
-            "log_loss": 0.67349
+            "accuracy": 0.604167,
+            "brier": 0.240227,
+            "ece": 0.058075,
+            "log_loss": 0.67346
           },
-          "rows": 142
+          "rows": 144
         },
         {
           "dimension": "series_format",
@@ -21043,12 +21545,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.629938,
-            "brier": 0.220614,
-            "ece": 0.027254,
-            "log_loss": 0.629477
+            "accuracy": 0.6294,
+            "brier": 0.220692,
+            "ece": 0.027507,
+            "log_loss": 0.62965
           },
-          "rows": 481
+          "rows": 483
         },
         {
           "dimension": "series_format",
@@ -21076,7 +21578,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 142
+            "rows": 144
           },
           {
             "eligible": true,
@@ -21088,7 +21590,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 481
+            "rows": 483
           },
           {
             "eligible": false,
@@ -21119,12 +21621,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.619718,
-            "brier": 0.237332,
-            "ece": 0.053269,
-            "log_loss": 0.66752
+            "accuracy": 0.618056,
+            "brier": 0.237769,
+            "ece": 0.051185,
+            "log_loss": 0.668413
           },
-          "rows": 142
+          "rows": 144
         },
         {
           "dimension": "series_format",
@@ -21145,12 +21647,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.638254,
-            "brier": 0.221335,
-            "ece": 0.046389,
-            "log_loss": 0.632505
+            "accuracy": 0.637681,
+            "brier": 0.221531,
+            "ece": 0.045796,
+            "log_loss": 0.632916
           },
-          "rows": 481
+          "rows": 483
         },
         {
           "dimension": "series_format",
@@ -21167,10 +21669,10 @@ window.__STRIKESIGNAL_DATA__ = {
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.634518,
-        "brier": 0.221856,
-        "ece": 0.024411,
-        "log_loss": 0.63252
+        "accuracy": 0.634064,
+        "brier": 0.221927,
+        "ece": 0.025984,
+        "log_loss": 0.632675
       },
       "champion_slices": [
         {
@@ -21192,12 +21694,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.605634,
-            "brier": 0.242933,
-            "ece": 0.069022,
-            "log_loss": 0.678941
+            "accuracy": 0.604167,
+            "brier": 0.24293,
+            "ece": 0.06788,
+            "log_loss": 0.678935
           },
-          "rows": 142
+          "rows": 144
         },
         {
           "dimension": "series_format",
@@ -21218,12 +21720,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.629938,
-            "brier": 0.221075,
-            "ece": 0.038556,
-            "log_loss": 0.630379
+            "accuracy": 0.6294,
+            "brier": 0.221164,
+            "ece": 0.040429,
+            "log_loss": 0.630578
           },
-          "rows": 481
+          "rows": 483
         },
         {
           "dimension": "series_format",
@@ -21239,37 +21741,37 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "champion_test_rows": 591,
+      "champion_test_rows": 593,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.605634,
-          "brier": 0.242044,
-          "ece": 0.073083,
-          "log_loss": 0.677129
+          "accuracy": 0.604167,
+          "brier": 0.24204,
+          "ece": 0.076015,
+          "log_loss": 0.67712
         },
         "before": {
-          "accuracy": 0.605634,
-          "brier": 0.242933,
-          "ece": 0.069022,
-          "log_loss": 0.678941
+          "accuracy": 0.604167,
+          "brier": 0.24293,
+          "ece": 0.06788,
+          "log_loss": 0.678935
         },
         "candidate_shrink": 0.6,
         "overall_after": {
-          "accuracy": 0.634518,
-          "brier": 0.221643,
-          "ece": 0.024047,
-          "log_loss": 0.632085
+          "accuracy": 0.634064,
+          "brier": 0.22171,
+          "ece": 0.025615,
+          "log_loss": 0.632235
         },
         "overall_before": {
-          "accuracy": 0.634518,
-          "brier": 0.221856,
-          "ece": 0.024411,
-          "log_loss": 0.63252
+          "accuracy": 0.634064,
+          "brier": 0.221927,
+          "ece": 0.025984,
+          "log_loss": 0.632675
         },
         "passed": false,
-        "rows": 142,
+        "rows": 144,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -21288,8 +21790,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 5,
-      "online_rows": 128,
+      "new_rows": 2,
+      "online_rows": 130,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -21468,9 +21970,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2398488",
       "hltv:2398834",
       "hltv:2398574",
-      "hltv:2398369"
+      "hltv:2398369",
+      "hltv:2398575",
+      "hltv:2398518"
     ],
-    "last_online_update_utc": "2026-09-28T22:06:56Z",
+    "last_online_update_utc": "2026-09-29T02:02:16Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -24387,10 +24891,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 68
       },
       {
-        "elo": 1523.91,
-        "last_result_utc": "2026-09-27T23:16:36Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.6653,
+        "elo": 1534.5,
+        "last_result_utc": "2026-09-28T22:59:23Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.7262,
         "team_key": "turma do pagode",
         "team_name": "Turma do Pagode",
         "vrs_points": 1170,
@@ -24481,10 +24985,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 79
       },
       {
-        "elo": 1444.85,
-        "last_result_utc": "2026-09-27T23:48:56Z",
-        "matches": 36,
-        "recent_win_rate_10": 0.4909,
+        "elo": 1434.26,
+        "last_result_utc": "2026-09-28T22:59:23Z",
+        "matches": 37,
+        "recent_win_rate_10": 0.4016,
         "team_key": "galorys",
         "team_name": "Galorys",
         "vrs_points": 1120,
@@ -26509,10 +27013,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 325
       },
       {
-        "elo": 1487.19,
-        "last_result_utc": "2026-09-22T17:54:16Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.4091,
+        "elo": 1474.38,
+        "last_result_utc": "2026-09-28T22:00:03Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.3347,
         "team_key": "damajuana",
         "team_name": "DAMAJUANA",
         "vrs_points": 512,
@@ -27833,10 +28337,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1473.42,
-        "last_result_utc": "2026-09-27T14:57:28Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.3347,
+        "elo": 1486.23,
+        "last_result_utc": "2026-09-28T22:00:03Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.4557,
         "team_key": "sementes do mal",
         "team_name": "Sementes do Mal",
         "vrs_points": 0,
@@ -30956,43 +31460,6 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5366,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4634,
-      "event_id": "hltv:9356",
-      "event_name": "ESL Challenger League Season 52 North America Cup 2",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-29",
-      "match_id": "hltv:2398548",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790643600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Marsborne",
-      "prob_team1": 0.4634,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-09-29T01:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "regain",
-      "team1_vrs_rank": 162,
-      "team2_hltv_rank": null,
-      "team2_name": "Marsborne",
-      "team2_vrs_rank": 115
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5036,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -31400,6 +31867,43 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5925,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4075,
+      "event_id": "hltv:9355",
+      "event_name": "ESL Challenger League Season 52 South America Cup 2",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-29",
+      "match_id": "hltv:2398519",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790715600,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Turma do Pagode",
+      "prob_team1": 0.4075,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398519/procyon-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-2",
+      "stage_name": "Grand Final",
+      "starts_at": "2026-09-29T21:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Procyon",
+      "team1_vrs_rank": 199,
+      "team2_hltv_rank": null,
+      "team2_name": "Turma do Pagode",
+      "team2_vrs_rank": 69
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5111,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -31437,206 +31941,143 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5756,
+      "confidence": 0.5366,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5756,
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-2",
-      "event_name": "ESL Challenger League Season 52 South America Cup 2",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Anubis",
-          "score1": 7,
-          "score2": 5,
-          "status": "finished"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Anubis",
-        "Ancient",
-        "Dust2"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2398518",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Turma do Pagode",
-      "prob_team1": 0.5756,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398518/turma-do-pagode-vs-galorys-esl-challenger-league-season-52-south-america-cup-2",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Turma do Pagode",
-      "team1_vrs_rank": 69,
-      "team2_hltv_rank": null,
-      "team2_name": "Galorys",
-      "team2_vrs_rank": 80
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5349,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4651,
-      "event_id": "hltv:cct-2026-south-america-series-6",
-      "event_name": "CCT 2026 South America Series 6",
+      "elo_prob_team1": 0.4634,
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
+      "event_name": "ESL Challenger League Season 52 North America Cup 2",
       "format": "bo3",
       "lineups": {
         "team1": [
           {
-            "hltv_player_id": "25826",
-            "nickname": "terran",
-            "player_id": "hltv:25826",
-            "source_url": "https://www.hltv.org/player/25826/terran",
-            "team_name": "Sementes do Mal"
+            "hltv_player_id": "22789",
+            "nickname": "z0mb1e",
+            "player_id": "hltv:22789",
+            "source_url": "https://www.hltv.org/player/22789/z0mb1e",
+            "team_name": "regain"
           },
           {
-            "hltv_player_id": "26827",
-            "nickname": "RaybamGod",
-            "player_id": "hltv:26827",
-            "source_url": "https://www.hltv.org/player/26827/raybamgod",
-            "team_name": "Sementes do Mal"
+            "hltv_player_id": "24667",
+            "nickname": "fuzenko",
+            "player_id": "hltv:24667",
+            "source_url": "https://www.hltv.org/player/24667/fuzenko",
+            "team_name": "regain"
           },
           {
-            "hltv_player_id": "20056",
-            "nickname": "coxa",
-            "player_id": "hltv:20056",
-            "source_url": "https://www.hltv.org/player/20056/coxa",
-            "team_name": "Sementes do Mal"
+            "hltv_player_id": "23136",
+            "nickname": "Zucar",
+            "player_id": "hltv:23136",
+            "source_url": "https://www.hltv.org/player/23136/zucar",
+            "team_name": "regain"
           },
           {
-            "hltv_player_id": "26411",
-            "nickname": "Aker",
-            "player_id": "hltv:26411",
-            "source_url": "https://www.hltv.org/player/26411/aker",
-            "team_name": "Sementes do Mal"
+            "hltv_player_id": "19707",
+            "nickname": "grape",
+            "player_id": "hltv:19707",
+            "source_url": "https://www.hltv.org/player/19707/grape",
+            "team_name": "regain"
           },
           {
-            "hltv_player_id": "26677",
-            "nickname": "Mrd",
-            "player_id": "hltv:26677",
-            "source_url": "https://www.hltv.org/player/26677/mrd",
-            "team_name": "Sementes do Mal"
+            "hltv_player_id": "23138",
+            "nickname": "sasha",
+            "player_id": "hltv:23138",
+            "source_url": "https://www.hltv.org/player/23138/sasha",
+            "team_name": "regain"
           }
         ],
         "team2": [
           {
-            "hltv_player_id": "25925",
-            "nickname": "leo",
-            "player_id": "hltv:25925",
-            "source_url": "https://www.hltv.org/player/25925/leo",
-            "team_name": "DAMAJUANA"
+            "hltv_player_id": "22069",
+            "nickname": "Grizz",
+            "player_id": "hltv:22069",
+            "source_url": "https://www.hltv.org/player/22069/grizz",
+            "team_name": "Marsborne"
           },
           {
-            "hltv_player_id": "25924",
-            "nickname": "R4N",
-            "player_id": "hltv:25924",
-            "source_url": "https://www.hltv.org/player/25924/r4n",
-            "team_name": "DAMAJUANA"
+            "hltv_player_id": "21620",
+            "nickname": "nicx",
+            "player_id": "hltv:21620",
+            "source_url": "https://www.hltv.org/player/21620/nicx",
+            "team_name": "Marsborne"
           },
           {
-            "hltv_player_id": "25928",
-            "nickname": "maik",
-            "player_id": "hltv:25928",
-            "source_url": "https://www.hltv.org/player/25928/maik",
-            "team_name": "DAMAJUANA"
+            "hltv_player_id": "22967",
+            "nickname": "ogwizard",
+            "player_id": "hltv:22967",
+            "source_url": "https://www.hltv.org/player/22967/ogwizard",
+            "team_name": "Marsborne"
           },
           {
-            "hltv_player_id": "25926",
-            "nickname": "Dunn",
-            "player_id": "hltv:25926",
-            "source_url": "https://www.hltv.org/player/25926/dunn",
-            "team_name": "DAMAJUANA"
+            "hltv_player_id": "18706",
+            "nickname": "freshie",
+            "player_id": "hltv:18706",
+            "source_url": "https://www.hltv.org/player/18706/freshie",
+            "team_name": "Marsborne"
           },
           {
-            "hltv_player_id": "25866",
-            "nickname": "Kiritox",
-            "player_id": "hltv:25866",
-            "source_url": "https://www.hltv.org/player/25866/kiritox",
-            "team_name": "DAMAJUANA"
+            "hltv_player_id": "25524",
+            "nickname": "WUMBO",
+            "player_id": "hltv:25524",
+            "source_url": "https://www.hltv.org/player/25524/wumbo",
+            "team_name": "Marsborne"
           }
         ]
       },
       "map_results": [
         {
-          "map_name": "Cache",
-          "score1": 10,
+          "map_name": "Inferno",
+          "score1": 3,
           "score2": 13,
           "status": "finished"
         },
         {
-          "map_name": "Inferno",
-          "score1": 13,
-          "score2": 11,
-          "status": "finished"
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
         },
         {
           "map_name": "Ancient",
-          "score1": 8,
-          "score2": 4,
-          "status": "finished"
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
         }
       ],
       "maps": [
-        "Cache",
         "Inferno",
+        "Anubis",
         "Ancient"
       ],
       "match_date": "",
-      "match_id": "hltv:2398575",
+      "match_id": "hltv:2398548",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "DAMAJUANA",
-      "prob_team1": 0.4651,
+      "predicted_winner": "Marsborne",
+      "prob_team1": 0.4634,
       "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398575/sementes-do-mal-vs-damajuana-cct-2026-south-america-series-6",
+      "source_url": "https://www.hltv.org/matches/2398548/regain-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "Sementes do Mal",
-      "team1_vrs_rank": null,
+      "team1_name": "regain",
+      "team1_vrs_rank": 162,
       "team2_hltv_rank": null,
-      "team2_name": "DAMAJUANA",
-      "team2_vrs_rank": 326
+      "team2_name": "Marsborne",
+      "team2_vrs_rank": 115
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 54,
-    "online_results_applied": 5,
+    "live_feed_items": 55,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
