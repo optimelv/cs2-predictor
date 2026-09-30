@@ -2,92 +2,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2397829",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Inferno",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Inferno",
-        "Nuke"
-      ],
-      "match_id": "hltv:2397829",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397829/lavked-vs-ence-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-20T14:25:46Z",
-      "status": "finished",
-      "team1_name": "Lavked",
-      "team2_name": "ENCE",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)",
-      "winner_name": "ENCE"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397830",
-      "maps": [],
-      "match_id": "hltv:2397830",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397830/quazar-vs-g2-ares-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-20T17:32:35Z",
-      "status": "finished",
-      "team1_name": "QUAZAR",
-      "team2_name": "G2 Ares",
-      "winner_name": "QUAZAR"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-9",
-      "event_name": "CCT 2026 Europe Series 9",
-      "event_url": null,
-      "hltv_match_id": "2397831",
-      "maps": [],
-      "match_id": "hltv:2397831",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397831/baks-vs-black-phoenix-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-20T20:38:57Z",
-      "status": "finished",
-      "team1_name": "BAKS",
-      "team2_name": "Black Phoenix",
-      "winner_name": "BAKS"
-    },
-    {
       "event_id": "hltv:cct-2026-challengers-south-america-series-3",
       "event_name": "CCT 2026 Challengers South America Series 3",
       "event_url": null,
@@ -7164,18 +7078,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "ALKA"
     },
     {
-      "event_id": "hltv:9356",
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
       "event_name": "ESL Challenger League Season 52 North America Cup 2",
       "hltv_match_id": "2398549",
       "match_id": "hltv:2398549",
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
       "stage_name": "Grand Final",
-      "starts_at": "2026-09-30T01:00:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-09-30T04:16:24Z",
+      "status": "finished",
       "team1_name": "LAG",
-      "team2_name": "Marsborne"
+      "team2_name": "Marsborne",
+      "winner_name": "Marsborne"
     },
     {
       "event_id": "hltv:9420",
@@ -7248,6 +7165,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Phantom Academy"
     },
     {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "hltv_match_id": "2398580",
+      "match_id": "hltv:2398580",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398580/mibr-fe-vs-sementes-do-mal-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-30T16:00:00Z",
+      "status": "upcoming",
+      "team1_name": "MIBR fe",
+      "team2_name": "Sementes do Mal"
+    },
+    {
       "event_id": "hltv:9420",
       "event_name": "CCT 2026 Europe Series 10",
       "hltv_match_id": "2398377",
@@ -7260,6 +7191,34 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "ex-RUSTEC",
       "team2_name": "BERG"
+    },
+    {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "hltv_match_id": "2398581",
+      "match_id": "hltv:2398581",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398581/grmio-vs-quintessncia-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-30T19:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Grêmio",
+      "team2_name": "QUINTESSÊNCIA"
+    },
+    {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "hltv_match_id": "2398582",
+      "match_id": "hltv:2398582",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-30T22:00:00Z",
+      "status": "upcoming",
+      "team1_name": "METANOIA Wolves",
+      "team2_name": "MEIA NOITE"
     },
     {
       "event_id": "hltv:9420",
@@ -16461,18 +16420,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Marsborne"
         },
         {
-          "event_id": "hltv:9356",
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
           "event_name": "ESL Challenger League Season 52 North America Cup 2",
           "hltv_match_id": "2398549",
           "match_id": "hltv:2398549",
           "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
           "stage_name": "Grand Final",
-          "starts_at": "2026-09-30T01:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-09-30T04:16:24Z",
+          "status": "finished",
           "team1_name": "LAG",
-          "team2_name": "Marsborne"
+          "team2_name": "Marsborne",
+          "winner_name": "Marsborne"
         }
       ],
       "name": "ESL Challenger League Season 52 North America Cup 2",
@@ -17392,6 +17354,48 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "MEIA NOITE",
           "team2_name": "ALKA",
           "winner_name": "ALKA"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "hltv_match_id": "2398580",
+          "match_id": "hltv:2398580",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398580/mibr-fe-vs-sementes-do-mal-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-30T16:00:00Z",
+          "status": "upcoming",
+          "team1_name": "MIBR fe",
+          "team2_name": "Sementes do Mal"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "hltv_match_id": "2398581",
+          "match_id": "hltv:2398581",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398581/grmio-vs-quintessncia-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-30T19:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Grêmio",
+          "team2_name": "QUINTESSÊNCIA"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "hltv_match_id": "2398582",
+          "match_id": "hltv:2398582",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-09-30T22:00:00Z",
+          "status": "upcoming",
+          "team1_name": "METANOIA Wolves",
+          "team2_name": "MEIA NOITE"
         }
       ],
       "name": "CCT 2026 South America Series 6",
@@ -20099,7 +20103,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-09-30T00:19:36Z",
+  "last_verified_utc": "2026-09-30T06:46:30Z",
   "sources": [
     {
       "name": "HLTV events calendar",

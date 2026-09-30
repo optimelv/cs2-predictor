@@ -3,92 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:cct-2026-europe-series-9",
-        "event_name": "CCT 2026 Europe Series 9",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2397829",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Dust2",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Inferno",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Nuke",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [
-          "Dust2",
-          "Inferno",
-          "Nuke"
-        ],
-        "match_id": "hltv:2397829",
-        "product_tier": "tier_2",
-        "score1": 1,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397829/lavked-vs-ence-cct-2026-europe-series-9",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-20T14:25:46Z",
-        "status": "finished",
-        "team1_name": "Lavked",
-        "team2_name": "ENCE",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)",
-        "winner_name": "ENCE"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-9",
-        "event_name": "CCT 2026 Europe Series 9",
-        "event_url": null,
-        "hltv_match_id": "2397830",
-        "maps": [],
-        "match_id": "hltv:2397830",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 1,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397830/quazar-vs-g2-ares-cct-2026-europe-series-9",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-20T17:32:35Z",
-        "status": "finished",
-        "team1_name": "QUAZAR",
-        "team2_name": "G2 Ares",
-        "winner_name": "QUAZAR"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-9",
-        "event_name": "CCT 2026 Europe Series 9",
-        "event_url": null,
-        "hltv_match_id": "2397831",
-        "maps": [],
-        "match_id": "hltv:2397831",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 1,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397831/baks-vs-black-phoenix-cct-2026-europe-series-9",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-20T20:38:57Z",
-        "status": "finished",
-        "team1_name": "BAKS",
-        "team2_name": "Black Phoenix",
-        "winner_name": "BAKS"
-      },
-      {
         "event_id": "hltv:cct-2026-challengers-south-america-series-3",
         "event_name": "CCT 2026 Challengers South America Series 3",
         "event_url": null,
@@ -7165,18 +7079,21 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "ALKA"
       },
       {
-        "event_id": "hltv:9356",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
         "event_name": "ESL Challenger League Season 52 North America Cup 2",
         "hltv_match_id": "2398549",
         "match_id": "hltv:2398549",
         "product_tier": "tier_2",
+        "score1": 1,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
         "stage_name": "Grand Final",
-        "starts_at": "2026-09-30T01:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-09-30T04:16:24Z",
+        "status": "finished",
         "team1_name": "LAG",
-        "team2_name": "Marsborne"
+        "team2_name": "Marsborne",
+        "winner_name": "Marsborne"
       },
       {
         "event_id": "hltv:9420",
@@ -7249,6 +7166,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Phantom Academy"
       },
       {
+        "event_id": "hltv:9425",
+        "event_name": "CCT 2026 South America Series 6",
+        "hltv_match_id": "2398580",
+        "match_id": "hltv:2398580",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398580/mibr-fe-vs-sementes-do-mal-cct-2026-south-america-series-6",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-30T16:00:00Z",
+        "status": "upcoming",
+        "team1_name": "MIBR fe",
+        "team2_name": "Sementes do Mal"
+      },
+      {
         "event_id": "hltv:9420",
         "event_name": "CCT 2026 Europe Series 10",
         "hltv_match_id": "2398377",
@@ -7261,6 +7192,34 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "ex-RUSTEC",
         "team2_name": "BERG"
+      },
+      {
+        "event_id": "hltv:9425",
+        "event_name": "CCT 2026 South America Series 6",
+        "hltv_match_id": "2398581",
+        "match_id": "hltv:2398581",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398581/grmio-vs-quintessncia-cct-2026-south-america-series-6",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-30T19:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Gr\u00eamio",
+        "team2_name": "QUINTESS\u00caNCIA"
+      },
+      {
+        "event_id": "hltv:9425",
+        "event_name": "CCT 2026 South America Series 6",
+        "hltv_match_id": "2398582",
+        "match_id": "hltv:2398582",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-30T22:00:00Z",
+        "status": "upcoming",
+        "team1_name": "METANOIA Wolves",
+        "team2_name": "MEIA NOITE"
       },
       {
         "event_id": "hltv:9420",
@@ -16462,18 +16421,21 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Marsborne"
           },
           {
-            "event_id": "hltv:9356",
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-2",
             "event_name": "ESL Challenger League Season 52 North America Cup 2",
             "hltv_match_id": "2398549",
             "match_id": "hltv:2398549",
             "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
             "stage_name": "Grand Final",
-            "starts_at": "2026-09-30T01:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-09-30T04:16:24Z",
+            "status": "finished",
             "team1_name": "LAG",
-            "team2_name": "Marsborne"
+            "team2_name": "Marsborne",
+            "winner_name": "Marsborne"
           }
         ],
         "name": "ESL Challenger League Season 52 North America Cup 2",
@@ -17393,6 +17355,48 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "MEIA NOITE",
             "team2_name": "ALKA",
             "winner_name": "ALKA"
+          },
+          {
+            "event_id": "hltv:9425",
+            "event_name": "CCT 2026 South America Series 6",
+            "hltv_match_id": "2398580",
+            "match_id": "hltv:2398580",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398580/mibr-fe-vs-sementes-do-mal-cct-2026-south-america-series-6",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-30T16:00:00Z",
+            "status": "upcoming",
+            "team1_name": "MIBR fe",
+            "team2_name": "Sementes do Mal"
+          },
+          {
+            "event_id": "hltv:9425",
+            "event_name": "CCT 2026 South America Series 6",
+            "hltv_match_id": "2398581",
+            "match_id": "hltv:2398581",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398581/grmio-vs-quintessncia-cct-2026-south-america-series-6",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-30T19:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Gr\u00eamio",
+            "team2_name": "QUINTESS\u00caNCIA"
+          },
+          {
+            "event_id": "hltv:9425",
+            "event_name": "CCT 2026 South America Series 6",
+            "hltv_match_id": "2398582",
+            "match_id": "hltv:2398582",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-30T22:00:00Z",
+            "status": "upcoming",
+            "team1_name": "METANOIA Wolves",
+            "team2_name": "MEIA NOITE"
           }
         ],
         "name": "CCT 2026 South America Series 6",
@@ -20100,7 +20104,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-09-30T00:19:36Z",
+    "last_verified_utc": "2026-09-30T06:46:30Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -20538,7 +20542,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-30T00:31:58Z",
+  "generated_at_utc": "2026-09-30T06:47:52Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -21914,12 +21918,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.633943,
-        "brier": 0.222729,
-        "ece": 0.019935,
-        "log_loss": 0.634544
+        "accuracy": 0.63289,
+        "brier": 0.222868,
+        "ece": 0.018981,
+        "log_loss": 0.634831
       },
-      "rows": 901,
+      "rows": 902,
       "slices": [
         {
           "dimension": "tier",
@@ -21940,12 +21944,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.601266,
-            "brier": 0.244177,
-            "ece": 0.065551,
-            "log_loss": 0.681852
+            "accuracy": 0.597484,
+            "brier": 0.244571,
+            "ece": 0.061656,
+            "log_loss": 0.682639
           },
-          "rows": 158
+          "rows": 159
         },
         {
           "dimension": "series_format",
@@ -21966,12 +21970,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.629328,
-            "brier": 0.222487,
-            "ece": 0.031889,
-            "log_loss": 0.633592
+            "accuracy": 0.628049,
+            "brier": 0.222658,
+            "ece": 0.030698,
+            "log_loss": 0.633945
           },
-          "rows": 491
+          "rows": 492
         },
         {
           "dimension": "series_format",
@@ -21987,7 +21991,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "test_rows": 601
+      "test_rows": 602
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -22001,13 +22005,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.640599,
-        "brier": 0.22372,
-        "ece": 0.048897,
-        "log_loss": 0.637565
+        "accuracy": 0.639535,
+        "brier": 0.223811,
+        "ece": 0.047939,
+        "log_loss": 0.637752
       },
       "promotion_passed": false,
-      "rows": 601,
+      "rows": 602,
       "slices": [
         {
           "dimension": "tier",
@@ -22028,12 +22032,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.607595,
-            "brier": 0.243511,
-            "ece": 0.073557,
-            "log_loss": 0.680133
+            "accuracy": 0.603774,
+            "brier": 0.243732,
+            "ece": 0.069775,
+            "log_loss": 0.680575
           },
-          "rows": 158
+          "rows": 159
         },
         {
           "dimension": "series_format",
@@ -22054,12 +22058,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.637475,
-            "brier": 0.223199,
-            "ece": 0.047586,
-            "log_loss": 0.636358
+            "accuracy": 0.636179,
+            "brier": 0.223312,
+            "ece": 0.046417,
+            "log_loss": 0.63659
           },
-          "rows": 491
+          "rows": 492
         },
         {
           "dimension": "series_format",
@@ -22095,7 +22099,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-30T00:31:58Z",
+    "generated_at_utc": "2026-09-30T06:47:52Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -22118,12 +22122,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.601266,
-            "brier": 0.244177,
-            "ece": 0.065551,
-            "log_loss": 0.681852
+            "accuracy": 0.597484,
+            "brier": 0.244571,
+            "ece": 0.061656,
+            "log_loss": 0.682639
           },
-          "rows": 158
+          "rows": 159
         },
         {
           "dimension": "series_format",
@@ -22144,12 +22148,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.629328,
-            "brier": 0.222487,
-            "ece": 0.031889,
-            "log_loss": 0.633592
+            "accuracy": 0.628049,
+            "brier": 0.222658,
+            "ece": 0.030698,
+            "log_loss": 0.633945
           },
-          "rows": 491
+          "rows": 492
         },
         {
           "dimension": "series_format",
@@ -22177,7 +22181,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 158
+            "rows": 159
           },
           {
             "eligible": true,
@@ -22189,7 +22193,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 491
+            "rows": 492
           },
           {
             "eligible": false,
@@ -22220,12 +22224,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.607595,
-            "brier": 0.240323,
-            "ece": 0.042559,
-            "log_loss": 0.673677
+            "accuracy": 0.603774,
+            "brier": 0.240754,
+            "ece": 0.038796,
+            "log_loss": 0.674543
           },
-          "rows": 158
+          "rows": 159
         },
         {
           "dimension": "series_format",
@@ -22246,12 +22250,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.637475,
-            "brier": 0.222479,
-            "ece": 0.043499,
-            "log_loss": 0.634912
+            "accuracy": 0.636179,
+            "brier": 0.222655,
+            "ece": 0.042281,
+            "log_loss": 0.63527
           },
-          "rows": 491
+          "rows": 492
         },
         {
           "dimension": "series_format",
@@ -22268,10 +22272,10 @@ window.__STRIKESIGNAL_DATA__ = {
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.633943,
-        "brier": 0.222912,
-        "ece": 0.02707,
-        "log_loss": 0.634814
+        "accuracy": 0.63289,
+        "brier": 0.223003,
+        "ece": 0.02615,
+        "log_loss": 0.635002
       },
       "champion_slices": [
         {
@@ -22293,12 +22297,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.601266,
-            "brier": 0.244875,
-            "ece": 0.068235,
-            "log_loss": 0.682876
+            "accuracy": 0.597484,
+            "brier": 0.245081,
+            "ece": 0.064491,
+            "log_loss": 0.683289
           },
-          "rows": 158
+          "rows": 159
         },
         {
           "dimension": "series_format",
@@ -22319,12 +22323,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.629328,
-            "brier": 0.222383,
-            "ece": 0.044355,
-            "log_loss": 0.63323
+            "accuracy": 0.628049,
+            "brier": 0.222495,
+            "ece": 0.043194,
+            "log_loss": 0.633464
           },
-          "rows": 491
+          "rows": 492
         },
         {
           "dimension": "series_format",
@@ -22340,37 +22344,37 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "champion_test_rows": 601,
+      "champion_test_rows": 602,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.601266,
-          "brier": 0.244875,
-          "ece": 0.068235,
-          "log_loss": 0.682876
+          "accuracy": 0.597484,
+          "brier": 0.245081,
+          "ece": 0.064491,
+          "log_loss": 0.683289
         },
         "before": {
-          "accuracy": 0.601266,
-          "brier": 0.244875,
-          "ece": 0.068235,
-          "log_loss": 0.682876
+          "accuracy": 0.597484,
+          "brier": 0.245081,
+          "ece": 0.064491,
+          "log_loss": 0.683289
         },
         "candidate_shrink": 0.5,
         "overall_after": {
-          "accuracy": 0.633943,
-          "brier": 0.222912,
-          "ece": 0.02707,
-          "log_loss": 0.634814
+          "accuracy": 0.63289,
+          "brier": 0.223003,
+          "ece": 0.02615,
+          "log_loss": 0.635002
         },
         "overall_before": {
-          "accuracy": 0.633943,
-          "brier": 0.222912,
-          "ece": 0.02707,
-          "log_loss": 0.634814
+          "accuracy": 0.63289,
+          "brier": 0.223003,
+          "ece": 0.02615,
+          "log_loss": 0.635002
         },
         "passed": false,
-        "rows": 158,
+        "rows": 159,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -22389,8 +22393,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
-      "online_rows": 144,
+      "new_rows": 1,
+      "online_rows": 145,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -22586,9 +22590,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2398373",
       "hltv:2398578",
       "hltv:2398519",
-      "hltv:2398579"
+      "hltv:2398579",
+      "hltv:2398549"
     ],
-    "last_online_update_utc": "2026-09-30T00:31:58Z",
+    "last_online_update_utc": "2026-09-30T06:47:52Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -25881,10 +25886,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 114
       },
       {
-        "elo": 1470.47,
-        "last_result_utc": "2026-09-29T02:30:52Z",
-        "matches": 79,
-        "recent_win_rate_10": 0.6714,
+        "elo": 1484.31,
+        "last_result_utc": "2026-09-30T04:16:24Z",
+        "matches": 80,
+        "recent_win_rate_10": 0.7311,
         "team_key": "marsborne",
         "team_name": "Marsborne",
         "vrs_points": 1010,
@@ -25975,10 +25980,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 125
       },
       {
-        "elo": 1513.64,
-        "last_result_utc": "2026-09-28T02:47:26Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.5909,
+        "elo": 1499.8,
+        "last_result_utc": "2026-09-30T04:16:24Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.4835,
         "team_key": "lag",
         "team_name": "LAG",
         "vrs_points": 963,
@@ -32075,43 +32080,6 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5136,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5136,
-      "event_id": "hltv:9356",
-      "event_name": "ESL Challenger League Season 52 North America Cup 2",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-30",
-      "match_id": "hltv:2398549",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790730000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "LAG",
-      "prob_team1": 0.5136,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398549/lag-vs-marsborne-esl-challenger-league-season-52-north-america-cup-2",
-      "stage_name": "Grand Final",
-      "starts_at": "2026-09-30T01:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "LAG",
-      "team1_vrs_rank": 126,
-      "team2_hltv_rank": null,
-      "team2_name": "Marsborne",
-      "team2_vrs_rank": 115
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5505,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -32260,6 +32228,43 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5019,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5019,
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-30",
+      "match_id": "hltv:2398580",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790784000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "MIBR fe",
+      "prob_team1": 0.5019,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398580/mibr-fe-vs-sementes-do-mal-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-30T16:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "MIBR fe",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Sementes do Mal",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.562,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -32292,6 +32297,80 @@ window.__STRIKESIGNAL_DATA__ = {
       "team1_vrs_rank": null,
       "team2_hltv_rank": null,
       "team2_name": "BERG",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5331,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4669,
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-30",
+      "match_id": "hltv:2398581",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790794800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "QUINTESS\u00caNCIA",
+      "prob_team1": 0.4669,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398581/grmio-vs-quintessncia-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-30T19:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Gr\u00eamio",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "QUINTESS\u00caNCIA",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5274,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5274,
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-30",
+      "match_id": "hltv:2398582",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790805600,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "METANOIA Wolves",
+      "prob_team1": 0.5274,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-30T22:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "METANOIA Wolves",
+      "team1_vrs_rank": 180,
+      "team2_hltv_rank": null,
+      "team2_name": "MEIA NOITE",
       "team2_vrs_rank": null
     },
     {
@@ -32445,8 +32524,8 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 45,
-    "online_results_applied": 2,
+    "live_feed_items": 47,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
