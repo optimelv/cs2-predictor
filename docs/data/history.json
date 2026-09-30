@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-29T20:51:17Z",
+  "generated_at_utc": "2026-09-30T00:19:36Z",
   "through_date": "2026-09-29",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3361,
+    "matches": 3363,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -286,6 +286,50 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "Procyon",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398519",
+      "match_date": "2026-09-29",
+      "event_name": "ESL Challenger League Season 52 South America Cup 2",
+      "team1_name": "Procyon",
+      "team2_name": "Turma do Pagode",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Turma do Pagode",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398579",
+      "match_date": "2026-09-29",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "MEIA NOITE",
+      "team2_name": "ALKA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ALKA",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",

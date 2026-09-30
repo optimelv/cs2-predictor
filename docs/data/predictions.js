@@ -3,94 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "esl-challenger-52-eu-cup-1",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches",
-        "stage_name": "Opening matches",
-        "starts_at": "2026-07-12T19:00:00+02:00",
-        "status": "live",
-        "team1_name": "SPARTA",
-        "team2_name": "Bushido Wildcats"
-      },
-      {
-        "event_id": "esl-challenger-52-eu-cup-1",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches",
-        "stage_name": "Opening matches",
-        "starts_at": "2026-07-12T19:00:00+02:00",
-        "status": "live",
-        "team1_name": "Entropy",
-        "team2_name": "Atreides"
-      },
-      {
-        "event_id": "esl-challenger-52-eu-cup-1",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches",
-        "stage_name": "Opening matches",
-        "starts_at": "2026-07-12T19:00:00+02:00",
-        "status": "live",
-        "team1_name": "MOUZ NXT",
-        "team2_name": "Noir Verse"
-      },
-      {
-        "event_id": "esl-challenger-52-eu-cup-1",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches",
-        "stage_name": "Opening matches",
-        "starts_at": "2026-07-12T19:00:00+02:00",
-        "status": "live",
-        "team1_name": "The Last Resort",
-        "team2_name": "fnatic"
-      },
-      {
-        "event_id": "esl-challenger-52-eu-cup-1",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 1",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches",
-        "stage_name": "Opening matches",
-        "starts_at": "2026-07-12T19:00:00+02:00",
-        "status": "live",
-        "team1_name": "HOTU",
-        "team2_name": "BRUTE"
-      },
-      {
-        "event_id": "cct-contenders-eu-s6-2026",
-        "event_name": "CCT 2026 Contenders Europe Series 6",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches",
-        "stage_name": "Grand Final",
-        "starts_at": "2026-07-12T20:25:00+02:00",
-        "status": "live",
-        "team1_name": "LPH",
-        "team2_name": "mellren"
-      },
-      {
-        "event_id": "frag-st-clair-2026",
-        "event_name": "FRAG St. Clair 2026",
-        "series_format": "bo5",
-        "source_url": "https://www.hltv.org/matches",
-        "stage_name": "Grand Final",
-        "starts_at": "2026-07-12T22:00:00+02:00",
-        "status": "scheduled",
-        "team1_name": "NRG",
-        "team2_name": "Semifinal winner"
-      },
-      {
-        "event_id": "thunderpick-sa-s2-2026",
-        "event_name": "Thunderpick World Championship 2026 South America Series 2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches",
-        "stage_name": "Semifinal",
-        "starts_at": "2026-07-12T23:00:00+02:00",
-        "status": "scheduled",
-        "team1_name": "LP",
-        "team2_name": "Imperial"
-      },
-      {
         "event_id": "hltv:cct-2026-europe-series-9",
         "event_name": "CCT 2026 Europe Series 9",
         "event_url": "https://www.hltv.org/events/archive",
@@ -7219,32 +7131,38 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Procyon"
       },
       {
-        "event_id": "hltv:9355",
+        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-2",
         "event_name": "ESL Challenger League Season 52 South America Cup 2",
         "hltv_match_id": "2398519",
         "match_id": "hltv:2398519",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398519/procyon-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-2",
         "stage_name": "Grand Final",
-        "starts_at": "2026-09-29T21:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-09-29T23:08:12Z",
+        "status": "finished",
         "team1_name": "Procyon",
-        "team2_name": "Turma do Pagode"
+        "team2_name": "Turma do Pagode",
+        "winner_name": "Turma do Pagode"
       },
       {
-        "event_id": "hltv:9425",
+        "event_id": "hltv:cct-2026-south-america-series-6",
         "event_name": "CCT 2026 South America Series 6",
         "hltv_match_id": "2398579",
         "match_id": "hltv:2398579",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398579/meia-noite-vs-alka-cct-2026-south-america-series-6",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-09-29T22:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-09-29T23:46:05Z",
+        "status": "finished",
         "team1_name": "MEIA NOITE",
-        "team2_name": "ALKA"
+        "team2_name": "ALKA",
+        "winner_name": "ALKA"
       },
       {
         "event_id": "hltv:9356",
@@ -7259,6 +7177,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "LAG",
         "team2_name": "Marsborne"
+      },
+      {
+        "event_id": "hltv:9420",
+        "event_name": "CCT 2026 Europe Series 10",
+        "hltv_match_id": "2398374",
+        "match_id": "hltv:2398374",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398374/azuolas-vs-enjoy-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-30T08:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Azuolas",
+        "team2_name": "Enjoy"
       },
       {
         "event_id": "hltv:9433",
@@ -7287,6 +7219,104 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "Phantom Academy",
         "team2_name": "ROUNDS"
+      },
+      {
+        "event_id": "hltv:9420",
+        "event_name": "CCT 2026 Europe Series 10",
+        "hltv_match_id": "2398375",
+        "match_id": "hltv:2398375",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398375/black-phoenix-vs-megoshort-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-30T11:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Black Phoenix",
+        "team2_name": "megoshort"
+      },
+      {
+        "event_id": "hltv:9420",
+        "event_name": "CCT 2026 Europe Series 10",
+        "hltv_match_id": "2398376",
+        "match_id": "hltv:2398376",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398376/leo-vs-phantom-academy-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-30T14:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Leo",
+        "team2_name": "Phantom Academy"
+      },
+      {
+        "event_id": "hltv:9420",
+        "event_name": "CCT 2026 Europe Series 10",
+        "hltv_match_id": "2398377",
+        "match_id": "hltv:2398377",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398377/ex-rustec-vs-berg-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-30T17:00:00Z",
+        "status": "upcoming",
+        "team1_name": "ex-RUSTEC",
+        "team2_name": "BERG"
+      },
+      {
+        "event_id": "hltv:9420",
+        "event_name": "CCT 2026 Europe Series 10",
+        "hltv_match_id": "2398378",
+        "match_id": "hltv:2398378",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398378/masonic-vs-lavked-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-01T08:00:00Z",
+        "status": "upcoming",
+        "team1_name": "MASONIC",
+        "team2_name": "Lavked"
+      },
+      {
+        "event_id": "hltv:9420",
+        "event_name": "CCT 2026 Europe Series 10",
+        "hltv_match_id": "2398379",
+        "match_id": "hltv:2398379",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398379/pcific-vs-nexus-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-01T11:00:00Z",
+        "status": "upcoming",
+        "team1_name": "PCIFIC",
+        "team2_name": "Nexus"
+      },
+      {
+        "event_id": "hltv:9420",
+        "event_name": "CCT 2026 Europe Series 10",
+        "hltv_match_id": "2398380",
+        "match_id": "hltv:2398380",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398380/butterfly-vs-noir-verse-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-01T14:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Butterfly",
+        "team2_name": "Noir Verse"
+      },
+      {
+        "event_id": "hltv:9420",
+        "event_name": "CCT 2026 Europe Series 10",
+        "hltv_match_id": "2398381",
+        "match_id": "hltv:2398381",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398381/eac-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-01T17:00:00Z",
+        "status": "upcoming",
+        "team1_name": "EAC",
+        "team2_name": "ex-Zero Tenacity"
       }
     ],
     "default_event_id": "epl-series-8-2026",
@@ -15885,18 +15915,21 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Turma do Pagode"
           },
           {
-            "event_id": "hltv:9355",
+            "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-2",
             "event_name": "ESL Challenger League Season 52 South America Cup 2",
             "hltv_match_id": "2398519",
             "match_id": "hltv:2398519",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398519/procyon-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-2",
             "stage_name": "Grand Final",
-            "starts_at": "2026-09-29T21:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-09-29T23:08:12Z",
+            "status": "finished",
             "team1_name": "Procyon",
-            "team2_name": "Turma do Pagode"
+            "team2_name": "Turma do Pagode",
+            "winner_name": "Turma do Pagode"
           }
         ],
         "name": "ESL Challenger League Season 52 South America Cup 2",
@@ -17345,18 +17378,21 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Procyon"
           },
           {
-            "event_id": "hltv:9425",
+            "event_id": "hltv:cct-2026-south-america-series-6",
             "event_name": "CCT 2026 South America Series 6",
             "hltv_match_id": "2398579",
             "match_id": "hltv:2398579",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398579/meia-noite-vs-alka-cct-2026-south-america-series-6",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-09-29T22:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-09-29T23:46:05Z",
+            "status": "finished",
             "team1_name": "MEIA NOITE",
-            "team2_name": "ALKA"
+            "team2_name": "ALKA",
+            "winner_name": "ALKA"
           }
         ],
         "name": "CCT 2026 South America Series 6",
@@ -19926,6 +19962,118 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "Butterfly",
             "team2_name": "Phantom Academy",
             "winner_name": "Butterfly"
+          },
+          {
+            "event_id": "hltv:9420",
+            "event_name": "CCT 2026 Europe Series 10",
+            "hltv_match_id": "2398374",
+            "match_id": "hltv:2398374",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398374/azuolas-vs-enjoy-cct-2026-europe-series-10",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-30T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Azuolas",
+            "team2_name": "Enjoy"
+          },
+          {
+            "event_id": "hltv:9420",
+            "event_name": "CCT 2026 Europe Series 10",
+            "hltv_match_id": "2398375",
+            "match_id": "hltv:2398375",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398375/black-phoenix-vs-megoshort-cct-2026-europe-series-10",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-30T11:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Black Phoenix",
+            "team2_name": "megoshort"
+          },
+          {
+            "event_id": "hltv:9420",
+            "event_name": "CCT 2026 Europe Series 10",
+            "hltv_match_id": "2398376",
+            "match_id": "hltv:2398376",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398376/leo-vs-phantom-academy-cct-2026-europe-series-10",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-30T14:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Leo",
+            "team2_name": "Phantom Academy"
+          },
+          {
+            "event_id": "hltv:9420",
+            "event_name": "CCT 2026 Europe Series 10",
+            "hltv_match_id": "2398377",
+            "match_id": "hltv:2398377",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398377/ex-rustec-vs-berg-cct-2026-europe-series-10",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-09-30T17:00:00Z",
+            "status": "upcoming",
+            "team1_name": "ex-RUSTEC",
+            "team2_name": "BERG"
+          },
+          {
+            "event_id": "hltv:9420",
+            "event_name": "CCT 2026 Europe Series 10",
+            "hltv_match_id": "2398378",
+            "match_id": "hltv:2398378",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398378/masonic-vs-lavked-cct-2026-europe-series-10",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-01T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "MASONIC",
+            "team2_name": "Lavked"
+          },
+          {
+            "event_id": "hltv:9420",
+            "event_name": "CCT 2026 Europe Series 10",
+            "hltv_match_id": "2398379",
+            "match_id": "hltv:2398379",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398379/pcific-vs-nexus-cct-2026-europe-series-10",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-01T11:00:00Z",
+            "status": "upcoming",
+            "team1_name": "PCIFIC",
+            "team2_name": "Nexus"
+          },
+          {
+            "event_id": "hltv:9420",
+            "event_name": "CCT 2026 Europe Series 10",
+            "hltv_match_id": "2398380",
+            "match_id": "hltv:2398380",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398380/butterfly-vs-noir-verse-cct-2026-europe-series-10",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-01T14:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Butterfly",
+            "team2_name": "Noir Verse"
+          },
+          {
+            "event_id": "hltv:9420",
+            "event_name": "CCT 2026 Europe Series 10",
+            "hltv_match_id": "2398381",
+            "match_id": "hltv:2398381",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398381/eac-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-01T17:00:00Z",
+            "status": "upcoming",
+            "team1_name": "EAC",
+            "team2_name": "ex-Zero Tenacity"
           }
         ],
         "name": "CCT 2026 Europe Series 10",
@@ -19952,7 +20100,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-09-29T20:51:17Z",
+    "last_verified_utc": "2026-09-30T00:19:36Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -20390,7 +20538,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-29T20:52:23Z",
+  "generated_at_utc": "2026-09-30T00:31:58Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -21767,11 +21915,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "kind": "heuristic",
       "metrics": {
         "accuracy": 0.633943,
-        "brier": 0.222707,
-        "ece": 0.020727,
-        "log_loss": 0.634457
+        "brier": 0.222729,
+        "ece": 0.019935,
+        "log_loss": 0.634544
       },
-      "rows": 899,
+      "rows": 901,
       "slices": [
         {
           "dimension": "tier",
@@ -21779,12 +21927,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.644944,
-            "brier": 0.214893,
-            "ece": 0.038143,
-            "log_loss": 0.617244
+            "accuracy": 0.645598,
+            "brier": 0.215079,
+            "ece": 0.03762,
+            "log_loss": 0.617672
           },
-          "rows": 445
+          "rows": 443
         },
         {
           "dimension": "tier",
@@ -21792,12 +21940,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.602564,
-            "brier": 0.244996,
-            "ece": 0.071728,
-            "log_loss": 0.683558
+            "accuracy": 0.601266,
+            "brier": 0.244177,
+            "ece": 0.065551,
+            "log_loss": 0.681852
           },
-          "rows": 156
+          "rows": 158
         },
         {
           "dimension": "series_format",
@@ -21819,9 +21967,9 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO3",
           "metrics": {
             "accuracy": 0.629328,
-            "brier": 0.22246,
-            "ece": 0.032858,
-            "log_loss": 0.633486
+            "brier": 0.222487,
+            "ece": 0.031889,
+            "log_loss": 0.633592
           },
           "rows": 491
         },
@@ -21853,10 +22001,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.637271,
-        "brier": 0.223601,
-        "ece": 0.04523,
-        "log_loss": 0.637234
+        "accuracy": 0.640599,
+        "brier": 0.22372,
+        "ece": 0.048897,
+        "log_loss": 0.637565
       },
       "promotion_passed": false,
       "rows": 601,
@@ -21867,12 +22015,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.649438,
-            "brier": 0.216428,
-            "ece": 0.060114,
-            "log_loss": 0.621809
+            "accuracy": 0.65237,
+            "brier": 0.216661,
+            "ece": 0.06126,
+            "log_loss": 0.622382
           },
-          "rows": 445
+          "rows": 443
         },
         {
           "dimension": "tier",
@@ -21880,12 +22028,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.602564,
-            "brier": 0.244061,
-            "ece": 0.068749,
-            "log_loss": 0.681236
+            "accuracy": 0.607595,
+            "brier": 0.243511,
+            "ece": 0.073557,
+            "log_loss": 0.680133
           },
-          "rows": 156
+          "rows": 158
         },
         {
           "dimension": "series_format",
@@ -21893,10 +22041,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.65,
-            "brier": 0.229884,
-            "ece": 0.072023,
-            "log_loss": 0.651207
+            "accuracy": 0.66,
+            "brier": 0.229986,
+            "ece": 0.080261,
+            "log_loss": 0.651441
           },
           "rows": 100
         },
@@ -21906,10 +22054,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.635438,
-            "brier": 0.223075,
-            "ece": 0.051379,
-            "log_loss": 0.636006
+            "accuracy": 0.637475,
+            "brier": 0.223199,
+            "ece": 0.047586,
+            "log_loss": 0.636358
           },
           "rows": 491
         },
@@ -21920,9 +22068,9 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO5",
           "metrics": {
             "accuracy": 0.6,
-            "brier": 0.186574,
-            "ece": 0.317677,
-            "log_loss": 0.557822
+            "brier": 0.186628,
+            "ece": 0.317958,
+            "log_loss": 0.558039
           },
           "rows": 10
         }
@@ -21947,7 +22095,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-29T20:52:23Z",
+    "generated_at_utc": "2026-09-30T00:31:58Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -21957,12 +22105,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.644944,
-            "brier": 0.214893,
-            "ece": 0.038143,
-            "log_loss": 0.617244
+            "accuracy": 0.645598,
+            "brier": 0.215079,
+            "ece": 0.03762,
+            "log_loss": 0.617672
           },
-          "rows": 445
+          "rows": 443
         },
         {
           "dimension": "tier",
@@ -21970,12 +22118,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.602564,
-            "brier": 0.244996,
-            "ece": 0.071728,
-            "log_loss": 0.683558
+            "accuracy": 0.601266,
+            "brier": 0.244177,
+            "ece": 0.065551,
+            "log_loss": 0.681852
           },
-          "rows": 156
+          "rows": 158
         },
         {
           "dimension": "series_format",
@@ -21997,9 +22145,9 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO3",
           "metrics": {
             "accuracy": 0.629328,
-            "brier": 0.22246,
-            "ece": 0.032858,
-            "log_loss": 0.633486
+            "brier": 0.222487,
+            "ece": 0.031889,
+            "log_loss": 0.633592
           },
           "rows": 491
         },
@@ -22023,13 +22171,13 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_1",
             "passed": true,
-            "rows": 445
+            "rows": 443
           },
           {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 156
+            "rows": 158
           },
           {
             "eligible": true,
@@ -22059,12 +22207,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.649438,
-            "brier": 0.216428,
-            "ece": 0.060114,
-            "log_loss": 0.621809
+            "accuracy": 0.65237,
+            "brier": 0.216661,
+            "ece": 0.06126,
+            "log_loss": 0.622382
           },
-          "rows": 445
+          "rows": 443
         },
         {
           "dimension": "tier",
@@ -22072,12 +22220,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.602564,
-            "brier": 0.241391,
-            "ece": 0.042749,
-            "log_loss": 0.675855
+            "accuracy": 0.607595,
+            "brier": 0.240323,
+            "ece": 0.042559,
+            "log_loss": 0.673677
           },
-          "rows": 156
+          "rows": 158
         },
         {
           "dimension": "series_format",
@@ -22085,10 +22233,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.65,
-            "brier": 0.228367,
-            "ece": 0.06253,
-            "log_loss": 0.648083
+            "accuracy": 0.66,
+            "brier": 0.228482,
+            "ece": 0.070784,
+            "log_loss": 0.648344
           },
           "rows": 100
         },
@@ -22098,10 +22246,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.635438,
-            "brier": 0.222536,
-            "ece": 0.045577,
-            "log_loss": 0.634933
+            "accuracy": 0.637475,
+            "brier": 0.222479,
+            "ece": 0.043499,
+            "log_loss": 0.634912
           },
           "rows": 491
         },
@@ -22112,18 +22260,18 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO5",
           "metrics": {
             "accuracy": 0.6,
-            "brier": 0.186574,
-            "ece": 0.317677,
-            "log_loss": 0.557822
+            "brier": 0.186628,
+            "ece": 0.317958,
+            "log_loss": 0.558039
           },
           "rows": 10
         }
       ],
       "champion_metrics": {
         "accuracy": 0.633943,
-        "brier": 0.222786,
-        "ece": 0.029108,
-        "log_loss": 0.634504
+        "brier": 0.222912,
+        "ece": 0.02707,
+        "log_loss": 0.634814
       },
       "champion_slices": [
         {
@@ -22132,12 +22280,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.644944,
-            "brier": 0.214893,
-            "ece": 0.038143,
-            "log_loss": 0.617244
+            "accuracy": 0.645598,
+            "brier": 0.215079,
+            "ece": 0.03762,
+            "log_loss": 0.617672
           },
-          "rows": 445
+          "rows": 443
         },
         {
           "dimension": "tier",
@@ -22145,12 +22293,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.602564,
-            "brier": 0.245301,
-            "ece": 0.071719,
-            "log_loss": 0.683737
+            "accuracy": 0.601266,
+            "brier": 0.244875,
+            "ece": 0.068235,
+            "log_loss": 0.682876
           },
-          "rows": 156
+          "rows": 158
         },
         {
           "dimension": "series_format",
@@ -22172,9 +22320,9 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO3",
           "metrics": {
             "accuracy": 0.629328,
-            "brier": 0.222229,
-            "ece": 0.047799,
-            "log_loss": 0.63285
+            "brier": 0.222383,
+            "ece": 0.044355,
+            "log_loss": 0.63323
           },
           "rows": 491
         },
@@ -22197,32 +22345,32 @@ window.__STRIKESIGNAL_DATA__ = {
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.602564,
-          "brier": 0.245301,
-          "ece": 0.071719,
-          "log_loss": 0.683737
+          "accuracy": 0.601266,
+          "brier": 0.244875,
+          "ece": 0.068235,
+          "log_loss": 0.682876
         },
         "before": {
-          "accuracy": 0.602564,
-          "brier": 0.245301,
-          "ece": 0.071719,
-          "log_loss": 0.683737
+          "accuracy": 0.601266,
+          "brier": 0.244875,
+          "ece": 0.068235,
+          "log_loss": 0.682876
         },
         "candidate_shrink": 0.5,
         "overall_after": {
           "accuracy": 0.633943,
-          "brier": 0.222786,
-          "ece": 0.029108,
-          "log_loss": 0.634504
+          "brier": 0.222912,
+          "ece": 0.02707,
+          "log_loss": 0.634814
         },
         "overall_before": {
           "accuracy": 0.633943,
-          "brier": 0.222786,
-          "ece": 0.029108,
-          "log_loss": 0.634504
+          "brier": 0.222912,
+          "ece": 0.02707,
+          "log_loss": 0.634814
         },
         "passed": false,
-        "rows": 156,
+        "rows": 158,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -22241,8 +22389,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 7,
-      "online_rows": 142,
+      "new_rows": 2,
+      "online_rows": 144,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -22436,9 +22584,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2398577",
       "hltv:2398372",
       "hltv:2398373",
-      "hltv:2398578"
+      "hltv:2398578",
+      "hltv:2398519",
+      "hltv:2398579"
     ],
-    "last_online_update_utc": "2026-09-29T20:52:23Z",
+    "last_online_update_utc": "2026-09-30T00:31:58Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -25355,10 +25505,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 68
       },
       {
-        "elo": 1534.5,
-        "last_result_utc": "2026-09-28T22:59:23Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.7262,
+        "elo": 1547.28,
+        "last_result_utc": "2026-09-29T23:08:12Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.776,
         "team_key": "turma do pagode",
         "team_name": "Turma do Pagode",
         "vrs_points": 1170,
@@ -26394,10 +26544,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 198
       },
       {
-        "elo": 1512.62,
-        "last_result_utc": "2026-09-29T20:33:34Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.6044,
+        "elo": 1499.84,
+        "last_result_utc": "2026-09-29T23:08:12Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.4945,
         "team_key": "procyon",
         "team_name": "Procyon",
         "vrs_points": 751,
@@ -26635,10 +26785,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 227
       },
       {
-        "elo": 1460.99,
-        "last_result_utc": "2026-09-27T23:28:26Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.2738,
+        "elo": 1476.28,
+        "last_result_utc": "2026-09-29T23:46:05Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.4058,
         "team_key": "alka",
         "team_name": "ALKA",
         "vrs_points": 693,
@@ -28772,10 +28922,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1503.33,
-        "last_result_utc": "2026-09-26T21:02:42Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.5165,
+        "elo": 1488.04,
+        "last_result_utc": "2026-09-29T23:46:05Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.4226,
         "team_key": "meia noite",
         "team_name": "MEIA NOITE",
         "vrs_points": 0,
@@ -31925,80 +32075,6 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5807,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4193,
-      "event_id": "hltv:9355",
-      "event_name": "ESL Challenger League Season 52 South America Cup 2",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-29",
-      "match_id": "hltv:2398519",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790715600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Turma do Pagode",
-      "prob_team1": 0.4193,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398519/procyon-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-2",
-      "stage_name": "Grand Final",
-      "starts_at": "2026-09-29T21:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Procyon",
-      "team1_vrs_rank": 199,
-      "team2_hltv_rank": null,
-      "team2_name": "Turma do Pagode",
-      "team2_vrs_rank": 69
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5111,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5111,
-      "event_id": "hltv:9425",
-      "event_name": "CCT 2026 South America Series 6",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-29",
-      "match_id": "hltv:2398579",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790719200,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "MEIA NOITE",
-      "prob_team1": 0.5111,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398579/meia-noite-vs-alka-cct-2026-south-america-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-29T22:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "MEIA NOITE",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "ALKA",
-      "team2_vrs_rank": 228
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5136,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -32036,39 +32112,76 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5271,
+      "confidence": 0.5505,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5271,
-      "event_id": "hltv:9433",
-      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "elo_prob_team1": 0.4495,
+      "event_id": "hltv:9420",
+      "event_name": "CCT 2026 Europe Series 10",
       "format": "bo3",
       "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-09-30",
-      "match_id": "hltv:2398900",
+      "match_id": "hltv:2398374",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790755200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Enjoy",
+      "prob_team1": 0.4495,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398374/azuolas-vs-enjoy-cct-2026-europe-series-10",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-30T08:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Azuolas",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Enjoy",
+      "team2_vrs_rank": 166
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5388,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4612,
+      "event_id": "hltv:9420",
+      "event_name": "CCT 2026 Europe Series 10",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-30",
+      "match_id": "hltv:2398375",
       "match_phase": "scheduled",
       "match_timestamp": 1790766000,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "BIG Academy",
-      "prob_team1": 0.5271,
+      "predicted_winner": "megoshort",
+      "prob_team1": 0.4612,
       "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398900/big-academy-vs-maybe-cct-2026-challengers-europe-series-7",
+      "source_url": "https://www.hltv.org/matches/2398375/black-phoenix-vs-megoshort-cct-2026-europe-series-10",
       "stage_name": "Scheduled series",
       "starts_at": "2026-09-30T11:00:00Z",
       "status": "upcoming",
       "team1_hltv_rank": null,
-      "team1_name": "BIG Academy",
-      "team1_vrs_rank": 177,
+      "team1_name": "Black Phoenix",
+      "team1_vrs_rank": null,
       "team2_hltv_rank": null,
-      "team2_name": "MAYBE",
-      "team2_vrs_rank": null
+      "team2_name": "megoshort",
+      "team2_vrs_rank": 333
     },
     {
       "calibration_shrink": 0.5,
@@ -32106,12 +32219,234 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "ROUNDS",
       "team2_vrs_rank": 221
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5125,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4875,
+      "event_id": "hltv:9420",
+      "event_name": "CCT 2026 Europe Series 10",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-30",
+      "match_id": "hltv:2398376",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790776800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Phantom Academy",
+      "prob_team1": 0.4875,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398376/leo-vs-phantom-academy-cct-2026-europe-series-10",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-30T14:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Leo",
+      "team1_vrs_rank": 141,
+      "team2_hltv_rank": null,
+      "team2_name": "Phantom Academy",
+      "team2_vrs_rank": 293
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.562,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.562,
+      "event_id": "hltv:9420",
+      "event_name": "CCT 2026 Europe Series 10",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-09-30",
+      "match_id": "hltv:2398377",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790787600,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "ex-RUSTEC",
+      "prob_team1": 0.562,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398377/ex-rustec-vs-berg-cct-2026-europe-series-10",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-09-30T17:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "ex-RUSTEC",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "BERG",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5221,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4779,
+      "event_id": "hltv:9420",
+      "event_name": "CCT 2026 Europe Series 10",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-01",
+      "match_id": "hltv:2398378",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790841600,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Lavked",
+      "prob_team1": 0.4779,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398378/masonic-vs-lavked-cct-2026-europe-series-10",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-01T08:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "MASONIC",
+      "team1_vrs_rank": 158,
+      "team2_hltv_rank": null,
+      "team2_name": "Lavked",
+      "team2_vrs_rank": 78
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.566,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.566,
+      "event_id": "hltv:9420",
+      "event_name": "CCT 2026 Europe Series 10",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-01",
+      "match_id": "hltv:2398379",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790852400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "PCIFIC",
+      "prob_team1": 0.566,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398379/pcific-vs-nexus-cct-2026-europe-series-10",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-01T11:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "PCIFIC",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Nexus",
+      "team2_vrs_rank": 185
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5387,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4613,
+      "event_id": "hltv:9420",
+      "event_name": "CCT 2026 Europe Series 10",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-01",
+      "match_id": "hltv:2398380",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790863200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Noir Verse",
+      "prob_team1": 0.4613,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398380/butterfly-vs-noir-verse-cct-2026-europe-series-10",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-01T14:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Butterfly",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Noir Verse",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5538,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5538,
+      "event_id": "hltv:9420",
+      "event_name": "CCT 2026 Europe Series 10",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-01",
+      "match_id": "hltv:2398381",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790874000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "EAC",
+      "prob_team1": 0.5538,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398381/eac-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-01T17:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "EAC",
+      "team1_vrs_rank": 100,
+      "team2_hltv_rank": null,
+      "team2_name": "ex-Zero Tenacity",
+      "team2_vrs_rank": 163
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 38,
-    "online_results_applied": 8,
+    "live_feed_items": 45,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
