@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3363,
+    "matches": 3366,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -342,6 +342,28 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:4c3ea31064901620b9a8",
+      "match_date": "2026-09-29",
+      "starts_at": "2026-09-29T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 1",
+      "team1_name": "ENJOY",
+      "team2_name": "MASON",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MASON",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_1"
     },
     {
       "match_id": "hltv:2398576",
@@ -4104,6 +4126,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Play_Connect/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:636d3c7712ac40bc005f",
+      "match_date": "2026-09-23",
+      "starts_at": "2026-09-23T10:00:00Z",
+      "event_name": "Stake Pulse Beat II - Group C",
+      "team1_name": "100T",
+      "team2_name": "EAC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "100T",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_II#Group_C"
     },
     {
       "match_id": "hltv:2398342",
@@ -28502,6 +28546,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_2"
+    },
+    {
+      "match_id": "liquipedia:d3ba98997a22df0be903",
+      "match_date": "2026-08-23",
+      "starts_at": "2026-08-23T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #7 - Round 3",
+      "team1_name": "DTH",
+      "team2_name": "MASON",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "DTH",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_7#Round_3"
     },
     {
       "match_id": "hltv:2396903",
