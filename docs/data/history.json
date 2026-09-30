@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-09-30T06:46:30Z",
+  "generated_at_utc": "2026-09-30T13:50:32Z",
   "through_date": "2026-09-30",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3367,
+    "matches": 3371,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -22,6 +22,94 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "Marsborne",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398374",
+      "match_date": "2026-09-30",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Azuolas",
+      "team2_name": "Enjoy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Enjoy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398901",
+      "match_date": "2026-09-30",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "Phantom Academy",
+      "team2_name": "ROUNDS",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Phantom Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398900",
+      "match_date": "2026-09-30",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "BIG Academy",
+      "team2_name": "MAYBE",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MAYBE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398375",
+      "match_date": "2026-09-30",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Black Phoenix",
+      "team2_name": "megoshort",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Black Phoenix",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
