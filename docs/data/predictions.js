@@ -3,40 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:cct-2026-europe-series-9",
-        "event_name": "CCT 2026 Europe Series 9",
-        "hltv_match_id": "2397835",
-        "match_id": "hltv:2397835",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397835/just-players-vs-ence-cct-2026-europe-series-9",
-        "stage_name": "Completed series",
-        "starts_at": "2026-09-22T13:27:30Z",
-        "status": "finished",
-        "team1_name": "Just Players",
-        "team2_name": "ENCE",
-        "winner_name": "ENCE"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-10-closed-qualifier",
-        "event_name": "CCT 2026 Europe Series 10 Closed Qualifier",
-        "hltv_match_id": "2398343",
-        "match_id": "hltv:2398343",
-        "product_tier": "tier_2",
-        "score1": 1,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398343/benched-gods-vs-mai-tai-cct-2026-europe-series-10-closed-qualifier",
-        "stage_name": "Completed series",
-        "starts_at": "2026-09-22T13:28:20Z",
-        "status": "finished",
-        "team1_name": "benched gods",
-        "team2_name": "Mai Tai",
-        "winner_name": "Mai Tai"
-      },
-      {
         "event_id": "hltv:cct-2026-europe-series-10-closed-qualifier",
         "event_name": "CCT 2026 Europe Series 10 Closed Qualifier",
         "event_url": null,
@@ -7054,6 +7020,262 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "MIBR fe"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-10",
+        "event_name": "CCT 2026 Europe Series 10",
+        "hltv_match_id": "2398377",
+        "match_id": "hltv:2398377",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398377/ex-rustec-vs-berg-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-30T19:09:34Z",
+        "status": "finished",
+        "team1_name": "ex-RUSTEC",
+        "team2_name": "BERG",
+        "winner_name": "ex-RUSTEC"
+      },
+      {
+        "event_id": "hltv:cct-2026-south-america-series-6",
+        "event_name": "CCT 2026 South America Series 6",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2398582",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "21888",
+              "nickname": "Thuister",
+              "player_id": "hltv:21888",
+              "source_url": "https://www.hltv.org/player/21888/thuister",
+              "team_name": "METANOIA Wolves"
+            },
+            {
+              "hltv_player_id": "24298",
+              "nickname": "ALENNNCAR",
+              "player_id": "hltv:24298",
+              "source_url": "https://www.hltv.org/player/24298/alennncar",
+              "team_name": "METANOIA Wolves"
+            },
+            {
+              "hltv_player_id": "24930",
+              "nickname": "vzn",
+              "player_id": "hltv:24930",
+              "source_url": "https://www.hltv.org/player/24930/vzn",
+              "team_name": "METANOIA Wolves"
+            },
+            {
+              "hltv_player_id": "23786",
+              "nickname": "Tineu",
+              "player_id": "hltv:23786",
+              "source_url": "https://www.hltv.org/player/23786/tineu",
+              "team_name": "METANOIA Wolves"
+            },
+            {
+              "hltv_player_id": "25812",
+              "nickname": "khowy",
+              "player_id": "hltv:25812",
+              "source_url": "https://www.hltv.org/player/25812/khowy",
+              "team_name": "METANOIA Wolves"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "20577",
+              "nickname": "Bruninho",
+              "player_id": "hltv:20577",
+              "source_url": "https://www.hltv.org/player/20577/bruninho",
+              "team_name": "MEIA NOITE"
+            },
+            {
+              "hltv_player_id": "21099",
+              "nickname": "bsd",
+              "player_id": "hltv:21099",
+              "source_url": "https://www.hltv.org/player/21099/bsd",
+              "team_name": "MEIA NOITE"
+            },
+            {
+              "hltv_player_id": "18891",
+              "nickname": "CutzMeretz",
+              "player_id": "hltv:18891",
+              "source_url": "https://www.hltv.org/player/18891/cutzmeretz",
+              "team_name": "MEIA NOITE"
+            },
+            {
+              "hltv_player_id": "17028",
+              "nickname": "abr",
+              "player_id": "hltv:17028",
+              "source_url": "https://www.hltv.org/player/17028/abr",
+              "team_name": "MEIA NOITE"
+            },
+            {
+              "hltv_player_id": "23169",
+              "nickname": "Jerr1",
+              "player_id": "hltv:23169",
+              "source_url": "https://www.hltv.org/player/23169/jerr1",
+              "team_name": "MEIA NOITE"
+            }
+          ]
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": 13,
+            "score2": 6,
+            "status": "finished"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Nuke"
+        ],
+        "match_id": "hltv:2398582",
+        "player_stats": [
+          {
+            "adr": 91.9,
+            "deaths": 12,
+            "hltv_player_id": "21888",
+            "kast": 78.9,
+            "kills": 14,
+            "nickname": "Thuister",
+            "player_id": "hltv:21888",
+            "rating": 1.49,
+            "source_url": "https://www.hltv.org/player/21888/thuister",
+            "team_side": 1
+          },
+          {
+            "adr": 70.5,
+            "deaths": 8,
+            "hltv_player_id": "24298",
+            "kast": 73.7,
+            "kills": 15,
+            "nickname": "ALENNNCAR",
+            "player_id": "hltv:24298",
+            "rating": 1.34,
+            "source_url": "https://www.hltv.org/player/24298/alennncar",
+            "team_side": 1
+          },
+          {
+            "adr": 75.5,
+            "deaths": 13,
+            "hltv_player_id": "24930",
+            "kast": 84.2,
+            "kills": 16,
+            "nickname": "vzn",
+            "player_id": "hltv:24930",
+            "rating": 1.25,
+            "source_url": "https://www.hltv.org/player/24930/vzn",
+            "team_side": 1
+          },
+          {
+            "adr": 92.9,
+            "deaths": 11,
+            "hltv_player_id": "23786",
+            "kast": 78.9,
+            "kills": 14,
+            "nickname": "Tineu",
+            "player_id": "hltv:23786",
+            "rating": 1.21,
+            "source_url": "https://www.hltv.org/player/23786/tineu",
+            "team_side": 1
+          },
+          {
+            "adr": 51.3,
+            "deaths": 11,
+            "hltv_player_id": "25812",
+            "kast": 68.4,
+            "kills": 10,
+            "nickname": "khowy",
+            "player_id": "hltv:25812",
+            "rating": 1.11,
+            "source_url": "https://www.hltv.org/player/25812/khowy",
+            "team_side": 1
+          },
+          {
+            "adr": 79.7,
+            "deaths": 13,
+            "hltv_player_id": "20577",
+            "kast": 84.2,
+            "kills": 13,
+            "nickname": "Bruninho",
+            "player_id": "hltv:20577",
+            "rating": 1.17,
+            "source_url": "https://www.hltv.org/player/20577/bruninho",
+            "team_side": 2
+          },
+          {
+            "adr": 61.3,
+            "deaths": 14,
+            "hltv_player_id": "21099",
+            "kast": 68.4,
+            "kills": 13,
+            "nickname": "bsd",
+            "player_id": "hltv:21099",
+            "rating": 0.88,
+            "source_url": "https://www.hltv.org/player/21099/bsd",
+            "team_side": 2
+          },
+          {
+            "adr": 71.7,
+            "deaths": 14,
+            "hltv_player_id": "18891",
+            "kast": 57.9,
+            "kills": 9,
+            "nickname": "CutzMeretz",
+            "player_id": "hltv:18891",
+            "rating": 0.83,
+            "source_url": "https://www.hltv.org/player/18891/cutzmeretz",
+            "team_side": 2
+          },
+          {
+            "adr": 60.1,
+            "deaths": 16,
+            "hltv_player_id": "17028",
+            "kast": 52.6,
+            "kills": 9,
+            "nickname": "abr",
+            "player_id": "hltv:17028",
+            "rating": 0.66,
+            "source_url": "https://www.hltv.org/player/17028/abr",
+            "team_side": 2
+          },
+          {
+            "adr": 62.9,
+            "deaths": 12,
+            "hltv_player_id": "23169",
+            "kast": 57.9,
+            "kills": 11,
+            "nickname": "Jerr1",
+            "player_id": "hltv:23169",
+            "rating": 0.65,
+            "source_url": "https://www.hltv.org/player/23169/jerr1",
+            "team_side": 2
+          }
+        ],
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-09-30T22:00:00Z",
+        "status": "live",
+        "team1_name": "METANOIA Wolves",
+        "team2_name": "MEIA NOITE",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
+      },
+      {
         "event_id": "hltv:cct-2026-south-america-series-6",
         "event_name": "CCT 2026 South America Series 6",
         "event_url": "https://www.hltv.org/events/archive",
@@ -7089,45 +7311,17 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "match_id": "hltv:2398581",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398581/grmio-vs-quintessncia-cct-2026-south-america-series-6",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-09-30T19:00:00Z",
-        "status": "live",
+        "starts_at": "2026-09-30T22:21:48Z",
+        "status": "finished",
         "team1_name": "Gr\u00eamio",
         "team2_name": "QUINTESS\u00caNCIA",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-10",
-        "event_name": "CCT 2026 Europe Series 10",
-        "hltv_match_id": "2398377",
-        "match_id": "hltv:2398377",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398377/ex-rustec-vs-berg-cct-2026-europe-series-10",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-30T19:09:34Z",
-        "status": "finished",
-        "team1_name": "ex-RUSTEC",
-        "team2_name": "BERG",
-        "winner_name": "ex-RUSTEC"
-      },
-      {
-        "event_id": "hltv:9425",
-        "event_name": "CCT 2026 South America Series 6",
-        "hltv_match_id": "2398582",
-        "match_id": "hltv:2398582",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-30T22:00:00Z",
-        "status": "upcoming",
-        "team1_name": "METANOIA Wolves",
-        "team2_name": "MEIA NOITE"
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated.",
+        "winner_name": "Gr\u00eamio"
       },
       {
         "event_id": "hltv:9420",
@@ -7156,6 +7350,34 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "PCIFIC",
         "team2_name": "Nexus"
+      },
+      {
+        "event_id": "hltv:9433",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "hltv_match_id": "2399006",
+        "match_id": "hltv:2399006",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399006/spirit-academy-vs-mellren-cct-2026-challengers-europe-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-01T13:45:00Z",
+        "status": "upcoming",
+        "team1_name": "Spirit Academy",
+        "team2_name": "mellren"
+      },
+      {
+        "event_id": "hltv:9433",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "hltv_match_id": "2399007",
+        "match_id": "hltv:2399007",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399007/forze-reload-vs-fire-flux-cct-2026-challengers-europe-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-01T13:45:00Z",
+        "status": "upcoming",
+        "team1_name": "FORZE Reload",
+        "team2_name": "Fire Flux"
       },
       {
         "event_id": "hltv:9420",
@@ -17562,28 +17784,256 @@ window.__STRIKESIGNAL_DATA__ = {
             ],
             "match_id": "hltv:2398581",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398581/grmio-vs-quintessncia-cct-2026-south-america-series-6",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-09-30T19:00:00Z",
-            "status": "live",
+            "starts_at": "2026-09-30T22:21:48Z",
+            "status": "finished",
             "team1_name": "Gr\u00eamio",
             "team2_name": "QUINTESS\u00caNCIA",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated.",
+            "winner_name": "Gr\u00eamio"
           },
           {
-            "event_id": "hltv:9425",
+            "event_id": "hltv:cct-2026-south-america-series-6",
             "event_name": "CCT 2026 South America Series 6",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398582",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "21888",
+                  "nickname": "Thuister",
+                  "player_id": "hltv:21888",
+                  "source_url": "https://www.hltv.org/player/21888/thuister",
+                  "team_name": "METANOIA Wolves"
+                },
+                {
+                  "hltv_player_id": "24298",
+                  "nickname": "ALENNNCAR",
+                  "player_id": "hltv:24298",
+                  "source_url": "https://www.hltv.org/player/24298/alennncar",
+                  "team_name": "METANOIA Wolves"
+                },
+                {
+                  "hltv_player_id": "24930",
+                  "nickname": "vzn",
+                  "player_id": "hltv:24930",
+                  "source_url": "https://www.hltv.org/player/24930/vzn",
+                  "team_name": "METANOIA Wolves"
+                },
+                {
+                  "hltv_player_id": "23786",
+                  "nickname": "Tineu",
+                  "player_id": "hltv:23786",
+                  "source_url": "https://www.hltv.org/player/23786/tineu",
+                  "team_name": "METANOIA Wolves"
+                },
+                {
+                  "hltv_player_id": "25812",
+                  "nickname": "khowy",
+                  "player_id": "hltv:25812",
+                  "source_url": "https://www.hltv.org/player/25812/khowy",
+                  "team_name": "METANOIA Wolves"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "20577",
+                  "nickname": "Bruninho",
+                  "player_id": "hltv:20577",
+                  "source_url": "https://www.hltv.org/player/20577/bruninho",
+                  "team_name": "MEIA NOITE"
+                },
+                {
+                  "hltv_player_id": "21099",
+                  "nickname": "bsd",
+                  "player_id": "hltv:21099",
+                  "source_url": "https://www.hltv.org/player/21099/bsd",
+                  "team_name": "MEIA NOITE"
+                },
+                {
+                  "hltv_player_id": "18891",
+                  "nickname": "CutzMeretz",
+                  "player_id": "hltv:18891",
+                  "source_url": "https://www.hltv.org/player/18891/cutzmeretz",
+                  "team_name": "MEIA NOITE"
+                },
+                {
+                  "hltv_player_id": "17028",
+                  "nickname": "abr",
+                  "player_id": "hltv:17028",
+                  "source_url": "https://www.hltv.org/player/17028/abr",
+                  "team_name": "MEIA NOITE"
+                },
+                {
+                  "hltv_player_id": "23169",
+                  "nickname": "Jerr1",
+                  "player_id": "hltv:23169",
+                  "source_url": "https://www.hltv.org/player/23169/jerr1",
+                  "team_name": "MEIA NOITE"
+                }
+              ]
+            },
+            "map_results": [
+              {
+                "map_name": "Ancient",
+                "score1": 13,
+                "score2": 6,
+                "status": "finished"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Ancient",
+              "Dust2",
+              "Nuke"
+            ],
             "match_id": "hltv:2398582",
+            "player_stats": [
+              {
+                "adr": 91.9,
+                "deaths": 12,
+                "hltv_player_id": "21888",
+                "kast": 78.9,
+                "kills": 14,
+                "nickname": "Thuister",
+                "player_id": "hltv:21888",
+                "rating": 1.49,
+                "source_url": "https://www.hltv.org/player/21888/thuister",
+                "team_side": 1
+              },
+              {
+                "adr": 70.5,
+                "deaths": 8,
+                "hltv_player_id": "24298",
+                "kast": 73.7,
+                "kills": 15,
+                "nickname": "ALENNNCAR",
+                "player_id": "hltv:24298",
+                "rating": 1.34,
+                "source_url": "https://www.hltv.org/player/24298/alennncar",
+                "team_side": 1
+              },
+              {
+                "adr": 75.5,
+                "deaths": 13,
+                "hltv_player_id": "24930",
+                "kast": 84.2,
+                "kills": 16,
+                "nickname": "vzn",
+                "player_id": "hltv:24930",
+                "rating": 1.25,
+                "source_url": "https://www.hltv.org/player/24930/vzn",
+                "team_side": 1
+              },
+              {
+                "adr": 92.9,
+                "deaths": 11,
+                "hltv_player_id": "23786",
+                "kast": 78.9,
+                "kills": 14,
+                "nickname": "Tineu",
+                "player_id": "hltv:23786",
+                "rating": 1.21,
+                "source_url": "https://www.hltv.org/player/23786/tineu",
+                "team_side": 1
+              },
+              {
+                "adr": 51.3,
+                "deaths": 11,
+                "hltv_player_id": "25812",
+                "kast": 68.4,
+                "kills": 10,
+                "nickname": "khowy",
+                "player_id": "hltv:25812",
+                "rating": 1.11,
+                "source_url": "https://www.hltv.org/player/25812/khowy",
+                "team_side": 1
+              },
+              {
+                "adr": 79.7,
+                "deaths": 13,
+                "hltv_player_id": "20577",
+                "kast": 84.2,
+                "kills": 13,
+                "nickname": "Bruninho",
+                "player_id": "hltv:20577",
+                "rating": 1.17,
+                "source_url": "https://www.hltv.org/player/20577/bruninho",
+                "team_side": 2
+              },
+              {
+                "adr": 61.3,
+                "deaths": 14,
+                "hltv_player_id": "21099",
+                "kast": 68.4,
+                "kills": 13,
+                "nickname": "bsd",
+                "player_id": "hltv:21099",
+                "rating": 0.88,
+                "source_url": "https://www.hltv.org/player/21099/bsd",
+                "team_side": 2
+              },
+              {
+                "adr": 71.7,
+                "deaths": 14,
+                "hltv_player_id": "18891",
+                "kast": 57.9,
+                "kills": 9,
+                "nickname": "CutzMeretz",
+                "player_id": "hltv:18891",
+                "rating": 0.83,
+                "source_url": "https://www.hltv.org/player/18891/cutzmeretz",
+                "team_side": 2
+              },
+              {
+                "adr": 60.1,
+                "deaths": 16,
+                "hltv_player_id": "17028",
+                "kast": 52.6,
+                "kills": 9,
+                "nickname": "abr",
+                "player_id": "hltv:17028",
+                "rating": 0.66,
+                "source_url": "https://www.hltv.org/player/17028/abr",
+                "team_side": 2
+              },
+              {
+                "adr": 62.9,
+                "deaths": 12,
+                "hltv_player_id": "23169",
+                "kast": 57.9,
+                "kills": 11,
+                "nickname": "Jerr1",
+                "player_id": "hltv:23169",
+                "rating": 0.65,
+                "source_url": "https://www.hltv.org/player/23169/jerr1",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
             "stage_name": "Scheduled series",
             "starts_at": "2026-09-30T22:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "METANOIA Wolves",
-            "team2_name": "MEIA NOITE"
+            "team2_name": "MEIA NOITE",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
           }
         ],
         "name": "CCT 2026 South America Series 6",
@@ -19992,6 +20442,34 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "megoshort",
             "team2_name": "eternal premium",
             "winner_name": "eternal premium"
+          },
+          {
+            "event_id": "hltv:9433",
+            "event_name": "CCT 2026 Challengers Europe Series 7",
+            "hltv_match_id": "2399006",
+            "match_id": "hltv:2399006",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399006/spirit-academy-vs-mellren-cct-2026-challengers-europe-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-01T13:45:00Z",
+            "status": "upcoming",
+            "team1_name": "Spirit Academy",
+            "team2_name": "mellren"
+          },
+          {
+            "event_id": "hltv:9433",
+            "event_name": "CCT 2026 Challengers Europe Series 7",
+            "hltv_match_id": "2399007",
+            "match_id": "hltv:2399007",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399007/forze-reload-vs-fire-flux-cct-2026-challengers-europe-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-01T13:45:00Z",
+            "status": "upcoming",
+            "team1_name": "FORZE Reload",
+            "team2_name": "Fire Flux"
           }
         ],
         "name": "CCT 2026 Challengers Europe Series 7",
@@ -20343,7 +20821,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-09-30T19:24:23Z",
+    "last_verified_utc": "2026-09-30T23:53:52Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -20781,7 +21259,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-09-30T19:26:08Z",
+  "generated_at_utc": "2026-09-30T23:55:24Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -22157,12 +22635,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.630972,
-        "brier": 0.222749,
-        "ece": 0.024476,
-        "log_loss": 0.634594
+        "accuracy": 0.629934,
+        "brier": 0.222909,
+        "ece": 0.025367,
+        "log_loss": 0.634923
       },
-      "rows": 909,
+      "rows": 910,
       "slices": [
         {
           "dimension": "tier",
@@ -22183,12 +22661,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590361,
-            "brier": 0.244638,
-            "ece": 0.063749,
-            "log_loss": 0.68273
+            "accuracy": 0.586826,
+            "brier": 0.245092,
+            "ece": 0.066757,
+            "log_loss": 0.683641
           },
-          "rows": 166
+          "rows": 167
         },
         {
           "dimension": "series_format",
@@ -22209,12 +22687,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.625755,
-            "brier": 0.222515,
-            "ece": 0.035888,
-            "log_loss": 0.633664
+            "accuracy": 0.624498,
+            "brier": 0.222711,
+            "ece": 0.036953,
+            "log_loss": 0.634068
           },
-          "rows": 497
+          "rows": 498
         },
         {
           "dimension": "series_format",
@@ -22230,7 +22708,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "test_rows": 607
+      "test_rows": 608
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -22244,13 +22722,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.637562,
-        "brier": 0.224137,
-        "ece": 0.046744,
-        "log_loss": 0.638457
+        "accuracy": 0.636513,
+        "brier": 0.224218,
+        "ece": 0.045807,
+        "log_loss": 0.638624
       },
       "promotion_passed": false,
-      "rows": 607,
+      "rows": 608,
       "slices": [
         {
           "dimension": "tier",
@@ -22271,12 +22749,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.596386,
-            "brier": 0.244112,
-            "ece": 0.062378,
-            "log_loss": 0.681336
+            "accuracy": 0.592814,
+            "brier": 0.244288,
+            "ece": 0.058873,
+            "log_loss": 0.681688
           },
-          "rows": 166
+          "rows": 167
         },
         {
           "dimension": "series_format",
@@ -22297,12 +22775,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.633803,
-            "brier": 0.22368,
-            "ece": 0.049487,
-            "log_loss": 0.637395
+            "accuracy": 0.63253,
+            "brier": 0.22378,
+            "ece": 0.050438,
+            "log_loss": 0.637602
           },
-          "rows": 497
+          "rows": 498
         },
         {
           "dimension": "series_format",
@@ -22338,7 +22816,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-09-30T19:26:07Z",
+    "generated_at_utc": "2026-09-30T23:55:23Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -22361,12 +22839,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590361,
-            "brier": 0.244638,
-            "ece": 0.063749,
-            "log_loss": 0.68273
+            "accuracy": 0.586826,
+            "brier": 0.245092,
+            "ece": 0.066757,
+            "log_loss": 0.683641
           },
-          "rows": 166
+          "rows": 167
         },
         {
           "dimension": "series_format",
@@ -22387,12 +22865,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.625755,
-            "brier": 0.222515,
-            "ece": 0.035888,
-            "log_loss": 0.633664
+            "accuracy": 0.624498,
+            "brier": 0.222711,
+            "ece": 0.036953,
+            "log_loss": 0.634068
           },
-          "rows": 497
+          "rows": 498
         },
         {
           "dimension": "series_format",
@@ -22420,7 +22898,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 166
+            "rows": 167
           },
           {
             "eligible": true,
@@ -22432,7 +22910,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 497
+            "rows": 498
           },
           {
             "eligible": false,
@@ -22463,12 +22941,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.596386,
-            "brier": 0.241539,
-            "ece": 0.047953,
-            "log_loss": 0.676124
+            "accuracy": 0.592814,
+            "brier": 0.241877,
+            "ece": 0.050935,
+            "log_loss": 0.676803
           },
-          "rows": 166
+          "rows": 167
         },
         {
           "dimension": "series_format",
@@ -22489,12 +22967,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.633803,
-            "brier": 0.223126,
-            "ece": 0.04442,
-            "log_loss": 0.636284
+            "accuracy": 0.63253,
+            "brier": 0.223277,
+            "ece": 0.045427,
+            "log_loss": 0.636592
           },
-          "rows": 497
+          "rows": 498
         },
         {
           "dimension": "series_format",
@@ -22511,10 +22989,10 @@ window.__STRIKESIGNAL_DATA__ = {
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.630972,
-        "brier": 0.22289,
-        "ece": 0.030335,
-        "log_loss": 0.634786
+        "accuracy": 0.629934,
+        "brier": 0.222991,
+        "ece": 0.031162,
+        "log_loss": 0.634994
       },
       "champion_slices": [
         {
@@ -22536,12 +23014,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590361,
-            "brier": 0.245155,
-            "ece": 0.067835,
-            "log_loss": 0.683433
+            "accuracy": 0.586826,
+            "brier": 0.245388,
+            "ece": 0.070621,
+            "log_loss": 0.6839
           },
-          "rows": 166
+          "rows": 167
         },
         {
           "dimension": "series_format",
@@ -22562,12 +23040,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.625755,
-            "brier": 0.222363,
-            "ece": 0.048134,
-            "log_loss": 0.633215
+            "accuracy": 0.624498,
+            "brier": 0.222487,
+            "ece": 0.049107,
+            "log_loss": 0.633472
           },
-          "rows": 497
+          "rows": 498
         },
         {
           "dimension": "series_format",
@@ -22583,37 +23061,37 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "champion_test_rows": 607,
+      "champion_test_rows": 608,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.590361,
-          "brier": 0.245445,
-          "ece": 0.057974,
-          "log_loss": 0.684014
+          "accuracy": 0.586826,
+          "brier": 0.245655,
+          "ece": 0.054454,
+          "log_loss": 0.684436
         },
         "before": {
-          "accuracy": 0.590361,
-          "brier": 0.245155,
-          "ece": 0.067835,
-          "log_loss": 0.683433
+          "accuracy": 0.586826,
+          "brier": 0.245388,
+          "ece": 0.070621,
+          "log_loss": 0.6839
         },
         "candidate_shrink": 0.45,
         "overall_after": {
-          "accuracy": 0.630972,
-          "brier": 0.222969,
-          "ece": 0.026679,
-          "log_loss": 0.634945
+          "accuracy": 0.629934,
+          "brier": 0.223064,
+          "ece": 0.027507,
+          "log_loss": 0.635142
         },
         "overall_before": {
-          "accuracy": 0.630972,
-          "brier": 0.22289,
-          "ece": 0.030335,
-          "log_loss": 0.634786
+          "accuracy": 0.629934,
+          "brier": 0.222991,
+          "ece": 0.031162,
+          "log_loss": 0.634994
         },
         "passed": false,
-        "rows": 166,
+        "rows": 167,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -22632,8 +23110,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
-      "online_rows": 152,
+      "new_rows": 1,
+      "online_rows": 153,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -22839,9 +23317,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2398903",
       "hltv:2398376",
       "hltv:2398580",
-      "hltv:2398377"
+      "hltv:2398377",
+      "hltv:2398581"
     ],
-    "last_online_update_utc": "2026-09-30T19:26:08Z",
+    "last_online_update_utc": "2026-09-30T23:55:24Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -28975,10 +29454,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1534.73,
-        "last_result_utc": "2026-09-28T00:13:21Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.668,
+        "elo": 1521.12,
+        "last_result_utc": "2026-09-30T22:21:48Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.5465,
         "team_key": "quintess ncia",
         "team_name": "QUINTESS\u00caNCIA",
         "vrs_points": 0,
@@ -29235,10 +29714,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1498.13,
-        "last_result_utc": "2026-09-29T20:33:34Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.4835,
+        "elo": 1511.74,
+        "last_result_utc": "2026-09-30T22:21:48Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.5774,
         "team_key": "gr mio",
         "team_name": "Gr\u00eamio",
         "vrs_points": 0,
@@ -32328,43 +32807,6 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5274,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5274,
-      "event_id": "hltv:9425",
-      "event_name": "CCT 2026 South America Series 6",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-09-30",
-      "match_id": "hltv:2398582",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790805600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "METANOIA Wolves",
-      "prob_team1": 0.5274,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-30T22:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "METANOIA Wolves",
-      "team1_vrs_rank": 180,
-      "team2_hltv_rank": null,
-      "team2_name": "MEIA NOITE",
-      "team2_vrs_rank": null
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5221,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -32435,6 +32877,80 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Nexus",
       "team2_vrs_rank": 185
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5375,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5375,
+      "event_id": "hltv:9433",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-01",
+      "match_id": "hltv:2399006",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790862300,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Spirit Academy",
+      "prob_team1": 0.5375,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399006/spirit-academy-vs-mellren-cct-2026-challengers-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-01T13:45:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Spirit Academy",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "mellren",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5452,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5452,
+      "event_id": "hltv:9433",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-01",
+      "match_id": "hltv:2399007",
+      "match_phase": "scheduled",
+      "match_timestamp": 1790862300,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "FORZE Reload",
+      "prob_team1": 0.5452,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399007/forze-reload-vs-fire-flux-cct-2026-challengers-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-01T13:45:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "FORZE Reload",
+      "team1_vrs_rank": 223,
+      "team2_hltv_rank": null,
+      "team2_name": "Fire Flux",
+      "team2_vrs_rank": 325
     },
     {
       "calibration_shrink": 0.5,
@@ -32809,71 +33325,143 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5331,
+      "confidence": 0.5274,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4669,
+      "elo_prob_team1": 0.5274,
       "event_id": "hltv:cct-2026-south-america-series-6",
       "event_name": "CCT 2026 South America Series 6",
       "format": "bo3",
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          {
+            "hltv_player_id": "21888",
+            "nickname": "Thuister",
+            "player_id": "hltv:21888",
+            "source_url": "https://www.hltv.org/player/21888/thuister",
+            "team_name": "METANOIA Wolves"
+          },
+          {
+            "hltv_player_id": "24298",
+            "nickname": "ALENNNCAR",
+            "player_id": "hltv:24298",
+            "source_url": "https://www.hltv.org/player/24298/alennncar",
+            "team_name": "METANOIA Wolves"
+          },
+          {
+            "hltv_player_id": "24930",
+            "nickname": "vzn",
+            "player_id": "hltv:24930",
+            "source_url": "https://www.hltv.org/player/24930/vzn",
+            "team_name": "METANOIA Wolves"
+          },
+          {
+            "hltv_player_id": "23786",
+            "nickname": "Tineu",
+            "player_id": "hltv:23786",
+            "source_url": "https://www.hltv.org/player/23786/tineu",
+            "team_name": "METANOIA Wolves"
+          },
+          {
+            "hltv_player_id": "25812",
+            "nickname": "khowy",
+            "player_id": "hltv:25812",
+            "source_url": "https://www.hltv.org/player/25812/khowy",
+            "team_name": "METANOIA Wolves"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "20577",
+            "nickname": "Bruninho",
+            "player_id": "hltv:20577",
+            "source_url": "https://www.hltv.org/player/20577/bruninho",
+            "team_name": "MEIA NOITE"
+          },
+          {
+            "hltv_player_id": "21099",
+            "nickname": "bsd",
+            "player_id": "hltv:21099",
+            "source_url": "https://www.hltv.org/player/21099/bsd",
+            "team_name": "MEIA NOITE"
+          },
+          {
+            "hltv_player_id": "18891",
+            "nickname": "CutzMeretz",
+            "player_id": "hltv:18891",
+            "source_url": "https://www.hltv.org/player/18891/cutzmeretz",
+            "team_name": "MEIA NOITE"
+          },
+          {
+            "hltv_player_id": "17028",
+            "nickname": "abr",
+            "player_id": "hltv:17028",
+            "source_url": "https://www.hltv.org/player/17028/abr",
+            "team_name": "MEIA NOITE"
+          },
+          {
+            "hltv_player_id": "23169",
+            "nickname": "Jerr1",
+            "player_id": "hltv:23169",
+            "source_url": "https://www.hltv.org/player/23169/jerr1",
+            "team_name": "MEIA NOITE"
+          }
+        ]
       },
       "map_results": [
         {
-          "map_name": "Inferno",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Cache",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 6,
+          "status": "finished"
         },
         {
           "map_name": "Dust2",
           "score1": null,
           "score2": null,
           "status": "upcoming"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
         }
       ],
       "maps": [
-        "Inferno",
-        "Cache",
-        "Dust2"
+        "Ancient",
+        "Dust2",
+        "Nuke"
       ],
       "match_date": "",
-      "match_id": "hltv:2398581",
+      "match_id": "hltv:2398582",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "QUINTESS\u00caNCIA",
-      "prob_team1": 0.4669,
+      "predicted_winner": "METANOIA Wolves",
+      "prob_team1": 0.5274,
       "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398581/grmio-vs-quintessncia-cct-2026-south-america-series-6",
+      "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "Gr\u00eamio",
-      "team1_vrs_rank": null,
+      "team1_name": "METANOIA Wolves",
+      "team1_vrs_rank": 180,
       "team2_hltv_rank": null,
-      "team2_name": "QUINTESS\u00caNCIA",
+      "team2_name": "MEIA NOITE",
       "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 38,
-    "online_results_applied": 5,
+    "live_feed_items": 40,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
