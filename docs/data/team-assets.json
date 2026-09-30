@@ -2065,5 +2065,10 @@
     "name": "HAVENs",
     "logo_url": "https://liquipedia.net/commons/images/thumb/6/67/HAVENs_allmode.png/46px-HAVENs_allmode.png",
     "source": "Liquipedia"
+  },
+  "dmnx": {
+    "name": "DMNX",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a6/DimoniX_Esports_lightmode.png/36px-DimoniX_Esports_lightmode.png",
+    "source": "Liquipedia"
   }
 }
