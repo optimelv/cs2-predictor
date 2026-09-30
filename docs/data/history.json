@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3376,
+    "matches": 3380,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -232,6 +232,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:75e9f24242feb4a127e8",
+      "match_date": "2026-09-30",
+      "starts_at": "2026-09-30T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 2",
+      "team1_name": "megoshort",
+      "team2_name": "Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_2"
+    },
+    {
+      "match_id": "liquipedia:6edf00f81e79747fdc7f",
+      "match_date": "2026-09-30",
+      "starts_at": "2026-09-30T16:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 5",
+      "team1_name": "MIBR Fe",
+      "team2_name": "SdM",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "MIBR Fe",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_5"
     },
     {
       "match_id": "hltv:2398548",
@@ -584,6 +628,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_1"
+    },
+    {
+      "match_id": "liquipedia:455ec9079b881edaa3e9",
+      "match_date": "2026-09-29",
+      "starts_at": "2026-09-29T16:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 4",
+      "team1_name": "BORRA",
+      "team2_name": "Meta.W",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BORRA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_4"
+    },
+    {
+      "match_id": "liquipedia:4de305131d92c3ee437c",
+      "match_date": "2026-09-29",
+      "starts_at": "2026-09-29T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #2",
+      "team1_name": "Procyon",
+      "team2_name": "TDP",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "TDP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
     },
     {
       "match_id": "hltv:2398576",
