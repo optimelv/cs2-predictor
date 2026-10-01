@@ -4574,6 +4574,23 @@
       "winner_name": "Yawara"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-10",
+      "event_name": "CCT 2026 Europe Series 10",
+      "hltv_match_id": "2398381",
+      "match_id": "hltv:2398381",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398381/eac-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-01T19:39:11Z",
+      "status": "finished",
+      "team1_name": "EAC",
+      "team2_name": "ex-Zero Tenacity",
+      "winner_name": "EAC"
+    },
+    {
       "detail_fetched_at_utc": "2026-10-01T20:51:31Z",
       "event_id": "hltv:cct-2026-south-america-series-6",
       "event_name": "CCT 2026 South America Series 6",
@@ -4804,45 +4821,34 @@
         }
       ],
       "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398585/ex-keyd-stars-vs-alka-cct-2026-south-america-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-01T19:00:00Z",
-      "status": "live",
-      "team1_name": "ex-Keyd Stars",
-      "team2_name": "ALKA",
-      "veto_text": "Best of 3 (Online)\n\n* Round of 16\n\n** f4stzin substitutes ckzao on the 1st map"
-    },
-    {
-      "event_id": "hltv:cct-2026-europe-series-10",
-      "event_name": "CCT 2026 Europe Series 10",
-      "hltv_match_id": "2398381",
-      "match_id": "hltv:2398381",
-      "product_tier": "tier_2",
       "score1": 2,
       "score2": 1,
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398381/eac-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+      "source_url": "https://www.hltv.org/matches/2398585/ex-keyd-stars-vs-alka-cct-2026-south-america-series-6",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-01T19:39:11Z",
+      "starts_at": "2026-10-01T21:46:07Z",
       "status": "finished",
-      "team1_name": "EAC",
-      "team2_name": "ex-Zero Tenacity",
-      "winner_name": "EAC"
+      "team1_name": "ex-Keyd Stars",
+      "team2_name": "ALKA",
+      "veto_text": "Best of 3 (Online)\n\n* Round of 16\n\n** f4stzin substitutes ckzao on the 1st map",
+      "winner_name": "ex-Keyd Stars"
     },
     {
-      "event_id": "hltv:9425",
+      "event_id": "hltv:cct-2026-south-america-series-6",
       "event_name": "CCT 2026 South America Series 6",
       "hltv_match_id": "2398586",
       "match_id": "hltv:2398586",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398586/turma-do-pagode-vs-mibr-fe-cct-2026-south-america-series-6",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-01T22:00:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-10-01T23:11:03Z",
+      "status": "finished",
       "team1_name": "Turma do Pagode",
-      "team2_name": "MIBR fe"
+      "team2_name": "MIBR fe",
+      "winner_name": "Turma do Pagode"
     },
     {
       "event_id": "hltv:9420",
@@ -4957,7 +4963,7 @@
       "team2_name": "Noir Verse"
     },
     {
-      "detail_fetched_at_utc": "2026-10-01T20:52:29Z",
+      "detail_fetched_at_utc": "2026-10-01T23:50:39Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -4978,7 +4984,7 @@
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
     },
     {
-      "detail_fetched_at_utc": "2026-10-01T20:53:22Z",
+      "detail_fetched_at_utc": "2026-10-01T23:51:23Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -5013,7 +5019,7 @@
       "team2_name": "Enjoy"
     },
     {
-      "detail_fetched_at_utc": "2026-10-01T20:54:12Z",
+      "detail_fetched_at_utc": "2026-10-01T23:52:17Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -5034,9 +5040,15 @@
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
     },
     {
-      "event_id": "hltv:8244",
+      "detail_fetched_at_utc": "2026-10-01T23:53:04Z",
+      "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398720",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "match_id": "hltv:2398720",
       "product_tier": "tier_1",
       "series_format": "bo3",
@@ -5045,7 +5057,8 @@
       "starts_at": "2026-10-03T11:30:00Z",
       "status": "live",
       "team1_name": "Spirit",
-      "team2_name": "ShindeN"
+      "team2_name": "ShindeN",
+      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
     },
     {
       "event_id": "hltv:8244",
@@ -6215,7 +6228,7 @@
       "location": "Katowice, Poland",
       "matches": [
         {
-          "detail_fetched_at_utc": "2026-10-01T20:52:29Z",
+          "detail_fetched_at_utc": "2026-10-01T23:50:39Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -6236,7 +6249,7 @@
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
         },
         {
-          "detail_fetched_at_utc": "2026-10-01T20:53:22Z",
+          "detail_fetched_at_utc": "2026-10-01T23:51:23Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -6257,7 +6270,7 @@
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
         },
         {
-          "detail_fetched_at_utc": "2026-10-01T20:54:12Z",
+          "detail_fetched_at_utc": "2026-10-01T23:52:17Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -6278,9 +6291,15 @@
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
         },
         {
-          "event_id": "hltv:8244",
+          "detail_fetched_at_utc": "2026-10-01T23:53:04Z",
+          "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398720",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "match_id": "hltv:2398720",
           "product_tier": "tier_1",
           "series_format": "bo3",
@@ -6289,7 +6308,8 @@
           "starts_at": "2026-10-03T11:30:00Z",
           "status": "live",
           "team1_name": "Spirit",
-          "team2_name": "ShindeN"
+          "team2_name": "ShindeN",
+          "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
         },
         {
           "event_id": "hltv:8244",
@@ -16373,28 +16393,34 @@
             }
           ],
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398585/ex-keyd-stars-vs-alka-cct-2026-south-america-series-6",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-01T19:00:00Z",
-          "status": "live",
+          "starts_at": "2026-10-01T21:46:07Z",
+          "status": "finished",
           "team1_name": "ex-Keyd Stars",
           "team2_name": "ALKA",
-          "veto_text": "Best of 3 (Online)\n\n* Round of 16\n\n** f4stzin substitutes ckzao on the 1st map"
+          "veto_text": "Best of 3 (Online)\n\n* Round of 16\n\n** f4stzin substitutes ckzao on the 1st map",
+          "winner_name": "ex-Keyd Stars"
         },
         {
-          "event_id": "hltv:9425",
+          "event_id": "hltv:cct-2026-south-america-series-6",
           "event_name": "CCT 2026 South America Series 6",
           "hltv_match_id": "2398586",
           "match_id": "hltv:2398586",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398586/turma-do-pagode-vs-mibr-fe-cct-2026-south-america-series-6",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-01T22:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-10-01T23:11:03Z",
+          "status": "finished",
           "team1_name": "Turma do Pagode",
-          "team2_name": "MIBR fe"
+          "team2_name": "MIBR fe",
+          "winner_name": "Turma do Pagode"
         },
         {
           "event_id": "hltv:9425",
@@ -19846,7 +19872,7 @@
       "teams": 12
     }
   ],
-  "last_verified_utc": "2026-10-01T20:54:12Z",
+  "last_verified_utc": "2026-10-01T23:53:04Z",
   "sources": [
     {
       "name": "HLTV events calendar",

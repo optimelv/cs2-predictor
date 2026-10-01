@@ -4575,6 +4575,23 @@
         "winner_name": "Yawara"
       },
       {
+        "event_id": "hltv:cct-2026-europe-series-10",
+        "event_name": "CCT 2026 Europe Series 10",
+        "hltv_match_id": "2398381",
+        "match_id": "hltv:2398381",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398381/eac-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-01T19:39:11Z",
+        "status": "finished",
+        "team1_name": "EAC",
+        "team2_name": "ex-Zero Tenacity",
+        "winner_name": "EAC"
+      },
+      {
         "detail_fetched_at_utc": "2026-10-01T20:51:31Z",
         "event_id": "hltv:cct-2026-south-america-series-6",
         "event_name": "CCT 2026 South America Series 6",
@@ -4805,45 +4822,34 @@
           }
         ],
         "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398585/ex-keyd-stars-vs-alka-cct-2026-south-america-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-01T19:00:00Z",
-        "status": "live",
-        "team1_name": "ex-Keyd Stars",
-        "team2_name": "ALKA",
-        "veto_text": "Best of 3 (Online)\n\n* Round of 16\n\n** f4stzin substitutes ckzao on the 1st map"
-      },
-      {
-        "event_id": "hltv:cct-2026-europe-series-10",
-        "event_name": "CCT 2026 Europe Series 10",
-        "hltv_match_id": "2398381",
-        "match_id": "hltv:2398381",
-        "product_tier": "tier_2",
         "score1": 2,
         "score2": 1,
         "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398381/eac-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+        "source_url": "https://www.hltv.org/matches/2398585/ex-keyd-stars-vs-alka-cct-2026-south-america-series-6",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-10-01T19:39:11Z",
+        "starts_at": "2026-10-01T21:46:07Z",
         "status": "finished",
-        "team1_name": "EAC",
-        "team2_name": "ex-Zero Tenacity",
-        "winner_name": "EAC"
+        "team1_name": "ex-Keyd Stars",
+        "team2_name": "ALKA",
+        "veto_text": "Best of 3 (Online)\n\n* Round of 16\n\n** f4stzin substitutes ckzao on the 1st map",
+        "winner_name": "ex-Keyd Stars"
       },
       {
-        "event_id": "hltv:9425",
+        "event_id": "hltv:cct-2026-south-america-series-6",
         "event_name": "CCT 2026 South America Series 6",
         "hltv_match_id": "2398586",
         "match_id": "hltv:2398586",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398586/turma-do-pagode-vs-mibr-fe-cct-2026-south-america-series-6",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-10-01T22:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-10-01T23:11:03Z",
+        "status": "finished",
         "team1_name": "Turma do Pagode",
-        "team2_name": "MIBR fe"
+        "team2_name": "MIBR fe",
+        "winner_name": "Turma do Pagode"
       },
       {
         "event_id": "hltv:9420",
@@ -4958,7 +4964,7 @@
         "team2_name": "Noir Verse"
       },
       {
-        "detail_fetched_at_utc": "2026-10-01T20:52:29Z",
+        "detail_fetched_at_utc": "2026-10-01T23:50:39Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -4979,7 +4985,7 @@
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
       },
       {
-        "detail_fetched_at_utc": "2026-10-01T20:53:22Z",
+        "detail_fetched_at_utc": "2026-10-01T23:51:23Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -5014,7 +5020,7 @@
         "team2_name": "Enjoy"
       },
       {
-        "detail_fetched_at_utc": "2026-10-01T20:54:12Z",
+        "detail_fetched_at_utc": "2026-10-01T23:52:17Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -5035,9 +5041,15 @@
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
       },
       {
-        "event_id": "hltv:8244",
+        "detail_fetched_at_utc": "2026-10-01T23:53:04Z",
+        "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398720",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "match_id": "hltv:2398720",
         "product_tier": "tier_1",
         "series_format": "bo3",
@@ -5046,7 +5058,8 @@
         "starts_at": "2026-10-03T11:30:00Z",
         "status": "live",
         "team1_name": "Spirit",
-        "team2_name": "ShindeN"
+        "team2_name": "ShindeN",
+        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
       },
       {
         "event_id": "hltv:8244",
@@ -6216,7 +6229,7 @@
         "location": "Katowice, Poland",
         "matches": [
           {
-            "detail_fetched_at_utc": "2026-10-01T20:52:29Z",
+            "detail_fetched_at_utc": "2026-10-01T23:50:39Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -6237,7 +6250,7 @@
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
-            "detail_fetched_at_utc": "2026-10-01T20:53:22Z",
+            "detail_fetched_at_utc": "2026-10-01T23:51:23Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -6258,7 +6271,7 @@
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
-            "detail_fetched_at_utc": "2026-10-01T20:54:12Z",
+            "detail_fetched_at_utc": "2026-10-01T23:52:17Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -6279,9 +6292,15 @@
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
-            "event_id": "hltv:8244",
+            "detail_fetched_at_utc": "2026-10-01T23:53:04Z",
+            "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398720",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
             "match_id": "hltv:2398720",
             "product_tier": "tier_1",
             "series_format": "bo3",
@@ -6290,7 +6309,8 @@
             "starts_at": "2026-10-03T11:30:00Z",
             "status": "live",
             "team1_name": "Spirit",
-            "team2_name": "ShindeN"
+            "team2_name": "ShindeN",
+            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
             "event_id": "hltv:8244",
@@ -16374,28 +16394,34 @@
               }
             ],
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398585/ex-keyd-stars-vs-alka-cct-2026-south-america-series-6",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-01T19:00:00Z",
-            "status": "live",
+            "starts_at": "2026-10-01T21:46:07Z",
+            "status": "finished",
             "team1_name": "ex-Keyd Stars",
             "team2_name": "ALKA",
-            "veto_text": "Best of 3 (Online)\n\n* Round of 16\n\n** f4stzin substitutes ckzao on the 1st map"
+            "veto_text": "Best of 3 (Online)\n\n* Round of 16\n\n** f4stzin substitutes ckzao on the 1st map",
+            "winner_name": "ex-Keyd Stars"
           },
           {
-            "event_id": "hltv:9425",
+            "event_id": "hltv:cct-2026-south-america-series-6",
             "event_name": "CCT 2026 South America Series 6",
             "hltv_match_id": "2398586",
             "match_id": "hltv:2398586",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398586/turma-do-pagode-vs-mibr-fe-cct-2026-south-america-series-6",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-01T22:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-10-01T23:11:03Z",
+            "status": "finished",
             "team1_name": "Turma do Pagode",
-            "team2_name": "MIBR fe"
+            "team2_name": "MIBR fe",
+            "winner_name": "Turma do Pagode"
           },
           {
             "event_id": "hltv:9425",
@@ -19847,7 +19873,7 @@
         "teams": 12
       }
     ],
-    "last_verified_utc": "2026-10-01T20:54:12Z",
+    "last_verified_utc": "2026-10-01T23:53:04Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -20285,7 +20311,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-01T21:01:34Z",
+  "generated_at_utc": "2026-10-01T23:56:28Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -21661,12 +21687,12 @@
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.632953,
-        "brier": 0.222416,
-        "ece": 0.022204,
-        "log_loss": 0.63389
+        "accuracy": 0.63252,
+        "brier": 0.22234,
+        "ece": 0.023561,
+        "log_loss": 0.633742
       },
-      "rows": 919,
+      "rows": 921,
       "slices": [
         {
           "dimension": "tier",
@@ -21687,12 +21713,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.585227,
-            "brier": 0.245387,
-            "ece": 0.056299,
-            "log_loss": 0.684238
+            "accuracy": 0.58427,
+            "brier": 0.244867,
+            "ece": 0.05757,
+            "log_loss": 0.683161
           },
-          "rows": 176
+          "rows": 178
         },
         {
           "dimension": "series_format",
@@ -21713,12 +21739,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.628231,
-            "brier": 0.222112,
-            "ece": 0.033936,
-            "log_loss": 0.632818
+            "accuracy": 0.627723,
+            "brier": 0.222021,
+            "ece": 0.034432,
+            "log_loss": 0.632642
           },
-          "rows": 503
+          "rows": 505
         },
         {
           "dimension": "series_format",
@@ -21734,7 +21760,7 @@
           "rows": 10
         }
       ],
-      "test_rows": 613
+      "test_rows": 615
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -21748,13 +21774,13 @@
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.636215,
-        "brier": 0.223895,
-        "ece": 0.046609,
-        "log_loss": 0.638014
+        "accuracy": 0.635772,
+        "brier": 0.223932,
+        "ece": 0.046254,
+        "log_loss": 0.638097
       },
       "promotion_passed": false,
-      "rows": 613,
+      "rows": 615,
       "slices": [
         {
           "dimension": "tier",
@@ -21775,12 +21801,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.596591,
-            "brier": 0.244077,
-            "ece": 0.062183,
-            "log_loss": 0.681266
+            "accuracy": 0.595506,
+            "brier": 0.243981,
+            "ece": 0.060779,
+            "log_loss": 0.681066
           },
-          "rows": 176
+          "rows": 178
         },
         {
           "dimension": "series_format",
@@ -21801,12 +21827,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.632207,
-            "brier": 0.223383,
-            "ece": 0.047997,
-            "log_loss": 0.636853
+            "accuracy": 0.631683,
+            "brier": 0.223431,
+            "ece": 0.049713,
+            "log_loss": 0.636958
           },
-          "rows": 503
+          "rows": 505
         },
         {
           "dimension": "series_format",
@@ -21842,7 +21868,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-01T21:01:33Z",
+    "generated_at_utc": "2026-10-01T23:56:28Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -21865,12 +21891,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.585227,
-            "brier": 0.245387,
-            "ece": 0.056299,
-            "log_loss": 0.684238
+            "accuracy": 0.58427,
+            "brier": 0.244867,
+            "ece": 0.05757,
+            "log_loss": 0.683161
           },
-          "rows": 176
+          "rows": 178
         },
         {
           "dimension": "series_format",
@@ -21891,12 +21917,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.628231,
-            "brier": 0.222112,
-            "ece": 0.033936,
-            "log_loss": 0.632818
+            "accuracy": 0.627723,
+            "brier": 0.222021,
+            "ece": 0.034432,
+            "log_loss": 0.632642
           },
-          "rows": 503
+          "rows": 505
         },
         {
           "dimension": "series_format",
@@ -21924,7 +21950,7 @@
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 176
+            "rows": 178
           },
           {
             "eligible": true,
@@ -21936,7 +21962,7 @@
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 503
+            "rows": 505
           },
           {
             "eligible": false,
@@ -21967,12 +21993,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.596591,
-            "brier": 0.241519,
-            "ece": 0.053984,
-            "log_loss": 0.676084
+            "accuracy": 0.595506,
+            "brier": 0.241384,
+            "ece": 0.054787,
+            "log_loss": 0.675773
           },
-          "rows": 176
+          "rows": 178
         },
         {
           "dimension": "series_format",
@@ -21993,12 +22019,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.632207,
-            "brier": 0.22279,
-            "ece": 0.045034,
-            "log_loss": 0.635661
+            "accuracy": 0.631683,
+            "brier": 0.222816,
+            "ece": 0.046687,
+            "log_loss": 0.635712
           },
-          "rows": 503
+          "rows": 505
         },
         {
           "dimension": "series_format",
@@ -22015,10 +22041,10 @@
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.632953,
-        "brier": 0.222466,
-        "ece": 0.028131,
-        "log_loss": 0.633893
+        "accuracy": 0.63252,
+        "brier": 0.222465,
+        "ece": 0.029567,
+        "log_loss": 0.633903
       },
       "champion_slices": [
         {
@@ -22040,12 +22066,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.585227,
-            "brier": 0.24556,
-            "ece": 0.057864,
-            "log_loss": 0.684246
+            "accuracy": 0.58427,
+            "brier": 0.245297,
+            "ece": 0.062493,
+            "log_loss": 0.683717
           },
-          "rows": 176
+          "rows": 178
         },
         {
           "dimension": "series_format",
@@ -22066,12 +22092,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.628231,
-            "brier": 0.221852,
-            "ece": 0.048109,
-            "log_loss": 0.632145
+            "accuracy": 0.627723,
+            "brier": 0.221853,
+            "ece": 0.049779,
+            "log_loss": 0.632165
           },
-          "rows": 503
+          "rows": 505
         },
         {
           "dimension": "series_format",
@@ -22087,37 +22113,37 @@
           "rows": 10
         }
       ],
-      "champion_test_rows": 613,
+      "champion_test_rows": 615,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.585227,
-          "brier": 0.245812,
-          "ece": 0.052719,
-          "log_loss": 0.684752
+          "accuracy": 0.58427,
+          "brier": 0.245575,
+          "ece": 0.051743,
+          "log_loss": 0.684275
         },
         "before": {
-          "accuracy": 0.585227,
-          "brier": 0.24556,
-          "ece": 0.057864,
-          "log_loss": 0.684246
+          "accuracy": 0.58427,
+          "brier": 0.245297,
+          "ece": 0.062493,
+          "log_loss": 0.683717
         },
         "candidate_shrink": 0.45,
         "overall_after": {
-          "accuracy": 0.632953,
-          "brier": 0.222538,
-          "ece": 0.024845,
-          "log_loss": 0.634038
+          "accuracy": 0.63252,
+          "brier": 0.222545,
+          "ece": 0.025981,
+          "log_loss": 0.634065
         },
         "overall_before": {
-          "accuracy": 0.632953,
-          "brier": 0.222466,
-          "ece": 0.028131,
-          "log_loss": 0.633893
+          "accuracy": 0.63252,
+          "brier": 0.222465,
+          "ece": 0.029567,
+          "log_loss": 0.633903
         },
         "passed": false,
-        "rows": 176,
+        "rows": 178,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -22136,8 +22162,8 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
-      "online_rows": 162,
+      "new_rows": 2,
+      "online_rows": 164,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -22356,9 +22382,11 @@
       "hltv:2399007",
       "hltv:2399006",
       "hltv:2398584",
-      "hltv:2398381"
+      "hltv:2398381",
+      "hltv:2398585",
+      "hltv:2398586"
     ],
-    "last_online_update_utc": "2026-10-01T21:01:34Z",
+    "last_online_update_utc": "2026-10-01T23:56:28Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -24686,7 +24714,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "state_policy": "ranked_top120",
-    "team_count": 446,
+    "team_count": 447,
     "teams": [
       {
         "elo": 1906.35,
@@ -25275,10 +25303,10 @@
         "vrs_rank": 68
       },
       {
-        "elo": 1547.28,
-        "last_result_utc": "2026-09-29T23:08:12Z",
-        "matches": 4,
-        "recent_win_rate_10": 0.776,
+        "elo": 1559.12,
+        "last_result_utc": "2026-10-01T23:11:03Z",
+        "matches": 5,
+        "recent_win_rate_10": 0.8167,
         "team_key": "turma do pagode",
         "team_name": "Turma do Pagode",
         "vrs_points": 1170,
@@ -26555,10 +26583,10 @@
         "vrs_rank": 227
       },
       {
-        "elo": 1476.28,
-        "last_result_utc": "2026-09-29T23:46:05Z",
-        "matches": 4,
-        "recent_win_rate_10": 0.4058,
+        "elo": 1464.8,
+        "last_result_utc": "2026-10-01T21:46:07Z",
+        "matches": 5,
+        "recent_win_rate_10": 0.332,
         "team_key": "alka",
         "team_name": "ALKA",
         "vrs_points": 693,
@@ -28712,10 +28740,10 @@
         "vrs_rank": null
       },
       {
-        "elo": 1501.08,
-        "last_result_utc": "2026-09-30T18:51:25Z",
-        "matches": 4,
-        "recent_win_rate_10": 0.5547,
+        "elo": 1489.24,
+        "last_result_utc": "2026-10-01T23:11:03Z",
+        "matches": 5,
+        "recent_win_rate_10": 0.4538,
         "team_key": "mibr fe",
         "team_name": "MIBR fe",
         "vrs_points": 0,
@@ -28848,6 +28876,16 @@
         "recent_win_rate_10": 0.4091,
         "team_key": "low cortisol br",
         "team_name": "Low Cortisol BR",
+        "vrs_points": 0,
+        "vrs_rank": null
+      },
+      {
+        "elo": 1511.48,
+        "last_result_utc": "2026-10-01T21:46:07Z",
+        "matches": 1,
+        "recent_win_rate_10": 0.5909,
+        "team_key": "ex keyd stars",
+        "team_name": "ex-Keyd Stars",
         "vrs_points": 0,
         "vrs_rank": null
       }
@@ -31865,43 +31903,6 @@
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5682,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5682,
-      "event_id": "hltv:9425",
-      "event_name": "CCT 2026 South America Series 6",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-01",
-      "match_id": "hltv:2398586",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790892000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Turma do Pagode",
-      "prob_team1": 0.5682,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398586/turma-do-pagode-vs-mibr-fe-cct-2026-south-america-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-01T22:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Turma do Pagode",
-      "team1_vrs_rank": 69,
-      "team2_hltv_rank": null,
-      "team2_name": "MIBR fe",
-      "team2_vrs_rank": null
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5711,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -32359,10 +32360,13 @@
       "confidence_label": "strong",
       "data_quality": "full",
       "elo_prob_team1": 0.92,
-      "event_id": "hltv:8244",
+      "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-03",
@@ -32758,12 +32762,49 @@
       "team2_hltv_rank": null,
       "team2_name": "Falcons Force",
       "team2_vrs_rank": 159
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5476,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4524,
+      "event_id": "hltv:9318",
+      "event_name": "Roman Imperium Cup IX",
+      "format": "bo1",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399014",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791364500,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "SINQU",
+      "prob_team1": 0.4524,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo1",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399014/pure-vs-sinqu-roman-imperium-cup-ix",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T09:15:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "PURE",
+      "team1_vrs_rank": 347,
+      "team2_hltv_rank": null,
+      "team2_name": "SINQU",
+      "team2_vrs_rank": 307
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 73,
-    "online_results_applied": 1,
+    "live_feed_items": 72,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
