@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-01T05:55:15Z",
+  "generated_at_utc": "2026-10-01T13:22:27Z",
   "through_date": "2026-10-01",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3385,
+    "matches": 3388,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -44,6 +44,72 @@
       "score1": 0,
       "score2": 1,
       "winner_name": "Mira",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398378",
+      "match_date": "2026-10-01",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "MASONIC",
+      "team2_name": "Lavked",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Lavked",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399005",
+      "match_date": "2026-10-01",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "benched gods",
+      "team2_name": "Phantom Academy",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "benched gods",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398379",
+      "match_date": "2026-10-01",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "PCIFIC",
+      "team2_name": "Nexus",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nexus",
       "tier": "tier_2",
       "best_of": 3,
       "phase": "Completed series",
