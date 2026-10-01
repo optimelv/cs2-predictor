@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3383,
+    "matches": 3385,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -342,6 +342,28 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:dd8f62776ed1d4091d99",
+      "match_date": "2026-09-30",
+      "starts_at": "2026-09-30T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 2",
+      "team1_name": "Leo",
+      "team2_name": "PHTM.Ac",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Leo",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_2"
     },
     {
       "match_id": "hltv:2398548",
@@ -738,6 +760,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_2#Results"
+    },
+    {
+      "match_id": "liquipedia:a8f4674c1a0e0fca5ca9",
+      "match_date": "2026-09-29",
+      "starts_at": "2026-09-29T18:10:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 1",
+      "team1_name": "Butterfly",
+      "team2_name": "PHTM.Ac",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_1"
     },
     {
       "match_id": "hltv:2398576",
