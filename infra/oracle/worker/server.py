@@ -31,6 +31,9 @@ SNAPSHOT_PATH = Path(os.environ.get("SNAPSHOT_PATH", "/data/last-good-snapshot.j
 ARCHIVE_PATH = Path(os.environ.get("ARCHIVE_PATH", "/data/observed-results.sqlite3"))
 BACKFILL_FLOOR = os.environ.get("BACKFILL_FLOOR", "2024-12-28")
 ARCHIVE_BACKFILL_ENABLED = os.environ.get("ARCHIVE_BACKFILL_ENABLED", "true").lower() in {"1", "true", "yes"}
+BACKFILL_BATCH_PAGES = max(1, min(4, int(os.environ.get("BACKFILL_BATCH_PAGES", "2"))))
+BACKFILL_INTERVAL_SECONDS = max(30, int(os.environ.get("BACKFILL_INTERVAL_SECONDS", "60")))
+BACKFILL_PAGE_DELAY_SECONDS = max(15, int(os.environ.get("BACKFILL_PAGE_DELAY_SECONDS", "30")))
 LIQUIPEDIA_ARCHIVE_PATH = Path(os.environ.get("LIQUIPEDIA_ARCHIVE_PATH", "/var/lib/strikesignal/liquipedia-observed-results.jsonl"))
 LIQUIPEDIA_STATE_PATH = Path(os.environ.get("LIQUIPEDIA_STATE_PATH", "/var/lib/strikesignal/liquipedia-gap-state.json"))
 LIQUIPEDIA_ASSETS_PATH = Path(os.environ.get("LIQUIPEDIA_ASSETS_PATH", "/var/lib/strikesignal/liquipedia-logo-candidates.json"))
@@ -43,6 +46,8 @@ state: dict[str, Any] = {
     "last_error": None,
     "last_attempt_utc": None,
 }
+# ponytail: serialize browser sessions on the 1 GB VM; raise concurrency only on a larger free VM.
+source_lock = asyncio.Lock()
 
 
 def utc_now() -> str:
@@ -502,22 +507,22 @@ def players_from_matches(matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 @asynccontextmanager
 async def source_session():
-    if FETCH_BACKEND == "scrapling-http":
-        from scrapling.fetchers import AsyncFetcher
-        yield SimpleNamespace(get=AsyncFetcher.get, browser_fallbacks=0)
-    elif FETCH_BACKEND == "scrapling":
-        from scrapling.fetchers import AsyncStealthySession
+    async with source_lock:
+        if FETCH_BACKEND == "scrapling-http":
+            from scrapling.fetchers import AsyncFetcher
+            yield SimpleNamespace(get=AsyncFetcher.get, browser_fallbacks=0)
+        elif FETCH_BACKEND == "scrapling":
+            from scrapling.fetchers import AsyncStealthySession
 
-        # One tab and one browser per collection, released between refreshes.
-        async with AsyncStealthySession(
-            headless=True, max_pages=1, timeout=REQUEST_TIMEOUT_SECONDS * 1000,
-            google_search=False, block_ads=True, solve_cloudflare=True,
-        ) as session:
-            yield session
-    else:
-        timeout = ClientTimeout(total=REQUEST_TIMEOUT_SECONDS + 15)
-        async with ClientSession(timeout=timeout) as session:
-            yield session
+            async with AsyncStealthySession(
+                headless=True, max_pages=1, timeout=REQUEST_TIMEOUT_SECONDS * 1000,
+                google_search=False, block_ads=True, solve_cloudflare=True,
+            ) as session:
+                yield session
+        else:
+            timeout = ClientTimeout(total=REQUEST_TIMEOUT_SECONDS + 15)
+            async with ClientSession(timeout=timeout) as session:
+                yield session
 
 
 async def fetch_browser_html(url: str) -> str:
@@ -534,8 +539,10 @@ async def fetch_browser_html(url: str) -> str:
 
 async def fetch_url(session, url: str, *, allow_browser: bool = True) -> str:
     if FETCH_BACKEND.startswith("scrapling"):
-        request = session.get(url, timeout=REQUEST_TIMEOUT_SECONDS, impersonate="chrome") if FETCH_BACKEND == "scrapling-http" else session.fetch(url)
+        request = session.get(url, timeout=REQUEST_TIMEOUT_SECONDS, impersonate="chrome") if FETCH_BACKEND == "scrapling-http" else session.fetch(url, solve_cloudflare=False, disable_resources=True, load_dom=False, network_idle=False)
         response = await asyncio.wait_for(request, REQUEST_TIMEOUT_SECONDS + 15)
+        if FETCH_BACKEND == "scrapling" and response.status == 403:
+            response = await asyncio.wait_for(session.fetch(url, solve_cloudflare=True), REQUEST_TIMEOUT_SECONDS + 15)
         # Bound browser work on the free 1 GB VM to one blocked page per cycle.
         # Do not retry rate-limit responses or loop through identities/proxies.
         if allow_browser and FETCH_BACKEND == "scrapling-http" and response.status == 403 and session.browser_fallbacks < 1:
@@ -572,11 +579,13 @@ def wants_detail(match: dict[str, Any], now: datetime) -> bool:
     return now - timedelta(hours=2) <= start_time <= now + timedelta(hours=6)
 
 
-def select_detail_candidates(matches: list[dict[str, Any]], results: list[dict[str, Any]], now: datetime, limit: int) -> list[dict[str, Any]]:
+def select_detail_candidates(matches: list[dict[str, Any]], results: list[dict[str, Any]], now: datetime, limit: int, cached_ids: set[str] | None = None) -> list[dict[str, Any]]:
     live_matches = [match for match in matches if match.get("status") == "live"]
-    recent_results = [match for match in results if match.get("source_url")][:4]
+    recent_results = [match for match in results if match.get("source_url")]
     upcoming_near = [match for match in matches if match.get("status") != "live" and wants_detail(match, now)]
-    return list({match["match_id"]: match for match in [*live_matches, *recent_results, *upcoming_near]}.values())[:limit]
+    candidates = list({match["match_id"]: match for match in [*live_matches, *upcoming_near, *recent_results]}.values())
+    candidates.sort(key=lambda match: product_tier(str(match.get("event_name") or "")) not in {"tier_1", "tier_2"})
+    return [match for match in candidates if match.get("source_url") and match["match_id"] not in (cached_ids or set())][:limit]
 
 
 async def fetch_snapshot() -> dict[str, Any]:
@@ -587,14 +596,30 @@ async def fetch_snapshot() -> dict[str, Any]:
         scheduled = parse_matches(schedule_html)
         results = parse_results(results_html)[:80]
         by_id = {match["match_id"]: match for match in [*results, *scheduled]}
-        matches = list(by_id.values())
-
         now = datetime.now(timezone.utc)
-        detail_candidates = select_detail_candidates(matches, results, now, MAX_DETAIL_MATCHES)
+        previous = {match["match_id"]: match for match in (state.get("snapshot") or {}).get("matches", [])}
+        cached_ids = set()
+        for match_id, match in by_id.items():
+            cached = previous.get(match_id, {})
+            try:
+                age = (now - datetime.fromisoformat(cached["detail_fetched_at_utc"].replace("Z", "+00:00"))).total_seconds()
+            except (KeyError, ValueError, TypeError):
+                continue
+            ttl = 86400 if match.get("status") == "finished" and cached.get("player_stats") else 900 if match.get("status") in {"finished", "upcoming"} else 0
+            same_result = match.get("status") != "finished" or (cached.get("score1"), cached.get("score2")) == (match.get("score1"), match.get("score2"))
+            if cached.get("status") == match.get("status") and same_result and 0 <= age < ttl:
+                detail = {key: cached[key] for key in ("maps", "map_results", "veto_text", "lineups", "player_stats", "event_id", "event_url", "detail_fetched_at_utc") if key in cached}
+                by_id[match_id] = merge_match_detail(match, detail)
+                cached_ids.add(match_id)
+        matches = list(by_id.values())
+        detail_candidates = select_detail_candidates(matches, results, now, MAX_DETAIL_MATCHES, cached_ids)
         for match in detail_candidates:
             try:
                 detail_html = await fetch_url(session, match["source_url"])
-                by_id[match["match_id"]] = merge_match_detail(match, parse_match_detail(detail_html))
+                detail = parse_match_detail(detail_html)
+                if not any(detail.get(key) for key in ("maps", "map_results", "veto_text", "lineups", "player_stats")):
+                    raise RuntimeError("Match detail page contained no usable detail")
+                by_id[match["match_id"]] = merge_match_detail(match, {**detail, "detail_fetched_at_utc": utc_now()})
             except Exception as exc:
                 detail_errors.append(f"{match['match_id']}: {type(exc).__name__}")
 
@@ -619,6 +644,7 @@ async def fetch_snapshot() -> dict[str, Any]:
             "scheduled_matches": len(scheduled),
             "recent_results": len(results),
             "detail_matches": len(detail_candidates),
+            "detail_cache_hits": len(cached_ids),
             "detail_errors": detail_errors,
             "browser_fallbacks": getattr(session, "browser_fallbacks", 0),
         },
@@ -663,7 +689,9 @@ def archived_result(match: dict[str, Any]) -> dict[str, Any] | None:
         return None
     if stamp.tzinfo is None or stamp.year < 2024 or stamp > datetime.now(timezone.utc) + timedelta(minutes=5) or min(score1, score2) < 0 or not match.get("team1_name") or not match.get("team2_name") or (score1 == score2 and match.get("winner_name")):
         return None
-    return {key: match.get(key) for key in ("match_id", "hltv_match_id", "source_url", "event_id", "event_name", "product_tier", "team1_name", "team2_name", "starts_at", "series_format", "status", "score1", "score2", "winner_name")}
+    item = {key: match.get(key) for key in ("match_id", "hltv_match_id", "source_url", "event_id", "event_name", "product_tier", "team1_name", "team2_name", "starts_at", "series_format", "status", "score1", "score2", "winner_name")}
+    item.update({key: match[key] for key in ("maps", "map_results", "lineups", "player_stats", "veto_text", "event_url", "detail_fetched_at_utc") if match.get(key)})
+    return item
 
 
 def record_results(matches: list[dict[str, Any]], path: Path | None = None) -> int:
@@ -707,16 +735,15 @@ def validate_backfill_page(rows: list[dict[str, Any]], offset: int) -> list[str]
     return dated
 
 
-async def backfill_once() -> None:
+async def backfill_once(session) -> bool:
     with archive_connection() as connection:
         meta = dict(connection.execute("SELECT key,value FROM archive_meta"))
     if meta.get("backfill_complete") == "true":
-        return
+        return True
     offset = int(meta.get("backfill_offset", "75"))
     if offset > 100000:
         raise RuntimeError("HLTV backfill exceeded its bounded page budget")
-    async with source_session() as session:
-        html = await fetch_url(session, f"{HLTV_RESULTS_URL}?offset={offset}", allow_browser=False)
+    html = await fetch_url(session, f"{HLTV_RESULTS_URL}?offset={offset}", allow_browser=False)
     rows = parse_results(html)
     dated = validate_backfill_page(rows, offset)
     with archive_connection() as connection:
@@ -727,37 +754,54 @@ async def backfill_once() -> None:
         ).fetchone()[0]
     if earlier_pages and overlap == 0:
         raise RuntimeError(f"No overlap with earlier HLTV results at offset {offset}; keeping archive cursor")
-    record_results(rows)
+    added = record_results(rows)
+    complete = min(dated)[:10] <= BACKFILL_FLOOR
     with archive_connection() as connection:
         connection.execute("INSERT OR REPLACE INTO backfill_pages(offset,oldest_utc,newest_utc,result_count,collected_at_utc) VALUES (?,?,?,?,?)", (offset, min(dated), max(dated), len(rows), utc_now()))
         connection.execute("INSERT OR REPLACE INTO archive_meta(key,value) VALUES ('backfill_offset',?)", (str(offset + 50),))
-        if min(dated)[:10] <= BACKFILL_FLOOR:
+        updates = {"backfill_last_success_utc": utc_now(), "backfill_last_added": str(added)}
+        if added:
+            updates["backfill_last_progress_utc"] = utc_now()
+        connection.executemany("INSERT OR REPLACE INTO archive_meta(key,value) VALUES (?,?)", updates.items())
+        if complete:
             connection.execute("INSERT OR REPLACE INTO archive_meta(key,value) VALUES ('backfill_complete','true')")
+    print(json.dumps({"backfill_offset": offset + 50, "added": added, "oldest_utc": min(dated), "complete": complete}), flush=True)
+    return complete
 
 
 def retry_delay(error: object) -> int:
     detail = str(error or "")
-    return BLOCKED_RETRY_SECONDS if "HTTP 403" in detail or "TimeoutError" in detail else POLL_SECONDS
+    return BLOCKED_RETRY_SECONDS if "HTTP 403" in detail or "HTTP 429" in detail or "TimeoutError" in detail else POLL_SECONDS
+
+
+async def backfill_batch() -> bool:
+    async with source_session() as session:
+        for index in range(BACKFILL_BATCH_PAGES):
+            state["backfill_last_attempt_utc"] = utc_now()
+            if await backfill_once(session):
+                return True
+            if index + 1 < BACKFILL_BATCH_PAGES:
+                await asyncio.sleep(BACKFILL_PAGE_DELAY_SECONDS)
+    return False
 
 
 async def backfill_loop() -> None:
     await asyncio.sleep(30)
     while True:
-        # The Micro VM is memory-constrained. Run the archive page only after
-        # the live collection, including any browser fallback, has finished.
-        while state.get("refresh_busy"):
-            await asyncio.sleep(10)
         try:
-            await backfill_once()
+            complete = await backfill_batch()
             state["archive_error"] = None
+            if complete:
+                return
         except Exception as exc:
             state["archive_error"] = repr(exc)
-        await asyncio.sleep(retry_delay(state.get("archive_error")))
+            print(json.dumps({"backfill_error": state["archive_error"]}), flush=True)
+        delay = retry_delay(state["archive_error"]) if state["archive_error"] else BACKFILL_INTERVAL_SECONDS
+        await asyncio.sleep(delay)
 
 
 async def refresh() -> None:
     state["last_attempt_utc"] = utc_now()
-    state["refresh_busy"] = True
     try:
         snapshot = await fetch_snapshot()
         save_snapshot(snapshot)
@@ -765,12 +809,11 @@ async def refresh() -> None:
         state["last_error"] = None
         try:
             record_results(snapshot.get("matches") or [])
+            state["result_archive_error"] = None
         except Exception as exc:
-            state["archive_error"] = repr(exc)
+            state["result_archive_error"] = repr(exc)
     except Exception as exc:
         state["last_error"] = repr(exc)
-    finally:
-        state["refresh_busy"] = False
 
 
 async def refresh_loop(app: web.Application) -> None:
@@ -813,7 +856,27 @@ async def health(_: web.Request) -> web.Response:
         "last_good_utc": last_good,
         "last_error": state["last_error"],
         "archive_error": state.get("archive_error"),
+        "result_archive_error": state.get("result_archive_error"),
+        "backfill": backfill_status(),
     }, status=200 if healthy else 503)
+
+
+def backfill_status(path: Path | None = None) -> dict[str, Any]:
+    meta = {}
+    pages = 0
+    if (path or ARCHIVE_PATH).exists():
+        with archive_connection(path) as connection:
+            meta = dict(connection.execute("SELECT key,value FROM archive_meta"))
+            pages = connection.execute("SELECT COUNT(*) FROM backfill_pages").fetchone()[0]
+    complete = meta.get("backfill_complete") == "true"
+    progress = meta.get("backfill_last_progress_utc") or meta.get("backfill_last_success_utc") or state.get("backfill_last_attempt_utc")
+    age = (datetime.now(timezone.utc) - datetime.fromisoformat(progress.replace("Z", "+00:00"))).total_seconds() if progress else None
+    stalled = not complete and (not ARCHIVE_BACKFILL_ENABLED or (age is not None and age > 1800))
+    return {"enabled": ARCHIVE_BACKFILL_ENABLED, "complete": complete, "stalled": stalled,
+            "offset": int(meta.get("backfill_offset", "75")), "pages": pages, "floor": BACKFILL_FLOOR,
+            "last_success_utc": meta.get("backfill_last_success_utc"), "last_progress_utc": meta.get("backfill_last_progress_utc"),
+            "last_added": int(meta.get("backfill_last_added", "0")), "last_attempt_utc": state.get("backfill_last_attempt_utc"),
+            "error": state.get("archive_error")}
 
 
 async def snapshot(_: web.Request) -> web.Response:

@@ -14,7 +14,10 @@ Environment="SOURCE_LABEL=HLTV via Oracle Scrapling"
 Environment=POLL_SECONDS=180
 Environment=REQUEST_TIMEOUT_SECONDS=120
 Environment=MAX_DETAIL_MATCHES=4
-Environment=ARCHIVE_BACKFILL_ENABLED=false
+Environment=ARCHIVE_BACKFILL_ENABLED=true
+Environment=BACKFILL_BATCH_PAGES=2
+Environment=BACKFILL_INTERVAL_SECONDS=60
+Environment=BACKFILL_PAGE_DELAY_SECONDS=30
 Environment=BIND_HOST=127.0.0.1
 Environment=SNAPSHOT_PATH=/var/lib/strikesignal/live-snapshot.json
 Environment=ARCHIVE_PATH=/var/lib/strikesignal/observed-results.sqlite3

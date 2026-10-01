@@ -1,9 +1,9 @@
 [Unit]
-Description=Collect one Liquipedia evidence batch each hour
+Description=Collect one paced Liquipedia evidence batch every 15 minutes
 
 [Timer]
-OnCalendar=hourly
-RandomizedDelaySec=1200
+OnCalendar=*-*-* *:00/15:00
+RandomizedDelaySec=60
 Persistent=true
 Unit=strikesignal-liquipedia.service
 
