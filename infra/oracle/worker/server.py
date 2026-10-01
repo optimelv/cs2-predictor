@@ -513,12 +513,24 @@ async def source_session():
             yield SimpleNamespace(get=AsyncFetcher.get, browser_fallbacks=0)
         elif FETCH_BACKEND == "scrapling":
             from scrapling.fetchers import AsyncStealthySession
-
-            async with AsyncStealthySession(
-                headless=True, max_pages=1, timeout=REQUEST_TIMEOUT_SECONDS * 1000,
-                google_search=False, block_ads=True, solve_cloudflare=True,
-            ) as session:
-                yield session
+            # Reuse the browser and source cookies; recycle periodically on the Micro VM.
+            if state.get("source_session_count", 0) >= 10 and state.get("browser_context"):
+                await state.pop("browser_context").__aexit__(None, None, None)
+                state.pop("browser", None)
+            if not state.get("browser_context"):
+                context = AsyncStealthySession(
+                    headless=True, max_pages=1, timeout=REQUEST_TIMEOUT_SECONDS * 1000,
+                    google_search=False, block_ads=True, solve_cloudflare=True,
+                )
+                browser = await context.__aenter__()
+                state.update(browser_context=context, browser=browser, source_session_count=0)
+            state["source_session_count"] += 1
+            try:
+                yield state["browser"]
+            except Exception:
+                await state.pop("browser_context").__aexit__(None, None, None)
+                state.pop("browser", None)
+                raise
         else:
             timeout = ClientTimeout(total=REQUEST_TIMEOUT_SECONDS + 15)
             async with ClientSession(timeout=timeout) as session:
@@ -838,6 +850,9 @@ async def on_cleanup(app: web.Application) -> None:
         task.cancel()
     if tasks:
         await asyncio.gather(*tasks, return_exceptions=True)
+    if state.get("browser_context"):
+        await state.pop("browser_context").__aexit__(None, None, None)
+        state.pop("browser", None)
 
 
 async def health(_: web.Request) -> web.Response:

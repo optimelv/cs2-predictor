@@ -2,6 +2,7 @@ import unittest
 import json
 import tempfile
 import asyncio
+import sys
 from unittest.mock import AsyncMock, patch
 from datetime import datetime, timezone
 from pathlib import Path
@@ -131,6 +132,33 @@ class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(page.await_count, 2)
         self.assertTrue(all(call.args == (browser,) for call in page.await_args_list))
         self.assertEqual(sleep.await_count, 1)
+
+    async def test_browser_is_reused_recycled_and_closed_on_shutdown(self):
+        from server import source_session, on_cleanup
+        contexts = []
+
+        def browser(**kwargs):
+            context = SimpleNamespace(__aenter__=AsyncMock(return_value=object()), __aexit__=AsyncMock())
+            contexts.append(context)
+            return context
+
+        with patch("server.state", {}), patch("server.source_lock", asyncio.Lock()), patch("server.FETCH_BACKEND", "scrapling"), patch.dict(sys.modules, {"scrapling.fetchers": SimpleNamespace(AsyncStealthySession=browser)}):
+            sessions = []
+            for _ in range(11):
+                async with source_session() as session:
+                    sessions.append(session)
+            self.assertEqual(len(contexts), 2)
+            self.assertTrue(all(session is sessions[0] for session in sessions[:10]))
+            self.assertIsNot(sessions[0], sessions[10])
+            self.assertEqual(contexts[0].__aexit__.await_count, 1)
+            with self.assertRaisesRegex(RuntimeError, "broken browser"):
+                async with source_session():
+                    raise RuntimeError("broken browser")
+            self.assertEqual(contexts[1].__aexit__.await_count, 1)
+            async with source_session():
+                pass
+            await on_cleanup({})
+            self.assertEqual(contexts[2].__aexit__.await_count, 1)
 
     async def test_backfill_validates_before_advancing_and_records_progress(self):
         from server import backfill_once, archive_connection, record_results, backfill_status
