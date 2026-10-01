@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-09-30T23:53:52Z",
+  "fetched_at_utc": "2026-10-01T05:55:15Z",
   "poll_after_ms": 180000,
   "events": [
     {
@@ -450,7 +450,7 @@
       "id": "hltv:cct-2026-south-america-series-6",
       "name": "CCT 2026 South America Series 6",
       "source_url": null,
-      "status": "ongoing",
+      "status": "finished",
       "product_tier": "tier_2",
       "participants": [
         "BORRACHEIROS",
@@ -461,7 +461,9 @@
         "ALKA",
         "MIBR fe",
         "Sementes do Mal",
-        "QUINTESSÊNCIA"
+        "QUINTESSÊNCIA",
+        "ex-ODDIK",
+        "Mira"
       ],
       "matches": [
         {
@@ -566,237 +568,36 @@
           "event_id": "hltv:cct-2026-south-america-series-6",
           "event_name": "CCT 2026 South America Series 6",
           "product_tier": "tier_2",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "team1_name": "METANOIA Wolves",
           "team2_name": "MEIA NOITE",
-          "starts_at": null,
-          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-01T01:32:24Z",
+          "stage_name": "Completed series",
           "series_format": "bo3",
-          "status": "live",
-          "maps": [
-            "Ancient",
-            "Dust2",
-            "Nuke"
-          ],
-          "map_results": [
-            {
-              "map_name": "Ancient",
-              "score1": 13,
-              "score2": 6,
-              "status": "finished"
-            },
-            {
-              "map_name": "Dust2",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Nuke",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated.",
-          "lineups": {
-            "team1": [
-              {
-                "player_id": "hltv:21888",
-                "hltv_player_id": "21888",
-                "nickname": "Thuister",
-                "source_url": "https://www.hltv.org/player/21888/thuister",
-                "team_name": "METANOIA Wolves"
-              },
-              {
-                "player_id": "hltv:24298",
-                "hltv_player_id": "24298",
-                "nickname": "ALENNNCAR",
-                "source_url": "https://www.hltv.org/player/24298/alennncar",
-                "team_name": "METANOIA Wolves"
-              },
-              {
-                "player_id": "hltv:24930",
-                "hltv_player_id": "24930",
-                "nickname": "vzn",
-                "source_url": "https://www.hltv.org/player/24930/vzn",
-                "team_name": "METANOIA Wolves"
-              },
-              {
-                "player_id": "hltv:23786",
-                "hltv_player_id": "23786",
-                "nickname": "Tineu",
-                "source_url": "https://www.hltv.org/player/23786/tineu",
-                "team_name": "METANOIA Wolves"
-              },
-              {
-                "player_id": "hltv:25812",
-                "hltv_player_id": "25812",
-                "nickname": "khowy",
-                "source_url": "https://www.hltv.org/player/25812/khowy",
-                "team_name": "METANOIA Wolves"
-              }
-            ],
-            "team2": [
-              {
-                "player_id": "hltv:20577",
-                "hltv_player_id": "20577",
-                "nickname": "Bruninho",
-                "source_url": "https://www.hltv.org/player/20577/bruninho",
-                "team_name": "MEIA NOITE"
-              },
-              {
-                "player_id": "hltv:21099",
-                "hltv_player_id": "21099",
-                "nickname": "bsd",
-                "source_url": "https://www.hltv.org/player/21099/bsd",
-                "team_name": "MEIA NOITE"
-              },
-              {
-                "player_id": "hltv:18891",
-                "hltv_player_id": "18891",
-                "nickname": "CutzMeretz",
-                "source_url": "https://www.hltv.org/player/18891/cutzmeretz",
-                "team_name": "MEIA NOITE"
-              },
-              {
-                "player_id": "hltv:17028",
-                "hltv_player_id": "17028",
-                "nickname": "abr",
-                "source_url": "https://www.hltv.org/player/17028/abr",
-                "team_name": "MEIA NOITE"
-              },
-              {
-                "player_id": "hltv:23169",
-                "hltv_player_id": "23169",
-                "nickname": "Jerr1",
-                "source_url": "https://www.hltv.org/player/23169/jerr1",
-                "team_name": "MEIA NOITE"
-              }
-            ]
-          },
-          "player_stats": [
-            {
-              "player_id": "hltv:21888",
-              "hltv_player_id": "21888",
-              "nickname": "Thuister",
-              "source_url": "https://www.hltv.org/player/21888/thuister",
-              "team_side": 1,
-              "kills": 14,
-              "deaths": 12,
-              "adr": 91.9,
-              "kast": 78.9,
-              "rating": 1.49
-            },
-            {
-              "player_id": "hltv:24298",
-              "hltv_player_id": "24298",
-              "nickname": "ALENNNCAR",
-              "source_url": "https://www.hltv.org/player/24298/alennncar",
-              "team_side": 1,
-              "kills": 15,
-              "deaths": 8,
-              "adr": 70.5,
-              "kast": 73.7,
-              "rating": 1.34
-            },
-            {
-              "player_id": "hltv:24930",
-              "hltv_player_id": "24930",
-              "nickname": "vzn",
-              "source_url": "https://www.hltv.org/player/24930/vzn",
-              "team_side": 1,
-              "kills": 16,
-              "deaths": 13,
-              "adr": 75.5,
-              "kast": 84.2,
-              "rating": 1.25
-            },
-            {
-              "player_id": "hltv:23786",
-              "hltv_player_id": "23786",
-              "nickname": "Tineu",
-              "source_url": "https://www.hltv.org/player/23786/tineu",
-              "team_side": 1,
-              "kills": 14,
-              "deaths": 11,
-              "adr": 92.9,
-              "kast": 78.9,
-              "rating": 1.21
-            },
-            {
-              "player_id": "hltv:25812",
-              "hltv_player_id": "25812",
-              "nickname": "khowy",
-              "source_url": "https://www.hltv.org/player/25812/khowy",
-              "team_side": 1,
-              "kills": 10,
-              "deaths": 11,
-              "adr": 51.3,
-              "kast": 68.4,
-              "rating": 1.11
-            },
-            {
-              "player_id": "hltv:20577",
-              "hltv_player_id": "20577",
-              "nickname": "Bruninho",
-              "source_url": "https://www.hltv.org/player/20577/bruninho",
-              "team_side": 2,
-              "kills": 13,
-              "deaths": 13,
-              "adr": 79.7,
-              "kast": 84.2,
-              "rating": 1.17
-            },
-            {
-              "player_id": "hltv:21099",
-              "hltv_player_id": "21099",
-              "nickname": "bsd",
-              "source_url": "https://www.hltv.org/player/21099/bsd",
-              "team_side": 2,
-              "kills": 13,
-              "deaths": 14,
-              "adr": 61.3,
-              "kast": 68.4,
-              "rating": 0.88
-            },
-            {
-              "player_id": "hltv:18891",
-              "hltv_player_id": "18891",
-              "nickname": "CutzMeretz",
-              "source_url": "https://www.hltv.org/player/18891/cutzmeretz",
-              "team_side": 2,
-              "kills": 9,
-              "deaths": 14,
-              "adr": 71.7,
-              "kast": 57.9,
-              "rating": 0.83
-            },
-            {
-              "player_id": "hltv:17028",
-              "hltv_player_id": "17028",
-              "nickname": "abr",
-              "source_url": "https://www.hltv.org/player/17028/abr",
-              "team_side": 2,
-              "kills": 9,
-              "deaths": 16,
-              "adr": 60.1,
-              "kast": 52.6,
-              "rating": 0.66
-            },
-            {
-              "player_id": "hltv:23169",
-              "hltv_player_id": "23169",
-              "nickname": "Jerr1",
-              "source_url": "https://www.hltv.org/player/23169/jerr1",
-              "team_side": 2,
-              "kills": 11,
-              "deaths": 12,
-              "adr": 62.9,
-              "kast": 57.9,
-              "rating": 0.65
-            }
-          ]
+          "status": "finished",
+          "score1": 1,
+          "score2": 2,
+          "winner_name": "MEIA NOITE",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2398587",
+          "hltv_match_id": "2398587",
+          "source_url": "https://www.hltv.org/matches/2398587/ex-oddik-vs-mira-cct-2026-south-america-series-6",
+          "event_id": "hltv:cct-2026-south-america-series-6",
+          "event_name": "CCT 2026 South America Series 6",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "ex-ODDIK",
+          "team2_name": "Mira",
+          "starts_at": "2026-10-01T02:32:50Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 0,
+          "score2": 1,
+          "winner_name": "Mira",
+          "maps": []
         }
       ],
       "format": {
@@ -961,6 +762,150 @@
           "team1_name": "EAC",
           "team2_name": "ex-Zero Tenacity",
           "starts_at": "2026-10-01T17:00:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "upcoming",
+          "maps": []
+        }
+      ],
+      "format": {
+        "type": "mixed",
+        "label": "Event schedule",
+        "stages": [],
+        "settings": {}
+      },
+      "current_stage": "Schedule"
+    },
+    {
+      "id": "hltv:9425",
+      "name": "CCT 2026 South America Series 6",
+      "source_url": null,
+      "status": "upcoming",
+      "product_tier": "tier_2",
+      "participants": [
+        "Low Cortisol BR",
+        "BESTIA Academy",
+        "Yawara",
+        "BORRACHEIROS",
+        "ex-Keyd Stars",
+        "ALKA",
+        "Turma do Pagode",
+        "MIBR fe",
+        "Bounty Hunters",
+        "MEIA NOITE",
+        "Isurus",
+        "Procyon",
+        "Galorys",
+        "Grêmio"
+      ],
+      "matches": [
+        {
+          "match_id": "hltv:2398583",
+          "hltv_match_id": "2398583",
+          "source_url": "https://www.hltv.org/matches/2398583/low-cortisol-br-vs-bestia-academy-cct-2026-south-america-series-6",
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Low Cortisol BR",
+          "team2_name": "BESTIA Academy",
+          "starts_at": "2026-10-01T13:00:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "upcoming",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2398584",
+          "hltv_match_id": "2398584",
+          "source_url": "https://www.hltv.org/matches/2398584/yawara-vs-borracheiros-cct-2026-south-america-series-6",
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Yawara",
+          "team2_name": "BORRACHEIROS",
+          "starts_at": "2026-10-01T16:00:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "upcoming",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2398585",
+          "hltv_match_id": "2398585",
+          "source_url": "https://www.hltv.org/matches/2398585/ex-keyd-stars-vs-alka-cct-2026-south-america-series-6",
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "ex-Keyd Stars",
+          "team2_name": "ALKA",
+          "starts_at": "2026-10-01T19:00:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "upcoming",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2398586",
+          "hltv_match_id": "2398586",
+          "source_url": "https://www.hltv.org/matches/2398586/turma-do-pagode-vs-mibr-fe-cct-2026-south-america-series-6",
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Turma do Pagode",
+          "team2_name": "MIBR fe",
+          "starts_at": "2026-10-01T22:00:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "upcoming",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2398588",
+          "hltv_match_id": "2398588",
+          "source_url": "https://www.hltv.org/matches/2398588/bounty-hunters-vs-meia-noite-cct-2026-south-america-series-6",
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Bounty Hunters",
+          "team2_name": "MEIA NOITE",
+          "starts_at": "2026-10-02T16:00:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "upcoming",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2398589",
+          "hltv_match_id": "2398589",
+          "source_url": "https://www.hltv.org/matches/2398589/isurus-vs-procyon-cct-2026-south-america-series-6",
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Isurus",
+          "team2_name": "Procyon",
+          "starts_at": "2026-10-02T19:00:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "upcoming",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2398590",
+          "hltv_match_id": "2398590",
+          "source_url": "https://www.hltv.org/matches/2398590/galorys-vs-grmio-cct-2026-south-america-series-6",
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Galorys",
+          "team2_name": "Grêmio",
+          "starts_at": "2026-10-02T22:00:00Z",
           "stage_name": "Scheduled series",
           "series_format": "bo3",
           "status": "upcoming",
@@ -1669,6 +1614,44 @@
       "maps": []
     },
     {
+      "match_id": "hltv:2398582",
+      "hltv_match_id": "2398582",
+      "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
+      "event_id": "hltv:cct-2026-south-america-series-6",
+      "event_name": "CCT 2026 South America Series 6",
+      "product_tier": "tier_2",
+      "event_url": null,
+      "team1_name": "METANOIA Wolves",
+      "team2_name": "MEIA NOITE",
+      "starts_at": "2026-10-01T01:32:24Z",
+      "stage_name": "Completed series",
+      "series_format": "bo3",
+      "status": "finished",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MEIA NOITE",
+      "maps": []
+    },
+    {
+      "match_id": "hltv:2398587",
+      "hltv_match_id": "2398587",
+      "source_url": "https://www.hltv.org/matches/2398587/ex-oddik-vs-mira-cct-2026-south-america-series-6",
+      "event_id": "hltv:cct-2026-south-america-series-6",
+      "event_name": "CCT 2026 South America Series 6",
+      "product_tier": "tier_2",
+      "event_url": null,
+      "team1_name": "ex-ODDIK",
+      "team2_name": "Mira",
+      "starts_at": "2026-10-01T02:32:50Z",
+      "stage_name": "Completed series",
+      "series_format": "bo3",
+      "status": "finished",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Mira",
+      "maps": []
+    },
+    {
       "match_id": "hltv:2398378",
       "hltv_match_id": "2398378",
       "source_url": "https://www.hltv.org/matches/2398378/masonic-vs-lavked-cct-2026-europe-series-10",
@@ -1695,6 +1678,22 @@
       "team1_name": "PCIFIC",
       "team2_name": "Nexus",
       "starts_at": "2026-10-01T11:00:00Z",
+      "stage_name": "Scheduled series",
+      "series_format": "bo3",
+      "status": "upcoming",
+      "maps": []
+    },
+    {
+      "match_id": "hltv:2398583",
+      "hltv_match_id": "2398583",
+      "source_url": "https://www.hltv.org/matches/2398583/low-cortisol-br-vs-bestia-academy-cct-2026-south-america-series-6",
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "product_tier": "tier_2",
+      "event_url": null,
+      "team1_name": "Low Cortisol BR",
+      "team2_name": "BESTIA Academy",
+      "starts_at": "2026-10-01T13:00:00Z",
       "stage_name": "Scheduled series",
       "series_format": "bo3",
       "status": "upcoming",
@@ -1749,6 +1748,22 @@
       "maps": []
     },
     {
+      "match_id": "hltv:2398584",
+      "hltv_match_id": "2398584",
+      "source_url": "https://www.hltv.org/matches/2398584/yawara-vs-borracheiros-cct-2026-south-america-series-6",
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "product_tier": "tier_2",
+      "event_url": null,
+      "team1_name": "Yawara",
+      "team2_name": "BORRACHEIROS",
+      "starts_at": "2026-10-01T16:00:00Z",
+      "stage_name": "Scheduled series",
+      "series_format": "bo3",
+      "status": "upcoming",
+      "maps": []
+    },
+    {
       "match_id": "hltv:2398381",
       "hltv_match_id": "2398381",
       "source_url": "https://www.hltv.org/matches/2398381/eac-vs-ex-zero-tenacity-cct-2026-europe-series-10",
@@ -1759,6 +1774,86 @@
       "team1_name": "EAC",
       "team2_name": "ex-Zero Tenacity",
       "starts_at": "2026-10-01T17:00:00Z",
+      "stage_name": "Scheduled series",
+      "series_format": "bo3",
+      "status": "upcoming",
+      "maps": []
+    },
+    {
+      "match_id": "hltv:2398585",
+      "hltv_match_id": "2398585",
+      "source_url": "https://www.hltv.org/matches/2398585/ex-keyd-stars-vs-alka-cct-2026-south-america-series-6",
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "product_tier": "tier_2",
+      "event_url": null,
+      "team1_name": "ex-Keyd Stars",
+      "team2_name": "ALKA",
+      "starts_at": "2026-10-01T19:00:00Z",
+      "stage_name": "Scheduled series",
+      "series_format": "bo3",
+      "status": "upcoming",
+      "maps": []
+    },
+    {
+      "match_id": "hltv:2398586",
+      "hltv_match_id": "2398586",
+      "source_url": "https://www.hltv.org/matches/2398586/turma-do-pagode-vs-mibr-fe-cct-2026-south-america-series-6",
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "product_tier": "tier_2",
+      "event_url": null,
+      "team1_name": "Turma do Pagode",
+      "team2_name": "MIBR fe",
+      "starts_at": "2026-10-01T22:00:00Z",
+      "stage_name": "Scheduled series",
+      "series_format": "bo3",
+      "status": "upcoming",
+      "maps": []
+    },
+    {
+      "match_id": "hltv:2398588",
+      "hltv_match_id": "2398588",
+      "source_url": "https://www.hltv.org/matches/2398588/bounty-hunters-vs-meia-noite-cct-2026-south-america-series-6",
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "product_tier": "tier_2",
+      "event_url": null,
+      "team1_name": "Bounty Hunters",
+      "team2_name": "MEIA NOITE",
+      "starts_at": "2026-10-02T16:00:00Z",
+      "stage_name": "Scheduled series",
+      "series_format": "bo3",
+      "status": "upcoming",
+      "maps": []
+    },
+    {
+      "match_id": "hltv:2398589",
+      "hltv_match_id": "2398589",
+      "source_url": "https://www.hltv.org/matches/2398589/isurus-vs-procyon-cct-2026-south-america-series-6",
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "product_tier": "tier_2",
+      "event_url": null,
+      "team1_name": "Isurus",
+      "team2_name": "Procyon",
+      "starts_at": "2026-10-02T19:00:00Z",
+      "stage_name": "Scheduled series",
+      "series_format": "bo3",
+      "status": "upcoming",
+      "maps": []
+    },
+    {
+      "match_id": "hltv:2398590",
+      "hltv_match_id": "2398590",
+      "source_url": "https://www.hltv.org/matches/2398590/galorys-vs-grmio-cct-2026-south-america-series-6",
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "product_tier": "tier_2",
+      "event_url": null,
+      "team1_name": "Galorys",
+      "team2_name": "Grêmio",
+      "starts_at": "2026-10-02T22:00:00Z",
       "stage_name": "Scheduled series",
       "series_format": "bo3",
       "status": "upcoming",
@@ -1891,333 +1986,13 @@
       "series_format": "bo3",
       "status": "live",
       "maps": []
-    },
-    {
-      "match_id": "hltv:2398582",
-      "hltv_match_id": "2398582",
-      "source_url": "https://www.hltv.org/matches/2398582/metanoia-wolves-vs-meia-noite-cct-2026-south-america-series-6",
-      "event_id": "hltv:cct-2026-south-america-series-6",
-      "event_name": "CCT 2026 South America Series 6",
-      "product_tier": "tier_2",
-      "event_url": "https://www.hltv.org/events/archive",
-      "team1_name": "METANOIA Wolves",
-      "team2_name": "MEIA NOITE",
-      "starts_at": null,
-      "stage_name": "Scheduled series",
-      "series_format": "bo3",
-      "status": "live",
-      "maps": [
-        "Ancient",
-        "Dust2",
-        "Nuke"
-      ],
-      "map_results": [
-        {
-          "map_name": "Ancient",
-          "score1": 13,
-          "score2": 6,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated.",
-      "lineups": {
-        "team1": [
-          {
-            "player_id": "hltv:21888",
-            "hltv_player_id": "21888",
-            "nickname": "Thuister",
-            "source_url": "https://www.hltv.org/player/21888/thuister",
-            "team_name": "METANOIA Wolves"
-          },
-          {
-            "player_id": "hltv:24298",
-            "hltv_player_id": "24298",
-            "nickname": "ALENNNCAR",
-            "source_url": "https://www.hltv.org/player/24298/alennncar",
-            "team_name": "METANOIA Wolves"
-          },
-          {
-            "player_id": "hltv:24930",
-            "hltv_player_id": "24930",
-            "nickname": "vzn",
-            "source_url": "https://www.hltv.org/player/24930/vzn",
-            "team_name": "METANOIA Wolves"
-          },
-          {
-            "player_id": "hltv:23786",
-            "hltv_player_id": "23786",
-            "nickname": "Tineu",
-            "source_url": "https://www.hltv.org/player/23786/tineu",
-            "team_name": "METANOIA Wolves"
-          },
-          {
-            "player_id": "hltv:25812",
-            "hltv_player_id": "25812",
-            "nickname": "khowy",
-            "source_url": "https://www.hltv.org/player/25812/khowy",
-            "team_name": "METANOIA Wolves"
-          }
-        ],
-        "team2": [
-          {
-            "player_id": "hltv:20577",
-            "hltv_player_id": "20577",
-            "nickname": "Bruninho",
-            "source_url": "https://www.hltv.org/player/20577/bruninho",
-            "team_name": "MEIA NOITE"
-          },
-          {
-            "player_id": "hltv:21099",
-            "hltv_player_id": "21099",
-            "nickname": "bsd",
-            "source_url": "https://www.hltv.org/player/21099/bsd",
-            "team_name": "MEIA NOITE"
-          },
-          {
-            "player_id": "hltv:18891",
-            "hltv_player_id": "18891",
-            "nickname": "CutzMeretz",
-            "source_url": "https://www.hltv.org/player/18891/cutzmeretz",
-            "team_name": "MEIA NOITE"
-          },
-          {
-            "player_id": "hltv:17028",
-            "hltv_player_id": "17028",
-            "nickname": "abr",
-            "source_url": "https://www.hltv.org/player/17028/abr",
-            "team_name": "MEIA NOITE"
-          },
-          {
-            "player_id": "hltv:23169",
-            "hltv_player_id": "23169",
-            "nickname": "Jerr1",
-            "source_url": "https://www.hltv.org/player/23169/jerr1",
-            "team_name": "MEIA NOITE"
-          }
-        ]
-      },
-      "player_stats": [
-        {
-          "player_id": "hltv:21888",
-          "hltv_player_id": "21888",
-          "nickname": "Thuister",
-          "source_url": "https://www.hltv.org/player/21888/thuister",
-          "team_side": 1,
-          "kills": 14,
-          "deaths": 12,
-          "adr": 91.9,
-          "kast": 78.9,
-          "rating": 1.49
-        },
-        {
-          "player_id": "hltv:24298",
-          "hltv_player_id": "24298",
-          "nickname": "ALENNNCAR",
-          "source_url": "https://www.hltv.org/player/24298/alennncar",
-          "team_side": 1,
-          "kills": 15,
-          "deaths": 8,
-          "adr": 70.5,
-          "kast": 73.7,
-          "rating": 1.34
-        },
-        {
-          "player_id": "hltv:24930",
-          "hltv_player_id": "24930",
-          "nickname": "vzn",
-          "source_url": "https://www.hltv.org/player/24930/vzn",
-          "team_side": 1,
-          "kills": 16,
-          "deaths": 13,
-          "adr": 75.5,
-          "kast": 84.2,
-          "rating": 1.25
-        },
-        {
-          "player_id": "hltv:23786",
-          "hltv_player_id": "23786",
-          "nickname": "Tineu",
-          "source_url": "https://www.hltv.org/player/23786/tineu",
-          "team_side": 1,
-          "kills": 14,
-          "deaths": 11,
-          "adr": 92.9,
-          "kast": 78.9,
-          "rating": 1.21
-        },
-        {
-          "player_id": "hltv:25812",
-          "hltv_player_id": "25812",
-          "nickname": "khowy",
-          "source_url": "https://www.hltv.org/player/25812/khowy",
-          "team_side": 1,
-          "kills": 10,
-          "deaths": 11,
-          "adr": 51.3,
-          "kast": 68.4,
-          "rating": 1.11
-        },
-        {
-          "player_id": "hltv:20577",
-          "hltv_player_id": "20577",
-          "nickname": "Bruninho",
-          "source_url": "https://www.hltv.org/player/20577/bruninho",
-          "team_side": 2,
-          "kills": 13,
-          "deaths": 13,
-          "adr": 79.7,
-          "kast": 84.2,
-          "rating": 1.17
-        },
-        {
-          "player_id": "hltv:21099",
-          "hltv_player_id": "21099",
-          "nickname": "bsd",
-          "source_url": "https://www.hltv.org/player/21099/bsd",
-          "team_side": 2,
-          "kills": 13,
-          "deaths": 14,
-          "adr": 61.3,
-          "kast": 68.4,
-          "rating": 0.88
-        },
-        {
-          "player_id": "hltv:18891",
-          "hltv_player_id": "18891",
-          "nickname": "CutzMeretz",
-          "source_url": "https://www.hltv.org/player/18891/cutzmeretz",
-          "team_side": 2,
-          "kills": 9,
-          "deaths": 14,
-          "adr": 71.7,
-          "kast": 57.9,
-          "rating": 0.83
-        },
-        {
-          "player_id": "hltv:17028",
-          "hltv_player_id": "17028",
-          "nickname": "abr",
-          "source_url": "https://www.hltv.org/player/17028/abr",
-          "team_side": 2,
-          "kills": 9,
-          "deaths": 16,
-          "adr": 60.1,
-          "kast": 52.6,
-          "rating": 0.66
-        },
-        {
-          "player_id": "hltv:23169",
-          "hltv_player_id": "23169",
-          "nickname": "Jerr1",
-          "source_url": "https://www.hltv.org/player/23169/jerr1",
-          "team_side": 2,
-          "kills": 11,
-          "deaths": 12,
-          "adr": 62.9,
-          "kast": 57.9,
-          "rating": 0.65
-        }
-      ]
     }
   ],
-  "players": [
-    {
-      "player_id": "hltv:21888",
-      "hltv_player_id": "21888",
-      "nickname": "Thuister",
-      "source_url": "https://www.hltv.org/player/21888/thuister",
-      "team_name": "METANOIA Wolves",
-      "form_timeline": []
-    },
-    {
-      "player_id": "hltv:24298",
-      "hltv_player_id": "24298",
-      "nickname": "ALENNNCAR",
-      "source_url": "https://www.hltv.org/player/24298/alennncar",
-      "team_name": "METANOIA Wolves",
-      "form_timeline": []
-    },
-    {
-      "player_id": "hltv:24930",
-      "hltv_player_id": "24930",
-      "nickname": "vzn",
-      "source_url": "https://www.hltv.org/player/24930/vzn",
-      "team_name": "METANOIA Wolves",
-      "form_timeline": []
-    },
-    {
-      "player_id": "hltv:23786",
-      "hltv_player_id": "23786",
-      "nickname": "Tineu",
-      "source_url": "https://www.hltv.org/player/23786/tineu",
-      "team_name": "METANOIA Wolves",
-      "form_timeline": []
-    },
-    {
-      "player_id": "hltv:25812",
-      "hltv_player_id": "25812",
-      "nickname": "khowy",
-      "source_url": "https://www.hltv.org/player/25812/khowy",
-      "team_name": "METANOIA Wolves",
-      "form_timeline": []
-    },
-    {
-      "player_id": "hltv:20577",
-      "hltv_player_id": "20577",
-      "nickname": "Bruninho",
-      "source_url": "https://www.hltv.org/player/20577/bruninho",
-      "team_name": "MEIA NOITE",
-      "form_timeline": []
-    },
-    {
-      "player_id": "hltv:21099",
-      "hltv_player_id": "21099",
-      "nickname": "bsd",
-      "source_url": "https://www.hltv.org/player/21099/bsd",
-      "team_name": "MEIA NOITE",
-      "form_timeline": []
-    },
-    {
-      "player_id": "hltv:18891",
-      "hltv_player_id": "18891",
-      "nickname": "CutzMeretz",
-      "source_url": "https://www.hltv.org/player/18891/cutzmeretz",
-      "team_name": "MEIA NOITE",
-      "form_timeline": []
-    },
-    {
-      "player_id": "hltv:17028",
-      "hltv_player_id": "17028",
-      "nickname": "abr",
-      "source_url": "https://www.hltv.org/player/17028/abr",
-      "team_name": "MEIA NOITE",
-      "form_timeline": []
-    },
-    {
-      "player_id": "hltv:23169",
-      "hltv_player_id": "23169",
-      "nickname": "Jerr1",
-      "source_url": "https://www.hltv.org/player/23169/jerr1",
-      "team_name": "MEIA NOITE",
-      "form_timeline": []
-    }
-  ],
+  "players": [],
   "rankings": null,
   "source": "HLTV via Oracle Scrapling",
   "source_health": {
-    "scheduled_matches": 120,
+    "scheduled_matches": 126,
     "recent_results": 80,
     "detail_matches": 4,
     "detail_errors": [],
@@ -2228,9 +2003,9 @@
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 10,
-    "matches_kept": 40,
-    "players_kept": 10,
+    "events_kept": 11,
+    "matches_kept": 48,
+    "players_kept": 0,
     "event_tiers": {
       "hltv:cct-2026-europe-series-10": "tier_2",
       "hltv:esl-challenger-league-season-52-oceania-cup-2": "tier_2",
@@ -2240,6 +2015,7 @@
       "hltv:esl-challenger-league-season-52-south-america-cup-2": "tier_2",
       "hltv:esl-challenger-league-season-52-north-america-cup-2": "tier_2",
       "hltv:9420": "tier_2",
+      "hltv:9425": "tier_2",
       "hltv:9433": "tier_2",
       "hltv:8244": "tier_1"
     },
@@ -2269,12 +2045,21 @@
       "hltv:2398580",
       "hltv:2398377",
       "hltv:2398581",
+      "hltv:2398582",
+      "hltv:2398587",
       "hltv:2398378",
       "hltv:2398379",
+      "hltv:2398583",
       "hltv:2399006",
       "hltv:2399007",
       "hltv:2398380",
+      "hltv:2398584",
       "hltv:2398381",
+      "hltv:2398585",
+      "hltv:2398586",
+      "hltv:2398588",
+      "hltv:2398589",
+      "hltv:2398590",
       "hltv:2398717",
       "hltv:2398718",
       "hltv:2398719",
@@ -2282,8 +2067,7 @@
       "hltv:2398721",
       "hltv:2398722",
       "hltv:2398723",
-      "hltv:2398724",
-      "hltv:2398582"
+      "hltv:2398724"
     ]
   }
 }
