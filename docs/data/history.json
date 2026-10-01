@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3416,
+    "matches": 3418,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -562,6 +562,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_2"
+    },
+    {
+      "match_id": "liquipedia:5a25631daa0e403f9eeb",
+      "match_date": "2026-09-30",
+      "starts_at": "2026-09-30T19:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 5",
+      "team1_name": "Grêmio",
+      "team2_name": "QUINTESS",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Grêmio",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_5"
+    },
+    {
+      "match_id": "liquipedia:887cbbeb80db65953924",
+      "match_date": "2026-09-30",
+      "starts_at": "2026-09-30T22:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Round 5",
+      "team1_name": "MEIA NOITE",
+      "team2_name": "Meta.W",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "MEIA NOITE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Round_5"
     },
     {
       "match_id": "hltv:2398548",
