@@ -2075,5 +2075,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "CRUISER",
     "logo_url": "https://liquipedia.net/commons/images/thumb/e/e0/CRUISER_AURORA_allmode.png/53px-CRUISER_AURORA_allmode.png",
     "source": "Liquipedia"
+  },
+  "m1x": {
+    "name": "m1x",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e7/M1x_%28Kosovar_team%29_lightmode.png/86px-M1x_%28Kosovar_team%29_lightmode.png",
+    "source": "Liquipedia"
   }
 };

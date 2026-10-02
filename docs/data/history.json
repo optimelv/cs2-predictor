@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3435,
+    "matches": 3452,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -56,6 +56,28 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:29a5c9ee798a0378ee0a",
+      "match_date": "2026-10-02",
+      "starts_at": "2026-10-02T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 3",
+      "team1_name": "Azuolas",
+      "team2_name": "PHTM.Ac",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "PHTM.Ac",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_3"
     },
     {
       "match_id": "hltv:2398582",
@@ -573,6 +595,50 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "ex-kStars",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:dccd80ba5cadbfaa04e1",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T16:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Playoffs",
+      "team1_name": "BORRA",
+      "team2_name": "Yawara",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Yawara",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:73c64ab7aa6ddf1556b2",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T22:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Playoffs",
+      "team1_name": "MIBR Fe",
+      "team2_name": "TDP",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "TDP",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -4502,6 +4568,28 @@
       "source_url": "https://liquipedia.net/counterstrike/IBUYPOWER/Masters/2026/Fl0m%27s_Mythical_LAN#Group_B"
     },
     {
+      "match_id": "liquipedia:c189803fbd9c950e1ed6",
+      "match_date": "2026-09-25",
+      "starts_at": "2026-09-25T11:00:00Z",
+      "event_name": "Stake Pulse Beat II - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "BBL",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "100T",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_II#Playoffs"
+    },
+    {
       "match_id": "liquipedia:47257e6a894fa240b12b",
       "match_date": "2026-09-24",
       "starts_at": "2026-09-24T08:00:00Z",
@@ -5456,6 +5544,28 @@
       "team2_name": "EAC",
       "score1": 2,
       "score2": 0,
+      "winner_name": "100T",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_II#Group_C"
+    },
+    {
+      "match_id": "liquipedia:e10005e6a612960842e7",
+      "match_date": "2026-09-23",
+      "starts_at": "2026-09-23T13:00:00Z",
+      "event_name": "Stake Pulse Beat II - Group C",
+      "team1_name": "100T",
+      "team2_name": "Phantom",
+      "score1": 2,
+      "score2": 1,
       "winner_name": "100T",
       "tier": "tier_2",
       "best_of": null,
@@ -7040,6 +7150,28 @@
       "team2_name": "Sangal",
       "score1": 1,
       "score2": 2,
+      "winner_name": "Sangal",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_II#Group_A"
+    },
+    {
+      "match_id": "liquipedia:7ac0bcae616f9ee58bb9",
+      "match_date": "2026-09-21",
+      "starts_at": "2026-09-21T13:30:00Z",
+      "event_name": "Stake Pulse Beat II - Group A",
+      "team1_name": "Sangal",
+      "team2_name": "Sashi",
+      "score1": 2,
+      "score2": 0,
       "winner_name": "Sangal",
       "tier": "tier_2",
       "best_of": null,
@@ -38338,6 +38470,50 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Playoffs"
     },
     {
+      "match_id": "liquipedia:dc12a01cba94107a90de",
+      "match_date": "2026-08-08",
+      "starts_at": "2026-08-08T09:00:00Z",
+      "event_name": "Esports World Cup 2026: LCQ - Group Stage - Group M",
+      "team1_name": "Orion",
+      "team2_name": "Partizan",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Partizan",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026/Qualifier/Group_Stage#Group_M"
+    },
+    {
+      "match_id": "liquipedia:fdf39024bd4a8df5adf8",
+      "match_date": "2026-08-08",
+      "starts_at": "2026-08-08T09:00:00Z",
+      "event_name": "Esports World Cup 2026: LCQ - Group Stage - Group P",
+      "team1_name": "Sangal",
+      "team2_name": "Zeste",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Sangal",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026/Qualifier/Group_Stage#Group_P"
+    },
+    {
       "match_id": "hltv:2396414",
       "match_date": "2026-08-07",
       "event_name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -42230,6 +42406,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_4"
+    },
+    {
+      "match_id": "liquipedia:ff534d04288490ef59df",
+      "match_date": "2026-08-02",
+      "starts_at": "2026-08-02T10:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Playoffs",
+      "team1_name": "ex-1w",
+      "team2_name": "Lazer",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Lazer",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Playoffs"
     },
     {
       "match_id": "hltv:2396178",
@@ -46388,6 +46586,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_3"
+    },
+    {
+      "match_id": "liquipedia:9f9da681238221d9003a",
+      "match_date": "2026-07-26",
+      "starts_at": "2026-07-26T14:00:00Z",
+      "event_name": "Thunderpick WC: EU Series #2 - Group A",
+      "team1_name": "Lazer",
+      "team2_name": "WOPA",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Lazer",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_A"
     },
     {
       "match_id": "liquipedia:73a8d3b2d93b31a4723b",
@@ -53975,6 +54195,28 @@
       "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_2#Round_3"
     },
     {
+      "match_id": "liquipedia:ca2ed99f703803c21ca0",
+      "match_date": "2026-06-07",
+      "starts_at": "2026-06-07T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #9 - Round 3",
+      "team1_name": "ARC",
+      "team2_name": "Walczaki",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Walczaki",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/9#Round_3"
+    },
+    {
       "match_id": "hltv:2394880",
       "match_date": "2026-06-06",
       "event_name": "IEM Cologne Major 2026 Stage 2",
@@ -54691,6 +54933,72 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
     },
     {
+      "match_id": "liquipedia:cb71539c0e89e2d4fef2",
+      "match_date": "2026-06-06",
+      "starts_at": "2026-06-06T13:00:00Z",
+      "event_name": "CCT EU 2026 Series #3 - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "ex-RUBY",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "100T",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:24ab4859a0d7e499be9b",
+      "match_date": "2026-06-06",
+      "starts_at": "2026-06-06T14:10:00Z",
+      "event_name": "NODWIN Clutch Series #9 - Round 2",
+      "team1_name": "TDK",
+      "team2_name": "Walczaki",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "TDK",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/9#Round_2"
+    },
+    {
+      "match_id": "liquipedia:72f9734fa148791a0795",
+      "match_date": "2026-06-06",
+      "starts_at": "2026-06-06T16:00:00Z",
+      "event_name": "CCT EU 2026 Series #3 - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "JS",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "100T",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
+    },
+    {
       "match_id": "hltv:2394864",
       "match_date": "2026-06-05",
       "event_name": "IEM Cologne Major 2026 Stage 1",
@@ -54978,6 +55286,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "1w",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:a16aa6bbb0a76cbb60cb",
+      "match_date": "2026-06-05",
+      "starts_at": "2026-06-05T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #3 - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "Phantom",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "100T",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -55413,6 +55743,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_1#Round_4"
+    },
+    {
+      "match_id": "liquipedia:e151406d231ef8db856f",
+      "match_date": "2026-06-04",
+      "starts_at": "2026-06-04T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #3 - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "Ursa",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "100T",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:09d72f8394ccb400571c",
+      "match_date": "2026-06-04",
+      "starts_at": "2026-06-04T17:15:00Z",
+      "event_name": "NODWIN Clutch Series #9 - Round 1",
+      "team1_name": "KOLESIE",
+      "team2_name": "Walczaki",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Walczaki",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/9#Round_1"
     },
     {
       "match_id": "hltv:2394855",
