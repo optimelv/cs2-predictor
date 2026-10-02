@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3456,
+    "matches": 3462,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -166,6 +166,138 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:655542769b52030573bd",
+      "match_date": "2026-10-02",
+      "starts_at": "2026-10-02T10:00:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "B8",
+      "team2_name": "Fnatic",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Fnatic",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
+    },
+    {
+      "match_id": "liquipedia:c9971ad300fbca4cdeb0",
+      "match_date": "2026-10-02",
+      "starts_at": "2026-10-02T12:10:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "Astralis",
+      "team2_name": "FaZe",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Astralis",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
+    },
+    {
+      "match_id": "liquipedia:1800b278d3efcc794197",
+      "match_date": "2026-10-02",
+      "starts_at": "2026-10-02T15:30:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "BIG",
+      "team2_name": "LG",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "LG",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
+    },
+    {
+      "match_id": "liquipedia:b094001083e533390788",
+      "match_date": "2026-10-02",
+      "starts_at": "2026-10-02T17:30:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "Alliance",
+      "team2_name": "Nemiga",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nemiga",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
+    },
+    {
+      "match_id": "liquipedia:1adeb8729576533bb91d",
+      "match_date": "2026-10-02",
+      "starts_at": "2026-10-02T18:30:00Z",
+      "event_name": "Journey Autumn 2026 - Playoffs",
+      "team1_name": "BBL",
+      "team2_name": "FOKUS",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BBL",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Journey/2026/Autumn#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:28741de048dbf959592c",
+      "match_date": "2026-10-02",
+      "starts_at": "2026-10-02T18:30:00Z",
+      "event_name": "Journey Autumn 2026 - Playoffs",
+      "team1_name": "JS",
+      "team2_name": "NIP",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NIP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Journey/2026/Autumn#Playoffs"
     },
     {
       "match_id": "hltv:2398582",
