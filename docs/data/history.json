@@ -1,18 +1,62 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-02T05:42:15Z",
-  "through_date": "2026-10-01",
+  "generated_at_utc": "2026-10-02T12:44:14Z",
+  "through_date": "2026-10-02",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3433,
+    "matches": 3435,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "hltv:2398382",
+      "match_date": "2026-10-02",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "BERG",
+      "team2_name": "megoshort",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "megoshort",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398383",
+      "match_date": "2026-10-02",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Azuolas",
+      "team2_name": "Phantom Academy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phantom Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
     {
       "match_id": "hltv:2398582",
       "match_date": "2026-10-01",

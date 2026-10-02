@@ -4852,32 +4852,38 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Turma do Pagode"
       },
       {
-        "event_id": "hltv:9420",
+        "event_id": "hltv:cct-2026-europe-series-10",
         "event_name": "CCT 2026 Europe Series 10",
         "hltv_match_id": "2398382",
         "match_id": "hltv:2398382",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398382/berg-vs-megoshort-cct-2026-europe-series-10",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-10-02T08:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-10-02T06:34:27Z",
+        "status": "finished",
         "team1_name": "BERG",
-        "team2_name": "megoshort"
+        "team2_name": "megoshort",
+        "winner_name": "megoshort"
       },
       {
-        "event_id": "hltv:9420",
+        "event_id": "hltv:cct-2026-europe-series-10",
         "event_name": "CCT 2026 Europe Series 10",
         "hltv_match_id": "2398383",
         "match_id": "hltv:2398383",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398383/azuolas-vs-phantom-academy-cct-2026-europe-series-10",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-10-02T11:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-10-02T12:34:38Z",
+        "status": "finished",
         "team1_name": "Azuolas",
-        "team2_name": "Phantom Academy"
+        "team2_name": "Phantom Academy",
+        "winner_name": "Phantom Academy"
       },
       {
         "event_id": "hltv:9420",
@@ -4964,7 +4970,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Noir Verse"
       },
       {
-        "detail_fetched_at_utc": "2026-10-02T05:41:35Z",
+        "detail_fetched_at_utc": "2026-10-02T12:43:53Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -4985,7 +4991,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
       },
       {
-        "detail_fetched_at_utc": "2026-10-02T05:41:46Z",
+        "detail_fetched_at_utc": "2026-10-02T12:43:58Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -5020,7 +5026,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Enjoy"
       },
       {
-        "detail_fetched_at_utc": "2026-10-02T05:42:00Z",
+        "detail_fetched_at_utc": "2026-10-02T12:44:03Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -5041,7 +5047,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
       },
       {
-        "detail_fetched_at_utc": "2026-10-02T05:42:15Z",
+        "detail_fetched_at_utc": "2026-10-02T12:44:08Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -5062,9 +5068,15 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
       },
       {
-        "event_id": "hltv:8244",
+        "detail_fetched_at_utc": "2026-10-02T12:44:14Z",
+        "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398721",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "match_id": "hltv:2398721",
         "product_tier": "tier_1",
         "series_format": "bo3",
@@ -5073,7 +5085,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-10-03T14:00:00Z",
         "status": "live",
         "team1_name": "Aurora",
-        "team2_name": "9z"
+        "team2_name": "9z",
+        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
       },
       {
         "event_id": "hltv:8244",
@@ -6229,7 +6242,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "location": "Katowice, Poland",
         "matches": [
           {
-            "detail_fetched_at_utc": "2026-10-02T05:41:35Z",
+            "detail_fetched_at_utc": "2026-10-02T12:43:53Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -6250,7 +6263,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
-            "detail_fetched_at_utc": "2026-10-02T05:41:46Z",
+            "detail_fetched_at_utc": "2026-10-02T12:43:58Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -6271,7 +6284,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
-            "detail_fetched_at_utc": "2026-10-02T05:42:00Z",
+            "detail_fetched_at_utc": "2026-10-02T12:44:03Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -6292,7 +6305,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
-            "detail_fetched_at_utc": "2026-10-02T05:42:15Z",
+            "detail_fetched_at_utc": "2026-10-02T12:44:08Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -6313,9 +6326,15 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
-            "event_id": "hltv:8244",
+            "detail_fetched_at_utc": "2026-10-02T12:44:14Z",
+            "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398721",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
             "match_id": "hltv:2398721",
             "product_tier": "tier_1",
             "series_format": "bo3",
@@ -6324,7 +6343,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "starts_at": "2026-10-03T14:00:00Z",
             "status": "live",
             "team1_name": "Aurora",
-            "team2_name": "9z"
+            "team2_name": "9z",
+            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
             "event_id": "hltv:8244",
@@ -18948,6 +18968,245 @@ window.__STRIKESIGNAL_DATA__ = {
             "team1_name": "MAYBE",
             "team2_name": "eternal premium",
             "winner_name": "MAYBE"
+          },
+          {
+            "detail_fetched_at_utc": "2026-10-02T12:43:48Z",
+            "event_id": "hltv:cct-2026-challengers-europe-series-7",
+            "event_name": "CCT 2026 Challengers Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2399058",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "25911",
+                  "nickname": "s1nside",
+                  "player_id": "hltv:25911",
+                  "source_url": "https://www.hltv.org/player/25911/s1nside",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "26299",
+                  "nickname": "k0gaSs",
+                  "player_id": "hltv:26299",
+                  "source_url": "https://www.hltv.org/player/26299/k0gass",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "25390",
+                  "nickname": "Kiryasoo",
+                  "player_id": "hltv:25390",
+                  "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "25622",
+                  "nickname": "Netrix",
+                  "player_id": "hltv:25622",
+                  "source_url": "https://www.hltv.org/player/25622/netrix",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "23193",
+                  "nickname": "VILBy",
+                  "player_id": "hltv:23193",
+                  "source_url": "https://www.hltv.org/player/23193/vilby",
+                  "team_name": "Spirit Academy"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "24170",
+                  "nickname": "zogeN",
+                  "player_id": "hltv:24170",
+                  "source_url": "https://www.hltv.org/player/24170/zogen",
+                  "team_name": "MAYBE"
+                },
+                {
+                  "hltv_player_id": "25898",
+                  "nickname": "thirtythird",
+                  "player_id": "hltv:25898",
+                  "source_url": "https://www.hltv.org/player/25898/thirtythird",
+                  "team_name": "MAYBE"
+                },
+                {
+                  "hltv_player_id": "25897",
+                  "nickname": "edixenn",
+                  "player_id": "hltv:25897",
+                  "source_url": "https://www.hltv.org/player/25897/edixenn",
+                  "team_name": "MAYBE"
+                },
+                {
+                  "hltv_player_id": "26538",
+                  "nickname": "shallthing",
+                  "player_id": "hltv:26538",
+                  "source_url": "https://www.hltv.org/player/26538/shallthing",
+                  "team_name": "MAYBE"
+                },
+                {
+                  "hltv_player_id": "26537",
+                  "nickname": "Awi4",
+                  "player_id": "hltv:26537",
+                  "source_url": "https://www.hltv.org/player/26537/awi4",
+                  "team_name": "MAYBE"
+                }
+              ]
+            },
+            "map_results": [
+              {
+                "map_name": "Cache",
+                "score1": 13,
+                "score2": 9,
+                "status": "finished"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": 3,
+                "score2": 9,
+                "status": "finished"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Cache",
+              "Nuke",
+              "Ancient"
+            ],
+            "match_id": "hltv:2399058",
+            "player_stats": [
+              {
+                "adr": 93.5,
+                "deaths": 14,
+                "hltv_player_id": "25911",
+                "kast": 77.3,
+                "kills": 21,
+                "nickname": "s1nside",
+                "player_id": "hltv:25911",
+                "rating": 1.47,
+                "source_url": "https://www.hltv.org/player/25911/s1nside",
+                "team_side": 1
+              },
+              {
+                "adr": 93.6,
+                "deaths": 14,
+                "hltv_player_id": "26299",
+                "kast": 81.8,
+                "kills": 20,
+                "nickname": "k0gaSs",
+                "player_id": "hltv:26299",
+                "rating": 1.4,
+                "source_url": "https://www.hltv.org/player/26299/k0gass",
+                "team_side": 1
+              },
+              {
+                "adr": 67.4,
+                "deaths": 14,
+                "hltv_player_id": "25390",
+                "kast": 68.2,
+                "kills": 16,
+                "nickname": "Kiryasoo",
+                "player_id": "hltv:25390",
+                "rating": 1.25,
+                "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+                "team_side": 1
+              },
+              {
+                "adr": 73.1,
+                "deaths": 14,
+                "hltv_player_id": "25622",
+                "kast": 72.7,
+                "kills": 18,
+                "nickname": "Netrix",
+                "player_id": "hltv:25622",
+                "rating": 1.21,
+                "source_url": "https://www.hltv.org/player/25622/netrix",
+                "team_side": 1
+              },
+              {
+                "adr": 53.5,
+                "deaths": 14,
+                "hltv_player_id": "23193",
+                "kast": 72.7,
+                "kills": 7,
+                "nickname": "VILBy",
+                "player_id": "hltv:23193",
+                "rating": 0.66,
+                "source_url": "https://www.hltv.org/player/23193/vilby",
+                "team_side": 1
+              },
+              {
+                "adr": 92.8,
+                "deaths": 17,
+                "hltv_player_id": "24170",
+                "kast": 81.8,
+                "kills": 20,
+                "nickname": "zogeN",
+                "player_id": "hltv:24170",
+                "rating": 1.56,
+                "source_url": "https://www.hltv.org/player/24170/zogen",
+                "team_side": 2
+              },
+              {
+                "adr": 76.1,
+                "deaths": 15,
+                "hltv_player_id": "25898",
+                "kast": 59.1,
+                "kills": 17,
+                "nickname": "thirtythird",
+                "player_id": "hltv:25898",
+                "rating": 1.04,
+                "source_url": "https://www.hltv.org/player/25898/thirtythird",
+                "team_side": 2
+              },
+              {
+                "adr": 59.8,
+                "deaths": 15,
+                "hltv_player_id": "25897",
+                "kast": 68.2,
+                "kills": 12,
+                "nickname": "edixenn",
+                "player_id": "hltv:25897",
+                "rating": 0.94,
+                "source_url": "https://www.hltv.org/player/25897/edixenn",
+                "team_side": 2
+              },
+              {
+                "adr": 64.2,
+                "deaths": 17,
+                "hltv_player_id": "26538",
+                "kast": 68.2,
+                "kills": 15,
+                "nickname": "shallthing",
+                "player_id": "hltv:26538",
+                "rating": 0.81,
+                "source_url": "https://www.hltv.org/player/26538/shallthing",
+                "team_side": 2
+              },
+              {
+                "adr": 51.3,
+                "deaths": 18,
+                "hltv_player_id": "26537",
+                "kast": 63.6,
+                "kills": 4,
+                "nickname": "Awi4",
+                "player_id": "hltv:26537",
+                "rating": 0.48,
+                "source_url": "https://www.hltv.org/player/26537/awi4",
+                "team_side": 2
+              }
+            ],
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399058/spirit-academy-vs-maybe-cct-2026-challengers-europe-series-7",
+            "stage_name": "Scheduled series",
+            "status": "live",
+            "team1_name": "Spirit Academy",
+            "team2_name": "MAYBE",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
           }
         ],
         "name": "CCT 2026 Challengers Europe Series 7",
@@ -19287,32 +19546,38 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "EAC"
           },
           {
-            "event_id": "hltv:9420",
+            "event_id": "hltv:cct-2026-europe-series-10",
             "event_name": "CCT 2026 Europe Series 10",
             "hltv_match_id": "2398382",
             "match_id": "hltv:2398382",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 1,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398382/berg-vs-megoshort-cct-2026-europe-series-10",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-02T08:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-10-02T06:34:27Z",
+            "status": "finished",
             "team1_name": "BERG",
-            "team2_name": "megoshort"
+            "team2_name": "megoshort",
+            "winner_name": "megoshort"
           },
           {
-            "event_id": "hltv:9420",
+            "event_id": "hltv:cct-2026-europe-series-10",
             "event_name": "CCT 2026 Europe Series 10",
             "hltv_match_id": "2398383",
             "match_id": "hltv:2398383",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398383/azuolas-vs-phantom-academy-cct-2026-europe-series-10",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-02T11:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-10-02T12:34:38Z",
+            "status": "finished",
             "team1_name": "Azuolas",
-            "team2_name": "Phantom Academy"
+            "team2_name": "Phantom Academy",
+            "winner_name": "Phantom Academy"
           },
           {
             "event_id": "hltv:9420",
@@ -19873,7 +20138,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 12
       }
     ],
-    "last_verified_utc": "2026-10-02T05:42:15Z",
+    "last_verified_utc": "2026-10-02T12:44:14Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -20311,7 +20576,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-02T05:46:22Z",
+  "generated_at_utc": "2026-10-02T12:44:36Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -21687,12 +21952,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.63252,
-        "brier": 0.22234,
-        "ece": 0.023561,
-        "log_loss": 0.633742
+        "accuracy": 0.633712,
+        "brier": 0.222082,
+        "ece": 0.024708,
+        "log_loss": 0.633225
       },
-      "rows": 921,
+      "rows": 923,
       "slices": [
         {
           "dimension": "tier",
@@ -21713,12 +21978,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.58427,
-            "brier": 0.244867,
-            "ece": 0.05757,
-            "log_loss": 0.683161
+            "accuracy": 0.588889,
+            "brier": 0.243732,
+            "ece": 0.052737,
+            "log_loss": 0.68084
           },
-          "rows": 178
+          "rows": 180
         },
         {
           "dimension": "series_format",
@@ -21739,12 +22004,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.627723,
-            "brier": 0.222021,
-            "ece": 0.034432,
-            "log_loss": 0.632642
+            "accuracy": 0.629191,
+            "brier": 0.221708,
+            "ece": 0.035785,
+            "log_loss": 0.632017
           },
-          "rows": 505
+          "rows": 507
         },
         {
           "dimension": "series_format",
@@ -21760,7 +22025,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "test_rows": 615
+      "test_rows": 617
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -21774,13 +22039,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.635772,
-        "brier": 0.223932,
-        "ece": 0.046254,
-        "log_loss": 0.638097
+        "accuracy": 0.636953,
+        "brier": 0.223787,
+        "ece": 0.047476,
+        "log_loss": 0.637813
       },
       "promotion_passed": false,
-      "rows": 615,
+      "rows": 617,
       "slices": [
         {
           "dimension": "tier",
@@ -21801,12 +22066,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.595506,
-            "brier": 0.243981,
-            "ece": 0.060779,
-            "log_loss": 0.681066
+            "accuracy": 0.6,
+            "brier": 0.243261,
+            "ece": 0.064807,
+            "log_loss": 0.679615
           },
-          "rows": 178
+          "rows": 180
         },
         {
           "dimension": "series_format",
@@ -21827,12 +22092,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.631683,
-            "brier": 0.223431,
-            "ece": 0.049713,
-            "log_loss": 0.636958
+            "accuracy": 0.633136,
+            "brier": 0.223256,
+            "ece": 0.047847,
+            "log_loss": 0.636617
           },
-          "rows": 505
+          "rows": 507
         },
         {
           "dimension": "series_format",
@@ -21868,7 +22133,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-02T05:46:21Z",
+    "generated_at_utc": "2026-10-02T12:44:36Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -21891,12 +22156,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.58427,
-            "brier": 0.244867,
-            "ece": 0.05757,
-            "log_loss": 0.683161
+            "accuracy": 0.588889,
+            "brier": 0.243732,
+            "ece": 0.052737,
+            "log_loss": 0.68084
           },
-          "rows": 178
+          "rows": 180
         },
         {
           "dimension": "series_format",
@@ -21917,12 +22182,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.627723,
-            "brier": 0.222021,
-            "ece": 0.034432,
-            "log_loss": 0.632642
+            "accuracy": 0.629191,
+            "brier": 0.221708,
+            "ece": 0.035785,
+            "log_loss": 0.632017
           },
-          "rows": 505
+          "rows": 507
         },
         {
           "dimension": "series_format",
@@ -21950,7 +22215,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 178
+            "rows": 180
           },
           {
             "eligible": true,
@@ -21962,7 +22227,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 505
+            "rows": 507
           },
           {
             "eligible": false,
@@ -21993,12 +22258,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.595506,
-            "brier": 0.241384,
-            "ece": 0.054787,
-            "log_loss": 0.675773
+            "accuracy": 0.6,
+            "brier": 0.240038,
+            "ece": 0.058029,
+            "log_loss": 0.672994
           },
-          "rows": 178
+          "rows": 180
         },
         {
           "dimension": "series_format",
@@ -22019,12 +22284,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.631683,
-            "brier": 0.222816,
-            "ece": 0.046687,
-            "log_loss": 0.635712
+            "accuracy": 0.633136,
+            "brier": 0.222412,
+            "ece": 0.04787,
+            "log_loss": 0.634883
           },
-          "rows": 505
+          "rows": 507
         },
         {
           "dimension": "series_format",
@@ -22041,10 +22306,10 @@ window.__STRIKESIGNAL_DATA__ = {
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.63252,
-        "brier": 0.222465,
-        "ece": 0.029567,
-        "log_loss": 0.633903
+        "accuracy": 0.633712,
+        "brier": 0.222368,
+        "ece": 0.028049,
+        "log_loss": 0.633721
       },
       "champion_slices": [
         {
@@ -22066,12 +22331,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.58427,
-            "brier": 0.245297,
-            "ece": 0.062493,
-            "log_loss": 0.683717
+            "accuracy": 0.588889,
+            "brier": 0.244711,
+            "ece": 0.056924,
+            "log_loss": 0.682538
           },
-          "rows": 178
+          "rows": 180
         },
         {
           "dimension": "series_format",
@@ -22092,12 +22357,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.627723,
-            "brier": 0.221853,
-            "ece": 0.049779,
-            "log_loss": 0.632165
+            "accuracy": 0.629191,
+            "brier": 0.221737,
+            "ece": 0.047852,
+            "log_loss": 0.631949
           },
-          "rows": 505
+          "rows": 507
         },
         {
           "dimension": "series_format",
@@ -22113,37 +22378,37 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "champion_test_rows": 615,
+      "champion_test_rows": 617,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.58427,
-          "brier": 0.245575,
-          "ece": 0.051743,
-          "log_loss": 0.684275
+          "accuracy": 0.588889,
+          "brier": 0.244711,
+          "ece": 0.056924,
+          "log_loss": 0.682538
         },
         "before": {
-          "accuracy": 0.58427,
-          "brier": 0.245297,
-          "ece": 0.062493,
-          "log_loss": 0.683717
+          "accuracy": 0.588889,
+          "brier": 0.244711,
+          "ece": 0.056924,
+          "log_loss": 0.682538
         },
-        "candidate_shrink": 0.45,
+        "candidate_shrink": 0.5,
         "overall_after": {
-          "accuracy": 0.63252,
-          "brier": 0.222545,
-          "ece": 0.025981,
-          "log_loss": 0.634065
+          "accuracy": 0.633712,
+          "brier": 0.222368,
+          "ece": 0.028049,
+          "log_loss": 0.633721
         },
         "overall_before": {
-          "accuracy": 0.63252,
-          "brier": 0.222465,
-          "ece": 0.029567,
-          "log_loss": 0.633903
+          "accuracy": 0.633712,
+          "brier": 0.222368,
+          "ece": 0.028049,
+          "log_loss": 0.633721
         },
         "passed": false,
-        "rows": 178,
+        "rows": 180,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -22162,8 +22427,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 0,
-      "online_rows": 164,
+      "new_rows": 2,
+      "online_rows": 166,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -22384,9 +22649,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2398584",
       "hltv:2398381",
       "hltv:2398585",
-      "hltv:2398586"
+      "hltv:2398586",
+      "hltv:2398382",
+      "hltv:2398383"
     ],
-    "last_online_update_utc": "2026-10-01T23:56:28Z",
+    "last_online_update_utc": "2026-10-02T12:44:36Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -27150,10 +27417,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 292
       },
       {
-        "elo": 1491.63,
-        "last_result_utc": "2026-10-01T10:55:38Z",
-        "matches": 8,
-        "recent_win_rate_10": 0.388,
+        "elo": 1504.04,
+        "last_result_utc": "2026-10-02T12:34:38Z",
+        "matches": 9,
+        "recent_win_rate_10": 0.4993,
         "team_key": "phantom academy",
         "team_name": "Phantom Academy",
         "vrs_points": 579,
@@ -27490,10 +27757,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 332
       },
       {
-        "elo": 1512.02,
-        "last_result_utc": "2026-09-30T15:48:22Z",
-        "matches": 10,
-        "recent_win_rate_10": 0.3809,
+        "elo": 1522.13,
+        "last_result_utc": "2026-10-02T06:34:27Z",
+        "matches": 11,
+        "recent_win_rate_10": 0.4935,
         "team_key": "megoshort",
         "team_name": "megoshort",
         "vrs_points": 500,
@@ -28540,10 +28807,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1460.14,
-        "last_result_utc": "2026-09-30T09:18:45Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.2738,
+        "elo": 1447.73,
+        "last_result_utc": "2026-10-02T12:34:38Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.224,
         "team_key": "azuolas",
         "team_name": "Azuolas",
         "vrs_points": 0,
@@ -28630,10 +28897,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1448.94,
-        "last_result_utc": "2026-09-30T19:09:34Z",
-        "matches": 4,
-        "recent_win_rate_10": 0.224,
+        "elo": 1438.83,
+        "last_result_utc": "2026-10-02T06:34:27Z",
+        "matches": 5,
+        "recent_win_rate_10": 0.1833,
         "team_key": "berg",
         "team_name": "BERG",
         "vrs_points": 0,
@@ -31903,80 +32170,6 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5711,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4289,
-      "event_id": "hltv:9420",
-      "event_name": "CCT 2026 Europe Series 10",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-02",
-      "match_id": "hltv:2398382",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790928000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "megoshort",
-      "prob_team1": 0.4289,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398382/berg-vs-megoshort-cct-2026-europe-series-10",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-02T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "BERG",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "megoshort",
-      "team2_vrs_rank": 333
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5515,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4485,
-      "event_id": "hltv:9420",
-      "event_name": "CCT 2026 Europe Series 10",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-02",
-      "match_id": "hltv:2398383",
-      "match_phase": "scheduled",
-      "match_timestamp": 1790938800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Phantom Academy",
-      "prob_team1": 0.4485,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398383/azuolas-vs-phantom-academy-cct-2026-europe-series-10",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-02T11:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Azuolas",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Phantom Academy",
-      "team2_vrs_rank": 293
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.535,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -32437,10 +32630,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4259,
-      "event_id": "hltv:8244",
+      "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-03",
@@ -32799,12 +32995,86 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "SINQU",
       "team2_vrs_rank": 307
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5127,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5127,
+      "event_id": "hltv:9318",
+      "event_name": "Roman Imperium Cup IX",
+      "format": "bo1",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399015",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791364500,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "OG",
+      "prob_team1": 0.5127,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo1",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399015/og-vs-orion-wanderers-roman-imperium-cup-ix",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T09:15:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "OG",
+      "team1_vrs_rank": 57,
+      "team2_hltv_rank": null,
+      "team2_name": "Orion Wanderers",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5531,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5531,
+      "event_id": "hltv:9318",
+      "event_name": "Roman Imperium Cup IX",
+      "format": "bo1",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399016",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791369000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "G2 Ares",
+      "prob_team1": 0.5531,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo1",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399016/g2-ares-vs-sinqu-roman-imperium-cup-ix",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T10:30:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "G2 Ares",
+      "team1_vrs_rank": 125,
+      "team2_hltv_rank": null,
+      "team2_name": "SINQU",
+      "team2_vrs_rank": 307
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 72,
-    "online_results_applied": 0,
+    "live_feed_items": 67,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
