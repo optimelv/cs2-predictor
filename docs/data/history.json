@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3427,
+    "matches": 3433,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -452,6 +452,94 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
+    },
+    {
+      "match_id": "liquipedia:99e8f518b3c2d7d724a2",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T10:00:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "B8",
+      "team2_name": "LG",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "LG",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
+    },
+    {
+      "match_id": "liquipedia:a3e066485ea04374f717",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T12:15:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "BIG",
+      "team2_name": "Fnatic",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BIG",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
+    },
+    {
+      "match_id": "liquipedia:637c60f359f5969728e0",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T15:30:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "Alliance",
+      "team2_name": "Astralis",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Alliance",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
+    },
+    {
+      "match_id": "liquipedia:3fd093d1c0f152df8baa",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T19:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Playoffs",
+      "team1_name": "Alka",
+      "team2_name": "ex-kStars",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-kStars",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
     },
     {
       "match_id": "hltv:2398549",
@@ -54537,6 +54625,28 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/9#Round_2"
     },
     {
+      "match_id": "liquipedia:0e1d8c29b72e43d0bb74",
+      "match_date": "2026-06-06",
+      "starts_at": "2026-06-06T10:00:00Z",
+      "event_name": "CCT EU 2026 Series #3 - Playoffs",
+      "team1_name": "1w",
+      "team2_name": "JS",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "JS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
+    },
+    {
       "match_id": "hltv:2394864",
       "match_date": "2026-06-05",
       "event_name": "IEM Cologne Major 2026 Stage 1",
@@ -54813,6 +54923,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Cologne/Stage_1#Round_5"
+    },
+    {
+      "match_id": "liquipedia:97df372deed7937605f7",
+      "match_date": "2026-06-05",
+      "starts_at": "2026-06-05T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #3 - Playoffs",
+      "team1_name": "1w",
+      "team2_name": "Apogee",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "1w",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
     },
     {
       "match_id": "hltv:2394861",
