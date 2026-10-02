@@ -4964,7 +4964,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Noir Verse"
       },
       {
-        "detail_fetched_at_utc": "2026-10-01T23:50:39Z",
+        "detail_fetched_at_utc": "2026-10-02T05:41:35Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -4985,7 +4985,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
       },
       {
-        "detail_fetched_at_utc": "2026-10-01T23:51:23Z",
+        "detail_fetched_at_utc": "2026-10-02T05:41:46Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -5020,7 +5020,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Enjoy"
       },
       {
-        "detail_fetched_at_utc": "2026-10-01T23:52:17Z",
+        "detail_fetched_at_utc": "2026-10-02T05:42:00Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -5041,7 +5041,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
       },
       {
-        "detail_fetched_at_utc": "2026-10-01T23:53:04Z",
+        "detail_fetched_at_utc": "2026-10-02T05:42:15Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -6229,7 +6229,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "location": "Katowice, Poland",
         "matches": [
           {
-            "detail_fetched_at_utc": "2026-10-01T23:50:39Z",
+            "detail_fetched_at_utc": "2026-10-02T05:41:35Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -6250,7 +6250,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
-            "detail_fetched_at_utc": "2026-10-01T23:51:23Z",
+            "detail_fetched_at_utc": "2026-10-02T05:41:46Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -6271,7 +6271,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
-            "detail_fetched_at_utc": "2026-10-01T23:52:17Z",
+            "detail_fetched_at_utc": "2026-10-02T05:42:00Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -6292,7 +6292,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
           },
           {
-            "detail_fetched_at_utc": "2026-10-01T23:53:04Z",
+            "detail_fetched_at_utc": "2026-10-02T05:42:15Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -19873,7 +19873,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 12
       }
     ],
-    "last_verified_utc": "2026-10-01T23:53:04Z",
+    "last_verified_utc": "2026-10-02T05:42:15Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -20311,7 +20311,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-01T23:56:28Z",
+  "generated_at_utc": "2026-10-02T05:46:22Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -21868,7 +21868,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-01T23:56:28Z",
+    "generated_at_utc": "2026-10-02T05:46:21Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -22162,7 +22162,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
+      "new_rows": 0,
       "online_rows": 164,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
@@ -32804,7 +32804,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 72,
-    "online_results_applied": 2,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

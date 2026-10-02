@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-10-01T23:53:04Z",
+  "fetched_at_utc": "2026-10-02T05:42:15Z",
   "poll_after_ms": 180000,
   "events": [
     {
@@ -807,7 +807,7 @@
             "team1": [],
             "team2": []
           },
-          "detail_fetched_at_utc": "2026-10-01T23:50:39Z"
+          "detail_fetched_at_utc": "2026-10-02T05:41:35Z"
         },
         {
           "match_id": "hltv:2398718",
@@ -829,7 +829,7 @@
             "team1": [],
             "team2": []
           },
-          "detail_fetched_at_utc": "2026-10-01T23:51:23Z"
+          "detail_fetched_at_utc": "2026-10-02T05:41:46Z"
         },
         {
           "match_id": "hltv:2398719",
@@ -851,7 +851,7 @@
             "team1": [],
             "team2": []
           },
-          "detail_fetched_at_utc": "2026-10-01T23:52:17Z"
+          "detail_fetched_at_utc": "2026-10-02T05:42:00Z"
         },
         {
           "match_id": "hltv:2398720",
@@ -873,7 +873,7 @@
             "team1": [],
             "team2": []
           },
-          "detail_fetched_at_utc": "2026-10-01T23:53:04Z"
+          "detail_fetched_at_utc": "2026-10-02T05:42:15Z"
         }
       ],
       "format": {
@@ -2071,7 +2071,7 @@
         "team1": [],
         "team2": []
       },
-      "detail_fetched_at_utc": "2026-10-01T23:50:39Z"
+      "detail_fetched_at_utc": "2026-10-02T05:41:35Z"
     },
     {
       "match_id": "hltv:2398718",
@@ -2093,7 +2093,7 @@
         "team1": [],
         "team2": []
       },
-      "detail_fetched_at_utc": "2026-10-01T23:51:23Z"
+      "detail_fetched_at_utc": "2026-10-02T05:41:46Z"
     },
     {
       "match_id": "hltv:2398387",
@@ -2131,7 +2131,7 @@
         "team1": [],
         "team2": []
       },
-      "detail_fetched_at_utc": "2026-10-01T23:52:17Z"
+      "detail_fetched_at_utc": "2026-10-02T05:42:00Z"
     },
     {
       "match_id": "hltv:2398720",
@@ -2153,7 +2153,7 @@
         "team1": [],
         "team2": []
       },
-      "detail_fetched_at_utc": "2026-10-01T23:53:04Z"
+      "detail_fetched_at_utc": "2026-10-02T05:42:15Z"
     },
     {
       "match_id": "hltv:2398388",
@@ -2736,7 +2736,7 @@
   "rankings": null,
   "source": "HLTV via Oracle Scrapling",
   "source_health": {
-    "scheduled_matches": 126,
+    "scheduled_matches": 128,
     "recent_results": 80,
     "detail_matches": 4,
     "detail_cache_hits": 0,
