@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3421,
+    "matches": 3427,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -320,6 +320,138 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:0b6f8cea13975600518e",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 2",
+      "team1_name": "lavked",
+      "team2_name": "MASON",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "lavked",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_2"
+    },
+    {
+      "match_id": "liquipedia:19c1f5e751d9cab25bba",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T11:10:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 2",
+      "team1_name": "Nexus",
+      "team2_name": "W.PCF",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_2"
+    },
+    {
+      "match_id": "liquipedia:869068b99ccee0362e4c",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T13:15:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Playoffs",
+      "team1_name": "BESTIA.A",
+      "team2_name": "LowC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BESTIA.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:413f5cfba90fa219da45",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 2",
+      "team1_name": "Butterfly",
+      "team2_name": "Noir",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Noir",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_2"
+    },
+    {
+      "match_id": "liquipedia:bd459d15bba49d44d771",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 2",
+      "team1_name": "EAC",
+      "team2_name": "ex-Z10",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "EAC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_2"
+    },
+    {
+      "match_id": "liquipedia:be668cb91f946075430e",
+      "match_date": "2026-10-01",
+      "starts_at": "2026-10-01T19:20:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "FaZe",
+      "team2_name": "Nemiga",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nemiga",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
     },
     {
       "match_id": "hltv:2398549",
