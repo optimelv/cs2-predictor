@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-02T12:44:14Z",
+  "generated_at_utc": "2026-10-02T18:29:28Z",
   "through_date": "2026-10-02",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3452,
+    "matches": 3456,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -78,6 +78,94 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_3"
+    },
+    {
+      "match_id": "hltv:2399058",
+      "match_date": "2026-10-02",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "Spirit Academy",
+      "team2_name": "MAYBE",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398384",
+      "match_date": "2026-10-02",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Butterfly",
+      "team2_name": "ex-Zero Tenacity",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-Zero Tenacity",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399059",
+      "match_date": "2026-10-02",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "Fire Flux",
+      "team2_name": "benched gods",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Fire Flux",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398588",
+      "match_date": "2026-10-02",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "Bounty Hunters",
+      "team2_name": "MEIA NOITE",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "Bounty Hunters",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "hltv:2398582",
