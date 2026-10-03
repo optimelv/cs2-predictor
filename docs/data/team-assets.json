@@ -2085,5 +2085,10 @@
     "name": "XI Esport",
     "logo_url": "https://liquipedia.net/commons/images/thumb/b/bc/XI_Esport_allmode.png/45px-XI_Esport_allmode.png",
     "source": "Liquipedia"
+  },
+  "glitch": {
+    "name": "Glitch",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/ee/Glitch_Agency_lightmode.png/52px-Glitch_Agency_lightmode.png",
+    "source": "Liquipedia"
   }
 }
