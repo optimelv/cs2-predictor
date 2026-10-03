@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-03T08:12:05Z",
+  "generated_at_utc": "2026-10-03T13:19:00Z",
   "through_date": "2026-10-03",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3472,
+    "matches": 3473,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -78,6 +78,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1"
+    },
+    {
+      "match_id": "hltv:2399062",
+      "match_date": "2026-10-03",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "mellren",
+      "team2_name": "FORZE Reload",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FORZE Reload",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "hltv:2398382",
