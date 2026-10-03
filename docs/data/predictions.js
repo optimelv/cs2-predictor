@@ -3,64 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:9404",
-        "event_name": "CCT 2026 Europe Series 9",
-        "hltv_match_id": "2397838",
-        "match_id": "hltv:2397838",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397838/g2-ares-vs-navi-junior-cct-2026-europe-series-9",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-23T11:00:00Z",
-        "status": "upcoming",
-        "team1_name": "G2 Ares",
-        "team2_name": "NAVI Junior"
-      },
-      {
-        "event_id": "hltv:9425",
-        "event_name": "CCT 2026 South America Series 6",
-        "event_url": null,
-        "hltv_match_id": "2398554",
-        "maps": [],
-        "match_id": "hltv:2398554",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398554/alka-vs-grmio-cct-2026-south-america-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-23T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "ALKA",
-        "team2_name": "Gr\u00eamio"
-      },
-      {
-        "event_id": "hltv:9354",
-        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
-        "hltv_match_id": "2398468",
-        "match_id": "hltv:2398468",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-23T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Lynn Vision",
-        "team2_name": "Vitalem Aerem"
-      },
-      {
-        "event_id": "hltv:9354",
-        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
-        "hltv_match_id": "2398469",
-        "match_id": "hltv:2398469",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398469/xdm-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-23T13:00:00Z",
-        "status": "upcoming",
-        "team1_name": "XDM",
-        "team2_name": "The Huns"
-      },
-      {
         "event_id": "hltv:9354",
         "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
         "hltv_match_id": "2398470",
@@ -5211,14 +5153,17 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "match_id": "hltv:2398590",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398590/galorys-vs-grmio-cct-2026-south-america-series-6",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-10-02T22:00:00Z",
-        "status": "live",
+        "starts_at": "2026-10-03T00:18:29Z",
+        "status": "finished",
         "team1_name": "Galorys",
         "team2_name": "Gr\u00eamio",
-        "veto_text": "Best of 3 (Online)\n\n* Round of 16"
+        "veto_text": "Best of 3 (Online)\n\n* Round of 16",
+        "winner_name": "Galorys"
       },
       {
         "detail_fetched_at_utc": "2026-10-02T22:46:22Z",
@@ -5333,6 +5278,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
       },
       {
+        "event_id": "hltv:9425",
+        "event_name": "CCT 2026 South America Series 6",
+        "hltv_match_id": "2398591",
+        "match_id": "hltv:2398591",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398591/turma-do-pagode-vs-yawara-cct-2026-south-america-series-6",
+        "stage_name": "Quarterfinal",
+        "starts_at": "2026-10-03T13:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Turma do Pagode",
+        "team2_name": "Yawara"
+      },
+      {
         "event_id": "hltv:9433",
         "event_name": "CCT 2026 Challengers Europe Series 7",
         "hltv_match_id": "2399063",
@@ -5396,6 +5355,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "ex-RUSTEC"
       },
       {
+        "event_id": "hltv:9425",
+        "event_name": "CCT 2026 South America Series 6",
+        "hltv_match_id": "2398592",
+        "match_id": "hltv:2398592",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398592/mira-vs-bounty-hunters-cct-2026-south-america-series-6",
+        "stage_name": "Quarterfinal",
+        "starts_at": "2026-10-03T16:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Mira",
+        "team2_name": "Bounty Hunters"
+      },
+      {
         "event_id": "hltv:8244",
         "event_name": "ESL Pro League Season 24",
         "hltv_match_id": "2398723",
@@ -5436,6 +5409,34 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "Lavked",
         "team2_name": "Nexus"
+      },
+      {
+        "event_id": "hltv:9425",
+        "event_name": "CCT 2026 South America Series 6",
+        "hltv_match_id": "2398593",
+        "match_id": "hltv:2398593",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398593/galorys-vs-bestia-academy-cct-2026-south-america-series-6",
+        "stage_name": "Quarterfinal",
+        "starts_at": "2026-10-03T19:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Galorys",
+        "team2_name": "BESTIA Academy"
+      },
+      {
+        "event_id": "hltv:9425",
+        "event_name": "CCT 2026 South America Series 6",
+        "hltv_match_id": "2398594",
+        "match_id": "hltv:2398594",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
+        "stage_name": "Quarterfinal",
+        "starts_at": "2026-10-03T22:00:00Z",
+        "status": "upcoming",
+        "team1_name": "ex-Keyd Stars",
+        "team2_name": "Procyon"
       },
       {
         "event_id": "hltv:9318",
@@ -15210,12 +15211,109 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       },
       {
-        "bracket": null,
+        "bracket": {
+          "rounds": [
+            {
+              "bracket": "main",
+              "id": "main:quarterfinal",
+              "matches": [
+                {
+                  "event_id": "hltv:9425",
+                  "event_name": "CCT 2026 South America Series 6",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2398591",
+                  "maps": [],
+                  "match_id": "hltv:2398591",
+                  "product_tier": "tier_2",
+                  "round_name": "Quarterfinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:quarterfinal:1",
+                  "source_url": "https://www.hltv.org/matches/2398591/turma-do-pagode-vs-yawara-cct-2026-south-america-series-6",
+                  "stage_name": "Quarterfinal",
+                  "starts_at": "2026-10-03T13:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "Turma do Pagode",
+                  "team2_name": "Yawara"
+                },
+                {
+                  "event_id": "hltv:9425",
+                  "event_name": "CCT 2026 South America Series 6",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2398592",
+                  "maps": [],
+                  "match_id": "hltv:2398592",
+                  "product_tier": "tier_2",
+                  "round_name": "Quarterfinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:quarterfinal:2",
+                  "source_url": "https://www.hltv.org/matches/2398592/mira-vs-bounty-hunters-cct-2026-south-america-series-6",
+                  "stage_name": "Quarterfinal",
+                  "starts_at": "2026-10-03T16:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "Mira",
+                  "team2_name": "Bounty Hunters"
+                },
+                {
+                  "event_id": "hltv:9425",
+                  "event_name": "CCT 2026 South America Series 6",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2398593",
+                  "maps": [],
+                  "match_id": "hltv:2398593",
+                  "product_tier": "tier_2",
+                  "round_name": "Quarterfinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:quarterfinal:3",
+                  "source_url": "https://www.hltv.org/matches/2398593/galorys-vs-bestia-academy-cct-2026-south-america-series-6",
+                  "stage_name": "Quarterfinal",
+                  "starts_at": "2026-10-03T19:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "Galorys",
+                  "team2_name": "BESTIA Academy"
+                },
+                {
+                  "event_id": "hltv:9425",
+                  "event_name": "CCT 2026 South America Series 6",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2398594",
+                  "maps": [],
+                  "match_id": "hltv:2398594",
+                  "product_tier": "tier_2",
+                  "round_name": "Quarterfinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:quarterfinal:4",
+                  "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
+                  "stage_name": "Quarterfinal",
+                  "starts_at": "2026-10-03T22:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "ex-Keyd Stars",
+                  "team2_name": "Procyon"
+                }
+              ],
+              "name": "Quarterfinal",
+              "order": 1
+            }
+          ],
+          "type": "single_elimination"
+        },
+        "current_stage": "Quarterfinal",
         "format": {
-          "label": "Event schedule",
+          "label": "Quarterfinal",
           "settings": {},
-          "stages": [],
-          "type": "mixed"
+          "stages": [
+            {
+              "id": "quarterfinal",
+              "name": "Quarterfinal",
+              "order": 1,
+              "status": "pending",
+              "type": "single_elimination"
+            }
+          ],
+          "type": "single_elimination"
         },
         "id": "hltv:9425",
         "matches": [
@@ -16793,14 +16891,73 @@ window.__STRIKESIGNAL_DATA__ = {
             ],
             "match_id": "hltv:2398590",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398590/galorys-vs-grmio-cct-2026-south-america-series-6",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-02T22:00:00Z",
-            "status": "live",
+            "starts_at": "2026-10-03T00:18:29Z",
+            "status": "finished",
             "team1_name": "Galorys",
             "team2_name": "Gr\u00eamio",
-            "veto_text": "Best of 3 (Online)\n\n* Round of 16"
+            "veto_text": "Best of 3 (Online)\n\n* Round of 16",
+            "winner_name": "Galorys"
+          },
+          {
+            "event_id": "hltv:9425",
+            "event_name": "CCT 2026 South America Series 6",
+            "hltv_match_id": "2398591",
+            "match_id": "hltv:2398591",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398591/turma-do-pagode-vs-yawara-cct-2026-south-america-series-6",
+            "stage_name": "Quarterfinal",
+            "starts_at": "2026-10-03T13:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Turma do Pagode",
+            "team2_name": "Yawara"
+          },
+          {
+            "event_id": "hltv:9425",
+            "event_name": "CCT 2026 South America Series 6",
+            "hltv_match_id": "2398592",
+            "match_id": "hltv:2398592",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398592/mira-vs-bounty-hunters-cct-2026-south-america-series-6",
+            "stage_name": "Quarterfinal",
+            "starts_at": "2026-10-03T16:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Mira",
+            "team2_name": "Bounty Hunters"
+          },
+          {
+            "event_id": "hltv:9425",
+            "event_name": "CCT 2026 South America Series 6",
+            "hltv_match_id": "2398593",
+            "match_id": "hltv:2398593",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398593/galorys-vs-bestia-academy-cct-2026-south-america-series-6",
+            "stage_name": "Quarterfinal",
+            "starts_at": "2026-10-03T19:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Galorys",
+            "team2_name": "BESTIA Academy"
+          },
+          {
+            "event_id": "hltv:9425",
+            "event_name": "CCT 2026 South America Series 6",
+            "hltv_match_id": "2398594",
+            "match_id": "hltv:2398594",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
+            "stage_name": "Quarterfinal",
+            "starts_at": "2026-10-03T22:00:00Z",
+            "status": "upcoming",
+            "team1_name": "ex-Keyd Stars",
+            "team2_name": "Procyon"
           }
         ],
         "name": "CCT 2026 South America Series 6",
@@ -20748,7 +20905,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 12
       }
     ],
-    "last_verified_utc": "2026-10-02T22:51:26Z",
+    "last_verified_utc": "2026-10-03T08:12:05Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -21186,7 +21343,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-02T23:01:13Z",
+  "generated_at_utc": "2026-10-03T08:13:16Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -22562,12 +22719,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.630645,
-        "brier": 0.222912,
-        "ece": 0.023793,
-        "log_loss": 0.63502
+        "accuracy": 0.62963,
+        "brier": 0.223072,
+        "ece": 0.024668,
+        "log_loss": 0.635347
       },
-      "rows": 928,
+      "rows": 929,
       "slices": [
         {
           "dimension": "tier",
@@ -22588,12 +22745,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.583784,
-            "brier": 0.244966,
-            "ece": 0.055106,
-            "log_loss": 0.683385
+            "accuracy": 0.580645,
+            "brier": 0.24538,
+            "ece": 0.05786,
+            "log_loss": 0.684216
           },
-          "rows": 185
+          "rows": 186
         },
         {
           "dimension": "series_format",
@@ -22614,12 +22771,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.62549,
-            "brier": 0.222719,
-            "ece": 0.036412,
-            "log_loss": 0.634207
+            "accuracy": 0.624266,
+            "brier": 0.222913,
+            "ece": 0.037452,
+            "log_loss": 0.634605
           },
-          "rows": 510
+          "rows": 511
         },
         {
           "dimension": "series_format",
@@ -22635,7 +22792,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "test_rows": 620
+      "test_rows": 621
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -22649,13 +22806,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.637097,
-        "brier": 0.224247,
-        "ece": 0.048362,
-        "log_loss": 0.638789
+        "accuracy": 0.637681,
+        "brier": 0.224276,
+        "ece": 0.049077,
+        "log_loss": 0.638853
       },
       "promotion_passed": false,
-      "rows": 620,
+      "rows": 621,
       "slices": [
         {
           "dimension": "tier",
@@ -22676,12 +22833,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.594595,
-            "brier": 0.243802,
-            "ece": 0.059141,
-            "log_loss": 0.680701
+            "accuracy": 0.596774,
+            "brier": 0.243795,
+            "ece": 0.061471,
+            "log_loss": 0.680688
           },
-          "rows": 185
+          "rows": 186
         },
         {
           "dimension": "series_format",
@@ -22702,12 +22859,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.633333,
-            "brier": 0.22382,
-            "ece": 0.046957,
-            "log_loss": 0.637816
+            "accuracy": 0.634051,
+            "brier": 0.223856,
+            "ece": 0.047829,
+            "log_loss": 0.637895
           },
-          "rows": 510
+          "rows": 511
         },
         {
           "dimension": "series_format",
@@ -22743,7 +22900,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-02T23:01:13Z",
+    "generated_at_utc": "2026-10-03T08:13:16Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -22766,12 +22923,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.583784,
-            "brier": 0.244966,
-            "ece": 0.055106,
-            "log_loss": 0.683385
+            "accuracy": 0.580645,
+            "brier": 0.24538,
+            "ece": 0.05786,
+            "log_loss": 0.684216
           },
-          "rows": 185
+          "rows": 186
         },
         {
           "dimension": "series_format",
@@ -22792,12 +22949,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.62549,
-            "brier": 0.222719,
-            "ece": 0.036412,
-            "log_loss": 0.634207
+            "accuracy": 0.624266,
+            "brier": 0.222913,
+            "ece": 0.037452,
+            "log_loss": 0.634605
           },
-          "rows": 510
+          "rows": 511
         },
         {
           "dimension": "series_format",
@@ -22825,7 +22982,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 185
+            "rows": 186
           },
           {
             "eligible": true,
@@ -22837,7 +22994,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 510
+            "rows": 511
           },
           {
             "eligible": false,
@@ -22868,12 +23025,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.594595,
-            "brier": 0.241156,
-            "ece": 0.057822,
-            "log_loss": 0.67526
+            "accuracy": 0.596774,
+            "brier": 0.241123,
+            "ece": 0.060118,
+            "log_loss": 0.675197
           },
-          "rows": 185
+          "rows": 186
         },
         {
           "dimension": "series_format",
@@ -22894,12 +23051,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.633333,
-            "brier": 0.223159,
-            "ece": 0.044514,
-            "log_loss": 0.636458
+            "accuracy": 0.634051,
+            "brier": 0.223182,
+            "ece": 0.045376,
+            "log_loss": 0.636511
           },
-          "rows": 510
+          "rows": 511
         },
         {
           "dimension": "series_format",
@@ -22916,10 +23073,10 @@ window.__STRIKESIGNAL_DATA__ = {
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.630645,
-        "brier": 0.22302,
-        "ece": 0.026447,
-        "log_loss": 0.635139
+        "accuracy": 0.62963,
+        "brier": 0.22312,
+        "ece": 0.027264,
+        "log_loss": 0.635344
       },
       "champion_slices": [
         {
@@ -22941,12 +23098,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.583784,
-            "brier": 0.245328,
-            "ece": 0.052832,
-            "log_loss": 0.683781
+            "accuracy": 0.580645,
+            "brier": 0.24554,
+            "ece": 0.055417,
+            "log_loss": 0.684206
           },
-          "rows": 185
+          "rows": 186
         },
         {
           "dimension": "series_format",
@@ -22967,12 +23124,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.62549,
-            "brier": 0.222534,
-            "ece": 0.046066,
-            "log_loss": 0.633684
+            "accuracy": 0.624266,
+            "brier": 0.222656,
+            "ece": 0.047021,
+            "log_loss": 0.633936
           },
-          "rows": 510
+          "rows": 511
         },
         {
           "dimension": "series_format",
@@ -22988,37 +23145,37 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "champion_test_rows": 620,
+      "champion_test_rows": 621,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.583784,
-          "brier": 0.245328,
-          "ece": 0.052832,
-          "log_loss": 0.683781
+          "accuracy": 0.580645,
+          "brier": 0.245792,
+          "ece": 0.047821,
+          "log_loss": 0.684713
         },
         "before": {
-          "accuracy": 0.583784,
-          "brier": 0.245328,
-          "ece": 0.052832,
-          "log_loss": 0.683781
+          "accuracy": 0.580645,
+          "brier": 0.24554,
+          "ece": 0.055417,
+          "log_loss": 0.684206
         },
-        "candidate_shrink": 0.5,
+        "candidate_shrink": 0.45,
         "overall_after": {
-          "accuracy": 0.630645,
-          "brier": 0.22302,
-          "ece": 0.026447,
-          "log_loss": 0.635139
+          "accuracy": 0.62963,
+          "brier": 0.223195,
+          "ece": 0.023683,
+          "log_loss": 0.635496
         },
         "overall_before": {
-          "accuracy": 0.630645,
-          "brier": 0.22302,
-          "ece": 0.026447,
-          "log_loss": 0.635139
+          "accuracy": 0.62963,
+          "brier": 0.22312,
+          "ece": 0.027264,
+          "log_loss": 0.635344
         },
         "passed": false,
-        "rows": 185,
+        "rows": 186,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -23037,8 +23194,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
-      "online_rows": 171,
+      "new_rows": 1,
+      "online_rows": 172,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -23268,9 +23425,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2398588",
       "hltv:2398385",
       "hltv:2398386",
-      "hltv:2398589"
+      "hltv:2398589",
+      "hltv:2398590"
     ],
-    "last_online_update_utc": "2026-10-02T23:01:13Z",
+    "last_online_update_utc": "2026-10-03T08:13:16Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -26281,10 +26439,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 79
       },
       {
-        "elo": 1434.26,
-        "last_result_utc": "2026-09-28T22:59:23Z",
-        "matches": 37,
-        "recent_win_rate_10": 0.4016,
+        "elo": 1450.89,
+        "last_result_utc": "2026-10-03T00:18:29Z",
+        "matches": 38,
+        "recent_win_rate_10": 0.5104,
         "team_key": "galorys",
         "team_name": "Galorys",
         "vrs_points": 1120,
@@ -29664,10 +29822,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1511.74,
-        "last_result_utc": "2026-09-30T22:21:48Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.5774,
+        "elo": 1495.11,
+        "last_result_utc": "2026-10-03T00:18:29Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.4724,
         "team_key": "gr mio",
         "team_name": "Gr\u00eamio",
         "vrs_points": 0,
@@ -32785,86 +32943,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.847,
-      "confidence_label": "strong",
-      "data_quality": "full",
-      "elo_prob_team1": 0.847,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-03",
-      "match_id": "hltv:2398717",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791018000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Falcons",
-      "prob_team1": 0.847,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398717/falcons-vs-tyloo-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T09:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Falcons",
-      "team1_vrs_rank": 3,
-      "team2_hltv_rank": null,
-      "team2_name": "TYLOO",
-      "team2_vrs_rank": 32
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.6162,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.6162,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-03",
-      "match_id": "hltv:2398718",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791018000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Legacy",
-      "prob_team1": 0.6162,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398718/legacy-vs-parivision-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T09:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Legacy",
-      "team1_vrs_rank": 6,
-      "team2_hltv_rank": null,
-      "team2_name": "PARIVISION",
-      "team2_vrs_rank": 14
-    },
-    {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
       "confidence": 0.528,
@@ -33015,6 +33093,43 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.6152,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.6152,
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-03",
+      "match_id": "hltv:2398591",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791032400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Turma do Pagode",
+      "prob_team1": 0.6152,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398591/turma-do-pagode-vs-yawara-cct-2026-south-america-series-6",
+      "stage_name": "Quarterfinal",
+      "starts_at": "2026-10-03T13:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Turma do Pagode",
+      "team1_vrs_rank": 69,
+      "team2_hltv_rank": null,
+      "team2_name": "Yawara",
+      "team2_vrs_rank": 111
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5147,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -33124,41 +33239,41 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 15
     },
     {
-      "calibration_shrink": null,
+      "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.8175,
-      "confidence_label": "strong",
+      "confidence": 0.5503,
+      "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.8175,
-      "event_id": "hltv:8244",
-      "event_name": "ESL Pro League Season 24",
+      "elo_prob_team1": 0.5503,
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
       "format": "bo3",
       "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-03",
-      "match_id": "hltv:2398722",
+      "match_id": "hltv:2398592",
       "match_phase": "scheduled",
-      "match_timestamp": 1791036000,
+      "match_timestamp": 1791043200,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "MOUZ",
-      "prob_team1": 0.8175,
-      "product_tier": "tier_1",
+      "predicted_winner": "Mira",
+      "prob_team1": 0.5503,
+      "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T14:00:00Z",
-      "status": "live",
+      "source_url": "https://www.hltv.org/matches/2398592/mira-vs-bounty-hunters-cct-2026-south-america-series-6",
+      "stage_name": "Quarterfinal",
+      "starts_at": "2026-10-03T16:00:00Z",
+      "status": "upcoming",
       "team1_hltv_rank": null,
-      "team1_name": "MOUZ",
-      "team1_vrs_rank": 5,
+      "team1_name": "Mira",
+      "team1_vrs_rank": null,
       "team2_hltv_rank": null,
-      "team2_name": "M80",
-      "team2_vrs_rank": 33
+      "team2_name": "Bounty Hunters",
+      "team2_vrs_rank": 91
     },
     {
       "calibration_shrink": null,
@@ -33270,6 +33385,80 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Nexus",
       "team2_vrs_rank": 185
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5139,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5139,
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-03",
+      "match_id": "hltv:2398593",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791054000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Galorys",
+      "prob_team1": 0.5139,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398593/galorys-vs-bestia-academy-cct-2026-south-america-series-6",
+      "stage_name": "Quarterfinal",
+      "starts_at": "2026-10-03T19:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Galorys",
+      "team1_vrs_rank": 80,
+      "team2_hltv_rank": null,
+      "team2_name": "BESTIA Academy",
+      "team2_vrs_rank": 214
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5305,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4695,
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-03",
+      "match_id": "hltv:2398594",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791064800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Procyon",
+      "prob_team1": 0.4695,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
+      "stage_name": "Quarterfinal",
+      "starts_at": "2026-10-03T22:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "ex-Keyd Stars",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Procyon",
+      "team2_vrs_rank": 199
     },
     {
       "calibration_shrink": 0.5,
@@ -33640,49 +33829,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "PURE",
       "team2_vrs_rank": 347
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5712,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5712,
-      "event_id": "hltv:9318",
-      "event_name": "Roman Imperium Cup IX",
-      "format": "bo1",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-07",
-      "match_id": "hltv:2399020",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791373500,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "OG",
-      "prob_team1": 0.5712,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo1",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399020/og-vs-sinqu-roman-imperium-cup-ix",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-07T11:45:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "OG",
-      "team1_vrs_rank": 57,
-      "team2_hltv_rank": null,
-      "team2_name": "SINQU",
-      "team2_vrs_rank": 307
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 51,
-    "online_results_applied": 3,
+    "live_feed_items": 52,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

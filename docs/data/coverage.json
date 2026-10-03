@@ -2,64 +2,6 @@
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "hltv_match_id": "2397838",
-      "match_id": "hltv:2397838",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397838/g2-ares-vs-navi-junior-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-23T11:00:00Z",
-      "status": "upcoming",
-      "team1_name": "G2 Ares",
-      "team2_name": "NAVI Junior"
-    },
-    {
-      "event_id": "hltv:9425",
-      "event_name": "CCT 2026 South America Series 6",
-      "event_url": null,
-      "hltv_match_id": "2398554",
-      "maps": [],
-      "match_id": "hltv:2398554",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398554/alka-vs-grmio-cct-2026-south-america-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-23T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ALKA",
-      "team2_name": "Grêmio"
-    },
-    {
-      "event_id": "hltv:9354",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
-      "hltv_match_id": "2398468",
-      "match_id": "hltv:2398468",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398468/lynn-vision-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-2",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-23T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Lynn Vision",
-      "team2_name": "Vitalem Aerem"
-    },
-    {
-      "event_id": "hltv:9354",
-      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
-      "hltv_match_id": "2398469",
-      "match_id": "hltv:2398469",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398469/xdm-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-2",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-23T13:00:00Z",
-      "status": "upcoming",
-      "team1_name": "XDM",
-      "team2_name": "The Huns"
-    },
-    {
       "event_id": "hltv:9354",
       "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 2",
       "hltv_match_id": "2398470",
@@ -5210,14 +5152,17 @@
       ],
       "match_id": "hltv:2398590",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398590/galorys-vs-grmio-cct-2026-south-america-series-6",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-02T22:00:00Z",
-      "status": "live",
+      "starts_at": "2026-10-03T00:18:29Z",
+      "status": "finished",
       "team1_name": "Galorys",
       "team2_name": "Grêmio",
-      "veto_text": "Best of 3 (Online)\n\n* Round of 16"
+      "veto_text": "Best of 3 (Online)\n\n* Round of 16",
+      "winner_name": "Galorys"
     },
     {
       "detail_fetched_at_utc": "2026-10-02T22:46:22Z",
@@ -5332,6 +5277,20 @@
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1"
     },
     {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "hltv_match_id": "2398591",
+      "match_id": "hltv:2398591",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398591/turma-do-pagode-vs-yawara-cct-2026-south-america-series-6",
+      "stage_name": "Quarterfinal",
+      "starts_at": "2026-10-03T13:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Turma do Pagode",
+      "team2_name": "Yawara"
+    },
+    {
       "event_id": "hltv:9433",
       "event_name": "CCT 2026 Challengers Europe Series 7",
       "hltv_match_id": "2399063",
@@ -5395,6 +5354,20 @@
       "team2_name": "ex-RUSTEC"
     },
     {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "hltv_match_id": "2398592",
+      "match_id": "hltv:2398592",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398592/mira-vs-bounty-hunters-cct-2026-south-america-series-6",
+      "stage_name": "Quarterfinal",
+      "starts_at": "2026-10-03T16:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Mira",
+      "team2_name": "Bounty Hunters"
+    },
+    {
       "event_id": "hltv:8244",
       "event_name": "ESL Pro League Season 24",
       "hltv_match_id": "2398723",
@@ -5435,6 +5408,34 @@
       "status": "upcoming",
       "team1_name": "Lavked",
       "team2_name": "Nexus"
+    },
+    {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "hltv_match_id": "2398593",
+      "match_id": "hltv:2398593",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398593/galorys-vs-bestia-academy-cct-2026-south-america-series-6",
+      "stage_name": "Quarterfinal",
+      "starts_at": "2026-10-03T19:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Galorys",
+      "team2_name": "BESTIA Academy"
+    },
+    {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "hltv_match_id": "2398594",
+      "match_id": "hltv:2398594",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
+      "stage_name": "Quarterfinal",
+      "starts_at": "2026-10-03T22:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ex-Keyd Stars",
+      "team2_name": "Procyon"
     },
     {
       "event_id": "hltv:9318",
@@ -15209,12 +15210,109 @@
       "teams": 16
     },
     {
-      "bracket": null,
+      "bracket": {
+        "rounds": [
+          {
+            "bracket": "main",
+            "id": "main:quarterfinal",
+            "matches": [
+              {
+                "event_id": "hltv:9425",
+                "event_name": "CCT 2026 South America Series 6",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2398591",
+                "maps": [],
+                "match_id": "hltv:2398591",
+                "product_tier": "tier_2",
+                "round_name": "Quarterfinal",
+                "series_format": "bo3",
+                "slot_id": "main:quarterfinal:1",
+                "source_url": "https://www.hltv.org/matches/2398591/turma-do-pagode-vs-yawara-cct-2026-south-america-series-6",
+                "stage_name": "Quarterfinal",
+                "starts_at": "2026-10-03T13:00:00Z",
+                "status": "upcoming",
+                "team1_name": "Turma do Pagode",
+                "team2_name": "Yawara"
+              },
+              {
+                "event_id": "hltv:9425",
+                "event_name": "CCT 2026 South America Series 6",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2398592",
+                "maps": [],
+                "match_id": "hltv:2398592",
+                "product_tier": "tier_2",
+                "round_name": "Quarterfinal",
+                "series_format": "bo3",
+                "slot_id": "main:quarterfinal:2",
+                "source_url": "https://www.hltv.org/matches/2398592/mira-vs-bounty-hunters-cct-2026-south-america-series-6",
+                "stage_name": "Quarterfinal",
+                "starts_at": "2026-10-03T16:00:00Z",
+                "status": "upcoming",
+                "team1_name": "Mira",
+                "team2_name": "Bounty Hunters"
+              },
+              {
+                "event_id": "hltv:9425",
+                "event_name": "CCT 2026 South America Series 6",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2398593",
+                "maps": [],
+                "match_id": "hltv:2398593",
+                "product_tier": "tier_2",
+                "round_name": "Quarterfinal",
+                "series_format": "bo3",
+                "slot_id": "main:quarterfinal:3",
+                "source_url": "https://www.hltv.org/matches/2398593/galorys-vs-bestia-academy-cct-2026-south-america-series-6",
+                "stage_name": "Quarterfinal",
+                "starts_at": "2026-10-03T19:00:00Z",
+                "status": "upcoming",
+                "team1_name": "Galorys",
+                "team2_name": "BESTIA Academy"
+              },
+              {
+                "event_id": "hltv:9425",
+                "event_name": "CCT 2026 South America Series 6",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2398594",
+                "maps": [],
+                "match_id": "hltv:2398594",
+                "product_tier": "tier_2",
+                "round_name": "Quarterfinal",
+                "series_format": "bo3",
+                "slot_id": "main:quarterfinal:4",
+                "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
+                "stage_name": "Quarterfinal",
+                "starts_at": "2026-10-03T22:00:00Z",
+                "status": "upcoming",
+                "team1_name": "ex-Keyd Stars",
+                "team2_name": "Procyon"
+              }
+            ],
+            "name": "Quarterfinal",
+            "order": 1
+          }
+        ],
+        "type": "single_elimination"
+      },
+      "current_stage": "Quarterfinal",
       "format": {
-        "label": "Event schedule",
+        "label": "Quarterfinal",
         "settings": {},
-        "stages": [],
-        "type": "mixed"
+        "stages": [
+          {
+            "id": "quarterfinal",
+            "name": "Quarterfinal",
+            "order": 1,
+            "status": "pending",
+            "type": "single_elimination"
+          }
+        ],
+        "type": "single_elimination"
       },
       "id": "hltv:9425",
       "matches": [
@@ -16792,14 +16890,73 @@
           ],
           "match_id": "hltv:2398590",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398590/galorys-vs-grmio-cct-2026-south-america-series-6",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-02T22:00:00Z",
-          "status": "live",
+          "starts_at": "2026-10-03T00:18:29Z",
+          "status": "finished",
           "team1_name": "Galorys",
           "team2_name": "Grêmio",
-          "veto_text": "Best of 3 (Online)\n\n* Round of 16"
+          "veto_text": "Best of 3 (Online)\n\n* Round of 16",
+          "winner_name": "Galorys"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "hltv_match_id": "2398591",
+          "match_id": "hltv:2398591",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398591/turma-do-pagode-vs-yawara-cct-2026-south-america-series-6",
+          "stage_name": "Quarterfinal",
+          "starts_at": "2026-10-03T13:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Turma do Pagode",
+          "team2_name": "Yawara"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "hltv_match_id": "2398592",
+          "match_id": "hltv:2398592",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398592/mira-vs-bounty-hunters-cct-2026-south-america-series-6",
+          "stage_name": "Quarterfinal",
+          "starts_at": "2026-10-03T16:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Mira",
+          "team2_name": "Bounty Hunters"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "hltv_match_id": "2398593",
+          "match_id": "hltv:2398593",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398593/galorys-vs-bestia-academy-cct-2026-south-america-series-6",
+          "stage_name": "Quarterfinal",
+          "starts_at": "2026-10-03T19:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Galorys",
+          "team2_name": "BESTIA Academy"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "hltv_match_id": "2398594",
+          "match_id": "hltv:2398594",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
+          "stage_name": "Quarterfinal",
+          "starts_at": "2026-10-03T22:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-Keyd Stars",
+          "team2_name": "Procyon"
         }
       ],
       "name": "CCT 2026 South America Series 6",
@@ -20747,7 +20904,7 @@
       "teams": 12
     }
   ],
-  "last_verified_utc": "2026-10-02T22:51:26Z",
+  "last_verified_utc": "2026-10-03T08:12:05Z",
   "sources": [
     {
       "name": "HLTV events calendar",
