@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3465,
+    "matches": 3467,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -364,6 +364,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:4a34830ee814cab63c5b",
+      "match_date": "2026-10-02",
+      "starts_at": "2026-10-02T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 3",
+      "team1_name": "Butterfly",
+      "team2_name": "ex-Z10",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-Z10",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_3"
+    },
+    {
+      "match_id": "liquipedia:ce4106ca8c3d6440e24f",
+      "match_date": "2026-10-02",
+      "starts_at": "2026-10-02T18:30:00Z",
+      "event_name": "Journey Autumn 2026 - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "Voca",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "100T",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Journey/2026/Autumn#Playoffs"
     },
     {
       "match_id": "hltv:2398582",
