@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3470,
+    "matches": 3472,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -34,6 +34,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:b4ed8cc0608ccb4fdaf6",
+      "match_date": "2026-10-03",
+      "starts_at": "2026-10-03T09:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 1",
+      "team1_name": "Legacy",
+      "team2_name": "PV",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "PV",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1"
+    },
+    {
+      "match_id": "liquipedia:eea9e64ab6e2c93e49a3",
+      "match_date": "2026-10-03",
+      "starts_at": "2026-10-03T09:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 1",
+      "team1_name": "Falcons",
+      "team2_name": "TYLOO",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1"
     },
     {
       "match_id": "hltv:2398382",

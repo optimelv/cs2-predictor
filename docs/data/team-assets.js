@@ -2080,5 +2080,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "m1x",
     "logo_url": "https://liquipedia.net/commons/images/thumb/e/e7/M1x_%28Kosovar_team%29_lightmode.png/86px-M1x_%28Kosovar_team%29_lightmode.png",
     "source": "Liquipedia"
+  },
+  "xi esport": {
+    "name": "XI Esport",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/bc/XI_Esport_allmode.png/45px-XI_Esport_allmode.png",
+    "source": "Liquipedia"
   }
 };
