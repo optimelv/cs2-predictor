@@ -15395,71 +15395,321 @@
       "player_id": "hltv:23193",
       "nickname": "VILBy",
       "team_name": "Spirit Academy",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.05,
+      "maps_3m": 3,
+      "signal_index": 55,
       "traits": {},
       "hltv_player_id": "23193",
       "source_url": "https://www.hltv.org/player/23193/vilby",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Fire Flux",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 48,
+          "deaths": 58,
+          "kd_ratio": 0.83,
+          "adr": 73,
+          "kast": 75,
+          "rating": 1.05,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Spirit Academy",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-03",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.05,
+          "average_adr": 73
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399063",
+        "date": "2026-10-03",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "opponent_name": "Fire Flux",
+        "team_name": "Spirit Academy",
+        "won": true,
+        "kills": 48,
+        "deaths": 58,
+        "kd_ratio": 0.83,
+        "adr": 73,
+        "kast": 75,
+        "rating": 1.05,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.05,
+        "average_adr": 73,
+        "recent_rating": 1.05,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25390",
       "nickname": "Kiryasoo",
       "team_name": "Spirit Academy",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.25,
+      "maps_3m": 3,
+      "signal_index": 75,
       "traits": {},
       "hltv_player_id": "25390",
       "source_url": "https://www.hltv.org/player/25390/kiryasoo",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Fire Flux",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 69,
+          "deaths": 50,
+          "kd_ratio": 1.38,
+          "adr": 89.1,
+          "kast": 72.6,
+          "rating": 1.25,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Spirit Academy",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-03",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.25,
+          "average_adr": 89.1
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399063",
+        "date": "2026-10-03",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "opponent_name": "Fire Flux",
+        "team_name": "Spirit Academy",
+        "won": true,
+        "kills": 69,
+        "deaths": 50,
+        "kd_ratio": 1.38,
+        "adr": 89.1,
+        "kast": 72.6,
+        "rating": 1.25,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.25,
+        "average_adr": 89.1,
+        "recent_rating": 1.25,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25911",
       "nickname": "s1nside",
       "team_name": "Spirit Academy",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.46,
+      "maps_3m": 3,
+      "signal_index": 96,
       "traits": {},
       "hltv_player_id": "25911",
       "source_url": "https://www.hltv.org/player/25911/s1nside",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Fire Flux",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 69,
+          "deaths": 55,
+          "kd_ratio": 1.25,
+          "adr": 84.6,
+          "kast": 76.2,
+          "rating": 1.46,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Spirit Academy",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-03",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.46,
+          "average_adr": 84.6
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399063",
+        "date": "2026-10-03",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "opponent_name": "Fire Flux",
+        "team_name": "Spirit Academy",
+        "won": true,
+        "kills": 69,
+        "deaths": 55,
+        "kd_ratio": 1.25,
+        "adr": 84.6,
+        "kast": 76.2,
+        "rating": 1.46,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.46,
+        "average_adr": 84.6,
+        "recent_rating": 1.46,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:26299",
       "nickname": "k0gaSs",
       "team_name": "Spirit Academy",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.95,
+      "maps_3m": 3,
+      "signal_index": 45,
       "traits": {},
       "hltv_player_id": "26299",
       "source_url": "https://www.hltv.org/player/26299/k0gass",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Fire Flux",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 58,
+          "deaths": 61,
+          "kd_ratio": 0.95,
+          "adr": 67.8,
+          "kast": 66.7,
+          "rating": 0.95,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Spirit Academy",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-03",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.95,
+          "average_adr": 67.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399063",
+        "date": "2026-10-03",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "opponent_name": "Fire Flux",
+        "team_name": "Spirit Academy",
+        "won": true,
+        "kills": 58,
+        "deaths": 61,
+        "kd_ratio": 0.95,
+        "adr": 67.8,
+        "kast": 66.7,
+        "rating": 0.95,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.95,
+        "average_adr": 67.8,
+        "recent_rating": 0.95,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25622",
       "nickname": "Netrix",
       "team_name": "Spirit Academy",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.92,
+      "maps_3m": 3,
+      "signal_index": 42,
       "traits": {},
       "hltv_player_id": "25622",
       "source_url": "https://www.hltv.org/player/25622/netrix",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Fire Flux",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 50,
+          "deaths": 58,
+          "kd_ratio": 0.86,
+          "adr": 67.7,
+          "kast": 63.1,
+          "rating": 0.92,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Spirit Academy",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-03",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.92,
+          "average_adr": 67.7
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399063",
+        "date": "2026-10-03",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "opponent_name": "Fire Flux",
+        "team_name": "Spirit Academy",
+        "won": true,
+        "kills": 50,
+        "deaths": 58,
+        "kd_ratio": 0.86,
+        "adr": 67.7,
+        "kast": 63.1,
+        "rating": 0.92,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.92,
+        "average_adr": 67.7,
+        "recent_rating": 0.92,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20183",
@@ -18741,71 +18991,321 @@
       "player_id": "hltv:25500",
       "nickname": "xEternaLxx",
       "team_name": "Fire Flux",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.07,
+      "maps_3m": 3,
+      "signal_index": 57,
       "traits": {},
       "hltv_player_id": "25500",
       "source_url": "https://www.hltv.org/player/25500/xeternalxx",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Spirit Academy",
+          "team_name": "Fire Flux",
+          "won": false,
+          "kills": 67,
+          "deaths": 61,
+          "kd_ratio": 1.1,
+          "adr": 81.4,
+          "kast": 70.2,
+          "rating": 1.07,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Fire Flux",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-03",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.07,
+          "average_adr": 81.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399063",
+        "date": "2026-10-03",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "opponent_name": "Spirit Academy",
+        "team_name": "Fire Flux",
+        "won": false,
+        "kills": 67,
+        "deaths": 61,
+        "kd_ratio": 1.1,
+        "adr": 81.4,
+        "kast": 70.2,
+        "rating": 1.07,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.07,
+        "average_adr": 81.4,
+        "recent_rating": 1.07,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25540",
       "nickname": "zemix",
       "team_name": "Fire Flux",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.79,
+      "maps_3m": 3,
+      "signal_index": 29,
       "traits": {},
       "hltv_player_id": "25540",
       "source_url": "https://www.hltv.org/player/25540/zemix",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Spirit Academy",
+          "team_name": "Fire Flux",
+          "won": false,
+          "kills": 46,
+          "deaths": 64,
+          "kd_ratio": 0.72,
+          "adr": 66.9,
+          "kast": 64.3,
+          "rating": 0.79,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Fire Flux",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-03",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.79,
+          "average_adr": 66.9
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399063",
+        "date": "2026-10-03",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "opponent_name": "Spirit Academy",
+        "team_name": "Fire Flux",
+        "won": false,
+        "kills": 46,
+        "deaths": 64,
+        "kd_ratio": 0.72,
+        "adr": 66.9,
+        "kast": 64.3,
+        "rating": 0.79,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.79,
+        "average_adr": 66.9,
+        "recent_rating": 0.79,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:22806",
       "nickname": "Quality",
       "team_name": "Fire Flux",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.04,
+      "maps_3m": 3,
+      "signal_index": 54,
       "traits": {},
       "hltv_player_id": "22806",
       "source_url": "https://www.hltv.org/player/22806/quality",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Spirit Academy",
+          "team_name": "Fire Flux",
+          "won": false,
+          "kills": 54,
+          "deaths": 58,
+          "kd_ratio": 0.93,
+          "adr": 74.7,
+          "kast": 70.2,
+          "rating": 1.04,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Fire Flux",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-03",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.04,
+          "average_adr": 74.7
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399063",
+        "date": "2026-10-03",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "opponent_name": "Spirit Academy",
+        "team_name": "Fire Flux",
+        "won": false,
+        "kills": 54,
+        "deaths": 58,
+        "kd_ratio": 0.93,
+        "adr": 74.7,
+        "kast": 70.2,
+        "rating": 1.04,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.04,
+        "average_adr": 74.7,
+        "recent_rating": 1.04,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25109",
       "nickname": "zer0UKY",
       "team_name": "Fire Flux",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.13,
+      "maps_3m": 3,
+      "signal_index": 63,
       "traits": {},
       "hltv_player_id": "25109",
       "source_url": "https://www.hltv.org/player/25109/zer0uky",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Spirit Academy",
+          "team_name": "Fire Flux",
+          "won": false,
+          "kills": 66,
+          "deaths": 48,
+          "kd_ratio": 1.38,
+          "adr": 72,
+          "kast": 70.2,
+          "rating": 1.13,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Fire Flux",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-03",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.13,
+          "average_adr": 72
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399063",
+        "date": "2026-10-03",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "opponent_name": "Spirit Academy",
+        "team_name": "Fire Flux",
+        "won": false,
+        "kills": 66,
+        "deaths": 48,
+        "kd_ratio": 1.38,
+        "adr": 72,
+        "kast": 70.2,
+        "rating": 1.13,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.13,
+        "average_adr": 72,
+        "recent_rating": 1.13,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:15732",
       "nickname": "Cizzx",
       "team_name": "Fire Flux",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.87,
+      "maps_3m": 3,
+      "signal_index": 37,
       "traits": {},
       "hltv_player_id": "15732",
       "source_url": "https://www.hltv.org/player/15732/cizzx",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Spirit Academy",
+          "team_name": "Fire Flux",
+          "won": false,
+          "kills": 47,
+          "deaths": 64,
+          "kd_ratio": 0.73,
+          "adr": 67.8,
+          "kast": 69,
+          "rating": 0.87,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Fire Flux",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-03",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.87,
+          "average_adr": 67.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399063",
+        "date": "2026-10-03",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "opponent_name": "Spirit Academy",
+        "team_name": "Fire Flux",
+        "won": false,
+        "kills": 47,
+        "deaths": 64,
+        "kd_ratio": 0.73,
+        "adr": 67.8,
+        "kast": 69,
+        "rating": 0.87,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.87,
+        "average_adr": 67.8,
+        "recent_rating": 0.87,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25676",
@@ -19744,11 +20244,81 @@
       "form_timeline": [],
       "map_profile": [],
       "roster_eras": []
+    },
+    {
+      "player_id": "hltv:16599",
+      "nickname": "Swisher",
+      "team_name": "M80",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "16599",
+      "source_url": "https://www.hltv.org/player/16599/swisher",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:21665",
+      "nickname": "JBa",
+      "team_name": "M80",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "21665",
+      "source_url": "https://www.hltv.org/player/21665/jba",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:20104",
+      "nickname": "s1n",
+      "team_name": "M80",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "20104",
+      "source_url": "https://www.hltv.org/player/20104/s1n",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:22921",
+      "nickname": "Lake",
+      "team_name": "M80",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "22921",
+      "source_url": "https://www.hltv.org/player/22921/lake",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:15370",
+      "nickname": "slaxz-",
+      "team_name": "M80",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "15370",
+      "source_url": "https://www.hltv.org/player/15370/slaxz",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-03T13:19:00Z",
+  "lineups_updated_at_utc": "2026-10-03T17:56:19Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-05-24",
+  "history_through_date": "2026-10-03",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
