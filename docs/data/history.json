@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3473,
+    "matches": 3477,
     "maps": 2662,
     "lineup_rows": 8590,
     "source_match_ids": 976
@@ -100,6 +100,94 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:13cca9d5a438b2f5ce59",
+      "match_date": "2026-10-03",
+      "starts_at": "2026-10-03T09:00:00Z",
+      "event_name": "Journey Autumn 2026 - Playoffs",
+      "team1_name": "NIP",
+      "team2_name": "SINNERS",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "NIP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Journey/2026/Autumn#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:30fccf015880dedb097f",
+      "match_date": "2026-10-03",
+      "starts_at": "2026-10-03T09:00:00Z",
+      "event_name": "Journey Autumn 2026 - Playoffs",
+      "team1_name": "EF",
+      "team2_name": "Sangal",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "EF",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Journey/2026/Autumn#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:5f334a97016667745e01",
+      "match_date": "2026-10-03",
+      "starts_at": "2026-10-03T09:00:00Z",
+      "event_name": "Journey Autumn 2026 - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "JiJieHao",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "JiJieHao",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Journey/2026/Autumn#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:6a3124bce43618a247d2",
+      "match_date": "2026-10-03",
+      "starts_at": "2026-10-03T10:00:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "Astralis",
+      "team2_name": "BIG",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Astralis",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
     },
     {
       "match_id": "hltv:2398382",
