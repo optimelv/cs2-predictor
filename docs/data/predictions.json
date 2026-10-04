@@ -3,36 +3,6 @@
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:9404",
-        "event_name": "CCT 2026 Europe Series 9",
-        "hltv_match_id": "2397840",
-        "match_id": "hltv:2397840",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2397840/leo-vs-spirit-academy-cct-2026-europe-series-9",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-23T17:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Leo",
-        "team2_name": "Spirit Academy"
-      },
-      {
-        "event_id": "hltv:9425",
-        "event_name": "CCT 2026 South America Series 6",
-        "event_url": null,
-        "hltv_match_id": "2398556",
-        "maps": [],
-        "match_id": "hltv:2398556",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398556/peladona-vs-your-end-cct-2026-south-america-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-23T19:00:00Z",
-        "status": "upcoming",
-        "team1_name": "Peladona",
-        "team2_name": "your end"
-      },
-      {
         "event_id": "hltv:9425",
         "event_name": "CCT 2026 South America Series 6",
         "event_url": null,
@@ -6322,18 +6292,21 @@
         "winner_name": "Galorys"
       },
       {
-        "event_id": "hltv:9425",
+        "event_id": "hltv:cct-2026-south-america-series-6",
         "event_name": "CCT 2026 South America Series 6",
         "hltv_match_id": "2398594",
         "match_id": "hltv:2398594",
         "product_tier": "tier_2",
+        "score1": 1,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
         "stage_name": "Quarterfinal",
-        "starts_at": "2026-10-03T22:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-10-04T00:36:36Z",
+        "status": "finished",
         "team1_name": "ex-Keyd Stars",
-        "team2_name": "Procyon"
+        "team2_name": "Procyon",
+        "winner_name": "Procyon"
       },
       {
         "detail_fetched_at_utc": "2026-10-04T00:42:33Z",
@@ -6392,9 +6365,15 @@
         "team2_name": "Spirit Academy"
       },
       {
-        "event_id": "hltv:9420",
+        "detail_fetched_at_utc": "2026-10-04T07:01:17Z",
+        "event_id": "hltv:cct-2026-europe-series-10",
         "event_name": "CCT 2026 Europe Series 10",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398390",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "match_id": "hltv:2398390",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -6403,10 +6382,11 @@
         "starts_at": "2026-10-04T11:00:00Z",
         "status": "upcoming",
         "team1_name": "MASONIC",
-        "team2_name": "Phantom Academy"
+        "team2_name": "Phantom Academy",
+        "veto_text": "Best of 3 (Online)\n\n Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
       },
       {
-        "detail_fetched_at_utc": "2026-10-04T00:42:47Z",
+        "detail_fetched_at_utc": "2026-10-04T07:00:32Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -6427,7 +6407,7 @@
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
       },
       {
-        "detail_fetched_at_utc": "2026-10-04T00:42:53Z",
+        "detail_fetched_at_utc": "2026-10-04T07:00:37Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -6462,7 +6442,7 @@
         "team2_name": "megoshort"
       },
       {
-        "detail_fetched_at_utc": "2026-10-04T00:43:00Z",
+        "detail_fetched_at_utc": "2026-10-04T07:00:52Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -6483,7 +6463,7 @@
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
       },
       {
-        "detail_fetched_at_utc": "2026-10-04T00:43:06Z",
+        "detail_fetched_at_utc": "2026-10-04T07:00:57Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -6504,9 +6484,29 @@
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
       },
       {
-        "event_id": "hltv:8244",
+        "event_id": "hltv:9425",
+        "event_name": "CCT 2026 South America Series 6",
+        "hltv_match_id": "2398595",
+        "match_id": "hltv:2398595",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398595/galorys-vs-procyon-cct-2026-south-america-series-6",
+        "stage_name": "Semifinal",
+        "starts_at": "2026-10-04T15:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Galorys",
+        "team2_name": "Procyon"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-04T07:01:12Z",
+        "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398731",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "match_id": "hltv:2398731",
         "product_tier": "tier_1",
         "series_format": "bo3",
@@ -6515,7 +6515,8 @@
         "starts_at": "2026-10-04T16:30:00Z",
         "status": "live",
         "team1_name": "Vitality",
-        "team2_name": "Natus Vincere"
+        "team2_name": "Natus Vincere",
+        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
       },
       {
         "event_id": "hltv:9420",
@@ -6530,6 +6531,20 @@
         "status": "upcoming",
         "team1_name": "ex-RUSTEC",
         "team2_name": "Enjoy"
+      },
+      {
+        "event_id": "hltv:9425",
+        "event_name": "CCT 2026 South America Series 6",
+        "hltv_match_id": "2398596",
+        "match_id": "hltv:2398596",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398596/turma-do-pagode-vs-bounty-hunters-cct-2026-south-america-series-6",
+        "stage_name": "Semifinal",
+        "starts_at": "2026-10-04T18:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Turma do Pagode",
+        "team2_name": "Bounty Hunters"
       },
       {
         "event_id": "hltv:9420",
@@ -8315,7 +8330,7 @@
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
           },
           {
-            "detail_fetched_at_utc": "2026-10-04T00:42:47Z",
+            "detail_fetched_at_utc": "2026-10-04T07:00:32Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -8336,7 +8351,7 @@
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
           },
           {
-            "detail_fetched_at_utc": "2026-10-04T00:42:53Z",
+            "detail_fetched_at_utc": "2026-10-04T07:00:37Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -8357,7 +8372,7 @@
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
           },
           {
-            "detail_fetched_at_utc": "2026-10-04T00:43:00Z",
+            "detail_fetched_at_utc": "2026-10-04T07:00:52Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -8378,7 +8393,7 @@
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
           },
           {
-            "detail_fetched_at_utc": "2026-10-04T00:43:06Z",
+            "detail_fetched_at_utc": "2026-10-04T07:00:57Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -8399,9 +8414,15 @@
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
           },
           {
-            "event_id": "hltv:8244",
+            "detail_fetched_at_utc": "2026-10-04T07:01:12Z",
+            "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398731",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
             "match_id": "hltv:2398731",
             "product_tier": "tier_1",
             "series_format": "bo3",
@@ -8410,7 +8431,8 @@
             "starts_at": "2026-10-04T16:30:00Z",
             "status": "live",
             "team1_name": "Vitality",
-            "team2_name": "Natus Vincere"
+            "team2_name": "Natus Vincere",
+            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
           }
         ],
         "name": "ESL Pro League Season 24",
@@ -17040,18 +17062,64 @@
               ],
               "name": "Quarterfinal",
               "order": 1
+            },
+            {
+              "bracket": "main",
+              "id": "main:semifinal",
+              "matches": [
+                {
+                  "event_id": "hltv:9425",
+                  "event_name": "CCT 2026 South America Series 6",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2398595",
+                  "maps": [],
+                  "match_id": "hltv:2398595",
+                  "product_tier": "tier_2",
+                  "round_name": "Semifinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:semifinal:1",
+                  "source_url": "https://www.hltv.org/matches/2398595/galorys-vs-procyon-cct-2026-south-america-series-6",
+                  "stage_name": "Semifinal",
+                  "starts_at": "2026-10-04T15:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "Galorys",
+                  "team2_name": "Procyon"
+                },
+                {
+                  "event_id": "hltv:9425",
+                  "event_name": "CCT 2026 South America Series 6",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2398596",
+                  "maps": [],
+                  "match_id": "hltv:2398596",
+                  "product_tier": "tier_2",
+                  "round_name": "Semifinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:semifinal:2",
+                  "source_url": "https://www.hltv.org/matches/2398596/turma-do-pagode-vs-bounty-hunters-cct-2026-south-america-series-6",
+                  "stage_name": "Semifinal",
+                  "starts_at": "2026-10-04T18:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "Turma do Pagode",
+                  "team2_name": "Bounty Hunters"
+                }
+              ],
+              "name": "Semifinal",
+              "order": 1
             }
           ],
           "type": "single_elimination"
         },
-        "current_stage": "Quarterfinal",
+        "current_stage": "Semifinal",
         "format": {
-          "label": "Quarterfinal",
+          "label": "Semifinal",
           "settings": {},
           "stages": [
             {
-              "id": "quarterfinal",
-              "name": "Quarterfinal",
+              "id": "semifinal",
+              "name": "Semifinal",
               "order": 1,
               "status": "pending",
               "type": "single_elimination"
@@ -18699,18 +18767,49 @@
             "winner_name": "Galorys"
           },
           {
-            "event_id": "hltv:9425",
+            "event_id": "hltv:cct-2026-south-america-series-6",
             "event_name": "CCT 2026 South America Series 6",
             "hltv_match_id": "2398594",
             "match_id": "hltv:2398594",
             "product_tier": "tier_2",
+            "score1": 1,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
             "stage_name": "Quarterfinal",
-            "starts_at": "2026-10-03T22:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-10-04T00:36:36Z",
+            "status": "finished",
             "team1_name": "ex-Keyd Stars",
+            "team2_name": "Procyon",
+            "winner_name": "Procyon"
+          },
+          {
+            "event_id": "hltv:9425",
+            "event_name": "CCT 2026 South America Series 6",
+            "hltv_match_id": "2398595",
+            "match_id": "hltv:2398595",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398595/galorys-vs-procyon-cct-2026-south-america-series-6",
+            "stage_name": "Semifinal",
+            "starts_at": "2026-10-04T15:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Galorys",
             "team2_name": "Procyon"
+          },
+          {
+            "event_id": "hltv:9425",
+            "event_name": "CCT 2026 South America Series 6",
+            "hltv_match_id": "2398596",
+            "match_id": "hltv:2398596",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2398596/turma-do-pagode-vs-bounty-hunters-cct-2026-south-america-series-6",
+            "stage_name": "Semifinal",
+            "starts_at": "2026-10-04T18:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Turma do Pagode",
+            "team2_name": "Bounty Hunters"
           }
         ],
         "name": "CCT 2026 South America Series 6",
@@ -22815,9 +22914,15 @@
             "winner_name": "Nexus"
           },
           {
-            "event_id": "hltv:9420",
+            "detail_fetched_at_utc": "2026-10-04T07:01:17Z",
+            "event_id": "hltv:cct-2026-europe-series-10",
             "event_name": "CCT 2026 Europe Series 10",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398390",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
             "match_id": "hltv:2398390",
             "product_tier": "tier_2",
             "series_format": "bo3",
@@ -22826,7 +22931,8 @@
             "starts_at": "2026-10-04T11:00:00Z",
             "status": "upcoming",
             "team1_name": "MASONIC",
-            "team2_name": "Phantom Academy"
+            "team2_name": "Phantom Academy",
+            "veto_text": "Best of 3 (Online)\n\n Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
           },
           {
             "event_id": "hltv:9420",
@@ -23373,7 +23479,7 @@
         "teams": 12
       }
     ],
-    "last_verified_utc": "2026-10-04T00:43:06Z",
+    "last_verified_utc": "2026-10-04T07:01:17Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -23811,7 +23917,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-04T00:43:38Z",
+  "generated_at_utc": "2026-10-04T07:01:40Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -25187,12 +25293,12 @@
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.6256,
-        "brier": 0.224392,
-        "ece": 0.030242,
-        "log_loss": 0.638213
+        "accuracy": 0.626198,
+        "brier": 0.224342,
+        "ece": 0.029493,
+        "log_loss": 0.638117
       },
-      "rows": 937,
+      "rows": 938,
       "slices": [
         {
           "dimension": "tier",
@@ -25213,12 +25319,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.572165,
-            "brier": 0.246689,
-            "ece": 0.06909,
-            "log_loss": 0.686938
+            "accuracy": 0.574359,
+            "brier": 0.246413,
+            "ece": 0.066485,
+            "log_loss": 0.686379
           },
-          "rows": 194
+          "rows": 195
         },
         {
           "dimension": "series_format",
@@ -25239,12 +25345,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.619417,
-            "brier": 0.224517,
-            "ece": 0.044117,
-            "log_loss": 0.638089
+            "accuracy": 0.620155,
+            "brier": 0.224456,
+            "ece": 0.043181,
+            "log_loss": 0.637973
           },
-          "rows": 515
+          "rows": 516
         },
         {
           "dimension": "series_format",
@@ -25260,7 +25366,7 @@
           "rows": 10
         }
       ],
-      "test_rows": 625
+      "test_rows": 626
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -25274,13 +25380,13 @@
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.6352,
-        "brier": 0.225127,
-        "ece": 0.047907,
-        "log_loss": 0.64067
+        "accuracy": 0.635783,
+        "brier": 0.225076,
+        "ece": 0.048534,
+        "log_loss": 0.640573
       },
       "promotion_passed": false,
-      "rows": 625,
+      "rows": 626,
       "slices": [
         {
           "dimension": "tier",
@@ -25301,12 +25407,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.587629,
-            "brier": 0.24427,
-            "ece": 0.052407,
-            "log_loss": 0.681647
+            "accuracy": 0.589744,
+            "brier": 0.24401,
+            "ece": 0.054394,
+            "log_loss": 0.681124
           },
-          "rows": 194
+          "rows": 195
         },
         {
           "dimension": "series_format",
@@ -25327,12 +25433,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.631068,
-            "brier": 0.224904,
-            "ece": 0.047274,
-            "log_loss": 0.640136
+            "accuracy": 0.631783,
+            "brier": 0.224843,
+            "ece": 0.047217,
+            "log_loss": 0.640019
           },
-          "rows": 515
+          "rows": 516
         },
         {
           "dimension": "series_format",
@@ -25368,7 +25474,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-04T00:43:37Z",
+    "generated_at_utc": "2026-10-04T07:01:40Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -25391,12 +25497,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.572165,
-            "brier": 0.246689,
-            "ece": 0.06909,
-            "log_loss": 0.686938
+            "accuracy": 0.574359,
+            "brier": 0.246413,
+            "ece": 0.066485,
+            "log_loss": 0.686379
           },
-          "rows": 194
+          "rows": 195
         },
         {
           "dimension": "series_format",
@@ -25417,12 +25523,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.619417,
-            "brier": 0.224517,
-            "ece": 0.044117,
-            "log_loss": 0.638089
+            "accuracy": 0.620155,
+            "brier": 0.224456,
+            "ece": 0.043181,
+            "log_loss": 0.637973
           },
-          "rows": 515
+          "rows": 516
         },
         {
           "dimension": "series_format",
@@ -25450,7 +25556,7 @@
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 194
+            "rows": 195
           },
           {
             "eligible": true,
@@ -25462,7 +25568,7 @@
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 515
+            "rows": 516
           },
           {
             "eligible": false,
@@ -25493,12 +25599,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.587629,
-            "brier": 0.242109,
-            "ece": 0.069683,
-            "log_loss": 0.677259
+            "accuracy": 0.589744,
+            "brier": 0.241607,
+            "ece": 0.071274,
+            "log_loss": 0.676237
           },
-          "rows": 194
+          "rows": 195
         },
         {
           "dimension": "series_format",
@@ -25519,12 +25625,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.631068,
-            "brier": 0.224387,
-            "ece": 0.047772,
-            "log_loss": 0.639095
+            "accuracy": 0.631783,
+            "brier": 0.224231,
+            "ece": 0.048416,
+            "log_loss": 0.638783
           },
-          "rows": 515
+          "rows": 516
         },
         {
           "dimension": "series_format",
@@ -25541,10 +25647,10 @@
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.6256,
-        "brier": 0.224219,
-        "ece": 0.030182,
-        "log_loss": 0.637735
+        "accuracy": 0.626198,
+        "brier": 0.224213,
+        "ece": 0.029384,
+        "log_loss": 0.637729
       },
       "champion_slices": [
         {
@@ -25566,12 +25672,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.572165,
-            "brier": 0.246132,
-            "ece": 0.059421,
-            "log_loss": 0.685397
+            "accuracy": 0.574359,
+            "brier": 0.246,
+            "ece": 0.056709,
+            "log_loss": 0.685132
           },
-          "rows": 194
+          "rows": 195
         },
         {
           "dimension": "series_format",
@@ -25592,12 +25698,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.619417,
-            "brier": 0.223994,
-            "ece": 0.04978,
-            "log_loss": 0.636849
+            "accuracy": 0.620155,
+            "brier": 0.223987,
+            "ece": 0.048774,
+            "log_loss": 0.636843
           },
-          "rows": 515
+          "rows": 516
         },
         {
           "dimension": "series_format",
@@ -25613,37 +25719,37 @@
           "rows": 10
         }
       ],
-      "champion_test_rows": 625,
+      "champion_test_rows": 626,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.572165,
-          "brier": 0.246319,
-          "ece": 0.043019,
-          "log_loss": 0.685771
+          "accuracy": 0.574359,
+          "brier": 0.246201,
+          "ece": 0.041292,
+          "log_loss": 0.685535
         },
         "before": {
-          "accuracy": 0.572165,
-          "brier": 0.246132,
-          "ece": 0.059421,
-          "log_loss": 0.685397
+          "accuracy": 0.574359,
+          "brier": 0.246,
+          "ece": 0.056709,
+          "log_loss": 0.685132
         },
         "candidate_shrink": 0.45,
         "overall_after": {
-          "accuracy": 0.6256,
-          "brier": 0.224277,
-          "ece": 0.026304,
-          "log_loss": 0.637851
+          "accuracy": 0.626198,
+          "brier": 0.224276,
+          "ece": 0.025508,
+          "log_loss": 0.637854
         },
         "overall_before": {
-          "accuracy": 0.6256,
-          "brier": 0.224219,
-          "ece": 0.030182,
-          "log_loss": 0.637735
+          "accuracy": 0.626198,
+          "brier": 0.224213,
+          "ece": 0.029384,
+          "log_loss": 0.637729
         },
         "passed": false,
-        "rows": 194,
+        "rows": 195,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -25662,8 +25768,8 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
-      "online_rows": 180,
+      "new_rows": 1,
+      "online_rows": 181,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -25902,9 +26008,10 @@
       "hltv:2399063",
       "hltv:2398592",
       "hltv:2398389",
-      "hltv:2398593"
+      "hltv:2398593",
+      "hltv:2398594"
     ],
-    "last_online_update_utc": "2026-10-04T00:43:38Z",
+    "last_online_update_utc": "2026-10-04T07:01:40Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -29860,10 +29967,10 @@
         "vrs_rank": 198
       },
       {
-        "elo": 1514.81,
-        "last_result_utc": "2026-10-02T21:11:37Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.5864,
+        "elo": 1527.01,
+        "last_result_utc": "2026-10-04T00:36:36Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.6616,
         "team_key": "procyon",
         "team_name": "Procyon",
         "vrs_points": 751,
@@ -32398,10 +32505,10 @@
         "vrs_rank": null
       },
       {
-        "elo": 1511.48,
-        "last_result_utc": "2026-10-01T21:46:07Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.5909,
+        "elo": 1499.28,
+        "last_result_utc": "2026-10-04T00:36:36Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.4835,
         "team_key": "ex keyd stars",
         "team_name": "ex-Keyd Stars",
         "vrs_points": 0,
@@ -35419,96 +35526,19 @@
   },
   "upcoming_predictions": [
     {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.8443,
-      "confidence_label": "strong",
-      "data_quality": "full",
-      "elo_prob_team1": 0.8443,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-04",
-      "match_id": "hltv:2398725",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791104400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Spirit",
-      "prob_team1": 0.8443,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398725/spirit-vs-parivision-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-04T09:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Spirit",
-      "team1_vrs_rank": 2,
-      "team2_hltv_rank": null,
-      "team2_name": "PARIVISION",
-      "team2_vrs_rank": 14
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.834,
-      "confidence_label": "strong",
-      "data_quality": "full",
-      "elo_prob_team1": 0.166,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-04",
-      "match_id": "hltv:2398726",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791104400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Legacy",
-      "prob_team1": 0.166,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-04T09:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "ShindeN",
-      "team1_vrs_rank": 59,
-      "team2_hltv_rank": null,
-      "team2_name": "Legacy",
-      "team2_vrs_rank": 6
-    },
-    {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5405,
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.5405,
-      "event_id": "hltv:9420",
+      "event_id": "hltv:cct-2026-europe-series-10",
       "event_name": "CCT 2026 Europe Series 10",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-04",
@@ -35770,16 +35800,56 @@
       "team2_vrs_rank": 51
     },
     {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5156,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5156,
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-04",
+      "match_id": "hltv:2398595",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791126000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Galorys",
+      "prob_team1": 0.5156,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398595/galorys-vs-procyon-cct-2026-south-america-series-6",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-10-04T15:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Galorys",
+      "team1_vrs_rank": 80,
+      "team2_hltv_rank": null,
+      "team2_name": "Procyon",
+      "team2_vrs_rank": 199
+    },
+    {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
       "confidence": 0.6908,
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.6908,
-      "event_id": "hltv:8244",
+      "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-04",
@@ -35842,6 +35912,43 @@
       "team2_hltv_rank": null,
       "team2_name": "Enjoy",
       "team2_vrs_rank": 166
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.6118,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.6118,
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-04",
+      "match_id": "hltv:2398596",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791136800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Turma do Pagode",
+      "prob_team1": 0.6118,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2398596/turma-do-pagode-vs-bounty-hunters-cct-2026-south-america-series-6",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-10-04T18:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Turma do Pagode",
+      "team1_vrs_rank": 69,
+      "team2_hltv_rank": null,
+      "team2_name": "Bounty Hunters",
+      "team2_vrs_rank": 91
     },
     {
       "calibration_shrink": 0.5,
@@ -36327,8 +36434,8 @@
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 65,
-    "online_results_applied": 3,
+    "live_feed_items": 66,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

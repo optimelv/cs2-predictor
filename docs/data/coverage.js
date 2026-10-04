@@ -2,36 +2,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:9404",
-      "event_name": "CCT 2026 Europe Series 9",
-      "hltv_match_id": "2397840",
-      "match_id": "hltv:2397840",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2397840/leo-vs-spirit-academy-cct-2026-europe-series-9",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-23T17:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Leo",
-      "team2_name": "Spirit Academy"
-    },
-    {
-      "event_id": "hltv:9425",
-      "event_name": "CCT 2026 South America Series 6",
-      "event_url": null,
-      "hltv_match_id": "2398556",
-      "maps": [],
-      "match_id": "hltv:2398556",
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398556/peladona-vs-your-end-cct-2026-south-america-series-6",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-09-23T19:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Peladona",
-      "team2_name": "your end"
-    },
-    {
       "event_id": "hltv:9425",
       "event_name": "CCT 2026 South America Series 6",
       "event_url": null,
@@ -6321,18 +6291,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Galorys"
     },
     {
-      "event_id": "hltv:9425",
+      "event_id": "hltv:cct-2026-south-america-series-6",
       "event_name": "CCT 2026 South America Series 6",
       "hltv_match_id": "2398594",
       "match_id": "hltv:2398594",
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
       "stage_name": "Quarterfinal",
-      "starts_at": "2026-10-03T22:00:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-10-04T00:36:36Z",
+      "status": "finished",
       "team1_name": "ex-Keyd Stars",
-      "team2_name": "Procyon"
+      "team2_name": "Procyon",
+      "winner_name": "Procyon"
     },
     {
       "detail_fetched_at_utc": "2026-10-04T00:42:33Z",
@@ -6391,9 +6364,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Spirit Academy"
     },
     {
-      "event_id": "hltv:9420",
+      "detail_fetched_at_utc": "2026-10-04T07:01:17Z",
+      "event_id": "hltv:cct-2026-europe-series-10",
       "event_name": "CCT 2026 Europe Series 10",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398390",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "match_id": "hltv:2398390",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -6402,10 +6381,11 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-04T11:00:00Z",
       "status": "upcoming",
       "team1_name": "MASONIC",
-      "team2_name": "Phantom Academy"
+      "team2_name": "Phantom Academy",
+      "veto_text": "Best of 3 (Online)\n\n Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
     },
     {
-      "detail_fetched_at_utc": "2026-10-04T00:42:47Z",
+      "detail_fetched_at_utc": "2026-10-04T07:00:32Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -6426,7 +6406,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
     },
     {
-      "detail_fetched_at_utc": "2026-10-04T00:42:53Z",
+      "detail_fetched_at_utc": "2026-10-04T07:00:37Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -6461,7 +6441,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "megoshort"
     },
     {
-      "detail_fetched_at_utc": "2026-10-04T00:43:00Z",
+      "detail_fetched_at_utc": "2026-10-04T07:00:52Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -6482,7 +6462,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
     },
     {
-      "detail_fetched_at_utc": "2026-10-04T00:43:06Z",
+      "detail_fetched_at_utc": "2026-10-04T07:00:57Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -6503,9 +6483,29 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
     },
     {
-      "event_id": "hltv:8244",
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "hltv_match_id": "2398595",
+      "match_id": "hltv:2398595",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398595/galorys-vs-procyon-cct-2026-south-america-series-6",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-10-04T15:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Galorys",
+      "team2_name": "Procyon"
+    },
+    {
+      "detail_fetched_at_utc": "2026-10-04T07:01:12Z",
+      "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398731",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "match_id": "hltv:2398731",
       "product_tier": "tier_1",
       "series_format": "bo3",
@@ -6514,7 +6514,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-04T16:30:00Z",
       "status": "live",
       "team1_name": "Vitality",
-      "team2_name": "Natus Vincere"
+      "team2_name": "Natus Vincere",
+      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
     },
     {
       "event_id": "hltv:9420",
@@ -6529,6 +6530,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "ex-RUSTEC",
       "team2_name": "Enjoy"
+    },
+    {
+      "event_id": "hltv:9425",
+      "event_name": "CCT 2026 South America Series 6",
+      "hltv_match_id": "2398596",
+      "match_id": "hltv:2398596",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398596/turma-do-pagode-vs-bounty-hunters-cct-2026-south-america-series-6",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-10-04T18:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Turma do Pagode",
+      "team2_name": "Bounty Hunters"
     },
     {
       "event_id": "hltv:9420",
@@ -8314,7 +8329,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
         },
         {
-          "detail_fetched_at_utc": "2026-10-04T00:42:47Z",
+          "detail_fetched_at_utc": "2026-10-04T07:00:32Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -8335,7 +8350,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
         },
         {
-          "detail_fetched_at_utc": "2026-10-04T00:42:53Z",
+          "detail_fetched_at_utc": "2026-10-04T07:00:37Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -8356,7 +8371,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
         },
         {
-          "detail_fetched_at_utc": "2026-10-04T00:43:00Z",
+          "detail_fetched_at_utc": "2026-10-04T07:00:52Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -8377,7 +8392,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
         },
         {
-          "detail_fetched_at_utc": "2026-10-04T00:43:06Z",
+          "detail_fetched_at_utc": "2026-10-04T07:00:57Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -8398,9 +8413,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
         },
         {
-          "event_id": "hltv:8244",
+          "detail_fetched_at_utc": "2026-10-04T07:01:12Z",
+          "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398731",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "match_id": "hltv:2398731",
           "product_tier": "tier_1",
           "series_format": "bo3",
@@ -8409,7 +8430,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-04T16:30:00Z",
           "status": "live",
           "team1_name": "Vitality",
-          "team2_name": "Natus Vincere"
+          "team2_name": "Natus Vincere",
+          "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
         }
       ],
       "name": "ESL Pro League Season 24",
@@ -17039,18 +17061,64 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             ],
             "name": "Quarterfinal",
             "order": 1
+          },
+          {
+            "bracket": "main",
+            "id": "main:semifinal",
+            "matches": [
+              {
+                "event_id": "hltv:9425",
+                "event_name": "CCT 2026 South America Series 6",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2398595",
+                "maps": [],
+                "match_id": "hltv:2398595",
+                "product_tier": "tier_2",
+                "round_name": "Semifinal",
+                "series_format": "bo3",
+                "slot_id": "main:semifinal:1",
+                "source_url": "https://www.hltv.org/matches/2398595/galorys-vs-procyon-cct-2026-south-america-series-6",
+                "stage_name": "Semifinal",
+                "starts_at": "2026-10-04T15:00:00Z",
+                "status": "upcoming",
+                "team1_name": "Galorys",
+                "team2_name": "Procyon"
+              },
+              {
+                "event_id": "hltv:9425",
+                "event_name": "CCT 2026 South America Series 6",
+                "event_url": null,
+                "feeds_from": [],
+                "hltv_match_id": "2398596",
+                "maps": [],
+                "match_id": "hltv:2398596",
+                "product_tier": "tier_2",
+                "round_name": "Semifinal",
+                "series_format": "bo3",
+                "slot_id": "main:semifinal:2",
+                "source_url": "https://www.hltv.org/matches/2398596/turma-do-pagode-vs-bounty-hunters-cct-2026-south-america-series-6",
+                "stage_name": "Semifinal",
+                "starts_at": "2026-10-04T18:00:00Z",
+                "status": "upcoming",
+                "team1_name": "Turma do Pagode",
+                "team2_name": "Bounty Hunters"
+              }
+            ],
+            "name": "Semifinal",
+            "order": 1
           }
         ],
         "type": "single_elimination"
       },
-      "current_stage": "Quarterfinal",
+      "current_stage": "Semifinal",
       "format": {
-        "label": "Quarterfinal",
+        "label": "Semifinal",
         "settings": {},
         "stages": [
           {
-            "id": "quarterfinal",
-            "name": "Quarterfinal",
+            "id": "semifinal",
+            "name": "Semifinal",
             "order": 1,
             "status": "pending",
             "type": "single_elimination"
@@ -18698,18 +18766,49 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Galorys"
         },
         {
-          "event_id": "hltv:9425",
+          "event_id": "hltv:cct-2026-south-america-series-6",
           "event_name": "CCT 2026 South America Series 6",
           "hltv_match_id": "2398594",
           "match_id": "hltv:2398594",
           "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398594/ex-keyd-stars-vs-procyon-cct-2026-south-america-series-6",
           "stage_name": "Quarterfinal",
-          "starts_at": "2026-10-03T22:00:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-10-04T00:36:36Z",
+          "status": "finished",
           "team1_name": "ex-Keyd Stars",
+          "team2_name": "Procyon",
+          "winner_name": "Procyon"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "hltv_match_id": "2398595",
+          "match_id": "hltv:2398595",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398595/galorys-vs-procyon-cct-2026-south-america-series-6",
+          "stage_name": "Semifinal",
+          "starts_at": "2026-10-04T15:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Galorys",
           "team2_name": "Procyon"
+        },
+        {
+          "event_id": "hltv:9425",
+          "event_name": "CCT 2026 South America Series 6",
+          "hltv_match_id": "2398596",
+          "match_id": "hltv:2398596",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2398596/turma-do-pagode-vs-bounty-hunters-cct-2026-south-america-series-6",
+          "stage_name": "Semifinal",
+          "starts_at": "2026-10-04T18:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Turma do Pagode",
+          "team2_name": "Bounty Hunters"
         }
       ],
       "name": "CCT 2026 South America Series 6",
@@ -22814,9 +22913,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Nexus"
         },
         {
-          "event_id": "hltv:9420",
+          "detail_fetched_at_utc": "2026-10-04T07:01:17Z",
+          "event_id": "hltv:cct-2026-europe-series-10",
           "event_name": "CCT 2026 Europe Series 10",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398390",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "match_id": "hltv:2398390",
           "product_tier": "tier_2",
           "series_format": "bo3",
@@ -22825,7 +22930,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-04T11:00:00Z",
           "status": "upcoming",
           "team1_name": "MASONIC",
-          "team2_name": "Phantom Academy"
+          "team2_name": "Phantom Academy",
+          "veto_text": "Best of 3 (Online)\n\n Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
         },
         {
           "event_id": "hltv:9420",
@@ -23372,7 +23478,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 12
     }
   ],
-  "last_verified_utc": "2026-10-04T00:43:06Z",
+  "last_verified_utc": "2026-10-04T07:01:17Z",
   "sources": [
     {
       "name": "HLTV events calendar",
