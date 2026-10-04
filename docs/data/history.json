@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-04T13:16:27Z",
+  "generated_at_utc": "2026-10-04T21:34:36Z",
   "through_date": "2026-10-04",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3514,
+    "matches": 3519,
     "maps": 2670,
     "lineup_rows": 8620,
     "source_match_ids": 976
@@ -46,7 +46,7 @@
       "winner_name": "MASONIC",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -95,7 +95,7 @@
       "winner_name": "Spirit Academy",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -227,6 +227,116 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
+    },
+    {
+      "match_id": "hltv:2398391",
+      "match_date": "2026-10-04",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Butterfly",
+      "team2_name": "megoshort",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398595",
+      "match_date": "2026-10-04",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "Galorys",
+      "team2_name": "Procyon",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Galorys",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399065",
+      "match_date": "2026-10-04",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "FORZE Reload",
+      "team2_name": "Spirit Academy",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398392",
+      "match_date": "2026-10-04",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Enjoy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398596",
+      "match_date": "2026-10-04",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "Turma do Pagode",
+      "team2_name": "Bounty Hunters",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Turma do Pagode",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "hltv:2398590",

@@ -21239,7 +21239,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-04T13:16:27Z",
+  "lineups_updated_at_utc": "2026-10-04T21:34:36Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-04",
   "history_profile_count": 53,
