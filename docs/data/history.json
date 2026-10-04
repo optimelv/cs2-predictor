@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3505,
+    "matches": 3511,
     "maps": 2670,
     "lineup_rows": 8620,
     "source_match_ids": 976
@@ -139,6 +139,28 @@
           "k0gaSs"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:b40a401e5a91eec8cf42",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T09:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 2",
+      "team1_name": "Legacy",
+      "team2_name": "ShindeN",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Legacy",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
     },
     {
       "match_id": "hltv:2398590",
@@ -4157,6 +4179,28 @@
       "source_url": "https://liquipedia.net/counterstrike/IBUYPOWER/Masters/2026/Fl0m%27s_Mythical_LAN#Playoffs"
     },
     {
+      "match_id": "liquipedia:91c998133503fcd53192",
+      "match_date": "2026-09-27",
+      "starts_at": "2026-09-27T11:00:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Playoffs",
+      "team1_name": "33",
+      "team2_name": "Acend",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "33",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Playoffs"
+    },
+    {
       "match_id": "hltv:2398542",
       "match_date": "2026-09-26",
       "event_name": "ESL Challenger League Season 52 North America Cup 2",
@@ -8082,6 +8126,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "JS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_II#Group_B"
+    },
+    {
+      "match_id": "liquipedia:aa19135e5fdafcdd04cb",
+      "match_date": "2026-09-22",
+      "starts_at": "2026-09-22T16:00:00Z",
+      "event_name": "Stake Pulse Beat II - Group B",
+      "team1_name": "BBL",
+      "team2_name": "JS",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BBL",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -54998,6 +55064,50 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/9#Round_3"
     },
     {
+      "match_id": "liquipedia:a32912a73f049d2f5e4b",
+      "match_date": "2026-06-08",
+      "starts_at": "2026-06-08T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #9 - Round 3",
+      "team1_name": "ASTRAL",
+      "team2_name": "KOLESIE",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "KOLESIE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/9#Round_3"
+    },
+    {
+      "match_id": "liquipedia:7042c4ad4001e88de1ca",
+      "match_date": "2026-06-08",
+      "starts_at": "2026-06-08T17:35:00Z",
+      "event_name": "NODWIN Clutch Series #9 - Round 3",
+      "team1_name": "Acend",
+      "team2_name": "ex-RUBY",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-RUBY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/9#Round_3"
+    },
+    {
       "match_id": "hltv:2394888",
       "match_date": "2026-06-07",
       "event_name": "IEM Cologne Major 2026 Stage 2",
@@ -56258,6 +56368,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_3#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:4c3b80e6eaff4bfb3590",
+      "match_date": "2026-06-06",
+      "starts_at": "2026-06-06T11:15:00Z",
+      "event_name": "NODWIN Clutch Series #9 - Round 2",
+      "team1_name": "ARC",
+      "team2_name": "ASTRAL",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ARC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/9#Round_2"
     },
     {
       "match_id": "hltv:2394864",
