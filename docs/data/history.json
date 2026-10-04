@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3519,
+    "matches": 3528,
     "maps": 2670,
     "lineup_rows": 8620,
     "source_match_ids": 976
@@ -337,6 +337,204 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:213b4ca0d5d622ea31a8",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T09:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 2",
+      "team1_name": "PV",
+      "team2_name": "Spirit",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
+    },
+    {
+      "match_id": "liquipedia:abeca1dd87da76e57d6c",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T11:30:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 2",
+      "team1_name": "9z",
+      "team2_name": "TYLOO",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
+    },
+    {
+      "match_id": "liquipedia:a8e28f53bbc198d1e29d",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T12:00:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "Astralis",
+      "team2_name": "LG",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Astralis",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
+    },
+    {
+      "match_id": "liquipedia:5fb729bd016168b03169",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T12:20:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 2",
+      "team1_name": "Aurora",
+      "team2_name": "Falcons",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
+    },
+    {
+      "match_id": "liquipedia:6f555fe2303cecfde04a",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T14:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 2",
+      "team1_name": "1w",
+      "team2_name": "G2",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "1w",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
+    },
+    {
+      "match_id": "liquipedia:26e1f186956b5f8f1f6b",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T14:25:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 2",
+      "team1_name": "FURIA",
+      "team2_name": "MOUZ",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
+    },
+    {
+      "match_id": "liquipedia:7f8a2c472d5a3fd9a2ed",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T16:30:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 2",
+      "team1_name": "NAVI",
+      "team2_name": "Vitality",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Vitality",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
+    },
+    {
+      "match_id": "liquipedia:1f13061b9b45c028f44c",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T16:35:00Z",
+      "event_name": "Stake Ranked Episode 4",
+      "team1_name": "Astralis",
+      "team2_name": "Nemiga",
+      "score1": 3,
+      "score2": 1,
+      "winner_name": "Astralis",
+      "tier": "tier_1",
+      "best_of": 5,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
+    },
+    {
+      "match_id": "liquipedia:91e8f12ca19ddbe025e7",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T17:10:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 2",
+      "team1_name": "BB",
+      "team2_name": "M80",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BB",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
     },
     {
       "match_id": "hltv:2398590",
