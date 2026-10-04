@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-03T17:56:19Z",
+  "generated_at_utc": "2026-10-04T00:43:06Z",
   "through_date": "2026-10-03",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3497,
+    "matches": 3500,
     "maps": 2665,
     "lineup_rows": 8600,
     "source_match_ids": 976
@@ -640,6 +640,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Journey/2026/Autumn#Playoffs"
+    },
+    {
+      "match_id": "hltv:2398592",
+      "match_date": "2026-10-03",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "Mira",
+      "team2_name": "Bounty Hunters",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Bounty Hunters",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398389",
+      "match_date": "2026-10-03",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Lavked",
+      "team2_name": "Nexus",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398593",
+      "match_date": "2026-10-03",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "Galorys",
+      "team2_name": "BESTIA Academy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Galorys",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "hltv:2398382",
