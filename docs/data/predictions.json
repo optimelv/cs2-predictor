@@ -3,22 +3,6 @@
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:9425",
-        "event_name": "CCT 2026 South America Series 6",
-        "event_url": null,
-        "hltv_match_id": "2398557",
-        "maps": [],
-        "match_id": "hltv:2398557",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398557/pain-academy-vs-sementes-do-mal-cct-2026-south-america-series-6",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-09-23T22:00:00Z",
-        "status": "upcoming",
-        "team1_name": "paiN Academy",
-        "team2_name": "Sementes do Mal"
-      },
-      {
         "event_id": "hltv:9419",
         "event_name": "CCT 2026 Europe Series 10 Closed Qualifier",
         "event_url": null,
@@ -6320,14 +6304,17 @@
         },
         "match_id": "hltv:2398725",
         "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398725/spirit-vs-parivision-esl-pro-league-season-24",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-04T09:00:00Z",
-        "status": "live",
+        "status": "finished",
         "team1_name": "Spirit",
         "team2_name": "PARIVISION",
-        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
+        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2",
+        "winner_name": "Spirit"
       },
       {
         "detail_fetched_at_utc": "2026-10-04T00:42:40Z",
@@ -6341,49 +6328,17 @@
         },
         "match_id": "hltv:2398726",
         "product_tier": "tier_1",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-04T09:00:00Z",
-        "status": "live",
+        "status": "finished",
         "team1_name": "ShindeN",
         "team2_name": "Legacy",
-        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
-      },
-      {
-        "event_id": "hltv:9433",
-        "event_name": "CCT 2026 Challengers Europe Series 7",
-        "hltv_match_id": "2399064",
-        "match_id": "hltv:2399064",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399064/mellren-vs-spirit-academy-cct-2026-challengers-europe-series-7",
-        "stage_name": "Playoffs",
-        "starts_at": "2026-10-04T11:00:00Z",
-        "status": "upcoming",
-        "team1_name": "mellren",
-        "team2_name": "Spirit Academy"
-      },
-      {
-        "detail_fetched_at_utc": "2026-10-04T07:01:17Z",
-        "event_id": "hltv:cct-2026-europe-series-10",
-        "event_name": "CCT 2026 Europe Series 10",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2398390",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "match_id": "hltv:2398390",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398390/masonic-vs-phantom-academy-cct-2026-europe-series-10",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-04T11:00:00Z",
-        "status": "upcoming",
-        "team1_name": "MASONIC",
-        "team2_name": "Phantom Academy",
-        "veto_text": "Best of 3 (Online)\n\n Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
+        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2",
+        "winner_name": "Legacy"
       },
       {
         "detail_fetched_at_utc": "2026-10-04T07:00:32Z",
@@ -6397,26 +6352,248 @@
         },
         "match_id": "hltv:2398727",
         "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398727/9z-vs-tyloo-esl-pro-league-season-24",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-04T11:30:00Z",
-        "status": "live",
+        "status": "finished",
         "team1_name": "9z",
         "team2_name": "TYLOO",
-        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
+        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2",
+        "winner_name": "9z"
       },
       {
-        "detail_fetched_at_utc": "2026-10-04T07:00:37Z",
+        "detail_fetched_at_utc": "2026-10-04T13:15:41Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398728",
         "lineups": {
-          "team1": [],
-          "team2": []
+          "team1": [
+            {
+              "hltv_player_id": "3741",
+              "nickname": "NiKo",
+              "player_id": "hltv:3741",
+              "source_url": "https://www.hltv.org/player/3741/niko",
+              "team_name": "Falcons"
+            },
+            {
+              "hltv_player_id": "12018",
+              "nickname": "TeSeS",
+              "player_id": "hltv:12018",
+              "source_url": "https://www.hltv.org/player/12018/teses",
+              "team_name": "Falcons"
+            },
+            {
+              "hltv_player_id": "19230",
+              "nickname": "m0NESY",
+              "player_id": "hltv:19230",
+              "source_url": "https://www.hltv.org/player/19230/m0nesy",
+              "team_name": "Falcons"
+            },
+            {
+              "hltv_player_id": "24177",
+              "nickname": "kyousuke",
+              "player_id": "hltv:24177",
+              "source_url": "https://www.hltv.org/player/24177/kyousuke",
+              "team_name": "Falcons"
+            },
+            {
+              "hltv_player_id": "429",
+              "nickname": "karrigan",
+              "player_id": "hltv:429",
+              "source_url": "https://www.hltv.org/player/429/karrigan",
+              "team_name": "Falcons"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "18850",
+              "nickname": "Jimpphat",
+              "player_id": "hltv:18850",
+              "source_url": "https://www.hltv.org/player/18850/jimpphat",
+              "team_name": "Aurora"
+            },
+            {
+              "hltv_player_id": "21243",
+              "nickname": "Wicadia",
+              "player_id": "hltv:21243",
+              "source_url": "https://www.hltv.org/player/21243/wicadia",
+              "team_name": "Aurora"
+            },
+            {
+              "hltv_player_id": "8574",
+              "nickname": "woxic",
+              "player_id": "hltv:8574",
+              "source_url": "https://www.hltv.org/player/8574/woxic",
+              "team_name": "Aurora"
+            },
+            {
+              "hltv_player_id": "19677",
+              "nickname": "kyxsan",
+              "player_id": "hltv:19677",
+              "source_url": "https://www.hltv.org/player/19677/kyxsan",
+              "team_name": "Aurora"
+            },
+            {
+              "hltv_player_id": "7938",
+              "nickname": "XANTARES",
+              "player_id": "hltv:7938",
+              "source_url": "https://www.hltv.org/player/7938/xantares",
+              "team_name": "Aurora"
+            }
+          ]
         },
+        "map_results": [
+          {
+            "map_name": "Mirage",
+            "score1": 13,
+            "score2": 4,
+            "status": "finished"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Mirage",
+          "Dust2",
+          "Anubis"
+        ],
         "match_id": "hltv:2398728",
+        "player_stats": [
+          {
+            "adr": 115.5,
+            "deaths": 12,
+            "hltv_player_id": "3741",
+            "kast": 88.2,
+            "kills": 19,
+            "nickname": "NiKo",
+            "player_id": "hltv:3741",
+            "rating": 2.03,
+            "source_url": "https://www.hltv.org/player/3741/niko",
+            "team_side": 1
+          },
+          {
+            "adr": 107.1,
+            "deaths": 8,
+            "hltv_player_id": "12018",
+            "kast": 88.2,
+            "kills": 19,
+            "nickname": "TeSeS",
+            "player_id": "hltv:12018",
+            "rating": 1.89,
+            "source_url": "https://www.hltv.org/player/12018/teses",
+            "team_side": 1
+          },
+          {
+            "adr": 99.4,
+            "deaths": 10,
+            "hltv_player_id": "19230",
+            "kast": 94.1,
+            "kills": 16,
+            "nickname": "m0NESY",
+            "player_id": "hltv:19230",
+            "rating": 1.24,
+            "source_url": "https://www.hltv.org/player/19230/m0nesy",
+            "team_side": 1
+          },
+          {
+            "adr": 86.8,
+            "deaths": 8,
+            "hltv_player_id": "24177",
+            "kast": 76.5,
+            "kills": 15,
+            "nickname": "kyousuke",
+            "player_id": "hltv:24177",
+            "rating": 1.08,
+            "source_url": "https://www.hltv.org/player/24177/kyousuke",
+            "team_side": 1
+          },
+          {
+            "adr": 48,
+            "deaths": 11,
+            "hltv_player_id": "429",
+            "kast": 76.5,
+            "kills": 6,
+            "nickname": "karrigan",
+            "player_id": "hltv:429",
+            "rating": 0.86,
+            "source_url": "https://www.hltv.org/player/429/karrigan",
+            "team_side": 1
+          },
+          {
+            "adr": 93.8,
+            "deaths": 14,
+            "hltv_player_id": "18850",
+            "kast": 64.7,
+            "kills": 16,
+            "nickname": "Jimpphat",
+            "player_id": "hltv:18850",
+            "rating": 1.34,
+            "source_url": "https://www.hltv.org/player/18850/jimpphat",
+            "team_side": 2
+          },
+          {
+            "adr": 64.4,
+            "deaths": 16,
+            "hltv_player_id": "21243",
+            "kast": 64.7,
+            "kills": 10,
+            "nickname": "Wicadia",
+            "player_id": "hltv:21243",
+            "rating": 1.04,
+            "source_url": "https://www.hltv.org/player/21243/wicadia",
+            "team_side": 2
+          },
+          {
+            "adr": 71.9,
+            "deaths": 15,
+            "hltv_player_id": "8574",
+            "kast": 58.8,
+            "kills": 13,
+            "nickname": "woxic",
+            "player_id": "hltv:8574",
+            "rating": 0.92,
+            "source_url": "https://www.hltv.org/player/8574/woxic",
+            "team_side": 2
+          },
+          {
+            "adr": 41.4,
+            "deaths": 15,
+            "hltv_player_id": "19677",
+            "kast": 47.1,
+            "kills": 4,
+            "nickname": "kyxsan",
+            "player_id": "hltv:19677",
+            "rating": 0.45,
+            "source_url": "https://www.hltv.org/player/19677/kyxsan",
+            "team_side": 2
+          },
+          {
+            "adr": 43.1,
+            "deaths": 15,
+            "hltv_player_id": "7938",
+            "kast": 41.2,
+            "kills": 6,
+            "nickname": "XANTARES",
+            "player_id": "hltv:7938",
+            "rating": 0.36,
+            "source_url": "https://www.hltv.org/player/7938/xantares",
+            "team_side": 2
+          }
+        ],
         "product_tier": "tier_1",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
@@ -6425,12 +6602,818 @@
         "status": "live",
         "team1_name": "Falcons",
         "team2_name": "Aurora",
-        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
+        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2 (teams with a 1-0 record)"
       },
       {
-        "event_id": "hltv:9420",
+        "detail_fetched_at_utc": "2026-10-04T13:16:14Z",
+        "event_id": "hltv:cct-2026-europe-series-10",
         "event_name": "CCT 2026 Europe Series 10",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2398390",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "9896",
+              "nickname": "b0RUP",
+              "player_id": "hltv:9896",
+              "source_url": "https://www.hltv.org/player/9896/b0rup",
+              "team_name": "MASONIC",
+              "timeline_entry": {
+                "adr": 60.8,
+                "date": "2026-10-04",
+                "deaths": 14,
+                "event_name": "CCT 2026 Europe Series 10",
+                "kast": 75,
+                "kd_ratio": 1.07,
+                "kills": 15,
+                "maps": 2,
+                "match_id": "hltv:2398390",
+                "opponent_name": "Phantom Academy",
+                "rating": 1.07,
+                "team_name": "MASONIC",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "26195",
+              "nickname": "Slexa",
+              "player_id": "hltv:26195",
+              "source_url": "https://www.hltv.org/player/26195/slexa",
+              "team_name": "MASONIC",
+              "timeline_entry": {
+                "adr": 69.5,
+                "date": "2026-10-04",
+                "deaths": 15,
+                "event_name": "CCT 2026 Europe Series 10",
+                "kast": 66.7,
+                "kd_ratio": 1.07,
+                "kills": 16,
+                "maps": 2,
+                "match_id": "hltv:2398390",
+                "opponent_name": "Phantom Academy",
+                "rating": 0.92,
+                "team_name": "MASONIC",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "24105",
+              "nickname": "Botman",
+              "player_id": "hltv:24105",
+              "source_url": "https://www.hltv.org/player/24105/botman",
+              "team_name": "MASONIC",
+              "timeline_entry": {
+                "adr": 74,
+                "date": "2026-10-04",
+                "deaths": 12,
+                "event_name": "CCT 2026 Europe Series 10",
+                "kast": 79.2,
+                "kd_ratio": 1.42,
+                "kills": 17,
+                "maps": 2,
+                "match_id": "hltv:2398390",
+                "opponent_name": "Phantom Academy",
+                "rating": 1.21,
+                "team_name": "MASONIC",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "22810",
+              "nickname": "kralle",
+              "player_id": "hltv:22810",
+              "source_url": "https://www.hltv.org/player/22810/kralle",
+              "team_name": "MASONIC",
+              "timeline_entry": {
+                "adr": 102.5,
+                "date": "2026-10-04",
+                "deaths": 16,
+                "event_name": "CCT 2026 Europe Series 10",
+                "kast": 79.2,
+                "kd_ratio": 1.38,
+                "kills": 22,
+                "maps": 2,
+                "match_id": "hltv:2398390",
+                "opponent_name": "Phantom Academy",
+                "rating": 1.61,
+                "team_name": "MASONIC",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "23334",
+              "nickname": "Bukhavez",
+              "player_id": "hltv:23334",
+              "source_url": "https://www.hltv.org/player/23334/bukhavez",
+              "team_name": "MASONIC",
+              "timeline_entry": {
+                "adr": 81.5,
+                "date": "2026-10-04",
+                "deaths": 16,
+                "event_name": "CCT 2026 Europe Series 10",
+                "kast": 66.7,
+                "kd_ratio": 1.06,
+                "kills": 17,
+                "maps": 2,
+                "match_id": "hltv:2398390",
+                "opponent_name": "Phantom Academy",
+                "rating": 1.17,
+                "team_name": "MASONIC",
+                "won": true
+              }
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "25542",
+              "nickname": "Substitute",
+              "player_id": "hltv:25542",
+              "source_url": "https://www.hltv.org/player/25542/dr3nquu",
+              "team_name": "Phantom Academy",
+              "timeline_entry": {
+                "adr": 49.8,
+                "date": "2026-10-04",
+                "deaths": 16,
+                "event_name": "CCT 2026 Europe Series 10",
+                "kast": 50,
+                "kd_ratio": 0.81,
+                "kills": 13,
+                "maps": 2,
+                "match_id": "hltv:2398390",
+                "opponent_name": "MASONIC",
+                "rating": 0.75,
+                "team_name": "Phantom Academy",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "26177",
+              "nickname": "Substitute",
+              "player_id": "hltv:26177",
+              "source_url": "https://www.hltv.org/player/26177/kingway0",
+              "team_name": "Phantom Academy",
+              "timeline_entry": {
+                "adr": 66.5,
+                "date": "2026-10-04",
+                "deaths": 18,
+                "event_name": "CCT 2026 Europe Series 10",
+                "kast": 66.7,
+                "kd_ratio": 0.78,
+                "kills": 14,
+                "maps": 2,
+                "match_id": "hltv:2398390",
+                "opponent_name": "MASONIC",
+                "rating": 0.89,
+                "team_name": "Phantom Academy",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "23294",
+              "nickname": "Brain47",
+              "player_id": "hltv:23294",
+              "source_url": "https://www.hltv.org/player/23294/brain47",
+              "team_name": "Phantom Academy",
+              "timeline_entry": {
+                "adr": 60.8,
+                "date": "2026-10-04",
+                "deaths": 17,
+                "event_name": "CCT 2026 Europe Series 10",
+                "kast": 62.5,
+                "kd_ratio": 1,
+                "kills": 17,
+                "maps": 2,
+                "match_id": "hltv:2398390",
+                "opponent_name": "MASONIC",
+                "rating": 0.91,
+                "team_name": "Phantom Academy",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "24833",
+              "nickname": "Ayteel",
+              "player_id": "hltv:24833",
+              "source_url": "https://www.hltv.org/player/24833/ayteel",
+              "team_name": "Phantom Academy",
+              "timeline_entry": {
+                "adr": 69.1,
+                "date": "2026-10-04",
+                "deaths": 18,
+                "event_name": "CCT 2026 Europe Series 10",
+                "kast": 58.3,
+                "kd_ratio": 0.72,
+                "kills": 13,
+                "maps": 2,
+                "match_id": "hltv:2398390",
+                "opponent_name": "MASONIC",
+                "rating": 0.91,
+                "team_name": "Phantom Academy",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "25456",
+              "nickname": "kalyambys",
+              "player_id": "hltv:25456",
+              "source_url": "https://www.hltv.org/player/25456/kalyambys",
+              "team_name": "Phantom Academy",
+              "timeline_entry": {
+                "adr": 81.2,
+                "date": "2026-10-04",
+                "deaths": 18,
+                "event_name": "CCT 2026 Europe Series 10",
+                "kast": 66.7,
+                "kd_ratio": 0.83,
+                "kills": 15,
+                "maps": 2,
+                "match_id": "hltv:2398390",
+                "opponent_name": "MASONIC",
+                "rating": 1.11,
+                "team_name": "Phantom Academy",
+                "won": false
+              }
+            }
+          ]
+        },
+        "map_results": [
+          {
+            "map_name": "Cache",
+            "score1": 13,
+            "score2": 11,
+            "status": "finished"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Cache",
+          "Ancient"
+        ],
+        "match_id": "hltv:2398390",
+        "player_stats": [
+          {
+            "adr": 102.5,
+            "deaths": 16,
+            "hltv_player_id": "22810",
+            "kast": 79.2,
+            "kills": 22,
+            "nickname": "kralle",
+            "player_id": "hltv:22810",
+            "rating": 1.61,
+            "source_url": "https://www.hltv.org/player/22810/kralle",
+            "team_side": 1
+          },
+          {
+            "adr": 74,
+            "deaths": 12,
+            "hltv_player_id": "24105",
+            "kast": 79.2,
+            "kills": 17,
+            "nickname": "Botman",
+            "player_id": "hltv:24105",
+            "rating": 1.21,
+            "source_url": "https://www.hltv.org/player/24105/botman",
+            "team_side": 1
+          },
+          {
+            "adr": 81.5,
+            "deaths": 16,
+            "hltv_player_id": "23334",
+            "kast": 66.7,
+            "kills": 17,
+            "nickname": "Bukhavez",
+            "player_id": "hltv:23334",
+            "rating": 1.17,
+            "source_url": "https://www.hltv.org/player/23334/bukhavez",
+            "team_side": 1
+          },
+          {
+            "adr": 60.8,
+            "deaths": 14,
+            "hltv_player_id": "9896",
+            "kast": 75,
+            "kills": 15,
+            "nickname": "b0RUP",
+            "player_id": "hltv:9896",
+            "rating": 1.07,
+            "source_url": "https://www.hltv.org/player/9896/b0rup",
+            "team_side": 1
+          },
+          {
+            "adr": 69.5,
+            "deaths": 15,
+            "hltv_player_id": "26195",
+            "kast": 66.7,
+            "kills": 16,
+            "nickname": "Slexa",
+            "player_id": "hltv:26195",
+            "rating": 0.92,
+            "source_url": "https://www.hltv.org/player/26195/slexa",
+            "team_side": 1
+          },
+          {
+            "adr": 81.2,
+            "deaths": 18,
+            "hltv_player_id": "25456",
+            "kast": 66.7,
+            "kills": 15,
+            "nickname": "kalyambys",
+            "player_id": "hltv:25456",
+            "rating": 1.11,
+            "source_url": "https://www.hltv.org/player/25456/kalyambys",
+            "team_side": 2
+          },
+          {
+            "adr": 69.1,
+            "deaths": 18,
+            "hltv_player_id": "24833",
+            "kast": 58.3,
+            "kills": 13,
+            "nickname": "Ayteel",
+            "player_id": "hltv:24833",
+            "rating": 0.91,
+            "source_url": "https://www.hltv.org/player/24833/ayteel",
+            "team_side": 2
+          },
+          {
+            "adr": 60.8,
+            "deaths": 17,
+            "hltv_player_id": "23294",
+            "kast": 62.5,
+            "kills": 17,
+            "nickname": "Brain47",
+            "player_id": "hltv:23294",
+            "rating": 0.91,
+            "source_url": "https://www.hltv.org/player/23294/brain47",
+            "team_side": 2
+          },
+          {
+            "adr": 66.5,
+            "deaths": 18,
+            "hltv_player_id": "26177",
+            "kast": 66.7,
+            "kills": 14,
+            "nickname": "Kingway0",
+            "player_id": "hltv:26177",
+            "rating": 0.89,
+            "source_url": "https://www.hltv.org/player/26177/kingway0",
+            "team_side": 2
+          },
+          {
+            "adr": 49.8,
+            "deaths": 16,
+            "hltv_player_id": "25542",
+            "kast": 50,
+            "kills": 13,
+            "nickname": "Dr3nquu",
+            "player_id": "hltv:25542",
+            "rating": 0.75,
+            "source_url": "https://www.hltv.org/player/25542/dr3nquu",
+            "team_side": 2
+          }
+        ],
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2398390/masonic-vs-phantom-academy-cct-2026-europe-series-10",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-04T12:17:17Z",
+        "status": "finished",
+        "team1_name": "MASONIC",
+        "team2_name": "Phantom Academy",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated.\n\n** Phantom Academy forfeit the 1st map due to a power outage affecting one of their players.",
+        "winner_name": "MASONIC"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-04T13:16:00Z",
+        "event_id": "hltv:cct-2026-challengers-europe-series-7",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2399064",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "13980",
+              "nickname": "lollipop21k",
+              "player_id": "hltv:13980",
+              "source_url": "https://www.hltv.org/player/13980/lollipop21k",
+              "team_name": "mellren",
+              "timeline_entry": {
+                "adr": 83.6,
+                "date": "2026-10-04",
+                "deaths": 38,
+                "event_name": "CCT 2026 Challengers Europe Series 7",
+                "kast": 68.8,
+                "kd_ratio": 1.05,
+                "kills": 40,
+                "maps": 3,
+                "match_id": "hltv:2399064",
+                "opponent_name": "Spirit Academy",
+                "rating": 1.18,
+                "team_name": "mellren",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "25495",
+              "nickname": "menddel",
+              "player_id": "hltv:25495",
+              "source_url": "https://www.hltv.org/player/25495/menddel",
+              "team_name": "mellren",
+              "timeline_entry": {
+                "adr": 82.4,
+                "date": "2026-10-04",
+                "deaths": 33,
+                "event_name": "CCT 2026 Challengers Europe Series 7",
+                "kast": 75,
+                "kd_ratio": 1.12,
+                "kills": 37,
+                "maps": 3,
+                "match_id": "hltv:2399064",
+                "opponent_name": "Spirit Academy",
+                "rating": 1.17,
+                "team_name": "mellren",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "25735",
+              "nickname": "mdl",
+              "player_id": "hltv:25735",
+              "source_url": "https://www.hltv.org/player/25735/mdl",
+              "team_name": "mellren",
+              "timeline_entry": {
+                "adr": 66,
+                "date": "2026-10-04",
+                "deaths": 34,
+                "event_name": "CCT 2026 Challengers Europe Series 7",
+                "kast": 68.8,
+                "kd_ratio": 0.88,
+                "kills": 30,
+                "maps": 3,
+                "match_id": "hltv:2399064",
+                "opponent_name": "Spirit Academy",
+                "rating": 0.93,
+                "team_name": "mellren",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "26058",
+              "nickname": "shootic",
+              "player_id": "hltv:26058",
+              "source_url": "https://www.hltv.org/player/26058/shootic",
+              "team_name": "mellren",
+              "timeline_entry": {
+                "adr": 64.8,
+                "date": "2026-10-04",
+                "deaths": 32,
+                "event_name": "CCT 2026 Challengers Europe Series 7",
+                "kast": 62.5,
+                "kd_ratio": 0.78,
+                "kills": 25,
+                "maps": 3,
+                "match_id": "hltv:2399064",
+                "opponent_name": "Spirit Academy",
+                "rating": 0.89,
+                "team_name": "mellren",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "26060",
+              "nickname": "Maksilvl",
+              "player_id": "hltv:26060",
+              "source_url": "https://www.hltv.org/player/26060/maksilvl",
+              "team_name": "mellren",
+              "timeline_entry": {
+                "adr": 30.5,
+                "date": "2026-10-04",
+                "deaths": 33,
+                "event_name": "CCT 2026 Challengers Europe Series 7",
+                "kast": 54.2,
+                "kd_ratio": 0.36,
+                "kills": 12,
+                "maps": 3,
+                "match_id": "hltv:2399064",
+                "opponent_name": "Spirit Academy",
+                "rating": 0.47,
+                "team_name": "mellren",
+                "won": false
+              }
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "23193",
+              "nickname": "VILBy",
+              "player_id": "hltv:23193",
+              "source_url": "https://www.hltv.org/player/23193/vilby",
+              "team_name": "Spirit Academy",
+              "timeline_entry": {
+                "adr": 68.2,
+                "date": "2026-10-04",
+                "deaths": 31,
+                "event_name": "CCT 2026 Challengers Europe Series 7",
+                "kast": 72.9,
+                "kd_ratio": 0.94,
+                "kills": 29,
+                "maps": 3,
+                "match_id": "hltv:2399064",
+                "opponent_name": "mellren",
+                "rating": 0.96,
+                "team_name": "Spirit Academy",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "25390",
+              "nickname": "Kiryasoo",
+              "player_id": "hltv:25390",
+              "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+              "team_name": "Spirit Academy",
+              "timeline_entry": {
+                "adr": 78.2,
+                "date": "2026-10-04",
+                "deaths": 29,
+                "event_name": "CCT 2026 Challengers Europe Series 7",
+                "kast": 70.8,
+                "kd_ratio": 1.21,
+                "kills": 35,
+                "maps": 3,
+                "match_id": "hltv:2399064",
+                "opponent_name": "mellren",
+                "rating": 1.13,
+                "team_name": "Spirit Academy",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "25622",
+              "nickname": "Netrix",
+              "player_id": "hltv:25622",
+              "source_url": "https://www.hltv.org/player/25622/netrix",
+              "team_name": "Spirit Academy",
+              "timeline_entry": {
+                "adr": 77.4,
+                "date": "2026-10-04",
+                "deaths": 30,
+                "event_name": "CCT 2026 Challengers Europe Series 7",
+                "kast": 75,
+                "kd_ratio": 1.17,
+                "kills": 35,
+                "maps": 3,
+                "match_id": "hltv:2399064",
+                "opponent_name": "mellren",
+                "rating": 1.3,
+                "team_name": "Spirit Academy",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "25911",
+              "nickname": "s1nside",
+              "player_id": "hltv:25911",
+              "source_url": "https://www.hltv.org/player/25911/s1nside",
+              "team_name": "Spirit Academy",
+              "timeline_entry": {
+                "adr": 78.2,
+                "date": "2026-10-04",
+                "deaths": 24,
+                "event_name": "CCT 2026 Challengers Europe Series 7",
+                "kast": 89.6,
+                "kd_ratio": 1.67,
+                "kills": 40,
+                "maps": 3,
+                "match_id": "hltv:2399064",
+                "opponent_name": "mellren",
+                "rating": 1.48,
+                "team_name": "Spirit Academy",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "26299",
+              "nickname": "k0gaSs",
+              "player_id": "hltv:26299",
+              "source_url": "https://www.hltv.org/player/26299/k0gass",
+              "team_name": "Spirit Academy",
+              "timeline_entry": {
+                "adr": 66.6,
+                "date": "2026-10-04",
+                "deaths": 32,
+                "event_name": "CCT 2026 Challengers Europe Series 7",
+                "kast": 68.8,
+                "kd_ratio": 0.88,
+                "kills": 28,
+                "maps": 3,
+                "match_id": "hltv:2399064",
+                "opponent_name": "mellren",
+                "rating": 0.85,
+                "team_name": "Spirit Academy",
+                "won": true
+              }
+            }
+          ]
+        },
+        "map_results": [
+          {
+            "map_name": "Nuke",
+            "score1": 11,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": 11,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Nuke",
+          "Mirage",
+          "Ancient"
+        ],
+        "match_id": "hltv:2399064",
+        "player_stats": [
+          {
+            "adr": 83.6,
+            "deaths": 38,
+            "hltv_player_id": "13980",
+            "kast": 68.8,
+            "kills": 40,
+            "nickname": "lollipop21k",
+            "player_id": "hltv:13980",
+            "rating": 1.18,
+            "source_url": "https://www.hltv.org/player/13980/lollipop21k",
+            "team_side": 1
+          },
+          {
+            "adr": 82.4,
+            "deaths": 33,
+            "hltv_player_id": "25495",
+            "kast": 75,
+            "kills": 37,
+            "nickname": "menddel",
+            "player_id": "hltv:25495",
+            "rating": 1.17,
+            "source_url": "https://www.hltv.org/player/25495/menddel",
+            "team_side": 1
+          },
+          {
+            "adr": 66,
+            "deaths": 34,
+            "hltv_player_id": "25735",
+            "kast": 68.8,
+            "kills": 30,
+            "nickname": "mdl",
+            "player_id": "hltv:25735",
+            "rating": 0.93,
+            "source_url": "https://www.hltv.org/player/25735/mdl",
+            "team_side": 1
+          },
+          {
+            "adr": 64.8,
+            "deaths": 32,
+            "hltv_player_id": "26058",
+            "kast": 62.5,
+            "kills": 25,
+            "nickname": "shootic",
+            "player_id": "hltv:26058",
+            "rating": 0.89,
+            "source_url": "https://www.hltv.org/player/26058/shootic",
+            "team_side": 1
+          },
+          {
+            "adr": 30.5,
+            "deaths": 33,
+            "hltv_player_id": "26060",
+            "kast": 54.2,
+            "kills": 12,
+            "nickname": "Maksilvl",
+            "player_id": "hltv:26060",
+            "rating": 0.47,
+            "source_url": "https://www.hltv.org/player/26060/maksilvl",
+            "team_side": 1
+          },
+          {
+            "adr": 78.2,
+            "deaths": 24,
+            "hltv_player_id": "25911",
+            "kast": 89.6,
+            "kills": 40,
+            "nickname": "s1nside",
+            "player_id": "hltv:25911",
+            "rating": 1.48,
+            "source_url": "https://www.hltv.org/player/25911/s1nside",
+            "team_side": 2
+          },
+          {
+            "adr": 77.4,
+            "deaths": 30,
+            "hltv_player_id": "25622",
+            "kast": 75,
+            "kills": 35,
+            "nickname": "Netrix",
+            "player_id": "hltv:25622",
+            "rating": 1.3,
+            "source_url": "https://www.hltv.org/player/25622/netrix",
+            "team_side": 2
+          },
+          {
+            "adr": 78.2,
+            "deaths": 29,
+            "hltv_player_id": "25390",
+            "kast": 70.8,
+            "kills": 35,
+            "nickname": "Kiryasoo",
+            "player_id": "hltv:25390",
+            "rating": 1.13,
+            "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+            "team_side": 2
+          },
+          {
+            "adr": 68.2,
+            "deaths": 31,
+            "hltv_player_id": "23193",
+            "kast": 72.9,
+            "kills": 29,
+            "nickname": "VILBy",
+            "player_id": "hltv:23193",
+            "rating": 0.96,
+            "source_url": "https://www.hltv.org/player/23193/vilby",
+            "team_side": 2
+          },
+          {
+            "adr": 66.6,
+            "deaths": 32,
+            "hltv_player_id": "26299",
+            "kast": 68.8,
+            "kills": 28,
+            "nickname": "k0gaSs",
+            "player_id": "hltv:26299",
+            "rating": 0.85,
+            "source_url": "https://www.hltv.org/player/26299/k0gass",
+            "team_side": 2
+          }
+        ],
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399064/mellren-vs-spirit-academy-cct-2026-challengers-europe-series-7",
+        "stage_name": "Playoffs",
+        "starts_at": "2026-10-04T13:04:29Z",
+        "status": "finished",
+        "team1_name": "mellren",
+        "team2_name": "Spirit Academy",
+        "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
+        "winner_name": "Spirit Academy"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-04T13:16:21Z",
+        "event_id": "hltv:cct-2026-challengers-europe-series-7",
+        "event_name": "CCT 2026 Challengers Europe Series 7",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2399065",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "match_id": "hltv:2399065",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399065/forze-reload-vs-spirit-academy-cct-2026-challengers-europe-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-04T13:45:00Z",
+        "status": "upcoming",
+        "team1_name": "FORZE Reload",
+        "team2_name": "Spirit Academy",
+        "veto_text": "Best of 3 (Online)\n\n* Grand final"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-04T13:16:27Z",
+        "event_id": "hltv:cct-2026-europe-series-10",
+        "event_name": "CCT 2026 Europe Series 10",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398391",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "match_id": "hltv:2398391",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -6439,7 +7422,8 @@
         "starts_at": "2026-10-04T14:00:00Z",
         "status": "upcoming",
         "team1_name": "Butterfly",
-        "team2_name": "megoshort"
+        "team2_name": "megoshort",
+        "veto_text": "Best of 3 (Online)\n\n Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
       },
       {
         "detail_fetched_at_utc": "2026-10-04T07:00:52Z",
@@ -6498,7 +7482,7 @@
         "team2_name": "Procyon"
       },
       {
-        "detail_fetched_at_utc": "2026-10-04T07:01:12Z",
+        "detail_fetched_at_utc": "2026-10-04T13:15:55Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -6516,7 +7500,7 @@
         "status": "live",
         "team1_name": "Vitality",
         "team2_name": "Natus Vincere",
-        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
+        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2 (teams with a 1-0 record)"
       },
       {
         "event_id": "hltv:9420",
@@ -8299,14 +9283,17 @@
             },
             "match_id": "hltv:2398725",
             "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 1,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398725/spirit-vs-parivision-esl-pro-league-season-24",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-04T09:00:00Z",
-            "status": "live",
+            "status": "finished",
             "team1_name": "Spirit",
             "team2_name": "PARIVISION",
-            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
+            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2",
+            "winner_name": "Spirit"
           },
           {
             "detail_fetched_at_utc": "2026-10-04T00:42:40Z",
@@ -8320,14 +9307,17 @@
             },
             "match_id": "hltv:2398726",
             "product_tier": "tier_1",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398726/shinden-vs-legacy-esl-pro-league-season-24",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-04T09:00:00Z",
-            "status": "live",
+            "status": "finished",
             "team1_name": "ShindeN",
             "team2_name": "Legacy",
-            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
+            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2",
+            "winner_name": "Legacy"
           },
           {
             "detail_fetched_at_utc": "2026-10-04T07:00:32Z",
@@ -8341,26 +9331,248 @@
             },
             "match_id": "hltv:2398727",
             "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398727/9z-vs-tyloo-esl-pro-league-season-24",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-04T11:30:00Z",
-            "status": "live",
+            "status": "finished",
             "team1_name": "9z",
             "team2_name": "TYLOO",
-            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
+            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2",
+            "winner_name": "9z"
           },
           {
-            "detail_fetched_at_utc": "2026-10-04T07:00:37Z",
+            "detail_fetched_at_utc": "2026-10-04T13:15:41Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398728",
             "lineups": {
-              "team1": [],
-              "team2": []
+              "team1": [
+                {
+                  "hltv_player_id": "3741",
+                  "nickname": "NiKo",
+                  "player_id": "hltv:3741",
+                  "source_url": "https://www.hltv.org/player/3741/niko",
+                  "team_name": "Falcons"
+                },
+                {
+                  "hltv_player_id": "12018",
+                  "nickname": "TeSeS",
+                  "player_id": "hltv:12018",
+                  "source_url": "https://www.hltv.org/player/12018/teses",
+                  "team_name": "Falcons"
+                },
+                {
+                  "hltv_player_id": "19230",
+                  "nickname": "m0NESY",
+                  "player_id": "hltv:19230",
+                  "source_url": "https://www.hltv.org/player/19230/m0nesy",
+                  "team_name": "Falcons"
+                },
+                {
+                  "hltv_player_id": "24177",
+                  "nickname": "kyousuke",
+                  "player_id": "hltv:24177",
+                  "source_url": "https://www.hltv.org/player/24177/kyousuke",
+                  "team_name": "Falcons"
+                },
+                {
+                  "hltv_player_id": "429",
+                  "nickname": "karrigan",
+                  "player_id": "hltv:429",
+                  "source_url": "https://www.hltv.org/player/429/karrigan",
+                  "team_name": "Falcons"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "18850",
+                  "nickname": "Jimpphat",
+                  "player_id": "hltv:18850",
+                  "source_url": "https://www.hltv.org/player/18850/jimpphat",
+                  "team_name": "Aurora"
+                },
+                {
+                  "hltv_player_id": "21243",
+                  "nickname": "Wicadia",
+                  "player_id": "hltv:21243",
+                  "source_url": "https://www.hltv.org/player/21243/wicadia",
+                  "team_name": "Aurora"
+                },
+                {
+                  "hltv_player_id": "8574",
+                  "nickname": "woxic",
+                  "player_id": "hltv:8574",
+                  "source_url": "https://www.hltv.org/player/8574/woxic",
+                  "team_name": "Aurora"
+                },
+                {
+                  "hltv_player_id": "19677",
+                  "nickname": "kyxsan",
+                  "player_id": "hltv:19677",
+                  "source_url": "https://www.hltv.org/player/19677/kyxsan",
+                  "team_name": "Aurora"
+                },
+                {
+                  "hltv_player_id": "7938",
+                  "nickname": "XANTARES",
+                  "player_id": "hltv:7938",
+                  "source_url": "https://www.hltv.org/player/7938/xantares",
+                  "team_name": "Aurora"
+                }
+              ]
             },
+            "map_results": [
+              {
+                "map_name": "Mirage",
+                "score1": 13,
+                "score2": 4,
+                "status": "finished"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Mirage",
+              "Dust2",
+              "Anubis"
+            ],
             "match_id": "hltv:2398728",
+            "player_stats": [
+              {
+                "adr": 115.5,
+                "deaths": 12,
+                "hltv_player_id": "3741",
+                "kast": 88.2,
+                "kills": 19,
+                "nickname": "NiKo",
+                "player_id": "hltv:3741",
+                "rating": 2.03,
+                "source_url": "https://www.hltv.org/player/3741/niko",
+                "team_side": 1
+              },
+              {
+                "adr": 107.1,
+                "deaths": 8,
+                "hltv_player_id": "12018",
+                "kast": 88.2,
+                "kills": 19,
+                "nickname": "TeSeS",
+                "player_id": "hltv:12018",
+                "rating": 1.89,
+                "source_url": "https://www.hltv.org/player/12018/teses",
+                "team_side": 1
+              },
+              {
+                "adr": 99.4,
+                "deaths": 10,
+                "hltv_player_id": "19230",
+                "kast": 94.1,
+                "kills": 16,
+                "nickname": "m0NESY",
+                "player_id": "hltv:19230",
+                "rating": 1.24,
+                "source_url": "https://www.hltv.org/player/19230/m0nesy",
+                "team_side": 1
+              },
+              {
+                "adr": 86.8,
+                "deaths": 8,
+                "hltv_player_id": "24177",
+                "kast": 76.5,
+                "kills": 15,
+                "nickname": "kyousuke",
+                "player_id": "hltv:24177",
+                "rating": 1.08,
+                "source_url": "https://www.hltv.org/player/24177/kyousuke",
+                "team_side": 1
+              },
+              {
+                "adr": 48,
+                "deaths": 11,
+                "hltv_player_id": "429",
+                "kast": 76.5,
+                "kills": 6,
+                "nickname": "karrigan",
+                "player_id": "hltv:429",
+                "rating": 0.86,
+                "source_url": "https://www.hltv.org/player/429/karrigan",
+                "team_side": 1
+              },
+              {
+                "adr": 93.8,
+                "deaths": 14,
+                "hltv_player_id": "18850",
+                "kast": 64.7,
+                "kills": 16,
+                "nickname": "Jimpphat",
+                "player_id": "hltv:18850",
+                "rating": 1.34,
+                "source_url": "https://www.hltv.org/player/18850/jimpphat",
+                "team_side": 2
+              },
+              {
+                "adr": 64.4,
+                "deaths": 16,
+                "hltv_player_id": "21243",
+                "kast": 64.7,
+                "kills": 10,
+                "nickname": "Wicadia",
+                "player_id": "hltv:21243",
+                "rating": 1.04,
+                "source_url": "https://www.hltv.org/player/21243/wicadia",
+                "team_side": 2
+              },
+              {
+                "adr": 71.9,
+                "deaths": 15,
+                "hltv_player_id": "8574",
+                "kast": 58.8,
+                "kills": 13,
+                "nickname": "woxic",
+                "player_id": "hltv:8574",
+                "rating": 0.92,
+                "source_url": "https://www.hltv.org/player/8574/woxic",
+                "team_side": 2
+              },
+              {
+                "adr": 41.4,
+                "deaths": 15,
+                "hltv_player_id": "19677",
+                "kast": 47.1,
+                "kills": 4,
+                "nickname": "kyxsan",
+                "player_id": "hltv:19677",
+                "rating": 0.45,
+                "source_url": "https://www.hltv.org/player/19677/kyxsan",
+                "team_side": 2
+              },
+              {
+                "adr": 43.1,
+                "deaths": 15,
+                "hltv_player_id": "7938",
+                "kast": 41.2,
+                "kills": 6,
+                "nickname": "XANTARES",
+                "player_id": "hltv:7938",
+                "rating": 0.36,
+                "source_url": "https://www.hltv.org/player/7938/xantares",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_1",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
@@ -8369,7 +9581,7 @@
             "status": "live",
             "team1_name": "Falcons",
             "team2_name": "Aurora",
-            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
+            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2 (teams with a 1-0 record)"
           },
           {
             "detail_fetched_at_utc": "2026-10-04T07:00:52Z",
@@ -8414,7 +9626,7 @@
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
           },
           {
-            "detail_fetched_at_utc": "2026-10-04T07:01:12Z",
+            "detail_fetched_at_utc": "2026-10-04T13:15:55Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -8432,7 +9644,7 @@
             "status": "live",
             "team1_name": "Vitality",
             "team2_name": "Natus Vincere",
-            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2"
+            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 2 (teams with a 1-0 record)"
           }
         ],
         "name": "ESL Pro League Season 24",
@@ -21975,18 +23187,418 @@
             "winner_name": "Spirit Academy"
           },
           {
-            "event_id": "hltv:9433",
+            "detail_fetched_at_utc": "2026-10-04T13:16:00Z",
+            "event_id": "hltv:cct-2026-challengers-europe-series-7",
             "event_name": "CCT 2026 Challengers Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399064",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "13980",
+                  "nickname": "lollipop21k",
+                  "player_id": "hltv:13980",
+                  "source_url": "https://www.hltv.org/player/13980/lollipop21k",
+                  "team_name": "mellren",
+                  "timeline_entry": {
+                    "adr": 83.6,
+                    "date": "2026-10-04",
+                    "deaths": 38,
+                    "event_name": "CCT 2026 Challengers Europe Series 7",
+                    "kast": 68.8,
+                    "kd_ratio": 1.05,
+                    "kills": 40,
+                    "maps": 3,
+                    "match_id": "hltv:2399064",
+                    "opponent_name": "Spirit Academy",
+                    "rating": 1.18,
+                    "team_name": "mellren",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "25495",
+                  "nickname": "menddel",
+                  "player_id": "hltv:25495",
+                  "source_url": "https://www.hltv.org/player/25495/menddel",
+                  "team_name": "mellren",
+                  "timeline_entry": {
+                    "adr": 82.4,
+                    "date": "2026-10-04",
+                    "deaths": 33,
+                    "event_name": "CCT 2026 Challengers Europe Series 7",
+                    "kast": 75,
+                    "kd_ratio": 1.12,
+                    "kills": 37,
+                    "maps": 3,
+                    "match_id": "hltv:2399064",
+                    "opponent_name": "Spirit Academy",
+                    "rating": 1.17,
+                    "team_name": "mellren",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "25735",
+                  "nickname": "mdl",
+                  "player_id": "hltv:25735",
+                  "source_url": "https://www.hltv.org/player/25735/mdl",
+                  "team_name": "mellren",
+                  "timeline_entry": {
+                    "adr": 66,
+                    "date": "2026-10-04",
+                    "deaths": 34,
+                    "event_name": "CCT 2026 Challengers Europe Series 7",
+                    "kast": 68.8,
+                    "kd_ratio": 0.88,
+                    "kills": 30,
+                    "maps": 3,
+                    "match_id": "hltv:2399064",
+                    "opponent_name": "Spirit Academy",
+                    "rating": 0.93,
+                    "team_name": "mellren",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "26058",
+                  "nickname": "shootic",
+                  "player_id": "hltv:26058",
+                  "source_url": "https://www.hltv.org/player/26058/shootic",
+                  "team_name": "mellren",
+                  "timeline_entry": {
+                    "adr": 64.8,
+                    "date": "2026-10-04",
+                    "deaths": 32,
+                    "event_name": "CCT 2026 Challengers Europe Series 7",
+                    "kast": 62.5,
+                    "kd_ratio": 0.78,
+                    "kills": 25,
+                    "maps": 3,
+                    "match_id": "hltv:2399064",
+                    "opponent_name": "Spirit Academy",
+                    "rating": 0.89,
+                    "team_name": "mellren",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "26060",
+                  "nickname": "Maksilvl",
+                  "player_id": "hltv:26060",
+                  "source_url": "https://www.hltv.org/player/26060/maksilvl",
+                  "team_name": "mellren",
+                  "timeline_entry": {
+                    "adr": 30.5,
+                    "date": "2026-10-04",
+                    "deaths": 33,
+                    "event_name": "CCT 2026 Challengers Europe Series 7",
+                    "kast": 54.2,
+                    "kd_ratio": 0.36,
+                    "kills": 12,
+                    "maps": 3,
+                    "match_id": "hltv:2399064",
+                    "opponent_name": "Spirit Academy",
+                    "rating": 0.47,
+                    "team_name": "mellren",
+                    "won": false
+                  }
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "23193",
+                  "nickname": "VILBy",
+                  "player_id": "hltv:23193",
+                  "source_url": "https://www.hltv.org/player/23193/vilby",
+                  "team_name": "Spirit Academy",
+                  "timeline_entry": {
+                    "adr": 68.2,
+                    "date": "2026-10-04",
+                    "deaths": 31,
+                    "event_name": "CCT 2026 Challengers Europe Series 7",
+                    "kast": 72.9,
+                    "kd_ratio": 0.94,
+                    "kills": 29,
+                    "maps": 3,
+                    "match_id": "hltv:2399064",
+                    "opponent_name": "mellren",
+                    "rating": 0.96,
+                    "team_name": "Spirit Academy",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "25390",
+                  "nickname": "Kiryasoo",
+                  "player_id": "hltv:25390",
+                  "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+                  "team_name": "Spirit Academy",
+                  "timeline_entry": {
+                    "adr": 78.2,
+                    "date": "2026-10-04",
+                    "deaths": 29,
+                    "event_name": "CCT 2026 Challengers Europe Series 7",
+                    "kast": 70.8,
+                    "kd_ratio": 1.21,
+                    "kills": 35,
+                    "maps": 3,
+                    "match_id": "hltv:2399064",
+                    "opponent_name": "mellren",
+                    "rating": 1.13,
+                    "team_name": "Spirit Academy",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "25622",
+                  "nickname": "Netrix",
+                  "player_id": "hltv:25622",
+                  "source_url": "https://www.hltv.org/player/25622/netrix",
+                  "team_name": "Spirit Academy",
+                  "timeline_entry": {
+                    "adr": 77.4,
+                    "date": "2026-10-04",
+                    "deaths": 30,
+                    "event_name": "CCT 2026 Challengers Europe Series 7",
+                    "kast": 75,
+                    "kd_ratio": 1.17,
+                    "kills": 35,
+                    "maps": 3,
+                    "match_id": "hltv:2399064",
+                    "opponent_name": "mellren",
+                    "rating": 1.3,
+                    "team_name": "Spirit Academy",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "25911",
+                  "nickname": "s1nside",
+                  "player_id": "hltv:25911",
+                  "source_url": "https://www.hltv.org/player/25911/s1nside",
+                  "team_name": "Spirit Academy",
+                  "timeline_entry": {
+                    "adr": 78.2,
+                    "date": "2026-10-04",
+                    "deaths": 24,
+                    "event_name": "CCT 2026 Challengers Europe Series 7",
+                    "kast": 89.6,
+                    "kd_ratio": 1.67,
+                    "kills": 40,
+                    "maps": 3,
+                    "match_id": "hltv:2399064",
+                    "opponent_name": "mellren",
+                    "rating": 1.48,
+                    "team_name": "Spirit Academy",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "26299",
+                  "nickname": "k0gaSs",
+                  "player_id": "hltv:26299",
+                  "source_url": "https://www.hltv.org/player/26299/k0gass",
+                  "team_name": "Spirit Academy",
+                  "timeline_entry": {
+                    "adr": 66.6,
+                    "date": "2026-10-04",
+                    "deaths": 32,
+                    "event_name": "CCT 2026 Challengers Europe Series 7",
+                    "kast": 68.8,
+                    "kd_ratio": 0.88,
+                    "kills": 28,
+                    "maps": 3,
+                    "match_id": "hltv:2399064",
+                    "opponent_name": "mellren",
+                    "rating": 0.85,
+                    "team_name": "Spirit Academy",
+                    "won": true
+                  }
+                }
+              ]
+            },
+            "map_results": [
+              {
+                "map_name": "Nuke",
+                "score1": 11,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": 11,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Nuke",
+              "Mirage",
+              "Ancient"
+            ],
             "match_id": "hltv:2399064",
+            "player_stats": [
+              {
+                "adr": 83.6,
+                "deaths": 38,
+                "hltv_player_id": "13980",
+                "kast": 68.8,
+                "kills": 40,
+                "nickname": "lollipop21k",
+                "player_id": "hltv:13980",
+                "rating": 1.18,
+                "source_url": "https://www.hltv.org/player/13980/lollipop21k",
+                "team_side": 1
+              },
+              {
+                "adr": 82.4,
+                "deaths": 33,
+                "hltv_player_id": "25495",
+                "kast": 75,
+                "kills": 37,
+                "nickname": "menddel",
+                "player_id": "hltv:25495",
+                "rating": 1.17,
+                "source_url": "https://www.hltv.org/player/25495/menddel",
+                "team_side": 1
+              },
+              {
+                "adr": 66,
+                "deaths": 34,
+                "hltv_player_id": "25735",
+                "kast": 68.8,
+                "kills": 30,
+                "nickname": "mdl",
+                "player_id": "hltv:25735",
+                "rating": 0.93,
+                "source_url": "https://www.hltv.org/player/25735/mdl",
+                "team_side": 1
+              },
+              {
+                "adr": 64.8,
+                "deaths": 32,
+                "hltv_player_id": "26058",
+                "kast": 62.5,
+                "kills": 25,
+                "nickname": "shootic",
+                "player_id": "hltv:26058",
+                "rating": 0.89,
+                "source_url": "https://www.hltv.org/player/26058/shootic",
+                "team_side": 1
+              },
+              {
+                "adr": 30.5,
+                "deaths": 33,
+                "hltv_player_id": "26060",
+                "kast": 54.2,
+                "kills": 12,
+                "nickname": "Maksilvl",
+                "player_id": "hltv:26060",
+                "rating": 0.47,
+                "source_url": "https://www.hltv.org/player/26060/maksilvl",
+                "team_side": 1
+              },
+              {
+                "adr": 78.2,
+                "deaths": 24,
+                "hltv_player_id": "25911",
+                "kast": 89.6,
+                "kills": 40,
+                "nickname": "s1nside",
+                "player_id": "hltv:25911",
+                "rating": 1.48,
+                "source_url": "https://www.hltv.org/player/25911/s1nside",
+                "team_side": 2
+              },
+              {
+                "adr": 77.4,
+                "deaths": 30,
+                "hltv_player_id": "25622",
+                "kast": 75,
+                "kills": 35,
+                "nickname": "Netrix",
+                "player_id": "hltv:25622",
+                "rating": 1.3,
+                "source_url": "https://www.hltv.org/player/25622/netrix",
+                "team_side": 2
+              },
+              {
+                "adr": 78.2,
+                "deaths": 29,
+                "hltv_player_id": "25390",
+                "kast": 70.8,
+                "kills": 35,
+                "nickname": "Kiryasoo",
+                "player_id": "hltv:25390",
+                "rating": 1.13,
+                "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+                "team_side": 2
+              },
+              {
+                "adr": 68.2,
+                "deaths": 31,
+                "hltv_player_id": "23193",
+                "kast": 72.9,
+                "kills": 29,
+                "nickname": "VILBy",
+                "player_id": "hltv:23193",
+                "rating": 0.96,
+                "source_url": "https://www.hltv.org/player/23193/vilby",
+                "team_side": 2
+              },
+              {
+                "adr": 66.6,
+                "deaths": 32,
+                "hltv_player_id": "26299",
+                "kast": 68.8,
+                "kills": 28,
+                "nickname": "k0gaSs",
+                "player_id": "hltv:26299",
+                "rating": 0.85,
+                "source_url": "https://www.hltv.org/player/26299/k0gass",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399064/mellren-vs-spirit-academy-cct-2026-challengers-europe-series-7",
             "stage_name": "Playoffs",
-            "starts_at": "2026-10-04T11:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-10-04T13:04:29Z",
+            "status": "finished",
             "team1_name": "mellren",
-            "team2_name": "Spirit Academy"
+            "team2_name": "Spirit Academy",
+            "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
+            "winner_name": "Spirit Academy"
+          },
+          {
+            "detail_fetched_at_utc": "2026-10-04T13:16:21Z",
+            "event_id": "hltv:cct-2026-challengers-europe-series-7",
+            "event_name": "CCT 2026 Challengers Europe Series 7",
+            "event_url": "https://www.hltv.org/events/archive",
+            "hltv_match_id": "2399065",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "match_id": "hltv:2399065",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399065/forze-reload-vs-spirit-academy-cct-2026-challengers-europe-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-04T13:45:00Z",
+            "status": "upcoming",
+            "team1_name": "FORZE Reload",
+            "team2_name": "Spirit Academy",
+            "veto_text": "Best of 3 (Online)\n\n* Grand final"
           }
         ],
         "name": "CCT 2026 Challengers Europe Series 7",
@@ -22914,30 +24526,401 @@
             "winner_name": "Nexus"
           },
           {
-            "detail_fetched_at_utc": "2026-10-04T07:01:17Z",
+            "detail_fetched_at_utc": "2026-10-04T13:16:14Z",
             "event_id": "hltv:cct-2026-europe-series-10",
             "event_name": "CCT 2026 Europe Series 10",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398390",
             "lineups": {
-              "team1": [],
-              "team2": []
+              "team1": [
+                {
+                  "hltv_player_id": "9896",
+                  "nickname": "b0RUP",
+                  "player_id": "hltv:9896",
+                  "source_url": "https://www.hltv.org/player/9896/b0rup",
+                  "team_name": "MASONIC",
+                  "timeline_entry": {
+                    "adr": 60.8,
+                    "date": "2026-10-04",
+                    "deaths": 14,
+                    "event_name": "CCT 2026 Europe Series 10",
+                    "kast": 75,
+                    "kd_ratio": 1.07,
+                    "kills": 15,
+                    "maps": 2,
+                    "match_id": "hltv:2398390",
+                    "opponent_name": "Phantom Academy",
+                    "rating": 1.07,
+                    "team_name": "MASONIC",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "26195",
+                  "nickname": "Slexa",
+                  "player_id": "hltv:26195",
+                  "source_url": "https://www.hltv.org/player/26195/slexa",
+                  "team_name": "MASONIC",
+                  "timeline_entry": {
+                    "adr": 69.5,
+                    "date": "2026-10-04",
+                    "deaths": 15,
+                    "event_name": "CCT 2026 Europe Series 10",
+                    "kast": 66.7,
+                    "kd_ratio": 1.07,
+                    "kills": 16,
+                    "maps": 2,
+                    "match_id": "hltv:2398390",
+                    "opponent_name": "Phantom Academy",
+                    "rating": 0.92,
+                    "team_name": "MASONIC",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "24105",
+                  "nickname": "Botman",
+                  "player_id": "hltv:24105",
+                  "source_url": "https://www.hltv.org/player/24105/botman",
+                  "team_name": "MASONIC",
+                  "timeline_entry": {
+                    "adr": 74,
+                    "date": "2026-10-04",
+                    "deaths": 12,
+                    "event_name": "CCT 2026 Europe Series 10",
+                    "kast": 79.2,
+                    "kd_ratio": 1.42,
+                    "kills": 17,
+                    "maps": 2,
+                    "match_id": "hltv:2398390",
+                    "opponent_name": "Phantom Academy",
+                    "rating": 1.21,
+                    "team_name": "MASONIC",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "22810",
+                  "nickname": "kralle",
+                  "player_id": "hltv:22810",
+                  "source_url": "https://www.hltv.org/player/22810/kralle",
+                  "team_name": "MASONIC",
+                  "timeline_entry": {
+                    "adr": 102.5,
+                    "date": "2026-10-04",
+                    "deaths": 16,
+                    "event_name": "CCT 2026 Europe Series 10",
+                    "kast": 79.2,
+                    "kd_ratio": 1.38,
+                    "kills": 22,
+                    "maps": 2,
+                    "match_id": "hltv:2398390",
+                    "opponent_name": "Phantom Academy",
+                    "rating": 1.61,
+                    "team_name": "MASONIC",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "23334",
+                  "nickname": "Bukhavez",
+                  "player_id": "hltv:23334",
+                  "source_url": "https://www.hltv.org/player/23334/bukhavez",
+                  "team_name": "MASONIC",
+                  "timeline_entry": {
+                    "adr": 81.5,
+                    "date": "2026-10-04",
+                    "deaths": 16,
+                    "event_name": "CCT 2026 Europe Series 10",
+                    "kast": 66.7,
+                    "kd_ratio": 1.06,
+                    "kills": 17,
+                    "maps": 2,
+                    "match_id": "hltv:2398390",
+                    "opponent_name": "Phantom Academy",
+                    "rating": 1.17,
+                    "team_name": "MASONIC",
+                    "won": true
+                  }
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "25542",
+                  "nickname": "Substitute",
+                  "player_id": "hltv:25542",
+                  "source_url": "https://www.hltv.org/player/25542/dr3nquu",
+                  "team_name": "Phantom Academy",
+                  "timeline_entry": {
+                    "adr": 49.8,
+                    "date": "2026-10-04",
+                    "deaths": 16,
+                    "event_name": "CCT 2026 Europe Series 10",
+                    "kast": 50,
+                    "kd_ratio": 0.81,
+                    "kills": 13,
+                    "maps": 2,
+                    "match_id": "hltv:2398390",
+                    "opponent_name": "MASONIC",
+                    "rating": 0.75,
+                    "team_name": "Phantom Academy",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "26177",
+                  "nickname": "Substitute",
+                  "player_id": "hltv:26177",
+                  "source_url": "https://www.hltv.org/player/26177/kingway0",
+                  "team_name": "Phantom Academy",
+                  "timeline_entry": {
+                    "adr": 66.5,
+                    "date": "2026-10-04",
+                    "deaths": 18,
+                    "event_name": "CCT 2026 Europe Series 10",
+                    "kast": 66.7,
+                    "kd_ratio": 0.78,
+                    "kills": 14,
+                    "maps": 2,
+                    "match_id": "hltv:2398390",
+                    "opponent_name": "MASONIC",
+                    "rating": 0.89,
+                    "team_name": "Phantom Academy",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "23294",
+                  "nickname": "Brain47",
+                  "player_id": "hltv:23294",
+                  "source_url": "https://www.hltv.org/player/23294/brain47",
+                  "team_name": "Phantom Academy",
+                  "timeline_entry": {
+                    "adr": 60.8,
+                    "date": "2026-10-04",
+                    "deaths": 17,
+                    "event_name": "CCT 2026 Europe Series 10",
+                    "kast": 62.5,
+                    "kd_ratio": 1,
+                    "kills": 17,
+                    "maps": 2,
+                    "match_id": "hltv:2398390",
+                    "opponent_name": "MASONIC",
+                    "rating": 0.91,
+                    "team_name": "Phantom Academy",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "24833",
+                  "nickname": "Ayteel",
+                  "player_id": "hltv:24833",
+                  "source_url": "https://www.hltv.org/player/24833/ayteel",
+                  "team_name": "Phantom Academy",
+                  "timeline_entry": {
+                    "adr": 69.1,
+                    "date": "2026-10-04",
+                    "deaths": 18,
+                    "event_name": "CCT 2026 Europe Series 10",
+                    "kast": 58.3,
+                    "kd_ratio": 0.72,
+                    "kills": 13,
+                    "maps": 2,
+                    "match_id": "hltv:2398390",
+                    "opponent_name": "MASONIC",
+                    "rating": 0.91,
+                    "team_name": "Phantom Academy",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "25456",
+                  "nickname": "kalyambys",
+                  "player_id": "hltv:25456",
+                  "source_url": "https://www.hltv.org/player/25456/kalyambys",
+                  "team_name": "Phantom Academy",
+                  "timeline_entry": {
+                    "adr": 81.2,
+                    "date": "2026-10-04",
+                    "deaths": 18,
+                    "event_name": "CCT 2026 Europe Series 10",
+                    "kast": 66.7,
+                    "kd_ratio": 0.83,
+                    "kills": 15,
+                    "maps": 2,
+                    "match_id": "hltv:2398390",
+                    "opponent_name": "MASONIC",
+                    "rating": 1.11,
+                    "team_name": "Phantom Academy",
+                    "won": false
+                  }
+                }
+              ]
             },
+            "map_results": [
+              {
+                "map_name": "Cache",
+                "score1": 13,
+                "score2": 11,
+                "status": "finished"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Cache",
+              "Ancient"
+            ],
             "match_id": "hltv:2398390",
+            "player_stats": [
+              {
+                "adr": 102.5,
+                "deaths": 16,
+                "hltv_player_id": "22810",
+                "kast": 79.2,
+                "kills": 22,
+                "nickname": "kralle",
+                "player_id": "hltv:22810",
+                "rating": 1.61,
+                "source_url": "https://www.hltv.org/player/22810/kralle",
+                "team_side": 1
+              },
+              {
+                "adr": 74,
+                "deaths": 12,
+                "hltv_player_id": "24105",
+                "kast": 79.2,
+                "kills": 17,
+                "nickname": "Botman",
+                "player_id": "hltv:24105",
+                "rating": 1.21,
+                "source_url": "https://www.hltv.org/player/24105/botman",
+                "team_side": 1
+              },
+              {
+                "adr": 81.5,
+                "deaths": 16,
+                "hltv_player_id": "23334",
+                "kast": 66.7,
+                "kills": 17,
+                "nickname": "Bukhavez",
+                "player_id": "hltv:23334",
+                "rating": 1.17,
+                "source_url": "https://www.hltv.org/player/23334/bukhavez",
+                "team_side": 1
+              },
+              {
+                "adr": 60.8,
+                "deaths": 14,
+                "hltv_player_id": "9896",
+                "kast": 75,
+                "kills": 15,
+                "nickname": "b0RUP",
+                "player_id": "hltv:9896",
+                "rating": 1.07,
+                "source_url": "https://www.hltv.org/player/9896/b0rup",
+                "team_side": 1
+              },
+              {
+                "adr": 69.5,
+                "deaths": 15,
+                "hltv_player_id": "26195",
+                "kast": 66.7,
+                "kills": 16,
+                "nickname": "Slexa",
+                "player_id": "hltv:26195",
+                "rating": 0.92,
+                "source_url": "https://www.hltv.org/player/26195/slexa",
+                "team_side": 1
+              },
+              {
+                "adr": 81.2,
+                "deaths": 18,
+                "hltv_player_id": "25456",
+                "kast": 66.7,
+                "kills": 15,
+                "nickname": "kalyambys",
+                "player_id": "hltv:25456",
+                "rating": 1.11,
+                "source_url": "https://www.hltv.org/player/25456/kalyambys",
+                "team_side": 2
+              },
+              {
+                "adr": 69.1,
+                "deaths": 18,
+                "hltv_player_id": "24833",
+                "kast": 58.3,
+                "kills": 13,
+                "nickname": "Ayteel",
+                "player_id": "hltv:24833",
+                "rating": 0.91,
+                "source_url": "https://www.hltv.org/player/24833/ayteel",
+                "team_side": 2
+              },
+              {
+                "adr": 60.8,
+                "deaths": 17,
+                "hltv_player_id": "23294",
+                "kast": 62.5,
+                "kills": 17,
+                "nickname": "Brain47",
+                "player_id": "hltv:23294",
+                "rating": 0.91,
+                "source_url": "https://www.hltv.org/player/23294/brain47",
+                "team_side": 2
+              },
+              {
+                "adr": 66.5,
+                "deaths": 18,
+                "hltv_player_id": "26177",
+                "kast": 66.7,
+                "kills": 14,
+                "nickname": "Kingway0",
+                "player_id": "hltv:26177",
+                "rating": 0.89,
+                "source_url": "https://www.hltv.org/player/26177/kingway0",
+                "team_side": 2
+              },
+              {
+                "adr": 49.8,
+                "deaths": 16,
+                "hltv_player_id": "25542",
+                "kast": 50,
+                "kills": 13,
+                "nickname": "Dr3nquu",
+                "player_id": "hltv:25542",
+                "rating": 0.75,
+                "source_url": "https://www.hltv.org/player/25542/dr3nquu",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398390/masonic-vs-phantom-academy-cct-2026-europe-series-10",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-04T11:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-10-04T12:17:17Z",
+            "status": "finished",
             "team1_name": "MASONIC",
             "team2_name": "Phantom Academy",
-            "veto_text": "Best of 3 (Online)\n\n Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated.\n\n** Phantom Academy forfeit the 1st map due to a power outage affecting one of their players.",
+            "winner_name": "MASONIC"
           },
           {
-            "event_id": "hltv:9420",
+            "detail_fetched_at_utc": "2026-10-04T13:16:27Z",
+            "event_id": "hltv:cct-2026-europe-series-10",
             "event_name": "CCT 2026 Europe Series 10",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398391",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
             "match_id": "hltv:2398391",
             "product_tier": "tier_2",
             "series_format": "bo3",
@@ -22946,7 +24929,8 @@
             "starts_at": "2026-10-04T14:00:00Z",
             "status": "upcoming",
             "team1_name": "Butterfly",
-            "team2_name": "megoshort"
+            "team2_name": "megoshort",
+            "veto_text": "Best of 3 (Online)\n\n Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
           },
           {
             "event_id": "hltv:9420",
@@ -23479,7 +25463,7 @@
         "teams": 12
       }
     ],
-    "last_verified_utc": "2026-10-04T07:01:17Z",
+    "last_verified_utc": "2026-10-04T13:16:27Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -23917,7 +25901,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-04T07:01:40Z",
+  "generated_at_utc": "2026-10-04T13:16:49Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -25293,12 +27277,12 @@
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.626198,
-        "brier": 0.224342,
-        "ece": 0.029493,
-        "log_loss": 0.638117
+        "accuracy": 0.627389,
+        "brier": 0.224195,
+        "ece": 0.029389,
+        "log_loss": 0.637831
       },
-      "rows": 938,
+      "rows": 940,
       "slices": [
         {
           "dimension": "tier",
@@ -25319,12 +27303,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.574359,
-            "brier": 0.246413,
-            "ece": 0.066485,
-            "log_loss": 0.686379
+            "accuracy": 0.57868,
+            "brier": 0.24572,
+            "ece": 0.065778,
+            "log_loss": 0.684978
           },
-          "rows": 195
+          "rows": 197
         },
         {
           "dimension": "series_format",
@@ -25345,12 +27329,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.620155,
-            "brier": 0.224456,
-            "ece": 0.043181,
-            "log_loss": 0.637973
+            "accuracy": 0.621622,
+            "brier": 0.224277,
+            "ece": 0.043002,
+            "log_loss": 0.637627
           },
-          "rows": 516
+          "rows": 518
         },
         {
           "dimension": "series_format",
@@ -25366,7 +27350,7 @@
           "rows": 10
         }
       ],
-      "test_rows": 626
+      "test_rows": 628
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -25380,13 +27364,13 @@
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.635783,
-        "brier": 0.225076,
-        "ece": 0.048534,
-        "log_loss": 0.640573
+        "accuracy": 0.636943,
+        "brier": 0.225059,
+        "ece": 0.049871,
+        "log_loss": 0.640547
       },
       "promotion_passed": false,
-      "rows": 626,
+      "rows": 628,
       "slices": [
         {
           "dimension": "tier",
@@ -25407,12 +27391,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.589744,
-            "brier": 0.24401,
-            "ece": 0.054394,
-            "log_loss": 0.681124
+            "accuracy": 0.593909,
+            "brier": 0.243762,
+            "ece": 0.058599,
+            "log_loss": 0.680628
           },
-          "rows": 195
+          "rows": 197
         },
         {
           "dimension": "series_format",
@@ -25433,12 +27417,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.631783,
-            "brier": 0.224843,
-            "ece": 0.047217,
-            "log_loss": 0.640019
+            "accuracy": 0.633205,
+            "brier": 0.224823,
+            "ece": 0.048844,
+            "log_loss": 0.639989
           },
-          "rows": 516
+          "rows": 518
         },
         {
           "dimension": "series_format",
@@ -25474,7 +27458,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-04T07:01:40Z",
+    "generated_at_utc": "2026-10-04T13:16:49Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -25497,12 +27481,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.574359,
-            "brier": 0.246413,
-            "ece": 0.066485,
-            "log_loss": 0.686379
+            "accuracy": 0.57868,
+            "brier": 0.24572,
+            "ece": 0.065778,
+            "log_loss": 0.684978
           },
-          "rows": 195
+          "rows": 197
         },
         {
           "dimension": "series_format",
@@ -25523,12 +27507,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.620155,
-            "brier": 0.224456,
-            "ece": 0.043181,
-            "log_loss": 0.637973
+            "accuracy": 0.621622,
+            "brier": 0.224277,
+            "ece": 0.043002,
+            "log_loss": 0.637627
           },
-          "rows": 516
+          "rows": 518
         },
         {
           "dimension": "series_format",
@@ -25556,7 +27540,7 @@
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 195
+            "rows": 197
           },
           {
             "eligible": true,
@@ -25568,7 +27552,7 @@
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 516
+            "rows": 518
           },
           {
             "eligible": false,
@@ -25599,12 +27583,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.589744,
-            "brier": 0.241607,
-            "ece": 0.071274,
-            "log_loss": 0.676237
+            "accuracy": 0.593909,
+            "brier": 0.241095,
+            "ece": 0.07058,
+            "log_loss": 0.675209
           },
-          "rows": 195
+          "rows": 197
         },
         {
           "dimension": "series_format",
@@ -25625,12 +27609,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.631783,
-            "brier": 0.224231,
-            "ece": 0.048416,
-            "log_loss": 0.638783
+            "accuracy": 0.633205,
+            "brier": 0.224104,
+            "ece": 0.048241,
+            "log_loss": 0.638536
           },
-          "rows": 516
+          "rows": 518
         },
         {
           "dimension": "series_format",
@@ -25647,10 +27631,10 @@
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.626198,
-        "brier": 0.224213,
-        "ece": 0.029384,
-        "log_loss": 0.637729
+        "accuracy": 0.627389,
+        "brier": 0.224176,
+        "ece": 0.029285,
+        "log_loss": 0.637666
       },
       "champion_slices": [
         {
@@ -25672,12 +27656,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.574359,
-            "brier": 0.246,
-            "ece": 0.056709,
-            "log_loss": 0.685132
+            "accuracy": 0.57868,
+            "brier": 0.24566,
+            "ece": 0.056117,
+            "log_loss": 0.684452
           },
-          "rows": 195
+          "rows": 197
         },
         {
           "dimension": "series_format",
@@ -25698,12 +27682,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.620155,
-            "brier": 0.223987,
-            "ece": 0.048774,
-            "log_loss": 0.636843
+            "accuracy": 0.621622,
+            "brier": 0.223943,
+            "ece": 0.048579,
+            "log_loss": 0.636771
           },
-          "rows": 516
+          "rows": 518
         },
         {
           "dimension": "series_format",
@@ -25719,37 +27703,37 @@
           "rows": 10
         }
       ],
-      "champion_test_rows": 626,
+      "champion_test_rows": 628,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.574359,
-          "brier": 0.246201,
-          "ece": 0.041292,
-          "log_loss": 0.685535
+          "accuracy": 0.57868,
+          "brier": 0.245896,
+          "ece": 0.045593,
+          "log_loss": 0.684924
         },
         "before": {
-          "accuracy": 0.574359,
-          "brier": 0.246,
-          "ece": 0.056709,
-          "log_loss": 0.685132
+          "accuracy": 0.57868,
+          "brier": 0.24566,
+          "ece": 0.056117,
+          "log_loss": 0.684452
         },
         "candidate_shrink": 0.45,
         "overall_after": {
-          "accuracy": 0.626198,
-          "brier": 0.224276,
-          "ece": 0.025508,
-          "log_loss": 0.637854
+          "accuracy": 0.627389,
+          "brier": 0.22425,
+          "ece": 0.025422,
+          "log_loss": 0.637814
         },
         "overall_before": {
-          "accuracy": 0.626198,
-          "brier": 0.224213,
-          "ece": 0.029384,
-          "log_loss": 0.637729
+          "accuracy": 0.627389,
+          "brier": 0.224176,
+          "ece": 0.029285,
+          "log_loss": 0.637666
         },
         "passed": false,
-        "rows": 195,
+        "rows": 197,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -25768,8 +27752,8 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
-      "online_rows": 181,
+      "new_rows": 2,
+      "online_rows": 183,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -26009,9 +27993,11 @@
       "hltv:2398592",
       "hltv:2398389",
       "hltv:2398593",
-      "hltv:2398594"
+      "hltv:2398594",
+      "hltv:2398390",
+      "hltv:2399064"
     ],
-    "last_online_update_utc": "2026-10-04T07:01:40Z",
+    "last_online_update_utc": "2026-10-04T13:16:49Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -29634,10 +31620,10 @@
         "vrs_rank": 157
       },
       {
-        "elo": 1486.58,
-        "last_result_utc": "2026-10-02T20:11:40Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.3956,
+        "elo": 1500.9,
+        "last_result_utc": "2026-10-04T12:17:17Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.5055,
         "team_key": "masonic",
         "team_name": "MASONIC",
         "vrs_points": 861,
@@ -30775,10 +32761,10 @@
         "vrs_rank": 292
       },
       {
-        "elo": 1504.04,
-        "last_result_utc": "2026-10-02T12:34:38Z",
-        "matches": 9,
-        "recent_win_rate_10": 0.4993,
+        "elo": 1489.72,
+        "last_result_utc": "2026-10-04T12:17:17Z",
+        "matches": 10,
+        "recent_win_rate_10": 0.4085,
         "team_key": "phantom academy",
         "team_name": "Phantom Academy",
         "vrs_points": 579,
@@ -31462,10 +33448,10 @@
         "vrs_rank": null
       },
       {
-        "elo": 1562.51,
-        "last_result_utc": "2026-10-03T17:23:35Z",
-        "matches": 79,
-        "recent_win_rate_10": 0.6741,
+        "elo": 1573.84,
+        "last_result_utc": "2026-10-04T13:04:29Z",
+        "matches": 80,
+        "recent_win_rate_10": 0.7334,
         "team_key": "spirit academy",
         "team_name": "spirit academy",
         "vrs_points": null,
@@ -32215,10 +34201,10 @@
         "vrs_rank": null
       },
       {
-        "elo": 1503.18,
-        "last_result_utc": "2026-10-03T12:45:57Z",
-        "matches": 8,
-        "recent_win_rate_10": 0.5371,
+        "elo": 1491.85,
+        "last_result_utc": "2026-10-04T13:04:29Z",
+        "matches": 9,
+        "recent_win_rate_10": 0.4394,
         "team_key": "mellren",
         "team_name": "mellren",
         "vrs_points": 0,
@@ -35528,12 +37514,12 @@
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5405,
+      "confidence": 0.5108,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5405,
-      "event_id": "hltv:cct-2026-europe-series-10",
-      "event_name": "CCT 2026 Europe Series 10",
+      "elo_prob_team1": 0.4892,
+      "event_id": "hltv:cct-2026-challengers-europe-series-7",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
       "format": "bo3",
       "lineups": {
         "team1": [],
@@ -35542,145 +37528,28 @@
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-04",
-      "match_id": "hltv:2398390",
+      "match_id": "hltv:2399065",
       "match_phase": "scheduled",
-      "match_timestamp": 1791111600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "MASONIC",
-      "prob_team1": 0.5405,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398390/masonic-vs-phantom-academy-cct-2026-europe-series-10",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-04T11:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "MASONIC",
-      "team1_vrs_rank": 158,
-      "team2_hltv_rank": null,
-      "team2_name": "Phantom Academy",
-      "team2_vrs_rank": 293
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5473,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4527,
-      "event_id": "hltv:9433",
-      "event_name": "CCT 2026 Challengers Europe Series 7",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-04",
-      "match_id": "hltv:2399064",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791111600,
+      "match_timestamp": 1791121500,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "Spirit Academy",
-      "prob_team1": 0.4527,
+      "prob_team1": 0.4892,
       "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399064/mellren-vs-spirit-academy-cct-2026-challengers-europe-series-7",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-10-04T11:00:00Z",
+      "source_url": "https://www.hltv.org/matches/2399065/forze-reload-vs-spirit-academy-cct-2026-challengers-europe-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-04T13:45:00Z",
       "status": "upcoming",
       "team1_hltv_rank": null,
-      "team1_name": "mellren",
-      "team1_vrs_rank": null,
+      "team1_name": "FORZE Reload",
+      "team1_vrs_rank": 223,
       "team2_hltv_rank": null,
       "team2_name": "Spirit Academy",
       "team2_vrs_rank": null
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.728,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.728,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-04",
-      "match_id": "hltv:2398727",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791113400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "9z",
-      "prob_team1": 0.728,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398727/9z-vs-tyloo-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-04T11:30:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "9z",
-      "team1_vrs_rank": 15,
-      "team2_hltv_rank": null,
-      "team2_name": "TYLOO",
-      "team2_vrs_rank": 32
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.736,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.736,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-04",
-      "match_id": "hltv:2398728",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791113400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Falcons",
-      "prob_team1": 0.736,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398728/falcons-vs-aurora-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-04T11:30:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Falcons",
-      "team1_vrs_rank": 3,
-      "team2_hltv_rank": null,
-      "team2_name": "Aurora",
-      "team2_vrs_rank": 8
     },
     {
       "calibration_shrink": 0.5,
@@ -35689,10 +37558,13 @@
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4562,
-      "event_id": "hltv:9420",
+      "event_id": "hltv:cct-2026-europe-series-10",
       "event_name": "CCT 2026 Europe Series 10",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-04",
@@ -35718,86 +37590,6 @@
       "team2_hltv_rank": null,
       "team2_name": "megoshort",
       "team2_vrs_rank": 333
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.6545,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.3455,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-04",
-      "match_id": "hltv:2398729",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791122400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "MOUZ",
-      "prob_team1": 0.3455,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398729/furia-vs-mouz-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-04T14:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "FURIA",
-      "team1_vrs_rank": 11,
-      "team2_hltv_rank": null,
-      "team2_name": "MOUZ",
-      "team2_vrs_rank": 5
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7422,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.7422,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-04",
-      "match_id": "hltv:2398730",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791122400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "G2",
-      "prob_team1": 0.7422,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398730/g2-vs-1win-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-04T14:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "G2",
-      "team1_vrs_rank": 13,
-      "team2_hltv_rank": null,
-      "team2_name": "1win",
-      "team2_vrs_rank": 51
     },
     {
       "calibration_shrink": 0.5,
@@ -36430,12 +38222,197 @@
       "team2_hltv_rank": null,
       "team2_name": "PURE",
       "team2_vrs_rank": 347
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5712,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5712,
+      "event_id": "hltv:9318",
+      "event_name": "Roman Imperium Cup IX",
+      "format": "bo1",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399020",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791373500,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "OG",
+      "prob_team1": 0.5712,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo1",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399020/og-vs-sinqu-roman-imperium-cup-ix",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T11:45:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "OG",
+      "team1_vrs_rank": 57,
+      "team2_hltv_rank": null,
+      "team2_name": "SINQU",
+      "team2_vrs_rank": 307
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5232,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5232,
+      "event_id": "hltv:9318",
+      "event_name": "Roman Imperium Cup IX",
+      "format": "bo1",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399021",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791373500,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Falcons Force",
+      "prob_team1": 0.5232,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo1",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399021/falcons-force-vs-orion-wanderers-roman-imperium-cup-ix",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T11:45:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Falcons Force",
+      "team1_vrs_rank": 159,
+      "team2_hltv_rank": null,
+      "team2_name": "Orion Wanderers",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5646,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4354,
+      "event_id": "hltv:9318",
+      "event_name": "Roman Imperium Cup IX",
+      "format": "bo1",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399022",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791378000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "OG",
+      "prob_team1": 0.4354,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo1",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399022/g2-ares-vs-og-roman-imperium-cup-ix",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T13:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "G2 Ares",
+      "team1_vrs_rank": 125,
+      "team2_hltv_rank": null,
+      "team2_name": "OG",
+      "team2_vrs_rank": 57
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5829,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4171,
+      "event_id": "hltv:9318",
+      "event_name": "Roman Imperium Cup IX",
+      "format": "bo1",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399023",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791378000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Falcons Force",
+      "prob_team1": 0.4171,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo1",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399023/pure-vs-falcons-force-roman-imperium-cup-ix",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T13:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "PURE",
+      "team1_vrs_rank": 347,
+      "team2_hltv_rank": null,
+      "team2_name": "Falcons Force",
+      "team2_vrs_rank": 159
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5105,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5105,
+      "event_id": "hltv:9318",
+      "event_name": "Roman Imperium Cup IX",
+      "format": "bo1",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399024",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791378000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "SINQU",
+      "prob_team1": 0.5105,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo1",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399024/sinqu-vs-orion-wanderers-roman-imperium-cup-ix",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T13:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "SINQU",
+      "team1_vrs_rank": 307,
+      "team2_hltv_rank": null,
+      "team2_name": "Orion Wanderers",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 66,
-    "online_results_applied": 1,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

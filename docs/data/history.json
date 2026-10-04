@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-04T07:01:17Z",
+  "generated_at_utc": "2026-10-04T13:16:27Z",
   "through_date": "2026-10-04",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3503,
-    "maps": 2665,
-    "lineup_rows": 8600,
+    "matches": 3505,
+    "maps": 2670,
+    "lineup_rows": 8620,
     "source_match_ids": 976
   },
   "matches": [
@@ -33,6 +33,111 @@
       "lineups": {
         "team1": [],
         "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398390",
+      "match_date": "2026-10-04",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "MASONIC",
+      "team2_name": "Phantom Academy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MASONIC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 11,
+          "winner_name": "MASONIC",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Phantom Academy",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "b0RUP",
+          "Slexa",
+          "Botman",
+          "kralle",
+          "Bukhavez"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "Brain47",
+          "Ayteel",
+          "kalyambys"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399064",
+      "match_date": "2026-10-04",
+      "event_name": "CCT 2026 Challengers Europe Series 7",
+      "team1_name": "mellren",
+      "team2_name": "Spirit Academy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "Spirit Academy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "Spirit Academy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Spirit Academy",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "lollipop21k",
+          "menddel",
+          "mdl",
+          "shootic",
+          "Maksilvl"
+        ],
+        "team2": [
+          "VILBy",
+          "Kiryasoo",
+          "Netrix",
+          "s1nside",
+          "k0gaSs"
+        ]
       }
     },
     {
