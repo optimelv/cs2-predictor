@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3511,
+    "matches": 3514,
     "maps": 2670,
     "lineup_rows": 8620,
     "source_match_ids": 976
@@ -161,6 +161,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
+    },
+    {
+      "match_id": "liquipedia:fabe47107febfc194eda",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 4",
+      "team1_name": "MASON",
+      "team2_name": "PHTM.Ac",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MASON",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_4"
+    },
+    {
+      "match_id": "liquipedia:cf003f1bf9d5743379e8",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 4",
+      "team1_name": "Butterfly",
+      "team2_name": "megoshort",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_4"
+    },
+    {
+      "match_id": "liquipedia:78433fb1353b5c01eaac",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T15:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Playoffs",
+      "team1_name": "Galorys",
+      "team2_name": "Procyon",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Galorys",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
     },
     {
       "match_id": "hltv:2398590",
