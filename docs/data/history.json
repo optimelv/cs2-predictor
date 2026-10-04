@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3501,
+    "matches": 3503,
     "maps": 2665,
     "lineup_rows": 8600,
     "source_match_ids": 976
@@ -728,6 +728,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:924bc156b094dc8ff32f",
+      "match_date": "2026-10-03",
+      "starts_at": "2026-10-03T19:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Playoffs",
+      "team1_name": "BESTIA.A",
+      "team2_name": "Galorys",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Galorys",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:1da097cb560d3ef48f8c",
+      "match_date": "2026-10-03",
+      "starts_at": "2026-10-03T22:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Playoffs",
+      "team1_name": "ex-kStars",
+      "team2_name": "Procyon",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Procyon",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
     },
     {
       "match_id": "hltv:2398382",
