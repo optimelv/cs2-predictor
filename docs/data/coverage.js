@@ -2,23 +2,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:cct-2026-south-america-series-6",
-      "event_name": "CCT 2026 South America Series 6",
-      "hltv_match_id": "2398569",
-      "match_id": "hltv:2398569",
-      "product_tier": "tier_2",
-      "score1": 1,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398569/grmio-vs-peladona-cct-2026-south-america-series-6",
-      "stage_name": "Completed series",
-      "starts_at": "2026-09-26T09:28:34Z",
-      "status": "finished",
-      "team1_name": "Grêmio",
-      "team2_name": "Peladona",
-      "winner_name": "Grêmio"
-    },
-    {
       "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-2",
       "event_name": "ESL Challenger League Season 52 Oceania Cup 2",
       "hltv_match_id": "2398639",
@@ -4805,7 +4788,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398717/falcons-vs-tyloo-esl-pro-league-season-24",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T09:00:00Z",
+      "starts_at": "2026-10-03T10:50:25Z",
       "status": "finished",
       "team1_name": "Falcons",
       "team2_name": "TYLOO",
@@ -4829,279 +4812,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2398718/legacy-vs-parivision-esl-pro-league-season-24",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T09:00:00Z",
+      "starts_at": "2026-10-03T11:46:26Z",
       "status": "finished",
       "team1_name": "Legacy",
       "team2_name": "PARIVISION",
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1",
       "winner_name": "PARIVISION"
-    },
-    {
-      "detail_fetched_at_utc": "2026-10-02T18:29:19Z",
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2398719",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "match_id": "hltv:2398719",
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T11:30:00Z",
-      "status": "finished",
-      "team1_name": "Vitality",
-      "team2_name": "1win",
-      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1",
-      "winner_name": "Vitality"
-    },
-    {
-      "detail_fetched_at_utc": "2026-10-03T13:12:02Z",
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2398720",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "21167",
-            "nickname": "donk",
-            "player_id": "hltv:21167",
-            "source_url": "https://www.hltv.org/player/21167/donk",
-            "team_name": "Spirit"
-          },
-          {
-            "hltv_player_id": "19808",
-            "nickname": "tN1R",
-            "player_id": "hltv:19808",
-            "source_url": "https://www.hltv.org/player/19808/tn1r",
-            "team_name": "Spirit"
-          },
-          {
-            "hltv_player_id": "16920",
-            "nickname": "sh1ro",
-            "player_id": "hltv:16920",
-            "source_url": "https://www.hltv.org/player/16920/sh1ro",
-            "team_name": "Spirit"
-          },
-          {
-            "hltv_player_id": "20423",
-            "nickname": "zont1x",
-            "player_id": "hltv:20423",
-            "source_url": "https://www.hltv.org/player/20423/zont1x",
-            "team_name": "Spirit"
-          },
-          {
-            "hltv_player_id": "18317",
-            "nickname": "magixx",
-            "player_id": "hltv:18317",
-            "source_url": "https://www.hltv.org/player/18317/magixx",
-            "team_name": "Spirit"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "20992",
-            "nickname": "ivz",
-            "player_id": "hltv:20992",
-            "source_url": "https://www.hltv.org/player/20992/ivz",
-            "team_name": "ShindeN"
-          },
-          {
-            "hltv_player_id": "18554",
-            "nickname": "tom1jed",
-            "player_id": "hltv:18554",
-            "source_url": "https://www.hltv.org/player/18554/tom1jed",
-            "team_name": "ShindeN"
-          },
-          {
-            "hltv_player_id": "24749",
-            "nickname": "guty",
-            "player_id": "hltv:24749",
-            "source_url": "https://www.hltv.org/player/24749/guty",
-            "team_name": "ShindeN"
-          },
-          {
-            "hltv_player_id": "20451",
-            "nickname": "abizz",
-            "player_id": "hltv:20451",
-            "source_url": "https://www.hltv.org/player/20451/abizz",
-            "team_name": "ShindeN"
-          },
-          {
-            "hltv_player_id": "21155",
-            "nickname": "naz",
-            "player_id": "hltv:21155",
-            "source_url": "https://www.hltv.org/player/21155/naz",
-            "team_name": "ShindeN"
-          }
-        ]
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": 11,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Nuke",
-        "Mirage"
-      ],
-      "match_id": "hltv:2398720",
-      "player_stats": [
-        {
-          "adr": 95.5,
-          "deaths": 16,
-          "hltv_player_id": "21167",
-          "kast": 75,
-          "kills": 22,
-          "nickname": "donk",
-          "player_id": "hltv:21167",
-          "rating": 1.59,
-          "source_url": "https://www.hltv.org/player/21167/donk",
-          "team_side": 1
-        },
-        {
-          "adr": 81.1,
-          "deaths": 15,
-          "hltv_player_id": "19808",
-          "kast": 79.2,
-          "kills": 22,
-          "nickname": "tN1R",
-          "player_id": "hltv:19808",
-          "rating": 1.35,
-          "source_url": "https://www.hltv.org/player/19808/tn1r",
-          "team_side": 1
-        },
-        {
-          "adr": 83.1,
-          "deaths": 16,
-          "hltv_player_id": "16920",
-          "kast": 58.3,
-          "kills": 18,
-          "nickname": "sh1ro",
-          "player_id": "hltv:16920",
-          "rating": 0.97,
-          "source_url": "https://www.hltv.org/player/16920/sh1ro",
-          "team_side": 1
-        },
-        {
-          "adr": 70.6,
-          "deaths": 16,
-          "hltv_player_id": "20423",
-          "kast": 62.5,
-          "kills": 12,
-          "nickname": "zont1x",
-          "player_id": "hltv:20423",
-          "rating": 0.89,
-          "source_url": "https://www.hltv.org/player/20423/zont1x",
-          "team_side": 1
-        },
-        {
-          "adr": 77.2,
-          "deaths": 18,
-          "hltv_player_id": "18317",
-          "kast": 70.8,
-          "kills": 12,
-          "nickname": "magixx",
-          "player_id": "hltv:18317",
-          "rating": 0.84,
-          "source_url": "https://www.hltv.org/player/18317/magixx",
-          "team_side": 1
-        },
-        {
-          "adr": 85.5,
-          "deaths": 16,
-          "hltv_player_id": "20992",
-          "kast": 70.8,
-          "kills": 18,
-          "nickname": "ivz",
-          "player_id": "hltv:20992",
-          "rating": 1.38,
-          "source_url": "https://www.hltv.org/player/20992/ivz",
-          "team_side": 2
-        },
-        {
-          "adr": 94.7,
-          "deaths": 17,
-          "hltv_player_id": "18554",
-          "kast": 70.8,
-          "kills": 20,
-          "nickname": "tom1jed",
-          "player_id": "hltv:18554",
-          "rating": 1.21,
-          "source_url": "https://www.hltv.org/player/18554/tom1jed",
-          "team_side": 2
-        },
-        {
-          "adr": 62.7,
-          "deaths": 19,
-          "hltv_player_id": "24749",
-          "kast": 66.7,
-          "kills": 19,
-          "nickname": "guty",
-          "player_id": "hltv:24749",
-          "rating": 0.95,
-          "source_url": "https://www.hltv.org/player/24749/guty",
-          "team_side": 2
-        },
-        {
-          "adr": 64,
-          "deaths": 17,
-          "hltv_player_id": "20451",
-          "kast": 62.5,
-          "kills": 14,
-          "nickname": "abizz",
-          "player_id": "hltv:20451",
-          "rating": 0.93,
-          "source_url": "https://www.hltv.org/player/20451/abizz",
-          "team_side": 2
-        },
-        {
-          "adr": 49.8,
-          "deaths": 17,
-          "hltv_player_id": "21155",
-          "kast": 50,
-          "kills": 9,
-          "nickname": "naz",
-          "player_id": "hltv:21155",
-          "rating": 0.74,
-          "source_url": "https://www.hltv.org/player/21155/naz",
-          "team_side": 2
-        }
-      ],
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T11:30:00Z",
-      "status": "finished",
-      "team1_name": "Spirit",
-      "team2_name": "ShindeN",
-      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1",
-      "winner_name": "Spirit"
     },
     {
       "event_id": "hltv:cct-2026-challengers-europe-series-7",
@@ -5121,271 +4837,28 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "FORZE Reload"
     },
     {
-      "detail_fetched_at_utc": "2026-10-02T18:29:28Z",
+      "detail_fetched_at_utc": "2026-10-02T18:29:19Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2398721",
+      "hltv_match_id": "2398719",
       "lineups": {
         "team1": [],
         "team2": []
       },
-      "match_id": "hltv:2398721",
+      "match_id": "hltv:2398719",
       "product_tier": "tier_1",
       "score1": 2,
       "score2": 0,
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
+      "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T14:00:00Z",
+      "starts_at": "2026-10-03T12:59:53Z",
       "status": "finished",
-      "team1_name": "Aurora",
-      "team2_name": "9z",
+      "team1_name": "Vitality",
+      "team2_name": "1win",
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1",
-      "winner_name": "Aurora"
-    },
-    {
-      "detail_fetched_at_utc": "2026-10-03T17:12:42Z",
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2398722",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "18072",
-            "nickname": "torzsi",
-            "player_id": "hltv:18072",
-            "source_url": "https://www.hltv.org/player/18072/torzsi",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "18221",
-            "nickname": "Spinx",
-            "player_id": "hltv:18221",
-            "source_url": "https://www.hltv.org/player/18221/spinx",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "22279",
-            "nickname": "PR",
-            "player_id": "hltv:22279",
-            "source_url": "https://www.hltv.org/player/22279/pr",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "20312",
-            "nickname": "xertioN",
-            "player_id": "hltv:20312",
-            "source_url": "https://www.hltv.org/player/20312/xertion",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "24457",
-            "nickname": "xelex",
-            "player_id": "hltv:24457",
-            "source_url": "https://www.hltv.org/player/24457/xelex",
-            "team_name": "MOUZ"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "16599",
-            "nickname": "Swisher",
-            "player_id": "hltv:16599",
-            "source_url": "https://www.hltv.org/player/16599/swisher",
-            "team_name": "M80"
-          },
-          {
-            "hltv_player_id": "21665",
-            "nickname": "JBa",
-            "player_id": "hltv:21665",
-            "source_url": "https://www.hltv.org/player/21665/jba",
-            "team_name": "M80"
-          },
-          {
-            "hltv_player_id": "20104",
-            "nickname": "s1n",
-            "player_id": "hltv:20104",
-            "source_url": "https://www.hltv.org/player/20104/s1n",
-            "team_name": "M80"
-          },
-          {
-            "hltv_player_id": "22921",
-            "nickname": "Lake",
-            "player_id": "hltv:22921",
-            "source_url": "https://www.hltv.org/player/22921/lake",
-            "team_name": "M80"
-          },
-          {
-            "hltv_player_id": "15370",
-            "nickname": "slaxz-",
-            "player_id": "hltv:15370",
-            "source_url": "https://www.hltv.org/player/15370/slaxz",
-            "team_name": "M80"
-          }
-        ]
-      },
-      "map_results": [
-        {
-          "map_name": "Cache",
-          "score1": 13,
-          "score2": 9,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": 13,
-          "score2": 6,
-          "status": "finished"
-        },
-        {
-          "map_name": "Inferno",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Cache",
-        "Mirage",
-        "Inferno"
-      ],
-      "match_id": "hltv:2398722",
-      "player_stats": [
-        {
-          "adr": 91.3,
-          "deaths": 19,
-          "hltv_player_id": "18072",
-          "kast": 75.6,
-          "kills": 39,
-          "nickname": "torzsi",
-          "player_id": "hltv:18072",
-          "rating": 1.56,
-          "source_url": "https://www.hltv.org/player/18072/torzsi",
-          "team_side": 1
-        },
-        {
-          "adr": 87.9,
-          "deaths": 25,
-          "hltv_player_id": "18221",
-          "kast": 78,
-          "kills": 27,
-          "nickname": "Spinx",
-          "player_id": "hltv:18221",
-          "rating": 1.36,
-          "source_url": "https://www.hltv.org/player/18221/spinx",
-          "team_side": 1
-        },
-        {
-          "adr": 76.3,
-          "deaths": 22,
-          "hltv_player_id": "22279",
-          "kast": 75.6,
-          "kills": 29,
-          "nickname": "PR",
-          "player_id": "hltv:22279",
-          "rating": 1.12,
-          "source_url": "https://www.hltv.org/player/22279/pr",
-          "team_side": 1
-        },
-        {
-          "adr": 72.9,
-          "deaths": 27,
-          "hltv_player_id": "20312",
-          "kast": 78,
-          "kills": 26,
-          "nickname": "xertioN",
-          "player_id": "hltv:20312",
-          "rating": 1.11,
-          "source_url": "https://www.hltv.org/player/20312/xertion",
-          "team_side": 1
-        },
-        {
-          "adr": 62.5,
-          "deaths": 23,
-          "hltv_player_id": "24457",
-          "kast": 73.2,
-          "kills": 26,
-          "nickname": "xelex",
-          "player_id": "hltv:24457",
-          "rating": 1.11,
-          "source_url": "https://www.hltv.org/player/24457/xelex",
-          "team_side": 1
-        },
-        {
-          "adr": 69.1,
-          "deaths": 28,
-          "hltv_player_id": "16599",
-          "kast": 68.3,
-          "kills": 28,
-          "nickname": "Swisher",
-          "player_id": "hltv:16599",
-          "rating": 0.96,
-          "source_url": "https://www.hltv.org/player/16599/swisher",
-          "team_side": 2
-        },
-        {
-          "adr": 55.1,
-          "deaths": 27,
-          "hltv_player_id": "21665",
-          "kast": 51.2,
-          "kills": 21,
-          "nickname": "JBa",
-          "player_id": "hltv:21665",
-          "rating": 0.84,
-          "source_url": "https://www.hltv.org/player/21665/jba",
-          "team_side": 2
-        },
-        {
-          "adr": 65.7,
-          "deaths": 29,
-          "hltv_player_id": "20104",
-          "kast": 65.9,
-          "kills": 22,
-          "nickname": "s1n",
-          "player_id": "hltv:20104",
-          "rating": 0.82,
-          "source_url": "https://www.hltv.org/player/20104/s1n",
-          "team_side": 2
-        },
-        {
-          "adr": 70.9,
-          "deaths": 34,
-          "hltv_player_id": "22921",
-          "kast": 61,
-          "kills": 23,
-          "nickname": "Lake",
-          "player_id": "hltv:22921",
-          "rating": 0.75,
-          "source_url": "https://www.hltv.org/player/22921/lake",
-          "team_side": 2
-        },
-        {
-          "adr": 55.6,
-          "deaths": 30,
-          "hltv_player_id": "15370",
-          "kast": 61,
-          "kills": 21,
-          "nickname": "slaxz-",
-          "player_id": "hltv:15370",
-          "rating": 0.72,
-          "source_url": "https://www.hltv.org/player/15370/slaxz",
-          "team_side": 2
-        }
-      ],
-      "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 0,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T14:00:00Z",
-      "status": "finished",
-      "team1_name": "MOUZ",
-      "team2_name": "M80",
-      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1",
-      "winner_name": "MOUZ"
+      "winner_name": "Vitality"
     },
     {
       "detail_fetched_at_utc": "2026-10-03T13:14:06Z",
@@ -5631,6 +5104,249 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Leo"
     },
     {
+      "detail_fetched_at_utc": "2026-10-03T13:12:02Z",
+      "event_id": "hltv:esl-pro-league-season-24",
+      "event_name": "ESL Pro League Season 24",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2398720",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "21167",
+            "nickname": "donk",
+            "player_id": "hltv:21167",
+            "source_url": "https://www.hltv.org/player/21167/donk",
+            "team_name": "Spirit"
+          },
+          {
+            "hltv_player_id": "19808",
+            "nickname": "tN1R",
+            "player_id": "hltv:19808",
+            "source_url": "https://www.hltv.org/player/19808/tn1r",
+            "team_name": "Spirit"
+          },
+          {
+            "hltv_player_id": "16920",
+            "nickname": "sh1ro",
+            "player_id": "hltv:16920",
+            "source_url": "https://www.hltv.org/player/16920/sh1ro",
+            "team_name": "Spirit"
+          },
+          {
+            "hltv_player_id": "20423",
+            "nickname": "zont1x",
+            "player_id": "hltv:20423",
+            "source_url": "https://www.hltv.org/player/20423/zont1x",
+            "team_name": "Spirit"
+          },
+          {
+            "hltv_player_id": "18317",
+            "nickname": "magixx",
+            "player_id": "hltv:18317",
+            "source_url": "https://www.hltv.org/player/18317/magixx",
+            "team_name": "Spirit"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "20992",
+            "nickname": "ivz",
+            "player_id": "hltv:20992",
+            "source_url": "https://www.hltv.org/player/20992/ivz",
+            "team_name": "ShindeN"
+          },
+          {
+            "hltv_player_id": "18554",
+            "nickname": "tom1jed",
+            "player_id": "hltv:18554",
+            "source_url": "https://www.hltv.org/player/18554/tom1jed",
+            "team_name": "ShindeN"
+          },
+          {
+            "hltv_player_id": "24749",
+            "nickname": "guty",
+            "player_id": "hltv:24749",
+            "source_url": "https://www.hltv.org/player/24749/guty",
+            "team_name": "ShindeN"
+          },
+          {
+            "hltv_player_id": "20451",
+            "nickname": "abizz",
+            "player_id": "hltv:20451",
+            "source_url": "https://www.hltv.org/player/20451/abizz",
+            "team_name": "ShindeN"
+          },
+          {
+            "hltv_player_id": "21155",
+            "nickname": "naz",
+            "player_id": "hltv:21155",
+            "source_url": "https://www.hltv.org/player/21155/naz",
+            "team_name": "ShindeN"
+          }
+        ]
+      },
+      "map_results": [
+        {
+          "map_name": "Dust2",
+          "score1": 11,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Dust2",
+        "Nuke",
+        "Mirage"
+      ],
+      "match_id": "hltv:2398720",
+      "player_stats": [
+        {
+          "adr": 95.5,
+          "deaths": 16,
+          "hltv_player_id": "21167",
+          "kast": 75,
+          "kills": 22,
+          "nickname": "donk",
+          "player_id": "hltv:21167",
+          "rating": 1.59,
+          "source_url": "https://www.hltv.org/player/21167/donk",
+          "team_side": 1
+        },
+        {
+          "adr": 81.1,
+          "deaths": 15,
+          "hltv_player_id": "19808",
+          "kast": 79.2,
+          "kills": 22,
+          "nickname": "tN1R",
+          "player_id": "hltv:19808",
+          "rating": 1.35,
+          "source_url": "https://www.hltv.org/player/19808/tn1r",
+          "team_side": 1
+        },
+        {
+          "adr": 83.1,
+          "deaths": 16,
+          "hltv_player_id": "16920",
+          "kast": 58.3,
+          "kills": 18,
+          "nickname": "sh1ro",
+          "player_id": "hltv:16920",
+          "rating": 0.97,
+          "source_url": "https://www.hltv.org/player/16920/sh1ro",
+          "team_side": 1
+        },
+        {
+          "adr": 70.6,
+          "deaths": 16,
+          "hltv_player_id": "20423",
+          "kast": 62.5,
+          "kills": 12,
+          "nickname": "zont1x",
+          "player_id": "hltv:20423",
+          "rating": 0.89,
+          "source_url": "https://www.hltv.org/player/20423/zont1x",
+          "team_side": 1
+        },
+        {
+          "adr": 77.2,
+          "deaths": 18,
+          "hltv_player_id": "18317",
+          "kast": 70.8,
+          "kills": 12,
+          "nickname": "magixx",
+          "player_id": "hltv:18317",
+          "rating": 0.84,
+          "source_url": "https://www.hltv.org/player/18317/magixx",
+          "team_side": 1
+        },
+        {
+          "adr": 85.5,
+          "deaths": 16,
+          "hltv_player_id": "20992",
+          "kast": 70.8,
+          "kills": 18,
+          "nickname": "ivz",
+          "player_id": "hltv:20992",
+          "rating": 1.38,
+          "source_url": "https://www.hltv.org/player/20992/ivz",
+          "team_side": 2
+        },
+        {
+          "adr": 94.7,
+          "deaths": 17,
+          "hltv_player_id": "18554",
+          "kast": 70.8,
+          "kills": 20,
+          "nickname": "tom1jed",
+          "player_id": "hltv:18554",
+          "rating": 1.21,
+          "source_url": "https://www.hltv.org/player/18554/tom1jed",
+          "team_side": 2
+        },
+        {
+          "adr": 62.7,
+          "deaths": 19,
+          "hltv_player_id": "24749",
+          "kast": 66.7,
+          "kills": 19,
+          "nickname": "guty",
+          "player_id": "hltv:24749",
+          "rating": 0.95,
+          "source_url": "https://www.hltv.org/player/24749/guty",
+          "team_side": 2
+        },
+        {
+          "adr": 64,
+          "deaths": 17,
+          "hltv_player_id": "20451",
+          "kast": 62.5,
+          "kills": 14,
+          "nickname": "abizz",
+          "player_id": "hltv:20451",
+          "rating": 0.93,
+          "source_url": "https://www.hltv.org/player/20451/abizz",
+          "team_side": 2
+        },
+        {
+          "adr": 49.8,
+          "deaths": 17,
+          "hltv_player_id": "21155",
+          "kast": 50,
+          "kills": 9,
+          "nickname": "naz",
+          "player_id": "hltv:21155",
+          "rating": 0.74,
+          "source_url": "https://www.hltv.org/player/21155/naz",
+          "team_side": 2
+        }
+      ],
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-03T15:05:15Z",
+      "status": "finished",
+      "team1_name": "Spirit",
+      "team2_name": "ShindeN",
+      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1",
+      "winner_name": "Spirit"
+    },
+    {
       "event_id": "hltv:cct-2026-south-america-series-6",
       "event_name": "CCT 2026 South America Series 6",
       "hltv_match_id": "2398591",
@@ -5648,38 +5364,271 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Turma do Pagode"
     },
     {
+      "detail_fetched_at_utc": "2026-10-02T18:29:28Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
-      "hltv_match_id": "2398723",
-      "match_id": "hltv:2398723",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T16:30:00Z",
-      "status": "finished",
-      "team1_name": "G2",
-      "team2_name": "Natus Vincere",
-      "winner_name": "Natus Vincere"
-    },
-    {
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "hltv_match_id": "2398724",
-      "match_id": "hltv:2398724",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2398721",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "match_id": "hltv:2398721",
       "product_tier": "tier_1",
       "score1": 2,
       "score2": 0,
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+      "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-03T16:30:00Z",
+      "starts_at": "2026-10-03T15:45:18Z",
       "status": "finished",
-      "team1_name": "FURIA",
-      "team2_name": "BETBOOM",
-      "winner_name": "FURIA"
+      "team1_name": "Aurora",
+      "team2_name": "9z",
+      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1",
+      "winner_name": "Aurora"
+    },
+    {
+      "detail_fetched_at_utc": "2026-10-03T17:12:42Z",
+      "event_id": "hltv:esl-pro-league-season-24",
+      "event_name": "ESL Pro League Season 24",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2398722",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "18072",
+            "nickname": "torzsi",
+            "player_id": "hltv:18072",
+            "source_url": "https://www.hltv.org/player/18072/torzsi",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "18221",
+            "nickname": "Spinx",
+            "player_id": "hltv:18221",
+            "source_url": "https://www.hltv.org/player/18221/spinx",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "22279",
+            "nickname": "PR",
+            "player_id": "hltv:22279",
+            "source_url": "https://www.hltv.org/player/22279/pr",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "20312",
+            "nickname": "xertioN",
+            "player_id": "hltv:20312",
+            "source_url": "https://www.hltv.org/player/20312/xertion",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "24457",
+            "nickname": "xelex",
+            "player_id": "hltv:24457",
+            "source_url": "https://www.hltv.org/player/24457/xelex",
+            "team_name": "MOUZ"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "16599",
+            "nickname": "Swisher",
+            "player_id": "hltv:16599",
+            "source_url": "https://www.hltv.org/player/16599/swisher",
+            "team_name": "M80"
+          },
+          {
+            "hltv_player_id": "21665",
+            "nickname": "JBa",
+            "player_id": "hltv:21665",
+            "source_url": "https://www.hltv.org/player/21665/jba",
+            "team_name": "M80"
+          },
+          {
+            "hltv_player_id": "20104",
+            "nickname": "s1n",
+            "player_id": "hltv:20104",
+            "source_url": "https://www.hltv.org/player/20104/s1n",
+            "team_name": "M80"
+          },
+          {
+            "hltv_player_id": "22921",
+            "nickname": "Lake",
+            "player_id": "hltv:22921",
+            "source_url": "https://www.hltv.org/player/22921/lake",
+            "team_name": "M80"
+          },
+          {
+            "hltv_player_id": "15370",
+            "nickname": "slaxz-",
+            "player_id": "hltv:15370",
+            "source_url": "https://www.hltv.org/player/15370/slaxz",
+            "team_name": "M80"
+          }
+        ]
+      },
+      "map_results": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 9,
+          "status": "finished"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 6,
+          "status": "finished"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Cache",
+        "Mirage",
+        "Inferno"
+      ],
+      "match_id": "hltv:2398722",
+      "player_stats": [
+        {
+          "adr": 91.3,
+          "deaths": 19,
+          "hltv_player_id": "18072",
+          "kast": 75.6,
+          "kills": 39,
+          "nickname": "torzsi",
+          "player_id": "hltv:18072",
+          "rating": 1.56,
+          "source_url": "https://www.hltv.org/player/18072/torzsi",
+          "team_side": 1
+        },
+        {
+          "adr": 87.9,
+          "deaths": 25,
+          "hltv_player_id": "18221",
+          "kast": 78,
+          "kills": 27,
+          "nickname": "Spinx",
+          "player_id": "hltv:18221",
+          "rating": 1.36,
+          "source_url": "https://www.hltv.org/player/18221/spinx",
+          "team_side": 1
+        },
+        {
+          "adr": 76.3,
+          "deaths": 22,
+          "hltv_player_id": "22279",
+          "kast": 75.6,
+          "kills": 29,
+          "nickname": "PR",
+          "player_id": "hltv:22279",
+          "rating": 1.12,
+          "source_url": "https://www.hltv.org/player/22279/pr",
+          "team_side": 1
+        },
+        {
+          "adr": 72.9,
+          "deaths": 27,
+          "hltv_player_id": "20312",
+          "kast": 78,
+          "kills": 26,
+          "nickname": "xertioN",
+          "player_id": "hltv:20312",
+          "rating": 1.11,
+          "source_url": "https://www.hltv.org/player/20312/xertion",
+          "team_side": 1
+        },
+        {
+          "adr": 62.5,
+          "deaths": 23,
+          "hltv_player_id": "24457",
+          "kast": 73.2,
+          "kills": 26,
+          "nickname": "xelex",
+          "player_id": "hltv:24457",
+          "rating": 1.11,
+          "source_url": "https://www.hltv.org/player/24457/xelex",
+          "team_side": 1
+        },
+        {
+          "adr": 69.1,
+          "deaths": 28,
+          "hltv_player_id": "16599",
+          "kast": 68.3,
+          "kills": 28,
+          "nickname": "Swisher",
+          "player_id": "hltv:16599",
+          "rating": 0.96,
+          "source_url": "https://www.hltv.org/player/16599/swisher",
+          "team_side": 2
+        },
+        {
+          "adr": 55.1,
+          "deaths": 27,
+          "hltv_player_id": "21665",
+          "kast": 51.2,
+          "kills": 21,
+          "nickname": "JBa",
+          "player_id": "hltv:21665",
+          "rating": 0.84,
+          "source_url": "https://www.hltv.org/player/21665/jba",
+          "team_side": 2
+        },
+        {
+          "adr": 65.7,
+          "deaths": 29,
+          "hltv_player_id": "20104",
+          "kast": 65.9,
+          "kills": 22,
+          "nickname": "s1n",
+          "player_id": "hltv:20104",
+          "rating": 0.82,
+          "source_url": "https://www.hltv.org/player/20104/s1n",
+          "team_side": 2
+        },
+        {
+          "adr": 70.9,
+          "deaths": 34,
+          "hltv_player_id": "22921",
+          "kast": 61,
+          "kills": 23,
+          "nickname": "Lake",
+          "player_id": "hltv:22921",
+          "rating": 0.75,
+          "source_url": "https://www.hltv.org/player/22921/lake",
+          "team_side": 2
+        },
+        {
+          "adr": 55.6,
+          "deaths": 30,
+          "hltv_player_id": "15370",
+          "kast": 61,
+          "kills": 21,
+          "nickname": "slaxz-",
+          "player_id": "hltv:15370",
+          "rating": 0.72,
+          "source_url": "https://www.hltv.org/player/15370/slaxz",
+          "team_side": 2
+        }
+      ],
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-03T17:07:50Z",
+      "status": "finished",
+      "team1_name": "MOUZ",
+      "team2_name": "M80",
+      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 1",
+      "winner_name": "MOUZ"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-10",
@@ -6092,6 +6041,23 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Spirit Academy"
     },
     {
+      "event_id": "hltv:esl-pro-league-season-24",
+      "event_name": "ESL Pro League Season 24",
+      "hltv_match_id": "2398723",
+      "match_id": "hltv:2398723",
+      "product_tier": "tier_1",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-03T18:16:37Z",
+      "status": "finished",
+      "team1_name": "G2",
+      "team2_name": "Natus Vincere",
+      "winner_name": "Natus Vincere"
+    },
+    {
       "event_id": "hltv:cct-2026-south-america-series-6",
       "event_name": "CCT 2026 South America Series 6",
       "hltv_match_id": "2398592",
@@ -6124,6 +6090,23 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team1_name": "Lavked",
       "team2_name": "Nexus",
       "winner_name": "Nexus"
+    },
+    {
+      "event_id": "hltv:esl-pro-league-season-24",
+      "event_name": "ESL Pro League Season 24",
+      "hltv_match_id": "2398724",
+      "match_id": "hltv:2398724",
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 0,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-03T19:27:45Z",
+      "status": "finished",
+      "team1_name": "FURIA",
+      "team2_name": "BETBOOM",
+      "winner_name": "FURIA"
     },
     {
       "event_id": "hltv:cct-2026-south-america-series-6",
@@ -7425,7 +7408,24 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Turma do Pagode"
     },
     {
-      "detail_fetched_at_utc": "2026-10-04T21:34:02Z",
+      "event_id": "hltv:cct-2026-south-america-series-6",
+      "event_name": "CCT 2026 South America Series 6",
+      "hltv_match_id": "2398597",
+      "match_id": "hltv:2398597",
+      "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2398597/galorys-vs-turma-do-pagode-cct-2026-south-america-series-6",
+      "stage_name": "Completed series",
+      "starts_at": "2026-10-04T23:45:07Z",
+      "status": "finished",
+      "team1_name": "Galorys",
+      "team2_name": "Turma do Pagode",
+      "winner_name": "Turma do Pagode"
+    },
+    {
+      "detail_fetched_at_utc": "2026-10-05T01:00:22Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -7446,7 +7446,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
     },
     {
-      "detail_fetched_at_utc": "2026-10-04T21:34:18Z",
+      "detail_fetched_at_utc": "2026-10-05T01:00:37Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -7481,7 +7481,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Lavked"
     },
     {
-      "detail_fetched_at_utc": "2026-10-04T21:34:24Z",
+      "detail_fetched_at_utc": "2026-10-05T01:00:43Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -7502,7 +7502,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
     },
     {
-      "detail_fetched_at_utc": "2026-10-04T21:34:30Z",
+      "detail_fetched_at_utc": "2026-10-05T01:00:49Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -7537,7 +7537,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "ex-Zero Tenacity"
     },
     {
-      "detail_fetched_at_utc": "2026-10-04T21:34:36Z",
+      "detail_fetched_at_utc": "2026-10-05T01:00:54Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -7572,9 +7572,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "TYLOO"
     },
     {
-      "event_id": "hltv:8244",
+      "detail_fetched_at_utc": "2026-10-05T01:01:00Z",
+      "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2398739",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "match_id": "hltv:2398739",
       "product_tier": "tier_1",
       "series_format": "bo3",
@@ -7583,7 +7589,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-05T16:30:00Z",
       "status": "live",
       "team1_name": "Vitality",
-      "team2_name": "Falcons"
+      "team2_name": "Falcons",
+      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 2-0 record). Winner advances to playoffs."
     },
     {
       "event_id": "hltv:8244",
@@ -8713,7 +8720,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398717/falcons-vs-tyloo-esl-pro-league-season-24",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-03T09:00:00Z",
+          "starts_at": "2026-10-03T10:50:25Z",
           "status": "finished",
           "team1_name": "Falcons",
           "team2_name": "TYLOO",
@@ -8737,7 +8744,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398718/legacy-vs-parivision-esl-pro-league-season-24",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-03T09:00:00Z",
+          "starts_at": "2026-10-03T11:46:26Z",
           "status": "finished",
           "team1_name": "Legacy",
           "team2_name": "PARIVISION",
@@ -8761,7 +8768,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398719/vitality-vs-1win-esl-pro-league-season-24",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-03T11:30:00Z",
+          "starts_at": "2026-10-03T12:59:53Z",
           "status": "finished",
           "team1_name": "Vitality",
           "team2_name": "1win",
@@ -9004,7 +9011,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398720/spirit-vs-shinden-esl-pro-league-season-24",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-03T11:30:00Z",
+          "starts_at": "2026-10-03T15:05:15Z",
           "status": "finished",
           "team1_name": "Spirit",
           "team2_name": "ShindeN",
@@ -9028,7 +9035,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398721/aurora-vs-9z-esl-pro-league-season-24",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-03T14:00:00Z",
+          "starts_at": "2026-10-03T15:45:18Z",
           "status": "finished",
           "team1_name": "Aurora",
           "team2_name": "9z",
@@ -9271,7 +9278,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398722/mouz-vs-m80-esl-pro-league-season-24",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-03T14:00:00Z",
+          "starts_at": "2026-10-03T17:07:50Z",
           "status": "finished",
           "team1_name": "MOUZ",
           "team2_name": "M80",
@@ -9289,7 +9296,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398723/g2-vs-natus-vincere-esl-pro-league-season-24",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-03T16:30:00Z",
+          "starts_at": "2026-10-03T18:16:37Z",
           "status": "finished",
           "team1_name": "G2",
           "team2_name": "Natus Vincere",
@@ -9306,7 +9313,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398724/furia-vs-betboom-esl-pro-league-season-24",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-03T16:30:00Z",
+          "starts_at": "2026-10-03T19:27:45Z",
           "status": "finished",
           "team1_name": "FURIA",
           "team2_name": "BETBOOM",
@@ -9700,7 +9707,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Vitality"
         },
         {
-          "detail_fetched_at_utc": "2026-10-04T21:34:02Z",
+          "detail_fetched_at_utc": "2026-10-05T01:00:22Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -9721,7 +9728,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
         },
         {
-          "detail_fetched_at_utc": "2026-10-04T21:34:18Z",
+          "detail_fetched_at_utc": "2026-10-05T01:00:37Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -9742,7 +9749,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated."
         },
         {
-          "detail_fetched_at_utc": "2026-10-04T21:34:24Z",
+          "detail_fetched_at_utc": "2026-10-05T01:00:43Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -9763,7 +9770,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
         },
         {
-          "detail_fetched_at_utc": "2026-10-04T21:34:30Z",
+          "detail_fetched_at_utc": "2026-10-05T01:00:49Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -9784,7 +9791,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
         },
         {
-          "detail_fetched_at_utc": "2026-10-04T21:34:36Z",
+          "detail_fetched_at_utc": "2026-10-05T01:00:54Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -9835,9 +9842,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team2_name": "TYLOO"
         },
         {
-          "event_id": "hltv:8244",
+          "detail_fetched_at_utc": "2026-10-05T01:01:00Z",
+          "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2398739",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "match_id": "hltv:2398739",
           "product_tier": "tier_1",
           "series_format": "bo3",
@@ -9846,7 +9859,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-05T16:30:00Z",
           "status": "live",
           "team1_name": "Vitality",
-          "team2_name": "Falcons"
+          "team2_name": "Falcons",
+          "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 2-0 record). Winner advances to playoffs."
         },
         {
           "event_id": "hltv:8244",
@@ -20282,13 +20296,17 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           ],
           "match_id": "hltv:2398597",
           "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2398597/galorys-vs-turma-do-pagode-cct-2026-south-america-series-6",
           "stage_name": "Scheduled series",
-          "status": "live",
+          "starts_at": "2026-10-04T23:45:07Z",
+          "status": "finished",
           "team1_name": "Galorys",
           "team2_name": "Turma do Pagode",
-          "veto_text": "Best of 3 (Online)\n\n* Grand final"
+          "veto_text": "Best of 3 (Online)\n\n* Grand final",
+          "winner_name": "Turma do Pagode"
         }
       ],
       "name": "CCT 2026 South America Series 6",
@@ -25739,7 +25757,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 12
     }
   ],
-  "last_verified_utc": "2026-10-04T21:34:36Z",
+  "last_verified_utc": "2026-10-05T01:01:00Z",
   "sources": [
     {
       "name": "HLTV events calendar",

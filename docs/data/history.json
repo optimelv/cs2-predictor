@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-04T21:34:36Z",
+  "generated_at_utc": "2026-10-05T01:01:00Z",
   "through_date": "2026-10-04",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3528,
+    "matches": 3537,
     "maps": 2670,
     "lineup_rows": 8620,
     "source_match_ids": 976
@@ -535,6 +535,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
+    },
+    {
+      "match_id": "hltv:2398597",
+      "match_date": "2026-10-04",
+      "event_name": "CCT 2026 South America Series 6",
+      "team1_name": "Galorys",
+      "team2_name": "Turma do Pagode",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Turma do Pagode",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "hltv:2398590",
@@ -1273,6 +1295,182 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
+    },
+    {
+      "match_id": "hltv:2398717",
+      "match_date": "2026-10-03",
+      "event_name": "ESL Pro League Season 24",
+      "team1_name": "Falcons",
+      "team2_name": "TYLOO",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398718",
+      "match_date": "2026-10-03",
+      "event_name": "ESL Pro League Season 24",
+      "team1_name": "Legacy",
+      "team2_name": "PARIVISION",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "PARIVISION",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398719",
+      "match_date": "2026-10-03",
+      "event_name": "ESL Pro League Season 24",
+      "team1_name": "Vitality",
+      "team2_name": "1win",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Vitality",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398720",
+      "match_date": "2026-10-03",
+      "event_name": "ESL Pro League Season 24",
+      "team1_name": "Spirit",
+      "team2_name": "ShindeN",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398721",
+      "match_date": "2026-10-03",
+      "event_name": "ESL Pro League Season 24",
+      "team1_name": "Aurora",
+      "team2_name": "9z",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Aurora",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398722",
+      "match_date": "2026-10-03",
+      "event_name": "ESL Pro League Season 24",
+      "team1_name": "MOUZ",
+      "team2_name": "M80",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398723",
+      "match_date": "2026-10-03",
+      "event_name": "ESL Pro League Season 24",
+      "team1_name": "G2",
+      "team2_name": "Natus Vincere",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Natus Vincere",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398724",
+      "match_date": "2026-10-03",
+      "event_name": "ESL Pro League Season 24",
+      "team1_name": "FURIA",
+      "team2_name": "BETBOOM",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "hltv:2398382",
