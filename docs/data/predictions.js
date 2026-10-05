@@ -7482,7 +7482,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Lavked"
       },
       {
-        "detail_fetched_at_utc": "2026-10-05T01:00:43Z",
+        "detail_fetched_at_utc": "2026-10-05T07:00:04Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -7503,7 +7503,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
       },
       {
-        "detail_fetched_at_utc": "2026-10-05T01:00:49Z",
+        "detail_fetched_at_utc": "2026-10-05T07:02:05Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -7538,7 +7538,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "ex-Zero Tenacity"
       },
       {
-        "detail_fetched_at_utc": "2026-10-05T01:00:54Z",
+        "detail_fetched_at_utc": "2026-10-05T07:03:34Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -7573,7 +7573,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "TYLOO"
       },
       {
-        "detail_fetched_at_utc": "2026-10-05T01:01:00Z",
+        "detail_fetched_at_utc": "2026-10-05T07:05:41Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -9750,7 +9750,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated."
           },
           {
-            "detail_fetched_at_utc": "2026-10-05T01:00:43Z",
+            "detail_fetched_at_utc": "2026-10-05T07:00:04Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -9771,7 +9771,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
           },
           {
-            "detail_fetched_at_utc": "2026-10-05T01:00:49Z",
+            "detail_fetched_at_utc": "2026-10-05T07:02:05Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -9792,7 +9792,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
           },
           {
-            "detail_fetched_at_utc": "2026-10-05T01:00:54Z",
+            "detail_fetched_at_utc": "2026-10-05T07:03:34Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -9843,7 +9843,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "team2_name": "TYLOO"
           },
           {
-            "detail_fetched_at_utc": "2026-10-05T01:01:00Z",
+            "detail_fetched_at_utc": "2026-10-05T07:05:41Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -25758,7 +25758,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 12
       }
     ],
-    "last_verified_utc": "2026-10-05T01:01:00Z",
+    "last_verified_utc": "2026-10-05T07:05:42Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -26196,7 +26196,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-05T01:01:31Z",
+  "generated_at_utc": "2026-10-05T07:08:51Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -27753,7 +27753,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-05T01:01:31Z",
+    "generated_at_utc": "2026-10-05T07:08:50Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -37833,86 +37833,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5833,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4167,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-05",
-      "match_id": "hltv:2398733",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791190800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "FURIA",
-      "prob_team1": 0.4167,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398733/parivision-vs-furia-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-05T09:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "PARIVISION",
-      "team1_vrs_rank": 14,
-      "team2_hltv_rank": null,
-      "team2_name": "FURIA",
-      "team2_vrs_rank": 11
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7988,
-      "confidence_label": "strong",
-      "data_quality": "full",
-      "elo_prob_team1": 0.2012,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-05",
-      "match_id": "hltv:2398734",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791190800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "G2",
-      "prob_team1": 0.2012,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398734/shinden-vs-g2-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-05T09:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "ShindeN",
-      "team1_vrs_rank": 59,
-      "team2_hltv_rank": null,
-      "team2_name": "G2",
-      "team2_vrs_rank": 13
-    },
-    {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5207,
@@ -38737,12 +38657,86 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Falcons Force",
       "team2_vrs_rank": 159
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5105,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5105,
+      "event_id": "hltv:9318",
+      "event_name": "Roman Imperium Cup IX",
+      "format": "bo1",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399024",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791378000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "SINQU",
+      "prob_team1": 0.5105,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo1",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399024/sinqu-vs-orion-wanderers-roman-imperium-cup-ix",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T13:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "SINQU",
+      "team1_vrs_rank": 307,
+      "team2_hltv_rank": null,
+      "team2_name": "Orion Wanderers",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5881,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4119,
+      "event_id": "hltv:9318",
+      "event_name": "Roman Imperium Cup IX",
+      "format": "bo1",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399025",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791385200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "NAVI Junior",
+      "prob_team1": 0.4119,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo1",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399025/saw-vs-navi-junior-roman-imperium-cup-ix",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T15:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "SAW",
+      "team1_vrs_rank": 250,
+      "team2_hltv_rank": null,
+      "team2_name": "NAVI Junior",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 77,
-    "online_results_applied": 9,
+    "live_feed_items": 74,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

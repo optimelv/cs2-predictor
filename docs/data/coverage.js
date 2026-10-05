@@ -7481,7 +7481,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Lavked"
     },
     {
-      "detail_fetched_at_utc": "2026-10-05T01:00:43Z",
+      "detail_fetched_at_utc": "2026-10-05T07:00:04Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -7502,7 +7502,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
     },
     {
-      "detail_fetched_at_utc": "2026-10-05T01:00:49Z",
+      "detail_fetched_at_utc": "2026-10-05T07:02:05Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -7537,7 +7537,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "ex-Zero Tenacity"
     },
     {
-      "detail_fetched_at_utc": "2026-10-05T01:00:54Z",
+      "detail_fetched_at_utc": "2026-10-05T07:03:34Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -7572,7 +7572,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "TYLOO"
     },
     {
-      "detail_fetched_at_utc": "2026-10-05T01:01:00Z",
+      "detail_fetched_at_utc": "2026-10-05T07:05:41Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -9749,7 +9749,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated."
         },
         {
-          "detail_fetched_at_utc": "2026-10-05T01:00:43Z",
+          "detail_fetched_at_utc": "2026-10-05T07:00:04Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -9770,7 +9770,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
         },
         {
-          "detail_fetched_at_utc": "2026-10-05T01:00:49Z",
+          "detail_fetched_at_utc": "2026-10-05T07:02:05Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -9791,7 +9791,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)"
         },
         {
-          "detail_fetched_at_utc": "2026-10-05T01:00:54Z",
+          "detail_fetched_at_utc": "2026-10-05T07:03:34Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -9842,7 +9842,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team2_name": "TYLOO"
         },
         {
-          "detail_fetched_at_utc": "2026-10-05T01:01:00Z",
+          "detail_fetched_at_utc": "2026-10-05T07:05:41Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -25757,7 +25757,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 12
     }
   ],
-  "last_verified_utc": "2026-10-05T01:01:00Z",
+  "last_verified_utc": "2026-10-05T07:05:42Z",
   "sources": [
     {
       "name": "HLTV events calendar",
