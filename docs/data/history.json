@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3539,
+    "matches": 3541,
     "maps": 2670,
     "lineup_rows": 8620,
     "source_match_ids": 976
@@ -557,6 +557,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:05439cdaba44c0788ef3",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T18:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Playoffs",
+      "team1_name": "BH",
+      "team2_name": "TDP",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "TDP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:472be8efef16f730e73d",
+      "match_date": "2026-10-04",
+      "starts_at": "2026-10-04T21:00:00Z",
+      "event_name": "CCT SA 2026 Series #6 - Playoffs",
+      "team1_name": "Galorys",
+      "team2_name": "TDP",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "TDP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
     },
     {
       "match_id": "hltv:2398590",
