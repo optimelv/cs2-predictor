@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3537,
+    "matches": 3539,
     "maps": 2670,
     "lineup_rows": 8620,
     "source_match_ids": 976
@@ -9303,6 +9303,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/StarLadder/StarSeries/2026/Fall#Results"
+    },
+    {
+      "match_id": "liquipedia:8a5220a163b9dc147da1",
+      "match_date": "2026-09-20",
+      "starts_at": "2026-09-20T17:00:00Z",
+      "event_name": "NODWIN Clutch Series #12 - Round 3",
+      "team1_name": "INOX",
+      "team2_name": "SPARTA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/12#Round_3"
     },
     {
       "match_id": "hltv:2397819",
@@ -56951,6 +56973,28 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "ARC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/9#Round_2"
+    },
+    {
+      "match_id": "liquipedia:660a3540fe0be9e02293",
+      "match_date": "2026-06-06",
+      "starts_at": "2026-06-06T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #9 - Round 2",
+      "team1_name": "Apogee",
+      "team2_name": "INOX",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "INOX",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
