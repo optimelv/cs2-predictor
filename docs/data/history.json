@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3554,
+    "matches": 3560,
     "maps": 2673,
     "lineup_rows": 8630,
     "source_match_ids": 976
@@ -156,6 +156,138 @@
           "l0gicman"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:a28e5c64689f116b4161",
+      "match_date": "2026-10-05",
+      "starts_at": "2026-10-05T11:30:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 3",
+      "team1_name": "1w",
+      "team2_name": "Legacy",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "1w",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
+    },
+    {
+      "match_id": "liquipedia:0934e2dfc245fb7d2440",
+      "match_date": "2026-10-05",
+      "starts_at": "2026-10-05T12:20:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 3",
+      "team1_name": "9z",
+      "team2_name": "NAVI",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NAVI",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
+    },
+    {
+      "match_id": "liquipedia:773bbce275939983fe89",
+      "match_date": "2026-10-05",
+      "starts_at": "2026-10-05T14:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 3",
+      "team1_name": "M80",
+      "team2_name": "TYLOO",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "M80",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
+    },
+    {
+      "match_id": "liquipedia:036f8ed98dd35a49919f",
+      "match_date": "2026-10-05",
+      "starts_at": "2026-10-05T14:25:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 3",
+      "team1_name": "MOUZ",
+      "team2_name": "Spirit",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
+    },
+    {
+      "match_id": "liquipedia:fdb3203d1ffee86b6418",
+      "match_date": "2026-10-05",
+      "starts_at": "2026-10-05T16:30:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 3",
+      "team1_name": "Falcons",
+      "team2_name": "Vitality",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Vitality",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
+    },
+    {
+      "match_id": "liquipedia:ba14eed967b8a62bcde0",
+      "match_date": "2026-10-05",
+      "starts_at": "2026-10-05T17:20:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 3",
+      "team1_name": "Aurora",
+      "team2_name": "BB",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Aurora",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
     },
     {
       "match_id": "hltv:2398594",
