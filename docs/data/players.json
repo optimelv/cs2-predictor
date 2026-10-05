@@ -234,7 +234,7 @@
     },
     {
       "player_id": "hltv:11893",
-      "hltv_player_id": 11893,
+      "hltv_player_id": "11893",
       "nickname": "ZywOo",
       "real_name": "Mathieu Herbaut",
       "team_name": "Vitality",
@@ -2036,7 +2036,7 @@
     },
     {
       "player_id": "hltv:16693",
-      "hltv_player_id": 16693,
+      "hltv_player_id": "16693",
       "nickname": "flameZ",
       "real_name": "Shahar Shushan",
       "team_name": "Vitality",
@@ -2702,7 +2702,7 @@
     },
     {
       "player_id": "hltv:11816",
-      "hltv_player_id": 11816,
+      "hltv_player_id": "11816",
       "nickname": "ropz",
       "real_name": "Robin Kool",
       "team_name": "Vitality",
@@ -8298,7 +8298,7 @@
     },
     {
       "player_id": "hltv:18462",
-      "hltv_player_id": 18462,
+      "hltv_player_id": "18462",
       "nickname": "mezii",
       "real_name": "William Merriman",
       "team_name": "Vitality",
@@ -10756,7 +10756,7 @@
     },
     {
       "player_id": "hltv:7322",
-      "hltv_player_id": 7322,
+      "hltv_player_id": "7322",
       "nickname": "apEX",
       "real_name": "Dan Madesclaire",
       "team_name": "Vitality",
@@ -20294,71 +20294,321 @@
       "player_id": "hltv:25890",
       "nickname": "oyesil",
       "team_name": "PCIFIC",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.65,
+      "maps_3m": 3,
+      "signal_index": 15,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "Black Phoenix",
+          "team_name": "PCIFIC",
+          "won": false,
+          "kills": 8,
+          "deaths": 15,
+          "kd_ratio": 0.53,
+          "adr": 51.2,
+          "kast": 47.1,
+          "rating": 0.65,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "25890",
       "source_url": "https://www.hltv.org/player/25890/oyesil",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "PCIFIC",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-05",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.65,
+          "average_adr": 51.2
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398395",
+        "date": "2026-10-05",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "Black Phoenix",
+        "team_name": "PCIFIC",
+        "won": false,
+        "kills": 8,
+        "deaths": 15,
+        "kd_ratio": 0.53,
+        "adr": 51.2,
+        "kast": 47.1,
+        "rating": 0.65,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.65,
+        "average_adr": 51.2,
+        "recent_rating": 0.65,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23274",
       "nickname": "lugseN",
       "team_name": "PCIFIC",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.96,
+      "maps_3m": 3,
+      "signal_index": 46,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "Black Phoenix",
+          "team_name": "PCIFIC",
+          "won": false,
+          "kills": 10,
+          "deaths": 13,
+          "kd_ratio": 0.77,
+          "adr": 70.1,
+          "kast": 64.7,
+          "rating": 0.96,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "23274",
       "source_url": "https://www.hltv.org/player/23274/lugsen",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "PCIFIC",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-05",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.96,
+          "average_adr": 70.1
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398395",
+        "date": "2026-10-05",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "Black Phoenix",
+        "team_name": "PCIFIC",
+        "won": false,
+        "kills": 10,
+        "deaths": 13,
+        "kd_ratio": 0.77,
+        "adr": 70.1,
+        "kast": 64.7,
+        "rating": 0.96,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.96,
+        "average_adr": 70.1,
+        "recent_rating": 0.96,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:22504",
       "nickname": "scolleN",
       "team_name": "PCIFIC",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.94,
+      "maps_3m": 3,
+      "signal_index": 44,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "Black Phoenix",
+          "team_name": "PCIFIC",
+          "won": false,
+          "kills": 10,
+          "deaths": 13,
+          "kd_ratio": 0.77,
+          "adr": 68.8,
+          "kast": 70.6,
+          "rating": 0.94,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "22504",
       "source_url": "https://www.hltv.org/player/22504/scollen",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "PCIFIC",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-05",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.94,
+          "average_adr": 68.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398395",
+        "date": "2026-10-05",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "Black Phoenix",
+        "team_name": "PCIFIC",
+        "won": false,
+        "kills": 10,
+        "deaths": 13,
+        "kd_ratio": 0.77,
+        "adr": 68.8,
+        "kast": 70.6,
+        "rating": 0.94,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.94,
+        "average_adr": 68.8,
+        "recent_rating": 0.94,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:21250",
       "nickname": "jresy",
       "team_name": "PCIFIC",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.08,
+      "maps_3m": 3,
+      "signal_index": 58,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "Black Phoenix",
+          "team_name": "PCIFIC",
+          "won": false,
+          "kills": 11,
+          "deaths": 14,
+          "kd_ratio": 0.79,
+          "adr": 92.1,
+          "kast": 70.6,
+          "rating": 1.08,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "21250",
       "source_url": "https://www.hltv.org/player/21250/jresy",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "PCIFIC",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-05",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.08,
+          "average_adr": 92.1
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398395",
+        "date": "2026-10-05",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "Black Phoenix",
+        "team_name": "PCIFIC",
+        "won": false,
+        "kills": 11,
+        "deaths": 14,
+        "kd_ratio": 0.79,
+        "adr": 92.1,
+        "kast": 70.6,
+        "rating": 1.08,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.08,
+        "average_adr": 92.1,
+        "recent_rating": 1.08,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:15728",
       "nickname": "l0gicman",
       "team_name": "PCIFIC",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.37,
+      "maps_3m": 3,
+      "signal_index": 0,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "Black Phoenix",
+          "team_name": "PCIFIC",
+          "won": false,
+          "kills": 6,
+          "deaths": 15,
+          "kd_ratio": 0.4,
+          "adr": 37.8,
+          "kast": 41.2,
+          "rating": 0.37,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "15728",
       "source_url": "https://www.hltv.org/player/15728/l0gicman",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "PCIFIC",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-05",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.37,
+          "average_adr": 37.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398395",
+        "date": "2026-10-05",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "Black Phoenix",
+        "team_name": "PCIFIC",
+        "won": false,
+        "kills": 6,
+        "deaths": 15,
+        "kd_ratio": 0.4,
+        "adr": 37.8,
+        "kast": 41.2,
+        "rating": 0.37,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.37,
+        "average_adr": 37.8,
+        "recent_rating": 0.37,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24105",
@@ -21545,11 +21795,401 @@
       "source_url": "https://www.hltv.org/player/20252/kind0",
       "map_profile": [],
       "roster_eras": []
+    },
+    {
+      "player_id": "hltv:22676",
+      "nickname": "karnez",
+      "team_name": "Black Phoenix",
+      "rating_3_0": 2.01,
+      "maps_3m": 3,
+      "signal_index": 100,
+      "traits": {},
+      "hltv_player_id": "22676",
+      "source_url": "https://www.hltv.org/player/22676/karnez",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "PCIFIC",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 19,
+          "deaths": 7,
+          "kd_ratio": 2.71,
+          "adr": 114.5,
+          "kast": 82.4,
+          "rating": 2.01,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398395",
+        "date": "2026-10-05",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "PCIFIC",
+        "team_name": "Black Phoenix",
+        "won": true,
+        "kills": 19,
+        "deaths": 7,
+        "kd_ratio": 2.71,
+        "adr": 114.5,
+        "kast": 82.4,
+        "rating": 2.01,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 2.01,
+        "average_adr": 114.5,
+        "recent_rating": 2.01,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Black Phoenix",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-05",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 2.01,
+          "average_adr": 114.5
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:24326",
+      "nickname": "topo",
+      "team_name": "Black Phoenix",
+      "rating_3_0": 1.47,
+      "maps_3m": 3,
+      "signal_index": 97,
+      "traits": {},
+      "hltv_player_id": "24326",
+      "source_url": "https://www.hltv.org/player/24326/topo",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "PCIFIC",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 16,
+          "deaths": 10,
+          "kd_ratio": 1.6,
+          "adr": 101.7,
+          "kast": 88.2,
+          "rating": 1.47,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398395",
+        "date": "2026-10-05",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "PCIFIC",
+        "team_name": "Black Phoenix",
+        "won": true,
+        "kills": 16,
+        "deaths": 10,
+        "kd_ratio": 1.6,
+        "adr": 101.7,
+        "kast": 88.2,
+        "rating": 1.47,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.47,
+        "average_adr": 101.7,
+        "recent_rating": 1.47,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Black Phoenix",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-05",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.47,
+          "average_adr": 101.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:24824",
+      "nickname": "MRcreed",
+      "team_name": "Black Phoenix",
+      "rating_3_0": 1.46,
+      "maps_3m": 3,
+      "signal_index": 96,
+      "traits": {},
+      "hltv_player_id": "24824",
+      "source_url": "https://www.hltv.org/player/24824/mrcreed",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "PCIFIC",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 16,
+          "deaths": 11,
+          "kd_ratio": 1.45,
+          "adr": 93.1,
+          "kast": 76.5,
+          "rating": 1.46,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398395",
+        "date": "2026-10-05",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "PCIFIC",
+        "team_name": "Black Phoenix",
+        "won": true,
+        "kills": 16,
+        "deaths": 11,
+        "kd_ratio": 1.45,
+        "adr": 93.1,
+        "kast": 76.5,
+        "rating": 1.46,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.46,
+        "average_adr": 93.1,
+        "recent_rating": 1.46,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Black Phoenix",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-05",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.46,
+          "average_adr": 93.1
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25349",
+      "nickname": "Salazar",
+      "team_name": "Black Phoenix",
+      "rating_3_0": 0.97,
+      "maps_3m": 3,
+      "signal_index": 47,
+      "traits": {},
+      "hltv_player_id": "25349",
+      "source_url": "https://www.hltv.org/player/25349/salazar",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "PCIFIC",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 10,
+          "deaths": 7,
+          "kd_ratio": 1.43,
+          "adr": 42.9,
+          "kast": 82.4,
+          "rating": 0.97,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398395",
+        "date": "2026-10-05",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "PCIFIC",
+        "team_name": "Black Phoenix",
+        "won": true,
+        "kills": 10,
+        "deaths": 7,
+        "kd_ratio": 1.43,
+        "adr": 42.9,
+        "kast": 82.4,
+        "rating": 0.97,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.97,
+        "average_adr": 42.9,
+        "recent_rating": 0.97,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Black Phoenix",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-05",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.97,
+          "average_adr": 42.9
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:21513",
+      "nickname": "4X1s",
+      "team_name": "Black Phoenix",
+      "rating_3_0": 0.94,
+      "maps_3m": 3,
+      "signal_index": 44,
+      "traits": {},
+      "hltv_player_id": "21513",
+      "source_url": "https://www.hltv.org/player/21513/4x1s",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "PCIFIC",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 8,
+          "deaths": 12,
+          "kd_ratio": 0.67,
+          "adr": 73.6,
+          "kast": 76.5,
+          "rating": 0.94,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398395",
+        "date": "2026-10-05",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "PCIFIC",
+        "team_name": "Black Phoenix",
+        "won": true,
+        "kills": 8,
+        "deaths": 12,
+        "kd_ratio": 0.67,
+        "adr": 73.6,
+        "kast": 76.5,
+        "rating": 0.94,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.94,
+        "average_adr": 73.6,
+        "recent_rating": 0.94,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Black Phoenix",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-05",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.94,
+          "average_adr": 73.6
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:21062",
+      "nickname": "MATYS",
+      "team_name": "G2",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "21062",
+      "source_url": "https://www.hltv.org/player/21062/matys",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:9436",
+      "nickname": "NertZ",
+      "team_name": "G2",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "9436",
+      "source_url": "https://www.hltv.org/player/9436/nertz",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:20425",
+      "nickname": "r1nkle",
+      "team_name": "G2",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "20425",
+      "source_url": "https://www.hltv.org/player/20425/r1nkle",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:3972",
+      "nickname": "huNter-",
+      "team_name": "G2",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "3972",
+      "source_url": "https://www.hltv.org/player/3972/hunter",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:20447",
+      "nickname": "HeavyGod",
+      "team_name": "G2",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "20447",
+      "source_url": "https://www.hltv.org/player/20447/heavygod",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-05T16:07:52Z",
+  "lineups_updated_at_utc": "2026-10-05T22:35:52Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-04",
+  "history_through_date": "2026-10-05",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
