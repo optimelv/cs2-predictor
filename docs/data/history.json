@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3542,
+    "matches": 3544,
     "maps": 2670,
     "lineup_rows": 8620,
     "source_match_ids": 976
@@ -34,6 +34,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:378a0443dda381d05067",
+      "match_date": "2026-10-05",
+      "starts_at": "2026-10-05T09:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 3",
+      "team1_name": "G2",
+      "team2_name": "ShindeN",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "G2",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
+    },
+    {
+      "match_id": "liquipedia:8e559e9a1470fbfd8eee",
+      "match_date": "2026-10-05",
+      "starts_at": "2026-10-05T09:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 3",
+      "team1_name": "FURIA",
+      "team2_name": "PV",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
     },
     {
       "match_id": "hltv:2398594",

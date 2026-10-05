@@ -2090,5 +2090,15 @@
     "name": "Glitch",
     "logo_url": "https://liquipedia.net/commons/images/thumb/e/ee/Glitch_Agency_lightmode.png/52px-Glitch_Agency_lightmode.png",
     "source": "Liquipedia"
+  },
+  "prestige a": {
+    "name": "Prestige.A",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/84/Prestige_Esport_2026_allmode.png/39px-Prestige_Esport_2026_allmode.png",
+    "source": "Liquipedia"
+  },
+  "wbt acad": {
+    "name": "WBT Acad.",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/WhiteBit_Academy_allmode.png/52px-WhiteBit_Academy_allmode.png",
+    "source": "Liquipedia"
   }
 }
