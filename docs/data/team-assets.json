@@ -2100,5 +2100,15 @@
     "name": "WBT Acad.",
     "logo_url": "https://liquipedia.net/commons/images/thumb/8/83/WhiteBit_Academy_allmode.png/52px-WhiteBit_Academy_allmode.png",
     "source": "Liquipedia"
+  },
+  "mc": {
+    "name": "MC",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/72/Magic_Cape_2025_allmode.png/50px-Magic_Cape_2025_allmode.png",
+    "source": "Liquipedia"
+  },
+  "atlantis": {
+    "name": "Atlantis",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a1/Atlantis_Esports_lightmode.png/36px-Atlantis_Esports_lightmode.png",
+    "source": "Liquipedia"
   }
 }
