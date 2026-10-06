@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3565,
+    "matches": 3570,
     "maps": 2676,
     "lineup_rows": 8640,
     "source_match_ids": 976
@@ -112,6 +112,116 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:65aae137d86cd6709629",
+      "match_date": "2026-10-06",
+      "starts_at": "2026-10-06T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 5",
+      "team1_name": "ex-Z10",
+      "team2_name": "MASON",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-Z10",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_5"
+    },
+    {
+      "match_id": "liquipedia:a6becc58cc31f6ef2e64",
+      "match_date": "2026-10-06",
+      "starts_at": "2026-10-06T12:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 4",
+      "team1_name": "1w",
+      "team2_name": "Spirit",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "1w",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_4"
+    },
+    {
+      "match_id": "liquipedia:d923d52723257666287a",
+      "match_date": "2026-10-06",
+      "starts_at": "2026-10-06T12:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 4",
+      "team1_name": "G2",
+      "team2_name": "PV",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "PV",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_4"
+    },
+    {
+      "match_id": "liquipedia:cfded15a3bff281a21e8",
+      "match_date": "2026-10-06",
+      "starts_at": "2026-10-06T14:30:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 4",
+      "team1_name": "9z",
+      "team2_name": "BB",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_4"
+    },
+    {
+      "match_id": "liquipedia:8685ce4e591b1777a265",
+      "match_date": "2026-10-06",
+      "starts_at": "2026-10-06T15:40:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 4",
+      "team1_name": "Aurora",
+      "team2_name": "FURIA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Aurora",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_4"
     },
     {
       "match_id": "hltv:2398393",
