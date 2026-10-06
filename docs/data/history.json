@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3560,
+    "matches": 3562,
     "maps": 2673,
     "lineup_rows": 8630,
     "source_match_ids": 976
@@ -288,6 +288,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
+    },
+    {
+      "match_id": "liquipedia:571bdb2c906f8dda3b43",
+      "match_date": "2026-10-05",
+      "starts_at": "2026-10-05T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 4",
+      "team1_name": "ex-Z10",
+      "team2_name": "Leo",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Leo",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_4"
+    },
+    {
+      "match_id": "liquipedia:fbf0a911043c73c3334e",
+      "match_date": "2026-10-05",
+      "starts_at": "2026-10-05T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Round 4",
+      "team1_name": "Phoenix",
+      "team2_name": "W.PCF",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_4"
     },
     {
       "match_id": "hltv:2398594",
