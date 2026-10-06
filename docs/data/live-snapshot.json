@@ -1,14 +1,14 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-10-06T03:02:44Z",
+  "fetched_at_utc": "2026-10-06T10:21:44Z",
   "poll_after_ms": 180000,
   "events": [
     {
       "id": "hltv:esl-pro-league-season-24",
       "name": "ESL Pro League Season 24",
       "source_url": null,
-      "status": "ongoing",
+      "status": "finished",
       "product_tier": "tier_1",
       "participants": [
         "Legacy",
@@ -313,94 +313,6 @@
           "score2": 0,
           "winner_name": "BETBOOM",
           "maps": []
-        },
-        {
-          "match_id": "hltv:2398741",
-          "hltv_match_id": "2398741",
-          "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
-          "event_id": "hltv:esl-pro-league-season-24",
-          "event_name": "ESL Pro League Season 24",
-          "product_tier": "tier_1",
-          "event_url": "https://www.hltv.org/events/archive",
-          "team1_name": "G2",
-          "team2_name": "PARIVISION",
-          "starts_at": "2026-10-06T12:00:00Z",
-          "stage_name": "Scheduled series",
-          "series_format": "bo3",
-          "status": "live",
-          "maps": [],
-          "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated.",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "detail_fetched_at_utc": "2026-10-06T03:00:35Z"
-        },
-        {
-          "match_id": "hltv:2398742",
-          "hltv_match_id": "2398742",
-          "source_url": "https://www.hltv.org/matches/2398742/spirit-vs-1win-esl-pro-league-season-24",
-          "event_id": "hltv:esl-pro-league-season-24",
-          "event_name": "ESL Pro League Season 24",
-          "product_tier": "tier_1",
-          "event_url": "https://www.hltv.org/events/archive",
-          "team1_name": "Spirit",
-          "team2_name": "1win",
-          "starts_at": "2026-10-06T12:00:00Z",
-          "stage_name": "Scheduled series",
-          "series_format": "bo3",
-          "status": "live",
-          "maps": [],
-          "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "detail_fetched_at_utc": "2026-10-06T03:01:11Z"
-        },
-        {
-          "match_id": "hltv:2398743",
-          "hltv_match_id": "2398743",
-          "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
-          "event_id": "hltv:esl-pro-league-season-24",
-          "event_name": "ESL Pro League Season 24",
-          "product_tier": "tier_1",
-          "event_url": "https://www.hltv.org/events/archive",
-          "team1_name": "FURIA",
-          "team2_name": "Aurora",
-          "starts_at": "2026-10-06T14:30:00Z",
-          "stage_name": "Scheduled series",
-          "series_format": "bo3",
-          "status": "live",
-          "maps": [],
-          "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "detail_fetched_at_utc": "2026-10-06T03:01:54Z"
-        },
-        {
-          "match_id": "hltv:2398744",
-          "hltv_match_id": "2398744",
-          "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
-          "event_id": "hltv:esl-pro-league-season-24",
-          "event_name": "ESL Pro League Season 24",
-          "product_tier": "tier_1",
-          "event_url": "https://www.hltv.org/events/archive",
-          "team1_name": "9z",
-          "team2_name": "BETBOOM",
-          "starts_at": "2026-10-06T14:30:00Z",
-          "stage_name": "Scheduled series",
-          "series_format": "bo3",
-          "status": "live",
-          "maps": [],
-          "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated.",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "detail_fetched_at_utc": "2026-10-06T03:02:44Z"
         },
         {
           "match_id": "hltv:2398740",
@@ -1561,7 +1473,7 @@
       "id": "hltv:cct-2026-europe-series-10",
       "name": "CCT 2026 Europe Series 10",
       "source_url": null,
-      "status": "finished",
+      "status": "upcoming",
       "product_tier": "tier_2",
       "participants": [
         "Leo",
@@ -2123,6 +2035,28 @@
             }
           ],
           "detail_fetched_at_utc": "2026-10-05T19:00:43Z"
+        },
+        {
+          "match_id": "hltv:2398396",
+          "hltv_match_id": "2398396",
+          "source_url": "https://www.hltv.org/matches/2398396/masonic-vs-ex-zero-tenacity-cct-2026-europe-series-10",
+          "event_id": "hltv:cct-2026-europe-series-10",
+          "event_name": "CCT 2026 Europe Series 10",
+          "product_tier": "tier_2",
+          "event_url": "https://www.hltv.org/events/archive",
+          "team1_name": "MASONIC",
+          "team2_name": "ex-Zero Tenacity",
+          "starts_at": "2026-10-06T11:00:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "upcoming",
+          "maps": [],
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated.",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "detail_fetched_at_utc": "2026-10-06T10:12:18Z"
         }
       ],
       "format": {
@@ -2299,30 +2233,12 @@
       "status": "upcoming",
       "product_tier": "tier_2",
       "participants": [
-        "MASONIC",
-        "ex-Zero Tenacity",
         "Butterfly",
         "ex-RUSTEC",
         "PCIFIC",
         "Lavked"
       ],
       "matches": [
-        {
-          "match_id": "hltv:2398396",
-          "hltv_match_id": "2398396",
-          "source_url": "https://www.hltv.org/matches/2398396/masonic-vs-ex-zero-tenacity-cct-2026-europe-series-10",
-          "event_id": "hltv:9420",
-          "event_name": "CCT 2026 Europe Series 10",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "MASONIC",
-          "team2_name": "ex-Zero Tenacity",
-          "starts_at": "2026-10-06T11:00:00Z",
-          "stage_name": "Scheduled series",
-          "series_format": "bo3",
-          "status": "upcoming",
-          "maps": []
-        },
         {
           "match_id": "hltv:2398397",
           "hltv_match_id": "2398397",
@@ -2371,10 +2287,46 @@
       "status": "ongoing",
       "product_tier": "tier_1",
       "participants": [
+        "FURIA",
+        "Aurora",
+        "9z",
+        "BETBOOM",
         "Falcons",
         "Natus Vincere"
       ],
       "matches": [
+        {
+          "match_id": "hltv:2398743",
+          "hltv_match_id": "2398743",
+          "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
+          "event_id": "hltv:8244",
+          "event_name": "ESL Pro League Season 24",
+          "product_tier": "tier_1",
+          "event_url": null,
+          "team1_name": "FURIA",
+          "team2_name": "Aurora",
+          "starts_at": "2026-10-06T14:30:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "live",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2398744",
+          "hltv_match_id": "2398744",
+          "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
+          "event_id": "hltv:8244",
+          "event_name": "ESL Pro League Season 24",
+          "product_tier": "tier_1",
+          "event_url": null,
+          "team1_name": "9z",
+          "team2_name": "BETBOOM",
+          "starts_at": "2026-10-06T14:30:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "live",
+          "maps": []
+        },
         {
           "match_id": "hltv:2398745",
           "hltv_match_id": "2398745",
@@ -4459,61 +4411,23 @@
       "match_id": "hltv:2398396",
       "hltv_match_id": "2398396",
       "source_url": "https://www.hltv.org/matches/2398396/masonic-vs-ex-zero-tenacity-cct-2026-europe-series-10",
-      "event_id": "hltv:9420",
+      "event_id": "hltv:cct-2026-europe-series-10",
       "event_name": "CCT 2026 Europe Series 10",
       "product_tier": "tier_2",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "team1_name": "MASONIC",
       "team2_name": "ex-Zero Tenacity",
       "starts_at": "2026-10-06T11:00:00Z",
       "stage_name": "Scheduled series",
       "series_format": "bo3",
       "status": "upcoming",
-      "maps": []
-    },
-    {
-      "match_id": "hltv:2398741",
-      "hltv_match_id": "2398741",
-      "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "product_tier": "tier_1",
-      "event_url": "https://www.hltv.org/events/archive",
-      "team1_name": "G2",
-      "team2_name": "PARIVISION",
-      "starts_at": "2026-10-06T12:00:00Z",
-      "stage_name": "Scheduled series",
-      "series_format": "bo3",
-      "status": "live",
       "maps": [],
-      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated.",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated.",
       "lineups": {
         "team1": [],
         "team2": []
       },
-      "detail_fetched_at_utc": "2026-10-06T03:00:35Z"
-    },
-    {
-      "match_id": "hltv:2398742",
-      "hltv_match_id": "2398742",
-      "source_url": "https://www.hltv.org/matches/2398742/spirit-vs-1win-esl-pro-league-season-24",
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "product_tier": "tier_1",
-      "event_url": "https://www.hltv.org/events/archive",
-      "team1_name": "Spirit",
-      "team2_name": "1win",
-      "starts_at": "2026-10-06T12:00:00Z",
-      "stage_name": "Scheduled series",
-      "series_format": "bo3",
-      "status": "live",
-      "maps": [],
-      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "detail_fetched_at_utc": "2026-10-06T03:01:11Z"
+      "detail_fetched_at_utc": "2026-10-06T10:12:18Z"
     },
     {
       "match_id": "hltv:2398397",
@@ -4535,45 +4449,33 @@
       "match_id": "hltv:2398743",
       "hltv_match_id": "2398743",
       "source_url": "https://www.hltv.org/matches/2398743/furia-vs-aurora-esl-pro-league-season-24",
-      "event_id": "hltv:esl-pro-league-season-24",
+      "event_id": "hltv:8244",
       "event_name": "ESL Pro League Season 24",
       "product_tier": "tier_1",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "team1_name": "FURIA",
       "team2_name": "Aurora",
       "starts_at": "2026-10-06T14:30:00Z",
       "stage_name": "Scheduled series",
       "series_format": "bo3",
       "status": "live",
-      "maps": [],
-      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "detail_fetched_at_utc": "2026-10-06T03:01:54Z"
+      "maps": []
     },
     {
       "match_id": "hltv:2398744",
       "hltv_match_id": "2398744",
       "source_url": "https://www.hltv.org/matches/2398744/9z-vs-betboom-esl-pro-league-season-24",
-      "event_id": "hltv:esl-pro-league-season-24",
+      "event_id": "hltv:8244",
       "event_name": "ESL Pro League Season 24",
       "product_tier": "tier_1",
-      "event_url": "https://www.hltv.org/events/archive",
+      "event_url": null,
       "team1_name": "9z",
       "team2_name": "BETBOOM",
       "starts_at": "2026-10-06T14:30:00Z",
       "stage_name": "Scheduled series",
       "series_format": "bo3",
       "status": "live",
-      "maps": [],
-      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated.",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "detail_fetched_at_utc": "2026-10-06T03:02:44Z"
+      "maps": []
     },
     {
       "match_id": "hltv:2398398",
@@ -7265,11 +7167,16 @@
   "rankings": null,
   "source": "HLTV via Oracle Scrapling",
   "source_health": {
-    "scheduled_matches": 86,
+    "scheduled_matches": 87,
     "recent_results": 80,
     "detail_matches": 4,
-    "detail_cache_hits": 5,
-    "detail_errors": [],
+    "detail_cache_hits": 6,
+    "detail_errors": [
+      "hltv:2398743: TimeoutError",
+      "hltv:2398744: TimeoutError",
+      "hltv:2398745: TimeoutError",
+      "hltv:2398397: TimeoutError"
+    ],
     "browser_fallbacks": 0
   },
   "product_filter": {
@@ -7278,7 +7185,7 @@
       "tier_2"
     ],
     "events_kept": 11,
-    "matches_kept": 105,
+    "matches_kept": 103,
     "players_kept": 50,
     "event_tiers": {
       "hltv:esl-pro-league-season-24": "tier_1",
@@ -7330,8 +7237,6 @@
       "hltv:2398394",
       "hltv:2398395",
       "hltv:2398396",
-      "hltv:2398741",
-      "hltv:2398742",
       "hltv:2398397",
       "hltv:2398743",
       "hltv:2398744",

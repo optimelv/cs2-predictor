@@ -8249,9 +8249,15 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Black Phoenix"
       },
       {
-        "event_id": "hltv:9420",
+        "detail_fetched_at_utc": "2026-10-06T10:12:18Z",
+        "event_id": "hltv:cct-2026-europe-series-10",
         "event_name": "CCT 2026 Europe Series 10",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398396",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
         "match_id": "hltv:2398396",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -8260,7 +8266,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-10-06T11:00:00Z",
         "status": "upcoming",
         "team1_name": "MASONIC",
-        "team2_name": "ex-Zero Tenacity"
+        "team2_name": "ex-Zero Tenacity",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
       },
       {
         "detail_fetched_at_utc": "2026-10-06T03:00:35Z",
@@ -8320,7 +8327,7 @@ window.__STRIKESIGNAL_DATA__ = {
       },
       {
         "detail_fetched_at_utc": "2026-10-06T03:01:54Z",
-        "event_id": "hltv:esl-pro-league-season-24",
+        "event_id": "hltv:8244",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398743",
@@ -8341,7 +8348,7 @@ window.__STRIKESIGNAL_DATA__ = {
       },
       {
         "detail_fetched_at_utc": "2026-10-06T03:02:44Z",
-        "event_id": "hltv:esl-pro-league-season-24",
+        "event_id": "hltv:8244",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398744",
@@ -12384,7 +12391,7 @@ window.__STRIKESIGNAL_DATA__ = {
           },
           {
             "detail_fetched_at_utc": "2026-10-06T03:01:54Z",
-            "event_id": "hltv:esl-pro-league-season-24",
+            "event_id": "hltv:8244",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398743",
@@ -12405,7 +12412,7 @@ window.__STRIKESIGNAL_DATA__ = {
           },
           {
             "detail_fetched_at_utc": "2026-10-06T03:02:44Z",
-            "event_id": "hltv:esl-pro-league-season-24",
+            "event_id": "hltv:8244",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398744",
@@ -28470,9 +28477,15 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Black Phoenix"
           },
           {
-            "event_id": "hltv:9420",
+            "detail_fetched_at_utc": "2026-10-06T10:12:18Z",
+            "event_id": "hltv:cct-2026-europe-series-10",
             "event_name": "CCT 2026 Europe Series 10",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398396",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
             "match_id": "hltv:2398396",
             "product_tier": "tier_2",
             "series_format": "bo3",
@@ -28481,7 +28494,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "starts_at": "2026-10-06T11:00:00Z",
             "status": "upcoming",
             "team1_name": "MASONIC",
-            "team2_name": "ex-Zero Tenacity"
+            "team2_name": "ex-Zero Tenacity",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
           },
           {
             "event_id": "hltv:9420",
@@ -29442,7 +29456,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 4
       }
     ],
-    "last_verified_utc": "2026-10-06T03:02:44Z",
+    "last_verified_utc": "2026-10-06T10:21:44Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -29880,7 +29894,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-06T03:03:39Z",
+  "generated_at_utc": "2026-10-06T10:26:00Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -31437,7 +31451,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-06T03:03:38Z",
+    "generated_at_utc": "2026-10-06T10:26:00Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -41534,10 +41548,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4964,
-      "event_id": "hltv:9420",
+      "event_id": "hltv:cct-2026-europe-series-10",
       "event_name": "CCT 2026 Europe Series 10",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-06",
@@ -41563,86 +41580,6 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "ex-Zero Tenacity",
       "team2_vrs_rank": 163
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5085,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4915,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-06",
-      "match_id": "hltv:2398741",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791288000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "PARIVISION",
-      "prob_team1": 0.4915,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398741/g2-vs-parivision-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-06T12:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "G2",
-      "team1_vrs_rank": 13,
-      "team2_hltv_rank": null,
-      "team2_name": "PARIVISION",
-      "team2_vrs_rank": 14
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.9177,
-      "confidence_label": "strong",
-      "data_quality": "full",
-      "elo_prob_team1": 0.9177,
-      "event_id": "hltv:esl-pro-league-season-24",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-06",
-      "match_id": "hltv:2398742",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791288000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Spirit",
-      "prob_team1": 0.9177,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398742/spirit-vs-1win-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-06T12:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Spirit",
-      "team1_vrs_rank": 2,
-      "team2_hltv_rank": null,
-      "team2_name": "1win",
-      "team2_vrs_rank": 51
     },
     {
       "calibration_shrink": 0.5,
@@ -41688,13 +41625,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.5115,
-      "event_id": "hltv:esl-pro-league-season-24",
+      "event_id": "hltv:8244",
       "event_name": "ESL Pro League Season 24",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-06",
@@ -41728,13 +41662,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.483,
-      "event_id": "hltv:esl-pro-league-season-24",
+      "event_id": "hltv:8244",
       "event_name": "ESL Pro League Season 24",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-06",
@@ -42426,11 +42357,85 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Vitalem Aerem",
       "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5487,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4513,
+      "event_id": "hltv:9383",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399149",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791378000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "XDM",
+      "prob_team1": 0.4513,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399149/the-unit-vs-xdm-esl-challenger-league-season-52-asia-pacific-cup-3",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T13:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "THE UNIT",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "XDM",
+      "team2_vrs_rank": 322
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.521,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.479,
+      "event_id": "hltv:9383",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399150",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791378000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "The Huns",
+      "prob_team1": 0.479,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399150/the-knockoutx-vs-the-huns-esl-challenger-league-season-52-asia-pacific-cup-3",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T13:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "The KnockoutX",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "The Huns",
+      "team2_vrs_rank": 70
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 105,
+    "live_feed_items": 103,
     "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
