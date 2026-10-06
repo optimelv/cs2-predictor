@@ -1738,7 +1738,7 @@
     },
     {
       "player_id": "hltv:15631",
-      "hltv_player_id": 15631,
+      "hltv_player_id": "15631",
       "nickname": "KSCERATO",
       "real_name": "Kaike Cerato",
       "team_name": "FURIA",
@@ -3512,7 +3512,7 @@
     },
     {
       "player_id": "hltv:24144",
-      "hltv_player_id": 24144,
+      "hltv_player_id": "24144",
       "nickname": "molodoy",
       "real_name": "Danil Golubenko",
       "team_name": "FURIA",
@@ -7204,7 +7204,7 @@
     },
     {
       "player_id": "hltv:13915",
-      "hltv_player_id": 13915,
+      "hltv_player_id": "13915",
       "nickname": "YEKINDAR",
       "real_name": "Mareks Gaļinskis",
       "team_name": "FURIA",
@@ -11296,7 +11296,7 @@
     },
     {
       "player_id": "hltv:12553",
-      "hltv_player_id": 12553,
+      "hltv_player_id": "12553",
       "nickname": "yuurih",
       "real_name": "Yuri Santos",
       "team_name": "FURIA",
@@ -12972,7 +12972,7 @@
     },
     {
       "player_id": "hltv:2023",
-      "hltv_player_id": 2023,
+      "hltv_player_id": "2023",
       "nickname": "FalleN",
       "real_name": "Gabriel Toledo",
       "team_name": "FURIA",
@@ -20614,9 +20614,9 @@
       "player_id": "hltv:24105",
       "nickname": "Botman",
       "team_name": "MASONIC",
-      "rating_3_0": 1.21,
-      "maps_3m": 2,
-      "signal_index": 71,
+      "rating_3_0": 0.96,
+      "maps_3m": 3,
+      "signal_index": 46,
       "traits": {},
       "form_timeline": [
         {
@@ -20633,6 +20633,21 @@
           "rating": 1.21,
           "team_name": "MASONIC",
           "won": true
+        },
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "ex-Zero Tenacity",
+          "team_name": "MASONIC",
+          "won": false,
+          "kills": 21,
+          "deaths": 27,
+          "kd_ratio": 0.78,
+          "adr": 73.8,
+          "kast": 73,
+          "rating": 0.96,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24105",
@@ -20642,35 +20657,35 @@
         {
           "team_name": "MASONIC",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-04",
-          "series": 1,
+          "through_date": "2026-10-06",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.21,
-          "average_adr": 74
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.08,
+          "average_adr": 73.9
         }
       ],
       "timeline_entry": {
-        "adr": 74,
-        "date": "2026-10-04",
-        "deaths": 12,
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
         "event_name": "CCT 2026 Europe Series 10",
-        "kast": 79.2,
-        "kd_ratio": 1.42,
-        "kills": 17,
-        "maps": 2,
-        "match_id": "hltv:2398390",
-        "opponent_name": "Phantom Academy",
-        "rating": 1.21,
+        "opponent_name": "ex-Zero Tenacity",
         "team_name": "MASONIC",
-        "won": true
+        "won": false,
+        "kills": 21,
+        "deaths": 27,
+        "kd_ratio": 0.78,
+        "adr": 73.8,
+        "kast": 73,
+        "rating": 0.96,
+        "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.21,
-        "average_adr": 74,
-        "recent_rating": 1.21,
+        "series": 2,
+        "average_rating": 1.08,
+        "average_adr": 73.9,
+        "recent_rating": 1.08,
         "rating_delta": null
       }
     },
@@ -20678,9 +20693,9 @@
       "player_id": "hltv:26195",
       "nickname": "Slexa",
       "team_name": "MASONIC",
-      "rating_3_0": 0.92,
-      "maps_3m": 2,
-      "signal_index": 42,
+      "rating_3_0": 0.89,
+      "maps_3m": 3,
+      "signal_index": 39,
       "traits": {},
       "form_timeline": [
         {
@@ -20697,6 +20712,21 @@
           "rating": 0.92,
           "team_name": "MASONIC",
           "won": true
+        },
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "ex-Zero Tenacity",
+          "team_name": "MASONIC",
+          "won": false,
+          "kills": 23,
+          "deaths": 27,
+          "kd_ratio": 0.85,
+          "adr": 61.2,
+          "kast": 62.2,
+          "rating": 0.89,
+          "maps": 3
         }
       ],
       "hltv_player_id": "26195",
@@ -20706,35 +20736,35 @@
         {
           "team_name": "MASONIC",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-04",
-          "series": 1,
+          "through_date": "2026-10-06",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 0.92,
-          "average_adr": 69.5
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 0.91,
+          "average_adr": 65.3
         }
       ],
       "timeline_entry": {
-        "adr": 69.5,
-        "date": "2026-10-04",
-        "deaths": 15,
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
         "event_name": "CCT 2026 Europe Series 10",
-        "kast": 66.7,
-        "kd_ratio": 1.07,
-        "kills": 16,
-        "maps": 2,
-        "match_id": "hltv:2398390",
-        "opponent_name": "Phantom Academy",
-        "rating": 0.92,
+        "opponent_name": "ex-Zero Tenacity",
         "team_name": "MASONIC",
-        "won": true
+        "won": false,
+        "kills": 23,
+        "deaths": 27,
+        "kd_ratio": 0.85,
+        "adr": 61.2,
+        "kast": 62.2,
+        "rating": 0.89,
+        "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.92,
-        "average_adr": 69.5,
-        "recent_rating": 0.92,
+        "series": 2,
+        "average_rating": 0.91,
+        "average_adr": 65.3,
+        "recent_rating": 0.91,
         "rating_delta": null
       }
     },
@@ -20742,9 +20772,9 @@
       "player_id": "hltv:9896",
       "nickname": "b0RUP",
       "team_name": "MASONIC",
-      "rating_3_0": 1.07,
-      "maps_3m": 2,
-      "signal_index": 57,
+      "rating_3_0": 0.57,
+      "maps_3m": 3,
+      "signal_index": 7,
       "traits": {},
       "form_timeline": [
         {
@@ -20761,6 +20791,21 @@
           "rating": 1.07,
           "team_name": "MASONIC",
           "won": true
+        },
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "ex-Zero Tenacity",
+          "team_name": "MASONIC",
+          "won": false,
+          "kills": 14,
+          "deaths": 27,
+          "kd_ratio": 0.52,
+          "adr": 45.4,
+          "kast": 51.4,
+          "rating": 0.57,
+          "maps": 3
         }
       ],
       "hltv_player_id": "9896",
@@ -20770,35 +20815,35 @@
         {
           "team_name": "MASONIC",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-04",
-          "series": 1,
+          "through_date": "2026-10-06",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.07,
-          "average_adr": 60.8
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 0.82,
+          "average_adr": 53.1
         }
       ],
       "timeline_entry": {
-        "adr": 60.8,
-        "date": "2026-10-04",
-        "deaths": 14,
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
         "event_name": "CCT 2026 Europe Series 10",
-        "kast": 75,
-        "kd_ratio": 1.07,
-        "kills": 15,
-        "maps": 2,
-        "match_id": "hltv:2398390",
-        "opponent_name": "Phantom Academy",
-        "rating": 1.07,
+        "opponent_name": "ex-Zero Tenacity",
         "team_name": "MASONIC",
-        "won": true
+        "won": false,
+        "kills": 14,
+        "deaths": 27,
+        "kd_ratio": 0.52,
+        "adr": 45.4,
+        "kast": 51.4,
+        "rating": 0.57,
+        "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.07,
-        "average_adr": 60.8,
-        "recent_rating": 1.07,
+        "series": 2,
+        "average_rating": 0.82,
+        "average_adr": 53.1,
+        "recent_rating": 0.82,
         "rating_delta": null
       }
     },
@@ -20806,9 +20851,9 @@
       "player_id": "hltv:23334",
       "nickname": "Bukhavez",
       "team_name": "MASONIC",
-      "rating_3_0": 1.17,
-      "maps_3m": 2,
-      "signal_index": 67,
+      "rating_3_0": 0.89,
+      "maps_3m": 3,
+      "signal_index": 39,
       "traits": {},
       "form_timeline": [
         {
@@ -20825,6 +20870,21 @@
           "rating": 1.17,
           "team_name": "MASONIC",
           "won": true
+        },
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "ex-Zero Tenacity",
+          "team_name": "MASONIC",
+          "won": false,
+          "kills": 20,
+          "deaths": 29,
+          "kd_ratio": 0.69,
+          "adr": 58.8,
+          "kast": 67.6,
+          "rating": 0.89,
+          "maps": 3
         }
       ],
       "hltv_player_id": "23334",
@@ -20834,35 +20894,35 @@
         {
           "team_name": "MASONIC",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-04",
-          "series": 1,
+          "through_date": "2026-10-06",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.17,
-          "average_adr": 81.5
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.03,
+          "average_adr": 70.2
         }
       ],
       "timeline_entry": {
-        "adr": 81.5,
-        "date": "2026-10-04",
-        "deaths": 16,
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
         "event_name": "CCT 2026 Europe Series 10",
-        "kast": 66.7,
-        "kd_ratio": 1.06,
-        "kills": 17,
-        "maps": 2,
-        "match_id": "hltv:2398390",
-        "opponent_name": "Phantom Academy",
-        "rating": 1.17,
+        "opponent_name": "ex-Zero Tenacity",
         "team_name": "MASONIC",
-        "won": true
+        "won": false,
+        "kills": 20,
+        "deaths": 29,
+        "kd_ratio": 0.69,
+        "adr": 58.8,
+        "kast": 67.6,
+        "rating": 0.89,
+        "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.17,
-        "average_adr": 81.5,
-        "recent_rating": 1.17,
+        "series": 2,
+        "average_rating": 1.03,
+        "average_adr": 70.2,
+        "recent_rating": 1.03,
         "rating_delta": null
       }
     },
@@ -20870,9 +20930,9 @@
       "player_id": "hltv:22810",
       "nickname": "kralle",
       "team_name": "MASONIC",
-      "rating_3_0": 1.61,
-      "maps_3m": 2,
-      "signal_index": 100,
+      "rating_3_0": 1.25,
+      "maps_3m": 3,
+      "signal_index": 75,
       "traits": {},
       "form_timeline": [
         {
@@ -20889,6 +20949,21 @@
           "rating": 1.61,
           "team_name": "MASONIC",
           "won": true
+        },
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "ex-Zero Tenacity",
+          "team_name": "MASONIC",
+          "won": false,
+          "kills": 31,
+          "deaths": 27,
+          "kd_ratio": 1.15,
+          "adr": 98.3,
+          "kast": 62.2,
+          "rating": 1.25,
+          "maps": 3
         }
       ],
       "hltv_player_id": "22810",
@@ -20898,35 +20973,35 @@
         {
           "team_name": "MASONIC",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-04",
-          "series": 1,
+          "through_date": "2026-10-06",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.61,
-          "average_adr": 102.5
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.43,
+          "average_adr": 100.4
         }
       ],
       "timeline_entry": {
-        "adr": 102.5,
-        "date": "2026-10-04",
-        "deaths": 16,
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
         "event_name": "CCT 2026 Europe Series 10",
-        "kast": 79.2,
-        "kd_ratio": 1.38,
-        "kills": 22,
-        "maps": 2,
-        "match_id": "hltv:2398390",
-        "opponent_name": "Phantom Academy",
-        "rating": 1.61,
+        "opponent_name": "ex-Zero Tenacity",
         "team_name": "MASONIC",
-        "won": true
+        "won": false,
+        "kills": 31,
+        "deaths": 27,
+        "kd_ratio": 1.15,
+        "adr": 98.3,
+        "kast": 62.2,
+        "rating": 1.25,
+        "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.61,
-        "average_adr": 102.5,
-        "recent_rating": 1.61,
+        "series": 2,
+        "average_rating": 1.43,
+        "average_adr": 100.4,
+        "recent_rating": 1.43,
         "rating_delta": null
       }
     },
@@ -21730,43 +21805,193 @@
       "player_id": "hltv:20813",
       "nickname": "VLDN",
       "team_name": "ex-Zero Tenacity",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.49,
+      "maps_3m": 3,
+      "signal_index": 99,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "MASONIC",
+          "team_name": "ex-Zero Tenacity",
+          "won": true,
+          "kills": 33,
+          "deaths": 19,
+          "kd_ratio": 1.74,
+          "adr": 92.3,
+          "kast": 86.5,
+          "rating": 1.49,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "20813",
       "source_url": "https://www.hltv.org/player/20813/vldn",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "ex-Zero Tenacity",
+          "from_date": "2026-10-06",
+          "through_date": "2026-10-06",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.49,
+          "average_adr": 92.3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "MASONIC",
+        "team_name": "ex-Zero Tenacity",
+        "won": true,
+        "kills": 33,
+        "deaths": 19,
+        "kd_ratio": 1.74,
+        "adr": 92.3,
+        "kast": 86.5,
+        "rating": 1.49,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.49,
+        "average_adr": 92.3,
+        "recent_rating": 1.49,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20253",
       "nickname": "Dragon",
       "team_name": "ex-Zero Tenacity",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.89,
+      "maps_3m": 3,
+      "signal_index": 39,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "MASONIC",
+          "team_name": "ex-Zero Tenacity",
+          "won": true,
+          "kills": 21,
+          "deaths": 25,
+          "kd_ratio": 0.84,
+          "adr": 68.1,
+          "kast": 67.6,
+          "rating": 0.89,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "20253",
       "source_url": "https://www.hltv.org/player/20253/dragon",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "ex-Zero Tenacity",
+          "from_date": "2026-10-06",
+          "through_date": "2026-10-06",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.89,
+          "average_adr": 68.1
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "MASONIC",
+        "team_name": "ex-Zero Tenacity",
+        "won": true,
+        "kills": 21,
+        "deaths": 25,
+        "kd_ratio": 0.84,
+        "adr": 68.1,
+        "kast": 67.6,
+        "rating": 0.89,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.89,
+        "average_adr": 68.1,
+        "recent_rating": 0.89,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:21783",
       "nickname": "brutmonster",
       "team_name": "ex-Zero Tenacity",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.26,
+      "maps_3m": 3,
+      "signal_index": 76,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "MASONIC",
+          "team_name": "ex-Zero Tenacity",
+          "won": true,
+          "kills": 28,
+          "deaths": 21,
+          "kd_ratio": 1.33,
+          "adr": 78,
+          "kast": 73,
+          "rating": 1.26,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "21783",
       "source_url": "https://www.hltv.org/player/21783/brutmonster",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "ex-Zero Tenacity",
+          "from_date": "2026-10-06",
+          "through_date": "2026-10-06",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.26,
+          "average_adr": 78
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "MASONIC",
+        "team_name": "ex-Zero Tenacity",
+        "won": true,
+        "kills": 28,
+        "deaths": 21,
+        "kd_ratio": 1.33,
+        "adr": 78,
+        "kast": 73,
+        "rating": 1.26,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.26,
+        "average_adr": 78,
+        "recent_rating": 1.26,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:2476",
@@ -21786,15 +22011,65 @@
       "player_id": "hltv:20252",
       "nickname": "Kind0",
       "team_name": "ex-Zero Tenacity",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.05,
+      "maps_3m": 3,
+      "signal_index": 55,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "MASONIC",
+          "team_name": "ex-Zero Tenacity",
+          "won": true,
+          "kills": 29,
+          "deaths": 25,
+          "kd_ratio": 1.16,
+          "adr": 80.1,
+          "kast": 62.2,
+          "rating": 1.05,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "20252",
       "source_url": "https://www.hltv.org/player/20252/kind0",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "ex-Zero Tenacity",
+          "from_date": "2026-10-06",
+          "through_date": "2026-10-06",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.05,
+          "average_adr": 80.1
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "MASONIC",
+        "team_name": "ex-Zero Tenacity",
+        "won": true,
+        "kills": 29,
+        "deaths": 25,
+        "kd_ratio": 1.16,
+        "adr": 80.1,
+        "kast": 62.2,
+        "rating": 1.05,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.05,
+        "average_adr": 80.1,
+        "recent_rating": 1.05,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:22676",
@@ -22185,11 +22460,145 @@
       "form_timeline": [],
       "map_profile": [],
       "roster_eras": []
+    },
+    {
+      "player_id": "hltv:21302",
+      "nickname": "Cjoffo",
+      "team_name": "ex-Zero Tenacity",
+      "rating_3_0": 1.22,
+      "maps_3m": 3,
+      "signal_index": 72,
+      "traits": {},
+      "hltv_player_id": "21302",
+      "source_url": "https://www.hltv.org/player/21302/cjoffo",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "MASONIC",
+          "team_name": "ex-Zero Tenacity",
+          "won": true,
+          "kills": 25,
+          "deaths": 19,
+          "kd_ratio": 1.32,
+          "adr": 76.2,
+          "kast": 83.8,
+          "rating": 1.22,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "MASONIC",
+        "team_name": "ex-Zero Tenacity",
+        "won": true,
+        "kills": 25,
+        "deaths": 19,
+        "kd_ratio": 1.32,
+        "adr": 76.2,
+        "kast": 83.8,
+        "rating": 1.22,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.22,
+        "average_adr": 76.2,
+        "recent_rating": 1.22,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "ex-Zero Tenacity",
+          "from_date": "2026-10-06",
+          "through_date": "2026-10-06",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.22,
+          "average_adr": 76.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:21667",
+      "nickname": "Magnojez",
+      "team_name": "BETBOOM",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "21667",
+      "source_url": "https://www.hltv.org/player/21667/magnojez",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:11840",
+      "nickname": "Boombl4",
+      "team_name": "BETBOOM",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "11840",
+      "source_url": "https://www.hltv.org/player/11840/boombl4",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:20357",
+      "nickname": "d1Ledez",
+      "team_name": "BETBOOM",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "20357",
+      "source_url": "https://www.hltv.org/player/20357/d1ledez",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:15662",
+      "nickname": "zorte",
+      "team_name": "BETBOOM",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "15662",
+      "source_url": "https://www.hltv.org/player/15662/zorte",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:18506",
+      "nickname": "S1ren",
+      "team_name": "BETBOOM",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "18506",
+      "source_url": "https://www.hltv.org/player/18506/s1ren",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-06T10:21:44Z",
+  "lineups_updated_at_utc": "2026-10-06T17:08:56Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-05",
+  "history_through_date": "2026-10-06",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",

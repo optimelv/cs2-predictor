@@ -1,18 +1,74 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-06T10:21:44Z",
-  "through_date": "2026-10-05",
+  "generated_at_utc": "2026-10-06T17:08:56Z",
+  "through_date": "2026-10-06",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3562,
-    "maps": 2673,
-    "lineup_rows": 8630,
+    "matches": 3563,
+    "maps": 2676,
+    "lineup_rows": 8640,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "hltv:2398396",
+      "match_date": "2026-10-06",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "MASONIC",
+      "team2_name": "ex-Zero Tenacity",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-Zero Tenacity",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "MASONIC",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 2,
+          "score2": 13,
+          "winner_name": "ex-Zero Tenacity",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 9,
+          "score2": 13,
+          "winner_name": "ex-Zero Tenacity",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "b0RUP",
+          "Slexa",
+          "Botman",
+          "kralle",
+          "Bukhavez"
+        ],
+        "team2": [
+          "Dragon",
+          "Kind0",
+          "VLDN",
+          "brutmonster",
+          "Cjoffo"
+        ]
+      }
+    },
     {
       "match_id": "hltv:2398393",
       "match_date": "2026-10-05",
