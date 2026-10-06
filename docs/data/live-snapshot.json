@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-10-05T22:35:52Z",
+  "fetched_at_utc": "2026-10-06T03:02:44Z",
   "poll_after_ms": 180000,
   "events": [
     {
@@ -334,7 +334,7 @@
             "team1": [],
             "team2": []
           },
-          "detail_fetched_at_utc": "2026-10-05T22:32:46Z"
+          "detail_fetched_at_utc": "2026-10-06T03:00:35Z"
         },
         {
           "match_id": "hltv:2398742",
@@ -356,7 +356,7 @@
             "team1": [],
             "team2": []
           },
-          "detail_fetched_at_utc": "2026-10-05T22:33:37Z"
+          "detail_fetched_at_utc": "2026-10-06T03:01:11Z"
         },
         {
           "match_id": "hltv:2398743",
@@ -378,7 +378,7 @@
             "team1": [],
             "team2": []
           },
-          "detail_fetched_at_utc": "2026-10-05T22:35:01Z"
+          "detail_fetched_at_utc": "2026-10-06T03:01:54Z"
         },
         {
           "match_id": "hltv:2398744",
@@ -400,7 +400,7 @@
             "team1": [],
             "team2": []
           },
-          "detail_fetched_at_utc": "2026-10-05T22:35:51Z"
+          "detail_fetched_at_utc": "2026-10-06T03:02:44Z"
         },
         {
           "match_id": "hltv:2398740",
@@ -2372,9 +2372,7 @@
       "product_tier": "tier_1",
       "participants": [
         "Falcons",
-        "Natus Vincere",
-        "Legacy",
-        "M80"
+        "Natus Vincere"
       ],
       "matches": [
         {
@@ -2387,22 +2385,6 @@
           "event_url": null,
           "team1_name": "Falcons",
           "team2_name": "Natus Vincere",
-          "starts_at": "2026-10-06T17:00:00Z",
-          "stage_name": "Scheduled series",
-          "series_format": "bo3",
-          "status": "live",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2398746",
-          "hltv_match_id": "2398746",
-          "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
-          "event_id": "hltv:8244",
-          "event_name": "ESL Pro League Season 24",
-          "product_tier": "tier_1",
-          "event_url": null,
-          "team1_name": "Legacy",
-          "team2_name": "M80",
           "starts_at": "2026-10-06T17:00:00Z",
           "stage_name": "Scheduled series",
           "series_format": "bo3",
@@ -4509,7 +4491,7 @@
         "team1": [],
         "team2": []
       },
-      "detail_fetched_at_utc": "2026-10-05T22:32:46Z"
+      "detail_fetched_at_utc": "2026-10-06T03:00:35Z"
     },
     {
       "match_id": "hltv:2398742",
@@ -4531,7 +4513,7 @@
         "team1": [],
         "team2": []
       },
-      "detail_fetched_at_utc": "2026-10-05T22:33:37Z"
+      "detail_fetched_at_utc": "2026-10-06T03:01:11Z"
     },
     {
       "match_id": "hltv:2398397",
@@ -4569,7 +4551,7 @@
         "team1": [],
         "team2": []
       },
-      "detail_fetched_at_utc": "2026-10-05T22:35:01Z"
+      "detail_fetched_at_utc": "2026-10-06T03:01:54Z"
     },
     {
       "match_id": "hltv:2398744",
@@ -4591,7 +4573,7 @@
         "team1": [],
         "team2": []
       },
-      "detail_fetched_at_utc": "2026-10-05T22:35:51Z"
+      "detail_fetched_at_utc": "2026-10-06T03:02:44Z"
     },
     {
       "match_id": "hltv:2398398",
@@ -4619,22 +4601,6 @@
       "event_url": null,
       "team1_name": "Falcons",
       "team2_name": "Natus Vincere",
-      "starts_at": "2026-10-06T17:00:00Z",
-      "stage_name": "Scheduled series",
-      "series_format": "bo3",
-      "status": "live",
-      "maps": []
-    },
-    {
-      "match_id": "hltv:2398746",
-      "hltv_match_id": "2398746",
-      "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
-      "event_id": "hltv:8244",
-      "event_name": "ESL Pro League Season 24",
-      "product_tier": "tier_1",
-      "event_url": null,
-      "team1_name": "Legacy",
-      "team2_name": "M80",
       "starts_at": "2026-10-06T17:00:00Z",
       "stage_name": "Scheduled series",
       "series_format": "bo3",
@@ -7312,7 +7278,7 @@
       "tier_2"
     ],
     "events_kept": 11,
-    "matches_kept": 106,
+    "matches_kept": 105,
     "players_kept": 50,
     "event_tiers": {
       "hltv:esl-pro-league-season-24": "tier_1",
@@ -7371,7 +7337,6 @@
       "hltv:2398744",
       "hltv:2398398",
       "hltv:2398745",
-      "hltv:2398746",
       "hltv:2399010",
       "hltv:2399011",
       "hltv:2399012",

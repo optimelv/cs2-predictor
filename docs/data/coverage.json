@@ -8262,7 +8262,7 @@
       "team2_name": "ex-Zero Tenacity"
     },
     {
-      "detail_fetched_at_utc": "2026-10-05T22:32:46Z",
+      "detail_fetched_at_utc": "2026-10-06T03:00:35Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -8283,7 +8283,7 @@
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
     },
     {
-      "detail_fetched_at_utc": "2026-10-05T22:33:37Z",
+      "detail_fetched_at_utc": "2026-10-06T03:01:11Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -8318,7 +8318,7 @@
       "team2_name": "ex-RUSTEC"
     },
     {
-      "detail_fetched_at_utc": "2026-10-05T22:35:01Z",
+      "detail_fetched_at_utc": "2026-10-06T03:01:54Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -8339,7 +8339,7 @@
       "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
     },
     {
-      "detail_fetched_at_utc": "2026-10-05T22:35:51Z",
+      "detail_fetched_at_utc": "2026-10-06T03:02:44Z",
       "event_id": "hltv:esl-pro-league-season-24",
       "event_name": "ESL Pro League Season 24",
       "event_url": "https://www.hltv.org/events/archive",
@@ -12340,7 +12340,7 @@
           "winner_name": "Aurora"
         },
         {
-          "detail_fetched_at_utc": "2026-10-05T22:32:46Z",
+          "detail_fetched_at_utc": "2026-10-06T03:00:35Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -12361,7 +12361,7 @@
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
         },
         {
-          "detail_fetched_at_utc": "2026-10-05T22:33:37Z",
+          "detail_fetched_at_utc": "2026-10-06T03:01:11Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -12382,7 +12382,7 @@
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
         },
         {
-          "detail_fetched_at_utc": "2026-10-05T22:35:01Z",
+          "detail_fetched_at_utc": "2026-10-06T03:01:54Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -12403,7 +12403,7 @@
           "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
         },
         {
-          "detail_fetched_at_utc": "2026-10-05T22:35:51Z",
+          "detail_fetched_at_utc": "2026-10-06T03:02:44Z",
           "event_id": "hltv:esl-pro-league-season-24",
           "event_name": "ESL Pro League Season 24",
           "event_url": "https://www.hltv.org/events/archive",
@@ -29441,7 +29441,7 @@
       "teams": 4
     }
   ],
-  "last_verified_utc": "2026-10-05T22:35:52Z",
+  "last_verified_utc": "2026-10-06T03:02:44Z",
   "sources": [
     {
       "name": "HLTV events calendar",

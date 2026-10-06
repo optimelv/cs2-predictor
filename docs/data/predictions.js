@@ -8263,7 +8263,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "ex-Zero Tenacity"
       },
       {
-        "detail_fetched_at_utc": "2026-10-05T22:32:46Z",
+        "detail_fetched_at_utc": "2026-10-06T03:00:35Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -8284,7 +8284,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
       },
       {
-        "detail_fetched_at_utc": "2026-10-05T22:33:37Z",
+        "detail_fetched_at_utc": "2026-10-06T03:01:11Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -8319,7 +8319,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "ex-RUSTEC"
       },
       {
-        "detail_fetched_at_utc": "2026-10-05T22:35:01Z",
+        "detail_fetched_at_utc": "2026-10-06T03:01:54Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -8340,7 +8340,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
       },
       {
-        "detail_fetched_at_utc": "2026-10-05T22:35:51Z",
+        "detail_fetched_at_utc": "2026-10-06T03:02:44Z",
         "event_id": "hltv:esl-pro-league-season-24",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
@@ -12341,7 +12341,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Aurora"
           },
           {
-            "detail_fetched_at_utc": "2026-10-05T22:32:46Z",
+            "detail_fetched_at_utc": "2026-10-06T03:00:35Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -12362,7 +12362,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 1-2 record). Losing team is eliminated."
           },
           {
-            "detail_fetched_at_utc": "2026-10-05T22:33:37Z",
+            "detail_fetched_at_utc": "2026-10-06T03:01:11Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -12383,7 +12383,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
           },
           {
-            "detail_fetched_at_utc": "2026-10-05T22:35:01Z",
+            "detail_fetched_at_utc": "2026-10-06T03:01:54Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -12404,7 +12404,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
           },
           {
-            "detail_fetched_at_utc": "2026-10-05T22:35:51Z",
+            "detail_fetched_at_utc": "2026-10-06T03:02:44Z",
             "event_id": "hltv:esl-pro-league-season-24",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
@@ -29442,7 +29442,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 4
       }
     ],
-    "last_verified_utc": "2026-10-05T22:35:52Z",
+    "last_verified_utc": "2026-10-06T03:02:44Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -29880,7 +29880,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-05T22:43:16Z",
+  "generated_at_utc": "2026-10-06T03:03:39Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -31437,7 +31437,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-05T22:43:15Z",
+    "generated_at_utc": "2026-10-06T03:03:38Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -31731,7 +31731,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
+      "new_rows": 0,
       "online_rows": 191,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
@@ -41836,43 +41836,6 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 4
     },
     {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7505,
-      "confidence_label": "strong",
-      "data_quality": "full",
-      "elo_prob_team1": 0.7505,
-      "event_id": "hltv:8244",
-      "event_name": "ESL Pro League Season 24",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-06",
-      "match_id": "hltv:2398746",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791306000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Legacy",
-      "prob_team1": 0.7505,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2398746/legacy-vs-m80-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-06T17:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Legacy",
-      "team1_vrs_rank": 6,
-      "team2_hltv_rank": null,
-      "team2_name": "M80",
-      "team2_vrs_rank": 33
-    },
-    {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5083,
@@ -42426,12 +42389,49 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Orion Wanderers",
       "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.503,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.503,
+      "event_id": "hltv:9383",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-07",
+      "match_id": "hltv:2399148",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791378000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Chinggis Warriors",
+      "prob_team1": 0.503,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399148/chinggis-warriors-vs-vitalem-aerem-esl-challenger-league-season-52-asia-pacific-cup-3",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-07T13:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Chinggis Warriors",
+      "team1_vrs_rank": 84,
+      "team2_hltv_rank": null,
+      "team2_name": "Vitalem Aerem",
+      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 106,
-    "online_results_applied": 10,
+    "live_feed_items": 105,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
