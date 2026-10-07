@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3582,
+    "matches": 3587,
     "maps": 2677,
     "lineup_rows": 8660,
     "source_match_ids": 976
@@ -342,6 +342,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_5"
+    },
+    {
+      "match_id": "liquipedia:41ee566d573b7959ad52",
+      "match_date": "2026-10-06",
+      "starts_at": "2026-10-06T17:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 4",
+      "team1_name": "Legacy",
+      "team2_name": "M80",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "M80",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_4"
+    },
+    {
+      "match_id": "liquipedia:9f44896d32499a2de411",
+      "match_date": "2026-10-06",
+      "starts_at": "2026-10-06T19:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 4",
+      "team1_name": "Falcons",
+      "team2_name": "NAVI",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_4"
     },
     {
       "match_id": "hltv:2398393",
@@ -49137,6 +49181,28 @@
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_C"
     },
     {
+      "match_id": "liquipedia:dd1a46f1e9309caf9bb9",
+      "match_date": "2026-07-27",
+      "starts_at": "2026-07-27T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Round 4",
+      "team1_name": "Rune",
+      "team2_name": "SAW Y.",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Rune",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_4"
+    },
+    {
       "match_id": "hltv:2395770",
       "match_date": "2026-07-26",
       "event_name": "CCT 2026 South America Series 4",
@@ -50501,6 +50567,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_4#Playoffs"
     },
     {
+      "match_id": "liquipedia:ca505f6abe251a7a4e23",
+      "match_date": "2026-07-23",
+      "starts_at": "2026-07-23T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Round 2",
+      "team1_name": "kogutos",
+      "team2_name": "SAW Y.",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "SAW Y.",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_2"
+    },
+    {
       "match_id": "liquipedia:27b970bbf0e224af84ed",
       "match_date": "2026-07-22",
       "starts_at": "2026-07-22T17:30:00Z",
@@ -50719,6 +50807,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_4#Round_5"
+    },
+    {
+      "match_id": "liquipedia:e3867c5f155b37d67df2",
+      "match_date": "2026-07-22",
+      "starts_at": "2026-07-22T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #5 - Round 1",
+      "team1_name": "SAW Y.",
+      "team2_name": "SPARTA",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Round_1"
     },
     {
       "match_id": "liquipedia:775682e591026cb87a45",
