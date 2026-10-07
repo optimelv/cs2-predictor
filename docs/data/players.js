@@ -17161,7 +17161,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     {
       "player_id": "hltv:24482",
       "nickname": "ezox",
-      "team_name": "Permitta",
+      "team_name": "Banda Chuya",
       "rating_3_0": null,
       "maps_3m": 0,
       "signal_index": 50,
@@ -17175,7 +17175,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     {
       "player_id": "hltv:20283",
       "nickname": "tomiko",
-      "team_name": "Permitta",
+      "team_name": "Banda Chuya",
       "rating_3_0": null,
       "maps_3m": 0,
       "signal_index": 50,
@@ -17189,7 +17189,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     {
       "player_id": "hltv:20284",
       "nickname": "maaryy",
-      "team_name": "Permitta",
+      "team_name": "Banda Chuya",
       "rating_3_0": null,
       "maps_3m": 0,
       "signal_index": 50,
@@ -17203,7 +17203,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     {
       "player_id": "hltv:23767",
       "nickname": "AdrieN",
-      "team_name": "Permitta",
+      "team_name": "Banda Chuya",
       "rating_3_0": null,
       "maps_3m": 0,
       "signal_index": 50,
@@ -17217,7 +17217,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     {
       "player_id": "hltv:24545",
       "nickname": "Showk",
-      "team_name": "Permitta",
+      "team_name": "Banda Chuya",
       "rating_3_0": null,
       "maps_3m": 0,
       "signal_index": 50,
@@ -22650,11 +22650,651 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "source_url": "https://www.hltv.org/player/8528/hobbit",
       "map_profile": [],
       "roster_eras": []
+    },
+    {
+      "player_id": "hltv:19065",
+      "nickname": "SHiNE",
+      "team_name": "G2 Ares",
+      "rating_3_0": 1.38,
+      "maps_3m": 1,
+      "signal_index": 88,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 74.3,
+          "date": "2026-10-07",
+          "deaths": 6,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 73.3,
+          "kd_ratio": 1.33,
+          "kills": 8,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "Orion Wanderers",
+          "rating": 1.38,
+          "team_name": "G2 Ares",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "19065",
+      "source_url": "https://www.hltv.org/player/19065/shine",
+      "timeline_entry": {
+        "adr": 74.3,
+        "date": "2026-10-07",
+        "deaths": 6,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 73.3,
+        "kd_ratio": 1.33,
+        "kills": 8,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "Orion Wanderers",
+        "rating": 1.38,
+        "team_name": "G2 Ares",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.38,
+        "average_adr": 74.3,
+        "recent_rating": 1.38,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "G2 Ares",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.38,
+          "average_adr": 74.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:23544",
+      "nickname": "hitori",
+      "team_name": "G2 Ares",
+      "rating_3_0": 1.03,
+      "maps_3m": 1,
+      "signal_index": 53,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 57.7,
+          "date": "2026-10-07",
+          "deaths": 10,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 86.7,
+          "kd_ratio": 0.9,
+          "kills": 9,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "Orion Wanderers",
+          "rating": 1.03,
+          "team_name": "G2 Ares",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "23544",
+      "source_url": "https://www.hltv.org/player/23544/hitori",
+      "timeline_entry": {
+        "adr": 57.7,
+        "date": "2026-10-07",
+        "deaths": 10,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 86.7,
+        "kd_ratio": 0.9,
+        "kills": 9,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "Orion Wanderers",
+        "rating": 1.03,
+        "team_name": "G2 Ares",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.03,
+        "average_adr": 57.7,
+        "recent_rating": 1.03,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "G2 Ares",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.03,
+          "average_adr": 57.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:24111",
+      "nickname": "Junyme",
+      "team_name": "G2 Ares",
+      "rating_3_0": 1.64,
+      "maps_3m": 1,
+      "signal_index": 100,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 95.5,
+          "date": "2026-10-07",
+          "deaths": 10,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 80,
+          "kd_ratio": 1.2,
+          "kills": 12,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "Orion Wanderers",
+          "rating": 1.64,
+          "team_name": "G2 Ares",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "24111",
+      "source_url": "https://www.hltv.org/player/24111/junyme",
+      "timeline_entry": {
+        "adr": 95.5,
+        "date": "2026-10-07",
+        "deaths": 10,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 80,
+        "kd_ratio": 1.2,
+        "kills": 12,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "Orion Wanderers",
+        "rating": 1.64,
+        "team_name": "G2 Ares",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.64,
+        "average_adr": 95.5,
+        "recent_rating": 1.64,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "G2 Ares",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.64,
+          "average_adr": 95.5
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25576",
+      "nickname": "yksjupe",
+      "team_name": "G2 Ares",
+      "rating_3_0": 2.22,
+      "maps_3m": 1,
+      "signal_index": 100,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 118.7,
+          "date": "2026-10-07",
+          "deaths": 7,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 80,
+          "kd_ratio": 2.57,
+          "kills": 18,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "Orion Wanderers",
+          "rating": 2.22,
+          "team_name": "G2 Ares",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "25576",
+      "source_url": "https://www.hltv.org/player/25576/yksjupe",
+      "timeline_entry": {
+        "adr": 118.7,
+        "date": "2026-10-07",
+        "deaths": 7,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 80,
+        "kd_ratio": 2.57,
+        "kills": 18,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "Orion Wanderers",
+        "rating": 2.22,
+        "team_name": "G2 Ares",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 2.22,
+        "average_adr": 118.7,
+        "recent_rating": 2.22,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "G2 Ares",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 2.22,
+          "average_adr": 118.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:23237",
+      "nickname": "TMKj",
+      "team_name": "G2 Ares",
+      "rating_3_0": 2.54,
+      "maps_3m": 1,
+      "signal_index": 100,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 100.2,
+          "date": "2026-10-07",
+          "deaths": 5,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 86.7,
+          "kd_ratio": 3.6,
+          "kills": 18,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "Orion Wanderers",
+          "rating": 2.54,
+          "team_name": "G2 Ares",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "23237",
+      "source_url": "https://www.hltv.org/player/23237/tmkj",
+      "timeline_entry": {
+        "adr": 100.2,
+        "date": "2026-10-07",
+        "deaths": 5,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 86.7,
+        "kd_ratio": 3.6,
+        "kills": 18,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "Orion Wanderers",
+        "rating": 2.54,
+        "team_name": "G2 Ares",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 2.54,
+        "average_adr": 100.2,
+        "recent_rating": 2.54,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "G2 Ares",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 2.54,
+          "average_adr": 100.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26162",
+      "nickname": "KIRADODO",
+      "team_name": "Orion Wanderers",
+      "rating_3_0": 0.65,
+      "maps_3m": 1,
+      "signal_index": 15,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 53.6,
+          "date": "2026-10-07",
+          "deaths": 12,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 53.3,
+          "kd_ratio": 0.58,
+          "kills": 7,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "G2 Ares",
+          "rating": 0.65,
+          "team_name": "Orion Wanderers",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "26162",
+      "source_url": "https://www.hltv.org/player/26162/kiradodo",
+      "timeline_entry": {
+        "adr": 53.6,
+        "date": "2026-10-07",
+        "deaths": 12,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 53.3,
+        "kd_ratio": 0.58,
+        "kills": 7,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "G2 Ares",
+        "rating": 0.65,
+        "team_name": "Orion Wanderers",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.65,
+        "average_adr": 53.6,
+        "recent_rating": 0.65,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Orion Wanderers",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.65,
+          "average_adr": 53.6
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26587",
+      "nickname": "Kev1nho0",
+      "team_name": "Orion Wanderers",
+      "rating_3_0": 0.5,
+      "maps_3m": 1,
+      "signal_index": 0,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 55.3,
+          "date": "2026-10-07",
+          "deaths": 13,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 46.7,
+          "kd_ratio": 0.54,
+          "kills": 7,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "G2 Ares",
+          "rating": 0.5,
+          "team_name": "Orion Wanderers",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "26587",
+      "source_url": "https://www.hltv.org/player/26587/kev1nho0",
+      "timeline_entry": {
+        "adr": 55.3,
+        "date": "2026-10-07",
+        "deaths": 13,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 46.7,
+        "kd_ratio": 0.54,
+        "kills": 7,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "G2 Ares",
+        "rating": 0.5,
+        "team_name": "Orion Wanderers",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.5,
+        "average_adr": 55.3,
+        "recent_rating": 0.5,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Orion Wanderers",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.5,
+          "average_adr": 55.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26589",
+      "nickname": "SpiritF0x",
+      "team_name": "Orion Wanderers",
+      "rating_3_0": 0.56,
+      "maps_3m": 1,
+      "signal_index": 6,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 61.4,
+          "date": "2026-10-07",
+          "deaths": 14,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 53.3,
+          "kd_ratio": 0.57,
+          "kills": 8,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "G2 Ares",
+          "rating": 0.56,
+          "team_name": "Orion Wanderers",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "26589",
+      "source_url": "https://www.hltv.org/player/26589/spiritf0x",
+      "timeline_entry": {
+        "adr": 61.4,
+        "date": "2026-10-07",
+        "deaths": 14,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 53.3,
+        "kd_ratio": 0.57,
+        "kills": 8,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "G2 Ares",
+        "rating": 0.56,
+        "team_name": "Orion Wanderers",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.56,
+        "average_adr": 61.4,
+        "recent_rating": 0.56,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Orion Wanderers",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.56,
+          "average_adr": 61.4
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26590",
+      "nickname": "BlazeRRR",
+      "team_name": "Orion Wanderers",
+      "rating_3_0": 0.5,
+      "maps_3m": 1,
+      "signal_index": 0,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 49.9,
+          "date": "2026-10-07",
+          "deaths": 12,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 66.7,
+          "kd_ratio": 0.58,
+          "kills": 7,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "G2 Ares",
+          "rating": 0.5,
+          "team_name": "Orion Wanderers",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "26590",
+      "source_url": "https://www.hltv.org/player/26590/blazerrr",
+      "timeline_entry": {
+        "adr": 49.9,
+        "date": "2026-10-07",
+        "deaths": 12,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 66.7,
+        "kd_ratio": 0.58,
+        "kills": 7,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "G2 Ares",
+        "rating": 0.5,
+        "team_name": "Orion Wanderers",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.5,
+        "average_adr": 49.9,
+        "recent_rating": 0.5,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Orion Wanderers",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.5,
+          "average_adr": 49.9
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25887",
+      "nickname": "Heroic",
+      "team_name": "Orion Wanderers",
+      "rating_3_0": 0.97,
+      "maps_3m": 1,
+      "signal_index": 47,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 88.3,
+          "date": "2026-10-07",
+          "deaths": 14,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 60,
+          "kd_ratio": 0.64,
+          "kills": 9,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "G2 Ares",
+          "rating": 0.97,
+          "team_name": "Orion Wanderers",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "25887",
+      "source_url": "https://www.hltv.org/player/25887/heroic",
+      "timeline_entry": {
+        "adr": 88.3,
+        "date": "2026-10-07",
+        "deaths": 14,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 60,
+        "kd_ratio": 0.64,
+        "kills": 9,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "G2 Ares",
+        "rating": 0.97,
+        "team_name": "Orion Wanderers",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.97,
+        "average_adr": 88.3,
+        "recent_rating": 0.97,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Orion Wanderers",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.97,
+          "average_adr": 88.3
+        }
+      ]
     }
   ],
-  "lineups_updated_at_utc": "2026-10-07T01:37:47Z",
+  "lineups_updated_at_utc": "2026-10-07T08:46:12Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-06",
+  "history_through_date": "2026-10-07",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
