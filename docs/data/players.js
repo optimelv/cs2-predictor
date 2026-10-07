@@ -14673,23 +14673,66 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     {
       "player_id": "hltv:25510",
       "nickname": "tikuak",
-      "team_name": "The MongolZ",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "team_name": "Chinggis Warriors",
+      "rating_3_0": 1.27,
+      "maps_3m": 3,
+      "signal_index": 77,
       "traits": {},
       "hltv_player_id": "25510",
       "source_url": "https://www.hltv.org/player/25510/tikuak",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 86.3,
+          "date": "2026-10-07",
+          "deaths": 47,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 78.2,
+          "kd_ratio": 1.4,
+          "kills": 66,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Vitalem Aerem",
+          "rating": 1.27,
+          "team_name": "Chinggis Warriors",
+          "won": true
+        }
+      ],
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 1.27,
+        "average_adr": 86.3,
+        "recent_rating": 1.27,
         "rating_delta": null
       },
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Chinggis Warriors",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.27,
+          "average_adr": 86.3
+        }
+      ],
+      "timeline_entry": {
+        "adr": 86.3,
+        "date": "2026-10-07",
+        "deaths": 47,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 78.2,
+        "kd_ratio": 1.4,
+        "kills": 66,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Vitalem Aerem",
+        "rating": 1.27,
+        "team_name": "Chinggis Warriors",
+        "won": true
+      }
     },
     {
       "player_id": "hltv:20430",
@@ -16616,71 +16659,321 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:630",
       "nickname": "MUTiRiS",
       "team_name": "SAW",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.8,
+      "maps_3m": 1,
+      "signal_index": 30,
       "traits": {},
       "hltv_player_id": "630",
       "source_url": "https://www.hltv.org/player/630/mutiris",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 58.6,
+          "date": "2026-10-07",
+          "deaths": 22,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 73.3,
+          "kd_ratio": 0.68,
+          "kills": 15,
+          "maps": 1,
+          "match_id": "hltv:2399025",
+          "opponent_name": "NAVI Junior",
+          "rating": 0.8,
+          "team_name": "SAW",
+          "won": false
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "SAW",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.8,
+          "average_adr": 58.6
+        }
+      ],
+      "timeline_entry": {
+        "adr": 58.6,
+        "date": "2026-10-07",
+        "deaths": 22,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 73.3,
+        "kd_ratio": 0.68,
+        "kills": 15,
+        "maps": 1,
+        "match_id": "hltv:2399025",
+        "opponent_name": "NAVI Junior",
+        "rating": 0.8,
+        "team_name": "SAW",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.8,
+        "average_adr": 58.6,
+        "recent_rating": 0.8,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:16102",
       "nickname": "NOPEEj",
       "team_name": "SAW",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.85,
+      "maps_3m": 1,
+      "signal_index": 35,
       "traits": {},
       "hltv_player_id": "16102",
       "source_url": "https://www.hltv.org/player/16102/nopeej",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 59.6,
+          "date": "2026-10-07",
+          "deaths": 20,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 56.7,
+          "kd_ratio": 0.75,
+          "kills": 15,
+          "maps": 1,
+          "match_id": "hltv:2399025",
+          "opponent_name": "NAVI Junior",
+          "rating": 0.85,
+          "team_name": "SAW",
+          "won": false
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "SAW",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.85,
+          "average_adr": 59.6
+        }
+      ],
+      "timeline_entry": {
+        "adr": 59.6,
+        "date": "2026-10-07",
+        "deaths": 20,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 56.7,
+        "kd_ratio": 0.75,
+        "kills": 15,
+        "maps": 1,
+        "match_id": "hltv:2399025",
+        "opponent_name": "NAVI Junior",
+        "rating": 0.85,
+        "team_name": "SAW",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.85,
+        "average_adr": 59.6,
+        "recent_rating": 0.85,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20462",
       "nickname": "story",
       "team_name": "SAW",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.14,
+      "maps_3m": 1,
+      "signal_index": 64,
       "traits": {},
       "hltv_player_id": "20462",
       "source_url": "https://www.hltv.org/player/20462/story",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 69.8,
+          "date": "2026-10-07",
+          "deaths": 20,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 60,
+          "kd_ratio": 1,
+          "kills": 20,
+          "maps": 1,
+          "match_id": "hltv:2399025",
+          "opponent_name": "NAVI Junior",
+          "rating": 1.14,
+          "team_name": "SAW",
+          "won": false
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "SAW",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.14,
+          "average_adr": 69.8
+        }
+      ],
+      "timeline_entry": {
+        "adr": 69.8,
+        "date": "2026-10-07",
+        "deaths": 20,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 60,
+        "kd_ratio": 1,
+        "kills": 20,
+        "maps": 1,
+        "match_id": "hltv:2399025",
+        "opponent_name": "NAVI Junior",
+        "rating": 1.14,
+        "team_name": "SAW",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.14,
+        "average_adr": 69.8,
+        "recent_rating": 1.14,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20464",
       "nickname": "ewjerkz",
       "team_name": "SAW",
-      "rating_3_0": null,
-      "maps_3m": 0,
+      "rating_3_0": 1,
+      "maps_3m": 1,
       "signal_index": 50,
       "traits": {},
       "hltv_player_id": "20464",
       "source_url": "https://www.hltv.org/player/20464/ewjerkz",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 72.6,
+          "date": "2026-10-07",
+          "deaths": 20,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 80,
+          "kd_ratio": 0.85,
+          "kills": 17,
+          "maps": 1,
+          "match_id": "hltv:2399025",
+          "opponent_name": "NAVI Junior",
+          "rating": 1,
+          "team_name": "SAW",
+          "won": false
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "SAW",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1,
+          "average_adr": 72.6
+        }
+      ],
+      "timeline_entry": {
+        "adr": 72.6,
+        "date": "2026-10-07",
+        "deaths": 20,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 80,
+        "kd_ratio": 0.85,
+        "kills": 17,
+        "maps": 1,
+        "match_id": "hltv:2399025",
+        "opponent_name": "NAVI Junior",
+        "rating": 1,
+        "team_name": "SAW",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1,
+        "average_adr": 72.6,
+        "recent_rating": 1,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23140",
       "nickname": "krazy",
       "team_name": "SAW",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.02,
+      "maps_3m": 1,
+      "signal_index": 52,
       "traits": {},
       "hltv_player_id": "23140",
       "source_url": "https://www.hltv.org/player/23140/krazy",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 74.8,
+          "date": "2026-10-07",
+          "deaths": 19,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 80,
+          "kd_ratio": 1.16,
+          "kills": 22,
+          "maps": 1,
+          "match_id": "hltv:2399025",
+          "opponent_name": "NAVI Junior",
+          "rating": 1.02,
+          "team_name": "SAW",
+          "won": false
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "SAW",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.02,
+          "average_adr": 74.8
+        }
+      ],
+      "timeline_entry": {
+        "adr": 74.8,
+        "date": "2026-10-07",
+        "deaths": 19,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 80,
+        "kd_ratio": 1.16,
+        "kills": 22,
+        "maps": 1,
+        "match_id": "hltv:2399025",
+        "opponent_name": "NAVI Junior",
+        "rating": 1.02,
+        "team_name": "SAW",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.02,
+        "average_adr": 74.8,
+        "recent_rating": 1.02,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25677",
@@ -23290,9 +23583,1825 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "average_adr": 88.3
         }
       ]
+    },
+    {
+      "player_id": "hltv:25110",
+      "nickname": "R4DYX",
+      "team_name": "Sangal",
+      "rating_3_0": 1.03,
+      "maps_3m": 1,
+      "signal_index": 53,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 56.9,
+          "date": "2026-10-07",
+          "deaths": 18,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 72.4,
+          "kd_ratio": 0.78,
+          "kills": 14,
+          "maps": 1,
+          "match_id": "hltv:2399026",
+          "opponent_name": "Famalicão",
+          "rating": 1.03,
+          "team_name": "Sangal",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "25110",
+      "source_url": "https://www.hltv.org/player/25110/r4dyx",
+      "timeline_entry": {
+        "adr": 56.9,
+        "date": "2026-10-07",
+        "deaths": 18,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 72.4,
+        "kd_ratio": 0.78,
+        "kills": 14,
+        "maps": 1,
+        "match_id": "hltv:2399026",
+        "opponent_name": "Famalicão",
+        "rating": 1.03,
+        "team_name": "Sangal",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.03,
+        "average_adr": 56.9,
+        "recent_rating": 1.03,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Sangal",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.03,
+          "average_adr": 56.9
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25253",
+      "nickname": "Joey",
+      "team_name": "Sangal",
+      "rating_3_0": 1.22,
+      "maps_3m": 1,
+      "signal_index": 72,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 94.6,
+          "date": "2026-10-07",
+          "deaths": 20,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 65.5,
+          "kd_ratio": 1,
+          "kills": 20,
+          "maps": 1,
+          "match_id": "hltv:2399026",
+          "opponent_name": "Famalicão",
+          "rating": 1.22,
+          "team_name": "Sangal",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "25253",
+      "source_url": "https://www.hltv.org/player/25253/joey",
+      "timeline_entry": {
+        "adr": 94.6,
+        "date": "2026-10-07",
+        "deaths": 20,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 65.5,
+        "kd_ratio": 1,
+        "kills": 20,
+        "maps": 1,
+        "match_id": "hltv:2399026",
+        "opponent_name": "Famalicão",
+        "rating": 1.22,
+        "team_name": "Sangal",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.22,
+        "average_adr": 94.6,
+        "recent_rating": 1.22,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Sangal",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.22,
+          "average_adr": 94.6
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:20309",
+      "nickname": "bnox",
+      "team_name": "Sangal",
+      "rating_3_0": 1.01,
+      "maps_3m": 1,
+      "signal_index": 51,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 77.7,
+          "date": "2026-10-07",
+          "deaths": 20,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 62.1,
+          "kd_ratio": 1.15,
+          "kills": 23,
+          "maps": 1,
+          "match_id": "hltv:2399026",
+          "opponent_name": "Famalicão",
+          "rating": 1.01,
+          "team_name": "Sangal",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "20309",
+      "source_url": "https://www.hltv.org/player/20309/bnox",
+      "timeline_entry": {
+        "adr": 77.7,
+        "date": "2026-10-07",
+        "deaths": 20,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 62.1,
+        "kd_ratio": 1.15,
+        "kills": 23,
+        "maps": 1,
+        "match_id": "hltv:2399026",
+        "opponent_name": "Famalicão",
+        "rating": 1.01,
+        "team_name": "Sangal",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.01,
+        "average_adr": 77.7,
+        "recent_rating": 1.01,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Sangal",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.01,
+          "average_adr": 77.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:19698",
+      "nickname": "adamS",
+      "team_name": "Sangal",
+      "rating_3_0": 1.34,
+      "maps_3m": 1,
+      "signal_index": 84,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 83.7,
+          "date": "2026-10-07",
+          "deaths": 15,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 79.3,
+          "kd_ratio": 1.47,
+          "kills": 22,
+          "maps": 1,
+          "match_id": "hltv:2399026",
+          "opponent_name": "Famalicão",
+          "rating": 1.34,
+          "team_name": "Sangal",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "19698",
+      "source_url": "https://www.hltv.org/player/19698/adams",
+      "timeline_entry": {
+        "adr": 83.7,
+        "date": "2026-10-07",
+        "deaths": 15,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 79.3,
+        "kd_ratio": 1.47,
+        "kills": 22,
+        "maps": 1,
+        "match_id": "hltv:2399026",
+        "opponent_name": "Famalicão",
+        "rating": 1.34,
+        "team_name": "Sangal",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.34,
+        "average_adr": 83.7,
+        "recent_rating": 1.34,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Sangal",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.34,
+          "average_adr": 83.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:22144",
+      "nickname": "puuha",
+      "team_name": "Sangal",
+      "rating_3_0": 0.96,
+      "maps_3m": 1,
+      "signal_index": 46,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 56.7,
+          "date": "2026-10-07",
+          "deaths": 16,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 75.9,
+          "kd_ratio": 1.12,
+          "kills": 18,
+          "maps": 1,
+          "match_id": "hltv:2399026",
+          "opponent_name": "Famalicão",
+          "rating": 0.96,
+          "team_name": "Sangal",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "22144",
+      "source_url": "https://www.hltv.org/player/22144/puuha",
+      "timeline_entry": {
+        "adr": 56.7,
+        "date": "2026-10-07",
+        "deaths": 16,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 75.9,
+        "kd_ratio": 1.12,
+        "kills": 18,
+        "maps": 1,
+        "match_id": "hltv:2399026",
+        "opponent_name": "Famalicão",
+        "rating": 0.96,
+        "team_name": "Sangal",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.96,
+        "average_adr": 56.7,
+        "recent_rating": 0.96,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Sangal",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.96,
+          "average_adr": 56.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:20750",
+      "nickname": "P3R3IIRA",
+      "team_name": "Famalicão",
+      "rating_3_0": 1.06,
+      "maps_3m": 1,
+      "signal_index": 56,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 64.2,
+          "date": "2026-10-07",
+          "deaths": 16,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 86.2,
+          "kd_ratio": 1,
+          "kills": 16,
+          "maps": 1,
+          "match_id": "hltv:2399026",
+          "opponent_name": "Sangal",
+          "rating": 1.06,
+          "team_name": "Famalicão",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "20750",
+      "source_url": "https://www.hltv.org/player/20750/p3r3iira",
+      "timeline_entry": {
+        "adr": 64.2,
+        "date": "2026-10-07",
+        "deaths": 16,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 86.2,
+        "kd_ratio": 1,
+        "kills": 16,
+        "maps": 1,
+        "match_id": "hltv:2399026",
+        "opponent_name": "Sangal",
+        "rating": 1.06,
+        "team_name": "Famalicão",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.06,
+        "average_adr": 64.2,
+        "recent_rating": 1.06,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Famalicão",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.06,
+          "average_adr": 64.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:23141",
+      "nickname": "seabraez",
+      "team_name": "Famalicão",
+      "rating_3_0": 1.09,
+      "maps_3m": 1,
+      "signal_index": 59,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 60.8,
+          "date": "2026-10-07",
+          "deaths": 16,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 65.5,
+          "kd_ratio": 1.06,
+          "kills": 17,
+          "maps": 1,
+          "match_id": "hltv:2399026",
+          "opponent_name": "Sangal",
+          "rating": 1.09,
+          "team_name": "Famalicão",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "23141",
+      "source_url": "https://www.hltv.org/player/23141/seabraez",
+      "timeline_entry": {
+        "adr": 60.8,
+        "date": "2026-10-07",
+        "deaths": 16,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 65.5,
+        "kd_ratio": 1.06,
+        "kills": 17,
+        "maps": 1,
+        "match_id": "hltv:2399026",
+        "opponent_name": "Sangal",
+        "rating": 1.09,
+        "team_name": "Famalicão",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.09,
+        "average_adr": 60.8,
+        "recent_rating": 1.09,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Famalicão",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.09,
+          "average_adr": 60.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:15885",
+      "nickname": "pr",
+      "team_name": "Famalicão",
+      "rating_3_0": 0.62,
+      "maps_3m": 1,
+      "signal_index": 12,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 65.3,
+          "date": "2026-10-07",
+          "deaths": 24,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 51.7,
+          "kd_ratio": 0.54,
+          "kills": 13,
+          "maps": 1,
+          "match_id": "hltv:2399026",
+          "opponent_name": "Sangal",
+          "rating": 0.62,
+          "team_name": "Famalicão",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "15885",
+      "source_url": "https://www.hltv.org/player/15885/pr",
+      "timeline_entry": {
+        "adr": 65.3,
+        "date": "2026-10-07",
+        "deaths": 24,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 51.7,
+        "kd_ratio": 0.54,
+        "kills": 13,
+        "maps": 1,
+        "match_id": "hltv:2399026",
+        "opponent_name": "Sangal",
+        "rating": 0.62,
+        "team_name": "Famalicão",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.62,
+        "average_adr": 65.3,
+        "recent_rating": 0.62,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Famalicão",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.62,
+          "average_adr": 65.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:17003",
+      "nickname": "snapy",
+      "team_name": "Famalicão",
+      "rating_3_0": 0.91,
+      "maps_3m": 1,
+      "signal_index": 41,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 81.2,
+          "date": "2026-10-07",
+          "deaths": 21,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 62.1,
+          "kd_ratio": 0.86,
+          "kills": 18,
+          "maps": 1,
+          "match_id": "hltv:2399026",
+          "opponent_name": "Sangal",
+          "rating": 0.91,
+          "team_name": "Famalicão",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "17003",
+      "source_url": "https://www.hltv.org/player/17003/snapy",
+      "timeline_entry": {
+        "adr": 81.2,
+        "date": "2026-10-07",
+        "deaths": 21,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 62.1,
+        "kd_ratio": 0.86,
+        "kills": 18,
+        "maps": 1,
+        "match_id": "hltv:2399026",
+        "opponent_name": "Sangal",
+        "rating": 0.91,
+        "team_name": "Famalicão",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.91,
+        "average_adr": 81.2,
+        "recent_rating": 0.91,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Famalicão",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.91,
+          "average_adr": 81.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:20054",
+      "nickname": "rafaxF",
+      "team_name": "Famalicão",
+      "rating_3_0": 1.04,
+      "maps_3m": 1,
+      "signal_index": 54,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 70.3,
+          "date": "2026-10-07",
+          "deaths": 20,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 69,
+          "kd_ratio": 1.25,
+          "kills": 25,
+          "maps": 1,
+          "match_id": "hltv:2399026",
+          "opponent_name": "Sangal",
+          "rating": 1.04,
+          "team_name": "Famalicão",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "20054",
+      "source_url": "https://www.hltv.org/player/20054/rafaxf",
+      "timeline_entry": {
+        "adr": 70.3,
+        "date": "2026-10-07",
+        "deaths": 20,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 69,
+        "kd_ratio": 1.25,
+        "kills": 25,
+        "maps": 1,
+        "match_id": "hltv:2399026",
+        "opponent_name": "Sangal",
+        "rating": 1.04,
+        "team_name": "Famalicão",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.04,
+        "average_adr": 70.3,
+        "recent_rating": 1.04,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Famalicão",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.04,
+          "average_adr": 70.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:19229",
+      "nickname": "ROUX",
+      "team_name": "Chinggis Warriors",
+      "rating_3_0": 1.3,
+      "maps_3m": 3,
+      "signal_index": 80,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 80.5,
+          "date": "2026-10-07",
+          "deaths": 51,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 67.9,
+          "kd_ratio": 1.14,
+          "kills": 58,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Vitalem Aerem",
+          "rating": 1.3,
+          "team_name": "Chinggis Warriors",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "19229",
+      "source_url": "https://www.hltv.org/player/19229/roux",
+      "timeline_entry": {
+        "adr": 80.5,
+        "date": "2026-10-07",
+        "deaths": 51,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 67.9,
+        "kd_ratio": 1.14,
+        "kills": 58,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Vitalem Aerem",
+        "rating": 1.3,
+        "team_name": "Chinggis Warriors",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.3,
+        "average_adr": 80.5,
+        "recent_rating": 1.3,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Chinggis Warriors",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.3,
+          "average_adr": 80.5
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:18638",
+      "nickname": "sk0R",
+      "team_name": "Chinggis Warriors",
+      "rating_3_0": 0.82,
+      "maps_3m": 3,
+      "signal_index": 32,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 57.3,
+          "date": "2026-10-07",
+          "deaths": 49,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 69.2,
+          "kd_ratio": 0.86,
+          "kills": 42,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Vitalem Aerem",
+          "rating": 0.82,
+          "team_name": "Chinggis Warriors",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "18638",
+      "source_url": "https://www.hltv.org/player/18638/sk0r",
+      "timeline_entry": {
+        "adr": 57.3,
+        "date": "2026-10-07",
+        "deaths": 49,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 69.2,
+        "kd_ratio": 0.86,
+        "kills": 42,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Vitalem Aerem",
+        "rating": 0.82,
+        "team_name": "Chinggis Warriors",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.82,
+        "average_adr": 57.3,
+        "recent_rating": 0.82,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Chinggis Warriors",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.82,
+          "average_adr": 57.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:19537",
+      "nickname": "cool4st",
+      "team_name": "Chinggis Warriors",
+      "rating_3_0": 1.14,
+      "maps_3m": 3,
+      "signal_index": 64,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 71.3,
+          "date": "2026-10-07",
+          "deaths": 38,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 82.1,
+          "kd_ratio": 1.39,
+          "kills": 53,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Vitalem Aerem",
+          "rating": 1.14,
+          "team_name": "Chinggis Warriors",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "19537",
+      "source_url": "https://www.hltv.org/player/19537/cool4st",
+      "timeline_entry": {
+        "adr": 71.3,
+        "date": "2026-10-07",
+        "deaths": 38,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 82.1,
+        "kd_ratio": 1.39,
+        "kills": 53,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Vitalem Aerem",
+        "rating": 1.14,
+        "team_name": "Chinggis Warriors",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.14,
+        "average_adr": 71.3,
+        "recent_rating": 1.14,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Chinggis Warriors",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.14,
+          "average_adr": 71.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:21428",
+      "nickname": "fury5k",
+      "team_name": "Chinggis Warriors",
+      "rating_3_0": 0.98,
+      "maps_3m": 3,
+      "signal_index": 48,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 70.7,
+          "date": "2026-10-07",
+          "deaths": 50,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 70.5,
+          "kd_ratio": 0.9,
+          "kills": 45,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Vitalem Aerem",
+          "rating": 0.98,
+          "team_name": "Chinggis Warriors",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "21428",
+      "source_url": "https://www.hltv.org/player/21428/fury5k",
+      "timeline_entry": {
+        "adr": 70.7,
+        "date": "2026-10-07",
+        "deaths": 50,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 70.5,
+        "kd_ratio": 0.9,
+        "kills": 45,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Vitalem Aerem",
+        "rating": 0.98,
+        "team_name": "Chinggis Warriors",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.98,
+        "average_adr": 70.7,
+        "recent_rating": 0.98,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Chinggis Warriors",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.98,
+          "average_adr": 70.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:23906",
+      "nickname": "Substitute",
+      "team_name": "Vitalem Aerem",
+      "rating_3_0": 1.22,
+      "maps_3m": 3,
+      "signal_index": 72,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 83.5,
+          "date": "2026-10-07",
+          "deaths": 53,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 73.1,
+          "kd_ratio": 1.04,
+          "kills": 55,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Chinggis Warriors",
+          "rating": 1.22,
+          "team_name": "Vitalem Aerem",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "23906",
+      "source_url": "https://www.hltv.org/player/23906/prokiller",
+      "timeline_entry": {
+        "adr": 83.5,
+        "date": "2026-10-07",
+        "deaths": 53,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 73.1,
+        "kd_ratio": 1.04,
+        "kills": 55,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Chinggis Warriors",
+        "rating": 1.22,
+        "team_name": "Vitalem Aerem",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.22,
+        "average_adr": 83.5,
+        "recent_rating": 1.22,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Vitalem Aerem",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.22,
+          "average_adr": 83.5
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:16768",
+      "nickname": "lan",
+      "team_name": "Vitalem Aerem",
+      "rating_3_0": 1,
+      "maps_3m": 3,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 63.5,
+          "date": "2026-10-07",
+          "deaths": 48,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 69.2,
+          "kd_ratio": 1.04,
+          "kills": 50,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Chinggis Warriors",
+          "rating": 1,
+          "team_name": "Vitalem Aerem",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "16768",
+      "source_url": "https://www.hltv.org/player/16768/lan",
+      "timeline_entry": {
+        "adr": 63.5,
+        "date": "2026-10-07",
+        "deaths": 48,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 69.2,
+        "kd_ratio": 1.04,
+        "kills": 50,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Chinggis Warriors",
+        "rating": 1,
+        "team_name": "Vitalem Aerem",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1,
+        "average_adr": 63.5,
+        "recent_rating": 1,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Vitalem Aerem",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1,
+          "average_adr": 63.5
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:16778",
+      "nickname": "B1NGO",
+      "team_name": "Vitalem Aerem",
+      "rating_3_0": 0.79,
+      "maps_3m": 3,
+      "signal_index": 29,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 53,
+          "date": "2026-10-07",
+          "deaths": 53,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 64.1,
+          "kd_ratio": 0.68,
+          "kills": 36,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Chinggis Warriors",
+          "rating": 0.79,
+          "team_name": "Vitalem Aerem",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "16778",
+      "source_url": "https://www.hltv.org/player/16778/b1ngo",
+      "timeline_entry": {
+        "adr": 53,
+        "date": "2026-10-07",
+        "deaths": 53,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 64.1,
+        "kd_ratio": 0.68,
+        "kills": 36,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Chinggis Warriors",
+        "rating": 0.79,
+        "team_name": "Vitalem Aerem",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.79,
+        "average_adr": 53,
+        "recent_rating": 0.79,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Vitalem Aerem",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.79,
+          "average_adr": 53
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:19735",
+      "nickname": "Roninbaby",
+      "team_name": "Vitalem Aerem",
+      "rating_3_0": 0.91,
+      "maps_3m": 3,
+      "signal_index": 41,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 73.9,
+          "date": "2026-10-07",
+          "deaths": 65,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 59,
+          "kd_ratio": 0.83,
+          "kills": 54,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Chinggis Warriors",
+          "rating": 0.91,
+          "team_name": "Vitalem Aerem",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "19735",
+      "source_url": "https://www.hltv.org/player/19735/roninbaby",
+      "timeline_entry": {
+        "adr": 73.9,
+        "date": "2026-10-07",
+        "deaths": 65,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 59,
+        "kd_ratio": 0.83,
+        "kills": 54,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Chinggis Warriors",
+        "rating": 0.91,
+        "team_name": "Vitalem Aerem",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.91,
+        "average_adr": 73.9,
+        "recent_rating": 0.91,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Vitalem Aerem",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.91,
+          "average_adr": 73.9
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:24963",
+      "nickname": "rain",
+      "team_name": "Vitalem Aerem",
+      "rating_3_0": 0.9,
+      "maps_3m": 3,
+      "signal_index": 40,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 55.8,
+          "date": "2026-10-07",
+          "deaths": 45,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 60.3,
+          "kd_ratio": 0.89,
+          "kills": 40,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Chinggis Warriors",
+          "rating": 0.9,
+          "team_name": "Vitalem Aerem",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "24963",
+      "source_url": "https://www.hltv.org/player/24963/rain",
+      "timeline_entry": {
+        "adr": 55.8,
+        "date": "2026-10-07",
+        "deaths": 45,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 60.3,
+        "kd_ratio": 0.89,
+        "kills": 40,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Chinggis Warriors",
+        "rating": 0.9,
+        "team_name": "Vitalem Aerem",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.9,
+        "average_adr": 55.8,
+        "recent_rating": 0.9,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Vitalem Aerem",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.9,
+          "average_adr": 55.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:23753",
+      "nickname": "MahaR",
+      "team_name": "NAVI Junior",
+      "rating_3_0": 0.93,
+      "maps_3m": 1,
+      "signal_index": 43,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 65.8,
+          "date": "2026-10-07",
+          "deaths": 18,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 83.3,
+          "kd_ratio": 0.94,
+          "kills": 17,
+          "maps": 1,
+          "match_id": "hltv:2399025",
+          "opponent_name": "SAW",
+          "rating": 0.93,
+          "team_name": "NAVI Junior",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "23753",
+      "source_url": "https://www.hltv.org/player/23753/mahar",
+      "timeline_entry": {
+        "adr": 65.8,
+        "date": "2026-10-07",
+        "deaths": 18,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 83.3,
+        "kd_ratio": 0.94,
+        "kills": 17,
+        "maps": 1,
+        "match_id": "hltv:2399025",
+        "opponent_name": "SAW",
+        "rating": 0.93,
+        "team_name": "NAVI Junior",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.93,
+        "average_adr": 65.8,
+        "recent_rating": 0.93,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "NAVI Junior",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.93,
+          "average_adr": 65.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25060",
+      "nickname": "FAZERY",
+      "team_name": "NAVI Junior",
+      "rating_3_0": 1.48,
+      "maps_3m": 1,
+      "signal_index": 98,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 89.2,
+          "date": "2026-10-07",
+          "deaths": 17,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 73.3,
+          "kd_ratio": 1.59,
+          "kills": 27,
+          "maps": 1,
+          "match_id": "hltv:2399025",
+          "opponent_name": "SAW",
+          "rating": 1.48,
+          "team_name": "NAVI Junior",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "25060",
+      "source_url": "https://www.hltv.org/player/25060/fazery",
+      "timeline_entry": {
+        "adr": 89.2,
+        "date": "2026-10-07",
+        "deaths": 17,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 73.3,
+        "kd_ratio": 1.59,
+        "kills": 27,
+        "maps": 1,
+        "match_id": "hltv:2399025",
+        "opponent_name": "SAW",
+        "rating": 1.48,
+        "team_name": "NAVI Junior",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.48,
+        "average_adr": 89.2,
+        "recent_rating": 1.48,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "NAVI Junior",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.48,
+          "average_adr": 89.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25675",
+      "nickname": "kodak",
+      "team_name": "NAVI Junior",
+      "rating_3_0": 1.18,
+      "maps_3m": 1,
+      "signal_index": 68,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 82.8,
+          "date": "2026-10-07",
+          "deaths": 18,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 80,
+          "kd_ratio": 1.06,
+          "kills": 19,
+          "maps": 1,
+          "match_id": "hltv:2399025",
+          "opponent_name": "SAW",
+          "rating": 1.18,
+          "team_name": "NAVI Junior",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "25675",
+      "source_url": "https://www.hltv.org/player/25675/kodak",
+      "timeline_entry": {
+        "adr": 82.8,
+        "date": "2026-10-07",
+        "deaths": 18,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 80,
+        "kd_ratio": 1.06,
+        "kills": 19,
+        "maps": 1,
+        "match_id": "hltv:2399025",
+        "opponent_name": "SAW",
+        "rating": 1.18,
+        "team_name": "NAVI Junior",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.18,
+        "average_adr": 82.8,
+        "recent_rating": 1.18,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "NAVI Junior",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.18,
+          "average_adr": 82.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25674",
+      "nickname": "yoki",
+      "team_name": "NAVI Junior",
+      "rating_3_0": 0.84,
+      "maps_3m": 1,
+      "signal_index": 34,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 64.1,
+          "date": "2026-10-07",
+          "deaths": 18,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 76.7,
+          "kd_ratio": 0.89,
+          "kills": 16,
+          "maps": 1,
+          "match_id": "hltv:2399025",
+          "opponent_name": "SAW",
+          "rating": 0.84,
+          "team_name": "NAVI Junior",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "25674",
+      "source_url": "https://www.hltv.org/player/25674/yoki",
+      "timeline_entry": {
+        "adr": 64.1,
+        "date": "2026-10-07",
+        "deaths": 18,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 76.7,
+        "kd_ratio": 0.89,
+        "kills": 16,
+        "maps": 1,
+        "match_id": "hltv:2399025",
+        "opponent_name": "SAW",
+        "rating": 0.84,
+        "team_name": "NAVI Junior",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.84,
+        "average_adr": 64.1,
+        "recent_rating": 0.84,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "NAVI Junior",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.84,
+          "average_adr": 64.1
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25478",
+      "nickname": "skizzyee",
+      "team_name": "NAVI Junior",
+      "rating_3_0": 1.23,
+      "maps_3m": 1,
+      "signal_index": 73,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 77.9,
+          "date": "2026-10-07",
+          "deaths": 19,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 76.7,
+          "kd_ratio": 1.16,
+          "kills": 22,
+          "maps": 1,
+          "match_id": "hltv:2399025",
+          "opponent_name": "SAW",
+          "rating": 1.23,
+          "team_name": "NAVI Junior",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "25478",
+      "source_url": "https://www.hltv.org/player/25478/skizzyee",
+      "timeline_entry": {
+        "adr": 77.9,
+        "date": "2026-10-07",
+        "deaths": 19,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 76.7,
+        "kd_ratio": 1.16,
+        "kills": 22,
+        "maps": 1,
+        "match_id": "hltv:2399025",
+        "opponent_name": "SAW",
+        "rating": 1.23,
+        "team_name": "NAVI Junior",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.23,
+        "average_adr": 77.9,
+        "recent_rating": 1.23,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "NAVI Junior",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.23,
+          "average_adr": 77.9
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:14548",
+      "nickname": "maty",
+      "team_name": "Azuolas",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "14548",
+      "source_url": "https://www.hltv.org/player/14548/maty",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:25164",
+      "nickname": "Sh1karee",
+      "team_name": "Azuolas",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "25164",
+      "source_url": "https://www.hltv.org/player/25164/sh1karee",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:21216",
+      "nickname": "yakuza",
+      "team_name": "Azuolas",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "21216",
+      "source_url": "https://www.hltv.org/player/21216/yakuza",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:23077",
+      "nickname": "StreakN",
+      "team_name": "Azuolas",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "23077",
+      "source_url": "https://www.hltv.org/player/23077/streakn",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:21215",
+      "nickname": "tooi",
+      "team_name": "Azuolas",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "21215",
+      "source_url": "https://www.hltv.org/player/21215/tooi",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:8555",
+      "nickname": "jayzaR",
+      "team_name": "megoshort",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "8555",
+      "source_url": "https://www.hltv.org/player/8555/jayzar",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:7700",
+      "nickname": "robiin",
+      "team_name": "megoshort",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "7700",
+      "source_url": "https://www.hltv.org/player/7700/robiin",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:17769",
+      "nickname": "Twinkey",
+      "team_name": "megoshort",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "17769",
+      "source_url": "https://www.hltv.org/player/17769/twinkey",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:14316",
+      "nickname": "zen",
+      "team_name": "megoshort",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "14316",
+      "source_url": "https://www.hltv.org/player/14316/zen",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:13665",
+      "nickname": "Siz",
+      "team_name": "megoshort",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "13665",
+      "source_url": "https://www.hltv.org/player/13665/siz",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:25009",
+      "nickname": "Aldikon",
+      "team_name": "Omega",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "25009",
+      "source_url": "https://www.hltv.org/player/25009/aldikon",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:24021",
+      "nickname": "adai",
+      "team_name": "Omega",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "24021",
+      "source_url": "https://www.hltv.org/player/24021/adai",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:25011",
+      "nickname": "dan4o",
+      "team_name": "Omega",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "25011",
+      "source_url": "https://www.hltv.org/player/25011/dan4o",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:25010",
+      "nickname": "Botpa1",
+      "team_name": "Omega",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "25010",
+      "source_url": "https://www.hltv.org/player/25010/botpa1",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:22537",
+      "nickname": "def1zer",
+      "team_name": "Omega",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "22537",
+      "source_url": "https://www.hltv.org/player/22537/def1zer",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:25046",
+      "nickname": "Santuriano",
+      "team_name": "Noir Verse",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "25046",
+      "source_url": "https://www.hltv.org/player/25046/santuriano",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:26178",
+      "nickname": "xeNji",
+      "team_name": "Noir Verse",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "26178",
+      "source_url": "https://www.hltv.org/player/26178/xenji",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:24944",
+      "nickname": "Naginat",
+      "team_name": "Noir Verse",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "24944",
+      "source_url": "https://www.hltv.org/player/24944/naginat",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:25163",
+      "nickname": "kirxttu",
+      "team_name": "Noir Verse",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "25163",
+      "source_url": "https://www.hltv.org/player/25163/kirxttu",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:26400",
+      "nickname": "wh1temink",
+      "team_name": "Noir Verse",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "26400",
+      "source_url": "https://www.hltv.org/player/26400/wh1temink",
+      "map_profile": [],
+      "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-07T08:46:12Z",
+  "lineups_updated_at_utc": "2026-10-07T16:35:44Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-07",
   "history_profile_count": 53,

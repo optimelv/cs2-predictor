@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-07T08:46:12Z",
+  "generated_at_utc": "2026-10-07T16:35:44Z",
   "through_date": "2026-10-07",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3587,
-    "maps": 2677,
-    "lineup_rows": 8660,
+    "matches": 3621,
+    "maps": 2682,
+    "lineup_rows": 8690,
     "source_match_ids": 976
   },
   "matches": [
@@ -46,7 +46,7 @@
       "winner_name": "benched gods",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -80,7 +80,7 @@
       "winner_name": "G2 Ares",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -108,6 +108,828 @@
           "SpiritF0x",
           "BlazeRRR",
           "Heroic"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399011",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "OG",
+      "team2_name": "PURE",
+      "score1": 6,
+      "score2": 13,
+      "winner_name": "PURE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399012",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "Falcons Force",
+      "team2_name": "SINQU",
+      "score1": 13,
+      "score2": 8,
+      "winner_name": "Falcons Force",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399015",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "OG",
+      "team2_name": "Orion Wanderers",
+      "score1": 13,
+      "score2": 2,
+      "winner_name": "OG",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399013",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "G2 Ares",
+      "team2_name": "Falcons Force",
+      "score1": 13,
+      "score2": 7,
+      "winner_name": "G2 Ares",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399014",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "PURE",
+      "team2_name": "SINQU",
+      "score1": 13,
+      "score2": 9,
+      "winner_name": "PURE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399018",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "PURE",
+      "team2_name": "Orion Wanderers",
+      "score1": 13,
+      "score2": 8,
+      "winner_name": "PURE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399016",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "G2 Ares",
+      "team2_name": "SINQU",
+      "score1": 13,
+      "score2": 5,
+      "winner_name": "G2 Ares",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399017",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "OG",
+      "team2_name": "Falcons Force",
+      "score1": 6,
+      "score2": 13,
+      "winner_name": "Falcons Force",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399021",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "Falcons Force",
+      "team2_name": "Orion Wanderers",
+      "score1": 13,
+      "score2": 5,
+      "winner_name": "Falcons Force",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399019",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "G2 Ares",
+      "team2_name": "PURE",
+      "score1": 3,
+      "score2": 13,
+      "winner_name": "PURE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399020",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "OG",
+      "team2_name": "SINQU",
+      "score1": 13,
+      "score2": 9,
+      "winner_name": "OG",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398400",
+      "match_date": "2026-10-07",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Gothic",
+      "team2_name": "EAC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Gothic",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399024",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "SINQU",
+      "team2_name": "Orion Wanderers",
+      "score1": 13,
+      "score2": 7,
+      "winner_name": "SINQU",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399023",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "PURE",
+      "team2_name": "Falcons Force",
+      "score1": 13,
+      "score2": 6,
+      "winner_name": "PURE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399022",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "G2 Ares",
+      "team2_name": "OG",
+      "score1": 7,
+      "score2": 13,
+      "winner_name": "OG",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399149",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "THE UNIT",
+      "team2_name": "XDM",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "THE UNIT",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399271",
+      "match_date": "2026-10-07",
+      "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
+      "team1_name": "Enjoy",
+      "team2_name": "Illyrians",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Enjoy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399151",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "Alter Ego",
+      "team2_name": "Legion",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Alter Ego",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399348",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 8",
+      "team1_name": "LFO 10",
+      "team2_name": "MAYBE",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "LFO 10",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399343",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 8",
+      "team1_name": "Vexar",
+      "team2_name": "Saint Sinners",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Saint Sinners",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399344",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 8",
+      "team1_name": "Just Players",
+      "team2_name": "Revise",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Just Players",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399154",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "bLight blue",
+      "team2_name": "Rare Atom",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Rare Atom",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399342",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 8",
+      "team1_name": "The Last Resort",
+      "team2_name": "Privateer",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "The Last Resort",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399150",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "The KnockoutX",
+      "team2_name": "The Huns",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "The KnockoutX",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399152",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "Nas",
+      "team2_name": "Kaleido",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Kaleido",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399347",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 8",
+      "team1_name": "BERG",
+      "team2_name": "mellren",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BERG",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399346",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 8",
+      "team1_name": "Leo",
+      "team2_name": "Ryvex",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Leo",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399153",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "Just Swing",
+      "team2_name": "BORING PLAYERS",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Just Swing",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399027",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "RBLS",
+      "team2_name": "Lazer Cats",
+      "score1": 8,
+      "score2": 13,
+      "winner_name": "Lazer Cats",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399349",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 8",
+      "team1_name": "MOUZ NXT",
+      "team2_name": "ENCE",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "MOUZ NXT",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399345",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Europe Cup 8",
+      "team1_name": "Banda Chuya",
+      "team2_name": "HYPERSPIRIT",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "HYPERSPIRIT",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399026",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "Sangal",
+      "team2_name": "Famalicão",
+      "score1": 16,
+      "score2": 13,
+      "winner_name": "Sangal",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Cache",
+          "score1": 16,
+          "score2": 13,
+          "winner_name": "Sangal",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "R4DYX",
+          "Joey",
+          "bnox",
+          "adamS",
+          "puuha"
+        ],
+        "team2": [
+          "P3R3IIRA",
+          "seabraez",
+          "pr",
+          "snapy",
+          "rafaxF"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399148",
+      "match_date": "2026-10-07",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "Chinggis Warriors",
+      "team2_name": "Vitalem Aerem",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Chinggis Warriors",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "Vitalem Aerem",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 11,
+          "winner_name": "Chinggis Warriors",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 16,
+          "score2": 14,
+          "winner_name": "Chinggis Warriors",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "ROUX",
+          "sk0R",
+          "cool4st",
+          "tikuak",
+          "fury5k"
+        ],
+        "team2": [
+          "Substitute",
+          "lan",
+          "B1NGO",
+          "Roninbaby",
+          "rain"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399025",
+      "match_date": "2026-10-07",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "SAW",
+      "team2_name": "NAVI Junior",
+      "score1": 14,
+      "score2": 16,
+      "winner_name": "NAVI Junior",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 14,
+          "score2": 16,
+          "winner_name": "NAVI Junior",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "MUTiRiS",
+          "story",
+          "NOPEEj",
+          "krazy",
+          "ewjerkz"
+        ],
+        "team2": [
+          "MahaR",
+          "FAZERY",
+          "kodak",
+          "yoki",
+          "skizzyee"
         ]
       }
     },
