@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3647,
+    "matches": 3651,
     "maps": 2682,
     "lineup_rows": 8690,
     "source_match_ids": 976
@@ -1504,6 +1504,72 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:e9f6eec03c4a1098ed16",
+      "match_date": "2026-10-07",
+      "starts_at": "2026-10-07T12:00:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 5",
+      "team1_name": "9z",
+      "team2_name": "FURIA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_5"
+    },
+    {
+      "match_id": "liquipedia:5239d3aaf87f284bccaf",
+      "match_date": "2026-10-07",
+      "starts_at": "2026-10-07T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Playoffs",
+      "team1_name": "Noir",
+      "team2_name": "OMEGA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Noir",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:a3f570f9880d9cae4e49",
+      "match_date": "2026-10-07",
+      "starts_at": "2026-10-07T14:30:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 5",
+      "team1_name": "NAVI",
+      "team2_name": "PV",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "PV",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_5"
     },
     {
       "match_id": "hltv:2398396",
@@ -49121,6 +49187,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_A"
+    },
+    {
+      "match_id": "liquipedia:7df3fde1b0e07579a796",
+      "match_date": "2026-07-29",
+      "starts_at": "2026-07-29T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #10 - Round 4",
+      "team1_name": "33",
+      "team2_name": "Vexar",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Vexar",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/10#Round_4"
     },
     {
       "match_id": "hltv:2396008",
