@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3657,
+    "matches": 3659,
     "maps": 2682,
     "lineup_rows": 8690,
     "source_match_ids": 976
@@ -1702,6 +1702,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:3b196f31e07d8ae344c2",
+      "match_date": "2026-10-07",
+      "starts_at": "2026-10-07T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #3",
+      "team1_name": "BH",
+      "team2_name": "Procyon",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BH",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:74dcd78f266f12d0a0c9",
+      "match_date": "2026-10-07",
+      "starts_at": "2026-10-07T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #3",
+      "team1_name": "ex-kStars",
+      "team2_name": "QUINTESS",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-kStars",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
     },
     {
       "match_id": "hltv:2398396",
