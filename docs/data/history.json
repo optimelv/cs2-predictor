@@ -1,18 +1,172 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-10-08T02:01:15Z",
-  "through_date": "2026-10-07",
+  "through_date": "2026-10-08",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3659,
+    "matches": 3668,
     "maps": 2682,
     "lineup_rows": 8690,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:0b02ebda4e7a1aeb1b0f",
+      "match_date": "2026-10-08",
+      "starts_at": "2026-10-08T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "ex-Reign Above",
+      "team2_name": "Overtake",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Overtake",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:18c9a0e08fd8c5addb04",
+      "match_date": "2026-10-08",
+      "starts_at": "2026-10-08T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "DTN",
+      "team2_name": "EMPIRE",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "DTN",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:306a488c4dfc3253e698",
+      "match_date": "2026-10-08",
+      "starts_at": "2026-10-08T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "FarmVille",
+      "team2_name": "Villainous",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FarmVille",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:5ab7f11ac95d77efb626",
+      "match_date": "2026-10-08",
+      "starts_at": "2026-10-08T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "Desi",
+      "team2_name": "OK",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Desi",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:9b91c55a27a72078ae3f",
+      "match_date": "2026-10-08",
+      "starts_at": "2026-10-08T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "Stormboar",
+      "team2_name": "WG",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Stormboar",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:d018c79f76237b91d055",
+      "match_date": "2026-10-08",
+      "starts_at": "2026-10-08T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "333",
+      "team2_name": "Zomblers",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Zomblers",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:f27aae345dbcb9509762",
+      "match_date": "2026-10-08",
+      "starts_at": "2026-10-08T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "regain",
+      "team2_name": "Traders",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "regain",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
+    },
     {
       "match_id": "hltv:2398399",
       "match_date": "2026-10-07",
@@ -1746,6 +1900,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:5cd99ed79411bb79a47b",
+      "match_date": "2026-10-07",
+      "starts_at": "2026-10-07T17:20:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Playoffs",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Iber. Soul",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Iber. Soul",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:addb01e069e7305596c4",
+      "match_date": "2026-10-07",
+      "starts_at": "2026-10-07T18:10:00Z",
+      "event_name": "ESL Pro League Season 24 - Round 5",
+      "team1_name": "M80",
+      "team2_name": "Spirit",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_5"
     },
     {
       "match_id": "hltv:2398396",

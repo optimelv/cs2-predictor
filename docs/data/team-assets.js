@@ -2110,5 +2110,15 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "Atlantis",
     "logo_url": "https://liquipedia.net/commons/images/thumb/a/a1/Atlantis_Esports_lightmode.png/36px-Atlantis_Esports_lightmode.png",
     "source": "Liquipedia"
+  },
+  "ok": {
+    "name": "OK",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/b8/OverKnight_allmode.png/53px-OverKnight_allmode.png",
+    "source": "Liquipedia"
+  },
+  "csa": {
+    "name": "CSA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/24/Clutch_Studio_Agency_lightmode.png/51px-Clutch_Studio_Agency_lightmode.png",
+    "source": "Liquipedia"
   }
 };
