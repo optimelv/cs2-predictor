@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3694,
+    "matches": 3697,
     "maps": 2682,
     "lineup_rows": 8690,
     "source_match_ids": 976
@@ -738,6 +738,28 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:d48e9ebe297c72de380c",
+      "match_date": "2026-10-08",
+      "starts_at": "2026-10-08T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #10 - Playoffs",
+      "team1_name": "Acend",
+      "team2_name": "ex-Z10",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Acend",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Playoffs"
     },
     {
       "match_id": "hltv:2398399",
@@ -2516,6 +2538,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_5"
+    },
+    {
+      "match_id": "liquipedia:16d7af897b2bea91e8c9",
+      "match_date": "2026-10-07",
+      "starts_at": "2026-10-07T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #3",
+      "team1_name": "BORRA",
+      "team2_name": "TDP",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "TDP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:9b932151995176894d38",
+      "match_date": "2026-10-07",
+      "starts_at": "2026-10-07T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #3",
+      "team1_name": "Alka",
+      "team2_name": "BESTIA.A",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Alka",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
     },
     {
       "match_id": "hltv:2398396",
