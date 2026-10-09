@@ -14652,23 +14652,66 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     {
       "player_id": "hltv:26013",
       "nickname": "DarkMeister",
-      "team_name": "The MongolZ",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "team_name": "The Huns",
+      "rating_3_0": 1.16,
+      "maps_3m": 3,
+      "signal_index": 66,
       "traits": {},
       "hltv_player_id": "26013",
       "source_url": "https://www.hltv.org/player/26013/darkmeister",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 85.6,
+          "date": "2026-10-09",
+          "deaths": 54,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 65.3,
+          "kd_ratio": 1.09,
+          "kills": 59,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "Alter Ego",
+          "rating": 1.16,
+          "team_name": "The Huns",
+          "won": false
+        }
+      ],
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 1.16,
+        "average_adr": 85.6,
+        "recent_rating": 1.16,
         "rating_delta": null
       },
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "The Huns",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.16,
+          "average_adr": 85.6
+        }
+      ],
+      "timeline_entry": {
+        "adr": 85.6,
+        "date": "2026-10-09",
+        "deaths": 54,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 65.3,
+        "kd_ratio": 1.09,
+        "kills": 59,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "Alter Ego",
+        "rating": 1.16,
+        "team_name": "The Huns",
+        "won": false
+      }
     },
     {
       "player_id": "hltv:25510",
@@ -19175,15 +19218,65 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:21398",
       "nickname": "controlez",
       "team_name": "The Huns",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.99,
+      "maps_3m": 3,
+      "signal_index": 49,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 79.5,
+          "date": "2026-10-09",
+          "deaths": 56,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 65.3,
+          "kd_ratio": 0.89,
+          "kills": 50,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "Alter Ego",
+          "rating": 0.99,
+          "team_name": "The Huns",
+          "won": false
+        }
+      ],
       "hltv_player_id": "21398",
       "source_url": "https://www.hltv.org/player/21398/controlez",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "The Huns",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.99,
+          "average_adr": 79.5
+        }
+      ],
+      "timeline_entry": {
+        "adr": 79.5,
+        "date": "2026-10-09",
+        "deaths": 56,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 65.3,
+        "kd_ratio": 0.89,
+        "kills": 50,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "Alter Ego",
+        "rating": 0.99,
+        "team_name": "The Huns",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.99,
+        "average_adr": 79.5,
+        "recent_rating": 0.99,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:15072",
@@ -19217,29 +19310,129 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:19957",
       "nickname": "Bart4k",
       "team_name": "The Huns",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.97,
+      "maps_3m": 3,
+      "signal_index": 47,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 71.2,
+          "date": "2026-10-09",
+          "deaths": 53,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 68.1,
+          "kd_ratio": 0.89,
+          "kills": 47,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "Alter Ego",
+          "rating": 0.97,
+          "team_name": "The Huns",
+          "won": false
+        }
+      ],
       "hltv_player_id": "19957",
       "source_url": "https://www.hltv.org/player/19957/bart4k",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "The Huns",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.97,
+          "average_adr": 71.2
+        }
+      ],
+      "timeline_entry": {
+        "adr": 71.2,
+        "date": "2026-10-09",
+        "deaths": 53,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 68.1,
+        "kd_ratio": 0.89,
+        "kills": 47,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "Alter Ego",
+        "rating": 0.97,
+        "team_name": "The Huns",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.97,
+        "average_adr": 71.2,
+        "recent_rating": 0.97,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24512",
       "nickname": "Cozen",
       "team_name": "The Huns",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.82,
+      "maps_3m": 3,
+      "signal_index": 32,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 66,
+          "date": "2026-10-09",
+          "deaths": 59,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 66.7,
+          "kd_ratio": 0.61,
+          "kills": 36,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "Alter Ego",
+          "rating": 0.82,
+          "team_name": "The Huns",
+          "won": false
+        }
+      ],
       "hltv_player_id": "24512",
       "source_url": "https://www.hltv.org/player/24512/cozen",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "The Huns",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.82,
+          "average_adr": 66
+        }
+      ],
+      "timeline_entry": {
+        "adr": 66,
+        "date": "2026-10-09",
+        "deaths": 59,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 66.7,
+        "kd_ratio": 0.61,
+        "kills": 36,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "Alter Ego",
+        "rating": 0.82,
+        "team_name": "The Huns",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.82,
+        "average_adr": 66,
+        "recent_rating": 0.82,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:21014",
@@ -22948,9 +23141,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:19065",
       "nickname": "SHiNE",
       "team_name": "G2 Ares",
-      "rating_3_0": 1.38,
-      "maps_3m": 1,
-      "signal_index": 88,
+      "rating_3_0": 0.82,
+      "maps_3m": 3,
+      "signal_index": 32,
       "traits": {},
       "form_timeline": [
         {
@@ -22967,30 +23160,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.38,
           "team_name": "G2 Ares",
           "won": true
+        },
+        {
+          "adr": 57.7,
+          "date": "2026-10-09",
+          "deaths": 40,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 71.7,
+          "kd_ratio": 0.78,
+          "kills": 31,
+          "maps": 3,
+          "match_id": "hltv:2399049",
+          "opponent_name": "NAVI Junior",
+          "rating": 0.82,
+          "team_name": "G2 Ares",
+          "won": false
         }
       ],
       "hltv_player_id": "19065",
       "source_url": "https://www.hltv.org/player/19065/shine",
       "timeline_entry": {
-        "adr": 74.3,
-        "date": "2026-10-07",
-        "deaths": 6,
+        "adr": 57.7,
+        "date": "2026-10-09",
+        "deaths": 40,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 73.3,
-        "kd_ratio": 1.33,
-        "kills": 8,
-        "maps": 1,
-        "match_id": "hltv:2399010",
-        "opponent_name": "Orion Wanderers",
-        "rating": 1.38,
+        "kast": 71.7,
+        "kd_ratio": 0.78,
+        "kills": 31,
+        "maps": 3,
+        "match_id": "hltv:2399049",
+        "opponent_name": "NAVI Junior",
+        "rating": 0.82,
         "team_name": "G2 Ares",
-        "won": true
+        "won": false
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.38,
-        "average_adr": 74.3,
-        "recent_rating": 1.38,
+        "series": 2,
+        "average_rating": 1.1,
+        "average_adr": 66,
+        "recent_rating": 1.1,
         "rating_delta": null
       },
       "map_profile": [],
@@ -22998,13 +23206,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.38,
-          "average_adr": 74.3
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.1,
+          "average_adr": 66
         }
       ]
     },
@@ -23012,9 +23220,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:23544",
       "nickname": "hitori",
       "team_name": "G2 Ares",
-      "rating_3_0": 1.03,
-      "maps_3m": 1,
-      "signal_index": 53,
+      "rating_3_0": 1.05,
+      "maps_3m": 3,
+      "signal_index": 55,
       "traits": {},
       "form_timeline": [
         {
@@ -23031,30 +23239,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.03,
           "team_name": "G2 Ares",
           "won": true
+        },
+        {
+          "adr": 71.5,
+          "date": "2026-10-09",
+          "deaths": 36,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 68.3,
+          "kd_ratio": 0.92,
+          "kills": 33,
+          "maps": 3,
+          "match_id": "hltv:2399049",
+          "opponent_name": "NAVI Junior",
+          "rating": 1.05,
+          "team_name": "G2 Ares",
+          "won": false
         }
       ],
       "hltv_player_id": "23544",
       "source_url": "https://www.hltv.org/player/23544/hitori",
       "timeline_entry": {
-        "adr": 57.7,
-        "date": "2026-10-07",
-        "deaths": 10,
+        "adr": 71.5,
+        "date": "2026-10-09",
+        "deaths": 36,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 86.7,
-        "kd_ratio": 0.9,
-        "kills": 9,
-        "maps": 1,
-        "match_id": "hltv:2399010",
-        "opponent_name": "Orion Wanderers",
-        "rating": 1.03,
+        "kast": 68.3,
+        "kd_ratio": 0.92,
+        "kills": 33,
+        "maps": 3,
+        "match_id": "hltv:2399049",
+        "opponent_name": "NAVI Junior",
+        "rating": 1.05,
         "team_name": "G2 Ares",
-        "won": true
+        "won": false
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.03,
-        "average_adr": 57.7,
-        "recent_rating": 1.03,
+        "series": 2,
+        "average_rating": 1.04,
+        "average_adr": 64.6,
+        "recent_rating": 1.04,
         "rating_delta": null
       },
       "map_profile": [],
@@ -23062,13 +23285,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.03,
-          "average_adr": 57.7
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.04,
+          "average_adr": 64.6
         }
       ]
     },
@@ -23076,9 +23299,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:24111",
       "nickname": "Junyme",
       "team_name": "G2 Ares",
-      "rating_3_0": 1.64,
-      "maps_3m": 1,
-      "signal_index": 100,
+      "rating_3_0": 1.04,
+      "maps_3m": 3,
+      "signal_index": 54,
       "traits": {},
       "form_timeline": [
         {
@@ -23095,30 +23318,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.64,
           "team_name": "G2 Ares",
           "won": true
+        },
+        {
+          "adr": 67.5,
+          "date": "2026-10-09",
+          "deaths": 39,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 70,
+          "kd_ratio": 0.97,
+          "kills": 38,
+          "maps": 3,
+          "match_id": "hltv:2399049",
+          "opponent_name": "NAVI Junior",
+          "rating": 1.04,
+          "team_name": "G2 Ares",
+          "won": false
         }
       ],
       "hltv_player_id": "24111",
       "source_url": "https://www.hltv.org/player/24111/junyme",
       "timeline_entry": {
-        "adr": 95.5,
-        "date": "2026-10-07",
-        "deaths": 10,
+        "adr": 67.5,
+        "date": "2026-10-09",
+        "deaths": 39,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 80,
-        "kd_ratio": 1.2,
-        "kills": 12,
-        "maps": 1,
-        "match_id": "hltv:2399010",
-        "opponent_name": "Orion Wanderers",
-        "rating": 1.64,
+        "kast": 70,
+        "kd_ratio": 0.97,
+        "kills": 38,
+        "maps": 3,
+        "match_id": "hltv:2399049",
+        "opponent_name": "NAVI Junior",
+        "rating": 1.04,
         "team_name": "G2 Ares",
-        "won": true
+        "won": false
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.64,
-        "average_adr": 95.5,
-        "recent_rating": 1.64,
+        "series": 2,
+        "average_rating": 1.34,
+        "average_adr": 81.5,
+        "recent_rating": 1.34,
         "rating_delta": null
       },
       "map_profile": [],
@@ -23126,13 +23364,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.64,
-          "average_adr": 95.5
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.34,
+          "average_adr": 81.5
         }
       ]
     },
@@ -23140,9 +23378,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:25576",
       "nickname": "yksjupe",
       "team_name": "G2 Ares",
-      "rating_3_0": 2.22,
-      "maps_3m": 1,
-      "signal_index": 100,
+      "rating_3_0": 1.12,
+      "maps_3m": 3,
+      "signal_index": 62,
       "traits": {},
       "form_timeline": [
         {
@@ -23159,30 +23397,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 2.22,
           "team_name": "G2 Ares",
           "won": true
+        },
+        {
+          "adr": 72.1,
+          "date": "2026-10-09",
+          "deaths": 44,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 75,
+          "kd_ratio": 0.98,
+          "kills": 43,
+          "maps": 3,
+          "match_id": "hltv:2399049",
+          "opponent_name": "NAVI Junior",
+          "rating": 1.12,
+          "team_name": "G2 Ares",
+          "won": false
         }
       ],
       "hltv_player_id": "25576",
       "source_url": "https://www.hltv.org/player/25576/yksjupe",
       "timeline_entry": {
-        "adr": 118.7,
-        "date": "2026-10-07",
-        "deaths": 7,
+        "adr": 72.1,
+        "date": "2026-10-09",
+        "deaths": 44,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 80,
-        "kd_ratio": 2.57,
-        "kills": 18,
-        "maps": 1,
-        "match_id": "hltv:2399010",
-        "opponent_name": "Orion Wanderers",
-        "rating": 2.22,
+        "kast": 75,
+        "kd_ratio": 0.98,
+        "kills": 43,
+        "maps": 3,
+        "match_id": "hltv:2399049",
+        "opponent_name": "NAVI Junior",
+        "rating": 1.12,
         "team_name": "G2 Ares",
-        "won": true
+        "won": false
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 2.22,
-        "average_adr": 118.7,
-        "recent_rating": 2.22,
+        "series": 2,
+        "average_rating": 1.67,
+        "average_adr": 95.4,
+        "recent_rating": 1.67,
         "rating_delta": null
       },
       "map_profile": [],
@@ -23190,13 +23443,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 2.22,
-          "average_adr": 118.7
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.67,
+          "average_adr": 95.4
         }
       ]
     },
@@ -23204,9 +23457,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:23237",
       "nickname": "TMKj",
       "team_name": "G2 Ares",
-      "rating_3_0": 2.54,
-      "maps_3m": 1,
-      "signal_index": 100,
+      "rating_3_0": 1.26,
+      "maps_3m": 3,
+      "signal_index": 76,
       "traits": {},
       "form_timeline": [
         {
@@ -23223,30 +23476,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 2.54,
           "team_name": "G2 Ares",
           "won": true
+        },
+        {
+          "adr": 90.2,
+          "date": "2026-10-09",
+          "deaths": 46,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 80,
+          "kd_ratio": 1,
+          "kills": 46,
+          "maps": 3,
+          "match_id": "hltv:2399049",
+          "opponent_name": "NAVI Junior",
+          "rating": 1.26,
+          "team_name": "G2 Ares",
+          "won": false
         }
       ],
       "hltv_player_id": "23237",
       "source_url": "https://www.hltv.org/player/23237/tmkj",
       "timeline_entry": {
-        "adr": 100.2,
-        "date": "2026-10-07",
-        "deaths": 5,
+        "adr": 90.2,
+        "date": "2026-10-09",
+        "deaths": 46,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 86.7,
-        "kd_ratio": 3.6,
-        "kills": 18,
-        "maps": 1,
-        "match_id": "hltv:2399010",
-        "opponent_name": "Orion Wanderers",
-        "rating": 2.54,
+        "kast": 80,
+        "kd_ratio": 1,
+        "kills": 46,
+        "maps": 3,
+        "match_id": "hltv:2399049",
+        "opponent_name": "NAVI Junior",
+        "rating": 1.26,
         "team_name": "G2 Ares",
-        "won": true
+        "won": false
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 2.54,
-        "average_adr": 100.2,
-        "recent_rating": 2.54,
+        "series": 2,
+        "average_rating": 1.9,
+        "average_adr": 95.2,
+        "recent_rating": 1.9,
         "rating_delta": null
       },
       "map_profile": [],
@@ -23254,13 +23522,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 2.54,
-          "average_adr": 100.2
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.9,
+          "average_adr": 95.2
         }
       ]
     },
@@ -24482,7 +24750,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:23906",
-      "nickname": "Substitute",
+      "nickname": "ProKiller",
       "team_name": "Vitalem Aerem",
       "rating_3_0": 1.22,
       "maps_3m": 3,
@@ -24804,9 +25072,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:23753",
       "nickname": "MahaR",
       "team_name": "NAVI Junior",
-      "rating_3_0": 0.93,
-      "maps_3m": 1,
-      "signal_index": 43,
+      "rating_3_0": 1.08,
+      "maps_3m": 3,
+      "signal_index": 58,
       "traits": {},
       "form_timeline": [
         {
@@ -24823,30 +25091,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 0.93,
           "team_name": "NAVI Junior",
           "won": true
+        },
+        {
+          "adr": 75.2,
+          "date": "2026-10-09",
+          "deaths": 37,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 78.3,
+          "kd_ratio": 1.03,
+          "kills": 38,
+          "maps": 3,
+          "match_id": "hltv:2399049",
+          "opponent_name": "G2 Ares",
+          "rating": 1.08,
+          "team_name": "NAVI Junior",
+          "won": true
         }
       ],
       "hltv_player_id": "23753",
       "source_url": "https://www.hltv.org/player/23753/mahar",
       "timeline_entry": {
-        "adr": 65.8,
-        "date": "2026-10-07",
-        "deaths": 18,
+        "adr": 75.2,
+        "date": "2026-10-09",
+        "deaths": 37,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 83.3,
-        "kd_ratio": 0.94,
-        "kills": 17,
-        "maps": 1,
-        "match_id": "hltv:2399025",
-        "opponent_name": "SAW",
-        "rating": 0.93,
+        "kast": 78.3,
+        "kd_ratio": 1.03,
+        "kills": 38,
+        "maps": 3,
+        "match_id": "hltv:2399049",
+        "opponent_name": "G2 Ares",
+        "rating": 1.08,
         "team_name": "NAVI Junior",
         "won": true
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.93,
-        "average_adr": 65.8,
-        "recent_rating": 0.93,
+        "series": 2,
+        "average_rating": 1.01,
+        "average_adr": 70.5,
+        "recent_rating": 1.01,
         "rating_delta": null
       },
       "map_profile": [],
@@ -24854,13 +25137,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "NAVI Junior",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.93,
-          "average_adr": 65.8
+          "average_rating": 1.01,
+          "average_adr": 70.5
         }
       ]
     },
@@ -24868,9 +25151,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:25060",
       "nickname": "FAZERY",
       "team_name": "NAVI Junior",
-      "rating_3_0": 1.48,
-      "maps_3m": 1,
-      "signal_index": 98,
+      "rating_3_0": 1.19,
+      "maps_3m": 3,
+      "signal_index": 69,
       "traits": {},
       "form_timeline": [
         {
@@ -24887,30 +25170,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.48,
           "team_name": "NAVI Junior",
           "won": true
+        },
+        {
+          "adr": 79,
+          "date": "2026-10-09",
+          "deaths": 36,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 70,
+          "kd_ratio": 1.17,
+          "kills": 42,
+          "maps": 3,
+          "match_id": "hltv:2399049",
+          "opponent_name": "G2 Ares",
+          "rating": 1.19,
+          "team_name": "NAVI Junior",
+          "won": true
         }
       ],
       "hltv_player_id": "25060",
       "source_url": "https://www.hltv.org/player/25060/fazery",
       "timeline_entry": {
-        "adr": 89.2,
-        "date": "2026-10-07",
-        "deaths": 17,
+        "adr": 79,
+        "date": "2026-10-09",
+        "deaths": 36,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 73.3,
-        "kd_ratio": 1.59,
-        "kills": 27,
-        "maps": 1,
-        "match_id": "hltv:2399025",
-        "opponent_name": "SAW",
-        "rating": 1.48,
+        "kast": 70,
+        "kd_ratio": 1.17,
+        "kills": 42,
+        "maps": 3,
+        "match_id": "hltv:2399049",
+        "opponent_name": "G2 Ares",
+        "rating": 1.19,
         "team_name": "NAVI Junior",
         "won": true
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.48,
-        "average_adr": 89.2,
-        "recent_rating": 1.48,
+        "series": 2,
+        "average_rating": 1.33,
+        "average_adr": 84.1,
+        "recent_rating": 1.33,
         "rating_delta": null
       },
       "map_profile": [],
@@ -24918,13 +25216,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "NAVI Junior",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.48,
-          "average_adr": 89.2
+          "average_rating": 1.33,
+          "average_adr": 84.1
         }
       ]
     },
@@ -24932,9 +25230,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:25675",
       "nickname": "kodak",
       "team_name": "NAVI Junior",
-      "rating_3_0": 1.18,
-      "maps_3m": 1,
-      "signal_index": 68,
+      "rating_3_0": 0.89,
+      "maps_3m": 3,
+      "signal_index": 39,
       "traits": {},
       "form_timeline": [
         {
@@ -24951,30 +25249,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.18,
           "team_name": "NAVI Junior",
           "won": true
+        },
+        {
+          "adr": 61.5,
+          "date": "2026-10-09",
+          "deaths": 37,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 78.3,
+          "kd_ratio": 0.89,
+          "kills": 33,
+          "maps": 3,
+          "match_id": "hltv:2399049",
+          "opponent_name": "G2 Ares",
+          "rating": 0.89,
+          "team_name": "NAVI Junior",
+          "won": true
         }
       ],
       "hltv_player_id": "25675",
       "source_url": "https://www.hltv.org/player/25675/kodak",
       "timeline_entry": {
-        "adr": 82.8,
-        "date": "2026-10-07",
-        "deaths": 18,
+        "adr": 61.5,
+        "date": "2026-10-09",
+        "deaths": 37,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 80,
-        "kd_ratio": 1.06,
-        "kills": 19,
-        "maps": 1,
-        "match_id": "hltv:2399025",
-        "opponent_name": "SAW",
-        "rating": 1.18,
+        "kast": 78.3,
+        "kd_ratio": 0.89,
+        "kills": 33,
+        "maps": 3,
+        "match_id": "hltv:2399049",
+        "opponent_name": "G2 Ares",
+        "rating": 0.89,
         "team_name": "NAVI Junior",
         "won": true
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.18,
-        "average_adr": 82.8,
-        "recent_rating": 1.18,
+        "series": 2,
+        "average_rating": 1.03,
+        "average_adr": 72.2,
+        "recent_rating": 1.03,
         "rating_delta": null
       },
       "map_profile": [],
@@ -24982,13 +25295,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "NAVI Junior",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.18,
-          "average_adr": 82.8
+          "average_rating": 1.03,
+          "average_adr": 72.2
         }
       ]
     },
@@ -24996,9 +25309,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:25674",
       "nickname": "yoki",
       "team_name": "NAVI Junior",
-      "rating_3_0": 0.84,
-      "maps_3m": 1,
-      "signal_index": 34,
+      "rating_3_0": 1.17,
+      "maps_3m": 3,
+      "signal_index": 67,
       "traits": {},
       "form_timeline": [
         {
@@ -25015,30 +25328,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 0.84,
           "team_name": "NAVI Junior",
           "won": true
+        },
+        {
+          "adr": 83.8,
+          "date": "2026-10-09",
+          "deaths": 36,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 70,
+          "kd_ratio": 1.39,
+          "kills": 50,
+          "maps": 3,
+          "match_id": "hltv:2399049",
+          "opponent_name": "G2 Ares",
+          "rating": 1.17,
+          "team_name": "NAVI Junior",
+          "won": true
         }
       ],
       "hltv_player_id": "25674",
       "source_url": "https://www.hltv.org/player/25674/yoki",
       "timeline_entry": {
-        "adr": 64.1,
-        "date": "2026-10-07",
-        "deaths": 18,
+        "adr": 83.8,
+        "date": "2026-10-09",
+        "deaths": 36,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 76.7,
-        "kd_ratio": 0.89,
-        "kills": 16,
-        "maps": 1,
-        "match_id": "hltv:2399025",
-        "opponent_name": "SAW",
-        "rating": 0.84,
+        "kast": 70,
+        "kd_ratio": 1.39,
+        "kills": 50,
+        "maps": 3,
+        "match_id": "hltv:2399049",
+        "opponent_name": "G2 Ares",
+        "rating": 1.17,
         "team_name": "NAVI Junior",
         "won": true
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.84,
-        "average_adr": 64.1,
-        "recent_rating": 0.84,
+        "series": 2,
+        "average_rating": 1,
+        "average_adr": 73.9,
+        "recent_rating": 1,
         "rating_delta": null
       },
       "map_profile": [],
@@ -25046,13 +25374,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "NAVI Junior",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.84,
-          "average_adr": 64.1
+          "average_rating": 1,
+          "average_adr": 73.9
         }
       ]
     },
@@ -25060,9 +25388,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:25478",
       "nickname": "skizzyee",
       "team_name": "NAVI Junior",
-      "rating_3_0": 1.23,
-      "maps_3m": 1,
-      "signal_index": 73,
+      "rating_3_0": 0.99,
+      "maps_3m": 3,
+      "signal_index": 49,
       "traits": {},
       "form_timeline": [
         {
@@ -25079,30 +25407,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.23,
           "team_name": "NAVI Junior",
           "won": true
+        },
+        {
+          "adr": 79.5,
+          "date": "2026-10-09",
+          "deaths": 45,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 63.3,
+          "kd_ratio": 0.93,
+          "kills": 42,
+          "maps": 3,
+          "match_id": "hltv:2399049",
+          "opponent_name": "G2 Ares",
+          "rating": 0.99,
+          "team_name": "NAVI Junior",
+          "won": true
         }
       ],
       "hltv_player_id": "25478",
       "source_url": "https://www.hltv.org/player/25478/skizzyee",
       "timeline_entry": {
-        "adr": 77.9,
-        "date": "2026-10-07",
-        "deaths": 19,
+        "adr": 79.5,
+        "date": "2026-10-09",
+        "deaths": 45,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 76.7,
-        "kd_ratio": 1.16,
-        "kills": 22,
-        "maps": 1,
-        "match_id": "hltv:2399025",
-        "opponent_name": "SAW",
-        "rating": 1.23,
+        "kast": 63.3,
+        "kd_ratio": 0.93,
+        "kills": 42,
+        "maps": 3,
+        "match_id": "hltv:2399049",
+        "opponent_name": "G2 Ares",
+        "rating": 0.99,
         "team_name": "NAVI Junior",
         "won": true
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.23,
-        "average_adr": 77.9,
-        "recent_rating": 1.23,
+        "series": 2,
+        "average_rating": 1.11,
+        "average_adr": 78.7,
+        "recent_rating": 1.11,
         "rating_delta": null
       },
       "map_profile": [],
@@ -25110,13 +25453,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "NAVI Junior",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.23,
-          "average_adr": 77.9
+          "average_rating": 1.11,
+          "average_adr": 78.7
         }
       ]
     },
@@ -26603,11 +26946,465 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "source_url": "https://www.hltv.org/player/26811/stage",
       "map_profile": [],
       "roster_eras": []
+    },
+    {
+      "player_id": "hltv:26124",
+      "nickname": "bexyz",
+      "team_name": "The Huns",
+      "rating_3_0": 1.03,
+      "maps_3m": 3,
+      "signal_index": 53,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 69.9,
+          "date": "2026-10-09",
+          "deaths": 49,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 69.4,
+          "kd_ratio": 0.96,
+          "kills": 47,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "Alter Ego",
+          "rating": 1.03,
+          "team_name": "The Huns",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "26124",
+      "source_url": "https://www.hltv.org/player/26124/bexyz",
+      "timeline_entry": {
+        "adr": 69.9,
+        "date": "2026-10-09",
+        "deaths": 49,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 69.4,
+        "kd_ratio": 0.96,
+        "kills": 47,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "Alter Ego",
+        "rating": 1.03,
+        "team_name": "The Huns",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.03,
+        "average_adr": 69.9,
+        "recent_rating": 1.03,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "The Huns",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.03,
+          "average_adr": 69.9
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:23956",
+      "nickname": "Substitute",
+      "team_name": "Alter Ego",
+      "rating_3_0": 1.06,
+      "maps_3m": 3,
+      "signal_index": 56,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 80.8,
+          "date": "2026-10-09",
+          "deaths": 48,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 75,
+          "kd_ratio": 1.17,
+          "kills": 56,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "The Huns",
+          "rating": 1.06,
+          "team_name": "Alter Ego",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "23956",
+      "source_url": "https://www.hltv.org/player/23956/bloody",
+      "timeline_entry": {
+        "adr": 80.8,
+        "date": "2026-10-09",
+        "deaths": 48,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 75,
+        "kd_ratio": 1.17,
+        "kills": 56,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "The Huns",
+        "rating": 1.06,
+        "team_name": "Alter Ego",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.06,
+        "average_adr": 80.8,
+        "recent_rating": 1.06,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Alter Ego",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.06,
+          "average_adr": 80.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:18223",
+      "nickname": "PokemoN",
+      "team_name": "Alter Ego",
+      "rating_3_0": 0.9,
+      "maps_3m": 3,
+      "signal_index": 40,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 69.8,
+          "date": "2026-10-09",
+          "deaths": 55,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 73.6,
+          "kd_ratio": 0.78,
+          "kills": 43,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "The Huns",
+          "rating": 0.9,
+          "team_name": "Alter Ego",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "18223",
+      "source_url": "https://www.hltv.org/player/18223/pokemon",
+      "timeline_entry": {
+        "adr": 69.8,
+        "date": "2026-10-09",
+        "deaths": 55,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 73.6,
+        "kd_ratio": 0.78,
+        "kills": 43,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "The Huns",
+        "rating": 0.9,
+        "team_name": "Alter Ego",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.9,
+        "average_adr": 69.8,
+        "recent_rating": 0.9,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Alter Ego",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.9,
+          "average_adr": 69.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:20003",
+      "nickname": "shadiy",
+      "team_name": "Alter Ego",
+      "rating_3_0": 1.51,
+      "maps_3m": 3,
+      "signal_index": 100,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 93.3,
+          "date": "2026-10-09",
+          "deaths": 45,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 81.9,
+          "kd_ratio": 1.42,
+          "kills": 64,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "The Huns",
+          "rating": 1.51,
+          "team_name": "Alter Ego",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "20003",
+      "source_url": "https://www.hltv.org/player/20003/shadiy",
+      "timeline_entry": {
+        "adr": 93.3,
+        "date": "2026-10-09",
+        "deaths": 45,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 81.9,
+        "kd_ratio": 1.42,
+        "kills": 64,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "The Huns",
+        "rating": 1.51,
+        "team_name": "Alter Ego",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.51,
+        "average_adr": 93.3,
+        "recent_rating": 1.51,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Alter Ego",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.51,
+          "average_adr": 93.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:23458",
+      "nickname": "laxiee",
+      "team_name": "Alter Ego",
+      "rating_3_0": 1,
+      "maps_3m": 3,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 69.7,
+          "date": "2026-10-09",
+          "deaths": 50,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 72.2,
+          "kd_ratio": 0.9,
+          "kills": 45,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "The Huns",
+          "rating": 1,
+          "team_name": "Alter Ego",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "23458",
+      "source_url": "https://www.hltv.org/player/23458/laxiee",
+      "timeline_entry": {
+        "adr": 69.7,
+        "date": "2026-10-09",
+        "deaths": 50,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 72.2,
+        "kd_ratio": 0.9,
+        "kills": 45,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "The Huns",
+        "rating": 1,
+        "team_name": "Alter Ego",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1,
+        "average_adr": 69.7,
+        "recent_rating": 1,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Alter Ego",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1,
+          "average_adr": 69.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:21211",
+      "nickname": "adeX",
+      "team_name": "Alter Ego",
+      "rating_3_0": 1.22,
+      "maps_3m": 3,
+      "signal_index": 72,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 86,
+          "date": "2026-10-09",
+          "deaths": 43,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 73.6,
+          "kd_ratio": 1.35,
+          "kills": 58,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "The Huns",
+          "rating": 1.22,
+          "team_name": "Alter Ego",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "21211",
+      "source_url": "https://www.hltv.org/player/21211/adex",
+      "timeline_entry": {
+        "adr": 86,
+        "date": "2026-10-09",
+        "deaths": 43,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 73.6,
+        "kd_ratio": 1.35,
+        "kills": 58,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "The Huns",
+        "rating": 1.22,
+        "team_name": "Alter Ego",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.22,
+        "average_adr": 86,
+        "recent_rating": 1.22,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Alter Ego",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.22,
+          "average_adr": 86
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:20600",
+      "nickname": "sm3t",
+      "team_name": "Just Players",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "20600",
+      "source_url": "https://www.hltv.org/player/20600/sm3t",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:21431",
+      "nickname": "sstiNiX",
+      "team_name": "Just Players",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "21431",
+      "source_url": "https://www.hltv.org/player/21431/sstinix",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:25322",
+      "nickname": "Temny Prince",
+      "team_name": "Just Players",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "25322",
+      "source_url": "https://www.hltv.org/player/25322/temny-prince",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:24903",
+      "nickname": "wh1teout",
+      "team_name": "Just Players",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "24903",
+      "source_url": "https://www.hltv.org/player/24903/wh1teout",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:19231",
+      "nickname": "h1te",
+      "team_name": "Just Players",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "19231",
+      "source_url": "https://www.hltv.org/player/19231/h1te",
+      "map_profile": [],
+      "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-09T02:14:54Z",
+  "lineups_updated_at_utc": "2026-10-09T16:19:46Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-07",
+  "history_through_date": "2026-10-09",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
