@@ -23856,9 +23856,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:25110",
       "nickname": "R4DYX",
       "team_name": "Sangal",
-      "rating_3_0": 1.03,
-      "maps_3m": 1,
-      "signal_index": 53,
+      "rating_3_0": 1.13,
+      "maps_3m": 3,
+      "signal_index": 63,
       "traits": {},
       "form_timeline": [
         {
@@ -23875,30 +23875,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.03,
           "team_name": "Sangal",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399046",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "EAC",
+          "team_name": "Sangal",
+          "won": true,
+          "kills": 22,
+          "deaths": 18,
+          "kd_ratio": 1.22,
+          "adr": 67.5,
+          "kast": 67.5,
+          "rating": 1.13,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25110",
       "source_url": "https://www.hltv.org/player/25110/r4dyx",
       "timeline_entry": {
-        "adr": 56.9,
-        "date": "2026-10-07",
-        "deaths": 18,
+        "match_id": "hltv:2399046",
+        "date": "2026-10-09",
         "event_name": "Roman Imperium Cup IX",
-        "kast": 72.4,
-        "kd_ratio": 0.78,
-        "kills": 14,
-        "maps": 1,
-        "match_id": "hltv:2399026",
-        "opponent_name": "Famalicão",
-        "rating": 1.03,
+        "opponent_name": "EAC",
         "team_name": "Sangal",
-        "won": true
+        "won": true,
+        "kills": 22,
+        "deaths": 18,
+        "kd_ratio": 1.22,
+        "adr": 67.5,
+        "kast": 67.5,
+        "rating": 1.13,
+        "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.03,
-        "average_adr": 56.9,
-        "recent_rating": 1.03,
+        "series": 2,
+        "average_rating": 1.08,
+        "average_adr": 62.2,
+        "recent_rating": 1.08,
         "rating_delta": null
       },
       "map_profile": [],
@@ -23906,13 +23921,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Sangal",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.03,
-          "average_adr": 56.9
+          "average_rating": 1.08,
+          "average_adr": 62.2
         }
       ]
     },
@@ -23920,9 +23935,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:25253",
       "nickname": "Joey",
       "team_name": "Sangal",
-      "rating_3_0": 1.22,
-      "maps_3m": 1,
-      "signal_index": 72,
+      "rating_3_0": 1.18,
+      "maps_3m": 3,
+      "signal_index": 68,
       "traits": {},
       "form_timeline": [
         {
@@ -23939,30 +23954,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.22,
           "team_name": "Sangal",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399046",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "EAC",
+          "team_name": "Sangal",
+          "won": true,
+          "kills": 31,
+          "deaths": 24,
+          "kd_ratio": 1.29,
+          "adr": 88.9,
+          "kast": 75,
+          "rating": 1.18,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25253",
       "source_url": "https://www.hltv.org/player/25253/joey",
       "timeline_entry": {
-        "adr": 94.6,
-        "date": "2026-10-07",
-        "deaths": 20,
+        "match_id": "hltv:2399046",
+        "date": "2026-10-09",
         "event_name": "Roman Imperium Cup IX",
-        "kast": 65.5,
-        "kd_ratio": 1,
-        "kills": 20,
-        "maps": 1,
-        "match_id": "hltv:2399026",
-        "opponent_name": "Famalicão",
-        "rating": 1.22,
+        "opponent_name": "EAC",
         "team_name": "Sangal",
-        "won": true
+        "won": true,
+        "kills": 31,
+        "deaths": 24,
+        "kd_ratio": 1.29,
+        "adr": 88.9,
+        "kast": 75,
+        "rating": 1.18,
+        "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.22,
-        "average_adr": 94.6,
-        "recent_rating": 1.22,
+        "series": 2,
+        "average_rating": 1.2,
+        "average_adr": 91.8,
+        "recent_rating": 1.2,
         "rating_delta": null
       },
       "map_profile": [],
@@ -23970,13 +24000,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Sangal",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.22,
-          "average_adr": 94.6
+          "average_rating": 1.2,
+          "average_adr": 91.8
         }
       ]
     },
@@ -23984,9 +24014,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:20309",
       "nickname": "bnox",
       "team_name": "Sangal",
-      "rating_3_0": 1.01,
-      "maps_3m": 1,
-      "signal_index": 51,
+      "rating_3_0": 1.3,
+      "maps_3m": 3,
+      "signal_index": 80,
       "traits": {},
       "form_timeline": [
         {
@@ -24003,30 +24033,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.01,
           "team_name": "Sangal",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399046",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "EAC",
+          "team_name": "Sangal",
+          "won": true,
+          "kills": 31,
+          "deaths": 22,
+          "kd_ratio": 1.41,
+          "adr": 77.8,
+          "kast": 87.5,
+          "rating": 1.3,
+          "maps": 3
         }
       ],
       "hltv_player_id": "20309",
       "source_url": "https://www.hltv.org/player/20309/bnox",
       "timeline_entry": {
-        "adr": 77.7,
-        "date": "2026-10-07",
-        "deaths": 20,
+        "match_id": "hltv:2399046",
+        "date": "2026-10-09",
         "event_name": "Roman Imperium Cup IX",
-        "kast": 62.1,
-        "kd_ratio": 1.15,
-        "kills": 23,
-        "maps": 1,
-        "match_id": "hltv:2399026",
-        "opponent_name": "Famalicão",
-        "rating": 1.01,
+        "opponent_name": "EAC",
         "team_name": "Sangal",
-        "won": true
+        "won": true,
+        "kills": 31,
+        "deaths": 22,
+        "kd_ratio": 1.41,
+        "adr": 77.8,
+        "kast": 87.5,
+        "rating": 1.3,
+        "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.01,
-        "average_adr": 77.7,
-        "recent_rating": 1.01,
+        "series": 2,
+        "average_rating": 1.16,
+        "average_adr": 77.8,
+        "recent_rating": 1.16,
         "rating_delta": null
       },
       "map_profile": [],
@@ -24034,13 +24079,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Sangal",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.01,
-          "average_adr": 77.7
+          "average_rating": 1.16,
+          "average_adr": 77.8
         }
       ]
     },
@@ -24048,9 +24093,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:19698",
       "nickname": "adamS",
       "team_name": "Sangal",
-      "rating_3_0": 1.34,
-      "maps_3m": 1,
-      "signal_index": 84,
+      "rating_3_0": 1.42,
+      "maps_3m": 3,
+      "signal_index": 92,
       "traits": {},
       "form_timeline": [
         {
@@ -24067,30 +24112,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.34,
           "team_name": "Sangal",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399046",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "EAC",
+          "team_name": "Sangal",
+          "won": true,
+          "kills": 35,
+          "deaths": 19,
+          "kd_ratio": 1.84,
+          "adr": 85.9,
+          "kast": 85,
+          "rating": 1.42,
+          "maps": 3
         }
       ],
       "hltv_player_id": "19698",
       "source_url": "https://www.hltv.org/player/19698/adams",
       "timeline_entry": {
-        "adr": 83.7,
-        "date": "2026-10-07",
-        "deaths": 15,
+        "match_id": "hltv:2399046",
+        "date": "2026-10-09",
         "event_name": "Roman Imperium Cup IX",
-        "kast": 79.3,
-        "kd_ratio": 1.47,
-        "kills": 22,
-        "maps": 1,
-        "match_id": "hltv:2399026",
-        "opponent_name": "Famalicão",
-        "rating": 1.34,
+        "opponent_name": "EAC",
         "team_name": "Sangal",
-        "won": true
+        "won": true,
+        "kills": 35,
+        "deaths": 19,
+        "kd_ratio": 1.84,
+        "adr": 85.9,
+        "kast": 85,
+        "rating": 1.42,
+        "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.34,
-        "average_adr": 83.7,
-        "recent_rating": 1.34,
+        "series": 2,
+        "average_rating": 1.38,
+        "average_adr": 84.8,
+        "recent_rating": 1.38,
         "rating_delta": null
       },
       "map_profile": [],
@@ -24098,13 +24158,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Sangal",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.34,
-          "average_adr": 83.7
+          "average_rating": 1.38,
+          "average_adr": 84.8
         }
       ]
     },
@@ -24112,9 +24172,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:22144",
       "nickname": "puuha",
       "team_name": "Sangal",
-      "rating_3_0": 0.96,
-      "maps_3m": 1,
-      "signal_index": 46,
+      "rating_3_0": 1.34,
+      "maps_3m": 3,
+      "signal_index": 84,
       "traits": {},
       "form_timeline": [
         {
@@ -24131,30 +24191,45 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 0.96,
           "team_name": "Sangal",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399046",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "EAC",
+          "team_name": "Sangal",
+          "won": true,
+          "kills": 32,
+          "deaths": 23,
+          "kd_ratio": 1.39,
+          "adr": 89.8,
+          "kast": 85,
+          "rating": 1.34,
+          "maps": 3
         }
       ],
       "hltv_player_id": "22144",
       "source_url": "https://www.hltv.org/player/22144/puuha",
       "timeline_entry": {
-        "adr": 56.7,
-        "date": "2026-10-07",
-        "deaths": 16,
+        "match_id": "hltv:2399046",
+        "date": "2026-10-09",
         "event_name": "Roman Imperium Cup IX",
-        "kast": 75.9,
-        "kd_ratio": 1.12,
-        "kills": 18,
-        "maps": 1,
-        "match_id": "hltv:2399026",
-        "opponent_name": "Famalicão",
-        "rating": 0.96,
+        "opponent_name": "EAC",
         "team_name": "Sangal",
-        "won": true
+        "won": true,
+        "kills": 32,
+        "deaths": 23,
+        "kd_ratio": 1.39,
+        "adr": 89.8,
+        "kast": 85,
+        "rating": 1.34,
+        "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.96,
-        "average_adr": 56.7,
-        "recent_rating": 0.96,
+        "series": 2,
+        "average_rating": 1.15,
+        "average_adr": 73.3,
+        "recent_rating": 1.15,
         "rating_delta": null
       },
       "map_profile": [],
@@ -24162,13 +24237,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Sangal",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-09",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.96,
-          "average_adr": 56.7
+          "average_rating": 1.15,
+          "average_adr": 73.3
         }
       ]
     },
@@ -26489,71 +26564,321 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:19733",
       "nickname": "DemQQ",
       "team_name": "WBT",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.47,
+      "maps_3m": 3,
+      "signal_index": 97,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "INFINITE",
+          "team_name": "WBT",
+          "won": true,
+          "kills": 36,
+          "deaths": 26,
+          "kd_ratio": 1.38,
+          "adr": 80.3,
+          "kast": 75.6,
+          "rating": 1.47,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "19733",
       "source_url": "https://www.hltv.org/player/19733/demqq",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "WBT",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.47,
+          "average_adr": 80.3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "INFINITE",
+        "team_name": "WBT",
+        "won": true,
+        "kills": 36,
+        "deaths": 26,
+        "kd_ratio": 1.38,
+        "adr": 80.3,
+        "kast": 75.6,
+        "rating": 1.47,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.47,
+        "average_adr": 80.3,
+        "recent_rating": 1.47,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:19614",
       "nickname": "s4ltovsk1yy",
       "team_name": "WBT",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.08,
+      "maps_3m": 3,
+      "signal_index": 58,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "INFINITE",
+          "team_name": "WBT",
+          "won": true,
+          "kills": 23,
+          "deaths": 21,
+          "kd_ratio": 1.1,
+          "adr": 62.5,
+          "kast": 75.6,
+          "rating": 1.08,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "19614",
       "source_url": "https://www.hltv.org/player/19614/s4ltovsk1yy",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "WBT",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.08,
+          "average_adr": 62.5
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "INFINITE",
+        "team_name": "WBT",
+        "won": true,
+        "kills": 23,
+        "deaths": 21,
+        "kd_ratio": 1.1,
+        "adr": 62.5,
+        "kast": 75.6,
+        "rating": 1.08,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.08,
+        "average_adr": 62.5,
+        "recent_rating": 1.08,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:16563",
       "nickname": "Psycho",
       "team_name": "WBT",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.9,
+      "maps_3m": 3,
+      "signal_index": 40,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "INFINITE",
+          "team_name": "WBT",
+          "won": true,
+          "kills": 24,
+          "deaths": 25,
+          "kd_ratio": 0.96,
+          "adr": 58.9,
+          "kast": 63.4,
+          "rating": 0.9,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "16563",
       "source_url": "https://www.hltv.org/player/16563/psycho",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "WBT",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.9,
+          "average_adr": 58.9
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "INFINITE",
+        "team_name": "WBT",
+        "won": true,
+        "kills": 24,
+        "deaths": 25,
+        "kd_ratio": 0.96,
+        "adr": 58.9,
+        "kast": 63.4,
+        "rating": 0.9,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.9,
+        "average_adr": 58.9,
+        "recent_rating": 0.9,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:18240",
       "nickname": "Smash",
       "team_name": "WBT",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.44,
+      "maps_3m": 3,
+      "signal_index": 94,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "INFINITE",
+          "team_name": "WBT",
+          "won": true,
+          "kills": 31,
+          "deaths": 22,
+          "kd_ratio": 1.41,
+          "adr": 84.4,
+          "kast": 75.6,
+          "rating": 1.44,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "18240",
       "source_url": "https://www.hltv.org/player/18240/smash",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "WBT",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.44,
+          "average_adr": 84.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "INFINITE",
+        "team_name": "WBT",
+        "won": true,
+        "kills": 31,
+        "deaths": 22,
+        "kd_ratio": 1.41,
+        "adr": 84.4,
+        "kast": 75.6,
+        "rating": 1.44,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.44,
+        "average_adr": 84.4,
+        "recent_rating": 1.44,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25588",
       "nickname": "tyr1k",
       "team_name": "WBT",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.11,
+      "maps_3m": 3,
+      "signal_index": 61,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "INFINITE",
+          "team_name": "WBT",
+          "won": true,
+          "kills": 27,
+          "deaths": 27,
+          "kd_ratio": 1,
+          "adr": 90.4,
+          "kast": 65.9,
+          "rating": 1.11,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "25588",
       "source_url": "https://www.hltv.org/player/25588/tyr1k",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "WBT",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.11,
+          "average_adr": 90.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "INFINITE",
+        "team_name": "WBT",
+        "won": true,
+        "kills": 27,
+        "deaths": 27,
+        "kd_ratio": 1,
+        "adr": 90.4,
+        "kast": 65.9,
+        "rating": 1.11,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.11,
+        "average_adr": 90.4,
+        "recent_rating": 1.11,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:17553",
@@ -27400,9 +27725,649 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "source_url": "https://www.hltv.org/player/19231/h1te",
       "map_profile": [],
       "roster_eras": []
+    },
+    {
+      "player_id": "hltv:16718",
+      "nickname": "Fessor",
+      "team_name": "EAC",
+      "rating_3_0": 1,
+      "maps_3m": 3,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "16718",
+      "source_url": "https://www.hltv.org/player/16718/fessor",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399046",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "Sangal",
+          "team_name": "EAC",
+          "won": false,
+          "kills": 25,
+          "deaths": 30,
+          "kd_ratio": 0.83,
+          "adr": 72.2,
+          "kast": 60,
+          "rating": 1,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399046",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "Sangal",
+        "team_name": "EAC",
+        "won": false,
+        "kills": 25,
+        "deaths": 30,
+        "kd_ratio": 0.83,
+        "adr": 72.2,
+        "kast": 60,
+        "rating": 1,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1,
+        "average_adr": 72.2,
+        "recent_rating": 1,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "EAC",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1,
+          "average_adr": 72.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:16753",
+      "nickname": "n1Xen",
+      "team_name": "EAC",
+      "rating_3_0": 0.5,
+      "maps_3m": 3,
+      "signal_index": 0,
+      "traits": {},
+      "hltv_player_id": "16753",
+      "source_url": "https://www.hltv.org/player/16753/n1xen",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399046",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "Sangal",
+          "team_name": "EAC",
+          "won": false,
+          "kills": 17,
+          "deaths": 29,
+          "kd_ratio": 0.59,
+          "adr": 44.8,
+          "kast": 55,
+          "rating": 0.5,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399046",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "Sangal",
+        "team_name": "EAC",
+        "won": false,
+        "kills": 17,
+        "deaths": 29,
+        "kd_ratio": 0.59,
+        "adr": 44.8,
+        "kast": 55,
+        "rating": 0.5,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.5,
+        "average_adr": 44.8,
+        "recent_rating": 0.5,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "EAC",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.5,
+          "average_adr": 44.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:22948",
+      "nickname": "anber",
+      "team_name": "EAC",
+      "rating_3_0": 0.8,
+      "maps_3m": 3,
+      "signal_index": 30,
+      "traits": {},
+      "hltv_player_id": "22948",
+      "source_url": "https://www.hltv.org/player/22948/anber",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399046",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "Sangal",
+          "team_name": "EAC",
+          "won": false,
+          "kills": 19,
+          "deaths": 33,
+          "kd_ratio": 0.58,
+          "adr": 62.8,
+          "kast": 57.5,
+          "rating": 0.8,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399046",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "Sangal",
+        "team_name": "EAC",
+        "won": false,
+        "kills": 19,
+        "deaths": 33,
+        "kd_ratio": 0.58,
+        "adr": 62.8,
+        "kast": 57.5,
+        "rating": 0.8,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.8,
+        "average_adr": 62.8,
+        "recent_rating": 0.8,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "EAC",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.8,
+          "average_adr": 62.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:24113",
+      "nickname": "sSen",
+      "team_name": "EAC",
+      "rating_3_0": 0.87,
+      "maps_3m": 3,
+      "signal_index": 37,
+      "traits": {},
+      "hltv_player_id": "24113",
+      "source_url": "https://www.hltv.org/player/24113/ssen",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399046",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "Sangal",
+          "team_name": "EAC",
+          "won": false,
+          "kills": 21,
+          "deaths": 31,
+          "kd_ratio": 0.68,
+          "adr": 68.3,
+          "kast": 57.5,
+          "rating": 0.87,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399046",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "Sangal",
+        "team_name": "EAC",
+        "won": false,
+        "kills": 21,
+        "deaths": 31,
+        "kd_ratio": 0.68,
+        "adr": 68.3,
+        "kast": 57.5,
+        "rating": 0.87,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.87,
+        "average_adr": 68.3,
+        "recent_rating": 0.87,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "EAC",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.87,
+          "average_adr": 68.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:24425",
+      "nickname": "bekker",
+      "team_name": "EAC",
+      "rating_3_0": 0.82,
+      "maps_3m": 3,
+      "signal_index": 32,
+      "traits": {},
+      "hltv_player_id": "24425",
+      "source_url": "https://www.hltv.org/player/24425/bekker",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399046",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "Sangal",
+          "team_name": "EAC",
+          "won": false,
+          "kills": 21,
+          "deaths": 28,
+          "kd_ratio": 0.75,
+          "adr": 52.4,
+          "kast": 55,
+          "rating": 0.82,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399046",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "Sangal",
+        "team_name": "EAC",
+        "won": false,
+        "kills": 21,
+        "deaths": 28,
+        "kd_ratio": 0.75,
+        "adr": 52.4,
+        "kast": 55,
+        "rating": 0.82,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.82,
+        "average_adr": 52.4,
+        "recent_rating": 0.82,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "EAC",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.82,
+          "average_adr": 52.4
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:20170",
+      "nickname": "kyuubii",
+      "team_name": "INFINITE",
+      "rating_3_0": 0.74,
+      "maps_3m": 3,
+      "signal_index": 24,
+      "traits": {},
+      "hltv_player_id": "20170",
+      "source_url": "https://www.hltv.org/player/20170/kyuubii",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "WBT",
+          "team_name": "INFINITE",
+          "won": false,
+          "kills": 20,
+          "deaths": 29,
+          "kd_ratio": 0.69,
+          "adr": 58.9,
+          "kast": 65.9,
+          "rating": 0.74,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "WBT",
+        "team_name": "INFINITE",
+        "won": false,
+        "kills": 20,
+        "deaths": 29,
+        "kd_ratio": 0.69,
+        "adr": 58.9,
+        "kast": 65.9,
+        "rating": 0.74,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.74,
+        "average_adr": 58.9,
+        "recent_rating": 0.74,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "INFINITE",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.74,
+          "average_adr": 58.9
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:20358",
+      "nickname": "volt",
+      "team_name": "INFINITE",
+      "rating_3_0": 0.9,
+      "maps_3m": 3,
+      "signal_index": 40,
+      "traits": {},
+      "hltv_player_id": "20358",
+      "source_url": "https://www.hltv.org/player/20358/volt",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "WBT",
+          "team_name": "INFINITE",
+          "won": false,
+          "kills": 24,
+          "deaths": 27,
+          "kd_ratio": 0.89,
+          "adr": 67.4,
+          "kast": 63.4,
+          "rating": 0.9,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "WBT",
+        "team_name": "INFINITE",
+        "won": false,
+        "kills": 24,
+        "deaths": 27,
+        "kd_ratio": 0.89,
+        "adr": 67.4,
+        "kast": 63.4,
+        "rating": 0.9,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.9,
+        "average_adr": 67.4,
+        "recent_rating": 0.9,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "INFINITE",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.9,
+          "average_adr": 67.4
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:12945",
+      "nickname": "Blytz",
+      "team_name": "INFINITE",
+      "rating_3_0": 0.85,
+      "maps_3m": 3,
+      "signal_index": 35,
+      "traits": {},
+      "hltv_player_id": "12945",
+      "source_url": "https://www.hltv.org/player/12945/blytz",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "WBT",
+          "team_name": "INFINITE",
+          "won": false,
+          "kills": 23,
+          "deaths": 27,
+          "kd_ratio": 0.85,
+          "adr": 56.1,
+          "kast": 68.3,
+          "rating": 0.85,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "WBT",
+        "team_name": "INFINITE",
+        "won": false,
+        "kills": 23,
+        "deaths": 27,
+        "kd_ratio": 0.85,
+        "adr": 56.1,
+        "kast": 68.3,
+        "rating": 0.85,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.85,
+        "average_adr": 56.1,
+        "recent_rating": 0.85,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "INFINITE",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.85,
+          "average_adr": 56.1
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:20870",
+      "nickname": "sl3nd",
+      "team_name": "INFINITE",
+      "rating_3_0": 1.06,
+      "maps_3m": 3,
+      "signal_index": 56,
+      "traits": {},
+      "hltv_player_id": "20870",
+      "source_url": "https://www.hltv.org/player/20870/sl3nd",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "WBT",
+          "team_name": "INFINITE",
+          "won": false,
+          "kills": 29,
+          "deaths": 28,
+          "kd_ratio": 1.04,
+          "adr": 86.2,
+          "kast": 70.7,
+          "rating": 1.06,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "WBT",
+        "team_name": "INFINITE",
+        "won": false,
+        "kills": 29,
+        "deaths": 28,
+        "kd_ratio": 1.04,
+        "adr": 86.2,
+        "kast": 70.7,
+        "rating": 1.06,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.06,
+        "average_adr": 86.2,
+        "recent_rating": 1.06,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "INFINITE",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.06,
+          "average_adr": 86.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:9911",
+      "nickname": "kreaz",
+      "team_name": "INFINITE",
+      "rating_3_0": 0.77,
+      "maps_3m": 3,
+      "signal_index": 27,
+      "traits": {},
+      "hltv_player_id": "9911",
+      "source_url": "https://www.hltv.org/player/9911/kreaz",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "WBT",
+          "team_name": "INFINITE",
+          "won": false,
+          "kills": 25,
+          "deaths": 32,
+          "kd_ratio": 0.78,
+          "adr": 65.1,
+          "kast": 73.2,
+          "rating": 0.77,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "WBT",
+        "team_name": "INFINITE",
+        "won": false,
+        "kills": 25,
+        "deaths": 32,
+        "kd_ratio": 0.78,
+        "adr": 65.1,
+        "kast": 73.2,
+        "rating": 0.77,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.77,
+        "average_adr": 65.1,
+        "recent_rating": 0.77,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "INFINITE",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.77,
+          "average_adr": 65.1
+        }
+      ]
     }
   ],
-  "lineups_updated_at_utc": "2026-10-09T21:44:52Z",
+  "lineups_updated_at_utc": "2026-10-10T01:36:38Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-09",
   "history_profile_count": 53,

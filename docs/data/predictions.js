@@ -3,420 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "detail_fetched_at_utc": "2026-10-07T08:46:08Z",
-        "event_id": "hltv:roman-imperium-cup-ix",
-        "event_name": "Roman Imperium Cup IX",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2399010",
-        "lineups": {
-          "team1": [
-            {
-              "hltv_player_id": "19065",
-              "nickname": "SHiNE",
-              "player_id": "hltv:19065",
-              "source_url": "https://www.hltv.org/player/19065/shine",
-              "team_name": "G2 Ares",
-              "timeline_entry": {
-                "adr": 74.3,
-                "date": "2026-10-07",
-                "deaths": 6,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 73.3,
-                "kd_ratio": 1.33,
-                "kills": 8,
-                "maps": 1,
-                "match_id": "hltv:2399010",
-                "opponent_name": "Orion Wanderers",
-                "rating": 1.38,
-                "team_name": "G2 Ares",
-                "won": true
-              }
-            },
-            {
-              "hltv_player_id": "23544",
-              "nickname": "hitori",
-              "player_id": "hltv:23544",
-              "source_url": "https://www.hltv.org/player/23544/hitori",
-              "team_name": "G2 Ares",
-              "timeline_entry": {
-                "adr": 57.7,
-                "date": "2026-10-07",
-                "deaths": 10,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 86.7,
-                "kd_ratio": 0.9,
-                "kills": 9,
-                "maps": 1,
-                "match_id": "hltv:2399010",
-                "opponent_name": "Orion Wanderers",
-                "rating": 1.03,
-                "team_name": "G2 Ares",
-                "won": true
-              }
-            },
-            {
-              "hltv_player_id": "24111",
-              "nickname": "Junyme",
-              "player_id": "hltv:24111",
-              "source_url": "https://www.hltv.org/player/24111/junyme",
-              "team_name": "G2 Ares",
-              "timeline_entry": {
-                "adr": 95.5,
-                "date": "2026-10-07",
-                "deaths": 10,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 80,
-                "kd_ratio": 1.2,
-                "kills": 12,
-                "maps": 1,
-                "match_id": "hltv:2399010",
-                "opponent_name": "Orion Wanderers",
-                "rating": 1.64,
-                "team_name": "G2 Ares",
-                "won": true
-              }
-            },
-            {
-              "hltv_player_id": "25576",
-              "nickname": "yksjupe",
-              "player_id": "hltv:25576",
-              "source_url": "https://www.hltv.org/player/25576/yksjupe",
-              "team_name": "G2 Ares",
-              "timeline_entry": {
-                "adr": 118.7,
-                "date": "2026-10-07",
-                "deaths": 7,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 80,
-                "kd_ratio": 2.57,
-                "kills": 18,
-                "maps": 1,
-                "match_id": "hltv:2399010",
-                "opponent_name": "Orion Wanderers",
-                "rating": 2.22,
-                "team_name": "G2 Ares",
-                "won": true
-              }
-            },
-            {
-              "hltv_player_id": "23237",
-              "nickname": "TMKj",
-              "player_id": "hltv:23237",
-              "source_url": "https://www.hltv.org/player/23237/tmkj",
-              "team_name": "G2 Ares",
-              "timeline_entry": {
-                "adr": 100.2,
-                "date": "2026-10-07",
-                "deaths": 5,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 86.7,
-                "kd_ratio": 3.6,
-                "kills": 18,
-                "maps": 1,
-                "match_id": "hltv:2399010",
-                "opponent_name": "Orion Wanderers",
-                "rating": 2.54,
-                "team_name": "G2 Ares",
-                "won": true
-              }
-            }
-          ],
-          "team2": [
-            {
-              "hltv_player_id": "26162",
-              "nickname": "KIRADODO",
-              "player_id": "hltv:26162",
-              "source_url": "https://www.hltv.org/player/26162/kiradodo",
-              "team_name": "Orion Wanderers",
-              "timeline_entry": {
-                "adr": 53.6,
-                "date": "2026-10-07",
-                "deaths": 12,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 53.3,
-                "kd_ratio": 0.58,
-                "kills": 7,
-                "maps": 1,
-                "match_id": "hltv:2399010",
-                "opponent_name": "G2 Ares",
-                "rating": 0.65,
-                "team_name": "Orion Wanderers",
-                "won": false
-              }
-            },
-            {
-              "hltv_player_id": "26587",
-              "nickname": "Kev1nho0",
-              "player_id": "hltv:26587",
-              "source_url": "https://www.hltv.org/player/26587/kev1nho0",
-              "team_name": "Orion Wanderers",
-              "timeline_entry": {
-                "adr": 55.3,
-                "date": "2026-10-07",
-                "deaths": 13,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 46.7,
-                "kd_ratio": 0.54,
-                "kills": 7,
-                "maps": 1,
-                "match_id": "hltv:2399010",
-                "opponent_name": "G2 Ares",
-                "rating": 0.5,
-                "team_name": "Orion Wanderers",
-                "won": false
-              }
-            },
-            {
-              "hltv_player_id": "26589",
-              "nickname": "SpiritF0x",
-              "player_id": "hltv:26589",
-              "source_url": "https://www.hltv.org/player/26589/spiritf0x",
-              "team_name": "Orion Wanderers",
-              "timeline_entry": {
-                "adr": 61.4,
-                "date": "2026-10-07",
-                "deaths": 14,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 53.3,
-                "kd_ratio": 0.57,
-                "kills": 8,
-                "maps": 1,
-                "match_id": "hltv:2399010",
-                "opponent_name": "G2 Ares",
-                "rating": 0.56,
-                "team_name": "Orion Wanderers",
-                "won": false
-              }
-            },
-            {
-              "hltv_player_id": "26590",
-              "nickname": "BlazeRRR",
-              "player_id": "hltv:26590",
-              "source_url": "https://www.hltv.org/player/26590/blazerrr",
-              "team_name": "Orion Wanderers",
-              "timeline_entry": {
-                "adr": 49.9,
-                "date": "2026-10-07",
-                "deaths": 12,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 66.7,
-                "kd_ratio": 0.58,
-                "kills": 7,
-                "maps": 1,
-                "match_id": "hltv:2399010",
-                "opponent_name": "G2 Ares",
-                "rating": 0.5,
-                "team_name": "Orion Wanderers",
-                "won": false
-              }
-            },
-            {
-              "hltv_player_id": "25887",
-              "nickname": "Heroic",
-              "player_id": "hltv:25887",
-              "source_url": "https://www.hltv.org/player/25887/heroic",
-              "team_name": "Orion Wanderers",
-              "timeline_entry": {
-                "adr": 88.3,
-                "date": "2026-10-07",
-                "deaths": 14,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 60,
-                "kd_ratio": 0.64,
-                "kills": 9,
-                "maps": 1,
-                "match_id": "hltv:2399010",
-                "opponent_name": "G2 Ares",
-                "rating": 0.97,
-                "team_name": "Orion Wanderers",
-                "won": false
-              }
-            }
-          ]
-        },
-        "map_results": [
-          {
-            "map_name": "Cache",
-            "score1": 13,
-            "score2": 2,
-            "status": "finished"
-          }
-        ],
-        "maps": [
-          "Cache"
-        ],
-        "match_id": "hltv:2399010",
-        "player_stats": [
-          {
-            "adr": 100.2,
-            "deaths": 5,
-            "hltv_player_id": "23237",
-            "kast": 86.7,
-            "kills": 18,
-            "nickname": "TMKj",
-            "player_id": "hltv:23237",
-            "rating": 2.54,
-            "source_url": "https://www.hltv.org/player/23237/tmkj",
-            "team_side": 1
-          },
-          {
-            "adr": 118.7,
-            "deaths": 7,
-            "hltv_player_id": "25576",
-            "kast": 80,
-            "kills": 18,
-            "nickname": "yksjupe",
-            "player_id": "hltv:25576",
-            "rating": 2.22,
-            "source_url": "https://www.hltv.org/player/25576/yksjupe",
-            "team_side": 1
-          },
-          {
-            "adr": 95.5,
-            "deaths": 10,
-            "hltv_player_id": "24111",
-            "kast": 80,
-            "kills": 12,
-            "nickname": "Junyme",
-            "player_id": "hltv:24111",
-            "rating": 1.64,
-            "source_url": "https://www.hltv.org/player/24111/junyme",
-            "team_side": 1
-          },
-          {
-            "adr": 74.3,
-            "deaths": 6,
-            "hltv_player_id": "19065",
-            "kast": 73.3,
-            "kills": 8,
-            "nickname": "SHiNE",
-            "player_id": "hltv:19065",
-            "rating": 1.38,
-            "source_url": "https://www.hltv.org/player/19065/shine",
-            "team_side": 1
-          },
-          {
-            "adr": 57.7,
-            "deaths": 10,
-            "hltv_player_id": "23544",
-            "kast": 86.7,
-            "kills": 9,
-            "nickname": "hitori",
-            "player_id": "hltv:23544",
-            "rating": 1.03,
-            "source_url": "https://www.hltv.org/player/23544/hitori",
-            "team_side": 1
-          },
-          {
-            "adr": 88.3,
-            "deaths": 14,
-            "hltv_player_id": "25887",
-            "kast": 60,
-            "kills": 9,
-            "nickname": "Heroic",
-            "player_id": "hltv:25887",
-            "rating": 0.97,
-            "source_url": "https://www.hltv.org/player/25887/heroic",
-            "team_side": 2
-          },
-          {
-            "adr": 53.6,
-            "deaths": 12,
-            "hltv_player_id": "26162",
-            "kast": 53.3,
-            "kills": 7,
-            "nickname": "KIRADODO",
-            "player_id": "hltv:26162",
-            "rating": 0.65,
-            "source_url": "https://www.hltv.org/player/26162/kiradodo",
-            "team_side": 2
-          },
-          {
-            "adr": 61.4,
-            "deaths": 14,
-            "hltv_player_id": "26589",
-            "kast": 53.3,
-            "kills": 8,
-            "nickname": "SpiritF0x",
-            "player_id": "hltv:26589",
-            "rating": 0.56,
-            "source_url": "https://www.hltv.org/player/26589/spiritf0x",
-            "team_side": 2
-          },
-          {
-            "adr": 55.3,
-            "deaths": 13,
-            "hltv_player_id": "26587",
-            "kast": 46.7,
-            "kills": 7,
-            "nickname": "Kev1nho0",
-            "player_id": "hltv:26587",
-            "rating": 0.5,
-            "source_url": "https://www.hltv.org/player/26587/kev1nho0",
-            "team_side": 2
-          },
-          {
-            "adr": 49.9,
-            "deaths": 12,
-            "hltv_player_id": "26590",
-            "kast": 66.7,
-            "kills": 7,
-            "nickname": "BlazeRRR",
-            "player_id": "hltv:26590",
-            "rating": 0.5,
-            "source_url": "https://www.hltv.org/player/26590/blazerrr",
-            "team_side": 2
-          }
-        ],
-        "product_tier": "tier_2",
-        "score1": 13,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399010/g2-ares-vs-orion-wanderers-roman-imperium-cup-ix",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-07T08:43:41Z",
-        "status": "finished",
-        "team1_name": "G2 Ares",
-        "team2_name": "Orion Wanderers",
-        "veto_text": "Best of 1 (LAN)\n\n* Group A",
-        "winner_name": "G2 Ares"
-      },
-      {
-        "detail_fetched_at_utc": "2026-10-07T08:45:43Z",
-        "event_id": "hltv:roman-imperium-cup-ix",
-        "event_name": "Roman Imperium Cup IX",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2399011",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Nuke",
-            "score1": 5,
-            "score2": 7,
-            "status": "finished"
-          }
-        ],
-        "maps": [
-          "Nuke"
-        ],
-        "match_id": "hltv:2399011",
-        "product_tier": "tier_2",
-        "score1": 6,
-        "score2": 13,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399011/og-vs-pure-roman-imperium-cup-ix",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-07T08:53:27Z",
-        "status": "finished",
-        "team1_name": "OG",
-        "team2_name": "PURE",
-        "veto_text": "Best of 1 (LAN)\n\n* Group A",
-        "winner_name": "PURE"
-      },
-      {
         "detail_fetched_at_utc": "2026-10-07T08:45:55Z",
         "event_id": "hltv:roman-imperium-cup-ix",
         "event_name": "Roman Imperium Cup IX",
@@ -8796,10 +8382,385 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Bebop"
       },
       {
+        "detail_fetched_at_utc": "2026-10-09T12:17:21Z",
         "event_id": "hltv:roman-imperium-cup-ix",
         "event_name": "Roman Imperium Cup IX",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399046",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "16718",
+              "nickname": "Fessor",
+              "player_id": "hltv:16718",
+              "source_url": "https://www.hltv.org/player/16718/fessor",
+              "team_name": "EAC",
+              "timeline_entry": {
+                "adr": 72.2,
+                "date": "2026-10-09",
+                "deaths": 30,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 60,
+                "kd_ratio": 0.83,
+                "kills": 25,
+                "maps": 3,
+                "match_id": "hltv:2399046",
+                "opponent_name": "Sangal",
+                "rating": 1,
+                "team_name": "EAC",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "16753",
+              "nickname": "n1Xen",
+              "player_id": "hltv:16753",
+              "source_url": "https://www.hltv.org/player/16753/n1xen",
+              "team_name": "EAC",
+              "timeline_entry": {
+                "adr": 44.8,
+                "date": "2026-10-09",
+                "deaths": 29,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 55,
+                "kd_ratio": 0.59,
+                "kills": 17,
+                "maps": 3,
+                "match_id": "hltv:2399046",
+                "opponent_name": "Sangal",
+                "rating": 0.5,
+                "team_name": "EAC",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "22948",
+              "nickname": "anber",
+              "player_id": "hltv:22948",
+              "source_url": "https://www.hltv.org/player/22948/anber",
+              "team_name": "EAC",
+              "timeline_entry": {
+                "adr": 62.8,
+                "date": "2026-10-09",
+                "deaths": 33,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 57.5,
+                "kd_ratio": 0.58,
+                "kills": 19,
+                "maps": 3,
+                "match_id": "hltv:2399046",
+                "opponent_name": "Sangal",
+                "rating": 0.8,
+                "team_name": "EAC",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "24113",
+              "nickname": "sSen",
+              "player_id": "hltv:24113",
+              "source_url": "https://www.hltv.org/player/24113/ssen",
+              "team_name": "EAC",
+              "timeline_entry": {
+                "adr": 68.3,
+                "date": "2026-10-09",
+                "deaths": 31,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 57.5,
+                "kd_ratio": 0.68,
+                "kills": 21,
+                "maps": 3,
+                "match_id": "hltv:2399046",
+                "opponent_name": "Sangal",
+                "rating": 0.87,
+                "team_name": "EAC",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "24425",
+              "nickname": "bekker",
+              "player_id": "hltv:24425",
+              "source_url": "https://www.hltv.org/player/24425/bekker",
+              "team_name": "EAC",
+              "timeline_entry": {
+                "adr": 52.4,
+                "date": "2026-10-09",
+                "deaths": 28,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 55,
+                "kd_ratio": 0.75,
+                "kills": 21,
+                "maps": 3,
+                "match_id": "hltv:2399046",
+                "opponent_name": "Sangal",
+                "rating": 0.82,
+                "team_name": "EAC",
+                "won": false
+              }
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "25110",
+              "nickname": "R4DYX",
+              "player_id": "hltv:25110",
+              "source_url": "https://www.hltv.org/player/25110/r4dyx",
+              "team_name": "Sangal",
+              "timeline_entry": {
+                "adr": 67.5,
+                "date": "2026-10-09",
+                "deaths": 18,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 67.5,
+                "kd_ratio": 1.22,
+                "kills": 22,
+                "maps": 3,
+                "match_id": "hltv:2399046",
+                "opponent_name": "EAC",
+                "rating": 1.13,
+                "team_name": "Sangal",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "25253",
+              "nickname": "Joey",
+              "player_id": "hltv:25253",
+              "source_url": "https://www.hltv.org/player/25253/joey",
+              "team_name": "Sangal",
+              "timeline_entry": {
+                "adr": 88.9,
+                "date": "2026-10-09",
+                "deaths": 24,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 75,
+                "kd_ratio": 1.29,
+                "kills": 31,
+                "maps": 3,
+                "match_id": "hltv:2399046",
+                "opponent_name": "EAC",
+                "rating": 1.18,
+                "team_name": "Sangal",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "20309",
+              "nickname": "bnox",
+              "player_id": "hltv:20309",
+              "source_url": "https://www.hltv.org/player/20309/bnox",
+              "team_name": "Sangal",
+              "timeline_entry": {
+                "adr": 77.8,
+                "date": "2026-10-09",
+                "deaths": 22,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 87.5,
+                "kd_ratio": 1.41,
+                "kills": 31,
+                "maps": 3,
+                "match_id": "hltv:2399046",
+                "opponent_name": "EAC",
+                "rating": 1.3,
+                "team_name": "Sangal",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "19698",
+              "nickname": "adamS",
+              "player_id": "hltv:19698",
+              "source_url": "https://www.hltv.org/player/19698/adams",
+              "team_name": "Sangal",
+              "timeline_entry": {
+                "adr": 85.9,
+                "date": "2026-10-09",
+                "deaths": 19,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 85,
+                "kd_ratio": 1.84,
+                "kills": 35,
+                "maps": 3,
+                "match_id": "hltv:2399046",
+                "opponent_name": "EAC",
+                "rating": 1.42,
+                "team_name": "Sangal",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "22144",
+              "nickname": "puuha",
+              "player_id": "hltv:22144",
+              "source_url": "https://www.hltv.org/player/22144/puuha",
+              "team_name": "Sangal",
+              "timeline_entry": {
+                "adr": 89.8,
+                "date": "2026-10-09",
+                "deaths": 23,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 85,
+                "kd_ratio": 1.39,
+                "kills": 32,
+                "maps": 3,
+                "match_id": "hltv:2399046",
+                "opponent_name": "EAC",
+                "rating": 1.34,
+                "team_name": "Sangal",
+                "won": true
+              }
+            }
+          ]
+        },
+        "map_results": [
+          {
+            "map_name": "Nuke",
+            "score1": 7,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": 7,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Nuke",
+          "Mirage",
+          "Anubis"
+        ],
         "match_id": "hltv:2399046",
+        "player_stats": [
+          {
+            "adr": 72.2,
+            "deaths": 30,
+            "hltv_player_id": "16718",
+            "kast": 60,
+            "kills": 25,
+            "nickname": "Fessor",
+            "player_id": "hltv:16718",
+            "rating": 1,
+            "source_url": "https://www.hltv.org/player/16718/fessor",
+            "team_side": 1
+          },
+          {
+            "adr": 68.3,
+            "deaths": 31,
+            "hltv_player_id": "24113",
+            "kast": 57.5,
+            "kills": 21,
+            "nickname": "sSen",
+            "player_id": "hltv:24113",
+            "rating": 0.87,
+            "source_url": "https://www.hltv.org/player/24113/ssen",
+            "team_side": 1
+          },
+          {
+            "adr": 52.4,
+            "deaths": 28,
+            "hltv_player_id": "24425",
+            "kast": 55,
+            "kills": 21,
+            "nickname": "bekker",
+            "player_id": "hltv:24425",
+            "rating": 0.82,
+            "source_url": "https://www.hltv.org/player/24425/bekker",
+            "team_side": 1
+          },
+          {
+            "adr": 62.8,
+            "deaths": 33,
+            "hltv_player_id": "22948",
+            "kast": 57.5,
+            "kills": 19,
+            "nickname": "anber",
+            "player_id": "hltv:22948",
+            "rating": 0.8,
+            "source_url": "https://www.hltv.org/player/22948/anber",
+            "team_side": 1
+          },
+          {
+            "adr": 44.8,
+            "deaths": 29,
+            "hltv_player_id": "16753",
+            "kast": 55,
+            "kills": 17,
+            "nickname": "n1Xen",
+            "player_id": "hltv:16753",
+            "rating": 0.5,
+            "source_url": "https://www.hltv.org/player/16753/n1xen",
+            "team_side": 1
+          },
+          {
+            "adr": 85.9,
+            "deaths": 19,
+            "hltv_player_id": "19698",
+            "kast": 85,
+            "kills": 35,
+            "nickname": "adamS",
+            "player_id": "hltv:19698",
+            "rating": 1.42,
+            "source_url": "https://www.hltv.org/player/19698/adams",
+            "team_side": 2
+          },
+          {
+            "adr": 89.8,
+            "deaths": 23,
+            "hltv_player_id": "22144",
+            "kast": 85,
+            "kills": 32,
+            "nickname": "puuha",
+            "player_id": "hltv:22144",
+            "rating": 1.34,
+            "source_url": "https://www.hltv.org/player/22144/puuha",
+            "team_side": 2
+          },
+          {
+            "adr": 77.8,
+            "deaths": 22,
+            "hltv_player_id": "20309",
+            "kast": 87.5,
+            "kills": 31,
+            "nickname": "bnox",
+            "player_id": "hltv:20309",
+            "rating": 1.3,
+            "source_url": "https://www.hltv.org/player/20309/bnox",
+            "team_side": 2
+          },
+          {
+            "adr": 88.9,
+            "deaths": 24,
+            "hltv_player_id": "25253",
+            "kast": 75,
+            "kills": 31,
+            "nickname": "Joey",
+            "player_id": "hltv:25253",
+            "rating": 1.18,
+            "source_url": "https://www.hltv.org/player/25253/joey",
+            "team_side": 2
+          },
+          {
+            "adr": 67.5,
+            "deaths": 18,
+            "hltv_player_id": "25110",
+            "kast": 67.5,
+            "kills": 22,
+            "nickname": "R4DYX",
+            "player_id": "hltv:25110",
+            "rating": 1.13,
+            "source_url": "https://www.hltv.org/player/25110/r4dyx",
+            "team_side": 2
+          }
+        ],
         "product_tier": "tier_2",
         "score1": 0,
         "score2": 2,
@@ -8810,13 +8771,389 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished",
         "team1_name": "EAC",
         "team2_name": "Sangal",
+        "veto_text": "Best of 3 (LAN)\n\n* Lower bracket round 1",
         "winner_name": "Sangal"
       },
       {
+        "detail_fetched_at_utc": "2026-10-09T12:06:31Z",
         "event_id": "hltv:roman-imperium-cup-ix",
         "event_name": "Roman Imperium Cup IX",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399047",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "16563",
+              "nickname": "Psycho",
+              "player_id": "hltv:16563",
+              "source_url": "https://www.hltv.org/player/16563/psycho",
+              "team_name": "WBT",
+              "timeline_entry": {
+                "adr": 58.9,
+                "date": "2026-10-09",
+                "deaths": 25,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 63.4,
+                "kd_ratio": 0.96,
+                "kills": 24,
+                "maps": 3,
+                "match_id": "hltv:2399047",
+                "opponent_name": "INFINITE",
+                "rating": 0.9,
+                "team_name": "WBT",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "18240",
+              "nickname": "Smash",
+              "player_id": "hltv:18240",
+              "source_url": "https://www.hltv.org/player/18240/smash",
+              "team_name": "WBT",
+              "timeline_entry": {
+                "adr": 84.4,
+                "date": "2026-10-09",
+                "deaths": 22,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 75.6,
+                "kd_ratio": 1.41,
+                "kills": 31,
+                "maps": 3,
+                "match_id": "hltv:2399047",
+                "opponent_name": "INFINITE",
+                "rating": 1.44,
+                "team_name": "WBT",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "19614",
+              "nickname": "s4ltovsk1yy",
+              "player_id": "hltv:19614",
+              "source_url": "https://www.hltv.org/player/19614/s4ltovsk1yy",
+              "team_name": "WBT",
+              "timeline_entry": {
+                "adr": 62.5,
+                "date": "2026-10-09",
+                "deaths": 21,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 75.6,
+                "kd_ratio": 1.1,
+                "kills": 23,
+                "maps": 3,
+                "match_id": "hltv:2399047",
+                "opponent_name": "INFINITE",
+                "rating": 1.08,
+                "team_name": "WBT",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "19733",
+              "nickname": "DemQQ",
+              "player_id": "hltv:19733",
+              "source_url": "https://www.hltv.org/player/19733/demqq",
+              "team_name": "WBT",
+              "timeline_entry": {
+                "adr": 80.3,
+                "date": "2026-10-09",
+                "deaths": 26,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 75.6,
+                "kd_ratio": 1.38,
+                "kills": 36,
+                "maps": 3,
+                "match_id": "hltv:2399047",
+                "opponent_name": "INFINITE",
+                "rating": 1.47,
+                "team_name": "WBT",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "25588",
+              "nickname": "tyr1k",
+              "player_id": "hltv:25588",
+              "source_url": "https://www.hltv.org/player/25588/tyr1k",
+              "team_name": "WBT",
+              "timeline_entry": {
+                "adr": 90.4,
+                "date": "2026-10-09",
+                "deaths": 27,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 65.9,
+                "kd_ratio": 1,
+                "kills": 27,
+                "maps": 3,
+                "match_id": "hltv:2399047",
+                "opponent_name": "INFINITE",
+                "rating": 1.11,
+                "team_name": "WBT",
+                "won": true
+              }
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "20170",
+              "nickname": "kyuubii",
+              "player_id": "hltv:20170",
+              "source_url": "https://www.hltv.org/player/20170/kyuubii",
+              "team_name": "INFINITE",
+              "timeline_entry": {
+                "adr": 58.9,
+                "date": "2026-10-09",
+                "deaths": 29,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 65.9,
+                "kd_ratio": 0.69,
+                "kills": 20,
+                "maps": 3,
+                "match_id": "hltv:2399047",
+                "opponent_name": "WBT",
+                "rating": 0.74,
+                "team_name": "INFINITE",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "20358",
+              "nickname": "volt",
+              "player_id": "hltv:20358",
+              "source_url": "https://www.hltv.org/player/20358/volt",
+              "team_name": "INFINITE",
+              "timeline_entry": {
+                "adr": 67.4,
+                "date": "2026-10-09",
+                "deaths": 27,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 63.4,
+                "kd_ratio": 0.89,
+                "kills": 24,
+                "maps": 3,
+                "match_id": "hltv:2399047",
+                "opponent_name": "WBT",
+                "rating": 0.9,
+                "team_name": "INFINITE",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "12945",
+              "nickname": "Blytz",
+              "player_id": "hltv:12945",
+              "source_url": "https://www.hltv.org/player/12945/blytz",
+              "team_name": "INFINITE",
+              "timeline_entry": {
+                "adr": 56.1,
+                "date": "2026-10-09",
+                "deaths": 27,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 68.3,
+                "kd_ratio": 0.85,
+                "kills": 23,
+                "maps": 3,
+                "match_id": "hltv:2399047",
+                "opponent_name": "WBT",
+                "rating": 0.85,
+                "team_name": "INFINITE",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "20870",
+              "nickname": "sl3nd",
+              "player_id": "hltv:20870",
+              "source_url": "https://www.hltv.org/player/20870/sl3nd",
+              "team_name": "INFINITE",
+              "timeline_entry": {
+                "adr": 86.2,
+                "date": "2026-10-09",
+                "deaths": 28,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 70.7,
+                "kd_ratio": 1.04,
+                "kills": 29,
+                "maps": 3,
+                "match_id": "hltv:2399047",
+                "opponent_name": "WBT",
+                "rating": 1.06,
+                "team_name": "INFINITE",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "9911",
+              "nickname": "kreaz",
+              "player_id": "hltv:9911",
+              "source_url": "https://www.hltv.org/player/9911/kreaz",
+              "team_name": "INFINITE",
+              "timeline_entry": {
+                "adr": 65.1,
+                "date": "2026-10-09",
+                "deaths": 32,
+                "event_name": "Roman Imperium Cup IX",
+                "kast": 73.2,
+                "kd_ratio": 0.78,
+                "kills": 25,
+                "maps": 3,
+                "match_id": "hltv:2399047",
+                "opponent_name": "WBT",
+                "rating": 0.77,
+                "team_name": "INFINITE",
+                "won": false
+              }
+            }
+          ]
+        },
+        "map_results": [
+          {
+            "map_name": "Dust2",
+            "score1": 13,
+            "score2": 9,
+            "status": "finished"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": 13,
+            "score2": 6,
+            "status": "finished"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Dust2",
+          "Ancient",
+          "Mirage"
+        ],
         "match_id": "hltv:2399047",
+        "player_stats": [
+          {
+            "adr": 80.3,
+            "deaths": 26,
+            "hltv_player_id": "19733",
+            "kast": 75.6,
+            "kills": 36,
+            "nickname": "DemQQ",
+            "player_id": "hltv:19733",
+            "rating": 1.47,
+            "source_url": "https://www.hltv.org/player/19733/demqq",
+            "team_side": 1
+          },
+          {
+            "adr": 84.4,
+            "deaths": 22,
+            "hltv_player_id": "18240",
+            "kast": 75.6,
+            "kills": 31,
+            "nickname": "Smash",
+            "player_id": "hltv:18240",
+            "rating": 1.44,
+            "source_url": "https://www.hltv.org/player/18240/smash",
+            "team_side": 1
+          },
+          {
+            "adr": 90.4,
+            "deaths": 27,
+            "hltv_player_id": "25588",
+            "kast": 65.9,
+            "kills": 27,
+            "nickname": "tyr1k",
+            "player_id": "hltv:25588",
+            "rating": 1.11,
+            "source_url": "https://www.hltv.org/player/25588/tyr1k",
+            "team_side": 1
+          },
+          {
+            "adr": 62.5,
+            "deaths": 21,
+            "hltv_player_id": "19614",
+            "kast": 75.6,
+            "kills": 23,
+            "nickname": "s4ltovsk1yy",
+            "player_id": "hltv:19614",
+            "rating": 1.08,
+            "source_url": "https://www.hltv.org/player/19614/s4ltovsk1yy",
+            "team_side": 1
+          },
+          {
+            "adr": 58.9,
+            "deaths": 25,
+            "hltv_player_id": "16563",
+            "kast": 63.4,
+            "kills": 24,
+            "nickname": "Psycho",
+            "player_id": "hltv:16563",
+            "rating": 0.9,
+            "source_url": "https://www.hltv.org/player/16563/psycho",
+            "team_side": 1
+          },
+          {
+            "adr": 86.2,
+            "deaths": 28,
+            "hltv_player_id": "20870",
+            "kast": 70.7,
+            "kills": 29,
+            "nickname": "sl3nd",
+            "player_id": "hltv:20870",
+            "rating": 1.06,
+            "source_url": "https://www.hltv.org/player/20870/sl3nd",
+            "team_side": 2
+          },
+          {
+            "adr": 67.4,
+            "deaths": 27,
+            "hltv_player_id": "20358",
+            "kast": 63.4,
+            "kills": 24,
+            "nickname": "volt",
+            "player_id": "hltv:20358",
+            "rating": 0.9,
+            "source_url": "https://www.hltv.org/player/20358/volt",
+            "team_side": 2
+          },
+          {
+            "adr": 56.1,
+            "deaths": 27,
+            "hltv_player_id": "12945",
+            "kast": 68.3,
+            "kills": 23,
+            "nickname": "Blytz",
+            "player_id": "hltv:12945",
+            "rating": 0.85,
+            "source_url": "https://www.hltv.org/player/12945/blytz",
+            "team_side": 2
+          },
+          {
+            "adr": 65.1,
+            "deaths": 32,
+            "hltv_player_id": "9911",
+            "kast": 73.2,
+            "kills": 25,
+            "nickname": "kreaz",
+            "player_id": "hltv:9911",
+            "rating": 0.77,
+            "source_url": "https://www.hltv.org/player/9911/kreaz",
+            "team_side": 2
+          },
+          {
+            "adr": 58.9,
+            "deaths": 29,
+            "hltv_player_id": "20170",
+            "kast": 65.9,
+            "kills": 20,
+            "nickname": "kyuubii",
+            "player_id": "hltv:20170",
+            "rating": 0.74,
+            "source_url": "https://www.hltv.org/player/20170/kyuubii",
+            "team_side": 2
+          }
+        ],
         "product_tier": "tier_2",
         "score1": 2,
         "score2": 0,
@@ -8827,6 +9164,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "finished",
         "team1_name": "WBT",
         "team2_name": "INFINITE",
+        "veto_text": "Best of 3 (LAN)\n\n* Lower bracket round 1",
         "winner_name": "WBT"
       },
       {
@@ -10371,98 +10709,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Sangal"
       },
       {
-        "detail_fetched_at_utc": "2026-10-09T21:44:15Z",
-        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2399192",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Ancient",
-            "score1": 7,
-            "score2": 5,
-            "status": "finished"
-          },
-          {
-            "map_name": "Nuke",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Dust2",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [
-          "Ancient",
-          "Nuke",
-          "Dust2"
-        ],
-        "match_id": "hltv:2399192",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399192/galorys-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-3",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-09T21:00:00Z",
-        "status": "live",
-        "team1_name": "Galorys",
-        "team2_name": "Turma do Pagode",
-        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
-      },
-      {
-        "detail_fetched_at_utc": "2026-10-09T21:44:17Z",
-        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2399193",
-        "lineups": {
-          "team1": [],
-          "team2": []
-        },
-        "map_results": [
-          {
-            "map_name": "Ancient",
-            "score1": 4,
-            "score2": 8,
-            "status": "finished"
-          },
-          {
-            "map_name": "Dust2",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          },
-          {
-            "map_name": "Nuke",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [
-          "Ancient",
-          "Dust2",
-          "Nuke"
-        ],
-        "match_id": "hltv:2399193",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399193/alka-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-3",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-09T21:00:00Z",
-        "status": "live",
-        "team1_name": "ALKA",
-        "team2_name": "MEIA NOITE",
-        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
-      },
-      {
         "detail_fetched_at_utc": "2026-10-09T21:44:30Z",
         "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
@@ -10499,14 +10745,66 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "match_id": "hltv:2399194",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399194/isurus-vs-procyon-esl-challenger-league-season-52-south-america-cup-3",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-10-09T21:00:00Z",
-        "status": "live",
+        "starts_at": "2026-10-09T22:37:42Z",
+        "status": "finished",
         "team1_name": "Isurus",
         "team2_name": "Procyon",
-        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2",
+        "winner_name": "Procyon"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-09T21:44:15Z",
+        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2399192",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": 7,
+            "score2": 5,
+            "status": "finished"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Nuke",
+          "Dust2"
+        ],
+        "match_id": "hltv:2399192",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399192/galorys-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-3",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-09T22:52:46Z",
+        "status": "finished",
+        "team1_name": "Galorys",
+        "team2_name": "Turma do Pagode",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2",
+        "winner_name": "Galorys"
       },
       {
         "detail_fetched_at_utc": "2026-10-09T21:44:42Z",
@@ -10545,70 +10843,250 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "match_id": "hltv:2399195",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399195/grmio-vs-borracheiros-esl-challenger-league-season-52-south-america-cup-3",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-10-09T21:00:00Z",
-        "status": "live",
+        "starts_at": "2026-10-09T22:54:48Z",
+        "status": "finished",
         "team1_name": "Gr\u00eamio",
         "team2_name": "BORRACHEIROS",
-        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2",
+        "winner_name": "BORRACHEIROS"
       },
       {
-        "event_id": "hltv:9387",
+        "detail_fetched_at_utc": "2026-10-09T21:44:17Z",
+        "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2399193",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": 4,
+            "score2": 8,
+            "status": "finished"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Nuke"
+        ],
+        "match_id": "hltv:2399193",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399193/alka-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-3",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-09T22:58:15Z",
+        "status": "finished",
+        "team1_name": "ALKA",
+        "team2_name": "MEIA NOITE",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2",
+        "winner_name": "MEIA NOITE"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-10T01:34:29Z",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399220",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Dust2",
+          "Mirage",
+          "Nuke"
+        ],
         "match_id": "hltv:2399220",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399220/desi-boyz-vs-empire-esl-challenger-league-season-52-north-america-cup-3",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-10T01:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Desi Boyz",
-        "team2_name": "EMPIRE"
+        "team2_name": "EMPIRE",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
       },
       {
-        "event_id": "hltv:9387",
+        "detail_fetched_at_utc": "2026-10-10T01:35:40Z",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399221",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Inferno",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Anubis",
+          "Inferno",
+          "Mirage"
+        ],
         "match_id": "hltv:2399221",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399221/regain-vs-villainous-esl-challenger-league-season-52-north-america-cup-3",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-10T01:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "regain",
-        "team2_name": "Villainous"
+        "team2_name": "Villainous",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
       },
       {
-        "event_id": "hltv:9387",
+        "detail_fetched_at_utc": "2026-10-10T01:35:58Z",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399222",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Dust2",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Dust2",
+          "Ancient",
+          "Mirage"
+        ],
         "match_id": "hltv:2399222",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399222/farmville-vs-wanted-goons-esl-challenger-league-season-52-north-america-cup-3",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-10T01:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "FarmVille",
-        "team2_name": "Wanted Goons"
+        "team2_name": "Wanted Goons",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
       },
       {
-        "event_id": "hltv:9387",
+        "detail_fetched_at_utc": "2026-10-10T01:36:38Z",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399223",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Inferno",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Anubis",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Inferno",
+          "Anubis",
+          "Mirage"
+        ],
         "match_id": "hltv:2399223",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399223/club-333-vs-detonate-esl-challenger-league-season-52-north-america-cup-3",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-10T01:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Club 333",
-        "team2_name": "DETONATE"
+        "team2_name": "DETONATE",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
       },
       {
         "event_id": "hltv:9441",
@@ -10654,7 +11132,7 @@ window.__STRIKESIGNAL_DATA__ = {
       },
       {
         "detail_fetched_at_utc": "2026-10-09T21:44:48Z",
-        "event_id": "hltv:roman-imperium-cup-ix",
+        "event_id": "hltv:9318",
         "event_name": "Roman Imperium Cup IX",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399052",
@@ -10666,7 +11144,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
-        "stage_name": "Scheduled series",
+        "stage_name": "Playoffs",
         "starts_at": "2026-10-10T10:00:00Z",
         "status": "live",
         "team1_name": "FaZe",
@@ -10787,7 +11265,7 @@ window.__STRIKESIGNAL_DATA__ = {
       },
       {
         "detail_fetched_at_utc": "2026-10-09T21:44:52Z",
-        "event_id": "hltv:esl-pro-league-season-24",
+        "event_id": "hltv:8244",
         "event_name": "ESL Pro League Season 24",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2398754",
@@ -10799,7 +11277,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "product_tier": "tier_1",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2398754/aurora-vs-vitality-esl-pro-league-season-24",
-        "stage_name": "Scheduled series",
+        "stage_name": "Semifinal",
         "starts_at": "2026-10-10T13:45:00Z",
         "status": "live",
         "team1_name": "Aurora",
@@ -10875,6 +11353,34 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "Bounty Hunters",
         "team2_name": "LP"
+      },
+      {
+        "event_id": "hltv:9385",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "hltv_match_id": "2399198",
+        "match_id": "hltv:2399198",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399198/galorys-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-3",
+        "stage_name": "Playoffs",
+        "starts_at": "2026-10-10T21:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Galorys",
+        "team2_name": "MEIA NOITE"
+      },
+      {
+        "event_id": "hltv:9385",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "hltv_match_id": "2399199",
+        "match_id": "hltv:2399199",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399199/procyon-vs-borracheiros-esl-challenger-league-season-52-south-america-cup-3",
+        "stage_name": "Playoffs",
+        "starts_at": "2026-10-10T21:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Procyon",
+        "team2_name": "BORRACHEIROS"
       },
       {
         "event_id": "hltv:9387",
@@ -11724,13 +12230,29 @@ window.__STRIKESIGNAL_DATA__ = {
                   "product_tier": "tier_1",
                   "round_name": "Semifinal",
                   "series_format": "bo3",
-                  "slot_id": "main:semifinal:1",
+                  "slot_id": "main:semifinal:2",
                   "source_url": "https://www.hltv.org/matches/2398755/mouz-vs-spirit-esl-pro-league-season-24",
                   "stage_name": "Semifinal",
                   "starts_at": "2026-10-10T17:00:00Z",
                   "status": "live",
                   "team1_name": "MOUZ",
                   "team2_name": "Spirit"
+                },
+                {
+                  "event_id": "hltv:8244",
+                  "event_name": "ESL Pro League Season 24",
+                  "hltv_match_id": "2398754",
+                  "match_id": "hltv:2398754",
+                  "product_tier": "tier_1",
+                  "round_name": "Semifinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:semifinal:1",
+                  "source_url": "https://www.hltv.org/matches/2398754/aurora-vs-vitality-esl-pro-league-season-24",
+                  "stage_name": "Semifinal",
+                  "starts_at": "2026-10-10T13:45:00Z",
+                  "status": "live",
+                  "team1_name": "Aurora",
+                  "team2_name": "Vitality"
                 }
               ],
               "name": "Semifinal",
@@ -16344,7 +16866,7 @@ window.__STRIKESIGNAL_DATA__ = {
           },
           {
             "detail_fetched_at_utc": "2026-10-09T21:44:52Z",
-            "event_id": "hltv:esl-pro-league-season-24",
+            "event_id": "hltv:8244",
             "event_name": "ESL Pro League Season 24",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2398754",
@@ -16356,7 +16878,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "product_tier": "tier_1",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2398754/aurora-vs-vitality-esl-pro-league-season-24",
-            "stage_name": "Scheduled series",
+            "stage_name": "Semifinal",
             "starts_at": "2026-10-10T13:45:00Z",
             "status": "live",
             "team1_name": "Aurora",
@@ -33672,7 +34194,7 @@ window.__STRIKESIGNAL_DATA__ = {
               "id": "playoffs",
               "name": "Playoffs",
               "order": 1,
-              "status": "pending",
+              "status": "live",
               "type": "single_elimination"
             }
           ],
@@ -35641,10 +36163,385 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "FaZe"
           },
           {
+            "detail_fetched_at_utc": "2026-10-09T12:17:21Z",
             "event_id": "hltv:roman-imperium-cup-ix",
             "event_name": "Roman Imperium Cup IX",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399046",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "16718",
+                  "nickname": "Fessor",
+                  "player_id": "hltv:16718",
+                  "source_url": "https://www.hltv.org/player/16718/fessor",
+                  "team_name": "EAC",
+                  "timeline_entry": {
+                    "adr": 72.2,
+                    "date": "2026-10-09",
+                    "deaths": 30,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 60,
+                    "kd_ratio": 0.83,
+                    "kills": 25,
+                    "maps": 3,
+                    "match_id": "hltv:2399046",
+                    "opponent_name": "Sangal",
+                    "rating": 1,
+                    "team_name": "EAC",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "16753",
+                  "nickname": "n1Xen",
+                  "player_id": "hltv:16753",
+                  "source_url": "https://www.hltv.org/player/16753/n1xen",
+                  "team_name": "EAC",
+                  "timeline_entry": {
+                    "adr": 44.8,
+                    "date": "2026-10-09",
+                    "deaths": 29,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 55,
+                    "kd_ratio": 0.59,
+                    "kills": 17,
+                    "maps": 3,
+                    "match_id": "hltv:2399046",
+                    "opponent_name": "Sangal",
+                    "rating": 0.5,
+                    "team_name": "EAC",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "22948",
+                  "nickname": "anber",
+                  "player_id": "hltv:22948",
+                  "source_url": "https://www.hltv.org/player/22948/anber",
+                  "team_name": "EAC",
+                  "timeline_entry": {
+                    "adr": 62.8,
+                    "date": "2026-10-09",
+                    "deaths": 33,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 57.5,
+                    "kd_ratio": 0.58,
+                    "kills": 19,
+                    "maps": 3,
+                    "match_id": "hltv:2399046",
+                    "opponent_name": "Sangal",
+                    "rating": 0.8,
+                    "team_name": "EAC",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "24113",
+                  "nickname": "sSen",
+                  "player_id": "hltv:24113",
+                  "source_url": "https://www.hltv.org/player/24113/ssen",
+                  "team_name": "EAC",
+                  "timeline_entry": {
+                    "adr": 68.3,
+                    "date": "2026-10-09",
+                    "deaths": 31,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 57.5,
+                    "kd_ratio": 0.68,
+                    "kills": 21,
+                    "maps": 3,
+                    "match_id": "hltv:2399046",
+                    "opponent_name": "Sangal",
+                    "rating": 0.87,
+                    "team_name": "EAC",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "24425",
+                  "nickname": "bekker",
+                  "player_id": "hltv:24425",
+                  "source_url": "https://www.hltv.org/player/24425/bekker",
+                  "team_name": "EAC",
+                  "timeline_entry": {
+                    "adr": 52.4,
+                    "date": "2026-10-09",
+                    "deaths": 28,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 55,
+                    "kd_ratio": 0.75,
+                    "kills": 21,
+                    "maps": 3,
+                    "match_id": "hltv:2399046",
+                    "opponent_name": "Sangal",
+                    "rating": 0.82,
+                    "team_name": "EAC",
+                    "won": false
+                  }
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "25110",
+                  "nickname": "R4DYX",
+                  "player_id": "hltv:25110",
+                  "source_url": "https://www.hltv.org/player/25110/r4dyx",
+                  "team_name": "Sangal",
+                  "timeline_entry": {
+                    "adr": 67.5,
+                    "date": "2026-10-09",
+                    "deaths": 18,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 67.5,
+                    "kd_ratio": 1.22,
+                    "kills": 22,
+                    "maps": 3,
+                    "match_id": "hltv:2399046",
+                    "opponent_name": "EAC",
+                    "rating": 1.13,
+                    "team_name": "Sangal",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "25253",
+                  "nickname": "Joey",
+                  "player_id": "hltv:25253",
+                  "source_url": "https://www.hltv.org/player/25253/joey",
+                  "team_name": "Sangal",
+                  "timeline_entry": {
+                    "adr": 88.9,
+                    "date": "2026-10-09",
+                    "deaths": 24,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 75,
+                    "kd_ratio": 1.29,
+                    "kills": 31,
+                    "maps": 3,
+                    "match_id": "hltv:2399046",
+                    "opponent_name": "EAC",
+                    "rating": 1.18,
+                    "team_name": "Sangal",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "20309",
+                  "nickname": "bnox",
+                  "player_id": "hltv:20309",
+                  "source_url": "https://www.hltv.org/player/20309/bnox",
+                  "team_name": "Sangal",
+                  "timeline_entry": {
+                    "adr": 77.8,
+                    "date": "2026-10-09",
+                    "deaths": 22,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 87.5,
+                    "kd_ratio": 1.41,
+                    "kills": 31,
+                    "maps": 3,
+                    "match_id": "hltv:2399046",
+                    "opponent_name": "EAC",
+                    "rating": 1.3,
+                    "team_name": "Sangal",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "19698",
+                  "nickname": "adamS",
+                  "player_id": "hltv:19698",
+                  "source_url": "https://www.hltv.org/player/19698/adams",
+                  "team_name": "Sangal",
+                  "timeline_entry": {
+                    "adr": 85.9,
+                    "date": "2026-10-09",
+                    "deaths": 19,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 85,
+                    "kd_ratio": 1.84,
+                    "kills": 35,
+                    "maps": 3,
+                    "match_id": "hltv:2399046",
+                    "opponent_name": "EAC",
+                    "rating": 1.42,
+                    "team_name": "Sangal",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "22144",
+                  "nickname": "puuha",
+                  "player_id": "hltv:22144",
+                  "source_url": "https://www.hltv.org/player/22144/puuha",
+                  "team_name": "Sangal",
+                  "timeline_entry": {
+                    "adr": 89.8,
+                    "date": "2026-10-09",
+                    "deaths": 23,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 85,
+                    "kd_ratio": 1.39,
+                    "kills": 32,
+                    "maps": 3,
+                    "match_id": "hltv:2399046",
+                    "opponent_name": "EAC",
+                    "rating": 1.34,
+                    "team_name": "Sangal",
+                    "won": true
+                  }
+                }
+              ]
+            },
+            "map_results": [
+              {
+                "map_name": "Nuke",
+                "score1": 7,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": 7,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Nuke",
+              "Mirage",
+              "Anubis"
+            ],
             "match_id": "hltv:2399046",
+            "player_stats": [
+              {
+                "adr": 72.2,
+                "deaths": 30,
+                "hltv_player_id": "16718",
+                "kast": 60,
+                "kills": 25,
+                "nickname": "Fessor",
+                "player_id": "hltv:16718",
+                "rating": 1,
+                "source_url": "https://www.hltv.org/player/16718/fessor",
+                "team_side": 1
+              },
+              {
+                "adr": 68.3,
+                "deaths": 31,
+                "hltv_player_id": "24113",
+                "kast": 57.5,
+                "kills": 21,
+                "nickname": "sSen",
+                "player_id": "hltv:24113",
+                "rating": 0.87,
+                "source_url": "https://www.hltv.org/player/24113/ssen",
+                "team_side": 1
+              },
+              {
+                "adr": 52.4,
+                "deaths": 28,
+                "hltv_player_id": "24425",
+                "kast": 55,
+                "kills": 21,
+                "nickname": "bekker",
+                "player_id": "hltv:24425",
+                "rating": 0.82,
+                "source_url": "https://www.hltv.org/player/24425/bekker",
+                "team_side": 1
+              },
+              {
+                "adr": 62.8,
+                "deaths": 33,
+                "hltv_player_id": "22948",
+                "kast": 57.5,
+                "kills": 19,
+                "nickname": "anber",
+                "player_id": "hltv:22948",
+                "rating": 0.8,
+                "source_url": "https://www.hltv.org/player/22948/anber",
+                "team_side": 1
+              },
+              {
+                "adr": 44.8,
+                "deaths": 29,
+                "hltv_player_id": "16753",
+                "kast": 55,
+                "kills": 17,
+                "nickname": "n1Xen",
+                "player_id": "hltv:16753",
+                "rating": 0.5,
+                "source_url": "https://www.hltv.org/player/16753/n1xen",
+                "team_side": 1
+              },
+              {
+                "adr": 85.9,
+                "deaths": 19,
+                "hltv_player_id": "19698",
+                "kast": 85,
+                "kills": 35,
+                "nickname": "adamS",
+                "player_id": "hltv:19698",
+                "rating": 1.42,
+                "source_url": "https://www.hltv.org/player/19698/adams",
+                "team_side": 2
+              },
+              {
+                "adr": 89.8,
+                "deaths": 23,
+                "hltv_player_id": "22144",
+                "kast": 85,
+                "kills": 32,
+                "nickname": "puuha",
+                "player_id": "hltv:22144",
+                "rating": 1.34,
+                "source_url": "https://www.hltv.org/player/22144/puuha",
+                "team_side": 2
+              },
+              {
+                "adr": 77.8,
+                "deaths": 22,
+                "hltv_player_id": "20309",
+                "kast": 87.5,
+                "kills": 31,
+                "nickname": "bnox",
+                "player_id": "hltv:20309",
+                "rating": 1.3,
+                "source_url": "https://www.hltv.org/player/20309/bnox",
+                "team_side": 2
+              },
+              {
+                "adr": 88.9,
+                "deaths": 24,
+                "hltv_player_id": "25253",
+                "kast": 75,
+                "kills": 31,
+                "nickname": "Joey",
+                "player_id": "hltv:25253",
+                "rating": 1.18,
+                "source_url": "https://www.hltv.org/player/25253/joey",
+                "team_side": 2
+              },
+              {
+                "adr": 67.5,
+                "deaths": 18,
+                "hltv_player_id": "25110",
+                "kast": 67.5,
+                "kills": 22,
+                "nickname": "R4DYX",
+                "player_id": "hltv:25110",
+                "rating": 1.13,
+                "source_url": "https://www.hltv.org/player/25110/r4dyx",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_2",
             "score1": 0,
             "score2": 2,
@@ -35655,13 +36552,389 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "finished",
             "team1_name": "EAC",
             "team2_name": "Sangal",
+            "veto_text": "Best of 3 (LAN)\n\n* Lower bracket round 1",
             "winner_name": "Sangal"
           },
           {
+            "detail_fetched_at_utc": "2026-10-09T12:06:31Z",
             "event_id": "hltv:roman-imperium-cup-ix",
             "event_name": "Roman Imperium Cup IX",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399047",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "16563",
+                  "nickname": "Psycho",
+                  "player_id": "hltv:16563",
+                  "source_url": "https://www.hltv.org/player/16563/psycho",
+                  "team_name": "WBT",
+                  "timeline_entry": {
+                    "adr": 58.9,
+                    "date": "2026-10-09",
+                    "deaths": 25,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 63.4,
+                    "kd_ratio": 0.96,
+                    "kills": 24,
+                    "maps": 3,
+                    "match_id": "hltv:2399047",
+                    "opponent_name": "INFINITE",
+                    "rating": 0.9,
+                    "team_name": "WBT",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "18240",
+                  "nickname": "Smash",
+                  "player_id": "hltv:18240",
+                  "source_url": "https://www.hltv.org/player/18240/smash",
+                  "team_name": "WBT",
+                  "timeline_entry": {
+                    "adr": 84.4,
+                    "date": "2026-10-09",
+                    "deaths": 22,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 75.6,
+                    "kd_ratio": 1.41,
+                    "kills": 31,
+                    "maps": 3,
+                    "match_id": "hltv:2399047",
+                    "opponent_name": "INFINITE",
+                    "rating": 1.44,
+                    "team_name": "WBT",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "19614",
+                  "nickname": "s4ltovsk1yy",
+                  "player_id": "hltv:19614",
+                  "source_url": "https://www.hltv.org/player/19614/s4ltovsk1yy",
+                  "team_name": "WBT",
+                  "timeline_entry": {
+                    "adr": 62.5,
+                    "date": "2026-10-09",
+                    "deaths": 21,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 75.6,
+                    "kd_ratio": 1.1,
+                    "kills": 23,
+                    "maps": 3,
+                    "match_id": "hltv:2399047",
+                    "opponent_name": "INFINITE",
+                    "rating": 1.08,
+                    "team_name": "WBT",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "19733",
+                  "nickname": "DemQQ",
+                  "player_id": "hltv:19733",
+                  "source_url": "https://www.hltv.org/player/19733/demqq",
+                  "team_name": "WBT",
+                  "timeline_entry": {
+                    "adr": 80.3,
+                    "date": "2026-10-09",
+                    "deaths": 26,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 75.6,
+                    "kd_ratio": 1.38,
+                    "kills": 36,
+                    "maps": 3,
+                    "match_id": "hltv:2399047",
+                    "opponent_name": "INFINITE",
+                    "rating": 1.47,
+                    "team_name": "WBT",
+                    "won": true
+                  }
+                },
+                {
+                  "hltv_player_id": "25588",
+                  "nickname": "tyr1k",
+                  "player_id": "hltv:25588",
+                  "source_url": "https://www.hltv.org/player/25588/tyr1k",
+                  "team_name": "WBT",
+                  "timeline_entry": {
+                    "adr": 90.4,
+                    "date": "2026-10-09",
+                    "deaths": 27,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 65.9,
+                    "kd_ratio": 1,
+                    "kills": 27,
+                    "maps": 3,
+                    "match_id": "hltv:2399047",
+                    "opponent_name": "INFINITE",
+                    "rating": 1.11,
+                    "team_name": "WBT",
+                    "won": true
+                  }
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "20170",
+                  "nickname": "kyuubii",
+                  "player_id": "hltv:20170",
+                  "source_url": "https://www.hltv.org/player/20170/kyuubii",
+                  "team_name": "INFINITE",
+                  "timeline_entry": {
+                    "adr": 58.9,
+                    "date": "2026-10-09",
+                    "deaths": 29,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 65.9,
+                    "kd_ratio": 0.69,
+                    "kills": 20,
+                    "maps": 3,
+                    "match_id": "hltv:2399047",
+                    "opponent_name": "WBT",
+                    "rating": 0.74,
+                    "team_name": "INFINITE",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "20358",
+                  "nickname": "volt",
+                  "player_id": "hltv:20358",
+                  "source_url": "https://www.hltv.org/player/20358/volt",
+                  "team_name": "INFINITE",
+                  "timeline_entry": {
+                    "adr": 67.4,
+                    "date": "2026-10-09",
+                    "deaths": 27,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 63.4,
+                    "kd_ratio": 0.89,
+                    "kills": 24,
+                    "maps": 3,
+                    "match_id": "hltv:2399047",
+                    "opponent_name": "WBT",
+                    "rating": 0.9,
+                    "team_name": "INFINITE",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "12945",
+                  "nickname": "Blytz",
+                  "player_id": "hltv:12945",
+                  "source_url": "https://www.hltv.org/player/12945/blytz",
+                  "team_name": "INFINITE",
+                  "timeline_entry": {
+                    "adr": 56.1,
+                    "date": "2026-10-09",
+                    "deaths": 27,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 68.3,
+                    "kd_ratio": 0.85,
+                    "kills": 23,
+                    "maps": 3,
+                    "match_id": "hltv:2399047",
+                    "opponent_name": "WBT",
+                    "rating": 0.85,
+                    "team_name": "INFINITE",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "20870",
+                  "nickname": "sl3nd",
+                  "player_id": "hltv:20870",
+                  "source_url": "https://www.hltv.org/player/20870/sl3nd",
+                  "team_name": "INFINITE",
+                  "timeline_entry": {
+                    "adr": 86.2,
+                    "date": "2026-10-09",
+                    "deaths": 28,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 70.7,
+                    "kd_ratio": 1.04,
+                    "kills": 29,
+                    "maps": 3,
+                    "match_id": "hltv:2399047",
+                    "opponent_name": "WBT",
+                    "rating": 1.06,
+                    "team_name": "INFINITE",
+                    "won": false
+                  }
+                },
+                {
+                  "hltv_player_id": "9911",
+                  "nickname": "kreaz",
+                  "player_id": "hltv:9911",
+                  "source_url": "https://www.hltv.org/player/9911/kreaz",
+                  "team_name": "INFINITE",
+                  "timeline_entry": {
+                    "adr": 65.1,
+                    "date": "2026-10-09",
+                    "deaths": 32,
+                    "event_name": "Roman Imperium Cup IX",
+                    "kast": 73.2,
+                    "kd_ratio": 0.78,
+                    "kills": 25,
+                    "maps": 3,
+                    "match_id": "hltv:2399047",
+                    "opponent_name": "WBT",
+                    "rating": 0.77,
+                    "team_name": "INFINITE",
+                    "won": false
+                  }
+                }
+              ]
+            },
+            "map_results": [
+              {
+                "map_name": "Dust2",
+                "score1": 13,
+                "score2": 9,
+                "status": "finished"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": 13,
+                "score2": 6,
+                "status": "finished"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Dust2",
+              "Ancient",
+              "Mirage"
+            ],
             "match_id": "hltv:2399047",
+            "player_stats": [
+              {
+                "adr": 80.3,
+                "deaths": 26,
+                "hltv_player_id": "19733",
+                "kast": 75.6,
+                "kills": 36,
+                "nickname": "DemQQ",
+                "player_id": "hltv:19733",
+                "rating": 1.47,
+                "source_url": "https://www.hltv.org/player/19733/demqq",
+                "team_side": 1
+              },
+              {
+                "adr": 84.4,
+                "deaths": 22,
+                "hltv_player_id": "18240",
+                "kast": 75.6,
+                "kills": 31,
+                "nickname": "Smash",
+                "player_id": "hltv:18240",
+                "rating": 1.44,
+                "source_url": "https://www.hltv.org/player/18240/smash",
+                "team_side": 1
+              },
+              {
+                "adr": 90.4,
+                "deaths": 27,
+                "hltv_player_id": "25588",
+                "kast": 65.9,
+                "kills": 27,
+                "nickname": "tyr1k",
+                "player_id": "hltv:25588",
+                "rating": 1.11,
+                "source_url": "https://www.hltv.org/player/25588/tyr1k",
+                "team_side": 1
+              },
+              {
+                "adr": 62.5,
+                "deaths": 21,
+                "hltv_player_id": "19614",
+                "kast": 75.6,
+                "kills": 23,
+                "nickname": "s4ltovsk1yy",
+                "player_id": "hltv:19614",
+                "rating": 1.08,
+                "source_url": "https://www.hltv.org/player/19614/s4ltovsk1yy",
+                "team_side": 1
+              },
+              {
+                "adr": 58.9,
+                "deaths": 25,
+                "hltv_player_id": "16563",
+                "kast": 63.4,
+                "kills": 24,
+                "nickname": "Psycho",
+                "player_id": "hltv:16563",
+                "rating": 0.9,
+                "source_url": "https://www.hltv.org/player/16563/psycho",
+                "team_side": 1
+              },
+              {
+                "adr": 86.2,
+                "deaths": 28,
+                "hltv_player_id": "20870",
+                "kast": 70.7,
+                "kills": 29,
+                "nickname": "sl3nd",
+                "player_id": "hltv:20870",
+                "rating": 1.06,
+                "source_url": "https://www.hltv.org/player/20870/sl3nd",
+                "team_side": 2
+              },
+              {
+                "adr": 67.4,
+                "deaths": 27,
+                "hltv_player_id": "20358",
+                "kast": 63.4,
+                "kills": 24,
+                "nickname": "volt",
+                "player_id": "hltv:20358",
+                "rating": 0.9,
+                "source_url": "https://www.hltv.org/player/20358/volt",
+                "team_side": 2
+              },
+              {
+                "adr": 56.1,
+                "deaths": 27,
+                "hltv_player_id": "12945",
+                "kast": 68.3,
+                "kills": 23,
+                "nickname": "Blytz",
+                "player_id": "hltv:12945",
+                "rating": 0.85,
+                "source_url": "https://www.hltv.org/player/12945/blytz",
+                "team_side": 2
+              },
+              {
+                "adr": 65.1,
+                "deaths": 32,
+                "hltv_player_id": "9911",
+                "kast": 73.2,
+                "kills": 25,
+                "nickname": "kreaz",
+                "player_id": "hltv:9911",
+                "rating": 0.77,
+                "source_url": "https://www.hltv.org/player/9911/kreaz",
+                "team_side": 2
+              },
+              {
+                "adr": 58.9,
+                "deaths": 29,
+                "hltv_player_id": "20170",
+                "kast": 65.9,
+                "kills": 20,
+                "nickname": "kyuubii",
+                "player_id": "hltv:20170",
+                "rating": 0.74,
+                "source_url": "https://www.hltv.org/player/20170/kyuubii",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_2",
             "score1": 2,
             "score2": 0,
@@ -35672,6 +36945,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "finished",
             "team1_name": "WBT",
             "team2_name": "INFINITE",
+            "veto_text": "Best of 3 (LAN)\n\n* Lower bracket round 1",
             "winner_name": "WBT"
           },
           {
@@ -36086,7 +37360,7 @@ window.__STRIKESIGNAL_DATA__ = {
           },
           {
             "detail_fetched_at_utc": "2026-10-09T21:44:48Z",
-            "event_id": "hltv:roman-imperium-cup-ix",
+            "event_id": "hltv:9318",
             "event_name": "Roman Imperium Cup IX",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399052",
@@ -36098,7 +37372,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
-            "stage_name": "Scheduled series",
+            "stage_name": "Playoffs",
             "starts_at": "2026-10-10T10:00:00Z",
             "status": "live",
             "team1_name": "FaZe",
@@ -37779,10 +39053,19 @@ window.__STRIKESIGNAL_DATA__ = {
       },
       {
         "bracket": null,
+        "current_stage": "Playoffs",
         "format": {
-          "label": "Event schedule",
+          "label": "Playoffs",
           "settings": {},
-          "stages": [],
+          "stages": [
+            {
+              "id": "playoffs",
+              "name": "Playoffs",
+              "order": 1,
+              "status": "pending",
+              "type": "single_elimination"
+            }
+          ],
           "type": "mixed"
         },
         "id": "hltv:9385",
@@ -39806,14 +41089,17 @@ window.__STRIKESIGNAL_DATA__ = {
             ],
             "match_id": "hltv:2399192",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399192/galorys-vs-turma-do-pagode-esl-challenger-league-season-52-south-america-cup-3",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-09T21:00:00Z",
-            "status": "live",
+            "starts_at": "2026-10-09T22:52:46Z",
+            "status": "finished",
             "team1_name": "Galorys",
             "team2_name": "Turma do Pagode",
-            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2",
+            "winner_name": "Galorys"
           },
           {
             "detail_fetched_at_utc": "2026-10-09T21:44:17Z",
@@ -39852,14 +41138,17 @@ window.__STRIKESIGNAL_DATA__ = {
             ],
             "match_id": "hltv:2399193",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399193/alka-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-3",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-09T21:00:00Z",
-            "status": "live",
+            "starts_at": "2026-10-09T22:58:15Z",
+            "status": "finished",
             "team1_name": "ALKA",
             "team2_name": "MEIA NOITE",
-            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2",
+            "winner_name": "MEIA NOITE"
           },
           {
             "detail_fetched_at_utc": "2026-10-09T21:44:30Z",
@@ -39898,14 +41187,17 @@ window.__STRIKESIGNAL_DATA__ = {
             ],
             "match_id": "hltv:2399194",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399194/isurus-vs-procyon-esl-challenger-league-season-52-south-america-cup-3",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-09T21:00:00Z",
-            "status": "live",
+            "starts_at": "2026-10-09T22:37:42Z",
+            "status": "finished",
             "team1_name": "Isurus",
             "team2_name": "Procyon",
-            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2",
+            "winner_name": "Procyon"
           },
           {
             "detail_fetched_at_utc": "2026-10-09T21:44:42Z",
@@ -39944,14 +41236,17 @@ window.__STRIKESIGNAL_DATA__ = {
             ],
             "match_id": "hltv:2399195",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399195/grmio-vs-borracheiros-esl-challenger-league-season-52-south-america-cup-3",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-09T21:00:00Z",
-            "status": "live",
+            "starts_at": "2026-10-09T22:54:48Z",
+            "status": "finished",
             "team1_name": "Gr\u00eamio",
             "team2_name": "BORRACHEIROS",
-            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2",
+            "winner_name": "BORRACHEIROS"
           },
           {
             "event_id": "hltv:9385",
@@ -39980,6 +41275,34 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "Bounty Hunters",
             "team2_name": "LP"
+          },
+          {
+            "event_id": "hltv:9385",
+            "event_name": "ESL Challenger League Season 52 South America Cup 3",
+            "hltv_match_id": "2399198",
+            "match_id": "hltv:2399198",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399198/galorys-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-3",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-10-10T21:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Galorys",
+            "team2_name": "MEIA NOITE"
+          },
+          {
+            "event_id": "hltv:9385",
+            "event_name": "ESL Challenger League Season 52 South America Cup 3",
+            "hltv_match_id": "2399199",
+            "match_id": "hltv:2399199",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399199/procyon-vs-borracheiros-esl-challenger-league-season-52-south-america-cup-3",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-10-10T21:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Procyon",
+            "team2_name": "BORRACHEIROS"
           }
         ],
         "name": "ESL Challenger League Season 52 South America Cup 3",
@@ -42772,60 +44095,188 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Club 333"
           },
           {
-            "event_id": "hltv:9387",
+            "detail_fetched_at_utc": "2026-10-10T01:34:29Z",
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
             "event_name": "ESL Challenger League Season 52 North America Cup 3",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399220",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Dust2",
+              "Mirage",
+              "Nuke"
+            ],
             "match_id": "hltv:2399220",
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399220/desi-boyz-vs-empire-esl-challenger-league-season-52-north-america-cup-3",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-10T01:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Desi Boyz",
-            "team2_name": "EMPIRE"
+            "team2_name": "EMPIRE",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
           },
           {
-            "event_id": "hltv:9387",
+            "detail_fetched_at_utc": "2026-10-10T01:35:40Z",
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
             "event_name": "ESL Challenger League Season 52 North America Cup 3",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399221",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Inferno",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Anubis",
+              "Inferno",
+              "Mirage"
+            ],
             "match_id": "hltv:2399221",
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399221/regain-vs-villainous-esl-challenger-league-season-52-north-america-cup-3",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-10T01:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "regain",
-            "team2_name": "Villainous"
+            "team2_name": "Villainous",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
           },
           {
-            "event_id": "hltv:9387",
+            "detail_fetched_at_utc": "2026-10-10T01:35:58Z",
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
             "event_name": "ESL Challenger League Season 52 North America Cup 3",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399222",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Dust2",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Dust2",
+              "Ancient",
+              "Mirage"
+            ],
             "match_id": "hltv:2399222",
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399222/farmville-vs-wanted-goons-esl-challenger-league-season-52-north-america-cup-3",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-10T01:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "FarmVille",
-            "team2_name": "Wanted Goons"
+            "team2_name": "Wanted Goons",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
           },
           {
-            "event_id": "hltv:9387",
+            "detail_fetched_at_utc": "2026-10-10T01:36:38Z",
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
             "event_name": "ESL Challenger League Season 52 North America Cup 3",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399223",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Inferno",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Anubis",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Inferno",
+              "Anubis",
+              "Mirage"
+            ],
             "match_id": "hltv:2399223",
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399223/club-333-vs-detonate-esl-challenger-league-season-52-north-america-cup-3",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-10T01:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Club 333",
-            "team2_name": "DETONATE"
+            "team2_name": "DETONATE",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket round 2"
           },
           {
             "event_id": "hltv:9387",
@@ -44505,7 +45956,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 8
       }
     ],
-    "last_verified_utc": "2026-10-09T21:44:52Z",
+    "last_verified_utc": "2026-10-10T01:36:38Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -44943,7 +46394,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-09T21:45:09Z",
+  "generated_at_utc": "2026-10-10T01:47:29Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -46319,12 +47770,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.636872,
-        "brier": 0.224183,
-        "ece": 0.027267,
-        "log_loss": 0.638103
+        "accuracy": 0.633333,
+        "brier": 0.225105,
+        "ece": 0.02567,
+        "log_loss": 0.64005
       },
-      "rows": 1074,
+      "rows": 1078,
       "slices": [
         {
           "dimension": "tier",
@@ -46345,12 +47796,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.601852,
-            "brier": 0.241658,
-            "ece": 0.045088,
-            "log_loss": 0.676683
+            "accuracy": 0.594512,
+            "brier": 0.243469,
+            "ece": 0.03698,
+            "log_loss": 0.680486
           },
-          "rows": 324
+          "rows": 328
         },
         {
           "dimension": "series_format",
@@ -46371,12 +47822,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.626246,
-            "brier": 0.225687,
-            "ece": 0.031111,
-            "log_loss": 0.641164
+            "accuracy": 0.622112,
+            "brier": 0.226772,
+            "ece": 0.030239,
+            "log_loss": 0.643456
           },
-          "rows": 602
+          "rows": 606
         },
         {
           "dimension": "series_format",
@@ -46392,7 +47843,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 9
         }
       ],
-      "test_rows": 716
+      "test_rows": 720
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -46403,13 +47854,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.641061,
-        "brier": 0.226374,
-        "ece": 0.059204,
-        "log_loss": 0.643297
+        "accuracy": 0.6375,
+        "brier": 0.226831,
+        "ece": 0.055796,
+        "log_loss": 0.644232
       },
       "promotion_passed": false,
-      "rows": 716,
+      "rows": 720,
       "slices": [
         {
           "dimension": "tier",
@@ -46430,12 +47881,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.614198,
-            "brier": 0.243925,
-            "ece": 0.084509,
-            "log_loss": 0.680954
+            "accuracy": 0.606707,
+            "brier": 0.244715,
+            "ece": 0.076942,
+            "log_loss": 0.682549
           },
-          "rows": 324
+          "rows": 328
         },
         {
           "dimension": "series_format",
@@ -46456,12 +47907,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.631229,
-            "brier": 0.227403,
-            "ece": 0.05124,
-            "log_loss": 0.645381
+            "accuracy": 0.627063,
+            "brier": 0.227939,
+            "ece": 0.047242,
+            "log_loss": 0.646479
           },
-          "rows": 602
+          "rows": 606
         },
         {
           "dimension": "series_format",
@@ -46497,7 +47948,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-09T21:45:09Z",
+    "generated_at_utc": "2026-10-10T01:47:28Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -46520,12 +47971,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.601852,
-            "brier": 0.241658,
-            "ece": 0.045088,
-            "log_loss": 0.676683
+            "accuracy": 0.594512,
+            "brier": 0.243469,
+            "ece": 0.03698,
+            "log_loss": 0.680486
           },
-          "rows": 324
+          "rows": 328
         },
         {
           "dimension": "series_format",
@@ -46546,12 +47997,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.626246,
-            "brier": 0.225687,
-            "ece": 0.031111,
-            "log_loss": 0.641164
+            "accuracy": 0.622112,
+            "brier": 0.226772,
+            "ece": 0.030239,
+            "log_loss": 0.643456
           },
-          "rows": 602
+          "rows": 606
         },
         {
           "dimension": "series_format",
@@ -46579,7 +48030,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 324
+            "rows": 328
           },
           {
             "eligible": true,
@@ -46591,7 +48042,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 602
+            "rows": 606
           },
           {
             "eligible": false,
@@ -46622,12 +48073,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.614198,
-            "brier": 0.241872,
-            "ece": 0.075693,
-            "log_loss": 0.676979
+            "accuracy": 0.606707,
+            "brier": 0.243506,
+            "ece": 0.074818,
+            "log_loss": 0.680384
           },
-          "rows": 324
+          "rows": 328
         },
         {
           "dimension": "series_format",
@@ -46648,12 +48099,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.631229,
-            "brier": 0.226683,
-            "ece": 0.037376,
-            "log_loss": 0.644029
+            "accuracy": 0.627063,
+            "brier": 0.227668,
+            "ece": 0.034209,
+            "log_loss": 0.64609
           },
-          "rows": 602
+          "rows": 606
         },
         {
           "dimension": "series_format",
@@ -46670,10 +48121,10 @@ window.__STRIKESIGNAL_DATA__ = {
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.636872,
-        "brier": 0.224966,
-        "ece": 0.043084,
-        "log_loss": 0.639544
+        "accuracy": 0.633333,
+        "brier": 0.225466,
+        "ece": 0.039734,
+        "log_loss": 0.640572
       },
       "champion_slices": [
         {
@@ -46695,12 +48146,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.601852,
-            "brier": 0.243387,
-            "ece": 0.06906,
-            "log_loss": 0.679868
+            "accuracy": 0.594512,
+            "brier": 0.24426,
+            "ece": 0.06139,
+            "log_loss": 0.681633
           },
-          "rows": 324
+          "rows": 328
         },
         {
           "dimension": "series_format",
@@ -46721,12 +48172,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.626246,
-            "brier": 0.226208,
-            "ece": 0.042438,
-            "log_loss": 0.642042
+            "accuracy": 0.622112,
+            "brier": 0.226794,
+            "ece": 0.038463,
+            "log_loss": 0.643247
           },
-          "rows": 602
+          "rows": 606
         },
         {
           "dimension": "series_format",
@@ -46742,37 +48193,37 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 9
         }
       ],
-      "champion_test_rows": 716,
+      "champion_test_rows": 720,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.601852,
-          "brier": 0.241912,
-          "ece": 0.067326,
-          "log_loss": 0.67692
+          "accuracy": 0.594512,
+          "brier": 0.243246,
+          "ece": 0.063128,
+          "log_loss": 0.679657
         },
         "before": {
-          "accuracy": 0.601852,
-          "brier": 0.243387,
-          "ece": 0.06906,
-          "log_loss": 0.679868
+          "accuracy": 0.594512,
+          "brier": 0.24426,
+          "ece": 0.06139,
+          "log_loss": 0.681633
         },
         "candidate_shrink": 0.75,
         "overall_after": {
-          "accuracy": 0.636872,
-          "brier": 0.224298,
-          "ece": 0.041111,
-          "log_loss": 0.63821
+          "accuracy": 0.633333,
+          "brier": 0.225004,
+          "ece": 0.039344,
+          "log_loss": 0.639672
         },
         "overall_before": {
-          "accuracy": 0.636872,
-          "brier": 0.224966,
-          "ece": 0.043084,
-          "log_loss": 0.639544
+          "accuracy": 0.633333,
+          "brier": 0.225466,
+          "ece": 0.039734,
+          "log_loss": 0.640572
         },
         "passed": false,
-        "rows": 324,
+        "rows": 328,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -46792,7 +48243,7 @@ window.__STRIKESIGNAL_DATA__ = {
     },
     "training": {
       "new_rows": 4,
-      "online_rows": 317,
+      "online_rows": 321,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -47214,9 +48665,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2399051",
       "hltv:2399369",
       "hltv:2399368",
-      "hltv:2399050"
+      "hltv:2399050",
+      "hltv:2399194",
+      "hltv:2399192",
+      "hltv:2399195",
+      "hltv:2399193"
     ],
-    "last_online_update_utc": "2026-10-09T21:45:09Z",
+    "last_online_update_utc": "2026-10-10T01:47:29Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -50150,10 +51605,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 68
       },
       {
-        "elo": 1580.3,
-        "last_result_utc": "2026-10-08T22:46:07Z",
-        "matches": 10,
-        "recent_win_rate_10": 0.751,
+        "elo": 1562.61,
+        "last_result_utc": "2026-10-09T22:52:46Z",
+        "matches": 11,
+        "recent_win_rate_10": 0.6145,
         "team_key": "turma do pagode",
         "team_name": "Turma do Pagode",
         "vrs_points": 1170,
@@ -50244,10 +51699,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 79
       },
       {
-        "elo": 1473.86,
-        "last_result_utc": "2026-10-08T20:34:07Z",
-        "matches": 43,
-        "recent_win_rate_10": 0.55,
+        "elo": 1491.55,
+        "last_result_utc": "2026-10-09T22:52:46Z",
+        "matches": 44,
+        "recent_win_rate_10": 0.6318,
         "team_key": "galorys",
         "team_name": "Galorys",
         "vrs_points": 1120,
@@ -50644,10 +52099,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 127
       },
       {
-        "elo": 1515.81,
-        "last_result_utc": "2026-10-08T23:00:23Z",
-        "matches": 6,
-        "recent_win_rate_10": 0.5465,
+        "elo": 1501.87,
+        "last_result_utc": "2026-10-09T22:37:42Z",
+        "matches": 7,
+        "recent_win_rate_10": 0.4471,
         "team_key": "isurus",
         "team_name": "Isurus",
         "vrs_points": 944,
@@ -51200,10 +52655,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 198
       },
       {
-        "elo": 1508.09,
-        "last_result_utc": "2026-10-08T22:58:31Z",
-        "matches": 9,
-        "recent_win_rate_10": 0.5442,
+        "elo": 1522.03,
+        "last_result_utc": "2026-10-09T22:37:42Z",
+        "matches": 10,
+        "recent_win_rate_10": 0.6271,
         "team_key": "procyon",
         "team_name": "Procyon",
         "vrs_points": 751,
@@ -51443,10 +52898,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 227
       },
       {
-        "elo": 1465.45,
-        "last_result_utc": "2026-10-08T23:09:25Z",
-        "matches": 7,
-        "recent_win_rate_10": 0.371,
+        "elo": 1452.68,
+        "last_result_utc": "2026-10-09T22:58:15Z",
+        "matches": 8,
+        "recent_win_rate_10": 0.3035,
         "team_key": "alka",
         "team_name": "ALKA",
         "vrs_points": 693,
@@ -53338,10 +54793,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1510.53,
-        "last_result_utc": "2026-10-08T23:54:21Z",
-        "matches": 7,
-        "recent_win_rate_10": 0.5522,
+        "elo": 1523.49,
+        "last_result_utc": "2026-10-09T22:54:48Z",
+        "matches": 8,
+        "recent_win_rate_10": 0.6336,
         "team_key": "borracheiros",
         "team_name": "BORRACHEIROS",
         "vrs_points": 0,
@@ -53588,10 +55043,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1487.7,
-        "last_result_utc": "2026-10-08T23:53:09Z",
-        "matches": 7,
-        "recent_win_rate_10": 0.4708,
+        "elo": 1500.47,
+        "last_result_utc": "2026-10-09T22:58:15Z",
+        "matches": 8,
+        "recent_win_rate_10": 0.567,
         "team_key": "meia noite",
         "team_name": "MEIA NOITE",
         "vrs_points": 0,
@@ -53648,10 +55103,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1493.18,
-        "last_result_utc": "2026-10-08T23:50:24Z",
-        "matches": 6,
-        "recent_win_rate_10": 0.465,
+        "elo": 1480.22,
+        "last_result_utc": "2026-10-09T22:54:48Z",
+        "matches": 7,
+        "recent_win_rate_10": 0.3805,
         "team_key": "gr mio",
         "team_name": "Gr\u00eamio",
         "vrs_points": 0,
@@ -57003,13 +58458,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4222,
-      "event_id": "hltv:roman-imperium-cup-ix",
+      "event_id": "hltv:9318",
       "event_name": "Roman Imperium Cup IX",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-10",
@@ -57026,7 +58478,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2399052/faze-vs-navi-junior-roman-imperium-cup-ix",
-      "stage_name": "Scheduled series",
+      "stage_name": "Playoffs",
       "starts_at": "2026-10-10T10:00:00Z",
       "status": "live",
       "team1_hltv_rank": null,
@@ -57302,13 +58754,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "strong",
       "data_quality": "full",
       "elo_prob_team1": 0.1485,
-      "event_id": "hltv:esl-pro-league-season-24",
+      "event_id": "hltv:8244",
       "event_name": "ESL Pro League Season 24",
       "format": "bo3",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
+      "lineups": {},
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-10",
@@ -57325,7 +58774,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
       "source_url": "https://www.hltv.org/matches/2398754/aurora-vs-vitality-esl-pro-league-season-24",
-      "stage_name": "Scheduled series",
+      "stage_name": "Semifinal",
       "starts_at": "2026-10-10T13:45:00Z",
       "status": "live",
       "team1_hltv_rank": null,
@@ -57523,6 +58972,80 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5244,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5244,
+      "event_id": "hltv:9385",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-10",
+      "match_id": "hltv:2399198",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791666000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Galorys",
+      "prob_team1": 0.5244,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399198/galorys-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-3",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-10-10T21:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Galorys",
+      "team1_vrs_rank": 80,
+      "team2_hltv_rank": null,
+      "team2_name": "MEIA NOITE",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.527,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.527,
+      "event_id": "hltv:9385",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-10",
+      "match_id": "hltv:2399199",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791666000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Procyon",
+      "prob_team1": 0.527,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399199/procyon-vs-borracheiros-esl-challenger-league-season-52-south-america-cup-3",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-10-10T21:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Procyon",
+      "team1_vrs_rank": 199,
+      "team2_hltv_rank": null,
+      "team2_name": "BORRACHEIROS",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5268,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -57667,86 +59190,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Ninjas in Pyjamas",
       "team2_vrs_rank": 23
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5224,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5224,
-      "event_id": "hltv:8932",
-      "event_name": "Thunderpick World Championship 2026",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-14",
-      "match_id": "hltv:2399386",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791984600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Legacy",
-      "prob_team1": 0.5224,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399386/legacy-vs-parivision-thunderpick-world-championship-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-14T13:30:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "Legacy",
-      "team1_vrs_rank": 6,
-      "team2_hltv_rank": null,
-      "team2_name": "PARIVISION",
-      "team2_vrs_rank": 14
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5012,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4988,
-      "event_id": "hltv:8932",
-      "event_name": "Thunderpick World Championship 2026",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-14",
-      "match_id": "hltv:2399387",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791993600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "BETBOOM",
-      "prob_team1": 0.4988,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399387/furia-vs-betboom-thunderpick-world-championship-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-14T16:00:00Z",
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "FURIA",
-      "team1_vrs_rank": 11,
-      "team2_hltv_rank": null,
-      "team2_name": "BETBOOM",
-      "team2_vrs_rank": 17
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 93,
-    "online_results_applied": 9,
+    "live_feed_items": 95,
+    "online_results_applied": 4,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

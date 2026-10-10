@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-09T21:44:52Z",
+  "generated_at_utc": "2026-10-10T01:36:38Z",
   "through_date": "2026-10-09",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3771,
-    "maps": 2688,
-    "lineup_rows": 8710,
+    "matches": 3775,
+    "maps": 2694,
+    "lineup_rows": 8730,
     "source_match_ids": 976
   },
   "matches": [
@@ -249,10 +249,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "score1": 7,
+          "score2": 13,
+          "winner_name": "Sangal",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 7,
+          "score2": 13,
+          "winner_name": "Sangal",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Sangal",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Fessor",
+          "n1Xen",
+          "anber",
+          "sSen",
+          "bekker"
+        ],
+        "team2": [
+          "R4DYX",
+          "Joey",
+          "bnox",
+          "adamS",
+          "puuha"
+        ]
       }
     },
     {
@@ -271,10 +305,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "WBT",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "WBT",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "winner_name": "INFINITE",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Psycho",
+          "Smash",
+          "s4ltovsk1yy",
+          "DemQQ",
+          "tyr1k"
+        ],
+        "team2": [
+          "kyuubii",
+          "volt",
+          "Blytz",
+          "sl3nd",
+          "kreaz"
+        ]
       }
     },
     {
@@ -982,6 +1050,94 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
+    },
+    {
+      "match_id": "hltv:2399194",
+      "match_date": "2026-10-09",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "team1_name": "Isurus",
+      "team2_name": "Procyon",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Procyon",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399192",
+      "match_date": "2026-10-09",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "team1_name": "Galorys",
+      "team2_name": "Turma do Pagode",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Galorys",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399195",
+      "match_date": "2026-10-09",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "team1_name": "Grêmio",
+      "team2_name": "BORRACHEIROS",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "BORRACHEIROS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399193",
+      "match_date": "2026-10-09",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "team1_name": "ALKA",
+      "team2_name": "MEIA NOITE",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MEIA NOITE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "liquipedia:0b02ebda4e7a1aeb1b0f",
