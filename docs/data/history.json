@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3782,
+    "matches": 3786,
     "maps": 2694,
     "lineup_rows": 8730,
     "source_match_ids": 976
@@ -100,6 +100,72 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:03e493fd30210eb9fbf5",
+      "match_date": "2026-10-10",
+      "starts_at": "2026-10-10T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "333",
+      "team2_name": "DTN",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "DTN",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:50d2857af5abb0f5830c",
+      "match_date": "2026-10-10",
+      "starts_at": "2026-10-10T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "Desi",
+      "team2_name": "EMPIRE",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "EMPIRE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:55c7c26b3763e1a72052",
+      "match_date": "2026-10-10",
+      "starts_at": "2026-10-10T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "FarmVille",
+      "team2_name": "WG",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "WG",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
     },
     {
       "match_id": "hltv:2399214",
@@ -1281,6 +1347,28 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "BORRA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:f0945e097da3c33db84a",
+      "match_date": "2026-10-09",
+      "starts_at": "2026-10-09T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #3",
+      "team1_name": "Galorys",
+      "team2_name": "TDP",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Galorys",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
