@@ -25147,9 +25147,9 @@
       "player_id": "hltv:23753",
       "nickname": "MahaR",
       "team_name": "NAVI Junior",
-      "rating_3_0": 1.08,
+      "rating_3_0": 0.45,
       "maps_3m": 3,
-      "signal_index": 58,
+      "signal_index": 0,
       "traits": {},
       "form_timeline": [
         {
@@ -25181,30 +25181,45 @@
           "rating": 1.08,
           "team_name": "NAVI Junior",
           "won": true
+        },
+        {
+          "adr": 46.2,
+          "date": "2026-10-10",
+          "deaths": 26,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 53.3,
+          "kd_ratio": 0.38,
+          "kills": 10,
+          "maps": 3,
+          "match_id": "hltv:2399055",
+          "opponent_name": "FaZe",
+          "rating": 0.45,
+          "team_name": "NAVI Junior",
+          "won": false
         }
       ],
       "hltv_player_id": "23753",
       "source_url": "https://www.hltv.org/player/23753/mahar",
       "timeline_entry": {
-        "adr": 75.2,
-        "date": "2026-10-09",
-        "deaths": 37,
+        "adr": 46.2,
+        "date": "2026-10-10",
+        "deaths": 26,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 78.3,
-        "kd_ratio": 1.03,
-        "kills": 38,
+        "kast": 53.3,
+        "kd_ratio": 0.38,
+        "kills": 10,
         "maps": 3,
-        "match_id": "hltv:2399049",
-        "opponent_name": "G2 Ares",
-        "rating": 1.08,
+        "match_id": "hltv:2399055",
+        "opponent_name": "FaZe",
+        "rating": 0.45,
         "team_name": "NAVI Junior",
-        "won": true
+        "won": false
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.01,
-        "average_adr": 70.5,
-        "recent_rating": 1.01,
+        "series": 3,
+        "average_rating": 0.82,
+        "average_adr": 62.4,
+        "recent_rating": 0.82,
         "rating_delta": null
       },
       "map_profile": [],
@@ -25212,13 +25227,13 @@
         {
           "team_name": "NAVI Junior",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-09",
-          "series": 2,
+          "through_date": "2026-10-10",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.01,
-          "average_adr": 70.5
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 0.82,
+          "average_adr": 62.4
         }
       ]
     },
@@ -25226,9 +25241,9 @@
       "player_id": "hltv:25060",
       "nickname": "FAZERY",
       "team_name": "NAVI Junior",
-      "rating_3_0": 1.19,
+      "rating_3_0": 0.84,
       "maps_3m": 3,
-      "signal_index": 69,
+      "signal_index": 34,
       "traits": {},
       "form_timeline": [
         {
@@ -25260,30 +25275,45 @@
           "rating": 1.19,
           "team_name": "NAVI Junior",
           "won": true
+        },
+        {
+          "adr": 63.7,
+          "date": "2026-10-10",
+          "deaths": 24,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 70,
+          "kd_ratio": 0.71,
+          "kills": 17,
+          "maps": 3,
+          "match_id": "hltv:2399055",
+          "opponent_name": "FaZe",
+          "rating": 0.84,
+          "team_name": "NAVI Junior",
+          "won": false
         }
       ],
       "hltv_player_id": "25060",
       "source_url": "https://www.hltv.org/player/25060/fazery",
       "timeline_entry": {
-        "adr": 79,
-        "date": "2026-10-09",
-        "deaths": 36,
+        "adr": 63.7,
+        "date": "2026-10-10",
+        "deaths": 24,
         "event_name": "Roman Imperium Cup IX",
         "kast": 70,
-        "kd_ratio": 1.17,
-        "kills": 42,
+        "kd_ratio": 0.71,
+        "kills": 17,
         "maps": 3,
-        "match_id": "hltv:2399049",
-        "opponent_name": "G2 Ares",
-        "rating": 1.19,
+        "match_id": "hltv:2399055",
+        "opponent_name": "FaZe",
+        "rating": 0.84,
         "team_name": "NAVI Junior",
-        "won": true
+        "won": false
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.33,
-        "average_adr": 84.1,
-        "recent_rating": 1.33,
+        "series": 3,
+        "average_rating": 1.17,
+        "average_adr": 77.3,
+        "recent_rating": 1.17,
         "rating_delta": null
       },
       "map_profile": [],
@@ -25291,13 +25321,13 @@
         {
           "team_name": "NAVI Junior",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-09",
-          "series": 2,
+          "through_date": "2026-10-10",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.33,
-          "average_adr": 84.1
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1.17,
+          "average_adr": 77.3
         }
       ]
     },
@@ -25305,9 +25335,9 @@
       "player_id": "hltv:25675",
       "nickname": "kodak",
       "team_name": "NAVI Junior",
-      "rating_3_0": 0.89,
+      "rating_3_0": 0.8,
       "maps_3m": 3,
-      "signal_index": 39,
+      "signal_index": 30,
       "traits": {},
       "form_timeline": [
         {
@@ -25339,30 +25369,45 @@
           "rating": 0.89,
           "team_name": "NAVI Junior",
           "won": true
+        },
+        {
+          "adr": 73.6,
+          "date": "2026-10-10",
+          "deaths": 28,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 60,
+          "kd_ratio": 0.5,
+          "kills": 14,
+          "maps": 3,
+          "match_id": "hltv:2399055",
+          "opponent_name": "FaZe",
+          "rating": 0.8,
+          "team_name": "NAVI Junior",
+          "won": false
         }
       ],
       "hltv_player_id": "25675",
       "source_url": "https://www.hltv.org/player/25675/kodak",
       "timeline_entry": {
-        "adr": 61.5,
-        "date": "2026-10-09",
-        "deaths": 37,
+        "adr": 73.6,
+        "date": "2026-10-10",
+        "deaths": 28,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 78.3,
-        "kd_ratio": 0.89,
-        "kills": 33,
+        "kast": 60,
+        "kd_ratio": 0.5,
+        "kills": 14,
         "maps": 3,
-        "match_id": "hltv:2399049",
-        "opponent_name": "G2 Ares",
-        "rating": 0.89,
+        "match_id": "hltv:2399055",
+        "opponent_name": "FaZe",
+        "rating": 0.8,
         "team_name": "NAVI Junior",
-        "won": true
+        "won": false
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.03,
-        "average_adr": 72.2,
-        "recent_rating": 1.03,
+        "series": 3,
+        "average_rating": 0.96,
+        "average_adr": 72.6,
+        "recent_rating": 0.96,
         "rating_delta": null
       },
       "map_profile": [],
@@ -25370,13 +25415,13 @@
         {
           "team_name": "NAVI Junior",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-09",
-          "series": 2,
+          "through_date": "2026-10-10",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.03,
-          "average_adr": 72.2
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 0.96,
+          "average_adr": 72.6
         }
       ]
     },
@@ -25384,9 +25429,9 @@
       "player_id": "hltv:25674",
       "nickname": "yoki",
       "team_name": "NAVI Junior",
-      "rating_3_0": 1.17,
+      "rating_3_0": 0.61,
       "maps_3m": 3,
-      "signal_index": 67,
+      "signal_index": 11,
       "traits": {},
       "form_timeline": [
         {
@@ -25418,30 +25463,45 @@
           "rating": 1.17,
           "team_name": "NAVI Junior",
           "won": true
+        },
+        {
+          "adr": 55,
+          "date": "2026-10-10",
+          "deaths": 25,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 50,
+          "kd_ratio": 0.52,
+          "kills": 13,
+          "maps": 3,
+          "match_id": "hltv:2399055",
+          "opponent_name": "FaZe",
+          "rating": 0.61,
+          "team_name": "NAVI Junior",
+          "won": false
         }
       ],
       "hltv_player_id": "25674",
       "source_url": "https://www.hltv.org/player/25674/yoki",
       "timeline_entry": {
-        "adr": 83.8,
-        "date": "2026-10-09",
-        "deaths": 36,
+        "adr": 55,
+        "date": "2026-10-10",
+        "deaths": 25,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 70,
-        "kd_ratio": 1.39,
-        "kills": 50,
+        "kast": 50,
+        "kd_ratio": 0.52,
+        "kills": 13,
         "maps": 3,
-        "match_id": "hltv:2399049",
-        "opponent_name": "G2 Ares",
-        "rating": 1.17,
+        "match_id": "hltv:2399055",
+        "opponent_name": "FaZe",
+        "rating": 0.61,
         "team_name": "NAVI Junior",
-        "won": true
+        "won": false
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1,
-        "average_adr": 73.9,
-        "recent_rating": 1,
+        "series": 3,
+        "average_rating": 0.87,
+        "average_adr": 67.6,
+        "recent_rating": 0.87,
         "rating_delta": null
       },
       "map_profile": [],
@@ -25449,13 +25509,13 @@
         {
           "team_name": "NAVI Junior",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-09",
-          "series": 2,
+          "through_date": "2026-10-10",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1,
-          "average_adr": 73.9
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 0.87,
+          "average_adr": 67.6
         }
       ]
     },
@@ -25463,9 +25523,9 @@
       "player_id": "hltv:25478",
       "nickname": "skizzyee",
       "team_name": "NAVI Junior",
-      "rating_3_0": 0.99,
+      "rating_3_0": 0.58,
       "maps_3m": 3,
-      "signal_index": 49,
+      "signal_index": 8,
       "traits": {},
       "form_timeline": [
         {
@@ -25497,30 +25557,45 @@
           "rating": 0.99,
           "team_name": "NAVI Junior",
           "won": true
+        },
+        {
+          "adr": 57.3,
+          "date": "2026-10-10",
+          "deaths": 26,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 50,
+          "kd_ratio": 0.58,
+          "kills": 15,
+          "maps": 3,
+          "match_id": "hltv:2399055",
+          "opponent_name": "FaZe",
+          "rating": 0.58,
+          "team_name": "NAVI Junior",
+          "won": false
         }
       ],
       "hltv_player_id": "25478",
       "source_url": "https://www.hltv.org/player/25478/skizzyee",
       "timeline_entry": {
-        "adr": 79.5,
-        "date": "2026-10-09",
-        "deaths": 45,
+        "adr": 57.3,
+        "date": "2026-10-10",
+        "deaths": 26,
         "event_name": "Roman Imperium Cup IX",
-        "kast": 63.3,
-        "kd_ratio": 0.93,
-        "kills": 42,
+        "kast": 50,
+        "kd_ratio": 0.58,
+        "kills": 15,
         "maps": 3,
-        "match_id": "hltv:2399049",
-        "opponent_name": "G2 Ares",
-        "rating": 0.99,
+        "match_id": "hltv:2399055",
+        "opponent_name": "FaZe",
+        "rating": 0.58,
         "team_name": "NAVI Junior",
-        "won": true
+        "won": false
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.11,
-        "average_adr": 78.7,
-        "recent_rating": 1.11,
+        "series": 3,
+        "average_rating": 0.93,
+        "average_adr": 71.6,
+        "recent_rating": 0.93,
         "rating_delta": null
       },
       "map_profile": [],
@@ -25528,13 +25603,13 @@
         {
           "team_name": "NAVI Junior",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-09",
-          "series": 2,
+          "through_date": "2026-10-10",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.11,
-          "average_adr": 78.7
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 0.93,
+          "average_adr": 71.6
         }
       ]
     },
@@ -28365,11 +28440,331 @@
           "average_adr": 65.1
         }
       ]
+    },
+    {
+      "player_id": "hltv:22866",
+      "nickname": "JBOEN",
+      "team_name": "FaZe",
+      "rating_3_0": 1.41,
+      "maps_3m": 3,
+      "signal_index": 91,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 72.2,
+          "date": "2026-10-10",
+          "deaths": 14,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 93.3,
+          "kd_ratio": 1.79,
+          "kills": 25,
+          "maps": 3,
+          "match_id": "hltv:2399055",
+          "opponent_name": "NAVI Junior",
+          "rating": 1.41,
+          "team_name": "FaZe",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "22866",
+      "source_url": "https://www.hltv.org/player/22866/jboen",
+      "timeline_entry": {
+        "adr": 72.2,
+        "date": "2026-10-10",
+        "deaths": 14,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 93.3,
+        "kd_ratio": 1.79,
+        "kills": 25,
+        "maps": 3,
+        "match_id": "hltv:2399055",
+        "opponent_name": "NAVI Junior",
+        "rating": 1.41,
+        "team_name": "FaZe",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.41,
+        "average_adr": 72.2,
+        "recent_rating": 1.41,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "FaZe",
+          "from_date": "2026-10-10",
+          "through_date": "2026-10-10",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.41,
+          "average_adr": 72.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:10394",
+      "nickname": "Twistzz",
+      "team_name": "FaZe",
+      "rating_3_0": 1.45,
+      "maps_3m": 3,
+      "signal_index": 95,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 88.4,
+          "date": "2026-10-10",
+          "deaths": 17,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 86.7,
+          "kd_ratio": 1.47,
+          "kills": 25,
+          "maps": 3,
+          "match_id": "hltv:2399055",
+          "opponent_name": "NAVI Junior",
+          "rating": 1.45,
+          "team_name": "FaZe",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "10394",
+      "source_url": "https://www.hltv.org/player/10394/twistzz",
+      "timeline_entry": {
+        "adr": 88.4,
+        "date": "2026-10-10",
+        "deaths": 17,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 86.7,
+        "kd_ratio": 1.47,
+        "kills": 25,
+        "maps": 3,
+        "match_id": "hltv:2399055",
+        "opponent_name": "NAVI Junior",
+        "rating": 1.45,
+        "team_name": "FaZe",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.45,
+        "average_adr": 88.4,
+        "recent_rating": 1.45,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "FaZe",
+          "from_date": "2026-10-10",
+          "through_date": "2026-10-10",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.45,
+          "average_adr": 88.4
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:22383",
+      "nickname": "jcobbb",
+      "team_name": "FaZe",
+      "rating_3_0": 2.04,
+      "maps_3m": 3,
+      "signal_index": 100,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 116.1,
+          "date": "2026-10-10",
+          "deaths": 14,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 86.7,
+          "kd_ratio": 2.43,
+          "kills": 34,
+          "maps": 3,
+          "match_id": "hltv:2399055",
+          "opponent_name": "NAVI Junior",
+          "rating": 2.04,
+          "team_name": "FaZe",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "22383",
+      "source_url": "https://www.hltv.org/player/22383/jcobbb",
+      "timeline_entry": {
+        "adr": 116.1,
+        "date": "2026-10-10",
+        "deaths": 14,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 86.7,
+        "kd_ratio": 2.43,
+        "kills": 34,
+        "maps": 3,
+        "match_id": "hltv:2399055",
+        "opponent_name": "NAVI Junior",
+        "rating": 2.04,
+        "team_name": "FaZe",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 2.04,
+        "average_adr": 116.1,
+        "recent_rating": 2.04,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "FaZe",
+          "from_date": "2026-10-10",
+          "through_date": "2026-10-10",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 2.04,
+          "average_adr": 116.1
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:9960",
+      "nickname": "frozen",
+      "team_name": "FaZe",
+      "rating_3_0": 1.68,
+      "maps_3m": 3,
+      "signal_index": 100,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 99.2,
+          "date": "2026-10-10",
+          "deaths": 12,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 90,
+          "kd_ratio": 2.25,
+          "kills": 27,
+          "maps": 3,
+          "match_id": "hltv:2399055",
+          "opponent_name": "NAVI Junior",
+          "rating": 1.68,
+          "team_name": "FaZe",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "9960",
+      "source_url": "https://www.hltv.org/player/9960/frozen",
+      "timeline_entry": {
+        "adr": 99.2,
+        "date": "2026-10-10",
+        "deaths": 12,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 90,
+        "kd_ratio": 2.25,
+        "kills": 27,
+        "maps": 3,
+        "match_id": "hltv:2399055",
+        "opponent_name": "NAVI Junior",
+        "rating": 1.68,
+        "team_name": "FaZe",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.68,
+        "average_adr": 99.2,
+        "recent_rating": 1.68,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "FaZe",
+          "from_date": "2026-10-10",
+          "through_date": "2026-10-10",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.68,
+          "average_adr": 99.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:21972",
+      "nickname": "Neityu",
+      "team_name": "FaZe",
+      "rating_3_0": 1.35,
+      "maps_3m": 3,
+      "signal_index": 85,
+      "traits": {},
+      "form_timeline": [
+        {
+          "adr": 64.5,
+          "date": "2026-10-10",
+          "deaths": 12,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 90,
+          "kd_ratio": 1.5,
+          "kills": 18,
+          "maps": 3,
+          "match_id": "hltv:2399055",
+          "opponent_name": "NAVI Junior",
+          "rating": 1.35,
+          "team_name": "FaZe",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "21972",
+      "source_url": "https://www.hltv.org/player/21972/neityu",
+      "timeline_entry": {
+        "adr": 64.5,
+        "date": "2026-10-10",
+        "deaths": 12,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 90,
+        "kd_ratio": 1.5,
+        "kills": 18,
+        "maps": 3,
+        "match_id": "hltv:2399055",
+        "opponent_name": "NAVI Junior",
+        "rating": 1.35,
+        "team_name": "FaZe",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.35,
+        "average_adr": 64.5,
+        "recent_rating": 1.35,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "FaZe",
+          "from_date": "2026-10-10",
+          "through_date": "2026-10-10",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.35,
+          "average_adr": 64.5
+        }
+      ]
     }
   ],
-  "lineups_updated_at_utc": "2026-10-10T08:35:28Z",
+  "lineups_updated_at_utc": "2026-10-10T20:07:47Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-09",
+  "history_through_date": "2026-10-10",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",

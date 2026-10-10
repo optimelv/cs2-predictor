@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-10T08:35:28Z",
+  "generated_at_utc": "2026-10-10T20:07:47Z",
   "through_date": "2026-10-10",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3789,
-    "maps": 2694,
-    "lineup_rows": 8730,
+    "matches": 3806,
+    "maps": 2697,
+    "lineup_rows": 8740,
     "source_match_ids": 976
   },
   "matches": [
@@ -232,6 +232,414 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs"
+    },
+    {
+      "match_id": "hltv:2399141",
+      "match_date": "2026-10-10",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+      "team1_name": "Rooster",
+      "team2_name": "Fruju",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Fruju",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399282",
+      "match_date": "2026-10-10",
+      "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
+      "team1_name": "mellren",
+      "team2_name": "Honvéd",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399142",
+      "match_date": "2026-10-10",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+      "team1_name": "LFO 8",
+      "team2_name": "MARKandLARRY",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MARKandLARRY",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399053",
+      "match_date": "2026-10-10",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "Sangal",
+      "team2_name": "PURE",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Sangal",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399166",
+      "match_date": "2026-10-10",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "The KnockoutX",
+      "team2_name": "Lynn Vision",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Lynn Vision",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398411",
+      "match_date": "2026-10-10",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Iberian Soul",
+      "team2_name": "Nemiga",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Iberian Soul",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399052",
+      "match_date": "2026-10-10",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "FaZe",
+      "team2_name": "NAVI Junior",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FaZe",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399283",
+      "match_date": "2026-10-10",
+      "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
+      "team1_name": "WBT Academy",
+      "team2_name": "Saint Sinners",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Saint Sinners",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399168",
+      "match_date": "2026-10-10",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "Alter Ego",
+      "team2_name": "Vitalem Aerem",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Alter Ego",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399167",
+      "match_date": "2026-10-10",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "Kaleido",
+      "team2_name": "Just Swing",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Just Swing",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398412",
+      "match_date": "2026-10-10",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Nexus",
+      "team2_name": "Black Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Black Phoenix",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399169",
+      "match_date": "2026-10-10",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "Chinggis Warriors",
+      "team2_name": "THE UNIT",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Chinggis Warriors",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399284",
+      "match_date": "2026-10-10",
+      "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
+      "team1_name": "Bebop",
+      "team2_name": "6666",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "6666",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399054",
+      "match_date": "2026-10-10",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "Sangal",
+      "team2_name": "NAVI Junior",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "NAVI Junior",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2398413",
+      "match_date": "2026-10-10",
+      "event_name": "CCT 2026 Europe Series 10",
+      "team1_name": "Black Phoenix",
+      "team2_name": "Iberian Soul",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Black Phoenix",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399285",
+      "match_date": "2026-10-10",
+      "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
+      "team1_name": "SAW Youngsters",
+      "team2_name": "antidaun",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "SAW Youngsters",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399055",
+      "match_date": "2026-10-10",
+      "event_name": "Roman Imperium Cup IX",
+      "team1_name": "FaZe",
+      "team2_name": "NAVI Junior",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FaZe",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 2,
+          "winner_name": "FaZe",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 2,
+          "winner_name": "FaZe",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "winner_name": "NAVI Junior",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "JBOEN",
+          "Twistzz",
+          "jcobbb",
+          "frozen",
+          "Neityu"
+        ],
+        "team2": [
+          "MahaR",
+          "FAZERY",
+          "kodak",
+          "yoki",
+          "skizzyee"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399214",
