@@ -1,18 +1,106 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-10T01:36:38Z",
-  "through_date": "2026-10-09",
+  "generated_at_utc": "2026-10-10T08:35:28Z",
+  "through_date": "2026-10-10",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3778,
+    "matches": 3782,
     "maps": 2694,
     "lineup_rows": 8730,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "hltv:2399223",
+      "match_date": "2026-10-10",
+      "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "team1_name": "Club 333",
+      "team2_name": "DETONATE",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "DETONATE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399221",
+      "match_date": "2026-10-10",
+      "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "team1_name": "regain",
+      "team2_name": "Villainous",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "regain",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399222",
+      "match_date": "2026-10-10",
+      "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "team1_name": "FarmVille",
+      "team2_name": "Wanted Goons",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Wanted Goons",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399220",
+      "match_date": "2026-10-10",
+      "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "team1_name": "Desi Boyz",
+      "team2_name": "EMPIRE",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "EMPIRE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
     {
       "match_id": "hltv:2399214",
       "match_date": "2026-10-09",
