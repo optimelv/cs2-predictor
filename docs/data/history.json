@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3775,
+    "matches": 3778,
     "maps": 2694,
     "lineup_rows": 8730,
     "source_match_ids": 976
@@ -1138,6 +1138,72 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:cb971acfef6bd01e4d17",
+      "match_date": "2026-10-09",
+      "starts_at": "2026-10-09T11:25:00Z",
+      "event_name": "ESL Pro League Season 24 - Playoffs",
+      "team1_name": "PV",
+      "team2_name": "Vitality",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Vitality",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:d34ecd4ce821e3b710ab",
+      "match_date": "2026-10-09",
+      "starts_at": "2026-10-09T14:15:00Z",
+      "event_name": "ESL Pro League Season 24 - Playoffs",
+      "team1_name": "FURIA",
+      "team2_name": "MOUZ",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:e8c47c9dc7d92be1deb9",
+      "match_date": "2026-10-09",
+      "starts_at": "2026-10-09T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #3",
+      "team1_name": "BORRA",
+      "team2_name": "Grêmio",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BORRA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
     },
     {
       "match_id": "liquipedia:0b02ebda4e7a1aeb1b0f",

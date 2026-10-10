@@ -2120,5 +2120,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "CSA",
     "logo_url": "https://liquipedia.net/commons/images/thumb/2/24/Clutch_Studio_Agency_lightmode.png/51px-Clutch_Studio_Agency_lightmode.png",
     "source": "Liquipedia"
+  },
+  "prvt": {
+    "name": "PRVT",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/c/c0/PRIVATE_allmode.png/53px-PRIVATE_allmode.png",
+    "source": "Liquipedia"
   }
 };
