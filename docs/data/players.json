@@ -28760,9 +28760,37 @@
           "average_adr": 64.5
         }
       ]
+    },
+    {
+      "player_id": "hltv:24284",
+      "nickname": "revoltz",
+      "team_name": "Yawara",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "24284",
+      "source_url": "https://www.hltv.org/player/24284/revoltz",
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:24086",
+      "nickname": "JLK",
+      "team_name": "Bounty Hunters",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [],
+      "hltv_player_id": "24086",
+      "source_url": "https://www.hltv.org/player/24086/jlk",
+      "map_profile": [],
+      "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-10T20:07:47Z",
+  "lineups_updated_at_utc": "2026-10-10T23:37:40Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-10",
   "history_profile_count": 53,
