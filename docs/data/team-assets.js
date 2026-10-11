@@ -2125,5 +2125,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "PRVT",
     "logo_url": "https://liquipedia.net/commons/images/thumb/c/c0/PRIVATE_allmode.png/53px-PRIVATE_allmode.png",
     "source": "Liquipedia"
+  },
+  "cphw": {
+    "name": "CPHW",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/75/Copenhagen_Wolves_2012_allmode.png/50px-Copenhagen_Wolves_2012_allmode.png",
+    "source": "Liquipedia"
   }
 };
