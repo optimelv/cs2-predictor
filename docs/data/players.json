@@ -26232,16 +26232,66 @@
     {
       "player_id": "hltv:20215",
       "nickname": "Umar",
-      "team_name": "FarmVille",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "team_name": "Overtake Sector",
+      "rating_3_0": 0.8,
+      "maps_3m": 3,
+      "signal_index": 30,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399224",
+          "date": "2026-10-11",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Chicken Coop",
+          "team_name": "Overtake Sector",
+          "won": false,
+          "kills": 14,
+          "deaths": 16,
+          "kd_ratio": 0.88,
+          "adr": 57.3,
+          "kast": 63.6,
+          "rating": 0.8,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "20215",
       "source_url": "https://www.hltv.org/player/20215/umar",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Overtake Sector",
+          "from_date": "2026-10-11",
+          "through_date": "2026-10-11",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.8,
+          "average_adr": 57.3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399224",
+        "date": "2026-10-11",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Chicken Coop",
+        "team_name": "Overtake Sector",
+        "won": false,
+        "kills": 14,
+        "deaths": 16,
+        "kd_ratio": 0.88,
+        "adr": 57.3,
+        "kast": 63.6,
+        "rating": 0.8,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.8,
+        "average_adr": 57.3,
+        "recent_rating": 0.8,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:14744",
@@ -26359,15 +26409,65 @@
       "player_id": "hltv:21120",
       "nickname": "jason",
       "team_name": "Overtake Sector",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.08,
+      "maps_3m": 3,
+      "signal_index": 58,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399224",
+          "date": "2026-10-11",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Chicken Coop",
+          "team_name": "Overtake Sector",
+          "won": false,
+          "kills": 16,
+          "deaths": 14,
+          "kd_ratio": 1.14,
+          "adr": 76.5,
+          "kast": 68.2,
+          "rating": 1.08,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "21120",
       "source_url": "https://www.hltv.org/player/21120/jason",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Overtake Sector",
+          "from_date": "2026-10-11",
+          "through_date": "2026-10-11",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.08,
+          "average_adr": 76.5
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399224",
+        "date": "2026-10-11",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Chicken Coop",
+        "team_name": "Overtake Sector",
+        "won": false,
+        "kills": 16,
+        "deaths": 14,
+        "kd_ratio": 1.14,
+        "adr": 76.5,
+        "kast": 68.2,
+        "rating": 1.08,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.08,
+        "average_adr": 76.5,
+        "recent_rating": 1.08,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20211",
@@ -26387,43 +26487,193 @@
       "player_id": "hltv:20213",
       "nickname": "intra",
       "team_name": "Overtake Sector",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.17,
+      "maps_3m": 3,
+      "signal_index": 67,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399224",
+          "date": "2026-10-11",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Chicken Coop",
+          "team_name": "Overtake Sector",
+          "won": false,
+          "kills": 17,
+          "deaths": 19,
+          "kd_ratio": 0.89,
+          "adr": 99.2,
+          "kast": 81.8,
+          "rating": 1.17,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "20213",
       "source_url": "https://www.hltv.org/player/20213/intra",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Overtake Sector",
+          "from_date": "2026-10-11",
+          "through_date": "2026-10-11",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.17,
+          "average_adr": 99.2
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399224",
+        "date": "2026-10-11",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Chicken Coop",
+        "team_name": "Overtake Sector",
+        "won": false,
+        "kills": 17,
+        "deaths": 19,
+        "kd_ratio": 0.89,
+        "adr": 99.2,
+        "kast": 81.8,
+        "rating": 1.17,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.17,
+        "average_adr": 99.2,
+        "recent_rating": 1.17,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24813",
       "nickname": "corim",
       "team_name": "Overtake Sector",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.8,
+      "maps_3m": 3,
+      "signal_index": 30,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399224",
+          "date": "2026-10-11",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Chicken Coop",
+          "team_name": "Overtake Sector",
+          "won": false,
+          "kills": 11,
+          "deaths": 16,
+          "kd_ratio": 0.69,
+          "adr": 62.4,
+          "kast": 68.2,
+          "rating": 0.8,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "24813",
       "source_url": "https://www.hltv.org/player/24813/corim",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Overtake Sector",
+          "from_date": "2026-10-11",
+          "through_date": "2026-10-11",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.8,
+          "average_adr": 62.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399224",
+        "date": "2026-10-11",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Chicken Coop",
+        "team_name": "Overtake Sector",
+        "won": false,
+        "kills": 11,
+        "deaths": 16,
+        "kd_ratio": 0.69,
+        "adr": 62.4,
+        "kast": 68.2,
+        "rating": 0.8,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.8,
+        "average_adr": 62.4,
+        "recent_rating": 0.8,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20386",
       "nickname": "LEARSI",
       "team_name": "Overtake Sector",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.2,
+      "maps_3m": 3,
+      "signal_index": 70,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399224",
+          "date": "2026-10-11",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Chicken Coop",
+          "team_name": "Overtake Sector",
+          "won": false,
+          "kills": 14,
+          "deaths": 14,
+          "kd_ratio": 1,
+          "adr": 56.6,
+          "kast": 72.7,
+          "rating": 1.2,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "20386",
       "source_url": "https://www.hltv.org/player/20386/learsi",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Overtake Sector",
+          "from_date": "2026-10-11",
+          "through_date": "2026-10-11",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.2,
+          "average_adr": 56.6
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399224",
+        "date": "2026-10-11",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Chicken Coop",
+        "team_name": "Overtake Sector",
+        "won": false,
+        "kills": 14,
+        "deaths": 14,
+        "kd_ratio": 1,
+        "adr": 56.6,
+        "kast": 72.7,
+        "rating": 1.2,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.2,
+        "average_adr": 56.6,
+        "recent_rating": 1.2,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25221",
@@ -27001,71 +27251,321 @@
       "player_id": "hltv:24679",
       "nickname": "Crisp",
       "team_name": "Chicken Coop",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.08,
+      "maps_3m": 3,
+      "signal_index": 58,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399224",
+          "date": "2026-10-11",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Chicken Coop",
+          "won": true,
+          "kills": 14,
+          "deaths": 13,
+          "kd_ratio": 1.08,
+          "adr": 62.7,
+          "kast": 68.2,
+          "rating": 1.08,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "24679",
       "source_url": "https://www.hltv.org/player/24679/crisp",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Chicken Coop",
+          "from_date": "2026-10-11",
+          "through_date": "2026-10-11",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.08,
+          "average_adr": 62.7
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399224",
+        "date": "2026-10-11",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Chicken Coop",
+        "won": true,
+        "kills": 14,
+        "deaths": 13,
+        "kd_ratio": 1.08,
+        "adr": 62.7,
+        "kast": 68.2,
+        "rating": 1.08,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.08,
+        "average_adr": 62.7,
+        "recent_rating": 1.08,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:22794",
       "nickname": "Drop",
       "team_name": "Chicken Coop",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.1,
+      "maps_3m": 3,
+      "signal_index": 60,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399224",
+          "date": "2026-10-11",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Chicken Coop",
+          "won": true,
+          "kills": 18,
+          "deaths": 16,
+          "kd_ratio": 1.12,
+          "adr": 89,
+          "kast": 77.3,
+          "rating": 1.1,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "22794",
       "source_url": "https://www.hltv.org/player/22794/drop",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Chicken Coop",
+          "from_date": "2026-10-11",
+          "through_date": "2026-10-11",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.1,
+          "average_adr": 89
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399224",
+        "date": "2026-10-11",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Chicken Coop",
+        "won": true,
+        "kills": 18,
+        "deaths": 16,
+        "kd_ratio": 1.12,
+        "adr": 89,
+        "kast": 77.3,
+        "rating": 1.1,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.1,
+        "average_adr": 89,
+        "recent_rating": 1.1,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24426",
       "nickname": "stesso",
       "team_name": "Chicken Coop",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.09,
+      "maps_3m": 3,
+      "signal_index": 59,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399224",
+          "date": "2026-10-11",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Chicken Coop",
+          "won": true,
+          "kills": 18,
+          "deaths": 17,
+          "kd_ratio": 1.06,
+          "adr": 79.2,
+          "kast": 77.3,
+          "rating": 1.09,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "24426",
       "source_url": "https://www.hltv.org/player/24426/stesso",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Chicken Coop",
+          "from_date": "2026-10-11",
+          "through_date": "2026-10-11",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.09,
+          "average_adr": 79.2
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399224",
+        "date": "2026-10-11",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Chicken Coop",
+        "won": true,
+        "kills": 18,
+        "deaths": 17,
+        "kd_ratio": 1.06,
+        "adr": 79.2,
+        "kast": 77.3,
+        "rating": 1.09,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.09,
+        "average_adr": 79.2,
+        "recent_rating": 1.09,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24527",
       "nickname": "jared",
       "team_name": "Chicken Coop",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.24,
+      "maps_3m": 3,
+      "signal_index": 74,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399224",
+          "date": "2026-10-11",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Chicken Coop",
+          "won": true,
+          "kills": 12,
+          "deaths": 13,
+          "kd_ratio": 0.92,
+          "adr": 68.1,
+          "kast": 72.7,
+          "rating": 1.24,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "24527",
       "source_url": "https://www.hltv.org/player/24527/jared",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Chicken Coop",
+          "from_date": "2026-10-11",
+          "through_date": "2026-10-11",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.24,
+          "average_adr": 68.1
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399224",
+        "date": "2026-10-11",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Chicken Coop",
+        "won": true,
+        "kills": 12,
+        "deaths": 13,
+        "kd_ratio": 0.92,
+        "adr": 68.1,
+        "kast": 72.7,
+        "rating": 1.24,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.24,
+        "average_adr": 68.1,
+        "recent_rating": 1.24,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:17622",
       "nickname": "Wolffe",
       "team_name": "Chicken Coop",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.75,
+      "maps_3m": 3,
+      "signal_index": 100,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399224",
+          "date": "2026-10-11",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Chicken Coop",
+          "won": true,
+          "kills": 17,
+          "deaths": 13,
+          "kd_ratio": 1.31,
+          "adr": 96.6,
+          "kast": 86.4,
+          "rating": 1.75,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "17622",
       "source_url": "https://www.hltv.org/player/17622/wolffe",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Chicken Coop",
+          "from_date": "2026-10-11",
+          "through_date": "2026-10-11",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.75,
+          "average_adr": 96.6
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399224",
+        "date": "2026-10-11",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Chicken Coop",
+        "won": true,
+        "kills": 17,
+        "deaths": 13,
+        "kd_ratio": 1.31,
+        "adr": 96.6,
+        "kast": 86.4,
+        "rating": 1.75,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.75,
+        "average_adr": 96.6,
+        "recent_rating": 1.75,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20787",
@@ -28790,9 +29290,9 @@
       "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-10T23:37:40Z",
+  "lineups_updated_at_utc": "2026-10-11T05:47:20Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-10",
+  "history_through_date": "2026-10-11",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
