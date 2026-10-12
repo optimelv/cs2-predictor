@@ -3,23 +3,6 @@
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-8",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 8",
-        "hltv_match_id": "2399346",
-        "match_id": "hltv:2399346",
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 1,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399346/leo-vs-ryvex-esl-challenger-league-season-52-europe-cup-8",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-07T15:32:57Z",
-        "status": "finished",
-        "team1_name": "Leo",
-        "team2_name": "Ryvex",
-        "winner_name": "Leo"
-      },
-      {
         "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-3",
         "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
         "hltv_match_id": "2399153",
@@ -14079,14 +14062,17 @@
           }
         ],
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399200/yawara-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
         "stage_name": "Playoffs",
-        "starts_at": "2026-10-11T21:00:00Z",
-        "status": "live",
+        "starts_at": "2026-10-11T22:35:10Z",
+        "status": "finished",
         "team1_name": "Yawara",
         "team2_name": "Galorys",
-        "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final",
+        "winner_name": "Galorys"
       },
       {
         "detail_fetched_at_utc": "2026-10-11T22:03:11Z",
@@ -14319,42 +14305,109 @@
           }
         ],
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399201/borracheiros-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
         "stage_name": "Playoffs",
-        "starts_at": "2026-10-11T21:00:00Z",
-        "status": "live",
+        "starts_at": "2026-10-11T22:40:04Z",
+        "status": "finished",
         "team1_name": "BORRACHEIROS",
         "team2_name": "Bounty Hunters",
-        "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final",
+        "winner_name": "Bounty Hunters"
       },
       {
-        "event_id": "hltv:9387",
+        "detail_fetched_at_utc": "2026-10-12T01:22:59Z",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399228",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Inferno",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Mirage",
+          "Inferno",
+          "Ancient"
+        ],
         "match_id": "hltv:2399228",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399228/overtake-sector-vs-regain-esl-challenger-league-season-52-north-america-cup-3",
         "stage_name": "Playoffs",
         "starts_at": "2026-10-12T01:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Overtake Sector",
-        "team2_name": "regain"
+        "team2_name": "regain",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
       },
       {
-        "event_id": "hltv:9387",
+        "detail_fetched_at_utc": "2026-10-12T01:23:04Z",
+        "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399229",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Cache",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Nuke",
+          "Mirage",
+          "Cache"
+        ],
         "match_id": "hltv:2399229",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399229/detonate-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-3",
         "stage_name": "Playoffs",
         "starts_at": "2026-10-12T01:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "DETONATE",
-        "team2_name": "Iowa Stormboar"
+        "team2_name": "Iowa Stormboar",
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
       },
       {
         "event_id": "hltv:9441",
@@ -14483,6 +14536,20 @@
         "team2_name": "LP"
       },
       {
+        "event_id": "hltv:9385",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "hltv_match_id": "2399203",
+        "match_id": "hltv:2399203",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399203/galorys-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
+        "stage_name": "Playoffs",
+        "starts_at": "2026-10-12T21:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Galorys",
+        "team2_name": "Bounty Hunters"
+      },
+      {
         "event_id": "hltv:9387",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
         "hltv_match_id": "2399230",
@@ -14497,7 +14564,7 @@
         "team2_name": "Zomblers"
       },
       {
-        "detail_fetched_at_utc": "2026-10-11T22:03:18Z",
+        "detail_fetched_at_utc": "2026-10-12T01:23:10Z",
         "event_id": "hltv:thunderpick-world-championship-2026",
         "event_name": "Thunderpick World Championship 2026",
         "event_url": "https://www.hltv.org/events/archive",
@@ -14518,7 +14585,7 @@
         "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
       },
       {
-        "detail_fetched_at_utc": "2026-10-11T22:03:26Z",
+        "detail_fetched_at_utc": "2026-10-12T01:23:16Z",
         "event_id": "hltv:thunderpick-world-championship-2026",
         "event_name": "Thunderpick World Championship 2026",
         "event_url": "https://www.hltv.org/events/archive",
@@ -14539,7 +14606,7 @@
         "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
       },
       {
-        "detail_fetched_at_utc": "2026-10-11T22:03:43Z",
+        "detail_fetched_at_utc": "2026-10-12T01:23:32Z",
         "event_id": "hltv:thunderpick-world-championship-2026",
         "event_name": "Thunderpick World Championship 2026",
         "event_url": "https://www.hltv.org/events/archive",
@@ -14560,7 +14627,7 @@
         "veto_text": "Best of 3 (LAN)\n\n* Group B opening match"
       },
       {
-        "detail_fetched_at_utc": "2026-10-11T22:03:51Z",
+        "detail_fetched_at_utc": "2026-10-12T01:23:39Z",
         "event_id": "hltv:thunderpick-world-championship-2026",
         "event_name": "Thunderpick World Championship 2026",
         "event_url": "https://www.hltv.org/events/archive",
@@ -46579,14 +46646,17 @@
               }
             ],
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399200/yawara-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
             "stage_name": "Playoffs",
-            "starts_at": "2026-10-11T21:00:00Z",
-            "status": "live",
+            "starts_at": "2026-10-11T22:35:10Z",
+            "status": "finished",
             "team1_name": "Yawara",
             "team2_name": "Galorys",
-            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final",
+            "winner_name": "Galorys"
           },
           {
             "detail_fetched_at_utc": "2026-10-11T22:03:11Z",
@@ -46819,14 +46889,17 @@
               }
             ],
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399201/borracheiros-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
             "stage_name": "Playoffs",
-            "starts_at": "2026-10-11T21:00:00Z",
-            "status": "live",
+            "starts_at": "2026-10-11T22:40:04Z",
+            "status": "finished",
             "team1_name": "BORRACHEIROS",
             "team2_name": "Bounty Hunters",
-            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final",
+            "winner_name": "Bounty Hunters"
           },
           {
             "event_id": "hltv:9385",
@@ -46841,6 +46914,20 @@
             "status": "upcoming",
             "team1_name": "ex-Keyd Stars",
             "team2_name": "LP"
+          },
+          {
+            "event_id": "hltv:9385",
+            "event_name": "ESL Challenger League Season 52 South America Cup 3",
+            "hltv_match_id": "2399203",
+            "match_id": "hltv:2399203",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399203/galorys-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
+            "stage_name": "Playoffs",
+            "starts_at": "2026-10-12T21:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Galorys",
+            "team2_name": "Bounty Hunters"
           }
         ],
         "name": "ESL Challenger League Season 52 South America Cup 3",
@@ -50282,32 +50369,96 @@
             "winner_name": "DETONATE"
           },
           {
-            "event_id": "hltv:9387",
+            "detail_fetched_at_utc": "2026-10-12T01:22:59Z",
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
             "event_name": "ESL Challenger League Season 52 North America Cup 3",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399228",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Inferno",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Mirage",
+              "Inferno",
+              "Ancient"
+            ],
             "match_id": "hltv:2399228",
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399228/overtake-sector-vs-regain-esl-challenger-league-season-52-north-america-cup-3",
             "stage_name": "Playoffs",
             "starts_at": "2026-10-12T01:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Overtake Sector",
-            "team2_name": "regain"
+            "team2_name": "regain",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
           },
           {
-            "event_id": "hltv:9387",
+            "detail_fetched_at_utc": "2026-10-12T01:23:04Z",
+            "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
             "event_name": "ESL Challenger League Season 52 North America Cup 3",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399229",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Nuke",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Cache",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Nuke",
+              "Mirage",
+              "Cache"
+            ],
             "match_id": "hltv:2399229",
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399229/detonate-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-3",
             "stage_name": "Playoffs",
             "starts_at": "2026-10-12T01:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "DETONATE",
-            "team2_name": "Iowa Stormboar"
+            "team2_name": "Iowa Stormboar",
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
           },
           {
             "event_id": "hltv:9387",
@@ -52541,7 +52692,7 @@
         "id": "hltv:8932",
         "matches": [
           {
-            "detail_fetched_at_utc": "2026-10-11T22:03:18Z",
+            "detail_fetched_at_utc": "2026-10-12T01:23:10Z",
             "event_id": "hltv:thunderpick-world-championship-2026",
             "event_name": "Thunderpick World Championship 2026",
             "event_url": "https://www.hltv.org/events/archive",
@@ -52562,7 +52713,7 @@
             "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
           },
           {
-            "detail_fetched_at_utc": "2026-10-11T22:03:26Z",
+            "detail_fetched_at_utc": "2026-10-12T01:23:16Z",
             "event_id": "hltv:thunderpick-world-championship-2026",
             "event_name": "Thunderpick World Championship 2026",
             "event_url": "https://www.hltv.org/events/archive",
@@ -52583,7 +52734,7 @@
             "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
           },
           {
-            "detail_fetched_at_utc": "2026-10-11T22:03:43Z",
+            "detail_fetched_at_utc": "2026-10-12T01:23:32Z",
             "event_id": "hltv:thunderpick-world-championship-2026",
             "event_name": "Thunderpick World Championship 2026",
             "event_url": "https://www.hltv.org/events/archive",
@@ -52604,7 +52755,7 @@
             "veto_text": "Best of 3 (LAN)\n\n* Group B opening match"
           },
           {
-            "detail_fetched_at_utc": "2026-10-11T22:03:51Z",
+            "detail_fetched_at_utc": "2026-10-12T01:23:39Z",
             "event_id": "hltv:thunderpick-world-championship-2026",
             "event_name": "Thunderpick World Championship 2026",
             "event_url": "https://www.hltv.org/events/archive",
@@ -52642,7 +52793,7 @@
         "teams": 8
       }
     ],
-    "last_verified_utc": "2026-10-11T22:03:51Z",
+    "last_verified_utc": "2026-10-12T01:23:39Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -53080,7 +53231,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-11T22:04:24Z",
+  "generated_at_utc": "2026-10-12T01:24:13Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -54456,12 +54607,12 @@
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.632432,
-        "brier": 0.225218,
-        "ece": 0.022212,
-        "log_loss": 0.640303
+        "accuracy": 0.631081,
+        "brier": 0.225483,
+        "ece": 0.021081,
+        "log_loss": 0.640848
       },
-      "rows": 1108,
+      "rows": 1110,
       "slices": [
         {
           "dimension": "tier",
@@ -54469,12 +54620,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.665796,
-            "brier": 0.209008,
-            "ece": 0.041681,
-            "log_loss": 0.60452
+            "accuracy": 0.664042,
+            "brier": 0.209408,
+            "ece": 0.041899,
+            "log_loss": 0.605314
           },
-          "rows": 383
+          "rows": 381
         },
         {
           "dimension": "tier",
@@ -54482,12 +54633,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.596639,
-            "brier": 0.242608,
-            "ece": 0.034804,
-            "log_loss": 0.678693
+            "accuracy": 0.5961,
+            "brier": 0.242544,
+            "ece": 0.034301,
+            "log_loss": 0.678559
           },
-          "rows": 357
+          "rows": 359
         },
         {
           "dimension": "series_format",
@@ -54495,12 +54646,12 @@
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.684211,
-            "brier": 0.219689,
-            "ece": 0.07077,
-            "log_loss": 0.629217
+            "accuracy": 0.677419,
+            "brier": 0.221557,
+            "ece": 0.072292,
+            "log_loss": 0.633002
           },
-          "rows": 95
+          "rows": 93
         },
         {
           "dimension": "series_format",
@@ -54508,12 +54659,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.622642,
-            "brier": 0.22693,
-            "ece": 0.026562,
-            "log_loss": 0.643897
+            "accuracy": 0.622257,
+            "brier": 0.226943,
+            "ece": 0.024982,
+            "log_loss": 0.643931
           },
-          "rows": 636
+          "rows": 638
         },
         {
           "dimension": "series_format",
@@ -54540,10 +54691,10 @@
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.636486,
-        "brier": 0.227199,
-        "ece": 0.057223,
-        "log_loss": 0.645052
+        "accuracy": 0.633784,
+        "brier": 0.227426,
+        "ece": 0.05445,
+        "log_loss": 0.645496
       },
       "promotion_passed": false,
       "rows": 740,
@@ -54554,12 +54705,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.663185,
-            "brier": 0.21119,
-            "ece": 0.059512,
-            "log_loss": 0.610737
+            "accuracy": 0.664042,
+            "brier": 0.211457,
+            "ece": 0.054918,
+            "log_loss": 0.611229
           },
-          "rows": 383
+          "rows": 381
         },
         {
           "dimension": "tier",
@@ -54567,12 +54718,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.607843,
-            "brier": 0.244375,
-            "ece": 0.078712,
-            "log_loss": 0.681866
+            "accuracy": 0.601671,
+            "brier": 0.244373,
+            "ece": 0.072535,
+            "log_loss": 0.681863
           },
-          "rows": 357
+          "rows": 359
         },
         {
           "dimension": "series_format",
@@ -54580,12 +54731,12 @@
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.684211,
-            "brier": 0.223879,
-            "ece": 0.104597,
-            "log_loss": 0.638425
+            "accuracy": 0.677419,
+            "brier": 0.225449,
+            "ece": 0.1069,
+            "log_loss": 0.641658
           },
-          "rows": 95
+          "rows": 93
         },
         {
           "dimension": "series_format",
@@ -54593,12 +54744,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.627358,
-            "brier": 0.228465,
-            "ece": 0.050297,
-            "log_loss": 0.64767
+            "accuracy": 0.625392,
+            "brier": 0.228473,
+            "ece": 0.048174,
+            "log_loss": 0.647659
           },
-          "rows": 636
+          "rows": 638
         },
         {
           "dimension": "series_format",
@@ -54607,9 +54758,9 @@
           "label": "BO5",
           "metrics": {
             "accuracy": 0.777778,
-            "brier": 0.172837,
-            "ece": 0.289596,
-            "log_loss": 0.529987
+            "brier": 0.173594,
+            "ece": 0.291265,
+            "log_loss": 0.531835
           },
           "rows": 9
         }
@@ -54634,7 +54785,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-11T22:04:24Z",
+    "generated_at_utc": "2026-10-12T01:24:13Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -54644,12 +54795,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.665796,
-            "brier": 0.209008,
-            "ece": 0.041681,
-            "log_loss": 0.60452
+            "accuracy": 0.664042,
+            "brier": 0.209408,
+            "ece": 0.041899,
+            "log_loss": 0.605314
           },
-          "rows": 383
+          "rows": 381
         },
         {
           "dimension": "tier",
@@ -54657,12 +54808,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.596639,
-            "brier": 0.242608,
-            "ece": 0.034804,
-            "log_loss": 0.678693
+            "accuracy": 0.5961,
+            "brier": 0.242544,
+            "ece": 0.034301,
+            "log_loss": 0.678559
           },
-          "rows": 357
+          "rows": 359
         },
         {
           "dimension": "series_format",
@@ -54670,12 +54821,12 @@
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.684211,
-            "brier": 0.219689,
-            "ece": 0.07077,
-            "log_loss": 0.629217
+            "accuracy": 0.677419,
+            "brier": 0.221557,
+            "ece": 0.072292,
+            "log_loss": 0.633002
           },
-          "rows": 95
+          "rows": 93
         },
         {
           "dimension": "series_format",
@@ -54683,12 +54834,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.622642,
-            "brier": 0.22693,
-            "ece": 0.026562,
-            "log_loss": 0.643897
+            "accuracy": 0.622257,
+            "brier": 0.226943,
+            "ece": 0.024982,
+            "log_loss": 0.643931
           },
-          "rows": 636
+          "rows": 638
         },
         {
           "dimension": "series_format",
@@ -54710,25 +54861,25 @@
             "eligible": true,
             "key": "tier_1",
             "passed": true,
-            "rows": 383
+            "rows": 381
           },
           {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 357
+            "rows": 359
           },
           {
             "eligible": true,
             "key": "bo1",
-            "passed": true,
-            "rows": 95
+            "passed": false,
+            "rows": 93
           },
           {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 636
+            "rows": 638
           },
           {
             "eligible": false,
@@ -54737,7 +54888,7 @@
             "rows": 9
           }
         ],
-        "passed": true
+        "passed": false
       },
       "challenger_slices": [
         {
@@ -54746,12 +54897,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.663185,
-            "brier": 0.21119,
-            "ece": 0.059512,
-            "log_loss": 0.610737
+            "accuracy": 0.664042,
+            "brier": 0.211457,
+            "ece": 0.054918,
+            "log_loss": 0.611229
           },
-          "rows": 383
+          "rows": 381
         },
         {
           "dimension": "tier",
@@ -54759,12 +54910,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.607843,
-            "brier": 0.242624,
-            "ece": 0.075043,
-            "log_loss": 0.67856
+            "accuracy": 0.601671,
+            "brier": 0.242609,
+            "ece": 0.068827,
+            "log_loss": 0.678533
           },
-          "rows": 357
+          "rows": 359
         },
         {
           "dimension": "series_format",
@@ -54772,12 +54923,12 @@
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.684211,
-            "brier": 0.22179,
-            "ece": 0.098667,
-            "log_loss": 0.634155
+            "accuracy": 0.677419,
+            "brier": 0.223253,
+            "ece": 0.100894,
+            "log_loss": 0.637169
           },
-          "rows": 95
+          "rows": 93
         },
         {
           "dimension": "series_format",
@@ -54785,12 +54936,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.627358,
-            "brier": 0.227794,
-            "ece": 0.034462,
-            "log_loss": 0.646452
+            "accuracy": 0.625392,
+            "brier": 0.227801,
+            "ece": 0.032316,
+            "log_loss": 0.64644
           },
-          "rows": 636
+          "rows": 638
         },
         {
           "dimension": "series_format",
@@ -54799,18 +54950,18 @@
           "label": "BO5",
           "metrics": {
             "accuracy": 0.777778,
-            "brier": 0.172837,
-            "ece": 0.289596,
-            "log_loss": 0.529987
+            "brier": 0.173594,
+            "ece": 0.291265,
+            "log_loss": 0.531835
           },
           "rows": 9
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.632432,
-        "brier": 0.225871,
-        "ece": 0.043526,
-        "log_loss": 0.641433
+        "accuracy": 0.631081,
+        "brier": 0.22616,
+        "ece": 0.043451,
+        "log_loss": 0.642025
       },
       "champion_slices": [
         {
@@ -54819,12 +54970,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.665796,
-            "brier": 0.209008,
-            "ece": 0.041681,
-            "log_loss": 0.60452
+            "accuracy": 0.664042,
+            "brier": 0.209408,
+            "ece": 0.041899,
+            "log_loss": 0.605314
           },
-          "rows": 383
+          "rows": 381
         },
         {
           "dimension": "tier",
@@ -54832,12 +54983,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.596639,
-            "brier": 0.243962,
-            "ece": 0.064321,
-            "log_loss": 0.681035
+            "accuracy": 0.5961,
+            "brier": 0.243938,
+            "ece": 0.063808,
+            "log_loss": 0.680986
           },
-          "rows": 357
+          "rows": 359
         },
         {
           "dimension": "series_format",
@@ -54845,12 +54996,12 @@
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.684211,
-            "brier": 0.22179,
-            "ece": 0.082837,
-            "log_loss": 0.633498
+            "accuracy": 0.677419,
+            "brier": 0.223704,
+            "ece": 0.076781,
+            "log_loss": 0.637375
           },
-          "rows": 95
+          "rows": 93
         },
         {
           "dimension": "series_format",
@@ -54858,12 +55009,12 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.622642,
-            "brier": 0.227376,
-            "ece": 0.04179,
-            "log_loss": 0.644572
+            "accuracy": 0.622257,
+            "brier": 0.227414,
+            "ece": 0.041572,
+            "log_loss": 0.644659
           },
-          "rows": 636
+          "rows": 638
         },
         {
           "dimension": "series_format",
@@ -54884,32 +55035,32 @@
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.596639,
-          "brier": 0.2427,
-          "ece": 0.064974,
-          "log_loss": 0.678546
+          "accuracy": 0.5961,
+          "brier": 0.242657,
+          "ece": 0.06438,
+          "log_loss": 0.67846
         },
         "before": {
-          "accuracy": 0.596639,
-          "brier": 0.243962,
-          "ece": 0.064321,
-          "log_loss": 0.681035
+          "accuracy": 0.5961,
+          "brier": 0.243938,
+          "ece": 0.063808,
+          "log_loss": 0.680986
         },
         "candidate_shrink": 0.75,
         "overall_after": {
-          "accuracy": 0.632432,
-          "brier": 0.225262,
-          "ece": 0.042692,
-          "log_loss": 0.640233
+          "accuracy": 0.631081,
+          "brier": 0.225538,
+          "ece": 0.042579,
+          "log_loss": 0.6408
         },
         "overall_before": {
-          "accuracy": 0.632432,
-          "brier": 0.225871,
-          "ece": 0.043526,
-          "log_loss": 0.641433
+          "accuracy": 0.631081,
+          "brier": 0.22616,
+          "ece": 0.043451,
+          "log_loss": 0.642025
         },
         "passed": false,
-        "rows": 357,
+        "rows": 359,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -54928,8 +55079,8 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
-      "online_rows": 351,
+      "new_rows": 2,
+      "online_rows": 353,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -55394,9 +55545,11 @@
       "hltv:2399288",
       "hltv:2398754",
       "hltv:2398755",
-      "hltv:2399289"
+      "hltv:2399289",
+      "hltv:2399200",
+      "hltv:2399201"
     ],
-    "last_online_update_utc": "2026-10-11T22:04:24Z",
+    "last_online_update_utc": "2026-10-12T01:24:13Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -58424,10 +58577,10 @@
         "vrs_rank": 79
       },
       {
-        "elo": 1504.19,
-        "last_result_utc": "2026-10-10T23:40:00Z",
-        "matches": 45,
-        "recent_win_rate_10": 0.6987,
+        "elo": 1517.01,
+        "last_result_utc": "2026-10-11T22:35:10Z",
+        "matches": 46,
+        "recent_win_rate_10": 0.7535,
         "team_key": "galorys",
         "team_name": "Galorys",
         "vrs_points": 1120,
@@ -58528,10 +58681,10 @@
         "vrs_rank": 90
       },
       {
-        "elo": 1466.19,
-        "last_result_utc": "2026-10-10T23:56:25Z",
-        "matches": 47,
-        "recent_win_rate_10": 0.5168,
+        "elo": 1482.57,
+        "last_result_utc": "2026-10-11T22:40:04Z",
+        "matches": 48,
+        "recent_win_rate_10": 0.6047,
         "team_key": "bounty hunters",
         "team_name": "Bounty Hunters",
         "vrs_points": 1091,
@@ -58670,10 +58823,10 @@
         "vrs_rank": 110
       },
       {
-        "elo": 1483.4,
-        "last_result_utc": "2026-10-10T23:40:15Z",
-        "matches": 15,
-        "recent_win_rate_10": 0.4678,
+        "elo": 1470.58,
+        "last_result_utc": "2026-10-11T22:35:10Z",
+        "matches": 16,
+        "recent_win_rate_10": 0.3827,
         "team_key": "yawara",
         "team_name": "Yawara",
         "vrs_points": 1019,
@@ -61518,10 +61671,10 @@
         "vrs_rank": null
       },
       {
-        "elo": 1537.07,
-        "last_result_utc": "2026-10-10T22:57:22Z",
-        "matches": 9,
-        "recent_win_rate_10": 0.7002,
+        "elo": 1520.69,
+        "last_result_utc": "2026-10-11T22:40:04Z",
+        "matches": 10,
+        "recent_win_rate_10": 0.5729,
         "team_key": "borracheiros",
         "team_name": "BORRACHEIROS",
         "vrs_points": 0,
@@ -65364,6 +65517,43 @@
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5436,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5436,
+      "event_id": "hltv:9385",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-12",
+      "match_id": "hltv:2399203",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791838800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Galorys",
+      "prob_team1": 0.5436,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399203/galorys-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-10-12T21:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Galorys",
+      "team1_vrs_rank": 80,
+      "team2_hltv_rank": null,
+      "team2_name": "Bounty Hunters",
+      "team2_vrs_rank": 91
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5421,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -65561,98 +65751,89 @@
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5616,
+      "confidence": 0.5322,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.4384,
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "elo_prob_team1": 0.4678,
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
+      "event_name": "ESL Challenger League Season 52 North America Cup 3",
       "format": "bo3",
       "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "22364",
-            "nickname": "j0w",
-            "player_id": "hltv:22364",
-            "source_url": "https://www.hltv.org/player/22364/j0w",
-            "team_name": "Yawara"
-          },
-          {
-            "hltv_player_id": "24284",
-            "nickname": "revoltz",
-            "player_id": "hltv:24284",
-            "source_url": "https://www.hltv.org/player/24284/revoltz",
-            "team_name": "Yawara"
-          },
-          {
-            "hltv_player_id": "22566",
-            "nickname": "deemO",
-            "player_id": "hltv:22566",
-            "source_url": "https://www.hltv.org/player/22566/deemo",
-            "team_name": "Yawara"
-          },
-          {
-            "hltv_player_id": "21700",
-            "nickname": "brn$",
-            "player_id": "hltv:21700",
-            "source_url": "https://www.hltv.org/player/21700/brn",
-            "team_name": "Yawara"
-          },
-          {
-            "hltv_player_id": "24556",
-            "nickname": "tele",
-            "player_id": "hltv:24556",
-            "source_url": "https://www.hltv.org/player/24556/tele",
-            "team_name": "Yawara"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "18610",
-            "nickname": "detr0ittJ",
-            "player_id": "hltv:18610",
-            "source_url": "https://www.hltv.org/player/18610/detr0ittj",
-            "team_name": "Galorys"
-          },
-          {
-            "hltv_player_id": "23551",
-            "nickname": "tomate",
-            "player_id": "hltv:23551",
-            "source_url": "https://www.hltv.org/player/23551/tomate",
-            "team_name": "Galorys"
-          },
-          {
-            "hltv_player_id": "9483",
-            "nickname": "destiny",
-            "player_id": "hltv:9483",
-            "source_url": "https://www.hltv.org/player/9483/destiny",
-            "team_name": "Galorys"
-          },
-          {
-            "hltv_player_id": "6593",
-            "nickname": "PKL",
-            "player_id": "hltv:6593",
-            "source_url": "https://www.hltv.org/player/6593/pkl",
-            "team_name": "Galorys"
-          },
-          {
-            "hltv_player_id": "20522",
-            "nickname": "gbb",
-            "player_id": "hltv:20522",
-            "source_url": "https://www.hltv.org/player/20522/gbb",
-            "team_name": "Galorys"
-          }
-        ]
+        "team1": [],
+        "team2": []
       },
       "map_results": [
         {
-          "map_name": "Anubis",
-          "score1": 4,
-          "score2": 13,
-          "status": "finished"
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
         },
         {
           "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Inferno",
+        "Ancient"
+      ],
+      "match_date": "",
+      "match_id": "hltv:2399228",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "regain",
+      "prob_team1": 0.4678,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399228/overtake-sector-vs-regain-esl-challenger-league-season-52-north-america-cup-3",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Overtake Sector",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "regain",
+      "team2_vrs_rank": 162
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5059,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4941,
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
+      "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "format": "bo3",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -65665,174 +65846,39 @@
         }
       ],
       "maps": [
-        "Anubis",
-        "Ancient",
+        "Nuke",
+        "Mirage",
         "Cache"
       ],
       "match_date": "",
-      "match_id": "hltv:2399200",
+      "match_id": "hltv:2399229",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Galorys",
-      "prob_team1": 0.4384,
+      "predicted_winner": "Iowa Stormboar",
+      "prob_team1": 0.4941,
       "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399200/yawara-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
+      "source_url": "https://www.hltv.org/matches/2399229/detonate-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-3",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "Yawara",
-      "team1_vrs_rank": 111,
-      "team2_hltv_rank": null,
-      "team2_name": "Galorys",
-      "team2_vrs_rank": 80
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5293,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5293,
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-      "event_name": "ESL Challenger League Season 52 South America Cup 3",
-      "format": "bo3",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "25035",
-            "nickname": "Lacerda",
-            "player_id": "hltv:25035",
-            "source_url": "https://www.hltv.org/player/25035/lacerda",
-            "team_name": "BORRACHEIROS"
-          },
-          {
-            "hltv_player_id": "6553",
-            "nickname": "fl4sh",
-            "player_id": "hltv:6553",
-            "source_url": "https://www.hltv.org/player/6553/fl4sh",
-            "team_name": "BORRACHEIROS"
-          },
-          {
-            "hltv_player_id": "22422",
-            "nickname": "zock9",
-            "player_id": "hltv:22422",
-            "source_url": "https://www.hltv.org/player/22422/zock9",
-            "team_name": "BORRACHEIROS"
-          },
-          {
-            "hltv_player_id": "24015",
-            "nickname": "trindade",
-            "player_id": "hltv:24015",
-            "source_url": "https://www.hltv.org/player/24015/trindade",
-            "team_name": "BORRACHEIROS"
-          },
-          {
-            "hltv_player_id": "25326",
-            "nickname": "k9izer",
-            "player_id": "hltv:25326",
-            "source_url": "https://www.hltv.org/player/25326/k9izer",
-            "team_name": "BORRACHEIROS"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "18322",
-            "nickname": "KAISER",
-            "player_id": "hltv:18322",
-            "source_url": "https://www.hltv.org/player/18322/kaiser",
-            "team_name": "Bounty Hunters"
-          },
-          {
-            "hltv_player_id": "20690",
-            "nickname": "zock",
-            "player_id": "hltv:20690",
-            "source_url": "https://www.hltv.org/player/20690/zock",
-            "team_name": "Bounty Hunters"
-          },
-          {
-            "hltv_player_id": "16835",
-            "nickname": "ponter",
-            "player_id": "hltv:16835",
-            "source_url": "https://www.hltv.org/player/16835/ponter",
-            "team_name": "Bounty Hunters"
-          },
-          {
-            "hltv_player_id": "24086",
-            "nickname": "JLK",
-            "player_id": "hltv:24086",
-            "source_url": "https://www.hltv.org/player/24086/jlk",
-            "team_name": "Bounty Hunters"
-          },
-          {
-            "hltv_player_id": "22181",
-            "nickname": "urban0",
-            "player_id": "hltv:22181",
-            "source_url": "https://www.hltv.org/player/22181/urban0",
-            "team_name": "Bounty Hunters"
-          }
-        ]
-      },
-      "map_results": [
-        {
-          "map_name": "Mirage",
-          "score1": 5,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Mirage",
-        "Ancient",
-        "Dust2"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2399201",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "BORRACHEIROS",
-      "prob_team1": 0.5293,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399201/borracheiros-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "BORRACHEIROS",
+      "team1_name": "DETONATE",
       "team1_vrs_rank": null,
       "team2_hltv_rank": null,
-      "team2_name": "Bounty Hunters",
-      "team2_vrs_rank": 91
+      "team2_name": "Iowa Stormboar",
+      "team2_vrs_rank": 170
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 51,
-    "online_results_applied": 3,
+    "live_feed_items": 52,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

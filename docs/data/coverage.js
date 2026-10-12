@@ -2,23 +2,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "event_id": "hltv:esl-challenger-league-season-52-europe-cup-8",
-      "event_name": "ESL Challenger League Season 52 Europe Cup 8",
-      "hltv_match_id": "2399346",
-      "match_id": "hltv:2399346",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399346/leo-vs-ryvex-esl-challenger-league-season-52-europe-cup-8",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-07T15:32:57Z",
-      "status": "finished",
-      "team1_name": "Leo",
-      "team2_name": "Ryvex",
-      "winner_name": "Leo"
-    },
-    {
       "event_id": "hltv:esl-challenger-league-season-52-asia-pacific-cup-3",
       "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
       "hltv_match_id": "2399153",
@@ -14078,14 +14061,17 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         }
       ],
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399200/yawara-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
       "stage_name": "Playoffs",
-      "starts_at": "2026-10-11T21:00:00Z",
-      "status": "live",
+      "starts_at": "2026-10-11T22:35:10Z",
+      "status": "finished",
       "team1_name": "Yawara",
       "team2_name": "Galorys",
-      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final",
+      "winner_name": "Galorys"
     },
     {
       "detail_fetched_at_utc": "2026-10-11T22:03:11Z",
@@ -14318,42 +14304,109 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         }
       ],
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399201/borracheiros-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
       "stage_name": "Playoffs",
-      "starts_at": "2026-10-11T21:00:00Z",
-      "status": "live",
+      "starts_at": "2026-10-11T22:40:04Z",
+      "status": "finished",
       "team1_name": "BORRACHEIROS",
       "team2_name": "Bounty Hunters",
-      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final",
+      "winner_name": "Bounty Hunters"
     },
     {
-      "event_id": "hltv:9387",
+      "detail_fetched_at_utc": "2026-10-12T01:22:59Z",
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
       "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399228",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Inferno",
+        "Ancient"
+      ],
       "match_id": "hltv:2399228",
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399228/overtake-sector-vs-regain-esl-challenger-league-season-52-north-america-cup-3",
       "stage_name": "Playoffs",
       "starts_at": "2026-10-12T01:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Overtake Sector",
-      "team2_name": "regain"
+      "team2_name": "regain",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
     },
     {
-      "event_id": "hltv:9387",
+      "detail_fetched_at_utc": "2026-10-12T01:23:04Z",
+      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
       "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399229",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Mirage",
+        "Cache"
+      ],
       "match_id": "hltv:2399229",
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399229/detonate-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-3",
       "stage_name": "Playoffs",
       "starts_at": "2026-10-12T01:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "DETONATE",
-      "team2_name": "Iowa Stormboar"
+      "team2_name": "Iowa Stormboar",
+      "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
     },
     {
       "event_id": "hltv:9441",
@@ -14482,6 +14535,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "LP"
     },
     {
+      "event_id": "hltv:9385",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "hltv_match_id": "2399203",
+      "match_id": "hltv:2399203",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399203/galorys-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
+      "stage_name": "Playoffs",
+      "starts_at": "2026-10-12T21:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Galorys",
+      "team2_name": "Bounty Hunters"
+    },
+    {
       "event_id": "hltv:9387",
       "event_name": "ESL Challenger League Season 52 North America Cup 3",
       "hltv_match_id": "2399230",
@@ -14496,7 +14563,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Zomblers"
     },
     {
-      "detail_fetched_at_utc": "2026-10-11T22:03:18Z",
+      "detail_fetched_at_utc": "2026-10-12T01:23:10Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -14517,7 +14584,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
     },
     {
-      "detail_fetched_at_utc": "2026-10-11T22:03:26Z",
+      "detail_fetched_at_utc": "2026-10-12T01:23:16Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -14538,7 +14605,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
     },
     {
-      "detail_fetched_at_utc": "2026-10-11T22:03:43Z",
+      "detail_fetched_at_utc": "2026-10-12T01:23:32Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -14559,7 +14626,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Group B opening match"
     },
     {
-      "detail_fetched_at_utc": "2026-10-11T22:03:51Z",
+      "detail_fetched_at_utc": "2026-10-12T01:23:39Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -46578,14 +46645,17 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             }
           ],
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399200/yawara-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
           "stage_name": "Playoffs",
-          "starts_at": "2026-10-11T21:00:00Z",
-          "status": "live",
+          "starts_at": "2026-10-11T22:35:10Z",
+          "status": "finished",
           "team1_name": "Yawara",
           "team2_name": "Galorys",
-          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final",
+          "winner_name": "Galorys"
         },
         {
           "detail_fetched_at_utc": "2026-10-11T22:03:11Z",
@@ -46818,14 +46888,17 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             }
           ],
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399201/borracheiros-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
           "stage_name": "Playoffs",
-          "starts_at": "2026-10-11T21:00:00Z",
-          "status": "live",
+          "starts_at": "2026-10-11T22:40:04Z",
+          "status": "finished",
           "team1_name": "BORRACHEIROS",
           "team2_name": "Bounty Hunters",
-          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final",
+          "winner_name": "Bounty Hunters"
         },
         {
           "event_id": "hltv:9385",
@@ -46840,6 +46913,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "ex-Keyd Stars",
           "team2_name": "LP"
+        },
+        {
+          "event_id": "hltv:9385",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "hltv_match_id": "2399203",
+          "match_id": "hltv:2399203",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399203/galorys-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
+          "stage_name": "Playoffs",
+          "starts_at": "2026-10-12T21:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Galorys",
+          "team2_name": "Bounty Hunters"
         }
       ],
       "name": "ESL Challenger League Season 52 South America Cup 3",
@@ -50281,32 +50368,96 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "DETONATE"
         },
         {
-          "event_id": "hltv:9387",
+          "detail_fetched_at_utc": "2026-10-12T01:22:59Z",
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
           "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399228",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Inferno",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Mirage",
+            "Inferno",
+            "Ancient"
+          ],
           "match_id": "hltv:2399228",
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399228/overtake-sector-vs-regain-esl-challenger-league-season-52-north-america-cup-3",
           "stage_name": "Playoffs",
           "starts_at": "2026-10-12T01:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "Overtake Sector",
-          "team2_name": "regain"
+          "team2_name": "regain",
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
         },
         {
-          "event_id": "hltv:9387",
+          "detail_fetched_at_utc": "2026-10-12T01:23:04Z",
+          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
           "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399229",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
+          "map_results": [
+            {
+              "map_name": "Nuke",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Mirage",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            },
+            {
+              "map_name": "Cache",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Nuke",
+            "Mirage",
+            "Cache"
+          ],
           "match_id": "hltv:2399229",
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399229/detonate-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-3",
           "stage_name": "Playoffs",
           "starts_at": "2026-10-12T01:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "DETONATE",
-          "team2_name": "Iowa Stormboar"
+          "team2_name": "Iowa Stormboar",
+          "veto_text": "Best of 3 (Online)\n\n* Lower bracket semi-final"
         },
         {
           "event_id": "hltv:9387",
@@ -52540,7 +52691,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "id": "hltv:8932",
       "matches": [
         {
-          "detail_fetched_at_utc": "2026-10-11T22:03:18Z",
+          "detail_fetched_at_utc": "2026-10-12T01:23:10Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -52561,7 +52712,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
         },
         {
-          "detail_fetched_at_utc": "2026-10-11T22:03:26Z",
+          "detail_fetched_at_utc": "2026-10-12T01:23:16Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -52582,7 +52733,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
         },
         {
-          "detail_fetched_at_utc": "2026-10-11T22:03:43Z",
+          "detail_fetched_at_utc": "2026-10-12T01:23:32Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -52603,7 +52754,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Group B opening match"
         },
         {
-          "detail_fetched_at_utc": "2026-10-11T22:03:51Z",
+          "detail_fetched_at_utc": "2026-10-12T01:23:39Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -52641,7 +52792,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 8
     }
   ],
-  "last_verified_utc": "2026-10-11T22:03:51Z",
+  "last_verified_utc": "2026-10-12T01:23:39Z",
   "sources": [
     {
       "name": "HLTV events calendar",
