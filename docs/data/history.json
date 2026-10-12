@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3849,
+    "matches": 3853,
     "maps": 2700,
     "lineup_rows": 8750,
     "source_match_ids": 976
@@ -276,6 +276,94 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:aa700ef82ced824df753",
+      "match_date": "2026-10-12",
+      "starts_at": "2026-10-12T10:15:00Z",
+      "event_name": "Stake Pulse Beat III - Group A",
+      "team1_name": "Apogee",
+      "team2_name": "NIP",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "NIP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_A"
+    },
+    {
+      "match_id": "liquipedia:27f70fc84f0dd8ef97a7",
+      "match_date": "2026-10-12",
+      "starts_at": "2026-10-12T13:20:00Z",
+      "event_name": "Stake Pulse Beat III - Group A",
+      "team1_name": "IC",
+      "team2_name": "NIP",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NIP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_A"
+    },
+    {
+      "match_id": "liquipedia:7542e2f357ba82310dcb",
+      "match_date": "2026-10-12",
+      "starts_at": "2026-10-12T13:20:00Z",
+      "event_name": "Stake Pulse Beat III - Group A",
+      "team1_name": "Apogee",
+      "team2_name": "Sangal",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Sangal",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_A"
+    },
+    {
+      "match_id": "liquipedia:286f9b6943bb9a6bc2a6",
+      "match_date": "2026-10-12",
+      "starts_at": "2026-10-12T16:00:00Z",
+      "event_name": "Stake Pulse Beat III - Group A",
+      "team1_name": "IC",
+      "team2_name": "Sangal",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Sangal",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_A"
     },
     {
       "match_id": "hltv:2399227",
