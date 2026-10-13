@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3878,
+    "matches": 3881,
     "maps": 2703,
     "lineup_rows": 8760,
     "source_match_ids": 976
@@ -442,6 +442,72 @@
           "space"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:3a489ebbd033b9051bc6",
+      "match_date": "2026-10-13",
+      "starts_at": "2026-10-13T13:20:00Z",
+      "event_name": "Stake Pulse Beat III - Group B",
+      "team1_name": "100T",
+      "team2_name": "Liquid",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "100T",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_B"
+    },
+    {
+      "match_id": "liquipedia:3bf7bfbda9b5dc6af56b",
+      "match_date": "2026-10-13",
+      "starts_at": "2026-10-13T13:20:00Z",
+      "event_name": "Stake Pulse Beat III - Group B",
+      "team1_name": "BBL",
+      "team2_name": "JiJieHao",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "JiJieHao",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_B"
+    },
+    {
+      "match_id": "liquipedia:67dbdc3f7f38ec29ab4d",
+      "match_date": "2026-10-13",
+      "starts_at": "2026-10-13T16:45:00Z",
+      "event_name": "Stake Pulse Beat III - Group B",
+      "team1_name": "JiJieHao",
+      "team2_name": "Liquid",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Liquid",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_B"
     },
     {
       "match_id": "hltv:2399228",

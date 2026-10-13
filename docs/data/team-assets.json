@@ -2145,5 +2145,10 @@
     "name": "GYRO",
     "logo_url": "https://liquipedia.net/commons/images/thumb/6/6c/GYROCOPTER_UA_lightmode.png/55px-GYROCOPTER_UA_lightmode.png",
     "source": "Liquipedia"
+  },
+  "hacha": {
+    "name": "Hacha",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/7c/Hacha_eSports_allmode.png/50px-Hacha_eSports_allmode.png",
+    "source": "Liquipedia"
   }
 }
