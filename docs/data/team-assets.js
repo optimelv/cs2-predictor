@@ -2135,5 +2135,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "LoveDsDs",
     "logo_url": "https://liquipedia.net/commons/images/thumb/b/b5/Unfinished_Piece_2026_June_allmode.png/50px-Unfinished_Piece_2026_June_allmode.png",
     "source": "Liquipedia"
+  },
+  "tgh": {
+    "name": "TGH",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/2/2f/The_Golden_Horde_allmode.png/73px-The_Golden_Horde_allmode.png",
+    "source": "Liquipedia"
   }
 };
