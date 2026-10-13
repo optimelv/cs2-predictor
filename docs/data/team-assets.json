@@ -2140,5 +2140,10 @@
     "name": "TGH",
     "logo_url": "https://liquipedia.net/commons/images/thumb/2/2f/The_Golden_Horde_allmode.png/73px-The_Golden_Horde_allmode.png",
     "source": "Liquipedia"
+  },
+  "gyro": {
+    "name": "GYRO",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6c/GYROCOPTER_UA_lightmode.png/55px-GYROCOPTER_UA_lightmode.png",
+    "source": "Liquipedia"
   }
 }
