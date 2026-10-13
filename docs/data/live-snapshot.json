@@ -9,224 +9,8 @@
         "stages": [],
         "type": "mixed"
       },
-      "id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-      "matches": [
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-          "event_name": "ESL Challenger League Season 52 South America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399199",
-          "maps": [],
-          "match_id": "hltv:2399199",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399199/procyon-vs-borracheiros-esl-challenger-league-season-52-south-america-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": "2026-10-10T22:57:22Z",
-          "status": "finished",
-          "team1_name": "Procyon",
-          "team2_name": "BORRACHEIROS",
-          "winner_name": "BORRACHEIROS"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-          "event_name": "ESL Challenger League Season 52 South America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399198",
-          "maps": [],
-          "match_id": "hltv:2399198",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399198/galorys-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": "2026-10-10T23:40:00Z",
-          "status": "finished",
-          "team1_name": "Galorys",
-          "team2_name": "MEIA NOITE",
-          "winner_name": "Galorys"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-          "event_name": "ESL Challenger League Season 52 South America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399196",
-          "maps": [],
-          "match_id": "hltv:2399196",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399196/ex-keyd-stars-vs-yawara-esl-challenger-league-season-52-south-america-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": "2026-10-10T23:40:15Z",
-          "status": "finished",
-          "team1_name": "ex-Keyd Stars",
-          "team2_name": "Yawara",
-          "winner_name": "ex-Keyd Stars"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-          "event_name": "ESL Challenger League Season 52 South America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399197",
-          "maps": [],
-          "match_id": "hltv:2399197",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399197/bounty-hunters-vs-lp-esl-challenger-league-season-52-south-america-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": "2026-10-10T23:56:25Z",
-          "status": "finished",
-          "team1_name": "Bounty Hunters",
-          "team2_name": "LP",
-          "winner_name": "LP"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-          "event_name": "ESL Challenger League Season 52 South America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399200",
-          "maps": [],
-          "match_id": "hltv:2399200",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399200/yawara-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": "2026-10-11T22:35:10Z",
-          "status": "finished",
-          "team1_name": "Yawara",
-          "team2_name": "Galorys",
-          "winner_name": "Galorys"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-          "event_name": "ESL Challenger League Season 52 South America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399201",
-          "maps": [],
-          "match_id": "hltv:2399201",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399201/borracheiros-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": "2026-10-11T22:40:04Z",
-          "status": "finished",
-          "team1_name": "BORRACHEIROS",
-          "team2_name": "Bounty Hunters",
-          "winner_name": "Bounty Hunters"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-          "event_name": "ESL Challenger League Season 52 South America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399202",
-          "maps": [],
-          "match_id": "hltv:2399202",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399202/ex-keyd-stars-vs-lp-esl-challenger-league-season-52-south-america-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": "2026-10-12T23:07:03Z",
-          "status": "finished",
-          "team1_name": "ex-Keyd Stars",
-          "team2_name": "LP",
-          "winner_name": "LP"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-          "event_name": "ESL Challenger League Season 52 South America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399203",
-          "maps": [],
-          "match_id": "hltv:2399203",
-          "product_tier": "tier_2",
-          "score1": 2,
-          "score2": 1,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399203/galorys-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": "2026-10-12T23:40:11Z",
-          "status": "finished",
-          "team1_name": "Galorys",
-          "team2_name": "Bounty Hunters",
-          "winner_name": "Galorys"
-        }
-      ],
-      "name": "ESL Challenger League Season 52 South America Cup 3",
-      "participants": [
-        "Procyon",
-        "BORRACHEIROS",
-        "Galorys",
-        "MEIA NOITE",
-        "ex-Keyd Stars",
-        "Yawara",
-        "Bounty Hunters",
-        "LP"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "finished"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
       "id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
       "matches": [
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
-          "event_name": "ESL Challenger League Season 52 North America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399227",
-          "maps": [],
-          "match_id": "hltv:2399227",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399227/wanted-goons-vs-detonate-esl-challenger-league-season-52-north-america-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": "2026-10-11T02:27:25Z",
-          "status": "finished",
-          "team1_name": "Wanted Goons",
-          "team2_name": "DETONATE",
-          "winner_name": "DETONATE"
-        },
-        {
-          "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
-          "event_name": "ESL Challenger League Season 52 North America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399224",
-          "maps": [],
-          "match_id": "hltv:2399224",
-          "product_tier": "tier_2",
-          "score1": 0,
-          "score2": 2,
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399224/overtake-sector-vs-chicken-coop-esl-challenger-league-season-52-north-america-cup-3",
-          "stage_name": "Completed series",
-          "starts_at": "2026-10-11T02:39:17Z",
-          "status": "finished",
-          "team1_name": "Overtake Sector",
-          "team2_name": "Chicken Coop",
-          "winner_name": "Chicken Coop"
-        },
         {
           "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
           "event_name": "ESL Challenger League Season 52 North America Cup 3",
@@ -344,14 +128,13 @@
       ],
       "name": "ESL Challenger League Season 52 North America Cup 3",
       "participants": [
-        "Wanted Goons",
-        "DETONATE",
-        "Overtake Sector",
-        "Chicken Coop",
         "EMPIRE",
         "regain",
         "Zomblers",
-        "Iowa Stormboar"
+        "Iowa Stormboar",
+        "Overtake Sector",
+        "DETONATE",
+        "Chicken Coop"
       ],
       "product_tier": "tier_2",
       "source_url": null,
@@ -726,6 +509,346 @@
         "stages": [],
         "type": "mixed"
       },
+      "id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
+      "matches": [
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "event_url": null,
+          "hltv_match_id": "2399200",
+          "maps": [],
+          "match_id": "hltv:2399200",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399200/yawara-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
+          "stage_name": "Completed series",
+          "starts_at": "2026-10-11T22:35:10Z",
+          "status": "finished",
+          "team1_name": "Yawara",
+          "team2_name": "Galorys",
+          "winner_name": "Galorys"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "event_url": null,
+          "hltv_match_id": "2399201",
+          "maps": [],
+          "match_id": "hltv:2399201",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399201/borracheiros-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
+          "stage_name": "Completed series",
+          "starts_at": "2026-10-11T22:40:04Z",
+          "status": "finished",
+          "team1_name": "BORRACHEIROS",
+          "team2_name": "Bounty Hunters",
+          "winner_name": "Bounty Hunters"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "event_url": null,
+          "hltv_match_id": "2399202",
+          "maps": [],
+          "match_id": "hltv:2399202",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399202/ex-keyd-stars-vs-lp-esl-challenger-league-season-52-south-america-cup-3",
+          "stage_name": "Completed series",
+          "starts_at": "2026-10-12T23:07:03Z",
+          "status": "finished",
+          "team1_name": "ex-Keyd Stars",
+          "team2_name": "LP",
+          "winner_name": "LP"
+        },
+        {
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "event_url": null,
+          "hltv_match_id": "2399203",
+          "maps": [],
+          "match_id": "hltv:2399203",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399203/galorys-vs-bounty-hunters-esl-challenger-league-season-52-south-america-cup-3",
+          "stage_name": "Completed series",
+          "starts_at": "2026-10-12T23:40:11Z",
+          "status": "finished",
+          "team1_name": "Galorys",
+          "team2_name": "Bounty Hunters",
+          "winner_name": "Galorys"
+        },
+        {
+          "detail_fetched_at_utc": "2026-10-13T22:50:22Z",
+          "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2399204",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "19972",
+                "nickname": "ckzao",
+                "player_id": "hltv:19972",
+                "source_url": "https://www.hltv.org/player/19972/ckzao",
+                "team_name": "ex-Keyd Stars"
+              },
+              {
+                "hltv_player_id": "22362",
+                "nickname": "xureba",
+                "player_id": "hltv:22362",
+                "source_url": "https://www.hltv.org/player/22362/xureba",
+                "team_name": "ex-Keyd Stars"
+              },
+              {
+                "hltv_player_id": "16645",
+                "nickname": "drg",
+                "player_id": "hltv:16645",
+                "source_url": "https://www.hltv.org/player/16645/drg",
+                "team_name": "ex-Keyd Stars"
+              },
+              {
+                "hltv_player_id": "22956",
+                "nickname": "lash",
+                "player_id": "hltv:22956",
+                "source_url": "https://www.hltv.org/player/22956/lash",
+                "team_name": "ex-Keyd Stars"
+              },
+              {
+                "hltv_player_id": "11922",
+                "nickname": "ALLE",
+                "player_id": "hltv:11922",
+                "source_url": "https://www.hltv.org/player/11922/alle",
+                "team_name": "ex-Keyd Stars"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "9483",
+                "nickname": "destiny",
+                "player_id": "hltv:9483",
+                "source_url": "https://www.hltv.org/player/9483/destiny",
+                "team_name": "Galorys"
+              },
+              {
+                "hltv_player_id": "18610",
+                "nickname": "detr0ittJ",
+                "player_id": "hltv:18610",
+                "source_url": "https://www.hltv.org/player/18610/detr0ittj",
+                "team_name": "Galorys"
+              },
+              {
+                "hltv_player_id": "23551",
+                "nickname": "tomate",
+                "player_id": "hltv:23551",
+                "source_url": "https://www.hltv.org/player/23551/tomate",
+                "team_name": "Galorys"
+              },
+              {
+                "hltv_player_id": "20522",
+                "nickname": "gbb",
+                "player_id": "hltv:20522",
+                "source_url": "https://www.hltv.org/player/20522/gbb",
+                "team_name": "Galorys"
+              },
+              {
+                "hltv_player_id": "6593",
+                "nickname": "PKL",
+                "player_id": "hltv:6593",
+                "source_url": "https://www.hltv.org/player/6593/pkl",
+                "team_name": "Galorys"
+              }
+            ]
+          },
+          "map_results": [
+            {
+              "map_name": "Dust2",
+              "score1": 6,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": 5,
+              "score2": 7,
+              "status": "finished"
+            },
+            {
+              "map_name": "Anubis",
+              "score1": null,
+              "score2": null,
+              "status": "upcoming"
+            }
+          ],
+          "maps": [
+            "Dust2",
+            "Ancient",
+            "Anubis"
+          ],
+          "match_id": "hltv:2399204",
+          "player_stats": [
+            {
+              "adr": 91.6,
+              "deaths": 16,
+              "hltv_player_id": "19972",
+              "kast": 68.4,
+              "kills": 18,
+              "nickname": "ckzao",
+              "player_id": "hltv:19972",
+              "rating": 1.08,
+              "source_url": "https://www.hltv.org/player/19972/ckzao",
+              "team_side": 1
+            },
+            {
+              "adr": 69.4,
+              "deaths": 14,
+              "hltv_player_id": "22362",
+              "kast": 68.4,
+              "kills": 11,
+              "nickname": "xureba",
+              "player_id": "hltv:22362",
+              "rating": 0.99,
+              "source_url": "https://www.hltv.org/player/22362/xureba",
+              "team_side": 1
+            },
+            {
+              "adr": 75.8,
+              "deaths": 16,
+              "hltv_player_id": "16645",
+              "kast": 57.9,
+              "kills": 9,
+              "nickname": "drg",
+              "player_id": "hltv:16645",
+              "rating": 0.89,
+              "source_url": "https://www.hltv.org/player/16645/drg",
+              "team_side": 1
+            },
+            {
+              "adr": 46,
+              "deaths": 13,
+              "hltv_player_id": "22956",
+              "kast": 73.7,
+              "kills": 10,
+              "nickname": "lash",
+              "player_id": "hltv:22956",
+              "rating": 0.66,
+              "source_url": "https://www.hltv.org/player/22956/lash",
+              "team_side": 1
+            },
+            {
+              "adr": 46.7,
+              "deaths": 15,
+              "hltv_player_id": "11922",
+              "kast": 57.9,
+              "kills": 7,
+              "nickname": "ALLE",
+              "player_id": "hltv:11922",
+              "rating": 0.64,
+              "source_url": "https://www.hltv.org/player/11922/alle",
+              "team_side": 1
+            },
+            {
+              "adr": 106.2,
+              "deaths": 11,
+              "hltv_player_id": "9483",
+              "kast": 84.2,
+              "kills": 21,
+              "nickname": "destiny",
+              "player_id": "hltv:9483",
+              "rating": 1.91,
+              "source_url": "https://www.hltv.org/player/9483/destiny",
+              "team_side": 2
+            },
+            {
+              "adr": 82.6,
+              "deaths": 10,
+              "hltv_player_id": "18610",
+              "kast": 73.7,
+              "kills": 17,
+              "nickname": "detr0ittJ",
+              "player_id": "hltv:18610",
+              "rating": 1.44,
+              "source_url": "https://www.hltv.org/player/18610/detr0ittj",
+              "team_side": 2
+            },
+            {
+              "adr": 68.5,
+              "deaths": 9,
+              "hltv_player_id": "23551",
+              "kast": 89.5,
+              "kills": 11,
+              "nickname": "tomate",
+              "player_id": "hltv:23551",
+              "rating": 1.24,
+              "source_url": "https://www.hltv.org/player/23551/tomate",
+              "team_side": 2
+            },
+            {
+              "adr": 82.1,
+              "deaths": 13,
+              "hltv_player_id": "20522",
+              "kast": 78.9,
+              "kills": 13,
+              "nickname": "gbb",
+              "player_id": "hltv:20522",
+              "rating": 1.14,
+              "source_url": "https://www.hltv.org/player/20522/gbb",
+              "team_side": 2
+            },
+            {
+              "adr": 63.7,
+              "deaths": 12,
+              "hltv_player_id": "6593",
+              "kast": 78.9,
+              "kills": 12,
+              "nickname": "PKL",
+              "player_id": "hltv:6593",
+              "rating": 1.12,
+              "source_url": "https://www.hltv.org/player/6593/pkl",
+              "team_side": 2
+            }
+          ],
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399204/ex-keyd-stars-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
+          "stage_name": "Scheduled series",
+          "starts_at": null,
+          "status": "live",
+          "team1_name": "ex-Keyd Stars",
+          "team2_name": "Galorys",
+          "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+        }
+      ],
+      "name": "ESL Challenger League Season 52 South America Cup 3",
+      "participants": [
+        "Yawara",
+        "Galorys",
+        "BORRACHEIROS",
+        "Bounty Hunters",
+        "ex-Keyd Stars",
+        "LP"
+      ],
+      "product_tier": "tier_2",
+      "source_url": null,
+      "status": "ongoing"
+    },
+    {
+      "current_stage": "Schedule",
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
       "id": "hltv:esl-challenger-league-season-52-oceania-cup-3",
       "matches": [
         {
@@ -865,50 +988,23 @@
           "winner_name": "Saint Sinners"
         },
         {
-          "detail_fetched_at_utc": "2026-10-13T17:38:00Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
-          "event_url": "https://www.hltv.org/events/archive",
+          "event_url": null,
           "hltv_match_id": "2399297",
-          "lineups": {
-            "team1": [],
-            "team2": []
-          },
-          "map_results": [
-            {
-              "map_name": "Dust2",
-              "score1": 8,
-              "score2": 4,
-              "status": "finished"
-            },
-            {
-              "map_name": "Anubis",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            },
-            {
-              "map_name": "Nuke",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
-            }
-          ],
-          "maps": [
-            "Dust2",
-            "Anubis",
-            "Nuke"
-          ],
+          "maps": [],
           "match_id": "hltv:2399297",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399297/black-phoenix-vs-6666-cct-2026-europe-series-11",
-          "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
+          "stage_name": "Completed series",
+          "starts_at": "2026-10-13T18:35:55Z",
+          "status": "finished",
           "team1_name": "Black Phoenix",
           "team2_name": "6666",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          "winner_name": "Black Phoenix"
         }
       ],
       "name": "CCT 2026 Europe Series 11",
@@ -924,7 +1020,7 @@
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "ongoing"
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -956,244 +1052,435 @@
           "winner_name": "QUINTESSÊNCIA"
         },
         {
-          "detail_fetched_at_utc": "2026-10-13T17:37:56Z",
+          "event_id": "hltv:cct-2026-south-america-series-7",
+          "event_name": "CCT 2026 South America Series 7",
+          "event_url": null,
+          "hltv_match_id": "2399458",
+          "maps": [],
+          "match_id": "hltv:2399458",
+          "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399458/procyon-vs-hacha-cct-2026-south-america-series-7",
+          "stage_name": "Completed series",
+          "starts_at": "2026-10-13T17:38:34Z",
+          "status": "finished",
+          "team1_name": "Procyon",
+          "team2_name": "Hacha",
+          "winner_name": "Procyon"
+        },
+        {
+          "event_id": "hltv:cct-2026-south-america-series-7",
+          "event_name": "CCT 2026 South America Series 7",
+          "event_url": null,
+          "hltv_match_id": "2399460",
+          "maps": [],
+          "match_id": "hltv:2399460",
+          "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 0,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399460/your-end-vs-sukeban-cct-2026-south-america-series-7",
+          "stage_name": "Completed series",
+          "starts_at": "2026-10-13T21:59:35Z",
+          "status": "finished",
+          "team1_name": "your end",
+          "team2_name": "SUKEBAN",
+          "winner_name": "your end"
+        },
+        {
+          "detail_fetched_at_utc": "2026-10-13T22:50:46Z",
           "event_id": "hltv:cct-2026-south-america-series-7",
           "event_name": "CCT 2026 South America Series 7",
           "event_url": "https://www.hltv.org/events/archive",
-          "hltv_match_id": "2399458",
+          "hltv_match_id": "2399459",
           "lineups": {
             "team1": [
               {
-                "hltv_player_id": "19086",
-                "nickname": "pavv",
-                "player_id": "hltv:19086",
-                "source_url": "https://www.hltv.org/player/19086/pavv",
-                "team_name": "Procyon"
+                "hltv_player_id": "16661",
+                "nickname": "MITHPUTTINI",
+                "player_id": "hltv:16661",
+                "source_url": "https://www.hltv.org/player/16661/mithputtini",
+                "team_name": "Grêmio",
+                "timeline_entry": {
+                  "adr": 69.1,
+                  "date": "2026-10-13",
+                  "deaths": 40,
+                  "event_name": "CCT 2026 South America Series 7",
+                  "kast": 71,
+                  "kd_ratio": 1.23,
+                  "kills": 49,
+                  "maps": 3,
+                  "match_id": "hltv:2399459",
+                  "opponent_name": "LOS NINOS",
+                  "rating": 1.11,
+                  "team_name": "Grêmio",
+                  "won": false
+                }
               },
               {
-                "hltv_player_id": "17997",
-                "nickname": "lenci",
-                "player_id": "hltv:17997",
-                "source_url": "https://www.hltv.org/player/17997/lenci",
-                "team_name": "Procyon"
+                "hltv_player_id": "25464",
+                "nickname": "yeda",
+                "player_id": "hltv:25464",
+                "source_url": "https://www.hltv.org/player/25464/yeda",
+                "team_name": "Grêmio",
+                "timeline_entry": {
+                  "adr": 50.4,
+                  "date": "2026-10-13",
+                  "deaths": 51,
+                  "event_name": "CCT 2026 South America Series 7",
+                  "kast": 62.3,
+                  "kd_ratio": 0.55,
+                  "kills": 28,
+                  "maps": 3,
+                  "match_id": "hltv:2399459",
+                  "opponent_name": "LOS NINOS",
+                  "rating": 0.63,
+                  "team_name": "Grêmio",
+                  "won": false
+                }
               },
               {
-                "hltv_player_id": "23549",
-                "nickname": "MaxOff",
-                "player_id": "hltv:23549",
-                "source_url": "https://www.hltv.org/player/23549/maxoff",
-                "team_name": "Procyon"
+                "hltv_player_id": "25465",
+                "nickname": "balencyy",
+                "player_id": "hltv:25465",
+                "source_url": "https://www.hltv.org/player/25465/balencyy",
+                "team_name": "Grêmio",
+                "timeline_entry": {
+                  "adr": 90.2,
+                  "date": "2026-10-13",
+                  "deaths": 46,
+                  "event_name": "CCT 2026 South America Series 7",
+                  "kast": 78.3,
+                  "kd_ratio": 1.33,
+                  "kills": 61,
+                  "maps": 3,
+                  "match_id": "hltv:2399459",
+                  "opponent_name": "LOS NINOS",
+                  "rating": 1.37,
+                  "team_name": "Grêmio",
+                  "won": false
+                }
               },
               {
-                "hltv_player_id": "18549",
-                "nickname": "laser",
-                "player_id": "hltv:18549",
-                "source_url": "https://www.hltv.org/player/18549/laser",
-                "team_name": "Procyon"
+                "hltv_player_id": "25553",
+                "nickname": "s1lent",
+                "player_id": "hltv:25553",
+                "source_url": "https://www.hltv.org/player/25553/s1lent",
+                "team_name": "Grêmio",
+                "timeline_entry": {
+                  "adr": 91.2,
+                  "date": "2026-10-13",
+                  "deaths": 44,
+                  "event_name": "CCT 2026 South America Series 7",
+                  "kast": 79.7,
+                  "kd_ratio": 1.16,
+                  "kills": 51,
+                  "maps": 3,
+                  "match_id": "hltv:2399459",
+                  "opponent_name": "LOS NINOS",
+                  "rating": 1.3,
+                  "team_name": "Grêmio",
+                  "won": false
+                }
               },
               {
-                "hltv_player_id": "25106",
-                "nickname": "next",
-                "player_id": "hltv:25106",
-                "source_url": "https://www.hltv.org/player/25106/next",
-                "team_name": "Procyon"
+                "hltv_player_id": "22140",
+                "nickname": "souz4h",
+                "player_id": "hltv:22140",
+                "source_url": "https://www.hltv.org/player/22140/souz4h",
+                "team_name": "Grêmio",
+                "timeline_entry": {
+                  "adr": 65.9,
+                  "date": "2026-10-13",
+                  "deaths": 48,
+                  "event_name": "CCT 2026 South America Series 7",
+                  "kast": 75.4,
+                  "kd_ratio": 0.88,
+                  "kills": 42,
+                  "maps": 3,
+                  "match_id": "hltv:2399459",
+                  "opponent_name": "LOS NINOS",
+                  "rating": 0.91,
+                  "team_name": "Grêmio",
+                  "won": false
+                }
               }
             ],
             "team2": [
               {
-                "hltv_player_id": "25993",
-                "nickname": "superex",
-                "player_id": "hltv:25993",
-                "source_url": "https://www.hltv.org/player/25993/superex",
-                "team_name": "Hacha"
+                "hltv_player_id": "23740",
+                "nickname": "PremiuM",
+                "player_id": "hltv:23740",
+                "source_url": "https://www.hltv.org/player/23740/premium",
+                "team_name": "LOS NINOS",
+                "timeline_entry": {
+                  "adr": 80.8,
+                  "date": "2026-10-13",
+                  "deaths": 46,
+                  "event_name": "CCT 2026 South America Series 7",
+                  "kast": 76.8,
+                  "kd_ratio": 1.02,
+                  "kills": 47,
+                  "maps": 3,
+                  "match_id": "hltv:2399459",
+                  "opponent_name": "Grêmio",
+                  "rating": 1.21,
+                  "team_name": "LOS NINOS",
+                  "won": true
+                }
               },
               {
-                "hltv_player_id": "24557",
-                "nickname": "toto",
-                "player_id": "hltv:24557",
-                "source_url": "https://www.hltv.org/player/24557/toto",
-                "team_name": "Hacha"
+                "hltv_player_id": "24641",
+                "nickname": "protado",
+                "player_id": "hltv:24641",
+                "source_url": "https://www.hltv.org/player/24641/protado",
+                "team_name": "LOS NINOS",
+                "timeline_entry": {
+                  "adr": 61.1,
+                  "date": "2026-10-13",
+                  "deaths": 47,
+                  "event_name": "CCT 2026 South America Series 7",
+                  "kast": 68.1,
+                  "kd_ratio": 0.83,
+                  "kills": 39,
+                  "maps": 3,
+                  "match_id": "hltv:2399459",
+                  "opponent_name": "Grêmio",
+                  "rating": 0.9,
+                  "team_name": "LOS NINOS",
+                  "won": true
+                }
               },
               {
-                "hltv_player_id": "24562",
-                "nickname": "Lucasye",
-                "player_id": "hltv:24562",
-                "source_url": "https://www.hltv.org/player/24562/lucasye",
-                "team_name": "Hacha"
+                "hltv_player_id": "21038",
+                "nickname": "Reix",
+                "player_id": "hltv:21038",
+                "source_url": "https://www.hltv.org/player/21038/reix",
+                "team_name": "LOS NINOS",
+                "timeline_entry": {
+                  "adr": 74.5,
+                  "date": "2026-10-13",
+                  "deaths": 54,
+                  "event_name": "CCT 2026 South America Series 7",
+                  "kast": 68.1,
+                  "kd_ratio": 0.81,
+                  "kills": 44,
+                  "maps": 3,
+                  "match_id": "hltv:2399459",
+                  "opponent_name": "Grêmio",
+                  "rating": 0.95,
+                  "team_name": "LOS NINOS",
+                  "won": true
+                }
               },
               {
-                "hltv_player_id": "25262",
-                "nickname": "Rivo",
-                "player_id": "hltv:25262",
-                "source_url": "https://www.hltv.org/player/25262/rivo",
-                "team_name": "Hacha"
+                "hltv_player_id": "24296",
+                "nickname": "aNgelo",
+                "player_id": "hltv:24296",
+                "source_url": "https://www.hltv.org/player/24296/angelo",
+                "team_name": "LOS NINOS",
+                "timeline_entry": {
+                  "adr": 76.4,
+                  "date": "2026-10-13",
+                  "deaths": 43,
+                  "event_name": "CCT 2026 South America Series 7",
+                  "kast": 73.9,
+                  "kd_ratio": 1.21,
+                  "kills": 52,
+                  "maps": 3,
+                  "match_id": "hltv:2399459",
+                  "opponent_name": "Grêmio",
+                  "rating": 1.04,
+                  "team_name": "LOS NINOS",
+                  "won": true
+                }
               },
               {
-                "hltv_player_id": "25229",
-                "nickname": "BUSAN",
-                "player_id": "hltv:25229",
-                "source_url": "https://www.hltv.org/player/25229/busan",
-                "team_name": "Hacha"
+                "hltv_player_id": "25552",
+                "nickname": "space",
+                "player_id": "hltv:25552",
+                "source_url": "https://www.hltv.org/player/25552/space",
+                "team_name": "LOS NINOS",
+                "timeline_entry": {
+                  "adr": 72.7,
+                  "date": "2026-10-13",
+                  "deaths": 44,
+                  "event_name": "CCT 2026 South America Series 7",
+                  "kast": 82.6,
+                  "kd_ratio": 1.05,
+                  "kills": 46,
+                  "maps": 3,
+                  "match_id": "hltv:2399459",
+                  "opponent_name": "Grêmio",
+                  "rating": 1.08,
+                  "team_name": "LOS NINOS",
+                  "won": true
+                }
               }
             ]
           },
           "map_results": [
             {
-              "map_name": "Anubis",
+              "map_name": "Mirage",
+              "score1": 9,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Inferno",
               "score1": 13,
-              "score2": 2,
+              "score2": 5,
               "status": "finished"
             },
             {
               "map_name": "Ancient",
-              "score1": 11,
-              "score2": 1,
+              "score1": 13,
+              "score2": 16,
               "status": "finished"
-            },
-            {
-              "map_name": "Nuke",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
             }
           ],
           "maps": [
-            "Anubis",
-            "Ancient",
-            "Nuke"
+            "Mirage",
+            "Inferno",
+            "Ancient"
           ],
-          "match_id": "hltv:2399458",
+          "match_id": "hltv:2399459",
           "player_stats": [
             {
-              "adr": 119.2,
-              "deaths": 4,
-              "hltv_player_id": "19086",
-              "kast": 100,
-              "kills": 20,
-              "nickname": "pavv",
-              "player_id": "hltv:19086",
-              "rating": 2.13,
-              "source_url": "https://www.hltv.org/player/19086/pavv",
+              "adr": 90.2,
+              "deaths": 46,
+              "hltv_player_id": "25465",
+              "kast": 78.3,
+              "kills": 61,
+              "nickname": "balencyy",
+              "player_id": "hltv:25465",
+              "rating": 1.37,
+              "source_url": "https://www.hltv.org/player/25465/balencyy",
               "team_side": 1
             },
             {
-              "adr": 104.3,
-              "deaths": 10,
-              "hltv_player_id": "17997",
-              "kast": 100,
-              "kills": 12,
-              "nickname": "lenci",
-              "player_id": "hltv:17997",
-              "rating": 1.65,
-              "source_url": "https://www.hltv.org/player/17997/lenci",
+              "adr": 91.2,
+              "deaths": 44,
+              "hltv_player_id": "25553",
+              "kast": 79.7,
+              "kills": 51,
+              "nickname": "s1lent",
+              "player_id": "hltv:25553",
+              "rating": 1.3,
+              "source_url": "https://www.hltv.org/player/25553/s1lent",
               "team_side": 1
             },
             {
-              "adr": 89.7,
-              "deaths": 4,
-              "hltv_player_id": "23549",
-              "kast": 86.7,
-              "kills": 16,
-              "nickname": "MaxOff",
-              "player_id": "hltv:23549",
-              "rating": 1.62,
-              "source_url": "https://www.hltv.org/player/23549/maxoff",
+              "adr": 69.1,
+              "deaths": 40,
+              "hltv_player_id": "16661",
+              "kast": 71,
+              "kills": 49,
+              "nickname": "MITHPUTTINI",
+              "player_id": "hltv:16661",
+              "rating": 1.11,
+              "source_url": "https://www.hltv.org/player/16661/mithputtini",
               "team_side": 1
             },
             {
-              "adr": 77.6,
-              "deaths": 5,
-              "hltv_player_id": "18549",
-              "kast": 100,
-              "kills": 11,
-              "nickname": "laser",
-              "player_id": "hltv:18549",
-              "rating": 1.56,
-              "source_url": "https://www.hltv.org/player/18549/laser",
+              "adr": 65.9,
+              "deaths": 48,
+              "hltv_player_id": "22140",
+              "kast": 75.4,
+              "kills": 42,
+              "nickname": "souz4h",
+              "player_id": "hltv:22140",
+              "rating": 0.91,
+              "source_url": "https://www.hltv.org/player/22140/souz4h",
               "team_side": 1
             },
             {
-              "adr": 77.8,
-              "deaths": 4,
-              "hltv_player_id": "25106",
-              "kast": 93.3,
-              "kills": 12,
-              "nickname": "next",
-              "player_id": "hltv:25106",
-              "rating": 1.22,
-              "source_url": "https://www.hltv.org/player/25106/next",
+              "adr": 50.4,
+              "deaths": 51,
+              "hltv_player_id": "25464",
+              "kast": 62.3,
+              "kills": 28,
+              "nickname": "yeda",
+              "player_id": "hltv:25464",
+              "rating": 0.63,
+              "source_url": "https://www.hltv.org/player/25464/yeda",
               "team_side": 1
             },
             {
-              "adr": 54.4,
-              "deaths": 13,
-              "hltv_player_id": "25993",
-              "kast": 46.7,
-              "kills": 6,
-              "nickname": "superex",
-              "player_id": "hltv:25993",
-              "rating": 0.65,
-              "source_url": "https://www.hltv.org/player/25993/superex",
+              "adr": 80.8,
+              "deaths": 46,
+              "hltv_player_id": "23740",
+              "kast": 76.8,
+              "kills": 47,
+              "nickname": "PremiuM",
+              "player_id": "hltv:23740",
+              "rating": 1.21,
+              "source_url": "https://www.hltv.org/player/23740/premium",
               "team_side": 2
             },
             {
-              "adr": 50.6,
-              "deaths": 14,
-              "hltv_player_id": "24557",
-              "kast": 40,
-              "kills": 7,
-              "nickname": "toto",
-              "player_id": "hltv:24557",
-              "rating": 0.61,
-              "source_url": "https://www.hltv.org/player/24557/toto",
+              "adr": 72.7,
+              "deaths": 44,
+              "hltv_player_id": "25552",
+              "kast": 82.6,
+              "kills": 46,
+              "nickname": "space",
+              "player_id": "hltv:25552",
+              "rating": 1.08,
+              "source_url": "https://www.hltv.org/player/25552/space",
               "team_side": 2
             },
             {
-              "adr": 49.7,
-              "deaths": 14,
-              "hltv_player_id": "24562",
-              "kast": 40,
-              "kills": 7,
-              "nickname": "Lucasye",
-              "player_id": "hltv:24562",
-              "rating": 0.57,
-              "source_url": "https://www.hltv.org/player/24562/lucasye",
+              "adr": 76.4,
+              "deaths": 43,
+              "hltv_player_id": "24296",
+              "kast": 73.9,
+              "kills": 52,
+              "nickname": "aNgelo",
+              "player_id": "hltv:24296",
+              "rating": 1.04,
+              "source_url": "https://www.hltv.org/player/24296/angelo",
               "team_side": 2
             },
             {
-              "adr": 60.4,
-              "deaths": 15,
-              "hltv_player_id": "25262",
-              "kast": 53.3,
-              "kills": 4,
-              "nickname": "Rivo",
-              "player_id": "hltv:25262",
-              "rating": 0.49,
-              "source_url": "https://www.hltv.org/player/25262/rivo",
+              "adr": 74.5,
+              "deaths": 54,
+              "hltv_player_id": "21038",
+              "kast": 68.1,
+              "kills": 44,
+              "nickname": "Reix",
+              "player_id": "hltv:21038",
+              "rating": 0.95,
+              "source_url": "https://www.hltv.org/player/21038/reix",
               "team_side": 2
             },
             {
-              "adr": 33.7,
-              "deaths": 15,
-              "hltv_player_id": "25229",
-              "kast": 26.7,
-              "kills": 3,
-              "nickname": "BUSAN",
-              "player_id": "hltv:25229",
-              "rating": 0.25,
-              "source_url": "https://www.hltv.org/player/25229/busan",
+              "adr": 61.1,
+              "deaths": 47,
+              "hltv_player_id": "24641",
+              "kast": 68.1,
+              "kills": 39,
+              "nickname": "protado",
+              "player_id": "hltv:24641",
+              "rating": 0.9,
+              "source_url": "https://www.hltv.org/player/24641/protado",
               "team_side": 2
             }
           ],
           "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
           "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399458/procyon-vs-hacha-cct-2026-south-america-series-7",
+          "source_url": "https://www.hltv.org/matches/2399459/grmio-vs-los-ninos-cct-2026-south-america-series-7",
           "stage_name": "Scheduled series",
-          "starts_at": null,
-          "status": "live",
-          "team1_name": "Procyon",
-          "team2_name": "Hacha",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          "starts_at": "2026-10-13T22:01:43Z",
+          "status": "finished",
+          "team1_name": "Grêmio",
+          "team2_name": "LOS NINOS",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+          "winner_name": "LOS NINOS"
         }
       ],
       "name": "CCT 2026 South America Series 7",
@@ -1201,145 +1488,15 @@
         "QUINTESSÊNCIA",
         "Martians",
         "Procyon",
-        "Hacha"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "ongoing"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:9452",
-      "matches": [
-        {
-          "event_id": "hltv:9452",
-          "event_name": "CCT 2026 South America Series 7",
-          "event_url": null,
-          "hltv_match_id": "2399459",
-          "maps": [],
-          "match_id": "hltv:2399459",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399459/grmio-vs-los-ninos-cct-2026-south-america-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-10-13T19:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Grêmio",
-          "team2_name": "LOS NINOS"
-        },
-        {
-          "event_id": "hltv:9452",
-          "event_name": "CCT 2026 South America Series 7",
-          "event_url": null,
-          "hltv_match_id": "2399460",
-          "maps": [],
-          "match_id": "hltv:2399460",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399460/your-end-vs-sukeban-cct-2026-south-america-series-7",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-10-13T22:00:00Z",
-          "status": "upcoming",
-          "team1_name": "your end",
-          "team2_name": "SUKEBAN"
-        }
-      ],
-      "name": "CCT 2026 South America Series 7",
-      "participants": [
-        "Grêmio",
-        "LOS NINOS",
+        "Hacha",
         "your end",
-        "SUKEBAN"
+        "SUKEBAN",
+        "Grêmio",
+        "LOS NINOS"
       ],
       "product_tier": "tier_2",
       "source_url": null,
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Playoffs",
-      "format": {
-        "label": "Playoffs",
-        "settings": {},
-        "stages": [
-          {
-            "id": "playoffs",
-            "name": "Playoffs",
-            "order": 1,
-            "status": "pending",
-            "type": "single_elimination"
-          }
-        ],
-        "type": "mixed"
-      },
-      "id": "hltv:9385",
-      "matches": [
-        {
-          "event_id": "hltv:9385",
-          "event_name": "ESL Challenger League Season 52 South America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399204",
-          "maps": [],
-          "match_id": "hltv:2399204",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399204/ex-keyd-stars-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
-          "stage_name": "Playoffs",
-          "starts_at": "2026-10-13T21:00:00Z",
-          "status": "upcoming",
-          "team1_name": "ex-Keyd Stars",
-          "team2_name": "Galorys"
-        }
-      ],
-      "name": "ESL Challenger League Season 52 South America Cup 3",
-      "participants": [
-        "ex-Keyd Stars",
-        "Galorys"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "upcoming"
-    },
-    {
-      "current_stage": "Schedule",
-      "format": {
-        "label": "Event schedule",
-        "settings": {},
-        "stages": [],
-        "type": "mixed"
-      },
-      "id": "hltv:9387",
-      "matches": [
-        {
-          "event_id": "hltv:9387",
-          "event_name": "ESL Challenger League Season 52 North America Cup 3",
-          "event_url": null,
-          "hltv_match_id": "2399232",
-          "maps": [],
-          "match_id": "hltv:2399232",
-          "product_tier": "tier_2",
-          "series_format": "bo3",
-          "source_url": "https://www.hltv.org/matches/2399232/zomblers-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
-          "stage_name": "Scheduled series",
-          "starts_at": "2026-10-14T01:00:00Z",
-          "status": "upcoming",
-          "team1_name": "Zomblers",
-          "team2_name": "Overtake Sector"
-        }
-      ],
-      "name": "ESL Challenger League Season 52 North America Cup 3",
-      "participants": [
-        "Zomblers",
-        "Overtake Sector"
-      ],
-      "product_tier": "tier_2",
-      "source_url": null,
-      "status": "upcoming"
+      "status": "finished"
     },
     {
       "current_stage": "Schedule",
@@ -1532,7 +1689,7 @@
       "id": "hltv:thunderpick-world-championship-2026",
       "matches": [
         {
-          "detail_fetched_at_utc": "2026-10-13T17:38:06Z",
+          "detail_fetched_at_utc": "2026-10-13T22:50:27Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -1554,7 +1711,7 @@
           "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
         },
         {
-          "detail_fetched_at_utc": "2026-10-13T17:38:12Z",
+          "detail_fetched_at_utc": "2026-10-13T22:50:32Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -1576,7 +1733,7 @@
           "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
         },
         {
-          "detail_fetched_at_utc": "2026-10-13T17:38:18Z",
+          "detail_fetched_at_utc": "2026-10-13T22:50:37Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -1598,7 +1755,7 @@
           "veto_text": "Best of 3 (LAN)\n\n* Group B opening match"
         },
         {
-          "detail_fetched_at_utc": "2026-10-13T17:38:23Z",
+          "detail_fetched_at_utc": "2026-10-13T22:50:41Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -1788,122 +1945,8 @@
       "status": "upcoming"
     }
   ],
-  "fetched_at_utc": "2026-10-13T17:38:23Z",
+  "fetched_at_utc": "2026-10-13T22:50:46Z",
   "matches": [
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-      "event_name": "ESL Challenger League Season 52 South America Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2399199",
-      "maps": [],
-      "match_id": "hltv:2399199",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399199/procyon-vs-borracheiros-esl-challenger-league-season-52-south-america-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": "2026-10-10T22:57:22Z",
-      "status": "finished",
-      "team1_name": "Procyon",
-      "team2_name": "BORRACHEIROS",
-      "winner_name": "BORRACHEIROS"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-      "event_name": "ESL Challenger League Season 52 South America Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2399198",
-      "maps": [],
-      "match_id": "hltv:2399198",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399198/galorys-vs-meia-noite-esl-challenger-league-season-52-south-america-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": "2026-10-10T23:40:00Z",
-      "status": "finished",
-      "team1_name": "Galorys",
-      "team2_name": "MEIA NOITE",
-      "winner_name": "Galorys"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-      "event_name": "ESL Challenger League Season 52 South America Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2399196",
-      "maps": [],
-      "match_id": "hltv:2399196",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399196/ex-keyd-stars-vs-yawara-esl-challenger-league-season-52-south-america-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": "2026-10-10T23:40:15Z",
-      "status": "finished",
-      "team1_name": "ex-Keyd Stars",
-      "team2_name": "Yawara",
-      "winner_name": "ex-Keyd Stars"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
-      "event_name": "ESL Challenger League Season 52 South America Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2399197",
-      "maps": [],
-      "match_id": "hltv:2399197",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399197/bounty-hunters-vs-lp-esl-challenger-league-season-52-south-america-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": "2026-10-10T23:56:25Z",
-      "status": "finished",
-      "team1_name": "Bounty Hunters",
-      "team2_name": "LP",
-      "winner_name": "LP"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
-      "event_name": "ESL Challenger League Season 52 North America Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2399227",
-      "maps": [],
-      "match_id": "hltv:2399227",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399227/wanted-goons-vs-detonate-esl-challenger-league-season-52-north-america-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": "2026-10-11T02:27:25Z",
-      "status": "finished",
-      "team1_name": "Wanted Goons",
-      "team2_name": "DETONATE",
-      "winner_name": "DETONATE"
-    },
-    {
-      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
-      "event_name": "ESL Challenger League Season 52 North America Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2399224",
-      "maps": [],
-      "match_id": "hltv:2399224",
-      "product_tier": "tier_2",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399224/overtake-sector-vs-chicken-coop-esl-challenger-league-season-52-north-america-cup-3",
-      "stage_name": "Completed series",
-      "starts_at": "2026-10-11T02:39:17Z",
-      "status": "finished",
-      "team1_name": "Overtake Sector",
-      "team2_name": "Chicken Coop",
-      "winner_name": "Chicken Coop"
-    },
     {
       "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
       "event_name": "ESL Challenger League Season 52 North America Cup 3",
@@ -2513,68 +2556,454 @@
       "winner_name": "Alter Ego"
     },
     {
-      "event_id": "hltv:9452",
+      "event_id": "hltv:cct-2026-south-america-series-7",
       "event_name": "CCT 2026 South America Series 7",
       "event_url": null,
-      "hltv_match_id": "2399459",
+      "hltv_match_id": "2399458",
       "maps": [],
-      "match_id": "hltv:2399459",
+      "match_id": "hltv:2399458",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399459/grmio-vs-los-ninos-cct-2026-south-america-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-13T19:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Grêmio",
-      "team2_name": "LOS NINOS"
+      "source_url": "https://www.hltv.org/matches/2399458/procyon-vs-hacha-cct-2026-south-america-series-7",
+      "stage_name": "Completed series",
+      "starts_at": "2026-10-13T17:38:34Z",
+      "status": "finished",
+      "team1_name": "Procyon",
+      "team2_name": "Hacha",
+      "winner_name": "Procyon"
     },
     {
-      "event_id": "hltv:9385",
-      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "event_id": "hltv:cct-2026-europe-series-11",
+      "event_name": "CCT 2026 Europe Series 11",
       "event_url": null,
-      "hltv_match_id": "2399204",
+      "hltv_match_id": "2399297",
       "maps": [],
-      "match_id": "hltv:2399204",
+      "match_id": "hltv:2399297",
       "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399204/ex-keyd-stars-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
-      "stage_name": "Playoffs",
-      "starts_at": "2026-10-13T21:00:00Z",
-      "status": "upcoming",
-      "team1_name": "ex-Keyd Stars",
-      "team2_name": "Galorys"
+      "source_url": "https://www.hltv.org/matches/2399297/black-phoenix-vs-6666-cct-2026-europe-series-11",
+      "stage_name": "Completed series",
+      "starts_at": "2026-10-13T18:35:55Z",
+      "status": "finished",
+      "team1_name": "Black Phoenix",
+      "team2_name": "6666",
+      "winner_name": "Black Phoenix"
     },
     {
-      "event_id": "hltv:9452",
+      "event_id": "hltv:cct-2026-south-america-series-7",
       "event_name": "CCT 2026 South America Series 7",
       "event_url": null,
       "hltv_match_id": "2399460",
       "maps": [],
       "match_id": "hltv:2399460",
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399460/your-end-vs-sukeban-cct-2026-south-america-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-13T22:00:00Z",
-      "status": "upcoming",
+      "stage_name": "Completed series",
+      "starts_at": "2026-10-13T21:59:35Z",
+      "status": "finished",
       "team1_name": "your end",
-      "team2_name": "SUKEBAN"
+      "team2_name": "SUKEBAN",
+      "winner_name": "your end"
     },
     {
-      "event_id": "hltv:9387",
-      "event_name": "ESL Challenger League Season 52 North America Cup 3",
-      "event_url": null,
-      "hltv_match_id": "2399232",
-      "maps": [],
-      "match_id": "hltv:2399232",
+      "detail_fetched_at_utc": "2026-10-13T22:50:46Z",
+      "event_id": "hltv:cct-2026-south-america-series-7",
+      "event_name": "CCT 2026 South America Series 7",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2399459",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "16661",
+            "nickname": "MITHPUTTINI",
+            "player_id": "hltv:16661",
+            "source_url": "https://www.hltv.org/player/16661/mithputtini",
+            "team_name": "Grêmio",
+            "timeline_entry": {
+              "adr": 69.1,
+              "date": "2026-10-13",
+              "deaths": 40,
+              "event_name": "CCT 2026 South America Series 7",
+              "kast": 71,
+              "kd_ratio": 1.23,
+              "kills": 49,
+              "maps": 3,
+              "match_id": "hltv:2399459",
+              "opponent_name": "LOS NINOS",
+              "rating": 1.11,
+              "team_name": "Grêmio",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "25464",
+            "nickname": "yeda",
+            "player_id": "hltv:25464",
+            "source_url": "https://www.hltv.org/player/25464/yeda",
+            "team_name": "Grêmio",
+            "timeline_entry": {
+              "adr": 50.4,
+              "date": "2026-10-13",
+              "deaths": 51,
+              "event_name": "CCT 2026 South America Series 7",
+              "kast": 62.3,
+              "kd_ratio": 0.55,
+              "kills": 28,
+              "maps": 3,
+              "match_id": "hltv:2399459",
+              "opponent_name": "LOS NINOS",
+              "rating": 0.63,
+              "team_name": "Grêmio",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "25465",
+            "nickname": "balencyy",
+            "player_id": "hltv:25465",
+            "source_url": "https://www.hltv.org/player/25465/balencyy",
+            "team_name": "Grêmio",
+            "timeline_entry": {
+              "adr": 90.2,
+              "date": "2026-10-13",
+              "deaths": 46,
+              "event_name": "CCT 2026 South America Series 7",
+              "kast": 78.3,
+              "kd_ratio": 1.33,
+              "kills": 61,
+              "maps": 3,
+              "match_id": "hltv:2399459",
+              "opponent_name": "LOS NINOS",
+              "rating": 1.37,
+              "team_name": "Grêmio",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "25553",
+            "nickname": "s1lent",
+            "player_id": "hltv:25553",
+            "source_url": "https://www.hltv.org/player/25553/s1lent",
+            "team_name": "Grêmio",
+            "timeline_entry": {
+              "adr": 91.2,
+              "date": "2026-10-13",
+              "deaths": 44,
+              "event_name": "CCT 2026 South America Series 7",
+              "kast": 79.7,
+              "kd_ratio": 1.16,
+              "kills": 51,
+              "maps": 3,
+              "match_id": "hltv:2399459",
+              "opponent_name": "LOS NINOS",
+              "rating": 1.3,
+              "team_name": "Grêmio",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "22140",
+            "nickname": "souz4h",
+            "player_id": "hltv:22140",
+            "source_url": "https://www.hltv.org/player/22140/souz4h",
+            "team_name": "Grêmio",
+            "timeline_entry": {
+              "adr": 65.9,
+              "date": "2026-10-13",
+              "deaths": 48,
+              "event_name": "CCT 2026 South America Series 7",
+              "kast": 75.4,
+              "kd_ratio": 0.88,
+              "kills": 42,
+              "maps": 3,
+              "match_id": "hltv:2399459",
+              "opponent_name": "LOS NINOS",
+              "rating": 0.91,
+              "team_name": "Grêmio",
+              "won": false
+            }
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "23740",
+            "nickname": "PremiuM",
+            "player_id": "hltv:23740",
+            "source_url": "https://www.hltv.org/player/23740/premium",
+            "team_name": "LOS NINOS",
+            "timeline_entry": {
+              "adr": 80.8,
+              "date": "2026-10-13",
+              "deaths": 46,
+              "event_name": "CCT 2026 South America Series 7",
+              "kast": 76.8,
+              "kd_ratio": 1.02,
+              "kills": 47,
+              "maps": 3,
+              "match_id": "hltv:2399459",
+              "opponent_name": "Grêmio",
+              "rating": 1.21,
+              "team_name": "LOS NINOS",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "24641",
+            "nickname": "protado",
+            "player_id": "hltv:24641",
+            "source_url": "https://www.hltv.org/player/24641/protado",
+            "team_name": "LOS NINOS",
+            "timeline_entry": {
+              "adr": 61.1,
+              "date": "2026-10-13",
+              "deaths": 47,
+              "event_name": "CCT 2026 South America Series 7",
+              "kast": 68.1,
+              "kd_ratio": 0.83,
+              "kills": 39,
+              "maps": 3,
+              "match_id": "hltv:2399459",
+              "opponent_name": "Grêmio",
+              "rating": 0.9,
+              "team_name": "LOS NINOS",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "21038",
+            "nickname": "Reix",
+            "player_id": "hltv:21038",
+            "source_url": "https://www.hltv.org/player/21038/reix",
+            "team_name": "LOS NINOS",
+            "timeline_entry": {
+              "adr": 74.5,
+              "date": "2026-10-13",
+              "deaths": 54,
+              "event_name": "CCT 2026 South America Series 7",
+              "kast": 68.1,
+              "kd_ratio": 0.81,
+              "kills": 44,
+              "maps": 3,
+              "match_id": "hltv:2399459",
+              "opponent_name": "Grêmio",
+              "rating": 0.95,
+              "team_name": "LOS NINOS",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "24296",
+            "nickname": "aNgelo",
+            "player_id": "hltv:24296",
+            "source_url": "https://www.hltv.org/player/24296/angelo",
+            "team_name": "LOS NINOS",
+            "timeline_entry": {
+              "adr": 76.4,
+              "date": "2026-10-13",
+              "deaths": 43,
+              "event_name": "CCT 2026 South America Series 7",
+              "kast": 73.9,
+              "kd_ratio": 1.21,
+              "kills": 52,
+              "maps": 3,
+              "match_id": "hltv:2399459",
+              "opponent_name": "Grêmio",
+              "rating": 1.04,
+              "team_name": "LOS NINOS",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "25552",
+            "nickname": "space",
+            "player_id": "hltv:25552",
+            "source_url": "https://www.hltv.org/player/25552/space",
+            "team_name": "LOS NINOS",
+            "timeline_entry": {
+              "adr": 72.7,
+              "date": "2026-10-13",
+              "deaths": 44,
+              "event_name": "CCT 2026 South America Series 7",
+              "kast": 82.6,
+              "kd_ratio": 1.05,
+              "kills": 46,
+              "maps": 3,
+              "match_id": "hltv:2399459",
+              "opponent_name": "Grêmio",
+              "rating": 1.08,
+              "team_name": "LOS NINOS",
+              "won": true
+            }
+          }
+        ]
+      },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": 9,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 5,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 16,
+          "status": "finished"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Inferno",
+        "Ancient"
+      ],
+      "match_id": "hltv:2399459",
+      "player_stats": [
+        {
+          "adr": 90.2,
+          "deaths": 46,
+          "hltv_player_id": "25465",
+          "kast": 78.3,
+          "kills": 61,
+          "nickname": "balencyy",
+          "player_id": "hltv:25465",
+          "rating": 1.37,
+          "source_url": "https://www.hltv.org/player/25465/balencyy",
+          "team_side": 1
+        },
+        {
+          "adr": 91.2,
+          "deaths": 44,
+          "hltv_player_id": "25553",
+          "kast": 79.7,
+          "kills": 51,
+          "nickname": "s1lent",
+          "player_id": "hltv:25553",
+          "rating": 1.3,
+          "source_url": "https://www.hltv.org/player/25553/s1lent",
+          "team_side": 1
+        },
+        {
+          "adr": 69.1,
+          "deaths": 40,
+          "hltv_player_id": "16661",
+          "kast": 71,
+          "kills": 49,
+          "nickname": "MITHPUTTINI",
+          "player_id": "hltv:16661",
+          "rating": 1.11,
+          "source_url": "https://www.hltv.org/player/16661/mithputtini",
+          "team_side": 1
+        },
+        {
+          "adr": 65.9,
+          "deaths": 48,
+          "hltv_player_id": "22140",
+          "kast": 75.4,
+          "kills": 42,
+          "nickname": "souz4h",
+          "player_id": "hltv:22140",
+          "rating": 0.91,
+          "source_url": "https://www.hltv.org/player/22140/souz4h",
+          "team_side": 1
+        },
+        {
+          "adr": 50.4,
+          "deaths": 51,
+          "hltv_player_id": "25464",
+          "kast": 62.3,
+          "kills": 28,
+          "nickname": "yeda",
+          "player_id": "hltv:25464",
+          "rating": 0.63,
+          "source_url": "https://www.hltv.org/player/25464/yeda",
+          "team_side": 1
+        },
+        {
+          "adr": 80.8,
+          "deaths": 46,
+          "hltv_player_id": "23740",
+          "kast": 76.8,
+          "kills": 47,
+          "nickname": "PremiuM",
+          "player_id": "hltv:23740",
+          "rating": 1.21,
+          "source_url": "https://www.hltv.org/player/23740/premium",
+          "team_side": 2
+        },
+        {
+          "adr": 72.7,
+          "deaths": 44,
+          "hltv_player_id": "25552",
+          "kast": 82.6,
+          "kills": 46,
+          "nickname": "space",
+          "player_id": "hltv:25552",
+          "rating": 1.08,
+          "source_url": "https://www.hltv.org/player/25552/space",
+          "team_side": 2
+        },
+        {
+          "adr": 76.4,
+          "deaths": 43,
+          "hltv_player_id": "24296",
+          "kast": 73.9,
+          "kills": 52,
+          "nickname": "aNgelo",
+          "player_id": "hltv:24296",
+          "rating": 1.04,
+          "source_url": "https://www.hltv.org/player/24296/angelo",
+          "team_side": 2
+        },
+        {
+          "adr": 74.5,
+          "deaths": 54,
+          "hltv_player_id": "21038",
+          "kast": 68.1,
+          "kills": 44,
+          "nickname": "Reix",
+          "player_id": "hltv:21038",
+          "rating": 0.95,
+          "source_url": "https://www.hltv.org/player/21038/reix",
+          "team_side": 2
+        },
+        {
+          "adr": 61.1,
+          "deaths": 47,
+          "hltv_player_id": "24641",
+          "kast": 68.1,
+          "kills": 39,
+          "nickname": "protado",
+          "player_id": "hltv:24641",
+          "rating": 0.9,
+          "source_url": "https://www.hltv.org/player/24641/protado",
+          "team_side": 2
+        }
+      ],
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399232/zomblers-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
+      "source_url": "https://www.hltv.org/matches/2399459/grmio-vs-los-ninos-cct-2026-south-america-series-7",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-14T01:00:00Z",
-      "status": "upcoming",
-      "team1_name": "Zomblers",
-      "team2_name": "Overtake Sector"
+      "starts_at": "2026-10-13T22:01:43Z",
+      "status": "finished",
+      "team1_name": "Grêmio",
+      "team2_name": "LOS NINOS",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+      "winner_name": "LOS NINOS"
     },
     {
       "event_id": "hltv:9442",
@@ -2609,7 +3038,7 @@
       "team2_name": "B8 Academy"
     },
     {
-      "detail_fetched_at_utc": "2026-10-13T17:38:06Z",
+      "detail_fetched_at_utc": "2026-10-13T22:50:27Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -2663,7 +3092,7 @@
       "team2_name": "mellren"
     },
     {
-      "detail_fetched_at_utc": "2026-10-13T17:38:12Z",
+      "detail_fetched_at_utc": "2026-10-13T22:50:32Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -2717,7 +3146,7 @@
       "team2_name": "Alter Ego"
     },
     {
-      "detail_fetched_at_utc": "2026-10-13T17:38:18Z",
+      "detail_fetched_at_utc": "2026-10-13T22:50:37Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -2771,7 +3200,7 @@
       "team2_name": "Ryvex"
     },
     {
-      "detail_fetched_at_utc": "2026-10-13T17:38:23Z",
+      "detail_fetched_at_utc": "2026-10-13T22:50:41Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -2825,270 +3254,102 @@
       "team2_name": "Privateer"
     },
     {
-      "detail_fetched_at_utc": "2026-10-13T17:37:56Z",
-      "event_id": "hltv:cct-2026-south-america-series-7",
-      "event_name": "CCT 2026 South America Series 7",
+      "detail_fetched_at_utc": "2026-10-13T22:50:22Z",
+      "event_id": "hltv:esl-challenger-league-season-52-south-america-cup-3",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
       "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2399458",
+      "hltv_match_id": "2399204",
       "lineups": {
         "team1": [
           {
-            "hltv_player_id": "19086",
-            "nickname": "pavv",
-            "player_id": "hltv:19086",
-            "source_url": "https://www.hltv.org/player/19086/pavv",
-            "team_name": "Procyon"
+            "hltv_player_id": "19972",
+            "nickname": "ckzao",
+            "player_id": "hltv:19972",
+            "source_url": "https://www.hltv.org/player/19972/ckzao",
+            "team_name": "ex-Keyd Stars"
           },
           {
-            "hltv_player_id": "17997",
-            "nickname": "lenci",
-            "player_id": "hltv:17997",
-            "source_url": "https://www.hltv.org/player/17997/lenci",
-            "team_name": "Procyon"
+            "hltv_player_id": "22362",
+            "nickname": "xureba",
+            "player_id": "hltv:22362",
+            "source_url": "https://www.hltv.org/player/22362/xureba",
+            "team_name": "ex-Keyd Stars"
           },
           {
-            "hltv_player_id": "23549",
-            "nickname": "MaxOff",
-            "player_id": "hltv:23549",
-            "source_url": "https://www.hltv.org/player/23549/maxoff",
-            "team_name": "Procyon"
+            "hltv_player_id": "16645",
+            "nickname": "drg",
+            "player_id": "hltv:16645",
+            "source_url": "https://www.hltv.org/player/16645/drg",
+            "team_name": "ex-Keyd Stars"
           },
           {
-            "hltv_player_id": "18549",
-            "nickname": "laser",
-            "player_id": "hltv:18549",
-            "source_url": "https://www.hltv.org/player/18549/laser",
-            "team_name": "Procyon"
+            "hltv_player_id": "22956",
+            "nickname": "lash",
+            "player_id": "hltv:22956",
+            "source_url": "https://www.hltv.org/player/22956/lash",
+            "team_name": "ex-Keyd Stars"
           },
           {
-            "hltv_player_id": "25106",
-            "nickname": "next",
-            "player_id": "hltv:25106",
-            "source_url": "https://www.hltv.org/player/25106/next",
-            "team_name": "Procyon"
+            "hltv_player_id": "11922",
+            "nickname": "ALLE",
+            "player_id": "hltv:11922",
+            "source_url": "https://www.hltv.org/player/11922/alle",
+            "team_name": "ex-Keyd Stars"
           }
         ],
         "team2": [
           {
-            "hltv_player_id": "25993",
-            "nickname": "superex",
-            "player_id": "hltv:25993",
-            "source_url": "https://www.hltv.org/player/25993/superex",
-            "team_name": "Hacha"
+            "hltv_player_id": "9483",
+            "nickname": "destiny",
+            "player_id": "hltv:9483",
+            "source_url": "https://www.hltv.org/player/9483/destiny",
+            "team_name": "Galorys"
           },
           {
-            "hltv_player_id": "24557",
-            "nickname": "toto",
-            "player_id": "hltv:24557",
-            "source_url": "https://www.hltv.org/player/24557/toto",
-            "team_name": "Hacha"
+            "hltv_player_id": "18610",
+            "nickname": "detr0ittJ",
+            "player_id": "hltv:18610",
+            "source_url": "https://www.hltv.org/player/18610/detr0ittj",
+            "team_name": "Galorys"
           },
           {
-            "hltv_player_id": "24562",
-            "nickname": "Lucasye",
-            "player_id": "hltv:24562",
-            "source_url": "https://www.hltv.org/player/24562/lucasye",
-            "team_name": "Hacha"
+            "hltv_player_id": "23551",
+            "nickname": "tomate",
+            "player_id": "hltv:23551",
+            "source_url": "https://www.hltv.org/player/23551/tomate",
+            "team_name": "Galorys"
           },
           {
-            "hltv_player_id": "25262",
-            "nickname": "Rivo",
-            "player_id": "hltv:25262",
-            "source_url": "https://www.hltv.org/player/25262/rivo",
-            "team_name": "Hacha"
+            "hltv_player_id": "20522",
+            "nickname": "gbb",
+            "player_id": "hltv:20522",
+            "source_url": "https://www.hltv.org/player/20522/gbb",
+            "team_name": "Galorys"
           },
           {
-            "hltv_player_id": "25229",
-            "nickname": "BUSAN",
-            "player_id": "hltv:25229",
-            "source_url": "https://www.hltv.org/player/25229/busan",
-            "team_name": "Hacha"
+            "hltv_player_id": "6593",
+            "nickname": "PKL",
+            "player_id": "hltv:6593",
+            "source_url": "https://www.hltv.org/player/6593/pkl",
+            "team_name": "Galorys"
           }
         ]
       },
       "map_results": [
         {
-          "map_name": "Anubis",
-          "score1": 13,
-          "score2": 2,
+          "map_name": "Dust2",
+          "score1": 6,
+          "score2": 13,
           "status": "finished"
         },
         {
           "map_name": "Ancient",
-          "score1": 11,
-          "score2": 1,
-          "status": "finished"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Anubis",
-        "Ancient",
-        "Nuke"
-      ],
-      "match_id": "hltv:2399458",
-      "player_stats": [
-        {
-          "adr": 119.2,
-          "deaths": 4,
-          "hltv_player_id": "19086",
-          "kast": 100,
-          "kills": 20,
-          "nickname": "pavv",
-          "player_id": "hltv:19086",
-          "rating": 2.13,
-          "source_url": "https://www.hltv.org/player/19086/pavv",
-          "team_side": 1
-        },
-        {
-          "adr": 104.3,
-          "deaths": 10,
-          "hltv_player_id": "17997",
-          "kast": 100,
-          "kills": 12,
-          "nickname": "lenci",
-          "player_id": "hltv:17997",
-          "rating": 1.65,
-          "source_url": "https://www.hltv.org/player/17997/lenci",
-          "team_side": 1
-        },
-        {
-          "adr": 89.7,
-          "deaths": 4,
-          "hltv_player_id": "23549",
-          "kast": 86.7,
-          "kills": 16,
-          "nickname": "MaxOff",
-          "player_id": "hltv:23549",
-          "rating": 1.62,
-          "source_url": "https://www.hltv.org/player/23549/maxoff",
-          "team_side": 1
-        },
-        {
-          "adr": 77.6,
-          "deaths": 5,
-          "hltv_player_id": "18549",
-          "kast": 100,
-          "kills": 11,
-          "nickname": "laser",
-          "player_id": "hltv:18549",
-          "rating": 1.56,
-          "source_url": "https://www.hltv.org/player/18549/laser",
-          "team_side": 1
-        },
-        {
-          "adr": 77.8,
-          "deaths": 4,
-          "hltv_player_id": "25106",
-          "kast": 93.3,
-          "kills": 12,
-          "nickname": "next",
-          "player_id": "hltv:25106",
-          "rating": 1.22,
-          "source_url": "https://www.hltv.org/player/25106/next",
-          "team_side": 1
-        },
-        {
-          "adr": 54.4,
-          "deaths": 13,
-          "hltv_player_id": "25993",
-          "kast": 46.7,
-          "kills": 6,
-          "nickname": "superex",
-          "player_id": "hltv:25993",
-          "rating": 0.65,
-          "source_url": "https://www.hltv.org/player/25993/superex",
-          "team_side": 2
-        },
-        {
-          "adr": 50.6,
-          "deaths": 14,
-          "hltv_player_id": "24557",
-          "kast": 40,
-          "kills": 7,
-          "nickname": "toto",
-          "player_id": "hltv:24557",
-          "rating": 0.61,
-          "source_url": "https://www.hltv.org/player/24557/toto",
-          "team_side": 2
-        },
-        {
-          "adr": 49.7,
-          "deaths": 14,
-          "hltv_player_id": "24562",
-          "kast": 40,
-          "kills": 7,
-          "nickname": "Lucasye",
-          "player_id": "hltv:24562",
-          "rating": 0.57,
-          "source_url": "https://www.hltv.org/player/24562/lucasye",
-          "team_side": 2
-        },
-        {
-          "adr": 60.4,
-          "deaths": 15,
-          "hltv_player_id": "25262",
-          "kast": 53.3,
-          "kills": 4,
-          "nickname": "Rivo",
-          "player_id": "hltv:25262",
-          "rating": 0.49,
-          "source_url": "https://www.hltv.org/player/25262/rivo",
-          "team_side": 2
-        },
-        {
-          "adr": 33.7,
-          "deaths": 15,
-          "hltv_player_id": "25229",
-          "kast": 26.7,
-          "kills": 3,
-          "nickname": "BUSAN",
-          "player_id": "hltv:25229",
-          "rating": 0.25,
-          "source_url": "https://www.hltv.org/player/25229/busan",
-          "team_side": 2
-        }
-      ],
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399458/procyon-vs-hacha-cct-2026-south-america-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_name": "Procyon",
-      "team2_name": "Hacha",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
-    },
-    {
-      "detail_fetched_at_utc": "2026-10-13T17:38:00Z",
-      "event_id": "hltv:cct-2026-europe-series-11",
-      "event_name": "CCT 2026 Europe Series 11",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2399297",
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": 8,
-          "score2": 4,
+          "score1": 5,
+          "score2": 7,
           "status": "finished"
         },
         {
           "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Nuke",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -3096,102 +3357,644 @@
       ],
       "maps": [
         "Dust2",
-        "Anubis",
-        "Nuke"
+        "Ancient",
+        "Anubis"
       ],
-      "match_id": "hltv:2399297",
+      "match_id": "hltv:2399204",
+      "player_stats": [
+        {
+          "adr": 91.6,
+          "deaths": 16,
+          "hltv_player_id": "19972",
+          "kast": 68.4,
+          "kills": 18,
+          "nickname": "ckzao",
+          "player_id": "hltv:19972",
+          "rating": 1.08,
+          "source_url": "https://www.hltv.org/player/19972/ckzao",
+          "team_side": 1
+        },
+        {
+          "adr": 69.4,
+          "deaths": 14,
+          "hltv_player_id": "22362",
+          "kast": 68.4,
+          "kills": 11,
+          "nickname": "xureba",
+          "player_id": "hltv:22362",
+          "rating": 0.99,
+          "source_url": "https://www.hltv.org/player/22362/xureba",
+          "team_side": 1
+        },
+        {
+          "adr": 75.8,
+          "deaths": 16,
+          "hltv_player_id": "16645",
+          "kast": 57.9,
+          "kills": 9,
+          "nickname": "drg",
+          "player_id": "hltv:16645",
+          "rating": 0.89,
+          "source_url": "https://www.hltv.org/player/16645/drg",
+          "team_side": 1
+        },
+        {
+          "adr": 46,
+          "deaths": 13,
+          "hltv_player_id": "22956",
+          "kast": 73.7,
+          "kills": 10,
+          "nickname": "lash",
+          "player_id": "hltv:22956",
+          "rating": 0.66,
+          "source_url": "https://www.hltv.org/player/22956/lash",
+          "team_side": 1
+        },
+        {
+          "adr": 46.7,
+          "deaths": 15,
+          "hltv_player_id": "11922",
+          "kast": 57.9,
+          "kills": 7,
+          "nickname": "ALLE",
+          "player_id": "hltv:11922",
+          "rating": 0.64,
+          "source_url": "https://www.hltv.org/player/11922/alle",
+          "team_side": 1
+        },
+        {
+          "adr": 106.2,
+          "deaths": 11,
+          "hltv_player_id": "9483",
+          "kast": 84.2,
+          "kills": 21,
+          "nickname": "destiny",
+          "player_id": "hltv:9483",
+          "rating": 1.91,
+          "source_url": "https://www.hltv.org/player/9483/destiny",
+          "team_side": 2
+        },
+        {
+          "adr": 82.6,
+          "deaths": 10,
+          "hltv_player_id": "18610",
+          "kast": 73.7,
+          "kills": 17,
+          "nickname": "detr0ittJ",
+          "player_id": "hltv:18610",
+          "rating": 1.44,
+          "source_url": "https://www.hltv.org/player/18610/detr0ittj",
+          "team_side": 2
+        },
+        {
+          "adr": 68.5,
+          "deaths": 9,
+          "hltv_player_id": "23551",
+          "kast": 89.5,
+          "kills": 11,
+          "nickname": "tomate",
+          "player_id": "hltv:23551",
+          "rating": 1.24,
+          "source_url": "https://www.hltv.org/player/23551/tomate",
+          "team_side": 2
+        },
+        {
+          "adr": 82.1,
+          "deaths": 13,
+          "hltv_player_id": "20522",
+          "kast": 78.9,
+          "kills": 13,
+          "nickname": "gbb",
+          "player_id": "hltv:20522",
+          "rating": 1.14,
+          "source_url": "https://www.hltv.org/player/20522/gbb",
+          "team_side": 2
+        },
+        {
+          "adr": 63.7,
+          "deaths": 12,
+          "hltv_player_id": "6593",
+          "kast": 78.9,
+          "kills": 12,
+          "nickname": "PKL",
+          "player_id": "hltv:6593",
+          "rating": 1.12,
+          "source_url": "https://www.hltv.org/player/6593/pkl",
+          "team_side": 2
+        }
+      ],
       "product_tier": "tier_2",
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399297/black-phoenix-vs-6666-cct-2026-europe-series-11",
+      "source_url": "https://www.hltv.org/matches/2399204/ex-keyd-stars-vs-galorys-esl-challenger-league-season-52-south-america-cup-3",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
-      "team1_name": "Black Phoenix",
-      "team2_name": "6666",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+      "team1_name": "ex-Keyd Stars",
+      "team2_name": "Galorys",
+      "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
     }
   ],
   "ok": true,
   "players": [
     {
-      "form_timeline": [],
-      "hltv_player_id": "19086",
-      "nickname": "pavv",
-      "player_id": "hltv:19086",
-      "source_url": "https://www.hltv.org/player/19086/pavv",
-      "team_name": "Procyon"
+      "form_timeline": [
+        {
+          "adr": 69.1,
+          "date": "2026-10-13",
+          "deaths": 40,
+          "event_name": "CCT 2026 South America Series 7",
+          "kast": 71,
+          "kd_ratio": 1.23,
+          "kills": 49,
+          "maps": 3,
+          "match_id": "hltv:2399459",
+          "opponent_name": "LOS NINOS",
+          "rating": 1.11,
+          "team_name": "Grêmio",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "16661",
+      "maps_3m": 3,
+      "nickname": "MITHPUTTINI",
+      "player_id": "hltv:16661",
+      "rating_3_0": 1.11,
+      "signal_index": 61,
+      "source_url": "https://www.hltv.org/player/16661/mithputtini",
+      "team_name": "Grêmio",
+      "timeline_entry": {
+        "adr": 69.1,
+        "date": "2026-10-13",
+        "deaths": 40,
+        "event_name": "CCT 2026 South America Series 7",
+        "kast": 71,
+        "kd_ratio": 1.23,
+        "kills": 49,
+        "maps": 3,
+        "match_id": "hltv:2399459",
+        "opponent_name": "LOS NINOS",
+        "rating": 1.11,
+        "team_name": "Grêmio",
+        "won": false
+      }
+    },
+    {
+      "form_timeline": [
+        {
+          "adr": 50.4,
+          "date": "2026-10-13",
+          "deaths": 51,
+          "event_name": "CCT 2026 South America Series 7",
+          "kast": 62.3,
+          "kd_ratio": 0.55,
+          "kills": 28,
+          "maps": 3,
+          "match_id": "hltv:2399459",
+          "opponent_name": "LOS NINOS",
+          "rating": 0.63,
+          "team_name": "Grêmio",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "25464",
+      "maps_3m": 3,
+      "nickname": "yeda",
+      "player_id": "hltv:25464",
+      "rating_3_0": 0.63,
+      "signal_index": 13,
+      "source_url": "https://www.hltv.org/player/25464/yeda",
+      "team_name": "Grêmio",
+      "timeline_entry": {
+        "adr": 50.4,
+        "date": "2026-10-13",
+        "deaths": 51,
+        "event_name": "CCT 2026 South America Series 7",
+        "kast": 62.3,
+        "kd_ratio": 0.55,
+        "kills": 28,
+        "maps": 3,
+        "match_id": "hltv:2399459",
+        "opponent_name": "LOS NINOS",
+        "rating": 0.63,
+        "team_name": "Grêmio",
+        "won": false
+      }
+    },
+    {
+      "form_timeline": [
+        {
+          "adr": 90.2,
+          "date": "2026-10-13",
+          "deaths": 46,
+          "event_name": "CCT 2026 South America Series 7",
+          "kast": 78.3,
+          "kd_ratio": 1.33,
+          "kills": 61,
+          "maps": 3,
+          "match_id": "hltv:2399459",
+          "opponent_name": "LOS NINOS",
+          "rating": 1.37,
+          "team_name": "Grêmio",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "25465",
+      "maps_3m": 3,
+      "nickname": "balencyy",
+      "player_id": "hltv:25465",
+      "rating_3_0": 1.37,
+      "signal_index": 87,
+      "source_url": "https://www.hltv.org/player/25465/balencyy",
+      "team_name": "Grêmio",
+      "timeline_entry": {
+        "adr": 90.2,
+        "date": "2026-10-13",
+        "deaths": 46,
+        "event_name": "CCT 2026 South America Series 7",
+        "kast": 78.3,
+        "kd_ratio": 1.33,
+        "kills": 61,
+        "maps": 3,
+        "match_id": "hltv:2399459",
+        "opponent_name": "LOS NINOS",
+        "rating": 1.37,
+        "team_name": "Grêmio",
+        "won": false
+      }
+    },
+    {
+      "form_timeline": [
+        {
+          "adr": 91.2,
+          "date": "2026-10-13",
+          "deaths": 44,
+          "event_name": "CCT 2026 South America Series 7",
+          "kast": 79.7,
+          "kd_ratio": 1.16,
+          "kills": 51,
+          "maps": 3,
+          "match_id": "hltv:2399459",
+          "opponent_name": "LOS NINOS",
+          "rating": 1.3,
+          "team_name": "Grêmio",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "25553",
+      "maps_3m": 3,
+      "nickname": "s1lent",
+      "player_id": "hltv:25553",
+      "rating_3_0": 1.3,
+      "signal_index": 80,
+      "source_url": "https://www.hltv.org/player/25553/s1lent",
+      "team_name": "Grêmio",
+      "timeline_entry": {
+        "adr": 91.2,
+        "date": "2026-10-13",
+        "deaths": 44,
+        "event_name": "CCT 2026 South America Series 7",
+        "kast": 79.7,
+        "kd_ratio": 1.16,
+        "kills": 51,
+        "maps": 3,
+        "match_id": "hltv:2399459",
+        "opponent_name": "LOS NINOS",
+        "rating": 1.3,
+        "team_name": "Grêmio",
+        "won": false
+      }
+    },
+    {
+      "form_timeline": [
+        {
+          "adr": 65.9,
+          "date": "2026-10-13",
+          "deaths": 48,
+          "event_name": "CCT 2026 South America Series 7",
+          "kast": 75.4,
+          "kd_ratio": 0.88,
+          "kills": 42,
+          "maps": 3,
+          "match_id": "hltv:2399459",
+          "opponent_name": "LOS NINOS",
+          "rating": 0.91,
+          "team_name": "Grêmio",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "22140",
+      "maps_3m": 3,
+      "nickname": "souz4h",
+      "player_id": "hltv:22140",
+      "rating_3_0": 0.91,
+      "signal_index": 41,
+      "source_url": "https://www.hltv.org/player/22140/souz4h",
+      "team_name": "Grêmio",
+      "timeline_entry": {
+        "adr": 65.9,
+        "date": "2026-10-13",
+        "deaths": 48,
+        "event_name": "CCT 2026 South America Series 7",
+        "kast": 75.4,
+        "kd_ratio": 0.88,
+        "kills": 42,
+        "maps": 3,
+        "match_id": "hltv:2399459",
+        "opponent_name": "LOS NINOS",
+        "rating": 0.91,
+        "team_name": "Grêmio",
+        "won": false
+      }
+    },
+    {
+      "form_timeline": [
+        {
+          "adr": 80.8,
+          "date": "2026-10-13",
+          "deaths": 46,
+          "event_name": "CCT 2026 South America Series 7",
+          "kast": 76.8,
+          "kd_ratio": 1.02,
+          "kills": 47,
+          "maps": 3,
+          "match_id": "hltv:2399459",
+          "opponent_name": "Grêmio",
+          "rating": 1.21,
+          "team_name": "LOS NINOS",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "23740",
+      "maps_3m": 3,
+      "nickname": "PremiuM",
+      "player_id": "hltv:23740",
+      "rating_3_0": 1.21,
+      "signal_index": 71,
+      "source_url": "https://www.hltv.org/player/23740/premium",
+      "team_name": "LOS NINOS",
+      "timeline_entry": {
+        "adr": 80.8,
+        "date": "2026-10-13",
+        "deaths": 46,
+        "event_name": "CCT 2026 South America Series 7",
+        "kast": 76.8,
+        "kd_ratio": 1.02,
+        "kills": 47,
+        "maps": 3,
+        "match_id": "hltv:2399459",
+        "opponent_name": "Grêmio",
+        "rating": 1.21,
+        "team_name": "LOS NINOS",
+        "won": true
+      }
+    },
+    {
+      "form_timeline": [
+        {
+          "adr": 61.1,
+          "date": "2026-10-13",
+          "deaths": 47,
+          "event_name": "CCT 2026 South America Series 7",
+          "kast": 68.1,
+          "kd_ratio": 0.83,
+          "kills": 39,
+          "maps": 3,
+          "match_id": "hltv:2399459",
+          "opponent_name": "Grêmio",
+          "rating": 0.9,
+          "team_name": "LOS NINOS",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "24641",
+      "maps_3m": 3,
+      "nickname": "protado",
+      "player_id": "hltv:24641",
+      "rating_3_0": 0.9,
+      "signal_index": 40,
+      "source_url": "https://www.hltv.org/player/24641/protado",
+      "team_name": "LOS NINOS",
+      "timeline_entry": {
+        "adr": 61.1,
+        "date": "2026-10-13",
+        "deaths": 47,
+        "event_name": "CCT 2026 South America Series 7",
+        "kast": 68.1,
+        "kd_ratio": 0.83,
+        "kills": 39,
+        "maps": 3,
+        "match_id": "hltv:2399459",
+        "opponent_name": "Grêmio",
+        "rating": 0.9,
+        "team_name": "LOS NINOS",
+        "won": true
+      }
+    },
+    {
+      "form_timeline": [
+        {
+          "adr": 74.5,
+          "date": "2026-10-13",
+          "deaths": 54,
+          "event_name": "CCT 2026 South America Series 7",
+          "kast": 68.1,
+          "kd_ratio": 0.81,
+          "kills": 44,
+          "maps": 3,
+          "match_id": "hltv:2399459",
+          "opponent_name": "Grêmio",
+          "rating": 0.95,
+          "team_name": "LOS NINOS",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "21038",
+      "maps_3m": 3,
+      "nickname": "Reix",
+      "player_id": "hltv:21038",
+      "rating_3_0": 0.95,
+      "signal_index": 45,
+      "source_url": "https://www.hltv.org/player/21038/reix",
+      "team_name": "LOS NINOS",
+      "timeline_entry": {
+        "adr": 74.5,
+        "date": "2026-10-13",
+        "deaths": 54,
+        "event_name": "CCT 2026 South America Series 7",
+        "kast": 68.1,
+        "kd_ratio": 0.81,
+        "kills": 44,
+        "maps": 3,
+        "match_id": "hltv:2399459",
+        "opponent_name": "Grêmio",
+        "rating": 0.95,
+        "team_name": "LOS NINOS",
+        "won": true
+      }
+    },
+    {
+      "form_timeline": [
+        {
+          "adr": 76.4,
+          "date": "2026-10-13",
+          "deaths": 43,
+          "event_name": "CCT 2026 South America Series 7",
+          "kast": 73.9,
+          "kd_ratio": 1.21,
+          "kills": 52,
+          "maps": 3,
+          "match_id": "hltv:2399459",
+          "opponent_name": "Grêmio",
+          "rating": 1.04,
+          "team_name": "LOS NINOS",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "24296",
+      "maps_3m": 3,
+      "nickname": "aNgelo",
+      "player_id": "hltv:24296",
+      "rating_3_0": 1.04,
+      "signal_index": 54,
+      "source_url": "https://www.hltv.org/player/24296/angelo",
+      "team_name": "LOS NINOS",
+      "timeline_entry": {
+        "adr": 76.4,
+        "date": "2026-10-13",
+        "deaths": 43,
+        "event_name": "CCT 2026 South America Series 7",
+        "kast": 73.9,
+        "kd_ratio": 1.21,
+        "kills": 52,
+        "maps": 3,
+        "match_id": "hltv:2399459",
+        "opponent_name": "Grêmio",
+        "rating": 1.04,
+        "team_name": "LOS NINOS",
+        "won": true
+      }
+    },
+    {
+      "form_timeline": [
+        {
+          "adr": 72.7,
+          "date": "2026-10-13",
+          "deaths": 44,
+          "event_name": "CCT 2026 South America Series 7",
+          "kast": 82.6,
+          "kd_ratio": 1.05,
+          "kills": 46,
+          "maps": 3,
+          "match_id": "hltv:2399459",
+          "opponent_name": "Grêmio",
+          "rating": 1.08,
+          "team_name": "LOS NINOS",
+          "won": true
+        }
+      ],
+      "hltv_player_id": "25552",
+      "maps_3m": 3,
+      "nickname": "space",
+      "player_id": "hltv:25552",
+      "rating_3_0": 1.08,
+      "signal_index": 58,
+      "source_url": "https://www.hltv.org/player/25552/space",
+      "team_name": "LOS NINOS",
+      "timeline_entry": {
+        "adr": 72.7,
+        "date": "2026-10-13",
+        "deaths": 44,
+        "event_name": "CCT 2026 South America Series 7",
+        "kast": 82.6,
+        "kd_ratio": 1.05,
+        "kills": 46,
+        "maps": 3,
+        "match_id": "hltv:2399459",
+        "opponent_name": "Grêmio",
+        "rating": 1.08,
+        "team_name": "LOS NINOS",
+        "won": true
+      }
     },
     {
       "form_timeline": [],
-      "hltv_player_id": "17997",
-      "nickname": "lenci",
-      "player_id": "hltv:17997",
-      "source_url": "https://www.hltv.org/player/17997/lenci",
-      "team_name": "Procyon"
+      "hltv_player_id": "19972",
+      "nickname": "ckzao",
+      "player_id": "hltv:19972",
+      "source_url": "https://www.hltv.org/player/19972/ckzao",
+      "team_name": "ex-Keyd Stars"
     },
     {
       "form_timeline": [],
-      "hltv_player_id": "23549",
-      "nickname": "MaxOff",
-      "player_id": "hltv:23549",
-      "source_url": "https://www.hltv.org/player/23549/maxoff",
-      "team_name": "Procyon"
+      "hltv_player_id": "22362",
+      "nickname": "xureba",
+      "player_id": "hltv:22362",
+      "source_url": "https://www.hltv.org/player/22362/xureba",
+      "team_name": "ex-Keyd Stars"
     },
     {
       "form_timeline": [],
-      "hltv_player_id": "18549",
-      "nickname": "laser",
-      "player_id": "hltv:18549",
-      "source_url": "https://www.hltv.org/player/18549/laser",
-      "team_name": "Procyon"
+      "hltv_player_id": "16645",
+      "nickname": "drg",
+      "player_id": "hltv:16645",
+      "source_url": "https://www.hltv.org/player/16645/drg",
+      "team_name": "ex-Keyd Stars"
     },
     {
       "form_timeline": [],
-      "hltv_player_id": "25106",
-      "nickname": "next",
-      "player_id": "hltv:25106",
-      "source_url": "https://www.hltv.org/player/25106/next",
-      "team_name": "Procyon"
+      "hltv_player_id": "22956",
+      "nickname": "lash",
+      "player_id": "hltv:22956",
+      "source_url": "https://www.hltv.org/player/22956/lash",
+      "team_name": "ex-Keyd Stars"
     },
     {
       "form_timeline": [],
-      "hltv_player_id": "25993",
-      "nickname": "superex",
-      "player_id": "hltv:25993",
-      "source_url": "https://www.hltv.org/player/25993/superex",
-      "team_name": "Hacha"
+      "hltv_player_id": "11922",
+      "nickname": "ALLE",
+      "player_id": "hltv:11922",
+      "source_url": "https://www.hltv.org/player/11922/alle",
+      "team_name": "ex-Keyd Stars"
     },
     {
       "form_timeline": [],
-      "hltv_player_id": "24557",
-      "nickname": "toto",
-      "player_id": "hltv:24557",
-      "source_url": "https://www.hltv.org/player/24557/toto",
-      "team_name": "Hacha"
+      "hltv_player_id": "9483",
+      "nickname": "destiny",
+      "player_id": "hltv:9483",
+      "source_url": "https://www.hltv.org/player/9483/destiny",
+      "team_name": "Galorys"
     },
     {
       "form_timeline": [],
-      "hltv_player_id": "24562",
-      "nickname": "Lucasye",
-      "player_id": "hltv:24562",
-      "source_url": "https://www.hltv.org/player/24562/lucasye",
-      "team_name": "Hacha"
+      "hltv_player_id": "18610",
+      "nickname": "detr0ittJ",
+      "player_id": "hltv:18610",
+      "source_url": "https://www.hltv.org/player/18610/detr0ittj",
+      "team_name": "Galorys"
     },
     {
       "form_timeline": [],
-      "hltv_player_id": "25262",
-      "nickname": "Rivo",
-      "player_id": "hltv:25262",
-      "source_url": "https://www.hltv.org/player/25262/rivo",
-      "team_name": "Hacha"
+      "hltv_player_id": "23551",
+      "nickname": "tomate",
+      "player_id": "hltv:23551",
+      "source_url": "https://www.hltv.org/player/23551/tomate",
+      "team_name": "Galorys"
     },
     {
       "form_timeline": [],
-      "hltv_player_id": "25229",
-      "nickname": "BUSAN",
-      "player_id": "hltv:25229",
-      "source_url": "https://www.hltv.org/player/25229/busan",
-      "team_name": "Hacha"
+      "hltv_player_id": "20522",
+      "nickname": "gbb",
+      "player_id": "hltv:20522",
+      "source_url": "https://www.hltv.org/player/20522/gbb",
+      "team_name": "Galorys"
+    },
+    {
+      "form_timeline": [],
+      "hltv_player_id": "6593",
+      "nickname": "PKL",
+      "player_id": "hltv:6593",
+      "source_url": "https://www.hltv.org/player/6593/pkl",
+      "team_name": "Galorys"
     }
   ],
   "poll_after_ms": 300000,
@@ -3210,21 +4013,18 @@
       "tier_1",
       "tier_2"
     ],
-    "events_kept": 16,
-    "matches_kept": 58,
-    "players_kept": 10,
+    "events_kept": 13,
+    "matches_kept": 51,
+    "players_kept": 20,
     "event_tiers": {
-      "hltv:esl-challenger-league-season-52-south-america-cup-3": "tier_2",
       "hltv:esl-challenger-league-season-52-north-america-cup-3": "tier_2",
       "hltv:cct-2026-europe-series-11-closed-qualifier": "tier_2",
       "hltv:esl-pro-league-season-24": "tier_1",
       "hltv:esl-challenger-league-season-52-asia-pacific-cup-3": "tier_2",
+      "hltv:esl-challenger-league-season-52-south-america-cup-3": "tier_2",
       "hltv:esl-challenger-league-season-52-oceania-cup-3": "tier_2",
       "hltv:cct-2026-europe-series-11": "tier_2",
       "hltv:cct-2026-south-america-series-7": "tier_2",
-      "hltv:9452": "tier_2",
-      "hltv:9385": "tier_2",
-      "hltv:9387": "tier_2",
       "hltv:9442": "tier_2",
       "hltv:9456": "tier_2",
       "hltv:thunderpick-world-championship-2026": "tier_2",
@@ -3232,12 +4032,6 @@
       "hltv:9383": "tier_2"
     },
     "eligible_match_ids": [
-      "hltv:2399199",
-      "hltv:2399198",
-      "hltv:2399196",
-      "hltv:2399197",
-      "hltv:2399227",
-      "hltv:2399224",
       "hltv:2399226",
       "hltv:2399225",
       "hltv:2399286",
@@ -3270,10 +4064,10 @@
       "hltv:2399296",
       "hltv:2399457",
       "hltv:2399174",
-      "hltv:2399459",
-      "hltv:2399204",
+      "hltv:2399458",
+      "hltv:2399297",
       "hltv:2399460",
-      "hltv:2399232",
+      "hltv:2399459",
       "hltv:2399298",
       "hltv:2399461",
       "hltv:2399384",
@@ -3288,8 +4082,7 @@
       "hltv:2399387",
       "hltv:2399301",
       "hltv:2399471",
-      "hltv:2399458",
-      "hltv:2399297"
+      "hltv:2399204"
     ]
   }
 }
