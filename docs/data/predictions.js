@@ -3,385 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "event_id": "hltv:roman-imperium-cup-ix",
-        "event_name": "Roman Imperium Cup IX",
-        "hltv_match_id": "2399029",
-        "match_id": "hltv:2399029",
-        "product_tier": "tier_2",
-        "score1": 13,
-        "score2": 11,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399029/rbls-vs-navi-junior-roman-imperium-cup-ix",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-07T17:30:52Z",
-        "status": "finished",
-        "team1_name": "RBLS",
-        "team2_name": "NAVI Junior",
-        "winner_name": "RBLS"
-      },
-      {
-        "detail_fetched_at_utc": "2026-10-07T16:35:16Z",
-        "event_id": "hltv:esl-pro-league-season-24",
-        "event_name": "ESL Pro League Season 24",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2398748",
-        "lineups": {
-          "team1": [
-            {
-              "hltv_player_id": "22471",
-              "nickname": "xiELO",
-              "player_id": "hltv:22471",
-              "source_url": "https://www.hltv.org/player/22471/xielo",
-              "team_name": "PARIVISION"
-            },
-            {
-              "hltv_player_id": "23685",
-              "nickname": "zweih",
-              "player_id": "hltv:23685",
-              "source_url": "https://www.hltv.org/player/23685/zweih",
-              "team_name": "PARIVISION"
-            },
-            {
-              "hltv_player_id": "8528",
-              "nickname": "HObbit",
-              "player_id": "hltv:8528",
-              "source_url": "https://www.hltv.org/player/8528/hobbit",
-              "team_name": "PARIVISION"
-            },
-            {
-              "hltv_player_id": "12732",
-              "nickname": "FL1T",
-              "player_id": "hltv:12732",
-              "source_url": "https://www.hltv.org/player/12732/fl1t",
-              "team_name": "PARIVISION"
-            },
-            {
-              "hltv_player_id": "13776",
-              "nickname": "Jame",
-              "player_id": "hltv:13776",
-              "source_url": "https://www.hltv.org/player/13776/jame",
-              "team_name": "PARIVISION"
-            }
-          ],
-          "team2": [
-            {
-              "hltv_player_id": "14759",
-              "nickname": "iM",
-              "player_id": "hltv:14759",
-              "source_url": "https://www.hltv.org/player/14759/im",
-              "team_name": "Natus Vincere"
-            },
-            {
-              "hltv_player_id": "20127",
-              "nickname": "w0nderful",
-              "player_id": "hltv:20127",
-              "source_url": "https://www.hltv.org/player/20127/w0nderful",
-              "team_name": "Natus Vincere"
-            },
-            {
-              "hltv_player_id": "9816",
-              "nickname": "Aleksib",
-              "player_id": "hltv:9816",
-              "source_url": "https://www.hltv.org/player/9816/aleksib",
-              "team_name": "Natus Vincere"
-            },
-            {
-              "hltv_player_id": "22673",
-              "nickname": "makazze",
-              "player_id": "hltv:22673",
-              "source_url": "https://www.hltv.org/player/22673/makazze",
-              "team_name": "Natus Vincere"
-            },
-            {
-              "hltv_player_id": "18987",
-              "nickname": "b1t",
-              "player_id": "hltv:18987",
-              "source_url": "https://www.hltv.org/player/18987/b1t",
-              "team_name": "Natus Vincere"
-            }
-          ]
-        },
-        "map_results": [
-          {
-            "map_name": "Inferno",
-            "score1": 8,
-            "score2": 13,
-            "status": "finished"
-          },
-          {
-            "map_name": "Cache",
-            "score1": 8,
-            "score2": 4,
-            "status": "finished"
-          },
-          {
-            "map_name": "Mirage",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [
-          "Inferno",
-          "Cache",
-          "Mirage"
-        ],
-        "match_id": "hltv:2398748",
-        "player_stats": [
-          {
-            "adr": 99.3,
-            "deaths": 15,
-            "hltv_player_id": "22471",
-            "kast": 85.7,
-            "kills": 17,
-            "nickname": "xiELO",
-            "player_id": "hltv:22471",
-            "rating": 1.26,
-            "source_url": "https://www.hltv.org/player/22471/xielo",
-            "team_side": 1
-          },
-          {
-            "adr": 79.8,
-            "deaths": 14,
-            "hltv_player_id": "23685",
-            "kast": 81,
-            "kills": 15,
-            "nickname": "zweih",
-            "player_id": "hltv:23685",
-            "rating": 1.19,
-            "source_url": "https://www.hltv.org/player/23685/zweih",
-            "team_side": 1
-          },
-          {
-            "adr": 67.5,
-            "deaths": 15,
-            "hltv_player_id": "8528",
-            "kast": 57.1,
-            "kills": 12,
-            "nickname": "HObbit",
-            "player_id": "hltv:8528",
-            "rating": 0.88,
-            "source_url": "https://www.hltv.org/player/8528/hobbit",
-            "team_side": 1
-          },
-          {
-            "adr": 63.2,
-            "deaths": 16,
-            "hltv_player_id": "12732",
-            "kast": 81,
-            "kills": 14,
-            "nickname": "FL1T",
-            "player_id": "hltv:12732",
-            "rating": 0.79,
-            "source_url": "https://www.hltv.org/player/12732/fl1t",
-            "team_side": 1
-          },
-          {
-            "adr": 53.1,
-            "deaths": 14,
-            "hltv_player_id": "13776",
-            "kast": 76.2,
-            "kills": 12,
-            "nickname": "Jame",
-            "player_id": "hltv:13776",
-            "rating": 0.79,
-            "source_url": "https://www.hltv.org/player/13776/jame",
-            "team_side": 1
-          },
-          {
-            "adr": 110,
-            "deaths": 16,
-            "hltv_player_id": "14759",
-            "kast": 71.4,
-            "kills": 21,
-            "nickname": "iM",
-            "player_id": "hltv:14759",
-            "rating": 1.74,
-            "source_url": "https://www.hltv.org/player/14759/im",
-            "team_side": 2
-          },
-          {
-            "adr": 76.4,
-            "deaths": 14,
-            "hltv_player_id": "20127",
-            "kast": 85.7,
-            "kills": 17,
-            "nickname": "w0nderful",
-            "player_id": "hltv:20127",
-            "rating": 1.24,
-            "source_url": "https://www.hltv.org/player/20127/w0nderful",
-            "team_side": 2
-          },
-          {
-            "adr": 60.6,
-            "deaths": 13,
-            "hltv_player_id": "9816",
-            "kast": 71.4,
-            "kills": 10,
-            "nickname": "Aleksib",
-            "player_id": "hltv:9816",
-            "rating": 1.06,
-            "source_url": "https://www.hltv.org/player/9816/aleksib",
-            "team_side": 2
-          },
-          {
-            "adr": 60,
-            "deaths": 14,
-            "hltv_player_id": "22673",
-            "kast": 76.2,
-            "kills": 13,
-            "nickname": "makazze",
-            "player_id": "hltv:22673",
-            "rating": 1.05,
-            "source_url": "https://www.hltv.org/player/22673/makazze",
-            "team_side": 2
-          },
-          {
-            "adr": 66.5,
-            "deaths": 13,
-            "hltv_player_id": "18987",
-            "kast": 76.2,
-            "kills": 13,
-            "nickname": "b1t",
-            "player_id": "hltv:18987",
-            "rating": 1.04,
-            "source_url": "https://www.hltv.org/player/18987/b1t",
-            "team_side": 2
-          }
-        ],
-        "product_tier": "tier_1",
-        "score1": 2,
-        "score2": 1,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2398748/parivision-vs-natus-vincere-esl-pro-league-season-24",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-07T17:47:49Z",
-        "status": "finished",
-        "team1_name": "PARIVISION",
-        "team2_name": "Natus Vincere",
-        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated.",
-        "winner_name": "PARIVISION"
-      },
-      {
-        "event_id": "hltv:roman-imperium-cup-ix",
-        "event_name": "Roman Imperium Cup IX",
-        "hltv_match_id": "2399032",
-        "match_id": "hltv:2399032",
-        "product_tier": "tier_2",
-        "score1": 13,
-        "score2": 6,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399032/sangal-vs-rbls-roman-imperium-cup-ix",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-07T18:25:43Z",
-        "status": "finished",
-        "team1_name": "Sangal",
-        "team2_name": "RBLS",
-        "winner_name": "Sangal"
-      },
-      {
-        "event_id": "hltv:roman-imperium-cup-ix",
-        "event_name": "Roman Imperium Cup IX",
-        "hltv_match_id": "2399031",
-        "match_id": "hltv:2399031",
-        "product_tier": "tier_2",
-        "score1": 13,
-        "score2": 10,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399031/saw-vs-lazer-cats-roman-imperium-cup-ix",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-07T18:34:07Z",
-        "status": "finished",
-        "team1_name": "SAW",
-        "team2_name": "Lazer Cats",
-        "winner_name": "SAW"
-      },
-      {
-        "event_id": "hltv:roman-imperium-cup-ix",
-        "event_name": "Roman Imperium Cup IX",
-        "hltv_match_id": "2399033",
-        "match_id": "hltv:2399033",
-        "product_tier": "tier_2",
-        "score1": 9,
-        "score2": 13,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399033/famalico-vs-navi-junior-roman-imperium-cup-ix",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-07T18:39:24Z",
-        "status": "finished",
-        "team1_name": "Famalic\u00e3o",
-        "team2_name": "NAVI Junior",
-        "winner_name": "NAVI Junior"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-8",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 8",
-        "hltv_match_id": "2399357",
-        "match_id": "hltv:2399357",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399357/maybe-vs-ence-esl-challenger-league-season-52-europe-cup-8",
-        "stage_name": "Completed series",
-        "starts_at": "2026-10-07T18:43:35Z",
-        "status": "finished",
-        "team1_name": "MAYBE",
-        "team2_name": "ENCE",
-        "winner_name": "ENCE"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-8",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 8",
-        "hltv_match_id": "2399354",
-        "match_id": "hltv:2399354",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399354/berg-vs-leo-esl-challenger-league-season-52-europe-cup-8",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-07T19:02:13Z",
-        "status": "finished",
-        "team1_name": "BERG",
-        "team2_name": "Leo",
-        "winner_name": "Leo"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-8",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 8",
-        "hltv_match_id": "2399355",
-        "match_id": "hltv:2399355",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399355/ryvex-vs-mellren-esl-challenger-league-season-52-europe-cup-8",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-07T19:13:48Z",
-        "status": "finished",
-        "team1_name": "Ryvex",
-        "team2_name": "mellren",
-        "winner_name": "mellren"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-8",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 8",
-        "hltv_match_id": "2399353",
-        "match_id": "hltv:2399353",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399353/revise-vs-banda-chuya-esl-challenger-league-season-52-europe-cup-8",
-        "stage_name": "Completed series",
-        "starts_at": "2026-10-07T19:15:11Z",
-        "status": "finished",
-        "team1_name": "Revise",
-        "team2_name": "Banda Chuya",
-        "winner_name": "Banda Chuya"
-      },
-      {
         "event_id": "hltv:esl-challenger-league-season-52-europe-cup-8",
         "event_name": "ESL Challenger League Season 52 Europe Cup 8",
         "hltv_match_id": "2399350",
@@ -13625,14 +13246,17 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "match_id": "hltv:2399230",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399230/chicken-coop-vs-zomblers-esl-challenger-league-season-52-north-america-cup-3",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-10-13T01:00:00Z",
-        "status": "live",
+        "starts_at": "2026-10-13T02:38:55Z",
+        "status": "finished",
         "team1_name": "Chicken Coop",
         "team2_name": "Zomblers",
-        "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
+        "veto_text": "Best of 3 (Online)\n\n* Upper bracket final",
+        "winner_name": "Chicken Coop"
       },
       {
         "detail_fetched_at_utc": "2026-10-13T01:48:12Z",
@@ -13671,42 +13295,303 @@ window.__STRIKESIGNAL_DATA__ = {
         ],
         "match_id": "hltv:2399231",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399231/overtake-sector-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-3",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-10-13T01:00:00Z",
-        "status": "live",
+        "starts_at": "2026-10-13T03:02:07Z",
+        "status": "finished",
         "team1_name": "Overtake Sector",
         "team2_name": "Iowa Stormboar",
-        "veto_text": "Best of 3 (Online)\n\n* Lower bracket final"
+        "veto_text": "Best of 3 (Online)\n\n* Lower bracket final",
+        "winner_name": "Overtake Sector"
       },
       {
-        "event_id": "hltv:9442",
+        "detail_fetched_at_utc": "2026-10-13T09:30:00Z",
+        "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399294",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "24316",
+              "nickname": "whisper",
+              "player_id": "hltv:24316",
+              "source_url": "https://www.hltv.org/player/24316/whisper",
+              "team_name": "BAKS"
+            },
+            {
+              "hltv_player_id": "19882",
+              "nickname": "Norwi",
+              "player_id": "hltv:19882",
+              "source_url": "https://www.hltv.org/player/19882/norwi",
+              "team_name": "BAKS"
+            },
+            {
+              "hltv_player_id": "22039",
+              "nickname": "danistzz",
+              "player_id": "hltv:22039",
+              "source_url": "https://www.hltv.org/player/22039/danistzz",
+              "team_name": "BAKS"
+            },
+            {
+              "hltv_player_id": "25509",
+              "nickname": "turbo",
+              "player_id": "hltv:25509",
+              "source_url": "https://www.hltv.org/player/25509/turbo",
+              "team_name": "BAKS"
+            },
+            {
+              "hltv_player_id": "21447",
+              "nickname": "xdENiSZERA",
+              "player_id": "hltv:21447",
+              "source_url": "https://www.hltv.org/player/21447/xdeniszera",
+              "team_name": "BAKS"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "25911",
+              "nickname": "s1nside",
+              "player_id": "hltv:25911",
+              "source_url": "https://www.hltv.org/player/25911/s1nside",
+              "team_name": "Spirit Academy"
+            },
+            {
+              "hltv_player_id": "26299",
+              "nickname": "k0gaSs",
+              "player_id": "hltv:26299",
+              "source_url": "https://www.hltv.org/player/26299/k0gass",
+              "team_name": "Spirit Academy"
+            },
+            {
+              "hltv_player_id": "23193",
+              "nickname": "VILBy",
+              "player_id": "hltv:23193",
+              "source_url": "https://www.hltv.org/player/23193/vilby",
+              "team_name": "Spirit Academy"
+            },
+            {
+              "hltv_player_id": "25622",
+              "nickname": "Netrix",
+              "player_id": "hltv:25622",
+              "source_url": "https://www.hltv.org/player/25622/netrix",
+              "team_name": "Spirit Academy"
+            },
+            {
+              "hltv_player_id": "25390",
+              "nickname": "Kiryasoo",
+              "player_id": "hltv:25390",
+              "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+              "team_name": "Spirit Academy"
+            }
+          ]
+        },
+        "map_results": [
+          {
+            "map_name": "Cache",
+            "score1": 13,
+            "score2": 11,
+            "status": "finished"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Ancient",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Cache",
+          "Nuke",
+          "Ancient"
+        ],
         "match_id": "hltv:2399294",
+        "player_stats": [
+          {
+            "adr": 94.8,
+            "deaths": 16,
+            "hltv_player_id": "24316",
+            "kast": 62.5,
+            "kills": 19,
+            "nickname": "whisper",
+            "player_id": "hltv:24316",
+            "rating": 1.49,
+            "source_url": "https://www.hltv.org/player/24316/whisper",
+            "team_side": 1
+          },
+          {
+            "adr": 73.5,
+            "deaths": 18,
+            "hltv_player_id": "19882",
+            "kast": 75,
+            "kills": 15,
+            "nickname": "Norwi",
+            "player_id": "hltv:19882",
+            "rating": 1.13,
+            "source_url": "https://www.hltv.org/player/19882/norwi",
+            "team_side": 1
+          },
+          {
+            "adr": 54.4,
+            "deaths": 14,
+            "hltv_player_id": "22039",
+            "kast": 75,
+            "kills": 13,
+            "nickname": "danistzz",
+            "player_id": "hltv:22039",
+            "rating": 1.12,
+            "source_url": "https://www.hltv.org/player/22039/danistzz",
+            "team_side": 1
+          },
+          {
+            "adr": 78.3,
+            "deaths": 19,
+            "hltv_player_id": "25509",
+            "kast": 62.5,
+            "kills": 17,
+            "nickname": "turbo",
+            "player_id": "hltv:25509",
+            "rating": 0.99,
+            "source_url": "https://www.hltv.org/player/25509/turbo",
+            "team_side": 1
+          },
+          {
+            "adr": 44.2,
+            "deaths": 15,
+            "hltv_player_id": "21447",
+            "kast": 62.5,
+            "kills": 9,
+            "nickname": "xdENiSZERA",
+            "player_id": "hltv:21447",
+            "rating": 0.7,
+            "source_url": "https://www.hltv.org/player/21447/xdeniszera",
+            "team_side": 1
+          },
+          {
+            "adr": 97.5,
+            "deaths": 15,
+            "hltv_player_id": "25911",
+            "kast": 66.7,
+            "kills": 23,
+            "nickname": "s1nside",
+            "player_id": "hltv:25911",
+            "rating": 1.31,
+            "source_url": "https://www.hltv.org/player/25911/s1nside",
+            "team_side": 2
+          },
+          {
+            "adr": 107.3,
+            "deaths": 18,
+            "hltv_player_id": "26299",
+            "kast": 66.7,
+            "kills": 20,
+            "nickname": "k0gaSs",
+            "player_id": "hltv:26299",
+            "rating": 1.23,
+            "source_url": "https://www.hltv.org/player/26299/k0gass",
+            "team_side": 2
+          },
+          {
+            "adr": 77.6,
+            "deaths": 13,
+            "hltv_player_id": "23193",
+            "kast": 75,
+            "kills": 13,
+            "nickname": "VILBy",
+            "player_id": "hltv:23193",
+            "rating": 0.99,
+            "source_url": "https://www.hltv.org/player/23193/vilby",
+            "team_side": 2
+          },
+          {
+            "adr": 43,
+            "deaths": 13,
+            "hltv_player_id": "25622",
+            "kast": 70.8,
+            "kills": 15,
+            "nickname": "Netrix",
+            "player_id": "hltv:25622",
+            "rating": 0.99,
+            "source_url": "https://www.hltv.org/player/25622/netrix",
+            "team_side": 2
+          },
+          {
+            "adr": 54,
+            "deaths": 15,
+            "hltv_player_id": "25390",
+            "kast": 75,
+            "kills": 11,
+            "nickname": "Kiryasoo",
+            "player_id": "hltv:25390",
+            "rating": 0.76,
+            "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+            "team_side": 2
+          }
+        ],
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399294/baks-vs-spirit-academy-cct-2026-europe-series-11",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-13T08:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "BAKS",
-        "team2_name": "Spirit Academy"
+        "team2_name": "Spirit Academy",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
       },
       {
-        "event_id": "hltv:9381",
+        "detail_fetched_at_utc": "2026-10-13T09:30:03Z",
+        "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-3",
         "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399146",
+        "lineups": {
+          "team1": [],
+          "team2": []
+        },
+        "map_results": [
+          {
+            "map_name": "Inferno",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Cache",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": null,
+            "score2": null,
+            "status": "upcoming"
+          }
+        ],
+        "maps": [
+          "Inferno",
+          "Cache",
+          "Mirage"
+        ],
         "match_id": "hltv:2399146",
         "product_tier": "tier_2",
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399146/fruju-vs-rooster-esl-challenger-league-season-52-oceania-cup-3",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-13T09:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Fruju",
-        "team2_name": "Rooster"
+        "team2_name": "Rooster",
+        "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
       },
       {
         "event_id": "hltv:9442",
@@ -13737,6 +13622,34 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Alter Ego"
       },
       {
+        "event_id": "hltv:9452",
+        "event_name": "CCT 2026 South America Series 7",
+        "hltv_match_id": "2399457",
+        "match_id": "hltv:2399457",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399457/quintessncia-vs-martians-cct-2026-south-america-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-13T13:00:00Z",
+        "status": "upcoming",
+        "team1_name": "QUINTESS\u00caNCIA",
+        "team2_name": "Martians"
+      },
+      {
+        "event_id": "hltv:9452",
+        "event_name": "CCT 2026 South America Series 7",
+        "hltv_match_id": "2399458",
+        "match_id": "hltv:2399458",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399458/procyon-vs-hacha-cct-2026-south-america-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-13T16:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Procyon",
+        "team2_name": "Hacha"
+      },
+      {
         "event_id": "hltv:9442",
         "event_name": "CCT 2026 Europe Series 11",
         "hltv_match_id": "2399297",
@@ -13749,6 +13662,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "Black Phoenix",
         "team2_name": "6666"
+      },
+      {
+        "event_id": "hltv:9452",
+        "event_name": "CCT 2026 South America Series 7",
+        "hltv_match_id": "2399459",
+        "match_id": "hltv:2399459",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399459/grmio-vs-los-ninos-cct-2026-south-america-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-13T19:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Gr\u00eamio",
+        "team2_name": "LOS NINOS"
       },
       {
         "event_id": "hltv:9385",
@@ -13765,6 +13692,34 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Galorys"
       },
       {
+        "event_id": "hltv:9452",
+        "event_name": "CCT 2026 South America Series 7",
+        "hltv_match_id": "2399460",
+        "match_id": "hltv:2399460",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399460/your-end-vs-sukeban-cct-2026-south-america-series-7",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-13T22:00:00Z",
+        "status": "upcoming",
+        "team1_name": "your end",
+        "team2_name": "SUKEBAN"
+      },
+      {
+        "event_id": "hltv:9387",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "hltv_match_id": "2399232",
+        "match_id": "hltv:2399232",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399232/zomblers-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-14T01:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Zomblers",
+        "team2_name": "Overtake Sector"
+      },
+      {
         "event_id": "hltv:9442",
         "event_name": "CCT 2026 Europe Series 11",
         "hltv_match_id": "2399298",
@@ -13779,8 +13734,22 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Lavked"
       },
       {
-        "detail_fetched_at_utc": "2026-10-12T09:19:10Z",
-        "event_id": "hltv:8932",
+        "event_id": "hltv:9456",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "hltv_match_id": "2399461",
+        "match_id": "hltv:2399461",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399461/enjoy-vs-b8-academy-cct-2026-europe-series-12-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-14T08:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Enjoy",
+        "team2_name": "B8 Academy"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-13T09:30:10Z",
+        "event_id": "hltv:thunderpick-world-championship-2026",
         "event_name": "Thunderpick World Championship 2026",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399384",
@@ -13800,8 +13769,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
       },
       {
-        "detail_fetched_at_utc": "2026-10-12T09:19:17Z",
-        "event_id": "hltv:8932",
+        "detail_fetched_at_utc": "2026-10-13T09:30:16Z",
+        "event_id": "hltv:thunderpick-world-championship-2026",
         "event_name": "Thunderpick World Championship 2026",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399385",
@@ -13835,8 +13804,22 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "mellren"
       },
       {
-        "detail_fetched_at_utc": "2026-10-12T09:19:24Z",
-        "event_id": "hltv:8932",
+        "event_id": "hltv:9456",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "hltv_match_id": "2399462",
+        "match_id": "hltv:2399462",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399462/banda-chuya-vs-6666-cct-2026-europe-series-12-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-14T11:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Banda Chuya",
+        "team2_name": "6666"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-13T09:30:22Z",
+        "event_id": "hltv:thunderpick-world-championship-2026",
         "event_name": "Thunderpick World Championship 2026",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399386",
@@ -13870,8 +13853,22 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "The Last Resort"
       },
       {
-        "detail_fetched_at_utc": "2026-10-12T01:23:39Z",
-        "event_id": "hltv:8932",
+        "event_id": "hltv:9456",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "hltv_match_id": "2399463",
+        "match_id": "hltv:2399463",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399463/pcific-vs-ryvex-cct-2026-europe-series-12-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-14T14:00:00Z",
+        "status": "upcoming",
+        "team1_name": "PCIFIC",
+        "team2_name": "Ryvex"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-13T09:30:27Z",
+        "event_id": "hltv:thunderpick-world-championship-2026",
         "event_name": "Thunderpick World Championship 2026",
         "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399387",
@@ -13903,6 +13900,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "FORZE Reload",
         "team2_name": "LFO 10"
+      },
+      {
+        "event_id": "hltv:9456",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "hltv_match_id": "2399471",
+        "match_id": "hltv:2399471",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399471/mellren-vs-privateer-cct-2026-europe-series-12-closed-qualifier",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-16T14:00:00Z",
+        "status": "upcoming",
+        "team1_name": "mellren",
+        "team2_name": "Privateer"
       }
     ],
     "default_event_id": "epl-series-8-2026",
@@ -49800,14 +49811,17 @@ window.__STRIKESIGNAL_DATA__ = {
             ],
             "match_id": "hltv:2399230",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399230/chicken-coop-vs-zomblers-esl-challenger-league-season-52-north-america-cup-3",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-13T01:00:00Z",
-            "status": "live",
+            "starts_at": "2026-10-13T02:38:55Z",
+            "status": "finished",
             "team1_name": "Chicken Coop",
             "team2_name": "Zomblers",
-            "veto_text": "Best of 3 (Online)\n\n* Upper bracket final"
+            "veto_text": "Best of 3 (Online)\n\n* Upper bracket final",
+            "winner_name": "Chicken Coop"
           },
           {
             "detail_fetched_at_utc": "2026-10-13T01:48:12Z",
@@ -49846,14 +49860,31 @@ window.__STRIKESIGNAL_DATA__ = {
             ],
             "match_id": "hltv:2399231",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399231/overtake-sector-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-3",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-13T01:00:00Z",
-            "status": "live",
+            "starts_at": "2026-10-13T03:02:07Z",
+            "status": "finished",
             "team1_name": "Overtake Sector",
             "team2_name": "Iowa Stormboar",
-            "veto_text": "Best of 3 (Online)\n\n* Lower bracket final"
+            "veto_text": "Best of 3 (Online)\n\n* Lower bracket final",
+            "winner_name": "Overtake Sector"
+          },
+          {
+            "event_id": "hltv:9387",
+            "event_name": "ESL Challenger League Season 52 North America Cup 3",
+            "hltv_match_id": "2399232",
+            "match_id": "hltv:2399232",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399232/zomblers-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-14T01:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Zomblers",
+            "team2_name": "Overtake Sector"
           }
         ],
         "name": "ESL Challenger League Season 52 North America Cup 3",
@@ -50022,18 +50053,50 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Rooster"
           },
           {
-            "event_id": "hltv:9381",
+            "detail_fetched_at_utc": "2026-10-13T09:30:03Z",
+            "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-3",
             "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399146",
+            "lineups": {
+              "team1": [],
+              "team2": []
+            },
+            "map_results": [
+              {
+                "map_name": "Inferno",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Cache",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Inferno",
+              "Cache",
+              "Mirage"
+            ],
             "match_id": "hltv:2399146",
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399146/fruju-vs-rooster-esl-challenger-league-season-52-oceania-cup-3",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-13T09:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Fruju",
-            "team2_name": "Rooster"
+            "team2_name": "Rooster",
+            "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
           }
         ],
         "name": "ESL Challenger League Season 52 Oceania Cup 3",
@@ -52621,8 +52684,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "id": "hltv:8932",
         "matches": [
           {
-            "detail_fetched_at_utc": "2026-10-12T09:19:10Z",
-            "event_id": "hltv:8932",
+            "detail_fetched_at_utc": "2026-10-13T09:30:10Z",
+            "event_id": "hltv:thunderpick-world-championship-2026",
             "event_name": "Thunderpick World Championship 2026",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399384",
@@ -52642,8 +52705,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
           },
           {
-            "detail_fetched_at_utc": "2026-10-12T09:19:17Z",
-            "event_id": "hltv:8932",
+            "detail_fetched_at_utc": "2026-10-13T09:30:16Z",
+            "event_id": "hltv:thunderpick-world-championship-2026",
             "event_name": "Thunderpick World Championship 2026",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399385",
@@ -52663,8 +52726,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
           },
           {
-            "detail_fetched_at_utc": "2026-10-12T09:19:24Z",
-            "event_id": "hltv:8932",
+            "detail_fetched_at_utc": "2026-10-13T09:30:22Z",
+            "event_id": "hltv:thunderpick-world-championship-2026",
             "event_name": "Thunderpick World Championship 2026",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399386",
@@ -52684,8 +52747,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "veto_text": "Best of 3 (LAN)\n\n* Group B opening match"
           },
           {
-            "detail_fetched_at_utc": "2026-10-12T01:23:39Z",
-            "event_id": "hltv:8932",
+            "detail_fetched_at_utc": "2026-10-13T09:30:27Z",
+            "event_id": "hltv:thunderpick-world-championship-2026",
             "event_name": "Thunderpick World Championship 2026",
             "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399387",
@@ -52732,18 +52795,244 @@ window.__STRIKESIGNAL_DATA__ = {
         "id": "hltv:9442",
         "matches": [
           {
-            "event_id": "hltv:9442",
+            "detail_fetched_at_utc": "2026-10-13T09:30:00Z",
+            "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399294",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "24316",
+                  "nickname": "whisper",
+                  "player_id": "hltv:24316",
+                  "source_url": "https://www.hltv.org/player/24316/whisper",
+                  "team_name": "BAKS"
+                },
+                {
+                  "hltv_player_id": "19882",
+                  "nickname": "Norwi",
+                  "player_id": "hltv:19882",
+                  "source_url": "https://www.hltv.org/player/19882/norwi",
+                  "team_name": "BAKS"
+                },
+                {
+                  "hltv_player_id": "22039",
+                  "nickname": "danistzz",
+                  "player_id": "hltv:22039",
+                  "source_url": "https://www.hltv.org/player/22039/danistzz",
+                  "team_name": "BAKS"
+                },
+                {
+                  "hltv_player_id": "25509",
+                  "nickname": "turbo",
+                  "player_id": "hltv:25509",
+                  "source_url": "https://www.hltv.org/player/25509/turbo",
+                  "team_name": "BAKS"
+                },
+                {
+                  "hltv_player_id": "21447",
+                  "nickname": "xdENiSZERA",
+                  "player_id": "hltv:21447",
+                  "source_url": "https://www.hltv.org/player/21447/xdeniszera",
+                  "team_name": "BAKS"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "25911",
+                  "nickname": "s1nside",
+                  "player_id": "hltv:25911",
+                  "source_url": "https://www.hltv.org/player/25911/s1nside",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "26299",
+                  "nickname": "k0gaSs",
+                  "player_id": "hltv:26299",
+                  "source_url": "https://www.hltv.org/player/26299/k0gass",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "23193",
+                  "nickname": "VILBy",
+                  "player_id": "hltv:23193",
+                  "source_url": "https://www.hltv.org/player/23193/vilby",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "25622",
+                  "nickname": "Netrix",
+                  "player_id": "hltv:25622",
+                  "source_url": "https://www.hltv.org/player/25622/netrix",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "25390",
+                  "nickname": "Kiryasoo",
+                  "player_id": "hltv:25390",
+                  "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+                  "team_name": "Spirit Academy"
+                }
+              ]
+            },
+            "map_results": [
+              {
+                "map_name": "Cache",
+                "score1": 13,
+                "score2": 11,
+                "status": "finished"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              },
+              {
+                "map_name": "Ancient",
+                "score1": null,
+                "score2": null,
+                "status": "upcoming"
+              }
+            ],
+            "maps": [
+              "Cache",
+              "Nuke",
+              "Ancient"
+            ],
             "match_id": "hltv:2399294",
+            "player_stats": [
+              {
+                "adr": 94.8,
+                "deaths": 16,
+                "hltv_player_id": "24316",
+                "kast": 62.5,
+                "kills": 19,
+                "nickname": "whisper",
+                "player_id": "hltv:24316",
+                "rating": 1.49,
+                "source_url": "https://www.hltv.org/player/24316/whisper",
+                "team_side": 1
+              },
+              {
+                "adr": 73.5,
+                "deaths": 18,
+                "hltv_player_id": "19882",
+                "kast": 75,
+                "kills": 15,
+                "nickname": "Norwi",
+                "player_id": "hltv:19882",
+                "rating": 1.13,
+                "source_url": "https://www.hltv.org/player/19882/norwi",
+                "team_side": 1
+              },
+              {
+                "adr": 54.4,
+                "deaths": 14,
+                "hltv_player_id": "22039",
+                "kast": 75,
+                "kills": 13,
+                "nickname": "danistzz",
+                "player_id": "hltv:22039",
+                "rating": 1.12,
+                "source_url": "https://www.hltv.org/player/22039/danistzz",
+                "team_side": 1
+              },
+              {
+                "adr": 78.3,
+                "deaths": 19,
+                "hltv_player_id": "25509",
+                "kast": 62.5,
+                "kills": 17,
+                "nickname": "turbo",
+                "player_id": "hltv:25509",
+                "rating": 0.99,
+                "source_url": "https://www.hltv.org/player/25509/turbo",
+                "team_side": 1
+              },
+              {
+                "adr": 44.2,
+                "deaths": 15,
+                "hltv_player_id": "21447",
+                "kast": 62.5,
+                "kills": 9,
+                "nickname": "xdENiSZERA",
+                "player_id": "hltv:21447",
+                "rating": 0.7,
+                "source_url": "https://www.hltv.org/player/21447/xdeniszera",
+                "team_side": 1
+              },
+              {
+                "adr": 97.5,
+                "deaths": 15,
+                "hltv_player_id": "25911",
+                "kast": 66.7,
+                "kills": 23,
+                "nickname": "s1nside",
+                "player_id": "hltv:25911",
+                "rating": 1.31,
+                "source_url": "https://www.hltv.org/player/25911/s1nside",
+                "team_side": 2
+              },
+              {
+                "adr": 107.3,
+                "deaths": 18,
+                "hltv_player_id": "26299",
+                "kast": 66.7,
+                "kills": 20,
+                "nickname": "k0gaSs",
+                "player_id": "hltv:26299",
+                "rating": 1.23,
+                "source_url": "https://www.hltv.org/player/26299/k0gass",
+                "team_side": 2
+              },
+              {
+                "adr": 77.6,
+                "deaths": 13,
+                "hltv_player_id": "23193",
+                "kast": 75,
+                "kills": 13,
+                "nickname": "VILBy",
+                "player_id": "hltv:23193",
+                "rating": 0.99,
+                "source_url": "https://www.hltv.org/player/23193/vilby",
+                "team_side": 2
+              },
+              {
+                "adr": 43,
+                "deaths": 13,
+                "hltv_player_id": "25622",
+                "kast": 70.8,
+                "kills": 15,
+                "nickname": "Netrix",
+                "player_id": "hltv:25622",
+                "rating": 0.99,
+                "source_url": "https://www.hltv.org/player/25622/netrix",
+                "team_side": 2
+              },
+              {
+                "adr": 54,
+                "deaths": 15,
+                "hltv_player_id": "25390",
+                "kast": 75,
+                "kills": 11,
+                "nickname": "Kiryasoo",
+                "player_id": "hltv:25390",
+                "rating": 0.76,
+                "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_2",
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399294/baks-vs-spirit-academy-cct-2026-europe-series-11",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-13T08:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "BAKS",
-            "team2_name": "Spirit Academy"
+            "team2_name": "Spirit Academy",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
           },
           {
             "event_id": "hltv:9442",
@@ -52848,11 +53137,176 @@ window.__STRIKESIGNAL_DATA__ = {
           "LFO 10"
         ],
         "product_tier": "tier_2",
-        "status": "upcoming",
+        "source_url": "https://www.hltv.org/events/archive",
+        "status": "ongoing",
         "teams": 14
+      },
+      {
+        "bracket": null,
+        "format": {
+          "label": "Event schedule",
+          "settings": {},
+          "stages": [],
+          "type": "mixed"
+        },
+        "id": "hltv:9452",
+        "matches": [
+          {
+            "event_id": "hltv:9452",
+            "event_name": "CCT 2026 South America Series 7",
+            "hltv_match_id": "2399457",
+            "match_id": "hltv:2399457",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399457/quintessncia-vs-martians-cct-2026-south-america-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-13T13:00:00Z",
+            "status": "upcoming",
+            "team1_name": "QUINTESS\u00caNCIA",
+            "team2_name": "Martians"
+          },
+          {
+            "event_id": "hltv:9452",
+            "event_name": "CCT 2026 South America Series 7",
+            "hltv_match_id": "2399458",
+            "match_id": "hltv:2399458",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399458/procyon-vs-hacha-cct-2026-south-america-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-13T16:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Procyon",
+            "team2_name": "Hacha"
+          },
+          {
+            "event_id": "hltv:9452",
+            "event_name": "CCT 2026 South America Series 7",
+            "hltv_match_id": "2399459",
+            "match_id": "hltv:2399459",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399459/grmio-vs-los-ninos-cct-2026-south-america-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-13T19:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Gr\u00eamio",
+            "team2_name": "LOS NINOS"
+          },
+          {
+            "event_id": "hltv:9452",
+            "event_name": "CCT 2026 South America Series 7",
+            "hltv_match_id": "2399460",
+            "match_id": "hltv:2399460",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399460/your-end-vs-sukeban-cct-2026-south-america-series-7",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-13T22:00:00Z",
+            "status": "upcoming",
+            "team1_name": "your end",
+            "team2_name": "SUKEBAN"
+          }
+        ],
+        "name": "CCT 2026 South America Series 7",
+        "participants": [
+          "QUINTESS\u00caNCIA",
+          "Martians",
+          "Procyon",
+          "Hacha",
+          "Gr\u00eamio",
+          "LOS NINOS",
+          "your end",
+          "SUKEBAN"
+        ],
+        "product_tier": "tier_2",
+        "status": "upcoming",
+        "teams": 8
+      },
+      {
+        "bracket": null,
+        "format": {
+          "label": "Event schedule",
+          "settings": {},
+          "stages": [],
+          "type": "mixed"
+        },
+        "id": "hltv:9456",
+        "matches": [
+          {
+            "event_id": "hltv:9456",
+            "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+            "hltv_match_id": "2399461",
+            "match_id": "hltv:2399461",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399461/enjoy-vs-b8-academy-cct-2026-europe-series-12-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-14T08:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Enjoy",
+            "team2_name": "B8 Academy"
+          },
+          {
+            "event_id": "hltv:9456",
+            "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+            "hltv_match_id": "2399462",
+            "match_id": "hltv:2399462",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399462/banda-chuya-vs-6666-cct-2026-europe-series-12-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-14T11:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Banda Chuya",
+            "team2_name": "6666"
+          },
+          {
+            "event_id": "hltv:9456",
+            "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+            "hltv_match_id": "2399463",
+            "match_id": "hltv:2399463",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399463/pcific-vs-ryvex-cct-2026-europe-series-12-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-14T14:00:00Z",
+            "status": "upcoming",
+            "team1_name": "PCIFIC",
+            "team2_name": "Ryvex"
+          },
+          {
+            "event_id": "hltv:9456",
+            "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+            "hltv_match_id": "2399471",
+            "match_id": "hltv:2399471",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399471/mellren-vs-privateer-cct-2026-europe-series-12-closed-qualifier",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-16T14:00:00Z",
+            "status": "upcoming",
+            "team1_name": "mellren",
+            "team2_name": "Privateer"
+          }
+        ],
+        "name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "participants": [
+          "Enjoy",
+          "B8 Academy",
+          "Banda Chuya",
+          "6666",
+          "PCIFIC",
+          "Ryvex",
+          "mellren",
+          "Privateer"
+        ],
+        "product_tier": "tier_2",
+        "status": "upcoming",
+        "teams": 8
       }
     ],
-    "last_verified_utc": "2026-10-13T01:54:55Z",
+    "last_verified_utc": "2026-10-13T09:30:27Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -53290,7 +53744,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-13T02:04:51Z",
+  "generated_at_utc": "2026-10-13T09:31:01Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -54666,12 +55120,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.628342,
-        "brier": 0.225581,
-        "ece": 0.021016,
-        "log_loss": 0.641076
+        "accuracy": 0.628,
+        "brier": 0.225628,
+        "ece": 0.022261,
+        "log_loss": 0.641177
       },
-      "rows": 1122,
+      "rows": 1124,
       "slices": [
         {
           "dimension": "tier",
@@ -54692,12 +55146,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590296,
-            "brier": 0.242546,
-            "ece": 0.028606,
-            "log_loss": 0.678528
+            "accuracy": 0.589812,
+            "brier": 0.242549,
+            "ece": 0.028085,
+            "log_loss": 0.67853
           },
-          "rows": 371
+          "rows": 373
         },
         {
           "dimension": "series_format",
@@ -54718,12 +55172,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.619414,
-            "brier": 0.226952,
-            "ece": 0.025399,
-            "log_loss": 0.643973
+            "accuracy": 0.619048,
+            "brier": 0.227002,
+            "ece": 0.02588,
+            "log_loss": 0.644081
           },
-          "rows": 649
+          "rows": 651
         },
         {
           "dimension": "series_format",
@@ -54739,7 +55193,7 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 9
         }
       ],
-      "test_rows": 748
+      "test_rows": 750
     },
     "challenger": {
       "blend_weight": 0.5,
@@ -54750,13 +55204,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.631016,
-        "brier": 0.227608,
-        "ece": 0.052607,
-        "log_loss": 0.645905
+        "accuracy": 0.630667,
+        "brier": 0.227653,
+        "ece": 0.052383,
+        "log_loss": 0.646001
       },
       "promotion_passed": false,
-      "rows": 748,
+      "rows": 750,
       "slices": [
         {
           "dimension": "tier",
@@ -54777,12 +55231,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.595687,
+            "accuracy": 0.595174,
             "brier": 0.244439,
-            "ece": 0.066407,
-            "log_loss": 0.681992
+            "ece": 0.065883,
+            "log_loss": 0.681993
           },
-          "rows": 371
+          "rows": 373
         },
         {
           "dimension": "series_format",
@@ -54803,12 +55257,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.622496,
-            "brier": 0.228637,
-            "ece": 0.046256,
-            "log_loss": 0.64803
+            "accuracy": 0.62212,
+            "brier": 0.228686,
+            "ece": 0.046017,
+            "log_loss": 0.648135
           },
-          "rows": 649
+          "rows": 651
         },
         {
           "dimension": "series_format",
@@ -54844,7 +55298,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-13T02:04:51Z",
+    "generated_at_utc": "2026-10-13T09:31:01Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -54867,12 +55321,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590296,
-            "brier": 0.242546,
-            "ece": 0.028606,
-            "log_loss": 0.678528
+            "accuracy": 0.589812,
+            "brier": 0.242549,
+            "ece": 0.028085,
+            "log_loss": 0.67853
           },
-          "rows": 371
+          "rows": 373
         },
         {
           "dimension": "series_format",
@@ -54893,12 +55347,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.619414,
-            "brier": 0.226952,
-            "ece": 0.025399,
-            "log_loss": 0.643973
+            "accuracy": 0.619048,
+            "brier": 0.227002,
+            "ece": 0.02588,
+            "log_loss": 0.644081
           },
-          "rows": 649
+          "rows": 651
         },
         {
           "dimension": "series_format",
@@ -54926,7 +55380,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 371
+            "rows": 373
           },
           {
             "eligible": true,
@@ -54938,7 +55392,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 649
+            "rows": 651
           },
           {
             "eligible": false,
@@ -54969,12 +55423,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.595687,
-            "brier": 0.242679,
-            "ece": 0.053874,
-            "log_loss": 0.678653
+            "accuracy": 0.595174,
+            "brier": 0.242671,
+            "ece": 0.05325,
+            "log_loss": 0.678633
           },
-          "rows": 371
+          "rows": 373
         },
         {
           "dimension": "series_format",
@@ -54995,12 +55449,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.622496,
-            "brier": 0.227962,
-            "ece": 0.02921,
-            "log_loss": 0.646798
+            "accuracy": 0.62212,
+            "brier": 0.228003,
+            "ece": 0.028928,
+            "log_loss": 0.646885
           },
-          "rows": 649
+          "rows": 651
         },
         {
           "dimension": "series_format",
@@ -55017,10 +55471,10 @@ window.__STRIKESIGNAL_DATA__ = {
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.628342,
-        "brier": 0.226289,
-        "ece": 0.041783,
-        "log_loss": 0.64233
+        "accuracy": 0.628,
+        "brier": 0.22634,
+        "ece": 0.04158,
+        "log_loss": 0.64244
       },
       "champion_slices": [
         {
@@ -55042,12 +55496,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590296,
-            "brier": 0.243974,
-            "ece": 0.058104,
-            "log_loss": 0.681056
+            "accuracy": 0.589812,
+            "brier": 0.243981,
+            "ece": 0.057608,
+            "log_loss": 0.68107
           },
-          "rows": 371
+          "rows": 373
         },
         {
           "dimension": "series_format",
@@ -55068,12 +55522,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.619414,
-            "brier": 0.227461,
-            "ece": 0.039772,
-            "log_loss": 0.644792
+            "accuracy": 0.619048,
+            "brier": 0.227515,
+            "ece": 0.039545,
+            "log_loss": 0.644911
           },
-          "rows": 649
+          "rows": 651
         },
         {
           "dimension": "series_format",
@@ -55089,37 +55543,37 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 9
         }
       ],
-      "champion_test_rows": 748,
+      "champion_test_rows": 750,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.590296,
-          "brier": 0.242685,
-          "ece": 0.056151,
-          "log_loss": 0.678505
+          "accuracy": 0.589812,
+          "brier": 0.242692,
+          "ece": 0.055573,
+          "log_loss": 0.678517
         },
         "before": {
-          "accuracy": 0.590296,
-          "brier": 0.243974,
-          "ece": 0.058104,
-          "log_loss": 0.681056
+          "accuracy": 0.589812,
+          "brier": 0.243981,
+          "ece": 0.057608,
+          "log_loss": 0.68107
         },
         "candidate_shrink": 0.75,
         "overall_after": {
-          "accuracy": 0.628342,
-          "brier": 0.22565,
-          "ece": 0.039677,
-          "log_loss": 0.641065
+          "accuracy": 0.628,
+          "brier": 0.225699,
+          "ece": 0.039434,
+          "log_loss": 0.641171
         },
         "overall_before": {
-          "accuracy": 0.628342,
-          "brier": 0.226289,
-          "ece": 0.041783,
-          "log_loss": 0.64233
+          "accuracy": 0.628,
+          "brier": 0.22634,
+          "ece": 0.04158,
+          "log_loss": 0.64244
         },
         "passed": false,
-        "rows": 371,
+        "rows": 373,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -55138,8 +55592,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
-      "online_rows": 365,
+      "new_rows": 2,
+      "online_rows": 367,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -55620,9 +56074,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2398757",
       "hltv:2399293",
       "hltv:2399202",
-      "hltv:2399203"
+      "hltv:2399203",
+      "hltv:2399230",
+      "hltv:2399231"
     ],
-    "last_online_update_utc": "2026-10-13T02:04:51Z",
+    "last_online_update_utc": "2026-10-13T09:31:01Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -58858,10 +59314,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 106
       },
       {
-        "elo": 1526.33,
-        "last_result_utc": "2026-10-11T02:39:17Z",
-        "matches": 2,
-        "recent_win_rate_10": 0.6653,
+        "elo": 1540.47,
+        "last_result_utc": "2026-10-13T02:38:55Z",
+        "matches": 3,
+        "recent_win_rate_10": 0.7262,
         "team_key": "chicken coop",
         "team_name": "Chicken Coop",
         "vrs_points": 1028,
@@ -59356,20 +59812,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 169
       },
       {
-        "elo": 1513.62,
-        "last_result_utc": "2026-10-12T04:53:06Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.5864,
+        "elo": 1499.94,
+        "last_result_utc": "2026-10-13T03:02:07Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.4798,
         "team_key": "iowa stormboar",
         "team_name": "Iowa Stormboar",
         "vrs_points": 827,
         "vrs_rank": 170
       },
       {
-        "elo": 1539.02,
-        "last_result_utc": "2026-10-11T03:49:41Z",
-        "matches": 3,
-        "recent_win_rate_10": 0.7262,
+        "elo": 1524.88,
+        "last_result_utc": "2026-10-13T02:38:55Z",
+        "matches": 4,
+        "recent_win_rate_10": 0.5942,
         "team_key": "zomblers",
         "team_name": "Zomblers",
         "vrs_points": 825,
@@ -62104,10 +62560,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1512.67,
-        "last_result_utc": "2026-10-12T03:39:19Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.5864,
+        "elo": 1526.35,
+        "last_result_utc": "2026-10-13T03:02:07Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.6616,
         "team_key": "overtake sector",
         "team_name": "Overtake Sector",
         "vrs_points": 0,
@@ -65257,80 +65713,6 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5733,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4267,
-      "event_id": "hltv:9442",
-      "event_name": "CCT 2026 Europe Series 11",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-13",
-      "match_id": "hltv:2399294",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791878400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Spirit Academy",
-      "prob_team1": 0.4267,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399294/baks-vs-spirit-academy-cct-2026-europe-series-11",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-13T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "BAKS",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Spirit Academy",
-      "team2_vrs_rank": null
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5027,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4973,
-      "event_id": "hltv:9381",
-      "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-13",
-      "match_id": "hltv:2399146",
-      "match_phase": "scheduled",
-      "match_timestamp": 1791882000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Rooster",
-      "prob_team1": 0.4973,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399146/fruju-vs-rooster-esl-challenger-league-season-52-oceania-cup-3",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-13T09:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Fruju",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Rooster",
-      "team2_vrs_rank": 195
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5384,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -65405,6 +65787,80 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5045,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.4955,
+      "event_id": "hltv:9452",
+      "event_name": "CCT 2026 South America Series 7",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-13",
+      "match_id": "hltv:2399457",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791896400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Martians",
+      "prob_team1": 0.4955,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399457/quintessncia-vs-martians-cct-2026-south-america-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-13T13:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "QUINTESS\u00caNCIA",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Martians",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5157,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5157,
+      "event_id": "hltv:9452",
+      "event_name": "CCT 2026 South America Series 7",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-13",
+      "match_id": "hltv:2399458",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791907200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Procyon",
+      "prob_team1": 0.5157,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399458/procyon-vs-hacha-cct-2026-south-america-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-13T16:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Procyon",
+      "team1_vrs_rank": 199,
+      "team2_hltv_rank": null,
+      "team2_name": "Hacha",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.553,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -65437,6 +65893,43 @@ window.__STRIKESIGNAL_DATA__ = {
       "team1_vrs_rank": null,
       "team2_hltv_rank": null,
       "team2_name": "6666",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5084,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.4916,
+      "event_id": "hltv:9452",
+      "event_name": "CCT 2026 South America Series 7",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-13",
+      "match_id": "hltv:2399459",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791918000,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "LOS NINOS",
+      "prob_team1": 0.4916,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399459/grmio-vs-los-ninos-cct-2026-south-america-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-13T19:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Gr\u00eamio",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "LOS NINOS",
       "team2_vrs_rank": null
     },
     {
@@ -65479,6 +65972,80 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5108,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.4892,
+      "event_id": "hltv:9452",
+      "event_name": "CCT 2026 South America Series 7",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-13",
+      "match_id": "hltv:2399460",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791928800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "SUKEBAN",
+      "prob_team1": 0.4892,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399460/your-end-vs-sukeban-cct-2026-south-america-series-7",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-13T22:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "your end",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "SUKEBAN",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5248,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5248,
+      "event_id": "hltv:9387",
+      "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-14",
+      "match_id": "hltv:2399232",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791939600,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Zomblers",
+      "prob_team1": 0.5248,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399232/zomblers-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-14T01:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Zomblers",
+      "team1_vrs_rank": 171,
+      "team2_hltv_rank": null,
+      "team2_name": "Overtake Sector",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5041,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -65516,14 +66083,54 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5112,
+      "confidence_label": "thin",
+      "data_quality": "partial",
+      "elo_prob_team1": 0.5112,
+      "event_id": "hltv:9456",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-14",
+      "match_id": "hltv:2399461",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791964800,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Enjoy",
+      "prob_team1": 0.5112,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399461/enjoy-vs-b8-academy-cct-2026-europe-series-12-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-14T08:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Enjoy",
+      "team1_vrs_rank": 166,
+      "team2_hltv_rank": null,
+      "team2_name": "B8 Academy",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5119,
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4881,
-      "event_id": "hltv:8932",
+      "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-14",
@@ -65594,10 +66201,13 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.6881,
-      "event_id": "hltv:8932",
+      "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-14",
@@ -65627,14 +66237,54 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5811,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4189,
+      "event_id": "hltv:9456",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-14",
+      "match_id": "hltv:2399462",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791975600,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "6666",
+      "prob_team1": 0.4189,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399462/banda-chuya-vs-6666-cct-2026-europe-series-12-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-14T11:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Banda Chuya",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "6666",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5224,
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.5224,
-      "event_id": "hltv:8932",
+      "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-14",
@@ -65701,14 +66351,54 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.509,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.509,
+      "event_id": "hltv:9456",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-14",
+      "match_id": "hltv:2399463",
+      "match_phase": "scheduled",
+      "match_timestamp": 1791986400,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "PCIFIC",
+      "prob_team1": 0.509,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399463/pcific-vs-ryvex-cct-2026-europe-series-12-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-14T14:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "PCIFIC",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Ryvex",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5118,
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4882,
-      "event_id": "hltv:8932",
+      "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-14",
@@ -65775,22 +66465,131 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5421,
+      "confidence": 0.5483,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5421,
-      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
-      "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "elo_prob_team1": 0.5483,
+      "event_id": "hltv:9456",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-16",
+      "match_id": "hltv:2399471",
+      "match_phase": "scheduled",
+      "match_timestamp": 1792159200,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "mellren",
+      "prob_team1": 0.5483,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399471/mellren-vs-privateer-cct-2026-europe-series-12-closed-qualifier",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-16T14:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "mellren",
+      "team1_vrs_rank": null,
+      "team2_hltv_rank": null,
+      "team2_name": "Privateer",
+      "team2_vrs_rank": null
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5733,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4267,
+      "event_id": "hltv:cct-2026-europe-series-11",
+      "event_name": "CCT 2026 Europe Series 11",
       "format": "bo3",
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          {
+            "hltv_player_id": "24316",
+            "nickname": "whisper",
+            "player_id": "hltv:24316",
+            "source_url": "https://www.hltv.org/player/24316/whisper",
+            "team_name": "BAKS"
+          },
+          {
+            "hltv_player_id": "19882",
+            "nickname": "Norwi",
+            "player_id": "hltv:19882",
+            "source_url": "https://www.hltv.org/player/19882/norwi",
+            "team_name": "BAKS"
+          },
+          {
+            "hltv_player_id": "22039",
+            "nickname": "danistzz",
+            "player_id": "hltv:22039",
+            "source_url": "https://www.hltv.org/player/22039/danistzz",
+            "team_name": "BAKS"
+          },
+          {
+            "hltv_player_id": "25509",
+            "nickname": "turbo",
+            "player_id": "hltv:25509",
+            "source_url": "https://www.hltv.org/player/25509/turbo",
+            "team_name": "BAKS"
+          },
+          {
+            "hltv_player_id": "21447",
+            "nickname": "xdENiSZERA",
+            "player_id": "hltv:21447",
+            "source_url": "https://www.hltv.org/player/21447/xdeniszera",
+            "team_name": "BAKS"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "25911",
+            "nickname": "s1nside",
+            "player_id": "hltv:25911",
+            "source_url": "https://www.hltv.org/player/25911/s1nside",
+            "team_name": "Spirit Academy"
+          },
+          {
+            "hltv_player_id": "26299",
+            "nickname": "k0gaSs",
+            "player_id": "hltv:26299",
+            "source_url": "https://www.hltv.org/player/26299/k0gass",
+            "team_name": "Spirit Academy"
+          },
+          {
+            "hltv_player_id": "23193",
+            "nickname": "VILBy",
+            "player_id": "hltv:23193",
+            "source_url": "https://www.hltv.org/player/23193/vilby",
+            "team_name": "Spirit Academy"
+          },
+          {
+            "hltv_player_id": "25622",
+            "nickname": "Netrix",
+            "player_id": "hltv:25622",
+            "source_url": "https://www.hltv.org/player/25622/netrix",
+            "team_name": "Spirit Academy"
+          },
+          {
+            "hltv_player_id": "25390",
+            "nickname": "Kiryasoo",
+            "player_id": "hltv:25390",
+            "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+            "team_name": "Spirit Academy"
+          }
+        ]
       },
       "map_results": [
         {
-          "map_name": "Ancient",
-          "score1": 7,
-          "score2": 5,
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 11,
           "status": "finished"
         },
         {
@@ -65800,50 +66599,50 @@ window.__STRIKESIGNAL_DATA__ = {
           "status": "upcoming"
         },
         {
-          "map_name": "Inferno",
+          "map_name": "Ancient",
           "score1": null,
           "score2": null,
           "status": "upcoming"
         }
       ],
       "maps": [
-        "Ancient",
+        "Cache",
         "Nuke",
-        "Inferno"
+        "Ancient"
       ],
       "match_date": "",
-      "match_id": "hltv:2399230",
+      "match_id": "hltv:2399294",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Chicken Coop",
-      "prob_team1": 0.5421,
+      "predicted_winner": "Spirit Academy",
+      "prob_team1": 0.4267,
       "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399230/chicken-coop-vs-zomblers-esl-challenger-league-season-52-north-america-cup-3",
+      "source_url": "https://www.hltv.org/matches/2399294/baks-vs-spirit-academy-cct-2026-europe-series-11",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "Chicken Coop",
-      "team1_vrs_rank": 107,
+      "team1_name": "BAKS",
+      "team1_vrs_rank": null,
       "team2_hltv_rank": null,
-      "team2_name": "Zomblers",
-      "team2_vrs_rank": 171
+      "team2_name": "Spirit Academy",
+      "team2_vrs_rank": null
     },
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.529,
+      "confidence": 0.5027,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.471,
-      "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
-      "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "elo_prob_team1": 0.4973,
+      "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-3",
+      "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
       "format": "bo3",
       "lineups": {
         "team1": [],
@@ -65851,13 +66650,7 @@ window.__STRIKESIGNAL_DATA__ = {
       },
       "map_results": [
         {
-          "map_name": "Dust2",
-          "score1": 6,
-          "score2": 6,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
+          "map_name": "Inferno",
           "score1": null,
           "score2": null,
           "status": "upcoming"
@@ -65867,42 +66660,48 @@ window.__STRIKESIGNAL_DATA__ = {
           "score1": null,
           "score2": null,
           "status": "upcoming"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
         }
       ],
       "maps": [
-        "Dust2",
-        "Mirage",
-        "Cache"
+        "Inferno",
+        "Cache",
+        "Mirage"
       ],
       "match_date": "",
-      "match_id": "hltv:2399231",
+      "match_id": "hltv:2399146",
       "match_phase": "scheduled",
       "match_timestamp": null,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Iowa Stormboar",
-      "prob_team1": 0.471,
+      "predicted_winner": "Rooster",
+      "prob_team1": 0.4973,
       "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399231/overtake-sector-vs-iowa-stormboar-esl-challenger-league-season-52-north-america-cup-3",
+      "source_url": "https://www.hltv.org/matches/2399146/fruju-vs-rooster-esl-challenger-league-season-52-oceania-cup-3",
       "stage_name": "Scheduled series",
       "starts_at": null,
       "status": "live",
       "team1_hltv_rank": null,
-      "team1_name": "Overtake Sector",
+      "team1_name": "Fruju",
       "team1_vrs_rank": null,
       "team2_hltv_rank": null,
-      "team2_name": "Iowa Stormboar",
-      "team2_vrs_rank": 170
+      "team2_name": "Rooster",
+      "team2_vrs_rank": 195
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 50,
-    "online_results_applied": 5,
+    "live_feed_items": 58,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
