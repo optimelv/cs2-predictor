@@ -14794,7 +14794,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     {
       "player_id": "hltv:22803",
       "nickname": "bl1x1",
-      "team_name": "CYBERSHOKE",
+      "team_name": "ex-RUSTEC",
       "rating_3_0": null,
       "maps_3m": 0,
       "signal_index": 50,
@@ -16797,7 +16797,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     {
       "player_id": "hltv:20878",
       "nickname": "adamb",
-      "team_name": "Vael",
+      "team_name": "Ninjas in Pyjamas",
       "rating_3_0": null,
       "maps_3m": 0,
       "signal_index": 50,
@@ -19296,19 +19296,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         }
       ],
       "timeline_entry": {
-        "adr": 58.5,
-        "date": "2026-10-13",
-        "deaths": 32,
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "kast": 79.6,
-        "kd_ratio": 0.78,
-        "kills": 25,
-        "maps": 3,
         "match_id": "hltv:2399204",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
         "opponent_name": "ex-Keyd Stars",
-        "rating": 0.86,
         "team_name": "Galorys",
-        "won": true
+        "won": true,
+        "kills": 25,
+        "deaths": 32,
+        "kd_ratio": 0.78,
+        "adr": 58.5,
+        "kast": 79.6,
+        "rating": 0.86,
+        "maps": 3
       },
       "form_summary": {
         "series": 1,
@@ -19360,19 +19360,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         }
       ],
       "timeline_entry": {
-        "adr": 63.8,
-        "date": "2026-10-13",
-        "deaths": 31,
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "kast": 71.4,
-        "kd_ratio": 0.94,
-        "kills": 29,
-        "maps": 3,
         "match_id": "hltv:2399204",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
         "opponent_name": "ex-Keyd Stars",
-        "rating": 1.01,
         "team_name": "Galorys",
-        "won": true
+        "won": true,
+        "kills": 29,
+        "deaths": 31,
+        "kd_ratio": 0.94,
+        "adr": 63.8,
+        "kast": 71.4,
+        "rating": 1.01,
+        "maps": 3
       },
       "form_summary": {
         "series": 1,
@@ -19424,19 +19424,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         }
       ],
       "timeline_entry": {
-        "adr": 76.8,
-        "date": "2026-10-13",
-        "deaths": 30,
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "kast": 73.5,
-        "kd_ratio": 1.1,
-        "kills": 33,
-        "maps": 3,
         "match_id": "hltv:2399204",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
         "opponent_name": "ex-Keyd Stars",
-        "rating": 1.11,
         "team_name": "Galorys",
-        "won": true
+        "won": true,
+        "kills": 33,
+        "deaths": 30,
+        "kd_ratio": 1.1,
+        "adr": 76.8,
+        "kast": 73.5,
+        "rating": 1.11,
+        "maps": 3
       },
       "form_summary": {
         "series": 1,
@@ -19488,19 +19488,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         }
       ],
       "timeline_entry": {
-        "adr": 98.1,
-        "date": "2026-10-13",
-        "deaths": 34,
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "kast": 79.6,
-        "kd_ratio": 1.26,
-        "kills": 43,
-        "maps": 3,
         "match_id": "hltv:2399204",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
         "opponent_name": "ex-Keyd Stars",
-        "rating": 1.46,
         "team_name": "Galorys",
-        "won": true
+        "won": true,
+        "kills": 43,
+        "deaths": 34,
+        "kd_ratio": 1.26,
+        "adr": 98.1,
+        "kast": 79.6,
+        "rating": 1.46,
+        "maps": 3
       },
       "form_summary": {
         "series": 1,
@@ -19552,19 +19552,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         }
       ],
       "timeline_entry": {
-        "adr": 105.6,
-        "date": "2026-10-13",
-        "deaths": 33,
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "kast": 75.5,
-        "kd_ratio": 1.58,
-        "kills": 52,
-        "maps": 3,
         "match_id": "hltv:2399204",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
         "opponent_name": "ex-Keyd Stars",
-        "rating": 1.59,
         "team_name": "Galorys",
-        "won": true
+        "won": true,
+        "kills": 52,
+        "deaths": 33,
+        "kd_ratio": 1.58,
+        "adr": 105.6,
+        "kast": 75.5,
+        "rating": 1.59,
+        "maps": 3
       },
       "form_summary": {
         "series": 1,
@@ -21178,19 +21178,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         }
       ],
       "timeline_entry": {
-        "adr": 75.3,
-        "date": "2026-10-13",
-        "deaths": 41,
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "kast": 61.2,
-        "kd_ratio": 0.76,
-        "kills": 31,
-        "maps": 3,
         "match_id": "hltv:2399204",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
         "opponent_name": "Galorys",
-        "rating": 0.96,
         "team_name": "ex-Keyd Stars",
-        "won": false
+        "won": false,
+        "kills": 31,
+        "deaths": 41,
+        "kd_ratio": 0.76,
+        "adr": 75.3,
+        "kast": 61.2,
+        "rating": 0.96,
+        "maps": 3
       },
       "form_summary": {
         "series": 1,
@@ -21242,19 +21242,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         }
       ],
       "timeline_entry": {
-        "adr": 90.9,
-        "date": "2026-10-13",
-        "deaths": 32,
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "kast": 75.5,
-        "kd_ratio": 1.28,
-        "kills": 41,
-        "maps": 3,
         "match_id": "hltv:2399204",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
         "opponent_name": "Galorys",
-        "rating": 1.4,
         "team_name": "ex-Keyd Stars",
-        "won": false
+        "won": false,
+        "kills": 41,
+        "deaths": 32,
+        "kd_ratio": 1.28,
+        "adr": 90.9,
+        "kast": 75.5,
+        "rating": 1.4,
+        "maps": 3
       },
       "form_summary": {
         "series": 1,
@@ -21306,19 +21306,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         }
       ],
       "timeline_entry": {
-        "adr": 61.8,
-        "date": "2026-10-13",
-        "deaths": 30,
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "kast": 73.5,
-        "kd_ratio": 1,
-        "kills": 30,
-        "maps": 3,
         "match_id": "hltv:2399204",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
         "opponent_name": "Galorys",
-        "rating": 0.91,
         "team_name": "ex-Keyd Stars",
-        "won": false
+        "won": false,
+        "kills": 30,
+        "deaths": 30,
+        "kd_ratio": 1,
+        "adr": 61.8,
+        "kast": 73.5,
+        "rating": 0.91,
+        "maps": 3
       },
       "form_summary": {
         "series": 1,
@@ -22221,9 +22221,59 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "traits": {},
       "hltv_player_id": "24923",
       "source_url": "https://www.hltv.org/player/24923/nbl",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "B8 Academy",
+          "team_name": "Enjoy",
+          "won": true,
+          "kills": 40,
+          "deaths": 24,
+          "kd_ratio": 1.67,
+          "adr": 77.5,
+          "kast": 71.2,
+          "rating": 1.36,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Enjoy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.36,
+          "average_adr": 77.5
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399461",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "B8 Academy",
+        "team_name": "Enjoy",
+        "won": true,
+        "kills": 40,
+        "deaths": 24,
+        "kd_ratio": 1.67,
+        "adr": 77.5,
+        "kast": 71.2,
+        "rating": 1.36,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.36,
+        "average_adr": 77.5,
+        "recent_rating": 1.36,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:26861",
@@ -22235,9 +22285,59 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "traits": {},
       "hltv_player_id": "26861",
       "source_url": "https://www.hltv.org/player/26861/flawix",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "B8 Academy",
+          "team_name": "Enjoy",
+          "won": true,
+          "kills": 33,
+          "deaths": 28,
+          "kd_ratio": 1.18,
+          "adr": 66.4,
+          "kast": 76.9,
+          "rating": 0.98,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Enjoy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.98,
+          "average_adr": 66.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399461",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "B8 Academy",
+        "team_name": "Enjoy",
+        "won": true,
+        "kills": 33,
+        "deaths": 28,
+        "kd_ratio": 1.18,
+        "adr": 66.4,
+        "kast": 76.9,
+        "rating": 0.98,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.98,
+        "average_adr": 66.4,
+        "recent_rating": 0.98,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23477",
@@ -22249,9 +22349,59 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "traits": {},
       "hltv_player_id": "23477",
       "source_url": "https://www.hltv.org/player/23477/reyoz",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "B8 Academy",
+          "team_name": "Enjoy",
+          "won": true,
+          "kills": 39,
+          "deaths": 37,
+          "kd_ratio": 1.05,
+          "adr": 80.8,
+          "kast": 67.3,
+          "rating": 1.02,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Enjoy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.02,
+          "average_adr": 80.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399461",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "B8 Academy",
+        "team_name": "Enjoy",
+        "won": true,
+        "kills": 39,
+        "deaths": 37,
+        "kd_ratio": 1.05,
+        "adr": 80.8,
+        "kast": 67.3,
+        "rating": 1.02,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.02,
+        "average_adr": 80.8,
+        "recent_rating": 1.02,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23359",
@@ -22263,9 +22413,59 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "traits": {},
       "hltv_player_id": "23359",
       "source_url": "https://www.hltv.org/player/23359/sh1geo",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "B8 Academy",
+          "team_name": "Enjoy",
+          "won": true,
+          "kills": 39,
+          "deaths": 34,
+          "kd_ratio": 1.15,
+          "adr": 81.3,
+          "kast": 80.8,
+          "rating": 1.16,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Enjoy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.16,
+          "average_adr": 81.3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399461",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "B8 Academy",
+        "team_name": "Enjoy",
+        "won": true,
+        "kills": 39,
+        "deaths": 34,
+        "kd_ratio": 1.15,
+        "adr": 81.3,
+        "kast": 80.8,
+        "rating": 1.16,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.16,
+        "average_adr": 81.3,
+        "recent_rating": 1.16,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23112",
@@ -22277,9 +22477,59 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "traits": {},
       "hltv_player_id": "23112",
       "source_url": "https://www.hltv.org/player/23112/kurosa",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "B8 Academy",
+          "team_name": "Enjoy",
+          "won": true,
+          "kills": 33,
+          "deaths": 31,
+          "kd_ratio": 1.06,
+          "adr": 79.8,
+          "kast": 78.8,
+          "rating": 1.07,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Enjoy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.07,
+          "average_adr": 79.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399461",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "B8 Academy",
+        "team_name": "Enjoy",
+        "won": true,
+        "kills": 33,
+        "deaths": 31,
+        "kd_ratio": 1.06,
+        "adr": 79.8,
+        "kast": 78.8,
+        "rating": 1.07,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.07,
+        "average_adr": 79.8,
+        "recent_rating": 1.07,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:16599",
@@ -26599,19 +26849,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         }
       ],
       "timeline_entry": {
-        "adr": 72.4,
-        "date": "2026-10-13",
-        "deaths": 41,
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "kast": 65.3,
-        "kd_ratio": 0.78,
-        "kills": 32,
-        "maps": 3,
         "match_id": "hltv:2399204",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
         "opponent_name": "Galorys",
-        "rating": 0.81,
         "team_name": "ex-Keyd Stars",
-        "won": false
+        "won": false,
+        "kills": 32,
+        "deaths": 41,
+        "kd_ratio": 0.78,
+        "adr": 72.4,
+        "kast": 65.3,
+        "rating": 0.81,
+        "maps": 3
       },
       "form_summary": {
         "series": 1,
@@ -26663,19 +26913,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         }
       ],
       "timeline_entry": {
-        "adr": 55.7,
-        "date": "2026-10-13",
-        "deaths": 38,
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "kast": 65.3,
-        "kd_ratio": 0.63,
-        "kills": 24,
-        "maps": 3,
         "match_id": "hltv:2399204",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
         "opponent_name": "Galorys",
-        "rating": 0.73,
         "team_name": "ex-Keyd Stars",
-        "won": false
+        "won": false,
+        "kills": 24,
+        "deaths": 38,
+        "kd_ratio": 0.63,
+        "adr": 55.7,
+        "kast": 65.3,
+        "rating": 0.73,
+        "maps": 3
       },
       "form_summary": {
         "series": 1,
@@ -27002,6 +27252,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 63.6,
           "rating": 0.8,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Zomblers",
+          "team_name": "Overtake Sector",
+          "won": true,
+          "kills": 43,
+          "deaths": 24,
+          "kd_ratio": 1.79,
+          "adr": 101.5,
+          "kast": 87.5,
+          "rating": 1.58,
+          "maps": 3
         }
       ],
       "hltv_player_id": "20215",
@@ -27011,35 +27276,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Overtake Sector",
           "from_date": "2026-10-11",
-          "through_date": "2026-10-11",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.8,
-          "average_adr": 57.3
+          "win_rate": 0.5,
+          "average_rating": 1.19,
+          "average_adr": 79.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399224",
-        "date": "2026-10-11",
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
-        "opponent_name": "Chicken Coop",
+        "opponent_name": "Zomblers",
         "team_name": "Overtake Sector",
-        "won": false,
-        "kills": 14,
-        "deaths": 16,
-        "kd_ratio": 0.88,
-        "adr": 57.3,
-        "kast": 63.6,
-        "rating": 0.8,
+        "won": true,
+        "kills": 43,
+        "deaths": 24,
+        "kd_ratio": 1.79,
+        "adr": 101.5,
+        "kast": 87.5,
+        "rating": 1.58,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.8,
-        "average_adr": 57.3,
-        "recent_rating": 0.8,
+        "series": 2,
+        "average_rating": 1.19,
+        "average_adr": 79.4,
+        "recent_rating": 1.19,
         "rating_delta": null
       }
     },
@@ -27178,6 +27443,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68.2,
           "rating": 1.08,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Zomblers",
+          "team_name": "Overtake Sector",
+          "won": true,
+          "kills": 33,
+          "deaths": 28,
+          "kd_ratio": 1.18,
+          "adr": 82.7,
+          "kast": 75,
+          "rating": 1.11,
+          "maps": 3
         }
       ],
       "hltv_player_id": "21120",
@@ -27187,35 +27467,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Overtake Sector",
           "from_date": "2026-10-11",
-          "through_date": "2026-10-11",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.08,
-          "average_adr": 76.5
+          "win_rate": 0.5,
+          "average_rating": 1.1,
+          "average_adr": 79.6
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399224",
-        "date": "2026-10-11",
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
-        "opponent_name": "Chicken Coop",
+        "opponent_name": "Zomblers",
         "team_name": "Overtake Sector",
-        "won": false,
-        "kills": 16,
-        "deaths": 14,
-        "kd_ratio": 1.14,
-        "adr": 76.5,
-        "kast": 68.2,
-        "rating": 1.08,
+        "won": true,
+        "kills": 33,
+        "deaths": 28,
+        "kd_ratio": 1.18,
+        "adr": 82.7,
+        "kast": 75,
+        "rating": 1.11,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.08,
-        "average_adr": 76.5,
-        "recent_rating": 1.08,
+        "series": 2,
+        "average_rating": 1.1,
+        "average_adr": 79.6,
+        "recent_rating": 1.1,
         "rating_delta": null
       }
     },
@@ -27256,6 +27536,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 81.8,
           "rating": 1.17,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Zomblers",
+          "team_name": "Overtake Sector",
+          "won": true,
+          "kills": 26,
+          "deaths": 28,
+          "kd_ratio": 0.93,
+          "adr": 79,
+          "kast": 85,
+          "rating": 1.08,
+          "maps": 3
         }
       ],
       "hltv_player_id": "20213",
@@ -27265,35 +27560,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Overtake Sector",
           "from_date": "2026-10-11",
-          "through_date": "2026-10-11",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.17,
-          "average_adr": 99.2
+          "win_rate": 0.5,
+          "average_rating": 1.13,
+          "average_adr": 89.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399224",
-        "date": "2026-10-11",
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
-        "opponent_name": "Chicken Coop",
+        "opponent_name": "Zomblers",
         "team_name": "Overtake Sector",
-        "won": false,
-        "kills": 17,
-        "deaths": 19,
-        "kd_ratio": 0.89,
-        "adr": 99.2,
-        "kast": 81.8,
-        "rating": 1.17,
+        "won": true,
+        "kills": 26,
+        "deaths": 28,
+        "kd_ratio": 0.93,
+        "adr": 79,
+        "kast": 85,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.17,
-        "average_adr": 99.2,
-        "recent_rating": 1.17,
+        "series": 2,
+        "average_rating": 1.13,
+        "average_adr": 89.1,
+        "recent_rating": 1.13,
         "rating_delta": null
       }
     },
@@ -27320,6 +27615,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68.2,
           "rating": 0.8,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Zomblers",
+          "team_name": "Overtake Sector",
+          "won": true,
+          "kills": 30,
+          "deaths": 24,
+          "kd_ratio": 1.25,
+          "adr": 80.7,
+          "kast": 82.5,
+          "rating": 1.36,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24813",
@@ -27329,35 +27639,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Overtake Sector",
           "from_date": "2026-10-11",
-          "through_date": "2026-10-11",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.8,
-          "average_adr": 62.4
+          "win_rate": 0.5,
+          "average_rating": 1.08,
+          "average_adr": 71.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399224",
-        "date": "2026-10-11",
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
-        "opponent_name": "Chicken Coop",
+        "opponent_name": "Zomblers",
         "team_name": "Overtake Sector",
-        "won": false,
-        "kills": 11,
-        "deaths": 16,
-        "kd_ratio": 0.69,
-        "adr": 62.4,
-        "kast": 68.2,
-        "rating": 0.8,
+        "won": true,
+        "kills": 30,
+        "deaths": 24,
+        "kd_ratio": 1.25,
+        "adr": 80.7,
+        "kast": 82.5,
+        "rating": 1.36,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.8,
-        "average_adr": 62.4,
-        "recent_rating": 0.8,
+        "series": 2,
+        "average_rating": 1.08,
+        "average_adr": 71.5,
+        "recent_rating": 1.08,
         "rating_delta": null
       }
     },
@@ -27384,6 +27694,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 72.7,
           "rating": 1.2,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Zomblers",
+          "team_name": "Overtake Sector",
+          "won": true,
+          "kills": 26,
+          "deaths": 21,
+          "kd_ratio": 1.24,
+          "adr": 72.4,
+          "kast": 82.5,
+          "rating": 1.13,
+          "maps": 3
         }
       ],
       "hltv_player_id": "20386",
@@ -27393,35 +27718,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Overtake Sector",
           "from_date": "2026-10-11",
-          "through_date": "2026-10-11",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.2,
-          "average_adr": 56.6
+          "win_rate": 0.5,
+          "average_rating": 1.17,
+          "average_adr": 64.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399224",
-        "date": "2026-10-11",
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
         "event_name": "ESL Challenger League Season 52 North America Cup 3",
-        "opponent_name": "Chicken Coop",
+        "opponent_name": "Zomblers",
         "team_name": "Overtake Sector",
-        "won": false,
-        "kills": 14,
-        "deaths": 14,
-        "kd_ratio": 1,
-        "adr": 56.6,
-        "kast": 72.7,
-        "rating": 1.2,
+        "won": true,
+        "kills": 26,
+        "deaths": 21,
+        "kd_ratio": 1.24,
+        "adr": 72.4,
+        "kast": 82.5,
+        "rating": 1.13,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.2,
-        "average_adr": 56.6,
-        "recent_rating": 1.2,
+        "series": 2,
+        "average_rating": 1.17,
+        "average_adr": 64.5,
+        "recent_rating": 1.17,
         "rating_delta": null
       }
     },
@@ -28325,11 +28650,61 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "maps_3m": 0,
       "signal_index": 50,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Zomblers",
+          "won": false,
+          "kills": 21,
+          "deaths": 28,
+          "kd_ratio": 0.75,
+          "adr": 64.8,
+          "kast": 77.5,
+          "rating": 0.79,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "20787",
       "source_url": "https://www.hltv.org/player/20787/pose1donn",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Zomblers",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.79,
+          "average_adr": 64.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Zomblers",
+        "won": false,
+        "kills": 21,
+        "deaths": 28,
+        "kd_ratio": 0.75,
+        "adr": 64.8,
+        "kast": 77.5,
+        "rating": 0.79,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.79,
+        "average_adr": 64.8,
+        "recent_rating": 0.79,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20273",
@@ -28339,11 +28714,61 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "maps_3m": 0,
       "signal_index": 50,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Zomblers",
+          "won": false,
+          "kills": 26,
+          "deaths": 38,
+          "kd_ratio": 0.68,
+          "adr": 76.6,
+          "kast": 62.5,
+          "rating": 0.99,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "20273",
       "source_url": "https://www.hltv.org/player/20273/cajun",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Zomblers",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.99,
+          "average_adr": 76.6
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Zomblers",
+        "won": false,
+        "kills": 26,
+        "deaths": 38,
+        "kd_ratio": 0.68,
+        "adr": 76.6,
+        "kast": 62.5,
+        "rating": 0.99,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.99,
+        "average_adr": 76.6,
+        "recent_rating": 0.99,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23376",
@@ -28353,11 +28778,61 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "maps_3m": 0,
       "signal_index": 50,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Zomblers",
+          "won": false,
+          "kills": 24,
+          "deaths": 30,
+          "kd_ratio": 0.8,
+          "adr": 55.7,
+          "kast": 77.5,
+          "rating": 0.91,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "23376",
       "source_url": "https://www.hltv.org/player/23376/twigs",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Zomblers",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.91,
+          "average_adr": 55.7
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Zomblers",
+        "won": false,
+        "kills": 24,
+        "deaths": 30,
+        "kd_ratio": 0.8,
+        "adr": 55.7,
+        "kast": 77.5,
+        "rating": 0.91,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.91,
+        "average_adr": 55.7,
+        "recent_rating": 0.91,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25703",
@@ -28367,11 +28842,61 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "maps_3m": 0,
       "signal_index": 50,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Zomblers",
+          "won": false,
+          "kills": 26,
+          "deaths": 34,
+          "kd_ratio": 0.76,
+          "adr": 79.5,
+          "kast": 60,
+          "rating": 0.84,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "25703",
       "source_url": "https://www.hltv.org/player/25703/sml",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Zomblers",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.84,
+          "average_adr": 79.5
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Zomblers",
+        "won": false,
+        "kills": 26,
+        "deaths": 34,
+        "kd_ratio": 0.76,
+        "adr": 79.5,
+        "kast": 60,
+        "rating": 0.84,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.84,
+        "average_adr": 79.5,
+        "recent_rating": 0.84,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23410",
@@ -28381,11 +28906,61 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "maps_3m": 0,
       "signal_index": 50,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Zomblers",
+          "won": false,
+          "kills": 27,
+          "deaths": 29,
+          "kd_ratio": 0.93,
+          "adr": 71.1,
+          "kast": 62.5,
+          "rating": 1.06,
+          "maps": 3
+        }
+      ],
       "hltv_player_id": "23410",
       "source_url": "https://www.hltv.org/player/23410/coolcoms",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Zomblers",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.06,
+          "average_adr": 71.1
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Zomblers",
+        "won": false,
+        "kills": 27,
+        "deaths": 29,
+        "kd_ratio": 0.93,
+        "adr": 71.1,
+        "kast": 62.5,
+        "rating": 1.06,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.06,
+        "average_adr": 71.1,
+        "recent_rating": 1.06,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23199",
@@ -28663,7 +29238,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:23956",
-      "nickname": "Substitute",
+      "nickname": "Bloody",
       "team_name": "Alter Ego",
       "rating_3_0": 1.06,
       "maps_3m": 3,
@@ -30778,11 +31353,1027 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "average_adr": 72.7
         }
       ]
+    },
+    {
+      "player_id": "hltv:26896",
+      "nickname": "Substitute",
+      "team_name": "B8 Academy",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26896",
+      "source_url": "https://www.hltv.org/player/26896/1njustice",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 20,
+          "deaths": 40,
+          "kd_ratio": 0.5,
+          "adr": 47.8,
+          "kast": 61.5,
+          "rating": 0.7,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399461",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Enjoy",
+        "team_name": "B8 Academy",
+        "won": false,
+        "kills": 20,
+        "deaths": 40,
+        "kd_ratio": 0.5,
+        "adr": 47.8,
+        "kast": 61.5,
+        "rating": 0.7,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.7,
+        "average_adr": 47.8,
+        "recent_rating": 0.7,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "B8 Academy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.7,
+          "average_adr": 47.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25162",
+      "nickname": "k1n",
+      "team_name": "B8 Academy",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "25162",
+      "source_url": "https://www.hltv.org/player/25162/k1n",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 31,
+          "deaths": 37,
+          "kd_ratio": 0.84,
+          "adr": 63.1,
+          "kast": 75,
+          "rating": 0.93,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399461",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Enjoy",
+        "team_name": "B8 Academy",
+        "won": false,
+        "kills": 31,
+        "deaths": 37,
+        "kd_ratio": 0.84,
+        "adr": 63.1,
+        "kast": 75,
+        "rating": 0.93,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.93,
+        "average_adr": 63.1,
+        "recent_rating": 0.93,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "B8 Academy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.93,
+          "average_adr": 63.1
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25805",
+      "nickname": "segukawa",
+      "team_name": "B8 Academy",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "25805",
+      "source_url": "https://www.hltv.org/player/25805/segukawa",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 33,
+          "deaths": 33,
+          "kd_ratio": 1,
+          "adr": 66.1,
+          "kast": 63.5,
+          "rating": 1.07,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399461",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Enjoy",
+        "team_name": "B8 Academy",
+        "won": false,
+        "kills": 33,
+        "deaths": 33,
+        "kd_ratio": 1,
+        "adr": 66.1,
+        "kast": 63.5,
+        "rating": 1.07,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.07,
+        "average_adr": 66.1,
+        "recent_rating": 1.07,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "B8 Academy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.07,
+          "average_adr": 66.1
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26002",
+      "nickname": "sherman",
+      "team_name": "B8 Academy",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26002",
+      "source_url": "https://www.hltv.org/player/26002/sherman",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 29,
+          "deaths": 40,
+          "kd_ratio": 0.72,
+          "adr": 71.8,
+          "kast": 71.2,
+          "rating": 0.91,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399461",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Enjoy",
+        "team_name": "B8 Academy",
+        "won": false,
+        "kills": 29,
+        "deaths": 40,
+        "kd_ratio": 0.72,
+        "adr": 71.8,
+        "kast": 71.2,
+        "rating": 0.91,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.91,
+        "average_adr": 71.8,
+        "recent_rating": 0.91,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "B8 Academy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.91,
+          "average_adr": 71.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26361",
+      "nickname": "oju",
+      "team_name": "B8 Academy",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26361",
+      "source_url": "https://www.hltv.org/player/26361/oju",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 40,
+          "deaths": 35,
+          "kd_ratio": 1.14,
+          "adr": 86.2,
+          "kast": 65.4,
+          "rating": 1.29,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399461",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Enjoy",
+        "team_name": "B8 Academy",
+        "won": false,
+        "kills": 40,
+        "deaths": 35,
+        "kd_ratio": 1.14,
+        "adr": 86.2,
+        "kast": 65.4,
+        "rating": 1.29,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.29,
+        "average_adr": 86.2,
+        "recent_rating": 1.29,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "B8 Academy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.29,
+          "average_adr": 86.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:14956",
+      "nickname": "yourwombat",
+      "team_name": "MARKandLARRY",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "14956",
+      "source_url": "https://www.hltv.org/player/14956/yourwombat",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "Rooster",
+          "team_name": "MARKandLARRY",
+          "won": false,
+          "kills": 15,
+          "deaths": 14,
+          "kd_ratio": 1.07,
+          "adr": 51,
+          "kast": 72.7,
+          "rating": 0.98,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "Rooster",
+        "team_name": "MARKandLARRY",
+        "won": false,
+        "kills": 15,
+        "deaths": 14,
+        "kd_ratio": 1.07,
+        "adr": 51,
+        "kast": 72.7,
+        "rating": 0.98,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.98,
+        "average_adr": 51,
+        "recent_rating": 0.98,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "MARKandLARRY",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.98,
+          "average_adr": 51
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:18195",
+      "nickname": "micalis",
+      "team_name": "MARKandLARRY",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "18195",
+      "source_url": "https://www.hltv.org/player/18195/micalis",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "Rooster",
+          "team_name": "MARKandLARRY",
+          "won": false,
+          "kills": 12,
+          "deaths": 20,
+          "kd_ratio": 0.6,
+          "adr": 74.8,
+          "kast": 81.8,
+          "rating": 0.67,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "Rooster",
+        "team_name": "MARKandLARRY",
+        "won": false,
+        "kills": 12,
+        "deaths": 20,
+        "kd_ratio": 0.6,
+        "adr": 74.8,
+        "kast": 81.8,
+        "rating": 0.67,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.67,
+        "average_adr": 74.8,
+        "recent_rating": 0.67,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "MARKandLARRY",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.67,
+          "average_adr": 74.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:18738",
+      "nickname": "Roflko",
+      "team_name": "MARKandLARRY",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "18738",
+      "source_url": "https://www.hltv.org/player/18738/roflko",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "Rooster",
+          "team_name": "MARKandLARRY",
+          "won": false,
+          "kills": 22,
+          "deaths": 15,
+          "kd_ratio": 1.47,
+          "adr": 99.9,
+          "kast": 86.4,
+          "rating": 1.56,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "Rooster",
+        "team_name": "MARKandLARRY",
+        "won": false,
+        "kills": 22,
+        "deaths": 15,
+        "kd_ratio": 1.47,
+        "adr": 99.9,
+        "kast": 86.4,
+        "rating": 1.56,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.56,
+        "average_adr": 99.9,
+        "recent_rating": 1.56,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "MARKandLARRY",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.56,
+          "average_adr": 99.9
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26033",
+      "nickname": "sav",
+      "team_name": "MARKandLARRY",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26033",
+      "source_url": "https://www.hltv.org/player/26033/sav",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "Rooster",
+          "team_name": "MARKandLARRY",
+          "won": false,
+          "kills": 16,
+          "deaths": 15,
+          "kd_ratio": 1.07,
+          "adr": 96.5,
+          "kast": 90.9,
+          "rating": 1.26,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "Rooster",
+        "team_name": "MARKandLARRY",
+        "won": false,
+        "kills": 16,
+        "deaths": 15,
+        "kd_ratio": 1.07,
+        "adr": 96.5,
+        "kast": 90.9,
+        "rating": 1.26,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.26,
+        "average_adr": 96.5,
+        "recent_rating": 1.26,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "MARKandLARRY",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.26,
+          "average_adr": 96.5
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26897",
+      "nickname": "ske",
+      "team_name": "MARKandLARRY",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26897",
+      "source_url": "https://www.hltv.org/player/26897/ske",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "Rooster",
+          "team_name": "MARKandLARRY",
+          "won": false,
+          "kills": 12,
+          "deaths": 15,
+          "kd_ratio": 0.8,
+          "adr": 52.1,
+          "kast": 68.2,
+          "rating": 0.72,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "Rooster",
+        "team_name": "MARKandLARRY",
+        "won": false,
+        "kills": 12,
+        "deaths": 15,
+        "kd_ratio": 0.8,
+        "adr": 52.1,
+        "kast": 68.2,
+        "rating": 0.72,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.72,
+        "average_adr": 52.1,
+        "recent_rating": 0.72,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "MARKandLARRY",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.72,
+          "average_adr": 52.1
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:12877",
+      "nickname": "chelleos",
+      "team_name": "Rooster",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "12877",
+      "source_url": "https://www.hltv.org/player/12877/chelleos",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "MARKandLARRY",
+          "team_name": "Rooster",
+          "won": true,
+          "kills": 14,
+          "deaths": 16,
+          "kd_ratio": 0.88,
+          "adr": 65.3,
+          "kast": 68.2,
+          "rating": 1.21,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "MARKandLARRY",
+        "team_name": "Rooster",
+        "won": true,
+        "kills": 14,
+        "deaths": 16,
+        "kd_ratio": 0.88,
+        "adr": 65.3,
+        "kast": 68.2,
+        "rating": 1.21,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.21,
+        "average_adr": 65.3,
+        "recent_rating": 1.21,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Rooster",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.21,
+          "average_adr": 65.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:14290",
+      "nickname": "SkulL",
+      "team_name": "Rooster",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "14290",
+      "source_url": "https://www.hltv.org/player/14290/skull",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "MARKandLARRY",
+          "team_name": "Rooster",
+          "won": true,
+          "kills": 16,
+          "deaths": 18,
+          "kd_ratio": 0.89,
+          "adr": 90.2,
+          "kast": 72.7,
+          "rating": 1.3,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "MARKandLARRY",
+        "team_name": "Rooster",
+        "won": true,
+        "kills": 16,
+        "deaths": 18,
+        "kd_ratio": 0.89,
+        "adr": 90.2,
+        "kast": 72.7,
+        "rating": 1.3,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.3,
+        "average_adr": 90.2,
+        "recent_rating": 1.3,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Rooster",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.3,
+          "average_adr": 90.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:14333",
+      "nickname": "ju1ces",
+      "team_name": "Rooster",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "14333",
+      "source_url": "https://www.hltv.org/player/14333/ju1ces",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "MARKandLARRY",
+          "team_name": "Rooster",
+          "won": true,
+          "kills": 20,
+          "deaths": 14,
+          "kd_ratio": 1.43,
+          "adr": 102.3,
+          "kast": 81.8,
+          "rating": 1.59,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "MARKandLARRY",
+        "team_name": "Rooster",
+        "won": true,
+        "kills": 20,
+        "deaths": 14,
+        "kd_ratio": 1.43,
+        "adr": 102.3,
+        "kast": 81.8,
+        "rating": 1.59,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.59,
+        "average_adr": 102.3,
+        "recent_rating": 1.59,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Rooster",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.59,
+          "average_adr": 102.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:17392",
+      "nickname": "rekonz",
+      "team_name": "Rooster",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "17392",
+      "source_url": "https://www.hltv.org/player/17392/rekonz",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "MARKandLARRY",
+          "team_name": "Rooster",
+          "won": true,
+          "kills": 14,
+          "deaths": 17,
+          "kd_ratio": 0.82,
+          "adr": 58,
+          "kast": 63.6,
+          "rating": 0.77,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "MARKandLARRY",
+        "team_name": "Rooster",
+        "won": true,
+        "kills": 14,
+        "deaths": 17,
+        "kd_ratio": 0.82,
+        "adr": 58,
+        "kast": 63.6,
+        "rating": 0.77,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.77,
+        "average_adr": 58,
+        "recent_rating": 0.77,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Rooster",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.77,
+          "average_adr": 58
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:20351",
+      "nickname": "foggers",
+      "team_name": "Rooster",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "20351",
+      "source_url": "https://www.hltv.org/player/20351/foggers",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "MARKandLARRY",
+          "team_name": "Rooster",
+          "won": true,
+          "kills": 15,
+          "deaths": 12,
+          "kd_ratio": 1.25,
+          "adr": 75.7,
+          "kast": 81.8,
+          "rating": 1.3,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "MARKandLARRY",
+        "team_name": "Rooster",
+        "won": true,
+        "kills": 15,
+        "deaths": 12,
+        "kd_ratio": 1.25,
+        "adr": 75.7,
+        "kast": 81.8,
+        "rating": 1.3,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.3,
+        "average_adr": 75.7,
+        "recent_rating": 1.3,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Rooster",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.3,
+          "average_adr": 75.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:10994",
+      "nickname": "stavn",
+      "team_name": "Ninjas in Pyjamas",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "10994",
+      "source_url": "https://www.hltv.org/player/10994/stavn",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:14148",
+      "nickname": "sjuush",
+      "team_name": "Ninjas in Pyjamas",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "14148",
+      "source_url": "https://www.hltv.org/player/14148/sjuush",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:19899",
+      "nickname": "Krimbo",
+      "team_name": "Ninjas in Pyjamas",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "19899",
+      "source_url": "https://www.hltv.org/player/19899/krimbo",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:23372",
+      "nickname": "xKacpersky",
+      "team_name": "Ninjas in Pyjamas",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "23372",
+      "source_url": "https://www.hltv.org/player/23372/xkacpersky",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-14T07:43:28Z",
+  "lineups_updated_at_utc": "2026-10-14T13:43:11Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-13",
+  "history_through_date": "2026-10-14",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
