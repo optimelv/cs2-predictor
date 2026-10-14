@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3883,
+    "matches": 3886,
     "maps": 2706,
     "lineup_rows": 8770,
     "source_match_ids": 976
@@ -34,6 +34,28 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:ba116e917b991b6fe3df",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "Overtake",
+      "team2_name": "Zomblers",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Overtake",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
     },
     {
       "match_id": "liquipedia:16ddb084598cf1bf92db",
@@ -586,6 +608,50 @@
           "destiny"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:cf9e6d4addad5a55f091",
+      "match_date": "2026-10-13",
+      "starts_at": "2026-10-13T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Round 1",
+      "team1_name": "6666",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_1"
+    },
+    {
+      "match_id": "liquipedia:cef1272c1d9f39944638",
+      "match_date": "2026-10-13",
+      "starts_at": "2026-10-13T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #3",
+      "team1_name": "ex-kStars",
+      "team2_name": "Galorys",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Galorys",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
     },
     {
       "match_id": "hltv:2399228",
