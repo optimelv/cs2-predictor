@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3901,
+    "matches": 3907,
     "maps": 2790,
     "lineup_rows": 9091,
     "source_match_ids": 976
@@ -818,6 +818,138 @@
           "Slayerhz"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:4c01da0e55cbcaf8d562",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 1",
+      "team1_name": "6666",
+      "team2_name": "GOne",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "6666",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_1"
+    },
+    {
+      "match_id": "liquipedia:3a83834b60dd63fe7dd0",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T11:25:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 1",
+      "team1_name": "BAKS",
+      "team2_name": "BW",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BAKS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_1"
+    },
+    {
+      "match_id": "liquipedia:40aea29d84443b62fd9a",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T12:20:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Group A",
+      "team1_name": "Falcons",
+      "team2_name": "NIP",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:59bc09b2f8ab9e3a654e",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T13:00:00Z",
+      "event_name": "Stake Pulse Beat III - Group C",
+      "team1_name": "Astralis",
+      "team2_name": "HOTU",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Astralis",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_C"
+    },
+    {
+      "match_id": "liquipedia:3bd1432e7181401395fb",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T14:45:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 1",
+      "team1_name": "33",
+      "team2_name": "FORZE.Rld",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FORZE.Rld",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_1"
+    },
+    {
+      "match_id": "liquipedia:28f43b458d086fe9ea9c",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T15:40:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Group B",
+      "team1_name": "Legacy",
+      "team2_name": "PV",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Legacy",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_B"
     },
     {
       "match_id": "liquipedia:16ddb084598cf1bf92db",
