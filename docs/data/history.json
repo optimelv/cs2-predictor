@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-14T18:38:26Z",
+  "generated_at_utc": "2026-10-14T22:17:00Z",
   "through_date": "2026-10-14",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3898,
-    "maps": 2742,
-    "lineup_rows": 8920,
+    "matches": 3901,
+    "maps": 2790,
+    "lineup_rows": 9091,
     "source_match_ids": 976
   },
   "matches": [
@@ -248,8 +248,8 @@
       "winner_name": "realgotis22",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
@@ -652,6 +652,174 @@
       }
     },
     {
+      "match_id": "hltv:2399301",
+      "match_date": "2026-10-14",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "FORZE Reload",
+      "team2_name": "LFO 10",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FORZE Reload",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "FORZE Reload",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "FORZE Reload",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "winner_name": "LFO 10",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "YumsaN",
+          "HeCkBNk",
+          "KusMe",
+          "Lack1",
+          "relaxxie"
+        ],
+        "team2": [
+          "L00m1",
+          "Sapec",
+          "flaw",
+          "dottie",
+          "Mann3n"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399464",
+      "match_date": "2026-10-14",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "team1_name": "Saint Sinners",
+      "team2_name": "MAYBE",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Saint Sinners",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "score1": 10,
+          "score2": 13,
+          "winner_name": "MAYBE",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 4,
+          "winner_name": "Saint Sinners",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 11,
+          "winner_name": "Saint Sinners",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "deb0",
+          "Caleyy",
+          "pavlysha666",
+          "iRV1NG",
+          "halfjix"
+        ],
+        "team2": [
+          "zogeN",
+          "edixenn",
+          "thirtythird",
+          "Awi4",
+          "shallthing"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399574",
+      "match_date": "2026-10-14",
+      "event_name": "CCT 2026 South America Series 7",
+      "team1_name": "DAMAJUANA",
+      "team2_name": "Zetta",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "DAMAJUANA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "score1": 16,
+          "score2": 14,
+          "winner_name": "DAMAJUANA",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "DAMAJUANA",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Zetta",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Substitute",
+          "Substitute",
+          "R4N",
+          "Dunn",
+          "leo"
+        ],
+        "team2": [
+          "Notjuanjo",
+          "zockie",
+          "BabyRage",
+          "Antuanette",
+          "Slayerhz"
+        ]
+      }
+    },
+    {
       "match_id": "liquipedia:16ddb084598cf1bf92db",
       "match_date": "2026-10-13",
       "starts_at": "2026-10-13T01:00:00Z",
@@ -689,10 +857,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 5,
+          "winner_name": "Chicken Coop",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 5,
+          "winner_name": "Chicken Coop",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Zomblers",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Drop",
+          "Crisp",
+          "jared",
+          "stesso",
+          "Wolffe"
+        ],
+        "team2": [
+          "CoolComs",
+          "CAJUN",
+          "Pose1doNN",
+          "twigs",
+          "sml"
+        ]
       }
     },
     {
@@ -711,10 +913,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 16,
+          "score2": 13,
+          "winner_name": "Overtake Sector",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "Overtake Sector",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Iowa Stormboar",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "intra",
+          "Umar",
+          "LEARSI",
+          "jason",
+          "corim"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "aelor",
+          "Scorchyy",
+          "TyRa"
+        ]
       }
     },
     {
@@ -755,10 +991,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 11,
+          "winner_name": "BAKS",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "BAKS",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Spirit Academy",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Norwi",
+          "xdENiSZERA",
+          "whisper",
+          "danistzz",
+          "turbo"
+        ],
+        "team2": [
+          "VILBy",
+          "Kiryasoo",
+          "Netrix",
+          "s1nside",
+          "k0gaSs"
+        ]
       }
     },
     {
@@ -777,10 +1047,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "score1": 3,
+          "score2": 13,
+          "winner_name": "Rooster",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 6,
+          "score2": 13,
+          "winner_name": "Rooster",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Rooster",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "camille",
+          "ElephanT",
+          "Harbor",
+          "vanillaicey",
+          "Kezza"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "Substitute",
+          "SkulL",
+          "rekonz"
+        ]
       }
     },
     {
@@ -799,10 +1103,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 14,
+          "score2": 16,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 7,
+          "score2": 13,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Muk0s",
+          "cadnyx",
+          "Darendeli",
+          "Vej",
+          "cacan"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "BledarD",
+          "ammar",
+          "cerber"
+        ]
       }
     },
     {
@@ -823,8 +1161,20 @@
       "is_elimination": false,
       "maps": [],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "sNx",
+          "SaMey",
+          "olimp",
+          "bajmi",
+          "reiko"
+        ],
+        "team2": [
+          "deb0",
+          "Caleyy",
+          "pavlysha666",
+          "iRV1NG",
+          "halfjix"
+        ]
       }
     },
     {
@@ -843,10 +1193,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "QUINTESSÊNCIA",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "QUINTESSÊNCIA",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Martians",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Substitute",
+          "n0page",
+          "edv",
+          "prozinszsz",
+          "cz1k4"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "Substitute",
+          "Dexter",
+          "bpg"
+        ]
       }
     },
     {
@@ -860,7 +1244,7 @@
       "winner_name": "Alter Ego",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -1553,10 +1937,45 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 3,
+          "winner_name": "Fire Flux",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 14,
+          "score2": 16,
+          "winner_name": "mellren",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "mellren",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Quality",
+          "Cizzx",
+          "xEternaLxx",
+          "zer0UKY",
+          "zemix",
+          "souv"
+        ],
+        "team2": [
+          "lollipop21k",
+          "menddel",
+          "mdl",
+          "shootic",
+          "Maksilvl"
+        ]
       }
     },
     {
@@ -1575,10 +1994,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "Alter Ego",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "Alter Ego",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Chinggis Warriors",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Substitute",
+          "PokemoN",
+          "shadiy",
+          "laxiee",
+          "adeX"
+        ],
+        "team2": [
+          "ROUX",
+          "sk0R",
+          "cool4st",
+          "tikuak",
+          "fury5k"
+        ]
       }
     },
     {
@@ -1597,10 +2050,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 11,
+          "winner_name": "Lynn Vision",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 4,
+          "winner_name": "Lynn Vision",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Just Swing",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Starry",
+          "EmiliaQAQ",
+          "C4LLM3SU3",
+          "z4KR",
+          "Westmelon"
+        ],
+        "team2": [
+          "gas",
+          "Purely",
+          "sATOR1",
+          "skrr",
+          "Daniel"
+        ]
       }
     },
     {
@@ -1619,10 +2106,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 4,
+          "winner_name": "SAW Youngsters",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 17,
+          "score2": 19,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 3,
+          "score2": 13,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "tuxa",
+          "Jayy2s",
+          "jERK0z",
+          "M1KA",
+          "snowiee"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "BledarD",
+          "ammar",
+          "cerber"
+        ]
       }
     },
     {
@@ -1729,10 +2250,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "6666",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": 16,
+          "score2": 13,
+          "winner_name": "6666",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": null,
+          "score2": null,
+          "winner_name": "megoshort",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "skcH",
+          "amster",
+          "rendysky",
+          "kL1o",
+          "stefienson"
+        ],
+        "team2": [
+          "zen",
+          "jayzaR",
+          "Twinkey",
+          "robiin",
+          "Siz"
+        ]
       }
     },
     {
@@ -1751,10 +2306,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 5,
+          "score2": 13,
+          "winner_name": "LP",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "LP",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "winner_name": "LP",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "drg",
+          "ALLE",
+          "ckzao",
+          "lash",
+          "xureba"
+        ],
+        "team2": [
+          "pancc",
+          "happ",
+          "zmb",
+          "divine",
+          "Alisson"
+        ]
       }
     },
     {
@@ -1773,10 +2362,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "Galorys",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 9,
+          "score2": 13,
+          "winner_name": "Bounty Hunters",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 8,
+          "winner_name": "Galorys",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "PKL",
+          "detr0ittJ",
+          "tomate",
+          "gbb",
+          "destiny"
+        ],
+        "team2": [
+          "urban0",
+          "pepe",
+          "ponter",
+          "zock",
+          "KAISER"
+        ]
       }
     },
     {
