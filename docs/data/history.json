@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3890,
+    "matches": 3892,
     "maps": 2715,
     "lineup_rows": 8800,
     "source_match_ids": 976
@@ -246,6 +246,50 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:c4532348ebd0840eb2ad",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T08:55:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Group A",
+      "team1_name": "9z",
+      "team2_name": "Aurora",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "9z",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:c324617d66db694e97d2",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T10:00:00Z",
+      "event_name": "Stake Pulse Beat III - Group C",
+      "team1_name": "Astralis",
+      "team2_name": "Sashi",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Astralis",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_C"
     },
     {
       "match_id": "liquipedia:16ddb084598cf1bf92db",
