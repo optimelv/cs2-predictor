@@ -4,23 +4,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:roman-imperium-cup-ix",
       "event_name": "Roman Imperium Cup IX",
-      "hltv_match_id": "2399034",
-      "match_id": "hltv:2399034",
-      "product_tier": "tier_2",
-      "score1": 13,
-      "score2": 10,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399034/sangal-vs-saw-roman-imperium-cup-ix",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-07T19:55:08Z",
-      "status": "finished",
-      "team1_name": "Sangal",
-      "team2_name": "SAW",
-      "winner_name": "Sangal"
-    },
-    {
-      "event_id": "hltv:roman-imperium-cup-ix",
-      "event_name": "Roman Imperium Cup IX",
       "hltv_match_id": "2399036",
       "match_id": "hltv:2399036",
       "product_tier": "tier_2",
@@ -14713,19 +14696,28 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       ],
       "match_id": "hltv:2399232",
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399232/zomblers-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-14T01:00:00Z",
-      "status": "live",
+      "starts_at": "2026-10-14T02:41:57Z",
+      "status": "finished",
       "team1_name": "Zomblers",
       "team2_name": "Overtake Sector",
-      "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+      "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
+      "winner_name": "Overtake Sector"
     },
     {
-      "event_id": "hltv:9442",
+      "detail_fetched_at_utc": "2026-10-14T07:43:19Z",
+      "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399298",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "match_id": "hltv:2399298",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -14734,12 +14726,19 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-14T08:00:00Z",
       "status": "upcoming",
       "team1_name": "Gothic",
-      "team2_name": "Lavked"
+      "team2_name": "Lavked",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
     },
     {
-      "event_id": "hltv:9456",
+      "detail_fetched_at_utc": "2026-10-14T07:43:23Z",
+      "event_id": "hltv:cct-2026-europe-series-12-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399461",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "match_id": "hltv:2399461",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -14748,7 +14747,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-14T08:00:00Z",
       "status": "upcoming",
       "team1_name": "Enjoy",
-      "team2_name": "B8 Academy"
+      "team2_name": "B8 Academy",
+      "veto_text": "Best of 3 (Online)\n\n* Group A opening match"
     },
     {
       "detail_fetched_at_utc": "2026-10-14T01:58:00Z",
@@ -14772,9 +14772,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
     },
     {
-      "event_id": "hltv:9381",
+      "detail_fetched_at_utc": "2026-10-14T07:43:28Z",
+      "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-3",
       "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399147",
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
       "match_id": "hltv:2399147",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -14783,10 +14789,11 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-14T09:00:00Z",
       "status": "upcoming",
       "team1_name": "MARKandLARRY",
-      "team2_name": "Rooster"
+      "team2_name": "Rooster",
+      "veto_text": "Best of 3 (Online)\n\n* Grand final. Winner qualifies for Season 52 Asia-Pacific Finals."
     },
     {
-      "detail_fetched_at_utc": "2026-10-14T01:58:05Z",
+      "detail_fetched_at_utc": "2026-10-14T07:43:03Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -14849,7 +14856,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Alter Ego"
     },
     {
-      "detail_fetched_at_utc": "2026-10-14T01:58:10Z",
+      "detail_fetched_at_utc": "2026-10-14T07:43:08Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -14898,7 +14905,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "Ryvex"
     },
     {
-      "detail_fetched_at_utc": "2026-10-14T01:58:15Z",
+      "detail_fetched_at_utc": "2026-10-14T07:43:14Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -14959,6 +14966,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "JOGA DE TERNO",
       "team2_name": "A NATA"
+    },
+    {
+      "event_id": "hltv:9387",
+      "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "hltv_match_id": "2399233",
+      "match_id": "hltv:2399233",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399233/chicken-coop-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-15T01:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Chicken Coop",
+      "team2_name": "Overtake Sector"
     },
     {
       "event_id": "hltv:9456",
@@ -51440,14 +51461,31 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           ],
           "match_id": "hltv:2399232",
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399232/zomblers-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-14T01:00:00Z",
-          "status": "live",
+          "starts_at": "2026-10-14T02:41:57Z",
+          "status": "finished",
           "team1_name": "Zomblers",
           "team2_name": "Overtake Sector",
-          "veto_text": "Best of 3 (Online)\n\n* Consolidation final"
+          "veto_text": "Best of 3 (Online)\n\n* Consolidation final",
+          "winner_name": "Overtake Sector"
+        },
+        {
+          "event_id": "hltv:9387",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "hltv_match_id": "2399233",
+          "match_id": "hltv:2399233",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399233/chicken-coop-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-15T01:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Chicken Coop",
+          "team2_name": "Overtake Sector"
         }
       ],
       "name": "ESL Challenger League Season 52 North America Cup 3",
@@ -51705,9 +51743,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Rooster"
         },
         {
-          "event_id": "hltv:9381",
+          "detail_fetched_at_utc": "2026-10-14T07:43:28Z",
+          "event_id": "hltv:esl-challenger-league-season-52-oceania-cup-3",
           "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399147",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "match_id": "hltv:2399147",
           "product_tier": "tier_2",
           "series_format": "bo3",
@@ -51716,7 +51760,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-14T09:00:00Z",
           "status": "upcoming",
           "team1_name": "MARKandLARRY",
-          "team2_name": "Rooster"
+          "team2_name": "Rooster",
+          "veto_text": "Best of 3 (Online)\n\n* Grand final. Winner qualifies for Season 52 Asia-Pacific Finals."
         }
       ],
       "name": "ESL Challenger League Season 52 Oceania Cup 3",
@@ -54325,7 +54370,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
         },
         {
-          "detail_fetched_at_utc": "2026-10-14T01:58:05Z",
+          "detail_fetched_at_utc": "2026-10-14T07:43:03Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -54346,7 +54391,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Group A opening match"
         },
         {
-          "detail_fetched_at_utc": "2026-10-14T01:58:10Z",
+          "detail_fetched_at_utc": "2026-10-14T07:43:08Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -54367,7 +54412,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "veto_text": "Best of 3 (LAN)\n\n* Group B opening match"
         },
         {
-          "detail_fetched_at_utc": "2026-10-14T01:58:15Z",
+          "detail_fetched_at_utc": "2026-10-14T07:43:14Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -54724,9 +54769,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Black Phoenix"
         },
         {
-          "event_id": "hltv:9442",
+          "detail_fetched_at_utc": "2026-10-14T07:43:19Z",
+          "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399298",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "match_id": "hltv:2399298",
           "product_tier": "tier_2",
           "series_format": "bo3",
@@ -54735,7 +54786,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-14T08:00:00Z",
           "status": "upcoming",
           "team1_name": "Gothic",
-          "team2_name": "Lavked"
+          "team2_name": "Lavked",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
         },
         {
           "event_id": "hltv:9442",
@@ -55544,9 +55596,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "id": "hltv:9456",
       "matches": [
         {
-          "event_id": "hltv:9456",
+          "detail_fetched_at_utc": "2026-10-14T07:43:23Z",
+          "event_id": "hltv:cct-2026-europe-series-12-closed-qualifier",
           "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399461",
+          "lineups": {
+            "team1": [],
+            "team2": []
+          },
           "match_id": "hltv:2399461",
           "product_tier": "tier_2",
           "series_format": "bo3",
@@ -55555,7 +55613,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-14T08:00:00Z",
           "status": "upcoming",
           "team1_name": "Enjoy",
-          "team2_name": "B8 Academy"
+          "team2_name": "B8 Academy",
+          "veto_text": "Best of 3 (Online)\n\n* Group A opening match"
         },
         {
           "event_id": "hltv:9456",
@@ -55612,11 +55671,12 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Privateer"
       ],
       "product_tier": "tier_2",
+      "source_url": "https://www.hltv.org/events/archive",
       "status": "upcoming",
       "teams": 8
     }
   ],
-  "last_verified_utc": "2026-10-14T01:58:20Z",
+  "last_verified_utc": "2026-10-14T07:43:28Z",
   "sources": [
     {
       "name": "HLTV events calendar",
