@@ -19258,71 +19258,321 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:6593",
       "nickname": "PKL",
       "team_name": "Galorys",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.86,
+      "maps_3m": 3,
+      "signal_index": 36,
       "traits": {},
       "hltv_player_id": "6593",
       "source_url": "https://www.hltv.org/player/6593/pkl",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 58.5,
+          "date": "2026-10-13",
+          "deaths": 32,
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "kast": 79.6,
+          "kd_ratio": 0.78,
+          "kills": 25,
+          "maps": 3,
+          "match_id": "hltv:2399204",
+          "opponent_name": "ex-Keyd Stars",
+          "rating": 0.86,
+          "team_name": "Galorys",
+          "won": true
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Galorys",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.86,
+          "average_adr": 58.5
+        }
+      ],
+      "timeline_entry": {
+        "adr": 58.5,
+        "date": "2026-10-13",
+        "deaths": 32,
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "kast": 79.6,
+        "kd_ratio": 0.78,
+        "kills": 25,
+        "maps": 3,
+        "match_id": "hltv:2399204",
+        "opponent_name": "ex-Keyd Stars",
+        "rating": 0.86,
+        "team_name": "Galorys",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.86,
+        "average_adr": 58.5,
+        "recent_rating": 0.86,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23551",
       "nickname": "tomate",
       "team_name": "Galorys",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.01,
+      "maps_3m": 3,
+      "signal_index": 51,
       "traits": {},
       "hltv_player_id": "23551",
       "source_url": "https://www.hltv.org/player/23551/tomate",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 63.8,
+          "date": "2026-10-13",
+          "deaths": 31,
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "kast": 71.4,
+          "kd_ratio": 0.94,
+          "kills": 29,
+          "maps": 3,
+          "match_id": "hltv:2399204",
+          "opponent_name": "ex-Keyd Stars",
+          "rating": 1.01,
+          "team_name": "Galorys",
+          "won": true
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Galorys",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.01,
+          "average_adr": 63.8
+        }
+      ],
+      "timeline_entry": {
+        "adr": 63.8,
+        "date": "2026-10-13",
+        "deaths": 31,
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "kast": 71.4,
+        "kd_ratio": 0.94,
+        "kills": 29,
+        "maps": 3,
+        "match_id": "hltv:2399204",
+        "opponent_name": "ex-Keyd Stars",
+        "rating": 1.01,
+        "team_name": "Galorys",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.01,
+        "average_adr": 63.8,
+        "recent_rating": 1.01,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:18610",
       "nickname": "detr0ittJ",
       "team_name": "Galorys",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.11,
+      "maps_3m": 3,
+      "signal_index": 61,
       "traits": {},
       "hltv_player_id": "18610",
       "source_url": "https://www.hltv.org/player/18610/detr0ittj",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 76.8,
+          "date": "2026-10-13",
+          "deaths": 30,
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "kast": 73.5,
+          "kd_ratio": 1.1,
+          "kills": 33,
+          "maps": 3,
+          "match_id": "hltv:2399204",
+          "opponent_name": "ex-Keyd Stars",
+          "rating": 1.11,
+          "team_name": "Galorys",
+          "won": true
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Galorys",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.11,
+          "average_adr": 76.8
+        }
+      ],
+      "timeline_entry": {
+        "adr": 76.8,
+        "date": "2026-10-13",
+        "deaths": 30,
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "kast": 73.5,
+        "kd_ratio": 1.1,
+        "kills": 33,
+        "maps": 3,
+        "match_id": "hltv:2399204",
+        "opponent_name": "ex-Keyd Stars",
+        "rating": 1.11,
+        "team_name": "Galorys",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.11,
+        "average_adr": 76.8,
+        "recent_rating": 1.11,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20522",
       "nickname": "gbb",
       "team_name": "Galorys",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.46,
+      "maps_3m": 3,
+      "signal_index": 96,
       "traits": {},
       "hltv_player_id": "20522",
       "source_url": "https://www.hltv.org/player/20522/gbb",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 98.1,
+          "date": "2026-10-13",
+          "deaths": 34,
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "kast": 79.6,
+          "kd_ratio": 1.26,
+          "kills": 43,
+          "maps": 3,
+          "match_id": "hltv:2399204",
+          "opponent_name": "ex-Keyd Stars",
+          "rating": 1.46,
+          "team_name": "Galorys",
+          "won": true
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Galorys",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.46,
+          "average_adr": 98.1
+        }
+      ],
+      "timeline_entry": {
+        "adr": 98.1,
+        "date": "2026-10-13",
+        "deaths": 34,
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "kast": 79.6,
+        "kd_ratio": 1.26,
+        "kills": 43,
+        "maps": 3,
+        "match_id": "hltv:2399204",
+        "opponent_name": "ex-Keyd Stars",
+        "rating": 1.46,
+        "team_name": "Galorys",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.46,
+        "average_adr": 98.1,
+        "recent_rating": 1.46,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:9483",
       "nickname": "destiny",
       "team_name": "Galorys",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.59,
+      "maps_3m": 3,
+      "signal_index": 100,
       "traits": {},
       "hltv_player_id": "9483",
       "source_url": "https://www.hltv.org/player/9483/destiny",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 105.6,
+          "date": "2026-10-13",
+          "deaths": 33,
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "kast": 75.5,
+          "kd_ratio": 1.58,
+          "kills": 52,
+          "maps": 3,
+          "match_id": "hltv:2399204",
+          "opponent_name": "ex-Keyd Stars",
+          "rating": 1.59,
+          "team_name": "Galorys",
+          "won": true
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Galorys",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.59,
+          "average_adr": 105.6
+        }
+      ],
+      "timeline_entry": {
+        "adr": 105.6,
+        "date": "2026-10-13",
+        "deaths": 33,
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "kast": 75.5,
+        "kd_ratio": 1.58,
+        "kills": 52,
+        "maps": 3,
+        "match_id": "hltv:2399204",
+        "opponent_name": "ex-Keyd Stars",
+        "rating": 1.59,
+        "team_name": "Galorys",
+        "won": true
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.59,
+        "average_adr": 105.6,
+        "recent_rating": 1.59,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:9214",
@@ -20890,43 +21140,193 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:16645",
       "nickname": "drg",
       "team_name": "ex-Keyd Stars",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.96,
+      "maps_3m": 3,
+      "signal_index": 46,
       "traits": {},
       "hltv_player_id": "16645",
       "source_url": "https://www.hltv.org/player/16645/drg",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 75.3,
+          "date": "2026-10-13",
+          "deaths": 41,
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "kast": 61.2,
+          "kd_ratio": 0.76,
+          "kills": 31,
+          "maps": 3,
+          "match_id": "hltv:2399204",
+          "opponent_name": "Galorys",
+          "rating": 0.96,
+          "team_name": "ex-Keyd Stars",
+          "won": false
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "ex-Keyd Stars",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.96,
+          "average_adr": 75.3
+        }
+      ],
+      "timeline_entry": {
+        "adr": 75.3,
+        "date": "2026-10-13",
+        "deaths": 41,
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "kast": 61.2,
+        "kd_ratio": 0.76,
+        "kills": 31,
+        "maps": 3,
+        "match_id": "hltv:2399204",
+        "opponent_name": "Galorys",
+        "rating": 0.96,
+        "team_name": "ex-Keyd Stars",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.96,
+        "average_adr": 75.3,
+        "recent_rating": 0.96,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:22362",
       "nickname": "xureba",
       "team_name": "ex-Keyd Stars",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 1.4,
+      "maps_3m": 3,
+      "signal_index": 90,
       "traits": {},
       "hltv_player_id": "22362",
       "source_url": "https://www.hltv.org/player/22362/xureba",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 90.9,
+          "date": "2026-10-13",
+          "deaths": 32,
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "kast": 75.5,
+          "kd_ratio": 1.28,
+          "kills": 41,
+          "maps": 3,
+          "match_id": "hltv:2399204",
+          "opponent_name": "Galorys",
+          "rating": 1.4,
+          "team_name": "ex-Keyd Stars",
+          "won": false
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "ex-Keyd Stars",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.4,
+          "average_adr": 90.9
+        }
+      ],
+      "timeline_entry": {
+        "adr": 90.9,
+        "date": "2026-10-13",
+        "deaths": 32,
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "kast": 75.5,
+        "kd_ratio": 1.28,
+        "kills": 41,
+        "maps": 3,
+        "match_id": "hltv:2399204",
+        "opponent_name": "Galorys",
+        "rating": 1.4,
+        "team_name": "ex-Keyd Stars",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.4,
+        "average_adr": 90.9,
+        "recent_rating": 1.4,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:22956",
       "nickname": "lash",
       "team_name": "ex-Keyd Stars",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.91,
+      "maps_3m": 3,
+      "signal_index": 41,
       "traits": {},
       "hltv_player_id": "22956",
       "source_url": "https://www.hltv.org/player/22956/lash",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 61.8,
+          "date": "2026-10-13",
+          "deaths": 30,
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "kast": 73.5,
+          "kd_ratio": 1,
+          "kills": 30,
+          "maps": 3,
+          "match_id": "hltv:2399204",
+          "opponent_name": "Galorys",
+          "rating": 0.91,
+          "team_name": "ex-Keyd Stars",
+          "won": false
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "ex-Keyd Stars",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.91,
+          "average_adr": 61.8
+        }
+      ],
+      "timeline_entry": {
+        "adr": 61.8,
+        "date": "2026-10-13",
+        "deaths": 30,
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "kast": 73.5,
+        "kd_ratio": 1,
+        "kills": 30,
+        "maps": 3,
+        "match_id": "hltv:2399204",
+        "opponent_name": "Galorys",
+        "rating": 0.91,
+        "team_name": "ex-Keyd Stars",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.91,
+        "average_adr": 61.8,
+        "recent_rating": 0.91,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:21100",
@@ -26161,29 +26561,129 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "player_id": "hltv:19972",
       "nickname": "ckzao",
       "team_name": "ex-Keyd Stars",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.81,
+      "maps_3m": 3,
+      "signal_index": 31,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 72.4,
+          "date": "2026-10-13",
+          "deaths": 41,
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "kast": 65.3,
+          "kd_ratio": 0.78,
+          "kills": 32,
+          "maps": 3,
+          "match_id": "hltv:2399204",
+          "opponent_name": "Galorys",
+          "rating": 0.81,
+          "team_name": "ex-Keyd Stars",
+          "won": false
+        }
+      ],
       "hltv_player_id": "19972",
       "source_url": "https://www.hltv.org/player/19972/ckzao",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "ex-Keyd Stars",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.81,
+          "average_adr": 72.4
+        }
+      ],
+      "timeline_entry": {
+        "adr": 72.4,
+        "date": "2026-10-13",
+        "deaths": 41,
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "kast": 65.3,
+        "kd_ratio": 0.78,
+        "kills": 32,
+        "maps": 3,
+        "match_id": "hltv:2399204",
+        "opponent_name": "Galorys",
+        "rating": 0.81,
+        "team_name": "ex-Keyd Stars",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.81,
+        "average_adr": 72.4,
+        "recent_rating": 0.81,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:11922",
       "nickname": "ALLE",
       "team_name": "ex-Keyd Stars",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
+      "rating_3_0": 0.73,
+      "maps_3m": 3,
+      "signal_index": 23,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "adr": 55.7,
+          "date": "2026-10-13",
+          "deaths": 38,
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "kast": 65.3,
+          "kd_ratio": 0.63,
+          "kills": 24,
+          "maps": 3,
+          "match_id": "hltv:2399204",
+          "opponent_name": "Galorys",
+          "rating": 0.73,
+          "team_name": "ex-Keyd Stars",
+          "won": false
+        }
+      ],
       "hltv_player_id": "11922",
       "source_url": "https://www.hltv.org/player/11922/alle",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "ex-Keyd Stars",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.73,
+          "average_adr": 55.7
+        }
+      ],
+      "timeline_entry": {
+        "adr": 55.7,
+        "date": "2026-10-13",
+        "deaths": 38,
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "kast": 65.3,
+        "kd_ratio": 0.63,
+        "kills": 24,
+        "maps": 3,
+        "match_id": "hltv:2399204",
+        "opponent_name": "Galorys",
+        "rating": 0.73,
+        "team_name": "ex-Keyd Stars",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.73,
+        "average_adr": 55.7,
+        "recent_rating": 0.73,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24262",
@@ -30280,7 +30780,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       ]
     }
   ],
-  "lineups_updated_at_utc": "2026-10-13T22:50:46Z",
+  "lineups_updated_at_utc": "2026-10-14T01:58:20Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-13",
   "history_profile_count": 53,

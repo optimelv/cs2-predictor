@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-13T22:50:46Z",
+  "generated_at_utc": "2026-10-14T01:58:20Z",
   "through_date": "2026-10-13",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3881,
-    "maps": 2703,
-    "lineup_rows": 8760,
+    "matches": 3882,
+    "maps": 2706,
+    "lineup_rows": 8770,
     "source_match_ids": 976
   },
   "matches": [
@@ -398,7 +398,7 @@
       "winner_name": "LOS NINOS",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -508,6 +508,62 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_B"
+    },
+    {
+      "match_id": "hltv:2399204",
+      "match_date": "2026-10-13",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "team1_name": "ex-Keyd Stars",
+      "team2_name": "Galorys",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Galorys",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 6,
+          "score2": 13,
+          "winner_name": "Galorys",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 14,
+          "score2": 16,
+          "winner_name": "Galorys",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Galorys",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "drg",
+          "ALLE",
+          "ckzao",
+          "lash",
+          "xureba"
+        ],
+        "team2": [
+          "PKL",
+          "detr0ittJ",
+          "tomate",
+          "gbb",
+          "destiny"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399228",
