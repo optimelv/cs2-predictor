@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-14T13:43:11Z",
+  "generated_at_utc": "2026-10-14T18:38:26Z",
   "through_date": "2026-10-14",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3892,
-    "maps": 2715,
-    "lineup_rows": 8800,
+    "matches": 3898,
+    "maps": 2742,
+    "lineup_rows": 8920,
     "source_match_ids": 976
   },
   "matches": [
@@ -109,8 +109,20 @@
       "is_elimination": false,
       "maps": [],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Get_Jeka",
+          "Ryujin",
+          "shg",
+          "KENSI",
+          "m2"
+        ],
+        "team2": [
+          "xm1nd",
+          "azukay",
+          "k4nfuz",
+          "1NVISIBLEE",
+          "jakekeS"
+        ]
       }
     },
     {
@@ -243,8 +255,20 @@
       "is_elimination": false,
       "maps": [],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "spamzzy",
+          "TORITO",
+          "points",
+          "JSC",
+          "otEB"
+        ],
+        "team2": [
+          "ruan pablo",
+          "shrr",
+          "guizo",
+          "extazzy",
+          "ianzin"
+        ]
       }
     },
     {
@@ -290,6 +314,342 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_C"
+    },
+    {
+      "match_id": "hltv:2399299",
+      "match_date": "2026-10-14",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "mellren",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 8,
+          "score2": 13,
+          "winner_name": "mellren",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 3,
+          "winner_name": "ex-RUSTEC",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 5,
+          "winner_name": "ex-RUSTEC",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "shalfey",
+          "youka",
+          "bl1x1",
+          "yiksrezo",
+          "Brilliance"
+        ],
+        "team2": [
+          "lollipop21k",
+          "menddel",
+          "mdl",
+          "shootic",
+          "Maksilvl"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399462",
+      "match_date": "2026-10-14",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "team1_name": "Banda Chuya",
+      "team2_name": "6666",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "6666",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "score1": 14,
+          "score2": 16,
+          "winner_name": "6666",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "Banda Chuya",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 2,
+          "score2": 10,
+          "winner_name": "6666",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "tomiko",
+          "maaryy",
+          "AdrieN",
+          "ezox",
+          "Showk"
+        ],
+        "team2": [
+          "amster",
+          "kL1o",
+          "rendysky",
+          "skcH",
+          "stefienson"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399463",
+      "match_date": "2026-10-14",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "team1_name": "PCIFIC",
+      "team2_name": "Ryvex",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "PCIFIC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 8,
+          "winner_name": "PCIFIC",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "PCIFIC",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Ryvex",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "lugseN",
+          "jresy",
+          "scolleN",
+          "oyesil",
+          "tgN"
+        ],
+        "team2": [
+          "swaggy",
+          "jeyN",
+          "N0R1",
+          "oskvr",
+          "wfn"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399175",
+      "match_date": "2026-10-14",
+      "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+      "team1_name": "Lynn Vision",
+      "team2_name": "Alter Ego",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Lynn Vision",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 9,
+          "score2": 13,
+          "winner_name": "Alter Ego",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 11,
+          "winner_name": "Lynn Vision",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 4,
+          "winner_name": "Lynn Vision",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Starry",
+          "EmiliaQAQ",
+          "C4LLM3SU3",
+          "z4KR",
+          "Westmelon"
+        ],
+        "team2": [
+          "Substitute",
+          "PokemoN",
+          "shadiy",
+          "laxiee",
+          "adeX"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399300",
+      "match_date": "2026-10-14",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "G2 Ares",
+      "team2_name": "The Last Resort",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "G2 Ares",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 10,
+          "score2": 13,
+          "winner_name": "The Last Resort",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 8,
+          "winner_name": "G2 Ares",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "G2 Ares",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "TMKj",
+          "SHiNE",
+          "hitori",
+          "Junyme",
+          "yksjupe"
+        ],
+        "team2": [
+          "Extinct",
+          "arTisT",
+          "Girafffe",
+          "Vacancy",
+          "bevve"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399573",
+      "match_date": "2026-10-14",
+      "event_name": "CCT 2026 South America Series 7",
+      "team1_name": "Sementes do Mal",
+      "team2_name": "RED Canids Academy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "RED Canids Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 0,
+          "score2": 13,
+          "winner_name": "RED Canids Academy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 5,
+          "score2": 13,
+          "winner_name": "RED Canids Academy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "winner_name": "RED Canids Academy",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Substitute",
+          "terran",
+          "Aker",
+          "Mrd",
+          "Kaiserzy"
+        ],
+        "team2": [
+          "Substitute",
+          "n1cks",
+          "rafa",
+          "sanc",
+          "gtw"
+        ]
+      }
     },
     {
       "match_id": "liquipedia:16ddb084598cf1bf92db",
@@ -500,15 +860,49 @@
       "winner_name": "Alter Ego",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "Just Swing",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 15,
+          "score2": 19,
+          "winner_name": "Alter Ego",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 6,
+          "score2": 13,
+          "winner_name": "Alter Ego",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "gas",
+          "Purely",
+          "sATOR1",
+          "skrr",
+          "Daniel"
+        ],
+        "team2": [
+          "Substitute",
+          "PokemoN",
+          "shadiy",
+          "laxiee",
+          "adeX"
+        ]
       }
     },
     {
@@ -615,10 +1009,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 2,
+          "winner_name": "Procyon",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 2,
+          "winner_name": "Procyon",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Hacha",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "laser",
+          "lenci",
+          "pavv",
+          "MaxOff",
+          "next"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "Substitute",
+          "Lucasye",
+          "superex"
+        ]
       }
     },
     {
@@ -637,10 +1065,44 @@
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
-      "maps": [],
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 4,
+          "winner_name": "Black Phoenix",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 8,
+          "winner_name": "Black Phoenix",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "winner_name": "6666",
+          "picked_by": null
+        }
+      ],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "topo",
+          "karnez",
+          "4X1s",
+          "Salazar",
+          "MRcreed"
+        ],
+        "team2": [
+          "skcH",
+          "amster",
+          "rendysky",
+          "kL1o",
+          "stefienson"
+        ]
       }
     },
     {
@@ -661,8 +1123,20 @@
       "is_elimination": false,
       "maps": [],
       "lineups": {
-        "team1": [],
-        "team2": []
+        "team1": [
+          "Lcs",
+          "Lukita",
+          "rx",
+          "Cr1a",
+          "ghosT1"
+        ],
+        "team2": [
+          "RAYQUAZA",
+          "thpp",
+          "thoth",
+          "k1st",
+          "pml"
+        ]
       }
     },
     {
