@@ -2160,5 +2160,20 @@
     "name": "ENVY",
     "logo_url": "https://liquipedia.net/commons/images/thumb/8/81/Team_Envy_2018_lightmode.png/50px-Team_Envy_2018_lightmode.png",
     "source": "Liquipedia"
+  },
+  "ct0m": {
+    "name": "ct0m",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6a/Team_ct0m_BSB6_allmode.png/44px-Team_ct0m_BSB6_allmode.png",
+    "source": "Liquipedia"
+  },
+  "m33": {
+    "name": "M33",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/a/a6/Team_M33_allmode.png/44px-Team_M33_allmode.png",
+    "source": "Liquipedia"
+  },
+  "drzhwn": {
+    "name": "DrzhWn",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/b/bc/DerzhaWin.png/79px-DerzhaWin.png",
+    "source": "Liquipedia"
   }
 }
