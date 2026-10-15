@@ -2150,5 +2150,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "Hacha",
     "logo_url": "https://liquipedia.net/commons/images/thumb/7/7c/Hacha_eSports_allmode.png/50px-Hacha_eSports_allmode.png",
     "source": "Liquipedia"
+  },
+  "ale": {
+    "name": "ALE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/9/91/Club_Alianza_Lima_allmode.png/39px-Club_Alianza_Lima_allmode.png",
+    "source": "Liquipedia"
   }
 };

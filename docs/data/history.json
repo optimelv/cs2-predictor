@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3910,
+    "matches": 3914,
     "maps": 2796,
     "lineup_rows": 9111,
     "source_match_ids": 976
@@ -1084,6 +1084,72 @@
           "R99"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:d59f6f52df33098822e2",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T17:10:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 1",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Phoenix",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_1"
+    },
+    {
+      "match_id": "liquipedia:0f2f9d2800547137ca41",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T17:15:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Round 1",
+      "team1_name": "FORZE.Rld",
+      "team2_name": "Sökerorg",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FORZE.Rld",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_1"
+    },
+    {
+      "match_id": "liquipedia:aa09a221fc2921edebcb",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T19:00:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Group B",
+      "team1_name": "BB",
+      "team2_name": "FURIA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_B"
     },
     {
       "match_id": "liquipedia:16ddb084598cf1bf92db",
@@ -61066,6 +61132,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/South_America/2#Group_B"
+    },
+    {
+      "match_id": "liquipedia:d1df21f43301fb9313e8",
+      "match_date": "2026-07-09",
+      "starts_at": "2026-07-09T09:40:00Z",
+      "event_name": "RES Showdown EU Fall '26",
+      "team1_name": "B8",
+      "team2_name": "Sangrija",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "B8",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/RLG/RES/Showdown/2026/Fall/Europe#Results"
     },
     {
       "match_id": "liquipedia:ca1f2684bc7d4f4c8cf1",
