@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-15T13:28:26Z",
+  "generated_at_utc": "2026-10-15T18:18:22Z",
   "through_date": "2026-10-15",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3929,
-    "maps": 2808,
-    "lineup_rows": 9171,
+    "matches": 3932,
+    "maps": 2814,
+    "lineup_rows": 9201,
     "source_match_ids": 976
   },
   "matches": [
@@ -516,6 +516,152 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_1"
     },
     {
+      "match_id": "hltv:2399304",
+      "match_date": "2026-10-15",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "The Last Resort",
+      "team2_name": "Spirit Academy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 7,
+          "score2": 13,
+          "winner_name": "Spirit Academy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": 6,
+          "score2": 13,
+          "winner_name": "Spirit Academy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Spirit Academy",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Extinct",
+          "arTisT",
+          "Girafffe",
+          "Vacancy",
+          "bevve"
+        ],
+        "team2": [
+          "VILBy",
+          "Kiryasoo",
+          "Netrix",
+          "s1nside",
+          "k0gaSs"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399305",
+      "match_date": "2026-10-15",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Gothic",
+      "team2_name": "LFO 10",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "LFO 10",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [
+          "Get_Jeka",
+          "Ryujin",
+          "shg",
+          "KENSI",
+          "m2"
+        ],
+        "team2": [
+          "L00m1",
+          "Sapec",
+          "flaw",
+          "dottie",
+          "Mann3n"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399467",
+      "match_date": "2026-10-15",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "team1_name": "Enjoy",
+      "team2_name": "ex-6666",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-6666",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "Enjoy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 10,
+          "score2": 13,
+          "winner_name": "ex-6666",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 6,
+          "score2": 13,
+          "winner_name": "ex-6666",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "kurosa",
+          "sh1geo",
+          "reyoz",
+          "nbl",
+          "flawix"
+        ],
+        "team2": [
+          "amster",
+          "kL1o",
+          "rendysky",
+          "skcH",
+          "stefienson"
+        ]
+      }
+    },
+    {
       "match_id": "hltv:2399232",
       "match_date": "2026-10-14",
       "event_name": "ESL Challenger League Season 52 North America Cup 3",
@@ -906,8 +1052,8 @@
         },
         {
           "map_name": "Dust2",
-          "score1": 2,
-          "score2": 10,
+          "score1": 3,
+          "score2": 13,
           "winner_name": "6666",
           "picked_by": null
         }
@@ -917,14 +1063,14 @@
           "tomiko",
           "maaryy",
           "AdrieN",
-          "ezox",
-          "Showk"
+          "Showk",
+          "ezox"
         ],
         "team2": [
-          "amster",
-          "kL1o",
-          "rendysky",
           "skcH",
+          "amster",
+          "rendysky",
+          "kL1o",
           "stefienson"
         ]
       }
@@ -1052,8 +1198,8 @@
       "winner_name": "G2 Ares",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
@@ -2300,7 +2446,7 @@
       "winner_name": "your end",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,

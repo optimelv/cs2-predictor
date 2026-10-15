@@ -15612,6 +15612,21 @@
           "kast": 74.4,
           "rating": 0.94,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 10,
+          "deaths": 12,
+          "kd_ratio": 0.83,
+          "adr": 70.7,
+          "kast": 75,
+          "rating": 1.16,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -15619,36 +15634,36 @@
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-13",
-          "series": 3,
-          "wins": 2,
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 0.98,
-          "average_adr": 72.8
+          "win_rate": 0.75,
+          "average_rating": 1.03,
+          "average_adr": 72.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399294",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399304",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "BAKS",
+        "opponent_name": "The Last Resort",
         "team_name": "Spirit Academy",
-        "won": false,
-        "kills": 27,
-        "deaths": 28,
-        "kd_ratio": 0.96,
-        "adr": 77.1,
-        "kast": 74.4,
-        "rating": 0.94,
+        "won": true,
+        "kills": 10,
+        "deaths": 12,
+        "kd_ratio": 0.83,
+        "adr": 70.7,
+        "kast": 75,
+        "rating": 1.16,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.98,
-        "average_adr": 72.8,
-        "recent_rating": 0.98,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.03,
+        "average_adr": 72.3,
+        "recent_rating": 1.02,
+        "rating_delta": -0.03
       }
     },
     {
@@ -15706,6 +15721,21 @@
           "kast": 69.8,
           "rating": 0.71,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 13,
+          "deaths": 10,
+          "kd_ratio": 1.3,
+          "adr": 60.1,
+          "kast": 65,
+          "rating": 0.99,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -15713,36 +15743,36 @@
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-13",
-          "series": 3,
-          "wins": 2,
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.03,
-          "average_adr": 74.3
+          "win_rate": 0.75,
+          "average_rating": 1.02,
+          "average_adr": 70.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399294",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399304",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "BAKS",
+        "opponent_name": "The Last Resort",
         "team_name": "Spirit Academy",
-        "won": false,
-        "kills": 18,
-        "deaths": 29,
-        "kd_ratio": 0.62,
-        "adr": 55.5,
-        "kast": 69.8,
-        "rating": 0.71,
+        "won": true,
+        "kills": 13,
+        "deaths": 10,
+        "kd_ratio": 1.3,
+        "adr": 60.1,
+        "kast": 65,
+        "rating": 0.99,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.03,
-        "average_adr": 74.3,
-        "recent_rating": 1.03,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.02,
+        "average_adr": 70.7,
+        "recent_rating": 0.94,
+        "rating_delta": -0.31
       }
     },
     {
@@ -15800,6 +15830,21 @@
           "kast": 58.1,
           "rating": 0.98,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 19,
+          "deaths": 10,
+          "kd_ratio": 1.9,
+          "adr": 88.3,
+          "kast": 75,
+          "rating": 1.76,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -15807,36 +15852,36 @@
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-13",
-          "series": 3,
-          "wins": 2,
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.31,
-          "average_adr": 78.9
+          "win_rate": 0.75,
+          "average_rating": 1.42,
+          "average_adr": 81.2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399294",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399304",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "BAKS",
+        "opponent_name": "The Last Resort",
         "team_name": "Spirit Academy",
-        "won": false,
-        "kills": 31,
-        "deaths": 29,
-        "kd_ratio": 1.07,
-        "adr": 73.8,
-        "kast": 58.1,
-        "rating": 0.98,
+        "won": true,
+        "kills": 19,
+        "deaths": 10,
+        "kd_ratio": 1.9,
+        "adr": 88.3,
+        "kast": 75,
+        "rating": 1.76,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.31,
-        "average_adr": 78.9,
-        "recent_rating": 1.31,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.42,
+        "average_adr": 81.2,
+        "recent_rating": 1.41,
+        "rating_delta": -0.05
       }
     },
     {
@@ -15894,6 +15939,21 @@
           "kast": 62.8,
           "rating": 1.08,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 15,
+          "deaths": 15,
+          "kd_ratio": 1,
+          "adr": 80.6,
+          "kast": 65,
+          "rating": 1.02,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -15901,36 +15961,36 @@
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-13",
-          "series": 3,
-          "wins": 2,
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 0.96,
-          "average_adr": 76.3
+          "win_rate": 0.75,
+          "average_rating": 0.97,
+          "average_adr": 77.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399294",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399304",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "BAKS",
+        "opponent_name": "The Last Resort",
         "team_name": "Spirit Academy",
-        "won": false,
-        "kills": 33,
-        "deaths": 35,
-        "kd_ratio": 0.94,
-        "adr": 94.6,
-        "kast": 62.8,
-        "rating": 1.08,
+        "won": true,
+        "kills": 15,
+        "deaths": 15,
+        "kd_ratio": 1,
+        "adr": 80.6,
+        "kast": 65,
+        "rating": 1.02,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.96,
-        "average_adr": 76.3,
-        "recent_rating": 0.96,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.97,
+        "average_adr": 77.4,
+        "recent_rating": 0.98,
+        "rating_delta": 0.03
       }
     },
     {
@@ -15988,6 +16048,21 @@
           "kast": 69.8,
           "rating": 0.87,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 12,
+          "deaths": 14,
+          "kd_ratio": 0.86,
+          "adr": 70.5,
+          "kast": 80,
+          "rating": 1.11,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -15995,36 +16070,36 @@
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-13",
-          "series": 3,
-          "wins": 2,
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.03,
-          "average_adr": 62.2
+          "win_rate": 0.75,
+          "average_rating": 1.05,
+          "average_adr": 64.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399294",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399304",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "BAKS",
+        "opponent_name": "The Last Resort",
         "team_name": "Spirit Academy",
-        "won": false,
-        "kills": 22,
-        "deaths": 29,
-        "kd_ratio": 0.76,
-        "adr": 41.4,
-        "kast": 69.8,
-        "rating": 0.87,
+        "won": true,
+        "kills": 12,
+        "deaths": 14,
+        "kd_ratio": 0.86,
+        "adr": 70.5,
+        "kast": 80,
+        "rating": 1.11,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.03,
-        "average_adr": 62.2,
-        "recent_rating": 1.03,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.05,
+        "average_adr": 64.3,
+        "recent_rating": 1.09,
+        "rating_delta": 0.17
       }
     },
     {
@@ -18362,12 +18437,12 @@
           "opponent_name": "6666",
           "team_name": "Banda Chuya",
           "won": false,
-          "kills": 33,
-          "deaths": 34,
-          "kd_ratio": 0.97,
-          "adr": 67,
-          "kast": 65.4,
-          "rating": 0.93,
+          "kills": 41,
+          "deaths": 47,
+          "kd_ratio": 0.87,
+          "adr": 66.1,
+          "kast": 63.2,
+          "rating": 0.85,
           "maps": 3
         },
         {
@@ -18396,8 +18471,8 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 1.01,
-          "average_adr": 67.5
+          "average_rating": 0.97,
+          "average_adr": 67
         }
       ],
       "timeline_entry": {
@@ -18417,9 +18492,9 @@
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1.01,
-        "average_adr": 67.5,
-        "recent_rating": 1.01,
+        "average_rating": 0.97,
+        "average_adr": 67,
+        "recent_rating": 0.97,
         "rating_delta": null
       }
     },
@@ -18441,12 +18516,12 @@
           "opponent_name": "6666",
           "team_name": "Banda Chuya",
           "won": false,
-          "kills": 50,
-          "deaths": 39,
-          "kd_ratio": 1.28,
-          "adr": 103.7,
-          "kast": 80.8,
-          "rating": 1.44,
+          "kills": 59,
+          "deaths": 54,
+          "kd_ratio": 1.09,
+          "adr": 93.1,
+          "kast": 75,
+          "rating": 1.22,
           "maps": 3
         },
         {
@@ -18475,8 +18550,8 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 1.25,
-          "average_adr": 95.6
+          "average_rating": 1.14,
+          "average_adr": 90.3
         }
       ],
       "timeline_entry": {
@@ -18496,9 +18571,9 @@
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1.25,
-        "average_adr": 95.6,
-        "recent_rating": 1.25,
+        "average_rating": 1.14,
+        "average_adr": 90.3,
+        "recent_rating": 1.14,
         "rating_delta": null
       }
     },
@@ -18520,12 +18595,12 @@
           "opponent_name": "6666",
           "team_name": "Banda Chuya",
           "won": false,
-          "kills": 39,
-          "deaths": 37,
-          "kd_ratio": 1.05,
-          "adr": 81.7,
-          "kast": 73.1,
-          "rating": 1.25,
+          "kills": 45,
+          "deaths": 49,
+          "kd_ratio": 0.92,
+          "adr": 73.1,
+          "kast": 70.6,
+          "rating": 1.05,
           "maps": 3
         },
         {
@@ -18554,8 +18629,8 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 1.1,
-          "average_adr": 71.3
+          "average_rating": 1,
+          "average_adr": 66.9
         }
       ],
       "timeline_entry": {
@@ -18575,9 +18650,9 @@
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1.1,
-        "average_adr": 71.3,
-        "recent_rating": 1.1,
+        "average_rating": 1,
+        "average_adr": 66.9,
+        "recent_rating": 1,
         "rating_delta": null
       }
     },
@@ -18599,12 +18674,12 @@
           "opponent_name": "6666",
           "team_name": "Banda Chuya",
           "won": false,
-          "kills": 30,
-          "deaths": 38,
-          "kd_ratio": 0.79,
-          "adr": 68.5,
-          "kast": 71.2,
-          "rating": 0.86,
+          "kills": 37,
+          "deaths": 53,
+          "kd_ratio": 0.7,
+          "adr": 68.3,
+          "kast": 63.2,
+          "rating": 0.82,
           "maps": 3
         },
         {
@@ -18633,7 +18708,7 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 0.86,
+          "average_rating": 0.84,
           "average_adr": 72.3
         }
       ],
@@ -18654,9 +18729,9 @@
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.86,
+        "average_rating": 0.84,
         "average_adr": 72.3,
-        "recent_rating": 0.86,
+        "recent_rating": 0.84,
         "rating_delta": null
       }
     },
@@ -18678,12 +18753,12 @@
           "opponent_name": "6666",
           "team_name": "Banda Chuya",
           "won": false,
-          "kills": 35,
-          "deaths": 36,
-          "kd_ratio": 0.97,
-          "adr": 61.4,
-          "kast": 65.4,
-          "rating": 1.04,
+          "kills": 42,
+          "deaths": 52,
+          "kd_ratio": 0.81,
+          "adr": 62.5,
+          "kast": 58.8,
+          "rating": 0.93,
           "maps": 3
         },
         {
@@ -18712,8 +18787,8 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 1.07,
-          "average_adr": 70.7
+          "average_rating": 1.02,
+          "average_adr": 71.2
         }
       ],
       "timeline_entry": {
@@ -18733,9 +18808,9 @@
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1.07,
-        "average_adr": 70.7,
-        "recent_rating": 1.07,
+        "average_rating": 1.02,
+        "average_adr": 71.2,
+        "recent_rating": 1.02,
         "rating_delta": null
       }
     },
@@ -23835,12 +23910,12 @@
           "opponent_name": "RED Canids Academy",
           "team_name": "Sementes do Mal",
           "won": false,
-          "kills": 8,
-          "deaths": 11,
-          "kd_ratio": 0.73,
-          "adr": 83.2,
-          "kast": 53.8,
-          "rating": 0.87,
+          "kills": 20,
+          "deaths": 27,
+          "kd_ratio": 0.74,
+          "adr": 66.3,
+          "kast": 58.1,
+          "rating": 0.72,
           "maps": 3
         }
       ],
@@ -23854,8 +23929,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.87,
-          "average_adr": 83.2
+          "average_rating": 0.72,
+          "average_adr": 66.3
         }
       ],
       "timeline_entry": {
@@ -23865,19 +23940,19 @@
         "opponent_name": "RED Canids Academy",
         "team_name": "Sementes do Mal",
         "won": false,
-        "kills": 8,
-        "deaths": 11,
-        "kd_ratio": 0.73,
-        "adr": 83.2,
-        "kast": 53.8,
-        "rating": 0.87,
+        "kills": 20,
+        "deaths": 27,
+        "kd_ratio": 0.74,
+        "adr": 66.3,
+        "kast": 58.1,
+        "rating": 0.72,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 0.87,
-        "average_adr": 83.2,
-        "recent_rating": 0.87,
+        "average_rating": 0.72,
+        "average_adr": 66.3,
+        "recent_rating": 0.72,
         "rating_delta": null
       }
     },
@@ -23899,12 +23974,12 @@
           "opponent_name": "RED Canids Academy",
           "team_name": "Sementes do Mal",
           "won": false,
-          "kills": 6,
-          "deaths": 13,
-          "kd_ratio": 0.46,
-          "adr": 49.6,
-          "kast": 38.5,
-          "rating": 0.46,
+          "kills": 15,
+          "deaths": 30,
+          "kd_ratio": 0.5,
+          "adr": 59.2,
+          "kast": 51.6,
+          "rating": 0.63,
           "maps": 3
         }
       ],
@@ -23918,8 +23993,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.46,
-          "average_adr": 49.6
+          "average_rating": 0.63,
+          "average_adr": 59.2
         }
       ],
       "timeline_entry": {
@@ -23929,19 +24004,19 @@
         "opponent_name": "RED Canids Academy",
         "team_name": "Sementes do Mal",
         "won": false,
-        "kills": 6,
-        "deaths": 13,
-        "kd_ratio": 0.46,
-        "adr": 49.6,
-        "kast": 38.5,
-        "rating": 0.46,
+        "kills": 15,
+        "deaths": 30,
+        "kd_ratio": 0.5,
+        "adr": 59.2,
+        "kast": 51.6,
+        "rating": 0.63,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 0.46,
-        "average_adr": 49.6,
-        "recent_rating": 0.46,
+        "average_rating": 0.63,
+        "average_adr": 59.2,
+        "recent_rating": 0.63,
         "rating_delta": null
       }
     },
@@ -23977,12 +24052,12 @@
           "opponent_name": "RED Canids Academy",
           "team_name": "Sementes do Mal",
           "won": false,
-          "kills": 4,
-          "deaths": 12,
-          "kd_ratio": 0.33,
-          "adr": 51.7,
-          "kast": 69.2,
-          "rating": 0.43,
+          "kills": 16,
+          "deaths": 28,
+          "kd_ratio": 0.57,
+          "adr": 66.7,
+          "kast": 64.5,
+          "rating": 0.68,
           "maps": 3
         }
       ],
@@ -23996,8 +24071,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.43,
-          "average_adr": 51.7
+          "average_rating": 0.68,
+          "average_adr": 66.7
         }
       ],
       "timeline_entry": {
@@ -24007,19 +24082,19 @@
         "opponent_name": "RED Canids Academy",
         "team_name": "Sementes do Mal",
         "won": false,
-        "kills": 4,
-        "deaths": 12,
-        "kd_ratio": 0.33,
-        "adr": 51.7,
-        "kast": 69.2,
-        "rating": 0.43,
+        "kills": 16,
+        "deaths": 28,
+        "kd_ratio": 0.57,
+        "adr": 66.7,
+        "kast": 64.5,
+        "rating": 0.68,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 0.43,
-        "average_adr": 51.7,
-        "recent_rating": 0.43,
+        "average_rating": 0.68,
+        "average_adr": 66.7,
+        "recent_rating": 0.68,
         "rating_delta": null
       }
     },
@@ -24041,12 +24116,12 @@
           "opponent_name": "RED Canids Academy",
           "team_name": "Sementes do Mal",
           "won": false,
-          "kills": 5,
-          "deaths": 13,
-          "kd_ratio": 0.38,
-          "adr": 57.6,
-          "kast": 46.2,
-          "rating": 0.43,
+          "kills": 15,
+          "deaths": 26,
+          "kd_ratio": 0.58,
+          "adr": 61.2,
+          "kast": 54.8,
+          "rating": 0.62,
           "maps": 3
         }
       ],
@@ -24060,8 +24135,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.43,
-          "average_adr": 57.6
+          "average_rating": 0.62,
+          "average_adr": 61.2
         }
       ],
       "timeline_entry": {
@@ -24071,19 +24146,19 @@
         "opponent_name": "RED Canids Academy",
         "team_name": "Sementes do Mal",
         "won": false,
-        "kills": 5,
-        "deaths": 13,
-        "kd_ratio": 0.38,
-        "adr": 57.6,
-        "kast": 46.2,
-        "rating": 0.43,
+        "kills": 15,
+        "deaths": 26,
+        "kd_ratio": 0.58,
+        "adr": 61.2,
+        "kast": 54.8,
+        "rating": 0.62,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 0.43,
-        "average_adr": 57.6,
-        "recent_rating": 0.43,
+        "average_rating": 0.62,
+        "average_adr": 61.2,
+        "recent_rating": 0.62,
         "rating_delta": null
       }
     },
@@ -26291,6 +26366,21 @@
           "kast": 71.2,
           "rating": 1.36,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399467",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "ex-6666",
+          "team_name": "Enjoy",
+          "won": false,
+          "kills": 29,
+          "deaths": 29,
+          "kd_ratio": 1,
+          "adr": 66.5,
+          "kast": 78.3,
+          "rating": 1.11,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -26298,35 +26388,35 @@
         {
           "team_name": "Enjoy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.36,
-          "average_adr": 77.5
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.24,
+          "average_adr": 72
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399461",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399467",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "B8 Academy",
+        "opponent_name": "ex-6666",
         "team_name": "Enjoy",
-        "won": true,
-        "kills": 40,
-        "deaths": 24,
-        "kd_ratio": 1.67,
-        "adr": 77.5,
-        "kast": 71.2,
-        "rating": 1.36,
+        "won": false,
+        "kills": 29,
+        "deaths": 29,
+        "kd_ratio": 1,
+        "adr": 66.5,
+        "kast": 78.3,
+        "rating": 1.11,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.36,
-        "average_adr": 77.5,
-        "recent_rating": 1.36,
+        "series": 2,
+        "average_rating": 1.24,
+        "average_adr": 72,
+        "recent_rating": 1.24,
         "rating_delta": null
       }
     },
@@ -26355,6 +26445,21 @@
           "kast": 76.9,
           "rating": 0.98,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399467",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "ex-6666",
+          "team_name": "Enjoy",
+          "won": false,
+          "kills": 26,
+          "deaths": 29,
+          "kd_ratio": 0.9,
+          "adr": 61.8,
+          "kast": 63,
+          "rating": 0.87,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -26362,35 +26467,35 @@
         {
           "team_name": "Enjoy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 0.98,
-          "average_adr": 66.4
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 0.93,
+          "average_adr": 64.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399461",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399467",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "B8 Academy",
+        "opponent_name": "ex-6666",
         "team_name": "Enjoy",
-        "won": true,
-        "kills": 33,
-        "deaths": 28,
-        "kd_ratio": 1.18,
-        "adr": 66.4,
-        "kast": 76.9,
-        "rating": 0.98,
+        "won": false,
+        "kills": 26,
+        "deaths": 29,
+        "kd_ratio": 0.9,
+        "adr": 61.8,
+        "kast": 63,
+        "rating": 0.87,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.98,
-        "average_adr": 66.4,
-        "recent_rating": 0.98,
+        "series": 2,
+        "average_rating": 0.93,
+        "average_adr": 64.1,
+        "recent_rating": 0.93,
         "rating_delta": null
       }
     },
@@ -26419,6 +26524,21 @@
           "kast": 67.3,
           "rating": 1.02,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399467",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "ex-6666",
+          "team_name": "Enjoy",
+          "won": false,
+          "kills": 29,
+          "deaths": 33,
+          "kd_ratio": 0.88,
+          "adr": 63.6,
+          "kast": 71.7,
+          "rating": 0.88,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -26426,35 +26546,35 @@
         {
           "team_name": "Enjoy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.02,
-          "average_adr": 80.8
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 0.95,
+          "average_adr": 72.2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399461",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399467",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "B8 Academy",
+        "opponent_name": "ex-6666",
         "team_name": "Enjoy",
-        "won": true,
-        "kills": 39,
-        "deaths": 37,
-        "kd_ratio": 1.05,
-        "adr": 80.8,
-        "kast": 67.3,
-        "rating": 1.02,
+        "won": false,
+        "kills": 29,
+        "deaths": 33,
+        "kd_ratio": 0.88,
+        "adr": 63.6,
+        "kast": 71.7,
+        "rating": 0.88,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.02,
-        "average_adr": 80.8,
-        "recent_rating": 1.02,
+        "series": 2,
+        "average_rating": 0.95,
+        "average_adr": 72.2,
+        "recent_rating": 0.95,
         "rating_delta": null
       }
     },
@@ -26483,6 +26603,21 @@
           "kast": 80.8,
           "rating": 1.16,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399467",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "ex-6666",
+          "team_name": "Enjoy",
+          "won": false,
+          "kills": 23,
+          "deaths": 32,
+          "kd_ratio": 0.72,
+          "adr": 57.3,
+          "kast": 73.9,
+          "rating": 0.82,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -26490,35 +26625,35 @@
         {
           "team_name": "Enjoy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.16,
-          "average_adr": 81.3
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 0.99,
+          "average_adr": 69.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399461",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399467",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "B8 Academy",
+        "opponent_name": "ex-6666",
         "team_name": "Enjoy",
-        "won": true,
-        "kills": 39,
-        "deaths": 34,
-        "kd_ratio": 1.15,
-        "adr": 81.3,
-        "kast": 80.8,
-        "rating": 1.16,
+        "won": false,
+        "kills": 23,
+        "deaths": 32,
+        "kd_ratio": 0.72,
+        "adr": 57.3,
+        "kast": 73.9,
+        "rating": 0.82,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.16,
-        "average_adr": 81.3,
-        "recent_rating": 1.16,
+        "series": 2,
+        "average_rating": 0.99,
+        "average_adr": 69.3,
+        "recent_rating": 0.99,
         "rating_delta": null
       }
     },
@@ -26547,6 +26682,21 @@
           "kast": 78.8,
           "rating": 1.07,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399467",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "ex-6666",
+          "team_name": "Enjoy",
+          "won": false,
+          "kills": 36,
+          "deaths": 30,
+          "kd_ratio": 1.2,
+          "adr": 89.9,
+          "kast": 71.7,
+          "rating": 1.16,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -26554,35 +26704,35 @@
         {
           "team_name": "Enjoy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.07,
-          "average_adr": 79.8
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.11,
+          "average_adr": 84.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399461",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399467",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "B8 Academy",
+        "opponent_name": "ex-6666",
         "team_name": "Enjoy",
-        "won": true,
-        "kills": 33,
-        "deaths": 31,
-        "kd_ratio": 1.06,
-        "adr": 79.8,
-        "kast": 78.8,
-        "rating": 1.07,
+        "won": false,
+        "kills": 36,
+        "deaths": 30,
+        "kd_ratio": 1.2,
+        "adr": 89.9,
+        "kast": 71.7,
+        "rating": 1.16,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.07,
-        "average_adr": 79.8,
-        "recent_rating": 1.07,
+        "series": 2,
+        "average_rating": 1.11,
+        "average_adr": 84.8,
+        "recent_rating": 1.11,
         "rating_delta": null
       }
     },
@@ -28288,12 +28438,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "G2 Ares",
           "won": true,
-          "kills": 25,
-          "deaths": 26,
-          "kd_ratio": 0.96,
-          "adr": 52.3,
-          "kast": 75,
-          "rating": 1.01,
+          "kills": 42,
+          "deaths": 41,
+          "kd_ratio": 1.02,
+          "adr": 56,
+          "kast": 74.2,
+          "rating": 0.99,
           "maps": 3
         }
       ],
@@ -28306,19 +28456,19 @@
         "opponent_name": "The Last Resort",
         "team_name": "G2 Ares",
         "won": true,
-        "kills": 25,
-        "deaths": 26,
-        "kd_ratio": 0.96,
-        "adr": 52.3,
-        "kast": 75,
-        "rating": 1.01,
+        "kills": 42,
+        "deaths": 41,
+        "kd_ratio": 1.02,
+        "adr": 56,
+        "kast": 74.2,
+        "rating": 0.99,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.07,
-        "average_adr": 61.4,
-        "recent_rating": 1.07,
+        "average_rating": 1.06,
+        "average_adr": 62.7,
+        "recent_rating": 1.06,
         "rating_delta": null
       },
       "map_profile": [],
@@ -28331,8 +28481,8 @@
           "wins": 2,
           "losses": 1,
           "win_rate": 0.667,
-          "average_rating": 1.07,
-          "average_adr": 61.4
+          "average_rating": 1.06,
+          "average_adr": 62.7
         }
       ]
     },
@@ -28382,12 +28532,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "G2 Ares",
           "won": true,
-          "kills": 36,
-          "deaths": 30,
+          "kills": 53,
+          "deaths": 44,
           "kd_ratio": 1.2,
-          "adr": 104.2,
-          "kast": 79.5,
-          "rating": 1.57,
+          "adr": 100.4,
+          "kast": 80.3,
+          "rating": 1.37,
           "maps": 3
         }
       ],
@@ -28400,19 +28550,19 @@
         "opponent_name": "The Last Resort",
         "team_name": "G2 Ares",
         "won": true,
-        "kills": 36,
-        "deaths": 30,
+        "kills": 53,
+        "deaths": 44,
         "kd_ratio": 1.2,
-        "adr": 104.2,
-        "kast": 79.5,
-        "rating": 1.57,
+        "adr": 100.4,
+        "kast": 80.3,
+        "rating": 1.37,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.22,
-        "average_adr": 77.8,
-        "recent_rating": 1.22,
+        "average_rating": 1.15,
+        "average_adr": 76.5,
+        "recent_rating": 1.15,
         "rating_delta": null
       },
       "map_profile": [],
@@ -28425,8 +28575,8 @@
           "wins": 2,
           "losses": 1,
           "win_rate": 0.667,
-          "average_rating": 1.22,
-          "average_adr": 77.8
+          "average_rating": 1.15,
+          "average_adr": 76.5
         }
       ]
     },
@@ -28476,12 +28626,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "G2 Ares",
           "won": true,
-          "kills": 22,
-          "deaths": 30,
-          "kd_ratio": 0.73,
-          "adr": 61,
-          "kast": 72.7,
-          "rating": 0.74,
+          "kills": 37,
+          "deaths": 43,
+          "kd_ratio": 0.86,
+          "adr": 63.7,
+          "kast": 71.2,
+          "rating": 0.87,
           "maps": 3
         }
       ],
@@ -28494,19 +28644,19 @@
         "opponent_name": "The Last Resort",
         "team_name": "G2 Ares",
         "won": true,
-        "kills": 22,
-        "deaths": 30,
-        "kd_ratio": 0.73,
-        "adr": 61,
-        "kast": 72.7,
-        "rating": 0.74,
+        "kills": 37,
+        "deaths": 43,
+        "kd_ratio": 0.86,
+        "adr": 63.7,
+        "kast": 71.2,
+        "rating": 0.87,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.14,
-        "average_adr": 74.7,
-        "recent_rating": 1.14,
+        "average_rating": 1.18,
+        "average_adr": 75.6,
+        "recent_rating": 1.18,
         "rating_delta": null
       },
       "map_profile": [],
@@ -28519,8 +28669,8 @@
           "wins": 2,
           "losses": 1,
           "win_rate": 0.667,
-          "average_rating": 1.14,
-          "average_adr": 74.7
+          "average_rating": 1.18,
+          "average_adr": 75.6
         }
       ]
     },
@@ -28570,12 +28720,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "G2 Ares",
           "won": true,
-          "kills": 27,
-          "deaths": 30,
-          "kd_ratio": 0.9,
-          "adr": 77.6,
-          "kast": 77.3,
-          "rating": 0.92,
+          "kills": 42,
+          "deaths": 43,
+          "kd_ratio": 0.98,
+          "adr": 78.6,
+          "kast": 74.2,
+          "rating": 1.02,
           "maps": 3
         }
       ],
@@ -28588,19 +28738,19 @@
         "opponent_name": "The Last Resort",
         "team_name": "G2 Ares",
         "won": true,
-        "kills": 27,
-        "deaths": 30,
-        "kd_ratio": 0.9,
-        "adr": 77.6,
-        "kast": 77.3,
-        "rating": 0.92,
+        "kills": 42,
+        "deaths": 43,
+        "kd_ratio": 0.98,
+        "adr": 78.6,
+        "kast": 74.2,
+        "rating": 1.02,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.42,
-        "average_adr": 89.5,
-        "recent_rating": 1.42,
+        "average_rating": 1.45,
+        "average_adr": 89.8,
+        "recent_rating": 1.45,
         "rating_delta": null
       },
       "map_profile": [],
@@ -28613,8 +28763,8 @@
           "wins": 2,
           "losses": 1,
           "win_rate": 0.667,
-          "average_rating": 1.42,
-          "average_adr": 89.5
+          "average_rating": 1.45,
+          "average_adr": 89.8
         }
       ]
     },
@@ -28664,12 +28814,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "G2 Ares",
           "won": true,
-          "kills": 37,
-          "deaths": 25,
-          "kd_ratio": 1.48,
-          "adr": 79.4,
-          "kast": 72.7,
-          "rating": 1.3,
+          "kills": 53,
+          "deaths": 42,
+          "kd_ratio": 1.26,
+          "adr": 80.5,
+          "kast": 69.7,
+          "rating": 1.26,
           "maps": 3
         }
       ],
@@ -28682,19 +28832,19 @@
         "opponent_name": "The Last Resort",
         "team_name": "G2 Ares",
         "won": true,
-        "kills": 37,
-        "deaths": 25,
-        "kd_ratio": 1.48,
-        "adr": 79.4,
-        "kast": 72.7,
-        "rating": 1.3,
+        "kills": 53,
+        "deaths": 42,
+        "kd_ratio": 1.26,
+        "adr": 80.5,
+        "kast": 69.7,
+        "rating": 1.26,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.7,
-        "average_adr": 89.9,
-        "recent_rating": 1.7,
+        "average_rating": 1.69,
+        "average_adr": 90.3,
+        "recent_rating": 1.69,
         "rating_delta": null
       },
       "map_profile": [],
@@ -28707,8 +28857,8 @@
           "wins": 2,
           "losses": 1,
           "win_rate": 0.667,
-          "average_rating": 1.7,
-          "average_adr": 89.9
+          "average_rating": 1.69,
+          "average_adr": 90.3
         }
       ]
     },
@@ -36642,12 +36792,12 @@
           "opponent_name": "Banda Chuya",
           "team_name": "6666",
           "won": true,
-          "kills": 31,
-          "deaths": 39,
-          "kd_ratio": 0.79,
-          "adr": 75.1,
-          "kast": 59.6,
-          "rating": 0.88,
+          "kills": 37,
+          "deaths": 48,
+          "kd_ratio": 0.77,
+          "adr": 72.4,
+          "kast": 67.6,
+          "rating": 0.89,
           "maps": 3
         },
         {
@@ -36679,6 +36829,21 @@
           "kast": 80,
           "rating": 1.2,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399467",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 37,
+          "deaths": 32,
+          "kd_ratio": 1.16,
+          "adr": 91.2,
+          "kast": 73.9,
+          "rating": 1.46,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -36687,12 +36852,12 @@
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
           "through_date": "2026-10-15",
-          "series": 1,
-          "wins": 1,
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.2,
-          "average_adr": 89.9
+          "average_rating": 1.33,
+          "average_adr": 90.6
         },
         {
           "team_name": "6666",
@@ -36703,30 +36868,30 @@
           "losses": 1,
           "win_rate": 0.75,
           "average_rating": 1.1,
-          "average_adr": 80.4
+          "average_adr": 79.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399302",
+        "match_id": "hltv:2399467",
         "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Bushido Wildcats",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Enjoy",
         "team_name": "ex-6666",
         "won": true,
-        "kills": 31,
-        "deaths": 24,
-        "kd_ratio": 1.29,
-        "adr": 89.9,
-        "kast": 80,
-        "rating": 1.2,
+        "kills": 37,
+        "deaths": 32,
+        "kd_ratio": 1.16,
+        "adr": 91.2,
+        "kast": 73.9,
+        "rating": 1.46,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.12,
-        "average_adr": 82.3,
-        "recent_rating": 1.05,
-        "rating_delta": -0.18
+        "series": 6,
+        "average_rating": 1.18,
+        "average_adr": 83.3,
+        "recent_rating": 1.24,
+        "rating_delta": 0.12
       }
     },
     {
@@ -36777,12 +36942,12 @@
           "opponent_name": "Banda Chuya",
           "team_name": "6666",
           "won": true,
-          "kills": 39,
-          "deaths": 36,
-          "kd_ratio": 1.08,
-          "adr": 83.8,
-          "kast": 80.8,
-          "rating": 1.17,
+          "kills": 63,
+          "deaths": 44,
+          "kd_ratio": 1.43,
+          "adr": 102.6,
+          "kast": 85.3,
+          "rating": 1.54,
           "maps": 3
         },
         {
@@ -36814,6 +36979,21 @@
           "kast": 85,
           "rating": 1.47,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399467",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 23,
+          "deaths": 31,
+          "kd_ratio": 0.74,
+          "adr": 61.4,
+          "kast": 65.2,
+          "rating": 0.81,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -36822,12 +37002,12 @@
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
           "through_date": "2026-10-15",
-          "series": 1,
-          "wins": 1,
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.47,
-          "average_adr": 81.3
+          "average_rating": 1.14,
+          "average_adr": 71.3
         },
         {
           "team_name": "6666",
@@ -36837,31 +37017,31 @@
           "wins": 3,
           "losses": 1,
           "win_rate": 0.75,
-          "average_rating": 1.21,
-          "average_adr": 75.2
+          "average_rating": 1.31,
+          "average_adr": 79.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399302",
+        "match_id": "hltv:2399467",
         "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Bushido Wildcats",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Enjoy",
         "team_name": "ex-6666",
         "won": true,
-        "kills": 33,
-        "deaths": 20,
-        "kd_ratio": 1.65,
-        "adr": 81.3,
-        "kast": 85,
-        "rating": 1.47,
+        "kills": 23,
+        "deaths": 31,
+        "kd_ratio": 0.74,
+        "adr": 61.4,
+        "kast": 65.2,
+        "rating": 0.81,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.27,
-        "average_adr": 76.4,
-        "recent_rating": 1.21,
-        "rating_delta": -0.13
+        "series": 6,
+        "average_rating": 1.25,
+        "average_adr": 77,
+        "recent_rating": 1.09,
+        "rating_delta": -0.32
       }
     },
     {
@@ -36912,12 +37092,12 @@
           "opponent_name": "Banda Chuya",
           "team_name": "6666",
           "won": true,
-          "kills": 42,
-          "deaths": 35,
-          "kd_ratio": 1.2,
-          "adr": 89.8,
-          "kast": 75,
-          "rating": 1.36,
+          "kills": 54,
+          "deaths": 40,
+          "kd_ratio": 1.35,
+          "adr": 82.8,
+          "kast": 77.9,
+          "rating": 1.35,
           "maps": 3
         },
         {
@@ -36949,6 +37129,21 @@
           "kast": 80,
           "rating": 1.54,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399467",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 33,
+          "deaths": 24,
+          "kd_ratio": 1.38,
+          "adr": 67.7,
+          "kast": 82.6,
+          "rating": 1.24,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -36957,12 +37152,12 @@
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
           "through_date": "2026-10-15",
-          "series": 1,
-          "wins": 1,
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.54,
-          "average_adr": 93.1
+          "average_rating": 1.39,
+          "average_adr": 80.4
         },
         {
           "team_name": "6666",
@@ -36972,31 +37167,31 @@
           "wins": 3,
           "losses": 1,
           "win_rate": 0.75,
-          "average_rating": 1.27,
-          "average_adr": 80.8
+          "average_rating": 1.26,
+          "average_adr": 79
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399302",
+        "match_id": "hltv:2399467",
         "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Bushido Wildcats",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Enjoy",
         "team_name": "ex-6666",
         "won": true,
-        "kills": 40,
-        "deaths": 20,
-        "kd_ratio": 2,
-        "adr": 93.1,
-        "kast": 80,
-        "rating": 1.54,
+        "kills": 33,
+        "deaths": 24,
+        "kd_ratio": 1.38,
+        "adr": 67.7,
+        "kast": 82.6,
+        "rating": 1.24,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.32,
-        "average_adr": 83.2,
-        "recent_rating": 1.47,
-        "rating_delta": 0.38
+        "series": 6,
+        "average_rating": 1.3,
+        "average_adr": 79.5,
+        "recent_rating": 1.43,
+        "rating_delta": 0.26
       }
     },
     {
@@ -37047,12 +37242,12 @@
           "opponent_name": "Banda Chuya",
           "team_name": "6666",
           "won": true,
-          "kills": 38,
-          "deaths": 37,
-          "kd_ratio": 1.03,
-          "adr": 72.6,
-          "kast": 67.3,
-          "rating": 1.14,
+          "kills": 51,
+          "deaths": 46,
+          "kd_ratio": 1.11,
+          "adr": 77.1,
+          "kast": 70.6,
+          "rating": 1.26,
           "maps": 3
         },
         {
@@ -37084,6 +37279,21 @@
           "kast": 77.5,
           "rating": 1.14,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399467",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 20,
+          "deaths": 32,
+          "kd_ratio": 0.62,
+          "adr": 52.1,
+          "kast": 69.6,
+          "rating": 0.68,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -37092,12 +37302,12 @@
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
           "through_date": "2026-10-15",
-          "series": 1,
-          "wins": 1,
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.14,
-          "average_adr": 72.5
+          "average_rating": 0.91,
+          "average_adr": 62.3
         },
         {
           "team_name": "6666",
@@ -37107,31 +37317,31 @@
           "wins": 3,
           "losses": 1,
           "win_rate": 0.75,
-          "average_rating": 1.05,
-          "average_adr": 75
+          "average_rating": 1.08,
+          "average_adr": 76.2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399302",
+        "match_id": "hltv:2399467",
         "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Bushido Wildcats",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Enjoy",
         "team_name": "ex-6666",
         "won": true,
-        "kills": 26,
-        "deaths": 28,
-        "kd_ratio": 0.93,
-        "adr": 72.5,
-        "kast": 77.5,
-        "rating": 1.14,
+        "kills": 20,
+        "deaths": 32,
+        "kd_ratio": 0.62,
+        "adr": 52.1,
+        "kast": 69.6,
+        "rating": 0.68,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.07,
-        "average_adr": 74.5,
-        "recent_rating": 1.13,
-        "rating_delta": 0.15
+        "series": 6,
+        "average_rating": 1.03,
+        "average_adr": 71.5,
+        "recent_rating": 0.98,
+        "rating_delta": -0.09
       }
     },
     {
@@ -37182,12 +37392,12 @@
           "opponent_name": "Banda Chuya",
           "team_name": "6666",
           "won": true,
-          "kills": 34,
-          "deaths": 41,
-          "kd_ratio": 0.83,
-          "adr": 62.4,
-          "kast": 61.5,
-          "rating": 0.71,
+          "kills": 50,
+          "deaths": 47,
+          "kd_ratio": 1.06,
+          "adr": 64.1,
+          "kast": 67.6,
+          "rating": 0.83,
           "maps": 3
         },
         {
@@ -37219,6 +37429,21 @@
           "kast": 80,
           "rating": 1.08,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399467",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 39,
+          "deaths": 24,
+          "kd_ratio": 1.62,
+          "adr": 94.4,
+          "kast": 82.6,
+          "rating": 1.44,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -37227,12 +37452,12 @@
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
           "through_date": "2026-10-15",
-          "series": 1,
-          "wins": 1,
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.08,
-          "average_adr": 68.6
+          "average_rating": 1.26,
+          "average_adr": 81.5
         },
         {
           "team_name": "6666",
@@ -37242,31 +37467,31 @@
           "wins": 3,
           "losses": 1,
           "win_rate": 0.75,
-          "average_rating": 0.85,
-          "average_adr": 66.4
+          "average_rating": 0.88,
+          "average_adr": 66.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399302",
+        "match_id": "hltv:2399467",
         "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Bushido Wildcats",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Enjoy",
         "team_name": "ex-6666",
         "won": true,
-        "kills": 25,
-        "deaths": 22,
-        "kd_ratio": 1.14,
-        "adr": 68.6,
-        "kast": 80,
-        "rating": 1.08,
+        "kills": 39,
+        "deaths": 24,
+        "kd_ratio": 1.62,
+        "adr": 94.4,
+        "kast": 82.6,
+        "rating": 1.44,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.89,
-        "average_adr": 66.8,
-        "recent_rating": 0.93,
-        "rating_delta": 0.1
+        "series": 6,
+        "average_rating": 1,
+        "average_adr": 71.7,
+        "recent_rating": 1.18,
+        "rating_delta": 0.34
       }
     },
     {
@@ -40677,35 +40902,50 @@
           "opponent_name": "G2 Ares",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 35,
-          "deaths": 29,
-          "kd_ratio": 1.21,
-          "adr": 97.4,
-          "kast": 70.5,
-          "rating": 1.24,
+          "kills": 48,
+          "deaths": 44,
+          "kd_ratio": 1.09,
+          "adr": 87.9,
+          "kast": 69.7,
+          "rating": 1.08,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "The Last Resort",
+          "won": false,
+          "kills": 9,
+          "deaths": 16,
+          "kd_ratio": 0.56,
+          "adr": 57.2,
+          "kast": 60,
+          "rating": 0.52,
           "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399300",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399304",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "G2 Ares",
+        "opponent_name": "Spirit Academy",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 35,
-        "deaths": 29,
-        "kd_ratio": 1.21,
-        "adr": 97.4,
-        "kast": 70.5,
-        "rating": 1.24,
+        "kills": 9,
+        "deaths": 16,
+        "kd_ratio": 0.56,
+        "adr": 57.2,
+        "kast": 60,
+        "rating": 0.52,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.24,
-        "average_adr": 97.4,
-        "recent_rating": 1.24,
+        "series": 2,
+        "average_rating": 0.8,
+        "average_adr": 72.6,
+        "recent_rating": 0.8,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40713,13 +40953,13 @@
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.24,
-          "average_adr": 97.4
+          "average_rating": 0.8,
+          "average_adr": 72.6
         }
       ]
     },
@@ -40741,35 +40981,50 @@
           "opponent_name": "G2 Ares",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 20,
-          "deaths": 31,
-          "kd_ratio": 0.65,
-          "adr": 53.8,
-          "kast": 59.1,
-          "rating": 0.65,
+          "kills": 40,
+          "deaths": 46,
+          "kd_ratio": 0.87,
+          "adr": 61.6,
+          "kast": 63.6,
+          "rating": 0.92,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "The Last Resort",
+          "won": false,
+          "kills": 15,
+          "deaths": 12,
+          "kd_ratio": 1.25,
+          "adr": 68.2,
+          "kast": 70,
+          "rating": 1.05,
           "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399300",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399304",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "G2 Ares",
+        "opponent_name": "Spirit Academy",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 20,
-        "deaths": 31,
-        "kd_ratio": 0.65,
-        "adr": 53.8,
-        "kast": 59.1,
-        "rating": 0.65,
+        "kills": 15,
+        "deaths": 12,
+        "kd_ratio": 1.25,
+        "adr": 68.2,
+        "kast": 70,
+        "rating": 1.05,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.65,
-        "average_adr": 53.8,
-        "recent_rating": 0.65,
+        "series": 2,
+        "average_rating": 0.99,
+        "average_adr": 64.9,
+        "recent_rating": 0.99,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40777,13 +41032,13 @@
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.65,
-          "average_adr": 53.8
+          "average_rating": 0.99,
+          "average_adr": 64.9
         }
       ]
     },
@@ -40805,35 +41060,50 @@
           "opponent_name": "G2 Ares",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 29,
-          "deaths": 26,
-          "kd_ratio": 1.12,
-          "adr": 65.2,
-          "kast": 68.2,
-          "rating": 1.25,
+          "kills": 42,
+          "deaths": 43,
+          "kd_ratio": 0.98,
+          "adr": 66.6,
+          "kast": 65.2,
+          "rating": 1.11,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "The Last Resort",
+          "won": false,
+          "kills": 12,
+          "deaths": 15,
+          "kd_ratio": 0.8,
+          "adr": 75.2,
+          "kast": 65,
+          "rating": 0.89,
           "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399300",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399304",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "G2 Ares",
+        "opponent_name": "Spirit Academy",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 29,
-        "deaths": 26,
-        "kd_ratio": 1.12,
-        "adr": 65.2,
-        "kast": 68.2,
-        "rating": 1.25,
+        "kills": 12,
+        "deaths": 15,
+        "kd_ratio": 0.8,
+        "adr": 75.2,
+        "kast": 65,
+        "rating": 0.89,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.25,
-        "average_adr": 65.2,
-        "recent_rating": 1.25,
+        "series": 2,
+        "average_rating": 1,
+        "average_adr": 70.9,
+        "recent_rating": 1,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40841,13 +41111,13 @@
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.25,
-          "average_adr": 65.2
+          "average_rating": 1,
+          "average_adr": 70.9
         }
       ]
     },
@@ -40869,35 +41139,50 @@
           "opponent_name": "G2 Ares",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 21,
-          "deaths": 31,
+          "kills": 32,
+          "deaths": 47,
           "kd_ratio": 0.68,
-          "adr": 49.4,
-          "kast": 61.4,
-          "rating": 0.72,
+          "adr": 50.3,
+          "kast": 57.6,
+          "rating": 0.71,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "The Last Resort",
+          "won": false,
+          "kills": 12,
+          "deaths": 12,
+          "kd_ratio": 1,
+          "adr": 63.3,
+          "kast": 70,
+          "rating": 0.96,
           "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399300",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399304",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "G2 Ares",
+        "opponent_name": "Spirit Academy",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 21,
-        "deaths": 31,
-        "kd_ratio": 0.68,
-        "adr": 49.4,
-        "kast": 61.4,
-        "rating": 0.72,
+        "kills": 12,
+        "deaths": 12,
+        "kd_ratio": 1,
+        "adr": 63.3,
+        "kast": 70,
+        "rating": 0.96,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.72,
-        "average_adr": 49.4,
-        "recent_rating": 0.72,
+        "series": 2,
+        "average_rating": 0.83,
+        "average_adr": 56.8,
+        "recent_rating": 0.83,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40905,13 +41190,13 @@
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.72,
-          "average_adr": 49.4
+          "average_rating": 0.83,
+          "average_adr": 56.8
         }
       ]
     },
@@ -40933,35 +41218,50 @@
           "opponent_name": "G2 Ares",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 35,
-          "deaths": 30,
-          "kd_ratio": 1.17,
-          "adr": 83.1,
+          "kills": 50,
+          "deaths": 47,
+          "kd_ratio": 1.06,
+          "adr": 82.5,
           "kast": 77.3,
-          "rating": 1.11,
+          "rating": 1.06,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "The Last Resort",
+          "won": false,
+          "kills": 13,
+          "deaths": 14,
+          "kd_ratio": 0.93,
+          "adr": 69.1,
+          "kast": 75,
+          "rating": 0.92,
           "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399300",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399304",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "G2 Ares",
+        "opponent_name": "Spirit Academy",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 35,
-        "deaths": 30,
-        "kd_ratio": 1.17,
-        "adr": 83.1,
-        "kast": 77.3,
-        "rating": 1.11,
+        "kills": 13,
+        "deaths": 14,
+        "kd_ratio": 0.93,
+        "adr": 69.1,
+        "kast": 75,
+        "rating": 0.92,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.11,
-        "average_adr": 83.1,
-        "recent_rating": 1.11,
+        "series": 2,
+        "average_rating": 0.99,
+        "average_adr": 75.8,
+        "recent_rating": 0.99,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40969,13 +41269,13 @@
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.11,
-          "average_adr": 83.1
+          "average_rating": 0.99,
+          "average_adr": 75.8
         }
       ]
     },
@@ -40997,12 +41297,12 @@
           "opponent_name": "RED Canids Academy",
           "team_name": "Sementes do Mal",
           "won": false,
-          "kills": 4,
-          "deaths": 11,
-          "kd_ratio": 0.36,
-          "adr": 25.5,
-          "kast": 53.8,
-          "rating": 0.32,
+          "kills": 15,
+          "deaths": 25,
+          "kd_ratio": 0.6,
+          "adr": 58.4,
+          "kast": 51.6,
+          "rating": 0.71,
           "maps": 3
         }
       ],
@@ -41013,19 +41313,19 @@
         "opponent_name": "RED Canids Academy",
         "team_name": "Sementes do Mal",
         "won": false,
-        "kills": 4,
-        "deaths": 11,
-        "kd_ratio": 0.36,
-        "adr": 25.5,
-        "kast": 53.8,
-        "rating": 0.32,
+        "kills": 15,
+        "deaths": 25,
+        "kd_ratio": 0.6,
+        "adr": 58.4,
+        "kast": 51.6,
+        "rating": 0.71,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 0.32,
-        "average_adr": 25.5,
-        "recent_rating": 0.32,
+        "average_rating": 0.71,
+        "average_adr": 58.4,
+        "recent_rating": 0.71,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41038,8 +41338,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.32,
-          "average_adr": 25.5
+          "average_rating": 0.71,
+          "average_adr": 58.4
         }
       ]
     },
@@ -41061,12 +41361,12 @@
           "opponent_name": "Sementes do Mal",
           "team_name": "RED Canids Academy",
           "won": true,
-          "kills": 7,
-          "deaths": 6,
-          "kd_ratio": 1.17,
-          "adr": 59.7,
-          "kast": 84.6,
-          "rating": 1.06,
+          "kills": 25,
+          "deaths": 15,
+          "kd_ratio": 1.67,
+          "adr": 79,
+          "kast": 80.6,
+          "rating": 1.6,
           "maps": 3
         }
       ],
@@ -41077,19 +41377,19 @@
         "opponent_name": "Sementes do Mal",
         "team_name": "RED Canids Academy",
         "won": true,
-        "kills": 7,
-        "deaths": 6,
-        "kd_ratio": 1.17,
-        "adr": 59.7,
-        "kast": 84.6,
-        "rating": 1.06,
+        "kills": 25,
+        "deaths": 15,
+        "kd_ratio": 1.67,
+        "adr": 79,
+        "kast": 80.6,
+        "rating": 1.6,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 1.06,
-        "average_adr": 59.7,
-        "recent_rating": 1.06,
+        "average_rating": 1.6,
+        "average_adr": 79,
+        "recent_rating": 1.6,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41102,8 +41402,8 @@
           "wins": 1,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.06,
-          "average_adr": 59.7
+          "average_rating": 1.6,
+          "average_adr": 79
         }
       ]
     },
@@ -41125,12 +41425,12 @@
           "opponent_name": "Sementes do Mal",
           "team_name": "RED Canids Academy",
           "won": true,
-          "kills": 11,
-          "deaths": 4,
-          "kd_ratio": 2.75,
-          "adr": 68.1,
-          "kast": 92.3,
-          "rating": 1.78,
+          "kills": 25,
+          "deaths": 17,
+          "kd_ratio": 1.47,
+          "adr": 79,
+          "kast": 80.6,
+          "rating": 1.28,
           "maps": 3
         }
       ],
@@ -41141,19 +41441,19 @@
         "opponent_name": "Sementes do Mal",
         "team_name": "RED Canids Academy",
         "won": true,
-        "kills": 11,
-        "deaths": 4,
-        "kd_ratio": 2.75,
-        "adr": 68.1,
-        "kast": 92.3,
-        "rating": 1.78,
+        "kills": 25,
+        "deaths": 17,
+        "kd_ratio": 1.47,
+        "adr": 79,
+        "kast": 80.6,
+        "rating": 1.28,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 1.78,
-        "average_adr": 68.1,
-        "recent_rating": 1.78,
+        "average_rating": 1.28,
+        "average_adr": 79,
+        "recent_rating": 1.28,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41166,8 +41466,8 @@
           "wins": 1,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.78,
-          "average_adr": 68.1
+          "average_rating": 1.28,
+          "average_adr": 79
         }
       ]
     },
@@ -41189,12 +41489,12 @@
           "opponent_name": "Sementes do Mal",
           "team_name": "RED Canids Academy",
           "won": true,
-          "kills": 10,
-          "deaths": 6,
-          "kd_ratio": 1.67,
-          "adr": 91.5,
-          "kast": 92.3,
-          "rating": 1.88,
+          "kills": 23,
+          "deaths": 20,
+          "kd_ratio": 1.15,
+          "adr": 87.5,
+          "kast": 77.4,
+          "rating": 1.36,
           "maps": 3
         }
       ],
@@ -41205,19 +41505,19 @@
         "opponent_name": "Sementes do Mal",
         "team_name": "RED Canids Academy",
         "won": true,
-        "kills": 10,
-        "deaths": 6,
-        "kd_ratio": 1.67,
-        "adr": 91.5,
-        "kast": 92.3,
-        "rating": 1.88,
+        "kills": 23,
+        "deaths": 20,
+        "kd_ratio": 1.15,
+        "adr": 87.5,
+        "kast": 77.4,
+        "rating": 1.36,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 1.88,
-        "average_adr": 91.5,
-        "recent_rating": 1.88,
+        "average_rating": 1.36,
+        "average_adr": 87.5,
+        "recent_rating": 1.36,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41230,8 +41530,8 @@
           "wins": 1,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.88,
-          "average_adr": 91.5
+          "average_rating": 1.36,
+          "average_adr": 87.5
         }
       ]
     },
@@ -41253,12 +41553,12 @@
           "opponent_name": "Sementes do Mal",
           "team_name": "RED Canids Academy",
           "won": true,
-          "kills": 17,
-          "deaths": 7,
-          "kd_ratio": 2.43,
-          "adr": 130.3,
-          "kast": 100,
-          "rating": 2.46,
+          "kills": 30,
+          "deaths": 16,
+          "kd_ratio": 1.88,
+          "adr": 95.9,
+          "kast": 87.1,
+          "rating": 1.68,
           "maps": 3
         }
       ],
@@ -41269,19 +41569,19 @@
         "opponent_name": "Sementes do Mal",
         "team_name": "RED Canids Academy",
         "won": true,
-        "kills": 17,
-        "deaths": 7,
-        "kd_ratio": 2.43,
-        "adr": 130.3,
-        "kast": 100,
-        "rating": 2.46,
+        "kills": 30,
+        "deaths": 16,
+        "kd_ratio": 1.88,
+        "adr": 95.9,
+        "kast": 87.1,
+        "rating": 1.68,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 2.46,
-        "average_adr": 130.3,
-        "recent_rating": 2.46,
+        "average_rating": 1.68,
+        "average_adr": 95.9,
+        "recent_rating": 1.68,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41294,8 +41594,8 @@
           "wins": 1,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 2.46,
-          "average_adr": 130.3
+          "average_rating": 1.68,
+          "average_adr": 95.9
         }
       ]
     },
@@ -41317,12 +41617,12 @@
           "opponent_name": "Sementes do Mal",
           "team_name": "RED Canids Academy",
           "won": true,
-          "kills": 15,
-          "deaths": 5,
-          "kd_ratio": 3,
-          "adr": 108.4,
-          "kast": 92.3,
-          "rating": 2.27,
+          "kills": 32,
+          "deaths": 14,
+          "kd_ratio": 2.29,
+          "adr": 106.3,
+          "kast": 90.3,
+          "rating": 1.74,
           "maps": 3
         }
       ],
@@ -41333,19 +41633,19 @@
         "opponent_name": "Sementes do Mal",
         "team_name": "RED Canids Academy",
         "won": true,
-        "kills": 15,
-        "deaths": 5,
-        "kd_ratio": 3,
-        "adr": 108.4,
-        "kast": 92.3,
-        "rating": 2.27,
+        "kills": 32,
+        "deaths": 14,
+        "kd_ratio": 2.29,
+        "adr": 106.3,
+        "kast": 90.3,
+        "rating": 1.74,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 2.27,
-        "average_adr": 108.4,
-        "recent_rating": 2.27,
+        "average_rating": 1.74,
+        "average_adr": 106.3,
+        "recent_rating": 1.74,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41358,8 +41658,8 @@
           "wins": 1,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 2.27,
-          "average_adr": 108.4
+          "average_rating": 1.74,
+          "average_adr": 106.3
         }
       ]
     },
@@ -44356,9 +44656,23 @@
           "average_adr": 46
         }
       ]
+    },
+    {
+      "player_id": "hltv:26901",
+      "nickname": "bielzyy",
+      "team_name": "SUKEBAN",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26901",
+      "source_url": "https://www.hltv.org/player/26901/bielzyy",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-15T13:28:26Z",
+  "lineups_updated_at_utc": "2026-10-15T18:18:22Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-15",
   "history_profile_count": 53,
