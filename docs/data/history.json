@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3915,
+    "matches": 3921,
     "maps": 2799,
     "lineup_rows": 9121,
     "source_match_ids": 976
@@ -124,6 +124,94 @@
           "corim"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:cf7ea783fce3c14f2908",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T01:00:00Z",
+      "event_name": "ECL Season 52: NA Cup #3",
+      "team1_name": "CCoop",
+      "team2_name": "Overtake",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Overtake",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:75b8ba484af2c3280c55",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T03:00:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Group A",
+      "team1_name": "NEXV",
+      "team2_name": "Rooster",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "NEXV",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:4d5c10041499b5527710",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Round 2",
+      "team1_name": "BW",
+      "team2_name": "ex-6666",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-6666",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_2"
+    },
+    {
+      "match_id": "liquipedia:7940e0587550ea700def",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T08:30:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Group A",
+      "team1_name": "Aurora",
+      "team2_name": "NIP",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Aurora",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_A"
     },
     {
       "match_id": "hltv:2399232",
@@ -1208,6 +1296,28 @@
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_B"
     },
     {
+      "match_id": "liquipedia:4118326fa0227d34feda",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T21:00:00Z",
+      "event_name": "ECL Season 52: SA Cup #3",
+      "team1_name": "Galorys",
+      "team2_name": "LyP",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "LyP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
+    },
+    {
       "match_id": "liquipedia:16ddb084598cf1bf92db",
       "match_date": "2026-10-13",
       "starts_at": "2026-10-13T01:00:00Z",
@@ -2132,6 +2242,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
+    },
+    {
+      "match_id": "liquipedia:fec7d0a4a35472d63238",
+      "match_date": "2026-10-13",
+      "starts_at": "2026-10-13T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Round 1",
+      "team1_name": "ex-6666",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_1"
     },
     {
       "match_id": "hltv:2399228",
