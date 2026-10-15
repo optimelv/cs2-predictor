@@ -14831,6 +14831,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 74.5,
           "rating": 1.22,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399078",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "ex-RUSTEC",
+          "won": false,
+          "kills": 26,
+          "deaths": 29,
+          "kd_ratio": 0.9,
+          "adr": 74.2,
+          "kast": 68.3,
+          "rating": 1.01,
+          "maps": 2
         }
       ],
       "map_profile": [],
@@ -14839,12 +14854,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
           "through_date": "2026-10-14",
-          "series": 1,
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.22,
-          "average_adr": 75.3
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.11,
+          "average_adr": 74.8
         }
       ],
       "timeline_entry": {
@@ -14863,10 +14878,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.22,
-        "average_adr": 75.3,
-        "recent_rating": 1.22,
+        "series": 2,
+        "average_rating": 1.11,
+        "average_adr": 74.8,
+        "recent_rating": 1.11,
         "rating_delta": null
       }
     },
@@ -16413,6 +16428,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 76.4,
           "rating": 1.15,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399078",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "ex-RUSTEC",
+          "won": false,
+          "kills": 15,
+          "deaths": 28,
+          "kd_ratio": 0.54,
+          "adr": 48.5,
+          "kast": 58.5,
+          "rating": 0.65,
+          "maps": 2
         }
       ],
       "map_profile": [],
@@ -16421,12 +16451,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
           "through_date": "2026-10-14",
-          "series": 1,
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.15,
-          "average_adr": 73.6
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 0.9,
+          "average_adr": 61
         }
       ],
       "timeline_entry": {
@@ -16445,10 +16475,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.15,
-        "average_adr": 73.6,
-        "recent_rating": 1.15,
+        "series": 2,
+        "average_rating": 0.9,
+        "average_adr": 61,
+        "recent_rating": 0.9,
         "rating_delta": null
       }
     },
@@ -16491,6 +16521,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 72.7,
           "rating": 0.99,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399078",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "ex-RUSTEC",
+          "won": false,
+          "kills": 31,
+          "deaths": 31,
+          "kd_ratio": 1,
+          "adr": 95.4,
+          "kast": 65.9,
+          "rating": 1.11,
+          "maps": 2
         }
       ],
       "map_profile": [],
@@ -16499,12 +16544,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
           "through_date": "2026-10-14",
-          "series": 1,
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 0.99,
-          "average_adr": 58.6
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.05,
+          "average_adr": 77
         }
       ],
       "timeline_entry": {
@@ -16523,10 +16568,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.99,
-        "average_adr": 58.6,
-        "recent_rating": 0.99,
+        "series": 2,
+        "average_rating": 1.05,
+        "average_adr": 77,
+        "recent_rating": 1.05,
         "rating_delta": null
       }
     },
@@ -16555,6 +16600,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 69.1,
           "rating": 1.01,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399078",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "ex-RUSTEC",
+          "won": false,
+          "kills": 23,
+          "deaths": 33,
+          "kd_ratio": 0.7,
+          "adr": 66.2,
+          "kast": 65.9,
+          "rating": 0.7,
+          "maps": 2
         }
       ],
       "map_profile": [],
@@ -16563,12 +16623,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
           "through_date": "2026-10-14",
-          "series": 1,
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.01,
-          "average_adr": 75.8
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 0.85,
+          "average_adr": 71
         }
       ],
       "timeline_entry": {
@@ -16587,10 +16647,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.01,
-        "average_adr": 75.8,
-        "recent_rating": 1.01,
+        "series": 2,
+        "average_rating": 0.85,
+        "average_adr": 71,
+        "recent_rating": 0.85,
         "rating_delta": null
       }
     },
@@ -18699,6 +18759,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 88.1,
           "rating": 1.99,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399205",
+          "date": "2026-10-15",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "Galorys",
+          "team_name": "LP",
+          "won": true,
+          "kills": 28,
+          "deaths": 19,
+          "kd_ratio": 1.47,
+          "adr": 96.8,
+          "kast": 70.6,
+          "rating": 1.52,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -18706,35 +18781,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "LP",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-12",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.99,
-          "average_adr": 101.8
+          "average_rating": 1.75,
+          "average_adr": 99.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399202",
-        "date": "2026-10-12",
+        "match_id": "hltv:2399205",
+        "date": "2026-10-15",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "ex-Keyd Stars",
+        "opponent_name": "Galorys",
         "team_name": "LP",
         "won": true,
-        "kills": 45,
+        "kills": 28,
         "deaths": 19,
-        "kd_ratio": 2.37,
-        "adr": 101.8,
-        "kast": 88.1,
-        "rating": 1.99,
+        "kd_ratio": 1.47,
+        "adr": 96.8,
+        "kast": 70.6,
+        "rating": 1.52,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.99,
-        "average_adr": 101.8,
-        "recent_rating": 1.99,
+        "series": 2,
+        "average_rating": 1.75,
+        "average_adr": 99.3,
+        "recent_rating": 1.75,
         "rating_delta": null
       }
     },
@@ -18777,6 +18852,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 78.6,
           "rating": 0.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399205",
+          "date": "2026-10-15",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "Galorys",
+          "team_name": "LP",
+          "won": true,
+          "kills": 15,
+          "deaths": 26,
+          "kd_ratio": 0.58,
+          "adr": 58.5,
+          "kast": 70.6,
+          "rating": 0.62,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -18784,35 +18874,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "LP",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-12",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.9,
-          "average_adr": 84.5
+          "average_rating": 0.76,
+          "average_adr": 71.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399202",
-        "date": "2026-10-12",
+        "match_id": "hltv:2399205",
+        "date": "2026-10-15",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "ex-Keyd Stars",
+        "opponent_name": "Galorys",
         "team_name": "LP",
         "won": true,
-        "kills": 26,
-        "deaths": 30,
-        "kd_ratio": 0.87,
-        "adr": 84.5,
-        "kast": 78.6,
-        "rating": 0.9,
+        "kills": 15,
+        "deaths": 26,
+        "kd_ratio": 0.58,
+        "adr": 58.5,
+        "kast": 70.6,
+        "rating": 0.62,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.9,
-        "average_adr": 84.5,
-        "recent_rating": 0.9,
+        "series": 2,
+        "average_rating": 0.76,
+        "average_adr": 71.5,
+        "recent_rating": 0.76,
         "rating_delta": null
       }
     },
@@ -18841,6 +18931,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 78.6,
           "rating": 1.36,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399205",
+          "date": "2026-10-15",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "Galorys",
+          "team_name": "LP",
+          "won": true,
+          "kills": 17,
+          "deaths": 19,
+          "kd_ratio": 0.89,
+          "adr": 53.9,
+          "kast": 61.8,
+          "rating": 0.81,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -18848,35 +18953,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "LP",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-12",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.36,
-          "average_adr": 69.4
+          "average_rating": 1.08,
+          "average_adr": 61.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399202",
-        "date": "2026-10-12",
+        "match_id": "hltv:2399205",
+        "date": "2026-10-15",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "ex-Keyd Stars",
+        "opponent_name": "Galorys",
         "team_name": "LP",
         "won": true,
-        "kills": 32,
-        "deaths": 18,
-        "kd_ratio": 1.78,
-        "adr": 69.4,
-        "kast": 78.6,
-        "rating": 1.36,
+        "kills": 17,
+        "deaths": 19,
+        "kd_ratio": 0.89,
+        "adr": 53.9,
+        "kast": 61.8,
+        "rating": 0.81,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.36,
-        "average_adr": 69.4,
-        "recent_rating": 1.36,
+        "series": 2,
+        "average_rating": 1.08,
+        "average_adr": 61.7,
+        "recent_rating": 1.08,
         "rating_delta": null
       }
     },
@@ -18905,6 +19010,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 83.3,
           "rating": 0.97,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399205",
+          "date": "2026-10-15",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "Galorys",
+          "team_name": "LP",
+          "won": true,
+          "kills": 21,
+          "deaths": 24,
+          "kd_ratio": 0.88,
+          "adr": 49.8,
+          "kast": 70.6,
+          "rating": 0.84,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -18912,35 +19032,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "LP",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-12",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.97,
-          "average_adr": 65.3
+          "average_rating": 0.91,
+          "average_adr": 57.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399202",
-        "date": "2026-10-12",
+        "match_id": "hltv:2399205",
+        "date": "2026-10-15",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "ex-Keyd Stars",
+        "opponent_name": "Galorys",
         "team_name": "LP",
         "won": true,
-        "kills": 27,
-        "deaths": 26,
-        "kd_ratio": 1.04,
-        "adr": 65.3,
-        "kast": 83.3,
-        "rating": 0.97,
+        "kills": 21,
+        "deaths": 24,
+        "kd_ratio": 0.88,
+        "adr": 49.8,
+        "kast": 70.6,
+        "rating": 0.84,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.97,
-        "average_adr": 65.3,
-        "recent_rating": 0.97,
+        "series": 2,
+        "average_rating": 0.91,
+        "average_adr": 57.5,
+        "recent_rating": 0.91,
         "rating_delta": null
       }
     },
@@ -20555,6 +20675,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 83.6,
           "rating": 1.5,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399078",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "ex-RUSTEC",
+          "won": false,
+          "kills": 29,
+          "deaths": 27,
+          "kd_ratio": 1.07,
+          "adr": 68,
+          "kast": 78,
+          "rating": 1.02,
+          "maps": 2
         }
       ],
       "map_profile": [],
@@ -20563,12 +20698,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
           "through_date": "2026-10-14",
-          "series": 1,
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.5,
-          "average_adr": 89.3
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.26,
+          "average_adr": 78.7
         }
       ],
       "timeline_entry": {
@@ -20587,10 +20722,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.5,
-        "average_adr": 89.3,
-        "recent_rating": 1.5,
+        "series": 2,
+        "average_rating": 1.26,
+        "average_adr": 78.7,
+        "recent_rating": 1.26,
         "rating_delta": null
       }
     },
@@ -21584,6 +21719,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 0.86,
           "team_name": "Galorys",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399205",
+          "date": "2026-10-15",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "LP",
+          "team_name": "Galorys",
+          "won": false,
+          "kills": 14,
+          "deaths": 21,
+          "kd_ratio": 0.67,
+          "adr": 57.5,
+          "kast": 73.5,
+          "rating": 0.9,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21591,34 +21741,34 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Galorys",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
+          "through_date": "2026-10-15",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
+          "losses": 1,
+          "win_rate": 0.667,
           "average_rating": 0.9,
-          "average_adr": 62.8
+          "average_adr": 61
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399204",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399205",
+        "date": "2026-10-15",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "ex-Keyd Stars",
+        "opponent_name": "LP",
         "team_name": "Galorys",
-        "won": true,
-        "kills": 25,
-        "deaths": 32,
-        "kd_ratio": 0.78,
-        "adr": 58.5,
-        "kast": 79.6,
-        "rating": 0.86,
+        "won": false,
+        "kills": 14,
+        "deaths": 21,
+        "kd_ratio": 0.67,
+        "adr": 57.5,
+        "kast": 73.5,
+        "rating": 0.9,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
+        "series": 3,
         "average_rating": 0.9,
-        "average_adr": 62.8,
+        "average_adr": 61,
         "recent_rating": 0.9,
         "rating_delta": null
       }
@@ -21663,6 +21813,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.01,
           "team_name": "Galorys",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399205",
+          "date": "2026-10-15",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "LP",
+          "team_name": "Galorys",
+          "won": false,
+          "kills": 19,
+          "deaths": 20,
+          "kd_ratio": 0.95,
+          "adr": 78.6,
+          "kast": 79.4,
+          "rating": 1.13,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21670,35 +21835,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Galorys",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
+          "through_date": "2026-10-15",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.08,
-          "average_adr": 68.8
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1.1,
+          "average_adr": 72
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399204",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399205",
+        "date": "2026-10-15",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "ex-Keyd Stars",
+        "opponent_name": "LP",
         "team_name": "Galorys",
-        "won": true,
-        "kills": 29,
-        "deaths": 31,
-        "kd_ratio": 0.94,
-        "adr": 63.8,
-        "kast": 71.4,
-        "rating": 1.01,
+        "won": false,
+        "kills": 19,
+        "deaths": 20,
+        "kd_ratio": 0.95,
+        "adr": 78.6,
+        "kast": 79.4,
+        "rating": 1.13,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.08,
-        "average_adr": 68.8,
-        "recent_rating": 1.08,
+        "series": 3,
+        "average_rating": 1.1,
+        "average_adr": 72,
+        "recent_rating": 1.1,
         "rating_delta": null
       }
     },
@@ -21742,6 +21907,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.11,
           "team_name": "Galorys",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399205",
+          "date": "2026-10-15",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "LP",
+          "team_name": "Galorys",
+          "won": false,
+          "kills": 26,
+          "deaths": 18,
+          "kd_ratio": 1.44,
+          "adr": 72.7,
+          "kast": 79.4,
+          "rating": 1.11,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21749,35 +21929,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Galorys",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
+          "through_date": "2026-10-15",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.04,
-          "average_adr": 70.3
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1.06,
+          "average_adr": 71.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399204",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399205",
+        "date": "2026-10-15",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "ex-Keyd Stars",
+        "opponent_name": "LP",
         "team_name": "Galorys",
-        "won": true,
-        "kills": 33,
-        "deaths": 30,
-        "kd_ratio": 1.1,
-        "adr": 76.8,
-        "kast": 73.5,
+        "won": false,
+        "kills": 26,
+        "deaths": 18,
+        "kd_ratio": 1.44,
+        "adr": 72.7,
+        "kast": 79.4,
         "rating": 1.11,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.04,
-        "average_adr": 70.3,
-        "recent_rating": 1.04,
+        "series": 3,
+        "average_rating": 1.06,
+        "average_adr": 71.1,
+        "recent_rating": 1.06,
         "rating_delta": null
       }
     },
@@ -21821,6 +22001,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.46,
           "team_name": "Galorys",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399205",
+          "date": "2026-10-15",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "LP",
+          "team_name": "Galorys",
+          "won": false,
+          "kills": 27,
+          "deaths": 19,
+          "kd_ratio": 1.42,
+          "adr": 76.1,
+          "kast": 73.5,
+          "rating": 1.28,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21828,35 +22023,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Galorys",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
+          "through_date": "2026-10-15",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.39,
-          "average_adr": 87
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1.35,
+          "average_adr": 83.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399204",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399205",
+        "date": "2026-10-15",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "ex-Keyd Stars",
+        "opponent_name": "LP",
         "team_name": "Galorys",
-        "won": true,
-        "kills": 43,
-        "deaths": 34,
-        "kd_ratio": 1.26,
-        "adr": 98.1,
-        "kast": 79.6,
-        "rating": 1.46,
+        "won": false,
+        "kills": 27,
+        "deaths": 19,
+        "kd_ratio": 1.42,
+        "adr": 76.1,
+        "kast": 73.5,
+        "rating": 1.28,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.39,
-        "average_adr": 87,
-        "recent_rating": 1.39,
+        "series": 3,
+        "average_rating": 1.35,
+        "average_adr": 83.4,
+        "recent_rating": 1.35,
         "rating_delta": null
       }
     },
@@ -21900,6 +22095,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "rating": 1.59,
           "team_name": "Galorys",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399205",
+          "date": "2026-10-15",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "LP",
+          "team_name": "Galorys",
+          "won": false,
+          "kills": 25,
+          "deaths": 26,
+          "kd_ratio": 0.96,
+          "adr": 72.7,
+          "kast": 73.5,
+          "rating": 1.02,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21907,35 +22117,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Galorys",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
+          "through_date": "2026-10-15",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.39,
-          "average_adr": 94.4
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1.27,
+          "average_adr": 87.2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399204",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399205",
+        "date": "2026-10-15",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "ex-Keyd Stars",
+        "opponent_name": "LP",
         "team_name": "Galorys",
-        "won": true,
-        "kills": 52,
-        "deaths": 33,
-        "kd_ratio": 1.58,
-        "adr": 105.6,
-        "kast": 75.5,
-        "rating": 1.59,
+        "won": false,
+        "kills": 25,
+        "deaths": 26,
+        "kd_ratio": 0.96,
+        "adr": 72.7,
+        "kast": 73.5,
+        "rating": 1.02,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.39,
-        "average_adr": 94.4,
-        "recent_rating": 1.39,
+        "series": 3,
+        "average_rating": 1.27,
+        "average_adr": 87.2,
+        "recent_rating": 1.27,
         "rating_delta": null
       }
     },
@@ -22971,6 +23181,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 73.8,
           "rating": 0.88,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399205",
+          "date": "2026-10-15",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "Galorys",
+          "team_name": "LP",
+          "won": true,
+          "kills": 23,
+          "deaths": 24,
+          "kd_ratio": 0.96,
+          "adr": 70.1,
+          "kast": 70.6,
+          "rating": 0.94,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -22978,35 +23203,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "LP",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-12",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.88,
-          "average_adr": 71.4
+          "average_rating": 0.91,
+          "average_adr": 70.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399202",
-        "date": "2026-10-12",
+        "match_id": "hltv:2399205",
+        "date": "2026-10-15",
         "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "ex-Keyd Stars",
+        "opponent_name": "Galorys",
         "team_name": "LP",
         "won": true,
-        "kills": 24,
-        "deaths": 29,
-        "kd_ratio": 0.83,
-        "adr": 71.4,
-        "kast": 73.8,
-        "rating": 0.88,
+        "kills": 23,
+        "deaths": 24,
+        "kd_ratio": 0.96,
+        "adr": 70.1,
+        "kast": 70.6,
+        "rating": 0.94,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.88,
-        "average_adr": 71.4,
-        "recent_rating": 0.88,
+        "series": 2,
+        "average_rating": 0.91,
+        "average_adr": 70.8,
+        "recent_rating": 0.91,
         "rating_delta": null
       }
     },
@@ -24085,9 +24310,59 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "traits": {},
       "hltv_player_id": "24298",
       "source_url": "https://www.hltv.org/player/24298/alennncar",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "JOGA DE TERNO",
+          "won": true,
+          "kills": 27,
+          "deaths": 16,
+          "kd_ratio": 1.69,
+          "adr": 88.4,
+          "kast": 84.8,
+          "rating": 1.29,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "JOGA DE TERNO",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.29,
+          "average_adr": 88.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399575",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "A NATA",
+        "team_name": "JOGA DE TERNO",
+        "won": true,
+        "kills": 27,
+        "deaths": 16,
+        "kd_ratio": 1.69,
+        "adr": 88.4,
+        "kast": 84.8,
+        "rating": 1.29,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.29,
+        "average_adr": 88.4,
+        "recent_rating": 1.29,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24930",
@@ -24099,9 +24374,59 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "traits": {},
       "hltv_player_id": "24930",
       "source_url": "https://www.hltv.org/player/24930/vzn",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "JOGA DE TERNO",
+          "won": true,
+          "kills": 33,
+          "deaths": 17,
+          "kd_ratio": 1.94,
+          "adr": 110.7,
+          "kast": 93.9,
+          "rating": 1.88,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "JOGA DE TERNO",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.88,
+          "average_adr": 110.7
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399575",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "A NATA",
+        "team_name": "JOGA DE TERNO",
+        "won": true,
+        "kills": 33,
+        "deaths": 17,
+        "kd_ratio": 1.94,
+        "adr": 110.7,
+        "kast": 93.9,
+        "rating": 1.88,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.88,
+        "average_adr": 110.7,
+        "recent_rating": 1.88,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23786",
@@ -24113,9 +24438,59 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "traits": {},
       "hltv_player_id": "23786",
       "source_url": "https://www.hltv.org/player/23786/tineu",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "JOGA DE TERNO",
+          "won": true,
+          "kills": 19,
+          "deaths": 17,
+          "kd_ratio": 1.12,
+          "adr": 69.5,
+          "kast": 69.7,
+          "rating": 0.85,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "JOGA DE TERNO",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.85,
+          "average_adr": 69.5
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399575",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "A NATA",
+        "team_name": "JOGA DE TERNO",
+        "won": true,
+        "kills": 19,
+        "deaths": 17,
+        "kd_ratio": 1.12,
+        "adr": 69.5,
+        "kast": 69.7,
+        "rating": 0.85,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.85,
+        "average_adr": 69.5,
+        "recent_rating": 0.85,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25812",
@@ -24127,9 +24502,59 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "traits": {},
       "hltv_player_id": "25812",
       "source_url": "https://www.hltv.org/player/25812/khowy",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "JOGA DE TERNO",
+          "won": true,
+          "kills": 33,
+          "deaths": 11,
+          "kd_ratio": 3,
+          "adr": 91.1,
+          "kast": 97,
+          "rating": 1.9,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "JOGA DE TERNO",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.9,
+          "average_adr": 91.1
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399575",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "A NATA",
+        "team_name": "JOGA DE TERNO",
+        "won": true,
+        "kills": 33,
+        "deaths": 11,
+        "kd_ratio": 3,
+        "adr": 91.1,
+        "kast": 97,
+        "rating": 1.9,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.9,
+        "average_adr": 91.1,
+        "recent_rating": 1.9,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20577",
@@ -24824,6 +25249,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 61.9,
           "rating": 0.45,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399567",
+          "date": "2026-10-14",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Rune Eaters",
+          "team_name": "PCIFIC",
+          "won": true,
+          "kills": 28,
+          "deaths": 46,
+          "kd_ratio": 0.61,
+          "adr": 52.5,
+          "kast": 70.3,
+          "rating": 0.72,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25890",
@@ -24834,12 +25274,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "PCIFIC",
           "from_date": "2026-10-05",
           "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 1,
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 0.55,
-          "average_adr": 47.8
+          "win_rate": 0.667,
+          "average_rating": 0.61,
+          "average_adr": 49.3
         }
       ],
       "timeline_entry": {
@@ -24858,10 +25298,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.55,
-        "average_adr": 47.8,
-        "recent_rating": 0.55,
+        "series": 3,
+        "average_rating": 0.61,
+        "average_adr": 49.3,
+        "recent_rating": 0.61,
         "rating_delta": null
       }
     },
@@ -24903,6 +25343,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 85.7,
           "rating": 2.16,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399567",
+          "date": "2026-10-14",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Rune Eaters",
+          "team_name": "PCIFIC",
+          "won": true,
+          "kills": 43,
+          "deaths": 42,
+          "kd_ratio": 1.02,
+          "adr": 67.8,
+          "kast": 67.2,
+          "rating": 0.94,
+          "maps": 3
         }
       ],
       "hltv_player_id": "23274",
@@ -24913,12 +25368,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "PCIFIC",
           "from_date": "2026-10-05",
           "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 1,
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.56,
-          "average_adr": 84.8
+          "win_rate": 0.667,
+          "average_rating": 1.35,
+          "average_adr": 79.2
         }
       ],
       "timeline_entry": {
@@ -24937,10 +25392,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.56,
-        "average_adr": 84.8,
-        "recent_rating": 1.56,
+        "series": 3,
+        "average_rating": 1.35,
+        "average_adr": 79.2,
+        "recent_rating": 1.35,
         "rating_delta": null
       }
     },
@@ -24982,6 +25437,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 61.9,
           "rating": 1,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399567",
+          "date": "2026-10-14",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Rune Eaters",
+          "team_name": "PCIFIC",
+          "won": true,
+          "kills": 49,
+          "deaths": 42,
+          "kd_ratio": 1.17,
+          "adr": 80.9,
+          "kast": 68.8,
+          "rating": 1.18,
+          "maps": 3
         }
       ],
       "hltv_player_id": "22504",
@@ -24992,12 +25462,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "PCIFIC",
           "from_date": "2026-10-05",
           "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 1,
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 0.97,
-          "average_adr": 66.8
+          "win_rate": 0.667,
+          "average_rating": 1.04,
+          "average_adr": 71.5
         }
       ],
       "timeline_entry": {
@@ -25016,10 +25486,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.97,
-        "average_adr": 66.8,
-        "recent_rating": 0.97,
+        "series": 3,
+        "average_rating": 1.04,
+        "average_adr": 71.5,
+        "recent_rating": 1.04,
         "rating_delta": null
       }
     },
@@ -25061,6 +25531,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 71.4,
           "rating": 1.51,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399567",
+          "date": "2026-10-14",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Rune Eaters",
+          "team_name": "PCIFIC",
+          "won": true,
+          "kills": 45,
+          "deaths": 46,
+          "kd_ratio": 0.98,
+          "adr": 76.3,
+          "kast": 70.3,
+          "rating": 1.18,
+          "maps": 3
         }
       ],
       "hltv_player_id": "21250",
@@ -25071,12 +25556,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "PCIFIC",
           "from_date": "2026-10-05",
           "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 1,
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.29,
-          "average_adr": 90.9
+          "win_rate": 0.667,
+          "average_rating": 1.26,
+          "average_adr": 86
         }
       ],
       "timeline_entry": {
@@ -25095,10 +25580,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.29,
-        "average_adr": 90.9,
-        "recent_rating": 1.29,
+        "series": 3,
+        "average_rating": 1.26,
+        "average_adr": 86,
+        "recent_rating": 1.26,
         "rating_delta": null
       }
     },
@@ -26917,6 +27402,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 76.3,
           "rating": 1.57,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399078",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 38,
+          "deaths": 28,
+          "kd_ratio": 1.36,
+          "adr": 93.8,
+          "kast": 80.5,
+          "rating": 1.41,
+          "maps": 2
         }
       ],
       "timeline_entry": {
@@ -26935,10 +27435,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.79,
-        "average_adr": 101.4,
-        "recent_rating": 1.79,
+        "series": 3,
+        "average_rating": 1.66,
+        "average_adr": 98.9,
+        "recent_rating": 1.66,
         "rating_delta": null
       },
       "map_profile": [],
@@ -26946,13 +27446,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-13",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-14",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.79,
-          "average_adr": 101.4
+          "average_rating": 1.66,
+          "average_adr": 98.9
         }
       ]
     },
@@ -26996,6 +27496,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 84.2,
           "rating": 1.3,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399078",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 33,
+          "deaths": 26,
+          "kd_ratio": 1.27,
+          "adr": 73.1,
+          "kast": 73.2,
+          "rating": 1.22,
+          "maps": 2
         }
       ],
       "timeline_entry": {
@@ -27014,10 +27529,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.39,
-        "average_adr": 95.5,
-        "recent_rating": 1.39,
+        "series": 3,
+        "average_rating": 1.33,
+        "average_adr": 88,
+        "recent_rating": 1.33,
         "rating_delta": null
       },
       "map_profile": [],
@@ -27025,13 +27540,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-13",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-14",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.39,
-          "average_adr": 95.5
+          "average_rating": 1.33,
+          "average_adr": 88
         }
       ]
     },
@@ -27075,6 +27590,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 81.6,
           "rating": 1.16,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399078",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 18,
+          "deaths": 23,
+          "kd_ratio": 0.78,
+          "adr": 64.1,
+          "kast": 70.7,
+          "rating": 0.86,
+          "maps": 2
         }
       ],
       "timeline_entry": {
@@ -27093,10 +27623,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.31,
-        "average_adr": 82.8,
-        "recent_rating": 1.31,
+        "series": 3,
+        "average_rating": 1.16,
+        "average_adr": 76.6,
+        "recent_rating": 1.16,
         "rating_delta": null
       },
       "map_profile": [],
@@ -27104,13 +27634,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-13",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-14",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.31,
-          "average_adr": 82.8
+          "average_rating": 1.16,
+          "average_adr": 76.6
         }
       ]
     },
@@ -27154,6 +27684,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 73.7,
           "rating": 1.19,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399078",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 25,
+          "deaths": 21,
+          "kd_ratio": 1.19,
+          "adr": 66.5,
+          "kast": 75.6,
+          "rating": 1.37,
+          "maps": 2
         }
       ],
       "timeline_entry": {
@@ -27172,10 +27717,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.08,
-        "average_adr": 54.4,
-        "recent_rating": 1.08,
+        "series": 3,
+        "average_rating": 1.18,
+        "average_adr": 58.4,
+        "recent_rating": 1.18,
         "rating_delta": null
       },
       "map_profile": [],
@@ -27183,13 +27728,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-13",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-14",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.08,
-          "average_adr": 54.4
+          "average_rating": 1.18,
+          "average_adr": 58.4
         }
       ]
     },
@@ -27233,6 +27778,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 81.6,
           "rating": 1.27,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399078",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 33,
+          "deaths": 28,
+          "kd_ratio": 1.18,
+          "adr": 89.1,
+          "kast": 63.4,
+          "rating": 1.31,
+          "maps": 2
         }
       ],
       "timeline_entry": {
@@ -27251,10 +27811,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.1,
-        "average_adr": 79.7,
-        "recent_rating": 1.1,
+        "series": 3,
+        "average_rating": 1.17,
+        "average_adr": 82.8,
+        "recent_rating": 1.17,
         "rating_delta": null
       },
       "map_profile": [],
@@ -27262,13 +27822,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-13",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-14",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.1,
-          "average_adr": 79.7
+          "average_rating": 1.17,
+          "average_adr": 82.8
         }
       ]
     },
@@ -35789,6 +36349,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 59.6,
           "rating": 0.88,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399075",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "GenOne",
+          "team_name": "6666",
+          "won": true,
+          "kills": 40,
+          "deaths": 45,
+          "kd_ratio": 0.89,
+          "adr": 72.5,
+          "kast": 69.2,
+          "rating": 1.06,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -35797,12 +36372,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "6666",
           "from_date": "2026-10-12",
           "through_date": "2026-10-14",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.11,
-          "average_adr": 83
+          "win_rate": 0.75,
+          "average_rating": 1.1,
+          "average_adr": 80.4
         }
       ],
       "timeline_entry": {
@@ -35821,11 +36396,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.11,
-        "average_adr": 83,
-        "recent_rating": 1.11,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.1,
+        "average_adr": 80.4,
+        "recent_rating": 0.96,
+        "rating_delta": -0.55
       }
     },
     {
@@ -35883,6 +36458,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 80.8,
           "rating": 1.17,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399075",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "GenOne",
+          "team_name": "6666",
+          "won": true,
+          "kills": 40,
+          "deaths": 44,
+          "kd_ratio": 0.91,
+          "adr": 67.5,
+          "kast": 63.1,
+          "rating": 1,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -35891,12 +36481,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "6666",
           "from_date": "2026-10-12",
           "through_date": "2026-10-14",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.29,
-          "average_adr": 77.7
+          "win_rate": 0.75,
+          "average_rating": 1.21,
+          "average_adr": 75.2
         }
       ],
       "timeline_entry": {
@@ -35915,11 +36505,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.29,
-        "average_adr": 77.7,
-        "recent_rating": 1.29,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.21,
+        "average_adr": 75.2,
+        "recent_rating": 1.14,
+        "rating_delta": -0.29
       }
     },
     {
@@ -35977,6 +36567,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 75,
           "rating": 1.36,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399075",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "GenOne",
+          "team_name": "6666",
+          "won": true,
+          "kills": 62,
+          "deaths": 39,
+          "kd_ratio": 1.59,
+          "adr": 87.9,
+          "kast": 78.5,
+          "rating": 1.52,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -35985,12 +36590,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "6666",
           "from_date": "2026-10-12",
           "through_date": "2026-10-14",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.18,
-          "average_adr": 78.4
+          "win_rate": 0.75,
+          "average_rating": 1.27,
+          "average_adr": 80.8
         }
       ],
       "timeline_entry": {
@@ -36009,11 +36614,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.18,
-        "average_adr": 78.4,
-        "recent_rating": 1.18,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.27,
+        "average_adr": 80.8,
+        "recent_rating": 1.29,
+        "rating_delta": 0.11
       }
     },
     {
@@ -36071,6 +36676,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 67.3,
           "rating": 1.14,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399075",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "GenOne",
+          "team_name": "6666",
+          "won": true,
+          "kills": 45,
+          "deaths": 42,
+          "kd_ratio": 1.07,
+          "adr": 73.7,
+          "kast": 69.2,
+          "rating": 1.12,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -36079,12 +36699,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "6666",
           "from_date": "2026-10-12",
           "through_date": "2026-10-14",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.03,
-          "average_adr": 75.5
+          "win_rate": 0.75,
+          "average_rating": 1.05,
+          "average_adr": 75
         }
       ],
       "timeline_entry": {
@@ -36103,11 +36723,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.03,
-        "average_adr": 75.5,
-        "recent_rating": 1.03,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.05,
+        "average_adr": 75,
+        "recent_rating": 0.97,
+        "rating_delta": -0.35
       }
     },
     {
@@ -36165,6 +36785,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 61.5,
           "rating": 0.71,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399075",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "GenOne",
+          "team_name": "6666",
+          "won": true,
+          "kills": 39,
+          "deaths": 45,
+          "kd_ratio": 0.87,
+          "adr": 74.9,
+          "kast": 70.8,
+          "rating": 1.01,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -36173,12 +36808,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "6666",
           "from_date": "2026-10-12",
           "through_date": "2026-10-14",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 0.79,
-          "average_adr": 63.5
+          "win_rate": 0.75,
+          "average_rating": 0.85,
+          "average_adr": 66.4
         }
       ],
       "timeline_entry": {
@@ -36197,11 +36832,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.79,
-        "average_adr": 63.5,
-        "recent_rating": 0.79,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.85,
+        "average_adr": 66.4,
+        "recent_rating": 0.77,
+        "rating_delta": -0.31
       }
     },
     {
@@ -36227,6 +36862,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 76.7,
           "rating": 1.4,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399076",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 44,
+          "deaths": 42,
+          "kd_ratio": 1.05,
+          "adr": 74.9,
+          "kast": 77.6,
+          "rating": 1.12,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24316",
@@ -36236,13 +36886,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.4,
-          "average_adr": 98.9
+          "average_rating": 1.26,
+          "average_adr": 86.9
         }
       ],
       "timeline_entry": {
@@ -36261,10 +36911,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.4,
-        "average_adr": 98.9,
-        "recent_rating": 1.4,
+        "series": 2,
+        "average_rating": 1.26,
+        "average_adr": 86.9,
+        "recent_rating": 1.26,
         "rating_delta": null
       }
     },
@@ -36291,6 +36941,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 79.1,
           "rating": 0.99,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399076",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 46,
+          "deaths": 41,
+          "kd_ratio": 1.12,
+          "adr": 82.8,
+          "kast": 79.1,
+          "rating": 1.21,
+          "maps": 3
         }
       ],
       "hltv_player_id": "19882",
@@ -36300,13 +36965,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.99,
-          "average_adr": 68.1
+          "average_rating": 1.1,
+          "average_adr": 75.4
         }
       ],
       "timeline_entry": {
@@ -36325,10 +36990,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.99,
-        "average_adr": 68.1,
-        "recent_rating": 0.99,
+        "series": 2,
+        "average_rating": 1.1,
+        "average_adr": 75.4,
+        "recent_rating": 1.1,
         "rating_delta": null
       }
     },
@@ -36355,6 +37020,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 83.7,
           "rating": 1.29,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399076",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 57,
+          "deaths": 37,
+          "kd_ratio": 1.54,
+          "adr": 85.6,
+          "kast": 79.1,
+          "rating": 1.27,
+          "maps": 3
         }
       ],
       "hltv_player_id": "22039",
@@ -36364,13 +37044,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.29,
-          "average_adr": 68.9
+          "average_rating": 1.28,
+          "average_adr": 77.3
         }
       ],
       "timeline_entry": {
@@ -36389,10 +37069,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.29,
-        "average_adr": 68.9,
-        "recent_rating": 1.29,
+        "series": 2,
+        "average_rating": 1.28,
+        "average_adr": 77.3,
+        "recent_rating": 1.28,
         "rating_delta": null
       }
     },
@@ -36419,6 +37099,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 62.8,
           "rating": 0.92,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399076",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 47,
+          "deaths": 38,
+          "kd_ratio": 1.24,
+          "adr": 65.4,
+          "kast": 83.6,
+          "rating": 1.12,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25509",
@@ -36428,13 +37123,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.92,
-          "average_adr": 70
+          "average_rating": 1.02,
+          "average_adr": 67.7
         }
       ],
       "timeline_entry": {
@@ -36453,10 +37148,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.92,
-        "average_adr": 70,
-        "recent_rating": 0.92,
+        "series": 2,
+        "average_rating": 1.02,
+        "average_adr": 67.7,
+        "recent_rating": 1.02,
         "rating_delta": null
       }
     },
@@ -36483,6 +37178,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 72.1,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399076",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 44,
+          "deaths": 42,
+          "kd_ratio": 1.05,
+          "adr": 75,
+          "kast": 73.1,
+          "rating": 0.95,
+          "maps": 3
         }
       ],
       "hltv_player_id": "21447",
@@ -36492,13 +37202,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.12,
-          "average_adr": 68
+          "average_rating": 1.04,
+          "average_adr": 71.5
         }
       ],
       "timeline_entry": {
@@ -36517,10 +37227,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.12,
-        "average_adr": 68,
-        "recent_rating": 1.12,
+        "series": 2,
+        "average_rating": 1.04,
+        "average_adr": 71.5,
+        "recent_rating": 1.04,
         "rating_delta": null
       }
     },
@@ -40042,6 +40752,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 71.4,
           "rating": 0.94,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399077",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 31,
+          "deaths": 32,
+          "kd_ratio": 0.97,
+          "adr": 57.6,
+          "kast": 66,
+          "rating": 1.06,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -40050,12 +40775,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
           "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 1,
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.94,
-          "average_adr": 60.2
+          "average_rating": 1,
+          "average_adr": 58.9
         }
       ],
       "timeline_entry": {
@@ -40074,10 +40799,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.94,
-        "average_adr": 60.2,
-        "recent_rating": 0.94,
+        "series": 2,
+        "average_rating": 1,
+        "average_adr": 58.9,
+        "recent_rating": 1,
         "rating_delta": null
       }
     },
@@ -40106,6 +40831,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 73.8,
           "rating": 1.19,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399077",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 28,
+          "deaths": 26,
+          "kd_ratio": 1.08,
+          "adr": 71.9,
+          "kast": 74.5,
+          "rating": 1.24,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -40114,12 +40854,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
           "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 1,
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.19,
-          "average_adr": 74.9
+          "average_rating": 1.21,
+          "average_adr": 73.4
         }
       ],
       "timeline_entry": {
@@ -40138,10 +40878,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.19,
-        "average_adr": 74.9,
-        "recent_rating": 1.19,
+        "series": 2,
+        "average_rating": 1.21,
+        "average_adr": 73.4,
+        "recent_rating": 1.21,
         "rating_delta": null
       }
     },
@@ -40170,6 +40910,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 78.6,
           "rating": 1.71,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399077",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 31,
+          "deaths": 33,
+          "kd_ratio": 0.94,
+          "adr": 64.9,
+          "kast": 80.9,
+          "rating": 1.08,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -40178,12 +40933,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
           "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 1,
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.71,
-          "average_adr": 100.9
+          "average_rating": 1.4,
+          "average_adr": 82.9
         }
       ],
       "timeline_entry": {
@@ -40202,10 +40957,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.71,
-        "average_adr": 100.9,
-        "recent_rating": 1.71,
+        "series": 2,
+        "average_rating": 1.4,
+        "average_adr": 82.9,
+        "recent_rating": 1.4,
         "rating_delta": null
       }
     },
@@ -40234,6 +40989,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 73.8,
           "rating": 1.37,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399077",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 35,
+          "deaths": 33,
+          "kd_ratio": 1.06,
+          "adr": 82.4,
+          "kast": 68.1,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -40242,12 +41012,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
           "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 1,
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.37,
-          "average_adr": 87.3
+          "average_rating": 1.21,
+          "average_adr": 84.8
         }
       ],
       "timeline_entry": {
@@ -40266,10 +41036,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.37,
-        "average_adr": 87.3,
-        "recent_rating": 1.37,
+        "series": 2,
+        "average_rating": 1.21,
+        "average_adr": 84.8,
+        "recent_rating": 1.21,
         "rating_delta": null
       }
     },
@@ -40298,6 +41068,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 81,
           "rating": 1.16,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399077",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 32,
+          "deaths": 28,
+          "kd_ratio": 1.14,
+          "adr": 85.4,
+          "kast": 72.3,
+          "rating": 1.36,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -40306,12 +41091,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
           "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 1,
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.16,
-          "average_adr": 79.5
+          "average_rating": 1.26,
+          "average_adr": 82.5
         }
       ],
       "timeline_entry": {
@@ -40330,10 +41115,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.16,
-        "average_adr": 79.5,
-        "recent_rating": 1.16,
+        "series": 2,
+        "average_rating": 1.26,
+        "average_adr": 82.5,
+        "recent_rating": 1.26,
         "rating_delta": null
       }
     },
@@ -41205,6 +41990,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 58,
           "rating": 0.71,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399076",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BAKS",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 27,
+          "deaths": 55,
+          "kd_ratio": 0.49,
+          "adr": 57.1,
+          "kast": 65.7,
+          "rating": 0.66,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -41223,10 +42023,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.71,
-        "average_adr": 55,
-        "recent_rating": 0.71,
+        "series": 2,
+        "average_rating": 0.69,
+        "average_adr": 56,
+        "recent_rating": 0.69,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41234,13 +42034,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
+          "through_date": "2026-10-14",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.71,
-          "average_adr": 55
+          "average_rating": 0.69,
+          "average_adr": 56
         }
       ]
     },
@@ -41269,6 +42069,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 66,
           "rating": 0.89,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399076",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BAKS",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 46,
+          "deaths": 44,
+          "kd_ratio": 1.05,
+          "adr": 75.8,
+          "kast": 77.6,
+          "rating": 1.28,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -41287,10 +42102,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.89,
-        "average_adr": 69.8,
-        "recent_rating": 0.89,
+        "series": 2,
+        "average_rating": 1.08,
+        "average_adr": 72.8,
+        "recent_rating": 1.08,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41298,13 +42113,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
+          "through_date": "2026-10-14",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.89,
-          "average_adr": 69.8
+          "average_rating": 1.08,
+          "average_adr": 72.8
         }
       ]
     },
@@ -41333,6 +42148,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 66,
           "rating": 1.1,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399076",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BAKS",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 44,
+          "deaths": 53,
+          "kd_ratio": 0.83,
+          "adr": 70.6,
+          "kast": 65.7,
+          "rating": 0.96,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -41351,10 +42181,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.1,
-        "average_adr": 73.2,
-        "recent_rating": 1.1,
+        "series": 2,
+        "average_rating": 1.03,
+        "average_adr": 71.9,
+        "recent_rating": 1.03,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41362,13 +42192,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
+          "through_date": "2026-10-14",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.1,
-          "average_adr": 73.2
+          "average_rating": 1.03,
+          "average_adr": 71.9
         }
       ]
     },
@@ -41397,6 +42227,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 72,
           "rating": 1.19,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399076",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BAKS",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 38,
+          "deaths": 42,
+          "kd_ratio": 0.9,
+          "adr": 66.6,
+          "kast": 67.2,
+          "rating": 1.02,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -41415,10 +42260,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.19,
-        "average_adr": 84.7,
-        "recent_rating": 1.19,
+        "series": 2,
+        "average_rating": 1.1,
+        "average_adr": 75.7,
+        "recent_rating": 1.1,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41426,13 +42271,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
+          "through_date": "2026-10-14",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.19,
-          "average_adr": 84.7
+          "average_rating": 1.1,
+          "average_adr": 75.7
         }
       ]
     },
@@ -41461,6 +42306,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68,
           "rating": 0.94,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399076",
+          "date": "2026-10-14",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BAKS",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 42,
+          "deaths": 47,
+          "kd_ratio": 0.89,
+          "adr": 63.3,
+          "kast": 59.7,
+          "rating": 0.91,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -41479,10 +42339,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.94,
-        "average_adr": 67.4,
-        "recent_rating": 0.94,
+        "series": 2,
+        "average_rating": 0.93,
+        "average_adr": 65.3,
+        "recent_rating": 0.93,
         "rating_delta": null
       },
       "map_profile": [],
@@ -41490,13 +42350,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
+          "through_date": "2026-10-14",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.94,
-          "average_adr": 67.4
+          "average_rating": 0.93,
+          "average_adr": 65.3
         }
       ]
     },
@@ -42284,14 +43144,384 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "traits": {},
       "hltv_player_id": "21891",
       "source_url": "https://www.hltv.org/player/21891/ntx",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "JOGA DE TERNO",
+          "won": true,
+          "kills": 26,
+          "deaths": 11,
+          "kd_ratio": 2.36,
+          "adr": 80.9,
+          "kast": 84.8,
+          "rating": 1.5,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "JOGA DE TERNO",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.5,
+          "average_adr": 80.9
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399575",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "A NATA",
+        "team_name": "JOGA DE TERNO",
+        "won": true,
+        "kills": 26,
+        "deaths": 11,
+        "kd_ratio": 2.36,
+        "adr": 80.9,
+        "kast": 84.8,
+        "rating": 1.5,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.5,
+        "average_adr": 80.9,
+        "recent_rating": 1.5,
+        "rating_delta": null
+      }
+    },
+    {
+      "player_id": "hltv:24178",
+      "nickname": "Straafer",
+      "team_name": "A NATA",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "24178",
+      "source_url": "https://www.hltv.org/player/24178/straafer",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "A NATA",
+          "won": false,
+          "kills": 14,
+          "deaths": 30,
+          "kd_ratio": 0.47,
+          "adr": 60.8,
+          "kast": 48.5,
+          "rating": 0.68,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399575",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "JOGA DE TERNO",
+        "team_name": "A NATA",
+        "won": false,
+        "kills": 14,
+        "deaths": 30,
+        "kd_ratio": 0.47,
+        "adr": 60.8,
+        "kast": 48.5,
+        "rating": 0.68,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.68,
+        "average_adr": 60.8,
+        "recent_rating": 0.68,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "A NATA",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.68,
+          "average_adr": 60.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26071",
+      "nickname": "badran",
+      "team_name": "A NATA",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26071",
+      "source_url": "https://www.hltv.org/player/26071/badran",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "A NATA",
+          "won": false,
+          "kills": 18,
+          "deaths": 27,
+          "kd_ratio": 0.67,
+          "adr": 61.8,
+          "kast": 54.5,
+          "rating": 0.65,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399575",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "JOGA DE TERNO",
+        "team_name": "A NATA",
+        "won": false,
+        "kills": 18,
+        "deaths": 27,
+        "kd_ratio": 0.67,
+        "adr": 61.8,
+        "kast": 54.5,
+        "rating": 0.65,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.65,
+        "average_adr": 61.8,
+        "recent_rating": 0.65,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "A NATA",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.65,
+          "average_adr": 61.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26673",
+      "nickname": "veroneze",
+      "team_name": "A NATA",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26673",
+      "source_url": "https://www.hltv.org/player/26673/veroneze",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "A NATA",
+          "won": false,
+          "kills": 14,
+          "deaths": 28,
+          "kd_ratio": 0.5,
+          "adr": 52.4,
+          "kast": 63.6,
+          "rating": 0.79,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399575",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "JOGA DE TERNO",
+        "team_name": "A NATA",
+        "won": false,
+        "kills": 14,
+        "deaths": 28,
+        "kd_ratio": 0.5,
+        "adr": 52.4,
+        "kast": 63.6,
+        "rating": 0.79,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.79,
+        "average_adr": 52.4,
+        "recent_rating": 0.79,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "A NATA",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.79,
+          "average_adr": 52.4
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26899",
+      "nickname": "rzk",
+      "team_name": "A NATA",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26899",
+      "source_url": "https://www.hltv.org/player/26899/rzk",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "A NATA",
+          "won": false,
+          "kills": 17,
+          "deaths": 30,
+          "kd_ratio": 0.57,
+          "adr": 57.2,
+          "kast": 51.5,
+          "rating": 0.59,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399575",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "JOGA DE TERNO",
+        "team_name": "A NATA",
+        "won": false,
+        "kills": 17,
+        "deaths": 30,
+        "kd_ratio": 0.57,
+        "adr": 57.2,
+        "kast": 51.5,
+        "rating": 0.59,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.59,
+        "average_adr": 57.2,
+        "recent_rating": 0.59,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "A NATA",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.59,
+          "average_adr": 57.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26900",
+      "nickname": "R99",
+      "team_name": "A NATA",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26900",
+      "source_url": "https://www.hltv.org/player/26900/r99",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "A NATA",
+          "won": false,
+          "kills": 9,
+          "deaths": 25,
+          "kd_ratio": 0.36,
+          "adr": 40.4,
+          "kast": 42.4,
+          "rating": 0.51,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399575",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "JOGA DE TERNO",
+        "team_name": "A NATA",
+        "won": false,
+        "kills": 9,
+        "deaths": 25,
+        "kd_ratio": 0.36,
+        "adr": 40.4,
+        "kast": 42.4,
+        "rating": 0.51,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.51,
+        "average_adr": 40.4,
+        "recent_rating": 0.51,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "A NATA",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.51,
+          "average_adr": 40.4
+        }
+      ]
     }
   ],
-  "lineups_updated_at_utc": "2026-10-14T22:17:00Z",
+  "lineups_updated_at_utc": "2026-10-15T01:30:52Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-14",
+  "history_through_date": "2026-10-15",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",

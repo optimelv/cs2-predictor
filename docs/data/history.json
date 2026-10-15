@@ -1,18 +1,74 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-14T22:17:00Z",
-  "through_date": "2026-10-14",
+  "generated_at_utc": "2026-10-15T01:30:52Z",
+  "through_date": "2026-10-15",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3908,
-    "maps": 2790,
-    "lineup_rows": 9091,
+    "matches": 3910,
+    "maps": 2796,
+    "lineup_rows": 9111,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "hltv:2399205",
+      "match_date": "2026-10-15",
+      "event_name": "ESL Challenger League Season 52 South America Cup 3",
+      "team1_name": "LP",
+      "team2_name": "Galorys",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "LP",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 5,
+          "winner_name": "LP",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 3,
+          "score2": 13,
+          "winner_name": "Galorys",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 6,
+          "score2": 6,
+          "winner_name": "Galorys",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "zmb",
+          "pancc",
+          "Alisson",
+          "happ",
+          "divine"
+        ],
+        "team2": [
+          "PKL",
+          "destiny",
+          "detr0ittJ",
+          "gbb",
+          "tomate"
+        ]
+      }
+    },
     {
       "match_id": "hltv:2399232",
       "match_date": "2026-10-14",
@@ -972,6 +1028,62 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_1"
+    },
+    {
+      "match_id": "hltv:2399575",
+      "match_date": "2026-10-14",
+      "event_name": "CCT 2026 South America Series 7",
+      "team1_name": "JOGA DE TERNO",
+      "team2_name": "A NATA",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "JOGA DE TERNO",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "JOGA DE TERNO",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 1,
+          "winner_name": "JOGA DE TERNO",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "winner_name": "A NATA",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "ntx",
+          "Tineu",
+          "ALENNNCAR",
+          "vzn",
+          "khowy"
+        ],
+        "team2": [
+          "Straafer",
+          "badran",
+          "veroneze",
+          "rzk",
+          "R99"
+        ]
+      }
     },
     {
       "match_id": "liquipedia:16ddb084598cf1bf92db",
