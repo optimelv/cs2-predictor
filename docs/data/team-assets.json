@@ -2155,5 +2155,10 @@
     "name": "ALE",
     "logo_url": "https://liquipedia.net/commons/images/thumb/9/91/Club_Alianza_Lima_allmode.png/39px-Club_Alianza_Lima_allmode.png",
     "source": "Liquipedia"
+  },
+  "envy": {
+    "name": "ENVY",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/81/Team_Envy_2018_lightmode.png/50px-Team_Envy_2018_lightmode.png",
+    "source": "Liquipedia"
   }
 }

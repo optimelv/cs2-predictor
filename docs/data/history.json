@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3926,
+    "matches": 3929,
     "maps": 2808,
     "lineup_rows": 9171,
     "source_match_ids": 976
@@ -448,6 +448,72 @@
           "otEB"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:4ee6828312580a1911c7",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 1",
+      "team1_name": "BRUTE",
+      "team2_name": "mellren",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_1"
+    },
+    {
+      "match_id": "liquipedia:565bdf50f3b73d34b242",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T10:00:00Z",
+      "event_name": "Stake Pulse Beat III - Group D",
+      "team1_name": "ENVY",
+      "team2_name": "HEROIC",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "HEROIC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_D"
+    },
+    {
+      "match_id": "liquipedia:9fc59d25d9d9d202f4bb",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T12:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 1",
+      "team1_name": "ex-Z10",
+      "team2_name": "JustP",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-Z10",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_1"
     },
     {
       "match_id": "hltv:2399232",
