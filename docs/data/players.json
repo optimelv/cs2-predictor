@@ -18369,6 +18369,21 @@
           "kast": 65.4,
           "rating": 0.93,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "B8 Academy",
+          "team_name": "Banda Chuya",
+          "won": true,
+          "kills": 36,
+          "deaths": 28,
+          "kd_ratio": 1.29,
+          "adr": 67.9,
+          "kast": 69.6,
+          "rating": 1.08,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -18376,35 +18391,35 @@
         {
           "team_name": "Banda Chuya",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.93,
-          "average_adr": 67
+          "win_rate": 0.5,
+          "average_rating": 1.01,
+          "average_adr": 67.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399462",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "6666",
+        "opponent_name": "B8 Academy",
         "team_name": "Banda Chuya",
-        "won": false,
-        "kills": 33,
-        "deaths": 34,
-        "kd_ratio": 0.97,
-        "adr": 67,
-        "kast": 65.4,
-        "rating": 0.93,
+        "won": true,
+        "kills": 36,
+        "deaths": 28,
+        "kd_ratio": 1.29,
+        "adr": 67.9,
+        "kast": 69.6,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.93,
-        "average_adr": 67,
-        "recent_rating": 0.93,
+        "series": 2,
+        "average_rating": 1.01,
+        "average_adr": 67.5,
+        "recent_rating": 1.01,
         "rating_delta": null
       }
     },
@@ -18433,6 +18448,21 @@
           "kast": 80.8,
           "rating": 1.44,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "B8 Academy",
+          "team_name": "Banda Chuya",
+          "won": true,
+          "kills": 35,
+          "deaths": 32,
+          "kd_ratio": 1.09,
+          "adr": 87.4,
+          "kast": 67.4,
+          "rating": 1.06,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -18440,35 +18470,35 @@
         {
           "team_name": "Banda Chuya",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.44,
-          "average_adr": 103.7
+          "win_rate": 0.5,
+          "average_rating": 1.25,
+          "average_adr": 95.6
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399462",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "6666",
+        "opponent_name": "B8 Academy",
         "team_name": "Banda Chuya",
-        "won": false,
-        "kills": 50,
-        "deaths": 39,
-        "kd_ratio": 1.28,
-        "adr": 103.7,
-        "kast": 80.8,
-        "rating": 1.44,
+        "won": true,
+        "kills": 35,
+        "deaths": 32,
+        "kd_ratio": 1.09,
+        "adr": 87.4,
+        "kast": 67.4,
+        "rating": 1.06,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.44,
-        "average_adr": 103.7,
-        "recent_rating": 1.44,
+        "series": 2,
+        "average_rating": 1.25,
+        "average_adr": 95.6,
+        "recent_rating": 1.25,
         "rating_delta": null
       }
     },
@@ -18497,6 +18527,21 @@
           "kast": 73.1,
           "rating": 1.25,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "B8 Academy",
+          "team_name": "Banda Chuya",
+          "won": true,
+          "kills": 31,
+          "deaths": 32,
+          "kd_ratio": 0.97,
+          "adr": 60.8,
+          "kast": 71.7,
+          "rating": 0.96,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -18504,35 +18549,35 @@
         {
           "team_name": "Banda Chuya",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.25,
-          "average_adr": 81.7
+          "win_rate": 0.5,
+          "average_rating": 1.1,
+          "average_adr": 71.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399462",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "6666",
+        "opponent_name": "B8 Academy",
         "team_name": "Banda Chuya",
-        "won": false,
-        "kills": 39,
-        "deaths": 37,
-        "kd_ratio": 1.05,
-        "adr": 81.7,
-        "kast": 73.1,
-        "rating": 1.25,
+        "won": true,
+        "kills": 31,
+        "deaths": 32,
+        "kd_ratio": 0.97,
+        "adr": 60.8,
+        "kast": 71.7,
+        "rating": 0.96,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.25,
-        "average_adr": 81.7,
-        "recent_rating": 1.25,
+        "series": 2,
+        "average_rating": 1.1,
+        "average_adr": 71.3,
+        "recent_rating": 1.1,
         "rating_delta": null
       }
     },
@@ -18561,6 +18606,21 @@
           "kast": 71.2,
           "rating": 0.86,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "B8 Academy",
+          "team_name": "Banda Chuya",
+          "won": true,
+          "kills": 29,
+          "deaths": 31,
+          "kd_ratio": 0.94,
+          "adr": 76.2,
+          "kast": 73.9,
+          "rating": 0.87,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -18568,34 +18628,34 @@
         {
           "team_name": "Banda Chuya",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
+          "win_rate": 0.5,
           "average_rating": 0.86,
-          "average_adr": 68.5
+          "average_adr": 72.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399462",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "6666",
+        "opponent_name": "B8 Academy",
         "team_name": "Banda Chuya",
-        "won": false,
-        "kills": 30,
-        "deaths": 38,
-        "kd_ratio": 0.79,
-        "adr": 68.5,
-        "kast": 71.2,
-        "rating": 0.86,
+        "won": true,
+        "kills": 29,
+        "deaths": 31,
+        "kd_ratio": 0.94,
+        "adr": 76.2,
+        "kast": 73.9,
+        "rating": 0.87,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
+        "series": 2,
         "average_rating": 0.86,
-        "average_adr": 68.5,
+        "average_adr": 72.3,
         "recent_rating": 0.86,
         "rating_delta": null
       }
@@ -18625,6 +18685,21 @@
           "kast": 65.4,
           "rating": 1.04,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "B8 Academy",
+          "team_name": "Banda Chuya",
+          "won": true,
+          "kills": 29,
+          "deaths": 36,
+          "kd_ratio": 0.81,
+          "adr": 79.9,
+          "kast": 78.3,
+          "rating": 1.1,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -18632,35 +18707,35 @@
         {
           "team_name": "Banda Chuya",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.04,
-          "average_adr": 61.4
+          "win_rate": 0.5,
+          "average_rating": 1.07,
+          "average_adr": 70.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399462",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "6666",
+        "opponent_name": "B8 Academy",
         "team_name": "Banda Chuya",
-        "won": false,
-        "kills": 35,
+        "won": true,
+        "kills": 29,
         "deaths": 36,
-        "kd_ratio": 0.97,
-        "adr": 61.4,
-        "kast": 65.4,
-        "rating": 1.04,
+        "kd_ratio": 0.81,
+        "adr": 79.9,
+        "kast": 78.3,
+        "rating": 1.1,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.04,
-        "average_adr": 61.4,
-        "recent_rating": 1.04,
+        "series": 2,
+        "average_rating": 1.07,
+        "average_adr": 70.7,
+        "recent_rating": 1.07,
         "rating_delta": null
       }
     },
@@ -24914,6 +24989,21 @@
           "kast": 67.2,
           "rating": 0.89,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Ryvex",
+          "team_name": "MAYBE",
+          "won": true,
+          "kills": 29,
+          "deaths": 19,
+          "kd_ratio": 1.53,
+          "adr": 72.2,
+          "kast": 74.4,
+          "rating": 1.42,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24170",
@@ -24923,35 +25013,35 @@
         {
           "team_name": "MAYBE",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.89,
-          "average_adr": 61.6
+          "win_rate": 0.5,
+          "average_rating": 1.16,
+          "average_adr": 66.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399464",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Saint Sinners",
+        "opponent_name": "Ryvex",
         "team_name": "MAYBE",
-        "won": false,
-        "kills": 35,
-        "deaths": 44,
-        "kd_ratio": 0.8,
-        "adr": 61.6,
-        "kast": 67.2,
-        "rating": 0.89,
+        "won": true,
+        "kills": 29,
+        "deaths": 19,
+        "kd_ratio": 1.53,
+        "adr": 72.2,
+        "kast": 74.4,
+        "rating": 1.42,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.89,
-        "average_adr": 61.6,
-        "recent_rating": 0.89,
+        "series": 2,
+        "average_rating": 1.16,
+        "average_adr": 66.9,
+        "recent_rating": 1.16,
         "rating_delta": null
       }
     },
@@ -24978,6 +25068,21 @@
           "kast": 67.2,
           "rating": 1.05,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Ryvex",
+          "team_name": "MAYBE",
+          "won": true,
+          "kills": 36,
+          "deaths": 17,
+          "kd_ratio": 2.12,
+          "adr": 89.6,
+          "kast": 84.6,
+          "rating": 1.5,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25898",
@@ -24987,35 +25092,35 @@
         {
           "team_name": "MAYBE",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.05,
-          "average_adr": 71.4
+          "win_rate": 0.5,
+          "average_rating": 1.27,
+          "average_adr": 80.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399464",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Saint Sinners",
+        "opponent_name": "Ryvex",
         "team_name": "MAYBE",
-        "won": false,
-        "kills": 49,
-        "deaths": 42,
-        "kd_ratio": 1.17,
-        "adr": 71.4,
-        "kast": 67.2,
-        "rating": 1.05,
+        "won": true,
+        "kills": 36,
+        "deaths": 17,
+        "kd_ratio": 2.12,
+        "adr": 89.6,
+        "kast": 84.6,
+        "rating": 1.5,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.05,
-        "average_adr": 71.4,
-        "recent_rating": 1.05,
+        "series": 2,
+        "average_rating": 1.27,
+        "average_adr": 80.5,
+        "recent_rating": 1.27,
         "rating_delta": null
       }
     },
@@ -25042,6 +25147,21 @@
           "kast": 67.2,
           "rating": 0.95,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Ryvex",
+          "team_name": "MAYBE",
+          "won": true,
+          "kills": 23,
+          "deaths": 22,
+          "kd_ratio": 1.05,
+          "adr": 70.5,
+          "kast": 76.9,
+          "rating": 1.05,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25897",
@@ -25051,35 +25171,35 @@
         {
           "team_name": "MAYBE",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.95,
-          "average_adr": 83.6
+          "win_rate": 0.5,
+          "average_rating": 1,
+          "average_adr": 77
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399464",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Saint Sinners",
+        "opponent_name": "Ryvex",
         "team_name": "MAYBE",
-        "won": false,
-        "kills": 43,
-        "deaths": 43,
-        "kd_ratio": 1,
-        "adr": 83.6,
-        "kast": 67.2,
-        "rating": 0.95,
+        "won": true,
+        "kills": 23,
+        "deaths": 22,
+        "kd_ratio": 1.05,
+        "adr": 70.5,
+        "kast": 76.9,
+        "rating": 1.05,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.95,
-        "average_adr": 83.6,
-        "recent_rating": 0.95,
+        "series": 2,
+        "average_rating": 1,
+        "average_adr": 77,
+        "recent_rating": 1,
         "rating_delta": null
       }
     },
@@ -25106,6 +25226,21 @@
           "kast": 65.6,
           "rating": 0.98,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Ryvex",
+          "team_name": "MAYBE",
+          "won": true,
+          "kills": 30,
+          "deaths": 23,
+          "kd_ratio": 1.3,
+          "adr": 81.3,
+          "kast": 74.4,
+          "rating": 1.19,
+          "maps": 3
         }
       ],
       "hltv_player_id": "26538",
@@ -25115,35 +25250,35 @@
         {
           "team_name": "MAYBE",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.98,
-          "average_adr": 71.5
+          "win_rate": 0.5,
+          "average_rating": 1.08,
+          "average_adr": 76.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399464",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Saint Sinners",
+        "opponent_name": "Ryvex",
         "team_name": "MAYBE",
-        "won": false,
-        "kills": 44,
-        "deaths": 43,
-        "kd_ratio": 1.02,
-        "adr": 71.5,
-        "kast": 65.6,
-        "rating": 0.98,
+        "won": true,
+        "kills": 30,
+        "deaths": 23,
+        "kd_ratio": 1.3,
+        "adr": 81.3,
+        "kast": 74.4,
+        "rating": 1.19,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.98,
-        "average_adr": 71.5,
-        "recent_rating": 0.98,
+        "series": 2,
+        "average_rating": 1.08,
+        "average_adr": 76.4,
+        "recent_rating": 1.08,
         "rating_delta": null
       }
     },
@@ -25170,6 +25305,21 @@
           "kast": 65.6,
           "rating": 0.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Ryvex",
+          "team_name": "MAYBE",
+          "won": true,
+          "kills": 26,
+          "deaths": 21,
+          "kd_ratio": 1.24,
+          "adr": 82.8,
+          "kast": 79.5,
+          "rating": 1.3,
+          "maps": 3
         }
       ],
       "hltv_player_id": "26537",
@@ -25179,35 +25329,35 @@
         {
           "team_name": "MAYBE",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.9,
-          "average_adr": 70
+          "win_rate": 0.5,
+          "average_rating": 1.1,
+          "average_adr": 76.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399464",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Saint Sinners",
+        "opponent_name": "Ryvex",
         "team_name": "MAYBE",
-        "won": false,
-        "kills": 38,
-        "deaths": 42,
-        "kd_ratio": 0.9,
-        "adr": 70,
-        "kast": 65.6,
-        "rating": 0.9,
+        "won": true,
+        "kills": 26,
+        "deaths": 21,
+        "kd_ratio": 1.24,
+        "adr": 82.8,
+        "kast": 79.5,
+        "rating": 1.3,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.9,
-        "average_adr": 70,
-        "recent_rating": 0.9,
+        "series": 2,
+        "average_rating": 1.1,
+        "average_adr": 76.4,
+        "recent_rating": 1.1,
         "rating_delta": null
       }
     },
@@ -36514,10 +36664,36 @@
           "kast": 69.2,
           "rating": 1.06,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399302",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 31,
+          "deaths": 24,
+          "kd_ratio": 1.29,
+          "adr": 89.9,
+          "kast": 80,
+          "rating": 1.2,
+          "maps": 3
         }
       ],
       "map_profile": [],
       "roster_eras": [
+        {
+          "team_name": "ex-6666",
+          "from_date": "2026-10-15",
+          "through_date": "2026-10-15",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.2,
+          "average_adr": 89.9
+        },
         {
           "team_name": "6666",
           "from_date": "2026-10-12",
@@ -36531,26 +36707,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399462",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Banda Chuya",
-        "team_name": "6666",
+        "match_id": "hltv:2399302",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Bushido Wildcats",
+        "team_name": "ex-6666",
         "won": true,
         "kills": 31,
-        "deaths": 39,
-        "kd_ratio": 0.79,
-        "adr": 75.1,
-        "kast": 59.6,
-        "rating": 0.88,
+        "deaths": 24,
+        "kd_ratio": 1.29,
+        "adr": 89.9,
+        "kast": 80,
+        "rating": 1.2,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.1,
-        "average_adr": 80.4,
-        "recent_rating": 0.96,
-        "rating_delta": -0.55
+        "series": 5,
+        "average_rating": 1.12,
+        "average_adr": 82.3,
+        "recent_rating": 1.05,
+        "rating_delta": -0.18
       }
     },
     {
@@ -36623,10 +36799,36 @@
           "kast": 63.1,
           "rating": 1,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399302",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 33,
+          "deaths": 20,
+          "kd_ratio": 1.65,
+          "adr": 81.3,
+          "kast": 85,
+          "rating": 1.47,
+          "maps": 3
         }
       ],
       "map_profile": [],
       "roster_eras": [
+        {
+          "team_name": "ex-6666",
+          "from_date": "2026-10-15",
+          "through_date": "2026-10-15",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.47,
+          "average_adr": 81.3
+        },
         {
           "team_name": "6666",
           "from_date": "2026-10-12",
@@ -36640,26 +36842,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399462",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Banda Chuya",
-        "team_name": "6666",
+        "match_id": "hltv:2399302",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Bushido Wildcats",
+        "team_name": "ex-6666",
         "won": true,
-        "kills": 39,
-        "deaths": 36,
-        "kd_ratio": 1.08,
-        "adr": 83.8,
-        "kast": 80.8,
-        "rating": 1.17,
+        "kills": 33,
+        "deaths": 20,
+        "kd_ratio": 1.65,
+        "adr": 81.3,
+        "kast": 85,
+        "rating": 1.47,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.21,
-        "average_adr": 75.2,
-        "recent_rating": 1.14,
-        "rating_delta": -0.29
+        "series": 5,
+        "average_rating": 1.27,
+        "average_adr": 76.4,
+        "recent_rating": 1.21,
+        "rating_delta": -0.13
       }
     },
     {
@@ -36732,10 +36934,36 @@
           "kast": 78.5,
           "rating": 1.52,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399302",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 40,
+          "deaths": 20,
+          "kd_ratio": 2,
+          "adr": 93.1,
+          "kast": 80,
+          "rating": 1.54,
+          "maps": 3
         }
       ],
       "map_profile": [],
       "roster_eras": [
+        {
+          "team_name": "ex-6666",
+          "from_date": "2026-10-15",
+          "through_date": "2026-10-15",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.54,
+          "average_adr": 93.1
+        },
         {
           "team_name": "6666",
           "from_date": "2026-10-12",
@@ -36749,26 +36977,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399462",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Banda Chuya",
-        "team_name": "6666",
+        "match_id": "hltv:2399302",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Bushido Wildcats",
+        "team_name": "ex-6666",
         "won": true,
-        "kills": 42,
-        "deaths": 35,
-        "kd_ratio": 1.2,
-        "adr": 89.8,
-        "kast": 75,
-        "rating": 1.36,
+        "kills": 40,
+        "deaths": 20,
+        "kd_ratio": 2,
+        "adr": 93.1,
+        "kast": 80,
+        "rating": 1.54,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.27,
-        "average_adr": 80.8,
-        "recent_rating": 1.29,
-        "rating_delta": 0.11
+        "series": 5,
+        "average_rating": 1.32,
+        "average_adr": 83.2,
+        "recent_rating": 1.47,
+        "rating_delta": 0.38
       }
     },
     {
@@ -36841,10 +37069,36 @@
           "kast": 69.2,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399302",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 26,
+          "deaths": 28,
+          "kd_ratio": 0.93,
+          "adr": 72.5,
+          "kast": 77.5,
+          "rating": 1.14,
+          "maps": 3
         }
       ],
       "map_profile": [],
       "roster_eras": [
+        {
+          "team_name": "ex-6666",
+          "from_date": "2026-10-15",
+          "through_date": "2026-10-15",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.14,
+          "average_adr": 72.5
+        },
         {
           "team_name": "6666",
           "from_date": "2026-10-12",
@@ -36858,26 +37112,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399462",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Banda Chuya",
-        "team_name": "6666",
+        "match_id": "hltv:2399302",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Bushido Wildcats",
+        "team_name": "ex-6666",
         "won": true,
-        "kills": 38,
-        "deaths": 37,
-        "kd_ratio": 1.03,
-        "adr": 72.6,
-        "kast": 67.3,
+        "kills": 26,
+        "deaths": 28,
+        "kd_ratio": 0.93,
+        "adr": 72.5,
+        "kast": 77.5,
         "rating": 1.14,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.05,
-        "average_adr": 75,
-        "recent_rating": 0.97,
-        "rating_delta": -0.35
+        "series": 5,
+        "average_rating": 1.07,
+        "average_adr": 74.5,
+        "recent_rating": 1.13,
+        "rating_delta": 0.15
       }
     },
     {
@@ -36950,10 +37204,36 @@
           "kast": 70.8,
           "rating": 1.01,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399302",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 25,
+          "deaths": 22,
+          "kd_ratio": 1.14,
+          "adr": 68.6,
+          "kast": 80,
+          "rating": 1.08,
+          "maps": 3
         }
       ],
       "map_profile": [],
       "roster_eras": [
+        {
+          "team_name": "ex-6666",
+          "from_date": "2026-10-15",
+          "through_date": "2026-10-15",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.08,
+          "average_adr": 68.6
+        },
         {
           "team_name": "6666",
           "from_date": "2026-10-12",
@@ -36967,26 +37247,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399462",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Banda Chuya",
-        "team_name": "6666",
+        "match_id": "hltv:2399302",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Bushido Wildcats",
+        "team_name": "ex-6666",
         "won": true,
-        "kills": 34,
-        "deaths": 41,
-        "kd_ratio": 0.83,
-        "adr": 62.4,
-        "kast": 61.5,
-        "rating": 0.71,
+        "kills": 25,
+        "deaths": 22,
+        "kd_ratio": 1.14,
+        "adr": 68.6,
+        "kast": 80,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.85,
-        "average_adr": 66.4,
-        "recent_rating": 0.77,
-        "rating_delta": -0.31
+        "series": 5,
+        "average_rating": 0.89,
+        "average_adr": 66.8,
+        "recent_rating": 0.93,
+        "rating_delta": 0.1
       }
     },
     {
@@ -38026,7 +38306,7 @@
     },
     {
       "player_id": "hltv:26896",
-      "nickname": "1njustice",
+      "nickname": "Substitute",
       "team_name": "B8 Academy",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -38049,28 +38329,43 @@
           "kast": 61.5,
           "rating": 0.7,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 30,
+          "deaths": 30,
+          "kd_ratio": 1,
+          "adr": 70.4,
+          "kast": 69.6,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399461",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Enjoy",
+        "opponent_name": "Banda Chuya",
         "team_name": "B8 Academy",
         "won": false,
-        "kills": 20,
-        "deaths": 40,
-        "kd_ratio": 0.5,
-        "adr": 47.8,
-        "kast": 61.5,
-        "rating": 0.7,
+        "kills": 30,
+        "deaths": 30,
+        "kd_ratio": 1,
+        "adr": 70.4,
+        "kast": 69.6,
+        "rating": 1.04,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.7,
-        "average_adr": 47.8,
-        "recent_rating": 0.7,
+        "series": 2,
+        "average_rating": 0.87,
+        "average_adr": 59.1,
+        "recent_rating": 0.87,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38078,13 +38373,13 @@
         {
           "team_name": "B8 Academy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.7,
-          "average_adr": 47.8
+          "average_rating": 0.87,
+          "average_adr": 59.1
         }
       ]
     },
@@ -38113,28 +38408,43 @@
           "kast": 75,
           "rating": 0.93,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 35,
+          "deaths": 34,
+          "kd_ratio": 1.03,
+          "adr": 85.5,
+          "kast": 82.6,
+          "rating": 1.26,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399461",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Enjoy",
+        "opponent_name": "Banda Chuya",
         "team_name": "B8 Academy",
         "won": false,
-        "kills": 31,
-        "deaths": 37,
-        "kd_ratio": 0.84,
-        "adr": 63.1,
-        "kast": 75,
-        "rating": 0.93,
+        "kills": 35,
+        "deaths": 34,
+        "kd_ratio": 1.03,
+        "adr": 85.5,
+        "kast": 82.6,
+        "rating": 1.26,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.93,
-        "average_adr": 63.1,
-        "recent_rating": 0.93,
+        "series": 2,
+        "average_rating": 1.09,
+        "average_adr": 74.3,
+        "recent_rating": 1.09,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38142,13 +38452,13 @@
         {
           "team_name": "B8 Academy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.93,
-          "average_adr": 63.1
+          "average_rating": 1.09,
+          "average_adr": 74.3
         }
       ]
     },
@@ -38177,28 +38487,43 @@
           "kast": 63.5,
           "rating": 1.07,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 37,
+          "deaths": 31,
+          "kd_ratio": 1.19,
+          "adr": 95.7,
+          "kast": 80.4,
+          "rating": 1.36,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399461",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Enjoy",
+        "opponent_name": "Banda Chuya",
         "team_name": "B8 Academy",
         "won": false,
-        "kills": 33,
-        "deaths": 33,
-        "kd_ratio": 1,
-        "adr": 66.1,
-        "kast": 63.5,
-        "rating": 1.07,
+        "kills": 37,
+        "deaths": 31,
+        "kd_ratio": 1.19,
+        "adr": 95.7,
+        "kast": 80.4,
+        "rating": 1.36,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.07,
-        "average_adr": 66.1,
-        "recent_rating": 1.07,
+        "series": 2,
+        "average_rating": 1.22,
+        "average_adr": 80.9,
+        "recent_rating": 1.22,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38206,13 +38531,13 @@
         {
           "team_name": "B8 Academy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.07,
-          "average_adr": 66.1
+          "average_rating": 1.22,
+          "average_adr": 80.9
         }
       ]
     },
@@ -38241,28 +38566,43 @@
           "kast": 71.2,
           "rating": 0.91,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 29,
+          "deaths": 31,
+          "kd_ratio": 0.94,
+          "adr": 57.8,
+          "kast": 78.3,
+          "rating": 1.06,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399461",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Enjoy",
+        "opponent_name": "Banda Chuya",
         "team_name": "B8 Academy",
         "won": false,
         "kills": 29,
-        "deaths": 40,
-        "kd_ratio": 0.72,
-        "adr": 71.8,
-        "kast": 71.2,
-        "rating": 0.91,
+        "deaths": 31,
+        "kd_ratio": 0.94,
+        "adr": 57.8,
+        "kast": 78.3,
+        "rating": 1.06,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.91,
-        "average_adr": 71.8,
-        "recent_rating": 0.91,
+        "series": 2,
+        "average_rating": 0.99,
+        "average_adr": 64.8,
+        "recent_rating": 0.99,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38270,13 +38610,13 @@
         {
           "team_name": "B8 Academy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.91,
-          "average_adr": 71.8
+          "average_rating": 0.99,
+          "average_adr": 64.8
         }
       ]
     },
@@ -38305,28 +38645,43 @@
           "kast": 65.4,
           "rating": 1.29,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 27,
+          "deaths": 34,
+          "kd_ratio": 0.79,
+          "adr": 66.3,
+          "kast": 76.1,
+          "rating": 0.95,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399461",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Enjoy",
+        "opponent_name": "Banda Chuya",
         "team_name": "B8 Academy",
         "won": false,
-        "kills": 40,
-        "deaths": 35,
-        "kd_ratio": 1.14,
-        "adr": 86.2,
-        "kast": 65.4,
-        "rating": 1.29,
+        "kills": 27,
+        "deaths": 34,
+        "kd_ratio": 0.79,
+        "adr": 66.3,
+        "kast": 76.1,
+        "rating": 0.95,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.29,
-        "average_adr": 86.2,
-        "recent_rating": 1.29,
+        "series": 2,
+        "average_rating": 1.12,
+        "average_adr": 76.3,
+        "recent_rating": 1.12,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38334,13 +38689,13 @@
         {
           "team_name": "B8 Academy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.29,
-          "average_adr": 86.2
+          "average_rating": 1.12,
+          "average_adr": 76.3
         }
       ]
     },
@@ -38362,12 +38717,12 @@
           "opponent_name": "Rooster",
           "team_name": "MARKandLARRY",
           "won": false,
-          "kills": 15,
-          "deaths": 14,
-          "kd_ratio": 1.07,
-          "adr": 51,
-          "kast": 72.7,
-          "rating": 0.98,
+          "kills": 21,
+          "deaths": 27,
+          "kd_ratio": 0.78,
+          "adr": 48.2,
+          "kast": 65,
+          "rating": 0.76,
           "maps": 3
         }
       ],
@@ -38378,19 +38733,19 @@
         "opponent_name": "Rooster",
         "team_name": "MARKandLARRY",
         "won": false,
-        "kills": 15,
-        "deaths": 14,
-        "kd_ratio": 1.07,
-        "adr": 51,
-        "kast": 72.7,
-        "rating": 0.98,
+        "kills": 21,
+        "deaths": 27,
+        "kd_ratio": 0.78,
+        "adr": 48.2,
+        "kast": 65,
+        "rating": 0.76,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 0.98,
-        "average_adr": 51,
-        "recent_rating": 0.98,
+        "average_rating": 0.76,
+        "average_adr": 48.2,
+        "recent_rating": 0.76,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38403,8 +38758,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.98,
-          "average_adr": 51
+          "average_rating": 0.76,
+          "average_adr": 48.2
         }
       ]
     },
@@ -38426,12 +38781,12 @@
           "opponent_name": "Rooster",
           "team_name": "MARKandLARRY",
           "won": false,
-          "kills": 12,
-          "deaths": 20,
-          "kd_ratio": 0.6,
-          "adr": 74.8,
-          "kast": 81.8,
-          "rating": 0.67,
+          "kills": 23,
+          "deaths": 35,
+          "kd_ratio": 0.66,
+          "adr": 73.8,
+          "kast": 77.5,
+          "rating": 0.71,
           "maps": 3
         }
       ],
@@ -38442,19 +38797,19 @@
         "opponent_name": "Rooster",
         "team_name": "MARKandLARRY",
         "won": false,
-        "kills": 12,
-        "deaths": 20,
-        "kd_ratio": 0.6,
-        "adr": 74.8,
-        "kast": 81.8,
-        "rating": 0.67,
+        "kills": 23,
+        "deaths": 35,
+        "kd_ratio": 0.66,
+        "adr": 73.8,
+        "kast": 77.5,
+        "rating": 0.71,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 0.67,
-        "average_adr": 74.8,
-        "recent_rating": 0.67,
+        "average_rating": 0.71,
+        "average_adr": 73.8,
+        "recent_rating": 0.71,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38467,8 +38822,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.67,
-          "average_adr": 74.8
+          "average_rating": 0.71,
+          "average_adr": 73.8
         }
       ]
     },
@@ -38490,12 +38845,12 @@
           "opponent_name": "Rooster",
           "team_name": "MARKandLARRY",
           "won": false,
-          "kills": 22,
-          "deaths": 15,
-          "kd_ratio": 1.47,
-          "adr": 99.9,
-          "kast": 86.4,
-          "rating": 1.56,
+          "kills": 39,
+          "deaths": 28,
+          "kd_ratio": 1.39,
+          "adr": 95.6,
+          "kast": 82.5,
+          "rating": 1.39,
           "maps": 3
         }
       ],
@@ -38506,19 +38861,19 @@
         "opponent_name": "Rooster",
         "team_name": "MARKandLARRY",
         "won": false,
-        "kills": 22,
-        "deaths": 15,
-        "kd_ratio": 1.47,
-        "adr": 99.9,
-        "kast": 86.4,
-        "rating": 1.56,
+        "kills": 39,
+        "deaths": 28,
+        "kd_ratio": 1.39,
+        "adr": 95.6,
+        "kast": 82.5,
+        "rating": 1.39,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 1.56,
-        "average_adr": 99.9,
-        "recent_rating": 1.56,
+        "average_rating": 1.39,
+        "average_adr": 95.6,
+        "recent_rating": 1.39,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38531,8 +38886,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 1.56,
-          "average_adr": 99.9
+          "average_rating": 1.39,
+          "average_adr": 95.6
         }
       ]
     },
@@ -38554,12 +38909,12 @@
           "opponent_name": "Rooster",
           "team_name": "MARKandLARRY",
           "won": false,
-          "kills": 16,
-          "deaths": 15,
-          "kd_ratio": 1.07,
-          "adr": 96.5,
-          "kast": 90.9,
-          "rating": 1.26,
+          "kills": 23,
+          "deaths": 29,
+          "kd_ratio": 0.79,
+          "adr": 75,
+          "kast": 75,
+          "rating": 0.85,
           "maps": 3
         }
       ],
@@ -38570,19 +38925,19 @@
         "opponent_name": "Rooster",
         "team_name": "MARKandLARRY",
         "won": false,
-        "kills": 16,
-        "deaths": 15,
-        "kd_ratio": 1.07,
-        "adr": 96.5,
-        "kast": 90.9,
-        "rating": 1.26,
+        "kills": 23,
+        "deaths": 29,
+        "kd_ratio": 0.79,
+        "adr": 75,
+        "kast": 75,
+        "rating": 0.85,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 1.26,
-        "average_adr": 96.5,
-        "recent_rating": 1.26,
+        "average_rating": 0.85,
+        "average_adr": 75,
+        "recent_rating": 0.85,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38595,8 +38950,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 1.26,
-          "average_adr": 96.5
+          "average_rating": 0.85,
+          "average_adr": 75
         }
       ]
     },
@@ -38618,12 +38973,12 @@
           "opponent_name": "Rooster",
           "team_name": "MARKandLARRY",
           "won": false,
-          "kills": 12,
-          "deaths": 15,
-          "kd_ratio": 0.8,
-          "adr": 52.1,
-          "kast": 68.2,
-          "rating": 0.72,
+          "kills": 22,
+          "deaths": 31,
+          "kd_ratio": 0.71,
+          "adr": 62.6,
+          "kast": 65,
+          "rating": 0.78,
           "maps": 3
         }
       ],
@@ -38634,19 +38989,19 @@
         "opponent_name": "Rooster",
         "team_name": "MARKandLARRY",
         "won": false,
-        "kills": 12,
-        "deaths": 15,
-        "kd_ratio": 0.8,
-        "adr": 52.1,
-        "kast": 68.2,
-        "rating": 0.72,
+        "kills": 22,
+        "deaths": 31,
+        "kd_ratio": 0.71,
+        "adr": 62.6,
+        "kast": 65,
+        "rating": 0.78,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 0.72,
-        "average_adr": 52.1,
-        "recent_rating": 0.72,
+        "average_rating": 0.78,
+        "average_adr": 62.6,
+        "recent_rating": 0.78,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38659,14 +39014,14 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.72,
-          "average_adr": 52.1
+          "average_rating": 0.78,
+          "average_adr": 62.6
         }
       ]
     },
     {
       "player_id": "hltv:12877",
-      "nickname": "chelleos",
+      "nickname": "Substitute",
       "team_name": "Rooster",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -38682,12 +39037,12 @@
           "opponent_name": "MARKandLARRY",
           "team_name": "Rooster",
           "won": true,
-          "kills": 14,
-          "deaths": 16,
-          "kd_ratio": 0.88,
-          "adr": 65.3,
-          "kast": 68.2,
-          "rating": 1.21,
+          "kills": 35,
+          "deaths": 27,
+          "kd_ratio": 1.3,
+          "adr": 90.5,
+          "kast": 75,
+          "rating": 1.43,
           "maps": 3
         },
         {
@@ -38713,19 +39068,19 @@
         "opponent_name": "MARKandLARRY",
         "team_name": "Rooster",
         "won": true,
-        "kills": 14,
-        "deaths": 16,
-        "kd_ratio": 0.88,
-        "adr": 65.3,
-        "kast": 68.2,
-        "rating": 1.21,
+        "kills": 35,
+        "deaths": 27,
+        "kd_ratio": 1.3,
+        "adr": 90.5,
+        "kast": 75,
+        "rating": 1.43,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1,
-        "average_adr": 70.9,
-        "recent_rating": 1,
+        "average_rating": 1.11,
+        "average_adr": 83.5,
+        "recent_rating": 1.11,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38738,8 +39093,8 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 1,
-          "average_adr": 70.9
+          "average_rating": 1.11,
+          "average_adr": 83.5
         }
       ]
     },
@@ -38776,12 +39131,12 @@
           "opponent_name": "MARKandLARRY",
           "team_name": "Rooster",
           "won": true,
-          "kills": 16,
-          "deaths": 18,
-          "kd_ratio": 0.89,
-          "adr": 90.2,
-          "kast": 72.7,
-          "rating": 1.3,
+          "kills": 24,
+          "deaths": 32,
+          "kd_ratio": 0.75,
+          "adr": 75.7,
+          "kast": 80,
+          "rating": 1.07,
           "maps": 3
         },
         {
@@ -38807,19 +39162,19 @@
         "opponent_name": "MARKandLARRY",
         "team_name": "Rooster",
         "won": true,
-        "kills": 16,
-        "deaths": 18,
-        "kd_ratio": 0.89,
-        "adr": 90.2,
-        "kast": 72.7,
-        "rating": 1.3,
+        "kills": 24,
+        "deaths": 32,
+        "kd_ratio": 0.75,
+        "adr": 75.7,
+        "kast": 80,
+        "rating": 1.07,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.41,
-        "average_adr": 95.6,
-        "recent_rating": 1.41,
+        "average_rating": 1.33,
+        "average_adr": 90.8,
+        "recent_rating": 1.33,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38832,14 +39187,14 @@
           "wins": 2,
           "losses": 1,
           "win_rate": 0.667,
-          "average_rating": 1.41,
-          "average_adr": 95.6
+          "average_rating": 1.33,
+          "average_adr": 90.8
         }
       ]
     },
     {
       "player_id": "hltv:14333",
-      "nickname": "ju1ces",
+      "nickname": "Substitute",
       "team_name": "Rooster",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -38870,12 +39225,12 @@
           "opponent_name": "MARKandLARRY",
           "team_name": "Rooster",
           "won": true,
-          "kills": 20,
-          "deaths": 14,
-          "kd_ratio": 1.43,
-          "adr": 102.3,
-          "kast": 81.8,
-          "rating": 1.59,
+          "kills": 32,
+          "deaths": 22,
+          "kd_ratio": 1.45,
+          "adr": 84.7,
+          "kast": 82.5,
+          "rating": 1.45,
           "maps": 3
         },
         {
@@ -38901,19 +39256,19 @@
         "opponent_name": "MARKandLARRY",
         "team_name": "Rooster",
         "won": true,
-        "kills": 20,
-        "deaths": 14,
-        "kd_ratio": 1.43,
-        "adr": 102.3,
-        "kast": 81.8,
-        "rating": 1.59,
+        "kills": 32,
+        "deaths": 22,
+        "kd_ratio": 1.45,
+        "adr": 84.7,
+        "kast": 82.5,
+        "rating": 1.45,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.5,
-        "average_adr": 93.3,
-        "recent_rating": 1.5,
+        "average_rating": 1.45,
+        "average_adr": 87.4,
+        "recent_rating": 1.45,
         "rating_delta": null
       },
       "map_profile": [],
@@ -38926,8 +39281,8 @@
           "wins": 2,
           "losses": 1,
           "win_rate": 0.667,
-          "average_rating": 1.5,
-          "average_adr": 93.3
+          "average_rating": 1.45,
+          "average_adr": 87.4
         }
       ]
     },
@@ -38964,12 +39319,12 @@
           "opponent_name": "MARKandLARRY",
           "team_name": "Rooster",
           "won": true,
-          "kills": 14,
-          "deaths": 17,
-          "kd_ratio": 0.82,
-          "adr": 58,
-          "kast": 63.6,
-          "rating": 0.77,
+          "kills": 28,
+          "deaths": 24,
+          "kd_ratio": 1.17,
+          "adr": 63.4,
+          "kast": 72.5,
+          "rating": 1.06,
           "maps": 3
         },
         {
@@ -38995,19 +39350,19 @@
         "opponent_name": "MARKandLARRY",
         "team_name": "Rooster",
         "won": true,
-        "kills": 14,
-        "deaths": 17,
-        "kd_ratio": 0.82,
-        "adr": 58,
-        "kast": 63.6,
-        "rating": 0.77,
+        "kills": 28,
+        "deaths": 24,
+        "kd_ratio": 1.17,
+        "adr": 63.4,
+        "kast": 72.5,
+        "rating": 1.06,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 0.82,
-        "average_adr": 56.3,
-        "recent_rating": 0.82,
+        "average_rating": 0.92,
+        "average_adr": 58.1,
+        "recent_rating": 0.92,
         "rating_delta": null
       },
       "map_profile": [],
@@ -39020,14 +39375,14 @@
           "wins": 2,
           "losses": 1,
           "win_rate": 0.667,
-          "average_rating": 0.82,
-          "average_adr": 56.3
+          "average_rating": 0.92,
+          "average_adr": 58.1
         }
       ]
     },
     {
       "player_id": "hltv:20351",
-      "nickname": "foggers",
+      "nickname": "Substitute",
       "team_name": "Rooster",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -39058,12 +39413,12 @@
           "opponent_name": "MARKandLARRY",
           "team_name": "Rooster",
           "won": true,
-          "kills": 15,
-          "deaths": 12,
-          "kd_ratio": 1.25,
-          "adr": 75.7,
-          "kast": 81.8,
-          "rating": 1.3,
+          "kills": 31,
+          "deaths": 23,
+          "kd_ratio": 1.35,
+          "adr": 83,
+          "kast": 75,
+          "rating": 1.48,
           "maps": 3
         },
         {
@@ -39089,19 +39444,19 @@
         "opponent_name": "MARKandLARRY",
         "team_name": "Rooster",
         "won": true,
-        "kills": 15,
-        "deaths": 12,
-        "kd_ratio": 1.25,
-        "adr": 75.7,
-        "kast": 81.8,
-        "rating": 1.3,
+        "kills": 31,
+        "deaths": 23,
+        "kd_ratio": 1.35,
+        "adr": 83,
+        "kast": 75,
+        "rating": 1.48,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.09,
-        "average_adr": 75.5,
-        "recent_rating": 1.09,
+        "average_rating": 1.15,
+        "average_adr": 77.9,
+        "recent_rating": 1.15,
         "rating_delta": null
       },
       "map_profile": [],
@@ -39125,8 +39480,8 @@
           "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.23,
-          "average_adr": 78.7
+          "average_rating": 1.31,
+          "average_adr": 82.3
         }
       ]
     },
@@ -39964,28 +40319,43 @@
           "kast": 66.7,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "MAYBE",
+          "team_name": "Ryvex",
+          "won": false,
+          "kills": 15,
+          "deaths": 30,
+          "kd_ratio": 0.5,
+          "adr": 53,
+          "kast": 61.5,
+          "rating": 0.66,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399463",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "PCIFIC",
+        "opponent_name": "MAYBE",
         "team_name": "Ryvex",
         "won": false,
-        "kills": 11,
-        "deaths": 14,
-        "kd_ratio": 0.79,
-        "adr": 64.1,
-        "kast": 66.7,
-        "rating": 1.12,
+        "kills": 15,
+        "deaths": 30,
+        "kd_ratio": 0.5,
+        "adr": 53,
+        "kast": 61.5,
+        "rating": 0.66,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.12,
-        "average_adr": 64.1,
-        "recent_rating": 1.12,
+        "series": 2,
+        "average_rating": 0.89,
+        "average_adr": 58.5,
+        "recent_rating": 0.89,
         "rating_delta": null
       },
       "map_profile": [],
@@ -39993,13 +40363,13 @@
         {
           "team_name": "Ryvex",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.12,
-          "average_adr": 64.1
+          "average_rating": 0.89,
+          "average_adr": 58.5
         }
       ]
     },
@@ -40092,28 +40462,43 @@
           "kast": 66.7,
           "rating": 0.56,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "MAYBE",
+          "team_name": "Ryvex",
+          "won": false,
+          "kills": 17,
+          "deaths": 28,
+          "kd_ratio": 0.61,
+          "adr": 62.9,
+          "kast": 64.1,
+          "rating": 0.71,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399463",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "PCIFIC",
+        "opponent_name": "MAYBE",
         "team_name": "Ryvex",
         "won": false,
-        "kills": 10,
-        "deaths": 15,
-        "kd_ratio": 0.67,
-        "adr": 41.7,
-        "kast": 66.7,
-        "rating": 0.56,
+        "kills": 17,
+        "deaths": 28,
+        "kd_ratio": 0.61,
+        "adr": 62.9,
+        "kast": 64.1,
+        "rating": 0.71,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.56,
-        "average_adr": 41.7,
-        "recent_rating": 0.56,
+        "series": 2,
+        "average_rating": 0.64,
+        "average_adr": 52.3,
+        "recent_rating": 0.64,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40121,13 +40506,13 @@
         {
           "team_name": "Ryvex",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.56,
-          "average_adr": 41.7
+          "average_rating": 0.64,
+          "average_adr": 52.3
         }
       ]
     },
@@ -40220,28 +40605,43 @@
           "kast": 61.9,
           "rating": 0.69,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "MAYBE",
+          "team_name": "Ryvex",
+          "won": false,
+          "kills": 25,
+          "deaths": 26,
+          "kd_ratio": 0.96,
+          "adr": 62.6,
+          "kast": 51.3,
+          "rating": 1.07,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399463",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "PCIFIC",
+        "opponent_name": "MAYBE",
         "team_name": "Ryvex",
         "won": false,
-        "kills": 11,
-        "deaths": 16,
-        "kd_ratio": 0.69,
-        "adr": 76.7,
-        "kast": 61.9,
-        "rating": 0.69,
+        "kills": 25,
+        "deaths": 26,
+        "kd_ratio": 0.96,
+        "adr": 62.6,
+        "kast": 51.3,
+        "rating": 1.07,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.69,
-        "average_adr": 76.7,
-        "recent_rating": 0.69,
+        "series": 2,
+        "average_rating": 0.88,
+        "average_adr": 69.7,
+        "recent_rating": 0.88,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40249,13 +40649,13 @@
         {
           "team_name": "Ryvex",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-15",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.69,
-          "average_adr": 76.7
+          "average_rating": 0.88,
+          "average_adr": 69.7
         }
       ]
     },
@@ -42241,28 +42641,43 @@
           "kast": 65.7,
           "rating": 0.66,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399302",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-6666",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 21,
+          "deaths": 32,
+          "kd_ratio": 0.66,
+          "adr": 59.6,
+          "kast": 52.5,
+          "rating": 0.81,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399295",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399302",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Illyrians",
+        "opponent_name": "ex-6666",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 25,
-        "deaths": 37,
-        "kd_ratio": 0.68,
-        "adr": 55,
-        "kast": 58,
-        "rating": 0.71,
+        "kills": 21,
+        "deaths": 32,
+        "kd_ratio": 0.66,
+        "adr": 59.6,
+        "kast": 52.5,
+        "rating": 0.81,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.69,
-        "average_adr": 56,
-        "recent_rating": 0.69,
+        "series": 3,
+        "average_rating": 0.73,
+        "average_adr": 57.2,
+        "recent_rating": 0.73,
         "rating_delta": null
       },
       "map_profile": [],
@@ -42270,13 +42685,13 @@
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
+          "through_date": "2026-10-15",
+          "series": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "win_rate": 0,
-          "average_rating": 0.69,
-          "average_adr": 56
+          "average_rating": 0.73,
+          "average_adr": 57.2
         }
       ]
     },
@@ -42320,25 +42735,40 @@
           "kast": 77.6,
           "rating": 1.28,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399302",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-6666",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 30,
+          "deaths": 30,
+          "kd_ratio": 1,
+          "adr": 72.7,
+          "kast": 70,
+          "rating": 1.06,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399295",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399302",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Illyrians",
+        "opponent_name": "ex-6666",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 29,
-        "deaths": 37,
-        "kd_ratio": 0.78,
-        "adr": 69.8,
-        "kast": 66,
-        "rating": 0.89,
+        "kills": 30,
+        "deaths": 30,
+        "kd_ratio": 1,
+        "adr": 72.7,
+        "kast": 70,
+        "rating": 1.06,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
+        "series": 3,
         "average_rating": 1.08,
         "average_adr": 72.8,
         "recent_rating": 1.08,
@@ -42349,10 +42779,10 @@
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
+          "through_date": "2026-10-15",
+          "series": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "win_rate": 0,
           "average_rating": 1.08,
           "average_adr": 72.8
@@ -42399,28 +42829,43 @@
           "kast": 65.7,
           "rating": 0.96,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399302",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-6666",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 24,
+          "deaths": 34,
+          "kd_ratio": 0.71,
+          "adr": 66.4,
+          "kast": 65,
+          "rating": 0.75,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399295",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399302",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Illyrians",
+        "opponent_name": "ex-6666",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 34,
-        "deaths": 38,
-        "kd_ratio": 0.89,
-        "adr": 73.2,
-        "kast": 66,
-        "rating": 1.1,
+        "kills": 24,
+        "deaths": 34,
+        "kd_ratio": 0.71,
+        "adr": 66.4,
+        "kast": 65,
+        "rating": 0.75,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.03,
-        "average_adr": 71.9,
-        "recent_rating": 1.03,
+        "series": 3,
+        "average_rating": 0.94,
+        "average_adr": 70.1,
+        "recent_rating": 0.94,
         "rating_delta": null
       },
       "map_profile": [],
@@ -42428,13 +42873,13 @@
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
+          "through_date": "2026-10-15",
+          "series": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "win_rate": 0,
-          "average_rating": 1.03,
-          "average_adr": 71.9
+          "average_rating": 0.94,
+          "average_adr": 70.1
         }
       ]
     },
@@ -42478,28 +42923,43 @@
           "kast": 67.2,
           "rating": 1.02,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399302",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-6666",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 25,
+          "deaths": 27,
+          "kd_ratio": 0.93,
+          "adr": 81.6,
+          "kast": 70,
+          "rating": 1.06,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399295",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399302",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Illyrians",
+        "opponent_name": "ex-6666",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 39,
-        "deaths": 34,
-        "kd_ratio": 1.15,
-        "adr": 84.7,
-        "kast": 72,
-        "rating": 1.19,
+        "kills": 25,
+        "deaths": 27,
+        "kd_ratio": 0.93,
+        "adr": 81.6,
+        "kast": 70,
+        "rating": 1.06,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.1,
-        "average_adr": 75.7,
-        "recent_rating": 1.1,
+        "series": 3,
+        "average_rating": 1.09,
+        "average_adr": 77.6,
+        "recent_rating": 1.09,
         "rating_delta": null
       },
       "map_profile": [],
@@ -42507,13 +42967,13 @@
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
+          "through_date": "2026-10-15",
+          "series": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "win_rate": 0,
-          "average_rating": 1.1,
-          "average_adr": 75.7
+          "average_rating": 1.09,
+          "average_adr": 77.6
         }
       ]
     },
@@ -42557,28 +43017,43 @@
           "kast": 59.7,
           "rating": 0.91,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399302",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-6666",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 14,
+          "deaths": 32,
+          "kd_ratio": 0.44,
+          "adr": 44.9,
+          "kast": 57.5,
+          "rating": 0.53,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399295",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399302",
+        "date": "2026-10-15",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Illyrians",
+        "opponent_name": "ex-6666",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 30,
-        "deaths": 35,
-        "kd_ratio": 0.86,
-        "adr": 67.4,
-        "kast": 68,
-        "rating": 0.94,
+        "kills": 14,
+        "deaths": 32,
+        "kd_ratio": 0.44,
+        "adr": 44.9,
+        "kast": 57.5,
+        "rating": 0.53,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.93,
-        "average_adr": 65.3,
-        "recent_rating": 0.93,
+        "series": 3,
+        "average_rating": 0.79,
+        "average_adr": 58.5,
+        "recent_rating": 0.79,
         "rating_delta": null
       },
       "map_profile": [],
@@ -42586,13 +43061,13 @@
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
+          "through_date": "2026-10-15",
+          "series": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "win_rate": 0,
-          "average_rating": 0.93,
-          "average_adr": 65.3
+          "average_rating": 0.79,
+          "average_adr": 58.5
         }
       ]
     },
@@ -43753,9 +44228,137 @@
           "average_adr": 40.4
         }
       ]
+    },
+    {
+      "player_id": "hltv:20158",
+      "nickname": "Substitute",
+      "team_name": "Ryvex",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "20158",
+      "source_url": "https://www.hltv.org/player/20158/ed1m",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "MAYBE",
+          "team_name": "Ryvex",
+          "won": false,
+          "kills": 31,
+          "deaths": 31,
+          "kd_ratio": 1,
+          "adr": 78.7,
+          "kast": 61.5,
+          "rating": 1.05,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "MAYBE",
+        "team_name": "Ryvex",
+        "won": false,
+        "kills": 31,
+        "deaths": 31,
+        "kd_ratio": 1,
+        "adr": 78.7,
+        "kast": 61.5,
+        "rating": 1.05,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.05,
+        "average_adr": 78.7,
+        "recent_rating": 1.05,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Ryvex",
+          "from_date": "2026-10-15",
+          "through_date": "2026-10-15",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.05,
+          "average_adr": 78.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:23269",
+      "nickname": "Substitute",
+      "team_name": "Ryvex",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "23269",
+      "source_url": "https://www.hltv.org/player/23269/relax",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "MAYBE",
+          "team_name": "Ryvex",
+          "won": false,
+          "kills": 14,
+          "deaths": 30,
+          "kd_ratio": 0.47,
+          "adr": 46,
+          "kast": 51.3,
+          "rating": 0.5,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "MAYBE",
+        "team_name": "Ryvex",
+        "won": false,
+        "kills": 14,
+        "deaths": 30,
+        "kd_ratio": 0.47,
+        "adr": 46,
+        "kast": 51.3,
+        "rating": 0.5,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.5,
+        "average_adr": 46,
+        "recent_rating": 0.5,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Ryvex",
+          "from_date": "2026-10-15",
+          "through_date": "2026-10-15",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.5,
+          "average_adr": 46
+        }
+      ]
     }
   ],
-  "lineups_updated_at_utc": "2026-10-15T07:29:27Z",
+  "lineups_updated_at_utc": "2026-10-15T13:28:26Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-15",
   "history_profile_count": 53,

@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-15T07:29:27Z",
+  "generated_at_utc": "2026-10-15T13:28:26Z",
   "through_date": "2026-10-15",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3921,
-    "maps": 2799,
-    "lineup_rows": 9121,
+    "matches": 3926,
+    "maps": 2808,
+    "lineup_rows": 9171,
     "source_match_ids": 976
   },
   "matches": [
@@ -214,6 +214,242 @@
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_A"
     },
     {
+      "match_id": "hltv:2399302",
+      "match_date": "2026-10-15",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Bushido Wildcats",
+      "team2_name": "ex-6666",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-6666",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 9,
+          "score2": 13,
+          "winner_name": "ex-6666",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": 5,
+          "score2": 13,
+          "winner_name": "ex-6666",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "winner_name": "ex-6666",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Muk0s",
+          "Vej",
+          "Darendeli",
+          "cacan",
+          "cadnyx"
+        ],
+        "team2": [
+          "skcH",
+          "amster",
+          "kL1o",
+          "rendysky",
+          "stefienson"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399465",
+      "match_date": "2026-10-15",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "team1_name": "B8 Academy",
+      "team2_name": "Banda Chuya",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Banda Chuya",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "B8 Academy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "Banda Chuya",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 7,
+          "score2": 13,
+          "winner_name": "Banda Chuya",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Substitute",
+          "k1n",
+          "segukawa",
+          "sherman",
+          "oju"
+        ],
+        "team2": [
+          "tomiko",
+          "maaryy",
+          "AdrieN",
+          "Showk",
+          "ezox"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399303",
+      "match_date": "2026-10-15",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Walczaki",
+      "team2_name": "mellren",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [
+          "sNx",
+          "SaMey",
+          "olimp",
+          "bajmi",
+          "reiko"
+        ],
+        "team2": [
+          "lollipop21k",
+          "menddel",
+          "mdl",
+          "shootic",
+          "Maksilvl"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399466",
+      "match_date": "2026-10-15",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "team1_name": "Ryvex",
+      "team2_name": "MAYBE",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MAYBE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 4,
+          "score2": 13,
+          "winner_name": "MAYBE",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 9,
+          "score2": 13,
+          "winner_name": "MAYBE",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": null,
+          "score2": null,
+          "winner_name": "MAYBE",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Substitute",
+          "Substitute",
+          "swaggy",
+          "N0R1",
+          "wfn"
+        ],
+        "team2": [
+          "zogeN",
+          "edixenn",
+          "thirtythird",
+          "Awi4",
+          "shallthing"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399667",
+      "match_date": "2026-10-15",
+      "event_name": "CCT 2026 South America Series 7",
+      "team1_name": "Grêmio",
+      "team2_name": "EXODIA",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "Grêmio",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [
+          "MITHPUTTINI",
+          "yeda",
+          "balencyy",
+          "s1lent",
+          "souz4h"
+        ],
+        "team2": [
+          "spamzzy",
+          "TORITO",
+          "points",
+          "JSC",
+          "otEB"
+        ]
+      }
+    },
+    {
       "match_id": "hltv:2399232",
       "match_date": "2026-10-14",
       "event_name": "ESL Challenger League Season 52 North America Cup 3",
@@ -407,8 +643,8 @@
         },
         {
           "map_name": "Cache",
-          "score1": 4,
-          "score2": 8,
+          "score1": 5,
+          "score2": 13,
           "winner_name": "Rooster",
           "picked_by": null
         },
@@ -423,17 +659,17 @@
       "lineups": {
         "team1": [
           "yourwombat",
-          "micalis",
           "Roflko",
           "sav",
+          "micalis",
           "ske"
         ],
         "team2": [
-          "chelleos",
+          "Substitute",
+          "Substitute",
+          "Substitute",
           "SkulL",
-          "ju1ces",
-          "rekonz",
-          "foggers"
+          "rekonz"
         ]
       }
     },
@@ -1652,7 +1888,7 @@
       "winner_name": "Saint Sinners",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -1998,8 +2234,8 @@
       "winner_name": "your end",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
