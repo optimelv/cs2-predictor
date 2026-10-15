@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3932,
+    "matches": 3936,
     "maps": 2814,
     "lineup_rows": 9201,
     "source_match_ids": 976
@@ -660,6 +660,94 @@
           "stefienson"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:5663cf7c693c70468ea6",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T08:55:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Group A",
+      "team1_name": "Mindfreak",
+      "team2_name": "Rooster",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Rooster",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:a7b5f05211b4da6aa24d",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T11:30:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Group A",
+      "team1_name": "9z",
+      "team2_name": "Falcons",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Falcons",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:9989e60c62de455fe445",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Round 2",
+      "team1_name": "Spirit.A",
+      "team2_name": "TLR",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Spirit.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_2"
+    },
+    {
+      "match_id": "liquipedia:d63eba65e98e7dfd1646",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T15:10:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Group B",
+      "team1_name": "BB",
+      "team2_name": "PV",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BB",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_B"
     },
     {
       "match_id": "hltv:2399232",
