@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-15T01:30:52Z",
+  "generated_at_utc": "2026-10-15T07:29:27Z",
   "through_date": "2026-10-15",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3914,
-    "maps": 2796,
-    "lineup_rows": 9111,
+    "matches": 3915,
+    "maps": 2799,
+    "lineup_rows": 9121,
     "source_match_ids": 976
   },
   "matches": [
@@ -24,7 +24,7 @@
       "winner_name": "LP",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -66,6 +66,62 @@
           "detr0ittJ",
           "gbb",
           "tomate"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399233",
+      "match_date": "2026-10-15",
+      "event_name": "ESL Challenger League Season 52 North America Cup 3",
+      "team1_name": "Chicken Coop",
+      "team2_name": "Overtake Sector",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Overtake Sector",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "score1": 14,
+          "score2": 16,
+          "winner_name": "Overtake Sector",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 16,
+          "score2": 13,
+          "winner_name": "Chicken Coop",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 5,
+          "score2": 13,
+          "winner_name": "Overtake Sector",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Drop",
+          "Crisp",
+          "jared",
+          "stesso",
+          "Wolffe"
+        ],
+        "team2": [
+          "intra",
+          "Umar",
+          "LEARSI",
+          "jason",
+          "corim"
         ]
       }
     },
@@ -304,7 +360,7 @@
       "winner_name": "realgotis22",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -1486,8 +1542,8 @@
       "winner_name": "Saint Sinners",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,

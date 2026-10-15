@@ -15543,7 +15543,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Illyrians"
     },
     {
-      "detail_fetched_at_utc": "2026-10-15T01:25:48Z",
+      "detail_fetched_at_utc": "2026-10-15T07:29:16Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -17211,7 +17211,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Black Phoenix"
     },
     {
-      "detail_fetched_at_utc": "2026-10-15T01:20:12Z",
+      "detail_fetched_at_utc": "2026-10-15T07:20:34Z",
       "event_id": "hltv:cct-2026-south-america-series-7",
       "event_name": "CCT 2026 South America Series 7",
       "event_url": "https://www.hltv.org/events/archive",
@@ -18486,7 +18486,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Overtake Sector"
     },
     {
-      "detail_fetched_at_utc": "2026-10-15T01:15:48Z",
+      "detail_fetched_at_utc": "2026-10-15T07:16:57Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -19854,7 +19854,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Falcons"
     },
     {
-      "detail_fetched_at_utc": "2026-10-15T01:30:21Z",
+      "detail_fetched_at_utc": "2026-10-15T07:16:48Z",
       "event_id": "hltv:cct-2026-south-america-series-7",
       "event_name": "CCT 2026 South America Series 7",
       "event_url": "https://www.hltv.org/events/archive",
@@ -24759,7 +24759,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "LP"
     },
     {
-      "detail_fetched_at_utc": "2026-10-15T01:25:37Z",
+      "detail_fetched_at_utc": "2026-10-15T05:05:33Z",
       "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
       "event_name": "ESL Challenger League Season 52 North America Cup 3",
       "event_url": "https://www.hltv.org/events/archive",
@@ -24767,39 +24767,114 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "lineups": {
         "team1": [
           {
-            "hltv_player_id": "17622",
-            "nickname": "Wolffe",
-            "player_id": "hltv:17622",
-            "source_url": "https://www.hltv.org/player/17622/wolffe",
-            "team_name": "Chicken Coop"
-          },
-          {
             "hltv_player_id": "22794",
             "nickname": "Drop",
             "player_id": "hltv:22794",
             "source_url": "https://www.hltv.org/player/22794/drop",
-            "team_name": "Chicken Coop"
-          },
-          {
-            "hltv_player_id": "24426",
-            "nickname": "stesso",
-            "player_id": "hltv:24426",
-            "source_url": "https://www.hltv.org/player/24426/stesso",
-            "team_name": "Chicken Coop"
-          },
-          {
-            "hltv_player_id": "24527",
-            "nickname": "jared",
-            "player_id": "hltv:24527",
-            "source_url": "https://www.hltv.org/player/24527/jared",
-            "team_name": "Chicken Coop"
+            "team_name": "Chicken Coop",
+            "timeline_entry": {
+              "adr": 76.9,
+              "date": "2026-10-15",
+              "deaths": 58,
+              "event_name": "ESL Challenger League Season 52 North America Cup 3",
+              "kast": 63.6,
+              "kd_ratio": 0.86,
+              "kills": 50,
+              "maps": 3,
+              "match_id": "hltv:2399233",
+              "opponent_name": "Overtake Sector",
+              "rating": 0.91,
+              "team_name": "Chicken Coop",
+              "won": false
+            }
           },
           {
             "hltv_player_id": "24679",
             "nickname": "Crisp",
             "player_id": "hltv:24679",
             "source_url": "https://www.hltv.org/player/24679/crisp",
-            "team_name": "Chicken Coop"
+            "team_name": "Chicken Coop",
+            "timeline_entry": {
+              "adr": 65,
+              "date": "2026-10-15",
+              "deaths": 51,
+              "event_name": "ESL Challenger League Season 52 North America Cup 3",
+              "kast": 66.2,
+              "kd_ratio": 0.84,
+              "kills": 43,
+              "maps": 3,
+              "match_id": "hltv:2399233",
+              "opponent_name": "Overtake Sector",
+              "rating": 0.88,
+              "team_name": "Chicken Coop",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "24527",
+            "nickname": "jared",
+            "player_id": "hltv:24527",
+            "source_url": "https://www.hltv.org/player/24527/jared",
+            "team_name": "Chicken Coop",
+            "timeline_entry": {
+              "adr": 63.5,
+              "date": "2026-10-15",
+              "deaths": 53,
+              "event_name": "ESL Challenger League Season 52 North America Cup 3",
+              "kast": 72.7,
+              "kd_ratio": 0.91,
+              "kills": 48,
+              "maps": 3,
+              "match_id": "hltv:2399233",
+              "opponent_name": "Overtake Sector",
+              "rating": 0.91,
+              "team_name": "Chicken Coop",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "24426",
+            "nickname": "stesso",
+            "player_id": "hltv:24426",
+            "source_url": "https://www.hltv.org/player/24426/stesso",
+            "team_name": "Chicken Coop",
+            "timeline_entry": {
+              "adr": 74,
+              "date": "2026-10-15",
+              "deaths": 55,
+              "event_name": "ESL Challenger League Season 52 North America Cup 3",
+              "kast": 72.7,
+              "kd_ratio": 0.96,
+              "kills": 53,
+              "maps": 3,
+              "match_id": "hltv:2399233",
+              "opponent_name": "Overtake Sector",
+              "rating": 1.13,
+              "team_name": "Chicken Coop",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "17622",
+            "nickname": "Wolffe",
+            "player_id": "hltv:17622",
+            "source_url": "https://www.hltv.org/player/17622/wolffe",
+            "team_name": "Chicken Coop",
+            "timeline_entry": {
+              "adr": 85.4,
+              "date": "2026-10-15",
+              "deaths": 54,
+              "event_name": "ESL Challenger League Season 52 North America Cup 3",
+              "kast": 77.9,
+              "kd_ratio": 1.15,
+              "kills": 62,
+              "maps": 3,
+              "match_id": "hltv:2399233",
+              "opponent_name": "Overtake Sector",
+              "rating": 1.21,
+              "team_name": "Chicken Coop",
+              "won": false
+            }
           }
         ],
         "team2": [
@@ -24808,53 +24883,356 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             "nickname": "intra",
             "player_id": "hltv:20213",
             "source_url": "https://www.hltv.org/player/20213/intra",
-            "team_name": "Overtake Sector"
+            "team_name": "Overtake Sector",
+            "timeline_entry": {
+              "adr": 87.6,
+              "date": "2026-10-15",
+              "deaths": 54,
+              "event_name": "ESL Challenger League Season 52 North America Cup 3",
+              "kast": 74,
+              "kd_ratio": 1.13,
+              "kills": 61,
+              "maps": 3,
+              "match_id": "hltv:2399233",
+              "opponent_name": "Chicken Coop",
+              "rating": 1.13,
+              "team_name": "Overtake Sector",
+              "won": true
+            }
           },
           {
             "hltv_player_id": "20215",
             "nickname": "Umar",
             "player_id": "hltv:20215",
             "source_url": "https://www.hltv.org/player/20215/umar",
-            "team_name": "Overtake Sector"
+            "team_name": "Overtake Sector",
+            "timeline_entry": {
+              "adr": 74.6,
+              "date": "2026-10-15",
+              "deaths": 42,
+              "event_name": "ESL Challenger League Season 52 North America Cup 3",
+              "kast": 68.8,
+              "kd_ratio": 1.43,
+              "kills": 60,
+              "maps": 3,
+              "match_id": "hltv:2399233",
+              "opponent_name": "Chicken Coop",
+              "rating": 1.29,
+              "team_name": "Overtake Sector",
+              "won": true
+            }
           },
           {
             "hltv_player_id": "20386",
             "nickname": "LEARSI",
             "player_id": "hltv:20386",
             "source_url": "https://www.hltv.org/player/20386/learsi",
-            "team_name": "Overtake Sector"
+            "team_name": "Overtake Sector",
+            "timeline_entry": {
+              "adr": 67.1,
+              "date": "2026-10-15",
+              "deaths": 43,
+              "event_name": "ESL Challenger League Season 52 North America Cup 3",
+              "kast": 77.9,
+              "kd_ratio": 1.3,
+              "kills": 56,
+              "maps": 3,
+              "match_id": "hltv:2399233",
+              "opponent_name": "Chicken Coop",
+              "rating": 1.14,
+              "team_name": "Overtake Sector",
+              "won": true
+            }
           },
           {
             "hltv_player_id": "21120",
             "nickname": "jason",
             "player_id": "hltv:21120",
             "source_url": "https://www.hltv.org/player/21120/jason",
-            "team_name": "Overtake Sector"
+            "team_name": "Overtake Sector",
+            "timeline_entry": {
+              "adr": 74.4,
+              "date": "2026-10-15",
+              "deaths": 58,
+              "event_name": "ESL Challenger League Season 52 North America Cup 3",
+              "kast": 67.5,
+              "kd_ratio": 0.86,
+              "kills": 50,
+              "maps": 3,
+              "match_id": "hltv:2399233",
+              "opponent_name": "Chicken Coop",
+              "rating": 0.99,
+              "team_name": "Overtake Sector",
+              "won": true
+            }
           },
           {
             "hltv_player_id": "24813",
             "nickname": "corim",
             "player_id": "hltv:24813",
             "source_url": "https://www.hltv.org/player/24813/corim",
-            "team_name": "Overtake Sector"
+            "team_name": "Overtake Sector",
+            "timeline_entry": {
+              "adr": 71.6,
+              "date": "2026-10-15",
+              "deaths": 60,
+              "event_name": "ESL Challenger League Season 52 North America Cup 3",
+              "kast": 70.1,
+              "kd_ratio": 0.67,
+              "kills": 40,
+              "maps": 3,
+              "match_id": "hltv:2399233",
+              "opponent_name": "Chicken Coop",
+              "rating": 0.88,
+              "team_name": "Overtake Sector",
+              "won": true
+            }
           }
         ]
       },
+      "map_results": [
+        {
+          "map_name": "Mirage",
+          "score1": 14,
+          "score2": 16,
+          "status": "finished"
+        },
+        {
+          "map_name": "Cache",
+          "score1": 16,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 5,
+          "score2": 13,
+          "status": "finished"
+        }
+      ],
+      "maps": [
+        "Mirage",
+        "Cache",
+        "Ancient"
+      ],
       "match_id": "hltv:2399233",
+      "player_stats": [
+        {
+          "adr": 85.4,
+          "deaths": 54,
+          "hltv_player_id": "17622",
+          "kast": 77.9,
+          "kills": 62,
+          "nickname": "Wolffe",
+          "player_id": "hltv:17622",
+          "rating": 1.21,
+          "source_url": "https://www.hltv.org/player/17622/wolffe",
+          "team_side": 1
+        },
+        {
+          "adr": 74,
+          "deaths": 55,
+          "hltv_player_id": "24426",
+          "kast": 72.7,
+          "kills": 53,
+          "nickname": "stesso",
+          "player_id": "hltv:24426",
+          "rating": 1.13,
+          "source_url": "https://www.hltv.org/player/24426/stesso",
+          "team_side": 1
+        },
+        {
+          "adr": 63.5,
+          "deaths": 53,
+          "hltv_player_id": "24527",
+          "kast": 72.7,
+          "kills": 48,
+          "nickname": "jared",
+          "player_id": "hltv:24527",
+          "rating": 0.91,
+          "source_url": "https://www.hltv.org/player/24527/jared",
+          "team_side": 1
+        },
+        {
+          "adr": 76.9,
+          "deaths": 58,
+          "hltv_player_id": "22794",
+          "kast": 63.6,
+          "kills": 50,
+          "nickname": "Drop",
+          "player_id": "hltv:22794",
+          "rating": 0.91,
+          "source_url": "https://www.hltv.org/player/22794/drop",
+          "team_side": 1
+        },
+        {
+          "adr": 65,
+          "deaths": 51,
+          "hltv_player_id": "24679",
+          "kast": 66.2,
+          "kills": 43,
+          "nickname": "Crisp",
+          "player_id": "hltv:24679",
+          "rating": 0.88,
+          "source_url": "https://www.hltv.org/player/24679/crisp",
+          "team_side": 1
+        },
+        {
+          "adr": 74.6,
+          "deaths": 42,
+          "hltv_player_id": "20215",
+          "kast": 68.8,
+          "kills": 60,
+          "nickname": "Umar",
+          "player_id": "hltv:20215",
+          "rating": 1.29,
+          "source_url": "https://www.hltv.org/player/20215/umar",
+          "team_side": 2
+        },
+        {
+          "adr": 67.1,
+          "deaths": 43,
+          "hltv_player_id": "20386",
+          "kast": 77.9,
+          "kills": 56,
+          "nickname": "LEARSI",
+          "player_id": "hltv:20386",
+          "rating": 1.14,
+          "source_url": "https://www.hltv.org/player/20386/learsi",
+          "team_side": 2
+        },
+        {
+          "adr": 87.6,
+          "deaths": 54,
+          "hltv_player_id": "20213",
+          "kast": 74,
+          "kills": 61,
+          "nickname": "intra",
+          "player_id": "hltv:20213",
+          "rating": 1.13,
+          "source_url": "https://www.hltv.org/player/20213/intra",
+          "team_side": 2
+        },
+        {
+          "adr": 74.4,
+          "deaths": 58,
+          "hltv_player_id": "21120",
+          "kast": 67.5,
+          "kills": 50,
+          "nickname": "jason",
+          "player_id": "hltv:21120",
+          "rating": 0.99,
+          "source_url": "https://www.hltv.org/player/21120/jason",
+          "team_side": 2
+        },
+        {
+          "adr": 71.6,
+          "deaths": 60,
+          "hltv_player_id": "24813",
+          "kast": 70.1,
+          "kills": 40,
+          "nickname": "corim",
+          "player_id": "hltv:24813",
+          "rating": 0.88,
+          "source_url": "https://www.hltv.org/player/24813/corim",
+          "team_side": 2
+        }
+      ],
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399233/chicken-coop-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-15T01:30:00Z",
-      "status": "upcoming",
+      "starts_at": "2026-10-15T05:00:42Z",
+      "status": "finished",
       "team1_name": "Chicken Coop",
       "team2_name": "Overtake Sector",
-      "veto_text": "Best of 3 (Online)\n\n* Grand final. Winner qualifies for Season 52 North America Finals."
+      "veto_text": "Best of 3 (Online)\n\n* Grand final. Winner qualifies for Season 52 North America Finals.",
+      "winner_name": "Overtake Sector"
     },
     {
-      "event_id": "hltv:9456",
+      "detail_fetched_at_utc": "2026-10-15T07:16:25Z",
+      "event_id": "hltv:cct-2026-europe-series-12-closed-qualifier",
       "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399465",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "25162",
+            "nickname": "k1n",
+            "player_id": "hltv:25162",
+            "source_url": "https://www.hltv.org/player/25162/k1n",
+            "team_name": "B8 Academy"
+          },
+          {
+            "hltv_player_id": "25805",
+            "nickname": "segukawa",
+            "player_id": "hltv:25805",
+            "source_url": "https://www.hltv.org/player/25805/segukawa",
+            "team_name": "B8 Academy"
+          },
+          {
+            "hltv_player_id": "26002",
+            "nickname": "sherman",
+            "player_id": "hltv:26002",
+            "source_url": "https://www.hltv.org/player/26002/sherman",
+            "team_name": "B8 Academy"
+          },
+          {
+            "hltv_player_id": "26361",
+            "nickname": "oju",
+            "player_id": "hltv:26361",
+            "source_url": "https://www.hltv.org/player/26361/oju",
+            "team_name": "B8 Academy"
+          },
+          {
+            "hltv_player_id": "26896",
+            "nickname": "1njustice",
+            "player_id": "hltv:26896",
+            "source_url": "https://www.hltv.org/player/26896/1njustice",
+            "team_name": "B8 Academy"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "20283",
+            "nickname": "tomiko",
+            "player_id": "hltv:20283",
+            "source_url": "https://www.hltv.org/player/20283/tomiko",
+            "team_name": "Banda Chuya"
+          },
+          {
+            "hltv_player_id": "20284",
+            "nickname": "maaryy",
+            "player_id": "hltv:20284",
+            "source_url": "https://www.hltv.org/player/20284/maaryy",
+            "team_name": "Banda Chuya"
+          },
+          {
+            "hltv_player_id": "23767",
+            "nickname": "AdrieN",
+            "player_id": "hltv:23767",
+            "source_url": "https://www.hltv.org/player/23767/adrien",
+            "team_name": "Banda Chuya"
+          },
+          {
+            "hltv_player_id": "24482",
+            "nickname": "ezox",
+            "player_id": "hltv:24482",
+            "source_url": "https://www.hltv.org/player/24482/ezox",
+            "team_name": "Banda Chuya"
+          },
+          {
+            "hltv_player_id": "24545",
+            "nickname": "Showk",
+            "player_id": "hltv:24545",
+            "source_url": "https://www.hltv.org/player/24545/showk",
+            "team_name": "Banda Chuya"
+          }
+        ]
+      },
       "match_id": "hltv:2399465",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -24863,12 +25241,91 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-15T08:00:00Z",
       "status": "upcoming",
       "team1_name": "B8 Academy",
-      "team2_name": "Banda Chuya"
+      "team2_name": "Banda Chuya",
+      "veto_text": "Best of 3 (Online)\n\n* Group A elimination match"
     },
     {
-      "event_id": "hltv:9442",
+      "detail_fetched_at_utc": "2026-10-15T07:29:04Z",
+      "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399302",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "21253",
+            "nickname": "Darendeli",
+            "player_id": "hltv:21253",
+            "source_url": "https://www.hltv.org/player/21253/darendeli",
+            "team_name": "Bushido Wildcats"
+          },
+          {
+            "hltv_player_id": "23687",
+            "nickname": "Muk0s",
+            "player_id": "hltv:23687",
+            "source_url": "https://www.hltv.org/player/23687/muk0s",
+            "team_name": "Bushido Wildcats"
+          },
+          {
+            "hltv_player_id": "24842",
+            "nickname": "Vej",
+            "player_id": "hltv:24842",
+            "source_url": "https://www.hltv.org/player/24842/vej",
+            "team_name": "Bushido Wildcats"
+          },
+          {
+            "hltv_player_id": "24843",
+            "nickname": "cadnyx",
+            "player_id": "hltv:24843",
+            "source_url": "https://www.hltv.org/player/24843/cadnyx",
+            "team_name": "Bushido Wildcats"
+          },
+          {
+            "hltv_player_id": "25007",
+            "nickname": "cacan",
+            "player_id": "hltv:25007",
+            "source_url": "https://www.hltv.org/player/25007/cacan",
+            "team_name": "Bushido Wildcats"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "19617",
+            "nickname": "amster",
+            "player_id": "hltv:19617",
+            "source_url": "https://www.hltv.org/player/19617/amster",
+            "team_name": "ex-6666"
+          },
+          {
+            "hltv_player_id": "21651",
+            "nickname": "kL1o",
+            "player_id": "hltv:21651",
+            "source_url": "https://www.hltv.org/player/21651/kl1o",
+            "team_name": "ex-6666"
+          },
+          {
+            "hltv_player_id": "22650",
+            "nickname": "rendysky",
+            "player_id": "hltv:22650",
+            "source_url": "https://www.hltv.org/player/22650/rendysky",
+            "team_name": "ex-6666"
+          },
+          {
+            "hltv_player_id": "24247",
+            "nickname": "skcH",
+            "player_id": "hltv:24247",
+            "source_url": "https://www.hltv.org/player/24247/skch",
+            "team_name": "ex-6666"
+          },
+          {
+            "hltv_player_id": "26816",
+            "nickname": "stefienson",
+            "player_id": "hltv:26816",
+            "source_url": "https://www.hltv.org/player/26816/stefienson",
+            "team_name": "ex-6666"
+          }
+        ]
+      },
       "match_id": "hltv:2399302",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -24877,12 +25334,91 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-15T08:00:00Z",
       "status": "upcoming",
       "team1_name": "Bushido Wildcats",
-      "team2_name": "ex-6666"
+      "team2_name": "ex-6666",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
     },
     {
-      "event_id": "hltv:8932",
+      "detail_fetched_at_utc": "2026-10-15T07:28:55Z",
+      "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399408",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "7938",
+            "nickname": "XANTARES",
+            "player_id": "hltv:7938",
+            "source_url": "https://www.hltv.org/player/7938/xantares",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "8574",
+            "nickname": "woxic",
+            "player_id": "hltv:8574",
+            "source_url": "https://www.hltv.org/player/8574/woxic",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "18850",
+            "nickname": "Jimpphat",
+            "player_id": "hltv:18850",
+            "source_url": "https://www.hltv.org/player/18850/jimpphat",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "19677",
+            "nickname": "kyxsan",
+            "player_id": "hltv:19677",
+            "source_url": "https://www.hltv.org/player/19677/kyxsan",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "21243",
+            "nickname": "Wicadia",
+            "player_id": "hltv:21243",
+            "source_url": "https://www.hltv.org/player/21243/wicadia",
+            "team_name": "Aurora"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "10994",
+            "nickname": "stavn",
+            "player_id": "hltv:10994",
+            "source_url": "https://www.hltv.org/player/10994/stavn",
+            "team_name": "Ninjas in Pyjamas"
+          },
+          {
+            "hltv_player_id": "14148",
+            "nickname": "sjuush",
+            "player_id": "hltv:14148",
+            "source_url": "https://www.hltv.org/player/14148/sjuush",
+            "team_name": "Ninjas in Pyjamas"
+          },
+          {
+            "hltv_player_id": "19899",
+            "nickname": "Krimbo",
+            "player_id": "hltv:19899",
+            "source_url": "https://www.hltv.org/player/19899/krimbo",
+            "team_name": "Ninjas in Pyjamas"
+          },
+          {
+            "hltv_player_id": "20878",
+            "nickname": "adamb",
+            "player_id": "hltv:20878",
+            "source_url": "https://www.hltv.org/player/20878/adamb",
+            "team_name": "Ninjas in Pyjamas"
+          },
+          {
+            "hltv_player_id": "23372",
+            "nickname": "xKacpersky",
+            "player_id": "hltv:23372",
+            "source_url": "https://www.hltv.org/player/23372/xkacpersky",
+            "team_name": "Ninjas in Pyjamas"
+          }
+        ]
+      },
       "match_id": "hltv:2399408",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -24891,12 +25427,91 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-15T08:30:00Z",
       "status": "upcoming",
       "team1_name": "Aurora",
-      "team2_name": "Ninjas in Pyjamas"
+      "team2_name": "Ninjas in Pyjamas",
+      "veto_text": "Best of 3 (LAN)\n\n* Group A elimination match"
     },
     {
-      "event_id": "hltv:8932",
+      "detail_fetched_at_utc": "2026-10-15T07:16:36Z",
+      "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399409",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "12092",
+            "nickname": "max",
+            "player_id": "hltv:12092",
+            "source_url": "https://www.hltv.org/player/12092/max",
+            "team_name": "9z"
+          },
+          {
+            "hltv_player_id": "14736",
+            "nickname": "dgt",
+            "player_id": "hltv:14736",
+            "source_url": "https://www.hltv.org/player/14736/dgt",
+            "team_name": "9z"
+          },
+          {
+            "hltv_player_id": "14737",
+            "nickname": "meyern",
+            "player_id": "hltv:14737",
+            "source_url": "https://www.hltv.org/player/14737/meyern",
+            "team_name": "9z"
+          },
+          {
+            "hltv_player_id": "20394",
+            "nickname": "luchov",
+            "player_id": "hltv:20394",
+            "source_url": "https://www.hltv.org/player/20394/luchov",
+            "team_name": "9z"
+          },
+          {
+            "hltv_player_id": "22613",
+            "nickname": "HUASOPEEK",
+            "player_id": "hltv:22613",
+            "source_url": "https://www.hltv.org/player/22613/huasopeek",
+            "team_name": "9z"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "429",
+            "nickname": "karrigan",
+            "player_id": "hltv:429",
+            "source_url": "https://www.hltv.org/player/429/karrigan",
+            "team_name": "Falcons"
+          },
+          {
+            "hltv_player_id": "3741",
+            "nickname": "NiKo",
+            "player_id": "hltv:3741",
+            "source_url": "https://www.hltv.org/player/3741/niko",
+            "team_name": "Falcons"
+          },
+          {
+            "hltv_player_id": "12018",
+            "nickname": "TeSeS",
+            "player_id": "hltv:12018",
+            "source_url": "https://www.hltv.org/player/12018/teses",
+            "team_name": "Falcons"
+          },
+          {
+            "hltv_player_id": "19230",
+            "nickname": "m0NESY",
+            "player_id": "hltv:19230",
+            "source_url": "https://www.hltv.org/player/19230/m0nesy",
+            "team_name": "Falcons"
+          },
+          {
+            "hltv_player_id": "24177",
+            "nickname": "kyousuke",
+            "player_id": "hltv:24177",
+            "source_url": "https://www.hltv.org/player/24177/kyousuke",
+            "team_name": "Falcons"
+          }
+        ]
+      },
       "match_id": "hltv:2399409",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -24905,7 +25520,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-15T11:00:00Z",
       "status": "upcoming",
       "team1_name": "9z",
-      "team2_name": "Falcons"
+      "team2_name": "Falcons",
+      "veto_text": "Best of 3 (LAN)\n\n* Group A winners' match"
     },
     {
       "event_id": "hltv:8932",
@@ -65304,7 +65920,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Overtake Sector"
         },
         {
-          "detail_fetched_at_utc": "2026-10-15T01:25:37Z",
+          "detail_fetched_at_utc": "2026-10-15T05:05:33Z",
           "event_id": "hltv:esl-challenger-league-season-52-north-america-cup-3",
           "event_name": "ESL Challenger League Season 52 North America Cup 3",
           "event_url": "https://www.hltv.org/events/archive",
@@ -65312,39 +65928,114 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "lineups": {
             "team1": [
               {
-                "hltv_player_id": "17622",
-                "nickname": "Wolffe",
-                "player_id": "hltv:17622",
-                "source_url": "https://www.hltv.org/player/17622/wolffe",
-                "team_name": "Chicken Coop"
-              },
-              {
                 "hltv_player_id": "22794",
                 "nickname": "Drop",
                 "player_id": "hltv:22794",
                 "source_url": "https://www.hltv.org/player/22794/drop",
-                "team_name": "Chicken Coop"
-              },
-              {
-                "hltv_player_id": "24426",
-                "nickname": "stesso",
-                "player_id": "hltv:24426",
-                "source_url": "https://www.hltv.org/player/24426/stesso",
-                "team_name": "Chicken Coop"
-              },
-              {
-                "hltv_player_id": "24527",
-                "nickname": "jared",
-                "player_id": "hltv:24527",
-                "source_url": "https://www.hltv.org/player/24527/jared",
-                "team_name": "Chicken Coop"
+                "team_name": "Chicken Coop",
+                "timeline_entry": {
+                  "adr": 76.9,
+                  "date": "2026-10-15",
+                  "deaths": 58,
+                  "event_name": "ESL Challenger League Season 52 North America Cup 3",
+                  "kast": 63.6,
+                  "kd_ratio": 0.86,
+                  "kills": 50,
+                  "maps": 3,
+                  "match_id": "hltv:2399233",
+                  "opponent_name": "Overtake Sector",
+                  "rating": 0.91,
+                  "team_name": "Chicken Coop",
+                  "won": false
+                }
               },
               {
                 "hltv_player_id": "24679",
                 "nickname": "Crisp",
                 "player_id": "hltv:24679",
                 "source_url": "https://www.hltv.org/player/24679/crisp",
-                "team_name": "Chicken Coop"
+                "team_name": "Chicken Coop",
+                "timeline_entry": {
+                  "adr": 65,
+                  "date": "2026-10-15",
+                  "deaths": 51,
+                  "event_name": "ESL Challenger League Season 52 North America Cup 3",
+                  "kast": 66.2,
+                  "kd_ratio": 0.84,
+                  "kills": 43,
+                  "maps": 3,
+                  "match_id": "hltv:2399233",
+                  "opponent_name": "Overtake Sector",
+                  "rating": 0.88,
+                  "team_name": "Chicken Coop",
+                  "won": false
+                }
+              },
+              {
+                "hltv_player_id": "24527",
+                "nickname": "jared",
+                "player_id": "hltv:24527",
+                "source_url": "https://www.hltv.org/player/24527/jared",
+                "team_name": "Chicken Coop",
+                "timeline_entry": {
+                  "adr": 63.5,
+                  "date": "2026-10-15",
+                  "deaths": 53,
+                  "event_name": "ESL Challenger League Season 52 North America Cup 3",
+                  "kast": 72.7,
+                  "kd_ratio": 0.91,
+                  "kills": 48,
+                  "maps": 3,
+                  "match_id": "hltv:2399233",
+                  "opponent_name": "Overtake Sector",
+                  "rating": 0.91,
+                  "team_name": "Chicken Coop",
+                  "won": false
+                }
+              },
+              {
+                "hltv_player_id": "24426",
+                "nickname": "stesso",
+                "player_id": "hltv:24426",
+                "source_url": "https://www.hltv.org/player/24426/stesso",
+                "team_name": "Chicken Coop",
+                "timeline_entry": {
+                  "adr": 74,
+                  "date": "2026-10-15",
+                  "deaths": 55,
+                  "event_name": "ESL Challenger League Season 52 North America Cup 3",
+                  "kast": 72.7,
+                  "kd_ratio": 0.96,
+                  "kills": 53,
+                  "maps": 3,
+                  "match_id": "hltv:2399233",
+                  "opponent_name": "Overtake Sector",
+                  "rating": 1.13,
+                  "team_name": "Chicken Coop",
+                  "won": false
+                }
+              },
+              {
+                "hltv_player_id": "17622",
+                "nickname": "Wolffe",
+                "player_id": "hltv:17622",
+                "source_url": "https://www.hltv.org/player/17622/wolffe",
+                "team_name": "Chicken Coop",
+                "timeline_entry": {
+                  "adr": 85.4,
+                  "date": "2026-10-15",
+                  "deaths": 54,
+                  "event_name": "ESL Challenger League Season 52 North America Cup 3",
+                  "kast": 77.9,
+                  "kd_ratio": 1.15,
+                  "kills": 62,
+                  "maps": 3,
+                  "match_id": "hltv:2399233",
+                  "opponent_name": "Overtake Sector",
+                  "rating": 1.21,
+                  "team_name": "Chicken Coop",
+                  "won": false
+                }
               }
             ],
             "team2": [
@@ -65353,48 +66044,273 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "nickname": "intra",
                 "player_id": "hltv:20213",
                 "source_url": "https://www.hltv.org/player/20213/intra",
-                "team_name": "Overtake Sector"
+                "team_name": "Overtake Sector",
+                "timeline_entry": {
+                  "adr": 87.6,
+                  "date": "2026-10-15",
+                  "deaths": 54,
+                  "event_name": "ESL Challenger League Season 52 North America Cup 3",
+                  "kast": 74,
+                  "kd_ratio": 1.13,
+                  "kills": 61,
+                  "maps": 3,
+                  "match_id": "hltv:2399233",
+                  "opponent_name": "Chicken Coop",
+                  "rating": 1.13,
+                  "team_name": "Overtake Sector",
+                  "won": true
+                }
               },
               {
                 "hltv_player_id": "20215",
                 "nickname": "Umar",
                 "player_id": "hltv:20215",
                 "source_url": "https://www.hltv.org/player/20215/umar",
-                "team_name": "Overtake Sector"
+                "team_name": "Overtake Sector",
+                "timeline_entry": {
+                  "adr": 74.6,
+                  "date": "2026-10-15",
+                  "deaths": 42,
+                  "event_name": "ESL Challenger League Season 52 North America Cup 3",
+                  "kast": 68.8,
+                  "kd_ratio": 1.43,
+                  "kills": 60,
+                  "maps": 3,
+                  "match_id": "hltv:2399233",
+                  "opponent_name": "Chicken Coop",
+                  "rating": 1.29,
+                  "team_name": "Overtake Sector",
+                  "won": true
+                }
               },
               {
                 "hltv_player_id": "20386",
                 "nickname": "LEARSI",
                 "player_id": "hltv:20386",
                 "source_url": "https://www.hltv.org/player/20386/learsi",
-                "team_name": "Overtake Sector"
+                "team_name": "Overtake Sector",
+                "timeline_entry": {
+                  "adr": 67.1,
+                  "date": "2026-10-15",
+                  "deaths": 43,
+                  "event_name": "ESL Challenger League Season 52 North America Cup 3",
+                  "kast": 77.9,
+                  "kd_ratio": 1.3,
+                  "kills": 56,
+                  "maps": 3,
+                  "match_id": "hltv:2399233",
+                  "opponent_name": "Chicken Coop",
+                  "rating": 1.14,
+                  "team_name": "Overtake Sector",
+                  "won": true
+                }
               },
               {
                 "hltv_player_id": "21120",
                 "nickname": "jason",
                 "player_id": "hltv:21120",
                 "source_url": "https://www.hltv.org/player/21120/jason",
-                "team_name": "Overtake Sector"
+                "team_name": "Overtake Sector",
+                "timeline_entry": {
+                  "adr": 74.4,
+                  "date": "2026-10-15",
+                  "deaths": 58,
+                  "event_name": "ESL Challenger League Season 52 North America Cup 3",
+                  "kast": 67.5,
+                  "kd_ratio": 0.86,
+                  "kills": 50,
+                  "maps": 3,
+                  "match_id": "hltv:2399233",
+                  "opponent_name": "Chicken Coop",
+                  "rating": 0.99,
+                  "team_name": "Overtake Sector",
+                  "won": true
+                }
               },
               {
                 "hltv_player_id": "24813",
                 "nickname": "corim",
                 "player_id": "hltv:24813",
                 "source_url": "https://www.hltv.org/player/24813/corim",
-                "team_name": "Overtake Sector"
+                "team_name": "Overtake Sector",
+                "timeline_entry": {
+                  "adr": 71.6,
+                  "date": "2026-10-15",
+                  "deaths": 60,
+                  "event_name": "ESL Challenger League Season 52 North America Cup 3",
+                  "kast": 70.1,
+                  "kd_ratio": 0.67,
+                  "kills": 40,
+                  "maps": 3,
+                  "match_id": "hltv:2399233",
+                  "opponent_name": "Chicken Coop",
+                  "rating": 0.88,
+                  "team_name": "Overtake Sector",
+                  "won": true
+                }
               }
             ]
           },
+          "map_results": [
+            {
+              "map_name": "Mirage",
+              "score1": 14,
+              "score2": 16,
+              "status": "finished"
+            },
+            {
+              "map_name": "Cache",
+              "score1": 16,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": 5,
+              "score2": 13,
+              "status": "finished"
+            }
+          ],
+          "maps": [
+            "Mirage",
+            "Cache",
+            "Ancient"
+          ],
           "match_id": "hltv:2399233",
+          "player_stats": [
+            {
+              "adr": 85.4,
+              "deaths": 54,
+              "hltv_player_id": "17622",
+              "kast": 77.9,
+              "kills": 62,
+              "nickname": "Wolffe",
+              "player_id": "hltv:17622",
+              "rating": 1.21,
+              "source_url": "https://www.hltv.org/player/17622/wolffe",
+              "team_side": 1
+            },
+            {
+              "adr": 74,
+              "deaths": 55,
+              "hltv_player_id": "24426",
+              "kast": 72.7,
+              "kills": 53,
+              "nickname": "stesso",
+              "player_id": "hltv:24426",
+              "rating": 1.13,
+              "source_url": "https://www.hltv.org/player/24426/stesso",
+              "team_side": 1
+            },
+            {
+              "adr": 63.5,
+              "deaths": 53,
+              "hltv_player_id": "24527",
+              "kast": 72.7,
+              "kills": 48,
+              "nickname": "jared",
+              "player_id": "hltv:24527",
+              "rating": 0.91,
+              "source_url": "https://www.hltv.org/player/24527/jared",
+              "team_side": 1
+            },
+            {
+              "adr": 76.9,
+              "deaths": 58,
+              "hltv_player_id": "22794",
+              "kast": 63.6,
+              "kills": 50,
+              "nickname": "Drop",
+              "player_id": "hltv:22794",
+              "rating": 0.91,
+              "source_url": "https://www.hltv.org/player/22794/drop",
+              "team_side": 1
+            },
+            {
+              "adr": 65,
+              "deaths": 51,
+              "hltv_player_id": "24679",
+              "kast": 66.2,
+              "kills": 43,
+              "nickname": "Crisp",
+              "player_id": "hltv:24679",
+              "rating": 0.88,
+              "source_url": "https://www.hltv.org/player/24679/crisp",
+              "team_side": 1
+            },
+            {
+              "adr": 74.6,
+              "deaths": 42,
+              "hltv_player_id": "20215",
+              "kast": 68.8,
+              "kills": 60,
+              "nickname": "Umar",
+              "player_id": "hltv:20215",
+              "rating": 1.29,
+              "source_url": "https://www.hltv.org/player/20215/umar",
+              "team_side": 2
+            },
+            {
+              "adr": 67.1,
+              "deaths": 43,
+              "hltv_player_id": "20386",
+              "kast": 77.9,
+              "kills": 56,
+              "nickname": "LEARSI",
+              "player_id": "hltv:20386",
+              "rating": 1.14,
+              "source_url": "https://www.hltv.org/player/20386/learsi",
+              "team_side": 2
+            },
+            {
+              "adr": 87.6,
+              "deaths": 54,
+              "hltv_player_id": "20213",
+              "kast": 74,
+              "kills": 61,
+              "nickname": "intra",
+              "player_id": "hltv:20213",
+              "rating": 1.13,
+              "source_url": "https://www.hltv.org/player/20213/intra",
+              "team_side": 2
+            },
+            {
+              "adr": 74.4,
+              "deaths": 58,
+              "hltv_player_id": "21120",
+              "kast": 67.5,
+              "kills": 50,
+              "nickname": "jason",
+              "player_id": "hltv:21120",
+              "rating": 0.99,
+              "source_url": "https://www.hltv.org/player/21120/jason",
+              "team_side": 2
+            },
+            {
+              "adr": 71.6,
+              "deaths": 60,
+              "hltv_player_id": "24813",
+              "kast": 70.1,
+              "kills": 40,
+              "nickname": "corim",
+              "player_id": "hltv:24813",
+              "rating": 0.88,
+              "source_url": "https://www.hltv.org/player/24813/corim",
+              "team_side": 2
+            }
+          ],
           "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399233/chicken-coop-vs-overtake-sector-esl-challenger-league-season-52-north-america-cup-3",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-15T01:30:00Z",
-          "status": "upcoming",
+          "starts_at": "2026-10-15T05:00:42Z",
+          "status": "finished",
           "team1_name": "Chicken Coop",
           "team2_name": "Overtake Sector",
-          "veto_text": "Best of 3 (Online)\n\n* Grand final. Winner qualifies for Season 52 North America Finals."
+          "veto_text": "Best of 3 (Online)\n\n* Grand final. Winner qualifies for Season 52 North America Finals.",
+          "winner_name": "Overtake Sector"
         }
       ],
       "name": "ESL Challenger League Season 52 North America Cup 3",
@@ -70883,9 +71799,87 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "FURIA"
         },
         {
-          "event_id": "hltv:8932",
+          "detail_fetched_at_utc": "2026-10-15T07:28:55Z",
+          "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399408",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "7938",
+                "nickname": "XANTARES",
+                "player_id": "hltv:7938",
+                "source_url": "https://www.hltv.org/player/7938/xantares",
+                "team_name": "Aurora"
+              },
+              {
+                "hltv_player_id": "8574",
+                "nickname": "woxic",
+                "player_id": "hltv:8574",
+                "source_url": "https://www.hltv.org/player/8574/woxic",
+                "team_name": "Aurora"
+              },
+              {
+                "hltv_player_id": "18850",
+                "nickname": "Jimpphat",
+                "player_id": "hltv:18850",
+                "source_url": "https://www.hltv.org/player/18850/jimpphat",
+                "team_name": "Aurora"
+              },
+              {
+                "hltv_player_id": "19677",
+                "nickname": "kyxsan",
+                "player_id": "hltv:19677",
+                "source_url": "https://www.hltv.org/player/19677/kyxsan",
+                "team_name": "Aurora"
+              },
+              {
+                "hltv_player_id": "21243",
+                "nickname": "Wicadia",
+                "player_id": "hltv:21243",
+                "source_url": "https://www.hltv.org/player/21243/wicadia",
+                "team_name": "Aurora"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "10994",
+                "nickname": "stavn",
+                "player_id": "hltv:10994",
+                "source_url": "https://www.hltv.org/player/10994/stavn",
+                "team_name": "Ninjas in Pyjamas"
+              },
+              {
+                "hltv_player_id": "14148",
+                "nickname": "sjuush",
+                "player_id": "hltv:14148",
+                "source_url": "https://www.hltv.org/player/14148/sjuush",
+                "team_name": "Ninjas in Pyjamas"
+              },
+              {
+                "hltv_player_id": "19899",
+                "nickname": "Krimbo",
+                "player_id": "hltv:19899",
+                "source_url": "https://www.hltv.org/player/19899/krimbo",
+                "team_name": "Ninjas in Pyjamas"
+              },
+              {
+                "hltv_player_id": "20878",
+                "nickname": "adamb",
+                "player_id": "hltv:20878",
+                "source_url": "https://www.hltv.org/player/20878/adamb",
+                "team_name": "Ninjas in Pyjamas"
+              },
+              {
+                "hltv_player_id": "23372",
+                "nickname": "xKacpersky",
+                "player_id": "hltv:23372",
+                "source_url": "https://www.hltv.org/player/23372/xkacpersky",
+                "team_name": "Ninjas in Pyjamas"
+              }
+            ]
+          },
           "match_id": "hltv:2399408",
           "product_tier": "tier_2",
           "series_format": "bo3",
@@ -70894,12 +71888,91 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-15T08:30:00Z",
           "status": "upcoming",
           "team1_name": "Aurora",
-          "team2_name": "Ninjas in Pyjamas"
+          "team2_name": "Ninjas in Pyjamas",
+          "veto_text": "Best of 3 (LAN)\n\n* Group A elimination match"
         },
         {
-          "event_id": "hltv:8932",
+          "detail_fetched_at_utc": "2026-10-15T07:16:36Z",
+          "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399409",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "12092",
+                "nickname": "max",
+                "player_id": "hltv:12092",
+                "source_url": "https://www.hltv.org/player/12092/max",
+                "team_name": "9z"
+              },
+              {
+                "hltv_player_id": "14736",
+                "nickname": "dgt",
+                "player_id": "hltv:14736",
+                "source_url": "https://www.hltv.org/player/14736/dgt",
+                "team_name": "9z"
+              },
+              {
+                "hltv_player_id": "14737",
+                "nickname": "meyern",
+                "player_id": "hltv:14737",
+                "source_url": "https://www.hltv.org/player/14737/meyern",
+                "team_name": "9z"
+              },
+              {
+                "hltv_player_id": "20394",
+                "nickname": "luchov",
+                "player_id": "hltv:20394",
+                "source_url": "https://www.hltv.org/player/20394/luchov",
+                "team_name": "9z"
+              },
+              {
+                "hltv_player_id": "22613",
+                "nickname": "HUASOPEEK",
+                "player_id": "hltv:22613",
+                "source_url": "https://www.hltv.org/player/22613/huasopeek",
+                "team_name": "9z"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "429",
+                "nickname": "karrigan",
+                "player_id": "hltv:429",
+                "source_url": "https://www.hltv.org/player/429/karrigan",
+                "team_name": "Falcons"
+              },
+              {
+                "hltv_player_id": "3741",
+                "nickname": "NiKo",
+                "player_id": "hltv:3741",
+                "source_url": "https://www.hltv.org/player/3741/niko",
+                "team_name": "Falcons"
+              },
+              {
+                "hltv_player_id": "12018",
+                "nickname": "TeSeS",
+                "player_id": "hltv:12018",
+                "source_url": "https://www.hltv.org/player/12018/teses",
+                "team_name": "Falcons"
+              },
+              {
+                "hltv_player_id": "19230",
+                "nickname": "m0NESY",
+                "player_id": "hltv:19230",
+                "source_url": "https://www.hltv.org/player/19230/m0nesy",
+                "team_name": "Falcons"
+              },
+              {
+                "hltv_player_id": "24177",
+                "nickname": "kyousuke",
+                "player_id": "hltv:24177",
+                "source_url": "https://www.hltv.org/player/24177/kyousuke",
+                "team_name": "Falcons"
+              }
+            ]
+          },
           "match_id": "hltv:2399409",
           "product_tier": "tier_2",
           "series_format": "bo3",
@@ -70908,7 +71981,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-15T11:00:00Z",
           "status": "upcoming",
           "team1_name": "9z",
-          "team2_name": "Falcons"
+          "team2_name": "Falcons",
+          "veto_text": "Best of 3 (LAN)\n\n* Group A winners' match"
         },
         {
           "event_id": "hltv:8932",
@@ -72145,7 +73219,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Black Phoenix"
         },
         {
-          "detail_fetched_at_utc": "2026-10-15T01:15:48Z",
+          "detail_fetched_at_utc": "2026-10-15T07:16:57Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -73420,7 +74494,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "FORZE Reload"
         },
         {
-          "detail_fetched_at_utc": "2026-10-15T01:25:48Z",
+          "detail_fetched_at_utc": "2026-10-15T07:29:16Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -73516,9 +74590,87 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Saint Sinners"
         },
         {
-          "event_id": "hltv:9442",
+          "detail_fetched_at_utc": "2026-10-15T07:29:04Z",
+          "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399302",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "21253",
+                "nickname": "Darendeli",
+                "player_id": "hltv:21253",
+                "source_url": "https://www.hltv.org/player/21253/darendeli",
+                "team_name": "Bushido Wildcats"
+              },
+              {
+                "hltv_player_id": "23687",
+                "nickname": "Muk0s",
+                "player_id": "hltv:23687",
+                "source_url": "https://www.hltv.org/player/23687/muk0s",
+                "team_name": "Bushido Wildcats"
+              },
+              {
+                "hltv_player_id": "24842",
+                "nickname": "Vej",
+                "player_id": "hltv:24842",
+                "source_url": "https://www.hltv.org/player/24842/vej",
+                "team_name": "Bushido Wildcats"
+              },
+              {
+                "hltv_player_id": "24843",
+                "nickname": "cadnyx",
+                "player_id": "hltv:24843",
+                "source_url": "https://www.hltv.org/player/24843/cadnyx",
+                "team_name": "Bushido Wildcats"
+              },
+              {
+                "hltv_player_id": "25007",
+                "nickname": "cacan",
+                "player_id": "hltv:25007",
+                "source_url": "https://www.hltv.org/player/25007/cacan",
+                "team_name": "Bushido Wildcats"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "19617",
+                "nickname": "amster",
+                "player_id": "hltv:19617",
+                "source_url": "https://www.hltv.org/player/19617/amster",
+                "team_name": "ex-6666"
+              },
+              {
+                "hltv_player_id": "21651",
+                "nickname": "kL1o",
+                "player_id": "hltv:21651",
+                "source_url": "https://www.hltv.org/player/21651/kl1o",
+                "team_name": "ex-6666"
+              },
+              {
+                "hltv_player_id": "22650",
+                "nickname": "rendysky",
+                "player_id": "hltv:22650",
+                "source_url": "https://www.hltv.org/player/22650/rendysky",
+                "team_name": "ex-6666"
+              },
+              {
+                "hltv_player_id": "24247",
+                "nickname": "skcH",
+                "player_id": "hltv:24247",
+                "source_url": "https://www.hltv.org/player/24247/skch",
+                "team_name": "ex-6666"
+              },
+              {
+                "hltv_player_id": "26816",
+                "nickname": "stefienson",
+                "player_id": "hltv:26816",
+                "source_url": "https://www.hltv.org/player/26816/stefienson",
+                "team_name": "ex-6666"
+              }
+            ]
+          },
           "match_id": "hltv:2399302",
           "product_tier": "tier_2",
           "series_format": "bo3",
@@ -73527,7 +74679,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-15T08:00:00Z",
           "status": "upcoming",
           "team1_name": "Bushido Wildcats",
-          "team2_name": "ex-6666"
+          "team2_name": "ex-6666",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
         },
         {
           "event_id": "hltv:9442",
@@ -74815,7 +75968,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "LOS NINOS"
         },
         {
-          "detail_fetched_at_utc": "2026-10-15T01:20:12Z",
+          "detail_fetched_at_utc": "2026-10-15T07:20:34Z",
           "event_id": "hltv:cct-2026-south-america-series-7",
           "event_name": "CCT 2026 South America Series 7",
           "event_url": "https://www.hltv.org/events/archive",
@@ -75304,7 +76457,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "JOGA DE TERNO"
         },
         {
-          "detail_fetched_at_utc": "2026-10-15T01:30:21Z",
+          "detail_fetched_at_utc": "2026-10-15T07:16:48Z",
           "event_id": "hltv:cct-2026-south-america-series-7",
           "event_name": "CCT 2026 South America Series 7",
           "event_url": "https://www.hltv.org/events/archive",
@@ -77835,9 +78988,87 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Saint Sinners"
         },
         {
-          "event_id": "hltv:9456",
+          "detail_fetched_at_utc": "2026-10-15T07:16:25Z",
+          "event_id": "hltv:cct-2026-europe-series-12-closed-qualifier",
           "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399465",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "25162",
+                "nickname": "k1n",
+                "player_id": "hltv:25162",
+                "source_url": "https://www.hltv.org/player/25162/k1n",
+                "team_name": "B8 Academy"
+              },
+              {
+                "hltv_player_id": "25805",
+                "nickname": "segukawa",
+                "player_id": "hltv:25805",
+                "source_url": "https://www.hltv.org/player/25805/segukawa",
+                "team_name": "B8 Academy"
+              },
+              {
+                "hltv_player_id": "26002",
+                "nickname": "sherman",
+                "player_id": "hltv:26002",
+                "source_url": "https://www.hltv.org/player/26002/sherman",
+                "team_name": "B8 Academy"
+              },
+              {
+                "hltv_player_id": "26361",
+                "nickname": "oju",
+                "player_id": "hltv:26361",
+                "source_url": "https://www.hltv.org/player/26361/oju",
+                "team_name": "B8 Academy"
+              },
+              {
+                "hltv_player_id": "26896",
+                "nickname": "1njustice",
+                "player_id": "hltv:26896",
+                "source_url": "https://www.hltv.org/player/26896/1njustice",
+                "team_name": "B8 Academy"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "20283",
+                "nickname": "tomiko",
+                "player_id": "hltv:20283",
+                "source_url": "https://www.hltv.org/player/20283/tomiko",
+                "team_name": "Banda Chuya"
+              },
+              {
+                "hltv_player_id": "20284",
+                "nickname": "maaryy",
+                "player_id": "hltv:20284",
+                "source_url": "https://www.hltv.org/player/20284/maaryy",
+                "team_name": "Banda Chuya"
+              },
+              {
+                "hltv_player_id": "23767",
+                "nickname": "AdrieN",
+                "player_id": "hltv:23767",
+                "source_url": "https://www.hltv.org/player/23767/adrien",
+                "team_name": "Banda Chuya"
+              },
+              {
+                "hltv_player_id": "24482",
+                "nickname": "ezox",
+                "player_id": "hltv:24482",
+                "source_url": "https://www.hltv.org/player/24482/ezox",
+                "team_name": "Banda Chuya"
+              },
+              {
+                "hltv_player_id": "24545",
+                "nickname": "Showk",
+                "player_id": "hltv:24545",
+                "source_url": "https://www.hltv.org/player/24545/showk",
+                "team_name": "Banda Chuya"
+              }
+            ]
+          },
           "match_id": "hltv:2399465",
           "product_tier": "tier_2",
           "series_format": "bo3",
@@ -77846,7 +79077,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-15T08:00:00Z",
           "status": "upcoming",
           "team1_name": "B8 Academy",
-          "team2_name": "Banda Chuya"
+          "team2_name": "Banda Chuya",
+          "veto_text": "Best of 3 (Online)\n\n* Group A elimination match"
         },
         {
           "event_id": "hltv:9456",
@@ -77897,7 +79129,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 11
     }
   ],
-  "last_verified_utc": "2026-10-15T01:30:52Z",
+  "last_verified_utc": "2026-10-15T07:29:27Z",
   "sources": [
     {
       "name": "HLTV events calendar",
