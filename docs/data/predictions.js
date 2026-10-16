@@ -5,23 +5,6 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:esl-challenger-league-season-52-europe-cup-8",
         "event_name": "ESL Challenger League Season 52 Europe Cup 8",
-        "hltv_match_id": "2399360",
-        "match_id": "hltv:2399360",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399360/berg-vs-mellren-esl-challenger-league-season-52-europe-cup-8",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-08T14:37:05Z",
-        "status": "finished",
-        "team1_name": "BERG",
-        "team2_name": "mellren",
-        "winner_name": "mellren"
-      },
-      {
-        "event_id": "hltv:esl-challenger-league-season-52-europe-cup-8",
-        "event_name": "ESL Challenger League Season 52 Europe Cup 8",
         "hltv_match_id": "2399361",
         "match_id": "hltv:2399361",
         "product_tier": "tier_2",
@@ -19317,7 +19300,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "9z"
       },
       {
-        "detail_fetched_at_utc": "2026-10-15T22:09:38Z",
+        "detail_fetched_at_utc": "2026-10-16T01:21:00Z",
         "event_id": "hltv:cct-2026-south-america-series-7",
         "event_name": "CCT 2026 South America Series 7",
         "event_url": "https://www.hltv.org/events/archive",
@@ -24129,7 +24112,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "FURIA"
       },
       {
-        "detail_fetched_at_utc": "2026-10-14T23:27:47Z",
+        "detail_fetched_at_utc": "2026-10-15T23:33:59Z",
         "event_id": "hltv:cct-2026-south-america-series-7",
         "event_name": "CCT 2026 South America Series 7",
         "event_url": "https://www.hltv.org/events/archive",
@@ -26580,7 +26563,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Falcons"
       },
       {
-        "detail_fetched_at_utc": "2026-10-15T22:23:06Z",
+        "detail_fetched_at_utc": "2026-10-16T01:17:08Z",
         "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
         "event_url": "https://www.hltv.org/events/archive",
@@ -27069,7 +27052,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "MAYBE"
       },
       {
-        "detail_fetched_at_utc": "2026-10-15T22:18:53Z",
+        "detail_fetched_at_utc": "2026-10-16T01:12:43Z",
         "event_id": "hltv:cct-2026-south-america-series-7",
         "event_name": "CCT 2026 South America Series 7",
         "event_url": "https://www.hltv.org/events/archive",
@@ -27801,7 +27784,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Spirit Academy"
       },
       {
-        "detail_fetched_at_utc": "2026-10-15T22:22:57Z",
+        "detail_fetched_at_utc": "2026-10-16T01:16:58Z",
         "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
         "event_url": "https://www.hltv.org/events/archive",
@@ -29717,6 +29700,399 @@ window.__STRIKESIGNAL_DATA__ = {
         "team2_name": "Hacha",
         "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)",
         "winner_name": "Hacha"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-16T01:04:33Z",
+        "event_id": "hltv:cct-2026-south-america-series-7",
+        "event_name": "CCT 2026 South America Series 7",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2399670",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "24178",
+              "nickname": "Straafer",
+              "player_id": "hltv:24178",
+              "source_url": "https://www.hltv.org/player/24178/straafer",
+              "team_name": "A NATA",
+              "timeline_entry": {
+                "adr": 80.9,
+                "date": "2026-10-16",
+                "deaths": 34,
+                "event_name": "CCT 2026 South America Series 7",
+                "kast": 78.7,
+                "kd_ratio": 0.94,
+                "kills": 32,
+                "maps": 3,
+                "match_id": "hltv:2399670",
+                "opponent_name": "Sementes do Mal",
+                "rating": 0.95,
+                "team_name": "A NATA",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "26071",
+              "nickname": "badran",
+              "player_id": "hltv:26071",
+              "source_url": "https://www.hltv.org/player/26071/badran",
+              "team_name": "A NATA",
+              "timeline_entry": {
+                "adr": 71.3,
+                "date": "2026-10-16",
+                "deaths": 28,
+                "event_name": "CCT 2026 South America Series 7",
+                "kast": 76.6,
+                "kd_ratio": 1.18,
+                "kills": 33,
+                "maps": 3,
+                "match_id": "hltv:2399670",
+                "opponent_name": "Sementes do Mal",
+                "rating": 1.02,
+                "team_name": "A NATA",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "26673",
+              "nickname": "veroneze",
+              "player_id": "hltv:26673",
+              "source_url": "https://www.hltv.org/player/26673/veroneze",
+              "team_name": "A NATA",
+              "timeline_entry": {
+                "adr": 63.2,
+                "date": "2026-10-16",
+                "deaths": 31,
+                "event_name": "CCT 2026 South America Series 7",
+                "kast": 68.1,
+                "kd_ratio": 0.97,
+                "kills": 30,
+                "maps": 3,
+                "match_id": "hltv:2399670",
+                "opponent_name": "Sementes do Mal",
+                "rating": 1.07,
+                "team_name": "A NATA",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "26899",
+              "nickname": "rzk",
+              "player_id": "hltv:26899",
+              "source_url": "https://www.hltv.org/player/26899/rzk",
+              "team_name": "A NATA",
+              "timeline_entry": {
+                "adr": 68.6,
+                "date": "2026-10-16",
+                "deaths": 33,
+                "event_name": "CCT 2026 South America Series 7",
+                "kast": 70.2,
+                "kd_ratio": 0.97,
+                "kills": 32,
+                "maps": 3,
+                "match_id": "hltv:2399670",
+                "opponent_name": "Sementes do Mal",
+                "rating": 1.03,
+                "team_name": "A NATA",
+                "won": true
+              }
+            },
+            {
+              "hltv_player_id": "26900",
+              "nickname": "R99",
+              "player_id": "hltv:26900",
+              "source_url": "https://www.hltv.org/player/26900/r99",
+              "team_name": "A NATA",
+              "timeline_entry": {
+                "adr": 86.1,
+                "date": "2026-10-16",
+                "deaths": 30,
+                "event_name": "CCT 2026 South America Series 7",
+                "kast": 78.7,
+                "kd_ratio": 1.1,
+                "kills": 33,
+                "maps": 3,
+                "match_id": "hltv:2399670",
+                "opponent_name": "Sementes do Mal",
+                "rating": 1.21,
+                "team_name": "A NATA",
+                "won": true
+              }
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "26827",
+              "nickname": "Substitute",
+              "player_id": "hltv:26827",
+              "source_url": "https://www.hltv.org/player/26827/raybamgod",
+              "team_name": "Sementes do Mal",
+              "timeline_entry": {
+                "adr": 56.6,
+                "date": "2026-10-16",
+                "deaths": 37,
+                "event_name": "CCT 2026 South America Series 7",
+                "kast": 63.8,
+                "kd_ratio": 0.51,
+                "kills": 19,
+                "maps": 3,
+                "match_id": "hltv:2399670",
+                "opponent_name": "A NATA",
+                "rating": 0.66,
+                "team_name": "Sementes do Mal",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "25826",
+              "nickname": "terran",
+              "player_id": "hltv:25826",
+              "source_url": "https://www.hltv.org/player/25826/terran",
+              "team_name": "Sementes do Mal",
+              "timeline_entry": {
+                "adr": 70.3,
+                "date": "2026-10-16",
+                "deaths": 36,
+                "event_name": "CCT 2026 South America Series 7",
+                "kast": 68.1,
+                "kd_ratio": 0.94,
+                "kills": 34,
+                "maps": 3,
+                "match_id": "hltv:2399670",
+                "opponent_name": "A NATA",
+                "rating": 1.02,
+                "team_name": "Sementes do Mal",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "26411",
+              "nickname": "Aker",
+              "player_id": "hltv:26411",
+              "source_url": "https://www.hltv.org/player/26411/aker",
+              "team_name": "Sementes do Mal",
+              "timeline_entry": {
+                "adr": 86.3,
+                "date": "2026-10-16",
+                "deaths": 30,
+                "event_name": "CCT 2026 South America Series 7",
+                "kast": 76.6,
+                "kd_ratio": 1.23,
+                "kills": 37,
+                "maps": 3,
+                "match_id": "hltv:2399670",
+                "opponent_name": "A NATA",
+                "rating": 1.19,
+                "team_name": "Sementes do Mal",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "26677",
+              "nickname": "Mrd",
+              "player_id": "hltv:26677",
+              "source_url": "https://www.hltv.org/player/26677/mrd",
+              "team_name": "Sementes do Mal",
+              "timeline_entry": {
+                "adr": 69,
+                "date": "2026-10-16",
+                "deaths": 26,
+                "event_name": "CCT 2026 South America Series 7",
+                "kast": 74.5,
+                "kd_ratio": 1.19,
+                "kills": 31,
+                "maps": 3,
+                "match_id": "hltv:2399670",
+                "opponent_name": "A NATA",
+                "rating": 1.23,
+                "team_name": "Sementes do Mal",
+                "won": false
+              }
+            },
+            {
+              "hltv_player_id": "25969",
+              "nickname": "Kaiserzy",
+              "player_id": "hltv:25969",
+              "source_url": "https://www.hltv.org/player/25969/kaiserzy",
+              "team_name": "Sementes do Mal",
+              "timeline_entry": {
+                "adr": 85,
+                "date": "2026-10-16",
+                "deaths": 32,
+                "event_name": "CCT 2026 South America Series 7",
+                "kast": 63.8,
+                "kd_ratio": 1.06,
+                "kills": 34,
+                "maps": 3,
+                "match_id": "hltv:2399670",
+                "opponent_name": "A NATA",
+                "rating": 1.02,
+                "team_name": "Sementes do Mal",
+                "won": false
+              }
+            }
+          ]
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": 13,
+            "score2": 11,
+            "status": "finished"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": 10,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": 16,
+            "score2": 14,
+            "status": "finished"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Mirage"
+        ],
+        "match_id": "hltv:2399670",
+        "player_stats": [
+          {
+            "adr": 86.1,
+            "deaths": 30,
+            "hltv_player_id": "26900",
+            "kast": 78.7,
+            "kills": 33,
+            "nickname": "R99",
+            "player_id": "hltv:26900",
+            "rating": 1.21,
+            "source_url": "https://www.hltv.org/player/26900/r99",
+            "team_side": 1
+          },
+          {
+            "adr": 63.2,
+            "deaths": 31,
+            "hltv_player_id": "26673",
+            "kast": 68.1,
+            "kills": 30,
+            "nickname": "veroneze",
+            "player_id": "hltv:26673",
+            "rating": 1.07,
+            "source_url": "https://www.hltv.org/player/26673/veroneze",
+            "team_side": 1
+          },
+          {
+            "adr": 68.6,
+            "deaths": 33,
+            "hltv_player_id": "26899",
+            "kast": 70.2,
+            "kills": 32,
+            "nickname": "rzk",
+            "player_id": "hltv:26899",
+            "rating": 1.03,
+            "source_url": "https://www.hltv.org/player/26899/rzk",
+            "team_side": 1
+          },
+          {
+            "adr": 71.3,
+            "deaths": 28,
+            "hltv_player_id": "26071",
+            "kast": 76.6,
+            "kills": 33,
+            "nickname": "badran",
+            "player_id": "hltv:26071",
+            "rating": 1.02,
+            "source_url": "https://www.hltv.org/player/26071/badran",
+            "team_side": 1
+          },
+          {
+            "adr": 80.9,
+            "deaths": 34,
+            "hltv_player_id": "24178",
+            "kast": 78.7,
+            "kills": 32,
+            "nickname": "Straafer",
+            "player_id": "hltv:24178",
+            "rating": 0.95,
+            "source_url": "https://www.hltv.org/player/24178/straafer",
+            "team_side": 1
+          },
+          {
+            "adr": 69,
+            "deaths": 26,
+            "hltv_player_id": "26677",
+            "kast": 74.5,
+            "kills": 31,
+            "nickname": "Mrd",
+            "player_id": "hltv:26677",
+            "rating": 1.23,
+            "source_url": "https://www.hltv.org/player/26677/mrd",
+            "team_side": 2
+          },
+          {
+            "adr": 86.3,
+            "deaths": 30,
+            "hltv_player_id": "26411",
+            "kast": 76.6,
+            "kills": 37,
+            "nickname": "Aker",
+            "player_id": "hltv:26411",
+            "rating": 1.19,
+            "source_url": "https://www.hltv.org/player/26411/aker",
+            "team_side": 2
+          },
+          {
+            "adr": 85,
+            "deaths": 32,
+            "hltv_player_id": "25969",
+            "kast": 63.8,
+            "kills": 34,
+            "nickname": "Kaiserzy",
+            "player_id": "hltv:25969",
+            "rating": 1.02,
+            "source_url": "https://www.hltv.org/player/25969/kaiserzy",
+            "team_side": 2
+          },
+          {
+            "adr": 70.3,
+            "deaths": 36,
+            "hltv_player_id": "25826",
+            "kast": 68.1,
+            "kills": 34,
+            "nickname": "terran",
+            "player_id": "hltv:25826",
+            "rating": 1.02,
+            "source_url": "https://www.hltv.org/player/25826/terran",
+            "team_side": 2
+          },
+          {
+            "adr": 56.6,
+            "deaths": 37,
+            "hltv_player_id": "26827",
+            "kast": 63.8,
+            "kills": 19,
+            "nickname": "RaybamGod",
+            "player_id": "hltv:26827",
+            "rating": 0.66,
+            "source_url": "https://www.hltv.org/player/26827/raybamgod",
+            "team_side": 2
+          }
+        ],
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399670/a-nata-vs-sementes-do-mal-cct-2026-south-america-series-7",
+        "stage_name": "Completed series",
+        "starts_at": "2026-10-16T00:59:41Z",
+        "status": "finished",
+        "team1_name": "A NATA",
+        "team2_name": "Sementes do Mal",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)",
+        "winner_name": "A NATA"
       },
       {
         "event_id": "hltv:9442",
@@ -80957,7 +81333,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Spirit Academy"
           },
           {
-            "detail_fetched_at_utc": "2026-10-15T22:22:57Z",
+            "detail_fetched_at_utc": "2026-10-16T01:16:58Z",
             "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
             "event_url": "https://www.hltv.org/events/archive",
@@ -81095,7 +81471,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "team2_name": "G2 Ares"
           },
           {
-            "detail_fetched_at_utc": "2026-10-15T22:23:06Z",
+            "detail_fetched_at_utc": "2026-10-16T01:17:08Z",
             "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
             "event_url": "https://www.hltv.org/events/archive",
@@ -82502,7 +82878,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "your end"
           },
           {
-            "detail_fetched_at_utc": "2026-10-14T23:27:47Z",
+            "detail_fetched_at_utc": "2026-10-15T23:33:59Z",
             "event_id": "hltv:cct-2026-south-america-series-7",
             "event_name": "CCT 2026 South America Series 7",
             "event_url": "https://www.hltv.org/events/archive",
@@ -82895,7 +83271,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "JOGA DE TERNO"
           },
           {
-            "detail_fetched_at_utc": "2026-10-15T22:09:38Z",
+            "detail_fetched_at_utc": "2026-10-16T01:21:00Z",
             "event_id": "hltv:cct-2026-south-america-series-7",
             "event_name": "CCT 2026 South America Series 7",
             "event_url": "https://www.hltv.org/events/archive",
@@ -83805,7 +84181,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "team2_name": "LOS NINOS"
           },
           {
-            "detail_fetched_at_utc": "2026-10-15T22:18:53Z",
+            "detail_fetched_at_utc": "2026-10-16T01:12:43Z",
             "event_id": "hltv:cct-2026-south-america-series-7",
             "event_name": "CCT 2026 South America Series 7",
             "event_url": "https://www.hltv.org/events/archive",
@@ -84687,7 +85063,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Hacha"
           },
           {
-            "detail_fetched_at_utc": "2026-10-15T22:22:47Z",
+            "detail_fetched_at_utc": "2026-10-16T01:04:33Z",
             "event_id": "hltv:cct-2026-south-america-series-7",
             "event_name": "CCT 2026 South America Series 7",
             "event_url": "https://www.hltv.org/events/archive",
@@ -84699,93 +85075,243 @@ window.__STRIKESIGNAL_DATA__ = {
                   "nickname": "Straafer",
                   "player_id": "hltv:24178",
                   "source_url": "https://www.hltv.org/player/24178/straafer",
-                  "team_name": "A NATA"
+                  "team_name": "A NATA",
+                  "timeline_entry": {
+                    "adr": 80.9,
+                    "date": "2026-10-16",
+                    "deaths": 34,
+                    "event_name": "CCT 2026 South America Series 7",
+                    "kast": 78.7,
+                    "kd_ratio": 0.94,
+                    "kills": 32,
+                    "maps": 3,
+                    "match_id": "hltv:2399670",
+                    "opponent_name": "Sementes do Mal",
+                    "rating": 0.95,
+                    "team_name": "A NATA",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "26071",
                   "nickname": "badran",
                   "player_id": "hltv:26071",
                   "source_url": "https://www.hltv.org/player/26071/badran",
-                  "team_name": "A NATA"
+                  "team_name": "A NATA",
+                  "timeline_entry": {
+                    "adr": 71.3,
+                    "date": "2026-10-16",
+                    "deaths": 28,
+                    "event_name": "CCT 2026 South America Series 7",
+                    "kast": 76.6,
+                    "kd_ratio": 1.18,
+                    "kills": 33,
+                    "maps": 3,
+                    "match_id": "hltv:2399670",
+                    "opponent_name": "Sementes do Mal",
+                    "rating": 1.02,
+                    "team_name": "A NATA",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "26673",
                   "nickname": "veroneze",
                   "player_id": "hltv:26673",
                   "source_url": "https://www.hltv.org/player/26673/veroneze",
-                  "team_name": "A NATA"
+                  "team_name": "A NATA",
+                  "timeline_entry": {
+                    "adr": 63.2,
+                    "date": "2026-10-16",
+                    "deaths": 31,
+                    "event_name": "CCT 2026 South America Series 7",
+                    "kast": 68.1,
+                    "kd_ratio": 0.97,
+                    "kills": 30,
+                    "maps": 3,
+                    "match_id": "hltv:2399670",
+                    "opponent_name": "Sementes do Mal",
+                    "rating": 1.07,
+                    "team_name": "A NATA",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "26899",
                   "nickname": "rzk",
                   "player_id": "hltv:26899",
                   "source_url": "https://www.hltv.org/player/26899/rzk",
-                  "team_name": "A NATA"
+                  "team_name": "A NATA",
+                  "timeline_entry": {
+                    "adr": 68.6,
+                    "date": "2026-10-16",
+                    "deaths": 33,
+                    "event_name": "CCT 2026 South America Series 7",
+                    "kast": 70.2,
+                    "kd_ratio": 0.97,
+                    "kills": 32,
+                    "maps": 3,
+                    "match_id": "hltv:2399670",
+                    "opponent_name": "Sementes do Mal",
+                    "rating": 1.03,
+                    "team_name": "A NATA",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "26900",
                   "nickname": "R99",
                   "player_id": "hltv:26900",
                   "source_url": "https://www.hltv.org/player/26900/r99",
-                  "team_name": "A NATA"
+                  "team_name": "A NATA",
+                  "timeline_entry": {
+                    "adr": 86.1,
+                    "date": "2026-10-16",
+                    "deaths": 30,
+                    "event_name": "CCT 2026 South America Series 7",
+                    "kast": 78.7,
+                    "kd_ratio": 1.1,
+                    "kills": 33,
+                    "maps": 3,
+                    "match_id": "hltv:2399670",
+                    "opponent_name": "Sementes do Mal",
+                    "rating": 1.21,
+                    "team_name": "A NATA",
+                    "won": true
+                  }
                 }
               ],
               "team2": [
+                {
+                  "hltv_player_id": "26827",
+                  "nickname": "Substitute",
+                  "player_id": "hltv:26827",
+                  "source_url": "https://www.hltv.org/player/26827/raybamgod",
+                  "team_name": "Sementes do Mal",
+                  "timeline_entry": {
+                    "adr": 56.6,
+                    "date": "2026-10-16",
+                    "deaths": 37,
+                    "event_name": "CCT 2026 South America Series 7",
+                    "kast": 63.8,
+                    "kd_ratio": 0.51,
+                    "kills": 19,
+                    "maps": 3,
+                    "match_id": "hltv:2399670",
+                    "opponent_name": "A NATA",
+                    "rating": 0.66,
+                    "team_name": "Sementes do Mal",
+                    "won": false
+                  }
+                },
                 {
                   "hltv_player_id": "25826",
                   "nickname": "terran",
                   "player_id": "hltv:25826",
                   "source_url": "https://www.hltv.org/player/25826/terran",
-                  "team_name": "Sementes do Mal"
-                },
-                {
-                  "hltv_player_id": "25969",
-                  "nickname": "Kaiserzy",
-                  "player_id": "hltv:25969",
-                  "source_url": "https://www.hltv.org/player/25969/kaiserzy",
-                  "team_name": "Sementes do Mal"
+                  "team_name": "Sementes do Mal",
+                  "timeline_entry": {
+                    "adr": 70.3,
+                    "date": "2026-10-16",
+                    "deaths": 36,
+                    "event_name": "CCT 2026 South America Series 7",
+                    "kast": 68.1,
+                    "kd_ratio": 0.94,
+                    "kills": 34,
+                    "maps": 3,
+                    "match_id": "hltv:2399670",
+                    "opponent_name": "A NATA",
+                    "rating": 1.02,
+                    "team_name": "Sementes do Mal",
+                    "won": false
+                  }
                 },
                 {
                   "hltv_player_id": "26411",
                   "nickname": "Aker",
                   "player_id": "hltv:26411",
                   "source_url": "https://www.hltv.org/player/26411/aker",
-                  "team_name": "Sementes do Mal"
+                  "team_name": "Sementes do Mal",
+                  "timeline_entry": {
+                    "adr": 86.3,
+                    "date": "2026-10-16",
+                    "deaths": 30,
+                    "event_name": "CCT 2026 South America Series 7",
+                    "kast": 76.6,
+                    "kd_ratio": 1.23,
+                    "kills": 37,
+                    "maps": 3,
+                    "match_id": "hltv:2399670",
+                    "opponent_name": "A NATA",
+                    "rating": 1.19,
+                    "team_name": "Sementes do Mal",
+                    "won": false
+                  }
                 },
                 {
                   "hltv_player_id": "26677",
                   "nickname": "Mrd",
                   "player_id": "hltv:26677",
                   "source_url": "https://www.hltv.org/player/26677/mrd",
-                  "team_name": "Sementes do Mal"
+                  "team_name": "Sementes do Mal",
+                  "timeline_entry": {
+                    "adr": 69,
+                    "date": "2026-10-16",
+                    "deaths": 26,
+                    "event_name": "CCT 2026 South America Series 7",
+                    "kast": 74.5,
+                    "kd_ratio": 1.19,
+                    "kills": 31,
+                    "maps": 3,
+                    "match_id": "hltv:2399670",
+                    "opponent_name": "A NATA",
+                    "rating": 1.23,
+                    "team_name": "Sementes do Mal",
+                    "won": false
+                  }
                 },
                 {
-                  "hltv_player_id": "26827",
-                  "nickname": "RaybamGod",
-                  "player_id": "hltv:26827",
-                  "source_url": "https://www.hltv.org/player/26827/raybamgod",
-                  "team_name": "Sementes do Mal"
+                  "hltv_player_id": "25969",
+                  "nickname": "Kaiserzy",
+                  "player_id": "hltv:25969",
+                  "source_url": "https://www.hltv.org/player/25969/kaiserzy",
+                  "team_name": "Sementes do Mal",
+                  "timeline_entry": {
+                    "adr": 85,
+                    "date": "2026-10-16",
+                    "deaths": 32,
+                    "event_name": "CCT 2026 South America Series 7",
+                    "kast": 63.8,
+                    "kd_ratio": 1.06,
+                    "kills": 34,
+                    "maps": 3,
+                    "match_id": "hltv:2399670",
+                    "opponent_name": "A NATA",
+                    "rating": 1.02,
+                    "team_name": "Sementes do Mal",
+                    "won": false
+                  }
                 }
               ]
             },
             "map_results": [
               {
                 "map_name": "Ancient",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
+                "score1": 13,
+                "score2": 11,
+                "status": "finished"
               },
               {
                 "map_name": "Dust2",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
+                "score1": 10,
+                "score2": 13,
+                "status": "finished"
               },
               {
                 "map_name": "Mirage",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
+                "score1": 16,
+                "score2": 14,
+                "status": "finished"
               }
             ],
             "maps": [
@@ -84794,14 +85320,140 @@ window.__STRIKESIGNAL_DATA__ = {
               "Mirage"
             ],
             "match_id": "hltv:2399670",
+            "player_stats": [
+              {
+                "adr": 86.1,
+                "deaths": 30,
+                "hltv_player_id": "26900",
+                "kast": 78.7,
+                "kills": 33,
+                "nickname": "R99",
+                "player_id": "hltv:26900",
+                "rating": 1.21,
+                "source_url": "https://www.hltv.org/player/26900/r99",
+                "team_side": 1
+              },
+              {
+                "adr": 63.2,
+                "deaths": 31,
+                "hltv_player_id": "26673",
+                "kast": 68.1,
+                "kills": 30,
+                "nickname": "veroneze",
+                "player_id": "hltv:26673",
+                "rating": 1.07,
+                "source_url": "https://www.hltv.org/player/26673/veroneze",
+                "team_side": 1
+              },
+              {
+                "adr": 68.6,
+                "deaths": 33,
+                "hltv_player_id": "26899",
+                "kast": 70.2,
+                "kills": 32,
+                "nickname": "rzk",
+                "player_id": "hltv:26899",
+                "rating": 1.03,
+                "source_url": "https://www.hltv.org/player/26899/rzk",
+                "team_side": 1
+              },
+              {
+                "adr": 71.3,
+                "deaths": 28,
+                "hltv_player_id": "26071",
+                "kast": 76.6,
+                "kills": 33,
+                "nickname": "badran",
+                "player_id": "hltv:26071",
+                "rating": 1.02,
+                "source_url": "https://www.hltv.org/player/26071/badran",
+                "team_side": 1
+              },
+              {
+                "adr": 80.9,
+                "deaths": 34,
+                "hltv_player_id": "24178",
+                "kast": 78.7,
+                "kills": 32,
+                "nickname": "Straafer",
+                "player_id": "hltv:24178",
+                "rating": 0.95,
+                "source_url": "https://www.hltv.org/player/24178/straafer",
+                "team_side": 1
+              },
+              {
+                "adr": 69,
+                "deaths": 26,
+                "hltv_player_id": "26677",
+                "kast": 74.5,
+                "kills": 31,
+                "nickname": "Mrd",
+                "player_id": "hltv:26677",
+                "rating": 1.23,
+                "source_url": "https://www.hltv.org/player/26677/mrd",
+                "team_side": 2
+              },
+              {
+                "adr": 86.3,
+                "deaths": 30,
+                "hltv_player_id": "26411",
+                "kast": 76.6,
+                "kills": 37,
+                "nickname": "Aker",
+                "player_id": "hltv:26411",
+                "rating": 1.19,
+                "source_url": "https://www.hltv.org/player/26411/aker",
+                "team_side": 2
+              },
+              {
+                "adr": 85,
+                "deaths": 32,
+                "hltv_player_id": "25969",
+                "kast": 63.8,
+                "kills": 34,
+                "nickname": "Kaiserzy",
+                "player_id": "hltv:25969",
+                "rating": 1.02,
+                "source_url": "https://www.hltv.org/player/25969/kaiserzy",
+                "team_side": 2
+              },
+              {
+                "adr": 70.3,
+                "deaths": 36,
+                "hltv_player_id": "25826",
+                "kast": 68.1,
+                "kills": 34,
+                "nickname": "terran",
+                "player_id": "hltv:25826",
+                "rating": 1.02,
+                "source_url": "https://www.hltv.org/player/25826/terran",
+                "team_side": 2
+              },
+              {
+                "adr": 56.6,
+                "deaths": 37,
+                "hltv_player_id": "26827",
+                "kast": 63.8,
+                "kills": 19,
+                "nickname": "RaybamGod",
+                "player_id": "hltv:26827",
+                "rating": 0.66,
+                "source_url": "https://www.hltv.org/player/26827/raybamgod",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399670/a-nata-vs-sementes-do-mal-cct-2026-south-america-series-7",
             "stage_name": "Scheduled series",
-            "status": "live",
+            "starts_at": "2026-10-16T00:59:41Z",
+            "status": "finished",
             "team1_name": "A NATA",
             "team2_name": "Sementes do Mal",
-            "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)"
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 0-1 record)",
+            "winner_name": "A NATA"
           }
         ],
         "name": "CCT 2026 South America Series 7",
@@ -88104,7 +88756,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 6
       }
     ],
-    "last_verified_utc": "2026-10-15T22:23:19Z",
+    "last_verified_utc": "2026-10-16T01:21:26Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -88542,7 +89194,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-15T22:24:37Z",
+  "generated_at_utc": "2026-10-16T01:26:21Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -90096,7 +90748,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-15T22:24:37Z",
+    "generated_at_utc": "2026-10-16T01:26:20Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -90390,7 +91042,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
+      "new_rows": 0,
       "online_rows": 398,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
@@ -90917,9 +91569,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2399387",
       "hltv:2399468",
       "hltv:2399668",
-      "hltv:2399669"
+      "hltv:2399669",
+      "hltv:2399670"
     ],
-    "last_online_update_utc": "2026-10-15T22:24:37Z",
+    "last_online_update_utc": "2026-10-16T01:26:21Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -97321,10 +97974,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1461.38,
-        "last_result_utc": "2026-10-14T17:11:24Z",
-        "matches": 5,
-        "recent_win_rate_10": 0.305,
+        "elo": 1449.94,
+        "last_result_utc": "2026-10-16T00:59:41Z",
+        "matches": 6,
+        "recent_win_rate_10": 0.2495,
         "team_key": "sementes do mal",
         "team_name": "Sementes do Mal",
         "vrs_points": 0,
@@ -97631,10 +98284,10 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1486.36,
-        "last_result_utc": "2026-10-14T23:22:18Z",
-        "matches": 1,
-        "recent_win_rate_10": 0.4091,
+        "elo": 1497.8,
+        "last_result_utc": "2026-10-16T00:59:41Z",
+        "matches": 2,
+        "recent_win_rate_10": 0.5165,
         "team_key": "a nata",
         "team_name": "A NATA",
         "vrs_points": 0,
@@ -101104,147 +101757,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Phantom Academy",
       "team2_vrs_rank": 293
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5218,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5218,
-      "event_id": "hltv:cct-2026-south-america-series-7",
-      "event_name": "CCT 2026 South America Series 7",
-      "format": "bo3",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "24178",
-            "nickname": "Straafer",
-            "player_id": "hltv:24178",
-            "source_url": "https://www.hltv.org/player/24178/straafer",
-            "team_name": "A NATA"
-          },
-          {
-            "hltv_player_id": "26071",
-            "nickname": "badran",
-            "player_id": "hltv:26071",
-            "source_url": "https://www.hltv.org/player/26071/badran",
-            "team_name": "A NATA"
-          },
-          {
-            "hltv_player_id": "26673",
-            "nickname": "veroneze",
-            "player_id": "hltv:26673",
-            "source_url": "https://www.hltv.org/player/26673/veroneze",
-            "team_name": "A NATA"
-          },
-          {
-            "hltv_player_id": "26899",
-            "nickname": "rzk",
-            "player_id": "hltv:26899",
-            "source_url": "https://www.hltv.org/player/26899/rzk",
-            "team_name": "A NATA"
-          },
-          {
-            "hltv_player_id": "26900",
-            "nickname": "R99",
-            "player_id": "hltv:26900",
-            "source_url": "https://www.hltv.org/player/26900/r99",
-            "team_name": "A NATA"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "25826",
-            "nickname": "terran",
-            "player_id": "hltv:25826",
-            "source_url": "https://www.hltv.org/player/25826/terran",
-            "team_name": "Sementes do Mal"
-          },
-          {
-            "hltv_player_id": "25969",
-            "nickname": "Kaiserzy",
-            "player_id": "hltv:25969",
-            "source_url": "https://www.hltv.org/player/25969/kaiserzy",
-            "team_name": "Sementes do Mal"
-          },
-          {
-            "hltv_player_id": "26411",
-            "nickname": "Aker",
-            "player_id": "hltv:26411",
-            "source_url": "https://www.hltv.org/player/26411/aker",
-            "team_name": "Sementes do Mal"
-          },
-          {
-            "hltv_player_id": "26677",
-            "nickname": "Mrd",
-            "player_id": "hltv:26677",
-            "source_url": "https://www.hltv.org/player/26677/mrd",
-            "team_name": "Sementes do Mal"
-          },
-          {
-            "hltv_player_id": "26827",
-            "nickname": "RaybamGod",
-            "player_id": "hltv:26827",
-            "source_url": "https://www.hltv.org/player/26827/raybamgod",
-            "team_name": "Sementes do Mal"
-          }
-        ]
-      },
-      "map_results": [
-        {
-          "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Ancient",
-        "Dust2",
-        "Mirage"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2399670",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "A NATA",
-      "prob_team1": 0.5218,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399670/a-nata-vs-sementes-do-mal-cct-2026-south-america-series-7",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "A NATA",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Sementes do Mal",
-      "team2_vrs_rank": null
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 50,
-    "online_results_applied": 7,
+    "live_feed_items": 46,
+    "online_results_applied": 1,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

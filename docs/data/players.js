@@ -20863,6 +20863,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 61.8,
           "rating": 0.8,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399079",
+          "date": "2026-10-15",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BRUTE",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 49,
+          "deaths": 52,
+          "kd_ratio": 0.94,
+          "adr": 57.2,
+          "kast": 59.3,
+          "rating": 0.9,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -20870,13 +20885,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-14",
-          "series": 3,
-          "wins": 1,
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 2,
           "losses": 2,
-          "win_rate": 0.333,
+          "win_rate": 0.5,
           "average_rating": 0.91,
-          "average_adr": 65.1
+          "average_adr": 63.2
         }
       ],
       "timeline_entry": {
@@ -20895,11 +20910,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
+        "series": 4,
         "average_rating": 0.91,
-        "average_adr": 65.1,
-        "recent_rating": 0.91,
-        "rating_delta": null
+        "average_adr": 63.2,
+        "recent_rating": 0.9,
+        "rating_delta": -0.03
       }
     },
     {
@@ -20957,6 +20972,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 61.8,
           "rating": 1.01,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399079",
+          "date": "2026-10-15",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BRUTE",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 59,
+          "deaths": 54,
+          "kd_ratio": 1.09,
+          "adr": 87.8,
+          "kast": 77.8,
+          "rating": 1.26,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -20964,13 +20994,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-14",
-          "series": 3,
-          "wins": 1,
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 2,
           "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 1.04,
-          "average_adr": 80.2
+          "win_rate": 0.5,
+          "average_rating": 1.1,
+          "average_adr": 82.1
         }
       ],
       "timeline_entry": {
@@ -20989,11 +21019,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.04,
-        "average_adr": 80.2,
-        "recent_rating": 1.04,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.1,
+        "average_adr": 82.1,
+        "recent_rating": 1.07,
+        "rating_delta": -0.11
       }
     },
     {
@@ -21051,6 +21081,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 69.1,
           "rating": 0.79,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399079",
+          "date": "2026-10-15",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BRUTE",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 53,
+          "deaths": 57,
+          "kd_ratio": 0.93,
+          "adr": 69.4,
+          "kast": 71.6,
+          "rating": 0.98,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21058,13 +21103,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-14",
-          "series": 3,
-          "wins": 1,
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 2,
           "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 0.88,
-          "average_adr": 66.1
+          "win_rate": 0.5,
+          "average_rating": 0.91,
+          "average_adr": 66.9
         }
       ],
       "timeline_entry": {
@@ -21083,11 +21128,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.88,
-        "average_adr": 66.1,
-        "recent_rating": 0.88,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.91,
+        "average_adr": 66.9,
+        "recent_rating": 0.91,
+        "rating_delta": 0.02
       }
     },
     {
@@ -21145,6 +21190,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 67.3,
           "rating": 0.95,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399079",
+          "date": "2026-10-15",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BRUTE",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 55,
+          "deaths": 49,
+          "kd_ratio": 1.12,
+          "adr": 77,
+          "kast": 69.1,
+          "rating": 1.15,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21152,13 +21212,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-14",
-          "series": 3,
-          "wins": 1,
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 2,
           "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 1.09,
-          "average_adr": 75.8
+          "win_rate": 0.5,
+          "average_rating": 1.1,
+          "average_adr": 76.1
         }
       ],
       "timeline_entry": {
@@ -21177,11 +21237,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.09,
-        "average_adr": 75.8,
-        "recent_rating": 1.09,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.1,
+        "average_adr": 76.1,
+        "recent_rating": 1.08,
+        "rating_delta": -0.09
       }
     },
     {
@@ -21239,6 +21299,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 58.2,
           "rating": 0.8,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399079",
+          "date": "2026-10-15",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BRUTE",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 40,
+          "deaths": 54,
+          "kd_ratio": 0.74,
+          "adr": 60.8,
+          "kast": 67.9,
+          "rating": 0.87,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21246,13 +21321,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-14",
-          "series": 3,
-          "wins": 1,
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 2,
           "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 0.74,
-          "average_adr": 53
+          "win_rate": 0.5,
+          "average_rating": 0.78,
+          "average_adr": 55
         }
       ],
       "timeline_entry": {
@@ -21271,11 +21346,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.74,
-        "average_adr": 53,
-        "recent_rating": 0.74,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.78,
+        "average_adr": 55,
+        "recent_rating": 0.88,
+        "rating_delta": 0.41
       }
     },
     {
@@ -24535,6 +24610,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 58.1,
           "rating": 0.72,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "Sementes do Mal",
+          "won": false,
+          "kills": 34,
+          "deaths": 36,
+          "kd_ratio": 0.94,
+          "adr": 70.3,
+          "kast": 68.1,
+          "rating": 1.02,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -24542,41 +24632,41 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Sementes do Mal",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.72,
-          "average_adr": 66.3
+          "average_rating": 0.87,
+          "average_adr": 68.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399573",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "RED Canids Academy",
+        "opponent_name": "A NATA",
         "team_name": "Sementes do Mal",
         "won": false,
-        "kills": 20,
-        "deaths": 27,
-        "kd_ratio": 0.74,
-        "adr": 66.3,
-        "kast": 58.1,
-        "rating": 0.72,
+        "kills": 34,
+        "deaths": 36,
+        "kd_ratio": 0.94,
+        "adr": 70.3,
+        "kast": 68.1,
+        "rating": 1.02,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.72,
-        "average_adr": 66.3,
-        "recent_rating": 0.72,
+        "series": 2,
+        "average_rating": 0.87,
+        "average_adr": 68.3,
+        "recent_rating": 0.87,
         "rating_delta": null
       }
     },
     {
       "player_id": "hltv:26827",
-      "nickname": "RaybamGod",
+      "nickname": "Substitute",
       "team_name": "Sementes do Mal",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -24599,6 +24689,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 51.6,
           "rating": 0.63,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "Sementes do Mal",
+          "won": false,
+          "kills": 19,
+          "deaths": 37,
+          "kd_ratio": 0.51,
+          "adr": 56.6,
+          "kast": 63.8,
+          "rating": 0.66,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -24606,35 +24711,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Sementes do Mal",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.63,
-          "average_adr": 59.2
+          "average_rating": 0.65,
+          "average_adr": 57.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399573",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "RED Canids Academy",
+        "opponent_name": "A NATA",
         "team_name": "Sementes do Mal",
         "won": false,
-        "kills": 15,
-        "deaths": 30,
-        "kd_ratio": 0.5,
-        "adr": 59.2,
-        "kast": 51.6,
-        "rating": 0.63,
+        "kills": 19,
+        "deaths": 37,
+        "kd_ratio": 0.51,
+        "adr": 56.6,
+        "kast": 63.8,
+        "rating": 0.66,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.63,
-        "average_adr": 59.2,
-        "recent_rating": 0.63,
+        "series": 2,
+        "average_rating": 0.65,
+        "average_adr": 57.9,
+        "recent_rating": 0.65,
         "rating_delta": null
       }
     },
@@ -24677,6 +24782,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 64.5,
           "rating": 0.68,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "Sementes do Mal",
+          "won": false,
+          "kills": 37,
+          "deaths": 30,
+          "kd_ratio": 1.23,
+          "adr": 86.3,
+          "kast": 76.6,
+          "rating": 1.19,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -24684,35 +24804,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Sementes do Mal",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.68,
-          "average_adr": 66.7
+          "average_rating": 0.94,
+          "average_adr": 76.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399573",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "RED Canids Academy",
+        "opponent_name": "A NATA",
         "team_name": "Sementes do Mal",
         "won": false,
-        "kills": 16,
-        "deaths": 28,
-        "kd_ratio": 0.57,
-        "adr": 66.7,
-        "kast": 64.5,
-        "rating": 0.68,
+        "kills": 37,
+        "deaths": 30,
+        "kd_ratio": 1.23,
+        "adr": 86.3,
+        "kast": 76.6,
+        "rating": 1.19,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.68,
-        "average_adr": 66.7,
-        "recent_rating": 0.68,
+        "series": 2,
+        "average_rating": 0.94,
+        "average_adr": 76.5,
+        "recent_rating": 0.94,
         "rating_delta": null
       }
     },
@@ -24741,6 +24861,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 54.8,
           "rating": 0.62,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "Sementes do Mal",
+          "won": false,
+          "kills": 31,
+          "deaths": 26,
+          "kd_ratio": 1.19,
+          "adr": 69,
+          "kast": 74.5,
+          "rating": 1.23,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -24748,35 +24883,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Sementes do Mal",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.62,
-          "average_adr": 61.2
+          "average_rating": 0.93,
+          "average_adr": 65.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399573",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "RED Canids Academy",
+        "opponent_name": "A NATA",
         "team_name": "Sementes do Mal",
         "won": false,
-        "kills": 15,
+        "kills": 31,
         "deaths": 26,
-        "kd_ratio": 0.58,
-        "adr": 61.2,
-        "kast": 54.8,
-        "rating": 0.62,
+        "kd_ratio": 1.19,
+        "adr": 69,
+        "kast": 74.5,
+        "rating": 1.23,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.62,
-        "average_adr": 61.2,
-        "recent_rating": 0.62,
+        "series": 2,
+        "average_rating": 0.93,
+        "average_adr": 65.1,
+        "recent_rating": 0.93,
         "rating_delta": null
       }
     },
@@ -40962,6 +41097,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 66.7,
           "rating": 0.8,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399537",
+          "date": "2026-10-15",
+          "event_name": "DFRAG Logitech G Pro Series 2026",
+          "opponent_name": "Mindfreak",
+          "team_name": "Rooster",
+          "won": true,
+          "kills": 42,
+          "deaths": 33,
+          "kd_ratio": 1.27,
+          "adr": 80.2,
+          "kast": 69.8,
+          "rating": 1.11,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -40980,9 +41130,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
+        "series": 3,
         "average_rating": 1.11,
-        "average_adr": 83.5,
+        "average_adr": 82.4,
         "recent_rating": 1.11,
         "rating_delta": null
       },
@@ -40992,12 +41142,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "Rooster",
           "from_date": "2026-10-14",
           "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 1,
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
+          "win_rate": 0.667,
           "average_rating": 1.11,
-          "average_adr": 83.5
+          "average_adr": 82.4
         }
       ]
     },
@@ -41056,6 +41206,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 66.7,
           "rating": 1.3,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399537",
+          "date": "2026-10-15",
+          "event_name": "DFRAG Logitech G Pro Series 2026",
+          "opponent_name": "Mindfreak",
+          "team_name": "Rooster",
+          "won": true,
+          "kills": 47,
+          "deaths": 37,
+          "kd_ratio": 1.27,
+          "adr": 98.7,
+          "kast": 75.5,
+          "rating": 1.52,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -41074,11 +41239,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.33,
-        "average_adr": 90.8,
-        "recent_rating": 1.33,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.38,
+        "average_adr": 92.8,
+        "recent_rating": 1.3,
+        "rating_delta": -0.32
       },
       "map_profile": [],
       "roster_eras": [
@@ -41086,12 +41251,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "Rooster",
           "from_date": "2026-10-13",
           "through_date": "2026-10-15",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.33,
-          "average_adr": 90.8
+          "win_rate": 0.75,
+          "average_rating": 1.38,
+          "average_adr": 92.8
         }
       ]
     },
@@ -41150,6 +41315,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 71.8,
           "rating": 1.08,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399537",
+          "date": "2026-10-15",
+          "event_name": "DFRAG Logitech G Pro Series 2026",
+          "opponent_name": "Mindfreak",
+          "team_name": "Rooster",
+          "won": true,
+          "kills": 50,
+          "deaths": 29,
+          "kd_ratio": 1.72,
+          "adr": 86.6,
+          "kast": 84.9,
+          "rating": 1.44,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -41168,11 +41348,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
+        "series": 4,
         "average_rating": 1.45,
-        "average_adr": 87.4,
-        "recent_rating": 1.45,
-        "rating_delta": null
+        "average_adr": 87.2,
+        "recent_rating": 1.32,
+        "rating_delta": -0.51
       },
       "map_profile": [],
       "roster_eras": [
@@ -41180,12 +41360,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "Rooster",
           "from_date": "2026-10-13",
           "through_date": "2026-10-15",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
+          "win_rate": 0.75,
           "average_rating": 1.45,
-          "average_adr": 87.4
+          "average_adr": 87.2
         }
       ]
     },
@@ -41244,6 +41424,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 64.1,
           "rating": 0.5,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399537",
+          "date": "2026-10-15",
+          "event_name": "DFRAG Logitech G Pro Series 2026",
+          "opponent_name": "Mindfreak",
+          "team_name": "Rooster",
+          "won": true,
+          "kills": 37,
+          "deaths": 34,
+          "kd_ratio": 1.09,
+          "adr": 81.2,
+          "kast": 69.8,
+          "rating": 1.19,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -41262,11 +41457,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.92,
-        "average_adr": 58.1,
+        "series": 4,
+        "average_rating": 0.98,
+        "average_adr": 63.9,
         "recent_rating": 0.92,
-        "rating_delta": null
+        "rating_delta": -0.27
       },
       "map_profile": [],
       "roster_eras": [
@@ -41274,12 +41469,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "team_name": "Rooster",
           "from_date": "2026-10-13",
           "through_date": "2026-10-15",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 0.92,
-          "average_adr": 58.1
+          "win_rate": 0.75,
+          "average_rating": 0.98,
+          "average_adr": 63.9
         }
       ]
     },
@@ -43467,28 +43662,43 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 51.6,
           "rating": 0.71,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "Sementes do Mal",
+          "won": false,
+          "kills": 34,
+          "deaths": 32,
+          "kd_ratio": 1.06,
+          "adr": 85,
+          "kast": 63.8,
+          "rating": 1.02,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399573",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "RED Canids Academy",
+        "opponent_name": "A NATA",
         "team_name": "Sementes do Mal",
         "won": false,
-        "kills": 15,
-        "deaths": 25,
-        "kd_ratio": 0.6,
-        "adr": 58.4,
-        "kast": 51.6,
-        "rating": 0.71,
+        "kills": 34,
+        "deaths": 32,
+        "kd_ratio": 1.06,
+        "adr": 85,
+        "kast": 63.8,
+        "rating": 1.02,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.71,
-        "average_adr": 58.4,
-        "recent_rating": 0.71,
+        "series": 2,
+        "average_rating": 0.86,
+        "average_adr": 71.7,
+        "recent_rating": 0.86,
         "rating_delta": null
       },
       "map_profile": [],
@@ -43496,13 +43706,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Sementes do Mal",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.71,
-          "average_adr": 58.4
+          "average_rating": 0.86,
+          "average_adr": 71.7
         }
       ]
     },
@@ -46532,28 +46742,43 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 48.5,
           "rating": 0.68,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Sementes do Mal",
+          "team_name": "A NATA",
+          "won": true,
+          "kills": 32,
+          "deaths": 34,
+          "kd_ratio": 0.94,
+          "adr": 80.9,
+          "kast": 78.7,
+          "rating": 0.95,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399575",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "JOGA DE TERNO",
+        "opponent_name": "Sementes do Mal",
         "team_name": "A NATA",
-        "won": false,
-        "kills": 14,
-        "deaths": 30,
-        "kd_ratio": 0.47,
-        "adr": 60.8,
-        "kast": 48.5,
-        "rating": 0.68,
+        "won": true,
+        "kills": 32,
+        "deaths": 34,
+        "kd_ratio": 0.94,
+        "adr": 80.9,
+        "kast": 78.7,
+        "rating": 0.95,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.68,
-        "average_adr": 60.8,
-        "recent_rating": 0.68,
+        "series": 2,
+        "average_rating": 0.81,
+        "average_adr": 70.8,
+        "recent_rating": 0.81,
         "rating_delta": null
       },
       "map_profile": [],
@@ -46561,13 +46786,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "A NATA",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-16",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.68,
-          "average_adr": 60.8
+          "win_rate": 0.5,
+          "average_rating": 0.81,
+          "average_adr": 70.8
         }
       ]
     },
@@ -46596,28 +46821,43 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 54.5,
           "rating": 0.65,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Sementes do Mal",
+          "team_name": "A NATA",
+          "won": true,
+          "kills": 33,
+          "deaths": 28,
+          "kd_ratio": 1.18,
+          "adr": 71.3,
+          "kast": 76.6,
+          "rating": 1.02,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399575",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "JOGA DE TERNO",
+        "opponent_name": "Sementes do Mal",
         "team_name": "A NATA",
-        "won": false,
-        "kills": 18,
-        "deaths": 27,
-        "kd_ratio": 0.67,
-        "adr": 61.8,
-        "kast": 54.5,
-        "rating": 0.65,
+        "won": true,
+        "kills": 33,
+        "deaths": 28,
+        "kd_ratio": 1.18,
+        "adr": 71.3,
+        "kast": 76.6,
+        "rating": 1.02,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.65,
-        "average_adr": 61.8,
-        "recent_rating": 0.65,
+        "series": 2,
+        "average_rating": 0.83,
+        "average_adr": 66.5,
+        "recent_rating": 0.83,
         "rating_delta": null
       },
       "map_profile": [],
@@ -46625,13 +46865,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "A NATA",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-16",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.65,
-          "average_adr": 61.8
+          "win_rate": 0.5,
+          "average_rating": 0.83,
+          "average_adr": 66.5
         }
       ]
     },
@@ -46660,28 +46900,43 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 63.6,
           "rating": 0.79,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Sementes do Mal",
+          "team_name": "A NATA",
+          "won": true,
+          "kills": 30,
+          "deaths": 31,
+          "kd_ratio": 0.97,
+          "adr": 63.2,
+          "kast": 68.1,
+          "rating": 1.07,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399575",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "JOGA DE TERNO",
+        "opponent_name": "Sementes do Mal",
         "team_name": "A NATA",
-        "won": false,
-        "kills": 14,
-        "deaths": 28,
-        "kd_ratio": 0.5,
-        "adr": 52.4,
-        "kast": 63.6,
-        "rating": 0.79,
+        "won": true,
+        "kills": 30,
+        "deaths": 31,
+        "kd_ratio": 0.97,
+        "adr": 63.2,
+        "kast": 68.1,
+        "rating": 1.07,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.79,
-        "average_adr": 52.4,
-        "recent_rating": 0.79,
+        "series": 2,
+        "average_rating": 0.93,
+        "average_adr": 57.8,
+        "recent_rating": 0.93,
         "rating_delta": null
       },
       "map_profile": [],
@@ -46689,13 +46944,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "A NATA",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-16",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.79,
-          "average_adr": 52.4
+          "win_rate": 0.5,
+          "average_rating": 0.93,
+          "average_adr": 57.8
         }
       ]
     },
@@ -46724,28 +46979,43 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 51.5,
           "rating": 0.59,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Sementes do Mal",
+          "team_name": "A NATA",
+          "won": true,
+          "kills": 32,
+          "deaths": 33,
+          "kd_ratio": 0.97,
+          "adr": 68.6,
+          "kast": 70.2,
+          "rating": 1.03,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399575",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "JOGA DE TERNO",
+        "opponent_name": "Sementes do Mal",
         "team_name": "A NATA",
-        "won": false,
-        "kills": 17,
-        "deaths": 30,
-        "kd_ratio": 0.57,
-        "adr": 57.2,
-        "kast": 51.5,
-        "rating": 0.59,
+        "won": true,
+        "kills": 32,
+        "deaths": 33,
+        "kd_ratio": 0.97,
+        "adr": 68.6,
+        "kast": 70.2,
+        "rating": 1.03,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.59,
-        "average_adr": 57.2,
-        "recent_rating": 0.59,
+        "series": 2,
+        "average_rating": 0.81,
+        "average_adr": 62.9,
+        "recent_rating": 0.81,
         "rating_delta": null
       },
       "map_profile": [],
@@ -46753,13 +47023,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "A NATA",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-16",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.59,
-          "average_adr": 57.2
+          "win_rate": 0.5,
+          "average_rating": 0.81,
+          "average_adr": 62.9
         }
       ]
     },
@@ -46788,28 +47058,43 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 42.4,
           "rating": 0.51,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Sementes do Mal",
+          "team_name": "A NATA",
+          "won": true,
+          "kills": 33,
+          "deaths": 30,
+          "kd_ratio": 1.1,
+          "adr": 86.1,
+          "kast": 78.7,
+          "rating": 1.21,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399575",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "JOGA DE TERNO",
+        "opponent_name": "Sementes do Mal",
         "team_name": "A NATA",
-        "won": false,
-        "kills": 9,
-        "deaths": 25,
-        "kd_ratio": 0.36,
-        "adr": 40.4,
-        "kast": 42.4,
-        "rating": 0.51,
+        "won": true,
+        "kills": 33,
+        "deaths": 30,
+        "kd_ratio": 1.1,
+        "adr": 86.1,
+        "kast": 78.7,
+        "rating": 1.21,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.51,
-        "average_adr": 40.4,
-        "recent_rating": 0.51,
+        "series": 2,
+        "average_rating": 0.86,
+        "average_adr": 63.3,
+        "recent_rating": 0.86,
         "rating_delta": null
       },
       "map_profile": [],
@@ -46817,13 +47102,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "A NATA",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-16",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.51,
-          "average_adr": 40.4
+          "win_rate": 0.5,
+          "average_rating": 0.86,
+          "average_adr": 63.3
         }
       ]
     },
@@ -47084,9 +47369,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       ]
     }
   ],
-  "lineups_updated_at_utc": "2026-10-15T22:23:19Z",
+  "lineups_updated_at_utc": "2026-10-16T01:21:26Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-15",
+  "history_through_date": "2026-10-16",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
