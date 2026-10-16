@@ -8449,7 +8449,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Spirit Academy"
     },
     {
-      "detail_fetched_at_utc": "2026-10-16T19:22:22Z",
+      "detail_fetched_at_utc": "2026-10-16T19:39:51Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -10210,7 +10210,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "FORZE Reload"
     },
     {
-      "detail_fetched_at_utc": "2026-10-16T19:29:27Z",
+      "detail_fetched_at_utc": "2026-10-16T19:39:36Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -10450,7 +10450,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
     },
     {
-      "detail_fetched_at_utc": "2026-10-16T19:29:04Z",
+      "detail_fetched_at_utc": "2026-10-16T19:39:24Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -28469,7 +28469,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Aurora"
         },
         {
-          "detail_fetched_at_utc": "2026-10-16T19:29:04Z",
+          "detail_fetched_at_utc": "2026-10-16T19:39:24Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -32086,7 +32086,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Spirit Academy"
         },
         {
-          "detail_fetched_at_utc": "2026-10-16T19:22:22Z",
+          "detail_fetched_at_utc": "2026-10-16T19:39:51Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -32968,7 +32968,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "FORZE Reload"
         },
         {
-          "detail_fetched_at_utc": "2026-10-16T19:29:27Z",
+          "detail_fetched_at_utc": "2026-10-16T19:39:36Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -33723,7 +33723,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 17
     }
   ],
-  "last_verified_utc": "2026-10-16T19:30:10Z",
+  "last_verified_utc": "2026-10-16T19:40:05Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -33748,7 +33748,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-16T19:33:56Z",
+    "checked_at_utc": "2026-10-16T19:43:58Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
