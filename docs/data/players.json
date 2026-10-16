@@ -15344,6 +15344,21 @@
           "kast": 68.3,
           "rating": 1.01,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399307",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Saint Sinners",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 47,
+          "deaths": 33,
+          "kd_ratio": 1.42,
+          "adr": 91.6,
+          "kast": 81.4,
+          "rating": 1.29,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -15351,35 +15366,35 @@
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 1,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.11,
-          "average_adr": 74.8
+          "win_rate": 0.667,
+          "average_rating": 1.17,
+          "average_adr": 80.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399299",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399307",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "mellren",
+        "opponent_name": "Saint Sinners",
         "team_name": "ex-RUSTEC",
         "won": true,
-        "kills": 39,
-        "deaths": 31,
-        "kd_ratio": 1.26,
-        "adr": 75.3,
-        "kast": 74.5,
-        "rating": 1.22,
+        "kills": 47,
+        "deaths": 33,
+        "kd_ratio": 1.42,
+        "adr": 91.6,
+        "kast": 81.4,
+        "rating": 1.29,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.11,
-        "average_adr": 74.8,
-        "recent_rating": 1.11,
+        "series": 3,
+        "average_rating": 1.17,
+        "average_adr": 80.4,
+        "recent_rating": 1.17,
         "rating_delta": null
       }
     },
@@ -15687,9 +15702,59 @@
       "traits": {},
       "hltv_player_id": "21369",
       "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399308",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Lavked",
+          "won": false,
+          "kills": 10,
+          "deaths": 16,
+          "kd_ratio": 0.62,
+          "adr": 75.7,
+          "kast": 63.2,
+          "rating": 0.65,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Lavked",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.65,
+          "average_adr": 75.7
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399308",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Lavked",
+        "won": false,
+        "kills": 10,
+        "deaths": 16,
+        "kd_ratio": 0.62,
+        "adr": 75.7,
+        "kast": 63.2,
+        "rating": 0.65,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.65,
+        "average_adr": 75.7,
+        "recent_rating": 0.65,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24114",
@@ -15716,6 +15781,21 @@
           "kast": 69,
           "rating": 1.16,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399308",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Lavked",
+          "won": false,
+          "kills": 8,
+          "deaths": 13,
+          "kd_ratio": 0.62,
+          "adr": 51.7,
+          "kast": 47.4,
+          "rating": 0.58,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -15723,21 +15803,36 @@
         {
           "team_name": "Lavked",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-15",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.16,
-          "average_adr": 78.9
+          "average_rating": 0.87,
+          "average_adr": 65.3
         }
       ],
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.16,
-        "average_adr": 78.9,
-        "recent_rating": 1.16,
+        "series": 2,
+        "average_rating": 0.87,
+        "average_adr": 65.3,
+        "recent_rating": 0.87,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399308",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Lavked",
+        "won": false,
+        "kills": 8,
+        "deaths": 13,
+        "kd_ratio": 0.62,
+        "adr": 51.7,
+        "kast": 47.4,
+        "rating": 0.58,
+        "maps": 3
       }
     },
     {
@@ -16153,12 +16248,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "Spirit Academy",
           "won": true,
-          "kills": 10,
-          "deaths": 12,
-          "kd_ratio": 0.83,
-          "adr": 70.7,
-          "kast": 75,
-          "rating": 1.16,
+          "kills": 29,
+          "deaths": 24,
+          "kd_ratio": 1.21,
+          "adr": 82.5,
+          "kast": 74.4,
+          "rating": 1.19,
           "maps": 3
         }
       ],
@@ -16173,7 +16268,7 @@
           "losses": 1,
           "win_rate": 0.75,
           "average_rating": 1.03,
-          "average_adr": 72.3
+          "average_adr": 75.2
         }
       ],
       "timeline_entry": {
@@ -16183,20 +16278,20 @@
         "opponent_name": "The Last Resort",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 10,
-        "deaths": 12,
-        "kd_ratio": 0.83,
-        "adr": 70.7,
-        "kast": 75,
-        "rating": 1.16,
+        "kills": 29,
+        "deaths": 24,
+        "kd_ratio": 1.21,
+        "adr": 82.5,
+        "kast": 74.4,
+        "rating": 1.19,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
         "average_rating": 1.03,
-        "average_adr": 72.3,
-        "recent_rating": 1.02,
-        "rating_delta": -0.03
+        "average_adr": 75.2,
+        "recent_rating": 1.03,
+        "rating_delta": -0.02
       }
     },
     {
@@ -16262,12 +16357,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "Spirit Academy",
           "won": true,
-          "kills": 13,
-          "deaths": 10,
-          "kd_ratio": 1.3,
-          "adr": 60.1,
-          "kast": 65,
-          "rating": 0.99,
+          "kills": 30,
+          "deaths": 19,
+          "kd_ratio": 1.58,
+          "adr": 72.5,
+          "kast": 71.8,
+          "rating": 1.2,
           "maps": 3
         }
       ],
@@ -16281,8 +16376,8 @@
           "wins": 3,
           "losses": 1,
           "win_rate": 0.75,
-          "average_rating": 1.02,
-          "average_adr": 70.7
+          "average_rating": 1.07,
+          "average_adr": 73.8
         }
       ],
       "timeline_entry": {
@@ -16292,20 +16387,20 @@
         "opponent_name": "The Last Resort",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 13,
-        "deaths": 10,
-        "kd_ratio": 1.3,
-        "adr": 60.1,
-        "kast": 65,
-        "rating": 0.99,
+        "kills": 30,
+        "deaths": 19,
+        "kd_ratio": 1.58,
+        "adr": 72.5,
+        "kast": 71.8,
+        "rating": 1.2,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 1.02,
-        "average_adr": 70.7,
-        "recent_rating": 0.94,
-        "rating_delta": -0.31
+        "average_rating": 1.07,
+        "average_adr": 73.8,
+        "recent_rating": 1.01,
+        "rating_delta": -0.24
       }
     },
     {
@@ -16371,12 +16466,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "Spirit Academy",
           "won": true,
-          "kills": 19,
-          "deaths": 10,
-          "kd_ratio": 1.9,
-          "adr": 88.3,
-          "kast": 75,
-          "rating": 1.76,
+          "kills": 31,
+          "deaths": 22,
+          "kd_ratio": 1.41,
+          "adr": 80,
+          "kast": 76.9,
+          "rating": 1.52,
           "maps": 3
         }
       ],
@@ -16390,8 +16485,8 @@
           "wins": 3,
           "losses": 1,
           "win_rate": 0.75,
-          "average_rating": 1.42,
-          "average_adr": 81.2
+          "average_rating": 1.36,
+          "average_adr": 79.2
         }
       ],
       "timeline_entry": {
@@ -16401,20 +16496,20 @@
         "opponent_name": "The Last Resort",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 19,
-        "deaths": 10,
-        "kd_ratio": 1.9,
-        "adr": 88.3,
-        "kast": 75,
-        "rating": 1.76,
+        "kills": 31,
+        "deaths": 22,
+        "kd_ratio": 1.41,
+        "adr": 80,
+        "kast": 76.9,
+        "rating": 1.52,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 1.42,
-        "average_adr": 81.2,
-        "recent_rating": 1.41,
-        "rating_delta": -0.05
+        "average_rating": 1.36,
+        "average_adr": 79.2,
+        "recent_rating": 1.33,
+        "rating_delta": -0.13
       }
     },
     {
@@ -16480,12 +16575,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "Spirit Academy",
           "won": true,
-          "kills": 15,
-          "deaths": 15,
-          "kd_ratio": 1,
-          "adr": 80.6,
-          "kast": 65,
-          "rating": 1.02,
+          "kills": 26,
+          "deaths": 27,
+          "kd_ratio": 0.96,
+          "adr": 77.8,
+          "kast": 66.7,
+          "rating": 1.04,
           "maps": 3
         }
       ],
@@ -16499,8 +16594,8 @@
           "wins": 3,
           "losses": 1,
           "win_rate": 0.75,
-          "average_rating": 0.97,
-          "average_adr": 77.4
+          "average_rating": 0.98,
+          "average_adr": 76.7
         }
       ],
       "timeline_entry": {
@@ -16510,20 +16605,20 @@
         "opponent_name": "The Last Resort",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 15,
-        "deaths": 15,
-        "kd_ratio": 1,
-        "adr": 80.6,
-        "kast": 65,
-        "rating": 1.02,
+        "kills": 26,
+        "deaths": 27,
+        "kd_ratio": 0.96,
+        "adr": 77.8,
+        "kast": 66.7,
+        "rating": 1.04,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 0.97,
-        "average_adr": 77.4,
-        "recent_rating": 0.98,
-        "rating_delta": 0.03
+        "average_rating": 0.98,
+        "average_adr": 76.7,
+        "recent_rating": 0.99,
+        "rating_delta": 0.04
       }
     },
     {
@@ -16589,12 +16684,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "Spirit Academy",
           "won": true,
-          "kills": 12,
-          "deaths": 14,
-          "kd_ratio": 0.86,
-          "adr": 70.5,
-          "kast": 80,
-          "rating": 1.11,
+          "kills": 28,
+          "deaths": 25,
+          "kd_ratio": 1.12,
+          "adr": 78,
+          "kast": 84.6,
+          "rating": 1.28,
           "maps": 3
         }
       ],
@@ -16608,8 +16703,8 @@
           "wins": 3,
           "losses": 1,
           "win_rate": 0.75,
-          "average_rating": 1.05,
-          "average_adr": 64.3
+          "average_rating": 1.09,
+          "average_adr": 66.1
         }
       ],
       "timeline_entry": {
@@ -16619,20 +16714,20 @@
         "opponent_name": "The Last Resort",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 12,
-        "deaths": 14,
-        "kd_ratio": 0.86,
-        "adr": 70.5,
-        "kast": 80,
-        "rating": 1.11,
+        "kills": 28,
+        "deaths": 25,
+        "kd_ratio": 1.12,
+        "adr": 78,
+        "kast": 84.6,
+        "rating": 1.28,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 1.05,
-        "average_adr": 64.3,
-        "recent_rating": 1.09,
-        "rating_delta": 0.17
+        "average_rating": 1.09,
+        "average_adr": 66.1,
+        "recent_rating": 1.15,
+        "rating_delta": 0.23
       }
     },
     {
@@ -17051,6 +17146,21 @@
           "kast": 58.5,
           "rating": 0.65,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399307",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Saint Sinners",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 40,
+          "deaths": 42,
+          "kd_ratio": 0.95,
+          "adr": 69.6,
+          "kast": 78,
+          "rating": 1.03,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -17058,35 +17168,35 @@
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 1,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 0.9,
-          "average_adr": 61
+          "win_rate": 0.667,
+          "average_rating": 0.94,
+          "average_adr": 63.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399299",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399307",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "mellren",
+        "opponent_name": "Saint Sinners",
         "team_name": "ex-RUSTEC",
         "won": true,
-        "kills": 33,
-        "deaths": 30,
-        "kd_ratio": 1.1,
-        "adr": 73.6,
-        "kast": 76.4,
-        "rating": 1.15,
+        "kills": 40,
+        "deaths": 42,
+        "kd_ratio": 0.95,
+        "adr": 69.6,
+        "kast": 78,
+        "rating": 1.03,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.9,
-        "average_adr": 61,
-        "recent_rating": 0.9,
+        "series": 3,
+        "average_rating": 0.94,
+        "average_adr": 63.9,
+        "recent_rating": 0.94,
         "rating_delta": null
       }
     },
@@ -17144,6 +17254,21 @@
           "kast": 65.9,
           "rating": 1.11,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399307",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Saint Sinners",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 43,
+          "deaths": 29,
+          "kd_ratio": 1.48,
+          "adr": 73.1,
+          "kast": 83.1,
+          "rating": 1.35,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -17151,35 +17276,35 @@
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 1,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.05,
-          "average_adr": 77
+          "win_rate": 0.667,
+          "average_rating": 1.15,
+          "average_adr": 75.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399299",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399307",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "mellren",
+        "opponent_name": "Saint Sinners",
         "team_name": "ex-RUSTEC",
         "won": true,
-        "kills": 35,
-        "deaths": 31,
-        "kd_ratio": 1.13,
-        "adr": 58.6,
-        "kast": 72.7,
-        "rating": 0.99,
+        "kills": 43,
+        "deaths": 29,
+        "kd_ratio": 1.48,
+        "adr": 73.1,
+        "kast": 83.1,
+        "rating": 1.35,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.05,
-        "average_adr": 77,
-        "recent_rating": 1.05,
+        "series": 3,
+        "average_rating": 1.15,
+        "average_adr": 75.7,
+        "recent_rating": 1.15,
         "rating_delta": null
       }
     },
@@ -17223,6 +17348,21 @@
           "kast": 65.9,
           "rating": 0.7,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399307",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Saint Sinners",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 40,
+          "deaths": 38,
+          "kd_ratio": 1.05,
+          "adr": 77.1,
+          "kast": 67.8,
+          "rating": 1.12,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -17230,35 +17370,35 @@
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 1,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 0.85,
-          "average_adr": 71
+          "win_rate": 0.667,
+          "average_rating": 0.94,
+          "average_adr": 73
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399299",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399307",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "mellren",
+        "opponent_name": "Saint Sinners",
         "team_name": "ex-RUSTEC",
         "won": true,
-        "kills": 36,
-        "deaths": 39,
-        "kd_ratio": 0.92,
-        "adr": 75.8,
-        "kast": 69.1,
-        "rating": 1.01,
+        "kills": 40,
+        "deaths": 38,
+        "kd_ratio": 1.05,
+        "adr": 77.1,
+        "kast": 67.8,
+        "rating": 1.12,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.85,
-        "average_adr": 71,
-        "recent_rating": 0.85,
+        "series": 3,
+        "average_rating": 0.94,
+        "average_adr": 73,
+        "recent_rating": 0.94,
         "rating_delta": null
       }
     },
@@ -17287,6 +17427,21 @@
           "kast": 64.3,
           "rating": 0.72,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399308",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Lavked",
+          "won": false,
+          "kills": 10,
+          "deaths": 13,
+          "kd_ratio": 0.77,
+          "adr": 53.9,
+          "kast": 57.9,
+          "rating": 0.86,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -17294,21 +17449,36 @@
         {
           "team_name": "Lavked",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-15",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.72,
+          "average_rating": 0.79,
           "average_adr": 54
         }
       ],
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.72,
+        "series": 2,
+        "average_rating": 0.79,
         "average_adr": 54,
-        "recent_rating": 0.72,
+        "recent_rating": 0.79,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399308",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Lavked",
+        "won": false,
+        "kills": 10,
+        "deaths": 13,
+        "kd_ratio": 0.77,
+        "adr": 53.9,
+        "kast": 57.9,
+        "rating": 0.86,
+        "maps": 3
       }
     },
     {
@@ -20878,6 +21048,21 @@
           "kast": 59.3,
           "rating": 0.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Privateer",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 29,
+          "deaths": 17,
+          "kd_ratio": 1.71,
+          "adr": 72.3,
+          "kast": 81.6,
+          "rating": 1.21,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -20885,36 +21070,36 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-15",
-          "series": 4,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 5,
+          "wins": 3,
           "losses": 2,
-          "win_rate": 0.5,
-          "average_rating": 0.91,
-          "average_adr": 63.2
+          "win_rate": 0.6,
+          "average_rating": 0.97,
+          "average_adr": 65
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399299",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-RUSTEC",
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Privateer",
         "team_name": "mellren",
-        "won": false,
-        "kills": 28,
-        "deaths": 35,
-        "kd_ratio": 0.8,
-        "adr": 60.9,
-        "kast": 61.8,
-        "rating": 0.8,
+        "won": true,
+        "kills": 29,
+        "deaths": 17,
+        "kd_ratio": 1.71,
+        "adr": 72.3,
+        "kast": 81.6,
+        "rating": 1.21,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.91,
-        "average_adr": 63.2,
-        "recent_rating": 0.9,
-        "rating_delta": -0.03
+        "series": 5,
+        "average_rating": 0.97,
+        "average_adr": 65,
+        "recent_rating": 0.97,
+        "rating_delta": 0
       }
     },
     {
@@ -20987,6 +21172,21 @@
           "kast": 77.8,
           "rating": 1.26,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Privateer",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 31,
+          "deaths": 24,
+          "kd_ratio": 1.29,
+          "adr": 82.7,
+          "kast": 81.6,
+          "rating": 1.23,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -20994,36 +21194,36 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-15",
-          "series": 4,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 5,
+          "wins": 3,
           "losses": 2,
-          "win_rate": 0.5,
-          "average_rating": 1.1,
-          "average_adr": 82.1
+          "win_rate": 0.6,
+          "average_rating": 1.12,
+          "average_adr": 82.2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399299",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-RUSTEC",
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Privateer",
         "team_name": "mellren",
-        "won": false,
-        "kills": 37,
-        "deaths": 40,
-        "kd_ratio": 0.93,
-        "adr": 80,
-        "kast": 61.8,
-        "rating": 1.01,
+        "won": true,
+        "kills": 31,
+        "deaths": 24,
+        "kd_ratio": 1.29,
+        "adr": 82.7,
+        "kast": 81.6,
+        "rating": 1.23,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.1,
-        "average_adr": 82.1,
-        "recent_rating": 1.07,
-        "rating_delta": -0.11
+        "series": 5,
+        "average_rating": 1.12,
+        "average_adr": 82.2,
+        "recent_rating": 1.17,
+        "rating_delta": 0.11
       }
     },
     {
@@ -21096,6 +21296,21 @@
           "kast": 71.6,
           "rating": 0.98,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Privateer",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 29,
+          "deaths": 25,
+          "kd_ratio": 1.16,
+          "adr": 87.3,
+          "kast": 73.7,
+          "rating": 1.15,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21103,36 +21318,36 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-15",
-          "series": 4,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 5,
+          "wins": 3,
           "losses": 2,
-          "win_rate": 0.5,
-          "average_rating": 0.91,
-          "average_adr": 66.9
+          "win_rate": 0.6,
+          "average_rating": 0.95,
+          "average_adr": 71
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399299",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-RUSTEC",
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Privateer",
         "team_name": "mellren",
-        "won": false,
-        "kills": 26,
-        "deaths": 38,
-        "kd_ratio": 0.68,
-        "adr": 60.7,
-        "kast": 69.1,
-        "rating": 0.79,
+        "won": true,
+        "kills": 29,
+        "deaths": 25,
+        "kd_ratio": 1.16,
+        "adr": 87.3,
+        "kast": 73.7,
+        "rating": 1.15,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.91,
-        "average_adr": 66.9,
-        "recent_rating": 0.91,
-        "rating_delta": 0.02
+        "series": 5,
+        "average_rating": 0.95,
+        "average_adr": 71,
+        "recent_rating": 0.97,
+        "rating_delta": 0.05
       }
     },
     {
@@ -21205,6 +21420,21 @@
           "kast": 69.1,
           "rating": 1.15,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Privateer",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 25,
+          "deaths": 20,
+          "kd_ratio": 1.25,
+          "adr": 75.7,
+          "kast": 78.9,
+          "rating": 1.14,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21212,36 +21442,36 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-15",
-          "series": 4,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 5,
+          "wins": 3,
           "losses": 2,
-          "win_rate": 0.5,
-          "average_rating": 1.1,
-          "average_adr": 76.1
+          "win_rate": 0.6,
+          "average_rating": 1.11,
+          "average_adr": 76
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399299",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-RUSTEC",
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Privateer",
         "team_name": "mellren",
-        "won": false,
-        "kills": 34,
-        "deaths": 34,
-        "kd_ratio": 1,
-        "adr": 68.5,
-        "kast": 67.3,
-        "rating": 0.95,
+        "won": true,
+        "kills": 25,
+        "deaths": 20,
+        "kd_ratio": 1.25,
+        "adr": 75.7,
+        "kast": 78.9,
+        "rating": 1.14,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.1,
-        "average_adr": 76.1,
+        "series": 5,
+        "average_rating": 1.11,
+        "average_adr": 76,
         "recent_rating": 1.08,
-        "rating_delta": -0.09
+        "rating_delta": -0.07
       }
     },
     {
@@ -21314,6 +21544,21 @@
           "kast": 67.9,
           "rating": 0.87,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Privateer",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 33,
+          "deaths": 24,
+          "kd_ratio": 1.38,
+          "adr": 85.9,
+          "kast": 78.9,
+          "rating": 1.4,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21321,36 +21566,36 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-15",
-          "series": 4,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 5,
+          "wins": 3,
           "losses": 2,
-          "win_rate": 0.5,
-          "average_rating": 0.78,
-          "average_adr": 55
+          "win_rate": 0.6,
+          "average_rating": 0.9,
+          "average_adr": 61.2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399299",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-RUSTEC",
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Privateer",
         "team_name": "mellren",
-        "won": false,
-        "kills": 30,
-        "deaths": 41,
-        "kd_ratio": 0.73,
-        "adr": 60.3,
-        "kast": 58.2,
-        "rating": 0.8,
+        "won": true,
+        "kills": 33,
+        "deaths": 24,
+        "kd_ratio": 1.38,
+        "adr": 85.9,
+        "kast": 78.9,
+        "rating": 1.4,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.78,
-        "average_adr": 55,
-        "recent_rating": 0.88,
-        "rating_delta": 0.41
+        "series": 5,
+        "average_rating": 0.9,
+        "average_adr": 61.2,
+        "recent_rating": 1.02,
+        "rating_delta": 0.31
       }
     },
     {
@@ -21533,6 +21778,21 @@
           "kast": 78,
           "rating": 1.02,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399307",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Saint Sinners",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 57,
+          "deaths": 33,
+          "kd_ratio": 1.73,
+          "adr": 98.1,
+          "kast": 83.1,
+          "rating": 1.56,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21540,35 +21800,35 @@
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 1,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.26,
-          "average_adr": 78.7
+          "win_rate": 0.667,
+          "average_rating": 1.36,
+          "average_adr": 85.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399299",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399307",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "mellren",
+        "opponent_name": "Saint Sinners",
         "team_name": "ex-RUSTEC",
         "won": true,
-        "kills": 45,
-        "deaths": 26,
+        "kills": 57,
+        "deaths": 33,
         "kd_ratio": 1.73,
-        "adr": 89.3,
-        "kast": 83.6,
-        "rating": 1.5,
+        "adr": 98.1,
+        "kast": 83.1,
+        "rating": 1.56,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.26,
-        "average_adr": 78.7,
-        "recent_rating": 1.26,
+        "series": 3,
+        "average_rating": 1.36,
+        "average_adr": 85.1,
+        "recent_rating": 1.36,
         "rating_delta": null
       }
     },
@@ -25478,6 +25738,21 @@
           "kast": 84.8,
           "rating": 1.29,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399671",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "your end",
+          "team_name": "JOGA DE TERNO",
+          "won": false,
+          "kills": 19,
+          "deaths": 28,
+          "kd_ratio": 0.68,
+          "adr": 58.5,
+          "kast": 70.3,
+          "rating": 0.72,
+          "maps": 2
         }
       ],
       "map_profile": [],
@@ -25485,35 +25760,35 @@
         {
           "team_name": "JOGA DE TERNO",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.29,
-          "average_adr": 88.4
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1,
+          "average_adr": 73.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399575",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399671",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "A NATA",
+        "opponent_name": "your end",
         "team_name": "JOGA DE TERNO",
-        "won": true,
-        "kills": 27,
-        "deaths": 16,
-        "kd_ratio": 1.69,
-        "adr": 88.4,
-        "kast": 84.8,
-        "rating": 1.29,
-        "maps": 3
+        "won": false,
+        "kills": 19,
+        "deaths": 28,
+        "kd_ratio": 0.68,
+        "adr": 58.5,
+        "kast": 70.3,
+        "rating": 0.72,
+        "maps": 2
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.29,
-        "average_adr": 88.4,
-        "recent_rating": 1.29,
+        "series": 2,
+        "average_rating": 1,
+        "average_adr": 73.5,
+        "recent_rating": 1,
         "rating_delta": null
       }
     },
@@ -25542,6 +25817,21 @@
           "kast": 93.9,
           "rating": 1.88,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399671",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "your end",
+          "team_name": "JOGA DE TERNO",
+          "won": false,
+          "kills": 27,
+          "deaths": 24,
+          "kd_ratio": 1.12,
+          "adr": 80.1,
+          "kast": 78.4,
+          "rating": 1.16,
+          "maps": 2
         }
       ],
       "map_profile": [],
@@ -25549,35 +25839,35 @@
         {
           "team_name": "JOGA DE TERNO",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.88,
-          "average_adr": 110.7
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.52,
+          "average_adr": 95.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399575",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399671",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "A NATA",
+        "opponent_name": "your end",
         "team_name": "JOGA DE TERNO",
-        "won": true,
-        "kills": 33,
-        "deaths": 17,
-        "kd_ratio": 1.94,
-        "adr": 110.7,
-        "kast": 93.9,
-        "rating": 1.88,
-        "maps": 3
+        "won": false,
+        "kills": 27,
+        "deaths": 24,
+        "kd_ratio": 1.12,
+        "adr": 80.1,
+        "kast": 78.4,
+        "rating": 1.16,
+        "maps": 2
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.88,
-        "average_adr": 110.7,
-        "recent_rating": 1.88,
+        "series": 2,
+        "average_rating": 1.52,
+        "average_adr": 95.4,
+        "recent_rating": 1.52,
         "rating_delta": null
       }
     },
@@ -25606,6 +25896,21 @@
           "kast": 69.7,
           "rating": 0.85,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399671",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "your end",
+          "team_name": "JOGA DE TERNO",
+          "won": false,
+          "kills": 26,
+          "deaths": 23,
+          "kd_ratio": 1.13,
+          "adr": 79.5,
+          "kast": 67.6,
+          "rating": 1.18,
+          "maps": 2
         }
       ],
       "map_profile": [],
@@ -25613,35 +25918,35 @@
         {
           "team_name": "JOGA DE TERNO",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 0.85,
-          "average_adr": 69.5
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.01,
+          "average_adr": 74.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399575",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399671",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "A NATA",
+        "opponent_name": "your end",
         "team_name": "JOGA DE TERNO",
-        "won": true,
-        "kills": 19,
-        "deaths": 17,
-        "kd_ratio": 1.12,
-        "adr": 69.5,
-        "kast": 69.7,
-        "rating": 0.85,
-        "maps": 3
+        "won": false,
+        "kills": 26,
+        "deaths": 23,
+        "kd_ratio": 1.13,
+        "adr": 79.5,
+        "kast": 67.6,
+        "rating": 1.18,
+        "maps": 2
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.85,
-        "average_adr": 69.5,
-        "recent_rating": 0.85,
+        "series": 2,
+        "average_rating": 1.01,
+        "average_adr": 74.5,
+        "recent_rating": 1.01,
         "rating_delta": null
       }
     },
@@ -25670,6 +25975,21 @@
           "kast": 97,
           "rating": 1.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399671",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "your end",
+          "team_name": "JOGA DE TERNO",
+          "won": false,
+          "kills": 35,
+          "deaths": 19,
+          "kd_ratio": 1.84,
+          "adr": 96.4,
+          "kast": 83.8,
+          "rating": 1.64,
+          "maps": 2
         }
       ],
       "map_profile": [],
@@ -25677,35 +25997,35 @@
         {
           "team_name": "JOGA DE TERNO",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.9,
-          "average_adr": 91.1
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.77,
+          "average_adr": 93.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399575",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399671",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "A NATA",
+        "opponent_name": "your end",
         "team_name": "JOGA DE TERNO",
-        "won": true,
-        "kills": 33,
-        "deaths": 11,
-        "kd_ratio": 3,
-        "adr": 91.1,
-        "kast": 97,
-        "rating": 1.9,
-        "maps": 3
+        "won": false,
+        "kills": 35,
+        "deaths": 19,
+        "kd_ratio": 1.84,
+        "adr": 96.4,
+        "kast": 83.8,
+        "rating": 1.64,
+        "maps": 2
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.9,
-        "average_adr": 91.1,
-        "recent_rating": 1.9,
+        "series": 2,
+        "average_rating": 1.77,
+        "average_adr": 93.8,
+        "recent_rating": 1.77,
         "rating_delta": null
       }
     },
@@ -38380,6 +38700,21 @@
           "kast": 47.1,
           "rating": 0.38,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399307",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Saint Sinners",
+          "won": false,
+          "kills": 33,
+          "deaths": 43,
+          "kd_ratio": 0.77,
+          "adr": 66.9,
+          "kast": 69.5,
+          "rating": 0.89,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24838",
@@ -38389,35 +38724,35 @@
         {
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 0.7,
-          "average_adr": 61.3
+          "losses": 2,
+          "win_rate": 0.333,
+          "average_rating": 0.76,
+          "average_adr": 63.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399468",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "PCIFIC",
+        "match_id": "hltv:2399307",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "ex-RUSTEC",
         "team_name": "Saint Sinners",
         "won": false,
-        "kills": 4,
-        "deaths": 17,
-        "kd_ratio": 0.24,
-        "adr": 52.1,
-        "kast": 47.1,
-        "rating": 0.38,
+        "kills": 33,
+        "deaths": 43,
+        "kd_ratio": 0.77,
+        "adr": 66.9,
+        "kast": 69.5,
+        "rating": 0.89,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.7,
-        "average_adr": 61.3,
-        "recent_rating": 0.7,
+        "series": 3,
+        "average_rating": 0.76,
+        "average_adr": 63.1,
+        "recent_rating": 0.76,
         "rating_delta": null
       }
     },
@@ -38459,6 +38794,21 @@
           "kast": 64.7,
           "rating": 1.27,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399307",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Saint Sinners",
+          "won": false,
+          "kills": 30,
+          "deaths": 44,
+          "kd_ratio": 0.68,
+          "adr": 57.1,
+          "kast": 72.9,
+          "rating": 0.9,
+          "maps": 3
         }
       ],
       "hltv_player_id": "26325",
@@ -38468,35 +38818,35 @@
         {
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.21,
-          "average_adr": 71.9
+          "losses": 2,
+          "win_rate": 0.333,
+          "average_rating": 1.1,
+          "average_adr": 67
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399468",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "PCIFIC",
+        "match_id": "hltv:2399307",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "ex-RUSTEC",
         "team_name": "Saint Sinners",
         "won": false,
-        "kills": 12,
-        "deaths": 15,
-        "kd_ratio": 0.8,
-        "adr": 78.9,
-        "kast": 64.7,
-        "rating": 1.27,
+        "kills": 30,
+        "deaths": 44,
+        "kd_ratio": 0.68,
+        "adr": 57.1,
+        "kast": 72.9,
+        "rating": 0.9,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.21,
-        "average_adr": 71.9,
-        "recent_rating": 1.21,
+        "series": 3,
+        "average_rating": 1.1,
+        "average_adr": 67,
+        "recent_rating": 1.1,
         "rating_delta": null
       }
     },
@@ -38538,6 +38888,21 @@
           "kast": 70.6,
           "rating": 0.75,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399307",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Saint Sinners",
+          "won": false,
+          "kills": 38,
+          "deaths": 48,
+          "kd_ratio": 0.79,
+          "adr": 67.3,
+          "kast": 57.6,
+          "rating": 0.82,
+          "maps": 3
         }
       ],
       "hltv_player_id": "26324",
@@ -38547,35 +38912,35 @@
         {
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 0.93,
-          "average_adr": 65.3
+          "losses": 2,
+          "win_rate": 0.333,
+          "average_rating": 0.89,
+          "average_adr": 66
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399468",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "PCIFIC",
+        "match_id": "hltv:2399307",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "ex-RUSTEC",
         "team_name": "Saint Sinners",
         "won": false,
-        "kills": 9,
-        "deaths": 15,
-        "kd_ratio": 0.6,
-        "adr": 57.5,
-        "kast": 70.6,
-        "rating": 0.75,
+        "kills": 38,
+        "deaths": 48,
+        "kd_ratio": 0.79,
+        "adr": 67.3,
+        "kast": 57.6,
+        "rating": 0.82,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.93,
-        "average_adr": 65.3,
-        "recent_rating": 0.93,
+        "series": 3,
+        "average_rating": 0.89,
+        "average_adr": 66,
+        "recent_rating": 0.89,
         "rating_delta": null
       }
     },
@@ -38617,6 +38982,21 @@
           "kast": 41.2,
           "rating": 0.82,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399307",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Saint Sinners",
+          "won": false,
+          "kills": 28,
+          "deaths": 48,
+          "kd_ratio": 0.58,
+          "adr": 54.4,
+          "kast": 59.3,
+          "rating": 0.66,
+          "maps": 3
         }
       ],
       "hltv_player_id": "21108",
@@ -38626,35 +39006,35 @@
         {
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 0.97,
-          "average_adr": 70
+          "losses": 2,
+          "win_rate": 0.333,
+          "average_rating": 0.87,
+          "average_adr": 64.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399468",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "PCIFIC",
+        "match_id": "hltv:2399307",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "ex-RUSTEC",
         "team_name": "Saint Sinners",
         "won": false,
-        "kills": 10,
-        "deaths": 15,
-        "kd_ratio": 0.67,
-        "adr": 53.9,
-        "kast": 41.2,
-        "rating": 0.82,
+        "kills": 28,
+        "deaths": 48,
+        "kd_ratio": 0.58,
+        "adr": 54.4,
+        "kast": 59.3,
+        "rating": 0.66,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.97,
-        "average_adr": 70,
-        "recent_rating": 0.97,
+        "series": 3,
+        "average_rating": 0.87,
+        "average_adr": 64.8,
+        "recent_rating": 0.87,
         "rating_delta": null
       }
     },
@@ -38696,6 +39076,21 @@
           "kast": 70.6,
           "rating": 0.8,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399307",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Saint Sinners",
+          "won": false,
+          "kills": 46,
+          "deaths": 44,
+          "kd_ratio": 1.05,
+          "adr": 83.3,
+          "kast": 66.1,
+          "rating": 1.14,
+          "maps": 3
         }
       ],
       "hltv_player_id": "20208",
@@ -38705,35 +39100,35 @@
         {
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.03,
-          "average_adr": 72.4
+          "losses": 2,
+          "win_rate": 0.333,
+          "average_rating": 1.07,
+          "average_adr": 76
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399468",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "PCIFIC",
+        "match_id": "hltv:2399307",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "ex-RUSTEC",
         "team_name": "Saint Sinners",
         "won": false,
-        "kills": 10,
-        "deaths": 14,
-        "kd_ratio": 0.71,
-        "adr": 60.6,
-        "kast": 70.6,
-        "rating": 0.8,
+        "kills": 46,
+        "deaths": 44,
+        "kd_ratio": 1.05,
+        "adr": 83.3,
+        "kast": 66.1,
+        "rating": 1.14,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.03,
-        "average_adr": 72.4,
-        "recent_rating": 1.03,
+        "series": 3,
+        "average_rating": 1.07,
+        "average_adr": 76,
+        "recent_rating": 1.07,
         "rating_delta": null
       }
     },
@@ -38935,18 +39330,18 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399467",
+        "match_id": "hltv:2399302",
         "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Enjoy",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Bushido Wildcats",
         "team_name": "ex-6666",
         "won": true,
-        "kills": 37,
-        "deaths": 32,
-        "kd_ratio": 1.16,
-        "adr": 91.2,
-        "kast": 73.9,
-        "rating": 1.46,
+        "kills": 31,
+        "deaths": 24,
+        "kd_ratio": 1.29,
+        "adr": 89.9,
+        "kast": 80,
+        "rating": 1.2,
         "maps": 3
       },
       "form_summary": {
@@ -39085,18 +39480,18 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399467",
+        "match_id": "hltv:2399302",
         "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Enjoy",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Bushido Wildcats",
         "team_name": "ex-6666",
         "won": true,
-        "kills": 23,
-        "deaths": 31,
-        "kd_ratio": 0.74,
-        "adr": 61.4,
-        "kast": 65.2,
-        "rating": 0.81,
+        "kills": 33,
+        "deaths": 20,
+        "kd_ratio": 1.65,
+        "adr": 81.3,
+        "kast": 85,
+        "rating": 1.47,
         "maps": 3
       },
       "form_summary": {
@@ -39235,18 +39630,18 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399467",
+        "match_id": "hltv:2399302",
         "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Enjoy",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Bushido Wildcats",
         "team_name": "ex-6666",
         "won": true,
-        "kills": 33,
-        "deaths": 24,
-        "kd_ratio": 1.38,
-        "adr": 67.7,
-        "kast": 82.6,
-        "rating": 1.24,
+        "kills": 40,
+        "deaths": 20,
+        "kd_ratio": 2,
+        "adr": 93.1,
+        "kast": 80,
+        "rating": 1.54,
         "maps": 3
       },
       "form_summary": {
@@ -39385,18 +39780,18 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399467",
+        "match_id": "hltv:2399302",
         "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Enjoy",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Bushido Wildcats",
         "team_name": "ex-6666",
         "won": true,
-        "kills": 20,
-        "deaths": 32,
-        "kd_ratio": 0.62,
-        "adr": 52.1,
-        "kast": 69.6,
-        "rating": 0.68,
+        "kills": 26,
+        "deaths": 28,
+        "kd_ratio": 0.93,
+        "adr": 72.5,
+        "kast": 77.5,
+        "rating": 1.14,
         "maps": 3
       },
       "form_summary": {
@@ -39535,18 +39930,18 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399467",
+        "match_id": "hltv:2399302",
         "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Enjoy",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Bushido Wildcats",
         "team_name": "ex-6666",
         "won": true,
-        "kills": 39,
-        "deaths": 24,
-        "kd_ratio": 1.62,
-        "adr": 94.4,
-        "kast": 82.6,
-        "rating": 1.44,
+        "kills": 25,
+        "deaths": 22,
+        "kd_ratio": 1.14,
+        "adr": 68.6,
+        "kast": 80,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
@@ -42569,9 +42964,59 @@
       "traits": {},
       "hltv_player_id": "6536",
       "source_url": "https://www.hltv.org/player/6536/lcs",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399671",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "your end",
+          "won": true,
+          "kills": 25,
+          "deaths": 26,
+          "kd_ratio": 0.96,
+          "adr": 67.6,
+          "kast": 70.3,
+          "rating": 1,
+          "maps": 2
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "your end",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1,
+          "average_adr": 67.6
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399671",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "JOGA DE TERNO",
+        "team_name": "your end",
+        "won": true,
+        "kills": 25,
+        "deaths": 26,
+        "kd_ratio": 0.96,
+        "adr": 67.6,
+        "kast": 70.3,
+        "rating": 1,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1,
+        "average_adr": 67.6,
+        "recent_rating": 1,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24328",
@@ -42583,9 +43028,59 @@
       "traits": {},
       "hltv_player_id": "24328",
       "source_url": "https://www.hltv.org/player/24328/lukita",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399671",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "your end",
+          "won": true,
+          "kills": 19,
+          "deaths": 27,
+          "kd_ratio": 0.7,
+          "adr": 59.4,
+          "kast": 62.2,
+          "rating": 0.69,
+          "maps": 2
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "your end",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.69,
+          "average_adr": 59.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399671",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "JOGA DE TERNO",
+        "team_name": "your end",
+        "won": true,
+        "kills": 19,
+        "deaths": 27,
+        "kd_ratio": 0.7,
+        "adr": 59.4,
+        "kast": 62.2,
+        "rating": 0.69,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.69,
+        "average_adr": 59.4,
+        "recent_rating": 0.69,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25031",
@@ -42597,9 +43092,59 @@
       "traits": {},
       "hltv_player_id": "25031",
       "source_url": "https://www.hltv.org/player/25031/rx",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399671",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "your end",
+          "won": true,
+          "kills": 18,
+          "deaths": 27,
+          "kd_ratio": 0.67,
+          "adr": 67.4,
+          "kast": 62.2,
+          "rating": 0.89,
+          "maps": 2
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "your end",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.89,
+          "average_adr": 67.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399671",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "JOGA DE TERNO",
+        "team_name": "your end",
+        "won": true,
+        "kills": 18,
+        "deaths": 27,
+        "kd_ratio": 0.67,
+        "adr": 67.4,
+        "kast": 62.2,
+        "rating": 0.89,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.89,
+        "average_adr": 67.4,
+        "recent_rating": 0.89,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25033",
@@ -42611,9 +43156,59 @@
       "traits": {},
       "hltv_player_id": "25033",
       "source_url": "https://www.hltv.org/player/25033/cr1a",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399671",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "your end",
+          "won": true,
+          "kills": 27,
+          "deaths": 27,
+          "kd_ratio": 1,
+          "adr": 66.1,
+          "kast": 70.3,
+          "rating": 0.92,
+          "maps": 2
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "your end",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.92,
+          "average_adr": 66.1
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399671",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "JOGA DE TERNO",
+        "team_name": "your end",
+        "won": true,
+        "kills": 27,
+        "deaths": 27,
+        "kd_ratio": 1,
+        "adr": 66.1,
+        "kast": 70.3,
+        "rating": 0.92,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.92,
+        "average_adr": 66.1,
+        "recent_rating": 0.92,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25034",
@@ -42625,9 +43220,59 @@
       "traits": {},
       "hltv_player_id": "25034",
       "source_url": "https://www.hltv.org/player/25034/ghost1",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399671",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "your end",
+          "won": true,
+          "kills": 27,
+          "deaths": 24,
+          "kd_ratio": 1.12,
+          "adr": 85.4,
+          "kast": 67.6,
+          "rating": 1.36,
+          "maps": 2
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "your end",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.36,
+          "average_adr": 85.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399671",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "JOGA DE TERNO",
+        "team_name": "your end",
+        "won": true,
+        "kills": 27,
+        "deaths": 24,
+        "kd_ratio": 1.12,
+        "adr": 85.4,
+        "kast": 67.6,
+        "rating": 1.36,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.36,
+        "average_adr": 85.4,
+        "recent_rating": 1.36,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:26888",
@@ -42980,6 +43625,21 @@
           "kast": 64.3,
           "rating": 0.72,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399308",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Lavked",
+          "won": false,
+          "kills": 7,
+          "deaths": 14,
+          "kd_ratio": 0.5,
+          "adr": 57.9,
+          "kast": 63.2,
+          "rating": 0.73,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -42987,21 +43647,36 @@
         {
           "team_name": "Lavked",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-15",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
           "average_rating": 0.72,
-          "average_adr": 62.9
+          "average_adr": 60.4
         }
       ],
       "form_summary": {
-        "series": 1,
+        "series": 2,
         "average_rating": 0.72,
-        "average_adr": 62.9,
+        "average_adr": 60.4,
         "recent_rating": 0.72,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399308",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Lavked",
+        "won": false,
+        "kills": 7,
+        "deaths": 14,
+        "kd_ratio": 0.5,
+        "adr": 57.9,
+        "kast": 63.2,
+        "rating": 0.73,
+        "maps": 3
       }
     },
     {
@@ -43029,6 +43704,21 @@
           "kast": 64.3,
           "rating": 1.15,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399308",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Lavked",
+          "won": false,
+          "kills": 16,
+          "deaths": 14,
+          "kd_ratio": 1.14,
+          "adr": 79.1,
+          "kast": 63.2,
+          "rating": 1.21,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -43036,21 +43726,36 @@
         {
           "team_name": "Lavked",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-15",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.15,
-          "average_adr": 80.4
+          "average_rating": 1.18,
+          "average_adr": 79.8
         }
       ],
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.15,
-        "average_adr": 80.4,
-        "recent_rating": 1.15,
+        "series": 2,
+        "average_rating": 1.18,
+        "average_adr": 79.8,
+        "recent_rating": 1.18,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399308",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Lavked",
+        "won": false,
+        "kills": 16,
+        "deaths": 14,
+        "kd_ratio": 1.14,
+        "adr": 79.1,
+        "kast": 63.2,
+        "rating": 1.21,
+        "maps": 3
       }
     },
     {
@@ -43600,12 +44305,12 @@
           "opponent_name": "Spirit Academy",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 9,
-          "deaths": 16,
-          "kd_ratio": 0.56,
-          "adr": 57.2,
-          "kast": 60,
-          "rating": 0.52,
+          "kills": 14,
+          "deaths": 30,
+          "kd_ratio": 0.47,
+          "adr": 49.9,
+          "kast": 59,
+          "rating": 0.56,
           "maps": 3
         }
       ],
@@ -43616,19 +44321,19 @@
         "opponent_name": "Spirit Academy",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 9,
-        "deaths": 16,
-        "kd_ratio": 0.56,
-        "adr": 57.2,
-        "kast": 60,
-        "rating": 0.52,
+        "kills": 14,
+        "deaths": 30,
+        "kd_ratio": 0.47,
+        "adr": 49.9,
+        "kast": 59,
+        "rating": 0.56,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.8,
-        "average_adr": 72.6,
-        "recent_rating": 0.8,
+        "average_rating": 0.82,
+        "average_adr": 68.9,
+        "recent_rating": 0.82,
         "rating_delta": null
       },
       "map_profile": [],
@@ -43641,8 +44346,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.8,
-          "average_adr": 72.6
+          "average_rating": 0.82,
+          "average_adr": 68.9
         }
       ]
     },
@@ -43679,12 +44384,12 @@
           "opponent_name": "Spirit Academy",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 15,
-          "deaths": 12,
-          "kd_ratio": 1.25,
-          "adr": 68.2,
-          "kast": 70,
-          "rating": 1.05,
+          "kills": 21,
+          "deaths": 28,
+          "kd_ratio": 0.75,
+          "adr": 54.7,
+          "kast": 56.4,
+          "rating": 0.74,
           "maps": 3
         }
       ],
@@ -43695,19 +44400,19 @@
         "opponent_name": "Spirit Academy",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 15,
-        "deaths": 12,
-        "kd_ratio": 1.25,
-        "adr": 68.2,
-        "kast": 70,
-        "rating": 1.05,
+        "kills": 21,
+        "deaths": 28,
+        "kd_ratio": 0.75,
+        "adr": 54.7,
+        "kast": 56.4,
+        "rating": 0.74,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.99,
-        "average_adr": 64.9,
-        "recent_rating": 0.99,
+        "average_rating": 0.83,
+        "average_adr": 58.2,
+        "recent_rating": 0.83,
         "rating_delta": null
       },
       "map_profile": [],
@@ -43720,8 +44425,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.99,
-          "average_adr": 64.9
+          "average_rating": 0.83,
+          "average_adr": 58.2
         }
       ]
     },
@@ -43758,12 +44463,12 @@
           "opponent_name": "Spirit Academy",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 12,
-          "deaths": 15,
-          "kd_ratio": 0.8,
-          "adr": 75.2,
-          "kast": 65,
-          "rating": 0.89,
+          "kills": 23,
+          "deaths": 32,
+          "kd_ratio": 0.72,
+          "adr": 73.7,
+          "kast": 66.7,
+          "rating": 0.82,
           "maps": 3
         }
       ],
@@ -43774,19 +44479,19 @@
         "opponent_name": "Spirit Academy",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 12,
-        "deaths": 15,
-        "kd_ratio": 0.8,
-        "adr": 75.2,
-        "kast": 65,
-        "rating": 0.89,
+        "kills": 23,
+        "deaths": 32,
+        "kd_ratio": 0.72,
+        "adr": 73.7,
+        "kast": 66.7,
+        "rating": 0.82,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1,
-        "average_adr": 70.9,
-        "recent_rating": 1,
+        "average_rating": 0.97,
+        "average_adr": 70.2,
+        "recent_rating": 0.97,
         "rating_delta": null
       },
       "map_profile": [],
@@ -43799,8 +44504,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 1,
-          "average_adr": 70.9
+          "average_rating": 0.97,
+          "average_adr": 70.2
         }
       ]
     },
@@ -43837,12 +44542,12 @@
           "opponent_name": "Spirit Academy",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 12,
-          "deaths": 12,
-          "kd_ratio": 1,
-          "adr": 63.3,
-          "kast": 70,
-          "rating": 0.96,
+          "kills": 25,
+          "deaths": 28,
+          "kd_ratio": 0.89,
+          "adr": 71.5,
+          "kast": 71.8,
+          "rating": 0.9,
           "maps": 3
         }
       ],
@@ -43853,19 +44558,19 @@
         "opponent_name": "Spirit Academy",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 12,
-        "deaths": 12,
-        "kd_ratio": 1,
-        "adr": 63.3,
-        "kast": 70,
-        "rating": 0.96,
+        "kills": 25,
+        "deaths": 28,
+        "kd_ratio": 0.89,
+        "adr": 71.5,
+        "kast": 71.8,
+        "rating": 0.9,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.83,
-        "average_adr": 56.8,
-        "recent_rating": 0.83,
+        "average_rating": 0.8,
+        "average_adr": 60.9,
+        "recent_rating": 0.8,
         "rating_delta": null
       },
       "map_profile": [],
@@ -43878,8 +44583,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.83,
-          "average_adr": 56.8
+          "average_rating": 0.8,
+          "average_adr": 60.9
         }
       ]
     },
@@ -43916,12 +44621,12 @@
           "opponent_name": "Spirit Academy",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 13,
-          "deaths": 14,
-          "kd_ratio": 0.93,
-          "adr": 69.1,
-          "kast": 75,
-          "rating": 0.92,
+          "kills": 32,
+          "deaths": 27,
+          "kd_ratio": 1.19,
+          "adr": 75.1,
+          "kast": 69.2,
+          "rating": 1.15,
           "maps": 3
         }
       ],
@@ -43932,19 +44637,19 @@
         "opponent_name": "Spirit Academy",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 13,
-        "deaths": 14,
-        "kd_ratio": 0.93,
-        "adr": 69.1,
-        "kast": 75,
-        "rating": 0.92,
+        "kills": 32,
+        "deaths": 27,
+        "kd_ratio": 1.19,
+        "adr": 75.1,
+        "kast": 69.2,
+        "rating": 1.15,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.99,
-        "average_adr": 75.8,
-        "recent_rating": 0.99,
+        "average_rating": 1.1,
+        "average_adr": 78.8,
+        "recent_rating": 1.1,
         "rating_delta": null
       },
       "map_profile": [],
@@ -43957,8 +44662,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.99,
-          "average_adr": 75.8
+          "average_rating": 1.1,
+          "average_adr": 78.8
         }
       ]
     },
@@ -44401,6 +45106,21 @@
           "kast": 66,
           "rating": 1.06,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399308",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 8,
+          "deaths": 10,
+          "kd_ratio": 0.8,
+          "adr": 37.4,
+          "kast": 73.7,
+          "rating": 0.77,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -44408,35 +45128,35 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1,
-          "average_adr": 58.9
+          "average_rating": 0.92,
+          "average_adr": 51.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399301",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399308",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Lavked",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 23,
-        "deaths": 24,
-        "kd_ratio": 0.96,
-        "adr": 60.2,
-        "kast": 71.4,
-        "rating": 0.94,
+        "kills": 8,
+        "deaths": 10,
+        "kd_ratio": 0.8,
+        "adr": 37.4,
+        "kast": 73.7,
+        "rating": 0.77,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1,
-        "average_adr": 58.9,
-        "recent_rating": 1,
+        "series": 3,
+        "average_rating": 0.92,
+        "average_adr": 51.7,
+        "recent_rating": 0.92,
         "rating_delta": null
       }
     },
@@ -44480,6 +45200,21 @@
           "kast": 74.5,
           "rating": 1.24,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399308",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 21,
+          "deaths": 9,
+          "kd_ratio": 2.33,
+          "adr": 110.6,
+          "kast": 78.9,
+          "rating": 1.85,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -44487,35 +45222,35 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.21,
-          "average_adr": 73.4
+          "average_rating": 1.43,
+          "average_adr": 85.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399301",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399308",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Lavked",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 27,
-        "deaths": 23,
-        "kd_ratio": 1.17,
-        "adr": 74.9,
-        "kast": 73.8,
-        "rating": 1.19,
+        "kills": 21,
+        "deaths": 9,
+        "kd_ratio": 2.33,
+        "adr": 110.6,
+        "kast": 78.9,
+        "rating": 1.85,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.21,
-        "average_adr": 73.4,
-        "recent_rating": 1.21,
+        "series": 3,
+        "average_rating": 1.43,
+        "average_adr": 85.8,
+        "recent_rating": 1.43,
         "rating_delta": null
       }
     },
@@ -44559,6 +45294,21 @@
           "kast": 80.9,
           "rating": 1.08,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399308",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 9,
+          "deaths": 11,
+          "kd_ratio": 0.82,
+          "adr": 50.5,
+          "kast": 78.9,
+          "rating": 1.09,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -44566,35 +45316,35 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.4,
-          "average_adr": 82.9
+          "average_rating": 1.29,
+          "average_adr": 72.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399301",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399308",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Lavked",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 43,
-        "deaths": 21,
-        "kd_ratio": 2.05,
-        "adr": 100.9,
-        "kast": 78.6,
-        "rating": 1.71,
+        "kills": 9,
+        "deaths": 11,
+        "kd_ratio": 0.82,
+        "adr": 50.5,
+        "kast": 78.9,
+        "rating": 1.09,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.4,
-        "average_adr": 82.9,
-        "recent_rating": 1.4,
+        "series": 3,
+        "average_rating": 1.29,
+        "average_adr": 72.1,
+        "recent_rating": 1.29,
         "rating_delta": null
       }
     },
@@ -44638,6 +45388,21 @@
           "kast": 68.1,
           "rating": 1.04,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399308",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 15,
+          "deaths": 11,
+          "kd_ratio": 1.36,
+          "adr": 104.5,
+          "kast": 73.7,
+          "rating": 1.4,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -44645,35 +45410,35 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.21,
-          "average_adr": 84.8
+          "average_rating": 1.27,
+          "average_adr": 91.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399301",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399308",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Lavked",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 39,
-        "deaths": 29,
-        "kd_ratio": 1.34,
-        "adr": 87.3,
-        "kast": 73.8,
-        "rating": 1.37,
+        "kills": 15,
+        "deaths": 11,
+        "kd_ratio": 1.36,
+        "adr": 104.5,
+        "kast": 73.7,
+        "rating": 1.4,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.21,
-        "average_adr": 84.8,
-        "recent_rating": 1.21,
+        "series": 3,
+        "average_rating": 1.27,
+        "average_adr": 91.4,
+        "recent_rating": 1.27,
         "rating_delta": null
       }
     },
@@ -44717,6 +45482,21 @@
           "kast": 72.3,
           "rating": 1.36,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399308",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 17,
+          "deaths": 10,
+          "kd_ratio": 1.7,
+          "adr": 89.3,
+          "kast": 84.2,
+          "rating": 1.63,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -44724,35 +45504,35 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.26,
-          "average_adr": 82.5
+          "average_rating": 1.38,
+          "average_adr": 84.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399301",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399308",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Lavked",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 28,
-        "deaths": 25,
-        "kd_ratio": 1.12,
-        "adr": 79.5,
-        "kast": 81,
-        "rating": 1.16,
+        "kills": 17,
+        "deaths": 10,
+        "kd_ratio": 1.7,
+        "adr": 89.3,
+        "kast": 84.2,
+        "rating": 1.63,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.26,
-        "average_adr": 82.5,
-        "recent_rating": 1.26,
+        "series": 3,
+        "average_rating": 1.38,
+        "average_adr": 84.7,
+        "recent_rating": 1.38,
         "rating_delta": null
       }
     },
@@ -47123,6 +47903,21 @@
           "kast": 84.8,
           "rating": 1.5,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399671",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "your end",
+          "team_name": "JOGA DE TERNO",
+          "won": false,
+          "kills": 21,
+          "deaths": 22,
+          "kd_ratio": 0.95,
+          "adr": 64.2,
+          "kast": 62.2,
+          "rating": 0.9,
+          "maps": 2
         }
       ],
       "map_profile": [],
@@ -47130,35 +47925,35 @@
         {
           "team_name": "JOGA DE TERNO",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.5,
-          "average_adr": 80.9
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.2,
+          "average_adr": 72.6
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399575",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399671",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "A NATA",
+        "opponent_name": "your end",
         "team_name": "JOGA DE TERNO",
-        "won": true,
-        "kills": 26,
-        "deaths": 11,
-        "kd_ratio": 2.36,
-        "adr": 80.9,
-        "kast": 84.8,
-        "rating": 1.5,
-        "maps": 3
+        "won": false,
+        "kills": 21,
+        "deaths": 22,
+        "kd_ratio": 0.95,
+        "adr": 64.2,
+        "kast": 62.2,
+        "rating": 0.9,
+        "maps": 2
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.5,
-        "average_adr": 80.9,
-        "recent_rating": 1.5,
+        "series": 2,
+        "average_rating": 1.2,
+        "average_adr": 72.6,
+        "recent_rating": 1.2,
         "rating_delta": null
       }
     },
@@ -48542,9 +49337,59 @@
       "traits": {},
       "hltv_player_id": "17656",
       "source_url": "https://www.hltv.org/player/17656/frazehh",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "mellren",
+          "team_name": "Privateer",
+          "won": false,
+          "kills": 24,
+          "deaths": 26,
+          "kd_ratio": 0.92,
+          "adr": 71.7,
+          "kast": 57.9,
+          "rating": 1.05,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Privateer",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.05,
+          "average_adr": 71.7
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "mellren",
+        "team_name": "Privateer",
+        "won": false,
+        "kills": 24,
+        "deaths": 26,
+        "kd_ratio": 0.92,
+        "adr": 71.7,
+        "kast": 57.9,
+        "rating": 1.05,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.05,
+        "average_adr": 71.7,
+        "recent_rating": 1.05,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:21990",
@@ -48556,9 +49401,59 @@
       "traits": {},
       "hltv_player_id": "21990",
       "source_url": "https://www.hltv.org/player/21990/prime",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "mellren",
+          "team_name": "Privateer",
+          "won": false,
+          "kills": 20,
+          "deaths": 31,
+          "kd_ratio": 0.65,
+          "adr": 63.4,
+          "kast": 55.3,
+          "rating": 0.79,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Privateer",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.79,
+          "average_adr": 63.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "mellren",
+        "team_name": "Privateer",
+        "won": false,
+        "kills": 20,
+        "deaths": 31,
+        "kd_ratio": 0.65,
+        "adr": 63.4,
+        "kast": 55.3,
+        "rating": 0.79,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.79,
+        "average_adr": 63.4,
+        "recent_rating": 0.79,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:22519",
@@ -48570,9 +49465,59 @@
       "traits": {},
       "hltv_player_id": "22519",
       "source_url": "https://www.hltv.org/player/22519/moz",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "mellren",
+          "team_name": "Privateer",
+          "won": false,
+          "kills": 18,
+          "deaths": 31,
+          "kd_ratio": 0.58,
+          "adr": 53.7,
+          "kast": 47.4,
+          "rating": 0.56,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Privateer",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.56,
+          "average_adr": 53.7
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "mellren",
+        "team_name": "Privateer",
+        "won": false,
+        "kills": 18,
+        "deaths": 31,
+        "kd_ratio": 0.58,
+        "adr": 53.7,
+        "kast": 47.4,
+        "rating": 0.56,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.56,
+        "average_adr": 53.7,
+        "recent_rating": 0.56,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:25923",
@@ -48584,9 +49529,59 @@
       "traits": {},
       "hltv_player_id": "25923",
       "source_url": "https://www.hltv.org/player/25923/m1n1mal",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "mellren",
+          "team_name": "Privateer",
+          "won": false,
+          "kills": 22,
+          "deaths": 31,
+          "kd_ratio": 0.71,
+          "adr": 70,
+          "kast": 65.8,
+          "rating": 0.96,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Privateer",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.96,
+          "average_adr": 70
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "mellren",
+        "team_name": "Privateer",
+        "won": false,
+        "kills": 22,
+        "deaths": 31,
+        "kd_ratio": 0.71,
+        "adr": 70,
+        "kast": 65.8,
+        "rating": 0.96,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.96,
+        "average_adr": 70,
+        "recent_rating": 0.96,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:26878",
@@ -48598,12 +49593,62 @@
       "traits": {},
       "hltv_player_id": "26878",
       "source_url": "https://www.hltv.org/player/26878/amqn",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "mellren",
+          "team_name": "Privateer",
+          "won": false,
+          "kills": 24,
+          "deaths": 29,
+          "kd_ratio": 0.83,
+          "adr": 66.8,
+          "kast": 52.6,
+          "rating": 1.17,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "Privateer",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.17,
+          "average_adr": 66.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "mellren",
+        "team_name": "Privateer",
+        "won": false,
+        "kills": 24,
+        "deaths": 29,
+        "kd_ratio": 0.83,
+        "adr": 66.8,
+        "kast": 52.6,
+        "rating": 1.17,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.17,
+        "average_adr": 66.8,
+        "recent_rating": 1.17,
+        "rating_delta": null
+      }
     }
   ],
-  "lineups_updated_at_utc": "2026-10-16T12:30:43Z",
+  "lineups_updated_at_utc": "2026-10-16T17:26:43Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-16",
   "history_profile_count": 53,

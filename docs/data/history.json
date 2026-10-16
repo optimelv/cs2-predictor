@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-16T12:30:43Z",
+  "generated_at_utc": "2026-10-16T17:26:43Z",
   "through_date": "2026-10-16",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3959,
-    "maps": 2846,
-    "lineup_rows": 9312,
+    "matches": 3963,
+    "maps": 2857,
+    "lineup_rows": 9352,
     "source_match_ids": 976
   },
   "matches": [
@@ -341,6 +341,223 @@
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_A"
     },
     {
+      "match_id": "hltv:2399307",
+      "match_date": "2026-10-16",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Saint Sinners",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "Saint Sinners",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 8,
+          "winner_name": "ex-RUSTEC",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 1,
+          "winner_name": "ex-RUSTEC",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "shalfey",
+          "youka",
+          "bl1x1",
+          "yiksrezo",
+          "Brilliance"
+        ],
+        "team2": [
+          "deb0",
+          "Caleyy",
+          "pavlysha666",
+          "iRV1NG",
+          "halfjix"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399671",
+      "match_date": "2026-10-16",
+      "event_name": "CCT 2026 South America Series 7",
+      "team1_name": "JOGA DE TERNO",
+      "team2_name": "your end",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "your end",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 5,
+          "winner_name": "JOGA DE TERNO",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 6,
+          "score2": 13,
+          "winner_name": "your end",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "ntx",
+          "Tineu",
+          "ALENNNCAR",
+          "vzn",
+          "khowy"
+        ],
+        "team2": [
+          "Lcs",
+          "Lukita",
+          "rx",
+          "Cr1a",
+          "ghosT1"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399308",
+      "match_date": "2026-10-16",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "FORZE Reload",
+      "team2_name": "Lavked",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FORZE Reload",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "FORZE Reload",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 5,
+          "winner_name": "FORZE Reload",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Lavked",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "YumsaN",
+          "HeCkBNk",
+          "KusMe",
+          "Lack1",
+          "relaxxie"
+        ],
+        "team2": [
+          "xm1nd",
+          "azukay",
+          "k4nfuz",
+          "1NVISIBLEE",
+          "jakekeS"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399471",
+      "match_date": "2026-10-16",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "team1_name": "mellren",
+      "team2_name": "Privateer",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 2,
+          "winner_name": "mellren",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": 10,
+          "score2": 13,
+          "winner_name": "Privateer",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 6,
+          "score2": 6,
+          "winner_name": "Privateer",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "lollipop21k",
+          "menddel",
+          "mdl",
+          "shootic",
+          "Maksilvl"
+        ],
+        "team2": [
+          "Frazehh",
+          "Prime",
+          "moz",
+          "M1n1maL",
+          "Amqn"
+        ]
+      }
+    },
+    {
       "match_id": "hltv:2399205",
       "match_date": "2026-10-15",
       "event_name": "ESL Challenger League Season 52 South America Cup 3",
@@ -551,7 +768,7 @@
       "winner_name": "ex-6666",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -909,7 +1126,7 @@
       "winner_name": "LFO 10",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
