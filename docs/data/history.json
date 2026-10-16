@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-16T21:15:57Z",
+  "generated_at_utc": "2026-10-16T23:38:00Z",
   "through_date": "2026-10-16",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3940,
-    "maps": 2857,
-    "lineup_rows": 9362,
+    "matches": 3941,
+    "maps": 2863,
+    "lineup_rows": 9382,
     "source_match_ids": 976
   },
   "matches": [
@@ -1010,7 +1010,7 @@
       "winner_name": "mellren",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
+      "phase": "Scheduled series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -1349,28 +1349,6 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Group_A"
-    },
-    {
-      "match_id": "liquipedia:a7b5f05211b4da6aa24d",
-      "match_date": "2026-10-15",
-      "starts_at": "2026-10-15T11:30:00Z",
-      "event_name": "Thunderpick World Champ. '26 - Group A",
-      "team1_name": "9z",
-      "team2_name": "Falcons",
-      "score1": 1,
-      "score2": 2,
-      "winner_name": "Falcons",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_A"
     },
     {
       "match_id": "liquipedia:9989e60c62de455fe445",
@@ -1716,6 +1694,126 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_B"
+    },
+    {
+      "match_id": "hltv:2399409",
+      "match_date": "2026-10-15",
+      "event_name": "Thunderpick World Championship 2026",
+      "team1_name": "9z",
+      "team2_name": "Falcons",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Falcons",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "score1": 9,
+          "score2": 13,
+          "winner_name": "Falcons",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 8,
+          "winner_name": "9z",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 9,
+          "score2": 13,
+          "winner_name": "Falcons",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "dgt",
+          "max",
+          "meyern",
+          "luchov",
+          "HUASOPEEK"
+        ],
+        "team2": [
+          "karrigan",
+          "NiKo",
+          "m0NESY",
+          "TeSeS",
+          "kyousuke"
+        ]
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:a7b5f05211b4da6aa24d",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_A",
+          "starts_at": "2026-10-15T11:30:00Z"
+        }
+      ]
+    },
+    {
+      "match_id": "hltv:2399410",
+      "match_date": "2026-10-15",
+      "event_name": "Thunderpick World Championship 2026",
+      "team1_name": "PARIVISION",
+      "team2_name": "BETBOOM",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "BETBOOM",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "PARIVISION",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": 4,
+          "score2": 13,
+          "winner_name": "BETBOOM",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 7,
+          "score2": 13,
+          "winner_name": "BETBOOM",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "zweih",
+          "Jame",
+          "xiELO",
+          "FL1T",
+          "HObbit"
+        ],
+        "team2": [
+          "Magnojez",
+          "Boombl4",
+          "d1Ledez",
+          "zorte",
+          "S1ren"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399232",
