@@ -13,7 +13,8 @@
     "tier-3",
     "d-tier",
     "d tier",
-    "excluded"
+    "excluded",
+    "tier3"
   ],
   "tier_one_aliases": [
     "tier_1",
@@ -115,6 +116,11 @@
       "Local Cup",
       "B-Tier",
       "pending"
+    ],
+    [
+      "Roman Imperium Cup IX",
+      "tier3",
+      "excluded"
     ]
   ]
 }
