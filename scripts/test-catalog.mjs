@@ -1,6 +1,6 @@
 import assert from "node:assert/strict";
 import { catalogManifest, queryCatalog, validateCatalogDatasets } from "../server/catalog.js";
-import { createDatasetLoader } from "../api/catalog.js";
+import catalogHandler, { createDatasetLoader } from "../api/catalog.js";
 
 const datasets = {
   live: {
@@ -115,3 +115,11 @@ assert.ok(!queryCatalog("matches", curated, { history: "1" }).data.some((row) =>
 
 const officialRankings = { ...datasets, predictions: { ...datasets.predictions, coverage: { vrs: { teams: [{ team_name: "Current Valve team", rank: 1, points: 1800 }] } } } };
 assert.equal(queryCatalog("rankings", officialRankings).data[0].team_name, "Current Valve team", "Official standings must take precedence over an empty or stale live collector ranking");
+
+let httpBody, httpStatus;
+await catalogHandler({ method: "GET", url: "/api/catalog?resource=rankings&limit=1&limit=2", get query() { throw new Error("Deprecated platform query parser was accessed"); } }, {
+  setHeader() {}, status(value) { httpStatus = value; return this; }, json(value) { httpBody = value; return this; },
+});
+assert.equal(httpStatus, 200);
+assert.equal(httpBody.resource, "rankings");
+assert.equal(httpBody.data.length, 1, "Repeated parameters retain the original first-value behavior");

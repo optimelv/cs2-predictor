@@ -30,9 +30,11 @@ export default async function handler(request, response) {
 
   try {
     const datasets = await loadDatasets();
-    const resource = String(request.query?.resource || "").toLowerCase();
+    const params = new URL(request.url || "/api/catalog", "https://strikesignal.invalid").searchParams;
+    const query = Object.fromEntries([...params.keys()].map((key) => [key, params.get(key)]));
+    const resource = String(query.resource || "").toLowerCase();
     if (!resource) return response.status(200).json(catalogManifest(datasets));
-    const result = queryCatalog(resource, datasets, request.query || {});
+    const result = queryCatalog(resource, datasets, query);
     if (result.error) return response.status(result.status).json({ ok: false, error: result.error });
     return response.status(200).json(result);
   } catch {
