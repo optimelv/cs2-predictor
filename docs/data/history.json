@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3937,
+    "matches": 3940,
     "maps": 2857,
     "lineup_rows": 9362,
     "source_match_ids": 976
@@ -627,6 +627,72 @@
           "yksjupe"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:88c72f3656ea1624ec23",
+      "match_date": "2026-10-16",
+      "starts_at": "2026-10-16T14:00:00Z",
+      "event_name": "Stake Pulse Beat III - Playoffs",
+      "team1_name": "Astralis",
+      "team2_name": "MIBR",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MIBR",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:e312a40ef7ffcb3bb8a7",
+      "match_date": "2026-10-16",
+      "starts_at": "2026-10-16T17:00:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Group B",
+      "team1_name": "BB",
+      "team2_name": "Legacy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BB",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:71953203a2dc1d151701",
+      "match_date": "2026-10-16",
+      "starts_at": "2026-10-16T17:35:00Z",
+      "event_name": "Stake Pulse Beat III - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "Sangal",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "100T",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Playoffs"
     },
     {
       "match_id": "hltv:2399205",
