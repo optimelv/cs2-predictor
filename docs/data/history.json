@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3949,
+    "matches": 3950,
     "maps": 2838,
     "lineup_rows": 9282,
     "source_match_ids": 976
@@ -1083,6 +1083,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_D"
+    },
+    {
+      "match_id": "liquipedia:0e177d468a47bf1e71c5",
+      "match_date": "2026-10-15",
+      "starts_at": "2026-10-15T18:50:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Group B",
+      "team1_name": "FURIA",
+      "team2_name": "Legacy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_B"
     },
     {
       "match_id": "hltv:2399232",
