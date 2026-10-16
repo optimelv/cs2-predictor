@@ -1,6 +1,6 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-16T01:21:26Z",
+  "generated_at_utc": "2026-10-16T07:14:04Z",
   "through_date": "2026-10-16",
   "scope": {
     "tiers": [
@@ -102,26 +102,26 @@
         },
         {
           "map_name": "Dust2",
-          "score1": 6,
-          "score2": 6,
-          "winner_name": "Galorys",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "LP",
           "picked_by": null
         }
       ],
       "lineups": {
         "team1": [
-          "zmb",
           "pancc",
-          "Alisson",
           "happ",
-          "divine"
+          "zmb",
+          "divine",
+          "Alisson"
         ],
         "team2": [
           "PKL",
-          "destiny",
           "detr0ittJ",
+          "tomate",
           "gbb",
-          "tomate"
+          "destiny"
         ]
       }
     },
