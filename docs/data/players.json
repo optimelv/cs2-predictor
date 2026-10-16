@@ -3234,6 +3234,21 @@
           "kast": 81.6,
           "rating": 1.23,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-6666",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 55,
+          "deaths": 46,
+          "kd_ratio": 1.2,
+          "adr": 96.2,
+          "kast": 73.3,
+          "rating": 1.21,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -3242,12 +3257,12 @@
           "team_name": "mellren",
           "from_date": "2026-10-04",
           "through_date": "2026-10-16",
-          "series": 5,
-          "wins": 3,
+          "series": 6,
+          "wins": 4,
           "losses": 2,
-          "win_rate": 0.6,
-          "average_rating": 1.12,
-          "average_adr": 82.2
+          "win_rate": 0.667,
+          "average_rating": 1.14,
+          "average_adr": 84.5
         }
       ],
       "timeline_entry": {
@@ -3266,11 +3281,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.12,
-        "average_adr": 82.2,
-        "recent_rating": 1.17,
-        "rating_delta": 0.11
+        "series": 6,
+        "average_rating": 1.14,
+        "average_adr": 84.5,
+        "recent_rating": 1.23,
+        "rating_delta": 0.19
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -5459,6 +5474,21 @@
           "kast": 83.1,
           "rating": 1.35,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399657",
+          "date": "2026-10-16",
+          "event_name": "PGL Bucharest 2027 Closed Qualifier",
+          "opponent_name": "GamerLegion",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 34,
+          "deaths": 27,
+          "kd_ratio": 1.26,
+          "adr": 73.6,
+          "kast": 69.8,
+          "rating": 1.19,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -5467,12 +5497,12 @@
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
           "through_date": "2026-10-16",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.15,
-          "average_adr": 75.7
+          "win_rate": 0.75,
+          "average_rating": 1.16,
+          "average_adr": 75.2
         }
       ],
       "timeline_entry": {
@@ -5491,11 +5521,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.15,
-        "average_adr": 75.7,
-        "recent_rating": 1.15,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.16,
+        "average_adr": 75.2,
+        "recent_rating": 1.22,
+        "rating_delta": 0.23
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -12138,6 +12168,21 @@
           "kast": 73.7,
           "rating": 1.15,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-6666",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 48,
+          "deaths": 35,
+          "kd_ratio": 1.37,
+          "adr": 83.9,
+          "kast": 78.3,
+          "rating": 1.33,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -12146,12 +12191,12 @@
           "team_name": "mellren",
           "from_date": "2026-10-04",
           "through_date": "2026-10-16",
-          "series": 5,
-          "wins": 3,
+          "series": 6,
+          "wins": 4,
           "losses": 2,
-          "win_rate": 0.6,
-          "average_rating": 0.95,
-          "average_adr": 71
+          "win_rate": 0.667,
+          "average_rating": 1.02,
+          "average_adr": 73.1
         }
       ],
       "timeline_entry": {
@@ -12170,11 +12215,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.95,
-        "average_adr": 71,
-        "recent_rating": 0.97,
-        "rating_delta": 0.05
+        "series": 6,
+        "average_rating": 1.02,
+        "average_adr": 73.1,
+        "recent_rating": 1.15,
+        "rating_delta": 0.27
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -12246,6 +12291,21 @@
           "kast": 83.1,
           "rating": 1.56,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399657",
+          "date": "2026-10-16",
+          "event_name": "PGL Bucharest 2027 Closed Qualifier",
+          "opponent_name": "GamerLegion",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 27,
+          "deaths": 29,
+          "kd_ratio": 0.93,
+          "adr": 69.4,
+          "kast": 74.4,
+          "rating": 1.01,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -12254,12 +12314,12 @@
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
           "through_date": "2026-10-16",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.36,
-          "average_adr": 85.1
+          "win_rate": 0.75,
+          "average_rating": 1.27,
+          "average_adr": 81.2
         }
       ],
       "timeline_entry": {
@@ -12278,11 +12338,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.36,
-        "average_adr": 85.1,
-        "recent_rating": 1.36,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.27,
+        "average_adr": 81.2,
+        "recent_rating": 1.2,
+        "rating_delta": -0.3
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -12794,44 +12854,59 @@
           "kast": 71.2,
           "rating": 0.87,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399309",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "BAKS",
+          "team_name": "G2 Ares",
+          "won": false,
+          "kills": 30,
+          "deaths": 28,
+          "kd_ratio": 1.07,
+          "adr": 75.2,
+          "kast": 73.3,
+          "rating": 1.08,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24111",
       "source_url": "https://www.hltv.org/player/24111/junyme",
       "timeline_entry": {
-        "match_id": "hltv:2399300",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399309",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "The Last Resort",
+        "opponent_name": "BAKS",
         "team_name": "G2 Ares",
-        "won": true,
-        "kills": 37,
-        "deaths": 43,
-        "kd_ratio": 0.86,
-        "adr": 63.7,
-        "kast": 71.2,
-        "rating": 0.87,
+        "won": false,
+        "kills": 30,
+        "deaths": 28,
+        "kd_ratio": 1.07,
+        "adr": 75.2,
+        "kast": 73.3,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.18,
-        "average_adr": 75.6,
-        "recent_rating": 1.18,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.16,
+        "average_adr": 75.5,
+        "recent_rating": 1,
+        "rating_delta": -0.64
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-14",
-          "series": 3,
+          "through_date": "2026-10-16",
+          "series": 4,
           "wins": 2,
-          "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.18,
-          "average_adr": 75.6
+          "losses": 2,
+          "win_rate": 0.5,
+          "average_rating": 1.16,
+          "average_adr": 75.5
         }
       ],
       "kd_ratio_3m": null,
@@ -12902,44 +12977,59 @@
           "kast": 69.7,
           "rating": 1.26,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399309",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "BAKS",
+          "team_name": "G2 Ares",
+          "won": false,
+          "kills": 12,
+          "deaths": 33,
+          "kd_ratio": 0.36,
+          "adr": 41.7,
+          "kast": 48.9,
+          "rating": 0.46,
+          "maps": 3
         }
       ],
       "hltv_player_id": "23237",
       "source_url": "https://www.hltv.org/player/23237/tmkj",
       "timeline_entry": {
-        "match_id": "hltv:2399300",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399309",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "The Last Resort",
+        "opponent_name": "BAKS",
         "team_name": "G2 Ares",
-        "won": true,
-        "kills": 53,
-        "deaths": 42,
-        "kd_ratio": 1.26,
-        "adr": 80.5,
-        "kast": 69.7,
-        "rating": 1.26,
+        "won": false,
+        "kills": 12,
+        "deaths": 33,
+        "kd_ratio": 0.36,
+        "adr": 41.7,
+        "kast": 48.9,
+        "rating": 0.46,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.69,
-        "average_adr": 90.3,
-        "recent_rating": 1.69,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.38,
+        "average_adr": 78.1,
+        "recent_rating": 0.99,
+        "rating_delta": -1.55
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-14",
-          "series": 3,
+          "through_date": "2026-10-16",
+          "series": 4,
           "wins": 2,
-          "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.69,
-          "average_adr": 90.3
+          "losses": 2,
+          "win_rate": 0.5,
+          "average_rating": 1.38,
+          "average_adr": 78.1
         }
       ],
       "kd_ratio_3m": null,
@@ -13410,6 +13500,21 @@
           "kast": 83.6,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399309",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 29,
+          "deaths": 24,
+          "kd_ratio": 1.21,
+          "adr": 73.1,
+          "kast": 77.8,
+          "rating": 1.14,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25509",
@@ -13419,35 +13524,35 @@
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.02,
-          "average_adr": 67.7
+          "average_rating": 1.06,
+          "average_adr": 69.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399294",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399309",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "G2 Ares",
         "team_name": "BAKS",
         "won": true,
-        "kills": 27,
-        "deaths": 30,
-        "kd_ratio": 0.9,
-        "adr": 70,
-        "kast": 62.8,
-        "rating": 0.92,
+        "kills": 29,
+        "deaths": 24,
+        "kd_ratio": 1.21,
+        "adr": 73.1,
+        "kast": 77.8,
+        "rating": 1.14,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.02,
-        "average_adr": 67.7,
-        "recent_rating": 1.02,
+        "series": 3,
+        "average_rating": 1.06,
+        "average_adr": 69.5,
+        "recent_rating": 1.06,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -15310,6 +15415,21 @@
           "kast": 77.6,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399309",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 26,
+          "deaths": 26,
+          "kd_ratio": 1,
+          "adr": 66.3,
+          "kast": 77.8,
+          "rating": 0.96,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24316",
@@ -15319,35 +15439,35 @@
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.26,
-          "average_adr": 86.9
+          "average_rating": 1.16,
+          "average_adr": 80
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399294",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399309",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "G2 Ares",
         "team_name": "BAKS",
         "won": true,
-        "kills": 35,
-        "deaths": 29,
-        "kd_ratio": 1.21,
-        "adr": 98.9,
-        "kast": 76.7,
-        "rating": 1.4,
+        "kills": 26,
+        "deaths": 26,
+        "kd_ratio": 1,
+        "adr": 66.3,
+        "kast": 77.8,
+        "rating": 0.96,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.26,
-        "average_adr": 86.9,
-        "recent_rating": 1.26,
+        "series": 3,
+        "average_rating": 1.16,
+        "average_adr": 80,
+        "recent_rating": 1.16,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -16000,6 +16120,21 @@
           "kast": 81.4,
           "rating": 1.29,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399657",
+          "date": "2026-10-16",
+          "event_name": "PGL Bucharest 2027 Closed Qualifier",
+          "opponent_name": "GamerLegion",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 37,
+          "deaths": 27,
+          "kd_ratio": 1.37,
+          "adr": 77.5,
+          "kast": 79.1,
+          "rating": 1.36,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -16008,12 +16143,12 @@
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
           "through_date": "2026-10-16",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.17,
-          "average_adr": 80.4
+          "win_rate": 0.75,
+          "average_rating": 1.22,
+          "average_adr": 79.7
         }
       ],
       "timeline_entry": {
@@ -16032,11 +16167,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.17,
-        "average_adr": 80.4,
-        "recent_rating": 1.17,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.22,
+        "average_adr": 79.7,
+        "recent_rating": 1.22,
+        "rating_delta": 0
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -17536,6 +17671,21 @@
           "kast": 79.1,
           "rating": 1.27,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399309",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 36,
+          "deaths": 18,
+          "kd_ratio": 2,
+          "adr": 63.9,
+          "kast": 84.4,
+          "rating": 1.34,
+          "maps": 3
         }
       ],
       "hltv_player_id": "22039",
@@ -17545,35 +17695,35 @@
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.28,
-          "average_adr": 77.3
+          "average_rating": 1.3,
+          "average_adr": 72.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399294",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399309",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "G2 Ares",
         "team_name": "BAKS",
         "won": true,
-        "kills": 32,
-        "deaths": 21,
-        "kd_ratio": 1.52,
-        "adr": 68.9,
-        "kast": 83.7,
-        "rating": 1.29,
+        "kills": 36,
+        "deaths": 18,
+        "kd_ratio": 2,
+        "adr": 63.9,
+        "kast": 84.4,
+        "rating": 1.34,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.28,
-        "average_adr": 77.3,
-        "recent_rating": 1.28,
+        "series": 3,
+        "average_rating": 1.3,
+        "average_adr": 72.8,
+        "recent_rating": 1.3,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -19737,6 +19887,21 @@
           "kast": 78.9,
           "rating": 1.4,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-6666",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 45,
+          "deaths": 34,
+          "kd_ratio": 1.32,
+          "adr": 75.3,
+          "kast": 76.7,
+          "rating": 1.25,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -19745,12 +19910,12 @@
           "team_name": "mellren",
           "from_date": "2026-10-04",
           "through_date": "2026-10-16",
-          "series": 5,
-          "wins": 3,
+          "series": 6,
+          "wins": 4,
           "losses": 2,
-          "win_rate": 0.6,
-          "average_rating": 0.9,
-          "average_adr": 61.2
+          "win_rate": 0.667,
+          "average_rating": 0.96,
+          "average_adr": 63.5
         }
       ],
       "timeline_entry": {
@@ -19769,11 +19934,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.9,
-        "average_adr": 61.2,
-        "recent_rating": 1.02,
-        "rating_delta": 0.31
+        "series": 6,
+        "average_rating": 0.96,
+        "average_adr": 63.5,
+        "recent_rating": 1.17,
+        "rating_delta": 0.43
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -21411,6 +21576,21 @@
           "kast": 78.9,
           "rating": 1.14,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-6666",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 42,
+          "deaths": 38,
+          "kd_ratio": 1.11,
+          "adr": 75.7,
+          "kast": 78.3,
+          "rating": 1.14,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21419,10 +21599,10 @@
           "team_name": "mellren",
           "from_date": "2026-10-04",
           "through_date": "2026-10-16",
-          "series": 5,
-          "wins": 3,
+          "series": 6,
+          "wins": 4,
           "losses": 2,
-          "win_rate": 0.6,
+          "win_rate": 0.667,
           "average_rating": 1.11,
           "average_adr": 76
         }
@@ -21443,11 +21623,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
+        "series": 6,
         "average_rating": 1.11,
         "average_adr": 76,
-        "recent_rating": 1.08,
-        "rating_delta": -0.07
+        "recent_rating": 1.14,
+        "rating_delta": 0.06
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -27568,44 +27748,59 @@
           "kast": 80.3,
           "rating": 1.37,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399309",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "BAKS",
+          "team_name": "G2 Ares",
+          "won": false,
+          "kills": 38,
+          "deaths": 28,
+          "kd_ratio": 1.36,
+          "adr": 86.4,
+          "kast": 75.6,
+          "rating": 1.41,
+          "maps": 3
         }
       ],
       "hltv_player_id": "23544",
       "source_url": "https://www.hltv.org/player/23544/hitori",
       "timeline_entry": {
-        "match_id": "hltv:2399300",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399309",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "The Last Resort",
+        "opponent_name": "BAKS",
         "team_name": "G2 Ares",
-        "won": true,
-        "kills": 53,
-        "deaths": 44,
-        "kd_ratio": 1.2,
-        "adr": 100.4,
-        "kast": 80.3,
-        "rating": 1.37,
+        "won": false,
+        "kills": 38,
+        "deaths": 28,
+        "kd_ratio": 1.36,
+        "adr": 86.4,
+        "kast": 75.6,
+        "rating": 1.41,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.15,
-        "average_adr": 76.5,
-        "recent_rating": 1.15,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.22,
+        "average_adr": 79,
+        "recent_rating": 1.28,
+        "rating_delta": 0.25
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-14",
-          "series": 3,
+          "through_date": "2026-10-16",
+          "series": 4,
           "wins": 2,
-          "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.15,
-          "average_adr": 76.5
+          "losses": 2,
+          "win_rate": 0.5,
+          "average_rating": 1.22,
+          "average_adr": 79
         }
       ],
       "kd_ratio_3m": null,
@@ -32124,6 +32319,21 @@
           "kast": 81.6,
           "rating": 1.21,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-6666",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 39,
+          "deaths": 35,
+          "kd_ratio": 1.11,
+          "adr": 76.8,
+          "kast": 71.7,
+          "rating": 1.15,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -32132,12 +32342,12 @@
           "team_name": "mellren",
           "from_date": "2026-10-04",
           "through_date": "2026-10-16",
-          "series": 5,
-          "wins": 3,
+          "series": 6,
+          "wins": 4,
           "losses": 2,
-          "win_rate": 0.6,
-          "average_rating": 0.97,
-          "average_adr": 65
+          "win_rate": 0.667,
+          "average_rating": 1,
+          "average_adr": 67
         }
       ],
       "timeline_entry": {
@@ -32156,11 +32366,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.97,
-        "average_adr": 65,
-        "recent_rating": 0.97,
-        "rating_delta": 0
+        "series": 6,
+        "average_rating": 1,
+        "average_adr": 67,
+        "recent_rating": 1.09,
+        "rating_delta": 0.17
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -33892,44 +34102,59 @@
           "kast": 74.2,
           "rating": 1.02,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399309",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "BAKS",
+          "team_name": "G2 Ares",
+          "won": false,
+          "kills": 19,
+          "deaths": 30,
+          "kd_ratio": 0.63,
+          "adr": 44.2,
+          "kast": 68.9,
+          "rating": 0.68,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25576",
       "source_url": "https://www.hltv.org/player/25576/yksjupe",
       "timeline_entry": {
-        "match_id": "hltv:2399300",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399309",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "The Last Resort",
+        "opponent_name": "BAKS",
         "team_name": "G2 Ares",
-        "won": true,
-        "kills": 42,
-        "deaths": 43,
-        "kd_ratio": 0.98,
-        "adr": 78.6,
-        "kast": 74.2,
-        "rating": 1.02,
+        "won": false,
+        "kills": 19,
+        "deaths": 30,
+        "kd_ratio": 0.63,
+        "adr": 44.2,
+        "kast": 68.9,
+        "rating": 0.68,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.45,
-        "average_adr": 89.8,
-        "recent_rating": 1.45,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.26,
+        "average_adr": 78.4,
+        "recent_rating": 0.94,
+        "rating_delta": -1.28
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-14",
-          "series": 3,
+          "through_date": "2026-10-16",
+          "series": 4,
           "wins": 2,
-          "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.45,
-          "average_adr": 89.8
+          "losses": 2,
+          "win_rate": 0.5,
+          "average_rating": 1.26,
+          "average_adr": 78.4
         }
       ],
       "kd_ratio_3m": null,
@@ -35664,6 +35889,21 @@
           "kast": 79.1,
           "rating": 1.21,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399309",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 33,
+          "deaths": 25,
+          "kd_ratio": 1.32,
+          "adr": 83,
+          "kast": 80,
+          "rating": 1.38,
+          "maps": 3
         }
       ],
       "hltv_player_id": "19882",
@@ -35673,35 +35913,35 @@
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.1,
-          "average_adr": 75.4
+          "average_rating": 1.19,
+          "average_adr": 78
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399294",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399309",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "G2 Ares",
         "team_name": "BAKS",
         "won": true,
-        "kills": 24,
-        "deaths": 29,
-        "kd_ratio": 0.83,
-        "adr": 68.1,
-        "kast": 79.1,
-        "rating": 0.99,
+        "kills": 33,
+        "deaths": 25,
+        "kd_ratio": 1.32,
+        "adr": 83,
+        "kast": 80,
+        "rating": 1.38,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.1,
-        "average_adr": 75.4,
-        "recent_rating": 1.1,
+        "series": 3,
+        "average_rating": 1.19,
+        "average_adr": 78,
+        "recent_rating": 1.19,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -36587,6 +36827,21 @@
           "kast": 73.1,
           "rating": 0.95,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399309",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 28,
+          "deaths": 28,
+          "kd_ratio": 1,
+          "adr": 75.5,
+          "kast": 82.2,
+          "rating": 1.03,
+          "maps": 3
         }
       ],
       "hltv_player_id": "21447",
@@ -36596,35 +36851,35 @@
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.04,
-          "average_adr": 71.5
+          "average_rating": 1.03,
+          "average_adr": 72.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399294",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399309",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "G2 Ares",
         "team_name": "BAKS",
         "won": true,
-        "kills": 30,
-        "deaths": 22,
-        "kd_ratio": 1.36,
-        "adr": 68,
-        "kast": 72.1,
-        "rating": 1.12,
+        "kills": 28,
+        "deaths": 28,
+        "kd_ratio": 1,
+        "adr": 75.5,
+        "kast": 82.2,
+        "rating": 1.03,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.04,
-        "average_adr": 71.5,
-        "recent_rating": 1.04,
+        "series": 3,
+        "average_rating": 1.03,
+        "average_adr": 72.8,
+        "recent_rating": 1.03,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -41208,6 +41463,21 @@
           "kast": 78,
           "rating": 1.03,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399657",
+          "date": "2026-10-16",
+          "event_name": "PGL Bucharest 2027 Closed Qualifier",
+          "opponent_name": "GamerLegion",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 24,
+          "deaths": 31,
+          "kd_ratio": 0.77,
+          "adr": 72.9,
+          "kast": 67.4,
+          "rating": 0.85,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -41216,12 +41486,12 @@
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
           "through_date": "2026-10-16",
-          "series": 3,
-          "wins": 2,
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 0.94,
-          "average_adr": 63.9
+          "win_rate": 0.75,
+          "average_rating": 0.92,
+          "average_adr": 66.2
         }
       ],
       "timeline_entry": {
@@ -41240,11 +41510,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.94,
-        "average_adr": 63.9,
-        "recent_rating": 0.94,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.92,
+        "average_adr": 66.2,
+        "recent_rating": 0.84,
+        "rating_delta": -0.31
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -45026,44 +45296,59 @@
           "kast": 74.2,
           "rating": 0.99,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399309",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "BAKS",
+          "team_name": "G2 Ares",
+          "won": false,
+          "kills": 20,
+          "deaths": 33,
+          "kd_ratio": 0.61,
+          "adr": 67,
+          "kast": 64.4,
+          "rating": 0.79,
+          "maps": 3
         }
       ],
       "hltv_player_id": "19065",
       "source_url": "https://www.hltv.org/player/19065/shine",
       "timeline_entry": {
-        "match_id": "hltv:2399300",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399309",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "The Last Resort",
+        "opponent_name": "BAKS",
         "team_name": "G2 Ares",
-        "won": true,
-        "kills": 42,
-        "deaths": 41,
-        "kd_ratio": 1.02,
-        "adr": 56,
-        "kast": 74.2,
-        "rating": 0.99,
+        "won": false,
+        "kills": 20,
+        "deaths": 33,
+        "kd_ratio": 0.61,
+        "adr": 67,
+        "kast": 64.4,
+        "rating": 0.79,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.06,
-        "average_adr": 62.7,
-        "recent_rating": 1.06,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.99,
+        "average_adr": 63.8,
+        "recent_rating": 0.87,
+        "rating_delta": -0.51
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-14",
-          "series": 3,
+          "through_date": "2026-10-16",
+          "series": 4,
           "wins": 2,
-          "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.06,
-          "average_adr": 62.7
+          "losses": 2,
+          "win_rate": 0.5,
+          "average_rating": 0.99,
+          "average_adr": 63.8
         }
       ],
       "kd_ratio_3m": null,
@@ -55035,6 +55320,21 @@
           "kast": 73.7,
           "rating": 1.4,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399657",
+          "date": "2026-10-16",
+          "event_name": "PGL Bucharest 2027 Closed Qualifier",
+          "opponent_name": "GamerLegion",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 36,
+          "deaths": 21,
+          "kd_ratio": 1.71,
+          "adr": 95.3,
+          "kast": 72.1,
+          "rating": 1.58,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -55049,6 +55349,17 @@
           "win_rate": 1,
           "average_rating": 1.27,
           "average_adr": 91.4
+        },
+        {
+          "team_name": "ex-RUSTEC",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.58,
+          "average_adr": 95.3
         }
       ],
       "timeline_entry": {
@@ -55067,11 +55378,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.27,
-        "average_adr": 91.4,
-        "recent_rating": 1.27,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.35,
+        "average_adr": 92.4,
+        "recent_rating": 1.34,
+        "rating_delta": -0.03
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -59423,7 +59734,7 @@
       }
     }
   ],
-  "lineups_updated_at_utc": "2026-10-16T19:40:05Z",
+  "lineups_updated_at_utc": "2026-10-16T21:15:57Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-16",
   "history_profile_count": 53,

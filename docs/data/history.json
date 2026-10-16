@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-16T19:40:05Z",
+  "generated_at_utc": "2026-10-16T21:15:57Z",
   "through_date": "2026-10-16",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3936,
-    "maps": 2854,
-    "lineup_rows": 9352,
+    "matches": 3937,
+    "maps": 2857,
+    "lineup_rows": 9362,
     "source_match_ids": 976
   },
   "matches": [
@@ -573,6 +573,62 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_2"
     },
     {
+      "match_id": "hltv:2399309",
+      "match_date": "2026-10-16",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "BAKS",
+      "team2_name": "G2 Ares",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BAKS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 3,
+          "winner_name": "BAKS",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 16,
+          "winner_name": "G2 Ares",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "BAKS",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Norwi",
+          "xdENiSZERA",
+          "whisper",
+          "danistzz",
+          "turbo"
+        ],
+        "team2": [
+          "TMKj",
+          "SHiNE",
+          "hitori",
+          "Junyme",
+          "yksjupe"
+        ]
+      }
+    },
+    {
       "match_id": "hltv:2399205",
       "match_date": "2026-10-15",
       "event_name": "ESL Challenger League Season 52 South America Cup 3",
@@ -1127,7 +1183,7 @@
       "winner_name": "LFO 10",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
