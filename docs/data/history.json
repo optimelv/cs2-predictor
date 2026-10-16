@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-16T07:14:04Z",
+  "generated_at_utc": "2026-10-16T12:30:43Z",
   "through_date": "2026-10-16",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3951,
-    "maps": 2838,
-    "lineup_rows": 9282,
+    "matches": 3954,
+    "maps": 2846,
+    "lineup_rows": 9312,
     "source_match_ids": 976
   },
   "matches": [
@@ -90,6 +90,167 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_2"
+    },
+    {
+      "match_id": "hltv:2399469",
+      "match_date": "2026-10-16",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "team1_name": "Lilmix",
+      "team2_name": "Revise",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Lilmix",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 16,
+          "score2": 12,
+          "winner_name": "Lilmix",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "Lilmix",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Revise",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "p1ke",
+          "macke",
+          "chucker",
+          "Wonder",
+          "Tqezo"
+        ],
+        "team2": [
+          "kanode",
+          "WaSdyy",
+          "nikson",
+          "s1ssi",
+          "SuNFiX"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399306",
+      "match_date": "2026-10-16",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Black Phoenix",
+      "team2_name": "Illyrians",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Illyrians",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "score1": 16,
+          "score2": 13,
+          "winner_name": "Black Phoenix",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 5,
+          "score2": 13,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "topo",
+          "karnez",
+          "4X1s",
+          "Salazar",
+          "MRcreed"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "BledarD",
+          "ammar",
+          "cerber"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399470",
+      "match_date": "2026-10-16",
+      "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+      "team1_name": "benched gods",
+      "team2_name": "Illyrians",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "benched gods",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "benched gods",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": null,
+          "score2": null,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Wign",
+          "facer",
+          "norescue",
+          "yoyoS2",
+          "K014NZ"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "BledarD",
+          "ammar",
+          "cerber"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399205",
@@ -302,8 +463,8 @@
       "winner_name": "ex-6666",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
@@ -660,7 +821,7 @@
       "winner_name": "LFO 10",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
+      "phase": "Scheduled series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,

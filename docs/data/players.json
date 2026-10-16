@@ -19070,12 +19070,12 @@
           "opponent_name": "B8 Academy",
           "team_name": "Banda Chuya",
           "won": true,
-          "kills": 36,
-          "deaths": 28,
-          "kd_ratio": 1.29,
-          "adr": 67.9,
-          "kast": 69.6,
-          "rating": 1.08,
+          "kills": 55,
+          "deaths": 40,
+          "kd_ratio": 1.38,
+          "adr": 77.8,
+          "kast": 75.8,
+          "rating": 1.2,
           "maps": 3
         }
       ],
@@ -19089,8 +19089,8 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 0.97,
-          "average_adr": 67
+          "average_rating": 1.02,
+          "average_adr": 71.9
         }
       ],
       "timeline_entry": {
@@ -19100,19 +19100,19 @@
         "opponent_name": "B8 Academy",
         "team_name": "Banda Chuya",
         "won": true,
-        "kills": 36,
-        "deaths": 28,
-        "kd_ratio": 1.29,
-        "adr": 67.9,
-        "kast": 69.6,
-        "rating": 1.08,
+        "kills": 55,
+        "deaths": 40,
+        "kd_ratio": 1.38,
+        "adr": 77.8,
+        "kast": 75.8,
+        "rating": 1.2,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.97,
-        "average_adr": 67,
-        "recent_rating": 0.97,
+        "average_rating": 1.02,
+        "average_adr": 71.9,
+        "recent_rating": 1.02,
         "rating_delta": null
       }
     },
@@ -19149,12 +19149,12 @@
           "opponent_name": "B8 Academy",
           "team_name": "Banda Chuya",
           "won": true,
-          "kills": 35,
-          "deaths": 32,
-          "kd_ratio": 1.09,
-          "adr": 87.4,
-          "kast": 67.4,
-          "rating": 1.06,
+          "kills": 49,
+          "deaths": 44,
+          "kd_ratio": 1.11,
+          "adr": 81.7,
+          "kast": 66.7,
+          "rating": 1.03,
           "maps": 3
         }
       ],
@@ -19168,8 +19168,8 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 1.14,
-          "average_adr": 90.3
+          "average_rating": 1.13,
+          "average_adr": 87.4
         }
       ],
       "timeline_entry": {
@@ -19179,19 +19179,19 @@
         "opponent_name": "B8 Academy",
         "team_name": "Banda Chuya",
         "won": true,
-        "kills": 35,
-        "deaths": 32,
-        "kd_ratio": 1.09,
-        "adr": 87.4,
-        "kast": 67.4,
-        "rating": 1.06,
+        "kills": 49,
+        "deaths": 44,
+        "kd_ratio": 1.11,
+        "adr": 81.7,
+        "kast": 66.7,
+        "rating": 1.03,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1.14,
-        "average_adr": 90.3,
-        "recent_rating": 1.14,
+        "average_rating": 1.13,
+        "average_adr": 87.4,
+        "recent_rating": 1.13,
         "rating_delta": null
       }
     },
@@ -19228,11 +19228,11 @@
           "opponent_name": "B8 Academy",
           "team_name": "Banda Chuya",
           "won": true,
-          "kills": 31,
-          "deaths": 32,
-          "kd_ratio": 0.97,
+          "kills": 43,
+          "deaths": 45,
+          "kd_ratio": 0.96,
           "adr": 60.8,
-          "kast": 71.7,
+          "kast": 72.7,
           "rating": 0.96,
           "maps": 3
         }
@@ -19258,11 +19258,11 @@
         "opponent_name": "B8 Academy",
         "team_name": "Banda Chuya",
         "won": true,
-        "kills": 31,
-        "deaths": 32,
-        "kd_ratio": 0.97,
+        "kills": 43,
+        "deaths": 45,
+        "kd_ratio": 0.96,
         "adr": 60.8,
-        "kast": 71.7,
+        "kast": 72.7,
         "rating": 0.96,
         "maps": 3
       },
@@ -19307,12 +19307,12 @@
           "opponent_name": "B8 Academy",
           "team_name": "Banda Chuya",
           "won": true,
-          "kills": 29,
-          "deaths": 31,
-          "kd_ratio": 0.94,
-          "adr": 76.2,
-          "kast": 73.9,
-          "rating": 0.87,
+          "kills": 48,
+          "deaths": 43,
+          "kd_ratio": 1.12,
+          "adr": 84,
+          "kast": 74.2,
+          "rating": 1.08,
           "maps": 3
         }
       ],
@@ -19326,8 +19326,8 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 0.84,
-          "average_adr": 72.3
+          "average_rating": 0.95,
+          "average_adr": 76.2
         }
       ],
       "timeline_entry": {
@@ -19337,19 +19337,19 @@
         "opponent_name": "B8 Academy",
         "team_name": "Banda Chuya",
         "won": true,
-        "kills": 29,
-        "deaths": 31,
-        "kd_ratio": 0.94,
-        "adr": 76.2,
-        "kast": 73.9,
-        "rating": 0.87,
+        "kills": 48,
+        "deaths": 43,
+        "kd_ratio": 1.12,
+        "adr": 84,
+        "kast": 74.2,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.84,
-        "average_adr": 72.3,
-        "recent_rating": 0.84,
+        "average_rating": 0.95,
+        "average_adr": 76.2,
+        "recent_rating": 0.95,
         "rating_delta": null
       }
     },
@@ -19386,12 +19386,12 @@
           "opponent_name": "B8 Academy",
           "team_name": "Banda Chuya",
           "won": true,
-          "kills": 29,
-          "deaths": 36,
-          "kd_ratio": 0.81,
-          "adr": 79.9,
-          "kast": 78.3,
-          "rating": 1.1,
+          "kills": 44,
+          "deaths": 49,
+          "kd_ratio": 0.9,
+          "adr": 82.4,
+          "kast": 81.8,
+          "rating": 1.15,
           "maps": 3
         }
       ],
@@ -19405,8 +19405,8 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 1.02,
-          "average_adr": 71.2
+          "average_rating": 1.04,
+          "average_adr": 72.5
         }
       ],
       "timeline_entry": {
@@ -19416,19 +19416,19 @@
         "opponent_name": "B8 Academy",
         "team_name": "Banda Chuya",
         "won": true,
-        "kills": 29,
-        "deaths": 36,
-        "kd_ratio": 0.81,
-        "adr": 79.9,
-        "kast": 78.3,
-        "rating": 1.1,
+        "kills": 44,
+        "deaths": 49,
+        "kd_ratio": 0.9,
+        "adr": 82.4,
+        "kast": 81.8,
+        "rating": 1.15,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1.02,
-        "average_adr": 71.2,
-        "recent_rating": 1.02,
+        "average_rating": 1.04,
+        "average_adr": 72.5,
+        "recent_rating": 1.04,
         "rating_delta": null
       }
     },
@@ -25129,9 +25129,59 @@
       "traits": {},
       "hltv_player_id": "23773",
       "source_url": "https://www.hltv.org/player/23773/wign",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Illyrians",
+          "team_name": "benched gods",
+          "won": true,
+          "kills": 18,
+          "deaths": 13,
+          "kd_ratio": 1.38,
+          "adr": 105.2,
+          "kast": 68.4,
+          "rating": 1.08,
+          "maps": 2
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "benched gods",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.08,
+          "average_adr": 105.2
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Illyrians",
+        "team_name": "benched gods",
+        "won": true,
+        "kills": 18,
+        "deaths": 13,
+        "kd_ratio": 1.38,
+        "adr": 105.2,
+        "kast": 68.4,
+        "rating": 1.08,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.08,
+        "average_adr": 105.2,
+        "recent_rating": 1.08,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:26059",
@@ -25143,9 +25193,59 @@
       "traits": {},
       "hltv_player_id": "26059",
       "source_url": "https://www.hltv.org/player/26059/norescue",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Illyrians",
+          "team_name": "benched gods",
+          "won": true,
+          "kills": 10,
+          "deaths": 9,
+          "kd_ratio": 1.11,
+          "adr": 56.6,
+          "kast": 78.9,
+          "rating": 0.95,
+          "maps": 2
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "benched gods",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.95,
+          "average_adr": 56.6
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Illyrians",
+        "team_name": "benched gods",
+        "won": true,
+        "kills": 10,
+        "deaths": 9,
+        "kd_ratio": 1.11,
+        "adr": 56.6,
+        "kast": 78.9,
+        "rating": 0.95,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.95,
+        "average_adr": 56.6,
+        "recent_rating": 0.95,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24840",
@@ -25157,9 +25257,59 @@
       "traits": {},
       "hltv_player_id": "24840",
       "source_url": "https://www.hltv.org/player/24840/k014nz",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Illyrians",
+          "team_name": "benched gods",
+          "won": true,
+          "kills": 11,
+          "deaths": 6,
+          "kd_ratio": 1.83,
+          "adr": 71.1,
+          "kast": 89.5,
+          "rating": 1.14,
+          "maps": 2
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "benched gods",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.14,
+          "average_adr": 71.1
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Illyrians",
+        "team_name": "benched gods",
+        "won": true,
+        "kills": 11,
+        "deaths": 6,
+        "kd_ratio": 1.83,
+        "adr": 71.1,
+        "kast": 89.5,
+        "rating": 1.14,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.14,
+        "average_adr": 71.1,
+        "recent_rating": 1.14,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:26646",
@@ -25171,9 +25321,59 @@
       "traits": {},
       "hltv_player_id": "26646",
       "source_url": "https://www.hltv.org/player/26646/yoyos2",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Illyrians",
+          "team_name": "benched gods",
+          "won": true,
+          "kills": 20,
+          "deaths": 9,
+          "kd_ratio": 2.22,
+          "adr": 98.7,
+          "kast": 68.4,
+          "rating": 1.59,
+          "maps": 2
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "benched gods",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.59,
+          "average_adr": 98.7
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Illyrians",
+        "team_name": "benched gods",
+        "won": true,
+        "kills": 20,
+        "deaths": 9,
+        "kd_ratio": 2.22,
+        "adr": 98.7,
+        "kast": 68.4,
+        "rating": 1.59,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.59,
+        "average_adr": 98.7,
+        "recent_rating": 1.59,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:24885",
@@ -25185,9 +25385,59 @@
       "traits": {},
       "hltv_player_id": "24885",
       "source_url": "https://www.hltv.org/player/24885/facer",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Illyrians",
+          "team_name": "benched gods",
+          "won": true,
+          "kills": 23,
+          "deaths": 9,
+          "kd_ratio": 2.56,
+          "adr": 123.4,
+          "kast": 94.7,
+          "rating": 2.16,
+          "maps": 2
+        }
+      ],
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [
+        {
+          "team_name": "benched gods",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 2.16,
+          "average_adr": 123.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Illyrians",
+        "team_name": "benched gods",
+        "won": true,
+        "kills": 23,
+        "deaths": 9,
+        "kd_ratio": 2.56,
+        "adr": 123.4,
+        "kast": 94.7,
+        "rating": 2.16,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 2.16,
+        "average_adr": 123.4,
+        "recent_rating": 2.16,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:21888",
@@ -28930,42 +29180,57 @@
           "kast": 80.5,
           "rating": 1.41,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "Black Phoenix",
+          "won": false,
+          "kills": 59,
+          "deaths": 53,
+          "kd_ratio": 1.11,
+          "adr": 88.8,
+          "kast": 74.6,
+          "rating": 1.28,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399297",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399306",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "6666",
+        "opponent_name": "Illyrians",
         "team_name": "Black Phoenix",
-        "won": true,
-        "kills": 35,
-        "deaths": 21,
-        "kd_ratio": 1.67,
-        "adr": 88.3,
-        "kast": 76.3,
-        "rating": 1.57,
+        "won": false,
+        "kills": 59,
+        "deaths": 53,
+        "kd_ratio": 1.11,
+        "adr": 88.8,
+        "kast": 74.6,
+        "rating": 1.28,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.66,
-        "average_adr": 98.9,
-        "recent_rating": 1.66,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.57,
+        "average_adr": 96.4,
+        "recent_rating": 1.42,
+        "rating_delta": -0.59
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-14",
-          "series": 3,
+          "through_date": "2026-10-16",
+          "series": 4,
           "wins": 3,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.66,
-          "average_adr": 98.9
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.57,
+          "average_adr": 96.4
         }
       ]
     },
@@ -29024,42 +29289,57 @@
           "kast": 73.2,
           "rating": 1.22,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "Black Phoenix",
+          "won": false,
+          "kills": 53,
+          "deaths": 52,
+          "kd_ratio": 1.02,
+          "adr": 84.2,
+          "kast": 73.2,
+          "rating": 1.16,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399297",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399306",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "6666",
+        "opponent_name": "Illyrians",
         "team_name": "Black Phoenix",
-        "won": true,
-        "kills": 31,
-        "deaths": 20,
-        "kd_ratio": 1.55,
-        "adr": 89.3,
-        "kast": 84.2,
-        "rating": 1.3,
+        "won": false,
+        "kills": 53,
+        "deaths": 52,
+        "kd_ratio": 1.02,
+        "adr": 84.2,
+        "kast": 73.2,
+        "rating": 1.16,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.33,
-        "average_adr": 88,
-        "recent_rating": 1.33,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.29,
+        "average_adr": 87.1,
+        "recent_rating": 1.23,
+        "rating_delta": -0.24
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-14",
-          "series": 3,
+          "through_date": "2026-10-16",
+          "series": 4,
           "wins": 3,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.33,
-          "average_adr": 88
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.29,
+          "average_adr": 87.1
         }
       ]
     },
@@ -29118,42 +29398,57 @@
           "kast": 70.7,
           "rating": 0.86,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "Black Phoenix",
+          "won": false,
+          "kills": 51,
+          "deaths": 48,
+          "kd_ratio": 1.06,
+          "adr": 79.4,
+          "kast": 71.8,
+          "rating": 1.07,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399297",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399306",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "6666",
+        "opponent_name": "Illyrians",
         "team_name": "Black Phoenix",
-        "won": true,
-        "kills": 26,
-        "deaths": 23,
-        "kd_ratio": 1.13,
-        "adr": 72.6,
-        "kast": 81.6,
-        "rating": 1.16,
+        "won": false,
+        "kills": 51,
+        "deaths": 48,
+        "kd_ratio": 1.06,
+        "adr": 79.4,
+        "kast": 71.8,
+        "rating": 1.07,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.16,
-        "average_adr": 76.6,
-        "recent_rating": 1.16,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.14,
+        "average_adr": 77.3,
+        "recent_rating": 1.03,
+        "rating_delta": -0.43
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-14",
-          "series": 3,
+          "through_date": "2026-10-16",
+          "series": 4,
           "wins": 3,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.16,
-          "average_adr": 76.6
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.14,
+          "average_adr": 77.3
         }
       ]
     },
@@ -29212,42 +29507,57 @@
           "kast": 75.6,
           "rating": 1.37,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "Black Phoenix",
+          "won": false,
+          "kills": 35,
+          "deaths": 44,
+          "kd_ratio": 0.8,
+          "adr": 55.6,
+          "kast": 69,
+          "rating": 0.78,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399297",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399306",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "6666",
+        "opponent_name": "Illyrians",
         "team_name": "Black Phoenix",
-        "won": true,
-        "kills": 23,
-        "deaths": 17,
-        "kd_ratio": 1.35,
-        "adr": 65.9,
-        "kast": 73.7,
-        "rating": 1.19,
+        "won": false,
+        "kills": 35,
+        "deaths": 44,
+        "kd_ratio": 0.8,
+        "adr": 55.6,
+        "kast": 69,
+        "rating": 0.78,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.18,
-        "average_adr": 58.4,
-        "recent_rating": 1.18,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.08,
+        "average_adr": 57.7,
+        "recent_rating": 1.11,
+        "rating_delta": 0.14
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-14",
-          "series": 3,
+          "through_date": "2026-10-16",
+          "series": 4,
           "wins": 3,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.18,
-          "average_adr": 58.4
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.08,
+          "average_adr": 57.7
         }
       ]
     },
@@ -29306,42 +29616,57 @@
           "kast": 63.4,
           "rating": 1.31,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "Black Phoenix",
+          "won": false,
+          "kills": 44,
+          "deaths": 51,
+          "kd_ratio": 0.86,
+          "adr": 66.1,
+          "kast": 59.2,
+          "rating": 0.85,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399297",
-        "date": "2026-10-13",
+        "match_id": "hltv:2399306",
+        "date": "2026-10-16",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "6666",
+        "opponent_name": "Illyrians",
         "team_name": "Black Phoenix",
-        "won": true,
-        "kills": 33,
-        "deaths": 28,
-        "kd_ratio": 1.18,
-        "adr": 85.7,
-        "kast": 81.6,
-        "rating": 1.27,
+        "won": false,
+        "kills": 44,
+        "deaths": 51,
+        "kd_ratio": 0.86,
+        "adr": 66.1,
+        "kast": 59.2,
+        "rating": 0.85,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.17,
-        "average_adr": 82.8,
-        "recent_rating": 1.17,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.09,
+        "average_adr": 78.6,
+        "recent_rating": 1.14,
+        "rating_delta": 0.2
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-14",
-          "series": 3,
+          "through_date": "2026-10-16",
+          "series": 4,
           "wins": 3,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.17,
-          "average_adr": 82.8
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.09,
+          "average_adr": 78.6
         }
       ]
     },
@@ -40375,12 +40700,12 @@
           "opponent_name": "Banda Chuya",
           "team_name": "B8 Academy",
           "won": false,
-          "kills": 30,
-          "deaths": 30,
-          "kd_ratio": 1,
-          "adr": 70.4,
-          "kast": 69.6,
-          "rating": 1.04,
+          "kills": 38,
+          "deaths": 48,
+          "kd_ratio": 0.79,
+          "adr": 60.4,
+          "kast": 65.2,
+          "rating": 0.83,
           "maps": 3
         }
       ],
@@ -40391,19 +40716,19 @@
         "opponent_name": "Banda Chuya",
         "team_name": "B8 Academy",
         "won": false,
-        "kills": 30,
-        "deaths": 30,
-        "kd_ratio": 1,
-        "adr": 70.4,
-        "kast": 69.6,
-        "rating": 1.04,
+        "kills": 38,
+        "deaths": 48,
+        "kd_ratio": 0.79,
+        "adr": 60.4,
+        "kast": 65.2,
+        "rating": 0.83,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.87,
-        "average_adr": 59.1,
-        "recent_rating": 0.87,
+        "average_rating": 0.76,
+        "average_adr": 54.1,
+        "recent_rating": 0.76,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40416,8 +40741,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.87,
-          "average_adr": 59.1
+          "average_rating": 0.76,
+          "average_adr": 54.1
         }
       ]
     },
@@ -40454,12 +40779,12 @@
           "opponent_name": "Banda Chuya",
           "team_name": "B8 Academy",
           "won": false,
-          "kills": 35,
-          "deaths": 34,
-          "kd_ratio": 1.03,
-          "adr": 85.5,
-          "kast": 82.6,
-          "rating": 1.26,
+          "kills": 46,
+          "deaths": 51,
+          "kd_ratio": 0.9,
+          "adr": 83.7,
+          "kast": 77.3,
+          "rating": 1.1,
           "maps": 3
         }
       ],
@@ -40470,19 +40795,19 @@
         "opponent_name": "Banda Chuya",
         "team_name": "B8 Academy",
         "won": false,
-        "kills": 35,
-        "deaths": 34,
-        "kd_ratio": 1.03,
-        "adr": 85.5,
-        "kast": 82.6,
-        "rating": 1.26,
+        "kills": 46,
+        "deaths": 51,
+        "kd_ratio": 0.9,
+        "adr": 83.7,
+        "kast": 77.3,
+        "rating": 1.1,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1.09,
-        "average_adr": 74.3,
-        "recent_rating": 1.09,
+        "average_rating": 1.02,
+        "average_adr": 73.4,
+        "recent_rating": 1.02,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40495,8 +40820,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.09,
-          "average_adr": 74.3
+          "average_rating": 1.02,
+          "average_adr": 73.4
         }
       ]
     },
@@ -40533,12 +40858,12 @@
           "opponent_name": "Banda Chuya",
           "team_name": "B8 Academy",
           "won": false,
-          "kills": 37,
-          "deaths": 31,
-          "kd_ratio": 1.19,
-          "adr": 95.7,
-          "kast": 80.4,
-          "rating": 1.36,
+          "kills": 49,
+          "deaths": 47,
+          "kd_ratio": 1.04,
+          "adr": 86.2,
+          "kast": 75.8,
+          "rating": 1.19,
           "maps": 3
         }
       ],
@@ -40549,19 +40874,19 @@
         "opponent_name": "Banda Chuya",
         "team_name": "B8 Academy",
         "won": false,
-        "kills": 37,
-        "deaths": 31,
-        "kd_ratio": 1.19,
-        "adr": 95.7,
-        "kast": 80.4,
-        "rating": 1.36,
+        "kills": 49,
+        "deaths": 47,
+        "kd_ratio": 1.04,
+        "adr": 86.2,
+        "kast": 75.8,
+        "rating": 1.19,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1.22,
-        "average_adr": 80.9,
-        "recent_rating": 1.22,
+        "average_rating": 1.13,
+        "average_adr": 76.2,
+        "recent_rating": 1.13,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40574,8 +40899,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.22,
-          "average_adr": 80.9
+          "average_rating": 1.13,
+          "average_adr": 76.2
         }
       ]
     },
@@ -40612,12 +40937,12 @@
           "opponent_name": "Banda Chuya",
           "team_name": "B8 Academy",
           "won": false,
-          "kills": 29,
-          "deaths": 31,
-          "kd_ratio": 0.94,
-          "adr": 57.8,
-          "kast": 78.3,
-          "rating": 1.06,
+          "kills": 44,
+          "deaths": 45,
+          "kd_ratio": 0.98,
+          "adr": 63.9,
+          "kast": 74.2,
+          "rating": 1.08,
           "maps": 3
         }
       ],
@@ -40628,19 +40953,19 @@
         "opponent_name": "Banda Chuya",
         "team_name": "B8 Academy",
         "won": false,
-        "kills": 29,
-        "deaths": 31,
-        "kd_ratio": 0.94,
-        "adr": 57.8,
-        "kast": 78.3,
-        "rating": 1.06,
+        "kills": 44,
+        "deaths": 45,
+        "kd_ratio": 0.98,
+        "adr": 63.9,
+        "kast": 74.2,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.99,
-        "average_adr": 64.8,
-        "recent_rating": 0.99,
+        "average_rating": 1,
+        "average_adr": 67.8,
+        "recent_rating": 1,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40653,8 +40978,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.99,
-          "average_adr": 64.8
+          "average_rating": 1,
+          "average_adr": 67.8
         }
       ]
     },
@@ -40691,12 +41016,12 @@
           "opponent_name": "Banda Chuya",
           "team_name": "B8 Academy",
           "won": false,
-          "kills": 27,
-          "deaths": 34,
-          "kd_ratio": 0.79,
-          "adr": 66.3,
-          "kast": 76.1,
-          "rating": 0.95,
+          "kills": 43,
+          "deaths": 49,
+          "kd_ratio": 0.88,
+          "adr": 74.2,
+          "kast": 75.8,
+          "rating": 0.99,
           "maps": 3
         }
       ],
@@ -40707,19 +41032,19 @@
         "opponent_name": "Banda Chuya",
         "team_name": "B8 Academy",
         "won": false,
-        "kills": 27,
-        "deaths": 34,
-        "kd_ratio": 0.79,
-        "adr": 66.3,
-        "kast": 76.1,
-        "rating": 0.95,
+        "kills": 43,
+        "deaths": 49,
+        "kd_ratio": 0.88,
+        "adr": 74.2,
+        "kast": 75.8,
+        "rating": 0.99,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1.12,
-        "average_adr": 76.3,
-        "recent_rating": 1.12,
+        "average_rating": 1.14,
+        "average_adr": 80.2,
+        "recent_rating": 1.14,
         "rating_delta": null
       },
       "map_profile": [],
@@ -40732,8 +41057,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.12,
-          "average_adr": 76.3
+          "average_rating": 1.14,
+          "average_adr": 80.2
         }
       ]
     },
@@ -44614,42 +44939,72 @@
           "kast": 74,
           "rating": 0.75,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 51,
+          "deaths": 45,
+          "kd_ratio": 1.13,
+          "adr": 70.2,
+          "kast": 77.5,
+          "rating": 1.21,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "benched gods",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 8,
+          "deaths": 18,
+          "kd_ratio": 0.44,
+          "adr": 61.5,
+          "kast": 42.1,
+          "rating": 0.64,
+          "maps": 2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399295",
-        "date": "2026-10-13",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Bushido Wildcats",
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "benched gods",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 21,
-        "deaths": 33,
-        "kd_ratio": 0.64,
-        "adr": 62.4,
-        "kast": 74,
-        "rating": 0.75,
-        "maps": 3
+        "won": false,
+        "kills": 8,
+        "deaths": 18,
+        "kd_ratio": 0.44,
+        "adr": 61.5,
+        "kast": 42.1,
+        "rating": 0.64,
+        "maps": 2
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.77,
-        "average_adr": 61.8,
-        "recent_rating": 0.77,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.85,
+        "average_adr": 63.8,
+        "recent_rating": 0.87,
+        "rating_delta": 0.09
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
-          "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 0.77,
-          "average_adr": 61.8
+          "through_date": "2026-10-16",
+          "series": 4,
+          "wins": 3,
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 0.85,
+          "average_adr": 63.8
         }
       ]
     },
@@ -44693,42 +45048,72 @@
           "kast": 74,
           "rating": 1.56,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 41,
+          "deaths": 45,
+          "kd_ratio": 0.91,
+          "adr": 63,
+          "kast": 63.4,
+          "rating": 0.93,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "benched gods",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 6,
+          "deaths": 15,
+          "kd_ratio": 0.4,
+          "adr": 31.3,
+          "kast": 36.8,
+          "rating": 0.52,
+          "maps": 2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399295",
-        "date": "2026-10-13",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Bushido Wildcats",
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "benched gods",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 47,
-        "deaths": 29,
-        "kd_ratio": 1.62,
-        "adr": 86.1,
-        "kast": 74,
-        "rating": 1.56,
-        "maps": 3
+        "won": false,
+        "kills": 6,
+        "deaths": 15,
+        "kd_ratio": 0.4,
+        "adr": 31.3,
+        "kast": 36.8,
+        "rating": 0.52,
+        "maps": 2
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.52,
-        "average_adr": 91.9,
-        "recent_rating": 1.52,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.13,
+        "average_adr": 69.5,
+        "recent_rating": 1,
+        "rating_delta": -0.49
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
-          "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.52,
-          "average_adr": 91.9
+          "through_date": "2026-10-16",
+          "series": 4,
+          "wins": 3,
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.13,
+          "average_adr": 69.5
         }
       ]
     },
@@ -44772,42 +45157,72 @@
           "kast": 70,
           "rating": 0.96,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 59,
+          "deaths": 51,
+          "kd_ratio": 1.16,
+          "adr": 87.4,
+          "kast": 70.4,
+          "rating": 1.29,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "benched gods",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 10,
+          "deaths": 17,
+          "kd_ratio": 0.59,
+          "adr": 73.2,
+          "kast": 47.4,
+          "rating": 0.86,
+          "maps": 2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399295",
-        "date": "2026-10-13",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Bushido Wildcats",
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "benched gods",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 27,
-        "deaths": 29,
-        "kd_ratio": 0.93,
-        "adr": 68.7,
-        "kast": 70,
-        "rating": 0.96,
-        "maps": 3
+        "won": false,
+        "kills": 10,
+        "deaths": 17,
+        "kd_ratio": 0.59,
+        "adr": 73.2,
+        "kast": 47.4,
+        "rating": 0.86,
+        "maps": 2
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.04,
-        "average_adr": 69.4,
+        "series": 4,
+        "average_rating": 1.06,
+        "average_adr": 74.9,
         "recent_rating": 1.04,
-        "rating_delta": null
+        "rating_delta": -0.09
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
-          "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.04,
-          "average_adr": 69.4
+          "through_date": "2026-10-16",
+          "series": 4,
+          "wins": 3,
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.06,
+          "average_adr": 74.9
         }
       ]
     },
@@ -44851,42 +45266,72 @@
           "kast": 70,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 45,
+          "deaths": 56,
+          "kd_ratio": 0.8,
+          "adr": 86.3,
+          "kast": 74.6,
+          "rating": 0.98,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "benched gods",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 9,
+          "deaths": 16,
+          "kd_ratio": 0.56,
+          "adr": 38.5,
+          "kast": 63.2,
+          "rating": 0.57,
+          "maps": 2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399295",
-        "date": "2026-10-13",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Bushido Wildcats",
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "benched gods",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 40,
-        "deaths": 35,
-        "kd_ratio": 1.14,
-        "adr": 78.4,
-        "kast": 70,
-        "rating": 1.12,
-        "maps": 3
+        "won": false,
+        "kills": 9,
+        "deaths": 16,
+        "kd_ratio": 0.56,
+        "adr": 38.5,
+        "kast": 63.2,
+        "rating": 0.57,
+        "maps": 2
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.13,
-        "average_adr": 80.7,
-        "recent_rating": 1.13,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.95,
+        "average_adr": 71.5,
+        "recent_rating": 0.89,
+        "rating_delta": -0.25
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
-          "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.13,
-          "average_adr": 80.7
+          "through_date": "2026-10-16",
+          "series": 4,
+          "wins": 3,
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 0.95,
+          "average_adr": 71.5
         }
       ]
     },
@@ -47367,9 +47812,798 @@
           "average_adr": 68.4
         }
       ]
+    },
+    {
+      "player_id": "hltv:24112",
+      "nickname": "p1ke",
+      "team_name": "Lilmix",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "24112",
+      "source_url": "https://www.hltv.org/player/24112/p1ke",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399469",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Revise",
+          "team_name": "Lilmix",
+          "won": true,
+          "kills": 33,
+          "deaths": 30,
+          "kd_ratio": 1.1,
+          "adr": 74.6,
+          "kast": 82.4,
+          "rating": 1.16,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399469",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Revise",
+        "team_name": "Lilmix",
+        "won": true,
+        "kills": 33,
+        "deaths": 30,
+        "kd_ratio": 1.1,
+        "adr": 74.6,
+        "kast": 82.4,
+        "rating": 1.16,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.16,
+        "average_adr": 74.6,
+        "recent_rating": 1.16,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Lilmix",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.16,
+          "average_adr": 74.6
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:24515",
+      "nickname": "macke",
+      "team_name": "Lilmix",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "24515",
+      "source_url": "https://www.hltv.org/player/24515/macke",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399469",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Revise",
+          "team_name": "Lilmix",
+          "won": true,
+          "kills": 32,
+          "deaths": 29,
+          "kd_ratio": 1.1,
+          "adr": 73.3,
+          "kast": 72.5,
+          "rating": 1.24,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399469",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Revise",
+        "team_name": "Lilmix",
+        "won": true,
+        "kills": 32,
+        "deaths": 29,
+        "kd_ratio": 1.1,
+        "adr": 73.3,
+        "kast": 72.5,
+        "rating": 1.24,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.24,
+        "average_adr": 73.3,
+        "recent_rating": 1.24,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Lilmix",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.24,
+          "average_adr": 73.3
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:25483",
+      "nickname": "chucker",
+      "team_name": "Lilmix",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "25483",
+      "source_url": "https://www.hltv.org/player/25483/chucker",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399469",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Revise",
+          "team_name": "Lilmix",
+          "won": true,
+          "kills": 29,
+          "deaths": 34,
+          "kd_ratio": 0.85,
+          "adr": 60.6,
+          "kast": 74.5,
+          "rating": 0.95,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399469",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Revise",
+        "team_name": "Lilmix",
+        "won": true,
+        "kills": 29,
+        "deaths": 34,
+        "kd_ratio": 0.85,
+        "adr": 60.6,
+        "kast": 74.5,
+        "rating": 0.95,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.95,
+        "average_adr": 60.6,
+        "recent_rating": 0.95,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Lilmix",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.95,
+          "average_adr": 60.6
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:23696",
+      "nickname": "Wonder",
+      "team_name": "Lilmix",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "23696",
+      "source_url": "https://www.hltv.org/player/23696/wonder",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399469",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Revise",
+          "team_name": "Lilmix",
+          "won": true,
+          "kills": 46,
+          "deaths": 31,
+          "kd_ratio": 1.48,
+          "adr": 96.9,
+          "kast": 84.3,
+          "rating": 1.57,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399469",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Revise",
+        "team_name": "Lilmix",
+        "won": true,
+        "kills": 46,
+        "deaths": 31,
+        "kd_ratio": 1.48,
+        "adr": 96.9,
+        "kast": 84.3,
+        "rating": 1.57,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.57,
+        "average_adr": 96.9,
+        "recent_rating": 1.57,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Lilmix",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.57,
+          "average_adr": 96.9
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26254",
+      "nickname": "Tqezo",
+      "team_name": "Lilmix",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26254",
+      "source_url": "https://www.hltv.org/player/26254/tqezo",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399469",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Revise",
+          "team_name": "Lilmix",
+          "won": true,
+          "kills": 29,
+          "deaths": 36,
+          "kd_ratio": 0.81,
+          "adr": 65.5,
+          "kast": 66.7,
+          "rating": 0.82,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399469",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Revise",
+        "team_name": "Lilmix",
+        "won": true,
+        "kills": 29,
+        "deaths": 36,
+        "kd_ratio": 0.81,
+        "adr": 65.5,
+        "kast": 66.7,
+        "rating": 0.82,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.82,
+        "average_adr": 65.5,
+        "recent_rating": 0.82,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Lilmix",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.82,
+          "average_adr": 65.5
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26651",
+      "nickname": "kanode",
+      "team_name": "Revise",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26651",
+      "source_url": "https://www.hltv.org/player/26651/kanode",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399469",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Lilmix",
+          "team_name": "Revise",
+          "won": false,
+          "kills": 32,
+          "deaths": 36,
+          "kd_ratio": 0.89,
+          "adr": 66.2,
+          "kast": 70.6,
+          "rating": 0.83,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399469",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Lilmix",
+        "team_name": "Revise",
+        "won": false,
+        "kills": 32,
+        "deaths": 36,
+        "kd_ratio": 0.89,
+        "adr": 66.2,
+        "kast": 70.6,
+        "rating": 0.83,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.83,
+        "average_adr": 66.2,
+        "recent_rating": 0.83,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Revise",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.83,
+          "average_adr": 66.2
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26650",
+      "nickname": "WaSdyy",
+      "team_name": "Revise",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26650",
+      "source_url": "https://www.hltv.org/player/26650/wasdyy",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399469",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Lilmix",
+          "team_name": "Revise",
+          "won": false,
+          "kills": 38,
+          "deaths": 36,
+          "kd_ratio": 1.06,
+          "adr": 80.9,
+          "kast": 68.6,
+          "rating": 1.18,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399469",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Lilmix",
+        "team_name": "Revise",
+        "won": false,
+        "kills": 38,
+        "deaths": 36,
+        "kd_ratio": 1.06,
+        "adr": 80.9,
+        "kast": 68.6,
+        "rating": 1.18,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.18,
+        "average_adr": 80.9,
+        "recent_rating": 1.18,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Revise",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.18,
+          "average_adr": 80.9
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26652",
+      "nickname": "nikson",
+      "team_name": "Revise",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26652",
+      "source_url": "https://www.hltv.org/player/26652/nikson",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399469",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Lilmix",
+          "team_name": "Revise",
+          "won": false,
+          "kills": 24,
+          "deaths": 34,
+          "kd_ratio": 0.71,
+          "adr": 53.8,
+          "kast": 68.6,
+          "rating": 0.75,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399469",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Lilmix",
+        "team_name": "Revise",
+        "won": false,
+        "kills": 24,
+        "deaths": 34,
+        "kd_ratio": 0.71,
+        "adr": 53.8,
+        "kast": 68.6,
+        "rating": 0.75,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.75,
+        "average_adr": 53.8,
+        "recent_rating": 0.75,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Revise",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.75,
+          "average_adr": 53.8
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:26649",
+      "nickname": "s1ssi",
+      "team_name": "Revise",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26649",
+      "source_url": "https://www.hltv.org/player/26649/s1ssi",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399469",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Lilmix",
+          "team_name": "Revise",
+          "won": false,
+          "kills": 26,
+          "deaths": 34,
+          "kd_ratio": 0.76,
+          "adr": 57.6,
+          "kast": 66.7,
+          "rating": 0.8,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399469",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Lilmix",
+        "team_name": "Revise",
+        "won": false,
+        "kills": 26,
+        "deaths": 34,
+        "kd_ratio": 0.76,
+        "adr": 57.6,
+        "kast": 66.7,
+        "rating": 0.8,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.8,
+        "average_adr": 57.6,
+        "recent_rating": 0.8,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Revise",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.8,
+          "average_adr": 57.6
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:17317",
+      "nickname": "SuNFiX",
+      "team_name": "Revise",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "17317",
+      "source_url": "https://www.hltv.org/player/17317/sunfix",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399469",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Lilmix",
+          "team_name": "Revise",
+          "won": false,
+          "kills": 39,
+          "deaths": 29,
+          "kd_ratio": 1.34,
+          "adr": 91.7,
+          "kast": 82.4,
+          "rating": 1.18,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399469",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Lilmix",
+        "team_name": "Revise",
+        "won": false,
+        "kills": 39,
+        "deaths": 29,
+        "kd_ratio": 1.34,
+        "adr": 91.7,
+        "kast": 82.4,
+        "rating": 1.18,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.18,
+        "average_adr": 91.7,
+        "recent_rating": 1.18,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Revise",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.18,
+          "average_adr": 91.7
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:19761",
+      "nickname": "Substitute",
+      "team_name": "Illyrians",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "19761",
+      "source_url": "https://www.hltv.org/player/19761/dementor",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 52,
+          "deaths": 45,
+          "kd_ratio": 1.16,
+          "adr": 75.7,
+          "kast": 66.2,
+          "rating": 1.09,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "benched gods",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 13,
+          "deaths": 16,
+          "kd_ratio": 0.81,
+          "adr": 79.5,
+          "kast": 57.9,
+          "rating": 1.28,
+          "maps": 2
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "benched gods",
+        "team_name": "Illyrians",
+        "won": false,
+        "kills": 13,
+        "deaths": 16,
+        "kd_ratio": 0.81,
+        "adr": 79.5,
+        "kast": 57.9,
+        "rating": 1.28,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 2,
+        "average_rating": 1.19,
+        "average_adr": 77.6,
+        "recent_rating": 1.19,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Illyrians",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.19,
+          "average_adr": 77.6
+        }
+      ]
+    },
+    {
+      "player_id": "hltv:17656",
+      "nickname": "Frazehh",
+      "team_name": "Privateer",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "17656",
+      "source_url": "https://www.hltv.org/player/17656/frazehh",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:21990",
+      "nickname": "Prime",
+      "team_name": "Privateer",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "21990",
+      "source_url": "https://www.hltv.org/player/21990/prime",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:22519",
+      "nickname": "moz",
+      "team_name": "Privateer",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "22519",
+      "source_url": "https://www.hltv.org/player/22519/moz",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:25923",
+      "nickname": "M1n1maL",
+      "team_name": "Privateer",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "25923",
+      "source_url": "https://www.hltv.org/player/25923/m1n1mal",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
+    },
+    {
+      "player_id": "hltv:26878",
+      "nickname": "Amqn",
+      "team_name": "Privateer",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "hltv_player_id": "26878",
+      "source_url": "https://www.hltv.org/player/26878/amqn",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": []
     }
   ],
-  "lineups_updated_at_utc": "2026-10-16T07:14:04Z",
+  "lineups_updated_at_utc": "2026-10-16T12:30:43Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-16",
   "history_profile_count": 53,
