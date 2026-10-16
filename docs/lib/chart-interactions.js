@@ -6,6 +6,57 @@ const PADDING = { top: 20, right: 20, bottom: 34, left: 42 };
 const rootInstallations = new WeakMap();
 const chartConfigs = new WeakMap();
 const chartStates = new WeakMap();
+const chartPoints = new WeakMap();
+const chartEngines = new Map();
+const observedCharts = new WeakSet();
+const pendingCharts = new Set();
+let chartEnginePromise;
+let chartVisibilityObserver;
+
+function enhanceCharts(root) {
+  for (const [chart, dispose] of chartEngines) {
+    if (!chart.isConnected) { dispose(); chartEngines.delete(chart); observedCharts.delete(chart); }
+  }
+  for (const chart of pendingCharts) {
+    if (!chart.isConnected) {
+      chartVisibilityObserver?.unobserve(chart);
+      pendingCharts.delete(chart);
+      observedCharts.delete(chart);
+    }
+  }
+  const mount = async (chart) => {
+    const config = decodeConfig(chart);
+    if (!config?.series.length || !chart.isConnected) return;
+    chart.dataset.chartEngine = 'loading';
+    try {
+      chartEnginePromise ||= import('../vendor/chart-engine.js?v=20260922.2').catch((error) => {
+        chartEnginePromise = null;
+        throw error;
+      });
+      const { mountChart } = await chartEnginePromise;
+      if (!chart.isConnected || chartEngines.has(chart)) return;
+      chartEngines.set(chart, mountChart(chart, config, getLineChartDomain(config.series, config.baseline)));
+    } catch {
+      // Static SVG, the real data table and keyboard inspection keep working.
+      chart.dataset.chartEngine = 'fallback';
+    }
+  };
+  if (!chartVisibilityObserver && typeof IntersectionObserver !== 'undefined') {
+    chartVisibilityObserver = new IntersectionObserver((entries) => {
+      for (const entry of entries) if (entry.isIntersecting) {
+        chartVisibilityObserver.unobserve(entry.target);
+        pendingCharts.delete(entry.target);
+        mount(entry.target);
+      }
+    });
+  }
+  root.querySelectorAll?.(CHART_SELECTOR).forEach((chart) => {
+    if (observedCharts.has(chart)) return;
+    observedCharts.add(chart);
+    if (chartVisibilityObserver) { pendingCharts.add(chart); chartVisibilityObserver.observe(chart); }
+    else mount(chart);
+  });
+}
 
 function asText(value, fallback = "Not available") {
   const text = String(value ?? "").trim();
@@ -162,7 +213,14 @@ function dataTableHtml(config, rows) {
 }
 
 function legendHtml(series) {
-  return `<ul class="interactive-chart-legend" aria-label="Chart series">${series.map((entry, index) => `<li class="is-series-${index % 4}"><i aria-hidden="true"></i>${escapeHtml(entry.label)}</li>`).join("")}</ul>`;
+  return `<ul class="interactive-chart-legend" aria-label="Chart series">${series.map((entry, index) => `<li class="is-series-${index % 4}"><button type="button" data-chart-series="${index}" aria-pressed="false" aria-label="Emphasize ${escapeAttribute(entry.label)} series"><i aria-hidden="true"></i>${escapeHtml(entry.label)}</button></li>`).join("")}</ul>`;
+}
+
+function readoutHtml(series, config) {
+  return `<div class="chart-readout" aria-label="Latest recorded values">${series.map((entry, index) => {
+    const latest = entry.points.at(-1);
+    return `<div class="chart-readout-series is-series-${index % 4}" data-chart-readout="${index}"><span>${escapeHtml(entry.label)} <small data-readout-mode>Latest</small></span><strong data-readout-value>${escapeHtml(formatValue(latest.value, config, latest.formattedValue))}</strong><small data-readout-label>${escapeHtml(latest.label)}</small></div>`;
+  }).join("")}</div>`;
 }
 
 /**
@@ -215,23 +273,26 @@ export function renderInteractiveLineChart(options = {}) {
   const ordinalNote = positioned.length > 1
     ? "Each line follows its player or team’s own series order. Matching horizontal positions do not mean the observations happened on the same date."
     : "The horizontal axis follows the recorded series order.";
-  return `<figure class="interactive-line-chart" data-interactive-line-chart data-chart-id="${escapeAttribute(id)}" data-chart-config="${escapeAttribute(encodeConfig(config))}"><figcaption><div><span class="chart-kicker">${escapeHtml(config.metricLabel)}</span><h4>${escapeHtml(config.title)}</h4><p>${escapeHtml(config.description)}</p></div>${legendHtml(positioned)}</figcaption><p class="chart-help" id="${escapeAttribute(helpId)}">Use pointer or tap to inspect a recorded point. Focus the chart, then use arrow keys, Home, End, or Escape.</p>${positioned.length > 1 ? `<p class="chart-order-note">${escapeHtml(ordinalNote)}</p>` : ""}<div class="interactive-chart-plot-wrap"><svg class="interactive-line-chart-plot" viewBox="0 0 ${SVG_WIDTH} ${SVG_HEIGHT}" preserveAspectRatio="none" role="group" tabindex="0" aria-describedby="${escapeAttribute(helpId)} ${escapeAttribute(statusId)}" aria-label="${escapeAttribute(config.title)}">${axisTicks.map((tick) => `<line class="chart-gridline" x1="${PADDING.left}" x2="${SVG_WIDTH - PADDING.right}" y1="${tick.y.toFixed(2)}" y2="${tick.y.toFixed(2)}"></line><text class="chart-axis-label" x="${PADDING.left - 7}" y="${(tick.y + 4).toFixed(2)}" text-anchor="end">${escapeHtml(axisValue(tick.value, config, axisFormatter))}</text>`).join("")}${baselineY === null ? "" : `<line class="chart-baseline" x1="${PADDING.left}" x2="${SVG_WIDTH - PADDING.right}" y1="${baselineY.toFixed(2)}" y2="${baselineY.toFixed(2)}"></line>`}${positioned.map((entry, seriesIndex) => `<path class="chart-line is-series-${seriesIndex % 4}" d="${linePath(entry.points)}"></path>`).join("")}${positioned.flatMap((entry) => entry.points).map((point) => `<circle class="chart-point is-series-${point.seriesIndex % 4}" data-chart-point="${point.seriesIndex}:${point.pointIndex}" cx="${point.x.toFixed(2)}" cy="${point.y.toFixed(2)}" r="4" aria-hidden="true"></circle>`).join("")}<text class="chart-order-anchor" x="${PADDING.left}" y="${SVG_HEIGHT - 10}" text-anchor="start">First recorded</text><text class="chart-order-anchor" x="${SVG_WIDTH - PADDING.right}" y="${SVG_HEIGHT - 10}" text-anchor="end">Latest recorded</text><text class="chart-axis-title" x="${SVG_WIDTH / 2}" y="${SVG_HEIGHT - 10}" text-anchor="middle">Series order</text><line class="chart-crosshair" aria-hidden="true" hidden></line><circle class="chart-active-marker" aria-hidden="true" hidden r="6"></circle>${empty ? `<text class="chart-empty-label" x="${SVG_WIDTH / 2}" y="${SVG_HEIGHT / 2}" text-anchor="middle">No recorded values are available.</text>` : ""}</svg><div class="interactive-chart-tooltip" role="tooltip" hidden></div></div><p class="sr-only" id="${escapeAttribute(statusId)}" role="status" aria-live="polite"></p>${empty ? "<p class=\"chart-empty-message\">No finite values are available for this chart.</p>" : ""}${dataTableHtml(config, rows)}</figure>`;
+  return `<figure class="interactive-line-chart" data-interactive-line-chart data-chart-id="${escapeAttribute(id)}" data-chart-config="${escapeAttribute(encodeConfig(config))}"><figcaption><div><span class="chart-kicker">${escapeHtml(config.metricLabel)}</span><h4>${escapeHtml(config.title)}</h4><p>${escapeHtml(config.description)}</p></div>${legendHtml(positioned)}</figcaption>${readoutHtml(positioned, config)}<p class="chart-help" id="${escapeAttribute(helpId)}">Hover or tap to explore. <span class="chart-keyboard-help">Arrow keys move between points; Escape clears the selection.</span></p>${positioned.length > 1 ? `<p class="chart-order-note">${escapeHtml(ordinalNote)}</p>` : ""}<div class="interactive-chart-plot-wrap"><svg class="interactive-line-chart-plot" viewBox="0 0 ${SVG_WIDTH} ${SVG_HEIGHT}" preserveAspectRatio="none" role="group" tabindex="0" aria-describedby="${escapeAttribute(helpId)} ${escapeAttribute(statusId)}" aria-label="${escapeAttribute(config.title)}">${positioned.map((entry, index) => `<defs><linearGradient id="${id}-area-${index}" x1="0" y1="0" x2="0" y2="1"><stop class="chart-gradient-stop is-series-${index % 4}" offset="0%" stop-opacity=".18"></stop><stop class="chart-gradient-stop is-series-${index % 4}" offset="100%" stop-opacity="0"></stop></linearGradient></defs>`).join("")}${axisTicks.map((tick) => `<line class="chart-gridline" x1="${PADDING.left}" x2="${SVG_WIDTH - PADDING.right}" y1="${tick.y.toFixed(2)}" y2="${tick.y.toFixed(2)}"></line><text class="chart-axis-label" x="${PADDING.left - 7}" y="${(tick.y + 4).toFixed(2)}" text-anchor="end">${escapeHtml(axisValue(tick.value, config, axisFormatter))}</text>`).join("")}${baselineY === null ? "" : `<line class="chart-baseline" x1="${PADDING.left}" x2="${SVG_WIDTH - PADDING.right}" y1="${baselineY.toFixed(2)}" y2="${baselineY.toFixed(2)}"></line>`}<g class="chart-series-paths">${positioned.map((entry, seriesIndex) => `<g data-chart-series-path="${seriesIndex}">${entry.points.length > 1 ? `<path class="chart-area" fill="url(#${id}-area-${seriesIndex})" d="${linePath(entry.points)} L${entry.points.at(-1).x} ${SVG_HEIGHT - PADDING.bottom} L${entry.points[0].x} ${SVG_HEIGHT - PADDING.bottom} Z"></path>` : ""}<path class="chart-line is-series-${seriesIndex % 4}" d="${linePath(entry.points)}"></path></g>`).join("")}</g>${positioned.flatMap((entry) => entry.points).map((point) => `<circle class="chart-point is-series-${point.seriesIndex % 4} ${point.pointIndex === positioned[point.seriesIndex].points.length - 1 ? "is-latest" : ""}" data-chart-point="${point.seriesIndex}:${point.pointIndex}" cx="${point.x.toFixed(2)}" cy="${point.y.toFixed(2)}" r="4" aria-hidden="true"></circle>`).join("")}<text class="chart-order-anchor" x="${PADDING.left}" y="${SVG_HEIGHT - 10}" text-anchor="start">First recorded</text><text class="chart-order-anchor" x="${SVG_WIDTH - PADDING.right}" y="${SVG_HEIGHT - 10}" text-anchor="end">Latest recorded</text><text class="chart-axis-title" x="${SVG_WIDTH / 2}" y="${SVG_HEIGHT - 10}" text-anchor="middle">Series order</text><line class="chart-crosshair" aria-hidden="true" hidden></line><circle class="chart-active-marker" aria-hidden="true" hidden r="6"></circle>${empty ? `<text class="chart-empty-label" x="${SVG_WIDTH / 2}" y="${SVG_HEIGHT / 2}" text-anchor="middle">No recorded values are available.</text>` : ""}</svg><div class="interactive-chart-tooltip" role="tooltip" hidden></div></div><p class="sr-only" id="${escapeAttribute(statusId)}" role="status" aria-live="polite"></p>${empty ? "<p class=\"chart-empty-message\">No finite values are available for this chart.</p>" : ""}${dataTableHtml(config, rows)}</figure>`;
 }
 
 function getPointRecords(chart) {
+  if (chartPoints.has(chart)) return chartPoints.get(chart);
   const config = decodeConfig(chart);
   if (!config) return [];
   const domain = getLineChartDomain(config.series, config.baseline);
-  return chartPointRows(config.series, config).map((point) => ({
+  const points = chartPointRows(config.series, config).map((point) => ({
     ...point,
     ...pointToPlotPosition(point, point.pointIndex, config.series[point.seriesIndex].points.length, domain),
   }));
+  chartPoints.set(chart, points);
+  return points;
 }
 
 function getState(chart) {
   let state = chartStates.get(chart);
   if (!state) {
-    state = { activeKey: null, touchSelected: false };
+    state = { activeKey: null, touchSelected: false, focusedSeries: null };
     chartStates.set(chart, state);
   }
   return state;
@@ -303,13 +364,17 @@ function showPoint(chart, point, announce = false, touch = false) {
   if (!config || !point) return;
   const state = getState(chart);
   const { tooltip, status, crosshair, marker } = activeElements(chart);
+  if (state.activeKey === pointKey(point) && !announce && state.touchSelected === touch) return;
   state.activeKey = pointKey(point);
   state.touchSelected = touch;
+  chart.classList.add('is-inspecting');
+  updateReadouts(chart, point);
   if (tooltip) {
     tooltip.replaceChildren();
     const series = document.createElement("strong");
     series.textContent = point.seriesLabel;
     const metric = document.createElement("span");
+    metric.className = "chart-tooltip-value";
     metric.textContent = `${config.metricLabel}: ${formatValue(point.value, config, point.formattedValue)}`;
     const label = document.createElement("span");
     label.textContent = point.label;
@@ -338,6 +403,8 @@ function clearPoint(chart, force = false) {
   if (state.touchSelected && !force) return;
   state.activeKey = null;
   state.touchSelected = false;
+  chart.classList.remove("is-inspecting");
+  updateReadouts(chart);
   const { tooltip, status, crosshair, marker } = activeElements(chart);
   setHidden(tooltip, true);
   setHidden(crosshair, true);
@@ -352,7 +419,8 @@ function pointFromEvent(chart, event) {
   if (!rect.width || !rect.height) return null;
   const x = (event.clientX - rect.left) / rect.width * SVG_WIDTH;
   const y = (event.clientY - rect.top) / rect.height * SVG_HEIGHT;
-  return findNearestPoint(getPointRecords(chart), x, y);
+  const focused = getState(chart).focusedSeries;
+  return findNearestPoint(getPointRecords(chart).filter((point) => focused === null || point.seriesIndex === focused), x, y);
 }
 
 function chartFromTarget(target) {
@@ -398,7 +466,8 @@ function onFocusIn(event) {
   const plot = event.target instanceof Element ? event.target.closest(".interactive-line-chart-plot") : null;
   const chart = plot?.closest(CHART_SELECTOR);
   if (!chart) return;
-  const points = getPointRecords(chart);
+  const focused = getState(chart).focusedSeries;
+  const points = getPointRecords(chart).filter((point) => focused === null || point.seriesIndex === focused);
   const active = getState(chart).activeKey;
   showPoint(chart, points.find((point) => pointKey(point) === active) || points[0], true);
 }
@@ -413,7 +482,8 @@ function onKeyDown(event) {
   const plot = event.target instanceof Element ? event.target.closest(".interactive-line-chart-plot") : null;
   const chart = plot?.closest(CHART_SELECTOR);
   if (!chart) return;
-  const points = getPointRecords(chart);
+  const focused = getState(chart).focusedSeries;
+  const points = getPointRecords(chart).filter((point) => focused === null || point.seriesIndex === focused);
   if (!points.length) return;
   if (event.key === "Escape") { event.preventDefault(); event.stopImmediatePropagation(); clearPoint(chart, true); return; }
   const currentKey = getState(chart).activeKey;
@@ -437,12 +507,45 @@ function repositionActiveCharts(root) {
   });
 }
 
+function updateReadouts(chart, selected = null) {
+  const config = decodeConfig(chart);
+  if (!config) return;
+  chart.querySelectorAll('[data-chart-readout]').forEach((readout) => {
+    const index = Number(readout.dataset.chartReadout);
+    const active = selected?.seriesIndex === index;
+    const point = active ? selected : config.series[index]?.points.at(-1);
+    if (!point) return;
+    readout.classList.toggle('is-active', active);
+    readout.querySelector('[data-readout-mode]').textContent = active ? 'Selected' : 'Latest';
+    readout.querySelector('[data-readout-value]').textContent = formatValue(point.value, config, point.formattedValue);
+    readout.querySelector('[data-readout-label]').textContent = point.label;
+  });
+}
+
+function onLegendClick(event) {
+  const button = event.target instanceof Element ? event.target.closest('[data-chart-series]') : null;
+  const chart = button?.closest(CHART_SELECTOR);
+  if (!chart) return;
+  const state = getState(chart);
+  const index = Number(button.dataset.chartSeries);
+  state.focusedSeries = state.focusedSeries === index ? null : index;
+  chart.querySelectorAll('[data-chart-series]').forEach((control) => control.setAttribute('aria-pressed', String(Number(control.dataset.chartSeries) === state.focusedSeries)));
+  chart.querySelectorAll('[data-chart-series-path], [data-chart-readout], [data-chart-point]').forEach((node) => {
+    const series = Number(node.dataset.chartSeriesPath ?? node.dataset.chartReadout ?? node.dataset.chartPoint.split(':')[0]);
+    node.classList.toggle('is-muted-series', state.focusedSeries !== null && series !== state.focusedSeries);
+  });
+  clearPoint(chart, true);
+  chart.dispatchEvent(new CustomEvent('chart-series-change', { detail: state.focusedSeries }));
+}
+
 /** Installs one delegated listener set for a root. Safe to call after every render. */
 export function installChartInteractions(root = typeof document === "undefined" ? null : document) {
+  if (root) enhanceCharts(root);
   if (!root || rootInstallations.has(root)) return rootInstallations.get(root)?.destroy || (() => {});
   const handlers = {
     onPointerMove,
     onPointerOut,
+    onLegendClick,
     onPointerUp: (event) => onPointerUp(event, root),
     onFocusIn,
     onFocusOut,
@@ -450,6 +553,7 @@ export function installChartInteractions(root = typeof document === "undefined" 
     onScroll: () => handleScroll(root),
     onVisibilityChange: () => clearActiveCharts(root),
   };
+  root.addEventListener("click", handlers.onLegendClick);
   root.addEventListener("pointermove", handlers.onPointerMove);
   root.addEventListener("pointerout", handlers.onPointerOut);
   root.addEventListener("pointerup", handlers.onPointerUp);
@@ -462,6 +566,14 @@ export function installChartInteractions(root = typeof document === "undefined" 
   if (typeof window !== "undefined") window.addEventListener("resize", onResize, { passive: true });
   const installation = {
     destroy() {
+      root.querySelectorAll?.(CHART_SELECTOR).forEach((chart) => {
+        chartVisibilityObserver?.unobserve(chart);
+        pendingCharts.delete(chart);
+        chartEngines.get(chart)?.();
+        chartEngines.delete(chart);
+        observedCharts.delete(chart);
+      });
+      root.removeEventListener("click", handlers.onLegendClick);
       root.removeEventListener("pointermove", handlers.onPointerMove);
       root.removeEventListener("pointerout", handlers.onPointerOut);
       root.removeEventListener("pointerup", handlers.onPointerUp);

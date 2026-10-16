@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
-import { mergePlayerTimeline, summarizePlayerEvents, summarizePlayerMaps, summarizePlayerRosterEras, summarizePlayerTimeline } from "../docs/lib/player-history.js";
+import { mergePlayerProfile, mergePlayerTimeline, summarizePlayerEvents, summarizePlayerMaps, summarizePlayerRosterEras, summarizePlayerTimeline } from "../docs/lib/player-history.js";
+import { refreshPlayerProfiles } from "./build-player-snapshot.mjs";
 
 const existing = Array.from({ length: 12 }, (_, index) => ({ match_id: `m${index + 1}`, date: `2026-01-${String(index + 1).padStart(2, "0")}`, rating: 1 + index / 100, adr: 70 + index }));
 const merged = mergePlayerTimeline(existing, [
@@ -33,3 +34,29 @@ const richTimeline = [
 assert.deepEqual(summarizePlayerEvents(richTimeline).map((row) => [row.event_name, row.series, row.average_rating]), [["Event B", 1, 1.4], ["Event A", 2, 1.2]]);
 assert.deepEqual(summarizePlayerRosterEras(richTimeline).map((row) => [row.team_name, row.series, row.win_rate]), [["Bravo", 1, 1], ["Alpha", 2, 0.5]]);
 console.log("player intelligence contract tests ok");
+
+assert.equal(summarizePlayerTimeline([{ rating: null, adr: "" }]).average_rating, null);
+assert.equal(summarizePlayerTimeline([{ rating: 0, adr: 0 }]).average_adr, 0);
+const profile = { rating_3_0: 1.2, maps_3m: 40, stats_through_date: "2026-06-08", form_timeline: [{ match_id: "old", date: "2026-06-01", rating: 1.1 }] };
+const partial = mergePlayerProfile(profile, { rating_3_0: 2, maps_3m: 1, form_timeline: [{ match_id: "new", date: "2026-10-13", rating: 2 }] });
+assert.equal(partial.rating_3_0, 1.2, "A live series must not overwrite an aggregate profile");
+assert.equal(partial.maps_3m, 40);
+assert.equal(partial.form_timeline.length, 2, "Browser and publisher must preserve collected history");
+const fresh = mergePlayerProfile(profile, { rating_3_0: 1.3, maps_3m: 55, stats_from_date: "2026-07-14", stats_through_date: "2026-10-14" });
+assert.equal(fresh.rating_3_0, 1.3);
+assert.equal(mergePlayerProfile(fresh, { rating_3_0: .7, stats_from_date: "2026-03-01", stats_through_date: "2026-06-08" }).rating_3_0, 1.3);
+
+const verifiedProfile = { player_id: "hltv:21167", nickname: "donk", current_team: "Spirit", verified: true,
+  rating_3_0: 1.37, maps_3m: 63, source_url: "https://www.hltv.org/player/21167/donk",
+  stats_through_date: "2026-10-13", checked_at_utc: "2026-10-14T07:00:00Z",
+  traits: { firepower: 100, entrying: 60, trading: 75, opening: 96, clutching: 48, sniping: 0, utility: 31 } };
+const source = { checked_at_utc: verifiedProfile.checked_at_utc, players: [verifiedProfile] };
+const refreshed = refreshPlayerProfiles({ players: [{ ...profile, player_id: "hltv:21167" }, { player_id: "hltv:1", nickname: "Other" }] }, source);
+assert.equal(refreshed.players.length, 2, "Profile refresh must retain players outside the source batch");
+assert.equal(refreshed.players[0].rating_3_0, 1.37);
+assert.equal(refreshed.players[0].stats_through_date, "2026-10-13", "Retrieval today must not relabel yesterday's source");
+assert.equal(refreshed.players[0].form_timeline.length, 1);
+assert.equal(refreshed.players[0].traits.sniping, 0, "Zero is a valid trait value");
+assert.equal(mergePlayerProfile(refreshed.players[0], { team_name: "Former team", form_timeline: [{ match_id: "old-result", date: "2026-10-12" }] }).team_name, "Spirit", "Older match lineups cannot overwrite a newer profile team");
+assert.throws(() => refreshPlayerProfiles({ players: [] }, { ...source, players: [{ ...verifiedProfile, source_url: "https://example.com/player/21167/donk" }] }), /source/);
+assert.throws(() => refreshPlayerProfiles({ players: [] }, { ...source, players: [{ ...verifiedProfile, verified: false }] }), /No verified/);

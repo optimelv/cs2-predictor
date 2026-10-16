@@ -30,6 +30,8 @@ def make_purged_time_folds(
 
     if n_splits < 2:
         raise ValueError("n_splits must be at least 2")
+    if purge_days < 0 or min_train_size < 1:
+        raise ValueError("purge_days must be nonnegative and min_train_size must be positive")
     if len(timestamps) < min_train_size + n_splits:
         raise ValueError("not enough samples for the requested split settings")
 

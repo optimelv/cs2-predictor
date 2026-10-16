@@ -10,7 +10,7 @@ const historySnapshot = await parse("../docs/data/history.json");
 const modelRegistry = await parse("../docs/data/model-registry.json");
 const onlineTrainingRows = (await readFile(new URL("../models/portable-online-training.jsonl", import.meta.url), "utf8")
   .catch((error) => {
-    if (error.code === "ENOENT") return ""; // The public checkout omits private training rows.
+    if (error.code === "ENOENT") return ""; // Public checkouts omit private training rows.
     throw error;
   }))
   .split(/\r?\n/).filter(Boolean).map(JSON.parse);
@@ -43,11 +43,11 @@ for (const match of snapshot.coverage.daily_matches) {
   matchIds.add(match.match_id);
 }
 
-const rankingNames = new Set();
+const rankingRanks = new Set();
 for (const row of snapshot.coverage.vrs?.teams || []) {
   invariant(row.team_name && Number(row.rank) > 0, "Every VRS row needs a team and rank.");
-  invariant(!rankingNames.has(row.team_name), `Duplicate VRS team: ${row.team_name}`);
-  rankingNames.add(row.team_name);
+  invariant(!rankingRanks.has(Number(row.rank)), `Duplicate VRS rank: ${row.rank}`);
+  rankingRanks.add(Number(row.rank));
 }
 
 for (const [teamName, asset] of Object.entries(teamAssets)) {
@@ -152,4 +152,4 @@ for (const [teamKey, profile] of Object.entries(vetoProfiles)) {
 }
 
 invariant(productEventCount > 0, "The public Tier 1/2 circuit cannot be empty.");
-console.log(`site data ok: ${productEventCount}/${eventIds.size} public Tier 1/2 events, ${matchIds.size} current matches, ${historyIds.size} historical matches, ${rankingNames.size} VRS teams, ${playerIds.size} players, ${playerTimelineCount} timelines, ${Object.keys(mapProfiles).length} map profiles, ${Object.keys(vetoProfiles).length} veto profiles`);
+console.log(`site data ok: ${productEventCount}/${eventIds.size} public Tier 1/2 events, ${matchIds.size} current matches, ${historyIds.size} historical matches, ${rankingRanks.size} VRS lineups, ${playerIds.size} players, ${playerTimelineCount} timelines, ${Object.keys(mapProfiles).length} map profiles, ${Object.keys(vetoProfiles).length} veto profiles`);

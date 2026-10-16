@@ -1,3 +1,4 @@
+import { eventIsProductEligible } from "../docs/lib/snapshot.js";
 import { compileBracketContract } from "./bracket-contract.js";
 
 const normalize = (value) => String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
@@ -52,6 +53,7 @@ function matchIdentity(row) {
 
 function matchHasRecordedResult(row) {
   if (String(row?.winner_name || row?.winner || "").trim()) return true;
+  if ([row?.score1, row?.score2].some((score) => score == null || typeof score === "boolean" || String(score).trim() === "")) return false;
   const score1 = Number(row?.score1);
   const score2 = Number(row?.score2);
   if (!Number.isFinite(score1) || !Number.isFinite(score2) || score1 < 0 || score2 < 0 || score1 === score2) return false;
@@ -105,17 +107,17 @@ function currentMatches(datasets) {
     const id = matchIdentity(row);
     if (!id || id === "::") continue;
     const tier = row.product_tier || eventTiers[row.event_id];
-    if (!eligible.has(tier)) continue;
+    if (!eligible.has(tier) || !eventIsProductEligible({ name: row.event_name, product_tier: tier })) continue;
     merged.set(id, { ...(merged.get(id) || {}), ...row, match_id: id, product_tier: tier });
   }
   return [...merged.values()].filter((row) => !matchIsStaleUnresolved(row) && Number.isFinite(Date.parse(row.starts_at || row.start_time || "")));
 }
 
 function rowsFor(resource, datasets, params) {
-  if (resource === "matches") return params.history ? datasets.history.matches : currentMatches(datasets);
-  if (resource === "events") return datasets.live.events.map((event) => ({ ...event, display_status: eventDisplayStatus(event, datasets) }));
+  if (resource === "matches") return params.history ? datasets.history.matches.filter((row) => eventIsProductEligible({ name: row.event_name, tier: row.tier })) : currentMatches(datasets);
+  if (resource === "events") return datasets.live.events.filter(eventIsProductEligible).map((event) => ({ ...event, display_status: eventDisplayStatus(event, datasets) }));
   if (resource === "players") return datasets.players.players;
-  if (resource === "rankings") return datasets.live.rankings?.teams || [];
+  if (resource === "rankings") return datasets.predictions?.coverage?.vrs?.teams || datasets.live.rankings?.teams || [];
   return null;
 }
 
@@ -133,7 +135,7 @@ function bracketState(datasets, eventQuery) {
     const name = normalize(row.name);
     return id === needle || name === needle;
   });
-  if (!event && projection && [projection.event_id, projection.stage].some((value) => normalize(value).includes(needle) || needle.includes(normalize(value)))) {
+  if (!event && projection && [projection.event_id, projection.stage].some((value) => normalize(value) && (normalize(value).includes(needle) || needle.includes(normalize(value))))) {
     event = {
       id: projection.event_id,
       name: String(projection.stage || projection.event_id).replace(/\s+(stage\s*\d+|playoffs).*$/i, ""),
@@ -177,15 +179,15 @@ function filteredRows(resource, rows, params) {
 }
 
 export function catalogManifest(datasets) {
-  const events = datasets.live.events.map((event) => ({ ...event, display_status: eventDisplayStatus(event, datasets) }));
+  const events = datasets.live.events.filter(eventIsProductEligible).map((event) => ({ ...event, display_status: eventDisplayStatus(event, datasets) }));
   return {
     ok: true,
     contract_version: "1.0",
     resources: {
-      matches: { current: currentMatches(datasets).length, historical: datasets.history.matches.length },
+      matches: { current: currentMatches(datasets).length, historical: rowsFor("matches", datasets, { history: true }).length },
       events: { current: events.filter((event) => ["ongoing", "upcoming"].includes(event.display_status)).length },
       players: { profiles: datasets.players.players.length },
-      rankings: { teams: datasets.live.rankings?.teams?.length || 0 },
+      rankings: { teams: rowsFor("rankings", datasets, {}).length },
       brackets: { event_bound: true },
     },
     eligible_tiers: ["tier_1", "tier_2"],

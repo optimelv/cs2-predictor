@@ -1,3 +1,4 @@
+import eventPolicy from "./event-policy.json" with { type: "json" };
 import { eventIsProductEligible, productTierForEvent, slugify } from "./snapshot.js";
 
 const matchEventKey = (match = {}) => String(match.event_id || slugify(match.event_name || ""));
@@ -11,6 +12,7 @@ export function filterProductLiveSnapshot(snapshot = {}) {
   }));
   const matches = (snapshot.matches || []).filter((match) => {
     const eventKey = matchEventKey(match);
+    if (productTierForEvent({ name: match.event_name, product_tier: match.product_tier, tier: match.event_tier }) === "excluded") return false;
     if (eligibleEventIds.has(eventKey) || eligibleEventIds.has(slugify(match.event_name || ""))) return true;
     return eventIsProductEligible({
       name: match.event_name,
@@ -47,6 +49,7 @@ export function filterProductLiveSnapshot(snapshot = {}) {
     matches,
     players,
     product_filter: {
+      policy_version: eventPolicy.version,
       eligible_tiers: ["tier_1", "tier_2"],
       events_kept: events.length,
       matches_kept: matches.length,

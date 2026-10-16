@@ -1,3 +1,4 @@
+import eventPolicy from "../docs/lib/event-policy.json" with { type: "json" };
 import assert from "node:assert/strict";
 import { eventIsProductEligible, normalizeEvent, normalizeMatch, productTierForEvent } from "../docs/lib/snapshot.js";
 
@@ -37,3 +38,5 @@ assert.equal(normalizeMatch({ ...oldMatch, status: "scheduled" }).status, "upcom
 assert.equal(normalizeMatch({ ...oldMatch, status: "playing" }).status, "live", "Recorded source status is independent of today's date");
 assert.equal(normalizeMatch({ ...oldMatch, status: "completed", score1: 2, score2: 1 }).status, "finished");
 assert.equal(normalizeMatch(oldMatch).score1, null, "Missing score remains unknown");
+
+for (const [name, product_tier, expected] of eventPolicy.cases) assert.equal(productTierForEvent({ name, product_tier }), expected, name);

@@ -18,6 +18,7 @@ const base = {
   lineups: { team1: [{ player_id: "hltv:11" }], team2: [{ player_id: "hltv:22" }] },
 };
 const baseline = ingestMatchSignals({}, [base], { observedAt: "2026-08-01T10:00:00Z", isRelevant: () => true });
+const baselineCopy = structuredClone(baseline.state);
 assert.equal(baseline.created.length, 0);
 assert.equal(signalMatchKey(base), "hltv:1");
 
@@ -31,6 +32,14 @@ assert.deepEqual(changed.created.map((item) => item.type).sort(), ["match_live",
 assert.equal(unreadSignalCount(changed.state), 3);
 assert.equal(matchSignalRecord(changed.state, base).closing_prob_team1, 0.56);
 assert.equal(matchSignalRecord(changed.state, base).timeline.length, 2);
+assert.deepEqual(baseline.state, baselineCopy, "Ingesting signals must not mutate the caller's previous state");
+
+for (const probability of [null, undefined, "", " ", false, true, [], {}, -0.1, 1.1, NaN]) {
+  const missing = ingestMatchSignals(baseline.state, [{ ...base, prob_team1: probability }], { observedAt: "2026-08-01T10:30:00Z" });
+  assert.equal(matchSignalRecord(missing.state, base).latest.prob_team1, null);
+  assert.equal(missing.created.length, 0, "An unavailable forecast must not generate a probability movement alert");
+}
+assert.deepEqual(ingestMatchSignals(baseline.state, [base], { observedAt: "bad-time" }).state, baseline.state);
 
 const repeated = ingestMatchSignals(changed.state, [{ ...base, prob_team1: 0.62, status: "live", maps: ["Mirage", "Inferno", "Dust2"] }], { observedAt: "2026-08-01T11:05:00Z", isRelevant: () => true });
 assert.equal(repeated.created.length, 0);
@@ -49,6 +58,7 @@ const lineup = ingestMatchSignals(repeated.state, [{
 assert.equal(lineup.created.some((item) => item.type === "lineup_change"), true);
 assert.equal(unreadSignalCount(markSignalsRead(lineup.state)), 0);
 assert.deepEqual(normalizeSignalState(null).notifications, []);
+assert.equal(unreadSignalCount({ notifications: [null, false, [], { read: false }] }), 1);
 
 const largeBaseline = ingestMatchSignals({}, Array.from({ length: 320 }, (_, index) => ({
   match_id: `hltv:${index}`,

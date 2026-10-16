@@ -1,3 +1,5 @@
+import { eventIsProductEligible } from "./snapshot.js";
+
 const keyOf = (value) => String(value || "")
   .normalize("NFKD")
   .replace(/[\u0300-\u036f]/g, "")
@@ -6,6 +8,13 @@ const keyOf = (value) => String(value || "")
   .trim();
 
 const matchDateValue = (match) => new Date(`${match.match_date || "1970-01-01"}T12:00:00Z`).getTime();
+
+export function historyMatchFingerprint(match) {
+  const normalize = (name) => keyOf(name).replaceAll(" ", "").replace(/^natusvincere$/, "navi");
+  if (!match.team1_name || !match.team2_name || [match.score1, match.score2].some((score) => score == null || String(score).trim() === "" || typeof score === "boolean" || !Number.isInteger(Number(score)) || Number(score) < 0)) return String(match.match_id);
+  const sides = [[normalize(match.team1_name), Number(match.score1)], [normalize(match.team2_name), Number(match.score2)]].sort((a, b) => a[0].localeCompare(b[0]));
+  return `${String(match.match_date || match.starts_at || "").slice(0, 10)}|${sides.map((side) => side.join(":" )).join("|")}`;
+}
 
 const slugOf = (value) => keyOf(value).replaceAll(" ", "-") || "event";
 
@@ -17,7 +26,7 @@ const phaseLabel = (value) => {
 export function historyMatchesForTeam(snapshot, teamName) {
   const teamKey = keyOf(teamName);
   return (snapshot?.matches || [])
-    .filter((match) => match?.tier === "tier_1" || match?.tier === "tier_2")
+    .filter((match) => eventIsProductEligible({ name: match?.event_name, tier: match?.tier }))
     .filter((match) => [match.team1_name, match.team2_name].some((name) => keyOf(name) === teamKey))
     .sort((a, b) => matchDateValue(b) - matchDateValue(a));
 }
@@ -115,6 +124,22 @@ export function mergeHistoryMatches(snapshot, incomingMatches = []) {
     if (!match.round_name && existing.round_name) merged.round_name = existing.round_name;
     if (["", "Series", "regular"].includes(String(match.phase || "")) && existing.phase) merged.phase = existing.phase;
     byId.set(String(match.match_id), merged);
+  }
+  const byResult = new Map();
+  for (const match of byId.values()) {
+    const fingerprint = historyMatchFingerprint(match);
+    byResult.set(fingerprint, [...(byResult.get(fingerprint) || []), match]);
+  }
+  for (const group of byResult.values()) {
+    const hltv = group.filter((match) => String(match.match_id).startsWith("hltv:"));
+    const liquipedia = group.filter((match) => String(match.match_id).startsWith("liquipedia:"));
+    // Keep ambiguous same-day rematches separate; reconcile only one observation per source.
+    if (hltv.length !== 1 || liquipedia.length !== 1) continue;
+    const primary = hltv[0], duplicate = liquipedia[0];
+    if ((duplicate.maps || []).length || (duplicate.lineups?.team1 || []).length || (duplicate.lineups?.team2 || []).length) continue;
+    primary.alternate_sources = [...(primary.alternate_sources || []).filter((source) => source.match_id !== duplicate.match_id),
+      { match_id: duplicate.match_id, source: duplicate.source, source_url: duplicate.source_url, starts_at: duplicate.starts_at }];
+    byId.delete(String(duplicate.match_id));
   }
   base.matches = [...byId.values()].sort((a, b) => matchDateValue(b) - matchDateValue(a));
   const dates = base.matches.map((match) => match.match_date).filter(Boolean).sort();

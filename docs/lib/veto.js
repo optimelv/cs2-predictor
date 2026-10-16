@@ -140,7 +140,7 @@ export function recommendedMap(state, mapProfiles, vetoProfiles) {
 }
 
 export function buildRecommendedVeto(config, mapProfiles, vetoProfiles) {
-  let state = createVetoState(config);
+  let state = replayVeto(config, config.actions || []);
   while (!state.complete) {
     const mapName = recommendedMap(state, mapProfiles, vetoProfiles);
     if (!mapName) break;

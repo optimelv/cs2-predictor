@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import { catalogManifest, queryCatalog, validateCatalogDatasets } from "../server/catalog.js";
+import { createDatasetLoader } from "../api/catalog.js";
 
 const datasets = {
   live: {
@@ -67,17 +68,34 @@ assert.equal(bracket.data[0].lanes[0].id, "swiss");
 assert.equal(bracket.data[0].lanes[0].rounds.length, 1);
 assert.equal(bracket.data[0].blueprint.playoff_type, "single_elimination");
 assert.equal(queryCatalog("brackets", datasets, { event: "missing" }).status, 404);
+assert.equal(queryCatalog("brackets", { ...datasets, predictions: { ...datasets.predictions, major_projection: { stage: "Major Swiss" } } }, { event: "unrelated" }).status, 404);
 assert.equal(validateCatalogDatasets(datasets), datasets);
+let reads = 0;
+let unavailable = true;
+const fixtureFiles = { "live-snapshot.json": datasets.live, "history.json": datasets.history, "players.json": datasets.players, "predictions.json": datasets.predictions };
+const load = createDatasetLoader(async (name) => {
+  reads++;
+  if (unavailable) throw new Error("Transient read failure");
+  return fixtureFiles[name];
+});
+await assert.rejects(load(), /Transient/);
+unavailable = false;
+const [recovered, concurrent] = await Promise.all([load(), load()]);
+assert.deepEqual(recovered, datasets);
+assert.equal(concurrent, recovered);
+await load();
+assert.equal(reads, 8, "Failed loads must be retryable; successful and concurrent loads must share one cache");
 assert.throws(() => validateCatalogDatasets({ ...datasets, live: { ...datasets.live, matches: [{ ...datasets.live.matches[0], product_tier: "excluded" }] } }), /ineligible match/);
 
 const staleDatasets = {
   ...datasets,
   live: {
     ...datasets.live,
-    events: [{ id: "old-event", name: "Old Circuit", status: "ongoing", start_date: "2020-01-01", end_date: "2020-01-03" }],
+    events: [{ id: "old-event", name: "Old Circuit", product_tier: "tier_1", status: "ongoing", start_date: "2020-01-01", end_date: "2020-01-03" }],
     matches: [
       { match_id: "old-match", event_id: "old-event", event_name: "Old Circuit", team1_name: "Alpha", team2_name: "Beta", starts_at: "2020-01-02T12:00:00Z", status: "live", product_tier: "tier_1" },
       { match_id: "old-score", event_id: "old-event", event_name: "Old Circuit", team1_name: "Gamma", team2_name: "Delta", starts_at: "2020-01-02T12:00:00Z", status: "live", score1: 0, score2: 1, product_tier: "tier_1" },
+      { match_id: "missing-score", event_id: "old-event", team1_name: "Missing", team2_name: "Unknown", starts_at: "2020-01-02T12:00:00Z", status: "live", score1: null, score2: 2, product_tier: "tier_1" },
       { match_id: "old-finished", event_id: "old-event", event_name: "Old Circuit", team1_name: "Epsilon", team2_name: "Zeta", starts_at: "2020-01-02T12:00:00Z", status: "finished", product_tier: "tier_1" },
     ],
     product_filter: { event_tiers: { "old-event": "tier_1" } },
@@ -85,5 +103,15 @@ const staleDatasets = {
   predictions: { coverage: { daily_matches: [] }, upcoming_predictions: [] },
 };
 assert.equal(queryCatalog("matches", staleDatasets, { team: "Alpha" }).data.length, 0);
+assert.equal(queryCatalog("matches", staleDatasets, { team: "Missing" }).data.length, 0);
 assert.equal(queryCatalog("events", staleDatasets, { status: "historical" }).data[0].display_status, "historical");
 console.log("public catalog contract tests ok");
+
+const excluded = { ...datasets.live.matches[0], match_id: "qualifier", event_name: "IEM Open Qualifier", product_tier: "tier_1" };
+const curated = { ...datasets, live: { ...datasets.live, matches: [...datasets.live.matches, excluded] },
+  history: { matches: [...datasets.history.matches, { ...excluded, tier: "tier_1" }] } };
+assert.ok(!queryCatalog("matches", curated).data.some((row) => row.match_id === "qualifier"));
+assert.ok(!queryCatalog("matches", curated, { history: "1" }).data.some((row) => row.match_id === "qualifier"));
+
+const officialRankings = { ...datasets, predictions: { ...datasets.predictions, coverage: { vrs: { teams: [{ team_name: "Current Valve team", rank: 1, points: 1800 }] } } } };
+assert.equal(queryCatalog("rankings", officialRankings).data[0].team_name, "Current Valve team", "Official standings must take precedence over an empty or stale live collector ranking");

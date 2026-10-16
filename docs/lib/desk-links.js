@@ -24,14 +24,16 @@ function cleanPick(value) {
   if (!value || typeof value !== "object" || Array.isArray(value)) return null;
   const teamName = cleanText(value.t ?? value.team_name);
   const opponentName = cleanText(value.o ?? value.opponent_name);
-  const probability = Number(value.p ?? value.probability);
-  if (!teamName || !opponentName || !Number.isFinite(probability)) return null;
+  const rawProbability = value.p ?? value.probability;
+  if (!["number", "string"].includes(typeof rawProbability) || String(rawProbability).trim() === "") return null;
+  const probability = Number(rawProbability);
+  if (!teamName || !opponentName || !Number.isFinite(probability) || probability < 0 || probability > 1) return null;
   return {
     team_name: teamName,
     opponent_name: opponentName,
     event_name: cleanText(value.e ?? value.event_name),
     starts_at: cleanText(value.s ?? value.starts_at, 80) || null,
-    probability: Math.max(0, Math.min(1, probability)),
+    probability,
     saved_at: cleanText(value.a ?? value.saved_at, 80) || null,
     match_id: cleanText(value.m ?? value.match_id, 220) || null,
   };

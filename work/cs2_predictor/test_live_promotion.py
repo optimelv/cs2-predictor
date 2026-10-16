@@ -150,3 +150,13 @@ class LivePromotionTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+class EventCurationParityTests(unittest.TestCase):
+    def test_export_and_training_use_collector_policy(self):
+        from infra.oracle.worker.event_policy import POLICY
+        from .promote_portable_model import live_product_tier
+        for name, declared, expected in POLICY["cases"]:
+            row = {"event_name": name, "product_tier": declared}
+            with self.subTest(name=name):
+                self.assertEqual(product_tier_from_feed(row), expected)
+                self.assertEqual(live_product_tier(row), {"tier_1": "T1", "tier_2": "T2"}.get(expected))

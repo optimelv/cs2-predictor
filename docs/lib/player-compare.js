@@ -1,6 +1,6 @@
-const MAX_ID_LENGTH = 180;
+import { playerStatNumber as finite } from "./player-history.js";
 
-const finite = (value) => Number.isFinite(Number(value)) ? Number(value) : null;
+const MAX_ID_LENGTH = 180;
 const cleanId = (value) => String(value || "").trim().slice(0, MAX_ID_LENGTH);
 
 export function parsePlayerCompare(value, validIds = []) {
@@ -55,9 +55,9 @@ export function comparePlayerProfiles(left, right) {
   if (!left || !right) return null;
   const metrics = [
     metric("rating", "Rating 3.0", left.rating_3_0, right.rating_3_0, 2),
-    metric("recent", "Recent rating", left.form_summary?.recent_rating, right.form_summary?.recent_rating, 2),
+    metric("recent", "Last 3 recorded", left.form_summary?.recent_rating, right.form_summary?.recent_rating, 2),
     metric("adr", "Tracked ADR", left.form_summary?.average_adr, right.form_summary?.average_adr, 1),
-    metric("signal", "Signal index", left.signal_index, right.signal_index, 0),
+    metric("signal", "Profile index", left.signal_index, right.signal_index, 0),
     metric("maps", "Map sample", left.maps_3m, right.maps_3m, 0),
   ];
   const traitKeys = ["firepower", "entrying", "trading", "opening", "clutching", "sniping", "utility"];

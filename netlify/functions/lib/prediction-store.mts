@@ -19,7 +19,7 @@ export function env(name: string): string {
 export function jsonResponse(payload: unknown, init: ResponseInit = {}): Response {
   const headers = new Headers(init.headers);
   headers.set("content-type", "application/json; charset=utf-8");
-  headers.set("cache-control", "public, max-age=30, stale-while-revalidate=120");
+  if (!headers.has("cache-control")) headers.set("cache-control", (init.status || 200) >= 400 ? "no-store" : "public, max-age=30, stale-while-revalidate=120");
   return new Response(JSON.stringify(payload), {
     ...init,
     headers,
@@ -46,7 +46,7 @@ export function siteBaseUrl(req?: Request): string {
 export async function readStaticSnapshot(req?: Request): Promise<Record<string, unknown>> {
   const baseUrl = siteBaseUrl(req);
   if (!baseUrl) throw new Error("No site URL available for static snapshot fallback.");
-  const response = await fetch(`${baseUrl}/data/predictions.json`, { cache: "no-store" });
+  const response = await fetch(`${baseUrl}/data/predictions.json`, { cache: "no-store", signal: AbortSignal.timeout(12_000) });
   if (!response.ok) {
     throw new Error(`Static prediction snapshot failed with ${response.status}`);
   }

@@ -1,12 +1,5 @@
 import { readFile, writeFile } from "node:fs/promises";
-import { mergeHistoryMatches } from "../docs/lib/history.js";
-
-const normalize = (name) => String(name || "").normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "").replace(/^natusvincere$/, "navi");
-const fingerprint = (match) => {
-  const sides = [[normalize(match.team1_name), Number(match.score1)], [normalize(match.team2_name), Number(match.score2)]]
-    .sort((a, b) => a[0].localeCompare(b[0]));
-  return `${String(match.match_date || match.starts_at || "").slice(0, 10)}|${sides.map((side) => side.join(":" )).join("|")}`;
-};
+import { historyMatchFingerprint as fingerprint, mergeHistoryMatches } from "../docs/lib/history.js";
 
 export function historyFromObservation(row) {
   const tier = /^[SA]-Tier$/i.test(row.source_tier) ? "tier_1" : /^B-Tier$/i.test(row.source_tier) ? "tier_2" : null;

@@ -15,6 +15,7 @@ from typing import Any
 
 from aiohttp import ClientSession, ClientTimeout, web
 from bs4 import BeautifulSoup
+from event_policy import product_tier
 
 
 FLARESOLVERR_URL = os.environ.get("FLARESOLVERR_URL", "http://flaresolverr:8191/v1")
@@ -38,8 +39,6 @@ LIQUIPEDIA_ARCHIVE_PATH = Path(os.environ.get("LIQUIPEDIA_ARCHIVE_PATH", "/var/l
 LIQUIPEDIA_STATE_PATH = Path(os.environ.get("LIQUIPEDIA_STATE_PATH", "/var/lib/strikesignal/liquipedia-gap-state.json"))
 LIQUIPEDIA_ASSETS_PATH = Path(os.environ.get("LIQUIPEDIA_ASSETS_PATH", "/var/lib/strikesignal/liquipedia-logo-candidates.json"))
 SOURCE_LABEL = os.environ.get("SOURCE_LABEL", f"HLTV via {FETCH_BACKEND}")
-TIER_TWO_EVENT_PATTERN = re.compile(r"\b(?:cct|roman imperium|esl challenger|thunderpick world championship)\b", re.I)
-TIER_ONE_EVENT_PATTERN = re.compile(r"\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b", re.I)
 
 state: dict[str, Any] = {
     "snapshot": None,
@@ -57,20 +56,6 @@ def utc_now() -> str:
 def slugify(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.casefold()).strip("-") or "unknown"
 
-
-def product_tier(event_name: str, declared_tier: str = "") -> str:
-    tier = declared_tier.strip().casefold()
-    if tier in {"tier_1", "tier 1", "major", "s-tier", "s tier", "a-tier", "a tier"}:
-        return "tier_1"
-    if tier in {"tier_2", "tier 2", "b-tier", "b tier"}:
-        return "tier_2"
-    if re.fullmatch(r"(?:c-tier|c tier|tier[_ -]?3|d-tier|d tier)", tier):
-        return "excluded"
-    if TIER_TWO_EVENT_PATTERN.search(event_name):
-        return "tier_2"
-    if TIER_ONE_EVENT_PATTERN.search(event_name):
-        return "tier_1"
-    return "pending"
 
 
 def text(node, selectors: tuple[str, ...]) -> str:
@@ -145,19 +130,22 @@ def parse_matches(html: str) -> list[dict[str, Any]]:
         if len(teams) < 2 or teams[0] == teams[1]:
             continue
         seen.add(id_match.group(1))
+        wrapper = card.find_parent(attrs={"data-match-wrapper": True})
         event_node = card.select_one(".match-event")
+        if event_node is None and wrapper and str(wrapper.get("data-event-id", "")).isdigit():
+            event_node = soup.select_one(f'.match-event[data-event-id="{wrapper["data-event-id"]}"]')
         event_name = (
             str(event_node.get("data-event-headline", "")).strip()
             if event_node
             else ""
         ) or text(card, (".matchEventName", ".match-event-name", ".event-name", ".match-event")) or "HLTV schedule"
-        event_id, event_url = event_reference(card, event_name)
+        event_id, event_url = event_reference(wrapper or card, event_name)
         classes = " ".join(card.get("class", []))
-        wrapper = card.find_parent(attrs={"data-match-wrapper": True})
-        live = (
-            "live" in classes.casefold()
-            or bool(card.select_one(".matchLive, .match-live, .match-meta-live"))
-            or bool(wrapper and str(wrapper.get("live", "")).casefold() == "true")
+        # Current HLTV cards use matchLive for their star rating, including future matches.
+        live_flag = str(wrapper.get("live", "")).casefold() if wrapper else ""
+        live = live_flag == "true" if live_flag in {"true", "false"} else (
+            "live" in classes.casefold() or bool(card.select_one(".match-live, .match-meta-live"))
+            or any(node.get_text(strip=True).casefold() == "live" for node in card.select(".matchLive"))
         )
         series_format = clean_series_format(text(card, (".matchMeta", ".match-meta")) or "bo3")
         stage_name = text(card, (".match-stage", ".matchStage")) or "Scheduled series"
@@ -259,6 +247,24 @@ def parse_match_detail(html: str) -> dict[str, Any]:
             })
         if players:
             lineup_groups.append(players[:5])
+    if not lineup_groups:
+        comparison = soup.select_one(".lineups-compare-container")
+        for side in (1, 2):
+            try:
+                rows = json.loads(comparison.get(f"data-team{side}-players-data", "{}")) if comparison else {}
+            except (ValueError, TypeError):
+                rows = {}
+            players = []
+            for row in rows.values() if isinstance(rows, dict) else []:
+                if not isinstance(row, dict):
+                    continue
+                player_id = str(row.get("playerId", ""))
+                nickname = str(row.get("nickname", "")).strip()
+                href = str(row.get("profileLinkUrl", ""))
+                if player_id.isdigit() and nickname and href.startswith(f"/player/{player_id}/"):
+                    players.append({"player_id": f"hltv:{player_id}", "hltv_player_id": player_id,
+                                    "nickname": nickname, "source_url": f"https://www.hltv.org{href}"})
+            lineup_groups.append(players if len(players) == 5 else [])
     player_stats: list[dict[str, Any]] = []
     all_stats = soup.select_one("#all-content")
     if all_stats:
@@ -496,11 +502,6 @@ def players_from_matches(matches: list[dict[str, Any]]) -> list[dict[str, Any]]:
                         timeline[str(row.get("match_id") or f"{row.get('date')}:{row.get('opponent_name')}")] = row
                     merged = {**existing, **{key: value for key, value in player.items() if key not in {"timeline_entry", "form_timeline"}}}
                     merged["form_timeline"] = sorted(timeline.values(), key=lambda row: (str(row.get("date") or ""), str(row.get("match_id") or "")))[-12:]
-                    rated = [float(row["rating"]) for row in merged["form_timeline"] if row.get("rating") is not None]
-                    if rated:
-                        merged["rating_3_0"] = round(sum(rated[-5:]) / len(rated[-5:]), 2)
-                        merged["signal_index"] = round(max(0, min(100, 50 + (merged["rating_3_0"] - 1.0) * 100)))
-                        merged["maps_3m"] = sum(int(row.get("maps") or 1) for row in merged["form_timeline"])
                     players[player["player_id"]] = merged
     return list(players.values())
 
@@ -520,14 +521,14 @@ async def source_session():
             if not state.get("browser_context"):
                 context = AsyncStealthySession(
                     headless=True, max_pages=1, timeout=REQUEST_TIMEOUT_SECONDS * 1000,
-                    google_search=False, block_ads=True, solve_cloudflare=True,
+                    google_search=False, block_ads=True, solve_cloudflare=True, retries=1,
                 )
                 browser = await context.__aenter__()
                 state.update(browser_context=context, browser=browser, source_session_count=0)
             state["source_session_count"] += 1
             try:
                 yield state["browser"]
-            except Exception:
+            except BaseException:
                 await state.pop("browser_context").__aexit__(None, None, None)
                 state.pop("browser", None)
                 raise
@@ -551,10 +552,18 @@ async def fetch_browser_html(url: str) -> str:
 
 async def fetch_url(session, url: str, *, allow_browser: bool = True) -> str:
     if FETCH_BACKEND.startswith("scrapling"):
-        request = session.get(url, timeout=REQUEST_TIMEOUT_SECONDS, impersonate="chrome") if FETCH_BACKEND == "scrapling-http" else session.fetch(url, solve_cloudflare=False, disable_resources=True, load_dom=False, network_idle=False)
-        response = await asyncio.wait_for(request, REQUEST_TIMEOUT_SECONDS + 15)
+        async def request_page(solve_cloudflare=False):
+            try:
+                request = session.get(url, timeout=REQUEST_TIMEOUT_SECONDS, impersonate="chrome") if FETCH_BACKEND == "scrapling-http" else session.fetch(url, solve_cloudflare=solve_cloudflare, disable_resources=not solve_cloudflare, load_dom=False, network_idle=False)
+                return await asyncio.wait_for(request, REQUEST_TIMEOUT_SECONDS + 15)
+            finally:
+                if FETCH_BACKEND == "scrapling":
+                    # Keep cookies, but never carry a busy/error tab into the next request.
+                    await session.close_pages()
+
+        response = await request_page()
         if FETCH_BACKEND == "scrapling" and response.status == 403:
-            response = await asyncio.wait_for(session.fetch(url, solve_cloudflare=True), REQUEST_TIMEOUT_SECONDS + 15)
+            response = await request_page(solve_cloudflare=True)
         # Bound browser work on the free 1 GB VM to one blocked page per cycle.
         # Do not retry rate-limit responses or loop through identities/proxies.
         if allow_browser and FETCH_BACKEND == "scrapling-http" and response.status == 403 and session.browser_fallbacks < 1:
@@ -633,7 +642,7 @@ async def fetch_snapshot() -> dict[str, Any]:
                     raise RuntimeError("Match detail page contained no usable detail")
                 by_id[match["match_id"]] = merge_match_detail(match, {**detail, "detail_fetched_at_utc": utc_now()})
             except Exception as exc:
-                detail_errors.append(f"{match['match_id']}: {type(exc).__name__}")
+                detail_errors.append(f"{match['match_id']}: {type(exc).__name__}: {str(exc).splitlines()[0] if str(exc) else 'request deadline exceeded'}")
 
     matches = sorted(
         by_id.values(),

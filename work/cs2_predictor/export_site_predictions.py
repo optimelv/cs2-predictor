@@ -14,6 +14,7 @@ from typing import Any
 from .benchmark_event_holdouts import BENCHMARK_EVENTS, fetch_scored_matches, row_is_clean_training, should_update_state
 from .build_model_dataset import TeamState, elo_probability, make_feature_row, safe_float, safe_int, update_state_from_feature_row
 from .paths import DATA_ROOT
+from infra.oracle.worker.event_policy import product_tier
 from .warehouse import WAREHOUSE_PATH, connect
 
 
@@ -1524,19 +1525,7 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
 
 
 def product_tier_from_feed(item: dict[str, Any]) -> str:
-    declared = str(item.get("product_tier") or item.get("tier") or "").strip().casefold()
-    event_name = event_name_from_api_item(item)
-    if declared in {"tier_1", "tier 1", "major", "s-tier", "s tier", "a-tier", "a tier"}:
-        return "tier_1"
-    if declared in {"tier_2", "tier 2", "b-tier", "b tier"}:
-        return "tier_2"
-    if re.fullmatch(r"(?:c-tier|c tier|tier[_ -]?3|d-tier|d tier|excluded)", declared):
-        return "excluded"
-    if re.search(r"\b(?:cct|roman imperium|esl challenger|thunderpick world championship)\b", event_name, re.I):
-        return "tier_2"
-    if re.search(r"\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b", event_name, re.I):
-        return "tier_1"
-    return "pending"
+    return product_tier(event_name_from_api_item(item), str(item.get("product_tier") or item.get("tier") or ""))
 
 
 def result_identity(item: dict[str, Any]) -> str:
@@ -1758,12 +1747,12 @@ def merge_live_snapshot_coverage(payload: dict[str, Any], feed_path: Path, items
         existing_events[key] = merge_event_snapshot(existing_events.get(key, {}), incoming)
         if name_key:
             event_key_by_name[name_key] = key
-    coverage["events"] = list(existing_events.values())
+    coverage["events"] = [event for event in existing_events.values() if product_tier_from_feed(event) in {"tier_1", "tier_2"}]
 
-    eligible_event_ids = {str(event.get("id")) for event in coverage["events"] if product_tier_from_feed(event) in {"tier_1", "tier_2"}}
-    existing_matches = {str(match.get("match_id") or result_identity(match)): match for match in coverage.get("daily_matches") or []}
+    existing_matches = {str(match.get("match_id") or result_identity(match)): match for match in coverage.get("daily_matches") or []
+                        if product_tier_from_feed(match) in {"tier_1", "tier_2"}}
     for item in items:
-        if str(item.get("event_id") or "") not in eligible_event_ids and product_tier_from_feed(item) not in {"tier_1", "tier_2"}:
+        if product_tier_from_feed(item) not in {"tier_1", "tier_2"}:
             continue
         key = str(item.get("match_id") or result_identity(item))
         existing_matches[key] = merge_live_match(existing_matches.get(key, {}), item)

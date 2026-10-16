@@ -2,7 +2,7 @@ export const WATCHLIST_VERSION = 1;
 export const WATCH_TYPES = ["teams", "players", "events"];
 
 const cleanEntry = (entry) => {
-  if (typeof entry === "string") return { id: entry, name: entry, added_at: null };
+  if (typeof entry === "string") entry = { id: entry, name: entry };
   if (!entry || typeof entry !== "object") return null;
   const id = String(entry.id || "").trim();
   if (!id) return null;
@@ -10,6 +10,7 @@ const cleanEntry = (entry) => {
 };
 
 export function normalizeWatchlist(value = {}) {
+  value = value && typeof value === "object" ? value : {};
   const normalized = { version: WATCHLIST_VERSION, teams: [], players: [], events: [] };
   for (const type of WATCH_TYPES) {
     const seen = new Set();
@@ -33,7 +34,7 @@ export function toggleWatchlist(watchlist, type, entity, now = new Date().toISOS
   if (!entry) return next;
   const existingIndex = next[type].findIndex((row) => row.id === entry.id);
   if (existingIndex >= 0) next[type].splice(existingIndex, 1);
-  else next[type].unshift({ ...entry, added_at: entry.added_at || now });
+  else next[type] = [{ ...entry, added_at: entry.added_at || now }, ...next[type]].slice(0, 100);
   return next;
 }
 

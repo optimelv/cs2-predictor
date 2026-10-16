@@ -36,7 +36,7 @@ jobs:
           node-version: "24"
 
       - name: Install model runtime
-        run: python -m pip install --disable-pip-version-check numpy scikit-learn
+        run: python -m pip install --disable-pip-version-check numpy scikit-learn lxml
 
       - name: Acquire a provider-neutral live snapshot
         id: snapshot
@@ -148,6 +148,10 @@ jobs:
         if: steps.snapshot.outputs.source == 'github-actions'
         continue-on-error: true
         run: python -m work.cs2_predictor.backfill_runner_results
+
+      - name: Refresh official Valve standings
+        if: steps.snapshot.outputs.available == 'true'
+        run: python -m work.cs2_predictor.refresh_rankings
 
       - name: Evaluate and safely promote the production model
         if: steps.snapshot.outputs.available == 'true'

@@ -51,7 +51,7 @@ button:not(:disabled):active, .button:active { transform: scale(.98); }
 .desk-strip article { padding: 16px; min-width: 0; }
 .desk-strip small { font-size: 12px; }
 .desk-strip strong { font-size: 13px; white-space: normal; }
-.live-dot { animation: none; box-shadow: none; }
+.live-dot { animation: none; }
 .snapshot-stale .live-dot { background: var(--muted); }
 .snapshot-stale .status-token.is-live, .snapshot-stale .match-time.is-live { color: #edd0a6; background: transparent; }
 .snapshot-stale .event-card[data-status="ongoing"] .event-card-main > span { color: var(--muted-strong); }
@@ -60,7 +60,7 @@ button:not(:disabled):active, .button:active { transform: scale(.98); }
 .section-heading h2 { font-size: clamp(40px, 4vw, 60px); letter-spacing: -.015em; line-height: 1.04; }
 .section-index, .micro-label { font-size: 12px; letter-spacing: .04em; }
 .section-shell.is-entered .section-heading, .match-row, .match-insight, .event-card { animation: none; }
-.format-path i::after, .double-drop-rail i::after { animation: none; box-shadow: none; }
+.format-path i::after, .double-drop-rail i::after { animation: none; }
 .match-data-note { margin: -6px 0 22px; max-width: 92ch; color: var(--muted); font-size: 13px; line-height: 1.7; }
 .match-toolbar { top: 72px; gap: 16px; padding-block: 12px; }
 .match-days { scrollbar-width: thin; scrollbar-color: var(--line-strong) transparent; }

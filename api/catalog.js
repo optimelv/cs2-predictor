@@ -3,17 +3,21 @@ import { join } from "node:path";
 import { catalogManifest, queryCatalog, validateCatalogDatasets } from "../server/catalog.js";
 
 const parse = async (name) => JSON.parse(await readFile(join(process.cwd(), "docs", "data", name), "utf8"));
-let datasetsPromise;
-
-function loadDatasets() {
-  datasetsPromise ||= Promise.all([
-    parse("live-snapshot.json"),
-    parse("history.json"),
-    parse("players.json"),
-    parse("predictions.json"),
-  ]).then(([live, history, players, predictions]) => validateCatalogDatasets({ live, history, players, predictions }));
-  return datasetsPromise;
+export function createDatasetLoader(read = parse) {
+  let datasetsPromise;
+  return function loadDatasets() {
+    datasetsPromise ||= Promise.all([
+      read("live-snapshot.json"),
+      read("history.json"),
+      read("players.json"),
+      read("predictions.json"),
+    ]).then(([live, history, players, predictions]) => validateCatalogDatasets({ live, history, players, predictions }))
+      .catch((error) => { datasetsPromise = undefined; throw error; });
+    return datasetsPromise;
+  };
 }
+
+const loadDatasets = createDatasetLoader();
 
 export default async function handler(request, response) {
   response.setHeader("Access-Control-Allow-Origin", "*");

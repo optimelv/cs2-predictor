@@ -40,6 +40,10 @@ assert.deepEqual(merged.watchlist.teams.map(({ id }) => id), ["navi", "spirit", 
 assert.equal(merged.savedPicks["hltv:42"].probability, 0.613);
 assert.equal(parseDeskState("not-valid"), null);
 assert.equal(parseDeskState("x".repeat(16_001)), null);
+for (const probability of [null, "", " ", false, [], -0.1, 1.1]) {
+  const invalid = parseDeskState(serializeDeskState(watchlist, { invalid: { ...picks["hltv:42"], probability } }));
+  assert.deepEqual(invalid.savedPicks, {}, "Invalid probabilities must not be imported as real picks");
+}
 
 const oversized = { teams: Array.from({ length: 80 }, (_, index) => ({ id: `t${index}`, name: `Team ${index}` })) };
 assert.equal(parseDeskState(serializeDeskState(oversized, {})).watchlist.teams.length, 50);

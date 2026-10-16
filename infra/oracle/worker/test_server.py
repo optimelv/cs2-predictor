@@ -26,6 +26,29 @@ class PrivateArchiveTests(unittest.IsolatedAsyncioTestCase):
                 self.assertEqual(response.status, 200)
 
 
+class CurrentScheduleTests(unittest.TestCase):
+    def test_current_upcoming_lineups_use_identified_player_data(self):
+        from html import escape
+        rows = {str(i): {"playerId": i, "nickname": f"player{i}", "profileLinkUrl": f"/player/{i}/player{i}", "numericRating": 1.2} for i in range(1, 6)}
+        data = escape(json.dumps(rows), quote=True)
+        detail = parse_match_detail(f'<div class="lineups-compare-container" data-team1-players-data="{data}" data-team2-players-data="{{bad}}"></div>')
+        self.assertEqual(len(detail["lineups"]["team1"]), 5)
+        self.assertEqual(detail["lineups"]["team2"], [])
+        self.assertEqual(detail["lineups"]["team1"][0]["nickname"], "player1")
+        self.assertNotIn("rating", detail["lineups"]["team1"][0], "A profile average is not a played-match rating")
+
+    def test_star_rating_is_not_live_and_pinned_match_keeps_event(self):
+        html = '''<div data-match-wrapper live="false" data-event-id="8932" class="match-wrapper">
+          <div class="match"><a href="/matches/2399384/a-vs-b"><div class="matchLive match-rating"><i class="fa-star"></i></div></a>
+          <div class="match-teamname">9z</div><div class="match-teamname">Aurora</div></div></div>
+          <div class="match-event" data-event-id="8932" data-event-headline="Thunderpick World Championship 2026"></div>'''
+        match = parse_matches(html)[0]
+        self.assertEqual(match["status"], "upcoming")
+        self.assertEqual(match["event_id"], "hltv:8932")
+        self.assertEqual(match["event_name"], "Thunderpick World Championship 2026")
+        self.assertEqual(parse_matches(html.replace('live="false"', 'live="true"'))[0]["status"], "live")
+
+
 class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
     async def test_blocked_source_uses_longer_retry_delay(self):
         from server import BLOCKED_RETRY_SECONDS, POLL_SECONDS, retry_delay
@@ -58,7 +81,7 @@ class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
 
     async def test_scrapling_rejects_failed_source_responses(self):
         from server import fetch_url
-        session = SimpleNamespace(fetch=AsyncMock(return_value=SimpleNamespace(status=403, body=b"blocked")))
+        session = SimpleNamespace(fetch=AsyncMock(return_value=SimpleNamespace(status=403, body=b"blocked")), close_pages=AsyncMock())
         with patch("server.FETCH_BACKEND", "scrapling"):
             with self.assertRaisesRegex(RuntimeError, "HTTP 403"):
                 await fetch_url(session, "https://www.hltv.org/matches")
@@ -74,6 +97,37 @@ class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
             with self.assertRaisesRegex(RuntimeError, "HTTP 429"):
                 await fetch_url(session, "https://www.hltv.org/results")
             self.assertEqual(session.fetch.await_count, 1)
+
+    async def test_failed_request_releases_the_only_browser_slot(self):
+        from server import fetch_url
+        busy = False
+
+        async def fetch(url, **kwargs):
+            nonlocal busy
+            if busy:
+                raise TimeoutError("No pages finished to clear place in the pool")
+            busy = True
+            if url == "slow":
+                raise asyncio.TimeoutError("navigation timed out")
+            return SimpleNamespace(status=200, body=b"next match")
+
+        async def close_pages():
+            nonlocal busy
+            busy = False
+
+        session = SimpleNamespace(fetch=fetch, close_pages=AsyncMock(side_effect=close_pages))
+        with patch("server.FETCH_BACKEND", "scrapling"):
+            with self.assertRaisesRegex(TimeoutError, "navigation timed out"):
+                await fetch_url(session, "slow")
+            self.assertEqual(await fetch_url(session, "next"), "next match")
+            self.assertEqual(session.close_pages.await_count, 2)
+
+    async def test_cancelled_request_releases_browser_pages(self):
+        from server import fetch_url
+        session = SimpleNamespace(fetch=AsyncMock(side_effect=asyncio.CancelledError), close_pages=AsyncMock())
+        with patch("server.FETCH_BACKEND", "scrapling"), self.assertRaises(asyncio.CancelledError):
+            await fetch_url(session, "cancelled")
+        session.close_pages.assert_awaited_once()
 
     async def test_startup_serves_cached_data_without_waiting_for_collector(self):
         app = {}
@@ -372,7 +426,10 @@ class WorkerParserTests(unittest.TestCase):
         self.assertEqual(merged["lineups"]["team1"][0]["timeline_entry"]["rating"], 1.42)
         players = players_from_matches([merged])
         self.assertEqual(len(players), 2)
-        self.assertEqual(next(player for player in players if player["player_id"] == "hltv:7998")["rating_3_0"], 1.42)
+        player = next(player for player in players if player["player_id"] == "hltv:7998")
+        self.assertEqual(player["form_timeline"][0]["rating"], 1.42)
+        self.assertNotIn("rating_3_0", player, "A series sample is not a three-month profile rating")
+        self.assertNotIn("maps_3m", player)
 
     def test_detail_timeline_requires_anchored_terminal_result(self):
         stat = {
@@ -428,6 +485,14 @@ class WorkerParserTests(unittest.TestCase):
         self.assertEqual(event["current_stage"], "Lower bracket final")
         self.assertEqual(len(event["format"]["stages"]), 2)
 
+
+
+class EventCurationTests(unittest.TestCase):
+    def test_shared_quality_floor(self):
+        from event_policy import POLICY, product_tier
+        for name, declared, expected in POLICY["cases"]:
+            with self.subTest(name=name):
+                self.assertEqual(product_tier(name, declared), expected)
 
 if __name__ == "__main__":
     unittest.main()
