@@ -42,10 +42,20 @@ const rows = historyRowsFromLive({
       score1: 2,
       score2: 0,
       winner_name: "Alpha",
+      map_results: [
+        { map_name: "Nuke", status: "finished", score1: 13, score2: 0 },
+        { map_name: "Ancient", status: "upcoming", score1: null, score2: null },
+        { map_name: "Mirage", score1: null, score2: 13 },
+        { map_name: "Dust2", score1: "", score2: 13 },
+        { map_name: "Inferno", score1: false, score2: 13 },
+        { map_name: "Anubis", status: "live", score1: 5, score2: 7 },
+      ],
     },
   ],
 });
 
 assert.deepEqual(rows.map((row) => row.match_id), ["anchored-result"]);
 assert.equal(rows[0].match_date, "2026-09-18");
+assert.deepEqual(rows[0].maps.map((map) => map.map_name), ["Nuke"], "Unplayed, live and unknown-score maps cannot become historical wins");
+assert.equal(rows[0].maps[0].score2, 0, "A verified zero score remains valid");
 console.log("live history promotion timestamp/status tests ok");

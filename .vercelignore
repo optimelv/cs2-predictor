@@ -12,3 +12,7 @@ skills
 work
 __pycache__
 *.pyc
+
+/models
+/vendor
+.taste-skill

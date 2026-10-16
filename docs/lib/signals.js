@@ -2,8 +2,9 @@ export const SIGNAL_STATE_VERSION = 1;
 
 const normalizeName = (value) => String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 const finiteProbability = (value) => {
+  if (!["number", "string"].includes(typeof value) || (typeof value === "string" && !value.trim())) return null;
   const number = Number(value);
-  return Number.isFinite(number) ? Math.max(0, Math.min(1, number)) : null;
+  return Number.isFinite(number) && number >= 0 && number <= 1 ? number : null;
 };
 
 export function signalMatchKey(match = {}) {
@@ -47,8 +48,10 @@ export function normalizeSignalState(value = {}) {
   const source = value && typeof value === "object" && !Array.isArray(value) ? value : {};
   return {
     version: SIGNAL_STATE_VERSION,
-    matches: source.matches && typeof source.matches === "object" && !Array.isArray(source.matches) ? source.matches : {},
-    notifications: Array.isArray(source.notifications) ? source.notifications.slice(0, 60) : [],
+    matches: source.matches && typeof source.matches === "object" && !Array.isArray(source.matches)
+      ? Object.fromEntries(Object.entries(source.matches).filter(([, record]) => record && typeof record === "object")
+        .map(([key, record]) => [key, { ...record }])) : {},
+    notifications: Array.isArray(source.notifications) ? source.notifications.filter((item) => item && typeof item === "object" && !Array.isArray(item)).slice(0, 60) : [],
     last_checked_at: source.last_checked_at || null,
   };
 }
@@ -78,6 +81,7 @@ export function ingestMatchSignals(value, matches = [], options = {}) {
   const state = normalizeSignalState(value);
   const observedAt = options.observedAt || new Date().toISOString();
   const observedTime = new Date(observedAt).getTime();
+  if (!Number.isFinite(observedTime)) return { state, created: [] };
   const previousTime = new Date(state.last_checked_at || 0).getTime();
   if (state.last_checked_at && Number.isFinite(observedTime) && Number.isFinite(previousTime) && observedTime <= previousTime) {
     return { state, created: [] };

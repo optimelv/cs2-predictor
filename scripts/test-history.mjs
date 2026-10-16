@@ -1,11 +1,19 @@
 import assert from "node:assert/strict";
 import { historyEvents, historyMatchesForTeam, historyOpponents, mergeHistoryMatches, summarizeHeadToHead } from "../docs/lib/history.js";
 
+const observed = { match_id: "hltv:2398755", match_date: "2026-10-10", tier: "tier_1", team1_name: "MOUZ", team2_name: "Spirit", score1: 2, score2: 1, winner_name: "MOUZ" };
+const secondary = { ...observed, match_id: "liquipedia:duplicate", team1_name: "Spirit", team2_name: "MOUZ", score1: 1, score2: 2, source_url: "https://liquipedia.net/counterstrike/Event", maps: [], lineups: {} };
+const reconciled = mergeHistoryMatches({ contract_version: "1.0", matches: [secondary] }, [observed]);
+assert.equal(reconciled.matches.length, 1, "The same result from two collectors must count once");
+assert.equal(reconciled.matches[0].alternate_sources[0].source_url, secondary.source_url);
+assert.equal(mergeHistoryMatches({ contract_version: "1.0", matches: [observed, secondary] }, [{ ...observed, match_id: "hltv:rematch" }]).matches.length, 3, "Ambiguous same-day rematches remain separate");
+assert.equal(mergeHistoryMatches({ contract_version: "1.0", matches: [observed] }, [{ ...secondary, match_date: "2026-10-11" }]).matches.length, 2);
+
 const fixture = {
   contract_version: "1.0",
   matches: [
     { match_id: "1", match_date: "2026-06-01", tier: "tier_1", team1_name: "Alpha", team2_name: "Beta", winner_name: "Alpha", stage_name: "Quarterfinals", round_name: "Upper quarterfinal", phase: "quarterfinal", lineups: { team1: ["a", "b", "c", "d", "e"], team2: [] }, maps: [{ map_name: "Mirage", winner_name: "Alpha", score1: 13, score2: 8 }] },
-    { match_id: "2", match_date: "2026-05-01", tier: "tier_2", team1_name: "Beta", team2_name: "Alpha", winner_name: "Beta", lineups: { team1: [], team2: ["a", "b", "c", "x", "y"] }, maps: [{ map_name: "Mirage", winner_name: "Beta", score1: 13, score2: 10 }, { map_name: "Nuke", winner_name: "Alpha", score1: 9, score2: 13 }] },
+    { match_id: "2", event_name: "Roman Imperium Cup", match_date: "2026-05-01", tier: "tier_2", team1_name: "Beta", team2_name: "Alpha", winner_name: "Beta", lineups: { team1: [], team2: ["a", "b", "c", "x", "y"] }, maps: [{ map_name: "Mirage", winner_name: "Beta", score1: 13, score2: 10 }, { map_name: "Nuke", winner_name: "Alpha", score1: 9, score2: 13 }] },
     { match_id: "3", match_date: "2026-04-01", tier: "excluded", team1_name: "Alpha", team2_name: "Gamma", winner_name: "Gamma", maps: [] },
   ],
 };

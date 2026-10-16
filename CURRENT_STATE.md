@@ -1,5 +1,23 @@
 # StrikeSignal Release State
 
+## Release — 2026-10-16
+
+The release combines current public/private data inputs with the reviewed Taste v2 and Product Design implementation. Vercel project `cs2-predictor` serves `https://cs2-predictor-ebon.vercel.app/`; the release evidence and deployment receipt are retained locally in `outputs/release-2026-10-16/`.
+
+- **Design and workflows:** four destinations, orange/Sora identity, light/dark/system themes, all six mobile status filters visible. Finished-series probabilities are labelled as current snapshot estimates. Recent form is a smoothed /100 indicator. My picks uses the current match estimate and retains verified closing observations. Veto choices have named controls and restore focus after rerenders.
+- **Data:** 806 player profiles retained, with 562 independently dated three-month profile updates from 8–14 October. Official Valve global standings are dated 5 October (latest official release checked on 16 October): 380 source lineups and public top 30. Historical observations are deduplicated without deleting their source provenance. Recorded player/map history remains partial and carries its own dates.
+- **Tournament selection:** `roman-imperium-floor-v1` is shared by collection, export/model intake, browser and public catalog. Keep reviewed professional main events, including Roman Imperium and CCT Europe. Exclude qualifiers, CCT Challengers/Contenders and non-European regional CCT, plus ECL cups; abbreviations follow the same policy. Unreviewed Tier 2 events remain pending. Raw historical evidence is retained while public queries apply curation.
+- **Model:** 1,159 eligible training rows, four purged chronological folds, 773 held-out series. `bounded-elo-vrs-v1` remains champion; accuracy 62.35%, Brier 0.22633, log loss 0.64226 and ECE 0.03831. The challenger failed promotion gates. These are historical validation results, not guaranteed future performance.
+- **Collector:** timed-out pages release the single browser slot; cancellation closes the session. Source-star markup no longer implies a live match. Oracle runs the repaired collector with `aiohttp==3.14.5`; 29 worker tests pass locally and on the server. The historical index backfill is complete through its configured floor; individual match/player detail is not complete.
+- **Checks:** fresh npm install, all build/reliability/data checks, 31 Python model/ranking/chronology tests, 29 worker tests and the public-model privacy guard pass. Complete npm audit and declared/installed collector dependency audits have zero known vulnerabilities. The unused Netlify CLI/image toolchain was removed; optional Netlify adapters remain tested. CI enforces npm and collector security audits.
+- **Taste v2:** upstream checked, no update available. Main entry/CSS source lint: zero failures and seven warnings for control boundaries. Real-browser flow verification is recorded separately; the marketing-site inspector is not substituted for app workflow tests.
+
+## Local project review — 2026-09-22
+
+Reviewed frontend contracts and interactions, public APIs, Python model updates, worker lifecycle, refresh/export workflows, and npm dependencies. Corrected browser-bundle publication paths, missing-value handling, retryable caches, snapshot ordering, timestamp/online-state guards, and collector startup. Optimized purged-fold cutoff lookup and upgraded the Netlify toolchain for Node.js 24. Changes and verification are recorded in `outputs/review-2026-09-22/REVIEW.md`; original source copies are in that directory's `before/` folder.
+
+This is a local code update. No production deployment, collector run, historical-data repair, or model retraining was performed. The existing source/model ages below remain applicable.
+
 ## Production release candidate — 2026-09-20
 
 Final release candidate work is implemented in the canonical workspace. Run `npm run dev`, then open `http://127.0.0.1:4173/`. The product uses one orange brand treatment with native dark/light/system appearance; old `accent` query parameters are inert. Publication uses the existing GitHub-to-Vercel integration; current deployment status is recorded in GitHub deployments.

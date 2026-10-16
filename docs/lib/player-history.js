@@ -1,3 +1,30 @@
+export const playerStatNumber = (value) => ["number", "string"].includes(typeof value) && String(value).trim() && Number.isFinite(Number(value)) ? Number(value) : null;
+
+export function mergePlayerProfile(existing = {}, incoming = {}) {
+  const incomingTimeline = incoming.form_timeline || (incoming.timeline_entry ? [incoming.timeline_entry] : []);
+  const timeline = mergePlayerTimeline(existing.form_timeline, incomingTimeline);
+  const profile = {
+    ...existing, ...incoming,
+    traits: { ...(existing.traits || {}), ...(incoming.traits || {}) },
+    form_timeline: timeline,
+    form_summary: summarizePlayerTimeline(timeline),
+    roster_eras: incomingTimeline.length ? summarizePlayerRosterEras(timeline) : (existing.roster_eras || []),
+    map_profile: incoming.map_profile?.length ? incoming.map_profile : (existing.map_profile || []),
+  };
+  const datedStats = (incoming.stats_window === "past_3_months" || /^\d{4}-\d{2}-\d{2}$/.test(incoming.stats_from_date || ""))
+    && /^\d{4}-\d{2}-\d{2}$/.test(incoming.stats_through_date || "")
+    && (!incoming.stats_from_date || incoming.stats_from_date <= incoming.stats_through_date)
+    && incoming.stats_through_date <= new Date().toISOString().slice(0, 10)
+    && incoming.stats_through_date >= (existing.stats_through_date || "");
+  for (const key of ["rating_3_0", "maps_3m", "kd_ratio_3m", "stats_window", "stats_from_date", "stats_through_date", "stats_fetched_at_utc", "stats_source_url", "signal_index"]) {
+    profile[key] = datedStats && Object.hasOwn(incoming, key) ? incoming[key] : existing[key] ?? null;
+  }
+  // A few observed series cannot replace the profile's independently collected signal.
+  if (!datedStats) profile.traits = existing.traits || {};
+  if (!datedStats && existing.stats_through_date && existing.stats_through_date >= (incomingTimeline.map((row) => row.date || "").sort().at(-1) || "")) profile.team_name = existing.team_name;
+  return profile;
+}
+
 export function mergePlayerTimeline(existing = [], incoming = [], limit = 18) {
   const byMatch = new Map(existing.filter((row) => row?.match_id && row?.date).map((row) => [String(row.match_id), row]));
   incoming.forEach((row) => {
@@ -10,8 +37,8 @@ export function mergePlayerTimeline(existing = [], incoming = [], limit = 18) {
 }
 
 export function summarizePlayerTimeline(timeline = []) {
-  const rated = timeline.filter((row) => Number.isFinite(Number(row.rating)));
-  const adrRows = timeline.filter((row) => Number.isFinite(Number(row.adr)));
+  const rated = timeline.filter((row) => playerStatNumber(row.rating) !== null);
+  const adrRows = timeline.filter((row) => playerStatNumber(row.adr) !== null);
   const recent = rated.slice(-3);
   const previous = rated.slice(-6, -3);
   const average = (rows, key) => rows.length ? rows.reduce((sum, row) => sum + Number(row[key] || 0), 0) / rows.length : null;
@@ -32,7 +59,7 @@ export function summarizePlayerMaps(mapProfile = []) {
   const rows = mapProfile.filter((row) => row?.map_name && Number(row.maps) > 0);
   const totalMaps = rows.reduce((sum, row) => sum + Number(row.maps), 0);
   const best = [...rows]
-    .filter((row) => Number(row.maps) >= 3 && Number.isFinite(Number(row.average_rating)))
+    .filter((row) => Number(row.maps) >= 3 && playerStatNumber(row.average_rating) !== null)
     .sort((left, right) => Number(right.average_rating) - Number(left.average_rating) || Number(right.maps) - Number(left.maps))[0] || null;
   return {
     maps: totalMaps,
@@ -50,8 +77,8 @@ export function summarizePlayerEvents(timeline = []) {
     event.series += 1;
     if (row.won === true) event.wins += 1;
     if (row.won === false) event.losses += 1;
-    if (Number.isFinite(Number(row.rating))) event.ratings.push(Number(row.rating));
-    if (Number.isFinite(Number(row.adr))) event.adr.push(Number(row.adr));
+    if (playerStatNumber(row.rating) !== null) event.ratings.push(Number(row.rating));
+    if (playerStatNumber(row.adr) !== null) event.adr.push(Number(row.adr));
     if (String(row.date || "") > event.through_date) event.through_date = String(row.date || "");
     grouped.set(name, event);
   }
@@ -75,8 +102,8 @@ export function summarizePlayerRosterEras(timeline = []) {
     grouped.set(name, era);
   }
   return [...grouped.values()].map(({ team_name, rows }) => {
-    const rated = rows.filter((row) => Number.isFinite(Number(row.rating)));
-    const adr = rows.filter((row) => Number.isFinite(Number(row.adr)));
+    const rated = rows.filter((row) => playerStatNumber(row.rating) !== null);
+    const adr = rows.filter((row) => playerStatNumber(row.adr) !== null);
     const decided = rows.filter((row) => typeof row.won === "boolean");
     const wins = rows.filter((row) => row.won === true).length;
     return {

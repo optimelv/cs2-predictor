@@ -17,6 +17,7 @@ except ImportError:  # The lightweight seed builder does not require scikit-lear
     GradientBoostingClassifier = None
 
 from .build_model_dataset import safe_float, safe_int
+from infra.oracle.worker.event_policy import product_tier
 from .validation import accuracy_at_threshold, brier_score, log_loss, make_purged_time_folds, reliability_bins
 
 
@@ -214,17 +215,8 @@ def phase_features(item: dict[str, Any]) -> tuple[int, int, int]:
 
 
 def live_product_tier(item: dict[str, Any]) -> str | None:
-    declared = str(item.get("product_tier") or item.get("tier") or "").casefold()
-    event_name = str(item.get("event_name") or item.get("name") or "")
-    if declared in {"tier_1", "tier 1", "major", "s-tier", "a-tier"}:
-        return "T1"
-    if declared in {"tier_2", "tier 2", "b-tier"}:
-        return "T2"
-    if any(token in event_name.casefold() for token in ("cct", "roman imperium", "esl challenger", "thunderpick world championship")):
-        return "T2"
-    if any(token in event_name.casefold() for token in ("major", "iem", "blast", "esl pro league", "pgl masters", "esports world cup", "fissure playground")):
-        return "T1"
-    return None
+    tier = product_tier(str(item.get("event_name") or item.get("name") or ""), str(item.get("product_tier") or item.get("tier") or ""))
+    return {"tier_1": "T1", "tier_2": "T2"}.get(tier)
 
 
 def append_live_training_rows(

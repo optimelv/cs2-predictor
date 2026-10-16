@@ -11,7 +11,8 @@ services:
 
   worker:
     build:
-      context: ./worker
+      context: ../..
+      dockerfile: infra/oracle/worker/Dockerfile
     restart: unless-stopped
     depends_on:
       - flaresolverr

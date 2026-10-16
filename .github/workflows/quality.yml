@@ -28,16 +28,25 @@ jobs:
       - name: Validate product build, reliability, and snapshot contract
         run: npm run check
 
+      - name: Guard public model payloads
+        run: node scripts/guard-public-model.mjs
+
+      - name: Audit all dependencies
+        run: npm audit --audit-level=high
+
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
       - name: Install model and worker test dependencies
-        run: python -m pip install --disable-pip-version-check numpy scikit-learn -r infra/oracle/worker/requirements.txt
+        run: python -m pip install --disable-pip-version-check numpy scikit-learn lxml pip-audit -r infra/oracle/worker/requirements.txt
+
+      - name: Audit collector dependencies
+        run: python -m pip_audit -r infra/oracle/worker/requirements-scrapling.txt
 
       - name: Test live promotion
-        run: python -m unittest work.cs2_predictor.test_live_promotion work.cs2_predictor.test_portable_model
+        run: python -m unittest work.cs2_predictor.test_live_promotion work.cs2_predictor.test_portable_model work.cs2_predictor.test_roster_features work.cs2_predictor.test_refresh_rankings work.cs2_predictor.test_validation
 
       - name: Test Oracle source adapters
         working-directory: infra/oracle/worker

@@ -1,0 +1,8 @@
+.git
+.env*
+node_modules
+models
+outputs
+work/data
+work/.python_packages
+**/__pycache__

@@ -4,9 +4,10 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1
 
 WORKDIR /app
-COPY requirements.txt .
+COPY infra/oracle/worker/requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-COPY server.py .
+COPY infra/oracle/worker/server.py infra/oracle/worker/event_policy.py .
+COPY docs/lib/event-policy.json .
 
 EXPOSE 8080
 CMD ["python", "server.py"]

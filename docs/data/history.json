@@ -1,14 +1,14 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-16T17:26:43Z",
+  "generated_at_utc": "2026-10-16T19:30:10Z",
   "through_date": "2026-10-16",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3963,
-    "maps": 2857,
+    "matches": 3935,
+    "maps": 2854,
     "lineup_rows": 9352,
     "source_match_ids": 976
   },
@@ -475,13 +475,6 @@
           "score2": 5,
           "winner_name": "FORZE Reload",
           "picked_by": null
-        },
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "winner_name": "Lavked",
-          "picked_by": null
         }
       ],
       "lineups": {
@@ -787,13 +780,6 @@
           "score2": 13,
           "winner_name": "ex-6666",
           "picked_by": null
-        },
-        {
-          "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "winner_name": "ex-6666",
-          "picked_by": null
         }
       ],
       "lineups": {
@@ -880,7 +866,7 @@
       "winner_name": "mellren",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
+      "phase": "Scheduled series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -1087,13 +1073,6 @@
           "map_name": "Anubis",
           "score1": 6,
           "score2": 13,
-          "winner_name": "Spirit Academy",
-          "picked_by": null
-        },
-        {
-          "map_name": "Cache",
-          "score1": null,
-          "score2": null,
           "winner_name": "Spirit Academy",
           "picked_by": null
         }
@@ -1851,28 +1830,6 @@
           "ianzin"
         ]
       }
-    },
-    {
-      "match_id": "liquipedia:c4532348ebd0840eb2ad",
-      "match_date": "2026-10-14",
-      "starts_at": "2026-10-14T08:55:00Z",
-      "event_name": "Thunderpick World Champ. '26 - Group A",
-      "team1_name": "9z",
-      "team2_name": "Aurora",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "9z",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_A"
     },
     {
       "match_id": "liquipedia:c324617d66db694e97d2",
@@ -2752,7 +2709,15 @@
           "Jimpphat",
           "kyxsan"
         ]
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:c4532348ebd0840eb2ad",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Group_A",
+          "starts_at": "2026-10-14T08:55:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2399385",
@@ -4804,28 +4769,6 @@
       }
     },
     {
-      "match_id": "liquipedia:7628ea92a5446f77a574",
-      "match_date": "2026-10-11",
-      "starts_at": "2026-10-11T11:30:00Z",
-      "event_name": "ESL Pro League Season 24 - Playoffs",
-      "team1_name": "Aurora",
-      "team2_name": "Spirit",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "Aurora",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs"
-    },
-    {
       "match_id": "hltv:2399287",
       "match_date": "2026-10-11",
       "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
@@ -4912,28 +4855,6 @@
         "team1": [],
         "team2": []
       }
-    },
-    {
-      "match_id": "liquipedia:2bc768b4d58e60426dfc",
-      "match_date": "2026-10-11",
-      "starts_at": "2026-10-11T15:00:00Z",
-      "event_name": "ESL Pro League Season 24 - Playoffs",
-      "team1_name": "MOUZ",
-      "team2_name": "Vitality",
-      "score1": 0,
-      "score2": 3,
-      "winner_name": "Vitality",
-      "tier": "tier_1",
-      "best_of": 5,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs"
     },
     {
       "match_id": "hltv:2399289",
@@ -5043,7 +4964,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:7628ea92a5446f77a574",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs",
+          "starts_at": "2026-10-11T11:30:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398757",
@@ -5065,7 +4994,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:2bc768b4d58e60426dfc",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs",
+          "starts_at": "2026-10-11T15:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2399223",
@@ -5264,28 +5201,6 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Playoffs"
-    },
-    {
-      "match_id": "liquipedia:de67624921c8628d2413",
-      "match_date": "2026-10-10",
-      "starts_at": "2026-10-10T13:45:00Z",
-      "event_name": "ESL Pro League Season 24 - Playoffs",
-      "team1_name": "Aurora",
-      "team2_name": "Vitality",
-      "score1": 1,
-      "score2": 2,
-      "winner_name": "Vitality",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs"
     },
     {
       "match_id": "hltv:2399141",
@@ -5740,28 +5655,6 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Playoffs"
     },
     {
-      "match_id": "liquipedia:fdffd303ec6cf296b7ab",
-      "match_date": "2026-10-10",
-      "starts_at": "2026-10-10T17:30:00Z",
-      "event_name": "ESL Pro League Season 24 - Playoffs",
-      "team1_name": "MOUZ",
-      "team2_name": "Spirit",
-      "score1": 2,
-      "score2": 1,
-      "winner_name": "MOUZ",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs"
-    },
-    {
       "match_id": "hltv:2399198",
       "match_date": "2026-10-10",
       "event_name": "ESL Challenger League Season 52 South America Cup 3",
@@ -5913,7 +5806,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:de67624921c8628d2413",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs",
+          "starts_at": "2026-10-10T13:45:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398755",
@@ -5935,7 +5836,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:fdffd303ec6cf296b7ab",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs",
+          "starts_at": "2026-10-10T17:30:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2399214",
@@ -6910,72 +6819,6 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Playoffs"
     },
     {
-      "match_id": "liquipedia:ac6d34cb58757c8ffc44",
-      "match_date": "2026-10-09",
-      "starts_at": "2026-10-09T17:05:00Z",
-      "event_name": "ESL Pro League Season 24 - Playoffs",
-      "team1_name": "Falcons",
-      "team2_name": "Spirit",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "Spirit",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs"
-    },
-    {
-      "match_id": "liquipedia:71c67a069c54a8c4c19e",
-      "match_date": "2026-10-09",
-      "starts_at": "2026-10-09T21:00:00Z",
-      "event_name": "ECL Season 52: SA Cup #3",
-      "team1_name": "Alka",
-      "team2_name": "MEIA NOITE",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "MEIA NOITE",
-      "tier": "tier_2",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
-    },
-    {
-      "match_id": "liquipedia:beb76f23697e8c72c681",
-      "match_date": "2026-10-09",
-      "starts_at": "2026-10-09T21:00:00Z",
-      "event_name": "ECL Season 52: SA Cup #3",
-      "team1_name": "Isurus",
-      "team2_name": "Procyon",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "Procyon",
-      "tier": "tier_2",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results"
-    },
-    {
       "match_id": "hltv:2399194",
       "match_date": "2026-10-09",
       "event_name": "ESL Challenger League Season 52 South America Cup 3",
@@ -6995,7 +6838,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:beb76f23697e8c72c681",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results",
+          "starts_at": "2026-10-09T21:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2399192",
@@ -7061,7 +6912,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:71c67a069c54a8c4c19e",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_3#Results",
+          "starts_at": "2026-10-09T21:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "liquipedia:cb971acfef6bd01e4d17",
@@ -7073,28 +6932,6 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "Vitality",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs"
-    },
-    {
-      "match_id": "liquipedia:d34ecd4ce821e3b710ab",
-      "match_date": "2026-10-09",
-      "starts_at": "2026-10-09T14:15:00Z",
-      "event_name": "ESL Pro League Season 24 - Playoffs",
-      "team1_name": "FURIA",
-      "team2_name": "MOUZ",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "MOUZ",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -7171,7 +7008,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:d34ecd4ce821e3b710ab",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs",
+          "starts_at": "2026-10-09T14:15:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398753",
@@ -7193,7 +7038,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:ac6d34cb58757c8ffc44",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Playoffs",
+          "starts_at": "2026-10-09T17:05:00Z"
+        }
+      ]
     },
     {
       "match_id": "liquipedia:0b02ebda4e7a1aeb1b0f",
@@ -7227,28 +7080,6 @@
       "score1": 2,
       "score2": 0,
       "winner_name": "DTN",
-      "tier": "tier_2",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results"
-    },
-    {
-      "match_id": "liquipedia:306a488c4dfc3253e698",
-      "match_date": "2026-10-08",
-      "starts_at": "2026-10-08T01:00:00Z",
-      "event_name": "ECL Season 52: NA Cup #3",
-      "team1_name": "FarmVille",
-      "team2_name": "Villainous",
-      "score1": 2,
-      "score2": 1,
-      "winner_name": "FarmVille",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -7501,7 +7332,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:306a488c4dfc3253e698",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/North_America/Cup_3#Results",
+          "starts_at": "2026-10-08T01:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2399274",
@@ -10250,28 +10089,6 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Playoffs"
     },
     {
-      "match_id": "liquipedia:addb01e069e7305596c4",
-      "match_date": "2026-10-07",
-      "starts_at": "2026-10-07T18:10:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 5",
-      "team1_name": "M80",
-      "team2_name": "Spirit",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "Spirit",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_5"
-    },
-    {
       "match_id": "liquipedia:16d7af897b2bea91e8c9",
       "match_date": "2026-10-07",
       "starts_at": "2026-10-07T21:00:00Z",
@@ -10357,7 +10174,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:addb01e069e7305596c4",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_5",
+          "starts_at": "2026-10-07T18:10:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398396",
@@ -10658,28 +10483,6 @@
       }
     },
     {
-      "match_id": "liquipedia:378a0443dda381d05067",
-      "match_date": "2026-10-05",
-      "starts_at": "2026-10-05T09:00:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 3",
-      "team1_name": "G2",
-      "team2_name": "ShindeN",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "G2",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
-    },
-    {
       "match_id": "liquipedia:8e559e9a1470fbfd8eee",
       "match_date": "2026-10-05",
       "starts_at": "2026-10-05T09:00:00Z",
@@ -10802,94 +10605,6 @@
       "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
     },
     {
-      "match_id": "liquipedia:0934e2dfc245fb7d2440",
-      "match_date": "2026-10-05",
-      "starts_at": "2026-10-05T12:20:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 3",
-      "team1_name": "9z",
-      "team2_name": "NAVI",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "NAVI",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
-    },
-    {
-      "match_id": "liquipedia:773bbce275939983fe89",
-      "match_date": "2026-10-05",
-      "starts_at": "2026-10-05T14:00:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 3",
-      "team1_name": "M80",
-      "team2_name": "TYLOO",
-      "score1": 2,
-      "score2": 1,
-      "winner_name": "M80",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
-    },
-    {
-      "match_id": "liquipedia:036f8ed98dd35a49919f",
-      "match_date": "2026-10-05",
-      "starts_at": "2026-10-05T14:25:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 3",
-      "team1_name": "MOUZ",
-      "team2_name": "Spirit",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "MOUZ",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
-    },
-    {
-      "match_id": "liquipedia:fdb3203d1ffee86b6418",
-      "match_date": "2026-10-05",
-      "starts_at": "2026-10-05T16:30:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 3",
-      "team1_name": "Falcons",
-      "team2_name": "Vitality",
-      "score1": 1,
-      "score2": 2,
-      "winner_name": "Vitality",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3"
-    },
-    {
       "match_id": "liquipedia:ba14eed967b8a62bcde0",
       "match_date": "2026-10-05",
       "starts_at": "2026-10-05T17:20:00Z",
@@ -10975,7 +10690,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:378a0443dda381d05067",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3",
+          "starts_at": "2026-10-05T09:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398733",
@@ -11041,7 +10764,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:0934e2dfc245fb7d2440",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3",
+          "starts_at": "2026-10-05T12:20:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398737",
@@ -11063,7 +10794,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:036f8ed98dd35a49919f",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3",
+          "starts_at": "2026-10-05T14:25:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398738",
@@ -11085,7 +10824,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:773bbce275939983fe89",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3",
+          "starts_at": "2026-10-05T14:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398739",
@@ -11107,7 +10854,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:fdb3203d1ffee86b6418",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_3",
+          "starts_at": "2026-10-05T16:30:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398740",
@@ -11259,28 +11014,6 @@
       }
     },
     {
-      "match_id": "liquipedia:b40a401e5a91eec8cf42",
-      "match_date": "2026-10-04",
-      "starts_at": "2026-10-04T09:00:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 2",
-      "team1_name": "Legacy",
-      "team2_name": "ShindeN",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "Legacy",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
-    },
-    {
       "match_id": "liquipedia:fabe47107febfc194eda",
       "match_date": "2026-10-04",
       "starts_at": "2026-10-04T11:00:00Z",
@@ -11303,50 +11036,6 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_4"
     },
     {
-      "match_id": "liquipedia:cf003f1bf9d5743379e8",
-      "match_date": "2026-10-04",
-      "starts_at": "2026-10-04T14:00:00Z",
-      "event_name": "CCT EU 2026 Series #10 - Round 4",
-      "team1_name": "Butterfly",
-      "team2_name": "megoshort",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "Butterfly",
-      "tier": "tier_2",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_4"
-    },
-    {
-      "match_id": "liquipedia:78433fb1353b5c01eaac",
-      "match_date": "2026-10-04",
-      "starts_at": "2026-10-04T15:00:00Z",
-      "event_name": "CCT SA 2026 Series #6 - Playoffs",
-      "team1_name": "Galorys",
-      "team2_name": "Procyon",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "Galorys",
-      "tier": "tier_2",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
-    },
-    {
       "match_id": "hltv:2398391",
       "match_date": "2026-10-04",
       "event_name": "CCT 2026 Europe Series 10",
@@ -11366,7 +11055,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:cf003f1bf9d5743379e8",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_10#Round_4",
+          "starts_at": "2026-10-04T14:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398595",
@@ -11388,7 +11085,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:78433fb1353b5c01eaac",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs",
+          "starts_at": "2026-10-04T15:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2399065",
@@ -11479,28 +11184,6 @@
       "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
     },
     {
-      "match_id": "liquipedia:abeca1dd87da76e57d6c",
-      "match_date": "2026-10-04",
-      "starts_at": "2026-10-04T11:30:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 2",
-      "team1_name": "9z",
-      "team2_name": "TYLOO",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "9z",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
-    },
-    {
       "match_id": "liquipedia:a8e28f53bbc198d1e29d",
       "match_date": "2026-10-04",
       "starts_at": "2026-10-04T12:00:00Z",
@@ -11523,28 +11206,6 @@
       "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
     },
     {
-      "match_id": "liquipedia:5fb729bd016168b03169",
-      "match_date": "2026-10-04",
-      "starts_at": "2026-10-04T12:20:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 2",
-      "team1_name": "Aurora",
-      "team2_name": "Falcons",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "Falcons",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
-    },
-    {
       "match_id": "liquipedia:6f555fe2303cecfde04a",
       "match_date": "2026-10-04",
       "starts_at": "2026-10-04T14:00:00Z",
@@ -11554,50 +11215,6 @@
       "score1": 2,
       "score2": 1,
       "winner_name": "1w",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
-    },
-    {
-      "match_id": "liquipedia:26e1f186956b5f8f1f6b",
-      "match_date": "2026-10-04",
-      "starts_at": "2026-10-04T14:25:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 2",
-      "team1_name": "FURIA",
-      "team2_name": "MOUZ",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "MOUZ",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2"
-    },
-    {
-      "match_id": "liquipedia:7f8a2c472d5a3fd9a2ed",
-      "match_date": "2026-10-04",
-      "starts_at": "2026-10-04T16:30:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 2",
-      "team1_name": "NAVI",
-      "team2_name": "Vitality",
-      "score1": 1,
-      "score2": 2,
-      "winner_name": "Vitality",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -11740,7 +11357,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:b40a401e5a91eec8cf42",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2",
+          "starts_at": "2026-10-04T09:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398725",
@@ -11784,7 +11409,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:abeca1dd87da76e57d6c",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2",
+          "starts_at": "2026-10-04T11:30:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398728",
@@ -11806,7 +11439,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:5fb729bd016168b03169",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2",
+          "starts_at": "2026-10-04T12:20:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398729",
@@ -11828,7 +11469,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:26e1f186956b5f8f1f6b",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2",
+          "starts_at": "2026-10-04T14:25:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398730",
@@ -11872,7 +11521,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:7f8a2c472d5a3fd9a2ed",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_2",
+          "starts_at": "2026-10-04T16:30:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398732",
@@ -11928,28 +11585,6 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "PV",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1"
-    },
-    {
-      "match_id": "liquipedia:eea9e64ab6e2c93e49a3",
-      "match_date": "2026-10-03",
-      "starts_at": "2026-10-03T09:00:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 1",
-      "team1_name": "Falcons",
-      "team2_name": "TYLOO",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "Falcons",
       "tier": "tier_1",
       "best_of": null,
       "phase": "Series",
@@ -12217,28 +11852,6 @@
       "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1"
     },
     {
-      "match_id": "liquipedia:d5000396f9732ad72498",
-      "match_date": "2026-10-03",
-      "starts_at": "2026-10-03T12:05:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 1",
-      "team1_name": "ShindeN",
-      "team2_name": "Spirit",
-      "score1": 1,
-      "score2": 2,
-      "winner_name": "Spirit",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1"
-    },
-    {
       "match_id": "liquipedia:3d193800fe13597d3b2b",
       "match_date": "2026-10-03",
       "starts_at": "2026-10-03T13:00:00Z",
@@ -12391,72 +12004,6 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_4#Results"
-    },
-    {
-      "match_id": "liquipedia:a6b5dfa3210bde1578f3",
-      "match_date": "2026-10-03",
-      "starts_at": "2026-10-03T14:00:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 1",
-      "team1_name": "9z",
-      "team2_name": "Aurora",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "Aurora",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1"
-    },
-    {
-      "match_id": "liquipedia:8f5f911bb9b2c718035d",
-      "match_date": "2026-10-03",
-      "starts_at": "2026-10-03T15:25:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 1",
-      "team1_name": "M80",
-      "team2_name": "MOUZ",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "MOUZ",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1"
-    },
-    {
-      "match_id": "liquipedia:ea0504a762023c53ecc2",
-      "match_date": "2026-10-03",
-      "starts_at": "2026-10-03T16:30:00Z",
-      "event_name": "ESL Pro League Season 24 - Round 1",
-      "team1_name": "G2",
-      "team2_name": "NAVI",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "NAVI",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1"
     },
     {
       "match_id": "liquipedia:69bb41c66a8604dbbad2",
@@ -12654,7 +12201,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:eea9e64ab6e2c93e49a3",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1",
+          "starts_at": "2026-10-03T09:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398718",
@@ -12720,7 +12275,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:d5000396f9732ad72498",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1",
+          "starts_at": "2026-10-03T12:05:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398721",
@@ -12742,7 +12305,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:a6b5dfa3210bde1578f3",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1",
+          "starts_at": "2026-10-03T14:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398722",
@@ -12764,7 +12335,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:8f5f911bb9b2c718035d",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1",
+          "starts_at": "2026-10-03T15:25:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398723",
@@ -12786,7 +12365,15 @@
       "lineups": {
         "team1": [],
         "team2": []
-      }
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:ea0504a762023c53ecc2",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/ESL/Pro_League/Season_24#Round_1",
+          "starts_at": "2026-10-03T16:30:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2398724",

@@ -1,3 +1,5 @@
+import eventPolicy from "./event-policy.json" with { type: "json" };
+
 export const SNAPSHOT_CONTRACT_VERSION = "1.1";
 
 const FORMAT_ALIASES = new Map([
@@ -24,15 +26,16 @@ const STATUS_ALIASES = new Map([
   ["final", "finished"],
 ]);
 
-const TIER_TWO_EVENT_PATTERN = /\b(?:cct|roman imperium|esl challenger|thunderpick world championship)\b/i;
-const TIER_ONE_EVENT_PATTERN = /\b(?:major|iem|blast|esl pro league|pgl masters|esports world cup|fissure playground)\b/i;
+const TIER_TWO_EVENT_PATTERN = new RegExp(eventPolicy.tier_two_name_pattern, "i");
+const TIER_ONE_EVENT_PATTERN = new RegExp(eventPolicy.tier_one_name_pattern, "i");
+const EXCLUDED_EVENT_PATTERN = new RegExp(eventPolicy.excluded_name_pattern, "i");
 
 export function productTierForEvent(event = {}) {
   const declared = String(event.product_tier || event.tier || event.publisher_tier || event.event_tier || "").trim().toLowerCase();
   const name = String(event.name || event.event_name || event.source_title || "");
-  if (["tier_1", "tier 1", "major", "s-tier", "s tier", "a-tier", "a tier"].includes(declared)) return "tier_1";
-  if (["tier_2", "tier 2", "b-tier", "b tier"].includes(declared)) return "tier_2";
-  if (/^(?:c-tier|c tier|tier[_ -]?3|d-tier|d tier|excluded)$/.test(declared)) return "excluded";
+  if (eventPolicy.excluded_tiers.includes(declared) || EXCLUDED_EVENT_PATTERN.test(name)) return "excluded";
+  if (eventPolicy.tier_one_aliases.includes(declared)) return "tier_1";
+  if (eventPolicy.tier_two_aliases.includes(declared) && (TIER_TWO_EVENT_PATTERN.test(name) || TIER_ONE_EVENT_PATTERN.test(name))) return "tier_2";
   if (TIER_TWO_EVENT_PATTERN.test(name)) return "tier_2";
   if (TIER_ONE_EVENT_PATTERN.test(name)) return "tier_1";
   return "pending";

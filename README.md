@@ -50,11 +50,19 @@ The existing Always Free Micro worker also runs historical backfill independentl
 
 ## Development
 
+Use Node.js 24 (also used by CI). JSON snapshots live in `docs/data/`; browser bundles loaded by the page live in `docs/vendor/`. The Python exporters and refresh workflow must update both together.
+
 ```bash
 npm install
 npm run check
 npm run dev
 ```
+
+Charts use a progressively loaded shadcn/Recharts module. Edit `ui/charts/engine.tsx` or `ui/components/ui/chart.tsx`, then run `npm run build:charts` to regenerate `docs/vendor/chart-engine.js` (also included in `npm run check`). Dependency licences and source revisions are documented in `ui/THIRD_PARTY_NOTICES.md`.
+
+With the preview running, `npm run test:browser` checks desktop/mobile layouts, keyboard navigation, themes, vetoes, follows and player comparisons. Python model checks run with `python -m unittest work.cs2_predictor.test_live_promotion work.cs2_predictor.test_portable_model work.cs2_predictor.test_roster_features work.cs2_predictor.test_validation`; worker checks run with `python -m unittest discover -s infra/oracle/worker`. Install NumPy/scikit-learn for the model checks and `infra/oracle/worker/requirements.txt` for the worker checks.
+
+Vercel is the release target. The unused Netlify development CLI and its transitive image toolchain have been removed; the optional Netlify function adapters remain covered by contract tests. CI audits the complete npm dependency tree, including development dependencies.
 
 Vercel builds the static product from `docs/` and serves API routes from `api/`.
 
@@ -65,3 +73,9 @@ Vercel builds the static product from `docs/` and serves API routes from `api/`.
 Match forecasts can be embedded with `/embed/?match=<stable-match-id>`. The responsive card reads the public catalog, includes current model probability, predicted winner, maps, event context, and a link back to the complete Match Room. When a verified prediction is unavailable it shows a pending state rather than inventing a probability.
 
 Event paths can be embedded with `/embed/bracket/?event=<stable-event-id>`. The responsive bracket compiles organizer-published lanes, Major Swiss projections, playoff rounds, or the verified match schedule into one versioned view and links every known series back to its Match Room.
+
+## Tournament selection
+
+The public match feed uses `roman-imperium-floor-v1` in `docs/lib/event-policy.json`, shared by the collector, Python export/model intake and browser/API filters. Roman Imperium main events are the reference for smaller professional LANs. International Tier 1 main events, CCT Europe main series, Roman Imperium, ESL Challenger main events and Thunderpick World Championship remain eligible. Qualifiers, CCT Challengers/Contenders, non-European regional CCT and ESL Challenger League cups are excluded even when an older snapshot labels them Tier 1/2. Unreviewed Tier 2 events stay pending even if a legacy snapshot called them B-Tier. This is an explicit product selection, not a claim that every edition has equal competitive strength; prize money alone is not a reliable threshold.
+
+Historical source records and model training evidence are retained for traceability. The current feed and historical queries apply the public selection policy; no raw archive is deleted. Player profiles distinguish dated three-month averages from the partial recorded series/map samples.

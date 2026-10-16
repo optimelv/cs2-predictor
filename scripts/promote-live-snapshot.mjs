@@ -1,7 +1,8 @@
+import { eventIsProductEligible } from "../docs/lib/snapshot.js";
 import { readFile, writeFile } from "node:fs/promises";
 import { pathToFileURL } from "node:url";
 import { mergeHistoryMatches } from "../docs/lib/history.js";
-import { mergePlayerTimeline, summarizePlayerRosterEras, summarizePlayerTimeline } from "../docs/lib/player-history.js";
+import { mergePlayerProfile } from "../docs/lib/player-history.js";
 
 export const resultTimestamp = (match) => {
   const value = Date.parse(String(match?.starts_at || ""));
@@ -11,7 +12,7 @@ export const resultTimestamp = (match) => {
 export function historyRowsFromLive(live) {
   return (live.matches || [])
   .filter((match) => /finished|completed|final|ended/i.test(String(match.status || "")))
-  .filter((match) => ["tier_1", "tier_2"].includes(match.product_tier))
+  .filter((match) => eventIsProductEligible({ name: match.event_name, product_tier: match.product_tier }))
   .filter((match) => resultTimestamp(match) !== null)
   .filter((match) => match.match_id && match.team1_name && match.team2_name && match.winner_name)
   .map((match) => ({
@@ -30,7 +31,8 @@ export function historyRowsFromLive(live) {
     round_name: match.round_name || "",
     is_playoff: /playoff|quarter|semi|final/i.test(String(match.stage_name || "")),
     is_elimination: /elimination/i.test(String(match.stage_name || "")),
-    maps: (match.map_results || []).filter((map) => Number.isFinite(Number(map.score1)) && Number.isFinite(Number(map.score2))).map((map) => ({
+    maps: (match.map_results || []).filter((map) => (!map.status || /^(finished|completed|final|ended)$/i.test(map.status))
+      && [map.score1, map.score2].every((score) => score != null && typeof score !== "boolean" && String(score).trim() !== "" && Number.isInteger(Number(score)) && Number(score) >= 0)).map((map) => ({
       map_name: map.map_name,
       score1: map.score1,
       score2: map.score2,
@@ -68,30 +70,9 @@ const byId = new Map((players.players || []).map((player) => [String(player.play
 for (const incoming of live.players || []) {
   const playerId = String(incoming.player_id || (incoming.hltv_player_id ? `hltv:${incoming.hltv_player_id}` : ""));
   if (!playerId || !incoming.nickname) continue;
-  const existing = byId.get(playerId) || {
-    player_id: playerId,
-    nickname: incoming.nickname,
-    team_name: incoming.team_name || "Roster pending",
-    rating_3_0: null,
-    maps_3m: 0,
-    signal_index: 50,
-    traits: {},
-  };
-  const incomingTimeline = incoming.form_timeline || (incoming.timeline_entry ? [incoming.timeline_entry] : []);
-  const mergedTimeline = mergePlayerTimeline(existing.form_timeline, incomingTimeline);
-  byId.set(playerId, {
-    ...existing,
-    ...incoming,
-    player_id: playerId,
-    rating_3_0: incoming.rating_3_0 ?? existing.rating_3_0,
-    maps_3m: incoming.maps_3m ?? existing.maps_3m,
-    signal_index: incoming.signal_index ?? existing.signal_index,
-    traits: { ...(existing.traits || {}), ...(incoming.traits || {}) },
-    form_timeline: mergedTimeline,
-    form_summary: incoming.form_summary || (incomingTimeline.length ? summarizePlayerTimeline(mergedTimeline) : existing.form_summary),
-    map_profile: incoming.map_profile || existing.map_profile || [],
-    roster_eras: incoming.roster_eras || (incomingTimeline.length ? summarizePlayerRosterEras(mergedTimeline) : existing.roster_eras || []),
-  });
+  byId.set(playerId, mergePlayerProfile(byId.get(playerId) || {
+    player_id: playerId, nickname: incoming.nickname, team_name: incoming.team_name || "Roster pending",
+  }, { ...incoming, player_id: playerId }));
 }
 
 players.players = [...byId.values()];

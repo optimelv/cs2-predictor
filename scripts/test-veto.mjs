@@ -36,6 +36,14 @@ assert.equal(recommended.actions[1].map_name, "Overpass");
 assert.equal(recommended.actions.at(-1).action, "decider");
 assert.equal(new Set(recommended.actions.map((row) => row.map_name)).size, 7);
 
+const manual = applyVetoMap(createVetoState({ pool, team1: "Alpha", team2: "Bravo", bestOf: 3 }), "Nuke");
+const completed = buildRecommendedVeto(manual, maps, vetoes);
+assert.deepEqual(completed.actions[0], manual.actions[0], "Auto-complete preserves a confirmed manual ban");
+assert.equal(completed.complete, true);
+assert.equal(new Set(completed.actions.map((row) => row.map_name)).size, 7);
+assert.deepEqual(buildRecommendedVeto(completed, maps, vetoes), completed);
+assert.equal(manual.actions.length, 1, "Auto-complete does not mutate the draft");
+
 for (const bestOf of [1, 3, 5]) {
   const tree = buildRecommendedVeto({ pool, team1: "Alpha", team2: "Bravo", bestOf }, maps, vetoes);
   const read = vetoSeriesRead(tree, { baseProbability: 0.55, mapProfiles: maps });

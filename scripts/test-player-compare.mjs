@@ -29,4 +29,8 @@ assert.equal(comparison.metrics[0].left, 1.31);
 assert.deepEqual(comparison.trait_lead, { left: 3, right: 4, tied: 0 });
 assert.deepEqual(comparison.maps.map(({ map_name }) => map_name), ["Mirage", "Nuke"]);
 assert.equal(comparePlayerProfiles(null, right), null);
+const unknown = comparePlayerProfiles({ rating_3_0: null, traits: { firepower: null }, map_profile: [{ map_name: "Nuke", average_rating: null }] }, right);
+assert.equal(unknown.metrics[0].left, null, "A missing rating must not become zero");
+assert.equal(unknown.trait_lead.right, 0, "Missing evidence must not create a trait lead");
+assert.equal(unknown.maps.find((row) => row.map_name === "Nuke").left.rating, null);
 console.log("player compare contract tests ok");

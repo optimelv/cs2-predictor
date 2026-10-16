@@ -64,14 +64,17 @@ async function fetchHltvHtmlViaFlareSolverr(url: string): Promise<string | null>
   const flaresolverrUrl = env("FLARESOLVERR_URL");
   if (!flaresolverrUrl) return null;
   const endpoint = flaresolverrUrl.endsWith("/v1") ? flaresolverrUrl : `${flaresolverrUrl.replace(/\/$/, "")}/v1`;
+  const requestedTimeout = Number(env("FLARESOLVERR_TIMEOUT_MS"));
+  const timeoutMs = Number.isFinite(requestedTimeout) && requestedTimeout > 0 ? Math.min(requestedTimeout, 90_000) : 90_000;
   const response = await fetch(endpoint, {
     method: "POST",
     headers: { "content-type": "application/json" },
     body: JSON.stringify({
       cmd: "request.get",
-      maxTimeout: Number(env("FLARESOLVERR_TIMEOUT_MS") || 90000),
+      maxTimeout: timeoutMs,
       url,
     }),
+    signal: AbortSignal.timeout(timeoutMs + 5_000),
   });
   if (!response.ok) throw new Error(`FlareSolverr failed with ${response.status}`);
   const payload = await response.json();
@@ -135,8 +138,8 @@ export async function refreshSnapshot(req?: Request): Promise<Record<string, unk
   }
 
   applyManualPermabans(snapshot);
-  snapshot.generated_at_utc = new Date().toISOString();
   snapshot.updater = {
+    refreshed_at_utc: new Date().toISOString(),
     status: env("FLARESOLVERR_URL") ? "netlify_remote_flaresolverr" : "netlify_static_fallback",
     detail: env("FLARESOLVERR_URL")
       ? "Served from Netlify Blobs with live HLTV overlay."

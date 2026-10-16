@@ -6,8 +6,10 @@ __pycache__/
 
 # Python/node dependency folders installed during scraping experiments
 work/.python_packages/
-node_modules/
+node_modules
 .netlify/
+docs/vendor/chart-engine.js
+docs/vendor/chart-engine.js.LEGAL.txt
 
 # Large/generated data snapshots and SQLite warehouse files
 work/data/
@@ -35,3 +37,11 @@ outputs/home-redesign/
 !work/cs2_predictor/
 .vercel
 .env*
+
+# Private release evidence and reversible local backups
+outputs/release-full-2026-10-14/
+outputs/taste-release-2026-10-14/
+.taste-skill/
+
+outputs/release-2026-10-16/
+outputs/recheck-2026-10-16/

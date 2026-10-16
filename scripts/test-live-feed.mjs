@@ -1,4 +1,6 @@
 import assert from "node:assert/strict";
+import { readFile } from "node:fs/promises";
+import vm from "node:vm";
 import { filterProductLiveSnapshot } from "../docs/lib/live-feed.js";
 
 const filtered = filterProductLiveSnapshot({
@@ -31,4 +33,40 @@ const noLineupPlayers = filterProductLiveSnapshot({
   players: [{ player_id: "hltv:99", nickname: "unscoped" }],
 });
 assert.deepEqual(noLineupPlayers.players, []);
+
+// A linked event can arrive after the initial, bundled projection has rendered.
+const source = await readFile(new URL("../docs/app.js", import.meta.url), "utf8");
+const start = source.indexOf("function applyLiveSnapshot(live)");
+const end = source.indexOf("async function refreshLiveSnapshot()", start);
+assert.ok(start >= 0 && end > start);
+for (const search of ["?event=live-only", "?event=unknown", ""]) {
+  const context = vm.createContext({
+    URLSearchParams,
+    window: { location: { search } },
+    appData: { coverage: { events: [{ id: "bundled" }] } },
+    activeEventId: "bundled",
+    canApplySnapshot: () => true,
+    snapshotTimestamp: () => "2026-10-13T20:00:00Z",
+    mergeLivePlayers: () => false,
+    normalizeLiveMatch: (match) => match,
+    dailyMatchCalls: () => [],
+  });
+  context.mergeLiveEvents = (events) => {
+    context.appData.coverage.events.push(...events);
+    return events.length > 0;
+  };
+  context.availableEvents = () => context.appData.coverage.events;
+  for (const name of ["recordMatchSignals", "buildTeamLookupMap", "renderEventSelector", "renderEvents", "renderRankings", "renderDeciders", "renderDynamicMajor", "updateSummary"]) {
+    context[name] = () => {};
+  }
+  vm.runInContext(source.slice(start, end), context);
+  assert.equal(context.applyLiveSnapshot({ ok: true, fetched_at_utc: "2026-10-13T22:00:00Z", events: [{ id: "live-only" }], matches: [] }), true);
+  assert.equal(context.activeEventId, search === "?event=live-only" ? "live-only" : "bundled");
+}
 console.log("live feed product filter tests ok");
+
+const bypass = filterProductLiveSnapshot({ events: [{ id: "parent", name: "IEM Beijing", product_tier: "tier_1" }], matches: [
+  { match_id: "qualifier", event_id: "parent", event_name: "IEM Beijing Open Qualifier", product_tier: "tier_1" },
+  { match_id: "excluded", event_id: "parent", event_name: "IEM Beijing", product_tier: "excluded" },
+] });
+assert.equal(bypass.matches.length, 0, "A parent event cannot bypass explicit curation exclusions");
