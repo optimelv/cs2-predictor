@@ -3437,20 +3437,6 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "source_url": "https://www.hltv.org/player/19045/latto",
       "form_timeline": [
         {
-          "match_id": "hltv:2387321",
-          "date": "2025-10-27",
-          "event_name": "PGL Masters Bucharest 2025",
-          "opponent_name": "Gentle Mates",
-          "team_name": "Legacy",
-          "won": true,
-          "kills": 16,
-          "deaths": 11,
-          "kd_ratio": 1.45,
-          "adr": 83,
-          "kast": 70,
-          "rating": 1.37
-        },
-        {
           "match_id": "hltv:2387330",
           "date": "2025-10-28",
           "event_name": "PGL Masters Bucharest 2025",
@@ -3688,14 +3674,29 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 83.3,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399413",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "BETBOOM",
+          "team_name": "Legacy",
+          "won": false,
+          "kills": 55,
+          "deaths": 48,
+          "kd_ratio": 1.15,
+          "adr": 76.7,
+          "kast": 74,
+          "rating": 1.23,
+          "maps": 3
         }
       ],
       "form_summary": {
         "series": 18,
         "average_rating": 1.19,
-        "average_adr": 74.8,
-        "recent_rating": 1.33,
-        "rating_delta": 0.09
+        "average_adr": 74.4,
+        "recent_rating": 1.36,
+        "rating_delta": 0.17
       },
       "map_profile": [
         {
@@ -3800,29 +3801,29 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "roster_eras": [
         {
           "team_name": "Legacy",
-          "from_date": "2025-10-27",
-          "through_date": "2026-10-14",
+          "from_date": "2025-10-28",
+          "through_date": "2026-10-16",
           "series": 18,
-          "wins": 14,
-          "losses": 4,
-          "win_rate": 0.778,
+          "wins": 13,
+          "losses": 5,
+          "win_rate": 0.722,
           "average_rating": 1.19,
-          "average_adr": 74.8
+          "average_adr": 74.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399386",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399413",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "PARIVISION",
+        "opponent_name": "BETBOOM",
         "team_name": "Legacy",
-        "won": true,
-        "kills": 34,
-        "deaths": 35,
-        "kd_ratio": 0.97,
-        "adr": 75.7,
-        "kast": 83.3,
-        "rating": 1.12,
+        "won": false,
+        "kills": 55,
+        "deaths": 48,
+        "kd_ratio": 1.15,
+        "adr": 76.7,
+        "kast": 74,
+        "rating": 1.23,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -5504,6 +5505,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 69.8,
           "rating": 1.19,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399661",
+          "date": "2026-10-17",
+          "event_name": "PGL Bucharest 2027 Closed Qualifier",
+          "opponent_name": "BBL",
+          "team_name": "ex-RUSTEC",
+          "won": false,
+          "kills": 37,
+          "deaths": 41,
+          "kd_ratio": 0.9,
+          "adr": 62.6,
+          "kast": 59,
+          "rating": 0.91,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -5511,13 +5527,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 4,
+          "through_date": "2026-10-17",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.16,
-          "average_adr": 75.2
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 1.11,
+          "average_adr": 72.7
         }
       ],
       "timeline_entry": {
@@ -5536,11 +5552,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.16,
-        "average_adr": 75.2,
-        "recent_rating": 1.22,
-        "rating_delta": 0.23
+        "series": 5,
+        "average_rating": 1.11,
+        "average_adr": 72.7,
+        "recent_rating": 1.15,
+        "rating_delta": 0.1
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -7874,6 +7890,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 65.8,
           "rating": 1.19,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399412",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "9z",
+          "team_name": "Aurora",
+          "won": true,
+          "kills": 31,
+          "deaths": 18,
+          "kd_ratio": 1.72,
+          "adr": 80.3,
+          "kast": 82.9,
+          "rating": 1.31,
+          "maps": 3
         }
       ],
       "hltv_player_id": "18850",
@@ -7883,35 +7914,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Aurora",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-16",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.19,
-          "average_adr": 86.7
+          "win_rate": 0.5,
+          "average_rating": 1.25,
+          "average_adr": 83.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399384",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399412",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
         "opponent_name": "9z",
         "team_name": "Aurora",
-        "won": false,
-        "kills": 32,
-        "deaths": 29,
-        "kd_ratio": 1.1,
-        "adr": 86.7,
-        "kast": 65.8,
-        "rating": 1.19,
+        "won": true,
+        "kills": 31,
+        "deaths": 18,
+        "kd_ratio": 1.72,
+        "adr": 80.3,
+        "kast": 82.9,
+        "rating": 1.31,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.19,
-        "average_adr": 86.7,
-        "recent_rating": 1.19,
+        "series": 2,
+        "average_rating": 1.25,
+        "average_adr": 83.5,
+        "recent_rating": 1.25,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -9476,14 +9507,29 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 52.6,
           "rating": 0.76,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399412",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "9z",
+          "team_name": "Aurora",
+          "won": true,
+          "kills": 36,
+          "deaths": 28,
+          "kd_ratio": 1.29,
+          "adr": 96.3,
+          "kast": 82.9,
+          "rating": 1.29,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 13,
-        "average_rating": 1.22,
-        "average_adr": 80.7,
-        "recent_rating": 1.06,
-        "rating_delta": -0.39
+        "series": 14,
+        "average_rating": 1.23,
+        "average_adr": 81.8,
+        "recent_rating": 1.01,
+        "rating_delta": -0.47
       },
       "map_profile": [
         {
@@ -9589,28 +9635,28 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Aurora",
           "from_date": "2025-10-27",
-          "through_date": "2026-10-14",
-          "series": 13,
-          "wins": 9,
+          "through_date": "2026-10-16",
+          "series": 14,
+          "wins": 10,
           "losses": 4,
-          "win_rate": 0.692,
-          "average_rating": 1.22,
-          "average_adr": 80.7
+          "win_rate": 0.714,
+          "average_rating": 1.23,
+          "average_adr": 81.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399384",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399412",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
         "opponent_name": "9z",
         "team_name": "Aurora",
-        "won": false,
-        "kills": 19,
-        "deaths": 30,
-        "kd_ratio": 0.63,
-        "adr": 60.2,
-        "kast": 52.6,
-        "rating": 0.76,
+        "won": true,
+        "kills": 36,
+        "deaths": 28,
+        "kd_ratio": 1.29,
+        "adr": 96.3,
+        "kast": 82.9,
+        "rating": 1.29,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -10484,6 +10530,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 77.8,
           "rating": 1.14,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399413",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "BETBOOM",
+          "team_name": "Legacy",
+          "won": false,
+          "kills": 62,
+          "deaths": 54,
+          "kd_ratio": 1.15,
+          "adr": 85.9,
+          "kast": 71.4,
+          "rating": 1.12,
+          "maps": 3
         }
       ],
       "hltv_player_id": "19869",
@@ -10493,35 +10554,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Legacy",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-16",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.14,
-          "average_adr": 74
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.13,
+          "average_adr": 80
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399386",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399413",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "PARIVISION",
+        "opponent_name": "BETBOOM",
         "team_name": "Legacy",
-        "won": true,
-        "kills": 41,
-        "deaths": 26,
-        "kd_ratio": 1.58,
-        "adr": 74,
-        "kast": 77.8,
-        "rating": 1.14,
+        "won": false,
+        "kills": 62,
+        "deaths": 54,
+        "kd_ratio": 1.15,
+        "adr": 85.9,
+        "kast": 71.4,
+        "rating": 1.12,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.14,
-        "average_adr": 74,
-        "recent_rating": 1.14,
+        "series": 2,
+        "average_rating": 1.13,
+        "average_adr": 80,
+        "recent_rating": 1.13,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -12381,6 +12442,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 74.4,
           "rating": 1.01,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399661",
+          "date": "2026-10-17",
+          "event_name": "PGL Bucharest 2027 Closed Qualifier",
+          "opponent_name": "BBL",
+          "team_name": "ex-RUSTEC",
+          "won": false,
+          "kills": 39,
+          "deaths": 41,
+          "kd_ratio": 0.95,
+          "adr": 67.6,
+          "kast": 65.6,
+          "rating": 0.95,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -12388,13 +12464,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 4,
+          "through_date": "2026-10-17",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.27,
-          "average_adr": 81.2
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 1.21,
+          "average_adr": 78.5
         }
       ],
       "timeline_entry": {
@@ -12413,11 +12489,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.27,
-        "average_adr": 81.2,
-        "recent_rating": 1.2,
-        "rating_delta": -0.3
+        "series": 5,
+        "average_rating": 1.21,
+        "average_adr": 78.5,
+        "recent_rating": 1.17,
+        "rating_delta": -0.09
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -12937,12 +13013,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "BAKS",
           "team_name": "G2 Ares",
           "won": false,
-          "kills": 30,
-          "deaths": 28,
-          "kd_ratio": 1.07,
-          "adr": 75.2,
-          "kast": 73.3,
-          "rating": 1.08,
+          "kills": 42,
+          "deaths": 45,
+          "kd_ratio": 0.93,
+          "adr": 68.8,
+          "kast": 72.1,
+          "rating": 0.94,
           "maps": 3
         },
         {
@@ -12980,10 +13056,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       },
       "form_summary": {
         "series": 5,
-        "average_rating": 1.08,
-        "average_adr": 74.6,
-        "recent_rating": 0.9,
-        "rating_delta": -0.44
+        "average_rating": 1.05,
+        "average_adr": 73.4,
+        "recent_rating": 0.85,
+        "rating_delta": -0.49
       },
       "map_profile": [],
       "roster_eras": [
@@ -12995,8 +13071,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 2,
           "losses": 3,
           "win_rate": 0.4,
-          "average_rating": 1.08,
-          "average_adr": 74.6
+          "average_rating": 1.05,
+          "average_adr": 73.4
         }
       ],
       "kd_ratio_3m": null,
@@ -13075,12 +13151,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "BAKS",
           "team_name": "G2 Ares",
           "won": false,
-          "kills": 12,
-          "deaths": 33,
-          "kd_ratio": 0.36,
-          "adr": 41.7,
-          "kast": 48.9,
-          "rating": 0.46,
+          "kills": 27,
+          "deaths": 49,
+          "kd_ratio": 0.55,
+          "adr": 55,
+          "kast": 51.5,
+          "rating": 0.65,
           "maps": 3
         },
         {
@@ -13118,10 +13194,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       },
       "form_summary": {
         "series": 5,
-        "average_rating": 1.26,
-        "average_adr": 76,
-        "recent_rating": 0.84,
-        "rating_delta": -1.06
+        "average_rating": 1.3,
+        "average_adr": 78.7,
+        "recent_rating": 0.9,
+        "rating_delta": -1
       },
       "map_profile": [],
       "roster_eras": [
@@ -13133,8 +13209,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 2,
           "losses": 3,
           "win_rate": 0.4,
-          "average_rating": 1.26,
-          "average_adr": 76
+          "average_rating": 1.3,
+          "average_adr": 78.7
         }
       ],
       "kd_ratio_3m": null,
@@ -13643,12 +13719,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "G2 Ares",
           "team_name": "BAKS",
           "won": true,
-          "kills": 29,
-          "deaths": 24,
-          "kd_ratio": 1.21,
-          "adr": 73.1,
-          "kast": 77.8,
-          "rating": 1.14,
+          "kills": 52,
+          "deaths": 39,
+          "kd_ratio": 1.33,
+          "adr": 79.7,
+          "kast": 79.4,
+          "rating": 1.19,
           "maps": 3
         }
       ],
@@ -13664,8 +13740,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.06,
-          "average_adr": 69.5
+          "average_rating": 1.08,
+          "average_adr": 71.7
         }
       ],
       "timeline_entry": {
@@ -13675,19 +13751,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "G2 Ares",
         "team_name": "BAKS",
         "won": true,
-        "kills": 29,
-        "deaths": 24,
-        "kd_ratio": 1.21,
-        "adr": 73.1,
-        "kast": 77.8,
-        "rating": 1.14,
+        "kills": 52,
+        "deaths": 39,
+        "kd_ratio": 1.33,
+        "adr": 79.7,
+        "kast": 79.4,
+        "rating": 1.19,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.06,
-        "average_adr": 69.5,
-        "recent_rating": 1.06,
+        "average_rating": 1.08,
+        "average_adr": 71.7,
+        "recent_rating": 1.08,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -13719,20 +13795,6 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "signal_index": 64,
       "source_url": "https://www.hltv.org/player/15698/dumau",
       "form_timeline": [
-        {
-          "match_id": "hltv:2387321",
-          "date": "2025-10-27",
-          "event_name": "PGL Masters Bucharest 2025",
-          "opponent_name": "Gentle Mates",
-          "team_name": "Legacy",
-          "won": true,
-          "kills": 17,
-          "deaths": 11,
-          "kd_ratio": 1.55,
-          "adr": 86.4,
-          "kast": 75,
-          "rating": 1.42
-        },
         {
           "match_id": "hltv:2387330",
           "date": "2025-10-28",
@@ -13971,14 +14033,29 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 75.9,
           "rating": 1.21,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399413",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "BETBOOM",
+          "team_name": "Legacy",
+          "won": false,
+          "kills": 45,
+          "deaths": 52,
+          "kd_ratio": 0.87,
+          "adr": 70.4,
+          "kast": 59.7,
+          "rating": 0.83,
+          "maps": 3
         }
       ],
       "form_summary": {
         "series": 18,
-        "average_rating": 1.21,
-        "average_adr": 81.7,
-        "recent_rating": 1.15,
-        "rating_delta": 0.15
+        "average_rating": 1.17,
+        "average_adr": 80.8,
+        "recent_rating": 1.05,
+        "rating_delta": 0.16
       },
       "map_profile": [
         {
@@ -14083,29 +14160,29 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "roster_eras": [
         {
           "team_name": "Legacy",
-          "from_date": "2025-10-27",
-          "through_date": "2026-10-14",
+          "from_date": "2025-10-28",
+          "through_date": "2026-10-16",
           "series": 18,
-          "wins": 14,
-          "losses": 4,
-          "win_rate": 0.778,
-          "average_rating": 1.21,
-          "average_adr": 81.7
+          "wins": 13,
+          "losses": 5,
+          "win_rate": 0.722,
+          "average_rating": 1.17,
+          "average_adr": 80.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399386",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399413",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "PARIVISION",
+        "opponent_name": "BETBOOM",
         "team_name": "Legacy",
-        "won": true,
-        "kills": 43,
-        "deaths": 32,
-        "kd_ratio": 1.34,
-        "adr": 77.5,
-        "kast": 75.9,
-        "rating": 1.21,
+        "won": false,
+        "kills": 45,
+        "deaths": 52,
+        "kd_ratio": 0.87,
+        "adr": 70.4,
+        "kast": 59.7,
+        "rating": 0.83,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -15558,12 +15635,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "G2 Ares",
           "team_name": "BAKS",
           "won": true,
-          "kills": 26,
-          "deaths": 26,
-          "kd_ratio": 1,
-          "adr": 66.3,
-          "kast": 77.8,
-          "rating": 0.96,
+          "kills": 41,
+          "deaths": 42,
+          "kd_ratio": 0.98,
+          "adr": 67.7,
+          "kast": 79.4,
+          "rating": 0.98,
           "maps": 3
         }
       ],
@@ -15579,8 +15656,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.16,
-          "average_adr": 80
+          "average_rating": 1.17,
+          "average_adr": 80.5
         }
       ],
       "timeline_entry": {
@@ -15590,19 +15667,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "G2 Ares",
         "team_name": "BAKS",
         "won": true,
-        "kills": 26,
-        "deaths": 26,
-        "kd_ratio": 1,
-        "adr": 66.3,
-        "kast": 77.8,
-        "rating": 0.96,
+        "kills": 41,
+        "deaths": 42,
+        "kd_ratio": 0.98,
+        "adr": 67.7,
+        "kast": 79.4,
+        "rating": 0.98,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.16,
-        "average_adr": 80,
-        "recent_rating": 1.16,
+        "average_rating": 1.17,
+        "average_adr": 80.5,
+        "recent_rating": 1.17,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -16270,6 +16347,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 79.1,
           "rating": 1.36,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399661",
+          "date": "2026-10-17",
+          "event_name": "PGL Bucharest 2027 Closed Qualifier",
+          "opponent_name": "BBL",
+          "team_name": "ex-RUSTEC",
+          "won": false,
+          "kills": 25,
+          "deaths": 48,
+          "kd_ratio": 0.52,
+          "adr": 53.5,
+          "kast": 65.6,
+          "rating": 0.66,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -16277,13 +16369,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 4,
+          "through_date": "2026-10-17",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.22,
-          "average_adr": 79.7
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 1.11,
+          "average_adr": 74.4
         }
       ],
       "timeline_entry": {
@@ -16302,11 +16394,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.22,
-        "average_adr": 79.7,
-        "recent_rating": 1.22,
-        "rating_delta": 0
+        "series": 5,
+        "average_rating": 1.11,
+        "average_adr": 74.4,
+        "recent_rating": 1.1,
+        "rating_delta": -0.01
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -17058,6 +17150,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 75.4,
           "rating": 0.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399412",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Aurora",
+          "team_name": "9z",
+          "won": false,
+          "kills": 26,
+          "deaths": 29,
+          "kd_ratio": 0.9,
+          "adr": 61.6,
+          "kast": 78,
+          "rating": 0.97,
+          "maps": 3
         }
       ],
       "hltv_player_id": "14736",
@@ -17067,35 +17174,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "9z",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1,
-          "average_adr": 75.6
+          "losses": 2,
+          "win_rate": 0.333,
+          "average_rating": 0.99,
+          "average_adr": 70.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399409",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399412",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Falcons",
+        "opponent_name": "Aurora",
         "team_name": "9z",
         "won": false,
-        "kills": 39,
-        "deaths": 39,
-        "kd_ratio": 1,
-        "adr": 66,
-        "kast": 75.4,
-        "rating": 0.9,
+        "kills": 26,
+        "deaths": 29,
+        "kd_ratio": 0.9,
+        "adr": 61.6,
+        "kast": 78,
+        "rating": 0.97,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1,
-        "average_adr": 75.6,
-        "recent_rating": 1,
+        "series": 3,
+        "average_rating": 0.99,
+        "average_adr": 70.9,
+        "recent_rating": 0.99,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -17489,6 +17596,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68.3,
           "rating": 1.25,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399413",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Legacy",
+          "team_name": "BETBOOM",
+          "won": true,
+          "kills": 55,
+          "deaths": 50,
+          "kd_ratio": 1.1,
+          "adr": 78.4,
+          "kast": 75.3,
+          "rating": 1.08,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -17496,35 +17618,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BETBOOM",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 1,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.15,
-          "average_adr": 83.2
+          "win_rate": 0.667,
+          "average_rating": 1.12,
+          "average_adr": 81.6
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399410",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399413",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "PARIVISION",
+        "opponent_name": "Legacy",
         "team_name": "BETBOOM",
         "won": true,
-        "kills": 47,
-        "deaths": 42,
-        "kd_ratio": 1.12,
-        "adr": 90.5,
-        "kast": 68.3,
-        "rating": 1.25,
+        "kills": 55,
+        "deaths": 50,
+        "kd_ratio": 1.1,
+        "adr": 78.4,
+        "kast": 75.3,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.15,
-        "average_adr": 83.2,
-        "recent_rating": 1.15,
+        "series": 3,
+        "average_rating": 1.12,
+        "average_adr": 81.6,
+        "recent_rating": 1.12,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -17964,12 +18086,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "G2 Ares",
           "team_name": "BAKS",
           "won": true,
-          "kills": 36,
-          "deaths": 18,
-          "kd_ratio": 2,
-          "adr": 63.9,
-          "kast": 84.4,
-          "rating": 1.34,
+          "kills": 48,
+          "deaths": 36,
+          "kd_ratio": 1.33,
+          "adr": 65.6,
+          "kast": 75,
+          "rating": 1.1,
           "maps": 3
         }
       ],
@@ -17985,8 +18107,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.3,
-          "average_adr": 72.8
+          "average_rating": 1.22,
+          "average_adr": 73.4
         }
       ],
       "timeline_entry": {
@@ -17996,19 +18118,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "G2 Ares",
         "team_name": "BAKS",
         "won": true,
-        "kills": 36,
-        "deaths": 18,
-        "kd_ratio": 2,
-        "adr": 63.9,
-        "kast": 84.4,
-        "rating": 1.34,
+        "kills": 48,
+        "deaths": 36,
+        "kd_ratio": 1.33,
+        "adr": 65.6,
+        "kast": 75,
+        "rating": 1.1,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.3,
-        "average_adr": 72.8,
-        "recent_rating": 1.3,
+        "average_rating": 1.22,
+        "average_adr": 73.4,
+        "recent_rating": 1.22,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -20519,6 +20641,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 73.8,
           "rating": 1,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399412",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Aurora",
+          "team_name": "9z",
+          "won": false,
+          "kills": 28,
+          "deaths": 32,
+          "kd_ratio": 0.88,
+          "adr": 73.2,
+          "kast": 68.3,
+          "rating": 1,
+          "maps": 3
         }
       ],
       "hltv_player_id": "22613",
@@ -20528,35 +20665,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "9z",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.23,
-          "average_adr": 82
+          "losses": 2,
+          "win_rate": 0.333,
+          "average_rating": 1.15,
+          "average_adr": 79
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399409",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399412",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Falcons",
+        "opponent_name": "Aurora",
         "team_name": "9z",
         "won": false,
-        "kills": 38,
-        "deaths": 44,
-        "kd_ratio": 0.86,
-        "adr": 67.9,
-        "kast": 73.8,
+        "kills": 28,
+        "deaths": 32,
+        "kd_ratio": 0.88,
+        "adr": 73.2,
+        "kast": 68.3,
         "rating": 1,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.23,
-        "average_adr": 82,
-        "recent_rating": 1.23,
+        "series": 3,
+        "average_rating": 1.15,
+        "average_adr": 79,
+        "recent_rating": 1.15,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -22297,6 +22434,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 85,
           "rating": 1.41,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399413",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Legacy",
+          "team_name": "BETBOOM",
+          "won": true,
+          "kills": 44,
+          "deaths": 47,
+          "kd_ratio": 0.94,
+          "adr": 67.9,
+          "kast": 67.5,
+          "rating": 1.02,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -22304,35 +22456,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BETBOOM",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 1,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.14,
-          "average_adr": 73.5
+          "win_rate": 0.667,
+          "average_rating": 1.1,
+          "average_adr": 71.6
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399410",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399413",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "PARIVISION",
+        "opponent_name": "Legacy",
         "team_name": "BETBOOM",
         "won": true,
-        "kills": 49,
-        "deaths": 30,
-        "kd_ratio": 1.63,
-        "adr": 79.5,
-        "kast": 85,
-        "rating": 1.41,
+        "kills": 44,
+        "deaths": 47,
+        "kd_ratio": 0.94,
+        "adr": 67.9,
+        "kast": 67.5,
+        "rating": 1.02,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.14,
-        "average_adr": 73.5,
-        "recent_rating": 1.14,
+        "series": 3,
+        "average_rating": 1.1,
+        "average_adr": 71.6,
+        "recent_rating": 1.1,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -23222,14 +23374,29 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 65.8,
           "rating": 0.81,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399412",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "9z",
+          "team_name": "Aurora",
+          "won": true,
+          "kills": 25,
+          "deaths": 25,
+          "kd_ratio": 1,
+          "adr": 75,
+          "kast": 68.3,
+          "rating": 0.95,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 13,
-        "average_rating": 1.21,
-        "average_adr": 76.9,
-        "recent_rating": 0.92,
-        "rating_delta": -0.55
+        "series": 14,
+        "average_rating": 1.19,
+        "average_adr": 76.7,
+        "recent_rating": 0.83,
+        "rating_delta": -0.42
       },
       "map_profile": [
         {
@@ -23335,28 +23502,28 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Aurora",
           "from_date": "2025-10-27",
-          "through_date": "2026-10-14",
-          "series": 13,
-          "wins": 9,
+          "through_date": "2026-10-16",
+          "series": 14,
+          "wins": 10,
           "losses": 4,
-          "win_rate": 0.692,
-          "average_rating": 1.21,
-          "average_adr": 76.9
+          "win_rate": 0.714,
+          "average_rating": 1.19,
+          "average_adr": 76.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399384",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399412",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
         "opponent_name": "9z",
         "team_name": "Aurora",
-        "won": false,
-        "kills": 19,
-        "deaths": 27,
-        "kd_ratio": 0.7,
-        "adr": 65.1,
-        "kast": 65.8,
-        "rating": 0.81,
+        "won": true,
+        "kills": 25,
+        "deaths": 25,
+        "kd_ratio": 1,
+        "adr": 75,
+        "kast": 68.3,
+        "rating": 0.95,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -23570,14 +23737,29 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 65.8,
           "rating": 0.84,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399412",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "9z",
+          "team_name": "Aurora",
+          "won": true,
+          "kills": 25,
+          "deaths": 20,
+          "kd_ratio": 1.25,
+          "adr": 65.9,
+          "kast": 75.6,
+          "rating": 1.05,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 13,
+        "series": 14,
         "average_rating": 1.08,
-        "average_adr": 64.2,
-        "recent_rating": 0.97,
-        "rating_delta": -0.36
+        "average_adr": 64.3,
+        "recent_rating": 0.94,
+        "rating_delta": -0.34
       },
       "map_profile": [
         {
@@ -23683,28 +23865,28 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Aurora",
           "from_date": "2025-10-27",
-          "through_date": "2026-10-14",
-          "series": 13,
-          "wins": 9,
+          "through_date": "2026-10-16",
+          "series": 14,
+          "wins": 10,
           "losses": 4,
-          "win_rate": 0.692,
+          "win_rate": 0.714,
           "average_rating": 1.08,
-          "average_adr": 64.2
+          "average_adr": 64.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399384",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399412",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
         "opponent_name": "9z",
         "team_name": "Aurora",
-        "won": false,
-        "kills": 24,
-        "deaths": 30,
-        "kd_ratio": 0.8,
-        "adr": 59.8,
-        "kast": 65.8,
-        "rating": 0.84,
+        "won": true,
+        "kills": 25,
+        "deaths": 20,
+        "kd_ratio": 1.25,
+        "adr": 65.9,
+        "kast": 75.6,
+        "rating": 1.05,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -23736,20 +23918,6 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "signal_index": 50,
       "source_url": "https://www.hltv.org/player/19686/n1ssim",
       "form_timeline": [
-        {
-          "match_id": "hltv:2387321",
-          "date": "2025-10-27",
-          "event_name": "PGL Masters Bucharest 2025",
-          "opponent_name": "Gentle Mates",
-          "team_name": "Legacy",
-          "won": true,
-          "kills": 8,
-          "deaths": 14,
-          "kd_ratio": 0.57,
-          "adr": 49.5,
-          "kast": 70,
-          "rating": 0.8
-        },
         {
           "match_id": "hltv:2387330",
           "date": "2025-10-28",
@@ -23988,14 +24156,29 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 64.8,
           "rating": 1.01,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399413",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "BETBOOM",
+          "team_name": "Legacy",
+          "won": false,
+          "kills": 43,
+          "deaths": 50,
+          "kd_ratio": 0.86,
+          "adr": 66.7,
+          "kast": 62.3,
+          "rating": 0.91,
+          "maps": 3
         }
       ],
       "form_summary": {
         "series": 18,
         "average_rating": 1.18,
-        "average_adr": 73,
-        "recent_rating": 0.96,
-        "rating_delta": -0.21
+        "average_adr": 74,
+        "recent_rating": 0.95,
+        "rating_delta": -0.16
       },
       "map_profile": [
         {
@@ -24100,29 +24283,29 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "roster_eras": [
         {
           "team_name": "Legacy",
-          "from_date": "2025-10-27",
-          "through_date": "2026-10-14",
+          "from_date": "2025-10-28",
+          "through_date": "2026-10-16",
           "series": 18,
-          "wins": 14,
-          "losses": 4,
-          "win_rate": 0.778,
+          "wins": 13,
+          "losses": 5,
+          "win_rate": 0.722,
           "average_rating": 1.18,
-          "average_adr": 73
+          "average_adr": 74
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399386",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399413",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "PARIVISION",
+        "opponent_name": "BETBOOM",
         "team_name": "Legacy",
-        "won": true,
-        "kills": 32,
-        "deaths": 29,
-        "kd_ratio": 1.1,
-        "adr": 55.6,
-        "kast": 64.8,
-        "rating": 1.01,
+        "won": false,
+        "kills": 43,
+        "deaths": 50,
+        "kd_ratio": 0.86,
+        "adr": 66.7,
+        "kast": 62.3,
+        "rating": 0.91,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -28029,6 +28212,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 76.7,
           "rating": 1.31,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399413",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Legacy",
+          "team_name": "BETBOOM",
+          "won": true,
+          "kills": 62,
+          "deaths": 50,
+          "kd_ratio": 1.24,
+          "adr": 82.8,
+          "kast": 67.5,
+          "rating": 1.17,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -28036,34 +28234,34 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BETBOOM",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 1,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
+          "win_rate": 0.667,
           "average_rating": 1.17,
-          "average_adr": 81.5
+          "average_adr": 82
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399410",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399413",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "PARIVISION",
+        "opponent_name": "Legacy",
         "team_name": "BETBOOM",
         "won": true,
-        "kills": 43,
-        "deaths": 36,
-        "kd_ratio": 1.19,
-        "adr": 87.6,
-        "kast": 76.7,
-        "rating": 1.31,
+        "kills": 62,
+        "deaths": 50,
+        "kd_ratio": 1.24,
+        "adr": 82.8,
+        "kast": 67.5,
+        "rating": 1.17,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
+        "series": 3,
         "average_rating": 1.17,
-        "average_adr": 81.5,
+        "average_adr": 82,
         "recent_rating": 1.17,
         "rating_delta": null
       },
@@ -28236,12 +28434,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "BAKS",
           "team_name": "G2 Ares",
           "won": false,
-          "kills": 38,
-          "deaths": 28,
-          "kd_ratio": 1.36,
-          "adr": 86.4,
-          "kast": 75.6,
-          "rating": 1.41,
+          "kills": 57,
+          "deaths": 47,
+          "kd_ratio": 1.21,
+          "adr": 91,
+          "kast": 76.5,
+          "rating": 1.45,
           "maps": 3
         },
         {
@@ -28280,9 +28478,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "form_summary": {
         "series": 5,
         "average_rating": 1.15,
-        "average_adr": 78.9,
-        "recent_rating": 1.22,
-        "rating_delta": 0.18
+        "average_adr": 79.8,
+        "recent_rating": 1.23,
+        "rating_delta": 0.19
       },
       "map_profile": [],
       "roster_eras": [
@@ -28295,7 +28493,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "losses": 3,
           "win_rate": 0.4,
           "average_rating": 1.15,
-          "average_adr": 78.9
+          "average_adr": 79.8
         }
       ],
       "kd_ratio_3m": null,
@@ -34710,12 +34908,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "BAKS",
           "team_name": "G2 Ares",
           "won": false,
-          "kills": 19,
-          "deaths": 30,
-          "kd_ratio": 0.63,
-          "adr": 44.2,
-          "kast": 68.9,
-          "rating": 0.68,
+          "kills": 39,
+          "deaths": 46,
+          "kd_ratio": 0.85,
+          "adr": 54,
+          "kast": 69.1,
+          "rating": 0.89,
           "maps": 3
         },
         {
@@ -34753,10 +34951,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       },
       "form_summary": {
         "series": 5,
-        "average_rating": 1.17,
-        "average_adr": 77,
-        "recent_rating": 0.83,
-        "rating_delta": -0.84
+        "average_rating": 1.21,
+        "average_adr": 78.9,
+        "recent_rating": 0.9,
+        "rating_delta": -0.77
       },
       "map_profile": [],
       "roster_eras": [
@@ -34768,8 +34966,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 2,
           "losses": 3,
           "win_rate": 0.4,
-          "average_rating": 1.17,
-          "average_adr": 77
+          "average_rating": 1.21,
+          "average_adr": 78.9
         }
       ],
       "kd_ratio_3m": null,
@@ -36542,12 +36740,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "G2 Ares",
           "team_name": "BAKS",
           "won": true,
-          "kills": 33,
-          "deaths": 25,
-          "kd_ratio": 1.32,
-          "adr": 83,
-          "kast": 80,
-          "rating": 1.38,
+          "kills": 47,
+          "deaths": 38,
+          "kd_ratio": 1.24,
+          "adr": 82.4,
+          "kast": 79.4,
+          "rating": 1.32,
           "maps": 3
         }
       ],
@@ -36563,8 +36761,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.19,
-          "average_adr": 78
+          "average_rating": 1.17,
+          "average_adr": 77.8
         }
       ],
       "timeline_entry": {
@@ -36574,19 +36772,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "G2 Ares",
         "team_name": "BAKS",
         "won": true,
-        "kills": 33,
-        "deaths": 25,
-        "kd_ratio": 1.32,
-        "adr": 83,
-        "kast": 80,
-        "rating": 1.38,
+        "kills": 47,
+        "deaths": 38,
+        "kd_ratio": 1.24,
+        "adr": 82.4,
+        "kast": 79.4,
+        "rating": 1.32,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.19,
-        "average_adr": 78,
-        "recent_rating": 1.19,
+        "average_rating": 1.17,
+        "average_adr": 77.8,
+        "recent_rating": 1.17,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -36985,6 +37183,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 63.2,
           "rating": 0.53,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399412",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "9z",
+          "team_name": "Aurora",
+          "won": true,
+          "kills": 33,
+          "deaths": 20,
+          "kd_ratio": 1.65,
+          "adr": 75.5,
+          "kast": 92.7,
+          "rating": 1.45,
+          "maps": 3
         }
       ],
       "hltv_player_id": "19677",
@@ -36994,35 +37207,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Aurora",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-16",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.53,
-          "average_adr": 33.9
+          "win_rate": 0.5,
+          "average_rating": 0.99,
+          "average_adr": 54.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399384",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399412",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
         "opponent_name": "9z",
         "team_name": "Aurora",
-        "won": false,
-        "kills": 9,
-        "deaths": 29,
-        "kd_ratio": 0.31,
-        "adr": 33.9,
-        "kast": 63.2,
-        "rating": 0.53,
+        "won": true,
+        "kills": 33,
+        "deaths": 20,
+        "kd_ratio": 1.65,
+        "adr": 75.5,
+        "kast": 92.7,
+        "rating": 1.45,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.53,
-        "average_adr": 33.9,
-        "recent_rating": 0.53,
+        "series": 2,
+        "average_rating": 0.99,
+        "average_adr": 54.7,
+        "recent_rating": 0.99,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -37480,12 +37693,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "G2 Ares",
           "team_name": "BAKS",
           "won": true,
-          "kills": 28,
-          "deaths": 28,
-          "kd_ratio": 1,
-          "adr": 75.5,
-          "kast": 82.2,
-          "rating": 1.03,
+          "kills": 51,
+          "deaths": 39,
+          "kd_ratio": 1.31,
+          "adr": 78.7,
+          "kast": 82.4,
+          "rating": 1.22,
           "maps": 3
         }
       ],
@@ -37501,8 +37714,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.03,
-          "average_adr": 72.8
+          "average_rating": 1.1,
+          "average_adr": 73.9
         }
       ],
       "timeline_entry": {
@@ -37512,19 +37725,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "G2 Ares",
         "team_name": "BAKS",
         "won": true,
-        "kills": 28,
-        "deaths": 28,
-        "kd_ratio": 1,
-        "adr": 75.5,
-        "kast": 82.2,
-        "rating": 1.03,
+        "kills": 51,
+        "deaths": 39,
+        "kd_ratio": 1.31,
+        "adr": 78.7,
+        "kast": 82.4,
+        "rating": 1.22,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.03,
-        "average_adr": 72.8,
-        "recent_rating": 1.03,
+        "average_rating": 1.1,
+        "average_adr": 73.9,
+        "recent_rating": 1.1,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -39254,6 +39467,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 83.3,
           "rating": 1.2,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399413",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Legacy",
+          "team_name": "BETBOOM",
+          "won": true,
+          "kills": 54,
+          "deaths": 49,
+          "kd_ratio": 1.1,
+          "adr": 63.6,
+          "kast": 66.2,
+          "rating": 1.01,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -39261,35 +39489,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BETBOOM",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 1,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.05,
-          "average_adr": 70.4
+          "win_rate": 0.667,
+          "average_rating": 1.04,
+          "average_adr": 68.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399410",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399413",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "PARIVISION",
+        "opponent_name": "Legacy",
         "team_name": "BETBOOM",
         "won": true,
-        "kills": 51,
-        "deaths": 34,
-        "kd_ratio": 1.5,
-        "adr": 82.6,
-        "kast": 83.3,
-        "rating": 1.2,
+        "kills": 54,
+        "deaths": 49,
+        "kd_ratio": 1.1,
+        "adr": 63.6,
+        "kast": 66.2,
+        "rating": 1.01,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.05,
-        "average_adr": 70.4,
-        "recent_rating": 1.05,
+        "series": 3,
+        "average_rating": 1.04,
+        "average_adr": 68.1,
+        "recent_rating": 1.04,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -40436,6 +40664,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 73.3,
           "rating": 0.88,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399413",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Legacy",
+          "team_name": "BETBOOM",
+          "won": true,
+          "kills": 49,
+          "deaths": 51,
+          "kd_ratio": 0.96,
+          "adr": 73.4,
+          "kast": 70.1,
+          "rating": 1.06,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -40443,35 +40686,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BETBOOM",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 1,
+          "through_date": "2026-10-16",
+          "series": 3,
+          "wins": 2,
           "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 0.95,
-          "average_adr": 63.6
+          "win_rate": 0.667,
+          "average_rating": 0.99,
+          "average_adr": 66.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399410",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399413",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "PARIVISION",
+        "opponent_name": "Legacy",
         "team_name": "BETBOOM",
         "won": true,
-        "kills": 34,
-        "deaths": 41,
-        "kd_ratio": 0.83,
-        "adr": 59.5,
-        "kast": 73.3,
-        "rating": 0.88,
+        "kills": 49,
+        "deaths": 51,
+        "kd_ratio": 0.96,
+        "adr": 73.4,
+        "kast": 70.1,
+        "rating": 1.06,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.95,
-        "average_adr": 63.6,
-        "recent_rating": 0.95,
+        "series": 3,
+        "average_rating": 0.99,
+        "average_adr": 66.9,
+        "recent_rating": 0.99,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -42228,6 +42471,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 67.4,
           "rating": 0.85,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399661",
+          "date": "2026-10-17",
+          "event_name": "PGL Bucharest 2027 Closed Qualifier",
+          "opponent_name": "BBL",
+          "team_name": "ex-RUSTEC",
+          "won": false,
+          "kills": 43,
+          "deaths": 45,
+          "kd_ratio": 0.96,
+          "adr": 77.4,
+          "kast": 70.5,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -42235,13 +42493,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 4,
+          "through_date": "2026-10-17",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 0.92,
-          "average_adr": 66.2
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 0.94,
+          "average_adr": 68.4
         }
       ],
       "timeline_entry": {
@@ -42260,11 +42518,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.92,
-        "average_adr": 66.2,
-        "recent_rating": 0.84,
-        "rating_delta": -0.31
+        "series": 5,
+        "average_rating": 0.94,
+        "average_adr": 68.4,
+        "recent_rating": 0.97,
+        "rating_delta": 0.07
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -43632,6 +43890,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 69.2,
           "rating": 1.18,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399412",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Aurora",
+          "team_name": "9z",
+          "won": false,
+          "kills": 18,
+          "deaths": 29,
+          "kd_ratio": 0.62,
+          "adr": 55.5,
+          "kast": 80.5,
+          "rating": 0.93,
+          "maps": 3
         }
       ],
       "hltv_player_id": "20394",
@@ -43641,35 +43914,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "9z",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.4,
-          "average_adr": 88.3
+          "losses": 2,
+          "win_rate": 0.333,
+          "average_rating": 1.24,
+          "average_adr": 77.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399409",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399412",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Falcons",
+        "opponent_name": "Aurora",
         "team_name": "9z",
         "won": false,
-        "kills": 49,
-        "deaths": 45,
-        "kd_ratio": 1.09,
-        "adr": 79.2,
-        "kast": 69.2,
-        "rating": 1.18,
+        "kills": 18,
+        "deaths": 29,
+        "kd_ratio": 0.62,
+        "adr": 55.5,
+        "kast": 80.5,
+        "rating": 0.93,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.4,
-        "average_adr": 88.3,
-        "recent_rating": 1.4,
+        "series": 3,
+        "average_rating": 1.24,
+        "average_adr": 77.4,
+        "recent_rating": 1.24,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -44236,6 +44509,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 78.5,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399412",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Aurora",
+          "team_name": "9z",
+          "won": false,
+          "kills": 25,
+          "deaths": 28,
+          "kd_ratio": 0.89,
+          "adr": 69.5,
+          "kast": 82.9,
+          "rating": 1.03,
+          "maps": 3
         }
       ],
       "hltv_player_id": "14737",
@@ -44245,35 +44533,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "9z",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.09,
-          "average_adr": 59.8
+          "losses": 2,
+          "win_rate": 0.333,
+          "average_rating": 1.07,
+          "average_adr": 63
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399409",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399412",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Falcons",
+        "opponent_name": "Aurora",
         "team_name": "9z",
         "won": false,
-        "kills": 44,
-        "deaths": 32,
-        "kd_ratio": 1.38,
-        "adr": 68.7,
-        "kast": 78.5,
-        "rating": 1.12,
+        "kills": 25,
+        "deaths": 28,
+        "kd_ratio": 0.89,
+        "adr": 69.5,
+        "kast": 82.9,
+        "rating": 1.03,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.09,
-        "average_adr": 59.8,
-        "recent_rating": 1.09,
+        "series": 3,
+        "average_rating": 1.07,
+        "average_adr": 63,
+        "recent_rating": 1.07,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -45920,6 +46208,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 66.2,
           "rating": 0.68,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399412",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Aurora",
+          "team_name": "9z",
+          "won": false,
+          "kills": 13,
+          "deaths": 32,
+          "kd_ratio": 0.41,
+          "adr": 39.3,
+          "kast": 61,
+          "rating": 0.51,
+          "maps": 3
         }
       ],
       "hltv_player_id": "12092",
@@ -45929,35 +46232,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "9z",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 0.88,
-          "average_adr": 59.5
+          "losses": 2,
+          "win_rate": 0.333,
+          "average_rating": 0.75,
+          "average_adr": 52.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399409",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399412",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Falcons",
+        "opponent_name": "Aurora",
         "team_name": "9z",
         "won": false,
-        "kills": 24,
-        "deaths": 44,
-        "kd_ratio": 0.55,
-        "adr": 43.6,
-        "kast": 66.2,
-        "rating": 0.68,
+        "kills": 13,
+        "deaths": 32,
+        "kd_ratio": 0.41,
+        "adr": 39.3,
+        "kast": 61,
+        "rating": 0.51,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.88,
-        "average_adr": 59.5,
-        "recent_rating": 0.88,
+        "series": 3,
+        "average_rating": 0.75,
+        "average_adr": 52.8,
+        "recent_rating": 0.75,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -46129,12 +46432,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "BAKS",
           "team_name": "G2 Ares",
           "won": false,
-          "kills": 20,
-          "deaths": 33,
-          "kd_ratio": 0.61,
-          "adr": 67,
-          "kast": 64.4,
-          "rating": 0.79,
+          "kills": 27,
+          "deaths": 52,
+          "kd_ratio": 0.52,
+          "adr": 57.9,
+          "kast": 60.3,
+          "rating": 0.69,
           "maps": 3
         },
         {
@@ -46172,10 +46475,10 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       },
       "form_summary": {
         "series": 5,
-        "average_rating": 1.01,
-        "average_adr": 66.8,
-        "recent_rating": 0.95,
-        "rating_delta": -0.15
+        "average_rating": 0.99,
+        "average_adr": 64.9,
+        "recent_rating": 0.92,
+        "rating_delta": -0.18
       },
       "map_profile": [],
       "roster_eras": [
@@ -46187,8 +46490,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 2,
           "losses": 3,
           "win_rate": 0.4,
-          "average_rating": 1.01,
-          "average_adr": 66.8
+          "average_rating": 0.99,
+          "average_adr": 64.9
         }
       ],
       "kd_ratio_3m": null,
@@ -46494,14 +46797,29 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68.5,
           "rating": 0.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399413",
+          "date": "2026-10-16",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "BETBOOM",
+          "team_name": "Legacy",
+          "won": false,
+          "kills": 38,
+          "deaths": 61,
+          "kd_ratio": 0.62,
+          "adr": 55,
+          "kast": 62.3,
+          "rating": 0.73,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 14,
-        "average_rating": 0.87,
-        "average_adr": 59.7,
-        "recent_rating": 0.78,
-        "rating_delta": -0.05
+        "series": 15,
+        "average_rating": 0.86,
+        "average_adr": 59.4,
+        "recent_rating": 0.85,
+        "rating_delta": 0.19
       },
       "map_profile": [
         {
@@ -46593,28 +46911,28 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Legacy",
           "from_date": "2026-03-01",
-          "through_date": "2026-10-14",
-          "series": 14,
+          "through_date": "2026-10-16",
+          "series": 15,
           "wins": 11,
-          "losses": 3,
-          "win_rate": 0.786,
-          "average_rating": 0.87,
-          "average_adr": 59.7
+          "losses": 4,
+          "win_rate": 0.733,
+          "average_rating": 0.86,
+          "average_adr": 59.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399386",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399413",
+        "date": "2026-10-16",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "PARIVISION",
+        "opponent_name": "BETBOOM",
         "team_name": "Legacy",
-        "won": true,
-        "kills": 24,
-        "deaths": 38,
-        "kd_ratio": 0.63,
-        "adr": 63,
-        "kast": 68.5,
-        "rating": 0.9,
+        "won": false,
+        "kills": 38,
+        "deaths": 61,
+        "kd_ratio": 0.62,
+        "adr": 55,
+        "kast": 62.3,
+        "rating": 0.73,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -56021,6 +56339,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 73,
           "rating": 0.82,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399089",
+          "date": "2026-10-17",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "FORZE Reload",
+          "won": false,
+          "kills": 11,
+          "deaths": 28,
+          "kd_ratio": 0.39,
+          "adr": 57,
+          "kast": 53.1,
+          "rating": 0.47,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -56028,13 +56361,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 3,
+          "through_date": "2026-10-17",
+          "series": 4,
           "wins": 3,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 0.94,
-          "average_adr": 52.7
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 0.82,
+          "average_adr": 53.8
         }
       ],
       "timeline_entry": {
@@ -56053,11 +56386,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.94,
-        "average_adr": 52.7,
-        "recent_rating": 0.94,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.82,
+        "average_adr": 53.8,
+        "recent_rating": 0.78,
+        "rating_delta": -0.16
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -56121,6 +56454,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 83.8,
           "rating": 2.2,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399089",
+          "date": "2026-10-17",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "FORZE Reload",
+          "won": false,
+          "kills": 16,
+          "deaths": 26,
+          "kd_ratio": 0.62,
+          "adr": 72.9,
+          "kast": 68.8,
+          "rating": 0.69,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -56128,13 +56476,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 3,
+          "through_date": "2026-10-17",
+          "series": 4,
           "wins": 3,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.54,
-          "average_adr": 90.2
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.33,
+          "average_adr": 85.9
         }
       ],
       "timeline_entry": {
@@ -56153,11 +56501,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.54,
-        "average_adr": 90.2,
-        "recent_rating": 1.54,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.33,
+        "average_adr": 85.9,
+        "recent_rating": 1.38,
+        "rating_delta": 0.19
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -56221,6 +56569,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 81.1,
           "rating": 1.14,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399089",
+          "date": "2026-10-17",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "FORZE Reload",
+          "won": false,
+          "kills": 18,
+          "deaths": 28,
+          "kd_ratio": 0.64,
+          "adr": 74.6,
+          "kast": 62.5,
+          "rating": 0.78,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -56228,13 +56591,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 3,
+          "through_date": "2026-10-17",
+          "series": 4,
           "wins": 3,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.31,
-          "average_adr": 73.5
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.18,
+          "average_adr": 73.8
         }
       ],
       "timeline_entry": {
@@ -56253,11 +56616,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.31,
-        "average_adr": 73.5,
-        "recent_rating": 1.31,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.18,
+        "average_adr": 73.8,
+        "recent_rating": 1,
+        "rating_delta": -0.71
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -56336,6 +56699,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 72.1,
           "rating": 1.58,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399089",
+          "date": "2026-10-17",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "FORZE Reload",
+          "won": false,
+          "kills": 19,
+          "deaths": 27,
+          "kd_ratio": 0.7,
+          "adr": 64.4,
+          "kast": 65.6,
+          "rating": 0.96,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399661",
+          "date": "2026-10-17",
+          "event_name": "PGL Bucharest 2027 Closed Qualifier",
+          "opponent_name": "BBL",
+          "team_name": "ex-RUSTEC",
+          "won": false,
+          "kills": 38,
+          "deaths": 47,
+          "kd_ratio": 0.81,
+          "adr": 73.2,
+          "kast": 63.9,
+          "rating": 0.9,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -56343,24 +56736,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 3,
+          "through_date": "2026-10-17",
+          "series": 4,
           "wins": 3,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.13,
-          "average_adr": 82.7
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.09,
+          "average_adr": 78.1
         },
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-16",
-          "through_date": "2026-10-16",
-          "series": 1,
+          "through_date": "2026-10-17",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.58,
-          "average_adr": 95.3
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.24,
+          "average_adr": 84.3
         }
       ],
       "timeline_entry": {
@@ -56379,11 +56772,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.25,
-        "average_adr": 85.8,
-        "recent_rating": 1.2,
-        "rating_delta": -0.17
+        "series": 6,
+        "average_rating": 1.14,
+        "average_adr": 80.2,
+        "recent_rating": 1.15,
+        "rating_delta": 0.01
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -56447,6 +56840,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 81.1,
           "rating": 1.31,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399089",
+          "date": "2026-10-17",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "FORZE Reload",
+          "won": false,
+          "kills": 16,
+          "deaths": 26,
+          "kd_ratio": 0.62,
+          "adr": 46.8,
+          "kast": 50,
+          "rating": 0.63,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -56454,13 +56862,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 3,
+          "through_date": "2026-10-17",
+          "series": 4,
           "wins": 3,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.28,
-          "average_adr": 78.1
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 1.11,
+          "average_adr": 70.3
         }
       ],
       "timeline_entry": {
@@ -56479,11 +56887,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.28,
-        "average_adr": 78.1,
-        "recent_rating": 1.28,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.11,
+        "average_adr": 70.3,
+        "recent_rating": 1.1,
+        "rating_delta": -0.06
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -57615,6 +58023,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 52.5,
           "rating": 0.81,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399770",
+          "date": "2026-10-17",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Omega",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 25,
+          "deaths": 33,
+          "kd_ratio": 0.76,
+          "adr": 62.6,
+          "kast": 64.4,
+          "rating": 0.75,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -57633,24 +58056,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
+        "series": 4,
         "average_rating": 0.73,
-        "average_adr": 57.2,
-        "recent_rating": 0.73,
-        "rating_delta": null
+        "average_adr": 58.6,
+        "recent_rating": 0.74,
+        "rating_delta": 0.03
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-15",
-          "series": 3,
+          "through_date": "2026-10-17",
+          "series": 4,
           "wins": 0,
-          "losses": 3,
+          "losses": 4,
           "win_rate": 0,
           "average_rating": 0.73,
-          "average_adr": 57.2
+          "average_adr": 58.6
         }
       ],
       "kd_ratio_3m": null,
@@ -57715,6 +58138,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 70,
           "rating": 1.06,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399770",
+          "date": "2026-10-17",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Omega",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 23,
+          "deaths": 34,
+          "kd_ratio": 0.68,
+          "adr": 55.4,
+          "kast": 57.8,
+          "rating": 0.72,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -57733,24 +58171,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.08,
-        "average_adr": 72.8,
-        "recent_rating": 1.08,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.99,
+        "average_adr": 68.4,
+        "recent_rating": 1.02,
+        "rating_delta": 0.13
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-15",
-          "series": 3,
+          "through_date": "2026-10-17",
+          "series": 4,
           "wins": 0,
-          "losses": 3,
+          "losses": 4,
           "win_rate": 0,
-          "average_rating": 1.08,
-          "average_adr": 72.8
+          "average_rating": 0.99,
+          "average_adr": 68.4
         }
       ],
       "kd_ratio_3m": null,
@@ -57815,6 +58253,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 65,
           "rating": 0.75,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399770",
+          "date": "2026-10-17",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Omega",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 30,
+          "deaths": 35,
+          "kd_ratio": 0.86,
+          "adr": 73.2,
+          "kast": 55.6,
+          "rating": 0.88,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -57833,24 +58286,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.94,
-        "average_adr": 70.1,
-        "recent_rating": 0.94,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.92,
+        "average_adr": 70.9,
+        "recent_rating": 0.86,
+        "rating_delta": -0.24
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-15",
-          "series": 3,
+          "through_date": "2026-10-17",
+          "series": 4,
           "wins": 0,
-          "losses": 3,
+          "losses": 4,
           "win_rate": 0,
-          "average_rating": 0.94,
-          "average_adr": 70.1
+          "average_rating": 0.92,
+          "average_adr": 70.9
         }
       ],
       "kd_ratio_3m": null,
@@ -57915,6 +58368,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 70,
           "rating": 1.06,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399770",
+          "date": "2026-10-17",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Omega",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 23,
+          "deaths": 32,
+          "kd_ratio": 0.72,
+          "adr": 48.9,
+          "kast": 62.2,
+          "rating": 0.73,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -57933,24 +58401,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.09,
-        "average_adr": 77.6,
-        "recent_rating": 1.09,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1,
+        "average_adr": 70.5,
+        "recent_rating": 0.94,
+        "rating_delta": -0.25
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-15",
-          "series": 3,
+          "through_date": "2026-10-17",
+          "series": 4,
           "wins": 0,
-          "losses": 3,
+          "losses": 4,
           "win_rate": 0,
-          "average_rating": 1.09,
-          "average_adr": 77.6
+          "average_rating": 1,
+          "average_adr": 70.5
         }
       ],
       "kd_ratio_3m": null,
@@ -58015,6 +58483,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 57.5,
           "rating": 0.53,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399770",
+          "date": "2026-10-17",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Omega",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 20,
+          "deaths": 35,
+          "kd_ratio": 0.57,
+          "adr": 62.8,
+          "kast": 68.9,
+          "rating": 0.85,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -58033,24 +58516,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.79,
-        "average_adr": 58.5,
-        "recent_rating": 0.79,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.81,
+        "average_adr": 59.6,
+        "recent_rating": 0.76,
+        "rating_delta": -0.18
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-15",
-          "series": 3,
+          "through_date": "2026-10-17",
+          "series": 4,
           "wins": 0,
-          "losses": 3,
+          "losses": 4,
           "win_rate": 0,
-          "average_rating": 0.79,
-          "average_adr": 58.5
+          "average_rating": 0.81,
+          "average_adr": 59.6
         }
       ],
       "kd_ratio_3m": null,
@@ -60825,7 +61308,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       }
     }
   ],
-  "lineups_updated_at_utc": "2026-10-17T19:27:55Z",
+  "lineups_updated_at_utc": "2026-10-17T22:23:00Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-17",
   "history_profile_count": 53,
