@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3979,
+    "matches": 3980,
     "maps": 2867,
     "lineup_rows": 9422,
     "source_match_ids": 976
@@ -354,6 +354,28 @@
           "bevve"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:94041687bc39a1b15f71",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T11:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 2",
+      "team1_name": "Butterfly",
+      "team2_name": "GOne",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "GOne",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_2"
     },
     {
       "match_id": "hltv:2399670",
