@@ -1,18 +1,62 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-10-17T04:32:35Z",
-  "through_date": "2026-10-16",
+  "through_date": "2026-10-17",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3942,
+    "matches": 3969,
     "maps": 2863,
     "lineup_rows": 9382,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:4a147ac46648f44ebc77",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T00:00:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Playoffs",
+      "team1_name": "Chops",
+      "team2_name": "NEXV",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NEXV",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:e2291a879f7a15eddcbc",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T00:00:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Playoffs",
+      "team1_name": "FLY",
+      "team2_name": "Rooster",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FLY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Playoffs"
+    },
     {
       "match_id": "hltv:2399670",
       "match_date": "2026-10-16",
@@ -704,6 +748,116 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_2"
+    },
+    {
+      "match_id": "liquipedia:33d047526d1c02c25718",
+      "match_date": "2026-10-16",
+      "starts_at": "2026-10-16T00:00:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Group B",
+      "team1_name": "Abyssal",
+      "team2_name": "GZ",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Abyssal",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:ea0da143c432fa0e94b0",
+      "match_date": "2026-10-16",
+      "starts_at": "2026-10-16T00:00:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Group B",
+      "team1_name": "Chops",
+      "team2_name": "FLY",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FLY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:5ac62e56ff1d85cb616a",
+      "match_date": "2026-10-16",
+      "starts_at": "2026-10-16T04:25:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Group B",
+      "team1_name": "Chops",
+      "team2_name": "GZ",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Chops",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:65996d481b23fe5f1eb2",
+      "match_date": "2026-10-16",
+      "starts_at": "2026-10-16T04:25:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Group B",
+      "team1_name": "Abyssal",
+      "team2_name": "FLY",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FLY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:e9e717ee092320b12688",
+      "match_date": "2026-10-16",
+      "starts_at": "2026-10-16T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 2",
+      "team1_name": "ex-Z10",
+      "team2_name": "UNiTY",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "UNiTY",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -3172,6 +3326,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_1"
+    },
+    {
+      "match_id": "liquipedia:ae732abbe62633535e52",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T10:00:00Z",
+      "event_name": "Stake Pulse Beat III - Group C",
+      "team1_name": "Fnatic",
+      "team2_name": "HOTU",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "HOTU",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_C"
+    },
+    {
+      "match_id": "liquipedia:784eaebf22b8bf48f17c",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T13:00:00Z",
+      "event_name": "Stake Pulse Beat III - Group C",
+      "team1_name": "Fnatic",
+      "team2_name": "Sashi",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Fnatic",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_C"
+    },
+    {
+      "match_id": "liquipedia:0f1751895cda05085702",
+      "match_date": "2026-10-14",
+      "starts_at": "2026-10-14T16:00:00Z",
+      "event_name": "Stake Pulse Beat III - Group C",
+      "team1_name": "Fnatic",
+      "team2_name": "HOTU",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Fnatic",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Group_C"
     },
     {
       "match_id": "liquipedia:16ddb084598cf1bf92db",
@@ -12662,6 +12882,28 @@
       }
     },
     {
+      "match_id": "liquipedia:4f4d6e341b9ebc236b3c",
+      "match_date": "2026-10-03",
+      "starts_at": "2026-10-03T09:00:00Z",
+      "event_name": "Journey Autumn 2026 - Playoffs",
+      "team1_name": "BBL",
+      "team2_name": "BC.Game",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BBL",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Journey/2026/Autumn#Playoffs"
+    },
+    {
       "match_id": "hltv:2398382",
       "match_date": "2026-10-02",
       "event_name": "CCT 2026 Europe Series 10",
@@ -13100,6 +13342,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_6#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:784f7f880dab61290da3",
+      "match_date": "2026-10-02",
+      "starts_at": "2026-10-02T18:30:00Z",
+      "event_name": "Journey Autumn 2026 - Playoffs",
+      "team1_name": "BOYS",
+      "team2_name": "EF",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "EF",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Journey/2026/Autumn#Playoffs"
     },
     {
       "match_id": "hltv:2398582",
@@ -18017,6 +18281,72 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "JiJieHao",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_II#Group_D"
+    },
+    {
+      "match_id": "liquipedia:2500023fed3017964f3a",
+      "match_date": "2026-09-24",
+      "starts_at": "2026-09-24T10:00:00Z",
+      "event_name": "Stake Pulse Beat II - Group D",
+      "team1_name": "Apogee",
+      "team2_name": "ASTRAL",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Apogee",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_II#Group_D"
+    },
+    {
+      "match_id": "liquipedia:573ad5b30a68f9f8b297",
+      "match_date": "2026-09-24",
+      "starts_at": "2026-09-24T13:40:00Z",
+      "event_name": "Stake Pulse Beat II - Group D",
+      "team1_name": "ASTRAL",
+      "team2_name": "EF",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "EF",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_II#Group_D"
+    },
+    {
+      "match_id": "liquipedia:a14995dd0c132d2f1a29",
+      "match_date": "2026-09-24",
+      "starts_at": "2026-09-24T16:30:00Z",
+      "event_name": "Stake Pulse Beat II - Group D",
+      "team1_name": "Apogee",
+      "team2_name": "EF",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Apogee",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -32132,6 +32462,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/South_America/Series_5#Playoffs"
     },
     {
+      "match_id": "liquipedia:a634f45a79d325d6924b",
+      "match_date": "2026-09-04",
+      "starts_at": "2026-09-04T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #8 - Round 2",
+      "team1_name": "HAVU",
+      "team2_name": "SPARTA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "SPARTA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_8#Round_2"
+    },
+    {
       "match_id": "hltv:2396946",
       "match_date": "2026-09-03",
       "event_name": "BLAST Open Porto 2026",
@@ -34517,6 +34869,28 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "INFINITE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:a57076006cfb9d5ba189",
+      "match_date": "2026-09-01",
+      "starts_at": "2026-09-01T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #11 - Playoffs",
+      "team1_name": "Nemesis",
+      "team2_name": "SPARTA",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Nemesis",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -38928,6 +39302,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/ESL/Challenger_League/Season_52/South_America/Cup_1#Results"
+    },
+    {
+      "match_id": "liquipedia:a3cb049990b801f714b7",
+      "match_date": "2026-08-28",
+      "starts_at": "2026-08-28T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #11 - Round 4",
+      "team1_name": "IC.Acad",
+      "team2_name": "SPARTA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "IC.Acad",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/11#Round_4"
     },
     {
       "match_id": "hltv:2396963",
@@ -43823,6 +44219,28 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_7#Round_3"
+    },
+    {
+      "match_id": "liquipedia:a996ca72a0f724737835",
+      "match_date": "2026-08-22",
+      "starts_at": "2026-08-22T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #7 - Round 3",
+      "team1_name": "HAVU",
+      "team2_name": "Leo",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Leo",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -51624,6 +52042,28 @@
       "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026/Qualifier/Group_Stage#Group_P"
     },
     {
+      "match_id": "liquipedia:51f0ba06b2915afa5027",
+      "match_date": "2026-08-08",
+      "starts_at": "2026-08-08T11:20:00Z",
+      "event_name": "Esports World Cup 2026: LCQ - Group Stage - Group K",
+      "team1_name": "EF",
+      "team2_name": "Nade",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "EF",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026/Qualifier/Group_Stage#Group_K"
+    },
+    {
       "match_id": "hltv:2396414",
       "match_date": "2026-08-07",
       "event_name": "ESL Challenger League Season 52 Europe Cup 2",
@@ -53030,6 +53470,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026/Qualifier/Group_Stage#Group_E"
+    },
+    {
+      "match_id": "liquipedia:6d18641388e86163a7b0",
+      "match_date": "2026-08-07",
+      "starts_at": "2026-08-07T16:00:00Z",
+      "event_name": "Esports World Cup 2026: LCQ - Group Stage - Group K",
+      "team1_name": "EF",
+      "team2_name": "Nade",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Nade",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Esports_World_Cup/2026/Qualifier/Group_Stage#Group_K"
     },
     {
       "match_id": "hltv:2396412",
@@ -55584,6 +56046,28 @@
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Playoffs"
     },
     {
+      "match_id": "liquipedia:0979d4d18e4c2bca253b",
+      "match_date": "2026-08-02",
+      "starts_at": "2026-08-02T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 4",
+      "team1_name": "IC.Acad",
+      "team2_name": "NV",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NV",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_4"
+    },
+    {
       "match_id": "hltv:2396178",
       "match_date": "2026-08-01",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -56198,6 +56682,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_I#Group_B"
+    },
+    {
+      "match_id": "liquipedia:d806d6a072cf950342fa",
+      "match_date": "2026-08-01",
+      "starts_at": "2026-08-01T14:15:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 3",
+      "team1_name": "Rune",
+      "team2_name": "SPARTA",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Rune",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_3"
     },
     {
       "match_id": "hltv:2396173",
@@ -56926,6 +57432,28 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_5#Playoffs"
     },
     {
+      "match_id": "liquipedia:5d59810f82fdf95adf2b",
+      "match_date": "2026-07-31",
+      "starts_at": "2026-07-31T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 3",
+      "team1_name": "ex-YN",
+      "team2_name": "IC.Acad",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-YN",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_3"
+    },
+    {
       "match_id": "hltv:2396169",
       "match_date": "2026-07-30",
       "event_name": "Thunderpick World Championship 2026 Europe Series 2",
@@ -57463,6 +57991,28 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_2"
+    },
+    {
+      "match_id": "liquipedia:666619744384193cc082",
+      "match_date": "2026-07-30",
+      "starts_at": "2026-07-30T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 2",
+      "team1_name": "Rune",
+      "team2_name": "UNiTY",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Rune",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -58728,6 +59278,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026/Europe/2#Group_C"
+    },
+    {
+      "match_id": "liquipedia:281525c866188214fdd3",
+      "match_date": "2026-07-28",
+      "starts_at": "2026-07-28T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #6 - Round 1",
+      "team1_name": "ex-MANA",
+      "team2_name": "Rune",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Rune",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_6#Round_1"
     },
     {
       "match_id": "hltv:2396013",
@@ -64228,6 +64800,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Super_DraculaN/Season_1#Group_B"
+    },
+    {
+      "match_id": "liquipedia:94d941adc57f06291d4a",
+      "match_date": "2026-06-24",
+      "starts_at": "2026-06-24T12:00:00Z",
+      "event_name": "Super DraculaN Season 1 - Group A",
+      "team1_name": "AM",
+      "team2_name": "EF",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "AM",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Super_DraculaN/Season_1#Group_A"
     },
     {
       "match_id": "liquipedia:846751c1b71acc22e03b",

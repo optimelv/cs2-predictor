@@ -2180,5 +2180,45 @@
     "name": "4z",
     "logo_url": "https://liquipedia.net/commons/images/thumb/d/d8/4z_lightmode.png/100px-4z_lightmode.png",
     "source": "Liquipedia"
+  },
+  "dkwl": {
+    "name": "DKWL",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/8f/DARKWALL_lightmode.png/55px-DARKWALL_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "tsab": {
+    "name": "TSAB",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/14/Team_Spirit_Academy_2021_lightmode.png/63px-Team_Spirit_Academy_2021_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "optibet": {
+    "name": "Optibet",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/e/e5/Optibet_allmode.png/47px-Optibet_allmode.png",
+    "source": "Liquipedia"
+  },
+  "pol red": {
+    "name": "POL.RED",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/6b/POLteam_lightmode.png/75px-POLteam_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "chops": {
+    "name": "Chops",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/fd/Off_Chops_lightmode.png/50px-Off_Chops_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "kzg": {
+    "name": "KZG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/34/KZG_2023_lightmode.png/46px-KZG_2023_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "notime": {
+    "name": "NoTime",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/1a/NoTime_lightmode.png/100px-NoTime_lightmode.png",
+    "source": "Liquipedia"
+  },
+  "hreds": {
+    "name": "HREDS",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/3/30/HREDS_%28Finnish_team%29_lightmode.png/47px-HREDS_%28Finnish_team%29_lightmode.png",
+    "source": "Liquipedia"
   }
 }
