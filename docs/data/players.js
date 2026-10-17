@@ -16391,12 +16391,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "FORZE Reload",
           "team_name": "Lavked",
           "won": false,
-          "kills": 8,
-          "deaths": 13,
-          "kd_ratio": 0.62,
-          "adr": 51.7,
-          "kast": 47.4,
-          "rating": 0.58,
+          "kills": 18,
+          "deaths": 22,
+          "kd_ratio": 0.82,
+          "adr": 58.4,
+          "kast": 62.2,
+          "rating": 0.79,
           "maps": 3
         },
         {
@@ -16440,16 +16440,16 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 2,
           "losses": 2,
           "win_rate": 0.5,
-          "average_rating": 1.05,
-          "average_adr": 73.3
+          "average_rating": 1.1,
+          "average_adr": 74.9
         }
       ],
       "form_summary": {
         "series": 4,
-        "average_rating": 1.05,
-        "average_adr": 73.3,
-        "recent_rating": 1.01,
-        "rating_delta": -0.15
+        "average_rating": 1.1,
+        "average_adr": 74.9,
+        "recent_rating": 1.08,
+        "rating_delta": -0.08
       },
       "timeline_entry": {
         "match_id": "hltv:2399311",
@@ -24228,12 +24228,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "FORZE Reload",
           "team_name": "Lavked",
           "won": false,
-          "kills": 10,
-          "deaths": 16,
-          "kd_ratio": 0.62,
-          "adr": 75.7,
-          "kast": 63.2,
-          "rating": 0.65,
+          "kills": 17,
+          "deaths": 29,
+          "kd_ratio": 0.59,
+          "adr": 60.3,
+          "kast": 59.5,
+          "rating": 0.61,
           "maps": 3
         },
         {
@@ -24277,8 +24277,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 2,
           "losses": 1,
           "win_rate": 0.667,
-          "average_rating": 0.99,
-          "average_adr": 78.4
+          "average_rating": 0.98,
+          "average_adr": 73.3
         }
       ],
       "timeline_entry": {
@@ -24298,9 +24298,9 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 0.99,
-        "average_adr": 78.4,
-        "recent_rating": 0.99,
+        "average_rating": 0.98,
+        "average_adr": 73.3,
+        "recent_rating": 0.98,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -35535,12 +35535,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "FORZE Reload",
           "team_name": "Lavked",
           "won": false,
-          "kills": 10,
-          "deaths": 13,
-          "kd_ratio": 0.77,
-          "adr": 53.9,
-          "kast": 57.9,
-          "rating": 0.86,
+          "kills": 16,
+          "deaths": 28,
+          "kd_ratio": 0.57,
+          "adr": 52.1,
+          "kast": 48.6,
+          "rating": 0.64,
           "maps": 3
         },
         {
@@ -35584,16 +35584,16 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 2,
           "losses": 2,
           "win_rate": 0.5,
-          "average_rating": 0.96,
-          "average_adr": 63.2
+          "average_rating": 0.9,
+          "average_adr": 62.7
         }
       ],
       "form_summary": {
         "series": 4,
-        "average_rating": 0.96,
-        "average_adr": 63.2,
-        "recent_rating": 1.03,
-        "rating_delta": 0.31
+        "average_rating": 0.9,
+        "average_adr": 62.7,
+        "recent_rating": 0.96,
+        "rating_delta": 0.24
       },
       "timeline_entry": {
         "match_id": "hltv:2399311",
@@ -54431,12 +54431,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "FORZE Reload",
           "team_name": "Lavked",
           "won": false,
-          "kills": 7,
-          "deaths": 14,
-          "kd_ratio": 0.5,
-          "adr": 57.9,
-          "kast": 63.2,
-          "rating": 0.73,
+          "kills": 19,
+          "deaths": 26,
+          "kd_ratio": 0.73,
+          "adr": 67.4,
+          "kast": 67.6,
+          "rating": 0.84,
           "maps": 3
         },
         {
@@ -54480,16 +54480,16 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 2,
           "losses": 2,
           "win_rate": 0.5,
-          "average_rating": 1.06,
-          "average_adr": 74.3
+          "average_rating": 1.08,
+          "average_adr": 76.7
         }
       ],
       "form_summary": {
         "series": 4,
-        "average_rating": 1.06,
-        "average_adr": 74.3,
-        "recent_rating": 1.17,
-        "rating_delta": 0.45
+        "average_rating": 1.08,
+        "average_adr": 76.7,
+        "recent_rating": 1.21,
+        "rating_delta": 0.49
       },
       "timeline_entry": {
         "match_id": "hltv:2399311",
@@ -54546,12 +54546,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "FORZE Reload",
           "team_name": "Lavked",
           "won": false,
-          "kills": 16,
-          "deaths": 14,
-          "kd_ratio": 1.14,
-          "adr": 79.1,
-          "kast": 63.2,
-          "rating": 1.21,
+          "kills": 25,
+          "deaths": 23,
+          "kd_ratio": 1.09,
+          "adr": 64.3,
+          "kast": 67.6,
+          "rating": 1.11,
           "maps": 3
         },
         {
@@ -54595,16 +54595,16 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 2,
           "losses": 2,
           "win_rate": 0.5,
-          "average_rating": 1.15,
-          "average_adr": 76.4
+          "average_rating": 1.12,
+          "average_adr": 72.7
         }
       ],
       "form_summary": {
         "series": 4,
-        "average_rating": 1.15,
-        "average_adr": 76.4,
-        "recent_rating": 1.14,
-        "rating_delta": -0.01
+        "average_rating": 1.12,
+        "average_adr": 72.7,
+        "recent_rating": 1.11,
+        "rating_delta": -0.04
       },
       "timeline_entry": {
         "match_id": "hltv:2399311",
@@ -56014,12 +56014,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Lavked",
           "team_name": "FORZE Reload",
           "won": true,
-          "kills": 8,
-          "deaths": 10,
+          "kills": 16,
+          "deaths": 20,
           "kd_ratio": 0.8,
-          "adr": 37.4,
-          "kast": 73.7,
-          "rating": 0.77,
+          "adr": 40.4,
+          "kast": 73,
+          "rating": 0.82,
           "maps": 3
         }
       ],
@@ -56033,8 +56033,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.92,
-          "average_adr": 51.7
+          "average_rating": 0.94,
+          "average_adr": 52.7
         }
       ],
       "timeline_entry": {
@@ -56044,19 +56044,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Lavked",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 8,
-        "deaths": 10,
+        "kills": 16,
+        "deaths": 20,
         "kd_ratio": 0.8,
-        "adr": 37.4,
-        "kast": 73.7,
-        "rating": 0.77,
+        "adr": 40.4,
+        "kast": 73,
+        "rating": 0.82,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 0.92,
-        "average_adr": 51.7,
-        "recent_rating": 0.92,
+        "average_rating": 0.94,
+        "average_adr": 52.7,
+        "recent_rating": 0.94,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -56114,12 +56114,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Lavked",
           "team_name": "FORZE Reload",
           "won": true,
-          "kills": 21,
-          "deaths": 9,
-          "kd_ratio": 2.33,
-          "adr": 110.6,
-          "kast": 78.9,
-          "rating": 1.85,
+          "kills": 46,
+          "deaths": 15,
+          "kd_ratio": 3.07,
+          "adr": 123.9,
+          "kast": 83.8,
+          "rating": 2.2,
           "maps": 3
         }
       ],
@@ -56133,8 +56133,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.43,
-          "average_adr": 85.8
+          "average_rating": 1.54,
+          "average_adr": 90.2
         }
       ],
       "timeline_entry": {
@@ -56144,19 +56144,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Lavked",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 21,
-        "deaths": 9,
-        "kd_ratio": 2.33,
-        "adr": 110.6,
-        "kast": 78.9,
-        "rating": 1.85,
+        "kills": 46,
+        "deaths": 15,
+        "kd_ratio": 3.07,
+        "adr": 123.9,
+        "kast": 83.8,
+        "rating": 2.2,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.43,
-        "average_adr": 85.8,
-        "recent_rating": 1.43,
+        "average_rating": 1.54,
+        "average_adr": 90.2,
+        "recent_rating": 1.54,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -56214,12 +56214,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Lavked",
           "team_name": "FORZE Reload",
           "won": true,
-          "kills": 9,
-          "deaths": 11,
-          "kd_ratio": 0.82,
-          "adr": 50.5,
-          "kast": 78.9,
-          "rating": 1.09,
+          "kills": 19,
+          "deaths": 18,
+          "kd_ratio": 1.06,
+          "adr": 54.8,
+          "kast": 81.1,
+          "rating": 1.14,
           "maps": 3
         }
       ],
@@ -56233,8 +56233,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.29,
-          "average_adr": 72.1
+          "average_rating": 1.31,
+          "average_adr": 73.5
         }
       ],
       "timeline_entry": {
@@ -56244,19 +56244,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Lavked",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 9,
-        "deaths": 11,
-        "kd_ratio": 0.82,
-        "adr": 50.5,
-        "kast": 78.9,
-        "rating": 1.09,
+        "kills": 19,
+        "deaths": 18,
+        "kd_ratio": 1.06,
+        "adr": 54.8,
+        "kast": 81.1,
+        "rating": 1.14,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.29,
-        "average_adr": 72.1,
-        "recent_rating": 1.29,
+        "average_rating": 1.31,
+        "average_adr": 73.5,
+        "recent_rating": 1.31,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -56314,12 +56314,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Lavked",
           "team_name": "FORZE Reload",
           "won": true,
-          "kills": 15,
-          "deaths": 11,
-          "kd_ratio": 1.36,
-          "adr": 104.5,
-          "kast": 73.7,
-          "rating": 1.4,
+          "kills": 23,
+          "deaths": 23,
+          "kd_ratio": 1,
+          "adr": 78.4,
+          "kast": 67.6,
+          "rating": 0.99,
           "maps": 3
         },
         {
@@ -56348,8 +56348,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.27,
-          "average_adr": 91.4
+          "average_rating": 1.13,
+          "average_adr": 82.7
         },
         {
           "team_name": "ex-RUSTEC",
@@ -56370,20 +56370,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Lavked",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 15,
-        "deaths": 11,
-        "kd_ratio": 1.36,
-        "adr": 104.5,
-        "kast": 73.7,
-        "rating": 1.4,
+        "kills": 23,
+        "deaths": 23,
+        "kd_ratio": 1,
+        "adr": 78.4,
+        "kast": 67.6,
+        "rating": 0.99,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 1.35,
-        "average_adr": 92.4,
-        "recent_rating": 1.34,
-        "rating_delta": -0.03
+        "average_rating": 1.25,
+        "average_adr": 85.8,
+        "recent_rating": 1.2,
+        "rating_delta": -0.17
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -56440,12 +56440,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Lavked",
           "team_name": "FORZE Reload",
           "won": true,
-          "kills": 17,
-          "deaths": 10,
-          "kd_ratio": 1.7,
-          "adr": 89.3,
-          "kast": 84.2,
-          "rating": 1.63,
+          "kills": 24,
+          "deaths": 19,
+          "kd_ratio": 1.26,
+          "adr": 69.3,
+          "kast": 81.1,
+          "rating": 1.31,
           "maps": 3
         }
       ],
@@ -56459,8 +56459,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 3,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.38,
-          "average_adr": 84.7
+          "average_rating": 1.28,
+          "average_adr": 78.1
         }
       ],
       "timeline_entry": {
@@ -56470,19 +56470,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Lavked",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 17,
-        "deaths": 10,
-        "kd_ratio": 1.7,
-        "adr": 89.3,
-        "kast": 84.2,
-        "rating": 1.63,
+        "kills": 24,
+        "deaths": 19,
+        "kd_ratio": 1.26,
+        "adr": 69.3,
+        "kast": 81.1,
+        "rating": 1.31,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.38,
-        "average_adr": 84.7,
-        "recent_rating": 1.38,
+        "average_rating": 1.28,
+        "average_adr": 78.1,
+        "recent_rating": 1.28,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -60825,7 +60825,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       }
     }
   ],
-  "lineups_updated_at_utc": "2026-10-17T13:42:41Z",
+  "lineups_updated_at_utc": "2026-10-17T17:12:50Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-17",
   "history_profile_count": 53,
