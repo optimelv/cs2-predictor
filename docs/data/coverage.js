@@ -8356,7 +8356,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Spirit Academy"
     },
     {
-      "detail_fetched_at_utc": "2026-10-16T23:28:56Z",
+      "detail_fetched_at_utc": "2026-10-17T04:18:55Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -11146,9 +11146,87 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "BAKS"
     },
     {
-      "event_id": "hltv:9442",
+      "detail_fetched_at_utc": "2026-10-17T04:18:46Z",
+      "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399310",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "19065",
+            "nickname": "SHiNE",
+            "player_id": "hltv:19065",
+            "source_url": "https://www.hltv.org/player/19065/shine",
+            "team_name": "G2 Ares"
+          },
+          {
+            "hltv_player_id": "23237",
+            "nickname": "TMKj",
+            "player_id": "hltv:23237",
+            "source_url": "https://www.hltv.org/player/23237/tmkj",
+            "team_name": "G2 Ares"
+          },
+          {
+            "hltv_player_id": "23544",
+            "nickname": "hitori",
+            "player_id": "hltv:23544",
+            "source_url": "https://www.hltv.org/player/23544/hitori",
+            "team_name": "G2 Ares"
+          },
+          {
+            "hltv_player_id": "24111",
+            "nickname": "Junyme",
+            "player_id": "hltv:24111",
+            "source_url": "https://www.hltv.org/player/24111/junyme",
+            "team_name": "G2 Ares"
+          },
+          {
+            "hltv_player_id": "25576",
+            "nickname": "yksjupe",
+            "player_id": "hltv:25576",
+            "source_url": "https://www.hltv.org/player/25576/yksjupe",
+            "team_name": "G2 Ares"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "19617",
+            "nickname": "amster",
+            "player_id": "hltv:19617",
+            "source_url": "https://www.hltv.org/player/19617/amster",
+            "team_name": "ex-6666"
+          },
+          {
+            "hltv_player_id": "21651",
+            "nickname": "kL1o",
+            "player_id": "hltv:21651",
+            "source_url": "https://www.hltv.org/player/21651/kl1o",
+            "team_name": "ex-6666"
+          },
+          {
+            "hltv_player_id": "22650",
+            "nickname": "rendysky",
+            "player_id": "hltv:22650",
+            "source_url": "https://www.hltv.org/player/22650/rendysky",
+            "team_name": "ex-6666"
+          },
+          {
+            "hltv_player_id": "24247",
+            "nickname": "skcH",
+            "player_id": "hltv:24247",
+            "source_url": "https://www.hltv.org/player/24247/skch",
+            "team_name": "ex-6666"
+          },
+          {
+            "hltv_player_id": "26816",
+            "nickname": "stefienson",
+            "player_id": "hltv:26816",
+            "source_url": "https://www.hltv.org/player/26816/stefienson",
+            "team_name": "ex-6666"
+          }
+        ]
+      },
       "match_id": "hltv:2399310",
       "product_tier": "tier_2",
       "series_format": "bo3",
@@ -11157,7 +11235,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-17T08:00:00Z",
       "status": "upcoming",
       "team1_name": "G2 Ares",
-      "team2_name": "ex-6666"
+      "team2_name": "ex-6666",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
     },
     {
       "event_id": "hltv:9442",
@@ -32959,7 +33038,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Spirit Academy"
         },
         {
-          "detail_fetched_at_utc": "2026-10-16T23:28:56Z",
+          "detail_fetched_at_utc": "2026-10-17T04:18:55Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -34723,9 +34802,87 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Illyrians"
         },
         {
-          "event_id": "hltv:9442",
+          "detail_fetched_at_utc": "2026-10-17T04:18:46Z",
+          "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399310",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "19065",
+                "nickname": "SHiNE",
+                "player_id": "hltv:19065",
+                "source_url": "https://www.hltv.org/player/19065/shine",
+                "team_name": "G2 Ares"
+              },
+              {
+                "hltv_player_id": "23237",
+                "nickname": "TMKj",
+                "player_id": "hltv:23237",
+                "source_url": "https://www.hltv.org/player/23237/tmkj",
+                "team_name": "G2 Ares"
+              },
+              {
+                "hltv_player_id": "23544",
+                "nickname": "hitori",
+                "player_id": "hltv:23544",
+                "source_url": "https://www.hltv.org/player/23544/hitori",
+                "team_name": "G2 Ares"
+              },
+              {
+                "hltv_player_id": "24111",
+                "nickname": "Junyme",
+                "player_id": "hltv:24111",
+                "source_url": "https://www.hltv.org/player/24111/junyme",
+                "team_name": "G2 Ares"
+              },
+              {
+                "hltv_player_id": "25576",
+                "nickname": "yksjupe",
+                "player_id": "hltv:25576",
+                "source_url": "https://www.hltv.org/player/25576/yksjupe",
+                "team_name": "G2 Ares"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "19617",
+                "nickname": "amster",
+                "player_id": "hltv:19617",
+                "source_url": "https://www.hltv.org/player/19617/amster",
+                "team_name": "ex-6666"
+              },
+              {
+                "hltv_player_id": "21651",
+                "nickname": "kL1o",
+                "player_id": "hltv:21651",
+                "source_url": "https://www.hltv.org/player/21651/kl1o",
+                "team_name": "ex-6666"
+              },
+              {
+                "hltv_player_id": "22650",
+                "nickname": "rendysky",
+                "player_id": "hltv:22650",
+                "source_url": "https://www.hltv.org/player/22650/rendysky",
+                "team_name": "ex-6666"
+              },
+              {
+                "hltv_player_id": "24247",
+                "nickname": "skcH",
+                "player_id": "hltv:24247",
+                "source_url": "https://www.hltv.org/player/24247/skch",
+                "team_name": "ex-6666"
+              },
+              {
+                "hltv_player_id": "26816",
+                "nickname": "stefienson",
+                "player_id": "hltv:26816",
+                "source_url": "https://www.hltv.org/player/26816/stefienson",
+                "team_name": "ex-6666"
+              }
+            ]
+          },
           "match_id": "hltv:2399310",
           "product_tier": "tier_2",
           "series_format": "bo3",
@@ -34734,7 +34891,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-17T08:00:00Z",
           "status": "upcoming",
           "team1_name": "G2 Ares",
-          "team2_name": "ex-6666"
+          "team2_name": "ex-6666",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 1-1 record)"
         },
         {
           "event_id": "hltv:9442",
@@ -34819,7 +34977,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 17
     }
   ],
-  "last_verified_utc": "2026-10-16T23:38:00Z",
+  "last_verified_utc": "2026-10-17T04:32:35Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -34844,7 +35002,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-16T23:41:52Z",
+    "checked_at_utc": "2026-10-17T04:34:46Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",

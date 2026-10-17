@@ -10975,6 +10975,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 81.5,
           "rating": 1.42,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "mellren",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 40,
+          "deaths": 45,
+          "kd_ratio": 0.89,
+          "adr": 71.5,
+          "kast": 61.7,
+          "rating": 0.92,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -10982,13 +10997,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.48,
-          "average_adr": 86.1
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1.29,
+          "average_adr": 81.2
         },
         {
           "team_name": "6666",
@@ -11018,11 +11033,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.33,
-        "average_adr": 81.4,
-        "recent_rating": 1.49,
-        "rating_delta": 0.32
+        "series": 7,
+        "average_rating": 1.28,
+        "average_adr": 80,
+        "recent_rating": 1.29,
+        "rating_delta": 0
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -13443,6 +13458,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 78.5,
           "rating": 1.69,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "mellren",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 36,
+          "deaths": 46,
+          "kd_ratio": 0.78,
+          "adr": 68.6,
+          "kast": 63.3,
+          "rating": 0.86,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -13450,13 +13480,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.44,
-          "average_adr": 95.2
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1.25,
+          "average_adr": 86.3
         },
         {
           "team_name": "6666",
@@ -13486,11 +13516,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.22,
-        "average_adr": 84.9,
-        "recent_rating": 1.32,
-        "rating_delta": 0.2
+        "series": 7,
+        "average_rating": 1.17,
+        "average_adr": 82.6,
+        "recent_rating": 1.25,
+        "rating_delta": 0.28
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -20835,6 +20865,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 70.8,
           "rating": 0.95,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "mellren",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 39,
+          "deaths": 43,
+          "kd_ratio": 0.91,
+          "adr": 80.6,
+          "kast": 73.3,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -20842,13 +20887,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.21,
-          "average_adr": 72.8
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1.15,
+          "average_adr": 75.4
         },
         {
           "team_name": "6666",
@@ -20878,11 +20923,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.28,
-        "average_adr": 77.5,
-        "recent_rating": 1.14,
-        "rating_delta": -0.27
+        "series": 7,
+        "average_rating": 1.24,
+        "average_adr": 78,
+        "recent_rating": 1.15,
+        "rating_delta": -0.11
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -31230,6 +31275,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 70.8,
           "rating": 0.64,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "mellren",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 40,
+          "deaths": 51,
+          "kd_ratio": 0.78,
+          "adr": 68.5,
+          "kast": 66.7,
+          "rating": 0.93,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -31237,13 +31297,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 0.89,
-          "average_adr": 59.7
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 0.9,
+          "average_adr": 62.6
         },
         {
           "team_name": "6666",
@@ -31273,11 +31333,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.02,
-        "average_adr": 70.7,
-        "recent_rating": 0.97,
-        "rating_delta": -0.11
+        "series": 7,
+        "average_rating": 1.01,
+        "average_adr": 70.4,
+        "recent_rating": 0.9,
+        "rating_delta": -0.1
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -41644,6 +41704,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 80,
           "rating": 1.37,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "mellren",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 32,
+          "deaths": 45,
+          "kd_ratio": 0.71,
+          "adr": 61.6,
+          "kast": 66.7,
+          "rating": 0.78,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -41651,13 +41726,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-15",
-          "series": 2,
+          "through_date": "2026-10-16",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.23,
-          "average_adr": 78.9
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1.08,
+          "average_adr": 73.2
         },
         {
           "team_name": "6666",
@@ -41687,11 +41762,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 0.99,
-        "average_adr": 70.8,
-        "recent_rating": 1.15,
-        "rating_delta": 0.32
+        "series": 7,
+        "average_rating": 0.96,
+        "average_adr": 69.5,
+        "recent_rating": 1.08,
+        "rating_delta": 0.27
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -60259,7 +60334,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       }
     }
   ],
-  "lineups_updated_at_utc": "2026-10-16T23:38:00Z",
+  "lineups_updated_at_utc": "2026-10-17T04:32:35Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-16",
   "history_profile_count": 53,
