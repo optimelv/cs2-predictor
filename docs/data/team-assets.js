@@ -2175,5 +2175,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "DrzhWn",
     "logo_url": "https://liquipedia.net/commons/images/thumb/b/bc/DerzhaWin.png/79px-DerzhaWin.png",
     "source": "Liquipedia"
+  },
+  "4z": {
+    "name": "4z",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/d8/4z_lightmode.png/100px-4z_lightmode.png",
+    "source": "Liquipedia"
   }
 };
