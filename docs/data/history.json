@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3973,
+    "matches": 3978,
     "maps": 2867,
     "lineup_rows": 9412,
     "source_match_ids": 976
@@ -210,6 +210,116 @@
           "m2"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:4274118773d7f59fae6c",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T08:00:00Z",
+      "event_name": "Stake Pulse Beat III - Playoffs",
+      "team1_name": "HEROIC",
+      "team2_name": "NIP",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "NIP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:457e6bd797d12a477d7d",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Round 3",
+      "team1_name": "lavked",
+      "team2_name": "Sökerorg",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "lavked",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_3"
+    },
+    {
+      "match_id": "liquipedia:1710e9630a42147f4f00",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T11:25:00Z",
+      "event_name": "Stake Pulse Beat III - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "MIBR",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MIBR",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:3226d82ee544af5dd045",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 2",
+      "team1_name": "FORZE.Rld",
+      "team2_name": "Phoenix",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phoenix",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_2"
+    },
+    {
+      "match_id": "liquipedia:42f3d373ef65615d8bc2",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T14:00:00Z",
+      "event_name": "Stake Pulse Beat III - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "HEROIC",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "HEROIC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Playoffs"
     },
     {
       "match_id": "hltv:2399670",
