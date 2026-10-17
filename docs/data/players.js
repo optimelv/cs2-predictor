@@ -60825,7 +60825,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       }
     }
   ],
-  "lineups_updated_at_utc": "2026-10-17T17:12:50Z",
+  "lineups_updated_at_utc": "2026-10-17T19:27:55Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-17",
   "history_profile_count": 53,

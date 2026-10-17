@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-17T17:12:50Z",
+  "generated_at_utc": "2026-10-17T19:27:55Z",
   "through_date": "2026-10-17",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3978,
+    "matches": 3979,
     "maps": 2867,
-    "lineup_rows": 9412,
+    "lineup_rows": 9422,
     "source_match_ids": 976
   },
   "matches": [
@@ -320,6 +320,40 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Playoffs"
+    },
+    {
+      "match_id": "hltv:2399313",
+      "match_date": "2026-10-17",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Walczaki",
+      "team2_name": "The Last Resort",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "The Last Resort",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [
+          "sNx",
+          "SaMey",
+          "olimp",
+          "bajmi",
+          "reiko"
+        ],
+        "team2": [
+          "Extinct",
+          "arTisT",
+          "Girafffe",
+          "Vacancy",
+          "bevve"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399670",

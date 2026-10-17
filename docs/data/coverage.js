@@ -11932,7 +11932,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Lavked"
     },
     {
-      "detail_fetched_at_utc": "2026-10-17T16:59:21Z",
+      "detail_fetched_at_utc": "2026-10-17T19:22:32Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -12271,7 +12271,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "FURIA"
     },
     {
-      "detail_fetched_at_utc": "2026-10-17T17:12:12Z",
+      "detail_fetched_at_utc": "2026-10-17T19:27:04Z",
       "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "event_url": "https://www.hltv.org/events/archive",
@@ -12355,15 +12355,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "map_results": [
         {
           "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 13,
+          "score2": 5,
+          "status": "finished"
         },
         {
           "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 14,
+          "score2": 16,
+          "status": "finished"
         },
         {
           "map_name": "Mirage",
@@ -12378,6 +12378,128 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Mirage"
       ],
       "match_id": "hltv:2399415",
+      "player_stats": [
+        {
+          "adr": 80.7,
+          "deaths": 30,
+          "hltv_player_id": "19230",
+          "kast": 68.8,
+          "kills": 40,
+          "nickname": "m0NESY",
+          "player_id": "hltv:19230",
+          "rating": 1.26,
+          "source_url": "https://www.hltv.org/player/19230/m0nesy",
+          "team_side": 1
+        },
+        {
+          "adr": 66.2,
+          "deaths": 32,
+          "hltv_player_id": "429",
+          "kast": 64.6,
+          "kills": 34,
+          "nickname": "karrigan",
+          "player_id": "hltv:429",
+          "rating": 1.05,
+          "source_url": "https://www.hltv.org/player/429/karrigan",
+          "team_side": 1
+        },
+        {
+          "adr": 73.8,
+          "deaths": 36,
+          "hltv_player_id": "3741",
+          "kast": 68.8,
+          "kills": 31,
+          "nickname": "NiKo",
+          "player_id": "hltv:3741",
+          "rating": 1.02,
+          "source_url": "https://www.hltv.org/player/3741/niko",
+          "team_side": 1
+        },
+        {
+          "adr": 70.3,
+          "deaths": 33,
+          "hltv_player_id": "24177",
+          "kast": 60.4,
+          "kills": 30,
+          "nickname": "kyousuke",
+          "player_id": "hltv:24177",
+          "rating": 0.92,
+          "source_url": "https://www.hltv.org/player/24177/kyousuke",
+          "team_side": 1
+        },
+        {
+          "adr": 63,
+          "deaths": 32,
+          "hltv_player_id": "12018",
+          "kast": 64.6,
+          "kills": 23,
+          "nickname": "TeSeS",
+          "player_id": "hltv:12018",
+          "rating": 0.87,
+          "source_url": "https://www.hltv.org/player/12018/teses",
+          "team_side": 1
+        },
+        {
+          "adr": 80,
+          "deaths": 34,
+          "hltv_player_id": "21667",
+          "kast": 68.8,
+          "kills": 36,
+          "nickname": "Magnojez",
+          "player_id": "hltv:21667",
+          "rating": 1.13,
+          "source_url": "https://www.hltv.org/player/21667/magnojez",
+          "team_side": 2
+        },
+        {
+          "adr": 82.2,
+          "deaths": 34,
+          "hltv_player_id": "20357",
+          "kast": 66.7,
+          "kills": 35,
+          "nickname": "d1Ledez",
+          "player_id": "hltv:20357",
+          "rating": 1.12,
+          "source_url": "https://www.hltv.org/player/20357/d1ledez",
+          "team_side": 2
+        },
+        {
+          "adr": 72.7,
+          "deaths": 29,
+          "hltv_player_id": "18506",
+          "kast": 75,
+          "kills": 33,
+          "nickname": "S1ren",
+          "player_id": "hltv:18506",
+          "rating": 1.11,
+          "source_url": "https://www.hltv.org/player/18506/s1ren",
+          "team_side": 2
+        },
+        {
+          "adr": 77.2,
+          "deaths": 29,
+          "hltv_player_id": "15662",
+          "kast": 75,
+          "kills": 34,
+          "nickname": "zorte",
+          "player_id": "hltv:15662",
+          "rating": 1.07,
+          "source_url": "https://www.hltv.org/player/15662/zorte",
+          "team_side": 2
+        },
+        {
+          "adr": 64.8,
+          "deaths": 32,
+          "hltv_player_id": "11840",
+          "kast": 68.8,
+          "kills": 23,
+          "nickname": "Boombl4",
+          "player_id": "hltv:11840",
+          "rating": 0.86,
+          "source_url": "https://www.hltv.org/player/11840/boombl4",
+          "team_side": 2
+        }
+      ],
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399415/falcons-vs-betboom-thunderpick-world-championship-2026",
@@ -12387,6 +12509,102 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team1_name": "Falcons",
       "team2_name": "BETBOOM",
       "veto_text": "Best of 3 (LAN)\n\n* Semi-final"
+    },
+    {
+      "detail_fetched_at_utc": "2026-10-17T19:13:04Z",
+      "event_id": "hltv:cct-2026-europe-series-11",
+      "event_name": "CCT 2026 Europe Series 11",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2399313",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "21265",
+            "nickname": "sNx",
+            "player_id": "hltv:21265",
+            "source_url": "https://www.hltv.org/player/21265/snx",
+            "team_name": "Walczaki"
+          },
+          {
+            "hltv_player_id": "20245",
+            "nickname": "SaMey",
+            "player_id": "hltv:20245",
+            "source_url": "https://www.hltv.org/player/20245/samey",
+            "team_name": "Walczaki"
+          },
+          {
+            "hltv_player_id": "21263",
+            "nickname": "olimp",
+            "player_id": "hltv:21263",
+            "source_url": "https://www.hltv.org/player/21263/olimp",
+            "team_name": "Walczaki"
+          },
+          {
+            "hltv_player_id": "20958",
+            "nickname": "bajmi",
+            "player_id": "hltv:20958",
+            "source_url": "https://www.hltv.org/player/20958/bajmi",
+            "team_name": "Walczaki"
+          },
+          {
+            "hltv_player_id": "15203",
+            "nickname": "reiko",
+            "player_id": "hltv:15203",
+            "source_url": "https://www.hltv.org/player/15203/reiko",
+            "team_name": "Walczaki"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "20339",
+            "nickname": "Extinct",
+            "player_id": "hltv:20339",
+            "source_url": "https://www.hltv.org/player/20339/extinct",
+            "team_name": "The Last Resort"
+          },
+          {
+            "hltv_player_id": "20336",
+            "nickname": "arTisT",
+            "player_id": "hltv:20336",
+            "source_url": "https://www.hltv.org/player/20336/artist",
+            "team_name": "The Last Resort"
+          },
+          {
+            "hltv_player_id": "20340",
+            "nickname": "Girafffe",
+            "player_id": "hltv:20340",
+            "source_url": "https://www.hltv.org/player/20340/girafffe",
+            "team_name": "The Last Resort"
+          },
+          {
+            "hltv_player_id": "22192",
+            "nickname": "Vacancy",
+            "player_id": "hltv:22192",
+            "source_url": "https://www.hltv.org/player/22192/vacancy",
+            "team_name": "The Last Resort"
+          },
+          {
+            "hltv_player_id": "20908",
+            "nickname": "bevve",
+            "player_id": "hltv:20908",
+            "source_url": "https://www.hltv.org/player/20908/bevve",
+            "team_name": "The Last Resort"
+          }
+        ]
+      },
+      "match_id": "hltv:2399313",
+      "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399313/walczaki-vs-the-last-resort-cct-2026-europe-series-11",
+      "stage_name": "Completed series",
+      "starts_at": "2026-10-17T17:16:21Z",
+      "status": "finished",
+      "team1_name": "Walczaki",
+      "team2_name": "The Last Resort",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated.\n\n** Walczaki forfeit the match.",
+      "winner_name": "The Last Resort"
     },
     {
       "event_id": "hltv:9442",
@@ -30984,7 +31202,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "FURIA"
         },
         {
-          "detail_fetched_at_utc": "2026-10-17T17:12:12Z",
+          "detail_fetched_at_utc": "2026-10-17T19:27:04Z",
           "event_id": "hltv:thunderpick-world-championship-2026",
           "event_name": "Thunderpick World Championship 2026",
           "event_url": "https://www.hltv.org/events/archive",
@@ -31068,15 +31286,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "map_results": [
             {
               "map_name": "Anubis",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 13,
+              "score2": 5,
+              "status": "finished"
             },
             {
               "map_name": "Dust2",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 14,
+              "score2": 16,
+              "status": "finished"
             },
             {
               "map_name": "Mirage",
@@ -31091,6 +31309,128 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             "Mirage"
           ],
           "match_id": "hltv:2399415",
+          "player_stats": [
+            {
+              "adr": 80.7,
+              "deaths": 30,
+              "hltv_player_id": "19230",
+              "kast": 68.8,
+              "kills": 40,
+              "nickname": "m0NESY",
+              "player_id": "hltv:19230",
+              "rating": 1.26,
+              "source_url": "https://www.hltv.org/player/19230/m0nesy",
+              "team_side": 1
+            },
+            {
+              "adr": 66.2,
+              "deaths": 32,
+              "hltv_player_id": "429",
+              "kast": 64.6,
+              "kills": 34,
+              "nickname": "karrigan",
+              "player_id": "hltv:429",
+              "rating": 1.05,
+              "source_url": "https://www.hltv.org/player/429/karrigan",
+              "team_side": 1
+            },
+            {
+              "adr": 73.8,
+              "deaths": 36,
+              "hltv_player_id": "3741",
+              "kast": 68.8,
+              "kills": 31,
+              "nickname": "NiKo",
+              "player_id": "hltv:3741",
+              "rating": 1.02,
+              "source_url": "https://www.hltv.org/player/3741/niko",
+              "team_side": 1
+            },
+            {
+              "adr": 70.3,
+              "deaths": 33,
+              "hltv_player_id": "24177",
+              "kast": 60.4,
+              "kills": 30,
+              "nickname": "kyousuke",
+              "player_id": "hltv:24177",
+              "rating": 0.92,
+              "source_url": "https://www.hltv.org/player/24177/kyousuke",
+              "team_side": 1
+            },
+            {
+              "adr": 63,
+              "deaths": 32,
+              "hltv_player_id": "12018",
+              "kast": 64.6,
+              "kills": 23,
+              "nickname": "TeSeS",
+              "player_id": "hltv:12018",
+              "rating": 0.87,
+              "source_url": "https://www.hltv.org/player/12018/teses",
+              "team_side": 1
+            },
+            {
+              "adr": 80,
+              "deaths": 34,
+              "hltv_player_id": "21667",
+              "kast": 68.8,
+              "kills": 36,
+              "nickname": "Magnojez",
+              "player_id": "hltv:21667",
+              "rating": 1.13,
+              "source_url": "https://www.hltv.org/player/21667/magnojez",
+              "team_side": 2
+            },
+            {
+              "adr": 82.2,
+              "deaths": 34,
+              "hltv_player_id": "20357",
+              "kast": 66.7,
+              "kills": 35,
+              "nickname": "d1Ledez",
+              "player_id": "hltv:20357",
+              "rating": 1.12,
+              "source_url": "https://www.hltv.org/player/20357/d1ledez",
+              "team_side": 2
+            },
+            {
+              "adr": 72.7,
+              "deaths": 29,
+              "hltv_player_id": "18506",
+              "kast": 75,
+              "kills": 33,
+              "nickname": "S1ren",
+              "player_id": "hltv:18506",
+              "rating": 1.11,
+              "source_url": "https://www.hltv.org/player/18506/s1ren",
+              "team_side": 2
+            },
+            {
+              "adr": 77.2,
+              "deaths": 29,
+              "hltv_player_id": "15662",
+              "kast": 75,
+              "kills": 34,
+              "nickname": "zorte",
+              "player_id": "hltv:15662",
+              "rating": 1.07,
+              "source_url": "https://www.hltv.org/player/15662/zorte",
+              "team_side": 2
+            },
+            {
+              "adr": 64.8,
+              "deaths": 32,
+              "hltv_player_id": "11840",
+              "kast": 68.8,
+              "kills": 23,
+              "nickname": "Boombl4",
+              "player_id": "hltv:11840",
+              "rating": 0.86,
+              "source_url": "https://www.hltv.org/player/11840/boombl4",
+              "team_side": 2
+            }
+          ],
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399415/falcons-vs-betboom-thunderpick-world-championship-2026",
@@ -37015,7 +37355,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Lavked"
         },
         {
-          "detail_fetched_at_utc": "2026-10-17T16:59:21Z",
+          "detail_fetched_at_utc": "2026-10-17T19:22:32Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -37137,6 +37477,102 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "status": "upcoming",
           "team1_name": "FORZE Reload",
           "team2_name": "BAKS"
+        },
+        {
+          "detail_fetched_at_utc": "2026-10-17T19:13:04Z",
+          "event_id": "hltv:cct-2026-europe-series-11",
+          "event_name": "CCT 2026 Europe Series 11",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2399313",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "21265",
+                "nickname": "sNx",
+                "player_id": "hltv:21265",
+                "source_url": "https://www.hltv.org/player/21265/snx",
+                "team_name": "Walczaki"
+              },
+              {
+                "hltv_player_id": "20245",
+                "nickname": "SaMey",
+                "player_id": "hltv:20245",
+                "source_url": "https://www.hltv.org/player/20245/samey",
+                "team_name": "Walczaki"
+              },
+              {
+                "hltv_player_id": "21263",
+                "nickname": "olimp",
+                "player_id": "hltv:21263",
+                "source_url": "https://www.hltv.org/player/21263/olimp",
+                "team_name": "Walczaki"
+              },
+              {
+                "hltv_player_id": "20958",
+                "nickname": "bajmi",
+                "player_id": "hltv:20958",
+                "source_url": "https://www.hltv.org/player/20958/bajmi",
+                "team_name": "Walczaki"
+              },
+              {
+                "hltv_player_id": "15203",
+                "nickname": "reiko",
+                "player_id": "hltv:15203",
+                "source_url": "https://www.hltv.org/player/15203/reiko",
+                "team_name": "Walczaki"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "20339",
+                "nickname": "Extinct",
+                "player_id": "hltv:20339",
+                "source_url": "https://www.hltv.org/player/20339/extinct",
+                "team_name": "The Last Resort"
+              },
+              {
+                "hltv_player_id": "20336",
+                "nickname": "arTisT",
+                "player_id": "hltv:20336",
+                "source_url": "https://www.hltv.org/player/20336/artist",
+                "team_name": "The Last Resort"
+              },
+              {
+                "hltv_player_id": "20340",
+                "nickname": "Girafffe",
+                "player_id": "hltv:20340",
+                "source_url": "https://www.hltv.org/player/20340/girafffe",
+                "team_name": "The Last Resort"
+              },
+              {
+                "hltv_player_id": "22192",
+                "nickname": "Vacancy",
+                "player_id": "hltv:22192",
+                "source_url": "https://www.hltv.org/player/22192/vacancy",
+                "team_name": "The Last Resort"
+              },
+              {
+                "hltv_player_id": "20908",
+                "nickname": "bevve",
+                "player_id": "hltv:20908",
+                "source_url": "https://www.hltv.org/player/20908/bevve",
+                "team_name": "The Last Resort"
+              }
+            ]
+          },
+          "match_id": "hltv:2399313",
+          "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 1,
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399313/walczaki-vs-the-last-resort-cct-2026-europe-series-11",
+          "stage_name": "Completed series",
+          "starts_at": "2026-10-17T17:16:21Z",
+          "status": "finished",
+          "team1_name": "Walczaki",
+          "team2_name": "The Last Resort",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated.\n\n** Walczaki forfeit the match.",
+          "winner_name": "The Last Resort"
         }
       ],
       "name": "CCT 2026 Europe Series 11",
@@ -37165,7 +37601,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 17
     }
   ],
-  "last_verified_utc": "2026-10-17T17:12:50Z",
+  "last_verified_utc": "2026-10-17T19:27:55Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -37190,7 +37626,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-17T17:15:50Z",
+    "checked_at_utc": "2026-10-17T19:29:57Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
