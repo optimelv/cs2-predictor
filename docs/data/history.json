@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-17T04:32:35Z",
+  "generated_at_utc": "2026-10-17T13:42:41Z",
   "through_date": "2026-10-17",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3969,
-    "maps": 2863,
-    "lineup_rows": 9382,
+    "matches": 3971,
+    "maps": 2867,
+    "lineup_rows": 9402,
     "source_match_ids": 976
   },
   "matches": [
@@ -56,6 +56,104 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Playoffs"
+    },
+    {
+      "match_id": "hltv:2399310",
+      "match_date": "2026-10-17",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "G2 Ares",
+      "team2_name": "ex-6666",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-6666",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Inferno",
+          "score1": 11,
+          "score2": 13,
+          "winner_name": "ex-6666",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 2,
+          "score2": 13,
+          "winner_name": "ex-6666",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "TMKj",
+          "SHiNE",
+          "hitori",
+          "Junyme",
+          "yksjupe"
+        ],
+        "team2": [
+          "skcH",
+          "kL1o",
+          "amster",
+          "rendysky",
+          "stefienson"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399311",
+      "match_date": "2026-10-17",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Lavked",
+      "team2_name": "LFO 10",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Lavked",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 11,
+          "winner_name": "Lavked",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 5,
+          "score2": 7,
+          "winner_name": "LFO 10",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "1NVISIBLEE",
+          "azukay",
+          "xm1nd",
+          "jakekeS",
+          "k4nfuz"
+        ],
+        "team2": [
+          "dottie",
+          "flaw",
+          "Sapec",
+          "redzy",
+          "Mann3n"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399670",
