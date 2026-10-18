@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3983,
+    "matches": 3984,
     "maps": 2872,
     "lineup_rows": 9442,
     "source_match_ids": 976
@@ -420,6 +420,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:7684b4a1b55fa06b355d",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T17:20:00Z",
+      "event_name": "Stake Pulse Beat III - Playoffs",
+      "team1_name": "MIBR",
+      "team2_name": "NIP",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "NIP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Pulse/Beat_III#Playoffs"
     },
     {
       "match_id": "hltv:2399670",
