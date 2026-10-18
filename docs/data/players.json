@@ -3242,12 +3242,12 @@
           "opponent_name": "Privateer",
           "team_name": "mellren",
           "won": true,
-          "kills": 31,
-          "deaths": 24,
-          "kd_ratio": 1.29,
-          "adr": 82.7,
-          "kast": 81.6,
-          "rating": 1.23,
+          "kills": 52,
+          "deaths": 36,
+          "kd_ratio": 1.44,
+          "adr": 93.6,
+          "kast": 84.2,
+          "rating": 1.36,
           "maps": 3
         },
         {
@@ -3264,6 +3264,21 @@
           "kast": 73.3,
           "rating": 1.21,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399476",
+          "date": "2026-10-17",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "antidaun",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 44,
+          "deaths": 19,
+          "kd_ratio": 2.32,
+          "adr": 129.6,
+          "kast": 89.2,
+          "rating": 1.89,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -3271,13 +3286,13 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-16",
-          "series": 6,
-          "wins": 4,
+          "through_date": "2026-10-17",
+          "series": 7,
+          "wins": 5,
           "losses": 2,
-          "win_rate": 0.667,
-          "average_rating": 1.14,
-          "average_adr": 84.5
+          "win_rate": 0.714,
+          "average_rating": 1.26,
+          "average_adr": 92.5
         }
       ],
       "timeline_entry": {
@@ -3296,11 +3311,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.14,
-        "average_adr": 84.5,
-        "recent_rating": 1.23,
-        "rating_delta": 0.19
+        "series": 7,
+        "average_rating": 1.26,
+        "average_adr": 92.5,
+        "recent_rating": 1.49,
+        "rating_delta": 0.42
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -5520,6 +5535,21 @@
           "kast": 59,
           "rating": 0.91,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 31,
+          "deaths": 20,
+          "kd_ratio": 1.55,
+          "adr": 68,
+          "kast": 82.1,
+          "rating": 1.29,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -5527,36 +5557,36 @@
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 5,
-          "wins": 3,
+          "through_date": "2026-10-18",
+          "series": 6,
+          "wins": 4,
           "losses": 2,
-          "win_rate": 0.6,
-          "average_rating": 1.11,
-          "average_adr": 72.7
+          "win_rate": 0.667,
+          "average_rating": 1.14,
+          "average_adr": 71.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399307",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399315",
+        "date": "2026-10-18",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Saint Sinners",
+        "opponent_name": "Illyrians",
         "team_name": "ex-RUSTEC",
         "won": true,
-        "kills": 43,
-        "deaths": 29,
-        "kd_ratio": 1.48,
-        "adr": 73.1,
-        "kast": 83.1,
-        "rating": 1.35,
+        "kills": 31,
+        "deaths": 20,
+        "kd_ratio": 1.55,
+        "adr": 68,
+        "kast": 82.1,
+        "rating": 1.29,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.11,
-        "average_adr": 72.7,
-        "recent_rating": 1.15,
-        "rating_delta": 0.1
+        "series": 6,
+        "average_rating": 1.14,
+        "average_adr": 71.9,
+        "recent_rating": 1.13,
+        "rating_delta": -0.02
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -7513,6 +7543,21 @@
           "kast": 67.8,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 37,
+          "deaths": 22,
+          "kd_ratio": 1.68,
+          "adr": 116,
+          "kast": 82.1,
+          "rating": 1.49,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -7520,36 +7565,36 @@
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 3,
-          "wins": 2,
+          "through_date": "2026-10-18",
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 0.94,
-          "average_adr": 73
+          "win_rate": 0.75,
+          "average_rating": 1.08,
+          "average_adr": 83.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399307",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399315",
+        "date": "2026-10-18",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Saint Sinners",
+        "opponent_name": "Illyrians",
         "team_name": "ex-RUSTEC",
         "won": true,
-        "kills": 40,
-        "deaths": 38,
-        "kd_ratio": 1.05,
-        "adr": 77.1,
-        "kast": 67.8,
-        "rating": 1.12,
+        "kills": 37,
+        "deaths": 22,
+        "kd_ratio": 1.68,
+        "adr": 116,
+        "kast": 82.1,
+        "rating": 1.49,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.94,
-        "average_adr": 73,
-        "recent_rating": 0.94,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.08,
+        "average_adr": 83.8,
+        "recent_rating": 1.1,
+        "rating_delta": 0.09
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -12297,12 +12342,12 @@
           "opponent_name": "Privateer",
           "team_name": "mellren",
           "won": true,
-          "kills": 29,
-          "deaths": 25,
-          "kd_ratio": 1.16,
-          "adr": 87.3,
-          "kast": 73.7,
-          "rating": 1.15,
+          "kills": 50,
+          "deaths": 33,
+          "kd_ratio": 1.52,
+          "adr": 94.3,
+          "kast": 78.9,
+          "rating": 1.5,
           "maps": 3
         },
         {
@@ -12319,6 +12364,21 @@
           "kast": 78.3,
           "rating": 1.33,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399476",
+          "date": "2026-10-17",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "antidaun",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 23,
+          "deaths": 21,
+          "kd_ratio": 1.1,
+          "adr": 59.3,
+          "kast": 78.4,
+          "rating": 1.01,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -12326,13 +12386,13 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-16",
-          "series": 6,
-          "wins": 4,
+          "through_date": "2026-10-17",
+          "series": 7,
+          "wins": 5,
           "losses": 2,
-          "win_rate": 0.667,
-          "average_rating": 1.02,
-          "average_adr": 73.1
+          "win_rate": 0.714,
+          "average_rating": 1.07,
+          "average_adr": 72.2
         }
       ],
       "timeline_entry": {
@@ -12351,11 +12411,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.02,
-        "average_adr": 73.1,
-        "recent_rating": 1.15,
-        "rating_delta": 0.27
+        "series": 7,
+        "average_rating": 1.07,
+        "average_adr": 72.2,
+        "recent_rating": 1.28,
+        "rating_delta": 0.37
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -12457,6 +12517,21 @@
           "kast": 65.6,
           "rating": 0.95,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 34,
+          "deaths": 18,
+          "kd_ratio": 1.89,
+          "adr": 81.5,
+          "kast": 79.5,
+          "rating": 1.51,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -12464,36 +12539,36 @@
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 5,
-          "wins": 3,
+          "through_date": "2026-10-18",
+          "series": 6,
+          "wins": 4,
           "losses": 2,
-          "win_rate": 0.6,
-          "average_rating": 1.21,
-          "average_adr": 78.5
+          "win_rate": 0.667,
+          "average_rating": 1.26,
+          "average_adr": 79
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399307",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399315",
+        "date": "2026-10-18",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Saint Sinners",
+        "opponent_name": "Illyrians",
         "team_name": "ex-RUSTEC",
         "won": true,
-        "kills": 57,
-        "deaths": 33,
-        "kd_ratio": 1.73,
-        "adr": 98.1,
-        "kast": 83.1,
-        "rating": 1.56,
+        "kills": 34,
+        "deaths": 18,
+        "kd_ratio": 1.89,
+        "adr": 81.5,
+        "kast": 79.5,
+        "rating": 1.51,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.21,
-        "average_adr": 78.5,
-        "recent_rating": 1.17,
-        "rating_delta": -0.09
+        "series": 6,
+        "average_rating": 1.26,
+        "average_adr": 79,
+        "recent_rating": 1.16,
+        "rating_delta": -0.2
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -16377,6 +16452,21 @@
           "kast": 65.6,
           "rating": 0.66,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 31,
+          "deaths": 21,
+          "kd_ratio": 1.48,
+          "adr": 79.8,
+          "kast": 87.2,
+          "rating": 1.37,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -16384,36 +16474,36 @@
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 5,
-          "wins": 3,
+          "through_date": "2026-10-18",
+          "series": 6,
+          "wins": 4,
           "losses": 2,
-          "win_rate": 0.6,
-          "average_rating": 1.11,
-          "average_adr": 74.4
+          "win_rate": 0.667,
+          "average_rating": 1.15,
+          "average_adr": 75.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399307",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399315",
+        "date": "2026-10-18",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Saint Sinners",
+        "opponent_name": "Illyrians",
         "team_name": "ex-RUSTEC",
         "won": true,
-        "kills": 47,
-        "deaths": 33,
-        "kd_ratio": 1.42,
-        "adr": 91.6,
-        "kast": 81.4,
-        "rating": 1.29,
+        "kills": 31,
+        "deaths": 21,
+        "kd_ratio": 1.48,
+        "adr": 79.8,
+        "kast": 87.2,
+        "rating": 1.37,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.11,
-        "average_adr": 74.4,
-        "recent_rating": 1.1,
-        "rating_delta": -0.01
+        "series": 6,
+        "average_rating": 1.15,
+        "average_adr": 75.3,
+        "recent_rating": 1.13,
+        "rating_delta": -0.04
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -16528,12 +16618,12 @@
           "opponent_name": "LFO 10",
           "team_name": "Lavked",
           "won": true,
-          "kills": 18,
-          "deaths": 15,
-          "kd_ratio": 1.2,
-          "adr": 82.2,
-          "kast": 83.3,
-          "rating": 1.34,
+          "kills": 36,
+          "deaths": 28,
+          "kd_ratio": 1.29,
+          "adr": 75.4,
+          "kast": 80.4,
+          "rating": 1.26,
           "maps": 3
         }
       ],
@@ -16547,16 +16637,16 @@
           "wins": 2,
           "losses": 2,
           "win_rate": 0.5,
-          "average_rating": 1.1,
-          "average_adr": 74.9
+          "average_rating": 1.08,
+          "average_adr": 73.2
         }
       ],
       "form_summary": {
         "series": 4,
-        "average_rating": 1.1,
-        "average_adr": 74.9,
-        "recent_rating": 1.08,
-        "rating_delta": -0.08
+        "average_rating": 1.08,
+        "average_adr": 73.2,
+        "recent_rating": 1.06,
+        "rating_delta": -0.1
       },
       "timeline_entry": {
         "match_id": "hltv:2399311",
@@ -16565,12 +16655,12 @@
         "opponent_name": "LFO 10",
         "team_name": "Lavked",
         "won": true,
-        "kills": 18,
-        "deaths": 15,
-        "kd_ratio": 1.2,
-        "adr": 82.2,
-        "kast": 83.3,
-        "rating": 1.34,
+        "kills": 36,
+        "deaths": 28,
+        "kd_ratio": 1.29,
+        "adr": 75.4,
+        "kast": 80.4,
+        "rating": 1.26,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -20407,12 +20497,12 @@
           "opponent_name": "Privateer",
           "team_name": "mellren",
           "won": true,
-          "kills": 33,
-          "deaths": 24,
-          "kd_ratio": 1.38,
-          "adr": 85.9,
-          "kast": 78.9,
-          "rating": 1.4,
+          "kills": 47,
+          "deaths": 32,
+          "kd_ratio": 1.47,
+          "adr": 81.4,
+          "kast": 82.5,
+          "rating": 1.42,
           "maps": 3
         },
         {
@@ -20429,6 +20519,21 @@
           "kast": 76.7,
           "rating": 1.25,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399476",
+          "date": "2026-10-17",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "antidaun",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 30,
+          "deaths": 18,
+          "kd_ratio": 1.67,
+          "adr": 71.1,
+          "kast": 83.8,
+          "rating": 1.44,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -20436,13 +20541,13 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-16",
-          "series": 6,
-          "wins": 4,
+          "through_date": "2026-10-17",
+          "series": 7,
+          "wins": 5,
           "losses": 2,
-          "win_rate": 0.667,
-          "average_rating": 0.96,
-          "average_adr": 63.5
+          "win_rate": 0.714,
+          "average_rating": 1.03,
+          "average_adr": 64
         }
       ],
       "timeline_entry": {
@@ -20461,11 +20566,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 0.96,
-        "average_adr": 63.5,
-        "recent_rating": 1.17,
-        "rating_delta": 0.43
+        "series": 7,
+        "average_rating": 1.03,
+        "average_adr": 64,
+        "recent_rating": 1.37,
+        "rating_delta": 0.49
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -22171,12 +22276,12 @@
           "opponent_name": "Privateer",
           "team_name": "mellren",
           "won": true,
-          "kills": 25,
-          "deaths": 20,
-          "kd_ratio": 1.25,
-          "adr": 75.7,
+          "kills": 41,
+          "deaths": 31,
+          "kd_ratio": 1.32,
+          "adr": 81.7,
           "kast": 78.9,
-          "rating": 1.14,
+          "rating": 1.25,
           "maps": 3
         },
         {
@@ -22193,6 +22298,21 @@
           "kast": 78.3,
           "rating": 1.14,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399476",
+          "date": "2026-10-17",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "antidaun",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 24,
+          "deaths": 16,
+          "kd_ratio": 1.5,
+          "adr": 73.7,
+          "kast": 89.2,
+          "rating": 1.32,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -22200,13 +22320,13 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-16",
-          "series": 6,
-          "wins": 4,
+          "through_date": "2026-10-17",
+          "series": 7,
+          "wins": 5,
           "losses": 2,
-          "win_rate": 0.667,
-          "average_rating": 1.11,
-          "average_adr": 76
+          "win_rate": 0.714,
+          "average_rating": 1.16,
+          "average_adr": 76.5
         }
       ],
       "timeline_entry": {
@@ -22225,11 +22345,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.11,
-        "average_adr": 76,
-        "recent_rating": 1.14,
-        "rating_delta": 0.06
+        "series": 7,
+        "average_rating": 1.16,
+        "average_adr": 76.5,
+        "recent_rating": 1.24,
+        "rating_delta": 0.16
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -24561,12 +24681,12 @@
           "opponent_name": "LFO 10",
           "team_name": "Lavked",
           "won": true,
-          "kills": 17,
-          "deaths": 18,
+          "kills": 33,
+          "deaths": 35,
           "kd_ratio": 0.94,
-          "adr": 65.4,
-          "kast": 66.7,
-          "rating": 0.82,
+          "adr": 72.6,
+          "kast": 69.6,
+          "rating": 0.89,
           "maps": 3
         }
       ],
@@ -24580,8 +24700,8 @@
           "wins": 2,
           "losses": 1,
           "win_rate": 0.667,
-          "average_rating": 0.98,
-          "average_adr": 73.3
+          "average_rating": 1,
+          "average_adr": 75.7
         }
       ],
       "timeline_entry": {
@@ -24591,19 +24711,19 @@
         "opponent_name": "LFO 10",
         "team_name": "Lavked",
         "won": true,
-        "kills": 17,
-        "deaths": 18,
+        "kills": 33,
+        "deaths": 35,
         "kd_ratio": 0.94,
-        "adr": 65.4,
-        "kast": 66.7,
-        "rating": 0.82,
+        "adr": 72.6,
+        "kast": 69.6,
+        "rating": 0.89,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 0.98,
-        "average_adr": 73.3,
-        "recent_rating": 0.98,
+        "average_rating": 1,
+        "average_adr": 75.7,
+        "recent_rating": 1,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -33215,12 +33335,12 @@
           "opponent_name": "Privateer",
           "team_name": "mellren",
           "won": true,
-          "kills": 29,
-          "deaths": 17,
-          "kd_ratio": 1.71,
-          "adr": 72.3,
-          "kast": 81.6,
-          "rating": 1.21,
+          "kills": 33,
+          "deaths": 29,
+          "kd_ratio": 1.14,
+          "adr": 55.6,
+          "kast": 77.2,
+          "rating": 0.92,
           "maps": 3
         },
         {
@@ -33237,6 +33357,21 @@
           "kast": 71.7,
           "rating": 1.15,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399476",
+          "date": "2026-10-17",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "antidaun",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 25,
+          "deaths": 25,
+          "kd_ratio": 1,
+          "adr": 74.4,
+          "kast": 78.4,
+          "rating": 1.13,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -33244,13 +33379,13 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-16",
-          "series": 6,
-          "wins": 4,
+          "through_date": "2026-10-17",
+          "series": 7,
+          "wins": 5,
           "losses": 2,
-          "win_rate": 0.667,
-          "average_rating": 1,
-          "average_adr": 67
+          "win_rate": 0.714,
+          "average_rating": 0.98,
+          "average_adr": 65.6
         }
       ],
       "timeline_entry": {
@@ -33269,11 +33404,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1,
-        "average_adr": 67,
-        "recent_rating": 1.09,
-        "rating_delta": 0.17
+        "series": 7,
+        "average_rating": 0.98,
+        "average_adr": 65.6,
+        "recent_rating": 1.07,
+        "rating_delta": 0.16
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -34588,12 +34723,12 @@
           "opponent_name": "Lavked",
           "team_name": "LFO 10",
           "won": false,
-          "kills": 19,
-          "deaths": 17,
+          "kills": 37,
+          "deaths": 33,
           "kd_ratio": 1.12,
-          "adr": 72.2,
-          "kast": 66.7,
-          "rating": 1.24,
+          "adr": 76.5,
+          "kast": 69.6,
+          "rating": 1.25,
           "maps": 3
         }
       ],
@@ -34607,8 +34742,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.16,
-          "average_adr": 76.7
+          "average_rating": 1.17,
+          "average_adr": 78.8
         }
       ],
       "timeline_entry": {
@@ -34618,19 +34753,19 @@
         "opponent_name": "Lavked",
         "team_name": "LFO 10",
         "won": false,
-        "kills": 19,
-        "deaths": 17,
+        "kills": 37,
+        "deaths": 33,
         "kd_ratio": 1.12,
-        "adr": 72.2,
-        "kast": 66.7,
-        "rating": 1.24,
+        "adr": 76.5,
+        "kast": 69.6,
+        "rating": 1.25,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 1.16,
-        "average_adr": 76.7,
-        "recent_rating": 1.16,
+        "average_rating": 1.17,
+        "average_adr": 78.8,
+        "recent_rating": 1.17,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -35988,12 +36123,12 @@
           "opponent_name": "LFO 10",
           "team_name": "Lavked",
           "won": true,
-          "kills": 16,
-          "deaths": 13,
-          "kd_ratio": 1.23,
-          "adr": 70.5,
-          "kast": 79.2,
-          "rating": 1.13,
+          "kills": 25,
+          "deaths": 25,
+          "kd_ratio": 1,
+          "adr": 61.5,
+          "kast": 71.7,
+          "rating": 1.02,
           "maps": 3
         }
       ],
@@ -36007,16 +36142,16 @@
           "wins": 2,
           "losses": 2,
           "win_rate": 0.5,
-          "average_rating": 0.9,
-          "average_adr": 62.7
+          "average_rating": 0.87,
+          "average_adr": 60.5
         }
       ],
       "form_summary": {
         "series": 4,
-        "average_rating": 0.9,
-        "average_adr": 62.7,
-        "recent_rating": 0.96,
-        "rating_delta": 0.24
+        "average_rating": 0.87,
+        "average_adr": 60.5,
+        "recent_rating": 0.92,
+        "rating_delta": 0.2
       },
       "timeline_entry": {
         "match_id": "hltv:2399311",
@@ -36025,12 +36160,12 @@
         "opponent_name": "LFO 10",
         "team_name": "Lavked",
         "won": true,
-        "kills": 16,
-        "deaths": 13,
-        "kd_ratio": 1.23,
-        "adr": 70.5,
-        "kast": 79.2,
-        "rating": 1.13,
+        "kills": 25,
+        "deaths": 25,
+        "kd_ratio": 1,
+        "adr": 61.5,
+        "kast": 71.7,
+        "rating": 1.02,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -42771,6 +42906,21 @@
           "kast": 70.5,
           "rating": 1.04,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "ex-RUSTEC",
+          "won": true,
+          "kills": 21,
+          "deaths": 26,
+          "kd_ratio": 0.81,
+          "adr": 67.1,
+          "kast": 76.9,
+          "rating": 0.99,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -42778,36 +42928,36 @@
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 5,
-          "wins": 3,
+          "through_date": "2026-10-18",
+          "series": 6,
+          "wins": 4,
           "losses": 2,
-          "win_rate": 0.6,
-          "average_rating": 0.94,
-          "average_adr": 68.4
+          "win_rate": 0.667,
+          "average_rating": 0.95,
+          "average_adr": 68.2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399307",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399315",
+        "date": "2026-10-18",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Saint Sinners",
+        "opponent_name": "Illyrians",
         "team_name": "ex-RUSTEC",
         "won": true,
-        "kills": 40,
-        "deaths": 42,
-        "kd_ratio": 0.95,
-        "adr": 69.6,
-        "kast": 78,
-        "rating": 1.03,
+        "kills": 21,
+        "deaths": 26,
+        "kd_ratio": 0.81,
+        "adr": 67.1,
+        "kast": 76.9,
+        "rating": 0.99,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.94,
-        "average_adr": 68.4,
-        "recent_rating": 0.97,
-        "rating_delta": 0.07
+        "series": 6,
+        "average_rating": 0.95,
+        "average_adr": 68.2,
+        "recent_rating": 0.96,
+        "rating_delta": 0.02
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -49956,12 +50106,12 @@
           "opponent_name": "Lavked",
           "team_name": "LFO 10",
           "won": false,
-          "kills": 13,
-          "deaths": 16,
-          "kd_ratio": 0.81,
-          "adr": 78.8,
-          "kast": 70.8,
-          "rating": 1.12,
+          "kills": 20,
+          "deaths": 30,
+          "kd_ratio": 0.67,
+          "adr": 58.5,
+          "kast": 69.6,
+          "rating": 0.88,
           "maps": 3
         }
       ],
@@ -49975,8 +50125,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.85,
-          "average_adr": 70
+          "average_rating": 0.73,
+          "average_adr": 59.9
         }
       ],
       "timeline_entry": {
@@ -49986,19 +50136,19 @@
         "opponent_name": "Lavked",
         "team_name": "LFO 10",
         "won": false,
-        "kills": 13,
-        "deaths": 16,
-        "kd_ratio": 0.81,
-        "adr": 78.8,
-        "kast": 70.8,
-        "rating": 1.12,
+        "kills": 20,
+        "deaths": 30,
+        "kd_ratio": 0.67,
+        "adr": 58.5,
+        "kast": 69.6,
+        "rating": 0.88,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.85,
-        "average_adr": 70,
-        "recent_rating": 0.85,
+        "average_rating": 0.73,
+        "average_adr": 59.9,
+        "recent_rating": 0.73,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -50041,12 +50191,12 @@
           "opponent_name": "Lavked",
           "team_name": "LFO 10",
           "won": false,
-          "kills": 22,
-          "deaths": 19,
-          "kd_ratio": 1.16,
-          "adr": 98.1,
-          "kast": 70.8,
-          "rating": 1.38,
+          "kills": 39,
+          "deaths": 34,
+          "kd_ratio": 1.15,
+          "adr": 94.2,
+          "kast": 71.7,
+          "rating": 1.32,
           "maps": 3
         }
       ],
@@ -50060,8 +50210,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.98,
-          "average_adr": 73.4
+          "average_rating": 0.95,
+          "average_adr": 71.5
         }
       ],
       "timeline_entry": {
@@ -50071,19 +50221,19 @@
         "opponent_name": "Lavked",
         "team_name": "LFO 10",
         "won": false,
-        "kills": 22,
-        "deaths": 19,
-        "kd_ratio": 1.16,
-        "adr": 98.1,
-        "kast": 70.8,
-        "rating": 1.38,
+        "kills": 39,
+        "deaths": 34,
+        "kd_ratio": 1.15,
+        "adr": 94.2,
+        "kast": 71.7,
+        "rating": 1.32,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.98,
-        "average_adr": 73.4,
-        "recent_rating": 0.98,
+        "average_rating": 0.95,
+        "average_adr": 71.5,
+        "recent_rating": 0.95,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -50111,12 +50261,12 @@
           "opponent_name": "Lavked",
           "team_name": "LFO 10",
           "won": false,
-          "kills": 9,
-          "deaths": 16,
-          "kd_ratio": 0.56,
-          "adr": 44.5,
-          "kast": 58.3,
-          "rating": 0.63,
+          "kills": 23,
+          "deaths": 31,
+          "kd_ratio": 0.74,
+          "adr": 61.8,
+          "kast": 65.2,
+          "rating": 0.79,
           "maps": 3
         }
       ],
@@ -50130,8 +50280,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.63,
-          "average_adr": 44.5
+          "average_rating": 0.79,
+          "average_adr": 61.8
         }
       ],
       "timeline_entry": {
@@ -50141,19 +50291,19 @@
         "opponent_name": "Lavked",
         "team_name": "LFO 10",
         "won": false,
-        "kills": 9,
-        "deaths": 16,
-        "kd_ratio": 0.56,
-        "adr": 44.5,
-        "kast": 58.3,
-        "rating": 0.63,
+        "kills": 23,
+        "deaths": 31,
+        "kd_ratio": 0.74,
+        "adr": 61.8,
+        "kast": 65.2,
+        "rating": 0.79,
         "maps": 3
       },
       "form_summary": {
         "series": 1,
-        "average_rating": 0.63,
-        "average_adr": 44.5,
-        "recent_rating": 0.63,
+        "average_rating": 0.79,
+        "average_adr": 61.8,
+        "recent_rating": 0.79,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -55079,12 +55229,12 @@
           "opponent_name": "LFO 10",
           "team_name": "Lavked",
           "won": true,
-          "kills": 19,
-          "deaths": 14,
-          "kd_ratio": 1.36,
-          "adr": 91.5,
-          "kast": 75,
-          "rating": 1.4,
+          "kills": 35,
+          "deaths": 27,
+          "kd_ratio": 1.3,
+          "adr": 89.2,
+          "kast": 78.3,
+          "rating": 1.32,
           "maps": 3
         }
       ],
@@ -55098,16 +55248,16 @@
           "wins": 2,
           "losses": 2,
           "win_rate": 0.5,
-          "average_rating": 1.08,
-          "average_adr": 76.7
+          "average_rating": 1.06,
+          "average_adr": 76.2
         }
       ],
       "form_summary": {
         "series": 4,
-        "average_rating": 1.08,
-        "average_adr": 76.7,
-        "recent_rating": 1.21,
-        "rating_delta": 0.49
+        "average_rating": 1.06,
+        "average_adr": 76.2,
+        "recent_rating": 1.18,
+        "rating_delta": 0.46
       },
       "timeline_entry": {
         "match_id": "hltv:2399311",
@@ -55116,12 +55266,12 @@
         "opponent_name": "LFO 10",
         "team_name": "Lavked",
         "won": true,
-        "kills": 19,
-        "deaths": 14,
-        "kd_ratio": 1.36,
-        "adr": 91.5,
-        "kast": 75,
-        "rating": 1.4,
+        "kills": 35,
+        "deaths": 27,
+        "kd_ratio": 1.3,
+        "adr": 89.2,
+        "kast": 78.3,
+        "rating": 1.32,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -55194,12 +55344,12 @@
           "opponent_name": "LFO 10",
           "team_name": "Lavked",
           "won": true,
-          "kills": 17,
-          "deaths": 14,
-          "kd_ratio": 1.21,
-          "adr": 78,
-          "kast": 83.3,
-          "rating": 1.21,
+          "kills": 36,
+          "deaths": 26,
+          "kd_ratio": 1.38,
+          "adr": 79.3,
+          "kast": 82.6,
+          "rating": 1.36,
           "maps": 3
         }
       ],
@@ -55213,16 +55363,16 @@
           "wins": 2,
           "losses": 2,
           "win_rate": 0.5,
-          "average_rating": 1.12,
-          "average_adr": 72.7
+          "average_rating": 1.16,
+          "average_adr": 73
         }
       ],
       "form_summary": {
         "series": 4,
-        "average_rating": 1.12,
-        "average_adr": 72.7,
-        "recent_rating": 1.11,
-        "rating_delta": -0.04
+        "average_rating": 1.16,
+        "average_adr": 73,
+        "recent_rating": 1.16,
+        "rating_delta": 0.01
       },
       "timeline_entry": {
         "match_id": "hltv:2399311",
@@ -55231,12 +55381,12 @@
         "opponent_name": "LFO 10",
         "team_name": "Lavked",
         "won": true,
-        "kills": 17,
-        "deaths": 14,
-        "kd_ratio": 1.21,
-        "adr": 78,
-        "kast": 83.3,
-        "rating": 1.21,
+        "kills": 36,
+        "deaths": 26,
+        "kd_ratio": 1.38,
+        "adr": 79.3,
+        "kast": 82.6,
+        "rating": 1.36,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -57233,12 +57383,12 @@
           "opponent_name": "Lavked",
           "team_name": "LFO 10",
           "won": false,
-          "kills": 11,
-          "deaths": 20,
-          "kd_ratio": 0.55,
-          "adr": 68.8,
-          "kast": 58.3,
-          "rating": 0.81,
+          "kills": 22,
+          "deaths": 38,
+          "kd_ratio": 0.58,
+          "adr": 70.7,
+          "kast": 60.9,
+          "rating": 0.76,
           "maps": 3
         }
       ],
@@ -57252,8 +57402,8 @@
           "wins": 0,
           "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.88,
-          "average_adr": 67.3
+          "average_rating": 0.85,
+          "average_adr": 68.2
         }
       ],
       "timeline_entry": {
@@ -57263,19 +57413,19 @@
         "opponent_name": "Lavked",
         "team_name": "LFO 10",
         "won": false,
-        "kills": 11,
-        "deaths": 20,
-        "kd_ratio": 0.55,
-        "adr": 68.8,
-        "kast": 58.3,
-        "rating": 0.81,
+        "kills": 22,
+        "deaths": 38,
+        "kd_ratio": 0.58,
+        "adr": 70.7,
+        "kast": 60.9,
+        "rating": 0.76,
         "maps": 3
       },
       "form_summary": {
         "series": 2,
-        "average_rating": 0.88,
-        "average_adr": 67.3,
-        "recent_rating": 0.88,
+        "average_rating": 0.85,
+        "average_adr": 68.2,
+        "recent_rating": 0.85,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -57366,7 +57516,7 @@
     },
     {
       "player_id": "hltv:23300",
-      "nickname": "rosoneriii",
+      "nickname": "Substitute",
       "team_name": "Illyrians",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -57449,42 +57599,57 @@
           "kast": 64,
           "rating": 1.17,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 19,
+          "deaths": 31,
+          "kd_ratio": 0.61,
+          "adr": 53.9,
+          "kast": 59,
+          "rating": 0.66,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399306",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399315",
+        "date": "2026-10-18",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "ex-RUSTEC",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 51,
-        "deaths": 45,
-        "kd_ratio": 1.13,
-        "adr": 70.2,
-        "kast": 77.5,
-        "rating": 1.21,
+        "won": false,
+        "kills": 19,
+        "deaths": 31,
+        "kd_ratio": 0.61,
+        "adr": 53.9,
+        "kast": 59,
+        "rating": 0.66,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.91,
-        "average_adr": 67.4,
-        "recent_rating": 1.01,
-        "rating_delta": 0.24
+        "series": 6,
+        "average_rating": 0.87,
+        "average_adr": 65.2,
+        "recent_rating": 0.82,
+        "rating_delta": -0.09
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-17",
-          "series": 5,
+          "through_date": "2026-10-18",
+          "series": 6,
           "wins": 4,
-          "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 0.91,
-          "average_adr": 67.4
+          "losses": 2,
+          "win_rate": 0.667,
+          "average_rating": 0.87,
+          "average_adr": 65.2
         }
       ],
       "kd_ratio_3m": null,
@@ -57579,42 +57744,57 @@
           "kast": 82,
           "rating": 1.38,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 32,
+          "deaths": 27,
+          "kd_ratio": 1.19,
+          "adr": 86.2,
+          "kast": 61.5,
+          "rating": 1.09,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399306",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399315",
+        "date": "2026-10-18",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "ex-RUSTEC",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 41,
-        "deaths": 45,
-        "kd_ratio": 0.91,
-        "adr": 63,
-        "kast": 63.4,
-        "rating": 0.93,
+        "won": false,
+        "kills": 32,
+        "deaths": 27,
+        "kd_ratio": 1.19,
+        "adr": 86.2,
+        "kast": 61.5,
+        "rating": 1.09,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.18,
-        "average_adr": 73.6,
-        "recent_rating": 0.94,
-        "rating_delta": -0.58
+        "series": 6,
+        "average_rating": 1.16,
+        "average_adr": 75.7,
+        "recent_rating": 1,
+        "rating_delta": -0.33
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-17",
-          "series": 5,
+          "through_date": "2026-10-18",
+          "series": 6,
           "wins": 4,
-          "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.18,
-          "average_adr": 73.6
+          "losses": 2,
+          "win_rate": 0.667,
+          "average_rating": 1.16,
+          "average_adr": 75.7
         }
       ],
       "kd_ratio_3m": null,
@@ -57709,42 +57889,57 @@
           "kast": 76,
           "rating": 1.28,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 23,
+          "deaths": 31,
+          "kd_ratio": 0.74,
+          "adr": 69.1,
+          "kast": 56.4,
+          "rating": 0.89,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399306",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399315",
+        "date": "2026-10-18",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "ex-RUSTEC",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 59,
-        "deaths": 51,
-        "kd_ratio": 1.16,
-        "adr": 87.4,
-        "kast": 70.4,
-        "rating": 1.29,
+        "won": false,
+        "kills": 23,
+        "deaths": 31,
+        "kd_ratio": 0.74,
+        "adr": 69.1,
+        "kast": 56.4,
+        "rating": 0.89,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.1,
-        "average_adr": 74.9,
-        "recent_rating": 1.14,
-        "rating_delta": 0.1
+        "series": 6,
+        "average_rating": 1.07,
+        "average_adr": 74,
+        "recent_rating": 1.01,
+        "rating_delta": -0.12
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-17",
-          "series": 5,
+          "through_date": "2026-10-18",
+          "series": 6,
           "wins": 4,
-          "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.1,
-          "average_adr": 74.9
+          "losses": 2,
+          "win_rate": 0.667,
+          "average_rating": 1.07,
+          "average_adr": 74
         }
       ],
       "kd_ratio_3m": null,
@@ -57839,42 +58034,57 @@
           "kast": 72,
           "rating": 1.14,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 19,
+          "deaths": 32,
+          "kd_ratio": 0.59,
+          "adr": 69.1,
+          "kast": 64.1,
+          "rating": 0.79,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399306",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399315",
+        "date": "2026-10-18",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "ex-RUSTEC",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 45,
-        "deaths": 56,
-        "kd_ratio": 0.8,
-        "adr": 86.3,
-        "kast": 74.6,
-        "rating": 0.98,
+        "won": false,
+        "kills": 19,
+        "deaths": 32,
+        "kd_ratio": 0.59,
+        "adr": 69.1,
+        "kast": 64.1,
+        "rating": 0.79,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.99,
-        "average_adr": 73.5,
-        "recent_rating": 0.9,
-        "rating_delta": -0.23
+        "series": 6,
+        "average_rating": 0.96,
+        "average_adr": 72.8,
+        "recent_rating": 0.83,
+        "rating_delta": -0.25
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-17",
-          "series": 5,
+          "through_date": "2026-10-18",
+          "series": 6,
           "wins": 4,
-          "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 0.99,
-          "average_adr": 73.5
+          "losses": 2,
+          "win_rate": 0.667,
+          "average_rating": 0.96,
+          "average_adr": 72.8
         }
       ],
       "kd_ratio_3m": null,
@@ -58453,6 +58663,21 @@
           "kast": 57.8,
           "rating": 0.72,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399786",
+          "date": "2026-10-18",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Fire Flux",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 8,
+          "deaths": 11,
+          "kd_ratio": 0.73,
+          "adr": 73.4,
+          "kast": 64.3,
+          "rating": 0.82,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -58471,24 +58696,24 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.99,
-        "average_adr": 68.4,
-        "recent_rating": 1.02,
-        "rating_delta": 0.13
+        "series": 5,
+        "average_rating": 0.95,
+        "average_adr": 69.4,
+        "recent_rating": 0.87,
+        "rating_delta": -0.22
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-17",
-          "series": 4,
+          "through_date": "2026-10-18",
+          "series": 5,
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "win_rate": 0,
-          "average_rating": 0.99,
-          "average_adr": 68.4
+          "average_rating": 0.95,
+          "average_adr": 69.4
         }
       ],
       "kd_ratio_3m": null,
@@ -58568,6 +58793,21 @@
           "kast": 55.6,
           "rating": 0.88,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399786",
+          "date": "2026-10-18",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Fire Flux",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 8,
+          "deaths": 14,
+          "kd_ratio": 0.57,
+          "adr": 51.6,
+          "kast": 64.3,
+          "rating": 0.7,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -58586,24 +58826,24 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.92,
-        "average_adr": 70.9,
-        "recent_rating": 0.86,
-        "rating_delta": -0.24
+        "series": 5,
+        "average_rating": 0.88,
+        "average_adr": 67,
+        "recent_rating": 0.78,
+        "rating_delta": -0.25
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-17",
-          "series": 4,
+          "through_date": "2026-10-18",
+          "series": 5,
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "win_rate": 0,
-          "average_rating": 0.92,
-          "average_adr": 70.9
+          "average_rating": 0.88,
+          "average_adr": 67
         }
       ],
       "kd_ratio_3m": null,
@@ -58683,6 +58923,21 @@
           "kast": 62.2,
           "rating": 0.73,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399786",
+          "date": "2026-10-18",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Fire Flux",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 5,
+          "deaths": 14,
+          "kd_ratio": 0.36,
+          "adr": 46.6,
+          "kast": 50,
+          "rating": 0.48,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -58701,24 +58956,24 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1,
-        "average_adr": 70.5,
-        "recent_rating": 0.94,
-        "rating_delta": -0.25
+        "series": 5,
+        "average_rating": 0.9,
+        "average_adr": 65.7,
+        "recent_rating": 0.76,
+        "rating_delta": -0.35
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-17",
-          "series": 4,
+          "through_date": "2026-10-18",
+          "series": 5,
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "win_rate": 0,
-          "average_rating": 1,
-          "average_adr": 70.5
+          "average_rating": 0.9,
+          "average_adr": 65.7
         }
       ],
       "kd_ratio_3m": null,
@@ -58798,6 +59053,21 @@
           "kast": 68.9,
           "rating": 0.85,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399786",
+          "date": "2026-10-18",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Fire Flux",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 6,
+          "deaths": 13,
+          "kd_ratio": 0.46,
+          "adr": 44.6,
+          "kast": 50,
+          "rating": 0.6,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -58816,24 +59086,24 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.81,
-        "average_adr": 59.6,
-        "recent_rating": 0.76,
-        "rating_delta": -0.18
+        "series": 5,
+        "average_rating": 0.77,
+        "average_adr": 56.6,
+        "recent_rating": 0.66,
+        "rating_delta": -0.27
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-17",
-          "series": 4,
+          "through_date": "2026-10-18",
+          "series": 5,
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "win_rate": 0,
-          "average_rating": 0.81,
-          "average_adr": 59.6
+          "average_rating": 0.77,
+          "average_adr": 56.6
         }
       ],
       "kd_ratio_3m": null,
@@ -61189,7 +61459,7 @@
     },
     {
       "player_id": "hltv:19761",
-      "nickname": "Dementor",
+      "nickname": "Substitute",
       "team_name": "Illyrians",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -61242,42 +61512,57 @@
           "kast": 74,
           "rating": 0.96,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 14,
+          "deaths": 33,
+          "kd_ratio": 0.42,
+          "adr": 51.9,
+          "kast": 53.8,
+          "rating": 0.67,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399306",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399315",
+        "date": "2026-10-18",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "ex-RUSTEC",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 52,
-        "deaths": 45,
-        "kd_ratio": 1.16,
-        "adr": 75.7,
-        "kast": 66.2,
-        "rating": 1.09,
+        "won": false,
+        "kills": 14,
+        "deaths": 33,
+        "kd_ratio": 0.42,
+        "adr": 51.9,
+        "kast": 53.8,
+        "rating": 0.67,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.11,
-        "average_adr": 74.4,
-        "recent_rating": 1.11,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1,
+        "average_adr": 68.8,
+        "recent_rating": 0.97,
+        "rating_delta": -0.12
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-16",
-          "through_date": "2026-10-17",
-          "series": 3,
+          "through_date": "2026-10-18",
+          "series": 4,
           "wins": 2,
-          "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.11,
-          "average_adr": 74.4
+          "losses": 2,
+          "win_rate": 0.5,
+          "average_rating": 1,
+          "average_adr": 68.8
         }
       ],
       "kd_ratio_3m": null,
@@ -61608,7 +61893,7 @@
       }
     }
   ],
-  "lineups_updated_at_utc": "2026-10-18T11:14:20Z",
+  "lineups_updated_at_utc": "2026-10-18T14:36:24Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-18",
   "history_profile_count": 53,

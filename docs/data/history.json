@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-18T11:14:20Z",
+  "generated_at_utc": "2026-10-18T14:36:24Z",
   "through_date": "2026-10-18",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3990,
-    "maps": 2875,
-    "lineup_rows": 9452,
+    "matches": 3991,
+    "maps": 2877,
+    "lineup_rows": 9462,
     "source_match_ids": 976
   },
   "matches": [
@@ -136,6 +136,55 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_3"
     },
     {
+      "match_id": "hltv:2399315",
+      "match_date": "2026-10-18",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Illyrians",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "ex-RUSTEC",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 7,
+          "winner_name": "ex-RUSTEC",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "shalfey",
+          "youka",
+          "bl1x1",
+          "yiksrezo",
+          "Brilliance"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "BledarD",
+          "ammar",
+          "cerber"
+        ]
+      }
+    },
+    {
       "match_id": "liquipedia:4a147ac46648f44ebc77",
       "match_date": "2026-10-17",
       "starts_at": "2026-10-17T00:00:00Z",
@@ -254,25 +303,25 @@
         },
         {
           "map_name": "Dust2",
-          "score1": 5,
-          "score2": 7,
-          "winner_name": "LFO 10",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "Lavked",
           "picked_by": null
         }
       ],
       "lineups": {
         "team1": [
-          "1NVISIBLEE",
-          "azukay",
           "xm1nd",
-          "jakekeS",
-          "k4nfuz"
+          "azukay",
+          "k4nfuz",
+          "1NVISIBLEE",
+          "jakekeS"
         ],
         "team2": [
-          "dottie",
-          "flaw",
-          "Sapec",
           "redzy",
+          "Sapec",
+          "flaw",
+          "dottie",
           "Mann3n"
         ]
       }
