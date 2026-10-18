@@ -12232,7 +12232,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Lavked"
     },
     {
-      "detail_fetched_at_utc": "2026-10-17T22:18:55Z",
+      "detail_fetched_at_utc": "2026-10-18T00:55:21Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -12814,7 +12814,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "BETBOOM"
     },
     {
-      "detail_fetched_at_utc": "2026-10-17T22:18:45Z",
+      "detail_fetched_at_utc": "2026-10-18T01:07:08Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -38044,7 +38044,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Lavked"
         },
         {
-          "detail_fetched_at_utc": "2026-10-17T22:18:55Z",
+          "detail_fetched_at_utc": "2026-10-18T00:55:21Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -38168,7 +38168,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team2_name": "BAKS"
         },
         {
-          "detail_fetched_at_utc": "2026-10-17T22:18:45Z",
+          "detail_fetched_at_utc": "2026-10-18T01:07:08Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -38290,7 +38290,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 17
     }
   ],
-  "last_verified_utc": "2026-10-17T22:23:00Z",
+  "last_verified_utc": "2026-10-18T01:07:25Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -38315,7 +38315,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-17T22:23:41Z",
+    "checked_at_utc": "2026-10-18T01:07:49Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",

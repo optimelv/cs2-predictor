@@ -1,6 +1,6 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-17T22:23:00Z",
+  "generated_at_utc": "2026-10-18T01:07:25Z",
   "through_date": "2026-10-17",
   "scope": {
     "tiers": [
@@ -332,8 +332,8 @@
       "winner_name": "The Last Resort",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,

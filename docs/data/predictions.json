@@ -12233,7 +12233,7 @@
         "winner_name": "Lavked"
       },
       {
-        "detail_fetched_at_utc": "2026-10-17T22:18:55Z",
+        "detail_fetched_at_utc": "2026-10-18T00:55:21Z",
         "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
         "event_url": "https://www.hltv.org/events/archive",
@@ -12815,7 +12815,7 @@
         "winner_name": "BETBOOM"
       },
       {
-        "detail_fetched_at_utc": "2026-10-17T22:18:45Z",
+        "detail_fetched_at_utc": "2026-10-18T01:07:08Z",
         "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
         "event_url": "https://www.hltv.org/events/archive",
@@ -38045,7 +38045,7 @@
             "winner_name": "Lavked"
           },
           {
-            "detail_fetched_at_utc": "2026-10-17T22:18:55Z",
+            "detail_fetched_at_utc": "2026-10-18T00:55:21Z",
             "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
             "event_url": "https://www.hltv.org/events/archive",
@@ -38169,7 +38169,7 @@
             "team2_name": "BAKS"
           },
           {
-            "detail_fetched_at_utc": "2026-10-17T22:18:45Z",
+            "detail_fetched_at_utc": "2026-10-18T01:07:08Z",
             "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
             "event_url": "https://www.hltv.org/events/archive",
@@ -38291,7 +38291,7 @@
         "teams": 17
       }
     ],
-    "last_verified_utc": "2026-10-17T22:23:00Z",
+    "last_verified_utc": "2026-10-18T01:07:25Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -38316,7 +38316,7 @@
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-17T22:23:41Z",
+      "checked_at_utc": "2026-10-18T01:07:49Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -38700,7 +38700,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-17T22:24:13Z",
+  "generated_at_utc": "2026-10-18T01:08:05Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -40254,7 +40254,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-17T22:24:12Z",
+    "generated_at_utc": "2026-10-18T01:08:05Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -40548,7 +40548,7 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
+      "new_rows": 0,
       "online_rows": 413,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
@@ -51753,7 +51753,7 @@
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 23,
-    "online_results_applied": 2,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

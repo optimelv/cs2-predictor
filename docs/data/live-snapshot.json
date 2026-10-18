@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-10-17T22:23:00Z",
+  "fetched_at_utc": "2026-10-18T01:07:25Z",
   "poll_after_ms": 180000,
   "events": [
     {
@@ -2085,7 +2085,7 @@
               }
             ]
           },
-          "detail_fetched_at_utc": "2026-10-17T22:18:55Z"
+          "detail_fetched_at_utc": "2026-10-18T00:55:21Z"
         },
         {
           "match_id": "hltv:2399313",
@@ -2098,7 +2098,7 @@
           "team1_name": "Walczaki",
           "team2_name": "The Last Resort",
           "starts_at": "2026-10-17T17:16:21Z",
-          "stage_name": "Completed series",
+          "stage_name": "Scheduled series",
           "series_format": "bo3",
           "status": "finished",
           "score1": 0,
@@ -2182,7 +2182,7 @@
               }
             ]
           },
-          "detail_fetched_at_utc": "2026-10-17T22:18:45Z"
+          "detail_fetched_at_utc": "2026-10-18T01:07:08Z"
         }
       ],
       "format": {
@@ -6647,7 +6647,7 @@
           }
         ]
       },
-      "detail_fetched_at_utc": "2026-10-17T22:18:55Z"
+      "detail_fetched_at_utc": "2026-10-18T00:55:21Z"
     },
     {
       "match_id": "hltv:2399313",
@@ -6660,7 +6660,7 @@
       "team1_name": "Walczaki",
       "team2_name": "The Last Resort",
       "starts_at": "2026-10-17T17:16:21Z",
-      "stage_name": "Completed series",
+      "stage_name": "Scheduled series",
       "series_format": "bo3",
       "status": "finished",
       "score1": 0,
@@ -6744,7 +6744,7 @@
           }
         ]
       },
-      "detail_fetched_at_utc": "2026-10-17T22:18:45Z"
+      "detail_fetched_at_utc": "2026-10-18T01:07:08Z"
     },
     {
       "match_id": "hltv:2399315",
@@ -10616,7 +10616,7 @@
     "source": "Valve Regional Standings",
     "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_10_05.md",
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-17T22:23:41Z",
+    "checked_at_utc": "2026-10-18T01:07:49Z",
     "scope": "global",
     "status": "official_snapshot",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
@@ -10987,8 +10987,8 @@
   "source_health": {
     "scheduled_matches": 58,
     "recent_results": 80,
-    "detail_matches": 2,
-    "detail_cache_hits": 79,
+    "detail_matches": 3,
+    "detail_cache_hits": 78,
     "detail_errors": [],
     "browser_fallbacks": 0
   },
