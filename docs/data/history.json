@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3987,
+    "matches": 3990,
     "maps": 2875,
     "lineup_rows": 9452,
     "source_match_ids": 976
@@ -68,6 +68,72 @@
           "iRV1NG"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:b4fc6c5a9746c1b221a0",
+      "match_date": "2026-10-18",
+      "starts_at": "2026-10-18T03:00:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Playoffs",
+      "team1_name": "Chops",
+      "team2_name": "NEXV",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NEXV",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:595332c63f2b961963cb",
+      "match_date": "2026-10-18",
+      "starts_at": "2026-10-18T06:30:00Z",
+      "event_name": "Logitech G Pro Series 2026 - Playoffs",
+      "team1_name": "FLY",
+      "team2_name": "NEXV",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "NEXV",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Logitech_G_Pro_Series/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:d6440bf38b770f8b0a1a",
+      "match_date": "2026-10-18",
+      "starts_at": "2026-10-18T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 3",
+      "team1_name": "Butterfly",
+      "team2_name": "ex-RUSTEC",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_3"
     },
     {
       "match_id": "liquipedia:4a147ac46648f44ebc77",
