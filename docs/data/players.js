@@ -56632,7 +56632,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     {
       "player_id": "hltv:23684",
       "nickname": "relaxxie",
-      "team_name": "FORZE Reload",
+      "team_name": "ex-RUSTEC",
       "rating_3_0": null,
       "maps_3m": 0,
       "signal_index": 50,
@@ -57066,7 +57066,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:23300",
-      "nickname": "Substitute",
+      "nickname": "rosoneriii",
       "team_name": "Illyrians",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -60889,7 +60889,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:19761",
-      "nickname": "Substitute",
+      "nickname": "Dementor",
       "team_name": "Illyrians",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -61308,7 +61308,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       }
     }
   ],
-  "lineups_updated_at_utc": "2026-10-18T01:07:25Z",
+  "lineups_updated_at_utc": "2026-10-18T05:57:21Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-17",
   "history_profile_count": 53,

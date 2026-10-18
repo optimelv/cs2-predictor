@@ -12233,7 +12233,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Lavked"
       },
       {
-        "detail_fetched_at_utc": "2026-10-18T00:55:21Z",
+        "detail_fetched_at_utc": "2026-10-18T05:44:23Z",
         "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
         "event_url": "https://www.hltv.org/events/archive",
@@ -12815,7 +12815,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "BETBOOM"
       },
       {
-        "detail_fetched_at_utc": "2026-10-18T01:07:08Z",
+        "detail_fetched_at_utc": "2026-10-18T05:56:53Z",
         "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
         "event_url": "https://www.hltv.org/events/archive",
@@ -12911,9 +12911,87 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "The Last Resort"
       },
       {
-        "event_id": "hltv:9442",
+        "detail_fetched_at_utc": "2026-10-18T05:52:46Z",
+        "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399315",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "17011",
+              "nickname": "shalfey",
+              "player_id": "hltv:17011",
+              "source_url": "https://www.hltv.org/player/17011/shalfey",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "19297",
+              "nickname": "Brilliance",
+              "player_id": "hltv:19297",
+              "source_url": "https://www.hltv.org/player/19297/brilliance",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "22803",
+              "nickname": "bl1x1",
+              "player_id": "hltv:22803",
+              "source_url": "https://www.hltv.org/player/22803/bl1x1",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "23684",
+              "nickname": "relaxxie",
+              "player_id": "hltv:23684",
+              "source_url": "https://www.hltv.org/player/23684/relaxxie",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "24190",
+              "nickname": "youka",
+              "player_id": "hltv:24190",
+              "source_url": "https://www.hltv.org/player/24190/youka",
+              "team_name": "ex-RUSTEC"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "18119",
+              "nickname": "cerber",
+              "player_id": "hltv:18119",
+              "source_url": "https://www.hltv.org/player/18119/cerber",
+              "team_name": "Illyrians"
+            },
+            {
+              "hltv_player_id": "19761",
+              "nickname": "Dementor",
+              "player_id": "hltv:19761",
+              "source_url": "https://www.hltv.org/player/19761/dementor",
+              "team_name": "Illyrians"
+            },
+            {
+              "hltv_player_id": "20434",
+              "nickname": "BledarD",
+              "player_id": "hltv:20434",
+              "source_url": "https://www.hltv.org/player/20434/bledard",
+              "team_name": "Illyrians"
+            },
+            {
+              "hltv_player_id": "21109",
+              "nickname": "ammar",
+              "player_id": "hltv:21109",
+              "source_url": "https://www.hltv.org/player/21109/ammar",
+              "team_name": "Illyrians"
+            },
+            {
+              "hltv_player_id": "23300",
+              "nickname": "rosoneriii",
+              "player_id": "hltv:23300",
+              "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+              "team_name": "Illyrians"
+            }
+          ]
+        },
         "match_id": "hltv:2399315",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -12922,12 +13000,91 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-10-18T11:00:00Z",
         "status": "upcoming",
         "team1_name": "ex-RUSTEC",
-        "team2_name": "Illyrians"
+        "team2_name": "Illyrians",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 2-0 record). Winner advances to playoffs."
       },
       {
-        "event_id": "hltv:8932",
+        "detail_fetched_at_utc": "2026-10-18T05:48:39Z",
+        "event_id": "hltv:thunderpick-world-championship-2026",
         "event_name": "Thunderpick World Championship 2026",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399416",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "7938",
+              "nickname": "XANTARES",
+              "player_id": "hltv:7938",
+              "source_url": "https://www.hltv.org/player/7938/xantares",
+              "team_name": "Aurora"
+            },
+            {
+              "hltv_player_id": "8574",
+              "nickname": "woxic",
+              "player_id": "hltv:8574",
+              "source_url": "https://www.hltv.org/player/8574/woxic",
+              "team_name": "Aurora"
+            },
+            {
+              "hltv_player_id": "18850",
+              "nickname": "Jimpphat",
+              "player_id": "hltv:18850",
+              "source_url": "https://www.hltv.org/player/18850/jimpphat",
+              "team_name": "Aurora"
+            },
+            {
+              "hltv_player_id": "19677",
+              "nickname": "kyxsan",
+              "player_id": "hltv:19677",
+              "source_url": "https://www.hltv.org/player/19677/kyxsan",
+              "team_name": "Aurora"
+            },
+            {
+              "hltv_player_id": "21243",
+              "nickname": "Wicadia",
+              "player_id": "hltv:21243",
+              "source_url": "https://www.hltv.org/player/21243/wicadia",
+              "team_name": "Aurora"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "429",
+              "nickname": "karrigan",
+              "player_id": "hltv:429",
+              "source_url": "https://www.hltv.org/player/429/karrigan",
+              "team_name": "Falcons"
+            },
+            {
+              "hltv_player_id": "3741",
+              "nickname": "NiKo",
+              "player_id": "hltv:3741",
+              "source_url": "https://www.hltv.org/player/3741/niko",
+              "team_name": "Falcons"
+            },
+            {
+              "hltv_player_id": "12018",
+              "nickname": "TeSeS",
+              "player_id": "hltv:12018",
+              "source_url": "https://www.hltv.org/player/12018/teses",
+              "team_name": "Falcons"
+            },
+            {
+              "hltv_player_id": "19230",
+              "nickname": "m0NESY",
+              "player_id": "hltv:19230",
+              "source_url": "https://www.hltv.org/player/19230/m0nesy",
+              "team_name": "Falcons"
+            },
+            {
+              "hltv_player_id": "24177",
+              "nickname": "kyousuke",
+              "player_id": "hltv:24177",
+              "source_url": "https://www.hltv.org/player/24177/kyousuke",
+              "team_name": "Falcons"
+            }
+          ]
+        },
         "match_id": "hltv:2399416",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -12936,7 +13093,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-10-18T11:30:00Z",
         "status": "upcoming",
         "team1_name": "Aurora",
-        "team2_name": "Falcons"
+        "team2_name": "Falcons",
+        "veto_text": "Best of 3 (LAN)\n\n* 3rd place decider match"
       },
       {
         "event_id": "hltv:8932",
@@ -32104,9 +32262,87 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "BETBOOM"
           },
           {
-            "event_id": "hltv:8932",
+            "detail_fetched_at_utc": "2026-10-18T05:48:39Z",
+            "event_id": "hltv:thunderpick-world-championship-2026",
             "event_name": "Thunderpick World Championship 2026",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399416",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "7938",
+                  "nickname": "XANTARES",
+                  "player_id": "hltv:7938",
+                  "source_url": "https://www.hltv.org/player/7938/xantares",
+                  "team_name": "Aurora"
+                },
+                {
+                  "hltv_player_id": "8574",
+                  "nickname": "woxic",
+                  "player_id": "hltv:8574",
+                  "source_url": "https://www.hltv.org/player/8574/woxic",
+                  "team_name": "Aurora"
+                },
+                {
+                  "hltv_player_id": "18850",
+                  "nickname": "Jimpphat",
+                  "player_id": "hltv:18850",
+                  "source_url": "https://www.hltv.org/player/18850/jimpphat",
+                  "team_name": "Aurora"
+                },
+                {
+                  "hltv_player_id": "19677",
+                  "nickname": "kyxsan",
+                  "player_id": "hltv:19677",
+                  "source_url": "https://www.hltv.org/player/19677/kyxsan",
+                  "team_name": "Aurora"
+                },
+                {
+                  "hltv_player_id": "21243",
+                  "nickname": "Wicadia",
+                  "player_id": "hltv:21243",
+                  "source_url": "https://www.hltv.org/player/21243/wicadia",
+                  "team_name": "Aurora"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "429",
+                  "nickname": "karrigan",
+                  "player_id": "hltv:429",
+                  "source_url": "https://www.hltv.org/player/429/karrigan",
+                  "team_name": "Falcons"
+                },
+                {
+                  "hltv_player_id": "3741",
+                  "nickname": "NiKo",
+                  "player_id": "hltv:3741",
+                  "source_url": "https://www.hltv.org/player/3741/niko",
+                  "team_name": "Falcons"
+                },
+                {
+                  "hltv_player_id": "12018",
+                  "nickname": "TeSeS",
+                  "player_id": "hltv:12018",
+                  "source_url": "https://www.hltv.org/player/12018/teses",
+                  "team_name": "Falcons"
+                },
+                {
+                  "hltv_player_id": "19230",
+                  "nickname": "m0NESY",
+                  "player_id": "hltv:19230",
+                  "source_url": "https://www.hltv.org/player/19230/m0nesy",
+                  "team_name": "Falcons"
+                },
+                {
+                  "hltv_player_id": "24177",
+                  "nickname": "kyousuke",
+                  "player_id": "hltv:24177",
+                  "source_url": "https://www.hltv.org/player/24177/kyousuke",
+                  "team_name": "Falcons"
+                }
+              ]
+            },
             "match_id": "hltv:2399416",
             "product_tier": "tier_2",
             "series_format": "bo3",
@@ -32115,7 +32351,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "starts_at": "2026-10-18T11:30:00Z",
             "status": "upcoming",
             "team1_name": "Aurora",
-            "team2_name": "Falcons"
+            "team2_name": "Falcons",
+            "veto_text": "Best of 3 (LAN)\n\n* 3rd place decider match"
           },
           {
             "event_id": "hltv:8932",
@@ -38045,7 +38282,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Lavked"
           },
           {
-            "detail_fetched_at_utc": "2026-10-18T00:55:21Z",
+            "detail_fetched_at_utc": "2026-10-18T05:44:23Z",
             "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
             "event_url": "https://www.hltv.org/events/archive",
@@ -38141,9 +38378,87 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Bushido Wildcats"
           },
           {
-            "event_id": "hltv:9442",
+            "detail_fetched_at_utc": "2026-10-18T05:52:46Z",
+            "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399315",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "17011",
+                  "nickname": "shalfey",
+                  "player_id": "hltv:17011",
+                  "source_url": "https://www.hltv.org/player/17011/shalfey",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "19297",
+                  "nickname": "Brilliance",
+                  "player_id": "hltv:19297",
+                  "source_url": "https://www.hltv.org/player/19297/brilliance",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "22803",
+                  "nickname": "bl1x1",
+                  "player_id": "hltv:22803",
+                  "source_url": "https://www.hltv.org/player/22803/bl1x1",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "23684",
+                  "nickname": "relaxxie",
+                  "player_id": "hltv:23684",
+                  "source_url": "https://www.hltv.org/player/23684/relaxxie",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "24190",
+                  "nickname": "youka",
+                  "player_id": "hltv:24190",
+                  "source_url": "https://www.hltv.org/player/24190/youka",
+                  "team_name": "ex-RUSTEC"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "18119",
+                  "nickname": "cerber",
+                  "player_id": "hltv:18119",
+                  "source_url": "https://www.hltv.org/player/18119/cerber",
+                  "team_name": "Illyrians"
+                },
+                {
+                  "hltv_player_id": "19761",
+                  "nickname": "Dementor",
+                  "player_id": "hltv:19761",
+                  "source_url": "https://www.hltv.org/player/19761/dementor",
+                  "team_name": "Illyrians"
+                },
+                {
+                  "hltv_player_id": "20434",
+                  "nickname": "BledarD",
+                  "player_id": "hltv:20434",
+                  "source_url": "https://www.hltv.org/player/20434/bledard",
+                  "team_name": "Illyrians"
+                },
+                {
+                  "hltv_player_id": "21109",
+                  "nickname": "ammar",
+                  "player_id": "hltv:21109",
+                  "source_url": "https://www.hltv.org/player/21109/ammar",
+                  "team_name": "Illyrians"
+                },
+                {
+                  "hltv_player_id": "23300",
+                  "nickname": "rosoneriii",
+                  "player_id": "hltv:23300",
+                  "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+                  "team_name": "Illyrians"
+                }
+              ]
+            },
             "match_id": "hltv:2399315",
             "product_tier": "tier_2",
             "series_format": "bo3",
@@ -38152,7 +38467,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "starts_at": "2026-10-18T11:00:00Z",
             "status": "upcoming",
             "team1_name": "ex-RUSTEC",
-            "team2_name": "Illyrians"
+            "team2_name": "Illyrians",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 2-0 record). Winner advances to playoffs."
           },
           {
             "event_id": "hltv:9442",
@@ -38169,7 +38485,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "team2_name": "BAKS"
           },
           {
-            "detail_fetched_at_utc": "2026-10-18T01:07:08Z",
+            "detail_fetched_at_utc": "2026-10-18T05:56:53Z",
             "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
             "event_url": "https://www.hltv.org/events/archive",
@@ -38291,7 +38607,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 17
       }
     ],
-    "last_verified_utc": "2026-10-18T01:07:25Z",
+    "last_verified_utc": "2026-10-18T05:57:21Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -38316,7 +38632,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-18T01:07:49Z",
+      "checked_at_utc": "2026-10-18T05:59:15Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -38700,7 +39016,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-18T01:08:05Z",
+  "generated_at_utc": "2026-10-18T05:59:36Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -40254,7 +40570,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-18T01:08:05Z",
+    "generated_at_utc": "2026-10-18T05:59:36Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -51312,10 +51628,85 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.5196,
-      "event_id": "hltv:9442",
+      "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "17011",
+            "nickname": "shalfey",
+            "player_id": "hltv:17011",
+            "source_url": "https://www.hltv.org/player/17011/shalfey",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "19297",
+            "nickname": "Brilliance",
+            "player_id": "hltv:19297",
+            "source_url": "https://www.hltv.org/player/19297/brilliance",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "22803",
+            "nickname": "bl1x1",
+            "player_id": "hltv:22803",
+            "source_url": "https://www.hltv.org/player/22803/bl1x1",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "23684",
+            "nickname": "relaxxie",
+            "player_id": "hltv:23684",
+            "source_url": "https://www.hltv.org/player/23684/relaxxie",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "24190",
+            "nickname": "youka",
+            "player_id": "hltv:24190",
+            "source_url": "https://www.hltv.org/player/24190/youka",
+            "team_name": "ex-RUSTEC"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "18119",
+            "nickname": "cerber",
+            "player_id": "hltv:18119",
+            "source_url": "https://www.hltv.org/player/18119/cerber",
+            "team_name": "Illyrians"
+          },
+          {
+            "hltv_player_id": "19761",
+            "nickname": "Dementor",
+            "player_id": "hltv:19761",
+            "source_url": "https://www.hltv.org/player/19761/dementor",
+            "team_name": "Illyrians"
+          },
+          {
+            "hltv_player_id": "20434",
+            "nickname": "BledarD",
+            "player_id": "hltv:20434",
+            "source_url": "https://www.hltv.org/player/20434/bledard",
+            "team_name": "Illyrians"
+          },
+          {
+            "hltv_player_id": "21109",
+            "nickname": "ammar",
+            "player_id": "hltv:21109",
+            "source_url": "https://www.hltv.org/player/21109/ammar",
+            "team_name": "Illyrians"
+          },
+          {
+            "hltv_player_id": "23300",
+            "nickname": "rosoneriii",
+            "player_id": "hltv:23300",
+            "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+            "team_name": "Illyrians"
+          }
+        ]
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-18",
@@ -51349,10 +51740,85 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.4085,
-      "event_id": "hltv:8932",
+      "event_id": "hltv:thunderpick-world-championship-2026",
       "event_name": "Thunderpick World Championship 2026",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "7938",
+            "nickname": "XANTARES",
+            "player_id": "hltv:7938",
+            "source_url": "https://www.hltv.org/player/7938/xantares",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "8574",
+            "nickname": "woxic",
+            "player_id": "hltv:8574",
+            "source_url": "https://www.hltv.org/player/8574/woxic",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "18850",
+            "nickname": "Jimpphat",
+            "player_id": "hltv:18850",
+            "source_url": "https://www.hltv.org/player/18850/jimpphat",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "19677",
+            "nickname": "kyxsan",
+            "player_id": "hltv:19677",
+            "source_url": "https://www.hltv.org/player/19677/kyxsan",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "21243",
+            "nickname": "Wicadia",
+            "player_id": "hltv:21243",
+            "source_url": "https://www.hltv.org/player/21243/wicadia",
+            "team_name": "Aurora"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "429",
+            "nickname": "karrigan",
+            "player_id": "hltv:429",
+            "source_url": "https://www.hltv.org/player/429/karrigan",
+            "team_name": "Falcons"
+          },
+          {
+            "hltv_player_id": "3741",
+            "nickname": "NiKo",
+            "player_id": "hltv:3741",
+            "source_url": "https://www.hltv.org/player/3741/niko",
+            "team_name": "Falcons"
+          },
+          {
+            "hltv_player_id": "12018",
+            "nickname": "TeSeS",
+            "player_id": "hltv:12018",
+            "source_url": "https://www.hltv.org/player/12018/teses",
+            "team_name": "Falcons"
+          },
+          {
+            "hltv_player_id": "19230",
+            "nickname": "m0NESY",
+            "player_id": "hltv:19230",
+            "source_url": "https://www.hltv.org/player/19230/m0nesy",
+            "team_name": "Falcons"
+          },
+          {
+            "hltv_player_id": "24177",
+            "nickname": "kyousuke",
+            "player_id": "hltv:24177",
+            "source_url": "https://www.hltv.org/player/24177/kyousuke",
+            "team_name": "Falcons"
+          }
+        ]
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-18",
