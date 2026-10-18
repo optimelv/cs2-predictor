@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3981,
+    "matches": 3983,
     "maps": 2872,
     "lineup_rows": 9442,
     "source_match_ids": 976
@@ -376,6 +376,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_2"
+    },
+    {
+      "match_id": "liquipedia:b01baed315627b49aadd",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T14:00:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Playoffs",
+      "team1_name": "Aurora",
+      "team2_name": "FURIA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:ce3bdd158cd6621709b8",
+      "match_date": "2026-10-17",
+      "starts_at": "2026-10-17T17:00:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Playoffs",
+      "team1_name": "BB",
+      "team2_name": "Falcons",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BB",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Playoffs"
     },
     {
       "match_id": "hltv:2399670",
