@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-18T18:06:16Z",
+  "generated_at_utc": "2026-10-18T20:46:05Z",
   "through_date": "2026-10-18",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3994,
-    "maps": 2880,
-    "lineup_rows": 9472,
+    "matches": 3995,
+    "maps": 2882,
+    "lineup_rows": 9483,
     "source_match_ids": 976
   },
   "matches": [
@@ -281,6 +281,56 @@
           "mdl",
           "shootic",
           "Maksilvl"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399317",
+      "match_date": "2026-10-18",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "FORZE Reload",
+      "team2_name": "BAKS",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FORZE Reload",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "FORZE Reload",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 0,
+          "winner_name": "FORZE Reload",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "YumsaN",
+          "HeCkBNk",
+          "KusMe",
+          "Lack1",
+          "relaxxie",
+          "NickelBack"
+        ],
+        "team2": [
+          "Norwi",
+          "xdENiSZERA",
+          "whisper",
+          "danistzz",
+          "turbo"
         ]
       }
     },
@@ -603,7 +653,7 @@
       "winner_name": "The Last Resort",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
