@@ -2220,5 +2220,10 @@
     "name": "HREDS",
     "logo_url": "https://liquipedia.net/commons/images/thumb/3/30/HREDS_%28Finnish_team%29_lightmode.png/47px-HREDS_%28Finnish_team%29_lightmode.png",
     "source": "Liquipedia"
+  },
+  "aces": {
+    "name": "ACES",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/8/80/Team_ACES_lightmode.png/68px-Team_ACES_lightmode.png",
+    "source": "Liquipedia"
   }
 }
