@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3991,
+    "matches": 3993,
     "maps": 2877,
     "lineup_rows": 9462,
     "source_match_ids": 976
@@ -183,6 +183,50 @@
           "cerber"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:17195cded2802dd69ad3",
+      "match_date": "2026-10-18",
+      "starts_at": "2026-10-18T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Round 3",
+      "team1_name": "ACES",
+      "team2_name": "SSins",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ACES",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_3"
+    },
+    {
+      "match_id": "liquipedia:c8616890513a6aa47492",
+      "match_date": "2026-10-18",
+      "starts_at": "2026-10-18T11:30:00Z",
+      "event_name": "Thunderpick World Champ. '26 - Playoffs",
+      "team1_name": "Aurora",
+      "team2_name": "Falcons",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Aurora",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Playoffs"
     },
     {
       "match_id": "liquipedia:4a147ac46648f44ebc77",
