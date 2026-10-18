@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3995,
+    "matches": 3996,
     "maps": 2882,
     "lineup_rows": 9483,
     "source_match_ids": 976
@@ -333,6 +333,28 @@
           "turbo"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:eb7797f09cc04b95df95",
+      "match_date": "2026-10-18",
+      "starts_at": "2026-10-18T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Round 3",
+      "team1_name": "mellren",
+      "team2_name": "Spirit.A",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Spirit.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_3"
     },
     {
       "match_id": "liquipedia:4a147ac46648f44ebc77",
