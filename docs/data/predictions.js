@@ -12233,7 +12233,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Lavked"
       },
       {
-        "detail_fetched_at_utc": "2026-10-18T20:40:24Z",
+        "detail_fetched_at_utc": "2026-10-18T23:06:49Z",
         "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
         "event_url": "https://www.hltv.org/events/archive",
@@ -12341,35 +12341,110 @@ window.__STRIKESIGNAL_DATA__ = {
               "nickname": "molodoy",
               "player_id": "hltv:24144",
               "source_url": "https://www.hltv.org/player/24144/molodoy",
-              "team_name": "FURIA"
+              "team_name": "FURIA",
+              "timeline_entry": {
+                "adr": 77.1,
+                "date": "2026-10-17",
+                "deaths": 28,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 70.5,
+                "kd_ratio": 1.11,
+                "kills": 31,
+                "maps": 3,
+                "match_id": "hltv:2399414",
+                "opponent_name": "Aurora",
+                "rating": 1.17,
+                "team_name": "FURIA",
+                "won": true
+              }
             },
             {
               "hltv_player_id": "12553",
               "nickname": "yuurih",
               "player_id": "hltv:12553",
               "source_url": "https://www.hltv.org/player/12553/yuurih",
-              "team_name": "FURIA"
+              "team_name": "FURIA",
+              "timeline_entry": {
+                "adr": 58.9,
+                "date": "2026-10-17",
+                "deaths": 25,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 77.3,
+                "kd_ratio": 0.96,
+                "kills": 24,
+                "maps": 3,
+                "match_id": "hltv:2399414",
+                "opponent_name": "Aurora",
+                "rating": 1,
+                "team_name": "FURIA",
+                "won": true
+              }
             },
             {
               "hltv_player_id": "2023",
               "nickname": "FalleN",
               "player_id": "hltv:2023",
               "source_url": "https://www.hltv.org/player/2023/fallen",
-              "team_name": "FURIA"
+              "team_name": "FURIA",
+              "timeline_entry": {
+                "adr": 58.5,
+                "date": "2026-10-17",
+                "deaths": 28,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 65.9,
+                "kd_ratio": 0.96,
+                "kills": 27,
+                "maps": 3,
+                "match_id": "hltv:2399414",
+                "opponent_name": "Aurora",
+                "rating": 0.96,
+                "team_name": "FURIA",
+                "won": true
+              }
             },
             {
               "hltv_player_id": "15631",
               "nickname": "KSCERATO",
               "player_id": "hltv:15631",
               "source_url": "https://www.hltv.org/player/15631/kscerato",
-              "team_name": "FURIA"
+              "team_name": "FURIA",
+              "timeline_entry": {
+                "adr": 91.3,
+                "date": "2026-10-17",
+                "deaths": 22,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 70.5,
+                "kd_ratio": 1.73,
+                "kills": 38,
+                "maps": 3,
+                "match_id": "hltv:2399414",
+                "opponent_name": "Aurora",
+                "rating": 1.67,
+                "team_name": "FURIA",
+                "won": true
+              }
             },
             {
               "hltv_player_id": "13915",
               "nickname": "YEKINDAR",
               "player_id": "hltv:13915",
               "source_url": "https://www.hltv.org/player/13915/yekindar",
-              "team_name": "FURIA"
+              "team_name": "FURIA",
+              "timeline_entry": {
+                "adr": 81.9,
+                "date": "2026-10-17",
+                "deaths": 24,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 84.1,
+                "kd_ratio": 1.25,
+                "kills": 30,
+                "maps": 3,
+                "match_id": "hltv:2399414",
+                "opponent_name": "Aurora",
+                "rating": 1.39,
+                "team_name": "FURIA",
+                "won": true
+              }
             }
           ],
           "team2": [
@@ -12378,35 +12453,110 @@ window.__STRIKESIGNAL_DATA__ = {
               "nickname": "woxic",
               "player_id": "hltv:8574",
               "source_url": "https://www.hltv.org/player/8574/woxic",
-              "team_name": "Aurora"
+              "team_name": "Aurora",
+              "timeline_entry": {
+                "adr": 61.5,
+                "date": "2026-10-17",
+                "deaths": 28,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 70.5,
+                "kd_ratio": 0.89,
+                "kills": 25,
+                "maps": 3,
+                "match_id": "hltv:2399414",
+                "opponent_name": "FURIA",
+                "rating": 0.83,
+                "team_name": "Aurora",
+                "won": false
+              }
             },
             {
               "hltv_player_id": "7938",
               "nickname": "XANTARES",
               "player_id": "hltv:7938",
               "source_url": "https://www.hltv.org/player/7938/xantares",
-              "team_name": "Aurora"
+              "team_name": "Aurora",
+              "timeline_entry": {
+                "adr": 63.5,
+                "date": "2026-10-17",
+                "deaths": 30,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 68.2,
+                "kd_ratio": 0.77,
+                "kills": 23,
+                "maps": 3,
+                "match_id": "hltv:2399414",
+                "opponent_name": "FURIA",
+                "rating": 0.86,
+                "team_name": "Aurora",
+                "won": false
+              }
             },
             {
               "hltv_player_id": "21243",
               "nickname": "Wicadia",
               "player_id": "hltv:21243",
               "source_url": "https://www.hltv.org/player/21243/wicadia",
-              "team_name": "Aurora"
+              "team_name": "Aurora",
+              "timeline_entry": {
+                "adr": 77.6,
+                "date": "2026-10-17",
+                "deaths": 33,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 65.9,
+                "kd_ratio": 0.91,
+                "kills": 30,
+                "maps": 3,
+                "match_id": "hltv:2399414",
+                "opponent_name": "FURIA",
+                "rating": 0.94,
+                "team_name": "Aurora",
+                "won": false
+              }
             },
             {
               "hltv_player_id": "18850",
               "nickname": "Jimpphat",
               "player_id": "hltv:18850",
               "source_url": "https://www.hltv.org/player/18850/jimpphat",
-              "team_name": "Aurora"
+              "team_name": "Aurora",
+              "timeline_entry": {
+                "adr": 68.7,
+                "date": "2026-10-17",
+                "deaths": 29,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 70.5,
+                "kd_ratio": 1,
+                "kills": 29,
+                "maps": 3,
+                "match_id": "hltv:2399414",
+                "opponent_name": "FURIA",
+                "rating": 0.92,
+                "team_name": "Aurora",
+                "won": false
+              }
             },
             {
               "hltv_player_id": "19677",
               "nickname": "kyxsan",
               "player_id": "hltv:19677",
               "source_url": "https://www.hltv.org/player/19677/kyxsan",
-              "team_name": "Aurora"
+              "team_name": "Aurora",
+              "timeline_entry": {
+                "adr": 55.4,
+                "date": "2026-10-17",
+                "deaths": 31,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 59.1,
+                "kd_ratio": 0.61,
+                "kills": 19,
+                "maps": 3,
+                "match_id": "hltv:2399414",
+                "opponent_name": "FURIA",
+                "rating": 0.7,
+                "team_name": "Aurora",
+                "won": false
+              }
             }
           ]
         },
@@ -12564,12 +12714,108 @@ window.__STRIKESIGNAL_DATA__ = {
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399414/furia-vs-aurora-thunderpick-world-championship-2026",
         "stage_name": "Semifinal",
-        "starts_at": "2026-10-17T14:00:00Z",
+        "starts_at": "2026-10-17T15:58:52Z",
         "status": "finished",
         "team1_name": "FURIA",
         "team2_name": "Aurora",
         "veto_text": "Best of 3 (LAN)\n\n* Semi-final",
         "winner_name": "FURIA"
+      },
+      {
+        "detail_fetched_at_utc": "2026-10-18T23:17:26Z",
+        "event_id": "hltv:cct-2026-europe-series-11",
+        "event_name": "CCT 2026 Europe Series 11",
+        "event_url": "https://www.hltv.org/events/archive",
+        "hltv_match_id": "2399313",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "21265",
+              "nickname": "sNx",
+              "player_id": "hltv:21265",
+              "source_url": "https://www.hltv.org/player/21265/snx",
+              "team_name": "Walczaki"
+            },
+            {
+              "hltv_player_id": "20245",
+              "nickname": "SaMey",
+              "player_id": "hltv:20245",
+              "source_url": "https://www.hltv.org/player/20245/samey",
+              "team_name": "Walczaki"
+            },
+            {
+              "hltv_player_id": "21263",
+              "nickname": "olimp",
+              "player_id": "hltv:21263",
+              "source_url": "https://www.hltv.org/player/21263/olimp",
+              "team_name": "Walczaki"
+            },
+            {
+              "hltv_player_id": "20958",
+              "nickname": "bajmi",
+              "player_id": "hltv:20958",
+              "source_url": "https://www.hltv.org/player/20958/bajmi",
+              "team_name": "Walczaki"
+            },
+            {
+              "hltv_player_id": "15203",
+              "nickname": "reiko",
+              "player_id": "hltv:15203",
+              "source_url": "https://www.hltv.org/player/15203/reiko",
+              "team_name": "Walczaki"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "20339",
+              "nickname": "Extinct",
+              "player_id": "hltv:20339",
+              "source_url": "https://www.hltv.org/player/20339/extinct",
+              "team_name": "The Last Resort"
+            },
+            {
+              "hltv_player_id": "20336",
+              "nickname": "arTisT",
+              "player_id": "hltv:20336",
+              "source_url": "https://www.hltv.org/player/20336/artist",
+              "team_name": "The Last Resort"
+            },
+            {
+              "hltv_player_id": "20340",
+              "nickname": "Girafffe",
+              "player_id": "hltv:20340",
+              "source_url": "https://www.hltv.org/player/20340/girafffe",
+              "team_name": "The Last Resort"
+            },
+            {
+              "hltv_player_id": "22192",
+              "nickname": "Vacancy",
+              "player_id": "hltv:22192",
+              "source_url": "https://www.hltv.org/player/22192/vacancy",
+              "team_name": "The Last Resort"
+            },
+            {
+              "hltv_player_id": "20908",
+              "nickname": "bevve",
+              "player_id": "hltv:20908",
+              "source_url": "https://www.hltv.org/player/20908/bevve",
+              "team_name": "The Last Resort"
+            }
+          ]
+        },
+        "match_id": "hltv:2399313",
+        "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399313/walczaki-vs-the-last-resort-cct-2026-europe-series-11",
+        "stage_name": "Completed series",
+        "starts_at": "2026-10-17T17:16:21Z",
+        "status": "finished",
+        "team1_name": "Walczaki",
+        "team2_name": "The Last Resort",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated.\n\n** Walczaki forfeit the match.",
+        "winner_name": "The Last Resort"
       },
       {
         "detail_fetched_at_utc": "2026-10-18T20:17:20Z",
@@ -12584,35 +12830,110 @@ window.__STRIKESIGNAL_DATA__ = {
               "nickname": "karrigan",
               "player_id": "hltv:429",
               "source_url": "https://www.hltv.org/player/429/karrigan",
-              "team_name": "Falcons"
+              "team_name": "Falcons",
+              "timeline_entry": {
+                "adr": 57.1,
+                "date": "2026-10-17",
+                "deaths": 46,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 63.2,
+                "kd_ratio": 0.89,
+                "kills": 41,
+                "maps": 3,
+                "match_id": "hltv:2399415",
+                "opponent_name": "BETBOOM",
+                "rating": 0.94,
+                "team_name": "Falcons",
+                "won": false
+              }
             },
             {
               "hltv_player_id": "3741",
               "nickname": "NiKo",
               "player_id": "hltv:3741",
               "source_url": "https://www.hltv.org/player/3741/niko",
-              "team_name": "Falcons"
+              "team_name": "Falcons",
+              "timeline_entry": {
+                "adr": 71.1,
+                "date": "2026-10-17",
+                "deaths": 53,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 69.1,
+                "kd_ratio": 0.83,
+                "kills": 44,
+                "maps": 3,
+                "match_id": "hltv:2399415",
+                "opponent_name": "BETBOOM",
+                "rating": 0.93,
+                "team_name": "Falcons",
+                "won": false
+              }
             },
             {
               "hltv_player_id": "19230",
               "nickname": "m0NESY",
               "player_id": "hltv:19230",
               "source_url": "https://www.hltv.org/player/19230/m0nesy",
-              "team_name": "Falcons"
+              "team_name": "Falcons",
+              "timeline_entry": {
+                "adr": 81,
+                "date": "2026-10-17",
+                "deaths": 47,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 67.6,
+                "kd_ratio": 1.17,
+                "kills": 55,
+                "maps": 3,
+                "match_id": "hltv:2399415",
+                "opponent_name": "BETBOOM",
+                "rating": 1.14,
+                "team_name": "Falcons",
+                "won": false
+              }
             },
             {
               "hltv_player_id": "12018",
               "nickname": "TeSeS",
               "player_id": "hltv:12018",
               "source_url": "https://www.hltv.org/player/12018/teses",
-              "team_name": "Falcons"
+              "team_name": "Falcons",
+              "timeline_entry": {
+                "adr": 64.9,
+                "date": "2026-10-17",
+                "deaths": 46,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 61.8,
+                "kd_ratio": 0.8,
+                "kills": 37,
+                "maps": 3,
+                "match_id": "hltv:2399415",
+                "opponent_name": "BETBOOM",
+                "rating": 0.92,
+                "team_name": "Falcons",
+                "won": false
+              }
             },
             {
               "hltv_player_id": "24177",
               "nickname": "kyousuke",
               "player_id": "hltv:24177",
               "source_url": "https://www.hltv.org/player/24177/kyousuke",
-              "team_name": "Falcons"
+              "team_name": "Falcons",
+              "timeline_entry": {
+                "adr": 70.6,
+                "date": "2026-10-17",
+                "deaths": 48,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 60.3,
+                "kd_ratio": 0.81,
+                "kills": 39,
+                "maps": 3,
+                "match_id": "hltv:2399415",
+                "opponent_name": "BETBOOM",
+                "rating": 0.84,
+                "team_name": "Falcons",
+                "won": false
+              }
             }
           ],
           "team2": [
@@ -12621,35 +12942,110 @@ window.__STRIKESIGNAL_DATA__ = {
               "nickname": "Magnojez",
               "player_id": "hltv:21667",
               "source_url": "https://www.hltv.org/player/21667/magnojez",
-              "team_name": "BETBOOM"
+              "team_name": "BETBOOM",
+              "timeline_entry": {
+                "adr": 89.1,
+                "date": "2026-10-17",
+                "deaths": 46,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 75,
+                "kd_ratio": 1.28,
+                "kills": 59,
+                "maps": 3,
+                "match_id": "hltv:2399415",
+                "opponent_name": "Falcons",
+                "rating": 1.39,
+                "team_name": "BETBOOM",
+                "won": true
+              }
             },
             {
               "hltv_player_id": "11840",
               "nickname": "Boombl4",
               "player_id": "hltv:11840",
               "source_url": "https://www.hltv.org/player/11840/boombl4",
-              "team_name": "BETBOOM"
+              "team_name": "BETBOOM",
+              "timeline_entry": {
+                "adr": 70.5,
+                "date": "2026-10-17",
+                "deaths": 46,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 69.1,
+                "kd_ratio": 0.76,
+                "kills": 35,
+                "maps": 3,
+                "match_id": "hltv:2399415",
+                "opponent_name": "Falcons",
+                "rating": 0.91,
+                "team_name": "BETBOOM",
+                "won": true
+              }
             },
             {
               "hltv_player_id": "20357",
               "nickname": "d1Ledez",
               "player_id": "hltv:20357",
               "source_url": "https://www.hltv.org/player/20357/d1ledez",
-              "team_name": "BETBOOM"
+              "team_name": "BETBOOM",
+              "timeline_entry": {
+                "adr": 78.1,
+                "date": "2026-10-17",
+                "deaths": 46,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 67.6,
+                "kd_ratio": 1.04,
+                "kills": 48,
+                "maps": 3,
+                "match_id": "hltv:2399415",
+                "opponent_name": "Falcons",
+                "rating": 1.05,
+                "team_name": "BETBOOM",
+                "won": true
+              }
             },
             {
               "hltv_player_id": "15662",
               "nickname": "zorte",
               "player_id": "hltv:15662",
               "source_url": "https://www.hltv.org/player/15662/zorte",
-              "team_name": "BETBOOM"
+              "team_name": "BETBOOM",
+              "timeline_entry": {
+                "adr": 73.3,
+                "date": "2026-10-17",
+                "deaths": 39,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 73.5,
+                "kd_ratio": 1.21,
+                "kills": 47,
+                "maps": 3,
+                "match_id": "hltv:2399415",
+                "opponent_name": "Falcons",
+                "rating": 1.08,
+                "team_name": "BETBOOM",
+                "won": true
+              }
             },
             {
               "hltv_player_id": "18506",
               "nickname": "S1ren",
               "player_id": "hltv:18506",
               "source_url": "https://www.hltv.org/player/18506/s1ren",
-              "team_name": "BETBOOM"
+              "team_name": "BETBOOM",
+              "timeline_entry": {
+                "adr": 74.4,
+                "date": "2026-10-17",
+                "deaths": 40,
+                "event_name": "Thunderpick World Championship 2026",
+                "kast": 76.5,
+                "kd_ratio": 1.23,
+                "kills": 49,
+                "maps": 3,
+                "match_id": "hltv:2399415",
+                "opponent_name": "Falcons",
+                "rating": 1.15,
+                "team_name": "BETBOOM",
+                "won": true
+              }
             }
           ]
         },
@@ -12807,108 +13203,12 @@ window.__STRIKESIGNAL_DATA__ = {
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399415/falcons-vs-betboom-thunderpick-world-championship-2026",
         "stage_name": "Semifinal",
-        "starts_at": "2026-10-17T17:00:00Z",
+        "starts_at": "2026-10-17T20:10:56Z",
         "status": "finished",
         "team1_name": "Falcons",
         "team2_name": "BETBOOM",
         "veto_text": "Best of 3 (LAN)\n\n* Semi-final",
         "winner_name": "BETBOOM"
-      },
-      {
-        "detail_fetched_at_utc": "2026-10-18T20:35:54Z",
-        "event_id": "hltv:cct-2026-europe-series-11",
-        "event_name": "CCT 2026 Europe Series 11",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2399313",
-        "lineups": {
-          "team1": [
-            {
-              "hltv_player_id": "21265",
-              "nickname": "sNx",
-              "player_id": "hltv:21265",
-              "source_url": "https://www.hltv.org/player/21265/snx",
-              "team_name": "Walczaki"
-            },
-            {
-              "hltv_player_id": "20245",
-              "nickname": "SaMey",
-              "player_id": "hltv:20245",
-              "source_url": "https://www.hltv.org/player/20245/samey",
-              "team_name": "Walczaki"
-            },
-            {
-              "hltv_player_id": "21263",
-              "nickname": "olimp",
-              "player_id": "hltv:21263",
-              "source_url": "https://www.hltv.org/player/21263/olimp",
-              "team_name": "Walczaki"
-            },
-            {
-              "hltv_player_id": "20958",
-              "nickname": "bajmi",
-              "player_id": "hltv:20958",
-              "source_url": "https://www.hltv.org/player/20958/bajmi",
-              "team_name": "Walczaki"
-            },
-            {
-              "hltv_player_id": "15203",
-              "nickname": "reiko",
-              "player_id": "hltv:15203",
-              "source_url": "https://www.hltv.org/player/15203/reiko",
-              "team_name": "Walczaki"
-            }
-          ],
-          "team2": [
-            {
-              "hltv_player_id": "20339",
-              "nickname": "Extinct",
-              "player_id": "hltv:20339",
-              "source_url": "https://www.hltv.org/player/20339/extinct",
-              "team_name": "The Last Resort"
-            },
-            {
-              "hltv_player_id": "20336",
-              "nickname": "arTisT",
-              "player_id": "hltv:20336",
-              "source_url": "https://www.hltv.org/player/20336/artist",
-              "team_name": "The Last Resort"
-            },
-            {
-              "hltv_player_id": "20340",
-              "nickname": "Girafffe",
-              "player_id": "hltv:20340",
-              "source_url": "https://www.hltv.org/player/20340/girafffe",
-              "team_name": "The Last Resort"
-            },
-            {
-              "hltv_player_id": "22192",
-              "nickname": "Vacancy",
-              "player_id": "hltv:22192",
-              "source_url": "https://www.hltv.org/player/22192/vacancy",
-              "team_name": "The Last Resort"
-            },
-            {
-              "hltv_player_id": "20908",
-              "nickname": "bevve",
-              "player_id": "hltv:20908",
-              "source_url": "https://www.hltv.org/player/20908/bevve",
-              "team_name": "The Last Resort"
-            }
-          ]
-        },
-        "match_id": "hltv:2399313",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 1,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399313/walczaki-vs-the-last-resort-cct-2026-europe-series-11",
-        "stage_name": "Completed series",
-        "starts_at": "2026-10-17T17:16:21Z",
-        "status": "finished",
-        "team1_name": "Walczaki",
-        "team2_name": "The Last Resort",
-        "veto_text": "Best of 3 (Online)\n\n* Swiss round 3 (teams with a 0-2 record). Losing team is eliminated.\n\n** Walczaki forfeit the match.",
-        "winner_name": "The Last Resort"
       },
       {
         "detail_fetched_at_utc": "2026-10-18T10:19:28Z",
@@ -13940,7 +14240,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "ex-RUSTEC"
       },
       {
-        "detail_fetched_at_utc": "2026-10-18T20:45:06Z",
+        "detail_fetched_at_utc": "2026-10-18T21:35:26Z",
         "event_id": "hltv:thunderpick-world-championship-2026",
         "event_name": "Thunderpick World Championship 2026",
         "event_url": "https://www.hltv.org/events/archive",
@@ -13948,17 +14248,17 @@ window.__STRIKESIGNAL_DATA__ = {
         "lineups": {
           "team1": [
             {
+              "hltv_player_id": "15631",
+              "nickname": "KSCERATO",
+              "player_id": "hltv:15631",
+              "source_url": "https://www.hltv.org/player/15631/kscerato",
+              "team_name": "FURIA"
+            },
+            {
               "hltv_player_id": "2023",
               "nickname": "FalleN",
               "player_id": "hltv:2023",
               "source_url": "https://www.hltv.org/player/2023/fallen",
-              "team_name": "FURIA"
-            },
-            {
-              "hltv_player_id": "12553",
-              "nickname": "yuurih",
-              "player_id": "hltv:12553",
-              "source_url": "https://www.hltv.org/player/12553/yuurih",
               "team_name": "FURIA"
             },
             {
@@ -13969,10 +14269,10 @@ window.__STRIKESIGNAL_DATA__ = {
               "team_name": "FURIA"
             },
             {
-              "hltv_player_id": "15631",
-              "nickname": "KSCERATO",
-              "player_id": "hltv:15631",
-              "source_url": "https://www.hltv.org/player/15631/kscerato",
+              "hltv_player_id": "12553",
+              "nickname": "yuurih",
+              "player_id": "hltv:12553",
+              "source_url": "https://www.hltv.org/player/12553/yuurih",
               "team_name": "FURIA"
             },
             {
@@ -13985,10 +14285,10 @@ window.__STRIKESIGNAL_DATA__ = {
           ],
           "team2": [
             {
-              "hltv_player_id": "11840",
-              "nickname": "Boombl4",
-              "player_id": "hltv:11840",
-              "source_url": "https://www.hltv.org/player/11840/boombl4",
+              "hltv_player_id": "21667",
+              "nickname": "Magnojez",
+              "player_id": "hltv:21667",
+              "source_url": "https://www.hltv.org/player/21667/magnojez",
               "team_name": "BETBOOM"
             },
             {
@@ -14013,10 +14313,10 @@ window.__STRIKESIGNAL_DATA__ = {
               "team_name": "BETBOOM"
             },
             {
-              "hltv_player_id": "21667",
-              "nickname": "Magnojez",
-              "player_id": "hltv:21667",
-              "source_url": "https://www.hltv.org/player/21667/magnojez",
+              "hltv_player_id": "11840",
+              "nickname": "Boombl4",
+              "player_id": "hltv:11840",
+              "source_url": "https://www.hltv.org/player/11840/boombl4",
               "team_name": "BETBOOM"
             }
           ]
@@ -14048,9 +14348,9 @@ window.__STRIKESIGNAL_DATA__ = {
           },
           {
             "map_name": "Cache",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
+            "score1": 13,
+            "score2": 6,
+            "status": "finished"
           }
         ],
         "maps": [
@@ -14063,11 +14363,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "match_id": "hltv:2399417",
         "player_stats": [
           {
-            "adr": 85.7,
-            "deaths": 46,
+            "adr": 81.1,
+            "deaths": 72,
             "hltv_player_id": "15631",
-            "kast": 72.4,
-            "kills": 53,
+            "kast": 75.6,
+            "kills": 82,
             "nickname": "KSCERATO",
             "player_id": "hltv:15631",
             "rating": 1.13,
@@ -14075,123 +14375,126 @@ window.__STRIKESIGNAL_DATA__ = {
             "team_side": 1
           },
           {
-            "adr": 68.4,
-            "deaths": 49,
+            "adr": 71.5,
+            "deaths": 76,
             "hltv_player_id": "2023",
-            "kast": 72.4,
-            "kills": 43,
+            "kast": 71.4,
+            "kills": 78,
             "nickname": "FalleN",
             "player_id": "hltv:2023",
-            "rating": 0.99,
+            "rating": 1.08,
             "source_url": "https://www.hltv.org/player/2023/fallen",
             "team_side": 1
           },
           {
-            "adr": 67.6,
-            "deaths": 50,
+            "adr": 74,
+            "deaths": 78,
             "hltv_player_id": "13915",
-            "kast": 61.8,
-            "kills": 47,
+            "kast": 67.2,
+            "kills": 79,
             "nickname": "YEKINDAR",
             "player_id": "hltv:13915",
-            "rating": 0.95,
+            "rating": 1.06,
             "source_url": "https://www.hltv.org/player/13915/yekindar",
             "team_side": 1
           },
           {
-            "adr": 65.1,
-            "deaths": 47,
+            "adr": 68.7,
+            "deaths": 76,
             "hltv_player_id": "12553",
-            "kast": 72.4,
-            "kills": 44,
+            "kast": 72.3,
+            "kills": 74,
             "nickname": "yuurih",
             "player_id": "hltv:12553",
-            "rating": 0.94,
+            "rating": 0.99,
             "source_url": "https://www.hltv.org/player/12553/yuurih",
             "team_side": 1
           },
           {
-            "adr": 63.5,
-            "deaths": 47,
+            "adr": 68.4,
+            "deaths": 78,
             "hltv_player_id": "24144",
-            "kast": 69.7,
-            "kills": 53,
+            "kast": 74.8,
+            "kills": 85,
             "nickname": "molodoy",
             "player_id": "hltv:24144",
-            "rating": 0.88,
+            "rating": 0.96,
             "source_url": "https://www.hltv.org/player/24144/molodoy",
             "team_side": 1
           },
           {
-            "adr": 81.7,
-            "deaths": 46,
+            "adr": 84.7,
+            "deaths": 79,
             "hltv_player_id": "21667",
-            "kast": 67.1,
-            "kills": 54,
+            "kast": 68.1,
+            "kills": 90,
             "nickname": "Magnojez",
             "player_id": "hltv:21667",
-            "rating": 1.24,
+            "rating": 1.23,
             "source_url": "https://www.hltv.org/player/21667/magnojez",
             "team_side": 2
           },
           {
-            "adr": 73.1,
-            "deaths": 44,
+            "adr": 79.5,
+            "deaths": 74,
             "hltv_player_id": "15662",
-            "kast": 75,
-            "kills": 53,
+            "kast": 72.3,
+            "kills": 88,
             "nickname": "zorte",
             "player_id": "hltv:15662",
-            "rating": 1.17,
+            "rating": 1.18,
             "source_url": "https://www.hltv.org/player/15662/zorte",
             "team_side": 2
           },
           {
-            "adr": 71.3,
-            "deaths": 51,
+            "adr": 69.9,
+            "deaths": 81,
             "hltv_player_id": "18506",
-            "kast": 68.4,
-            "kills": 54,
+            "kast": 66.4,
+            "kills": 82,
             "nickname": "S1ren",
             "player_id": "hltv:18506",
-            "rating": 1.12,
+            "rating": 1.04,
             "source_url": "https://www.hltv.org/player/18506/s1ren",
             "team_side": 2
           },
           {
-            "adr": 65.7,
-            "deaths": 51,
+            "adr": 64.6,
+            "deaths": 85,
             "hltv_player_id": "20357",
-            "kast": 68.4,
-            "kills": 47,
+            "kast": 67.2,
+            "kills": 67,
             "nickname": "d1Ledez",
             "player_id": "hltv:20357",
-            "rating": 0.96,
+            "rating": 0.86,
             "source_url": "https://www.hltv.org/player/20357/d1ledez",
             "team_side": 2
           },
           {
-            "adr": 48.9,
-            "deaths": 49,
+            "adr": 48.6,
+            "deaths": 81,
             "hltv_player_id": "11840",
-            "kast": 71.1,
-            "kills": 26,
+            "kast": 64.7,
+            "kills": 45,
             "nickname": "Boombl4",
             "player_id": "hltv:11840",
-            "rating": 0.78,
+            "rating": 0.72,
             "source_url": "https://www.hltv.org/player/11840/boombl4",
             "team_side": 2
           }
         ],
         "product_tier": "tier_2",
-        "series_format": "bo3",
+        "score1": 3,
+        "score2": 2,
+        "series_format": "bo5",
         "source_url": "https://www.hltv.org/matches/2399417/furia-vs-betboom-thunderpick-world-championship-2026",
         "stage_name": "Grand Final",
         "starts_at": "2026-10-18T15:45:00Z",
-        "status": "live",
+        "status": "finished",
         "team1_name": "FURIA",
         "team2_name": "BETBOOM",
-        "veto_text": "Best of 5 (LAN)\n\n* Grand final"
+        "veto_text": "Best of 5 (LAN)\n\n* Grand final",
+        "winner_name": "FURIA"
       },
       {
         "detail_fetched_at_utc": "2026-10-18T17:09:22Z",
@@ -15027,6 +15330,20 @@ window.__STRIKESIGNAL_DATA__ = {
         "status": "upcoming",
         "team1_name": "BAKS",
         "team2_name": "Illyrians"
+      },
+      {
+        "event_id": "hltv:9442",
+        "event_name": "CCT 2026 Europe Series 11",
+        "hltv_match_id": "2399323",
+        "match_id": "hltv:2399323",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399323/lavked-vs-ex-6666-cct-2026-europe-series-11",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-20T17:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Lavked",
+        "team2_name": "ex-6666"
       },
       {
         "event_id": "hltv:8050",
@@ -33692,35 +34009,110 @@ window.__STRIKESIGNAL_DATA__ = {
                   "nickname": "molodoy",
                   "player_id": "hltv:24144",
                   "source_url": "https://www.hltv.org/player/24144/molodoy",
-                  "team_name": "FURIA"
+                  "team_name": "FURIA",
+                  "timeline_entry": {
+                    "adr": 77.1,
+                    "date": "2026-10-17",
+                    "deaths": 28,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 70.5,
+                    "kd_ratio": 1.11,
+                    "kills": 31,
+                    "maps": 3,
+                    "match_id": "hltv:2399414",
+                    "opponent_name": "Aurora",
+                    "rating": 1.17,
+                    "team_name": "FURIA",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "12553",
                   "nickname": "yuurih",
                   "player_id": "hltv:12553",
                   "source_url": "https://www.hltv.org/player/12553/yuurih",
-                  "team_name": "FURIA"
+                  "team_name": "FURIA",
+                  "timeline_entry": {
+                    "adr": 58.9,
+                    "date": "2026-10-17",
+                    "deaths": 25,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 77.3,
+                    "kd_ratio": 0.96,
+                    "kills": 24,
+                    "maps": 3,
+                    "match_id": "hltv:2399414",
+                    "opponent_name": "Aurora",
+                    "rating": 1,
+                    "team_name": "FURIA",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "2023",
                   "nickname": "FalleN",
                   "player_id": "hltv:2023",
                   "source_url": "https://www.hltv.org/player/2023/fallen",
-                  "team_name": "FURIA"
+                  "team_name": "FURIA",
+                  "timeline_entry": {
+                    "adr": 58.5,
+                    "date": "2026-10-17",
+                    "deaths": 28,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 65.9,
+                    "kd_ratio": 0.96,
+                    "kills": 27,
+                    "maps": 3,
+                    "match_id": "hltv:2399414",
+                    "opponent_name": "Aurora",
+                    "rating": 0.96,
+                    "team_name": "FURIA",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "15631",
                   "nickname": "KSCERATO",
                   "player_id": "hltv:15631",
                   "source_url": "https://www.hltv.org/player/15631/kscerato",
-                  "team_name": "FURIA"
+                  "team_name": "FURIA",
+                  "timeline_entry": {
+                    "adr": 91.3,
+                    "date": "2026-10-17",
+                    "deaths": 22,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 70.5,
+                    "kd_ratio": 1.73,
+                    "kills": 38,
+                    "maps": 3,
+                    "match_id": "hltv:2399414",
+                    "opponent_name": "Aurora",
+                    "rating": 1.67,
+                    "team_name": "FURIA",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "13915",
                   "nickname": "YEKINDAR",
                   "player_id": "hltv:13915",
                   "source_url": "https://www.hltv.org/player/13915/yekindar",
-                  "team_name": "FURIA"
+                  "team_name": "FURIA",
+                  "timeline_entry": {
+                    "adr": 81.9,
+                    "date": "2026-10-17",
+                    "deaths": 24,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 84.1,
+                    "kd_ratio": 1.25,
+                    "kills": 30,
+                    "maps": 3,
+                    "match_id": "hltv:2399414",
+                    "opponent_name": "Aurora",
+                    "rating": 1.39,
+                    "team_name": "FURIA",
+                    "won": true
+                  }
                 }
               ],
               "team2": [
@@ -33729,35 +34121,110 @@ window.__STRIKESIGNAL_DATA__ = {
                   "nickname": "woxic",
                   "player_id": "hltv:8574",
                   "source_url": "https://www.hltv.org/player/8574/woxic",
-                  "team_name": "Aurora"
+                  "team_name": "Aurora",
+                  "timeline_entry": {
+                    "adr": 61.5,
+                    "date": "2026-10-17",
+                    "deaths": 28,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 70.5,
+                    "kd_ratio": 0.89,
+                    "kills": 25,
+                    "maps": 3,
+                    "match_id": "hltv:2399414",
+                    "opponent_name": "FURIA",
+                    "rating": 0.83,
+                    "team_name": "Aurora",
+                    "won": false
+                  }
                 },
                 {
                   "hltv_player_id": "7938",
                   "nickname": "XANTARES",
                   "player_id": "hltv:7938",
                   "source_url": "https://www.hltv.org/player/7938/xantares",
-                  "team_name": "Aurora"
+                  "team_name": "Aurora",
+                  "timeline_entry": {
+                    "adr": 63.5,
+                    "date": "2026-10-17",
+                    "deaths": 30,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 68.2,
+                    "kd_ratio": 0.77,
+                    "kills": 23,
+                    "maps": 3,
+                    "match_id": "hltv:2399414",
+                    "opponent_name": "FURIA",
+                    "rating": 0.86,
+                    "team_name": "Aurora",
+                    "won": false
+                  }
                 },
                 {
                   "hltv_player_id": "21243",
                   "nickname": "Wicadia",
                   "player_id": "hltv:21243",
                   "source_url": "https://www.hltv.org/player/21243/wicadia",
-                  "team_name": "Aurora"
+                  "team_name": "Aurora",
+                  "timeline_entry": {
+                    "adr": 77.6,
+                    "date": "2026-10-17",
+                    "deaths": 33,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 65.9,
+                    "kd_ratio": 0.91,
+                    "kills": 30,
+                    "maps": 3,
+                    "match_id": "hltv:2399414",
+                    "opponent_name": "FURIA",
+                    "rating": 0.94,
+                    "team_name": "Aurora",
+                    "won": false
+                  }
                 },
                 {
                   "hltv_player_id": "18850",
                   "nickname": "Jimpphat",
                   "player_id": "hltv:18850",
                   "source_url": "https://www.hltv.org/player/18850/jimpphat",
-                  "team_name": "Aurora"
+                  "team_name": "Aurora",
+                  "timeline_entry": {
+                    "adr": 68.7,
+                    "date": "2026-10-17",
+                    "deaths": 29,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 70.5,
+                    "kd_ratio": 1,
+                    "kills": 29,
+                    "maps": 3,
+                    "match_id": "hltv:2399414",
+                    "opponent_name": "FURIA",
+                    "rating": 0.92,
+                    "team_name": "Aurora",
+                    "won": false
+                  }
                 },
                 {
                   "hltv_player_id": "19677",
                   "nickname": "kyxsan",
                   "player_id": "hltv:19677",
                   "source_url": "https://www.hltv.org/player/19677/kyxsan",
-                  "team_name": "Aurora"
+                  "team_name": "Aurora",
+                  "timeline_entry": {
+                    "adr": 55.4,
+                    "date": "2026-10-17",
+                    "deaths": 31,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 59.1,
+                    "kd_ratio": 0.61,
+                    "kills": 19,
+                    "maps": 3,
+                    "match_id": "hltv:2399414",
+                    "opponent_name": "FURIA",
+                    "rating": 0.7,
+                    "team_name": "Aurora",
+                    "won": false
+                  }
                 }
               ]
             },
@@ -33915,7 +34382,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399414/furia-vs-aurora-thunderpick-world-championship-2026",
             "stage_name": "Semifinal",
-            "starts_at": "2026-10-17T14:00:00Z",
+            "starts_at": "2026-10-17T15:58:52Z",
             "status": "finished",
             "team1_name": "FURIA",
             "team2_name": "Aurora",
@@ -33935,35 +34402,110 @@ window.__STRIKESIGNAL_DATA__ = {
                   "nickname": "karrigan",
                   "player_id": "hltv:429",
                   "source_url": "https://www.hltv.org/player/429/karrigan",
-                  "team_name": "Falcons"
+                  "team_name": "Falcons",
+                  "timeline_entry": {
+                    "adr": 57.1,
+                    "date": "2026-10-17",
+                    "deaths": 46,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 63.2,
+                    "kd_ratio": 0.89,
+                    "kills": 41,
+                    "maps": 3,
+                    "match_id": "hltv:2399415",
+                    "opponent_name": "BETBOOM",
+                    "rating": 0.94,
+                    "team_name": "Falcons",
+                    "won": false
+                  }
                 },
                 {
                   "hltv_player_id": "3741",
                   "nickname": "NiKo",
                   "player_id": "hltv:3741",
                   "source_url": "https://www.hltv.org/player/3741/niko",
-                  "team_name": "Falcons"
+                  "team_name": "Falcons",
+                  "timeline_entry": {
+                    "adr": 71.1,
+                    "date": "2026-10-17",
+                    "deaths": 53,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 69.1,
+                    "kd_ratio": 0.83,
+                    "kills": 44,
+                    "maps": 3,
+                    "match_id": "hltv:2399415",
+                    "opponent_name": "BETBOOM",
+                    "rating": 0.93,
+                    "team_name": "Falcons",
+                    "won": false
+                  }
                 },
                 {
                   "hltv_player_id": "19230",
                   "nickname": "m0NESY",
                   "player_id": "hltv:19230",
                   "source_url": "https://www.hltv.org/player/19230/m0nesy",
-                  "team_name": "Falcons"
+                  "team_name": "Falcons",
+                  "timeline_entry": {
+                    "adr": 81,
+                    "date": "2026-10-17",
+                    "deaths": 47,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 67.6,
+                    "kd_ratio": 1.17,
+                    "kills": 55,
+                    "maps": 3,
+                    "match_id": "hltv:2399415",
+                    "opponent_name": "BETBOOM",
+                    "rating": 1.14,
+                    "team_name": "Falcons",
+                    "won": false
+                  }
                 },
                 {
                   "hltv_player_id": "12018",
                   "nickname": "TeSeS",
                   "player_id": "hltv:12018",
                   "source_url": "https://www.hltv.org/player/12018/teses",
-                  "team_name": "Falcons"
+                  "team_name": "Falcons",
+                  "timeline_entry": {
+                    "adr": 64.9,
+                    "date": "2026-10-17",
+                    "deaths": 46,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 61.8,
+                    "kd_ratio": 0.8,
+                    "kills": 37,
+                    "maps": 3,
+                    "match_id": "hltv:2399415",
+                    "opponent_name": "BETBOOM",
+                    "rating": 0.92,
+                    "team_name": "Falcons",
+                    "won": false
+                  }
                 },
                 {
                   "hltv_player_id": "24177",
                   "nickname": "kyousuke",
                   "player_id": "hltv:24177",
                   "source_url": "https://www.hltv.org/player/24177/kyousuke",
-                  "team_name": "Falcons"
+                  "team_name": "Falcons",
+                  "timeline_entry": {
+                    "adr": 70.6,
+                    "date": "2026-10-17",
+                    "deaths": 48,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 60.3,
+                    "kd_ratio": 0.81,
+                    "kills": 39,
+                    "maps": 3,
+                    "match_id": "hltv:2399415",
+                    "opponent_name": "BETBOOM",
+                    "rating": 0.84,
+                    "team_name": "Falcons",
+                    "won": false
+                  }
                 }
               ],
               "team2": [
@@ -33972,35 +34514,110 @@ window.__STRIKESIGNAL_DATA__ = {
                   "nickname": "Magnojez",
                   "player_id": "hltv:21667",
                   "source_url": "https://www.hltv.org/player/21667/magnojez",
-                  "team_name": "BETBOOM"
+                  "team_name": "BETBOOM",
+                  "timeline_entry": {
+                    "adr": 89.1,
+                    "date": "2026-10-17",
+                    "deaths": 46,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 75,
+                    "kd_ratio": 1.28,
+                    "kills": 59,
+                    "maps": 3,
+                    "match_id": "hltv:2399415",
+                    "opponent_name": "Falcons",
+                    "rating": 1.39,
+                    "team_name": "BETBOOM",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "11840",
                   "nickname": "Boombl4",
                   "player_id": "hltv:11840",
                   "source_url": "https://www.hltv.org/player/11840/boombl4",
-                  "team_name": "BETBOOM"
+                  "team_name": "BETBOOM",
+                  "timeline_entry": {
+                    "adr": 70.5,
+                    "date": "2026-10-17",
+                    "deaths": 46,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 69.1,
+                    "kd_ratio": 0.76,
+                    "kills": 35,
+                    "maps": 3,
+                    "match_id": "hltv:2399415",
+                    "opponent_name": "Falcons",
+                    "rating": 0.91,
+                    "team_name": "BETBOOM",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "20357",
                   "nickname": "d1Ledez",
                   "player_id": "hltv:20357",
                   "source_url": "https://www.hltv.org/player/20357/d1ledez",
-                  "team_name": "BETBOOM"
+                  "team_name": "BETBOOM",
+                  "timeline_entry": {
+                    "adr": 78.1,
+                    "date": "2026-10-17",
+                    "deaths": 46,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 67.6,
+                    "kd_ratio": 1.04,
+                    "kills": 48,
+                    "maps": 3,
+                    "match_id": "hltv:2399415",
+                    "opponent_name": "Falcons",
+                    "rating": 1.05,
+                    "team_name": "BETBOOM",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "15662",
                   "nickname": "zorte",
                   "player_id": "hltv:15662",
                   "source_url": "https://www.hltv.org/player/15662/zorte",
-                  "team_name": "BETBOOM"
+                  "team_name": "BETBOOM",
+                  "timeline_entry": {
+                    "adr": 73.3,
+                    "date": "2026-10-17",
+                    "deaths": 39,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 73.5,
+                    "kd_ratio": 1.21,
+                    "kills": 47,
+                    "maps": 3,
+                    "match_id": "hltv:2399415",
+                    "opponent_name": "Falcons",
+                    "rating": 1.08,
+                    "team_name": "BETBOOM",
+                    "won": true
+                  }
                 },
                 {
                   "hltv_player_id": "18506",
                   "nickname": "S1ren",
                   "player_id": "hltv:18506",
                   "source_url": "https://www.hltv.org/player/18506/s1ren",
-                  "team_name": "BETBOOM"
+                  "team_name": "BETBOOM",
+                  "timeline_entry": {
+                    "adr": 74.4,
+                    "date": "2026-10-17",
+                    "deaths": 40,
+                    "event_name": "Thunderpick World Championship 2026",
+                    "kast": 76.5,
+                    "kd_ratio": 1.23,
+                    "kills": 49,
+                    "maps": 3,
+                    "match_id": "hltv:2399415",
+                    "opponent_name": "Falcons",
+                    "rating": 1.15,
+                    "team_name": "BETBOOM",
+                    "won": true
+                  }
                 }
               ]
             },
@@ -34158,7 +34775,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399415/falcons-vs-betboom-thunderpick-world-championship-2026",
             "stage_name": "Semifinal",
-            "starts_at": "2026-10-17T17:00:00Z",
+            "starts_at": "2026-10-17T20:10:56Z",
             "status": "finished",
             "team1_name": "Falcons",
             "team2_name": "BETBOOM",
@@ -34409,7 +35026,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Aurora"
           },
           {
-            "detail_fetched_at_utc": "2026-10-18T20:45:06Z",
+            "detail_fetched_at_utc": "2026-10-18T21:35:26Z",
             "event_id": "hltv:thunderpick-world-championship-2026",
             "event_name": "Thunderpick World Championship 2026",
             "event_url": "https://www.hltv.org/events/archive",
@@ -34417,17 +35034,17 @@ window.__STRIKESIGNAL_DATA__ = {
             "lineups": {
               "team1": [
                 {
+                  "hltv_player_id": "15631",
+                  "nickname": "KSCERATO",
+                  "player_id": "hltv:15631",
+                  "source_url": "https://www.hltv.org/player/15631/kscerato",
+                  "team_name": "FURIA"
+                },
+                {
                   "hltv_player_id": "2023",
                   "nickname": "FalleN",
                   "player_id": "hltv:2023",
                   "source_url": "https://www.hltv.org/player/2023/fallen",
-                  "team_name": "FURIA"
-                },
-                {
-                  "hltv_player_id": "12553",
-                  "nickname": "yuurih",
-                  "player_id": "hltv:12553",
-                  "source_url": "https://www.hltv.org/player/12553/yuurih",
                   "team_name": "FURIA"
                 },
                 {
@@ -34438,10 +35055,10 @@ window.__STRIKESIGNAL_DATA__ = {
                   "team_name": "FURIA"
                 },
                 {
-                  "hltv_player_id": "15631",
-                  "nickname": "KSCERATO",
-                  "player_id": "hltv:15631",
-                  "source_url": "https://www.hltv.org/player/15631/kscerato",
+                  "hltv_player_id": "12553",
+                  "nickname": "yuurih",
+                  "player_id": "hltv:12553",
+                  "source_url": "https://www.hltv.org/player/12553/yuurih",
                   "team_name": "FURIA"
                 },
                 {
@@ -34454,10 +35071,10 @@ window.__STRIKESIGNAL_DATA__ = {
               ],
               "team2": [
                 {
-                  "hltv_player_id": "11840",
-                  "nickname": "Boombl4",
-                  "player_id": "hltv:11840",
-                  "source_url": "https://www.hltv.org/player/11840/boombl4",
+                  "hltv_player_id": "21667",
+                  "nickname": "Magnojez",
+                  "player_id": "hltv:21667",
+                  "source_url": "https://www.hltv.org/player/21667/magnojez",
                   "team_name": "BETBOOM"
                 },
                 {
@@ -34482,10 +35099,10 @@ window.__STRIKESIGNAL_DATA__ = {
                   "team_name": "BETBOOM"
                 },
                 {
-                  "hltv_player_id": "21667",
-                  "nickname": "Magnojez",
-                  "player_id": "hltv:21667",
-                  "source_url": "https://www.hltv.org/player/21667/magnojez",
+                  "hltv_player_id": "11840",
+                  "nickname": "Boombl4",
+                  "player_id": "hltv:11840",
+                  "source_url": "https://www.hltv.org/player/11840/boombl4",
                   "team_name": "BETBOOM"
                 }
               ]
@@ -34517,9 +35134,9 @@ window.__STRIKESIGNAL_DATA__ = {
               },
               {
                 "map_name": "Cache",
-                "score1": null,
-                "score2": null,
-                "status": "upcoming"
+                "score1": 13,
+                "score2": 6,
+                "status": "finished"
               }
             ],
             "maps": [
@@ -34532,11 +35149,11 @@ window.__STRIKESIGNAL_DATA__ = {
             "match_id": "hltv:2399417",
             "player_stats": [
               {
-                "adr": 85.7,
-                "deaths": 46,
+                "adr": 81.1,
+                "deaths": 72,
                 "hltv_player_id": "15631",
-                "kast": 72.4,
-                "kills": 53,
+                "kast": 75.6,
+                "kills": 82,
                 "nickname": "KSCERATO",
                 "player_id": "hltv:15631",
                 "rating": 1.13,
@@ -34544,123 +35161,126 @@ window.__STRIKESIGNAL_DATA__ = {
                 "team_side": 1
               },
               {
-                "adr": 68.4,
-                "deaths": 49,
+                "adr": 71.5,
+                "deaths": 76,
                 "hltv_player_id": "2023",
-                "kast": 72.4,
-                "kills": 43,
+                "kast": 71.4,
+                "kills": 78,
                 "nickname": "FalleN",
                 "player_id": "hltv:2023",
-                "rating": 0.99,
+                "rating": 1.08,
                 "source_url": "https://www.hltv.org/player/2023/fallen",
                 "team_side": 1
               },
               {
-                "adr": 67.6,
-                "deaths": 50,
+                "adr": 74,
+                "deaths": 78,
                 "hltv_player_id": "13915",
-                "kast": 61.8,
-                "kills": 47,
+                "kast": 67.2,
+                "kills": 79,
                 "nickname": "YEKINDAR",
                 "player_id": "hltv:13915",
-                "rating": 0.95,
+                "rating": 1.06,
                 "source_url": "https://www.hltv.org/player/13915/yekindar",
                 "team_side": 1
               },
               {
-                "adr": 65.1,
-                "deaths": 47,
+                "adr": 68.7,
+                "deaths": 76,
                 "hltv_player_id": "12553",
-                "kast": 72.4,
-                "kills": 44,
+                "kast": 72.3,
+                "kills": 74,
                 "nickname": "yuurih",
                 "player_id": "hltv:12553",
-                "rating": 0.94,
+                "rating": 0.99,
                 "source_url": "https://www.hltv.org/player/12553/yuurih",
                 "team_side": 1
               },
               {
-                "adr": 63.5,
-                "deaths": 47,
+                "adr": 68.4,
+                "deaths": 78,
                 "hltv_player_id": "24144",
-                "kast": 69.7,
-                "kills": 53,
+                "kast": 74.8,
+                "kills": 85,
                 "nickname": "molodoy",
                 "player_id": "hltv:24144",
-                "rating": 0.88,
+                "rating": 0.96,
                 "source_url": "https://www.hltv.org/player/24144/molodoy",
                 "team_side": 1
               },
               {
-                "adr": 81.7,
-                "deaths": 46,
+                "adr": 84.7,
+                "deaths": 79,
                 "hltv_player_id": "21667",
-                "kast": 67.1,
-                "kills": 54,
+                "kast": 68.1,
+                "kills": 90,
                 "nickname": "Magnojez",
                 "player_id": "hltv:21667",
-                "rating": 1.24,
+                "rating": 1.23,
                 "source_url": "https://www.hltv.org/player/21667/magnojez",
                 "team_side": 2
               },
               {
-                "adr": 73.1,
-                "deaths": 44,
+                "adr": 79.5,
+                "deaths": 74,
                 "hltv_player_id": "15662",
-                "kast": 75,
-                "kills": 53,
+                "kast": 72.3,
+                "kills": 88,
                 "nickname": "zorte",
                 "player_id": "hltv:15662",
-                "rating": 1.17,
+                "rating": 1.18,
                 "source_url": "https://www.hltv.org/player/15662/zorte",
                 "team_side": 2
               },
               {
-                "adr": 71.3,
-                "deaths": 51,
+                "adr": 69.9,
+                "deaths": 81,
                 "hltv_player_id": "18506",
-                "kast": 68.4,
-                "kills": 54,
+                "kast": 66.4,
+                "kills": 82,
                 "nickname": "S1ren",
                 "player_id": "hltv:18506",
-                "rating": 1.12,
+                "rating": 1.04,
                 "source_url": "https://www.hltv.org/player/18506/s1ren",
                 "team_side": 2
               },
               {
-                "adr": 65.7,
-                "deaths": 51,
+                "adr": 64.6,
+                "deaths": 85,
                 "hltv_player_id": "20357",
-                "kast": 68.4,
-                "kills": 47,
+                "kast": 67.2,
+                "kills": 67,
                 "nickname": "d1Ledez",
                 "player_id": "hltv:20357",
-                "rating": 0.96,
+                "rating": 0.86,
                 "source_url": "https://www.hltv.org/player/20357/d1ledez",
                 "team_side": 2
               },
               {
-                "adr": 48.9,
-                "deaths": 49,
+                "adr": 48.6,
+                "deaths": 81,
                 "hltv_player_id": "11840",
-                "kast": 71.1,
-                "kills": 26,
+                "kast": 64.7,
+                "kills": 45,
                 "nickname": "Boombl4",
                 "player_id": "hltv:11840",
-                "rating": 0.78,
+                "rating": 0.72,
                 "source_url": "https://www.hltv.org/player/11840/boombl4",
                 "team_side": 2
               }
             ],
             "product_tier": "tier_2",
-            "series_format": "bo3",
+            "score1": 3,
+            "score2": 2,
+            "series_format": "bo5",
             "source_url": "https://www.hltv.org/matches/2399417/furia-vs-betboom-thunderpick-world-championship-2026",
             "stage_name": "Grand Final",
             "starts_at": "2026-10-18T15:45:00Z",
-            "status": "live",
+            "status": "finished",
             "team1_name": "FURIA",
             "team2_name": "BETBOOM",
-            "veto_text": "Best of 5 (LAN)\n\n* Grand final"
+            "veto_text": "Best of 5 (LAN)\n\n* Grand final",
+            "winner_name": "FURIA"
           }
         ],
         "name": "Thunderpick World Championship 2026",
@@ -40576,7 +41196,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Lavked"
           },
           {
-            "detail_fetched_at_utc": "2026-10-18T20:40:24Z",
+            "detail_fetched_at_utc": "2026-10-18T23:06:49Z",
             "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
             "event_url": "https://www.hltv.org/events/archive",
@@ -41465,7 +42085,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "FORZE Reload"
           },
           {
-            "detail_fetched_at_utc": "2026-10-18T20:35:54Z",
+            "detail_fetched_at_utc": "2026-10-18T23:17:26Z",
             "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
             "event_url": "https://www.hltv.org/events/archive",
@@ -42387,6 +43007,20 @@ window.__STRIKESIGNAL_DATA__ = {
             "status": "upcoming",
             "team1_name": "BAKS",
             "team2_name": "Illyrians"
+          },
+          {
+            "event_id": "hltv:9442",
+            "event_name": "CCT 2026 Europe Series 11",
+            "hltv_match_id": "2399323",
+            "match_id": "hltv:2399323",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399323/lavked-vs-ex-6666-cct-2026-europe-series-11",
+            "stage_name": "Scheduled series",
+            "starts_at": "2026-10-20T17:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Lavked",
+            "team2_name": "ex-6666"
           }
         ],
         "name": "CCT 2026 Europe Series 11",
@@ -42415,7 +43049,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 17
       }
     ],
-    "last_verified_utc": "2026-10-18T20:46:05Z",
+    "last_verified_utc": "2026-10-18T23:18:03Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -42440,7 +43074,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-18T20:50:27Z",
+      "checked_at_utc": "2026-10-18T23:18:21Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -42824,7 +43458,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-18T20:50:51Z",
+  "generated_at_utc": "2026-10-18T23:18:52Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -44200,12 +44834,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.628025,
-        "brier": 0.225117,
-        "ece": 0.021001,
-        "log_loss": 0.639968
+        "accuracy": 0.629299,
+        "brier": 0.224781,
+        "ece": 0.021077,
+        "log_loss": 0.639118
       },
-      "rows": 1175,
+      "rows": 1177,
       "slices": [
         {
           "dimension": "tier",
@@ -44213,12 +44847,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.671271,
-            "brier": 0.205629,
-            "ece": 0.047232,
-            "log_loss": 0.596864
+            "accuracy": 0.675,
+            "brier": 0.204101,
+            "ece": 0.048233,
+            "log_loss": 0.593313
           },
-          "rows": 362
+          "rows": 360
         },
         {
           "dimension": "tier",
@@ -44226,12 +44860,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.591017,
-            "brier": 0.241794,
-            "ece": 0.0287,
-            "log_loss": 0.676855
+            "accuracy": 0.590588,
+            "brier": 0.242298,
+            "ece": 0.02808,
+            "log_loss": 0.677918
           },
-          "rows": 423
+          "rows": 425
         },
         {
           "dimension": "series_format",
@@ -44239,12 +44873,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.686047,
-            "brier": 0.220612,
-            "ece": 0.081317,
-            "log_loss": 0.631074
+            "accuracy": 0.702381,
+            "brier": 0.214419,
+            "ece": 0.092413,
+            "log_loss": 0.616671
           },
-          "rows": 86
+          "rows": 84
         },
         {
           "dimension": "series_format",
@@ -44252,12 +44886,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.618841,
-            "brier": 0.226494,
-            "ece": 0.025171,
-            "log_loss": 0.642858
+            "accuracy": 0.618497,
+            "brier": 0.226848,
+            "ece": 0.0248,
+            "log_loss": 0.643609
           },
-          "rows": 690
+          "rows": 692
         },
         {
           "dimension": "series_format",
@@ -44284,10 +44918,10 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.631847,
-        "brier": 0.227804,
-        "ece": 0.057871,
-        "log_loss": 0.646341
+        "accuracy": 0.633121,
+        "brier": 0.227475,
+        "ece": 0.059437,
+        "log_loss": 0.645613
       },
       "promotion_passed": false,
       "rows": 785,
@@ -44298,12 +44932,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.674033,
-            "brier": 0.208643,
-            "ece": 0.072965,
-            "log_loss": 0.605252
+            "accuracy": 0.677778,
+            "brier": 0.207443,
+            "ece": 0.077039,
+            "log_loss": 0.602661
           },
-          "rows": 362
+          "rows": 360
         },
         {
           "dimension": "tier",
@@ -44311,12 +44945,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.595745,
-            "brier": 0.244201,
-            "ece": 0.064336,
-            "log_loss": 0.681505
+            "accuracy": 0.595294,
+            "brier": 0.244444,
+            "ece": 0.063818,
+            "log_loss": 0.681996
           },
-          "rows": 423
+          "rows": 425
         },
         {
           "dimension": "series_format",
@@ -44324,12 +44958,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.686047,
-            "brier": 0.224955,
-            "ece": 0.117173,
-            "log_loss": 0.640683
+            "accuracy": 0.702381,
+            "brier": 0.220304,
+            "ece": 0.135131,
+            "log_loss": 0.630562
           },
-          "rows": 86
+          "rows": 84
         },
         {
           "dimension": "series_format",
@@ -44337,12 +44971,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.623188,
-            "brier": 0.228852,
-            "ece": 0.051874,
-            "log_loss": 0.648509
+            "accuracy": 0.622832,
+            "brier": 0.229033,
+            "ece": 0.051659,
+            "log_loss": 0.648888
           },
-          "rows": 690
+          "rows": 692
         },
         {
           "dimension": "series_format",
@@ -44378,7 +45012,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-18T20:50:50Z",
+    "generated_at_utc": "2026-10-18T23:18:52Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -44388,12 +45022,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.671271,
-            "brier": 0.205629,
-            "ece": 0.047232,
-            "log_loss": 0.596864
+            "accuracy": 0.675,
+            "brier": 0.204101,
+            "ece": 0.048233,
+            "log_loss": 0.593313
           },
-          "rows": 362
+          "rows": 360
         },
         {
           "dimension": "tier",
@@ -44401,12 +45035,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.591017,
-            "brier": 0.241794,
-            "ece": 0.0287,
-            "log_loss": 0.676855
+            "accuracy": 0.590588,
+            "brier": 0.242298,
+            "ece": 0.02808,
+            "log_loss": 0.677918
           },
-          "rows": 423
+          "rows": 425
         },
         {
           "dimension": "series_format",
@@ -44414,12 +45048,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.686047,
-            "brier": 0.220612,
-            "ece": 0.081317,
-            "log_loss": 0.631074
+            "accuracy": 0.702381,
+            "brier": 0.214419,
+            "ece": 0.092413,
+            "log_loss": 0.616671
           },
-          "rows": 86
+          "rows": 84
         },
         {
           "dimension": "series_format",
@@ -44427,12 +45061,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.618841,
-            "brier": 0.226494,
-            "ece": 0.025171,
-            "log_loss": 0.642858
+            "accuracy": 0.618497,
+            "brier": 0.226848,
+            "ece": 0.0248,
+            "log_loss": 0.643609
           },
-          "rows": 690
+          "rows": 692
         },
         {
           "dimension": "series_format",
@@ -44454,25 +45088,25 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_1",
             "passed": true,
-            "rows": 362
+            "rows": 360
           },
           {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 423
+            "rows": 425
           },
           {
             "eligible": true,
             "key": "bo1",
-            "passed": true,
-            "rows": 86
+            "passed": false,
+            "rows": 84
           },
           {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 690
+            "rows": 692
           },
           {
             "eligible": false,
@@ -44481,7 +45115,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "rows": 9
           }
         ],
-        "passed": true
+        "passed": false
       },
       "challenger_slices": [
         {
@@ -44490,12 +45124,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.674033,
-            "brier": 0.208643,
-            "ece": 0.072965,
-            "log_loss": 0.605252
+            "accuracy": 0.677778,
+            "brier": 0.207443,
+            "ece": 0.077039,
+            "log_loss": 0.602661
           },
-          "rows": 362
+          "rows": 360
         },
         {
           "dimension": "tier",
@@ -44503,12 +45137,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.595745,
-            "brier": 0.242122,
-            "ece": 0.046182,
-            "log_loss": 0.677406
+            "accuracy": 0.595294,
+            "brier": 0.242619,
+            "ece": 0.048691,
+            "log_loss": 0.678449
           },
-          "rows": 423
+          "rows": 425
         },
         {
           "dimension": "series_format",
@@ -44516,12 +45150,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.686047,
-            "brier": 0.222532,
-            "ece": 0.110742,
-            "log_loss": 0.635736
+            "accuracy": 0.702381,
+            "brier": 0.217798,
+            "ece": 0.128515,
+            "log_loss": 0.625446
           },
-          "rows": 86
+          "rows": 84
         },
         {
           "dimension": "series_format",
@@ -44529,12 +45163,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.623188,
-            "brier": 0.227879,
-            "ece": 0.033376,
-            "log_loss": 0.646612
+            "accuracy": 0.622832,
+            "brier": 0.228216,
+            "ece": 0.033086,
+            "log_loss": 0.647331
           },
-          "rows": 690
+          "rows": 692
         },
         {
           "dimension": "series_format",
@@ -44551,10 +45185,10 @@ window.__STRIKESIGNAL_DATA__ = {
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.628025,
-        "brier": 0.226113,
-        "ece": 0.043508,
-        "log_loss": 0.641865
+        "accuracy": 0.629299,
+        "brier": 0.22564,
+        "ece": 0.045111,
+        "log_loss": 0.640715
       },
       "champion_slices": [
         {
@@ -44563,12 +45197,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.671271,
-            "brier": 0.205629,
-            "ece": 0.047232,
-            "log_loss": 0.596864
+            "accuracy": 0.675,
+            "brier": 0.204101,
+            "ece": 0.048233,
+            "log_loss": 0.593313
           },
-          "rows": 362
+          "rows": 360
         },
         {
           "dimension": "tier",
@@ -44576,12 +45210,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.591017,
-            "brier": 0.243642,
-            "ece": 0.058583,
-            "log_loss": 0.680376
+            "accuracy": 0.590588,
+            "brier": 0.243884,
+            "ece": 0.058065,
+            "log_loss": 0.680867
           },
-          "rows": 423
+          "rows": 425
         },
         {
           "dimension": "series_format",
@@ -44589,12 +45223,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.686047,
-            "brier": 0.222934,
-            "ece": 0.090514,
-            "log_loss": 0.635803
+            "accuracy": 0.702381,
+            "brier": 0.216795,
+            "ece": 0.101828,
+            "log_loss": 0.621513
           },
-          "rows": 86
+          "rows": 84
         },
         {
           "dimension": "series_format",
@@ -44602,12 +45236,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.618841,
-            "brier": 0.227337,
-            "ece": 0.040142,
-            "log_loss": 0.644427
+            "accuracy": 0.618497,
+            "brier": 0.227533,
+            "ece": 0.039877,
+            "log_loss": 0.644832
           },
-          "rows": 690
+          "rows": 692
         },
         {
           "dimension": "series_format",
@@ -44628,32 +45262,32 @@ window.__STRIKESIGNAL_DATA__ = {
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.591017,
-          "brier": 0.242154,
-          "ece": 0.053002,
-          "log_loss": 0.677381
+          "accuracy": 0.590588,
+          "brier": 0.242525,
+          "ece": 0.055394,
+          "log_loss": 0.678144
         },
         "before": {
-          "accuracy": 0.591017,
-          "brier": 0.243642,
-          "ece": 0.058583,
-          "log_loss": 0.680376
+          "accuracy": 0.590588,
+          "brier": 0.243884,
+          "ece": 0.058065,
+          "log_loss": 0.680867
         },
         "candidate_shrink": 0.75,
         "overall_after": {
-          "accuracy": 0.628025,
-          "brier": 0.225311,
-          "ece": 0.040158,
-          "log_loss": 0.640251
+          "accuracy": 0.629299,
+          "brier": 0.224904,
+          "ece": 0.043322,
+          "log_loss": 0.639241
         },
         "overall_before": {
-          "accuracy": 0.628025,
-          "brier": 0.226113,
-          "ece": 0.043508,
-          "log_loss": 0.641865
+          "accuracy": 0.629299,
+          "brier": 0.22564,
+          "ece": 0.045111,
+          "log_loss": 0.640715
         },
         "passed": false,
-        "rows": 423,
+        "rows": 425,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -44672,8 +45306,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 1,
-      "online_rows": 418,
+      "new_rows": 2,
+      "online_rows": 420,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -45220,9 +45854,11 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2399314",
       "hltv:2399315",
       "hltv:2399316",
-      "hltv:2399317"
+      "hltv:2399317",
+      "hltv:2399414",
+      "hltv:2399415"
     ],
-    "last_online_update_utc": "2026-10-18T20:50:51Z",
+    "last_online_update_utc": "2026-10-18T23:18:52Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -47575,11 +48211,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 1
       },
       {
-        "elo": 1795.86,
-        "last_result_utc": "2026-10-15T14:28:29Z",
-        "matches": 95,
+        "elo": 1780.45,
+        "last_result_utc": "2026-10-17T20:10:56Z",
+        "matches": 96,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.7187,
+        "recent_win_rate_10": 0.588,
         "team_key": "falcons",
         "team_name": "Falcons",
         "vrs_points": 1843,
@@ -47630,11 +48266,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 49
       },
       {
-        "elo": 1683.08,
-        "last_result_utc": "2026-10-16T16:08:01Z",
-        "matches": 141,
+        "elo": 1669.62,
+        "last_result_utc": "2026-10-17T15:58:52Z",
+        "matches": 142,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.5623,
+        "recent_win_rate_10": 0.4601,
         "team_key": "aurora",
         "team_name": "Aurora",
         "vrs_points": 1716,
@@ -47662,11 +48298,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 10
       },
       {
-        "elo": 1687.78,
-        "last_result_utc": "2026-10-14T21:00:09Z",
-        "matches": 130,
+        "elo": 1701.24,
+        "last_result_utc": "2026-10-17T15:58:52Z",
+        "matches": 131,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.505,
+        "recent_win_rate_10": 0.595,
         "team_key": "furia",
         "team_name": "FURIA",
         "vrs_points": 1829,
@@ -47727,11 +48363,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 13
       },
       {
-        "elo": 1706.84,
-        "last_result_utc": "2026-10-16T20:28:36Z",
-        "matches": 160,
+        "elo": 1722.25,
+        "last_result_utc": "2026-10-17T20:10:56Z",
+        "matches": 161,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.6221,
+        "recent_win_rate_10": 0.6908,
         "team_key": "betboom",
         "team_name": "BetBoom",
         "vrs_points": 1596,
@@ -55545,12 +56181,49 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_vrs_rank": 141
     },
     {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5197,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4803,
+      "event_id": "hltv:9442",
+      "event_name": "CCT 2026 Europe Series 11",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "2026-10-20",
+      "match_id": "hltv:2399323",
+      "match_phase": "scheduled",
+      "match_timestamp": 1792515600,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "ex-6666",
+      "prob_team1": 0.4803,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399323/lavked-vs-ex-6666-cct-2026-europe-series-11",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-20T17:00:00Z",
+      "status": "upcoming",
+      "team1_hltv_rank": null,
+      "team1_name": "Lavked",
+      "team1_vrs_rank": 143,
+      "team2_hltv_rank": null,
+      "team2_name": "ex-6666",
+      "team2_vrs_rank": null
+    },
+    {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.6274,
+      "confidence": 0.6018,
       "confidence_label": "lean",
       "data_quality": "full",
-      "elo_prob_team1": 0.6274,
+      "elo_prob_team1": 0.6018,
       "event_id": "hltv:8050",
       "event_name": "PGL Masters Bucharest 2026",
       "format": "bo3",
@@ -55565,7 +56238,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "Aurora",
-      "prob_team1": 0.6274,
+      "prob_team1": 0.6018,
       "product_tier": "tier_1",
       "round_name": "",
       "series_format": "bo3",
@@ -55621,10 +56294,10 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7049,
+      "confidence": 0.6817,
       "confidence_label": "watch",
       "data_quality": "full",
-      "elo_prob_team1": 0.7049,
+      "elo_prob_team1": 0.6817,
       "event_id": "hltv:8050",
       "event_name": "PGL Masters Bucharest 2026",
       "format": "bo3",
@@ -55639,7 +56312,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "Spirit",
-      "prob_team1": 0.7049,
+      "prob_team1": 0.6817,
       "product_tier": "tier_1",
       "round_name": "",
       "series_format": "bo3",
@@ -55806,10 +56479,10 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.8161,
+      "confidence": 0.8313,
       "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.8161,
+      "elo_prob_team1": 0.8313,
       "event_id": "hltv:8050",
       "event_name": "PGL Masters Bucharest 2026",
       "format": "bo3",
@@ -55824,7 +56497,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "FURIA",
-      "prob_team1": 0.8161,
+      "prob_team1": 0.8313,
       "product_tier": "tier_1",
       "round_name": "",
       "series_format": "bo3",
@@ -55839,161 +56512,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "DENDELE",
       "team2_vrs_rank": 39
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5034,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4966,
-      "event_id": "hltv:thunderpick-world-championship-2026",
-      "event_name": "Thunderpick World Championship 2026",
-      "format": "bo3",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "2023",
-            "nickname": "FalleN",
-            "player_id": "hltv:2023",
-            "source_url": "https://www.hltv.org/player/2023/fallen",
-            "team_name": "FURIA"
-          },
-          {
-            "hltv_player_id": "12553",
-            "nickname": "yuurih",
-            "player_id": "hltv:12553",
-            "source_url": "https://www.hltv.org/player/12553/yuurih",
-            "team_name": "FURIA"
-          },
-          {
-            "hltv_player_id": "13915",
-            "nickname": "YEKINDAR",
-            "player_id": "hltv:13915",
-            "source_url": "https://www.hltv.org/player/13915/yekindar",
-            "team_name": "FURIA"
-          },
-          {
-            "hltv_player_id": "15631",
-            "nickname": "KSCERATO",
-            "player_id": "hltv:15631",
-            "source_url": "https://www.hltv.org/player/15631/kscerato",
-            "team_name": "FURIA"
-          },
-          {
-            "hltv_player_id": "24144",
-            "nickname": "molodoy",
-            "player_id": "hltv:24144",
-            "source_url": "https://www.hltv.org/player/24144/molodoy",
-            "team_name": "FURIA"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "11840",
-            "nickname": "Boombl4",
-            "player_id": "hltv:11840",
-            "source_url": "https://www.hltv.org/player/11840/boombl4",
-            "team_name": "BETBOOM"
-          },
-          {
-            "hltv_player_id": "15662",
-            "nickname": "zorte",
-            "player_id": "hltv:15662",
-            "source_url": "https://www.hltv.org/player/15662/zorte",
-            "team_name": "BETBOOM"
-          },
-          {
-            "hltv_player_id": "18506",
-            "nickname": "S1ren",
-            "player_id": "hltv:18506",
-            "source_url": "https://www.hltv.org/player/18506/s1ren",
-            "team_name": "BETBOOM"
-          },
-          {
-            "hltv_player_id": "20357",
-            "nickname": "d1Ledez",
-            "player_id": "hltv:20357",
-            "source_url": "https://www.hltv.org/player/20357/d1ledez",
-            "team_name": "BETBOOM"
-          },
-          {
-            "hltv_player_id": "21667",
-            "nickname": "Magnojez",
-            "player_id": "hltv:21667",
-            "source_url": "https://www.hltv.org/player/21667/magnojez",
-            "team_name": "BETBOOM"
-          }
-        ]
-      },
-      "map_results": [
-        {
-          "map_name": "Dust2",
-          "score1": 13,
-          "score2": 6,
-          "status": "finished"
-        },
-        {
-          "map_name": "Ancient",
-          "score1": 16,
-          "score2": 19,
-          "status": "finished"
-        },
-        {
-          "map_name": "Nuke",
-          "score1": 9,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": 13,
-          "score2": 11,
-          "status": "finished"
-        },
-        {
-          "map_name": "Cache",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Dust2",
-        "Ancient",
-        "Nuke",
-        "Mirage",
-        "Cache"
-      ],
-      "match_date": "",
-      "match_id": "hltv:2399417",
-      "match_phase": "scheduled",
-      "match_timestamp": null,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "BETBOOM",
-      "prob_team1": 0.4966,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399417/furia-vs-betboom-thunderpick-world-championship-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": null,
-      "status": "live",
-      "team1_hltv_rank": null,
-      "team1_name": "FURIA",
-      "team1_vrs_rank": 7,
-      "team2_hltv_rank": null,
-      "team2_name": "BETBOOM",
-      "team2_vrs_rank": 11
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 25,
-    "online_results_applied": 1,
+    "live_feed_items": 24,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

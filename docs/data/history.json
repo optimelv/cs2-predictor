@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-18T20:46:05Z",
+  "generated_at_utc": "2026-10-18T23:18:03Z",
   "through_date": "2026-10-18",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 3996,
-    "maps": 2882,
-    "lineup_rows": 9483,
+    "matches": 3997,
+    "maps": 2887,
+    "lineup_rows": 9503,
     "source_match_ids": 976
   },
   "matches": [
@@ -675,7 +675,7 @@
       "winner_name": "The Last Resort",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
+      "phase": "Scheduled series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -719,28 +719,6 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_2"
-    },
-    {
-      "match_id": "liquipedia:b01baed315627b49aadd",
-      "match_date": "2026-10-17",
-      "starts_at": "2026-10-17T14:00:00Z",
-      "event_name": "Thunderpick World Champ. '26 - Playoffs",
-      "team1_name": "Aurora",
-      "team2_name": "FURIA",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "FURIA",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Playoffs"
     },
     {
       "match_id": "liquipedia:ce3bdd158cd6621709b8",
@@ -807,6 +785,119 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_2"
+    },
+    {
+      "match_id": "hltv:2399414",
+      "match_date": "2026-10-17",
+      "event_name": "Thunderpick World Championship 2026",
+      "team1_name": "FURIA",
+      "team2_name": "Aurora",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FURIA",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 8,
+          "winner_name": "FURIA",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "FURIA",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "molodoy",
+          "yuurih",
+          "FalleN",
+          "KSCERATO",
+          "YEKINDAR"
+        ],
+        "team2": [
+          "woxic",
+          "XANTARES",
+          "Wicadia",
+          "Jimpphat",
+          "kyxsan"
+        ]
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:b01baed315627b49aadd",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/Thunderpick/World_Championship/2026#Playoffs",
+          "starts_at": "2026-10-17T14:00:00Z"
+        }
+      ]
+    },
+    {
+      "match_id": "hltv:2399415",
+      "match_date": "2026-10-17",
+      "event_name": "Thunderpick World Championship 2026",
+      "team1_name": "Falcons",
+      "team2_name": "BETBOOM",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "BETBOOM",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 5,
+          "winner_name": "Falcons",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 14,
+          "score2": 16,
+          "winner_name": "BETBOOM",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 7,
+          "score2": 13,
+          "winner_name": "BETBOOM",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "karrigan",
+          "NiKo",
+          "m0NESY",
+          "TeSeS",
+          "kyousuke"
+        ],
+        "team2": [
+          "Magnojez",
+          "Boombl4",
+          "d1Ledez",
+          "zorte",
+          "S1ren"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399670",
