@@ -968,14 +968,29 @@
           "kast": 67.6,
           "rating": 1.14,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399416",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Aurora",
+          "team_name": "Falcons",
+          "won": false,
+          "kills": 68,
+          "deaths": 50,
+          "kd_ratio": 1.36,
+          "adr": 73.1,
+          "kast": 68.4,
+          "rating": 1.34,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 11,
+        "series": 12,
         "average_rating": 1.3,
-        "average_adr": 77.5,
-        "recent_rating": 1.25,
-        "rating_delta": 0.13
+        "average_adr": 77.1,
+        "recent_rating": 1.15,
+        "rating_delta": -0.13
       },
       "map_profile": [
         {
@@ -1067,28 +1082,28 @@
         {
           "team_name": "Falcons",
           "from_date": "2025-11-12",
-          "through_date": "2026-10-17",
-          "series": 11,
+          "through_date": "2026-10-18",
+          "series": 12,
           "wins": 8,
-          "losses": 3,
-          "win_rate": 0.727,
+          "losses": 4,
+          "win_rate": 0.667,
           "average_rating": 1.3,
-          "average_adr": 77.5
+          "average_adr": 77.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399415",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399416",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "BETBOOM",
+        "opponent_name": "Aurora",
         "team_name": "Falcons",
         "won": false,
-        "kills": 55,
-        "deaths": 47,
-        "kd_ratio": 1.17,
-        "adr": 81,
-        "kast": 67.6,
-        "rating": 1.14,
+        "kills": 68,
+        "deaths": 50,
+        "kd_ratio": 1.36,
+        "adr": 73.1,
+        "kast": 68.4,
+        "rating": 1.34,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -2539,14 +2554,29 @@
           "kast": 70.5,
           "rating": 1.67,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399417",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "BETBOOM",
+          "team_name": "FURIA",
+          "won": true,
+          "kills": 82,
+          "deaths": 72,
+          "kd_ratio": 1.14,
+          "adr": 81.1,
+          "kast": 75.6,
+          "rating": 1.13,
+          "maps": 5
         }
       ],
       "form_summary": {
-        "series": 14,
-        "average_rating": 1.17,
-        "average_adr": 72.2,
-        "recent_rating": 1.4,
-        "rating_delta": 0.35
+        "series": 15,
+        "average_rating": 1.16,
+        "average_adr": 72.8,
+        "recent_rating": 1.51,
+        "rating_delta": 0.74
       },
       "map_profile": [
         {
@@ -2638,29 +2668,29 @@
         {
           "team_name": "FURIA",
           "from_date": "2025-09-06",
-          "through_date": "2026-10-17",
-          "series": 14,
-          "wins": 8,
+          "through_date": "2026-10-18",
+          "series": 15,
+          "wins": 9,
           "losses": 6,
-          "win_rate": 0.571,
-          "average_rating": 1.17,
-          "average_adr": 72.2
+          "win_rate": 0.6,
+          "average_rating": 1.16,
+          "average_adr": 72.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399414",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399417",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Aurora",
+        "opponent_name": "BETBOOM",
         "team_name": "FURIA",
         "won": true,
-        "kills": 38,
-        "deaths": 22,
-        "kd_ratio": 1.73,
-        "adr": 91.3,
-        "kast": 70.5,
-        "rating": 1.67,
-        "maps": 3
+        "kills": 82,
+        "deaths": 72,
+        "kd_ratio": 1.14,
+        "adr": 81.1,
+        "kast": 75.6,
+        "rating": 1.13,
+        "maps": 5
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -3339,6 +3369,36 @@
           "kast": 68.6,
           "rating": 0.96,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 52,
+          "deaths": 67,
+          "kd_ratio": 0.78,
+          "adr": 78.5,
+          "kast": 67.1,
+          "rating": 0.89,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 52,
+          "deaths": 41,
+          "kd_ratio": 1.27,
+          "adr": 95.5,
+          "kast": 80,
+          "rating": 1.35,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -3346,36 +3406,36 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-18",
-          "series": 9,
-          "wins": 5,
-          "losses": 4,
-          "win_rate": 0.556,
-          "average_rating": 1.18,
-          "average_adr": 90.5
+          "through_date": "2026-10-19",
+          "series": 11,
+          "wins": 6,
+          "losses": 5,
+          "win_rate": 0.545,
+          "average_rating": 1.17,
+          "average_adr": 89.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399316",
-        "date": "2026-10-18",
+        "match_id": "hltv:2399319",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "G2 Ares",
         "team_name": "mellren",
         "won": false,
-        "kills": 45,
-        "deaths": 53,
-        "kd_ratio": 0.85,
-        "adr": 73.9,
-        "kast": 67.6,
-        "rating": 0.79,
+        "kills": 52,
+        "deaths": 67,
+        "kd_ratio": 0.78,
+        "adr": 78.5,
+        "kast": 67.1,
+        "rating": 0.89,
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.18,
-        "average_adr": 90.5,
-        "recent_rating": 1.21,
-        "rating_delta": -0.06
+        "series": 11,
+        "average_rating": 1.17,
+        "average_adr": 89.8,
+        "recent_rating": 1.07,
+        "rating_delta": -0.23
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -8100,6 +8160,21 @@
           "kast": 70.5,
           "rating": 0.92,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399416",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Falcons",
+          "team_name": "Aurora",
+          "won": true,
+          "kills": 69,
+          "deaths": 44,
+          "kd_ratio": 1.57,
+          "adr": 87.9,
+          "kast": 74.7,
+          "rating": 1.37,
+          "maps": 3
         }
       ],
       "hltv_player_id": "18850",
@@ -8109,36 +8184,36 @@
         {
           "team_name": "Aurora",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 3,
-          "wins": 1,
+          "through_date": "2026-10-18",
+          "series": 4,
+          "wins": 2,
           "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 1.14,
-          "average_adr": 78.6
+          "win_rate": 0.5,
+          "average_rating": 1.2,
+          "average_adr": 80.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399414",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399416",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "FURIA",
+        "opponent_name": "Falcons",
         "team_name": "Aurora",
-        "won": false,
-        "kills": 29,
-        "deaths": 29,
-        "kd_ratio": 1,
-        "adr": 68.7,
-        "kast": 70.5,
-        "rating": 0.92,
+        "won": true,
+        "kills": 69,
+        "deaths": 44,
+        "kd_ratio": 1.57,
+        "adr": 87.9,
+        "kast": 74.7,
+        "rating": 1.37,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.14,
-        "average_adr": 78.6,
-        "recent_rating": 1.14,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.2,
+        "average_adr": 80.9,
+        "recent_rating": 1.2,
+        "rating_delta": 0.01
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -9732,14 +9807,29 @@
           "kast": 65.9,
           "rating": 0.94,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399416",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Falcons",
+          "team_name": "Aurora",
+          "won": true,
+          "kills": 56,
+          "deaths": 48,
+          "kd_ratio": 1.17,
+          "adr": 69.7,
+          "kast": 70.9,
+          "rating": 1.01,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 15,
-        "average_rating": 1.21,
-        "average_adr": 81.5,
-        "recent_rating": 1,
-        "rating_delta": -0.34
+        "series": 16,
+        "average_rating": 1.2,
+        "average_adr": 80.8,
+        "recent_rating": 1.08,
+        "rating_delta": 0.02
       },
       "map_profile": [
         {
@@ -9845,28 +9935,28 @@
         {
           "team_name": "Aurora",
           "from_date": "2025-10-27",
-          "through_date": "2026-10-17",
-          "series": 15,
-          "wins": 10,
+          "through_date": "2026-10-18",
+          "series": 16,
+          "wins": 11,
           "losses": 5,
-          "win_rate": 0.667,
-          "average_rating": 1.21,
-          "average_adr": 81.5
+          "win_rate": 0.688,
+          "average_rating": 1.2,
+          "average_adr": 80.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399414",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399416",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "FURIA",
+        "opponent_name": "Falcons",
         "team_name": "Aurora",
-        "won": false,
-        "kills": 30,
-        "deaths": 33,
-        "kd_ratio": 0.91,
-        "adr": 77.6,
-        "kast": 65.9,
-        "rating": 0.94,
+        "won": true,
+        "kills": 56,
+        "deaths": 48,
+        "kd_ratio": 1.17,
+        "adr": 69.7,
+        "kast": 70.9,
+        "rating": 1.01,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -11525,14 +11615,29 @@
           "kast": 60.3,
           "rating": 0.84,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399416",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Aurora",
+          "team_name": "Falcons",
+          "won": false,
+          "kills": 53,
+          "deaths": 57,
+          "kd_ratio": 0.93,
+          "adr": 78.9,
+          "kast": 70.9,
+          "rating": 1.13,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 11,
+        "series": 12,
         "average_rating": 1.1,
-        "average_adr": 72.9,
-        "recent_rating": 0.89,
-        "rating_delta": -0.43
+        "average_adr": 73.4,
+        "recent_rating": 0.96,
+        "rating_delta": -0.23
       },
       "map_profile": [
         {
@@ -11624,28 +11729,28 @@
         {
           "team_name": "Falcons",
           "from_date": "2025-11-12",
-          "through_date": "2026-10-17",
-          "series": 11,
+          "through_date": "2026-10-18",
+          "series": 12,
           "wins": 8,
-          "losses": 3,
-          "win_rate": 0.727,
+          "losses": 4,
+          "win_rate": 0.667,
           "average_rating": 1.1,
-          "average_adr": 72.9
+          "average_adr": 73.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399415",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399416",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "BETBOOM",
+        "opponent_name": "Aurora",
         "team_name": "Falcons",
         "won": false,
-        "kills": 39,
-        "deaths": 48,
-        "kd_ratio": 0.81,
-        "adr": 70.6,
-        "kast": 60.3,
-        "rating": 0.84,
+        "kills": 53,
+        "deaths": 57,
+        "kd_ratio": 0.93,
+        "adr": 78.9,
+        "kast": 70.9,
+        "rating": 1.13,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -11874,14 +11979,29 @@
           "kast": 70.5,
           "rating": 1.17,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399417",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "BETBOOM",
+          "team_name": "FURIA",
+          "won": true,
+          "kills": 85,
+          "deaths": 78,
+          "kd_ratio": 1.09,
+          "adr": 68.4,
+          "kast": 74.8,
+          "rating": 0.96,
+          "maps": 5
         }
       ],
       "form_summary": {
-        "series": 14,
-        "average_rating": 1.15,
-        "average_adr": 75.7,
-        "recent_rating": 1.35,
-        "rating_delta": -0.02
+        "series": 15,
+        "average_rating": 1.14,
+        "average_adr": 75.2,
+        "recent_rating": 1.11,
+        "rating_delta": -0.16
       },
       "map_profile": [
         {
@@ -11973,29 +12093,29 @@
         {
           "team_name": "FURIA",
           "from_date": "2025-09-06",
-          "through_date": "2026-10-17",
-          "series": 14,
-          "wins": 8,
+          "through_date": "2026-10-18",
+          "series": 15,
+          "wins": 9,
           "losses": 6,
-          "win_rate": 0.571,
-          "average_rating": 1.15,
-          "average_adr": 75.7
+          "win_rate": 0.6,
+          "average_rating": 1.14,
+          "average_adr": 75.2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399414",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399417",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Aurora",
+        "opponent_name": "BETBOOM",
         "team_name": "FURIA",
         "won": true,
-        "kills": 31,
-        "deaths": 28,
-        "kd_ratio": 1.11,
-        "adr": 77.1,
-        "kast": 70.5,
-        "rating": 1.17,
-        "maps": 3
+        "kills": 85,
+        "deaths": 78,
+        "kd_ratio": 1.09,
+        "adr": 68.4,
+        "kast": 74.8,
+        "rating": 0.96,
+        "maps": 5
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -12182,14 +12302,29 @@
           "kast": 69.1,
           "rating": 0.93,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399416",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Aurora",
+          "team_name": "Falcons",
+          "won": false,
+          "kills": 58,
+          "deaths": 52,
+          "kd_ratio": 1.12,
+          "adr": 78,
+          "kast": 68.4,
+          "rating": 1.19,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 11,
-        "average_rating": 1.04,
-        "average_adr": 66.1,
-        "recent_rating": 1.06,
-        "rating_delta": 0.02
+        "series": 12,
+        "average_rating": 1.05,
+        "average_adr": 67.1,
+        "recent_rating": 1.07,
+        "rating_delta": -0.1
       },
       "map_profile": [
         {
@@ -12281,28 +12416,28 @@
         {
           "team_name": "Falcons",
           "from_date": "2025-11-12",
-          "through_date": "2026-10-17",
-          "series": 11,
+          "through_date": "2026-10-18",
+          "series": 12,
           "wins": 8,
-          "losses": 3,
-          "win_rate": 0.727,
-          "average_rating": 1.04,
-          "average_adr": 66.1
+          "losses": 4,
+          "win_rate": 0.667,
+          "average_rating": 1.05,
+          "average_adr": 67.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399415",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399416",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "BETBOOM",
+        "opponent_name": "Aurora",
         "team_name": "Falcons",
         "won": false,
-        "kills": 44,
-        "deaths": 53,
-        "kd_ratio": 0.83,
-        "adr": 71.1,
-        "kast": 69.1,
-        "rating": 0.93,
+        "kills": 58,
+        "deaths": 52,
+        "kd_ratio": 1.12,
+        "adr": 78,
+        "kast": 68.4,
+        "rating": 1.19,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -12634,6 +12769,36 @@
           "kast": 68.6,
           "rating": 0.76,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 58,
+          "deaths": 56,
+          "kd_ratio": 1.04,
+          "adr": 72.1,
+          "kast": 68.3,
+          "rating": 1.09,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 41,
+          "deaths": 38,
+          "kd_ratio": 1.08,
+          "adr": 75.6,
+          "kast": 75,
+          "rating": 1.22,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -12641,36 +12806,36 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-18",
-          "series": 9,
-          "wins": 5,
-          "losses": 4,
-          "win_rate": 0.556,
-          "average_rating": 1.05,
-          "average_adr": 72.4
+          "through_date": "2026-10-19",
+          "series": 11,
+          "wins": 6,
+          "losses": 5,
+          "win_rate": 0.545,
+          "average_rating": 1.07,
+          "average_adr": 72.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399316",
-        "date": "2026-10-18",
+        "match_id": "hltv:2399319",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "G2 Ares",
         "team_name": "mellren",
         "won": false,
-        "kills": 53,
-        "deaths": 50,
-        "kd_ratio": 1.06,
-        "adr": 85.1,
-        "kast": 75,
-        "rating": 1.22,
+        "kills": 58,
+        "deaths": 56,
+        "kd_ratio": 1.04,
+        "adr": 72.1,
+        "kast": 68.3,
+        "rating": 1.09,
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.05,
-        "average_adr": 72.4,
-        "recent_rating": 1,
-        "rating_delta": -0.27
+        "series": 11,
+        "average_rating": 1.07,
+        "average_adr": 72.7,
+        "recent_rating": 1.02,
+        "rating_delta": -0.16
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -13395,44 +13560,59 @@
           "kast": 71.8,
           "rating": 0.75,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "mellren",
+          "team_name": "G2 Ares",
+          "won": true,
+          "kills": 72,
+          "deaths": 44,
+          "kd_ratio": 1.64,
+          "adr": 83.1,
+          "kast": 82.9,
+          "rating": 1.35,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24111",
       "source_url": "https://www.hltv.org/player/24111/junyme",
       "timeline_entry": {
-        "match_id": "hltv:2399310",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399319",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "mellren",
         "team_name": "G2 Ares",
-        "won": false,
-        "kills": 24,
-        "deaths": 33,
-        "kd_ratio": 0.73,
-        "adr": 71.3,
-        "kast": 71.8,
-        "rating": 0.75,
+        "won": true,
+        "kills": 72,
+        "deaths": 44,
+        "kd_ratio": 1.64,
+        "adr": 83.1,
+        "kast": 82.9,
+        "rating": 1.35,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.05,
-        "average_adr": 73.4,
-        "recent_rating": 0.85,
-        "rating_delta": -0.49
+        "series": 6,
+        "average_rating": 1.1,
+        "average_adr": 75,
+        "recent_rating": 1.01,
+        "rating_delta": -0.17
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-17",
-          "series": 5,
-          "wins": 2,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 3,
           "losses": 3,
-          "win_rate": 0.4,
-          "average_rating": 1.05,
-          "average_adr": 73.4
+          "win_rate": 0.5,
+          "average_rating": 1.1,
+          "average_adr": 75
         }
       ],
       "kd_ratio_3m": null,
@@ -13533,44 +13713,59 @@
           "kast": 76.9,
           "rating": 0.8,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "mellren",
+          "team_name": "G2 Ares",
+          "won": true,
+          "kills": 61,
+          "deaths": 55,
+          "kd_ratio": 1.11,
+          "adr": 91.4,
+          "kast": 80.5,
+          "rating": 1.28,
+          "maps": 3
         }
       ],
       "hltv_player_id": "23237",
       "source_url": "https://www.hltv.org/player/23237/tmkj",
       "timeline_entry": {
-        "match_id": "hltv:2399310",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399319",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "mellren",
         "team_name": "G2 Ares",
-        "won": false,
-        "kills": 23,
-        "deaths": 31,
-        "kd_ratio": 0.74,
-        "adr": 67.5,
-        "kast": 76.9,
-        "rating": 0.8,
+        "won": true,
+        "kills": 61,
+        "deaths": 55,
+        "kd_ratio": 1.11,
+        "adr": 91.4,
+        "kast": 80.5,
+        "rating": 1.28,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
+        "series": 6,
         "average_rating": 1.3,
-        "average_adr": 78.7,
-        "recent_rating": 0.9,
-        "rating_delta": -1
+        "average_adr": 80.8,
+        "recent_rating": 0.91,
+        "rating_delta": -0.78
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-17",
-          "series": 5,
-          "wins": 2,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 3,
           "losses": 3,
-          "win_rate": 0.4,
+          "win_rate": 0.5,
           "average_rating": 1.3,
-          "average_adr": 78.7
+          "average_adr": 80.8
         }
       ],
       "kd_ratio_3m": null,
@@ -15984,6 +16179,21 @@
           "kast": 68.3,
           "rating": 1.27,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399483",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Lilmix",
+          "team_name": "Saint Sinners",
+          "won": true,
+          "kills": 39,
+          "deaths": 24,
+          "kd_ratio": 1.62,
+          "adr": 90,
+          "kast": 76.2,
+          "rating": 1.43,
+          "maps": 3
         }
       ],
       "hltv_player_id": "26324",
@@ -15994,12 +16204,12 @@
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
           "through_date": "2026-10-19",
-          "series": 6,
-          "wins": 3,
+          "series": 7,
+          "wins": 4,
           "losses": 3,
-          "win_rate": 0.5,
-          "average_rating": 0.96,
-          "average_adr": 67.7
+          "win_rate": 0.571,
+          "average_rating": 1.03,
+          "average_adr": 70.9
         }
       ],
       "timeline_entry": {
@@ -16018,11 +16228,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 0.96,
-        "average_adr": 67.7,
-        "recent_rating": 1,
-        "rating_delta": 0.08
+        "series": 7,
+        "average_rating": 1.03,
+        "average_adr": 70.9,
+        "recent_rating": 1.26,
+        "rating_delta": 0.48
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -18271,6 +18481,21 @@
           "kast": 67.6,
           "rating": 1.05,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399417",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "FURIA",
+          "team_name": "BETBOOM",
+          "won": false,
+          "kills": 67,
+          "deaths": 85,
+          "kd_ratio": 0.79,
+          "adr": 64.6,
+          "kast": 67.2,
+          "rating": 0.86,
+          "maps": 5
         }
       ],
       "map_profile": [],
@@ -18278,36 +18503,36 @@
         {
           "team_name": "BETBOOM",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 4,
+          "through_date": "2026-10-18",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.1,
-          "average_adr": 80.7
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 1.06,
+          "average_adr": 77.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399415",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399417",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Falcons",
+        "opponent_name": "FURIA",
         "team_name": "BETBOOM",
-        "won": true,
-        "kills": 48,
-        "deaths": 46,
-        "kd_ratio": 1.04,
-        "adr": 78.1,
-        "kast": 67.6,
-        "rating": 1.05,
-        "maps": 3
+        "won": false,
+        "kills": 67,
+        "deaths": 85,
+        "kd_ratio": 0.79,
+        "adr": 64.6,
+        "kast": 67.2,
+        "rating": 0.86,
+        "maps": 5
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.1,
-        "average_adr": 80.7,
-        "recent_rating": 1.13,
-        "rating_delta": 0.09
+        "series": 5,
+        "average_rating": 1.06,
+        "average_adr": 77.5,
+        "recent_rating": 1,
+        "rating_delta": -0.15
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -18690,6 +18915,21 @@
           "kast": 73.2,
           "rating": 1.09,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399483",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Lilmix",
+          "team_name": "Saint Sinners",
+          "won": true,
+          "kills": 22,
+          "deaths": 31,
+          "kd_ratio": 0.71,
+          "adr": 65.5,
+          "kast": 61.9,
+          "rating": 0.81,
+          "maps": 3
         }
       ],
       "hltv_player_id": "26325",
@@ -18700,12 +18940,12 @@
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
           "through_date": "2026-10-19",
-          "series": 6,
-          "wins": 3,
+          "series": 7,
+          "wins": 4,
           "losses": 3,
-          "win_rate": 0.5,
-          "average_rating": 1.22,
-          "average_adr": 81.2
+          "win_rate": 0.571,
+          "average_rating": 1.16,
+          "average_adr": 78.9
         }
       ],
       "timeline_entry": {
@@ -18724,11 +18964,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.22,
-        "average_adr": 81.2,
-        "recent_rating": 1.43,
-        "rating_delta": 0.41
+        "series": 7,
+        "average_rating": 1.16,
+        "average_adr": 78.9,
+        "recent_rating": 1.42,
+        "rating_delta": 0.52
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -20341,14 +20581,29 @@
           "kast": 84.1,
           "rating": 1.39,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399417",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "BETBOOM",
+          "team_name": "FURIA",
+          "won": true,
+          "kills": 79,
+          "deaths": 78,
+          "kd_ratio": 1.01,
+          "adr": 74,
+          "kast": 67.2,
+          "rating": 1.06,
+          "maps": 5
         }
       ],
       "form_summary": {
-        "series": 14,
+        "series": 15,
         "average_rating": 1.09,
-        "average_adr": 70.5,
-        "recent_rating": 1,
-        "rating_delta": -0.03
+        "average_adr": 70.8,
+        "recent_rating": 1.08,
+        "rating_delta": 0.13
       },
       "map_profile": [
         {
@@ -20440,29 +20695,29 @@
         {
           "team_name": "FURIA",
           "from_date": "2025-09-06",
-          "through_date": "2026-10-17",
-          "series": 14,
-          "wins": 8,
+          "through_date": "2026-10-18",
+          "series": 15,
+          "wins": 9,
           "losses": 6,
-          "win_rate": 0.571,
+          "win_rate": 0.6,
           "average_rating": 1.09,
-          "average_adr": 70.5
+          "average_adr": 70.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399414",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399417",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Aurora",
+        "opponent_name": "BETBOOM",
         "team_name": "FURIA",
         "won": true,
-        "kills": 30,
-        "deaths": 24,
-        "kd_ratio": 1.25,
-        "adr": 81.9,
-        "kast": 84.1,
-        "rating": 1.39,
-        "maps": 3
+        "kills": 79,
+        "deaths": 78,
+        "kd_ratio": 1.01,
+        "adr": 74,
+        "kast": 67.2,
+        "rating": 1.06,
+        "maps": 5
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -21089,6 +21344,36 @@
           "kast": 65.7,
           "rating": 0.58,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 41,
+          "deaths": 56,
+          "kd_ratio": 0.73,
+          "adr": 57.7,
+          "kast": 68.3,
+          "rating": 0.84,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 31,
+          "deaths": 41,
+          "kd_ratio": 0.76,
+          "adr": 60.9,
+          "kast": 66.7,
+          "rating": 0.84,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -21096,36 +21381,36 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-18",
-          "series": 9,
-          "wins": 5,
-          "losses": 4,
-          "win_rate": 0.556,
-          "average_rating": 0.97,
-          "average_adr": 62.4
+          "through_date": "2026-10-19",
+          "series": 11,
+          "wins": 6,
+          "losses": 5,
+          "win_rate": 0.545,
+          "average_rating": 0.94,
+          "average_adr": 61.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399316",
-        "date": "2026-10-18",
+        "match_id": "hltv:2399319",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "G2 Ares",
         "team_name": "mellren",
         "won": false,
-        "kills": 38,
-        "deaths": 45,
-        "kd_ratio": 0.84,
-        "adr": 63.6,
-        "kast": 67.6,
-        "rating": 0.91,
+        "kills": 41,
+        "deaths": 56,
+        "kd_ratio": 0.73,
+        "adr": 57.7,
+        "kast": 68.3,
+        "rating": 0.84,
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 0.97,
-        "average_adr": 62.4,
-        "recent_rating": 0.98,
-        "rating_delta": -0.2
+        "series": 11,
+        "average_rating": 0.94,
+        "average_adr": 61.9,
+        "recent_rating": 0.75,
+        "rating_delta": -0.45
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -22470,14 +22755,29 @@
           "kast": 61.8,
           "rating": 0.92,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399416",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Aurora",
+          "team_name": "Falcons",
+          "won": false,
+          "kills": 32,
+          "deaths": 57,
+          "kd_ratio": 0.56,
+          "adr": 48.9,
+          "kast": 51.9,
+          "rating": 0.63,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 11,
-        "average_rating": 1.05,
-        "average_adr": 63.1,
-        "recent_rating": 1.12,
-        "rating_delta": 0.05
+        "series": 12,
+        "average_rating": 1.01,
+        "average_adr": 61.9,
+        "recent_rating": 0.94,
+        "rating_delta": -0.05
       },
       "map_profile": [
         {
@@ -22569,28 +22869,28 @@
         {
           "team_name": "Falcons",
           "from_date": "2025-11-12",
-          "through_date": "2026-10-17",
-          "series": 11,
+          "through_date": "2026-10-18",
+          "series": 12,
           "wins": 8,
-          "losses": 3,
-          "win_rate": 0.727,
-          "average_rating": 1.05,
-          "average_adr": 63.1
+          "losses": 4,
+          "win_rate": 0.667,
+          "average_rating": 1.01,
+          "average_adr": 61.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399415",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399416",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "BETBOOM",
+        "opponent_name": "Aurora",
         "team_name": "Falcons",
         "won": false,
-        "kills": 37,
-        "deaths": 46,
-        "kd_ratio": 0.8,
-        "adr": 64.9,
-        "kast": 61.8,
-        "rating": 0.92,
+        "kills": 32,
+        "deaths": 57,
+        "kd_ratio": 0.56,
+        "adr": 48.9,
+        "kast": 51.9,
+        "rating": 0.63,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -22928,6 +23228,36 @@
           "kast": 51.4,
           "rating": 0.67,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 55,
+          "deaths": 57,
+          "kd_ratio": 0.96,
+          "adr": 71.5,
+          "kast": 73.2,
+          "rating": 1.08,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 39,
+          "deaths": 39,
+          "kd_ratio": 1,
+          "adr": 68.1,
+          "kast": 65,
+          "rating": 1.13,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -22935,36 +23265,36 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-18",
-          "series": 9,
-          "wins": 5,
-          "losses": 4,
-          "win_rate": 0.556,
+          "through_date": "2026-10-19",
+          "series": 11,
+          "wins": 6,
+          "losses": 5,
+          "win_rate": 0.545,
           "average_rating": 1.08,
-          "average_adr": 73.4
+          "average_adr": 72.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399316",
-        "date": "2026-10-18",
+        "match_id": "hltv:2399319",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "G2 Ares",
         "team_name": "mellren",
         "won": false,
-        "kills": 40,
-        "deaths": 43,
-        "kd_ratio": 0.93,
-        "adr": 68.5,
-        "kast": 67.6,
-        "rating": 0.91,
+        "kills": 55,
+        "deaths": 57,
+        "kd_ratio": 0.96,
+        "adr": 71.5,
+        "kast": 73.2,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
+        "series": 11,
         "average_rating": 1.08,
-        "average_adr": 73.4,
-        "recent_rating": 0.97,
-        "rating_delta": -0.21
+        "average_adr": 72.8,
+        "recent_rating": 0.96,
+        "rating_delta": -0.16
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -23319,6 +23649,21 @@
           "kast": 76.5,
           "rating": 1.15,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399417",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "FURIA",
+          "team_name": "BETBOOM",
+          "won": false,
+          "kills": 82,
+          "deaths": 81,
+          "kd_ratio": 1.01,
+          "adr": 69.9,
+          "kast": 66.4,
+          "rating": 1.04,
+          "maps": 5
         }
       ],
       "map_profile": [],
@@ -23326,36 +23671,36 @@
         {
           "team_name": "BETBOOM",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 4,
+          "through_date": "2026-10-18",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.11,
-          "average_adr": 72.3
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 1.1,
+          "average_adr": 71.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399415",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399417",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Falcons",
+        "opponent_name": "FURIA",
         "team_name": "BETBOOM",
-        "won": true,
-        "kills": 49,
-        "deaths": 40,
-        "kd_ratio": 1.23,
-        "adr": 74.4,
-        "kast": 76.5,
-        "rating": 1.15,
-        "maps": 3
+        "won": false,
+        "kills": 82,
+        "deaths": 81,
+        "kd_ratio": 1.01,
+        "adr": 69.9,
+        "kast": 66.4,
+        "rating": 1.04,
+        "maps": 5
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.11,
-        "average_adr": 72.3,
-        "recent_rating": 1.19,
-        "rating_delta": 0.33
+        "series": 5,
+        "average_rating": 1.1,
+        "average_adr": 71.8,
+        "recent_rating": 1.07,
+        "rating_delta": -0.06
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -24274,14 +24619,29 @@
           "kast": 68.2,
           "rating": 0.86,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399416",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Falcons",
+          "team_name": "Aurora",
+          "won": true,
+          "kills": 51,
+          "deaths": 52,
+          "kd_ratio": 0.98,
+          "adr": 80.1,
+          "kast": 75.9,
+          "rating": 1.1,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 15,
-        "average_rating": 1.17,
-        "average_adr": 75.9,
-        "recent_rating": 0.87,
-        "rating_delta": -0.14
+        "series": 16,
+        "average_rating": 1.16,
+        "average_adr": 76.1,
+        "recent_rating": 0.97,
+        "rating_delta": 0.05
       },
       "map_profile": [
         {
@@ -24387,28 +24747,28 @@
         {
           "team_name": "Aurora",
           "from_date": "2025-10-27",
-          "through_date": "2026-10-17",
-          "series": 15,
-          "wins": 10,
+          "through_date": "2026-10-18",
+          "series": 16,
+          "wins": 11,
           "losses": 5,
-          "win_rate": 0.667,
-          "average_rating": 1.17,
-          "average_adr": 75.9
+          "win_rate": 0.688,
+          "average_rating": 1.16,
+          "average_adr": 76.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399414",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399416",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "FURIA",
+        "opponent_name": "Falcons",
         "team_name": "Aurora",
-        "won": false,
-        "kills": 23,
-        "deaths": 30,
-        "kd_ratio": 0.77,
-        "adr": 63.5,
-        "kast": 68.2,
-        "rating": 0.86,
+        "won": true,
+        "kills": 51,
+        "deaths": 52,
+        "kd_ratio": 0.98,
+        "adr": 80.1,
+        "kast": 75.9,
+        "rating": 1.1,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -24652,14 +25012,29 @@
           "kast": 70.5,
           "rating": 0.83,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399416",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Falcons",
+          "team_name": "Aurora",
+          "won": true,
+          "kills": 58,
+          "deaths": 51,
+          "kd_ratio": 1.14,
+          "adr": 75.2,
+          "kast": 69.6,
+          "rating": 0.94,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 15,
-        "average_rating": 1.06,
-        "average_adr": 64.1,
-        "recent_rating": 0.91,
-        "rating_delta": -0.27
+        "series": 16,
+        "average_rating": 1.05,
+        "average_adr": 64.8,
+        "recent_rating": 0.94,
+        "rating_delta": -0.03
       },
       "map_profile": [
         {
@@ -24765,28 +25140,28 @@
         {
           "team_name": "Aurora",
           "from_date": "2025-10-27",
-          "through_date": "2026-10-17",
-          "series": 15,
-          "wins": 10,
+          "through_date": "2026-10-18",
+          "series": 16,
+          "wins": 11,
           "losses": 5,
-          "win_rate": 0.667,
-          "average_rating": 1.06,
-          "average_adr": 64.1
+          "win_rate": 0.688,
+          "average_rating": 1.05,
+          "average_adr": 64.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399414",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399416",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "FURIA",
+        "opponent_name": "Falcons",
         "team_name": "Aurora",
-        "won": false,
-        "kills": 25,
-        "deaths": 28,
-        "kd_ratio": 0.89,
-        "adr": 61.5,
-        "kast": 70.5,
-        "rating": 0.83,
+        "won": true,
+        "kills": 58,
+        "deaths": 51,
+        "kd_ratio": 1.14,
+        "adr": 75.2,
+        "kast": 69.6,
+        "rating": 0.94,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -26577,6 +26952,21 @@
           "kast": 80.5,
           "rating": 1.01,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399483",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Lilmix",
+          "team_name": "Saint Sinners",
+          "won": true,
+          "kills": 24,
+          "deaths": 28,
+          "kd_ratio": 0.86,
+          "adr": 81.1,
+          "kast": 78.6,
+          "rating": 0.97,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24838",
@@ -26587,12 +26977,12 @@
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
           "through_date": "2026-10-19",
-          "series": 6,
-          "wins": 3,
+          "series": 7,
+          "wins": 4,
           "losses": 3,
-          "win_rate": 0.5,
-          "average_rating": 0.83,
-          "average_adr": 64
+          "win_rate": 0.571,
+          "average_rating": 0.85,
+          "average_adr": 66.4
         }
       ],
       "timeline_entry": {
@@ -26611,11 +27001,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 0.83,
-        "average_adr": 64,
-        "recent_rating": 0.87,
-        "rating_delta": 0.08
+        "series": 7,
+        "average_rating": 0.85,
+        "average_adr": 66.4,
+        "recent_rating": 0.92,
+        "rating_delta": 0.19
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -29262,6 +29652,21 @@
           "kast": 75,
           "rating": 1.39,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399417",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "FURIA",
+          "team_name": "BETBOOM",
+          "won": false,
+          "kills": 90,
+          "deaths": 79,
+          "kd_ratio": 1.14,
+          "adr": 84.7,
+          "kast": 68.1,
+          "rating": 1.23,
+          "maps": 5
         }
       ],
       "map_profile": [],
@@ -29269,36 +29674,36 @@
         {
           "team_name": "BETBOOM",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 4,
+          "through_date": "2026-10-18",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
+          "losses": 2,
+          "win_rate": 0.6,
           "average_rating": 1.22,
-          "average_adr": 83.8
+          "average_adr": 83.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399415",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399417",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Falcons",
+        "opponent_name": "FURIA",
         "team_name": "BETBOOM",
-        "won": true,
-        "kills": 59,
-        "deaths": 46,
-        "kd_ratio": 1.28,
-        "adr": 89.1,
-        "kast": 75,
-        "rating": 1.39,
-        "maps": 3
+        "won": false,
+        "kills": 90,
+        "deaths": 79,
+        "kd_ratio": 1.14,
+        "adr": 84.7,
+        "kast": 68.1,
+        "rating": 1.23,
+        "maps": 5
       },
       "form_summary": {
-        "series": 4,
+        "series": 5,
         "average_rating": 1.22,
-        "average_adr": 83.8,
-        "recent_rating": 1.29,
-        "rating_delta": 0.27
+        "average_adr": 83.9,
+        "recent_rating": 1.26,
+        "rating_delta": 0.1
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -29491,44 +29896,59 @@
           "kast": 61.5,
           "rating": 0.87,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "mellren",
+          "team_name": "G2 Ares",
+          "won": true,
+          "kills": 64,
+          "deaths": 51,
+          "kd_ratio": 1.25,
+          "adr": 88.6,
+          "kast": 79.3,
+          "rating": 1.28,
+          "maps": 3
         }
       ],
       "hltv_player_id": "23544",
       "source_url": "https://www.hltv.org/player/23544/hitori",
       "timeline_entry": {
-        "match_id": "hltv:2399310",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399319",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "mellren",
         "team_name": "G2 Ares",
-        "won": false,
-        "kills": 23,
-        "deaths": 28,
-        "kd_ratio": 0.82,
-        "adr": 78.4,
-        "kast": 61.5,
-        "rating": 0.87,
+        "won": true,
+        "kills": 64,
+        "deaths": 51,
+        "kd_ratio": 1.25,
+        "adr": 88.6,
+        "kast": 79.3,
+        "rating": 1.28,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.15,
-        "average_adr": 79.8,
-        "recent_rating": 1.23,
-        "rating_delta": 0.19
+        "series": 6,
+        "average_rating": 1.18,
+        "average_adr": 81.3,
+        "recent_rating": 1.2,
+        "rating_delta": 0.05
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-17",
-          "series": 5,
-          "wins": 2,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 3,
           "losses": 3,
-          "win_rate": 0.4,
-          "average_rating": 1.15,
-          "average_adr": 79.8
+          "win_rate": 0.5,
+          "average_rating": 1.18,
+          "average_adr": 81.3
         }
       ],
       "kd_ratio_3m": null,
@@ -34178,6 +34598,36 @@
           "kast": 51.4,
           "rating": 0.54,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 49,
+          "deaths": 56,
+          "kd_ratio": 0.88,
+          "adr": 69.7,
+          "kast": 63.4,
+          "rating": 0.95,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 31,
+          "deaths": 43,
+          "kd_ratio": 0.72,
+          "adr": 57.3,
+          "kast": 70,
+          "rating": 0.9,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -34185,36 +34635,36 @@
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-18",
-          "series": 9,
-          "wins": 5,
-          "losses": 4,
-          "win_rate": 0.556,
+          "through_date": "2026-10-19",
+          "series": 11,
+          "wins": 6,
+          "losses": 5,
+          "win_rate": 0.545,
           "average_rating": 0.94,
-          "average_adr": 65.4
+          "average_adr": 65.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399316",
-        "date": "2026-10-18",
+        "match_id": "hltv:2399319",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "G2 Ares",
         "team_name": "mellren",
         "won": false,
-        "kills": 52,
-        "deaths": 46,
-        "kd_ratio": 1.13,
-        "adr": 77.2,
-        "kast": 72.1,
-        "rating": 1.11,
+        "kills": 49,
+        "deaths": 56,
+        "kd_ratio": 0.88,
+        "adr": 69.7,
+        "kast": 63.4,
+        "rating": 0.95,
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
+        "series": 11,
         "average_rating": 0.94,
-        "average_adr": 65.4,
-        "recent_rating": 0.93,
-        "rating_delta": -0.06
+        "average_adr": 65.1,
+        "recent_rating": 0.8,
+        "rating_delta": -0.33
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -35551,6 +36001,21 @@
           "kast": 69.6,
           "rating": 1.25,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399320",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "LFO 10",
+          "won": false,
+          "kills": 25,
+          "deaths": 30,
+          "kd_ratio": 0.83,
+          "adr": 69.5,
+          "kast": 52.6,
+          "rating": 1.05,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -35558,35 +36023,35 @@
         {
           "team_name": "LFO 10",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 2,
+          "through_date": "2026-10-19",
+          "series": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "win_rate": 0,
-          "average_rating": 1.17,
-          "average_adr": 78.8
+          "average_rating": 1.13,
+          "average_adr": 75.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399311",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399320",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
+        "opponent_name": "The Last Resort",
         "team_name": "LFO 10",
         "won": false,
-        "kills": 37,
-        "deaths": 33,
-        "kd_ratio": 1.12,
-        "adr": 76.5,
-        "kast": 69.6,
-        "rating": 1.25,
+        "kills": 25,
+        "deaths": 30,
+        "kd_ratio": 0.83,
+        "adr": 69.5,
+        "kast": 52.6,
+        "rating": 1.05,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.17,
-        "average_adr": 78.8,
-        "recent_rating": 1.17,
+        "series": 3,
+        "average_rating": 1.13,
+        "average_adr": 75.7,
+        "recent_rating": 1.13,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -36111,44 +36576,59 @@
           "kast": 61.5,
           "rating": 0.79,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "mellren",
+          "team_name": "G2 Ares",
+          "won": true,
+          "kills": 46,
+          "deaths": 49,
+          "kd_ratio": 0.94,
+          "adr": 62.9,
+          "kast": 70.7,
+          "rating": 0.91,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25576",
       "source_url": "https://www.hltv.org/player/25576/yksjupe",
       "timeline_entry": {
-        "match_id": "hltv:2399310",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399319",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "mellren",
         "team_name": "G2 Ares",
-        "won": false,
-        "kills": 23,
-        "deaths": 34,
-        "kd_ratio": 0.68,
-        "adr": 71.2,
-        "kast": 61.5,
-        "rating": 0.79,
+        "won": true,
+        "kills": 46,
+        "deaths": 49,
+        "kd_ratio": 0.94,
+        "adr": 62.9,
+        "kast": 70.7,
+        "rating": 0.91,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.21,
-        "average_adr": 78.9,
-        "recent_rating": 0.9,
-        "rating_delta": -0.77
+        "series": 6,
+        "average_rating": 1.16,
+        "average_adr": 76.2,
+        "recent_rating": 0.86,
+        "rating_delta": -0.59
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-17",
-          "series": 5,
-          "wins": 2,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 3,
           "losses": 3,
-          "win_rate": 0.4,
-          "average_rating": 1.21,
-          "average_adr": 78.9
+          "win_rate": 0.5,
+          "average_rating": 1.16,
+          "average_adr": 76.2
         }
       ],
       "kd_ratio_3m": null,
@@ -38409,6 +38889,21 @@
           "kast": 59.1,
           "rating": 0.7,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399416",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Falcons",
+          "team_name": "Aurora",
+          "won": true,
+          "kills": 42,
+          "deaths": 55,
+          "kd_ratio": 0.76,
+          "adr": 63.7,
+          "kast": 67.1,
+          "rating": 0.85,
+          "maps": 3
         }
       ],
       "hltv_player_id": "19677",
@@ -38418,36 +38913,36 @@
         {
           "team_name": "Aurora",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 3,
-          "wins": 1,
+          "through_date": "2026-10-18",
+          "series": 4,
+          "wins": 2,
           "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 0.89,
-          "average_adr": 54.9
+          "win_rate": 0.5,
+          "average_rating": 0.88,
+          "average_adr": 57.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399414",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399416",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "FURIA",
+        "opponent_name": "Falcons",
         "team_name": "Aurora",
-        "won": false,
-        "kills": 19,
-        "deaths": 31,
-        "kd_ratio": 0.61,
-        "adr": 55.4,
-        "kast": 59.1,
-        "rating": 0.7,
+        "won": true,
+        "kills": 42,
+        "deaths": 55,
+        "kd_ratio": 0.76,
+        "adr": 63.7,
+        "kast": 67.1,
+        "rating": 0.85,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.89,
-        "average_adr": 54.9,
-        "recent_rating": 0.89,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.88,
+        "average_adr": 57.1,
+        "recent_rating": 1,
+        "rating_delta": 0.47
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -38848,6 +39343,21 @@
           "kast": 75.6,
           "rating": 1.23,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399483",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Lilmix",
+          "team_name": "Saint Sinners",
+          "won": true,
+          "kills": 39,
+          "deaths": 23,
+          "kd_ratio": 1.7,
+          "adr": 90,
+          "kast": 76.2,
+          "rating": 1.36,
+          "maps": 3
         }
       ],
       "hltv_player_id": "20208",
@@ -38858,12 +39368,12 @@
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
           "through_date": "2026-10-19",
-          "series": 6,
-          "wins": 3,
+          "series": 7,
+          "wins": 4,
           "losses": 3,
-          "win_rate": 0.5,
-          "average_rating": 1.14,
-          "average_adr": 78.7
+          "win_rate": 0.571,
+          "average_rating": 1.17,
+          "average_adr": 80.3
         }
       ],
       "timeline_entry": {
@@ -38882,11 +39392,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.14,
-        "average_adr": 78.7,
-        "recent_rating": 1.26,
-        "rating_delta": 0.24
+        "series": 7,
+        "average_rating": 1.17,
+        "average_adr": 80.3,
+        "recent_rating": 1.34,
+        "rating_delta": 0.38
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -40171,14 +40681,29 @@
           "kast": 77.3,
           "rating": 1,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399417",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "BETBOOM",
+          "team_name": "FURIA",
+          "won": true,
+          "kills": 74,
+          "deaths": 76,
+          "kd_ratio": 0.97,
+          "adr": 68.7,
+          "kast": 72.3,
+          "rating": 0.99,
+          "maps": 5
         }
       ],
       "form_summary": {
-        "series": 14,
+        "series": 15,
         "average_rating": 1.01,
-        "average_adr": 66,
-        "recent_rating": 0.95,
-        "rating_delta": -0.11
+        "average_adr": 66.1,
+        "recent_rating": 1.03,
+        "rating_delta": 0.3
       },
       "map_profile": [
         {
@@ -40270,29 +40795,29 @@
         {
           "team_name": "FURIA",
           "from_date": "2025-09-06",
-          "through_date": "2026-10-17",
-          "series": 14,
-          "wins": 8,
+          "through_date": "2026-10-18",
+          "series": 15,
+          "wins": 9,
           "losses": 6,
-          "win_rate": 0.571,
+          "win_rate": 0.6,
           "average_rating": 1.01,
-          "average_adr": 66
+          "average_adr": 66.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399414",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399417",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Aurora",
+        "opponent_name": "BETBOOM",
         "team_name": "FURIA",
         "won": true,
-        "kills": 24,
-        "deaths": 25,
-        "kd_ratio": 0.96,
-        "adr": 58.9,
-        "kast": 77.3,
-        "rating": 1,
-        "maps": 3
+        "kills": 74,
+        "deaths": 76,
+        "kd_ratio": 0.97,
+        "adr": 68.7,
+        "kast": 72.3,
+        "rating": 0.99,
+        "maps": 5
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -40798,6 +41323,21 @@
           "kast": 73.5,
           "rating": 1.08,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399417",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "FURIA",
+          "team_name": "BETBOOM",
+          "won": false,
+          "kills": 88,
+          "deaths": 74,
+          "kd_ratio": 1.19,
+          "adr": 79.5,
+          "kast": 72.3,
+          "rating": 1.18,
+          "maps": 5
         }
       ],
       "map_profile": [],
@@ -40805,36 +41345,36 @@
         {
           "team_name": "BETBOOM",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 4,
+          "through_date": "2026-10-18",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.05,
-          "average_adr": 69.4
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 1.08,
+          "average_adr": 71.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399415",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399417",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Falcons",
+        "opponent_name": "FURIA",
         "team_name": "BETBOOM",
-        "won": true,
-        "kills": 47,
-        "deaths": 39,
-        "kd_ratio": 1.21,
-        "adr": 73.3,
-        "kast": 73.5,
-        "rating": 1.08,
-        "maps": 3
+        "won": false,
+        "kills": 88,
+        "deaths": 74,
+        "kd_ratio": 1.19,
+        "adr": 79.5,
+        "kast": 72.3,
+        "rating": 1.18,
+        "maps": 5
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.05,
-        "average_adr": 69.4,
-        "recent_rating": 1.1,
-        "rating_delta": 0.19
+        "series": 5,
+        "average_rating": 1.08,
+        "average_adr": 71.4,
+        "recent_rating": 1.09,
+        "rating_delta": 0.03
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -42085,6 +42625,21 @@
           "kast": 69.1,
           "rating": 0.91,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399417",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "FURIA",
+          "team_name": "BETBOOM",
+          "won": false,
+          "kills": 45,
+          "deaths": 81,
+          "kd_ratio": 0.56,
+          "adr": 48.6,
+          "kast": 64.7,
+          "rating": 0.72,
+          "maps": 5
         }
       ],
       "map_profile": [],
@@ -42092,36 +42647,36 @@
         {
           "team_name": "BETBOOM",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 4,
+          "through_date": "2026-10-18",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 0.97,
-          "average_adr": 67.8
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 0.92,
+          "average_adr": 64
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399415",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399417",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Falcons",
+        "opponent_name": "FURIA",
         "team_name": "BETBOOM",
-        "won": true,
-        "kills": 35,
-        "deaths": 46,
-        "kd_ratio": 0.76,
-        "adr": 70.5,
-        "kast": 69.1,
-        "rating": 0.91,
-        "maps": 3
+        "won": false,
+        "kills": 45,
+        "deaths": 81,
+        "kd_ratio": 0.56,
+        "adr": 48.6,
+        "kast": 64.7,
+        "rating": 0.72,
+        "maps": 5
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.97,
-        "average_adr": 67.8,
-        "recent_rating": 0.95,
-        "rating_delta": -0.07
+        "series": 5,
+        "average_rating": 0.92,
+        "average_adr": 64,
+        "recent_rating": 0.9,
+        "rating_delta": -0.05
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -47342,14 +47897,29 @@
           "kast": 65.9,
           "rating": 0.96,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399417",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "BETBOOM",
+          "team_name": "FURIA",
+          "won": true,
+          "kills": 78,
+          "deaths": 76,
+          "kd_ratio": 1.03,
+          "adr": 71.5,
+          "kast": 71.4,
+          "rating": 1.08,
+          "maps": 5
         }
       ],
       "form_summary": {
-        "series": 14,
-        "average_rating": 0.78,
-        "average_adr": 50.1,
-        "recent_rating": 0.8,
-        "rating_delta": 0.02
+        "series": 15,
+        "average_rating": 0.8,
+        "average_adr": 51.5,
+        "recent_rating": 0.93,
+        "rating_delta": 0.06
       },
       "map_profile": [
         {
@@ -47441,29 +48011,29 @@
         {
           "team_name": "FURIA",
           "from_date": "2025-09-06",
-          "through_date": "2026-10-17",
-          "series": 14,
-          "wins": 8,
+          "through_date": "2026-10-18",
+          "series": 15,
+          "wins": 9,
           "losses": 6,
-          "win_rate": 0.571,
-          "average_rating": 0.78,
-          "average_adr": 50.1
+          "win_rate": 0.6,
+          "average_rating": 0.8,
+          "average_adr": 51.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399414",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399417",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "Aurora",
+        "opponent_name": "BETBOOM",
         "team_name": "FURIA",
         "won": true,
-        "kills": 27,
-        "deaths": 28,
-        "kd_ratio": 0.96,
-        "adr": 58.5,
-        "kast": 65.9,
-        "rating": 0.96,
-        "maps": 3
+        "kills": 78,
+        "deaths": 76,
+        "kd_ratio": 1.03,
+        "adr": 71.5,
+        "kast": 71.4,
+        "rating": 1.08,
+        "maps": 5
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -47935,30 +48505,45 @@
           "kast": 69.2,
           "rating": 1.08,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "mellren",
+          "team_name": "G2 Ares",
+          "won": true,
+          "kills": 48,
+          "deaths": 56,
+          "kd_ratio": 0.86,
+          "adr": 61.3,
+          "kast": 68.3,
+          "rating": 0.87,
+          "maps": 3
         }
       ],
       "hltv_player_id": "19065",
       "source_url": "https://www.hltv.org/player/19065/shine",
       "timeline_entry": {
-        "match_id": "hltv:2399310",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399319",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "mellren",
         "team_name": "G2 Ares",
-        "won": false,
-        "kills": 29,
-        "deaths": 29,
-        "kd_ratio": 1,
-        "adr": 78.8,
-        "kast": 69.2,
-        "rating": 1.08,
+        "won": true,
+        "kills": 48,
+        "deaths": 56,
+        "kd_ratio": 0.86,
+        "adr": 61.3,
+        "kast": 68.3,
+        "rating": 0.87,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.99,
-        "average_adr": 64.9,
-        "recent_rating": 0.92,
+        "series": 6,
+        "average_rating": 0.97,
+        "average_adr": 64.3,
+        "recent_rating": 0.88,
         "rating_delta": -0.18
       },
       "map_profile": [],
@@ -47966,13 +48551,13 @@
         {
           "team_name": "G2 Ares",
           "from_date": "2026-10-07",
-          "through_date": "2026-10-17",
-          "series": 5,
-          "wins": 2,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 3,
           "losses": 3,
-          "win_rate": 0.4,
-          "average_rating": 0.99,
-          "average_adr": 64.9
+          "win_rate": 0.5,
+          "average_rating": 0.97,
+          "average_adr": 64.3
         }
       ],
       "kd_ratio_3m": null,
@@ -49499,14 +50084,29 @@
           "kast": 63.2,
           "rating": 0.94,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399416",
+          "date": "2026-10-18",
+          "event_name": "Thunderpick World Championship 2026",
+          "opponent_name": "Aurora",
+          "team_name": "Falcons",
+          "won": false,
+          "kills": 38,
+          "deaths": 60,
+          "kd_ratio": 0.63,
+          "adr": 62.6,
+          "kast": 65.8,
+          "rating": 0.83,
+          "maps": 3
         }
       ],
       "form_summary": {
-        "series": 14,
+        "series": 15,
         "average_rating": 0.8,
-        "average_adr": 54.7,
-        "recent_rating": 1.02,
-        "rating_delta": 0.34
+        "average_adr": 55.2,
+        "recent_rating": 0.89,
+        "rating_delta": 0.11
       },
       "map_profile": [
         {
@@ -49598,13 +50198,13 @@
         {
           "team_name": "Falcons",
           "from_date": "2026-05-20",
-          "through_date": "2026-10-17",
-          "series": 8,
+          "through_date": "2026-10-18",
+          "series": 9,
           "wins": 6,
-          "losses": 2,
-          "win_rate": 0.75,
+          "losses": 3,
+          "win_rate": 0.667,
           "average_rating": 0.82,
-          "average_adr": 54.4
+          "average_adr": 55.3
         },
         {
           "team_name": "FaZe",
@@ -49619,18 +50219,18 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399415",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399416",
+        "date": "2026-10-18",
         "event_name": "Thunderpick World Championship 2026",
-        "opponent_name": "BETBOOM",
+        "opponent_name": "Aurora",
         "team_name": "Falcons",
         "won": false,
-        "kills": 41,
-        "deaths": 46,
-        "kd_ratio": 0.89,
-        "adr": 57.1,
-        "kast": 63.2,
-        "rating": 0.94,
+        "kills": 38,
+        "deaths": 60,
+        "kd_ratio": 0.63,
+        "adr": 62.6,
+        "kast": 65.8,
+        "rating": 0.83,
         "maps": 3
       },
       "kd_ratio_3m": null,
@@ -51259,6 +51859,21 @@
           "kast": 71.7,
           "rating": 1.32,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399320",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "LFO 10",
+          "won": false,
+          "kills": 22,
+          "deaths": 33,
+          "kd_ratio": 0.67,
+          "adr": 69.2,
+          "kast": 57.9,
+          "rating": 0.77,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -51266,35 +51881,35 @@
         {
           "team_name": "LFO 10",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 2,
+          "through_date": "2026-10-19",
+          "series": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "win_rate": 0,
-          "average_rating": 0.95,
-          "average_adr": 71.5
+          "average_rating": 0.89,
+          "average_adr": 70.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399311",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399320",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
+        "opponent_name": "The Last Resort",
         "team_name": "LFO 10",
         "won": false,
-        "kills": 39,
-        "deaths": 34,
-        "kd_ratio": 1.15,
-        "adr": 94.2,
-        "kast": 71.7,
-        "rating": 1.32,
+        "kills": 22,
+        "deaths": 33,
+        "kd_ratio": 0.67,
+        "adr": 69.2,
+        "kast": 57.9,
+        "rating": 0.77,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.95,
-        "average_adr": 71.5,
-        "recent_rating": 0.95,
+        "series": 3,
+        "average_rating": 0.89,
+        "average_adr": 70.7,
+        "recent_rating": 0.89,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -51306,7 +51921,7 @@
     },
     {
       "player_id": "hltv:16641",
-      "nickname": "redzy",
+      "nickname": "Substitute",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -51329,6 +51944,21 @@
           "kast": 65.2,
           "rating": 0.79,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399320",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "LFO 10",
+          "won": false,
+          "kills": 19,
+          "deaths": 30,
+          "kd_ratio": 0.63,
+          "adr": 64.1,
+          "kast": 55.3,
+          "rating": 0.71,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -51336,35 +51966,35 @@
         {
           "team_name": "LFO 10",
           "from_date": "2026-10-17",
-          "through_date": "2026-10-17",
-          "series": 1,
+          "through_date": "2026-10-19",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.79,
-          "average_adr": 61.8
+          "average_rating": 0.75,
+          "average_adr": 62.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399311",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399320",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
+        "opponent_name": "The Last Resort",
         "team_name": "LFO 10",
         "won": false,
-        "kills": 23,
-        "deaths": 31,
-        "kd_ratio": 0.74,
-        "adr": 61.8,
-        "kast": 65.2,
-        "rating": 0.79,
+        "kills": 19,
+        "deaths": 30,
+        "kd_ratio": 0.63,
+        "adr": 64.1,
+        "kast": 55.3,
+        "rating": 0.71,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.79,
-        "average_adr": 61.8,
-        "recent_rating": 0.79,
+        "series": 2,
+        "average_rating": 0.75,
+        "average_adr": 62.9,
+        "recent_rating": 0.75,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -51376,7 +52006,7 @@
     },
     {
       "player_id": "hltv:21164",
-      "nickname": "L00m1",
+      "nickname": "Substitute",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -51399,6 +52029,21 @@
           "kast": 57.1,
           "rating": 0.87,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399320",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "LFO 10",
+          "won": false,
+          "kills": 26,
+          "deaths": 28,
+          "kd_ratio": 0.93,
+          "adr": 73,
+          "kast": 71.1,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -51406,35 +52051,35 @@
         {
           "team_name": "LFO 10",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
+          "through_date": "2026-10-19",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.87,
-          "average_adr": 71.5
+          "average_rating": 0.96,
+          "average_adr": 72.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399301",
-        "date": "2026-10-14",
+        "match_id": "hltv:2399320",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "FORZE Reload",
+        "opponent_name": "The Last Resort",
         "team_name": "LFO 10",
         "won": false,
         "kills": 26,
-        "deaths": 31,
-        "kd_ratio": 0.84,
-        "adr": 71.5,
-        "kast": 57.1,
-        "rating": 0.87,
+        "deaths": 28,
+        "kd_ratio": 0.93,
+        "adr": 73,
+        "kast": 71.1,
+        "rating": 1.04,
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.87,
-        "average_adr": 71.5,
-        "recent_rating": 0.87,
+        "series": 2,
+        "average_rating": 0.96,
+        "average_adr": 72.3,
+        "recent_rating": 0.96,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -53201,6 +53846,21 @@
           "kast": 78,
           "rating": 1.11,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399483",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Lilmix",
+          "team_name": "Saint Sinners",
+          "won": true,
+          "kills": 31,
+          "deaths": 22,
+          "kd_ratio": 1.41,
+          "adr": 72.8,
+          "kast": 71.4,
+          "rating": 1.41,
+          "maps": 3
         }
       ],
       "hltv_player_id": "21108",
@@ -53211,12 +53871,12 @@
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
           "through_date": "2026-10-19",
-          "series": 6,
-          "wins": 3,
+          "series": 7,
+          "wins": 4,
           "losses": 3,
-          "win_rate": 0.5,
-          "average_rating": 1.03,
-          "average_adr": 71.5
+          "win_rate": 0.571,
+          "average_rating": 1.08,
+          "average_adr": 71.7
         }
       ],
       "timeline_entry": {
@@ -53235,11 +53895,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.03,
-        "average_adr": 71.5,
-        "recent_rating": 1.21,
-        "rating_delta": 0.36
+        "series": 7,
+        "average_rating": 1.08,
+        "average_adr": 71.7,
+        "recent_rating": 1.23,
+        "rating_delta": 0.3
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -57071,28 +57731,43 @@
           "kast": 59,
           "rating": 0.56,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399320",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "LFO 10",
+          "team_name": "The Last Resort",
+          "won": true,
+          "kills": 21,
+          "deaths": 26,
+          "kd_ratio": 0.81,
+          "adr": 64.7,
+          "kast": 68.4,
+          "rating": 0.87,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399304",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399320",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "LFO 10",
         "team_name": "The Last Resort",
-        "won": false,
-        "kills": 14,
-        "deaths": 30,
-        "kd_ratio": 0.47,
-        "adr": 49.9,
-        "kast": 59,
-        "rating": 0.56,
+        "won": true,
+        "kills": 21,
+        "deaths": 26,
+        "kd_ratio": 0.81,
+        "adr": 64.7,
+        "kast": 68.4,
+        "rating": 0.87,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.82,
-        "average_adr": 68.9,
-        "recent_rating": 0.82,
+        "series": 3,
+        "average_rating": 0.84,
+        "average_adr": 67.5,
+        "recent_rating": 0.84,
         "rating_delta": null
       },
       "map_profile": [],
@@ -57100,13 +57775,13 @@
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 0,
+          "through_date": "2026-10-19",
+          "series": 3,
+          "wins": 1,
           "losses": 2,
-          "win_rate": 0,
-          "average_rating": 0.82,
-          "average_adr": 68.9
+          "win_rate": 0.333,
+          "average_rating": 0.84,
+          "average_adr": 67.5
         }
       ],
       "kd_ratio_3m": null,
@@ -57156,28 +57831,43 @@
           "kast": 56.4,
           "rating": 0.74,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399320",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "LFO 10",
+          "team_name": "The Last Resort",
+          "won": true,
+          "kills": 32,
+          "deaths": 24,
+          "kd_ratio": 1.33,
+          "adr": 94.4,
+          "kast": 81.6,
+          "rating": 1.2,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399304",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399320",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "LFO 10",
         "team_name": "The Last Resort",
-        "won": false,
-        "kills": 21,
-        "deaths": 28,
-        "kd_ratio": 0.75,
-        "adr": 54.7,
-        "kast": 56.4,
-        "rating": 0.74,
+        "won": true,
+        "kills": 32,
+        "deaths": 24,
+        "kd_ratio": 1.33,
+        "adr": 94.4,
+        "kast": 81.6,
+        "rating": 1.2,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.83,
-        "average_adr": 58.2,
-        "recent_rating": 0.83,
+        "series": 3,
+        "average_rating": 0.95,
+        "average_adr": 70.2,
+        "recent_rating": 0.95,
         "rating_delta": null
       },
       "map_profile": [],
@@ -57185,13 +57875,13 @@
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 0,
+          "through_date": "2026-10-19",
+          "series": 3,
+          "wins": 1,
           "losses": 2,
-          "win_rate": 0,
-          "average_rating": 0.83,
-          "average_adr": 58.2
+          "win_rate": 0.333,
+          "average_rating": 0.95,
+          "average_adr": 70.2
         }
       ],
       "kd_ratio_3m": null,
@@ -57241,28 +57931,43 @@
           "kast": 66.7,
           "rating": 0.82,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399320",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "LFO 10",
+          "team_name": "The Last Resort",
+          "won": true,
+          "kills": 23,
+          "deaths": 18,
+          "kd_ratio": 1.28,
+          "adr": 56.9,
+          "kast": 81.6,
+          "rating": 1.29,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399304",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399320",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "LFO 10",
         "team_name": "The Last Resort",
-        "won": false,
+        "won": true,
         "kills": 23,
-        "deaths": 32,
-        "kd_ratio": 0.72,
-        "adr": 73.7,
-        "kast": 66.7,
-        "rating": 0.82,
+        "deaths": 18,
+        "kd_ratio": 1.28,
+        "adr": 56.9,
+        "kast": 81.6,
+        "rating": 1.29,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.97,
-        "average_adr": 70.2,
-        "recent_rating": 0.97,
+        "series": 3,
+        "average_rating": 1.07,
+        "average_adr": 65.7,
+        "recent_rating": 1.07,
         "rating_delta": null
       },
       "map_profile": [],
@@ -57270,13 +57975,13 @@
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 0,
+          "through_date": "2026-10-19",
+          "series": 3,
+          "wins": 1,
           "losses": 2,
-          "win_rate": 0,
-          "average_rating": 0.97,
-          "average_adr": 70.2
+          "win_rate": 0.333,
+          "average_rating": 1.07,
+          "average_adr": 65.7
         }
       ],
       "kd_ratio_3m": null,
@@ -57326,28 +58031,43 @@
           "kast": 71.8,
           "rating": 0.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399320",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "LFO 10",
+          "team_name": "The Last Resort",
+          "won": true,
+          "kills": 35,
+          "deaths": 23,
+          "kd_ratio": 1.52,
+          "adr": 95.9,
+          "kast": 76.3,
+          "rating": 1.48,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399304",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399320",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "LFO 10",
         "team_name": "The Last Resort",
-        "won": false,
-        "kills": 25,
-        "deaths": 28,
-        "kd_ratio": 0.89,
-        "adr": 71.5,
-        "kast": 71.8,
-        "rating": 0.9,
+        "won": true,
+        "kills": 35,
+        "deaths": 23,
+        "kd_ratio": 1.52,
+        "adr": 95.9,
+        "kast": 76.3,
+        "rating": 1.48,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.8,
-        "average_adr": 60.9,
-        "recent_rating": 0.8,
+        "series": 3,
+        "average_rating": 1.03,
+        "average_adr": 72.6,
+        "recent_rating": 1.03,
         "rating_delta": null
       },
       "map_profile": [],
@@ -57355,13 +58075,13 @@
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 0,
+          "through_date": "2026-10-19",
+          "series": 3,
+          "wins": 1,
           "losses": 2,
-          "win_rate": 0,
-          "average_rating": 0.8,
-          "average_adr": 60.9
+          "win_rate": 0.333,
+          "average_rating": 1.03,
+          "average_adr": 72.6
         }
       ],
       "kd_ratio_3m": null,
@@ -57411,28 +58131,43 @@
           "kast": 69.2,
           "rating": 1.15,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399320",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "LFO 10",
+          "team_name": "The Last Resort",
+          "won": true,
+          "kills": 40,
+          "deaths": 23,
+          "kd_ratio": 1.74,
+          "adr": 107.2,
+          "kast": 71.1,
+          "rating": 1.53,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399304",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399320",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "LFO 10",
         "team_name": "The Last Resort",
-        "won": false,
-        "kills": 32,
-        "deaths": 27,
-        "kd_ratio": 1.19,
-        "adr": 75.1,
-        "kast": 69.2,
-        "rating": 1.15,
+        "won": true,
+        "kills": 40,
+        "deaths": 23,
+        "kd_ratio": 1.74,
+        "adr": 107.2,
+        "kast": 71.1,
+        "rating": 1.53,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.1,
-        "average_adr": 78.8,
-        "recent_rating": 1.1,
+        "series": 3,
+        "average_rating": 1.25,
+        "average_adr": 88.3,
+        "recent_rating": 1.25,
         "rating_delta": null
       },
       "map_profile": [],
@@ -57440,13 +58175,13 @@
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 0,
+          "through_date": "2026-10-19",
+          "series": 3,
+          "wins": 1,
           "losses": 2,
-          "win_rate": 0,
-          "average_rating": 1.1,
-          "average_adr": 78.8
+          "win_rate": 0.333,
+          "average_rating": 1.25,
+          "average_adr": 88.3
         }
       ],
       "kd_ratio_3m": null,
@@ -58623,7 +59358,7 @@
     },
     {
       "player_id": "hltv:20285",
-      "nickname": "Mann3n",
+      "nickname": "Substitute",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -58661,6 +59396,21 @@
           "kast": 60.9,
           "rating": 0.76,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399320",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "LFO 10",
+          "won": false,
+          "kills": 22,
+          "deaths": 30,
+          "kd_ratio": 0.73,
+          "adr": 65.4,
+          "kast": 71.1,
+          "rating": 0.87,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -58668,35 +59418,35 @@
         {
           "team_name": "LFO 10",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 2,
+          "through_date": "2026-10-19",
+          "series": 3,
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "win_rate": 0,
-          "average_rating": 0.85,
-          "average_adr": 68.2
+          "average_rating": 0.86,
+          "average_adr": 67.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399311",
-        "date": "2026-10-17",
+        "match_id": "hltv:2399320",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
+        "opponent_name": "The Last Resort",
         "team_name": "LFO 10",
         "won": false,
         "kills": 22,
-        "deaths": 38,
-        "kd_ratio": 0.58,
-        "adr": 70.7,
-        "kast": 60.9,
-        "rating": 0.76,
+        "deaths": 30,
+        "kd_ratio": 0.73,
+        "adr": 65.4,
+        "kast": 71.1,
+        "rating": 0.87,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.85,
-        "average_adr": 68.2,
-        "recent_rating": 0.85,
+        "series": 3,
+        "average_rating": 0.86,
+        "average_adr": 67.3,
+        "recent_rating": 0.86,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -60039,6 +60789,21 @@
           "kast": 70.7,
           "rating": 1.09,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399097",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-Zero Tenacity",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 25,
+          "deaths": 29,
+          "kd_ratio": 0.86,
+          "adr": 86.1,
+          "kast": 52.9,
+          "rating": 0.87,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -60057,11 +60822,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 0.98,
-        "average_adr": 70.8,
-        "recent_rating": 0.88,
-        "rating_delta": -0.2
+        "series": 7,
+        "average_rating": 0.96,
+        "average_adr": 73,
+        "recent_rating": 0.93,
+        "rating_delta": -0.09
       },
       "map_profile": [],
       "roster_eras": [
@@ -60069,12 +60834,12 @@
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
           "through_date": "2026-10-19",
-          "series": 6,
+          "series": 7,
           "wins": 0,
-          "losses": 6,
+          "losses": 7,
           "win_rate": 0,
-          "average_rating": 0.98,
-          "average_adr": 70.8
+          "average_rating": 0.96,
+          "average_adr": 73
         }
       ],
       "kd_ratio_3m": null,
@@ -60184,6 +60949,21 @@
           "kast": 56.1,
           "rating": 0.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399097",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-Zero Tenacity",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 18,
+          "deaths": 32,
+          "kd_ratio": 0.56,
+          "adr": 67.8,
+          "kast": 67.6,
+          "rating": 0.73,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -60202,11 +60982,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 0.88,
-        "average_adr": 66.2,
-        "recent_rating": 0.83,
-        "rating_delta": -0.11
+        "series": 7,
+        "average_rating": 0.86,
+        "average_adr": 66.4,
+        "recent_rating": 0.78,
+        "rating_delta": -0.09
       },
       "map_profile": [],
       "roster_eras": [
@@ -60214,12 +60994,12 @@
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
           "through_date": "2026-10-19",
-          "series": 6,
+          "series": 7,
           "wins": 0,
-          "losses": 6,
+          "losses": 7,
           "win_rate": 0,
-          "average_rating": 0.88,
-          "average_adr": 66.2
+          "average_rating": 0.86,
+          "average_adr": 66.4
         }
       ],
       "kd_ratio_3m": null,
@@ -60329,6 +61109,21 @@
           "kast": 73.2,
           "rating": 0.92,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399097",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-Zero Tenacity",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 20,
+          "deaths": 27,
+          "kd_ratio": 0.74,
+          "adr": 61.7,
+          "kast": 47.1,
+          "rating": 0.73,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -60347,11 +61142,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 0.9,
-        "average_adr": 65.3,
+        "series": 7,
+        "average_rating": 0.88,
+        "average_adr": 64.7,
         "recent_rating": 0.71,
-        "rating_delta": -0.38
+        "rating_delta": -0.23
       },
       "map_profile": [],
       "roster_eras": [
@@ -60359,12 +61154,12 @@
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
           "through_date": "2026-10-19",
-          "series": 6,
+          "series": 7,
           "wins": 0,
-          "losses": 6,
+          "losses": 7,
           "win_rate": 0,
-          "average_rating": 0.9,
-          "average_adr": 65.3
+          "average_rating": 0.88,
+          "average_adr": 64.7
         }
       ],
       "kd_ratio_3m": null,
@@ -60474,6 +61269,21 @@
           "kast": 68.3,
           "rating": 0.92,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399097",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-Zero Tenacity",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 19,
+          "deaths": 27,
+          "kd_ratio": 0.7,
+          "adr": 75.2,
+          "kast": 55.9,
+          "rating": 0.83,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -60492,11 +61302,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 0.79,
-        "average_adr": 58.4,
-        "recent_rating": 0.79,
-        "rating_delta": 0
+        "series": 7,
+        "average_rating": 0.8,
+        "average_adr": 60.8,
+        "recent_rating": 0.78,
+        "rating_delta": 0.02
       },
       "map_profile": [],
       "roster_eras": [
@@ -60504,12 +61314,12 @@
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
           "through_date": "2026-10-19",
-          "series": 6,
+          "series": 7,
           "wins": 0,
-          "losses": 6,
+          "losses": 7,
           "win_rate": 0,
-          "average_rating": 0.79,
-          "average_adr": 58.4
+          "average_rating": 0.8,
+          "average_adr": 60.8
         }
       ],
       "kd_ratio_3m": null,
@@ -63384,7 +64194,7 @@
       "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-19T17:27:49Z",
+  "lineups_updated_at_utc": "2026-10-19T22:21:12Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-19",
   "history_profile_count": 53,
