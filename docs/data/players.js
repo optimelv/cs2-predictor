@@ -3317,12 +3317,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Spirit Academy",
           "team_name": "mellren",
           "won": false,
-          "kills": 33,
-          "deaths": 33,
-          "kd_ratio": 1,
-          "adr": 84.1,
-          "kast": 66.7,
-          "rating": 0.96,
+          "kills": 45,
+          "deaths": 53,
+          "kd_ratio": 0.85,
+          "adr": 73.9,
+          "kast": 67.6,
+          "rating": 0.79,
           "maps": 3
         },
         {
@@ -3351,8 +3351,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 5,
           "losses": 4,
           "win_rate": 0.556,
-          "average_rating": 1.2,
-          "average_adr": 91.6
+          "average_rating": 1.18,
+          "average_adr": 90.5
         }
       ],
       "timeline_entry": {
@@ -3362,20 +3362,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Spirit Academy",
         "team_name": "mellren",
         "won": false,
-        "kills": 33,
-        "deaths": 33,
-        "kd_ratio": 1,
-        "adr": 84.1,
-        "kast": 66.7,
-        "rating": 0.96,
+        "kills": 45,
+        "deaths": 53,
+        "kd_ratio": 0.85,
+        "adr": 73.9,
+        "kast": 67.6,
+        "rating": 0.79,
         "maps": 3
       },
       "form_summary": {
         "series": 9,
-        "average_rating": 1.2,
-        "average_adr": 91.6,
-        "recent_rating": 1.27,
-        "rating_delta": -0.01
+        "average_rating": 1.18,
+        "average_adr": 90.5,
+        "recent_rating": 1.21,
+        "rating_delta": -0.06
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -4293,12 +4293,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "mellren",
           "team_name": "Spirit Academy",
           "won": true,
-          "kills": 30,
-          "deaths": 30,
-          "kd_ratio": 1,
-          "adr": 73.2,
-          "kast": 62.2,
-          "rating": 0.98,
+          "kills": 47,
+          "deaths": 42,
+          "kd_ratio": 1.12,
+          "adr": 75.8,
+          "kast": 67.6,
+          "rating": 1.08,
           "maps": 3
         }
       ],
@@ -4312,8 +4312,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 4,
           "losses": 1,
           "win_rate": 0.8,
-          "average_rating": 1.05,
-          "average_adr": 73.7
+          "average_rating": 1.07,
+          "average_adr": 74.2
         }
       ],
       "timeline_entry": {
@@ -4323,20 +4323,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "mellren",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 30,
-        "deaths": 30,
-        "kd_ratio": 1,
-        "adr": 73.2,
-        "kast": 62.2,
-        "rating": 0.98,
+        "kills": 47,
+        "deaths": 42,
+        "kd_ratio": 1.12,
+        "adr": 75.8,
+        "kast": 67.6,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
         "series": 5,
-        "average_rating": 1.05,
-        "average_adr": 73.7,
-        "recent_rating": 0.96,
-        "rating_delta": -0.23
+        "average_rating": 1.07,
+        "average_adr": 74.2,
+        "recent_rating": 1,
+        "rating_delta": -0.19
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -4431,12 +4431,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "mellren",
           "team_name": "Spirit Academy",
           "won": true,
-          "kills": 34,
-          "deaths": 31,
-          "kd_ratio": 1.1,
-          "adr": 90,
-          "kast": 80,
-          "rating": 1.29,
+          "kills": 52,
+          "deaths": 50,
+          "kd_ratio": 1.04,
+          "adr": 92.5,
+          "kast": 77.9,
+          "rating": 1.27,
           "maps": 3
         }
       ],
@@ -4450,8 +4450,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 4,
           "losses": 1,
           "win_rate": 0.8,
-          "average_rating": 1.35,
-          "average_adr": 81.3
+          "average_rating": 1.34,
+          "average_adr": 81.8
         }
       ],
       "timeline_entry": {
@@ -4461,18 +4461,18 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "mellren",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 34,
-        "deaths": 31,
-        "kd_ratio": 1.1,
-        "adr": 90,
-        "kast": 80,
-        "rating": 1.29,
+        "kills": 52,
+        "deaths": 50,
+        "kd_ratio": 1.04,
+        "adr": 92.5,
+        "kast": 77.9,
+        "rating": 1.27,
         "maps": 3
       },
       "form_summary": {
         "series": 5,
-        "average_rating": 1.35,
-        "average_adr": 81.3,
+        "average_rating": 1.34,
+        "average_adr": 81.8,
         "recent_rating": 1.26,
         "rating_delta": -0.21
       },
@@ -12612,12 +12612,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Spirit Academy",
           "team_name": "mellren",
           "won": false,
-          "kills": 41,
-          "deaths": 31,
-          "kd_ratio": 1.32,
-          "adr": 102.3,
-          "kast": 73.3,
-          "rating": 1.53,
+          "kills": 53,
+          "deaths": 50,
+          "kd_ratio": 1.06,
+          "adr": 85.1,
+          "kast": 75,
+          "rating": 1.22,
           "maps": 3
         },
         {
@@ -12646,8 +12646,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 5,
           "losses": 4,
           "win_rate": 0.556,
-          "average_rating": 1.08,
-          "average_adr": 74.3
+          "average_rating": 1.05,
+          "average_adr": 72.4
         }
       ],
       "timeline_entry": {
@@ -12657,20 +12657,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Spirit Academy",
         "team_name": "mellren",
         "won": false,
-        "kills": 41,
-        "deaths": 31,
-        "kd_ratio": 1.32,
-        "adr": 102.3,
-        "kast": 73.3,
-        "rating": 1.53,
+        "kills": 53,
+        "deaths": 50,
+        "kd_ratio": 1.06,
+        "adr": 85.1,
+        "kast": 75,
+        "rating": 1.22,
         "maps": 3
       },
       "form_summary": {
         "series": 9,
-        "average_rating": 1.08,
-        "average_adr": 74.3,
-        "recent_rating": 1.1,
-        "rating_delta": -0.17
+        "average_rating": 1.05,
+        "average_adr": 72.4,
+        "recent_rating": 1,
+        "rating_delta": -0.27
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -14703,12 +14703,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "mellren",
           "team_name": "Spirit Academy",
           "won": true,
-          "kills": 39,
-          "deaths": 30,
-          "kd_ratio": 1.3,
-          "adr": 82.9,
-          "kast": 71.1,
-          "rating": 1.27,
+          "kills": 58,
+          "deaths": 48,
+          "kd_ratio": 1.21,
+          "adr": 87.1,
+          "kast": 72.1,
+          "rating": 1.25,
           "maps": 3
         }
       ],
@@ -14722,8 +14722,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 4,
           "losses": 1,
           "win_rate": 0.8,
-          "average_rating": 1.04,
-          "average_adr": 77.9
+          "average_rating": 1.03,
+          "average_adr": 78.8
         }
       ],
       "timeline_entry": {
@@ -14733,20 +14733,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "mellren",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 39,
-        "deaths": 30,
-        "kd_ratio": 1.3,
-        "adr": 82.9,
-        "kast": 71.1,
-        "rating": 1.27,
+        "kills": 58,
+        "deaths": 48,
+        "kd_ratio": 1.21,
+        "adr": 87.1,
+        "kast": 72.1,
+        "rating": 1.25,
         "maps": 3
       },
       "form_summary": {
         "series": 5,
-        "average_rating": 1.04,
-        "average_adr": 77.9,
-        "recent_rating": 1.13,
-        "rating_delta": 0.23
+        "average_rating": 1.03,
+        "average_adr": 78.8,
+        "recent_rating": 1.12,
+        "rating_delta": 0.22
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -15969,6 +15969,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 83.3,
           "rating": 1.07,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399318",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "Saint Sinners",
+          "won": true,
+          "kills": 36,
+          "deaths": 21,
+          "kd_ratio": 1.71,
+          "adr": 75,
+          "kast": 68.3,
+          "rating": 1.27,
+          "maps": 3
         }
       ],
       "hltv_player_id": "26324",
@@ -15978,36 +15993,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 2,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 3,
           "losses": 3,
-          "win_rate": 0.4,
-          "average_rating": 0.9,
-          "average_adr": 66.2
+          "win_rate": 0.5,
+          "average_rating": 0.96,
+          "average_adr": 67.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399314",
-        "date": "2026-10-18",
+        "match_id": "hltv:2399318",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "Bushido Wildcats",
         "team_name": "Saint Sinners",
-        "won": false,
-        "kills": 28,
-        "deaths": 42,
-        "kd_ratio": 0.67,
-        "adr": 55.2,
-        "kast": 58.9,
-        "rating": 0.67,
+        "won": true,
+        "kills": 36,
+        "deaths": 21,
+        "kd_ratio": 1.71,
+        "adr": 75,
+        "kast": 68.3,
+        "rating": 1.27,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.9,
-        "average_adr": 66.2,
-        "recent_rating": 0.85,
-        "rating_delta": -0.12
+        "series": 6,
+        "average_rating": 0.96,
+        "average_adr": 67.7,
+        "recent_rating": 1,
+        "rating_delta": 0.08
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -18660,6 +18675,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 94.4,
           "rating": 2.37,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399318",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "Saint Sinners",
+          "won": true,
+          "kills": 26,
+          "deaths": 30,
+          "kd_ratio": 0.87,
+          "adr": 85.2,
+          "kast": 73.2,
+          "rating": 1.09,
+          "maps": 3
         }
       ],
       "hltv_player_id": "26325",
@@ -18669,36 +18699,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 2,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 3,
           "losses": 3,
-          "win_rate": 0.4,
-          "average_rating": 1.25,
-          "average_adr": 80.3
+          "win_rate": 0.5,
+          "average_rating": 1.22,
+          "average_adr": 81.2
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399314",
-        "date": "2026-10-18",
+        "match_id": "hltv:2399318",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "Bushido Wildcats",
         "team_name": "Saint Sinners",
-        "won": false,
-        "kills": 33,
-        "deaths": 40,
-        "kd_ratio": 0.82,
-        "adr": 61.2,
-        "kast": 55.4,
-        "rating": 0.82,
+        "won": true,
+        "kills": 26,
+        "deaths": 30,
+        "kd_ratio": 0.87,
+        "adr": 85.2,
+        "kast": 73.2,
+        "rating": 1.09,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.25,
-        "average_adr": 80.3,
-        "recent_rating": 1.36,
-        "rating_delta": 0.29
+        "series": 6,
+        "average_rating": 1.22,
+        "average_adr": 81.2,
+        "recent_rating": 1.43,
+        "rating_delta": 0.41
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -21037,12 +21067,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Spirit Academy",
           "team_name": "mellren",
           "won": false,
-          "kills": 21,
-          "deaths": 30,
-          "kd_ratio": 0.7,
-          "adr": 60.1,
-          "kast": 66.7,
-          "rating": 0.87,
+          "kills": 38,
+          "deaths": 45,
+          "kd_ratio": 0.84,
+          "adr": 63.6,
+          "kast": 67.6,
+          "rating": 0.91,
           "maps": 3
         },
         {
@@ -21071,8 +21101,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 5,
           "losses": 4,
           "win_rate": 0.556,
-          "average_rating": 0.96,
-          "average_adr": 62.1
+          "average_rating": 0.97,
+          "average_adr": 62.4
         }
       ],
       "timeline_entry": {
@@ -21082,20 +21112,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Spirit Academy",
         "team_name": "mellren",
         "won": false,
-        "kills": 21,
-        "deaths": 30,
-        "kd_ratio": 0.7,
-        "adr": 60.1,
-        "kast": 66.7,
-        "rating": 0.87,
+        "kills": 38,
+        "deaths": 45,
+        "kd_ratio": 0.84,
+        "adr": 63.6,
+        "kast": 67.6,
+        "rating": 0.91,
         "maps": 3
       },
       "form_summary": {
         "series": 9,
-        "average_rating": 0.96,
-        "average_adr": 62.1,
-        "recent_rating": 0.96,
-        "rating_delta": -0.22
+        "average_rating": 0.97,
+        "average_adr": 62.4,
+        "recent_rating": 0.98,
+        "rating_delta": -0.2
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -22876,12 +22906,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Spirit Academy",
           "team_name": "mellren",
           "won": false,
-          "kills": 24,
-          "deaths": 27,
-          "kd_ratio": 0.89,
-          "adr": 63.9,
-          "kast": 62.2,
-          "rating": 0.85,
+          "kills": 40,
+          "deaths": 43,
+          "kd_ratio": 0.93,
+          "adr": 68.5,
+          "kast": 67.6,
+          "rating": 0.91,
           "maps": 3
         },
         {
@@ -22910,8 +22940,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 5,
           "losses": 4,
           "win_rate": 0.556,
-          "average_rating": 1.07,
-          "average_adr": 72.9
+          "average_rating": 1.08,
+          "average_adr": 73.4
         }
       ],
       "timeline_entry": {
@@ -22921,20 +22951,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Spirit Academy",
         "team_name": "mellren",
         "won": false,
-        "kills": 24,
-        "deaths": 27,
-        "kd_ratio": 0.89,
-        "adr": 63.9,
-        "kast": 62.2,
-        "rating": 0.85,
+        "kills": 40,
+        "deaths": 43,
+        "kd_ratio": 0.93,
+        "adr": 68.5,
+        "kast": 67.6,
+        "rating": 0.91,
         "maps": 3
       },
       "form_summary": {
         "series": 9,
-        "average_rating": 1.07,
-        "average_adr": 72.9,
-        "recent_rating": 0.95,
-        "rating_delta": -0.23
+        "average_rating": 1.08,
+        "average_adr": 73.4,
+        "recent_rating": 0.97,
+        "rating_delta": -0.21
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -26532,6 +26562,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 72.2,
           "rating": 0.78,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399318",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "Saint Sinners",
+          "won": true,
+          "kills": 22,
+          "deaths": 28,
+          "kd_ratio": 0.79,
+          "adr": 61.5,
+          "kast": 80.5,
+          "rating": 1.01,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24838",
@@ -26541,35 +26586,35 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 2,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 3,
           "losses": 3,
-          "win_rate": 0.4,
-          "average_rating": 0.8,
-          "average_adr": 64.5
+          "win_rate": 0.5,
+          "average_rating": 0.83,
+          "average_adr": 64
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399314",
-        "date": "2026-10-18",
+        "match_id": "hltv:2399318",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "Bushido Wildcats",
         "team_name": "Saint Sinners",
-        "won": false,
-        "kills": 28,
-        "deaths": 43,
-        "kd_ratio": 0.65,
-        "adr": 69.6,
-        "kast": 64.3,
-        "rating": 0.83,
+        "won": true,
+        "kills": 22,
+        "deaths": 28,
+        "kd_ratio": 0.79,
+        "adr": 61.5,
+        "kast": 80.5,
+        "rating": 1.01,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.8,
-        "average_adr": 64.5,
-        "recent_rating": 0.83,
+        "series": 6,
+        "average_rating": 0.83,
+        "average_adr": 64,
+        "recent_rating": 0.87,
         "rating_delta": 0.08
       },
       "kd_ratio_3m": null,
@@ -34111,12 +34156,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Spirit Academy",
           "team_name": "mellren",
           "won": false,
-          "kills": 31,
-          "deaths": 31,
-          "kd_ratio": 1,
-          "adr": 65.1,
-          "kast": 73.3,
-          "rating": 0.94,
+          "kills": 52,
+          "deaths": 46,
+          "kd_ratio": 1.13,
+          "adr": 77.2,
+          "kast": 72.1,
+          "rating": 1.11,
           "maps": 3
         },
         {
@@ -34145,8 +34190,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 5,
           "losses": 4,
           "win_rate": 0.556,
-          "average_rating": 0.92,
-          "average_adr": 64.1
+          "average_rating": 0.94,
+          "average_adr": 65.4
         }
       ],
       "timeline_entry": {
@@ -34156,20 +34201,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Spirit Academy",
         "team_name": "mellren",
         "won": false,
-        "kills": 31,
-        "deaths": 31,
-        "kd_ratio": 1,
-        "adr": 65.1,
-        "kast": 73.3,
-        "rating": 0.94,
+        "kills": 52,
+        "deaths": 46,
+        "kd_ratio": 1.13,
+        "adr": 77.2,
+        "kast": 72.1,
+        "rating": 1.11,
         "maps": 3
       },
       "form_summary": {
         "series": 9,
-        "average_rating": 0.92,
-        "average_adr": 64.1,
-        "recent_rating": 0.87,
-        "rating_delta": -0.12
+        "average_rating": 0.94,
+        "average_adr": 65.4,
+        "recent_rating": 0.93,
+        "rating_delta": -0.06
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -38788,6 +38833,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 83.3,
           "rating": 1.43,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399318",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "Saint Sinners",
+          "won": true,
+          "kills": 30,
+          "deaths": 24,
+          "kd_ratio": 1.25,
+          "adr": 76.7,
+          "kast": 75.6,
+          "rating": 1.23,
+          "maps": 3
         }
       ],
       "hltv_player_id": "20208",
@@ -38797,36 +38857,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 2,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 3,
           "losses": 3,
-          "win_rate": 0.4,
-          "average_rating": 1.12,
-          "average_adr": 79
+          "win_rate": 0.5,
+          "average_rating": 1.14,
+          "average_adr": 78.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399314",
-        "date": "2026-10-18",
+        "match_id": "hltv:2399318",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "Bushido Wildcats",
         "team_name": "Saint Sinners",
-        "won": false,
-        "kills": 37,
-        "deaths": 43,
-        "kd_ratio": 0.86,
-        "adr": 76,
-        "kast": 64.3,
-        "rating": 1.11,
+        "won": true,
+        "kills": 30,
+        "deaths": 24,
+        "kd_ratio": 1.25,
+        "adr": 76.7,
+        "kast": 75.6,
+        "rating": 1.23,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.12,
-        "average_adr": 79,
-        "recent_rating": 1.23,
-        "rating_delta": 0.28
+        "series": 6,
+        "average_rating": 1.14,
+        "average_adr": 78.7,
+        "recent_rating": 1.26,
+        "rating_delta": 0.24
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -39149,12 +39209,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "mellren",
           "team_name": "Spirit Academy",
           "won": true,
-          "kills": 25,
-          "deaths": 32,
-          "kd_ratio": 0.78,
-          "adr": 62.5,
-          "kast": 64.4,
-          "rating": 0.97,
+          "kills": 41,
+          "deaths": 45,
+          "kd_ratio": 0.91,
+          "adr": 60.8,
+          "kast": 69.1,
+          "rating": 1.09,
           "maps": 3
         }
       ],
@@ -39168,8 +39228,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 4,
           "losses": 1,
           "win_rate": 0.8,
-          "average_rating": 1.07,
-          "average_adr": 65.4
+          "average_rating": 1.09,
+          "average_adr": 65.1
         }
       ],
       "timeline_entry": {
@@ -39179,20 +39239,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "mellren",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 25,
-        "deaths": 32,
-        "kd_ratio": 0.78,
-        "adr": 62.5,
-        "kast": 64.4,
-        "rating": 0.97,
+        "kills": 41,
+        "deaths": 45,
+        "kd_ratio": 0.91,
+        "adr": 60.8,
+        "kast": 69.1,
+        "rating": 1.09,
         "maps": 3
       },
       "form_summary": {
         "series": 5,
-        "average_rating": 1.07,
-        "average_adr": 65.4,
-        "recent_rating": 1.04,
-        "rating_delta": -0.07
+        "average_rating": 1.09,
+        "average_adr": 65.1,
+        "recent_rating": 1.08,
+        "rating_delta": -0.03
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -41293,12 +41353,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "mellren",
           "team_name": "Spirit Academy",
           "won": true,
-          "kills": 23,
-          "deaths": 29,
-          "kd_ratio": 0.79,
-          "adr": 54.9,
-          "kast": 57.8,
-          "rating": 0.78,
+          "kills": 37,
+          "deaths": 45,
+          "kd_ratio": 0.82,
+          "adr": 58,
+          "kast": 58.8,
+          "rating": 0.81,
           "maps": 3
         }
       ],
@@ -41312,8 +41372,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 4,
           "losses": 1,
           "win_rate": 0.8,
-          "average_rating": 0.98,
-          "average_adr": 71.1
+          "average_rating": 0.99,
+          "average_adr": 71.8
         }
       ],
       "timeline_entry": {
@@ -41323,20 +41383,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "mellren",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 23,
-        "deaths": 29,
-        "kd_ratio": 0.79,
-        "adr": 54.9,
-        "kast": 57.8,
-        "rating": 0.78,
+        "kills": 37,
+        "deaths": 45,
+        "kd_ratio": 0.82,
+        "adr": 58,
+        "kast": 58.8,
+        "rating": 0.81,
         "maps": 3
       },
       "form_summary": {
         "series": 5,
-        "average_rating": 0.98,
-        "average_adr": 71.1,
-        "recent_rating": 0.97,
-        "rating_delta": -0.03
+        "average_rating": 0.99,
+        "average_adr": 71.8,
+        "recent_rating": 0.98,
+        "rating_delta": -0.02
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -53126,6 +53186,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 83.3,
           "rating": 1.16,
           "maps": 2
+        },
+        {
+          "match_id": "hltv:2399318",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "Saint Sinners",
+          "won": true,
+          "kills": 29,
+          "deaths": 23,
+          "kd_ratio": 1.26,
+          "adr": 68.8,
+          "kast": 78,
+          "rating": 1.11,
+          "maps": 3
         }
       ],
       "hltv_player_id": "21108",
@@ -53135,36 +53210,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Saint Sinners",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 2,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 3,
           "losses": 3,
-          "win_rate": 0.4,
-          "average_rating": 1.01,
-          "average_adr": 72.1
+          "win_rate": 0.5,
+          "average_rating": 1.03,
+          "average_adr": 71.5
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399314",
-        "date": "2026-10-18",
+        "match_id": "hltv:2399318",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "Bushido Wildcats",
         "team_name": "Saint Sinners",
-        "won": false,
-        "kills": 48,
-        "deaths": 42,
-        "kd_ratio": 1.14,
-        "adr": 92.2,
-        "kast": 75,
-        "rating": 1.36,
+        "won": true,
+        "kills": 29,
+        "deaths": 23,
+        "kd_ratio": 1.26,
+        "adr": 68.8,
+        "kast": 78,
+        "rating": 1.11,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.01,
-        "average_adr": 72.1,
-        "recent_rating": 1.06,
-        "rating_delta": 0.11
+        "series": 6,
+        "average_rating": 1.03,
+        "average_adr": 71.5,
+        "recent_rating": 1.21,
+        "rating_delta": 0.36
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -59804,42 +59879,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 64.4,
           "rating": 0.75,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399318",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Saint Sinners",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 20,
+          "deaths": 31,
+          "kd_ratio": 0.65,
+          "adr": 60.1,
+          "kast": 70.7,
+          "rating": 0.81,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399302",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399318",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "Saint Sinners",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 21,
-        "deaths": 32,
-        "kd_ratio": 0.66,
-        "adr": 59.6,
-        "kast": 52.5,
+        "kills": 20,
+        "deaths": 31,
+        "kd_ratio": 0.65,
+        "adr": 60.1,
+        "kast": 70.7,
         "rating": 0.81,
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.73,
-        "average_adr": 58.6,
-        "recent_rating": 0.74,
-        "rating_delta": 0.03
+        "series": 5,
+        "average_rating": 0.75,
+        "average_adr": 58.9,
+        "recent_rating": 0.79,
+        "rating_delta": 0.1
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-17",
-          "series": 4,
+          "through_date": "2026-10-19",
+          "series": 5,
           "wins": 0,
-          "losses": 4,
+          "losses": 5,
           "win_rate": 0,
-          "average_rating": 0.73,
-          "average_adr": 58.6
+          "average_rating": 0.75,
+          "average_adr": 58.9
         }
       ],
       "kd_ratio_3m": null,
@@ -59934,42 +60024,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 64.3,
           "rating": 0.82,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399318",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Saint Sinners",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 33,
+          "deaths": 27,
+          "kd_ratio": 1.22,
+          "adr": 77.5,
+          "kast": 70.7,
+          "rating": 1.09,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399302",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399318",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "Saint Sinners",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 30,
-        "deaths": 30,
-        "kd_ratio": 1,
-        "adr": 72.7,
-        "kast": 70,
-        "rating": 1.06,
+        "kills": 33,
+        "deaths": 27,
+        "kd_ratio": 1.22,
+        "adr": 77.5,
+        "kast": 70.7,
+        "rating": 1.09,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.95,
-        "average_adr": 69.4,
-        "recent_rating": 0.87,
-        "rating_delta": -0.22
+        "series": 6,
+        "average_rating": 0.98,
+        "average_adr": 70.8,
+        "recent_rating": 0.88,
+        "rating_delta": -0.2
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-18",
-          "series": 5,
+          "through_date": "2026-10-19",
+          "series": 6,
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "win_rate": 0,
-          "average_rating": 0.95,
-          "average_adr": 69.4
+          "average_rating": 0.98,
+          "average_adr": 70.8
         }
       ],
       "kd_ratio_3m": null,
@@ -60064,42 +60169,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 64.3,
           "rating": 0.7,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399318",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Saint Sinners",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 23,
+          "deaths": 27,
+          "kd_ratio": 0.85,
+          "adr": 62.1,
+          "kast": 56.1,
+          "rating": 0.9,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399302",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399318",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "Saint Sinners",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 24,
-        "deaths": 34,
-        "kd_ratio": 0.71,
-        "adr": 66.4,
-        "kast": 65,
-        "rating": 0.75,
+        "kills": 23,
+        "deaths": 27,
+        "kd_ratio": 0.85,
+        "adr": 62.1,
+        "kast": 56.1,
+        "rating": 0.9,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
+        "series": 6,
         "average_rating": 0.88,
-        "average_adr": 67,
-        "recent_rating": 0.78,
-        "rating_delta": -0.25
+        "average_adr": 66.2,
+        "recent_rating": 0.83,
+        "rating_delta": -0.11
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-18",
-          "series": 5,
+          "through_date": "2026-10-19",
+          "series": 6,
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "win_rate": 0,
           "average_rating": 0.88,
-          "average_adr": 67
+          "average_adr": 66.2
         }
       ],
       "kd_ratio_3m": null,
@@ -60194,42 +60314,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 50,
           "rating": 0.48,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399318",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Saint Sinners",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 24,
+          "deaths": 27,
+          "kd_ratio": 0.89,
+          "adr": 63.1,
+          "kast": 73.2,
+          "rating": 0.92,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399302",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399318",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "Saint Sinners",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 25,
+        "kills": 24,
         "deaths": 27,
-        "kd_ratio": 0.93,
-        "adr": 81.6,
-        "kast": 70,
-        "rating": 1.06,
+        "kd_ratio": 0.89,
+        "adr": 63.1,
+        "kast": 73.2,
+        "rating": 0.92,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
+        "series": 6,
         "average_rating": 0.9,
-        "average_adr": 65.7,
-        "recent_rating": 0.76,
-        "rating_delta": -0.35
+        "average_adr": 65.3,
+        "recent_rating": 0.71,
+        "rating_delta": -0.38
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-18",
-          "series": 5,
+          "through_date": "2026-10-19",
+          "series": 6,
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "win_rate": 0,
           "average_rating": 0.9,
-          "average_adr": 65.7
+          "average_adr": 65.3
         }
       ],
       "kd_ratio_3m": null,
@@ -60324,42 +60459,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 50,
           "rating": 0.6,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399318",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Saint Sinners",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 26,
+          "deaths": 31,
+          "kd_ratio": 0.84,
+          "adr": 67.4,
+          "kast": 68.3,
+          "rating": 0.92,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399302",
-        "date": "2026-10-15",
+        "match_id": "hltv:2399318",
+        "date": "2026-10-19",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "Saint Sinners",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 14,
-        "deaths": 32,
-        "kd_ratio": 0.44,
-        "adr": 44.9,
-        "kast": 57.5,
-        "rating": 0.53,
+        "kills": 26,
+        "deaths": 31,
+        "kd_ratio": 0.84,
+        "adr": 67.4,
+        "kast": 68.3,
+        "rating": 0.92,
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.77,
-        "average_adr": 56.6,
-        "recent_rating": 0.66,
-        "rating_delta": -0.27
+        "series": 6,
+        "average_rating": 0.79,
+        "average_adr": 58.4,
+        "recent_rating": 0.79,
+        "rating_delta": 0
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Bushido Wildcats",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-18",
-          "series": 5,
+          "through_date": "2026-10-19",
+          "series": 6,
           "wins": 0,
-          "losses": 5,
+          "losses": 6,
           "win_rate": 0,
-          "average_rating": 0.77,
-          "average_adr": 56.6
+          "average_rating": 0.79,
+          "average_adr": 58.4
         }
       ],
       "kd_ratio_3m": null,
@@ -63234,7 +63384,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-19T10:49:08Z",
+  "lineups_updated_at_utc": "2026-10-19T17:27:49Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-19",
   "history_profile_count": 53,
