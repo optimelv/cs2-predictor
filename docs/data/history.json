@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 3999,
+    "matches": 4000,
     "maps": 2887,
     "lineup_rows": 9503,
     "source_match_ids": 976
@@ -399,6 +399,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_3"
+    },
+    {
+      "match_id": "liquipedia:fa13c6b3b883b00ae9e0",
+      "match_date": "2026-10-18",
+      "starts_at": "2026-10-18T17:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 3",
+      "team1_name": "mellren",
+      "team2_name": "UNiTY",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_3"
     },
     {
       "match_id": "liquipedia:4a147ac46648f44ebc77",
