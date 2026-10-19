@@ -33844,7 +33844,7 @@
     {
       "player_id": "hltv:25730",
       "nickname": "souv",
-      "team_name": "Misa",
+      "team_name": "Bushido Wildcats",
       "rating_3_0": 1.01,
       "maps_3m": 130,
       "signal_index": 57,
@@ -33874,10 +33874,36 @@
           "kast": 81.2,
           "rating": 1.37,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399786",
+          "date": "2026-10-18",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Fire Flux",
+          "team_name": "Bushido Wildcats",
+          "won": false,
+          "kills": 8,
+          "deaths": 13,
+          "kd_ratio": 0.62,
+          "adr": 65.1,
+          "kast": 42.9,
+          "rating": 0.79,
+          "maps": 3
         }
       ],
       "map_profile": [],
       "roster_eras": [
+        {
+          "team_name": "Bushido Wildcats",
+          "from_date": "2026-10-18",
+          "through_date": "2026-10-18",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.79,
+          "average_adr": 65.1
+        },
         {
           "team_name": "Fire Flux",
           "from_date": "2026-10-12",
@@ -33906,10 +33932,10 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.37,
-        "average_adr": 86.4,
-        "recent_rating": 1.37,
+        "series": 2,
+        "average_rating": 1.08,
+        "average_adr": 75.8,
+        "recent_rating": 1.08,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -57839,6 +57865,21 @@
           "kast": 78.1,
           "rating": 1.15,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399095",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "GenOne",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 29,
+          "deaths": 35,
+          "kd_ratio": 0.83,
+          "adr": 66.1,
+          "kast": 68.6,
+          "rating": 0.9,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -57846,13 +57887,13 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 4,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 5,
           "losses": 1,
-          "win_rate": 0.8,
+          "win_rate": 0.833,
           "average_rating": 0.89,
-          "average_adr": 55.8
+          "average_adr": 57.6
         }
       ],
       "timeline_entry": {
@@ -57871,11 +57912,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
+        "series": 6,
         "average_rating": 0.89,
-        "average_adr": 55.8,
-        "recent_rating": 0.81,
-        "rating_delta": -0.19
+        "average_adr": 57.6,
+        "recent_rating": 0.84,
+        "rating_delta": -0.1
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -57969,6 +58010,21 @@
           "kast": 87.5,
           "rating": 1.91,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399095",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "GenOne",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 32,
+          "deaths": 28,
+          "kd_ratio": 1.14,
+          "adr": 65.3,
+          "kast": 74.5,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -57976,13 +58032,13 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 4,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 5,
           "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.45,
-          "average_adr": 88
+          "win_rate": 0.833,
+          "average_rating": 1.38,
+          "average_adr": 84.2
         }
       ],
       "timeline_entry": {
@@ -58001,11 +58057,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.45,
-        "average_adr": 88,
-        "recent_rating": 1.6,
-        "rating_delta": 0.39
+        "series": 6,
+        "average_rating": 1.38,
+        "average_adr": 84.2,
+        "recent_rating": 1.21,
+        "rating_delta": -0.33
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -58099,6 +58155,21 @@
           "kast": 84.4,
           "rating": 1.65,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399095",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "GenOne",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 32,
+          "deaths": 28,
+          "kd_ratio": 1.14,
+          "adr": 71.6,
+          "kast": 74.5,
+          "rating": 1.1,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -58106,13 +58177,13 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 4,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 5,
           "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.27,
-          "average_adr": 76.6
+          "win_rate": 0.833,
+          "average_rating": 1.24,
+          "average_adr": 75.8
         }
       ],
       "timeline_entry": {
@@ -58131,11 +58202,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.27,
-        "average_adr": 76.6,
-        "recent_rating": 1.19,
-        "rating_delta": -0.21
+        "series": 6,
+        "average_rating": 1.24,
+        "average_adr": 75.8,
+        "recent_rating": 1.18,
+        "rating_delta": -0.13
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -58259,10 +58330,36 @@
           "kast": 63.4,
           "rating": 0.96,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399095",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "GenOne",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 47,
+          "deaths": 33,
+          "kd_ratio": 1.42,
+          "adr": 95.8,
+          "kast": 82.4,
+          "rating": 1.33,
+          "maps": 3
         }
       ],
       "map_profile": [],
       "roster_eras": [
+        {
+          "team_name": "FORZE Reload",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-19",
+          "series": 5,
+          "wins": 4,
+          "losses": 1,
+          "win_rate": 0.8,
+          "average_rating": 1.14,
+          "average_adr": 81.7
+        },
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-16",
@@ -58273,17 +58370,6 @@
           "win_rate": 0.333,
           "average_rating": 1.15,
           "average_adr": 77.8
-        },
-        {
-          "team_name": "FORZE Reload",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-17",
-          "series": 4,
-          "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.09,
-          "average_adr": 78.1
         }
       ],
       "timeline_entry": {
@@ -58302,11 +58388,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 7,
-        "average_rating": 1.11,
-        "average_adr": 78,
-        "recent_rating": 0.94,
-        "rating_delta": -0.26
+        "series": 8,
+        "average_rating": 1.14,
+        "average_adr": 80.2,
+        "recent_rating": 1.06,
+        "rating_delta": -0.11
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -58400,6 +58486,21 @@
           "kast": 81.2,
           "rating": 1.45,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399095",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "GenOne",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 44,
+          "deaths": 27,
+          "kd_ratio": 1.63,
+          "adr": 81.4,
+          "kast": 84.3,
+          "rating": 1.49,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -58407,13 +58508,13 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 4,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 5,
           "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.18,
-          "average_adr": 74
+          "win_rate": 0.833,
+          "average_rating": 1.23,
+          "average_adr": 75.3
         }
       ],
       "timeline_entry": {
@@ -58432,11 +58533,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.18,
-        "average_adr": 74,
-        "recent_rating": 1.13,
-        "rating_delta": -0.13
+        "series": 6,
+        "average_rating": 1.23,
+        "average_adr": 75.3,
+        "recent_rating": 1.19,
+        "rating_delta": -0.09
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -63133,9 +63234,9 @@
       "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-18T23:18:03Z",
+  "lineups_updated_at_utc": "2026-10-19T10:49:08Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-18",
+  "history_through_date": "2026-10-19",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",

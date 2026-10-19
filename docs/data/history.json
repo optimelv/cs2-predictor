@@ -1,6 +1,6 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-18T23:18:03Z",
+  "generated_at_utc": "2026-10-19T10:49:08Z",
   "through_date": "2026-10-18",
   "scope": {
     "tiers": [
@@ -54,18 +54,18 @@
       ],
       "lineups": {
         "team1": [
-          "4X1s",
-          "karnez",
           "topo",
-          "MRcreed",
-          "Salazar"
+          "karnez",
+          "4X1s",
+          "Salazar",
+          "MRcreed"
         ],
         "team2": [
           "deb0",
           "Caleyy",
           "pavlysha666",
-          "halfjix",
-          "iRV1NG"
+          "iRV1NG",
+          "halfjix"
         ]
       }
     },
@@ -741,7 +741,7 @@
       "winner_name": "The Last Resort",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
