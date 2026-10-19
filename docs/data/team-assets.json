@@ -2225,5 +2225,10 @@
     "name": "ACES",
     "logo_url": "https://liquipedia.net/commons/images/thumb/8/80/Team_ACES_lightmode.png/68px-Team_ACES_lightmode.png",
     "source": "Liquipedia"
+  },
+  "m1": {
+    "name": "M1",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/6/69/MASTER_ONE_allmode.png/50px-MASTER_ONE_allmode.png",
+    "source": "Liquipedia"
   }
 }
