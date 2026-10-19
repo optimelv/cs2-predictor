@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4009,
+    "matches": 4016,
     "maps": 2903,
     "lineup_rows": 9553,
     "source_match_ids": 976
@@ -283,6 +283,160 @@
           "dottie"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:acec93ef358ac186447f",
+      "match_date": "2026-10-19",
+      "starts_at": "2026-10-19T12:00:00Z",
+      "event_name": "1win Private Club #2",
+      "team1_name": "BIG",
+      "team2_name": "PRVT",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BIG",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/1win_Private_Club/2#Results"
+    },
+    {
+      "match_id": "liquipedia:103e1fef108845920a9a",
+      "match_date": "2026-10-19",
+      "starts_at": "2026-10-19T14:25:00Z",
+      "event_name": "DraculaN Season 7 - Group B",
+      "team1_name": "Drama",
+      "team2_name": "Nexus",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Group_B"
+    },
+    {
+      "match_id": "liquipedia:241a12a415cf96dedc92",
+      "match_date": "2026-10-19",
+      "starts_at": "2026-10-19T14:30:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 3",
+      "team1_name": "BW",
+      "team2_name": "ex-Z10",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-Z10",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_3"
+    },
+    {
+      "match_id": "liquipedia:57bb9b0d09a8e25eef63",
+      "match_date": "2026-10-19",
+      "starts_at": "2026-10-19T14:35:00Z",
+      "event_name": "DraculaN Season 7 - Group C",
+      "team1_name": "HSP",
+      "team2_name": "MOUZ NXT",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "HSP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Group_C"
+    },
+    {
+      "match_id": "liquipedia:75c67447feed3298090c",
+      "match_date": "2026-10-19",
+      "starts_at": "2026-10-19T16:00:00Z",
+      "event_name": "DraculaN Season 7 - Group D",
+      "team1_name": "ASTRAL",
+      "team2_name": "Leo",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ASTRAL",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Group_D"
+    },
+    {
+      "match_id": "liquipedia:5baebdd90cc082afe590",
+      "match_date": "2026-10-19",
+      "starts_at": "2026-10-19T17:15:00Z",
+      "event_name": "DraculaN Season 7 - Group A",
+      "team1_name": "Aimclub",
+      "team2_name": "BOYS",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "BOYS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Group_A"
+    },
+    {
+      "match_id": "liquipedia:d4fdb62c74ccc807a88f",
+      "match_date": "2026-10-19",
+      "starts_at": "2026-10-19T17:55:00Z",
+      "event_name": "DraculaN Season 7 - Group C",
+      "team1_name": "HSP",
+      "team2_name": "Sashi",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "HSP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Group_C"
     },
     {
       "match_id": "hltv:2399314",

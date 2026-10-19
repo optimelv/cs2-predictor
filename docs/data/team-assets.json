@@ -2230,5 +2230,10 @@
     "name": "M1",
     "logo_url": "https://liquipedia.net/commons/images/thumb/6/69/MASTER_ONE_allmode.png/50px-MASTER_ONE_allmode.png",
     "source": "Liquipedia"
+  },
+  "bayankhongor": {
+    "name": "Bayankhongor",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/f/f9/Bayankhongor_allmode.png/55px-Bayankhongor_allmode.png",
+    "source": "Liquipedia"
   }
 }
