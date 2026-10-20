@@ -4360,6 +4360,21 @@
           "kast": 67.6,
           "rating": 1.08,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399772",
+          "date": "2026-10-19",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Betclic",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 52,
+          "deaths": 44,
+          "kd_ratio": 1.18,
+          "adr": 74.6,
+          "kast": 65.7,
+          "rating": 1.23,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -4367,13 +4382,13 @@
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-18",
-          "series": 5,
+          "through_date": "2026-10-19",
+          "series": 6,
           "wins": 4,
-          "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.07,
-          "average_adr": 74.2
+          "losses": 2,
+          "win_rate": 0.667,
+          "average_rating": 1.1,
+          "average_adr": 74.3
         }
       ],
       "timeline_entry": {
@@ -4392,11 +4407,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.07,
-        "average_adr": 74.2,
-        "recent_rating": 1,
-        "rating_delta": -0.19
+        "series": 6,
+        "average_rating": 1.1,
+        "average_adr": 74.3,
+        "recent_rating": 1.17,
+        "rating_delta": 0.14
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -4498,6 +4513,21 @@
           "kast": 77.9,
           "rating": 1.27,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399772",
+          "date": "2026-10-19",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Betclic",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 44,
+          "deaths": 51,
+          "kd_ratio": 0.86,
+          "adr": 65.5,
+          "kast": 73.1,
+          "rating": 0.95,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -4505,13 +4535,13 @@
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-18",
-          "series": 5,
+          "through_date": "2026-10-19",
+          "series": 6,
           "wins": 4,
-          "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.34,
-          "average_adr": 81.8
+          "losses": 2,
+          "win_rate": 0.667,
+          "average_rating": 1.28,
+          "average_adr": 79.1
         }
       ],
       "timeline_entry": {
@@ -4530,11 +4560,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.34,
-        "average_adr": 81.8,
-        "recent_rating": 1.26,
-        "rating_delta": -0.21
+        "series": 6,
+        "average_rating": 1.28,
+        "average_adr": 79.1,
+        "recent_rating": 1.25,
+        "rating_delta": -0.06
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -14311,6 +14341,21 @@
           "kast": 68.8,
           "rating": 1.02,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399096",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "BAKS",
+          "won": false,
+          "kills": 31,
+          "deaths": 31,
+          "kd_ratio": 1,
+          "adr": 65.5,
+          "kast": 62.8,
+          "rating": 0.94,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25509",
@@ -14320,13 +14365,13 @@
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-18",
-          "series": 4,
+          "through_date": "2026-10-19",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.06,
-          "average_adr": 70.7
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 1.04,
+          "average_adr": 69.7
         }
       ],
       "timeline_entry": {
@@ -14345,11 +14390,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.06,
-        "average_adr": 70.7,
-        "recent_rating": 1.11,
-        "rating_delta": 0.19
+        "series": 5,
+        "average_rating": 1.04,
+        "average_adr": 69.7,
+        "recent_rating": 1.05,
+        "rating_delta": 0.03
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -14905,6 +14950,21 @@
           "kast": 72.1,
           "rating": 1.25,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399772",
+          "date": "2026-10-19",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Betclic",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 44,
+          "deaths": 52,
+          "kd_ratio": 0.85,
+          "adr": 73.2,
+          "kast": 73.1,
+          "rating": 1,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -14912,13 +14972,13 @@
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-18",
-          "series": 5,
+          "through_date": "2026-10-19",
+          "series": 6,
           "wins": 4,
-          "losses": 1,
-          "win_rate": 0.8,
+          "losses": 2,
+          "win_rate": 0.667,
           "average_rating": 1.03,
-          "average_adr": 78.8
+          "average_adr": 77.8
         }
       ],
       "timeline_entry": {
@@ -14937,11 +14997,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
+        "series": 6,
         "average_rating": 1.03,
-        "average_adr": 78.8,
-        "recent_rating": 1.12,
-        "rating_delta": 0.22
+        "average_adr": 77.8,
+        "recent_rating": 1.1,
+        "rating_delta": 0.14
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -16317,6 +16377,21 @@
           "kast": 53.1,
           "rating": 0.44,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399096",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "BAKS",
+          "won": false,
+          "kills": 42,
+          "deaths": 30,
+          "kd_ratio": 1.4,
+          "adr": 91.8,
+          "kast": 67.4,
+          "rating": 1.41,
+          "maps": 3
         }
       ],
       "hltv_player_id": "24316",
@@ -16326,13 +16401,13 @@
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-18",
-          "series": 4,
+          "through_date": "2026-10-19",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 0.98,
-          "average_adr": 72.5
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 1.07,
+          "average_adr": 76.3
         }
       ],
       "timeline_entry": {
@@ -16351,11 +16426,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.98,
-        "average_adr": 72.5,
-        "recent_rating": 0.85,
-        "rating_delta": -0.55
+        "series": 5,
+        "average_rating": 1.07,
+        "average_adr": 76.3,
+        "recent_rating": 0.94,
+        "rating_delta": -0.32
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -19053,6 +19128,21 @@
           "kast": 56.2,
           "rating": 0.46,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399096",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "BAKS",
+          "won": false,
+          "kills": 22,
+          "deaths": 34,
+          "kd_ratio": 0.65,
+          "adr": 63.2,
+          "kast": 58.1,
+          "rating": 0.69,
+          "maps": 3
         }
       ],
       "hltv_player_id": "22039",
@@ -19062,13 +19152,13 @@
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-18",
-          "series": 4,
+          "through_date": "2026-10-19",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.03,
-          "average_adr": 68.2
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 0.96,
+          "average_adr": 67.2
         }
       ],
       "timeline_entry": {
@@ -19087,11 +19177,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.03,
-        "average_adr": 68.2,
-        "recent_rating": 0.94,
-        "rating_delta": -0.35
+        "series": 5,
+        "average_rating": 0.96,
+        "average_adr": 67.2,
+        "recent_rating": 0.75,
+        "rating_delta": -0.53
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -38423,6 +38513,21 @@
           "kast": 53.1,
           "rating": 0.64,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399096",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "BAKS",
+          "won": false,
+          "kills": 22,
+          "deaths": 34,
+          "kd_ratio": 0.65,
+          "adr": 71.7,
+          "kast": 74.4,
+          "rating": 0.8,
+          "maps": 3
         }
       ],
       "hltv_player_id": "19882",
@@ -38432,13 +38537,13 @@
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-18",
-          "series": 4,
+          "through_date": "2026-10-19",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.04,
-          "average_adr": 73
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 0.99,
+          "average_adr": 72.7
         }
       ],
       "timeline_entry": {
@@ -38457,11 +38562,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.04,
-        "average_adr": 73,
-        "recent_rating": 1.06,
-        "rating_delta": 0.07
+        "series": 5,
+        "average_rating": 0.99,
+        "average_adr": 72.7,
+        "recent_rating": 0.92,
+        "rating_delta": -0.18
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -39481,6 +39586,21 @@
           "kast": 62.5,
           "rating": 0.74,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399096",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Black Phoenix",
+          "team_name": "BAKS",
+          "won": false,
+          "kills": 21,
+          "deaths": 34,
+          "kd_ratio": 0.62,
+          "adr": 60.3,
+          "kast": 72.1,
+          "rating": 0.75,
+          "maps": 3
         }
       ],
       "hltv_player_id": "21447",
@@ -39490,13 +39610,13 @@
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-18",
-          "series": 4,
+          "through_date": "2026-10-19",
+          "series": 5,
           "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 1.01,
-          "average_adr": 71.3
+          "losses": 2,
+          "win_rate": 0.6,
+          "average_rating": 0.96,
+          "average_adr": 69.1
         }
       ],
       "timeline_entry": {
@@ -39515,11 +39635,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 4,
-        "average_rating": 1.01,
-        "average_adr": 71.3,
-        "recent_rating": 0.97,
-        "rating_delta": -0.15
+        "series": 5,
+        "average_rating": 0.96,
+        "average_adr": 69.1,
+        "recent_rating": 0.9,
+        "rating_delta": -0.13
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -39726,6 +39846,21 @@
           "kast": 69.1,
           "rating": 1.09,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399772",
+          "date": "2026-10-19",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Betclic",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 30,
+          "deaths": 46,
+          "kd_ratio": 0.65,
+          "adr": 62.2,
+          "kast": 70.1,
+          "rating": 0.93,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -39733,13 +39868,13 @@
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-18",
-          "series": 5,
+          "through_date": "2026-10-19",
+          "series": 6,
           "wins": 4,
-          "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.09,
-          "average_adr": 65.1
+          "losses": 2,
+          "win_rate": 0.667,
+          "average_rating": 1.06,
+          "average_adr": 64.6
         }
       ],
       "timeline_entry": {
@@ -39758,11 +39893,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.09,
-        "average_adr": 65.1,
-        "recent_rating": 1.08,
-        "rating_delta": -0.03
+        "series": 6,
+        "average_rating": 1.06,
+        "average_adr": 64.6,
+        "recent_rating": 1.1,
+        "rating_delta": 0.07
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -41900,6 +42035,21 @@
           "kast": 58.8,
           "rating": 0.81,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399772",
+          "date": "2026-10-19",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Betclic",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 33,
+          "deaths": 52,
+          "kd_ratio": 0.63,
+          "adr": 59.7,
+          "kast": 61.2,
+          "rating": 0.74,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -41907,13 +42057,13 @@
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-18",
-          "series": 5,
+          "through_date": "2026-10-19",
+          "series": 6,
           "wins": 4,
-          "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 0.99,
-          "average_adr": 71.8
+          "losses": 2,
+          "win_rate": 0.667,
+          "average_rating": 0.95,
+          "average_adr": 69.7
         }
       ],
       "timeline_entry": {
@@ -41932,11 +42082,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 0.99,
-        "average_adr": 71.8,
-        "recent_rating": 0.98,
-        "rating_delta": -0.02
+        "series": 6,
+        "average_rating": 0.95,
+        "average_adr": 69.7,
+        "recent_rating": 0.91,
+        "rating_delta": -0.07
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -60767,12 +60917,12 @@
           "opponent_name": "Fire Flux",
           "team_name": "Bushido Wildcats",
           "won": false,
-          "kills": 8,
-          "deaths": 11,
-          "kd_ratio": 0.73,
-          "adr": 73.4,
-          "kast": 64.3,
-          "rating": 0.82,
+          "kills": 26,
+          "deaths": 33,
+          "kd_ratio": 0.79,
+          "adr": 77.6,
+          "kast": 65.9,
+          "rating": 0.95,
           "maps": 3
         },
         {
@@ -60823,10 +60973,10 @@
       },
       "form_summary": {
         "series": 7,
-        "average_rating": 0.96,
-        "average_adr": 73,
-        "recent_rating": 0.93,
-        "rating_delta": -0.09
+        "average_rating": 0.98,
+        "average_adr": 73.6,
+        "recent_rating": 0.97,
+        "rating_delta": -0.05
       },
       "map_profile": [],
       "roster_eras": [
@@ -60838,8 +60988,8 @@
           "wins": 0,
           "losses": 7,
           "win_rate": 0,
-          "average_rating": 0.96,
-          "average_adr": 73
+          "average_rating": 0.98,
+          "average_adr": 73.6
         }
       ],
       "kd_ratio_3m": null,
@@ -60927,12 +61077,12 @@
           "opponent_name": "Fire Flux",
           "team_name": "Bushido Wildcats",
           "won": false,
-          "kills": 8,
-          "deaths": 14,
-          "kd_ratio": 0.57,
-          "adr": 51.6,
-          "kast": 64.3,
-          "rating": 0.7,
+          "kills": 26,
+          "deaths": 34,
+          "kd_ratio": 0.76,
+          "adr": 62,
+          "kast": 70.5,
+          "rating": 0.92,
           "maps": 3
         },
         {
@@ -60983,10 +61133,10 @@
       },
       "form_summary": {
         "series": 7,
-        "average_rating": 0.86,
-        "average_adr": 66.4,
-        "recent_rating": 0.78,
-        "rating_delta": -0.09
+        "average_rating": 0.89,
+        "average_adr": 67.9,
+        "recent_rating": 0.85,
+        "rating_delta": -0.01
       },
       "map_profile": [],
       "roster_eras": [
@@ -60998,8 +61148,8 @@
           "wins": 0,
           "losses": 7,
           "win_rate": 0,
-          "average_rating": 0.86,
-          "average_adr": 66.4
+          "average_rating": 0.89,
+          "average_adr": 67.9
         }
       ],
       "kd_ratio_3m": null,
@@ -61087,12 +61237,12 @@
           "opponent_name": "Fire Flux",
           "team_name": "Bushido Wildcats",
           "won": false,
-          "kills": 5,
-          "deaths": 14,
-          "kd_ratio": 0.36,
-          "adr": 46.6,
-          "kast": 50,
-          "rating": 0.48,
+          "kills": 27,
+          "deaths": 32,
+          "kd_ratio": 0.84,
+          "adr": 64.3,
+          "kast": 70.5,
+          "rating": 0.86,
           "maps": 3
         },
         {
@@ -61143,10 +61293,10 @@
       },
       "form_summary": {
         "series": 7,
-        "average_rating": 0.88,
-        "average_adr": 64.7,
-        "recent_rating": 0.71,
-        "rating_delta": -0.23
+        "average_rating": 0.93,
+        "average_adr": 67.3,
+        "recent_rating": 0.84,
+        "rating_delta": -0.1
       },
       "map_profile": [],
       "roster_eras": [
@@ -61158,8 +61308,8 @@
           "wins": 0,
           "losses": 7,
           "win_rate": 0,
-          "average_rating": 0.88,
-          "average_adr": 64.7
+          "average_rating": 0.93,
+          "average_adr": 67.3
         }
       ],
       "kd_ratio_3m": null,
@@ -61247,12 +61397,12 @@
           "opponent_name": "Fire Flux",
           "team_name": "Bushido Wildcats",
           "won": false,
-          "kills": 6,
-          "deaths": 13,
-          "kd_ratio": 0.46,
-          "adr": 44.6,
-          "kast": 50,
-          "rating": 0.6,
+          "kills": 29,
+          "deaths": 34,
+          "kd_ratio": 0.85,
+          "adr": 70.3,
+          "kast": 68.2,
+          "rating": 0.93,
           "maps": 3
         },
         {
@@ -61303,10 +61453,10 @@
       },
       "form_summary": {
         "series": 7,
-        "average_rating": 0.8,
-        "average_adr": 60.8,
-        "recent_rating": 0.78,
-        "rating_delta": 0.02
+        "average_rating": 0.84,
+        "average_adr": 64.5,
+        "recent_rating": 0.89,
+        "rating_delta": 0.13
       },
       "map_profile": [],
       "roster_eras": [
@@ -61318,8 +61468,8 @@
           "wins": 0,
           "losses": 7,
           "win_rate": 0,
-          "average_rating": 0.8,
-          "average_adr": 60.8
+          "average_rating": 0.84,
+          "average_adr": 64.5
         }
       ],
       "kd_ratio_3m": null,
@@ -64194,7 +64344,7 @@
       "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-19T22:21:12Z",
+  "lineups_updated_at_utc": "2026-10-20T01:50:04Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-19",
   "history_profile_count": 53,

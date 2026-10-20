@@ -16768,6 +16768,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "The Last Resort"
     },
     {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399485",
+      "match_id": "hltv:2399485",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399485/forze-reload-vs-azuolas-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-20T08:00:00Z",
+      "status": "upcoming",
+      "team1_name": "FORZE Reload",
+      "team2_name": "Azuolas"
+    },
+    {
       "event_id": "hltv:9442",
       "event_name": "CCT 2026 Europe Series 11",
       "hltv_match_id": "2399321",
@@ -16794,6 +16808,62 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "Lavked",
       "team2_name": "ex-6666"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399488",
+      "match_id": "hltv:2399488",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399488/6yubojlbl-vs-illyrians-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-20T17:00:00Z",
+      "status": "upcoming",
+      "team1_name": "6yuBoJlbl",
+      "team2_name": "Illyrians"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399489",
+      "match_id": "hltv:2399489",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399489/baks-vs-lfo-10-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-21T08:00:00Z",
+      "status": "upcoming",
+      "team1_name": "BAKS",
+      "team2_name": "LFO 10"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399490",
+      "match_id": "hltv:2399490",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399490/inner-circle-academy-vs-havu-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-21T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Inner Circle Academy",
+      "team2_name": "HAVU"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399491",
+      "match_id": "hltv:2399491",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399491/lavked-vs-spirit-academy-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-21T14:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Lavked",
+      "team2_name": "Spirit Academy"
     },
     {
       "event_id": "hltv:8050",
@@ -45948,9 +46018,107 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/events/archive",
       "status": "ongoing",
       "teams": 17
+    },
+    {
+      "bracket": null,
+      "format": {
+        "label": "Event schedule",
+        "settings": {},
+        "stages": [],
+        "type": "mixed"
+      },
+      "id": "hltv:9457",
+      "matches": [
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399485",
+          "match_id": "hltv:2399485",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399485/forze-reload-vs-azuolas-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-20T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "FORZE Reload",
+          "team2_name": "Azuolas"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399488",
+          "match_id": "hltv:2399488",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399488/6yubojlbl-vs-illyrians-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-20T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "6yuBoJlbl",
+          "team2_name": "Illyrians"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399489",
+          "match_id": "hltv:2399489",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399489/baks-vs-lfo-10-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-21T08:00:00Z",
+          "status": "upcoming",
+          "team1_name": "BAKS",
+          "team2_name": "LFO 10"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399490",
+          "match_id": "hltv:2399490",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399490/inner-circle-academy-vs-havu-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-21T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Inner Circle Academy",
+          "team2_name": "HAVU"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399491",
+          "match_id": "hltv:2399491",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399491/lavked-vs-spirit-academy-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-21T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Lavked",
+          "team2_name": "Spirit Academy"
+        }
+      ],
+      "name": "CCT 2026 Europe Series 12",
+      "participants": [
+        "FORZE Reload",
+        "Azuolas",
+        "6yuBoJlbl",
+        "Illyrians",
+        "BAKS",
+        "LFO 10",
+        "Inner Circle Academy",
+        "HAVU",
+        "Lavked",
+        "Spirit Academy"
+      ],
+      "product_tier": "tier_2",
+      "status": "upcoming",
+      "teams": 10
     }
   ],
-  "last_verified_utc": "2026-10-19T22:21:12Z",
+  "last_verified_utc": "2026-10-20T01:50:04Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -45975,7 +46143,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-19T22:24:36Z",
+    "checked_at_utc": "2026-10-20T01:52:23Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
