@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4016,
+    "matches": 4018,
     "maps": 2903,
     "lineup_rows": 9553,
     "source_match_ids": 976
@@ -437,6 +437,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Group_C"
+    },
+    {
+      "match_id": "liquipedia:be6501ff0ebbfe33d201",
+      "match_date": "2026-10-19",
+      "starts_at": "2026-10-19T17:20:00Z",
+      "event_name": "1win Private Club #2",
+      "team1_name": "magic",
+      "team2_name": "PV",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "PV",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/1win_Private_Club/2#Results"
+    },
+    {
+      "match_id": "liquipedia:3ec5d320763fc3ae4c33",
+      "match_date": "2026-10-19",
+      "starts_at": "2026-10-19T19:00:00Z",
+      "event_name": "DraculaN Season 7 - Group B",
+      "team1_name": "Nexus",
+      "team2_name": "WBT",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Group_B"
     },
     {
       "match_id": "hltv:2399314",
