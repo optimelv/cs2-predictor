@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-20T18:26:09Z",
+  "generated_at_utc": "2026-10-20T22:19:13Z",
   "through_date": "2026-10-20",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4039,
-    "maps": 2910,
-    "lineup_rows": 9604,
+    "matches": 4041,
+    "maps": 2916,
+    "lineup_rows": 9624,
     "source_match_ids": 976
   },
   "matches": [
@@ -552,6 +552,118 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "hltv:2399488",
+      "match_date": "2026-10-20",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "6yuBoJlbl",
+      "team2_name": "Illyrians",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Illyrians",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "6yuBoJlbl",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 12,
+          "score2": 16,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 5,
+          "score2": 13,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "tasman",
+          "neaLaN",
+          "Pump",
+          "ICY",
+          "stratefly"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "BledarD",
+          "ammar",
+          "cerber"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399323",
+      "match_date": "2026-10-20",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Lavked",
+      "team2_name": "ex-6666",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Lavked",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "score1": 8,
+          "score2": 13,
+          "winner_name": "ex-6666",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "Lavked",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 3,
+          "winner_name": "Lavked",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "1NVISIBLEE",
+          "azukay",
+          "takanashi",
+          "xm1nd",
+          "k4nfuz"
+        ],
+        "team2": [
+          "amster",
+          "kL1o",
+          "rendysky",
+          "skcH",
+          "stefienson"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399318",

@@ -16375,7 +16375,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "G2 Ares"
     },
     {
-      "detail_fetched_at_utc": "2026-10-19T19:29:22Z",
+      "detail_fetched_at_utc": "2026-10-20T19:34:39Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -17147,7 +17147,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "FORZE Reload"
     },
     {
-      "detail_fetched_at_utc": "2026-10-20T18:21:28Z",
+      "detail_fetched_at_utc": "2026-10-20T22:14:31Z",
       "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "event_url": "https://www.hltv.org/events/archive",
@@ -18415,247 +18415,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Spirit Academy"
     },
     {
-      "detail_fetched_at_utc": "2026-10-20T18:25:39Z",
-      "event_id": "hltv:cct-2026-europe-series-11",
-      "event_name": "CCT 2026 Europe Series 11",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2399323",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "21369",
-            "nickname": "1NVISIBLEE",
-            "player_id": "hltv:21369",
-            "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
-            "team_name": "Lavked"
-          },
-          {
-            "hltv_player_id": "22450",
-            "nickname": "azukay",
-            "player_id": "hltv:22450",
-            "source_url": "https://www.hltv.org/player/22450/azukay",
-            "team_name": "Lavked"
-          },
-          {
-            "hltv_player_id": "23636",
-            "nickname": "takanashi",
-            "player_id": "hltv:23636",
-            "source_url": "https://www.hltv.org/player/23636/takanashi",
-            "team_name": "Lavked"
-          },
-          {
-            "hltv_player_id": "24114",
-            "nickname": "xm1nd",
-            "player_id": "hltv:24114",
-            "source_url": "https://www.hltv.org/player/24114/xm1nd",
-            "team_name": "Lavked"
-          },
-          {
-            "hltv_player_id": "24818",
-            "nickname": "k4nfuz",
-            "player_id": "hltv:24818",
-            "source_url": "https://www.hltv.org/player/24818/k4nfuz",
-            "team_name": "Lavked"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "19617",
-            "nickname": "amster",
-            "player_id": "hltv:19617",
-            "source_url": "https://www.hltv.org/player/19617/amster",
-            "team_name": "ex-6666"
-          },
-          {
-            "hltv_player_id": "21651",
-            "nickname": "kL1o",
-            "player_id": "hltv:21651",
-            "source_url": "https://www.hltv.org/player/21651/kl1o",
-            "team_name": "ex-6666"
-          },
-          {
-            "hltv_player_id": "22650",
-            "nickname": "rendysky",
-            "player_id": "hltv:22650",
-            "source_url": "https://www.hltv.org/player/22650/rendysky",
-            "team_name": "ex-6666"
-          },
-          {
-            "hltv_player_id": "24247",
-            "nickname": "skcH",
-            "player_id": "hltv:24247",
-            "source_url": "https://www.hltv.org/player/24247/skch",
-            "team_name": "ex-6666"
-          },
-          {
-            "hltv_player_id": "26816",
-            "nickname": "stefienson",
-            "player_id": "hltv:26816",
-            "source_url": "https://www.hltv.org/player/26816/stefienson",
-            "team_name": "ex-6666"
-          }
-        ]
-      },
-      "map_results": [
-        {
-          "map_name": "Nuke",
-          "score1": 8,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Dust2",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Anubis",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Nuke",
-        "Dust2",
-        "Anubis"
-      ],
-      "match_id": "hltv:2399323",
-      "player_stats": [
-        {
-          "adr": 82.1,
-          "deaths": 15,
-          "hltv_player_id": "22450",
-          "kast": 66.7,
-          "kills": 17,
-          "nickname": "azukay",
-          "player_id": "hltv:22450",
-          "rating": 1.34,
-          "source_url": "https://www.hltv.org/player/22450/azukay",
-          "team_side": 1
-        },
-        {
-          "adr": 74.5,
-          "deaths": 20,
-          "hltv_player_id": "21369",
-          "kast": 61.9,
-          "kills": 13,
-          "nickname": "1NVISIBLEE",
-          "player_id": "hltv:21369",
-          "rating": 0.86,
-          "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
-          "team_side": 1
-        },
-        {
-          "adr": 49.7,
-          "deaths": 15,
-          "hltv_player_id": "24114",
-          "kast": 42.9,
-          "kills": 10,
-          "nickname": "xm1nd",
-          "player_id": "hltv:24114",
-          "rating": 0.81,
-          "source_url": "https://www.hltv.org/player/24114/xm1nd",
-          "team_side": 1
-        },
-        {
-          "adr": 39.3,
-          "deaths": 15,
-          "hltv_player_id": "24818",
-          "kast": 61.9,
-          "kills": 7,
-          "nickname": "k4nfuz",
-          "player_id": "hltv:24818",
-          "rating": 0.67,
-          "source_url": "https://www.hltv.org/player/24818/k4nfuz",
-          "team_side": 1
-        },
-        {
-          "adr": 67.7,
-          "deaths": 18,
-          "hltv_player_id": "23636",
-          "kast": 47.6,
-          "kills": 11,
-          "nickname": "takanashi",
-          "player_id": "hltv:23636",
-          "rating": 0.56,
-          "source_url": "https://www.hltv.org/player/23636/takanashi",
-          "team_side": 1
-        },
-        {
-          "adr": 106.6,
-          "deaths": 12,
-          "hltv_player_id": "19617",
-          "kast": 71.4,
-          "kills": 21,
-          "nickname": "amster",
-          "player_id": "hltv:19617",
-          "rating": 1.55,
-          "source_url": "https://www.hltv.org/player/19617/amster",
-          "team_side": 2
-        },
-        {
-          "adr": 88.6,
-          "deaths": 13,
-          "hltv_player_id": "21651",
-          "kast": 76.2,
-          "kills": 20,
-          "nickname": "kL1o",
-          "player_id": "hltv:21651",
-          "rating": 1.5,
-          "source_url": "https://www.hltv.org/player/21651/kl1o",
-          "team_side": 2
-        },
-        {
-          "adr": 92.6,
-          "deaths": 12,
-          "hltv_player_id": "22650",
-          "kast": 76.2,
-          "kills": 16,
-          "nickname": "rendysky",
-          "player_id": "hltv:22650",
-          "rating": 1.2,
-          "source_url": "https://www.hltv.org/player/22650/rendysky",
-          "team_side": 2
-        },
-        {
-          "adr": 71.4,
-          "deaths": 9,
-          "hltv_player_id": "26816",
-          "kast": 81,
-          "kills": 14,
-          "nickname": "stefienson",
-          "player_id": "hltv:26816",
-          "rating": 1.19,
-          "source_url": "https://www.hltv.org/player/26816/stefienson",
-          "team_side": 2
-        },
-        {
-          "adr": 65.4,
-          "deaths": 12,
-          "hltv_player_id": "24247",
-          "kast": 76.2,
-          "kills": 12,
-          "nickname": "skcH",
-          "player_id": "hltv:24247",
-          "rating": 1,
-          "source_url": "https://www.hltv.org/player/24247/skch",
-          "team_side": 2
-        }
-      ],
-      "product_tier": "tier_2",
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399323/lavked-vs-ex-6666-cct-2026-europe-series-11",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-20T17:00:00Z",
-      "status": "live",
-      "team1_name": "Lavked",
-      "team2_name": "ex-6666",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
-    },
-    {
-      "detail_fetched_at_utc": "2026-10-20T18:25:27Z",
+      "detail_fetched_at_utc": "2026-10-20T19:38:31Z",
       "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "event_url": "https://www.hltv.org/events/archive",
@@ -18663,76 +18423,226 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "lineups": {
         "team1": [
           {
+            "hltv_player_id": "23541",
+            "nickname": "tasman",
+            "player_id": "hltv:23541",
+            "source_url": "https://www.hltv.org/player/23541/tasman",
+            "team_name": "6yuBoJlbl",
+            "timeline_entry": {
+              "adr": 93.3,
+              "date": "2026-10-20",
+              "deaths": 46,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 70.8,
+              "kd_ratio": 1.2,
+              "kills": 55,
+              "maps": 3,
+              "match_id": "hltv:2399488",
+              "opponent_name": "Illyrians",
+              "rating": 1.36,
+              "team_name": "6yuBoJlbl",
+              "won": false
+            }
+          },
+          {
             "hltv_player_id": "11940",
             "nickname": "neaLaN",
             "player_id": "hltv:11940",
             "source_url": "https://www.hltv.org/player/11940/nealan",
-            "team_name": "6yuBoJlbl"
-          },
-          {
-            "hltv_player_id": "21439",
-            "nickname": "ICY",
-            "player_id": "hltv:21439",
-            "source_url": "https://www.hltv.org/player/21439/icy",
-            "team_name": "6yuBoJlbl"
+            "team_name": "6yuBoJlbl",
+            "timeline_entry": {
+              "adr": 70,
+              "date": "2026-10-20",
+              "deaths": 41,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 69.2,
+              "kd_ratio": 0.93,
+              "kills": 38,
+              "maps": 3,
+              "match_id": "hltv:2399488",
+              "opponent_name": "Illyrians",
+              "rating": 0.94,
+              "team_name": "6yuBoJlbl",
+              "won": false
+            }
           },
           {
             "hltv_player_id": "23292",
             "nickname": "Pump",
             "player_id": "hltv:23292",
             "source_url": "https://www.hltv.org/player/23292/pump",
-            "team_name": "6yuBoJlbl"
+            "team_name": "6yuBoJlbl",
+            "timeline_entry": {
+              "adr": 80.1,
+              "date": "2026-10-20",
+              "deaths": 38,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 73.8,
+              "kd_ratio": 1.29,
+              "kills": 49,
+              "maps": 3,
+              "match_id": "hltv:2399488",
+              "opponent_name": "Illyrians",
+              "rating": 1.27,
+              "team_name": "6yuBoJlbl",
+              "won": false
+            }
           },
           {
-            "hltv_player_id": "23541",
-            "nickname": "tasman",
-            "player_id": "hltv:23541",
-            "source_url": "https://www.hltv.org/player/23541/tasman",
-            "team_name": "6yuBoJlbl"
+            "hltv_player_id": "21439",
+            "nickname": "ICY",
+            "player_id": "hltv:21439",
+            "source_url": "https://www.hltv.org/player/21439/icy",
+            "team_name": "6yuBoJlbl",
+            "timeline_entry": {
+              "adr": 70.3,
+              "date": "2026-10-20",
+              "deaths": 40,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 66.2,
+              "kd_ratio": 1.12,
+              "kills": 45,
+              "maps": 3,
+              "match_id": "hltv:2399488",
+              "opponent_name": "Illyrians",
+              "rating": 0.9,
+              "team_name": "6yuBoJlbl",
+              "won": false
+            }
           },
           {
             "hltv_player_id": "26683",
             "nickname": "stratefly",
             "player_id": "hltv:26683",
             "source_url": "https://www.hltv.org/player/26683/stratefly",
-            "team_name": "6yuBoJlbl"
+            "team_name": "6yuBoJlbl",
+            "timeline_entry": {
+              "adr": 58.6,
+              "date": "2026-10-20",
+              "deaths": 49,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 66.2,
+              "kd_ratio": 0.67,
+              "kills": 33,
+              "maps": 3,
+              "match_id": "hltv:2399488",
+              "opponent_name": "Illyrians",
+              "rating": 0.78,
+              "team_name": "6yuBoJlbl",
+              "won": false
+            }
           }
         ],
         "team2": [
           {
-            "hltv_player_id": "18119",
-            "nickname": "cerber",
-            "player_id": "hltv:18119",
-            "source_url": "https://www.hltv.org/player/18119/cerber",
-            "team_name": "Illyrians"
-          },
-          {
             "hltv_player_id": "19761",
-            "nickname": "Dementor",
+            "nickname": "Substitute",
             "player_id": "hltv:19761",
             "source_url": "https://www.hltv.org/player/19761/dementor",
-            "team_name": "Illyrians"
+            "team_name": "Illyrians",
+            "timeline_entry": {
+              "adr": 64.7,
+              "date": "2026-10-20",
+              "deaths": 43,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 72.3,
+              "kd_ratio": 0.84,
+              "kills": 36,
+              "maps": 3,
+              "match_id": "hltv:2399488",
+              "opponent_name": "6yuBoJlbl",
+              "rating": 0.93,
+              "team_name": "Illyrians",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "23300",
+            "nickname": "Substitute",
+            "player_id": "hltv:23300",
+            "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+            "team_name": "Illyrians",
+            "timeline_entry": {
+              "adr": 77.6,
+              "date": "2026-10-20",
+              "deaths": 46,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 70.8,
+              "kd_ratio": 0.89,
+              "kills": 41,
+              "maps": 3,
+              "match_id": "hltv:2399488",
+              "opponent_name": "6yuBoJlbl",
+              "rating": 0.99,
+              "team_name": "Illyrians",
+              "won": true
+            }
           },
           {
             "hltv_player_id": "20434",
             "nickname": "BledarD",
             "player_id": "hltv:20434",
             "source_url": "https://www.hltv.org/player/20434/bledard",
-            "team_name": "Illyrians"
+            "team_name": "Illyrians",
+            "timeline_entry": {
+              "adr": 65.7,
+              "date": "2026-10-20",
+              "deaths": 47,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 66.2,
+              "kd_ratio": 0.77,
+              "kills": 36,
+              "maps": 3,
+              "match_id": "hltv:2399488",
+              "opponent_name": "6yuBoJlbl",
+              "rating": 0.89,
+              "team_name": "Illyrians",
+              "won": true
+            }
           },
           {
             "hltv_player_id": "21109",
             "nickname": "ammar",
             "player_id": "hltv:21109",
             "source_url": "https://www.hltv.org/player/21109/ammar",
-            "team_name": "Illyrians"
+            "team_name": "Illyrians",
+            "timeline_entry": {
+              "adr": 62.4,
+              "date": "2026-10-20",
+              "deaths": 44,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 61.5,
+              "kd_ratio": 0.93,
+              "kills": 41,
+              "maps": 3,
+              "match_id": "hltv:2399488",
+              "opponent_name": "6yuBoJlbl",
+              "rating": 0.98,
+              "team_name": "Illyrians",
+              "won": true
+            }
           },
           {
-            "hltv_player_id": "23300",
-            "nickname": "rosoneriii",
-            "player_id": "hltv:23300",
-            "source_url": "https://www.hltv.org/player/23300/rosoneriii",
-            "team_name": "Illyrians"
+            "hltv_player_id": "18119",
+            "nickname": "cerber",
+            "player_id": "hltv:18119",
+            "source_url": "https://www.hltv.org/player/18119/cerber",
+            "team_name": "Illyrians",
+            "timeline_entry": {
+              "adr": 92.5,
+              "date": "2026-10-20",
+              "deaths": 44,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 72.3,
+              "kd_ratio": 1.36,
+              "kills": 60,
+              "maps": 3,
+              "match_id": "hltv:2399488",
+              "opponent_name": "6yuBoJlbl",
+              "rating": 1.41,
+              "team_name": "Illyrians",
+              "won": true
+            }
           }
         ]
       },
@@ -18745,15 +18655,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         },
         {
           "map_name": "Cache",
-          "score1": 6,
-          "score2": 6,
+          "score1": 12,
+          "score2": 16,
           "status": "finished"
         },
         {
           "map_name": "Ancient",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 5,
+          "score2": 13,
+          "status": "finished"
         }
       ],
       "maps": [
@@ -18764,135 +18674,531 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "match_id": "hltv:2399488",
       "player_stats": [
         {
-          "adr": 86.8,
-          "deaths": 8,
+          "adr": 93.3,
+          "deaths": 46,
           "hltv_player_id": "23541",
-          "kast": 89.5,
-          "kills": 17,
+          "kast": 70.8,
+          "kills": 55,
           "nickname": "tasman",
           "player_id": "hltv:23541",
-          "rating": 1.64,
+          "rating": 1.36,
           "source_url": "https://www.hltv.org/player/23541/tasman",
           "team_side": 1
         },
         {
-          "adr": 90.9,
-          "deaths": 8,
+          "adr": 80.1,
+          "deaths": 38,
           "hltv_player_id": "23292",
-          "kast": 78.9,
-          "kills": 17,
+          "kast": 73.8,
+          "kills": 49,
           "nickname": "Pump",
           "player_id": "hltv:23292",
-          "rating": 1.63,
+          "rating": 1.27,
           "source_url": "https://www.hltv.org/player/23292/pump",
           "team_side": 1
         },
         {
-          "adr": 84.4,
-          "deaths": 11,
-          "hltv_player_id": "21439",
-          "kast": 68.4,
-          "kills": 16,
-          "nickname": "ICY",
-          "player_id": "hltv:21439",
-          "rating": 1.24,
-          "source_url": "https://www.hltv.org/player/21439/icy",
-          "team_side": 1
-        },
-        {
-          "adr": 70.1,
-          "deaths": 8,
+          "adr": 70,
+          "deaths": 41,
           "hltv_player_id": "11940",
-          "kast": 73.7,
-          "kills": 13,
+          "kast": 69.2,
+          "kills": 38,
           "nickname": "neaLaN",
           "player_id": "hltv:11940",
-          "rating": 1.22,
+          "rating": 0.94,
           "source_url": "https://www.hltv.org/player/11940/nealan",
           "team_side": 1
         },
         {
-          "adr": 78.3,
-          "deaths": 14,
+          "adr": 70.3,
+          "deaths": 40,
+          "hltv_player_id": "21439",
+          "kast": 66.2,
+          "kills": 45,
+          "nickname": "ICY",
+          "player_id": "hltv:21439",
+          "rating": 0.9,
+          "source_url": "https://www.hltv.org/player/21439/icy",
+          "team_side": 1
+        },
+        {
+          "adr": 58.6,
+          "deaths": 49,
           "hltv_player_id": "26683",
-          "kast": 73.7,
-          "kills": 13,
+          "kast": 66.2,
+          "kills": 33,
           "nickname": "stratefly",
           "player_id": "hltv:26683",
-          "rating": 1.07,
+          "rating": 0.78,
           "source_url": "https://www.hltv.org/player/26683/stratefly",
           "team_side": 1
         },
         {
-          "adr": 65.6,
-          "deaths": 16,
+          "adr": 92.5,
+          "deaths": 44,
           "hltv_player_id": "18119",
-          "kast": 52.6,
-          "kills": 15,
+          "kast": 72.3,
+          "kills": 60,
           "nickname": "cerber",
           "player_id": "hltv:18119",
-          "rating": 1.06,
+          "rating": 1.41,
           "source_url": "https://www.hltv.org/player/18119/cerber",
           "team_side": 2
         },
         {
-          "adr": 68.4,
-          "deaths": 14,
-          "hltv_player_id": "21109",
-          "kast": 57.9,
-          "kills": 12,
-          "nickname": "ammar",
-          "player_id": "hltv:21109",
-          "rating": 0.84,
-          "source_url": "https://www.hltv.org/player/21109/ammar",
-          "team_side": 2
-        },
-        {
-          "adr": 72.3,
-          "deaths": 15,
+          "adr": 77.6,
+          "deaths": 46,
           "hltv_player_id": "23300",
-          "kast": 57.9,
-          "kills": 8,
+          "kast": 70.8,
+          "kills": 41,
           "nickname": "rosoneriii",
           "player_id": "hltv:23300",
-          "rating": 0.71,
+          "rating": 0.99,
           "source_url": "https://www.hltv.org/player/23300/rosoneriii",
           "team_side": 2
         },
         {
-          "adr": 64.5,
-          "deaths": 17,
+          "adr": 62.4,
+          "deaths": 44,
+          "hltv_player_id": "21109",
+          "kast": 61.5,
+          "kills": 41,
+          "nickname": "ammar",
+          "player_id": "hltv:21109",
+          "rating": 0.98,
+          "source_url": "https://www.hltv.org/player/21109/ammar",
+          "team_side": 2
+        },
+        {
+          "adr": 64.7,
+          "deaths": 43,
           "hltv_player_id": "19761",
-          "kast": 57.9,
-          "kills": 10,
+          "kast": 72.3,
+          "kills": 36,
           "nickname": "Dementor",
           "player_id": "hltv:19761",
-          "rating": 0.71,
+          "rating": 0.93,
           "source_url": "https://www.hltv.org/player/19761/dementor",
           "team_side": 2
         },
         {
-          "adr": 45.5,
-          "deaths": 14,
+          "adr": 65.7,
+          "deaths": 47,
           "hltv_player_id": "20434",
-          "kast": 52.6,
-          "kills": 4,
+          "kast": 66.2,
+          "kills": 36,
           "nickname": "BledarD",
           "player_id": "hltv:20434",
-          "rating": 0.41,
+          "rating": 0.89,
           "source_url": "https://www.hltv.org/player/20434/bledard",
           "team_side": 2
         }
       ],
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399488/6yubojlbl-vs-illyrians-cct-2026-europe-series-12",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-20T17:00:00Z",
-      "status": "live",
+      "starts_at": "2026-10-20T19:35:54Z",
+      "status": "finished",
       "team1_name": "6yuBoJlbl",
       "team2_name": "Illyrians",
-      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+      "winner_name": "Illyrians"
+    },
+    {
+      "detail_fetched_at_utc": "2026-10-20T20:06:11Z",
+      "event_id": "hltv:cct-2026-europe-series-11",
+      "event_name": "CCT 2026 Europe Series 11",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2399323",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "21369",
+            "nickname": "1NVISIBLEE",
+            "player_id": "hltv:21369",
+            "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
+            "team_name": "Lavked",
+            "timeline_entry": {
+              "adr": 88.3,
+              "date": "2026-10-20",
+              "deaths": 34,
+              "event_name": "CCT 2026 Europe Series 11",
+              "kast": 65.9,
+              "kd_ratio": 1,
+              "kills": 34,
+              "maps": 3,
+              "match_id": "hltv:2399323",
+              "opponent_name": "ex-6666",
+              "rating": 1.01,
+              "team_name": "Lavked",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "22450",
+            "nickname": "azukay",
+            "player_id": "hltv:22450",
+            "source_url": "https://www.hltv.org/player/22450/azukay",
+            "team_name": "Lavked",
+            "timeline_entry": {
+              "adr": 83.5,
+              "date": "2026-10-20",
+              "deaths": 32,
+              "event_name": "CCT 2026 Europe Series 11",
+              "kast": 72.7,
+              "kd_ratio": 1.03,
+              "kills": 33,
+              "maps": 3,
+              "match_id": "hltv:2399323",
+              "opponent_name": "ex-6666",
+              "rating": 1.12,
+              "team_name": "Lavked",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "23636",
+            "nickname": "takanashi",
+            "player_id": "hltv:23636",
+            "source_url": "https://www.hltv.org/player/23636/takanashi",
+            "team_name": "Lavked",
+            "timeline_entry": {
+              "adr": 65.1,
+              "date": "2026-10-20",
+              "deaths": 31,
+              "event_name": "CCT 2026 Europe Series 11",
+              "kast": 61.4,
+              "kd_ratio": 0.81,
+              "kills": 25,
+              "maps": 3,
+              "match_id": "hltv:2399323",
+              "opponent_name": "ex-6666",
+              "rating": 0.88,
+              "team_name": "Lavked",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "24114",
+            "nickname": "xm1nd",
+            "player_id": "hltv:24114",
+            "source_url": "https://www.hltv.org/player/24114/xm1nd",
+            "team_name": "Lavked",
+            "timeline_entry": {
+              "adr": 71.1,
+              "date": "2026-10-20",
+              "deaths": 25,
+              "event_name": "CCT 2026 Europe Series 11",
+              "kast": 59.1,
+              "kd_ratio": 1.2,
+              "kills": 30,
+              "maps": 3,
+              "match_id": "hltv:2399323",
+              "opponent_name": "ex-6666",
+              "rating": 1.14,
+              "team_name": "Lavked",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "24818",
+            "nickname": "k4nfuz",
+            "player_id": "hltv:24818",
+            "source_url": "https://www.hltv.org/player/24818/k4nfuz",
+            "team_name": "Lavked",
+            "timeline_entry": {
+              "adr": 53.5,
+              "date": "2026-10-20",
+              "deaths": 29,
+              "event_name": "CCT 2026 Europe Series 11",
+              "kast": 68.2,
+              "kd_ratio": 0.72,
+              "kills": 21,
+              "maps": 3,
+              "match_id": "hltv:2399323",
+              "opponent_name": "ex-6666",
+              "rating": 0.85,
+              "team_name": "Lavked",
+              "won": true
+            }
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "19617",
+            "nickname": "amster",
+            "player_id": "hltv:19617",
+            "source_url": "https://www.hltv.org/player/19617/amster",
+            "team_name": "ex-6666",
+            "timeline_entry": {
+              "adr": 85.1,
+              "date": "2026-10-20",
+              "deaths": 29,
+              "event_name": "CCT 2026 Europe Series 11",
+              "kast": 65.9,
+              "kd_ratio": 1.24,
+              "kills": 36,
+              "maps": 3,
+              "match_id": "hltv:2399323",
+              "opponent_name": "Lavked",
+              "rating": 1.36,
+              "team_name": "ex-6666",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "21651",
+            "nickname": "kL1o",
+            "player_id": "hltv:21651",
+            "source_url": "https://www.hltv.org/player/21651/kl1o",
+            "team_name": "ex-6666",
+            "timeline_entry": {
+              "adr": 79.3,
+              "date": "2026-10-20",
+              "deaths": 30,
+              "event_name": "CCT 2026 Europe Series 11",
+              "kast": 70.5,
+              "kd_ratio": 1.13,
+              "kills": 34,
+              "maps": 3,
+              "match_id": "hltv:2399323",
+              "opponent_name": "Lavked",
+              "rating": 1.14,
+              "team_name": "ex-6666",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "22650",
+            "nickname": "rendysky",
+            "player_id": "hltv:22650",
+            "source_url": "https://www.hltv.org/player/22650/rendysky",
+            "team_name": "ex-6666",
+            "timeline_entry": {
+              "adr": 80.7,
+              "date": "2026-10-20",
+              "deaths": 25,
+              "event_name": "CCT 2026 Europe Series 11",
+              "kast": 68.2,
+              "kd_ratio": 1.32,
+              "kills": 33,
+              "maps": 3,
+              "match_id": "hltv:2399323",
+              "opponent_name": "Lavked",
+              "rating": 1.06,
+              "team_name": "ex-6666",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "24247",
+            "nickname": "skcH",
+            "player_id": "hltv:24247",
+            "source_url": "https://www.hltv.org/player/24247/skch",
+            "team_name": "ex-6666",
+            "timeline_entry": {
+              "adr": 67.1,
+              "date": "2026-10-20",
+              "deaths": 33,
+              "event_name": "CCT 2026 Europe Series 11",
+              "kast": 65.9,
+              "kd_ratio": 0.73,
+              "kills": 24,
+              "maps": 3,
+              "match_id": "hltv:2399323",
+              "opponent_name": "Lavked",
+              "rating": 0.85,
+              "team_name": "ex-6666",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "26816",
+            "nickname": "stefienson",
+            "player_id": "hltv:26816",
+            "source_url": "https://www.hltv.org/player/26816/stefienson",
+            "team_name": "ex-6666",
+            "timeline_entry": {
+              "adr": 64.6,
+              "date": "2026-10-20",
+              "deaths": 26,
+              "event_name": "CCT 2026 Europe Series 11",
+              "kast": 75,
+              "kd_ratio": 0.92,
+              "kills": 24,
+              "maps": 3,
+              "match_id": "hltv:2399323",
+              "opponent_name": "Lavked",
+              "rating": 0.97,
+              "team_name": "ex-6666",
+              "won": false
+            }
+          }
+        ]
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": 8,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 10,
+          "status": "finished"
+        },
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 3,
+          "status": "finished"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Dust2",
+        "Anubis"
+      ],
+      "match_id": "hltv:2399323",
+      "player_stats": [
+        {
+          "adr": 71.1,
+          "deaths": 25,
+          "hltv_player_id": "24114",
+          "kast": 59.1,
+          "kills": 30,
+          "nickname": "xm1nd",
+          "player_id": "hltv:24114",
+          "rating": 1.14,
+          "source_url": "https://www.hltv.org/player/24114/xm1nd",
+          "team_side": 1
+        },
+        {
+          "adr": 83.5,
+          "deaths": 32,
+          "hltv_player_id": "22450",
+          "kast": 72.7,
+          "kills": 33,
+          "nickname": "azukay",
+          "player_id": "hltv:22450",
+          "rating": 1.12,
+          "source_url": "https://www.hltv.org/player/22450/azukay",
+          "team_side": 1
+        },
+        {
+          "adr": 88.3,
+          "deaths": 34,
+          "hltv_player_id": "21369",
+          "kast": 65.9,
+          "kills": 34,
+          "nickname": "1NVISIBLEE",
+          "player_id": "hltv:21369",
+          "rating": 1.01,
+          "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
+          "team_side": 1
+        },
+        {
+          "adr": 65.1,
+          "deaths": 31,
+          "hltv_player_id": "23636",
+          "kast": 61.4,
+          "kills": 25,
+          "nickname": "takanashi",
+          "player_id": "hltv:23636",
+          "rating": 0.88,
+          "source_url": "https://www.hltv.org/player/23636/takanashi",
+          "team_side": 1
+        },
+        {
+          "adr": 53.5,
+          "deaths": 29,
+          "hltv_player_id": "24818",
+          "kast": 68.2,
+          "kills": 21,
+          "nickname": "k4nfuz",
+          "player_id": "hltv:24818",
+          "rating": 0.85,
+          "source_url": "https://www.hltv.org/player/24818/k4nfuz",
+          "team_side": 1
+        },
+        {
+          "adr": 85.1,
+          "deaths": 29,
+          "hltv_player_id": "19617",
+          "kast": 65.9,
+          "kills": 36,
+          "nickname": "amster",
+          "player_id": "hltv:19617",
+          "rating": 1.36,
+          "source_url": "https://www.hltv.org/player/19617/amster",
+          "team_side": 2
+        },
+        {
+          "adr": 79.3,
+          "deaths": 30,
+          "hltv_player_id": "21651",
+          "kast": 70.5,
+          "kills": 34,
+          "nickname": "kL1o",
+          "player_id": "hltv:21651",
+          "rating": 1.14,
+          "source_url": "https://www.hltv.org/player/21651/kl1o",
+          "team_side": 2
+        },
+        {
+          "adr": 80.7,
+          "deaths": 25,
+          "hltv_player_id": "22650",
+          "kast": 68.2,
+          "kills": 33,
+          "nickname": "rendysky",
+          "player_id": "hltv:22650",
+          "rating": 1.06,
+          "source_url": "https://www.hltv.org/player/22650/rendysky",
+          "team_side": 2
+        },
+        {
+          "adr": 64.6,
+          "deaths": 26,
+          "hltv_player_id": "26816",
+          "kast": 75,
+          "kills": 24,
+          "nickname": "stefienson",
+          "player_id": "hltv:26816",
+          "rating": 0.97,
+          "source_url": "https://www.hltv.org/player/26816/stefienson",
+          "team_side": 2
+        },
+        {
+          "adr": 67.1,
+          "deaths": 33,
+          "hltv_player_id": "24247",
+          "kast": 65.9,
+          "kills": 24,
+          "nickname": "skcH",
+          "player_id": "hltv:24247",
+          "rating": 0.85,
+          "source_url": "https://www.hltv.org/player/24247/skch",
+          "team_side": 2
+        }
+      ],
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399323/lavked-vs-ex-6666-cct-2026-europe-series-11",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-20T20:01:48Z",
+      "status": "finished",
+      "team1_name": "Lavked",
+      "team2_name": "ex-6666",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
+      "winner_name": "Lavked"
     },
     {
       "event_id": "hltv:9457",
@@ -18923,6 +19229,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team2_name": "HAVU"
     },
     {
+      "event_id": "hltv:9442",
+      "event_name": "CCT 2026 Europe Series 11",
+      "hltv_match_id": "2399324",
+      "match_id": "hltv:2399324",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399324/saint-sinners-vs-ex-6666-cct-2026-europe-series-11",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-21T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Saint Sinners",
+      "team2_name": "ex-6666"
+    },
+    {
       "event_id": "hltv:9457",
       "event_name": "CCT 2026 Europe Series 12",
       "hltv_match_id": "2399491",
@@ -18935,6 +19255,20 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "status": "upcoming",
       "team1_name": "Lavked",
       "team2_name": "Spirit Academy"
+    },
+    {
+      "event_id": "hltv:9442",
+      "event_name": "CCT 2026 Europe Series 11",
+      "hltv_match_id": "2399325",
+      "match_id": "hltv:2399325",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399325/g2-ares-vs-illyrians-cct-2026-europe-series-11",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-21T14:00:00Z",
+      "status": "upcoming",
+      "team1_name": "G2 Ares",
+      "team2_name": "Illyrians"
     },
     {
       "event_id": "hltv:8050",
@@ -47621,7 +47955,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Saint Sinners"
         },
         {
-          "detail_fetched_at_utc": "2026-10-19T19:29:22Z",
+          "detail_fetched_at_utc": "2026-10-20T19:34:39Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -48407,7 +48741,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "BAKS"
         },
         {
-          "detail_fetched_at_utc": "2026-10-20T18:25:39Z",
+          "detail_fetched_at_utc": "2026-10-20T20:06:11Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -48419,35 +48753,110 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "nickname": "1NVISIBLEE",
                 "player_id": "hltv:21369",
                 "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
-                "team_name": "Lavked"
+                "team_name": "Lavked",
+                "timeline_entry": {
+                  "adr": 88.3,
+                  "date": "2026-10-20",
+                  "deaths": 34,
+                  "event_name": "CCT 2026 Europe Series 11",
+                  "kast": 65.9,
+                  "kd_ratio": 1,
+                  "kills": 34,
+                  "maps": 3,
+                  "match_id": "hltv:2399323",
+                  "opponent_name": "ex-6666",
+                  "rating": 1.01,
+                  "team_name": "Lavked",
+                  "won": true
+                }
               },
               {
                 "hltv_player_id": "22450",
                 "nickname": "azukay",
                 "player_id": "hltv:22450",
                 "source_url": "https://www.hltv.org/player/22450/azukay",
-                "team_name": "Lavked"
+                "team_name": "Lavked",
+                "timeline_entry": {
+                  "adr": 83.5,
+                  "date": "2026-10-20",
+                  "deaths": 32,
+                  "event_name": "CCT 2026 Europe Series 11",
+                  "kast": 72.7,
+                  "kd_ratio": 1.03,
+                  "kills": 33,
+                  "maps": 3,
+                  "match_id": "hltv:2399323",
+                  "opponent_name": "ex-6666",
+                  "rating": 1.12,
+                  "team_name": "Lavked",
+                  "won": true
+                }
               },
               {
                 "hltv_player_id": "23636",
                 "nickname": "takanashi",
                 "player_id": "hltv:23636",
                 "source_url": "https://www.hltv.org/player/23636/takanashi",
-                "team_name": "Lavked"
+                "team_name": "Lavked",
+                "timeline_entry": {
+                  "adr": 65.1,
+                  "date": "2026-10-20",
+                  "deaths": 31,
+                  "event_name": "CCT 2026 Europe Series 11",
+                  "kast": 61.4,
+                  "kd_ratio": 0.81,
+                  "kills": 25,
+                  "maps": 3,
+                  "match_id": "hltv:2399323",
+                  "opponent_name": "ex-6666",
+                  "rating": 0.88,
+                  "team_name": "Lavked",
+                  "won": true
+                }
               },
               {
                 "hltv_player_id": "24114",
                 "nickname": "xm1nd",
                 "player_id": "hltv:24114",
                 "source_url": "https://www.hltv.org/player/24114/xm1nd",
-                "team_name": "Lavked"
+                "team_name": "Lavked",
+                "timeline_entry": {
+                  "adr": 71.1,
+                  "date": "2026-10-20",
+                  "deaths": 25,
+                  "event_name": "CCT 2026 Europe Series 11",
+                  "kast": 59.1,
+                  "kd_ratio": 1.2,
+                  "kills": 30,
+                  "maps": 3,
+                  "match_id": "hltv:2399323",
+                  "opponent_name": "ex-6666",
+                  "rating": 1.14,
+                  "team_name": "Lavked",
+                  "won": true
+                }
               },
               {
                 "hltv_player_id": "24818",
                 "nickname": "k4nfuz",
                 "player_id": "hltv:24818",
                 "source_url": "https://www.hltv.org/player/24818/k4nfuz",
-                "team_name": "Lavked"
+                "team_name": "Lavked",
+                "timeline_entry": {
+                  "adr": 53.5,
+                  "date": "2026-10-20",
+                  "deaths": 29,
+                  "event_name": "CCT 2026 Europe Series 11",
+                  "kast": 68.2,
+                  "kd_ratio": 0.72,
+                  "kills": 21,
+                  "maps": 3,
+                  "match_id": "hltv:2399323",
+                  "opponent_name": "ex-6666",
+                  "rating": 0.85,
+                  "team_name": "Lavked",
+                  "won": true
+                }
               }
             ],
             "team2": [
@@ -48456,35 +48865,110 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "nickname": "amster",
                 "player_id": "hltv:19617",
                 "source_url": "https://www.hltv.org/player/19617/amster",
-                "team_name": "ex-6666"
+                "team_name": "ex-6666",
+                "timeline_entry": {
+                  "adr": 85.1,
+                  "date": "2026-10-20",
+                  "deaths": 29,
+                  "event_name": "CCT 2026 Europe Series 11",
+                  "kast": 65.9,
+                  "kd_ratio": 1.24,
+                  "kills": 36,
+                  "maps": 3,
+                  "match_id": "hltv:2399323",
+                  "opponent_name": "Lavked",
+                  "rating": 1.36,
+                  "team_name": "ex-6666",
+                  "won": false
+                }
               },
               {
                 "hltv_player_id": "21651",
                 "nickname": "kL1o",
                 "player_id": "hltv:21651",
                 "source_url": "https://www.hltv.org/player/21651/kl1o",
-                "team_name": "ex-6666"
+                "team_name": "ex-6666",
+                "timeline_entry": {
+                  "adr": 79.3,
+                  "date": "2026-10-20",
+                  "deaths": 30,
+                  "event_name": "CCT 2026 Europe Series 11",
+                  "kast": 70.5,
+                  "kd_ratio": 1.13,
+                  "kills": 34,
+                  "maps": 3,
+                  "match_id": "hltv:2399323",
+                  "opponent_name": "Lavked",
+                  "rating": 1.14,
+                  "team_name": "ex-6666",
+                  "won": false
+                }
               },
               {
                 "hltv_player_id": "22650",
                 "nickname": "rendysky",
                 "player_id": "hltv:22650",
                 "source_url": "https://www.hltv.org/player/22650/rendysky",
-                "team_name": "ex-6666"
+                "team_name": "ex-6666",
+                "timeline_entry": {
+                  "adr": 80.7,
+                  "date": "2026-10-20",
+                  "deaths": 25,
+                  "event_name": "CCT 2026 Europe Series 11",
+                  "kast": 68.2,
+                  "kd_ratio": 1.32,
+                  "kills": 33,
+                  "maps": 3,
+                  "match_id": "hltv:2399323",
+                  "opponent_name": "Lavked",
+                  "rating": 1.06,
+                  "team_name": "ex-6666",
+                  "won": false
+                }
               },
               {
                 "hltv_player_id": "24247",
                 "nickname": "skcH",
                 "player_id": "hltv:24247",
                 "source_url": "https://www.hltv.org/player/24247/skch",
-                "team_name": "ex-6666"
+                "team_name": "ex-6666",
+                "timeline_entry": {
+                  "adr": 67.1,
+                  "date": "2026-10-20",
+                  "deaths": 33,
+                  "event_name": "CCT 2026 Europe Series 11",
+                  "kast": 65.9,
+                  "kd_ratio": 0.73,
+                  "kills": 24,
+                  "maps": 3,
+                  "match_id": "hltv:2399323",
+                  "opponent_name": "Lavked",
+                  "rating": 0.85,
+                  "team_name": "ex-6666",
+                  "won": false
+                }
               },
               {
                 "hltv_player_id": "26816",
                 "nickname": "stefienson",
                 "player_id": "hltv:26816",
                 "source_url": "https://www.hltv.org/player/26816/stefienson",
-                "team_name": "ex-6666"
+                "team_name": "ex-6666",
+                "timeline_entry": {
+                  "adr": 64.6,
+                  "date": "2026-10-20",
+                  "deaths": 26,
+                  "event_name": "CCT 2026 Europe Series 11",
+                  "kast": 75,
+                  "kd_ratio": 0.92,
+                  "kills": 24,
+                  "maps": 3,
+                  "match_id": "hltv:2399323",
+                  "opponent_name": "Lavked",
+                  "rating": 0.97,
+                  "team_name": "ex-6666",
+                  "won": false
+                }
               }
             ]
           },
@@ -48497,15 +48981,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             },
             {
               "map_name": "Dust2",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 13,
+              "score2": 10,
+              "status": "finished"
             },
             {
               "map_name": "Anubis",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 13,
+              "score2": 3,
+              "status": "finished"
             }
           ],
           "maps": [
@@ -48516,135 +49000,138 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "match_id": "hltv:2399323",
           "player_stats": [
             {
-              "adr": 82.1,
-              "deaths": 15,
-              "hltv_player_id": "22450",
-              "kast": 66.7,
-              "kills": 17,
-              "nickname": "azukay",
-              "player_id": "hltv:22450",
-              "rating": 1.34,
-              "source_url": "https://www.hltv.org/player/22450/azukay",
-              "team_side": 1
-            },
-            {
-              "adr": 74.5,
-              "deaths": 20,
-              "hltv_player_id": "21369",
-              "kast": 61.9,
-              "kills": 13,
-              "nickname": "1NVISIBLEE",
-              "player_id": "hltv:21369",
-              "rating": 0.86,
-              "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
-              "team_side": 1
-            },
-            {
-              "adr": 49.7,
-              "deaths": 15,
+              "adr": 71.1,
+              "deaths": 25,
               "hltv_player_id": "24114",
-              "kast": 42.9,
-              "kills": 10,
+              "kast": 59.1,
+              "kills": 30,
               "nickname": "xm1nd",
               "player_id": "hltv:24114",
-              "rating": 0.81,
+              "rating": 1.14,
               "source_url": "https://www.hltv.org/player/24114/xm1nd",
               "team_side": 1
             },
             {
-              "adr": 39.3,
-              "deaths": 15,
-              "hltv_player_id": "24818",
-              "kast": 61.9,
-              "kills": 7,
-              "nickname": "k4nfuz",
-              "player_id": "hltv:24818",
-              "rating": 0.67,
-              "source_url": "https://www.hltv.org/player/24818/k4nfuz",
+              "adr": 83.5,
+              "deaths": 32,
+              "hltv_player_id": "22450",
+              "kast": 72.7,
+              "kills": 33,
+              "nickname": "azukay",
+              "player_id": "hltv:22450",
+              "rating": 1.12,
+              "source_url": "https://www.hltv.org/player/22450/azukay",
               "team_side": 1
             },
             {
-              "adr": 67.7,
-              "deaths": 18,
+              "adr": 88.3,
+              "deaths": 34,
+              "hltv_player_id": "21369",
+              "kast": 65.9,
+              "kills": 34,
+              "nickname": "1NVISIBLEE",
+              "player_id": "hltv:21369",
+              "rating": 1.01,
+              "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
+              "team_side": 1
+            },
+            {
+              "adr": 65.1,
+              "deaths": 31,
               "hltv_player_id": "23636",
-              "kast": 47.6,
-              "kills": 11,
+              "kast": 61.4,
+              "kills": 25,
               "nickname": "takanashi",
               "player_id": "hltv:23636",
-              "rating": 0.56,
+              "rating": 0.88,
               "source_url": "https://www.hltv.org/player/23636/takanashi",
               "team_side": 1
             },
             {
-              "adr": 106.6,
-              "deaths": 12,
-              "hltv_player_id": "19617",
-              "kast": 71.4,
+              "adr": 53.5,
+              "deaths": 29,
+              "hltv_player_id": "24818",
+              "kast": 68.2,
               "kills": 21,
+              "nickname": "k4nfuz",
+              "player_id": "hltv:24818",
+              "rating": 0.85,
+              "source_url": "https://www.hltv.org/player/24818/k4nfuz",
+              "team_side": 1
+            },
+            {
+              "adr": 85.1,
+              "deaths": 29,
+              "hltv_player_id": "19617",
+              "kast": 65.9,
+              "kills": 36,
               "nickname": "amster",
               "player_id": "hltv:19617",
-              "rating": 1.55,
+              "rating": 1.36,
               "source_url": "https://www.hltv.org/player/19617/amster",
               "team_side": 2
             },
             {
-              "adr": 88.6,
-              "deaths": 13,
+              "adr": 79.3,
+              "deaths": 30,
               "hltv_player_id": "21651",
-              "kast": 76.2,
-              "kills": 20,
+              "kast": 70.5,
+              "kills": 34,
               "nickname": "kL1o",
               "player_id": "hltv:21651",
-              "rating": 1.5,
+              "rating": 1.14,
               "source_url": "https://www.hltv.org/player/21651/kl1o",
               "team_side": 2
             },
             {
-              "adr": 92.6,
-              "deaths": 12,
+              "adr": 80.7,
+              "deaths": 25,
               "hltv_player_id": "22650",
-              "kast": 76.2,
-              "kills": 16,
+              "kast": 68.2,
+              "kills": 33,
               "nickname": "rendysky",
               "player_id": "hltv:22650",
-              "rating": 1.2,
+              "rating": 1.06,
               "source_url": "https://www.hltv.org/player/22650/rendysky",
               "team_side": 2
             },
             {
-              "adr": 71.4,
-              "deaths": 9,
+              "adr": 64.6,
+              "deaths": 26,
               "hltv_player_id": "26816",
-              "kast": 81,
-              "kills": 14,
+              "kast": 75,
+              "kills": 24,
               "nickname": "stefienson",
               "player_id": "hltv:26816",
-              "rating": 1.19,
+              "rating": 0.97,
               "source_url": "https://www.hltv.org/player/26816/stefienson",
               "team_side": 2
             },
             {
-              "adr": 65.4,
-              "deaths": 12,
+              "adr": 67.1,
+              "deaths": 33,
               "hltv_player_id": "24247",
-              "kast": 76.2,
-              "kills": 12,
+              "kast": 65.9,
+              "kills": 24,
               "nickname": "skcH",
               "player_id": "hltv:24247",
-              "rating": 1,
+              "rating": 0.85,
               "source_url": "https://www.hltv.org/player/24247/skch",
               "team_side": 2
             }
           ],
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399323/lavked-vs-ex-6666-cct-2026-europe-series-11",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-20T17:00:00Z",
-          "status": "live",
+          "starts_at": "2026-10-20T20:01:48Z",
+          "status": "finished",
           "team1_name": "Lavked",
           "team2_name": "ex-6666",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
+          "winner_name": "Lavked"
         },
         {
           "detail_fetched_at_utc": "2026-10-20T17:48:55Z",
@@ -49424,6 +49911,34 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team2_name": "Spirit Academy",
           "veto_text": "Best of 3 (Online)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.\n\n** Flash_1 (coach) substitutes s1nside.\n\n*** Spirit Academy forfeit the first map  as they failed to show up in time, Black Phoenix forfeit 2nd map at 11:9 score (in favor of Spirit Academy) as they are unable to field a complete roster.",
           "winner_name": "Spirit Academy"
+        },
+        {
+          "event_id": "hltv:9442",
+          "event_name": "CCT 2026 Europe Series 11",
+          "hltv_match_id": "2399324",
+          "match_id": "hltv:2399324",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399324/saint-sinners-vs-ex-6666-cct-2026-europe-series-11",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-21T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Saint Sinners",
+          "team2_name": "ex-6666"
+        },
+        {
+          "event_id": "hltv:9442",
+          "event_name": "CCT 2026 Europe Series 11",
+          "hltv_match_id": "2399325",
+          "match_id": "hltv:2399325",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399325/g2-ares-vs-illyrians-cct-2026-europe-series-11",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-21T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "G2 Ares",
+          "team2_name": "Illyrians"
         }
       ],
       "name": "CCT 2026 Europe Series 11",
@@ -49841,7 +50356,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "FORZE Reload"
         },
         {
-          "detail_fetched_at_utc": "2026-10-20T18:25:27Z",
+          "detail_fetched_at_utc": "2026-10-20T19:38:31Z",
           "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "event_url": "https://www.hltv.org/events/archive",
@@ -49849,76 +50364,226 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "lineups": {
             "team1": [
               {
+                "hltv_player_id": "23541",
+                "nickname": "tasman",
+                "player_id": "hltv:23541",
+                "source_url": "https://www.hltv.org/player/23541/tasman",
+                "team_name": "6yuBoJlbl",
+                "timeline_entry": {
+                  "adr": 93.3,
+                  "date": "2026-10-20",
+                  "deaths": 46,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 70.8,
+                  "kd_ratio": 1.2,
+                  "kills": 55,
+                  "maps": 3,
+                  "match_id": "hltv:2399488",
+                  "opponent_name": "Illyrians",
+                  "rating": 1.36,
+                  "team_name": "6yuBoJlbl",
+                  "won": false
+                }
+              },
+              {
                 "hltv_player_id": "11940",
                 "nickname": "neaLaN",
                 "player_id": "hltv:11940",
                 "source_url": "https://www.hltv.org/player/11940/nealan",
-                "team_name": "6yuBoJlbl"
-              },
-              {
-                "hltv_player_id": "21439",
-                "nickname": "ICY",
-                "player_id": "hltv:21439",
-                "source_url": "https://www.hltv.org/player/21439/icy",
-                "team_name": "6yuBoJlbl"
+                "team_name": "6yuBoJlbl",
+                "timeline_entry": {
+                  "adr": 70,
+                  "date": "2026-10-20",
+                  "deaths": 41,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 69.2,
+                  "kd_ratio": 0.93,
+                  "kills": 38,
+                  "maps": 3,
+                  "match_id": "hltv:2399488",
+                  "opponent_name": "Illyrians",
+                  "rating": 0.94,
+                  "team_name": "6yuBoJlbl",
+                  "won": false
+                }
               },
               {
                 "hltv_player_id": "23292",
                 "nickname": "Pump",
                 "player_id": "hltv:23292",
                 "source_url": "https://www.hltv.org/player/23292/pump",
-                "team_name": "6yuBoJlbl"
+                "team_name": "6yuBoJlbl",
+                "timeline_entry": {
+                  "adr": 80.1,
+                  "date": "2026-10-20",
+                  "deaths": 38,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 73.8,
+                  "kd_ratio": 1.29,
+                  "kills": 49,
+                  "maps": 3,
+                  "match_id": "hltv:2399488",
+                  "opponent_name": "Illyrians",
+                  "rating": 1.27,
+                  "team_name": "6yuBoJlbl",
+                  "won": false
+                }
               },
               {
-                "hltv_player_id": "23541",
-                "nickname": "tasman",
-                "player_id": "hltv:23541",
-                "source_url": "https://www.hltv.org/player/23541/tasman",
-                "team_name": "6yuBoJlbl"
+                "hltv_player_id": "21439",
+                "nickname": "ICY",
+                "player_id": "hltv:21439",
+                "source_url": "https://www.hltv.org/player/21439/icy",
+                "team_name": "6yuBoJlbl",
+                "timeline_entry": {
+                  "adr": 70.3,
+                  "date": "2026-10-20",
+                  "deaths": 40,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 66.2,
+                  "kd_ratio": 1.12,
+                  "kills": 45,
+                  "maps": 3,
+                  "match_id": "hltv:2399488",
+                  "opponent_name": "Illyrians",
+                  "rating": 0.9,
+                  "team_name": "6yuBoJlbl",
+                  "won": false
+                }
               },
               {
                 "hltv_player_id": "26683",
                 "nickname": "stratefly",
                 "player_id": "hltv:26683",
                 "source_url": "https://www.hltv.org/player/26683/stratefly",
-                "team_name": "6yuBoJlbl"
+                "team_name": "6yuBoJlbl",
+                "timeline_entry": {
+                  "adr": 58.6,
+                  "date": "2026-10-20",
+                  "deaths": 49,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 66.2,
+                  "kd_ratio": 0.67,
+                  "kills": 33,
+                  "maps": 3,
+                  "match_id": "hltv:2399488",
+                  "opponent_name": "Illyrians",
+                  "rating": 0.78,
+                  "team_name": "6yuBoJlbl",
+                  "won": false
+                }
               }
             ],
             "team2": [
               {
-                "hltv_player_id": "18119",
-                "nickname": "cerber",
-                "player_id": "hltv:18119",
-                "source_url": "https://www.hltv.org/player/18119/cerber",
-                "team_name": "Illyrians"
-              },
-              {
                 "hltv_player_id": "19761",
-                "nickname": "Dementor",
+                "nickname": "Substitute",
                 "player_id": "hltv:19761",
                 "source_url": "https://www.hltv.org/player/19761/dementor",
-                "team_name": "Illyrians"
+                "team_name": "Illyrians",
+                "timeline_entry": {
+                  "adr": 64.7,
+                  "date": "2026-10-20",
+                  "deaths": 43,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 72.3,
+                  "kd_ratio": 0.84,
+                  "kills": 36,
+                  "maps": 3,
+                  "match_id": "hltv:2399488",
+                  "opponent_name": "6yuBoJlbl",
+                  "rating": 0.93,
+                  "team_name": "Illyrians",
+                  "won": true
+                }
+              },
+              {
+                "hltv_player_id": "23300",
+                "nickname": "Substitute",
+                "player_id": "hltv:23300",
+                "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+                "team_name": "Illyrians",
+                "timeline_entry": {
+                  "adr": 77.6,
+                  "date": "2026-10-20",
+                  "deaths": 46,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 70.8,
+                  "kd_ratio": 0.89,
+                  "kills": 41,
+                  "maps": 3,
+                  "match_id": "hltv:2399488",
+                  "opponent_name": "6yuBoJlbl",
+                  "rating": 0.99,
+                  "team_name": "Illyrians",
+                  "won": true
+                }
               },
               {
                 "hltv_player_id": "20434",
                 "nickname": "BledarD",
                 "player_id": "hltv:20434",
                 "source_url": "https://www.hltv.org/player/20434/bledard",
-                "team_name": "Illyrians"
+                "team_name": "Illyrians",
+                "timeline_entry": {
+                  "adr": 65.7,
+                  "date": "2026-10-20",
+                  "deaths": 47,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 66.2,
+                  "kd_ratio": 0.77,
+                  "kills": 36,
+                  "maps": 3,
+                  "match_id": "hltv:2399488",
+                  "opponent_name": "6yuBoJlbl",
+                  "rating": 0.89,
+                  "team_name": "Illyrians",
+                  "won": true
+                }
               },
               {
                 "hltv_player_id": "21109",
                 "nickname": "ammar",
                 "player_id": "hltv:21109",
                 "source_url": "https://www.hltv.org/player/21109/ammar",
-                "team_name": "Illyrians"
+                "team_name": "Illyrians",
+                "timeline_entry": {
+                  "adr": 62.4,
+                  "date": "2026-10-20",
+                  "deaths": 44,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 61.5,
+                  "kd_ratio": 0.93,
+                  "kills": 41,
+                  "maps": 3,
+                  "match_id": "hltv:2399488",
+                  "opponent_name": "6yuBoJlbl",
+                  "rating": 0.98,
+                  "team_name": "Illyrians",
+                  "won": true
+                }
               },
               {
-                "hltv_player_id": "23300",
-                "nickname": "rosoneriii",
-                "player_id": "hltv:23300",
-                "source_url": "https://www.hltv.org/player/23300/rosoneriii",
-                "team_name": "Illyrians"
+                "hltv_player_id": "18119",
+                "nickname": "cerber",
+                "player_id": "hltv:18119",
+                "source_url": "https://www.hltv.org/player/18119/cerber",
+                "team_name": "Illyrians",
+                "timeline_entry": {
+                  "adr": 92.5,
+                  "date": "2026-10-20",
+                  "deaths": 44,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 72.3,
+                  "kd_ratio": 1.36,
+                  "kills": 60,
+                  "maps": 3,
+                  "match_id": "hltv:2399488",
+                  "opponent_name": "6yuBoJlbl",
+                  "rating": 1.41,
+                  "team_name": "Illyrians",
+                  "won": true
+                }
               }
             ]
           },
@@ -49931,15 +50596,15 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             },
             {
               "map_name": "Cache",
-              "score1": 6,
-              "score2": 6,
+              "score1": 12,
+              "score2": 16,
               "status": "finished"
             },
             {
               "map_name": "Ancient",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 5,
+              "score2": 13,
+              "status": "finished"
             }
           ],
           "maps": [
@@ -49950,135 +50615,138 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "match_id": "hltv:2399488",
           "player_stats": [
             {
-              "adr": 86.8,
-              "deaths": 8,
+              "adr": 93.3,
+              "deaths": 46,
               "hltv_player_id": "23541",
-              "kast": 89.5,
-              "kills": 17,
+              "kast": 70.8,
+              "kills": 55,
               "nickname": "tasman",
               "player_id": "hltv:23541",
-              "rating": 1.64,
+              "rating": 1.36,
               "source_url": "https://www.hltv.org/player/23541/tasman",
               "team_side": 1
             },
             {
-              "adr": 90.9,
-              "deaths": 8,
+              "adr": 80.1,
+              "deaths": 38,
               "hltv_player_id": "23292",
-              "kast": 78.9,
-              "kills": 17,
+              "kast": 73.8,
+              "kills": 49,
               "nickname": "Pump",
               "player_id": "hltv:23292",
-              "rating": 1.63,
+              "rating": 1.27,
               "source_url": "https://www.hltv.org/player/23292/pump",
               "team_side": 1
             },
             {
-              "adr": 84.4,
-              "deaths": 11,
-              "hltv_player_id": "21439",
-              "kast": 68.4,
-              "kills": 16,
-              "nickname": "ICY",
-              "player_id": "hltv:21439",
-              "rating": 1.24,
-              "source_url": "https://www.hltv.org/player/21439/icy",
-              "team_side": 1
-            },
-            {
-              "adr": 70.1,
-              "deaths": 8,
+              "adr": 70,
+              "deaths": 41,
               "hltv_player_id": "11940",
-              "kast": 73.7,
-              "kills": 13,
+              "kast": 69.2,
+              "kills": 38,
               "nickname": "neaLaN",
               "player_id": "hltv:11940",
-              "rating": 1.22,
+              "rating": 0.94,
               "source_url": "https://www.hltv.org/player/11940/nealan",
               "team_side": 1
             },
             {
-              "adr": 78.3,
-              "deaths": 14,
+              "adr": 70.3,
+              "deaths": 40,
+              "hltv_player_id": "21439",
+              "kast": 66.2,
+              "kills": 45,
+              "nickname": "ICY",
+              "player_id": "hltv:21439",
+              "rating": 0.9,
+              "source_url": "https://www.hltv.org/player/21439/icy",
+              "team_side": 1
+            },
+            {
+              "adr": 58.6,
+              "deaths": 49,
               "hltv_player_id": "26683",
-              "kast": 73.7,
-              "kills": 13,
+              "kast": 66.2,
+              "kills": 33,
               "nickname": "stratefly",
               "player_id": "hltv:26683",
-              "rating": 1.07,
+              "rating": 0.78,
               "source_url": "https://www.hltv.org/player/26683/stratefly",
               "team_side": 1
             },
             {
-              "adr": 65.6,
-              "deaths": 16,
+              "adr": 92.5,
+              "deaths": 44,
               "hltv_player_id": "18119",
-              "kast": 52.6,
-              "kills": 15,
+              "kast": 72.3,
+              "kills": 60,
               "nickname": "cerber",
               "player_id": "hltv:18119",
-              "rating": 1.06,
+              "rating": 1.41,
               "source_url": "https://www.hltv.org/player/18119/cerber",
               "team_side": 2
             },
             {
-              "adr": 68.4,
-              "deaths": 14,
-              "hltv_player_id": "21109",
-              "kast": 57.9,
-              "kills": 12,
-              "nickname": "ammar",
-              "player_id": "hltv:21109",
-              "rating": 0.84,
-              "source_url": "https://www.hltv.org/player/21109/ammar",
-              "team_side": 2
-            },
-            {
-              "adr": 72.3,
-              "deaths": 15,
+              "adr": 77.6,
+              "deaths": 46,
               "hltv_player_id": "23300",
-              "kast": 57.9,
-              "kills": 8,
+              "kast": 70.8,
+              "kills": 41,
               "nickname": "rosoneriii",
               "player_id": "hltv:23300",
-              "rating": 0.71,
+              "rating": 0.99,
               "source_url": "https://www.hltv.org/player/23300/rosoneriii",
               "team_side": 2
             },
             {
-              "adr": 64.5,
-              "deaths": 17,
+              "adr": 62.4,
+              "deaths": 44,
+              "hltv_player_id": "21109",
+              "kast": 61.5,
+              "kills": 41,
+              "nickname": "ammar",
+              "player_id": "hltv:21109",
+              "rating": 0.98,
+              "source_url": "https://www.hltv.org/player/21109/ammar",
+              "team_side": 2
+            },
+            {
+              "adr": 64.7,
+              "deaths": 43,
               "hltv_player_id": "19761",
-              "kast": 57.9,
-              "kills": 10,
+              "kast": 72.3,
+              "kills": 36,
               "nickname": "Dementor",
               "player_id": "hltv:19761",
-              "rating": 0.71,
+              "rating": 0.93,
               "source_url": "https://www.hltv.org/player/19761/dementor",
               "team_side": 2
             },
             {
-              "adr": 45.5,
-              "deaths": 14,
+              "adr": 65.7,
+              "deaths": 47,
               "hltv_player_id": "20434",
-              "kast": 52.6,
-              "kills": 4,
+              "kast": 66.2,
+              "kills": 36,
               "nickname": "BledarD",
               "player_id": "hltv:20434",
-              "rating": 0.41,
+              "rating": 0.89,
               "source_url": "https://www.hltv.org/player/20434/bledard",
               "team_side": 2
             }
           ],
           "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399488/6yubojlbl-vs-illyrians-cct-2026-europe-series-12",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-20T17:00:00Z",
-          "status": "live",
+          "starts_at": "2026-10-20T19:35:54Z",
+          "status": "finished",
           "team1_name": "6yuBoJlbl",
           "team2_name": "Illyrians",
-          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1"
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 1",
+          "winner_name": "Illyrians"
         },
         {
           "event_id": "hltv:9457",
@@ -50123,7 +50791,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team2_name": "Spirit Academy"
         },
         {
-          "detail_fetched_at_utc": "2026-10-20T18:21:28Z",
+          "detail_fetched_at_utc": "2026-10-20T22:14:31Z",
           "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "event_url": "https://www.hltv.org/events/archive",
@@ -50635,7 +51303,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 14
     }
   ],
-  "last_verified_utc": "2026-10-20T18:26:09Z",
+  "last_verified_utc": "2026-10-20T22:19:13Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -50660,7 +51328,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-20T18:29:46Z",
+    "checked_at_utc": "2026-10-20T22:20:28Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
