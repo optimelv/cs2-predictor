@@ -53290,7 +53290,20 @@
       "hltv_player_id": "25164",
       "source_url": "https://www.hltv.org/player/25164/sh1karee",
       "map_profile": [],
-      "roster_eras": []
+      "roster_eras": [],
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null
     },
     {
       "player_id": "hltv:21215",
@@ -59687,7 +59700,7 @@
     },
     {
       "player_id": "hltv:23300",
-      "nickname": "Substitute",
+      "nickname": "rosoneriii",
       "team_name": "Illyrians",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -59800,6 +59813,21 @@
           "kast": 77.5,
           "rating": 0.93,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399481",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "PCIFIC",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 27,
+          "deaths": 44,
+          "kd_ratio": 0.61,
+          "adr": 58.5,
+          "kast": 68.3,
+          "rating": 0.79,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -59818,24 +59846,24 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 7,
-        "average_rating": 0.88,
-        "average_adr": 66.4,
-        "recent_rating": 0.92,
-        "rating_delta": 0.05
+        "series": 8,
+        "average_rating": 0.87,
+        "average_adr": 65.4,
+        "recent_rating": 0.79,
+        "rating_delta": -0.21
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-18",
-          "series": 7,
-          "wins": 5,
+          "through_date": "2026-10-19",
+          "series": 8,
+          "wins": 6,
           "losses": 2,
-          "win_rate": 0.714,
-          "average_rating": 0.88,
-          "average_adr": 66.4
+          "win_rate": 0.75,
+          "average_rating": 0.87,
+          "average_adr": 65.4
         }
       ],
       "kd_ratio_3m": null,
@@ -59960,6 +59988,21 @@
           "kast": 85,
           "rating": 1.34,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399481",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "PCIFIC",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 47,
+          "deaths": 41,
+          "kd_ratio": 1.15,
+          "adr": 74.5,
+          "kast": 73,
+          "rating": 1.05,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -59978,24 +60021,24 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 7,
-        "average_rating": 1.19,
-        "average_adr": 77.9,
-        "recent_rating": 1.27,
-        "rating_delta": 0.27
+        "series": 8,
+        "average_rating": 1.17,
+        "average_adr": 77.5,
+        "recent_rating": 1.16,
+        "rating_delta": 0.22
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-18",
-          "series": 7,
-          "wins": 5,
+          "through_date": "2026-10-19",
+          "series": 8,
+          "wins": 6,
           "losses": 2,
-          "win_rate": 0.714,
-          "average_rating": 1.19,
-          "average_adr": 77.9
+          "win_rate": 0.75,
+          "average_rating": 1.17,
+          "average_adr": 77.5
         }
       ],
       "kd_ratio_3m": null,
@@ -60120,6 +60163,21 @@
           "kast": 77.5,
           "rating": 1.39,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399481",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "PCIFIC",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 59,
+          "deaths": 36,
+          "kd_ratio": 1.64,
+          "adr": 90.2,
+          "kast": 73,
+          "rating": 1.57,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -60138,24 +60196,24 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 7,
-        "average_rating": 1.11,
-        "average_adr": 74.2,
-        "recent_rating": 1.19,
-        "rating_delta": 0.15
+        "series": 8,
+        "average_rating": 1.17,
+        "average_adr": 76.2,
+        "recent_rating": 1.28,
+        "rating_delta": 0.14
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-18",
-          "series": 7,
-          "wins": 5,
+          "through_date": "2026-10-19",
+          "series": 8,
+          "wins": 6,
           "losses": 2,
-          "win_rate": 0.714,
-          "average_rating": 1.11,
-          "average_adr": 74.2
+          "win_rate": 0.75,
+          "average_rating": 1.17,
+          "average_adr": 76.2
         }
       ],
       "kd_ratio_3m": null,
@@ -60280,6 +60338,21 @@
           "kast": 85,
           "rating": 1.55,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399481",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "PCIFIC",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 37,
+          "deaths": 46,
+          "kd_ratio": 0.8,
+          "adr": 74,
+          "kast": 68.3,
+          "rating": 0.93,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -60298,24 +60371,24 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 7,
-        "average_rating": 1.04,
-        "average_adr": 76.3,
-        "recent_rating": 1.16,
-        "rating_delta": 0.27
+        "series": 8,
+        "average_rating": 1.03,
+        "average_adr": 76,
+        "recent_rating": 1.09,
+        "rating_delta": 0.19
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-18",
-          "series": 7,
-          "wins": 5,
+          "through_date": "2026-10-19",
+          "series": 8,
+          "wins": 6,
           "losses": 2,
-          "win_rate": 0.714,
-          "average_rating": 1.04,
-          "average_adr": 76.3
+          "win_rate": 0.75,
+          "average_rating": 1.03,
+          "average_adr": 76
         }
       ],
       "kd_ratio_3m": null,
@@ -63825,7 +63898,7 @@
     },
     {
       "player_id": "hltv:19761",
-      "nickname": "Substitute",
+      "nickname": "Dementor",
       "team_name": "Illyrians",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -63908,6 +63981,21 @@
           "kast": 85,
           "rating": 1.24,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399481",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "PCIFIC",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 46,
+          "deaths": 39,
+          "kd_ratio": 1.18,
+          "adr": 72.6,
+          "kast": 74.6,
+          "rating": 1,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -63926,24 +64014,24 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 5,
-        "average_rating": 1.05,
-        "average_adr": 70.5,
-        "recent_rating": 0.96,
-        "rating_delta": -0.23
+        "series": 6,
+        "average_rating": 1.04,
+        "average_adr": 70.8,
+        "recent_rating": 0.97,
+        "rating_delta": -0.14
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-16",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 3,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 4,
           "losses": 2,
-          "win_rate": 0.6,
-          "average_rating": 1.05,
-          "average_adr": 70.5
+          "win_rate": 0.667,
+          "average_rating": 1.04,
+          "average_adr": 70.8
         }
       ],
       "kd_ratio_3m": null,
@@ -64342,9 +64430,36 @@
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
       "signal_index": null
+    },
+    {
+      "player_id": "hltv:22191",
+      "nickname": "MAGILA",
+      "team_name": "Azuolas",
+      "hltv_player_id": "22191",
+      "source_url": "https://www.hltv.org/player/22191/magila",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-20T01:50:04Z",
+  "lineups_updated_at_utc": "2026-10-20T07:38:41Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-19",
   "history_profile_count": 53,
