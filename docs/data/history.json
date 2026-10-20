@@ -1,18 +1,94 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-20T07:38:41Z",
-  "through_date": "2026-10-19",
+  "generated_at_utc": "2026-10-20T13:32:19Z",
+  "through_date": "2026-10-20",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4020,
-    "maps": 2903,
-    "lineup_rows": 9553,
+    "matches": 4022,
+    "maps": 2904,
+    "lineup_rows": 9573,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "hltv:2399485",
+      "match_date": "2026-10-20",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "FORZE Reload",
+      "team2_name": "Azuolas",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FORZE Reload",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 5,
+          "winner_name": "FORZE Reload",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "YumsaN",
+          "HeCkBNk",
+          "KusMe",
+          "Lack1",
+          "NickelBack"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "maty",
+          "yakuza",
+          "StreakN"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399486",
+      "match_date": "2026-10-20",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Black Phoenix",
+      "team2_name": "ex-6666",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "Black Phoenix",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [
+          "topo",
+          "karnez",
+          "4X1s",
+          "Salazar",
+          "MRcreed"
+        ],
+        "team2": [
+          "skcH",
+          "kL1o",
+          "amster",
+          "rendysky",
+          "stefienson"
+        ]
+      }
+    },
     {
       "match_id": "hltv:2399318",
       "match_date": "2026-10-19",
@@ -24,8 +100,8 @@
       "winner_name": "Saint Sinners",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,

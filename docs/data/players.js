@@ -11411,6 +11411,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 72.5,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399098",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Fire Flux",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 48,
+          "deaths": 44,
+          "kd_ratio": 1.09,
+          "adr": 73.9,
+          "kast": 83.8,
+          "rating": 1.13,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -11418,13 +11433,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 4,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 5,
           "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.39,
-          "average_adr": 84.2
+          "win_rate": 0.833,
+          "average_rating": 1.35,
+          "average_adr": 82.5
         },
         {
           "team_name": "6666",
@@ -11454,11 +11469,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.33,
-        "average_adr": 81.9,
-        "recent_rating": 1.33,
-        "rating_delta": -0.16
+        "series": 10,
+        "average_rating": 1.31,
+        "average_adr": 81.1,
+        "recent_rating": 1.4,
+        "rating_delta": 0.11
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -14209,6 +14224,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 80,
           "rating": 1.22,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399098",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Fire Flux",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 44,
+          "deaths": 45,
+          "kd_ratio": 0.98,
+          "adr": 75.9,
+          "kast": 75,
+          "rating": 1.24,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -14216,13 +14246,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 4,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 5,
           "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.19,
-          "average_adr": 82.1
+          "win_rate": 0.833,
+          "average_rating": 1.2,
+          "average_adr": 81.1
         },
         {
           "team_name": "6666",
@@ -14252,11 +14282,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.15,
-        "average_adr": 81,
-        "recent_rating": 1.02,
-        "rating_delta": -0.3
+        "series": 10,
+        "average_rating": 1.16,
+        "average_adr": 80.5,
+        "recent_rating": 1.15,
+        "rating_delta": -0.1
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -16232,12 +16262,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Bushido Wildcats",
           "team_name": "Saint Sinners",
           "won": true,
-          "kills": 36,
-          "deaths": 21,
-          "kd_ratio": 1.71,
-          "adr": 75,
-          "kast": 68.3,
-          "rating": 1.27,
+          "kills": 51,
+          "deaths": 33,
+          "kd_ratio": 1.55,
+          "adr": 74.5,
+          "kast": 74.6,
+          "rating": 1.25,
           "maps": 3
         },
         {
@@ -16269,7 +16299,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "losses": 3,
           "win_rate": 0.571,
           "average_rating": 1.03,
-          "average_adr": 70.9
+          "average_adr": 70.8
         }
       ],
       "timeline_entry": {
@@ -16279,20 +16309,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Bushido Wildcats",
         "team_name": "Saint Sinners",
         "won": true,
-        "kills": 36,
-        "deaths": 21,
-        "kd_ratio": 1.71,
-        "adr": 75,
-        "kast": 68.3,
-        "rating": 1.27,
+        "kills": 51,
+        "deaths": 33,
+        "kd_ratio": 1.55,
+        "adr": 74.5,
+        "kast": 74.6,
+        "rating": 1.25,
         "maps": 3
       },
       "form_summary": {
         "series": 7,
         "average_rating": 1.03,
-        "average_adr": 70.9,
-        "recent_rating": 1.26,
-        "rating_delta": 0.48
+        "average_adr": 70.8,
+        "recent_rating": 1.25,
+        "rating_delta": 0.47
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -18198,12 +18228,27 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "LPH",
           "team_name": "Black Phoenix",
           "won": true,
-          "kills": 50,
-          "deaths": 43,
-          "kd_ratio": 1.16,
-          "adr": 93.1,
-          "kast": 71.2,
-          "rating": 1.28,
+          "kills": 74,
+          "deaths": 58,
+          "kd_ratio": 1.28,
+          "adr": 92.5,
+          "kast": 71.1,
+          "rating": 1.39,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399096",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BAKS",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 45,
+          "deaths": 27,
+          "kd_ratio": 1.67,
+          "adr": 109,
+          "kast": 72.1,
+          "rating": 1.61,
           "maps": 3
         }
       ],
@@ -18223,24 +18268,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 11,
-        "average_rating": 1.29,
-        "average_adr": 85.6,
-        "recent_rating": 1.2,
-        "rating_delta": 0.07
+        "series": 12,
+        "average_rating": 1.33,
+        "average_adr": 87.5,
+        "recent_rating": 1.37,
+        "rating_delta": 0.16
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-18",
-          "series": 11,
-          "wins": 9,
+          "through_date": "2026-10-19",
+          "series": 12,
+          "wins": 10,
           "losses": 2,
-          "win_rate": 0.818,
-          "average_rating": 1.29,
-          "average_adr": 85.6
+          "win_rate": 0.833,
+          "average_rating": 1.33,
+          "average_adr": 87.5
         }
       ],
       "kd_ratio_3m": null,
@@ -18426,12 +18471,27 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "LPH",
           "team_name": "Black Phoenix",
           "won": true,
-          "kills": 45,
-          "deaths": 38,
-          "kd_ratio": 1.18,
-          "adr": 78.6,
-          "kast": 66.1,
-          "rating": 1.17,
+          "kills": 59,
+          "deaths": 54,
+          "kd_ratio": 1.09,
+          "adr": 72.5,
+          "kast": 67.5,
+          "rating": 1.04,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399096",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BAKS",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 30,
+          "deaths": 25,
+          "kd_ratio": 1.2,
+          "adr": 78.2,
+          "kast": 72.1,
+          "rating": 1.23,
           "maps": 3
         }
       ],
@@ -18451,24 +18511,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 11,
-        "average_rating": 1.38,
-        "average_adr": 86.5,
-        "recent_rating": 1.21,
-        "rating_delta": -0.35
+        "series": 12,
+        "average_rating": 1.36,
+        "average_adr": 85.3,
+        "recent_rating": 1.19,
+        "rating_delta": -0.31
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-18",
-          "series": 11,
-          "wins": 9,
+          "through_date": "2026-10-19",
+          "series": 12,
+          "wins": 10,
           "losses": 2,
-          "win_rate": 0.818,
-          "average_rating": 1.38,
-          "average_adr": 86.5
+          "win_rate": 0.833,
+          "average_rating": 1.36,
+          "average_adr": 85.3
         }
       ],
       "kd_ratio_3m": null,
@@ -18725,11 +18785,39 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "sniping": 2,
         "utility": 23
       },
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399485",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Azuolas",
+          "won": false,
+          "kills": 5,
+          "deaths": 17,
+          "kd_ratio": 0.29,
+          "adr": 40.9,
+          "kast": 38.9,
+          "rating": 0.25,
+          "maps": 1
+        }
+      ],
       "hltv_player_id": "14548",
       "source_url": "https://www.hltv.org/player/14548/maty",
       "map_profile": [],
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Azuolas",
+          "from_date": "2026-10-20",
+          "through_date": "2026-10-20",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.25,
+          "average_adr": 40.9
+        }
+      ],
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
@@ -18737,11 +18825,26 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": "2026-10-14T07:31:01.341Z",
       "stats_source_url": "https://www.hltv.org/player/14548/maty",
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 0.25,
+        "average_adr": 40.9,
+        "recent_rating": 0.25,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399485",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Azuolas",
+        "won": false,
+        "kills": 5,
+        "deaths": 17,
+        "kd_ratio": 0.29,
+        "adr": 40.9,
+        "kast": 38.9,
+        "rating": 0.25,
+        "maps": 1
       }
     },
     {
@@ -18983,12 +19086,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Bushido Wildcats",
           "team_name": "Saint Sinners",
           "won": true,
-          "kills": 26,
-          "deaths": 30,
-          "kd_ratio": 0.87,
-          "adr": 85.2,
-          "kast": 73.2,
-          "rating": 1.09,
+          "kills": 46,
+          "deaths": 39,
+          "kd_ratio": 1.18,
+          "adr": 93.9,
+          "kast": 79.7,
+          "rating": 1.43,
           "maps": 3
         },
         {
@@ -19019,8 +19122,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 4,
           "losses": 3,
           "win_rate": 0.571,
-          "average_rating": 1.16,
-          "average_adr": 78.9
+          "average_rating": 1.21,
+          "average_adr": 80.2
         }
       ],
       "timeline_entry": {
@@ -19030,20 +19133,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Bushido Wildcats",
         "team_name": "Saint Sinners",
         "won": true,
-        "kills": 26,
-        "deaths": 30,
-        "kd_ratio": 0.87,
-        "adr": 85.2,
-        "kast": 73.2,
-        "rating": 1.09,
+        "kills": 46,
+        "deaths": 39,
+        "kd_ratio": 1.18,
+        "adr": 93.9,
+        "kast": 79.7,
+        "rating": 1.43,
         "maps": 3
       },
       "form_summary": {
         "series": 7,
-        "average_rating": 1.16,
-        "average_adr": 78.9,
-        "recent_rating": 1.42,
-        "rating_delta": 0.52
+        "average_rating": 1.21,
+        "average_adr": 80.2,
+        "recent_rating": 1.54,
+        "rating_delta": 0.63
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -22307,6 +22410,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 85,
           "rating": 1.22,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399098",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Fire Flux",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 55,
+          "deaths": 45,
+          "kd_ratio": 1.22,
+          "adr": 77.8,
+          "kast": 76.5,
+          "rating": 1.33,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -22314,13 +22432,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 4,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 5,
           "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.28,
-          "average_adr": 82
+          "win_rate": 0.833,
+          "average_rating": 1.29,
+          "average_adr": 81.3
         },
         {
           "team_name": "6666",
@@ -22350,11 +22468,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.29,
-        "average_adr": 81.1,
-        "recent_rating": 1.32,
-        "rating_delta": 0.18
+        "series": 10,
+        "average_rating": 1.3,
+        "average_adr": 80.7,
+        "recent_rating": 1.42,
+        "rating_delta": 0.27
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -26771,12 +26889,27 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "LPH",
           "team_name": "Black Phoenix",
           "won": true,
-          "kills": 28,
-          "deaths": 48,
-          "kd_ratio": 0.58,
-          "adr": 63.3,
-          "kast": 67.8,
-          "rating": 0.77,
+          "kills": 45,
+          "deaths": 64,
+          "kd_ratio": 0.7,
+          "adr": 67.8,
+          "kast": 69.9,
+          "rating": 0.86,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399096",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BAKS",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 29,
+          "deaths": 28,
+          "kd_ratio": 1.04,
+          "adr": 77.1,
+          "kast": 69.8,
+          "rating": 1.21,
           "maps": 3
         }
       ],
@@ -26796,24 +26929,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 11,
-        "average_rating": 1.07,
-        "average_adr": 77.3,
-        "recent_rating": 0.91,
-        "rating_delta": -0.28
+        "series": 12,
+        "average_rating": 1.09,
+        "average_adr": 77.7,
+        "recent_rating": 1.06,
+        "rating_delta": -0.03
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-18",
-          "series": 11,
-          "wins": 9,
+          "through_date": "2026-10-19",
+          "series": 12,
+          "wins": 10,
           "losses": 2,
-          "win_rate": 0.818,
-          "average_rating": 1.07,
-          "average_adr": 77.3
+          "win_rate": 0.833,
+          "average_rating": 1.09,
+          "average_adr": 77.7
         }
       ],
       "kd_ratio_3m": null,
@@ -27035,12 +27168,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Bushido Wildcats",
           "team_name": "Saint Sinners",
           "won": true,
-          "kills": 22,
-          "deaths": 28,
-          "kd_ratio": 0.79,
-          "adr": 61.5,
-          "kast": 80.5,
-          "rating": 1.01,
+          "kills": 35,
+          "deaths": 41,
+          "kd_ratio": 0.85,
+          "adr": 73.5,
+          "kast": 81.4,
+          "rating": 1.1,
           "maps": 3
         },
         {
@@ -27071,8 +27204,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 4,
           "losses": 3,
           "win_rate": 0.571,
-          "average_rating": 0.85,
-          "average_adr": 66.4
+          "average_rating": 0.87,
+          "average_adr": 68.1
         }
       ],
       "timeline_entry": {
@@ -27082,20 +27215,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Bushido Wildcats",
         "team_name": "Saint Sinners",
         "won": true,
-        "kills": 22,
-        "deaths": 28,
-        "kd_ratio": 0.79,
-        "adr": 61.5,
-        "kast": 80.5,
-        "rating": 1.01,
+        "kills": 35,
+        "deaths": 41,
+        "kd_ratio": 0.85,
+        "adr": 73.5,
+        "kast": 81.4,
+        "rating": 1.1,
         "maps": 3
       },
       "form_summary": {
         "series": 7,
-        "average_rating": 0.85,
-        "average_adr": 66.4,
-        "recent_rating": 0.92,
-        "rating_delta": 0.19
+        "average_rating": 0.87,
+        "average_adr": 68.1,
+        "recent_rating": 0.95,
+        "rating_delta": 0.22
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -33228,6 +33361,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 87.5,
           "rating": 1.4,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399098",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Fire Flux",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 58,
+          "deaths": 48,
+          "kd_ratio": 1.21,
+          "adr": 95,
+          "kast": 79.4,
+          "rating": 1.34,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -33235,13 +33383,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 4,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 5,
           "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.02,
-          "average_adr": 67
+          "win_rate": 0.833,
+          "average_rating": 1.08,
+          "average_adr": 71.6
         },
         {
           "team_name": "6666",
@@ -33271,11 +33419,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.05,
-        "average_adr": 71.1,
-        "recent_rating": 1.11,
-        "rating_delta": 0.15
+        "series": 10,
+        "average_rating": 1.08,
+        "average_adr": 73.5,
+        "recent_rating": 1.25,
+        "rating_delta": 0.35
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -35149,12 +35297,27 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "LPH",
           "team_name": "Black Phoenix",
           "won": true,
-          "kills": 45,
-          "deaths": 39,
-          "kd_ratio": 1.15,
-          "adr": 75.4,
-          "kast": 69.5,
-          "rating": 1.12,
+          "kills": 70,
+          "deaths": 53,
+          "kd_ratio": 1.32,
+          "adr": 82.3,
+          "kast": 73.5,
+          "rating": 1.29,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399096",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BAKS",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 31,
+          "deaths": 30,
+          "kd_ratio": 1.03,
+          "adr": 72,
+          "kast": 74.4,
+          "rating": 1.25,
           "maps": 3
         }
       ],
@@ -35174,24 +35337,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 11,
-        "average_rating": 1.21,
-        "average_adr": 81,
-        "recent_rating": 1.08,
-        "rating_delta": -0.45
+        "series": 12,
+        "average_rating": 1.22,
+        "average_adr": 80.8,
+        "recent_rating": 1.22,
+        "rating_delta": 0
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-18",
-          "series": 11,
-          "wins": 9,
+          "through_date": "2026-10-19",
+          "series": 12,
+          "wins": 10,
           "losses": 2,
-          "win_rate": 0.818,
-          "average_rating": 1.21,
-          "average_adr": 81
+          "win_rate": 0.833,
+          "average_rating": 1.22,
+          "average_adr": 80.8
         }
       ],
       "kd_ratio_3m": null,
@@ -39441,12 +39604,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Bushido Wildcats",
           "team_name": "Saint Sinners",
           "won": true,
-          "kills": 30,
-          "deaths": 24,
-          "kd_ratio": 1.25,
-          "adr": 76.7,
-          "kast": 75.6,
-          "rating": 1.23,
+          "kills": 51,
+          "deaths": 34,
+          "kd_ratio": 1.5,
+          "adr": 81.7,
+          "kast": 79.7,
+          "rating": 1.36,
           "maps": 3
         },
         {
@@ -39477,8 +39640,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 4,
           "losses": 3,
           "win_rate": 0.571,
-          "average_rating": 1.17,
-          "average_adr": 80.3
+          "average_rating": 1.19,
+          "average_adr": 81
         }
       ],
       "timeline_entry": {
@@ -39488,20 +39651,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Bushido Wildcats",
         "team_name": "Saint Sinners",
         "won": true,
-        "kills": 30,
-        "deaths": 24,
-        "kd_ratio": 1.25,
-        "adr": 76.7,
-        "kast": 75.6,
-        "rating": 1.23,
+        "kills": 51,
+        "deaths": 34,
+        "kd_ratio": 1.5,
+        "adr": 81.7,
+        "kast": 79.7,
+        "rating": 1.36,
         "maps": 3
       },
       "form_summary": {
         "series": 7,
-        "average_rating": 1.17,
-        "average_adr": 80.3,
-        "recent_rating": 1.34,
-        "rating_delta": 0.38
+        "average_rating": 1.19,
+        "average_adr": 81,
+        "recent_rating": 1.38,
+        "rating_delta": 0.42
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -40317,11 +40480,39 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "sniping": 1,
         "utility": 21
       },
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399485",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Azuolas",
+          "won": false,
+          "kills": 11,
+          "deaths": 14,
+          "kd_ratio": 0.79,
+          "adr": 80.6,
+          "kast": 44.4,
+          "rating": 0.87,
+          "maps": 1
+        }
+      ],
       "hltv_player_id": "21216",
       "source_url": "https://www.hltv.org/player/21216/yakuza",
       "map_profile": [],
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Azuolas",
+          "from_date": "2026-10-20",
+          "through_date": "2026-10-20",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.87,
+          "average_adr": 80.6
+        }
+      ],
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
@@ -40329,11 +40520,26 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": "2026-10-14T07:31:01.341Z",
       "stats_source_url": "https://www.hltv.org/player/21216/yakuza",
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 0.87,
+        "average_adr": 80.6,
+        "recent_rating": 0.87,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399485",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Azuolas",
+        "won": false,
+        "kills": 11,
+        "deaths": 14,
+        "kd_ratio": 0.79,
+        "adr": 80.6,
+        "kast": 44.4,
+        "rating": 0.87,
+        "maps": 1
       }
     },
     {
@@ -42645,12 +42851,27 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "LPH",
           "team_name": "Black Phoenix",
           "won": true,
-          "kills": 33,
-          "deaths": 36,
-          "kd_ratio": 0.92,
-          "adr": 60.8,
-          "kast": 71.2,
-          "rating": 0.96,
+          "kills": 42,
+          "deaths": 53,
+          "kd_ratio": 0.79,
+          "adr": 59,
+          "kast": 73.5,
+          "rating": 0.88,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399096",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BAKS",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 27,
+          "deaths": 29,
+          "kd_ratio": 0.93,
+          "adr": 69.9,
+          "kast": 62.8,
+          "rating": 0.83,
           "maps": 3
         }
       ],
@@ -42670,24 +42891,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 11,
-        "average_rating": 1.06,
-        "average_adr": 60.5,
-        "recent_rating": 1.04,
-        "rating_delta": -0.07
+        "series": 12,
+        "average_rating": 1.04,
+        "average_adr": 61.2,
+        "recent_rating": 1,
+        "rating_delta": -0.14
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-18",
-          "series": 11,
-          "wins": 9,
+          "through_date": "2026-10-19",
+          "series": 12,
+          "wins": 10,
           "losses": 2,
-          "win_rate": 0.818,
-          "average_rating": 1.06,
-          "average_adr": 60.5
+          "win_rate": 0.833,
+          "average_rating": 1.04,
+          "average_adr": 61.2
         }
       ],
       "kd_ratio_3m": null,
@@ -44073,11 +44294,39 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "sniping": 0,
         "utility": 31
       },
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399485",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Azuolas",
+          "won": false,
+          "kills": 7,
+          "deaths": 17,
+          "kd_ratio": 0.41,
+          "adr": 65.1,
+          "kast": 66.7,
+          "rating": 0.69,
+          "maps": 1
+        }
+      ],
       "hltv_player_id": "23077",
       "source_url": "https://www.hltv.org/player/23077/streakn",
       "map_profile": [],
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Azuolas",
+          "from_date": "2026-10-20",
+          "through_date": "2026-10-20",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.69,
+          "average_adr": 65.1
+        }
+      ],
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
@@ -44085,11 +44334,26 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": "2026-10-14T07:31:01.341Z",
       "stats_source_url": "https://www.hltv.org/player/23077/streakn",
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 0.69,
+        "average_adr": 65.1,
+        "recent_rating": 0.69,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399485",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Azuolas",
+        "won": false,
+        "kills": 7,
+        "deaths": 17,
+        "kd_ratio": 0.41,
+        "adr": 65.1,
+        "kast": 66.7,
+        "rating": 0.69,
+        "maps": 1
       }
     },
     {
@@ -44358,6 +44622,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 82.5,
           "rating": 1.46,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399098",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Fire Flux",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 33,
+          "deaths": 46,
+          "kd_ratio": 0.72,
+          "adr": 52.3,
+          "kast": 75,
+          "rating": 0.84,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -44365,13 +44644,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-18",
-          "series": 5,
-          "wins": 4,
+          "through_date": "2026-10-19",
+          "series": 6,
+          "wins": 5,
           "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.14,
-          "average_adr": 72.2
+          "win_rate": 0.833,
+          "average_rating": 1.09,
+          "average_adr": 68.8
         },
         {
           "team_name": "6666",
@@ -44401,11 +44680,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.02,
-        "average_adr": 69.8,
-        "recent_rating": 1.08,
-        "rating_delta": -0.08
+        "series": 10,
+        "average_rating": 1,
+        "average_adr": 68,
+        "recent_rating": 1.1,
+        "rating_delta": 0.02
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -53280,22 +53559,135 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:25164",
-      "nickname": "Sh1karee",
+      "nickname": "Substitute",
       "team_name": "Azuolas",
       "rating_3_0": null,
       "maps_3m": 0,
       "signal_index": 50,
       "traits": {},
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399485",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Azuolas",
+          "won": false,
+          "kills": 14,
+          "deaths": 13,
+          "kd_ratio": 1.08,
+          "adr": 73.4,
+          "kast": 61.1,
+          "rating": 1.03,
+          "maps": 1
+        }
+      ],
       "hltv_player_id": "25164",
       "source_url": "https://www.hltv.org/player/25164/sh1karee",
       "map_profile": [],
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Azuolas",
+          "from_date": "2026-10-20",
+          "through_date": "2026-10-20",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.03,
+          "average_adr": 73.4
+        }
+      ],
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 1.03,
+        "average_adr": 73.4,
+        "recent_rating": 1.03,
+        "rating_delta": null
+      },
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "timeline_entry": {
+        "match_id": "hltv:2399485",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Azuolas",
+        "won": false,
+        "kills": 14,
+        "deaths": 13,
+        "kd_ratio": 1.08,
+        "adr": 73.4,
+        "kast": 61.1,
+        "rating": 1.03,
+        "maps": 1
+      }
+    },
+    {
+      "player_id": "hltv:21215",
+      "nickname": "Substitute",
+      "team_name": "Azuolas",
+      "rating_3_0": null,
+      "maps_3m": 0,
+      "signal_index": 50,
+      "traits": {},
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399485",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Azuolas",
+          "won": false,
+          "kills": 10,
+          "deaths": 15,
+          "kd_ratio": 0.67,
+          "adr": 56.4,
+          "kast": 50,
+          "rating": 0.86,
+          "maps": 1
+        }
+      ],
+      "hltv_player_id": "21215",
+      "source_url": "https://www.hltv.org/player/21215/tooi",
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Azuolas",
+          "from_date": "2026-10-20",
+          "through_date": "2026-10-20",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.86,
+          "average_adr": 56.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399485",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Azuolas",
+        "won": false,
+        "kills": 10,
+        "deaths": 15,
+        "kd_ratio": 0.67,
+        "adr": 56.4,
+        "kast": 50,
+        "rating": 0.86,
+        "maps": 1
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.86,
+        "average_adr": 56.4,
+        "recent_rating": 0.86,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -53304,20 +53696,6 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_through_date": null,
       "stats_fetched_at_utc": null,
       "stats_source_url": null
-    },
-    {
-      "player_id": "hltv:21215",
-      "nickname": "tooi",
-      "team_name": "Azuolas",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "form_timeline": [],
-      "hltv_player_id": "21215",
-      "source_url": "https://www.hltv.org/player/21215/tooi",
-      "map_profile": [],
-      "roster_eras": []
     },
     {
       "player_id": "hltv:8555",
@@ -54002,12 +54380,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Bushido Wildcats",
           "team_name": "Saint Sinners",
           "won": true,
-          "kills": 29,
-          "deaths": 23,
-          "kd_ratio": 1.26,
-          "adr": 68.8,
+          "kills": 42,
+          "deaths": 33,
+          "kd_ratio": 1.27,
+          "adr": 73.1,
           "kast": 78,
-          "rating": 1.11,
+          "rating": 1.04,
           "maps": 3
         },
         {
@@ -54038,8 +54416,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 4,
           "losses": 3,
           "win_rate": 0.571,
-          "average_rating": 1.08,
-          "average_adr": 71.7
+          "average_rating": 1.07,
+          "average_adr": 72.3
         }
       ],
       "timeline_entry": {
@@ -54049,20 +54427,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Bushido Wildcats",
         "team_name": "Saint Sinners",
         "won": true,
-        "kills": 29,
-        "deaths": 23,
-        "kd_ratio": 1.26,
-        "adr": 68.8,
+        "kills": 42,
+        "deaths": 33,
+        "kd_ratio": 1.27,
+        "adr": 73.1,
         "kast": 78,
-        "rating": 1.11,
+        "rating": 1.04,
         "maps": 3
       },
       "form_summary": {
         "series": 7,
-        "average_rating": 1.08,
-        "average_adr": 71.7,
-        "recent_rating": 1.23,
-        "rating_delta": 0.3
+        "average_rating": 1.07,
+        "average_adr": 72.3,
+        "recent_rating": 1.2,
+        "rating_delta": 0.27
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -58853,6 +59231,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68.6,
           "rating": 0.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399485",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Azuolas",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 17,
+          "deaths": 12,
+          "kd_ratio": 1.42,
+          "adr": 102,
+          "kast": 88.9,
+          "rating": 1.48,
+          "maps": 1
         }
       ],
       "map_profile": [],
@@ -58860,36 +59253,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-19",
-          "series": 6,
-          "wins": 5,
+          "through_date": "2026-10-20",
+          "series": 7,
+          "wins": 6,
           "losses": 1,
-          "win_rate": 0.833,
-          "average_rating": 0.89,
-          "average_adr": 57.6
+          "win_rate": 0.857,
+          "average_rating": 0.97,
+          "average_adr": 63.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399317",
-        "date": "2026-10-18",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "BAKS",
+        "match_id": "hltv:2399485",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Azuolas",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 22,
-        "deaths": 19,
-        "kd_ratio": 1.16,
-        "adr": 64,
-        "kast": 78.1,
-        "rating": 1.15,
-        "maps": 3
+        "kills": 17,
+        "deaths": 12,
+        "kd_ratio": 1.42,
+        "adr": 102,
+        "kast": 88.9,
+        "rating": 1.48,
+        "maps": 1
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 0.89,
-        "average_adr": 57.6,
-        "recent_rating": 0.84,
-        "rating_delta": -0.1
+        "series": 7,
+        "average_rating": 0.97,
+        "average_adr": 63.9,
+        "recent_rating": 1.18,
+        "rating_delta": 0.39
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -58998,6 +59391,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 74.5,
           "rating": 1.04,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399485",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Azuolas",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 21,
+          "deaths": 5,
+          "kd_ratio": 4.2,
+          "adr": 108.7,
+          "kast": 94.4,
+          "rating": 2.27,
+          "maps": 1
         }
       ],
       "map_profile": [],
@@ -59005,36 +59413,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-19",
-          "series": 6,
-          "wins": 5,
+          "through_date": "2026-10-20",
+          "series": 7,
+          "wins": 6,
           "losses": 1,
-          "win_rate": 0.833,
-          "average_rating": 1.38,
-          "average_adr": 84.2
+          "win_rate": 0.857,
+          "average_rating": 1.51,
+          "average_adr": 87.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399317",
-        "date": "2026-10-18",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "BAKS",
+        "match_id": "hltv:2399485",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Azuolas",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 30,
-        "deaths": 11,
-        "kd_ratio": 2.73,
-        "adr": 96.2,
-        "kast": 87.5,
-        "rating": 1.91,
-        "maps": 3
+        "kills": 21,
+        "deaths": 5,
+        "kd_ratio": 4.2,
+        "adr": 108.7,
+        "kast": 94.4,
+        "rating": 2.27,
+        "maps": 1
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.38,
-        "average_adr": 84.2,
-        "recent_rating": 1.21,
-        "rating_delta": -0.33
+        "series": 7,
+        "average_rating": 1.51,
+        "average_adr": 87.7,
+        "recent_rating": 1.74,
+        "rating_delta": 0.36
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -59143,6 +59551,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 74.5,
           "rating": 1.1,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399485",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Azuolas",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 15,
+          "deaths": 10,
+          "kd_ratio": 1.5,
+          "adr": 84.6,
+          "kast": 72.2,
+          "rating": 1.38,
+          "maps": 1
         }
       ],
       "map_profile": [],
@@ -59150,36 +59573,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-19",
-          "series": 6,
-          "wins": 5,
+          "through_date": "2026-10-20",
+          "series": 7,
+          "wins": 6,
           "losses": 1,
-          "win_rate": 0.833,
-          "average_rating": 1.24,
-          "average_adr": 75.8
+          "win_rate": 0.857,
+          "average_rating": 1.26,
+          "average_adr": 77
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399317",
-        "date": "2026-10-18",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "BAKS",
+        "match_id": "hltv:2399485",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Azuolas",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 27,
-        "deaths": 15,
-        "kd_ratio": 1.8,
-        "adr": 87.9,
-        "kast": 84.4,
-        "rating": 1.65,
-        "maps": 3
+        "kills": 15,
+        "deaths": 10,
+        "kd_ratio": 1.5,
+        "adr": 84.6,
+        "kast": 72.2,
+        "rating": 1.38,
+        "maps": 1
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.24,
-        "average_adr": 75.8,
-        "recent_rating": 1.18,
-        "rating_delta": -0.13
+        "series": 7,
+        "average_rating": 1.26,
+        "average_adr": 77,
+        "recent_rating": 1.38,
+        "rating_delta": 0.38
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -59474,6 +59897,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 84.3,
           "rating": 1.49,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399485",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Azuolas",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 12,
+          "deaths": 8,
+          "kd_ratio": 1.5,
+          "adr": 60.2,
+          "kast": 66.7,
+          "rating": 1.29,
+          "maps": 1
         }
       ],
       "map_profile": [],
@@ -59481,36 +59919,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-19",
-          "series": 6,
-          "wins": 5,
+          "through_date": "2026-10-20",
+          "series": 7,
+          "wins": 6,
           "losses": 1,
-          "win_rate": 0.833,
-          "average_rating": 1.23,
-          "average_adr": 75.3
+          "win_rate": 0.857,
+          "average_rating": 1.24,
+          "average_adr": 73.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399317",
-        "date": "2026-10-18",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "BAKS",
+        "match_id": "hltv:2399485",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Azuolas",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 27,
-        "deaths": 17,
-        "kd_ratio": 1.59,
-        "adr": 89.1,
-        "kast": 81.2,
-        "rating": 1.45,
-        "maps": 3
+        "kills": 12,
+        "deaths": 8,
+        "kd_ratio": 1.5,
+        "adr": 60.2,
+        "kast": 66.7,
+        "rating": 1.29,
+        "maps": 1
       },
       "form_summary": {
-        "series": 6,
-        "average_rating": 1.23,
-        "average_adr": 75.3,
-        "recent_rating": 1.19,
-        "rating_delta": -0.09
+        "series": 7,
+        "average_rating": 1.24,
+        "average_adr": 73.1,
+        "recent_rating": 1.41,
+        "rating_delta": 0.31
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -60860,11 +61298,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Saint Sinners",
           "team_name": "Bushido Wildcats",
           "won": false,
-          "kills": 20,
-          "deaths": 31,
-          "kd_ratio": 0.65,
+          "kills": 29,
+          "deaths": 45,
+          "kd_ratio": 0.64,
           "adr": 60.1,
-          "kast": 70.7,
+          "kast": 62.7,
           "rating": 0.81,
           "maps": 3
         }
@@ -60876,11 +61314,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Saint Sinners",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 20,
-        "deaths": 31,
-        "kd_ratio": 0.65,
+        "kills": 29,
+        "deaths": 45,
+        "kd_ratio": 0.64,
         "adr": 60.1,
-        "kast": 70.7,
+        "kast": 62.7,
         "rating": 0.81,
         "maps": 3
       },
@@ -61005,12 +61443,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Saint Sinners",
           "team_name": "Bushido Wildcats",
           "won": false,
-          "kills": 33,
-          "deaths": 27,
-          "kd_ratio": 1.22,
-          "adr": 77.5,
-          "kast": 70.7,
-          "rating": 1.09,
+          "kills": 47,
+          "deaths": 45,
+          "kd_ratio": 1.04,
+          "adr": 86.7,
+          "kast": 67.8,
+          "rating": 1.07,
           "maps": 3
         },
         {
@@ -61036,20 +61474,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Saint Sinners",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 33,
-        "deaths": 27,
-        "kd_ratio": 1.22,
-        "adr": 77.5,
-        "kast": 70.7,
-        "rating": 1.09,
+        "kills": 47,
+        "deaths": 45,
+        "kd_ratio": 1.04,
+        "adr": 86.7,
+        "kast": 67.8,
+        "rating": 1.07,
         "maps": 3
       },
       "form_summary": {
         "series": 7,
         "average_rating": 0.98,
-        "average_adr": 73.6,
-        "recent_rating": 0.97,
-        "rating_delta": -0.05
+        "average_adr": 74.9,
+        "recent_rating": 0.96,
+        "rating_delta": -0.06
       },
       "map_profile": [],
       "roster_eras": [
@@ -61062,7 +61500,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "losses": 7,
           "win_rate": 0,
           "average_rating": 0.98,
-          "average_adr": 73.6
+          "average_adr": 74.9
         }
       ],
       "kd_ratio_3m": null,
@@ -61165,12 +61603,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Saint Sinners",
           "team_name": "Bushido Wildcats",
           "won": false,
-          "kills": 23,
-          "deaths": 27,
-          "kd_ratio": 0.85,
-          "adr": 62.1,
-          "kast": 56.1,
-          "rating": 0.9,
+          "kills": 35,
+          "deaths": 44,
+          "kd_ratio": 0.8,
+          "adr": 63.1,
+          "kast": 57.6,
+          "rating": 0.88,
           "maps": 3
         },
         {
@@ -61196,20 +61634,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Saint Sinners",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 23,
-        "deaths": 27,
-        "kd_ratio": 0.85,
-        "adr": 62.1,
-        "kast": 56.1,
-        "rating": 0.9,
+        "kills": 35,
+        "deaths": 44,
+        "kd_ratio": 0.8,
+        "adr": 63.1,
+        "kast": 57.6,
+        "rating": 0.88,
         "maps": 3
       },
       "form_summary": {
         "series": 7,
         "average_rating": 0.89,
-        "average_adr": 67.9,
-        "recent_rating": 0.85,
-        "rating_delta": -0.01
+        "average_adr": 68,
+        "recent_rating": 0.84,
+        "rating_delta": -0.02
       },
       "map_profile": [],
       "roster_eras": [
@@ -61222,7 +61660,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "losses": 7,
           "win_rate": 0,
           "average_rating": 0.89,
-          "average_adr": 67.9
+          "average_adr": 68
         }
       ],
       "kd_ratio_3m": null,
@@ -61325,12 +61763,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Saint Sinners",
           "team_name": "Bushido Wildcats",
           "won": false,
-          "kills": 24,
-          "deaths": 27,
-          "kd_ratio": 0.89,
-          "adr": 63.1,
-          "kast": 73.2,
-          "rating": 0.92,
+          "kills": 35,
+          "deaths": 44,
+          "kd_ratio": 0.8,
+          "adr": 63.5,
+          "kast": 67.8,
+          "rating": 0.8,
           "maps": 3
         },
         {
@@ -61356,20 +61794,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Saint Sinners",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 24,
-        "deaths": 27,
-        "kd_ratio": 0.89,
-        "adr": 63.1,
-        "kast": 73.2,
-        "rating": 0.92,
+        "kills": 35,
+        "deaths": 44,
+        "kd_ratio": 0.8,
+        "adr": 63.5,
+        "kast": 67.8,
+        "rating": 0.8,
         "maps": 3
       },
       "form_summary": {
         "series": 7,
-        "average_rating": 0.93,
+        "average_rating": 0.91,
         "average_adr": 67.3,
-        "recent_rating": 0.84,
-        "rating_delta": -0.1
+        "recent_rating": 0.8,
+        "rating_delta": -0.14
       },
       "map_profile": [],
       "roster_eras": [
@@ -61381,7 +61819,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 0,
           "losses": 7,
           "win_rate": 0,
-          "average_rating": 0.93,
+          "average_rating": 0.91,
           "average_adr": 67.3
         }
       ],
@@ -61485,12 +61923,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "Saint Sinners",
           "team_name": "Bushido Wildcats",
           "won": false,
-          "kills": 26,
-          "deaths": 31,
-          "kd_ratio": 0.84,
-          "adr": 67.4,
-          "kast": 68.3,
-          "rating": 0.92,
+          "kills": 34,
+          "deaths": 47,
+          "kd_ratio": 0.72,
+          "adr": 68.7,
+          "kast": 66.1,
+          "rating": 0.85,
           "maps": 3
         },
         {
@@ -61516,20 +61954,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "Saint Sinners",
         "team_name": "Bushido Wildcats",
         "won": false,
-        "kills": 26,
-        "deaths": 31,
-        "kd_ratio": 0.84,
-        "adr": 67.4,
-        "kast": 68.3,
-        "rating": 0.92,
+        "kills": 34,
+        "deaths": 47,
+        "kd_ratio": 0.72,
+        "adr": 68.7,
+        "kast": 66.1,
+        "rating": 0.85,
         "maps": 3
       },
       "form_summary": {
         "series": 7,
-        "average_rating": 0.84,
-        "average_adr": 64.5,
-        "recent_rating": 0.89,
-        "rating_delta": 0.13
+        "average_rating": 0.83,
+        "average_adr": 64.7,
+        "recent_rating": 0.87,
+        "rating_delta": 0.11
       },
       "map_profile": [],
       "roster_eras": [
@@ -61541,8 +61979,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 0,
           "losses": 7,
           "win_rate": 0,
-          "average_rating": 0.84,
-          "average_adr": 64.5
+          "average_rating": 0.83,
+          "average_adr": 64.7
         }
       ],
       "kd_ratio_3m": null,
@@ -64382,42 +64820,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 93.8,
           "rating": 1.77,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399485",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Azuolas",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 9,
+          "deaths": 13,
+          "kd_ratio": 0.69,
+          "adr": 61.6,
+          "kast": 77.8,
+          "rating": 0.72,
+          "maps": 1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399317",
-        "date": "2026-10-18",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "BAKS",
+        "match_id": "hltv:2399485",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Azuolas",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 31,
-        "deaths": 20,
-        "kd_ratio": 1.55,
-        "adr": 101,
-        "kast": 93.8,
-        "rating": 1.77,
-        "maps": 3
+        "kills": 9,
+        "deaths": 13,
+        "kd_ratio": 0.69,
+        "adr": 61.6,
+        "kast": 77.8,
+        "rating": 0.72,
+        "maps": 1
       },
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.77,
-        "average_adr": 101,
-        "recent_rating": 1.77,
+        "series": 2,
+        "average_rating": 1.25,
+        "average_adr": 81.3,
+        "recent_rating": 1.25,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-18",
-          "through_date": "2026-10-18",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-20",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.77,
-          "average_adr": 101
+          "average_rating": 1.25,
+          "average_adr": 81.3
         }
       ],
       "map_profile": [],
@@ -64457,11 +64910,313 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
       "signal_index": null
+    },
+    {
+      "player_id": "hltv:23541",
+      "nickname": "tasman",
+      "team_name": "6yuBoJlbl",
+      "hltv_player_id": "23541",
+      "source_url": "https://www.hltv.org/player/23541/tasman",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399789",
+          "date": "2026-10-18",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "HYPERSPIRIT",
+          "team_name": "6yuBoJlbl",
+          "won": false,
+          "kills": 48,
+          "deaths": 38,
+          "kd_ratio": 1.26,
+          "adr": 92.7,
+          "kast": 67.8,
+          "rating": 1.37,
+          "maps": 3
+        }
+      ],
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.37,
+        "average_adr": 92.7,
+        "recent_rating": 1.37,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "6yuBoJlbl",
+          "from_date": "2026-10-18",
+          "through_date": "2026-10-18",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.37,
+          "average_adr": 92.7
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:11940",
+      "nickname": "neaLaN",
+      "team_name": "6yuBoJlbl",
+      "hltv_player_id": "11940",
+      "source_url": "https://www.hltv.org/player/11940/nealan",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399789",
+          "date": "2026-10-18",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "HYPERSPIRIT",
+          "team_name": "6yuBoJlbl",
+          "won": false,
+          "kills": 38,
+          "deaths": 42,
+          "kd_ratio": 0.9,
+          "adr": 66.9,
+          "kast": 71.2,
+          "rating": 1,
+          "maps": 3
+        }
+      ],
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1,
+        "average_adr": 66.9,
+        "recent_rating": 1,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "6yuBoJlbl",
+          "from_date": "2026-10-18",
+          "through_date": "2026-10-18",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1,
+          "average_adr": 66.9
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:23292",
+      "nickname": "Pump",
+      "team_name": "6yuBoJlbl",
+      "hltv_player_id": "23292",
+      "source_url": "https://www.hltv.org/player/23292/pump",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399789",
+          "date": "2026-10-18",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "HYPERSPIRIT",
+          "team_name": "6yuBoJlbl",
+          "won": false,
+          "kills": 28,
+          "deaths": 43,
+          "kd_ratio": 0.65,
+          "adr": 57.1,
+          "kast": 62.7,
+          "rating": 0.75,
+          "maps": 3
+        }
+      ],
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.75,
+        "average_adr": 57.1,
+        "recent_rating": 0.75,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "6yuBoJlbl",
+          "from_date": "2026-10-18",
+          "through_date": "2026-10-18",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.75,
+          "average_adr": 57.1
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:21439",
+      "nickname": "ICY",
+      "team_name": "6yuBoJlbl",
+      "hltv_player_id": "21439",
+      "source_url": "https://www.hltv.org/player/21439/icy",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399789",
+          "date": "2026-10-18",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "HYPERSPIRIT",
+          "team_name": "6yuBoJlbl",
+          "won": false,
+          "kills": 47,
+          "deaths": 34,
+          "kd_ratio": 1.38,
+          "adr": 84.3,
+          "kast": 69.5,
+          "rating": 1.14,
+          "maps": 3
+        }
+      ],
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.14,
+        "average_adr": 84.3,
+        "recent_rating": 1.14,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "6yuBoJlbl",
+          "from_date": "2026-10-18",
+          "through_date": "2026-10-18",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.14,
+          "average_adr": 84.3
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:26683",
+      "nickname": "stratefly",
+      "team_name": "6yuBoJlbl",
+      "hltv_player_id": "26683",
+      "source_url": "https://www.hltv.org/player/26683/stratefly",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399789",
+          "date": "2026-10-18",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "HYPERSPIRIT",
+          "team_name": "6yuBoJlbl",
+          "won": false,
+          "kills": 35,
+          "deaths": 45,
+          "kd_ratio": 0.78,
+          "adr": 62.2,
+          "kast": 67.8,
+          "rating": 0.87,
+          "maps": 3
+        }
+      ],
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.87,
+        "average_adr": 62.2,
+        "recent_rating": 0.87,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "6yuBoJlbl",
+          "from_date": "2026-10-18",
+          "through_date": "2026-10-18",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.87,
+          "average_adr": 62.2
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:23636",
+      "nickname": "takanashi",
+      "team_name": "Lavked",
+      "hltv_player_id": "23636",
+      "source_url": "https://www.hltv.org/player/23636/takanashi",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-20T07:38:41Z",
+  "lineups_updated_at_utc": "2026-10-20T13:32:19Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-19",
+  "history_through_date": "2026-10-20",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
