@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4018,
+    "matches": 4019,
     "maps": 2903,
     "lineup_rows": 9553,
     "source_match_ids": 976
@@ -481,6 +481,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Group_B"
+    },
+    {
+      "match_id": "liquipedia:efc87ee61d1a4ee5ee13",
+      "match_date": "2026-10-19",
+      "starts_at": "2026-10-19T17:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 3",
+      "team1_name": "ex-6666",
+      "team2_name": "Fire Flux",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-6666",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_3"
     },
     {
       "match_id": "hltv:2399314",
