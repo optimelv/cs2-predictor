@@ -2235,5 +2235,10 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "Bayankhongor",
     "logo_url": "https://liquipedia.net/commons/images/thumb/f/f9/Bayankhongor_allmode.png/55px-Bayankhongor_allmode.png",
     "source": "Liquipedia"
+  },
+  "ek": {
+    "name": "EK",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/1/16/Elite_Klan_lightmode.png/49px-Elite_Klan_lightmode.png",
+    "source": "Liquipedia"
   }
 };
