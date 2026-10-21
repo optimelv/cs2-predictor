@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-21T13:47:41Z",
+  "generated_at_utc": "2026-10-21T18:38:52Z",
   "through_date": "2026-10-21",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4053,
-    "maps": 2924,
-    "lineup_rows": 9654,
+    "matches": 4056,
+    "maps": 2930,
+    "lineup_rows": 9684,
     "source_match_ids": 976
   },
   "matches": [
@@ -239,6 +239,153 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "hltv:2399325",
+      "match_date": "2026-10-21",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "G2 Ares",
+      "team2_name": "Illyrians",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Illyrians",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 7,
+          "winner_name": "G2 Ares",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 10,
+          "score2": 13,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 3,
+          "score2": 13,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "TMKj",
+          "SHiNE",
+          "hitori",
+          "Junyme",
+          "yksjupe"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "BledarD",
+          "ammar",
+          "cerber"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399492",
+      "match_date": "2026-10-21",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Walczaki",
+      "team2_name": "Saint Sinners",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "Saint Sinners",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [
+          "sNx",
+          "SaMey",
+          "olimp",
+          "bajmi",
+          "reiko"
+        ],
+        "team2": [
+          "deb0",
+          "Caleyy",
+          "pavlysha666",
+          "iRV1NG",
+          "halfjix"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399491",
+      "match_date": "2026-10-21",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Lavked",
+      "team2_name": "Spirit Academy",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 22,
+          "score2": 18,
+          "winner_name": "Lavked",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 14,
+          "score2": 16,
+          "winner_name": "Spirit Academy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 4,
+          "score2": 8,
+          "winner_name": "Spirit Academy",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "azukay",
+          "takanashi",
+          "xm1nd",
+          "k4nfuz",
+          "FREXEMP",
+          "1NVISIBLEE"
+        ],
+        "team2": [
+          "VILBy",
+          "Kiryasoo",
+          "Netrix",
+          "s1nside",
+          "k0gaSs"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399485",
@@ -489,8 +636,8 @@
       ],
       "lineups": {
         "team1": [
+          "Substitute",
           "Norwi",
-          "xdENiSZERA",
           "whisper",
           "danistzz",
           "turbo"
@@ -538,19 +685,19 @@
         },
         {
           "map_name": "Ancient",
-          "score1": 5,
-          "score2": 7,
-          "winner_name": "mellren",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "ex-RUSTEC",
           "picked_by": null
         }
       ],
       "lineups": {
         "team1": [
-          "Brilliance",
-          "bl1x1",
+          "Substitute",
+          "Substitute",
           "youka",
           "yiksrezo",
-          "jakekeS"
+          "Brilliance"
         ],
         "team2": [
           "lollipop21k",
@@ -595,12 +742,11 @@
           "MRcreed"
         ],
         "team2": [
-          "Substitute",
           "VILBy",
+          "s1nside",
           "Kiryasoo",
           "Netrix",
-          "k0gaSs",
-          "s1nside"
+          "k0gaSs"
         ]
       }
     },
