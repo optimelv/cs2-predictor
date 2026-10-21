@@ -18535,6 +18535,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 57.9,
           "rating": 1.12,
           "maps": 1
+        },
+        {
+          "match_id": "hltv:2399835",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "EVO Elite",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 15,
+          "deaths": 13,
+          "kd_ratio": 1.15,
+          "adr": 76.8,
+          "kast": 85,
+          "rating": 1.35,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -18553,24 +18568,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 1
       },
       "form_summary": {
-        "series": 13,
+        "series": 14,
         "average_rating": 1.31,
-        "average_adr": 87.5,
-        "recent_rating": 1.37,
-        "rating_delta": 0.11
+        "average_adr": 86.7,
+        "recent_rating": 1.36,
+        "rating_delta": 0.12
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-20",
-          "series": 13,
-          "wins": 10,
+          "through_date": "2026-10-21",
+          "series": 14,
+          "wins": 11,
           "losses": 3,
-          "win_rate": 0.769,
+          "win_rate": 0.786,
           "average_rating": 1.31,
-          "average_adr": 87.5
+          "average_adr": 86.7
         }
       ],
       "kd_ratio_3m": null,
@@ -18793,6 +18808,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68.4,
           "rating": 0.9,
           "maps": 1
+        },
+        {
+          "match_id": "hltv:2399835",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "EVO Elite",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 16,
+          "deaths": 10,
+          "kd_ratio": 1.6,
+          "adr": 77.8,
+          "kast": 85,
+          "rating": 1.43,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -18811,24 +18841,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 1
       },
       "form_summary": {
-        "series": 13,
-        "average_rating": 1.32,
-        "average_adr": 83.6,
-        "recent_rating": 1.06,
-        "rating_delta": -0.51
+        "series": 14,
+        "average_rating": 1.33,
+        "average_adr": 83.2,
+        "recent_rating": 1.19,
+        "rating_delta": 0.02
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-20",
-          "series": 13,
-          "wins": 10,
+          "through_date": "2026-10-21",
+          "series": 14,
+          "wins": 11,
           "losses": 3,
-          "win_rate": 0.769,
-          "average_rating": 1.32,
-          "average_adr": 83.6
+          "win_rate": 0.786,
+          "average_rating": 1.33,
+          "average_adr": 83.2
         }
       ],
       "kd_ratio_3m": null,
@@ -27316,6 +27346,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 52.6,
           "rating": 0.82,
           "maps": 1
+        },
+        {
+          "match_id": "hltv:2399835",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "EVO Elite",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 15,
+          "deaths": 10,
+          "kd_ratio": 1.5,
+          "adr": 79.3,
+          "kast": 65,
+          "rating": 1.21,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -27334,24 +27379,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 1
       },
       "form_summary": {
-        "series": 13,
-        "average_rating": 1.07,
-        "average_adr": 77.9,
-        "recent_rating": 0.96,
-        "rating_delta": -0.02
+        "series": 14,
+        "average_rating": 1.08,
+        "average_adr": 78,
+        "recent_rating": 1.08,
+        "rating_delta": 0.14
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-20",
-          "series": 13,
-          "wins": 10,
+          "through_date": "2026-10-21",
+          "series": 14,
+          "wins": 11,
           "losses": 3,
-          "win_rate": 0.769,
-          "average_rating": 1.07,
-          "average_adr": 77.9
+          "win_rate": 0.786,
+          "average_rating": 1.08,
+          "average_adr": 78
         }
       ],
       "kd_ratio_3m": null,
@@ -35784,6 +35829,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 63.2,
           "rating": 0.69,
           "maps": 1
+        },
+        {
+          "match_id": "hltv:2399835",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "EVO Elite",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 18,
+          "deaths": 11,
+          "kd_ratio": 1.64,
+          "adr": 92.5,
+          "kast": 85,
+          "rating": 1.34,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -35802,24 +35862,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 1
       },
       "form_summary": {
-        "series": 13,
-        "average_rating": 1.18,
-        "average_adr": 79.6,
-        "recent_rating": 1.08,
-        "rating_delta": -0.11
+        "series": 14,
+        "average_rating": 1.2,
+        "average_adr": 80.5,
+        "recent_rating": 1.09,
+        "rating_delta": -0.05
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-20",
-          "series": 13,
-          "wins": 10,
+          "through_date": "2026-10-21",
+          "series": 14,
+          "wins": 11,
           "losses": 3,
-          "win_rate": 0.769,
-          "average_rating": 1.18,
-          "average_adr": 79.6
+          "win_rate": 0.786,
+          "average_rating": 1.2,
+          "average_adr": 80.5
         }
       ],
       "kd_ratio_3m": null,
@@ -43439,6 +43499,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 52.6,
           "rating": 0.54,
           "maps": 1
+        },
+        {
+          "match_id": "hltv:2399835",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "EVO Elite",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 18,
+          "deaths": 12,
+          "kd_ratio": 1.5,
+          "adr": 95.8,
+          "kast": 85,
+          "rating": 1.32,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -43457,24 +43532,24 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 1
       },
       "form_summary": {
-        "series": 13,
-        "average_rating": 1,
-        "average_adr": 60,
-        "recent_rating": 0.75,
-        "rating_delta": -0.45
+        "series": 14,
+        "average_rating": 1.02,
+        "average_adr": 62.6,
+        "recent_rating": 0.9,
+        "rating_delta": -0.12
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-20",
-          "series": 13,
-          "wins": 10,
+          "through_date": "2026-10-21",
+          "series": 14,
+          "wins": 11,
           "losses": 3,
-          "win_rate": 0.769,
-          "average_rating": 1,
-          "average_adr": 60
+          "win_rate": 0.786,
+          "average_rating": 1.02,
+          "average_adr": 62.6
         }
       ],
       "kd_ratio_3m": null,
@@ -52976,7 +53051,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:16641",
-      "nickname": "Substitute",
+      "nickname": "redzy",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -53061,7 +53136,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:21164",
-      "nickname": "Substitute",
+      "nickname": "L00m1",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -60675,7 +60750,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:20285",
-      "nickname": "Substitute",
+      "nickname": "Mann3n",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -66339,11 +66414,281 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
       "signal_index": null
+    },
+    {
+      "player_id": "hltv:23642",
+      "nickname": "Flierax",
+      "team_name": "Inner Circle Academy",
+      "hltv_player_id": "23642",
+      "source_url": "https://www.hltv.org/player/23642/flierax",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:24245",
+      "nickname": "3ippoch",
+      "team_name": "Inner Circle Academy",
+      "hltv_player_id": "24245",
+      "source_url": "https://www.hltv.org/player/24245/3ippoch",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:25129",
+      "nickname": "NaYz",
+      "team_name": "Inner Circle Academy",
+      "hltv_player_id": "25129",
+      "source_url": "https://www.hltv.org/player/25129/nayz",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:25503",
+      "nickname": "L1seYoung",
+      "team_name": "Inner Circle Academy",
+      "hltv_player_id": "25503",
+      "source_url": "https://www.hltv.org/player/25503/l1seyoung",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:26197",
+      "nickname": "Tamefear",
+      "team_name": "Inner Circle Academy",
+      "hltv_player_id": "26197",
+      "source_url": "https://www.hltv.org/player/26197/tamefear",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:9818",
+      "nickname": "uli",
+      "team_name": "HAVU",
+      "hltv_player_id": "9818",
+      "source_url": "https://www.hltv.org/player/9818/uli",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:21963",
+      "nickname": "Alxc",
+      "team_name": "HAVU",
+      "hltv_player_id": "21963",
+      "source_url": "https://www.hltv.org/player/21963/alxc",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:22143",
+      "nickname": "p3kko",
+      "team_name": "HAVU",
+      "hltv_player_id": "22143",
+      "source_url": "https://www.hltv.org/player/22143/p3kko",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:22211",
+      "nickname": "ottob",
+      "team_name": "HAVU",
+      "hltv_player_id": "22211",
+      "source_url": "https://www.hltv.org/player/22211/ottob",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:24995",
+      "nickname": "8Juho8",
+      "team_name": "HAVU",
+      "hltv_player_id": "24995",
+      "source_url": "https://www.hltv.org/player/24995/8juho8",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-21T01:36:11Z",
+  "lineups_updated_at_utc": "2026-10-21T07:43:49Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-20",
+  "history_through_date": "2026-10-21",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
