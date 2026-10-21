@@ -17148,7 +17148,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "FORZE Reload"
       },
       {
-        "detail_fetched_at_utc": "2026-10-20T22:14:31Z",
+        "detail_fetched_at_utc": "2026-10-21T01:23:08Z",
         "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
         "event_url": "https://www.hltv.org/events/archive",
@@ -50792,7 +50792,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "team2_name": "Spirit Academy"
           },
           {
-            "detail_fetched_at_utc": "2026-10-20T22:14:31Z",
+            "detail_fetched_at_utc": "2026-10-21T01:23:08Z",
             "event_id": "hltv:cct-2026-europe-series-12",
             "event_name": "CCT 2026 Europe Series 12",
             "event_url": "https://www.hltv.org/events/archive",
@@ -51304,7 +51304,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 14
       }
     ],
-    "last_verified_utc": "2026-10-20T22:19:13Z",
+    "last_verified_utc": "2026-10-21T01:36:11Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -51329,7 +51329,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-20T22:20:28Z",
+      "checked_at_utc": "2026-10-21T01:39:01Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -51713,7 +51713,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-20T22:20:59Z",
+  "generated_at_utc": "2026-10-21T01:39:32Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -53267,7 +53267,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-20T22:20:59Z",
+    "generated_at_utc": "2026-10-21T01:39:32Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -53561,7 +53561,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 2,
+      "new_rows": 0,
       "online_rows": 428,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
@@ -61327,11 +61327,12 @@ window.__STRIKESIGNAL_DATA__ = {
         "elo": 1487.05,
         "last_result_utc": "2026-10-20T19:35:54Z",
         "matches": 1,
+        "ranking_date": "2026-10-05",
         "recent_win_rate_10": 0.4091,
         "team_key": "6yubojlbl",
         "team_name": "6yuBoJlbl",
-        "vrs_points": 0,
-        "vrs_rank": null
+        "vrs_points": 1015,
+        "vrs_rank": 110
       }
     ],
     "veto_profiles": {
@@ -65238,7 +65239,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 34,
-    "online_results_applied": 2,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

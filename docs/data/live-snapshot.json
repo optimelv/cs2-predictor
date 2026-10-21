@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-10-20T22:19:13Z",
+  "fetched_at_utc": "2026-10-21T01:36:11Z",
   "poll_after_ms": 180000,
   "events": [
     {
@@ -2481,7 +2481,7 @@
               }
             ]
           },
-          "detail_fetched_at_utc": "2026-10-20T22:14:31Z"
+          "detail_fetched_at_utc": "2026-10-21T01:23:08Z"
         },
         {
           "match_id": "hltv:2399487",
@@ -5080,7 +5080,7 @@
           }
         ]
       },
-      "detail_fetched_at_utc": "2026-10-20T22:14:31Z"
+      "detail_fetched_at_utc": "2026-10-21T01:23:08Z"
     },
     {
       "match_id": "hltv:2399321",
@@ -7660,6 +7660,21 @@
           "maps": 3
         },
         {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 52,
+          "deaths": 41,
+          "kd_ratio": 1.27,
+          "adr": 95.5,
+          "kast": 80,
+          "rating": 1.35,
+          "maps": 3
+        },
+        {
           "match_id": "hltv:2399487",
           "date": "2026-10-20",
           "event_name": "CCT 2026 Europe Series 12",
@@ -7711,6 +7726,21 @@
           "adr": 71.5,
           "kast": 73.2,
           "rating": 1.08,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 39,
+          "deaths": 39,
+          "kd_ratio": 1,
+          "adr": 68.1,
+          "kast": 65,
+          "rating": 1.13,
           "maps": 3
         },
         {
@@ -7768,6 +7798,21 @@
           "maps": 3
         },
         {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 31,
+          "deaths": 43,
+          "kd_ratio": 0.72,
+          "adr": 57.3,
+          "kast": 70,
+          "rating": 0.9,
+          "maps": 3
+        },
+        {
           "match_id": "hltv:2399487",
           "date": "2026-10-20",
           "event_name": "CCT 2026 Europe Series 12",
@@ -7822,6 +7867,21 @@
           "maps": 3
         },
         {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 41,
+          "deaths": 38,
+          "kd_ratio": 1.08,
+          "adr": 75.6,
+          "kast": 75,
+          "rating": 1.22,
+          "maps": 3
+        },
+        {
           "match_id": "hltv:2399487",
           "date": "2026-10-20",
           "event_name": "CCT 2026 Europe Series 12",
@@ -7872,6 +7932,21 @@
           "kd_ratio": 0.73,
           "adr": 57.7,
           "kast": 68.3,
+          "rating": 0.84,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 31,
+          "deaths": 41,
+          "kd_ratio": 0.76,
+          "adr": 60.9,
+          "kast": 66.7,
           "rating": 0.84,
           "maps": 3
         },
@@ -8294,6 +8369,351 @@
         "adr": 69.2,
         "kast": 57.9,
         "rating": 0.77,
+        "maps": 3
+      }
+    },
+    {
+      "player_id": "hltv:24247",
+      "hltv_player_id": "24247",
+      "nickname": "skcH",
+      "source_url": "https://www.hltv.org/player/24247/skch",
+      "team_name": "ex-6666",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399098",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Fire Flux",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 33,
+          "deaths": 46,
+          "kd_ratio": 0.72,
+          "adr": 52.3,
+          "kast": 75,
+          "rating": 0.84,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399323",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 24,
+          "deaths": 33,
+          "kd_ratio": 0.73,
+          "adr": 67.1,
+          "kast": 65.9,
+          "rating": 0.85,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399689",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Challengers Europe Series 8",
+          "opponent_name": "Banda Chuya",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 28,
+          "deaths": 33,
+          "kd_ratio": 0.85,
+          "adr": 59.7,
+          "kast": 74.5,
+          "rating": 0.9,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399323",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Lavked",
+        "team_name": "ex-6666",
+        "won": false,
+        "kills": 24,
+        "deaths": 33,
+        "kd_ratio": 0.73,
+        "adr": 67.1,
+        "kast": 65.9,
+        "rating": 0.85,
+        "maps": 3
+      }
+    },
+    {
+      "player_id": "hltv:21651",
+      "hltv_player_id": "21651",
+      "nickname": "kL1o",
+      "source_url": "https://www.hltv.org/player/21651/kl1o",
+      "team_name": "ex-6666",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399098",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Fire Flux",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 44,
+          "deaths": 45,
+          "kd_ratio": 0.98,
+          "adr": 75.9,
+          "kast": 75,
+          "rating": 1.24,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399323",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 34,
+          "deaths": 30,
+          "kd_ratio": 1.13,
+          "adr": 79.3,
+          "kast": 70.5,
+          "rating": 1.14,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399689",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Challengers Europe Series 8",
+          "opponent_name": "Banda Chuya",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 39,
+          "deaths": 38,
+          "kd_ratio": 1.03,
+          "adr": 94.6,
+          "kast": 74.5,
+          "rating": 1.22,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399323",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Lavked",
+        "team_name": "ex-6666",
+        "won": false,
+        "kills": 34,
+        "deaths": 30,
+        "kd_ratio": 1.13,
+        "adr": 79.3,
+        "kast": 70.5,
+        "rating": 1.14,
+        "maps": 3
+      }
+    },
+    {
+      "player_id": "hltv:19617",
+      "hltv_player_id": "19617",
+      "nickname": "amster",
+      "source_url": "https://www.hltv.org/player/19617/amster",
+      "team_name": "ex-6666",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399098",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Fire Flux",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 55,
+          "deaths": 45,
+          "kd_ratio": 1.22,
+          "adr": 77.8,
+          "kast": 76.5,
+          "rating": 1.33,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399323",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 36,
+          "deaths": 29,
+          "kd_ratio": 1.24,
+          "adr": 85.1,
+          "kast": 65.9,
+          "rating": 1.36,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399689",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Challengers Europe Series 8",
+          "opponent_name": "Banda Chuya",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 31,
+          "deaths": 30,
+          "kd_ratio": 1.03,
+          "adr": 82.5,
+          "kast": 74.5,
+          "rating": 1.24,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399323",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Lavked",
+        "team_name": "ex-6666",
+        "won": false,
+        "kills": 36,
+        "deaths": 29,
+        "kd_ratio": 1.24,
+        "adr": 85.1,
+        "kast": 65.9,
+        "rating": 1.36,
+        "maps": 3
+      }
+    },
+    {
+      "player_id": "hltv:22650",
+      "hltv_player_id": "22650",
+      "nickname": "rendysky",
+      "source_url": "https://www.hltv.org/player/22650/rendysky",
+      "team_name": "ex-6666",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399098",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Fire Flux",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 48,
+          "deaths": 44,
+          "kd_ratio": 1.09,
+          "adr": 73.9,
+          "kast": 83.8,
+          "rating": 1.13,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399323",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 33,
+          "deaths": 25,
+          "kd_ratio": 1.32,
+          "adr": 80.7,
+          "kast": 68.2,
+          "rating": 1.06,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399689",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Challengers Europe Series 8",
+          "opponent_name": "Banda Chuya",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 35,
+          "deaths": 33,
+          "kd_ratio": 1.06,
+          "adr": 66.4,
+          "kast": 72.3,
+          "rating": 1.02,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399323",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Lavked",
+        "team_name": "ex-6666",
+        "won": false,
+        "kills": 33,
+        "deaths": 25,
+        "kd_ratio": 1.32,
+        "adr": 80.7,
+        "kast": 68.2,
+        "rating": 1.06,
+        "maps": 3
+      }
+    },
+    {
+      "player_id": "hltv:26816",
+      "hltv_player_id": "26816",
+      "nickname": "stefienson",
+      "source_url": "https://www.hltv.org/player/26816/stefienson",
+      "team_name": "ex-6666",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399098",
+          "date": "2026-10-19",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Fire Flux",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 58,
+          "deaths": 48,
+          "kd_ratio": 1.21,
+          "adr": 95,
+          "kast": 79.4,
+          "rating": 1.34,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399323",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 24,
+          "deaths": 26,
+          "kd_ratio": 0.92,
+          "adr": 64.6,
+          "kast": 75,
+          "rating": 0.97,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399689",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Challengers Europe Series 8",
+          "opponent_name": "Banda Chuya",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 21,
+          "deaths": 36,
+          "kd_ratio": 0.58,
+          "adr": 56.1,
+          "kast": 63.8,
+          "rating": 0.69,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399323",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Lavked",
+        "team_name": "ex-6666",
+        "won": false,
+        "kills": 24,
+        "deaths": 26,
+        "kd_ratio": 0.92,
+        "adr": 64.6,
+        "kast": 75,
+        "rating": 0.97,
         "maps": 3
       }
     },
@@ -9171,276 +9591,6 @@
         "kast": 63.2,
         "rating": 0.69,
         "maps": 1
-      }
-    },
-    {
-      "player_id": "hltv:24247",
-      "hltv_player_id": "24247",
-      "nickname": "skcH",
-      "source_url": "https://www.hltv.org/player/24247/skch",
-      "team_name": "ex-6666",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399323",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Lavked",
-          "team_name": "ex-6666",
-          "won": false,
-          "kills": 24,
-          "deaths": 33,
-          "kd_ratio": 0.73,
-          "adr": 67.1,
-          "kast": 65.9,
-          "rating": 0.85,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399689",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Challengers Europe Series 8",
-          "opponent_name": "Banda Chuya",
-          "team_name": "ex-6666",
-          "won": false,
-          "kills": 28,
-          "deaths": 33,
-          "kd_ratio": 0.85,
-          "adr": 59.7,
-          "kast": 74.5,
-          "rating": 0.9,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399323",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
-        "team_name": "ex-6666",
-        "won": false,
-        "kills": 24,
-        "deaths": 33,
-        "kd_ratio": 0.73,
-        "adr": 67.1,
-        "kast": 65.9,
-        "rating": 0.85,
-        "maps": 3
-      }
-    },
-    {
-      "player_id": "hltv:21651",
-      "hltv_player_id": "21651",
-      "nickname": "kL1o",
-      "source_url": "https://www.hltv.org/player/21651/kl1o",
-      "team_name": "ex-6666",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399323",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Lavked",
-          "team_name": "ex-6666",
-          "won": false,
-          "kills": 34,
-          "deaths": 30,
-          "kd_ratio": 1.13,
-          "adr": 79.3,
-          "kast": 70.5,
-          "rating": 1.14,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399689",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Challengers Europe Series 8",
-          "opponent_name": "Banda Chuya",
-          "team_name": "ex-6666",
-          "won": false,
-          "kills": 39,
-          "deaths": 38,
-          "kd_ratio": 1.03,
-          "adr": 94.6,
-          "kast": 74.5,
-          "rating": 1.22,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399323",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
-        "team_name": "ex-6666",
-        "won": false,
-        "kills": 34,
-        "deaths": 30,
-        "kd_ratio": 1.13,
-        "adr": 79.3,
-        "kast": 70.5,
-        "rating": 1.14,
-        "maps": 3
-      }
-    },
-    {
-      "player_id": "hltv:19617",
-      "hltv_player_id": "19617",
-      "nickname": "amster",
-      "source_url": "https://www.hltv.org/player/19617/amster",
-      "team_name": "ex-6666",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399323",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Lavked",
-          "team_name": "ex-6666",
-          "won": false,
-          "kills": 36,
-          "deaths": 29,
-          "kd_ratio": 1.24,
-          "adr": 85.1,
-          "kast": 65.9,
-          "rating": 1.36,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399689",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Challengers Europe Series 8",
-          "opponent_name": "Banda Chuya",
-          "team_name": "ex-6666",
-          "won": false,
-          "kills": 31,
-          "deaths": 30,
-          "kd_ratio": 1.03,
-          "adr": 82.5,
-          "kast": 74.5,
-          "rating": 1.24,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399323",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
-        "team_name": "ex-6666",
-        "won": false,
-        "kills": 36,
-        "deaths": 29,
-        "kd_ratio": 1.24,
-        "adr": 85.1,
-        "kast": 65.9,
-        "rating": 1.36,
-        "maps": 3
-      }
-    },
-    {
-      "player_id": "hltv:22650",
-      "hltv_player_id": "22650",
-      "nickname": "rendysky",
-      "source_url": "https://www.hltv.org/player/22650/rendysky",
-      "team_name": "ex-6666",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399323",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Lavked",
-          "team_name": "ex-6666",
-          "won": false,
-          "kills": 33,
-          "deaths": 25,
-          "kd_ratio": 1.32,
-          "adr": 80.7,
-          "kast": 68.2,
-          "rating": 1.06,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399689",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Challengers Europe Series 8",
-          "opponent_name": "Banda Chuya",
-          "team_name": "ex-6666",
-          "won": false,
-          "kills": 35,
-          "deaths": 33,
-          "kd_ratio": 1.06,
-          "adr": 66.4,
-          "kast": 72.3,
-          "rating": 1.02,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399323",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
-        "team_name": "ex-6666",
-        "won": false,
-        "kills": 33,
-        "deaths": 25,
-        "kd_ratio": 1.32,
-        "adr": 80.7,
-        "kast": 68.2,
-        "rating": 1.06,
-        "maps": 3
-      }
-    },
-    {
-      "player_id": "hltv:26816",
-      "hltv_player_id": "26816",
-      "nickname": "stefienson",
-      "source_url": "https://www.hltv.org/player/26816/stefienson",
-      "team_name": "ex-6666",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399323",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Lavked",
-          "team_name": "ex-6666",
-          "won": false,
-          "kills": 24,
-          "deaths": 26,
-          "kd_ratio": 0.92,
-          "adr": 64.6,
-          "kast": 75,
-          "rating": 0.97,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399689",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Challengers Europe Series 8",
-          "opponent_name": "Banda Chuya",
-          "team_name": "ex-6666",
-          "won": false,
-          "kills": 21,
-          "deaths": 36,
-          "kd_ratio": 0.58,
-          "adr": 56.1,
-          "kast": 63.8,
-          "rating": 0.69,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399323",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
-        "team_name": "ex-6666",
-        "won": false,
-        "kills": 24,
-        "deaths": 26,
-        "kd_ratio": 0.92,
-        "adr": 64.6,
-        "kast": 75,
-        "rating": 0.97,
-        "maps": 3
       }
     },
     {
@@ -10560,7 +10710,7 @@
     "source": "Valve Regional Standings",
     "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_10_05.md",
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-20T22:20:28Z",
+    "checked_at_utc": "2026-10-21T01:39:01Z",
     "scope": "global",
     "status": "official_snapshot",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
@@ -10929,10 +11079,10 @@
   },
   "source": "HLTV via Oracle Scrapling",
   "source_health": {
-    "scheduled_matches": 62,
+    "scheduled_matches": 64,
     "recent_results": 80,
-    "detail_matches": 4,
-    "detail_cache_hits": 51,
+    "detail_matches": 3,
+    "detail_cache_hits": 81,
     "detail_errors": [],
     "browser_fallbacks": 0
   },

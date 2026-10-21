@@ -17147,7 +17147,7 @@
       "winner_name": "FORZE Reload"
     },
     {
-      "detail_fetched_at_utc": "2026-10-20T22:14:31Z",
+      "detail_fetched_at_utc": "2026-10-21T01:23:08Z",
       "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "event_url": "https://www.hltv.org/events/archive",
@@ -50791,7 +50791,7 @@
           "team2_name": "Spirit Academy"
         },
         {
-          "detail_fetched_at_utc": "2026-10-20T22:14:31Z",
+          "detail_fetched_at_utc": "2026-10-21T01:23:08Z",
           "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "event_url": "https://www.hltv.org/events/archive",
@@ -51303,7 +51303,7 @@
       "teams": 14
     }
   ],
-  "last_verified_utc": "2026-10-20T22:19:13Z",
+  "last_verified_utc": "2026-10-21T01:36:11Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -51328,7 +51328,7 @@
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-20T22:20:28Z",
+    "checked_at_utc": "2026-10-21T01:39:01Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
