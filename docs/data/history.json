@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4066,
+    "matches": 4068,
     "maps": 2932,
     "lineup_rows": 9694,
     "source_match_ids": 976
@@ -633,6 +633,50 @@
           "bevve"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:07943bf2311b67911a44",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T11:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 4",
+      "team1_name": "Fire Flux",
+      "team2_name": "JustP",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "JustP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_4"
+    },
+    {
+      "match_id": "liquipedia:d8658d620308fc56d0e6",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 4",
+      "team1_name": "33",
+      "team2_name": "Butterfly",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "33",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_4"
     },
     {
       "match_id": "hltv:2399485",
