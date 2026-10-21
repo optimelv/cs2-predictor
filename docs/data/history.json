@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-21T18:38:52Z",
+  "generated_at_utc": "2026-10-21T22:22:57Z",
   "through_date": "2026-10-21",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4065,
-    "maps": 2930,
-    "lineup_rows": 9684,
+    "matches": 4066,
+    "maps": 2932,
+    "lineup_rows": 9694,
     "source_match_ids": 976
   },
   "matches": [
@@ -584,6 +584,55 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/1win_Private_Club/2#Results"
+    },
+    {
+      "match_id": "hltv:2399326",
+      "match_date": "2026-10-21",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Black Phoenix",
+      "team2_name": "The Last Resort",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Black Phoenix",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "Black Phoenix",
+          "picked_by": null
+        },
+        {
+          "map_name": "Cache",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "Black Phoenix",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "topo",
+          "karnez",
+          "4X1s",
+          "Salazar",
+          "MRcreed"
+        ],
+        "team2": [
+          "Extinct",
+          "arTisT",
+          "Girafffe",
+          "Vacancy",
+          "bevve"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399485",
@@ -1221,17 +1270,17 @@
       ],
       "lineups": {
         "team1": [
-          "1NVISIBLEE",
-          "azukay",
-          "takanashi",
+          "Substitute",
           "xm1nd",
-          "k4nfuz"
+          "azukay",
+          "k4nfuz",
+          "1NVISIBLEE"
         ],
         "team2": [
-          "amster",
-          "kL1o",
-          "rendysky",
           "skcH",
+          "kL1o",
+          "amster",
+          "rendysky",
           "stefienson"
         ]
       }

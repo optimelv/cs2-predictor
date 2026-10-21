@@ -11569,12 +11569,12 @@
           "opponent_name": "Lavked",
           "team_name": "ex-6666",
           "won": false,
-          "kills": 33,
-          "deaths": 25,
-          "kd_ratio": 1.32,
-          "adr": 80.7,
-          "kast": 68.2,
-          "rating": 1.06,
+          "kills": 50,
+          "deaths": 36,
+          "kd_ratio": 1.39,
+          "adr": 90.4,
+          "kast": 68.3,
+          "rating": 1.17,
           "maps": 3
         },
         {
@@ -11633,8 +11633,8 @@
           "wins": 6,
           "losses": 4,
           "win_rate": 0.6,
-          "average_rating": 1.33,
-          "average_adr": 83.6
+          "average_rating": 1.34,
+          "average_adr": 84.6
         },
         {
           "team_name": "6666",
@@ -11665,10 +11665,10 @@
       },
       "form_summary": {
         "series": 14,
-        "average_rating": 1.31,
-        "average_adr": 82.3,
+        "average_rating": 1.32,
+        "average_adr": 83,
         "recent_rating": 1.38,
-        "rating_delta": 0.27
+        "rating_delta": 0.24
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -14487,12 +14487,12 @@
           "opponent_name": "Lavked",
           "team_name": "ex-6666",
           "won": false,
-          "kills": 34,
-          "deaths": 30,
-          "kd_ratio": 1.13,
-          "adr": 79.3,
-          "kast": 70.5,
-          "rating": 1.14,
+          "kills": 44,
+          "deaths": 43,
+          "kd_ratio": 1.02,
+          "adr": 77,
+          "kast": 68.3,
+          "rating": 1,
           "maps": 3
         },
         {
@@ -14551,8 +14551,8 @@
           "wins": 6,
           "losses": 4,
           "win_rate": 0.6,
-          "average_rating": 1.13,
-          "average_adr": 79.7
+          "average_rating": 1.12,
+          "average_adr": 79.4
         },
         {
           "team_name": "6666",
@@ -14583,10 +14583,10 @@
       },
       "form_summary": {
         "series": 14,
-        "average_rating": 1.13,
-        "average_adr": 79.7,
+        "average_rating": 1.12,
+        "average_adr": 79.5,
         "recent_rating": 1,
-        "rating_delta": -0.2
+        "rating_delta": -0.15
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -17803,12 +17803,12 @@
           "opponent_name": "ex-6666",
           "team_name": "Lavked",
           "won": true,
-          "kills": 30,
-          "deaths": 25,
-          "kd_ratio": 1.2,
-          "adr": 71.1,
-          "kast": 59.1,
-          "rating": 1.14,
+          "kills": 37,
+          "deaths": 33,
+          "kd_ratio": 1.12,
+          "adr": 64,
+          "kast": 63.3,
+          "rating": 1.07,
           "maps": 3
         },
         {
@@ -17837,16 +17837,16 @@
           "wins": 4,
           "losses": 3,
           "win_rate": 0.571,
-          "average_rating": 1.16,
-          "average_adr": 77.7
+          "average_rating": 1.15,
+          "average_adr": 76.6
         }
       ],
       "form_summary": {
         "series": 7,
-        "average_rating": 1.16,
-        "average_adr": 77.7,
-        "recent_rating": 1.27,
-        "rating_delta": 0.21
+        "average_rating": 1.15,
+        "average_adr": 76.6,
+        "recent_rating": 1.24,
+        "rating_delta": 0.19
       },
       "timeline_entry": {
         "match_id": "hltv:2399491",
@@ -18745,29 +18745,44 @@
           "kast": 85,
           "rating": 1.35,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399326",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 19,
+          "deaths": 13,
+          "kd_ratio": 1.46,
+          "adr": 95.4,
+          "kast": 77.3,
+          "rating": 1.31,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399322",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399326",
+        "date": "2026-10-21",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "The Last Resort",
         "team_name": "Black Phoenix",
-        "won": false,
-        "kills": 15,
-        "deaths": 16,
-        "kd_ratio": 0.94,
-        "adr": 87.3,
-        "kast": 57.9,
-        "rating": 1.12,
-        "maps": 1
+        "won": true,
+        "kills": 19,
+        "deaths": 13,
+        "kd_ratio": 1.46,
+        "adr": 95.4,
+        "kast": 77.3,
+        "rating": 1.31,
+        "maps": 3
       },
       "form_summary": {
-        "series": 14,
+        "series": 15,
         "average_rating": 1.31,
-        "average_adr": 86.7,
-        "recent_rating": 1.36,
-        "rating_delta": 0.12
+        "average_adr": 87.3,
+        "recent_rating": 1.26,
+        "rating_delta": -0.11
       },
       "map_profile": [],
       "roster_eras": [
@@ -18775,12 +18790,12 @@
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
           "through_date": "2026-10-21",
-          "series": 14,
-          "wins": 11,
+          "series": 15,
+          "wins": 12,
           "losses": 3,
-          "win_rate": 0.786,
+          "win_rate": 0.8,
           "average_rating": 1.31,
-          "average_adr": 86.7
+          "average_adr": 87.3
         }
       ],
       "kd_ratio_3m": null,
@@ -19018,29 +19033,44 @@
           "kast": 85,
           "rating": 1.43,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399326",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 26,
+          "deaths": 12,
+          "kd_ratio": 2.17,
+          "adr": 100.7,
+          "kast": 95.5,
+          "rating": 1.7,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399322",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399326",
+        "date": "2026-10-21",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "The Last Resort",
         "team_name": "Black Phoenix",
-        "won": false,
-        "kills": 12,
-        "deaths": 15,
-        "kd_ratio": 0.8,
-        "adr": 62.9,
-        "kast": 68.4,
-        "rating": 0.9,
-        "maps": 1
+        "won": true,
+        "kills": 26,
+        "deaths": 12,
+        "kd_ratio": 2.17,
+        "adr": 100.7,
+        "kast": 95.5,
+        "rating": 1.7,
+        "maps": 3
       },
       "form_summary": {
-        "series": 14,
-        "average_rating": 1.33,
-        "average_adr": 83.2,
-        "recent_rating": 1.19,
-        "rating_delta": 0.02
+        "series": 15,
+        "average_rating": 1.36,
+        "average_adr": 84.3,
+        "recent_rating": 1.34,
+        "rating_delta": 0.15
       },
       "map_profile": [],
       "roster_eras": [
@@ -19048,12 +19078,12 @@
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
           "through_date": "2026-10-21",
-          "series": 14,
-          "wins": 11,
+          "series": 15,
+          "wins": 12,
           "losses": 3,
-          "win_rate": 0.786,
-          "average_rating": 1.33,
-          "average_adr": 83.2
+          "win_rate": 0.8,
+          "average_rating": 1.36,
+          "average_adr": 84.3
         }
       ],
       "kd_ratio_3m": null,
@@ -23061,12 +23091,12 @@
           "opponent_name": "Lavked",
           "team_name": "ex-6666",
           "won": false,
-          "kills": 36,
-          "deaths": 29,
-          "kd_ratio": 1.24,
-          "adr": 85.1,
-          "kast": 65.9,
-          "rating": 1.36,
+          "kills": 45,
+          "deaths": 41,
+          "kd_ratio": 1.1,
+          "adr": 80.9,
+          "kast": 65,
+          "rating": 1.17,
           "maps": 3
         },
         {
@@ -23125,8 +23155,8 @@
           "wins": 6,
           "losses": 4,
           "win_rate": 0.6,
-          "average_rating": 1.3,
-          "average_adr": 83.1
+          "average_rating": 1.28,
+          "average_adr": 82.7
         },
         {
           "team_name": "6666",
@@ -23157,10 +23187,10 @@
       },
       "form_summary": {
         "series": 14,
-        "average_rating": 1.3,
-        "average_adr": 82.2,
+        "average_rating": 1.29,
+        "average_adr": 81.9,
         "recent_rating": 1.3,
-        "rating_delta": 0
+        "rating_delta": 0.06
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -26657,12 +26687,12 @@
           "opponent_name": "ex-6666",
           "team_name": "Lavked",
           "won": true,
-          "kills": 34,
-          "deaths": 34,
-          "kd_ratio": 1,
-          "adr": 88.3,
-          "kast": 65.9,
-          "rating": 1.01,
+          "kills": 48,
+          "deaths": 47,
+          "kd_ratio": 1.02,
+          "adr": 88.2,
+          "kast": 68.3,
+          "rating": 1.08,
           "maps": 3
         },
         {
@@ -26691,7 +26721,7 @@
           "wins": 4,
           "losses": 2,
           "win_rate": 0.667,
-          "average_rating": 1.1,
+          "average_rating": 1.12,
           "average_adr": 82.9
         }
       ],
@@ -26712,10 +26742,10 @@
       },
       "form_summary": {
         "series": 6,
-        "average_rating": 1.1,
+        "average_rating": 1.12,
         "average_adr": 82.9,
-        "recent_rating": 1.21,
-        "rating_delta": 0.2
+        "recent_rating": 1.23,
+        "rating_delta": 0.23
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -27674,29 +27704,44 @@
           "kast": 65,
           "rating": 1.21,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399326",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 13,
+          "deaths": 17,
+          "kd_ratio": 0.76,
+          "adr": 76.7,
+          "kast": 72.7,
+          "rating": 1.01,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399322",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399326",
+        "date": "2026-10-21",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "The Last Resort",
         "team_name": "Black Phoenix",
-        "won": false,
+        "won": true,
         "kills": 13,
-        "deaths": 15,
-        "kd_ratio": 0.87,
-        "adr": 79.9,
-        "kast": 52.6,
-        "rating": 0.82,
-        "maps": 1
+        "deaths": 17,
+        "kd_ratio": 0.76,
+        "adr": 76.7,
+        "kast": 72.7,
+        "rating": 1.01,
+        "maps": 3
       },
       "form_summary": {
-        "series": 14,
+        "series": 15,
         "average_rating": 1.08,
-        "average_adr": 78,
-        "recent_rating": 1.08,
-        "rating_delta": 0.14
+        "average_adr": 77.9,
+        "recent_rating": 1.01,
+        "rating_delta": -0.04
       },
       "map_profile": [],
       "roster_eras": [
@@ -27704,12 +27749,12 @@
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
           "through_date": "2026-10-21",
-          "series": 14,
-          "wins": 11,
+          "series": 15,
+          "wins": 12,
           "losses": 3,
-          "win_rate": 0.786,
+          "win_rate": 0.8,
           "average_rating": 1.08,
-          "average_adr": 78
+          "average_adr": 77.9
         }
       ],
       "kd_ratio_3m": null,
@@ -34177,12 +34222,12 @@
           "opponent_name": "Lavked",
           "team_name": "ex-6666",
           "won": false,
-          "kills": 24,
-          "deaths": 26,
-          "kd_ratio": 0.92,
-          "adr": 64.6,
-          "kast": 75,
-          "rating": 0.97,
+          "kills": 27,
+          "deaths": 39,
+          "kd_ratio": 0.69,
+          "adr": 59,
+          "kast": 71.7,
+          "rating": 0.79,
           "maps": 3
         },
         {
@@ -34241,8 +34286,8 @@
           "wins": 6,
           "losses": 4,
           "win_rate": 0.6,
-          "average_rating": 1.02,
-          "average_adr": 67.7
+          "average_rating": 1.01,
+          "average_adr": 67.2
         },
         {
           "team_name": "6666",
@@ -34273,10 +34318,10 @@
       },
       "form_summary": {
         "series": 14,
-        "average_rating": 1.04,
-        "average_adr": 70.1,
+        "average_rating": 1.03,
+        "average_adr": 69.7,
         "recent_rating": 0.94,
-        "rating_delta": -0.3
+        "rating_delta": -0.24
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -36217,29 +36262,44 @@
           "kast": 85,
           "rating": 1.34,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399326",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 17,
+          "deaths": 12,
+          "kd_ratio": 1.42,
+          "adr": 80.2,
+          "kast": 72.7,
+          "rating": 1.34,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399322",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399326",
+        "date": "2026-10-21",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "The Last Resort",
         "team_name": "Black Phoenix",
-        "won": false,
-        "kills": 10,
-        "deaths": 16,
-        "kd_ratio": 0.62,
-        "adr": 64.5,
-        "kast": 63.2,
-        "rating": 0.69,
-        "maps": 1
+        "won": true,
+        "kills": 17,
+        "deaths": 12,
+        "kd_ratio": 1.42,
+        "adr": 80.2,
+        "kast": 72.7,
+        "rating": 1.34,
+        "maps": 3
       },
       "form_summary": {
-        "series": 14,
+        "series": 15,
         "average_rating": 1.2,
         "average_adr": 80.5,
-        "recent_rating": 1.09,
-        "rating_delta": -0.05
+        "recent_rating": 1.12,
+        "rating_delta": -0.09
       },
       "map_profile": [],
       "roster_eras": [
@@ -36247,10 +36307,10 @@
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
           "through_date": "2026-10-21",
-          "series": 14,
-          "wins": 11,
+          "series": 15,
+          "wins": 12,
           "losses": 3,
-          "win_rate": 0.786,
+          "win_rate": 0.8,
           "average_rating": 1.2,
           "average_adr": 80.5
         }
@@ -43977,29 +44037,44 @@
           "kast": 85,
           "rating": 1.32,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399326",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 17,
+          "deaths": 13,
+          "kd_ratio": 1.31,
+          "adr": 91.4,
+          "kast": 81.8,
+          "rating": 1.27,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399322",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399326",
+        "date": "2026-10-21",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Spirit Academy",
+        "opponent_name": "The Last Resort",
         "team_name": "Black Phoenix",
-        "won": false,
-        "kills": 7,
-        "deaths": 15,
-        "kd_ratio": 0.47,
-        "adr": 46.2,
-        "kast": 52.6,
-        "rating": 0.54,
-        "maps": 1
+        "won": true,
+        "kills": 17,
+        "deaths": 13,
+        "kd_ratio": 1.31,
+        "adr": 91.4,
+        "kast": 81.8,
+        "rating": 1.27,
+        "maps": 3
       },
       "form_summary": {
-        "series": 14,
-        "average_rating": 1.02,
-        "average_adr": 62.6,
-        "recent_rating": 0.9,
-        "rating_delta": -0.12
+        "series": 15,
+        "average_rating": 1.04,
+        "average_adr": 64.5,
+        "recent_rating": 1.04,
+        "rating_delta": 0.05
       },
       "map_profile": [],
       "roster_eras": [
@@ -44007,12 +44082,12 @@
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
           "through_date": "2026-10-21",
-          "series": 14,
-          "wins": 11,
+          "series": 15,
+          "wins": 12,
           "losses": 3,
-          "win_rate": 0.786,
-          "average_rating": 1.02,
-          "average_adr": 62.6
+          "win_rate": 0.8,
+          "average_rating": 1.04,
+          "average_adr": 64.5
         }
       ],
       "kd_ratio_3m": null,
@@ -45749,12 +45824,12 @@
           "opponent_name": "Lavked",
           "team_name": "ex-6666",
           "won": false,
-          "kills": 24,
-          "deaths": 33,
-          "kd_ratio": 0.73,
-          "adr": 67.1,
-          "kast": 65.9,
-          "rating": 0.85,
+          "kills": 31,
+          "deaths": 48,
+          "kd_ratio": 0.65,
+          "adr": 63.4,
+          "kast": 61.7,
+          "rating": 0.75,
           "maps": 3
         },
         {
@@ -45813,8 +45888,8 @@
           "wins": 6,
           "losses": 4,
           "win_rate": 0.6,
-          "average_rating": 1.04,
-          "average_adr": 67.8
+          "average_rating": 1.03,
+          "average_adr": 67.4
         },
         {
           "team_name": "6666",
@@ -45845,10 +45920,10 @@
       },
       "form_summary": {
         "series": 14,
-        "average_rating": 0.99,
-        "average_adr": 67.5,
+        "average_rating": 0.98,
+        "average_adr": 67.3,
         "recent_rating": 1,
-        "rating_delta": -0.05
+        "rating_delta": -0.02
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -58805,12 +58880,12 @@
           "opponent_name": "ex-6666",
           "team_name": "Lavked",
           "won": true,
-          "kills": 33,
-          "deaths": 32,
-          "kd_ratio": 1.03,
-          "adr": 83.5,
-          "kast": 72.7,
-          "rating": 1.12,
+          "kills": 57,
+          "deaths": 38,
+          "kd_ratio": 1.5,
+          "adr": 96.8,
+          "kast": 75,
+          "rating": 1.59,
           "maps": 3
         },
         {
@@ -58839,16 +58914,16 @@
           "wins": 4,
           "losses": 3,
           "win_rate": 0.571,
-          "average_rating": 1.06,
-          "average_adr": 77
+          "average_rating": 1.13,
+          "average_adr": 78.9
         }
       ],
       "form_summary": {
         "series": 7,
-        "average_rating": 1.06,
-        "average_adr": 77,
-        "recent_rating": 1.06,
-        "rating_delta": -0.12
+        "average_rating": 1.13,
+        "average_adr": 78.9,
+        "recent_rating": 1.21,
+        "rating_delta": 0.03
       },
       "timeline_entry": {
         "match_id": "hltv:2399491",
@@ -58965,12 +59040,12 @@
           "opponent_name": "ex-6666",
           "team_name": "Lavked",
           "won": true,
-          "kills": 21,
-          "deaths": 29,
-          "kd_ratio": 0.72,
-          "adr": 53.5,
-          "kast": 68.2,
-          "rating": 0.85,
+          "kills": 33,
+          "deaths": 39,
+          "kd_ratio": 0.85,
+          "adr": 63.9,
+          "kast": 71.7,
+          "rating": 0.96,
           "maps": 3
         },
         {
@@ -58999,16 +59074,16 @@
           "wins": 4,
           "losses": 3,
           "win_rate": 0.571,
-          "average_rating": 1.09,
-          "average_adr": 70.5
+          "average_rating": 1.11,
+          "average_adr": 71.9
         }
       ],
       "form_summary": {
         "series": 7,
-        "average_rating": 1.09,
-        "average_adr": 70.5,
-        "recent_rating": 1,
-        "rating_delta": -0.16
+        "average_rating": 1.11,
+        "average_adr": 71.9,
+        "recent_rating": 1.04,
+        "rating_delta": -0.12
       },
       "timeline_entry": {
         "match_id": "hltv:2399491",
@@ -59601,42 +59676,57 @@
           "kast": 68.4,
           "rating": 0.87,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399326",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "The Last Resort",
+          "won": false,
+          "kills": 12,
+          "deaths": 18,
+          "kd_ratio": 0.67,
+          "adr": 52.3,
+          "kast": 68.2,
+          "rating": 0.82,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399320",
-        "date": "2026-10-19",
+        "match_id": "hltv:2399326",
+        "date": "2026-10-21",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Black Phoenix",
         "team_name": "The Last Resort",
-        "won": true,
-        "kills": 21,
-        "deaths": 26,
-        "kd_ratio": 0.81,
-        "adr": 64.7,
-        "kast": 68.4,
-        "rating": 0.87,
+        "won": false,
+        "kills": 12,
+        "deaths": 18,
+        "kd_ratio": 0.67,
+        "adr": 52.3,
+        "kast": 68.2,
+        "rating": 0.82,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.84,
-        "average_adr": 67.5,
-        "recent_rating": 0.84,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.83,
+        "average_adr": 63.7,
+        "recent_rating": 0.75,
+        "rating_delta": -0.33
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-19",
-          "series": 3,
+          "through_date": "2026-10-21",
+          "series": 4,
           "wins": 1,
-          "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 0.84,
-          "average_adr": 67.5
+          "losses": 3,
+          "win_rate": 0.25,
+          "average_rating": 0.83,
+          "average_adr": 63.7
         }
       ],
       "kd_ratio_3m": null,
@@ -59701,42 +59791,57 @@
           "kast": 81.6,
           "rating": 1.2,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399326",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "The Last Resort",
+          "won": false,
+          "kills": 11,
+          "deaths": 20,
+          "kd_ratio": 0.55,
+          "adr": 54.6,
+          "kast": 54.5,
+          "rating": 0.83,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399320",
-        "date": "2026-10-19",
+        "match_id": "hltv:2399326",
+        "date": "2026-10-21",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Black Phoenix",
         "team_name": "The Last Resort",
-        "won": true,
-        "kills": 32,
-        "deaths": 24,
-        "kd_ratio": 1.33,
-        "adr": 94.4,
-        "kast": 81.6,
-        "rating": 1.2,
+        "won": false,
+        "kills": 11,
+        "deaths": 20,
+        "kd_ratio": 0.55,
+        "adr": 54.6,
+        "kast": 54.5,
+        "rating": 0.83,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 0.95,
-        "average_adr": 70.2,
-        "recent_rating": 0.95,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.92,
+        "average_adr": 66.3,
+        "recent_rating": 0.92,
+        "rating_delta": 0
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-19",
-          "series": 3,
+          "through_date": "2026-10-21",
+          "series": 4,
           "wins": 1,
-          "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 0.95,
-          "average_adr": 70.2
+          "losses": 3,
+          "win_rate": 0.25,
+          "average_rating": 0.92,
+          "average_adr": 66.3
         }
       ],
       "kd_ratio_3m": null,
@@ -59801,42 +59906,57 @@
           "kast": 81.6,
           "rating": 1.29,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399326",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "The Last Resort",
+          "won": false,
+          "kills": 15,
+          "deaths": 18,
+          "kd_ratio": 0.83,
+          "adr": 81.5,
+          "kast": 54.5,
+          "rating": 0.92,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399320",
-        "date": "2026-10-19",
+        "match_id": "hltv:2399326",
+        "date": "2026-10-21",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Black Phoenix",
         "team_name": "The Last Resort",
-        "won": true,
-        "kills": 23,
+        "won": false,
+        "kills": 15,
         "deaths": 18,
-        "kd_ratio": 1.28,
-        "adr": 56.9,
-        "kast": 81.6,
-        "rating": 1.29,
+        "kd_ratio": 0.83,
+        "adr": 81.5,
+        "kast": 54.5,
+        "rating": 0.92,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.07,
-        "average_adr": 65.7,
-        "recent_rating": 1.07,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.04,
+        "average_adr": 69.7,
+        "recent_rating": 1.01,
+        "rating_delta": -0.1
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-19",
-          "series": 3,
+          "through_date": "2026-10-21",
+          "series": 4,
           "wins": 1,
-          "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 1.07,
-          "average_adr": 65.7
+          "losses": 3,
+          "win_rate": 0.25,
+          "average_rating": 1.04,
+          "average_adr": 69.7
         }
       ],
       "kd_ratio_3m": null,
@@ -59901,42 +60021,57 @@
           "kast": 76.3,
           "rating": 1.48,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399326",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "The Last Resort",
+          "won": false,
+          "kills": 11,
+          "deaths": 18,
+          "kd_ratio": 0.61,
+          "adr": 62.3,
+          "kast": 54.5,
+          "rating": 0.89,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399320",
-        "date": "2026-10-19",
+        "match_id": "hltv:2399326",
+        "date": "2026-10-21",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Black Phoenix",
         "team_name": "The Last Resort",
-        "won": true,
-        "kills": 35,
-        "deaths": 23,
-        "kd_ratio": 1.52,
-        "adr": 95.9,
-        "kast": 76.3,
-        "rating": 1.48,
+        "won": false,
+        "kills": 11,
+        "deaths": 18,
+        "kd_ratio": 0.61,
+        "adr": 62.3,
+        "kast": 54.5,
+        "rating": 0.89,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.03,
-        "average_adr": 72.6,
-        "recent_rating": 1.03,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 0.99,
+        "average_adr": 70,
+        "recent_rating": 1.09,
+        "rating_delta": 0.38
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-19",
-          "series": 3,
+          "through_date": "2026-10-21",
+          "series": 4,
           "wins": 1,
-          "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 1.03,
-          "average_adr": 72.6
+          "losses": 3,
+          "win_rate": 0.25,
+          "average_rating": 0.99,
+          "average_adr": 70
         }
       ],
       "kd_ratio_3m": null,
@@ -60001,42 +60136,57 @@
           "kast": 71.1,
           "rating": 1.53,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399326",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "The Last Resort",
+          "won": false,
+          "kills": 16,
+          "deaths": 18,
+          "kd_ratio": 0.89,
+          "adr": 85.4,
+          "kast": 77.3,
+          "rating": 1.18,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399320",
-        "date": "2026-10-19",
+        "match_id": "hltv:2399326",
+        "date": "2026-10-21",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Black Phoenix",
         "team_name": "The Last Resort",
-        "won": true,
-        "kills": 40,
-        "deaths": 23,
-        "kd_ratio": 1.74,
-        "adr": 107.2,
-        "kast": 71.1,
-        "rating": 1.53,
+        "won": false,
+        "kills": 16,
+        "deaths": 18,
+        "kd_ratio": 0.89,
+        "adr": 85.4,
+        "kast": 77.3,
+        "rating": 1.18,
         "maps": 3
       },
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.25,
-        "average_adr": 88.3,
-        "recent_rating": 1.25,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.23,
+        "average_adr": 87.6,
+        "recent_rating": 1.29,
+        "rating_delta": 0.23
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "The Last Resort",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-19",
-          "series": 3,
+          "through_date": "2026-10-21",
+          "series": 4,
           "wins": 1,
-          "losses": 2,
-          "win_rate": 0.333,
-          "average_rating": 1.25,
-          "average_adr": 88.3
+          "losses": 3,
+          "win_rate": 0.25,
+          "average_rating": 1.23,
+          "average_adr": 87.6
         }
       ],
       "kd_ratio_3m": null,
@@ -66979,12 +67129,12 @@
           "opponent_name": "ex-6666",
           "team_name": "Lavked",
           "won": true,
-          "kills": 25,
-          "deaths": 31,
-          "kd_ratio": 0.81,
-          "adr": 65.1,
-          "kast": 61.4,
-          "rating": 0.88,
+          "kills": 32,
+          "deaths": 41,
+          "kd_ratio": 0.78,
+          "adr": 64.4,
+          "kast": 63.3,
+          "rating": 0.89,
           "maps": 3
         },
         {
@@ -67022,7 +67172,7 @@
       "form_summary": {
         "series": 3,
         "average_rating": 1.06,
-        "average_adr": 75.1,
+        "average_adr": 74.9,
         "recent_rating": 1.06,
         "rating_delta": null
       },
@@ -67035,8 +67185,8 @@
           "wins": 1,
           "losses": 1,
           "win_rate": 0.5,
-          "average_rating": 0.99,
-          "average_adr": 69.3
+          "average_rating": 1,
+          "average_adr": 68.9
         },
         {
           "team_name": "DONSTU",
@@ -67944,7 +68094,7 @@
       "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-21T18:38:52Z",
+  "lineups_updated_at_utc": "2026-10-21T22:22:57Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-21",
   "history_profile_count": 53,
