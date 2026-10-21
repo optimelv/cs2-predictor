@@ -2240,5 +2240,10 @@
     "name": "EK",
     "logo_url": "https://liquipedia.net/commons/images/thumb/1/16/Elite_Klan_lightmode.png/49px-Elite_Klan_lightmode.png",
     "source": "Liquipedia"
+  },
+  "barca": {
+    "name": "BARCA",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/53/BARCA_esports_allmode.png/40px-BARCA_esports_allmode.png",
+    "source": "Liquipedia"
   }
 }
