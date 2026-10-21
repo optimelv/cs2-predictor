@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4050,
+    "matches": 4053,
     "maps": 2924,
     "lineup_rows": 9654,
     "source_match_ids": 976
@@ -173,6 +173,72 @@
           "uli"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:67eeb5b261d364c4f844",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T11:00:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "HEROIC",
+      "team2_name": "SINNERS",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "SINNERS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:d4b1457d26c74a1c3802",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T11:00:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "FaZe",
+      "team2_name": "JiJieHao",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "JiJieHao",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:48ed2955990d215fd26d",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T11:10:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "BC.Game",
+      "team2_name": "Nexus",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BC.Game",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
     },
     {
       "match_id": "hltv:2399485",
