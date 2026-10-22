@@ -11780,6 +11780,21 @@
           "kast": 83.7,
           "rating": 1.34,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399496",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "6yuBoJlbl",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 58,
+          "deaths": 44,
+          "kd_ratio": 1.32,
+          "adr": 83.4,
+          "kast": 70.4,
+          "rating": 1.32,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -11788,12 +11803,12 @@
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
           "through_date": "2026-10-22",
-          "series": 12,
+          "series": 13,
           "wins": 7,
-          "losses": 5,
-          "win_rate": 0.583,
+          "losses": 6,
+          "win_rate": 0.538,
           "average_rating": 1.35,
-          "average_adr": 84.5
+          "average_adr": 84.4
         },
         {
           "team_name": "6666",
@@ -11808,26 +11823,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399329",
+        "match_id": "hltv:2399496",
         "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Acend",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "6yuBoJlbl",
         "team_name": "ex-6666",
         "won": false,
-        "kills": 43,
-        "deaths": 33,
-        "kd_ratio": 1.3,
-        "adr": 85.6,
-        "kast": 83.7,
-        "rating": 1.34,
+        "kills": 58,
+        "deaths": 44,
+        "kd_ratio": 1.32,
+        "adr": 83.4,
+        "kast": 70.4,
+        "rating": 1.32,
         "maps": 3
       },
       "form_summary": {
-        "series": 16,
+        "series": 17,
         "average_rating": 1.33,
         "average_adr": 83.1,
-        "recent_rating": 1.47,
-        "rating_delta": 0.23
+        "recent_rating": 1.39,
+        "rating_delta": 0.01
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -14728,6 +14743,21 @@
           "kast": 63.3,
           "rating": 1.01,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399496",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "6yuBoJlbl",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 46,
+          "deaths": 49,
+          "kd_ratio": 0.94,
+          "adr": 73.9,
+          "kast": 63.4,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -14736,12 +14766,12 @@
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
           "through_date": "2026-10-22",
-          "series": 12,
+          "series": 13,
           "wins": 7,
-          "losses": 5,
-          "win_rate": 0.583,
+          "losses": 6,
+          "win_rate": 0.538,
           "average_rating": 1.09,
-          "average_adr": 79.6
+          "average_adr": 79.1
         },
         {
           "team_name": "6666",
@@ -14756,26 +14786,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399329",
+        "match_id": "hltv:2399496",
         "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Acend",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "6yuBoJlbl",
         "team_name": "ex-6666",
         "won": false,
-        "kills": 36,
-        "deaths": 37,
-        "kd_ratio": 0.97,
-        "adr": 82.6,
-        "kast": 63.3,
-        "rating": 1.01,
+        "kills": 46,
+        "deaths": 49,
+        "kd_ratio": 0.94,
+        "adr": 73.9,
+        "kast": 63.4,
+        "rating": 1.04,
         "maps": 3
       },
       "form_summary": {
-        "series": 16,
+        "series": 17,
         "average_rating": 1.09,
-        "average_adr": 79.6,
-        "recent_rating": 0.93,
-        "rating_delta": -0.12
+        "average_adr": 79.3,
+        "recent_rating": 0.98,
+        "rating_delta": -0.02
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -18325,7 +18355,7 @@
     },
     {
       "player_id": "hltv:23598",
-      "nickname": "noni",
+      "nickname": "Substitute",
       "team_name": "Rune Eaters",
       "rating_3_0": 1.09,
       "maps_3m": 68,
@@ -18341,9 +18371,37 @@
       },
       "hltv_player_id": "23598",
       "source_url": "https://www.hltv.org/player/23598/noni",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399330",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Rune Eaters",
+          "won": false,
+          "kills": 18,
+          "deaths": 14,
+          "kd_ratio": 1.29,
+          "adr": 85.7,
+          "kast": 69.6,
+          "rating": 1.43,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Rune Eaters",
+          "from_date": "2026-10-22",
+          "through_date": "2026-10-22",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.43,
+          "average_adr": 85.7
+        }
+      ],
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
@@ -18351,11 +18409,26 @@
       "stats_fetched_at_utc": "2026-10-14T07:31:01.324Z",
       "stats_source_url": "https://www.hltv.org/player/23598/noni",
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 1.43,
+        "average_adr": 85.7,
+        "recent_rating": 1.43,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399330",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Rune Eaters",
+        "won": false,
+        "kills": 18,
+        "deaths": 14,
+        "kd_ratio": 1.29,
+        "adr": 85.7,
+        "kast": 69.6,
+        "rating": 1.43,
+        "maps": 3
       }
     },
     {
@@ -18842,21 +18915,6 @@
       "source_url": "https://www.hltv.org/player/22676/karnez",
       "form_timeline": [
         {
-          "match_id": "hltv:2398395",
-          "date": "2026-10-05",
-          "event_name": "CCT 2026 Europe Series 10",
-          "opponent_name": "PCIFIC",
-          "team_name": "Black Phoenix",
-          "won": true,
-          "kills": 19,
-          "deaths": 7,
-          "kd_ratio": 2.71,
-          "adr": 114.5,
-          "kast": 82.4,
-          "rating": 2.01,
-          "maps": 3
-        },
-        {
           "match_id": "hltv:2399297",
           "date": "2026-10-13",
           "event_name": "CCT 2026 Europe Series 11",
@@ -19058,12 +19116,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "Black Phoenix",
           "won": true,
-          "kills": 19,
-          "deaths": 13,
-          "kd_ratio": 1.46,
-          "adr": 95.4,
-          "kast": 77.3,
-          "rating": 1.31,
+          "kills": 29,
+          "deaths": 31,
+          "kd_ratio": 0.94,
+          "adr": 76.5,
+          "kast": 68.2,
+          "rating": 0.95,
           "maps": 3
         },
         {
@@ -19110,6 +19168,21 @@
           "kast": 83.3,
           "rating": 1.44,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399845",
+          "date": "2026-10-22",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "ex-CYBERSHOKE",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 22,
+          "deaths": 26,
+          "kd_ratio": 0.85,
+          "adr": 84.2,
+          "kast": 76.9,
+          "rating": 1.02,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -19129,23 +19202,23 @@
       },
       "form_summary": {
         "series": 18,
-        "average_rating": 1.27,
-        "average_adr": 84.1,
-        "recent_rating": 1.06,
-        "rating_delta": -0.2
+        "average_rating": 1.2,
+        "average_adr": 81.4,
+        "recent_rating": 1.19,
+        "rating_delta": 0.22
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
-          "from_date": "2026-10-05",
+          "from_date": "2026-10-13",
           "through_date": "2026-10-22",
           "series": 18,
           "wins": 14,
           "losses": 4,
           "win_rate": 0.778,
-          "average_rating": 1.27,
-          "average_adr": 84.1
+          "average_rating": 1.2,
+          "average_adr": 81.4
         }
       ],
       "kd_ratio_3m": null,
@@ -19174,21 +19247,6 @@
       "hltv_player_id": "24326",
       "source_url": "https://www.hltv.org/player/24326/topo",
       "form_timeline": [
-        {
-          "match_id": "hltv:2398395",
-          "date": "2026-10-05",
-          "event_name": "CCT 2026 Europe Series 10",
-          "opponent_name": "PCIFIC",
-          "team_name": "Black Phoenix",
-          "won": true,
-          "kills": 16,
-          "deaths": 10,
-          "kd_ratio": 1.6,
-          "adr": 101.7,
-          "kast": 88.2,
-          "rating": 1.47,
-          "maps": 3
-        },
         {
           "match_id": "hltv:2399297",
           "date": "2026-10-13",
@@ -19391,12 +19449,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "Black Phoenix",
           "won": true,
-          "kills": 26,
-          "deaths": 12,
-          "kd_ratio": 2.17,
-          "adr": 100.7,
-          "kast": 95.5,
-          "rating": 1.7,
+          "kills": 47,
+          "deaths": 26,
+          "kd_ratio": 1.81,
+          "adr": 94.1,
+          "kast": 79.5,
+          "rating": 1.55,
           "maps": 3
         },
         {
@@ -19443,6 +19501,21 @@
           "kast": 88.9,
           "rating": 2.26,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399845",
+          "date": "2026-10-22",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "ex-CYBERSHOKE",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 31,
+          "deaths": 24,
+          "kd_ratio": 1.29,
+          "adr": 73.8,
+          "kast": 79.5,
+          "rating": 1.29,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -19462,23 +19535,23 @@
       },
       "form_summary": {
         "series": 18,
-        "average_rating": 1.38,
-        "average_adr": 85.6,
-        "recent_rating": 1.48,
-        "rating_delta": 0.14
+        "average_rating": 1.36,
+        "average_adr": 83.7,
+        "recent_rating": 1.68,
+        "rating_delta": 0.45
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
-          "from_date": "2026-10-05",
+          "from_date": "2026-10-13",
           "through_date": "2026-10-22",
           "series": 18,
           "wins": 14,
           "losses": 4,
           "win_rate": 0.778,
-          "average_rating": 1.38,
-          "average_adr": 85.6
+          "average_rating": 1.36,
+          "average_adr": 83.7
         }
       ],
       "kd_ratio_3m": null,
@@ -23613,6 +23686,21 @@
           "kast": 69.4,
           "rating": 1.03,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399496",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "6yuBoJlbl",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 50,
+          "deaths": 50,
+          "kd_ratio": 1,
+          "adr": 68.4,
+          "kast": 71.8,
+          "rating": 0.98,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -23621,12 +23709,12 @@
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
           "through_date": "2026-10-22",
-          "series": 12,
+          "series": 13,
           "wins": 7,
-          "losses": 5,
-          "win_rate": 0.583,
-          "average_rating": 1.32,
-          "average_adr": 84.9
+          "losses": 6,
+          "win_rate": 0.538,
+          "average_rating": 1.3,
+          "average_adr": 83.6
         },
         {
           "team_name": "6666",
@@ -23641,26 +23729,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399329",
+        "match_id": "hltv:2399496",
         "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Acend",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "6yuBoJlbl",
         "team_name": "ex-6666",
         "won": false,
-        "kills": 32,
-        "deaths": 36,
-        "kd_ratio": 0.89,
-        "adr": 76.8,
-        "kast": 69.4,
-        "rating": 1.03,
+        "kills": 50,
+        "deaths": 50,
+        "kd_ratio": 1,
+        "adr": 68.4,
+        "kast": 71.8,
+        "rating": 0.98,
         "maps": 3
       },
       "form_summary": {
-        "series": 16,
-        "average_rating": 1.32,
-        "average_adr": 83.6,
-        "recent_rating": 1.64,
-        "rating_delta": 0.57
+        "series": 17,
+        "average_rating": 1.3,
+        "average_adr": 82.7,
+        "recent_rating": 1.35,
+        "rating_delta": 0.05
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -24496,7 +24584,7 @@
     },
     {
       "player_id": "hltv:23599",
-      "nickname": "forkyz",
+      "nickname": "Substitute",
       "team_name": "Rune Eaters",
       "rating_3_0": 1.06,
       "maps_3m": 68,
@@ -24512,9 +24600,37 @@
       },
       "hltv_player_id": "23599",
       "source_url": "https://www.hltv.org/player/23599/forkyz",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399330",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Rune Eaters",
+          "won": false,
+          "kills": 14,
+          "deaths": 17,
+          "kd_ratio": 0.82,
+          "adr": 66.7,
+          "kast": 52.2,
+          "rating": 0.78,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Rune Eaters",
+          "from_date": "2026-10-22",
+          "through_date": "2026-10-22",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.78,
+          "average_adr": 66.7
+        }
+      ],
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
@@ -24522,11 +24638,26 @@
       "stats_fetched_at_utc": "2026-10-14T07:31:01.325Z",
       "stats_source_url": "https://www.hltv.org/player/23599/forkyz",
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 0.78,
+        "average_adr": 66.7,
+        "recent_rating": 0.78,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399330",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Rune Eaters",
+        "won": false,
+        "kills": 14,
+        "deaths": 17,
+        "kd_ratio": 0.82,
+        "adr": 66.7,
+        "kast": 52.2,
+        "rating": 0.78,
+        "maps": 3
       }
     },
     {
@@ -28039,21 +28170,6 @@
       "source_url": "https://www.hltv.org/player/21513/4x1s",
       "form_timeline": [
         {
-          "match_id": "hltv:2398395",
-          "date": "2026-10-05",
-          "event_name": "CCT 2026 Europe Series 10",
-          "opponent_name": "PCIFIC",
-          "team_name": "Black Phoenix",
-          "won": true,
-          "kills": 8,
-          "deaths": 12,
-          "kd_ratio": 0.67,
-          "adr": 73.6,
-          "kast": 76.5,
-          "rating": 0.94,
-          "maps": 3
-        },
-        {
           "match_id": "hltv:2399297",
           "date": "2026-10-13",
           "event_name": "CCT 2026 Europe Series 11",
@@ -28255,12 +28371,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "Black Phoenix",
           "won": true,
-          "kills": 13,
-          "deaths": 17,
-          "kd_ratio": 0.76,
-          "adr": 76.7,
-          "kast": 72.7,
-          "rating": 1.01,
+          "kills": 25,
+          "deaths": 32,
+          "kd_ratio": 0.78,
+          "adr": 70.7,
+          "kast": 68.2,
+          "rating": 0.91,
           "maps": 3
         },
         {
@@ -28307,6 +28423,21 @@
           "kast": 72.2,
           "rating": 1.2,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399845",
+          "date": "2026-10-22",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "ex-CYBERSHOKE",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 26,
+          "deaths": 26,
+          "kd_ratio": 1,
+          "adr": 69.2,
+          "kast": 69.2,
+          "rating": 1.08,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -28327,22 +28458,22 @@
       "form_summary": {
         "series": 18,
         "average_rating": 1.09,
-        "average_adr": 78.4,
-        "recent_rating": 1.17,
-        "rating_delta": 0.15
+        "average_adr": 77.8,
+        "recent_rating": 1.22,
+        "rating_delta": 0.21
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
-          "from_date": "2026-10-05",
+          "from_date": "2026-10-13",
           "through_date": "2026-10-22",
           "series": 18,
           "wins": 14,
           "losses": 4,
           "win_rate": 0.778,
           "average_rating": 1.09,
-          "average_adr": 78.4
+          "average_adr": 77.8
         }
       ],
       "kd_ratio_3m": null,
@@ -35036,6 +35167,21 @@
           "kast": 55.1,
           "rating": 0.62,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399496",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "6yuBoJlbl",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 42,
+          "deaths": 46,
+          "kd_ratio": 0.91,
+          "adr": 64.6,
+          "kast": 67.6,
+          "rating": 0.97,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -35044,12 +35190,12 @@
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
           "through_date": "2026-10-22",
-          "series": 12,
+          "series": 13,
           "wins": 7,
-          "losses": 5,
-          "win_rate": 0.583,
-          "average_rating": 1.01,
-          "average_adr": 67.5
+          "losses": 6,
+          "win_rate": 0.538,
+          "average_rating": 1,
+          "average_adr": 67.2
         },
         {
           "team_name": "6666",
@@ -35064,26 +35210,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399329",
+        "match_id": "hltv:2399496",
         "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Acend",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "6yuBoJlbl",
         "team_name": "ex-6666",
         "won": false,
-        "kills": 24,
-        "deaths": 37,
-        "kd_ratio": 0.65,
-        "adr": 55.2,
-        "kast": 55.1,
-        "rating": 0.62,
+        "kills": 42,
+        "deaths": 46,
+        "kd_ratio": 0.91,
+        "adr": 64.6,
+        "kast": 67.6,
+        "rating": 0.97,
         "maps": 3
       },
       "form_summary": {
-        "series": 16,
-        "average_rating": 1.03,
-        "average_adr": 69.6,
-        "recent_rating": 1.15,
-        "rating_delta": 0.42
+        "series": 17,
+        "average_rating": 1.02,
+        "average_adr": 69.3,
+        "recent_rating": 0.99,
+        "rating_delta": 0.05
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -36043,7 +36189,7 @@
     },
     {
       "player_id": "hltv:22538",
-      "nickname": "her1tage",
+      "nickname": "Substitute",
       "team_name": "Rune Eaters",
       "rating_3_0": 1.01,
       "maps_3m": 68,
@@ -36059,9 +36205,37 @@
       },
       "hltv_player_id": "22538",
       "source_url": "https://www.hltv.org/player/22538/her1tage",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399330",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Rune Eaters",
+          "won": false,
+          "kills": 19,
+          "deaths": 15,
+          "kd_ratio": 1.27,
+          "adr": 93.7,
+          "kast": 73.9,
+          "rating": 1.25,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Rune Eaters",
+          "from_date": "2026-10-22",
+          "through_date": "2026-10-22",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.25,
+          "average_adr": 93.7
+        }
+      ],
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
@@ -36069,11 +36243,26 @@
       "stats_fetched_at_utc": "2026-10-14T07:31:01.325Z",
       "stats_source_url": "https://www.hltv.org/player/22538/her1tage",
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 1.25,
+        "average_adr": 93.7,
+        "recent_rating": 1.25,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399330",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Rune Eaters",
+        "won": false,
+        "kills": 19,
+        "deaths": 15,
+        "kd_ratio": 1.27,
+        "adr": 93.7,
+        "kast": 73.9,
+        "rating": 1.25,
+        "maps": 3
       }
     },
     {
@@ -36816,21 +37005,6 @@
       "source_url": "https://www.hltv.org/player/24824/mrcreed",
       "form_timeline": [
         {
-          "match_id": "hltv:2398395",
-          "date": "2026-10-05",
-          "event_name": "CCT 2026 Europe Series 10",
-          "opponent_name": "PCIFIC",
-          "team_name": "Black Phoenix",
-          "won": true,
-          "kills": 16,
-          "deaths": 11,
-          "kd_ratio": 1.45,
-          "adr": 93.1,
-          "kast": 76.5,
-          "rating": 1.46,
-          "maps": 3
-        },
-        {
           "match_id": "hltv:2399297",
           "date": "2026-10-13",
           "event_name": "CCT 2026 Europe Series 11",
@@ -37032,12 +37206,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "Black Phoenix",
           "won": true,
-          "kills": 17,
-          "deaths": 12,
-          "kd_ratio": 1.42,
-          "adr": 80.2,
+          "kills": 30,
+          "deaths": 25,
+          "kd_ratio": 1.2,
+          "adr": 70.7,
           "kast": 72.7,
-          "rating": 1.34,
+          "rating": 1.14,
           "maps": 3
         },
         {
@@ -37084,6 +37258,21 @@
           "kast": 83.3,
           "rating": 0.78,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399845",
+          "date": "2026-10-22",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "ex-CYBERSHOKE",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 37,
+          "deaths": 26,
+          "kd_ratio": 1.42,
+          "adr": 94,
+          "kast": 79.5,
+          "rating": 1.58,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -37104,22 +37293,22 @@
       "form_summary": {
         "series": 18,
         "average_rating": 1.14,
-        "average_adr": 77.4,
-        "recent_rating": 0.82,
-        "rating_delta": -0.3
+        "average_adr": 76.9,
+        "recent_rating": 1.14,
+        "rating_delta": 0.11
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
-          "from_date": "2026-10-05",
+          "from_date": "2026-10-13",
           "through_date": "2026-10-22",
           "series": 18,
           "wins": 14,
           "losses": 4,
           "win_rate": 0.778,
           "average_rating": 1.14,
-          "average_adr": 77.4
+          "average_adr": 76.9
         }
       ],
       "kd_ratio_3m": null,
@@ -40641,7 +40830,7 @@
     },
     {
       "player_id": "hltv:23302",
-      "nickname": "bluewh1te",
+      "nickname": "Substitute",
       "team_name": "6yuBoJlbl",
       "rating_3_0": 0.98,
       "maps_3m": 84,
@@ -40672,6 +40861,36 @@
           "kast": 83.7,
           "rating": 1.47,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399107",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "mellren",
+          "team_name": "BET-M",
+          "won": false,
+          "kills": 35,
+          "deaths": 31,
+          "kd_ratio": 1.13,
+          "adr": 82.9,
+          "kast": 69.8,
+          "rating": 1.08,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399496",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "ex-6666",
+          "team_name": "6yuBoJlbl",
+          "won": true,
+          "kills": 42,
+          "deaths": 46,
+          "kd_ratio": 0.91,
+          "adr": 62.4,
+          "kast": 59.2,
+          "rating": 0.96,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -40679,13 +40898,24 @@
         {
           "team_name": "BET-M",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
+          "through_date": "2026-10-22",
+          "series": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.27,
+          "average_adr": 82.2
+        },
+        {
+          "team_name": "6yuBoJlbl",
+          "from_date": "2026-10-22",
+          "through_date": "2026-10-22",
           "series": 1,
           "wins": 1,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.47,
-          "average_adr": 81.4
+          "average_rating": 0.96,
+          "average_adr": 62.4
         }
       ],
       "kd_ratio_3m": null,
@@ -40695,11 +40925,26 @@
       "stats_fetched_at_utc": "2026-10-14T07:31:01.318Z",
       "stats_source_url": "https://www.hltv.org/player/23302/bluewh1te",
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.47,
-        "average_adr": 81.4,
-        "recent_rating": 1.47,
+        "series": 3,
+        "average_rating": 1.17,
+        "average_adr": 75.6,
+        "recent_rating": 1.17,
         "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399496",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "ex-6666",
+        "team_name": "6yuBoJlbl",
+        "won": true,
+        "kills": 42,
+        "deaths": 46,
+        "kd_ratio": 0.91,
+        "adr": 62.4,
+        "kast": 59.2,
+        "rating": 0.96,
+        "maps": 3
       }
     },
     {
@@ -44724,21 +44969,6 @@
       "source_url": "https://www.hltv.org/player/25349/salazar",
       "form_timeline": [
         {
-          "match_id": "hltv:2398395",
-          "date": "2026-10-05",
-          "event_name": "CCT 2026 Europe Series 10",
-          "opponent_name": "PCIFIC",
-          "team_name": "Black Phoenix",
-          "won": true,
-          "kills": 10,
-          "deaths": 7,
-          "kd_ratio": 1.43,
-          "adr": 42.9,
-          "kast": 82.4,
-          "rating": 0.97,
-          "maps": 3
-        },
-        {
           "match_id": "hltv:2399297",
           "date": "2026-10-13",
           "event_name": "CCT 2026 Europe Series 11",
@@ -44940,12 +45170,12 @@
           "opponent_name": "The Last Resort",
           "team_name": "Black Phoenix",
           "won": true,
-          "kills": 17,
-          "deaths": 13,
-          "kd_ratio": 1.31,
-          "adr": 91.4,
-          "kast": 81.8,
-          "rating": 1.27,
+          "kills": 41,
+          "deaths": 28,
+          "kd_ratio": 1.46,
+          "adr": 102.1,
+          "kast": 79.5,
+          "rating": 1.57,
           "maps": 3
         },
         {
@@ -44992,6 +45222,21 @@
           "kast": 83.3,
           "rating": 1.49,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399845",
+          "date": "2026-10-22",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "ex-CYBERSHOKE",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 33,
+          "deaths": 22,
+          "kd_ratio": 1.5,
+          "adr": 75.6,
+          "kast": 71.8,
+          "rating": 1.29,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -45011,23 +45256,23 @@
       },
       "form_summary": {
         "series": 18,
-        "average_rating": 1.02,
-        "average_adr": 65,
-        "recent_rating": 0.93,
-        "rating_delta": -0.12
+        "average_rating": 1.05,
+        "average_adr": 67.4,
+        "recent_rating": 1.23,
+        "rating_delta": 0.13
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
-          "from_date": "2026-10-05",
+          "from_date": "2026-10-13",
           "through_date": "2026-10-22",
           "series": 18,
           "wins": 14,
           "losses": 4,
           "win_rate": 0.778,
-          "average_rating": 1.02,
-          "average_adr": 65
+          "average_rating": 1.05,
+          "average_adr": 67.4
         }
       ],
       "kd_ratio_3m": null,
@@ -46861,6 +47106,21 @@
           "kast": 67.3,
           "rating": 0.81,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399496",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "6yuBoJlbl",
+          "team_name": "ex-6666",
+          "won": false,
+          "kills": 39,
+          "deaths": 51,
+          "kd_ratio": 0.76,
+          "adr": 63.7,
+          "kast": 70.4,
+          "rating": 0.89,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -46869,12 +47129,12 @@
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
           "through_date": "2026-10-22",
-          "series": 12,
+          "series": 13,
           "wins": 7,
-          "losses": 5,
-          "win_rate": 0.583,
-          "average_rating": 1.07,
-          "average_adr": 67.4
+          "losses": 6,
+          "win_rate": 0.538,
+          "average_rating": 1.05,
+          "average_adr": 67.1
         },
         {
           "team_name": "6666",
@@ -46889,26 +47149,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399329",
+        "match_id": "hltv:2399496",
         "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Acend",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "6yuBoJlbl",
         "team_name": "ex-6666",
         "won": false,
-        "kills": 23,
-        "deaths": 32,
-        "kd_ratio": 0.72,
-        "adr": 54.9,
-        "kast": 67.3,
-        "rating": 0.81,
+        "kills": 39,
+        "deaths": 51,
+        "kd_ratio": 0.76,
+        "adr": 63.7,
+        "kast": 70.4,
+        "rating": 0.89,
         "maps": 3
       },
       "form_summary": {
-        "series": 16,
-        "average_rating": 1.02,
-        "average_adr": 67.2,
-        "recent_rating": 1.2,
-        "rating_delta": 0.31
+        "series": 17,
+        "average_rating": 1.01,
+        "average_adr": 67,
+        "recent_rating": 1.14,
+        "rating_delta": 0.15
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -60744,12 +61004,12 @@
           "opponent_name": "Black Phoenix",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 12,
-          "deaths": 18,
-          "kd_ratio": 0.67,
-          "adr": 52.3,
-          "kast": 68.2,
-          "rating": 0.82,
+          "kills": 27,
+          "deaths": 35,
+          "kd_ratio": 0.77,
+          "adr": 56.2,
+          "kast": 63.6,
+          "rating": 0.81,
           "maps": 3
         }
       ],
@@ -60760,18 +61020,18 @@
         "opponent_name": "Black Phoenix",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 12,
-        "deaths": 18,
-        "kd_ratio": 0.67,
-        "adr": 52.3,
-        "kast": 68.2,
-        "rating": 0.82,
+        "kills": 27,
+        "deaths": 35,
+        "kd_ratio": 0.77,
+        "adr": 56.2,
+        "kast": 63.6,
+        "rating": 0.81,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
         "average_rating": 0.83,
-        "average_adr": 63.7,
+        "average_adr": 64.7,
         "recent_rating": 0.75,
         "rating_delta": -0.33
       },
@@ -60786,7 +61046,7 @@
           "losses": 3,
           "win_rate": 0.25,
           "average_rating": 0.83,
-          "average_adr": 63.7
+          "average_adr": 64.7
         }
       ],
       "kd_ratio_3m": null,
@@ -60859,12 +61119,12 @@
           "opponent_name": "Black Phoenix",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 11,
-          "deaths": 20,
-          "kd_ratio": 0.55,
-          "adr": 54.6,
-          "kast": 54.5,
-          "rating": 0.83,
+          "kills": 22,
+          "deaths": 37,
+          "kd_ratio": 0.59,
+          "adr": 52.6,
+          "kast": 61.4,
+          "rating": 0.64,
           "maps": 3
         }
       ],
@@ -60875,20 +61135,20 @@
         "opponent_name": "Black Phoenix",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 11,
-        "deaths": 20,
-        "kd_ratio": 0.55,
-        "adr": 54.6,
-        "kast": 54.5,
-        "rating": 0.83,
+        "kills": 22,
+        "deaths": 37,
+        "kd_ratio": 0.59,
+        "adr": 52.6,
+        "kast": 61.4,
+        "rating": 0.64,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 0.92,
-        "average_adr": 66.3,
-        "recent_rating": 0.92,
-        "rating_delta": 0
+        "average_rating": 0.88,
+        "average_adr": 65.8,
+        "recent_rating": 0.86,
+        "rating_delta": -0.06
       },
       "map_profile": [],
       "roster_eras": [
@@ -60900,8 +61160,8 @@
           "wins": 1,
           "losses": 3,
           "win_rate": 0.25,
-          "average_rating": 0.92,
-          "average_adr": 66.3
+          "average_rating": 0.88,
+          "average_adr": 65.8
         }
       ],
       "kd_ratio_3m": null,
@@ -60974,12 +61234,12 @@
           "opponent_name": "Black Phoenix",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 15,
-          "deaths": 18,
-          "kd_ratio": 0.83,
-          "adr": 81.5,
-          "kast": 54.5,
-          "rating": 0.92,
+          "kills": 24,
+          "deaths": 35,
+          "kd_ratio": 0.69,
+          "adr": 66.3,
+          "kast": 61.4,
+          "rating": 0.81,
           "maps": 3
         }
       ],
@@ -60990,20 +61250,20 @@
         "opponent_name": "Black Phoenix",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 15,
-        "deaths": 18,
-        "kd_ratio": 0.83,
-        "adr": 81.5,
-        "kast": 54.5,
-        "rating": 0.92,
+        "kills": 24,
+        "deaths": 35,
+        "kd_ratio": 0.69,
+        "adr": 66.3,
+        "kast": 61.4,
+        "rating": 0.81,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 1.04,
-        "average_adr": 69.7,
-        "recent_rating": 1.01,
-        "rating_delta": -0.1
+        "average_rating": 1.01,
+        "average_adr": 65.9,
+        "recent_rating": 0.97,
+        "rating_delta": -0.14
       },
       "map_profile": [],
       "roster_eras": [
@@ -61015,8 +61275,8 @@
           "wins": 1,
           "losses": 3,
           "win_rate": 0.25,
-          "average_rating": 1.04,
-          "average_adr": 69.7
+          "average_rating": 1.01,
+          "average_adr": 65.9
         }
       ],
       "kd_ratio_3m": null,
@@ -61089,12 +61349,12 @@
           "opponent_name": "Black Phoenix",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 11,
-          "deaths": 18,
-          "kd_ratio": 0.61,
-          "adr": 62.3,
-          "kast": 54.5,
-          "rating": 0.89,
+          "kills": 33,
+          "deaths": 32,
+          "kd_ratio": 1.03,
+          "adr": 82.3,
+          "kast": 61.4,
+          "rating": 1.2,
           "maps": 3
         }
       ],
@@ -61105,20 +61365,20 @@
         "opponent_name": "Black Phoenix",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 11,
-        "deaths": 18,
-        "kd_ratio": 0.61,
-        "adr": 62.3,
-        "kast": 54.5,
-        "rating": 0.89,
+        "kills": 33,
+        "deaths": 32,
+        "kd_ratio": 1.03,
+        "adr": 82.3,
+        "kast": 61.4,
+        "rating": 1.2,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 0.99,
-        "average_adr": 70,
-        "recent_rating": 1.09,
-        "rating_delta": 0.38
+        "average_rating": 1.07,
+        "average_adr": 75,
+        "recent_rating": 1.19,
+        "rating_delta": 0.48
       },
       "map_profile": [],
       "roster_eras": [
@@ -61130,8 +61390,8 @@
           "wins": 1,
           "losses": 3,
           "win_rate": 0.25,
-          "average_rating": 0.99,
-          "average_adr": 70
+          "average_rating": 1.07,
+          "average_adr": 75
         }
       ],
       "kd_ratio_3m": null,
@@ -61204,12 +61464,12 @@
           "opponent_name": "Black Phoenix",
           "team_name": "The Last Resort",
           "won": false,
-          "kills": 16,
-          "deaths": 18,
-          "kd_ratio": 0.89,
-          "adr": 85.4,
-          "kast": 77.3,
-          "rating": 1.18,
+          "kills": 34,
+          "deaths": 33,
+          "kd_ratio": 1.03,
+          "adr": 96.5,
+          "kast": 75,
+          "rating": 1.26,
           "maps": 3
         }
       ],
@@ -61220,20 +61480,20 @@
         "opponent_name": "Black Phoenix",
         "team_name": "The Last Resort",
         "won": false,
-        "kills": 16,
-        "deaths": 18,
-        "kd_ratio": 0.89,
-        "adr": 85.4,
-        "kast": 77.3,
-        "rating": 1.18,
+        "kills": 34,
+        "deaths": 33,
+        "kd_ratio": 1.03,
+        "adr": 96.5,
+        "kast": 75,
+        "rating": 1.26,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 1.23,
-        "average_adr": 87.6,
-        "recent_rating": 1.29,
-        "rating_delta": 0.23
+        "average_rating": 1.25,
+        "average_adr": 90.3,
+        "recent_rating": 1.31,
+        "rating_delta": 0.25
       },
       "map_profile": [],
       "roster_eras": [
@@ -61245,8 +61505,8 @@
           "wins": 1,
           "losses": 3,
           "win_rate": 0.25,
-          "average_rating": 1.23,
-          "average_adr": 87.6
+          "average_rating": 1.25,
+          "average_adr": 90.3
         }
       ],
       "kd_ratio_3m": null,
@@ -61785,6 +62045,36 @@
           "kast": 72.4,
           "rating": 1.41,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399106",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Just Players",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 34,
+          "deaths": 39,
+          "kd_ratio": 0.87,
+          "adr": 76.9,
+          "kast": 67.9,
+          "rating": 1.01,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399330",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Rune Eaters",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 13,
+          "deaths": 15,
+          "kd_ratio": 0.87,
+          "adr": 61.1,
+          "kast": 60.9,
+          "rating": 0.92,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -61792,36 +62082,36 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-20",
-          "series": 8,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 10,
+          "wins": 8,
           "losses": 2,
-          "win_rate": 0.75,
-          "average_rating": 1.03,
-          "average_adr": 67
+          "win_rate": 0.8,
+          "average_rating": 1.02,
+          "average_adr": 67.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399485",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Azuolas",
+        "match_id": "hltv:2399330",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Rune Eaters",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 17,
-        "deaths": 12,
-        "kd_ratio": 1.42,
-        "adr": 102,
-        "kast": 88.9,
-        "rating": 1.48,
-        "maps": 1
+        "kills": 13,
+        "deaths": 15,
+        "kd_ratio": 0.87,
+        "adr": 61.1,
+        "kast": 60.9,
+        "rating": 0.92,
+        "maps": 3
       },
       "form_summary": {
-        "series": 8,
-        "average_rating": 1.03,
-        "average_adr": 67,
-        "recent_rating": 1.26,
-        "rating_delta": 0.45
+        "series": 10,
+        "average_rating": 1.02,
+        "average_adr": 67.4,
+        "recent_rating": 1.11,
+        "rating_delta": -0.06
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -61960,6 +62250,36 @@
           "kast": 73.7,
           "rating": 1.31,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399106",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Just Players",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 29,
+          "deaths": 36,
+          "kd_ratio": 0.81,
+          "adr": 56.4,
+          "kast": 71.7,
+          "rating": 0.74,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399330",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Rune Eaters",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 25,
+          "deaths": 11,
+          "kd_ratio": 2.27,
+          "adr": 108,
+          "kast": 73.9,
+          "rating": 1.85,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -61967,36 +62287,36 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-20",
-          "series": 8,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 10,
+          "wins": 8,
           "losses": 2,
-          "win_rate": 0.75,
-          "average_rating": 1.48,
-          "average_adr": 88.1
+          "win_rate": 0.8,
+          "average_rating": 1.44,
+          "average_adr": 86.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399485",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Azuolas",
+        "match_id": "hltv:2399330",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Rune Eaters",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 21,
-        "deaths": 5,
-        "kd_ratio": 4.2,
-        "adr": 108.7,
-        "kast": 94.4,
-        "rating": 2.27,
-        "maps": 1
+        "kills": 25,
+        "deaths": 11,
+        "kd_ratio": 2.27,
+        "adr": 108,
+        "kast": 73.9,
+        "rating": 1.85,
+        "maps": 3
       },
       "form_summary": {
-        "series": 8,
-        "average_rating": 1.48,
-        "average_adr": 88.1,
-        "recent_rating": 1.54,
-        "rating_delta": -0.06
+        "series": 10,
+        "average_rating": 1.44,
+        "average_adr": 86.9,
+        "recent_rating": 1.3,
+        "rating_delta": -0.44
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -62135,6 +62455,36 @@
           "kast": 63.2,
           "rating": 0.73,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399106",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Just Players",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 40,
+          "deaths": 36,
+          "kd_ratio": 1.11,
+          "adr": 75.9,
+          "kast": 75.5,
+          "rating": 1.15,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399330",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Rune Eaters",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 11,
+          "deaths": 15,
+          "kd_ratio": 0.73,
+          "adr": 48.6,
+          "kast": 65.2,
+          "rating": 0.96,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -62142,36 +62492,36 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-20",
-          "series": 8,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 10,
+          "wins": 8,
           "losses": 2,
-          "win_rate": 0.75,
-          "average_rating": 1.2,
-          "average_adr": 73.6
+          "win_rate": 0.8,
+          "average_rating": 1.17,
+          "average_adr": 71.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399485",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Azuolas",
+        "match_id": "hltv:2399330",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Rune Eaters",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 15,
-        "deaths": 10,
-        "kd_ratio": 1.5,
-        "adr": 84.6,
-        "kast": 72.2,
-        "rating": 1.38,
-        "maps": 1
+        "kills": 11,
+        "deaths": 15,
+        "kd_ratio": 0.73,
+        "adr": 48.6,
+        "kast": 65.2,
+        "rating": 0.96,
+        "maps": 3
       },
       "form_summary": {
-        "series": 8,
-        "average_rating": 1.2,
-        "average_adr": 73.6,
-        "recent_rating": 1.07,
-        "rating_delta": -0.12
+        "series": 10,
+        "average_rating": 1.17,
+        "average_adr": 71.3,
+        "recent_rating": 0.95,
+        "rating_delta": -0.43
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -62310,6 +62660,21 @@
           "kast": 82.4,
           "rating": 1.33,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399330",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Rune Eaters",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 17,
+          "deaths": 16,
+          "kd_ratio": 1.06,
+          "adr": 84.4,
+          "kast": 65.2,
+          "rating": 1.08,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -62317,13 +62682,13 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-19",
-          "series": 5,
-          "wins": 4,
+          "through_date": "2026-10-22",
+          "series": 6,
+          "wins": 5,
           "losses": 1,
-          "win_rate": 0.8,
-          "average_rating": 1.14,
-          "average_adr": 81.7
+          "win_rate": 0.833,
+          "average_rating": 1.13,
+          "average_adr": 82.1
         },
         {
           "team_name": "ex-RUSTEC",
@@ -62338,26 +62703,26 @@
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399308",
-        "date": "2026-10-16",
+        "match_id": "hltv:2399330",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
+        "opponent_name": "Rune Eaters",
         "team_name": "FORZE Reload",
         "won": true,
-        "kills": 23,
-        "deaths": 23,
-        "kd_ratio": 1,
-        "adr": 78.4,
-        "kast": 67.6,
-        "rating": 0.99,
+        "kills": 17,
+        "deaths": 16,
+        "kd_ratio": 1.06,
+        "adr": 84.4,
+        "kast": 65.2,
+        "rating": 1.08,
         "maps": 3
       },
       "form_summary": {
-        "series": 8,
-        "average_rating": 1.14,
-        "average_adr": 80.2,
-        "recent_rating": 1.06,
-        "rating_delta": -0.11
+        "series": 9,
+        "average_rating": 1.13,
+        "average_adr": 80.7,
+        "recent_rating": 1.12,
+        "rating_delta": -0.02
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -62496,6 +62861,36 @@
           "kast": 72.4,
           "rating": 1.24,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399106",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Just Players",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 61,
+          "deaths": 28,
+          "kd_ratio": 2.18,
+          "adr": 110.2,
+          "kast": 83,
+          "rating": 2,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399330",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Rune Eaters",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 12,
+          "deaths": 14,
+          "kd_ratio": 0.86,
+          "adr": 60.4,
+          "kast": 78.3,
+          "rating": 0.9,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -62503,36 +62898,36 @@
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-14",
-          "through_date": "2026-10-20",
-          "series": 8,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 10,
+          "wins": 8,
           "losses": 2,
-          "win_rate": 0.75,
-          "average_rating": 1.24,
-          "average_adr": 74.6
+          "win_rate": 0.8,
+          "average_rating": 1.28,
+          "average_adr": 76.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399485",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Azuolas",
+        "match_id": "hltv:2399330",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Rune Eaters",
         "team_name": "FORZE Reload",
         "won": true,
         "kills": 12,
-        "deaths": 8,
-        "kd_ratio": 1.5,
-        "adr": 60.2,
-        "kast": 66.7,
-        "rating": 1.29,
-        "maps": 1
+        "deaths": 14,
+        "kd_ratio": 0.86,
+        "adr": 60.4,
+        "kast": 78.3,
+        "rating": 0.9,
+        "maps": 3
       },
       "form_summary": {
-        "series": 8,
-        "average_rating": 1.24,
-        "average_adr": 74.6,
-        "recent_rating": 1.34,
-        "rating_delta": 0.21
+        "series": 10,
+        "average_rating": 1.28,
+        "average_adr": 76.7,
+        "recent_rating": 1.38,
+        "rating_delta": -0.03
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -67867,27 +68262,42 @@
           "kast": 70.8,
           "rating": 1.36,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399496",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "ex-6666",
+          "team_name": "6yuBoJlbl",
+          "won": true,
+          "kills": 67,
+          "deaths": 47,
+          "kd_ratio": 1.43,
+          "adr": 98.1,
+          "kast": 70.4,
+          "rating": 1.46,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.37,
-        "average_adr": 93,
-        "recent_rating": 1.37,
+        "series": 3,
+        "average_rating": 1.4,
+        "average_adr": 94.7,
+        "recent_rating": 1.4,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "6yuBoJlbl",
           "from_date": "2026-10-18",
-          "through_date": "2026-10-20",
-          "series": 2,
-          "wins": 0,
+          "through_date": "2026-10-22",
+          "series": 3,
+          "wins": 1,
           "losses": 2,
-          "win_rate": 0,
-          "average_rating": 1.37,
-          "average_adr": 93
+          "win_rate": 0.333,
+          "average_rating": 1.4,
+          "average_adr": 94.7
         }
       ],
       "map_profile": [],
@@ -67901,18 +68311,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399488",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399496",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Illyrians",
+        "opponent_name": "ex-6666",
         "team_name": "6yuBoJlbl",
-        "won": false,
-        "kills": 55,
-        "deaths": 46,
-        "kd_ratio": 1.2,
-        "adr": 93.3,
-        "kast": 70.8,
-        "rating": 1.36,
+        "won": true,
+        "kills": 67,
+        "deaths": 47,
+        "kd_ratio": 1.43,
+        "adr": 98.1,
+        "kast": 70.4,
+        "rating": 1.46,
         "maps": 3
       }
     },
@@ -67952,27 +68362,42 @@
           "kast": 69.2,
           "rating": 0.94,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399496",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "ex-6666",
+          "team_name": "6yuBoJlbl",
+          "won": true,
+          "kills": 25,
+          "deaths": 48,
+          "kd_ratio": 0.52,
+          "adr": 44.4,
+          "kast": 59.2,
+          "rating": 0.59,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 2,
-        "average_rating": 0.97,
-        "average_adr": 68.5,
-        "recent_rating": 0.97,
+        "series": 3,
+        "average_rating": 0.84,
+        "average_adr": 60.4,
+        "recent_rating": 0.84,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "6yuBoJlbl",
           "from_date": "2026-10-18",
-          "through_date": "2026-10-20",
-          "series": 2,
-          "wins": 0,
+          "through_date": "2026-10-22",
+          "series": 3,
+          "wins": 1,
           "losses": 2,
-          "win_rate": 0,
-          "average_rating": 0.97,
-          "average_adr": 68.5
+          "win_rate": 0.333,
+          "average_rating": 0.84,
+          "average_adr": 60.4
         }
       ],
       "map_profile": [],
@@ -67986,18 +68411,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399488",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399496",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Illyrians",
+        "opponent_name": "ex-6666",
         "team_name": "6yuBoJlbl",
-        "won": false,
-        "kills": 38,
-        "deaths": 41,
-        "kd_ratio": 0.93,
-        "adr": 70,
-        "kast": 69.2,
-        "rating": 0.94,
+        "won": true,
+        "kills": 25,
+        "deaths": 48,
+        "kd_ratio": 0.52,
+        "adr": 44.4,
+        "kast": 59.2,
+        "rating": 0.59,
         "maps": 3
       }
     },
@@ -68037,27 +68462,42 @@
           "kast": 73.8,
           "rating": 1.27,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399496",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "ex-6666",
+          "team_name": "6yuBoJlbl",
+          "won": true,
+          "kills": 52,
+          "deaths": 53,
+          "kd_ratio": 0.98,
+          "adr": 83.5,
+          "kast": 76.1,
+          "rating": 1.11,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.01,
-        "average_adr": 68.6,
-        "recent_rating": 1.01,
+        "series": 3,
+        "average_rating": 1.04,
+        "average_adr": 73.6,
+        "recent_rating": 1.04,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "6yuBoJlbl",
           "from_date": "2026-10-18",
-          "through_date": "2026-10-20",
-          "series": 2,
-          "wins": 0,
+          "through_date": "2026-10-22",
+          "series": 3,
+          "wins": 1,
           "losses": 2,
-          "win_rate": 0,
-          "average_rating": 1.01,
-          "average_adr": 68.6
+          "win_rate": 0.333,
+          "average_rating": 1.04,
+          "average_adr": 73.6
         }
       ],
       "map_profile": [],
@@ -68071,18 +68511,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399488",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399496",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Illyrians",
+        "opponent_name": "ex-6666",
         "team_name": "6yuBoJlbl",
-        "won": false,
-        "kills": 49,
-        "deaths": 38,
-        "kd_ratio": 1.29,
-        "adr": 80.1,
-        "kast": 73.8,
-        "rating": 1.27,
+        "won": true,
+        "kills": 52,
+        "deaths": 53,
+        "kd_ratio": 0.98,
+        "adr": 83.5,
+        "kast": 76.1,
+        "rating": 1.11,
         "maps": 3
       }
     },
@@ -68122,27 +68562,42 @@
           "kast": 66.2,
           "rating": 0.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399496",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "ex-6666",
+          "team_name": "6yuBoJlbl",
+          "won": true,
+          "kills": 51,
+          "deaths": 42,
+          "kd_ratio": 1.21,
+          "adr": 72,
+          "kast": 67.6,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.02,
-        "average_adr": 77.3,
-        "recent_rating": 1.02,
+        "series": 3,
+        "average_rating": 1.03,
+        "average_adr": 75.5,
+        "recent_rating": 1.03,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "6yuBoJlbl",
           "from_date": "2026-10-18",
-          "through_date": "2026-10-20",
-          "series": 2,
-          "wins": 0,
+          "through_date": "2026-10-22",
+          "series": 3,
+          "wins": 1,
           "losses": 2,
-          "win_rate": 0,
-          "average_rating": 1.02,
-          "average_adr": 77.3
+          "win_rate": 0.333,
+          "average_rating": 1.03,
+          "average_adr": 75.5
         }
       ],
       "map_profile": [],
@@ -68156,18 +68611,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399488",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399496",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Illyrians",
+        "opponent_name": "ex-6666",
         "team_name": "6yuBoJlbl",
-        "won": false,
-        "kills": 45,
-        "deaths": 40,
-        "kd_ratio": 1.12,
-        "adr": 70.3,
-        "kast": 66.2,
-        "rating": 0.9,
+        "won": true,
+        "kills": 51,
+        "deaths": 42,
+        "kd_ratio": 1.21,
+        "adr": 72,
+        "kast": 67.6,
+        "rating": 1.04,
         "maps": 3
       }
     },
@@ -68322,15 +68777,30 @@
           "kast": 65,
           "rating": 0.78,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399697",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Challengers Europe Series 8",
+          "opponent_name": "Banda Chuya",
+          "team_name": "DONSTU",
+          "won": true,
+          "kills": 58,
+          "deaths": 49,
+          "kd_ratio": 1.18,
+          "adr": 76.4,
+          "kast": 69.7,
+          "rating": 1.08,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 4,
-        "average_rating": 0.94,
-        "average_adr": 66.8,
-        "recent_rating": 0.96,
-        "rating_delta": 0.07
+        "series": 5,
+        "average_rating": 0.97,
+        "average_adr": 68.8,
+        "recent_rating": 0.92,
+        "rating_delta": -0.12
       },
       "roster_eras": [
         {
@@ -68347,13 +68817,13 @@
         {
           "team_name": "DONSTU",
           "from_date": "2026-10-20",
-          "through_date": "2026-10-20",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-22",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.2,
-          "average_adr": 86.9
+          "average_rating": 1.14,
+          "average_adr": 81.7
         }
       ],
       "map_profile": [],
@@ -70283,20 +70753,48 @@
     },
     {
       "player_id": "hltv:24656",
-      "nickname": "shoxs",
+      "nickname": "Substitute",
       "team_name": "Rune Eaters",
       "hltv_player_id": "24656",
       "source_url": "https://www.hltv.org/player/24656/shoxs",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399330",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Rune Eaters",
+          "won": false,
+          "kills": 13,
+          "deaths": 15,
+          "kd_ratio": 0.87,
+          "adr": 63.6,
+          "kast": 52.2,
+          "rating": 0.87,
+          "maps": 3
+        }
+      ],
       "traits": {},
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 0.87,
+        "average_adr": 63.6,
+        "recent_rating": 0.87,
         "rating_delta": null
       },
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Rune Eaters",
+          "from_date": "2026-10-22",
+          "through_date": "2026-10-22",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.87,
+          "average_adr": 63.6
+        }
+      ],
       "map_profile": [],
       "rating_3_0": null,
       "maps_3m": null,
@@ -70306,24 +70804,67 @@
       "stats_through_date": null,
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
-      "signal_index": null
+      "signal_index": null,
+      "timeline_entry": {
+        "match_id": "hltv:2399330",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Rune Eaters",
+        "won": false,
+        "kills": 13,
+        "deaths": 15,
+        "kd_ratio": 0.87,
+        "adr": 63.6,
+        "kast": 52.2,
+        "rating": 0.87,
+        "maps": 3
+      }
     },
     {
       "player_id": "hltv:24916",
-      "nickname": "raiNyyy",
+      "nickname": "Substitute",
       "team_name": "Rune Eaters",
       "hltv_player_id": "24916",
       "source_url": "https://www.hltv.org/player/24916/rainyyy",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399330",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "FORZE Reload",
+          "team_name": "Rune Eaters",
+          "won": false,
+          "kills": 7,
+          "deaths": 17,
+          "kd_ratio": 0.41,
+          "adr": 46.7,
+          "kast": 56.5,
+          "rating": 0.55,
+          "maps": 3
+        }
+      ],
       "traits": {},
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 0.55,
+        "average_adr": 46.7,
+        "recent_rating": 0.55,
         "rating_delta": null
       },
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Rune Eaters",
+          "from_date": "2026-10-22",
+          "through_date": "2026-10-22",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.55,
+          "average_adr": 46.7
+        }
+      ],
       "map_profile": [],
       "rating_3_0": null,
       "maps_3m": null,
@@ -70333,10 +70874,25 @@
       "stats_through_date": null,
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
-      "signal_index": null
+      "signal_index": null,
+      "timeline_entry": {
+        "match_id": "hltv:2399330",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "FORZE Reload",
+        "team_name": "Rune Eaters",
+        "won": false,
+        "kills": 7,
+        "deaths": 17,
+        "kd_ratio": 0.41,
+        "adr": 46.7,
+        "kast": 56.5,
+        "rating": 0.55,
+        "maps": 3
+      }
     }
   ],
-  "lineups_updated_at_utc": "2026-10-22T18:34:55Z",
+  "lineups_updated_at_utc": "2026-10-22T22:20:52Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-22",
   "history_profile_count": 53,
