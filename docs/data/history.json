@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4074,
+    "matches": 4079,
     "maps": 2932,
     "lineup_rows": 9694,
     "source_match_ids": 976
@@ -798,6 +798,94 @@
       "score1": 1,
       "score2": 2,
       "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:a1e60c69af96e6ae571b",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T15:20:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "BBL",
+      "team2_name": "HEROIC",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "HEROIC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:38f01193de86c0992d51",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T18:00:00Z",
+      "event_name": "1win Private Club #2",
+      "team1_name": "MongolZ",
+      "team2_name": "PRVT",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MongolZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/1win_Private_Club/2#Results"
+    },
+    {
+      "match_id": "liquipedia:f088788c206b77897b9d",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T20:05:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "BC.Game",
+      "team2_name": "EF",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "EF",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:c224492cbf8329bac8ab",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T20:10:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "FaZe",
+      "team2_name": "HEROIC",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FaZe",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
@@ -2626,6 +2714,28 @@
           "S1ren"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:7b1bfa65141de0395b08",
+      "match_date": "2026-10-18",
+      "starts_at": "2026-10-18T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 3",
+      "team1_name": "33",
+      "team2_name": "BRUTE",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "BRUTE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_3"
     },
     {
       "match_id": "liquipedia:4a147ac46648f44ebc77",
