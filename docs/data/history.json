@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-22T13:47:44Z",
+  "generated_at_utc": "2026-10-22T18:34:55Z",
   "through_date": "2026-10-22",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4088,
-    "maps": 2939,
-    "lineup_rows": 9724,
+    "matches": 4091,
+    "maps": 2947,
+    "lineup_rows": 9754,
     "source_match_ids": 976
   },
   "matches": [
@@ -298,6 +298,167 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
+    },
+    {
+      "match_id": "hltv:2399328",
+      "match_date": "2026-10-22",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Butterfly",
+      "team2_name": "Lavked",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Lavked",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 5,
+          "winner_name": "Butterfly",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 10,
+          "score2": 13,
+          "winner_name": "Lavked",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 6,
+          "score2": 13,
+          "winner_name": "Lavked",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Kurama",
+          "nitzie",
+          "ayano",
+          "Forester",
+          "k1ssly"
+        ],
+        "team2": [
+          "Substitute",
+          "xm1nd",
+          "azukay",
+          "k4nfuz",
+          "1NVISIBLEE"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399329",
+      "match_date": "2026-10-22",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Acend",
+      "team2_name": "ex-6666",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Acend",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "Acend",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 16,
+          "score2": 14,
+          "winner_name": "Acend",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "AwaykeN",
+          "REDSTAR",
+          "Skrimo",
+          "SHiPZ",
+          "SPELLAN"
+        ],
+        "team2": [
+          "skcH",
+          "kL1o",
+          "amster",
+          "rendysky",
+          "stefienson"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399495",
+      "match_date": "2026-10-22",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Lavked",
+      "team2_name": "HAVU",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Lavked",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Nuke",
+          "score1": 12,
+          "score2": 16,
+          "winner_name": "HAVU",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 11,
+          "winner_name": "Lavked",
+          "picked_by": null
+        },
+        {
+          "map_name": "Mirage",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "Lavked",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "Substitute",
+          "Substitute",
+          "xm1nd",
+          "azukay",
+          "k4nfuz"
+        ],
+        "team2": [
+          "ottob",
+          "8Juho8",
+          "Alxc",
+          "p3kko",
+          "uli"
+        ]
+      }
     },
     {
       "match_id": "hltv:2399489",
@@ -649,19 +810,19 @@
         },
         {
           "map_name": "Dust2",
-          "score1": 4,
-          "score2": 8,
+          "score1": 5,
+          "score2": 13,
           "winner_name": "Spirit Academy",
           "picked_by": null
         }
       ],
       "lineups": {
         "team1": [
-          "azukay",
-          "takanashi",
+          "Substitute",
+          "Substitute",
           "xm1nd",
+          "azukay",
           "k4nfuz",
-          "FREXEMP",
           "1NVISIBLEE"
         ],
         "team2": [
