@@ -2245,5 +2245,10 @@
     "name": "BARCA",
     "logo_url": "https://liquipedia.net/commons/images/thumb/5/53/BARCA_esports_allmode.png/40px-BARCA_esports_allmode.png",
     "source": "Liquipedia"
+  },
+  "sangrija": {
+    "name": "Sangrija",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/7/70/Sangrija_lightmode.png/31px-Sangrija_lightmode.png",
+    "source": "Liquipedia"
   }
 }
