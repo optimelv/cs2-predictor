@@ -5427,9 +5427,37 @@
       },
       "hltv_player_id": "20621",
       "source_url": "https://www.hltv.org/player/20621/nitzie",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399104",
+          "date": "2026-10-21",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "Butterfly",
+          "won": false,
+          "kills": 18,
+          "deaths": 30,
+          "kd_ratio": 0.6,
+          "adr": 47,
+          "kast": 58.1,
+          "rating": 0.74,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Butterfly",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-21",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.74,
+          "average_adr": 47
+        }
+      ],
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
@@ -5437,10 +5465,10 @@
       "stats_fetched_at_utc": "2026-10-14T07:31:01.321Z",
       "stats_source_url": "https://www.hltv.org/player/20621/nitzie",
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 0.74,
+        "average_adr": 47,
+        "recent_rating": 0.74,
         "rating_delta": null
       }
     },
@@ -7918,10 +7946,51 @@
           "kast": 61.9,
           "rating": 1.05,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399839",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "BlinkDagger",
+          "team_name": "ex-CYBERSHOKE",
+          "won": true,
+          "kills": 42,
+          "deaths": 28,
+          "kd_ratio": 1.5,
+          "adr": 111.5,
+          "kast": 78,
+          "rating": 1.85,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399841",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "UPGRADE",
+          "team_name": "ex-CYBERSHOKE",
+          "won": true,
+          "kills": 72,
+          "deaths": 51,
+          "kd_ratio": 1.41,
+          "adr": 105.3,
+          "kast": 69.7,
+          "rating": 1.62,
+          "maps": 3
         }
       ],
       "map_profile": [],
       "roster_eras": [
+        {
+          "team_name": "ex-CYBERSHOKE",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-21",
+          "series": 2,
+          "wins": 2,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.74,
+          "average_adr": 108.4
+        },
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
@@ -7950,11 +8019,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 7,
-        "average_rating": 1.11,
-        "average_adr": 82,
-        "recent_rating": 1.16,
-        "rating_delta": 0.05
+        "series": 9,
+        "average_rating": 1.25,
+        "average_adr": 87.8,
+        "recent_rating": 1.51,
+        "rating_delta": 0.2
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -17622,10 +17691,51 @@
           "kast": 59.5,
           "rating": 0.67,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399839",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "BlinkDagger",
+          "team_name": "ex-CYBERSHOKE",
+          "won": true,
+          "kills": 28,
+          "deaths": 21,
+          "kd_ratio": 1.33,
+          "adr": 68.2,
+          "kast": 78,
+          "rating": 1.17,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399841",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "UPGRADE",
+          "team_name": "ex-CYBERSHOKE",
+          "won": true,
+          "kills": 53,
+          "deaths": 54,
+          "kd_ratio": 0.98,
+          "adr": 72,
+          "kast": 69.7,
+          "rating": 1.14,
+          "maps": 3
         }
       ],
       "map_profile": [],
       "roster_eras": [
+        {
+          "team_name": "ex-CYBERSHOKE",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-21",
+          "series": 2,
+          "wins": 2,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.15,
+          "average_adr": 70.1
+        },
         {
           "team_name": "ex-RUSTEC",
           "from_date": "2026-10-14",
@@ -17654,11 +17764,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 10,
-        "average_rating": 1.11,
-        "average_adr": 72.9,
-        "recent_rating": 1.04,
-        "rating_delta": 0.01
+        "series": 12,
+        "average_rating": 1.12,
+        "average_adr": 72.4,
+        "recent_rating": 0.99,
+        "rating_delta": -0.18
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -18760,6 +18870,36 @@
           "kast": 77.3,
           "rating": 1.31,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399836",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "Virtus.pro",
+          "team_name": "Black Phoenix",
+          "won": false,
+          "kills": 14,
+          "deaths": 28,
+          "kd_ratio": 0.5,
+          "adr": 54.8,
+          "kast": 53.3,
+          "rating": 0.61,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399838",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "EVO Elite",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 43,
+          "deaths": 34,
+          "kd_ratio": 1.26,
+          "adr": 71.7,
+          "kast": 70.9,
+          "rating": 1.12,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -18778,11 +18918,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 15,
-        "average_rating": 1.31,
-        "average_adr": 87.3,
-        "recent_rating": 1.26,
-        "rating_delta": -0.11
+        "series": 17,
+        "average_rating": 1.26,
+        "average_adr": 84.5,
+        "recent_rating": 1.01,
+        "rating_delta": -0.35
       },
       "map_profile": [],
       "roster_eras": [
@@ -18790,12 +18930,12 @@
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
           "through_date": "2026-10-21",
-          "series": 15,
-          "wins": 12,
-          "losses": 3,
-          "win_rate": 0.8,
-          "average_rating": 1.31,
-          "average_adr": 87.3
+          "series": 17,
+          "wins": 13,
+          "losses": 4,
+          "win_rate": 0.765,
+          "average_rating": 1.26,
+          "average_adr": 84.5
         }
       ],
       "kd_ratio_3m": null,
@@ -19048,6 +19188,36 @@
           "kast": 95.5,
           "rating": 1.7,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399836",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "Virtus.pro",
+          "team_name": "Black Phoenix",
+          "won": false,
+          "kills": 16,
+          "deaths": 29,
+          "kd_ratio": 0.55,
+          "adr": 64.7,
+          "kast": 66.7,
+          "rating": 0.71,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399838",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "EVO Elite",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 49,
+          "deaths": 27,
+          "kd_ratio": 1.81,
+          "adr": 88.1,
+          "kast": 78.2,
+          "rating": 1.48,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -19066,11 +19236,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 15,
-        "average_rating": 1.36,
-        "average_adr": 84.3,
-        "recent_rating": 1.34,
-        "rating_delta": 0.15
+        "series": 17,
+        "average_rating": 1.33,
+        "average_adr": 83.4,
+        "recent_rating": 1.3,
+        "rating_delta": 0.11
       },
       "map_profile": [],
       "roster_eras": [
@@ -19078,12 +19248,12 @@
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
           "through_date": "2026-10-21",
-          "series": 15,
-          "wins": 12,
-          "losses": 3,
-          "win_rate": 0.8,
-          "average_rating": 1.36,
-          "average_adr": 84.3
+          "series": 17,
+          "wins": 13,
+          "losses": 4,
+          "win_rate": 0.765,
+          "average_rating": 1.33,
+          "average_adr": 83.4
         }
       ],
       "kd_ratio_3m": null,
@@ -23844,9 +24014,37 @@
       },
       "hltv_player_id": "25608",
       "source_url": "https://www.hltv.org/player/25608/ayano",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399104",
+          "date": "2026-10-21",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "Butterfly",
+          "won": false,
+          "kills": 21,
+          "deaths": 27,
+          "kd_ratio": 0.78,
+          "adr": 58.7,
+          "kast": 67.4,
+          "rating": 1.01,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Butterfly",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-21",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.01,
+          "average_adr": 58.7
+        }
+      ],
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
@@ -23854,10 +24052,10 @@
       "stats_fetched_at_utc": "2026-10-14T07:31:01.321Z",
       "stats_source_url": "https://www.hltv.org/player/25608/ayano",
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 1.01,
+        "average_adr": 58.7,
+        "recent_rating": 1.01,
         "rating_delta": null
       }
     },
@@ -27719,6 +27917,36 @@
           "kast": 72.7,
           "rating": 1.01,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399836",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "Virtus.pro",
+          "team_name": "Black Phoenix",
+          "won": false,
+          "kills": 19,
+          "deaths": 29,
+          "kd_ratio": 0.66,
+          "adr": 73.3,
+          "kast": 66.7,
+          "rating": 0.92,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399838",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "EVO Elite",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 41,
+          "deaths": 32,
+          "kd_ratio": 1.28,
+          "adr": 84.7,
+          "kast": 78.2,
+          "rating": 1.38,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -27737,11 +27965,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 15,
-        "average_rating": 1.08,
-        "average_adr": 77.9,
-        "recent_rating": 1.01,
-        "rating_delta": -0.04
+        "series": 17,
+        "average_rating": 1.09,
+        "average_adr": 78,
+        "recent_rating": 1.1,
+        "rating_delta": 0.02
       },
       "map_profile": [],
       "roster_eras": [
@@ -27749,12 +27977,12 @@
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
           "through_date": "2026-10-21",
-          "series": 15,
-          "wins": 12,
-          "losses": 3,
-          "win_rate": 0.8,
-          "average_rating": 1.08,
-          "average_adr": 77.9
+          "series": 17,
+          "wins": 13,
+          "losses": 4,
+          "win_rate": 0.765,
+          "average_rating": 1.09,
+          "average_adr": 78
         }
       ],
       "kd_ratio_3m": null,
@@ -32779,9 +33007,37 @@
       },
       "hltv_player_id": "13982",
       "source_url": "https://www.hltv.org/player/13982/forester",
-      "form_timeline": [],
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399104",
+          "date": "2026-10-21",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "Butterfly",
+          "won": false,
+          "kills": 24,
+          "deaths": 26,
+          "kd_ratio": 0.92,
+          "adr": 58.2,
+          "kast": 72.1,
+          "rating": 0.87,
+          "maps": 3
+        }
+      ],
       "map_profile": [],
-      "roster_eras": [],
+      "roster_eras": [
+        {
+          "team_name": "Butterfly",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-21",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.87,
+          "average_adr": 58.2
+        }
+      ],
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
@@ -32789,10 +33045,10 @@
       "stats_fetched_at_utc": "2026-10-14T07:31:01.321Z",
       "stats_source_url": "https://www.hltv.org/player/13982/forester",
       "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
+        "series": 1,
+        "average_rating": 0.87,
+        "average_adr": 58.2,
+        "recent_rating": 0.87,
         "rating_delta": null
       }
     },
@@ -36277,6 +36533,36 @@
           "kast": 72.7,
           "rating": 1.34,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399836",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "Virtus.pro",
+          "team_name": "Black Phoenix",
+          "won": false,
+          "kills": 11,
+          "deaths": 26,
+          "kd_ratio": 0.42,
+          "adr": 46.1,
+          "kast": 40,
+          "rating": 0.61,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399838",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "EVO Elite",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 38,
+          "deaths": 41,
+          "kd_ratio": 0.93,
+          "adr": 78.2,
+          "kast": 76.4,
+          "rating": 1.07,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -36295,10 +36581,10 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 15,
-        "average_rating": 1.2,
-        "average_adr": 80.5,
-        "recent_rating": 1.12,
+        "series": 17,
+        "average_rating": 1.16,
+        "average_adr": 78.3,
+        "recent_rating": 1.01,
         "rating_delta": -0.09
       },
       "map_profile": [],
@@ -36307,12 +36593,12 @@
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
           "through_date": "2026-10-21",
-          "series": 15,
-          "wins": 12,
-          "losses": 3,
-          "win_rate": 0.8,
-          "average_rating": 1.2,
-          "average_adr": 80.5
+          "series": 17,
+          "wins": 13,
+          "losses": 4,
+          "win_rate": 0.765,
+          "average_rating": 1.16,
+          "average_adr": 78.3
         }
       ],
       "kd_ratio_3m": null,
@@ -44052,6 +44338,36 @@
           "kast": 81.8,
           "rating": 1.27,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399836",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "Virtus.pro",
+          "team_name": "Black Phoenix",
+          "won": false,
+          "kills": 7,
+          "deaths": 27,
+          "kd_ratio": 0.26,
+          "adr": 34.5,
+          "kast": 33.3,
+          "rating": 0.39,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399838",
+          "date": "2026-10-21",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "EVO Elite",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 34,
+          "deaths": 38,
+          "kd_ratio": 0.89,
+          "adr": 72.4,
+          "kast": 70.9,
+          "rating": 0.9,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -44070,11 +44386,11 @@
         "maps": 3
       },
       "form_summary": {
-        "series": 15,
-        "average_rating": 1.04,
-        "average_adr": 64.5,
-        "recent_rating": 1.04,
-        "rating_delta": 0.05
+        "series": 17,
+        "average_rating": 0.99,
+        "average_adr": 63.2,
+        "recent_rating": 0.85,
+        "rating_delta": -0.04
       },
       "map_profile": [],
       "roster_eras": [
@@ -44082,12 +44398,12 @@
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
           "through_date": "2026-10-21",
-          "series": 15,
-          "wins": 12,
-          "losses": 3,
-          "win_rate": 0.8,
-          "average_rating": 1.04,
-          "average_adr": 64.5
+          "series": 17,
+          "wins": 13,
+          "losses": 4,
+          "win_rate": 0.765,
+          "average_rating": 0.99,
+          "average_adr": 63.2
         }
       ],
       "kd_ratio_3m": null,
@@ -54873,7 +55189,7 @@
     },
     {
       "player_id": "hltv:25164",
-      "nickname": "Substitute",
+      "nickname": "Sh1karee",
       "team_name": "Azuolas",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -54943,7 +55259,7 @@
     },
     {
       "player_id": "hltv:21215",
-      "nickname": "Substitute",
+      "nickname": "tooi",
       "team_name": "Azuolas",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -68092,9 +68408,284 @@
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
       "signal_index": null
+    },
+    {
+      "player_id": "hltv:147",
+      "nickname": "SIXER",
+      "team_name": "GenOne",
+      "hltv_player_id": "147",
+      "source_url": "https://www.hltv.org/player/147/sixer",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399783",
+          "date": "2026-10-21",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Metizport",
+          "team_name": "GenOne",
+          "won": false,
+          "kills": 22,
+          "deaths": 23,
+          "kd_ratio": 0.96,
+          "adr": 57.7,
+          "kast": 61.3,
+          "rating": 0.81,
+          "maps": 3
+        }
+      ],
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.81,
+        "average_adr": 57.7,
+        "recent_rating": 0.81,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "GenOne",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-21",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.81,
+          "average_adr": 57.7
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:19738",
+      "nickname": "Djoko",
+      "team_name": "GenOne",
+      "hltv_player_id": "19738",
+      "source_url": "https://www.hltv.org/player/19738/djoko",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399783",
+          "date": "2026-10-21",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Metizport",
+          "team_name": "GenOne",
+          "won": false,
+          "kills": 9,
+          "deaths": 26,
+          "kd_ratio": 0.35,
+          "adr": 45.3,
+          "kast": 48.4,
+          "rating": 0.44,
+          "maps": 3
+        }
+      ],
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.44,
+        "average_adr": 45.3,
+        "recent_rating": 0.44,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "GenOne",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-21",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.44,
+          "average_adr": 45.3
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:21971",
+      "nickname": "Brooxsy",
+      "team_name": "GenOne",
+      "hltv_player_id": "21971",
+      "source_url": "https://www.hltv.org/player/21971/brooxsy",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399783",
+          "date": "2026-10-21",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Metizport",
+          "team_name": "GenOne",
+          "won": false,
+          "kills": 12,
+          "deaths": 26,
+          "kd_ratio": 0.46,
+          "adr": 44,
+          "kast": 54.8,
+          "rating": 0.5,
+          "maps": 3
+        }
+      ],
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.5,
+        "average_adr": 44,
+        "recent_rating": 0.5,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "GenOne",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-21",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.5,
+          "average_adr": 44
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:15117",
+      "nickname": "Keoz",
+      "team_name": "GenOne",
+      "hltv_player_id": "15117",
+      "source_url": "https://www.hltv.org/player/15117/keoz",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399783",
+          "date": "2026-10-21",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Metizport",
+          "team_name": "GenOne",
+          "won": false,
+          "kills": 18,
+          "deaths": 27,
+          "kd_ratio": 0.67,
+          "adr": 71.8,
+          "kast": 58.1,
+          "rating": 0.85,
+          "maps": 3
+        }
+      ],
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.85,
+        "average_adr": 71.8,
+        "recent_rating": 0.85,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "GenOne",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-21",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.85,
+          "average_adr": 71.8
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:25388",
+      "nickname": "bL4SEZ",
+      "team_name": "GenOne",
+      "hltv_player_id": "25388",
+      "source_url": "https://www.hltv.org/player/25388/bl4sez",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399783",
+          "date": "2026-10-21",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Metizport",
+          "team_name": "GenOne",
+          "won": false,
+          "kills": 14,
+          "deaths": 28,
+          "kd_ratio": 0.5,
+          "adr": 65.2,
+          "kast": 48.4,
+          "rating": 0.71,
+          "maps": 3
+        }
+      ],
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.71,
+        "average_adr": 65.2,
+        "recent_rating": 0.71,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "GenOne",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-21",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.71,
+          "average_adr": 65.2
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-21T22:22:57Z",
+  "lineups_updated_at_utc": "2026-10-22T07:38:56Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-21",
   "history_profile_count": 53,
