@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4068,
+    "matches": 4074,
     "maps": 2932,
     "lineup_rows": 9694,
     "source_match_ids": 976
@@ -677,6 +677,138 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_4"
+    },
+    {
+      "match_id": "liquipedia:538a5f7baed42ed04992",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Round 1",
+      "team1_name": "lavked",
+      "team2_name": "Spirit.A",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Spirit.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_1"
+    },
+    {
+      "match_id": "liquipedia:d38f9ae9374039bfe81b",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T15:25:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "Nexus",
+      "team2_name": "SAW",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:e53ea652a03f6d340327",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T15:45:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "ENVY",
+      "team2_name": "FaZe",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "FaZe",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:24e4ea7611dfa376901a",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Round 5",
+      "team1_name": "ACES",
+      "team2_name": "TLR",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ACES",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Round_5"
+    },
+    {
+      "match_id": "liquipedia:f89c0904a27a3d159576",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T18:50:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "JiJieHao",
+      "team2_name": "SINNERS",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "SINNERS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:9168575072cf5aa027a6",
+      "match_date": "2026-10-21",
+      "starts_at": "2026-10-21T19:35:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "BOYS",
+      "team2_name": "Nexus",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Nexus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
     },
     {
       "match_id": "hltv:2399485",
