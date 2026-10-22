@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4082,
+    "matches": 4088,
     "maps": 2939,
     "lineup_rows": 9724,
     "source_match_ids": 976
@@ -166,6 +166,138 @@
           "rosoneriii"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:18306ffe087490dd5d11",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T08:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Playoffs",
+      "team1_name": "GOne",
+      "team2_name": "Spirit.A",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Spirit.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:6d6d6918993a1e7e3161",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T08:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 5",
+      "team1_name": "BW",
+      "team2_name": "ex-6666",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ex-6666",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_5"
+    },
+    {
+      "match_id": "liquipedia:074713f548fe325b1209",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T11:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 5",
+      "team1_name": "FORZE.Rld",
+      "team2_name": "JustP",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FORZE.Rld",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_5"
+    },
+    {
+      "match_id": "liquipedia:6781f5831608506f655d",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T11:00:00Z",
+      "event_name": "1win Private Club #2",
+      "team1_name": "BIG",
+      "team2_name": "MongolZ",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MongolZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/1win_Private_Club/2#Results"
+    },
+    {
+      "match_id": "liquipedia:8ba5a39de0da622b72dd",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Round 2",
+      "team1_name": "ACES",
+      "team2_name": "ILLYRIANS",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "ACES",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_2"
+    },
+    {
+      "match_id": "liquipedia:33a941182333a56709f5",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T11:25:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Playoffs",
+      "team1_name": "Butterfly",
+      "team2_name": "lavked",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
     },
     {
       "match_id": "hltv:2399489",
