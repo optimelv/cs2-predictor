@@ -4420,6 +4420,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68.6,
           "rating": 0.8,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "GenOne",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 63,
+          "deaths": 40,
+          "kd_ratio": 1.57,
+          "adr": 90.3,
+          "kast": 78.7,
+          "rating": 1.47,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -4427,36 +4442,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-21",
-          "series": 8,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 9,
+          "wins": 7,
           "losses": 2,
-          "win_rate": 0.75,
-          "average_rating": 1.08,
-          "average_adr": 74.6
+          "win_rate": 0.778,
+          "average_rating": 1.13,
+          "average_adr": 76.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399491",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Lavked",
+        "match_id": "hltv:2399327",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "GenOne",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 43,
-        "deaths": 53,
-        "kd_ratio": 0.81,
-        "adr": 62.3,
-        "kast": 68.6,
-        "rating": 0.8,
+        "kills": 63,
+        "deaths": 40,
+        "kd_ratio": 1.57,
+        "adr": 90.3,
+        "kast": 78.7,
+        "rating": 1.47,
         "maps": 3
       },
       "form_summary": {
-        "series": 8,
-        "average_rating": 1.08,
-        "average_adr": 74.6,
-        "recent_rating": 1.1,
-        "rating_delta": 0.1
+        "series": 9,
+        "average_rating": 1.13,
+        "average_adr": 76.3,
+        "recent_rating": 1.18,
+        "rating_delta": 0.01
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -4603,6 +4618,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 72.9,
           "rating": 1.25,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "GenOne",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 55,
+          "deaths": 46,
+          "kd_ratio": 1.2,
+          "adr": 77.3,
+          "kast": 73.3,
+          "rating": 1.29,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -4610,36 +4640,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-21",
-          "series": 8,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 9,
+          "wins": 7,
           "losses": 2,
-          "win_rate": 0.75,
-          "average_rating": 1.32,
-          "average_adr": 79
+          "win_rate": 0.778,
+          "average_rating": 1.31,
+          "average_adr": 78.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399491",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Lavked",
+        "match_id": "hltv:2399327",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "GenOne",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 61,
-        "deaths": 49,
-        "kd_ratio": 1.24,
-        "adr": 86.2,
-        "kast": 72.9,
-        "rating": 1.25,
+        "kills": 55,
+        "deaths": 46,
+        "kd_ratio": 1.2,
+        "adr": 77.3,
+        "kast": 73.3,
+        "rating": 1.29,
         "maps": 3
       },
       "form_summary": {
-        "series": 8,
-        "average_rating": 1.32,
-        "average_adr": 79,
-        "recent_rating": 1.27,
-        "rating_delta": 0.02
+        "series": 9,
+        "average_rating": 1.31,
+        "average_adr": 78.8,
+        "recent_rating": 1.39,
+        "rating_delta": 0.14
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -11690,6 +11720,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 86.8,
           "rating": 1.58,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399105",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 14,
+          "deaths": 7,
+          "kd_ratio": 2,
+          "adr": 81.9,
+          "kast": 88.2,
+          "rating": 1.5,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -11697,13 +11742,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-21",
-          "series": 10,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 11,
+          "wins": 7,
           "losses": 4,
-          "win_rate": 0.6,
-          "average_rating": 1.34,
-          "average_adr": 84.6
+          "win_rate": 0.636,
+          "average_rating": 1.35,
+          "average_adr": 84.4
         },
         {
           "team_name": "6666",
@@ -11733,11 +11778,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 14,
-        "average_rating": 1.32,
-        "average_adr": 83,
-        "recent_rating": 1.38,
-        "rating_delta": 0.24
+        "series": 15,
+        "average_rating": 1.33,
+        "average_adr": 82.9,
+        "recent_rating": 1.54,
+        "rating_delta": 0.43
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -14608,6 +14653,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 78.9,
           "rating": 0.88,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399105",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 8,
+          "deaths": 13,
+          "kd_ratio": 0.62,
+          "adr": 78,
+          "kast": 82.4,
+          "rating": 0.89,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -14615,13 +14675,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-21",
-          "series": 10,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 11,
+          "wins": 7,
           "losses": 4,
-          "win_rate": 0.6,
-          "average_rating": 1.12,
-          "average_adr": 79.4
+          "win_rate": 0.636,
+          "average_rating": 1.1,
+          "average_adr": 79.3
         },
         {
           "team_name": "6666",
@@ -14651,11 +14711,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 14,
-        "average_rating": 1.12,
-        "average_adr": 79.5,
-        "recent_rating": 1,
-        "rating_delta": -0.15
+        "series": 15,
+        "average_rating": 1.1,
+        "average_adr": 79.4,
+        "recent_rating": 0.89,
+        "rating_delta": -0.26
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -14778,12 +14838,27 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "LFO 10",
           "team_name": "BAKS",
           "won": false,
-          "kills": 37,
-          "deaths": 27,
-          "kd_ratio": 1.37,
-          "adr": 92.4,
-          "kast": 80,
-          "rating": 1.53,
+          "kills": 43,
+          "deaths": 41,
+          "kd_ratio": 1.05,
+          "adr": 81,
+          "kast": 75.4,
+          "rating": 1.19,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399493",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Azuolas",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 35,
+          "deaths": 24,
+          "kd_ratio": 1.46,
+          "adr": 73.7,
+          "kast": 84.4,
+          "rating": 1.3,
           "maps": 3
         }
       ],
@@ -14794,36 +14869,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-21",
-          "series": 7,
-          "wins": 4,
+          "through_date": "2026-10-22",
+          "series": 8,
+          "wins": 5,
           "losses": 3,
-          "win_rate": 0.571,
-          "average_rating": 1.09,
-          "average_adr": 73
+          "win_rate": 0.625,
+          "average_rating": 1.08,
+          "average_adr": 71.7
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399489",
-        "date": "2026-10-21",
+        "match_id": "hltv:2399493",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Azuolas",
         "team_name": "BAKS",
-        "won": false,
-        "kills": 37,
-        "deaths": 27,
-        "kd_ratio": 1.37,
-        "adr": 92.4,
-        "kast": 80,
-        "rating": 1.53,
+        "won": true,
+        "kills": 35,
+        "deaths": 24,
+        "kd_ratio": 1.46,
+        "adr": 73.7,
+        "kast": 84.4,
+        "rating": 1.3,
         "maps": 3
       },
       "form_summary": {
-        "series": 7,
-        "average_rating": 1.09,
-        "average_adr": 73,
+        "series": 8,
+        "average_rating": 1.08,
+        "average_adr": 71.7,
         "recent_rating": 1.14,
-        "rating_delta": 0.03
+        "rating_delta": 0.09
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -15424,6 +15499,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 72.9,
           "rating": 1.57,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "GenOne",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 46,
+          "deaths": 56,
+          "kd_ratio": 0.82,
+          "adr": 68,
+          "kast": 64,
+          "rating": 0.89,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -15431,36 +15521,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-21",
-          "series": 8,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 9,
+          "wins": 7,
           "losses": 2,
-          "win_rate": 0.75,
-          "average_rating": 1.19,
-          "average_adr": 82.9
+          "win_rate": 0.778,
+          "average_rating": 1.16,
+          "average_adr": 81.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399491",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Lavked",
+        "match_id": "hltv:2399327",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "GenOne",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 66,
-        "deaths": 52,
-        "kd_ratio": 1.27,
-        "adr": 93.9,
-        "kast": 72.9,
-        "rating": 1.57,
+        "kills": 46,
+        "deaths": 56,
+        "kd_ratio": 0.82,
+        "adr": 68,
+        "kast": 64,
+        "rating": 0.89,
         "maps": 3
       },
       "form_summary": {
-        "series": 8,
-        "average_rating": 1.19,
-        "average_adr": 82.9,
-        "recent_rating": 1.46,
-        "rating_delta": 0.33
+        "series": 9,
+        "average_rating": 1.16,
+        "average_adr": 81.3,
+        "recent_rating": 1.42,
+        "rating_delta": 0.32
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -16889,12 +16979,27 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "LFO 10",
           "team_name": "BAKS",
           "won": false,
-          "kills": 24,
-          "deaths": 30,
-          "kd_ratio": 0.8,
-          "adr": 59.7,
-          "kast": 65,
-          "rating": 0.73,
+          "kills": 36,
+          "deaths": 44,
+          "kd_ratio": 0.82,
+          "adr": 61.4,
+          "kast": 64.9,
+          "rating": 0.78,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399493",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Azuolas",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 30,
+          "deaths": 28,
+          "kd_ratio": 1.07,
+          "adr": 85.7,
+          "kast": 73.3,
+          "rating": 1.25,
           "maps": 3
         }
       ],
@@ -16905,36 +17010,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-21",
-          "series": 7,
-          "wins": 4,
+          "through_date": "2026-10-22",
+          "series": 8,
+          "wins": 5,
           "losses": 3,
-          "win_rate": 0.571,
-          "average_rating": 1.04,
-          "average_adr": 73.1
+          "win_rate": 0.625,
+          "average_rating": 1.08,
+          "average_adr": 74.9
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399489",
-        "date": "2026-10-21",
+        "match_id": "hltv:2399493",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Azuolas",
         "team_name": "BAKS",
-        "won": false,
-        "kills": 24,
-        "deaths": 30,
-        "kd_ratio": 0.8,
-        "adr": 59.7,
-        "kast": 65,
-        "rating": 0.73,
+        "won": true,
+        "kills": 30,
+        "deaths": 28,
+        "kd_ratio": 1.07,
+        "adr": 85.7,
+        "kast": 73.3,
+        "rating": 1.25,
         "maps": 3
       },
       "form_summary": {
-        "series": 7,
-        "average_rating": 1.04,
-        "average_adr": 73.1,
-        "recent_rating": 1.12,
-        "rating_delta": 0.28
+        "series": 8,
+        "average_rating": 1.08,
+        "average_adr": 74.9,
+        "recent_rating": 1.09,
+        "rating_delta": 0.14
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -18900,42 +19005,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 70.9,
           "rating": 1.12,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Illyrians",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 14,
+          "deaths": 8,
+          "kd_ratio": 1.75,
+          "adr": 78.2,
+          "kast": 83.3,
+          "rating": 1.44,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399326",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "The Last Resort",
+        "match_id": "hltv:2399494",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Illyrians",
         "team_name": "Black Phoenix",
         "won": true,
-        "kills": 19,
-        "deaths": 13,
-        "kd_ratio": 1.46,
-        "adr": 95.4,
-        "kast": 77.3,
-        "rating": 1.31,
+        "kills": 14,
+        "deaths": 8,
+        "kd_ratio": 1.75,
+        "adr": 78.2,
+        "kast": 83.3,
+        "rating": 1.44,
         "maps": 3
       },
       "form_summary": {
-        "series": 17,
-        "average_rating": 1.26,
-        "average_adr": 84.5,
-        "recent_rating": 1.01,
-        "rating_delta": -0.35
+        "series": 18,
+        "average_rating": 1.27,
+        "average_adr": 84.1,
+        "recent_rating": 1.06,
+        "rating_delta": -0.2
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-21",
-          "series": 17,
-          "wins": 13,
+          "through_date": "2026-10-22",
+          "series": 18,
+          "wins": 14,
           "losses": 4,
-          "win_rate": 0.765,
-          "average_rating": 1.26,
-          "average_adr": 84.5
+          "win_rate": 0.778,
+          "average_rating": 1.27,
+          "average_adr": 84.1
         }
       ],
       "kd_ratio_3m": null,
@@ -19218,42 +19338,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 78.2,
           "rating": 1.48,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Illyrians",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 26,
+          "deaths": 8,
+          "kd_ratio": 3.25,
+          "adr": 122.7,
+          "kast": 88.9,
+          "rating": 2.26,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399326",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "The Last Resort",
+        "match_id": "hltv:2399494",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Illyrians",
         "team_name": "Black Phoenix",
         "won": true,
         "kills": 26,
-        "deaths": 12,
-        "kd_ratio": 2.17,
-        "adr": 100.7,
-        "kast": 95.5,
-        "rating": 1.7,
+        "deaths": 8,
+        "kd_ratio": 3.25,
+        "adr": 122.7,
+        "kast": 88.9,
+        "rating": 2.26,
         "maps": 3
       },
       "form_summary": {
-        "series": 17,
-        "average_rating": 1.33,
-        "average_adr": 83.4,
-        "recent_rating": 1.3,
-        "rating_delta": 0.11
+        "series": 18,
+        "average_rating": 1.38,
+        "average_adr": 85.6,
+        "recent_rating": 1.48,
+        "rating_delta": 0.14
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-21",
-          "series": 17,
-          "wins": 13,
+          "through_date": "2026-10-22",
+          "series": 18,
+          "wins": 14,
           "losses": 4,
-          "win_rate": 0.765,
-          "average_rating": 1.33,
-          "average_adr": 83.4
+          "win_rate": 0.778,
+          "average_rating": 1.38,
+          "average_adr": 85.6
         }
       ],
       "kd_ratio_3m": null,
@@ -19525,6 +19660,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 38.9,
           "rating": 0.25,
           "maps": 1
+        },
+        {
+          "match_id": "hltv:2399493",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "BAKS",
+          "team_name": "Azuolas",
+          "won": false,
+          "kills": 32,
+          "deaths": 39,
+          "kd_ratio": 0.82,
+          "adr": 78.1,
+          "kast": 60,
+          "rating": 0.85,
+          "maps": 3
         }
       ],
       "hltv_player_id": "14548",
@@ -19534,13 +19684,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Azuolas",
           "from_date": "2026-10-20",
-          "through_date": "2026-10-20",
-          "series": 1,
+          "through_date": "2026-10-22",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.25,
-          "average_adr": 40.9
+          "average_rating": 0.55,
+          "average_adr": 59.5
         }
       ],
       "kd_ratio_3m": null,
@@ -19550,26 +19700,26 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": "2026-10-14T07:31:01.341Z",
       "stats_source_url": "https://www.hltv.org/player/14548/maty",
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.25,
-        "average_adr": 40.9,
-        "recent_rating": 0.25,
+        "series": 2,
+        "average_rating": 0.55,
+        "average_adr": 59.5,
+        "recent_rating": 0.55,
         "rating_delta": null
       },
       "timeline_entry": {
-        "match_id": "hltv:2399485",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399493",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "FORZE Reload",
+        "opponent_name": "BAKS",
         "team_name": "Azuolas",
         "won": false,
-        "kills": 5,
-        "deaths": 17,
-        "kd_ratio": 0.29,
-        "adr": 40.9,
-        "kast": 38.9,
-        "rating": 0.25,
-        "maps": 1
+        "kills": 32,
+        "deaths": 39,
+        "kd_ratio": 0.82,
+        "adr": 78.1,
+        "kast": 60,
+        "rating": 0.85,
+        "maps": 3
       }
     },
     {
@@ -20009,12 +20159,27 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "LFO 10",
           "team_name": "BAKS",
           "won": false,
-          "kills": 27,
-          "deaths": 21,
-          "kd_ratio": 1.29,
-          "adr": 65.8,
-          "kast": 85,
-          "rating": 1.23,
+          "kills": 44,
+          "deaths": 33,
+          "kd_ratio": 1.33,
+          "adr": 73.3,
+          "kast": 86,
+          "rating": 1.2,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399493",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Azuolas",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 44,
+          "deaths": 22,
+          "kd_ratio": 2,
+          "adr": 80.9,
+          "kast": 71.1,
+          "rating": 1.52,
           "maps": 3
         }
       ],
@@ -20025,36 +20190,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-21",
-          "series": 7,
-          "wins": 4,
+          "through_date": "2026-10-22",
+          "series": 8,
+          "wins": 5,
           "losses": 3,
-          "win_rate": 0.571,
-          "average_rating": 1.01,
-          "average_adr": 66
+          "win_rate": 0.625,
+          "average_rating": 1.07,
+          "average_adr": 68.8
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399489",
-        "date": "2026-10-21",
+        "match_id": "hltv:2399493",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Azuolas",
         "team_name": "BAKS",
-        "won": false,
-        "kills": 27,
-        "deaths": 21,
-        "kd_ratio": 1.29,
-        "adr": 65.8,
-        "kast": 85,
-        "rating": 1.23,
+        "won": true,
+        "kills": 44,
+        "deaths": 22,
+        "kd_ratio": 2,
+        "adr": 80.9,
+        "kast": 71.1,
+        "rating": 1.52,
         "maps": 3
       },
       "form_summary": {
-        "series": 7,
-        "average_rating": 1.01,
-        "average_adr": 66,
-        "recent_rating": 0.99,
-        "rating_delta": 0.05
+        "series": 8,
+        "average_rating": 1.07,
+        "average_adr": 68.8,
+        "recent_rating": 1.26,
+        "rating_delta": 0.51
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -22534,12 +22699,27 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "LFO 10",
           "team_name": "BAKS",
           "won": false,
-          "kills": 26,
-          "deaths": 28,
-          "kd_ratio": 0.93,
-          "adr": 81.2,
-          "kast": 72.5,
-          "rating": 1.04,
+          "kills": 30,
+          "deaths": 43,
+          "kd_ratio": 0.7,
+          "adr": 69.8,
+          "kast": 63.2,
+          "rating": 0.78,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399493",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Azuolas",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 27,
+          "deaths": 31,
+          "kd_ratio": 0.87,
+          "adr": 76.8,
+          "kast": 68.9,
+          "rating": 0.95,
           "maps": 3
         }
       ],
@@ -22550,13 +22730,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BAKS",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 1,
-          "wins": 0,
+          "through_date": "2026-10-22",
+          "series": 2,
+          "wins": 1,
           "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.04,
-          "average_adr": 81.2
+          "win_rate": 0.5,
+          "average_rating": 0.86,
+          "average_adr": 73.3
         }
       ],
       "kd_ratio_3m": null,
@@ -22566,25 +22746,25 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": "2026-10-14T07:31:01.333Z",
       "stats_source_url": "https://www.hltv.org/player/17508/glowiing",
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.04,
-        "average_adr": 81.2,
-        "recent_rating": 1.04,
+        "series": 2,
+        "average_rating": 0.86,
+        "average_adr": 73.3,
+        "recent_rating": 0.86,
         "rating_delta": null
       },
       "timeline_entry": {
-        "match_id": "hltv:2399489",
-        "date": "2026-10-21",
+        "match_id": "hltv:2399493",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Azuolas",
         "team_name": "BAKS",
-        "won": false,
-        "kills": 26,
-        "deaths": 28,
-        "kd_ratio": 0.93,
-        "adr": 81.2,
-        "kast": 72.5,
-        "rating": 1.04,
+        "won": true,
+        "kills": 27,
+        "deaths": 31,
+        "kd_ratio": 0.87,
+        "adr": 76.8,
+        "kast": 68.9,
+        "rating": 0.95,
         "maps": 3
       }
     },
@@ -23313,6 +23493,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 84.2,
           "rating": 1.86,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399105",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 21,
+          "deaths": 6,
+          "kd_ratio": 3.5,
+          "adr": 115.1,
+          "kast": 94.1,
+          "rating": 2.04,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -23320,13 +23515,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-21",
-          "series": 10,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 11,
+          "wins": 7,
           "losses": 4,
-          "win_rate": 0.6,
-          "average_rating": 1.28,
-          "average_adr": 82.7
+          "win_rate": 0.636,
+          "average_rating": 1.35,
+          "average_adr": 85.6
         },
         {
           "team_name": "6666",
@@ -23356,11 +23551,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 14,
-        "average_rating": 1.29,
-        "average_adr": 81.9,
-        "recent_rating": 1.3,
-        "rating_delta": 0.06
+        "series": 15,
+        "average_rating": 1.34,
+        "average_adr": 84.1,
+        "recent_rating": 1.57,
+        "rating_delta": 0.32
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -27947,42 +28142,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 78.2,
           "rating": 1.38,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Illyrians",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 13,
+          "deaths": 9,
+          "kd_ratio": 1.44,
+          "adr": 85.4,
+          "kast": 72.2,
+          "rating": 1.2,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399326",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "The Last Resort",
+        "match_id": "hltv:2399494",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Illyrians",
         "team_name": "Black Phoenix",
         "won": true,
         "kills": 13,
-        "deaths": 17,
-        "kd_ratio": 0.76,
-        "adr": 76.7,
-        "kast": 72.7,
-        "rating": 1.01,
+        "deaths": 9,
+        "kd_ratio": 1.44,
+        "adr": 85.4,
+        "kast": 72.2,
+        "rating": 1.2,
         "maps": 3
       },
       "form_summary": {
-        "series": 17,
+        "series": 18,
         "average_rating": 1.09,
-        "average_adr": 78,
-        "recent_rating": 1.1,
-        "rating_delta": 0.02
+        "average_adr": 78.4,
+        "recent_rating": 1.17,
+        "rating_delta": 0.15
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-21",
-          "series": 17,
-          "wins": 13,
+          "through_date": "2026-10-22",
+          "series": 18,
+          "wins": 14,
           "losses": 4,
-          "win_rate": 0.765,
+          "win_rate": 0.778,
           "average_rating": 1.09,
-          "average_adr": 78
+          "average_adr": 78.4
         }
       ],
       "kd_ratio_3m": null,
@@ -34530,6 +34740,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 76.3,
           "rating": 1.44,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399105",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 12,
+          "deaths": 11,
+          "kd_ratio": 1.09,
+          "adr": 82.7,
+          "kast": 94.1,
+          "rating": 1.38,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -34537,13 +34762,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-21",
-          "series": 10,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 11,
+          "wins": 7,
           "losses": 4,
-          "win_rate": 0.6,
-          "average_rating": 1.01,
-          "average_adr": 67.2
+          "win_rate": 0.636,
+          "average_rating": 1.04,
+          "average_adr": 68.6
         },
         {
           "team_name": "6666",
@@ -34573,11 +34798,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 14,
-        "average_rating": 1.03,
-        "average_adr": 69.7,
-        "recent_rating": 0.94,
-        "rating_delta": -0.24
+        "series": 15,
+        "average_rating": 1.05,
+        "average_adr": 70.6,
+        "recent_rating": 1.17,
+        "rating_delta": 0.23
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -36563,42 +36788,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 76.4,
           "rating": 1.07,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Illyrians",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 9,
+          "deaths": 12,
+          "kd_ratio": 0.75,
+          "adr": 61.3,
+          "kast": 83.3,
+          "rating": 0.78,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399326",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "The Last Resort",
+        "match_id": "hltv:2399494",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Illyrians",
         "team_name": "Black Phoenix",
         "won": true,
-        "kills": 17,
+        "kills": 9,
         "deaths": 12,
-        "kd_ratio": 1.42,
-        "adr": 80.2,
-        "kast": 72.7,
-        "rating": 1.34,
+        "kd_ratio": 0.75,
+        "adr": 61.3,
+        "kast": 83.3,
+        "rating": 0.78,
         "maps": 3
       },
       "form_summary": {
-        "series": 17,
-        "average_rating": 1.16,
-        "average_adr": 78.3,
-        "recent_rating": 1.01,
-        "rating_delta": -0.09
+        "series": 18,
+        "average_rating": 1.14,
+        "average_adr": 77.4,
+        "recent_rating": 0.82,
+        "rating_delta": -0.3
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-21",
-          "series": 17,
-          "wins": 13,
+          "through_date": "2026-10-22",
+          "series": 18,
+          "wins": 14,
           "losses": 4,
-          "win_rate": 0.765,
-          "average_rating": 1.16,
-          "average_adr": 78.3
+          "win_rate": 0.778,
+          "average_rating": 1.14,
+          "average_adr": 77.4
         }
       ],
       "kd_ratio_3m": null,
@@ -37521,12 +37761,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "BAKS",
           "team_name": "LFO 10",
           "won": true,
-          "kills": 27,
-          "deaths": 28,
-          "kd_ratio": 0.96,
-          "adr": 80.3,
-          "kast": 70,
-          "rating": 1.1,
+          "kills": 35,
+          "deaths": 43,
+          "kd_ratio": 0.81,
+          "adr": 79.6,
+          "kast": 71.9,
+          "rating": 0.99,
           "maps": 3
         }
       ],
@@ -37540,8 +37780,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 1,
           "losses": 3,
           "win_rate": 0.25,
-          "average_rating": 1.12,
-          "average_adr": 76.9
+          "average_rating": 1.09,
+          "average_adr": 76.7
         }
       ],
       "timeline_entry": {
@@ -37551,20 +37791,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "BAKS",
         "team_name": "LFO 10",
         "won": true,
-        "kills": 27,
-        "deaths": 28,
-        "kd_ratio": 0.96,
-        "adr": 80.3,
-        "kast": 70,
-        "rating": 1.1,
+        "kills": 35,
+        "deaths": 43,
+        "kd_ratio": 0.81,
+        "adr": 79.6,
+        "kast": 71.9,
+        "rating": 0.99,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 1.12,
-        "average_adr": 76.9,
-        "recent_rating": 1.13,
-        "rating_delta": 0.05
+        "average_rating": 1.09,
+        "average_adr": 76.7,
+        "recent_rating": 1.1,
+        "rating_delta": 0.02
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -40014,12 +40254,27 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "LFO 10",
           "team_name": "BAKS",
           "won": false,
-          "kills": 24,
-          "deaths": 27,
-          "kd_ratio": 0.89,
-          "adr": 80.4,
-          "kast": 80,
-          "rating": 1.1,
+          "kills": 43,
+          "deaths": 40,
+          "kd_ratio": 1.07,
+          "adr": 89.1,
+          "kast": 84.2,
+          "rating": 1.29,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399493",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Azuolas",
+          "team_name": "BAKS",
+          "won": true,
+          "kills": 38,
+          "deaths": 23,
+          "kd_ratio": 1.65,
+          "adr": 86.7,
+          "kast": 88.9,
+          "rating": 1.55,
           "maps": 3
         }
       ],
@@ -40030,36 +40285,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "BAKS",
           "from_date": "2026-10-13",
-          "through_date": "2026-10-21",
-          "series": 7,
-          "wins": 4,
+          "through_date": "2026-10-22",
+          "series": 8,
+          "wins": 5,
           "losses": 3,
-          "win_rate": 0.571,
-          "average_rating": 1.06,
-          "average_adr": 76.6
+          "win_rate": 0.625,
+          "average_rating": 1.14,
+          "average_adr": 79
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399489",
-        "date": "2026-10-21",
+        "match_id": "hltv:2399493",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "LFO 10",
+        "opponent_name": "Azuolas",
         "team_name": "BAKS",
-        "won": false,
-        "kills": 24,
-        "deaths": 27,
-        "kd_ratio": 0.89,
-        "adr": 80.4,
-        "kast": 80,
-        "rating": 1.1,
+        "won": true,
+        "kills": 38,
+        "deaths": 23,
+        "kd_ratio": 1.65,
+        "adr": 86.7,
+        "kast": 88.9,
+        "rating": 1.55,
         "maps": 3
       },
       "form_summary": {
-        "series": 7,
-        "average_rating": 1.06,
-        "average_adr": 76.6,
-        "recent_rating": 1.08,
-        "rating_delta": 0.02
+        "series": 8,
+        "average_rating": 1.14,
+        "average_adr": 79,
+        "recent_rating": 1.39,
+        "rating_delta": 0.47
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -41414,6 +41669,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 70,
           "rating": 1.01,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "GenOne",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 46,
+          "deaths": 45,
+          "kd_ratio": 1.02,
+          "adr": 64.8,
+          "kast": 80,
+          "rating": 1.07,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -41421,36 +41691,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-21",
-          "series": 8,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 9,
+          "wins": 7,
           "losses": 2,
-          "win_rate": 0.75,
-          "average_rating": 1.14,
-          "average_adr": 68.5
+          "win_rate": 0.778,
+          "average_rating": 1.13,
+          "average_adr": 68.1
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399491",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Lavked",
+        "match_id": "hltv:2399327",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "GenOne",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 45,
-        "deaths": 53,
-        "kd_ratio": 0.85,
-        "adr": 74.3,
-        "kast": 70,
-        "rating": 1.01,
+        "kills": 46,
+        "deaths": 45,
+        "kd_ratio": 1.02,
+        "adr": 64.8,
+        "kast": 80,
+        "rating": 1.07,
         "maps": 3
       },
       "form_summary": {
-        "series": 8,
-        "average_rating": 1.14,
-        "average_adr": 68.5,
-        "recent_rating": 1.22,
-        "rating_delta": 0.14
+        "series": 9,
+        "average_rating": 1.13,
+        "average_adr": 68.1,
+        "recent_rating": 1.27,
+        "rating_delta": 0.17
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -41885,6 +42155,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 44.4,
           "rating": 0.87,
           "maps": 1
+        },
+        {
+          "match_id": "hltv:2399493",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "BAKS",
+          "team_name": "Azuolas",
+          "won": false,
+          "kills": 20,
+          "deaths": 31,
+          "kd_ratio": 0.65,
+          "adr": 49.4,
+          "kast": 64.4,
+          "rating": 0.79,
+          "maps": 3
         }
       ],
       "hltv_player_id": "21216",
@@ -41894,13 +42179,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Azuolas",
           "from_date": "2026-10-20",
-          "through_date": "2026-10-20",
-          "series": 1,
+          "through_date": "2026-10-22",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.87,
-          "average_adr": 80.6
+          "average_rating": 0.83,
+          "average_adr": 65
         }
       ],
       "kd_ratio_3m": null,
@@ -41910,26 +42195,26 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": "2026-10-14T07:31:01.341Z",
       "stats_source_url": "https://www.hltv.org/player/21216/yakuza",
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.87,
-        "average_adr": 80.6,
-        "recent_rating": 0.87,
+        "series": 2,
+        "average_rating": 0.83,
+        "average_adr": 65,
+        "recent_rating": 0.83,
         "rating_delta": null
       },
       "timeline_entry": {
-        "match_id": "hltv:2399485",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399493",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "FORZE Reload",
+        "opponent_name": "BAKS",
         "team_name": "Azuolas",
         "won": false,
-        "kills": 11,
-        "deaths": 14,
-        "kd_ratio": 0.79,
-        "adr": 80.6,
-        "kast": 44.4,
-        "rating": 0.87,
-        "maps": 1
+        "kills": 20,
+        "deaths": 31,
+        "kd_ratio": 0.65,
+        "adr": 49.4,
+        "kast": 64.4,
+        "rating": 0.79,
+        "maps": 3
       }
     },
     {
@@ -43676,6 +43961,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 65.7,
           "rating": 0.77,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "GenOne",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 47,
+          "deaths": 52,
+          "kd_ratio": 0.9,
+          "adr": 70.9,
+          "kast": 68,
+          "rating": 0.87,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -43683,36 +43983,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-21",
-          "series": 8,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 9,
+          "wins": 7,
           "losses": 2,
-          "win_rate": 0.75,
-          "average_rating": 0.9,
-          "average_adr": 68
+          "win_rate": 0.778,
+          "average_rating": 0.89,
+          "average_adr": 68.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399491",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Lavked",
+        "match_id": "hltv:2399327",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "GenOne",
         "team_name": "Spirit Academy",
         "won": true,
-        "kills": 34,
-        "deaths": 55,
-        "kd_ratio": 0.62,
-        "adr": 65.5,
-        "kast": 65.7,
-        "rating": 0.77,
+        "kills": 47,
+        "deaths": 52,
+        "kd_ratio": 0.9,
+        "adr": 70.9,
+        "kast": 68,
+        "rating": 0.87,
         "maps": 3
       },
       "form_summary": {
-        "series": 8,
-        "average_rating": 0.9,
-        "average_adr": 68,
-        "recent_rating": 0.74,
-        "rating_delta": -0.24
+        "series": 9,
+        "average_rating": 0.89,
+        "average_adr": 68.4,
+        "recent_rating": 0.78,
+        "rating_delta": -0.13
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -44368,42 +44668,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 70.9,
           "rating": 0.9,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Illyrians",
+          "team_name": "Black Phoenix",
+          "won": true,
+          "kills": 15,
+          "deaths": 9,
+          "kd_ratio": 1.67,
+          "adr": 95.1,
+          "kast": 83.3,
+          "rating": 1.49,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399326",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "The Last Resort",
+        "match_id": "hltv:2399494",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Illyrians",
         "team_name": "Black Phoenix",
         "won": true,
-        "kills": 17,
-        "deaths": 13,
-        "kd_ratio": 1.31,
-        "adr": 91.4,
-        "kast": 81.8,
-        "rating": 1.27,
+        "kills": 15,
+        "deaths": 9,
+        "kd_ratio": 1.67,
+        "adr": 95.1,
+        "kast": 83.3,
+        "rating": 1.49,
         "maps": 3
       },
       "form_summary": {
-        "series": 17,
-        "average_rating": 0.99,
-        "average_adr": 63.2,
-        "recent_rating": 0.85,
-        "rating_delta": -0.04
+        "series": 18,
+        "average_rating": 1.02,
+        "average_adr": 65,
+        "recent_rating": 0.93,
+        "rating_delta": -0.12
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Black Phoenix",
           "from_date": "2026-10-05",
-          "through_date": "2026-10-21",
-          "series": 17,
-          "wins": 13,
+          "through_date": "2026-10-22",
+          "series": 18,
+          "wins": 14,
           "losses": 4,
-          "win_rate": 0.765,
-          "average_rating": 0.99,
-          "average_adr": 63.2
+          "win_rate": 0.778,
+          "average_rating": 1.02,
+          "average_adr": 65
         }
       ],
       "kd_ratio_3m": null,
@@ -45804,6 +46119,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 66.7,
           "rating": 0.69,
           "maps": 1
+        },
+        {
+          "match_id": "hltv:2399493",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "BAKS",
+          "team_name": "Azuolas",
+          "won": false,
+          "kills": 22,
+          "deaths": 36,
+          "kd_ratio": 0.61,
+          "adr": 65.9,
+          "kast": 64.4,
+          "rating": 0.78,
+          "maps": 3
         }
       ],
       "hltv_player_id": "23077",
@@ -45813,13 +46143,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Azuolas",
           "from_date": "2026-10-20",
-          "through_date": "2026-10-20",
-          "series": 1,
+          "through_date": "2026-10-22",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.69,
-          "average_adr": 65.1
+          "average_rating": 0.73,
+          "average_adr": 65.5
         }
       ],
       "kd_ratio_3m": null,
@@ -45829,26 +46159,26 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": "2026-10-14T07:31:01.341Z",
       "stats_source_url": "https://www.hltv.org/player/23077/streakn",
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.69,
-        "average_adr": 65.1,
-        "recent_rating": 0.69,
+        "series": 2,
+        "average_rating": 0.73,
+        "average_adr": 65.5,
+        "recent_rating": 0.73,
         "rating_delta": null
       },
       "timeline_entry": {
-        "match_id": "hltv:2399485",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399493",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "FORZE Reload",
+        "opponent_name": "BAKS",
         "team_name": "Azuolas",
         "won": false,
-        "kills": 7,
-        "deaths": 17,
-        "kd_ratio": 0.41,
-        "adr": 65.1,
-        "kast": 66.7,
-        "rating": 0.69,
-        "maps": 1
+        "kills": 22,
+        "deaths": 36,
+        "kd_ratio": 0.61,
+        "adr": 65.9,
+        "kast": 64.4,
+        "rating": 0.78,
+        "maps": 3
       }
     },
     {
@@ -46192,6 +46522,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 78.9,
           "rating": 1.06,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399105",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "ex-6666",
+          "won": true,
+          "kills": 18,
+          "deaths": 7,
+          "kd_ratio": 2.57,
+          "adr": 78.9,
+          "kast": 94.1,
+          "rating": 1.73,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -46199,13 +46544,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-6666",
           "from_date": "2026-10-15",
-          "through_date": "2026-10-21",
-          "series": 10,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 11,
+          "wins": 7,
           "losses": 4,
-          "win_rate": 0.6,
-          "average_rating": 1.03,
-          "average_adr": 67.4
+          "win_rate": 0.636,
+          "average_rating": 1.09,
+          "average_adr": 68.5
         },
         {
           "team_name": "6666",
@@ -46235,11 +46580,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 14,
-        "average_rating": 0.98,
-        "average_adr": 67.3,
-        "recent_rating": 1,
-        "rating_delta": -0.02
+        "series": 15,
+        "average_rating": 1.03,
+        "average_adr": 68,
+        "recent_rating": 1.27,
+        "rating_delta": 0.44
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -53911,12 +54256,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "BAKS",
           "team_name": "LFO 10",
           "won": true,
-          "kills": 31,
-          "deaths": 29,
-          "kd_ratio": 1.07,
-          "adr": 79,
-          "kast": 67.5,
-          "rating": 1.09,
+          "kills": 48,
+          "deaths": 41,
+          "kd_ratio": 1.17,
+          "adr": 84.1,
+          "kast": 71.9,
+          "rating": 1.24,
           "maps": 3
         }
       ],
@@ -53930,8 +54275,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 1,
           "losses": 3,
           "win_rate": 0.25,
-          "average_rating": 0.94,
-          "average_adr": 72.8
+          "average_rating": 0.98,
+          "average_adr": 74.1
         }
       ],
       "timeline_entry": {
@@ -53941,20 +54286,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "BAKS",
         "team_name": "LFO 10",
         "won": true,
-        "kills": 31,
-        "deaths": 29,
-        "kd_ratio": 1.07,
-        "adr": 79,
-        "kast": 67.5,
-        "rating": 1.09,
+        "kills": 48,
+        "deaths": 41,
+        "kd_ratio": 1.17,
+        "adr": 84.1,
+        "kast": 71.9,
+        "rating": 1.24,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 0.94,
-        "average_adr": 72.8,
-        "recent_rating": 1.06,
-        "rating_delta": 0.48
+        "average_rating": 0.98,
+        "average_adr": 74.1,
+        "recent_rating": 1.11,
+        "rating_delta": 0.53
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -54050,7 +54395,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:21164",
-      "nickname": "L00m1",
+      "nickname": "Substitute",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -54096,12 +54441,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "BAKS",
           "team_name": "LFO 10",
           "won": true,
-          "kills": 27,
-          "deaths": 26,
-          "kd_ratio": 1.04,
-          "adr": 76.3,
-          "kast": 70,
-          "rating": 1.21,
+          "kills": 38,
+          "deaths": 36,
+          "kd_ratio": 1.06,
+          "adr": 71.3,
+          "kast": 73.7,
+          "rating": 1.17,
           "maps": 3
         }
       ],
@@ -54115,8 +54460,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 1,
           "losses": 2,
           "win_rate": 0.333,
-          "average_rating": 1.04,
-          "average_adr": 73.6
+          "average_rating": 1.03,
+          "average_adr": 71.9
         }
       ],
       "timeline_entry": {
@@ -54126,19 +54471,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "BAKS",
         "team_name": "LFO 10",
         "won": true,
-        "kills": 27,
-        "deaths": 26,
-        "kd_ratio": 1.04,
-        "adr": 76.3,
-        "kast": 70,
-        "rating": 1.21,
+        "kills": 38,
+        "deaths": 36,
+        "kd_ratio": 1.06,
+        "adr": 71.3,
+        "kast": 73.7,
+        "rating": 1.17,
         "maps": 3
       },
       "form_summary": {
         "series": 3,
-        "average_rating": 1.04,
-        "average_adr": 73.6,
-        "recent_rating": 1.04,
+        "average_rating": 1.03,
+        "average_adr": 71.9,
+        "recent_rating": 1.03,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -55189,7 +55534,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:25164",
-      "nickname": "Sh1karee",
+      "nickname": "Substitute",
       "team_name": "Azuolas",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -55210,6 +55555,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 61.1,
           "rating": 1.03,
           "maps": 1
+        },
+        {
+          "match_id": "hltv:2399493",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "BAKS",
+          "team_name": "Azuolas",
+          "won": false,
+          "kills": 28,
+          "deaths": 36,
+          "kd_ratio": 0.78,
+          "adr": 67.9,
+          "kast": 66.7,
+          "rating": 0.76,
+          "maps": 3
         }
       ],
       "hltv_player_id": "25164",
@@ -55219,20 +55579,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Azuolas",
           "from_date": "2026-10-20",
-          "through_date": "2026-10-20",
-          "series": 1,
+          "through_date": "2026-10-22",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 1.03,
-          "average_adr": 73.4
+          "average_rating": 0.9,
+          "average_adr": 70.7
         }
       ],
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.03,
-        "average_adr": 73.4,
-        "recent_rating": 1.03,
+        "series": 2,
+        "average_rating": 0.9,
+        "average_adr": 70.7,
+        "recent_rating": 0.9,
         "rating_delta": null
       },
       "kd_ratio_3m": null,
@@ -55242,19 +55602,19 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
       "timeline_entry": {
-        "match_id": "hltv:2399485",
-        "date": "2026-10-20",
+        "match_id": "hltv:2399493",
+        "date": "2026-10-22",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "FORZE Reload",
+        "opponent_name": "BAKS",
         "team_name": "Azuolas",
         "won": false,
-        "kills": 14,
-        "deaths": 13,
-        "kd_ratio": 1.08,
-        "adr": 73.4,
-        "kast": 61.1,
-        "rating": 1.03,
-        "maps": 1
+        "kills": 28,
+        "deaths": 36,
+        "kd_ratio": 0.78,
+        "adr": 67.9,
+        "kast": 66.7,
+        "rating": 0.76,
+        "maps": 3
       }
     },
     {
@@ -61799,7 +62159,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:20285",
-      "nickname": "Mann3n",
+      "nickname": "Substitute",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -61860,12 +62220,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "BAKS",
           "team_name": "LFO 10",
           "won": true,
-          "kills": 23,
-          "deaths": 29,
-          "kd_ratio": 0.79,
-          "adr": 68.6,
-          "kast": 70,
-          "rating": 0.92,
+          "kills": 34,
+          "deaths": 41,
+          "kd_ratio": 0.83,
+          "adr": 71.1,
+          "kast": 71.9,
+          "rating": 0.99,
           "maps": 3
         }
       ],
@@ -61879,8 +62239,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 1,
           "losses": 3,
           "win_rate": 0.25,
-          "average_rating": 0.87,
-          "average_adr": 67.6
+          "average_rating": 0.89,
+          "average_adr": 68.2
         }
       ],
       "timeline_entry": {
@@ -61890,20 +62250,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "BAKS",
         "team_name": "LFO 10",
         "won": true,
-        "kills": 23,
-        "deaths": 29,
-        "kd_ratio": 0.79,
-        "adr": 68.6,
-        "kast": 70,
-        "rating": 0.92,
+        "kills": 34,
+        "deaths": 41,
+        "kd_ratio": 0.83,
+        "adr": 71.1,
+        "kast": 71.9,
+        "rating": 0.99,
         "maps": 3
       },
       "form_summary": {
         "series": 4,
-        "average_rating": 0.87,
-        "average_adr": 67.6,
-        "recent_rating": 0.85,
-        "rating_delta": -0.09
+        "average_rating": 0.89,
+        "average_adr": 68.2,
+        "recent_rating": 0.87,
+        "rating_delta": -0.07
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -61914,7 +62274,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:22199",
-      "nickname": "Substitute",
+      "nickname": "Lewis",
       "team_name": "Illyrians",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -61952,28 +62312,43 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 74,
           "rating": 1.39,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 10,
+          "deaths": 16,
+          "kd_ratio": 0.62,
+          "adr": 70.4,
+          "kast": 55.6,
+          "rating": 0.86,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399295",
-        "date": "2026-10-13",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Bushido Wildcats",
+        "match_id": "hltv:2399494",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Black Phoenix",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 45,
-        "deaths": 32,
-        "kd_ratio": 1.41,
-        "adr": 90.3,
-        "kast": 74,
-        "rating": 1.39,
+        "won": false,
+        "kills": 10,
+        "deaths": 16,
+        "kd_ratio": 0.62,
+        "adr": 70.4,
+        "kast": 55.6,
+        "rating": 0.86,
         "maps": 3
       },
       "form_summary": {
-        "series": 2,
-        "average_rating": 1.07,
-        "average_adr": 77.4,
-        "recent_rating": 1.07,
+        "series": 3,
+        "average_rating": 1,
+        "average_adr": 75.1,
+        "recent_rating": 1,
         "rating_delta": null
       },
       "map_profile": [],
@@ -61981,19 +62356,25 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
+          "through_date": "2026-10-22",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.07,
-          "average_adr": 77.4
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1,
+          "average_adr": 75.1
         }
-      ]
+      ],
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null
     },
     {
       "player_id": "hltv:23300",
-      "nickname": "Substitute",
+      "nickname": "rosoneriii",
       "team_name": "Illyrians",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -62166,42 +62547,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 67.4,
           "rating": 0.61,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 7,
+          "deaths": 16,
+          "kd_ratio": 0.44,
+          "adr": 50.1,
+          "kast": 55.6,
+          "rating": 0.51,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399325",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "G2 Ares",
+        "match_id": "hltv:2399494",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Black Phoenix",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 18,
-        "deaths": 33,
-        "kd_ratio": 0.55,
-        "adr": 58.3,
-        "kast": 67.4,
-        "rating": 0.61,
+        "won": false,
+        "kills": 7,
+        "deaths": 16,
+        "kd_ratio": 0.44,
+        "adr": 50.1,
+        "kast": 55.6,
+        "rating": 0.51,
         "maps": 3
       },
       "form_summary": {
-        "series": 11,
-        "average_rating": 0.87,
-        "average_adr": 66.4,
-        "recent_rating": 0.87,
-        "rating_delta": 0.08
+        "series": 12,
+        "average_rating": 0.84,
+        "average_adr": 65,
+        "recent_rating": 0.7,
+        "rating_delta": -0.21
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-21",
-          "series": 11,
+          "through_date": "2026-10-22",
+          "series": 12,
           "wins": 8,
-          "losses": 3,
-          "win_rate": 0.727,
-          "average_rating": 0.87,
-          "average_adr": 66.4
+          "losses": 4,
+          "win_rate": 0.667,
+          "average_rating": 0.84,
+          "average_adr": 65
         }
       ],
       "kd_ratio_3m": null,
@@ -62386,42 +62782,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 69.8,
           "rating": 1.15,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 13,
+          "deaths": 14,
+          "kd_ratio": 0.93,
+          "adr": 65.9,
+          "kast": 66.7,
+          "rating": 1.15,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399325",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "G2 Ares",
+        "match_id": "hltv:2399494",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Black Phoenix",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 35,
-        "deaths": 28,
-        "kd_ratio": 1.25,
-        "adr": 82.2,
-        "kast": 69.8,
+        "won": false,
+        "kills": 13,
+        "deaths": 14,
+        "kd_ratio": 0.93,
+        "adr": 65.9,
+        "kast": 66.7,
         "rating": 1.15,
         "maps": 3
       },
       "form_summary": {
-        "series": 11,
+        "series": 12,
         "average_rating": 1.1,
-        "average_adr": 74.8,
-        "recent_rating": 0.9,
-        "rating_delta": -0.26
+        "average_adr": 74,
+        "recent_rating": 1.06,
+        "rating_delta": 0.05
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-21",
-          "series": 11,
+          "through_date": "2026-10-22",
+          "series": 12,
           "wins": 8,
-          "losses": 3,
-          "win_rate": 0.727,
+          "losses": 4,
+          "win_rate": 0.667,
           "average_rating": 1.1,
-          "average_adr": 74.8
+          "average_adr": 74
         }
       ],
       "kd_ratio_3m": null,
@@ -62606,42 +63017,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 60.5,
           "rating": 0.99,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 4,
+          "deaths": 16,
+          "kd_ratio": 0.25,
+          "adr": 29.8,
+          "kast": 55.6,
+          "rating": 0.27,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399325",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "G2 Ares",
+        "match_id": "hltv:2399494",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Black Phoenix",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 30,
-        "deaths": 30,
-        "kd_ratio": 1,
-        "adr": 73.2,
-        "kast": 60.5,
-        "rating": 0.99,
+        "won": false,
+        "kills": 4,
+        "deaths": 16,
+        "kd_ratio": 0.25,
+        "adr": 29.8,
+        "kast": 55.6,
+        "rating": 0.27,
         "maps": 3
       },
       "form_summary": {
-        "series": 11,
-        "average_rating": 1.11,
-        "average_adr": 73.6,
-        "recent_rating": 0.94,
-        "rating_delta": -0.34
+        "series": 12,
+        "average_rating": 1.04,
+        "average_adr": 69.9,
+        "recent_rating": 0.75,
+        "rating_delta": -0.52
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-21",
-          "series": 11,
+          "through_date": "2026-10-22",
+          "series": 12,
           "wins": 8,
-          "losses": 3,
-          "win_rate": 0.727,
-          "average_rating": 1.11,
-          "average_adr": 73.6
+          "losses": 4,
+          "win_rate": 0.667,
+          "average_rating": 1.04,
+          "average_adr": 69.9
         }
       ],
       "kd_ratio_3m": null,
@@ -62826,42 +63252,57 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 69.8,
           "rating": 1.02,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 12,
+          "deaths": 15,
+          "kd_ratio": 0.8,
+          "adr": 71.6,
+          "kast": 61.1,
+          "rating": 0.93,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399325",
-        "date": "2026-10-21",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "G2 Ares",
+        "match_id": "hltv:2399494",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Black Phoenix",
         "team_name": "Illyrians",
-        "won": true,
-        "kills": 33,
-        "deaths": 34,
-        "kd_ratio": 0.97,
-        "adr": 85,
-        "kast": 69.8,
-        "rating": 1.02,
+        "won": false,
+        "kills": 12,
+        "deaths": 15,
+        "kd_ratio": 0.8,
+        "adr": 71.6,
+        "kast": 61.1,
+        "rating": 0.93,
         "maps": 3
       },
       "form_summary": {
-        "series": 11,
-        "average_rating": 1.07,
-        "average_adr": 78.3,
-        "recent_rating": 1.17,
-        "rating_delta": 0.08
+        "series": 12,
+        "average_rating": 1.05,
+        "average_adr": 77.8,
+        "recent_rating": 1.12,
+        "rating_delta": -0.07
       },
       "map_profile": [],
       "roster_eras": [
         {
           "team_name": "Illyrians",
           "from_date": "2026-10-12",
-          "through_date": "2026-10-21",
-          "series": 11,
+          "through_date": "2026-10-22",
+          "series": 12,
           "wins": 8,
-          "losses": 3,
-          "win_rate": 0.727,
-          "average_rating": 1.07,
-          "average_adr": 78.3
+          "losses": 4,
+          "win_rate": 0.667,
+          "average_rating": 1.05,
+          "average_adr": 77.8
         }
       ],
       "kd_ratio_3m": null,
@@ -68271,7 +68712,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:18788",
-      "nickname": "dan1",
+      "nickname": "Substitute",
       "team_name": "LFO 10",
       "hltv_player_id": "18788",
       "source_url": "https://www.hltv.org/player/18788/dan1",
@@ -68283,12 +68724,12 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "opponent_name": "BAKS",
           "team_name": "LFO 10",
           "won": true,
-          "kills": 24,
-          "deaths": 26,
-          "kd_ratio": 0.92,
-          "adr": 65.5,
-          "kast": 62.5,
-          "rating": 0.91,
+          "kills": 44,
+          "deaths": 35,
+          "kd_ratio": 1.26,
+          "adr": 74.7,
+          "kast": 70.2,
+          "rating": 1.23,
           "maps": 3
         }
       ],
@@ -68299,20 +68740,20 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "opponent_name": "BAKS",
         "team_name": "LFO 10",
         "won": true,
-        "kills": 24,
-        "deaths": 26,
-        "kd_ratio": 0.92,
-        "adr": 65.5,
-        "kast": 62.5,
-        "rating": 0.91,
+        "kills": 44,
+        "deaths": 35,
+        "kd_ratio": 1.26,
+        "adr": 74.7,
+        "kast": 70.2,
+        "rating": 1.23,
         "maps": 3
       },
       "traits": {},
       "form_summary": {
         "series": 1,
-        "average_rating": 0.91,
-        "average_adr": 65.5,
-        "recent_rating": 0.91,
+        "average_rating": 1.23,
+        "average_adr": 74.7,
+        "recent_rating": 1.23,
         "rating_delta": null
       },
       "roster_eras": [
@@ -68324,8 +68765,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "wins": 1,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.91,
-          "average_adr": 65.5
+          "average_rating": 1.23,
+          "average_adr": 74.7
         }
       ],
       "map_profile": [],
@@ -68430,13 +68871,28 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 61.3,
           "rating": 0.81,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "GenOne",
+          "won": false,
+          "kills": 41,
+          "deaths": 50,
+          "kd_ratio": 0.82,
+          "adr": 58.4,
+          "kast": 65.3,
+          "rating": 0.81,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
+        "series": 2,
         "average_rating": 0.81,
-        "average_adr": 57.7,
+        "average_adr": 58,
         "recent_rating": 0.81,
         "rating_delta": null
       },
@@ -68444,13 +68900,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "GenOne",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 1,
+          "through_date": "2026-10-22",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
           "average_rating": 0.81,
-          "average_adr": 57.7
+          "average_adr": 58
         }
       ],
       "map_profile": [],
@@ -68462,7 +68918,22 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_through_date": null,
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
-      "signal_index": null
+      "signal_index": null,
+      "timeline_entry": {
+        "match_id": "hltv:2399327",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Spirit Academy",
+        "team_name": "GenOne",
+        "won": false,
+        "kills": 41,
+        "deaths": 50,
+        "kd_ratio": 0.82,
+        "adr": 58.4,
+        "kast": 65.3,
+        "rating": 0.81,
+        "maps": 3
+      }
     },
     {
       "player_id": "hltv:19738",
@@ -68485,27 +68956,42 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 48.4,
           "rating": 0.44,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "GenOne",
+          "won": false,
+          "kills": 47,
+          "deaths": 49,
+          "kd_ratio": 0.96,
+          "adr": 70,
+          "kast": 76,
+          "rating": 1.03,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.44,
-        "average_adr": 45.3,
-        "recent_rating": 0.44,
+        "series": 2,
+        "average_rating": 0.73,
+        "average_adr": 57.6,
+        "recent_rating": 0.73,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "GenOne",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 1,
+          "through_date": "2026-10-22",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.44,
-          "average_adr": 45.3
+          "average_rating": 0.73,
+          "average_adr": 57.6
         }
       ],
       "map_profile": [],
@@ -68517,7 +69003,22 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_through_date": null,
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
-      "signal_index": null
+      "signal_index": null,
+      "timeline_entry": {
+        "match_id": "hltv:2399327",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Spirit Academy",
+        "team_name": "GenOne",
+        "won": false,
+        "kills": 47,
+        "deaths": 49,
+        "kd_ratio": 0.96,
+        "adr": 70,
+        "kast": 76,
+        "rating": 1.03,
+        "maps": 3
+      }
     },
     {
       "player_id": "hltv:21971",
@@ -68540,27 +69041,42 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 54.8,
           "rating": 0.5,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "GenOne",
+          "won": false,
+          "kills": 57,
+          "deaths": 57,
+          "kd_ratio": 1,
+          "adr": 88,
+          "kast": 76,
+          "rating": 1.26,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.5,
-        "average_adr": 44,
-        "recent_rating": 0.5,
+        "series": 2,
+        "average_rating": 0.88,
+        "average_adr": 66,
+        "recent_rating": 0.88,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "GenOne",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 1,
+          "through_date": "2026-10-22",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.5,
-          "average_adr": 44
+          "average_rating": 0.88,
+          "average_adr": 66
         }
       ],
       "map_profile": [],
@@ -68572,7 +69088,22 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_through_date": null,
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
-      "signal_index": null
+      "signal_index": null,
+      "timeline_entry": {
+        "match_id": "hltv:2399327",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Spirit Academy",
+        "team_name": "GenOne",
+        "won": false,
+        "kills": 57,
+        "deaths": 57,
+        "kd_ratio": 1,
+        "adr": 88,
+        "kast": 76,
+        "rating": 1.26,
+        "maps": 3
+      }
     },
     {
       "player_id": "hltv:15117",
@@ -68595,27 +69126,42 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 58.1,
           "rating": 0.85,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "GenOne",
+          "won": false,
+          "kills": 43,
+          "deaths": 57,
+          "kd_ratio": 0.75,
+          "adr": 64.6,
+          "kast": 57.3,
+          "rating": 0.82,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.85,
-        "average_adr": 71.8,
-        "recent_rating": 0.85,
+        "series": 2,
+        "average_rating": 0.83,
+        "average_adr": 68.2,
+        "recent_rating": 0.83,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "GenOne",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 1,
+          "through_date": "2026-10-22",
+          "series": 2,
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "win_rate": 0,
-          "average_rating": 0.85,
-          "average_adr": 71.8
+          "average_rating": 0.83,
+          "average_adr": 68.2
         }
       ],
       "map_profile": [],
@@ -68627,7 +69173,22 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_through_date": null,
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
-      "signal_index": null
+      "signal_index": null,
+      "timeline_entry": {
+        "match_id": "hltv:2399327",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Spirit Academy",
+        "team_name": "GenOne",
+        "won": false,
+        "kills": 43,
+        "deaths": 57,
+        "kd_ratio": 0.75,
+        "adr": 64.6,
+        "kast": 57.3,
+        "rating": 0.82,
+        "maps": 3
+      }
     },
     {
       "player_id": "hltv:25388",
@@ -68650,27 +69211,127 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 48.4,
           "rating": 0.71,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "GenOne",
+          "won": false,
+          "kills": 49,
+          "deaths": 49,
+          "kd_ratio": 1,
+          "adr": 67.9,
+          "kast": 68,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.71,
-        "average_adr": 65.2,
-        "recent_rating": 0.71,
+        "series": 2,
+        "average_rating": 0.88,
+        "average_adr": 66.6,
+        "recent_rating": 0.88,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "GenOne",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
+          "through_date": "2026-10-22",
+          "series": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0,
+          "average_rating": 0.88,
+          "average_adr": 66.6
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null,
+      "timeline_entry": {
+        "match_id": "hltv:2399327",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Spirit Academy",
+        "team_name": "GenOne",
+        "won": false,
+        "kills": 49,
+        "deaths": 49,
+        "kd_ratio": 1,
+        "adr": 67.9,
+        "kast": 68,
+        "rating": 1.04,
+        "maps": 3
+      }
+    },
+    {
+      "player_id": "hltv:22740",
+      "nickname": "Substitute",
+      "team_name": "Azuolas",
+      "hltv_player_id": "22740",
+      "source_url": "https://www.hltv.org/player/22740/berzius",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399493",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "BAKS",
+          "team_name": "Azuolas",
+          "won": false,
+          "kills": 24,
+          "deaths": 33,
+          "kd_ratio": 0.73,
+          "adr": 50.7,
+          "kast": 57.8,
+          "rating": 0.72,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399493",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "BAKS",
+        "team_name": "Azuolas",
+        "won": false,
+        "kills": 24,
+        "deaths": 33,
+        "kd_ratio": 0.73,
+        "adr": 50.7,
+        "kast": 57.8,
+        "rating": 0.72,
+        "maps": 3
+      },
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.72,
+        "average_adr": 50.7,
+        "recent_rating": 0.72,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "Azuolas",
+          "from_date": "2026-10-22",
+          "through_date": "2026-10-22",
           "series": 1,
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.71,
-          "average_adr": 65.2
+          "average_rating": 0.72,
+          "average_adr": 50.7
         }
       ],
       "map_profile": [],
@@ -68683,11 +69344,146 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
       "signal_index": null
+    },
+    {
+      "player_id": "hltv:11217",
+      "nickname": "SPELLAN",
+      "team_name": "Acend",
+      "hltv_player_id": "11217",
+      "source_url": "https://www.hltv.org/player/11217/spellan",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:11343",
+      "nickname": "SHiPZ",
+      "team_name": "Acend",
+      "hltv_player_id": "11343",
+      "source_url": "https://www.hltv.org/player/11343/shipz",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:15369",
+      "nickname": "REDSTAR",
+      "team_name": "Acend",
+      "hltv_player_id": "15369",
+      "source_url": "https://www.hltv.org/player/15369/redstar",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:15385",
+      "nickname": "KalubeR",
+      "team_name": "Acend",
+      "hltv_player_id": "15385",
+      "source_url": "https://www.hltv.org/player/15385/kaluber",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:21657",
+      "nickname": "Skrimo",
+      "team_name": "Acend",
+      "hltv_player_id": "21657",
+      "source_url": "https://www.hltv.org/player/21657/skrimo",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-22T07:38:56Z",
+  "lineups_updated_at_utc": "2026-10-22T13:47:44Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-21",
+  "history_through_date": "2026-10-22",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
