@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-23T13:29:53Z",
+  "generated_at_utc": "2026-10-23T16:15:23Z",
   "through_date": "2026-10-23",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4104,
-    "maps": 2956,
-    "lineup_rows": 9804,
+    "matches": 4106,
+    "maps": 2959,
+    "lineup_rows": 9824,
     "source_match_ids": 976
   },
   "matches": [
@@ -24,8 +24,8 @@
       "winner_name": "ex-Zero Tenacity",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
@@ -142,6 +142,96 @@
           "BledarD",
           "ammar",
           "rosoneriii"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399498",
+      "match_date": "2026-10-23",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Inner Circle Academy",
+      "team2_name": "Spirit Academy",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Inner Circle Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 9,
+          "score2": 13,
+          "winner_name": "Spirit Academy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Anubis",
+          "score1": 13,
+          "score2": 6,
+          "winner_name": "Inner Circle Academy",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "Inner Circle Academy",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "NaYz",
+          "Flierax",
+          "L1seYoung",
+          "Tamefear",
+          "3ippoch"
+        ],
+        "team2": [
+          "VILBy",
+          "Kiryasoo",
+          "Netrix",
+          "s1nside",
+          "k0gaSs"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399497",
+      "match_date": "2026-10-23",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Walczaki",
+      "team2_name": "mellren",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [
+          "sNx",
+          "SaMey",
+          "olimp",
+          "bajmi",
+          "reiko"
+        ],
+        "team2": [
+          "lollipop21k",
+          "menddel",
+          "mdl",
+          "shootic",
+          "Maksilvl"
         ]
       }
     },
