@@ -3232,8 +3232,10 @@ function playerPortraitHtml(player, className) {
 
 function playerPortraitCreditHtml(player) {
   const portrait = playerPortraitFor(player);
-  if (!portrait) return "";
-  return `<small class="player-photo-credit">Photo: <a href="${escapeHtml(portrait.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(portrait.author)}</a> · <a href="${escapeHtml(portrait.licenseUrl)}" target="_blank" rel="noreferrer">${escapeHtml(portrait.license)}</a></small>`;
+  if (!portrait?.sourceUrl) return "";
+  const label = portrait.creditLabel || portrait.author || "Source";
+  const license = portrait.licenseUrl && portrait.license ? ` · <a href="${escapeHtml(portrait.licenseUrl)}" target="_blank" rel="noreferrer">${escapeHtml(portrait.license)}</a>` : "";
+  return `<small class="player-photo-credit">Image: <a href="${escapeHtml(portrait.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>${license}</small>`;
 }
 
 function playerStatsDate(player) {
