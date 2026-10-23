@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4095,
+    "matches": 4097,
     "maps": 2952,
     "lineup_rows": 9774,
     "source_match_ids": 976
@@ -608,6 +608,50 @@
           "stefienson"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:c9b2db0ff13b8c34555e",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T15:00:00Z",
+      "event_name": "1win Private Club #2",
+      "team1_name": "MongolZ",
+      "team2_name": "PV",
+      "score1": 3,
+      "score2": 0,
+      "winner_name": "MongolZ",
+      "tier": "tier_1",
+      "best_of": 5,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/1win_Private_Club/2#Results"
+    },
+    {
+      "match_id": "liquipedia:1de912b6b7c3e97f258a",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T16:50:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "EF",
+      "team2_name": "SINNERS",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "SINNERS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
     },
     {
       "match_id": "hltv:2399489",
