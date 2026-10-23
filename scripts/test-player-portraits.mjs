@@ -1,0 +1,10 @@
+import assert from "node:assert/strict";
+import { playerPortraitFor } from "../docs/lib/player-portraits.js";
+
+const known = playerPortraitFor({ player_id: "hltv:21167" });
+assert.equal(new URL(known.src).hostname, "img-cdn.hltv.org");
+assert.equal(known.fallbackSrc, undefined);
+const live = playerPortraitFor({ player_id: "hltv:999", portrait_url: "https://img-cdn.hltv.org/playerbodyshot/current.png?s=token", source_url: "https://www.hltv.org/player/999/current" });
+assert.equal(live.creditLabel, "HLTV profile image");
+assert.equal(playerPortraitFor({ player_id: "hltv:998", portrait_url: "https://example.test/playerbodyshot/current.png" }), null);
+console.log("player portraits ok");
