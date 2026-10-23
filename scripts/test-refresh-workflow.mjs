@@ -20,10 +20,7 @@ const position = (needle) => {
 };
 
 assert.match(workflow, /cron: "17 \* \* \* \*"/);
-assert.match(workflow, /ghcr\.io\/flaresolverr\/flaresolverr:v3\.5\.0/);
-assert.doesNotMatch(workflow, /flaresolverr:latest/);
-assert.match(workflow, /server\.py --once --output/);
-assert.match(workflow, /MAX_DETAIL_MATCHES=6/);
+assert.doesNotMatch(workflow, /flaresolverr|docker run|ephemeral=true/i);
 assert.match(workflow, /preserving the last verified release/);
 assert.match(workflow, /from datetime import datetime, timedelta, timezone/);
 assert.match(workflow, /fetched > now \+ timedelta\(minutes=5\)/);
@@ -105,12 +102,17 @@ while [ "$#" -gt 0 ]; do
   shift
 done
 [ "$route" = snapshot ] || exit 22
+[ "\${FAIL_CACHE:-false}" != true ] || exit 22
 cp "$SNAPSHOT_FIXTURE" "$output"
 `, { mode: 0o755 });
-  const acquisition = workflow.slice(position('snapshot_path="$RUNNER_TEMP/live-snapshot.json"'), position('echo "ephemeral=true"'));
+  const acquisition = workflow.slice(position('snapshot_path="$RUNNER_TEMP/live-snapshot.json"'), workflow.indexOf("      - name: Validate freshness"));
   execFileSync("bash", ["-c", acquisition], { env: { ...process.env, PATH: `${fixtureDir}:${process.env.PATH}`, RUNNER_TEMP: fixtureDir, GITHUB_OUTPUT: outputs, SNAPSHOT_FIXTURE: cachedSnapshot }, stdio: "pipe" });
   assert.match(await readFile(outputs, "utf8"), /source=oracle/, "A temporary source-health failure must not discard the worker's verified snapshot or skip its profile cache");
   assert.match(await readFile(outputs, "utf8"), /available=true/);
+  await writeFile(outputs, "");
+  execFileSync("bash", ["-c", acquisition], { env: { ...process.env, PATH: `${fixtureDir}:${process.env.PATH}`, RUNNER_TEMP: fixtureDir, GITHUB_OUTPUT: outputs, SNAPSHOT_FIXTURE: cachedSnapshot, FAIL_CACHE: "true" }, stdio: "pipe" });
+  assert.match(await readFile(outputs, "utf8"), /available=false/, "Unavailable cache must preserve the release without starting a challenge solver or another collection origin");
+
 } finally {
   await rm(fixtureDir, { recursive: true, force: true });
 }

@@ -19,8 +19,7 @@ from bs4 import BeautifulSoup
 from event_policy import product_tier
 
 
-FLARESOLVERR_URL = os.environ.get("FLARESOLVERR_URL", "http://flaresolverr:8191/v1")
-FETCH_BACKEND = os.environ.get("FETCH_BACKEND", "flaresolverr").lower()
+FETCH_BACKEND = os.environ.get("FETCH_BACKEND", "scrapling-http").lower()
 if FETCH_BACKEND not in {"flaresolverr", "scrapling", "scrapling-http"}:
     raise ValueError("FETCH_BACKEND must be flaresolverr, scrapling or scrapling-http")
 HLTV_MATCHES_URL = os.environ.get("HLTV_MATCHES_URL", "https://www.hltv.org/matches")
@@ -616,7 +615,7 @@ async def source_session():
     async with source_lock:
         if FETCH_BACKEND == "scrapling-http":
             from scrapling.fetchers import AsyncFetcher
-            yield SimpleNamespace(get=AsyncFetcher.get, browser_fallbacks=0)
+            yield SimpleNamespace(get=AsyncFetcher.get)
         elif FETCH_BACKEND == "scrapling":
             from scrapling.fetchers import AsyncStealthySession
             # Reuse the browser and source cookies; recycle periodically on the Micro VM.
@@ -626,7 +625,7 @@ async def source_session():
             if not state.get("browser_context"):
                 context = AsyncStealthySession(
                     headless=True, max_pages=1, timeout=REQUEST_TIMEOUT_SECONDS * 1000,
-                    google_search=False, block_ads=True, solve_cloudflare=True, retries=1,
+                    google_search=False, block_ads=True, solve_cloudflare=False, retries=1,
                 )
                 browser = await context.__aenter__()
                 state.update(browser_context=context, browser=browser, source_session_count=0)
@@ -643,23 +642,11 @@ async def source_session():
                 yield session
 
 
-async def fetch_browser_html(url: str) -> str:
-    from scrapling.fetchers import AsyncStealthySession
-    async with AsyncStealthySession(
-        headless=True, max_pages=1, timeout=60000, google_search=False,
-        block_ads=True, solve_cloudflare=True,
-    ) as browser:
-        response = await browser.fetch(url)
-        if response.status != 200:
-            raise RuntimeError(f"Scrapling browser returned HTTP {response.status}")
-        return response.body.decode("utf-8", errors="replace")
-
-
 async def fetch_url(session, url: str, *, allow_browser: bool = True) -> str:
     if FETCH_BACKEND.startswith("scrapling"):
-        async def request_page(solve_cloudflare=False):
+        async def request_page():
             try:
-                request = session.get(url, timeout=REQUEST_TIMEOUT_SECONDS, impersonate="chrome") if FETCH_BACKEND == "scrapling-http" else session.fetch(url, solve_cloudflare=solve_cloudflare, disable_resources=not solve_cloudflare, load_dom=False, network_idle=False)
+                request = session.get(url, timeout=REQUEST_TIMEOUT_SECONDS, impersonate="chrome") if FETCH_BACKEND == "scrapling-http" else session.fetch(url, solve_cloudflare=False, disable_resources=True, load_dom=False, network_idle=False)
                 return await asyncio.wait_for(request, REQUEST_TIMEOUT_SECONDS + 15)
             finally:
                 if FETCH_BACKEND == "scrapling":
@@ -667,27 +654,11 @@ async def fetch_url(session, url: str, *, allow_browser: bool = True) -> str:
                     await session.close_pages()
 
         response = await request_page()
-        if FETCH_BACKEND == "scrapling" and response.status == 403:
-            response = await request_page(solve_cloudflare=True)
-        # Bound browser work on the free 1 GB VM to one blocked page per cycle.
-        # Do not retry rate-limit responses or loop through identities/proxies.
-        if allow_browser and FETCH_BACKEND == "scrapling-http" and response.status == 403 and session.browser_fallbacks < 1:
-            session.browser_fallbacks += 1
-            return await asyncio.wait_for(fetch_browser_html(url), 90)
+        # Access restrictions stop this attempt; callers apply the normal backoff.
         if response.status != 200:
             raise RuntimeError(f"Scrapling source returned HTTP {response.status}")
         return response.body.decode("utf-8", errors="replace")
-    payload = {
-        "cmd": "request.get",
-        "url": url,
-        "maxTimeout": REQUEST_TIMEOUT_SECONDS * 1000,
-    }
-    async with session.post(FLARESOLVERR_URL, json=payload) as response:
-        response.raise_for_status()
-        result = await response.json()
-    if result.get("status") != "ok":
-        raise RuntimeError(f"FlareSolverr request failed: {result.get('message') or result.get('status')}")
-    return (result.get("solution") or {}).get("response") or ""
+    raise RuntimeError("Legacy challenge-solving backend is disabled; configure scrapling-http or scrapling")
 
 
 def wants_detail(match: dict[str, Any], now: datetime) -> bool:
