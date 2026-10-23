@@ -38,3 +38,5 @@ console.log("player compare contract tests ok");
 const currentClosing = comparePlayerProfiles({ ...left, traits: { closing: 29 } }, { ...right, traits: { clutching: 89 } });
 assert.equal(currentClosing.traits.find(row => row.key === "closing").right, null, "Closing must not borrow an older clutching metric");
 assert.equal(currentClosing.traits.find(row => row.key === "clutching").left, null);
+
+assert.equal(currentClosing.trait_lead.tied, 0, "Unavailable metrics are not ties");
