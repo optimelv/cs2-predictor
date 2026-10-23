@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-23T16:15:23Z",
+  "generated_at_utc": "2026-10-23T18:14:20Z",
   "through_date": "2026-10-23",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4106,
-    "maps": 2959,
-    "lineup_rows": 9824,
+    "matches": 4107,
+    "maps": 2962,
+    "lineup_rows": 9834,
     "source_match_ids": 976
   },
   "matches": [
@@ -24,7 +24,7 @@
       "winner_name": "ex-Zero Tenacity",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
@@ -212,8 +212,8 @@
       "winner_name": "mellren",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Completed series",
-      "stage_name": "Completed series",
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,
       "is_elimination": false,
@@ -232,6 +232,62 @@
           "mdl",
           "shootic",
           "Maksilvl"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399333",
+      "match_date": "2026-10-23",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "INOX Division",
+      "team2_name": "Black Phoenix",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "INOX Division",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 7,
+          "score2": 13,
+          "winner_name": "Black Phoenix",
+          "picked_by": null
+        },
+        {
+          "map_name": "Nuke",
+          "score1": 13,
+          "score2": 8,
+          "winner_name": "INOX Division",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 6,
+          "score2": 6,
+          "winner_name": "Black Phoenix",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "El1an",
+          "k0s",
+          "m1QUSE",
+          "k1slll",
+          "finW"
+        ],
+        "team2": [
+          "4X1s",
+          "karnez",
+          "topo",
+          "MRcreed",
+          "Salazar"
         ]
       }
     },
