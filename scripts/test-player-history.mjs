@@ -47,7 +47,7 @@ assert.equal(fresh.rating_3_0, 1.3);
 assert.equal(mergePlayerProfile(fresh, { rating_3_0: .7, stats_from_date: "2026-03-01", stats_through_date: "2026-06-08" }).rating_3_0, 1.3);
 assert.equal(fresh.traits_through_date, "2026-06-08", "Existing traits retain their own source date when ratings move forward");
 
-const verifiedProfile = { player_id: "hltv:21167", nickname: "donk", current_team: "Spirit", verified: true,
+const verifiedProfile = { player_id: "hltv:21167", nickname: "donk", current_team: "Spirit", verified: true, stats_window: "past_3_months",
   rating_3_0: 1.37, maps_3m: 63, source_url: "https://www.hltv.org/player/21167/donk",
   stats_through_date: "2026-10-13", checked_at_utc: "2026-10-14T07:00:00Z", stats_fetched_at_utc: "2026-10-14T06:59:00Z",
   traits: { firepower: 100, entrying: 60, trading: 75, opening: 96, clutching: 48, sniping: 0, utility: 31 } };
@@ -68,7 +68,7 @@ const ratingOnly = refreshPlayerProfiles(refreshed, {
     player_id: "hltv:21167", nickname: "donk", team_name: "Spirit Academy", verified: true,
     source_url: "https://www.hltv.org/player/21167/donk", portrait_url: "https://img-cdn.hltv.org/playerbodyshot/21167.png",
     profile_fetched_at_utc: "2026-10-23T07:59:00Z", rating_3_0: 1.41, maps_3m: 65,
-    kd_ratio_3m: 1.2, stats_through_date: "2026-10-23", stats_fetched_at_utc: "2026-10-23T07:58:00Z",
+    stats_window: "past_3_months", kd_ratio_3m: 1.2, stats_through_date: "2026-10-23", stats_fetched_at_utc: "2026-10-23T07:58:00Z",
     stats_source_url: "https://www.hltv.org/stats/players?startDate=2026-07-23&endDate=2026-10-23",
   }],
 });
@@ -92,3 +92,6 @@ assert.equal(staleProfile.profile_refresh.stale_stats, 1);
 const rejected = refreshPlayerProfiles({ players: [{ ...profile, player_id: "hltv:21167", nickname: "donk" }] }, { ...source, players: [{ ...verifiedProfile, source_url: "https://example.com/player/21167/donk" }] });
 assert.equal(rejected.profile_refresh.invalid, 1, "One malformed cache row must be skipped without discarding the public snapshot");
 assert.equal(rejected.players[0].rating_3_0, 1.2);
+
+const wrongWindow = refreshPlayerProfiles({ players: [{ ...profile, player_id: "hltv:21167", nickname: "donk" }] }, { ...source, players: [{ ...verifiedProfile, stats_window: "career" }] });
+assert.equal(wrongWindow.players[0].rating_3_0, profile.rating_3_0, "Career stats cannot be relabeled as three-month averages");

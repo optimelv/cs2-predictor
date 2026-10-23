@@ -140,6 +140,10 @@ def player_profile_url(player_id: str, source_url: str = "") -> str:
 
 def player_profile_from_html(html: str, player_id: str, source_url: str) -> dict[str, Any]:
     soup = BeautifulSoup(html, "html.parser")
+    identity = soup.select_one('link[rel="canonical"], meta[property="og:url"]')
+    identity_url = str(identity.get("href") or identity.get("content") or "") if identity else ""
+    if not re.search(rf"^https://www\.hltv\.org/player/{re.escape(player_id)}(?:/|$)", identity_url):
+        raise ValueError("Returned page does not verify the requested player identity")
     nickname = text(soup, (".playerNickname", ".player-nickname", "h1 .nickname"))
     real_name = text(soup, (".playerRealname", ".player-realname"))
     country_image = soup.select_one(".player-country img, .playerCountry img")
@@ -159,6 +163,7 @@ def player_profile_from_html(html: str, player_id: str, source_url: str) -> dict
         stats[key] = number
         labels[key] = label
     profile: dict[str, Any] = {
+        "verified": True,
         "player_id": f"hltv:{player_id}",
         "hltv_player_id": player_id,
         "source_url": player_profile_url(player_id, source_url),
@@ -852,7 +857,7 @@ def save_player_profile(candidate: dict[str, str], incoming: dict[str, Any] | No
         existing = json.loads(row[0]) if row and row[0] else {}
         payload = merge_profile_payload(existing, incoming or {})
         has_profile = bool(incoming and any(incoming.get(key) for key in ("nickname", "real_name", "country", "portrait_url", "stats")))
-        has_stats = bool((incoming or {}).get("stats"))
+        has_stats = bool((incoming or {}).get("stats_through_date") and (incoming or {}).get("rating_3_0") is not None)
         has_portrait = bool((incoming or {}).get("portrait_url"))
         retry_seconds = PLAYER_PROFILE_RETRY_SECONDS if error and not incoming else PLAYER_PROFILE_UNAVAILABLE_RETRY_SECONDS if unavailable or (has_profile and (not has_portrait or not has_stats)) else PLAYER_PROFILE_REFRESH_SECONDS
         next_retry = (datetime.now(timezone.utc) + timedelta(seconds=retry_seconds)).isoformat(timespec="seconds").replace("+00:00", "Z")
@@ -880,6 +885,9 @@ async def player_profile_once() -> bool:
         save_player_profile(candidate, profile, error="Profile page contained no recognized profile data." if unavailable else None, unavailable=unavailable)
     except Exception as exc:
         save_player_profile(candidate, None, error=f"{type(exc).__name__}: {str(exc).splitlines()[0] if str(exc) else 'request deadline exceeded'}")
+        if re.search(r"403|captcha|cloudflare", str(exc), re.I):
+            state["player_profile_error"] = "HLTV profile access blocked; preserving verified data and backing off"
+            return False
     return True
 
 
@@ -889,12 +897,16 @@ async def player_profile_refresh_loop() -> None:
     while True:
         try:
             if seeded_at is None or (datetime.now(timezone.utc) - seeded_at).total_seconds() >= PLAYER_SEED_REFRESH_SECONDS:
-                seeded = await fetch_canonical_player_seed()
-                state["player_profiles_seeded"] = len(seeded)
-                state["player_profiles_inserted"] = seed_player_profiles(seeded)
-                seeded_at = datetime.now(timezone.utc)
+                try:
+                    seeded = await fetch_canonical_player_seed()
+                    state["player_profiles_seeded"] = len(seeded)
+                    state["player_profiles_inserted"] = seed_player_profiles(seeded)
+                    seeded_at = datetime.now(timezone.utc)
+                except Exception as exc:
+                    print(json.dumps({"player_profile_seed_error": repr(exc)}), flush=True)
             processed = await player_profile_once()
-            state["player_profile_error"] = None
+            if processed:
+                state["player_profile_error"] = None
         except Exception as exc:
             processed = False
             state["player_profile_error"] = repr(exc)
@@ -908,7 +920,7 @@ def player_profile_payload(path: Path | None = None) -> dict[str, Any]:
     players = []
     for row in rows:
         payload = json.loads(row[4]) if row[4] else {}
-        players.append({**payload, "player_id": row[0], "hltv_player_id": row[1], "nickname": payload.get("nickname") or row[2], "source_url": payload.get("source_url") or row[3],
+        players.append({**payload, "verified": payload.get("verified") is True, "player_id": row[0], "hltv_player_id": row[1], "nickname": payload.get("nickname") or row[2], "source_url": payload.get("source_url") or row[3],
                         "profile_fetched_at_utc": row[5], "stats_fetched_at_utc": row[6], "portrait_checked_at_utc": row[7], "portrait_state": row[8], "stats_state": row[9], "last_attempt_utc": row[10], "last_error": row[11]})
     coverage = {"requested": len(players), "cached": sum(bool(row.get("profile_fetched_at_utc")) for row in players),
                 "attempted": sum(bool(row.get("last_attempt_utc")) for row in players),

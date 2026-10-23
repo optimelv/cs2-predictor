@@ -38,7 +38,7 @@ export function refreshPlayerProfiles(snapshot, source) {
     }
     const existing = byId.get(row.player_id) || {};
     const statsDate = row.stats_through_date;
-    const hasStats = Number.isFinite(row.rating_3_0) && row.rating_3_0 > 0 && row.rating_3_0 < 5
+    const hasStats = row.stats_window === "past_3_months" && Number.isFinite(row.rating_3_0) && row.rating_3_0 > 0 && row.rating_3_0 < 5
       && Number.isInteger(row.maps_3m) && row.maps_3m > 0 && validDate(statsDate)
       && /^\d{4}-\d{2}-\d{2}T/.test(row.stats_fetched_at_utc || "")
       && validHltvUrl(row.stats_source_url || row.source_url);
@@ -82,7 +82,7 @@ export function refreshPlayerProfiles(snapshot, source) {
     && Number(coverage.succeeded) >= coverage.requested && Number(coverage.failed || 0) === 0;
   return { ...snapshot,
     // This legacy field means a complete aggregate-stat sweep, never a partial profile retry.
-    profiles_updated_at_utc: completeCoverage && counters.stats_updates > 0 ? source.checked_at_utc : snapshot.profiles_updated_at_utc,
+    profiles_updated_at_utc: completeCoverage && counters.stats_updates === coverage.requested ? source.checked_at_utc : snapshot.profiles_updated_at_utc,
     profile_refresh: { checked_at_utc: source.checked_at_utc, ...coverage, ...counters },
     players: [...byId.values()].sort((a, b) => (b.rating_3_0 || 0) - (a.rating_3_0 || 0)) };
 }
