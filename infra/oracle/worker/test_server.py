@@ -458,7 +458,7 @@ class WorkerParserTests(unittest.TestCase):
             self.assertEqual(due_player_profile(path)["player_id"], "hltv:7")
             profile = player_profile_from_html('''<div class="playerNickname">Seven</div><div class="player-country"><img alt="Denmark"></div>
                 <div class="playerSummaryStatBox"><span class="summaryStatBreakdownDataLabel">Rating 3.0</span><span class="summaryStatBreakdownDataValue">0.00</span></div>
-                <img src="https://img-cdn.hltv.org/playerbodyshot/seven.png?s=token">''', "7", seed["source_url"])
+                <div class="player-image"><img src="https://img-cdn.hltv.org/playerbodyshot/seven.png?s=token"></div>''', "7", seed["source_url"])
             self.assertEqual(profile["stats"]["rating_3_0"], 0.0)
             save_player_profile(seed, profile, path=path)
             row = player_profile_payload(path)["players"][0]

@@ -44,7 +44,8 @@ PLAYER_CATALOG_URL = os.environ.get("PLAYER_CATALOG_URL", "https://cs2-predictor
 PLAYER_PROFILE_DELAY_SECONDS = max(8, int(os.environ.get("PLAYER_PROFILE_DELAY_SECONDS", "15")))
 PLAYER_PROFILE_RETRY_SECONDS = max(3600, int(os.environ.get("PLAYER_PROFILE_RETRY_SECONDS", "21600")))
 PLAYER_PROFILE_UNAVAILABLE_RETRY_SECONDS = max(86400, int(os.environ.get("PLAYER_PROFILE_UNAVAILABLE_RETRY_SECONDS", "604800")))
-PLAYER_PROFILE_REFRESH_SECONDS = max(604800, int(os.environ.get("PLAYER_PROFILE_REFRESH_SECONDS", "2592000")))
+PLAYER_PROFILE_REFRESH_SECONDS = max(3600, int(os.environ.get("PLAYER_PROFILE_REFRESH_SECONDS", "86400")))
+PLAYER_SEED_REFRESH_SECONDS = max(3600, int(os.environ.get("PLAYER_SEED_REFRESH_SECONDS", "86400")))
 
 state: dict[str, Any] = {
     "snapshot": None,
@@ -143,7 +144,9 @@ def player_profile_from_html(html: str, player_id: str, source_url: str) -> dict
     real_name = text(soup, (".playerRealname", ".player-realname"))
     country_image = soup.select_one(".player-country img, .playerCountry img")
     country = str(country_image.get("alt", "")).strip() if country_image else ""
-    portrait = next((player_portrait_url(image.get("src") or image.get("data-src")) for image in soup.select("img") if player_portrait_url(image.get("src") or image.get("data-src"))), None)
+    # A profile page also contains related-player thumbnails. Only its hero
+    # image can be attached to the requested canonical profile.
+    portrait = next((player_portrait_url(image.get("src") or image.get("data-src")) for image in soup.select(".player-image img, .playerImage img, .player-img img") if player_portrait_url(image.get("src") or image.get("data-src"))), None)
     stats: dict[str, float] = {}
     labels: dict[str, str] = {}
     for row in soup.select(".playerSummaryStatBox, .summaryStat, .stats-row"):
@@ -845,7 +848,7 @@ def due_player_profile(path: Path | None = None) -> dict[str, str] | None:
 def save_player_profile(candidate: dict[str, str], incoming: dict[str, Any] | None, *, error: str | None = None, unavailable: bool = False, path: Path | None = None) -> None:
     now = utc_now()
     with archive_connection(path) as connection:
-        row = connection.execute("SELECT payload FROM player_profiles WHERE player_id=?", (candidate["player_id"],)).fetchone()
+        row = connection.execute("SELECT payload,portrait_state,stats_state FROM player_profiles WHERE player_id=?", (candidate["player_id"],)).fetchone()
         existing = json.loads(row[0]) if row and row[0] else {}
         payload = merge_profile_payload(existing, incoming or {})
         has_profile = bool(incoming and any(incoming.get(key) for key in ("nickname", "real_name", "country", "portrait_url", "stats")))
@@ -853,15 +856,15 @@ def save_player_profile(candidate: dict[str, str], incoming: dict[str, Any] | No
         has_portrait = bool((incoming or {}).get("portrait_url"))
         retry_seconds = PLAYER_PROFILE_RETRY_SECONDS if error and not incoming else PLAYER_PROFILE_UNAVAILABLE_RETRY_SECONDS if unavailable or (has_profile and (not has_portrait or not has_stats)) else PLAYER_PROFILE_REFRESH_SECONDS
         next_retry = (datetime.now(timezone.utc) + timedelta(seconds=retry_seconds)).isoformat(timespec="seconds").replace("+00:00", "Z")
+        portrait_state = "verified" if has_portrait else "unavailable" if unavailable or has_profile else row[1] if row else "retry"
+        stats_state = "verified" if has_stats else "unavailable" if unavailable or has_profile else row[2] if row else "retry"
         connection.execute("""UPDATE player_profiles SET payload=?, nickname=?, source_url=?, last_attempt_utc=?, next_retry_utc=?, last_error=?,
             profile_fetched_at_utc=CASE WHEN ? THEN ? ELSE profile_fetched_at_utc END,
             stats_fetched_at_utc=CASE WHEN ? THEN ? ELSE stats_fetched_at_utc END,
-            portrait_checked_at_utc=?, portrait_state=?, stats_state=? WHERE player_id=?""", (
+            portrait_checked_at_utc=CASE WHEN ? THEN ? ELSE portrait_checked_at_utc END, portrait_state=?, stats_state=? WHERE player_id=?""", (
             json.dumps(payload, ensure_ascii=False, sort_keys=True), str(payload.get("nickname") or candidate["nickname"]),
             str(payload.get("source_url") or candidate["source_url"]), now, next_retry, error,
-            has_profile, now, has_stats, now, now,
-            "verified" if has_portrait else "unavailable" if unavailable or has_profile else "retry",
-            "verified" if has_stats else "unavailable" if unavailable or has_profile else "retry", candidate["player_id"],
+            has_profile, now, has_stats, now, incoming is not None, now, portrait_state, stats_state, candidate["player_id"],
         ))
 
 
@@ -882,17 +885,14 @@ async def player_profile_once() -> bool:
 
 async def player_profile_refresh_loop() -> None:
     await asyncio.sleep(45)
-    try:
-        seeded = await fetch_canonical_player_seed()
-        state["player_profiles_seeded"] = len(seeded)
-        state["player_profiles_inserted"] = seed_player_profiles(seeded)
-        state["player_profile_error"] = None
-    except Exception as exc:
-        state["player_profile_error"] = repr(exc)
-        print(json.dumps({"player_profile_seed_error": state["player_profile_error"]}), flush=True)
-        return
+    seeded_at: datetime | None = None
     while True:
         try:
+            if seeded_at is None or (datetime.now(timezone.utc) - seeded_at).total_seconds() >= PLAYER_SEED_REFRESH_SECONDS:
+                seeded = await fetch_canonical_player_seed()
+                state["player_profiles_seeded"] = len(seeded)
+                state["player_profiles_inserted"] = seed_player_profiles(seeded)
+                seeded_at = datetime.now(timezone.utc)
             processed = await player_profile_once()
             state["player_profile_error"] = None
         except Exception as exc:
