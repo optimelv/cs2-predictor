@@ -1,23 +1,12 @@
 services:
-  flaresolverr:
-    image: ghcr.io/flaresolverr/flaresolverr:v3.5.0
-    restart: unless-stopped
-    environment:
-      LOG_LEVEL: info
-      LOG_HTML: "false"
-      CAPTCHA_SOLVER: none
-    shm_size: 512mb
-    mem_limit: 4g
-
   worker:
     build:
       context: ../..
       dockerfile: infra/oracle/worker/Dockerfile
     restart: unless-stopped
-    depends_on:
-      - flaresolverr
     environment:
-      FLARESOLVERR_URL: http://flaresolverr:8191/v1
+      FETCH_BACKEND: scrapling-http
+      ARCHIVE_BEARER_TOKEN: ${ARCHIVE_BEARER_TOKEN:-}
       HLTV_MATCHES_URL: https://www.hltv.org/matches
       POLL_SECONDS: "300"
       REQUEST_TIMEOUT_SECONDS: "90"

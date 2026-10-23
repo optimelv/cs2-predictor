@@ -50,6 +50,8 @@ The existing Always Free Micro worker also runs historical backfill independentl
 
 For the native systemd worker, `infra/oracle/Caddyfile.native` records the ingress allowlist. Set `WORKER_HOST`, validate the configuration, then reload Caddy. `/player-profiles` must reach the worker: missing or incorrect bearer tokens must return 401, while the cloud publisher uses `ARCHIVE_BEARER_TOKEN`. An omitted route returns 404 and prevents profile publication even when collection succeeds. Player image files stay on the HLTV CDN; raw diagnostic HTML stays on Oracle.
 
+The Docker image installs the pinned HTTP-adapter dependencies and Compose selects `scrapling-http`; no challenge-solving sidecar is started. Set `ARCHIVE_BEARER_TOKEN` in the Compose environment to enable authenticated archive/profile publication. Container CI builds the actual image and checks successful and blocked requests against an internal fixture with external networking disabled.
+
 ## Development
 
 Use Node.js 24 (also used by CI). JSON snapshots live in `docs/data/`; browser bundles loaded by the page live in `docs/vendor/`. The Python exporters and refresh workflow must update both together.
