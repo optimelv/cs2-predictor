@@ -1,0 +1,32 @@
+name: Validate collector container
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "infra/oracle/worker/**"
+      - "infra/oracle/docker-compose.yml"
+      - ".github/workflows/worker-container.yml"
+  pull_request:
+    paths:
+      - "infra/oracle/worker/**"
+      - "infra/oracle/docker-compose.yml"
+      - ".github/workflows/worker-container.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate deployment configuration
+        env:
+          WORKER_HOST: collector.invalid
+        run: docker compose -f infra/oracle/docker-compose.yml config --quiet
+      - name: Build the deployable collector
+        run: docker build -f infra/oracle/worker/Dockerfile -t strikesignal-collector-test .
+      - name: Exercise the packaged adapter without external network access
+        run: docker run --rm --network none -e PYTHONPATH=/app -v "$PWD/infra/oracle/worker/smoke_container.py:/tmp/smoke_container.py:ro" strikesignal-collector-test python /tmp/smoke_container.py
