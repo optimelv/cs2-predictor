@@ -4306,6 +4306,88 @@
       "stats_source_url": "https://www.hltv.org/player/10394/twistzz"
     },
     {
+      "player_id": "hltv:17997",
+      "nickname": "lenci",
+      "team_name": "Procyon",
+      "rating_3_0": 1.19,
+      "maps_3m": 69,
+      "signal_index": 71,
+      "traits": {
+        "closing": 41,
+        "entrying": 66,
+        "firepower": 85,
+        "opening": 48,
+        "sniping": 4,
+        "trading": 76,
+        "utility": 82
+      },
+      "hltv_player_id": "17997",
+      "source_url": "https://www.hltv.org/player/17997/lenci",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399458",
+          "date": "2026-10-13",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Hacha",
+          "team_name": "Procyon",
+          "won": true,
+          "kills": 26,
+          "deaths": 13,
+          "kd_ratio": 2,
+          "adr": 97.6,
+          "kast": 96.7,
+          "rating": 1.68,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Procyon",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-13",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.68,
+          "average_adr": 97.6
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399458",
+        "date": "2026-10-13",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "Hacha",
+        "team_name": "Procyon",
+        "won": true,
+        "kills": 26,
+        "deaths": 13,
+        "kd_ratio": 2,
+        "adr": 97.6,
+        "kast": 96.7,
+        "rating": 1.68,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.68,
+        "average_adr": 97.6,
+        "recent_rating": 1.68,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-10-23T19:00:48Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/QDmNqUGsC0iZlAeIUi7bEV.png?ixlib=java-2.1.0&w=400&s=1eacccf16b85e0a10faf6414d097a127",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T19:00:48Z",
+      "stats_source_url": "https://www.hltv.org/player/17997/lenci",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
+    },
+    {
       "player_id": "hltv:25390",
       "nickname": "Kiryasoo",
       "team_name": "Spirit Academy",
@@ -6827,17 +6909,17 @@
       "source_team_name": "MOUZ",
       "source_team_rank": 8,
       "rating_3_0": 1.15,
-      "maps_3m": 61,
+      "maps_3m": 59,
       "traits": {
-        "firepower": 70,
+        "closing": 77,
         "entrying": 35,
-        "trading": 61,
-        "opening": 53,
-        "clutching": 59,
+        "firepower": 73,
+        "opening": 37,
         "sniping": 0,
-        "utility": 39
+        "trading": 67,
+        "utility": 32
       },
-      "signal_index": 63,
+      "signal_index": 64,
       "source_url": "https://www.hltv.org/player/18221/spinx",
       "form_timeline": [
         {
@@ -7118,9 +7200,13 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.313Z",
-      "stats_source_url": "https://www.hltv.org/player/18221/spinx"
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T19:07:33Z",
+      "stats_source_url": "https://www.hltv.org/player/18221/spinx",
+      "profile_fetched_at_utc": "2026-10-23T19:07:33Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/hm9ckLb3eD78VZSpRT8sH-.png?ixlib=java-2.1.0&w=400&s=8e01a31490335fe56f469e2ea186c31a",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:23397",
@@ -7530,17 +7616,17 @@
       "player_id": "hltv:18223",
       "nickname": "PokemoN",
       "team_name": "Alter Ego",
-      "rating_3_0": 1.15,
-      "maps_3m": 40,
-      "signal_index": 67,
+      "rating_3_0": 1.14,
+      "maps_3m": 43,
+      "signal_index": 64,
       "traits": {
-        "firepower": 81,
-        "entrying": 62,
-        "trading": 37,
-        "opening": 69,
-        "clutching": 42,
-        "sniping": 0,
-        "utility": 70
+        "closing": 33,
+        "entrying": 55,
+        "firepower": 73,
+        "opening": 60,
+        "sniping": 2,
+        "trading": 44,
+        "utility": 60
       },
       "form_timeline": [
         {
@@ -7645,9 +7731,13 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.346Z",
-      "stats_source_url": "https://www.hltv.org/player/18223/pokemon"
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T19:07:57Z",
+      "stats_source_url": "https://www.hltv.org/player/18223/pokemon",
+      "profile_fetched_at_utc": "2026-10-23T19:07:57Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/6sNWHBSc0PGByuVfUnj39U.png?ixlib=java-2.1.0&w=400&s=54a76193f9f84449960aeb7e5bb1d6d6",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:20127",
@@ -10571,310 +10661,6 @@
       "stats_source_url": "https://www.hltv.org/player/21243/wicadia"
     },
     {
-      "player_id": "hltv:18072",
-      "hltv_player_id": "18072",
-      "nickname": "torzsi",
-      "real_name": "Ádám Torzsás",
-      "team_name": "MOUZ",
-      "source_team_name": "MOUZ",
-      "source_team_rank": 8,
-      "rating_3_0": 1.12,
-      "maps_3m": 61,
-      "traits": {
-        "firepower": 59,
-        "entrying": 24,
-        "trading": 54,
-        "opening": 39,
-        "clutching": 66,
-        "sniping": 92,
-        "utility": 58
-      },
-      "signal_index": 68,
-      "source_url": "https://www.hltv.org/player/18072/torzsi",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2384854",
-          "date": "2025-09-06",
-          "event_name": "BLAST Open London 2025 Finals",
-          "opponent_name": "Vitality",
-          "team_name": "MOUZ",
-          "won": false,
-          "kills": 9,
-          "deaths": 16,
-          "kd_ratio": 0.56,
-          "adr": 45.5,
-          "kast": 61.9,
-          "rating": 0.65
-        },
-        {
-          "match_id": "hltv:2391107",
-          "date": "2026-03-06",
-          "event_name": "ESL Pro League Season 23 Stage 2",
-          "opponent_name": "HEROIC",
-          "team_name": "MOUZ",
-          "won": true,
-          "kills": 15,
-          "deaths": 21,
-          "kd_ratio": 0.71,
-          "adr": 52.3,
-          "kast": 61.5,
-          "rating": 0.71
-        },
-        {
-          "match_id": "hltv:2391113",
-          "date": "2026-03-07",
-          "event_name": "ESL Pro League Season 23 Stage 2",
-          "opponent_name": "Astralis",
-          "team_name": "MOUZ",
-          "won": true,
-          "kills": 10,
-          "deaths": 20,
-          "kd_ratio": 0.5,
-          "adr": 30.1,
-          "kast": 64.5,
-          "rating": 0.79
-        },
-        {
-          "match_id": "hltv:2391121",
-          "date": "2026-03-08",
-          "event_name": "ESL Pro League Season 23 Stage 2",
-          "opponent_name": "The MongolZ",
-          "team_name": "MOUZ",
-          "won": true,
-          "kills": 15,
-          "deaths": 5,
-          "kd_ratio": 3,
-          "adr": 92.4,
-          "kast": 78.6,
-          "rating": 2.19
-        },
-        {
-          "match_id": "hltv:2391136",
-          "date": "2026-03-13",
-          "event_name": "ESL Pro League Season 23 Finals",
-          "opponent_name": "FUT",
-          "team_name": "MOUZ",
-          "won": false,
-          "kills": 25,
-          "deaths": 24,
-          "kd_ratio": 1.04,
-          "adr": 67.4,
-          "kast": 69.4,
-          "rating": 1.03
-        },
-        {
-          "match_id": "hltv:2394200",
-          "date": "2026-05-20",
-          "event_name": "CS Asia Championships 2026",
-          "opponent_name": "TYLOO",
-          "team_name": "MOUZ",
-          "won": false,
-          "kills": 3,
-          "deaths": 4,
-          "kd_ratio": 0.75,
-          "adr": 44.1,
-          "kast": 75,
-          "rating": 0.82
-        },
-        {
-          "match_id": "hltv:2394211",
-          "date": "2026-05-21",
-          "event_name": "CS Asia Championships 2026",
-          "opponent_name": "NRG",
-          "team_name": "MOUZ",
-          "won": true,
-          "kills": 26,
-          "deaths": 17,
-          "kd_ratio": 1.53,
-          "adr": 66.1,
-          "kast": 69.7,
-          "rating": 1.4
-        },
-        {
-          "match_id": "hltv:2394215",
-          "date": "2026-05-21",
-          "event_name": "CS Asia Championships 2026",
-          "opponent_name": "M80",
-          "team_name": "MOUZ",
-          "won": true,
-          "kills": 9,
-          "deaths": 14,
-          "kd_ratio": 0.64,
-          "adr": 43.7,
-          "kast": 57.9,
-          "rating": 0.63
-        },
-        {
-          "match_id": "hltv:2394220",
-          "date": "2026-05-22",
-          "event_name": "CS Asia Championships 2026",
-          "opponent_name": "paiN",
-          "team_name": "MOUZ",
-          "won": true,
-          "kills": 14,
-          "deaths": 8,
-          "kd_ratio": 1.75,
-          "adr": 81.9,
-          "kast": 82.4,
-          "rating": 1.4
-        },
-        {
-          "match_id": "hltv:2394224",
-          "date": "2026-05-22",
-          "event_name": "CS Asia Championships 2026",
-          "opponent_name": "B8",
-          "team_name": "MOUZ",
-          "won": true,
-          "kills": 17,
-          "deaths": 26,
-          "kd_ratio": 0.65,
-          "adr": 44.8,
-          "kast": 60.6,
-          "rating": 0.76
-        },
-        {
-          "match_id": "hltv:2394225",
-          "date": "2026-05-23",
-          "event_name": "CS Asia Championships 2026",
-          "opponent_name": "Falcons",
-          "team_name": "MOUZ",
-          "won": false,
-          "kills": 18,
-          "deaths": 22,
-          "kd_ratio": 0.82,
-          "adr": 54.8,
-          "kast": 59.4,
-          "rating": 0.86
-        },
-        {
-          "match_id": "hltv:2394227",
-          "date": "2026-05-24",
-          "event_name": "CS Asia Championships 2026",
-          "opponent_name": "MIBR",
-          "team_name": "MOUZ",
-          "won": true,
-          "kills": 9,
-          "deaths": 5,
-          "kd_ratio": 1.8,
-          "adr": 70.4,
-          "kast": 100,
-          "rating": 1.54
-        }
-      ],
-      "form_summary": {
-        "series": 12,
-        "average_rating": 1.07,
-        "average_adr": 57.8,
-        "recent_rating": 1.05,
-        "rating_delta": -0.09
-      },
-      "map_profile": [
-        {
-          "map_name": "Overpass",
-          "maps": 7,
-          "wins": 6,
-          "losses": 1,
-          "win_rate": 0.857,
-          "kills": 48,
-          "deaths": 36,
-          "kd_ratio": 1.33,
-          "average_rating": 1.36,
-          "average_adr": 64.4,
-          "average_kast": 84.5,
-          "last_date": "2026-05-24"
-        },
-        {
-          "map_name": "Mirage",
-          "maps": 7,
-          "wins": 4,
-          "losses": 3,
-          "win_rate": 0.571,
-          "kills": 41,
-          "deaths": 44,
-          "kd_ratio": 0.93,
-          "average_rating": 0.93,
-          "average_adr": 45.1,
-          "average_kast": 71,
-          "last_date": "2026-05-23"
-        },
-        {
-          "map_name": "Ancient",
-          "maps": 5,
-          "wins": 5,
-          "losses": 0,
-          "win_rate": 1,
-          "kills": 27,
-          "deaths": 37,
-          "kd_ratio": 0.73,
-          "average_rating": 1.98,
-          "average_adr": 93.8,
-          "average_kast": 72.1,
-          "last_date": "2026-05-24"
-        },
-        {
-          "map_name": "Inferno",
-          "maps": 4,
-          "wins": 2,
-          "losses": 2,
-          "win_rate": 0.5,
-          "kills": 11,
-          "deaths": 25,
-          "kd_ratio": 0.44,
-          "average_rating": 0.59,
-          "average_adr": 40.2,
-          "average_kast": 61.8,
-          "last_date": "2026-05-21"
-        },
-        {
-          "map_name": "Nuke",
-          "maps": 3,
-          "wins": 2,
-          "losses": 1,
-          "win_rate": 0.667,
-          "kills": 24,
-          "deaths": 19,
-          "kd_ratio": 1.26,
-          "average_rating": 1.56,
-          "average_adr": 86.3,
-          "average_kast": 75,
-          "last_date": "2026-05-23"
-        },
-        {
-          "map_name": "Dust2",
-          "maps": 3,
-          "wins": 1,
-          "losses": 2,
-          "win_rate": 0.333,
-          "kills": 19,
-          "deaths": 21,
-          "kd_ratio": 0.9,
-          "average_rating": 0.78,
-          "average_adr": 64,
-          "average_kast": 55.6,
-          "last_date": "2026-05-23"
-        }
-      ],
-      "roster_eras": [
-        {
-          "team_name": "MOUZ",
-          "from_date": "2025-09-06",
-          "through_date": "2026-05-24",
-          "series": 12,
-          "wins": 8,
-          "losses": 4,
-          "win_rate": 0.667,
-          "average_rating": 1.07,
-          "average_adr": 57.8
-        }
-      ],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.313Z",
-      "stats_source_url": "https://www.hltv.org/player/18072/torzsi"
-    },
-    {
       "player_id": "hltv:22040",
       "nickname": "z1Nny",
       "team_name": "BET-M",
@@ -11574,16 +11360,16 @@
       "nickname": "Walco",
       "team_name": "EMPIRE",
       "rating_3_0": 1.12,
-      "maps_3m": 27,
-      "signal_index": 65,
+      "maps_3m": 35,
+      "signal_index": 67,
       "traits": {
-        "firepower": 79,
-        "entrying": 32,
-        "trading": 72,
-        "opening": 36,
-        "clutching": 49,
+        "closing": 68,
+        "entrying": 39,
+        "firepower": 64,
+        "opening": 41,
         "sniping": 1,
-        "utility": 88
+        "trading": 69,
+        "utility": 93
       },
       "form_timeline": [],
       "hltv_player_id": "17929",
@@ -11593,8 +11379,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.343Z",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:59:52Z",
       "stats_source_url": "https://www.hltv.org/player/17929/walco",
       "form_summary": {
         "series": 0,
@@ -11602,7 +11388,11 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-10-23T18:59:52Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/wp9zYvhjC5iyhDuHLSpz2Z.png?ixlib=java-2.1.0&w=400&s=4fe983cbb180d1c2274139e7fe749915",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:21584",
@@ -11761,41 +11551,6 @@
       "stats_through_date": "2026-10-14",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.344Z",
       "stats_source_url": "https://www.hltv.org/player/21120/jason"
-    },
-    {
-      "player_id": "hltv:17861",
-      "nickname": "JOTA",
-      "team_name": "Unattached",
-      "rating_3_0": 1.12,
-      "maps_3m": 3,
-      "signal_index": 72,
-      "traits": {
-        "firepower": 68,
-        "entrying": 65,
-        "trading": 65,
-        "opening": 79,
-        "clutching": 67,
-        "sniping": 1,
-        "utility": 96
-      },
-      "form_timeline": [],
-      "hltv_player_id": "17861",
-      "source_url": "https://www.hltv.org/player/17861/jota",
-      "map_profile": [],
-      "roster_eras": [],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-10",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.345Z",
-      "stats_source_url": "https://www.hltv.org/player/17861/jota",
-      "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
-        "rating_delta": null
-      }
     },
     {
       "player_id": "hltv:22650",
@@ -15160,6 +14915,391 @@
       "signal_index_through_date": "2026-10-13"
     },
     {
+      "player_id": "hltv:17845",
+      "nickname": "Shooter",
+      "team_name": "Desi Boyz",
+      "rating_3_0": 1.11,
+      "maps_3m": 37,
+      "signal_index": 71,
+      "traits": {
+        "closing": 39,
+        "entrying": 68,
+        "firepower": 64,
+        "opening": 66,
+        "sniping": 93,
+        "trading": 75,
+        "utility": 23
+      },
+      "form_timeline": [],
+      "hltv_player_id": "17845",
+      "source_url": "https://www.hltv.org/player/17845/shooter",
+      "map_profile": [],
+      "roster_eras": [],
+      "profile_fetched_at_utc": "2026-10-23T18:58:58Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:58:58Z",
+      "stats_source_url": "https://www.hltv.org/player/17845/shooter",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      }
+    },
+    {
+      "player_id": "hltv:18072",
+      "hltv_player_id": "18072",
+      "nickname": "torzsi",
+      "real_name": "Ádám Torzsás",
+      "team_name": "MOUZ",
+      "source_team_name": "MOUZ",
+      "source_team_rank": 8,
+      "rating_3_0": 1.1,
+      "maps_3m": 59,
+      "traits": {
+        "closing": 67,
+        "entrying": 49,
+        "firepower": 56,
+        "opening": 23,
+        "sniping": 92,
+        "trading": 64,
+        "utility": 64
+      },
+      "signal_index": 69,
+      "source_url": "https://www.hltv.org/player/18072/torzsi",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2384854",
+          "date": "2025-09-06",
+          "event_name": "BLAST Open London 2025 Finals",
+          "opponent_name": "Vitality",
+          "team_name": "MOUZ",
+          "won": false,
+          "kills": 9,
+          "deaths": 16,
+          "kd_ratio": 0.56,
+          "adr": 45.5,
+          "kast": 61.9,
+          "rating": 0.65
+        },
+        {
+          "match_id": "hltv:2391107",
+          "date": "2026-03-06",
+          "event_name": "ESL Pro League Season 23 Stage 2",
+          "opponent_name": "HEROIC",
+          "team_name": "MOUZ",
+          "won": true,
+          "kills": 15,
+          "deaths": 21,
+          "kd_ratio": 0.71,
+          "adr": 52.3,
+          "kast": 61.5,
+          "rating": 0.71
+        },
+        {
+          "match_id": "hltv:2391113",
+          "date": "2026-03-07",
+          "event_name": "ESL Pro League Season 23 Stage 2",
+          "opponent_name": "Astralis",
+          "team_name": "MOUZ",
+          "won": true,
+          "kills": 10,
+          "deaths": 20,
+          "kd_ratio": 0.5,
+          "adr": 30.1,
+          "kast": 64.5,
+          "rating": 0.79
+        },
+        {
+          "match_id": "hltv:2391121",
+          "date": "2026-03-08",
+          "event_name": "ESL Pro League Season 23 Stage 2",
+          "opponent_name": "The MongolZ",
+          "team_name": "MOUZ",
+          "won": true,
+          "kills": 15,
+          "deaths": 5,
+          "kd_ratio": 3,
+          "adr": 92.4,
+          "kast": 78.6,
+          "rating": 2.19
+        },
+        {
+          "match_id": "hltv:2391136",
+          "date": "2026-03-13",
+          "event_name": "ESL Pro League Season 23 Finals",
+          "opponent_name": "FUT",
+          "team_name": "MOUZ",
+          "won": false,
+          "kills": 25,
+          "deaths": 24,
+          "kd_ratio": 1.04,
+          "adr": 67.4,
+          "kast": 69.4,
+          "rating": 1.03
+        },
+        {
+          "match_id": "hltv:2394200",
+          "date": "2026-05-20",
+          "event_name": "CS Asia Championships 2026",
+          "opponent_name": "TYLOO",
+          "team_name": "MOUZ",
+          "won": false,
+          "kills": 3,
+          "deaths": 4,
+          "kd_ratio": 0.75,
+          "adr": 44.1,
+          "kast": 75,
+          "rating": 0.82
+        },
+        {
+          "match_id": "hltv:2394211",
+          "date": "2026-05-21",
+          "event_name": "CS Asia Championships 2026",
+          "opponent_name": "NRG",
+          "team_name": "MOUZ",
+          "won": true,
+          "kills": 26,
+          "deaths": 17,
+          "kd_ratio": 1.53,
+          "adr": 66.1,
+          "kast": 69.7,
+          "rating": 1.4
+        },
+        {
+          "match_id": "hltv:2394215",
+          "date": "2026-05-21",
+          "event_name": "CS Asia Championships 2026",
+          "opponent_name": "M80",
+          "team_name": "MOUZ",
+          "won": true,
+          "kills": 9,
+          "deaths": 14,
+          "kd_ratio": 0.64,
+          "adr": 43.7,
+          "kast": 57.9,
+          "rating": 0.63
+        },
+        {
+          "match_id": "hltv:2394220",
+          "date": "2026-05-22",
+          "event_name": "CS Asia Championships 2026",
+          "opponent_name": "paiN",
+          "team_name": "MOUZ",
+          "won": true,
+          "kills": 14,
+          "deaths": 8,
+          "kd_ratio": 1.75,
+          "adr": 81.9,
+          "kast": 82.4,
+          "rating": 1.4
+        },
+        {
+          "match_id": "hltv:2394224",
+          "date": "2026-05-22",
+          "event_name": "CS Asia Championships 2026",
+          "opponent_name": "B8",
+          "team_name": "MOUZ",
+          "won": true,
+          "kills": 17,
+          "deaths": 26,
+          "kd_ratio": 0.65,
+          "adr": 44.8,
+          "kast": 60.6,
+          "rating": 0.76
+        },
+        {
+          "match_id": "hltv:2394225",
+          "date": "2026-05-23",
+          "event_name": "CS Asia Championships 2026",
+          "opponent_name": "Falcons",
+          "team_name": "MOUZ",
+          "won": false,
+          "kills": 18,
+          "deaths": 22,
+          "kd_ratio": 0.82,
+          "adr": 54.8,
+          "kast": 59.4,
+          "rating": 0.86
+        },
+        {
+          "match_id": "hltv:2394227",
+          "date": "2026-05-24",
+          "event_name": "CS Asia Championships 2026",
+          "opponent_name": "MIBR",
+          "team_name": "MOUZ",
+          "won": true,
+          "kills": 9,
+          "deaths": 5,
+          "kd_ratio": 1.8,
+          "adr": 70.4,
+          "kast": 100,
+          "rating": 1.54
+        }
+      ],
+      "form_summary": {
+        "series": 12,
+        "average_rating": 1.07,
+        "average_adr": 57.8,
+        "recent_rating": 1.05,
+        "rating_delta": -0.09
+      },
+      "map_profile": [
+        {
+          "map_name": "Overpass",
+          "maps": 7,
+          "wins": 6,
+          "losses": 1,
+          "win_rate": 0.857,
+          "kills": 48,
+          "deaths": 36,
+          "kd_ratio": 1.33,
+          "average_rating": 1.36,
+          "average_adr": 64.4,
+          "average_kast": 84.5,
+          "last_date": "2026-05-24"
+        },
+        {
+          "map_name": "Mirage",
+          "maps": 7,
+          "wins": 4,
+          "losses": 3,
+          "win_rate": 0.571,
+          "kills": 41,
+          "deaths": 44,
+          "kd_ratio": 0.93,
+          "average_rating": 0.93,
+          "average_adr": 45.1,
+          "average_kast": 71,
+          "last_date": "2026-05-23"
+        },
+        {
+          "map_name": "Ancient",
+          "maps": 5,
+          "wins": 5,
+          "losses": 0,
+          "win_rate": 1,
+          "kills": 27,
+          "deaths": 37,
+          "kd_ratio": 0.73,
+          "average_rating": 1.98,
+          "average_adr": 93.8,
+          "average_kast": 72.1,
+          "last_date": "2026-05-24"
+        },
+        {
+          "map_name": "Inferno",
+          "maps": 4,
+          "wins": 2,
+          "losses": 2,
+          "win_rate": 0.5,
+          "kills": 11,
+          "deaths": 25,
+          "kd_ratio": 0.44,
+          "average_rating": 0.59,
+          "average_adr": 40.2,
+          "average_kast": 61.8,
+          "last_date": "2026-05-21"
+        },
+        {
+          "map_name": "Nuke",
+          "maps": 3,
+          "wins": 2,
+          "losses": 1,
+          "win_rate": 0.667,
+          "kills": 24,
+          "deaths": 19,
+          "kd_ratio": 1.26,
+          "average_rating": 1.56,
+          "average_adr": 86.3,
+          "average_kast": 75,
+          "last_date": "2026-05-23"
+        },
+        {
+          "map_name": "Dust2",
+          "maps": 3,
+          "wins": 1,
+          "losses": 2,
+          "win_rate": 0.333,
+          "kills": 19,
+          "deaths": 21,
+          "kd_ratio": 0.9,
+          "average_rating": 0.78,
+          "average_adr": 64,
+          "average_kast": 55.6,
+          "last_date": "2026-05-23"
+        }
+      ],
+      "roster_eras": [
+        {
+          "team_name": "MOUZ",
+          "from_date": "2025-09-06",
+          "through_date": "2026-05-24",
+          "series": 12,
+          "wins": 8,
+          "losses": 4,
+          "win_rate": 0.667,
+          "average_rating": 1.07,
+          "average_adr": 57.8
+        }
+      ],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T19:04:20Z",
+      "stats_source_url": "https://www.hltv.org/player/18072/torzsi",
+      "profile_fetched_at_utc": "2026-10-23T19:04:20Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/g9uOgg5eleoDQBL3oISgCU.png?ixlib=java-2.1.0&w=400&s=c2e49b3335e46e1f0ad6ee145563b566",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
+    },
+    {
+      "player_id": "hltv:17861",
+      "nickname": "JOTA",
+      "team_name": "Unattached",
+      "rating_3_0": 1.1,
+      "maps_3m": 11,
+      "signal_index": 67,
+      "traits": {
+        "closing": 25,
+        "entrying": 45,
+        "firepower": 67,
+        "opening": 70,
+        "sniping": 4,
+        "trading": 72,
+        "utility": 97
+      },
+      "form_timeline": [],
+      "hltv_player_id": "17861",
+      "source_url": "https://www.hltv.org/player/17861/jota",
+      "map_profile": [],
+      "roster_eras": [],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:59:26Z",
+      "stats_source_url": "https://www.hltv.org/player/17861/jota",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-10-23T18:59:26Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/edmWYsY1FnBxtimxWJ-IqN.png?ixlib=java-2.1.0&w=400&s=89b10a44dda7ad9d5de4cbf862369a32",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
+    },
+    {
       "player_id": "hltv:15698",
       "hltv_player_id": "15698",
       "nickname": "dumau",
@@ -18422,16 +18562,16 @@
       "nickname": "jabbi",
       "team_name": "Astralis",
       "rating_3_0": 1.09,
-      "maps_3m": 65,
-      "signal_index": 61,
+      "maps_3m": 57,
+      "signal_index": 63,
       "traits": {
+        "closing": 61,
+        "entrying": 45,
         "firepower": 68,
-        "entrying": 44,
-        "trading": 59,
-        "opening": 49,
-        "clutching": 48,
-        "sniping": 1,
-        "utility": 48
+        "opening": 34,
+        "sniping": 7,
+        "trading": 68,
+        "utility": 62
       },
       "hltv_player_id": "17956",
       "source_url": "https://www.hltv.org/player/17956/jabbi",
@@ -18441,8 +18581,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.319Z",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T19:00:19Z",
       "stats_source_url": "https://www.hltv.org/player/17956/jabbi",
       "form_summary": {
         "series": 0,
@@ -18450,7 +18590,11 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-10-23T19:00:19Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/7bTtwNmavStWwqn7h2Wo7T.png?ixlib=java-2.1.0&w=400&s=817da87988437e1bb23e940a12fe5a65",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:12822",
@@ -18591,12 +18735,12 @@
           "opponent_name": "FORZE Reload",
           "team_name": "Rune Eaters",
           "won": false,
-          "kills": 18,
-          "deaths": 14,
-          "kd_ratio": 1.29,
-          "adr": 85.7,
-          "kast": 69.6,
-          "rating": 1.43,
+          "kills": 33,
+          "deaths": 27,
+          "kd_ratio": 1.22,
+          "adr": 85.2,
+          "kast": 68.3,
+          "rating": 1.42,
           "maps": 3
         }
       ],
@@ -18610,8 +18754,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 1.43,
-          "average_adr": 85.7
+          "average_rating": 1.42,
+          "average_adr": 85.2
         }
       ],
       "kd_ratio_3m": null,
@@ -18622,28 +18766,29 @@
       "stats_source_url": "https://www.hltv.org/player/23598/noni",
       "form_summary": {
         "series": 1,
-        "average_rating": 1.43,
-        "average_adr": 85.7,
-        "recent_rating": 1.43,
+        "average_rating": 1.42,
+        "average_adr": 85.2,
+        "recent_rating": 1.42,
         "rating_delta": null
       },
       "timeline_entry": {
-        "adr": 85.7,
+        "adr": 85.2,
         "date": "2026-10-22",
-        "deaths": 14,
+        "deaths": 27,
         "event_name": "CCT 2026 Europe Series 11",
-        "kast": 69.6,
-        "kd_ratio": 1.29,
-        "kills": 18,
+        "kast": 68.3,
+        "kd_ratio": 1.22,
+        "kills": 33,
         "maps": 3,
         "match_id": "hltv:2399330",
         "opponent_name": "FORZE Reload",
-        "rating": 1.43,
+        "rating": 1.42,
         "team_name": "Rune Eaters",
         "won": false
       },
       "traits_through_date": "2026-10-13",
-      "signal_index_through_date": "2026-10-13"
+      "signal_index_through_date": "2026-10-13",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/ATITn2DVpuDOJkThad3bHr.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=6b627f8d6b3d56d35d474b1a1b3c1c3d"
     },
     {
       "player_id": "hltv:21023",
@@ -24766,12 +24911,12 @@
           "opponent_name": "FORZE Reload",
           "team_name": "Rune Eaters",
           "won": false,
-          "kills": 14,
-          "deaths": 17,
-          "kd_ratio": 0.82,
-          "adr": 66.7,
-          "kast": 52.2,
-          "rating": 0.78,
+          "kills": 23,
+          "deaths": 32,
+          "kd_ratio": 0.72,
+          "adr": 64.8,
+          "kast": 51.2,
+          "rating": 0.72,
           "maps": 3
         }
       ],
@@ -24785,8 +24930,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.78,
-          "average_adr": 66.7
+          "average_rating": 0.72,
+          "average_adr": 64.8
         }
       ],
       "kd_ratio_3m": null,
@@ -24797,28 +24942,29 @@
       "stats_source_url": "https://www.hltv.org/player/23599/forkyz",
       "form_summary": {
         "series": 1,
-        "average_rating": 0.78,
-        "average_adr": 66.7,
-        "recent_rating": 0.78,
+        "average_rating": 0.72,
+        "average_adr": 64.8,
+        "recent_rating": 0.72,
         "rating_delta": null
       },
       "timeline_entry": {
-        "adr": 66.7,
+        "adr": 64.8,
         "date": "2026-10-22",
-        "deaths": 17,
+        "deaths": 32,
         "event_name": "CCT 2026 Europe Series 11",
-        "kast": 52.2,
-        "kd_ratio": 0.82,
-        "kills": 14,
+        "kast": 51.2,
+        "kd_ratio": 0.72,
+        "kills": 23,
         "maps": 3,
         "match_id": "hltv:2399330",
         "opponent_name": "FORZE Reload",
-        "rating": 0.78,
+        "rating": 0.72,
         "team_name": "Rune Eaters",
         "won": false
       },
       "traits_through_date": "2026-10-13",
-      "signal_index_through_date": "2026-10-13"
+      "signal_index_through_date": "2026-10-13",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/4aetCKsojITiQvt6RQZPJ8.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=d1d93f305ef52dd7751f3eb1c95acd9a"
     },
     {
       "player_id": "hltv:25495",
@@ -29099,6 +29245,268 @@
         "recent_rating": null,
         "rating_delta": null
       }
+    },
+    {
+      "player_id": "hltv:18119",
+      "nickname": "cerber",
+      "team_name": "Illyrians",
+      "rating_3_0": 1.05,
+      "maps_3m": 129,
+      "signal_index": 61,
+      "traits": {
+        "closing": 36,
+        "entrying": 53,
+        "firepower": 65,
+        "opening": 57,
+        "sniping": 4,
+        "trading": 61,
+        "utility": 52
+      },
+      "hltv_player_id": "18119",
+      "source_url": "https://www.hltv.org/player/18119/cerber",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399292",
+          "date": "2026-10-12",
+          "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
+          "opponent_name": "SAW Youngsters",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 47,
+          "deaths": 53,
+          "kd_ratio": 0.89,
+          "adr": 82.9,
+          "kast": 66.7,
+          "rating": 1.14,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399295",
+          "date": "2026-10-13",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Bushido Wildcats",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 40,
+          "deaths": 35,
+          "kd_ratio": 1.14,
+          "adr": 78.4,
+          "kast": 70,
+          "rating": 1.12,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399306",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 45,
+          "deaths": 56,
+          "kd_ratio": 0.8,
+          "adr": 86.3,
+          "kast": 74.6,
+          "rating": 0.98,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "benched gods",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 9,
+          "deaths": 16,
+          "kd_ratio": 0.56,
+          "adr": 38.5,
+          "kast": 63.2,
+          "rating": 0.57,
+          "maps": 2
+        },
+        {
+          "match_id": "hltv:2399473",
+          "date": "2026-10-17",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Revise",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 37,
+          "deaths": 30,
+          "kd_ratio": 1.23,
+          "adr": 81.5,
+          "kast": 72,
+          "rating": 1.14,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399315",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 19,
+          "deaths": 32,
+          "kd_ratio": 0.59,
+          "adr": 69.1,
+          "kast": 64.1,
+          "rating": 0.79,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399479",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "benched gods",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 37,
+          "deaths": 19,
+          "kd_ratio": 1.95,
+          "adr": 97.4,
+          "kast": 85,
+          "rating": 1.55,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399481",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "PCIFIC",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 37,
+          "deaths": 46,
+          "kd_ratio": 0.8,
+          "adr": 74,
+          "kast": 68.3,
+          "rating": 0.93,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399321",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "BAKS",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 43,
+          "deaths": 46,
+          "kd_ratio": 0.93,
+          "adr": 76.1,
+          "kast": 64.1,
+          "rating": 1.08,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399488",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "6yuBoJlbl",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 60,
+          "deaths": 44,
+          "kd_ratio": 1.36,
+          "adr": 92.5,
+          "kast": 72.3,
+          "rating": 1.41,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399325",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "Illyrians",
+          "won": true,
+          "kills": 48,
+          "deaths": 46,
+          "kd_ratio": 1.04,
+          "adr": 90.2,
+          "kast": 72.9,
+          "rating": 1.13,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399494",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 21,
+          "deaths": 32,
+          "kd_ratio": 0.66,
+          "adr": 69.2,
+          "kast": 61.5,
+          "rating": 0.76,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399332",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Nuclear TigeRES",
+          "team_name": "Illyrians",
+          "won": false,
+          "kills": 15,
+          "deaths": 19,
+          "kd_ratio": 0.79,
+          "adr": 70,
+          "kast": 79.2,
+          "rating": 1.04,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "adr": 70,
+        "date": "2026-10-23",
+        "deaths": 19,
+        "event_name": "CCT 2026 Europe Series 11",
+        "kast": 79.2,
+        "kd_ratio": 0.79,
+        "kills": 15,
+        "maps": 3,
+        "match_id": "hltv:2399332",
+        "opponent_name": "Nuclear TigeRES",
+        "rating": 1.04,
+        "team_name": "Illyrians",
+        "won": false
+      },
+      "form_summary": {
+        "series": 13,
+        "average_rating": 1.05,
+        "average_adr": 77.4,
+        "recent_rating": 0.98,
+        "rating_delta": -0.16
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Illyrians",
+          "from_date": "2026-10-12",
+          "through_date": "2026-10-23",
+          "series": 13,
+          "wins": 8,
+          "losses": 5,
+          "win_rate": 0.615,
+          "average_rating": 1.05,
+          "average_adr": 77.4
+        }
+      ],
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T19:04:53Z",
+      "stats_source_url": "https://www.hltv.org/player/18119/cerber",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23",
+      "profile_fetched_at_utc": "2026-10-23T19:04:53Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/DSqnWuplsY_VVFjXs3959P.png?ixlib=java-2.1.0&w=400&s=702c05e652a6e12e797a3546c510d2ed"
     },
     {
       "player_id": "hltv:22673",
@@ -36550,12 +36958,12 @@
           "opponent_name": "FORZE Reload",
           "team_name": "Rune Eaters",
           "won": false,
-          "kills": 19,
-          "deaths": 15,
-          "kd_ratio": 1.27,
-          "adr": 93.7,
-          "kast": 73.9,
-          "rating": 1.25,
+          "kills": 27,
+          "deaths": 28,
+          "kd_ratio": 0.96,
+          "adr": 73,
+          "kast": 63.4,
+          "rating": 0.93,
           "maps": 3
         }
       ],
@@ -36569,8 +36977,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 1.25,
-          "average_adr": 93.7
+          "average_rating": 0.93,
+          "average_adr": 73
         }
       ],
       "kd_ratio_3m": null,
@@ -36581,28 +36989,29 @@
       "stats_source_url": "https://www.hltv.org/player/22538/her1tage",
       "form_summary": {
         "series": 1,
-        "average_rating": 1.25,
-        "average_adr": 93.7,
-        "recent_rating": 1.25,
+        "average_rating": 0.93,
+        "average_adr": 73,
+        "recent_rating": 0.93,
         "rating_delta": null
       },
       "timeline_entry": {
-        "adr": 93.7,
+        "adr": 73,
         "date": "2026-10-22",
-        "deaths": 15,
+        "deaths": 28,
         "event_name": "CCT 2026 Europe Series 11",
-        "kast": 73.9,
-        "kd_ratio": 1.27,
-        "kills": 19,
+        "kast": 63.4,
+        "kd_ratio": 0.96,
+        "kills": 27,
         "maps": 3,
         "match_id": "hltv:2399330",
         "opponent_name": "FORZE Reload",
-        "rating": 1.25,
+        "rating": 0.93,
         "team_name": "Rune Eaters",
         "won": false
       },
       "traits_through_date": "2026-10-13",
-      "signal_index_through_date": "2026-10-13"
+      "signal_index_through_date": "2026-10-13",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/BYPoiLaRpVYn1oDvCYz0kJ.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C4%2C467%2C467&w=200&s=5060d256277f3421e570eb6b4070b301"
     },
     {
       "player_id": "hltv:20300",
@@ -44909,6 +45318,88 @@
       "stats_source_url": "https://www.hltv.org/player/21972/neityu"
     },
     {
+      "player_id": "hltv:17656",
+      "nickname": "Frazehh",
+      "team_name": "Privateer",
+      "rating_3_0": 0.96,
+      "maps_3m": 56,
+      "signal_index": 62,
+      "traits": {
+        "closing": 13,
+        "entrying": 46,
+        "firepower": 36,
+        "opening": 62,
+        "sniping": 86,
+        "trading": 48,
+        "utility": 92
+      },
+      "hltv_player_id": "17656",
+      "source_url": "https://www.hltv.org/player/17656/frazehh",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "mellren",
+          "team_name": "Privateer",
+          "won": false,
+          "kills": 24,
+          "deaths": 26,
+          "kd_ratio": 0.92,
+          "adr": 71.7,
+          "kast": 57.9,
+          "rating": 1.05,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Privateer",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.05,
+          "average_adr": 71.7
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "mellren",
+        "team_name": "Privateer",
+        "won": false,
+        "kills": 24,
+        "deaths": 26,
+        "kd_ratio": 0.92,
+        "adr": 71.7,
+        "kast": 57.9,
+        "rating": 1.05,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.05,
+        "average_adr": 71.7,
+        "recent_rating": 1.05,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-10-23T18:58:07Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/PkhQoqTezTH6S22eYH75yO.png?ixlib=java-2.1.0&w=400&s=4332aee53e7a1efdcd9844d25ca98881",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:58:07Z",
+      "stats_source_url": "https://www.hltv.org/player/17656/frazehh",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
+    },
+    {
       "player_id": "hltv:17553",
       "nickname": "pesadelo",
       "team_name": "Unattached",
@@ -47884,6 +48375,87 @@
       "signal_index_through_date": "2026-10-23"
     },
     {
+      "player_id": "hltv:18195",
+      "nickname": "micalis",
+      "team_name": "MARKandLARRY",
+      "rating_3_0": 0.94,
+      "maps_3m": 14,
+      "signal_index": 53,
+      "traits": {
+        "closing": 36,
+        "entrying": 78,
+        "firepower": 32,
+        "opening": 28,
+        "sniping": 4,
+        "trading": 71,
+        "utility": 30
+      },
+      "hltv_player_id": "18195",
+      "source_url": "https://www.hltv.org/player/18195/micalis",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "Rooster",
+          "team_name": "MARKandLARRY",
+          "won": false,
+          "kills": 23,
+          "deaths": 35,
+          "kd_ratio": 0.66,
+          "adr": 73.8,
+          "kast": 77.5,
+          "rating": 0.71,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "Rooster",
+        "team_name": "MARKandLARRY",
+        "won": false,
+        "kills": 23,
+        "deaths": 35,
+        "kd_ratio": 0.66,
+        "adr": 73.8,
+        "kast": 77.5,
+        "rating": 0.71,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.71,
+        "average_adr": 73.8,
+        "recent_rating": 0.71,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "MARKandLARRY",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.71,
+          "average_adr": 73.8
+        }
+      ],
+      "profile_fetched_at_utc": "2026-10-23T19:07:02Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T19:07:02Z",
+      "stats_source_url": "https://www.hltv.org/player/18195/micalis",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
+    },
+    {
       "player_id": "hltv:19236",
       "nickname": "KENSI",
       "team_name": "Unattached",
@@ -49163,84 +49735,6 @@
       "stats_source_url": "https://www.hltv.org/player/25890/oyesil"
     },
     {
-      "player_id": "hltv:17769",
-      "nickname": "Twinkey",
-      "team_name": "megoshort",
-      "rating_3_0": 0.92,
-      "maps_3m": 59,
-      "signal_index": 51,
-      "traits": {
-        "firepower": 19,
-        "entrying": 52,
-        "trading": 49,
-        "opening": 13,
-        "clutching": 63,
-        "sniping": 0,
-        "utility": 63
-      },
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399293",
-          "date": "2026-10-12",
-          "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
-          "opponent_name": "6666",
-          "team_name": "megoshort",
-          "won": false,
-          "kills": 24,
-          "deaths": 38,
-          "kd_ratio": 0.63,
-          "adr": 67.4,
-          "kast": 68.8,
-          "rating": 0.81,
-          "maps": 3
-        }
-      ],
-      "hltv_player_id": "17769",
-      "source_url": "https://www.hltv.org/player/17769/twinkey",
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "megoshort",
-          "from_date": "2026-10-12",
-          "through_date": "2026-10-12",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.81,
-          "average_adr": 67.4
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399293",
-        "date": "2026-10-12",
-        "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
-        "opponent_name": "6666",
-        "team_name": "megoshort",
-        "won": false,
-        "kills": 24,
-        "deaths": 38,
-        "kd_ratio": 0.63,
-        "adr": 67.4,
-        "kast": 68.8,
-        "rating": 0.81,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.81,
-        "average_adr": 67.4,
-        "recent_rating": 0.81,
-        "rating_delta": null
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-11",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.342Z",
-      "stats_source_url": "https://www.hltv.org/player/17769/twinkey"
-    },
-    {
       "player_id": "hltv:23480",
       "nickname": "M1KA",
       "team_name": "SAW Youngsters",
@@ -50490,6 +50984,87 @@
       "stats_through_date": "2026-10-14",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.349Z",
       "stats_source_url": "https://www.hltv.org/player/24641/protado"
+    },
+    {
+      "player_id": "hltv:17769",
+      "nickname": "Twinkey",
+      "team_name": "megoshort",
+      "rating_3_0": 0.89,
+      "maps_3m": 56,
+      "signal_index": 50,
+      "traits": {
+        "closing": 49,
+        "entrying": 50,
+        "firepower": 15,
+        "opening": 25,
+        "sniping": 2,
+        "trading": 51,
+        "utility": 62
+      },
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399293",
+          "date": "2026-10-12",
+          "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
+          "opponent_name": "6666",
+          "team_name": "megoshort",
+          "won": false,
+          "kills": 24,
+          "deaths": 38,
+          "kd_ratio": 0.63,
+          "adr": 67.4,
+          "kast": 68.8,
+          "rating": 0.81,
+          "maps": 3
+        }
+      ],
+      "hltv_player_id": "17769",
+      "source_url": "https://www.hltv.org/player/17769/twinkey",
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "megoshort",
+          "from_date": "2026-10-12",
+          "through_date": "2026-10-12",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.81,
+          "average_adr": 67.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399293",
+        "date": "2026-10-12",
+        "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
+        "opponent_name": "6666",
+        "team_name": "megoshort",
+        "won": false,
+        "kills": 24,
+        "deaths": 38,
+        "kd_ratio": 0.63,
+        "adr": 67.4,
+        "kast": 68.8,
+        "rating": 0.81,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.81,
+        "average_adr": 67.4,
+        "recent_rating": 0.81,
+        "rating_delta": null
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:58:31Z",
+      "stats_source_url": "https://www.hltv.org/player/17769/twinkey",
+      "profile_fetched_at_utc": "2026-10-23T18:58:31Z",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:20275",
@@ -54055,15 +54630,15 @@
       "team_name": "Unattached",
       "rating_3_0": 0.75,
       "maps_3m": 3,
-      "signal_index": 49,
+      "signal_index": 48,
       "traits": {
-        "firepower": 1,
-        "entrying": 98,
-        "trading": 88,
-        "opening": 46,
-        "clutching": 40,
+        "closing": 35,
+        "entrying": 96,
+        "firepower": 4,
+        "opening": 59,
         "sniping": 0,
-        "utility": 28
+        "trading": 84,
+        "utility": 18
       },
       "hltv_player_id": "18140",
       "source_url": "https://www.hltv.org/player/18140/f4stzin",
@@ -54073,8 +54648,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.336Z",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T19:05:26Z",
       "stats_source_url": "https://www.hltv.org/player/18140/f4stzin",
       "form_summary": {
         "series": 0,
@@ -54082,7 +54657,11 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-10-23T19:05:26Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/TyxIZjJj1BUC8P-4AsrDT7.png?ixlib=java-2.1.0&w=400&s=8e7995efa29d57e4a743cfacdc013649",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:25606",
@@ -54772,70 +55351,6 @@
       "form_timeline": [],
       "map_profile": [],
       "roster_eras": []
-    },
-    {
-      "player_id": "hltv:17997",
-      "nickname": "lenci",
-      "team_name": "Procyon",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "17997",
-      "source_url": "https://www.hltv.org/player/17997/lenci",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399458",
-          "date": "2026-10-13",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "Hacha",
-          "team_name": "Procyon",
-          "won": true,
-          "kills": 26,
-          "deaths": 13,
-          "kd_ratio": 2,
-          "adr": 97.6,
-          "kast": 96.7,
-          "rating": 1.68,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Procyon",
-          "from_date": "2026-10-13",
-          "through_date": "2026-10-13",
-          "series": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.68,
-          "average_adr": 97.6
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399458",
-        "date": "2026-10-13",
-        "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "Hacha",
-        "team_name": "Procyon",
-        "won": true,
-        "kills": 26,
-        "deaths": 13,
-        "kd_ratio": 2,
-        "adr": 97.6,
-        "kast": 96.7,
-        "rating": 1.68,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 1.68,
-        "average_adr": 97.6,
-        "recent_rating": 1.68,
-        "rating_delta": null
-      }
     },
     {
       "player_id": "hltv:23549",
@@ -57519,20 +58034,6 @@
       "roster_eras": []
     },
     {
-      "player_id": "hltv:17845",
-      "nickname": "Shooter",
-      "team_name": "Desi Boyz",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "form_timeline": [],
-      "hltv_player_id": "17845",
-      "source_url": "https://www.hltv.org/player/17845/shooter",
-      "map_profile": [],
-      "roster_eras": []
-    },
-    {
       "player_id": "hltv:20405",
       "nickname": "AMC",
       "team_name": "Club 333",
@@ -58686,70 +59187,6 @@
           "win_rate": 0,
           "average_rating": 0.76,
           "average_adr": 48.2
-        }
-      ]
-    },
-    {
-      "player_id": "hltv:18195",
-      "nickname": "micalis",
-      "team_name": "MARKandLARRY",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "18195",
-      "source_url": "https://www.hltv.org/player/18195/micalis",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399147",
-          "date": "2026-10-14",
-          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
-          "opponent_name": "Rooster",
-          "team_name": "MARKandLARRY",
-          "won": false,
-          "kills": 23,
-          "deaths": 35,
-          "kd_ratio": 0.66,
-          "adr": 73.8,
-          "kast": 77.5,
-          "rating": 0.71,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399147",
-        "date": "2026-10-14",
-        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
-        "opponent_name": "Rooster",
-        "team_name": "MARKandLARRY",
-        "won": false,
-        "kills": 23,
-        "deaths": 35,
-        "kd_ratio": 0.66,
-        "adr": 73.8,
-        "kast": 77.5,
-        "rating": 0.71,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.71,
-        "average_adr": 73.8,
-        "recent_rating": 0.71,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "MARKandLARRY",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.71,
-          "average_adr": 73.8
         }
       ]
     },
@@ -62770,11 +63207,11 @@
           "opponent_name": "Rune Eaters",
           "team_name": "FORZE Reload",
           "won": true,
-          "kills": 13,
-          "deaths": 15,
-          "kd_ratio": 0.87,
-          "adr": 61.1,
-          "kast": 60.9,
+          "kills": 24,
+          "deaths": 27,
+          "kd_ratio": 0.89,
+          "adr": 70.9,
+          "kast": 68.3,
           "rating": 0.92,
           "maps": 3
         },
@@ -62805,7 +63242,7 @@
           "losses": 2,
           "win_rate": 0.818,
           "average_rating": 1.09,
-          "average_adr": 70.9
+          "average_adr": 71.8
         }
       ],
       "timeline_entry": {
@@ -62826,7 +63263,7 @@
       "form_summary": {
         "series": 11,
         "average_rating": 1.09,
-        "average_adr": 70.9,
+        "average_adr": 71.8,
         "recent_rating": 1.24,
         "rating_delta": -0.03
       },
@@ -62992,12 +63429,12 @@
           "opponent_name": "Rune Eaters",
           "team_name": "FORZE Reload",
           "won": true,
-          "kills": 25,
-          "deaths": 11,
-          "kd_ratio": 2.27,
-          "adr": 108,
-          "kast": 73.9,
-          "rating": 1.85,
+          "kills": 38,
+          "deaths": 20,
+          "kd_ratio": 1.9,
+          "adr": 91.6,
+          "kast": 78,
+          "rating": 1.59,
           "maps": 3
         },
         {
@@ -63026,8 +63463,8 @@
           "wins": 9,
           "losses": 2,
           "win_rate": 0.818,
-          "average_rating": 1.48,
-          "average_adr": 89
+          "average_rating": 1.46,
+          "average_adr": 87.5
         }
       ],
       "timeline_entry": {
@@ -63047,10 +63484,10 @@
       },
       "form_summary": {
         "series": 11,
-        "average_rating": 1.48,
-        "average_adr": 89,
-        "recent_rating": 1.47,
-        "rating_delta": -0.07
+        "average_rating": 1.46,
+        "average_adr": 87.5,
+        "recent_rating": 1.39,
+        "rating_delta": -0.15
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -63214,12 +63651,12 @@
           "opponent_name": "Rune Eaters",
           "team_name": "FORZE Reload",
           "won": true,
-          "kills": 11,
-          "deaths": 15,
-          "kd_ratio": 0.73,
-          "adr": 48.6,
-          "kast": 65.2,
-          "rating": 0.96,
+          "kills": 28,
+          "deaths": 25,
+          "kd_ratio": 1.12,
+          "adr": 70.5,
+          "kast": 68.3,
+          "rating": 1.23,
           "maps": 3
         },
         {
@@ -63248,8 +63685,8 @@
           "wins": 9,
           "losses": 2,
           "win_rate": 0.818,
-          "average_rating": 1.14,
-          "average_adr": 71.7
+          "average_rating": 1.17,
+          "average_adr": 73.6
         }
       ],
       "timeline_entry": {
@@ -63269,10 +63706,10 @@
       },
       "form_summary": {
         "series": 11,
-        "average_rating": 1.14,
-        "average_adr": 71.7,
-        "recent_rating": 1,
-        "rating_delta": -0.07
+        "average_rating": 1.17,
+        "average_adr": 73.6,
+        "recent_rating": 1.09,
+        "rating_delta": 0.02
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -63421,12 +63858,12 @@
           "opponent_name": "Rune Eaters",
           "team_name": "FORZE Reload",
           "won": true,
-          "kills": 17,
-          "deaths": 16,
-          "kd_ratio": 1.06,
-          "adr": 84.4,
-          "kast": 65.2,
-          "rating": 1.08,
+          "kills": 32,
+          "deaths": 25,
+          "kd_ratio": 1.28,
+          "adr": 80.9,
+          "kast": 75.6,
+          "rating": 1.29,
           "maps": 3
         }
       ],
@@ -63440,8 +63877,8 @@
           "wins": 5,
           "losses": 1,
           "win_rate": 0.833,
-          "average_rating": 1.13,
-          "average_adr": 82.1
+          "average_rating": 1.16,
+          "average_adr": 81.5
         },
         {
           "team_name": "ex-RUSTEC",
@@ -63456,26 +63893,26 @@
         }
       ],
       "timeline_entry": {
-        "adr": 84.4,
+        "adr": 80.9,
         "date": "2026-10-22",
-        "deaths": 16,
+        "deaths": 25,
         "event_name": "CCT 2026 Europe Series 11",
-        "kast": 65.2,
-        "kd_ratio": 1.06,
-        "kills": 17,
+        "kast": 75.6,
+        "kd_ratio": 1.28,
+        "kills": 32,
         "maps": 3,
         "match_id": "hltv:2399330",
         "opponent_name": "Rune Eaters",
-        "rating": 1.08,
+        "rating": 1.29,
         "team_name": "FORZE Reload",
         "won": true
       },
       "form_summary": {
         "series": 9,
-        "average_rating": 1.13,
-        "average_adr": 80.7,
-        "recent_rating": 1.12,
-        "rating_delta": -0.02
+        "average_rating": 1.16,
+        "average_adr": 80.3,
+        "recent_rating": 1.19,
+        "rating_delta": 0.05
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -63639,12 +64076,12 @@
           "opponent_name": "Rune Eaters",
           "team_name": "FORZE Reload",
           "won": true,
-          "kills": 12,
-          "deaths": 14,
-          "kd_ratio": 0.86,
-          "adr": 60.4,
-          "kast": 78.3,
-          "rating": 0.9,
+          "kills": 27,
+          "deaths": 23,
+          "kd_ratio": 1.17,
+          "adr": 71.7,
+          "kast": 80.5,
+          "rating": 1.1,
           "maps": 3
         },
         {
@@ -63673,8 +64110,8 @@
           "wins": 9,
           "losses": 2,
           "win_rate": 0.818,
-          "average_rating": 1.27,
-          "average_adr": 75.8
+          "average_rating": 1.29,
+          "average_adr": 76.8
         }
       ],
       "timeline_entry": {
@@ -63694,10 +64131,10 @@
       },
       "form_summary": {
         "series": 11,
-        "average_rating": 1.27,
-        "average_adr": 75.8,
-        "recent_rating": 1.36,
-        "rating_delta": 0.02
+        "average_rating": 1.29,
+        "average_adr": 76.8,
+        "recent_rating": 1.43,
+        "rating_delta": 0.09
       },
       "kd_ratio_3m": null,
       "stats_window": null,
@@ -64687,258 +65124,6 @@
           "win_rate": 0.615,
           "average_rating": 1.13,
           "average_adr": 74.5
-        }
-      ],
-      "kd_ratio_3m": null,
-      "stats_window": null,
-      "stats_from_date": null,
-      "stats_through_date": null,
-      "stats_fetched_at_utc": null,
-      "stats_source_url": null,
-      "traits_through_date": null,
-      "signal_index_through_date": null
-    },
-    {
-      "player_id": "hltv:18119",
-      "nickname": "cerber",
-      "team_name": "Illyrians",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "18119",
-      "source_url": "https://www.hltv.org/player/18119/cerber",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399292",
-          "date": "2026-10-12",
-          "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
-          "opponent_name": "SAW Youngsters",
-          "team_name": "Illyrians",
-          "won": true,
-          "kills": 47,
-          "deaths": 53,
-          "kd_ratio": 0.89,
-          "adr": 82.9,
-          "kast": 66.7,
-          "rating": 1.14,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399295",
-          "date": "2026-10-13",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Bushido Wildcats",
-          "team_name": "Illyrians",
-          "won": true,
-          "kills": 40,
-          "deaths": 35,
-          "kd_ratio": 1.14,
-          "adr": 78.4,
-          "kast": 70,
-          "rating": 1.12,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399306",
-          "date": "2026-10-16",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Black Phoenix",
-          "team_name": "Illyrians",
-          "won": true,
-          "kills": 45,
-          "deaths": 56,
-          "kd_ratio": 0.8,
-          "adr": 86.3,
-          "kast": 74.6,
-          "rating": 0.98,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399470",
-          "date": "2026-10-16",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "benched gods",
-          "team_name": "Illyrians",
-          "won": false,
-          "kills": 9,
-          "deaths": 16,
-          "kd_ratio": 0.56,
-          "adr": 38.5,
-          "kast": 63.2,
-          "rating": 0.57,
-          "maps": 2
-        },
-        {
-          "match_id": "hltv:2399473",
-          "date": "2026-10-17",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Revise",
-          "team_name": "Illyrians",
-          "won": true,
-          "kills": 37,
-          "deaths": 30,
-          "kd_ratio": 1.23,
-          "adr": 81.5,
-          "kast": 72,
-          "rating": 1.14,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399315",
-          "date": "2026-10-18",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "ex-RUSTEC",
-          "team_name": "Illyrians",
-          "won": false,
-          "kills": 19,
-          "deaths": 32,
-          "kd_ratio": 0.59,
-          "adr": 69.1,
-          "kast": 64.1,
-          "rating": 0.79,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399479",
-          "date": "2026-10-18",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "benched gods",
-          "team_name": "Illyrians",
-          "won": true,
-          "kills": 37,
-          "deaths": 19,
-          "kd_ratio": 1.95,
-          "adr": 97.4,
-          "kast": 85,
-          "rating": 1.55,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399481",
-          "date": "2026-10-19",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "PCIFIC",
-          "team_name": "Illyrians",
-          "won": true,
-          "kills": 37,
-          "deaths": 46,
-          "kd_ratio": 0.8,
-          "adr": 74,
-          "kast": 68.3,
-          "rating": 0.93,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399321",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "BAKS",
-          "team_name": "Illyrians",
-          "won": false,
-          "kills": 43,
-          "deaths": 46,
-          "kd_ratio": 0.93,
-          "adr": 76.1,
-          "kast": 64.1,
-          "rating": 1.08,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399488",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Europe Series 12",
-          "opponent_name": "6yuBoJlbl",
-          "team_name": "Illyrians",
-          "won": true,
-          "kills": 60,
-          "deaths": 44,
-          "kd_ratio": 1.36,
-          "adr": 92.5,
-          "kast": 72.3,
-          "rating": 1.41,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399325",
-          "date": "2026-10-21",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "G2 Ares",
-          "team_name": "Illyrians",
-          "won": true,
-          "kills": 48,
-          "deaths": 46,
-          "kd_ratio": 1.04,
-          "adr": 90.2,
-          "kast": 72.9,
-          "rating": 1.13,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399494",
-          "date": "2026-10-22",
-          "event_name": "CCT 2026 Europe Series 12",
-          "opponent_name": "Black Phoenix",
-          "team_name": "Illyrians",
-          "won": false,
-          "kills": 21,
-          "deaths": 32,
-          "kd_ratio": 0.66,
-          "adr": 69.2,
-          "kast": 61.5,
-          "rating": 0.76,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399332",
-          "date": "2026-10-23",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Nuclear TigeRES",
-          "team_name": "Illyrians",
-          "won": false,
-          "kills": 15,
-          "deaths": 19,
-          "kd_ratio": 0.79,
-          "adr": 70,
-          "kast": 79.2,
-          "rating": 1.04,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "adr": 70,
-        "date": "2026-10-23",
-        "deaths": 19,
-        "event_name": "CCT 2026 Europe Series 11",
-        "kast": 79.2,
-        "kd_ratio": 0.79,
-        "kills": 15,
-        "maps": 3,
-        "match_id": "hltv:2399332",
-        "opponent_name": "Nuclear TigeRES",
-        "rating": 1.04,
-        "team_name": "Illyrians",
-        "won": false
-      },
-      "form_summary": {
-        "series": 13,
-        "average_rating": 1.05,
-        "average_adr": 77.4,
-        "recent_rating": 0.98,
-        "rating_delta": -0.16
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Illyrians",
-          "from_date": "2026-10-12",
-          "through_date": "2026-10-23",
-          "series": 13,
-          "wins": 8,
-          "losses": 5,
-          "win_rate": 0.615,
-          "average_rating": 1.05,
-          "average_adr": 77.4
         }
       ],
       "kd_ratio_3m": null,
@@ -68523,70 +68708,6 @@
       "signal_index_through_date": null
     },
     {
-      "player_id": "hltv:17656",
-      "nickname": "Frazehh",
-      "team_name": "Privateer",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "17656",
-      "source_url": "https://www.hltv.org/player/17656/frazehh",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399471",
-          "date": "2026-10-16",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "mellren",
-          "team_name": "Privateer",
-          "won": false,
-          "kills": 24,
-          "deaths": 26,
-          "kd_ratio": 0.92,
-          "adr": 71.7,
-          "kast": 57.9,
-          "rating": 1.05,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Privateer",
-          "from_date": "2026-10-16",
-          "through_date": "2026-10-16",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.05,
-          "average_adr": 71.7
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399471",
-        "date": "2026-10-16",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "mellren",
-        "team_name": "Privateer",
-        "won": false,
-        "kills": 24,
-        "deaths": 26,
-        "kd_ratio": 0.92,
-        "adr": 71.7,
-        "kast": 57.9,
-        "rating": 1.05,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 1.05,
-        "average_adr": 71.7,
-        "recent_rating": 1.05,
-        "rating_delta": null
-      }
-    },
-    {
       "player_id": "hltv:21990",
       "nickname": "Prime",
       "team_name": "Privateer",
@@ -71689,21 +71810,21 @@
           "opponent_name": "FORZE Reload",
           "team_name": "Rune Eaters",
           "won": false,
-          "kills": 13,
-          "deaths": 15,
-          "kd_ratio": 0.87,
-          "adr": 63.6,
-          "kast": 52.2,
-          "rating": 0.87,
+          "kills": 19,
+          "deaths": 29,
+          "kd_ratio": 0.66,
+          "adr": 56.3,
+          "kast": 48.8,
+          "rating": 0.63,
           "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
         "series": 1,
-        "average_rating": 0.87,
-        "average_adr": 63.6,
-        "recent_rating": 0.87,
+        "average_rating": 0.63,
+        "average_adr": 56.3,
+        "recent_rating": 0.63,
         "rating_delta": null
       },
       "roster_eras": [
@@ -71715,8 +71836,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.87,
-          "average_adr": 63.6
+          "average_rating": 0.63,
+          "average_adr": 56.3
         }
       ],
       "map_profile": [],
@@ -71730,22 +71851,23 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "adr": 63.6,
+        "adr": 56.3,
         "date": "2026-10-22",
-        "deaths": 15,
+        "deaths": 29,
         "event_name": "CCT 2026 Europe Series 11",
-        "kast": 52.2,
-        "kd_ratio": 0.87,
-        "kills": 13,
+        "kast": 48.8,
+        "kd_ratio": 0.66,
+        "kills": 19,
         "maps": 3,
         "match_id": "hltv:2399330",
         "opponent_name": "FORZE Reload",
-        "rating": 0.87,
+        "rating": 0.63,
         "team_name": "Rune Eaters",
         "won": false
       },
       "traits_through_date": null,
-      "signal_index_through_date": null
+      "signal_index_through_date": null,
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/Qydjk0SUvTN2JQhDxg2LgY.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=121%2C8%2C467%2C467&w=200&s=1517a2714487ab775a6f4ee6b6526523"
     },
     {
       "player_id": "hltv:24916",
@@ -71761,21 +71883,21 @@
           "opponent_name": "FORZE Reload",
           "team_name": "Rune Eaters",
           "won": false,
-          "kills": 7,
-          "deaths": 17,
-          "kd_ratio": 0.41,
-          "adr": 46.7,
-          "kast": 56.5,
-          "rating": 0.55,
+          "kills": 18,
+          "deaths": 33,
+          "kd_ratio": 0.55,
+          "adr": 57.6,
+          "kast": 56.1,
+          "rating": 0.6,
           "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
         "series": 1,
-        "average_rating": 0.55,
-        "average_adr": 46.7,
-        "recent_rating": 0.55,
+        "average_rating": 0.6,
+        "average_adr": 57.6,
+        "recent_rating": 0.6,
         "rating_delta": null
       },
       "roster_eras": [
@@ -71787,8 +71909,8 @@
           "wins": 0,
           "losses": 1,
           "win_rate": 0,
-          "average_rating": 0.55,
-          "average_adr": 46.7
+          "average_rating": 0.6,
+          "average_adr": 57.6
         }
       ],
       "map_profile": [],
@@ -71802,22 +71924,23 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "adr": 46.7,
+        "adr": 57.6,
         "date": "2026-10-22",
-        "deaths": 17,
+        "deaths": 33,
         "event_name": "CCT 2026 Europe Series 11",
-        "kast": 56.5,
-        "kd_ratio": 0.41,
-        "kills": 7,
+        "kast": 56.1,
+        "kd_ratio": 0.55,
+        "kills": 18,
         "maps": 3,
         "match_id": "hltv:2399330",
         "opponent_name": "FORZE Reload",
-        "rating": 0.55,
+        "rating": 0.6,
         "team_name": "Rune Eaters",
         "won": false
       },
       "traits_through_date": null,
-      "signal_index_through_date": null
+      "signal_index_through_date": null,
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/c0J1ztxmozYuyXu2kRZYso.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=200&s=aeb691370eb33bb42a43e7c36bbfaead"
     },
     {
       "player_id": "hltv:22878",
@@ -72826,7 +72949,7 @@
       "signal_index_through_date": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-23T18:35:31Z",
+  "lineups_updated_at_utc": "2026-10-23T19:06:47Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-23",
   "history_profile_count": 53,
@@ -72835,19 +72958,19 @@
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-10-23T18:55:23Z",
+    "checked_at_utc": "2026-10-23T19:10:14Z",
     "requested": 858,
-    "cached": 27,
-    "attempted": 117,
-    "succeeded": 27,
+    "cached": 40,
+    "attempted": 130,
+    "succeeded": 40,
     "failed": 2,
-    "portraits": 23,
-    "stats": 27,
+    "portraits": 33,
+    "stats": 40,
     "received": 858,
     "invalid": 0,
     "stale_stats": 0,
-    "profile_updates": 33,
-    "stats_updates": 27,
-    "traits_updates": 27
+    "profile_updates": 46,
+    "stats_updates": 40,
+    "traits_updates": 40
   }
 }
