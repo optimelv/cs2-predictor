@@ -348,7 +348,7 @@ def merge_match_detail(match: dict[str, Any], detail: dict[str, Any]) -> dict[st
             player["team_name"] = merged["team2_name"]
     score1, score2 = merged.get("score1"), merged.get("score2")
     if isinstance(score1, int) and isinstance(score2, int) and score1 != score2:
-        required = 3 if merged.get("series_format") == "bo5" else 2
+        required = 1 if merged.get("series_format") == "bo1" else 3 if merged.get("series_format") == "bo5" else 2
         if max(score1, score2) >= required:
             merged["status"] = "finished"
             merged["winner_name"] = merged["team1_name"] if score1 > score2 else merged["team2_name"]

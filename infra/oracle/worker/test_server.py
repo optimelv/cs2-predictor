@@ -37,6 +37,14 @@ class CurrentScheduleTests(unittest.TestCase):
         self.assertEqual(detail["lineups"]["team1"][0]["nickname"], "player1")
         self.assertNotIn("rating", detail["lineups"]["team1"][0], "A profile average is not a played-match rating")
 
+    def test_detail_marks_a_completed_bo1_as_finished(self):
+        merged = merge_match_detail(
+            {"team1_name": "Alpha", "team2_name": "Beta", "series_format": "bo1", "status": "upcoming"},
+            {"score1": 1, "score2": 0},
+        )
+        self.assertEqual(merged["status"], "finished")
+        self.assertEqual(merged["winner_name"], "Alpha")
+
     def test_star_rating_is_not_live_and_pinned_match_keeps_event(self):
         html = '''<div data-match-wrapper live="false" data-event-id="8932" class="match-wrapper">
           <div class="match"><a href="/matches/2399384/a-vs-b"><div class="matchLive match-rating"><i class="fa-star"></i></div></a>
