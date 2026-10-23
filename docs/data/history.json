@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4097,
+    "matches": 4101,
     "maps": 2952,
     "lineup_rows": 9774,
     "source_match_ids": 976
@@ -652,6 +652,94 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:ec1652b035d353696f48",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T14:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Round 5",
+      "team1_name": "33",
+      "team2_name": "mellren",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "mellren",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Round_5"
+    },
+    {
+      "match_id": "liquipedia:e1a51e416667aae5ee14",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T16:55:00Z",
+      "event_name": "DraculaN Season 7 - Playoffs",
+      "team1_name": "BC.Game",
+      "team2_name": "JiJieHao",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "JiJieHao",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:32d7ae185ad35c47a67c",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T17:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Playoffs",
+      "team1_name": "FORZE.Rld",
+      "team2_name": "Rune",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FORZE.Rld",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:ebe18d925b43a6e25246",
+      "match_date": "2026-10-22",
+      "starts_at": "2026-10-22T17:30:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Round 2",
+      "team1_name": "6yuB",
+      "team2_name": "ex-6666",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "6yuB",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_2"
     },
     {
       "match_id": "hltv:2399489",
