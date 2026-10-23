@@ -40,6 +40,11 @@ LIQUIPEDIA_ARCHIVE_PATH = Path(os.environ.get("LIQUIPEDIA_ARCHIVE_PATH", "/var/l
 LIQUIPEDIA_STATE_PATH = Path(os.environ.get("LIQUIPEDIA_STATE_PATH", "/var/lib/strikesignal/liquipedia-gap-state.json"))
 LIQUIPEDIA_ASSETS_PATH = Path(os.environ.get("LIQUIPEDIA_ASSETS_PATH", "/var/lib/strikesignal/liquipedia-logo-candidates.json"))
 SOURCE_LABEL = os.environ.get("SOURCE_LABEL", f"HLTV via {FETCH_BACKEND}")
+PLAYER_CATALOG_URL = os.environ.get("PLAYER_CATALOG_URL", "https://cs2-predictor-ebon.vercel.app/data/players.json")
+PLAYER_PROFILE_DELAY_SECONDS = max(8, int(os.environ.get("PLAYER_PROFILE_DELAY_SECONDS", "15")))
+PLAYER_PROFILE_RETRY_SECONDS = max(3600, int(os.environ.get("PLAYER_PROFILE_RETRY_SECONDS", "21600")))
+PLAYER_PROFILE_UNAVAILABLE_RETRY_SECONDS = max(86400, int(os.environ.get("PLAYER_PROFILE_UNAVAILABLE_RETRY_SECONDS", "604800")))
+PLAYER_PROFILE_REFRESH_SECONDS = max(604800, int(os.environ.get("PLAYER_PROFILE_REFRESH_SECONDS", "2592000")))
 
 state: dict[str, Any] = {
     "snapshot": None,
@@ -123,6 +128,50 @@ def player_portrait_url(value: Any) -> str | None:
     if not parsed.path.startswith("/playerbodyshot/"):
         return None
     return url
+
+
+def player_profile_url(player_id: str, source_url: str = "") -> str:
+    parsed = urlparse(source_url)
+    if parsed.scheme == "https" and parsed.netloc == "www.hltv.org" and re.match(rf"^/player/{re.escape(player_id)}(?:/|$)", parsed.path):
+        return source_url
+    return f"https://www.hltv.org/player/{player_id}"
+
+
+def player_profile_from_html(html: str, player_id: str, source_url: str) -> dict[str, Any]:
+    soup = BeautifulSoup(html, "html.parser")
+    nickname = text(soup, (".playerNickname", ".player-nickname", "h1 .nickname"))
+    real_name = text(soup, (".playerRealname", ".player-realname"))
+    country_image = soup.select_one(".player-country img, .playerCountry img")
+    country = str(country_image.get("alt", "")).strip() if country_image else ""
+    portrait = next((player_portrait_url(image.get("src") or image.get("data-src")) for image in soup.select("img") if player_portrait_url(image.get("src") or image.get("data-src"))), None)
+    stats: dict[str, float] = {}
+    labels: dict[str, str] = {}
+    for row in soup.select(".playerSummaryStatBox, .summaryStat, .stats-row"):
+        label = text(row, (".summaryStatBreakdownDataLabel", ".statsDetail", ".label", ".stat-label"))
+        value = text(row, (".summaryStatBreakdownDataValue", ".statsVal", ".value", ".stat-value"))
+        number = stat_float(value)
+        if not label or number is None:
+            continue
+        key = slugify(label).replace("-", "_")
+        stats[key] = number
+        labels[key] = label
+    profile: dict[str, Any] = {
+        "player_id": f"hltv:{player_id}",
+        "hltv_player_id": player_id,
+        "source_url": player_profile_url(player_id, source_url),
+    }
+    if nickname:
+        profile["nickname"] = nickname
+    if real_name:
+        profile["real_name"] = real_name
+    if country:
+        profile["country"] = country
+    if portrait:
+        profile["portrait_url"] = portrait
+    if stats:
+        profile["stats"] = stats
+        profile["stat_labels"] = labels
+    return profile
 
 
 def parse_matches(html: str) -> list[dict[str, Any]]:
@@ -718,7 +767,156 @@ def archive_connection(path: Path | None = None) -> sqlite3.Connection:
     connection.execute("CREATE INDEX IF NOT EXISTS observed_results_date ON observed_results(starts_at)")
     connection.execute("CREATE TABLE IF NOT EXISTS archive_meta (key TEXT PRIMARY KEY, value TEXT NOT NULL)")
     connection.execute("CREATE TABLE IF NOT EXISTS backfill_pages (offset INTEGER PRIMARY KEY, oldest_utc TEXT NOT NULL, newest_utc TEXT NOT NULL, result_count INTEGER NOT NULL, collected_at_utc TEXT NOT NULL)")
+    connection.execute("""CREATE TABLE IF NOT EXISTS player_profiles (
+        player_id TEXT PRIMARY KEY,
+        hltv_player_id TEXT NOT NULL,
+        nickname TEXT NOT NULL DEFAULT '',
+        source_url TEXT NOT NULL,
+        payload TEXT NOT NULL DEFAULT '{}',
+        profile_fetched_at_utc TEXT,
+        stats_fetched_at_utc TEXT,
+        portrait_checked_at_utc TEXT,
+        portrait_state TEXT NOT NULL DEFAULT 'pending',
+        stats_state TEXT NOT NULL DEFAULT 'pending',
+        last_attempt_utc TEXT,
+        next_retry_utc TEXT,
+        last_error TEXT
+    )""")
+    connection.execute("CREATE INDEX IF NOT EXISTS player_profiles_due ON player_profiles(next_retry_utc, profile_fetched_at_utc)")
     return connection
+
+
+def merge_profile_payload(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
+    """Keep known values when a partial profile response omits them; zero is data."""
+    merged = {**existing}
+    for key, value in incoming.items():
+        if value is not None and value != "":
+            merged[key] = value
+    if isinstance(existing.get("stats"), dict) or isinstance(incoming.get("stats"), dict):
+        merged["stats"] = {**(existing.get("stats") or {}), **(incoming.get("stats") or {})}
+    if isinstance(existing.get("stat_labels"), dict) or isinstance(incoming.get("stat_labels"), dict):
+        merged["stat_labels"] = {**(existing.get("stat_labels") or {}), **(incoming.get("stat_labels") or {})}
+    return merged
+
+
+async def fetch_canonical_player_seed() -> list[dict[str, str]]:
+    timeout = ClientTimeout(total=30)
+    async with ClientSession(timeout=timeout) as session:
+        async with session.get(PLAYER_CATALOG_URL, headers={"Accept": "application/json"}) as response:
+            if response.status != 200:
+                raise RuntimeError(f"Player catalog returned HTTP {response.status}")
+            catalog = await response.json()
+    seeded: dict[str, dict[str, str]] = {}
+    for row in catalog.get("players", []) if isinstance(catalog, dict) else []:
+        raw_id = str(row.get("hltv_player_id") or str(row.get("player_id", "")).removeprefix("hltv:")).strip()
+        if not raw_id.isdigit():
+            continue
+        source_url = player_profile_url(raw_id, str(row.get("source_url") or ""))
+        seeded[f"hltv:{raw_id}"] = {"player_id": f"hltv:{raw_id}", "hltv_player_id": raw_id,
+                                      "nickname": str(row.get("nickname") or "").strip(), "source_url": source_url}
+    if not seeded:
+        raise RuntimeError("Player catalog contained no canonical HLTV player IDs")
+    return list(seeded.values())
+
+
+def seed_player_profiles(rows: list[dict[str, str]], path: Path | None = None) -> int:
+    inserted = 0
+    with archive_connection(path) as connection:
+        for row in rows:
+            previous = connection.execute("SELECT player_id FROM player_profiles WHERE player_id=?", (row["player_id"],)).fetchone()
+            if previous is None:
+                inserted += 1
+            connection.execute("""INSERT INTO player_profiles(player_id,hltv_player_id,nickname,source_url)
+                VALUES(?,?,?,?) ON CONFLICT(player_id) DO UPDATE SET
+                nickname=CASE WHEN excluded.nickname<>'' THEN excluded.nickname ELSE player_profiles.nickname END,
+                source_url=excluded.source_url""", (row["player_id"], row["hltv_player_id"], row["nickname"], row["source_url"]))
+    return inserted
+
+
+def due_player_profile(path: Path | None = None) -> dict[str, str] | None:
+    now = utc_now()
+    with archive_connection(path) as connection:
+        row = connection.execute("""SELECT player_id,hltv_player_id,nickname,source_url FROM player_profiles
+            WHERE next_retry_utc IS NULL OR next_retry_utc<=?
+            ORDER BY CASE WHEN profile_fetched_at_utc IS NULL THEN 0 ELSE 1 END, last_attempt_utc, player_id LIMIT 1""", (now,)).fetchone()
+    return dict(zip(("player_id", "hltv_player_id", "nickname", "source_url"), row)) if row else None
+
+
+def save_player_profile(candidate: dict[str, str], incoming: dict[str, Any] | None, *, error: str | None = None, unavailable: bool = False, path: Path | None = None) -> None:
+    now = utc_now()
+    with archive_connection(path) as connection:
+        row = connection.execute("SELECT payload FROM player_profiles WHERE player_id=?", (candidate["player_id"],)).fetchone()
+        existing = json.loads(row[0]) if row and row[0] else {}
+        payload = merge_profile_payload(existing, incoming or {})
+        has_profile = bool(incoming and any(incoming.get(key) for key in ("nickname", "real_name", "country", "portrait_url", "stats")))
+        has_stats = bool((incoming or {}).get("stats"))
+        has_portrait = bool((incoming or {}).get("portrait_url"))
+        retry_seconds = PLAYER_PROFILE_RETRY_SECONDS if error and not incoming else PLAYER_PROFILE_UNAVAILABLE_RETRY_SECONDS if unavailable or (has_profile and (not has_portrait or not has_stats)) else PLAYER_PROFILE_REFRESH_SECONDS
+        next_retry = (datetime.now(timezone.utc) + timedelta(seconds=retry_seconds)).isoformat(timespec="seconds").replace("+00:00", "Z")
+        connection.execute("""UPDATE player_profiles SET payload=?, nickname=?, source_url=?, last_attempt_utc=?, next_retry_utc=?, last_error=?,
+            profile_fetched_at_utc=CASE WHEN ? THEN ? ELSE profile_fetched_at_utc END,
+            stats_fetched_at_utc=CASE WHEN ? THEN ? ELSE stats_fetched_at_utc END,
+            portrait_checked_at_utc=?, portrait_state=?, stats_state=? WHERE player_id=?""", (
+            json.dumps(payload, ensure_ascii=False, sort_keys=True), str(payload.get("nickname") or candidate["nickname"]),
+            str(payload.get("source_url") or candidate["source_url"]), now, next_retry, error,
+            has_profile, now, has_stats, now, now,
+            "verified" if has_portrait else "unavailable" if unavailable or has_profile else "retry",
+            "verified" if has_stats else "unavailable" if unavailable or has_profile else "retry", candidate["player_id"],
+        ))
+
+
+async def player_profile_once() -> bool:
+    candidate = due_player_profile()
+    if candidate is None:
+        return False
+    try:
+        async with source_session() as session:
+            html = await asyncio.wait_for(fetch_url(session, candidate["source_url"]), REQUEST_TIMEOUT_SECONDS + 15)
+        profile = player_profile_from_html(html, candidate["hltv_player_id"], candidate["source_url"])
+        unavailable = not any(profile.get(key) for key in ("nickname", "real_name", "country", "portrait_url", "stats"))
+        save_player_profile(candidate, profile, error="Profile page contained no recognized profile data." if unavailable else None, unavailable=unavailable)
+    except Exception as exc:
+        save_player_profile(candidate, None, error=f"{type(exc).__name__}: {str(exc).splitlines()[0] if str(exc) else 'request deadline exceeded'}")
+    return True
+
+
+async def player_profile_refresh_loop() -> None:
+    await asyncio.sleep(45)
+    try:
+        seeded = await fetch_canonical_player_seed()
+        state["player_profiles_seeded"] = len(seeded)
+        state["player_profiles_inserted"] = seed_player_profiles(seeded)
+        state["player_profile_error"] = None
+    except Exception as exc:
+        state["player_profile_error"] = repr(exc)
+        print(json.dumps({"player_profile_seed_error": state["player_profile_error"]}), flush=True)
+        return
+    while True:
+        try:
+            processed = await player_profile_once()
+            state["player_profile_error"] = None
+        except Exception as exc:
+            processed = False
+            state["player_profile_error"] = repr(exc)
+            print(json.dumps({"player_profile_error": state["player_profile_error"]}), flush=True)
+        await asyncio.sleep(PLAYER_PROFILE_DELAY_SECONDS if processed else PLAYER_PROFILE_RETRY_SECONDS)
+
+
+def player_profile_payload(path: Path | None = None) -> dict[str, Any]:
+    with archive_connection(path) as connection:
+        rows = connection.execute("SELECT player_id,hltv_player_id,nickname,source_url,payload,profile_fetched_at_utc,stats_fetched_at_utc,portrait_checked_at_utc,portrait_state,stats_state,last_attempt_utc,last_error FROM player_profiles ORDER BY player_id").fetchall()
+    players = []
+    for row in rows:
+        payload = json.loads(row[4]) if row[4] else {}
+        players.append({**payload, "player_id": row[0], "hltv_player_id": row[1], "nickname": payload.get("nickname") or row[2], "source_url": payload.get("source_url") or row[3],
+                        "profile_fetched_at_utc": row[5], "stats_fetched_at_utc": row[6], "portrait_checked_at_utc": row[7], "portrait_state": row[8], "stats_state": row[9], "last_attempt_utc": row[10], "last_error": row[11]})
+    coverage = {"requested": len(players), "cached": sum(bool(row.get("profile_fetched_at_utc")) for row in players),
+                "attempted": sum(bool(row.get("last_attempt_utc")) for row in players),
+                "succeeded": sum(row.get("profile_fetched_at_utc") is not None for row in players),
+                "failed": sum(bool(row.get("last_error")) for row in players),
+                "portraits": sum(row.get("portrait_state") == "verified" for row in players),
+                "stats": sum(row.get("stats_state") == "verified" for row in players)}
+    return {"ok": True, "source": SOURCE_LABEL, "checked_at_utc": utc_now(), "coverage": coverage, "players": players}
 
 
 def archived_result(match: dict[str, Any]) -> dict[str, Any] | None:
@@ -872,10 +1070,11 @@ async def on_startup(app: web.Application) -> None:
     app["refresh_task"] = asyncio.create_task(refresh_loop(app))
     if ARCHIVE_BACKFILL_ENABLED:
         app["archive_task"] = asyncio.create_task(backfill_loop())
+    app["player_profile_task"] = asyncio.create_task(player_profile_refresh_loop())
 
 
 async def on_cleanup(app: web.Application) -> None:
-    tasks = [app.get(name) for name in ("refresh_task", "archive_task") if app.get(name)]
+    tasks = [app.get(name) for name in ("refresh_task", "archive_task", "player_profile_task") if app.get(name)]
     for task in tasks:
         task.cancel()
     if tasks:
@@ -902,6 +1101,9 @@ async def health(_: web.Request) -> web.Response:
         "last_error": state["last_error"],
         "archive_error": state.get("archive_error"),
         "result_archive_error": state.get("result_archive_error"),
+        "player_profile_error": state.get("player_profile_error"),
+        "player_profiles_seeded": state.get("player_profiles_seeded"),
+        "player_profiles_inserted": state.get("player_profiles_inserted"),
         "backfill": backfill_status(),
     }, status=200 if healthy else 503)
 
@@ -954,12 +1156,18 @@ async def liquipedia_evidence(request: web.Request) -> web.Response:
     return web.json_response(liquipedia_payload(), headers={"Cache-Control": "no-store"})
 
 
+async def player_profiles(request: web.Request) -> web.Response:
+    require_archive_token(request)
+    return web.json_response(player_profile_payload(), headers={"Cache-Control": "no-store"})
+
+
 def serve() -> None:
     app = web.Application()
     app.router.add_get("/healthz", health)
     app.router.add_get("/snapshot", snapshot)
     app.router.add_get("/archive", archive)
     app.router.add_get("/liquipedia-evidence", liquipedia_evidence)
+    app.router.add_get("/player-profiles", player_profiles)
     app.on_startup.append(on_startup)
     app.on_cleanup.append(on_cleanup)
     web.run_app(app, host=os.environ.get("BIND_HOST", "0.0.0.0"), port=8080)

@@ -449,6 +449,29 @@ class WorkerParserTests(unittest.TestCase):
         self.assertNotIn("rating_3_0", player, "A series sample is not a three-month profile rating")
         self.assertNotIn("maps_3m", player)
 
+    def test_player_profile_queue_preserves_zero_and_marks_missing_data_unavailable(self):
+        from server import due_player_profile, player_profile_from_html, player_profile_payload, save_player_profile, seed_player_profiles
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "results.sqlite3"
+            seed = {"player_id": "hltv:7", "hltv_player_id": "7", "nickname": "Seven", "source_url": "https://www.hltv.org/player/7/seven"}
+            self.assertEqual(seed_player_profiles([seed], path), 1)
+            self.assertEqual(due_player_profile(path)["player_id"], "hltv:7")
+            profile = player_profile_from_html('''<div class="playerNickname">Seven</div><div class="player-country"><img alt="Denmark"></div>
+                <div class="playerSummaryStatBox"><span class="summaryStatBreakdownDataLabel">Rating 3.0</span><span class="summaryStatBreakdownDataValue">0.00</span></div>
+                <img src="https://img-cdn.hltv.org/playerbodyshot/seven.png?s=token">''', "7", seed["source_url"])
+            self.assertEqual(profile["stats"]["rating_3_0"], 0.0)
+            save_player_profile(seed, profile, path=path)
+            row = player_profile_payload(path)["players"][0]
+            self.assertEqual(row["stats"]["rating_3_0"], 0.0)
+            self.assertEqual(row["portrait_state"], "verified")
+            seed_missing = {"player_id": "hltv:8", "hltv_player_id": "8", "nickname": "Eight", "source_url": "https://www.hltv.org/player/8/eight"}
+            seed_player_profiles([seed_missing], path)
+            save_player_profile(seed_missing, {"player_id": "hltv:8", "source_url": seed_missing["source_url"]}, error="Profile page contained no recognized profile data.", unavailable=True, path=path)
+            missing = next(row for row in player_profile_payload(path)["players"] if row["player_id"] == "hltv:8")
+            self.assertIsNone(missing["profile_fetched_at_utc"])
+            self.assertEqual(missing["portrait_state"], "unavailable")
+            self.assertEqual(missing["stats_state"], "unavailable")
+
     def test_detail_timeline_requires_anchored_terminal_result(self):
         stat = {
             "player_id": "hltv:7998",
