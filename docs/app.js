@@ -41,7 +41,15 @@ import { installProductNavigation } from "./lib/navigation.js?v=20260920.1";
 import { installChartInteractions, renderInteractiveLineChart } from "./lib/chart-interactions.js?v=20260922.2";
 
 document.addEventListener("error", (event) => {
-  if (event.target?.classList?.contains("player-portrait")) event.target.remove();
+  const image = event.target;
+  if (!image?.classList?.contains("player-portrait")) return;
+  const fallback = image.dataset.fallbackSrc;
+  if (fallback && image.src !== new URL(fallback, document.baseURI).href) {
+    image.removeAttribute("data-fallback-src");
+    image.src = fallback;
+    return;
+  }
+  image.remove();
 }, true);
 
 let productNavigation = null;
@@ -3217,13 +3225,13 @@ function playerDetailViewHtml(player) {
 }
 
 function playerPortraitHtml(player, className) {
-  const portrait = playerPortraitFor(player?.player_id);
+  const portrait = playerPortraitFor(player);
   const initials = escapeHtml(String(player?.nickname || "?").slice(0, 2).toUpperCase());
-  return `<div class="${className}" aria-hidden="true"><span class="player-monogram-initials">${initials}</span>${portrait ? `<img class="player-portrait" src="${escapeHtml(portrait.src)}" alt="" loading="lazy" decoding="async"${portrait.position ? ` style="object-position:${escapeHtml(portrait.position)}"` : ""}>` : ""}</div>`;
+  return `<div class="${className}" aria-hidden="true"><span class="player-monogram-initials">${initials}</span>${portrait ? `<img class="player-portrait" src="${escapeHtml(portrait.src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"${portrait.fallbackSrc ? ` data-fallback-src="${escapeHtml(portrait.fallbackSrc)}"` : ""}${portrait.position ? ` style="object-position:${escapeHtml(portrait.position)}"` : ""}>` : ""}</div>`;
 }
 
 function playerPortraitCreditHtml(player) {
-  const portrait = playerPortraitFor(player?.player_id);
+  const portrait = playerPortraitFor(player);
   if (!portrait) return "";
   return `<small class="player-photo-credit">Photo: <a href="${escapeHtml(portrait.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(portrait.author)}</a> · <a href="${escapeHtml(portrait.licenseUrl)}" target="_blank" rel="noreferrer">${escapeHtml(portrait.license)}</a></small>`;
 }
