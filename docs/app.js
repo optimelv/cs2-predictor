@@ -41,15 +41,7 @@ import { installProductNavigation } from "./lib/navigation.js?v=20260920.1";
 import { installChartInteractions, renderInteractiveLineChart } from "./lib/chart-interactions.js?v=20260922.2";
 
 document.addEventListener("error", (event) => {
-  const image = event.target;
-  if (!image?.classList?.contains("player-portrait")) return;
-  const fallback = image.dataset.fallbackSrc;
-  if (fallback && image.src !== new URL(fallback, document.baseURI).href) {
-    image.removeAttribute("data-fallback-src");
-    image.src = fallback;
-    return;
-  }
-  image.remove();
+  if (event.target?.classList?.contains("player-portrait")) event.target.remove();
 }, true);
 
 let productNavigation = null;
@@ -3227,7 +3219,7 @@ function playerDetailViewHtml(player) {
 function playerPortraitHtml(player, className) {
   const portrait = playerPortraitFor(player);
   const initials = escapeHtml(String(player?.nickname || "?").slice(0, 2).toUpperCase());
-  return `<div class="${className}" aria-hidden="true"><span class="player-monogram-initials">${initials}</span>${portrait ? `<img class="player-portrait" src="${escapeHtml(portrait.src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"${portrait.fallbackSrc ? ` data-fallback-src="${escapeHtml(portrait.fallbackSrc)}"` : ""}${portrait.position ? ` style="object-position:${escapeHtml(portrait.position)}"` : ""}>` : ""}</div>`;
+  return `<div class="${className}" aria-hidden="true"><span class="player-monogram-initials">${initials}</span>${portrait ? `<img class="player-portrait" src="${escapeHtml(portrait.src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"${portrait.position ? ` style="object-position:${escapeHtml(portrait.position)}"` : ""}>` : ""}</div>`;
 }
 
 function playerPortraitCreditHtml(player) {
@@ -3987,8 +3979,8 @@ function renderMyDesk() {
   const incomingCount = pendingDeskImport ? watchlistCount(pendingDeskImport.watchlist) : 0;
   const incomingPicks = pendingDeskImport ? Object.keys(pendingDeskImport.savedPicks).length : 0;
   const importBanner = pendingDeskImport ? `<section class="desk-import-banner"><div><span>Shared desk ready</span><strong>${incomingCount} follows · ${incomingPicks} saved ${incomingPicks === 1 ? "pick" : "picks"}</strong></div><div><button type="button" data-dismiss-desk-import>Not now</button><button type="button" data-import-desk>Import shared desk</button></div></section>` : "";
-  els.myDeskContent.innerHTML = `${importBanner}<section class="my-desk-hero"><div class="my-desk-hero-copy"><h2>${entityCount || pendingPicks ? "Following" : "Follow a team"}</h2><p>${entityCount || pendingPicks ? "Matches and updates from the teams, players and events you follow." : "Follow a favorite to find their matches here. Your picks stay on this device."}</p>${entityCount || pendingPicks ? `<button type="button" class="my-desk-share" data-share-desk>${runeIcon("link")}<b>Share picks & follows</b></button>` : `<div class="suggested-follows">${(appData?.coverage?.vrs?.rankings || appData?.coverage?.vrs?.teams || []).slice(0, 4).map(row => `<div>${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong>${watchButtonHtml("teams", normalizeName(row.team_name), row.team_name)}</div>`).join("") || `<a class="button primary" href="#rankings" data-close-desk>Find a team to follow →</a>`}</div>`}</div><aside><div><span>Following</span><strong>${entityCount}</strong></div><div><span>Next series</span><strong>${matches.length}</strong></div><div><span>Saved picks</span><strong>${pendingPicks}</strong></div><div><span>New signals</span><strong>${unread}</strong></div></aside></section>
-    <section class="my-desk-grid"><div class="my-desk-feed"><header><span>Next on server</span><strong>${matches.length ? `${matches.length} relevant series` : "No scheduled series"}</strong></header>${matches.length ? matches.map(myDeskMatchHtml).join("") : `<div class="my-desk-empty"><span>Match feed</span><strong>Follow a team or active event.</strong></div>`}</div><div class="my-desk-ledger"><header><span>Saved picks</span><strong>${pendingPicks} saved</strong></header>${myDeskPicksHtml()}</div></section>
+  els.myDeskContent.innerHTML = `${importBanner}<section class="my-desk-hero"><div class="my-desk-hero-copy"><h2>${entityCount ? "Following" : pendingPicks ? "Your saved picks" : "Follow a team"}</h2><p>${entityCount ? "Matches and updates from the teams, players and events you follow." : pendingPicks ? "Your selections and their latest model estimates. Saved on this device." : "Follow a favorite to find their matches here. Your picks stay on this device."}</p>${entityCount || pendingPicks ? `<button type="button" class="my-desk-share" data-share-desk>${runeIcon("link")}<b>Share picks & follows</b></button>` : `<div class="suggested-follows">${(appData?.coverage?.vrs?.rankings || appData?.coverage?.vrs?.teams || []).slice(0, 4).map(row => `<div>${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong>${watchButtonHtml("teams", normalizeName(row.team_name), row.team_name)}</div>`).join("") || `<a class="button primary" href="#rankings" data-close-desk>Find a team to follow →</a>`}</div>`}</div><aside><div><span>Following</span><strong>${entityCount}</strong></div><div><span>Next series</span><strong>${matches.length}</strong></div><div><span>Saved picks</span><strong>${pendingPicks}</strong></div><div><span>New signals</span><strong>${unread}</strong></div></aside></section>
+    <section class="my-desk-grid"><div class="my-desk-ledger"><header><span>Saved picks</span><strong>${pendingPicks} saved</strong></header>${myDeskPicksHtml()}</div><div class="my-desk-feed"><header><span>Next on server</span><strong>${matches.length ? `${matches.length} relevant series` : "No scheduled series"}</strong></header>${matches.length ? matches.map(myDeskMatchHtml).join("") : `<div class="my-desk-empty"><span>Match feed</span><strong>Follow a team or active event.</strong></div>`}</div></section>
     ${myDeskSignalsHtml()}
     ${myDeskEntityListsHtml()}`;
   syncWatchControls();
