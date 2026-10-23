@@ -20766,7 +20766,7 @@
       "winner_name": "Illyrians"
     },
     {
-      "detail_fetched_at_utc": "2026-10-22T22:20:23Z",
+      "detail_fetched_at_utc": "2026-10-23T01:31:43Z",
       "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "event_url": "https://www.hltv.org/events/archive",
@@ -60855,7 +60855,7 @@
           "winner_name": "ex-RUSTEC"
         },
         {
-          "detail_fetched_at_utc": "2026-10-22T22:20:23Z",
+          "detail_fetched_at_utc": "2026-10-23T01:31:43Z",
           "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "event_url": "https://www.hltv.org/events/archive",
@@ -62590,7 +62590,7 @@
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-10-22T22:20:52Z",
+  "last_verified_utc": "2026-10-23T01:31:52Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -62615,7 +62615,7 @@
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-22T22:23:23Z",
+    "checked_at_utc": "2026-10-23T01:34:36Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",

@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-10-22T22:20:52Z",
+  "fetched_at_utc": "2026-10-23T01:31:52Z",
   "poll_after_ms": 180000,
   "events": [
     {
@@ -2507,7 +2507,7 @@
               }
             ]
           },
-          "detail_fetched_at_utc": "2026-10-22T22:20:23Z"
+          "detail_fetched_at_utc": "2026-10-23T01:31:43Z"
         },
         {
           "match_id": "hltv:2399491",
@@ -5565,7 +5565,7 @@
           }
         ]
       },
-      "detail_fetched_at_utc": "2026-10-22T22:20:23Z"
+      "detail_fetched_at_utc": "2026-10-23T01:31:43Z"
     },
     {
       "match_id": "hltv:2399491",
@@ -10400,9 +10400,9 @@
       }
     },
     {
+      "player_id": "hltv:20621",
       "hltv_player_id": "20621",
       "nickname": "nitzie",
-      "player_id": "hltv:20621",
       "source_url": "https://www.hltv.org/player/20621/nitzie",
       "team_name": "Butterfly",
       "form_timeline": [
@@ -10454,9 +10454,9 @@
       }
     },
     {
+      "player_id": "hltv:25608",
       "hltv_player_id": "25608",
       "nickname": "ayano",
-      "player_id": "hltv:25608",
       "source_url": "https://www.hltv.org/player/25608/ayano",
       "team_name": "Butterfly",
       "form_timeline": [
@@ -10508,9 +10508,9 @@
       }
     },
     {
+      "player_id": "hltv:13982",
       "hltv_player_id": "13982",
       "nickname": "Forester",
-      "player_id": "hltv:13982",
       "source_url": "https://www.hltv.org/player/13982/forester",
       "team_name": "Butterfly",
       "form_timeline": [
@@ -10562,9 +10562,9 @@
       }
     },
     {
+      "player_id": "hltv:23302",
       "hltv_player_id": "23302",
       "nickname": "Substitute",
-      "player_id": "hltv:23302",
       "source_url": "https://www.hltv.org/player/23302/bluewh1te",
       "team_name": "6yuBoJlbl",
       "form_timeline": [
@@ -14066,7 +14066,7 @@
     "source": "Valve Regional Standings",
     "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_10_05.md",
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-22T22:23:23Z",
+    "checked_at_utc": "2026-10-23T01:34:36Z",
     "scope": "global",
     "status": "official_snapshot",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
@@ -14435,10 +14435,10 @@
   },
   "source": "HLTV via Oracle Scrapling",
   "source_health": {
-    "scheduled_matches": 61,
+    "scheduled_matches": 60,
     "recent_results": 80,
-    "detail_matches": 4,
-    "detail_cache_hits": 78,
+    "detail_matches": 2,
+    "detail_cache_hits": 80,
     "detail_errors": [],
     "browser_fallbacks": 0
   },
