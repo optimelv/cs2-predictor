@@ -1,18 +1,150 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-23T07:32:47Z",
-  "through_date": "2026-10-22",
+  "generated_at_utc": "2026-10-23T13:29:53Z",
+  "through_date": "2026-10-23",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4101,
-    "maps": 2952,
-    "lineup_rows": 9774,
+    "matches": 4104,
+    "maps": 2956,
+    "lineup_rows": 9804,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "hltv:2399331",
+      "match_date": "2026-10-23",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "ex-Zero Tenacity",
+      "team2_name": "ex-RUSTEC",
+      "score1": 1,
+      "score2": 0,
+      "winner_name": "ex-Zero Tenacity",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [
+          "Dragon",
+          "Kind0",
+          "VLDN",
+          "brutmonster",
+          "Cjoffo"
+        ],
+        "team2": [
+          "shalfey",
+          "Brilliance",
+          "bl1x1",
+          "youka",
+          "yiksrezo"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399499",
+      "match_date": "2026-10-23",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "FORZE Reload",
+      "team2_name": "LFO 10",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FORZE Reload",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 7,
+          "winner_name": "FORZE Reload",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 7,
+          "winner_name": "FORZE Reload",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "NickelBack",
+          "Lack1",
+          "YumsaN",
+          "KusMe",
+          "HeCkBNk"
+        ],
+        "team2": [
+          "dottie",
+          "Sapec",
+          "dan1",
+          "Mann3n",
+          "L00m1"
+        ]
+      }
+    },
+    {
+      "match_id": "hltv:2399332",
+      "match_date": "2026-10-23",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Nuclear TigeRES",
+      "team2_name": "Illyrians",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Nuclear TigeRES",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 13,
+          "score2": 11,
+          "winner_name": "Nuclear TigeRES",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 3,
+          "winner_name": "Nuclear TigeRES",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "senka",
+          "Djon8",
+          "flouzer",
+          "ayuki",
+          "tronic"
+        ],
+        "team2": [
+          "cerber",
+          "Dementor",
+          "BledarD",
+          "ammar",
+          "rosoneriii"
+        ]
+      }
+    },
     {
       "match_id": "hltv:2399493",
       "match_date": "2026-10-22",
@@ -144,26 +276,26 @@
         },
         {
           "map_name": "Dust2",
-          "score1": 9,
-          "score2": 3,
+          "score1": 13,
+          "score2": 8,
           "winner_name": "Black Phoenix",
           "picked_by": null
         }
       ],
       "lineups": {
         "team1": [
-          "4X1s",
-          "karnez",
           "topo",
-          "MRcreed",
-          "Salazar"
+          "karnez",
+          "4X1s",
+          "Salazar",
+          "MRcreed"
         ],
         "team2": [
-          "cerber",
+          "Substitute",
+          "Substitute",
           "BledarD",
           "ammar",
-          "Lewis",
-          "rosoneriii"
+          "cerber"
         ]
       }
     },
