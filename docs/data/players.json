@@ -16784,84 +16784,6 @@
       "stats_source_url": "https://www.hltv.org/player/20213/intra"
     },
     {
-      "player_id": "hltv:18240",
-      "nickname": "Smash",
-      "team_name": "WBT",
-      "rating_3_0": 1.1,
-      "maps_3m": 44,
-      "signal_index": 63,
-      "traits": {
-        "firepower": 71,
-        "entrying": 88,
-        "trading": 27,
-        "opening": 57,
-        "clutching": 35,
-        "sniping": 0,
-        "utility": 54
-      },
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399047",
-          "date": "2026-10-09",
-          "event_name": "Roman Imperium Cup IX",
-          "opponent_name": "INFINITE",
-          "team_name": "WBT",
-          "won": true,
-          "kills": 31,
-          "deaths": 22,
-          "kd_ratio": 1.41,
-          "adr": 84.4,
-          "kast": 75.6,
-          "rating": 1.44,
-          "maps": 3
-        }
-      ],
-      "hltv_player_id": "18240",
-      "source_url": "https://www.hltv.org/player/18240/smash",
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "WBT",
-          "from_date": "2026-10-09",
-          "through_date": "2026-10-09",
-          "series": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.44,
-          "average_adr": 84.4
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399047",
-        "date": "2026-10-09",
-        "event_name": "Roman Imperium Cup IX",
-        "opponent_name": "INFINITE",
-        "team_name": "WBT",
-        "won": true,
-        "kills": 31,
-        "deaths": 22,
-        "kd_ratio": 1.41,
-        "adr": 84.4,
-        "kast": 75.6,
-        "rating": 1.44,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 1.44,
-        "average_adr": 84.4,
-        "recent_rating": 1.44,
-        "rating_delta": null
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.345Z",
-      "stats_source_url": "https://www.hltv.org/player/18240/smash"
-    },
-    {
       "player_id": "hltv:16718",
       "nickname": "Fessor",
       "team_name": "EAC",
@@ -20759,6 +20681,88 @@
       "stats_source_url": "https://www.hltv.org/player/22039/danistzz",
       "traits_through_date": "2026-10-13",
       "signal_index_through_date": "2026-10-13"
+    },
+    {
+      "player_id": "hltv:18240",
+      "nickname": "Smash",
+      "team_name": "WBT",
+      "rating_3_0": 1.08,
+      "maps_3m": 55,
+      "signal_index": 63,
+      "traits": {
+        "closing": 40,
+        "entrying": 80,
+        "firepower": 67,
+        "opening": 60,
+        "sniping": 0,
+        "trading": 37,
+        "utility": 54
+      },
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399047",
+          "date": "2026-10-09",
+          "event_name": "Roman Imperium Cup IX",
+          "opponent_name": "INFINITE",
+          "team_name": "WBT",
+          "won": true,
+          "kills": 31,
+          "deaths": 22,
+          "kd_ratio": 1.41,
+          "adr": 84.4,
+          "kast": 75.6,
+          "rating": 1.44,
+          "maps": 3
+        }
+      ],
+      "hltv_player_id": "18240",
+      "source_url": "https://www.hltv.org/player/18240/smash",
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "WBT",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.44,
+          "average_adr": 84.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399047",
+        "date": "2026-10-09",
+        "event_name": "Roman Imperium Cup IX",
+        "opponent_name": "INFINITE",
+        "team_name": "WBT",
+        "won": true,
+        "kills": 31,
+        "deaths": 22,
+        "kd_ratio": 1.41,
+        "adr": 84.4,
+        "kast": 75.6,
+        "rating": 1.44,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.44,
+        "average_adr": 84.4,
+        "recent_rating": 1.44,
+        "rating_delta": null
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T19:12:47Z",
+      "stats_source_url": "https://www.hltv.org/player/18240/smash",
+      "profile_fetched_at_utc": "2026-10-23T19:12:47Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/yj3e1AJXODVuSzOaPptCyr.png?ixlib=java-2.1.0&w=400&s=2cb0b9787c9b1f4100ad4f16d36e6de4",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:7592",
@@ -72958,19 +72962,19 @@
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-10-23T19:10:14Z",
+    "checked_at_utc": "2026-10-23T19:15:31Z",
     "requested": 858,
-    "cached": 40,
-    "attempted": 130,
-    "succeeded": 40,
-    "failed": 2,
-    "portraits": 33,
-    "stats": 40,
+    "cached": 41,
+    "attempted": 132,
+    "succeeded": 41,
+    "failed": 3,
+    "portraits": 34,
+    "stats": 41,
     "received": 858,
     "invalid": 0,
     "stale_stats": 0,
-    "profile_updates": 46,
-    "stats_updates": 40,
-    "traits_updates": 40
+    "profile_updates": 47,
+    "stats_updates": 41,
+    "traits_updates": 41
   }
 }
