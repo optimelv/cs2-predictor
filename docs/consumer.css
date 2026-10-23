@@ -883,3 +883,36 @@ body:is(.team-drawer-open, .player-compare-open, .search-open, .my-desk-open, .v
 .player-detail, .player-form-panel, .player-form-panel > header, .player-detail-tabs { border: 0; }
 .player-detail-tabs button::after { display: none; }
 .player-detail-tabs button.is-active, .event-room-tabs button.is-active { color: var(--ink); font-weight: 650; background: transparent; }
+
+/* Keep the match decision visible before secondary analysis, including on phones. */
+.section-heading h1, .section-heading h2 { font-size: clamp(24px, 2.4vw, 32px); line-height: 1.2; }
+.source-status { margin-bottom: 8px; }
+.source-status summary { padding-bottom: 0; }
+.match-toolbar { margin-bottom: 16px; }
+.match-feature .insight-matchup { margin-block: 16px; }
+.model-comparison .probability-side b { font-size: 40px; }
+.match-feature .model-comparison { margin-bottom: 16px; }
+.match-row { padding-block: 12px; }
+.match-row-teams { gap: 4px; }
+.match-row-teams .team-logo, .match-row-teams .team-logo-fallback { width: 22px; height: 22px; flex-basis: 22px; }
+@media (max-width: 540px) {
+  main { padding-top: 4px; }
+  .section-heading { margin-bottom: 14px; }
+  .source-status summary > span { flex: 0 0 auto; white-space: nowrap; }
+  .source-status summary strong { font-size: 12px; }
+  .source-status summary { gap: 8px; }
+  .match-toolbar { gap: 8px; margin-bottom: 14px; }
+  .match-feature { padding: 12px; }
+  .match-feature .insight-event { font-size: 13px; gap: 6px 12px; flex-wrap: wrap; }
+  .match-feature .insight-matchup { margin-block: 12px; gap: 8px; }
+  .insight-matchup > button { gap: 4px; }
+  .insight-matchup .team-logo, .insight-matchup .team-logo-fallback { width: 40px; height: 40px; }
+  .insight-matchup strong { font-size: 17px; }
+  .insight-matchup small { font-size: 12px; }
+  .model-comparison .probability-side b { font-size: 32px; }
+  .model-comparison > header { margin-bottom: 8px; }
+  .model-comparison > i { height: 6px; margin-top: 12px; }
+  .match-feature .pick-console { padding: 12px; margin-inline: 0; }
+  .pick-console > section { margin-top: 10px; }
+  .pick-save-row { margin-top: 10px; }
+}

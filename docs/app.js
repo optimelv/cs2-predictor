@@ -4024,7 +4024,7 @@ function updateSummary(data) {
   const sourceDate = freshness.timestamp ? new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" }).format(new Date(verifiedAt)) + " UTC" : "Unverified source time";
   const sourceStatus = document.querySelector("#sourceStatus");
   if (sourceStatus) sourceStatus.dataset.state = freshness.state;
-  setText(document.querySelector("#sourceStatusTitle"), isFresh ? "Recent source snapshot" : freshness.state === "stale" ? "Historical matches · live updates unavailable" : "Source freshness is unverified");
+  setText(document.querySelector("#sourceStatusTitle"), isFresh ? `Source checked ${new Intl.DateTimeFormat(undefined, { hour: "2-digit", minute: "2-digit" }).format(new Date(verifiedAt))}` : freshness.state === "stale" ? "Historical matches · live updates unavailable" : "Source freshness is unverified");
   setText(document.querySelector("#sourceStatusDetail"), `${sourceDate}. ${isFresh ? "Match states reflect this check; updates are not continuous." : "Schedules and match states may have changed. New match picks are paused."}`);
   setText(document.querySelector("#matchDataNote"), isFresh ? `Source checked ${sourceDate}. Match times use your local timezone.` : `As recorded ${sourceDate}. This is a historical slate, not today's schedule. Match times use your local timezone.`);
   setText(document.querySelector("#footerDataStatus"), isFresh ? "Recent snapshot loaded" : "Historical data · see source status");
