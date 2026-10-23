@@ -12,5 +12,8 @@ assert.equal(live.creditLabel, "HLTV profile image");
 assert.equal(live.sourceUrl, "https://www.hltv.org/player/999/current");
 const canonicalCredit = playerPortraitFor({ player_id: "hltv:777", portrait_url: "https://img-cdn.hltv.org/playerbodyshot/current.png?s=token", source_url: "https://example.test/player/777/wrong" });
 assert.equal(canonicalCredit.sourceUrl, "https://www.hltv.org/player/777");
+const sourceOptional = playerPortraitFor({ player_id: "hltv:776", portrait_url: "https://img-cdn.hltv.org/playerbodyshot/current.png?s=token" });
+assert.equal(sourceOptional.sourceUrl, "https://www.hltv.org/player/776");
+assert.equal(playerPortraitFor({ player_id: "hltv:775", portrait_url: "https://credentials@img-cdn.hltv.org/playerbodyshot/current.png" }), null);
 assert.equal(playerPortraitFor({ player_id: "hltv:998", portrait_url: "https://example.test/playerbodyshot/current.png" }), null);
 console.log("player portraits ok");
