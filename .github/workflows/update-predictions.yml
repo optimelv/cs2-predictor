@@ -55,54 +55,10 @@ jobs:
               echo "ephemeral=false" >> "$GITHUB_OUTPUT"
               exit 0
             fi
-            echo "The persistent worker is unhealthy; falling back to an ephemeral runner."
           fi
-
-          echo "ephemeral=true" >> "$GITHUB_OUTPUT"
-          if ! python -m pip install --disable-pip-version-check -r infra/oracle/worker/requirements.txt; then
-            echo "Worker dependencies failed to install; preserving the last verified release."
-            echo "available=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-          if ! docker run -d --name strikesignal-flaresolverr \
-            --shm-size=1g \
-            -e LOG_LEVEL=info \
-            -e LOG_HTML=false \
-            -e CAPTCHA_SOLVER=none \
-            -p 8191:8191 \
-            ghcr.io/flaresolverr/flaresolverr:v3.5.0; then
-            echo "FlareSolverr failed to start; preserving the last verified release."
-            echo "available=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          ready=false
-          for attempt in {1..45}; do
-            if curl --fail --silent http://127.0.0.1:8191/ >/dev/null; then
-              ready=true
-              break
-            fi
-            sleep 2
-          done
-          if [ "$ready" != "true" ]; then
-            echo "FlareSolverr did not become ready; preserving the last verified release."
-            docker logs --tail 120 strikesignal-flaresolverr || true
-            echo "available=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
-          if FLARESOLVERR_URL=http://127.0.0.1:8191/v1 \
-            SOURCE_LABEL="HLTV via GitHub Actions FlareSolverr" \
-            REQUEST_TIMEOUT_SECONDS=75 \
-            MAX_DETAIL_MATCHES=6 \
-            python infra/oracle/worker/server.py --once --output "$snapshot_path"; then
-            echo "available=true" >> "$GITHUB_OUTPUT"
-            echo "source=github-actions" >> "$GITHUB_OUTPUT"
-          else
-            echo "HLTV acquisition failed; preserving the last verified release."
-            docker logs --tail 120 strikesignal-flaresolverr || true
-            echo "available=false" >> "$GITHUB_OUTPUT"
-          fi
+          echo "Persistent snapshot unavailable; preserving the last verified release."
+          echo "available=false" >> "$GITHUB_OUTPUT"
+          echo "ephemeral=false" >> "$GITHUB_OUTPUT"
 
       - name: Validate freshness and source health
         if: steps.snapshot.outputs.available == 'true'
@@ -206,8 +162,3 @@ jobs:
           git diff --cached --quiet || git commit -m "Refresh verified CS2 results and projections"
           git push
 
-      - name: Stop the ephemeral source worker
-        if: always() && steps.snapshot.outputs.ephemeral == 'true'
-        run: |
-          docker logs --tail 80 strikesignal-flaresolverr || true
-          docker rm -f strikesignal-flaresolverr || true

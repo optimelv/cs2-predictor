@@ -75,19 +75,24 @@ class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(retry_delay("RuntimeError('HTTP 429')"), BLOCKED_RETRY_SECONDS)
         self.assertEqual(retry_delay("RuntimeError('HTTP 500')"), POLL_SECONDS)
 
-    async def test_http_browser_fallback_is_bounded_and_does_not_retry_rate_limits(self):
+    async def test_http_access_restrictions_are_not_retried(self):
         from server import fetch_url
-        session = SimpleNamespace(get=AsyncMock(return_value=SimpleNamespace(status=403)), browser_fallbacks=0)
-        with patch("server.FETCH_BACKEND", "scrapling-http"), patch("server.fetch_browser_html", new=AsyncMock(return_value="<html>match</html>")) as browser:
-            self.assertEqual(await fetch_url(session, "https://www.hltv.org/matches"), "<html>match</html>")
-            with self.assertRaisesRegex(RuntimeError, "HTTP 403"):
-                await fetch_url(session, "https://www.hltv.org/results")
-            self.assertEqual(browser.await_count, 1)
-            session.browser_fallbacks = 0
-            session.get.return_value = SimpleNamespace(status=429)
-            with self.assertRaisesRegex(RuntimeError, "HTTP 429"):
-                await fetch_url(session, "https://www.hltv.org/results")
-            self.assertEqual(browser.await_count, 1)
+        session = SimpleNamespace(get=AsyncMock())
+        with patch("server.FETCH_BACKEND", "scrapling-http"):
+            for status in (403, 429):
+                session.get.reset_mock()
+                session.get.return_value = SimpleNamespace(status=status)
+                with self.assertRaisesRegex(RuntimeError, f"HTTP {status}"):
+                    await fetch_url(session, "https://www.hltv.org/matches")
+                self.assertEqual(session.get.await_count, 1)
+
+    async def test_legacy_challenge_solver_is_disabled(self):
+        from server import fetch_url
+        session = SimpleNamespace(post=AsyncMock())
+        with patch("server.FETCH_BACKEND", "flaresolverr"):
+            with self.assertRaisesRegex(RuntimeError, "disabled"):
+                await fetch_url(session, "https://www.hltv.org/matches")
+        session.post.assert_not_called()
 
     async def test_health_rejects_stale_or_failed_collection(self):
         from server import health
@@ -106,10 +111,11 @@ class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
             session.fetch.return_value = SimpleNamespace(status=200, body=b"<html>match data</html>")
             self.assertEqual(await fetch_url(session, "https://www.hltv.org/matches"), "<html>match data</html>")
             session.fetch.reset_mock()
-            session.fetch.side_effect = [SimpleNamespace(status=403), SimpleNamespace(status=200, body=b"solved")]
-            self.assertEqual(await fetch_url(session, "https://www.hltv.org/results"), "solved")
-            self.assertFalse(session.fetch.await_args_list[0].kwargs["solve_cloudflare"])
-            self.assertTrue(session.fetch.await_args_list[1].kwargs["solve_cloudflare"])
+            session.fetch.side_effect = [SimpleNamespace(status=403), SimpleNamespace(status=200, body=b"unrequested")]
+            with self.assertRaisesRegex(RuntimeError, "HTTP 403"):
+                await fetch_url(session, "https://www.hltv.org/results")
+            self.assertEqual(session.fetch.await_count, 1)
+            self.assertFalse(session.fetch.await_args.kwargs["solve_cloudflare"])
             session.fetch.reset_mock()
             session.fetch.side_effect = [SimpleNamespace(status=429)]
             with self.assertRaisesRegex(RuntimeError, "HTTP 429"):
