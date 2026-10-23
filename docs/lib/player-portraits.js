@@ -61,14 +61,39 @@ const PORTRAITS = {
     sourceUrl: "https://www.hltv.org/player/18987/b1t",
     creditLabel: "HLTV profile image",
   },
+  "hltv:9960": {
+    src: "https://img-cdn.hltv.org/playerbodyshot/aFuk-1yq3DatdhVa3kICms.png?ixlib=java-2.1.0&s=4a99190a6e6eabbfd799ec121c5f9c53&w=400",
+    sourceUrl: "https://www.hltv.org/player/9960/frozen",
+    creditLabel: "HLTV profile image",
+  },
+  "hltv:18072": {
+    src: "https://img-cdn.hltv.org/playerbodyshot/g9uOgg5eleoDQBL3oISgCU.png?ixlib=java-2.1.0&s=c2e49b3335e46e1f0ad6ee145563b566&w=400",
+    sourceUrl: "https://www.hltv.org/player/18072/torzsi",
+    creditLabel: "HLTV profile image",
+  },
+  "hltv:20312": {
+    src: "https://img-cdn.hltv.org/playerbodyshot/d27M8GVSaQYgRfmBJnBpkE.png?ixlib=java-2.1.0&s=aff5b6409249a3c87412e15c4e7ea4e2&w=400",
+    sourceUrl: "https://www.hltv.org/player/20312/xertion",
+    creditLabel: "HLTV profile image",
+  },
+  "hltv:18850": {
+    src: "https://img-cdn.hltv.org/playerbodyshot/YV17JXjtrMTI4G0LULROlE.png?ixlib=java-2.1.0&s=429021ee8e8ce7cfced630caa82ea4a2&w=400",
+    sourceUrl: "https://www.hltv.org/player/18850/jimpphat",
+    creditLabel: "HLTV profile image",
+  },
 };
 
 function currentHltvPortrait(player) {
+  const id = String(player?.player_id || "").match(/^hltv:(\d+)$/)?.[1];
   const url = String(player?.portrait_url || "").trim();
   try {
-    const parsed = new URL(url);
-    return parsed.protocol === "https:" && parsed.hostname === "img-cdn.hltv.org" && parsed.pathname.startsWith("/playerbodyshot/")
-      ? { src: url, sourceUrl: player.source_url, creditLabel: "HLTV profile image" }
+    const image = new URL(url);
+    const source = new URL(String(player?.source_url || ""));
+    const sourceUrl = source.protocol === "https:" && source.hostname === "www.hltv.org" && source.pathname.startsWith(`/player/${id}/`)
+      ? source.href
+      : id ? `https://www.hltv.org/player/${id}` : "";
+    return id && sourceUrl && image.protocol === "https:" && image.hostname === "img-cdn.hltv.org" && image.pathname.startsWith("/playerbodyshot/")
+      ? { src: url, sourceUrl, creditLabel: "HLTV profile image" }
       : null;
   } catch {
     return null;
@@ -77,5 +102,5 @@ function currentHltvPortrait(player) {
 
 export function playerPortraitFor(player) {
   const profile = typeof player === "object" && player ? player : null;
-  return PORTRAITS[String(profile?.player_id || player)] || currentHltvPortrait(profile);
+  return currentHltvPortrait(profile) || PORTRAITS[String(profile?.player_id || player)] || null;
 }
