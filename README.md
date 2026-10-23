@@ -48,6 +48,8 @@ The refresh pipeline runs hourly at minute 17. It prefers the persistent Oracle 
 
 The existing Always Free Micro worker also runs historical backfill independently of live-feed success. Live and backfill jobs reuse one browser, recycled after ten sessions; each backfill batch collects two overlap-checked pages, pauses 30 seconds between pages, and waits 60 seconds between batches. Match details are cached for 15 minutes, or 24 hours for completed matches with player statistics; live matches and changed results are refreshed. `/healthz` reports backfill enablement, cursor, last progress, errors, and stalls separately from live freshness. The Oracle Liquipedia timer collects five teams every 15 minutes; GitHub imports the cached evidence. These schedules govern collection on Oracle; GitHub's scheduled publication can be delayed.
 
+For the native systemd worker, `infra/oracle/Caddyfile.native` records the ingress allowlist. Set `WORKER_HOST`, validate the configuration, then reload Caddy. `/player-profiles` must reach the worker: missing or incorrect bearer tokens must return 401, while the cloud publisher uses `ARCHIVE_BEARER_TOKEN`. An omitted route returns 404 and prevents profile publication even when collection succeeds. Player image files stay on the HLTV CDN; raw diagnostic HTML stays on Oracle.
+
 ## Development
 
 Use Node.js 24 (also used by CI). JSON snapshots live in `docs/data/`; browser bundles loaded by the page live in `docs/vendor/`. The Python exporters and refresh workflow must update both together.
