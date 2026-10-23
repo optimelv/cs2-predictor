@@ -3414,6 +3414,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 72.3,
           "rating": 1.14,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399107",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 41,
+          "deaths": 27,
+          "kd_ratio": 1.52,
+          "adr": 106.9,
+          "kast": 86,
+          "rating": 1.56,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -3421,13 +3436,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-20",
-          "series": 12,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 13,
+          "wins": 7,
           "losses": 6,
-          "win_rate": 0.5,
-          "average_rating": 1.17,
-          "average_adr": 90
+          "win_rate": 0.538,
+          "average_rating": 1.2,
+          "average_adr": 91.3
         }
       ],
       "timeline_entry": {
@@ -3446,11 +3461,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 12,
-        "average_rating": 1.17,
-        "average_adr": 90,
-        "recent_rating": 1.13,
-        "rating_delta": -0.09
+        "series": 13,
+        "average_rating": 1.2,
+        "average_adr": 91.3,
+        "recent_rating": 1.35,
+        "rating_delta": 0.47
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -4435,6 +4450,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 78.7,
           "rating": 1.47,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Inner Circle Academy",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 37,
+          "deaths": 41,
+          "kd_ratio": 0.9,
+          "adr": 78.1,
+          "kast": 71.4,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -4442,36 +4472,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-22",
-          "series": 9,
+          "through_date": "2026-10-23",
+          "series": 10,
           "wins": 7,
-          "losses": 2,
-          "win_rate": 0.778,
-          "average_rating": 1.14,
-          "average_adr": 77.2
+          "losses": 3,
+          "win_rate": 0.7,
+          "average_rating": 1.13,
+          "average_adr": 77.3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399327",
-        "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "GenOne",
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Inner Circle Academy",
         "team_name": "Spirit Academy",
-        "won": true,
-        "kills": 63,
-        "deaths": 40,
-        "kd_ratio": 1.57,
-        "adr": 90.3,
-        "kast": 78.7,
-        "rating": 1.47,
+        "won": false,
+        "kills": 37,
+        "deaths": 41,
+        "kd_ratio": 0.9,
+        "adr": 78.1,
+        "kast": 71.4,
+        "rating": 1.04,
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.14,
-        "average_adr": 77.2,
-        "recent_rating": 1.22,
-        "rating_delta": 0.05
+        "series": 10,
+        "average_rating": 1.13,
+        "average_adr": 77.3,
+        "recent_rating": 1.14,
+        "rating_delta": -0.05
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -4633,6 +4663,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 73.3,
           "rating": 1.29,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Inner Circle Academy",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 45,
+          "deaths": 42,
+          "kd_ratio": 1.07,
+          "adr": 76.1,
+          "kast": 74.6,
+          "rating": 1.22,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -4640,36 +4685,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-22",
-          "series": 9,
+          "through_date": "2026-10-23",
+          "series": 10,
           "wins": 7,
-          "losses": 2,
-          "win_rate": 0.778,
-          "average_rating": 1.31,
-          "average_adr": 78.6
+          "losses": 3,
+          "win_rate": 0.7,
+          "average_rating": 1.3,
+          "average_adr": 78.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399327",
-        "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "GenOne",
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Inner Circle Academy",
         "team_name": "Spirit Academy",
-        "won": true,
-        "kills": 55,
-        "deaths": 46,
-        "kd_ratio": 1.2,
-        "adr": 77.3,
-        "kast": 73.3,
-        "rating": 1.29,
+        "won": false,
+        "kills": 45,
+        "deaths": 42,
+        "kd_ratio": 1.07,
+        "adr": 76.1,
+        "kast": 74.6,
+        "rating": 1.22,
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.31,
-        "average_adr": 78.6,
-        "recent_rating": 1.37,
-        "rating_delta": 0.12
+        "series": 10,
+        "average_rating": 1.3,
+        "average_adr": 78.4,
+        "recent_rating": 1.24,
+        "rating_delta": -0.04
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -13243,6 +13288,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 70.2,
           "rating": 1.37,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399107",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 28,
+          "deaths": 25,
+          "kd_ratio": 1.12,
+          "adr": 69.7,
+          "kast": 79.1,
+          "rating": 1.07,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -13250,13 +13310,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-20",
-          "series": 12,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 13,
+          "wins": 7,
           "losses": 6,
-          "win_rate": 0.5,
+          "win_rate": 0.538,
           "average_rating": 1.09,
-          "average_adr": 73.8
+          "average_adr": 73.4
         }
       ],
       "timeline_entry": {
@@ -13275,11 +13335,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 12,
+        "series": 13,
         "average_rating": 1.09,
-        "average_adr": 73.8,
-        "recent_rating": 1.23,
-        "rating_delta": 0.23
+        "average_adr": 73.4,
+        "recent_rating": 1.22,
+        "rating_delta": 0.2
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -15619,6 +15679,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 64,
           "rating": 0.89,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Inner Circle Academy",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 36,
+          "deaths": 47,
+          "kd_ratio": 0.77,
+          "adr": 63.8,
+          "kast": 58.7,
+          "rating": 0.75,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -15626,36 +15701,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-22",
-          "series": 9,
+          "through_date": "2026-10-23",
+          "series": 10,
           "wins": 7,
-          "losses": 2,
-          "win_rate": 0.778,
-          "average_rating": 1.17,
-          "average_adr": 81.3
+          "losses": 3,
+          "win_rate": 0.7,
+          "average_rating": 1.13,
+          "average_adr": 79.6
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399327",
-        "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "GenOne",
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Inner Circle Academy",
         "team_name": "Spirit Academy",
-        "won": true,
-        "kills": 46,
-        "deaths": 56,
-        "kd_ratio": 0.82,
-        "adr": 68,
-        "kast": 64,
-        "rating": 0.89,
+        "won": false,
+        "kills": 36,
+        "deaths": 47,
+        "kd_ratio": 0.77,
+        "adr": 63.8,
+        "kast": 58.7,
+        "rating": 0.75,
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.17,
-        "average_adr": 81.3,
-        "recent_rating": 1.44,
-        "rating_delta": 0.35
+        "series": 10,
+        "average_rating": 1.13,
+        "average_adr": 79.6,
+        "recent_rating": 1.09,
+        "rating_delta": -0.26
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -22710,6 +22785,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 70.2,
           "rating": 0.93,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399107",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 31,
+          "deaths": 29,
+          "kd_ratio": 1.07,
+          "adr": 78.1,
+          "kast": 74.4,
+          "rating": 1.19,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -22717,13 +22807,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-20",
-          "series": 12,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 13,
+          "wins": 7,
           "losses": 6,
-          "win_rate": 0.5,
-          "average_rating": 0.94,
-          "average_adr": 63.2
+          "win_rate": 0.538,
+          "average_rating": 0.96,
+          "average_adr": 64.3
         }
       ],
       "timeline_entry": {
@@ -22742,11 +22832,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 12,
-        "average_rating": 0.94,
-        "average_adr": 63.2,
-        "recent_rating": 0.87,
-        "rating_delta": -0.11
+        "series": 13,
+        "average_rating": 0.96,
+        "average_adr": 64.3,
+        "recent_rating": 0.99,
+        "rating_delta": 0.21
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -24888,6 +24978,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68.1,
           "rating": 0.94,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399107",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 27,
+          "deaths": 28,
+          "kd_ratio": 0.96,
+          "adr": 77.2,
+          "kast": 76.7,
+          "rating": 1.1,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -24895,13 +25000,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-20",
-          "series": 12,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 13,
+          "wins": 7,
           "losses": 6,
-          "win_rate": 0.5,
+          "win_rate": 0.538,
           "average_rating": 1.07,
-          "average_adr": 71.6
+          "average_adr": 72
         }
       ],
       "timeline_entry": {
@@ -24920,11 +25025,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 12,
+        "series": 13,
         "average_rating": 1.07,
-        "average_adr": 71.6,
-        "recent_rating": 1.05,
-        "rating_delta": 0.08
+        "average_adr": 72,
+        "recent_rating": 1.06,
+        "rating_delta": 0.17
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -36760,6 +36865,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 66,
           "rating": 0.81,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399107",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 25,
+          "deaths": 25,
+          "kd_ratio": 1,
+          "adr": 49.4,
+          "kast": 69.8,
+          "rating": 0.85,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -36767,13 +36887,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "mellren",
           "from_date": "2026-10-04",
-          "through_date": "2026-10-20",
-          "series": 12,
-          "wins": 6,
+          "through_date": "2026-10-22",
+          "series": 13,
+          "wins": 7,
           "losses": 6,
-          "win_rate": 0.5,
-          "average_rating": 0.93,
-          "average_adr": 64.8
+          "win_rate": 0.538,
+          "average_rating": 0.92,
+          "average_adr": 63.6
         }
       ],
       "timeline_entry": {
@@ -36792,11 +36912,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 12,
-        "average_rating": 0.93,
-        "average_adr": 64.8,
-        "recent_rating": 0.89,
-        "rating_delta": -0.04
+        "series": 13,
+        "average_rating": 0.92,
+        "average_adr": 63.6,
+        "recent_rating": 0.85,
+        "rating_delta": -0.01
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -42283,6 +42403,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 80,
           "rating": 1.07,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Inner Circle Academy",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 54,
+          "deaths": 49,
+          "kd_ratio": 1.1,
+          "adr": 82.1,
+          "kast": 74.6,
+          "rating": 1.27,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -42290,36 +42425,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-22",
-          "series": 9,
+          "through_date": "2026-10-23",
+          "series": 10,
           "wins": 7,
-          "losses": 2,
-          "win_rate": 0.778,
-          "average_rating": 1.14,
-          "average_adr": 68
+          "losses": 3,
+          "win_rate": 0.7,
+          "average_rating": 1.15,
+          "average_adr": 69.4
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399327",
-        "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "GenOne",
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Inner Circle Academy",
         "team_name": "Spirit Academy",
-        "won": true,
-        "kills": 46,
-        "deaths": 45,
-        "kd_ratio": 1.02,
-        "adr": 64.8,
-        "kast": 80,
-        "rating": 1.07,
+        "won": false,
+        "kills": 54,
+        "deaths": 49,
+        "kd_ratio": 1.1,
+        "adr": 82.1,
+        "kast": 74.6,
+        "rating": 1.27,
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 1.14,
-        "average_adr": 68,
-        "recent_rating": 1.28,
-        "rating_delta": 0.18
+        "series": 10,
+        "average_rating": 1.15,
+        "average_adr": 69.4,
+        "recent_rating": 1.13,
+        "rating_delta": -0.12
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -44575,6 +44710,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68,
           "rating": 0.87,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Inner Circle Academy",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 27,
+          "deaths": 46,
+          "kd_ratio": 0.59,
+          "adr": 48.9,
+          "kast": 58.7,
+          "rating": 0.61,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -44582,36 +44732,36 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Spirit Academy",
           "from_date": "2026-10-03",
-          "through_date": "2026-10-22",
-          "series": 9,
+          "through_date": "2026-10-23",
+          "series": 10,
           "wins": 7,
-          "losses": 2,
-          "win_rate": 0.778,
-          "average_rating": 0.91,
-          "average_adr": 68.5
+          "losses": 3,
+          "win_rate": 0.7,
+          "average_rating": 0.88,
+          "average_adr": 66.6
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399327",
-        "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "GenOne",
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Inner Circle Academy",
         "team_name": "Spirit Academy",
-        "won": true,
-        "kills": 47,
-        "deaths": 52,
-        "kd_ratio": 0.9,
-        "adr": 70.9,
-        "kast": 68,
-        "rating": 0.87,
+        "won": false,
+        "kills": 27,
+        "deaths": 46,
+        "kd_ratio": 0.59,
+        "adr": 48.9,
+        "kast": 58.7,
+        "rating": 0.61,
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
-        "average_rating": 0.91,
-        "average_adr": 68.5,
-        "recent_rating": 0.82,
-        "rating_delta": -0.09
+        "series": 10,
+        "average_rating": 0.88,
+        "average_adr": 66.6,
+        "recent_rating": 0.79,
+        "rating_delta": 0.04
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -69155,27 +69305,42 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 73.2,
           "rating": 0.98,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Spirit Academy",
+          "team_name": "Inner Circle Academy",
+          "won": true,
+          "kills": 61,
+          "deaths": 32,
+          "kd_ratio": 1.91,
+          "adr": 87.7,
+          "kast": 76.2,
+          "rating": 1.42,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.98,
-        "average_adr": 63.8,
-        "recent_rating": 0.98,
+        "series": 2,
+        "average_rating": 1.2,
+        "average_adr": 75.8,
+        "recent_rating": 1.2,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "Inner Circle Academy",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-23",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.98,
-          "average_adr": 63.8
+          "average_rating": 1.2,
+          "average_adr": 75.8
         }
       ],
       "map_profile": [],
@@ -69189,18 +69354,18 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399490",
-        "date": "2026-10-21",
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "HAVU",
+        "opponent_name": "Spirit Academy",
         "team_name": "Inner Circle Academy",
         "won": true,
-        "kills": 34,
-        "deaths": 31,
-        "kd_ratio": 1.1,
-        "adr": 63.8,
-        "kast": 73.2,
-        "rating": 0.98,
+        "kills": 61,
+        "deaths": 32,
+        "kd_ratio": 1.91,
+        "adr": 87.7,
+        "kast": 76.2,
+        "rating": 1.42,
         "maps": 3
       }
     },
@@ -69225,13 +69390,28 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 75,
           "rating": 1.25,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Spirit Academy",
+          "team_name": "Inner Circle Academy",
+          "won": true,
+          "kills": 48,
+          "deaths": 43,
+          "kd_ratio": 1.12,
+          "adr": 91.3,
+          "kast": 73,
+          "rating": 1.24,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
+        "series": 2,
         "average_rating": 1.25,
-        "average_adr": 87.4,
+        "average_adr": 89.3,
         "recent_rating": 1.25,
         "rating_delta": null
       },
@@ -69239,13 +69419,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "Inner Circle Academy",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-23",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
           "average_rating": 1.25,
-          "average_adr": 87.4
+          "average_adr": 89.3
         }
       ],
       "map_profile": [],
@@ -69259,18 +69439,18 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399490",
-        "date": "2026-10-21",
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "HAVU",
+        "opponent_name": "Spirit Academy",
         "team_name": "Inner Circle Academy",
         "won": true,
-        "kills": 42,
-        "deaths": 34,
-        "kd_ratio": 1.24,
-        "adr": 87.4,
-        "kast": 75,
-        "rating": 1.25,
+        "kills": 48,
+        "deaths": 43,
+        "kd_ratio": 1.12,
+        "adr": 91.3,
+        "kast": 73,
+        "rating": 1.24,
         "maps": 3
       }
     },
@@ -69295,27 +69475,42 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 69.6,
           "rating": 0.8,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Spirit Academy",
+          "team_name": "Inner Circle Academy",
+          "won": true,
+          "kills": 39,
+          "deaths": 44,
+          "kd_ratio": 0.89,
+          "adr": 70.9,
+          "kast": 73,
+          "rating": 0.98,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.8,
-        "average_adr": 50.8,
-        "recent_rating": 0.8,
+        "series": 2,
+        "average_rating": 0.89,
+        "average_adr": 60.9,
+        "recent_rating": 0.89,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "Inner Circle Academy",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-23",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.8,
-          "average_adr": 50.8
+          "average_rating": 0.89,
+          "average_adr": 60.9
         }
       ],
       "map_profile": [],
@@ -69329,18 +69524,18 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399490",
-        "date": "2026-10-21",
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "HAVU",
+        "opponent_name": "Spirit Academy",
         "team_name": "Inner Circle Academy",
         "won": true,
-        "kills": 25,
-        "deaths": 33,
-        "kd_ratio": 0.76,
-        "adr": 50.8,
-        "kast": 69.6,
-        "rating": 0.8,
+        "kills": 39,
+        "deaths": 44,
+        "kd_ratio": 0.89,
+        "adr": 70.9,
+        "kast": 73,
+        "rating": 0.98,
         "maps": 3
       }
     },
@@ -69365,27 +69560,42 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 67.9,
           "rating": 1.15,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Spirit Academy",
+          "team_name": "Inner Circle Academy",
+          "won": true,
+          "kills": 36,
+          "deaths": 44,
+          "kd_ratio": 0.82,
+          "adr": 68.7,
+          "kast": 66.7,
+          "rating": 0.86,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.15,
-        "average_adr": 80.5,
-        "recent_rating": 1.15,
+        "series": 2,
+        "average_rating": 1,
+        "average_adr": 74.6,
+        "recent_rating": 1,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "Inner Circle Academy",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-23",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.15,
-          "average_adr": 80.5
+          "average_rating": 1,
+          "average_adr": 74.6
         }
       ],
       "map_profile": [],
@@ -69399,18 +69609,18 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399490",
-        "date": "2026-10-21",
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "HAVU",
+        "opponent_name": "Spirit Academy",
         "team_name": "Inner Circle Academy",
         "won": true,
-        "kills": 45,
-        "deaths": 39,
-        "kd_ratio": 1.15,
-        "adr": 80.5,
-        "kast": 67.9,
-        "rating": 1.15,
+        "kills": 36,
+        "deaths": 44,
+        "kd_ratio": 0.82,
+        "adr": 68.7,
+        "kast": 66.7,
+        "rating": 0.86,
         "maps": 3
       }
     },
@@ -69435,27 +69645,42 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 75,
           "rating": 1.23,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Spirit Academy",
+          "team_name": "Inner Circle Academy",
+          "won": true,
+          "kills": 40,
+          "deaths": 36,
+          "kd_ratio": 1.11,
+          "adr": 66.2,
+          "kast": 81,
+          "rating": 1.16,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.23,
-        "average_adr": 82.9,
-        "recent_rating": 1.23,
+        "series": 2,
+        "average_rating": 1.19,
+        "average_adr": 74.6,
+        "recent_rating": 1.19,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "Inner Circle Academy",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-23",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.23,
-          "average_adr": 82.9
+          "average_rating": 1.19,
+          "average_adr": 74.6
         }
       ],
       "map_profile": [],
@@ -69469,18 +69694,18 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399490",
-        "date": "2026-10-21",
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
         "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "HAVU",
+        "opponent_name": "Spirit Academy",
         "team_name": "Inner Circle Academy",
         "won": true,
-        "kills": 42,
-        "deaths": 29,
-        "kd_ratio": 1.45,
-        "adr": 82.9,
-        "kast": 75,
-        "rating": 1.23,
+        "kills": 40,
+        "deaths": 36,
+        "kd_ratio": 1.11,
+        "adr": 66.2,
+        "kast": 81,
+        "rating": 1.16,
         "maps": 3
       }
     },
@@ -71757,9 +71982,144 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "stats_fetched_at_utc": null,
       "stats_source_url": null,
       "signal_index": null
+    },
+    {
+      "player_id": "hltv:13281",
+      "nickname": "El1an",
+      "team_name": "INOX Division",
+      "hltv_player_id": "13281",
+      "source_url": "https://www.hltv.org/player/13281/el1an",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:22430",
+      "nickname": "k0s",
+      "team_name": "INOX Division",
+      "hltv_player_id": "22430",
+      "source_url": "https://www.hltv.org/player/22430/k0s",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:22880",
+      "nickname": "m1QUSE",
+      "team_name": "INOX Division",
+      "hltv_player_id": "22880",
+      "source_url": "https://www.hltv.org/player/22880/m1quse",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:22883",
+      "nickname": "k1slll",
+      "team_name": "INOX Division",
+      "hltv_player_id": "22883",
+      "source_url": "https://www.hltv.org/player/22883/k1slll",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:22961",
+      "nickname": "finW",
+      "team_name": "INOX Division",
+      "hltv_player_id": "22961",
+      "source_url": "https://www.hltv.org/player/22961/finw",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-23T13:29:53Z",
+  "lineups_updated_at_utc": "2026-10-23T16:15:23Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-23",
   "history_profile_count": 53,
