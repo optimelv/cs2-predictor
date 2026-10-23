@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4111,
+    "matches": 4112,
     "maps": 2962,
     "lineup_rows": 9834,
     "source_match_ids": 976
@@ -378,6 +378,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:6bd8270c3c8f0cd7a6ab",
+      "match_date": "2026-10-23",
+      "starts_at": "2026-10-23T14:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Playoffs",
+      "team1_name": "ACES",
+      "team2_name": "INOX",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "INOX",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
     },
     {
       "match_id": "hltv:2399493",
