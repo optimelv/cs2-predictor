@@ -24826,7 +24826,7 @@
       "winner_name": "6yuBoJlbl"
     },
     {
-      "detail_fetched_at_utc": "2026-10-23T18:02:58Z",
+      "detail_fetched_at_utc": "2026-10-23T18:21:36Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -26197,7 +26197,7 @@
       "winner_name": "mellren"
     },
     {
-      "detail_fetched_at_utc": "2026-10-23T18:13:55Z",
+      "detail_fetched_at_utc": "2026-10-23T18:21:24Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -26315,7 +26315,7 @@
       "veto_text": "Best of 3 (Online)\n\n* Round of 16"
     },
     {
-      "detail_fetched_at_utc": "2026-10-23T18:13:41Z",
+      "detail_fetched_at_utc": "2026-10-23T18:21:11Z",
       "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "event_url": "https://www.hltv.org/events/archive",
@@ -60334,7 +60334,7 @@
           "winner_name": "FORZE Reload"
         },
         {
-          "detail_fetched_at_utc": "2026-10-23T18:02:58Z",
+          "detail_fetched_at_utc": "2026-10-23T18:21:36Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -60823,7 +60823,7 @@
           "winner_name": "Nuclear TigeRES"
         },
         {
-          "detail_fetched_at_utc": "2026-10-23T18:13:55Z",
+          "detail_fetched_at_utc": "2026-10-23T18:21:24Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -65913,7 +65913,7 @@
           "winner_name": "FORZE Reload"
         },
         {
-          "detail_fetched_at_utc": "2026-10-23T18:13:41Z",
+          "detail_fetched_at_utc": "2026-10-23T18:21:11Z",
           "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "event_url": "https://www.hltv.org/events/archive",
@@ -66667,7 +66667,7 @@
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-10-23T18:14:20Z",
+  "last_verified_utc": "2026-10-23T18:21:58Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -66692,7 +66692,7 @@
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-23T18:18:47Z",
+    "checked_at_utc": "2026-10-23T18:25:02Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",

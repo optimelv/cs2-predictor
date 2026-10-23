@@ -24827,7 +24827,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "6yuBoJlbl"
       },
       {
-        "detail_fetched_at_utc": "2026-10-23T18:02:58Z",
+        "detail_fetched_at_utc": "2026-10-23T18:21:36Z",
         "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
         "event_url": "https://www.hltv.org/events/archive",
@@ -26198,7 +26198,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "mellren"
       },
       {
-        "detail_fetched_at_utc": "2026-10-23T18:13:55Z",
+        "detail_fetched_at_utc": "2026-10-23T18:21:24Z",
         "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
         "event_url": "https://www.hltv.org/events/archive",
@@ -26316,7 +26316,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "veto_text": "Best of 3 (Online)\n\n* Round of 16"
       },
       {
-        "detail_fetched_at_utc": "2026-10-23T18:13:41Z",
+        "detail_fetched_at_utc": "2026-10-23T18:21:11Z",
         "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
         "event_url": "https://www.hltv.org/events/archive",
@@ -60335,7 +60335,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "FORZE Reload"
           },
           {
-            "detail_fetched_at_utc": "2026-10-23T18:02:58Z",
+            "detail_fetched_at_utc": "2026-10-23T18:21:36Z",
             "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
             "event_url": "https://www.hltv.org/events/archive",
@@ -60824,7 +60824,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "Nuclear TigeRES"
           },
           {
-            "detail_fetched_at_utc": "2026-10-23T18:13:55Z",
+            "detail_fetched_at_utc": "2026-10-23T18:21:24Z",
             "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
             "event_url": "https://www.hltv.org/events/archive",
@@ -65914,7 +65914,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "FORZE Reload"
           },
           {
-            "detail_fetched_at_utc": "2026-10-23T18:13:41Z",
+            "detail_fetched_at_utc": "2026-10-23T18:21:11Z",
             "event_id": "hltv:cct-2026-europe-series-12",
             "event_name": "CCT 2026 Europe Series 12",
             "event_url": "https://www.hltv.org/events/archive",
@@ -66668,7 +66668,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-10-23T18:14:20Z",
+    "last_verified_utc": "2026-10-23T18:21:58Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -66693,7 +66693,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-23T18:18:47Z",
+      "checked_at_utc": "2026-10-23T18:25:02Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -67077,7 +67077,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-23T18:19:19Z",
+  "generated_at_utc": "2026-10-23T18:25:33Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -68631,7 +68631,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-23T18:19:18Z",
+    "generated_at_utc": "2026-10-23T18:25:32Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -80748,7 +80748,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 38,
-    "online_results_applied": 1,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
