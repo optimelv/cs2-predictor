@@ -66963,7 +66963,7 @@
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-23T19:15:32Z",
+      "checked_at_utc": "2026-10-23T22:15:33Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -67347,7 +67347,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-23T19:16:02Z",
+  "generated_at_utc": "2026-10-23T22:16:04Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -68901,7 +68901,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-23T19:16:02Z",
+    "generated_at_utc": "2026-10-23T22:16:04Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
