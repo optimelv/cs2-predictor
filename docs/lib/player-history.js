@@ -5,7 +5,7 @@ export function mergePlayerProfile(existing = {}, incoming = {}) {
   const timeline = mergePlayerTimeline(existing.form_timeline, incomingTimeline);
   const profile = {
     ...existing, ...incoming,
-    traits: { ...(existing.traits || {}), ...(incoming.traits || {}) },
+    traits: { ...(existing.traits || {}) },
     form_timeline: timeline,
     form_summary: summarizePlayerTimeline(timeline),
     roster_eras: incomingTimeline.length ? summarizePlayerRosterEras(timeline) : (existing.roster_eras || []),
@@ -16,12 +16,35 @@ export function mergePlayerProfile(existing = {}, incoming = {}) {
     && (!incoming.stats_from_date || incoming.stats_from_date <= incoming.stats_through_date)
     && incoming.stats_through_date <= new Date().toISOString().slice(0, 10)
     && incoming.stats_through_date >= (existing.stats_through_date || "");
-  for (const key of ["rating_3_0", "maps_3m", "kd_ratio_3m", "stats_window", "stats_from_date", "stats_through_date", "stats_fetched_at_utc", "stats_source_url", "signal_index"]) {
+  for (const key of ["rating_3_0", "maps_3m", "kd_ratio_3m", "stats_window", "stats_from_date", "stats_through_date", "stats_fetched_at_utc", "stats_source_url"]) {
     profile[key] = datedStats && Object.hasOwn(incoming, key) ? incoming[key] : existing[key] ?? null;
   }
-  // A few observed series cannot replace the profile's independently collected signal.
-  if (!datedStats) profile.traits = existing.traits || {};
-  if (!datedStats && existing.stats_through_date && existing.stats_through_date >= (incomingTimeline.map((row) => row.date || "").sort().at(-1) || "")) profile.team_name = existing.team_name;
+  const validDate = (value) => /^\d{4}-\d{2}-\d{2}$/.test(value || "") && value <= new Date().toISOString().slice(0, 10);
+  const existingTraitsDate = existing.traits_through_date || existing.stats_through_date || null;
+  const incomingTraitsDate = incoming.traits_through_date || (Object.keys(incoming.traits || {}).length ? incoming.stats_through_date : null);
+  const completeTraits = Object.keys(incoming.traits || {}).length === 7
+    && Object.values(incoming.traits).every((value) => Number.isInteger(value) && value >= 0 && value <= 100);
+  if (completeTraits && validDate(incomingTraitsDate) && (!existingTraitsDate || incomingTraitsDate >= existingTraitsDate)) {
+    profile.traits = { ...(existing.traits || {}), ...incoming.traits };
+    profile.traits_through_date = incomingTraitsDate;
+  } else {
+    profile.traits = existing.traits || {};
+    profile.traits_through_date = existingTraitsDate;
+  }
+
+  const existingSignalDate = existing.signal_index_through_date || existingTraitsDate;
+  const incomingSignalDate = incoming.signal_index_through_date || (completeTraits ? incomingTraitsDate : null);
+  if (Number.isFinite(incoming.signal_index) && validDate(incomingSignalDate) && (!existingSignalDate || incomingSignalDate >= existingSignalDate)) {
+    profile.signal_index = incoming.signal_index;
+    profile.signal_index_through_date = incomingSignalDate;
+  } else {
+    profile.signal_index = existing.signal_index ?? null;
+    profile.signal_index_through_date = existingSignalDate;
+  }
+
+  // Match lineups are observations, while a fresh verified profile is the authority for the player's team.
+  const trustedProfileUpdate = /^\d{4}-\d{2}-\d{2}T/.test(incoming.profile_fetched_at_utc || "") && typeof incoming.source_url === "string";
+  if (!datedStats && !trustedProfileUpdate && existing.stats_through_date && existing.stats_through_date >= (incomingTimeline.map((row) => row.date || "").sort().at(-1) || "")) profile.team_name = existing.team_name;
   return profile;
 }
 

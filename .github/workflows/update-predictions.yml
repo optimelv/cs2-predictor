@@ -138,6 +138,19 @@ jobs:
             "$worker_url/archive" --output "$RUNNER_TEMP/observed-results.json"
           node scripts/ingest-observed-results.mjs "$RUNNER_TEMP/observed-results.json"
 
+      - name: Retrieve cached server-side HLTV player profiles
+        if: steps.snapshot.outputs.source == 'oracle'
+        env:
+          ORACLE_ARCHIVE_TOKEN: ${{ secrets.ORACLE_ARCHIVE_TOKEN }}
+        run: |
+          worker_url=$(node -e "import('./config/oracle-worker.js').then(({ORACLE_WORKER_URL}) => process.stdout.write(ORACLE_WORKER_URL || ''))")
+          if ! curl --fail --silent --show-error --connect-timeout 10 --max-time 60 \
+            --header "Authorization: Bearer $ORACLE_ARCHIVE_TOKEN" \
+            "$worker_url/player-profiles" --output "$RUNNER_TEMP/player-profiles.json"; then
+            echo "Player-profile cache was unavailable; preserving the last verified profile values."
+            rm -f "$RUNNER_TEMP/player-profiles.json"
+          fi
+
       - name: Enforce the Tier 1/2 product boundary
         if: steps.snapshot.outputs.available == 'true'
         run: |
@@ -170,6 +183,9 @@ jobs:
         if: steps.snapshot.outputs.available == 'true'
         run: |
           npm ci --no-audit --no-fund
+          if [ -s "$RUNNER_TEMP/player-profiles.json" ]; then
+            node scripts/build-player-snapshot.mjs "$RUNNER_TEMP/player-profiles.json"
+          fi
           node scripts/promote-live-snapshot.mjs "$RUNNER_TEMP/live-snapshot.json"
           npm run check
 
