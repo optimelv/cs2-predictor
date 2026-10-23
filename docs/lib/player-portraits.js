@@ -81,6 +81,10 @@ const PORTRAITS = {
     sourceUrl: "https://www.hltv.org/player/18850/jimpphat",
     creditLabel: "HLTV profile image",
   },
+  "hltv:20127": { src: "https://img-cdn.hltv.org/playerbodyshot/OepRRBoc68iVojIfgK3JIA.png?ixlib=java-2.1.0&s=99dcc1115ffec1ed275a5cf4eacca825&w=400", sourceUrl: "https://www.hltv.org/player/20127/w0nderful", creditLabel: "HLTV profile image" },
+  "hltv:8183": { src: "https://img-cdn.hltv.org/playerbodyshot/oO0Eu3frIZSJrQZeC501Zm.png?ixlib=java-2.1.0&s=b8aa24aa5e6bc2a87e46cccc9f4c422b&w=400", sourceUrl: "https://www.hltv.org/player/8183/rain", creditLabel: "HLTV profile image" },
+  "hltv:7592": { src: "https://img-cdn.hltv.org/playerbodyshot/TE9xSRwRif78uNjfN9VxSY.png?ixlib=java-2.1.0&s=2051fe1f1e664c8ab005e44e9dc8fd8e&w=400", sourceUrl: "https://www.hltv.org/player/7592/device", creditLabel: "HLTV profile image" },
+  "hltv:9436": { src: "https://img-cdn.hltv.org/playerbodyshot/6NpXCWi632T7Ne7nO372ql.png?ixlib=java-2.1.0&s=a26996dd9356580421735171da527435&w=400", sourceUrl: "https://www.hltv.org/player/9436/nertz", creditLabel: "HLTV profile image" },
 };
 
 function currentHltvPortrait(player) {
