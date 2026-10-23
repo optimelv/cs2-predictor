@@ -464,6 +464,8 @@ class WorkerParserTests(unittest.TestCase):
         self.assertEqual(profile["traits"]["closing"], 29)
         self.assertNotIn("clutching", profile["traits"])
         self.assertIn("seven.png", profile["portrait_url"])
+        duplicated = html.replace('<img alt="Other"', '<img alt="Seven" src="https://img-cdn.hltv.org/playerbodyshot/seven.png?w=200"><img alt="Other"')
+        self.assertIn("seven.png", player_profile_from_html(duplicated, "7", profile["source_url"])["portrait_url"])
         self.assertNotIn("rating_3_0", player_profile_from_html(html.replace("Past 3 months", "Career"), "7", profile["source_url"]))
         self.assertNotIn("rating_3_0", player_profile_from_html(html.replace("Rating 3.0", "Rating 2.0"), "7", profile["source_url"]))
 

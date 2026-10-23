@@ -46,9 +46,9 @@ jobs:
           worker_url=$(node -e "import('./config/oracle-worker.js').then(({ORACLE_WORKER_URL}) => process.stdout.write(ORACLE_WORKER_URL || ''))")
           if [ -n "$worker_url" ]; then
             echo "Trying the persistent Always Free worker."
-            if curl --fail --silent --show-error --connect-timeout 10 --max-time 15 \
-              "$worker_url/healthz" --output /dev/null && \
-              curl --fail --silent --show-error --connect-timeout 10 --max-time 30 --retry 2 --retry-delay 5 \
+            # Upstream health can degrade while a verified snapshot is still available.
+            # The freshness gate below rejects expired or invalid cached snapshots.
+            if curl --fail --silent --show-error --connect-timeout 10 --max-time 30 --retry 2 --retry-delay 5 \
               "$worker_url/snapshot" --output "$snapshot_path"; then
               echo "available=true" >> "$GITHUB_OUTPUT"
               echo "source=oracle" >> "$GITHUB_OUTPUT"

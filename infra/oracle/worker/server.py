@@ -184,7 +184,8 @@ def player_profile_from_html(html: str, player_id: str, source_url: str) -> dict
         own_images = [image for image in soup.select("img[alt]")
                       if re.search(rf"(?<!\w){re.escape(nickname)}(?!\w)", str(image.get("alt", "")), re.I)
                       and player_portrait_url(image.get("src") or image.get("data-src"))]
-        if len(own_images) == 1:
+        own_image_paths = {urlparse(player_portrait_url(image.get("src") or image.get("data-src"))).path for image in own_images}
+        if len(own_image_paths) == 1:
             profile["portrait_url"] = player_portrait_url(own_images[0].get("src") or own_images[0].get("data-src"))
         content = soup.get_text(" ", strip=True)
         summary = re.search(rf"{re.escape(nickname)}\s+statistics\s*\(\s*Past\s+3\s+months\s*[•·]\s*(\d+)\s+maps?\s*\)(.{{0,1000}}?)(?:Complete statistics|Upcoming & recent matches|$)", content, re.I)

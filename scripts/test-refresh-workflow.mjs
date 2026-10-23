@@ -87,6 +87,30 @@ try {
     }
     assert.equal(passed, accepted, `${name} source timestamp should ${accepted ? "pass" : "fail"} the production gate`);
   }
+  // Execute acquisition with a healthy cached endpoint and an unavailable health probe.
+  const cachedSnapshot = join(fixtureDir, "cached-snapshot.json");
+  const outputs = join(fixtureDir, "github-output");
+  await writeFile(cachedSnapshot, JSON.stringify({ ok: true, contract_version: "1.1", matches: [{}], fetched_at_utc: new Date().toISOString() }));
+  await writeFile(outputs, "");
+  await writeFile(join(fixtureDir, "curl"), `#!/bin/bash
+set -eu
+output=""
+route=""
+while [ "$#" -gt 0 ]; do
+  case "$1" in
+    */healthz) exit 22 ;;
+    */snapshot) route=snapshot ;;
+    --output) shift; output="$1" ;;
+  esac
+  shift
+done
+[ "$route" = snapshot ] || exit 22
+cp "$SNAPSHOT_FIXTURE" "$output"
+`, { mode: 0o755 });
+  const acquisition = workflow.slice(position('snapshot_path="$RUNNER_TEMP/live-snapshot.json"'), position('echo "ephemeral=true"'));
+  execFileSync("bash", ["-c", acquisition], { env: { ...process.env, PATH: `${fixtureDir}:${process.env.PATH}`, RUNNER_TEMP: fixtureDir, GITHUB_OUTPUT: outputs, SNAPSHOT_FIXTURE: cachedSnapshot }, stdio: "pipe" });
+  assert.match(await readFile(outputs, "utf8"), /source=oracle/, "A temporary source-health failure must not discard the worker's verified snapshot or skip its profile cache");
+  assert.match(await readFile(outputs, "utf8"), /available=true/);
 } finally {
   await rm(fixtureDir, { recursive: true, force: true });
 }
