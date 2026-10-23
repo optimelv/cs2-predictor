@@ -5056,6 +5056,88 @@
       "stats_source_url": "https://www.hltv.org/player/20870/sl3nd"
     },
     {
+      "player_id": "hltv:16768",
+      "nickname": "lan",
+      "team_name": "Vitalem Aerem",
+      "rating_3_0": 1.18,
+      "maps_3m": 43,
+      "signal_index": 73,
+      "traits": {
+        "closing": 38,
+        "entrying": 34,
+        "firepower": 81,
+        "opening": 85,
+        "sniping": 90,
+        "trading": 32,
+        "utility": 74
+      },
+      "form_timeline": [
+        {
+          "adr": 63.5,
+          "date": "2026-10-07",
+          "deaths": 48,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 69.2,
+          "kd_ratio": 1.04,
+          "kills": 50,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Chinggis Warriors",
+          "rating": 1,
+          "team_name": "Vitalem Aerem",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "16768",
+      "source_url": "https://www.hltv.org/player/16768/lan",
+      "timeline_entry": {
+        "adr": 63.5,
+        "date": "2026-10-07",
+        "deaths": 48,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 69.2,
+        "kd_ratio": 1.04,
+        "kills": 50,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Chinggis Warriors",
+        "rating": 1,
+        "team_name": "Vitalem Aerem",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1,
+        "average_adr": 63.5,
+        "recent_rating": 1,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Vitalem Aerem",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1,
+          "average_adr": 63.5
+        }
+      ],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:32:00Z",
+      "stats_source_url": "https://www.hltv.org/player/16768/lan",
+      "profile_fetched_at_utc": "2026-10-23T18:32:00Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/as4OjHcJqFcBR97qf0AKS9.png?ixlib=java-2.1.0&w=400&s=8a281d9968cfc66cdeaf1cc1746f3ef9",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
+    },
+    {
       "player_id": "hltv:22965",
       "hltv_player_id": "22965",
       "nickname": "saadzin",
@@ -6690,7 +6772,9 @@
       "stats_window": "past_3_months",
       "stats_through_date": "2026-10-14",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.311Z",
-      "stats_source_url": "https://www.hltv.org/player/16693/flamez"
+      "stats_source_url": "https://www.hltv.org/player/16693/flamez",
+      "traits_through_date": "2026-10-14",
+      "signal_index_through_date": "2026-10-14"
     },
     {
       "player_id": "hltv:18221",
@@ -7399,84 +7483,6 @@
       "stats_through_date": "2026-10-13",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.341Z",
       "stats_source_url": "https://www.hltv.org/player/18638/sk0r"
-    },
-    {
-      "player_id": "hltv:16768",
-      "nickname": "lan",
-      "team_name": "Vitalem Aerem",
-      "rating_3_0": 1.15,
-      "maps_3m": 36,
-      "signal_index": 72,
-      "traits": {
-        "firepower": 91,
-        "entrying": 11,
-        "trading": 26,
-        "opening": 94,
-        "clutching": 53,
-        "sniping": 92,
-        "utility": 66
-      },
-      "form_timeline": [
-        {
-          "adr": 63.5,
-          "date": "2026-10-07",
-          "deaths": 48,
-          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-          "kast": 69.2,
-          "kd_ratio": 1.04,
-          "kills": 50,
-          "maps": 3,
-          "match_id": "hltv:2399148",
-          "opponent_name": "Chinggis Warriors",
-          "rating": 1,
-          "team_name": "Vitalem Aerem",
-          "won": false
-        }
-      ],
-      "hltv_player_id": "16768",
-      "source_url": "https://www.hltv.org/player/16768/lan",
-      "timeline_entry": {
-        "adr": 63.5,
-        "date": "2026-10-07",
-        "deaths": 48,
-        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-        "kast": 69.2,
-        "kd_ratio": 1.04,
-        "kills": 50,
-        "maps": 3,
-        "match_id": "hltv:2399148",
-        "opponent_name": "Chinggis Warriors",
-        "rating": 1,
-        "team_name": "Vitalem Aerem",
-        "won": false
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 1,
-        "average_adr": 63.5,
-        "recent_rating": 1,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Vitalem Aerem",
-          "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1,
-          "average_adr": 63.5
-        }
-      ],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.341Z",
-      "stats_source_url": "https://www.hltv.org/player/16768/lan"
     },
     {
       "player_id": "hltv:18223",
@@ -13036,7 +13042,15 @@
         "average_adr": 69.1,
         "recent_rating": 1.11,
         "rating_delta": null
-      }
+      },
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "traits_through_date": null,
+      "signal_index_through_date": null
     },
     {
       "player_id": "hltv:22886",
@@ -15550,7 +15564,9 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "traits_through_date": "2026-10-14",
+      "signal_index_through_date": "2026-10-14"
     },
     {
       "player_id": "hltv:26299",
@@ -16734,7 +16750,9 @@
       "stats_window": "past_3_months",
       "stats_through_date": "2026-10-14",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.347Z",
-      "stats_source_url": "https://www.hltv.org/player/16718/fessor"
+      "stats_source_url": "https://www.hltv.org/player/16718/fessor",
+      "traits_through_date": "2026-10-14",
+      "signal_index_through_date": "2026-10-14"
     },
     {
       "player_id": "hltv:16753",
@@ -16742,15 +16760,15 @@
       "team_name": "EAC",
       "rating_3_0": 1.1,
       "maps_3m": 95,
-      "signal_index": 63,
+      "signal_index": 62,
       "traits": {
-        "firepower": 80,
-        "entrying": 22,
-        "trading": 70,
-        "opening": 45,
-        "clutching": 68,
-        "sniping": 2,
-        "utility": 48
+        "closing": 63,
+        "entrying": 28,
+        "firepower": 78,
+        "opening": 41,
+        "sniping": 7,
+        "trading": 73,
+        "utility": 37
       },
       "hltv_player_id": "16753",
       "source_url": "https://www.hltv.org/player/16753/n1xen",
@@ -16810,9 +16828,13 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.347Z",
-      "stats_source_url": "https://www.hltv.org/player/16753/n1xen"
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:31:33Z",
+      "stats_source_url": "https://www.hltv.org/player/16753/n1xen",
+      "profile_fetched_at_utc": "2026-10-23T18:31:33Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/amcuxwBfwDI6JS8cCBzvD9.png?ixlib=java-2.1.0&w=400&s=70f05c6881bf5589f0c3de766fd36141",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:22383",
@@ -20734,41 +20756,6 @@
       "stats_through_date": "2026-10-14",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.314Z",
       "stats_source_url": "https://www.hltv.org/player/7592/device"
-    },
-    {
-      "player_id": "hltv:16847",
-      "nickname": "mhL",
-      "team_name": "Wildcard",
-      "rating_3_0": 1.08,
-      "maps_3m": 21,
-      "signal_index": 73,
-      "traits": {
-        "firepower": 74,
-        "entrying": 29,
-        "trading": 54,
-        "opening": 62,
-        "clutching": 99,
-        "sniping": 89,
-        "utility": 67
-      },
-      "hltv_player_id": "16847",
-      "source_url": "https://www.hltv.org/player/16847/mhl",
-      "form_timeline": [],
-      "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.315Z",
-      "stats_source_url": "https://www.hltv.org/player/16847/mhl"
     },
     {
       "player_id": "hltv:22927",
@@ -25672,6 +25659,45 @@
       }
     },
     {
+      "player_id": "hltv:16847",
+      "nickname": "mhL",
+      "team_name": "Wildcard",
+      "rating_3_0": 1.05,
+      "maps_3m": 15,
+      "signal_index": 69,
+      "traits": {
+        "closing": 62,
+        "entrying": 53,
+        "firepower": 54,
+        "opening": 41,
+        "sniping": 87,
+        "trading": 59,
+        "utility": 72
+      },
+      "hltv_player_id": "16847",
+      "source_url": "https://www.hltv.org/player/16847/mhl",
+      "form_timeline": [],
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:33:35Z",
+      "stats_source_url": "https://www.hltv.org/player/16847/mhl",
+      "profile_fetched_at_utc": "2026-10-23T18:33:35Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/a4qc6RnQ6t0T9VNWsQh2JI.png?ixlib=java-2.1.0&w=400&s=69b4a4c1cc532292ad5d6e57236b4b4a",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
+    },
+    {
       "player_id": "hltv:24457",
       "hltv_player_id": "24457",
       "nickname": "xelex",
@@ -28349,7 +28375,9 @@
       "stats_window": "past_3_months",
       "stats_through_date": "2026-10-14",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.336Z",
-      "stats_source_url": "https://www.hltv.org/player/16645/drg"
+      "stats_source_url": "https://www.hltv.org/player/16645/drg",
+      "traits_through_date": "2026-10-14",
+      "signal_index_through_date": "2026-10-14"
     },
     {
       "player_id": "hltv:21513",
@@ -30936,15 +30964,15 @@
       "team_name": "Toobisie",
       "rating_3_0": 1.04,
       "maps_3m": 35,
-      "signal_index": 63,
+      "signal_index": 61,
       "traits": {
-        "firepower": 47,
-        "entrying": 12,
-        "trading": 24,
-        "opening": 74,
-        "clutching": 50,
-        "sniping": 91,
-        "utility": 58
+        "closing": 31,
+        "entrying": 34,
+        "firepower": 44,
+        "opening": 58,
+        "sniping": 90,
+        "trading": 34,
+        "utility": 44
       },
       "hltv_player_id": "16848",
       "source_url": "https://www.hltv.org/player/16848/hades",
@@ -30954,8 +30982,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.326Z",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:35:52Z",
       "stats_source_url": "https://www.hltv.org/player/16848/hades",
       "form_summary": {
         "series": 0,
@@ -30963,7 +30991,11 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-10-23T18:35:52Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/8-AOZH1eTFpom5gKMPykvD.png?ixlib=java-2.1.0&w=400&s=f0fc07ec123bce2d87820e57211279fe",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:23587",
@@ -42242,6 +42274,88 @@
       "stats_source_url": "https://www.hltv.org/player/21447/xdeniszera"
     },
     {
+      "player_id": "hltv:16778",
+      "nickname": "B1NGO",
+      "team_name": "Vitalem Aerem",
+      "rating_3_0": 0.98,
+      "maps_3m": 43,
+      "signal_index": 56,
+      "traits": {
+        "closing": 57,
+        "entrying": 60,
+        "firepower": 28,
+        "opening": 17,
+        "sniping": 1,
+        "trading": 62,
+        "utility": 78
+      },
+      "form_timeline": [
+        {
+          "adr": 53,
+          "date": "2026-10-07",
+          "deaths": 53,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 64.1,
+          "kd_ratio": 0.68,
+          "kills": 36,
+          "maps": 3,
+          "match_id": "hltv:2399148",
+          "opponent_name": "Chinggis Warriors",
+          "rating": 0.79,
+          "team_name": "Vitalem Aerem",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "16778",
+      "source_url": "https://www.hltv.org/player/16778/b1ngo",
+      "timeline_entry": {
+        "adr": 53,
+        "date": "2026-10-07",
+        "deaths": 53,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 64.1,
+        "kd_ratio": 0.68,
+        "kills": 36,
+        "maps": 3,
+        "match_id": "hltv:2399148",
+        "opponent_name": "Chinggis Warriors",
+        "rating": 0.79,
+        "team_name": "Vitalem Aerem",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.79,
+        "average_adr": 53,
+        "recent_rating": 0.79,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Vitalem Aerem",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.79,
+          "average_adr": 53
+        }
+      ],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:32:27Z",
+      "stats_source_url": "https://www.hltv.org/player/16778/b1ngo",
+      "profile_fetched_at_utc": "2026-10-23T18:32:27Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/NgH_WzaUvoww6rRH3iqOoC.png?ixlib=java-2.1.0&w=400&s=0bb4a4be4c8bcd8983a9940b35e604d7",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
+    },
+    {
       "player_id": "hltv:20430",
       "nickname": "alpha",
       "team_name": "CYBERSHOKE",
@@ -42877,84 +42991,6 @@
           "average_adr": 88.3
         }
       ]
-    },
-    {
-      "player_id": "hltv:16778",
-      "nickname": "B1NGO",
-      "team_name": "Vitalem Aerem",
-      "rating_3_0": 0.97,
-      "maps_3m": 36,
-      "signal_index": 52,
-      "traits": {
-        "firepower": 17,
-        "entrying": 62,
-        "trading": 50,
-        "opening": 10,
-        "clutching": 36,
-        "sniping": 0,
-        "utility": 71
-      },
-      "form_timeline": [
-        {
-          "adr": 53,
-          "date": "2026-10-07",
-          "deaths": 53,
-          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-          "kast": 64.1,
-          "kd_ratio": 0.68,
-          "kills": 36,
-          "maps": 3,
-          "match_id": "hltv:2399148",
-          "opponent_name": "Chinggis Warriors",
-          "rating": 0.79,
-          "team_name": "Vitalem Aerem",
-          "won": false
-        }
-      ],
-      "hltv_player_id": "16778",
-      "source_url": "https://www.hltv.org/player/16778/b1ngo",
-      "timeline_entry": {
-        "adr": 53,
-        "date": "2026-10-07",
-        "deaths": 53,
-        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-        "kast": 64.1,
-        "kd_ratio": 0.68,
-        "kills": 36,
-        "maps": 3,
-        "match_id": "hltv:2399148",
-        "opponent_name": "Chinggis Warriors",
-        "rating": 0.79,
-        "team_name": "Vitalem Aerem",
-        "won": false
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.79,
-        "average_adr": 53,
-        "recent_rating": 0.79,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Vitalem Aerem",
-          "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.79,
-          "average_adr": 53
-        }
-      ],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.341Z",
-      "stats_source_url": "https://www.hltv.org/player/16778/b1ngo"
     },
     {
       "player_id": "hltv:21216",
@@ -46569,16 +46605,16 @@
       "nickname": "ponter",
       "team_name": "Bounty Hunters",
       "rating_3_0": 0.94,
-      "maps_3m": 93,
-      "signal_index": 52,
+      "maps_3m": 83,
+      "signal_index": 54,
       "traits": {
-        "firepower": 19,
-        "entrying": 66,
-        "trading": 44,
-        "opening": 18,
-        "clutching": 58,
-        "sniping": 0,
-        "utility": 55
+        "closing": 53,
+        "entrying": 63,
+        "firepower": 28,
+        "opening": 25,
+        "sniping": 2,
+        "trading": 59,
+        "utility": 57
       },
       "hltv_player_id": "16835",
       "source_url": "https://www.hltv.org/player/16835/ponter",
@@ -46638,9 +46674,13 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.331Z",
-      "stats_source_url": "https://www.hltv.org/player/16835/ponter"
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:32:57Z",
+      "stats_source_url": "https://www.hltv.org/player/16835/ponter",
+      "profile_fetched_at_utc": "2026-10-23T18:32:57Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/rDAJg3AhwyDpO2pJ7ioycr.png?ixlib=java-2.1.0&w=400&s=ab360be4d952a792b19c681d302cb023",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:22364",
@@ -52276,16 +52316,16 @@
       "nickname": "IceBerg",
       "team_name": "BBL",
       "rating_3_0": 0.87,
-      "maps_3m": 71,
-      "signal_index": 48,
+      "maps_3m": 84,
+      "signal_index": 51,
       "traits": {
-        "firepower": 11,
-        "entrying": 81,
-        "trading": 10,
-        "opening": 74,
-        "clutching": 17,
-        "sniping": 0,
-        "utility": 50
+        "closing": 10,
+        "entrying": 80,
+        "firepower": 32,
+        "opening": 90,
+        "sniping": 2,
+        "trading": 29,
+        "utility": 31
       },
       "hltv_player_id": "16731",
       "source_url": "https://www.hltv.org/player/16731/iceberg",
@@ -52295,8 +52335,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.322Z",
+      "stats_through_date": "2026-10-23",
+      "stats_fetched_at_utc": "2026-10-23T18:31:05Z",
       "stats_source_url": "https://www.hltv.org/player/16731/iceberg",
       "form_summary": {
         "series": 0,
@@ -52304,7 +52344,11 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-10-23T18:31:05Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/jgut6uE2gtVKenGfVOdn6G.png?ixlib=java-2.1.0&w=400&s=610b29e6f5d3d2cc8b4850c304e12fcd",
+      "traits_through_date": "2026-10-23",
+      "signal_index_through_date": "2026-10-23"
     },
     {
       "player_id": "hltv:20056",
@@ -55216,7 +55260,7 @@
     },
     {
       "player_id": "hltv:16641",
-      "nickname": "Substitute",
+      "nickname": "redzy",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -55297,7 +55341,9 @@
       "stats_from_date": null,
       "stats_through_date": null,
       "stats_fetched_at_utc": null,
-      "stats_source_url": null
+      "stats_source_url": null,
+      "traits_through_date": null,
+      "signal_index_through_date": null
     },
     {
       "player_id": "hltv:21164",
@@ -72593,14 +72639,59 @@
       },
       "traits_through_date": null,
       "signal_index_through_date": null
+    },
+    {
+      "player_id": "hltv:25577",
+      "nickname": "oontoma",
+      "team_name": "BRUTE",
+      "hltv_player_id": "25577",
+      "source_url": "https://www.hltv.org/player/25577/oontoma",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "traits_through_date": null,
+      "signal_index": null,
+      "signal_index_through_date": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-23T18:30:36Z",
+  "lineups_updated_at_utc": "2026-10-23T18:35:31Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-23",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
   "map_profile_count": 53,
-  "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z"
+  "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
+  "profile_refresh": {
+    "checked_at_utc": "2026-10-23T18:37:12Z",
+    "requested": 857,
+    "cached": 7,
+    "attempted": 96,
+    "succeeded": 7,
+    "failed": 1,
+    "portraits": 7,
+    "stats": 7,
+    "received": 857,
+    "invalid": 0,
+    "stale_stats": 0,
+    "profile_updates": 13,
+    "stats_updates": 7,
+    "traits_updates": 7
+  }
 }

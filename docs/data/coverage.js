@@ -26198,7 +26198,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "mellren"
     },
     {
-      "detail_fetched_at_utc": "2026-10-23T18:29:59Z",
+      "detail_fetched_at_utc": "2026-10-23T18:34:39Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -26238,6 +26238,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             "nickname": "hfah",
             "player_id": "hltv:23765",
             "source_url": "https://www.hltv.org/player/23765/hfah",
+            "team_name": "BRUTE"
+          },
+          {
+            "hltv_player_id": "25577",
+            "nickname": "oontoma",
+            "player_id": "hltv:25577",
+            "source_url": "https://www.hltv.org/player/25577/oontoma",
             "team_name": "BRUTE"
           }
         ],
@@ -26305,6 +26312,128 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         "Nuke"
       ],
       "match_id": "hltv:2399334",
+      "player_stats": [
+        {
+          "adr": 109.9,
+          "deaths": 11,
+          "hltv_player_id": "20066",
+          "kast": 66.7,
+          "kills": 24,
+          "nickname": "aidKiT",
+          "player_id": "hltv:20066",
+          "rating": 2.06,
+          "source_url": "https://www.hltv.org/player/20066/aidkit",
+          "team_side": 1
+        },
+        {
+          "adr": 80.9,
+          "deaths": 17,
+          "hltv_player_id": "25577",
+          "kast": 81,
+          "kills": 14,
+          "nickname": "oontoma",
+          "player_id": "hltv:25577",
+          "rating": 1.13,
+          "source_url": "https://www.hltv.org/player/25577/oontoma",
+          "team_side": 1
+        },
+        {
+          "adr": 48.1,
+          "deaths": 13,
+          "hltv_player_id": "8488",
+          "kast": 71.4,
+          "kills": 10,
+          "nickname": "ZEDKO",
+          "player_id": "hltv:8488",
+          "rating": 0.72,
+          "source_url": "https://www.hltv.org/player/8488/zedko",
+          "team_side": 1
+        },
+        {
+          "adr": 60.9,
+          "deaths": 18,
+          "hltv_player_id": "21272",
+          "kast": 76.2,
+          "kills": 9,
+          "nickname": "tAk",
+          "player_id": "hltv:21272",
+          "rating": 0.64,
+          "source_url": "https://www.hltv.org/player/21272/tak",
+          "team_side": 1
+        },
+        {
+          "adr": 46.8,
+          "deaths": 17,
+          "hltv_player_id": "19594",
+          "kast": 52.4,
+          "kills": 8,
+          "nickname": "nbqq",
+          "player_id": "hltv:19594",
+          "rating": 0.5,
+          "source_url": "https://www.hltv.org/player/19594/nbqq",
+          "team_side": 1
+        },
+        {
+          "adr": 90.4,
+          "deaths": 11,
+          "hltv_player_id": "22039",
+          "kast": 71.4,
+          "kills": 20,
+          "nickname": "danistzz",
+          "player_id": "hltv:22039",
+          "rating": 1.47,
+          "source_url": "https://www.hltv.org/player/22039/danistzz",
+          "team_side": 2
+        },
+        {
+          "adr": 91.4,
+          "deaths": 15,
+          "hltv_player_id": "19882",
+          "kast": 81,
+          "kills": 16,
+          "nickname": "Norwi",
+          "player_id": "hltv:19882",
+          "rating": 1.36,
+          "source_url": "https://www.hltv.org/player/19882/norwi",
+          "team_side": 2
+        },
+        {
+          "adr": 78.1,
+          "deaths": 11,
+          "hltv_player_id": "17508",
+          "kast": 76.2,
+          "kills": 16,
+          "nickname": "glowiing",
+          "player_id": "hltv:17508",
+          "rating": 1.35,
+          "source_url": "https://www.hltv.org/player/17508/glowiing",
+          "team_side": 2
+        },
+        {
+          "adr": 70.1,
+          "deaths": 13,
+          "hltv_player_id": "25509",
+          "kast": 85.7,
+          "kills": 13,
+          "nickname": "turbo",
+          "player_id": "hltv:25509",
+          "rating": 1.17,
+          "source_url": "https://www.hltv.org/player/25509/turbo",
+          "team_side": 2
+        },
+        {
+          "adr": 52,
+          "deaths": 15,
+          "hltv_player_id": "24316",
+          "kast": 71.4,
+          "kills": 11,
+          "nickname": "whisper",
+          "player_id": "hltv:24316",
+          "rating": 0.73,
+          "source_url": "https://www.hltv.org/player/24316/whisper",
+          "team_side": 2
+        }
+      ],
       "product_tier": "tier_2",
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399334/brute-vs-baks-cct-2026-europe-series-11",
@@ -26316,7 +26445,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (Online)\n\n* Round of 16"
     },
     {
-      "detail_fetched_at_utc": "2026-10-23T18:29:35Z",
+      "detail_fetched_at_utc": "2026-10-23T18:34:24Z",
       "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "event_url": "https://www.hltv.org/events/archive",
@@ -26406,9 +26535,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
         },
         {
           "map_name": "Nuke",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
+          "score1": 7,
+          "score2": 5,
+          "status": "finished"
         },
         {
           "map_name": "Ancient",
@@ -60824,7 +60953,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Nuclear TigeRES"
         },
         {
-          "detail_fetched_at_utc": "2026-10-23T18:29:59Z",
+          "detail_fetched_at_utc": "2026-10-23T18:34:39Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -60864,6 +60993,13 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "nickname": "hfah",
                 "player_id": "hltv:23765",
                 "source_url": "https://www.hltv.org/player/23765/hfah",
+                "team_name": "BRUTE"
+              },
+              {
+                "hltv_player_id": "25577",
+                "nickname": "oontoma",
+                "player_id": "hltv:25577",
+                "source_url": "https://www.hltv.org/player/25577/oontoma",
                 "team_name": "BRUTE"
               }
             ],
@@ -60931,6 +61067,128 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             "Nuke"
           ],
           "match_id": "hltv:2399334",
+          "player_stats": [
+            {
+              "adr": 109.9,
+              "deaths": 11,
+              "hltv_player_id": "20066",
+              "kast": 66.7,
+              "kills": 24,
+              "nickname": "aidKiT",
+              "player_id": "hltv:20066",
+              "rating": 2.06,
+              "source_url": "https://www.hltv.org/player/20066/aidkit",
+              "team_side": 1
+            },
+            {
+              "adr": 80.9,
+              "deaths": 17,
+              "hltv_player_id": "25577",
+              "kast": 81,
+              "kills": 14,
+              "nickname": "oontoma",
+              "player_id": "hltv:25577",
+              "rating": 1.13,
+              "source_url": "https://www.hltv.org/player/25577/oontoma",
+              "team_side": 1
+            },
+            {
+              "adr": 48.1,
+              "deaths": 13,
+              "hltv_player_id": "8488",
+              "kast": 71.4,
+              "kills": 10,
+              "nickname": "ZEDKO",
+              "player_id": "hltv:8488",
+              "rating": 0.72,
+              "source_url": "https://www.hltv.org/player/8488/zedko",
+              "team_side": 1
+            },
+            {
+              "adr": 60.9,
+              "deaths": 18,
+              "hltv_player_id": "21272",
+              "kast": 76.2,
+              "kills": 9,
+              "nickname": "tAk",
+              "player_id": "hltv:21272",
+              "rating": 0.64,
+              "source_url": "https://www.hltv.org/player/21272/tak",
+              "team_side": 1
+            },
+            {
+              "adr": 46.8,
+              "deaths": 17,
+              "hltv_player_id": "19594",
+              "kast": 52.4,
+              "kills": 8,
+              "nickname": "nbqq",
+              "player_id": "hltv:19594",
+              "rating": 0.5,
+              "source_url": "https://www.hltv.org/player/19594/nbqq",
+              "team_side": 1
+            },
+            {
+              "adr": 90.4,
+              "deaths": 11,
+              "hltv_player_id": "22039",
+              "kast": 71.4,
+              "kills": 20,
+              "nickname": "danistzz",
+              "player_id": "hltv:22039",
+              "rating": 1.47,
+              "source_url": "https://www.hltv.org/player/22039/danistzz",
+              "team_side": 2
+            },
+            {
+              "adr": 91.4,
+              "deaths": 15,
+              "hltv_player_id": "19882",
+              "kast": 81,
+              "kills": 16,
+              "nickname": "Norwi",
+              "player_id": "hltv:19882",
+              "rating": 1.36,
+              "source_url": "https://www.hltv.org/player/19882/norwi",
+              "team_side": 2
+            },
+            {
+              "adr": 78.1,
+              "deaths": 11,
+              "hltv_player_id": "17508",
+              "kast": 76.2,
+              "kills": 16,
+              "nickname": "glowiing",
+              "player_id": "hltv:17508",
+              "rating": 1.35,
+              "source_url": "https://www.hltv.org/player/17508/glowiing",
+              "team_side": 2
+            },
+            {
+              "adr": 70.1,
+              "deaths": 13,
+              "hltv_player_id": "25509",
+              "kast": 85.7,
+              "kills": 13,
+              "nickname": "turbo",
+              "player_id": "hltv:25509",
+              "rating": 1.17,
+              "source_url": "https://www.hltv.org/player/25509/turbo",
+              "team_side": 2
+            },
+            {
+              "adr": 52,
+              "deaths": 15,
+              "hltv_player_id": "24316",
+              "kast": 71.4,
+              "kills": 11,
+              "nickname": "whisper",
+              "player_id": "hltv:24316",
+              "rating": 0.73,
+              "source_url": "https://www.hltv.org/player/24316/whisper",
+              "team_side": 2
+            }
+          ],
           "product_tier": "tier_2",
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399334/brute-vs-baks-cct-2026-europe-series-11",
@@ -65915,7 +66173,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "FORZE Reload"
         },
         {
-          "detail_fetched_at_utc": "2026-10-23T18:29:35Z",
+          "detail_fetched_at_utc": "2026-10-23T18:34:24Z",
           "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "event_url": "https://www.hltv.org/events/archive",
@@ -66005,9 +66263,9 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             },
             {
               "map_name": "Nuke",
-              "score1": null,
-              "score2": null,
-              "status": "upcoming"
+              "score1": 7,
+              "score2": 5,
+              "status": "finished"
             },
             {
               "map_name": "Ancient",
@@ -66669,7 +66927,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-10-23T18:30:36Z",
+  "last_verified_utc": "2026-10-23T18:35:31Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -66694,7 +66952,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-23T18:32:34Z",
+    "checked_at_utc": "2026-10-23T18:37:13Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
