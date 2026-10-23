@@ -20767,7 +20767,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Illyrians"
       },
       {
-        "detail_fetched_at_utc": "2026-10-23T01:31:43Z",
+        "detail_fetched_at_utc": "2026-10-23T07:27:22Z",
         "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
         "event_url": "https://www.hltv.org/events/archive",
@@ -24827,9 +24827,87 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "6yuBoJlbl"
       },
       {
-        "event_id": "hltv:9442",
+        "detail_fetched_at_utc": "2026-10-23T07:22:46Z",
+        "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399331",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "20252",
+              "nickname": "Kind0",
+              "player_id": "hltv:20252",
+              "source_url": "https://www.hltv.org/player/20252/kind0",
+              "team_name": "ex-Zero Tenacity"
+            },
+            {
+              "hltv_player_id": "20253",
+              "nickname": "Dragon",
+              "player_id": "hltv:20253",
+              "source_url": "https://www.hltv.org/player/20253/dragon",
+              "team_name": "ex-Zero Tenacity"
+            },
+            {
+              "hltv_player_id": "20813",
+              "nickname": "VLDN",
+              "player_id": "hltv:20813",
+              "source_url": "https://www.hltv.org/player/20813/vldn",
+              "team_name": "ex-Zero Tenacity"
+            },
+            {
+              "hltv_player_id": "21302",
+              "nickname": "Cjoffo",
+              "player_id": "hltv:21302",
+              "source_url": "https://www.hltv.org/player/21302/cjoffo",
+              "team_name": "ex-Zero Tenacity"
+            },
+            {
+              "hltv_player_id": "21783",
+              "nickname": "brutmonster",
+              "player_id": "hltv:21783",
+              "source_url": "https://www.hltv.org/player/21783/brutmonster",
+              "team_name": "ex-Zero Tenacity"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "19297",
+              "nickname": "Brilliance",
+              "player_id": "hltv:19297",
+              "source_url": "https://www.hltv.org/player/19297/brilliance",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "22803",
+              "nickname": "bl1x1",
+              "player_id": "hltv:22803",
+              "source_url": "https://www.hltv.org/player/22803/bl1x1",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "24190",
+              "nickname": "youka",
+              "player_id": "hltv:24190",
+              "source_url": "https://www.hltv.org/player/24190/youka",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "24485",
+              "nickname": "yiksrezo",
+              "player_id": "hltv:24485",
+              "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+              "team_name": "ex-RUSTEC"
+            },
+            {
+              "hltv_player_id": "24817",
+              "nickname": "jakekeS",
+              "player_id": "hltv:24817",
+              "source_url": "https://www.hltv.org/player/24817/jakekes",
+              "team_name": "ex-RUSTEC"
+            }
+          ]
+        },
         "match_id": "hltv:2399331",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -24838,12 +24916,91 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-10-23T08:00:00Z",
         "status": "upcoming",
         "team1_name": "ex-Zero Tenacity",
-        "team2_name": "ex-RUSTEC"
+        "team2_name": "ex-RUSTEC",
+        "veto_text": "Best of 3 (Online)\n\n* Round of 16"
       },
       {
-        "event_id": "hltv:9457",
+        "detail_fetched_at_utc": "2026-10-23T07:27:07Z",
+        "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399499",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "11498",
+              "nickname": "NickelBack",
+              "player_id": "hltv:11498",
+              "source_url": "https://www.hltv.org/player/11498/nickelback",
+              "team_name": "FORZE Reload"
+            },
+            {
+              "hltv_player_id": "13240",
+              "nickname": "Lack1",
+              "player_id": "hltv:13240",
+              "source_url": "https://www.hltv.org/player/13240/lack1",
+              "team_name": "FORZE Reload"
+            },
+            {
+              "hltv_player_id": "20504",
+              "nickname": "YumsaN",
+              "player_id": "hltv:20504",
+              "source_url": "https://www.hltv.org/player/20504/yumsan",
+              "team_name": "FORZE Reload"
+            },
+            {
+              "hltv_player_id": "23628",
+              "nickname": "KusMe",
+              "player_id": "hltv:23628",
+              "source_url": "https://www.hltv.org/player/23628/kusme",
+              "team_name": "FORZE Reload"
+            },
+            {
+              "hltv_player_id": "25609",
+              "nickname": "HeCkBNk",
+              "player_id": "hltv:25609",
+              "source_url": "https://www.hltv.org/player/25609/heckbnk",
+              "team_name": "FORZE Reload"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "13046",
+              "nickname": "dottie",
+              "player_id": "hltv:13046",
+              "source_url": "https://www.hltv.org/player/13046/dottie",
+              "team_name": "LFO 10"
+            },
+            {
+              "hltv_player_id": "15569",
+              "nickname": "Sapec",
+              "player_id": "hltv:15569",
+              "source_url": "https://www.hltv.org/player/15569/sapec",
+              "team_name": "LFO 10"
+            },
+            {
+              "hltv_player_id": "18788",
+              "nickname": "dan1",
+              "player_id": "hltv:18788",
+              "source_url": "https://www.hltv.org/player/18788/dan1",
+              "team_name": "LFO 10"
+            },
+            {
+              "hltv_player_id": "20285",
+              "nickname": "Mann3n",
+              "player_id": "hltv:20285",
+              "source_url": "https://www.hltv.org/player/20285/mann3n",
+              "team_name": "LFO 10"
+            },
+            {
+              "hltv_player_id": "21164",
+              "nickname": "L00m1",
+              "player_id": "hltv:21164",
+              "source_url": "https://www.hltv.org/player/21164/l00m1",
+              "team_name": "LFO 10"
+            }
+          ]
+        },
         "match_id": "hltv:2399499",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -24852,12 +25009,91 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-10-23T08:00:00Z",
         "status": "upcoming",
         "team1_name": "FORZE Reload",
-        "team2_name": "LFO 10"
+        "team2_name": "LFO 10",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
       },
       {
-        "event_id": "hltv:9442",
+        "detail_fetched_at_utc": "2026-10-23T07:18:40Z",
+        "event_id": "hltv:cct-2026-europe-series-11",
         "event_name": "CCT 2026 Europe Series 11",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399332",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "22878",
+              "nickname": "senka",
+              "player_id": "hltv:22878",
+              "source_url": "https://www.hltv.org/player/22878/senka",
+              "team_name": "Nuclear TigeRES"
+            },
+            {
+              "hltv_player_id": "24171",
+              "nickname": "Djon8",
+              "player_id": "hltv:24171",
+              "source_url": "https://www.hltv.org/player/24171/djon8",
+              "team_name": "Nuclear TigeRES"
+            },
+            {
+              "hltv_player_id": "24568",
+              "nickname": "flouzer",
+              "player_id": "hltv:24568",
+              "source_url": "https://www.hltv.org/player/24568/flouzer",
+              "team_name": "Nuclear TigeRES"
+            },
+            {
+              "hltv_player_id": "25807",
+              "nickname": "ayuki",
+              "player_id": "hltv:25807",
+              "source_url": "https://www.hltv.org/player/25807/ayuki",
+              "team_name": "Nuclear TigeRES"
+            },
+            {
+              "hltv_player_id": "26180",
+              "nickname": "tronic",
+              "player_id": "hltv:26180",
+              "source_url": "https://www.hltv.org/player/26180/tronic",
+              "team_name": "Nuclear TigeRES"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "18119",
+              "nickname": "cerber",
+              "player_id": "hltv:18119",
+              "source_url": "https://www.hltv.org/player/18119/cerber",
+              "team_name": "Illyrians"
+            },
+            {
+              "hltv_player_id": "19761",
+              "nickname": "Dementor",
+              "player_id": "hltv:19761",
+              "source_url": "https://www.hltv.org/player/19761/dementor",
+              "team_name": "Illyrians"
+            },
+            {
+              "hltv_player_id": "20434",
+              "nickname": "BledarD",
+              "player_id": "hltv:20434",
+              "source_url": "https://www.hltv.org/player/20434/bledard",
+              "team_name": "Illyrians"
+            },
+            {
+              "hltv_player_id": "21109",
+              "nickname": "ammar",
+              "player_id": "hltv:21109",
+              "source_url": "https://www.hltv.org/player/21109/ammar",
+              "team_name": "Illyrians"
+            },
+            {
+              "hltv_player_id": "23300",
+              "nickname": "rosoneriii",
+              "player_id": "hltv:23300",
+              "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+              "team_name": "Illyrians"
+            }
+          ]
+        },
         "match_id": "hltv:2399332",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -24866,12 +25102,91 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-10-23T11:00:00Z",
         "status": "upcoming",
         "team1_name": "Nuclear TigeRES",
-        "team2_name": "Illyrians"
+        "team2_name": "Illyrians",
+        "veto_text": "Best of 3 (Online)\n\n* Round of 16"
       },
       {
-        "event_id": "hltv:9457",
+        "detail_fetched_at_utc": "2026-10-23T07:22:56Z",
+        "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399498",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "23642",
+              "nickname": "Flierax",
+              "player_id": "hltv:23642",
+              "source_url": "https://www.hltv.org/player/23642/flierax",
+              "team_name": "Inner Circle Academy"
+            },
+            {
+              "hltv_player_id": "24245",
+              "nickname": "3ippoch",
+              "player_id": "hltv:24245",
+              "source_url": "https://www.hltv.org/player/24245/3ippoch",
+              "team_name": "Inner Circle Academy"
+            },
+            {
+              "hltv_player_id": "25129",
+              "nickname": "NaYz",
+              "player_id": "hltv:25129",
+              "source_url": "https://www.hltv.org/player/25129/nayz",
+              "team_name": "Inner Circle Academy"
+            },
+            {
+              "hltv_player_id": "25503",
+              "nickname": "L1seYoung",
+              "player_id": "hltv:25503",
+              "source_url": "https://www.hltv.org/player/25503/l1seyoung",
+              "team_name": "Inner Circle Academy"
+            },
+            {
+              "hltv_player_id": "26197",
+              "nickname": "Tamefear",
+              "player_id": "hltv:26197",
+              "source_url": "https://www.hltv.org/player/26197/tamefear",
+              "team_name": "Inner Circle Academy"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "23193",
+              "nickname": "VILBy",
+              "player_id": "hltv:23193",
+              "source_url": "https://www.hltv.org/player/23193/vilby",
+              "team_name": "Spirit Academy"
+            },
+            {
+              "hltv_player_id": "25390",
+              "nickname": "Kiryasoo",
+              "player_id": "hltv:25390",
+              "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+              "team_name": "Spirit Academy"
+            },
+            {
+              "hltv_player_id": "25622",
+              "nickname": "Netrix",
+              "player_id": "hltv:25622",
+              "source_url": "https://www.hltv.org/player/25622/netrix",
+              "team_name": "Spirit Academy"
+            },
+            {
+              "hltv_player_id": "25911",
+              "nickname": "s1nside",
+              "player_id": "hltv:25911",
+              "source_url": "https://www.hltv.org/player/25911/s1nside",
+              "team_name": "Spirit Academy"
+            },
+            {
+              "hltv_player_id": "26299",
+              "nickname": "k0gaSs",
+              "player_id": "hltv:26299",
+              "source_url": "https://www.hltv.org/player/26299/k0gass",
+              "team_name": "Spirit Academy"
+            }
+          ]
+        },
         "match_id": "hltv:2399498",
         "product_tier": "tier_2",
         "series_format": "bo3",
@@ -24880,7 +25195,8 @@ window.__STRIKESIGNAL_DATA__ = {
         "starts_at": "2026-10-23T11:00:00Z",
         "status": "upcoming",
         "team1_name": "Inner Circle Academy",
-        "team2_name": "Spirit Academy"
+        "team2_name": "Spirit Academy",
+        "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
       },
       {
         "event_id": "hltv:9442",
@@ -58297,9 +58613,87 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "FORZE Reload"
           },
           {
-            "event_id": "hltv:9442",
+            "detail_fetched_at_utc": "2026-10-23T07:22:46Z",
+            "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399331",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "20252",
+                  "nickname": "Kind0",
+                  "player_id": "hltv:20252",
+                  "source_url": "https://www.hltv.org/player/20252/kind0",
+                  "team_name": "ex-Zero Tenacity"
+                },
+                {
+                  "hltv_player_id": "20253",
+                  "nickname": "Dragon",
+                  "player_id": "hltv:20253",
+                  "source_url": "https://www.hltv.org/player/20253/dragon",
+                  "team_name": "ex-Zero Tenacity"
+                },
+                {
+                  "hltv_player_id": "20813",
+                  "nickname": "VLDN",
+                  "player_id": "hltv:20813",
+                  "source_url": "https://www.hltv.org/player/20813/vldn",
+                  "team_name": "ex-Zero Tenacity"
+                },
+                {
+                  "hltv_player_id": "21302",
+                  "nickname": "Cjoffo",
+                  "player_id": "hltv:21302",
+                  "source_url": "https://www.hltv.org/player/21302/cjoffo",
+                  "team_name": "ex-Zero Tenacity"
+                },
+                {
+                  "hltv_player_id": "21783",
+                  "nickname": "brutmonster",
+                  "player_id": "hltv:21783",
+                  "source_url": "https://www.hltv.org/player/21783/brutmonster",
+                  "team_name": "ex-Zero Tenacity"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "19297",
+                  "nickname": "Brilliance",
+                  "player_id": "hltv:19297",
+                  "source_url": "https://www.hltv.org/player/19297/brilliance",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "22803",
+                  "nickname": "bl1x1",
+                  "player_id": "hltv:22803",
+                  "source_url": "https://www.hltv.org/player/22803/bl1x1",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "24190",
+                  "nickname": "youka",
+                  "player_id": "hltv:24190",
+                  "source_url": "https://www.hltv.org/player/24190/youka",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "24485",
+                  "nickname": "yiksrezo",
+                  "player_id": "hltv:24485",
+                  "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+                  "team_name": "ex-RUSTEC"
+                },
+                {
+                  "hltv_player_id": "24817",
+                  "nickname": "jakekeS",
+                  "player_id": "hltv:24817",
+                  "source_url": "https://www.hltv.org/player/24817/jakekes",
+                  "team_name": "ex-RUSTEC"
+                }
+              ]
+            },
             "match_id": "hltv:2399331",
             "product_tier": "tier_2",
             "series_format": "bo3",
@@ -58308,12 +58702,91 @@ window.__STRIKESIGNAL_DATA__ = {
             "starts_at": "2026-10-23T08:00:00Z",
             "status": "upcoming",
             "team1_name": "ex-Zero Tenacity",
-            "team2_name": "ex-RUSTEC"
+            "team2_name": "ex-RUSTEC",
+            "veto_text": "Best of 3 (Online)\n\n* Round of 16"
           },
           {
-            "event_id": "hltv:9442",
+            "detail_fetched_at_utc": "2026-10-23T07:18:40Z",
+            "event_id": "hltv:cct-2026-europe-series-11",
             "event_name": "CCT 2026 Europe Series 11",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399332",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "22878",
+                  "nickname": "senka",
+                  "player_id": "hltv:22878",
+                  "source_url": "https://www.hltv.org/player/22878/senka",
+                  "team_name": "Nuclear TigeRES"
+                },
+                {
+                  "hltv_player_id": "24171",
+                  "nickname": "Djon8",
+                  "player_id": "hltv:24171",
+                  "source_url": "https://www.hltv.org/player/24171/djon8",
+                  "team_name": "Nuclear TigeRES"
+                },
+                {
+                  "hltv_player_id": "24568",
+                  "nickname": "flouzer",
+                  "player_id": "hltv:24568",
+                  "source_url": "https://www.hltv.org/player/24568/flouzer",
+                  "team_name": "Nuclear TigeRES"
+                },
+                {
+                  "hltv_player_id": "25807",
+                  "nickname": "ayuki",
+                  "player_id": "hltv:25807",
+                  "source_url": "https://www.hltv.org/player/25807/ayuki",
+                  "team_name": "Nuclear TigeRES"
+                },
+                {
+                  "hltv_player_id": "26180",
+                  "nickname": "tronic",
+                  "player_id": "hltv:26180",
+                  "source_url": "https://www.hltv.org/player/26180/tronic",
+                  "team_name": "Nuclear TigeRES"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "18119",
+                  "nickname": "cerber",
+                  "player_id": "hltv:18119",
+                  "source_url": "https://www.hltv.org/player/18119/cerber",
+                  "team_name": "Illyrians"
+                },
+                {
+                  "hltv_player_id": "19761",
+                  "nickname": "Dementor",
+                  "player_id": "hltv:19761",
+                  "source_url": "https://www.hltv.org/player/19761/dementor",
+                  "team_name": "Illyrians"
+                },
+                {
+                  "hltv_player_id": "20434",
+                  "nickname": "BledarD",
+                  "player_id": "hltv:20434",
+                  "source_url": "https://www.hltv.org/player/20434/bledard",
+                  "team_name": "Illyrians"
+                },
+                {
+                  "hltv_player_id": "21109",
+                  "nickname": "ammar",
+                  "player_id": "hltv:21109",
+                  "source_url": "https://www.hltv.org/player/21109/ammar",
+                  "team_name": "Illyrians"
+                },
+                {
+                  "hltv_player_id": "23300",
+                  "nickname": "rosoneriii",
+                  "player_id": "hltv:23300",
+                  "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+                  "team_name": "Illyrians"
+                }
+              ]
+            },
             "match_id": "hltv:2399332",
             "product_tier": "tier_2",
             "series_format": "bo3",
@@ -58322,7 +58795,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "starts_at": "2026-10-23T11:00:00Z",
             "status": "upcoming",
             "team1_name": "Nuclear TigeRES",
-            "team2_name": "Illyrians"
+            "team2_name": "Illyrians",
+            "veto_text": "Best of 3 (Online)\n\n* Round of 16"
           },
           {
             "event_id": "hltv:9442",
@@ -60856,7 +61330,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "ex-RUSTEC"
           },
           {
-            "detail_fetched_at_utc": "2026-10-23T01:31:43Z",
+            "detail_fetched_at_utc": "2026-10-23T07:27:22Z",
             "event_id": "hltv:cct-2026-europe-series-12",
             "event_name": "CCT 2026 Europe Series 12",
             "event_url": "https://www.hltv.org/events/archive",
@@ -62131,9 +62605,87 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "6yuBoJlbl"
           },
           {
-            "event_id": "hltv:9457",
+            "detail_fetched_at_utc": "2026-10-23T07:22:56Z",
+            "event_id": "hltv:cct-2026-europe-series-12",
             "event_name": "CCT 2026 Europe Series 12",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399498",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "23642",
+                  "nickname": "Flierax",
+                  "player_id": "hltv:23642",
+                  "source_url": "https://www.hltv.org/player/23642/flierax",
+                  "team_name": "Inner Circle Academy"
+                },
+                {
+                  "hltv_player_id": "24245",
+                  "nickname": "3ippoch",
+                  "player_id": "hltv:24245",
+                  "source_url": "https://www.hltv.org/player/24245/3ippoch",
+                  "team_name": "Inner Circle Academy"
+                },
+                {
+                  "hltv_player_id": "25129",
+                  "nickname": "NaYz",
+                  "player_id": "hltv:25129",
+                  "source_url": "https://www.hltv.org/player/25129/nayz",
+                  "team_name": "Inner Circle Academy"
+                },
+                {
+                  "hltv_player_id": "25503",
+                  "nickname": "L1seYoung",
+                  "player_id": "hltv:25503",
+                  "source_url": "https://www.hltv.org/player/25503/l1seyoung",
+                  "team_name": "Inner Circle Academy"
+                },
+                {
+                  "hltv_player_id": "26197",
+                  "nickname": "Tamefear",
+                  "player_id": "hltv:26197",
+                  "source_url": "https://www.hltv.org/player/26197/tamefear",
+                  "team_name": "Inner Circle Academy"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "23193",
+                  "nickname": "VILBy",
+                  "player_id": "hltv:23193",
+                  "source_url": "https://www.hltv.org/player/23193/vilby",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "25390",
+                  "nickname": "Kiryasoo",
+                  "player_id": "hltv:25390",
+                  "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "25622",
+                  "nickname": "Netrix",
+                  "player_id": "hltv:25622",
+                  "source_url": "https://www.hltv.org/player/25622/netrix",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "25911",
+                  "nickname": "s1nside",
+                  "player_id": "hltv:25911",
+                  "source_url": "https://www.hltv.org/player/25911/s1nside",
+                  "team_name": "Spirit Academy"
+                },
+                {
+                  "hltv_player_id": "26299",
+                  "nickname": "k0gaSs",
+                  "player_id": "hltv:26299",
+                  "source_url": "https://www.hltv.org/player/26299/k0gass",
+                  "team_name": "Spirit Academy"
+                }
+              ]
+            },
             "match_id": "hltv:2399498",
             "product_tier": "tier_2",
             "series_format": "bo3",
@@ -62142,12 +62694,91 @@ window.__STRIKESIGNAL_DATA__ = {
             "starts_at": "2026-10-23T11:00:00Z",
             "status": "upcoming",
             "team1_name": "Inner Circle Academy",
-            "team2_name": "Spirit Academy"
+            "team2_name": "Spirit Academy",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
           },
           {
-            "event_id": "hltv:9457",
+            "detail_fetched_at_utc": "2026-10-23T07:27:07Z",
+            "event_id": "hltv:cct-2026-europe-series-12",
             "event_name": "CCT 2026 Europe Series 12",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399499",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "11498",
+                  "nickname": "NickelBack",
+                  "player_id": "hltv:11498",
+                  "source_url": "https://www.hltv.org/player/11498/nickelback",
+                  "team_name": "FORZE Reload"
+                },
+                {
+                  "hltv_player_id": "13240",
+                  "nickname": "Lack1",
+                  "player_id": "hltv:13240",
+                  "source_url": "https://www.hltv.org/player/13240/lack1",
+                  "team_name": "FORZE Reload"
+                },
+                {
+                  "hltv_player_id": "20504",
+                  "nickname": "YumsaN",
+                  "player_id": "hltv:20504",
+                  "source_url": "https://www.hltv.org/player/20504/yumsan",
+                  "team_name": "FORZE Reload"
+                },
+                {
+                  "hltv_player_id": "23628",
+                  "nickname": "KusMe",
+                  "player_id": "hltv:23628",
+                  "source_url": "https://www.hltv.org/player/23628/kusme",
+                  "team_name": "FORZE Reload"
+                },
+                {
+                  "hltv_player_id": "25609",
+                  "nickname": "HeCkBNk",
+                  "player_id": "hltv:25609",
+                  "source_url": "https://www.hltv.org/player/25609/heckbnk",
+                  "team_name": "FORZE Reload"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "13046",
+                  "nickname": "dottie",
+                  "player_id": "hltv:13046",
+                  "source_url": "https://www.hltv.org/player/13046/dottie",
+                  "team_name": "LFO 10"
+                },
+                {
+                  "hltv_player_id": "15569",
+                  "nickname": "Sapec",
+                  "player_id": "hltv:15569",
+                  "source_url": "https://www.hltv.org/player/15569/sapec",
+                  "team_name": "LFO 10"
+                },
+                {
+                  "hltv_player_id": "18788",
+                  "nickname": "dan1",
+                  "player_id": "hltv:18788",
+                  "source_url": "https://www.hltv.org/player/18788/dan1",
+                  "team_name": "LFO 10"
+                },
+                {
+                  "hltv_player_id": "20285",
+                  "nickname": "Mann3n",
+                  "player_id": "hltv:20285",
+                  "source_url": "https://www.hltv.org/player/20285/mann3n",
+                  "team_name": "LFO 10"
+                },
+                {
+                  "hltv_player_id": "21164",
+                  "nickname": "L00m1",
+                  "player_id": "hltv:21164",
+                  "source_url": "https://www.hltv.org/player/21164/l00m1",
+                  "team_name": "LFO 10"
+                }
+              ]
+            },
             "match_id": "hltv:2399499",
             "product_tier": "tier_2",
             "series_format": "bo3",
@@ -62156,7 +62787,8 @@ window.__STRIKESIGNAL_DATA__ = {
             "starts_at": "2026-10-23T08:00:00Z",
             "status": "upcoming",
             "team1_name": "FORZE Reload",
-            "team2_name": "LFO 10"
+            "team2_name": "LFO 10",
+            "veto_text": "Best of 3 (Online)\n\n* Swiss round 2 (teams with a 1-0 record)"
           },
           {
             "event_id": "hltv:9457",
@@ -62591,7 +63223,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-10-23T01:31:52Z",
+    "last_verified_utc": "2026-10-23T07:32:47Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -62616,7 +63248,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-23T01:34:36Z",
+      "checked_at_utc": "2026-10-23T07:37:12Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -63000,7 +63632,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-23T01:35:08Z",
+  "generated_at_utc": "2026-10-23T07:37:34Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -64554,7 +65186,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-23T01:35:08Z",
+    "generated_at_utc": "2026-10-23T07:37:34Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -75657,10 +76289,85 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4635,
-      "event_id": "hltv:9442",
+      "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "20252",
+            "nickname": "Kind0",
+            "player_id": "hltv:20252",
+            "source_url": "https://www.hltv.org/player/20252/kind0",
+            "team_name": "ex-Zero Tenacity"
+          },
+          {
+            "hltv_player_id": "20253",
+            "nickname": "Dragon",
+            "player_id": "hltv:20253",
+            "source_url": "https://www.hltv.org/player/20253/dragon",
+            "team_name": "ex-Zero Tenacity"
+          },
+          {
+            "hltv_player_id": "20813",
+            "nickname": "VLDN",
+            "player_id": "hltv:20813",
+            "source_url": "https://www.hltv.org/player/20813/vldn",
+            "team_name": "ex-Zero Tenacity"
+          },
+          {
+            "hltv_player_id": "21302",
+            "nickname": "Cjoffo",
+            "player_id": "hltv:21302",
+            "source_url": "https://www.hltv.org/player/21302/cjoffo",
+            "team_name": "ex-Zero Tenacity"
+          },
+          {
+            "hltv_player_id": "21783",
+            "nickname": "brutmonster",
+            "player_id": "hltv:21783",
+            "source_url": "https://www.hltv.org/player/21783/brutmonster",
+            "team_name": "ex-Zero Tenacity"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "19297",
+            "nickname": "Brilliance",
+            "player_id": "hltv:19297",
+            "source_url": "https://www.hltv.org/player/19297/brilliance",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "22803",
+            "nickname": "bl1x1",
+            "player_id": "hltv:22803",
+            "source_url": "https://www.hltv.org/player/22803/bl1x1",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "24190",
+            "nickname": "youka",
+            "player_id": "hltv:24190",
+            "source_url": "https://www.hltv.org/player/24190/youka",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "24485",
+            "nickname": "yiksrezo",
+            "player_id": "hltv:24485",
+            "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+            "team_name": "ex-RUSTEC"
+          },
+          {
+            "hltv_player_id": "24817",
+            "nickname": "jakekeS",
+            "player_id": "hltv:24817",
+            "source_url": "https://www.hltv.org/player/24817/jakekes",
+            "team_name": "ex-RUSTEC"
+          }
+        ]
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-23",
@@ -75694,10 +76401,85 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "lean",
       "data_quality": "full",
       "elo_prob_team1": 0.6046,
-      "event_id": "hltv:9457",
+      "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "11498",
+            "nickname": "NickelBack",
+            "player_id": "hltv:11498",
+            "source_url": "https://www.hltv.org/player/11498/nickelback",
+            "team_name": "FORZE Reload"
+          },
+          {
+            "hltv_player_id": "13240",
+            "nickname": "Lack1",
+            "player_id": "hltv:13240",
+            "source_url": "https://www.hltv.org/player/13240/lack1",
+            "team_name": "FORZE Reload"
+          },
+          {
+            "hltv_player_id": "20504",
+            "nickname": "YumsaN",
+            "player_id": "hltv:20504",
+            "source_url": "https://www.hltv.org/player/20504/yumsan",
+            "team_name": "FORZE Reload"
+          },
+          {
+            "hltv_player_id": "23628",
+            "nickname": "KusMe",
+            "player_id": "hltv:23628",
+            "source_url": "https://www.hltv.org/player/23628/kusme",
+            "team_name": "FORZE Reload"
+          },
+          {
+            "hltv_player_id": "25609",
+            "nickname": "HeCkBNk",
+            "player_id": "hltv:25609",
+            "source_url": "https://www.hltv.org/player/25609/heckbnk",
+            "team_name": "FORZE Reload"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "13046",
+            "nickname": "dottie",
+            "player_id": "hltv:13046",
+            "source_url": "https://www.hltv.org/player/13046/dottie",
+            "team_name": "LFO 10"
+          },
+          {
+            "hltv_player_id": "15569",
+            "nickname": "Sapec",
+            "player_id": "hltv:15569",
+            "source_url": "https://www.hltv.org/player/15569/sapec",
+            "team_name": "LFO 10"
+          },
+          {
+            "hltv_player_id": "18788",
+            "nickname": "dan1",
+            "player_id": "hltv:18788",
+            "source_url": "https://www.hltv.org/player/18788/dan1",
+            "team_name": "LFO 10"
+          },
+          {
+            "hltv_player_id": "20285",
+            "nickname": "Mann3n",
+            "player_id": "hltv:20285",
+            "source_url": "https://www.hltv.org/player/20285/mann3n",
+            "team_name": "LFO 10"
+          },
+          {
+            "hltv_player_id": "21164",
+            "nickname": "L00m1",
+            "player_id": "hltv:21164",
+            "source_url": "https://www.hltv.org/player/21164/l00m1",
+            "team_name": "LFO 10"
+          }
+        ]
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-23",
@@ -75731,10 +76513,85 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "watch",
       "data_quality": "full",
       "elo_prob_team1": 0.6544,
-      "event_id": "hltv:9442",
+      "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "22878",
+            "nickname": "senka",
+            "player_id": "hltv:22878",
+            "source_url": "https://www.hltv.org/player/22878/senka",
+            "team_name": "Nuclear TigeRES"
+          },
+          {
+            "hltv_player_id": "24171",
+            "nickname": "Djon8",
+            "player_id": "hltv:24171",
+            "source_url": "https://www.hltv.org/player/24171/djon8",
+            "team_name": "Nuclear TigeRES"
+          },
+          {
+            "hltv_player_id": "24568",
+            "nickname": "flouzer",
+            "player_id": "hltv:24568",
+            "source_url": "https://www.hltv.org/player/24568/flouzer",
+            "team_name": "Nuclear TigeRES"
+          },
+          {
+            "hltv_player_id": "25807",
+            "nickname": "ayuki",
+            "player_id": "hltv:25807",
+            "source_url": "https://www.hltv.org/player/25807/ayuki",
+            "team_name": "Nuclear TigeRES"
+          },
+          {
+            "hltv_player_id": "26180",
+            "nickname": "tronic",
+            "player_id": "hltv:26180",
+            "source_url": "https://www.hltv.org/player/26180/tronic",
+            "team_name": "Nuclear TigeRES"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "18119",
+            "nickname": "cerber",
+            "player_id": "hltv:18119",
+            "source_url": "https://www.hltv.org/player/18119/cerber",
+            "team_name": "Illyrians"
+          },
+          {
+            "hltv_player_id": "19761",
+            "nickname": "Dementor",
+            "player_id": "hltv:19761",
+            "source_url": "https://www.hltv.org/player/19761/dementor",
+            "team_name": "Illyrians"
+          },
+          {
+            "hltv_player_id": "20434",
+            "nickname": "BledarD",
+            "player_id": "hltv:20434",
+            "source_url": "https://www.hltv.org/player/20434/bledard",
+            "team_name": "Illyrians"
+          },
+          {
+            "hltv_player_id": "21109",
+            "nickname": "ammar",
+            "player_id": "hltv:21109",
+            "source_url": "https://www.hltv.org/player/21109/ammar",
+            "team_name": "Illyrians"
+          },
+          {
+            "hltv_player_id": "23300",
+            "nickname": "rosoneriii",
+            "player_id": "hltv:23300",
+            "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+            "team_name": "Illyrians"
+          }
+        ]
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-23",
@@ -75768,10 +76625,85 @@ window.__STRIKESIGNAL_DATA__ = {
       "confidence_label": "thin",
       "data_quality": "full",
       "elo_prob_team1": 0.4344,
-      "event_id": "hltv:9457",
+      "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "format": "bo3",
-      "lineups": {},
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "23642",
+            "nickname": "Flierax",
+            "player_id": "hltv:23642",
+            "source_url": "https://www.hltv.org/player/23642/flierax",
+            "team_name": "Inner Circle Academy"
+          },
+          {
+            "hltv_player_id": "24245",
+            "nickname": "3ippoch",
+            "player_id": "hltv:24245",
+            "source_url": "https://www.hltv.org/player/24245/3ippoch",
+            "team_name": "Inner Circle Academy"
+          },
+          {
+            "hltv_player_id": "25129",
+            "nickname": "NaYz",
+            "player_id": "hltv:25129",
+            "source_url": "https://www.hltv.org/player/25129/nayz",
+            "team_name": "Inner Circle Academy"
+          },
+          {
+            "hltv_player_id": "25503",
+            "nickname": "L1seYoung",
+            "player_id": "hltv:25503",
+            "source_url": "https://www.hltv.org/player/25503/l1seyoung",
+            "team_name": "Inner Circle Academy"
+          },
+          {
+            "hltv_player_id": "26197",
+            "nickname": "Tamefear",
+            "player_id": "hltv:26197",
+            "source_url": "https://www.hltv.org/player/26197/tamefear",
+            "team_name": "Inner Circle Academy"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "23193",
+            "nickname": "VILBy",
+            "player_id": "hltv:23193",
+            "source_url": "https://www.hltv.org/player/23193/vilby",
+            "team_name": "Spirit Academy"
+          },
+          {
+            "hltv_player_id": "25390",
+            "nickname": "Kiryasoo",
+            "player_id": "hltv:25390",
+            "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+            "team_name": "Spirit Academy"
+          },
+          {
+            "hltv_player_id": "25622",
+            "nickname": "Netrix",
+            "player_id": "hltv:25622",
+            "source_url": "https://www.hltv.org/player/25622/netrix",
+            "team_name": "Spirit Academy"
+          },
+          {
+            "hltv_player_id": "25911",
+            "nickname": "s1nside",
+            "player_id": "hltv:25911",
+            "source_url": "https://www.hltv.org/player/25911/s1nside",
+            "team_name": "Spirit Academy"
+          },
+          {
+            "hltv_player_id": "26299",
+            "nickname": "k0gaSs",
+            "player_id": "hltv:26299",
+            "source_url": "https://www.hltv.org/player/26299/k0gass",
+            "team_name": "Spirit Academy"
+          }
+        ]
+      },
       "map_results": [],
       "maps": [],
       "match_date": "2026-10-23",

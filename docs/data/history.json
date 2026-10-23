@@ -1,6 +1,6 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-23T01:31:52Z",
+  "generated_at_utc": "2026-10-23T07:32:47Z",
   "through_date": "2026-10-22",
   "scope": {
     "tiers": [
@@ -1035,7 +1035,7 @@
       "winner_name": "Saint Sinners",
       "tier": "tier_2",
       "best_of": 3,
-      "phase": "Scheduled series",
+      "phase": "Completed series",
       "stage_name": "Scheduled series",
       "round_name": "",
       "is_playoff": false,

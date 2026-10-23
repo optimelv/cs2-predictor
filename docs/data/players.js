@@ -8036,6 +8036,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 69.7,
           "rating": 1.62,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399845",
+          "date": "2026-10-22",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "Black Phoenix",
+          "team_name": "ex-CYBERSHOKE",
+          "won": false,
+          "kills": 32,
+          "deaths": 30,
+          "kd_ratio": 1.07,
+          "adr": 90.3,
+          "kast": 76.9,
+          "rating": 1.25,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -8043,13 +8058,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-CYBERSHOKE",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 2,
+          "through_date": "2026-10-22",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.74,
-          "average_adr": 108.4
+          "losses": 1,
+          "win_rate": 0.667,
+          "average_rating": 1.57,
+          "average_adr": 102.4
         },
         {
           "team_name": "ex-RUSTEC",
@@ -8079,11 +8094,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 9,
+        "series": 10,
         "average_rating": 1.25,
-        "average_adr": 87.8,
-        "recent_rating": 1.51,
-        "rating_delta": 0.2
+        "average_adr": 88.1,
+        "recent_rating": 1.57,
+        "rating_delta": 0.42
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -17720,7 +17735,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:22803",
-      "nickname": "Substitute",
+      "nickname": "bl1x1",
       "team_name": "ex-RUSTEC",
       "rating_3_0": 1.09,
       "maps_3m": 81,
@@ -17916,6 +17931,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 69.7,
           "rating": 1.14,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399845",
+          "date": "2026-10-22",
+          "event_name": "WINLINE MPKBK CIS LAN Season 9",
+          "opponent_name": "Black Phoenix",
+          "team_name": "ex-CYBERSHOKE",
+          "won": false,
+          "kills": 29,
+          "deaths": 29,
+          "kd_ratio": 1,
+          "adr": 86.9,
+          "kast": 76.9,
+          "rating": 1.13,
+          "maps": 3
         }
       ],
       "map_profile": [],
@@ -17923,13 +17953,13 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         {
           "team_name": "ex-CYBERSHOKE",
           "from_date": "2026-10-21",
-          "through_date": "2026-10-21",
-          "series": 2,
+          "through_date": "2026-10-22",
+          "series": 3,
           "wins": 2,
-          "losses": 0,
-          "win_rate": 1,
+          "losses": 1,
+          "win_rate": 0.667,
           "average_rating": 1.15,
-          "average_adr": 70.1
+          "average_adr": 75.7
         },
         {
           "team_name": "ex-RUSTEC",
@@ -17959,11 +17989,11 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "form_summary": {
-        "series": 12,
+        "series": 13,
         "average_rating": 1.12,
-        "average_adr": 72.4,
-        "recent_rating": 0.99,
-        "rating_delta": -0.18
+        "average_adr": 73.5,
+        "recent_rating": 1.15,
+        "rating_delta": 0.11
       },
       "kd_ratio_3m": null,
       "stats_from_date": null,
@@ -39592,7 +39622,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:24817",
-      "nickname": "Substitute",
+      "nickname": "jakekeS",
       "team_name": "ex-RUSTEC",
       "rating_3_0": 0.99,
       "maps_3m": 151,
@@ -54979,7 +55009,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:21164",
-      "nickname": "Substitute",
+      "nickname": "L00m1",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -62938,7 +62968,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:20285",
-      "nickname": "Substitute",
+      "nickname": "Mann3n",
       "team_name": "LFO 10",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -67591,7 +67621,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:19761",
-      "nickname": "Substitute",
+      "nickname": "Dementor",
       "team_name": "Illyrians",
       "rating_3_0": null,
       "maps_3m": 0,
@@ -68150,6 +68180,21 @@ window.__STRIKESIGNAL_PLAYERS__ = {
           "kast": 68.4,
           "rating": 0.71,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399106",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "Just Players",
+          "team_name": "FORZE Reload",
+          "won": true,
+          "kills": 42,
+          "deaths": 40,
+          "kd_ratio": 1.05,
+          "adr": 91.7,
+          "kast": 77.4,
+          "rating": 1.26,
+          "maps": 3
         }
       ],
       "timeline_entry": {
@@ -68169,23 +68214,23 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       },
       "traits": {},
       "form_summary": {
-        "series": 3,
-        "average_rating": 1.07,
-        "average_adr": 74.2,
-        "recent_rating": 1.07,
-        "rating_delta": null
+        "series": 4,
+        "average_rating": 1.11,
+        "average_adr": 78.6,
+        "recent_rating": 0.9,
+        "rating_delta": -0.87
       },
       "roster_eras": [
         {
           "team_name": "FORZE Reload",
           "from_date": "2026-10-18",
-          "through_date": "2026-10-20",
-          "series": 3,
-          "wins": 2,
+          "through_date": "2026-10-22",
+          "series": 4,
+          "wins": 3,
           "losses": 1,
-          "win_rate": 0.667,
-          "average_rating": 1.07,
-          "average_adr": 74.2
+          "win_rate": 0.75,
+          "average_rating": 1.11,
+          "average_adr": 78.6
         }
       ],
       "map_profile": [],
@@ -69656,7 +69701,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
     },
     {
       "player_id": "hltv:18788",
-      "nickname": "Substitute",
+      "nickname": "dan1",
       "team_name": "LFO 10",
       "hltv_player_id": "18788",
       "source_url": "https://www.hltv.org/player/18788/dan1",
@@ -70890,9 +70935,144 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "rating": 0.55,
         "maps": 3
       }
+    },
+    {
+      "player_id": "hltv:22878",
+      "nickname": "senka",
+      "team_name": "Nuclear TigeRES",
+      "hltv_player_id": "22878",
+      "source_url": "https://www.hltv.org/player/22878/senka",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:24171",
+      "nickname": "Djon8",
+      "team_name": "Nuclear TigeRES",
+      "hltv_player_id": "24171",
+      "source_url": "https://www.hltv.org/player/24171/djon8",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:24568",
+      "nickname": "flouzer",
+      "team_name": "Nuclear TigeRES",
+      "hltv_player_id": "24568",
+      "source_url": "https://www.hltv.org/player/24568/flouzer",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:25807",
+      "nickname": "ayuki",
+      "team_name": "Nuclear TigeRES",
+      "hltv_player_id": "25807",
+      "source_url": "https://www.hltv.org/player/25807/ayuki",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
+    },
+    {
+      "player_id": "hltv:26180",
+      "nickname": "tronic",
+      "team_name": "Nuclear TigeRES",
+      "hltv_player_id": "26180",
+      "source_url": "https://www.hltv.org/player/26180/tronic",
+      "form_timeline": [],
+      "traits": {},
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "roster_eras": [],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "signal_index": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-23T01:31:52Z",
+  "lineups_updated_at_utc": "2026-10-23T07:32:47Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-22",
   "history_profile_count": 53,
