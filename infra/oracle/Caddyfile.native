@@ -1,0 +1,9 @@
+{$WORKER_HOST} {
+	@collector path /snapshot /healthz /archive /liquipedia-evidence /player-profiles
+	handle @collector {
+		reverse_proxy 127.0.0.1:8080
+	}
+	handle {
+		respond "Not found" 404
+	}
+}
