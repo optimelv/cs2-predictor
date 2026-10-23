@@ -3231,9 +3231,14 @@ function playerPortraitCreditHtml(player) {
 }
 
 function playerStatsDate(player) {
-  return player.stats_through_date
-    ? `Past 3 months · source checked ${formatDateOnly(player.stats_through_date)}`
+  const period = player.stats_through_date
+    ? `Past 3 months · through ${formatDateOnly(player.stats_through_date)}`
     : `Earlier profile snapshot · ${formatDateOnly(playerSnapshot?.generated_at_utc)}`;
+  const traitsDate = player.traits_through_date && player.traits_through_date !== player.stats_through_date
+    ? ` · traits through ${formatDateOnly(player.traits_through_date)}` : "";
+  const indexDate = player.signal_index_through_date && player.signal_index_through_date !== player.stats_through_date
+    ? ` · index through ${formatDateOnly(player.signal_index_through_date)}` : "";
+  return period + traitsDate + indexDate;
 }
 
 function playerDetailHtml(player) {
@@ -3329,7 +3334,7 @@ function renderPlayers({ openProfile = false } = {}) {
       <span class="player-row-name"><b>${escapeHtml(player.nickname)}</b><small>${escapeHtml(player.real_name || playerRole(player))}</small></span>
       <span class="player-row-team">${teamLogoHtml(player.team_name)}<b>${escapeHtml(player.team_name)}</b></span>
       <span class="player-row-rating"><b>${Number.isFinite(Number(player.rating_3_0)) && Number(player.rating_3_0) > 0 ? Number(player.rating_3_0).toFixed(2) : "--"}</b><small>${player.stats_through_date ? formatDateOnly(player.stats_through_date) : "Earlier snapshot"}</small></span>
-      <span class="player-row-signal"><i><b style="width:${Number(player.signal_index) || 0}%"></b></i><small>${Number(player.signal_index) || "--"}</small></span>
+      <span class="player-row-signal"><i><b style="width:${playerStatNumber(player.signal_index) ?? 0}%"></b></i><small>${playerStatNumber(player.signal_index) ?? "--"}</small></span>
     </button>
   `).join("") : `<div class="player-empty"><span>NO MATCH</span><h3>No player matches this filter.</h3></div>`;
   renderPlayerDetail(selected);
@@ -3639,7 +3644,7 @@ function teamHistoryHtml(teamName) {
 
 function teamPlayerProfileHtml(teamName, player) {
   const rating = Number(player.rating_3_0);
-  const maps = Number(player.maps_3m) || 0;
+  const maps = playerStatNumber(player.maps_3m);
   const lineup = teamLineupRead(teamName);
   const teammates = lineup.roster.filter((row) => row.player_id && row.player_id !== player.player_id);
   const playerMaps = [...(player.map_profile || [])]
@@ -3655,8 +3660,8 @@ function teamPlayerProfileHtml(teamName, player) {
     </section>
     <section class="team-profile-metrics team-player-metrics">
       <div><span>Rating 3.0</span><strong>${Number.isFinite(rating) && rating > 0 ? rating.toFixed(2) : "--"}</strong></div>
-      <div><span>Signal</span><strong>${Number(player.signal_index) || "--"}</strong></div>
-      <div><span>Map sample</span><strong>${maps || "--"}</strong></div>
+      <div><span>Signal</span><strong>${playerStatNumber(player.signal_index) ?? "--"}</strong></div>
+      <div><span>Map sample</span><strong>${maps ?? "--"}</strong></div>
       <div><span>Role</span><strong class="is-role">${escapeHtml(playerRole(player))}</strong></div>
     </section>
     <p class="player-stats-date">${escapeHtml(playerStatsDate(player))}</p>

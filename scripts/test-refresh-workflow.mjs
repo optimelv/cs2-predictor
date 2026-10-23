@@ -33,6 +33,11 @@ assert.doesNotMatch(workflow, /git pull --rebase/);
 assert.match(workflow, /private-data-sync\.sh load/);
 assert.match(workflow, /Guard public model payloads/);
 assert.match(workflow, /refresh_rankings/);
+assert.match(workflow, /Retrieve cached server-side HLTV player profiles/);
+assert.match(workflow, /\$worker_url\/player-profiles/);
+assert.match(workflow, /Authorization: Bearer \$ORACLE_ARCHIVE_TOKEN/);
+assert.match(workflow, /Player-profile cache was unavailable; preserving the last verified profile values\./);
+assert.match(workflow, /node scripts\/build-player-snapshot\.mjs "\$RUNNER_TEMP\/player-profiles\.json"/);
 const publicationFiles = workflow.match(/git add ([^\n]+)/)?.[1].trim().split(/\s+/) || [];
 assert.ok(publicationFiles.length > 0);
 for (const file of publicationFiles) await access(file);
@@ -47,9 +52,11 @@ assert.match(workflow, /--connect-timeout 10 --max-time 30/);
 const freshness = position("Validate freshness and source health");
 const tierFilter = position("Enforce the Tier 1/2 product boundary");
 const modelPromotion = position("Evaluate and safely promote the production model");
+const profilePromotion = position("Retrieve cached server-side HLTV player profiles");
 const publication = position("Commit verified Tier 1/2 data");
 assert.ok(freshness < tierFilter, "Freshness must be checked before product filtering.");
 assert.ok(tierFilter < modelPromotion, "Tier filtering must happen before model promotion.");
+assert.ok(profilePromotion < publication, "Profile cache must be retrieved before publication.");
 assert.ok(modelPromotion < publication, "Model gates must pass before publication.");
 
 // Exercise the exact promotion gate from the workflow, not a duplicate validator.

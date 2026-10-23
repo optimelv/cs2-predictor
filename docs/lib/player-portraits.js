@@ -92,13 +92,16 @@ function currentHltvPortrait(player) {
   const url = String(player?.portrait_url || "").trim();
   try {
     const image = new URL(url);
-    const source = new URL(String(player?.source_url || ""));
-    const sourceUrl = source.protocol === "https:" && source.hostname === "www.hltv.org" && source.pathname.startsWith(`/player/${id}/`)
-      ? source.href
-      : id ? `https://www.hltv.org/player/${id}` : "";
-    return id && sourceUrl && image.protocol === "https:" && image.hostname === "img-cdn.hltv.org" && image.pathname.startsWith("/playerbodyshot/")
-      ? { src: url, sourceUrl, creditLabel: "HLTV profile image" }
-      : null;
+    const safeImage = image.protocol === "https:" && image.hostname === "img-cdn.hltv.org" && !image.port && !image.username && !image.password && image.pathname.startsWith("/playerbodyshot/");
+    if (!id || !safeImage) return null;
+    let sourceUrl = `https://www.hltv.org/player/${id}`;
+    try {
+      const source = new URL(String(player?.source_url || ""));
+      if (source.protocol === "https:" && source.hostname === "www.hltv.org" && !source.port && !source.username && !source.password && source.pathname.startsWith(`/player/${id}/`)) sourceUrl = source.href;
+    } catch {
+      // A current image remains safe to show; credit its canonical profile when a lineup lacks source_url.
+    }
+    return { src: image.href, sourceUrl, creditLabel: "HLTV profile image" };
   } catch {
     return null;
   }
