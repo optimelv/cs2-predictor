@@ -3217,15 +3217,17 @@ function playerDetailViewHtml(player) {
 }
 
 function playerPortraitHtml(player, className) {
-  const portrait = playerPortraitFor(player?.player_id);
+  const portrait = playerPortraitFor(player);
   const initials = escapeHtml(String(player?.nickname || "?").slice(0, 2).toUpperCase());
-  return `<div class="${className}" aria-hidden="true"><span class="player-monogram-initials">${initials}</span>${portrait ? `<img class="player-portrait" src="${escapeHtml(portrait.src)}" alt="" loading="lazy" decoding="async"${portrait.position ? ` style="object-position:${escapeHtml(portrait.position)}"` : ""}>` : ""}</div>`;
+  return `<div class="${className}" aria-hidden="true"><span class="player-monogram-initials">${initials}</span>${portrait ? `<img class="player-portrait" src="${escapeHtml(portrait.src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"${portrait.position ? ` style="object-position:${escapeHtml(portrait.position)}"` : ""}>` : ""}</div>`;
 }
 
 function playerPortraitCreditHtml(player) {
-  const portrait = playerPortraitFor(player?.player_id);
-  if (!portrait) return "";
-  return `<small class="player-photo-credit">Photo: <a href="${escapeHtml(portrait.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(portrait.author)}</a> · <a href="${escapeHtml(portrait.licenseUrl)}" target="_blank" rel="noreferrer">${escapeHtml(portrait.license)}</a></small>`;
+  const portrait = playerPortraitFor(player);
+  if (!portrait?.sourceUrl) return "";
+  const label = portrait.creditLabel || portrait.author || "Source";
+  const license = portrait.licenseUrl && portrait.license ? ` · <a href="${escapeHtml(portrait.licenseUrl)}" target="_blank" rel="noreferrer">${escapeHtml(portrait.license)}</a>` : "";
+  return `<small class="player-photo-credit">Image: <a href="${escapeHtml(portrait.sourceUrl)}" target="_blank" rel="noreferrer">${escapeHtml(label)}</a>${license}</small>`;
 }
 
 function playerStatsDate(player) {
@@ -3977,8 +3979,8 @@ function renderMyDesk() {
   const incomingCount = pendingDeskImport ? watchlistCount(pendingDeskImport.watchlist) : 0;
   const incomingPicks = pendingDeskImport ? Object.keys(pendingDeskImport.savedPicks).length : 0;
   const importBanner = pendingDeskImport ? `<section class="desk-import-banner"><div><span>Shared desk ready</span><strong>${incomingCount} follows · ${incomingPicks} saved ${incomingPicks === 1 ? "pick" : "picks"}</strong></div><div><button type="button" data-dismiss-desk-import>Not now</button><button type="button" data-import-desk>Import shared desk</button></div></section>` : "";
-  els.myDeskContent.innerHTML = `${importBanner}<section class="my-desk-hero"><div class="my-desk-hero-copy"><h2>${entityCount || pendingPicks ? "Following" : "Follow a team"}</h2><p>${entityCount || pendingPicks ? "Matches and updates from the teams, players and events you follow." : "Follow a favorite to find their matches here. Your picks stay on this device."}</p>${entityCount || pendingPicks ? `<button type="button" class="my-desk-share" data-share-desk>${runeIcon("link")}<b>Share picks & follows</b></button>` : `<div class="suggested-follows">${(appData?.coverage?.vrs?.rankings || appData?.coverage?.vrs?.teams || []).slice(0, 4).map(row => `<div>${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong>${watchButtonHtml("teams", normalizeName(row.team_name), row.team_name)}</div>`).join("") || `<a class="button primary" href="#rankings" data-close-desk>Find a team to follow →</a>`}</div>`}</div><aside><div><span>Following</span><strong>${entityCount}</strong></div><div><span>Next series</span><strong>${matches.length}</strong></div><div><span>Saved picks</span><strong>${pendingPicks}</strong></div><div><span>New signals</span><strong>${unread}</strong></div></aside></section>
-    <section class="my-desk-grid"><div class="my-desk-feed"><header><span>Next on server</span><strong>${matches.length ? `${matches.length} relevant series` : "No scheduled series"}</strong></header>${matches.length ? matches.map(myDeskMatchHtml).join("") : `<div class="my-desk-empty"><span>Match feed</span><strong>Follow a team or active event.</strong></div>`}</div><div class="my-desk-ledger"><header><span>Saved picks</span><strong>${pendingPicks} saved</strong></header>${myDeskPicksHtml()}</div></section>
+  els.myDeskContent.innerHTML = `${importBanner}<section class="my-desk-hero"><div class="my-desk-hero-copy"><h2>${entityCount ? "Following" : pendingPicks ? "Your saved picks" : "Follow a team"}</h2><p>${entityCount ? "Matches and updates from the teams, players and events you follow." : pendingPicks ? "Your selections and their latest model estimates. Saved on this device." : "Follow a favorite to find their matches here. Your picks stay on this device."}</p>${entityCount || pendingPicks ? `<button type="button" class="my-desk-share" data-share-desk>${runeIcon("link")}<b>Share picks & follows</b></button>` : `<div class="suggested-follows">${(appData?.coverage?.vrs?.rankings || appData?.coverage?.vrs?.teams || []).slice(0, 4).map(row => `<div>${teamLogoHtml(row.team_name)}<strong>${escapeHtml(row.team_name)}</strong>${watchButtonHtml("teams", normalizeName(row.team_name), row.team_name)}</div>`).join("") || `<a class="button primary" href="#rankings" data-close-desk>Find a team to follow →</a>`}</div>`}</div><aside><div><span>Following</span><strong>${entityCount}</strong></div><div><span>Next series</span><strong>${matches.length}</strong></div><div><span>Saved picks</span><strong>${pendingPicks}</strong></div><div><span>New signals</span><strong>${unread}</strong></div></aside></section>
+    <section class="my-desk-grid"><div class="my-desk-ledger"><header><span>Saved picks</span><strong>${pendingPicks} saved</strong></header>${myDeskPicksHtml()}</div><div class="my-desk-feed"><header><span>Next on server</span><strong>${matches.length ? `${matches.length} relevant series` : "No scheduled series"}</strong></header>${matches.length ? matches.map(myDeskMatchHtml).join("") : `<div class="my-desk-empty"><span>Match feed</span><strong>Follow a team or active event.</strong></div>`}</div></section>
     ${myDeskSignalsHtml()}
     ${myDeskEntityListsHtml()}`;
   syncWatchControls();
@@ -4014,7 +4016,7 @@ function updateSummary(data) {
   const sourceDate = freshness.timestamp ? new Intl.DateTimeFormat("en-GB", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" }).format(new Date(verifiedAt)) + " UTC" : "Unverified source time";
   const sourceStatus = document.querySelector("#sourceStatus");
   if (sourceStatus) sourceStatus.dataset.state = freshness.state;
-  setText(document.querySelector("#sourceStatusTitle"), isFresh ? "Recent source snapshot" : freshness.state === "stale" ? "Historical matches · live updates unavailable" : "Source freshness is unverified");
+  setText(document.querySelector("#sourceStatusTitle"), isFresh ? `Source checked ${new Intl.DateTimeFormat(undefined, { hour: "2-digit", minute: "2-digit" }).format(new Date(verifiedAt))}` : freshness.state === "stale" ? "Historical matches · live updates unavailable" : "Source freshness is unverified");
   setText(document.querySelector("#sourceStatusDetail"), `${sourceDate}. ${isFresh ? "Match states reflect this check; updates are not continuous." : "Schedules and match states may have changed. New match picks are paused."}`);
   setText(document.querySelector("#matchDataNote"), isFresh ? `Source checked ${sourceDate}. Match times use your local timezone.` : `As recorded ${sourceDate}. This is a historical slate, not today's schedule. Match times use your local timezone.`);
   setText(document.querySelector("#footerDataStatus"), isFresh ? "Recent snapshot loaded" : "Historical data · see source status");

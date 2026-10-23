@@ -12,6 +12,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from types import SimpleNamespace
 from typing import Any
+from urllib.parse import urlparse
 
 from aiohttp import ClientSession, ClientTimeout, web
 from bs4 import BeautifulSoup
@@ -111,6 +112,17 @@ def event_reference(node, fallback_name: str) -> tuple[str, str | None]:
         else f"hltv:{slugify(fallback_name)}"
     )
     return event_id, f"https://www.hltv.org{href}" if href.startswith("/") else href or None
+
+
+def player_portrait_url(value: Any) -> str | None:
+    """Keep only an identified body-shot URL emitted by HLTV."""
+    url = str(value or "").strip()
+    parsed = urlparse(url)
+    if parsed.scheme != "https" or parsed.netloc != "img-cdn.hltv.org":
+        return None
+    if not parsed.path.startswith("/playerbodyshot/"):
+        return None
+    return url
 
 
 def parse_matches(html: str) -> list[dict[str, Any]]:
@@ -239,12 +251,17 @@ def parse_match_detail(html: str) -> dict[str, Any]:
             if not player_match or not nickname or player_match.group(1) in seen_players:
                 continue
             seen_players.add(player_match.group(1))
-            players.append({
+            player = {
                 "player_id": f"hltv:{player_match.group(1)}",
                 "hltv_player_id": player_match.group(1),
                 "nickname": nickname,
                 "source_url": f"https://www.hltv.org{href}",
-            })
+            }
+            image = anchor.select_one("img")
+            portrait = player_portrait_url(image.get("src") or image.get("data-src") if image else None)
+            if portrait:
+                player["portrait_url"] = portrait
+            players.append(player)
         if players:
             lineup_groups.append(players[:5])
     if not lineup_groups:
@@ -262,8 +279,12 @@ def parse_match_detail(html: str) -> dict[str, Any]:
                 nickname = str(row.get("nickname", "")).strip()
                 href = str(row.get("profileLinkUrl", ""))
                 if player_id.isdigit() and nickname and href.startswith(f"/player/{player_id}/"):
-                    players.append({"player_id": f"hltv:{player_id}", "hltv_player_id": player_id,
-                                    "nickname": nickname, "source_url": f"https://www.hltv.org{href}"})
+                    player = {"player_id": f"hltv:{player_id}", "hltv_player_id": player_id,
+                              "nickname": nickname, "source_url": f"https://www.hltv.org{href}"}
+                    portrait = player_portrait_url(row.get("imageUrl") or row.get("image") or row.get("portraitUrl"))
+                    if portrait:
+                        player["portrait_url"] = portrait
+                    players.append(player)
             lineup_groups.append(players if len(players) == 5 else [])
     player_stats: list[dict[str, Any]] = []
     all_stats = soup.select_one("#all-content")
@@ -348,7 +369,7 @@ def merge_match_detail(match: dict[str, Any], detail: dict[str, Any]) -> dict[st
             player["team_name"] = merged["team2_name"]
     score1, score2 = merged.get("score1"), merged.get("score2")
     if isinstance(score1, int) and isinstance(score2, int) and score1 != score2:
-        required = 3 if merged.get("series_format") == "bo5" else 2
+        required = 1 if merged.get("series_format") == "bo1" else 3 if merged.get("series_format") == "bo5" else 2
         if max(score1, score2) >= required:
             merged["status"] = "finished"
             merged["winner_name"] = merged["team1_name"] if score1 > score2 else merged["team2_name"]
