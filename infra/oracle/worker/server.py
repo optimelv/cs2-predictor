@@ -184,6 +184,9 @@ def player_profile_from_html(html: str, player_id: str, source_url: str) -> dict
         own_images = [image for image in soup.select("img[alt]")
                       if re.search(rf"(?<!\w){re.escape(nickname)}(?!\w)", str(image.get("alt", "")), re.I)
                       and player_portrait_url(image.get("src") or image.get("data-src"))]
+        hero_images = [image for image in own_images
+                       if str(image.get("alt", "")).casefold() == f"Image of Counter-Strike player {nickname}".casefold()]
+        own_images = hero_images or own_images
         own_image_paths = {urlparse(player_portrait_url(image.get("src") or image.get("data-src"))).path for image in own_images}
         if len(own_image_paths) == 1:
             profile["portrait_url"] = player_portrait_url(own_images[0].get("src") or own_images[0].get("data-src"))
@@ -910,6 +913,11 @@ async def player_profile_once() -> bool:
         raw_tmp.write_text(html, encoding="utf-8")
         raw_tmp.replace(raw_path)
         profile = player_profile_from_html(html, candidate["hltv_player_id"], candidate["source_url"])
+        if not profile.get("portrait_url") or not profile.get("stats_window"):
+            incomplete_dir = ARCHIVE_PATH.parent / "player-profile-incomplete"
+            incomplete_dir.mkdir(parents=True, exist_ok=True)
+            raw_tmp.write_text(html, encoding="utf-8")
+            raw_tmp.replace(incomplete_dir / f"{candidate['hltv_player_id']}.html")
         unavailable = not any(profile.get(key) for key in ("nickname", "real_name", "country", "portrait_url", "stats"))
         save_player_profile(candidate, profile, error="Profile page contained no recognized profile data." if unavailable else None, unavailable=unavailable)
     except Exception as exc:
