@@ -3112,7 +3112,7 @@ function playerRole(player) {
   if (Number(traits.sniping) >= 62) return "AWPer";
   if (Number(traits.entrying) >= 62 || Number(traits.opening) >= 68) return "Entry";
   if (Number(traits.utility) >= 72) return "Support";
-  if (Number(traits.clutching) >= 68) return "Closer";
+  if (Number(traits.closing ?? traits.clutching) >= 68) return "Closer";
   return "Rifler";
 }
 
@@ -3122,7 +3122,7 @@ function playerTraitHtml(player) {
     entrying: "Entry",
     trading: "Trading",
     opening: "Opening",
-    clutching: "Clutch",
+    [player.traits?.closing != null ? "closing" : "clutching"]: player.traits?.closing != null ? "Closing" : "Clutch",
     sniping: "Sniping",
     utility: "Utility",
   };

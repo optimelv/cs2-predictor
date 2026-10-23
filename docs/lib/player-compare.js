@@ -60,7 +60,10 @@ export function comparePlayerProfiles(left, right) {
     metric("signal", "Profile index", left.signal_index, right.signal_index, 0),
     metric("maps", "Map sample", left.maps_3m, right.maps_3m, 0),
   ];
-  const traitKeys = ["firepower", "entrying", "trading", "opening", "clutching", "sniping", "utility"];
+  const traitKeys = ["firepower", "entrying", "trading", "opening"];
+  if ([left, right].some(player => player.traits?.closing != null)) traitKeys.push("closing");
+  if ([left, right].some(player => player.traits?.clutching != null)) traitKeys.push("clutching");
+  traitKeys.push("sniping", "utility");
   const traits = traitKeys.map((key) => metric(key, key === "entrying" ? "Entry" : key[0].toUpperCase() + key.slice(1), left.traits?.[key], right.traits?.[key], 0));
   const decidedTraits = traits.filter((row) => row.left !== null && row.right !== null && row.left !== row.right);
   return {
@@ -72,7 +75,7 @@ export function comparePlayerProfiles(left, right) {
     trait_lead: {
       left: decidedTraits.filter((row) => row.left > row.right).length,
       right: decidedTraits.filter((row) => row.right > row.left).length,
-      tied: traits.length - decidedTraits.length,
+      tied: traits.filter(row => row.left !== null && row.right !== null && row.left === row.right).length,
     },
   };
 }

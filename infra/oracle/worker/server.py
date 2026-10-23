@@ -144,7 +144,7 @@ def player_profile_from_html(html: str, player_id: str, source_url: str) -> dict
     identity_url = str(identity.get("href") or identity.get("content") or "") if identity else ""
     if not re.search(rf"^https://www\.hltv\.org/player/{re.escape(player_id)}(?:/|$)", identity_url):
         raise ValueError("Returned page does not verify the requested player identity")
-    nickname = text(soup, (".playerNickname", ".player-nickname", "h1 .nickname"))
+    nickname = text(soup, (".playerNickname", ".player-nickname", "h1 .nickname", "h1"))
     real_name = text(soup, (".playerRealname", ".player-realname"))
     country_image = soup.select_one(".player-country img, .playerCountry img")
     country = str(country_image.get("alt", "")).strip() if country_image else ""
@@ -179,6 +179,29 @@ def player_profile_from_html(html: str, player_id: str, source_url: str) -> dict
     if stats:
         profile["stats"] = stats
         profile["stat_labels"] = labels
+    if nickname:
+        # Match the profile's own named image, not a related-player thumbnail.
+        own_images = [image for image in soup.select("img[alt]")
+                      if re.search(rf"(?<!\w){re.escape(nickname)}(?!\w)", str(image.get("alt", "")), re.I)
+                      and player_portrait_url(image.get("src") or image.get("data-src"))]
+        if len(own_images) == 1:
+            profile["portrait_url"] = player_portrait_url(own_images[0].get("src") or own_images[0].get("data-src"))
+        content = soup.get_text(" ", strip=True)
+        summary = re.search(rf"{re.escape(nickname)}\s+statistics\s*\(\s*Past\s+3\s+months\s*[•·]\s*(\d+)\s+maps?\s*\)(.{{0,1000}}?)(?:Complete statistics|Upcoming & recent matches|$)", content, re.I)
+        if summary:
+            rating = re.search(r"Rating\s+3\.0\s+(\d+(?:\.\d+)?)\b", summary[2], re.I)
+            if rating and 0 <= float(rating[1]) < 5:
+                profile.update(rating_3_0=float(rating[1]), maps_3m=int(summary[1]),
+                               stats_window="past_3_months", stats_through_date=utc_now()[:10],
+                               stats_fetched_at_utc=utc_now(), stats_source_url=profile["source_url"])
+            trait_names = {"Firepower": "firepower", "Entrying": "entrying", "Trading": "trading", "Opening": "opening", "Closing": "closing", "Sniping": "sniping", "Utility": "utility"}
+            traits = {}
+            for label, key in trait_names.items():
+                value = re.search(rf"\b{label}\s+(\d+)\s*/\s*100\b", summary[2], re.I)
+                if value and 0 <= int(value[1]) <= 100:
+                    traits[key] = int(value[1])
+            if len(traits) == 7:
+                profile.update(traits=traits, traits_through_date=utc_now()[:10])
     return profile
 
 
@@ -880,6 +903,11 @@ async def player_profile_once() -> bool:
     try:
         async with source_session() as session:
             html = await asyncio.wait_for(fetch_url(session, candidate["source_url"]), REQUEST_TIMEOUT_SECONDS + 15)
+        # Keep one response on the collector for diagnosing source markup changes.
+        raw_path = ARCHIVE_PATH.parent / "player-profile-last-response.html"
+        raw_tmp = raw_path.with_suffix(".tmp")
+        raw_tmp.write_text(html, encoding="utf-8")
+        raw_tmp.replace(raw_path)
         profile = player_profile_from_html(html, candidate["hltv_player_id"], candidate["source_url"])
         unavailable = not any(profile.get(key) for key in ("nickname", "real_name", "country", "portrait_url", "stats"))
         save_player_profile(candidate, profile, error="Profile page contained no recognized profile data." if unavailable else None, unavailable=unavailable)
