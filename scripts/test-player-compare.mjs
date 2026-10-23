@@ -34,3 +34,7 @@ assert.equal(unknown.metrics[0].left, null, "A missing rating must not become ze
 assert.equal(unknown.trait_lead.right, 0, "Missing evidence must not create a trait lead");
 assert.equal(unknown.maps.find((row) => row.map_name === "Nuke").left.rating, null);
 console.log("player compare contract tests ok");
+
+const currentClosing = comparePlayerProfiles({ ...left, traits: { closing: 29 } }, { ...right, traits: { clutching: 89 } });
+assert.equal(currentClosing.traits.find(row => row.key === "closing").right, null, "Closing must not borrow an older clutching metric");
+assert.equal(currentClosing.traits.find(row => row.key === "clutching").left, null);

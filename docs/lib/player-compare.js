@@ -60,7 +60,7 @@ export function comparePlayerProfiles(left, right) {
     metric("signal", "Profile index", left.signal_index, right.signal_index, 0),
     metric("maps", "Map sample", left.maps_3m, right.maps_3m, 0),
   ];
-  const traitKeys = ["firepower", "entrying", "trading", "opening", "clutching", "sniping", "utility"];
+  const traitKeys = ["firepower", "entrying", "trading", "opening", ...([left, right].some(player => player.traits?.closing != null) ? ["closing", ...([left, right].some(player => player.traits?.clutching != null) ? ["clutching"] : [])] : ["clutching"]), "sniping", "utility"];
   const traits = traitKeys.map((key) => metric(key, key === "entrying" ? "Entry" : key[0].toUpperCase() + key.slice(1), left.traits?.[key], right.traits?.[key], 0));
   const decidedTraits = traits.filter((row) => row.left !== null && row.right !== null && row.left !== row.right);
   return {

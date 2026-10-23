@@ -58,7 +58,7 @@ export function refreshPlayerProfiles(snapshot, source) {
     if (canAdvanceStats) {
       input.rating_3_0 = row.rating_3_0;
       input.maps_3m = row.maps_3m;
-      if (Number.isFinite(row.kd_ratio_3m)) input.kd_ratio_3m = row.kd_ratio_3m;
+      input.kd_ratio_3m = Number.isFinite(row.kd_ratio_3m) ? row.kd_ratio_3m : null;
       input.stats_window = "past_3_months";
       input.stats_from_date = validDate(row.stats_from_date) ? row.stats_from_date : null;
       input.stats_through_date = statsDate;

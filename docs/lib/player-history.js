@@ -25,7 +25,7 @@ export function mergePlayerProfile(existing = {}, incoming = {}) {
   const completeTraits = Object.keys(incoming.traits || {}).length === 7
     && Object.values(incoming.traits).every((value) => Number.isInteger(value) && value >= 0 && value <= 100);
   if (completeTraits && validDate(incomingTraitsDate) && (!existingTraitsDate || incomingTraitsDate >= existingTraitsDate)) {
-    profile.traits = { ...(existing.traits || {}), ...incoming.traits };
+    profile.traits = { ...incoming.traits };
     profile.traits_through_date = incomingTraitsDate;
   } else {
     profile.traits = existing.traits || {};

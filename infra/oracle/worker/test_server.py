@@ -449,6 +449,24 @@ class WorkerParserTests(unittest.TestCase):
         self.assertNotIn("rating_3_0", player, "A series sample is not a three-month profile rating")
         self.assertNotIn("maps_3m", player)
 
+    def test_current_profile_summary_is_dated_and_closing_is_not_clutching(self):
+        from server import player_profile_from_html
+        html = """<link rel="canonical" href="https://www.hltv.org/player/7/seven"><h1>Seven</h1>
+        <img alt="Seven" src="https://img-cdn.hltv.org/playerbodyshot/seven.png">
+        <img alt="Other" src="https://img-cdn.hltv.org/playerbodyshot/other.png">
+        <h2>Seven statistics(Past 3 months • 63 maps)</h2>
+        Rating 3.0 1.37 Firepower 98/100 Entrying 62/100 Trading 73/100 Opening 89/100 Closing 29/100 Sniping 0/100 Utility 36/100 Complete statistics for Seven"""
+        profile = player_profile_from_html(html, "7", "https://www.hltv.org/player/7/seven")
+        self.assertEqual(profile["rating_3_0"], 1.37)
+        self.assertEqual(profile["maps_3m"], 63)
+        self.assertEqual(profile["stats_window"], "past_3_months")
+        self.assertEqual(profile["traits"]["sniping"], 0)
+        self.assertEqual(profile["traits"]["closing"], 29)
+        self.assertNotIn("clutching", profile["traits"])
+        self.assertIn("seven.png", profile["portrait_url"])
+        self.assertNotIn("rating_3_0", player_profile_from_html(html.replace("Past 3 months", "Career"), "7", profile["source_url"]))
+        self.assertNotIn("rating_3_0", player_profile_from_html(html.replace("Rating 3.0", "Rating 2.0"), "7", profile["source_url"]))
+
     def test_player_profile_queue_preserves_zero_and_marks_missing_data_unavailable(self):
         from server import due_player_profile, player_profile_from_html, player_profile_payload, save_player_profile, seed_player_profiles
         with tempfile.TemporaryDirectory() as directory:
