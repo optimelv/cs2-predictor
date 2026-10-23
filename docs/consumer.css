@@ -924,3 +924,9 @@ body:is(.team-drawer-open, .player-compare-open, .search-open, .my-desk-open, .v
   .my-desk-hero aside strong { font-size: 24px; }
   .my-desk-hero aside span { font-size: 12px; }
 }
+@media (max-width: 540px) {
+  .my-desk-picks article { grid-template-columns: minmax(0,1fr) minmax(0,1fr); align-items: start; }
+  .my-desk-picks article > b { grid-column: 1 / -1; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 12px; text-align: left; }
+  .my-desk-picks small { white-space: normal; overflow-wrap: anywhere; }
+  .my-desk-picks article > strong { white-space: normal; overflow-wrap: anywhere; }
+}
