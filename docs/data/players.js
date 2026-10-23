@@ -69433,7 +69433,8 @@ window.__STRIKESIGNAL_PLAYERS__ = {
         "maps": 3
       },
       "traits_through_date": null,
-      "signal_index_through_date": null
+      "signal_index_through_date": null,
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/xL80tjlhCn6iqx0Bb-Lnck.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=200&s=ccba1c571e586cbd0f2702f239723a90"
     },
     {
       "player_id": "hltv:12241",
@@ -72594,7 +72595,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "signal_index_through_date": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-23T18:21:58Z",
+  "lineups_updated_at_utc": "2026-10-23T18:30:36Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-23",
   "history_profile_count": 53,

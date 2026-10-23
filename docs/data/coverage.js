@@ -20862,7 +20862,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Saint Sinners"
     },
     {
-      "detail_fetched_at_utc": "2026-10-22T18:25:40Z",
+      "detail_fetched_at_utc": "2026-10-23T18:30:36Z",
       "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "event_url": "https://www.hltv.org/events/archive",
@@ -20873,6 +20873,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
             "hltv_player_id": "23636",
             "nickname": "Substitute",
             "player_id": "hltv:23636",
+            "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/xL80tjlhCn6iqx0Bb-Lnck.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=200&s=ccba1c571e586cbd0f2702f239723a90",
             "source_url": "https://www.hltv.org/player/23636/takanashi",
             "team_name": "Lavked",
             "timeline_entry": {
@@ -26101,7 +26102,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "Inner Circle Academy"
     },
     {
-      "detail_fetched_at_utc": "2026-10-23T18:14:04Z",
+      "detail_fetched_at_utc": "2026-10-23T18:30:18Z",
       "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "event_url": "https://www.hltv.org/events/archive",
@@ -26197,7 +26198,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "mellren"
     },
     {
-      "detail_fetched_at_utc": "2026-10-23T18:21:24Z",
+      "detail_fetched_at_utc": "2026-10-23T18:29:59Z",
       "event_id": "hltv:cct-2026-europe-series-11",
       "event_name": "CCT 2026 Europe Series 11",
       "event_url": "https://www.hltv.org/events/archive",
@@ -26281,8 +26282,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "map_results": [
         {
           "map_name": "Cache",
-          "score1": 6,
-          "score2": 6,
+          "score1": 8,
+          "score2": 13,
           "status": "finished"
         },
         {
@@ -26315,7 +26316,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "veto_text": "Best of 3 (Online)\n\n* Round of 16"
     },
     {
-      "detail_fetched_at_utc": "2026-10-23T18:21:11Z",
+      "detail_fetched_at_utc": "2026-10-23T18:29:35Z",
       "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "event_url": "https://www.hltv.org/events/archive",
@@ -60823,7 +60824,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Nuclear TigeRES"
         },
         {
-          "detail_fetched_at_utc": "2026-10-23T18:21:24Z",
+          "detail_fetched_at_utc": "2026-10-23T18:29:59Z",
           "event_id": "hltv:cct-2026-europe-series-11",
           "event_name": "CCT 2026 Europe Series 11",
           "event_url": "https://www.hltv.org/events/archive",
@@ -60907,8 +60908,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "map_results": [
             {
               "map_name": "Cache",
-              "score1": 6,
-              "score2": 6,
+              "score1": 8,
+              "score2": 13,
               "status": "finished"
             },
             {
@@ -62936,7 +62937,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Inner Circle Academy"
         },
         {
-          "detail_fetched_at_utc": "2026-10-22T18:25:40Z",
+          "detail_fetched_at_utc": "2026-10-23T18:30:36Z",
           "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "event_url": "https://www.hltv.org/events/archive",
@@ -62947,6 +62948,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
                 "hltv_player_id": "23636",
                 "nickname": "Substitute",
                 "player_id": "hltv:23636",
+                "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/xL80tjlhCn6iqx0Bb-Lnck.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=200&s=ccba1c571e586cbd0f2702f239723a90",
                 "source_url": "https://www.hltv.org/player/23636/takanashi",
                 "team_name": "Lavked",
                 "timeline_entry": {
@@ -65913,7 +65915,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "FORZE Reload"
         },
         {
-          "detail_fetched_at_utc": "2026-10-23T18:21:11Z",
+          "detail_fetched_at_utc": "2026-10-23T18:29:35Z",
           "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "event_url": "https://www.hltv.org/events/archive",
@@ -66546,7 +66548,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Black Phoenix"
         },
         {
-          "detail_fetched_at_utc": "2026-10-23T18:14:04Z",
+          "detail_fetched_at_utc": "2026-10-23T18:30:18Z",
           "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "event_url": "https://www.hltv.org/events/archive",
@@ -66667,7 +66669,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-10-23T18:21:58Z",
+  "last_verified_utc": "2026-10-23T18:30:36Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -66692,7 +66694,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-23T18:25:02Z",
+    "checked_at_utc": "2026-10-23T18:32:34Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",

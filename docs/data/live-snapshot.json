@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-10-23T18:21:58Z",
+  "fetched_at_utc": "2026-10-23T18:30:36Z",
   "poll_after_ms": 180000,
   "events": [
     {
@@ -40,7 +40,7 @@
           "team1_name": "Lavked",
           "team2_name": "Spirit Academy",
           "starts_at": "2026-10-21T18:18:57Z",
-          "stage_name": "Completed series",
+          "stage_name": "Scheduled series",
           "series_format": "bo3",
           "status": "finished",
           "score1": 1,
@@ -75,10 +75,11 @@
           "lineups": {
             "team1": [
               {
+                "player_id": "hltv:23636",
                 "hltv_player_id": "23636",
                 "nickname": "Substitute",
-                "player_id": "hltv:23636",
                 "source_url": "https://www.hltv.org/player/23636/takanashi",
+                "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/xL80tjlhCn6iqx0Bb-Lnck.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=200&s=ccba1c571e586cbd0f2702f239723a90",
                 "team_name": "Lavked",
                 "timeline_entry": {
                   "match_id": "hltv:2399491",
@@ -97,9 +98,9 @@
                 }
               },
               {
+                "player_id": "hltv:26937",
                 "hltv_player_id": "26937",
                 "nickname": "Substitute",
-                "player_id": "hltv:26937",
                 "source_url": "https://www.hltv.org/player/26937/frexemp",
                 "team_name": "Lavked",
                 "timeline_entry": {
@@ -119,9 +120,9 @@
                 }
               },
               {
+                "player_id": "hltv:24114",
                 "hltv_player_id": "24114",
                 "nickname": "xm1nd",
-                "player_id": "hltv:24114",
                 "source_url": "https://www.hltv.org/player/24114/xm1nd",
                 "team_name": "Lavked",
                 "timeline_entry": {
@@ -141,9 +142,9 @@
                 }
               },
               {
+                "player_id": "hltv:22450",
                 "hltv_player_id": "22450",
                 "nickname": "azukay",
-                "player_id": "hltv:22450",
                 "source_url": "https://www.hltv.org/player/22450/azukay",
                 "team_name": "Lavked",
                 "timeline_entry": {
@@ -163,9 +164,9 @@
                 }
               },
               {
+                "player_id": "hltv:24818",
                 "hltv_player_id": "24818",
                 "nickname": "k4nfuz",
-                "player_id": "hltv:24818",
                 "source_url": "https://www.hltv.org/player/24818/k4nfuz",
                 "team_name": "Lavked",
                 "timeline_entry": {
@@ -185,9 +186,9 @@
                 }
               },
               {
+                "player_id": "hltv:21369",
                 "hltv_player_id": "21369",
                 "nickname": "1NVISIBLEE",
-                "player_id": "hltv:21369",
                 "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
                 "team_name": "Lavked",
                 "timeline_entry": {
@@ -209,9 +210,9 @@
             ],
             "team2": [
               {
+                "player_id": "hltv:23193",
                 "hltv_player_id": "23193",
                 "nickname": "VILBy",
-                "player_id": "hltv:23193",
                 "source_url": "https://www.hltv.org/player/23193/vilby",
                 "team_name": "Spirit Academy",
                 "timeline_entry": {
@@ -231,9 +232,9 @@
                 }
               },
               {
+                "player_id": "hltv:25390",
                 "hltv_player_id": "25390",
                 "nickname": "Kiryasoo",
-                "player_id": "hltv:25390",
                 "source_url": "https://www.hltv.org/player/25390/kiryasoo",
                 "team_name": "Spirit Academy",
                 "timeline_entry": {
@@ -253,9 +254,9 @@
                 }
               },
               {
+                "player_id": "hltv:25622",
                 "hltv_player_id": "25622",
                 "nickname": "Netrix",
-                "player_id": "hltv:25622",
                 "source_url": "https://www.hltv.org/player/25622/netrix",
                 "team_name": "Spirit Academy",
                 "timeline_entry": {
@@ -275,9 +276,9 @@
                 }
               },
               {
+                "player_id": "hltv:25911",
                 "hltv_player_id": "25911",
                 "nickname": "s1nside",
-                "player_id": "hltv:25911",
                 "source_url": "https://www.hltv.org/player/25911/s1nside",
                 "team_name": "Spirit Academy",
                 "timeline_entry": {
@@ -297,9 +298,9 @@
                 }
               },
               {
+                "player_id": "hltv:26299",
                 "hltv_player_id": "26299",
                 "nickname": "k0gaSs",
-                "player_id": "hltv:26299",
                 "source_url": "https://www.hltv.org/player/26299/k0gass",
                 "team_name": "Spirit Academy",
                 "timeline_entry": {
@@ -322,139 +323,139 @@
           },
           "player_stats": [
             {
-              "adr": 89.2,
-              "deaths": 31,
-              "hltv_player_id": "21369",
-              "kast": 72.5,
-              "kills": 31,
-              "nickname": "1NVISIBLEE",
               "player_id": "hltv:21369",
-              "rating": 1.25,
+              "hltv_player_id": "21369",
+              "nickname": "1NVISIBLEE",
               "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
-              "team_side": 1
+              "team_side": 1,
+              "kills": 31,
+              "deaths": 31,
+              "adr": 89.2,
+              "kast": 72.5,
+              "rating": 1.25
             },
             {
-              "adr": 77.5,
-              "deaths": 62,
-              "hltv_player_id": "24114",
-              "kast": 70.5,
-              "kills": 70,
-              "nickname": "xm1nd",
               "player_id": "hltv:24114",
-              "rating": 1.06,
+              "hltv_player_id": "24114",
+              "nickname": "xm1nd",
               "source_url": "https://www.hltv.org/player/24114/xm1nd",
-              "team_side": 1
-            },
-            {
-              "adr": 81.1,
-              "deaths": 74,
-              "hltv_player_id": "22450",
-              "kast": 64.8,
-              "kills": 65,
-              "nickname": "azukay",
-              "player_id": "hltv:22450",
-              "rating": 1.05,
-              "source_url": "https://www.hltv.org/player/22450/azukay",
-              "team_side": 1
-            },
-            {
-              "adr": 73.8,
-              "deaths": 66,
-              "hltv_player_id": "26937",
-              "kast": 71.6,
-              "kills": 63,
-              "nickname": "FREXEMP",
-              "player_id": "hltv:26937",
-              "rating": 0.99,
-              "source_url": "https://www.hltv.org/player/26937/frexemp",
-              "team_side": 1
-            },
-            {
-              "adr": 63.2,
-              "deaths": 64,
-              "hltv_player_id": "23636",
-              "kast": 62.5,
-              "kills": 47,
-              "nickname": "takanashi",
-              "player_id": "hltv:23636",
-              "rating": 0.9,
-              "source_url": "https://www.hltv.org/player/23636/takanashi",
-              "team_side": 1
-            },
-            {
-              "adr": 59.3,
-              "deaths": 33,
-              "hltv_player_id": "24818",
-              "kast": 66.7,
-              "kills": 25,
-              "nickname": "k4nfuz",
-              "player_id": "hltv:24818",
-              "rating": 0.83,
-              "source_url": "https://www.hltv.org/player/24818/k4nfuz",
-              "team_side": 1
-            },
-            {
-              "adr": 94.2,
-              "deaths": 59,
-              "hltv_player_id": "26299",
-              "kast": 73.9,
-              "kills": 84,
-              "nickname": "k0gaSs",
-              "player_id": "hltv:26299",
-              "rating": 1.64,
-              "source_url": "https://www.hltv.org/player/26299/k0gass",
-              "team_side": 2
-            },
-            {
-              "adr": 84.5,
-              "deaths": 59,
-              "hltv_player_id": "25911",
-              "kast": 76.1,
-              "kills": 75,
-              "nickname": "s1nside",
-              "player_id": "hltv:25911",
-              "rating": 1.2,
-              "source_url": "https://www.hltv.org/player/25911/s1nside",
-              "team_side": 2
-            },
-            {
-              "adr": 72.8,
+              "team_side": 1,
+              "kills": 70,
               "deaths": 62,
-              "hltv_player_id": "25622",
-              "kast": 73.9,
-              "kills": 54,
-              "nickname": "Netrix",
-              "player_id": "hltv:25622",
-              "rating": 1.05,
-              "source_url": "https://www.hltv.org/player/25622/netrix",
-              "team_side": 2
-            },
-            {
-              "adr": 69.9,
-              "deaths": 62,
-              "hltv_player_id": "25390",
+              "adr": 77.5,
               "kast": 70.5,
-              "kills": 63,
-              "nickname": "Kiryasoo",
-              "player_id": "hltv:25390",
-              "rating": 0.92,
-              "source_url": "https://www.hltv.org/player/25390/kiryasoo",
-              "team_side": 2
+              "rating": 1.06
             },
             {
-              "adr": 66.9,
-              "deaths": 60,
-              "hltv_player_id": "23193",
-              "kast": 69.3,
+              "player_id": "hltv:22450",
+              "hltv_player_id": "22450",
+              "nickname": "azukay",
+              "source_url": "https://www.hltv.org/player/22450/azukay",
+              "team_side": 1,
+              "kills": 65,
+              "deaths": 74,
+              "adr": 81.1,
+              "kast": 64.8,
+              "rating": 1.05
+            },
+            {
+              "player_id": "hltv:26937",
+              "hltv_player_id": "26937",
+              "nickname": "FREXEMP",
+              "source_url": "https://www.hltv.org/player/26937/frexemp",
+              "team_side": 1,
+              "kills": 63,
+              "deaths": 66,
+              "adr": 73.8,
+              "kast": 71.6,
+              "rating": 0.99
+            },
+            {
+              "player_id": "hltv:23636",
+              "hltv_player_id": "23636",
+              "nickname": "takanashi",
+              "source_url": "https://www.hltv.org/player/23636/takanashi",
+              "team_side": 1,
               "kills": 47,
-              "nickname": "VILBy",
+              "deaths": 64,
+              "adr": 63.2,
+              "kast": 62.5,
+              "rating": 0.9
+            },
+            {
+              "player_id": "hltv:24818",
+              "hltv_player_id": "24818",
+              "nickname": "k4nfuz",
+              "source_url": "https://www.hltv.org/player/24818/k4nfuz",
+              "team_side": 1,
+              "kills": 25,
+              "deaths": 33,
+              "adr": 59.3,
+              "kast": 66.7,
+              "rating": 0.83
+            },
+            {
+              "player_id": "hltv:26299",
+              "hltv_player_id": "26299",
+              "nickname": "k0gaSs",
+              "source_url": "https://www.hltv.org/player/26299/k0gass",
+              "team_side": 2,
+              "kills": 84,
+              "deaths": 59,
+              "adr": 94.2,
+              "kast": 73.9,
+              "rating": 1.64
+            },
+            {
+              "player_id": "hltv:25911",
+              "hltv_player_id": "25911",
+              "nickname": "s1nside",
+              "source_url": "https://www.hltv.org/player/25911/s1nside",
+              "team_side": 2,
+              "kills": 75,
+              "deaths": 59,
+              "adr": 84.5,
+              "kast": 76.1,
+              "rating": 1.2
+            },
+            {
+              "player_id": "hltv:25622",
+              "hltv_player_id": "25622",
+              "nickname": "Netrix",
+              "source_url": "https://www.hltv.org/player/25622/netrix",
+              "team_side": 2,
+              "kills": 54,
+              "deaths": 62,
+              "adr": 72.8,
+              "kast": 73.9,
+              "rating": 1.05
+            },
+            {
+              "player_id": "hltv:25390",
+              "hltv_player_id": "25390",
+              "nickname": "Kiryasoo",
+              "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+              "team_side": 2,
+              "kills": 63,
+              "deaths": 62,
+              "adr": 69.9,
+              "kast": 70.5,
+              "rating": 0.92
+            },
+            {
               "player_id": "hltv:23193",
-              "rating": 0.89,
+              "hltv_player_id": "23193",
+              "nickname": "VILBy",
               "source_url": "https://www.hltv.org/player/23193/vilby",
-              "team_side": 2
+              "team_side": 2,
+              "kills": 47,
+              "deaths": 60,
+              "adr": 66.9,
+              "kast": 69.3,
+              "rating": 0.89
             }
           ],
-          "detail_fetched_at_utc": "2026-10-22T18:25:40Z"
+          "detail_fetched_at_utc": "2026-10-23T18:30:36Z"
         },
         {
           "match_id": "hltv:2399493",
@@ -2825,7 +2826,7 @@
           "team1_name": "Walczaki",
           "team2_name": "mellren",
           "starts_at": "2026-10-23T14:17:28Z",
-          "stage_name": "Completed series",
+          "stage_name": "Scheduled series",
           "series_format": "bo3",
           "status": "finished",
           "score1": 0,
@@ -2836,80 +2837,80 @@
           "lineups": {
             "team1": [
               {
+                "player_id": "hltv:21265",
                 "hltv_player_id": "21265",
                 "nickname": "sNx",
-                "player_id": "hltv:21265",
                 "source_url": "https://www.hltv.org/player/21265/snx",
                 "team_name": "Walczaki"
               },
               {
+                "player_id": "hltv:20245",
                 "hltv_player_id": "20245",
                 "nickname": "SaMey",
-                "player_id": "hltv:20245",
                 "source_url": "https://www.hltv.org/player/20245/samey",
                 "team_name": "Walczaki"
               },
               {
+                "player_id": "hltv:21263",
                 "hltv_player_id": "21263",
                 "nickname": "olimp",
-                "player_id": "hltv:21263",
                 "source_url": "https://www.hltv.org/player/21263/olimp",
                 "team_name": "Walczaki"
               },
               {
+                "player_id": "hltv:20958",
                 "hltv_player_id": "20958",
                 "nickname": "bajmi",
-                "player_id": "hltv:20958",
                 "source_url": "https://www.hltv.org/player/20958/bajmi",
                 "team_name": "Walczaki"
               },
               {
+                "player_id": "hltv:15203",
                 "hltv_player_id": "15203",
                 "nickname": "reiko",
-                "player_id": "hltv:15203",
                 "source_url": "https://www.hltv.org/player/15203/reiko",
                 "team_name": "Walczaki"
               }
             ],
             "team2": [
               {
+                "player_id": "hltv:13980",
                 "hltv_player_id": "13980",
                 "nickname": "lollipop21k",
-                "player_id": "hltv:13980",
                 "source_url": "https://www.hltv.org/player/13980/lollipop21k",
                 "team_name": "mellren"
               },
               {
+                "player_id": "hltv:25495",
                 "hltv_player_id": "25495",
                 "nickname": "menddel",
-                "player_id": "hltv:25495",
                 "source_url": "https://www.hltv.org/player/25495/menddel",
                 "team_name": "mellren"
               },
               {
+                "player_id": "hltv:25735",
                 "hltv_player_id": "25735",
                 "nickname": "mdl",
-                "player_id": "hltv:25735",
                 "source_url": "https://www.hltv.org/player/25735/mdl",
                 "team_name": "mellren"
               },
               {
+                "player_id": "hltv:26058",
                 "hltv_player_id": "26058",
                 "nickname": "shootic",
-                "player_id": "hltv:26058",
                 "source_url": "https://www.hltv.org/player/26058/shootic",
                 "team_name": "mellren"
               },
               {
+                "player_id": "hltv:26060",
                 "hltv_player_id": "26060",
                 "nickname": "Maksilvl",
-                "player_id": "hltv:26060",
                 "source_url": "https://www.hltv.org/player/26060/maksilvl",
                 "team_name": "mellren"
               }
             ]
           },
-          "detail_fetched_at_utc": "2026-10-23T18:14:04Z"
+          "detail_fetched_at_utc": "2026-10-23T18:30:18Z"
         },
         {
           "match_id": "hltv:2399500",
@@ -3149,7 +3150,7 @@
               "rating": 1.03
             }
           ],
-          "detail_fetched_at_utc": "2026-10-23T18:21:11Z"
+          "detail_fetched_at_utc": "2026-10-23T18:29:35Z"
         }
       ],
       "format": {
@@ -5162,7 +5163,7 @@
           "team1_name": "ex-Zero Tenacity",
           "team2_name": "ex-RUSTEC",
           "starts_at": "2026-10-23T08:00:15Z",
-          "stage_name": "Scheduled series",
+          "stage_name": "Completed series",
           "series_format": "bo3",
           "status": "finished",
           "score1": 1,
@@ -5173,74 +5174,74 @@
           "lineups": {
             "team1": [
               {
-                "player_id": "hltv:20253",
                 "hltv_player_id": "20253",
                 "nickname": "Dragon",
+                "player_id": "hltv:20253",
                 "source_url": "https://www.hltv.org/player/20253/dragon",
                 "team_name": "ex-Zero Tenacity"
               },
               {
-                "player_id": "hltv:20252",
                 "hltv_player_id": "20252",
                 "nickname": "Kind0",
+                "player_id": "hltv:20252",
                 "source_url": "https://www.hltv.org/player/20252/kind0",
                 "team_name": "ex-Zero Tenacity"
               },
               {
-                "player_id": "hltv:20813",
                 "hltv_player_id": "20813",
                 "nickname": "VLDN",
+                "player_id": "hltv:20813",
                 "source_url": "https://www.hltv.org/player/20813/vldn",
                 "team_name": "ex-Zero Tenacity"
               },
               {
-                "player_id": "hltv:21783",
                 "hltv_player_id": "21783",
                 "nickname": "brutmonster",
+                "player_id": "hltv:21783",
                 "source_url": "https://www.hltv.org/player/21783/brutmonster",
                 "team_name": "ex-Zero Tenacity"
               },
               {
-                "player_id": "hltv:21302",
                 "hltv_player_id": "21302",
                 "nickname": "Cjoffo",
+                "player_id": "hltv:21302",
                 "source_url": "https://www.hltv.org/player/21302/cjoffo",
                 "team_name": "ex-Zero Tenacity"
               }
             ],
             "team2": [
               {
-                "player_id": "hltv:17011",
                 "hltv_player_id": "17011",
                 "nickname": "shalfey",
+                "player_id": "hltv:17011",
                 "source_url": "https://www.hltv.org/player/17011/shalfey",
                 "team_name": "ex-RUSTEC"
               },
               {
-                "player_id": "hltv:19297",
                 "hltv_player_id": "19297",
                 "nickname": "Brilliance",
+                "player_id": "hltv:19297",
                 "source_url": "https://www.hltv.org/player/19297/brilliance",
                 "team_name": "ex-RUSTEC"
               },
               {
-                "player_id": "hltv:22803",
                 "hltv_player_id": "22803",
                 "nickname": "bl1x1",
+                "player_id": "hltv:22803",
                 "source_url": "https://www.hltv.org/player/22803/bl1x1",
                 "team_name": "ex-RUSTEC"
               },
               {
-                "player_id": "hltv:24190",
                 "hltv_player_id": "24190",
                 "nickname": "youka",
+                "player_id": "hltv:24190",
                 "source_url": "https://www.hltv.org/player/24190/youka",
                 "team_name": "ex-RUSTEC"
               },
               {
-                "player_id": "hltv:24485",
                 "hltv_player_id": "24485",
                 "nickname": "yiksrezo",
+                "player_id": "hltv:24485",
                 "source_url": "https://www.hltv.org/player/24485/yiksrezo",
                 "team_name": "ex-RUSTEC"
               }
@@ -6056,8 +6057,8 @@
           "map_results": [
             {
               "map_name": "Cache",
-              "score1": 6,
-              "score2": 6,
+              "score1": 8,
+              "score2": 13,
               "status": "finished"
             },
             {
@@ -6150,7 +6151,7 @@
               }
             ]
           },
-          "detail_fetched_at_utc": "2026-10-23T18:21:24Z"
+          "detail_fetched_at_utc": "2026-10-23T18:29:59Z"
         }
       ],
       "format": {
@@ -6588,7 +6589,7 @@
       "team1_name": "Lavked",
       "team2_name": "Spirit Academy",
       "starts_at": "2026-10-21T18:18:57Z",
-      "stage_name": "Completed series",
+      "stage_name": "Scheduled series",
       "series_format": "bo3",
       "status": "finished",
       "score1": 1,
@@ -6623,10 +6624,11 @@
       "lineups": {
         "team1": [
           {
+            "player_id": "hltv:23636",
             "hltv_player_id": "23636",
             "nickname": "Substitute",
-            "player_id": "hltv:23636",
             "source_url": "https://www.hltv.org/player/23636/takanashi",
+            "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/xL80tjlhCn6iqx0Bb-Lnck.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=200&s=ccba1c571e586cbd0f2702f239723a90",
             "team_name": "Lavked",
             "timeline_entry": {
               "match_id": "hltv:2399491",
@@ -6645,9 +6647,9 @@
             }
           },
           {
+            "player_id": "hltv:26937",
             "hltv_player_id": "26937",
             "nickname": "Substitute",
-            "player_id": "hltv:26937",
             "source_url": "https://www.hltv.org/player/26937/frexemp",
             "team_name": "Lavked",
             "timeline_entry": {
@@ -6667,9 +6669,9 @@
             }
           },
           {
+            "player_id": "hltv:24114",
             "hltv_player_id": "24114",
             "nickname": "xm1nd",
-            "player_id": "hltv:24114",
             "source_url": "https://www.hltv.org/player/24114/xm1nd",
             "team_name": "Lavked",
             "timeline_entry": {
@@ -6689,9 +6691,9 @@
             }
           },
           {
+            "player_id": "hltv:22450",
             "hltv_player_id": "22450",
             "nickname": "azukay",
-            "player_id": "hltv:22450",
             "source_url": "https://www.hltv.org/player/22450/azukay",
             "team_name": "Lavked",
             "timeline_entry": {
@@ -6711,9 +6713,9 @@
             }
           },
           {
+            "player_id": "hltv:24818",
             "hltv_player_id": "24818",
             "nickname": "k4nfuz",
-            "player_id": "hltv:24818",
             "source_url": "https://www.hltv.org/player/24818/k4nfuz",
             "team_name": "Lavked",
             "timeline_entry": {
@@ -6733,9 +6735,9 @@
             }
           },
           {
+            "player_id": "hltv:21369",
             "hltv_player_id": "21369",
             "nickname": "1NVISIBLEE",
-            "player_id": "hltv:21369",
             "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
             "team_name": "Lavked",
             "timeline_entry": {
@@ -6757,9 +6759,9 @@
         ],
         "team2": [
           {
+            "player_id": "hltv:23193",
             "hltv_player_id": "23193",
             "nickname": "VILBy",
-            "player_id": "hltv:23193",
             "source_url": "https://www.hltv.org/player/23193/vilby",
             "team_name": "Spirit Academy",
             "timeline_entry": {
@@ -6779,9 +6781,9 @@
             }
           },
           {
+            "player_id": "hltv:25390",
             "hltv_player_id": "25390",
             "nickname": "Kiryasoo",
-            "player_id": "hltv:25390",
             "source_url": "https://www.hltv.org/player/25390/kiryasoo",
             "team_name": "Spirit Academy",
             "timeline_entry": {
@@ -6801,9 +6803,9 @@
             }
           },
           {
+            "player_id": "hltv:25622",
             "hltv_player_id": "25622",
             "nickname": "Netrix",
-            "player_id": "hltv:25622",
             "source_url": "https://www.hltv.org/player/25622/netrix",
             "team_name": "Spirit Academy",
             "timeline_entry": {
@@ -6823,9 +6825,9 @@
             }
           },
           {
+            "player_id": "hltv:25911",
             "hltv_player_id": "25911",
             "nickname": "s1nside",
-            "player_id": "hltv:25911",
             "source_url": "https://www.hltv.org/player/25911/s1nside",
             "team_name": "Spirit Academy",
             "timeline_entry": {
@@ -6845,9 +6847,9 @@
             }
           },
           {
+            "player_id": "hltv:26299",
             "hltv_player_id": "26299",
             "nickname": "k0gaSs",
-            "player_id": "hltv:26299",
             "source_url": "https://www.hltv.org/player/26299/k0gass",
             "team_name": "Spirit Academy",
             "timeline_entry": {
@@ -6870,139 +6872,139 @@
       },
       "player_stats": [
         {
-          "adr": 89.2,
-          "deaths": 31,
-          "hltv_player_id": "21369",
-          "kast": 72.5,
-          "kills": 31,
-          "nickname": "1NVISIBLEE",
           "player_id": "hltv:21369",
-          "rating": 1.25,
+          "hltv_player_id": "21369",
+          "nickname": "1NVISIBLEE",
           "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
-          "team_side": 1
+          "team_side": 1,
+          "kills": 31,
+          "deaths": 31,
+          "adr": 89.2,
+          "kast": 72.5,
+          "rating": 1.25
         },
         {
-          "adr": 77.5,
-          "deaths": 62,
-          "hltv_player_id": "24114",
-          "kast": 70.5,
-          "kills": 70,
-          "nickname": "xm1nd",
           "player_id": "hltv:24114",
-          "rating": 1.06,
+          "hltv_player_id": "24114",
+          "nickname": "xm1nd",
           "source_url": "https://www.hltv.org/player/24114/xm1nd",
-          "team_side": 1
-        },
-        {
-          "adr": 81.1,
-          "deaths": 74,
-          "hltv_player_id": "22450",
-          "kast": 64.8,
-          "kills": 65,
-          "nickname": "azukay",
-          "player_id": "hltv:22450",
-          "rating": 1.05,
-          "source_url": "https://www.hltv.org/player/22450/azukay",
-          "team_side": 1
-        },
-        {
-          "adr": 73.8,
-          "deaths": 66,
-          "hltv_player_id": "26937",
-          "kast": 71.6,
-          "kills": 63,
-          "nickname": "FREXEMP",
-          "player_id": "hltv:26937",
-          "rating": 0.99,
-          "source_url": "https://www.hltv.org/player/26937/frexemp",
-          "team_side": 1
-        },
-        {
-          "adr": 63.2,
-          "deaths": 64,
-          "hltv_player_id": "23636",
-          "kast": 62.5,
-          "kills": 47,
-          "nickname": "takanashi",
-          "player_id": "hltv:23636",
-          "rating": 0.9,
-          "source_url": "https://www.hltv.org/player/23636/takanashi",
-          "team_side": 1
-        },
-        {
-          "adr": 59.3,
-          "deaths": 33,
-          "hltv_player_id": "24818",
-          "kast": 66.7,
-          "kills": 25,
-          "nickname": "k4nfuz",
-          "player_id": "hltv:24818",
-          "rating": 0.83,
-          "source_url": "https://www.hltv.org/player/24818/k4nfuz",
-          "team_side": 1
-        },
-        {
-          "adr": 94.2,
-          "deaths": 59,
-          "hltv_player_id": "26299",
-          "kast": 73.9,
-          "kills": 84,
-          "nickname": "k0gaSs",
-          "player_id": "hltv:26299",
-          "rating": 1.64,
-          "source_url": "https://www.hltv.org/player/26299/k0gass",
-          "team_side": 2
-        },
-        {
-          "adr": 84.5,
-          "deaths": 59,
-          "hltv_player_id": "25911",
-          "kast": 76.1,
-          "kills": 75,
-          "nickname": "s1nside",
-          "player_id": "hltv:25911",
-          "rating": 1.2,
-          "source_url": "https://www.hltv.org/player/25911/s1nside",
-          "team_side": 2
-        },
-        {
-          "adr": 72.8,
+          "team_side": 1,
+          "kills": 70,
           "deaths": 62,
-          "hltv_player_id": "25622",
-          "kast": 73.9,
-          "kills": 54,
-          "nickname": "Netrix",
-          "player_id": "hltv:25622",
-          "rating": 1.05,
-          "source_url": "https://www.hltv.org/player/25622/netrix",
-          "team_side": 2
-        },
-        {
-          "adr": 69.9,
-          "deaths": 62,
-          "hltv_player_id": "25390",
+          "adr": 77.5,
           "kast": 70.5,
-          "kills": 63,
-          "nickname": "Kiryasoo",
-          "player_id": "hltv:25390",
-          "rating": 0.92,
-          "source_url": "https://www.hltv.org/player/25390/kiryasoo",
-          "team_side": 2
+          "rating": 1.06
         },
         {
-          "adr": 66.9,
-          "deaths": 60,
-          "hltv_player_id": "23193",
-          "kast": 69.3,
+          "player_id": "hltv:22450",
+          "hltv_player_id": "22450",
+          "nickname": "azukay",
+          "source_url": "https://www.hltv.org/player/22450/azukay",
+          "team_side": 1,
+          "kills": 65,
+          "deaths": 74,
+          "adr": 81.1,
+          "kast": 64.8,
+          "rating": 1.05
+        },
+        {
+          "player_id": "hltv:26937",
+          "hltv_player_id": "26937",
+          "nickname": "FREXEMP",
+          "source_url": "https://www.hltv.org/player/26937/frexemp",
+          "team_side": 1,
+          "kills": 63,
+          "deaths": 66,
+          "adr": 73.8,
+          "kast": 71.6,
+          "rating": 0.99
+        },
+        {
+          "player_id": "hltv:23636",
+          "hltv_player_id": "23636",
+          "nickname": "takanashi",
+          "source_url": "https://www.hltv.org/player/23636/takanashi",
+          "team_side": 1,
           "kills": 47,
-          "nickname": "VILBy",
+          "deaths": 64,
+          "adr": 63.2,
+          "kast": 62.5,
+          "rating": 0.9
+        },
+        {
+          "player_id": "hltv:24818",
+          "hltv_player_id": "24818",
+          "nickname": "k4nfuz",
+          "source_url": "https://www.hltv.org/player/24818/k4nfuz",
+          "team_side": 1,
+          "kills": 25,
+          "deaths": 33,
+          "adr": 59.3,
+          "kast": 66.7,
+          "rating": 0.83
+        },
+        {
+          "player_id": "hltv:26299",
+          "hltv_player_id": "26299",
+          "nickname": "k0gaSs",
+          "source_url": "https://www.hltv.org/player/26299/k0gass",
+          "team_side": 2,
+          "kills": 84,
+          "deaths": 59,
+          "adr": 94.2,
+          "kast": 73.9,
+          "rating": 1.64
+        },
+        {
+          "player_id": "hltv:25911",
+          "hltv_player_id": "25911",
+          "nickname": "s1nside",
+          "source_url": "https://www.hltv.org/player/25911/s1nside",
+          "team_side": 2,
+          "kills": 75,
+          "deaths": 59,
+          "adr": 84.5,
+          "kast": 76.1,
+          "rating": 1.2
+        },
+        {
+          "player_id": "hltv:25622",
+          "hltv_player_id": "25622",
+          "nickname": "Netrix",
+          "source_url": "https://www.hltv.org/player/25622/netrix",
+          "team_side": 2,
+          "kills": 54,
+          "deaths": 62,
+          "adr": 72.8,
+          "kast": 73.9,
+          "rating": 1.05
+        },
+        {
+          "player_id": "hltv:25390",
+          "hltv_player_id": "25390",
+          "nickname": "Kiryasoo",
+          "source_url": "https://www.hltv.org/player/25390/kiryasoo",
+          "team_side": 2,
+          "kills": 63,
+          "deaths": 62,
+          "adr": 69.9,
+          "kast": 70.5,
+          "rating": 0.92
+        },
+        {
           "player_id": "hltv:23193",
-          "rating": 0.89,
+          "hltv_player_id": "23193",
+          "nickname": "VILBy",
           "source_url": "https://www.hltv.org/player/23193/vilby",
-          "team_side": 2
+          "team_side": 2,
+          "kills": 47,
+          "deaths": 60,
+          "adr": 66.9,
+          "kast": 69.3,
+          "rating": 0.89
         }
       ],
-      "detail_fetched_at_utc": "2026-10-22T18:25:40Z"
+      "detail_fetched_at_utc": "2026-10-23T18:30:36Z"
     },
     {
       "match_id": "hltv:2399326",
@@ -10552,7 +10554,7 @@
       "team1_name": "ex-Zero Tenacity",
       "team2_name": "ex-RUSTEC",
       "starts_at": "2026-10-23T08:00:15Z",
-      "stage_name": "Scheduled series",
+      "stage_name": "Completed series",
       "series_format": "bo3",
       "status": "finished",
       "score1": 1,
@@ -10563,74 +10565,74 @@
       "lineups": {
         "team1": [
           {
-            "player_id": "hltv:20253",
             "hltv_player_id": "20253",
             "nickname": "Dragon",
+            "player_id": "hltv:20253",
             "source_url": "https://www.hltv.org/player/20253/dragon",
             "team_name": "ex-Zero Tenacity"
           },
           {
-            "player_id": "hltv:20252",
             "hltv_player_id": "20252",
             "nickname": "Kind0",
+            "player_id": "hltv:20252",
             "source_url": "https://www.hltv.org/player/20252/kind0",
             "team_name": "ex-Zero Tenacity"
           },
           {
-            "player_id": "hltv:20813",
             "hltv_player_id": "20813",
             "nickname": "VLDN",
+            "player_id": "hltv:20813",
             "source_url": "https://www.hltv.org/player/20813/vldn",
             "team_name": "ex-Zero Tenacity"
           },
           {
-            "player_id": "hltv:21783",
             "hltv_player_id": "21783",
             "nickname": "brutmonster",
+            "player_id": "hltv:21783",
             "source_url": "https://www.hltv.org/player/21783/brutmonster",
             "team_name": "ex-Zero Tenacity"
           },
           {
-            "player_id": "hltv:21302",
             "hltv_player_id": "21302",
             "nickname": "Cjoffo",
+            "player_id": "hltv:21302",
             "source_url": "https://www.hltv.org/player/21302/cjoffo",
             "team_name": "ex-Zero Tenacity"
           }
         ],
         "team2": [
           {
-            "player_id": "hltv:17011",
             "hltv_player_id": "17011",
             "nickname": "shalfey",
+            "player_id": "hltv:17011",
             "source_url": "https://www.hltv.org/player/17011/shalfey",
             "team_name": "ex-RUSTEC"
           },
           {
-            "player_id": "hltv:19297",
             "hltv_player_id": "19297",
             "nickname": "Brilliance",
+            "player_id": "hltv:19297",
             "source_url": "https://www.hltv.org/player/19297/brilliance",
             "team_name": "ex-RUSTEC"
           },
           {
-            "player_id": "hltv:22803",
             "hltv_player_id": "22803",
             "nickname": "bl1x1",
+            "player_id": "hltv:22803",
             "source_url": "https://www.hltv.org/player/22803/bl1x1",
             "team_name": "ex-RUSTEC"
           },
           {
-            "player_id": "hltv:24190",
             "hltv_player_id": "24190",
             "nickname": "youka",
+            "player_id": "hltv:24190",
             "source_url": "https://www.hltv.org/player/24190/youka",
             "team_name": "ex-RUSTEC"
           },
           {
-            "player_id": "hltv:24485",
             "hltv_player_id": "24485",
             "nickname": "yiksrezo",
+            "player_id": "hltv:24485",
             "source_url": "https://www.hltv.org/player/24485/yiksrezo",
             "team_name": "ex-RUSTEC"
           }
@@ -11828,7 +11830,7 @@
       "team1_name": "Walczaki",
       "team2_name": "mellren",
       "starts_at": "2026-10-23T14:17:28Z",
-      "stage_name": "Completed series",
+      "stage_name": "Scheduled series",
       "series_format": "bo3",
       "status": "finished",
       "score1": 0,
@@ -11839,80 +11841,80 @@
       "lineups": {
         "team1": [
           {
+            "player_id": "hltv:21265",
             "hltv_player_id": "21265",
             "nickname": "sNx",
-            "player_id": "hltv:21265",
             "source_url": "https://www.hltv.org/player/21265/snx",
             "team_name": "Walczaki"
           },
           {
+            "player_id": "hltv:20245",
             "hltv_player_id": "20245",
             "nickname": "SaMey",
-            "player_id": "hltv:20245",
             "source_url": "https://www.hltv.org/player/20245/samey",
             "team_name": "Walczaki"
           },
           {
+            "player_id": "hltv:21263",
             "hltv_player_id": "21263",
             "nickname": "olimp",
-            "player_id": "hltv:21263",
             "source_url": "https://www.hltv.org/player/21263/olimp",
             "team_name": "Walczaki"
           },
           {
+            "player_id": "hltv:20958",
             "hltv_player_id": "20958",
             "nickname": "bajmi",
-            "player_id": "hltv:20958",
             "source_url": "https://www.hltv.org/player/20958/bajmi",
             "team_name": "Walczaki"
           },
           {
+            "player_id": "hltv:15203",
             "hltv_player_id": "15203",
             "nickname": "reiko",
-            "player_id": "hltv:15203",
             "source_url": "https://www.hltv.org/player/15203/reiko",
             "team_name": "Walczaki"
           }
         ],
         "team2": [
           {
+            "player_id": "hltv:13980",
             "hltv_player_id": "13980",
             "nickname": "lollipop21k",
-            "player_id": "hltv:13980",
             "source_url": "https://www.hltv.org/player/13980/lollipop21k",
             "team_name": "mellren"
           },
           {
+            "player_id": "hltv:25495",
             "hltv_player_id": "25495",
             "nickname": "menddel",
-            "player_id": "hltv:25495",
             "source_url": "https://www.hltv.org/player/25495/menddel",
             "team_name": "mellren"
           },
           {
+            "player_id": "hltv:25735",
             "hltv_player_id": "25735",
             "nickname": "mdl",
-            "player_id": "hltv:25735",
             "source_url": "https://www.hltv.org/player/25735/mdl",
             "team_name": "mellren"
           },
           {
+            "player_id": "hltv:26058",
             "hltv_player_id": "26058",
             "nickname": "shootic",
-            "player_id": "hltv:26058",
             "source_url": "https://www.hltv.org/player/26058/shootic",
             "team_name": "mellren"
           },
           {
+            "player_id": "hltv:26060",
             "hltv_player_id": "26060",
             "nickname": "Maksilvl",
-            "player_id": "hltv:26060",
             "source_url": "https://www.hltv.org/player/26060/maksilvl",
             "team_name": "mellren"
           }
         ]
       },
-      "detail_fetched_at_utc": "2026-10-23T18:14:04Z"
+      "detail_fetched_at_utc": "2026-10-23T18:30:18Z"
     },
     {
       "match_id": "hltv:2399333",
@@ -12865,7 +12867,7 @@
           "rating": 1.03
         }
       ],
-      "detail_fetched_at_utc": "2026-10-23T18:21:11Z"
+      "detail_fetched_at_utc": "2026-10-23T18:29:35Z"
     },
     {
       "match_id": "hltv:2399334",
@@ -12889,8 +12891,8 @@
       "map_results": [
         {
           "map_name": "Cache",
-          "score1": 6,
-          "score2": 6,
+          "score1": 8,
+          "score2": 13,
           "status": "finished"
         },
         {
@@ -12983,15 +12985,16 @@
           }
         ]
       },
-      "detail_fetched_at_utc": "2026-10-23T18:21:24Z"
+      "detail_fetched_at_utc": "2026-10-23T18:29:59Z"
     }
   ],
   "players": [
     {
+      "player_id": "hltv:23636",
       "hltv_player_id": "23636",
       "nickname": "Substitute",
-      "player_id": "hltv:23636",
       "source_url": "https://www.hltv.org/player/23636/takanashi",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/xL80tjlhCn6iqx0Bb-Lnck.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C4%2C467%2C467&w=200&s=ccba1c571e586cbd0f2702f239723a90",
       "team_name": "Lavked",
       "form_timeline": [
         {
@@ -13057,9 +13060,9 @@
       }
     },
     {
+      "player_id": "hltv:26937",
       "hltv_player_id": "26937",
       "nickname": "Substitute",
-      "player_id": "hltv:26937",
       "source_url": "https://www.hltv.org/player/26937/frexemp",
       "team_name": "Lavked",
       "form_timeline": [
@@ -13111,9 +13114,9 @@
       }
     },
     {
+      "player_id": "hltv:24114",
       "hltv_player_id": "24114",
       "nickname": "xm1nd",
-      "player_id": "hltv:24114",
       "source_url": "https://www.hltv.org/player/24114/xm1nd",
       "team_name": "Lavked",
       "form_timeline": [
@@ -13180,9 +13183,9 @@
       }
     },
     {
+      "player_id": "hltv:22450",
       "hltv_player_id": "22450",
       "nickname": "azukay",
-      "player_id": "hltv:22450",
       "source_url": "https://www.hltv.org/player/22450/azukay",
       "team_name": "Lavked",
       "form_timeline": [
@@ -13249,9 +13252,9 @@
       }
     },
     {
+      "player_id": "hltv:24818",
       "hltv_player_id": "24818",
       "nickname": "k4nfuz",
-      "player_id": "hltv:24818",
       "source_url": "https://www.hltv.org/player/24818/k4nfuz",
       "team_name": "Lavked",
       "form_timeline": [
@@ -13318,9 +13321,9 @@
       }
     },
     {
+      "player_id": "hltv:21369",
       "hltv_player_id": "21369",
       "nickname": "1NVISIBLEE",
-      "player_id": "hltv:21369",
       "source_url": "https://www.hltv.org/player/21369/1nvisiblee",
       "team_name": "Lavked",
       "form_timeline": [
@@ -13372,9 +13375,9 @@
       }
     },
     {
+      "player_id": "hltv:23193",
       "hltv_player_id": "23193",
       "nickname": "VILBy",
-      "player_id": "hltv:23193",
       "source_url": "https://www.hltv.org/player/23193/vilby",
       "team_name": "Spirit Academy",
       "form_timeline": [
@@ -13441,9 +13444,9 @@
       }
     },
     {
+      "player_id": "hltv:25390",
       "hltv_player_id": "25390",
       "nickname": "Kiryasoo",
-      "player_id": "hltv:25390",
       "source_url": "https://www.hltv.org/player/25390/kiryasoo",
       "team_name": "Spirit Academy",
       "form_timeline": [
@@ -13510,9 +13513,9 @@
       }
     },
     {
+      "player_id": "hltv:25622",
       "hltv_player_id": "25622",
       "nickname": "Netrix",
-      "player_id": "hltv:25622",
       "source_url": "https://www.hltv.org/player/25622/netrix",
       "team_name": "Spirit Academy",
       "form_timeline": [
@@ -13579,9 +13582,9 @@
       }
     },
     {
+      "player_id": "hltv:25911",
       "hltv_player_id": "25911",
       "nickname": "s1nside",
-      "player_id": "hltv:25911",
       "source_url": "https://www.hltv.org/player/25911/s1nside",
       "team_name": "Spirit Academy",
       "form_timeline": [
@@ -13648,9 +13651,9 @@
       }
     },
     {
+      "player_id": "hltv:26299",
       "hltv_player_id": "26299",
       "nickname": "k0gaSs",
-      "player_id": "hltv:26299",
       "source_url": "https://www.hltv.org/player/26299/k0gass",
       "team_name": "Spirit Academy",
       "form_timeline": [
@@ -17263,65 +17266,65 @@
       }
     },
     {
-      "player_id": "hltv:20253",
       "hltv_player_id": "20253",
       "nickname": "Dragon",
+      "player_id": "hltv:20253",
       "source_url": "https://www.hltv.org/player/20253/dragon",
       "team_name": "ex-Zero Tenacity",
       "form_timeline": []
     },
     {
-      "player_id": "hltv:20252",
       "hltv_player_id": "20252",
       "nickname": "Kind0",
+      "player_id": "hltv:20252",
       "source_url": "https://www.hltv.org/player/20252/kind0",
       "team_name": "ex-Zero Tenacity",
       "form_timeline": []
     },
     {
-      "player_id": "hltv:20813",
       "hltv_player_id": "20813",
       "nickname": "VLDN",
+      "player_id": "hltv:20813",
       "source_url": "https://www.hltv.org/player/20813/vldn",
       "team_name": "ex-Zero Tenacity",
       "form_timeline": []
     },
     {
-      "player_id": "hltv:21783",
       "hltv_player_id": "21783",
       "nickname": "brutmonster",
+      "player_id": "hltv:21783",
       "source_url": "https://www.hltv.org/player/21783/brutmonster",
       "team_name": "ex-Zero Tenacity",
       "form_timeline": []
     },
     {
-      "player_id": "hltv:21302",
       "hltv_player_id": "21302",
       "nickname": "Cjoffo",
+      "player_id": "hltv:21302",
       "source_url": "https://www.hltv.org/player/21302/cjoffo",
       "team_name": "ex-Zero Tenacity",
       "form_timeline": []
     },
     {
-      "player_id": "hltv:17011",
       "hltv_player_id": "17011",
       "nickname": "shalfey",
+      "player_id": "hltv:17011",
       "source_url": "https://www.hltv.org/player/17011/shalfey",
       "team_name": "ex-RUSTEC",
       "form_timeline": []
     },
     {
-      "player_id": "hltv:19297",
       "hltv_player_id": "19297",
       "nickname": "Brilliance",
+      "player_id": "hltv:19297",
       "source_url": "https://www.hltv.org/player/19297/brilliance",
       "team_name": "ex-RUSTEC",
       "form_timeline": []
     },
     {
-      "player_id": "hltv:24190",
       "hltv_player_id": "24190",
       "nickname": "youka",
+      "player_id": "hltv:24190",
       "source_url": "https://www.hltv.org/player/24190/youka",
       "team_name": "ex-RUSTEC",
       "form_timeline": []
@@ -17951,41 +17954,41 @@
       }
     },
     {
+      "player_id": "hltv:21265",
       "hltv_player_id": "21265",
       "nickname": "sNx",
-      "player_id": "hltv:21265",
       "source_url": "https://www.hltv.org/player/21265/snx",
       "team_name": "Walczaki",
       "form_timeline": []
     },
     {
+      "player_id": "hltv:20245",
       "hltv_player_id": "20245",
       "nickname": "SaMey",
-      "player_id": "hltv:20245",
       "source_url": "https://www.hltv.org/player/20245/samey",
       "team_name": "Walczaki",
       "form_timeline": []
     },
     {
+      "player_id": "hltv:21263",
       "hltv_player_id": "21263",
       "nickname": "olimp",
-      "player_id": "hltv:21263",
       "source_url": "https://www.hltv.org/player/21263/olimp",
       "team_name": "Walczaki",
       "form_timeline": []
     },
     {
+      "player_id": "hltv:20958",
       "hltv_player_id": "20958",
       "nickname": "bajmi",
-      "player_id": "hltv:20958",
       "source_url": "https://www.hltv.org/player/20958/bajmi",
       "team_name": "Walczaki",
       "form_timeline": []
     },
     {
+      "player_id": "hltv:15203",
       "hltv_player_id": "15203",
       "nickname": "reiko",
-      "player_id": "hltv:15203",
       "source_url": "https://www.hltv.org/player/15203/reiko",
       "team_name": "Walczaki",
       "form_timeline": []
@@ -18278,7 +18281,7 @@
     "source": "Valve Regional Standings",
     "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_10_05.md",
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-23T18:25:02Z",
+    "checked_at_utc": "2026-10-23T18:32:34Z",
     "scope": "global",
     "status": "official_snapshot",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
@@ -18647,10 +18650,10 @@
   },
   "source": "HLTV via Oracle Scrapling",
   "source_health": {
-    "scheduled_matches": 54,
+    "scheduled_matches": 53,
     "recent_results": 80,
     "detail_matches": 4,
-    "detail_cache_hits": 72,
+    "detail_cache_hits": 70,
     "detail_errors": [],
     "browser_fallbacks": 0
   },
