@@ -72962,7 +72962,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-10-23T22:15:32Z",
+    "checked_at_utc": "2026-10-24T00:48:30Z",
     "requested": 858,
     "cached": 41,
     "attempted": 132,
