@@ -52,6 +52,8 @@ For the native systemd worker, `infra/oracle/Caddyfile.native` records the ingre
 
 The Docker image installs the pinned HTTP-adapter dependencies and Compose selects `scrapling-http`; no challenge-solving sidecar is started. Set `ARCHIVE_BEARER_TOKEN` in the Compose environment to enable authenticated archive/profile publication. Container CI builds the actual image and checks successful and blocked requests against an internal fixture with external networking disabled.
 
+`Refresh verified player profiles` publishes the authenticated Oracle profile cache independently of match collection. It runs hourly or on manual dispatch, merges through the existing profile validator, runs the full product checks, and commits only `players.json` and its browser bundle. Original field dates remain intact; an expired match snapshot still fails the separate match/model publication gate.
+
 ## Development
 
 Use Node.js 24 (also used by CI). JSON snapshots live in `docs/data/`; browser bundles loaded by the page live in `docs/vendor/`. The Python exporters and refresh workflow must update both together.

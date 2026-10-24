@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { access, readFile, mkdtemp, writeFile, rm } from "node:fs/promises";
+import { access, readFile, mkdtemp, writeFile, rm, mkdir, copyFile } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -112,6 +112,40 @@ cp "$SNAPSHOT_FIXTURE" "$output"
   await writeFile(outputs, "");
   execFileSync("bash", ["-c", acquisition], { env: { ...process.env, PATH: `${fixtureDir}:${process.env.PATH}`, RUNNER_TEMP: fixtureDir, GITHUB_OUTPUT: outputs, SNAPSHOT_FIXTURE: cachedSnapshot, FAIL_CACHE: "true" }, stdio: "pipe" });
   assert.match(await readFile(outputs, "utf8"), /available=false/, "Unavailable cache must preserve the release without starting a challenge solver or another collection origin");
+
+  // Player publication must work independently when the match freshness gate fails.
+  const profilesWorkflow = await readFile(".github/workflows/update-player-profiles.yml", "utf8");
+  assert.match(profilesWorkflow, /group: strikesignal-data-publish/);
+  assert.doesNotMatch(profilesWorkflow, /\/snapshot|\/healthz|promote-live-snapshot|refresh_rankings/);
+  assert.match(profilesWorkflow, /npm run check/);
+  assert.deepEqual(profilesWorkflow.match(/git add ([^\n]+)/)[1].split(" "), ["docs/data/players.json", "docs/data/players.js"]);
+  const profileFetch = profilesWorkflow.match(/          set -euo pipefail\n([\s\S]*?)\n\n      - name:/)?.[0].split("\n\n      - name:")[0];
+  assert.ok(profileFetch);
+  const profileFixture = join(fixtureDir, "source.json");
+  await writeFile(profileFixture, JSON.stringify({ checked_at_utc: new Date().toISOString(), players: [{ player_id: "hltv:123", nickname: "Fixture", source_url: "https://www.hltv.org/player/123/fixture", verified: true, portrait_url: "https://img-cdn.hltv.org/playerbodyshot/fixture.png" }] }));
+  await writeFile(join(fixtureDir, "curl"), `#!/bin/bash
+set -eu
+[ "\${FAIL_CACHE:-false}" != true ] || exit 22
+output=""
+while [ "$#" -gt 0 ]; do
+  case "$1" in --output) shift; output="$1" ;; esac
+  shift
+done
+cp "$PROFILE_FIXTURE" "$output"
+`, { mode: 0o755 });
+  const profileEnv = { ...process.env, PATH: `${fixtureDir}:${process.env.PATH}`, RUNNER_TEMP: fixtureDir, PROFILE_FIXTURE: profileFixture, ORACLE_ARCHIVE_TOKEN: "test-only" };
+  execFileSync("bash", ["-c", profileFetch], { env: profileEnv, stdio: "pipe" });
+  assert.throws(() => execFileSync("bash", ["-c", profileFetch], { env: { ...profileEnv, FAIL_CACHE: "true" }, stdio: "pipe" }), "An unavailable authenticated profile cache must fail before publication");
+  for (const dir of ["scripts", "docs/lib", "docs/data"]) await mkdir(join(fixtureDir, dir), { recursive: true });
+  await writeFile(join(fixtureDir, "package.json"), '{"type":"module"}');
+  for (const path of ["scripts/build-player-snapshot.mjs", "docs/lib/player-history.js"]) await copyFile(path, join(fixtureDir, path));
+  await writeFile(join(fixtureDir, "docs/data/players.json"), '{"players":[]}');
+  const staleMatches = JSON.stringify({ fetched_at_utc: new Date(now - 13 * 60 * 60_000).toISOString() });
+  await writeFile(join(fixtureDir, "docs/data/live-snapshot.json"), staleMatches);
+  execFileSync(process.execPath, ["scripts/build-player-snapshot.mjs", profileFixture], { cwd: fixtureDir, stdio: "pipe" });
+  const merged = JSON.parse(await readFile(join(fixtureDir, "docs/data/players.json"), "utf8"));
+  assert.equal(merged.players[0].portrait_url, "https://img-cdn.hltv.org/playerbodyshot/fixture.png");
+  assert.equal(await readFile(join(fixtureDir, "docs/data/live-snapshot.json"), "utf8"), staleMatches, "Publishing profiles must preserve the original stale match timestamp");
 
 } finally {
   await rm(fixtureDir, { recursive: true, force: true });
