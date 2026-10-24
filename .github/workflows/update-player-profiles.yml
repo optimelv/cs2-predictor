@@ -1,0 +1,55 @@
+name: Refresh verified player profiles
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "47 * * * *"
+
+concurrency:
+  group: strikesignal-data-publish
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  profiles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Node
+        uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
+
+      - name: Retrieve cached server-side HLTV player profiles
+        env:
+          ORACLE_ARCHIVE_TOKEN: ${{ secrets.ORACLE_ARCHIVE_TOKEN }}
+        run: |
+          set -euo pipefail
+          profile_path="$RUNNER_TEMP/player-profiles.json"
+          worker_url=$(node -e "import('./config/oracle-worker.js').then(({ORACLE_WORKER_URL}) => process.stdout.write(ORACLE_WORKER_URL || ''))")
+          test -n "$worker_url"
+          test -n "$ORACLE_ARCHIVE_TOKEN"
+          curl --fail --silent --show-error --connect-timeout 10 --max-time 60 \
+            --header "Authorization: Bearer $ORACLE_ARCHIVE_TOKEN" \
+            "$worker_url/player-profiles" --output "$profile_path"
+
+      - name: Merge verified profiles and validate the release
+        run: |
+          npm ci --no-audit --no-fund
+          node scripts/build-player-snapshot.mjs "$RUNNER_TEMP/player-profiles.json"
+          npm run check
+          node scripts/guard-public-model.mjs
+
+      - name: Commit verified player profiles
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/data/players.json docs/data/players.js
+          git diff --cached --quiet || git commit -m "Refresh verified CS2 player profiles"
+          git push
