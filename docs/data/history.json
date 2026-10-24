@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-23T19:06:47Z",
+  "generated_at_utc": "2026-10-24T07:20:42Z",
   "through_date": "2026-10-23",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4115,
+    "matches": 4116,
     "maps": 2962,
     "lineup_rows": 9834,
     "source_match_ids": 976
@@ -424,28 +424,6 @@
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_2"
     },
     {
-      "match_id": "liquipedia:749bc21007e395752e23",
-      "match_date": "2026-10-23",
-      "starts_at": "2026-10-23T17:15:00Z",
-      "event_name": "CCT EU 2026 Series #11 - Playoffs",
-      "team1_name": "BAKS",
-      "team2_name": "BRUTE",
-      "score1": 1,
-      "score2": 2,
-      "winner_name": "BRUTE",
-      "tier": "tier_2",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
-    },
-    {
       "match_id": "liquipedia:e11287ce4e91fa688736",
       "match_date": "2026-10-23",
       "starts_at": "2026-10-23T18:55:00Z",
@@ -466,6 +444,58 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/DraculaN/Season_7#Playoffs"
+    },
+    {
+      "match_id": "hltv:2399500",
+      "match_date": "2026-10-23",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Saint Sinners",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "ex-RUSTEC",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399334",
+      "match_date": "2026-10-23",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "BRUTE",
+      "team2_name": "BAKS",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BRUTE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:749bc21007e395752e23",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs",
+          "starts_at": "2026-10-23T17:15:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2399493",
