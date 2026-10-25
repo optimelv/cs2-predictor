@@ -1912,7 +1912,9 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "traits_through_date": "2026-10-13",
+      "signal_index_through_date": "2026-10-13"
     },
     {
       "player_id": "hltv:22863",
@@ -9917,7 +9919,9 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "traits_through_date": "2026-10-13",
+      "signal_index_through_date": "2026-10-13"
     },
     {
       "player_id": "hltv:23482",
@@ -16756,7 +16760,9 @@
       "stats_window": "past_3_months",
       "stats_through_date": "2026-10-14",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.310Z",
-      "stats_source_url": "https://www.hltv.org/player/15698/dumau"
+      "stats_source_url": "https://www.hltv.org/player/15698/dumau",
+      "traits_through_date": "2026-10-14",
+      "signal_index_through_date": "2026-10-14"
     },
     {
       "player_id": "hltv:16726",
@@ -35987,7 +35993,9 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "traits_through_date": "2026-10-13",
+      "signal_index_through_date": "2026-10-13"
     },
     {
       "player_id": "hltv:25460",
@@ -43017,7 +43025,9 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "traits_through_date": "2026-10-13",
+      "signal_index_through_date": "2026-10-13"
     },
     {
       "player_id": "hltv:14010",
@@ -54444,7 +54454,9 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "traits_through_date": "2026-10-13",
+      "signal_index_through_date": "2026-10-13"
     },
     {
       "player_id": "hltv:26044",
@@ -55646,7 +55658,9 @@
       "stats_window": "past_3_months",
       "stats_through_date": "2026-10-14",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.314Z",
-      "stats_source_url": "https://www.hltv.org/player/12521/art"
+      "stats_source_url": "https://www.hltv.org/player/12521/art",
+      "traits_through_date": "2026-10-14",
+      "signal_index_through_date": "2026-10-14"
     },
     {
       "player_id": "hltv:16731",
@@ -72394,27 +72408,42 @@
           "kast": 69.4,
           "rating": 0.74,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399339",
+          "date": "2026-10-25",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "INOX Division",
+          "team_name": "Acend",
+          "won": true,
+          "kills": 29,
+          "deaths": 45,
+          "kd_ratio": 0.64,
+          "adr": 67.9,
+          "kast": 66.2,
+          "rating": 0.77,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 0.74,
-        "average_adr": 66.9,
-        "recent_rating": 0.74,
+        "series": 2,
+        "average_rating": 0.76,
+        "average_adr": 67.4,
+        "recent_rating": 0.76,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "Acend",
           "from_date": "2026-10-22",
-          "through_date": "2026-10-22",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-25",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 0.74,
-          "average_adr": 66.9
+          "average_rating": 0.76,
+          "average_adr": 67.4
         }
       ],
       "map_profile": [],
@@ -72428,18 +72457,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399329",
-        "date": "2026-10-22",
+        "match_id": "hltv:2399339",
+        "date": "2026-10-25",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "INOX Division",
         "team_name": "Acend",
         "won": true,
-        "kills": 21,
-        "deaths": 38,
-        "kd_ratio": 0.55,
-        "adr": 66.9,
-        "kast": 69.4,
-        "rating": 0.74,
+        "kills": 29,
+        "deaths": 45,
+        "kd_ratio": 0.64,
+        "adr": 67.9,
+        "kast": 66.2,
+        "rating": 0.77,
         "maps": 3
       },
       "traits_through_date": null,
@@ -72466,27 +72495,42 @@
           "kast": 73.5,
           "rating": 1.56,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399339",
+          "date": "2026-10-25",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "INOX Division",
+          "team_name": "Acend",
+          "won": true,
+          "kills": 58,
+          "deaths": 51,
+          "kd_ratio": 1.14,
+          "adr": 93.2,
+          "kast": 73.5,
+          "rating": 1.42,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.56,
-        "average_adr": 100.4,
-        "recent_rating": 1.56,
+        "series": 2,
+        "average_rating": 1.49,
+        "average_adr": 96.8,
+        "recent_rating": 1.49,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "Acend",
           "from_date": "2026-10-22",
-          "through_date": "2026-10-22",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-25",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.56,
-          "average_adr": 100.4
+          "average_rating": 1.49,
+          "average_adr": 96.8
         }
       ],
       "map_profile": [],
@@ -72500,18 +72544,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399329",
-        "date": "2026-10-22",
+        "match_id": "hltv:2399339",
+        "date": "2026-10-25",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "INOX Division",
         "team_name": "Acend",
         "won": true,
-        "kills": 50,
-        "deaths": 30,
-        "kd_ratio": 1.67,
-        "adr": 100.4,
+        "kills": 58,
+        "deaths": 51,
+        "kd_ratio": 1.14,
+        "adr": 93.2,
         "kast": 73.5,
-        "rating": 1.56,
+        "rating": 1.42,
         "maps": 3
       },
       "traits_through_date": null,
@@ -72538,27 +72582,42 @@
           "kast": 75.5,
           "rating": 1.21,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399339",
+          "date": "2026-10-25",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "INOX Division",
+          "team_name": "Acend",
+          "won": true,
+          "kills": 48,
+          "deaths": 39,
+          "kd_ratio": 1.23,
+          "adr": 70.5,
+          "kast": 69.1,
+          "rating": 1.04,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.21,
-        "average_adr": 70.2,
-        "recent_rating": 1.21,
+        "series": 2,
+        "average_rating": 1.13,
+        "average_adr": 70.3,
+        "recent_rating": 1.13,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "Acend",
           "from_date": "2026-10-22",
-          "through_date": "2026-10-22",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-25",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.21,
-          "average_adr": 70.2
+          "average_rating": 1.13,
+          "average_adr": 70.3
         }
       ],
       "map_profile": [],
@@ -72572,18 +72631,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399329",
-        "date": "2026-10-22",
+        "match_id": "hltv:2399339",
+        "date": "2026-10-25",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "INOX Division",
         "team_name": "Acend",
         "won": true,
-        "kills": 38,
-        "deaths": 28,
-        "kd_ratio": 1.36,
-        "adr": 70.2,
-        "kast": 75.5,
-        "rating": 1.21,
+        "kills": 48,
+        "deaths": 39,
+        "kd_ratio": 1.23,
+        "adr": 70.5,
+        "kast": 69.1,
+        "rating": 1.04,
         "maps": 3
       },
       "traits_through_date": null,
@@ -72637,27 +72696,42 @@
           "kast": 79.6,
           "rating": 1.22,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399339",
+          "date": "2026-10-25",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "INOX Division",
+          "team_name": "Acend",
+          "won": true,
+          "kills": 43,
+          "deaths": 48,
+          "kd_ratio": 0.9,
+          "adr": 62.2,
+          "kast": 72.1,
+          "rating": 1.01,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.22,
-        "average_adr": 80,
-        "recent_rating": 1.22,
+        "series": 2,
+        "average_rating": 1.11,
+        "average_adr": 71.1,
+        "recent_rating": 1.11,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "Acend",
           "from_date": "2026-10-22",
-          "through_date": "2026-10-22",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-25",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.22,
-          "average_adr": 80
+          "average_rating": 1.11,
+          "average_adr": 71.1
         }
       ],
       "map_profile": [],
@@ -72671,18 +72745,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399329",
-        "date": "2026-10-22",
+        "match_id": "hltv:2399339",
+        "date": "2026-10-25",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "INOX Division",
         "team_name": "Acend",
         "won": true,
-        "kills": 33,
-        "deaths": 32,
-        "kd_ratio": 1.03,
-        "adr": 80,
-        "kast": 79.6,
-        "rating": 1.22,
+        "kills": 43,
+        "deaths": 48,
+        "kd_ratio": 0.9,
+        "adr": 62.2,
+        "kast": 72.1,
+        "rating": 1.01,
         "maps": 3
       },
       "traits_through_date": null,
@@ -72709,42 +72783,57 @@
           "kast": 77.6,
           "rating": 1.23,
           "maps": 3
+        },
+        {
+          "match_id": "hltv:2399339",
+          "date": "2026-10-25",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "INOX Division",
+          "team_name": "Acend",
+          "won": true,
+          "kills": 38,
+          "deaths": 36,
+          "kd_ratio": 1.06,
+          "adr": 59.8,
+          "kast": 67.6,
+          "rating": 0.94,
+          "maps": 3
         }
       ],
       "timeline_entry": {
-        "match_id": "hltv:2399329",
-        "date": "2026-10-22",
+        "match_id": "hltv:2399339",
+        "date": "2026-10-25",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "ex-6666",
+        "opponent_name": "INOX Division",
         "team_name": "Acend",
         "won": true,
-        "kills": 32,
-        "deaths": 31,
-        "kd_ratio": 1.03,
-        "adr": 70.5,
-        "kast": 77.6,
-        "rating": 1.23,
+        "kills": 38,
+        "deaths": 36,
+        "kd_ratio": 1.06,
+        "adr": 59.8,
+        "kast": 67.6,
+        "rating": 0.94,
         "maps": 3
       },
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.23,
-        "average_adr": 70.5,
-        "recent_rating": 1.23,
+        "series": 2,
+        "average_rating": 1.08,
+        "average_adr": 65.2,
+        "recent_rating": 1.08,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "Acend",
           "from_date": "2026-10-22",
-          "through_date": "2026-10-22",
-          "series": 1,
-          "wins": 1,
+          "through_date": "2026-10-25",
+          "series": 2,
+          "wins": 2,
           "losses": 0,
           "win_rate": 1,
-          "average_rating": 1.23,
-          "average_adr": 70.5
+          "average_rating": 1.08,
+          "average_adr": 65.2
         }
       ],
       "map_profile": [],
@@ -73502,27 +73591,42 @@
           "rating": 1.44,
           "team_name": "INOX Division",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399339",
+          "date": "2026-10-25",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Acend",
+          "team_name": "INOX Division",
+          "won": false,
+          "kills": 35,
+          "deaths": 37,
+          "kd_ratio": 0.95,
+          "adr": 70.1,
+          "kast": 82.4,
+          "rating": 0.97,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.44,
-        "average_adr": 95.8,
-        "recent_rating": 1.44,
+        "series": 2,
+        "average_rating": 1.21,
+        "average_adr": 82.9,
+        "recent_rating": 1.21,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "INOX Division",
           "from_date": "2026-10-23",
-          "through_date": "2026-10-23",
-          "series": 1,
+          "through_date": "2026-10-25",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.44,
-          "average_adr": 95.8
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.21,
+          "average_adr": 82.9
         }
       ],
       "map_profile": [],
@@ -73536,18 +73640,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399333",
-        "date": "2026-10-23",
+        "match_id": "hltv:2399339",
+        "date": "2026-10-25",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "Acend",
         "team_name": "INOX Division",
-        "won": true,
-        "kills": 41,
-        "deaths": 25,
-        "kd_ratio": 1.64,
-        "adr": 95.8,
-        "kast": 80.5,
-        "rating": 1.44,
+        "won": false,
+        "kills": 35,
+        "deaths": 37,
+        "kd_ratio": 0.95,
+        "adr": 70.1,
+        "kast": 82.4,
+        "rating": 0.97,
         "maps": 3
       },
       "traits_through_date": null,
@@ -73627,7 +73731,7 @@
     },
     {
       "player_id": "hltv:22880",
-      "nickname": "m1QUSE",
+      "nickname": "Substitute",
       "team_name": "INOX Division",
       "hltv_player_id": "22880",
       "source_url": "https://www.hltv.org/player/22880/m1quse",
@@ -73646,27 +73750,42 @@
           "rating": 1.06,
           "team_name": "INOX Division",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399339",
+          "date": "2026-10-25",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Acend",
+          "team_name": "INOX Division",
+          "won": false,
+          "kills": 44,
+          "deaths": 45,
+          "kd_ratio": 0.98,
+          "adr": 75.7,
+          "kast": 77.9,
+          "rating": 1.09,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 1.06,
-        "average_adr": 77.4,
-        "recent_rating": 1.06,
+        "series": 2,
+        "average_rating": 1.08,
+        "average_adr": 76.6,
+        "recent_rating": 1.08,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "INOX Division",
           "from_date": "2026-10-23",
-          "through_date": "2026-10-23",
-          "series": 1,
+          "through_date": "2026-10-25",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.06,
-          "average_adr": 77.4
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.08,
+          "average_adr": 76.6
         }
       ],
       "map_profile": [],
@@ -73680,22 +73799,23 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399333",
-        "date": "2026-10-23",
+        "match_id": "hltv:2399339",
+        "date": "2026-10-25",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "Acend",
         "team_name": "INOX Division",
-        "won": true,
-        "kills": 30,
-        "deaths": 28,
-        "kd_ratio": 1.07,
-        "adr": 77.4,
-        "kast": 68.3,
-        "rating": 1.06,
+        "won": false,
+        "kills": 44,
+        "deaths": 45,
+        "kd_ratio": 0.98,
+        "adr": 75.7,
+        "kast": 77.9,
+        "rating": 1.09,
         "maps": 3
       },
       "traits_through_date": null,
-      "signal_index_through_date": null
+      "signal_index_through_date": null,
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/KX9ZgeHxMD7zyOT5L2lH9V.png?bg=3e4c54&h=200&ixlib=java-2.1.0&rect=124%2C8%2C467%2C467&w=200&s=76b240ef8aca32c1c18d38aa48bd7610"
     },
     {
       "player_id": "hltv:22883",
@@ -73718,13 +73838,28 @@
           "rating": 1.08,
           "team_name": "INOX Division",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399339",
+          "date": "2026-10-25",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Acend",
+          "team_name": "INOX Division",
+          "won": false,
+          "kills": 48,
+          "deaths": 47,
+          "kd_ratio": 1.02,
+          "adr": 75.9,
+          "kast": 79.4,
+          "rating": 1.07,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
+        "series": 2,
         "average_rating": 1.08,
-        "average_adr": 85.1,
+        "average_adr": 80.5,
         "recent_rating": 1.08,
         "rating_delta": null
       },
@@ -73732,13 +73867,13 @@
         {
           "team_name": "INOX Division",
           "from_date": "2026-10-23",
-          "through_date": "2026-10-23",
-          "series": 1,
+          "through_date": "2026-10-25",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
+          "losses": 1,
+          "win_rate": 0.5,
           "average_rating": 1.08,
-          "average_adr": 85.1
+          "average_adr": 80.5
         }
       ],
       "map_profile": [],
@@ -73752,18 +73887,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399333",
-        "date": "2026-10-23",
+        "match_id": "hltv:2399339",
+        "date": "2026-10-25",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "Acend",
         "team_name": "INOX Division",
-        "won": true,
-        "kills": 29,
-        "deaths": 31,
-        "kd_ratio": 0.94,
-        "adr": 85.1,
-        "kast": 75.6,
-        "rating": 1.08,
+        "won": false,
+        "kills": 48,
+        "deaths": 47,
+        "kd_ratio": 1.02,
+        "adr": 75.9,
+        "kast": 79.4,
+        "rating": 1.07,
         "maps": 3
       },
       "traits_through_date": null,
@@ -73790,27 +73925,42 @@
           "rating": 1,
           "team_name": "INOX Division",
           "won": true
+        },
+        {
+          "match_id": "hltv:2399339",
+          "date": "2026-10-25",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Acend",
+          "team_name": "INOX Division",
+          "won": false,
+          "kills": 44,
+          "deaths": 43,
+          "kd_ratio": 1.02,
+          "adr": 60.9,
+          "kast": 76.5,
+          "rating": 0.97,
+          "maps": 3
         }
       ],
       "traits": {},
       "form_summary": {
-        "series": 1,
-        "average_rating": 1,
-        "average_adr": 61.8,
-        "recent_rating": 1,
+        "series": 2,
+        "average_rating": 0.98,
+        "average_adr": 61.3,
+        "recent_rating": 0.98,
         "rating_delta": null
       },
       "roster_eras": [
         {
           "team_name": "INOX Division",
           "from_date": "2026-10-23",
-          "through_date": "2026-10-23",
-          "series": 1,
+          "through_date": "2026-10-25",
+          "series": 2,
           "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1,
-          "average_adr": 61.8
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 0.98,
+          "average_adr": 61.3
         }
       ],
       "map_profile": [],
@@ -73824,18 +73974,18 @@
       "stats_source_url": null,
       "signal_index": null,
       "timeline_entry": {
-        "match_id": "hltv:2399333",
-        "date": "2026-10-23",
+        "match_id": "hltv:2399339",
+        "date": "2026-10-25",
         "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Black Phoenix",
+        "opponent_name": "Acend",
         "team_name": "INOX Division",
-        "won": true,
-        "kills": 23,
-        "deaths": 26,
-        "kd_ratio": 0.88,
-        "adr": 61.8,
-        "kast": 73.2,
-        "rating": 1,
+        "won": false,
+        "kills": 44,
+        "deaths": 43,
+        "kd_ratio": 1.02,
+        "adr": 60.9,
+        "kast": 76.5,
+        "rating": 0.97,
         "maps": 3
       },
       "traits_through_date": null,
@@ -74072,18 +74222,90 @@
       "traits_through_date": null,
       "signal_index": null,
       "signal_index_through_date": null
+    },
+    {
+      "player_id": "hltv:25423",
+      "nickname": "Substitute",
+      "team_name": "INOX Division",
+      "hltv_player_id": "25423",
+      "source_url": "https://www.hltv.org/player/25423/gooddeph",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399339",
+          "date": "2026-10-25",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Acend",
+          "team_name": "INOX Division",
+          "won": false,
+          "kills": 45,
+          "deaths": 45,
+          "kd_ratio": 1,
+          "adr": 72.6,
+          "kast": 75,
+          "rating": 0.96,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399339",
+        "date": "2026-10-25",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Acend",
+        "team_name": "INOX Division",
+        "won": false,
+        "kills": 45,
+        "deaths": 45,
+        "kd_ratio": 1,
+        "adr": 72.6,
+        "kast": 75,
+        "rating": 0.96,
+        "maps": 3
+      },
+      "traits": {},
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.96,
+        "average_adr": 72.6,
+        "recent_rating": 0.96,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "INOX Division",
+          "from_date": "2026-10-25",
+          "through_date": "2026-10-25",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.96,
+          "average_adr": 72.6
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": null,
+      "maps_3m": null,
+      "kd_ratio_3m": null,
+      "stats_window": null,
+      "stats_from_date": null,
+      "stats_through_date": null,
+      "stats_fetched_at_utc": null,
+      "stats_source_url": null,
+      "traits_through_date": null,
+      "signal_index": null,
+      "signal_index_through_date": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-24T07:20:42Z",
+  "lineups_updated_at_utc": "2026-10-25T14:40:04Z",
   "history_source": "HLTV official series statistics",
-  "history_through_date": "2026-10-23",
+  "history_through_date": "2026-10-25",
   "history_profile_count": 53,
   "map_history_source": "HLTV official map statistics",
   "map_history_through_date": "2026-05-24",
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-10-25T14:34:17Z",
+    "checked_at_utc": "2026-10-25T14:41:49Z",
     "requested": 868,
     "cached": 157,
     "attempted": 255,

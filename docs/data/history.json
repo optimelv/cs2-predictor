@@ -1,18 +1,118 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-24T07:20:42Z",
-  "through_date": "2026-10-24",
+  "generated_at_utc": "2026-10-25T14:40:04Z",
+  "through_date": "2026-10-25",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4134,
-    "maps": 2962,
-    "lineup_rows": 9834,
+    "matches": 4143,
+    "maps": 2965,
+    "lineup_rows": 9844,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "hltv:2399505",
+      "match_date": "2026-10-25",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Lavked",
+      "team2_name": "mellren",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Lavked",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399506",
+      "match_date": "2026-10-25",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Spirit Academy",
+      "team2_name": "LFO 10",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399339",
+      "match_date": "2026-10-25",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Acend",
+      "team2_name": "INOX Division",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Acend",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Dust2",
+          "score1": 10,
+          "score2": 13,
+          "winner_name": "INOX Division",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 13,
+          "score2": 10,
+          "winner_name": "Acend",
+          "picked_by": null
+        },
+        {
+          "map_name": "Inferno",
+          "score1": 13,
+          "score2": 9,
+          "winner_name": "Acend",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "AwaykeN",
+          "REDSTAR",
+          "Skrimo",
+          "SHiPZ",
+          "SPELLAN"
+        ],
+        "team2": [
+          "Substitute",
+          "Substitute",
+          "El1an",
+          "finW",
+          "k1slll"
+        ]
+      }
+    },
     {
       "match_id": "liquipedia:cbb3a0575368417afe1b",
       "match_date": "2026-10-24",
@@ -190,28 +290,6 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Playoffs"
     },
     {
-      "match_id": "liquipedia:c97ccadf791ad3c24bc2",
-      "match_date": "2026-10-24",
-      "starts_at": "2026-10-24T11:00:00Z",
-      "event_name": "CCT EU 2026 Series #12 - Round 3",
-      "team1_name": "Azuolas",
-      "team2_name": "HAVU",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "HAVU",
-      "tier": "tier_2",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_3"
-    },
-    {
       "match_id": "liquipedia:12b21f402dc71cbe6153",
       "match_date": "2026-10-24",
       "starts_at": "2026-10-24T12:50:00Z",
@@ -366,28 +444,6 @@
       "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_1"
     },
     {
-      "match_id": "liquipedia:4d8daf0995919a60539b",
-      "match_date": "2026-10-24",
-      "starts_at": "2026-10-24T17:00:00Z",
-      "event_name": "CCT EU 2026 Series #12 - Round 3",
-      "team1_name": "BAKS",
-      "team2_name": "ILLYRIANS",
-      "score1": 2,
-      "score2": 1,
-      "winner_name": "BAKS",
-      "tier": "tier_2",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_3"
-    },
-    {
       "match_id": "liquipedia:81817417c83269674172",
       "match_date": "2026-10-24",
       "starts_at": "2026-10-24T17:00:00Z",
@@ -408,6 +464,198 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
+    },
+    {
+      "match_id": "hltv:2399501",
+      "match_date": "2026-10-24",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Walczaki",
+      "team2_name": "ex-6666",
+      "score1": 0,
+      "score2": 1,
+      "winner_name": "ex-6666",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399335",
+      "match_date": "2026-10-24",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Acend",
+      "team2_name": "FORZE Reload",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Acend",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399502",
+      "match_date": "2026-10-24",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "HAVU",
+      "team2_name": "Azuolas",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "HAVU",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:c97ccadf791ad3c24bc2",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_3",
+          "starts_at": "2026-10-24T11:00:00Z"
+        }
+      ]
+    },
+    {
+      "match_id": "hltv:2399336",
+      "match_date": "2026-10-24",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Spirit Academy",
+      "team2_name": "Lavked",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399337",
+      "match_date": "2026-10-24",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "INOX Division",
+      "team2_name": "BRUTE",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "INOX Division",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399503",
+      "match_date": "2026-10-24",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "6yuBoJlbl",
+      "team2_name": "Saint Sinners",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Saint Sinners",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399338",
+      "match_date": "2026-10-24",
+      "event_name": "CCT 2026 Europe Series 11",
+      "team1_name": "Nuclear TigeRES",
+      "team2_name": "ex-Zero Tenacity",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "ex-Zero Tenacity",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399504",
+      "match_date": "2026-10-24",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "BAKS",
+      "team2_name": "Illyrians",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BAKS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:4d8daf0995919a60539b",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_3",
+          "starts_at": "2026-10-24T17:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "hltv:2399331",
