@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4143,
+    "matches": 4152,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
@@ -112,6 +112,204 @@
           "k1slll"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:dad13c8618be606a8610",
+      "match_date": "2026-10-25",
+      "starts_at": "2026-10-25T08:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 2",
+      "team1_name": "FUT",
+      "team2_name": "Liquid",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FUT",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
+    },
+    {
+      "match_id": "liquipedia:f197baf22582c3f115eb",
+      "match_date": "2026-10-25",
+      "starts_at": "2026-10-25T08:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 2",
+      "team1_name": "Spirit",
+      "team2_name": "TYLOO",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
+    },
+    {
+      "match_id": "liquipedia:53008f47cfe6a755fc1b",
+      "match_date": "2026-10-25",
+      "starts_at": "2026-10-25T09:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Playoffs",
+      "team1_name": "Acend",
+      "team2_name": "UNiTY",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "UNiTY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:7102ca74605498f94925",
+      "match_date": "2026-10-25",
+      "starts_at": "2026-10-25T09:40:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 2",
+      "team1_name": "MongolZ",
+      "team2_name": "Vitality",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Vitality",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
+    },
+    {
+      "match_id": "liquipedia:2b633fcd6dcff648a721",
+      "match_date": "2026-10-25",
+      "starts_at": "2026-10-25T10:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 2",
+      "team1_name": "BB",
+      "team2_name": "Nemiga",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BB",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
+    },
+    {
+      "match_id": "liquipedia:40584147682e144cc8cf",
+      "match_date": "2026-10-25",
+      "starts_at": "2026-10-25T11:00:00Z",
+      "event_name": "CCT EU 2026 Series #11 - Playoffs",
+      "team1_name": "Acend",
+      "team2_name": "INOX",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Acend",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:66e15c60e3fa7627a8ad",
+      "match_date": "2026-10-25",
+      "starts_at": "2026-10-25T12:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Round 3",
+      "team1_name": "Spirit.A",
+      "team2_name": "Sökerorg",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Spirit.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_3"
+    },
+    {
+      "match_id": "liquipedia:af8ce3df0edec6ffe29a",
+      "match_date": "2026-10-25",
+      "starts_at": "2026-10-25T12:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Playoffs",
+      "team1_name": "BAKS",
+      "team2_name": "MZP",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MZP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:e21aef978d49d83253ff",
+      "match_date": "2026-10-25",
+      "starts_at": "2026-10-25T13:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 2",
+      "team1_name": "9z",
+      "team2_name": "MOUZ",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
     },
     {
       "match_id": "liquipedia:cbb3a0575368417afe1b",
