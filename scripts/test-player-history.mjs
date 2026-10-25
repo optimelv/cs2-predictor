@@ -95,3 +95,9 @@ assert.equal(rejected.players[0].rating_3_0, 1.2);
 
 const wrongWindow = refreshPlayerProfiles({ players: [{ ...profile, player_id: "hltv:21167", nickname: "donk" }] }, { ...source, players: [{ ...verifiedProfile, stats_window: "career" }] });
 assert.equal(wrongWindow.players[0].rating_3_0, profile.rating_3_0, "Career stats cannot be relabeled as three-month averages");
+
+const gallery = "https://img-cdn.hltv.org/gallerypicture/current.jpg?rect=1%2C2%2C3%2C4&w=200&s=signed";
+for (const portrait_url of [gallery, "https://example.test/gallerypicture/current.jpg", "https://credentials@img-cdn.hltv.org/gallerypicture/current.jpg", "https://img-cdn.hltv.org:444/gallerypicture/current.jpg", "https://img-cdn.hltv.org/gallery/current.jpg"]) {
+  const merged = refreshPlayerProfiles({ players: [] }, { ...source, players: [{ ...verifiedProfile, portrait_url }] });
+  assert.equal(merged.players[0].portrait_url, portrait_url === gallery ? gallery : undefined);
+}

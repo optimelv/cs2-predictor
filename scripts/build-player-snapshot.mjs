@@ -24,7 +24,8 @@ export function refreshPlayerProfiles(snapshot, source) {
   const validPortraitUrl = (url) => {
     try {
       const parsed = new URL(url);
-      return parsed.protocol === "https:" && parsed.hostname === "img-cdn.hltv.org" && parsed.pathname.startsWith("/playerbodyshot/");
+      return parsed.protocol === "https:" && parsed.hostname === "img-cdn.hltv.org" && !parsed.port && !parsed.username && !parsed.password
+        && /^\/(?:playerbodyshot|gallerypicture)\//.test(parsed.pathname);
     } catch { return false; }
   };
   const validDate = (value) => /^\d{4}-\d{2}-\d{2}$/.test(value || "") && value <= source.checked_at_utc.slice(0, 10);

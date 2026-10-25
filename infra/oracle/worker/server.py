@@ -120,12 +120,12 @@ def event_reference(node, fallback_name: str) -> tuple[str, str | None]:
 
 
 def player_portrait_url(value: Any) -> str | None:
-    """Keep only an identified body-shot URL emitted by HLTV."""
+    """Keep only a profile-image URL emitted by the HLTV image CDN."""
     url = str(value or "").strip()
     parsed = urlparse(url)
     if parsed.scheme != "https" or parsed.netloc != "img-cdn.hltv.org":
         return None
-    if not parsed.path.startswith("/playerbodyshot/"):
+    if not parsed.path.startswith(("/playerbodyshot/", "/gallerypicture/")):
         return None
     return url
 

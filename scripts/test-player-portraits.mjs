@@ -17,3 +17,9 @@ assert.equal(sourceOptional.sourceUrl, "https://www.hltv.org/player/776");
 assert.equal(playerPortraitFor({ player_id: "hltv:775", portrait_url: "https://credentials@img-cdn.hltv.org/playerbodyshot/current.png" }), null);
 assert.equal(playerPortraitFor({ player_id: "hltv:998", portrait_url: "https://example.test/playerbodyshot/current.png" }), null);
 console.log("player portraits ok");
+
+const gallery = "https://img-cdn.hltv.org/gallerypicture/current.jpg?rect=1%2C2%2C3%2C4&w=200&s=signed";
+assert.equal(playerPortraitFor({ player_id: "hltv:775", portrait_url: gallery }).src, gallery);
+for (const portrait_url of ["https://example.test/gallerypicture/current.jpg", "https://credentials@img-cdn.hltv.org/gallerypicture/current.jpg", "https://img-cdn.hltv.org:444/gallerypicture/current.jpg", "https://img-cdn.hltv.org/gallery/current.jpg"]) {
+  assert.equal(playerPortraitFor({ player_id: "hltv:775", portrait_url }), null);
+}
