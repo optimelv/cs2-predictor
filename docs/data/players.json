@@ -1392,99 +1392,6 @@
       "signal_index_through_date": "2026-10-24"
     },
     {
-      "player_id": "hltv:20787",
-      "nickname": "Pose1doNN",
-      "team_name": "Zomblers",
-      "rating_3_0": 1.26,
-      "maps_3m": 37,
-      "signal_index": 81,
-      "traits": {
-        "firepower": 93,
-        "entrying": 34,
-        "trading": 94,
-        "opening": 57,
-        "clutching": 69,
-        "sniping": 91,
-        "utility": 56
-      },
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399230",
-          "date": "2026-10-13",
-          "event_name": "ESL Challenger League Season 52 North America Cup 3",
-          "opponent_name": "Chicken Coop",
-          "team_name": "Zomblers",
-          "won": false,
-          "kills": 39,
-          "deaths": 26,
-          "kd_ratio": 1.5,
-          "adr": 100.2,
-          "kast": 80.6,
-          "rating": 1.32,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399232",
-          "date": "2026-10-14",
-          "event_name": "ESL Challenger League Season 52 North America Cup 3",
-          "opponent_name": "Overtake Sector",
-          "team_name": "Zomblers",
-          "won": false,
-          "kills": 21,
-          "deaths": 28,
-          "kd_ratio": 0.75,
-          "adr": 64.8,
-          "kast": 77.5,
-          "rating": 0.79,
-          "maps": 3
-        }
-      ],
-      "hltv_player_id": "20787",
-      "source_url": "https://www.hltv.org/player/20787/pose1donn",
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Zomblers",
-          "from_date": "2026-10-13",
-          "through_date": "2026-10-14",
-          "series": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0,
-          "average_rating": 1.06,
-          "average_adr": 82.5
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399232",
-        "date": "2026-10-14",
-        "event_name": "ESL Challenger League Season 52 North America Cup 3",
-        "opponent_name": "Overtake Sector",
-        "team_name": "Zomblers",
-        "won": false,
-        "kills": 21,
-        "deaths": 28,
-        "kd_ratio": 0.75,
-        "adr": 64.8,
-        "kast": 77.5,
-        "rating": 0.79,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 2,
-        "average_rating": 1.06,
-        "average_adr": 82.5,
-        "recent_rating": 1.06,
-        "rating_delta": null
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.346Z",
-      "stats_source_url": "https://www.hltv.org/player/20787/pose1donn"
-    },
-    {
       "player_id": "hltv:22810",
       "nickname": "kralle",
       "team_name": "MASONIC",
@@ -1985,6 +1892,103 @@
         "recent_rating": null,
         "rating_delta": null
       }
+    },
+    {
+      "player_id": "hltv:20787",
+      "nickname": "Pose1doNN",
+      "team_name": "Zomblers",
+      "rating_3_0": 1.22,
+      "maps_3m": 45,
+      "signal_index": 76,
+      "traits": {
+        "closing": 58,
+        "entrying": 71,
+        "firepower": 74,
+        "opening": 39,
+        "sniping": 84,
+        "trading": 93,
+        "utility": 30
+      },
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399230",
+          "date": "2026-10-13",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Chicken Coop",
+          "team_name": "Zomblers",
+          "won": false,
+          "kills": 39,
+          "deaths": 26,
+          "kd_ratio": 1.5,
+          "adr": 100.2,
+          "kast": 80.6,
+          "rating": 1.32,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399232",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 North America Cup 3",
+          "opponent_name": "Overtake Sector",
+          "team_name": "Zomblers",
+          "won": false,
+          "kills": 21,
+          "deaths": 28,
+          "kd_ratio": 0.75,
+          "adr": 64.8,
+          "kast": 77.5,
+          "rating": 0.79,
+          "maps": 3
+        }
+      ],
+      "hltv_player_id": "20787",
+      "source_url": "https://www.hltv.org/player/20787/pose1donn",
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Zomblers",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-14",
+          "series": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0,
+          "average_rating": 1.06,
+          "average_adr": 82.5
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399232",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 North America Cup 3",
+        "opponent_name": "Overtake Sector",
+        "team_name": "Zomblers",
+        "won": false,
+        "kills": 21,
+        "deaths": 28,
+        "kd_ratio": 0.75,
+        "adr": 64.8,
+        "kast": 77.5,
+        "rating": 0.79,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 2,
+        "average_rating": 1.06,
+        "average_adr": 82.5,
+        "recent_rating": 1.06,
+        "rating_delta": null
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:39:37Z",
+      "stats_source_url": "https://www.hltv.org/player/20787/pose1donn",
+      "profile_fetched_at_utc": "2026-10-25T20:39:37Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/tJW-M_SYUe92ED_CN-53m7.png?ixlib=java-2.1.0&w=400&s=dd6309e3c2b917e4aa7e7159081833f4",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25"
     },
     {
       "player_id": "hltv:21571",
@@ -5858,101 +5862,6 @@
       }
     },
     {
-      "player_id": "hltv:20621",
-      "nickname": "nitzie",
-      "team_name": "Butterfly",
-      "rating_3_0": 1.17,
-      "maps_3m": 78,
-      "signal_index": 71,
-      "traits": {
-        "firepower": 80,
-        "entrying": 6,
-        "trading": 36,
-        "opening": 74,
-        "clutching": 65,
-        "sniping": 93,
-        "utility": 52
-      },
-      "hltv_player_id": "20621",
-      "source_url": "https://www.hltv.org/player/20621/nitzie",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399104",
-          "date": "2026-10-21",
-          "event_name": "NODWIN Clutch Series 13",
-          "opponent_name": "BET-M",
-          "team_name": "Butterfly",
-          "won": false,
-          "kills": 18,
-          "deaths": 30,
-          "kd_ratio": 0.6,
-          "adr": 47,
-          "kast": 58.1,
-          "rating": 0.74,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399328",
-          "date": "2026-10-22",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Lavked",
-          "team_name": "Butterfly",
-          "won": false,
-          "kills": 55,
-          "deaths": 39,
-          "kd_ratio": 1.41,
-          "adr": 95.5,
-          "kast": 75,
-          "rating": 1.58,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Butterfly",
-          "from_date": "2026-10-21",
-          "through_date": "2026-10-22",
-          "series": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0,
-          "average_rating": 1.16,
-          "average_adr": 71.3
-        }
-      ],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.321Z",
-      "stats_source_url": "https://www.hltv.org/player/20621/nitzie",
-      "form_summary": {
-        "series": 2,
-        "average_rating": 1.16,
-        "average_adr": 71.3,
-        "recent_rating": 1.16,
-        "rating_delta": null
-      },
-      "timeline_entry": {
-        "match_id": "hltv:2399328",
-        "date": "2026-10-22",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Lavked",
-        "team_name": "Butterfly",
-        "won": false,
-        "kills": 55,
-        "deaths": 39,
-        "kd_ratio": 1.41,
-        "adr": 95.5,
-        "kast": 75,
-        "rating": 1.58,
-        "maps": 3
-      },
-      "traits_through_date": "2026-10-13",
-      "signal_index_through_date": "2026-10-13"
-    },
-    {
       "player_id": "hltv:23543",
       "nickname": "demente",
       "team_name": "Rune Eaters",
@@ -6874,6 +6783,103 @@
       }
     },
     {
+      "player_id": "hltv:20621",
+      "nickname": "nitzie",
+      "team_name": "Butterfly",
+      "rating_3_0": 1.15,
+      "maps_3m": 87,
+      "signal_index": 69,
+      "traits": {
+        "closing": 48,
+        "entrying": 28,
+        "firepower": 66,
+        "opening": 55,
+        "sniping": 91,
+        "trading": 43,
+        "utility": 56
+      },
+      "hltv_player_id": "20621",
+      "source_url": "https://www.hltv.org/player/20621/nitzie",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399104",
+          "date": "2026-10-21",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "Butterfly",
+          "won": false,
+          "kills": 18,
+          "deaths": 30,
+          "kd_ratio": 0.6,
+          "adr": 47,
+          "kast": 58.1,
+          "rating": 0.74,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399328",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Lavked",
+          "team_name": "Butterfly",
+          "won": false,
+          "kills": 55,
+          "deaths": 39,
+          "kd_ratio": 1.41,
+          "adr": 95.5,
+          "kast": 75,
+          "rating": 1.58,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Butterfly",
+          "from_date": "2026-10-21",
+          "through_date": "2026-10-22",
+          "series": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0,
+          "average_rating": 1.16,
+          "average_adr": 71.3
+        }
+      ],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:35:04Z",
+      "stats_source_url": "https://www.hltv.org/player/20621/nitzie",
+      "form_summary": {
+        "series": 2,
+        "average_rating": 1.16,
+        "average_adr": 71.3,
+        "recent_rating": 1.16,
+        "rating_delta": null
+      },
+      "timeline_entry": {
+        "match_id": "hltv:2399328",
+        "date": "2026-10-22",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Lavked",
+        "team_name": "Butterfly",
+        "won": false,
+        "kills": 55,
+        "deaths": 39,
+        "kd_ratio": 1.41,
+        "adr": 95.5,
+        "kast": 75,
+        "rating": 1.58,
+        "maps": 3
+      },
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25",
+      "profile_fetched_at_utc": "2026-10-25T20:35:04Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/KQylC1z6uJexR-7_YQ4mQl.png?ixlib=java-2.1.0&w=400&s=d733f86c0374cb459580344e008b73e8"
+    },
+    {
       "player_id": "hltv:16693",
       "hltv_player_id": "16693",
       "nickname": "flameZ",
@@ -7753,6 +7759,88 @@
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/bAxGgKOl7HXfgdNn-Dp3QQ.png?ixlib=java-2.1.0&w=400&s=4bc8eecf90d170cf7572173eb0998b20",
       "traits_through_date": "2026-10-24",
       "signal_index_through_date": "2026-10-24"
+    },
+    {
+      "player_id": "hltv:20813",
+      "nickname": "VLDN",
+      "team_name": "ex-Zero Tenacity",
+      "rating_3_0": 1.15,
+      "maps_3m": 131,
+      "signal_index": 66,
+      "traits": {
+        "closing": 74,
+        "entrying": 49,
+        "firepower": 65,
+        "opening": 31,
+        "sniping": 1,
+        "trading": 40,
+        "utility": 92
+      },
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398396",
+          "date": "2026-10-06",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "MASONIC",
+          "team_name": "ex-Zero Tenacity",
+          "won": true,
+          "kills": 33,
+          "deaths": 19,
+          "kd_ratio": 1.74,
+          "adr": 92.3,
+          "kast": 86.5,
+          "rating": 1.49,
+          "maps": 3
+        }
+      ],
+      "hltv_player_id": "20813",
+      "source_url": "https://www.hltv.org/player/20813/vldn",
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "ex-Zero Tenacity",
+          "from_date": "2026-10-06",
+          "through_date": "2026-10-06",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.49,
+          "average_adr": 92.3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2398396",
+        "date": "2026-10-06",
+        "event_name": "CCT 2026 Europe Series 10",
+        "opponent_name": "MASONIC",
+        "team_name": "ex-Zero Tenacity",
+        "won": true,
+        "kills": 33,
+        "deaths": 19,
+        "kd_ratio": 1.74,
+        "adr": 92.3,
+        "kast": 86.5,
+        "rating": 1.49,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.49,
+        "average_adr": 92.3,
+        "recent_rating": 1.49,
+        "rating_delta": null
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:41:34Z",
+      "stats_source_url": "https://www.hltv.org/player/20813/vldn",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25",
+      "profile_fetched_at_utc": "2026-10-25T20:41:34Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/1nJdaCfmCPu7Xy-4sHxCQv.png?ixlib=java-2.1.0&w=400&s=c26fab7b9bfd01a906ec7bd03d7c082d"
     },
     {
       "player_id": "hltv:19786",
@@ -8808,86 +8896,6 @@
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/YV17JXjtrMTI4G0LULROlE.png?ixlib=java-2.1.0&w=400&s=429021ee8e8ce7cfced630caa82ea4a2",
       "traits_through_date": "2026-10-24",
       "signal_index_through_date": "2026-10-24"
-    },
-    {
-      "player_id": "hltv:20813",
-      "nickname": "VLDN",
-      "team_name": "ex-Zero Tenacity",
-      "rating_3_0": 1.14,
-      "maps_3m": 116,
-      "signal_index": 65,
-      "traits": {
-        "firepower": 61,
-        "entrying": 53,
-        "trading": 32,
-        "opening": 39,
-        "clutching": 72,
-        "sniping": 0,
-        "utility": 90
-      },
-      "form_timeline": [
-        {
-          "match_id": "hltv:2398396",
-          "date": "2026-10-06",
-          "event_name": "CCT 2026 Europe Series 10",
-          "opponent_name": "MASONIC",
-          "team_name": "ex-Zero Tenacity",
-          "won": true,
-          "kills": 33,
-          "deaths": 19,
-          "kd_ratio": 1.74,
-          "adr": 92.3,
-          "kast": 86.5,
-          "rating": 1.49,
-          "maps": 3
-        }
-      ],
-      "hltv_player_id": "20813",
-      "source_url": "https://www.hltv.org/player/20813/vldn",
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "ex-Zero Tenacity",
-          "from_date": "2026-10-06",
-          "through_date": "2026-10-06",
-          "series": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.49,
-          "average_adr": 92.3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2398396",
-        "date": "2026-10-06",
-        "event_name": "CCT 2026 Europe Series 10",
-        "opponent_name": "MASONIC",
-        "team_name": "ex-Zero Tenacity",
-        "won": true,
-        "kills": 33,
-        "deaths": 19,
-        "kd_ratio": 1.74,
-        "adr": 92.3,
-        "kast": 86.5,
-        "rating": 1.49,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 1.49,
-        "average_adr": 92.3,
-        "recent_rating": 1.49,
-        "rating_delta": null
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.339Z",
-      "stats_source_url": "https://www.hltv.org/player/20813/vldn",
-      "traits_through_date": "2026-10-14",
-      "signal_index_through_date": "2026-10-14"
     },
     {
       "player_id": "hltv:26178",
@@ -10363,41 +10371,6 @@
       }
     },
     {
-      "player_id": "hltv:20637",
-      "nickname": "b1elany",
-      "team_name": "9INE",
-      "rating_3_0": 1.13,
-      "maps_3m": 40,
-      "signal_index": 60,
-      "traits": {
-        "firepower": 59,
-        "entrying": 23,
-        "trading": 28,
-        "opening": 48,
-        "clutching": 69,
-        "sniping": 0,
-        "utility": 58
-      },
-      "hltv_player_id": "20637",
-      "source_url": "https://www.hltv.org/player/20637/b1elany",
-      "form_timeline": [],
-      "map_profile": [],
-      "roster_eras": [],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.325Z",
-      "stats_source_url": "https://www.hltv.org/player/20637/b1elany",
-      "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
-        "rating_delta": null
-      }
-    },
-    {
       "player_id": "hltv:21170",
       "nickname": "koala",
       "team_name": "DENDELE",
@@ -11228,6 +11201,84 @@
       "signal_index_through_date": "2026-10-24",
       "profile_fetched_at_utc": "2026-10-24T07:38:58Z",
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/cXsuzC1et8OBnUep1DRh6G.png?ixlib=java-2.1.0&w=400&s=e47bb901a122cf8af29ff792e227895b"
+    },
+    {
+      "player_id": "hltv:20786",
+      "nickname": "tatm",
+      "team_name": "DETONATE",
+      "rating_3_0": 1.13,
+      "maps_3m": 59,
+      "signal_index": 66,
+      "traits": {
+        "closing": 40,
+        "entrying": 50,
+        "firepower": 90,
+        "opening": 85,
+        "sniping": 13,
+        "trading": 51,
+        "utility": 34
+      },
+      "form_timeline": [],
+      "hltv_player_id": "20786",
+      "source_url": "https://www.hltv.org/player/20786/tatm",
+      "map_profile": [],
+      "roster_eras": [],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:39:08Z",
+      "stats_source_url": "https://www.hltv.org/player/20786/tatm",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-10-25T20:39:08Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/Csat0zW8zMvxDXJVc_wcYc.png?ixlib=java-2.1.0&w=400&s=7fa67e4f61685833eb78e102c6ff1104",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25"
+    },
+    {
+      "player_id": "hltv:20637",
+      "nickname": "b1elany",
+      "team_name": "9INE",
+      "rating_3_0": 1.12,
+      "maps_3m": 43,
+      "signal_index": 59,
+      "traits": {
+        "closing": 66,
+        "entrying": 28,
+        "firepower": 59,
+        "opening": 30,
+        "sniping": 2,
+        "trading": 38,
+        "utility": 55
+      },
+      "hltv_player_id": "20637",
+      "source_url": "https://www.hltv.org/player/20637/b1elany",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": [],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:35:33Z",
+      "stats_source_url": "https://www.hltv.org/player/20637/b1elany",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-10-25T20:35:33Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/JHUqAotcG2DdiAZfL1nWMV.png?ixlib=java-2.1.0&w=400&s=fff6fd9070ce80f8c2c6e5a88f9e1c1d",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25"
     },
     {
       "player_id": "hltv:20522",
@@ -17959,16 +18010,16 @@
       "nickname": "xerolte",
       "team_name": "NEXVOID",
       "rating_3_0": 1.1,
-      "maps_3m": 80,
-      "signal_index": 61,
+      "maps_3m": 96,
+      "signal_index": 59,
       "traits": {
-        "firepower": 73,
-        "entrying": 23,
-        "trading": 33,
-        "opening": 63,
-        "clutching": 51,
-        "sniping": 2,
-        "utility": 64
+        "closing": 53,
+        "entrying": 27,
+        "firepower": 69,
+        "opening": 54,
+        "sniping": 8,
+        "trading": 36,
+        "utility": 36
       },
       "hltv_player_id": "20703",
       "source_url": "https://www.hltv.org/player/20703/xerolte",
@@ -17978,8 +18029,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.333Z",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:36:56Z",
       "stats_source_url": "https://www.hltv.org/player/20703/xerolte",
       "form_summary": {
         "series": 0,
@@ -17987,7 +18038,11 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-10-25T20:36:56Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/sjxR3IU1kHnvWOBdmv9ayh.png?ixlib=java-2.1.0&w=400&s=9e3b438ab9a63293c24dbc20094d6b86",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25"
     },
     {
       "player_id": "hltv:25253",
@@ -22280,6 +22335,88 @@
       "signal_index_through_date": "2026-10-25"
     },
     {
+      "player_id": "hltv:20690",
+      "nickname": "zock",
+      "team_name": "Bounty Hunters",
+      "rating_3_0": 1.09,
+      "maps_3m": 80,
+      "signal_index": 63,
+      "traits": {
+        "closing": 54,
+        "entrying": 52,
+        "firepower": 63,
+        "opening": 55,
+        "sniping": 20,
+        "trading": 56,
+        "utility": 38
+      },
+      "hltv_player_id": "20690",
+      "source_url": "https://www.hltv.org/player/20690/zock",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399203",
+          "date": "2026-10-12",
+          "event_name": "ESL Challenger League Season 52 South America Cup 3",
+          "opponent_name": "Galorys",
+          "team_name": "Bounty Hunters",
+          "won": false,
+          "kills": 42,
+          "deaths": 38,
+          "kd_ratio": 1.11,
+          "adr": 72.8,
+          "kast": 75.8,
+          "rating": 1.02,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Bounty Hunters",
+          "from_date": "2026-10-12",
+          "through_date": "2026-10-12",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.02,
+          "average_adr": 72.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399203",
+        "date": "2026-10-12",
+        "event_name": "ESL Challenger League Season 52 South America Cup 3",
+        "opponent_name": "Galorys",
+        "team_name": "Bounty Hunters",
+        "won": false,
+        "kills": 42,
+        "deaths": 38,
+        "kd_ratio": 1.11,
+        "adr": 72.8,
+        "kast": 75.8,
+        "rating": 1.02,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.02,
+        "average_adr": 72.8,
+        "recent_rating": 1.02,
+        "rating_delta": null
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:36:00Z",
+      "stats_source_url": "https://www.hltv.org/player/20690/zock",
+      "profile_fetched_at_utc": "2026-10-25T20:36:00Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/DNEw43j54JGpTW4YUH7JlZ.png?ixlib=java-2.1.0&w=400&s=173fb2f3d9ea57f1a9a5f461c54c3f2b",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25"
+    },
+    {
       "player_id": "hltv:18610",
       "nickname": "detr0ittJ",
       "team_name": "Galorys",
@@ -22984,84 +23121,6 @@
       "stats_through_date": "2026-10-13",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.331Z",
       "stats_source_url": "https://www.hltv.org/player/23461/pepe"
-    },
-    {
-      "player_id": "hltv:20690",
-      "nickname": "zock",
-      "team_name": "Bounty Hunters",
-      "rating_3_0": 1.08,
-      "maps_3m": 93,
-      "signal_index": 63,
-      "traits": {
-        "firepower": 60,
-        "entrying": 58,
-        "trading": 55,
-        "opening": 55,
-        "clutching": 63,
-        "sniping": 5,
-        "utility": 47
-      },
-      "hltv_player_id": "20690",
-      "source_url": "https://www.hltv.org/player/20690/zock",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399203",
-          "date": "2026-10-12",
-          "event_name": "ESL Challenger League Season 52 South America Cup 3",
-          "opponent_name": "Galorys",
-          "team_name": "Bounty Hunters",
-          "won": false,
-          "kills": 42,
-          "deaths": 38,
-          "kd_ratio": 1.11,
-          "adr": 72.8,
-          "kast": 75.8,
-          "rating": 1.02,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Bounty Hunters",
-          "from_date": "2026-10-12",
-          "through_date": "2026-10-12",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.02,
-          "average_adr": 72.8
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399203",
-        "date": "2026-10-12",
-        "event_name": "ESL Challenger League Season 52 South America Cup 3",
-        "opponent_name": "Galorys",
-        "team_name": "Bounty Hunters",
-        "won": false,
-        "kills": 42,
-        "deaths": 38,
-        "kd_ratio": 1.11,
-        "adr": 72.8,
-        "kast": 75.8,
-        "rating": 1.02,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 1.02,
-        "average_adr": 72.8,
-        "recent_rating": 1.02,
-        "rating_delta": null
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.332Z",
-      "stats_source_url": "https://www.hltv.org/player/20690/zock"
     },
     {
       "player_id": "hltv:22333",
@@ -25139,41 +25198,6 @@
       }
     },
     {
-      "player_id": "hltv:20786",
-      "nickname": "tatm",
-      "team_name": "DETONATE",
-      "rating_3_0": 1.07,
-      "maps_3m": 43,
-      "signal_index": 63,
-      "traits": {
-        "firepower": 62,
-        "entrying": 47,
-        "trading": 35,
-        "opening": 62,
-        "clutching": 53,
-        "sniping": 4,
-        "utility": 79
-      },
-      "form_timeline": [],
-      "hltv_player_id": "20786",
-      "source_url": "https://www.hltv.org/player/20786/tatm",
-      "map_profile": [],
-      "roster_eras": [],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-09",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.343Z",
-      "stats_source_url": "https://www.hltv.org/player/20786/tatm",
-      "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
-        "rating_delta": null
-      }
-    },
-    {
       "player_id": "hltv:25588",
       "nickname": "tyr1k",
       "team_name": "WBT",
@@ -27002,16 +27026,16 @@
       "nickname": "leen",
       "team_name": "Leo",
       "rating_3_0": 1.06,
-      "maps_3m": 123,
+      "maps_3m": 129,
       "signal_index": 63,
       "traits": {
-        "firepower": 55,
-        "entrying": 53,
-        "trading": 44,
-        "opening": 61,
-        "clutching": 42,
-        "sniping": 0,
-        "utility": 91
+        "closing": 37,
+        "entrying": 50,
+        "firepower": 81,
+        "opening": 67,
+        "sniping": 4,
+        "trading": 61,
+        "utility": 56
       },
       "hltv_player_id": "20794",
       "source_url": "https://www.hltv.org/player/20794/leen",
@@ -27021,8 +27045,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.330Z",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:40:00Z",
       "stats_source_url": "https://www.hltv.org/player/20794/leen",
       "form_summary": {
         "series": 0,
@@ -27030,7 +27054,11 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-10-25T20:40:00Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/1uRzCfvbhaKVzk-hbD43A3.png?ixlib=java-2.1.0&w=400&s=9b71fad9a6c0417fbaeb9ee2a52c36e7",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25"
     },
     {
       "player_id": "hltv:23100",
@@ -33739,43 +33767,6 @@
       "signal_index_through_date": "2026-10-24"
     },
     {
-      "player_id": "hltv:20702",
-      "nickname": "Jee",
-      "team_name": "TYLOO",
-      "rating_3_0": 1.04,
-      "maps_3m": 30,
-      "signal_index": 66,
-      "traits": {
-        "firepower": 54,
-        "entrying": 12,
-        "trading": 52,
-        "opening": 49,
-        "clutching": 73,
-        "sniping": 91,
-        "utility": 63
-      },
-      "form_timeline": [],
-      "hltv_player_id": "20702",
-      "source_url": "https://www.hltv.org/player/20702/jee",
-      "map_profile": [],
-      "roster_eras": [],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-14",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.338Z",
-      "stats_source_url": "https://www.hltv.org/player/20702/jee",
-      "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
-        "rating_delta": null
-      },
-      "traits_through_date": "2026-10-14",
-      "signal_index_through_date": "2026-10-14"
-    },
-    {
       "player_id": "hltv:20895",
       "nickname": "Mercury",
       "team_name": "TYLOO",
@@ -34735,6 +34726,45 @@
           "average_adr": 76.4
         }
       ]
+    },
+    {
+      "player_id": "hltv:20782",
+      "nickname": "Goody",
+      "team_name": "Atreides",
+      "rating_3_0": 1.04,
+      "maps_3m": 56,
+      "signal_index": 61,
+      "traits": {
+        "closing": 27,
+        "entrying": 50,
+        "firepower": 66,
+        "opening": 78,
+        "sniping": 12,
+        "trading": 71,
+        "utility": 28
+      },
+      "hltv_player_id": "20782",
+      "source_url": "https://www.hltv.org/player/20782/goody",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": [],
+      "profile_fetched_at_utc": "2026-10-25T20:38:40Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/FuzwpIktpXagM_D8N9apUX.png?ixlib=java-2.1.0&w=400&s=9fa9b7a8cb4ebcc42e25a07d9788cf4f",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:38:40Z",
+      "stats_source_url": "https://www.hltv.org/player/20782/goody",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:20600",
@@ -35813,6 +35843,45 @@
       "signal_index_through_date": "2026-10-25",
       "profile_fetched_at_utc": "2026-10-25T08:06:39Z",
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/ZDHRYQqvdbq_UxjVk1DiXo.png?ixlib=java-2.1.0&w=400&s=9a820fd4de49a17ab762176e3d64560a"
+    },
+    {
+      "player_id": "hltv:20702",
+      "nickname": "Jee",
+      "team_name": "TYLOO",
+      "rating_3_0": 1.02,
+      "maps_3m": 34,
+      "signal_index": 66,
+      "traits": {
+        "closing": 73,
+        "entrying": 34,
+        "firepower": 46,
+        "opening": 22,
+        "sniping": 90,
+        "trading": 65,
+        "utility": 72
+      },
+      "form_timeline": [],
+      "hltv_player_id": "20702",
+      "source_url": "https://www.hltv.org/player/20702/jee",
+      "map_profile": [],
+      "roster_eras": [],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:36:31Z",
+      "stats_source_url": "https://www.hltv.org/player/20702/jee",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25",
+      "profile_fetched_at_utc": "2026-10-25T20:36:31Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/CKGClHVyKUNZ6rfGk9l21h.png?ixlib=java-2.1.0&w=400&s=eccc0cfff8956e18407a8edd53cecea9"
     },
     {
       "player_id": "hltv:19707",
@@ -37970,6 +38039,45 @@
       },
       "profile_fetched_at_utc": "2026-10-25T20:26:59Z",
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/wa1wl6qJlm9RDuliS9o3Kt.png?ixlib=java-2.1.0&w=400&s=b242e3627633011484c495dc670ff8bc",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25"
+    },
+    {
+      "player_id": "hltv:20607",
+      "nickname": "buda",
+      "team_name": "BESTIA",
+      "rating_3_0": 1.02,
+      "maps_3m": 60,
+      "signal_index": 64,
+      "traits": {
+        "closing": 34,
+        "entrying": 63,
+        "firepower": 78,
+        "opening": 80,
+        "sniping": 1,
+        "trading": 68,
+        "utility": 55
+      },
+      "hltv_player_id": "20607",
+      "source_url": "https://www.hltv.org/player/20607/buda",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": [],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:34:36Z",
+      "stats_source_url": "https://www.hltv.org/player/20607/buda",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-10-25T20:34:36Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/dzF-NB8yIKgGhFusYTO97S.png?ixlib=java-2.1.0&w=400&s=8ffb22fb0275bf13468cd85bac44b824",
       "traits_through_date": "2026-10-25",
       "signal_index_through_date": "2026-10-25"
     },
@@ -46188,41 +46296,6 @@
       "signal_index_through_date": "2026-10-13"
     },
     {
-      "player_id": "hltv:20607",
-      "nickname": "buda",
-      "team_name": "BESTIA",
-      "rating_3_0": 0.97,
-      "maps_3m": 51,
-      "signal_index": 60,
-      "traits": {
-        "firepower": 48,
-        "entrying": 76,
-        "trading": 46,
-        "opening": 72,
-        "clutching": 31,
-        "sniping": 0,
-        "utility": 79
-      },
-      "hltv_player_id": "20607",
-      "source_url": "https://www.hltv.org/player/20607/buda",
-      "form_timeline": [],
-      "map_profile": [],
-      "roster_eras": [],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.321Z",
-      "stats_source_url": "https://www.hltv.org/player/20607/buda",
-      "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
-        "rating_delta": null
-      }
-    },
-    {
       "player_id": "hltv:24553",
       "nickname": "N1KOLAJ",
       "team_name": "LPH",
@@ -49127,15 +49200,15 @@
       "team_name": "BERG",
       "rating_3_0": 0.95,
       "maps_3m": 48,
-      "signal_index": 58,
+      "signal_index": 60,
       "traits": {
-        "firepower": 34,
-        "entrying": 40,
-        "trading": 41,
-        "opening": 51,
-        "clutching": 42,
-        "sniping": 72,
-        "utility": 52
+        "closing": 16,
+        "entrying": 68,
+        "firepower": 26,
+        "opening": 67,
+        "sniping": 84,
+        "trading": 59,
+        "utility": 42
       },
       "hltv_player_id": "20739",
       "source_url": "https://www.hltv.org/player/20739/askan",
@@ -49145,8 +49218,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.329Z",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:37:21Z",
       "stats_source_url": "https://www.hltv.org/player/20739/askan",
       "form_summary": {
         "series": 0,
@@ -49154,7 +49227,11 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-10-25T20:37:21Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/6TR8hyGxJdvGk4MYm6QNL8.png?ixlib=java-2.1.0&w=400&s=cdd21db3fb23526fb556abd1c4107616",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25"
     },
     {
       "player_id": "hltv:26059",
@@ -51158,13 +51235,13 @@
       "maps_3m": 29,
       "signal_index": 60,
       "traits": {
-        "firepower": 20,
-        "entrying": 93,
-        "trading": 74,
-        "opening": 57,
-        "clutching": 35,
+        "closing": 38,
+        "entrying": 89,
+        "firepower": 21,
+        "opening": 55,
         "sniping": 0,
-        "utility": 81
+        "trading": 84,
+        "utility": 72
       },
       "form_timeline": [
         {
@@ -51224,9 +51301,13 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.340Z",
-      "stats_source_url": "https://www.hltv.org/player/20750/p3r3iira"
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:37:45Z",
+      "stats_source_url": "https://www.hltv.org/player/20750/p3r3iira",
+      "profile_fetched_at_utc": "2026-10-25T20:37:45Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/4AR1osXc7On3gPGF7kqm-R.png?ixlib=java-2.1.0&w=400&s=47e504450912086c12c7f393ce7352d4",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25"
     },
     {
       "player_id": "hltv:23077",
@@ -53949,15 +54030,15 @@
       "team_name": "BERG",
       "rating_3_0": 0.9,
       "maps_3m": 53,
-      "signal_index": 49,
+      "signal_index": 52,
       "traits": {
-        "firepower": 23,
-        "entrying": 31,
-        "trading": 57,
-        "opening": 23,
-        "clutching": 34,
-        "sniping": 0,
-        "utility": 72
+        "closing": 43,
+        "entrying": 33,
+        "firepower": 45,
+        "opening": 36,
+        "sniping": 1,
+        "trading": 76,
+        "utility": 45
       },
       "hltv_player_id": "20805",
       "source_url": "https://www.hltv.org/player/20805/rezst",
@@ -53967,8 +54048,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.329Z",
+      "stats_through_date": "2026-10-25",
+      "stats_fetched_at_utc": "2026-10-25T20:40:26Z",
       "stats_source_url": "https://www.hltv.org/player/20805/rezst",
       "form_summary": {
         "series": 0,
@@ -53976,7 +54057,11 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-10-25T20:40:26Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/ibOG8FNueS1mJ-q32e96t1.png?ixlib=java-2.1.0&w=400&s=0e830cc36fdcce6d9ec328b39fc891c0",
+      "traits_through_date": "2026-10-25",
+      "signal_index_through_date": "2026-10-25"
     },
     {
       "player_id": "hltv:23786",
@@ -58416,20 +58501,6 @@
       "traits": {},
       "hltv_player_id": "21688",
       "source_url": "https://www.hltv.org/player/21688/shoke",
-      "form_timeline": [],
-      "map_profile": [],
-      "roster_eras": []
-    },
-    {
-      "player_id": "hltv:20782",
-      "nickname": "Goody",
-      "team_name": "Atreides",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "20782",
-      "source_url": "https://www.hltv.org/player/20782/goody",
       "form_timeline": [],
       "map_profile": [],
       "roster_eras": []
@@ -74446,19 +74517,19 @@
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-10-25T20:33:30Z",
+    "checked_at_utc": "2026-10-25T20:43:55Z",
     "requested": 869,
-    "cached": 178,
-    "attempted": 276,
-    "succeeded": 178,
-    "failed": 10,
-    "portraits": 163,
-    "stats": 177,
+    "cached": 192,
+    "attempted": 291,
+    "succeeded": 192,
+    "failed": 11,
+    "portraits": 177,
+    "stats": 191,
     "received": 869,
     "invalid": 0,
     "stale_stats": 0,
-    "profile_updates": 184,
-    "stats_updates": 177,
-    "traits_updates": 177
+    "profile_updates": 198,
+    "stats_updates": 191,
+    "traits_updates": 191
   }
 }
