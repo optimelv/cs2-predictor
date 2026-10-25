@@ -92,7 +92,7 @@ function currentHltvPortrait(player) {
   const url = String(player?.portrait_url || "").trim();
   try {
     const image = new URL(url);
-    const safeImage = image.protocol === "https:" && image.hostname === "img-cdn.hltv.org" && !image.port && !image.username && !image.password && image.pathname.startsWith("/playerbodyshot/");
+    const safeImage = image.protocol === "https:" && image.hostname === "img-cdn.hltv.org" && !image.port && !image.username && !image.password && /^\/(?:playerbodyshot|gallerypicture)\//.test(image.pathname);
     if (!id || !safeImage) return null;
     let sourceUrl = `https://www.hltv.org/player/${id}`;
     try {

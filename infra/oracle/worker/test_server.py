@@ -477,6 +477,19 @@ class WorkerParserTests(unittest.TestCase):
         self.assertNotIn("rating_3_0", player_profile_from_html(html.replace("Past 3 months", "Career"), "7", profile["source_url"]))
         self.assertNotIn("rating_3_0", player_profile_from_html(html.replace("Rating 3.0", "Rating 2.0"), "7", profile["source_url"]))
 
+    def test_gallery_profile_hero_preserves_identity_and_url_guards(self):
+        from server import player_profile_from_html, player_portrait_url
+        gallery = "https://img-cdn.hltv.org/gallerypicture/seven.jpg?rect=1%2C2%2C3%2C4&w=200&s=signed"
+        html = f'''<link rel="canonical" href="https://www.hltv.org/player/7/seven"><h1>Seven</h1>
+        <img alt="Image of Counter-Strike player Seven" src="{gallery}">
+        <img alt="Image of Counter-Strike player Other" src="https://img-cdn.hltv.org/playerbodyshot/other.png">'''
+        self.assertEqual(player_profile_from_html(html, "7", "https://www.hltv.org/player/7/seven")["portrait_url"], gallery)
+        self.assertNotIn("portrait_url", player_profile_from_html(html.replace("player Seven", "player Other"), "7", "https://www.hltv.org/player/7/seven"))
+        with self.assertRaises(ValueError):
+            player_profile_from_html(html, "8", "https://www.hltv.org/player/8/eight")
+        for invalid in ("https://example.test/gallerypicture/seven.jpg", "https://credentials@img-cdn.hltv.org/gallerypicture/seven.jpg", "https://img-cdn.hltv.org:444/gallerypicture/seven.jpg", "https://img-cdn.hltv.org/gallery/seven.jpg"):
+            self.assertIsNone(player_portrait_url(invalid))
+
     def test_player_profile_queue_preserves_zero_and_marks_missing_data_unavailable(self):
         from server import due_player_profile, player_profile_from_html, player_profile_payload, save_player_profile, seed_player_profiles
         with tempfile.TemporaryDirectory() as directory:
