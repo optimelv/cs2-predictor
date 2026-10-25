@@ -55,6 +55,10 @@ state: dict[str, Any] = {
 source_lock = asyncio.Lock()
 
 
+class SourceAccessBlocked(RuntimeError):
+    """Stop the collection attempt when the provider refuses access."""
+
+
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
@@ -655,6 +659,8 @@ async def fetch_url(session, url: str, *, allow_browser: bool = True) -> str:
 
         response = await request_page()
         # Access restrictions stop this attempt; callers apply the normal backoff.
+        if response.status in {403, 429}:
+            raise SourceAccessBlocked(f"Scrapling source returned HTTP {response.status}")
         if response.status != 200:
             raise RuntimeError(f"Scrapling source returned HTTP {response.status}")
         return response.body.decode("utf-8", errors="replace")
@@ -687,6 +693,7 @@ def select_detail_candidates(matches: list[dict[str, Any]], results: list[dict[s
 
 async def fetch_snapshot() -> dict[str, Any]:
     detail_errors: list[str] = []
+    access_error: str | None = None
     async with source_session() as session:
         schedule_html = await fetch_url(session, HLTV_MATCHES_URL)
         results_html = await fetch_url(session, HLTV_RESULTS_URL)
@@ -717,6 +724,12 @@ async def fetch_snapshot() -> dict[str, Any]:
                 if not any(detail.get(key) for key in ("maps", "map_results", "veto_text", "lineups", "player_stats")):
                     raise RuntimeError("Match detail page contained no usable detail")
                 by_id[match["match_id"]] = merge_match_detail(match, {**detail, "detail_fetched_at_utc": utc_now()})
+            except SourceAccessBlocked as exc:
+                # The primary pages were freshly read; keep them with explicit
+                # detail coverage, but stop requests and retain the blocked pause.
+                access_error = f"{type(exc).__name__}: {exc}"
+                detail_errors.append(f"{match['match_id']}: {access_error}")
+                break
             except Exception as exc:
                 detail_errors.append(f"{match['match_id']}: {type(exc).__name__}: {str(exc).splitlines()[0] if str(exc) else 'request deadline exceeded'}")
 
@@ -743,6 +756,7 @@ async def fetch_snapshot() -> dict[str, Any]:
             "detail_matches": len(detail_candidates),
             "detail_cache_hits": len(cached_ids),
             "detail_errors": detail_errors,
+            "access_error": access_error,
             "browser_fallbacks": getattr(session, "browser_fallbacks", 0),
         },
     }
@@ -893,7 +907,7 @@ async def player_profile_once() -> bool:
         save_player_profile(candidate, profile, error="Profile page contained no recognized profile data." if unavailable else None, unavailable=unavailable)
     except Exception as exc:
         save_player_profile(candidate, None, error=f"{type(exc).__name__}: {str(exc).splitlines()[0] if str(exc) else 'request deadline exceeded'}")
-        if re.search(r"403|captcha|cloudflare", str(exc), re.I):
+        if isinstance(exc, SourceAccessBlocked) or re.search(r"403|429|captcha|cloudflare", str(exc), re.I):
             state["player_profile_error"] = "HLTV profile access blocked; preserving verified data and backing off"
             return False
     return True
@@ -1066,7 +1080,7 @@ async def refresh() -> None:
         snapshot = await fetch_snapshot()
         save_snapshot(snapshot)
         state["snapshot"] = snapshot
-        state["last_error"] = None
+        state["last_error"] = (snapshot.get("source_health") or {}).get("access_error")
         try:
             record_results(snapshot.get("matches") or [])
             state["result_archive_error"] = None
