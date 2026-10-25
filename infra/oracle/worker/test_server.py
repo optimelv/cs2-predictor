@@ -68,6 +68,78 @@ class CurrentScheduleTests(unittest.TestCase):
 
 
 class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
+    async def test_blocked_detail_stops_requests_and_retains_the_longer_pause(self):
+        from server import refresh, state, retry_delay, BLOCKED_RETRY_SECONDS
+        previous = {"ok": True, "fetched_at_utc": "2026-10-24T07:20:42Z", "matches": []}
+        matches = [
+            {"match_id": f"hltv:{index}", "source_url": f"https://www.hltv.org/matches/{index}/fixture", "status": "live", "event_id": "hltv:100", "event_name": "Fixture", "team1_name": "Alpha", "team2_name": "Beta"}
+            for index in (1, 2)
+        ]
+
+        for status in (403, 429):
+            responses = [
+                SimpleNamespace(status=200, body=b"schedule"),
+                SimpleNamespace(status=200, body=b"results"),
+                SimpleNamespace(status=status),
+                SimpleNamespace(status=200, body=b"must not be requested"),
+            ]
+            collector = SimpleNamespace(get=AsyncMock(side_effect=responses))
+
+            @asynccontextmanager
+            async def source():
+                yield collector
+
+            with self.subTest(status=status), patch.dict(state, {"snapshot": previous, "last_error": None}, clear=True), patch("server.FETCH_BACKEND", "scrapling-http"), patch("server.source_session", source), patch("server.parse_matches", return_value=matches), patch("server.parse_results", return_value=[]), patch("server.save_snapshot") as save, patch("server.record_results") as record:
+                await refresh()
+                self.assertEqual(collector.get.await_count, 3, "A blocked detail must stop before requesting another match")
+                current = state["snapshot"]
+                self.assertEqual(current["matches"], matches, "Fresh primary-page data remains usable with explicit detail gaps")
+                self.assertNotEqual(current["fetched_at_utc"], previous["fetched_at_utc"])
+                self.assertIn(f"HTTP {status}", current["source_health"]["access_error"])
+                self.assertEqual(len(current["source_health"]["detail_errors"]), 1)
+                self.assertIn(f"HTTP {status}", state["last_error"])
+                self.assertEqual(retry_delay(state["last_error"]), BLOCKED_RETRY_SECONDS)
+                save.assert_called_once_with(current)
+                record.assert_called_once_with(matches)
+
+    async def test_blocked_primary_pages_preserve_previous_snapshot_and_source_time(self):
+        from server import refresh, state
+        previous = {"ok": True, "fetched_at_utc": "2026-10-24T07:20:42Z", "matches": []}
+        for status in (403, 429):
+            for blocked_page in (0, 1):
+                responses = [SimpleNamespace(status=200, body=b"schedule")] * blocked_page + [SimpleNamespace(status=status)]
+                collector = SimpleNamespace(get=AsyncMock(side_effect=responses))
+
+                @asynccontextmanager
+                async def source():
+                    yield collector
+
+                with self.subTest(status=status, page=blocked_page), patch.dict(state, {"snapshot": previous, "last_error": None}, clear=True), patch("server.FETCH_BACKEND", "scrapling-http"), patch("server.source_session", source), patch("server.save_snapshot") as save, patch("server.record_results") as record:
+                    await refresh()
+                    self.assertEqual(collector.get.await_count, blocked_page + 1)
+                    self.assertIs(state["snapshot"], previous)
+                    self.assertEqual(state["snapshot"]["fetched_at_utc"], "2026-10-24T07:20:42Z")
+                    self.assertIn(f"HTTP {status}", state["last_error"])
+                    save.assert_not_called()
+                    record.assert_not_called()
+
+    async def test_profile_rate_limit_uses_blocked_source_pause(self):
+        from server import player_profile_once, state
+        candidate = {"player_id": "hltv:1", "hltv_player_id": 1, "nickname": "Fixture", "source_url": "https://www.hltv.org/player/1/fixture"}
+
+        for status in (403, 429):
+            collector = SimpleNamespace(get=AsyncMock(return_value=SimpleNamespace(status=status)))
+
+            @asynccontextmanager
+            async def source():
+                yield collector
+
+            with self.subTest(status=status), patch.dict(state, {}, clear=True), patch("server.FETCH_BACKEND", "scrapling-http"), patch("server.due_player_profile", return_value=candidate), patch("server.source_session", source), patch("server.save_player_profile") as save:
+                self.assertFalse(await player_profile_once(), "A blocked source must pause instead of moving to the next player")
+                self.assertIn("blocked", state["player_profile_error"])
+                collector.get.assert_awaited_once()
+                self.assertIn(f"HTTP {status}", save.call_args.kwargs["error"])
+
     async def test_blocked_source_uses_longer_retry_delay(self):
         from server import BLOCKED_RETRY_SECONDS, POLL_SECONDS, retry_delay
         self.assertEqual(retry_delay("RuntimeError('Scrapling source returned HTTP 403')"), BLOCKED_RETRY_SECONDS)
