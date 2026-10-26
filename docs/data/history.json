@@ -1,18 +1,84 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-10-26T09:10:40Z",
-  "through_date": "2026-10-25",
+  "through_date": "2026-10-26",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4166,
+    "matches": 4169,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:26c84361a15b76fd4be0",
+      "match_date": "2026-10-26",
+      "starts_at": "2026-10-26T03:00:00Z",
+      "event_name": "DFRAG Invitational 2026 - Group A",
+      "team1_name": "Chops",
+      "team2_name": "GZ",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Chops",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:61bd9533aa0c870a0b58",
+      "match_date": "2026-10-26",
+      "starts_at": "2026-10-26T06:00:00Z",
+      "event_name": "DFRAG Invitational 2026 - Group A",
+      "team1_name": "AE",
+      "team2_name": "Chops",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "AE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:cffb8607bcaf415bd402",
+      "match_date": "2026-10-26",
+      "starts_at": "2026-10-26T07:45:00Z",
+      "event_name": "DFRAG Invitational 2026 - Group A",
+      "team1_name": "GZ",
+      "team2_name": "NEXV",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NEXV",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Group_A"
+    },
     {
       "match_id": "hltv:2399505",
       "match_date": "2026-10-25",
