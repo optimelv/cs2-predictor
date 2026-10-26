@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-26T17:46:05Z",
+  "generated_at_utc": "2026-10-26T20:17:53Z",
   "through_date": "2026-10-26",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4179,
+    "matches": 4180,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
@@ -298,6 +298,28 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_3"
+    },
+    {
+      "match_id": "hltv:2399511",
+      "match_date": "2026-10-26",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "6yuBoJlbl",
+      "team2_name": "mellren",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "6yuBoJlbl",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "hltv:2399505",
