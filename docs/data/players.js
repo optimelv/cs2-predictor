@@ -74800,7 +74800,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-10-26T09:42:54Z",
+    "checked_at_utc": "2026-10-26T14:20:41Z",
     "requested": 869,
     "cached": 233,
     "attempted": 334,
