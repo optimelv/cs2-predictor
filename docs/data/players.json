@@ -74791,7 +74791,7 @@
       "signal_index_through_date": null
     }
   ],
-  "lineups_updated_at_utc": "2026-10-26T09:10:40Z",
+  "lineups_updated_at_utc": "2026-10-26T17:46:05Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-25",
   "history_profile_count": 53,
@@ -74800,12 +74800,12 @@
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-10-26T14:34:00Z",
+    "checked_at_utc": "2026-10-26T19:29:07Z",
     "requested": 869,
     "cached": 233,
-    "attempted": 334,
+    "attempted": 335,
     "succeeded": 233,
-    "failed": 13,
+    "failed": 14,
     "portraits": 216,
     "stats": 232,
     "received": 869,

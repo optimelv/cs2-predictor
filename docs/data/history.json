@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-26T09:10:40Z",
+  "generated_at_utc": "2026-10-26T17:46:05Z",
   "through_date": "2026-10-26",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4169,
+    "matches": 4171,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
@@ -78,6 +78,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Group_A"
+    },
+    {
+      "match_id": "hltv:2399509",
+      "match_date": "2026-10-26",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "LFO 10",
+      "team2_name": "ex-6666",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "LFO 10",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399510",
+      "match_date": "2026-10-26",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "HAVU",
+      "team2_name": "Illyrians",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Illyrians",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "hltv:2399505",
