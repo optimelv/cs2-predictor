@@ -806,6 +806,29 @@ def archive_connection(path: Path | None = None) -> sqlite3.Connection:
     return connection
 
 
+
+def save_source_retry(stream: str, delay: int) -> None:
+    deadline = (datetime.now(timezone.utc) + timedelta(seconds=delay)).isoformat().replace("+00:00", "Z")
+    with archive_connection() as connection:
+        connection.execute("INSERT OR REPLACE INTO archive_meta(key,value) VALUES (?,?)", (f"source_retry_{stream}_utc", deadline))
+
+
+async def wait_for_source_retry(stream: str) -> None:
+    # Persisted deadlines keep a worker restart from shortening source backoff.
+    while True:
+        with archive_connection() as connection:
+            row = connection.execute("SELECT value FROM archive_meta WHERE key=?", (f"source_retry_{stream}_utc",)).fetchone()
+        if row is None:
+            return
+        deadline = datetime.fromisoformat(row[0].replace("Z", "+00:00"))
+        if deadline.tzinfo is None:
+            raise ValueError("Source retry deadline must include a timezone")
+        remaining = (deadline - datetime.now(timezone.utc)).total_seconds()
+        if remaining <= 0:
+            return
+        await asyncio.sleep(remaining)
+
+
 def merge_profile_payload(existing: dict[str, Any], incoming: dict[str, Any]) -> dict[str, Any]:
     """Keep known values when a partial profile response omits them; zero is data."""
     merged = {**existing}
@@ -917,6 +940,7 @@ async def player_profile_refresh_loop() -> None:
     await asyncio.sleep(45)
     seeded_at: datetime | None = None
     while True:
+        await wait_for_source_retry("profiles")
         try:
             if seeded_at is None or (datetime.now(timezone.utc) - seeded_at).total_seconds() >= PLAYER_SEED_REFRESH_SECONDS:
                 try:
@@ -933,7 +957,7 @@ async def player_profile_refresh_loop() -> None:
             processed = False
             state["player_profile_error"] = repr(exc)
             print(json.dumps({"player_profile_error": state["player_profile_error"]}), flush=True)
-        await asyncio.sleep(PLAYER_PROFILE_DELAY_SECONDS if processed else PLAYER_PROFILE_RETRY_SECONDS)
+        save_source_retry("profiles", PLAYER_PROFILE_DELAY_SECONDS if processed else PLAYER_PROFILE_RETRY_SECONDS)
 
 
 def player_profile_payload(path: Path | None = None) -> dict[str, Any]:
@@ -1062,6 +1086,7 @@ async def backfill_batch() -> bool:
 async def backfill_loop() -> None:
     await asyncio.sleep(30)
     while True:
+        await wait_for_source_retry("archive")
         try:
             complete = await backfill_batch()
             state["archive_error"] = None
@@ -1071,7 +1096,7 @@ async def backfill_loop() -> None:
             state["archive_error"] = repr(exc)
             print(json.dumps({"backfill_error": state["archive_error"]}), flush=True)
         delay = retry_delay(state["archive_error"]) if state["archive_error"] else BACKFILL_INTERVAL_SECONDS
-        await asyncio.sleep(delay)
+        save_source_retry("archive", delay)
 
 
 async def refresh() -> None:
@@ -1092,8 +1117,9 @@ async def refresh() -> None:
 
 async def refresh_loop(app: web.Application) -> None:
     while True:
+        await wait_for_source_retry("match")
         await refresh()
-        await asyncio.sleep(retry_delay(state.get("last_error")))
+        save_source_retry("match", retry_delay(state.get("last_error")))
 
 
 async def on_startup(app: web.Application) -> None:

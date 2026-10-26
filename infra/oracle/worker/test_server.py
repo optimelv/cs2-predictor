@@ -4,7 +4,7 @@ import tempfile
 import asyncio
 import sys
 from unittest.mock import AsyncMock, patch
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from types import SimpleNamespace
 from contextlib import asynccontextmanager
@@ -24,6 +24,91 @@ class PrivateArchiveTests(unittest.IsolatedAsyncioTestCase):
                     await handler(SimpleNamespace(headers={"Authorization": "Bearer wrong"}))
                 response = await handler(SimpleNamespace(headers={"Authorization": "Bearer correct"}))
                 self.assertEqual(response.status, 200)
+
+
+class SourceRetryTests(unittest.IsolatedAsyncioTestCase):
+    async def test_retry_deadline_survives_reopen_and_preserves_other_streams(self):
+        from server import archive_connection, save_source_retry, wait_for_source_retry
+        with tempfile.TemporaryDirectory() as directory, patch("server.ARCHIVE_PATH", Path(directory) / "results.sqlite3"):
+            save_source_retry("profiles", 3600)
+            save_source_retry("match", 1800)
+            with archive_connection() as connection:
+                deadlines = dict(connection.execute("SELECT key,value FROM archive_meta"))
+            self.assertEqual(set(deadlines), {"source_retry_profiles_utc", "source_retry_match_utc"})
+            with patch("server.asyncio.sleep", new=AsyncMock(side_effect=asyncio.CancelledError)) as sleep:
+                with self.assertRaises(asyncio.CancelledError):
+                    await wait_for_source_retry("profiles")
+                self.assertGreater(sleep.await_args.args[0], 3590)
+
+    async def test_wait_rechecks_deadline_after_waking(self):
+        from server import save_source_retry, wait_for_source_retry
+        with tempfile.TemporaryDirectory() as directory, patch("server.ARCHIVE_PATH", Path(directory) / "results.sqlite3"):
+            save_source_retry("match", 1800)
+            waits = []
+
+            async def sleep(delay):
+                waits.append(delay)
+                if len(waits) == 1:
+                    save_source_retry("match", 3600)
+                    return
+                raise asyncio.CancelledError
+
+            with patch("server.asyncio.sleep", new=AsyncMock(side_effect=sleep)):
+                with self.assertRaises(asyncio.CancelledError):
+                    await wait_for_source_retry("match")
+            self.assertEqual(len(waits), 2)
+            self.assertGreater(waits[0], 1790)
+            self.assertGreater(waits[1], 3590)
+
+    async def test_missing_expired_and_invalid_deadlines(self):
+        from server import archive_connection, save_source_retry, wait_for_source_retry
+        with tempfile.TemporaryDirectory() as directory, patch("server.ARCHIVE_PATH", Path(directory) / "results.sqlite3"), patch("server.asyncio.sleep", new=AsyncMock()) as sleep:
+            await wait_for_source_retry("match")
+            save_source_retry("match", -1)
+            await wait_for_source_retry("match")
+            sleep.assert_not_awaited()
+            for value in ("invalid", "2026-10-26T08:00:00"):
+                with self.subTest(value=value):
+                    with archive_connection() as connection:
+                        connection.execute("UPDATE archive_meta SET value=? WHERE key='source_retry_match_utc'", (value,))
+                    with self.assertRaises(ValueError):
+                        await wait_for_source_retry("match")
+            sleep.assert_not_awaited()
+
+    async def test_each_collector_waits_before_source_access_after_restart(self):
+        from server import save_source_retry, refresh_loop, backfill_loop, player_profile_refresh_loop
+        for stream, loop, initial_delay in (("match", lambda: refresh_loop({}), None), ("archive", backfill_loop, 30), ("profiles", player_profile_refresh_loop, 45)):
+            with self.subTest(stream=stream), tempfile.TemporaryDirectory() as directory, patch("server.ARCHIVE_PATH", Path(directory) / "results.sqlite3"):
+                save_source_retry(stream, 3600)
+
+                async def sleep(delay):
+                    if delay == initial_delay:
+                        return
+                    self.assertGreater(delay, 3590)
+                    raise asyncio.CancelledError
+
+                with patch("server.asyncio.sleep", new=AsyncMock(side_effect=sleep)), patch("server.refresh", new=AsyncMock()) as refresh, patch("server.backfill_batch", new=AsyncMock()) as backfill, patch("server.player_profile_once", new=AsyncMock()) as profile, patch("server.fetch_canonical_player_seed", new=AsyncMock()) as seed:
+                    with self.assertRaises(asyncio.CancelledError):
+                        await loop()
+                    for collector in (refresh, backfill, profile, seed):
+                        collector.assert_not_awaited()
+
+    async def test_collectors_persist_backoff_before_yielding(self):
+        from server import archive_connection, refresh_loop, backfill_loop, player_profile_refresh_loop, BLOCKED_RETRY_SECONDS, PLAYER_PROFILE_RETRY_SECONDS
+        for stream, loop, initial_delay, expected in (("match", lambda: refresh_loop({}), None, BLOCKED_RETRY_SECONDS), ("archive", backfill_loop, 30, BLOCKED_RETRY_SECONDS), ("profiles", player_profile_refresh_loop, 45, PLAYER_PROFILE_RETRY_SECONDS)):
+            with self.subTest(stream=stream), tempfile.TemporaryDirectory() as directory, patch("server.ARCHIVE_PATH", Path(directory) / "results.sqlite3"), patch("server.state", {"last_error": "HTTP 429"}):
+                async def sleep(delay):
+                    if delay == initial_delay:
+                        return
+                    with archive_connection() as connection:
+                        row = connection.execute("SELECT value FROM archive_meta WHERE key=?", (f"source_retry_{stream}_utc",)).fetchone()
+                    deadline = datetime.fromisoformat(row[0].replace("Z", "+00:00"))
+                    self.assertGreater(deadline, datetime.now(timezone.utc) + timedelta(seconds=expected - 10))
+                    raise asyncio.CancelledError
+
+                with patch("server.asyncio.sleep", new=AsyncMock(side_effect=sleep)), patch("server.refresh", new=AsyncMock()), patch("server.backfill_batch", new=AsyncMock(side_effect=RuntimeError("HTTP 403"))), patch("server.player_profile_once", new=AsyncMock(return_value=False)), patch("server.fetch_canonical_player_seed", new=AsyncMock(return_value=[])), patch("server.seed_player_profiles", return_value=0):
+                    with self.assertRaises(asyncio.CancelledError):
+                        await loop()
 
 
 class CurrentScheduleTests(unittest.TestCase):
@@ -234,7 +319,7 @@ class WorkerLifecycleTests(unittest.IsolatedAsyncioTestCase):
             started.set()
             await blocked.wait()
 
-        with patch("server.load_snapshot", return_value={"ok": True}), patch("server.archive_connection"), patch("server.ARCHIVE_BACKFILL_ENABLED", False), patch("server.refresh", new=AsyncMock(side_effect=collect)) as refresh:
+        with tempfile.TemporaryDirectory() as directory, patch("server.ARCHIVE_PATH", Path(directory) / "results.sqlite3"), patch("server.load_snapshot", return_value={"ok": True}), patch("server.ARCHIVE_BACKFILL_ENABLED", False), patch("server.refresh", new=AsyncMock(side_effect=collect)) as refresh:
             try:
                 await asyncio.wait_for(on_startup(app), timeout=1)
                 await asyncio.wait_for(started.wait(), timeout=1)
