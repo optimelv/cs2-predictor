@@ -1,7 +1,7 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-10-26T20:17:53Z",
+  "fetched_at_utc": "2026-10-26T21:18:53Z",
   "poll_after_ms": 180000,
   "events": [
     {
@@ -2488,7 +2488,7 @@
     "source": "Valve Regional Standings",
     "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_10_05.md",
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-26T20:33:10Z",
+    "checked_at_utc": "2026-10-26T21:51:47Z",
     "scope": "global",
     "status": "official_snapshot",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
@@ -2857,7 +2857,7 @@
   },
   "source": "HLTV via Oracle Scrapling",
   "source_health": {
-    "scheduled_matches": 37,
+    "scheduled_matches": 42,
     "recent_results": 80,
     "detail_matches": 4,
     "detail_cache_hits": 0,

@@ -70243,7 +70243,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-10-26T20:17:53Z",
+  "last_verified_utc": "2026-10-26T21:18:53Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -70268,7 +70268,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-26T20:33:10Z",
+    "checked_at_utc": "2026-10-26T21:51:47Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
