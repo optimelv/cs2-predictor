@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4198,
+    "matches": 4205,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
@@ -232,6 +232,160 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:38b3afa0dda2ef7c7a1c",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T08:00:00Z",
+      "event_name": "Tesla Cup 2026 - Group A",
+      "team1_name": "B8",
+      "team2_name": "K27",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "K27",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:d5cacfe521a64f6b9183",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T09:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Playoffs",
+      "team1_name": "BRUTE",
+      "team2_name": "Nemesis",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BRUTE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:3926dbe32af4ef07661e",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T11:00:00Z",
+      "event_name": "Stake Ranked Episode 5",
+      "team1_name": "BIG",
+      "team2_name": "magic",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BIG",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_5#Results"
+    },
+    {
+      "match_id": "liquipedia:22dcb433b901a481ce3c",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T12:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Playoffs",
+      "team1_name": "FOKUS",
+      "team2_name": "NTR",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FOKUS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:607dbadaafd1b5e71340",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T14:25:00Z",
+      "event_name": "Stake Ranked Episode 5",
+      "team1_name": "IC",
+      "team2_name": "Nemesis",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "IC",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_5#Results"
+    },
+    {
+      "match_id": "liquipedia:49ef3e3417d8876bc6b1",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T15:20:00Z",
+      "event_name": "Tesla Cup 2026 - Group B",
+      "team1_name": "HOTU",
+      "team2_name": "LG",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "HOTU",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:aa6bd59754495052f0f6",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T16:20:00Z",
+      "event_name": "Stake Ranked Episode 5",
+      "team1_name": "Astralis",
+      "team2_name": "Fnatic",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Fnatic",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_5#Results"
     },
     {
       "match_id": "liquipedia:26c84361a15b76fd4be0",
