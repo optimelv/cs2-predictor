@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-27T09:57:09Z",
+  "generated_at_utc": "2026-10-27T18:03:15Z",
   "through_date": "2026-10-27",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4196,
+    "matches": 4198,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
@@ -188,6 +188,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Group_A"
+    },
+    {
+      "match_id": "hltv:2399512",
+      "match_date": "2026-10-27",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Spirit Academy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399513",
+      "match_date": "2026-10-27",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "BAKS",
+      "team2_name": "Saint Sinners",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BAKS",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "liquipedia:26c84361a15b76fd4be0",

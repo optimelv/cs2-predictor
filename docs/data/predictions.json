@@ -28750,84 +28750,85 @@
         },
         "match_id": "hltv:2399743",
         "product_tier": "tier_1",
+        "score1": 1,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399743/liquid-vs-aurora-pgl-masters-bucharest-2026",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-27T11:00:00Z",
-        "status": "upcoming",
+        "status": "finished",
         "team1_name": "Liquid",
         "team2_name": "Aurora",
-        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
+        "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
+        "winner_name": "Aurora"
       },
       {
-        "event_id": "hltv:8050",
+        "event_id": "hltv:pgl-masters-bucharest-2026",
         "event_name": "PGL Masters Bucharest 2026",
         "hltv_match_id": "2399744",
         "match_id": "hltv:2399744",
         "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399744/nemiga-vs-dendele-pgl-masters-bucharest-2026",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-27T11:00:00Z",
-        "status": "upcoming",
+        "status": "finished",
         "team1_name": "Nemiga",
-        "team2_name": "DENDELE"
+        "team2_name": "DENDELE",
+        "winner_name": "Nemiga"
       },
       {
-        "event_id": "hltv:9457",
+        "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
         "hltv_match_id": "2399512",
         "match_id": "hltv:2399512",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399512/ex-rustec-vs-spirit-academy-cct-2026-europe-series-12",
         "stage_name": "Scheduled series",
-        "starts_at": "2026-10-27T12:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-10-27T13:51:41Z",
+        "status": "finished",
         "team1_name": "ex-RUSTEC",
-        "team2_name": "Spirit Academy"
+        "team2_name": "Spirit Academy",
+        "winner_name": "Spirit Academy"
       },
       {
-        "event_id": "hltv:8050",
+        "event_id": "hltv:pgl-masters-bucharest-2026",
         "event_name": "PGL Masters Bucharest 2026",
         "hltv_match_id": "2399745",
         "match_id": "hltv:2399745",
         "product_tier": "tier_1",
+        "score1": 1,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399745/spirit-vs-mouz-pgl-masters-bucharest-2026",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-27T14:00:00Z",
-        "status": "upcoming",
+        "status": "finished",
         "team1_name": "Spirit",
-        "team2_name": "MOUZ"
+        "team2_name": "MOUZ",
+        "winner_name": "MOUZ"
       },
       {
-        "event_id": "hltv:8050",
+        "event_id": "hltv:pgl-masters-bucharest-2026",
         "event_name": "PGL Masters Bucharest 2026",
         "hltv_match_id": "2399746",
         "match_id": "hltv:2399746",
         "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399746/the-mongolz-vs-legacy-pgl-masters-bucharest-2026",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-27T14:00:00Z",
-        "status": "upcoming",
+        "status": "finished",
         "team1_name": "The MongolZ",
-        "team2_name": "Legacy"
-      },
-      {
-        "event_id": "hltv:9457",
-        "event_name": "CCT 2026 Europe Series 12",
-        "hltv_match_id": "2399513",
-        "match_id": "hltv:2399513",
-        "product_tier": "tier_2",
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399513/baks-vs-saint-sinners-cct-2026-europe-series-12",
-        "stage_name": "Scheduled series",
-        "starts_at": "2026-10-27T15:00:00Z",
-        "status": "upcoming",
-        "team1_name": "BAKS",
-        "team2_name": "Saint Sinners"
+        "team2_name": "Legacy",
+        "winner_name": "The MongolZ"
       },
       {
         "event_id": "hltv:8050",
@@ -28839,23 +28840,43 @@
         "source_url": "https://www.hltv.org/matches/2399747/vitality-vs-natus-vincere-pgl-masters-bucharest-2026",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-27T17:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Vitality",
         "team2_name": "Natus Vincere"
       },
       {
-        "event_id": "hltv:8050",
+        "event_id": "hltv:pgl-masters-bucharest-2026",
         "event_name": "PGL Masters Bucharest 2026",
         "hltv_match_id": "2399748",
         "match_id": "hltv:2399748",
         "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399748/furia-vs-tyloo-pgl-masters-bucharest-2026",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-27T17:00:00Z",
-        "status": "upcoming",
+        "status": "finished",
         "team1_name": "FURIA",
-        "team2_name": "TYLOO"
+        "team2_name": "TYLOO",
+        "winner_name": "FURIA"
+      },
+      {
+        "event_id": "hltv:cct-2026-europe-series-12",
+        "event_name": "CCT 2026 Europe Series 12",
+        "hltv_match_id": "2399513",
+        "match_id": "hltv:2399513",
+        "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399513/baks-vs-saint-sinners-cct-2026-europe-series-12",
+        "stage_name": "Scheduled series",
+        "starts_at": "2026-10-27T17:28:32Z",
+        "status": "finished",
+        "team1_name": "BAKS",
+        "team2_name": "Saint Sinners",
+        "winner_name": "BAKS"
       },
       {
         "event_id": "hltv:9457",
@@ -28867,7 +28888,7 @@
         "source_url": "https://www.hltv.org/matches/2399514/inner-circle-academy-vs-lavked-cct-2026-europe-series-12",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-27T18:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Inner Circle Academy",
         "team2_name": "Lavked"
       },
@@ -36049,56 +36070,68 @@
             },
             "match_id": "hltv:2399743",
             "product_tier": "tier_1",
+            "score1": 1,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399743/liquid-vs-aurora-pgl-masters-bucharest-2026",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-27T11:00:00Z",
-            "status": "upcoming",
+            "status": "finished",
             "team1_name": "Liquid",
             "team2_name": "Aurora",
-            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
+            "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
+            "winner_name": "Aurora"
           },
           {
-            "event_id": "hltv:8050",
+            "event_id": "hltv:pgl-masters-bucharest-2026",
             "event_name": "PGL Masters Bucharest 2026",
             "hltv_match_id": "2399744",
             "match_id": "hltv:2399744",
             "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399744/nemiga-vs-dendele-pgl-masters-bucharest-2026",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-27T11:00:00Z",
-            "status": "upcoming",
+            "status": "finished",
             "team1_name": "Nemiga",
-            "team2_name": "DENDELE"
+            "team2_name": "DENDELE",
+            "winner_name": "Nemiga"
           },
           {
-            "event_id": "hltv:8050",
+            "event_id": "hltv:pgl-masters-bucharest-2026",
             "event_name": "PGL Masters Bucharest 2026",
             "hltv_match_id": "2399745",
             "match_id": "hltv:2399745",
             "product_tier": "tier_1",
+            "score1": 1,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399745/spirit-vs-mouz-pgl-masters-bucharest-2026",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-27T14:00:00Z",
-            "status": "upcoming",
+            "status": "finished",
             "team1_name": "Spirit",
-            "team2_name": "MOUZ"
+            "team2_name": "MOUZ",
+            "winner_name": "MOUZ"
           },
           {
-            "event_id": "hltv:8050",
+            "event_id": "hltv:pgl-masters-bucharest-2026",
             "event_name": "PGL Masters Bucharest 2026",
             "hltv_match_id": "2399746",
             "match_id": "hltv:2399746",
             "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399746/the-mongolz-vs-legacy-pgl-masters-bucharest-2026",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-27T14:00:00Z",
-            "status": "upcoming",
+            "status": "finished",
             "team1_name": "The MongolZ",
-            "team2_name": "Legacy"
+            "team2_name": "Legacy",
+            "winner_name": "The MongolZ"
           },
           {
             "event_id": "hltv:8050",
@@ -36110,23 +36143,26 @@
             "source_url": "https://www.hltv.org/matches/2399747/vitality-vs-natus-vincere-pgl-masters-bucharest-2026",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-27T17:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Vitality",
             "team2_name": "Natus Vincere"
           },
           {
-            "event_id": "hltv:8050",
+            "event_id": "hltv:pgl-masters-bucharest-2026",
             "event_name": "PGL Masters Bucharest 2026",
             "hltv_match_id": "2399748",
             "match_id": "hltv:2399748",
             "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 0,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399748/furia-vs-tyloo-pgl-masters-bucharest-2026",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-27T17:00:00Z",
-            "status": "upcoming",
+            "status": "finished",
             "team1_name": "FURIA",
-            "team2_name": "TYLOO"
+            "team2_name": "TYLOO",
+            "winner_name": "FURIA"
           }
         ],
         "name": "PGL Masters Bucharest 2026",
@@ -70330,32 +70366,38 @@
             "winner_name": "Illyrians"
           },
           {
-            "event_id": "hltv:9457",
+            "event_id": "hltv:cct-2026-europe-series-12",
             "event_name": "CCT 2026 Europe Series 12",
             "hltv_match_id": "2399512",
             "match_id": "hltv:2399512",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399512/ex-rustec-vs-spirit-academy-cct-2026-europe-series-12",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-27T12:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-10-27T13:51:41Z",
+            "status": "finished",
             "team1_name": "ex-RUSTEC",
-            "team2_name": "Spirit Academy"
+            "team2_name": "Spirit Academy",
+            "winner_name": "Spirit Academy"
           },
           {
-            "event_id": "hltv:9457",
+            "event_id": "hltv:cct-2026-europe-series-12",
             "event_name": "CCT 2026 Europe Series 12",
             "hltv_match_id": "2399513",
             "match_id": "hltv:2399513",
             "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399513/baks-vs-saint-sinners-cct-2026-europe-series-12",
             "stage_name": "Scheduled series",
-            "starts_at": "2026-10-27T15:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-10-27T17:28:32Z",
+            "status": "finished",
             "team1_name": "BAKS",
-            "team2_name": "Saint Sinners"
+            "team2_name": "Saint Sinners",
+            "winner_name": "BAKS"
           },
           {
             "event_id": "hltv:9457",
@@ -70367,7 +70409,7 @@
             "source_url": "https://www.hltv.org/matches/2399514/inner-circle-academy-vs-lavked-cct-2026-europe-series-12",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-27T18:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Inner Circle Academy",
             "team2_name": "Lavked"
           },
@@ -70414,7 +70456,7 @@
         "teams": 16
       }
     ],
-    "last_verified_utc": "2026-10-27T09:57:09Z",
+    "last_verified_utc": "2026-10-27T18:03:15Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -70439,7 +70481,7 @@
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-27T13:17:25Z",
+      "checked_at_utc": "2026-10-27T18:15:35Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -70823,7 +70865,7 @@
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-27T13:17:56Z",
+  "generated_at_utc": "2026-10-27T18:16:06Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -72199,12 +72241,12 @@
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.624235,
-        "brier": 0.226874,
-        "ece": 0.026876,
-        "log_loss": 0.644141
+        "accuracy": 0.626683,
+        "brier": 0.226348,
+        "ece": 0.029363,
+        "log_loss": 0.643062
       },
-      "rows": 1223,
+      "rows": 1225,
       "slices": [
         {
           "dimension": "tier",
@@ -72212,12 +72254,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.667606,
-            "brier": 0.208296,
-            "ece": 0.050957,
-            "log_loss": 0.603475
+            "accuracy": 0.671388,
+            "brier": 0.207334,
+            "ece": 0.051577,
+            "log_loss": 0.601462
           },
-          "rows": 355
+          "rows": 353
         },
         {
           "dimension": "tier",
@@ -72225,12 +72267,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590909,
-            "brier": 0.241148,
-            "ece": 0.034339,
-            "log_loss": 0.675389
+            "accuracy": 0.592672,
+            "brier": 0.240813,
+            "ece": 0.035933,
+            "log_loss": 0.67471
           },
-          "rows": 462
+          "rows": 464
         },
         {
           "dimension": "series_format",
@@ -72251,10 +72293,10 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.616011,
-            "brier": 0.22756,
-            "ece": 0.027078,
-            "log_loss": 0.645675
+            "accuracy": 0.618725,
+            "brier": 0.226978,
+            "ece": 0.029836,
+            "log_loss": 0.644479
           },
           "rows": 737
         },
@@ -72283,10 +72325,10 @@
       "folds": 4,
       "l2": 0.005,
       "metrics": {
-        "accuracy": 0.625459,
-        "brier": 0.22957,
-        "ece": 0.05258,
-        "log_loss": 0.650489
+        "accuracy": 0.627907,
+        "brier": 0.229243,
+        "ece": 0.055217,
+        "log_loss": 0.649833
       },
       "promotion_passed": false,
       "rows": 817,
@@ -72297,12 +72339,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.670423,
-            "brier": 0.211345,
-            "ece": 0.065439,
-            "log_loss": 0.611796
+            "accuracy": 0.674221,
+            "brier": 0.210624,
+            "ece": 0.066113,
+            "log_loss": 0.610331
           },
-          "rows": 355
+          "rows": 353
         },
         {
           "dimension": "tier",
@@ -72310,12 +72352,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590909,
-            "brier": 0.243575,
-            "ece": 0.055314,
-            "log_loss": 0.68022
+            "accuracy": 0.592672,
+            "brier": 0.243408,
+            "ece": 0.057116,
+            "log_loss": 0.679885
           },
-          "rows": 462
+          "rows": 464
         },
         {
           "dimension": "series_format",
@@ -72324,9 +72366,9 @@
           "label": "BO1",
           "metrics": {
             "accuracy": 0.685714,
-            "brier": 0.231278,
-            "ece": 0.143953,
-            "log_loss": 0.653494
+            "brier": 0.231276,
+            "ece": 0.143932,
+            "log_loss": 0.65349
           },
           "rows": 70
         },
@@ -72336,10 +72378,10 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.617368,
-            "brier": 0.23006,
-            "ece": 0.045673,
-            "log_loss": 0.651582
+            "accuracy": 0.620081,
+            "brier": 0.229697,
+            "ece": 0.048599,
+            "log_loss": 0.650855
           },
           "rows": 737
         },
@@ -72350,9 +72392,9 @@
           "label": "BO5",
           "metrics": {
             "accuracy": 0.8,
-            "brier": 0.181535,
-            "ece": 0.215223,
-            "log_loss": 0.54886
+            "brier": 0.181563,
+            "ece": 0.215213,
+            "log_loss": 0.548918
           },
           "rows": 10
         }
@@ -72377,7 +72419,7 @@
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-27T13:17:56Z",
+    "generated_at_utc": "2026-10-27T18:16:06Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -72387,12 +72429,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.667606,
-            "brier": 0.208296,
-            "ece": 0.050957,
-            "log_loss": 0.603475
+            "accuracy": 0.671388,
+            "brier": 0.207334,
+            "ece": 0.051577,
+            "log_loss": 0.601462
           },
-          "rows": 355
+          "rows": 353
         },
         {
           "dimension": "tier",
@@ -72400,12 +72442,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590909,
-            "brier": 0.241148,
-            "ece": 0.034339,
-            "log_loss": 0.675389
+            "accuracy": 0.592672,
+            "brier": 0.240813,
+            "ece": 0.035933,
+            "log_loss": 0.67471
           },
-          "rows": 462
+          "rows": 464
         },
         {
           "dimension": "series_format",
@@ -72426,10 +72468,10 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.616011,
-            "brier": 0.22756,
-            "ece": 0.027078,
-            "log_loss": 0.645675
+            "accuracy": 0.618725,
+            "brier": 0.226978,
+            "ece": 0.029836,
+            "log_loss": 0.644479
           },
           "rows": 737
         },
@@ -72453,13 +72495,13 @@
             "eligible": true,
             "key": "tier_1",
             "passed": true,
-            "rows": 355
+            "rows": 353
           },
           {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 462
+            "rows": 464
           },
           {
             "eligible": true,
@@ -72489,12 +72531,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.670423,
-            "brier": 0.211345,
-            "ece": 0.065439,
-            "log_loss": 0.611796
+            "accuracy": 0.674221,
+            "brier": 0.210624,
+            "ece": 0.066113,
+            "log_loss": 0.610331
           },
-          "rows": 355
+          "rows": 353
         },
         {
           "dimension": "tier",
@@ -72502,12 +72544,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590909,
-            "brier": 0.241311,
-            "ece": 0.040542,
-            "log_loss": 0.675621
+            "accuracy": 0.592672,
+            "brier": 0.240958,
+            "ece": 0.040562,
+            "log_loss": 0.674905
           },
-          "rows": 462
+          "rows": 464
         },
         {
           "dimension": "series_format",
@@ -72516,9 +72558,9 @@
           "label": "BO1",
           "metrics": {
             "accuracy": 0.685714,
-            "brier": 0.228475,
-            "ece": 0.15576,
-            "log_loss": 0.647764
+            "brier": 0.228474,
+            "ece": 0.155739,
+            "log_loss": 0.64776
           },
           "rows": 70
         },
@@ -72528,10 +72570,10 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.617368,
-            "brier": 0.228918,
-            "ece": 0.0287,
-            "log_loss": 0.649267
+            "accuracy": 0.620081,
+            "brier": 0.228432,
+            "ece": 0.03056,
+            "log_loss": 0.648286
           },
           "rows": 737
         },
@@ -72542,18 +72584,18 @@
           "label": "BO5",
           "metrics": {
             "accuracy": 0.8,
-            "brier": 0.180686,
-            "ece": 0.216094,
-            "log_loss": 0.547161
+            "brier": 0.180744,
+            "ece": 0.216053,
+            "log_loss": 0.547279
           },
           "rows": 10
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.624235,
-        "brier": 0.227955,
-        "ece": 0.045252,
-        "log_loss": 0.646282
+        "accuracy": 0.626683,
+        "brier": 0.227529,
+        "ece": 0.047857,
+        "log_loss": 0.645408
       },
       "champion_slices": [
         {
@@ -72562,12 +72604,12 @@
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.667606,
-            "brier": 0.208296,
-            "ece": 0.050957,
-            "log_loss": 0.603475
+            "accuracy": 0.671388,
+            "brier": 0.207334,
+            "ece": 0.051577,
+            "log_loss": 0.601462
           },
-          "rows": 355
+          "rows": 353
         },
         {
           "dimension": "tier",
@@ -72575,12 +72617,12 @@
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.590909,
-            "brier": 0.24306,
-            "ece": 0.052541,
-            "log_loss": 0.679175
+            "accuracy": 0.592672,
+            "brier": 0.242893,
+            "ece": 0.054263,
+            "log_loss": 0.678841
           },
-          "rows": 462
+          "rows": 464
         },
         {
           "dimension": "series_format",
@@ -72601,10 +72643,10 @@
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.616011,
-            "brier": 0.228478,
-            "ece": 0.037141,
-            "log_loss": 0.647476
+            "accuracy": 0.618725,
+            "brier": 0.228007,
+            "ece": 0.040029,
+            "log_loss": 0.646507
           },
           "rows": 737
         },
@@ -72627,32 +72669,32 @@
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.590909,
-          "brier": 0.241476,
-          "ece": 0.042053,
-          "log_loss": 0.675924
+          "accuracy": 0.592672,
+          "brier": 0.241225,
+          "ece": 0.043716,
+          "log_loss": 0.675419
         },
         "before": {
-          "accuracy": 0.590909,
-          "brier": 0.24306,
-          "ece": 0.052541,
-          "log_loss": 0.679175
+          "accuracy": 0.592672,
+          "brier": 0.242893,
+          "ece": 0.054263,
+          "log_loss": 0.678841
         },
         "candidate_shrink": 0.75,
         "overall_after": {
-          "accuracy": 0.624235,
-          "brier": 0.227059,
-          "ece": 0.039672,
-          "log_loss": 0.644443
+          "accuracy": 0.626683,
+          "brier": 0.226582,
+          "ece": 0.041203,
+          "log_loss": 0.643465
         },
         "overall_before": {
-          "accuracy": 0.624235,
-          "brier": 0.227955,
-          "ece": 0.045252,
-          "log_loss": 0.646282
+          "accuracy": 0.626683,
+          "brier": 0.227529,
+          "ece": 0.047857,
+          "log_loss": 0.645408
         },
         "passed": false,
-        "rows": 462,
+        "rows": 464,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -72671,8 +72713,8 @@
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 0,
-      "online_rows": 466,
+      "new_rows": 2,
+      "online_rows": 468,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -73290,9 +73332,11 @@
       "hltv:2399732",
       "hltv:2399731",
       "hltv:2399734",
-      "hltv:2399733"
+      "hltv:2399733",
+      "hltv:2399512",
+      "hltv:2399513"
     ],
-    "last_online_update_utc": "2026-10-27T05:37:33Z",
+    "last_online_update_utc": "2026-10-27T18:16:06Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -79121,11 +79165,11 @@
         "vrs_rank": null
       },
       {
-        "elo": 1601.87,
-        "last_result_utc": "2026-10-25T16:16:46Z",
-        "matches": 91,
+        "elo": 1614.3,
+        "last_result_utc": "2026-10-27T13:51:41Z",
+        "matches": 92,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.6594,
+        "recent_win_rate_10": 0.7213,
         "team_key": "spirit academy",
         "team_name": "spirit academy",
         "vrs_points": 981,
@@ -79812,11 +79856,11 @@
         "vrs_rank": null
       },
       {
-        "elo": 1571.05,
-        "last_result_utc": "2026-10-25T20:55:03Z",
-        "matches": 22,
+        "elo": 1558.62,
+        "last_result_utc": "2026-10-27T13:51:41Z",
+        "matches": 23,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.5876,
+        "recent_win_rate_10": 0.4808,
         "team_key": "ex rustec",
         "team_name": "ex-RUSTEC",
         "vrs_points": 0,
@@ -79856,11 +79900,11 @@
         "vrs_rank": null
       },
       {
-        "elo": 1517.34,
-        "last_result_utc": "2026-10-24T19:41:35Z",
-        "matches": 10,
+        "elo": 1530.42,
+        "last_result_utc": "2026-10-27T17:28:32Z",
+        "matches": 11,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.5813,
+        "recent_win_rate_10": 0.6574,
         "team_key": "baks",
         "team_name": "BAKS",
         "vrs_points": 1044,
@@ -79911,11 +79955,11 @@
         "vrs_rank": 140
       },
       {
-        "elo": 1538.86,
-        "last_result_utc": "2026-10-24T16:39:36Z",
-        "matches": 22,
+        "elo": 1525.78,
+        "last_result_utc": "2026-10-27T17:28:32Z",
+        "matches": 23,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.5487,
+        "recent_win_rate_10": 0.4489,
         "team_key": "saint sinners",
         "team_name": "Saint Sinners",
         "vrs_points": 810,
@@ -83520,414 +83564,6 @@
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7518,
-      "confidence_label": "strong",
-      "data_quality": "full",
-      "elo_prob_team1": 0.2482,
-      "event_id": "hltv:pgl-masters-bucharest-2026",
-      "event_name": "PGL Masters Bucharest 2026",
-      "format": "bo3",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "8520",
-            "nickname": "NAF",
-            "player_id": "hltv:8520",
-            "source_url": "https://www.hltv.org/player/8520/naf",
-            "team_name": "Liquid"
-          },
-          {
-            "hltv_player_id": "8738",
-            "nickname": "EliGE",
-            "player_id": "hltv:8738",
-            "source_url": "https://www.hltv.org/player/8738/elige",
-            "team_name": "Liquid"
-          },
-          {
-            "hltv_player_id": "11617",
-            "nickname": "malbsMd",
-            "player_id": "hltv:11617",
-            "source_url": "https://www.hltv.org/player/11617/malbsmd",
-            "team_name": "Liquid"
-          },
-          {
-            "hltv_player_id": "11630",
-            "nickname": "JT",
-            "player_id": "hltv:11630",
-            "source_url": "https://www.hltv.org/player/11630/jt",
-            "team_name": "Liquid"
-          },
-          {
-            "hltv_player_id": "24203",
-            "nickname": "Jorko",
-            "player_id": "hltv:24203",
-            "source_url": "https://www.hltv.org/player/24203/jorko",
-            "team_name": "Liquid"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "7938",
-            "nickname": "XANTARES",
-            "player_id": "hltv:7938",
-            "source_url": "https://www.hltv.org/player/7938/xantares",
-            "team_name": "Aurora"
-          },
-          {
-            "hltv_player_id": "8574",
-            "nickname": "woxic",
-            "player_id": "hltv:8574",
-            "source_url": "https://www.hltv.org/player/8574/woxic",
-            "team_name": "Aurora"
-          },
-          {
-            "hltv_player_id": "18850",
-            "nickname": "Jimpphat",
-            "player_id": "hltv:18850",
-            "source_url": "https://www.hltv.org/player/18850/jimpphat",
-            "team_name": "Aurora"
-          },
-          {
-            "hltv_player_id": "19677",
-            "nickname": "kyxsan",
-            "player_id": "hltv:19677",
-            "source_url": "https://www.hltv.org/player/19677/kyxsan",
-            "team_name": "Aurora"
-          },
-          {
-            "hltv_player_id": "21243",
-            "nickname": "Wicadia",
-            "player_id": "hltv:21243",
-            "source_url": "https://www.hltv.org/player/21243/wicadia",
-            "team_name": "Aurora"
-          }
-        ]
-      },
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-27",
-      "match_id": "hltv:2399743",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793098800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Aurora",
-      "prob_team1": 0.2482,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399743/liquid-vs-aurora-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-27T11:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Liquid",
-      "team1_vrs_rank": 19,
-      "team2_hltv_rank": null,
-      "team2_name": "Aurora",
-      "team2_vrs_rank": 9
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7429,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.7429,
-      "event_id": "hltv:8050",
-      "event_name": "PGL Masters Bucharest 2026",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-27",
-      "match_id": "hltv:2399744",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793098800,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Nemiga",
-      "prob_team1": 0.7429,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399744/nemiga-vs-dendele-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-27T11:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Nemiga",
-      "team1_vrs_rank": 14,
-      "team2_hltv_rank": null,
-      "team2_name": "DENDELE",
-      "team2_vrs_rank": 39
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5525,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4475,
-      "event_id": "hltv:9457",
-      "event_name": "CCT 2026 Europe Series 12",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-27",
-      "match_id": "hltv:2399512",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793102400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Spirit Academy",
-      "prob_team1": 0.4475,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399512/ex-rustec-vs-spirit-academy-cct-2026-europe-series-12",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-27T12:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "ex-RUSTEC",
-      "team1_vrs_rank": null,
-      "team2_hltv_rank": null,
-      "team2_name": "Spirit Academy",
-      "team2_vrs_rank": 115
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5537,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5537,
-      "event_id": "hltv:8050",
-      "event_name": "PGL Masters Bucharest 2026",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-27",
-      "match_id": "hltv:2399745",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793109600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Spirit",
-      "prob_team1": 0.5537,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399745/spirit-vs-mouz-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-27T14:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Spirit",
-      "team1_vrs_rank": 1,
-      "team2_hltv_rank": null,
-      "team2_name": "MOUZ",
-      "team2_vrs_rank": 4
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5656,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4344,
-      "event_id": "hltv:8050",
-      "event_name": "PGL Masters Bucharest 2026",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-27",
-      "match_id": "hltv:2399746",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793109600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Legacy",
-      "prob_team1": 0.4344,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399746/the-mongolz-vs-legacy-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-27T14:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "The MongolZ",
-      "team1_vrs_rank": 49,
-      "team2_hltv_rank": null,
-      "team2_name": "Legacy",
-      "team2_vrs_rank": 2
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5406,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5406,
-      "event_id": "hltv:9457",
-      "event_name": "CCT 2026 Europe Series 12",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-27",
-      "match_id": "hltv:2399513",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793113200,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "BAKS",
-      "prob_team1": 0.5406,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399513/baks-vs-saint-sinners-cct-2026-europe-series-12",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-27T15:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "BAKS",
-      "team1_vrs_rank": 100,
-      "team2_hltv_rank": null,
-      "team2_name": "Saint Sinners",
-      "team2_vrs_rank": 158
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.8079,
-      "confidence_label": "strong",
-      "data_quality": "full",
-      "elo_prob_team1": 0.8079,
-      "event_id": "hltv:8050",
-      "event_name": "PGL Masters Bucharest 2026",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-27",
-      "match_id": "hltv:2399747",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793120400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Vitality",
-      "prob_team1": 0.8079,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399747/vitality-vs-natus-vincere-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-27T17:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Vitality",
-      "team1_vrs_rank": 3,
-      "team2_hltv_rank": null,
-      "team2_name": "Natus Vincere",
-      "team2_vrs_rank": 34
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.8335,
-      "confidence_label": "strong",
-      "data_quality": "full",
-      "elo_prob_team1": 0.8335,
-      "event_id": "hltv:8050",
-      "event_name": "PGL Masters Bucharest 2026",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-27",
-      "match_id": "hltv:2399748",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793120400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "FURIA",
-      "prob_team1": 0.8335,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399748/furia-vs-tyloo-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-27T17:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "FURIA",
-      "team1_vrs_rank": 7,
-      "team2_hltv_rank": null,
-      "team2_name": "TYLOO",
-      "team2_vrs_rank": 44
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5465,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5465,
-      "event_id": "hltv:9457",
-      "event_name": "CCT 2026 Europe Series 12",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-27",
-      "match_id": "hltv:2399514",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793124000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Inner Circle Academy",
-      "prob_team1": 0.5465,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399514/inner-circle-academy-vs-lavked-cct-2026-europe-series-12",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-27T18:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Inner Circle Academy",
-      "team1_vrs_rank": 94,
-      "team2_hltv_rank": null,
-      "team2_name": "Lavked",
-      "team2_vrs_rank": 143
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
       "confidence": 0.5656,
       "confidence_label": "thin",
       "data_quality": "full",
@@ -84368,12 +84004,86 @@
       "team2_hltv_rank": null,
       "team2_name": "G2",
       "team2_vrs_rank": 5
+    },
+    {
+      "calibration_shrink": null,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.8079,
+      "confidence_label": "strong",
+      "data_quality": "full",
+      "elo_prob_team1": 0.8079,
+      "event_id": "hltv:8050",
+      "event_name": "PGL Masters Bucharest 2026",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "",
+      "match_id": "hltv:2399747",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Vitality",
+      "prob_team1": 0.8079,
+      "product_tier": "tier_1",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399747/vitality-vs-natus-vincere-pgl-masters-bucharest-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Vitality",
+      "team1_vrs_rank": 3,
+      "team2_hltv_rank": null,
+      "team2_name": "Natus Vincere",
+      "team2_vrs_rank": 34
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5465,
+      "confidence_label": "thin",
+      "data_quality": "full",
+      "elo_prob_team1": 0.5465,
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "",
+      "match_id": "hltv:2399514",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "Inner Circle Academy",
+      "prob_team1": 0.5465,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399514/inner-circle-academy-vs-lavked-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Inner Circle Academy",
+      "team1_vrs_rank": 94,
+      "team2_hltv_rank": null,
+      "team2_name": "Lavked",
+      "team2_vrs_rank": 143
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 59,
-    "online_results_applied": 0,
+    "live_feed_items": 51,
+    "online_results_applied": 2,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
