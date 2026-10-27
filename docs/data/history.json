@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-26T21:18:53Z",
+  "generated_at_utc": "2026-10-27T05:24:06Z",
   "through_date": "2026-10-26",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4186,
+    "matches": 4188,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
@@ -554,50 +554,6 @@
       }
     },
     {
-      "match_id": "liquipedia:dad13c8618be606a8610",
-      "match_date": "2026-10-25",
-      "starts_at": "2026-10-25T08:00:00Z",
-      "event_name": "PGL Masters Bucharest 2026 - Round 2",
-      "team1_name": "FUT",
-      "team2_name": "Liquid",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "FUT",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
-    },
-    {
-      "match_id": "liquipedia:f197baf22582c3f115eb",
-      "match_date": "2026-10-25",
-      "starts_at": "2026-10-25T08:00:00Z",
-      "event_name": "PGL Masters Bucharest 2026 - Round 2",
-      "team1_name": "Spirit",
-      "team2_name": "TYLOO",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "Spirit",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
-    },
-    {
       "match_id": "liquipedia:53008f47cfe6a755fc1b",
       "match_date": "2026-10-25",
       "starts_at": "2026-10-25T09:00:00Z",
@@ -730,28 +686,6 @@
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Playoffs"
     },
     {
-      "match_id": "liquipedia:e21aef978d49d83253ff",
-      "match_date": "2026-10-25",
-      "starts_at": "2026-10-25T13:00:00Z",
-      "event_name": "PGL Masters Bucharest 2026 - Round 2",
-      "team1_name": "9z",
-      "team2_name": "MOUZ",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "MOUZ",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
-    },
-    {
       "match_id": "liquipedia:400a359cf709d352410d",
       "match_date": "2026-10-25",
       "starts_at": "2026-10-25T14:45:00Z",
@@ -772,50 +706,6 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_11#Playoffs"
-    },
-    {
-      "match_id": "liquipedia:fb5ee781d38009c09e8f",
-      "match_date": "2026-10-25",
-      "starts_at": "2026-10-25T14:50:00Z",
-      "event_name": "PGL Masters Bucharest 2026 - Round 2",
-      "team1_name": "DENDELE",
-      "team2_name": "Legacy",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "Legacy",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
-    },
-    {
-      "match_id": "liquipedia:aa61367104af4a977654",
-      "match_date": "2026-10-25",
-      "starts_at": "2026-10-25T13:00:00Z",
-      "event_name": "PGL Masters Bucharest 2026 - Round 2",
-      "team1_name": "Aurora",
-      "team2_name": "G2",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "Aurora",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
     },
     {
       "match_id": "liquipedia:048b0b801b14f2cedd3f",
@@ -860,28 +750,6 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Playoffs"
-    },
-    {
-      "match_id": "liquipedia:daf69cb29471d25e7adb",
-      "match_date": "2026-10-25",
-      "starts_at": "2026-10-25T15:45:00Z",
-      "event_name": "PGL Masters Bucharest 2026 - Round 2",
-      "team1_name": "FURIA",
-      "team2_name": "NAVI",
-      "score1": 0,
-      "score2": 2,
-      "winner_name": "NAVI",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2"
     },
     {
       "match_id": "liquipedia:2968a0d69fe8bd50daa7",
@@ -1014,6 +882,230 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "hltv:2399727",
+      "match_date": "2026-10-25",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "Spirit",
+      "team2_name": "TYLOO",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:f197baf22582c3f115eb",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2",
+          "starts_at": "2026-10-25T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "match_id": "hltv:2399728",
+      "match_date": "2026-10-25",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "FUT",
+      "team2_name": "Liquid",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FUT",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:dad13c8618be606a8610",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2",
+          "starts_at": "2026-10-25T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "match_id": "hltv:2399729",
+      "match_date": "2026-10-25",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "Vitality",
+      "team2_name": "The MongolZ",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Vitality",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399730",
+      "match_date": "2026-10-25",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "BETBOOM",
+      "team2_name": "Nemiga",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BETBOOM",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399732",
+      "match_date": "2026-10-25",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "MOUZ",
+      "team2_name": "9z",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:e21aef978d49d83253ff",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2",
+          "starts_at": "2026-10-25T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "match_id": "hltv:2399731",
+      "match_date": "2026-10-25",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "G2",
+      "team2_name": "Aurora",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Aurora",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:aa61367104af4a977654",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2",
+          "starts_at": "2026-10-25T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "match_id": "hltv:2399734",
+      "match_date": "2026-10-25",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "Legacy",
+      "team2_name": "DENDELE",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Legacy",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:fb5ee781d38009c09e8f",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2",
+          "starts_at": "2026-10-25T14:50:00Z"
+        }
+      ]
+    },
+    {
+      "match_id": "hltv:2399733",
+      "match_date": "2026-10-25",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "FURIA",
+      "team2_name": "Natus Vincere",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Natus Vincere",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:daf69cb29471d25e7adb",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_2",
+          "starts_at": "2026-10-25T15:45:00Z"
+        }
+      ]
     },
     {
       "match_id": "liquipedia:9f4aac843bd9e83e11fa",
