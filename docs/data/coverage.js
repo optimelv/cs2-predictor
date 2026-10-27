@@ -28666,9 +28666,87 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "6yuBoJlbl"
     },
     {
-      "event_id": "hltv:8050",
+      "detail_fetched_at_utc": "2026-10-27T09:57:02Z",
+      "event_id": "hltv:pgl-masters-bucharest-2026",
       "event_name": "PGL Masters Bucharest 2026",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399743",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "8520",
+            "nickname": "NAF",
+            "player_id": "hltv:8520",
+            "source_url": "https://www.hltv.org/player/8520/naf",
+            "team_name": "Liquid"
+          },
+          {
+            "hltv_player_id": "8738",
+            "nickname": "EliGE",
+            "player_id": "hltv:8738",
+            "source_url": "https://www.hltv.org/player/8738/elige",
+            "team_name": "Liquid"
+          },
+          {
+            "hltv_player_id": "11617",
+            "nickname": "malbsMd",
+            "player_id": "hltv:11617",
+            "source_url": "https://www.hltv.org/player/11617/malbsmd",
+            "team_name": "Liquid"
+          },
+          {
+            "hltv_player_id": "11630",
+            "nickname": "JT",
+            "player_id": "hltv:11630",
+            "source_url": "https://www.hltv.org/player/11630/jt",
+            "team_name": "Liquid"
+          },
+          {
+            "hltv_player_id": "24203",
+            "nickname": "Jorko",
+            "player_id": "hltv:24203",
+            "source_url": "https://www.hltv.org/player/24203/jorko",
+            "team_name": "Liquid"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "7938",
+            "nickname": "XANTARES",
+            "player_id": "hltv:7938",
+            "source_url": "https://www.hltv.org/player/7938/xantares",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "8574",
+            "nickname": "woxic",
+            "player_id": "hltv:8574",
+            "source_url": "https://www.hltv.org/player/8574/woxic",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "18850",
+            "nickname": "Jimpphat",
+            "player_id": "hltv:18850",
+            "source_url": "https://www.hltv.org/player/18850/jimpphat",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "19677",
+            "nickname": "kyxsan",
+            "player_id": "hltv:19677",
+            "source_url": "https://www.hltv.org/player/19677/kyxsan",
+            "team_name": "Aurora"
+          },
+          {
+            "hltv_player_id": "21243",
+            "nickname": "Wicadia",
+            "player_id": "hltv:21243",
+            "source_url": "https://www.hltv.org/player/21243/wicadia",
+            "team_name": "Aurora"
+          }
+        ]
+      },
       "match_id": "hltv:2399743",
       "product_tier": "tier_1",
       "series_format": "bo3",
@@ -28677,7 +28755,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "starts_at": "2026-10-27T11:00:00Z",
       "status": "upcoming",
       "team1_name": "Liquid",
-      "team2_name": "Aurora"
+      "team2_name": "Aurora",
+      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
     },
     {
       "event_id": "hltv:8050",
@@ -35886,9 +35965,87 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "Aurora"
         },
         {
-          "event_id": "hltv:8050",
+          "detail_fetched_at_utc": "2026-10-27T09:57:02Z",
+          "event_id": "hltv:pgl-masters-bucharest-2026",
           "event_name": "PGL Masters Bucharest 2026",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399743",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "8520",
+                "nickname": "NAF",
+                "player_id": "hltv:8520",
+                "source_url": "https://www.hltv.org/player/8520/naf",
+                "team_name": "Liquid"
+              },
+              {
+                "hltv_player_id": "8738",
+                "nickname": "EliGE",
+                "player_id": "hltv:8738",
+                "source_url": "https://www.hltv.org/player/8738/elige",
+                "team_name": "Liquid"
+              },
+              {
+                "hltv_player_id": "11617",
+                "nickname": "malbsMd",
+                "player_id": "hltv:11617",
+                "source_url": "https://www.hltv.org/player/11617/malbsmd",
+                "team_name": "Liquid"
+              },
+              {
+                "hltv_player_id": "11630",
+                "nickname": "JT",
+                "player_id": "hltv:11630",
+                "source_url": "https://www.hltv.org/player/11630/jt",
+                "team_name": "Liquid"
+              },
+              {
+                "hltv_player_id": "24203",
+                "nickname": "Jorko",
+                "player_id": "hltv:24203",
+                "source_url": "https://www.hltv.org/player/24203/jorko",
+                "team_name": "Liquid"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "7938",
+                "nickname": "XANTARES",
+                "player_id": "hltv:7938",
+                "source_url": "https://www.hltv.org/player/7938/xantares",
+                "team_name": "Aurora"
+              },
+              {
+                "hltv_player_id": "8574",
+                "nickname": "woxic",
+                "player_id": "hltv:8574",
+                "source_url": "https://www.hltv.org/player/8574/woxic",
+                "team_name": "Aurora"
+              },
+              {
+                "hltv_player_id": "18850",
+                "nickname": "Jimpphat",
+                "player_id": "hltv:18850",
+                "source_url": "https://www.hltv.org/player/18850/jimpphat",
+                "team_name": "Aurora"
+              },
+              {
+                "hltv_player_id": "19677",
+                "nickname": "kyxsan",
+                "player_id": "hltv:19677",
+                "source_url": "https://www.hltv.org/player/19677/kyxsan",
+                "team_name": "Aurora"
+              },
+              {
+                "hltv_player_id": "21243",
+                "nickname": "Wicadia",
+                "player_id": "hltv:21243",
+                "source_url": "https://www.hltv.org/player/21243/wicadia",
+                "team_name": "Aurora"
+              }
+            ]
+          },
           "match_id": "hltv:2399743",
           "product_tier": "tier_1",
           "series_format": "bo3",
@@ -35897,7 +36054,8 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "starts_at": "2026-10-27T11:00:00Z",
           "status": "upcoming",
           "team1_name": "Liquid",
-          "team2_name": "Aurora"
+          "team2_name": "Aurora",
+          "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs."
         },
         {
           "event_id": "hltv:8050",
@@ -70255,7 +70413,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-10-27T05:24:06Z",
+  "last_verified_utc": "2026-10-27T09:57:09Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -70280,7 +70438,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-27T06:21:26Z",
+    "checked_at_utc": "2026-10-27T10:13:13Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",

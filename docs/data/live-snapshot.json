@@ -1,177 +1,16 @@
 {
   "ok": true,
   "contract_version": "1.1",
-  "fetched_at_utc": "2026-10-27T05:24:06Z",
+  "fetched_at_utc": "2026-10-27T09:57:09Z",
   "poll_after_ms": 180000,
   "events": [
-    {
-      "id": "hltv:cct-2026-europe-series-11",
-      "name": "CCT 2026 Europe Series 11",
-      "source_url": null,
-      "status": "finished",
-      "product_tier": "tier_2",
-      "participants": [
-        "Acend",
-        "FORZE Reload",
-        "Spirit Academy",
-        "Lavked",
-        "INOX Division",
-        "BRUTE",
-        "Nuclear TigeRES",
-        "ex-Zero Tenacity"
-      ],
-      "matches": [
-        {
-          "match_id": "hltv:2399335",
-          "hltv_match_id": "2399335",
-          "source_url": "https://www.hltv.org/matches/2399335/acend-vs-forze-reload-cct-2026-europe-series-11",
-          "event_id": "hltv:cct-2026-europe-series-11",
-          "event_name": "CCT 2026 Europe Series 11",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Acend",
-          "team2_name": "FORZE Reload",
-          "starts_at": "2026-10-24T09:34:46Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 2,
-          "score2": 0,
-          "winner_name": "Acend",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2399336",
-          "hltv_match_id": "2399336",
-          "source_url": "https://www.hltv.org/matches/2399336/spirit-academy-vs-lavked-cct-2026-europe-series-11",
-          "event_id": "hltv:cct-2026-europe-series-11",
-          "event_name": "CCT 2026 Europe Series 11",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Spirit Academy",
-          "team2_name": "Lavked",
-          "starts_at": "2026-10-24T12:59:29Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 2,
-          "score2": 0,
-          "winner_name": "Spirit Academy",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2399337",
-          "hltv_match_id": "2399337",
-          "source_url": "https://www.hltv.org/matches/2399337/inox-division-vs-brute-cct-2026-europe-series-11",
-          "event_id": "hltv:cct-2026-europe-series-11",
-          "event_name": "CCT 2026 Europe Series 11",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "INOX Division",
-          "team2_name": "BRUTE",
-          "starts_at": "2026-10-24T16:38:49Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 2,
-          "score2": 1,
-          "winner_name": "INOX Division",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2399338",
-          "hltv_match_id": "2399338",
-          "source_url": "https://www.hltv.org/matches/2399338/nuclear-tigeres-vs-ex-zero-tenacity-cct-2026-europe-series-11",
-          "event_id": "hltv:cct-2026-europe-series-11",
-          "event_name": "CCT 2026 Europe Series 11",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Nuclear TigeRES",
-          "team2_name": "ex-Zero Tenacity",
-          "starts_at": "2026-10-24T19:40:21Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 1,
-          "score2": 2,
-          "winner_name": "ex-Zero Tenacity",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2399339",
-          "hltv_match_id": "2399339",
-          "source_url": "https://www.hltv.org/matches/2399339/acend-vs-inox-division-cct-2026-europe-series-11",
-          "event_id": "hltv:cct-2026-europe-series-11",
-          "event_name": "CCT 2026 Europe Series 11",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Acend",
-          "team2_name": "INOX Division",
-          "starts_at": "2026-10-25T14:35:59Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 2,
-          "score2": 1,
-          "winner_name": "Acend",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2399340",
-          "hltv_match_id": "2399340",
-          "source_url": "https://www.hltv.org/matches/2399340/ex-zero-tenacity-vs-spirit-academy-cct-2026-europe-series-11",
-          "event_id": "hltv:cct-2026-europe-series-11",
-          "event_name": "CCT 2026 Europe Series 11",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "ex-Zero Tenacity",
-          "team2_name": "Spirit Academy",
-          "starts_at": "2026-10-25T16:16:46Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 2,
-          "score2": 0,
-          "winner_name": "ex-Zero Tenacity",
-          "maps": []
-        },
-        {
-          "match_id": "hltv:2399341",
-          "hltv_match_id": "2399341",
-          "source_url": "https://www.hltv.org/matches/2399341/acend-vs-ex-zero-tenacity-cct-2026-europe-series-11",
-          "event_id": "hltv:cct-2026-europe-series-11",
-          "event_name": "CCT 2026 Europe Series 11",
-          "product_tier": "tier_2",
-          "event_url": null,
-          "team1_name": "Acend",
-          "team2_name": "ex-Zero Tenacity",
-          "starts_at": "2026-10-25T18:54:06Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 0,
-          "score2": 2,
-          "winner_name": "ex-Zero Tenacity",
-          "maps": []
-        }
-      ],
-      "format": {
-        "type": "mixed",
-        "label": "Event schedule",
-        "stages": [],
-        "settings": {}
-      },
-      "current_stage": "Schedule"
-    },
     {
       "id": "hltv:pgl-masters-bucharest-2026",
       "name": "PGL Masters Bucharest 2026",
       "source_url": null,
-      "status": "finished",
+      "status": "upcoming",
       "product_tier": "tier_1",
       "participants": [
-        "Aurora",
-        "The MongolZ",
         "MOUZ",
         "Liquid",
         "Spirit",
@@ -185,28 +24,11 @@
         "G2",
         "Natus Vincere",
         "TYLOO",
-        "FUT"
+        "FUT",
+        "The MongolZ",
+        "Aurora"
       ],
       "matches": [
-        {
-          "match_id": "hltv:2399719",
-          "hltv_match_id": "2399719",
-          "source_url": "https://www.hltv.org/matches/2399719/aurora-vs-the-mongolz-pgl-masters-bucharest-2026",
-          "event_id": "hltv:pgl-masters-bucharest-2026",
-          "event_name": "PGL Masters Bucharest 2026",
-          "product_tier": "tier_1",
-          "event_url": null,
-          "team1_name": "Aurora",
-          "team2_name": "The MongolZ",
-          "starts_at": "2026-10-24T10:19:57Z",
-          "stage_name": "Completed series",
-          "series_format": "bo3",
-          "status": "finished",
-          "score1": 1,
-          "score2": 2,
-          "winner_name": "The MongolZ",
-          "maps": []
-        },
         {
           "match_id": "hltv:2399722",
           "hltv_match_id": "2399722",
@@ -472,6 +294,100 @@
           "score2": 2,
           "winner_name": "Natus Vincere",
           "maps": []
+        },
+        {
+          "match_id": "hltv:2399743",
+          "hltv_match_id": "2399743",
+          "source_url": "https://www.hltv.org/matches/2399743/liquid-vs-aurora-pgl-masters-bucharest-2026",
+          "event_id": "hltv:pgl-masters-bucharest-2026",
+          "event_name": "PGL Masters Bucharest 2026",
+          "product_tier": "tier_1",
+          "event_url": "https://www.hltv.org/events/archive",
+          "team1_name": "Liquid",
+          "team2_name": "Aurora",
+          "starts_at": "2026-10-27T11:00:00Z",
+          "stage_name": "Scheduled series",
+          "series_format": "bo3",
+          "status": "upcoming",
+          "maps": [],
+          "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
+          "lineups": {
+            "team1": [
+              {
+                "player_id": "hltv:8520",
+                "hltv_player_id": "8520",
+                "nickname": "NAF",
+                "source_url": "https://www.hltv.org/player/8520/naf",
+                "team_name": "Liquid"
+              },
+              {
+                "player_id": "hltv:8738",
+                "hltv_player_id": "8738",
+                "nickname": "EliGE",
+                "source_url": "https://www.hltv.org/player/8738/elige",
+                "team_name": "Liquid"
+              },
+              {
+                "player_id": "hltv:11617",
+                "hltv_player_id": "11617",
+                "nickname": "malbsMd",
+                "source_url": "https://www.hltv.org/player/11617/malbsmd",
+                "team_name": "Liquid"
+              },
+              {
+                "player_id": "hltv:11630",
+                "hltv_player_id": "11630",
+                "nickname": "JT",
+                "source_url": "https://www.hltv.org/player/11630/jt",
+                "team_name": "Liquid"
+              },
+              {
+                "player_id": "hltv:24203",
+                "hltv_player_id": "24203",
+                "nickname": "Jorko",
+                "source_url": "https://www.hltv.org/player/24203/jorko",
+                "team_name": "Liquid"
+              }
+            ],
+            "team2": [
+              {
+                "player_id": "hltv:7938",
+                "hltv_player_id": "7938",
+                "nickname": "XANTARES",
+                "source_url": "https://www.hltv.org/player/7938/xantares",
+                "team_name": "Aurora"
+              },
+              {
+                "player_id": "hltv:8574",
+                "hltv_player_id": "8574",
+                "nickname": "woxic",
+                "source_url": "https://www.hltv.org/player/8574/woxic",
+                "team_name": "Aurora"
+              },
+              {
+                "player_id": "hltv:18850",
+                "hltv_player_id": "18850",
+                "nickname": "Jimpphat",
+                "source_url": "https://www.hltv.org/player/18850/jimpphat",
+                "team_name": "Aurora"
+              },
+              {
+                "player_id": "hltv:19677",
+                "hltv_player_id": "19677",
+                "nickname": "kyxsan",
+                "source_url": "https://www.hltv.org/player/19677/kyxsan",
+                "team_name": "Aurora"
+              },
+              {
+                "player_id": "hltv:21243",
+                "hltv_player_id": "21243",
+                "nickname": "Wicadia",
+                "source_url": "https://www.hltv.org/player/21243/wicadia",
+                "team_name": "Aurora"
+              }
+            ]
+          },
+          "detail_fetched_at_utc": "2026-10-27T09:57:02Z"
         },
         {
           "match_id": "hltv:2399742",
@@ -858,14 +774,151 @@
       "current_stage": "Schedule"
     },
     {
+      "id": "hltv:cct-2026-europe-series-11",
+      "name": "CCT 2026 Europe Series 11",
+      "source_url": null,
+      "status": "finished",
+      "product_tier": "tier_2",
+      "participants": [
+        "Spirit Academy",
+        "Lavked",
+        "INOX Division",
+        "BRUTE",
+        "Nuclear TigeRES",
+        "ex-Zero Tenacity",
+        "Acend"
+      ],
+      "matches": [
+        {
+          "match_id": "hltv:2399336",
+          "hltv_match_id": "2399336",
+          "source_url": "https://www.hltv.org/matches/2399336/spirit-academy-vs-lavked-cct-2026-europe-series-11",
+          "event_id": "hltv:cct-2026-europe-series-11",
+          "event_name": "CCT 2026 Europe Series 11",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Spirit Academy",
+          "team2_name": "Lavked",
+          "starts_at": "2026-10-24T12:59:29Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 2,
+          "score2": 0,
+          "winner_name": "Spirit Academy",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2399337",
+          "hltv_match_id": "2399337",
+          "source_url": "https://www.hltv.org/matches/2399337/inox-division-vs-brute-cct-2026-europe-series-11",
+          "event_id": "hltv:cct-2026-europe-series-11",
+          "event_name": "CCT 2026 Europe Series 11",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "INOX Division",
+          "team2_name": "BRUTE",
+          "starts_at": "2026-10-24T16:38:49Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 2,
+          "score2": 1,
+          "winner_name": "INOX Division",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2399338",
+          "hltv_match_id": "2399338",
+          "source_url": "https://www.hltv.org/matches/2399338/nuclear-tigeres-vs-ex-zero-tenacity-cct-2026-europe-series-11",
+          "event_id": "hltv:cct-2026-europe-series-11",
+          "event_name": "CCT 2026 Europe Series 11",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Nuclear TigeRES",
+          "team2_name": "ex-Zero Tenacity",
+          "starts_at": "2026-10-24T19:40:21Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 1,
+          "score2": 2,
+          "winner_name": "ex-Zero Tenacity",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2399339",
+          "hltv_match_id": "2399339",
+          "source_url": "https://www.hltv.org/matches/2399339/acend-vs-inox-division-cct-2026-europe-series-11",
+          "event_id": "hltv:cct-2026-europe-series-11",
+          "event_name": "CCT 2026 Europe Series 11",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Acend",
+          "team2_name": "INOX Division",
+          "starts_at": "2026-10-25T14:35:59Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 2,
+          "score2": 1,
+          "winner_name": "Acend",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2399340",
+          "hltv_match_id": "2399340",
+          "source_url": "https://www.hltv.org/matches/2399340/ex-zero-tenacity-vs-spirit-academy-cct-2026-europe-series-11",
+          "event_id": "hltv:cct-2026-europe-series-11",
+          "event_name": "CCT 2026 Europe Series 11",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "ex-Zero Tenacity",
+          "team2_name": "Spirit Academy",
+          "starts_at": "2026-10-25T16:16:46Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 2,
+          "score2": 0,
+          "winner_name": "ex-Zero Tenacity",
+          "maps": []
+        },
+        {
+          "match_id": "hltv:2399341",
+          "hltv_match_id": "2399341",
+          "source_url": "https://www.hltv.org/matches/2399341/acend-vs-ex-zero-tenacity-cct-2026-europe-series-11",
+          "event_id": "hltv:cct-2026-europe-series-11",
+          "event_name": "CCT 2026 Europe Series 11",
+          "product_tier": "tier_2",
+          "event_url": null,
+          "team1_name": "Acend",
+          "team2_name": "ex-Zero Tenacity",
+          "starts_at": "2026-10-25T18:54:06Z",
+          "stage_name": "Completed series",
+          "series_format": "bo3",
+          "status": "finished",
+          "score1": 0,
+          "score2": 2,
+          "winner_name": "ex-Zero Tenacity",
+          "maps": []
+        }
+      ],
+      "format": {
+        "type": "mixed",
+        "label": "Event schedule",
+        "stages": [],
+        "settings": {}
+      },
+      "current_stage": "Schedule"
+    },
+    {
       "id": "hltv:8050",
       "name": "PGL Masters Bucharest 2026",
       "source_url": null,
       "status": "upcoming",
       "product_tier": "tier_1",
       "participants": [
-        "Liquid",
-        "Aurora",
         "Nemiga",
         "DENDELE",
         "Spirit",
@@ -878,22 +931,6 @@
         "TYLOO"
       ],
       "matches": [
-        {
-          "match_id": "hltv:2399743",
-          "hltv_match_id": "2399743",
-          "source_url": "https://www.hltv.org/matches/2399743/liquid-vs-aurora-pgl-masters-bucharest-2026",
-          "event_id": "hltv:8050",
-          "event_name": "PGL Masters Bucharest 2026",
-          "product_tier": "tier_1",
-          "event_url": null,
-          "team1_name": "Liquid",
-          "team2_name": "Aurora",
-          "starts_at": "2026-10-27T11:00:00Z",
-          "stage_name": "Scheduled series",
-          "series_format": "bo3",
-          "status": "upcoming",
-          "maps": []
-        },
         {
           "match_id": "hltv:2399744",
           "hltv_match_id": "2399744",
@@ -1309,44 +1346,6 @@
     }
   ],
   "matches": [
-    {
-      "match_id": "hltv:2399335",
-      "hltv_match_id": "2399335",
-      "source_url": "https://www.hltv.org/matches/2399335/acend-vs-forze-reload-cct-2026-europe-series-11",
-      "event_id": "hltv:cct-2026-europe-series-11",
-      "event_name": "CCT 2026 Europe Series 11",
-      "product_tier": "tier_2",
-      "event_url": null,
-      "team1_name": "Acend",
-      "team2_name": "FORZE Reload",
-      "starts_at": "2026-10-24T09:34:46Z",
-      "stage_name": "Completed series",
-      "series_format": "bo3",
-      "status": "finished",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "Acend",
-      "maps": []
-    },
-    {
-      "match_id": "hltv:2399719",
-      "hltv_match_id": "2399719",
-      "source_url": "https://www.hltv.org/matches/2399719/aurora-vs-the-mongolz-pgl-masters-bucharest-2026",
-      "event_id": "hltv:pgl-masters-bucharest-2026",
-      "event_name": "PGL Masters Bucharest 2026",
-      "product_tier": "tier_1",
-      "event_url": null,
-      "team1_name": "Aurora",
-      "team2_name": "The MongolZ",
-      "starts_at": "2026-10-24T10:19:57Z",
-      "stage_name": "Completed series",
-      "series_format": "bo3",
-      "status": "finished",
-      "score1": 1,
-      "score2": 2,
-      "winner_name": "The MongolZ",
-      "maps": []
-    },
     {
       "match_id": "hltv:2399722",
       "hltv_match_id": "2399722",
@@ -1921,17 +1920,95 @@
       "match_id": "hltv:2399743",
       "hltv_match_id": "2399743",
       "source_url": "https://www.hltv.org/matches/2399743/liquid-vs-aurora-pgl-masters-bucharest-2026",
-      "event_id": "hltv:8050",
+      "event_id": "hltv:pgl-masters-bucharest-2026",
       "event_name": "PGL Masters Bucharest 2026",
       "product_tier": "tier_1",
-      "event_url": null,
+      "event_url": "https://www.hltv.org/events/archive",
       "team1_name": "Liquid",
       "team2_name": "Aurora",
       "starts_at": "2026-10-27T11:00:00Z",
       "stage_name": "Scheduled series",
       "series_format": "bo3",
       "status": "upcoming",
-      "maps": []
+      "maps": [],
+      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 4 (teams with a 2-1 record). Winner advances to playoffs.",
+      "lineups": {
+        "team1": [
+          {
+            "player_id": "hltv:8520",
+            "hltv_player_id": "8520",
+            "nickname": "NAF",
+            "source_url": "https://www.hltv.org/player/8520/naf",
+            "team_name": "Liquid"
+          },
+          {
+            "player_id": "hltv:8738",
+            "hltv_player_id": "8738",
+            "nickname": "EliGE",
+            "source_url": "https://www.hltv.org/player/8738/elige",
+            "team_name": "Liquid"
+          },
+          {
+            "player_id": "hltv:11617",
+            "hltv_player_id": "11617",
+            "nickname": "malbsMd",
+            "source_url": "https://www.hltv.org/player/11617/malbsmd",
+            "team_name": "Liquid"
+          },
+          {
+            "player_id": "hltv:11630",
+            "hltv_player_id": "11630",
+            "nickname": "JT",
+            "source_url": "https://www.hltv.org/player/11630/jt",
+            "team_name": "Liquid"
+          },
+          {
+            "player_id": "hltv:24203",
+            "hltv_player_id": "24203",
+            "nickname": "Jorko",
+            "source_url": "https://www.hltv.org/player/24203/jorko",
+            "team_name": "Liquid"
+          }
+        ],
+        "team2": [
+          {
+            "player_id": "hltv:7938",
+            "hltv_player_id": "7938",
+            "nickname": "XANTARES",
+            "source_url": "https://www.hltv.org/player/7938/xantares",
+            "team_name": "Aurora"
+          },
+          {
+            "player_id": "hltv:8574",
+            "hltv_player_id": "8574",
+            "nickname": "woxic",
+            "source_url": "https://www.hltv.org/player/8574/woxic",
+            "team_name": "Aurora"
+          },
+          {
+            "player_id": "hltv:18850",
+            "hltv_player_id": "18850",
+            "nickname": "Jimpphat",
+            "source_url": "https://www.hltv.org/player/18850/jimpphat",
+            "team_name": "Aurora"
+          },
+          {
+            "player_id": "hltv:19677",
+            "hltv_player_id": "19677",
+            "nickname": "kyxsan",
+            "source_url": "https://www.hltv.org/player/19677/kyxsan",
+            "team_name": "Aurora"
+          },
+          {
+            "player_id": "hltv:21243",
+            "hltv_player_id": "21243",
+            "nickname": "Wicadia",
+            "source_url": "https://www.hltv.org/player/21243/wicadia",
+            "team_name": "Aurora"
+          }
+        ]
+      },
+      "detail_fetched_at_utc": "2026-10-27T09:57:02Z"
     },
     {
       "match_id": "hltv:2399744",
@@ -2406,12 +2483,93 @@
       "maps": []
     }
   ],
-  "players": [],
+  "players": [
+    {
+      "player_id": "hltv:8520",
+      "hltv_player_id": "8520",
+      "nickname": "NAF",
+      "source_url": "https://www.hltv.org/player/8520/naf",
+      "team_name": "Liquid",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:8738",
+      "hltv_player_id": "8738",
+      "nickname": "EliGE",
+      "source_url": "https://www.hltv.org/player/8738/elige",
+      "team_name": "Liquid",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:11617",
+      "hltv_player_id": "11617",
+      "nickname": "malbsMd",
+      "source_url": "https://www.hltv.org/player/11617/malbsmd",
+      "team_name": "Liquid",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:11630",
+      "hltv_player_id": "11630",
+      "nickname": "JT",
+      "source_url": "https://www.hltv.org/player/11630/jt",
+      "team_name": "Liquid",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:24203",
+      "hltv_player_id": "24203",
+      "nickname": "Jorko",
+      "source_url": "https://www.hltv.org/player/24203/jorko",
+      "team_name": "Liquid",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:7938",
+      "hltv_player_id": "7938",
+      "nickname": "XANTARES",
+      "source_url": "https://www.hltv.org/player/7938/xantares",
+      "team_name": "Aurora",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:8574",
+      "hltv_player_id": "8574",
+      "nickname": "woxic",
+      "source_url": "https://www.hltv.org/player/8574/woxic",
+      "team_name": "Aurora",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:18850",
+      "hltv_player_id": "18850",
+      "nickname": "Jimpphat",
+      "source_url": "https://www.hltv.org/player/18850/jimpphat",
+      "team_name": "Aurora",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:19677",
+      "hltv_player_id": "19677",
+      "nickname": "kyxsan",
+      "source_url": "https://www.hltv.org/player/19677/kyxsan",
+      "team_name": "Aurora",
+      "form_timeline": []
+    },
+    {
+      "player_id": "hltv:21243",
+      "hltv_player_id": "21243",
+      "nickname": "Wicadia",
+      "source_url": "https://www.hltv.org/player/21243/wicadia",
+      "team_name": "Aurora",
+      "form_timeline": []
+    }
+  ],
   "rankings": {
     "source": "Valve Regional Standings",
     "source_url": "https://github.com/ValveSoftware/counter-strike_regional_standings/blob/main/live/2026/standings_global_2026_10_05.md",
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-27T06:21:26Z",
+    "checked_at_utc": "2026-10-27T10:13:13Z",
     "scope": "global",
     "status": "official_snapshot",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
@@ -2785,7 +2943,7 @@
     "detail_matches": 4,
     "detail_cache_hits": 0,
     "detail_errors": [
-      "hltv:2399743: SourceAccessBlocked: Scrapling source returned HTTP 403"
+      "hltv:2399744: SourceAccessBlocked: Scrapling source returned HTTP 403"
     ],
     "access_error": "SourceAccessBlocked: Scrapling source returned HTTP 403",
     "browser_fallbacks": 0
@@ -2797,20 +2955,18 @@
       "tier_2"
     ],
     "events_kept": 7,
-    "matches_kept": 61,
-    "players_kept": 0,
+    "matches_kept": 59,
+    "players_kept": 10,
     "event_tiers": {
-      "hltv:cct-2026-europe-series-11": "tier_2",
       "hltv:pgl-masters-bucharest-2026": "tier_1",
       "hltv:cct-2026-europe-series-12": "tier_2",
+      "hltv:cct-2026-europe-series-11": "tier_2",
       "hltv:8050": "tier_1",
       "hltv:9457": "tier_2",
       "hltv:8245": "tier_1",
       "hltv:8251": "tier_1"
     },
     "eligible_match_ids": [
-      "hltv:2399335",
-      "hltv:2399719",
       "hltv:2399722",
       "hltv:2399502",
       "hltv:2399336",
