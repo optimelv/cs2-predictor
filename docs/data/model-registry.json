@@ -181,7 +181,7 @@
     "version": "bounded-elo-vrs-v1"
   },
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-27T05:37:32Z",
+  "generated_at_utc": "2026-10-27T06:21:49Z",
   "history": [],
   "monitoring": {
     "baseline_slices": [
@@ -475,7 +475,7 @@
     "minimum_test_rows": 350
   },
   "training": {
-    "new_rows": 1,
+    "new_rows": 0,
     "online_rows": 466,
     "repaired_integrity_risk": 0,
     "repaired_timestamps": 0,

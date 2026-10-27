@@ -75026,7 +75026,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-10-27T05:37:10Z",
+    "checked_at_utc": "2026-10-27T06:21:24Z",
     "requested": 869,
     "cached": 265,
     "attempted": 369,
