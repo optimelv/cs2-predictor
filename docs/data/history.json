@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4183,
+    "matches": 4186,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
@@ -386,6 +386,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_3"
+    },
+    {
+      "match_id": "liquipedia:ab6d0da0da5abd8c183e",
+      "match_date": "2026-10-26",
+      "starts_at": "2026-10-26T15:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Playoffs",
+      "team1_name": "BRUTE",
+      "team2_name": "MZP",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BRUTE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:9eb7ee0d413fb4c67a38",
+      "match_date": "2026-10-26",
+      "starts_at": "2026-10-26T18:00:00Z",
+      "event_name": "NODWIN Clutch Series #13 - Playoffs",
+      "team1_name": "NTR",
+      "team2_name": "UNiTY",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "NTR",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/NODWIN_Gaming/Clutch_Series/13#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:e83e336e857e25ac2891",
+      "match_date": "2026-10-26",
+      "starts_at": "2026-10-26T18:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Round 4",
+      "team1_name": "6yuB",
+      "team2_name": "mellren",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "6yuB",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_4"
     },
     {
       "match_id": "hltv:2399505",
