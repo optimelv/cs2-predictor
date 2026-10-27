@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4180,
+    "matches": 4183,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
@@ -320,6 +320,72 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:d5283c2c807ae5ad83f9",
+      "match_date": "2026-10-26",
+      "starts_at": "2026-10-26T13:40:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 3",
+      "team1_name": "FURIA",
+      "team2_name": "Spirit",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Spirit",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_3"
+    },
+    {
+      "match_id": "liquipedia:1afbedf4ccb3d38b77d3",
+      "match_date": "2026-10-26",
+      "starts_at": "2026-10-26T16:30:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 3",
+      "team1_name": "DENDELE",
+      "team2_name": "G2",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "DENDELE",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_3"
+    },
+    {
+      "match_id": "liquipedia:99f6bb3003e50a56e2f1",
+      "match_date": "2026-10-26",
+      "starts_at": "2026-10-26T17:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 3",
+      "team1_name": "BB",
+      "team2_name": "NAVI",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BB",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_3"
     },
     {
       "match_id": "hltv:2399505",
