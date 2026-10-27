@@ -70439,7 +70439,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-27T10:13:13Z",
+      "checked_at_utc": "2026-10-27T13:17:25Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -70823,7 +70823,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-27T10:13:33Z",
+  "generated_at_utc": "2026-10-27T13:17:56Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -72377,7 +72377,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-27T10:13:33Z",
+    "generated_at_utc": "2026-10-27T13:17:56Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
