@@ -1,18 +1,194 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-10-27T09:57:09Z",
-  "through_date": "2026-10-26",
+  "through_date": "2026-10-27",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4188,
+    "matches": 4196,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:b6cc0486267604b2355e",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T03:00:00Z",
+      "event_name": "DFRAG Invitational 2026 - Group B",
+      "team1_name": "FLY",
+      "team2_name": "StaQued",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FLY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:480fdf036d0977bc2627",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T07:35:00Z",
+      "event_name": "DFRAG Invitational 2026 - Group B",
+      "team1_name": "FLY",
+      "team2_name": "Rooster",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FLY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:69feef0a88d505bcf9ef",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T11:00:00Z",
+      "event_name": "Tesla Cup 2026 - Group A",
+      "team1_name": "Alliance",
+      "team2_name": "FaZe",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FaZe",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:c506e040f46444751f6e",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T11:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 4",
+      "team1_name": "Aurora",
+      "team2_name": "Liquid",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Aurora",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_4"
+    },
+    {
+      "match_id": "liquipedia:f65532d79104ad2d5457",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T11:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 4",
+      "team1_name": "DENDELE",
+      "team2_name": "Nemiga",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nemiga",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_4"
+    },
+    {
+      "match_id": "liquipedia:04a99be93fa9c01ccb9c",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T12:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Round 4",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Spirit.A",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_4"
+    },
+    {
+      "match_id": "liquipedia:e0d3f119d1ce139e5277",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T12:55:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 4",
+      "team1_name": "Legacy",
+      "team2_name": "MongolZ",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MongolZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_4"
+    },
+    {
+      "match_id": "liquipedia:5234c21298eb505bfff0",
+      "match_date": "2026-10-27",
+      "starts_at": "2026-10-27T13:10:00Z",
+      "event_name": "Tesla Cup 2026 - Group A",
+      "team1_name": "FaZe",
+      "team2_name": "K27",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FaZe",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Group_A"
+    },
     {
       "match_id": "liquipedia:26c84361a15b76fd4be0",
       "match_date": "2026-10-26",
