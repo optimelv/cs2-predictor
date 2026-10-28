@@ -70480,7 +70480,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-27T22:59:38Z",
+    "checked_at_utc": "2026-10-28T02:20:38Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
