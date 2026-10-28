@@ -2,264 +2,6 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   "contract_version": "1.0",
   "daily_matches": [
     {
-      "detail_fetched_at_utc": "2026-10-26T09:10:35Z",
-      "event_id": "hltv:pgl-masters-bucharest-2026",
-      "event_name": "PGL Masters Bucharest 2026",
-      "event_url": "https://www.hltv.org/events/archive",
-      "hltv_match_id": "2399735",
-      "lineups": {
-        "team1": [
-          {
-            "hltv_player_id": "15072",
-            "nickname": "nin9",
-            "player_id": "hltv:15072",
-            "source_url": "https://www.hltv.org/player/15072/nin9",
-            "team_name": "The MongolZ"
-          },
-          {
-            "hltv_player_id": "20194",
-            "nickname": "bLitz",
-            "player_id": "hltv:20194",
-            "source_url": "https://www.hltv.org/player/20194/blitz",
-            "team_name": "The MongolZ"
-          },
-          {
-            "hltv_player_id": "20275",
-            "nickname": "Techno",
-            "player_id": "hltv:20275",
-            "source_url": "https://www.hltv.org/player/20275/techno",
-            "team_name": "The MongolZ"
-          },
-          {
-            "hltv_player_id": "21809",
-            "nickname": "910",
-            "player_id": "hltv:21809",
-            "source_url": "https://www.hltv.org/player/21809/910",
-            "team_name": "The MongolZ"
-          },
-          {
-            "hltv_player_id": "23402",
-            "nickname": "cobrazera",
-            "player_id": "hltv:23402",
-            "source_url": "https://www.hltv.org/player/23402/cobrazera",
-            "team_name": "The MongolZ"
-          }
-        ],
-        "team2": [
-          {
-            "hltv_player_id": "18072",
-            "nickname": "torzsi",
-            "player_id": "hltv:18072",
-            "source_url": "https://www.hltv.org/player/18072/torzsi",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "18221",
-            "nickname": "Spinx",
-            "player_id": "hltv:18221",
-            "source_url": "https://www.hltv.org/player/18221/spinx",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "20312",
-            "nickname": "xertioN",
-            "player_id": "hltv:20312",
-            "source_url": "https://www.hltv.org/player/20312/xertion",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "22279",
-            "nickname": "PR",
-            "player_id": "hltv:22279",
-            "source_url": "https://www.hltv.org/player/22279/pr",
-            "team_name": "MOUZ"
-          },
-          {
-            "hltv_player_id": "24457",
-            "nickname": "xelex",
-            "player_id": "hltv:24457",
-            "source_url": "https://www.hltv.org/player/24457/xelex",
-            "team_name": "MOUZ"
-          }
-        ]
-      },
-      "map_results": [
-        {
-          "map_name": "Nuke",
-          "score1": 11,
-          "score2": 13,
-          "status": "finished"
-        },
-        {
-          "map_name": "Mirage",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        },
-        {
-          "map_name": "Inferno",
-          "score1": null,
-          "score2": null,
-          "status": "upcoming"
-        }
-      ],
-      "maps": [
-        "Nuke",
-        "Mirage",
-        "Inferno"
-      ],
-      "match_id": "hltv:2399735",
-      "player_stats": [
-        {
-          "adr": 84.3,
-          "deaths": 17,
-          "hltv_player_id": "15072",
-          "kast": 75,
-          "kills": 16,
-          "nickname": "nin9",
-          "player_id": "hltv:15072",
-          "rating": 1.27,
-          "source_url": "https://www.hltv.org/player/15072/nin9",
-          "team_side": 1
-        },
-        {
-          "adr": 82.2,
-          "deaths": 17,
-          "hltv_player_id": "23402",
-          "kast": 83.3,
-          "kills": 19,
-          "nickname": "cobrazera",
-          "player_id": "hltv:23402",
-          "rating": 1.26,
-          "source_url": "https://www.hltv.org/player/23402/cobrazera",
-          "team_side": 1
-        },
-        {
-          "adr": 62.7,
-          "deaths": 16,
-          "hltv_player_id": "20275",
-          "kast": 58.3,
-          "kills": 12,
-          "nickname": "Techno",
-          "player_id": "hltv:20275",
-          "rating": 0.81,
-          "source_url": "https://www.hltv.org/player/20275/techno",
-          "team_side": 1
-        },
-        {
-          "adr": 44.9,
-          "deaths": 17,
-          "hltv_player_id": "21809",
-          "kast": 75,
-          "kills": 11,
-          "nickname": "910",
-          "player_id": "hltv:21809",
-          "rating": 0.77,
-          "source_url": "https://www.hltv.org/player/21809/910",
-          "team_side": 1
-        },
-        {
-          "adr": 64.1,
-          "deaths": 17,
-          "hltv_player_id": "20194",
-          "kast": 58.3,
-          "kills": 13,
-          "nickname": "bLitz",
-          "player_id": "hltv:20194",
-          "rating": 0.7,
-          "source_url": "https://www.hltv.org/player/20194/blitz",
-          "team_side": 1
-        },
-        {
-          "adr": 75.7,
-          "deaths": 14,
-          "hltv_player_id": "24457",
-          "kast": 83.3,
-          "kills": 18,
-          "nickname": "xelex",
-          "player_id": "hltv:24457",
-          "rating": 1.32,
-          "source_url": "https://www.hltv.org/player/24457/xelex",
-          "team_side": 2
-        },
-        {
-          "adr": 93.7,
-          "deaths": 15,
-          "hltv_player_id": "22279",
-          "kast": 83.3,
-          "kills": 22,
-          "nickname": "PR",
-          "player_id": "hltv:22279",
-          "rating": 1.28,
-          "source_url": "https://www.hltv.org/player/22279/pr",
-          "team_side": 2
-        },
-        {
-          "adr": 83.2,
-          "deaths": 13,
-          "hltv_player_id": "18221",
-          "kast": 66.7,
-          "kills": 17,
-          "nickname": "Spinx",
-          "player_id": "hltv:18221",
-          "rating": 1.24,
-          "source_url": "https://www.hltv.org/player/18221/spinx",
-          "team_side": 2
-        },
-        {
-          "adr": 59,
-          "deaths": 13,
-          "hltv_player_id": "18072",
-          "kast": 58.3,
-          "kills": 15,
-          "nickname": "torzsi",
-          "player_id": "hltv:18072",
-          "rating": 1.02,
-          "source_url": "https://www.hltv.org/player/18072/torzsi",
-          "team_side": 2
-        },
-        {
-          "adr": 59.8,
-          "deaths": 18,
-          "hltv_player_id": "20312",
-          "kast": 75,
-          "kills": 11,
-          "nickname": "xertioN",
-          "player_id": "hltv:20312",
-          "rating": 0.82,
-          "source_url": "https://www.hltv.org/player/20312/xertion",
-          "team_side": 2
-        }
-      ],
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399735/the-mongolz-vs-mouz-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "status": "finished",
-      "team1_name": "The MongolZ",
-      "team2_name": "MOUZ",
-      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)",
-      "winner_name": "MOUZ"
-    },
-    {
-      "event_id": "hltv:pgl-masters-bucharest-2026",
-      "event_name": "PGL Masters Bucharest 2026",
-      "hltv_match_id": "2399736",
-      "match_id": "hltv:2399736",
-      "product_tier": "tier_1",
-      "score1": 0,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399736/nemiga-vs-aurora-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "status": "finished",
-      "team1_name": "Nemiga",
-      "team2_name": "Aurora",
-      "winner_name": "Aurora"
-    },
-    {
       "event_id": "hltv:cct-2026-europe-series-10",
       "event_name": "CCT 2026 Europe Series 10",
       "hltv_match_id": "2398406",
@@ -28513,6 +28255,266 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "FORZE Reload"
     },
     {
+      "detail_fetched_at_utc": "2026-10-26T09:10:35Z",
+      "event_id": "hltv:pgl-masters-bucharest-2026",
+      "event_name": "PGL Masters Bucharest 2026",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2399735",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "15072",
+            "nickname": "nin9",
+            "player_id": "hltv:15072",
+            "source_url": "https://www.hltv.org/player/15072/nin9",
+            "team_name": "The MongolZ"
+          },
+          {
+            "hltv_player_id": "20194",
+            "nickname": "bLitz",
+            "player_id": "hltv:20194",
+            "source_url": "https://www.hltv.org/player/20194/blitz",
+            "team_name": "The MongolZ"
+          },
+          {
+            "hltv_player_id": "20275",
+            "nickname": "Techno",
+            "player_id": "hltv:20275",
+            "source_url": "https://www.hltv.org/player/20275/techno",
+            "team_name": "The MongolZ"
+          },
+          {
+            "hltv_player_id": "21809",
+            "nickname": "910",
+            "player_id": "hltv:21809",
+            "source_url": "https://www.hltv.org/player/21809/910",
+            "team_name": "The MongolZ"
+          },
+          {
+            "hltv_player_id": "23402",
+            "nickname": "cobrazera",
+            "player_id": "hltv:23402",
+            "source_url": "https://www.hltv.org/player/23402/cobrazera",
+            "team_name": "The MongolZ"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "18072",
+            "nickname": "torzsi",
+            "player_id": "hltv:18072",
+            "source_url": "https://www.hltv.org/player/18072/torzsi",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "18221",
+            "nickname": "Spinx",
+            "player_id": "hltv:18221",
+            "source_url": "https://www.hltv.org/player/18221/spinx",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "20312",
+            "nickname": "xertioN",
+            "player_id": "hltv:20312",
+            "source_url": "https://www.hltv.org/player/20312/xertion",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "22279",
+            "nickname": "PR",
+            "player_id": "hltv:22279",
+            "source_url": "https://www.hltv.org/player/22279/pr",
+            "team_name": "MOUZ"
+          },
+          {
+            "hltv_player_id": "24457",
+            "nickname": "xelex",
+            "player_id": "hltv:24457",
+            "source_url": "https://www.hltv.org/player/24457/xelex",
+            "team_name": "MOUZ"
+          }
+        ]
+      },
+      "map_results": [
+        {
+          "map_name": "Nuke",
+          "score1": 11,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Mirage",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        },
+        {
+          "map_name": "Inferno",
+          "score1": null,
+          "score2": null,
+          "status": "upcoming"
+        }
+      ],
+      "maps": [
+        "Nuke",
+        "Mirage",
+        "Inferno"
+      ],
+      "match_id": "hltv:2399735",
+      "player_stats": [
+        {
+          "adr": 84.3,
+          "deaths": 17,
+          "hltv_player_id": "15072",
+          "kast": 75,
+          "kills": 16,
+          "nickname": "nin9",
+          "player_id": "hltv:15072",
+          "rating": 1.27,
+          "source_url": "https://www.hltv.org/player/15072/nin9",
+          "team_side": 1
+        },
+        {
+          "adr": 82.2,
+          "deaths": 17,
+          "hltv_player_id": "23402",
+          "kast": 83.3,
+          "kills": 19,
+          "nickname": "cobrazera",
+          "player_id": "hltv:23402",
+          "rating": 1.26,
+          "source_url": "https://www.hltv.org/player/23402/cobrazera",
+          "team_side": 1
+        },
+        {
+          "adr": 62.7,
+          "deaths": 16,
+          "hltv_player_id": "20275",
+          "kast": 58.3,
+          "kills": 12,
+          "nickname": "Techno",
+          "player_id": "hltv:20275",
+          "rating": 0.81,
+          "source_url": "https://www.hltv.org/player/20275/techno",
+          "team_side": 1
+        },
+        {
+          "adr": 44.9,
+          "deaths": 17,
+          "hltv_player_id": "21809",
+          "kast": 75,
+          "kills": 11,
+          "nickname": "910",
+          "player_id": "hltv:21809",
+          "rating": 0.77,
+          "source_url": "https://www.hltv.org/player/21809/910",
+          "team_side": 1
+        },
+        {
+          "adr": 64.1,
+          "deaths": 17,
+          "hltv_player_id": "20194",
+          "kast": 58.3,
+          "kills": 13,
+          "nickname": "bLitz",
+          "player_id": "hltv:20194",
+          "rating": 0.7,
+          "source_url": "https://www.hltv.org/player/20194/blitz",
+          "team_side": 1
+        },
+        {
+          "adr": 75.7,
+          "deaths": 14,
+          "hltv_player_id": "24457",
+          "kast": 83.3,
+          "kills": 18,
+          "nickname": "xelex",
+          "player_id": "hltv:24457",
+          "rating": 1.32,
+          "source_url": "https://www.hltv.org/player/24457/xelex",
+          "team_side": 2
+        },
+        {
+          "adr": 93.7,
+          "deaths": 15,
+          "hltv_player_id": "22279",
+          "kast": 83.3,
+          "kills": 22,
+          "nickname": "PR",
+          "player_id": "hltv:22279",
+          "rating": 1.28,
+          "source_url": "https://www.hltv.org/player/22279/pr",
+          "team_side": 2
+        },
+        {
+          "adr": 83.2,
+          "deaths": 13,
+          "hltv_player_id": "18221",
+          "kast": 66.7,
+          "kills": 17,
+          "nickname": "Spinx",
+          "player_id": "hltv:18221",
+          "rating": 1.24,
+          "source_url": "https://www.hltv.org/player/18221/spinx",
+          "team_side": 2
+        },
+        {
+          "adr": 59,
+          "deaths": 13,
+          "hltv_player_id": "18072",
+          "kast": 58.3,
+          "kills": 15,
+          "nickname": "torzsi",
+          "player_id": "hltv:18072",
+          "rating": 1.02,
+          "source_url": "https://www.hltv.org/player/18072/torzsi",
+          "team_side": 2
+        },
+        {
+          "adr": 59.8,
+          "deaths": 18,
+          "hltv_player_id": "20312",
+          "kast": 75,
+          "kills": 11,
+          "nickname": "xertioN",
+          "player_id": "hltv:20312",
+          "rating": 0.82,
+          "source_url": "https://www.hltv.org/player/20312/xertion",
+          "team_side": 2
+        }
+      ],
+      "product_tier": "tier_1",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399735/the-mongolz-vs-mouz-pgl-masters-bucharest-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-26T10:05:23Z",
+      "status": "finished",
+      "team1_name": "The MongolZ",
+      "team2_name": "MOUZ",
+      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 3 (teams with a 1-1 record)",
+      "winner_name": "MOUZ"
+    },
+    {
+      "event_id": "hltv:pgl-masters-bucharest-2026",
+      "event_name": "PGL Masters Bucharest 2026",
+      "hltv_match_id": "2399736",
+      "match_id": "hltv:2399736",
+      "product_tier": "tier_1",
+      "score1": 0,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399736/nemiga-vs-aurora-pgl-masters-bucharest-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-26T10:38:43Z",
+      "status": "finished",
+      "team1_name": "Nemiga",
+      "team2_name": "Aurora",
+      "winner_name": "Aurora"
+    },
+    {
       "event_id": "hltv:pgl-masters-bucharest-2026",
       "event_name": "PGL Masters Bucharest 2026",
       "hltv_match_id": "2399737",
@@ -28523,28 +28525,11 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399737/vitality-vs-fut-pgl-masters-bucharest-2026",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-26T11:00:00Z",
+      "starts_at": "2026-10-26T13:20:08Z",
       "status": "finished",
       "team1_name": "Vitality",
       "team2_name": "FUT",
       "winner_name": "FUT"
-    },
-    {
-      "event_id": "hltv:pgl-masters-bucharest-2026",
-      "event_name": "PGL Masters Bucharest 2026",
-      "hltv_match_id": "2399738",
-      "match_id": "hltv:2399738",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399738/9z-vs-tyloo-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-26T11:00:00Z",
-      "status": "finished",
-      "team1_name": "9z",
-      "team2_name": "TYLOO",
-      "winner_name": "TYLOO"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-12",
@@ -28566,19 +28551,19 @@ window.__STRIKESIGNAL_COVERAGE__ = {
     {
       "event_id": "hltv:pgl-masters-bucharest-2026",
       "event_name": "PGL Masters Bucharest 2026",
-      "hltv_match_id": "2399739",
-      "match_id": "hltv:2399739",
+      "hltv_match_id": "2399738",
+      "match_id": "hltv:2399738",
       "product_tier": "tier_1",
-      "score1": 2,
-      "score2": 1,
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399739/spirit-vs-furia-pgl-masters-bucharest-2026",
+      "source_url": "https://www.hltv.org/matches/2399738/9z-vs-tyloo-pgl-masters-bucharest-2026",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-26T14:00:00Z",
+      "starts_at": "2026-10-26T13:41:45Z",
       "status": "finished",
-      "team1_name": "Spirit",
-      "team2_name": "FURIA",
-      "winner_name": "Spirit"
+      "team1_name": "9z",
+      "team2_name": "TYLOO",
+      "winner_name": "TYLOO"
     },
     {
       "event_id": "hltv:pgl-masters-bucharest-2026",
@@ -28591,11 +28576,28 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399740/liquid-vs-legacy-pgl-masters-bucharest-2026",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-26T14:00:00Z",
+      "starts_at": "2026-10-26T16:15:12Z",
       "status": "finished",
       "team1_name": "Liquid",
       "team2_name": "Legacy",
       "winner_name": "Liquid"
+    },
+    {
+      "event_id": "hltv:pgl-masters-bucharest-2026",
+      "event_name": "PGL Masters Bucharest 2026",
+      "hltv_match_id": "2399739",
+      "match_id": "hltv:2399739",
+      "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399739/spirit-vs-furia-pgl-masters-bucharest-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-26T16:45:25Z",
+      "status": "finished",
+      "team1_name": "Spirit",
+      "team2_name": "FURIA",
+      "winner_name": "Spirit"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-12",
@@ -28625,28 +28627,11 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399741/betboom-vs-natus-vincere-pgl-masters-bucharest-2026",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-26T17:00:00Z",
+      "starts_at": "2026-10-26T19:02:06Z",
       "status": "finished",
       "team1_name": "BETBOOM",
       "team2_name": "Natus Vincere",
       "winner_name": "BETBOOM"
-    },
-    {
-      "event_id": "hltv:pgl-masters-bucharest-2026",
-      "event_name": "PGL Masters Bucharest 2026",
-      "hltv_match_id": "2399742",
-      "match_id": "hltv:2399742",
-      "product_tier": "tier_1",
-      "score1": 1,
-      "score2": 2,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399742/g2-vs-dendele-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-26T17:00:00Z",
-      "status": "finished",
-      "team1_name": "G2",
-      "team2_name": "DENDELE",
-      "winner_name": "DENDELE"
     },
     {
       "event_id": "hltv:cct-2026-europe-series-12",
@@ -28664,6 +28649,23 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "team1_name": "6yuBoJlbl",
       "team2_name": "mellren",
       "winner_name": "6yuBoJlbl"
+    },
+    {
+      "event_id": "hltv:pgl-masters-bucharest-2026",
+      "event_name": "PGL Masters Bucharest 2026",
+      "hltv_match_id": "2399742",
+      "match_id": "hltv:2399742",
+      "product_tier": "tier_1",
+      "score1": 1,
+      "score2": 2,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399742/g2-vs-dendele-pgl-masters-bucharest-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-26T19:44:39Z",
+      "status": "finished",
+      "team1_name": "G2",
+      "team2_name": "DENDELE",
+      "winner_name": "DENDELE"
     },
     {
       "detail_fetched_at_utc": "2026-10-27T09:57:02Z",
@@ -28830,18 +28832,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "The MongolZ"
     },
     {
-      "event_id": "hltv:8050",
+      "event_id": "hltv:pgl-masters-bucharest-2026",
       "event_name": "PGL Masters Bucharest 2026",
       "hltv_match_id": "2399747",
       "match_id": "hltv:2399747",
       "product_tier": "tier_1",
+      "score1": 2,
+      "score2": 0,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399747/vitality-vs-natus-vincere-pgl-masters-bucharest-2026",
       "stage_name": "Scheduled series",
       "starts_at": "2026-10-27T17:00:00Z",
-      "status": "live",
+      "status": "finished",
       "team1_name": "Vitality",
-      "team2_name": "Natus Vincere"
+      "team2_name": "Natus Vincere",
+      "winner_name": "Vitality"
     },
     {
       "event_id": "hltv:pgl-masters-bucharest-2026",
@@ -28878,18 +28883,184 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "winner_name": "BAKS"
     },
     {
-      "event_id": "hltv:9457",
+      "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
       "hltv_match_id": "2399514",
       "match_id": "hltv:2399514",
       "product_tier": "tier_2",
+      "score1": 0,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399514/inner-circle-academy-vs-lavked-cct-2026-europe-series-12",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-27T18:00:00Z",
-      "status": "live",
+      "starts_at": "2026-10-27T20:42:52Z",
+      "status": "finished",
       "team1_name": "Inner Circle Academy",
-      "team2_name": "Lavked"
+      "team2_name": "Lavked",
+      "winner_name": "Lavked"
+    },
+    {
+      "detail_fetched_at_utc": "2026-10-28T09:15:32Z",
+      "event_id": "hltv:pgl-masters-bucharest-2026",
+      "event_name": "PGL Masters Bucharest 2026",
+      "event_url": "https://www.hltv.org/events/archive",
+      "hltv_match_id": "2399749",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "15072",
+            "nickname": "nin9",
+            "player_id": "hltv:15072",
+            "source_url": "https://www.hltv.org/player/15072/nin9",
+            "team_name": "The MongolZ"
+          },
+          {
+            "hltv_player_id": "20194",
+            "nickname": "bLitz",
+            "player_id": "hltv:20194",
+            "source_url": "https://www.hltv.org/player/20194/blitz",
+            "team_name": "The MongolZ"
+          },
+          {
+            "hltv_player_id": "20275",
+            "nickname": "Techno",
+            "player_id": "hltv:20275",
+            "source_url": "https://www.hltv.org/player/20275/techno",
+            "team_name": "The MongolZ"
+          },
+          {
+            "hltv_player_id": "21809",
+            "nickname": "910",
+            "player_id": "hltv:21809",
+            "source_url": "https://www.hltv.org/player/21809/910",
+            "team_name": "The MongolZ"
+          },
+          {
+            "hltv_player_id": "23402",
+            "nickname": "cobrazera",
+            "player_id": "hltv:23402",
+            "source_url": "https://www.hltv.org/player/23402/cobrazera",
+            "team_name": "The MongolZ"
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "19920",
+            "nickname": "KaiR0N-",
+            "player_id": "hltv:19920",
+            "source_url": "https://www.hltv.org/player/19920/kair0n",
+            "team_name": "Nemiga"
+          },
+          {
+            "hltv_player_id": "20387",
+            "nickname": "Xant3r",
+            "player_id": "hltv:20387",
+            "source_url": "https://www.hltv.org/player/20387/xant3r",
+            "team_name": "Nemiga"
+          },
+          {
+            "hltv_player_id": "22864",
+            "nickname": "robo",
+            "player_id": "hltv:22864",
+            "source_url": "https://www.hltv.org/player/22864/robo",
+            "team_name": "Nemiga"
+          },
+          {
+            "hltv_player_id": "23317",
+            "nickname": "khaN",
+            "player_id": "hltv:23317",
+            "source_url": "https://www.hltv.org/player/23317/khan",
+            "team_name": "Nemiga"
+          },
+          {
+            "hltv_player_id": "23319",
+            "nickname": "syph0",
+            "player_id": "hltv:23319",
+            "source_url": "https://www.hltv.org/player/23319/syph0",
+            "team_name": "Nemiga"
+          }
+        ]
+      },
+      "match_id": "hltv:2399749",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399749/the-mongolz-vs-nemiga-pgl-masters-bucharest-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-28T11:00:00Z",
+      "status": "upcoming",
+      "team1_name": "The MongolZ",
+      "team2_name": "Nemiga",
+      "veto_text": "Best of 3 (LAN)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399515",
+      "match_id": "hltv:2399515",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399515/inner-circle-academy-vs-saint-sinners-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-28T12:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Inner Circle Academy",
+      "team2_name": "Saint Sinners"
+    },
+    {
+      "event_id": "hltv:8050",
+      "event_name": "PGL Masters Bucharest 2026",
+      "hltv_match_id": "2399750",
+      "match_id": "hltv:2399750",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399750/liquid-vs-furia-pgl-masters-bucharest-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-28T14:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Liquid",
+      "team2_name": "FURIA"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399516",
+      "match_id": "hltv:2399516",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399516/6yubojlbl-vs-lfo-10-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-28T15:00:00Z",
+      "status": "upcoming",
+      "team1_name": "6yuBoJlbl",
+      "team2_name": "LFO 10"
+    },
+    {
+      "event_id": "hltv:8050",
+      "event_name": "PGL Masters Bucharest 2026",
+      "hltv_match_id": "2399751",
+      "match_id": "hltv:2399751",
+      "product_tier": "tier_1",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399751/spirit-vs-natus-vincere-pgl-masters-bucharest-2026",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-28T17:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Spirit",
+      "team2_name": "Natus Vincere"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399517",
+      "match_id": "hltv:2399517",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399517/ex-rustec-vs-illyrians-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-28T18:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Illyrians"
     },
     {
       "event_id": "hltv:8245",
@@ -35861,6 +36032,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399735/the-mongolz-vs-mouz-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
+          "starts_at": "2026-10-26T10:05:23Z",
           "status": "finished",
           "team1_name": "The MongolZ",
           "team2_name": "MOUZ",
@@ -35878,7 +36050,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399737/vitality-vs-fut-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-26T11:00:00Z",
+          "starts_at": "2026-10-26T13:20:08Z",
           "status": "finished",
           "team1_name": "Vitality",
           "team2_name": "FUT",
@@ -35895,7 +36067,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399738/9z-vs-tyloo-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-26T11:00:00Z",
+          "starts_at": "2026-10-26T13:41:45Z",
           "status": "finished",
           "team1_name": "9z",
           "team2_name": "TYLOO",
@@ -35912,7 +36084,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399739/spirit-vs-furia-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-26T14:00:00Z",
+          "starts_at": "2026-10-26T16:45:25Z",
           "status": "finished",
           "team1_name": "Spirit",
           "team2_name": "FURIA",
@@ -35929,7 +36101,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399740/liquid-vs-legacy-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-26T14:00:00Z",
+          "starts_at": "2026-10-26T16:15:12Z",
           "status": "finished",
           "team1_name": "Liquid",
           "team2_name": "Legacy",
@@ -35946,7 +36118,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399741/betboom-vs-natus-vincere-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-26T17:00:00Z",
+          "starts_at": "2026-10-26T19:02:06Z",
           "status": "finished",
           "team1_name": "BETBOOM",
           "team2_name": "Natus Vincere",
@@ -35963,7 +36135,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399742/g2-vs-dendele-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-26T17:00:00Z",
+          "starts_at": "2026-10-26T19:44:39Z",
           "status": "finished",
           "team1_name": "G2",
           "team2_name": "DENDELE",
@@ -35980,6 +36152,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399736/nemiga-vs-aurora-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
+          "starts_at": "2026-10-26T10:38:43Z",
           "status": "finished",
           "team1_name": "Nemiga",
           "team2_name": "Aurora",
@@ -36133,18 +36306,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "The MongolZ"
         },
         {
-          "event_id": "hltv:8050",
+          "event_id": "hltv:pgl-masters-bucharest-2026",
           "event_name": "PGL Masters Bucharest 2026",
           "hltv_match_id": "2399747",
           "match_id": "hltv:2399747",
           "product_tier": "tier_1",
+          "score1": 2,
+          "score2": 0,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399747/vitality-vs-natus-vincere-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
           "starts_at": "2026-10-27T17:00:00Z",
-          "status": "live",
+          "status": "finished",
           "team1_name": "Vitality",
-          "team2_name": "Natus Vincere"
+          "team2_name": "Natus Vincere",
+          "winner_name": "Vitality"
         },
         {
           "event_id": "hltv:pgl-masters-bucharest-2026",
@@ -36162,6 +36338,127 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "FURIA",
           "team2_name": "TYLOO",
           "winner_name": "FURIA"
+        },
+        {
+          "detail_fetched_at_utc": "2026-10-28T09:15:32Z",
+          "event_id": "hltv:pgl-masters-bucharest-2026",
+          "event_name": "PGL Masters Bucharest 2026",
+          "event_url": "https://www.hltv.org/events/archive",
+          "hltv_match_id": "2399749",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "15072",
+                "nickname": "nin9",
+                "player_id": "hltv:15072",
+                "source_url": "https://www.hltv.org/player/15072/nin9",
+                "team_name": "The MongolZ"
+              },
+              {
+                "hltv_player_id": "20194",
+                "nickname": "bLitz",
+                "player_id": "hltv:20194",
+                "source_url": "https://www.hltv.org/player/20194/blitz",
+                "team_name": "The MongolZ"
+              },
+              {
+                "hltv_player_id": "20275",
+                "nickname": "Techno",
+                "player_id": "hltv:20275",
+                "source_url": "https://www.hltv.org/player/20275/techno",
+                "team_name": "The MongolZ"
+              },
+              {
+                "hltv_player_id": "21809",
+                "nickname": "910",
+                "player_id": "hltv:21809",
+                "source_url": "https://www.hltv.org/player/21809/910",
+                "team_name": "The MongolZ"
+              },
+              {
+                "hltv_player_id": "23402",
+                "nickname": "cobrazera",
+                "player_id": "hltv:23402",
+                "source_url": "https://www.hltv.org/player/23402/cobrazera",
+                "team_name": "The MongolZ"
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "19920",
+                "nickname": "KaiR0N-",
+                "player_id": "hltv:19920",
+                "source_url": "https://www.hltv.org/player/19920/kair0n",
+                "team_name": "Nemiga"
+              },
+              {
+                "hltv_player_id": "20387",
+                "nickname": "Xant3r",
+                "player_id": "hltv:20387",
+                "source_url": "https://www.hltv.org/player/20387/xant3r",
+                "team_name": "Nemiga"
+              },
+              {
+                "hltv_player_id": "22864",
+                "nickname": "robo",
+                "player_id": "hltv:22864",
+                "source_url": "https://www.hltv.org/player/22864/robo",
+                "team_name": "Nemiga"
+              },
+              {
+                "hltv_player_id": "23317",
+                "nickname": "khaN",
+                "player_id": "hltv:23317",
+                "source_url": "https://www.hltv.org/player/23317/khan",
+                "team_name": "Nemiga"
+              },
+              {
+                "hltv_player_id": "23319",
+                "nickname": "syph0",
+                "player_id": "hltv:23319",
+                "source_url": "https://www.hltv.org/player/23319/syph0",
+                "team_name": "Nemiga"
+              }
+            ]
+          },
+          "match_id": "hltv:2399749",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399749/the-mongolz-vs-nemiga-pgl-masters-bucharest-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-28T11:00:00Z",
+          "status": "upcoming",
+          "team1_name": "The MongolZ",
+          "team2_name": "Nemiga",
+          "veto_text": "Best of 3 (LAN)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated."
+        },
+        {
+          "event_id": "hltv:8050",
+          "event_name": "PGL Masters Bucharest 2026",
+          "hltv_match_id": "2399750",
+          "match_id": "hltv:2399750",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399750/liquid-vs-furia-pgl-masters-bucharest-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-28T14:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Liquid",
+          "team2_name": "FURIA"
+        },
+        {
+          "event_id": "hltv:8050",
+          "event_name": "PGL Masters Bucharest 2026",
+          "hltv_match_id": "2399751",
+          "match_id": "hltv:2399751",
+          "product_tier": "tier_1",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399751/spirit-vs-natus-vincere-pgl-masters-bucharest-2026",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-28T17:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Spirit",
+          "team2_name": "Natus Vincere"
         }
       ],
       "name": "PGL Masters Bucharest 2026",
@@ -70399,18 +70696,21 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "winner_name": "BAKS"
         },
         {
-          "event_id": "hltv:9457",
+          "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "hltv_match_id": "2399514",
           "match_id": "hltv:2399514",
           "product_tier": "tier_2",
+          "score1": 0,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399514/inner-circle-academy-vs-lavked-cct-2026-europe-series-12",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-27T18:00:00Z",
-          "status": "live",
+          "starts_at": "2026-10-27T20:42:52Z",
+          "status": "finished",
           "team1_name": "Inner Circle Academy",
-          "team2_name": "Lavked"
+          "team2_name": "Lavked",
+          "winner_name": "Lavked"
         },
         {
           "event_id": "hltv:cct-2026-europe-series-12",
@@ -70428,6 +70728,48 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "team1_name": "6yuBoJlbl",
           "team2_name": "mellren",
           "winner_name": "6yuBoJlbl"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399515",
+          "match_id": "hltv:2399515",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399515/inner-circle-academy-vs-saint-sinners-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-28T12:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Inner Circle Academy",
+          "team2_name": "Saint Sinners"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399516",
+          "match_id": "hltv:2399516",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399516/6yubojlbl-vs-lfo-10-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-28T15:00:00Z",
+          "status": "upcoming",
+          "team1_name": "6yuBoJlbl",
+          "team2_name": "LFO 10"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399517",
+          "match_id": "hltv:2399517",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399517/ex-rustec-vs-illyrians-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-28T18:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-RUSTEC",
+          "team2_name": "Illyrians"
         }
       ],
       "name": "CCT 2026 Europe Series 12",
@@ -70455,7 +70797,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 16
     }
   ],
-  "last_verified_utc": "2026-10-27T18:03:15Z",
+  "last_verified_utc": "2026-10-28T09:15:47Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -70480,7 +70822,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-28T02:20:38Z",
+    "checked_at_utc": "2026-10-28T09:46:38Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
