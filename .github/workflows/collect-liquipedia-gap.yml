@@ -18,6 +18,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.ref }}
       - name: Load private source observations
         env:
           PRIVATE_DATA_DEPLOY_KEY: ${{ secrets.PRIVATE_DATA_DEPLOY_KEY }}
