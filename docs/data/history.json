@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4217,
+    "matches": 4226,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
@@ -34,6 +34,204 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:584df1e9c00ee385da01",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T08:00:00Z",
+      "event_name": "Tesla Cup 2026 - Group A",
+      "team1_name": "Alliance",
+      "team2_name": "B8",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "B8",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:95dec3663f331396a7fe",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T11:00:00Z",
+      "event_name": "Stake Ranked Episode 5",
+      "team1_name": "Astralis",
+      "team2_name": "magic",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Astralis",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_5#Results"
+    },
+    {
+      "match_id": "liquipedia:e4f38ae20886542b028d",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T11:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 5",
+      "team1_name": "MongolZ",
+      "team2_name": "Nemiga",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nemiga",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_5"
+    },
+    {
+      "match_id": "liquipedia:a91ef9537faa862fa0bb",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T11:30:00Z",
+      "event_name": "Tesla Cup 2026 - Group A",
+      "team1_name": "B8",
+      "team2_name": "K27",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "B8",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:d9ac2aaab5d448449d92",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T12:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Round 5",
+      "team1_name": "IC.Acad",
+      "team2_name": "SSins",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "SSins",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_5"
+    },
+    {
+      "match_id": "liquipedia:ca6c9032549a8ff49292",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T13:40:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 5",
+      "team1_name": "FURIA",
+      "team2_name": "Liquid",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_5"
+    },
+    {
+      "match_id": "liquipedia:11e4eab9fa2d6ec551a4",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T14:05:00Z",
+      "event_name": "Stake Ranked Episode 5",
+      "team1_name": "EF",
+      "team2_name": "Nemesis",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "EF",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_5#Results"
+    },
+    {
+      "match_id": "liquipedia:10cbeedc30c9caa532bd",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T14:30:00Z",
+      "event_name": "Tesla Cup 2026 - Group B",
+      "team1_name": "GL",
+      "team2_name": "HOTU",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "HOTU",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:9613bbf43608f0cfc71a",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T15:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Round 5",
+      "team1_name": "6yuB",
+      "team2_name": "Sökerorg",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Sökerorg",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_5"
     },
     {
       "match_id": "liquipedia:b6cc0486267604b2355e",
