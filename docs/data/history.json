@@ -1,18 +1,40 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-10-28T09:15:47Z",
-  "through_date": "2026-10-27",
+  "through_date": "2026-10-28",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4216,
+    "matches": 4217,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:3bbf30868ea3ab48079e",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T03:00:00Z",
+      "event_name": "DFRAG Invitational 2026 - Group A",
+      "team1_name": "Chops",
+      "team2_name": "NEXV",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "NEXV",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Group_A"
+    },
     {
       "match_id": "liquipedia:b6cc0486267604b2355e",
       "match_date": "2026-10-27",
