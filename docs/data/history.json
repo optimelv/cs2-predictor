@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-28T09:15:47Z",
+  "generated_at_utc": "2026-10-28T19:52:38Z",
   "through_date": "2026-10-28",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4226,
+    "matches": 4228,
     "maps": 2965,
     "lineup_rows": 9844,
     "source_match_ids": 976
@@ -232,6 +232,50 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_5"
+    },
+    {
+      "match_id": "hltv:2399515",
+      "match_date": "2026-10-28",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Inner Circle Academy",
+      "team2_name": "Saint Sinners",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Saint Sinners",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399516",
+      "match_date": "2026-10-28",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "6yuBoJlbl",
+      "team2_name": "LFO 10",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "LFO 10",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "liquipedia:b6cc0486267604b2355e",
