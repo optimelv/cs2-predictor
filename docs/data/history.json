@@ -1,18 +1,150 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-10-29T09:02:46Z",
-  "through_date": "2026-10-28",
+  "through_date": "2026-10-29",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4234,
+    "matches": 4240,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:54579c871c54677f5a90",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T08:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Playoffs",
+      "team1_name": "FUT",
+      "team2_name": "Nemiga",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nemiga",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:2a74641471e00b636e15",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T09:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "Butterfly",
+      "team2_name": "FORZE.Rld",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:bda3476669b60d0f4a68",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T10:15:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Playoffs",
+      "team1_name": "NAVI",
+      "team2_name": "Vitality",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Vitality",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:53cbcda56914b9948312",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T11:10:00Z",
+      "event_name": "Tesla Cup 2026 - Playoffs",
+      "team1_name": "FaZe",
+      "team2_name": "GL",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "GL",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:f50a434d0f5ff927ef0f",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T12:40:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "INOX",
+      "team2_name": "Spirit.A",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit.A",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:201af244e3fd953cfa0a",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T13:25:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Playoffs",
+      "team1_name": "Aurora",
+      "team2_name": "MOUZ",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MOUZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Playoffs"
+    },
     {
       "match_id": "liquipedia:3bbf30868ea3ab48079e",
       "match_date": "2026-10-28",
