@@ -29064,18 +29064,397 @@
       "winner_name": "Natus Vincere"
     },
     {
-      "event_id": "hltv:9457",
+      "detail_fetched_at_utc": "2026-10-28T21:54:29Z",
+      "event_id": "hltv:cct-2026-europe-series-12",
       "event_name": "CCT 2026 Europe Series 12",
+      "event_url": "https://www.hltv.org/events/archive",
       "hltv_match_id": "2399517",
+      "lineups": {
+        "team1": [
+          {
+            "hltv_player_id": "24190",
+            "nickname": "youka",
+            "player_id": "hltv:24190",
+            "source_url": "https://www.hltv.org/player/24190/youka",
+            "team_name": "ex-RUSTEC",
+            "timeline_entry": {
+              "adr": 71.5,
+              "date": "2026-10-28",
+              "deaths": 49,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 63.6,
+              "kd_ratio": 0.88,
+              "kills": 43,
+              "maps": 3,
+              "match_id": "hltv:2399517",
+              "opponent_name": "Illyrians",
+              "rating": 1.03,
+              "team_name": "ex-RUSTEC",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "22803",
+            "nickname": "bl1x1",
+            "player_id": "hltv:22803",
+            "source_url": "https://www.hltv.org/player/22803/bl1x1",
+            "team_name": "ex-RUSTEC",
+            "timeline_entry": {
+              "adr": 72.2,
+              "date": "2026-10-28",
+              "deaths": 40,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 66.7,
+              "kd_ratio": 1.2,
+              "kills": 48,
+              "maps": 3,
+              "match_id": "hltv:2399517",
+              "opponent_name": "Illyrians",
+              "rating": 1.15,
+              "team_name": "ex-RUSTEC",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "24485",
+            "nickname": "yiksrezo",
+            "player_id": "hltv:24485",
+            "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+            "team_name": "ex-RUSTEC",
+            "timeline_entry": {
+              "adr": 75.7,
+              "date": "2026-10-28",
+              "deaths": 55,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 69.7,
+              "kd_ratio": 0.87,
+              "kills": 48,
+              "maps": 3,
+              "match_id": "hltv:2399517",
+              "opponent_name": "Illyrians",
+              "rating": 1,
+              "team_name": "ex-RUSTEC",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "19297",
+            "nickname": "Brilliance",
+            "player_id": "hltv:19297",
+            "source_url": "https://www.hltv.org/player/19297/brilliance",
+            "team_name": "ex-RUSTEC",
+            "timeline_entry": {
+              "adr": 67.8,
+              "date": "2026-10-28",
+              "deaths": 48,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 66.7,
+              "kd_ratio": 0.75,
+              "kills": 36,
+              "maps": 3,
+              "match_id": "hltv:2399517",
+              "opponent_name": "Illyrians",
+              "rating": 0.9,
+              "team_name": "ex-RUSTEC",
+              "won": false
+            }
+          },
+          {
+            "hltv_player_id": "24817",
+            "nickname": "jakekeS",
+            "player_id": "hltv:24817",
+            "source_url": "https://www.hltv.org/player/24817/jakekes",
+            "team_name": "ex-RUSTEC",
+            "timeline_entry": {
+              "adr": 55.8,
+              "date": "2026-10-28",
+              "deaths": 47,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 62.1,
+              "kd_ratio": 0.62,
+              "kills": 29,
+              "maps": 3,
+              "match_id": "hltv:2399517",
+              "opponent_name": "Illyrians",
+              "rating": 0.72,
+              "team_name": "ex-RUSTEC",
+              "won": false
+            }
+          }
+        ],
+        "team2": [
+          {
+            "hltv_player_id": "20434",
+            "nickname": "BledarD",
+            "player_id": "hltv:20434",
+            "source_url": "https://www.hltv.org/player/20434/bledard",
+            "team_name": "Illyrians",
+            "timeline_entry": {
+              "adr": 105.2,
+              "date": "2026-10-28",
+              "deaths": 35,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 72.7,
+              "kd_ratio": 1.94,
+              "kills": 68,
+              "maps": 3,
+              "match_id": "hltv:2399517",
+              "opponent_name": "ex-RUSTEC",
+              "rating": 1.58,
+              "team_name": "Illyrians",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "21109",
+            "nickname": "ammar",
+            "player_id": "hltv:21109",
+            "source_url": "https://www.hltv.org/player/21109/ammar",
+            "team_name": "Illyrians",
+            "timeline_entry": {
+              "adr": 62.6,
+              "date": "2026-10-28",
+              "deaths": 41,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 77.3,
+              "kd_ratio": 0.83,
+              "kills": 34,
+              "maps": 3,
+              "match_id": "hltv:2399517",
+              "opponent_name": "ex-RUSTEC",
+              "rating": 0.87,
+              "team_name": "Illyrians",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "18119",
+            "nickname": "cerber",
+            "player_id": "hltv:18119",
+            "source_url": "https://www.hltv.org/player/18119/cerber",
+            "team_name": "Illyrians",
+            "timeline_entry": {
+              "adr": 84.8,
+              "date": "2026-10-28",
+              "deaths": 45,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 77.3,
+              "kd_ratio": 1.02,
+              "kills": 46,
+              "maps": 3,
+              "match_id": "hltv:2399517",
+              "opponent_name": "ex-RUSTEC",
+              "rating": 1.04,
+              "team_name": "Illyrians",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "22199",
+            "nickname": "Lewis",
+            "player_id": "hltv:22199",
+            "source_url": "https://www.hltv.org/player/22199/lewis",
+            "team_name": "Illyrians",
+            "timeline_entry": {
+              "adr": 90.6,
+              "date": "2026-10-28",
+              "deaths": 46,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 69.7,
+              "kd_ratio": 1.2,
+              "kills": 55,
+              "maps": 3,
+              "match_id": "hltv:2399517",
+              "opponent_name": "ex-RUSTEC",
+              "rating": 1.27,
+              "team_name": "Illyrians",
+              "won": true
+            }
+          },
+          {
+            "hltv_player_id": "23300",
+            "nickname": "rosoneriii",
+            "player_id": "hltv:23300",
+            "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+            "team_name": "Illyrians",
+            "timeline_entry": {
+              "adr": 51.2,
+              "date": "2026-10-28",
+              "deaths": 38,
+              "event_name": "CCT 2026 Europe Series 12",
+              "kast": 65.2,
+              "kd_ratio": 0.92,
+              "kills": 35,
+              "maps": 3,
+              "match_id": "hltv:2399517",
+              "opponent_name": "ex-RUSTEC",
+              "rating": 0.9,
+              "team_name": "Illyrians",
+              "won": true
+            }
+          }
+        ]
+      },
+      "map_results": [
+        {
+          "map_name": "Anubis",
+          "score1": 5,
+          "score2": 13,
+          "status": "finished"
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 16,
+          "score2": 14,
+          "status": "finished"
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 5,
+          "score2": 13,
+          "status": "finished"
+        }
+      ],
+      "maps": [
+        "Anubis",
+        "Dust2",
+        "Ancient"
+      ],
       "match_id": "hltv:2399517",
+      "player_stats": [
+        {
+          "adr": 72.2,
+          "deaths": 40,
+          "hltv_player_id": "22803",
+          "kast": 66.7,
+          "kills": 48,
+          "nickname": "bl1x1",
+          "player_id": "hltv:22803",
+          "rating": 1.15,
+          "source_url": "https://www.hltv.org/player/22803/bl1x1",
+          "team_side": 1
+        },
+        {
+          "adr": 71.5,
+          "deaths": 49,
+          "hltv_player_id": "24190",
+          "kast": 63.6,
+          "kills": 43,
+          "nickname": "youka",
+          "player_id": "hltv:24190",
+          "rating": 1.03,
+          "source_url": "https://www.hltv.org/player/24190/youka",
+          "team_side": 1
+        },
+        {
+          "adr": 75.7,
+          "deaths": 55,
+          "hltv_player_id": "24485",
+          "kast": 69.7,
+          "kills": 48,
+          "nickname": "yiksrezo",
+          "player_id": "hltv:24485",
+          "rating": 1,
+          "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+          "team_side": 1
+        },
+        {
+          "adr": 67.8,
+          "deaths": 48,
+          "hltv_player_id": "19297",
+          "kast": 66.7,
+          "kills": 36,
+          "nickname": "Brilliance",
+          "player_id": "hltv:19297",
+          "rating": 0.9,
+          "source_url": "https://www.hltv.org/player/19297/brilliance",
+          "team_side": 1
+        },
+        {
+          "adr": 55.8,
+          "deaths": 47,
+          "hltv_player_id": "24817",
+          "kast": 62.1,
+          "kills": 29,
+          "nickname": "jakekeS",
+          "player_id": "hltv:24817",
+          "rating": 0.72,
+          "source_url": "https://www.hltv.org/player/24817/jakekes",
+          "team_side": 1
+        },
+        {
+          "adr": 105.2,
+          "deaths": 35,
+          "hltv_player_id": "20434",
+          "kast": 72.7,
+          "kills": 68,
+          "nickname": "BledarD",
+          "player_id": "hltv:20434",
+          "rating": 1.58,
+          "source_url": "https://www.hltv.org/player/20434/bledard",
+          "team_side": 2
+        },
+        {
+          "adr": 90.6,
+          "deaths": 46,
+          "hltv_player_id": "22199",
+          "kast": 69.7,
+          "kills": 55,
+          "nickname": "Lewis",
+          "player_id": "hltv:22199",
+          "rating": 1.27,
+          "source_url": "https://www.hltv.org/player/22199/lewis",
+          "team_side": 2
+        },
+        {
+          "adr": 84.8,
+          "deaths": 45,
+          "hltv_player_id": "18119",
+          "kast": 77.3,
+          "kills": 46,
+          "nickname": "cerber",
+          "player_id": "hltv:18119",
+          "rating": 1.04,
+          "source_url": "https://www.hltv.org/player/18119/cerber",
+          "team_side": 2
+        },
+        {
+          "adr": 51.2,
+          "deaths": 38,
+          "hltv_player_id": "23300",
+          "kast": 65.2,
+          "kills": 35,
+          "nickname": "rosoneriii",
+          "player_id": "hltv:23300",
+          "rating": 0.9,
+          "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+          "team_side": 2
+        },
+        {
+          "adr": 62.6,
+          "deaths": 41,
+          "hltv_player_id": "21109",
+          "kast": 77.3,
+          "kills": 34,
+          "nickname": "ammar",
+          "player_id": "hltv:21109",
+          "rating": 0.87,
+          "source_url": "https://www.hltv.org/player/21109/ammar",
+          "team_side": 2
+        }
+      ],
       "product_tier": "tier_2",
+      "score1": 1,
+      "score2": 2,
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399517/ex-rustec-vs-illyrians-cct-2026-europe-series-12",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-28T18:00:00Z",
-      "status": "live",
+      "starts_at": "2026-10-28T20:45:10Z",
+      "status": "finished",
       "team1_name": "ex-RUSTEC",
-      "team2_name": "Illyrians"
+      "team2_name": "Illyrians",
+      "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated.",
+      "winner_name": "Illyrians"
     },
     {
       "event_id": "hltv:8050",
@@ -29092,6 +29471,20 @@
       "team2_name": "Nemiga"
     },
     {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399518",
+      "match_id": "hltv:2399518",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399518/butterfly-vs-forze-reload-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-29T09:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Butterfly",
+      "team2_name": "FORZE Reload"
+    },
+    {
       "event_id": "hltv:8050",
       "event_name": "PGL Masters Bucharest 2026",
       "hltv_match_id": "2399753",
@@ -29104,6 +29497,20 @@
       "status": "upcoming",
       "team1_name": "Vitality",
       "team2_name": "Natus Vincere"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399519",
+      "match_id": "hltv:2399519",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399519/ex-inox-vs-spirit-academy-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-29T12:00:00Z",
+      "status": "upcoming",
+      "team1_name": "ex-INOX",
+      "team2_name": "Spirit Academy"
     },
     {
       "event_id": "hltv:8050",
@@ -29120,6 +29527,20 @@
       "team2_name": "MOUZ"
     },
     {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399520",
+      "match_id": "hltv:2399520",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399520/acend-vs-saint-sinners-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-29T15:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Acend",
+      "team2_name": "Saint Sinners"
+    },
+    {
       "event_id": "hltv:8050",
       "event_name": "PGL Masters Bucharest 2026",
       "hltv_match_id": "2399755",
@@ -29132,6 +29553,62 @@
       "status": "upcoming",
       "team1_name": "BETBOOM",
       "team2_name": "FURIA"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399522",
+      "match_id": "hltv:2399522",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399522/genone-vs-baks-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-30T09:00:00Z",
+      "status": "upcoming",
+      "team1_name": "GenOne",
+      "team2_name": "BAKS"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399523",
+      "match_id": "hltv:2399523",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399523/fokus-vs-lfo-10-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-30T12:00:00Z",
+      "status": "upcoming",
+      "team1_name": "FOKUS",
+      "team2_name": "LFO 10"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399524",
+      "match_id": "hltv:2399524",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399524/betclic-vs-illyrians-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-30T15:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Betclic",
+      "team2_name": "Illyrians"
+    },
+    {
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399525",
+      "match_id": "hltv:2399525",
+      "product_tier": "tier_2",
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399525/phantom-vs-lavked-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": "2026-10-30T18:00:00Z",
+      "status": "upcoming",
+      "team1_name": "Phantom",
+      "team2_name": "Lavked"
     },
     {
       "event_id": "hltv:8245",
@@ -70998,18 +71475,495 @@
           "winner_name": "LFO 10"
         },
         {
-          "event_id": "hltv:9457",
+          "detail_fetched_at_utc": "2026-10-28T21:54:29Z",
+          "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
+          "event_url": "https://www.hltv.org/events/archive",
           "hltv_match_id": "2399517",
+          "lineups": {
+            "team1": [
+              {
+                "hltv_player_id": "24190",
+                "nickname": "youka",
+                "player_id": "hltv:24190",
+                "source_url": "https://www.hltv.org/player/24190/youka",
+                "team_name": "ex-RUSTEC",
+                "timeline_entry": {
+                  "adr": 71.5,
+                  "date": "2026-10-28",
+                  "deaths": 49,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 63.6,
+                  "kd_ratio": 0.88,
+                  "kills": 43,
+                  "maps": 3,
+                  "match_id": "hltv:2399517",
+                  "opponent_name": "Illyrians",
+                  "rating": 1.03,
+                  "team_name": "ex-RUSTEC",
+                  "won": false
+                }
+              },
+              {
+                "hltv_player_id": "22803",
+                "nickname": "bl1x1",
+                "player_id": "hltv:22803",
+                "source_url": "https://www.hltv.org/player/22803/bl1x1",
+                "team_name": "ex-RUSTEC",
+                "timeline_entry": {
+                  "adr": 72.2,
+                  "date": "2026-10-28",
+                  "deaths": 40,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 66.7,
+                  "kd_ratio": 1.2,
+                  "kills": 48,
+                  "maps": 3,
+                  "match_id": "hltv:2399517",
+                  "opponent_name": "Illyrians",
+                  "rating": 1.15,
+                  "team_name": "ex-RUSTEC",
+                  "won": false
+                }
+              },
+              {
+                "hltv_player_id": "24485",
+                "nickname": "yiksrezo",
+                "player_id": "hltv:24485",
+                "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+                "team_name": "ex-RUSTEC",
+                "timeline_entry": {
+                  "adr": 75.7,
+                  "date": "2026-10-28",
+                  "deaths": 55,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 69.7,
+                  "kd_ratio": 0.87,
+                  "kills": 48,
+                  "maps": 3,
+                  "match_id": "hltv:2399517",
+                  "opponent_name": "Illyrians",
+                  "rating": 1,
+                  "team_name": "ex-RUSTEC",
+                  "won": false
+                }
+              },
+              {
+                "hltv_player_id": "19297",
+                "nickname": "Brilliance",
+                "player_id": "hltv:19297",
+                "source_url": "https://www.hltv.org/player/19297/brilliance",
+                "team_name": "ex-RUSTEC",
+                "timeline_entry": {
+                  "adr": 67.8,
+                  "date": "2026-10-28",
+                  "deaths": 48,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 66.7,
+                  "kd_ratio": 0.75,
+                  "kills": 36,
+                  "maps": 3,
+                  "match_id": "hltv:2399517",
+                  "opponent_name": "Illyrians",
+                  "rating": 0.9,
+                  "team_name": "ex-RUSTEC",
+                  "won": false
+                }
+              },
+              {
+                "hltv_player_id": "24817",
+                "nickname": "jakekeS",
+                "player_id": "hltv:24817",
+                "source_url": "https://www.hltv.org/player/24817/jakekes",
+                "team_name": "ex-RUSTEC",
+                "timeline_entry": {
+                  "adr": 55.8,
+                  "date": "2026-10-28",
+                  "deaths": 47,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 62.1,
+                  "kd_ratio": 0.62,
+                  "kills": 29,
+                  "maps": 3,
+                  "match_id": "hltv:2399517",
+                  "opponent_name": "Illyrians",
+                  "rating": 0.72,
+                  "team_name": "ex-RUSTEC",
+                  "won": false
+                }
+              }
+            ],
+            "team2": [
+              {
+                "hltv_player_id": "20434",
+                "nickname": "BledarD",
+                "player_id": "hltv:20434",
+                "source_url": "https://www.hltv.org/player/20434/bledard",
+                "team_name": "Illyrians",
+                "timeline_entry": {
+                  "adr": 105.2,
+                  "date": "2026-10-28",
+                  "deaths": 35,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 72.7,
+                  "kd_ratio": 1.94,
+                  "kills": 68,
+                  "maps": 3,
+                  "match_id": "hltv:2399517",
+                  "opponent_name": "ex-RUSTEC",
+                  "rating": 1.58,
+                  "team_name": "Illyrians",
+                  "won": true
+                }
+              },
+              {
+                "hltv_player_id": "21109",
+                "nickname": "ammar",
+                "player_id": "hltv:21109",
+                "source_url": "https://www.hltv.org/player/21109/ammar",
+                "team_name": "Illyrians",
+                "timeline_entry": {
+                  "adr": 62.6,
+                  "date": "2026-10-28",
+                  "deaths": 41,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 77.3,
+                  "kd_ratio": 0.83,
+                  "kills": 34,
+                  "maps": 3,
+                  "match_id": "hltv:2399517",
+                  "opponent_name": "ex-RUSTEC",
+                  "rating": 0.87,
+                  "team_name": "Illyrians",
+                  "won": true
+                }
+              },
+              {
+                "hltv_player_id": "18119",
+                "nickname": "cerber",
+                "player_id": "hltv:18119",
+                "source_url": "https://www.hltv.org/player/18119/cerber",
+                "team_name": "Illyrians",
+                "timeline_entry": {
+                  "adr": 84.8,
+                  "date": "2026-10-28",
+                  "deaths": 45,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 77.3,
+                  "kd_ratio": 1.02,
+                  "kills": 46,
+                  "maps": 3,
+                  "match_id": "hltv:2399517",
+                  "opponent_name": "ex-RUSTEC",
+                  "rating": 1.04,
+                  "team_name": "Illyrians",
+                  "won": true
+                }
+              },
+              {
+                "hltv_player_id": "22199",
+                "nickname": "Lewis",
+                "player_id": "hltv:22199",
+                "source_url": "https://www.hltv.org/player/22199/lewis",
+                "team_name": "Illyrians",
+                "timeline_entry": {
+                  "adr": 90.6,
+                  "date": "2026-10-28",
+                  "deaths": 46,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 69.7,
+                  "kd_ratio": 1.2,
+                  "kills": 55,
+                  "maps": 3,
+                  "match_id": "hltv:2399517",
+                  "opponent_name": "ex-RUSTEC",
+                  "rating": 1.27,
+                  "team_name": "Illyrians",
+                  "won": true
+                }
+              },
+              {
+                "hltv_player_id": "23300",
+                "nickname": "rosoneriii",
+                "player_id": "hltv:23300",
+                "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+                "team_name": "Illyrians",
+                "timeline_entry": {
+                  "adr": 51.2,
+                  "date": "2026-10-28",
+                  "deaths": 38,
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "kast": 65.2,
+                  "kd_ratio": 0.92,
+                  "kills": 35,
+                  "maps": 3,
+                  "match_id": "hltv:2399517",
+                  "opponent_name": "ex-RUSTEC",
+                  "rating": 0.9,
+                  "team_name": "Illyrians",
+                  "won": true
+                }
+              }
+            ]
+          },
+          "map_results": [
+            {
+              "map_name": "Anubis",
+              "score1": 5,
+              "score2": 13,
+              "status": "finished"
+            },
+            {
+              "map_name": "Dust2",
+              "score1": 16,
+              "score2": 14,
+              "status": "finished"
+            },
+            {
+              "map_name": "Ancient",
+              "score1": 5,
+              "score2": 13,
+              "status": "finished"
+            }
+          ],
+          "maps": [
+            "Anubis",
+            "Dust2",
+            "Ancient"
+          ],
           "match_id": "hltv:2399517",
+          "player_stats": [
+            {
+              "adr": 72.2,
+              "deaths": 40,
+              "hltv_player_id": "22803",
+              "kast": 66.7,
+              "kills": 48,
+              "nickname": "bl1x1",
+              "player_id": "hltv:22803",
+              "rating": 1.15,
+              "source_url": "https://www.hltv.org/player/22803/bl1x1",
+              "team_side": 1
+            },
+            {
+              "adr": 71.5,
+              "deaths": 49,
+              "hltv_player_id": "24190",
+              "kast": 63.6,
+              "kills": 43,
+              "nickname": "youka",
+              "player_id": "hltv:24190",
+              "rating": 1.03,
+              "source_url": "https://www.hltv.org/player/24190/youka",
+              "team_side": 1
+            },
+            {
+              "adr": 75.7,
+              "deaths": 55,
+              "hltv_player_id": "24485",
+              "kast": 69.7,
+              "kills": 48,
+              "nickname": "yiksrezo",
+              "player_id": "hltv:24485",
+              "rating": 1,
+              "source_url": "https://www.hltv.org/player/24485/yiksrezo",
+              "team_side": 1
+            },
+            {
+              "adr": 67.8,
+              "deaths": 48,
+              "hltv_player_id": "19297",
+              "kast": 66.7,
+              "kills": 36,
+              "nickname": "Brilliance",
+              "player_id": "hltv:19297",
+              "rating": 0.9,
+              "source_url": "https://www.hltv.org/player/19297/brilliance",
+              "team_side": 1
+            },
+            {
+              "adr": 55.8,
+              "deaths": 47,
+              "hltv_player_id": "24817",
+              "kast": 62.1,
+              "kills": 29,
+              "nickname": "jakekeS",
+              "player_id": "hltv:24817",
+              "rating": 0.72,
+              "source_url": "https://www.hltv.org/player/24817/jakekes",
+              "team_side": 1
+            },
+            {
+              "adr": 105.2,
+              "deaths": 35,
+              "hltv_player_id": "20434",
+              "kast": 72.7,
+              "kills": 68,
+              "nickname": "BledarD",
+              "player_id": "hltv:20434",
+              "rating": 1.58,
+              "source_url": "https://www.hltv.org/player/20434/bledard",
+              "team_side": 2
+            },
+            {
+              "adr": 90.6,
+              "deaths": 46,
+              "hltv_player_id": "22199",
+              "kast": 69.7,
+              "kills": 55,
+              "nickname": "Lewis",
+              "player_id": "hltv:22199",
+              "rating": 1.27,
+              "source_url": "https://www.hltv.org/player/22199/lewis",
+              "team_side": 2
+            },
+            {
+              "adr": 84.8,
+              "deaths": 45,
+              "hltv_player_id": "18119",
+              "kast": 77.3,
+              "kills": 46,
+              "nickname": "cerber",
+              "player_id": "hltv:18119",
+              "rating": 1.04,
+              "source_url": "https://www.hltv.org/player/18119/cerber",
+              "team_side": 2
+            },
+            {
+              "adr": 51.2,
+              "deaths": 38,
+              "hltv_player_id": "23300",
+              "kast": 65.2,
+              "kills": 35,
+              "nickname": "rosoneriii",
+              "player_id": "hltv:23300",
+              "rating": 0.9,
+              "source_url": "https://www.hltv.org/player/23300/rosoneriii",
+              "team_side": 2
+            },
+            {
+              "adr": 62.6,
+              "deaths": 41,
+              "hltv_player_id": "21109",
+              "kast": 77.3,
+              "kills": 34,
+              "nickname": "ammar",
+              "player_id": "hltv:21109",
+              "rating": 0.87,
+              "source_url": "https://www.hltv.org/player/21109/ammar",
+              "team_side": 2
+            }
+          ],
           "product_tier": "tier_2",
+          "score1": 1,
+          "score2": 2,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399517/ex-rustec-vs-illyrians-cct-2026-europe-series-12",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-28T18:00:00Z",
-          "status": "live",
+          "starts_at": "2026-10-28T20:45:10Z",
+          "status": "finished",
           "team1_name": "ex-RUSTEC",
+          "team2_name": "Illyrians",
+          "veto_text": "Best of 3 (Online)\n\n* Swiss round 5 (teams with a 2-2 record). Winner advances to playoffs, losing team is eliminated.",
+          "winner_name": "Illyrians"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399518",
+          "match_id": "hltv:2399518",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399518/butterfly-vs-forze-reload-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-29T09:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Butterfly",
+          "team2_name": "FORZE Reload"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399519",
+          "match_id": "hltv:2399519",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399519/ex-inox-vs-spirit-academy-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-29T12:00:00Z",
+          "status": "upcoming",
+          "team1_name": "ex-INOX",
+          "team2_name": "Spirit Academy"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399520",
+          "match_id": "hltv:2399520",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399520/acend-vs-saint-sinners-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-29T15:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Acend",
+          "team2_name": "Saint Sinners"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399522",
+          "match_id": "hltv:2399522",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399522/genone-vs-baks-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-30T09:00:00Z",
+          "status": "upcoming",
+          "team1_name": "GenOne",
+          "team2_name": "BAKS"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399523",
+          "match_id": "hltv:2399523",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399523/fokus-vs-lfo-10-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-30T12:00:00Z",
+          "status": "upcoming",
+          "team1_name": "FOKUS",
+          "team2_name": "LFO 10"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399524",
+          "match_id": "hltv:2399524",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399524/betclic-vs-illyrians-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-30T15:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Betclic",
           "team2_name": "Illyrians"
+        },
+        {
+          "event_id": "hltv:9457",
+          "event_name": "CCT 2026 Europe Series 12",
+          "hltv_match_id": "2399525",
+          "match_id": "hltv:2399525",
+          "product_tier": "tier_2",
+          "series_format": "bo3",
+          "source_url": "https://www.hltv.org/matches/2399525/phantom-vs-lavked-cct-2026-europe-series-12",
+          "stage_name": "Scheduled series",
+          "starts_at": "2026-10-30T18:00:00Z",
+          "status": "upcoming",
+          "team1_name": "Phantom",
+          "team2_name": "Lavked"
         }
       ],
       "name": "CCT 2026 Europe Series 12",
@@ -71029,15 +71983,22 @@
         "ex-RUSTEC",
         "mellren",
         "Walczaki",
-        "Saint Sinners"
+        "Saint Sinners",
+        "Butterfly",
+        "ex-INOX",
+        "Acend",
+        "GenOne",
+        "FOKUS",
+        "Betclic",
+        "Phantom"
       ],
       "product_tier": "tier_2",
       "source_url": "https://www.hltv.org/events/archive",
       "status": "ongoing",
-      "teams": 16
+      "teams": 23
     }
   ],
-  "last_verified_utc": "2026-10-28T19:52:38Z",
+  "last_verified_utc": "2026-10-28T21:54:33Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -71062,7 +72023,7 @@
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-28T21:41:59Z",
+    "checked_at_utc": "2026-10-29T01:51:34Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",

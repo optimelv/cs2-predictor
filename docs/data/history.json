@@ -1,15 +1,15 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-28T19:52:38Z",
+  "generated_at_utc": "2026-10-28T21:54:33Z",
   "through_date": "2026-10-28",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4228,
-    "maps": 2965,
-    "lineup_rows": 9844,
+    "matches": 4229,
+    "maps": 2968,
+    "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
@@ -275,6 +275,62 @@
       "lineups": {
         "team1": [],
         "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399517",
+      "match_date": "2026-10-28",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "ex-RUSTEC",
+      "team2_name": "Illyrians",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Illyrians",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Scheduled series",
+      "stage_name": "Scheduled series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [
+        {
+          "map_name": "Anubis",
+          "score1": 5,
+          "score2": 13,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        },
+        {
+          "map_name": "Dust2",
+          "score1": 16,
+          "score2": 14,
+          "winner_name": "ex-RUSTEC",
+          "picked_by": null
+        },
+        {
+          "map_name": "Ancient",
+          "score1": 5,
+          "score2": 13,
+          "winner_name": "Illyrians",
+          "picked_by": null
+        }
+      ],
+      "lineups": {
+        "team1": [
+          "youka",
+          "bl1x1",
+          "yiksrezo",
+          "Brilliance",
+          "jakekeS"
+        ],
+        "team2": [
+          "BledarD",
+          "ammar",
+          "cerber",
+          "Lewis",
+          "rosoneriii"
+        ]
       }
     },
     {
