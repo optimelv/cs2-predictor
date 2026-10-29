@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4229,
+    "matches": 4233,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -332,6 +332,94 @@
           "rosoneriii"
         ]
       }
+    },
+    {
+      "match_id": "liquipedia:32174f617e3630364ca2",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T16:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Round 5",
+      "team1_name": "NAVI",
+      "team2_name": "Spirit",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "NAVI",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_5"
+    },
+    {
+      "match_id": "liquipedia:c67f4f3344e9c8139426",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T17:10:00Z",
+      "event_name": "Stake Ranked Episode 5",
+      "team1_name": "BIG",
+      "team2_name": "Fnatic",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Fnatic",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_5#Results"
+    },
+    {
+      "match_id": "liquipedia:c13b447e6a823dc689d5",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T19:15:00Z",
+      "event_name": "Stake Ranked Episode 5",
+      "team1_name": "IC",
+      "team2_name": "MIBR",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "MIBR",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_5#Results"
+    },
+    {
+      "match_id": "liquipedia:4246e1d65a5b4ca00703",
+      "match_date": "2026-10-28",
+      "starts_at": "2026-10-28T19:55:00Z",
+      "event_name": "Tesla Cup 2026 - Group B",
+      "team1_name": "ENVY",
+      "team2_name": "GL",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "GL",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Group_B"
     },
     {
       "match_id": "liquipedia:b6cc0486267604b2355e",
