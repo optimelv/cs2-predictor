@@ -29481,7 +29481,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "source_url": "https://www.hltv.org/matches/2399518/butterfly-vs-forze-reload-cct-2026-europe-series-12",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-29T09:00:00Z",
-        "status": "upcoming",
+        "status": "live",
         "team1_name": "Butterfly",
         "team2_name": "FORZE Reload"
       },
@@ -71878,7 +71878,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "source_url": "https://www.hltv.org/matches/2399518/butterfly-vs-forze-reload-cct-2026-europe-series-12",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-29T09:00:00Z",
-            "status": "upcoming",
+            "status": "live",
             "team1_name": "Butterfly",
             "team2_name": "FORZE Reload"
           },
@@ -71999,7 +71999,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 23
       }
     ],
-    "last_verified_utc": "2026-10-29T08:01:22Z",
+    "last_verified_utc": "2026-10-29T09:02:46Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -72024,7 +72024,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-29T08:35:45Z",
+      "checked_at_utc": "2026-10-29T16:13:15Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -72408,7 +72408,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-29T08:36:16Z",
+  "generated_at_utc": "2026-10-29T16:13:45Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -73962,7 +73962,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-29T08:36:15Z",
+    "generated_at_utc": "2026-10-29T16:13:45Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -74256,7 +74256,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 6,
+      "new_rows": 0,
       "online_rows": 484,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
@@ -85123,43 +85123,6 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5809,
-      "confidence_label": "lean",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4191,
-      "event_id": "hltv:9457",
-      "event_name": "CCT 2026 Europe Series 12",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-29",
-      "match_id": "hltv:2399518",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793264400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "FORZE Reload",
-      "prob_team1": 0.4191,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399518/butterfly-vs-forze-reload-cct-2026-europe-series-12",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-29T09:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Butterfly",
-      "team1_vrs_rank": 88,
-      "team2_hltv_rank": null,
-      "team2_name": "FORZE Reload",
-      "team2_vrs_rank": 84
-    },
-    {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
       "confidence": 0.8227,
@@ -85972,12 +85935,49 @@ window.__STRIKESIGNAL_DATA__ = {
       "team2_hltv_rank": null,
       "team2_name": "Nemiga",
       "team2_vrs_rank": 14
+    },
+    {
+      "calibration_shrink": 0.5,
+      "calibration_version": "tier2-shrink-v1",
+      "confidence": 0.5809,
+      "confidence_label": "lean",
+      "data_quality": "full",
+      "elo_prob_team1": 0.4191,
+      "event_id": "hltv:9457",
+      "event_name": "CCT 2026 Europe Series 12",
+      "format": "bo3",
+      "lineups": {},
+      "map_results": [],
+      "maps": [],
+      "match_date": "",
+      "match_id": "hltv:2399518",
+      "match_phase": "scheduled",
+      "match_timestamp": null,
+      "mode": "api_feed_snapshot_state",
+      "model": "live_snapshot_power_bounded",
+      "model_version": "bounded-elo-vrs-v1",
+      "predicted_winner": "FORZE Reload",
+      "prob_team1": 0.4191,
+      "product_tier": "tier_2",
+      "round_name": "",
+      "series_format": "bo3",
+      "source": "hltv_live_snapshot",
+      "source_url": "https://www.hltv.org/matches/2399518/butterfly-vs-forze-reload-cct-2026-europe-series-12",
+      "stage_name": "Scheduled series",
+      "starts_at": null,
+      "status": "live",
+      "team1_hltv_rank": null,
+      "team1_name": "Butterfly",
+      "team1_vrs_rank": 88,
+      "team2_hltv_rank": null,
+      "team2_name": "FORZE Reload",
+      "team2_vrs_rank": 84
     }
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 54,
-    "online_results_applied": 6,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }

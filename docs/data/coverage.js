@@ -29480,7 +29480,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "source_url": "https://www.hltv.org/matches/2399518/butterfly-vs-forze-reload-cct-2026-europe-series-12",
       "stage_name": "Scheduled series",
       "starts_at": "2026-10-29T09:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "Butterfly",
       "team2_name": "FORZE Reload"
     },
@@ -71877,7 +71877,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
           "source_url": "https://www.hltv.org/matches/2399518/butterfly-vs-forze-reload-cct-2026-europe-series-12",
           "stage_name": "Scheduled series",
           "starts_at": "2026-10-29T09:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "Butterfly",
           "team2_name": "FORZE Reload"
         },
@@ -71998,7 +71998,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
       "teams": 23
     }
   ],
-  "last_verified_utc": "2026-10-29T08:01:22Z",
+  "last_verified_utc": "2026-10-29T09:02:46Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -72023,7 +72023,7 @@ window.__STRIKESIGNAL_COVERAGE__ = {
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-29T08:35:45Z",
+    "checked_at_utc": "2026-10-29T16:13:15Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",
