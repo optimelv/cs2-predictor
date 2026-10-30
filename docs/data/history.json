@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4253,
+    "matches": 4256,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -430,6 +430,72 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:6763505805ed3e7e314c",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T15:30:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "Acend",
+      "team2_name": "SSins",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Acend",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:71f4504a76251a6f2713",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T18:30:00Z",
+      "event_name": "Stake Ranked Episode 5",
+      "team1_name": "Astralis",
+      "team2_name": "EF",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "EF",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_5#Results"
+    },
+    {
+      "match_id": "liquipedia:dca690b037b93e77743e",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T19:45:00Z",
+      "event_name": "Gamers Club Masters VII - Group A",
+      "team1_name": "DENDELE",
+      "team2_name": "LowC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "DENDELE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Gamers_Club/Masters/VII#Group_A"
     },
     {
       "match_id": "liquipedia:3bbf30868ea3ab48079e",
