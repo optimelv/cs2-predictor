@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4270,
+    "matches": 4274,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -122,6 +122,94 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:0684af2c895a725e7676",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T12:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "FOKUS",
+      "team2_name": "Sökerorg",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FOKUS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:2c04ffc9dba90b6324e4",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T13:00:00Z",
+      "event_name": "Stake Ranked Episode 5",
+      "team1_name": "EF",
+      "team2_name": "MIBR",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "EF",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_5#Results"
+    },
+    {
+      "match_id": "liquipedia:006d5dc5833709e9b5b5",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T13:35:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group C",
+      "team1_name": "Isurus",
+      "team2_name": "ShindeN",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "ShindeN",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_C"
+    },
+    {
+      "match_id": "liquipedia:5afc656439486da9d541",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T15:35:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group C",
+      "team1_name": "Fluxo W7M",
+      "team2_name": "ShindeN",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Fluxo W7M",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_C"
     },
     {
       "match_id": "liquipedia:54579c871c54677f5a90",
