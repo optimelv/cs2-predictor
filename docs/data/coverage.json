@@ -4,23 +4,6 @@
     {
       "event_id": "hltv:roman-imperium-cup-ix",
       "event_name": "Roman Imperium Cup IX",
-      "hltv_match_id": "2399044",
-      "match_id": "hltv:2399044",
-      "product_tier": "tier_2",
-      "score1": 2,
-      "score2": 1,
-      "series_format": "bo3",
-      "source_url": "https://www.hltv.org/matches/2399044/faze-vs-sangal-roman-imperium-cup-ix",
-      "stage_name": "Completed series",
-      "starts_at": "2026-10-08T20:11:00Z",
-      "status": "finished",
-      "team1_name": "FaZe",
-      "team2_name": "Sangal",
-      "winner_name": "FaZe"
-    },
-    {
-      "event_id": "hltv:roman-imperium-cup-ix",
-      "event_name": "Roman Imperium Cup IX",
       "hltv_match_id": "2399045",
       "match_id": "hltv:2399045",
       "product_tier": "tier_2",
@@ -28971,7 +28954,7 @@
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399749/the-mongolz-vs-nemiga-pgl-masters-bucharest-2026",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-28T11:00:00Z",
+      "starts_at": "2026-10-28T13:18:18Z",
       "status": "finished",
       "team1_name": "The MongolZ",
       "team2_name": "Nemiga",
@@ -29006,7 +28989,7 @@
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399750/liquid-vs-furia-pgl-masters-bucharest-2026",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-28T14:00:00Z",
+      "starts_at": "2026-10-28T15:35:02Z",
       "status": "finished",
       "team1_name": "Liquid",
       "team2_name": "FURIA",
@@ -29040,7 +29023,7 @@
       "series_format": "bo3",
       "source_url": "https://www.hltv.org/matches/2399751/spirit-vs-natus-vincere-pgl-masters-bucharest-2026",
       "stage_name": "Scheduled series",
-      "starts_at": "2026-10-28T17:00:00Z",
+      "starts_at": "2026-10-28T18:35:31Z",
       "status": "finished",
       "team1_name": "Spirit",
       "team2_name": "Natus Vincere",
@@ -29559,6 +29542,23 @@
       "winner_name": "Acend"
     },
     {
+      "event_id": "hltv:cct-2026-europe-series-12",
+      "event_name": "CCT 2026 Europe Series 12",
+      "hltv_match_id": "2399521",
+      "match_id": "hltv:2399521",
+      "product_tier": "tier_2",
+      "score1": 2,
+      "score2": 1,
+      "series_format": "bo3",
+      "source_url": "https://www.hltv.org/matches/2399521/9ine-vs-black-phoenix-cct-2026-europe-series-12",
+      "stage_name": "Completed series",
+      "starts_at": "2026-10-29T21:44:03Z",
+      "status": "finished",
+      "team1_name": "9INE",
+      "team2_name": "Black Phoenix",
+      "winner_name": "9INE"
+    },
+    {
       "event_id": "hltv:9457",
       "event_name": "CCT 2026 Europe Series 12",
       "hltv_match_id": "2399522",
@@ -29568,7 +29568,7 @@
       "source_url": "https://www.hltv.org/matches/2399522/genone-vs-baks-cct-2026-europe-series-12",
       "stage_name": "Scheduled series",
       "starts_at": "2026-10-30T09:00:00Z",
-      "status": "upcoming",
+      "status": "live",
       "team1_name": "GenOne",
       "team2_name": "BAKS"
     },
@@ -37152,7 +37152,7 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399749/the-mongolz-vs-nemiga-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-28T11:00:00Z",
+          "starts_at": "2026-10-28T13:18:18Z",
           "status": "finished",
           "team1_name": "The MongolZ",
           "team2_name": "Nemiga",
@@ -37170,7 +37170,7 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399750/liquid-vs-furia-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-28T14:00:00Z",
+          "starts_at": "2026-10-28T15:35:02Z",
           "status": "finished",
           "team1_name": "Liquid",
           "team2_name": "FURIA",
@@ -37187,7 +37187,7 @@
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399751/spirit-vs-natus-vincere-pgl-masters-bucharest-2026",
           "stage_name": "Scheduled series",
-          "starts_at": "2026-10-28T17:00:00Z",
+          "starts_at": "2026-10-28T18:35:31Z",
           "status": "finished",
           "team1_name": "Spirit",
           "team2_name": "Natus Vincere",
@@ -72046,7 +72046,7 @@
           "source_url": "https://www.hltv.org/matches/2399522/genone-vs-baks-cct-2026-europe-series-12",
           "stage_name": "Scheduled series",
           "starts_at": "2026-10-30T09:00:00Z",
-          "status": "upcoming",
+          "status": "live",
           "team1_name": "GenOne",
           "team2_name": "BAKS"
         },
@@ -72093,17 +72093,21 @@
           "team2_name": "Lavked"
         },
         {
-          "event_id": "hltv:9457",
+          "event_id": "hltv:cct-2026-europe-series-12",
           "event_name": "CCT 2026 Europe Series 12",
           "hltv_match_id": "2399521",
           "match_id": "hltv:2399521",
           "product_tier": "tier_2",
+          "score1": 2,
+          "score2": 1,
           "series_format": "bo3",
           "source_url": "https://www.hltv.org/matches/2399521/9ine-vs-black-phoenix-cct-2026-europe-series-12",
           "stage_name": "Scheduled series",
-          "status": "live",
+          "starts_at": "2026-10-29T21:44:03Z",
+          "status": "finished",
           "team1_name": "9INE",
-          "team2_name": "Black Phoenix"
+          "team2_name": "Black Phoenix",
+          "winner_name": "9INE"
         }
       ],
       "name": "CCT 2026 Europe Series 12",
@@ -72139,7 +72143,7 @@
       "teams": 24
     }
   ],
-  "last_verified_utc": "2026-10-29T21:40:48Z",
+  "last_verified_utc": "2026-10-30T09:47:59Z",
   "sources": [
     {
       "name": "HLTV events calendar",
@@ -72164,7 +72168,7 @@
   ],
   "vrs": {
     "as_of": "2026-10-05",
-    "checked_at_utc": "2026-10-30T07:13:47Z",
+    "checked_at_utc": "2026-10-30T14:17:34Z",
     "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
     "scope": "global",
     "source": "Valve Regional Standings",

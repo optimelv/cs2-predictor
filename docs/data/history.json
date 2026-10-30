@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-29T21:40:48Z",
+  "generated_at_utc": "2026-10-30T09:47:59Z",
   "through_date": "2026-10-30",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4264,
+    "matches": 4266,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -674,6 +674,28 @@
       "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_B"
     },
     {
+      "match_id": "hltv:2399521",
+      "match_date": "2026-10-29",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "9INE",
+      "team2_name": "Black Phoenix",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "9INE",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
       "match_id": "liquipedia:3bbf30868ea3ab48079e",
       "match_date": "2026-10-28",
       "starts_at": "2026-10-28T03:00:00Z",
@@ -804,28 +826,6 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Round_5"
-    },
-    {
-      "match_id": "liquipedia:ca6c9032549a8ff49292",
-      "match_date": "2026-10-28",
-      "starts_at": "2026-10-28T13:40:00Z",
-      "event_name": "PGL Masters Bucharest 2026 - Round 5",
-      "team1_name": "FURIA",
-      "team2_name": "Liquid",
-      "score1": 2,
-      "score2": 0,
-      "winner_name": "FURIA",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_5"
     },
     {
       "match_id": "liquipedia:11e4eab9fa2d6ec551a4",
@@ -994,28 +994,6 @@
       }
     },
     {
-      "match_id": "liquipedia:32174f617e3630364ca2",
-      "match_date": "2026-10-28",
-      "starts_at": "2026-10-28T16:00:00Z",
-      "event_name": "PGL Masters Bucharest 2026 - Round 5",
-      "team1_name": "NAVI",
-      "team2_name": "Spirit",
-      "score1": 2,
-      "score2": 1,
-      "winner_name": "NAVI",
-      "tier": "tier_1",
-      "best_of": null,
-      "phase": "Series",
-      "stage_name": "Series",
-      "maps": [],
-      "lineups": {
-        "team1": [],
-        "team2": []
-      },
-      "source": "Liquipedia MediaWiki API",
-      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_5"
-    },
-    {
       "match_id": "liquipedia:c67f4f3344e9c8139426",
       "match_date": "2026-10-28",
       "starts_at": "2026-10-28T17:10:00Z",
@@ -1080,6 +1058,88 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Group_B"
+    },
+    {
+      "match_id": "hltv:2399749",
+      "match_date": "2026-10-28",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "The MongolZ",
+      "team2_name": "Nemiga",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Nemiga",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399750",
+      "match_date": "2026-10-28",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "Liquid",
+      "team2_name": "FURIA",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:ca6c9032549a8ff49292",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_5",
+          "starts_at": "2026-10-28T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "match_id": "hltv:2399751",
+      "match_date": "2026-10-28",
+      "event_name": "PGL Masters Bucharest 2026",
+      "team1_name": "Spirit",
+      "team2_name": "Natus Vincere",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Natus Vincere",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "alternate_sources": [
+        {
+          "match_id": "liquipedia:32174f617e3630364ca2",
+          "source": "Liquipedia MediaWiki API",
+          "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Round_5",
+          "starts_at": "2026-10-28T16:00:00Z"
+        }
+      ]
     },
     {
       "match_id": "liquipedia:b6cc0486267604b2355e",
