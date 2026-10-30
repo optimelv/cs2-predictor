@@ -72165,7 +72165,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-30T01:06:17Z",
+      "checked_at_utc": "2026-10-30T07:13:47Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -72549,7 +72549,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-30T01:06:48Z",
+  "generated_at_utc": "2026-10-30T07:14:18Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -74103,7 +74103,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-30T01:06:48Z",
+    "generated_at_utc": "2026-10-30T07:14:18Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -74397,7 +74397,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 3,
+      "new_rows": 0,
       "online_rows": 487,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
@@ -82257,6 +82257,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "elo": 1490.69,
         "last_result_utc": "2026-10-29T15:16:25Z",
         "matches": 1,
+        "ranking_date": "2026-10-05",
         "recent_win_rate_10": 0.4091,
         "team_key": "ex inox",
         "team_name": "ex-INOX",
@@ -85983,7 +85984,7 @@ window.__STRIKESIGNAL_DATA__ = {
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
     "live_feed_items": 41,
-    "online_results_applied": 3,
+    "online_results_applied": 0,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
