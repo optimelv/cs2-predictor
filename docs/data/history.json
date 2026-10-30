@@ -1,18 +1,40 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-10-29T21:40:48Z",
-  "through_date": "2026-10-29",
+  "through_date": "2026-10-30",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4256,
+    "matches": 4264,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:6fd21f70c77008f5b010",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T03:00:00Z",
+      "event_name": "DFRAG Invitational 2026 - Playoffs",
+      "team1_name": "Abyssal",
+      "team2_name": "AE",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "AE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Playoffs"
+    },
     {
       "match_id": "liquipedia:54579c871c54677f5a90",
       "match_date": "2026-10-29",
@@ -496,6 +518,160 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/Gamers_Club/Masters/VII#Group_A"
+    },
+    {
+      "match_id": "liquipedia:3499de75b70ddddbb366",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T17:30:00Z",
+      "event_name": "Tesla Cup 2026 - Playoffs",
+      "team1_name": "GL",
+      "team2_name": "HOTU",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "HOTU",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Tesla_Cup/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:7e677578248672cb0503",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T18:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "9INE",
+      "team2_name": "ACES",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "9INE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:be336dba0fb02d404320",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T19:10:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group B",
+      "team1_name": "NRG",
+      "team2_name": "TC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "NRG",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:49cd48056e67bf3f99d3",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T19:25:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group B",
+      "team1_name": "Galorys",
+      "team2_name": "Procyon",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Procyon",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:a0e1f831197786338655",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T22:45:00Z",
+      "event_name": "Gamers Club Masters VII - Group A",
+      "team1_name": "Alka",
+      "team2_name": "TDP",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "TDP",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Gamers_Club/Masters/VII#Group_A"
+    },
+    {
+      "match_id": "liquipedia:e084a10f39136b0d2f7c",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T23:40:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group B",
+      "team1_name": "Galorys",
+      "team2_name": "TC",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Galorys",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:f9b827bf93215554dbdc",
+      "match_date": "2026-10-29",
+      "starts_at": "2026-10-29T23:40:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group B",
+      "team1_name": "NRG",
+      "team2_name": "Procyon",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "NRG",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_B"
     },
     {
       "match_id": "liquipedia:3bbf30868ea3ab48079e",
