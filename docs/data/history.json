@@ -1,13 +1,13 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-10-29T09:02:46Z",
+  "generated_at_utc": "2026-10-29T21:40:48Z",
   "through_date": "2026-10-29",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4250,
+    "matches": 4253,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -364,6 +364,72 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_A"
+    },
+    {
+      "match_id": "hltv:2399518",
+      "match_date": "2026-10-29",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Butterfly",
+      "team2_name": "FORZE Reload",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Butterfly",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399519",
+      "match_date": "2026-10-29",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "ex-INOX",
+      "team2_name": "Spirit Academy",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Spirit Academy",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399520",
+      "match_date": "2026-10-29",
+      "event_name": "CCT 2026 Europe Series 12",
+      "team1_name": "Acend",
+      "team2_name": "Saint Sinners",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Acend",
+      "tier": "tier_2",
+      "best_of": 3,
+      "phase": "Completed series",
+      "stage_name": "Completed series",
+      "round_name": "",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
     },
     {
       "match_id": "liquipedia:3bbf30868ea3ab48079e",
