@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4266,
+    "matches": 4270,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -34,6 +34,94 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:cf25d451a9b434d743cc",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T03:00:00Z",
+      "event_name": "DFRAG Invitational 2026 - Playoffs",
+      "team1_name": "FLY",
+      "team2_name": "NEXV",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "FLY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:35e1e04c65fe46539be7",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T06:00:00Z",
+      "event_name": "DFRAG Invitational 2026 - Playoffs",
+      "team1_name": "AE",
+      "team2_name": "FLY",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FLY",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:d7bc86d5b78d13b10aae",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T09:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "BAKS",
+      "team2_name": "GOne",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BAKS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:fa024564579c96ec3929",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T12:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Playoffs",
+      "team1_name": "Nemiga",
+      "team2_name": "Vitality",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Nemiga",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Playoffs"
     },
     {
       "match_id": "liquipedia:54579c871c54677f5a90",
