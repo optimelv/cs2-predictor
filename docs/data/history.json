@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4274,
+    "matches": 4279,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -210,6 +210,116 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_C"
+    },
+    {
+      "match_id": "liquipedia:952d18740133b64c8212",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T15:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Playoffs",
+      "team1_name": "FURIA",
+      "team2_name": "MOUZ",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:ca438d80e72f1128dfb5",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T15:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "Apogee",
+      "team2_name": "ILLYRIANS",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Apogee",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:ef0fab7b58bc1f7fae09",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T15:35:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group C",
+      "team1_name": "Isurus",
+      "team2_name": "Sgnts",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Isurus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_C"
+    },
+    {
+      "match_id": "liquipedia:57b15ec3cb83eaf302b3",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T15:40:00Z",
+      "event_name": "Gamers Club Masters VII - Group A",
+      "team1_name": "Alka",
+      "team2_name": "LowC",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "LowC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Gamers_Club/Masters/VII#Group_A"
+    },
+    {
+      "match_id": "liquipedia:825a4194c32c44626ded",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T18:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "lavked",
+      "team2_name": "Phantom",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Phantom",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
     },
     {
       "match_id": "liquipedia:54579c871c54677f5a90",
