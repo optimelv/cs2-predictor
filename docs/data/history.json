@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4295,
+    "matches": 4302,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -144,6 +144,160 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:5530a456f124ef94cf7f",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T13:00:00Z",
+      "event_name": "Gamers Club Masters VII - Group B",
+      "team1_name": "naocop",
+      "team2_name": "paiN",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "naocop",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Gamers_Club/Masters/VII#Group_B"
+    },
+    {
+      "match_id": "liquipedia:7bb23c13f518056688c8",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T13:00:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group A",
+      "team1_name": "BARCA",
+      "team2_name": "BH",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BARCA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_A"
+    },
+    {
+      "match_id": "liquipedia:85c7a8945eafaaeeb88e",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T13:00:00Z",
+      "event_name": "Moscow Cyber Games 2026",
+      "team1_name": "1w",
+      "team2_name": "5star",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "1w",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Moscow_Cyber_Games/2026#Results"
+    },
+    {
+      "match_id": "liquipedia:93be8654f27d07fb1590",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T13:00:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group B",
+      "team1_name": "Galorys",
+      "team2_name": "Procyon",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Procyon",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_B"
+    },
+    {
+      "match_id": "liquipedia:3ac68d8116c75eb82d1e",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T16:00:00Z",
+      "event_name": "Gamers Club Masters VII - Group A",
+      "team1_name": "LowC",
+      "team2_name": "TDP",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "LowC",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Gamers_Club/Masters/VII#Group_A"
+    },
+    {
+      "match_id": "liquipedia:7c5fb0320a32614fa2d1",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T16:15:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group C",
+      "team1_name": "Isurus",
+      "team2_name": "ShindeN",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Isurus",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_C"
+    },
+    {
+      "match_id": "liquipedia:379c98bc312679e99f8c",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T16:40:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group D",
+      "team1_name": "Hacha",
+      "team2_name": "Wildcard",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Wildcard",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_D"
     },
     {
       "match_id": "liquipedia:6fd21f70c77008f5b010",

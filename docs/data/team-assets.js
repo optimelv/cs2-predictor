@@ -2255,5 +2255,15 @@ window.__STRIKESIGNAL_TEAM_ASSETS__ = {
     "name": "Izzo",
     "logo_url": "https://liquipedia.net/commons/images/thumb/5/5e/IzzoTrades_lightmode.png/50px-IzzoTrades_lightmode.png",
     "source": "Liquipedia"
+  },
+  "mce": {
+    "name": "MCE",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/5/5d/Team_MCE_allmode.png/50px-Team_MCE_allmode.png",
+    "source": "Liquipedia"
+  },
+  "fang": {
+    "name": "FANG",
+    "logo_url": "https://liquipedia.net/commons/images/thumb/d/dc/FANG_Esport_allmode.png/60px-FANG_Esport_allmode.png",
+    "source": "Liquipedia"
   }
 };
