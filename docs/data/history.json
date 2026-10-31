@@ -1,18 +1,84 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-10-31T06:02:00Z",
-  "through_date": "2026-10-30",
+  "through_date": "2026-10-31",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4289,
+    "matches": 4292,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:5667732254c0f06559d6",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T03:00:00Z",
+      "event_name": "DFRAG Invitational 2026 - Playoffs",
+      "team1_name": "Abyssal",
+      "team2_name": "NEXV",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "NEXV",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:c31b1a02c1c1d2ef319c",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T06:00:00Z",
+      "event_name": "DFRAG Invitational 2026 - Playoffs",
+      "team1_name": "AE",
+      "team2_name": "NEXV",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "AE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:edb3a04fc82af2e2b12d",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T09:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "Phantom",
+      "team2_name": "Spirit.A",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Phantom",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
     {
       "match_id": "liquipedia:6fd21f70c77008f5b010",
       "match_date": "2026-10-30",
