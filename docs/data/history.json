@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4283,
+    "matches": 4289,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -394,6 +394,138 @@
           "starts_at": "2026-10-30T18:00:00Z"
         }
       ]
+    },
+    {
+      "match_id": "liquipedia:7b708d13e42cd178d081",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T16:00:00Z",
+      "event_name": "Stake Ranked Episode 5",
+      "team1_name": "EF",
+      "team2_name": "Fnatic",
+      "score1": 3,
+      "score2": 2,
+      "winner_name": "EF",
+      "tier": "tier_1",
+      "best_of": 5,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Stake_Ranked/Episode_5#Results"
+    },
+    {
+      "match_id": "liquipedia:c09f1350f8cd0eefb43d",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T18:15:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group D",
+      "team1_name": "Hacha",
+      "team2_name": "Wildcard",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Wildcard",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_D"
+    },
+    {
+      "match_id": "liquipedia:3f8187145bfebf25b6f7",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T19:00:00Z",
+      "event_name": "Gamers Club Masters VII - Group B",
+      "team1_name": "Imperial",
+      "team2_name": "paiN",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Imperial",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Gamers_Club/Masters/VII#Group_B"
+    },
+    {
+      "match_id": "liquipedia:6063377c5abc92cc6774",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T19:10:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group D",
+      "team1_name": "BESTIA",
+      "team2_name": "BTH",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BESTIA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_D"
+    },
+    {
+      "match_id": "liquipedia:a2bdd51344b010b3a69b",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T21:25:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Group D",
+      "team1_name": "BESTIA",
+      "team2_name": "Wildcard",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "BESTIA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_D"
+    },
+    {
+      "match_id": "liquipedia:cce07e4c580053b7a4e6",
+      "match_date": "2026-10-30",
+      "starts_at": "2026-10-30T22:00:00Z",
+      "event_name": "Gamers Club Masters VII - Group A",
+      "team1_name": "DENDELE",
+      "team2_name": "TDP",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "DENDELE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Gamers_Club/Masters/VII#Group_A"
     },
     {
       "match_id": "liquipedia:54579c871c54677f5a90",
