@@ -1246,17 +1246,17 @@
       "player_id": "hltv:25902",
       "nickname": "tired73",
       "team_name": "WBT Academy",
-      "rating_3_0": 1.27,
-      "maps_3m": 88,
+      "rating_3_0": 1.29,
+      "maps_3m": 99,
       "signal_index": 77,
       "traits": {
-        "firepower": 99,
-        "entrying": 10,
-        "trading": 41,
-        "opening": 91,
-        "clutching": 54,
-        "sniping": 93,
-        "utility": 47
+        "closing": 53,
+        "entrying": 33,
+        "firepower": 94,
+        "opening": 81,
+        "sniping": 92,
+        "trading": 39,
+        "utility": 36
       },
       "hltv_player_id": "25902",
       "source_url": "https://www.hltv.org/player/25902/tired73",
@@ -1266,8 +1266,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.325Z",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T18:58:05Z",
       "stats_source_url": "https://www.hltv.org/player/25902/tired73",
       "form_summary": {
         "series": 0,
@@ -1275,7 +1275,10 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-11-01T18:58:05Z",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
     },
     {
       "player_id": "hltv:19645",
@@ -2480,6 +2483,222 @@
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/MlS00Qx2TXKt45dnjfM8GH.png?ixlib=java-2.1.0&w=400&s=3d8aa05c1d1b161078b74cdbccf07de0",
       "traits_through_date": "2026-10-27",
       "signal_index_through_date": "2026-10-27"
+    },
+    {
+      "player_id": "hltv:25911",
+      "nickname": "s1nside",
+      "team_name": "Spirit Academy",
+      "rating_3_0": 1.21,
+      "maps_3m": 101,
+      "signal_index": 65,
+      "traits": {
+        "closing": 72,
+        "entrying": 38,
+        "firepower": 76,
+        "opening": 20,
+        "sniping": 2,
+        "trading": 53,
+        "utility": 58
+      },
+      "hltv_player_id": "25911",
+      "source_url": "https://www.hltv.org/player/25911/s1nside",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399063",
+          "date": "2026-10-03",
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "opponent_name": "Fire Flux",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 69,
+          "deaths": 55,
+          "kd_ratio": 1.25,
+          "adr": 84.6,
+          "kast": 76.2,
+          "rating": 1.46,
+          "maps": 3
+        },
+        {
+          "adr": 78.2,
+          "date": "2026-10-04",
+          "deaths": 24,
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "kast": 89.6,
+          "kd_ratio": 1.67,
+          "kills": 40,
+          "maps": 3,
+          "match_id": "hltv:2399064",
+          "opponent_name": "mellren",
+          "rating": 1.48,
+          "team_name": "Spirit Academy",
+          "won": true
+        },
+        {
+          "match_id": "hltv:2399294",
+          "date": "2026-10-13",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "BAKS",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 31,
+          "deaths": 29,
+          "kd_ratio": 1.07,
+          "adr": 73.8,
+          "kast": 58.1,
+          "rating": 0.98,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399304",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "The Last Resort",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 31,
+          "deaths": 22,
+          "kd_ratio": 1.41,
+          "adr": 80,
+          "kast": 76.9,
+          "rating": 1.52,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399316",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "mellren",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 52,
+          "deaths": 50,
+          "kd_ratio": 1.04,
+          "adr": 92.5,
+          "kast": 77.9,
+          "rating": 1.27,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399772",
+          "date": "2026-10-19",
+          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
+          "opponent_name": "Betclic",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 44,
+          "deaths": 51,
+          "kd_ratio": 0.86,
+          "adr": 65.5,
+          "kast": 73.1,
+          "rating": 0.95,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399322",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Black Phoenix",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 17,
+          "deaths": 11,
+          "kd_ratio": 1.55,
+          "adr": 71.4,
+          "kast": 84.2,
+          "rating": 1.62,
+          "maps": 1
+        },
+        {
+          "match_id": "hltv:2399491",
+          "date": "2026-10-21",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Lavked",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 75,
+          "deaths": 59,
+          "kd_ratio": 1.27,
+          "adr": 84.5,
+          "kast": 76.1,
+          "rating": 1.2,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399327",
+          "date": "2026-10-22",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "GenOne",
+          "team_name": "Spirit Academy",
+          "won": true,
+          "kills": 55,
+          "deaths": 46,
+          "kd_ratio": 1.2,
+          "adr": 77.3,
+          "kast": 73.3,
+          "rating": 1.29,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399498",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "Inner Circle Academy",
+          "team_name": "Spirit Academy",
+          "won": false,
+          "kills": 45,
+          "deaths": 42,
+          "kd_ratio": 1.07,
+          "adr": 76.1,
+          "kast": 74.6,
+          "rating": 1.22,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Spirit Academy",
+          "from_date": "2026-10-03",
+          "through_date": "2026-10-23",
+          "series": 10,
+          "wins": 7,
+          "losses": 3,
+          "win_rate": 0.7,
+          "average_rating": 1.3,
+          "average_adr": 78.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399498",
+        "date": "2026-10-23",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "Inner Circle Academy",
+        "team_name": "Spirit Academy",
+        "won": false,
+        "kills": 45,
+        "deaths": 42,
+        "kd_ratio": 1.07,
+        "adr": 76.1,
+        "kast": 74.6,
+        "rating": 1.22,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 10,
+        "average_rating": 1.3,
+        "average_adr": 78.4,
+        "recent_rating": 1.24,
+        "rating_delta": -0.04
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T18:58:43Z",
+      "stats_source_url": "https://www.hltv.org/player/25911/s1nside",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01",
+      "profile_fetched_at_utc": "2026-11-01T18:58:43Z"
     },
     {
       "player_id": "hltv:23740",
@@ -4496,221 +4715,6 @@
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/nsIoZ5CzHzKTNrzAzyZC8A.png?ixlib=java-2.1.0&w=400&s=68c1267b5e46efab9bcea75edbea7322",
       "traits_through_date": "2026-10-24",
       "signal_index_through_date": "2026-10-24"
-    },
-    {
-      "player_id": "hltv:25911",
-      "nickname": "s1nside",
-      "team_name": "Spirit Academy",
-      "rating_3_0": 1.18,
-      "maps_3m": 78,
-      "signal_index": 64,
-      "traits": {
-        "firepower": 71,
-        "entrying": 41,
-        "trading": 49,
-        "opening": 29,
-        "clutching": 71,
-        "sniping": 0,
-        "utility": 47
-      },
-      "hltv_player_id": "25911",
-      "source_url": "https://www.hltv.org/player/25911/s1nside",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399063",
-          "date": "2026-10-03",
-          "event_name": "CCT 2026 Challengers Europe Series 7",
-          "opponent_name": "Fire Flux",
-          "team_name": "Spirit Academy",
-          "won": true,
-          "kills": 69,
-          "deaths": 55,
-          "kd_ratio": 1.25,
-          "adr": 84.6,
-          "kast": 76.2,
-          "rating": 1.46,
-          "maps": 3
-        },
-        {
-          "adr": 78.2,
-          "date": "2026-10-04",
-          "deaths": 24,
-          "event_name": "CCT 2026 Challengers Europe Series 7",
-          "kast": 89.6,
-          "kd_ratio": 1.67,
-          "kills": 40,
-          "maps": 3,
-          "match_id": "hltv:2399064",
-          "opponent_name": "mellren",
-          "rating": 1.48,
-          "team_name": "Spirit Academy",
-          "won": true
-        },
-        {
-          "match_id": "hltv:2399294",
-          "date": "2026-10-13",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "BAKS",
-          "team_name": "Spirit Academy",
-          "won": false,
-          "kills": 31,
-          "deaths": 29,
-          "kd_ratio": 1.07,
-          "adr": 73.8,
-          "kast": 58.1,
-          "rating": 0.98,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399304",
-          "date": "2026-10-15",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "The Last Resort",
-          "team_name": "Spirit Academy",
-          "won": true,
-          "kills": 31,
-          "deaths": 22,
-          "kd_ratio": 1.41,
-          "adr": 80,
-          "kast": 76.9,
-          "rating": 1.52,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399316",
-          "date": "2026-10-18",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "mellren",
-          "team_name": "Spirit Academy",
-          "won": true,
-          "kills": 52,
-          "deaths": 50,
-          "kd_ratio": 1.04,
-          "adr": 92.5,
-          "kast": 77.9,
-          "rating": 1.27,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399772",
-          "date": "2026-10-19",
-          "event_name": "Stake Ranked Episode 6 Closed Qualifier",
-          "opponent_name": "Betclic",
-          "team_name": "Spirit Academy",
-          "won": false,
-          "kills": 44,
-          "deaths": 51,
-          "kd_ratio": 0.86,
-          "adr": 65.5,
-          "kast": 73.1,
-          "rating": 0.95,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399322",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Black Phoenix",
-          "team_name": "Spirit Academy",
-          "won": true,
-          "kills": 17,
-          "deaths": 11,
-          "kd_ratio": 1.55,
-          "adr": 71.4,
-          "kast": 84.2,
-          "rating": 1.62,
-          "maps": 1
-        },
-        {
-          "match_id": "hltv:2399491",
-          "date": "2026-10-21",
-          "event_name": "CCT 2026 Europe Series 12",
-          "opponent_name": "Lavked",
-          "team_name": "Spirit Academy",
-          "won": true,
-          "kills": 75,
-          "deaths": 59,
-          "kd_ratio": 1.27,
-          "adr": 84.5,
-          "kast": 76.1,
-          "rating": 1.2,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399327",
-          "date": "2026-10-22",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "GenOne",
-          "team_name": "Spirit Academy",
-          "won": true,
-          "kills": 55,
-          "deaths": 46,
-          "kd_ratio": 1.2,
-          "adr": 77.3,
-          "kast": 73.3,
-          "rating": 1.29,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399498",
-          "date": "2026-10-23",
-          "event_name": "CCT 2026 Europe Series 12",
-          "opponent_name": "Inner Circle Academy",
-          "team_name": "Spirit Academy",
-          "won": false,
-          "kills": 45,
-          "deaths": 42,
-          "kd_ratio": 1.07,
-          "adr": 76.1,
-          "kast": 74.6,
-          "rating": 1.22,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Spirit Academy",
-          "from_date": "2026-10-03",
-          "through_date": "2026-10-23",
-          "series": 10,
-          "wins": 7,
-          "losses": 3,
-          "win_rate": 0.7,
-          "average_rating": 1.3,
-          "average_adr": 78.4
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399498",
-        "date": "2026-10-23",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "Inner Circle Academy",
-        "team_name": "Spirit Academy",
-        "won": false,
-        "kills": 45,
-        "deaths": 42,
-        "kd_ratio": 1.07,
-        "adr": 76.1,
-        "kast": 74.6,
-        "rating": 1.22,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 10,
-        "average_rating": 1.3,
-        "average_adr": 78.4,
-        "recent_rating": 1.24,
-        "rating_delta": -0.04
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.320Z",
-      "stats_source_url": "https://www.hltv.org/player/25911/s1nside",
-      "traits_through_date": "2026-10-13",
-      "signal_index_through_date": "2026-10-13"
     },
     {
       "player_id": "hltv:20870",
@@ -6775,6 +6779,45 @@
       "stats_source_url": "https://www.hltv.org/player/24573/faster",
       "traits_through_date": "2026-10-30",
       "signal_index_through_date": "2026-10-30"
+    },
+    {
+      "player_id": "hltv:26045",
+      "nickname": "Keksimage",
+      "team_name": "KUUSAMO",
+      "rating_3_0": 1.17,
+      "maps_3m": 30,
+      "signal_index": 72,
+      "traits": {
+        "closing": 36,
+        "entrying": 82,
+        "firepower": 75,
+        "opening": 85,
+        "sniping": 2,
+        "trading": 73,
+        "utility": 62
+      },
+      "hltv_player_id": "26045",
+      "source_url": "https://www.hltv.org/player/26045/keksimage",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": [],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:09:36Z",
+      "stats_source_url": "https://www.hltv.org/player/26045/keksimage",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:09:36Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/nhpqz7qUSKmZ4epU2Y5Sxc.png?ixlib=java-2.1.0&w=400&s=9df0f50084598d45f08beda1d0f6784f",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
     },
     {
       "player_id": "hltv:23551",
@@ -8923,41 +8966,6 @@
       "signal_index_through_date": "2026-10-23"
     },
     {
-      "player_id": "hltv:26045",
-      "nickname": "Keksimage",
-      "team_name": "KUUSAMO",
-      "rating_3_0": 1.15,
-      "maps_3m": 33,
-      "signal_index": 71,
-      "traits": {
-        "firepower": 82,
-        "entrying": 88,
-        "trading": 70,
-        "opening": 69,
-        "clutching": 43,
-        "sniping": 0,
-        "utility": 63
-      },
-      "hltv_player_id": "26045",
-      "source_url": "https://www.hltv.org/player/26045/keksimage",
-      "form_timeline": [],
-      "map_profile": [],
-      "roster_eras": [],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.329Z",
-      "stats_source_url": "https://www.hltv.org/player/26045/keksimage",
-      "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
-        "rating_delta": null
-      }
-    },
-    {
       "player_id": "hltv:23136",
       "nickname": "Zucar",
       "team_name": "regain",
@@ -10658,41 +10666,6 @@
       "signal_index_through_date": "2026-10-24"
     },
     {
-      "player_id": "hltv:26178",
-      "nickname": "xeNji",
-      "team_name": "Noir Verse",
-      "rating_3_0": 1.14,
-      "maps_3m": 101,
-      "signal_index": 74,
-      "traits": {
-        "firepower": 83,
-        "entrying": 47,
-        "trading": 36,
-        "opening": 90,
-        "clutching": 52,
-        "sniping": 91,
-        "utility": 62
-      },
-      "form_timeline": [],
-      "hltv_player_id": "26178",
-      "source_url": "https://www.hltv.org/player/26178/xenji",
-      "map_profile": [],
-      "roster_eras": [],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.342Z",
-      "stats_source_url": "https://www.hltv.org/player/26178/xenji",
-      "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
-        "rating_delta": null
-      }
-    },
-    {
       "player_id": "hltv:25874",
       "nickname": "Burglar",
       "team_name": "Villainous",
@@ -12178,6 +12151,45 @@
       "signal_index_through_date": "2026-11-01",
       "profile_fetched_at_utc": "2026-11-01T06:51:01Z",
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/csasOQeIux3ySu21e4byRJ.png?ixlib=java-2.1.0&w=400&s=b398a0bdbe563a348d657d09b26bdd33"
+    },
+    {
+      "player_id": "hltv:26178",
+      "nickname": "xeNji",
+      "team_name": "Noir Verse",
+      "rating_3_0": 1.13,
+      "maps_3m": 108,
+      "signal_index": 74,
+      "traits": {
+        "closing": 35,
+        "entrying": 71,
+        "firepower": 66,
+        "opening": 82,
+        "sniping": 91,
+        "trading": 51,
+        "utility": 63
+      },
+      "form_timeline": [],
+      "hltv_player_id": "26178",
+      "source_url": "https://www.hltv.org/player/26178/xenji",
+      "map_profile": [],
+      "roster_eras": [],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:15:04Z",
+      "stats_source_url": "https://www.hltv.org/player/26178/xenji",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:15:04Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/lvOrbtbmDJDlIj613mpN48.png?ixlib=java-2.1.0&w=400&s=6fb64b1954bef0913c090d1d63298682",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
     },
     {
       "player_id": "hltv:23956",
@@ -15911,6 +15923,44 @@
       "signal_index_through_date": "2026-10-31"
     },
     {
+      "player_id": "hltv:25939",
+      "nickname": "extazzy",
+      "team_name": "realgotis22",
+      "rating_3_0": 1.12,
+      "maps_3m": 7,
+      "signal_index": 67,
+      "traits": {
+        "closing": 63,
+        "entrying": 85,
+        "firepower": 58,
+        "opening": 41,
+        "sniping": 3,
+        "trading": 87,
+        "utility": 39
+      },
+      "hltv_player_id": "25939",
+      "source_url": "https://www.hltv.org/player/25939/extazzy",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": [],
+      "profile_fetched_at_utc": "2026-11-01T19:04:30Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:04:30Z",
+      "stats_source_url": "https://www.hltv.org/player/25939/extazzy",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      }
+    },
+    {
       "player_id": "hltv:25456",
       "nickname": "kalyambys",
       "team_name": "Phantom Academy",
@@ -17119,266 +17169,6 @@
         "recent_rating": null,
         "rating_delta": null
       }
-    },
-    {
-      "player_id": "hltv:26058",
-      "nickname": "shootic",
-      "team_name": "mellren",
-      "rating_3_0": 1.11,
-      "maps_3m": 97,
-      "signal_index": 61,
-      "traits": {
-        "firepower": 66,
-        "entrying": 67,
-        "trading": 28,
-        "opening": 60,
-        "clutching": 39,
-        "sniping": 2,
-        "utility": 47
-      },
-      "hltv_player_id": "26058",
-      "source_url": "https://www.hltv.org/player/26058/shootic",
-      "form_timeline": [
-        {
-          "adr": 64.8,
-          "date": "2026-10-04",
-          "deaths": 32,
-          "event_name": "CCT 2026 Challengers Europe Series 7",
-          "kast": 62.5,
-          "kd_ratio": 0.78,
-          "kills": 25,
-          "maps": 3,
-          "match_id": "hltv:2399064",
-          "opponent_name": "Spirit Academy",
-          "rating": 0.89,
-          "team_name": "mellren",
-          "won": false
-        },
-        {
-          "match_id": "hltv:2399291",
-          "date": "2026-10-12",
-          "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
-          "opponent_name": "Fire Flux",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 45,
-          "deaths": 53,
-          "kd_ratio": 0.85,
-          "adr": 72.7,
-          "kast": 68.6,
-          "rating": 0.96,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399299",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "ex-RUSTEC",
-          "team_name": "mellren",
-          "won": false,
-          "kills": 26,
-          "deaths": 38,
-          "kd_ratio": 0.68,
-          "adr": 60.7,
-          "kast": 69.1,
-          "rating": 0.79,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399079",
-          "date": "2026-10-15",
-          "event_name": "NODWIN Clutch Series 13",
-          "opponent_name": "BRUTE",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 53,
-          "deaths": 57,
-          "kd_ratio": 0.93,
-          "adr": 69.4,
-          "kast": 71.6,
-          "rating": 0.98,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399471",
-          "date": "2026-10-16",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Privateer",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 50,
-          "deaths": 33,
-          "kd_ratio": 1.52,
-          "adr": 94.3,
-          "kast": 78.9,
-          "rating": 1.5,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399086",
-          "date": "2026-10-16",
-          "event_name": "NODWIN Clutch Series 13",
-          "opponent_name": "ex-6666",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 48,
-          "deaths": 35,
-          "kd_ratio": 1.37,
-          "adr": 83.9,
-          "kast": 78.3,
-          "rating": 1.33,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399476",
-          "date": "2026-10-17",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "antidaun",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 23,
-          "deaths": 21,
-          "kd_ratio": 1.1,
-          "adr": 59.3,
-          "kast": 78.4,
-          "rating": 1.01,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399316",
-          "date": "2026-10-18",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Spirit Academy",
-          "team_name": "mellren",
-          "won": false,
-          "kills": 53,
-          "deaths": 50,
-          "kd_ratio": 1.06,
-          "adr": 85.1,
-          "kast": 75,
-          "rating": 1.22,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399094",
-          "date": "2026-10-18",
-          "event_name": "NODWIN Clutch Series 13",
-          "opponent_name": "UNiTY",
-          "team_name": "mellren",
-          "won": false,
-          "kills": 22,
-          "deaths": 29,
-          "kd_ratio": 0.76,
-          "adr": 61.3,
-          "kast": 68.6,
-          "rating": 0.76,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399319",
-          "date": "2026-10-19",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "G2 Ares",
-          "team_name": "mellren",
-          "won": false,
-          "kills": 58,
-          "deaths": 56,
-          "kd_ratio": 1.04,
-          "adr": 72.1,
-          "kast": 68.3,
-          "rating": 1.09,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399484",
-          "date": "2026-10-19",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Banda Chuya",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 41,
-          "deaths": 38,
-          "kd_ratio": 1.08,
-          "adr": 75.6,
-          "kast": 75,
-          "rating": 1.22,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399487",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Europe Series 12",
-          "opponent_name": "ex-RUSTEC",
-          "team_name": "mellren",
-          "won": false,
-          "kills": 41,
-          "deaths": 33,
-          "kd_ratio": 1.24,
-          "adr": 85.9,
-          "kast": 70.2,
-          "rating": 1.37,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399107",
-          "date": "2026-10-22",
-          "event_name": "NODWIN Clutch Series 13",
-          "opponent_name": "BET-M",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 28,
-          "deaths": 25,
-          "kd_ratio": 1.12,
-          "adr": 69.7,
-          "kast": 79.1,
-          "rating": 1.07,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "mellren",
-          "from_date": "2026-10-04",
-          "through_date": "2026-10-22",
-          "series": 13,
-          "wins": 7,
-          "losses": 6,
-          "win_rate": 0.538,
-          "average_rating": 1.09,
-          "average_adr": 73.4
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399487",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "ex-RUSTEC",
-        "team_name": "mellren",
-        "won": false,
-        "kills": 41,
-        "deaths": 33,
-        "kd_ratio": 1.24,
-        "adr": 85.9,
-        "kast": 70.2,
-        "rating": 1.37,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 13,
-        "average_rating": 1.09,
-        "average_adr": 73.4,
-        "recent_rating": 1.22,
-        "rating_delta": 0.2
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.329Z",
-      "stats_source_url": "https://www.hltv.org/player/26058/shootic",
-      "traits_through_date": "2026-10-13",
-      "signal_index_through_date": "2026-10-13"
     },
     {
       "player_id": "hltv:16314",
@@ -19084,6 +18874,349 @@
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/VYOwO302PmXLb1S1ijNpB8.png?ixlib=java-2.1.0&w=400&s=1121ec083d55f7076569c3a94973b1bf",
       "traits_through_date": "2026-10-31",
       "signal_index_through_date": "2026-10-31"
+    },
+    {
+      "player_id": "hltv:26180",
+      "nickname": "tronic",
+      "team_name": "Nuclear TigeRES",
+      "hltv_player_id": "26180",
+      "source_url": "https://www.hltv.org/player/26180/tronic",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399332",
+          "date": "2026-10-23",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Illyrians",
+          "team_name": "Nuclear TigeRES",
+          "won": true,
+          "kills": 14,
+          "deaths": 15,
+          "kd_ratio": 0.93,
+          "adr": 71.1,
+          "kast": 87.5,
+          "rating": 0.96,
+          "maps": 3
+        }
+      ],
+      "traits": {
+        "closing": 75,
+        "entrying": 56,
+        "firepower": 51,
+        "opening": 26,
+        "sniping": 91,
+        "trading": 72,
+        "utility": 75
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.96,
+        "average_adr": 71.1,
+        "recent_rating": 0.96,
+        "rating_delta": null
+      },
+      "roster_eras": [
+        {
+          "team_name": "Nuclear TigeRES",
+          "from_date": "2026-10-23",
+          "through_date": "2026-10-23",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.96,
+          "average_adr": 71.1
+        }
+      ],
+      "map_profile": [],
+      "rating_3_0": 1.11,
+      "maps_3m": 77,
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:15:50Z",
+      "stats_source_url": "https://www.hltv.org/player/26180/tronic",
+      "signal_index": 72,
+      "timeline_entry": {
+        "match_id": "hltv:2399332",
+        "date": "2026-10-23",
+        "event_name": "CCT 2026 Europe Series 11",
+        "opponent_name": "Illyrians",
+        "team_name": "Nuclear TigeRES",
+        "won": true,
+        "kills": 14,
+        "deaths": 15,
+        "kd_ratio": 0.93,
+        "adr": 71.1,
+        "kast": 87.5,
+        "rating": 0.96,
+        "maps": 3
+      },
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01",
+      "profile_fetched_at_utc": "2026-11-01T19:15:50Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/j5XSsVxYPBAz7iBMLYcWRK.png?ixlib=java-2.1.0&w=400&s=ace761c048e4bc603d087534c956880c"
+    },
+    {
+      "player_id": "hltv:26058",
+      "nickname": "shootic",
+      "team_name": "mellren",
+      "rating_3_0": 1.1,
+      "maps_3m": 131,
+      "signal_index": 61,
+      "traits": {
+        "closing": 35,
+        "entrying": 63,
+        "firepower": 60,
+        "opening": 56,
+        "sniping": 10,
+        "trading": 39,
+        "utility": 53
+      },
+      "hltv_player_id": "26058",
+      "source_url": "https://www.hltv.org/player/26058/shootic",
+      "form_timeline": [
+        {
+          "adr": 64.8,
+          "date": "2026-10-04",
+          "deaths": 32,
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "kast": 62.5,
+          "kd_ratio": 0.78,
+          "kills": 25,
+          "maps": 3,
+          "match_id": "hltv:2399064",
+          "opponent_name": "Spirit Academy",
+          "rating": 0.89,
+          "team_name": "mellren",
+          "won": false
+        },
+        {
+          "match_id": "hltv:2399291",
+          "date": "2026-10-12",
+          "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
+          "opponent_name": "Fire Flux",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 45,
+          "deaths": 53,
+          "kd_ratio": 0.85,
+          "adr": 72.7,
+          "kast": 68.6,
+          "rating": 0.96,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399299",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 26,
+          "deaths": 38,
+          "kd_ratio": 0.68,
+          "adr": 60.7,
+          "kast": 69.1,
+          "rating": 0.79,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399079",
+          "date": "2026-10-15",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BRUTE",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 53,
+          "deaths": 57,
+          "kd_ratio": 0.93,
+          "adr": 69.4,
+          "kast": 71.6,
+          "rating": 0.98,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Privateer",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 50,
+          "deaths": 33,
+          "kd_ratio": 1.52,
+          "adr": 94.3,
+          "kast": 78.9,
+          "rating": 1.5,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-6666",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 48,
+          "deaths": 35,
+          "kd_ratio": 1.37,
+          "adr": 83.9,
+          "kast": 78.3,
+          "rating": 1.33,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399476",
+          "date": "2026-10-17",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "antidaun",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 23,
+          "deaths": 21,
+          "kd_ratio": 1.1,
+          "adr": 59.3,
+          "kast": 78.4,
+          "rating": 1.01,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399316",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 53,
+          "deaths": 50,
+          "kd_ratio": 1.06,
+          "adr": 85.1,
+          "kast": 75,
+          "rating": 1.22,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399094",
+          "date": "2026-10-18",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "UNiTY",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 22,
+          "deaths": 29,
+          "kd_ratio": 0.76,
+          "adr": 61.3,
+          "kast": 68.6,
+          "rating": 0.76,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 58,
+          "deaths": 56,
+          "kd_ratio": 1.04,
+          "adr": 72.1,
+          "kast": 68.3,
+          "rating": 1.09,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 41,
+          "deaths": 38,
+          "kd_ratio": 1.08,
+          "adr": 75.6,
+          "kast": 75,
+          "rating": 1.22,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399487",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 41,
+          "deaths": 33,
+          "kd_ratio": 1.24,
+          "adr": 85.9,
+          "kast": 70.2,
+          "rating": 1.37,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399107",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 28,
+          "deaths": 25,
+          "kd_ratio": 1.12,
+          "adr": 69.7,
+          "kast": 79.1,
+          "rating": 1.07,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "mellren",
+          "from_date": "2026-10-04",
+          "through_date": "2026-10-22",
+          "series": 13,
+          "wins": 7,
+          "losses": 6,
+          "win_rate": 0.538,
+          "average_rating": 1.09,
+          "average_adr": 73.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399487",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "ex-RUSTEC",
+        "team_name": "mellren",
+        "won": false,
+        "kills": 41,
+        "deaths": 33,
+        "kd_ratio": 1.24,
+        "adr": 85.9,
+        "kast": 70.2,
+        "rating": 1.37,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 13,
+        "average_rating": 1.09,
+        "average_adr": 73.4,
+        "recent_rating": 1.22,
+        "rating_delta": 0.2
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:10:07Z",
+      "stats_source_url": "https://www.hltv.org/player/26058/shootic",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01",
+      "profile_fetched_at_utc": "2026-11-01T19:10:07Z"
     },
     {
       "player_id": "hltv:25540",
@@ -27473,6 +27606,103 @@
       "signal_index_through_date": "2026-11-01"
     },
     {
+      "player_id": "hltv:26002",
+      "nickname": "sherman",
+      "team_name": "B8 Academy",
+      "rating_3_0": 1.08,
+      "maps_3m": 19,
+      "signal_index": 60,
+      "traits": {
+        "closing": 64,
+        "entrying": 36,
+        "firepower": 53,
+        "opening": 47,
+        "sniping": 0,
+        "trading": 63,
+        "utility": 46
+      },
+      "hltv_player_id": "26002",
+      "source_url": "https://www.hltv.org/player/26002/sherman",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399461",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Enjoy",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 29,
+          "deaths": 40,
+          "kd_ratio": 0.72,
+          "adr": 71.8,
+          "kast": 71.2,
+          "rating": 0.91,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399465",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "B8 Academy",
+          "won": false,
+          "kills": 44,
+          "deaths": 45,
+          "kd_ratio": 0.98,
+          "adr": 63.9,
+          "kast": 74.2,
+          "rating": 1.08,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399465",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Banda Chuya",
+        "team_name": "B8 Academy",
+        "won": false,
+        "kills": 44,
+        "deaths": 45,
+        "kd_ratio": 0.98,
+        "adr": 63.9,
+        "kast": 74.2,
+        "rating": 1.08,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 2,
+        "average_rating": 1,
+        "average_adr": 67.8,
+        "recent_rating": 1,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "B8 Academy",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0,
+          "average_rating": 1,
+          "average_adr": 67.8
+        }
+      ],
+      "profile_fetched_at_utc": "2026-11-01T19:06:58Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/Krp57gvtivI1cfJHskLJhK.png?ixlib=java-2.1.0&w=400&s=e38c0e9b09a6e0d7354933cb39511645",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:06:58Z",
+      "stats_source_url": "https://www.hltv.org/player/26002/sherman",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:24810",
       "nickname": "doni",
       "team_name": "BIG Academy",
@@ -28028,266 +28258,6 @@
         "recent_rating": null,
         "rating_delta": null
       }
-    },
-    {
-      "player_id": "hltv:26060",
-      "nickname": "Maksilvl",
-      "team_name": "mellren",
-      "rating_3_0": 1.07,
-      "maps_3m": 97,
-      "signal_index": 58,
-      "traits": {
-        "firepower": 42,
-        "entrying": 52,
-        "trading": 51,
-        "opening": 29,
-        "clutching": 78,
-        "sniping": 0,
-        "utility": 37
-      },
-      "hltv_player_id": "26060",
-      "source_url": "https://www.hltv.org/player/26060/maksilvl",
-      "form_timeline": [
-        {
-          "adr": 30.5,
-          "date": "2026-10-04",
-          "deaths": 33,
-          "event_name": "CCT 2026 Challengers Europe Series 7",
-          "kast": 54.2,
-          "kd_ratio": 0.36,
-          "kills": 12,
-          "maps": 3,
-          "match_id": "hltv:2399064",
-          "opponent_name": "Spirit Academy",
-          "rating": 0.47,
-          "team_name": "mellren",
-          "won": false
-        },
-        {
-          "match_id": "hltv:2399291",
-          "date": "2026-10-12",
-          "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
-          "opponent_name": "Fire Flux",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 38,
-          "deaths": 48,
-          "kd_ratio": 0.79,
-          "adr": 68.3,
-          "kast": 67.1,
-          "rating": 0.96,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399299",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "ex-RUSTEC",
-          "team_name": "mellren",
-          "won": false,
-          "kills": 30,
-          "deaths": 41,
-          "kd_ratio": 0.73,
-          "adr": 60.3,
-          "kast": 58.2,
-          "rating": 0.8,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399079",
-          "date": "2026-10-15",
-          "event_name": "NODWIN Clutch Series 13",
-          "opponent_name": "BRUTE",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 40,
-          "deaths": 54,
-          "kd_ratio": 0.74,
-          "adr": 60.8,
-          "kast": 67.9,
-          "rating": 0.87,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399471",
-          "date": "2026-10-16",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Privateer",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 47,
-          "deaths": 32,
-          "kd_ratio": 1.47,
-          "adr": 81.4,
-          "kast": 82.5,
-          "rating": 1.42,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399086",
-          "date": "2026-10-16",
-          "event_name": "NODWIN Clutch Series 13",
-          "opponent_name": "ex-6666",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 45,
-          "deaths": 34,
-          "kd_ratio": 1.32,
-          "adr": 75.3,
-          "kast": 76.7,
-          "rating": 1.25,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399476",
-          "date": "2026-10-17",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "antidaun",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 30,
-          "deaths": 18,
-          "kd_ratio": 1.67,
-          "adr": 71.1,
-          "kast": 83.8,
-          "rating": 1.44,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399316",
-          "date": "2026-10-18",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Spirit Academy",
-          "team_name": "mellren",
-          "won": false,
-          "kills": 38,
-          "deaths": 45,
-          "kd_ratio": 0.84,
-          "adr": 63.6,
-          "kast": 67.6,
-          "rating": 0.91,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399094",
-          "date": "2026-10-18",
-          "event_name": "NODWIN Clutch Series 13",
-          "opponent_name": "UNiTY",
-          "team_name": "mellren",
-          "won": false,
-          "kills": 13,
-          "deaths": 26,
-          "kd_ratio": 0.5,
-          "adr": 50.7,
-          "kast": 65.7,
-          "rating": 0.58,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399319",
-          "date": "2026-10-19",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "G2 Ares",
-          "team_name": "mellren",
-          "won": false,
-          "kills": 41,
-          "deaths": 56,
-          "kd_ratio": 0.73,
-          "adr": 57.7,
-          "kast": 68.3,
-          "rating": 0.84,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399484",
-          "date": "2026-10-19",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Banda Chuya",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 31,
-          "deaths": 41,
-          "kd_ratio": 0.76,
-          "adr": 60.9,
-          "kast": 66.7,
-          "rating": 0.84,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399487",
-          "date": "2026-10-20",
-          "event_name": "CCT 2026 Europe Series 12",
-          "opponent_name": "ex-RUSTEC",
-          "team_name": "mellren",
-          "won": false,
-          "kills": 30,
-          "deaths": 35,
-          "kd_ratio": 0.86,
-          "adr": 77.5,
-          "kast": 70.2,
-          "rating": 0.93,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399107",
-          "date": "2026-10-22",
-          "event_name": "NODWIN Clutch Series 13",
-          "opponent_name": "BET-M",
-          "team_name": "mellren",
-          "won": true,
-          "kills": 31,
-          "deaths": 29,
-          "kd_ratio": 1.07,
-          "adr": 78.1,
-          "kast": 74.4,
-          "rating": 1.19,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "mellren",
-          "from_date": "2026-10-04",
-          "through_date": "2026-10-22",
-          "series": 13,
-          "wins": 7,
-          "losses": 6,
-          "win_rate": 0.538,
-          "average_rating": 0.96,
-          "average_adr": 64.3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399487",
-        "date": "2026-10-20",
-        "event_name": "CCT 2026 Europe Series 12",
-        "opponent_name": "ex-RUSTEC",
-        "team_name": "mellren",
-        "won": false,
-        "kills": 30,
-        "deaths": 35,
-        "kd_ratio": 0.86,
-        "adr": 77.5,
-        "kast": 70.2,
-        "rating": 0.93,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 13,
-        "average_rating": 0.96,
-        "average_adr": 64.3,
-        "recent_rating": 0.99,
-        "rating_delta": 0.21
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.329Z",
-      "stats_source_url": "https://www.hltv.org/player/26060/maksilvl",
-      "traits_through_date": "2026-10-13",
-      "signal_index_through_date": "2026-10-13"
     },
     {
       "player_id": "hltv:18322",
@@ -39559,15 +39529,15 @@
       "team_name": "Wanted Goons",
       "rating_3_0": 1.04,
       "maps_3m": 34,
-      "signal_index": 62,
+      "signal_index": 60,
       "traits": {
-        "firepower": 56,
-        "entrying": 50,
-        "trading": 95,
-        "opening": 15,
-        "clutching": 95,
-        "sniping": 1,
-        "utility": 36
+        "closing": 77,
+        "entrying": 45,
+        "firepower": 55,
+        "opening": 19,
+        "sniping": 6,
+        "trading": 96,
+        "utility": 19
       },
       "form_timeline": [],
       "hltv_player_id": "26098",
@@ -39577,8 +39547,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.345Z",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:12:25Z",
       "stats_source_url": "https://www.hltv.org/player/26098/hibui",
       "form_summary": {
         "series": 0,
@@ -39586,7 +39556,11 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:12:25Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/I0rUKqqOZc074qg3KYR6Se.png?ixlib=java-2.1.0&w=400&s=105fb5ab355934326d38be107b55ea4f",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
     },
     {
       "player_id": "hltv:16478",
@@ -40794,6 +40768,364 @@
       "signal_index": 57,
       "signal_index_through_date": "2026-11-01",
       "profile_fetched_at_utc": "2026-11-01T06:41:36Z"
+    },
+    {
+      "player_id": "hltv:25898",
+      "nickname": "thirtythird",
+      "team_name": "MAYBE",
+      "rating_3_0": 1.04,
+      "maps_3m": 67,
+      "signal_index": 61,
+      "traits": {
+        "closing": 37,
+        "entrying": 36,
+        "firepower": 52,
+        "opening": 56,
+        "sniping": 92,
+        "trading": 51,
+        "utility": 15
+      },
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399464",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Saint Sinners",
+          "team_name": "MAYBE",
+          "won": false,
+          "kills": 49,
+          "deaths": 42,
+          "kd_ratio": 1.17,
+          "adr": 71.4,
+          "kast": 67.2,
+          "rating": 1.05,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Ryvex",
+          "team_name": "MAYBE",
+          "won": true,
+          "kills": 36,
+          "deaths": 17,
+          "kd_ratio": 2.12,
+          "adr": 89.6,
+          "kast": 84.6,
+          "rating": 1.5,
+          "maps": 3
+        }
+      ],
+      "hltv_player_id": "25898",
+      "source_url": "https://www.hltv.org/player/25898/thirtythird",
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "MAYBE",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.27,
+          "average_adr": 80.5
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Ryvex",
+        "team_name": "MAYBE",
+        "won": true,
+        "kills": 36,
+        "deaths": 17,
+        "kd_ratio": 2.12,
+        "adr": 89.6,
+        "kast": 84.6,
+        "rating": 1.5,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 2,
+        "average_rating": 1.27,
+        "average_adr": 80.5,
+        "recent_rating": 1.27,
+        "rating_delta": null
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T18:57:20Z",
+      "stats_source_url": "https://www.hltv.org/player/25898/thirtythird",
+      "profile_fetched_at_utc": "2026-11-01T18:57:20Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/lL86EsGcpzWUWhpN-Z9wmH.png?ixlib=java-2.1.0&w=400&s=efecb8c77afd95ddb6546ca57a762301",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
+      "player_id": "hltv:26060",
+      "nickname": "Maksilvl",
+      "team_name": "mellren",
+      "rating_3_0": 1.03,
+      "maps_3m": 131,
+      "signal_index": 55,
+      "traits": {
+        "closing": 58,
+        "entrying": 48,
+        "firepower": 43,
+        "opening": 27,
+        "sniping": 2,
+        "trading": 53,
+        "utility": 29
+      },
+      "hltv_player_id": "26060",
+      "source_url": "https://www.hltv.org/player/26060/maksilvl",
+      "form_timeline": [
+        {
+          "adr": 30.5,
+          "date": "2026-10-04",
+          "deaths": 33,
+          "event_name": "CCT 2026 Challengers Europe Series 7",
+          "kast": 54.2,
+          "kd_ratio": 0.36,
+          "kills": 12,
+          "maps": 3,
+          "match_id": "hltv:2399064",
+          "opponent_name": "Spirit Academy",
+          "rating": 0.47,
+          "team_name": "mellren",
+          "won": false
+        },
+        {
+          "match_id": "hltv:2399291",
+          "date": "2026-10-12",
+          "event_name": "CCT 2026 Europe Series 11 Closed Qualifier",
+          "opponent_name": "Fire Flux",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 38,
+          "deaths": 48,
+          "kd_ratio": 0.79,
+          "adr": 68.3,
+          "kast": 67.1,
+          "rating": 0.96,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399299",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 30,
+          "deaths": 41,
+          "kd_ratio": 0.73,
+          "adr": 60.3,
+          "kast": 58.2,
+          "rating": 0.8,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399079",
+          "date": "2026-10-15",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BRUTE",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 40,
+          "deaths": 54,
+          "kd_ratio": 0.74,
+          "adr": 60.8,
+          "kast": 67.9,
+          "rating": 0.87,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Privateer",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 47,
+          "deaths": 32,
+          "kd_ratio": 1.47,
+          "adr": 81.4,
+          "kast": 82.5,
+          "rating": 1.42,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399086",
+          "date": "2026-10-16",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "ex-6666",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 45,
+          "deaths": 34,
+          "kd_ratio": 1.32,
+          "adr": 75.3,
+          "kast": 76.7,
+          "rating": 1.25,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399476",
+          "date": "2026-10-17",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "antidaun",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 30,
+          "deaths": 18,
+          "kd_ratio": 1.67,
+          "adr": 71.1,
+          "kast": 83.8,
+          "rating": 1.44,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399316",
+          "date": "2026-10-18",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "Spirit Academy",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 38,
+          "deaths": 45,
+          "kd_ratio": 0.84,
+          "adr": 63.6,
+          "kast": 67.6,
+          "rating": 0.91,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399094",
+          "date": "2026-10-18",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "UNiTY",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 13,
+          "deaths": 26,
+          "kd_ratio": 0.5,
+          "adr": 50.7,
+          "kast": 65.7,
+          "rating": 0.58,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399319",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 11",
+          "opponent_name": "G2 Ares",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 41,
+          "deaths": 56,
+          "kd_ratio": 0.73,
+          "adr": 57.7,
+          "kast": 68.3,
+          "rating": 0.84,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399484",
+          "date": "2026-10-19",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Banda Chuya",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 31,
+          "deaths": 41,
+          "kd_ratio": 0.76,
+          "adr": 60.9,
+          "kast": 66.7,
+          "rating": 0.84,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399487",
+          "date": "2026-10-20",
+          "event_name": "CCT 2026 Europe Series 12",
+          "opponent_name": "ex-RUSTEC",
+          "team_name": "mellren",
+          "won": false,
+          "kills": 30,
+          "deaths": 35,
+          "kd_ratio": 0.86,
+          "adr": 77.5,
+          "kast": 70.2,
+          "rating": 0.93,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399107",
+          "date": "2026-10-22",
+          "event_name": "NODWIN Clutch Series 13",
+          "opponent_name": "BET-M",
+          "team_name": "mellren",
+          "won": true,
+          "kills": 31,
+          "deaths": 29,
+          "kd_ratio": 1.07,
+          "adr": 78.1,
+          "kast": 74.4,
+          "rating": 1.19,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "mellren",
+          "from_date": "2026-10-04",
+          "through_date": "2026-10-22",
+          "series": 13,
+          "wins": 7,
+          "losses": 6,
+          "win_rate": 0.538,
+          "average_rating": 0.96,
+          "average_adr": 64.3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399487",
+        "date": "2026-10-20",
+        "event_name": "CCT 2026 Europe Series 12",
+        "opponent_name": "ex-RUSTEC",
+        "team_name": "mellren",
+        "won": false,
+        "kills": 30,
+        "deaths": 35,
+        "kd_ratio": 0.86,
+        "adr": 77.5,
+        "kast": 70.2,
+        "rating": 0.93,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 13,
+        "average_rating": 0.96,
+        "average_adr": 64.3,
+        "recent_rating": 0.99,
+        "rating_delta": 0.21
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:11:05Z",
+      "stats_source_url": "https://www.hltv.org/player/26060/maksilvl",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01",
+      "profile_fetched_at_utc": "2026-11-01T19:11:05Z"
     },
     {
       "player_id": "hltv:24813",
@@ -42812,6 +43144,103 @@
       }
     },
     {
+      "player_id": "hltv:25993",
+      "nickname": "superex",
+      "team_name": "Hacha",
+      "rating_3_0": 1.03,
+      "maps_3m": 16,
+      "signal_index": 64,
+      "traits": {
+        "closing": 79,
+        "entrying": 41,
+        "firepower": 35,
+        "opening": 20,
+        "sniping": 91,
+        "trading": 65,
+        "utility": 41
+      },
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399458",
+          "date": "2026-10-13",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Procyon",
+          "team_name": "Hacha",
+          "won": false,
+          "kills": 11,
+          "deaths": 26,
+          "kd_ratio": 0.42,
+          "adr": 49.1,
+          "kast": 50,
+          "rating": 0.57,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399669",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Martians",
+          "team_name": "Hacha",
+          "won": true,
+          "kills": 13,
+          "deaths": 9,
+          "kd_ratio": 1.44,
+          "adr": 62.5,
+          "kast": 85.7,
+          "rating": 1.48,
+          "maps": 3
+        }
+      ],
+      "hltv_player_id": "25993",
+      "source_url": "https://www.hltv.org/player/25993/superex",
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Hacha",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1.02,
+          "average_adr": 55.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399669",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "Martians",
+        "team_name": "Hacha",
+        "won": true,
+        "kills": 13,
+        "deaths": 9,
+        "kd_ratio": 1.44,
+        "adr": 62.5,
+        "kast": 85.7,
+        "rating": 1.48,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 2,
+        "average_rating": 1.02,
+        "average_adr": 55.8,
+        "recent_rating": 1.02,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:05:21Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/PEUn1GmehkqJA1-9gEgNba.png?ixlib=java-2.1.0&w=400&s=fad6126971e7994e34eb0a49bc3816fb",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:05:21Z",
+      "stats_source_url": "https://www.hltv.org/player/25993/superex",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:24660",
       "nickname": "BAGEL",
       "team_name": "EMPIRE",
@@ -44221,99 +44650,6 @@
       "signal_index_through_date": "2026-10-27"
     },
     {
-      "player_id": "hltv:25898",
-      "nickname": "thirtythird",
-      "team_name": "MAYBE",
-      "rating_3_0": 1.02,
-      "maps_3m": 49,
-      "signal_index": 62,
-      "traits": {
-        "firepower": 64,
-        "entrying": 18,
-        "trading": 39,
-        "opening": 65,
-        "clutching": 50,
-        "sniping": 92,
-        "utility": 31
-      },
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399464",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Saint Sinners",
-          "team_name": "MAYBE",
-          "won": false,
-          "kills": 49,
-          "deaths": 42,
-          "kd_ratio": 1.17,
-          "adr": 71.4,
-          "kast": 67.2,
-          "rating": 1.05,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399466",
-          "date": "2026-10-15",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Ryvex",
-          "team_name": "MAYBE",
-          "won": true,
-          "kills": 36,
-          "deaths": 17,
-          "kd_ratio": 2.12,
-          "adr": 89.6,
-          "kast": 84.6,
-          "rating": 1.5,
-          "maps": 3
-        }
-      ],
-      "hltv_player_id": "25898",
-      "source_url": "https://www.hltv.org/player/25898/thirtythird",
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "MAYBE",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.27,
-          "average_adr": 80.5
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399466",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Ryvex",
-        "team_name": "MAYBE",
-        "won": true,
-        "kills": 36,
-        "deaths": 17,
-        "kd_ratio": 2.12,
-        "adr": 89.6,
-        "kast": 84.6,
-        "rating": 1.5,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 2,
-        "average_rating": 1.27,
-        "average_adr": 80.5,
-        "recent_rating": 1.27,
-        "rating_delta": null
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.336Z",
-      "stats_source_url": "https://www.hltv.org/player/25898/thirtythird"
-    },
-    {
       "player_id": "hltv:26538",
       "nickname": "shallthing",
       "team_name": "MAYBE",
@@ -45438,6 +45774,87 @@
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/QrlhPs7aTlUfh4l-5cdiTA.png?ixlib=java-2.1.0&w=400&s=cc22da73a2f3e486f1bff7533fe0494b",
       "traits_through_date": "2026-10-31",
       "signal_index_through_date": "2026-10-31"
+    },
+    {
+      "player_id": "hltv:25925",
+      "nickname": "leo",
+      "team_name": "DAMAJUANA",
+      "rating_3_0": 1.02,
+      "maps_3m": 31,
+      "signal_index": 60,
+      "traits": {
+        "closing": 18,
+        "entrying": 63,
+        "firepower": 44,
+        "opening": 75,
+        "sniping": 0,
+        "trading": 81,
+        "utility": 47
+      },
+      "hltv_player_id": "25925",
+      "source_url": "https://www.hltv.org/player/25925/leo",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399574",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Zetta",
+          "team_name": "DAMAJUANA",
+          "won": true,
+          "kills": 37,
+          "deaths": 34,
+          "kd_ratio": 1.09,
+          "adr": 87.4,
+          "kast": 81.6,
+          "rating": 1.3,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "DAMAJUANA",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.3,
+          "average_adr": 87.4
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399574",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "Zetta",
+        "team_name": "DAMAJUANA",
+        "won": true,
+        "kills": 37,
+        "deaths": 34,
+        "kd_ratio": 1.09,
+        "adr": 87.4,
+        "kast": 81.6,
+        "rating": 1.3,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.3,
+        "average_adr": 87.4,
+        "recent_rating": 1.3,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:03:09Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:03:09Z",
+      "stats_source_url": "https://www.hltv.org/player/25925/leo",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
     },
     {
       "player_id": "hltv:25608",
@@ -47486,15 +47903,15 @@
       "team_name": "Desi Boyz",
       "rating_3_0": 1.01,
       "maps_3m": 26,
-      "signal_index": 57,
+      "signal_index": 60,
       "traits": {
-        "firepower": 23,
-        "entrying": 89,
-        "trading": 66,
-        "opening": 31,
-        "clutching": 65,
-        "sniping": 0,
-        "utility": 27
+        "closing": 47,
+        "entrying": 85,
+        "firepower": 32,
+        "opening": 38,
+        "sniping": 1,
+        "trading": 74,
+        "utility": 54
       },
       "form_timeline": [],
       "hltv_player_id": "26008",
@@ -47504,8 +47921,8 @@
       "kd_ratio_3m": null,
       "stats_from_date": null,
       "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.346Z",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:07:27Z",
       "stats_source_url": "https://www.hltv.org/player/26008/taqi",
       "form_summary": {
         "series": 0,
@@ -47513,7 +47930,10 @@
         "average_adr": null,
         "recent_rating": null,
         "rating_delta": null
-      }
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:07:27Z",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
     },
     {
       "player_id": "hltv:17392",
@@ -48830,6 +49250,45 @@
       "signal_index_through_date": "2026-10-31"
     },
     {
+      "player_id": "hltv:26043",
+      "nickname": "osku",
+      "team_name": "KUUSAMO",
+      "rating_3_0": 1.01,
+      "maps_3m": 27,
+      "signal_index": 57,
+      "traits": {
+        "closing": 74,
+        "entrying": 26,
+        "firepower": 51,
+        "opening": 14,
+        "sniping": 3,
+        "trading": 76,
+        "utility": 57
+      },
+      "hltv_player_id": "26043",
+      "source_url": "https://www.hltv.org/player/26043/osku",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": [],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:08:45Z",
+      "stats_source_url": "https://www.hltv.org/player/26043/osku",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:08:45Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/mzngcwZKUbakH88s-zlAJ4.png?ixlib=java-2.1.0&w=400&s=bede2c666992f02e87e0cd0aa19645c2",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:25208",
       "nickname": "jERK0z",
       "team_name": "SAW Youngsters",
@@ -49526,41 +49985,6 @@
       "stats_source_url": "https://www.hltv.org/player/15569/sapec",
       "traits_through_date": "2026-10-14",
       "signal_index_through_date": "2026-10-14"
-    },
-    {
-      "player_id": "hltv:26043",
-      "nickname": "osku",
-      "team_name": "KUUSAMO",
-      "rating_3_0": 1,
-      "maps_3m": 30,
-      "signal_index": 51,
-      "traits": {
-        "firepower": 36,
-        "entrying": 14,
-        "trading": 64,
-        "opening": 24,
-        "clutching": 46,
-        "sniping": 0,
-        "utility": 45
-      },
-      "hltv_player_id": "26043",
-      "source_url": "https://www.hltv.org/player/26043/osku",
-      "form_timeline": [],
-      "map_profile": [],
-      "roster_eras": [],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.329Z",
-      "stats_source_url": "https://www.hltv.org/player/26043/osku",
-      "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
-        "rating_delta": null
-      }
     },
     {
       "player_id": "hltv:21780",
@@ -50692,6 +51116,87 @@
         "recent_rating": null,
         "rating_delta": null
       }
+    },
+    {
+      "player_id": "hltv:26177",
+      "nickname": "Kingway0",
+      "team_name": "Phantom Academy",
+      "rating_3_0": 1,
+      "maps_3m": 5,
+      "signal_index": 52,
+      "traits": {
+        "closing": 33,
+        "entrying": 47,
+        "firepower": 26,
+        "opening": 50,
+        "sniping": 29,
+        "trading": 32,
+        "utility": 22
+      },
+      "form_timeline": [
+        {
+          "adr": 66.5,
+          "date": "2026-10-04",
+          "deaths": 18,
+          "event_name": "CCT 2026 Europe Series 10",
+          "kast": 66.7,
+          "kd_ratio": 0.78,
+          "kills": 14,
+          "maps": 2,
+          "match_id": "hltv:2398390",
+          "opponent_name": "MASONIC",
+          "rating": 0.89,
+          "team_name": "Phantom Academy",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "26177",
+      "source_url": "https://www.hltv.org/player/26177/kingway0",
+      "timeline_entry": {
+        "adr": 66.5,
+        "date": "2026-10-04",
+        "deaths": 18,
+        "event_name": "CCT 2026 Europe Series 10",
+        "kast": 66.7,
+        "kd_ratio": 0.78,
+        "kills": 14,
+        "maps": 2,
+        "match_id": "hltv:2398390",
+        "opponent_name": "MASONIC",
+        "rating": 0.89,
+        "team_name": "Phantom Academy",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.89,
+        "average_adr": 66.5,
+        "recent_rating": 0.89,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Phantom Academy",
+          "from_date": "2026-10-04",
+          "through_date": "2026-10-04",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.89,
+          "average_adr": 66.5
+        }
+      ],
+      "profile_fetched_at_utc": "2026-11-01T19:14:12Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:14:12Z",
+      "stats_source_url": "https://www.hltv.org/player/26177/kingway0",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
     },
     {
       "player_id": "hltv:25826",
@@ -53629,6 +54134,103 @@
       "signal_index_through_date": "2026-11-01"
     },
     {
+      "player_id": "hltv:25897",
+      "nickname": "edixenn",
+      "team_name": "MAYBE",
+      "rating_3_0": 0.99,
+      "maps_3m": 63,
+      "signal_index": 57,
+      "traits": {
+        "closing": 57,
+        "entrying": 44,
+        "firepower": 42,
+        "opening": 29,
+        "sniping": 2,
+        "trading": 74,
+        "utility": 57
+      },
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399464",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Saint Sinners",
+          "team_name": "MAYBE",
+          "won": false,
+          "kills": 43,
+          "deaths": 43,
+          "kd_ratio": 1,
+          "adr": 83.6,
+          "kast": 67.2,
+          "rating": 0.95,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399466",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Ryvex",
+          "team_name": "MAYBE",
+          "won": true,
+          "kills": 23,
+          "deaths": 22,
+          "kd_ratio": 1.05,
+          "adr": 70.5,
+          "kast": 76.9,
+          "rating": 1.05,
+          "maps": 3
+        }
+      ],
+      "hltv_player_id": "25897",
+      "source_url": "https://www.hltv.org/player/25897/edixenn",
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "MAYBE",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 1,
+          "average_adr": 77
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399466",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Ryvex",
+        "team_name": "MAYBE",
+        "won": true,
+        "kills": 23,
+        "deaths": 22,
+        "kd_ratio": 1.05,
+        "adr": 70.5,
+        "kast": 76.9,
+        "rating": 1.05,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 2,
+        "average_rating": 1,
+        "average_adr": 77,
+        "recent_rating": 1,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-11-01T18:56:39Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/jLAJBzVe1evEOS1OU-zwm2.png?ixlib=java-2.1.0&w=400&s=4d04db0a4caf41eb0a4fbf9fffc73521",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T18:56:39Z",
+      "stats_source_url": "https://www.hltv.org/player/25897/edixenn",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:24840",
       "nickname": "K014NZ",
       "team_name": "benched gods",
@@ -55217,70 +55819,6 @@
       }
     },
     {
-      "player_id": "hltv:25887",
-      "nickname": "Heroic",
-      "team_name": "Orion Wanderers",
-      "rating_3_0": 0.97,
-      "maps_3m": 1,
-      "signal_index": 47,
-      "traits": {},
-      "form_timeline": [
-        {
-          "adr": 88.3,
-          "date": "2026-10-07",
-          "deaths": 14,
-          "event_name": "Roman Imperium Cup IX",
-          "kast": 60,
-          "kd_ratio": 0.64,
-          "kills": 9,
-          "maps": 1,
-          "match_id": "hltv:2399010",
-          "opponent_name": "G2 Ares",
-          "rating": 0.97,
-          "team_name": "Orion Wanderers",
-          "won": false
-        }
-      ],
-      "hltv_player_id": "25887",
-      "source_url": "https://www.hltv.org/player/25887/heroic",
-      "timeline_entry": {
-        "adr": 88.3,
-        "date": "2026-10-07",
-        "deaths": 14,
-        "event_name": "Roman Imperium Cup IX",
-        "kast": 60,
-        "kd_ratio": 0.64,
-        "kills": 9,
-        "maps": 1,
-        "match_id": "hltv:2399010",
-        "opponent_name": "G2 Ares",
-        "rating": 0.97,
-        "team_name": "Orion Wanderers",
-        "won": false
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.97,
-        "average_adr": 88.3,
-        "recent_rating": 0.97,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Orion Wanderers",
-          "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.97,
-          "average_adr": 88.3
-        }
-      ]
-    },
-    {
       "player_id": "hltv:21216",
       "nickname": "yakuza",
       "team_name": "Azuolas",
@@ -55376,84 +55914,6 @@
       "signal_index_through_date": "2026-10-26",
       "profile_fetched_at_utc": "2026-10-26T09:23:50Z",
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/9UGEx8MgE7r6Buo7wgKTCC.png?ixlib=java-2.1.0&w=400&s=e31fda7a765d0a9a0f304357952d286c"
-    },
-    {
-      "player_id": "hltv:26124",
-      "nickname": "bexyz",
-      "team_name": "The Huns",
-      "rating_3_0": 0.97,
-      "maps_3m": 79,
-      "signal_index": 53,
-      "traits": {
-        "firepower": 41,
-        "entrying": 70,
-        "trading": 60,
-        "opening": 40,
-        "clutching": 28,
-        "sniping": 0,
-        "utility": 21
-      },
-      "form_timeline": [
-        {
-          "adr": 69.9,
-          "date": "2026-10-09",
-          "deaths": 49,
-          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-          "kast": 69.4,
-          "kd_ratio": 0.96,
-          "kills": 47,
-          "maps": 3,
-          "match_id": "hltv:2399163",
-          "opponent_name": "Alter Ego",
-          "rating": 1.03,
-          "team_name": "The Huns",
-          "won": false
-        }
-      ],
-      "hltv_player_id": "26124",
-      "source_url": "https://www.hltv.org/player/26124/bexyz",
-      "timeline_entry": {
-        "adr": 69.9,
-        "date": "2026-10-09",
-        "deaths": 49,
-        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-        "kast": 69.4,
-        "kd_ratio": 0.96,
-        "kills": 47,
-        "maps": 3,
-        "match_id": "hltv:2399163",
-        "opponent_name": "Alter Ego",
-        "rating": 1.03,
-        "team_name": "The Huns",
-        "won": false
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 1.03,
-        "average_adr": 69.9,
-        "recent_rating": 1.03,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "The Huns",
-          "from_date": "2026-10-09",
-          "through_date": "2026-10-09",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.03,
-          "average_adr": 69.9
-        }
-      ],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.346Z",
-      "stats_source_url": "https://www.hltv.org/player/26124/bexyz"
     },
     {
       "player_id": "hltv:12945",
@@ -58078,6 +58538,346 @@
       "signal_index_through_date": "2026-10-31"
     },
     {
+      "player_id": "hltv:26059",
+      "nickname": "norescue",
+      "team_name": "benched gods",
+      "rating_3_0": 0.96,
+      "maps_3m": 63,
+      "signal_index": 49,
+      "traits": {
+        "closing": 45,
+        "entrying": 55,
+        "firepower": 22,
+        "opening": 30,
+        "sniping": 2,
+        "trading": 52,
+        "utility": 13
+      },
+      "hltv_player_id": "26059",
+      "source_url": "https://www.hltv.org/player/26059/norescue",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399470",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Illyrians",
+          "team_name": "benched gods",
+          "won": true,
+          "kills": 10,
+          "deaths": 9,
+          "kd_ratio": 1.11,
+          "adr": 56.6,
+          "kast": 78.9,
+          "rating": 0.95,
+          "maps": 2
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "benched gods",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.95,
+          "average_adr": 56.6
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399470",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Illyrians",
+        "team_name": "benched gods",
+        "won": true,
+        "kills": 10,
+        "deaths": 9,
+        "kd_ratio": 1.11,
+        "adr": 56.6,
+        "kast": 78.9,
+        "rating": 0.95,
+        "maps": 2
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.95,
+        "average_adr": 56.6,
+        "recent_rating": 0.95,
+        "rating_delta": null
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:10:39Z",
+      "stats_source_url": "https://www.hltv.org/player/26059/norescue",
+      "profile_fetched_at_utc": "2026-11-01T19:10:39Z",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
+      "player_id": "hltv:25926",
+      "nickname": "Dunn",
+      "team_name": "DAMAJUANA",
+      "rating_3_0": 0.96,
+      "maps_3m": 25,
+      "signal_index": 57,
+      "traits": {
+        "closing": 83,
+        "entrying": 21,
+        "firepower": 41,
+        "opening": 22,
+        "sniping": 1,
+        "trading": 79,
+        "utility": 65
+      },
+      "hltv_player_id": "25926",
+      "source_url": "https://www.hltv.org/player/25926/dunn",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399574",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Zetta",
+          "team_name": "DAMAJUANA",
+          "won": true,
+          "kills": 28,
+          "deaths": 33,
+          "kd_ratio": 0.85,
+          "adr": 59,
+          "kast": 69.4,
+          "rating": 0.82,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "DAMAJUANA",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 0.82,
+          "average_adr": 59
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399574",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "Zetta",
+        "team_name": "DAMAJUANA",
+        "won": true,
+        "kills": 28,
+        "deaths": 33,
+        "kd_ratio": 0.85,
+        "adr": 59,
+        "kast": 69.4,
+        "rating": 0.82,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.82,
+        "average_adr": 59,
+        "recent_rating": 0.82,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:03:36Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:03:36Z",
+      "stats_source_url": "https://www.hltv.org/player/25926/dunn",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
+      "player_id": "hltv:25969",
+      "nickname": "Kaiserzy",
+      "team_name": "Sementes do Mal",
+      "rating_3_0": 0.96,
+      "maps_3m": 23,
+      "signal_index": 57,
+      "traits": {
+        "closing": 48,
+        "entrying": 41,
+        "firepower": 36,
+        "opening": 27,
+        "sniping": 36,
+        "trading": 37,
+        "utility": 90
+      },
+      "hltv_player_id": "25969",
+      "source_url": "https://www.hltv.org/player/25969/kaiserzy",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399573",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "RED Canids Academy",
+          "team_name": "Sementes do Mal",
+          "won": false,
+          "kills": 15,
+          "deaths": 25,
+          "kd_ratio": 0.6,
+          "adr": 58.4,
+          "kast": 51.6,
+          "rating": 0.71,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "A NATA",
+          "team_name": "Sementes do Mal",
+          "won": false,
+          "kills": 34,
+          "deaths": 32,
+          "kd_ratio": 1.06,
+          "adr": 85,
+          "kast": 63.8,
+          "rating": 1.02,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "A NATA",
+        "team_name": "Sementes do Mal",
+        "won": false,
+        "kills": 34,
+        "deaths": 32,
+        "kd_ratio": 1.06,
+        "adr": 85,
+        "kast": 63.8,
+        "rating": 1.02,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 2,
+        "average_rating": 0.86,
+        "average_adr": 71.7,
+        "recent_rating": 0.86,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Sementes do Mal",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-16",
+          "series": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0,
+          "average_rating": 0.86,
+          "average_adr": 71.7
+        }
+      ],
+      "profile_fetched_at_utc": "2026-11-01T19:04:55Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:04:55Z",
+      "stats_source_url": "https://www.hltv.org/player/25969/kaiserzy",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
+      "player_id": "hltv:26124",
+      "nickname": "bexyz",
+      "team_name": "The Huns",
+      "rating_3_0": 0.95,
+      "maps_3m": 74,
+      "signal_index": 53,
+      "traits": {
+        "closing": 21,
+        "entrying": 71,
+        "firepower": 38,
+        "opening": 47,
+        "sniping": 0,
+        "trading": 77,
+        "utility": 16
+      },
+      "form_timeline": [
+        {
+          "adr": 69.9,
+          "date": "2026-10-09",
+          "deaths": 49,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 69.4,
+          "kd_ratio": 0.96,
+          "kills": 47,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "Alter Ego",
+          "rating": 1.03,
+          "team_name": "The Huns",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "26124",
+      "source_url": "https://www.hltv.org/player/26124/bexyz",
+      "timeline_entry": {
+        "adr": 69.9,
+        "date": "2026-10-09",
+        "deaths": 49,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 69.4,
+        "kd_ratio": 0.96,
+        "kills": 47,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "Alter Ego",
+        "rating": 1.03,
+        "team_name": "The Huns",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.03,
+        "average_adr": 69.9,
+        "recent_rating": 1.03,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "The Huns",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.03,
+          "average_adr": 69.9
+        }
+      ],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:13:00Z",
+      "stats_source_url": "https://www.hltv.org/player/26124/bexyz",
+      "profile_fetched_at_utc": "2026-11-01T19:13:00Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/yVCD_JspmlIfJtWEUkEH2i.png?ixlib=java-2.1.0&w=400&s=e8ba67bc1a84daba3148488e66167ba2",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:25730",
       "nickname": "souv",
       "team_name": "Bushido Wildcats",
@@ -58371,84 +59171,6 @@
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/6TR8hyGxJdvGk4MYm6QNL8.png?ixlib=java-2.1.0&w=400&s=cdd21db3fb23526fb556abd1c4107616",
       "traits_through_date": "2026-10-25",
       "signal_index_through_date": "2026-10-25"
-    },
-    {
-      "player_id": "hltv:26059",
-      "nickname": "norescue",
-      "team_name": "benched gods",
-      "rating_3_0": 0.95,
-      "maps_3m": 47,
-      "signal_index": 50,
-      "traits": {
-        "firepower": 23,
-        "entrying": 66,
-        "trading": 40,
-        "opening": 11,
-        "clutching": 51,
-        "sniping": 0,
-        "utility": 37
-      },
-      "hltv_player_id": "26059",
-      "source_url": "https://www.hltv.org/player/26059/norescue",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399470",
-          "date": "2026-10-16",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Illyrians",
-          "team_name": "benched gods",
-          "won": true,
-          "kills": 10,
-          "deaths": 9,
-          "kd_ratio": 1.11,
-          "adr": 56.6,
-          "kast": 78.9,
-          "rating": 0.95,
-          "maps": 2
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "benched gods",
-          "from_date": "2026-10-16",
-          "through_date": "2026-10-16",
-          "series": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 0.95,
-          "average_adr": 56.6
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399470",
-        "date": "2026-10-16",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Illyrians",
-        "team_name": "benched gods",
-        "won": true,
-        "kills": 10,
-        "deaths": 9,
-        "kd_ratio": 1.11,
-        "adr": 56.6,
-        "kast": 78.9,
-        "rating": 0.95,
-        "maps": 2
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.95,
-        "average_adr": 56.6,
-        "recent_rating": 0.95,
-        "rating_delta": null
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.335Z",
-      "stats_source_url": "https://www.hltv.org/player/26059/norescue"
     },
     {
       "player_id": "hltv:16599",
@@ -59677,6 +60399,102 @@
       "signal_index_through_date": "2026-11-01"
     },
     {
+      "player_id": "hltv:25915",
+      "nickname": "Daniel",
+      "team_name": "Just Swing",
+      "rating_3_0": 0.95,
+      "maps_3m": 23,
+      "signal_index": 63,
+      "traits": {
+        "closing": 33,
+        "entrying": 77,
+        "firepower": 20,
+        "opening": 25,
+        "sniping": 90,
+        "trading": 79,
+        "utility": 70
+      },
+      "hltv_player_id": "25915",
+      "source_url": "https://www.hltv.org/player/25915/daniel",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399172",
+          "date": "2026-10-12",
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "opponent_name": "Lynn Vision",
+          "team_name": "Just Swing",
+          "won": false,
+          "kills": 28,
+          "deaths": 29,
+          "kd_ratio": 0.97,
+          "adr": 63.2,
+          "kast": 70.7,
+          "rating": 0.89,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399174",
+          "date": "2026-10-13",
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "opponent_name": "Alter Ego",
+          "team_name": "Just Swing",
+          "won": false,
+          "kills": 33,
+          "deaths": 57,
+          "kd_ratio": 0.58,
+          "adr": 48.3,
+          "kast": 64.5,
+          "rating": 0.67,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399174",
+        "date": "2026-10-13",
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "opponent_name": "Alter Ego",
+        "team_name": "Just Swing",
+        "won": false,
+        "kills": 33,
+        "deaths": 57,
+        "kd_ratio": 0.58,
+        "adr": 48.3,
+        "kast": 64.5,
+        "rating": 0.67,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 2,
+        "average_rating": 0.78,
+        "average_adr": 55.8,
+        "recent_rating": 0.78,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Just Swing",
+          "from_date": "2026-10-12",
+          "through_date": "2026-10-13",
+          "series": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0,
+          "average_rating": 0.78,
+          "average_adr": 55.8
+        }
+      ],
+      "profile_fetched_at_utc": "2026-11-01T18:59:19Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T18:59:19Z",
+      "stats_source_url": "https://www.hltv.org/player/25915/daniel",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:23193",
       "nickname": "VILBy",
       "team_name": "Spirit Academy",
@@ -60422,84 +61240,6 @@
           "average_adr": 65
         }
       ]
-    },
-    {
-      "player_id": "hltv:26013",
-      "nickname": "DarkMeister",
-      "team_name": "The Huns",
-      "rating_3_0": 0.94,
-      "maps_3m": 32,
-      "signal_index": 50,
-      "traits": {
-        "firepower": 41,
-        "entrying": 29,
-        "trading": 61,
-        "opening": 41,
-        "clutching": 31,
-        "sniping": 8,
-        "utility": 30
-      },
-      "hltv_player_id": "26013",
-      "source_url": "https://www.hltv.org/player/26013/darkmeister",
-      "form_timeline": [
-        {
-          "adr": 85.6,
-          "date": "2026-10-09",
-          "deaths": 54,
-          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-          "kast": 65.3,
-          "kd_ratio": 1.09,
-          "kills": 59,
-          "maps": 3,
-          "match_id": "hltv:2399163",
-          "opponent_name": "Alter Ego",
-          "rating": 1.16,
-          "team_name": "The Huns",
-          "won": false
-        }
-      ],
-      "form_summary": {
-        "series": 1,
-        "average_rating": 1.16,
-        "average_adr": 85.6,
-        "recent_rating": 1.16,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "The Huns",
-          "from_date": "2026-10-09",
-          "through_date": "2026-10-09",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 1.16,
-          "average_adr": 85.6
-        }
-      ],
-      "timeline_entry": {
-        "adr": 85.6,
-        "date": "2026-10-09",
-        "deaths": 54,
-        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-        "kast": 65.3,
-        "kd_ratio": 1.09,
-        "kills": 59,
-        "maps": 3,
-        "match_id": "hltv:2399163",
-        "opponent_name": "Alter Ego",
-        "rating": 1.16,
-        "team_name": "The Huns",
-        "won": false
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.315Z",
-      "stats_source_url": "https://www.hltv.org/player/26013/darkmeister"
     },
     {
       "player_id": "hltv:3849",
@@ -61929,6 +62669,168 @@
       "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/RbCRRAkjcCnrYifsqfVFs0.png?ixlib=java-2.1.0&w=400&s=88c420601c308f55aeadc095867df966"
     },
     {
+      "player_id": "hltv:25924",
+      "nickname": "R4N",
+      "team_name": "DAMAJUANA",
+      "rating_3_0": 0.94,
+      "maps_3m": 31,
+      "signal_index": 56,
+      "traits": {
+        "closing": 42,
+        "entrying": 39,
+        "firepower": 17,
+        "opening": 42,
+        "sniping": 88,
+        "trading": 31,
+        "utility": 58
+      },
+      "hltv_player_id": "25924",
+      "source_url": "https://www.hltv.org/player/25924/r4n",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399574",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Zetta",
+          "team_name": "DAMAJUANA",
+          "won": true,
+          "kills": 39,
+          "deaths": 30,
+          "kd_ratio": 1.3,
+          "adr": 80.8,
+          "kast": 75.5,
+          "rating": 1.13,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "DAMAJUANA",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 1,
+          "losses": 0,
+          "win_rate": 1,
+          "average_rating": 1.13,
+          "average_adr": 80.8
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399574",
+        "date": "2026-10-14",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "Zetta",
+        "team_name": "DAMAJUANA",
+        "won": true,
+        "kills": 39,
+        "deaths": 30,
+        "kd_ratio": 1.3,
+        "adr": 80.8,
+        "kast": 75.5,
+        "rating": 1.13,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.13,
+        "average_adr": 80.8,
+        "recent_rating": 1.13,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:02:44Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:02:44Z",
+      "stats_source_url": "https://www.hltv.org/player/25924/r4n",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
+      "player_id": "hltv:26033",
+      "nickname": "sav",
+      "team_name": "MARKandLARRY",
+      "rating_3_0": 0.94,
+      "maps_3m": 17,
+      "signal_index": 51,
+      "traits": {
+        "closing": 57,
+        "entrying": 39,
+        "firepower": 27,
+        "opening": 24,
+        "sniping": 4,
+        "trading": 77,
+        "utility": 18
+      },
+      "hltv_player_id": "26033",
+      "source_url": "https://www.hltv.org/player/26033/sav",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399147",
+          "date": "2026-10-14",
+          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+          "opponent_name": "Rooster",
+          "team_name": "MARKandLARRY",
+          "won": false,
+          "kills": 23,
+          "deaths": 29,
+          "kd_ratio": 0.79,
+          "adr": 75,
+          "kast": 75,
+          "rating": 0.85,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399147",
+        "date": "2026-10-14",
+        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
+        "opponent_name": "Rooster",
+        "team_name": "MARKandLARRY",
+        "won": false,
+        "kills": 23,
+        "deaths": 29,
+        "kd_ratio": 0.79,
+        "adr": 75,
+        "kast": 75,
+        "rating": 0.85,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.85,
+        "average_adr": 75,
+        "recent_rating": 0.85,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "MARKandLARRY",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-14",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.85,
+          "average_adr": 75
+        }
+      ],
+      "profile_fetched_at_utc": "2026-11-01T19:08:19Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:08:19Z",
+      "stats_source_url": "https://www.hltv.org/player/26033/sav",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:25675",
       "nickname": "kodak",
       "team_name": "NAVI Junior",
@@ -63147,6 +64049,297 @@
       "profile_fetched_at_utc": "2026-10-31T18:30:57Z"
     },
     {
+      "player_id": "hltv:25890",
+      "nickname": "oyesil",
+      "team_name": "PCIFIC",
+      "rating_3_0": 0.93,
+      "maps_3m": 93,
+      "signal_index": 56,
+      "traits": {
+        "closing": 43,
+        "entrying": 86,
+        "firepower": 29,
+        "opening": 42,
+        "sniping": 1,
+        "trading": 84,
+        "utility": 33
+      },
+      "form_timeline": [
+        {
+          "match_id": "hltv:2398395",
+          "date": "2026-10-05",
+          "event_name": "CCT 2026 Europe Series 10",
+          "opponent_name": "Black Phoenix",
+          "team_name": "PCIFIC",
+          "won": false,
+          "kills": 8,
+          "deaths": 15,
+          "kd_ratio": 0.53,
+          "adr": 51.2,
+          "kast": 47.1,
+          "rating": 0.65,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399463",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Ryvex",
+          "team_name": "PCIFIC",
+          "won": true,
+          "kills": 23,
+          "deaths": 29,
+          "kd_ratio": 0.79,
+          "adr": 60.1,
+          "kast": 69.8,
+          "rating": 0.93,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399567",
+          "date": "2026-10-14",
+          "event_name": "CIS Esports League CyberClash Season 2",
+          "opponent_name": "Rune Eaters",
+          "team_name": "PCIFIC",
+          "won": true,
+          "kills": 28,
+          "deaths": 46,
+          "kd_ratio": 0.61,
+          "adr": 52.5,
+          "kast": 70.3,
+          "rating": 0.72,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399468",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "Saint Sinners",
+          "team_name": "PCIFIC",
+          "won": true,
+          "kills": 12,
+          "deaths": 10,
+          "kd_ratio": 1.2,
+          "adr": 52.3,
+          "kast": 82.4,
+          "rating": 0.91,
+          "maps": 3
+        }
+      ],
+      "hltv_player_id": "25890",
+      "source_url": "https://www.hltv.org/player/25890/oyesil",
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "PCIFIC",
+          "from_date": "2026-10-05",
+          "through_date": "2026-10-15",
+          "series": 4,
+          "wins": 3,
+          "losses": 1,
+          "win_rate": 0.75,
+          "average_rating": 0.8,
+          "average_adr": 54
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399468",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "Saint Sinners",
+        "team_name": "PCIFIC",
+        "won": true,
+        "kills": 12,
+        "deaths": 10,
+        "kd_ratio": 1.2,
+        "adr": 52.3,
+        "kast": 82.4,
+        "rating": 0.91,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 4,
+        "average_rating": 0.8,
+        "average_adr": 54,
+        "recent_rating": 0.85,
+        "rating_delta": 0.2
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T18:55:53Z",
+      "stats_source_url": "https://www.hltv.org/player/25890/oyesil",
+      "profile_fetched_at_utc": "2026-11-01T18:55:53Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/YMaGbnmLPJCHCLvYmjftUh.png?ixlib=java-2.1.0&w=400&s=72d241282a5f924964f98e40e7edd87c",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
+      "player_id": "hltv:25923",
+      "nickname": "M1n1maL",
+      "team_name": "Privateer",
+      "rating_3_0": 0.93,
+      "maps_3m": 52,
+      "signal_index": 52,
+      "traits": {
+        "closing": 43,
+        "entrying": 69,
+        "firepower": 23,
+        "opening": 46,
+        "sniping": 1,
+        "trading": 44,
+        "utility": 35
+      },
+      "hltv_player_id": "25923",
+      "source_url": "https://www.hltv.org/player/25923/m1n1mal",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399471",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+          "opponent_name": "mellren",
+          "team_name": "Privateer",
+          "won": false,
+          "kills": 22,
+          "deaths": 31,
+          "kd_ratio": 0.71,
+          "adr": 70,
+          "kast": 65.8,
+          "rating": 0.96,
+          "maps": 3
+        }
+      ],
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Privateer",
+          "from_date": "2026-10-16",
+          "through_date": "2026-10-16",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.96,
+          "average_adr": 70
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399471",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
+        "opponent_name": "mellren",
+        "team_name": "Privateer",
+        "won": false,
+        "kills": 22,
+        "deaths": 31,
+        "kd_ratio": 0.71,
+        "adr": 70,
+        "kast": 65.8,
+        "rating": 0.96,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.96,
+        "average_adr": 70,
+        "recent_rating": 0.96,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:01:39Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/Z1TOEknsQ6A5iqJE52jpGt.png?ixlib=java-2.1.0&w=400&s=c9b0ff2d1d7729b47fee87ec1e4548a4",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:01:39Z",
+      "stats_source_url": "https://www.hltv.org/player/25923/m1n1mal",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
+      "player_id": "hltv:26013",
+      "nickname": "DarkMeister",
+      "team_name": "The Huns",
+      "rating_3_0": 0.92,
+      "maps_3m": 29,
+      "signal_index": 52,
+      "traits": {
+        "closing": 35,
+        "entrying": 22,
+        "firepower": 37,
+        "opening": 42,
+        "sniping": 31,
+        "trading": 74,
+        "utility": 25
+      },
+      "hltv_player_id": "26013",
+      "source_url": "https://www.hltv.org/player/26013/darkmeister",
+      "form_timeline": [
+        {
+          "adr": 85.6,
+          "date": "2026-10-09",
+          "deaths": 54,
+          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+          "kast": 65.3,
+          "kd_ratio": 1.09,
+          "kills": 59,
+          "maps": 3,
+          "match_id": "hltv:2399163",
+          "opponent_name": "Alter Ego",
+          "rating": 1.16,
+          "team_name": "The Huns",
+          "won": false
+        }
+      ],
+      "form_summary": {
+        "series": 1,
+        "average_rating": 1.16,
+        "average_adr": 85.6,
+        "recent_rating": 1.16,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "The Huns",
+          "from_date": "2026-10-09",
+          "through_date": "2026-10-09",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 1.16,
+          "average_adr": 85.6
+        }
+      ],
+      "timeline_entry": {
+        "adr": 85.6,
+        "date": "2026-10-09",
+        "deaths": 54,
+        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
+        "kast": 65.3,
+        "kd_ratio": 1.09,
+        "kills": 59,
+        "maps": 3,
+        "match_id": "hltv:2399163",
+        "opponent_name": "Alter Ego",
+        "rating": 1.16,
+        "team_name": "The Huns",
+        "won": false
+      },
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:07:55Z",
+      "stats_source_url": "https://www.hltv.org/player/26013/darkmeister",
+      "profile_fetched_at_utc": "2026-11-01T19:07:55Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/7w43lttA0PJGwHp6hsPuJV.png?ixlib=java-2.1.0&w=400&s=d3561656657a2ccbe62261d5f6939219",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:25676",
       "nickname": "Hrdina",
       "team_name": "BIG Academy",
@@ -63607,129 +64800,6 @@
       "stats_through_date": "2026-10-14",
       "stats_fetched_at_utc": "2026-10-14T07:31:01.332Z",
       "stats_source_url": "https://www.hltv.org/player/6593/pkl"
-    },
-    {
-      "player_id": "hltv:25890",
-      "nickname": "oyesil",
-      "team_name": "PCIFIC",
-      "rating_3_0": 0.92,
-      "maps_3m": 78,
-      "signal_index": 54,
-      "traits": {
-        "firepower": 25,
-        "entrying": 86,
-        "trading": 67,
-        "opening": 33,
-        "clutching": 41,
-        "sniping": 0,
-        "utility": 47
-      },
-      "form_timeline": [
-        {
-          "match_id": "hltv:2398395",
-          "date": "2026-10-05",
-          "event_name": "CCT 2026 Europe Series 10",
-          "opponent_name": "Black Phoenix",
-          "team_name": "PCIFIC",
-          "won": false,
-          "kills": 8,
-          "deaths": 15,
-          "kd_ratio": 0.53,
-          "adr": 51.2,
-          "kast": 47.1,
-          "rating": 0.65,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399463",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Ryvex",
-          "team_name": "PCIFIC",
-          "won": true,
-          "kills": 23,
-          "deaths": 29,
-          "kd_ratio": 0.79,
-          "adr": 60.1,
-          "kast": 69.8,
-          "rating": 0.93,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399567",
-          "date": "2026-10-14",
-          "event_name": "CIS Esports League CyberClash Season 2",
-          "opponent_name": "Rune Eaters",
-          "team_name": "PCIFIC",
-          "won": true,
-          "kills": 28,
-          "deaths": 46,
-          "kd_ratio": 0.61,
-          "adr": 52.5,
-          "kast": 70.3,
-          "rating": 0.72,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399468",
-          "date": "2026-10-15",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Saint Sinners",
-          "team_name": "PCIFIC",
-          "won": true,
-          "kills": 12,
-          "deaths": 10,
-          "kd_ratio": 1.2,
-          "adr": 52.3,
-          "kast": 82.4,
-          "rating": 0.91,
-          "maps": 3
-        }
-      ],
-      "hltv_player_id": "25890",
-      "source_url": "https://www.hltv.org/player/25890/oyesil",
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "PCIFIC",
-          "from_date": "2026-10-05",
-          "through_date": "2026-10-15",
-          "series": 4,
-          "wins": 3,
-          "losses": 1,
-          "win_rate": 0.75,
-          "average_rating": 0.8,
-          "average_adr": 54
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399468",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Saint Sinners",
-        "team_name": "PCIFIC",
-        "won": true,
-        "kills": 12,
-        "deaths": 10,
-        "kd_ratio": 1.2,
-        "adr": 52.3,
-        "kast": 82.4,
-        "rating": 0.91,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 4,
-        "average_rating": 0.8,
-        "average_adr": 54,
-        "recent_rating": 0.85,
-        "rating_delta": 0.2
-      },
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.336Z",
-      "stats_source_url": "https://www.hltv.org/player/25890/oyesil"
     },
     {
       "player_id": "hltv:20339",
@@ -65108,6 +66178,140 @@
       }
     },
     {
+      "player_id": "hltv:25928",
+      "nickname": "maik",
+      "team_name": "DAMAJUANA",
+      "rating_3_0": 0.91,
+      "maps_3m": 24,
+      "signal_index": 52,
+      "traits": {
+        "closing": 36,
+        "entrying": 62,
+        "firepower": 30,
+        "opening": 49,
+        "sniping": 6,
+        "trading": 55,
+        "utility": 43
+      },
+      "hltv_player_id": "25928",
+      "source_url": "https://www.hltv.org/player/25928/maik",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": [],
+      "profile_fetched_at_utc": "2026-11-01T19:04:01Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:04:01Z",
+      "stats_source_url": "https://www.hltv.org/player/25928/maik",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      }
+    },
+    {
+      "player_id": "hltv:26071",
+      "nickname": "badran",
+      "team_name": "A NATA",
+      "rating_3_0": 0.91,
+      "maps_3m": 10,
+      "signal_index": 55,
+      "traits": {
+        "closing": 22,
+        "entrying": 50,
+        "firepower": 52,
+        "opening": 84,
+        "sniping": 1,
+        "trading": 87,
+        "utility": 19
+      },
+      "hltv_player_id": "26071",
+      "source_url": "https://www.hltv.org/player/26071/badran",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399575",
+          "date": "2026-10-14",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "JOGA DE TERNO",
+          "team_name": "A NATA",
+          "won": false,
+          "kills": 18,
+          "deaths": 27,
+          "kd_ratio": 0.67,
+          "adr": 61.8,
+          "kast": 54.5,
+          "rating": 0.65,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399670",
+          "date": "2026-10-16",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Sementes do Mal",
+          "team_name": "A NATA",
+          "won": true,
+          "kills": 33,
+          "deaths": 28,
+          "kd_ratio": 1.18,
+          "adr": 71.3,
+          "kast": 76.6,
+          "rating": 1.02,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399670",
+        "date": "2026-10-16",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "Sementes do Mal",
+        "team_name": "A NATA",
+        "won": true,
+        "kills": 33,
+        "deaths": 28,
+        "kd_ratio": 1.18,
+        "adr": 71.3,
+        "kast": 76.6,
+        "rating": 1.02,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 2,
+        "average_rating": 0.83,
+        "average_adr": 66.5,
+        "recent_rating": 0.83,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "A NATA",
+          "from_date": "2026-10-14",
+          "through_date": "2026-10-16",
+          "series": 2,
+          "wins": 1,
+          "losses": 1,
+          "win_rate": 0.5,
+          "average_rating": 0.83,
+          "average_adr": 66.5
+        }
+      ],
+      "profile_fetched_at_utc": "2026-11-01T19:11:57Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:11:57Z",
+      "stats_source_url": "https://www.hltv.org/player/26071/badran",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:25582",
       "nickname": "Signal",
       "team_name": "FarmVille",
@@ -66332,41 +67536,6 @@
       "stats_source_url": "https://www.hltv.org/player/9816/aleksib"
     },
     {
-      "player_id": "hltv:26044",
-      "nickname": "epik",
-      "team_name": "KUUSAMO",
-      "rating_3_0": 0.89,
-      "maps_3m": 33,
-      "signal_index": 50,
-      "traits": {
-        "firepower": 14,
-        "entrying": 66,
-        "trading": 63,
-        "opening": 11,
-        "clutching": 45,
-        "sniping": 5,
-        "utility": 60
-      },
-      "hltv_player_id": "26044",
-      "source_url": "https://www.hltv.org/player/26044/epik",
-      "form_timeline": [],
-      "map_profile": [],
-      "roster_eras": [],
-      "kd_ratio_3m": null,
-      "stats_from_date": null,
-      "stats_window": "past_3_months",
-      "stats_through_date": "2026-10-13",
-      "stats_fetched_at_utc": "2026-10-14T07:31:01.329Z",
-      "stats_source_url": "https://www.hltv.org/player/26044/epik",
-      "form_summary": {
-        "series": 0,
-        "average_rating": null,
-        "average_adr": null,
-        "recent_rating": null,
-        "rating_delta": null
-      }
-    },
-    {
       "player_id": "hltv:26195",
       "nickname": "Slexa",
       "team_name": "MASONIC",
@@ -66444,70 +67613,6 @@
         "recent_rating": 0.91,
         "rating_delta": null
       }
-    },
-    {
-      "player_id": "hltv:26177",
-      "nickname": "Substitute",
-      "team_name": "Phantom Academy",
-      "rating_3_0": 0.89,
-      "maps_3m": 2,
-      "signal_index": 39,
-      "traits": {},
-      "form_timeline": [
-        {
-          "adr": 66.5,
-          "date": "2026-10-04",
-          "deaths": 18,
-          "event_name": "CCT 2026 Europe Series 10",
-          "kast": 66.7,
-          "kd_ratio": 0.78,
-          "kills": 14,
-          "maps": 2,
-          "match_id": "hltv:2398390",
-          "opponent_name": "MASONIC",
-          "rating": 0.89,
-          "team_name": "Phantom Academy",
-          "won": false
-        }
-      ],
-      "hltv_player_id": "26177",
-      "source_url": "https://www.hltv.org/player/26177/kingway0",
-      "timeline_entry": {
-        "adr": 66.5,
-        "date": "2026-10-04",
-        "deaths": 18,
-        "event_name": "CCT 2026 Europe Series 10",
-        "kast": 66.7,
-        "kd_ratio": 0.78,
-        "kills": 14,
-        "maps": 2,
-        "match_id": "hltv:2398390",
-        "opponent_name": "MASONIC",
-        "rating": 0.89,
-        "team_name": "Phantom Academy",
-        "won": false
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.89,
-        "average_adr": 66.5,
-        "recent_rating": 0.89,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Phantom Academy",
-          "from_date": "2026-10-04",
-          "through_date": "2026-10-04",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.89,
-          "average_adr": 66.5
-        }
-      ]
     },
     {
       "player_id": "hltv:22505",
@@ -66863,6 +67968,44 @@
       "stats_source_url": "https://www.hltv.org/player/25262/rivo",
       "traits_through_date": "2026-10-31",
       "signal_index_through_date": "2026-10-31"
+    },
+    {
+      "player_id": "hltv:25999",
+      "nickname": "k6rdon",
+      "team_name": "Olympus",
+      "rating_3_0": 0.89,
+      "maps_3m": 19,
+      "signal_index": 51,
+      "traits": {
+        "closing": 41,
+        "entrying": 60,
+        "firepower": 35,
+        "opening": 41,
+        "sniping": 0,
+        "trading": 76,
+        "utility": 19
+      },
+      "hltv_player_id": "25999",
+      "source_url": "https://www.hltv.org/player/25999/k6rdon",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": [],
+      "profile_fetched_at_utc": "2026-11-01T19:06:14Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:06:14Z",
+      "stats_source_url": "https://www.hltv.org/player/25999/k6rdon",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      }
     },
     {
       "player_id": "hltv:23334",
@@ -67692,6 +68835,45 @@
         "recent_rating": null,
         "rating_delta": null
       }
+    },
+    {
+      "player_id": "hltv:26044",
+      "nickname": "epik",
+      "team_name": "KUUSAMO",
+      "rating_3_0": 0.87,
+      "maps_3m": 30,
+      "signal_index": 54,
+      "traits": {
+        "closing": 59,
+        "entrying": 56,
+        "firepower": 41,
+        "opening": 18,
+        "sniping": 16,
+        "trading": 88,
+        "utility": 39
+      },
+      "hltv_player_id": "26044",
+      "source_url": "https://www.hltv.org/player/26044/epik",
+      "form_timeline": [],
+      "map_profile": [],
+      "roster_eras": [],
+      "kd_ratio_3m": null,
+      "stats_from_date": null,
+      "stats_window": "past_3_months",
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:09:10Z",
+      "stats_source_url": "https://www.hltv.org/player/26044/epik",
+      "form_summary": {
+        "series": 0,
+        "average_rating": null,
+        "average_adr": null,
+        "recent_rating": null,
+        "rating_delta": null
+      },
+      "profile_fetched_at_utc": "2026-11-01T19:09:10Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/1CDMguBbWPzssS4qxjNYMN.png?ixlib=java-2.1.0&w=400&s=dea7fa9ef35ef4ed2872ff1897ce55cc",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
     },
     {
       "player_id": "hltv:19065",
@@ -69750,6 +70932,88 @@
       }
     },
     {
+      "player_id": "hltv:26162",
+      "nickname": "KIRADODO",
+      "team_name": "Orion Wanderers",
+      "rating_3_0": 0.83,
+      "maps_3m": 9,
+      "signal_index": 48,
+      "traits": {
+        "closing": 44,
+        "entrying": 39,
+        "firepower": 22,
+        "opening": 31,
+        "sniping": 6,
+        "trading": 83,
+        "utility": 34
+      },
+      "form_timeline": [
+        {
+          "adr": 53.6,
+          "date": "2026-10-07",
+          "deaths": 12,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 53.3,
+          "kd_ratio": 0.58,
+          "kills": 7,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "G2 Ares",
+          "rating": 0.65,
+          "team_name": "Orion Wanderers",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "26162",
+      "source_url": "https://www.hltv.org/player/26162/kiradodo",
+      "timeline_entry": {
+        "adr": 53.6,
+        "date": "2026-10-07",
+        "deaths": 12,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 53.3,
+        "kd_ratio": 0.58,
+        "kills": 7,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "G2 Ares",
+        "rating": 0.65,
+        "team_name": "Orion Wanderers",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.65,
+        "average_adr": 53.6,
+        "recent_rating": 0.65,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Orion Wanderers",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.65,
+          "average_adr": 53.6
+        }
+      ],
+      "profile_fetched_at_utc": "2026-11-01T19:13:39Z",
+      "portrait_url": "https://img-cdn.hltv.org/playerbodyshot/cv2Wu2JnSCrRXkTRoJ2bOr.png?ixlib=java-2.1.0&w=400&s=f450b42d40d258d543f887d69f257cf9",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:13:39Z",
+      "stats_source_url": "https://www.hltv.org/player/26162/kiradodo",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:26722",
       "nickname": "Sanzh1k33",
       "team_name": "Olympus",
@@ -71233,6 +72497,102 @@
       "signal_index_through_date": "2026-10-29"
     },
     {
+      "player_id": "hltv:25998",
+      "nickname": "ght",
+      "team_name": "Martians",
+      "rating_3_0": 0.72,
+      "maps_3m": 12,
+      "signal_index": 43,
+      "traits": {
+        "closing": 20,
+        "entrying": 50,
+        "firepower": 5,
+        "opening": 65,
+        "sniping": 3,
+        "trading": 30,
+        "utility": 65
+      },
+      "hltv_player_id": "25998",
+      "source_url": "https://www.hltv.org/player/25998/ght",
+      "form_timeline": [
+        {
+          "match_id": "hltv:2399457",
+          "date": "2026-10-13",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "QUINTESSÊNCIA",
+          "team_name": "Martians",
+          "won": false,
+          "kills": 16,
+          "deaths": 32,
+          "kd_ratio": 0.5,
+          "adr": 54.9,
+          "kast": 63.2,
+          "rating": 0.59,
+          "maps": 3
+        },
+        {
+          "match_id": "hltv:2399669",
+          "date": "2026-10-15",
+          "event_name": "CCT 2026 South America Series 7",
+          "opponent_name": "Hacha",
+          "team_name": "Martians",
+          "won": false,
+          "kills": 14,
+          "deaths": 14,
+          "kd_ratio": 1,
+          "adr": 68.5,
+          "kast": 71.4,
+          "rating": 1.09,
+          "maps": 3
+        }
+      ],
+      "timeline_entry": {
+        "match_id": "hltv:2399669",
+        "date": "2026-10-15",
+        "event_name": "CCT 2026 South America Series 7",
+        "opponent_name": "Hacha",
+        "team_name": "Martians",
+        "won": false,
+        "kills": 14,
+        "deaths": 14,
+        "kd_ratio": 1,
+        "adr": 68.5,
+        "kast": 71.4,
+        "rating": 1.09,
+        "maps": 3
+      },
+      "form_summary": {
+        "series": 2,
+        "average_rating": 0.84,
+        "average_adr": 61.7,
+        "recent_rating": 0.84,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Martians",
+          "from_date": "2026-10-13",
+          "through_date": "2026-10-15",
+          "series": 2,
+          "wins": 0,
+          "losses": 2,
+          "win_rate": 0,
+          "average_rating": 0.84,
+          "average_adr": 61.7
+        }
+      ],
+      "profile_fetched_at_utc": "2026-11-01T19:05:48Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T19:05:48Z",
+      "stats_source_url": "https://www.hltv.org/player/25998/ght",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
+    },
+    {
       "player_id": "hltv:24576",
       "nickname": "sheezy",
       "team_name": "BIG Academy",
@@ -71426,70 +72786,6 @@
       }
     },
     {
-      "player_id": "hltv:26162",
-      "nickname": "KIRADODO",
-      "team_name": "Orion Wanderers",
-      "rating_3_0": 0.65,
-      "maps_3m": 1,
-      "signal_index": 15,
-      "traits": {},
-      "form_timeline": [
-        {
-          "adr": 53.6,
-          "date": "2026-10-07",
-          "deaths": 12,
-          "event_name": "Roman Imperium Cup IX",
-          "kast": 53.3,
-          "kd_ratio": 0.58,
-          "kills": 7,
-          "maps": 1,
-          "match_id": "hltv:2399010",
-          "opponent_name": "G2 Ares",
-          "rating": 0.65,
-          "team_name": "Orion Wanderers",
-          "won": false
-        }
-      ],
-      "hltv_player_id": "26162",
-      "source_url": "https://www.hltv.org/player/26162/kiradodo",
-      "timeline_entry": {
-        "adr": 53.6,
-        "date": "2026-10-07",
-        "deaths": 12,
-        "event_name": "Roman Imperium Cup IX",
-        "kast": 53.3,
-        "kd_ratio": 0.58,
-        "kills": 7,
-        "maps": 1,
-        "match_id": "hltv:2399010",
-        "opponent_name": "G2 Ares",
-        "rating": 0.65,
-        "team_name": "Orion Wanderers",
-        "won": false
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.65,
-        "average_adr": 53.6,
-        "recent_rating": 0.65,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Orion Wanderers",
-          "from_date": "2026-10-07",
-          "through_date": "2026-10-07",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.65,
-          "average_adr": 53.6
-        }
-      ]
-    },
-    {
       "player_id": "hltv:21265",
       "nickname": "sNx",
       "team_name": "Walczaki",
@@ -71630,6 +72926,87 @@
           "average_adr": 61.4
         }
       ]
+    },
+    {
+      "player_id": "hltv:25887",
+      "nickname": "Heroic",
+      "team_name": "Orion Wanderers",
+      "rating_3_0": 0.55,
+      "maps_3m": 5,
+      "signal_index": 39,
+      "traits": {
+        "closing": 5,
+        "entrying": 86,
+        "firepower": 11,
+        "opening": 69,
+        "sniping": 2,
+        "trading": 76,
+        "utility": 19
+      },
+      "form_timeline": [
+        {
+          "adr": 88.3,
+          "date": "2026-10-07",
+          "deaths": 14,
+          "event_name": "Roman Imperium Cup IX",
+          "kast": 60,
+          "kd_ratio": 0.64,
+          "kills": 9,
+          "maps": 1,
+          "match_id": "hltv:2399010",
+          "opponent_name": "G2 Ares",
+          "rating": 0.97,
+          "team_name": "Orion Wanderers",
+          "won": false
+        }
+      ],
+      "hltv_player_id": "25887",
+      "source_url": "https://www.hltv.org/player/25887/heroic",
+      "timeline_entry": {
+        "adr": 88.3,
+        "date": "2026-10-07",
+        "deaths": 14,
+        "event_name": "Roman Imperium Cup IX",
+        "kast": 60,
+        "kd_ratio": 0.64,
+        "kills": 9,
+        "maps": 1,
+        "match_id": "hltv:2399010",
+        "opponent_name": "G2 Ares",
+        "rating": 0.97,
+        "team_name": "Orion Wanderers",
+        "won": false
+      },
+      "form_summary": {
+        "series": 1,
+        "average_rating": 0.97,
+        "average_adr": 88.3,
+        "recent_rating": 0.97,
+        "rating_delta": null
+      },
+      "map_profile": [],
+      "roster_eras": [
+        {
+          "team_name": "Orion Wanderers",
+          "from_date": "2026-10-07",
+          "through_date": "2026-10-07",
+          "series": 1,
+          "wins": 0,
+          "losses": 1,
+          "win_rate": 0,
+          "average_rating": 0.97,
+          "average_adr": 88.3
+        }
+      ],
+      "profile_fetched_at_utc": "2026-11-01T18:55:16Z",
+      "kd_ratio_3m": null,
+      "stats_window": "past_3_months",
+      "stats_from_date": null,
+      "stats_through_date": "2026-11-01",
+      "stats_fetched_at_utc": "2026-11-01T18:55:16Z",
+      "stats_source_url": "https://www.hltv.org/player/25887/heroic",
+      "traits_through_date": "2026-11-01",
+      "signal_index_through_date": "2026-11-01"
     },
     {
       "player_id": "hltv:26810",
@@ -72155,20 +73532,6 @@
       "roster_eras": []
     },
     {
-      "player_id": "hltv:25999",
-      "nickname": "k6rdon",
-      "team_name": "Olympus",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "25999",
-      "source_url": "https://www.hltv.org/player/25999/k6rdon",
-      "form_timeline": [],
-      "map_profile": [],
-      "roster_eras": []
-    },
-    {
       "player_id": "hltv:15164",
       "nickname": "SEN1K",
       "team_name": "GBC",
@@ -72657,148 +74020,6 @@
       }
     },
     {
-      "player_id": "hltv:25926",
-      "nickname": "Dunn",
-      "team_name": "DAMAJUANA",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "25926",
-      "source_url": "https://www.hltv.org/player/25926/dunn",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399574",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "Zetta",
-          "team_name": "DAMAJUANA",
-          "won": true,
-          "kills": 28,
-          "deaths": 33,
-          "kd_ratio": 0.85,
-          "adr": 59,
-          "kast": 69.4,
-          "rating": 0.82,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "DAMAJUANA",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 0.82,
-          "average_adr": 59
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399574",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "Zetta",
-        "team_name": "DAMAJUANA",
-        "won": true,
-        "kills": 28,
-        "deaths": 33,
-        "kd_ratio": 0.85,
-        "adr": 59,
-        "kast": 69.4,
-        "rating": 0.82,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.82,
-        "average_adr": 59,
-        "recent_rating": 0.82,
-        "rating_delta": null
-      }
-    },
-    {
-      "player_id": "hltv:25924",
-      "nickname": "R4N",
-      "team_name": "DAMAJUANA",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "25924",
-      "source_url": "https://www.hltv.org/player/25924/r4n",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399574",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "Zetta",
-          "team_name": "DAMAJUANA",
-          "won": true,
-          "kills": 39,
-          "deaths": 30,
-          "kd_ratio": 1.3,
-          "adr": 80.8,
-          "kast": 75.5,
-          "rating": 1.13,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "DAMAJUANA",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.13,
-          "average_adr": 80.8
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399574",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "Zetta",
-        "team_name": "DAMAJUANA",
-        "won": true,
-        "kills": 39,
-        "deaths": 30,
-        "kd_ratio": 1.3,
-        "adr": 80.8,
-        "kast": 75.5,
-        "rating": 1.13,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 1.13,
-        "average_adr": 80.8,
-        "recent_rating": 1.13,
-        "rating_delta": null
-      }
-    },
-    {
-      "player_id": "hltv:25928",
-      "nickname": "maik",
-      "team_name": "DAMAJUANA",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "25928",
-      "source_url": "https://www.hltv.org/player/25928/maik",
-      "form_timeline": [],
-      "map_profile": [],
-      "roster_eras": []
-    },
-    {
       "player_id": "hltv:9214",
       "nickname": "spamzzy",
       "team_name": "EXODIA",
@@ -72930,149 +74151,6 @@
         "average_rating": 0.65,
         "average_adr": 57.9,
         "recent_rating": 0.65,
-        "rating_delta": null
-      }
-    },
-    {
-      "player_id": "hltv:25925",
-      "nickname": "leo",
-      "team_name": "DAMAJUANA",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "25925",
-      "source_url": "https://www.hltv.org/player/25925/leo",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399574",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "Zetta",
-          "team_name": "DAMAJUANA",
-          "won": true,
-          "kills": 37,
-          "deaths": 34,
-          "kd_ratio": 1.09,
-          "adr": 87.4,
-          "kast": 81.6,
-          "rating": 1.3,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "DAMAJUANA",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 1.3,
-          "average_adr": 87.4
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399574",
-        "date": "2026-10-14",
-        "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "Zetta",
-        "team_name": "DAMAJUANA",
-        "won": true,
-        "kills": 37,
-        "deaths": 34,
-        "kd_ratio": 1.09,
-        "adr": 87.4,
-        "kast": 81.6,
-        "rating": 1.3,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 1.3,
-        "average_adr": 87.4,
-        "recent_rating": 1.3,
-        "rating_delta": null
-      }
-    },
-    {
-      "player_id": "hltv:25897",
-      "nickname": "edixenn",
-      "team_name": "MAYBE",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399464",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Saint Sinners",
-          "team_name": "MAYBE",
-          "won": false,
-          "kills": 43,
-          "deaths": 43,
-          "kd_ratio": 1,
-          "adr": 83.6,
-          "kast": 67.2,
-          "rating": 0.95,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399466",
-          "date": "2026-10-15",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Ryvex",
-          "team_name": "MAYBE",
-          "won": true,
-          "kills": 23,
-          "deaths": 22,
-          "kd_ratio": 1.05,
-          "adr": 70.5,
-          "kast": 76.9,
-          "rating": 1.05,
-          "maps": 3
-        }
-      ],
-      "hltv_player_id": "25897",
-      "source_url": "https://www.hltv.org/player/25897/edixenn",
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "MAYBE",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1,
-          "average_adr": 77
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399466",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Ryvex",
-        "team_name": "MAYBE",
-        "won": true,
-        "kills": 23,
-        "deaths": 22,
-        "kd_ratio": 1.05,
-        "adr": 70.5,
-        "kast": 76.9,
-        "rating": 1.05,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 2,
-        "average_rating": 1,
-        "average_adr": 77,
-        "recent_rating": 1,
         "rating_delta": null
       }
     },
@@ -73418,85 +74496,6 @@
       "roster_eras": []
     },
     {
-      "player_id": "hltv:25993",
-      "nickname": "superex",
-      "team_name": "Hacha",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399458",
-          "date": "2026-10-13",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "Procyon",
-          "team_name": "Hacha",
-          "won": false,
-          "kills": 11,
-          "deaths": 26,
-          "kd_ratio": 0.42,
-          "adr": 49.1,
-          "kast": 50,
-          "rating": 0.57,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399669",
-          "date": "2026-10-15",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "Martians",
-          "team_name": "Hacha",
-          "won": true,
-          "kills": 13,
-          "deaths": 9,
-          "kd_ratio": 1.44,
-          "adr": 62.5,
-          "kast": 85.7,
-          "rating": 1.48,
-          "maps": 3
-        }
-      ],
-      "hltv_player_id": "25993",
-      "source_url": "https://www.hltv.org/player/25993/superex",
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Hacha",
-          "from_date": "2026-10-13",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 1.02,
-          "average_adr": 55.8
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399669",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "Martians",
-        "team_name": "Hacha",
-        "won": true,
-        "kills": 13,
-        "deaths": 9,
-        "kd_ratio": 1.44,
-        "adr": 62.5,
-        "kast": 85.7,
-        "rating": 1.48,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 2,
-        "average_rating": 1.02,
-        "average_adr": 55.8,
-        "recent_rating": 1.02,
-        "rating_delta": null
-      }
-    },
-    {
       "player_id": "hltv:26896",
       "nickname": "Substitute",
       "team_name": "B8 Academy",
@@ -73572,85 +74571,6 @@
           "win_rate": 0,
           "average_rating": 0.76,
           "average_adr": 54.1
-        }
-      ]
-    },
-    {
-      "player_id": "hltv:26002",
-      "nickname": "sherman",
-      "team_name": "B8 Academy",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "26002",
-      "source_url": "https://www.hltv.org/player/26002/sherman",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399461",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Enjoy",
-          "team_name": "B8 Academy",
-          "won": false,
-          "kills": 29,
-          "deaths": 40,
-          "kd_ratio": 0.72,
-          "adr": 71.8,
-          "kast": 71.2,
-          "rating": 0.91,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399465",
-          "date": "2026-10-15",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "Banda Chuya",
-          "team_name": "B8 Academy",
-          "won": false,
-          "kills": 44,
-          "deaths": 45,
-          "kd_ratio": 0.98,
-          "adr": 63.9,
-          "kast": 74.2,
-          "rating": 1.08,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399465",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "Banda Chuya",
-        "team_name": "B8 Academy",
-        "won": false,
-        "kills": 44,
-        "deaths": 45,
-        "kd_ratio": 0.98,
-        "adr": 63.9,
-        "kast": 74.2,
-        "rating": 1.08,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 2,
-        "average_rating": 1,
-        "average_adr": 67.8,
-        "recent_rating": 1,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "B8 Academy",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0,
-          "average_rating": 1,
-          "average_adr": 67.8
         }
       ]
     },
@@ -73794,70 +74714,6 @@
           "win_rate": 0,
           "average_rating": 0.76,
           "average_adr": 48.2
-        }
-      ]
-    },
-    {
-      "player_id": "hltv:26033",
-      "nickname": "sav",
-      "team_name": "MARKandLARRY",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "26033",
-      "source_url": "https://www.hltv.org/player/26033/sav",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399147",
-          "date": "2026-10-14",
-          "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
-          "opponent_name": "Rooster",
-          "team_name": "MARKandLARRY",
-          "won": false,
-          "kills": 23,
-          "deaths": 29,
-          "kd_ratio": 0.79,
-          "adr": 75,
-          "kast": 75,
-          "rating": 0.85,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399147",
-        "date": "2026-10-14",
-        "event_name": "ESL Challenger League Season 52 Oceania Cup 3",
-        "opponent_name": "Rooster",
-        "team_name": "MARKandLARRY",
-        "won": false,
-        "kills": 23,
-        "deaths": 29,
-        "kd_ratio": 0.79,
-        "adr": 75,
-        "kast": 75,
-        "rating": 0.85,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.85,
-        "average_adr": 75,
-        "recent_rating": 0.85,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "MARKandLARRY",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-14",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.85,
-          "average_adr": 75
         }
       ]
     },
@@ -74457,85 +75313,6 @@
       ]
     },
     {
-      "player_id": "hltv:25915",
-      "nickname": "Daniel",
-      "team_name": "Just Swing",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "25915",
-      "source_url": "https://www.hltv.org/player/25915/daniel",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399172",
-          "date": "2026-10-12",
-          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-          "opponent_name": "Lynn Vision",
-          "team_name": "Just Swing",
-          "won": false,
-          "kills": 28,
-          "deaths": 29,
-          "kd_ratio": 0.97,
-          "adr": 63.2,
-          "kast": 70.7,
-          "rating": 0.89,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399174",
-          "date": "2026-10-13",
-          "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-          "opponent_name": "Alter Ego",
-          "team_name": "Just Swing",
-          "won": false,
-          "kills": 33,
-          "deaths": 57,
-          "kd_ratio": 0.58,
-          "adr": 48.3,
-          "kast": 64.5,
-          "rating": 0.67,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399174",
-        "date": "2026-10-13",
-        "event_name": "ESL Challenger League Season 52 Asia-Pacific Cup 3",
-        "opponent_name": "Alter Ego",
-        "team_name": "Just Swing",
-        "won": false,
-        "kills": 33,
-        "deaths": 57,
-        "kd_ratio": 0.58,
-        "adr": 48.3,
-        "kast": 64.5,
-        "rating": 0.67,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 2,
-        "average_rating": 0.78,
-        "average_adr": 55.8,
-        "recent_rating": 0.78,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Just Swing",
-          "from_date": "2026-10-12",
-          "through_date": "2026-10-13",
-          "series": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0,
-          "average_rating": 0.78,
-          "average_adr": 55.8
-        }
-      ]
-    },
-    {
       "player_id": "hltv:6536",
       "nickname": "Lcs",
       "team_name": "your end",
@@ -74870,20 +75647,6 @@
       }
     },
     {
-      "player_id": "hltv:25939",
-      "nickname": "extazzy",
-      "team_name": "realgotis22",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "25939",
-      "source_url": "https://www.hltv.org/player/25939/extazzy",
-      "form_timeline": [],
-      "map_profile": [],
-      "roster_eras": []
-    },
-    {
       "player_id": "hltv:25808",
       "nickname": "ianzin",
       "team_name": "realgotis22",
@@ -74989,85 +75752,6 @@
           "win_rate": 0,
           "average_rating": 0.92,
           "average_adr": 60.6
-        }
-      ]
-    },
-    {
-      "player_id": "hltv:25969",
-      "nickname": "Kaiserzy",
-      "team_name": "Sementes do Mal",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "25969",
-      "source_url": "https://www.hltv.org/player/25969/kaiserzy",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399573",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "RED Canids Academy",
-          "team_name": "Sementes do Mal",
-          "won": false,
-          "kills": 15,
-          "deaths": 25,
-          "kd_ratio": 0.6,
-          "adr": 58.4,
-          "kast": 51.6,
-          "rating": 0.71,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399670",
-          "date": "2026-10-16",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "A NATA",
-          "team_name": "Sementes do Mal",
-          "won": false,
-          "kills": 34,
-          "deaths": 32,
-          "kd_ratio": 1.06,
-          "adr": 85,
-          "kast": 63.8,
-          "rating": 1.02,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399670",
-        "date": "2026-10-16",
-        "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "A NATA",
-        "team_name": "Sementes do Mal",
-        "won": false,
-        "kills": 34,
-        "deaths": 32,
-        "kd_ratio": 1.06,
-        "adr": 85,
-        "kast": 63.8,
-        "rating": 1.02,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 2,
-        "average_rating": 0.86,
-        "average_adr": 71.7,
-        "recent_rating": 0.86,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Sementes do Mal",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0,
-          "average_rating": 0.86,
-          "average_adr": 71.7
         }
       ]
     },
@@ -75587,85 +76271,6 @@
       "signal_index_through_date": null
     },
     {
-      "player_id": "hltv:25998",
-      "nickname": "ght",
-      "team_name": "Martians",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "25998",
-      "source_url": "https://www.hltv.org/player/25998/ght",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399457",
-          "date": "2026-10-13",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "QUINTESSÊNCIA",
-          "team_name": "Martians",
-          "won": false,
-          "kills": 16,
-          "deaths": 32,
-          "kd_ratio": 0.5,
-          "adr": 54.9,
-          "kast": 63.2,
-          "rating": 0.59,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399669",
-          "date": "2026-10-15",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "Hacha",
-          "team_name": "Martians",
-          "won": false,
-          "kills": 14,
-          "deaths": 14,
-          "kd_ratio": 1,
-          "adr": 68.5,
-          "kast": 71.4,
-          "rating": 1.09,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399669",
-        "date": "2026-10-15",
-        "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "Hacha",
-        "team_name": "Martians",
-        "won": false,
-        "kills": 14,
-        "deaths": 14,
-        "kd_ratio": 1,
-        "adr": 68.5,
-        "kast": 71.4,
-        "rating": 1.09,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 2,
-        "average_rating": 0.84,
-        "average_adr": 61.7,
-        "recent_rating": 0.84,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Martians",
-          "from_date": "2026-10-13",
-          "through_date": "2026-10-15",
-          "series": 2,
-          "wins": 0,
-          "losses": 2,
-          "win_rate": 0,
-          "average_rating": 0.84,
-          "average_adr": 61.7
-        }
-      ]
-    },
-    {
       "player_id": "hltv:26891",
       "nickname": "fhz",
       "team_name": "Martians",
@@ -75884,85 +76489,6 @@
           "win_rate": 0,
           "average_rating": 0.96,
           "average_adr": 75.7
-        }
-      ]
-    },
-    {
-      "player_id": "hltv:26071",
-      "nickname": "badran",
-      "team_name": "A NATA",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "26071",
-      "source_url": "https://www.hltv.org/player/26071/badran",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399575",
-          "date": "2026-10-14",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "JOGA DE TERNO",
-          "team_name": "A NATA",
-          "won": false,
-          "kills": 18,
-          "deaths": 27,
-          "kd_ratio": 0.67,
-          "adr": 61.8,
-          "kast": 54.5,
-          "rating": 0.65,
-          "maps": 3
-        },
-        {
-          "match_id": "hltv:2399670",
-          "date": "2026-10-16",
-          "event_name": "CCT 2026 South America Series 7",
-          "opponent_name": "Sementes do Mal",
-          "team_name": "A NATA",
-          "won": true,
-          "kills": 33,
-          "deaths": 28,
-          "kd_ratio": 1.18,
-          "adr": 71.3,
-          "kast": 76.6,
-          "rating": 1.02,
-          "maps": 3
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399670",
-        "date": "2026-10-16",
-        "event_name": "CCT 2026 South America Series 7",
-        "opponent_name": "Sementes do Mal",
-        "team_name": "A NATA",
-        "won": true,
-        "kills": 33,
-        "deaths": 28,
-        "kd_ratio": 1.18,
-        "adr": 71.3,
-        "kast": 76.6,
-        "rating": 1.02,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 2,
-        "average_rating": 0.83,
-        "average_adr": 66.5,
-        "recent_rating": 0.83,
-        "rating_delta": null
-      },
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "A NATA",
-          "from_date": "2026-10-14",
-          "through_date": "2026-10-16",
-          "series": 2,
-          "wins": 1,
-          "losses": 1,
-          "win_rate": 0.5,
-          "average_rating": 0.83,
-          "average_adr": 66.5
         }
       ]
     },
@@ -76586,70 +77112,6 @@
           "average_adr": 57.6
         }
       ]
-    },
-    {
-      "player_id": "hltv:25923",
-      "nickname": "M1n1maL",
-      "team_name": "Privateer",
-      "rating_3_0": null,
-      "maps_3m": 0,
-      "signal_index": 50,
-      "traits": {},
-      "hltv_player_id": "25923",
-      "source_url": "https://www.hltv.org/player/25923/m1n1mal",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399471",
-          "date": "2026-10-16",
-          "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-          "opponent_name": "mellren",
-          "team_name": "Privateer",
-          "won": false,
-          "kills": 22,
-          "deaths": 31,
-          "kd_ratio": 0.71,
-          "adr": 70,
-          "kast": 65.8,
-          "rating": 0.96,
-          "maps": 3
-        }
-      ],
-      "map_profile": [],
-      "roster_eras": [
-        {
-          "team_name": "Privateer",
-          "from_date": "2026-10-16",
-          "through_date": "2026-10-16",
-          "series": 1,
-          "wins": 0,
-          "losses": 1,
-          "win_rate": 0,
-          "average_rating": 0.96,
-          "average_adr": 70
-        }
-      ],
-      "timeline_entry": {
-        "match_id": "hltv:2399471",
-        "date": "2026-10-16",
-        "event_name": "CCT 2026 Europe Series 12 Closed Qualifier",
-        "opponent_name": "mellren",
-        "team_name": "Privateer",
-        "won": false,
-        "kills": 22,
-        "deaths": 31,
-        "kd_ratio": 0.71,
-        "adr": 70,
-        "kast": 65.8,
-        "rating": 0.96,
-        "maps": 3
-      },
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.96,
-        "average_adr": 70,
-        "recent_rating": 0.96,
-        "rating_delta": null
-      }
     },
     {
       "player_id": "hltv:26878",
@@ -77785,78 +78247,6 @@
       "signal_index": null
     },
     {
-      "player_id": "hltv:26180",
-      "nickname": "tronic",
-      "team_name": "Nuclear TigeRES",
-      "hltv_player_id": "26180",
-      "source_url": "https://www.hltv.org/player/26180/tronic",
-      "form_timeline": [
-        {
-          "match_id": "hltv:2399332",
-          "date": "2026-10-23",
-          "event_name": "CCT 2026 Europe Series 11",
-          "opponent_name": "Illyrians",
-          "team_name": "Nuclear TigeRES",
-          "won": true,
-          "kills": 14,
-          "deaths": 15,
-          "kd_ratio": 0.93,
-          "adr": 71.1,
-          "kast": 87.5,
-          "rating": 0.96,
-          "maps": 3
-        }
-      ],
-      "traits": {},
-      "form_summary": {
-        "series": 1,
-        "average_rating": 0.96,
-        "average_adr": 71.1,
-        "recent_rating": 0.96,
-        "rating_delta": null
-      },
-      "roster_eras": [
-        {
-          "team_name": "Nuclear TigeRES",
-          "from_date": "2026-10-23",
-          "through_date": "2026-10-23",
-          "series": 1,
-          "wins": 1,
-          "losses": 0,
-          "win_rate": 1,
-          "average_rating": 0.96,
-          "average_adr": 71.1
-        }
-      ],
-      "map_profile": [],
-      "rating_3_0": null,
-      "maps_3m": null,
-      "kd_ratio_3m": null,
-      "stats_window": null,
-      "stats_from_date": null,
-      "stats_through_date": null,
-      "stats_fetched_at_utc": null,
-      "stats_source_url": null,
-      "signal_index": null,
-      "timeline_entry": {
-        "match_id": "hltv:2399332",
-        "date": "2026-10-23",
-        "event_name": "CCT 2026 Europe Series 11",
-        "opponent_name": "Illyrians",
-        "team_name": "Nuclear TigeRES",
-        "won": true,
-        "kills": 14,
-        "deaths": 15,
-        "kd_ratio": 0.93,
-        "adr": 71.1,
-        "kast": 87.5,
-        "rating": 0.96,
-        "maps": 3
-      },
-      "traits_through_date": null,
-      "signal_index_through_date": null
-    },
-    {
       "player_id": "hltv:8488",
       "nickname": "ZEDKO",
       "team_name": "BRUTE",
@@ -78184,19 +78574,19 @@
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-11-01T15:27:06Z",
+    "checked_at_utc": "2026-11-01T19:54:23Z",
     "requested": 874,
-    "cached": 611,
-    "attempted": 736,
-    "succeeded": 611,
-    "failed": 37,
-    "portraits": 513,
-    "stats": 609,
+    "cached": 645,
+    "attempted": 771,
+    "succeeded": 645,
+    "failed": 38,
+    "portraits": 528,
+    "stats": 643,
     "received": 874,
     "invalid": 0,
     "stale_stats": 0,
-    "profile_updates": 617,
-    "stats_updates": 609,
-    "traits_updates": 609
+    "profile_updates": 651,
+    "stats_updates": 643,
+    "traits_updates": 643
   }
 }
