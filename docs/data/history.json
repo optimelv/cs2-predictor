@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4309,
+    "matches": 4311,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -468,6 +468,50 @@
           "starts_at": "2026-10-31T18:00:00Z"
         }
       ]
+    },
+    {
+      "match_id": "liquipedia:aa1f3b9061193f545f91",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T19:45:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Playoffs",
+      "team1_name": "BESTIA",
+      "team2_name": "Procyon",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "BESTIA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:c805cce45c3140eddbe2",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T22:15:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Playoffs",
+      "team1_name": "NRG",
+      "team2_name": "Wildcard",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "Wildcard",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Playoffs"
     },
     {
       "match_id": "liquipedia:6fd21f70c77008f5b010",
