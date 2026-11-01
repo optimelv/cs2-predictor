@@ -1,18 +1,62 @@
 {
   "contract_version": "1.0",
   "generated_at_utc": "2026-11-01T05:20:39Z",
-  "through_date": "2026-10-31",
+  "through_date": "2026-11-01",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4311,
+    "matches": 4313,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "liquipedia:a6a4143ee10405cd25b8",
+      "match_date": "2026-11-01",
+      "starts_at": "2026-11-01T03:00:00Z",
+      "event_name": "DFRAG Invitational 2026 - Playoffs",
+      "team1_name": "AE",
+      "team2_name": "FLY",
+      "score1": 0,
+      "score2": 3,
+      "winner_name": "FLY",
+      "tier": "tier_2",
+      "best_of": 5,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/DFRAG/Invitational/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:8c3f4b81ab92b9283d84",
+      "match_date": "2026-11-01",
+      "starts_at": "2026-11-01T09:00:00Z",
+      "event_name": "Moscow Cyber Games 2026",
+      "team1_name": "5star",
+      "team2_name": "The Huns",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "The Huns",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Moscow_Cyber_Games/2026#Results"
+    },
     {
       "match_id": "liquipedia:5667732254c0f06559d6",
       "match_date": "2026-10-31",
