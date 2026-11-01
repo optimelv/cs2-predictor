@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4302,
+    "matches": 4307,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -298,6 +298,116 @@
       },
       "source": "Liquipedia MediaWiki API",
       "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Group_D"
+    },
+    {
+      "match_id": "liquipedia:c61a775f52bdf9aa6d71",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T11:00:00Z",
+      "event_name": "PGL Masters Bucharest 2026 - Playoffs",
+      "team1_name": "FURIA",
+      "team2_name": "Nemiga",
+      "score1": 3,
+      "score2": 2,
+      "winner_name": "FURIA",
+      "tier": "tier_1",
+      "best_of": 5,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/PGL/2026/Masters#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:05abb425f36f0248ed1f",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T15:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "BAKS",
+      "team2_name": "FOKUS",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "FOKUS",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:ce82dbcf43b47c176c6d",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T18:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "Acend",
+      "team2_name": "Butterfly",
+      "score1": 2,
+      "score2": 1,
+      "winner_name": "Acend",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:aa57d877941e2ac54a46",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T20:10:00Z",
+      "event_name": "Gamers Club Masters VII - Playoffs",
+      "team1_name": "DENDELE",
+      "team2_name": "naocop",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "DENDELE",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Gamers_Club/Masters/VII#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:508cde895ba03d609a43",
+      "match_date": "2026-10-31",
+      "starts_at": "2026-10-31T22:30:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "Isurus",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "100T",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Playoffs"
     },
     {
       "match_id": "liquipedia:6fd21f70c77008f5b010",
