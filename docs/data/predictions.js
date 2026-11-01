@@ -3,416 +3,6 @@ window.__STRIKESIGNAL_DATA__ = {
     "contract_version": "1.0",
     "daily_matches": [
       {
-        "detail_fetched_at_utc": "2026-10-09T12:06:31Z",
-        "event_id": "hltv:roman-imperium-cup-ix",
-        "event_name": "Roman Imperium Cup IX",
-        "event_url": "https://www.hltv.org/events/archive",
-        "hltv_match_id": "2399047",
-        "lineups": {
-          "team1": [
-            {
-              "hltv_player_id": "16563",
-              "nickname": "Psycho",
-              "player_id": "hltv:16563",
-              "source_url": "https://www.hltv.org/player/16563/psycho",
-              "team_name": "WBT",
-              "timeline_entry": {
-                "adr": 58.9,
-                "date": "2026-10-09",
-                "deaths": 25,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 63.4,
-                "kd_ratio": 0.96,
-                "kills": 24,
-                "maps": 3,
-                "match_id": "hltv:2399047",
-                "opponent_name": "INFINITE",
-                "rating": 0.9,
-                "team_name": "WBT",
-                "won": true
-              }
-            },
-            {
-              "hltv_player_id": "18240",
-              "nickname": "Smash",
-              "player_id": "hltv:18240",
-              "source_url": "https://www.hltv.org/player/18240/smash",
-              "team_name": "WBT",
-              "timeline_entry": {
-                "adr": 84.4,
-                "date": "2026-10-09",
-                "deaths": 22,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 75.6,
-                "kd_ratio": 1.41,
-                "kills": 31,
-                "maps": 3,
-                "match_id": "hltv:2399047",
-                "opponent_name": "INFINITE",
-                "rating": 1.44,
-                "team_name": "WBT",
-                "won": true
-              }
-            },
-            {
-              "hltv_player_id": "19614",
-              "nickname": "s4ltovsk1yy",
-              "player_id": "hltv:19614",
-              "source_url": "https://www.hltv.org/player/19614/s4ltovsk1yy",
-              "team_name": "WBT",
-              "timeline_entry": {
-                "adr": 62.5,
-                "date": "2026-10-09",
-                "deaths": 21,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 75.6,
-                "kd_ratio": 1.1,
-                "kills": 23,
-                "maps": 3,
-                "match_id": "hltv:2399047",
-                "opponent_name": "INFINITE",
-                "rating": 1.08,
-                "team_name": "WBT",
-                "won": true
-              }
-            },
-            {
-              "hltv_player_id": "19733",
-              "nickname": "DemQQ",
-              "player_id": "hltv:19733",
-              "source_url": "https://www.hltv.org/player/19733/demqq",
-              "team_name": "WBT",
-              "timeline_entry": {
-                "adr": 80.3,
-                "date": "2026-10-09",
-                "deaths": 26,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 75.6,
-                "kd_ratio": 1.38,
-                "kills": 36,
-                "maps": 3,
-                "match_id": "hltv:2399047",
-                "opponent_name": "INFINITE",
-                "rating": 1.47,
-                "team_name": "WBT",
-                "won": true
-              }
-            },
-            {
-              "hltv_player_id": "25588",
-              "nickname": "tyr1k",
-              "player_id": "hltv:25588",
-              "source_url": "https://www.hltv.org/player/25588/tyr1k",
-              "team_name": "WBT",
-              "timeline_entry": {
-                "adr": 90.4,
-                "date": "2026-10-09",
-                "deaths": 27,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 65.9,
-                "kd_ratio": 1,
-                "kills": 27,
-                "maps": 3,
-                "match_id": "hltv:2399047",
-                "opponent_name": "INFINITE",
-                "rating": 1.11,
-                "team_name": "WBT",
-                "won": true
-              }
-            }
-          ],
-          "team2": [
-            {
-              "hltv_player_id": "20170",
-              "nickname": "kyuubii",
-              "player_id": "hltv:20170",
-              "source_url": "https://www.hltv.org/player/20170/kyuubii",
-              "team_name": "INFINITE",
-              "timeline_entry": {
-                "adr": 58.9,
-                "date": "2026-10-09",
-                "deaths": 29,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 65.9,
-                "kd_ratio": 0.69,
-                "kills": 20,
-                "maps": 3,
-                "match_id": "hltv:2399047",
-                "opponent_name": "WBT",
-                "rating": 0.74,
-                "team_name": "INFINITE",
-                "won": false
-              }
-            },
-            {
-              "hltv_player_id": "20358",
-              "nickname": "volt",
-              "player_id": "hltv:20358",
-              "source_url": "https://www.hltv.org/player/20358/volt",
-              "team_name": "INFINITE",
-              "timeline_entry": {
-                "adr": 67.4,
-                "date": "2026-10-09",
-                "deaths": 27,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 63.4,
-                "kd_ratio": 0.89,
-                "kills": 24,
-                "maps": 3,
-                "match_id": "hltv:2399047",
-                "opponent_name": "WBT",
-                "rating": 0.9,
-                "team_name": "INFINITE",
-                "won": false
-              }
-            },
-            {
-              "hltv_player_id": "12945",
-              "nickname": "Blytz",
-              "player_id": "hltv:12945",
-              "source_url": "https://www.hltv.org/player/12945/blytz",
-              "team_name": "INFINITE",
-              "timeline_entry": {
-                "adr": 56.1,
-                "date": "2026-10-09",
-                "deaths": 27,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 68.3,
-                "kd_ratio": 0.85,
-                "kills": 23,
-                "maps": 3,
-                "match_id": "hltv:2399047",
-                "opponent_name": "WBT",
-                "rating": 0.85,
-                "team_name": "INFINITE",
-                "won": false
-              }
-            },
-            {
-              "hltv_player_id": "20870",
-              "nickname": "sl3nd",
-              "player_id": "hltv:20870",
-              "source_url": "https://www.hltv.org/player/20870/sl3nd",
-              "team_name": "INFINITE",
-              "timeline_entry": {
-                "adr": 86.2,
-                "date": "2026-10-09",
-                "deaths": 28,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 70.7,
-                "kd_ratio": 1.04,
-                "kills": 29,
-                "maps": 3,
-                "match_id": "hltv:2399047",
-                "opponent_name": "WBT",
-                "rating": 1.06,
-                "team_name": "INFINITE",
-                "won": false
-              }
-            },
-            {
-              "hltv_player_id": "9911",
-              "nickname": "kreaz",
-              "player_id": "hltv:9911",
-              "source_url": "https://www.hltv.org/player/9911/kreaz",
-              "team_name": "INFINITE",
-              "timeline_entry": {
-                "adr": 65.1,
-                "date": "2026-10-09",
-                "deaths": 32,
-                "event_name": "Roman Imperium Cup IX",
-                "kast": 73.2,
-                "kd_ratio": 0.78,
-                "kills": 25,
-                "maps": 3,
-                "match_id": "hltv:2399047",
-                "opponent_name": "WBT",
-                "rating": 0.77,
-                "team_name": "INFINITE",
-                "won": false
-              }
-            }
-          ]
-        },
-        "map_results": [
-          {
-            "map_name": "Dust2",
-            "score1": 13,
-            "score2": 9,
-            "status": "finished"
-          },
-          {
-            "map_name": "Ancient",
-            "score1": 13,
-            "score2": 6,
-            "status": "finished"
-          },
-          {
-            "map_name": "Mirage",
-            "score1": null,
-            "score2": null,
-            "status": "upcoming"
-          }
-        ],
-        "maps": [
-          "Dust2",
-          "Ancient",
-          "Mirage"
-        ],
-        "match_id": "hltv:2399047",
-        "player_stats": [
-          {
-            "adr": 80.3,
-            "deaths": 26,
-            "hltv_player_id": "19733",
-            "kast": 75.6,
-            "kills": 36,
-            "nickname": "DemQQ",
-            "player_id": "hltv:19733",
-            "rating": 1.47,
-            "source_url": "https://www.hltv.org/player/19733/demqq",
-            "team_side": 1
-          },
-          {
-            "adr": 84.4,
-            "deaths": 22,
-            "hltv_player_id": "18240",
-            "kast": 75.6,
-            "kills": 31,
-            "nickname": "Smash",
-            "player_id": "hltv:18240",
-            "rating": 1.44,
-            "source_url": "https://www.hltv.org/player/18240/smash",
-            "team_side": 1
-          },
-          {
-            "adr": 90.4,
-            "deaths": 27,
-            "hltv_player_id": "25588",
-            "kast": 65.9,
-            "kills": 27,
-            "nickname": "tyr1k",
-            "player_id": "hltv:25588",
-            "rating": 1.11,
-            "source_url": "https://www.hltv.org/player/25588/tyr1k",
-            "team_side": 1
-          },
-          {
-            "adr": 62.5,
-            "deaths": 21,
-            "hltv_player_id": "19614",
-            "kast": 75.6,
-            "kills": 23,
-            "nickname": "s4ltovsk1yy",
-            "player_id": "hltv:19614",
-            "rating": 1.08,
-            "source_url": "https://www.hltv.org/player/19614/s4ltovsk1yy",
-            "team_side": 1
-          },
-          {
-            "adr": 58.9,
-            "deaths": 25,
-            "hltv_player_id": "16563",
-            "kast": 63.4,
-            "kills": 24,
-            "nickname": "Psycho",
-            "player_id": "hltv:16563",
-            "rating": 0.9,
-            "source_url": "https://www.hltv.org/player/16563/psycho",
-            "team_side": 1
-          },
-          {
-            "adr": 86.2,
-            "deaths": 28,
-            "hltv_player_id": "20870",
-            "kast": 70.7,
-            "kills": 29,
-            "nickname": "sl3nd",
-            "player_id": "hltv:20870",
-            "rating": 1.06,
-            "source_url": "https://www.hltv.org/player/20870/sl3nd",
-            "team_side": 2
-          },
-          {
-            "adr": 67.4,
-            "deaths": 27,
-            "hltv_player_id": "20358",
-            "kast": 63.4,
-            "kills": 24,
-            "nickname": "volt",
-            "player_id": "hltv:20358",
-            "rating": 0.9,
-            "source_url": "https://www.hltv.org/player/20358/volt",
-            "team_side": 2
-          },
-          {
-            "adr": 56.1,
-            "deaths": 27,
-            "hltv_player_id": "12945",
-            "kast": 68.3,
-            "kills": 23,
-            "nickname": "Blytz",
-            "player_id": "hltv:12945",
-            "rating": 0.85,
-            "source_url": "https://www.hltv.org/player/12945/blytz",
-            "team_side": 2
-          },
-          {
-            "adr": 65.1,
-            "deaths": 32,
-            "hltv_player_id": "9911",
-            "kast": 73.2,
-            "kills": 25,
-            "nickname": "kreaz",
-            "player_id": "hltv:9911",
-            "rating": 0.77,
-            "source_url": "https://www.hltv.org/player/9911/kreaz",
-            "team_side": 2
-          },
-          {
-            "adr": 58.9,
-            "deaths": 29,
-            "hltv_player_id": "20170",
-            "kast": 65.9,
-            "kills": 20,
-            "nickname": "kyuubii",
-            "player_id": "hltv:20170",
-            "rating": 0.74,
-            "source_url": "https://www.hltv.org/player/20170/kyuubii",
-            "team_side": 2
-          }
-        ],
-        "product_tier": "tier_2",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399047/wbt-vs-infinite-roman-imperium-cup-ix",
-        "stage_name": "Playoffs",
-        "starts_at": "2026-10-09T11:54:07Z",
-        "status": "finished",
-        "team1_name": "WBT",
-        "team2_name": "INFINITE",
-        "veto_text": "Best of 3 (LAN)\n\n* Lower bracket round 1",
-        "winner_name": "WBT"
-      },
-      {
-        "event_id": "hltv:roman-imperium-cup-ix",
-        "event_name": "Roman Imperium Cup IX",
-        "hltv_match_id": "2399048",
-        "match_id": "hltv:2399048",
-        "product_tier": "tier_2",
-        "score1": 0,
-        "score2": 2,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399048/pure-vs-faze-roman-imperium-cup-ix",
-        "stage_name": "Playoffs",
-        "starts_at": "2026-10-09T15:35:00Z",
-        "status": "finished",
-        "team1_name": "PURE",
-        "team2_name": "FaZe",
-        "winner_name": "FaZe"
-      },
-      {
         "event_id": "hltv:cct-2026-europe-series-10",
         "event_name": "CCT 2026 Europe Series 10",
         "hltv_match_id": "2398409",
@@ -29068,23 +28658,6 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "9INE"
       },
       {
-        "event_id": "hltv:pgl-masters-bucharest-2026",
-        "event_name": "PGL Masters Bucharest 2026",
-        "hltv_match_id": "2399756",
-        "match_id": "hltv:2399756",
-        "product_tier": "tier_1",
-        "score1": 2,
-        "score2": 0,
-        "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399756/nemiga-vs-vitality-pgl-masters-bucharest-2026",
-        "stage_name": "Semifinal",
-        "starts_at": "2026-10-30T12:00:00Z",
-        "status": "finished",
-        "team1_name": "Nemiga",
-        "team2_name": "Vitality",
-        "winner_name": "Nemiga"
-      },
-      {
         "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
         "hltv_match_id": "2399522",
@@ -29121,19 +28694,19 @@ window.__STRIKESIGNAL_DATA__ = {
       {
         "event_id": "hltv:pgl-masters-bucharest-2026",
         "event_name": "PGL Masters Bucharest 2026",
-        "hltv_match_id": "2399757",
-        "match_id": "hltv:2399757",
+        "hltv_match_id": "2399756",
+        "match_id": "hltv:2399756",
         "product_tier": "tier_1",
-        "score1": 1,
-        "score2": 2,
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
-        "source_url": "https://www.hltv.org/matches/2399757/mouz-vs-furia-pgl-masters-bucharest-2026",
+        "source_url": "https://www.hltv.org/matches/2399756/nemiga-vs-vitality-pgl-masters-bucharest-2026",
         "stage_name": "Semifinal",
-        "starts_at": "2026-10-30T15:00:00Z",
+        "starts_at": "2026-10-30T13:58:18Z",
         "status": "finished",
-        "team1_name": "MOUZ",
-        "team2_name": "FURIA",
-        "winner_name": "FURIA"
+        "team1_name": "Nemiga",
+        "team2_name": "Vitality",
+        "winner_name": "Nemiga"
       },
       {
         "event_id": "hltv:cct-2026-europe-series-12",
@@ -29153,6 +28726,23 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Betclic"
       },
       {
+        "event_id": "hltv:pgl-masters-bucharest-2026",
+        "event_name": "PGL Masters Bucharest 2026",
+        "hltv_match_id": "2399757",
+        "match_id": "hltv:2399757",
+        "product_tier": "tier_1",
+        "score1": 1,
+        "score2": 2,
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399757/mouz-vs-furia-pgl-masters-bucharest-2026",
+        "stage_name": "Semifinal",
+        "starts_at": "2026-10-30T17:52:12Z",
+        "status": "finished",
+        "team1_name": "MOUZ",
+        "team2_name": "FURIA",
+        "winner_name": "FURIA"
+      },
+      {
         "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
         "hltv_match_id": "2399525",
@@ -29170,88 +28760,374 @@ window.__STRIKESIGNAL_DATA__ = {
         "winner_name": "Phantom"
       },
       {
-        "event_id": "hltv:8050",
+        "event_id": "hltv:pgl-masters-bucharest-2026",
         "event_name": "PGL Masters Bucharest 2026",
         "hltv_match_id": "2399758",
         "match_id": "hltv:2399758",
         "product_tier": "tier_1",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399758/vitality-vs-mouz-pgl-masters-bucharest-2026",
         "stage_name": "Scheduled series",
         "starts_at": "2026-10-31T08:00:00Z",
-        "status": "upcoming",
+        "status": "finished",
         "team1_name": "Vitality",
-        "team2_name": "MOUZ"
+        "team2_name": "MOUZ",
+        "winner_name": "MOUZ"
       },
       {
-        "event_id": "hltv:9457",
+        "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
         "hltv_match_id": "2399526",
         "match_id": "hltv:2399526",
         "product_tier": "tier_2",
+        "score1": 0,
+        "score2": 2,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399526/spirit-academy-vs-phantom-cct-2026-europe-series-12",
         "stage_name": "Quarterfinal",
-        "starts_at": "2026-10-31T09:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-10-31T10:40:18Z",
+        "status": "finished",
         "team1_name": "Spirit Academy",
-        "team2_name": "Phantom"
+        "team2_name": "Phantom",
+        "winner_name": "Phantom"
       },
       {
-        "event_id": "hltv:8050",
+        "detail_fetched_at_utc": "2026-11-01T01:17:33Z",
+        "event_id": "hltv:pgl-masters-bucharest-2026",
         "event_name": "PGL Masters Bucharest 2026",
+        "event_url": "https://www.hltv.org/events/archive",
         "hltv_match_id": "2399759",
+        "lineups": {
+          "team1": [
+            {
+              "hltv_player_id": "19920",
+              "nickname": "KaiR0N-",
+              "player_id": "hltv:19920",
+              "source_url": "https://www.hltv.org/player/19920/kair0n",
+              "team_name": "Nemiga"
+            },
+            {
+              "hltv_player_id": "20387",
+              "nickname": "Xant3r",
+              "player_id": "hltv:20387",
+              "source_url": "https://www.hltv.org/player/20387/xant3r",
+              "team_name": "Nemiga"
+            },
+            {
+              "hltv_player_id": "22864",
+              "nickname": "robo",
+              "player_id": "hltv:22864",
+              "source_url": "https://www.hltv.org/player/22864/robo",
+              "team_name": "Nemiga"
+            },
+            {
+              "hltv_player_id": "23317",
+              "nickname": "khaN",
+              "player_id": "hltv:23317",
+              "source_url": "https://www.hltv.org/player/23317/khan",
+              "team_name": "Nemiga"
+            },
+            {
+              "hltv_player_id": "23319",
+              "nickname": "syph0",
+              "player_id": "hltv:23319",
+              "source_url": "https://www.hltv.org/player/23319/syph0",
+              "team_name": "Nemiga"
+            }
+          ],
+          "team2": [
+            {
+              "hltv_player_id": "2023",
+              "nickname": "FalleN",
+              "player_id": "hltv:2023",
+              "source_url": "https://www.hltv.org/player/2023/fallen",
+              "team_name": "FURIA"
+            },
+            {
+              "hltv_player_id": "12553",
+              "nickname": "yuurih",
+              "player_id": "hltv:12553",
+              "source_url": "https://www.hltv.org/player/12553/yuurih",
+              "team_name": "FURIA"
+            },
+            {
+              "hltv_player_id": "15631",
+              "nickname": "KSCERATO",
+              "player_id": "hltv:15631",
+              "source_url": "https://www.hltv.org/player/15631/kscerato",
+              "team_name": "FURIA"
+            },
+            {
+              "hltv_player_id": "13915",
+              "nickname": "YEKINDAR",
+              "player_id": "hltv:13915",
+              "source_url": "https://www.hltv.org/player/13915/yekindar",
+              "team_name": "FURIA"
+            },
+            {
+              "hltv_player_id": "24144",
+              "nickname": "molodoy",
+              "player_id": "hltv:24144",
+              "source_url": "https://www.hltv.org/player/24144/molodoy",
+              "team_name": "FURIA"
+            }
+          ]
+        },
+        "map_results": [
+          {
+            "map_name": "Ancient",
+            "score1": 13,
+            "score2": 2,
+            "status": "finished"
+          },
+          {
+            "map_name": "Dust2",
+            "score1": 5,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Cache",
+            "score1": 2,
+            "score2": 13,
+            "status": "finished"
+          },
+          {
+            "map_name": "Mirage",
+            "score1": 13,
+            "score2": 11,
+            "status": "finished"
+          },
+          {
+            "map_name": "Nuke",
+            "score1": 6,
+            "score2": 13,
+            "status": "finished"
+          }
+        ],
+        "maps": [
+          "Ancient",
+          "Dust2",
+          "Cache",
+          "Mirage",
+          "Nuke"
+        ],
         "match_id": "hltv:2399759",
+        "player_stats": [
+          {
+            "adr": 70.8,
+            "deaths": 54,
+            "hltv_player_id": "23317",
+            "kast": 71.4,
+            "kills": 67,
+            "nickname": "khaN",
+            "player_id": "hltv:23317",
+            "rating": 1.18,
+            "source_url": "https://www.hltv.org/player/23317/khan",
+            "team_side": 1
+          },
+          {
+            "adr": 59.6,
+            "deaths": 66,
+            "hltv_player_id": "23319",
+            "kast": 68.1,
+            "kills": 46,
+            "nickname": "syph0",
+            "player_id": "hltv:23319",
+            "rating": 0.91,
+            "source_url": "https://www.hltv.org/player/23319/syph0",
+            "team_side": 1
+          },
+          {
+            "adr": 67.9,
+            "deaths": 67,
+            "hltv_player_id": "20387",
+            "kast": 60.4,
+            "kills": 49,
+            "nickname": "Xant3r",
+            "player_id": "hltv:20387",
+            "rating": 0.89,
+            "source_url": "https://www.hltv.org/player/20387/xant3r",
+            "team_side": 1
+          },
+          {
+            "adr": 71.9,
+            "deaths": 74,
+            "hltv_player_id": "19920",
+            "kast": 60.4,
+            "kills": 58,
+            "nickname": "KaiR0N-",
+            "player_id": "hltv:19920",
+            "rating": 0.89,
+            "source_url": "https://www.hltv.org/player/19920/kair0n",
+            "team_side": 1
+          },
+          {
+            "adr": 64.9,
+            "deaths": 66,
+            "hltv_player_id": "22864",
+            "kast": 61.5,
+            "kills": 54,
+            "nickname": "robo",
+            "player_id": "hltv:22864",
+            "rating": 0.84,
+            "source_url": "https://www.hltv.org/player/22864/robo",
+            "team_side": 1
+          },
+          {
+            "adr": 99.6,
+            "deaths": 57,
+            "hltv_player_id": "13915",
+            "kast": 75.8,
+            "kills": 82,
+            "nickname": "YEKINDAR",
+            "player_id": "hltv:13915",
+            "rating": 1.56,
+            "source_url": "https://www.hltv.org/player/13915/yekindar",
+            "team_side": 2
+          },
+          {
+            "adr": 81.5,
+            "deaths": 49,
+            "hltv_player_id": "15631",
+            "kast": 73.6,
+            "kills": 64,
+            "nickname": "KSCERATO",
+            "player_id": "hltv:15631",
+            "rating": 1.15,
+            "source_url": "https://www.hltv.org/player/15631/kscerato",
+            "team_side": 2
+          },
+          {
+            "adr": 69.2,
+            "deaths": 57,
+            "hltv_player_id": "2023",
+            "kast": 72.5,
+            "kills": 65,
+            "nickname": "FalleN",
+            "player_id": "hltv:2023",
+            "rating": 1.09,
+            "source_url": "https://www.hltv.org/player/2023/fallen",
+            "team_side": 2
+          },
+          {
+            "adr": 73.6,
+            "deaths": 56,
+            "hltv_player_id": "12553",
+            "kast": 74.7,
+            "kills": 56,
+            "nickname": "yuurih",
+            "player_id": "hltv:12553",
+            "rating": 0.99,
+            "source_url": "https://www.hltv.org/player/12553/yuurih",
+            "team_side": 2
+          },
+          {
+            "adr": 65.2,
+            "deaths": 58,
+            "hltv_player_id": "24144",
+            "kast": 70.3,
+            "kills": 59,
+            "nickname": "molodoy",
+            "player_id": "hltv:24144",
+            "rating": 0.9,
+            "source_url": "https://www.hltv.org/player/24144/molodoy",
+            "team_side": 2
+          }
+        ],
         "product_tier": "tier_1",
+        "score1": 2,
+        "score2": 3,
         "series_format": "bo5",
         "source_url": "https://www.hltv.org/matches/2399759/nemiga-vs-furia-pgl-masters-bucharest-2026",
         "stage_name": "Grand Final",
         "starts_at": "2026-10-31T11:00:00Z",
-        "status": "upcoming",
+        "status": "finished",
         "team1_name": "Nemiga",
-        "team2_name": "FURIA"
+        "team2_name": "FURIA",
+        "veto_text": "Best of 5 (LAN)\n\n* Grand final",
+        "winner_name": "FURIA"
       },
       {
-        "event_id": "hltv:9457",
+        "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
         "hltv_match_id": "2399527",
         "match_id": "hltv:2399527",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399527/betclic-vs-9ine-cct-2026-europe-series-12",
         "stage_name": "Quarterfinal",
-        "starts_at": "2026-10-31T12:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-10-31T13:44:50Z",
+        "status": "finished",
         "team1_name": "Betclic",
-        "team2_name": "9INE"
+        "team2_name": "9INE",
+        "winner_name": "Betclic"
       },
       {
-        "event_id": "hltv:9457",
+        "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
         "hltv_match_id": "2399528",
         "match_id": "hltv:2399528",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 0,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399528/fokus-vs-baks-cct-2026-europe-series-12",
         "stage_name": "Quarterfinal",
-        "starts_at": "2026-10-31T15:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-10-31T17:07:13Z",
+        "status": "finished",
         "team1_name": "FOKUS",
-        "team2_name": "BAKS"
+        "team2_name": "BAKS",
+        "winner_name": "FOKUS"
       },
       {
-        "event_id": "hltv:9457",
+        "event_id": "hltv:cct-2026-europe-series-12",
         "event_name": "CCT 2026 Europe Series 12",
         "hltv_match_id": "2399529",
         "match_id": "hltv:2399529",
         "product_tier": "tier_2",
+        "score1": 2,
+        "score2": 1,
         "series_format": "bo3",
         "source_url": "https://www.hltv.org/matches/2399529/acend-vs-butterfly-cct-2026-europe-series-12",
         "stage_name": "Quarterfinal",
-        "starts_at": "2026-10-31T18:00:00Z",
-        "status": "upcoming",
+        "starts_at": "2026-10-31T21:00:34Z",
+        "status": "finished",
         "team1_name": "Acend",
-        "team2_name": "Butterfly"
+        "team2_name": "Butterfly",
+        "winner_name": "Acend"
+      },
+      {
+        "event_id": "hltv:9457",
+        "event_name": "CCT 2026 Europe Series 12",
+        "hltv_match_id": "2399530",
+        "match_id": "hltv:2399530",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399530/betclic-vs-phantom-cct-2026-europe-series-12",
+        "stage_name": "Semifinal",
+        "starts_at": "2026-11-01T11:00:00Z",
+        "status": "upcoming",
+        "team1_name": "Betclic",
+        "team2_name": "Phantom"
+      },
+      {
+        "event_id": "hltv:9457",
+        "event_name": "CCT 2026 Europe Series 12",
+        "hltv_match_id": "2399531",
+        "match_id": "hltv:2399531",
+        "product_tier": "tier_2",
+        "series_format": "bo3",
+        "source_url": "https://www.hltv.org/matches/2399531/fokus-vs-acend-cct-2026-europe-series-12",
+        "stage_name": "Semifinal",
+        "starts_at": "2026-11-01T14:00:00Z",
+        "status": "upcoming",
+        "team1_name": "FOKUS",
+        "team2_name": "Acend"
       },
       {
         "event_id": "hltv:8245",
@@ -36910,7 +36786,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399756/nemiga-vs-vitality-pgl-masters-bucharest-2026",
             "stage_name": "Semifinal",
-            "starts_at": "2026-10-30T12:00:00Z",
+            "starts_at": "2026-10-30T13:58:18Z",
             "status": "finished",
             "team1_name": "Nemiga",
             "team2_name": "Vitality",
@@ -36927,39 +36803,285 @@ window.__STRIKESIGNAL_DATA__ = {
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399757/mouz-vs-furia-pgl-masters-bucharest-2026",
             "stage_name": "Semifinal",
-            "starts_at": "2026-10-30T15:00:00Z",
+            "starts_at": "2026-10-30T17:52:12Z",
             "status": "finished",
             "team1_name": "MOUZ",
             "team2_name": "FURIA",
             "winner_name": "FURIA"
           },
           {
-            "event_id": "hltv:8050",
+            "event_id": "hltv:pgl-masters-bucharest-2026",
             "event_name": "PGL Masters Bucharest 2026",
             "hltv_match_id": "2399758",
             "match_id": "hltv:2399758",
             "product_tier": "tier_1",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399758/vitality-vs-mouz-pgl-masters-bucharest-2026",
             "stage_name": "Scheduled series",
             "starts_at": "2026-10-31T08:00:00Z",
-            "status": "upcoming",
+            "status": "finished",
             "team1_name": "Vitality",
-            "team2_name": "MOUZ"
+            "team2_name": "MOUZ",
+            "winner_name": "MOUZ"
           },
           {
-            "event_id": "hltv:8050",
+            "detail_fetched_at_utc": "2026-11-01T01:17:33Z",
+            "event_id": "hltv:pgl-masters-bucharest-2026",
             "event_name": "PGL Masters Bucharest 2026",
+            "event_url": "https://www.hltv.org/events/archive",
             "hltv_match_id": "2399759",
+            "lineups": {
+              "team1": [
+                {
+                  "hltv_player_id": "19920",
+                  "nickname": "KaiR0N-",
+                  "player_id": "hltv:19920",
+                  "source_url": "https://www.hltv.org/player/19920/kair0n",
+                  "team_name": "Nemiga"
+                },
+                {
+                  "hltv_player_id": "20387",
+                  "nickname": "Xant3r",
+                  "player_id": "hltv:20387",
+                  "source_url": "https://www.hltv.org/player/20387/xant3r",
+                  "team_name": "Nemiga"
+                },
+                {
+                  "hltv_player_id": "22864",
+                  "nickname": "robo",
+                  "player_id": "hltv:22864",
+                  "source_url": "https://www.hltv.org/player/22864/robo",
+                  "team_name": "Nemiga"
+                },
+                {
+                  "hltv_player_id": "23317",
+                  "nickname": "khaN",
+                  "player_id": "hltv:23317",
+                  "source_url": "https://www.hltv.org/player/23317/khan",
+                  "team_name": "Nemiga"
+                },
+                {
+                  "hltv_player_id": "23319",
+                  "nickname": "syph0",
+                  "player_id": "hltv:23319",
+                  "source_url": "https://www.hltv.org/player/23319/syph0",
+                  "team_name": "Nemiga"
+                }
+              ],
+              "team2": [
+                {
+                  "hltv_player_id": "2023",
+                  "nickname": "FalleN",
+                  "player_id": "hltv:2023",
+                  "source_url": "https://www.hltv.org/player/2023/fallen",
+                  "team_name": "FURIA"
+                },
+                {
+                  "hltv_player_id": "12553",
+                  "nickname": "yuurih",
+                  "player_id": "hltv:12553",
+                  "source_url": "https://www.hltv.org/player/12553/yuurih",
+                  "team_name": "FURIA"
+                },
+                {
+                  "hltv_player_id": "15631",
+                  "nickname": "KSCERATO",
+                  "player_id": "hltv:15631",
+                  "source_url": "https://www.hltv.org/player/15631/kscerato",
+                  "team_name": "FURIA"
+                },
+                {
+                  "hltv_player_id": "13915",
+                  "nickname": "YEKINDAR",
+                  "player_id": "hltv:13915",
+                  "source_url": "https://www.hltv.org/player/13915/yekindar",
+                  "team_name": "FURIA"
+                },
+                {
+                  "hltv_player_id": "24144",
+                  "nickname": "molodoy",
+                  "player_id": "hltv:24144",
+                  "source_url": "https://www.hltv.org/player/24144/molodoy",
+                  "team_name": "FURIA"
+                }
+              ]
+            },
+            "map_results": [
+              {
+                "map_name": "Ancient",
+                "score1": 13,
+                "score2": 2,
+                "status": "finished"
+              },
+              {
+                "map_name": "Dust2",
+                "score1": 5,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Cache",
+                "score1": 2,
+                "score2": 13,
+                "status": "finished"
+              },
+              {
+                "map_name": "Mirage",
+                "score1": 13,
+                "score2": 11,
+                "status": "finished"
+              },
+              {
+                "map_name": "Nuke",
+                "score1": 6,
+                "score2": 13,
+                "status": "finished"
+              }
+            ],
+            "maps": [
+              "Ancient",
+              "Dust2",
+              "Cache",
+              "Mirage",
+              "Nuke"
+            ],
             "match_id": "hltv:2399759",
+            "player_stats": [
+              {
+                "adr": 70.8,
+                "deaths": 54,
+                "hltv_player_id": "23317",
+                "kast": 71.4,
+                "kills": 67,
+                "nickname": "khaN",
+                "player_id": "hltv:23317",
+                "rating": 1.18,
+                "source_url": "https://www.hltv.org/player/23317/khan",
+                "team_side": 1
+              },
+              {
+                "adr": 59.6,
+                "deaths": 66,
+                "hltv_player_id": "23319",
+                "kast": 68.1,
+                "kills": 46,
+                "nickname": "syph0",
+                "player_id": "hltv:23319",
+                "rating": 0.91,
+                "source_url": "https://www.hltv.org/player/23319/syph0",
+                "team_side": 1
+              },
+              {
+                "adr": 67.9,
+                "deaths": 67,
+                "hltv_player_id": "20387",
+                "kast": 60.4,
+                "kills": 49,
+                "nickname": "Xant3r",
+                "player_id": "hltv:20387",
+                "rating": 0.89,
+                "source_url": "https://www.hltv.org/player/20387/xant3r",
+                "team_side": 1
+              },
+              {
+                "adr": 71.9,
+                "deaths": 74,
+                "hltv_player_id": "19920",
+                "kast": 60.4,
+                "kills": 58,
+                "nickname": "KaiR0N-",
+                "player_id": "hltv:19920",
+                "rating": 0.89,
+                "source_url": "https://www.hltv.org/player/19920/kair0n",
+                "team_side": 1
+              },
+              {
+                "adr": 64.9,
+                "deaths": 66,
+                "hltv_player_id": "22864",
+                "kast": 61.5,
+                "kills": 54,
+                "nickname": "robo",
+                "player_id": "hltv:22864",
+                "rating": 0.84,
+                "source_url": "https://www.hltv.org/player/22864/robo",
+                "team_side": 1
+              },
+              {
+                "adr": 99.6,
+                "deaths": 57,
+                "hltv_player_id": "13915",
+                "kast": 75.8,
+                "kills": 82,
+                "nickname": "YEKINDAR",
+                "player_id": "hltv:13915",
+                "rating": 1.56,
+                "source_url": "https://www.hltv.org/player/13915/yekindar",
+                "team_side": 2
+              },
+              {
+                "adr": 81.5,
+                "deaths": 49,
+                "hltv_player_id": "15631",
+                "kast": 73.6,
+                "kills": 64,
+                "nickname": "KSCERATO",
+                "player_id": "hltv:15631",
+                "rating": 1.15,
+                "source_url": "https://www.hltv.org/player/15631/kscerato",
+                "team_side": 2
+              },
+              {
+                "adr": 69.2,
+                "deaths": 57,
+                "hltv_player_id": "2023",
+                "kast": 72.5,
+                "kills": 65,
+                "nickname": "FalleN",
+                "player_id": "hltv:2023",
+                "rating": 1.09,
+                "source_url": "https://www.hltv.org/player/2023/fallen",
+                "team_side": 2
+              },
+              {
+                "adr": 73.6,
+                "deaths": 56,
+                "hltv_player_id": "12553",
+                "kast": 74.7,
+                "kills": 56,
+                "nickname": "yuurih",
+                "player_id": "hltv:12553",
+                "rating": 0.99,
+                "source_url": "https://www.hltv.org/player/12553/yuurih",
+                "team_side": 2
+              },
+              {
+                "adr": 65.2,
+                "deaths": 58,
+                "hltv_player_id": "24144",
+                "kast": 70.3,
+                "kills": 59,
+                "nickname": "molodoy",
+                "player_id": "hltv:24144",
+                "rating": 0.9,
+                "source_url": "https://www.hltv.org/player/24144/molodoy",
+                "team_side": 2
+              }
+            ],
             "product_tier": "tier_1",
+            "score1": 2,
+            "score2": 3,
             "series_format": "bo5",
             "source_url": "https://www.hltv.org/matches/2399759/nemiga-vs-furia-pgl-masters-bucharest-2026",
             "stage_name": "Grand Final",
             "starts_at": "2026-10-31T11:00:00Z",
-            "status": "upcoming",
+            "status": "finished",
             "team1_name": "Nemiga",
-            "team2_name": "FURIA"
+            "team2_name": "FURIA",
+            "veto_text": "Best of 5 (LAN)\n\n* Grand final",
+            "winner_name": "FURIA"
           }
         ],
         "name": "PGL Masters Bucharest 2026",
@@ -65800,18 +65922,64 @@ window.__STRIKESIGNAL_DATA__ = {
               ],
               "name": "Quarterfinal",
               "order": 1
+            },
+            {
+              "bracket": "main",
+              "id": "main:semifinal",
+              "matches": [
+                {
+                  "event_id": "hltv:9457",
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2399530",
+                  "maps": [],
+                  "match_id": "hltv:2399530",
+                  "product_tier": "tier_2",
+                  "round_name": "Semifinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:semifinal:1",
+                  "source_url": "https://www.hltv.org/matches/2399530/betclic-vs-phantom-cct-2026-europe-series-12",
+                  "stage_name": "Semifinal",
+                  "starts_at": "2026-11-01T11:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "Betclic",
+                  "team2_name": "Phantom"
+                },
+                {
+                  "event_id": "hltv:9457",
+                  "event_name": "CCT 2026 Europe Series 12",
+                  "event_url": null,
+                  "feeds_from": [],
+                  "hltv_match_id": "2399531",
+                  "maps": [],
+                  "match_id": "hltv:2399531",
+                  "product_tier": "tier_2",
+                  "round_name": "Semifinal",
+                  "series_format": "bo3",
+                  "slot_id": "main:semifinal:2",
+                  "source_url": "https://www.hltv.org/matches/2399531/fokus-vs-acend-cct-2026-europe-series-12",
+                  "stage_name": "Semifinal",
+                  "starts_at": "2026-11-01T14:00:00Z",
+                  "status": "upcoming",
+                  "team1_name": "FOKUS",
+                  "team2_name": "Acend"
+                }
+              ],
+              "name": "Semifinal",
+              "order": 1
             }
           ],
           "type": "single_elimination"
         },
-        "current_stage": "Quarterfinal",
+        "current_stage": "Semifinal",
         "format": {
-          "label": "Quarterfinal",
+          "label": "Semifinal",
           "settings": {},
           "stages": [
             {
-              "id": "quarterfinal",
-              "name": "Quarterfinal",
+              "id": "semifinal",
+              "name": "Semifinal",
               "order": 1,
               "status": "pending",
               "type": "single_elimination"
@@ -71891,60 +72059,100 @@ window.__STRIKESIGNAL_DATA__ = {
             "winner_name": "9INE"
           },
           {
-            "event_id": "hltv:9457",
+            "event_id": "hltv:cct-2026-europe-series-12",
             "event_name": "CCT 2026 Europe Series 12",
             "hltv_match_id": "2399526",
             "match_id": "hltv:2399526",
             "product_tier": "tier_2",
+            "score1": 0,
+            "score2": 2,
             "series_format": "bo3",
             "source_url": "https://www.hltv.org/matches/2399526/spirit-academy-vs-phantom-cct-2026-europe-series-12",
             "stage_name": "Quarterfinal",
-            "starts_at": "2026-10-31T09:00:00Z",
-            "status": "upcoming",
+            "starts_at": "2026-10-31T10:40:18Z",
+            "status": "finished",
             "team1_name": "Spirit Academy",
+            "team2_name": "Phantom",
+            "winner_name": "Phantom"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-12",
+            "event_name": "CCT 2026 Europe Series 12",
+            "hltv_match_id": "2399527",
+            "match_id": "hltv:2399527",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399527/betclic-vs-9ine-cct-2026-europe-series-12",
+            "stage_name": "Quarterfinal",
+            "starts_at": "2026-10-31T13:44:50Z",
+            "status": "finished",
+            "team1_name": "Betclic",
+            "team2_name": "9INE",
+            "winner_name": "Betclic"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-12",
+            "event_name": "CCT 2026 Europe Series 12",
+            "hltv_match_id": "2399528",
+            "match_id": "hltv:2399528",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 0,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399528/fokus-vs-baks-cct-2026-europe-series-12",
+            "stage_name": "Quarterfinal",
+            "starts_at": "2026-10-31T17:07:13Z",
+            "status": "finished",
+            "team1_name": "FOKUS",
+            "team2_name": "BAKS",
+            "winner_name": "FOKUS"
+          },
+          {
+            "event_id": "hltv:cct-2026-europe-series-12",
+            "event_name": "CCT 2026 Europe Series 12",
+            "hltv_match_id": "2399529",
+            "match_id": "hltv:2399529",
+            "product_tier": "tier_2",
+            "score1": 2,
+            "score2": 1,
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399529/acend-vs-butterfly-cct-2026-europe-series-12",
+            "stage_name": "Quarterfinal",
+            "starts_at": "2026-10-31T21:00:34Z",
+            "status": "finished",
+            "team1_name": "Acend",
+            "team2_name": "Butterfly",
+            "winner_name": "Acend"
+          },
+          {
+            "event_id": "hltv:9457",
+            "event_name": "CCT 2026 Europe Series 12",
+            "hltv_match_id": "2399530",
+            "match_id": "hltv:2399530",
+            "product_tier": "tier_2",
+            "series_format": "bo3",
+            "source_url": "https://www.hltv.org/matches/2399530/betclic-vs-phantom-cct-2026-europe-series-12",
+            "stage_name": "Semifinal",
+            "starts_at": "2026-11-01T11:00:00Z",
+            "status": "upcoming",
+            "team1_name": "Betclic",
             "team2_name": "Phantom"
           },
           {
             "event_id": "hltv:9457",
             "event_name": "CCT 2026 Europe Series 12",
-            "hltv_match_id": "2399527",
-            "match_id": "hltv:2399527",
+            "hltv_match_id": "2399531",
+            "match_id": "hltv:2399531",
             "product_tier": "tier_2",
             "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2399527/betclic-vs-9ine-cct-2026-europe-series-12",
-            "stage_name": "Quarterfinal",
-            "starts_at": "2026-10-31T12:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Betclic",
-            "team2_name": "9INE"
-          },
-          {
-            "event_id": "hltv:9457",
-            "event_name": "CCT 2026 Europe Series 12",
-            "hltv_match_id": "2399528",
-            "match_id": "hltv:2399528",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2399528/fokus-vs-baks-cct-2026-europe-series-12",
-            "stage_name": "Quarterfinal",
-            "starts_at": "2026-10-31T15:00:00Z",
+            "source_url": "https://www.hltv.org/matches/2399531/fokus-vs-acend-cct-2026-europe-series-12",
+            "stage_name": "Semifinal",
+            "starts_at": "2026-11-01T14:00:00Z",
             "status": "upcoming",
             "team1_name": "FOKUS",
-            "team2_name": "BAKS"
-          },
-          {
-            "event_id": "hltv:9457",
-            "event_name": "CCT 2026 Europe Series 12",
-            "hltv_match_id": "2399529",
-            "match_id": "hltv:2399529",
-            "product_tier": "tier_2",
-            "series_format": "bo3",
-            "source_url": "https://www.hltv.org/matches/2399529/acend-vs-butterfly-cct-2026-europe-series-12",
-            "stage_name": "Quarterfinal",
-            "starts_at": "2026-10-31T18:00:00Z",
-            "status": "upcoming",
-            "team1_name": "Acend",
-            "team2_name": "Butterfly"
+            "team2_name": "Acend"
           }
         ],
         "name": "CCT 2026 Europe Series 12",
@@ -71980,7 +72188,7 @@ window.__STRIKESIGNAL_DATA__ = {
         "teams": 24
       }
     ],
-    "last_verified_utc": "2026-10-31T06:02:00Z",
+    "last_verified_utc": "2026-11-01T05:20:39Z",
     "sources": [
       {
         "name": "HLTV events calendar",
@@ -72005,7 +72213,7 @@ window.__STRIKESIGNAL_DATA__ = {
     ],
     "vrs": {
       "as_of": "2026-10-05",
-      "checked_at_utc": "2026-10-31T12:40:57Z",
+      "checked_at_utc": "2026-11-01T07:39:15Z",
       "method_note": "Official ranks and points at the source date. Form indicators are separate model estimates.",
       "scope": "global",
       "source": "Valve Regional Standings",
@@ -72389,7 +72597,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "team_count": 32
     }
   ],
-  "generated_at_utc": "2026-10-31T12:41:14Z",
+  "generated_at_utc": "2026-11-01T07:39:37Z",
   "major_projection": {
     "buckets": {
       "advance": [
@@ -73765,12 +73973,12 @@ window.__STRIKESIGNAL_DATA__ = {
       "folds": 4,
       "kind": "heuristic",
       "metrics": {
-        "accuracy": 0.620072,
-        "brier": 0.227783,
-        "ece": 0.027036,
-        "log_loss": 0.646286
+        "accuracy": 0.618312,
+        "brier": 0.229039,
+        "ece": 0.02746,
+        "log_loss": 0.649441
       },
-      "rows": 1255,
+      "rows": 1261,
       "slices": [
         {
           "dimension": "tier",
@@ -73778,10 +73986,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.660221,
-            "brier": 0.209884,
-            "ece": 0.052005,
-            "log_loss": 0.607393
+            "accuracy": 0.657459,
+            "brier": 0.21232,
+            "ece": 0.055404,
+            "log_loss": 0.613711
           },
           "rows": 362
         },
@@ -73791,12 +73999,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.589474,
-            "brier": 0.241424,
-            "ece": 0.030894,
-            "log_loss": 0.675927
+            "accuracy": 0.588727,
+            "brier": 0.241675,
+            "ece": 0.032234,
+            "log_loss": 0.676444
           },
-          "rows": 475
+          "rows": 479
         },
         {
           "dimension": "series_format",
@@ -73817,12 +74025,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.611625,
-            "brier": 0.228548,
-            "ece": 0.025814,
-            "log_loss": 0.648006
+            "accuracy": 0.609724,
+            "brier": 0.229932,
+            "ece": 0.026289,
+            "log_loss": 0.651484
           },
-          "rows": 757
+          "rows": 761
         },
         {
           "dimension": "series_format",
@@ -73838,24 +74046,35 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "test_rows": 837
+      "test_rows": 841
     },
     "challenger": {
       "blend_weight": 0.5,
-      "family": "logistic",
+      "family": "gradient_boosting",
       "features": [
-        "baseline_logit"
+        "elo_diff",
+        "vrs_rank_advantage",
+        "vrs_points_diff",
+        "recent_win_rate_10_diff",
+        "best_of",
+        "phase_order",
+        "is_lan",
+        "is_playoff",
+        "is_elimination_match"
       ],
       "folds": 4,
-      "l2": 0.005,
+      "learning_rate": 0.035,
+      "max_depth": 2,
       "metrics": {
-        "accuracy": 0.622461,
-        "brier": 0.230305,
-        "ece": 0.047805,
-        "log_loss": 0.652168
+        "accuracy": 0.623068,
+        "brier": 0.231692,
+        "ece": 0.04735,
+        "log_loss": 0.655457
       },
+      "min_samples_leaf": 24,
+      "n_estimators": 60,
       "promotion_passed": false,
-      "rows": 837,
+      "rows": 841,
       "slices": [
         {
           "dimension": "tier",
@@ -73863,10 +74082,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.660221,
-            "brier": 0.212852,
-            "ece": 0.065986,
-            "log_loss": 0.615281
+            "accuracy": 0.668508,
+            "brier": 0.216646,
+            "ece": 0.058676,
+            "log_loss": 0.624021
           },
           "rows": 362
         },
@@ -73876,12 +74095,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.593684,
-            "brier": 0.243605,
-            "ece": 0.057645,
-            "log_loss": 0.68028
+            "accuracy": 0.588727,
+            "brier": 0.243062,
+            "ece": 0.050379,
+            "log_loss": 0.679214
           },
-          "rows": 475
+          "rows": 479
         },
         {
           "dimension": "series_format",
@@ -73889,10 +74108,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.685714,
-            "brier": 0.231131,
-            "ece": 0.131648,
-            "log_loss": 0.653037
+            "accuracy": 0.628571,
+            "brier": 0.236849,
+            "ece": 0.070581,
+            "log_loss": 0.665331
           },
           "rows": 70
         },
@@ -73902,12 +74121,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.614267,
-            "brier": 0.230869,
-            "ece": 0.041951,
-            "log_loss": 0.65344
+            "accuracy": 0.620237,
+            "brier": 0.231767,
+            "ece": 0.045227,
+            "log_loss": 0.655719
           },
-          "rows": 757
+          "rows": 761
         },
         {
           "dimension": "series_format",
@@ -73916,9 +74135,9 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO5",
           "metrics": {
             "accuracy": 0.8,
-            "brier": 0.181783,
-            "ece": 0.215871,
-            "log_loss": 0.54977
+            "brier": 0.189839,
+            "ece": 0.183909,
+            "log_loss": 0.566353
           },
           "rows": 10
         }
@@ -73943,7 +74162,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "version": "bounded-elo-vrs-v1"
     },
     "contract_version": "1.0",
-    "generated_at_utc": "2026-10-31T12:41:14Z",
+    "generated_at_utc": "2026-11-01T07:39:36Z",
     "history": [],
     "monitoring": {
       "baseline_slices": [
@@ -73953,10 +74172,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.660221,
-            "brier": 0.209884,
-            "ece": 0.052005,
-            "log_loss": 0.607393
+            "accuracy": 0.657459,
+            "brier": 0.21232,
+            "ece": 0.055404,
+            "log_loss": 0.613711
           },
           "rows": 362
         },
@@ -73966,12 +74185,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.589474,
-            "brier": 0.241424,
-            "ece": 0.030894,
-            "log_loss": 0.675927
+            "accuracy": 0.588727,
+            "brier": 0.241675,
+            "ece": 0.032234,
+            "log_loss": 0.676444
           },
-          "rows": 475
+          "rows": 479
         },
         {
           "dimension": "series_format",
@@ -73992,12 +74211,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.611625,
-            "brier": 0.228548,
-            "ece": 0.025814,
-            "log_loss": 0.648006
+            "accuracy": 0.609724,
+            "brier": 0.229932,
+            "ece": 0.026289,
+            "log_loss": 0.651484
           },
-          "rows": 757
+          "rows": 761
         },
         {
           "dimension": "series_format",
@@ -74025,19 +74244,19 @@ window.__STRIKESIGNAL_DATA__ = {
             "eligible": true,
             "key": "tier_2",
             "passed": true,
-            "rows": 475
+            "rows": 479
           },
           {
             "eligible": true,
             "key": "bo1",
-            "passed": true,
+            "passed": false,
             "rows": 70
           },
           {
             "eligible": true,
             "key": "bo3",
             "passed": true,
-            "rows": 757
+            "rows": 761
           },
           {
             "eligible": false,
@@ -74046,7 +74265,7 @@ window.__STRIKESIGNAL_DATA__ = {
             "rows": 10
           }
         ],
-        "passed": true
+        "passed": false
       },
       "challenger_slices": [
         {
@@ -74055,10 +74274,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.660221,
-            "brier": 0.212852,
-            "ece": 0.065986,
-            "log_loss": 0.615281
+            "accuracy": 0.668508,
+            "brier": 0.216646,
+            "ece": 0.058676,
+            "log_loss": 0.624021
           },
           "rows": 362
         },
@@ -74068,12 +74287,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.593684,
-            "brier": 0.241432,
-            "ece": 0.042534,
-            "log_loss": 0.675848
+            "accuracy": 0.588727,
+            "brier": 0.240362,
+            "ece": 0.035608,
+            "log_loss": 0.67385
           },
-          "rows": 475
+          "rows": 479
         },
         {
           "dimension": "series_format",
@@ -74081,10 +74300,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo1",
           "label": "BO1",
           "metrics": {
-            "accuracy": 0.685714,
-            "brier": 0.228262,
-            "ece": 0.143369,
-            "log_loss": 0.647167
+            "accuracy": 0.628571,
+            "brier": 0.235065,
+            "ece": 0.097207,
+            "log_loss": 0.661907
           },
           "rows": 70
         },
@@ -74094,12 +74313,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.614267,
-            "brier": 0.229781,
-            "ece": 0.027734,
-            "log_loss": 0.651224
+            "accuracy": 0.620237,
+            "brier": 0.230262,
+            "ece": 0.029038,
+            "log_loss": 0.652718
           },
-          "rows": 757
+          "rows": 761
         },
         {
           "dimension": "series_format",
@@ -74108,18 +74327,18 @@ window.__STRIKESIGNAL_DATA__ = {
           "label": "BO5",
           "metrics": {
             "accuracy": 0.8,
-            "brier": 0.180953,
-            "ece": 0.216722,
-            "log_loss": 0.548111
+            "brier": 0.187573,
+            "ece": 0.181464,
+            "log_loss": 0.561796
           },
           "rows": 10
         }
       ],
       "champion_metrics": {
-        "accuracy": 0.620072,
-        "brier": 0.228773,
-        "ece": 0.040172,
-        "log_loss": 0.648251
+        "accuracy": 0.618312,
+        "brier": 0.229952,
+        "ece": 0.042432,
+        "log_loss": 0.651244
       },
       "champion_slices": [
         {
@@ -74128,10 +74347,10 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_1",
           "label": "Tier 1",
           "metrics": {
-            "accuracy": 0.660221,
-            "brier": 0.209884,
-            "ece": 0.052005,
-            "log_loss": 0.607393
+            "accuracy": 0.657459,
+            "brier": 0.21232,
+            "ece": 0.055404,
+            "log_loss": 0.613711
           },
           "rows": 362
         },
@@ -74141,12 +74360,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "tier_2",
           "label": "Tier 2",
           "metrics": {
-            "accuracy": 0.589474,
-            "brier": 0.243168,
-            "ece": 0.05064,
-            "log_loss": 0.67939
+            "accuracy": 0.588727,
+            "brier": 0.243277,
+            "ece": 0.049661,
+            "log_loss": 0.679609
           },
-          "rows": 475
+          "rows": 479
         },
         {
           "dimension": "series_format",
@@ -74167,12 +74386,12 @@ window.__STRIKESIGNAL_DATA__ = {
           "key": "bo3",
           "label": "BO3",
           "metrics": {
-            "accuracy": 0.611625,
-            "brier": 0.229369,
-            "ece": 0.031738,
-            "log_loss": 0.649623
+            "accuracy": 0.609724,
+            "brier": 0.230669,
+            "ece": 0.03428,
+            "log_loss": 0.652923
           },
-          "rows": 757
+          "rows": 761
         },
         {
           "dimension": "series_format",
@@ -74188,37 +74407,37 @@ window.__STRIKESIGNAL_DATA__ = {
           "rows": 10
         }
       ],
-      "champion_test_rows": 837,
+      "champion_test_rows": 841,
       "minimum_slice_rows": 40,
       "segment_calibration": {
         "active": true,
         "after": {
-          "accuracy": 0.589474,
-          "brier": 0.24166,
-          "ece": 0.037998,
-          "log_loss": 0.676287
+          "accuracy": 0.588727,
+          "brier": 0.241836,
+          "ece": 0.035254,
+          "log_loss": 0.676645
         },
         "before": {
-          "accuracy": 0.589474,
-          "brier": 0.243168,
-          "ece": 0.05064,
-          "log_loss": 0.67939
+          "accuracy": 0.588727,
+          "brier": 0.243277,
+          "ece": 0.049661,
+          "log_loss": 0.679609
         },
         "candidate_shrink": 0.75,
         "overall_after": {
-          "accuracy": 0.620072,
-          "brier": 0.227917,
-          "ece": 0.035067,
-          "log_loss": 0.646491
+          "accuracy": 0.618312,
+          "brier": 0.229131,
+          "ece": 0.034981,
+          "log_loss": 0.649556
         },
         "overall_before": {
-          "accuracy": 0.620072,
-          "brier": 0.228773,
-          "ece": 0.040172,
-          "log_loss": 0.648251
+          "accuracy": 0.618312,
+          "brier": 0.229952,
+          "ece": 0.042432,
+          "log_loss": 0.651244
         },
         "passed": false,
-        "rows": 475,
+        "rows": 479,
         "selected_shrink": 0.5
       },
       "window": "purged_chronological_cv"
@@ -74237,8 +74456,8 @@ window.__STRIKESIGNAL_DATA__ = {
       "minimum_test_rows": 350
     },
     "training": {
-      "new_rows": 0,
-      "online_rows": 498,
+      "new_rows": 6,
+      "online_rows": 504,
       "repaired_integrity_risk": 0,
       "repaired_timestamps": 0,
       "seed_rows": 757,
@@ -74890,9 +75109,15 @@ window.__STRIKESIGNAL_DATA__ = {
       "hltv:2399522",
       "hltv:2399523",
       "hltv:2399524",
-      "hltv:2399525"
+      "hltv:2399525",
+      "hltv:2399756",
+      "hltv:2399757",
+      "hltv:2399526",
+      "hltv:2399527",
+      "hltv:2399528",
+      "hltv:2399529"
     ],
-    "last_online_update_utc": "2026-10-31T05:52:10Z",
+    "last_online_update_utc": "2026-11-01T07:39:37Z",
     "map_pool": [
       "Ancient",
       "Anubis",
@@ -77223,11 +77448,11 @@ window.__STRIKESIGNAL_DATA__ = {
     "team_count": 468,
     "teams": [
       {
-        "elo": 1944.58,
-        "last_result_utc": "2026-10-29T13:04:09Z",
-        "matches": 124,
+        "elo": 1921.17,
+        "last_result_utc": "2026-10-30T13:58:18Z",
+        "matches": 125,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.8513,
+        "recent_win_rate_10": 0.6965,
         "team_key": "vitality",
         "team_name": "Vitality",
         "vrs_points": 1911,
@@ -77267,11 +77492,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 34
       },
       {
-        "elo": 1812.22,
-        "last_result_utc": "2026-10-29T15:01:22Z",
-        "matches": 123,
+        "elo": 1797.06,
+        "last_result_utc": "2026-10-30T17:52:12Z",
+        "matches": 124,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.8248,
+        "recent_win_rate_10": 0.6748,
         "team_key": "mouz",
         "team_name": "MOUZ",
         "vrs_points": 1863,
@@ -77332,11 +77557,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 10
       },
       {
-        "elo": 1730.76,
-        "last_result_utc": "2026-10-29T17:29:15Z",
-        "matches": 138,
+        "elo": 1745.92,
+        "last_result_utc": "2026-10-30T17:52:12Z",
+        "matches": 139,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.7196,
+        "recent_win_rate_10": 0.7706,
         "team_key": "furia",
         "team_name": "FURIA",
         "vrs_points": 1829,
@@ -77587,11 +77812,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 43
       },
       {
-        "elo": 1539.03,
-        "last_result_utc": "2026-10-30T13:50:47Z",
-        "matches": 20,
+        "elo": 1552.66,
+        "last_result_utc": "2026-10-31T17:07:13Z",
+        "matches": 21,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.6504,
+        "recent_win_rate_10": 0.714,
         "team_key": "fokus",
         "team_name": "FOKUS",
         "vrs_points": 1321,
@@ -77619,11 +77844,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 46
       },
       {
-        "elo": 1631.94,
-        "last_result_utc": "2026-10-28T13:18:18Z",
-        "matches": 167,
+        "elo": 1655.35,
+        "last_result_utc": "2026-10-30T13:58:18Z",
+        "matches": 168,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.6098,
+        "recent_win_rate_10": 0.6807,
         "team_key": "nemiga",
         "team_name": "Nemiga",
         "vrs_points": 1551,
@@ -77806,11 +78031,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 74
       },
       {
-        "elo": 1560.51,
-        "last_result_utc": "2026-10-29T17:23:44Z",
-        "matches": 46,
+        "elo": 1570.8,
+        "last_result_utc": "2026-10-31T21:00:34Z",
+        "matches": 47,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.6373,
+        "recent_win_rate_10": 0.7032,
         "team_key": "acend",
         "team_name": "Acend",
         "vrs_points": 1197,
@@ -78120,11 +78345,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 96
       },
       {
-        "elo": 1462.75,
-        "last_result_utc": "2026-10-30T16:42:31Z",
-        "matches": 57,
+        "elo": 1478.53,
+        "last_result_utc": "2026-10-31T13:44:50Z",
+        "matches": 58,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.5909,
+        "recent_win_rate_10": 0.6653,
         "team_key": "betclic",
         "team_name": "Betclic",
         "vrs_points": 0,
@@ -78321,11 +78546,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1499.02,
-        "last_result_utc": "2026-10-30T19:42:41Z",
-        "matches": 9,
+        "elo": 1517.35,
+        "last_result_utc": "2026-10-31T10:40:18Z",
+        "matches": 10,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.4886,
+        "recent_win_rate_10": 0.5816,
         "team_key": "phantom",
         "team_name": "Phantom",
         "vrs_points": 1147,
@@ -78343,11 +78568,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1517.75,
-        "last_result_utc": "2026-10-29T21:44:03Z",
-        "matches": 142,
+        "elo": 1501.97,
+        "last_result_utc": "2026-10-31T13:44:50Z",
+        "matches": 143,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.4273,
+        "recent_win_rate_10": 0.3496,
         "team_key": "9ine",
         "team_name": "9INE",
         "vrs_points": 1112,
@@ -80724,11 +80949,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1623.61,
-        "last_result_utc": "2026-10-29T15:16:25Z",
-        "matches": 93,
+        "elo": 1605.28,
+        "last_result_utc": "2026-10-31T10:40:18Z",
+        "matches": 94,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.772,
+        "recent_win_rate_10": 0.6316,
         "team_key": "spirit academy",
         "team_name": "spirit academy",
         "vrs_points": 981,
@@ -81371,11 +81596,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": 271
       },
       {
-        "elo": 1502.76,
-        "last_result_utc": "2026-10-29T12:30:55Z",
-        "matches": 11,
+        "elo": 1492.47,
+        "last_result_utc": "2026-10-31T21:00:34Z",
+        "matches": 12,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.4519,
+        "recent_win_rate_10": 0.3697,
         "team_key": "butterfly",
         "team_name": "Butterfly",
         "vrs_points": 1082,
@@ -81459,11 +81684,11 @@ window.__STRIKESIGNAL_DATA__ = {
         "vrs_rank": null
       },
       {
-        "elo": 1538.79,
-        "last_result_utc": "2026-10-30T12:15:48Z",
-        "matches": 12,
+        "elo": 1525.16,
+        "last_result_utc": "2026-10-31T17:07:13Z",
+        "matches": 13,
         "ranking_date": "2026-10-05",
-        "recent_win_rate_10": 0.7197,
+        "recent_win_rate_10": 0.5888,
         "team_key": "baks",
         "team_name": "BAKS",
         "vrs_points": 1044,
@@ -85132,226 +85357,78 @@ window.__STRIKESIGNAL_DATA__ = {
   },
   "upcoming_predictions": [
     {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.689,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.689,
-      "event_id": "hltv:8050",
-      "event_name": "PGL Masters Bucharest 2026",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-31",
-      "match_id": "hltv:2399758",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793433600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Vitality",
-      "prob_team1": 0.689,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399758/vitality-vs-mouz-pgl-masters-bucharest-2026",
-      "stage_name": "Scheduled series",
-      "starts_at": "2026-10-31T08:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Vitality",
-      "team1_vrs_rank": 3,
-      "team2_hltv_rank": null,
-      "team2_name": "MOUZ",
-      "team2_vrs_rank": 4
-    },
-    {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5474,
+      "confidence": 0.5524,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5474,
+      "elo_prob_team1": 0.4476,
       "event_id": "hltv:9457",
       "event_name": "CCT 2026 Europe Series 12",
       "format": "bo3",
       "lineups": {},
       "map_results": [],
       "maps": [],
-      "match_date": "2026-10-31",
-      "match_id": "hltv:2399526",
+      "match_date": "2026-11-01",
+      "match_id": "hltv:2399530",
       "match_phase": "scheduled",
-      "match_timestamp": 1793437200,
+      "match_timestamp": 1793530800,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Spirit Academy",
-      "prob_team1": 0.5474,
+      "predicted_winner": "Phantom",
+      "prob_team1": 0.4476,
       "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399526/spirit-academy-vs-phantom-cct-2026-europe-series-12",
-      "stage_name": "Quarterfinal",
-      "starts_at": "2026-10-31T09:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Spirit Academy",
-      "team1_vrs_rank": 115,
-      "team2_hltv_rank": null,
-      "team2_name": "Phantom",
-      "team2_vrs_rank": 72
-    },
-    {
-      "calibration_shrink": null,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.6818,
-      "confidence_label": "watch",
-      "data_quality": "full",
-      "elo_prob_team1": 0.3182,
-      "event_id": "hltv:8050",
-      "event_name": "PGL Masters Bucharest 2026",
-      "format": "bo5",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-31",
-      "match_id": "hltv:2399759",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793444400,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "FURIA",
-      "prob_team1": 0.3182,
-      "product_tier": "tier_1",
-      "round_name": "",
-      "series_format": "bo5",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399759/nemiga-vs-furia-pgl-masters-bucharest-2026",
-      "stage_name": "Grand Final",
-      "starts_at": "2026-10-31T11:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Nemiga",
-      "team1_vrs_rank": 14,
-      "team2_hltv_rank": null,
-      "team2_name": "FURIA",
-      "team2_vrs_rank": 7
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5606,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.4394,
-      "event_id": "hltv:9457",
-      "event_name": "CCT 2026 Europe Series 12",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-31",
-      "match_id": "hltv:2399527",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793448000,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "9INE",
-      "prob_team1": 0.4394,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399527/betclic-vs-9ine-cct-2026-europe-series-12",
-      "stage_name": "Quarterfinal",
-      "starts_at": "2026-10-31T12:00:00Z",
+      "source_url": "https://www.hltv.org/matches/2399530/betclic-vs-phantom-cct-2026-europe-series-12",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-11-01T11:00:00Z",
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "Betclic",
       "team1_vrs_rank": null,
       "team2_hltv_rank": null,
-      "team2_name": "9INE",
-      "team2_vrs_rank": 79
+      "team2_name": "Phantom",
+      "team2_vrs_rank": 72
     },
     {
       "calibration_shrink": 0.5,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5538,
+      "confidence": 0.5096,
       "confidence_label": "thin",
       "data_quality": "full",
-      "elo_prob_team1": 0.5538,
+      "elo_prob_team1": 0.5096,
       "event_id": "hltv:9457",
       "event_name": "CCT 2026 Europe Series 12",
       "format": "bo3",
       "lineups": {},
       "map_results": [],
       "maps": [],
-      "match_date": "2026-10-31",
-      "match_id": "hltv:2399528",
+      "match_date": "2026-11-01",
+      "match_id": "hltv:2399531",
       "match_phase": "scheduled",
-      "match_timestamp": 1793458800,
+      "match_timestamp": 1793541600,
       "mode": "api_feed_snapshot_state",
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "FOKUS",
-      "prob_team1": 0.5538,
+      "prob_team1": 0.5096,
       "product_tier": "tier_2",
       "round_name": "",
       "series_format": "bo3",
       "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399528/fokus-vs-baks-cct-2026-europe-series-12",
-      "stage_name": "Quarterfinal",
-      "starts_at": "2026-10-31T15:00:00Z",
+      "source_url": "https://www.hltv.org/matches/2399531/fokus-vs-acend-cct-2026-europe-series-12",
+      "stage_name": "Semifinal",
+      "starts_at": "2026-11-01T14:00:00Z",
       "status": "upcoming",
       "team1_hltv_rank": null,
       "team1_name": "FOKUS",
       "team1_vrs_rank": 48,
       "team2_hltv_rank": null,
-      "team2_name": "BAKS",
-      "team2_vrs_rank": 100
-    },
-    {
-      "calibration_shrink": 0.5,
-      "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.5789,
-      "confidence_label": "thin",
-      "data_quality": "full",
-      "elo_prob_team1": 0.5789,
-      "event_id": "hltv:9457",
-      "event_name": "CCT 2026 Europe Series 12",
-      "format": "bo3",
-      "lineups": {},
-      "map_results": [],
-      "maps": [],
-      "match_date": "2026-10-31",
-      "match_id": "hltv:2399529",
-      "match_phase": "scheduled",
-      "match_timestamp": 1793469600,
-      "mode": "api_feed_snapshot_state",
-      "model": "live_snapshot_power_bounded",
-      "model_version": "bounded-elo-vrs-v1",
-      "predicted_winner": "Acend",
-      "prob_team1": 0.5789,
-      "product_tier": "tier_2",
-      "round_name": "",
-      "series_format": "bo3",
-      "source": "hltv_live_snapshot",
-      "source_url": "https://www.hltv.org/matches/2399529/acend-vs-butterfly-cct-2026-europe-series-12",
-      "stage_name": "Quarterfinal",
-      "starts_at": "2026-10-31T18:00:00Z",
-      "status": "upcoming",
-      "team1_hltv_rank": null,
-      "team1_name": "Acend",
-      "team1_vrs_rank": 63,
-      "team2_hltv_rank": null,
-      "team2_name": "Butterfly",
-      "team2_vrs_rank": 88
+      "team2_name": "Acend",
+      "team2_vrs_rank": 63
     },
     {
       "calibration_shrink": null,
@@ -85504,10 +85581,10 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7594,
+      "confidence": 0.7777,
       "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.7594,
+      "elo_prob_team1": 0.7777,
       "event_id": "hltv:8245",
       "event_name": "IEM Beijing 2026",
       "format": "bo3",
@@ -85522,7 +85599,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "FURIA",
-      "prob_team1": 0.7594,
+      "prob_team1": 0.7777,
       "product_tier": "tier_1",
       "round_name": "",
       "series_format": "bo3",
@@ -85615,10 +85692,10 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.9031,
+      "confidence": 0.8917,
       "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.9031,
+      "elo_prob_team1": 0.8917,
       "event_id": "hltv:8245",
       "event_name": "IEM Beijing 2026",
       "format": "bo3",
@@ -85633,7 +85710,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "MOUZ",
-      "prob_team1": 0.9031,
+      "prob_team1": 0.8917,
       "product_tier": "tier_1",
       "round_name": "",
       "series_format": "bo3",
@@ -85652,10 +85729,10 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.6821,
+      "confidence": 0.7039,
       "confidence_label": "watch",
       "data_quality": "full",
-      "elo_prob_team1": 0.3179,
+      "elo_prob_team1": 0.2961,
       "event_id": "hltv:8251",
       "event_name": "BLAST Rivals 2026 Season 2",
       "format": "bo3",
@@ -85670,7 +85747,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "FURIA",
-      "prob_team1": 0.3179,
+      "prob_team1": 0.2961,
       "product_tier": "tier_1",
       "round_name": "",
       "series_format": "bo3",
@@ -85689,10 +85766,10 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.7684,
-      "confidence_label": "strong",
+      "confidence": 0.7346,
+      "confidence_label": "watch",
       "data_quality": "full",
-      "elo_prob_team1": 0.7684,
+      "elo_prob_team1": 0.7346,
       "event_id": "hltv:8251",
       "event_name": "BLAST Rivals 2026 Season 2",
       "format": "bo3",
@@ -85707,7 +85784,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "Vitality",
-      "prob_team1": 0.7684,
+      "prob_team1": 0.7346,
       "product_tier": "tier_1",
       "round_name": "",
       "series_format": "bo3",
@@ -85763,10 +85840,10 @@ window.__STRIKESIGNAL_DATA__ = {
     {
       "calibration_shrink": null,
       "calibration_version": "tier2-shrink-v1",
-      "confidence": 0.8067,
+      "confidence": 0.7891,
       "confidence_label": "strong",
       "data_quality": "full",
-      "elo_prob_team1": 0.8067,
+      "elo_prob_team1": 0.7891,
       "event_id": "hltv:8251",
       "event_name": "BLAST Rivals 2026 Season 2",
       "format": "bo3",
@@ -85781,7 +85858,7 @@ window.__STRIKESIGNAL_DATA__ = {
       "model": "live_snapshot_power_bounded",
       "model_version": "bounded-elo-vrs-v1",
       "predicted_winner": "MOUZ",
-      "prob_team1": 0.8067,
+      "prob_team1": 0.7891,
       "product_tier": "tier_1",
       "round_name": "",
       "series_format": "bo3",
@@ -85800,8 +85877,8 @@ window.__STRIKESIGNAL_DATA__ = {
   ],
   "updater": {
     "detail": "Live schedules, scores, and veto details refreshed from the verified event feed.",
-    "live_feed_items": 31,
-    "online_results_applied": 0,
+    "live_feed_items": 26,
+    "online_results_applied": 6,
     "stage3_complete": true,
     "status": "live_feed_refresh"
   }
