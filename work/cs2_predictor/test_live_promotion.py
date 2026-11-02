@@ -17,6 +17,29 @@ from .export_site_predictions import (
 
 
 class LivePromotionTests(unittest.TestCase):
+    def test_new_provider_replaces_current_board_and_published_rounds(self):
+        old = {"match_id": "old", "event_name": "IEM Test", "product_tier": "tier_1", "team1_name": "A", "team2_name": "B", "starts_at": "2026-11-02T10:00:00Z"}
+        new = {**old, "match_id": "new", "slot_id": "new-slot"}
+        payload = {"coverage": {"events": [{"id": "old-event", "name": "IEM Test", "matches": [old], "bracket": {"rounds": [{"id": "old-round", "matches": [old]}]}}], "daily_matches": [old]}}
+        feed = {"source": "pandascore", "fetched_at_utc": "2026-11-02T01:00:00Z", "events": [{"id": "new-event", "name": "IEM Test", "product_tier": "tier_1", "status": "upcoming", "matches": [new], "bracket": {"rounds": [{"id": "new-round", "matches": [new]}]}}]}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "feed.json"
+            path.write_text(json.dumps(feed))
+            merge_live_snapshot_coverage(payload, path, [new])
+        self.assertEqual([row["match_id"] for row in payload["coverage"]["daily_matches"]], ["new"])
+        self.assertEqual([row["id"] for row in payload["coverage"]["events"][0]["bracket"]["rounds"]], ["new-round"])
+        self.assertEqual(payload["coverage"]["events"][0]["id"], "old-event")
+
+    def test_provider_activation_excludes_older_results_from_online_model(self):
+        from .export_site_predictions import refresh_model_state_from_feed
+        model = {"model_state": {"teams": [], "applied_result_ids": []}}
+        common = {"event_name": "IEM Test", "product_tier": "tier_1", "team1_name": "Alpha", "team2_name": "Beta", "status": "finished", "score1": 2, "score2": 0, "series_format": "bo3", "model_eligible_since_utc": "2026-11-02T00:00:00Z"}
+        old = {**common, "match_id": "pandascore:old", "starts_at": "2026-11-01T10:00:00Z"}
+        new = {**common, "match_id": "pandascore:new", "starts_at": "2026-11-02T10:00:00Z"}
+        self.assertEqual(refresh_model_state_from_feed(model, [old, new]), 1)
+        self.assertEqual(model["model_state"]["applied_result_ids"], ["pandascore:new"])
+        self.assertEqual(refresh_model_state_from_feed(model, [old, new]), 0)
+
     def test_partial_round_refresh_preserves_match_slots(self) -> None:
         # The schedule drops the first semi after it finishes, renumbering the
         # second semi to slot 1. A slot belongs to the match, not the response index.

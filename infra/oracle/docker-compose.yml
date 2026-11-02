@@ -6,6 +6,8 @@ services:
     restart: unless-stopped
     environment:
       FETCH_BACKEND: scrapling-http
+      FIXTURE_PROVIDER: ${FIXTURE_PROVIDER:-hltv}
+      PANDASCORE_TOKEN: ${PANDASCORE_TOKEN:-}
       ARCHIVE_BEARER_TOKEN: ${ARCHIVE_BEARER_TOKEN:-}
       HLTV_MATCHES_URL: https://www.hltv.org/matches
       POLL_SECONDS: "300"

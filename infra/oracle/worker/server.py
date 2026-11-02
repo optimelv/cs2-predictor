@@ -17,8 +17,12 @@ from urllib.parse import urlparse
 from aiohttp import ClientSession, ClientTimeout, web
 from bs4 import BeautifulSoup
 from event_policy import product_tier
+import pandascore
 
 
+FIXTURE_PROVIDER = os.environ.get("FIXTURE_PROVIDER", "hltv").lower()
+if FIXTURE_PROVIDER not in {"hltv", "pandascore"}:
+    raise ValueError("FIXTURE_PROVIDER must be hltv or pandascore")
 FETCH_BACKEND = os.environ.get("FETCH_BACKEND", "scrapling-http").lower()
 if FETCH_BACKEND not in {"flaresolverr", "scrapling", "scrapling-http"}:
     raise ValueError("FETCH_BACKEND must be flaresolverr, scrapling or scrapling-http")
@@ -692,6 +696,11 @@ def select_detail_candidates(matches: list[dict[str, Any]], results: list[dict[s
 
 
 async def fetch_snapshot() -> dict[str, Any]:
+    if FIXTURE_PROVIDER == "pandascore":
+        with archive_connection() as connection:
+            connection.execute("INSERT OR IGNORE INTO archive_meta(key,value) VALUES ('pandascore_started_utc',?)", (utc_now(),))
+            started = connection.execute("SELECT value FROM archive_meta WHERE key='pandascore_started_utc'").fetchone()[0]
+        return await pandascore.fetch_snapshot(os.environ.get("PANDASCORE_TOKEN", ""), state.get("snapshot"), started, POLL_SECONDS)
     detail_errors: list[str] = []
     access_error: str | None = None
     async with source_session() as session:
@@ -1106,20 +1115,26 @@ async def refresh() -> None:
         save_snapshot(snapshot)
         state["snapshot"] = snapshot
         state["last_error"] = (snapshot.get("source_health") or {}).get("access_error")
+        state.pop("provider_retry_seconds", None)
         try:
-            record_results(snapshot.get("matches") or [])
+            # A new provider must not replay already-applied legacy results.
+            minimum = snapshot.get("model_eligible_since_utc") if snapshot.get("source") == "pandascore" else None
+            record_results([row for row in snapshot.get("matches") or [] if not minimum or str(row.get("starts_at") or "") >= minimum])
             state["result_archive_error"] = None
         except Exception as exc:
             state["result_archive_error"] = repr(exc)
     except Exception as exc:
         state["last_error"] = repr(exc)
+        if isinstance(exc, pandascore.PandaScoreAccessError):
+            state["provider_retry_seconds"] = exc.retry_seconds
 
 
 async def refresh_loop(app: web.Application) -> None:
     while True:
-        await wait_for_source_retry("match")
+        stream = "pandascore" if FIXTURE_PROVIDER == "pandascore" else "match"
+        await wait_for_source_retry(stream)
         await refresh()
-        save_source_retry("match", retry_delay(state.get("last_error")))
+        save_source_retry(stream, max(300, retry_delay(state.get("last_error")), state.get("provider_retry_seconds", 0)) if FIXTURE_PROVIDER == "pandascore" else retry_delay(state.get("last_error")))
 
 
 async def on_startup(app: web.Application) -> None:
@@ -1128,9 +1143,10 @@ async def on_startup(app: web.Application) -> None:
     # Start serving the last good snapshot immediately. The loop performs the
     # initial collection once, then waits between refreshes.
     app["refresh_task"] = asyncio.create_task(refresh_loop(app))
-    if ARCHIVE_BACKFILL_ENABLED:
-        app["archive_task"] = asyncio.create_task(backfill_loop())
-    app["player_profile_task"] = asyncio.create_task(player_profile_refresh_loop())
+    if FIXTURE_PROVIDER == "hltv":
+        if ARCHIVE_BACKFILL_ENABLED:
+            app["archive_task"] = asyncio.create_task(backfill_loop())
+        app["player_profile_task"] = asyncio.create_task(player_profile_refresh_loop())
 
 
 async def on_cleanup(app: web.Application) -> None:
@@ -1155,7 +1171,8 @@ async def health(_: web.Request) -> web.Response:
     healthy = fresh and state["last_error"] is None
     return web.json_response({
         "ok": healthy,
-        "backend": FETCH_BACKEND,
+        "backend": "pandascore-rest" if FIXTURE_PROVIDER == "pandascore" else FETCH_BACKEND,
+        "fixture_provider": FIXTURE_PROVIDER,
         "last_attempt_utc": state["last_attempt_utc"],
         "last_good_utc": last_good,
         "last_error": state["last_error"],
@@ -1189,7 +1206,8 @@ def backfill_status(path: Path | None = None) -> dict[str, Any]:
 async def snapshot(_: web.Request) -> web.Response:
     if not state["snapshot"]:
         return web.json_response({"ok": False, "error": "No good snapshot is available yet."}, status=503)
-    return web.json_response(state["snapshot"], headers={"Cache-Control": "no-store"})
+    payload = {**state["snapshot"], "source_health": {**(state["snapshot"].get("source_health") or {}), "access_error": state.get("last_error"), "last_attempt_utc": state.get("last_attempt_utc")}}
+    return web.json_response(payload, headers={"Cache-Control": "no-store"})
 
 
 def require_archive_token(request: web.Request) -> None:

@@ -1468,7 +1468,8 @@ def api_items_from_feed(path: Path) -> list[dict[str, Any]]:
     items = (data.get("items") or data.get("matches")) if isinstance(data, dict) else data
     if not isinstance(items, list):
         return []
-    return [item for item in items if isinstance(item, dict)]
+    minimum = data.get("model_eligible_since_utc") if isinstance(data, dict) and data.get("source") == "pandascore" else None
+    return [{**item, **({"model_eligible_since_utc": minimum} if minimum else {})} for item in items if isinstance(item, dict)]
 
 
 def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, Any]) -> dict[str, Any] | None:
@@ -1567,6 +1568,13 @@ def refresh_model_state_from_feed(payload: dict[str, Any], items: list[dict[str,
             continue
         if score1 is None or score2 is None or score1 == score2 or product_tier_from_feed(item) not in {"tier_1", "tier_2"}:
             continue
+        minimum = item.get("model_eligible_since_utc")
+        if minimum:
+            cutoff = datetime.fromisoformat(str(minimum).replace("Z", "+00:00"))
+            if cutoff.tzinfo is None:
+                raise ValueError("Provider activation time must include a timezone")
+            if result_timestamp < cutoff.timestamp():
+                continue
         identity = result_identity(item)
         if identity in applied_set:
             continue
@@ -1749,6 +1757,8 @@ def merge_live_snapshot_coverage(payload: dict[str, Any], feed_path: Path, items
         key = event_key_by_name.get(name_key) or str(event.get("id") or name_key)
         incoming = {**event, "product_tier": product_tier_from_feed(event)}
         existing_events[key] = merge_event_snapshot(existing_events.get(key, {}), incoming)
+        if raw.get("source") == "pandascore":
+            existing_events[key].update(matches=incoming.get("matches") or [], bracket=incoming.get("bracket") or {}, fixture_provider="pandascore", status=incoming.get("status") or "unknown")
         if name_key:
             event_key_by_name[name_key] = key
     coverage["events"] = [event for event in existing_events.values() if product_tier_from_feed(event) in {"tier_1", "tier_2"}]
@@ -1760,6 +1770,10 @@ def merge_live_snapshot_coverage(payload: dict[str, Any], feed_path: Path, items
             continue
         key = str(item.get("match_id") or result_identity(item))
         existing_matches[key] = merge_live_match(existing_matches.get(key, {}), item)
+    if raw.get("source") == "pandascore":
+        # The active provider owns the current board; the separate history stays intact.
+        existing_matches = {str(item.get("match_id") or result_identity(item)): item for item in items if product_tier_from_feed(item) in {"tier_1", "tier_2"}}
+        coverage["fixture_provider"] = "pandascore"
     coverage["daily_matches"] = sorted(existing_matches.values(), key=lambda item: timestamp_from_api_item(item) or 0)[-180:]
     coverage["last_verified_utc"] = raw.get("fetched_at_utc") or utc_now()
 
