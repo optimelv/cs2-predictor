@@ -1,18 +1,84 @@
 {
   "contract_version": "1.0",
-  "generated_at_utc": "2026-11-02T01:59:51Z",
-  "through_date": "2026-11-01",
+  "generated_at_utc": "2026-11-02T06:15:33Z",
+  "through_date": "2026-11-02",
   "scope": {
     "tiers": [
       "tier_1",
       "tier_2"
     ],
-    "matches": 4318,
+    "matches": 4321,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
   },
   "matches": [
+    {
+      "match_id": "hltv:2399861",
+      "match_date": "2026-11-02",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "Aurora",
+      "team2_name": "Liquid",
+      "score1": 0,
+      "score2": 2,
+      "winner_name": "Liquid",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group B",
+      "stage_name": "Group B",
+      "round_name": "Upper Bracket Quarterfinal 3",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399856",
+      "match_date": "2026-11-02",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "HEROIC",
+      "team2_name": "B8",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "HEROIC",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "Upper Bracket Quarterfinal 2",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
+    {
+      "match_id": "hltv:2399855",
+      "match_date": "2026-11-02",
+      "event_name": "IEM Beijing 2026",
+      "team1_name": "Legacy",
+      "team2_name": "The MongolZ",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "The MongolZ",
+      "tier": "tier_1",
+      "best_of": 3,
+      "phase": "Group A",
+      "stage_name": "Group A",
+      "round_name": "Upper Bracket Quarterfinal 1",
+      "is_playoff": false,
+      "is_elimination": false,
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      }
+    },
     {
       "match_id": "liquipedia:a6a4143ee10405cd25b8",
       "match_date": "2026-11-01",
