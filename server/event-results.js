@@ -64,6 +64,7 @@ export function uniqueEventResults(matches) {
   const signature = (m) => {
     if (
       !day(m) ||
+      !/^(finished|completed|ended|final|locked)$/.test(m.status || "") ||
       ![m.score1, m.score2].every(numeric) ||
       Number(m.score1) === Number(m.score2)
     )
@@ -112,7 +113,7 @@ export function completeKnockoutRounds(event, matches) {
     return null;
   const teams = new Set(matches.flatMap((m) => [m.team1_name, m.team2_name]));
   if (
-    teams.has("TBD") ||
+    [...teams].some(t => typeof t !== "string" || !t.trim() || t.toUpperCase() === "TBD") ||
     teams.size !== matches.length + 1 ||
     teams.size & (teams.size - 1)
   )

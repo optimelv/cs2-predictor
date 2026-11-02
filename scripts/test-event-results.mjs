@@ -183,3 +183,5 @@ assert.deepEqual(stable.lanes[0].rounds[1].matches[0].feeds_from, [
   "original:b",
 ]);
 assert.equal(stable.lanes[0].rounds[0].matches[0].slot_id, "original:a");
+
+assert.equal(uniqueEventResults([cross[0],{...cross[1],status:"live"}]).length,2,"An unfinished series is not a duplicate final");
