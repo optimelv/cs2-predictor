@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { ArrowLeft, ArrowUpRight, Search, CalendarDays } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -15,6 +15,9 @@ import {
 import { Crest } from "@/components/crest";
 import {
   dateLabel,
+  eventPhase,
+  record,
+  mergeMatches,
   teamKey,
   eventMatches,
   allMatches,
@@ -23,11 +26,23 @@ import {
   type Event,
   type Match,
 } from "@/lib/data";
+import { Series } from "@/components/series";
+import { State, Team } from "@/components/common";
+import { BracketLane } from "@/components/bracket-lane";
+import { Alert, AlertTitle, AlertDescription } from "@/components/ui/alert";
 import { Follow } from "@/components/follow";
 import { eventIsProductEligible } from "../../docs/lib/snapshot.js";
+import { uniqueEventResults } from "../../server/event-results.js";
 import { compileBracketContract } from "../../server/bracket-contract.js";
 
-type Tree = {
+export type Tree = {
+  unassigned?: Match[];
+  coverage?: {
+    known_matches: number;
+    placed_matches: number;
+    unassigned_matches: number;
+    complete: boolean;
+  };
   source: string;
   lanes: {
     id: string;
@@ -35,100 +50,46 @@ type Tree = {
     rounds: { id: string; label: string; matches: Match[] }[];
   }[];
 };
-const finished = (m: Match) =>
-  /^(finished|completed|ended|final)$/.test(m.status || "");
-function State({ title, description }: { title: string; description: string }) {
-  return (
-    <Empty>
-      <EmptyHeader>
-        <EmptyTitle>{title}</EmptyTitle>
-        <EmptyDescription>{description}</EmptyDescription>
-      </EmptyHeader>
-    </Empty>
-  );
-}
-function Team({ name, data }: { name: string; data: DeskData }) {
-  return (
-    <span className="team">
-      <Crest name={name} src={data.assets[teamKey(name)]?.logo_url} />
-      <span>{name}</span>
-    </span>
-  );
-}
-function Series({
-  match,
-  data,
-  formatGuide = false,
-}: {
-  match: Match;
-  data: DeskData;
-  formatGuide?: boolean;
-}) {
-  const [open, setOpen] = useState(false);
-  const first =
-      formatGuide && !(match as Match & { team1_source?: unknown }).team1_source
-        ? "TBD"
-        : match.team1_name,
-    second =
-      formatGuide && !(match as Match & { team2_source?: unknown }).team2_source
-        ? "TBD"
-        : match.team2_name;
-  const done = !formatGuide && finished(match);
-  return (
-    <article className="series">
-      <div className="series-meta">
-        <span>
-          {done
-            ? "Final"
-            : formatGuide
-              ? "Draw not confirmed"
-              : matchState(match)}
-        </span>
-        <span>{match.series_format?.toUpperCase() || "Format pending"}</span>
-      </div>
-      <div className="series-team">
-        <Team name={first} data={data} />
-        <span className="score">
-          {done && match.score1 != null ? match.score1 : "—"}
-        </span>
-      </div>
-      <div className="series-team">
-        <Team name={second} data={data} />
-        <span className="score">
-          {done && match.score2 != null ? match.score2 : "—"}
-        </span>
-      </div>
-      {!formatGuide && (
-        <Button
-          variant="ghost"
-          onClick={() => setOpen(!open)}
-          aria-expanded={open}
-        >
-          {open ? "Hide details" : "View series"}
-        </Button>
-      )}
-      {open && (
-        <div className="series-details">
-          <p>
-            {match.starts_at
-              ? new Date(match.starts_at).toLocaleString("en-GB")
-              : "Start time unavailable"}
-          </p>
-          <p>
-            {done
-              ? "Published result"
-              : "A scheduled time alone does not establish a result."}
-          </p>
-          <Link to={"/matches/" + encodeURIComponent(match.match_id)}>
-            Open match analysis <ArrowUpRight aria-hidden="true" />
-          </Link>
-        </div>
-      )}
-    </article>
-  );
-}
 function EventDetail({ event, data }: { event: Event; data: DeskData }) {
-  const matches = eventMatches(event, data);
+  const [archive, setArchive] = useState<{ id: string; rows: Match[] } | null>(
+    null,
+  );
+  const [archiveError, setArchiveError] = useState(false);
+  const [attempt, setAttempt] = useState(0);
+  const [limit, setLimit] = useState(12);
+  useEffect(() => {
+    const controller = new AbortController();
+    setArchiveError(false);
+    fetch("/api/catalog?resource=brackets&id=" + encodeURIComponent(event.id), {
+      signal: AbortSignal.any([controller.signal, AbortSignal.timeout(10000)]),
+    })
+      .then(async (r) => {
+        if (!r.ok) throw Error();
+        return r.json();
+      })
+      .then((raw) => {
+        const rows = raw?.data?.[0]?.matches;
+        if (!Array.isArray(rows)) throw Error();
+        setArchive({
+          id: event.id,
+          rows: rows.filter(
+            (m): m is Match =>
+              record(m) &&
+              typeof m.match_id === "string" &&
+              typeof m.team1_name === "string" &&
+              typeof m.team2_name === "string",
+          ),
+        });
+      })
+      .catch(() => {
+        if (!controller.signal.aborted) setArchiveError(true);
+      });
+    return () => controller.abort();
+  }, [event.id, attempt]);
+  const local = eventMatches(event, data);
+  const matches: Match[] = uniqueEventResults(
+    mergeMatches(archive?.id === event.id ? archive.rows : [], local),
+  );
   const tree = useMemo(() => {
     const refreshed = {
       ...event,
@@ -147,8 +108,9 @@ function EventDetail({ event, data }: { event: Event; data: DeskData }) {
         : undefined,
     };
     return compileBracketContract(refreshed, matches, null) as Tree;
-  }, [event, data]);
+  }, [event, data, archive]);
   const guide = tree.source === "format";
+  const unassigned = tree.unassigned || [];
   const participants = [
     ...new Set([
       ...(event.participants || []),
@@ -176,20 +138,68 @@ function EventDetail({ event, data }: { event: Event; data: DeskData }) {
         </div>
         <Follow kind="events" id={event.id} name={event.name} />
       </header>
-      <p className="subline">{event.format?.label || "Format pending"}</p>
+      <div className="event-summary" aria-label="Event coverage">
+        <div>
+          <strong>{matches.length}</strong>
+          <span>Recorded series</span>
+        </div>
+        <div>
+          <strong>{participants.length}</strong>
+          <span>Known teams</span>
+        </div>
+        <div>
+          <strong>
+            {tree.source === "reconstructed"
+              ? "Reconstructed"
+              : guide
+                ? "Format only"
+                : unassigned.length
+                  ? "Partial draw"
+                  : "Published draw"}
+          </strong>
+          <span>
+            {tree.source === "reconstructed"
+              ? "From all stored knockout results"
+              : "Source coverage, not a forecast"}
+          </span>
+        </div>
+      </div>
+      {archiveError ? (
+        <Alert>
+          <AlertTitle>Stored results could not be loaded</AlertTitle>
+          <AlertDescription>
+            The published snapshot remains visible.{" "}
+            <Button variant="outline" onClick={() => setAttempt((n) => n + 1)}>
+              Retry stored results
+            </Button>
+          </AlertDescription>
+        </Alert>
+      ) : archive?.id !== event.id ? (
+        <p className="subline" role="status">
+          Checking stored event results…
+        </p>
+      ) : null}
       <Tabs defaultValue="tree">
         <TabsList aria-label="Event view">
-          <TabsTrigger value="tree">Tournament path</TabsTrigger>
+          <TabsTrigger value="tree">Bracket</TabsTrigger>
           <TabsTrigger value="matches">Matches ({matches.length})</TabsTrigger>
           <TabsTrigger value="teams">Teams ({participants.length})</TabsTrigger>
         </TabsList>
         <TabsContent value="tree">
           <div className="section-heading">
-            <h2>{guide ? "Format guide" : "Published rounds"}</h2>
+            <h2>
+              {guide
+                ? "Format guide"
+                : tree.source === "reconstructed"
+                  ? "Reconstructed tournament path"
+                  : "Published rounds"}
+            </h2>
             <p>
               {guide
                 ? "Pairings will appear when the draw is confirmed."
-                : "Results and scheduled matches, kept separate from projections."}
+                : tree.source === "reconstructed"
+                  ? "Every connection follows a recorded winner. Round positions are reconstructed from the complete knockout results."
+                  : "Only confirmed round assignments appear in the draw. Other stored results are listed below."}
             </p>
           </div>
           {!tree.lanes.length ? (
@@ -209,33 +219,49 @@ function EventDetail({ event, data }: { event: Event; data: DeskData }) {
                 tabIndex={0}
               >
                 {tree.lanes.map((l) => (
-                  <section className="bracket-lane" key={l.id}>
-                    <h3>{l.label}</h3>
-                    <div className="bracket-rounds">
-                      {l.rounds.map((r) => (
-                        <section className="bracket-round" key={r.id}>
-                          <h4>{r.label}</h4>
-                          <div className="bracket-series">
-                            {r.matches.map((m, i) => (
-                              <Series
-                                key={m.slot_id || m.match_id || i}
-                                match={m}
-                                data={data}
-                                formatGuide={
-                                  guide &&
-                                  (!m.match_id ||
-                                    m.match_id.startsWith("::slot:"))
-                                }
-                              />
-                            ))}
-                          </div>
-                        </section>
-                      ))}
-                    </div>
-                  </section>
+                  <BracketLane
+                    key={l.id}
+                    lane={l}
+                    renderSeries={(m) => (
+                      <Series
+                        match={m}
+                        data={data}
+                        formatGuide={
+                          guide &&
+                          (!m.match_id || m.match_id.startsWith("::slot:"))
+                        }
+                      />
+                    )}
+                  />
                 ))}
               </div>
             </>
+          )}
+          {!!unassigned.length && (
+            <section className="unassigned-results">
+              <div className="section-heading">
+                <h2>{unassigned.length} results without a round assignment</h2>
+                <p>
+                  These matches are saved. The source did not preserve where
+                  they belong in the draw, so they are not assigned to invented
+                  rounds.
+                </p>
+              </div>
+              <div className="match-grid">
+                {unassigned.slice(0, limit).map((m) => (
+                  <Series key={m.match_id} match={m} data={data} />
+                ))}
+              </div>
+              {limit < unassigned.length && (
+                <Button
+                  className="load-more"
+                  variant="outline"
+                  onClick={() => setLimit((n) => n + 24)}
+                >
+                  Show more stored results
+                </Button>
+              )}
+            </section>
           )}
         </TabsContent>
         <TabsContent value="matches">
@@ -280,7 +306,7 @@ function EventDetail({ event, data }: { event: Event; data: DeskData }) {
 export function EventList({ data }: { data: DeskData }) {
   const { "*": selected } = useParams();
   const [query, setQuery] = useState("");
-  const [filter, setFilter] = useState("all");
+  const [filter, setFilter] = useState("current");
   const events = data.snapshot.coverage.events.filter((e) =>
     eventIsProductEligible(e),
   );
@@ -292,16 +318,7 @@ export function EventList({ data }: { data: DeskData }) {
     .filter(
       (e) =>
         e.name.toLowerCase().includes(query.toLowerCase()) &&
-        (filter === "all" ||
-          (filter === "archive" &&
-            (e.status === "finished" ||
-              (!!e.end_date &&
-                Date.parse(e.end_date + "T23:59:59Z") < Date.now()))) ||
-          (filter === "upcoming" &&
-            e.status !== "finished" &&
-            (!e.end_date ||
-              Date.parse(e.end_date + "T23:59:59Z") >= Date.now()) &&
-            (!!e.start_date || e.fixture_provider === "pandascore"))),
+        eventPhase(e) === filter,
     )
     .sort((a, b) => {
       const today = new Date().toISOString().slice(0, 10);
@@ -314,7 +331,8 @@ export function EventList({ data }: { data: DeskData }) {
           : (a.start_date || "").localeCompare(b.start_date || ""))
       );
     });
-  if (current) return <EventDetail event={current} data={data} />;
+  if (current)
+    return <EventDetail key={current.id} event={current} data={data} />;
   if (selected)
     return (
       <>
@@ -336,14 +354,16 @@ export function EventList({ data }: { data: DeskData }) {
             Tier 1 and selected Tier 2 main events. Every series in context.
           </p>
         </div>
-        <span className="count">{unique.length} events</span>
+        <span className="count">{rows.length} events</span>
       </header>
       <div className="event-toolbar">
         <Tabs value={filter} onValueChange={(v) => setFilter(String(v))}>
           <TabsList aria-label="Filter events">
-            <TabsTrigger value="all">All events</TabsTrigger>
-            <TabsTrigger value="upcoming">Active & upcoming</TabsTrigger>
+            <TabsTrigger value="current">Current & upcoming</TabsTrigger>
             <TabsTrigger value="archive">Archive</TabsTrigger>
+            {unique.some((e) => eventPhase(e) === "unscheduled") && (
+              <TabsTrigger value="unscheduled">Dates pending</TabsTrigger>
+            )}
           </TabsList>
         </Tabs>
         <Field className="search-field">
@@ -364,8 +384,7 @@ export function EventList({ data }: { data: DeskData }) {
       <div className="event-list">
         {rows.map((e) => {
           const field = e.participants || [];
-          const past =
-            e.end_date && Date.parse(e.end_date + "T23:59:59Z") < Date.now();
+          const past = eventPhase(e) === "archive";
           return (
             <Link
               to={"/events/" + encodeURIComponent(e.id)}
@@ -373,7 +392,15 @@ export function EventList({ data }: { data: DeskData }) {
               key={e.id}
             >
               <div className="event-date">
-                <CalendarDays aria-hidden="true" />
+                <strong>
+                  {e.start_date
+                    ? new Date(e.start_date).toLocaleDateString("en-GB", {
+                        month: "short",
+                      })
+                    : past
+                      ? "Past"
+                      : "TBA"}
+                </strong>
                 <span>
                   {e.start_date ? dateLabel(e.start_date) : "Dates pending"}
                 </span>
@@ -397,7 +424,7 @@ export function EventList({ data }: { data: DeskData }) {
               <div className="event-state">
                 <span>
                   {past
-                    ? "Past calendar entry"
+                    ? "Archived event"
                     : e.status === "finished"
                       ? "Finished in source"
                       : e.start_date && Date.parse(e.start_date) > Date.now()
@@ -421,7 +448,7 @@ export function EventList({ data }: { data: DeskData }) {
             variant="outline"
             onClick={() => {
               setQuery("");
-              setFilter("all");
+              setFilter("current");
             }}
           >
             Reset filters

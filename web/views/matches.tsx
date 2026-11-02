@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { Fragment, useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
   ArrowLeft,
@@ -430,7 +430,7 @@ export function Matches({
 }) {
   const { "*": selected } = useParams();
   const [query, setQuery] = useState(""),
-    [filter, setFilter] = useState("all"),
+    [filter, setFilter] = useState(picksOnly ? "following" : "upcoming"),
     [limit, setLimit] = useState(40);
   const [raw, save, storageError] = useStored<Record<string, Pick>>(
       PICKS_KEY,
@@ -458,8 +458,10 @@ export function Matches({
         `${m.team1_name} ${m.team2_name} ${m.event_name}`
           .toLowerCase()
           .includes(query.toLowerCase()) &&
-        (filter === "all" ||
+        (picksOnly ||
           (filter === "results" && isFinal(m)) ||
+          (filter === "cancelled" &&
+            /cancelled|canceled|postponed/i.test(m.status || "")) ||
           (filter === "upcoming" &&
             !isFinal(m) &&
             !/cancelled|canceled|postponed/i.test(m.status || "")) ||
@@ -510,9 +512,7 @@ export function Matches({
     <>
       <header className="page-heading">
         <div>
-          <h1 tabIndex={-1}>
-            {picksOnly ? "Your match desk" : "The match desk"}
-          </h1>
+          <h1 tabIndex={-1}>{picksOnly ? "Your picks" : "Match centre"}</h1>
           <p>
             {picksOnly
               ? "Saved calls and the teams you follow, kept on this device."
@@ -554,14 +554,16 @@ export function Matches({
         </section>
       )}
       <div className="event-toolbar">
-        <Tabs value={filter} onValueChange={(v) => setFilter(String(v))}>
-          <TabsList aria-label="Filter matches">
-            <TabsTrigger value="all">All</TabsTrigger>
-            <TabsTrigger value="upcoming">Schedule</TabsTrigger>
-            <TabsTrigger value="results">Results</TabsTrigger>
-            <TabsTrigger value="following">Following</TabsTrigger>
-          </TabsList>
-        </Tabs>
+        {!picksOnly && (
+          <Tabs value={filter} onValueChange={(v) => setFilter(String(v))}>
+            <TabsList aria-label="Filter matches">
+              <TabsTrigger value="upcoming">Schedule</TabsTrigger>
+              <TabsTrigger value="results">Results</TabsTrigger>
+              <TabsTrigger value="following">Following</TabsTrigger>
+              <TabsTrigger value="cancelled">Cancelled</TabsTrigger>
+            </TabsList>
+          </Tabs>
+        )}
         <Field className="search-field">
           <FieldLabel className="sr-only" htmlFor="match-search">
             Search matches
@@ -578,50 +580,63 @@ export function Matches({
         </Field>
       </div>
       <div className="match-list">
-        {rows.slice(0, limit).map((m) => {
+        {rows.slice(0, limit).map((m, index) => {
           const done = isFinal(m),
             p = probability(m);
           return (
-            <Link
-              className="match-row"
-              to={"/matches/" + encodeURIComponent(m.match_id)}
-              key={m.match_id}
-            >
-              <div className="match-time">
-                <span>{dateLabel(m.starts_at)}</span>
-                <strong>{timeLabel(m.starts_at)}</strong>
-                <span>{matchState(m)}</span>
-              </div>
-              <div className="match-pair">
-                {[m.team1_name, m.team2_name].map((name, i) => (
-                  <div key={name}>
-                    <Team name={name} data={data} />
-                    <strong>
-                      {done
-                        ? (number(i === 0 ? m.score1 : m.score2) ?? "—")
-                        : p === null
-                          ? "—"
-                          : percent(i === 0 ? p : 1 - p)}
-                    </strong>
-                  </div>
-                ))}
-              </div>
-              <div className="match-context">
-                <span>{m.event_name}</span>
-                <span>
-                  {m.series_format?.toUpperCase() || "Format pending"} ·{" "}
-                  {done
-                    ? "Published result"
-                    : p === null
-                      ? "Forecast unavailable"
-                      : "Model estimate"}
-                </span>
-                {picks[m.match_id] && (
-                  <span>Your pick: {picks[m.match_id].team_name}</span>
-                )}
-              </div>
-              <ArrowRight className="row-arrow" />
-            </Link>
+            <Fragment key={m.match_id}>
+              {(index === 0 ||
+                dateLabel(rows[index - 1].starts_at) !==
+                  dateLabel(m.starts_at)) && (
+                <h2 className="match-day">{dateLabel(m.starts_at)}</h2>
+              )}
+              <Link
+                className="match-row"
+                data-state={done ? "result" : "fixture"}
+                to={"/matches/" + encodeURIComponent(m.match_id)}
+                key={m.match_id}
+              >
+                <div className="match-time">
+                  <span>{dateLabel(m.starts_at)}</span>
+                  <strong>{timeLabel(m.starts_at)}</strong>
+                  <span>{matchState(m)}</span>
+                </div>
+                <div className="match-pair">
+                  {[m.team1_name, m.team2_name].map((name, i) => (
+                    <div key={name}>
+                      <Team name={name} data={data} />
+                      <strong>
+                        {done
+                          ? (number(i === 0 ? m.score1 : m.score2) ?? "—")
+                          : p === null
+                            ? "—"
+                            : percent(i === 0 ? p : 1 - p)}
+                      </strong>
+                    </div>
+                  ))}
+                </div>
+                <div className="match-context">
+                  {!done && p !== null && (
+                    <div className="match-edge" aria-hidden="true">
+                      <span style={{ transform: `scaleX(${p})` }} />
+                    </div>
+                  )}
+                  <span>{m.event_name}</span>
+                  <span>
+                    {m.series_format?.toUpperCase() || "Format pending"} ·{" "}
+                    {done
+                      ? "Published result"
+                      : p === null
+                        ? "Forecast unavailable"
+                        : "Model estimate"}
+                  </span>
+                  {picks[m.match_id] && (
+                    <span>Your pick: {picks[m.match_id].team_name}</span>
+                  )}
+                </div>
+                <ArrowRight className="row-arrow" />
+              </Link>
+            </Fragment>
           );
         })}
       </div>
@@ -638,7 +653,7 @@ export function Matches({
             variant="outline"
             onClick={() => {
               setQuery("");
-              setFilter("all");
+              setFilter("upcoming");
             }}
           >
             Clear filters

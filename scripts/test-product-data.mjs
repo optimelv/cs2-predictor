@@ -233,3 +233,12 @@ try {
 } finally {
   globalThis.fetch = originalFetch;
 }
+
+const reference = Date.parse("2026-11-02T12:00:00Z");
+assert.equal(desk.eventPhase({end_date:"2026-11-01"},reference),"archive");
+assert.equal(desk.eventPhase({start_date:"2026-11-03"},reference),"current");
+assert.equal(desk.eventPhase({matches:[{...final,starts_at:undefined}]},reference),"archive");
+assert.equal(desk.eventPhase({},reference),"unscheduled");
+assert.equal(desk.eventPhase({matches:[{...match,starts_at:"2026-11-03T12:00:00Z"}]},reference),"current");
+
+assert.equal(desk.eventPhase({end_date:"2026-11-05",matches:[final]},reference),"current","A partial completed round does not archive an ongoing event");

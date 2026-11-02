@@ -549,7 +549,7 @@ try {
         .waitFor();
       await p.goto(origin + "/#/picks");
       await p
-        .getByRole("heading", { level: 1, name: "Your match desk" })
+        .getByRole("heading", { level: 1, name: "Your picks" })
         .waitFor();
       await ctx.close();
     },
@@ -587,7 +587,7 @@ try {
         })
         .click();
       await p
-        .getByRole("heading", { level: 1, name: "The match desk", exact: true })
+        .getByRole("heading", { level: 1, name: "Match centre", exact: true })
         .waitFor();
       await ctx.close();
     },
