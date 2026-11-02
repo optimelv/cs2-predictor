@@ -50,6 +50,10 @@ async function noOverflow(p) {
   );
 }
 async function audit(p) {
+  // Measure the settled state, not a random frame of the entering tab panel.
+  await p.evaluate(async () => {
+    await Promise.all(document.getAnimations().filter(a => a.effect?.getTiming().iterations !== Infinity).map(a => a.finished.catch(() => {})));
+  });
   const v = (
     await new AxeBuilder({ page: p })
       .withTags(["wcag2a", "wcag2aa", "wcag21aa"])
