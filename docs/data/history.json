@@ -7,7 +7,7 @@
       "tier_1",
       "tier_2"
     ],
-    "matches": 4321,
+    "matches": 4326,
     "maps": 2968,
     "lineup_rows": 9854,
     "source_match_ids": 976
@@ -78,6 +78,28 @@
         "team1": [],
         "team2": []
       }
+    },
+    {
+      "match_id": "liquipedia:a2eacb236f9acd75ebb6",
+      "match_date": "2026-11-02",
+      "starts_at": "2026-11-02T02:00:00Z",
+      "event_name": "IEM Beijing 2026 - Group A",
+      "team1_name": "Legacy",
+      "team2_name": "MongolZ",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "MongolZ",
+      "tier": "tier_1",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Intel_Extreme_Masters/2026/Beijing#Group_A"
     },
     {
       "match_id": "liquipedia:a6a4143ee10405cd25b8",
@@ -221,6 +243,94 @@
       "score1": 0,
       "score2": 2,
       "winner_name": "Wildcard",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:c27b260c322e3327442e",
+      "match_date": "2026-11-01",
+      "starts_at": "2026-11-01T18:00:00Z",
+      "event_name": "CCT EU 2026 Series #12 - Playoffs",
+      "team1_name": "Apogee",
+      "team2_name": "FOKUS",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "Apogee",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/CCT/2026/Europe/Series_12#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:2ac5a900b8697d64a502",
+      "match_date": "2026-11-01",
+      "starts_at": "2026-11-01T20:00:00Z",
+      "event_name": "Gamers Club Masters VII - Playoffs",
+      "team1_name": "DENDELE",
+      "team2_name": "Imperial",
+      "score1": 3,
+      "score2": 0,
+      "winner_name": "DENDELE",
+      "tier": "tier_2",
+      "best_of": 5,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/Gamers_Club/Masters/VII#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:43b5ef8c634c2c894183",
+      "match_date": "2026-11-01",
+      "starts_at": "2026-11-01T20:15:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Playoffs",
+      "team1_name": "BARCA",
+      "team2_name": "BESTIA",
+      "score1": 1,
+      "score2": 2,
+      "winner_name": "BESTIA",
+      "tier": "tier_2",
+      "best_of": null,
+      "phase": "Series",
+      "stage_name": "Series",
+      "maps": [],
+      "lineups": {
+        "team1": [],
+        "team2": []
+      },
+      "source": "Liquipedia MediaWiki API",
+      "source_url": "https://liquipedia.net/counterstrike/FiReSPORTS/Last_Chance/2026#Playoffs"
+    },
+    {
+      "match_id": "liquipedia:d3ed7110139fc8806c2f",
+      "match_date": "2026-11-01",
+      "starts_at": "2026-11-01T20:30:00Z",
+      "event_name": "FiReSPORTS Last Chance '26 - Playoffs",
+      "team1_name": "100T",
+      "team2_name": "Wildcard",
+      "score1": 2,
+      "score2": 0,
+      "winner_name": "100T",
       "tier": "tier_2",
       "best_of": null,
       "phase": "Series",
