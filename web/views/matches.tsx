@@ -1,3 +1,4 @@
+import { MatchRow } from "@/components/match-row";
 import { Fragment, useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import {
@@ -581,8 +582,6 @@ export function Matches({
       </div>
       <div className="match-list">
         {rows.slice(0, limit).map((m, index) => {
-          const done = isFinal(m),
-            p = probability(m);
           return (
             <Fragment key={m.match_id}>
               {(index === 0 ||
@@ -590,52 +589,11 @@ export function Matches({
                   dateLabel(m.starts_at)) && (
                 <h2 className="match-day">{dateLabel(m.starts_at)}</h2>
               )}
-              <Link
-                className="match-row"
-                data-state={done ? "result" : "fixture"}
-                to={"/matches/" + encodeURIComponent(m.match_id)}
-                key={m.match_id}
-              >
-                <div className="match-time">
-                  <span>{dateLabel(m.starts_at)}</span>
-                  <strong>{timeLabel(m.starts_at)}</strong>
-                  <span>{matchState(m)}</span>
-                </div>
-                <div className="match-pair">
-                  {[m.team1_name, m.team2_name].map((name, i) => (
-                    <div key={name}>
-                      <Team name={name} data={data} />
-                      <strong>
-                        {done
-                          ? (number(i === 0 ? m.score1 : m.score2) ?? "—")
-                          : p === null
-                            ? "—"
-                            : percent(i === 0 ? p : 1 - p)}
-                      </strong>
-                    </div>
-                  ))}
-                </div>
-                <div className="match-context">
-                  {!done && p !== null && (
-                    <div className="match-edge" aria-hidden="true">
-                      <span style={{ transform: `scaleX(${p})` }} />
-                    </div>
-                  )}
-                  <span>{m.event_name}</span>
-                  <span>
-                    {m.series_format?.toUpperCase() || "Format pending"} ·{" "}
-                    {done
-                      ? "Published result"
-                      : p === null
-                        ? "Forecast unavailable"
-                        : "Model estimate"}
-                  </span>
-                  {picks[m.match_id] && (
-                    <span>Your pick: {picks[m.match_id].team_name}</span>
-                  )}
-                </div>
-                <ArrowRight className="row-arrow" />
-              </Link>
+              <MatchRow
+                match={m}
+                data={data}
+                pickedTeam={picks[m.match_id]?.team_name}
+              />
             </Fragment>
           );
         })}

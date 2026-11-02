@@ -16,7 +16,7 @@
     "build:charts": "node scripts/build-chart-engine.mjs",
     "dev:next": "vite",
     "build:next": "tsc --noEmit && vite build && node scripts/build-product-entry.mjs",
-    "test:product": "node scripts/test-product-browser.mjs && node scripts/test-circuit-browser.mjs"
+    "test:product": "node scripts/test-product-browser.mjs && node scripts/test-circuit-browser.mjs && node scripts/test-design-regressions.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",

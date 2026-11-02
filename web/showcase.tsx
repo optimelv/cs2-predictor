@@ -1,3 +1,4 @@
+import { MatchRow } from "@/components/match-row";
 import { useState } from "react";
 import { StateMatrix, previewState } from "@/components/state-matrix";
 import { ColorPair } from "@/components/color-pair";
@@ -76,6 +77,30 @@ export function Showcase() {
         </div>
         <Badge variant="secondary">React · TypeScript · shadcn</Badge>
       </header>
+      <section>
+        <h2>Match cards and date groups</h2>
+        <p>
+          Shared card geometry, long names, score zero and a complete date line.
+        </p>
+        <div className="match-list">
+          <h2 className="match-day">Wednesday, 30 September 2026</h2>
+          <MatchRow
+            match={{ ...specimen, starts_at: "2026-09-30T12:00:00Z" }}
+            data={specimenData}
+          />
+          <h2 className="match-day">Date to be confirmed</h2>
+          <MatchRow
+            match={{
+              ...specimen,
+              match_id: "specimen:pending",
+              status: "upcoming",
+              score1: undefined,
+              score2: undefined,
+            }}
+            data={specimenData}
+          />
+        </div>
+      </section>
       <section>
         <h2>Foundations</h2>
         <p>

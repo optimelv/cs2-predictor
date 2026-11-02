@@ -522,3 +522,34 @@ export function eventPhase(
     return "current";
   return "unscheduled";
 }
+
+// Valve ranks rosters; an ambiguous organization cannot inherit one roster’s rank.
+export function teamRating(
+  data: DeskData,
+  name: string,
+): TeamRating | undefined {
+  const model = data.snapshot.model_state?.teams?.find(
+    (t) => teamKey(t.team_name) === teamKey(name),
+  );
+  const standings = data.snapshot.coverage.vrs;
+  const rows =
+    standings?.teams?.filter((t) => teamKey(t.team_name) === teamKey(name)) ||
+    [];
+  if (rows.length > 1)
+    return model
+      ? { ...model, vrs_rank: undefined, vrs_points: undefined }
+      : undefined;
+  if (
+    rows.length === 1 &&
+    (!model?.ranking_date || (standings?.as_of || "") >= model.ranking_date)
+  ) {
+    return {
+      ...model,
+      team_name: rows[0].team_name,
+      vrs_rank: rows[0].rank,
+      vrs_points: rows[0].points,
+      ranking_date: standings?.as_of,
+    };
+  }
+  return model;
+}
