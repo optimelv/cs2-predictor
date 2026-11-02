@@ -1,278 +1,47 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
-    <meta charset="utf-8">
-    <script src="./theme.js?v=20260916.1"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="color-scheme" content="dark light">
-    <meta name="theme-color" content="#181818">
-    <link rel="preload" href="./fonts/sora-latin.woff2" as="font" type="font/woff2" crossorigin>
-    <title>StrikeSignal | CS2 Match and Event Forecasts</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="CS2 match probabilities, map-veto simulations, tournament views and Valve rankings with clear source timestamps."
-    >
-    <link rel="canonical" href="https://cs2-predictor-ebon.vercel.app/">
-    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
-    <link rel="manifest" href="./manifest.webmanifest">
-    <meta property="og:type" content="website">
-    <meta property="og:site_name" content="StrikeSignal">
-    <meta property="og:title" content="StrikeSignal | CS2 Match and Event Forecasts">
-    <meta property="og:description" content="CS2 match probabilities, map-veto simulations, tournament views and Valve rankings with clear source timestamps.">
-    <meta property="og:url" content="https://cs2-predictor-ebon.vercel.app/">
-    <meta property="og:image" content="https://cs2-predictor-ebon.vercel.app/assets/strikesignal-og.png">
-    <meta property="og:image:alt" content="StrikeSignal CS2 match and event forecasts">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="StrikeSignal | CS2 Match and Event Forecasts">
-    <meta name="twitter:description" content="CS2 match probabilities, map-veto simulations, tournament views and Valve rankings with clear source timestamps.">
-    <meta name="twitter:image" content="https://cs2-predictor-ebon.vercel.app/assets/strikesignal-og.png">
-    <link rel="stylesheet" href="./styles.css?v=20260916.1">
-    <link rel="stylesheet" href="./product.css?v=20260916.1">
-    <link rel="stylesheet" href="./workspace.css?v=20260916.2">
-    <link rel="stylesheet" href="./consumer.css?v=20261016.1">
-    <link rel="stylesheet" href="./chart-interactions.css?v=20260922.2">
+      content="CS2 Tier 1 and selected Tier 2 fixtures, results, tournament paths and dated player evidence."
+    />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="canonical" href="https://cs2-predictor-ebon.vercel.app/" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link
+      rel="preload"
+      href="/fonts/sora-latin.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="StrikeSignal — CS2 match desk" />
+    <meta
+      property="og:description"
+      content="CS2 fixtures, results and forecasts with the evidence in view."
+    />
+    <meta
+      property="og:image"
+      content="https://cs2-predictor-ebon.vercel.app/assets/strikesignal-og.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>StrikeSignal — CS2 match desk</title>
+    <script type="module" crossorigin src="/next/assets/index-BTbr14s7.js"></script>
+    <link rel="modulepreload" crossorigin href="/next/assets/jsx-runtime-de8dDx6i.js">
+    <link rel="modulepreload" crossorigin href="/next/assets/useBaseUiId-B4NAanKt.js">
+    <link rel="modulepreload" crossorigin href="/next/assets/DirectionContext-D_c8nlVW.js">
+    <link rel="modulepreload" crossorigin href="/next/assets/createLucideIcon-Cs7-K_lA.js">
+    <link rel="modulepreload" crossorigin href="/next/assets/usePopupHandleStore-BGZHQ7g9.js">
+    <link rel="stylesheet" crossorigin href="/next/assets/index-B1VWTSu4.css">
   </head>
   <body>
-    <a class="skip-link" href="#matches">Skip to matches</a>
-
-    <header class="site-header">
-      <a class="brand" href="#matches" aria-label="StrikeSignal home">
-        <span class="brand-mark" aria-hidden="true"><span></span><span></span></span>
-        <span><strong>StrikeSignal<span class="brand-period">.</span></strong><small>Counter-Strike. Your call.</small></span>
-      </a>
-      <nav class="top-nav" aria-label="Main navigation">
-        <a href="#matches" data-page-link="matches">Matches</a>
-        <a href="#events" data-page-link="events">Events</a>
-        <a href="#rankings" data-page-link="teams">Teams & players</a>
-        <button id="openMyDesk" class="header-desk-button" type="button" data-page-link="picks" aria-label="Open My picks"><span>My picks</span><b id="watchCount">0</b><i id="signalCount" hidden>0</i></button>
-      </nav>
-      <div class="header-actions">
-        <button id="openSearch" class="header-search" type="button" aria-label="Search teams, players, and events"><svg class="rune-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="./vendor/runeicons.svg#search"></use></svg><span>Search</span><kbd>⌘ K</kbd></button>
-        <label class="theme-control"><span class="sr-only">Appearance</span><select id="themePreference" aria-label="Appearance"><option value="dark">Dark</option><option value="light">Light</option><option value="system">System</option></select></label>
-      </div>
-    </header>
-    <nav class="mobile-dock" aria-label="Mobile navigation">
-      <a href="#matches" data-page-link="matches"><svg class="rune-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="./vendor/runeicons.svg#activity"></use></svg>Matches</a>
-      <a href="#events" data-page-link="events"><svg class="rune-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="./vendor/runeicons.svg#calendar"></use></svg>Events</a>
-      <a href="#rankings" data-page-link="teams"><svg class="rune-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="./vendor/runeicons.svg#users"></use></svg>Teams</a>
-      <button id="mobileMyDesk" data-page-link="picks" type="button"><svg class="rune-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="./vendor/runeicons.svg#bookmark"></use></svg>My picks</button>
-    </nav>
-    <main id="top">
-      <section id="sourceStatus" class="source-status" data-state="unknown" aria-label="Data source status">
-        <details><summary><strong id="sourceStatusTitle">Checking the published snapshot</strong><span>Source details</span></summary>
-          <div class="source-status-expanded"><div><p id="sourceStatusDetail">Source timestamps determine whether match data is current.</p><p id="matchDataNote" class="match-data-note"></p><p id="sourceRefreshResult" role="status"></p></div><button id="refreshSource" type="button">Check for updates</button></div>
-        </details>
-      </section>
-      <nav class="browse-tabs" data-product-page="teams" aria-label="Teams and players" hidden><a href="#rankings" data-browse-link="rankings">Team rankings</a><a href="#players" data-browse-link="players">Players</a></nav>
-      <section id="matches" data-product-page="matches" class="section-shell matches-shell" aria-labelledby="matches-title">
-        <div class="section-heading">
-          <div>
-            <span class="section-index">The match lineup</span>
-            <h1 id="matches-title">Matches</h1>
-          </div>
-        </div>
-        <div id="matchToolbar" class="match-toolbar" aria-label="Match desk controls"></div>
-        <div id="deciderGrid" class="match-center"></div>
-      </section>
-
-      <section id="events" data-product-page="events" hidden class="section-shell events-shell" aria-labelledby="events-title">
-        <div class="section-heading">
-          <div>
-            <span class="section-index">Event calendar</span>
-            <h2 id="events-title">Events</h2>
-          </div>
-        </div>
-        <div class="event-filter" role="group" aria-label="Filter events">
-          <button class="is-active" type="button" data-event-filter="active">Active and upcoming</button>
-          <button type="button" data-event-filter="all">All events</button>
-          <button type="button" data-event-filter="archive">Archive</button>
-          <label id="archiveSearchWrap" class="event-archive-search" hidden><span class="sr-only">Search archived events</span><input id="archiveSearch" type="search" placeholder="Search archive" autocomplete="off"></label>
-          <span id="eventCount">Loading events</span>
-        </div>
-        <div id="eventsGrid" class="events-grid"></div>
-      </section>
-
-      <section id="featured" data-product-page="featured" hidden class="section-shell projection-shell" aria-labelledby="projection-title">
-        <a class="back-link" href="#events">← All events</a>
-        <div class="section-heading event-heading split-heading">
-          <div>
-            <span class="section-index"><span class="live-dot"></span> <span id="eventPhaseLabel">Event room</span></span>
-            <h2 id="projection-title">Tournament outlook.</h2>
-          </div>
-          <p id="projection-intro">Open a tournament to see the field through the format it will actually play.</p>
-        </div>
-
-        <div class="event-selector-bar">
-          <div>
-            <span class="micro-label">Selected event</span>
-            <strong id="selected-event-name">Loading event coverage</strong>
-            <span id="selected-event-meta">Current schedule and model state</span>
-          </div>
-          <label class="event-select-label" for="eventSelector">
-            <span>Switch event</span>
-            <select id="eventSelector" aria-label="Choose an event"></select>
-          </label>
-        </div>
-
-        <div class="pickem-header" aria-live="polite">
-          <div>
-            <span class="micro-label">Field forecast</span>
-            <h3>Current title picture.</h3>
-            <p id="pickemSummary">Calculating from the confirmed field and current team strength.</p>
-          </div>
-          <div class="pickem-score"><span>Model favorite</span><strong id="pickemChance">--</strong></div>
-          <div class="pickem-actions">
-            <button id="sharePickem" class="ghost-action" type="button" hidden>Share card</button>
-            <button id="resetPicks" class="ghost-action" type="button">Reset custom picks</button>
-          </div>
-        </div>
-
-        <div class="route-panel">
-          <div class="route-header">
-            <div>
-              <span class="micro-label">Format-aware forecast</span>
-              <h3 id="boardStageTitle">Choose a covered event.</h3>
-            </div>
-            <div class="route-copy">
-              <p id="routeIntro">Published fixtures are shown first. Early forecasts use the confirmed field and current ranking strength.</p>
-              <nav class="board-jump-nav" aria-label="Event board views">
-                <button id="currentStageTab" class="board-jump is-active" type="button" data-board-jump="stage3">Event outlook</button>
-                <button class="board-jump" type="button" data-board-jump="playoffs">Projected playoffs</button>
-              </nav>
-            </div>
-          </div>
-          <div id="swissBoard" class="swiss-board" aria-label="Selected tournament forecast"></div>
-          <div id="playoffPanel" class="playoff-panel" hidden></div>
-        </div>
-      </section>
-
-      <section id="rankings" data-product-page="rankings" hidden class="section-shell rankings-shell" aria-labelledby="rankings-title">
-        <div class="section-heading">
-          <div>
-            <span class="section-index">Valve world ranking</span>
-            <h2 id="rankings-title">Team rankings</h2>
-          </div>
-        </div>
-        <div class="ranking-summary-bar">
-          <div><span>Official source</span><strong id="rankingsSource">Loading VRS</strong></div>
-          <div><span>Snapshot</span><strong id="rankingsUpdated">--</strong></div>
-          <div><span>Field</span><strong>Global top 30</strong></div>
-          <a id="rankingsSourceLink" href="https://github.com/ValveSoftware/counter-strike_regional_standings" target="_blank" rel="noreferrer">View official ranking</a>
-        </div>
-        <div id="rankingsGrid" class="rankings-table" role="table" aria-label="Official Valve global ranking"></div>
-        <button id="rankingToggle" class="ranking-toggle" type="button" aria-expanded="false">Show full top 30</button>
-      </section>
-
-      <section id="players" data-product-page="players" hidden class="section-shell players-shell" aria-labelledby="players-title">
-        <div class="section-heading">
-          <div>
-            <span class="section-index">Player index</span>
-            <h2 id="players-title">Players</h2>
-          </div>
-        </div>
-        <div class="player-toolbar">
-          <label for="playerSearch"><span>Find player</span><input id="playerSearch" type="search" placeholder="Nickname or real name" autocomplete="off"></label>
-          <label for="playerTeamFilter"><span>Team</span><select id="playerTeamFilter"><option value="all">All teams</option></select></label>
-          <div><span>Profile window</span><strong id="playerSnapshotMeta">Loading player data</strong></div>
-        </div>
-        <div class="player-explorer">
-          <div id="playerGrid" class="player-grid" aria-label="Player profiles"></div>
-          <aside id="playerDetail" class="player-detail" aria-live="polite"></aside>
-        </div>
-      </section>
-
-      <section id="model" data-product-page="model" hidden class="section-shell model-shell" aria-labelledby="model-title">
-        <div class="section-heading">
-          <div>
-            <span class="section-index">Model form</span>
-            <h2 id="model-title">Model performance</h2>
-          </div>
-        </div>
-        <div class="model-evidence">
-          <article class="model-mode">
-            <span>Pre-veto accuracy</span><strong id="modelPre">--</strong>
-            <h3>The opening number</h3>
-            <p>Built before the first ban from team strength, lineups, form, opponents, and series length.</p>
-          </article>
-          <article class="model-mode is-map-aware">
-            <span>Historical post-veto benchmark</span><strong id="modelPost">--</strong>
-            <h3>With the maps known</h3>
-            <p>Earlier event holdout: 134 series. Different test window from the current pre-match model; these figures are not a like-for-like uplift.</p>
-          </article>
-          <aside class="model-scorecard">
-            <div><span>Calibration gap</span><strong id="modelCalibration">--</strong><small>Lower is better</small></div>
-            <div><span>Holdout series</span><strong id="modelSample">--</strong><small>Chronological test</small></div>
-            <footer><i></i><span id="modelVersion">Production model</span></footer>
-          </aside>
-        </div>
-        <div id="modelSlices" class="model-slices"></div>
-      </section>
-      <section id="myDeskLayer" data-product-page="picks" class="section-shell personal-shell" aria-labelledby="myDeskTitle" hidden>
-        <div class="section-heading"><div><span class="section-index">Your corner of Counter-Strike</span><h2 id="myDeskTitle">My picks</h2></div><button id="myDeskClose" type="button" class="ghost-action">Back to matches</button></div>
-        <div id="myDeskContent" class="my-desk-content"></div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div><strong>StrikeSignal</strong><span>CS2 match predictions</span></div>
-      <div class="footer-status"><span id="footerDataStatus">Checking source status</span></div>
-      <a href="#model">How predictions work</a>
-    </footer>
-
-    <div id="teamDrawerLayer" class="team-drawer-layer" hidden>
-      <button id="teamDrawerBackdrop" class="team-drawer-backdrop" type="button" aria-label="Close team profile"></button>
-      <aside class="team-drawer" role="dialog" aria-modal="true" aria-labelledby="teamDrawerTitle">
-        <header class="team-drawer-bar">
-          <span>Team intelligence</span>
-          <button id="teamDrawerClose" type="button" aria-label="Close team profile"><svg class="rune-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="./vendor/runeicons.svg#close"></use></svg></button>
-        </header>
-        <div id="teamDrawerContent" class="team-drawer-content"></div>
-      </aside>
-    </div>
-
-    <div id="playerCompareLayer" class="player-compare-layer" hidden>
-      <button id="playerCompareBackdrop" class="player-compare-backdrop" type="button" aria-label="Close player comparison"></button>
-      <section class="player-compare-dialog" role="dialog" aria-modal="true" aria-labelledby="playerCompareTitle">
-        <header class="player-compare-bar"><div><span>Player intelligence</span><strong id="playerCompareTitle">Player compare</strong></div><button id="playerCompareClose" type="button" aria-label="Close player comparison"><svg class="rune-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="./vendor/runeicons.svg#close"></use></svg></button></header>
-        <div id="playerCompareContent" class="player-compare-content"></div>
-      </section>
-    </div>
-    <aside id="playerCompareTray" class="player-compare-tray" aria-live="polite" hidden></aside>
-
-    <div id="searchLayer" class="search-layer" hidden>
-      <button id="searchBackdrop" class="search-backdrop" type="button" aria-label="Close search"></button>
-      <section class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="searchTitle">
-        <header>
-          <span id="searchTitle">Search StrikeSignal</span>
-          <button id="searchClose" type="button" aria-label="Close search">Close <kbd>Esc</kbd></button>
-        </header>
-        <label class="search-input-wrap">
-          <span class="sr-only">Search teams, players, and events</span>
-          <input id="productSearch" type="search" autocomplete="off" placeholder="Team, player, or tournament">
-        </label>
-        <div id="searchResults" class="search-results"></div>
-      </section>
-    </div>
-
-    <div id="vetoLabLayer" class="veto-lab-layer" hidden>
-      <button id="vetoLabBackdrop" class="veto-lab-backdrop" type="button" aria-label="Close Veto Lab"></button>
-      <section class="veto-lab" role="dialog" aria-modal="true" aria-labelledby="vetoLabTitle">
-        <header class="veto-lab-bar">
-          <div><span>StrikeSignal</span><strong>Veto Lab</strong></div>
-          <button id="vetoLabClose" type="button" aria-label="Close Veto Lab"><svg class="rune-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="./vendor/runeicons.svg#close"></use></svg></button>
-        </header>
-        <div id="vetoLabContent" class="veto-lab-content"></div>
-      </section>
-    </div>
-
-    <template id="emptyTemplate">
-      <div class="empty-state"><h3>No updated matches available</h3><p>The latest complete slate stays on screen.</p></div>
-    </template>
-
-    <script src="./data/predictions.js?v=20260726.2"></script>
-    <script src="./data/coverage.js?v=20260726.1"></script>
-    <script src="./data/team-assets.js?v=20260922.1"></script>
-    <script src="./data/players.js?v=20260727.1"></script>
-    <script src="./app.js?v=20261016.1" type="module"></script>
+    <div id="root"></div>
   </body>
 </html>

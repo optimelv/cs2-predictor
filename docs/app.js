@@ -4280,6 +4280,7 @@ function mergeLiveEvents(events) {
       settings: { ...(normalized.format?.settings || {}), ...(existing.format.settings || {}) },
     } : normalized.format || existing.format;
     Object.assign(existing, normalized, {
+      id: existing.id || normalized.id,
       participants,
       teams: Math.max(Number(existing.teams) || 0, Number(normalized.teams) || 0, participants.length),
       matches,

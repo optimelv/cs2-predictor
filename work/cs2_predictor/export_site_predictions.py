@@ -1473,6 +1473,8 @@ def api_items_from_feed(path: Path) -> list[dict[str, Any]]:
 
 
 def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, Any]) -> dict[str, Any] | None:
+    if str(item.get("status") or "").casefold() in {"cancelled", "canceled", "postponed"}:
+        return None
     team1 = team_name_from_api_item(item, 1)
     team2 = team_name_from_api_item(item, 2)
     if not team1 or not team2:
@@ -1517,6 +1519,7 @@ def prediction_from_snapshot_match(item: dict[str, Any], model_state: dict[str, 
         "calibration_shrink": calibration.get("tier_2_shrink") if product_tier_from_feed(item) == "tier_2" else None,
         "mode": "api_feed_snapshot_state",
         "data_quality": "full" if state1 and state2 else "partial",
+        "model_coverage": "full" if state1 and state2 else "partial" if state1 or state2 else "limited",
         "source": str(item.get("source") or "hltv_live_snapshot"),
         "source_url": item.get("source_url") or item.get("url") or "",
         "maps": item.get("maps") or [],
@@ -1744,9 +1747,10 @@ def merge_live_snapshot_coverage(payload: dict[str, Any], feed_path: Path, items
     coverage = payload.setdefault("coverage", coverage_snapshot())
     existing_events: dict[str, dict[str, Any]] = {}
     event_key_by_name: dict[str, str] = {}
+    event_aliases = read_json(Path(__file__).resolve().parents[2] / "docs/lib/event-aliases.json")
     for event in coverage.get("events") or []:
         name_key = normalize_team_name(str(event.get("name") or ""))
-        key = event_key_by_name.get(name_key) or str(event.get("id") or name_key)
+        key = event_aliases.get(str(event.get("id"))) or event_key_by_name.get(name_key) or str(event.get("id") or name_key)
         existing_events[key] = merge_event_snapshot(existing_events.get(key, {}), event)
         if name_key:
             event_key_by_name[name_key] = key
@@ -1754,8 +1758,8 @@ def merge_live_snapshot_coverage(payload: dict[str, Any], feed_path: Path, items
         if not isinstance(event, dict) or product_tier_from_feed(event) not in {"tier_1", "tier_2"}:
             continue
         name_key = normalize_team_name(str(event.get("name") or ""))
-        key = event_key_by_name.get(name_key) or str(event.get("id") or name_key)
-        incoming = {**event, "product_tier": product_tier_from_feed(event)}
+        key = event_aliases.get(str(event.get("id"))) or event_key_by_name.get(name_key) or str(event.get("id") or name_key)
+        incoming = {**event, "id": key, "product_tier": product_tier_from_feed(event)}
         existing_events[key] = merge_event_snapshot(existing_events.get(key, {}), incoming)
         if raw.get("source") == "pandascore":
             existing_events[key].update(matches=incoming.get("matches") or [], bracket=incoming.get("bracket") or {}, fixture_provider="pandascore", status=incoming.get("status") or "unknown")

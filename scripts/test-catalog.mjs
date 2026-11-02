@@ -123,3 +123,7 @@ await catalogHandler({ method: "GET", url: "/api/catalog?resource=rankings&limit
 assert.equal(httpStatus, 200);
 assert.equal(httpBody.resource, "rankings");
 assert.equal(httpBody.data.length, 1, "Repeated parameters retain the original first-value behavior");
+
+const aliased = structuredClone(datasets);
+aliased.live.events = [{id:"pandascore:series:11137",name:"BLAST Rivals Fall 2026",product_tier:"tier_1"}];
+assert.equal(queryCatalog("brackets",aliased,{event:"blast-rivals-s2-2026"}).ok,true);

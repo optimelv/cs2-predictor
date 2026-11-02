@@ -28,6 +28,12 @@ jobs:
       - name: Validate product build, reliability, and snapshot contract
         run: npm run check
 
+      - name: Install browser for product checks
+        run: npx playwright install --with-deps chromium
+
+      - name: Verify product flows and accessibility
+        run: npm run test:product
+
       - name: Guard public model payloads
         run: node scripts/guard-public-model.mjs
 

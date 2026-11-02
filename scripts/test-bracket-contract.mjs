@@ -107,3 +107,12 @@ for (const absent of [null, undefined, "", " ", false, true]) {
 }
 const projectedWinner=compileBracketContract({id:'upcoming',name:'Unknown'},[{team1_name:'A',team2_name:'B',status:'upcoming',predicted_winner:'A',winner_name:'A'}]);
 assert.equal(projectedWinner.matches[0].winner_name,'', 'Predictions never become results');
+
+const unplayed = compileBracketContract({id:"unplayed",name:"Test",participants:["A","B","C","D"],format:{type:"single_elimination"}},[
+  {match_id:"semi",team1_name:"A",team2_name:"D",round_name:"Semifinals",status:"upcoming",predicted_winner:"A",prob_team1:0.8}
+]);
+assert.equal(unplayed.lanes[0].rounds[1].matches[0].team1_name,"TBD","A forecast cannot advance a team in a published format tree");
+const decided = compileBracketContract({id:"decided",name:"Test",participants:["A","B","C","D"],format:{type:"single_elimination"}},[
+  {match_id:"semi",team1_name:"A",team2_name:"D",round_name:"Semifinals",status:"finished",score1:2,score2:0}
+]);
+assert.equal(decided.lanes[0].rounds[1].matches[0].team1_name,"A","A verified result advances its winner");

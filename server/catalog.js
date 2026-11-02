@@ -1,3 +1,4 @@
+import eventAliases from "../docs/lib/event-aliases.json" with { type: "json" };
 import { eventIsProductEligible } from "../docs/lib/snapshot.js";
 import { compileBracketContract } from "./bracket-contract.js";
 
@@ -131,7 +132,7 @@ function bracketState(datasets, eventQuery) {
   const needle = normalize(eventQuery);
   const projection = datasets.predictions?.major_projection;
   let event = datasets.live.events.find((row) => {
-    const id = normalize(row.id);
+    const id = normalize(eventAliases[row.id] || row.id);
     const name = normalize(row.name);
     return id === needle || name === needle;
   });
