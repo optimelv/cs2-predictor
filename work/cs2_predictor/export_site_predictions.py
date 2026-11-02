@@ -1628,6 +1628,10 @@ def merge_live_match(existing: dict[str, Any], incoming: dict[str, Any]) -> dict
     for key, value in incoming.items():
         if has_live_value(value) or key in {"score1", "score2"} and value == 0:
             merged[key] = value
+    # Schedule responses contain only remaining fixtures and renumber them.
+    # Preserve the established tree position of an identified match across polls.
+    if existing.get("slot_id") and existing.get("match_id") == incoming.get("match_id"):
+        merged["slot_id"] = existing["slot_id"]
     generic_stage = str(incoming.get("stage_name") or "").casefold() in {"scheduled series", "completed series"}
     if generic_stage and has_live_value(existing.get("stage_name")):
         merged["stage_name"] = existing["stage_name"]

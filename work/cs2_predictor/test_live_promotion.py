@@ -8,6 +8,7 @@ from pathlib import Path
 from .export_site_predictions import (
     api_items_from_feed,
     merge_event_snapshot,
+    merge_event_bracket,
     merge_live_match,
     merge_live_snapshot_coverage,
     product_tier_from_feed,
@@ -16,6 +17,19 @@ from .export_site_predictions import (
 
 
 class LivePromotionTests(unittest.TestCase):
+    def test_partial_round_refresh_preserves_match_slots(self) -> None:
+        # The schedule drops the first semi after it finishes, renumbering the
+        # second semi to slot 1. A slot belongs to the match, not the response index.
+        first = {"match_id": "hltv:2399530", "slot_id": "main:semifinal:1"}
+        second = {"match_id": "hltv:2399531", "slot_id": "main:semifinal:2"}
+        old = {"rounds": [{"id": "main:semifinal", "matches": [first, second]}]}
+        new = {"rounds": [{"id": "main:semifinal", "matches": [{**second, "slot_id": "main:semifinal:1", "status": "live"}]}]}
+        merged = merge_event_bracket(old, new)
+        matches = merged["rounds"][0]["matches"]
+        self.assertEqual([row["slot_id"] for row in matches], [first["slot_id"], second["slot_id"]])
+        self.assertEqual(matches[1]["status"], "live")
+        self.assertEqual(merge_event_bracket(merged, new), merged)
+
     def test_classifies_product_events(self) -> None:
         self.assertEqual(product_tier_from_feed({"event_name": "CCT Europe Series 9"}), "tier_2")
         self.assertEqual(product_tier_from_feed({"event_name": "IEM Beijing 2026"}), "tier_1")
