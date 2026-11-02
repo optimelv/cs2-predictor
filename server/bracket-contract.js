@@ -29,6 +29,8 @@ function matchId(match) {
 
 function matchStatus(match) {
   const status = normalize(match.status);
+  if (/^(cancelled|canceled)$/.test(status)) return "cancelled";
+  if (/^(postponed|delayed)$/.test(status)) return "postponed";
   if (
     ["locked", "finished", "completed", "final", "ended"].some((token) =>
       status.includes(token),
@@ -48,14 +50,14 @@ function matchStatus(match) {
 function winnerName(match) {
   if (matchStatus(match) !== "finished") return "";
   const declared = clean(match.winner_name || match.winner);
-  if ([clean(match.team1_name), clean(match.team2_name)].includes(declared))
-    return declared;
   const score1 = finite(match.score1);
   const score2 = finite(match.score2);
   if (score1 !== null && score2 !== null && score1 !== score2) {
     return score1 > score2 ? clean(match.team1_name) : clean(match.team2_name);
   }
-  return "";
+  return [clean(match.team1_name), clean(match.team2_name)].includes(declared)
+    ? declared
+    : "";
 }
 
 function normalizeMatch(match, roundLabel, groupLabel = "") {
@@ -188,8 +190,14 @@ function roundOrder(round) {
   if (/round of 16/.test(name)) return 20;
   if (/quarter/.test(name)) return 30;
   if (/semi/.test(name)) return 40;
-  if (/3rd|third/.test(name)) return 45;
-  if (/grand final|^final$/.test(name)) return 50;
+  if (/3rd|third/.test(name)) return 60;
+  if (/grand final|(?:^|\s)final$/.test(name)) return 50;
+  if (/opening|\bvs\b/.test(name)) return 5;
+  if (/winners/.test(name)) return 10;
+  if (/elimination/.test(name)) return 10;
+  if (/decider/.test(name)) return 15;
+  const numbered = name.match(/(?:upper|lower|swiss)?\s*round (\d+)/);
+  if (numbered) return Number(numbered[1]);
   return Number(round.order) || 0;
 }
 function publishedLanes(event) {
@@ -199,7 +207,17 @@ function publishedLanes(event) {
   for (const round of rounds) {
     const label = clean(round.name || round.label);
     const group = label.match(/^(Group [A-Z]|Group Stage|Playoffs)\s*·/i);
-    const key = group ? group[1] : clean(round.bracket || "main").toLowerCase();
+    const branch = label
+      .match(/\b(upper|lower) bracket\b/i)?.[1]
+      ?.toLowerCase();
+    const base = group
+      ? group[1]
+      : clean(round.bracket || "main").toLowerCase();
+    const key = /3rd|third/i.test(label)
+      ? `${base} · Placement`
+      : branch
+        ? `${base} · ${branch === "upper" ? "Upper" : "Lower"} bracket`
+        : base;
     buckets.set(key, [
       ...(buckets.get(key) || []),
       group
@@ -219,10 +237,27 @@ function publishedLanes(event) {
     groups: "Group stage",
   };
   return [...buckets.entries()].map(([id, laneRounds]) => {
+    const merged = new Map();
+    for (const round of laneRounds) {
+      const raw = clean(round.name || round.label);
+      const name = /\bvs\b/i.test(raw) ? "Round not specified" : raw;
+      const roundKey = normalize(name)
+        .replace(/quarterfinals?/, "quarterfinal")
+        .replace(/semifinals?/, "semifinal");
+      const old = merged.get(roundKey);
+      if (old) old.matches.push(...(round.matches || []));
+      else
+        merged.set(roundKey, {
+          ...round,
+          name,
+          label: name,
+          matches: [...(round.matches || [])],
+        });
+    }
     const result = lane(
       id,
       labels[id] || id,
-      laneRounds.sort((a, b) => roundOrder(a) - roundOrder(b)),
+      [...merged.values()].sort((a, b) => roundOrder(a) - roundOrder(b)),
       id,
     );
     for (const round of result.rounds) {

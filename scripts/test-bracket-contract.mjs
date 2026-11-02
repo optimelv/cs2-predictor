@@ -116,3 +116,199 @@ const decided = compileBracketContract({id:"decided",name:"Test",participants:["
   {match_id:"semi",team1_name:"A",team2_name:"D",round_name:"Semifinals",status:"finished",score1:2,score2:0}
 ]);
 assert.equal(decided.lanes[0].rounds[1].matches[0].team1_name,"A","A verified result advances its winner");
+
+// New fixtures arrive in arbitrary source order; rounds and parallel branches must stay stable.
+const m = (id, a, b, extra = {}) => ({
+  match_id: id,
+  team1_name: a,
+  team2_name: b,
+  status: "upcoming",
+  ...extra,
+});
+const pairRounds = compileBracketContract(
+  {
+    id: "pairs",
+    name: "Future groups",
+    bracket: {
+      rounds: [
+        {
+          id: "p1",
+          name: "Group A · LGC vs FURIA",
+          matches: [m("p1", "Legacy", "FURIA")],
+        },
+        {
+          id: "p2",
+          name: "Group A · VIT vs FAL",
+          matches: [m("p2", "Vitality", "Falcons")],
+        },
+      ],
+    },
+  },
+  [],
+);
+assert.equal(pairRounds.lanes[0].rounds.length, 1);
+assert.equal(pairRounds.lanes[0].rounds[0].matches.length, 2);
+const branches = compileBracketContract(
+  {
+    id: "branches",
+    name: "Groups",
+    bracket: {
+      rounds: [
+        {
+          name: "Group A · Lower Bracket Quarterfinal",
+          matches: [m("lower", "A", "B")],
+        },
+        {
+          name: "Group A · Upper Bracket Semifinal",
+          matches: [m("upper-s", "C", "D")],
+        },
+        {
+          name: "Group A · Upper Bracket Quarterfinal",
+          matches: [m("upper-q", "E", "F")],
+        },
+      ],
+    },
+  },
+  [],
+);
+assert.equal(branches.lanes.length, 2);
+assert.deepEqual(
+  branches.lanes
+    .find((l) => l.id.includes("Upper"))
+    .rounds.map((r) => r.matches[0].match_id),
+  ["upper-q", "upper-s"],
+);
+const chronology = compileBracketContract(
+  {
+    id: "order",
+    name: "Playoffs",
+    bracket: {
+      rounds: [
+        { name: "Playoffs · Grand final", matches: [m("f", "A", "B")] },
+        { name: "Playoffs · Round of 16 match", matches: [m("r16", "C", "D")] },
+      ],
+    },
+  },
+  [],
+);
+assert.deepEqual(
+  chronology.lanes[0].rounds.map((r) => r.matches[0].match_id),
+  ["r16", "f"],
+);
+const noDraw = compileBracketContract(
+  {
+    id: "none",
+    name: "Future",
+    participants: ["A", "B", "C", "D"],
+    format: { type: "single_elimination" },
+  },
+  [],
+);
+assert.ok(
+  noDraw.lanes
+    .flatMap((l) => l.rounds.flatMap((r) => r.matches))
+    .every((m) => m.team1_name === "TBD" && m.team2_name === "TBD"),
+);
+const repeatedPair = compileBracketContract(
+  {
+    id: "repeat",
+    name: "Rematch",
+    participants: ["A", "B", "C", "D"],
+    format: { type: "double_elimination" },
+  },
+  [
+    m("up", "A", "B", {
+      round_name: "Upper round 1",
+      status: "finished",
+      score1: 2,
+      score2: 0,
+    }),
+    m("low", "A", "B", {
+      round_name: "Lower final",
+      status: "finished",
+      score1: 0,
+      score2: 2,
+    }),
+  ],
+);
+assert.equal(
+  repeatedPair.lanes[0].rounds[0].matches.filter((m) => m.match_id === "low")
+    .length,
+  0,
+);
+assert.equal(repeatedPair.lanes[1].rounds.at(-1).matches[0].match_id, "low");
+const progressEvent = {
+  id: "progress",
+  name: "Future knockout",
+  teams: 4,
+  format: { type: "single_elimination" },
+};
+const opening = [
+  m("s1", "A", "B", { round_name: "Semifinals" }),
+  m("s2", "C", "D", { round_name: "Semifinals" }),
+];
+const before = compileBracketContract(progressEvent, opening);
+const after = compileBracketContract(
+  progressEvent,
+  opening.map((row) => ({ ...row, status: "finished", score1: 2, score2: 0 })),
+);
+assert.deepEqual(
+  before.lanes[0].rounds.map((r) => r.matches.map((m) => m.slot_id)),
+  after.lanes[0].rounds.map((r) => r.matches.map((m) => m.slot_id)),
+);
+assert.equal(before.lanes[0].rounds[1].matches[0].team1_name, "TBD");
+assert.equal(after.lanes[0].rounds[1].matches[0].team1_name, "A");
+const correction = compileBracketContract(
+  progressEvent,
+  opening.map((row) => ({ ...row, status: "finished", score1: 0, score2: 2 })),
+);
+assert.equal(correction.lanes[0].rounds[1].matches[0].team1_name, "B");
+console.log("Future tree evidence and correction regressions passed");
+
+for (const status of ["cancelled", "postponed"]) {
+  const c = compileBracketContract(progressEvent, [
+    { ...opening[0], status, score1: 2, score2: 0 },
+  ]);
+  assert.equal(c.lanes[0].rounds[0].matches[0].status, status);
+  assert.equal(c.lanes[0].rounds[1].matches[0].team1_name, "TBD");
+}
+
+const correctedDeclared = compileBracketContract(
+  progressEvent,
+  opening.map((row) => ({
+    ...row,
+    status: "finished",
+    score1: 0,
+    score2: 2,
+    winner_name: row.team1_name,
+  })),
+);
+assert.equal(
+  correctedDeclared.lanes[0].rounds[1].matches[0].team1_name,
+  "B",
+  "Corrected scores override an old winner field",
+);
+
+const stageContext = compileBracketContract(
+  {
+    id: "stage-context",
+    name: "Future groups",
+    teams: 8,
+    format: { type: "gsl", settings: { group_count: 2, playoff_teams: 4 } },
+  },
+  [
+    m("group-qf", "A", "B", {
+      round_name: "Quarterfinal",
+      stage_name: "Group A",
+    }),
+    m("playoff-sf", "C", "D", {
+      round_name: "Semifinal",
+      stage_name: "Playoffs",
+    }),
+  ],
+);
+const playoffRows = stageContext.lanes
+  .find((l) => l.id === "playoffs")
+  .rounds.flatMap((r) => r.matches);
+assert.ok(!playoffRows.some((m) => m.match_id === "group-qf"));
+assert.ok(playoffRows.some((m) => m.match_id === "playoff-sf"));

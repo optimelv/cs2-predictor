@@ -112,10 +112,12 @@ function EventDetail({ event, data }: { event: Event; data: DeskData }) {
   const guide = tree.source === "format";
   const unassigned = tree.unassigned || [];
   const participants = [
-    ...new Set([
-      ...(event.participants || []),
-      ...matches.flatMap((m) => [m.team1_name, m.team2_name]),
-    ]),
+    ...new Set(
+      [
+        ...(event.participants || []),
+        ...matches.flatMap((m) => [m.team1_name, m.team2_name]),
+      ].filter((name) => name && name !== "TBD"),
+    ),
   ];
   return (
     <>
@@ -155,7 +157,9 @@ function EventDetail({ event, data }: { event: Event; data: DeskData }) {
                 ? "Format only"
                 : unassigned.length
                   ? "Partial draw"
-                  : "Published draw"}
+                  : tree.source === "schedule"
+                    ? "Schedule only"
+                    : "Published rounds"}
           </strong>
           <span>
             {tree.source === "reconstructed"
@@ -192,7 +196,9 @@ function EventDetail({ event, data }: { event: Event; data: DeskData }) {
                 ? "Format guide"
                 : tree.source === "reconstructed"
                   ? "Reconstructed tournament path"
-                  : "Published rounds"}
+                  : tree.source === "schedule"
+                    ? "Match schedule"
+                    : "Published rounds"}
             </h2>
             <p>
               {guide
