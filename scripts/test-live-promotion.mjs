@@ -59,3 +59,8 @@ assert.equal(rows[0].match_date, "2026-09-18");
 assert.deepEqual(rows[0].maps.map((map) => map.map_name), ["Nuke"], "Unplayed, live and unknown-score maps cannot become historical wins");
 assert.equal(rows[0].maps[0].score2, 0, "A verified zero score remains valid");
 console.log("live history promotion timestamp/status tests ok");
+
+const providerResult = {match_id:"pandascore:1",status:"finished",event_name:"IEM Test",product_tier:"tier_1",team1_name:"A",team2_name:"B",score1:2,score2:0,winner_name:"A",starts_at:"2026-11-01T10:00:00Z"};
+assert.throws(()=>historyRowsFromLive({source:"pandascore",matches:[providerResult]}),/activation/);
+assert.equal(historyRowsFromLive({source:"pandascore",model_eligible_since_utc:"2026-11-02T00:00:00Z",matches:[providerResult]}).length,0);
+assert.equal(historyRowsFromLive({source:"pandascore",model_eligible_since_utc:"2026-11-01T00:00:00Z",matches:[providerResult]}).length,1);

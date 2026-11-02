@@ -10,7 +10,10 @@ export const resultTimestamp = (match) => {
 };
 
 export function historyRowsFromLive(live) {
+  const minimum = live.source === "pandascore" ? Date.parse(live.model_eligible_since_utc || "") : null;
+  if (live.source === "pandascore" && !Number.isFinite(minimum)) throw new Error("PandaScore activation time is required before result promotion.");
   return (live.matches || [])
+  .filter((match) => minimum === null || resultTimestamp(match) >= minimum)
   .filter((match) => /finished|completed|final|ended/i.test(String(match.status || "")))
   .filter((match) => eventIsProductEligible({ name: match.event_name, product_tier: match.product_tier }))
   .filter((match) => resultTimestamp(match) !== null)

@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 WORKDIR /app
 COPY infra/oracle/worker/requirements.txt infra/oracle/worker/requirements-scrapling.txt ./
 RUN pip install --no-cache-dir -r requirements-scrapling.txt
-COPY infra/oracle/worker/server.py infra/oracle/worker/event_policy.py .
+COPY infra/oracle/worker/server.py infra/oracle/worker/event_policy.py infra/oracle/worker/pandascore.py .
 COPY docs/lib/event-policy.json .
 
 EXPOSE 8080

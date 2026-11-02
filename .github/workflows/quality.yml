@@ -50,4 +50,4 @@ jobs:
 
       - name: Test Oracle source adapters
         working-directory: infra/oracle/worker
-        run: python -m unittest test_server.py
+        run: python -m unittest test_server.py test_pandascore.py
