@@ -1,3 +1,4 @@
+import eventAliases from "./event-aliases.json" with { type: "json" };
 import eventPolicy from "./event-policy.json" with { type: "json" };
 
 export const SNAPSHOT_CONTRACT_VERSION = "1.1";
@@ -174,7 +175,8 @@ export function normalizeMatch(match, context = {}) {
   const team1Name = cleanTeam(rawTeam1);
   const team2Name = cleanTeam(rawTeam2);
   if (!team1Name || !team2Name || team1Name === team2Name) return null;
-  const eventId = String(match.event_id || context.eventId || "").trim();
+  const rawEventId = String(match.event_id || context.eventId || "").trim();
+  const eventId = eventAliases[rawEventId] || rawEventId;
   const eventName = String(match.event_name || context.eventName || "").trim();
   const startsAt = match.starts_at || match.start_time || match.match_time || null;
   const stageName = String(match.stage_name || match.stage || match.round || "Scheduled series");
@@ -214,7 +216,8 @@ export function normalizeEvent(event, index = 0) {
   const nameSlug = slugify(name);
   const startYear = String(event.start_date || "").slice(0, 4);
   const fallbackId = startYear && !nameSlug.endsWith(`-${startYear}`) ? `${nameSlug}-${startYear}` : nameSlug;
-  const id = String(event.id || event.event_id || fallbackId).trim();
+  const rawId = String(event.id || event.event_id || fallbackId).trim();
+  const id = eventAliases[rawId] || rawId;
   const rawParticipants = event.participants || event.teams_attending || event.field || [];
   const participantRefs = rawParticipants.map(teamReference).filter((team) => team.team_name && !isPlaceholderTeam(team.team_name));
   const participants = uniqueStrings(rawParticipants);

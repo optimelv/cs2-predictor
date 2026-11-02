@@ -18,13 +18,16 @@ const statusOf = (match) => {
 };
 
 const winnerOf = (match) => {
-  if (match?.winner_name || match?.winner) return clean(match.winner_name || match.winner);
-  const score1 = Number(match?.score1);
-  const score2 = Number(match?.score2);
+  if (statusOf(match) !== "finished") return "";
+  const declared = clean(match?.winner_name || match?.winner);
+  if ([clean(match?.team1_name), clean(match?.team2_name)].includes(declared)) return declared;
+  const score = (value) => value == null || typeof value === "boolean" || String(value).trim() === "" ? NaN : Number(value);
+  const score1 = score(match?.score1);
+  const score2 = score(match?.score2);
   if (statusOf(match) === "finished" && Number.isFinite(score1) && Number.isFinite(score2) && score1 !== score2) {
     return score1 > score2 ? clean(match.team1_name) : clean(match.team2_name);
   }
-  return clean(match?.predicted_winner);
+  return "";
 };
 
 const loserOf = (match) => {

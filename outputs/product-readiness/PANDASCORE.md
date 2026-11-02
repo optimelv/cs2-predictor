@@ -40,3 +40,9 @@ Sources checked: https://developers.pandascore.co/docs/plan-reference,
 https://developers.pandascore.co/docs/matches-lifecycle,
 https://www.pandascore.co/pricing. Betting-related use is outside the standard
 stats-plan offer. This integration does not add wagering or a paid data product.
+
+Activation was verified on 2 November 2026 at 01:34:47 UTC, followed by a healthy
+automatic poll at 01:39:48 UTC. The data publisher succeeded and production
+commit `9c2af7b535c8501652f0b79f8117a8cc91d050d0` served the PandaScore board.
+Detailed proof, preserved profile counts and remaining limits are recorded in
+`outputs/product-readiness/RELEASE.md`.

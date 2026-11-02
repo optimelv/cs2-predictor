@@ -38,7 +38,7 @@ assert.match(workflow, /node scripts\/build-player-snapshot\.mjs "\$RUNNER_TEMP\
 const publicationFiles = workflow.match(/git add ([^\n]+)/)?.[1].trim().split(/\s+/) || [];
 assert.ok(publicationFiles.length > 0);
 for (const file of publicationFiles) await access(file);
-const entryHtml = await readFile("docs/index.html", "utf8");
+const entryHtml = await readFile("docs/legacy.html", "utf8");
 for (const name of ["predictions", "coverage", "players"]) {
   const bundle = [...entryHtml.matchAll(/src="\.\/([^"?]+)(?:\?[^"]*)?"/g)].find((match) => match[1].endsWith(`/${name}.js`))?.[1];
   assert.ok(bundle, `Find the browser's ${name} bundle`);

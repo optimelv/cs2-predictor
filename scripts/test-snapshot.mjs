@@ -40,3 +40,6 @@ assert.equal(normalizeMatch({ ...oldMatch, status: "completed", score1: 2, score
 assert.equal(normalizeMatch(oldMatch).score1, null, "Missing score remains unknown");
 
 for (const [name, product_tier, expected] of eventPolicy.cases) assert.equal(productTierForEvent({ name, product_tier }), expected, name);
+
+assert.equal(normalizeEvent({id:"pandascore:series:11137",name:"BLAST Rivals Fall 2026"}).id,"blast-rivals-s2-2026");
+assert.equal(normalizeMatch({event_id:"pandascore:series:11137",team1_name:"A",team2_name:"B"}).event_id,"blast-rivals-s2-2026");

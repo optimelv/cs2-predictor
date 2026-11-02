@@ -7,6 +7,7 @@ from pathlib import Path
 
 from .export_site_predictions import (
     api_items_from_feed,
+    prediction_from_snapshot_match,
     merge_event_snapshot,
     merge_event_bracket,
     merge_live_match,
@@ -39,6 +40,22 @@ class LivePromotionTests(unittest.TestCase):
         self.assertEqual(refresh_model_state_from_feed(model, [old, new]), 1)
         self.assertEqual(model["model_state"]["applied_result_ids"], ["pandascore:new"])
         self.assertEqual(refresh_model_state_from_feed(model, [old, new]), 0)
+
+    def test_cancelled_or_postponed_match_has_no_forecast(self):
+        for status in ("cancelled", "canceled", "postponed"):
+            self.assertIsNone(prediction_from_snapshot_match({"status": status, "team1_name": "A", "team2_name": "B"}, {}))
+
+    def test_verified_provider_event_alias_replaces_old_calendar(self):
+        payload = {"coverage": {"events": [{"id": "blast-rivals-s2-2026", "name": "BLAST Rivals 2026 Season 2", "start_date": "2026-11-09", "product_tier": "tier_1"}], "daily_matches": []}}
+        feed = {"source": "pandascore", "events": [{"id": "pandascore:series:11137", "name": "BLAST Rivals Fall 2026", "start_date": "2026-11-11", "product_tier": "tier_1", "matches": []}]}
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "feed.json"
+            path.write_text(json.dumps(feed))
+            merge_live_snapshot_coverage(payload, path, [])
+        events = payload["coverage"]["events"]
+        self.assertEqual(len(events), 1)
+        self.assertEqual(events[0]["id"], "blast-rivals-s2-2026")
+        self.assertEqual(events[0]["start_date"], "2026-11-11")
 
     def test_partial_round_refresh_preserves_match_slots(self) -> None:
         # The schedule drops the first semi after it finishes, renumbering the
