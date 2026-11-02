@@ -12,6 +12,8 @@ const roundLabel = (size) => size === 2 ? "Grand final" : size === 4 ? "Semifina
 
 const statusOf = (match) => {
   const status = keyOf(match?.status);
+  if (/^(cancelled|canceled)$/.test(status)) return "cancelled";
+  if (/^(postponed|delayed)$/.test(status)) return "postponed";
   if (/finished|completed|final|ended|locked/.test(status)) return "finished";
   if (/live|playing|progress/.test(status)) return "live";
   return match?.predicted_winner ? "projected" : "upcoming";
@@ -20,14 +22,13 @@ const statusOf = (match) => {
 const winnerOf = (match) => {
   if (statusOf(match) !== "finished") return "";
   const declared = clean(match?.winner_name || match?.winner);
-  if ([clean(match?.team1_name), clean(match?.team2_name)].includes(declared)) return declared;
   const score = (value) => value == null || typeof value === "boolean" || String(value).trim() === "" ? NaN : Number(value);
   const score1 = score(match?.score1);
   const score2 = score(match?.score2);
   if (statusOf(match) === "finished" && Number.isFinite(score1) && Number.isFinite(score2) && score1 !== score2) {
     return score1 > score2 ? clean(match.team1_name) : clean(match.team2_name);
   }
-  return "";
+  return [clean(match?.team1_name), clean(match?.team2_name)].includes(declared) ? declared : "";
 };
 
 const loserOf = (match) => {
@@ -42,11 +43,12 @@ const samePair = (match, team1, team2) => {
 };
 
 const roundMatches = (matches, label) => {
-  const target = keyOf(label);
-  return (matches || []).filter((match) => {
-    const source = keyOf(`${match.round_name || ""} ${match.stage_name || ""} ${match.round || ""}`);
+  const roundKey = (value) => keyOf(value).replace(/\b(quarterfinal|semifinal)s\b/g, "$1").replace(/\bfinals\b/g, "final");
+  const target = roundKey(label);
+  return (matches || []).filter((match) => [match.round_name, match.round, match.stage_name].some((label) => {
+    const source = roundKey(label);
     return source && (source.includes(target) || target.includes(source));
-  });
+  }));
 };
 
 function slotMatch({ eventId, laneId, roundId, index, label, team1 = "", team2 = "", source1 = null, source2 = null }) {
@@ -66,11 +68,10 @@ function slotMatch({ eventId, laneId, roundId, index, label, team1 = "", team2 =
 }
 
 function hydrateSlot(slot, matches, used) {
-  let candidate = (matches || []).find((match) => !used.has(match) && samePair(match, slot.team1_name, slot.team2_name));
-  if (!candidate) {
-    const candidates = roundMatches(matches, slot.round_name).filter((match) => !used.has(match));
-    candidate = candidates.find((match) => samePair(match, slot.team1_name, slot.team2_name)) || candidates[0];
-  }
+  const candidates = roundMatches(matches, slot.round_name).filter((match) => !used.has(match));
+  const knownPair = ![slot.team1_name, slot.team2_name].includes("TBD");
+  const paired = candidates.filter((match) => samePair(match, slot.team1_name, slot.team2_name));
+  const candidate = knownPair ? (paired.length === 1 ? paired[0] : null) : candidates[0];
   if (!candidate) return slot;
   used.add(candidate);
   return {
@@ -99,8 +100,9 @@ function openingPairs(field, size) {
 }
 
 function singleEliminationLane(event, matches, field, count, id = "playoffs", label = "Playoffs") {
+  if (id === "playoffs") matches = matches.filter((m) => !/group|swiss|stage \d/i.test(m.stage_name || ""));
   const size = nextPowerOfTwo(count || field.length);
-  const pairs = openingPairs(field, size);
+  const pairs = openingPairs([], size);
   const used = new Set();
   const rounds = [];
   let previous = [];
@@ -132,7 +134,7 @@ function doubleEliminationLanes(event, matches, field, count) {
   while (currentSize >= 2) {
     const roundIndex = upperRounds.length;
     const name = currentSize === 2 ? "Upper final" : `Upper round ${roundIndex + 1}`;
-    const pairs = roundIndex ? [] : openingPairs(field, size);
+    const pairs = roundIndex ? [] : openingPairs([], size);
     const rows = Array.from({ length: currentSize / 2 }, (_, index) => {
       const source1 = roundIndex ? { slot_id: previous[index * 2].slot_id, outcome: "winner" } : null;
       const source2 = roundIndex ? { slot_id: previous[index * 2 + 1].slot_id, outcome: "winner" } : null;
@@ -203,7 +205,7 @@ const SWISS_GROUPS = [
 function swissLane(event, matches, stage, stageIndex, teams = []) {
   const laneId = `swiss-${stageIndex + 1}`;
   const used = new Set();
-  const opening = openingPairs(teams, 16);
+  const opening = openingPairs([], 16);
   const rounds = SWISS_GROUPS.map((groups, roundIndex) => {
     const normalizedGroups = groups.map(([record, count]) => ({
       label: record,
@@ -223,29 +225,30 @@ function gslLane(event, matches, field, blueprint) {
   const settings = event?.format?.settings || {};
   const groupSize = Number(settings.group_size) || 4;
   const groupCount = Number(settings.group_count) || Math.max(1, Math.ceil((blueprint.field_size || field.length || 4) / groupSize));
-  const groups = event.groups?.length ? event.groups : Array.from({ length: groupCount }, (_, index) => ({ name: `Group ${String.fromCharCode(65 + index)}`, teams: field.slice(index * groupSize, (index + 1) * groupSize) }));
+  const groups = event.groups?.length ? event.groups : Array.from({ length: groupCount }, (_, index) => ({ name: `Group ${String.fromCharCode(65 + index)}`, teams: [] }));
   const used = new Set();
   const groupTrees = groups.map((group, groupIndex) => {
-    const teams = fieldSlots(group.teams || [], 4);
+    const groupMatches = matches.filter((m) => keyOf(`${m.group_label || ""} ${m.stage_name || ""} ${m.round_name || ""}`).includes(keyOf(group.name || `Group ${String.fromCharCode(65 + groupIndex)}`)));
+    const teams = fieldSlots([], 4);
     const groupId = `g${groupIndex + 1}`;
     const opening = [[teams[0], teams[3]], [teams[1], teams[2]]].map((pair, index) => hydrateSlot(slotMatch({
       eventId: event.id, laneId: "groups", roundId: `r1:${groupId}`, index, label: "Opening matches", team1: pair[0], team2: pair[1],
-    }), matches, used));
+    }), groupMatches, used));
     const winners = hydrateSlot(slotMatch({
       eventId: event.id, laneId: "groups", roundId: `r2:${groupId}`, index: 0, label: "Winners match",
       team1: winnerOf(opening[0]), team2: winnerOf(opening[1]),
       source1: { slot_id: opening[0].slot_id, outcome: "winner" }, source2: { slot_id: opening[1].slot_id, outcome: "winner" },
-    }), matches, used);
+    }), groupMatches, used);
     const elimination = hydrateSlot(slotMatch({
       eventId: event.id, laneId: "groups", roundId: `r3:${groupId}`, index: 0, label: "Elimination match",
       team1: loserOf(opening[0]), team2: loserOf(opening[1]),
       source1: { slot_id: opening[0].slot_id, outcome: "loser" }, source2: { slot_id: opening[1].slot_id, outcome: "loser" },
-    }), matches, used);
+    }), groupMatches, used);
     const decider = hydrateSlot(slotMatch({
       eventId: event.id, laneId: "groups", roundId: `r4:${groupId}`, index: 0, label: "Decider match",
       team1: winnerOf(elimination), team2: loserOf(winners),
       source1: { slot_id: elimination.slot_id, outcome: "winner" }, source2: { slot_id: winners.slot_id, outcome: "loser" },
-    }), matches, used);
+    }), groupMatches, used);
     return { label: clean(group.name) || `Group ${groupIndex + 1}`, rounds: [opening, [winners], [elimination], [decider]] };
   });
   const definitions = ["Opening matches", "Winners match", "Elimination match", "Decider match"];
@@ -257,7 +260,7 @@ function gslLane(event, matches, field, blueprint) {
 }
 
 function roundRobinLane(event, field, blueprint) {
-  const teams = fieldSlots(field, blueprint.field_size || field.length);
+  const teams = fieldSlots([], blueprint.field_size || field.length);
   if (teams.length % 2) teams.push("");
   const rotating = [...teams];
   const rounds = [];

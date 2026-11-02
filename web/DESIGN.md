@@ -175,3 +175,20 @@ Phone match filters form an explicit 2x2 grid instead of an accidental 3+1 wrap.
 The team directory merges case/spacing variants with the existing team key and
 prefers official display names. Repeated organizations in official roster input
 remain ambiguous for ranking; merging display names must not assign a roster.
+
+## Event tree evidence review — 2 November 2026
+
+Group matchup titles without a round are collected in one column marked
+Round not specified. A matchup title alone does not prove an opening round. Separate upper/lower brackets and placement matches into their
+own lanes. Order named knockout rounds independently of source arrival order.
+Generated format guides use TBD instead of assigning participants by list order.
+Hydration requires round context, preventing a lower-bracket rematch from
+replacing an upper-bracket match. Final score corrections override old winner
+fields. Cancelled/postponed matches retain their state and never advance teams.
+
+Future-state regressions cover unconfirmed draws, new finals, rematches,
+progression after results, corrected winners, stable slots, Swiss, GSL and
+double elimination. `test-all-event-pages.mjs` traverses every visible event in
+Current, Archive and Dates pending at 320/1440px, including all three event tabs.
+External media is blocked. Unknown source rounds remain explicit; a fixture
+feed cannot prove a complete draw or seeding before it is published.
