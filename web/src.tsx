@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import {
   HashRouter,
   NavLink,
+  Navigate,
   Route,
   Routes,
   useLocation,
@@ -178,6 +179,17 @@ function App() {
       document.documentElement.classList.remove("theme-switching"),
     );
   }, [dark]);
+  useEffect(() => {
+    const keyboard = () =>
+      (document.documentElement.dataset.input = "keyboard");
+    const pointer = () => (document.documentElement.dataset.input = "pointer");
+    window.addEventListener("keydown", keyboard);
+    window.addEventListener("pointerdown", pointer);
+    return () => {
+      window.removeEventListener("keydown", keyboard);
+      window.removeEventListener("pointerdown", pointer);
+    };
+  }, []);
   const stamp = data?.snapshot.coverage.last_verified_utc;
   const age = sourceAge(stamp, clock);
   const stale = age === null || age > 12 * 3_600_000 || data?.feedUnavailable;
@@ -197,7 +209,12 @@ function App() {
         <div className="header-inner">
           <a className="wordmark" href="#/matches">
             <span className="signal-mark" aria-hidden="true">
-              ↗
+              <svg viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M3 22 12 8h7L10 22H3ZM13 24 23 8h6L19 24h-6Z"
+                  fill="currentColor"
+                />
+              </svg>
             </span>
             StrikeSignal<span className="brand-dot">.</span>
           </a>
@@ -239,7 +256,10 @@ function App() {
             disabled={loading}
             onClick={refresh}
           >
-            <RefreshCw data-icon="inline-start" />
+            <RefreshCw
+              data-icon="inline-start"
+              className={loading ? "is-refreshing" : undefined}
+            />
             {loading ? "Checking…" : "Refresh"}
           </Button>
         </div>
@@ -277,37 +297,54 @@ function App() {
             ))}
           </div>
         )}
-        <Suspense fallback={<Skeleton className="h-28 w-full" />}>
-          <Routes>
-            <Route path="/system" element={<Showcase />} />
-            <Route path="/history/*" element={<History />} />
-            <Route
-              path="/events/*"
-              element={data ? <EventList data={data} /> : null}
-            />
-            <Route
-              path="/players/*"
-              element={data ? <Players data={data} /> : null}
-            />
-            <Route
-              path="/teams/*"
-              element={data ? <Teams data={data} /> : null}
-            />
-            <Route
-              path="/evidence"
-              element={data ? <Evidence data={data} /> : null}
-            />
-            <Route
-              path="/picks"
-              element={data ? <Matches data={data} picksOnly /> : null}
-            />
-            <Route
-              path="/matches/*"
-              element={data ? <Matches data={data} /> : null}
-            />
-            <Route path="*" element={data ? <Matches data={data} /> : null} />
-          </Routes>
-        </Suspense>
+        <div className="route-content">
+          <Suspense fallback={<Skeleton className="h-28 w-full" />}>
+            <Routes>
+              <Route path="/system" element={<Showcase />} />
+              <Route path="/history/*" element={<History />} />
+              <Route
+                path="/events/*"
+                element={data ? <EventList data={data} /> : null}
+              />
+              <Route
+                path="/players/*"
+                element={data ? <Players data={data} /> : null}
+              />
+              <Route
+                path="/teams/*"
+                element={data ? <Teams data={data} /> : null}
+              />
+              <Route
+                path="/evidence"
+                element={data ? <Evidence data={data} /> : null}
+              />
+              <Route
+                path="/picks"
+                element={data ? <Matches data={data} picksOnly /> : null}
+              />
+              <Route
+                path="/matches/*"
+                element={data ? <Matches data={data} /> : null}
+              />
+              <Route path="/" element={<Navigate to="/matches" replace />} />
+              <Route
+                path="*"
+                element={
+                  <section className="page-heading">
+                    <div>
+                      <h1 tabIndex={-1}>Page not found</h1>
+                      <p>
+                        <NavLink to="/matches">
+                          Return to the match centre
+                        </NavLink>
+                      </p>
+                    </div>
+                  </section>
+                }
+              />
+            </Routes>
+          </Suspense>
+        </div>
         <footer className="site-footer">
           <span>CS2, with the evidence in view.</span>
           <NavLink to="/evidence">Data & model</NavLink>

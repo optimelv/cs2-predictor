@@ -44,6 +44,27 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Separator } from "@/components/ui/separator";
 import { Label } from "@/components/ui/label";
 
+import { Series } from "@/components/series";
+import { BracketLane } from "@/components/bracket-lane";
+import { type Match, type DeskData } from "@/lib/data";
+const specimenData: DeskData = {
+  snapshot: { coverage: { events: [], daily_matches: [] } },
+  players: [],
+  assets: {},
+  warnings: [],
+};
+const specimen: Match = {
+  match_id: "specimen:final",
+  event_name: "Design specimen",
+  team1_name: "A very long international Counter-Strike team name",
+  team2_name: "Second team",
+  status: "finished",
+  score1: 0,
+  score2: 2,
+  series_format: "bo3",
+  match_date: "2026-11-01",
+};
+
 export function Showcase() {
   const [busy, setBusy] = useState(false);
   return (
@@ -51,14 +72,15 @@ export function Showcase() {
       <header className="page-heading">
         <div>
           <h1 tabIndex={-1}>StrikeSignal interface system</h1>
-          <p>One set of foundations. Every state accounted for.</p>
+          <p>Circuit: shared components, spacing and tested product states.</p>
         </div>
         <Badge variant="secondary">React · TypeScript · shadcn</Badge>
       </header>
       <section>
         <h2>Foundations</h2>
         <p>
-          True-black surfaces, local Sora and one orange signal on the data.
+          Blue-slate surfaces, local Sora and an orange signal for forecasts and
+          winners.
         </p>
         <div className="swatches">
           {[
@@ -378,6 +400,78 @@ export function Showcase() {
               brightness filters.
             </p>
           </div>
+        </div>
+      </section>
+      <section data-testid="product-specimens">
+        <h2>Product geometry and boundary states</h2>
+        <p>
+          Layout specimens use fictional teams. These are the same series
+          component and bracket renderer used in events.
+        </p>
+        <div className="match-grid">
+          <Series match={specimen} data={specimenData} />
+          <Series
+            match={{
+              ...specimen,
+              match_id: "specimen:pending",
+              status: "upcoming",
+              score1: undefined,
+              score2: undefined,
+            }}
+            data={specimenData}
+          />
+          <Series
+            match={{
+              ...specimen,
+              match_id: "specimen:draw",
+              team1_name: "TBD",
+              team2_name: "TBD",
+            }}
+            data={specimenData}
+            formatGuide
+          />
+        </div>
+        <div
+          className="bracket-viewport"
+          role="region"
+          aria-label="Bracket layout specimen"
+          tabIndex={0}
+        >
+          <BracketLane
+            lane={{
+              id: "specimen",
+              label: "Connected path · fictional results",
+              rounds: [
+                {
+                  id: "sf",
+                  label: "Semifinals",
+                  matches: [
+                    { ...specimen, match_id: "specimen:a" },
+                    {
+                      ...specimen,
+                      match_id: "specimen:b",
+                      team1_name: "Third team",
+                      team2_name: "Fourth team",
+                    },
+                  ],
+                },
+                {
+                  id: "gf",
+                  label: "Grand final",
+                  matches: [
+                    {
+                      ...specimen,
+                      match_id: "specimen:c",
+                      team1_name: "Second team",
+                      team2_name: "Fourth team",
+                      feeds_from: ["specimen:a", "specimen:b"],
+                    },
+                  ],
+                },
+              ],
+            }}
+            renderSeries={(m) => <Series match={m} data={specimenData} />}
+          />
         </div>
       </section>
       <section>

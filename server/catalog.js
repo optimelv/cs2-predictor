@@ -1,3 +1,4 @@
+import { collectEventResults } from "./event-results.js";
 import eventAliases from "../docs/lib/event-aliases.json" with { type: "json" };
 import { eventIsProductEligible } from "../docs/lib/snapshot.js";
 import { compileBracketContract } from "./bracket-contract.js";
@@ -115,39 +116,105 @@ function currentMatches(datasets) {
 }
 
 function rowsFor(resource, datasets, params) {
-  if (resource === "matches") return params.history ? datasets.history.matches.filter((row) => eventIsProductEligible({ name: row.event_name, tier: row.tier })) : currentMatches(datasets);
-  if (resource === "events") return datasets.live.events.filter(eventIsProductEligible).map((event) => ({ ...event, display_status: eventDisplayStatus(event, datasets) }));
+  if (resource === "matches") {
+    if (!params.history) return currentMatches(datasets);
+    const rows = datasets.history.matches.filter((row) =>
+      eventIsProductEligible({ name: row.event_name, tier: row.tier }),
+    );
+    if (!params.id || rows.some((m) => String(m.match_id) === params.id))
+      return rows;
+    // A newly published final can precede its inclusion in the historical export.
+    const events = [
+      ...datasets.live.events,
+      ...(datasets.predictions?.coverage?.events || []),
+    ].filter(eventIsProductEligible);
+    const published = events.flatMap((e) =>
+      [
+        ...(e.matches || []),
+        ...(e.bracket?.rounds || []).flatMap((r) => r.matches || []),
+      ].map((m) => ({
+        ...m,
+        event_name: m.event_name || e.name,
+        product_tier: m.product_tier || e.product_tier,
+      })),
+    );
+    const match = [...currentMatches(datasets), ...published].find(
+      (m) => String(m.match_id) === params.id && matchHasRecordedResult(m),
+    );
+    return match ? [{ ...match, status: "finished" }] : rows;
+  }
+  if (resource === "events")
+    return datasets.live.events
+      .filter(eventIsProductEligible)
+      .map((event) => ({
+        ...event,
+        display_status: eventDisplayStatus(event, datasets),
+      }));
   if (resource === "players") return datasets.players.players;
-  if (resource === "rankings") return datasets.predictions?.coverage?.vrs?.teams || datasets.live.rankings?.teams || [];
+  if (resource === "rankings")
+    return (
+      datasets.predictions?.coverage?.vrs?.teams ||
+      datasets.live.rankings?.teams ||
+      []
+    );
   return null;
 }
 
 function eventMatches(datasets, event) {
-  const id = String(event.id || "");
-  const name = normalize(event.name);
-  return currentMatches(datasets).filter((match) => String(match.event_id || "") === id || normalize(match.event_name) === name);
+  return collectEventResults(
+    event,
+    [
+      ...(datasets.predictions?.coverage?.events || []),
+      ...datasets.live.events,
+    ],
+    datasets.history.matches,
+    currentMatches(datasets),
+  );
 }
 
 function bracketState(datasets, eventQuery) {
-  const needle = normalize(eventQuery);
+  const needle = normalize(eventAliases[eventQuery] || eventQuery);
   const projection = datasets.predictions?.major_projection;
-  let event = datasets.live.events.find((row) => {
+  let event = [
+    ...datasets.live.events,
+    ...(datasets.predictions?.coverage?.events || []),
+  ].find((row) => {
     const id = normalize(eventAliases[row.id] || row.id);
     const name = normalize(row.name);
     return id === needle || name === needle;
   });
-  if (!event && projection && [projection.event_id, projection.stage].some((value) => normalize(value) && (normalize(value).includes(needle) || needle.includes(normalize(value))))) {
+  if (
+    !event &&
+    projection &&
+    [projection.event_id, projection.stage].some(
+      (value) =>
+        normalize(value) &&
+        (normalize(value).includes(needle) ||
+          needle.includes(normalize(value))),
+    )
+  ) {
     event = {
       id: projection.event_id,
-      name: String(projection.stage || projection.event_id).replace(/\s+(stage\s*\d+|playoffs).*$/i, ""),
+      name: String(projection.stage || projection.event_id).replace(
+        /\s+(stage\s*\d+|playoffs).*$/i,
+        "",
+      ),
       status: projection.stage_status,
       current_stage: projection.stage,
-      format: projection.format || { type: "swiss", label: "Swiss into playoffs", settings: {} },
+      format: projection.format || {
+        type: "swiss",
+        label: "Swiss into playoffs",
+        settings: {},
+      },
       participants: (projection.seed_rows || []).map((row) => row.team_name),
     };
   }
   if (!event) return null;
-  return compileBracketContract(event, eventMatches(datasets, event).map(matchSummary), projection);
+  return compileBracketContract(
+    event,
+    eventMatches(datasets, event).map(matchSummary),
+    projection,
+  );
 }
 
 function filteredRows(resource, rows, params) {

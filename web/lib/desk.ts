@@ -18,6 +18,7 @@ export interface Match {
   team1_name: string;
   team2_name: string;
   starts_at?: string;
+  match_date?: string;
   status?: string;
   score1?: number | null;
   score2?: number | null;
@@ -27,6 +28,8 @@ export interface Match {
   round_name?: string;
   stage_name?: string;
   slot_id?: string;
+  feeds_from?: string[];
+  alternate_match_ids?: string[];
   product_tier?: string;
   data_quality?: string;
   model_coverage?: string;
@@ -488,4 +491,34 @@ export function mergeDesk(
     players: [...byId.values()],
     assets: { ...current.assets, ...incoming.assets },
   };
+}
+
+export function eventPhase(
+  event: Event,
+  now = Date.now(),
+): "current" | "archive" | "unscheduled" {
+  const end = Date.parse(
+    event.end_date ? event.end_date.slice(0, 10) + "T23:59:59Z" : "",
+  );
+  if (
+    /finished|completed|cancelled|canceled/.test(event.status || "") ||
+    (Number.isFinite(end) && end < now)
+  )
+    return "archive";
+  const rows = event.matches || [];
+  if (Number.isFinite(end) && end >= now) return "current";
+  if (rows.length && rows.every(isFinal)) return "archive";
+  const latest = Math.max(
+    ...rows
+      .map((m) => Date.parse(m.starts_at || m.match_date || ""))
+      .filter(Number.isFinite),
+  );
+  if (!event.start_date && latest < now - 86400000 && Number.isFinite(latest))
+    return "archive";
+  if (
+    event.start_date ||
+    rows.some((m) => Date.parse(m.starts_at || "") >= now)
+  )
+    return "current";
+  return "unscheduled";
 }
