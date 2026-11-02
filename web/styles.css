@@ -2132,3 +2132,11 @@ html[data-input="keyboard"] .series-details {
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 600px) {
+  [data-slot="tabs-list"][aria-label="Filter matches"] {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+}

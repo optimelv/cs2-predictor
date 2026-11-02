@@ -98,6 +98,20 @@ try {
       .first()
       .evaluate((e) => getComputedStyle(e).borderRadius);
     assert.equal(matchRadius, "8px");
+    if (width < 600) {
+      const boxes = await page
+        .getByRole("tablist", { name: "Filter matches" })
+        .getByRole("tab")
+        .evaluateAll((els) =>
+          els.map((e) => ({
+            top: e.getBoundingClientRect().top,
+            left: e.getBoundingClientRect().left,
+          })),
+        );
+      assert.equal(boxes[0].top, boxes[1].top);
+      assert.equal(boxes[2].top, boxes[3].top);
+      assert.equal(boxes[0].left, boxes[2].left);
+    }
     assert.ok(await page.locator(".match-day").count());
     for (const heading of await page.locator(".match-day").all()) {
       assert.equal(
@@ -141,6 +155,22 @@ try {
     );
     assert.ok(
       await page.getByText("Official VRS rank", { exact: true }).count(),
+    );
+    const teamNames = await page
+      .locator(".team-directory .team bdi")
+      .allTextContents();
+    const keys = teamNames.map((s) =>
+      s
+        .normalize("NFKD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, " ")
+        .trim(),
+    );
+    assert.equal(
+      new Set(keys).size,
+      keys.length,
+      "Teams appear once across case variants",
     );
     await fits();
     await page.screenshot({

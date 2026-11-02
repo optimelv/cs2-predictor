@@ -20,13 +20,17 @@ export function Teams({ data }: { data: DeskData }) {
   const official = data.snapshot.coverage.vrs;
   const ratings = data.snapshot.model_state?.teams || [];
   const names = [
-    ...new Set([
-      ...ratings.map((t) => t.team_name),
-      ...(official?.teams || []).map((t) => t.team_name),
-      ...allMatches(data).flatMap((m) => [m.team1_name, m.team2_name]),
-      ...data.players.map((p) => p.team_name || ""),
-    ]),
-  ].filter(Boolean);
+    ...new Map(
+      [
+        ...data.players.map((p) => p.team_name || ""),
+        ...allMatches(data).flatMap((m) => [m.team1_name, m.team2_name]),
+        ...ratings.map((t) => t.team_name),
+        ...(official?.teams || []).map((t) => t.team_name),
+      ]
+        .filter(Boolean)
+        .map((name) => [teamKey(name), name]),
+    ).values(),
+  ];
   const name = names.find((n) => teamKey(n) === teamKey(selected || "")),
     rating = name ? teamRating(data, name) : undefined;
   if (name) {

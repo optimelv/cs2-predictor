@@ -170,3 +170,8 @@ feature cards, the real interface replaces stock imagery/video, supporting
 12px labels follow the product scale, and restrained motion follows Emil's
 reduced-motion/frequent-interaction guidance. Blocked remote artwork is not
 evidence that its source URL is broken. No complete Taste pass is claimed.
+
+Phone match filters form an explicit 2x2 grid instead of an accidental 3+1 wrap.
+The team directory merges case/spacing variants with the existing team key and
+prefers official display names. Repeated organizations in official roster input
+remain ambiguous for ranking; merging display names must not assign a roster.
