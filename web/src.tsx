@@ -3,7 +3,6 @@ import { createRoot } from "react-dom/client";
 import {
   HashRouter,
   NavLink,
-  Navigate,
   Route,
   Routes,
   useLocation,
@@ -23,6 +22,9 @@ import {
 import { readLocal } from "@/lib/storage";
 import { FollowProvider } from "@/components/follow";
 import "./styles.css";
+const Home = lazy(() =>
+  import("@/views/home").then((m) => ({ default: m.Home })),
+);
 const EventList = lazy(() =>
   import("@/views/events").then((m) => ({ default: m.EventList })),
 );
@@ -72,7 +74,7 @@ class ErrorBoundary extends React.Component<
 function RouteFocus() {
   const { pathname } = useLocation();
   useEffect(() => {
-    document.title = `StrikeSignal — ${pathname.includes("events") ? "Events" : pathname.includes("players") ? "Players" : pathname.includes("teams") ? "Teams" : pathname.includes("system") ? "Interface system" : "Match desk"}`;
+    document.title = `StrikeSignal — ${pathname === "/" ? "CS2 intelligence" : pathname.includes("events") ? "Events" : pathname.includes("players") ? "Players" : pathname.includes("teams") ? "Teams" : pathname.includes("system") ? "Interface system" : "Match desk"}`;
     window.scrollTo(0, 0);
     const main = document.getElementById("main-content");
     const observer = new MutationObserver(focusHeading);
@@ -207,7 +209,7 @@ function App() {
       </a>
       <header className="site-header">
         <div className="header-inner">
-          <a className="wordmark" href="#/matches">
+          <a className="wordmark" href="#/">
             <span className="signal-mark" aria-hidden="true">
               <svg viewBox="0 0 32 32" fill="none">
                 <path
@@ -326,7 +328,7 @@ function App() {
                 path="/matches/*"
                 element={data ? <Matches data={data} /> : null}
               />
-              <Route path="/" element={<Navigate to="/matches" replace />} />
+              <Route path="/" element={<Home data={data} />} />
               <Route
                 path="*"
                 element={
@@ -392,7 +394,7 @@ if (!location.hash.startsWith("#/")) {
           featured: "events",
           model: "evidence",
           desk: "picks",
-        }[old] || (old === "players" || old === "events" ? old : "matches")),
+        }[old] || (old === "players" || old === "events" ? old : "")),
     );
   }
 }

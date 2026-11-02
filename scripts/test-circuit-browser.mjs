@@ -28,10 +28,18 @@ try {
     } catch {}
     await delay(100);
   }
-  const chrome = process.env.CHROME_BIN || "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
+  const chrome =
+    process.env.CHROME_BIN ||
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome";
   let executablePath;
-  try { await access(chrome); executablePath = chrome; } catch {}
-  browser = await chromium.launch({headless:true,...(executablePath ? {executablePath} : {})});
+  try {
+    await access(chrome);
+    executablePath = chrome;
+  } catch {}
+  browser = await chromium.launch({
+    headless: true,
+    ...(executablePath ? { executablePath } : {}),
+  });
   const context = await browser.newContext({
     viewport: { width: 1440, height: 1000 },
   });
@@ -272,6 +280,13 @@ try {
       assert.equal(
         await p.locator("html").getAttribute("data-input"),
         "keyboard",
+      );
+      assert.ok(
+        await p
+          .locator('[data-slot="tabs-content"]')
+          .evaluateAll((ns) =>
+            ns.every((n) => getComputedStyle(n).animationName === "none"),
+          ),
       );
       const durations = await p
         .locator('[data-slot="button"]')

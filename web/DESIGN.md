@@ -59,6 +59,9 @@ Product view spacing outside these tokens fails `test-design-system.mjs`.
 Shadcn internals retain their package geometry. Views use the shared compositions.
 Max canvas 1240px including gutters; desktop gutters 24px, phone gutters 16px.
 Cards 16/24px inset, sections 32/48px apart, control groups 12/16px gap.
+Cards share an 8px radius (`--radius-card`); controls use `--radius-control`.
+Date groups use an unclipped line box. Crests use a centered grid frame,
+contain-fit artwork and zero minimum size; no per-logo vertical offsets.
 All flex/grid content columns use min-width zero or minmax(0,1fr). Horizontal
 scroll belongs to the labelled bracket viewport, never the page.
 
@@ -68,6 +71,8 @@ scroll belongs to the labelled bracket viewport, never the page.
 |---|---|---|
 | Header/navigation | 320px, desktop, current route, keyboard | Brand and controls first; phone nav on second row; one current-route indicator |
 | Page/object heading | long title, one action, narrow viewport | Shared gap; action moves below on phone; no manual per-title offset |
+| Landing | empty feed, failed load, live/final/unknown forecast, phone | Actual match data; preview selector and routes; no invented activity |
+| Rankings | official-only team, stale model rank, ambiguous rosters, absent forecast | Dated official VRS and model Elo stay separate; unknown predicted VRS explicit |
 | Match row | fixture, result, missing forecast, cancelled, long team, failed crest | Two team rows, numeric column, separate context; genuine zero stays zero; missing stays dash |
 | Match list | multiple days, empty filter, more results, saved picks | Day separators; Schedule and Results are disjoint; Following is explicitly personal |
 | Event list | current, archived, undated, search empty, long event name | Current/Archive/Dates pending are disjoint; no duplicate All view |
@@ -103,13 +108,15 @@ Third-place matches do not become an input to the final.
 
 ## Motion contract
 
-Pointer press: 150ms, subtle scale. Row arrow: 180ms, 2px movement on fine hover.
+Pointer press: 160ms, scale .97. Row arrow: 180ms, 2px movement on fine hover.
 Series detail and entering tab panel: 180ms, 6px reveal with
-cubic-bezier(.16,1,.3,1). The departing panel leaves layout immediately; two tab
+cubic-bezier(.23,1,.32,1). The departing panel leaves layout immediately; two tab
 panels must never stack during animation. Refresh rotation exists only during
 an active request. No ambient animation, animated scores or artificial loading.
 Keyboard navigation suppresses decorative motion. Reduced-motion preference
-suppresses animations and transforms. Resizing connectors is immediate.
+suppresses animations and transforms, retaining 150ms color feedback. Resizing
+connectors is immediate. The landing hero uses a one-time 400/500ms entry;
+marketing motion does not apply to repeated data navigation.
 
 ## Verification and limits
 
@@ -127,3 +134,44 @@ remain under the labelled classic tools link. PandaScore's fixture feed does not
 provide complete current player traits/photos. Stored profile coverage and
 unknown archive rounds remain explicit data limits. No historical collection or
 HLTV access was started for this redesign.
+
+## Rounded-card and landing review — 2 November 2026
+
+Taste direction: one-motif, seed 339719551, retaining the product palette and
+typeface. The probability split is the motif. The dealt folder-stack hero was
+adapted into a real match preview to honor the requested rounded cards.
+Actual match desk, events, players, teams, saved picks and classic tournament
+simulator remain linked.
+
+`node scripts/test-design-regressions.mjs`:
+320/390/768/1440px date glyph containment, equal match/event radius, no page
+overflow, preview/detail navigation, rankings and wide/tall/square logo centering.
+Landing contrast is checked in both themes. Synthetic artwork checks the frame,
+not the optical center of every remote asset. External requests remain blocked.
+Screenshots: outputs/product-readiness/rounded-review.
+
+Emil review: reduced-motion feedback changed from .01ms for all properties to
+color-only 150ms; hover is fine-pointer-only; press and overlay easing share a
+token; keyboard tab panels explicitly test no animation. This retains feedback
+without decorative movement or sticky touch hover. Physical touch testing is open.
+
+Predicted VRS remains unavailable: model Elo ordering is not Valve's next
+ranking. Current inputs lack complete roster/prize history; Valve's public
+example match dataset is from 2023. Latest dated official standings take
+precedence over older model-embedded VRS. Multiple rosters with one organization
+name stay ambiguous. No numerical forecast is fabricated.
+
+Taste static landing lint: 0 failures, 0 warnings. Render inspection found a
+real skip-link specificity/contrast regression; fixed with an explicit anchor
+selector and added focused skip-link axe coverage in both themes. Its remaining
+marketing heuristics are not universal acceptance gates here: rounded outlined
+cards are expressly requested, arrow links are navigation rather than icon
+feature cards, the real interface replaces stock imagery/video, supporting
+12px labels follow the product scale, and restrained motion follows Emil's
+reduced-motion/frequent-interaction guidance. Blocked remote artwork is not
+evidence that its source URL is broken. No complete Taste pass is claimed.
+
+Phone match filters form an explicit 2x2 grid instead of an accidental 3+1 wrap.
+The team directory merges case/spacing variants with the existing team key and
+prefers official display names. Repeated organizations in official roster input
+remain ambiguous for ranking; merging display names must not assign a roster.

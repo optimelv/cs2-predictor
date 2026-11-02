@@ -235,10 +235,66 @@ try {
 }
 
 const reference = Date.parse("2026-11-02T12:00:00Z");
-assert.equal(desk.eventPhase({end_date:"2026-11-01"},reference),"archive");
-assert.equal(desk.eventPhase({start_date:"2026-11-03"},reference),"current");
-assert.equal(desk.eventPhase({matches:[{...final,starts_at:undefined}]},reference),"archive");
-assert.equal(desk.eventPhase({},reference),"unscheduled");
-assert.equal(desk.eventPhase({matches:[{...match,starts_at:"2026-11-03T12:00:00Z"}]},reference),"current");
+assert.equal(desk.eventPhase({ end_date: "2026-11-01" }, reference), "archive");
+assert.equal(
+  desk.eventPhase({ start_date: "2026-11-03" }, reference),
+  "current",
+);
+assert.equal(
+  desk.eventPhase({ matches: [{ ...final, starts_at: undefined }] }, reference),
+  "archive",
+);
+assert.equal(desk.eventPhase({}, reference), "unscheduled");
+assert.equal(
+  desk.eventPhase(
+    { matches: [{ ...match, starts_at: "2026-11-03T12:00:00Z" }] },
+    reference,
+  ),
+  "current",
+);
 
-assert.equal(desk.eventPhase({end_date:"2026-11-05",matches:[final]},reference),"current","A partial completed round does not archive an ongoing event");
+assert.equal(
+  desk.eventPhase({ end_date: "2026-11-05", matches: [final] }, reference),
+  "current",
+  "A partial completed round does not archive an ongoing event",
+);
+
+const ranked = {
+  ...data,
+  snapshot: {
+    ...data.snapshot,
+    model_state: {
+      teams: [
+        {
+          team_name: "Team Alpha",
+          elo: 1800,
+          vrs_rank: 8,
+          vrs_points: 1200,
+          ranking_date: "2026-10-01",
+        },
+      ],
+    },
+    coverage: {
+      ...data.snapshot.coverage,
+      vrs: {
+        as_of: "2026-11-01",
+        teams: [
+          { team_name: "Team Alpha", rank: 3, points: 1700 },
+          { team_name: "New Team", rank: 1, points: 1900 },
+        ],
+      },
+    },
+  },
+};
+assert.equal(desk.teamRating(ranked, "team alpha").vrs_rank, 3);
+assert.equal(desk.teamRating(ranked, "team alpha").elo, 1800);
+assert.equal(desk.teamRating(ranked, "New Team").vrs_rank, 1);
+assert.equal(desk.teamRating(ranked, "Unknown"), undefined);
+ranked.snapshot.coverage.vrs.as_of = "2026-09-01";
+assert.equal(desk.teamRating(ranked, "Team Alpha").vrs_rank, 8);
+ranked.snapshot.coverage.vrs.teams.push({
+  team_name: "Team Alpha",
+  rank: 10,
+  points: 900,
+});
+assert.equal(desk.teamRating(ranked, "Team Alpha").vrs_rank, undefined);

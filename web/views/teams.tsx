@@ -9,6 +9,7 @@ import {
   dateLabel,
   allMatches,
   teamKey,
+  teamRating,
   number,
   matchState,
   type DeskData,
@@ -16,16 +17,22 @@ import {
 export function Teams({ data }: { data: DeskData }) {
   const { "*": selected } = useParams();
   const [query, setQuery] = useState("");
+  const official = data.snapshot.coverage.vrs;
   const ratings = data.snapshot.model_state?.teams || [];
   const names = [
-    ...new Set([
-      ...ratings.map((t) => t.team_name),
-      ...allMatches(data).flatMap((m) => [m.team1_name, m.team2_name]),
-      ...data.players.map((p) => p.team_name || ""),
-    ]),
-  ].filter(Boolean);
+    ...new Map(
+      [
+        ...data.players.map((p) => p.team_name || ""),
+        ...allMatches(data).flatMap((m) => [m.team1_name, m.team2_name]),
+        ...ratings.map((t) => t.team_name),
+        ...(official?.teams || []).map((t) => t.team_name),
+      ]
+        .filter(Boolean)
+        .map((name) => [teamKey(name), name]),
+    ).values(),
+  ];
   const name = names.find((n) => teamKey(n) === teamKey(selected || "")),
-    rating = ratings.find((t) => teamKey(t.team_name) === teamKey(name || ""));
+    rating = name ? teamRating(data, name) : undefined;
   if (name) {
     const players = data.players.filter(
         (p) => teamKey(p.team_name || "") === teamKey(name),
@@ -58,9 +65,9 @@ export function Teams({ data }: { data: DeskData }) {
           </div>
           <Follow kind="teams" id={teamKey(name)} name={name} />
         </header>
-        <div className="profile-facts">
+        <div className="profile-facts team-profile-facts">
           <div>
-            <span>Stored VRS rank</span>
+            <span>Official VRS rank</span>
             <strong>{number(rating?.vrs_rank) ?? "—"}</strong>
           </div>
           <div>
@@ -68,10 +75,24 @@ export function Teams({ data }: { data: DeskData }) {
             <strong>{number(rating?.vrs_points) ?? "—"}</strong>
           </div>
           <div>
+            <span>Predicted VRS rank</span>
+            <strong aria-label="Unavailable">—</strong>
+          </div>
+          <div>
             <span>Model Elo</span>
-            <strong>{number(rating?.elo)?.toFixed(0) ?? "—"}</strong>
+            <strong>
+              {number(
+                ratings.find((t) => teamKey(t.team_name) === teamKey(name))
+                  ?.elo,
+              )?.toFixed(0) ?? "—"}
+            </strong>
           </div>
         </div>
+        <p className="profile-source subline">
+          VRS forecast unavailable: the current feed does not include the
+          complete roster and prize-allocation history needed to reproduce
+          Valve’s standings. Model Elo is not a VRS forecast.
+        </p>
         <div className="section-heading">
           <h2>Cached player affiliations</h2>
           <p>
@@ -139,9 +160,8 @@ export function Teams({ data }: { data: DeskData }) {
     .filter((n) => n.toLowerCase().includes(query.toLowerCase()))
     .sort(
       (a, b) =>
-        (ratings.find((t) => t.team_name === a)?.vrs_rank || 9999) -
-          (ratings.find((t) => t.team_name === b)?.vrs_rank || 9999) ||
-        a.localeCompare(b),
+        (teamRating(data, a)?.vrs_rank || 9999) -
+          (teamRating(data, b)?.vrs_rank || 9999) || a.localeCompare(b),
     );
   return (
     <>
@@ -149,7 +169,8 @@ export function Teams({ data }: { data: DeskData }) {
         <div>
           <h1 tabIndex={-1}>The teams</h1>
           <p>
-            Rankings retain their source date. Model Elo is a separate estimate.
+            Official Valve standings at their source date. Forecasts are listed
+            separately.
           </p>
         </div>
         <span className="count">{names.length} teams</span>
@@ -163,14 +184,20 @@ export function Teams({ data }: { data: DeskData }) {
           onChange={(e) => setQuery(e.target.value)}
         />
       </Field>
-      <div className="data-table team-directory">
+      <p className="profile-source subline">
+        Predicted VRS ranks are unavailable until complete roster and
+        prize-allocation inputs can be verified. An Elo-based strength rank
+        would measure something different.
+      </p>
+      <div className="data-table team-directory vrs-directory">
         <div className="data-row table-head">
           <span>Team</span>
-          <span>Stored VRS rank</span>
+          <span>Official VRS rank</span>
+          <span>Predicted VRS rank</span>
           <span>Model Elo</span>
         </div>
         {rows.slice(0, 150).map((n) => {
-          const r = ratings.find((t) => t.team_name === n);
+          const r = teamRating(data, n);
           return (
             <Link
               className="data-row"
@@ -179,7 +206,12 @@ export function Teams({ data }: { data: DeskData }) {
             >
               <Team name={n} data={data} />
               <span>{number(r?.vrs_rank) ?? "—"}</span>
-              <span>{number(r?.elo)?.toFixed(0) ?? "—"}</span>
+              <span aria-label="VRS forecast unavailable">—</span>
+              <span>
+                {number(
+                  ratings.find((t) => teamKey(t.team_name) === teamKey(n))?.elo,
+                )?.toFixed(0) ?? "—"}
+              </span>
             </Link>
           );
         })}
