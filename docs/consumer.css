@@ -766,9 +766,10 @@ body:is(.team-drawer-open, .player-compare-open, .search-open, .my-desk-open, .v
 .match-day-select { display: none; }
 
 /* Release composition: preserve the app's dense tables, give decisions room. */
-/* Monochrome source crests keep black and white marks legible in both themes. */
-:root .team-logo { filter: grayscale(1) brightness(0); }
-:root[data-theme="dark"] .team-logo { filter: grayscale(1) brightness(0) invert(1); }
+/* Raster crests may include an opaque background. Inverting the complete
+   image turns that background into a solid white rectangle. Preserve artwork. */
+:root .team-logo { filter: none; object-fit: contain; }
+.event-team-stack .team-logo { background-color: transparent; padding: 0; }
 .source-status[data-state] { background: transparent; }
 .match-time.is-live { background: transparent; color: var(--color-accent); animation: none; }
 .header-search, .theme-control select { border-color: transparent; border-radius: 0; background: var(--surface); }

@@ -98,3 +98,12 @@ assert.equal(futureDouble.lanes[0].rounds.length, 3);
 assert.equal(futureDouble.lanes[1].rounds.length, 4);
 assert.equal(futureDouble.lanes[2].rounds[0].matches[0].feeds_from.length, 2);
 console.log("bracket contract tests ok");
+
+for (const absent of [null, undefined, "", " ", false, true]) {
+  const value = compileBracketContract({id:'missing', name:'Unknown format'}, [{match_id:'m', team1_name:'A',team2_name:'B',status:'finished',score1:absent,score2:2,prob_team1:absent,predicted_winner:'A'}]);
+  assert.equal(value.matches[0].score1,null);
+  assert.equal(value.matches[0].prob_team1,null);
+  assert.equal(value.matches[0].winner_name,'', 'Missing score cannot prove a winner');
+}
+const projectedWinner=compileBracketContract({id:'upcoming',name:'Unknown'},[{team1_name:'A',team2_name:'B',status:'upcoming',predicted_winner:'A',winner_name:'A'}]);
+assert.equal(projectedWinner.matches[0].winner_name,'', 'Predictions never become results');

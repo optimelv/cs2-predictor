@@ -3,6 +3,7 @@ import { generateFormatLanes } from "../docs/lib/bracket-generator.js";
 
 const normalize = (value) => String(value || "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 const clean = (value) => String(value ?? "").trim();
+const finite = (value) => value == null || typeof value === "boolean" || String(value).trim() === "" || !Number.isFinite(Number(value)) ? null : Number(value);
 
 function matchId(match) {
   return clean(match.match_id || match.hltv_match_id)
@@ -19,17 +20,19 @@ function matchStatus(match) {
 }
 
 function winnerName(match) {
-  if (match.winner_name || match.winner) return clean(match.winner_name || match.winner);
-  const score1 = Number(match.score1);
-  const score2 = Number(match.score2);
-  if (matchStatus(match) === "finished" && Number.isFinite(score1) && Number.isFinite(score2) && score1 !== score2) {
+  if (matchStatus(match) !== "finished") return "";
+  const declared = clean(match.winner_name || match.winner);
+  if ([clean(match.team1_name), clean(match.team2_name)].includes(declared)) return declared;
+  const score1 = finite(match.score1);
+  const score2 = finite(match.score2);
+  if (score1 !== null && score2 !== null && score1 !== score2) {
     return score1 > score2 ? clean(match.team1_name) : clean(match.team2_name);
   }
-  return clean(match.predicted_winner);
+  return "";
 }
 
 function normalizeMatch(match, roundLabel, groupLabel = "") {
-  const probability = Number(match.prob_team1);
+  const probability = finite(match.prob_team1);
   return {
     match_id: matchId(match),
     team1_name: clean(match.team1_name) || "TBD",
@@ -39,12 +42,12 @@ function normalizeMatch(match, roundLabel, groupLabel = "") {
     series_format: clean(match.series_format || match.format || "bo3").toLowerCase(),
     round_name: clean(match.round_name || match.round || match.stage_name || roundLabel),
     group_label: clean(groupLabel),
-    score1: Number.isFinite(Number(match.score1)) ? Number(match.score1) : null,
-    score2: Number.isFinite(Number(match.score2)) ? Number(match.score2) : null,
+    score1: finite(match.score1),
+    score2: finite(match.score2),
     score_label: clean(match.score_label),
     winner_name: winnerName(match),
     predicted_winner: clean(match.predicted_winner),
-    prob_team1: Number.isFinite(probability) ? Math.max(0, Math.min(1, probability)) : null,
+    prob_team1: probability !== null && probability >= 0 && probability <= 1 ? probability : null,
     slot_id: clean(match.slot_id),
     feeds_from: Array.isArray(match.feeds_from) ? match.feeds_from.map(clean).filter(Boolean) : [],
     team1_source: match.team1_source || null,
