@@ -78565,7 +78565,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
       "signal_index_through_date": null
     }
   ],
-  "lineups_updated_at_utc": "2026-11-02T01:34:47Z",
+  "lineups_updated_at_utc": "2026-11-02T01:59:51Z",
   "history_source": "HLTV official series statistics",
   "history_through_date": "2026-10-28",
   "history_profile_count": 53,
@@ -78574,7 +78574,7 @@ window.__STRIKESIGNAL_PLAYERS__ = {
   "map_profile_count": 53,
   "profiles_updated_at_utc": "2026-10-14T07:31:01.349Z",
   "profile_refresh": {
-    "checked_at_utc": "2026-11-02T01:38:41Z",
+    "checked_at_utc": "2026-11-02T02:04:10Z",
     "requested": 874,
     "cached": 645,
     "attempted": 772,
